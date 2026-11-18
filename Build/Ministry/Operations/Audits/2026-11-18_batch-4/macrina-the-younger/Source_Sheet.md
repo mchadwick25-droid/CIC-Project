@@ -223,3 +223,18 @@ D5. **One witness.** Almost everything comes from one brother who loved her, wri
 D6. **Annesi, the "double monastery", and 379** are modern placings (S2, S3, C1).
 
 D7. **Not held / not found:** any writing by Macrina herself; any feast-day or calendar entry; any text by Gregory of Nazianzus or Basil that names her.
+
+## Added for batch 4
+
+A1. **The soldier's name for her house: "the school of virtue".** CONTEMP (the soldier's words at Sebastopolis, as Gregory reports them; LIFE 348, 356). Documented as his words. Supports the heart: the house as a place where people came to learn a way of life, with a men's side and a women's side.
+> LIFE 356: "My wife and I once had an earnest desire to pay a visit to the school of virtue. For so I think the place ought to be called, in which that blessed soul had her abode.
+
+Greek (PG46 72631-72634): «Ἐγένετό τις ἡμῖν ἐπιθυμία ποτὲ τῇ γαμετῇ καὶ ἐμοὶ καταλα[θ]βεῖν, κ[χ]ατὰ σπουδὴν, τὸ τῆς ἀρετῆς φροντιστήριον, Οὕτω γὰρ οἶμαι χρῆναι,» φησὶ, «τὸν χῶρον ἐκ[χ]εῖνον κ[χ]ατονομάζ[ξ]εσθαι,» (φροντιστήριον = a house of study; by this time also a word for a monks' house.) The same passage names the two sides: ἐν τῷ ἀνδρῶνι ... ὧν καθ[χ]ηγεῖτο Πέτρος ὁ σὸς ἀδελφός ("in the men's quarters ... whom Peter your brother led") and τοῦ παρθενῶνος ("the maidens' quarters") (PG46 72642-72644).
+
+A2. **Work in the house was prayer, and her own hands worked.** CONTEMP. Documented. Supports "prayer and shared work", and limits it: Gregory names the work as prayer and hymns, and her own handwork; he does not describe farming or a trade.
+> LIFE 158: Nothing was left but the care of divine things and the unceasing round of prayer and endless hymnody, co-extensive with time itself, practised by night and day. So that to them this meant work, and work so called was rest.
+> LIFE 212: Moreover her life became such by God's help that her hands never ceased to work according to the commandment.
+
+A3. **The change came gradually, and the women were treated "as if" sisters.** CONTEMP. Documented. The *Life* does not say the slave women were freed, and it tells no single founding day: she "gradually" drew her mother on (LIFE 132), and "with the lapse of time their successes increased" (LIFE 160).
+> LIFE 138: treating all her slave girls and menials as if they were sisters and belonged to the same rank as herself.
+> LIFE 160: The period covered by this mode of life was no short one, and with the lapse of time their successes increased, as their philosophy continually grew purer with the discovery of new blessings.

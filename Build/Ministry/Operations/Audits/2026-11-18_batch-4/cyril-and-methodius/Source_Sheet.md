@@ -101,3 +101,11 @@ N2. No readable Church Slavonic of either Life. Kantor's English translation and
 N3. Nothing held describes the letters' shapes or how they were built.
 N4. Where Mount Olympus was: not stated in the held texts read here.
 N5. The Moravians' own voice survives only as the Lives report the embassy (S6, M15). The Salzburg *Conversio* is the only held voice from the opposing clergy written in Methodius's lifetime (M14).
+
+## Added for batch 4
+
+A1. **How the disciples were driven out of Moravia.** PG (the *Life of Clement*, Migne's Latin), after Methodius's death and Wiching's rise: "Quotquot autem ex presbyteris et diaconis juniores erant, hos Judæis vendebant" (PG 98396–98397). Of the teachers, Gorazd, Clement, Laurentius, Naum and Angelarius: "hos pluresque clari nominis alios, catenis ſerreis vinctos, in carceribus condidecunt [condiderunt]" (PG 98420–98429). Then they were handed to soldiers to be taken out "alium alio partium Istro adjacentium", with "perpetuum exsilium" decreed, and the soldiers, "exuentesque eos, nudos violenter extrahunt" (PG 98676–98682). LATER (D2), and openly hostile to the Franks and to Wiching's party. Documented as the *Life of Clement*'s account. The chains loosed by a wonder in between (PG 98447–98456) is a WONDER claim, left out. This replaces the softer "driven out and scattered" of I1 for the force of the expulsion.
+
+A2. **The pope's own reason, beside Q3.** J8 no. 5, letter of 880: "Neque enim tribus tantum sed omnibus linguis dominum laudare auctoritate sacra monemur" (J8 13962–13963; OCR "tribns", "unguis"), followed by Psalm 117, Acts 2 and Philippians 2. CONTEMP. Documented: the pope's letter. Not a quote for the story; it shows that the "every language" argument is the pope's own, not only the Lives'.
+
+A3. **M20 re-read** (VM 12472–12483): the line "Psalterium enim tantum et evangelium cum apostolo et electis officiis ecclesiasticis cum philosopho antea converterat" was re-read in its file. It gives no place or year for that earlier work. A second witness for the Gospel alone: LI says the Moravians had heard the brothers brought "Evangelium in illorum linguam a Philosopho praedicto translatum" (LI 11419–11420, M5). "Apostle" is the church's book of readings from the Acts and the apostles' letters; that gloss is the standard sense of the liturgical term, not words of the source.

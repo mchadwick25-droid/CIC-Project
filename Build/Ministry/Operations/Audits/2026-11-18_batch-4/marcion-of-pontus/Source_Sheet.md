@@ -125,3 +125,15 @@ N1. No year is held for his arrival at Rome, his expulsion or his death. "144" (
 N2. Neither the *Antitheses* nor his letter is held; nothing he wrote survives in the Library.
 N3. The Greek of Irenaeus's Polycarp passage (kept in Eusebius, *Church History* IV.14) is not held: the Library's Eusebius Greek is Books VI–X only (`eusebius_werke-bd2-2-historia-ecclesiastica-vi-x-...`). The Latin of Irenaeus is not held either. Quotes from Irenaeus are rendered from the ANF English.
 N4. Held but not used: Hippolytus, *Refutation* (anf05); Ephraim, *Against Marcion* (Mitchell); Chrysostom, *Homily against Marcionists*; the verse *Five Books in Reply to Marcion* (anf04). All later and from outside; none adds a life event the story needs.
+
+## Added for batch 4
+
+Added 2026-11-18 for the outline reset on the heart. Each line re-read in its file.
+
+B1. **His followers kept and used his book.** Tertullian: "They, at any rate, receive his *Antitheses*; and more than that, they make ostentatious use of them." (T 29246–29248; italics are the file's tags). Latin: "Antitheses non modo fatentur Marcionis, sed et praeferunt" (OEH 8459; OCR "^praefemnt" read as "praeferunt"): "they not only own the *Antitheses* as Marcion's, but hold them up before them". LATER (about 60 years). Documented as Tertullian's report. It also shows that the Marcionites themselves owned the book as his.
+
+B2. **He is named their founder.** Tertullian, of the Marcionite churches: "you will more easily discover apostasy in it than apostolicity, with Marcion forsooth as their founder, or some one of Marcion's swarm" (T 29326–29328). Latin "Marcione scilicet conditore, vel aliquo de Marcionis examine" (OEH 8489–8490; OCR "Marcioni" at line end). LATER. Documented as Tertullian's account; hostile ("swarm", "apostasy"). "Founder" is Tertullian's word ("conditore"), sneering in tone.
+
+B3. **"Many of every nation", in Justin's Greek.** "ὃς κατὰ πᾶν γένος ἀνθρώπων διὰ τῆς τῶν δαιμόνων συλλήψεως πολλοὺς πεποίηκε βλασφημίας λέγειν καὶ ἀρνεῖσθαι τὸν ποιητὴν τοῦδε τοῦ παντὸς θεὸν" (JG 732–734): "who, in every race of people, with the help of the demons, has made many speak blasphemies and deny God, the maker of this universe". Printed English at ANF 14945–14947 (I1). CONTEMP. Documented that Justin says it; the demons are Justin's explanation of Marcion's success, part of his hostile framing, not a fact.
+
+B4. **Not to use: "eleven books" and the "Apostolicon".** The statement that "Marcion received but eleven books of the New Testament", divided into "the Gospel" and "the Apostolicon", is an editor's note in the ANF (T 35880–35888), not Tertullian. The "(into his *Apostolicon*)" at T 40393 is in the translator's parentheses; the Latin at OEH 18284–18286 is damaged by the OCR, and the word does not appear in what survives of the line. Editor's and translator's; card at most, never story material.

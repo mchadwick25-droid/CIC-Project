@@ -481,3 +481,16 @@ Each block is the file's own lines, unedited, with line numbers. The readings in
 28222: V. Marcelli, Hilarii, Radegundis utitur, composuit. Praeterea Vitam S. Caesarii Are- 
 28223: latensis c. 8. 9. 19. 20. exscripsit. Tamen veniam Baudoniviae probae dabis, imbecil- 
 ```
+
+## Added for batch 4
+
+A1. **"The custom of the lady Radegund" in the Latin.** Dalton's English (DAL 21416–21418, I1) is his phrasing. The Latin has no "custom of Radegund": "De conviviis etiam ait, se nullam novam fecisse consuetudinem, nisi sicut actum est sub domna Radegunde" (GRL 33579–33581; "De" ends line 33579; OCR "suh" = sub; apparatus marks left out). As to the feasts, she said she had brought in no new custom, but only what was done under the lady Radegund. CONTEMP (Gregory reports the abbess's answer at the bishops' hearing, X.16). Documented. Raw lines:
+```
+33579: repromisit, cervice se inflexa^ per paenitentiam^ quicquid iuheretur^ impleret''>\ De 
+33580: conviviis etiam ait, se nullam^ novam fecisse consuetudinem^, nisi sicut actum est suh 
+33581: domna Radegunde^ , se christianis fdelihus'^ euglogias^ ohtulisse, nec sibi conprohari^ lo 
+```
+
+A2. **The abbess in the revolt was not Agnes.** "she bound the nuns by oath to join in bringing charges against the abbess Leubovera, who should then be expelled from the monastery" (DAL 19409–19411, IX.39). CONTEMP. Documented. So the abbess who read Radegund's letter aloud and sent out copies (DAL 19821–19824) is Leubovera, not Agnes, whom the letter names.
+
+A3. **The lamp before the Cross was seen in her lifetime.** Gregory came "huius reginae adirem colloquia" and "consalutatam reginam" knelt before the Cross (GRL 38122–38123; OCR "adirera"): he greeted the queen, then knelt. The wonder (I3) falls while she lived, not after her death. CONTEMP. Documented as his account.

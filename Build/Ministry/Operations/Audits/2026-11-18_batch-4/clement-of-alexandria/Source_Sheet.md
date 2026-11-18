@@ -119,3 +119,9 @@ N1. Birth place, birth year, conversion, family, death year and place. McGiffert
 N2. Clement's own Greek text. Not held; all renderings of his words are from Wilson's English.
 N3. Where Alexander was imprisoned when Clement was with him. The letter says "here" (EUS 33615) without naming it. Do not name Jerusalem or Cappadocia as Clement's location.
 N4. The Hypotyposes passage naming Pantaenus (lost; EUS note 28698–28701).
+
+## Added for batch 4
+
+B1. **The critic's charge Jerome answered, in full.** Magnus asked "why it is that sometimes in my writings I quote examples from secular literature and thus defile the whiteness of the church with the foulness of heathenism." (Letter 70.2, JER 16477–16480). LATER (Jerome, about 190 years after Clement, reporting Magnus's question). Documented as Jerome's report of the question. It shows the force of the objection that Jerome met with Clement's example (I4).
+
+B2. **What Origen's copy of the Miscellanies did, as Jerome tells it.** "Imitating his example Origen wrote ten books of Miscellanies, in which he compares together the opinions held respectively by Christians and by philosophers, and confirms all the dogmas of our religion by quotations from Plato and Aristotle, from Numenius and Cornutus." (Letter 70.4, JER 16636–16642; the translator's note markers left out). LATER. Widely Accepted for the pupil link (I1); Documented as Jerome's account of Origen's book. Origen's *Miscellanies* is not held in the Library (the translator's note, JER 16637–16639: "Of Origen's Miscellanies only a few fragments remain"), so the book's content rests on Jerome alone.
