@@ -64,3 +64,12 @@ New, each re-read in its file:
 ## Not found
 
 None.
+
+
+## Card check fixes applied verbatim, 2026-11-18
+
+- `briefReferences[0]`: "driven out by Alexander;" removed.
+- `[5]`: now "the emperor's advice to add \"of one being\"."
+- `[6]`: line range 28015-28018 and "the words written more distinctly" removed.
+- `[10]`: "as at Rome and Alexandria; canon 13..." removed.
+- `[14]`: Chalcedon recital clause removed.

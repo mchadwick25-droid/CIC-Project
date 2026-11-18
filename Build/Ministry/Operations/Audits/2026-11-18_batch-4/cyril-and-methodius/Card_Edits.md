@@ -46,3 +46,15 @@ Batch 1's `Second_Readings.md` (2026-11-17_varied-batch) records "same" for 1, 2
 ## Left alone (no longer told in the brief, not wrong)
 - briefReferences [4] "the pope comes out to meet them with Clement's relics", [8] "Wiching set up", [9] "the plain sermons", [0] "the letters made after prayer": each describes its source passage correctly.
 - Not found: none. Ginzel's 863, Wattenbach's suspicion and the other claims were not re-traced line by line. None contradicts the brief or a source read here.
+
+
+## Card check fixes applied verbatim, 2026-11-18
+
+- `briefReferences[0]`: "after prayer" removed.
+- `[4]`: pope's meeting, 14 February and age 42 removed.
+- `[5]`: "for Pannonia" and "in Swabia" removed.
+- `[7]`: preaching clause removed.
+- `[8]`: "the Slavonic letters found by Constantine" removed.
+- `[9]`: "on 6 April" and "Wiching set up" removed.
+- `[10]`: "the plain sermons" removed.
+- `[13]`: "and among the Danube Bulgarians" removed.

@@ -43,3 +43,9 @@ None.
 
 - Awaiting second reading: `quotationOriginals[0]`, the Augustine passage (N4). Its span and modern wording changed, so no verdict is copied.
 - No span is carried over unchanged, so no `secondReading` is copied.
+
+
+## Card check fixes applied verbatim, 2026-11-18
+
+- `briefReferences[1]`: removed "bread and salt once a day"; now "work with his hands, prayer, fasting."
+- `briefReferences[7]`: removed "by Evagrius of Antioch".

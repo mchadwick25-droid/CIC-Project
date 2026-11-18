@@ -25,3 +25,10 @@ None found. No card statement is contradicted by a held source or by the brief.
 ## Not found
 
 - No held reference for the brief's sentence "In those days a bishop led the church of a whole region": the outline gives it as framing (Connection), and the sheet cites no line for it. No reference added.
+
+
+## Card check fixes applied verbatim, 2026-11-18
+
+- A. `briefReferences[4]`: "Aidan from Iona" became "Iona".
+- B. New `briefReferences` entry inserted after index 4 (Ecclesiastical History III.21, IV.5, IV.12).
+- C. `sources.about[0].title` and `[1].title`: added III.21, IV.5, IV.12.

@@ -35,3 +35,10 @@ None. No statement on the card is contradicted by a held source or by the finish
 ## Not found
 
 None.
+
+
+## Card check fixes applied verbatim, 2026-11-18
+
+- `briefReferences[1]` (opening verses entry) removed.
+- `briefReferences[2]`: "married at Aachen, 824;" and "and a board game" removed.
+- `briefReferences[11]`: "and the Histoire littéraire" and the "monument respectable" phrase removed.

@@ -40,3 +40,8 @@ None.
 
 - Copied: `quotationOriginals[0]` "same"; `quotationOriginals[1]` "minor" (case of the first letter only).
 - Awaiting second reading: none. No span is new.
+
+
+## Card check fixes applied verbatim, 2026-11-18
+
+- `knownFor`: "not for an emperor to judge" became "not for a judge of this world".

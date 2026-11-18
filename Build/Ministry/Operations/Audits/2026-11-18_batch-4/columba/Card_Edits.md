@@ -55,3 +55,9 @@ Unchanged: "Adomnán, Book III: twelve disciples sailed with him." and "Annals o
 ## Not found
 
 None.
+
+
+## Card check fixes applied verbatim, 2026-11-18
+
+- `briefReferences[1]`: removed the forty-second year and the battle.
+- `briefReferences[5]`: removed ", from the fourteenth to the twentieth moon".

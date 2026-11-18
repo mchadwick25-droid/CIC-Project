@@ -32,14 +32,14 @@
   "sources": {
     "about": [
       {
-        "title": "Ecclesiastical History III.24-25, IV.23-24 and 26, and V.24 (tr. J. A. Giles, ed. L. Cecil Jane, with his notes)",
+        "title": "Ecclesiastical History III.21, III.24-25, IV.5, IV.12, IV.23-24 and 26, and V.24 (tr. J. A. Giles, ed. L. Cecil Jane, with his notes)",
         "author": "Bede",
         "date": "1903",
         "language": "English translation",
         "file": "cic/texts/bede_ecclesiastical-history-english-people_giles1903.txt"
       },
       {
-        "title": "Historia ecclesiastica gentis Anglorum III.24-25 and IV.23, in Venerabilis Baedae Opera historica, volume 1, with Plummer's Introduction",
+        "title": "Historia ecclesiastica gentis Anglorum III.21, III.24-25, IV.5, IV.12 and IV.23, in Venerabilis Baedae Opera historica, volume 1, with Plummer's Introduction",
         "author": "Bede; Charles Plummer (ed.)",
         "date": "1896",
         "language": "Latin, with English introduction",
@@ -73,7 +73,8 @@
     "Ecclesiastical History III.25: the two Easters; the synod of 664 at her monastery; Colman leading the Scots' side and Wilfrid arguing for Rome; Hild with the Scots; Oswy's ruling for Peter, keeper of heaven's keys, and all present assenting; Colman going home with those who would not accept it; no word of how Hild took the ruling.",
     "Ecclesiastical History IV.24: Caedmon at the feast, the one who stood by him in his sleep, the learned men, his making a monk and his songs of sacred history; his verses turning many minds toward heaven; others after him attempted religious poems in English, but none could match him.",
     "Ecclesiastical History V.24 and the end of the work: Bede finished in 731, about fifty years after her death.",
-    "Bede on the Scots from Ireland and Aidan from Iona (Hii).",
+    "Bede on the Scots from Ireland and Iona (Hii).",
+    "Ecclesiastical History III.21, IV.5 and IV.12 (Giles 7426-7431, 9358-9360, 9874-9880; Plummer's Latin 20711-20714, 23031-23033, 23690-23696): one bishop set over the Midland Angles and the Mercians for want of priests; the synod of Hertford putting off the making of more bishops as believers increased; Bosa, one of her five, set over the nation of the Deiri.",
     "World census, Anglo-Saxon Christianity: her tradition, converted within living memory by two missions."
   ],
   "quotationOriginals": [

@@ -38,3 +38,9 @@ Each item is a `briefReferences` entry that names something the finished brief n
 ## Not found
 
 None.
+
+
+## Card check fixes applied verbatim, 2026-11-18
+
+- `briefReferences[1]`: "Book II is the only early Life of Benedict, and Gregory tells it" became "Gregory tells Book II".
+- NOT applied, held for Mark: the fix removing `uncertain[5]` (the Totila rendering note).

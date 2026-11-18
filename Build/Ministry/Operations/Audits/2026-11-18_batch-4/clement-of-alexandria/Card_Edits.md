@@ -35,3 +35,10 @@ New items, for what the brief now draws on:
 
 - `legacy.traces`: "His Stromata keep words from the letters of Valentinus." Found in part: ANF2 32722 ("Valentinus appears also in an epistle") and 34289 ("Valentinus too, in a letter"). Left in place.
 - `legacy.remembered`, McGiffert: "long honored as a saint". McGiffert says "in ancient times commemorated as a saint" (Eusebius 28676–28678). Not contradicted; left in place.
+
+
+## Card check fixes applied verbatim, 2026-11-18
+
+- `briefReferences[2]`: "patched together" removed.
+- `briefReferences[7]`: "burnt" became "burned".
+- `briefReferences[11]`: ", after the death of Commodus" removed.

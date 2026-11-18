@@ -28,3 +28,13 @@ Base: the census card for `macrina-the-younger` in `cic-website/data/world-censu
 ## Not found
 
 None.
+
+
+## Card check fixes applied verbatim, 2026-11-18
+
+- `briefReferences[0]`: "on the floor" removed.
+- `[2]`: "betrothed at twelve" became "the match her father planned".
+- `[9]`: "Basil's death and" removed.
+- `[11]`: "and by moving her hands" removed.
+- `[13]`: lines 184-346 became 184-234; "death and burial" became "and death".
+- `quotationOriginals[0].printed`: φόβον became φόθον (the printed OCR form).

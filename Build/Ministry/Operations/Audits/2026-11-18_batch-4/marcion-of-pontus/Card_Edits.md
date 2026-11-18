@@ -33,3 +33,8 @@ Unchanged spans, `secondReading` copied from the census card: "Do you know me?" 
 ## Not found
 
 None. Checked: Sinope named only by Epiphanius, and Holl's note that only Filastrius, dependent on him, names it again (Holl 7497-7498); Holl on Tertullian's silence (7503-7505); the late offer to repent (anf03 21344-21348); Eleutherus and Anicetus (anf03 21335-21337; anf01 39983-39984). Nothing else in the card contradicts the brief.
+
+
+## Card check fixes applied verbatim, 2026-11-18
+
+- `briefReferences[6]`: now "Tertullian (anf03, line 22298): Against Marcion, in five books."
