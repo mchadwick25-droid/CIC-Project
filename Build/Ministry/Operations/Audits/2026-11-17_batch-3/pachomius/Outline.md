@@ -8,7 +8,7 @@ Every reference is to `Source_Sheet.md` (item codes) and through it to file and 
 - **Length:** about 2½ to 3 minutes (about 380 to 450 words at Neo's 150 a minute). Reason: a major figure (census `major`), and the heart needs room to be shown, not named: what the houses were like, and how the rule went from Coptic through Greek and Latin to a ninth-century abbot. The previous outline's room for how the Lives differ (the tablet, where the women's house stood) and the sword at Esneh is cut to a clause each, or to the card. Do not fill past what the beats hold.
 
 - **Setting:**
-  - Time: early 300s, after "the persecution" ended (the Lives' word; Bohairic 5093, Greek 80977; Antony's words in H2) and Constantine ruled. Dates of birth and death are uncertain (S4): say "in the early fourth century"; he died in the middle of the century, in 346 or 348.
+  - Time: early 300s, after "the persecution" ended (the Lives' word; Bohairic 5093, Greek 80977; Antony's words in H2) and Constantine ruled. Dates of birth and death are uncertain (S4): say "in the early fourth century" of his life and his conscription ("taken at about twenty for Constantine's war, early in the fourth century"), never of his birth, which no held source dates; he died in the middle of the century, in 346 or 348.
   - Place: Upper Egypt, the Thebaid, along the Nile. Born in the district of Esneh (S1). Tabennisi was "a deserted village by the river" (S2). His later head house was Phbôou (Pabau or Bau in Greek and Latin sources) (S3). Spoken words: "Upper Egypt", "the upper Nile", "a deserted village called Tabennisi". His houses stood in and by villages along the Nile, not in open desert.
   - Tradition: census `desert-monasticism`. Spoken name: "the monks of Egypt". He belongs to Egypt's Coptic-speaking church, which still keeps his feast (I4).
 
@@ -75,7 +75,8 @@ Every reference is to `Source_Sheet.md` (item codes) and through it to file and 
   - "He is buried at ..." or "his grave is lost" as fact → "the Greek Life says Theodore moved his body to another place; the Arabic Life says no one has known where".
   - Any single number of monks as fact → "Palladius counts seven thousand in his own day"; keep "about" and the witness.
   - "More than a hundred died of the plague" → "across all the monasteries, a hundred or more".
-  - "Born in 292" or "died in 348" as fact → "in the early fourth century ... he died in 346 or 348".
+  - "Born in 292" or "died in 348" as fact → "in the early fourth century ... he died in 346 or 348"; "in the early fourth century" describes his life and conscription, not his birth.
+  - "Born early in the fourth century" → "taken at about twenty for Constantine's war, early in the fourth century"; no held source dates his birth. (added from Recheck_2.md, 2026-11-18)
   - Naming the enemy in Constantine's war, or the year he was conscripted → the Lives name neither.
   - "He refused to see his sister because ..." → the record gives no motive; say only that he sent word and did not see her.
   - "Pachomius wrote the Rule himself" → "the rules of Pachomius, Theodore and Horsiesius", as Jerome names them; none of the held text is certainly in his own hand.
