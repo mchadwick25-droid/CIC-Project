@@ -26,3 +26,4 @@ None.
 ## Noticed, not changed
 
 - Leave out, first entry (line 80): "The one held link between the battle and his life is a guess in Huyshe's 1905 note" now sits beside the annal's line in beat 1 (AU 4539–4540), which is also a held link. The check did not ask to change it, so it stands; the independent check may want to look.
+Recheck fixes applied verbatim, 2026-11-18: Recheck section 3 (first Leave out entry), Outline.md line 80.

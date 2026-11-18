@@ -77,7 +77,7 @@ Sheet items (S, E, I, D, A) are in `Source_Sheet.md`, which gives the file and l
 
 **Leave out**
 
-- Any reason for his leaving Ireland beyond "a pilgrimage for Christ". Adomnán names the battle of Cooldrevny only to date the voyage. The one held link between the battle and his life is a guess in Huyshe's 1905 note, and it is about the excommunication, not the voyage (E3, E4).
+- Any reason for his leaving Ireland beyond "a pilgrimage for Christ". Adomnán names the battle of Cooldrevny only to date the voyage. Two held lines tie the battle to his life, and neither gives a reason for the voyage. The Irish annal credits the victory to his prayers (beat 1; AU 4539–4540). Huyshe's 1905 note guesses that the excommunication followed the battle (E3, AD-ed 9363–9366).
 - The excommunication at Teltown (E3): real in Adomnán. No held source gives its cause, so it cannot be told without inventing one.
 - The white horse at his last day, and the gates wonder at Brude's fortress: wonders that took a third of the old first minute. Leave both out this time; if one is wanted, use only the gates, in Adomnán's voice, in beat 5.
 - The Book of Lismore's numbers (45 years, twenty bishops and fifty students): fifteenth-century legend (D7).

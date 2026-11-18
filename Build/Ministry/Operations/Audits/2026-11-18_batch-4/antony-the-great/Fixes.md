@@ -26,3 +26,4 @@ Applied from `Outline_Check.md` section 7 (findings 1–7) and section 8 (two MI
 None.
 
 Note, not acted on (not asked by the check): `Outline.md` line 54, Who tells it, still gives Gregory as "about twenty-five years later". Finding 4 asked only for the heart and Do not say.
+Recheck fixes applied verbatim, 2026-11-18: Recheck section 3 (Who tells it, Gregory's date), Outline.md line 54.

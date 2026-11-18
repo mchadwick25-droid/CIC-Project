@@ -51,7 +51,7 @@ Sheet references (S, E, I, L, D, G, A) point to `Source_Sheet.md` in this folder
 - **Who tells it:**
   - The *Life of Antony*: written within a few years of his death (editor's dating, 356–362), long credited to Athanasius, bishop of Alexandria; its writer says he saw him many times (D1). It is a book of praise and full of wonders. Line to say aloud, inside the first minute (beat 3): "Most of what we know comes from one book, a Life written soon after his death, which the church has long credited to Athanasius, bishop of Alexandria." Turn it at once from source to subject: this book is also what carried him abroad.
   - Augustine, *Confessions*: about forty years after Antony's death, telling his own experience. He calls Antony's deeds "so recent, and almost in our own" times (AUG 12565–12566). If that is used, credit it to him.
-  - Gregory of Nazianzus (about twenty-five years later, a sermon on Athanasius), Jerome (about thirty-five years later) and Sozomen (about ninety years later): later writers. Say "a historian writing nearly a century later" for Sozomen.
+  - Gregory of Nazianzus (preaching later in the same century, a sermon on Athanasius), Jerome (about thirty-five years later) and Sozomen (about ninety years later): later writers. Say "a historian writing nearly a century later" for Sozomen.
   - How-we-know gets a sentence or two; the doubt is not the story.
 
 - **Do not say:**

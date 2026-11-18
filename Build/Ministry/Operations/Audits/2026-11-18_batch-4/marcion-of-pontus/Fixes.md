@@ -13,3 +13,4 @@
 ## Not applied
 
 None.
+Recheck fixes applied verbatim, 2026-11-18: Recheck loose end (Opening 1, Q1 rendering), Outline.md line 10.

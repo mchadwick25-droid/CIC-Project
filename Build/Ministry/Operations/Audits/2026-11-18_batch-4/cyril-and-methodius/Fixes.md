@@ -21,3 +21,4 @@ Applied to `Outline.md` from `Outline_Check.md` (verdict PASS, seven MINOR, no B
 ## Not applied
 
 None.
+Recheck fixes applied verbatim, 2026-11-18: Recheck section 1 (MINOR 1, heart), Outline.md line 5.

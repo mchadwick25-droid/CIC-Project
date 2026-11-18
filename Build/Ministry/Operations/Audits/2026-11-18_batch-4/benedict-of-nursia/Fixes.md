@@ -25,3 +25,4 @@ Applied from `Outline_Check.md`, findings 1–4 (all MINOR; no BLOCKING).
 ## Not applied
 
 None.
+Recheck fixes applied verbatim, 2026-11-18: Recheck section 1 (Item 1, Library sweep, ARDO entry), Source_Sheet.md line 227.

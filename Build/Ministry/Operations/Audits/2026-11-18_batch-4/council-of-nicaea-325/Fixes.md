@@ -21,3 +21,4 @@ Applied from `Outline_Check.md` (2026-11-18): three MINOR findings, nothing BLOC
 ## Not applied
 
 None.
+Recheck fixes applied verbatim, 2026-11-18: Recheck section 3 (Connection line), Outline.md line 34.
