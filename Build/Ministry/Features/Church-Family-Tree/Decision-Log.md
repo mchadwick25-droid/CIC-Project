@@ -4489,3 +4489,9 @@ Four kit lines put those moves in the same place every time. The options are at 
 - Toledo III and Pachomius take their rechecks' named fixes. The coordinator applied each recheck's wording; for Pachomius, "In the ninth century" was left out of it to keep the ending free of a later date. Two small factual minors were taken with them: Toledo's edict penalties put in the conditional, and Pachomius's books "that had come from Alexandria".
 - Chalcedon takes its two content fixes and may run to 560 words (about 3:45), for this council only. The outline's own cap is not changed.
 - A targeted final check on each closes the batch's authoring.
+
+## 2026-11-18 — Batch 3: drift tested against the first twelve; two endings recast (Mark, 2026-11-18)
+
+**Why.** Mark: "Before recording, can you run a comparison with the first batch to test drift". The comparison (`Build/Ministry/Operations/Audits/2026-11-17_batch-3/Drift_Comparison.md`) found batch 3 far less repetitive than the first twelve. One move survived under the variety check, though: an ending on a later writer, record or institution, in 5 of 12 by hand (Justin, Pachomius, Wyclif, Baudonivia, Alopen), and 0 by the detector, whose test is a later date and can be passed by leaving the date out.
+
+**Decided (Mark, 2026-11-18): "1"**, the report's option 1: recast two endings, Baudonivia and Alopen, so the move stands at 3 of 12. Each gets one targeted check, and then the batch goes to recording. The detector's weakness comes to Mark as a kit change for batch 4.
