@@ -135,6 +135,8 @@ Sheet references (S, M, I, K, D, Q) point to `Source_Sheet.md` in this folder. F
   - The "best of all" words were said the day before he died, not as his last words. His last heard word was "Farewell" (M17).
   - "Reform the continent" is the American conference's wording of 1784, not Wesley's own (I3).
   - Say "nearly eighty-eight" (Lee's "not quite eighty-eight"); give no birth date or exact age.
+  - The essence (priest; preaching outdoors from 1739; societies and classes; the Methodist churches) is complete by about word 150 to 175. The hook is the evening and Q1 only, in about three sentences plus the quote, with one short sentence of plain sense.
+  - Tell Nelson's hearing in the fields beat (1739). Later, say only that he became one of the preachers; do not tell the hearing after the mob.
 
 - **Leave out:**
   - The Holy Club in detail and the Oxford years: one clause for the nickname only (S3).
