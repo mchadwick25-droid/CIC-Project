@@ -16,6 +16,9 @@ Researcher's sheet for batch 5. The writer uses the outline and the kit only; th
 - **AMM** = `ammianus-marcellinus_roman-history_yonge1862.txt`. Ammianus Marcellinus, tr. Yonge.
 - **BUD** = `palladius_paradise-v1-syriac_budge1907.txt`. Budge, *The Paradise* I: the Syriac *Life of Antony*.
 - **SYN** = `patrologia-orientalis-tomus16_synaxaire-arabe-jacobite-barmahat-bachons-synaxaire-armenien-tre-fra_graffin-nau1922.txt`. The Copto-Arabic Synaxarium, French of R. Basset (OCR).
+- **JUL** = `julian_letters-1-73_wright1923.txt`. The emperor Julian, *Letters*, tr. W. C. Wright (1923); her bracketed dates are the editor's.
+- **RUF** = `eusebius_werke-bd2-2-historia-ecclesiastica-vi-x-rufinus-x-xi-grc-lat_schwartz-mommsen1908.txt`. Rufinus's Latin continuation of Eusebius, *Church History* X–XI (ed. Mommsen 1908; the file header dates it 402–403). Latin only, OCR; renderings below are mine.
+- **PHIL** = `philostorgius_ecclesiastical-history_walford1855.txt`. Philostorgius, *Church History*, held only as Photius's hostile epitome, tr. Walford (1855).
 - **CEN** = `cic-website/data/world-census.json` (not in `cic/texts/`; setting and spoken names only).
 
 **Conventions.** Line numbers are each file's own. English quotes are printed as in the file, with editors' note markers and notes left out; where a note matters it is given after the quote and marked ED. Editors' dates in brackets or notes (for example "Feb. 8–9, 356") are the editor's conversions of the chronicles' Egyptian dates and consuls; they are marked "(ED date)".
