@@ -33,7 +33,6 @@ Sheet = `Source_Sheet.md` in this folder; tags (S1, E5, I3, D2 …) point to its
   - **Mar** — a Syriac title, "my lord", given to saints and bishops (NAR 6169; BAD 16360).
   - **liturgy** — the set prayers of the church's service of holy communion (BAD 1554–1562; NAR 6168).
   - **rites** — the church's set services, here marriage and the making of priests (BAD 12305, 16357).
-  - **the three Doctors** — say "three great teachers"; in this time "doctor" means a teacher of the church, not a physician (SYN 42225).
   - **martyr ("the persecuted martyr")** — here one who suffered for the faith; he was not killed for it. The modern sense, someone put to death, would mislead (BAD 16360; E12).
   - **bishop of Rome** — say so for Leo; avoid "pope" (E16).
 - **Shape:** Teacher or thinker. The question (how God and man are one in Christ, and what to call Mary), what he taught, and who kept it. Trap: a list of books; carry it through one image from his sermon and his one surviving book.
@@ -57,7 +56,7 @@ Sheet = `Source_Sheet.md` in this folder; tags (S1, E5, I3, D2 …) point to its
 **What came of them** (about a third of the story; heaviest first)
 
 1. **His book went east** (what the Church of the East kept). The empire ordered his writings burned (E11); his Greek is lost. The Church of the East, in Persia, put the book into Syriac, perhaps in the sixth century (I1, D3). One damaged copy survived, in its patriarch's library in the mountains of Kurdistan; Western scholars noticed it in the 1890s, and it was printed in 1910 (I1). Widely Accepted (editors). The 1843 massacre and the place name Kotchanes: card, or one clause.
-2. **His name in its prayers.** Narsai, the Church of the East's great teacher, writing within about two generations, says the priest prays "imitating Mar Nestorius"; a liturgy that bears his name was directed to be said five times a year, an English visitor reported in 1852; its rites name him "the persecuted martyr"; a seventh-century life by Babai ranks him with Diodore and Theodore as its three Doctors (I2). Documented as their texts.
+2. **His name in its prayers.** Narsai, the Church of the East's great teacher, writing within about two generations, says the priest prays "imitating Mar Nestorius"; a liturgy that bears his name was directed to be said five times a year, an English visitor reported in 1852; its rites name him "the persecuted martyr" (I2). Documented as their texts.
 3. **Not their founder** (defended by the Church of the East: the faith in two natures, and his name). Around 680 its catholicos wrote that his faith was "not the invention" of Nestorius and Theodore, whose names "scandalize the simple" (I3). In 1298 a metropolitan of Nisibis wrote that they were wrongly called "Nestorians": Nestorius was not their patriarch, and they did not speak his language; they had held the faith in two natures already, and "Nestorius, then, followed them, and not they him"; asked to curse him, they refused (I3). Documented as their own account.
 4. **Two memories of his end.** In the empire, Evagrius heard from a writer that worms ate his tongue before he died (I5, hostile hearsay). In the East, Barhadbeshabba, around 600, told his exile as a saint's life: called back, he answered that the desert pleased him, and he died on the litter that carried him (I4, legend). Optional; each strictly in its witness's voice.
 
@@ -80,8 +79,7 @@ Short witness phrases elsewhere in this outline ("the earth purged of heretics",
 - Evagrius Scholasticus — link (kept his letters).
 - Narsai of Nisibis — link (named him in the prayer).
 - Barhadbeshabba 'Arbaia of Halwan — link (optional, What came 4).
-- Babai the Great — link (optional, What came 2; "a seventh-century life by Babai").
-- By role only: the emperor (Theodosius II), "a priest he had brought from Antioch" (Anastasius), John of Antioch ("his friends from Antioch"), the governor of the Thebaid, "a catholicos of the East, around 680" (George I), "a metropolitan of Nisibis, in 1298" (Abdisho), Diodore and Theodore (named only as the other two Doctors, or "two earlier teachers of Antioch").
+- By role only: the emperor (Theodosius II), "a priest he had brought from Antioch" (Anastasius), John of Antioch ("his friends from Antioch"), the governor of the Thebaid, "a catholicos of the East, around 680" (George I), "a metropolitan of Nisibis, in 1298" (Abdisho), Theodore (only inside the catholicos's line, as "an earlier teacher of Antioch").
 
 **Connection to carry into the story:** What passed east was his book and his name. When the empire ordered his writings burned (E11), the Church of the East, in Persia and outside the empire, put his last book into Syriac and kept it; that is the only reason it survives (I1, Q3). It named him in its prayers and rites as a teacher and a persecuted martyr (I2), and refused to curse him (I3). The listener must be told what the label hides, in the Church of the East's own words: it says it did not take its faith from him and was never under him. Its writers say he had never been its patriarch and that its people did not understand his language. They say it already held the faith in two natures in Christ, and honoured him as one who taught and suffered for it: "Nestorius followed them, and not they him," as its metropolitan of Nisibis put it in 1298 (I3). The name "Nestorian" was fixed on it by its opponents (census, Church of the East). Carry this through what they did (translated, prayed, refused, wrote), not a "this matters because" sentence.
 
@@ -96,7 +94,7 @@ Short witness phrases elsewhere in this outline ("the earth purged of heretics",
 - Evagrius Scholasticus — kept his exile letters; wrote of his death.
 - Narsai of Nisibis — named him in the liturgy's prayer.
 - Barhadbeshabba 'Arbaia of Halwan — wrote his life as a saint.
-- Babai the Great — named him among the three Doctors.
+- Babai the Great — his Life of George names Nestorius (link only; not told, see Leave out).
 - Theodoret of Cyrrhus — his friend; made to anathematize him at Chalcedon.
 - John Cassian — wrote against him at Leo's request.
 
@@ -106,7 +104,7 @@ Short witness phrases elsewhere in this outline ("the earth purged of heretics",
 - Socrates of Constantinople, in Nestorius's lifetime (he says Nestorius "still remains" in the Oasis): the first sermon, the persecutions, the quarrel, his verdict (E1–E3, E8, E10). Hostile on the man's temper, fair on his faith; say so where his verdict is told.
 - Evagrius, late sixth century, hostile: keeps the letters, adds the worms (E12, I5).
 - The Syriac translator (sixth century or later): the pen name (E14).
-- The Church of the East's writers: Narsai (about 500), Babai (seventh century), a catholicos (about 680), Barhadbeshabba (about 600, legend), the metropolitan of Nisibis (1298) (I2–I4).
+- The Church of the East's writers: Narsai (about 500), a catholicos (about 680), Barhadbeshabba (about 600, legend), the metropolitan of Nisibis (1298) (I2–I4).
 - Modern editors: the dates of the edict and exile, the dating of the book, and the manuscript's history (S4, E11, E13, I1). Their claims stay theirs.
 - The doubt over what he taught is not made a scene; it is said once, plainly, with the floorNote's terms: Cyril and the council judged that he split Christ in two; he denied it; historians still argue (D2).
 
@@ -138,11 +136,12 @@ Short witness phrases elsewhere in this outline ("the earth purged of heretics",
 - WRONG "Cyril bribed the court", "Cyril rigged the council" in the narrator's voice. RIGHT if told at all, "in his book Nestorius calls him 'the impious Cyril'"; Cyril's side is his sibling's.
 - WRONG "pious Mar Nestorius" (taken by the Ephesus story), "that God-assaulting tongue" (taken by the Evagrius story), "Anathema to Nestorius" (Theodoret's story). RIGHT use none of them.
 - WRONG adding feeling: "heartbroken", "bitter", "humiliated", "lonely". RIGHT his own words only; "bitter regret" is Socrates's reading (E10).
-- From Mark, 2026-11-18. WRONG any word in "Words to explain" (bishop, see, council, deposed, heretics, Arians, monk, Mother of God, Theotokos, natures, God the Word, blasphemy, communion, anathema, edict, Syriac, Church of the East, catholicos, patriarch, metropolitan, Mar, liturgy, rites, Doctors, martyr) used without its plain sense the first time it is heard. RIGHT the gloss given there, worked into that sentence, or the plain word instead.
+- From Mark, 2026-11-18. WRONG any word in "Words to explain" (bishop, see, council, deposed, heretics, Arians, monk, Mother of God, Theotokos, natures, God the Word, blasphemy, communion, anathema, edict, Syriac, Church of the East, catholicos, patriarch, metropolitan, Mar, liturgy, rites, martyr) used without its plain sense the first time it is heard. RIGHT the gloss given there, worked into that sentence, or the plain word instead.
 - Mark's ruling, 2026-11-17: the narrator witnesses each side's view and does not carry it forward. WRONG "the heretic Nestorius", "the saint Nestorius", "the martyr" in the narrator's voice. RIGHT "the Church of the East's rites call him 'the persecuted martyr'"; "Evagrius calls him…".
 
 **Leave out**
 
+- Babai's Life of George naming Diodore, Theodore and Nestorius as the "three Doctors" (SYN 42224–42238, I2): Mark, 2026-11-18: out of both stories (this one and Babai's).
 - Barhadbeshabba's wonders (the raft, the river in the desert, the patrician who begs forgiveness, Cyril's death foreseen, the "dog" exchange) (I4): legend; Nau calls one "légendaire". At most the one-line memory in What came 4.
 - The Bazaar's closing prophecy of the Vandals and Rome (BH 20678–20696): the editors' notes tie it to events of 455, after his likely death; a side issue, and its date is unclear.
 - Rome's condemnation of 430, Celestine, the Pelagian exiles, the Twelve Anathemas, and Ephesus procedure: Cyril and Ephesus siblings, or card.

@@ -39,11 +39,10 @@ Sheet items (S, E, I, D) are in `Source_Sheet.md`, which gives the file and line
   - **Magian** / **Zoroastrian**: "the Persian state religion, with its fire temples and priests called magi".
   - **feast**: "the yearly day the church remembered him" (LG-B 12434–12435).
   - **Nestorius**: "a bishop of Constantinople, condemned in 431, whom this church honoured as a teacher" (census; batch sibling).
-  - **Doctors** (alternate quote only): "teachers"; not physicians.
 - **Shape:** Founder or leader. Trap: titles and offices in place of acts. He had no office the king recognized; tell what he did: the visits, the expulsions, the book, the refusal.
 - **Sibling:**
   - `barsauma-of-nisibis` (batch 5, outline read): its job is the synods of 484–486 and their afterlife; its ending is the synod of 605 that made Theodore required study. Here 605 is at most a clause, and is not needed. Its catholicos of 484 is "Babowai", a different man; so is the catholicos Babai of 497 (D, Links). None of its quotes reused.
-  - `nestorius` (batch 5, outline read): its What came 2 may use the "three Doctors" line from Babai's *Life of George*. **That line is George's anathema, which Babai quotes in the Life** (SO-LG 42221–42238), followed by Babai's own "we will keep it" (SO-LG 42246). Whether it belongs to Nestorius's story or this one is Mark's question; it is kept below as an alternate only, and the first-choice quotes do not depend on it.
+  - `nestorius` (batch 5, outline read): shares the 612 dispute over his name. The "three Doctors" line from the *Life of George* is out of both stories (Mark, 2026-11-18). None of its quotes reused.
   - `henana-of-adiabene` (on the tree, live text read): it already tells Babai's charges against Henana (fate, the resurrection, "Chaldean", Origen) and Braun's and Labourt's views of Babai. Here Henana is a clause; none of those charges or quotes are repeated.
   - `thomas-of-marga` (on the tree): the witness; his story's own quotes are not used.
 - **Openings:**
@@ -66,14 +65,13 @@ Sheet items (S, E, I, D) are in `Source_Sheet.md`, which gives the file and line
 3. **Monasteries across the East.** Those who left Izla in the quarrel built monasteries across the north, Jacob's Beth Abe among them (I3; Documented as Thomas's account, which he reads as God's will working through strife). One sentence, in beat 2 or here.
 - **Who keeps this today:** leave out. No held source names a present-day keeper of Babai.
 
-**Quotes** (2 first-choice, 1 optional, 1 alternate)
+**Quotes** (2 first-choice, 1 optional)
 
 1. **Q1.** Verbatim (LAB 15887–15890, Labourt's French from the unpublished Syriac manuscript of the *Book of the Union*, f. 122 B; the Syriac is not held): "Ici aussi, de même, nous disons que le Christ a été crucifié, que le Christ est mort et est ressuscité, mais nous ne disons pas que Dieu a été crucifié et est mort." Rendering (from Labourt's French): "Here too, in the same way, we say that Christ was crucified, that Christ died and rose again. But we do not say that God was crucified and died." Job: his teaching in his own voice, in beat 4. The narrator gives the plain sense alongside.
 2. **Q2 (ending).** Verbatim (TM 5185–5188, Budge's English; the Syriac is not held): "If I had known that thou wast with me, I would, with all care, have accepted this great work; but now depart in peace, and pray for me." Rendering (from Budge's English): "If I had known you were with me, I would have taken on this great work with all care. But now go in peace, and pray for me." Job: the ending, inside Thomas's wonder: an angel, who says he had stood beside Babai all the years he stood in for the head of the church, asks leave to go to the new one. Keep it in Thomas's voice ("Thomas tells that...").
 3. **Q3 (optional).** Verbatim (ISH 398–400, Duval's Latin; the Syriac is bound in but not readable): "quam ergo gloriationem laudum non possidebit ille qui per procellas desperationis ducit navem fidei gubernaculo praedicationis suae". Rendering (from the Latin): "What glory and praise, then, will he not have, who steers the ship of faith through storms of despair, with his preaching as its rudder?" The next sentence applies it to Babai: his zeal overcame such storms "for many years" (ISH 403–404). Job: how a contemporary saw him, in What came 2. Optional; note that Barsauma's story uses a "stormy sea" quote, so the variety check may prefer the short line "this great and most illustrious leader" (ISH 767, narrator's words).
-4. **Alternate only (Mark's question).** Verbatim (SO-LG 42224–42238, Chabot's French of the *Life of George*): "Si quelqu'un méprise ou blâme les trois Docteurs œcuméniques, bienheureux et vénérables, colonnes de l'Église ... le bienheureux Diodore, le bienheureux Théodore et le bienheureux Nestorius, illustre entre les martyrs ..." Rendering (from the French): "If anyone scorns or blames the three Doctors of the whole Church, blessed and honoured, pillars of the Church: the blessed Diodore, the blessed Theodore, and the blessed Nestorius, glorious among the martyrs." These are George's words, quoted by Babai, who adds that the curse is kept "and we will keep it". Use only if Mark gives this line to Babai's story.
 
-None of the four is used in another story on the tree (all census `longDescription`s except this entry's searched for each, 2026-11-18).
+None of the three is used in another story on the tree (all census `longDescription`s except this entry's searched for each, 2026-11-18).
 
 **Names**
 
@@ -84,7 +82,7 @@ None of the four is used in another story on the tree (all census `longDescripti
 - Henana of Adiabene (link). Census spelling.
 - Thomas of Marga (link and witness). Census spelling.
 - Ishoyahb (witness, optional): "a bishop who later led the church", or "Ishoyahb" once. Not on the tree.
-- Nestorius (link, only within beat 4's king's answer, and the alternate quote).
+- Nestorius (link, only within beat 4's king's answer).
 - By role: Abraham ("the monastery's founder"), Elijah ("a zealous monk"), the archdeacon Aba ("an archdeacon in the capital"), Babai of Nisibis ("another monk named Babai"), Ishoyahb II ("a new head of the church"), Gabriel of Sinjar ("a physician at court"), Labourt and Wigram ("historians").
 
 **Connection to carry into the story:** what passed from Babai was a written account of how Christ is one, which his church kept as its own: two natures, each fully real (two "hypostases"), in one person, so that Christ died as man and God did not die (Q1; I1). By Babai's own account, the bishops put the same teaching before the king in 612 (E6; Chabot: in sense, not word for word), his book against Henana was accepted by the bishops (E7), and two centuries later his works were still "held in honour by the holy Church" (TM 4189–4190). The listener must understand three things the record holds: the church had no head because the king forbade one, so the work fell to a monk with no office; this teaching set his church apart from its neighbours: Babai called those who opposed it "Theopaschites", people who make God suffer (SO-LG 42171, 42262), which is his charge, to be credited to him; and before the king it was tied to the name of Nestorius, which is why the king refused them a head; and that it became the church's settled teaching is historians' judgment, built on how widely his books were kept. Carry it through what he did (the visits, the book, the 612 meeting), not through a "this matters because" sentence.
@@ -97,7 +95,7 @@ None of the four is used in another story on the tree (all census `longDescripti
 
 - Henana of Adiabene: wrote against him; refused communion to his followers (E7).
 - Thomas of Marga: wrote his life (TM Book I).
-- Nestorius: the 612 dispute turned on his name; Babai's *Life of George* honours him among the "three Doctors" (alternate quote).
+- Nestorius: the 612 dispute turned on his name.
 - Barsauma of Nisibis: the same church's rule of Theodore, confirmed in 605 (not needed here).
 
 **Who tells it**
@@ -127,7 +125,7 @@ None of the four is used in another story on the tree (all census `longDescripti
 - Not "Henana was a heretic" in the narrator's voice; "teachings the bishops judged heretical".
 - Not Henana's charges (fate, the resurrection, astrology, Origen): they are Henana's story.
 - Not "Babai the Little" without saying it is the chronicle's name for another monk (E9).
-- Not "Babowai" or "Babai of 497": different men.
+- Not "Babai" for the catholicos of 484: he is "Babowai" (Mark approved, 2026-11-18), a different man, as is the catholicos Babai of 497. Neither is needed here.
 - "Messalians": give the plain gloss, which is Budge's; do not add more about them.
 - Not "Babai lived in a cave" or "never slept on a mat" as fact: late chronicle only.
 
@@ -141,3 +139,4 @@ None of the four is used in another story on the tree (all census `longDescripti
 - Labourt's view that the 628 offer was "only for form", and his reading of the angel as regret: editor's opinions; card.
 - The synod of 605: Barsauma's ending.
 - Henana's school walk-out: the tradition's documented story and Henana's.
+- The "three Doctors" line (George's anathema naming Diodore, Theodore and Nestorius, quoted in Babai's *Life of George*, SO-LG 42224–42238): Mark, 2026-11-18: out of both stories.
