@@ -1,0 +1,288 @@
+{
+  "knownFor": "Bishop of Alexandria who defended the faith of Nicaea through five exiles and wrote against Arius and his heirs.",
+  "role": "Bishop of Alexandria",
+  "keyWorks": [
+    {
+      "title": "On the Incarnation",
+      "about": "why the Word became man"
+    },
+    {
+      "title": "Discourses Against the Arians",
+      "about": "quotes Arius's Thalia and answers it"
+    },
+    {
+      "title": "Life of Antony",
+      "about": "the hermit's life, by one who had attended him"
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "The church historian Socrates of Constantinople declines to tell Antony's story because Athanasius of Alexandria had already given a whole book to it. Evagrius, later bishop at Antioch, put that book into Latin with a short apology for how freely he rendered it.",
+      "Gregory of Nazianzus gave him a whole sermon at Constantinople, and in it says that all who have lived according to God still live to God.",
+      "In 433 Cyril of Alexandria wrote to John of Antioch that some had garbled Athanasius of Alexandria's letter to Epictetus of Corinth. He sent transcripts from old copies he held, which he called genuine."
+    ],
+    "remembered": [
+      "Honored sixty years after his death: Cyril of Alexandria singles him out among the Fathers whose teaching he refuses to step outside of.",
+      "Disputed in his own time: the bishops at Tyre deposed him, and the reasons for his exile to Trier were reported two ways, as Socrates of Constantinople's telling shows."
+    ]
+  },
+  "uncertain": [
+    "How Arsenius reached Tyre is not settled. Socrates of Constantinople credits God's providence: the governor's servants heard at an inn that he was hiding in a citizen's house, and the governor had him found. The church historian Sozomen gives two reasons, a divine prompting or, \"as it is said\", a plan of Athanasius of Alexandria. He says Arsenius slipped into Tyre by night the day before the trial.",
+    "The historian Rufinus of Aquileia tells that Bishop Alexander of Alexandria once watched boys on the shore playing at church, and that the boy who played bishop was young Athanasius of Alexandria. Socrates of Constantinople, who names Rufinus as his source, thinks it not improbable, and Sozomen tells it too.",
+    "Socrates of Constantinople says Athanasius of Alexandria hid for four months in a family tomb. The Historia Acephala, a record of his life, says he went to a country house of his near the New River."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "Apologia ad Constantium 29-31 (Constantius's letter to the princes of Auxumis concerning Frumentius)",
+        "file": "cic/texts/npnf204_athanasius-select-works-letters.xml",
+        "language": "English"
+      },
+      {
+        "title": "Against the Heathen (Contra Gentes)",
+        "file": "cic/texts/npnf204_athanasius-select-works-letters.xml",
+        "language": "English"
+      },
+      {
+        "title": "Apology to the Emperor (Apologia ad Constantium)",
+        "file": "cic/texts/npnf204_athanasius-select-works-letters.xml",
+        "language": "English"
+      },
+      {
+        "title": "Arian History (Historia Arianorum ad Monachos)",
+        "file": "cic/texts/npnf204_athanasius-select-works-letters.xml",
+        "language": "English"
+      },
+      {
+        "title": "Athanasius, Opera omnia, Patrologia Graeca 25 (Migne 1857): Apologia contra Arianos (with the Tyre, Rome and Sardica dossier), Apologia ad Constantium, Apologia de fuga, Historia Arianorum, Epistola encyclica",
+        "file": "cic/texts/athanasius_opera-omnia-pg25-grc-lat_migne1857.txt",
+        "language": "Greek"
+      },
+      {
+        "title": "Athanasius, Opera omnia, Patrologia Graeca 26 (Migne 1857): Orationes contra Arianos, De Decretis Nicaenae Synodi (with Eusebius of Caesarea's letter), De Synodis (Thalia fragments, Arius's letter to Alexander, the creeds of 359-360), Epistolae, Vita Antonii, Festal letters",
+        "file": "cic/texts/athanasius_opera-omnia-pg26-grc-lat_migne1857.txt",
+        "language": "Greek"
+      },
+      {
+        "title": "Defence Against the Arians (Apologia Contra Arianos)",
+        "file": "cic/texts/npnf204_athanasius-select-works-letters.xml",
+        "language": "English"
+      },
+      {
+        "title": "Defence of Dionysius (De Sententia Dionysii)",
+        "file": "cic/texts/npnf204_athanasius-select-works-letters.xml",
+        "language": "English"
+      },
+      {
+        "title": "Defence of His Flight (Apologia de Fuga)",
+        "file": "cic/texts/npnf204_athanasius-select-works-letters.xml",
+        "language": "English"
+      },
+      {
+        "title": "Defence of the Nicene Definition (De Decretis)",
+        "file": "cic/texts/npnf204_athanasius-select-works-letters.xml",
+        "language": "English"
+      },
+      {
+        "title": "Deposition of Arius (Depositio Arii, with Alexander's Encyclical)",
+        "file": "cic/texts/npnf204_athanasius-select-works-letters.xml",
+        "language": "English"
+      },
+      {
+        "title": "Encyclical Letter (Epistola Encyclica)",
+        "file": "cic/texts/npnf204_athanasius-select-works-letters.xml",
+        "language": "English"
+      },
+      {
+        "title": "Four Discourses Against the Arians (Orationes contra Arianos IV)",
+        "file": "cic/texts/npnf204_athanasius-select-works-letters.xml",
+        "language": "English"
+      },
+      {
+        "title": "On Luke x. 22 (In Illud Omnia Mihi Tradita Sunt)",
+        "file": "cic/texts/npnf204_athanasius-select-works-letters.xml",
+        "language": "English"
+      },
+      {
+        "title": "On the Councils of Ariminum and Seleucia (De Synodis)",
+        "file": "cic/texts/npnf204_athanasius-select-works-letters.xml",
+        "language": "English"
+      },
+      {
+        "title": "On the Incarnation of the Word (De Incarnatione)",
+        "file": "cic/texts/npnf204_athanasius-select-works-letters.xml",
+        "language": "English"
+      },
+      {
+        "title": "Personal Letters of Athanasius",
+        "file": "cic/texts/npnf204_athanasius-select-works-letters.xml",
+        "language": "English"
+      },
+      {
+        "title": "Statement of Faith (Expositio Fidei)",
+        "file": "cic/texts/npnf204_athanasius-select-works-letters.xml",
+        "language": "English"
+      },
+      {
+        "title": "Synodal Letter to the Bishops of Africa (Ad Afros Epistola Synodica)",
+        "file": "cic/texts/npnf204_athanasius-select-works-letters.xml",
+        "language": "English"
+      },
+      {
+        "title": "Synodal Letter to the People of Antioch (Tomus ad Antiochenos)",
+        "file": "cic/texts/npnf204_athanasius-select-works-letters.xml",
+        "language": "English"
+      },
+      {
+        "title": "The Festal Letters (with the Festal Index)",
+        "file": "cic/texts/npnf204_athanasius-select-works-letters.xml",
+        "language": "English"
+      },
+      {
+        "title": "The Life of Saint Anthony by Athanasius (Syriac recension)",
+        "file": "cic/texts/palladius_paradise-v1-syriac_budge1907.txt",
+        "language": "English"
+      },
+      {
+        "title": "The canonical epistles of Athanasius (to Ammus; from the XXXIX Festal Epistle; to Ruffinian)",
+        "file": "cic/texts/npnf214_seven-ecumenical-councils.xml",
+        "language": "English"
+      },
+      {
+        "title": "To the Bishops of Egypt (Ad Episcopos Aegypti et Libyae)",
+        "file": "cic/texts/npnf204_athanasius-select-works-letters.xml",
+        "language": "English"
+      },
+      {
+        "title": "Vita Antonii (Life of Antony)",
+        "file": "cic/texts/npnf204_athanasius-select-works-letters.xml",
+        "language": "English"
+      },
+      {
+        "title": "Festal Letter XXXIX (367) - the canon list and the books appointed to be read",
+        "file": "cic/texts/npnf204_athanasius-select-works-letters.xml",
+        "language": "English"
+      }
+    ],
+    "about": [
+      {
+        "title": "Church History, Book 1",
+        "author": "Socrates",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml"
+      },
+      {
+        "title": "Church History, Book 2",
+        "author": "Sozomen",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml"
+      },
+      {
+        "title": "Oration 21, On the Great Athanasius",
+        "author": "Gregory of Nazianzus",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf207_cyril-jerusalem-gregory-nazianzen.xml"
+      },
+      {
+        "title": "Letter to John of Antioch",
+        "author": "Cyril of Alexandria",
+        "date": "433",
+        "language": "Greek with English translation",
+        "file": "cic/texts/cyril-alexandria_three-epistles-grc-eng_pusey1872.txt"
+      },
+      {
+        "title": "Jews and Christians in Egypt: letter of the Melitian monks (P. Lond. 1914)",
+        "author": "H. Idris Bell (editor)",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/bell_jews-christians-egypt-meletian-papyri_1924.txt"
+      },
+      {
+        "title": "Lives of Illustrious Men",
+        "author": "Jerome",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml"
+      },
+      {
+        "title": "Council in Trullo, canon 2, with the Greek canon collections",
+        "author": "Council in Trullo",
+        "date": "692",
+        "language": "English translation",
+        "file": "cic/texts/npnf214_seven-ecumenical-councils.xml"
+      },
+      {
+        "title": "Documents on Christian Unity 1920-4",
+        "author": "G. K. A. Bell (editor)",
+        "date": "1921",
+        "language": "English",
+        "file": "cic/texts/bell_documents-on-christian-unity-1920-24_1924.txt"
+      }
+    ]
+  },
+  "briefReferences": [
+    "Festal Index VIII, ed. Archibald Robertson: the council at Tyre in 335, dated by its consuls.",
+    "Socrates, Church History I.27, tr. A. C. Zenos: the churches divided over Arius; the charge of the severed hand, Arsenius and magic.",
+    "Socrates, Church History I.29, tr. Zenos: Arsenius found, led in with his hands under his cloak, and both hands shown. Socrates writes with plain sympathy for Athanasius.",
+    "Sozomen, Church History II.25, tr. Chester D. Hartranft: the rumor that Athanasius had hidden Arsenius; the council's deposition of him.",
+    "Socrates, Church History I.8, tr. Zenos: Athanasius a deacon at Nicaea, speaking strongly against the Arian party.",
+    "Athanasius, Discourse against the Arians I.5, ed. Robertson: extracts from Arius's Thalia, that God was not always a Father and the Son was made out of nothing.",
+    "Athanasius, On the Decrees of the Council of Nicaea, Eusebius's letter, ed. Robertson: the creed of Nicaea, \"begotten not made\".",
+    "Athanasius, Discourse against the Arians II, ed. Robertson: if the Son were a creature, man's becoming man would leave humanity as it was, not joined to God.",
+    "Athanasius, On the Incarnation 54, ed. Robertson: \"For He was made man that we might be made God\".",
+    "Socrates, Church History I.35, tr. Zenos: Constantine sends him to Trier over the grain ships, though some said it was for the unity of the church, since he would not hold communion with Arius.",
+    "Festal Index, ed. Robertson: the entries for the four later flights; his return to his church a few days after his last withdrawal, which the edition dates to February 366; and his death in 373.",
+    "Gregory of Nazianzus, Oration 21.35, tr. Charles Gordon Browne and James Edward Swallow: the dispute over hypostases and persons; Athanasius found they meant the same, let each keep its words, and bound them together in unity of action.",
+    "Gregory of Nazianzus, Oration 21.33, tr. Browne and Swallow: Athanasius's written confession of the unity of Godhead in Father, Son and Spirit, presented to the emperor, and Gregory's claim that few dared to write it.",
+    "Athanasius, Life of Antony, preface, ed. Robertson: his account of the hermit's story.",
+    "Jerome, Letter 127.5, tr. W. H. Fremantle: Marcella of Rome hearing of Antony's life from Athanasius and taking up that life.",
+    "Cyril of Alexandria, Letter to John of Antioch, ed. P. E. Pusey: \"our blessed and all-celebrated Father Athanasius\". The year 433 is the edition's date.",
+    "World census, Alexandrian Catechetical / Christian-Platonist Tradition: his tradition.",
+    "Athanasius, Defence of his Flight 24, ed. Robertson: the night in the church, Syrianus's soldiers, the psalm, the people sent home, and the monks and clergy who drew him out past the soldiers. The editor dates the work 357-8.",
+    "Historia Acephala, ed. Robertson: the night attack of 356; his hiding, counted in months; Julian's edict of 362; the order of 365 and his four months at a villa near the New River until he was led back to his church; his death in 373.",
+    "Festal Index, ed. Robertson: his succession as bishop in 328; his return in 337; the torture of Eudaemonis, a perpetual virgin, in the search for him; the Easter letter of 366-7 in which he formed a canon of the Holy Scriptures.",
+    "Socrates, Church History I.27, tr. Zenos: Athanasius refuses to receive Arius back, and Constantine writes that he will send someone to depose him and drive him into exile.",
+    "Letter of the Melitian monks (P. Lond. 1914), ed. H. Idris Bell, Jews and Christians in Egypt: Athanasius's followers come with soldiers and beat the Melitian monks until they are bloody. Bell dates the letter May-June 335, with a query.",
+    "Athanasius, On the Councils of Ariminum and Seleucia (De Synodis) 41, ed. Robertson: those who accept all that Nicaea defined and doubt only the one word are met as brothers with brothers; those who deny the council outright are foes of Christ. The editor dates the work 359.",
+    "Athanasius, Life of Antony, heading and preface, ed. Robertson: written and sent to the monks in foreign parts who asked for an account of Antony's way of life. The editor dates it between 356 and 362.",
+    "Jerome, Lives of Illustrious Men 125, tr. Ernest Cushing Richardson: Evagrius of Antioch translated the Life of Antony from the Greek into Latin.",
+    "Budge, The Paradise I (1907): a Syriac Life of Antony ascribed to Athanasius. The manuscript is a copy of one written probably in the thirteenth or fourteenth century; the edition gives no date for the version itself.",
+    "Athanasius, Festal Letter 39 (367), ed. Robertson: the books of the Old Testament, twenty-two, and of the New, twenty-seven; other books appointed for new believers; the apocryphal books called an invention of heretics; the closing rule that nothing be added or taken away.",
+    "Gregory of Nazianzus, Oration 21.37, tr. Browne and Swallow: his death in old age, and the honors at his departure, the object of many tears. The editor dates the oration 379 or 380.",
+    "Council in Trullo, canon 2 (692, the editor's date), tr. H. R. Percival: the council sets its seal on the canons of Athanasius; the Greek canon collections printed in the same volume carry the epistle taken from his thirty-ninth Festal Letter.",
+    "Documents on Christian Unity 1920-4, ed. G. K. A. Bell: terms proposed in 1921 for communion between the Church of England and the Orthodox churches accept the canon of Scripture as Athanasius defined it, with twenty-two Old Testament and twenty-seven New Testament books."
+  ],
+  "quotationOriginals": [
+    {
+      "modern": "I thought it wrong to leave the people in such an uproar, rather than face the danger for them first.",
+      "printed": "Now I considered that it would be unreasonable in me to desert the people during such a disturbance, and not to endanger myself in their behalf",
+      "work": "Athanasius, Defence of his Flight 24, ed. Robertson",
+      "file": "cic/texts/npnf204_athanasius-select-works-letters.xml",
+      "lines": "37302-37304"
+    },
+    {
+      "modern": "of one being",
+      "printed": "One in essence with the Father",
+      "work": "Athanasius, On the Decrees of the Council of Nicaea, Eusebius's letter, ed. Robertson",
+      "file": "cic/texts/npnf204_athanasius-select-works-letters.xml",
+      "lines": "19679"
+    },
+    {
+      "modern": "as brothers with brothers",
+      "printed": "as brothers with brothers",
+      "work": "Athanasius, On the Councils of Ariminum and Seleucia (De Synodis) 41, ed. Robertson",
+      "file": "cic/texts/npnf204_athanasius-select-works-letters.xml",
+      "lines": "58857"
+    },
+    {
+      "modern": "Let no one add to them, or take anything away from them.",
+      "printed": "Let no man add to these, neither let him take ought from these.",
+      "work": "Athanasius, Festal Letter 39 (367), ed. Robertson",
+      "file": "cic/texts/npnf204_athanasius-select-works-letters.xml",
+      "lines": "68810-68811"
+    }
+  ]
+}
