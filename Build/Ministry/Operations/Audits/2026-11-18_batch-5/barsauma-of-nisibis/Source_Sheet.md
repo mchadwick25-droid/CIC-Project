@@ -100,7 +100,7 @@ I6. **Modern views of his part.** Connolly: "With the foundation of this School 
 ## 4. Links
 
 - **Narsai of Nisibis** (census name; on the tree): welcomed and kept at Nisibis by Barsauma; the school counts both as founders (CFS 20613–20617, 21698–21699). Sibling: a clause here.
-- **Simeon of Beth Arsham** (on the tree): wrote a letter against him and his synods (SIM 73308, 75048–75099).
+- **Simeon of Beth Arsham** (on the tree): wrote a letter against him and his synods (SIM 73308, 75044–75099).
 - **Philoxenus of Mabbug** (on the tree): Bar Hebraeus and Michael say he wrote two books against Barsauma's canons (BH 4126–4131; MS 33641–33643). LATE, hostile; Contested.
 - **Elias of Nisibis** (on the tree): quoted Beth Lapat's canons (SO-ed 41781–41784).
 - **Barhadbeshabba 'Arbaia of Halwan** (on the tree): wrote of him (CFS, HE).
