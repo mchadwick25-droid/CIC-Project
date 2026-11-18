@@ -287,6 +287,45 @@ Also ACTS 38484-38487: "ut quia superbia linguarum diversitate ab unione gentes 
 
 ---
 
+## 8. Added for the revision (the heart: what the Gothic faith held, and "and the Son")
+
+New short names: **SOC** = `npnf202_socrates-sozomen-ecclesiastical-histories.xml` (Socrates, Ecclesiastical History, Zenos's English); **NPNF4** = `npnf204_athanasius-select-works-letters.xml` (Athanasius, Robertson's English and notes).
+
+**H1. What the Gothic church taught about the Son: Agilan, in full.** GT-L 18535-18542, 18556-18558, 18614; Dalton GT-E 10202-10213, 10230-10234, 10259-10260. Contemporary (before 584), reported by the man who argued against him. Documented that Gregory reports it; as a statement of Gothic belief, Widely Accepted (it agrees with the acts' own anathemas, H3).
+> GT-L 18541-18542: "Unde patet, eum et aetate et potestate paterna minorem'." Dalton: "whence it is plain that in power, as in age, He was lesser than His Father."
+> GT-L 18556-18558: "Cuius quis iraplet [implet] voluntatem, eius et iunior est; semper filius minor est patri'', quia ille facit voluntatems patris*', nec pater' illius voluntatem "^ facere conprobatur''." Dalton GT-E 10231-10234: "He that doeth the will of another is less than he; and the Son is ever less than the Father in that He doeth the will of the Father, nor is it proven that the Father doeth His."
+> GT-L 18614: "nain (;rat (piando non" [nam erat quando non (erat)]. Dalton GT-E 10259-10260: "It was after He was made man that He began to be called the Son of God; for there was a time when yet He was not."
+
+**H2. What the Gothic church taught about the Spirit: Agilan.** GT-L 18619-18625, 18637-18638; Dalton GT-E 10273-10277, 10302-10303. Contemporary, hostile reporter. Documented that Gregory reports it.
+> GT-L 18623-18625: "Spiritum sanctum, quem aequalem Patri profertis ac Filio, utrisque minor accipitur; quia et a Filio promissus et a Patre legitur missus." Dalton: "The Holy Ghost whom ye proclaim equal to the Father and the Son is admitted less than either, for we read that He was promised by the Son and sent by the Father."
+> GT-L 18637-18638: "Deus cst qui mittit, non est Deus qui mittitur." Dalton GT-E 10302-10303: "God is He who sendeth; he who is sent is no God."
+
+**H3. What the Gothic bishops were made to reject, in the acts' own words.** Own words (Gothic bishops, in the winners' record). Documented.
+- Anathema V, ACTS 36917-36921: "Quicumque Filium Dei dominum nostrum Jesum Christum et Spiritum Sanctum esse Patre minores asseruerit et gradibus separaverit, creaturamque esse dixerit, anathema sit." (Whoever says the Son and the Spirit are less than the Father, separates them by ranks, and calls them a creature.)
+- Anathema XIV, ACTS 36959-36961: "Quicumque non dixerit: Gloria et honor Patri et Filio et Spiritui Sancto, anathema sit." The prayer of praise required in place of the condemned "gloria Patri per Filium in Spiritu Sancto" (B1, B2).
+- Anathema III, ACTS 36909-36912: the Spirit proceeds "a Patre et Filio" and is "coaeternum ... Patri et Filio et coéssentialem".
+
+**H4. What the Catholic faith held, in the king's book.** ACTS 36642-36643, 36659-36662. Own words. Documented.
+> "ut confiteamur esse Patrem qui genuit? ex sua substantia Filium sibi coaequalem et coaeternum" ... "sed sine initio et sine diminutione in ea qua Patri coéqualis et coéternus est divinitate subsistat : Spiritus aequé Sanctus confitendus a nobis et praedicandus est a Patre et Filio procedere et cum Patre et Filio unius esse substantiae"
+The Son is equal to the Father and eternal with him, "without beginning and without lessening"; the Spirit proceeds from the Father and the Son and is of one substance with them. The acts give no reason for the words "and the Son". That they answer the Gothic ranking of the Spirit (H2) is not stated in any held source: Inferential-Thin as a motive. The two may be set side by side; no "because".
+
+**H5. Who Arius was.** SOC 2066-2071 and 2075-2096 (I.5). Later (Socrates writes about a century after the events), hostile. Documented that Socrates says so; Widely Accepted.
+> "A certain one of the presbyters under his jurisdiction [Alexander, bishop of Alexandria], whose name was Arius ... 'If,' said he, 'the Father begat the Son, he that was begotten had a beginning of existence: and from this it is evident, that there was a time when the Son was not.'"
+Agilan's "there was a time when yet He was not" (H1) is Arius's own phrase as Socrates gives it.
+
+**H6. "Homoian" and the Goths' creed: editors only.** NPNF4 6300-6301 and 6335-6338 (Robertson, Prolegomena): the party's test word after 357 was "ὅμοιος", like; "So far then as the 'Homœan' party rested on any doctrinal principle at all, that principle was the principle of Arius". NPNF4 58366-58369 (editor's note): "at this Council Ulfilas the Apostle of the Goths, who had hitherto followed the Council of Nicæa, conformed, and thus became the means of spreading through his countrymen the Creed of Ariminum." The creed read at Ariminum (Rimini) in 359 calls the Son "like to the Father who begat Him, according to the Scriptures" and drops "essence" (NPNF4 56620-56634, 56655-56660; Athanasius, contemporary, hostile). Toledo's anathema XVII condemns Rimini (E9). The link of Spain's Gothic church to Rimini's creed is the editors': Widely Accepted (editor). For the card, not the audio.
+
+**H7. What came of "and the Son": Percival.** NPNF14 13526-13530, 13618-13628, 13637-13640, 13641-13645, 13664-13666, 13697-13702. Editor (nineteenth century). Widely Accepted (editor) for the spread; Dominant Modern Reconstruction for 589 as the first creed with the words.
+> 13526-13530: "The introduction into the Nicene Creed of the words 'and the Son' (Filioque) has given rise to, or has been the pretext for, such bitter reviling between East and West"
+> 13618-13627: "There seems little doubt that the words were first inserted in Spain. ... in 589 by the authority of the Third Council of Toledo the newly converted Goths were required to sign the creed with the addition. From this time it became for Spain the accepted form"
+> 13637-13640: "However, there can be no doubt that its introduction spread very rapidly through the West and that before long it was received practically everywhere except at Rome."
+> 13641-13645: in 809 Pope Leo III "opposed the insertion of the Filioque on the express ground that the General Councils had forbidden any addition to be made to their formulary."
+> 13664-13666: "It was not till 1014 that for the first time the interpolated creed was used at mass with the sanction of the Pope."
+> 13698-13702: "the Council of Toledo of that year had no suspicion that the creed as they had it was not the creed exactly as adopted at Constantinople."
+Note: Percival's "required to sign the creed with the addition" goes beyond the held acts, which show the words in the tome and anathema III and give the recited creed only by its opening (C2). Carry it as the editor's.
+
+---
+
 ## Library sweep
 
 **Searched.**
@@ -294,7 +333,7 @@ Also ACTS 38484-38487: "ut quia superbia linguarum diversitate ab unione gentes 
 - Corpus-map buckets: `nicene-visigothic-iberia.yaml`, `gothic-and-vandal-homoian-christianity.yaml`, `homoian-arian-christianity.yaml`, `roman-church-gregorian.yaml`, `latin-papal-church-gregorian.yaml`. `WORKS.yaml`, `AUTHOR-IDS.yaml` and `RETRIEVAL-HINTS.md` have no entry for Toledo, Reccared or Leander.
 - `cic/texts/` for the name forms Reccared / Recared / Rechared / Recaredus / Reccaredus / Recaredo / Richarid / Richaredus, and Toletanum / Toletana: **59 files** mention Reccared.
 
-**Used.** ACTS (full acts; the canons of Saragossa, Seville I and Narbonne; the creeds of Toledo VIII and XII, found on the outline check, which the first sweep had missed), BRUNS (clean date line; Mansi's note on Gaul), JB-M and JB-PL, ISID (History of the Goths; On Famous Men), GT-E and GT-L (V.43, IX.15, Dalton's notes), GG1 and GG2 (letters I.43, IX.61, IX.122), GGD (Dialogues III.31), PAUL (Lives of the Fathers of Mérida: Sunna and Masona), FRED (IV.8), NPNF14 (Percival's excursus), VCODE (a later law citing Reccared).
+**Used.** For the revision (section 8): GT-L and GT-E (V.43 in full), SOC (I.5, Arius), NPNF4 (Robertson on the Homœans; the Ulfilas note; the creed read at Ariminum), NPNF14 (Percival's excursus in full). Earlier: ACTS (full acts; the canons of Saragossa, Seville I and Narbonne; the creeds of Toledo VIII and XII, found on the outline check, which the first sweep had missed), BRUNS (clean date line; Mansi's note on Gaul), JB-M and JB-PL, ISID (History of the Goths; On Famous Men), GT-E and GT-L (V.43, IX.15, Dalton's notes), GG1 and GG2 (letters I.43, IX.61, IX.122), GGD (Dialogues III.31), PAUL (Lives of the Fathers of Mérida: Sunna and Masona), FRED (IV.8), NPNF14 (Percival's excursus), VCODE (a later law citing Reccared).
 
 **Set aside, and why.**
 - The Mansi volumes, Hefele, Deusdedit, Friedberg's Corpus iuris canonici, Regino of Prüm and Gratian-era collections: later canon-law reuse of single canons, or modern summaries; they repeat the acts and add nothing the acts lack. The acts were read in full.

@@ -265,3 +265,36 @@ Wigram, `wigram_introduction-to-the-history-of-the-assyrian-church-100-640_1910.
 - Flemming–Hoffmann's German acts of 449: duplicates Perry for what is used.
 - Hefele v4 (451–680), Liberatus, Facundus, Theophanes, Duchesne, Assemani, Renaudot, the Collectio Avellana, Mansi 8 onward, John of Ephesus, Barhebraeus, Cyril of Scythopolis's Life of Euthymius, the Life of Peter the Iberian: later reception and controversy well past 451, or they repeat what the acts, Evagrius and Zachariah already give. A fuller card could draw on them; the brief does not need them.
 - Langlois's Armenian historians and Eghishe: on Avarayr and Armenian history, with nothing on the 506 or 554 decisions beyond Ormanian and Ter-Minassiantz.
+
+## H. Added for the revision (2026-11-18): the heart and its lasting result
+
+**H1. What the Definition says Christ is, in full.** npnf214 20278–20284 (English). Acts. Documented.
+> "the Son [of God] and our Lord Jesus Christ is to be confessed as one and the same [Person], that he is perfect in Godhead and perfect in manhood, very God and very man, of a reasonable soul and [human] body consisting, consubstantial with the Father as touching his Godhead, and consubstantial with us as touching his manhood; made in all things like unto us, sin only excepted"
+Then, 20293–20295: "the peculiar property of each nature being preserved and being united in one Person and subsistence, not separated or divided into two persons".
+
+**H2. The Definition's own reason: two errors at once.** npnf214 20236–20243 and 20269–20273. Acts. Documented.
+> "some of them daring to corrupt the mystery of the Lord's incarnation for us and refusing [to use] the name Mother of God (Θεοτόκος) in reference to the Virgin, while others, bringing in a confusion and mixture, and idly conceiving that the nature of the flesh and of the Godhead is all one"
+> "For it opposes those who would rend the mystery of the dispensation into a Duad of Sons; … it resists those who imagine a mixture or confusion of the two natures of Christ"
+(The first are Nestorius's side, the second Eutyches's: the council meant to shut out both. It received Cyril's letters against Nestorius and Leo's Tome against Eutyches, 20258–20266.)
+
+**H3. The Greek church makes it a test of communion: the Fifth Council, 553.** npnf214 23648–23653, the Sentence of the Synod (Constantinople, 553; date 22849, 22878). Acts, about a century later. Documented.
+> "we again confess that we receive the four holy Synods, that is, the Nicene, the Constantinopolitan, the first of Ephesus, and that of Chalcedon, and we have taught, and do teach all that they defined respecting the one faith. And we account those who do not receive these things aliens from the Catholic Church."
+
+**H4. The Latin church: Gregory of Rome, 590/591.** Gregory the Great, Register I.25, to John of Constantinople, Eulogius of Alexandria, Gregory of Antioch, John of Jerusalem and Anastasius (Book I, "the first year of his ordination", npnf212 30955–30969). Own words, about 140 years later. Documented.
+Latin, `gregory-great_epistolae-selectae_turchi1907.txt` 5633–5634 and 5638–5641:
+> "sicut sancti evangelii quattuor libros, sic quattuor concilia suscipere et venerari me fateor. … Chalcedonense vero, in quo Euthychis Dioscorique pravitas reprobatur, tota devotione complector, integerrima approbatione custodio, quia in his velut in quadrato lapide, sanctae fidei structura consurgit"
+English, npnf212 31907–31919 (31908–31918 for the words quoted): "I confess that I receive and revere, as the four books of the Gospel so also the four Councils … and the Chalcedonian, in which the pravity of Eutyches and Dioscorus is reprobated. These with full devotion I embrace … since on them, as on a four-square stone, rises the structure of the holy faith"
+Rendering (from the Latin): "As I receive the four books of the holy Gospel, so I confess that I receive and revere four councils." Note: Gregory names Dioscorus with Eutyches; the Latin side's memory, not the narrator's.
+
+**H5. Armenia held to its refusal.** Ormanian 2520–2525 (continues E1). Editor (former Armenian patriarch, 1912; his church's own account). Widely Accepted.
+> "The Armenian Church would have nothing to do with this transaction, which was prompted by designs which had no bearing on theology. She remained firm in her original resolve, and ever maintained an attitude of ultra-conservatism."
+
+**H6. The family of churches that refused it, still in communion in 1912.** Ormanian 8950–8967. Editor (Armenian, 1912), describing the churches of his own day. Documented as his account; Widely Accepted that these churches remain a communion apart from the Greek and Latin churches (census: the Alexandrian, Syriac Orthodox and Armenian traditions are marked living).
+> "The whole of Christendom is divided into four branches, viz. the Catholic and Protestant branches in the West ; and the Dyophysite and Monophysite branches in the East. … The Armenian Church, which belongs to this branch, occupies the leading position among the various groups into which the Monophysites are divided. Communion in faith and in spiritual love continues to be a bond between the latter … Thus, the Syrian, Coptic, and Abyssinian Churches retain their autocephalic hierarchy without abandoning their communion with the Armenian Church."
+("Monophysite" is Ormanian's word for his own branch in 1912; the outline keeps it out of the narrator's voice.)
+
+**H7. The Coptic memory as lasting.** History of the Patriarchs 35103–35110 (E2, re-read): "at that time the creeds were separated, and the sees were torn asunder … He preserved the orthodox faith, which persists in the see of the evangelist Saint Mark to this day and for ever". Later (10th-century compilation). Documented as that church's memory.
+
+**H8. The Syriac memory as lasting.** Michael the Syrian, Syriac Orthodox patriarch of Antioch (1166–1199), 2855–2861, repeats the chronicle's verdict about seven hundred years on: "déchira en dix mille morceaux la tunique intègre du Christ tissée d'une seule pièce". Later. Documented as his church's memory.
+
+**Sweep addendum.** For the lasting result I searched npnf214 (Fifth and later councils on Chalcedon), npnf212 and Gregory's Latin (`gregory-great_epistolae-selectae_turchi1907.txt`; the Ewald–Hartmann Registrum held here covers books 8–14 only) for "four councils"/"quattuor concilia", and Ormanian for the Coptic, Syrian and Abyssinian churches. Used: H1–H8. Not used: the Fifth Council's long defence of Chalcedon against the Three Chapters (23593–23617), a later dispute that belongs on the card.

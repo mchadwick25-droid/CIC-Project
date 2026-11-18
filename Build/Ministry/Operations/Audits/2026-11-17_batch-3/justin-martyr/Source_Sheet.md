@@ -221,6 +221,34 @@ Year: about 165. Dominant Modern Reconstruction, resting on McGiffert (editor), 
 
 ---
 
+## 6. Added for the revised outline (the heart of his life)
+
+**H1. Judge the deed, not the name.** Own words, First Apology 4. Documented.
+R1 124–126: "Ὀνόματος μὲν οὖν προσωνυμίᾳ οὔτε ἀγαθὸν οὔτε κακὸν κρίνεται ἄνευ τῶν ὑποπιπτουσῶν τᾷ ὀνόματι πράξεων· ἐπεί, ὅσον γε ἐκ τοῦ κατηγορουμένου ἡμῶν ὀνόματος, χρηστότατοι ὑπάρχομεν."
+ANF1 14037–14040: "By the mere application of a name, nothing is decided, either good or evil, apart from the actions implied in the name; and indeed, so far at least as one may judge from the name we are accused of, we are most excellent people." (The ANF note there, from 14040, explains the play on Christos / chrēstos, "good".)
+
+**H2. Why he set out what Christians do.** Own words, First Apology 61. Documented.
+R1 1577–1579: "Ὃν τρόπον δὲ καὶ ἀνεθήκαμεν ἑαυτοὺς τῷ θεῷ καινοποιηθέντες διὰ τοῦ Χριστοῦ, ἐξηγησόμεθα, ὅπως μὴ τοῦτο παραλιπόντες δόξωμεν πονηρεύειν τι ἐν τῇ ἐξηγήσει."
+ANF1 16229–16232: "I will also relate the manner in which we dedicated ourselves to God when we had been made new through Christ; lest, if we omit this, we seem to be unfair in the explanation we are making."
+Plain: he describes baptism and the Sunday gathering (chapters 61–67) so that he will not seem to be hiding something or dealing unfairly in his account.
+
+**H3. Why Sunday.** Own words, First Apology 67. Documented.
+R1 1779–1785: "Τὴν δὲ τοῦ ἡλίου ἡμέρα κοινῇ πάντες τὴν συνέλευσιν ποιούμεθα, ἐπειδὴ πρώτη ἐστὶν ἡμέρα, ἐν ᾗ ὁ θεὸς τὸ σκότος καὶ τὴν ὕλην τρέψας κόσμον ἐποίησε, καὶ Ἰησοῦς Χριστὸς ὁ ἡμέτερος σωτὴρ τῇ αὐτῇ ἡμέρᾳ ἐκ νεκρῶν ἀνέστη"
+ANF1 16527–16530: "But Sunday is the day on which we all hold our common assembly, because it is the first day on which God, having wrought a change in the darkness and matter, made the world; and Jesus Christ our Saviour on the same day rose from the dead."
+At the close of the chapter (R1 1785; ANF1 16532–16534) he says these things are set before the emperors "for your consideration" too.
+
+**H4. Who Tatian became.** For the Connection. Witnesses as marked.
+- Tatian's own words, Address to the Greeks 42 (contemporary). Documented. TAT 14227–14230 (OCR): "γεννηθεὶς μὲν ἐν τῇ τῶν ᾿46- / συρίων γῇ, παιδευϑεὶς δὲ πρῶτον μὲν Ξτὰ ὑμέτερα" (OCR for Ἀσσυρίων … τὰ ὑμέτερα). ANF2 7460–7464: "I was born in the land of the Assyrians, having been first instructed in your doctrines, and afterwards in those which I now undertake to proclaim."
+- Eusebius, Church History IV.29.6 (~150 years after Justin). Widely Accepted that Tatian made it. EUS 26424–26426, 26433: "But their original founder, Tatian, formed a certain combination and collection of the Gospels, I know not how, to which he gave the title Diatessaron". McGiffert (editor), EUS 26433–26435: "Eusebius is the first one to mention this Diatessaron, and he had evidently not seen it himself."
+- The Doctrine of Addai, a Syriac account of the church at Edessa (later; its date is the editor's: McGiffert, EUS 26443–26444, "which belongs to the third century"). Documented that the text says so; Inferential-Thin as a report of Addai's own day. `addai_doctrine-of-addai.txt` 65: "a large multitude of people assembled day by day and came to the prayer of the service, and to the reading of the Old and New Testament, of the Diatessaron". Phillips's note (editor), same file 219–221: "The Diatessaron was that made by Tatian … It was a volume compiled from the Four Gospels, and seems to have been publicly read at Edessa up to the fourth century."
+- McGiffert (editor), EUS 26438–26442, reporting Theodoret (Theodoret's own *Haereticarum fabularum* is not held): Theodoret "found a great many copies of it in circulation in his diocese, and that, finding that it omitted the account of our Lord's birth, he replaced it by the four Gospels". Editor's report; card material, not for the audio.
+- Irenaeus, Against Heresies I.28.1 (~15 years after; hostile to Tatian). ANF1 33655–33672 (fuller than I3): the Encratites "preached against marriage"; "A certain man named Tatian first introduced the blasphemy … after his martyrdom he separated from the Church … he declared that marriage was nothing else than corruption and fornication. But his denial of Adam's salvation was an opinion due entirely to himself."
+- Census entry `tatian` (`cic-website/data/world-census.json`), told within `syriac-edessa-nisibis`: "A hearer of Justin Martyr who attacked Greek learning in his Address to the Greeks and wove the four Gospels into one, the Diatessaron." (Census, not a source.)
+
+**H5. Eusebius's name for him.** Later, ~150 years. EUS 21864–21866 (Church History IV.8.3): "Justin, a genuine lover of the true philosophy, was still continuing to busy himself with Greek literature." Used on the card; not needed in the audio.
+
+---
+
 ## Library sweep
 
 **What was searched.**
@@ -241,3 +269,5 @@ Year: about 165. Dominant Modern Reconstruction, resting on McGiffert (editor), 
 - `john-malalas_chronographia-grc-lat_dindorf1831.txt`, `procopius_*`, `theophanes-confessor_*`, `gregoras_*`, `gregory-tours_*` and similar: hits are the emperors Justin I and II, not this Justin.
 
 **Not held.** Marcus Aurelius's *Meditations* (so nothing in the Library identifies Rusticus as Marcus's teacher); Musurillo's *Acts of the Christian Martyrs* (the three recensions); the Acta Sanctorum April volume for his feast; Justin's lost Syntagma and his book against Marcion.
+
+**Added in the revision (2026-11-18).** Searched again for Tatian's later life and the Diatessaron: `npnf201` (Eusebius IV.28–29 with McGiffert's notes), `addai_doctrine-of-addai.txt`, `tatian_oratio-ad-graecos-grc-lat_otto1851.txt` (chapter 42), ANF2. Some 20 further files mention the Diatessaron (among them Ephrem, Aphrahat, the Chronicle of Seert, Barhadbeshabba, Harnack, Duchesne, Labourt); they belong to Tatian's own story and the Syriac tradition, not to Justin's, and were set aside. Re-read in R1 chapters 4, 61 and 67 for the heart of his life.

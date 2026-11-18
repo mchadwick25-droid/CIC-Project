@@ -155,3 +155,5 @@ One row per agent pass. Tokens are the subagent's own count as the harness repor
 | arius, chalcedon | blind second reading, three terms (Blind_5) | Opus | 81,112 | all same in meaning |
 | arius, chalcedon | coordinator: entries for "Arian", "two", "robbers"; Chalcedon "From two natures"; cut "Peter" entry removed | — | — | census check 0 errors |
 | all twelve | substance read | Opus | 165,099 | 3 PASS, 8 FIX, 1 FIX-OUTLINE |
+| alopen | re-outline (heart of their life) | Opus | 142,596 | heart: first recorded mission; opening on the 1625 finding |
+| baudonivia | re-outline (heart of their life) | Opus | 142,395 | heart: what her Life of Radegund tells |
