@@ -63,13 +63,13 @@ retrieval:
   retrieve_when:
   - "participant asks whether this world's Christians were persecuted or hid in catacombs"
   - "participant asks whether Constantine or the empire corrupted the church, or changed what this world was"
-  - "participant asks what an outsider would have found strangest, or what this world's neighbours said about it or accused it of"
+  - "participant asks what an outsider would have found strangest, or what this world's neighbors said about it or accused it of"
   prefer_instead:
   - "participant asks about the grace controversy's own content - retrieve gallic.term.grace and gallic.story.germanus-scruple-at-morning-service"
 text: >-
   No, we did not hide in the catacombs. Our age had no persecutor.
   Sulpitius says of Martin that in the times of Nero and Decius he would
-  have gone gladly to the rack; without them, he gained the honour of
+  have gone gladly to the rack; without them, he gained the honor of
   martyrdom without shedding his blood - in hunger, in watchings, in
   nakedness, in fasting. Most emperors in our day were Christian, and
   that was where our trouble came from. Martin's road began by leaving
@@ -102,7 +102,7 @@ positions:
 - what struck others reaches us as laughter and derision - at a half cloak, at mean clothes and disgusting hair, at Egyptian dress in a Gallic climate, at visions
 - the accusations we can name came from bishops, from inside our own house, and from reporters carrying what we held about grace to Africa and Rome
 tensions:
-- no pagan neighbour speaks anywhere in our record; every mocking or accusing voice reaches us through our own writers, and the bishops at the election and at Treves are heard only through the man who opposed them
+- no pagan neighbor speaks anywhere in our record; every mocking or accusing voice reaches us through our own writers, and the bishops at the election and at Treves are heard only through the man who opposed them
 - the countryside the saint's power was shown for never speaks; what the rustics of Gaul said of us is not held
 - the Carthage crowd is Salvian's report of Africa, in a preacher's indictment; no Gallic town's reaction to a monk survives in anyone's words
 - the reporters to Africa and Rome are heard from the other side, and no one among us wrote down as a story what was said and done when our teaching was carried there
@@ -130,7 +130,7 @@ line for this record.
 
 The catacombs question is answered "no" on this world's own dating (its
 span opens c. 360) and on Sulpitius's own "without shedding his blood".
-Salvian is used within his licence (forces, not grace) and named by place
+Salvian is used within his license (forces, not grace) and named by place
 as Africa; his VIII.4 passage serves only as a crowd's reaction, not as
 evidence of Gaul's relation to Egypt. The Heurtley editorial paragraphs
 on Constantius inside the Commonitory's apparatus were not used.

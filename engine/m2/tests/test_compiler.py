@@ -129,3 +129,44 @@ def test_an_analytic_record_stays_out_of_every_compiled_file(monkeypatch):
     for path in ("compiled/prompt.txt", "compiled/quotes.json", "compiled/figures.json"):
         assert b"fix.story.the-long-road" not in package[path]
     assert not any(path.startswith("compiled/chunks/") and b"fix.story.the-long-road" in content for path, content in package.items())
+
+
+def test_a_reading_card_changes_no_compiled_file(monkeypatch):
+    import engine.m2.compiler as compiler
+    from engine.m2.builders import _PACKAGE_STRIPPED_FIELDS
+
+    args = dict(world_key="alx", package_id="TEST", records_commit="TEST", compiler_version="TEST")
+    without, _ = compile_and_hash(**args)
+
+    card = {
+        "setting": "Origen answers the pagan critic Celsus in a long written reply.",
+        "source_says": "The disciples risked their lives to teach it, so they did not invent it.",
+        "historians_conclude": {"text": "An argument from sincerity, not eyewitness testimony.", "confidence": "Documented"},
+        "whose_view": "Origen's own argument, not the whole community's.",
+        "complicated_by": ["alx.quote.athanasius-death-trampled-down"],
+        "sources": {
+            "setting": "alx.source.origen-contra-celsum, Contra Celsum II.56",
+            "source_says": "alx.source.origen-contra-celsum, Contra Celsum II.56",
+            "historians_conclude": "Doc_05, section 3",
+            "whose_view": "Doc_05, section 3",
+        },
+    }
+    real = compiler.load_world_records
+
+    def with_cards(world_key, **kwargs):
+        records = real(world_key, **kwargs)
+        for record_id in ("alx.quote.a-doctrine-they-would-not-have-taught", "alx.story.arsinoite-conference"):
+            records[record_id] = {**records[record_id], "reading_card": card}
+        return records
+
+    monkeypatch.setattr(compiler, "load_world_records", with_cards)
+    with_card, _ = compile_and_hash(**args)
+
+    assert "reading_card" in _PACKAGE_STRIPPED_FIELDS
+    assert with_card["compiled/prompt.txt"] == without["compiled/prompt.txt"]
+    assert with_card["compiled/repository.json"] == without["compiled/repository.json"]
+    assert sorted(with_card) == sorted(without)
+    changed = [path for path in without if path.startswith("compiled/") and with_card[path] != without[path]]
+    assert changed == []
+    compiled_bytes = b"".join(content for path, content in with_card.items() if path.startswith("compiled/"))
+    assert b"Celsus in a long written reply" not in compiled_bytes

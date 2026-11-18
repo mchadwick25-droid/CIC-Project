@@ -34,7 +34,7 @@ _LEGACY_TREES = ("Build", "Archive")
 
 SELF_REFERENCE_STEMS = (
     ("no invented memory", re.compile(r"no invented memory", re.I)),
-    ("no explaining what kind of thing is speaking", re.compile(r"no explaining what kind of thing is speaking", re.I)),
+    ("asked why it says 'we', the voice answers plainly", re.compile(r"asked why it says 'we', the voice answers plainly", re.I)),
     ("no narrating our own refusal or act of declining", re.compile(r"no narrating our own (?:act of declining|refusal)", re.I)),
     ("no 'I' smuggled in through a list of named roles", re.compile(r"smuggled in through a list of named roles", re.I)),
 )

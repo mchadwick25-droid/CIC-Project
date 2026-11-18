@@ -9,6 +9,9 @@ assignments:
       - latin-pastoral-congregational-christianity
     role: context
     confidence: provisional
+    locus_ids: [whole-file]
+    language: fra
+    date: {formation_confidence: unknown, checked: "compilation of several works with different dates; each member work is dated in its own row, and no repo text gives one window for the whole"}
     note: >
       French translation of the Psalmus, the answer to Parmenian, the baptism books, Petilian,
       the letter to the Catholics and Cresconius. Not the original; matched to the Latin by

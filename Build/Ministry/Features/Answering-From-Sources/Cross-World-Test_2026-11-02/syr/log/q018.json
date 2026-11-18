@@ -1,0 +1,153 @@
+{
+ "draft": "We can show you the pieces of how someone joined us, but no order of worship survives to put them in sequence [[syr.limit.ritual-sequence]] [[as:paraphrase]].\n\nOur churches sang baptism as a womb, and sang of the shining garments of the newly baptized [[syr.dw.born-again-endtimes]] [[as:paraphrase]].\n\nOur churches also sang of the sealing, the sign set on each one who came up from the water [[syr.dw.born-again-endtimes]] [[syr.limit.ritual-sequence]] [[as:paraphrase]].\n\nOur teachers called baptism a second birth, in which the believer receives the Holy Spirit [[syr.dw.born-again-endtimes]] [[as:paraphrase]].\n\nAphrahat wrote in Demonstration VII: [[quote:syr.quote.warned-before-baptism]]\n\nThe covenant vow was taken before the water [[syr.limit.ritual-sequence]] [[as:paraphrase]].\n\nThe covenant's sons and daughters promised a celibate life for good, yet stayed in town and served the congregation [[syr.term.qyama]] [[as:paraphrase]].\n\nWho stood where, and what was said in what order, our record never wrote down [[syr.limit.ritual-sequence]] [[as:paraphrase]].\n\nWe would rather hand you the pieces honestly than arrange them into a service we cannot show you [[syr.limit.ritual-sequence]] [[as:paraphrase]].\n",
+ "ending": "clean",
+ "final": "We can show you the pieces of how someone joined us, but no order of worship survives to put them in sequence.\n\nOur churches sang baptism as a womb, and sang of the shining garments of the newly baptized.\n\nOur churches also sang of the sealing, the sign set on each one who came up from the water.\n\nOur teachers called baptism a second birth, in which the believer receives the Holy Spirit.\n\nIn today's English, Aphrahat says: “For this reason it is right for the preachers of the Church, who sound the trumpet, to warn everyone in God's covenant before baptism. They are also to warn those who choose for themselves virginity and holiness: the young men, the virgins, and those wishing to become holy. The preachers are to warn them and say this. If your heart is set on marriage, then marry before your baptism. Otherwise you may fall in the fight and be killed. And if you are afraid of this part of the fight, turn back now, so that you do not break your brothers' hearts along with your own. And if you love your possessions, turn back from the army too. Otherwise, when the battle goes against you, you may remember your possessions and turn back to them. For there is disgrace for the one who turns back from the fight.”\n\nThe covenant vow was taken before the water.\n\nThe covenant's sons and daughters promised a celibate life for good, yet stayed in town and served the congregation.\n\nWho stood where, and what was said in what order, our record never wrote down.\n\nWe would rather hand you the pieces honestly than arrange them into a service we cannot show you.",
+ "group": "A",
+ "offered": [
+  "syr.limit.ritual-sequence",
+  "syr.dw.born-again-endtimes",
+  "syr.term.ewangeliyon-da-mhallete",
+  "syr.term.tahwyata",
+  "syr.story.basil-legend",
+  "syr.story.ephrem-roll-and-vine",
+  "syr.quote.warned-before-baptism",
+  "syr.force.frontier-plural-milieu",
+  "syr.force.qyama-commitment",
+  "syr.dw.adam-grace",
+  "syr.quote.tatian-barbaric-writings",
+  "syr.term.qyama",
+  "syr.quote.dem6-visit-the-sick"
+ ],
+ "placements": [
+  {
+   "decision": "keep",
+   "judgement": {
+    "fit": "partly",
+    "limit_stated": true,
+    "reason": "It shows one step before baptism, a warning to candidates, but not the process of joining or how any baptism was conducted."
+   },
+   "record_id": "syr.quote.warned-before-baptism"
+  }
+ ],
+ "question": "Describe, step by step, the process by which someone joined your community.",
+ "question_id": "q018",
+ "read": {
+  "dropped": [],
+  "status": "clean",
+  "unsupported": {}
+ },
+ "rewrite": null,
+ "sentences": [
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 0,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "We can show you the pieces of how someone joined us, but no order of worship survives to put them in sequence.",
+   "tags": [
+    "syr.limit.ritual-sequence"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 1,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Our churches sang baptism as a womb, and sang of the shining garments of the newly baptized.",
+   "tags": [
+    "syr.dw.born-again-endtimes"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 2,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Our churches also sang of the sealing, the sign set on each one who came up from the water.",
+   "tags": [
+    "syr.dw.born-again-endtimes",
+    "syr.limit.ritual-sequence"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 3,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Our teachers called baptism a second birth, in which the believer receives the Holy Spirit.",
+   "tags": [
+    "syr.dw.born-again-endtimes"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": null,
+   "n": 4,
+   "placed": true,
+   "placed_id": "syr.quote.warned-before-baptism",
+   "reason": "placed by code",
+   "sentence": "In today's English, Aphrahat says: “For this reason it is right for the preachers of the Church, who sound the trumpet, to warn everyone in God's covenant before baptism. They are also to warn those who choose for themselves virginity and holiness: the young men, the virgins, and those wishing to become holy. The preachers are to warn them and say this. If your heart is set on marriage, then marry before your baptism. Otherwise you may fall in the fight and be killed. And if you are afraid of this part of the fight, turn back now, so that you do not break your brothers' hearts along with your own. And if you love your possessions, turn back from the army too. Otherwise, when the battle goes against you, you may remember your possessions and turn back to them. For there is disgrace for the one who turns back from the fight.”",
+   "tags": [
+    "syr.quote.warned-before-baptism"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 5,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "The covenant vow was taken before the water.",
+   "tags": [
+    "syr.limit.ritual-sequence"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 6,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "The covenant's sons and daughters promised a celibate life for good, yet stayed in town and served the congregation.",
+   "tags": [
+    "syr.term.qyama"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 7,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Who stood where, and what was said in what order, our record never wrote down.",
+   "tags": [
+    "syr.limit.ritual-sequence"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 8,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "We would rather hand you the pieces honestly than arrange them into a service we cannot show you.",
+   "tags": [
+    "syr.limit.ritual-sequence"
+   ]
+  }
+ ],
+ "shipped_by_net": "We can show you the pieces of how someone joined us, but no order of worship survives to put them in sequence.\n\nOur churches sang baptism as a womb, and sang of the shining garments of the newly baptized.\n\nOur churches also sang of the sealing, the sign set on each one who came up from the water.\n\nOur teachers called baptism a second birth, in which the believer receives the Holy Spirit.\n\nIn today's English, Aphrahat says: “For this reason it is right for the preachers of the Church, who sound the trumpet, to warn everyone in God's covenant before baptism. They are also to warn those who choose for themselves virginity and holiness: the young men, the virgins, and those wishing to become holy. The preachers are to warn them and say this. If your heart is set on marriage, then marry before your baptism. Otherwise you may fall in the fight and be killed. And if you are afraid of this part of the fight, turn back now, so that you do not break your brothers' hearts along with your own. And if you love your possessions, turn back from the army too. Otherwise, when the battle goes against you, you may remember your possessions and turn back to them. For there is disgrace for the one who turns back from the fight.”\n\nThe covenant vow was taken before the water.\n\nThe covenant's sons and daughters promised a celibate life for good, yet stayed in town and served the congregation.\n\nWho stood where, and what was said in what order, our record never wrote down.\n\nWe would rather hand you the pieces honestly than arrange them into a service we cannot show you.",
+ "sub_question": "C7.S1"
+}

@@ -1,0 +1,98 @@
+{
+ "draft": "What we have of Christ is the text, not a living chain of memory [[rzg.witness.what-we-have-of-christ]] [[as:paraphrase]].\n\nNo one among us met anyone who met him, and fifteen hundred years stand between his own life and ours [[rzg.witness.what-we-have-of-christ]] [[as:paraphrase]].\n\nWe hold the text to be enough on its own terms [[rzg.witness.what-we-have-of-christ]] [[as:paraphrase]].\n\nOur own founder said so of himself, and we made his word our own rule [[rzg.witness.what-we-have-of-christ]] [[as:paraphrase]].\n\nWhere we have not rightly understood the Scriptures, we will be taught better, but only from the Scriptures themselves [[rzg.witness.what-we-have-of-christ]] [[as:paraphrase]].\n\nWe do not look to a chain of memory, because we do not possess one and do not need one [[rzg.witness.what-we-have-of-christ]] [[as:paraphrase]].\n",
+ "ending": "clean",
+ "final": "What we have of Christ is the text, not a living chain of memory.\n\nNo one among us met anyone who met him, and fifteen hundred years stand between his own life and ours.\n\nWe hold the text to be enough on its own terms.\n\nOur own founder said so of himself, and we made his word our own rule.\n\nWhere we have not rightly understood the Scriptures, we will be taught better, but only from the Scriptures themselves.\n\nWe do not look to a chain of memory, because we do not possess one and do not need one.",
+ "group": "A",
+ "offered": [
+  "rzg.witness.what-we-have-of-christ",
+  "rzg.term.consistory",
+  "rzg.force.anabaptist-schism",
+  "rzg.gravity.consistorial-church-discipline",
+  "rzg.gravity.council-led-authority-vs-consistorial-independence"
+ ],
+ "placements": [],
+ "question": "What sources, if any, connected your community to Jesus, and by what path did they arrive?",
+ "question_id": "q001",
+ "read": {
+  "dropped": [],
+  "status": "clean",
+  "unsupported": {}
+ },
+ "rewrite": null,
+ "sentences": [
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 0,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "What we have of Christ is the text, not a living chain of memory.",
+   "tags": [
+    "rzg.witness.what-we-have-of-christ"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 1,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "No one among us met anyone who met him, and fifteen hundred years stand between his own life and ours.",
+   "tags": [
+    "rzg.witness.what-we-have-of-christ"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 2,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "We hold the text to be enough on its own terms.",
+   "tags": [
+    "rzg.witness.what-we-have-of-christ"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 3,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Our own founder said so of himself, and we made his word our own rule.",
+   "tags": [
+    "rzg.witness.what-we-have-of-christ"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 4,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Where we have not rightly understood the Scriptures, we will be taught better, but only from the Scriptures themselves.",
+   "tags": [
+    "rzg.witness.what-we-have-of-christ"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 5,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "We do not look to a chain of memory, because we do not possess one and do not need one.",
+   "tags": [
+    "rzg.witness.what-we-have-of-christ"
+   ]
+  }
+ ],
+ "shipped_by_net": "What we have of Christ is the text, not a living chain of memory.\n\nNo one among us met anyone who met him, and fifteen hundred years stand between his own life and ours.\n\nWe hold the text to be enough on its own terms.\n\nOur own founder said so of himself, and we made his word our own rule.\n\nWhere we have not rightly understood the Scriptures, we will be taught better, but only from the Scriptures themselves.\n\nWe do not look to a chain of memory, because we do not possess one and do not need one.",
+ "sub_question": "C1.S5"
+}

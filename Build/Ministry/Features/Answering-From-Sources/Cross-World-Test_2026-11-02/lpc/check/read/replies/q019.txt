@@ -1,0 +1,10 @@
+{"sentences": [
+{"n": 1, "supported": false, "problem": "added_detail", "reason": "The record says Augustine named a restless heart, but nothing in it says that we know that restlessness ourselves."},
+{"n": 2, "supported": true, "problem": null, "reason": "The record says Augustine opened the story of his own life with a restless heart."},
+{"n": 4, "supported": true, "problem": null, "reason": "The pattern record gives this as Augustine's teaching."},
+{"n": 5, "supported": true, "problem": null, "reason": "The record says we are buried with him in the water and walk in a life made new."},
+{"n": 6, "supported": true, "problem": null, "reason": "The record says we have never found the place where the two become one settled rule and do not expect to."}
+],
+"placed": [
+{"id": "lpc.quote.the-old-man-nailed-to-the-cross-speaks", "fit": "partly", "reason": "It names the old self's distress and ignorance but offers no practice for an unsettled mind.", "limit_stated": false}
+]}

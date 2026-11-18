@@ -16,7 +16,7 @@ confidence:
   divergence_note: null
 sources:
 - source_id: ijc.source.canons-constantinople-381
-  locus: Canon III (npnf214 lines 14396-14400)
+  locus: "Canon III (cic/texts/npnf214_seven-ecumenical-councils.xml, lines 14398-14400)"
   license: public-domain
 text: The Bishop of Constantinople, however, shall have the prerogative of honour after the Bishop of
   Rome; because Constantinople is New Rome.
@@ -36,7 +36,7 @@ retrieval:
 relations:
 - {type: illustrates, target: ijc.gravity.primacy-claiming}
 use_note:
-  means: "The Council of Constantinople ranks its bishop second in honour after Rome's bishop, on the stated ground that Constantinople is New Rome."
+  means: "The Council of Constantinople ranks its bishop second in honor after Rome's bishop, on the stated ground that Constantinople is New Rome."
   not_for:
     - "a claim that the 'prerogative of honour' was merely ceremonial, with no operative rank behind it"
     - "a claim that turns on the singular 'prerogative', where other translations give 'prerogatives' or 'primacy of honor'"

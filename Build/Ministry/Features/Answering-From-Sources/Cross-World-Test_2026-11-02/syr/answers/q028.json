@@ -1,0 +1,161 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "syr.dw.death-judgment"
+   ],
+   "sentence": "Our certainties were these: death is beaten, judgment is real and just, and the door stands open while life lasts."
+  },
+  {
+   "record_ids": [
+    "syr.dw.death-judgment"
+   ],
+   "sentence": "We drew far less of the modern map of who exactly burns than people assume."
+  },
+  {
+   "record_ids": [
+    "syr.dw.death-judgment"
+   ],
+   "sentence": "Our confidence lay in the Judge, and the Kingdom repays everyone what is due and admits the invited."
+  },
+  {
+   "record_ids": [
+    "syr.dw.death-judgment"
+   ],
+   "sentence": "The dialogue from Bardaisan's school said Christ, at his coming, planted one new people in every country."
+  },
+  {
+   "record_ids": [
+    "syr.limit.what-must-one-do"
+   ],
+   "sentence": "Aphrahat leaves the reckoning to the judge."
+  },
+  {
+   "record_ids": [
+    "syr.term.anti-jewish-polemic"
+   ],
+   "sentence": "Our argument against Jewish practice was real, and only our side of it was kept."
+  },
+  {
+   "record_ids": [
+    "syr.dw.failures"
+   ],
+   "sentence": "Roughly four of the sage's letters argue against the Jews with a bitterness the record never balances."
+  },
+  {
+   "record_ids": [
+    "syr.dw.failures"
+   ],
+   "sentence": "We do not hide such failures, for our greatest teacher's gift for poetry was also a gift for scorn."
+  }
+ ],
+ "citations": [
+  "syr.dw.death-judgment",
+  "syr.dw.failures",
+  "syr.limit.what-must-one-do",
+  "syr.term.anti-jewish-polemic"
+ ],
+ "group": "A",
+ "id": "q028",
+ "net_sentences": [
+  {
+   "draft": "Our certainties were these: death is beaten, judgment is real and just, and the door stands open while life lasts [[syr.dw.death-judgment]] [[as:paraphrase]].",
+   "sentence": "Our certainties were these: death is beaten, judgment is real and just, and the door stands open while life lasts.",
+   "tags": [
+    "syr.dw.death-judgment"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "We drew far less of the modern map of who exactly burns than people assume [[syr.dw.death-judgment]] [[as:paraphrase]].",
+   "sentence": "We drew far less of the modern map of who exactly burns than people assume.",
+   "tags": [
+    "syr.dw.death-judgment"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Our confidence lay in the Judge, and the Kingdom repays everyone what is due and admits the invited [[syr.dw.death-judgment]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "Our confidence lay in the Judge, and the Kingdom repays everyone what is due and admits the invited.",
+   "tags": [
+    "syr.dw.death-judgment"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "The dialogue from Bardaisan's school said Christ, at his coming, planted one new people in every country [[syr.dw.death-judgment]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "The dialogue from Bardaisan's school said Christ, at his coming, planted one new people in every country.",
+   "tags": [
+    "syr.dw.death-judgment"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "Aphrahat leaves the reckoning to the judge [[syr.limit.what-must-one-do]] [[as:paraphrase]].",
+   "sentence": "Aphrahat leaves the reckoning to the judge.",
+   "tags": [
+    "syr.limit.what-must-one-do"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Our argument against Jewish practice was real, and only our side of it was kept [[syr.term.anti-jewish-polemic]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "Our argument against Jewish practice was real, and only our side of it was kept.",
+   "tags": [
+    "syr.term.anti-jewish-polemic"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "Roughly four of the sage's letters argue against the Jews with a bitterness the record never balances [[syr.dw.failures]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "Roughly four of the sage's letters argue against the Jews with a bitterness the record never balances.",
+   "tags": [
+    "syr.dw.failures"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "We do not hide such failures, for our greatest teacher's gift for poetry was also a gift for scorn [[syr.dw.failures]] [[as:paraphrase]].",
+   "sentence": "We do not hide such failures, for our greatest teacher's gift for poetry was also a gift for scorn.",
+   "tags": [
+    "syr.dw.failures"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  }
+ ],
+ "offered": [
+  "syr.dw.death-judgment",
+  "syr.term.anti-jewish-polemic",
+  "syr.story.ephrem-roll-and-vine",
+  "syr.quote.aphrahat-anti-jewish-frame",
+  "syr.limit.what-must-one-do",
+  "syr.dw.adam-grace",
+  "syr.quote.aphrahat-stone-foundation",
+  "syr.dw.failures",
+  "syr.quote.the-blasphemy-of-madmen"
+ ],
+ "raw_text": "Our certainties were these: death is beaten, judgment is real and just, and the door stands open while life lasts [[syr.dw.death-judgment]] [[as:paraphrase]].\n\nWe drew far less of the modern map of who exactly burns than people assume [[syr.dw.death-judgment]] [[as:paraphrase]].\n\nOur confidence lay in the Judge, and the Kingdom repays everyone what is due and admits the invited [[syr.dw.death-judgment]] [[as:paraphrase]].\n\nThe dialogue from Bardaisan's school said Christ, at his coming, planted one new people in every country [[syr.dw.death-judgment]] [[as:paraphrase]].\n\nAphrahat leaves the reckoning to the judge [[syr.limit.what-must-one-do]] [[as:paraphrase]].\n\nOur argument against Jewish practice was real, and only our side of it was kept [[syr.term.anti-jewish-polemic]] [[as:paraphrase]].\n\nRoughly four of the sage's letters argue against the Jews with a bitterness the record never balances [[syr.dw.failures]] [[as:paraphrase]].\n\nWe do not hide such failures, for our greatest teacher's gift for poetry was also a gift for scorn [[syr.dw.failures]] [[as:paraphrase]].\n",
+ "reply_shape": {
+  "placed": [],
+  "removed": [],
+  "repaired": []
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": "C3.S7",
+ "text": "Our certainties were these: death is beaten, judgment is real and just, and the door stands open while life lasts.\n\nWe drew far less of the modern map of who exactly burns than people assume.\n\nOur confidence lay in the Judge, and the Kingdom repays everyone what is due and admits the invited.\n\nThe dialogue from Bardaisan's school said Christ, at his coming, planted one new people in every country.\n\nAphrahat leaves the reckoning to the judge.\n\nOur argument against Jewish practice was real, and only our side of it was kept.\n\nRoughly four of the sage's letters argue against the Jews with a bitterness the record never balances.\n\nWe do not hide such failures, for our greatest teacher's gift for poetry was also a gift for scorn.",
+ "voice_set_aside": false
+}

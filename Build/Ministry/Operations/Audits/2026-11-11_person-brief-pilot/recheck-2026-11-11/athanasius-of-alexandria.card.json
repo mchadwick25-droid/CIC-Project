@@ -1,0 +1,62 @@
+{
+  "known_for": "Bishop of Alexandria who defended the faith of Nicaea through five exiles and wrote against Arius and his heirs.",
+  "role": "Bishop of Alexandria",
+  "key_works": [
+    {
+      "title": "On the Incarnation",
+      "about": "why the Word became man"
+    },
+    {
+      "title": "Discourses Against the Arians",
+      "about": "quotes Arius's Thalia and answers it"
+    },
+    {
+      "title": "Life of Antony",
+      "about": "the hermit's life, by one who had attended him"
+    }
+  ],
+  "legacy_traces": [
+    "Socrates declines to tell Antony's story because Athanasius had already given a whole book to it. Evagrius, later bishop at Antioch, put that book into Latin with a short apology for how freely he rendered it.",
+    "Gregory of Nazianzus gave him a whole sermon at Constantinople, and in it says that all who have lived according to God still live to God.",
+    "In 433 Cyril wrote to John of Antioch that some had garbled Athanasius's letter to Epictetus, and sent transcripts from old copies he held, which he called genuine."
+  ],
+  "legacy_remembered": [
+    "Honored sixty years after his death: Cyril of Alexandria singles him out among the Fathers whose teaching he refuses to step outside of.",
+    "Disputed in his own time: the bishops at Tyre deposed him, and the reasons for his exile to Trier were reported two ways, as Socrates's telling shows."
+  ],
+  "uncertain": [
+    "How Arsenius reached Tyre is not settled. Socrates credits God's providence: the governor's servants heard at an inn that he was hiding in a citizen's house, and the governor had him found. Sozomen gives two reasons, a divine prompting or, \"as it is said\", a plan of Athanasius, and says Arsenius slipped into Tyre by night the day before the trial.",
+    "Rufinus tells that Bishop Alexander once watched boys on the shore playing at church, and that the boy who played bishop was young Athanasius. Socrates, who names Rufinus as his source, thinks it not improbable, and Sozomen tells it too.",
+    "Socrates says Athanasius hid for four months in a family tomb. The Historia Acephala, a record of his life, says he went to a country house of his near the New River."
+  ],
+  "written_about": [
+    {
+      "title": "Church History, Book 1",
+      "author": "Socrates",
+      "date": null,
+      "language": "English translation",
+      "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml"
+    },
+    {
+      "title": "Church History, Book 2",
+      "author": "Sozomen",
+      "date": null,
+      "language": "English translation",
+      "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml"
+    },
+    {
+      "title": "Oration 21, On the Great Athanasius",
+      "author": "Gregory of Nazianzus",
+      "date": null,
+      "language": "English translation",
+      "file": "cic/texts/npnf207_cyril-jerusalem-gregory-nazianzen.xml"
+    },
+    {
+      "title": "Letter to John of Antioch",
+      "author": "Cyril of Alexandria",
+      "date": "433",
+      "language": "Greek with English translation",
+      "file": "cic/texts/cyril-alexandria_three-epistles-grc-eng_pusey1872.txt"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+source_file: azariah_christ-in-the-indian-villages_1930.txt
+assignments:
+- row_id: azariah_christ-in-the-indian-villages_1930--azariah-and-whitehead-christ-in-the-indian-villages
+  work: 'Azariah and Whitehead, Christ in the Indian Villages'
+  author: azariah
+  locus: 'whole'
+  atlas_ids:
+  - the-ecumenical-movement-and-the-wcc
+  role: tradition
+  confidence: assigned
+  note: 'A joint book by two bishops in India, with John R. Mott''s introduction. The chapters are not divided between them, so which words are Azariah''s is not known.'

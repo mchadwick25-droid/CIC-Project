@@ -1,0 +1,11 @@
+source_file: joseph-ha-kohen_la-vallee-des-pleurs-emek-ha-bakha-fra_see1881.txt
+assignments:
+- row_id: joseph-ha-kohen_la-vallee-des-pleurs-emek-ha-bakha-fra_see1881--joseph-ha-kohen-emek-ha-bakha-in-french-see
+  work: 'Joseph ha-Kohen, Emek ha-Bakha, in French (See)'
+  author: joseph-ha-kohen
+  locus: 'about OCR lines 325-12803; add 12 to OCR line numbers'
+  atlas_ids:
+  - the-tridentine-church
+  role: context
+  confidence: assigned
+  note: "A Jewish chronicle of the sufferings of Israel, finished in 1575 by the title page, in a translator's French, with a later hand's notes; an outside witness. No census entry is the Jews of Europe, so the work sits on this entry."

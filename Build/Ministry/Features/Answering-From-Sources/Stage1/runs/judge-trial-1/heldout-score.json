@@ -1,0 +1,202 @@
+{
+  "half": "heldout",
+  "natural": {
+    "items": 385,
+    "classes": {
+      "supported": 307,
+      "unsupported": 69,
+      "false_friend": 1,
+      "embedded_voice": 1,
+      "generalisation": 5,
+      "negation_modal_shift": 2
+    },
+    "deciders": {
+      "judge:verifier": {
+        "items": 385,
+        "gold_unsupported": 78,
+        "flagged": 97,
+        "true_flags": 69,
+        "recall_unsupported": 0.8846153846153846,
+        "precision_unsupported": 0.711340206185567,
+        "per_class": {
+          "embedded_voice": {
+            "items": 1,
+            "flagged": 1
+          },
+          "false_friend": {
+            "items": 1,
+            "flagged": 1
+          },
+          "generalisation": {
+            "items": 5,
+            "flagged": 5
+          },
+          "negation_modal_shift": {
+            "items": 2,
+            "flagged": 2
+          },
+          "supported": {
+            "items": 307,
+            "flagged": 28
+          },
+          "unsupported": {
+            "items": 69,
+            "flagged": 60
+          }
+        },
+        "not_judged": 0,
+        "kappa_with_gold": 0.7273318913538654
+      },
+      "judge:citation_recall": {
+        "items": 385,
+        "gold_unsupported": 78,
+        "flagged": 79,
+        "true_flags": 69,
+        "recall_unsupported": 0.8846153846153846,
+        "precision_unsupported": 0.8734177215189873,
+        "per_class": {
+          "embedded_voice": {
+            "items": 1,
+            "flagged": 0
+          },
+          "false_friend": {
+            "items": 1,
+            "flagged": 1
+          },
+          "generalisation": {
+            "items": 5,
+            "flagged": 2
+          },
+          "negation_modal_shift": {
+            "items": 2,
+            "flagged": 2
+          },
+          "supported": {
+            "items": 307,
+            "flagged": 10
+          },
+          "unsupported": {
+            "items": 69,
+            "flagged": 64
+          }
+        },
+        "not_judged": 0,
+        "kappa_with_gold": 0.8479873651835996
+      },
+      "current_gates": {
+        "items": 385,
+        "gold_unsupported": 78,
+        "flagged": 65,
+        "true_flags": 27,
+        "recall_unsupported": 0.34615384615384615,
+        "precision_unsupported": 0.4153846153846154,
+        "per_class": {
+          "embedded_voice": {
+            "items": 1,
+            "flagged": 0
+          },
+          "false_friend": {
+            "items": 1,
+            "flagged": 0
+          },
+          "generalisation": {
+            "items": 5,
+            "flagged": 2
+          },
+          "negation_modal_shift": {
+            "items": 2,
+            "flagged": 1
+          },
+          "supported": {
+            "items": 307,
+            "flagged": 38
+          },
+          "unsupported": {
+            "items": 69,
+            "flagged": 24
+          }
+        },
+        "not_judged": 0,
+        "kappa_with_gold": 0.23711454970499835
+      }
+    }
+  },
+  "constructed": {
+    "items": 93,
+    "classes": {
+      "negation_modal_shift": 22,
+      "false_friend": 24,
+      "generalisation": 20,
+      "embedded_voice": 27
+    },
+    "deciders": {
+      "judge:verifier": {
+        "items": 93,
+        "gold_unsupported": 93,
+        "flagged": 86,
+        "true_flags": 86,
+        "recall_unsupported": 0.9247311827956989,
+        "precision_unsupported": 1.0,
+        "per_class": {
+          "embedded_voice": {
+            "items": 27,
+            "flagged": 27
+          },
+          "false_friend": {
+            "items": 24,
+            "flagged": 20
+          },
+          "generalisation": {
+            "items": 20,
+            "flagged": 18
+          },
+          "negation_modal_shift": {
+            "items": 22,
+            "flagged": 21
+          }
+        },
+        "not_judged": 0,
+        "kappa_with_gold": 0.0
+      },
+      "judge:citation_recall": {
+        "items": 93,
+        "gold_unsupported": 93,
+        "flagged": 86,
+        "true_flags": 86,
+        "recall_unsupported": 0.9247311827956989,
+        "precision_unsupported": 1.0,
+        "per_class": {
+          "embedded_voice": {
+            "items": 27,
+            "flagged": 26
+          },
+          "false_friend": {
+            "items": 24,
+            "flagged": 22
+          },
+          "generalisation": {
+            "items": 20,
+            "flagged": 16
+          },
+          "negation_modal_shift": {
+            "items": 22,
+            "flagged": 22
+          }
+        },
+        "not_judged": 0,
+        "kappa_with_gold": 0.0
+      },
+      "current_gates": {
+        "items": 0,
+        "gold_unsupported": 0,
+        "flagged": 0,
+        "true_flags": 0,
+        "recall_unsupported": null,
+        "precision_unsupported": null,
+        "per_class": {},
+        "not_judged": 93,
+        "kappa_with_gold": null
+      }
+    }
+  }
+}

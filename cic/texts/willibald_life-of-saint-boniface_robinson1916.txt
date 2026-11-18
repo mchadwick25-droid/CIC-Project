@@ -1,0 +1,4381 @@
+Title: The Life of Saint Boniface by Willibald, translated into English for the first time, with introduction and notes, by George W. Robinson
+Creator: Willibald of Mainz; translated by George W. Robinson (title page)
+Publisher: Cambridge: Harvard University Press; London: Humphrey Milford, Oxford University Press (title page)
+Publication Date: 1916 (title page; the year line reads 'IQl6' in the OCR and the line under it reads 'COPYRIGHT, 1916')
+Rights: Public Domain (pd-us-by-date: published 1916); the archive.org record is tagged NOT_IN_COPYRIGHT
+Language: eng
+Source: archive.org item lifeofsaintboni00robiuoft, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (172,285) equals the size archive.org lists for the djvu.txt.
+Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1916, out of US copyright by date. OCR quality: the English is clean. Line numbers cited in this header are lines of the host OCR; add 12 for this file's own line numbers.
+Content note: Willibald's Life of Boniface in English. Chapter 6, the oak at Geismar ('the Oak of Jupiter'), at about OCR lines 2036-2060.
+
+______________________________________________________________________
+
+HARVARD  TRANSLATIONS 
+
+
+HARVARD  TRANSLATIONS 
+
+EUGIPPIUS:  The  Life  of  Saint  Severinus. 
+Translated  into  English  for  the  first 
+time,  with  Notes,  by  GEORGE  W. 
+ROBINSON,  A.B.,  Secretary  of  the 
+Harvard  Graduate  School  of  Arts  and 
+Sciences.  8vo.  $1.50  net 
+
+WILLIBALD:  The  Life  of  Saint  Boniface. 
+Translated  into  English  for  the  first 
+time,  with  Introduction  and  Notes, 
+by  GEORGE  W.  ROBINSON. 
+
+8vo.    $1.15  net 
+
+
+THE 
+
+LIFE  OF  SAINT  BONIFACE 
+
+
+BY 
+
+WILLIBALD 
+
+
+TRANSLATED  INTO  ENGLISH  FOR  THE  FIRST  TIME 
+WITH  INTRODUCTION  AND  NOTES 
+
+BY 
+
+GEORGE  W.  ROBINSON 
+
+SECRETARY  OF  THE  HARVARD  GRADUATE  SCHOOL  OF 
+ARTS  AND  SCIENCES 
+
+
+CAMBRIDGE 
+
+HARVARD  UNIVERSITY  PRESS 
+LONDON:  HUMPHREY  MILFORD 
+
+OXFORD  UNIVERSITY  PRESS 
+IQl6 
+
+
+COPYRIGHT,  1916 
+HARVARD  UNIVERSITY  PRESS 
+
+
+MANIBUS 
+
+SAMUEL  COLCORD  BARTLETT 
+HENRICI  ELIAE  PARKER 
+EDUARDI  RUSH  RUGGLES 
+
+LUDOVICI  POLLENS 
+
+RUFI  BYAM  RICHARDSON 
+
+MARVINI  DAVIS  BISBEE 
+
+CAROLI  FRANCISCI  RICHARDSON 
+
+PROFESSORUM  DARTMUTHENSIUM 
+
+INTER  ANNOS  MDCCCXC  ET  MDCCCXCIII 
+
+SACRUM 
+
+SEDEM  SEPULCRI  SERVET  IMMOTUS  CINIS 
+MEMORIA  VIVAT  NOMINUM 
+
+
+PREFACE 
+
+THIS  first  English  translation  of  Willibald's  Life  of 
+Saint  Boniface,  the  Apostle  of  Germany,  is  based  on 
+Wilhelm  Levison's  edition  of  the  text:  Vitae  Sancti 
+Bonifatii  Archiepiscopi  Moguntini  (Hannoverae  et 
+Lipsiae,  1905),  pp.  1-57. 
+
+I  am  glad  to  express  my  obligations  to  Professors 
+Ephraim  Emerton  and  Edward  Kennard  Rand  of  Har 
+vard  University  for  helpful  suggestions;  and  to  Mr. 
+Frederick  C.  Dietz,  who  has  kindly  examined  for  me  a 
+number  of  editions  and  translations  in  the  British 
+Museum. 
+
+For  some  of  the  references  in  the  notes  I  am  indebted 
+to  earlier  commentators.  Where  these  references 
+seem  to  have  become  common  property,  I  have  con 
+sidered  specific  acknowledgment  unnecessary. 
+
+For  the  sake  of  convenience,  I  have  employed  cer 
+tain  abbreviations  in  the  footnotes,  as  follows : 
+
+E Ernst  Dummler,  S.  Bonifatii  et  Lulli  Epistolae. 
+
+In  M .  G.  H.,  Epistolae  Merowingici  et  Karolini 
+
+Aevi,  torn,  i  (Berolini,  1892). 
+M .  G.H.. .  Monumenta  Germaniae  Historica. 
+P.L Jacques  Paul  Migne,  Patrologia  Latina. 
+
+GEORGE  W.  ROBINSON. 
+
+CAMBRIDGE,  MASSACHUSETTS, 
+June,  1915. 
+
+
+CONTENTS 
+
+PAGE 
+
+INTRODUCTION n 
+
+THE  LIFE  OF  SAINT  BONIFACE 21 
+
+A  LIST  OF  EDITIONS  AND  TRANSLATIONS  OF 
+THE  LIFE 95 
+
+INDEX  OF  AUTHORS  CITED  IN  THE  NOTES .    .  105 
+GENERAL  INDEX  ....   109 
+
+
+INTRODUCTION 
+
+THE  chief  sources  from  which  our  knowledge  of  Saint 
+Boniface  is  drawn  are,  first,  the  writings  of  Boniface 
+himself,  particularly  his  Letters,  with  the  letters  ad 
+dressed  to  him  which  have  been  preserved  with  his 
+own;  secondly,  the  Life  by  Willibald.  The  Life  of 
+Gregory,1  the  saint's  beloved  disciple,  by  Liudger,2 
+also  presents  a  number  of  valuable  notices;  and  the 
+Life  of  Abbot  Sturmi 3  of  Fulda.  by  Eigil,4  gives  the 
+best  and  fullest  account  of  the  beginnings  of  the  great 
+abbey  of  Fulda,5  the  special  delight  of  the  declining 
+years  of  Boniface,6  and  the  spot  which  he  chose  as  the 
+final  resting  place  for  his  body.7  Other  contemporary 
+material  includes  a  few  passages  in  the  chroniclers,  and 
+in  the  Lives  of  Willibald,  bishop  of  Eichstatt,8  and 
+Wynnebald,  abbot  of  Heidenheim,9  brothers,  and  rela 
+tives  of  Boniface,10  by  the  Nun  of  Heidenheim.11 
+
+1  Abbot  of  Saint  Martin  at  Utrecht;  died  about  775. 
+
+2  '  Apostle  of  the  Frisians  and  Saxons  ';  bishop  of  Miinster  c.  804- 
+809;  died  809. 
+
+3  Died  779.  4  Died  822. 
+
+6  Founded  12  March  744.    Eigil,  Vita  Sturmi,  13. 
+
+6  £.,  86;  Albert  Hauck,  Kirchengeschichte  Deutschlands ,  i  (2d  ed., 
+Leipsic,  1898),  p.  566. 
+
+7  E.,  86;  pages  79,  90,  below. 
+
+8  Page  77,  below.    Bishop  Willibald  died  not  before  786. 
+
+9  Died  19  December  761. 
+
+10  Vita  Wynnebaldi,  4:    "  qui  carnale  propinquitatis  et  sanguini 
+copulatione  illo  fuerat  sociatus  atque  glutinatus." 
+
+11  The  Nun  appears  to  have  written  the  Life  of  Willibald,  from  his 
+
+
+12  INTRODUCTION 
+
+The  extant  works  of  Boniface  comprise  a  grammar, 
+some  fragments  on  metres,  poems,  letters,  and  fifteen 
+sermons.1  The  Life  of  Saint  Livinus,2  formerly 
+wrongly  ascribed  to  him,  was  probably  composed 
+about  the  middle  of  the  eleventh  century.3 
+
+The  grammar  (Ars  Domni  Bonifacii  Archiepiscopi  et 
+Martyris)  was  edited  by  Angelo  Mai  in  i835.4  It  may 
+
+dictation  and  notes,  not  long  after  23  June  778,  and  the  Life  of  Wynne- 
+bald  a  little  later,  from  the  relation  of  his  sister  Waldburga,  abbess  of 
+Heidenheim,  and  of  his  friends  and  disciples. —Both  Lives  are  printed 
+in  M.  G.  H.,  Scrip  tores,  xv,  i. 
+
+1  The  authenticity  of  the  sermons  has  been  doubted;  but  without 
+sufficient  cause.  See  the  remarks  of  F.  W.  Rettberg,  Kirchenge- 
+schichte  Deutschlands  (Gottingen,  1846-48),  i,  pp.  408  f.;  and  Adolf 
+Ebert,  Geschichte  der  christlich-lateinischen  Literatur  bis  zum  Zeitalter 
+Karls  des  Grossen  (Leipsic,  1874),  p.  614. 
+
+The  so-called  Poenitentiak  S.  Bonifacii,  printed  by  Anton  Joseph 
+Binterim  in  his  Denkwurdigkeiten  der  christ-katholischen  Kirche,  v,  3 
+(Mayence,  1829),  pp.  430-436,  cannot  in  its  present  form  be  earlier 
+than  the  ninth  century.  Whether  its  substance  may  be  in  part  de 
+rived  from  the  teachings  of  Boniface  has  been  a  matter  of  discussion. 
+F.  W.  H.  Wasserschleben,  Die  Bussordnungen  der  abendldndischen 
+Kirche  (Halle,  1851),  p.  89,  n.  2;  P.  H.  Kiilb,  Sdmmtliche  Schriften  des 
+heiligen  Bonifacius  (Ratisbon,  1859),  ",  PP-  439  f.;  H.  J.  Schmitz,  Die 
+Bussbucher  und  die  Bussdisciplin  der  Kirche,  i  (Mayence,  1883),  p.  745. 
+
+August  Niirnberger  publishes  from  Vatican  manuscripts  some  doc 
+trinal  fragments  ascribed  to  Boniface.  Programm  des  kb'nigl.  kathol- 
+ischen  Gymnasiums  zu  Neisse,  178  (Neisse,  1883),  pp.  xvii  ff.  One  of 
+these  fragments  is  highly  interesting  to  students  of  the  tradition  of  the 
+Roman  exempla  virtutis. 
+
+2  First  published  by  Nicolaus  Serarius,  Epistolae  S.  Bonifacii 
+(Moguntiae,  1605),  pp.  233-252. 
+
+3  Wilhelm  Wattenbach,  Deutschlands  Geschichtsquellen  im  Mittel- 
+alter  (7th  ed.,  Berlin,  1904-),  i,  pp.  147,  433- 
+
+4  Classicorum  Auctorum  e  Vaticanis  Codicibus  editorum  Tomus  VII 
+(Romae,  1835),  pp.  475~548. 
+
+
+INTRODUCTION  13 
+
+be  assigned  without  hesitation  to  the  period  of  the 
+author's  teaching  activity  at  Nhutscelle.1  The  work  is 
+wholly  based  on  earlier  writers,  above  all  Donatus; 2 
+but  the  material  is  revised  with  a  view  to  the  practical 
+needs  of  teacher  and  scholar.3 
+
+The  fragments  on  metres 4  probably  date  from  the 
+same  period.6  They  appear  to  be  based  largely  on  Isi 
+dore  of  Seville.6 
+
+Of  the  poems  the  most  important  is  a  series  of 
+twenty  riddles  on  the  virtues  and  vices,  in  388  hexa 
+meters.  John  Allen  Giles  published  the  first  161  verses 
+in  18447  from  a  manuscript  in  the  British  Museum; 
+and  the  whole  poem,  from  a  Cambridge  manuscript,  in 
+1 85 1.8  The  best  edition  is  by  Ernst  Dummler9  (Bero- 
+lini,  1881).  The  riddles  cannot  be  said  to  possess 
+
+1  Page  33,  below:  "imbued  .  .  .  with  the  eloquence  of  the  art  of 
+grammar." 
+
+2  Max  Manitius,  Geschichte  der  lateinischen  Literatur  des  Mittel- 
+alters,  i  (Munich,  1911),  p.  149- 
+
+3  Ibid. 
+
+4  Printed  in  Thomas  Gaisford's  Scriptores  Latini  Rei  Metricae 
+(Oxonii,  1837),  pp.  577-585;  and  (in  part)  by  August  Wilmanns,  in 
+the  Rheinisches  Museum,  Neue  Folge,  xxiii  (1868),  pp.  4°3  f- 
+
+5  Page  33,  below:  "imbued  .  .  .  with  the  pithy  modulation  of  the 
+eloquence  of  metres  ";  E.,  98. 
+
+6  Wilmanns  notes  a  comical  misunderstanding  on  the  part  of  Boni 
+face.    Isidore  (Etymologiae,  i,  37  —  Wilmanns's  reference  is  wrong) 
+says  prosae  autem  studium  sero  viguit;  Boniface  renders  this  Orationis 
+autem  studium  primum  egit  Seron. 
+
+7  Bonifacii  Opera,  ii,  pp.  109-115.    Not  the  complete  poem,  as 
+Manitius  wrongly  says  (op.  cit.,  i,  p.  151) :  erring  through  a  misunder 
+standing  of  a  passage  in  Diimmler's  preface. 
+
+8  Anecdota  Bedae,  Lanfranci,  et  aliorum,  pp.  18-24,  38-45. 
+
+9  M.  G.  H.,  Poetae  Latini  Aevi  Carolini,  i,  pp.  3-15. 
+
+
+14  INTRODUCTION 
+
+much  merit  as  poetry;  nevertheless  they  are  import 
+ant  because  of  the  light  which  they  shed  upon  the  ideas 
+and  character  of  Boniface.  We  have  a  brief  introduc 
+tion,  and  then  addresses  of  the  ten  principal  virtues  and 
+as  many  vices:  Love,  Orthodoxy,  Hope,  Justice,  Truth, 
+Mercy,  Patience,  Christian  Peace,  Christian  Humility, 
+Virginity;  Greed,  Haughtiness,  Gluttony,  Drunken 
+ness,  Luxury,  Envy,  Ignorance,  Vainglory,  Negligence, 
+Wrath.  That  the  riddles  were  composed  after  Boni 
+face  entered  upon  his  work  in  Germany  has  been  in 
+ferred  from  verses  323  f.,  in  the  address  of  Ignorance: 
+
+"  Ob  quod  semper  amavit  me  Germanica  tellus, 
+Rustica  gens  hominum  Sclaforum  et  Scythia  dura." 
+
+In  addition  to  the  riddles,  there  remain  verses  ad 
+dressed  to  Dudd,1  which  may  have  served  as  a  dedica 
+tion  of  the  grammar; 2  and  lines  attached  to  letters  to 
+Nithard  3  and  Pope  Zacharias.4 
+
+The  letters  were  first  edited  by  Nicolaus  Serarius  in 
+1605; 5  the  best  editions  are  those  of  Philipp  Jaffe  6 
+
+1  Diimmler,  op.  cit.,  pp.  16  f. 
+
+2  Manitius,  op.  cit.,  i,  p.  149. 
+
+3  E.,  9. 
+
+4  E.,  50.    Diimmler,  op.  cit.,  pp.  1-19,  publishes  all  these  as  Boni- 
+fatii  Carmina,  with  a  preface.    He  also  assigns  Carmina,  iv  (p.  18),  to 
+Boniface,  but  withdraws  the  ascription  in  his  edition  of  the  Letters 
+printed  eleven  years  later.    E.,  140. 
+
+6  Epistolae  S.  Bonifacii  Martyris,  Primi  Moguntini  Archiepiscopi, 
+Germanorum  Apostoli,  pluriumque  Pontificum.  Regum,  6*  aliorum. 
+Moguntiae,  1605. 
+
+8  In  his  Bibliotheca  Rerum  Germanicarum,  torn,  iii  (Monumenta 
+Moguntina),  pp.  24-315. 
+
+
+INTRODUCTION  15 
+
+(1866)  and  Ernst  Dummler  l  (1892).  The  collection  in 
+which  they  are  preserved  includes  not  only  letters  of 
+Boniface  and  his  successor  Lul,  but  many  written  to 
+them,  and  a  number  of  others  of  the  same  time;  besides 
+a  few  earlier  ones  by  Aldhelm 2  and  others,3  apparently 
+included  as  models  of  composition.  The  letters  of 
+Boniface.,  which  cover  the  period  from  about  716 
+nearly  to  the  time  of  his  death,  are  of  great  interest  and 
+value.  Some  are  to  the  popes,4  concerning  questions 
+of  doctrine  and  administration; 5  one  is  a  striking  mes 
+sage  of  admonition  to  King  Aethelbald  of  Mercia; 8 
+others  are  to  the  Prankish  rulers ; 7  but  a  peculiar 
+charm  attaches  to  those  which  the  saint  wrote  to  his 
+devoted  Anglo-Saxon  friends,  male 8  and  female,9  as 
+suring  them  of  his  warm  and  constant  love,  thanking 
+them  for  gifts,10  and  asking,  now  for  advice,11  now  for 
+their  prayers  in  his  behalf 12  and  in  that  of  the  pagan 
+Germans 13  whose  conversion  he  sought,  but  perhaps 
+
+1  In  M.  G.  H.,  Epistolae  Merowingici  et  Karolini  Aevi,  i,  pp.  231- 
+
+43i. 
+
+2  £.,1,2,3;  6V  (in  verse). 
+
+3  Ibid.,  4,  5,  7,  8;  6I-6IV  (in  verse). 
+
+4  To  Zacharias,  ibid.,  50,  86;  to  Stephen  III,  ibid.,  108,  109. 
+(*Ibid.,  50,  86,  109.  •  Ibid.,  73- 
+
+T*Ibid.,  48,  93,  107. 
+
+8  Ibid.,  9,  32,  33,  34,  38,  63,  69,  74,  75,  76,  78,  91. 
+
+9  Ibid.,  10,  27,  30,  35,  65,  66,  67,  94,  96. 
+
+10  Ibid.,  27,  30,  75,  78,  91. 
+
+11  Ibid.,  32,  33,  34,  63,  91. 
+
+12  Ibid.,  27,  30,  33,  34,  38,  65,  66,  67,  74,  76,  91,  94. 
+
+u  Ibid.,  38,  65.  46  is  a  general  request  "  to  all  God-fearing  Catho 
+lics  of  English  race  and  stock  "  to  pray  for  the  conversion  of  the 
+heathen  Saxons. 
+
+
+1 6  INTRODUCTION 
+
+most  eagerly  of  all  for  books.1  "  I  beseech  that  thou 
+copy  for  me  in  gold  the  epistles  of  my  lord,  Saint  Peter 
+the  Apostle,  unto  the  honor  and  reverence  of  the  Holy 
+Scriptures  before  the  eyes  of  fleshly  folk  when  I 
+preach."  2 
+
+Dr.  Giles  has  given  English  translations  of  letters  of 
+Boniface  to  Bishop  Daniel  of  Winchester,  the  Abbess 
+Bugga,  and  the  youth  Nithard.3  Dr.  Isaac  Gregory 
+Smith  translates  the  letter  to  Bugga;  others  to  the 
+Abbess  Eadburga  and  to  Abbot  Dudd;  and  part  of  one 
+to  Pope  Zacharias.4  Edward  Kylie  has  translated  the 
+correspondence  of  Boniface  and  his  English  friends.6 
+
+The  sermons,  first  printed  in  1733,*  are  most  easily 
+accessible  in  Giles's 7  or  Migne's 8  edition  of  the  works 
+of  Boniface.  Dr.  Giles,  in  the  preface  to  the  second 
+volume  of  his  edition,  turns  into  English  Remy  Ceil- 
+lier's  summary  of  their  contents;  and  a  translation  of 
+part  of  one  may  be  found  in  Dr.  Smith's  Boniface.9  In 
+the  sixth  sermon  is  an  especially  vigorous  denunciation 
+of  heathen  practices,  and  a  lively  description  of  the 
+place  of  torment  that  awaits  those  who  are  guilty  of 
+them  or  of  other  capital  sins. 
+
+1  E-,  33,  34,  35,  63,  75,  76,  91.  2  Ibid.,  35. 
+
+3  Bonifacii  Opera  (1844),  i,  PP-  12-20.    E.,  63,  94,  9. 
+
+4  Boniface  (1896),  pp.  81-93.    E.,  65,  94,  34,  50. 
+
+5  The  English  Correspondence  of  Saint  Boniface  (London,  1911): 
+in  the  series  called  The  King's  Classics. 
+
+6  At  Paris,  in  Edmond  Martene  and  Ursin  Durand's  Veterum  Scrip- 
+torum  Amplissima  Collectio,  torn,  ix,  coll.  185-218. 
+
+7  London,  1844:  vol.  ii,  pp.  57-107. 
+
+8  P.  L.y  vol.  Ixxxix  (Parish's,  1850),  coll.  843-872. 
+»Pp.99ff. 
+
+
+INTRODUCTION  17 
+
+The  Life  of  Boniface  lHbaldthe  translation  of 
+
+
+which  we  give,  w^sj^itteEL^thin  &  few  yearsj)|Jthe 
+saint's  death,  almost  certainly  nqtj.ater  than(2ffify  at_ 
+the  request  of  Boniface's  successor,  Luj^and  of  Bishop 
+Megingoz  of  Wul^urg."niVilirbald,  a  priest  of  Anglo- 
+Saxon  origin/is  an  "author  worthy^i^TTlFe^p'ect  ~as" 
+regards  industry  and  veracity.  The_jchiel  ^defects  of 
+his  work  are  two:  a  style  inflated  and  obscure,  sup 
+ported  by  no  sufficient  foundation  of  grammatical 
+knowledge;  and  the  comparative  scantiness  of  the  in 
+formation  which  he  supplies  concerning  much  of  the 
+later  life  of  Boniface.3  Fortunately  the  omissions  can 
+be  supplied  in  part  from  the  other  sources. 
+
+Later  lives  of  Boniface  are  printed,  Tn  full  or  in  part, 
+and  discussed  by  Levison  in  his  Vitae  Bonifatii.  These 
+add  little  or  nothing  to  our  knowledge;  indeed,  they 
+have  rather  served  to  confuse  the  history  of  the  saint. 
+This  is  particularly  true,  in  different  ways,  of  the 
+worthless  Mayence  legends  collected  in  the  work  which 
+Levison  calls  the  '  Fourth  Life/  and  of  the  attempts  to 
+simplify  and  popularize  made  by  the  monk  Otloh  of 
+St.  Emmeram,  the  most  distinguished  writer  of  his 
+
+1  Levison,  Vitae  Bonifatii,  p.  x. 
+
+2  Ibid.,  pp.  viii  f.    He  was  long  confused  with  Saint  Willibald, 
+bishop  of  Eichstatt.    Ibid.,  pp.  vii  f  .    To  this  confusion  may  be  traced 
+Manitius's  amazing  reference  to  him  as  a  relative  of  Boniface.    Ge- 
+schichte  der  lateinischen  Literatur  des  Mittelalters,  i,  p.  146. 
+
+8  E.  g.,  hejioes  not  mention  Pope  Zacharias^74^-52^  with  _  w_hpm 
+Boniface  had  a  copious  correspondence.^  Wattenbach  discusses  the 
+general  question  of  the  omissions.  DeittscUands  Geschichtsquellen, 
+i,  pp.  151  f. 
+
+
+1 8  INTRODUCTION 
+
+time,  whose  work  was  written  during  his  stay  at  Fulda 
+in  the  years  1062  to  IO66.1 
+
+The  modern  literature  relative  to  Boniface  is  impos 
+ing  in  quantity,  particularly  in  Germany;  of  its  aver 
+age  quality  not  so  much  can  be  said.  One  may  begin 
+with  the  notices  annexed  to  the  editions  which  I  have 
+named,  and  with  the  sections  in  the  Ecclesiastical  His 
+tories  of  Rettberg  and  Hauck,  in  Ebert's  Geschichte  der 
+christlich-lateinischen  Literatur,  and  in  Max  Mani- 
+tius's  Geschichte  der  lateinischen  Literatur  des  Mittelal- 
+ters:  these,  with  Potthast's  Wegweiser,  will  point  the 
+way  to  further  study.  In  English  there  is  little  of 
+scholarly  worth,  save  for  the  booklet  Boniface,  by 
+Isaac  Gregory  Smith,  in  the  series  The  Fathers  for  Eng 
+lish  Readers. 
+
+We  are  indebted  to  England,  on  the  other  hand,  for 
+William  Selwyn's  fine  poem  Winfrid,  afterwards  called 
+Boniface  (Cambridge  and  London,  1865),  in  blank 
+verse.2  In  German  poetry  Johann  Baptist  Rousseau's 
+Das  Bonifazius-Lied 3  (Mayence,  1855)  is  not  without 
+merit.  Dr.  Wiss's  Latin  poem  Bonifacius,  affixed  to 
+
+1  "  Petitionibus  vestris,  fratres  Fuldenses,  prout  scientiae  meae 
+parvitas  permisit,  parere  studui.    Petistis  enim,  ut  sancti  patris  nostri 
+Bonifacii  vitam  precipuo  quidem  elegantique,  utpote  sancti  Willi- 
+baldi,  stilo  antiquitus  editam,  sed  in  locis  quibusdam  ita  infirmo  intel- 
+lectui  velatam,  ut  difficile  pateat  quo  oratio  tendat,  hanc  ego  sententia 
+apertiori  reserarem."    Otloh,  Vita  Bonifacii,  Prologus. 
+
+2  915  lines. 
+
+3  Zur  Erinnerung  an  die  Verherrlichung  des  heil.  Winfried-Boni- 
+fazius,  des  Aposlels  von  Deutschland  und  Erzbischofs  von  Mainz,  bei  der 
+eilfhundertjahrigen  Jubelfeier  von  dessen  Martyrium  im  Juni  1855. 
+Fifty-six  pages.    There  is  a  curious  Politische  Apostrophe  (pp.  50-52) 
+
+
+INTRODUCTION  19 
+
+his  translation  of  the  Letters  (Fulda,  1842), also  should 
+not  be  overlooked.  Trithemius's  story  of  a  poem  on 
+Boniface  in  heroic  verse,  by  Ruthard,  a  monk  of 
+Hirschau,  is  a  pure  invention.1 
+
+The  importance  of  the  work  of  Boniface  in  the  ec 
+clesiastical,   and,  indeed,  in  the  general  history  of   \ 
+Europe  cannot  easily  be  exaggerated.    His  activities 
+may,  however,  be  viewed  under  several  aspects,  ac 
+cording  as  we  consider  him  as  one  of  the  foremost  ; 
+scholars  of  his  time,  introducer  of  learning  and  litera-    7 
+ture  and  to  a  large  extent  of  the  arts  of  civilized  life 
+into  the  German  lands;   or  as  the  great  champion  of  j 
+Rome  and  of  ecclesiastical  uniformity  in  Central  Eu 
+rope;  or  as  a  missionary  of  God,  a  soldier  and  leader  in 
+the  great  Christian  warfare  against  the  heathen  of  the 
+North.    The  relative  value  which  should  be  assigned 
+
+in  denunciation  of  the  English  for  their  aid  to  Turkey  in  the  Crimean 
+War: 
+
+"  Vor  eilfhundert  Jahren  und  noch  friiher 
+
+Sandte  England  Manner  uber's  Meer, 
+
+Deutsche  Heiden,  die  im  Pferdgewieher 
+
+Gottes  Nahe  wahnten,  als  Erzieher 
+
+Zu  gewinnen  fiir  die  Christuslehr*. 
+
+Nach  eilfhundert  Jahren  ziehn  die  Briten 
+.  .  .'Hort!  .  .  .  mit  einer  Riesenflotte  aus, 
+Um  fiir  Die,  wodurch  wir  nur  gelitten, 
+Heiden,  Haremshelden,  Sodomiten, 
+Christen  zu  bereiten  blut'gen  Strauss." 
+
+1  Joannes  Trithemius,  Chronicon  Monasterii  Hirsaugiensis  (Basil- 
+eae,  1559),  p.  21:  "  Ruthardus  quoque  .  .  .  hujus  coenobii  Hirsau 
+giensis  .  .  .  scripsit  .  .  .  passionem  sancti  Bonifacii  archiepiscopi 
+heroico  carmine  pulcherrime  in  duobus  libris."  See  Levison,  Vitae 
+Bonifatii,  p.  xlvii,  n.  2. 
+
+
+20  INTRODUCTION 
+
+
+j  to  Ids  labors  in  enforcing  uniformity  within  the  church, 
+
+'vand  in  seeking  the  conversion  of  the  pagan  folk  with 
+
+out,  must  always  remain  an  open  question.    No  doubt 
+
+*  certain  tendencies,  political  rather  than  religious,  in 
+
+the  German  historical  writing  of  the  last  half-century 
+
+have  tended  to  exalt  the  proportionate  importance  of 
+
+his  work  as  an  ecclesiastical  organizer.    I  think  the 
+
+man  himself  saw  more  truly,  as  the  witness  of  his 
+
+martyr's  death  attests. 
+
+
+THE  LIFE  OF  SAINT  BONIFACE 
+
+
+THE  LIFE  OF  SAINT  BONIFACE 
+
+PROLOGUE 
+
+To  the  lords  venerable  and  truly  in  Christ  most  dear, 
+Lul  and  Megingoz  colleagues  in  the  episcopacy,  Willi- 
+bald,  priest  in  the  Lord,  though  unworthy. 
+
+Paying  due  complaisance  of  obedience  to  your  holi 
+ness,  but  with  no  confident  reliance  upon  my  own  liter 
+ary  training,  I  have  cheerfully  obeyed  in  will  and  act 
+your  pious  fatherly  command.  With  my  feeble 
+strength  I  have  begun  and  carried  through  unto  the 
+end  the  difficult  task  which  ye  imposed  upon  me.  But 
+I  beseech  that  if  the  result  shall  be  otherwise  than  as 
+your  wish  desires,  ye  weigh  justly  the  weakness  of  my 
+infirmity  and  the  loftiness  of  the  task  laid  upon  me, 
+since  it  is  the  strongest  proof  of  my  regard  that  I  do 
+not  refuse  obedience  to  your  sublime  command.  If,  on 
+the  other  hand,  I  shall  accomplish  anything  worthy 
+and  that  shall  profit  our  times,  assuredly  it  must  be  as 
+cribed  to  the  divine  gift,1  and  to  your  command  and 
+earnest  desire;  since  sometimes  the  pious  wish  of  one 
+who  earnestly  desires  may  be  likened  unto  the  hand  of 
+
+1  For  the  words  and  ideas  of  the  Prologue  to  this  point,  Willibald  is/ 
+largely  indebted  to  the  prefatory  letter  prefixed  by  Victorius  Aqui-"-} 
+tanus  to  the  Easter  Table  which  he  sent  to  Archdeacon  Hilary  of/ 
+Rome  in  457.  M.  G.  H.,  Auctores  Antiquissimi,  ix  (Berolini,  1892),  7 
+pp.  677  f.  ( 
+
+
+WILLIBALD 
+
+an  who  presses  the  oilpress,  and  by  the  strength  of 
+its  pressing  obtains  at  least  a  little  of  the  sweet  fruit  of 
+the  longed  for  knowledge,  and,  bestowing  it,  revives 
+the  famishing.  For  your  holiness  has  determined  to 
+make  equal,  even  to  prefer,  the  foolish  to  the  wise, 
+and  the  less  capable  to  the  prudent,  and  to  commit  to 
+me  in  my  ignorance  that  which  surely  without  effort  ye 
+could  have  presented  in  the  language  of  the  wise.  But 
+I  entreat  that  the  supplication  of  continual  prayer  may 
+bedew  him  whom  the  oilpress  of  your  command  hath 
+pressed.  I  entreat  that  his  mind,  dulled  by  the  fog  of 
+sloth,  may  be  awakened  by  the  wish  of  your  sponta 
+neous  love:  in  order  that  for  the  task,  to  which  it  has 
+been  summoned  through  your  compulsion,  it  may  be 
+strengthened  by  a  vigorous  literary  style. 
+
+For  at  the  request  of  religious  and  Catholic  men,  to 
+whom,  whether  in  the  parts  of  Tuscany  or  the  confines 
+of  Gaul  or  the  approaches  of  Germany  or  even  within 
+the  bounds  of  Britain,  great  report  had  come  of  the 
+fame  and  of  the  dazzling  miracles  of  Saint  Boniface  the 
+martyr,  ye  have  constrained  me  to  write,  after  the  pat-  / 
+tern  of  those  whose  pure  lives  and  virtuous  characters  ( 
+the  most  holy  fathers  have  put  on  paper  in  elegantly/ 
+circumlocutory  language 1  and  handed  down,  the  be- ) 
+ginning,  course,  and  end  of  his  life,  as  I  should  ascer 
+tain  it,  making  the  most  careful  investigation  in  my 
+power,  from  the  narration  of  his  disciples  who  had  long 
+tarried  with  him,  or  of  yourselves.    And  as,  when  thei 
+
+1  Eleganti  verborum  ambage.    An  excellent  description  of  Willi- 
+bald's  own  ideal  of  style. 
+
+
+THE  LIFE  OF  BONIFACE 
+
+covenant  of  the  first  transgression  was  cancelled  *  and 
+the  rays  of  the  true  light  began  to  dawn,  Hegesigpus, 
+who  is  reported  to  have  come  to  Rome  in  the  time  of 
+Anacletus,2  published,  it  is  said,  five  books  of  church 
+history  for  the  profit  of  readers; 3  and  as  Eusebiusjrf 
+Caesarea,  the  most  famous  among  the  writers  of  his 
+tory,  and  his  assistant,  the_jnj£tyrPainphilus,  com 
+posing  the  histories  of  their  own  and  preceding  times 
+with  wondrous  eloquence  of  language,  published  in 
+numerable  volumes;4  and,  further,  as  ^^gorvj  of 
+blessed  memory,  a  man  most  learned  in  literary  studies 
+and  occuping  the  glorious  height  of  the  apostolic  chair, 
+wrote  the  life  of  the  sainted  confessors,  exhibiting  a 
+niaryeUojisly^jnanaged.  Dialectic  style,  ana^EHsEed 
+thejgor^  in  fourT)oo£sin  syllogistic  form,6  which  to 
+this  day,  placed  in  tEelibraries  of  the  churches,  bring 
+to  posterity  the  laborious  grandeur  of  knowledge:  so 
+ye  bid  me  to  reveal  to  this  age  and  to  the  ages  to  come 
+the  life  of  the  saint,  and  his  lofty  virtues,  his  practice  of 
+piety,  and  the  strength  of  his  abstinence.7  But  al 
+though  I  know  that  I  am  a  slight  and  insignificant 
+
+1  Hebrews,  ix,  15. 
+
+2  Anicetus,  bishop  of  Rome  157  ?-i68:  sometimes  known  as  Ana 
+cletus  I. 
+
+3  Saint  Jerome,  De  Viris  Illustribus,  22. 
+
+8  Gregory  the  Great,  pope  590-604. 
+
+6  Dialogorum  Libri  IV  de  Vita  et  MiraculisPatmniJjLa^orum  el  de 
+A eter n^lafe  AmmarifffnT 
+
+^  ^  Here  an (TTcTthe  following  sentence  Willibald  borrows  words  and 
+phrases  freely  from  the  prologue  of  Rufinus's  Historia  Monachorum. 
+P.  L.,  xxi,  coll.  387  f. 
+
+
+26  WILLIBALD 
+
+writer  to  tell  so  great  a  story,  yet,  since  the  wish  of 
+your  benevolence  demands,  I  will  attempt,  with  your 
+aid,  this  task  which  ye  have  given  me  in  charge:  not 
+relying  on  the  pride  of  my  own  presumption,  but  trust 
+ing  confidently  in  the  assistance  of  Catholics;  nor 
+seeking  from  my  weak  pen  the  spreading  abroad  of  my 
+own  glory;  but  furnishing  by  the  relation  of  so  great  a 
+story  an  example  that  shall  profit  readers,  as  each, 
+learning  from  this  pattern,  is  led  to  better  things  by  the 
+perfection  of  his  own  progress. 
+
+
+CHAPTER  I 
+
+How  IN  CHILDHOOD  HE  BEGAN  TO  SERVE  GOD 
+
+THE  illustrious  and  truly  blessed  life  of  Saint  Boniface 
+the  archbishop,  and  his  character,  consecrated  partic 
+ularly  by  imitation  of  the  saints,  as  I  have  learned 
+them  from  the  narratives  of  pious  men,  who,  having 
+zealously  attended  upon  his  daily  conversation  and  the 
+way  of  his  piety,  handed  down  to  posterity  as  an  ex 
+ample  those  things  which  they  heard  or  saw:  this  life 
+and  character  I  seek,  hindered  as  I  am  by  the  darkness 
+of  knowledge,  to  interweave  in  the  meagre  warp  of  this 
+work  and  to  present  concisely  in  the  plain  garb  of  his 
+tory;  and  from  the  beginning  even  unto  the  end,  with 
+the  most  thorough  investigation  in  my  power,  to  reveal 
+the  sanctity  of  his  divine  contemplation. 
+
+When,  in  the  first  bloom  of  boyhood,1  his  mother  had 
+weaned  and  reared  him  with  a  mother's  wonted  great 
+and  anxious  care,  his  father  took  exceeding  great  de 
+light  in  his  companionship,  and  loved  him  above  his 
+brothers.  But  when  he  was  about  four  or  five  years 
+old,  it  was  his  passion  to  enter  God's  service  and  to 
+study  and  toil  over  the  monastic  life  continually, 
+
+1  We  may  reasonably  suppose  that  the  childhood  of  Boniface  was 
+passed  hi  southwestern  England,  not  far  from  Exeter.  However,  the 
+statement  that  he  was  born  at  Crediton,  in  Devonshire,  cannot  be 
+traced  further  back  than  John  de  Grandisson,  bishop  of  Exeter  1327- 
+69.  Levison,  Vitae  Bonifatii,  pp.  xxix,  5,  n.  2. 
+
+27 
+
+
+28\  WILLIBALD 
+
+and  his  soul  panted  after  that  life  every  day;  for 
+already  he  had  subdued  unto  his  spirit  all  that  is  tran 
+sitory  and  determined  to  meditate  upon  the  things  of 
+eternity  rather  than  those  of  the  present.     Indeed,/ 
+when  certain  priests,  or  clerks,  had  gone  out  to  the  layS 
+folk  to  preach  unto  them,  as  is  the  custom  in  those  ( 
+countries,1  and  had  come  to  the  town  and  house  of  the  / 
+saint's  father,  presently,  so  far  as  the  weakness  of  his 
+tender  years  permitted,  the  child  began  to  talk  with 
+them  of  heavenly  things,  and  to  ask  what  would  help 
+him  and  his  infirmity 2  for  the  future. 
+
+When  thus  in  protracted  meditation  he  had  thought 
+long  of  heavenly  things,  and  his  whole  being  was  strain 
+ing  forward  to  the  future  and  upward  to  the  things 
+which  are  on  high,  at  last  he  laid  bare  his  heart  to  his 
+father,  and  asked  him  to  take  his  desire  in  good  part. 
+His  father,  astounded  at  the  tidings,  rebuked  him  most 
+vehemently;  and,  on  the  one  hand,  forbade  him  with 
+threats  to  abandon  him;  on  the  other,  incited  him 
+with  blandishments  to  the  care  of  worldly  business; 
+that  he  might  subdue  him  to  the  temporal  gain  of  a 
+transitory  inheritance,  and,  when  his  own  death  came, 
+
+1  Bede,  Vita  S.  Cuthberti,  9,  and  Historia  Ecchsiastica,  iv,   27 
+(GUe^VlransIairtOnTr~"lTw^  of  the  English  people, 
+that  when  a  clerk  or  priest  came  into  the  town,  they  all,  at  his  com 
+mand,  flocked  together  to  hear  the  word,  willingly  heard  what  was 
+said,  and  more  willingly  practised  those  things  that  they  could  hear 
+and  understand."    The  practice  of  itinerant  preaching  appears  to 
+have  fallen  into  disuse  early  in  the  eighth  century  upon  the  general 
+institution  of  parish  churches. 
+
+2  In  the  sense  of  human  frailty,  as  in  Hebrews,  iv,  15;  v,  2;  vii, 
+28. 
+
+
+THE  LIFE  OF  BONIFACE  (29 
+
+X --• 
+
+leave  him  guardian,  or  rather  heir,  of  his  earthly  goods. 
+Using  the  deceitful  subtlety  of  human  cunning,  he 
+strove  in  long  talks  to  turn  aside  the  young  heart  from 
+the  fulfilment  of  the  purpose  it  had  formed,  and  prom 
+ised,  with  many  a  flattering  word,  that  this  active 
+life  would  be  more  tolerable  to  the  child's  tender  years 
+than  the  contemplative  life  of  the  monastic  warfare: l 
+that  so  he  might  restrain  the  boy  from  the  attempt  to 
+carry  out  this  purpose;  and  incite  him  to  the  vo 
+luptuousness  of  mundane  luxury.  But  the  saint  was 
+already  in  his  boyhood  filled  with  God's  spirit;  and 
+the  more  his  father  held  him  back,  the  more  he  took 
+stout  heart,  and  anxiously  panted  to  provide  himself 
+a  treasure  in  heaven,2  and  to  join  himself  to  the 
+sacred  study  of  letters.  And  it  happened  in  wondrous 
+wise,  as  ever  the  divine  compassion  is  wont  to  act,  that 
+God  in  his  foresight  bestowed  upon  his  young  soldier 
+consolation  in  his  undertaking  and  an  increase  of 
+anxious  desire,  and  a  hasty  change  of  mind  in  the  ob 
+stinate  father:  so  that  at  one  and  the  same  instant  of 
+time  sudden  sickness  crept  upon  the  father,  whom  the 
+unexpected  moment  of  death  already  threatened;  and 
+the  boy's  pious  desire,  long  balked,  increased  most 
+swiftly,  and,  with  the  aid  of  the  Lord  God,  was  fulfilled 
+and  perfected  in  its  increase. 
+
+For  the  saint's  father  according  to  the  flesh,  when 
+by  the  wonderful  judgment  of  the  dispensation  of 
+
+1  See  Eugippius,  The  Life  of  Saint  Severinus,  English  translation 
+(Cambridge,  1914),  p.  45,  n.  i. 
+
+2  Matthew,  vi,  20;  Luke,  xii,  33. 
+
+
+30  WILLIBALD 
+
+God  great  sickness  had  seized  upon  him,  quickly  put 
+away  his  former  obstinacy  of  heart,  made  an  assembly 
+of  the  kindred,  and  of  his  own  free  will,  but  moved 
+by  the  Lord,  directed  the  boy  to  the  monastery  which 
+is  called  by  a  name  of  the  ancients  Ad-Escancastre,1 
+and  committed  him  to  an  embassy  of  trusty  messen 
+gers  to  deliver  to  the  faithful  Wulfhard,  who  was 
+abbot  of  that  monastery.  The  little  boy,  his  friends 
+standing  beside  him,  addressed  Wulfhard  discreetly, 
+and,  making  his  request  intelligently,  as  his  parents  2 
+had  taught  him  aforetime,  declared  that  he  had  long 
+desired  to  submit  himself  to  the  monastic  rule. 
+Forthwith  the  father  of  the  monastery,  after  taking 
+counsel  with  the  brethren  and  receiving  their  bene 
+diction,  as  the  order  of  the  regular  life  demanded,3 
+granted  his  consent  and  the  fulfilment  of  the  boy's 
+wish.  And  so  the  man  of  God,  bereaved  of  his  father 
+according  to  the  flesh,  followed  the  adoptive  father  of 
+our  redemption,4  and,  renouncing  the  earthly  gains  of 
+the  world,  strove  to  acquire  the  merchandise  of  an 
+eternal  inheritance:  that,  according  to  the  veridical 
+voice  of  truth,  by  forsaking  father,  or  mother,  or  lands, 
+or  the  other  things  which  are  of  this  world,  he  should 
+receive  a  hundredfold,  and  should  inherit  everlasting 
+life.5 
+
+1  Exeter. 
+
+2  Perhaps  rather  '  relatives.' 
+
+3  Saint  Benedict  of  Nursia,  Regula,  3. 
+
+4  Romans,  viii,  14,  15,  23. 
+
+5  Matthew,  xix,  29. 
+
+
+CHAPTER  II 
+
+How  IN  THE  BEGINNING  HE  OVERCAME  THE  PASSIONS 
+
+OF  YOUTH  AND  CLAVE  TO  ALL  THAT  WAS   GOOD 
+
+/  THE  first  section  of  our  narrative  is  now  completed, 
+/  though  in  outline.1  Next  we  shall  briefly  make  known 
+the  virtuousness  to  which  the  saint  trained  himself  in 
+the  beginning  of  his  studious  life :  in  order  that  after  we 
+have  laid  the  foundation  of  the  fabric  of  our  work,  the 
+loftiness  of  the  structure  may  little  by  little  be  raised 
+higher  to  the  summit. 
+
+For  after  he  waxed  in  age  and  in  admirable  strength 
+of  knowledge,  and  the  seven  years  of  infancy 2  glided 
+away,  and  the  glory  of  boyhood  came,  by  the  inspira 
+tion  of  heavenly  grace  he  was  enriched  with  great  and 
+unutterable  dignity  of  mind,  as  is  shown  by  the  ex 
+amples  given  later  in  this  work;  and,  living  according 
+to  the  model  afforded  by  the  earlier  saints,  and  in 
+obedience  to  the  ordinances  of  the  venerable  fathers, 
+he  was  manifested  and  adorned  by  the  purity  of  many 
+virtues.  Moreover  he  was  so  kindled  by  divine  genius, 
+and  so  applied  himself  especially  to  the  exercise  of 
+reading,  that  in  all  the  moments  and  hours  and  revolv 
+ing  years  that  were  added  to  his  life,  the  helps  and  the 
+
+1  An  imitation  of  Aldhelm,  DeLa^e^¥itgintia4is^4o.    Levison 
+points  out  other  verbal  borrowingsirom  Aldhelm  hi  the  notes  to  his 
+edition,  pp.  3,  n,  12,  14,  18,  27,  42,  50. 
+
+2  Isidorus  Hispalensis,  Etymologiae,  xi,  2;  Bede,  Vita  S.  CuMerti,  i. 
+
+"31" 
+
+
+32  WILLIBALD 
+
+divinely  augmented  gifts  of  the  Protector  on  high  were 
+also  increased  within  him.  And  the  more  he  progressed 
+in  the  school  of  the  priesthood,  the  more,  as  trusty  men 
+who  were  his  intimate  associates  have  borne  certain 
+witness,  did  his  daily  studies,  in  continual  meditation 
+day  and  night  upon  literary  training,  incite  him  to  the 
+increase  of  eternal  blessedness,  and  protect  him  mar 
+vellously  against  the  inimical  persecutions  of  diabolical 
+suggestion,  which  among  men  are  wont  often  to  cover 
+the  tender  flower  of  youth  as  it  were  with  a  kind  of  fog 
+of  cloudy  darkness;  so  that  also,  because  of  his  cease 
+less  care  and  long  solicitude  and  his  perpetual  exami 
+nation  of  the  sacred  laws,  and  by  the  help  of  the  Lord 
+God,  the  seductive  passions  of  youth  within  him,  and 
+the  assaults  with  which  fleshly  lusts  at  first  assailed 
+him,  for  the  most  part  subsided.  And  more  and  more 
+his  studies  carried  him  forward  to  the  general  instruc 
+tion  of  the  people,1  which,  after  the  passage  of  no  great 
+interval  of  time,  he  began,  enlarged,  and  perfected,  in 
+accordance  with  the  episcopal  ordinance  of  ecclesiasti 
+cal  prescription.  For  he  despised  the  perishable  adorn 
+ments  of  this  world,  and  in  his  childhood,  under  the 
+moderate  government  of  Father  Wulfhard,  kept  the 
+pattern  of  the  monastic  life  well  and  duly  for  many 
+years;  until,  when  sportive  boyhood  was  over  and 
+manly  youth  began,2  the  more  glowing  desire  of  his 
+
+1  As  described  later  in  this  chapter  and  in  the  following.   The  con 
+jecture  of  Jaffe"  and  Levison,  that  the  reference  is  to  Boniface's  later 
+activities  among  the  pagans,  cannot  be  accepted. 
+
+2  At  fourteen.  Isidorus  Hispalensis,  Etymologiae,  xi,  2.    Willibald 
+appears  to  have  in  mind  this  passage  of  Isidore,  or  the  similar  one 
+
+
+THE  LIFE  OF  BONIFACE 
+
+spirit  fired  him  to  go,  with  the  consent  and  advibe-ttf 
+his  trusty  fellow  servants  and  of  the  father  of  the  mon 
+astery,  to  neighboring  monasteries  also,  whither  he  was 
+summoned  by  the  want  of  teachers  of  reading.1 
+
+And  when  in  wish  and  spirit  he  asked  constantly  and 
+with  great  perseverance  in  prayer  that  the  approbation 
+of  the  Almighty  should  be  present  unto  him,  at  length, 
+inspired  by  divine  grace  from  heaven,  he  came  to  the 
+monastery  which  even  to  this  day  is  called  Nhutscelle;2 
+and,  incited  by  the  spiritual  love  of  letters,  chose  the 
+mastership  of  Abbot  Winbert  of  blessed  memory,3  who 
+was  venerably  governing  the  monastery  under  the  dis 
+cipline  of  the  rule,  and  the  companionship  of  the  breth 
+ren  who  there  dwelt  with  him  in  the  Lord.  And  so, 
+joined  to  the  fellowship  of  the  servants  of  God,  he 
+exhibited  with  great  zeal  of  meditation  devoted  service 
+to  the  Lord  God,  and  laborious  perseverance  in  vigils, 
+and  the  work  of  reading  the  divine  word;  so  that  he 
+was  imbued  not  only  with  the  eloquence  of  the  art  of 
+grammar  and  with  the  pithy  modulation  of  the  elo 
+quence  of  metres,4  but  also  with  the  straightforward^ 
+
+of  Bede,  mentioned  above,  in  the  references  to  the  periods  of  human 
+life  which  he  makes  here  and  elsewhere. 
+
+1  The  language  is  ambiguous.    But  the  connection  shows  that  the 
+lack  of  teachers  was  at  Exeter. 
+
+2  Nursling,  or  Nutshalling,  between  Winchester  and  Southampton; 
+as  Selwyn  has  it, 
+
+"  Nutescelle,  sheltering  under  Winton's  see, 
+Where  woodland  Hants  o'er  narrow  channel  looks, 
+To  the  fair  Isle." 
+*  Mentioned  by  Boniface,  E.,  63. 
+
+4  It  is  to  this  period  that  we  may  best  assign  the  grammatical 
+and  metrical  writings  of  Boniface,  mentioned  in  the  Introduction. 
+
+
+/34/  WILLIBALD 
+
+/  exposition  of  history  and  with  the  triple  interpretation 
+
+S  of  spiritual  knowledge,1  and  at  last  shone  so  praise- 
+worthily  in  immense  knowledge  of  the  Scriptures  and 
+in  skill  of  teaching,  that  he  was  even  a  teacher  to  others 
+of  the  traditions  of  the  fathers,  and  a  model  master, 
+who  before  did  not  refuse  to  be  the  pupil  of  inferiors. 
+For  it  is  the  manner  of  holy  conversation,  that  he  dare 
+not  prefer  himself  to  others,  who  has  refused  to  be  sub 
+ject  to  others:  because  he  will  not  be  able  rightly  to 
+/apply  to  inferiors  the  service  of  obedience  which  he 
+
+,  does  not  duly  render  to  those  that  are  set  over  him  by 
+
+/  the  direction  of  heaven.2 
+
+This  service  the  saint  in  such  wise  gave,  under  a 
+monk's  obedience,  to  all  the  members  of  the  com 
+munity,  and  above  all,  as  the  discipline  of  the  rule 
+demanded,  to  his  abbot,  that  in  accordance  with  the 
+prescribed  pattern  of  the  noble  constitution  of  the 
+blessed  father  Benedict3  he  applied  himself  without 
+ceasing  to  daily  labor  of  his  hands  and  to  the  regular 
+performance  of  his  duties:  being  an  example  for  all 
+of  right  living,  in  word,  in  conversation,  in  faith,  in 
+
+1  Joannes  Cassianus,  Conlationes,  xiv,  8,  i :  "  Spiritalis  autem 
+scientiae  genera  sunt  tria,  tropologia,  allegoria,  anagoge  "  ;  ibid., 
+xiv,  8,  7:  "  Doctrina  vero  simplicem  historicae  expositionis  ordinem 
+pandit."  Cassianus  gives  as  an  illustration  Jerusalem:  which  in 
+history  is  a  city  of  the  Jews;  by  tropology,  the  soul  of  man;  by 
+allegory,  the  church  of  Christ;  and  by  anagoge,  the  heavenly  city 
+of  God. 
+f  (  2  Gregory  the  Great,  Dialogi,  i,  i,  in  P.  L.,  Ixxvii,  col.  156  c. 
+
+3  Saint  Benedict,  Regula,  48:  "  Idleness  is  the  enemy  of  the  soul," 
+etc. 
+
+
+THE  LIFE  OF  BONIFACE 
+
+purity; l  that  all  might  receive  of  his  fruit,  and  that  ne 
+might  receive  from  all  a  portion  of  the  wages  of  eter 
+nity.2  But  God  alone,  who  knoweth  what  is  in  the 
+darkness,3  looked  into  the  depths  of  his  heart  and  knew 
+the  excellency  of  his  humility  and  charity:  by  which 
+with  sagacious  solicitude  he  had  won  the  leadership  f^a'75 
+over  all  his  fellow  soldiers;4  so  that  they  held  him 
+equally  in  fear  and  love,  and  whom  they  had  as  fellow 
+in  the  divine  love,  him  they  preferred  as  father  in  the 
+mutual  honor  of  the  apostolic  admonition.5  And  the 
+greatness  of  his  kindness  towards  the  brethren  and 
+of  his  heavenly  learning  so  increased,  that  the  report 
+of  his  holy  exhortation  spread  abroad,  and  his  fame 
+shone  very  brightly  among  the  monasteries,  those  of 
+men  and  also  those  of  the  virgins  of  Christ.  Of  their 
+inmates,  indeed,  great  numbers,  who  were  of  the 
+stronger  sex,  flocked  together  unto  him,  impelled  by 
+thirst  for  reading,  and  drank  of  the  most  healthful 
+spring  of  knowledge,  and  surveyed  and  read  numerous 
+volumes  of  the  Scriptures.  But  they  of  the  weaker 
+sex,  who  could  not  come  continually,  kept  before  their 
+minds  this  man  whose  vast  wisdom  was  filled  with  the 
+spirit  of  divine  love;  and,  running  over  page  after 
+page,  applied  themselves  earnestly  to  the  investigation 
+of  heavenly  things,  and  meditated  perpetually  upon 
+the  secrets  of  the  sacraments  and  the  hidden  things  of 
+
+1  I  Timothy,  iv,  12. 
+
+2  Compare  Mark,  xii,  2;  John,  iv,  36. 
+
+3  Daniel,  ii,  22. 
+
+4  Commilitones.    Compare  Philippians,  ii,  25;  Philemon,  2. 
+6  Romans,  xii,  10. 
+
+
+I$6J  WILLIBALD 
+
+me  mysteries.    And  supernal  grace  so  sustained  him, 
+
+that,  according  to  the  example  of  the  distinguished 
+
+preacher  and  the  words  of  the  teacher  of  the  Gentiles, 
+
+he  held  fast  the  form  of  sound  words,  in  the  faith  and 
+
+love  of  Jesus  Christ; 1  "  studying  to  show  himself  ap- 
+
+i  proved  unto  God,  a  workman  that  needeth  not  to  be 
+
+/  ashamed,  rightly  handling  the  word  of  truth."  2 
+
+1  II  Timothy,  i,  13.  2  Ibid.,  ii,  15. 
+
+
+«  TM  ( fj<j  "(Tin 
+CHAPTER 
+
+
+THAT  HE  PROFFERED  THE  WORD  OF  INSTRUCTION  TO  ALL,  AND 
+THAT  HE  DID  NOT  ASSUME  THE  OFFICE  OF  INSTRUCTION  OF 
+HIS  OWN  WILL,  OR  BEFORE  HE  ATTAINED  THE  PROPER  AGE 
+
+WE  will  turn  for  a  time  to  the  general  manner  of  the 
+saint's  daily  contemplation  and  the  long  continued 
+abstemiousness  of  his  frugality:  that,  mounting  higher 
+and  higher,  we  may  more  readily  relate  concisely  and 
+briefly  his  lofty  works,  and  follow  to  the  end  the  study 
+of  his  venerable  life,  and  explore  it  more  precisely;  and 
+that  by  a  just  moderation  of  the  balance  Boniface  may 
+become  an  example  for  us  of  eternity  and^jnanifest 
+jUH*-^  pa_ttemof_^]30j>^  Through  the  examples 
+
+,  ^/*  of  the  saints,  he  happily  ascended  the  steep  path  of 
+heavenly  knowledge,  and,  going  on  before  the  people 
+as  a  leader,  he  went  into  and  opened  the  gate  of  the 
+Lord  our  God,  into  which  the  righteous  shall  enter.1 
+And  from  his  childhood  even  to  decrepit  old  age,  he 
+particularly  imitated  the  wisdom  of  the  departed 
+fathers,  inasmuch  as  he  daily  and  continually  commit 
+ted  to  memory  the  words  of  the  prophets  and  apostles, 
+*  /  written  with  holy  pen,  and  the  glorious  passion  of  the 
+
+^martyrs,  put  in  writing,  and  also  the  gospel  teaching 
+of  the  Lord  our  God;  and,  in  the  words  of  the  apostle, 
+whether  he  ate  or  drank,  or  whatsoever  he  did,2  he 
+
+1  Psalms,  cxviii,  19,  20.  2  I  Corinthians,  x,  31. 
+
+37 
+
+
+0 
+
+
+WILLIE  ALD 
+
+tways  rendered  unto  God  with  heart  and  voice  the 
+commendation  of  praise  and  the  highest  degree  of  de 
+voted  jubilation,  according  to  the  word  of  the  psalm 
+ist:  "I  will  bless  the  Lord  at  all  times:  his  praise 
+shall  continually  be  in  my  mouth."  l  For  to  such  an 
+extent  was  he  inflamed  with  ardent  desire  for  the 
+Scriptures,  that  often  he  applied  himself  with  every 
+effort  to  imitating  them  and  listening  to  them;  and 
+the  matters  which  were  written  for  the  instruction  of 
+the  people,  he  paraphrased  and  preached  to  the  people  / 
+with  wonderful  eloquence  of  speech  and  very  shrewdly  S 
+added  parables.  He  had  such  a  right  proportion  of  dis- ' 
+cretion,  that  neither  was  the  energy  of  his  rebuke  lack 
+ing  in  gentleness,  nor  the  gentleness  of  his  preaching  in 
+energy;  but  as  the  zeal  of  energy  kindled  him,  so  the 
+gentleness  of  love  made  him  mild.  Accordingly,  to  the 
+rich  and  the  powerful  and  to  yeomen  and  slaves  he  em 
+ployed  an  equal  discipline  of  holy  exhortation,  so  that 
+neither  did  he  fawn  upon  the  rich  and  flatter  them,  nor 
+did  he  oppress  slaves  or  yeomen  by  severity;  but,  in 
+the  words  of  the  apostle,  he  was  made  all  things  to  all 
+men,  that  he  might  gain  all.2  And  he  did  not  seize  the 
+certificate  of  heavenly  instruction  of  his  own  will,  or 
+before  the  time;  nor  did  he  usurp  it  by  stubbornness 
+and  robbery;  but  in  the  progress  of  his  holy  humility, 
+being  thirty  years  or  more  of  age,  and  supported  by  the 
+choice  of  his  master  and  friends,  he  received  the  certif 
+icate3  in  accordance  with  the  rule  of  the  canonical 
+
+1  Psalms,  xxxiv,  i.  2  I  Corinthians,  ix,  22. 
+
+3  The  ordination  as  priest,  with  the  tonsure. 
+
+
+THE  LIFE  OF  BONIFACE  39 
+
+constitution/  and,  enriched  by  divers  gifts  and  pres 
+ents,  entered  upon  the  rank  of  the  priestly  office  in 
+such  wise  that  he  was  wholly  devoted  in  will  and  act  to 
+the  works  of  almsgiving  and  compassion,  so  far  as  he 
+had  power  under  the  severity  of  the  rule  and  of  the 
+monastic  life,  and  that  he  always  anticipated  the  hours 
+of  the  nightly  vigils,  and  occupied  himself  diligently  in 
+the  toilsome  service  of  prayer.  Anger  did  not  steal 
+away  his  patience,  nor  rage  shake  his  forbearance;  lust 
+subdued  not  his  continence,  nor  did  gluttony  dishonor 
+his  abstinence;  but  he  so  subdued  himself  to  every 
+frugality  of  fasting,  that,  drinking  neither  wine  nor 
+strong  drink,2  he  imitated  the  fathers  of  the  two  testa 
+ments,  and  might  say,  with  the  distinguished  teacher 
+of  the  Gentiles,  "  I  keep  under  my  body  and  bring  it 
+into  subjection:  lest  that  by  any  means,  when  I  have 
+preached  to  others,  I  myself  should  be  a  castaway."  3 
+
+1  Forbidding  elevation  to  the  priesthood  before  the  age  of  thirty. 
+
+2  Deuteronomy,  xxix,  6;  Judges,  xiii,  4,  7,  14;  Luke,  i,  15. 
+
+3  I  Corinthians,  ix,  27. 
+
+
+CHAPTER  IV 
+
+THAT  HE  WAS  SENT  TO  KENT  BY  ALL  THE  NOBLES, 
+AND  THAT  AFTERWARDS  HE  WENT  TO  FRISIA 
+
+HAVING  brought  together  above  some  scattered  ex 
+amples  of  the  lofty  virtues  of  Saint  Boniface,  we  con 
+sider  that  the  matters  which  follow,  relating  to  the 
+persevering  strength  with  which  he  both  held  fast  to 
+the  good  things  that  he  had  begun  and  also  urged  on 
+and  quickly  hastened  his  soul  to  all  other  good  things, 
+certainly  ought  not  to  be  passed  by  in  silence.  We 
+have  learned  them  from  the  report  of  trusty  men,  and 
+are  solicitous  to  set  them  down  in  the  clear  disclosure 
+of  writing. 
+
+For  a  long  time  he  tempered  his  mind  with  the  vir 
+tues  enumerated  above,  and  advanced  from  day  to  day 
+in  the  aforesaid  rank  of  the  priesthood  to  loftier  proofs 
+of  good  things.  Then,  in  the  reign  of  Ine,  king  of  the 
+West  Saxons,1  a  sudden  emergency  impended  upon  the 
+rise  of  a  new  dissension;  and  immediately  the  chief 
+men  of  the  churches,  with  the  advice  of  King  Ine,  sum 
+moned  a  council  of  the  servants  of  God.  And  presently, 
+when  all  were  assembled,  a  most  healthful  discussion 
+concerning  this  recent  dissension  wisely  arose  among 
+the  priestly  ranks  of  the  ecclesiastical  order.  And, 
+
+1  688-725. 
+40 
+
+
+THE  LIFE  OF  BONIFACE  /  41 
+
+v — ^ 
+adopting  the  more  prudent  measure,  they  decided  to 
+
+send  trusty  legates  in  the  Lord  to  the  archbishop  of  the 
+city  of  Canterbury,  Bertwald  by  name: l  lest  it  should 
+be  ascribed  to  their  presumption  or  temerity,  if  they 
+did  anything  without  the  advice  of  the  archbishop. 
+And  when  the  entire  senate  and  the  whole  order  of  the 
+clergy  agreed  upon  and  adopted  this  prudent  measure, 
+immediately  the  king  addressed  all  the  servants  of 
+Christ,  asking  whom  they  would  charge  with  the  mes 
+sage  of  this  embassy.  Then  unexpectedly  the  supreme 
+abbot  in  Christ,  Winbert  by  name,  who  ruled  over  the 
+monastery  of  Nhutscelle;  and  Wintra,  who  directed 
+the  monastery  which  is  called  Tyssesburg; 2  and  Beor- 
+wald,  who  ruled  with  divine  governance  the  cloister 
+which  is  called  by  a  name  of  the  ancients  3  Glestinga- 
+burg; 4  and  also  many  other  fathers  of  this  holy  way  of 
+life  summoned  the  saint  and  led  him  before  the  king. 
+And  the  king  charged  him  with  the  message  and  with 
+knowledge  of  the  embassy,  gave  him  companions,  and 
+sent  him  on  his  way  with  his  grace.  Charged  with  this 
+message,  the  saint  after  a  prosperous  journey  came  to 
+Kent  in  accordance  with  the  commands  of  the  elders, 
+and  discreetly  declared  to  the  archbishop,  possessed  of 
+the  fillet 5  of  the  highest  priesthood,  everything  in  due 
+sequence,  just  as  he  had  been  instructed  by  the  king. 
+
+1  Archbishop  692-731.  3  The  old  Saxons. 
+
+2  Tisbury.  4  Glastonbury. 
+
+5  Infula:  a  classical  reminiscence  coming  down  to  Willibald 
+through  Aldhelm  (De  Laudibus  Virginitatis,  33,  and  Epistola  ad 
+Acircium:  pp.  40,  219  Giles)  and  Boniface  (£.,  3^  50,  91).  See  also 
+Isidorus  Hispalensis,  Etymolog^ae,  xix,  30. 
+
+
+WILLIBALD 
+
+And  so,  having  received  a  willing  answer,  after  not 
+many  days  he  returned  to  his  own  country,  and  wisely 
+delivered  the  willing  answer,  of  the  venerable  arch 
+bishop  to  King  Ine,  and  to  the  aforementioned  serv 
+ants  of  God  in  the  king's  presence,  and  brought  great 
+joy  to  all.  And  so  thenceforth,  by  the  wonderful  benev 
+olence  of  the  dispensation  of  God,  his  name  was  so 
+spread  abroad,  and  was  held  in  such  honor,  not  only 
+among  all  lay  authorities  but  also  among  all  ranks  of 
+the  ecclesiastical  service,  that  from  that  time  he  ad 
+vanced  more  and  more,  and  very  often  took  part  in 
+their  synodal  assembly. 
+
+Decause  a  mind  consecrated  to  God  is  not  lifted 
+i  ^e  favor  °f  men  or  sustained  by  praise,  he 
+
+I,  /   began,  with  great  care  and  solicitude,  to  hasten  more 
+
+\  intently  to  other  things,  and  to  shun  the  society  of  his 
+/  relatives  and  connexions,  and  to  desire  foreign  places 
+/  (  more  than  those  of  the  lands  of  his  paternal  inheritance. 
+^  But  when  thus  for  a  long  space  of  time  he  had  most 
+/  sagaciously  weighed  well  the  plan  of  leaving  country 
+and  relatives,  at  length  he  took  occasion  to  consult 
+Abbot  Winbert  of  blessed  memory,  and  openly  dis 
+closed  to  him  all  the  secrets  of  his  soul,  hitherto  care 
+fully  concealed  within  his  conscience,  and  with  most 
+urgent  prayers  appealed  to  the  soul  of  the  sainted 
+Winbert  to  consent  to  his  desire.    Winbert,  astounded 
+at  first  with  great  wonder,  for  the  time  being  denied 
+the  longed  for  journey  to  the  entreaties  and  prayers  of 
+his  disciple,  that  he  might  stay  the  execution  of  the 
+proposed  plan;    but  at  last,  through  the  prevailing 
+
+
+THE  LIFE  OF  BONIFACE  43 
+
+providence  of  almighty  God,  the  prayer  of  the  suppliant 
+prevailed  also.  And  the  saint  began  the  chosen  journey, 
+and,  by  the  ordinance  of  the  Lord  God,  completed  it, 
+with  such  devoted  support  on  the  part  of  the  abbot  and 
+of  his  brethren  who  lived  with  him  under  the  discipline 
+of  the  rule,  that  they  willingly  provided  for  the  ex 
+penses  and  comforts  that  are  necessary  to  human  life, 
+and,  greatly  moved  in  heart,  long  poured  out  in  his 
+behalf  tears  and  prayers  and  supplications  to  the 
+Lord. 
+
+Much  strengthened  by  the  armor  of  the  spirit,  and 
+liberally  supplied  l  with  the  goods  of  this  world,  the 
+saint  was  well  provided  with  the  pay 2  of  either  life. 
+Then,  accompanied  by  two  or  three  of  the  brethren, 
+whose  bodily  and  spiritual  support  he  required,  he  set 
+forth.  And  so,  having  traversed  immense  portions  of 
+the  earth,  and  rejoicing  in  the  fortunate  companion 
+ship  of  the  brethren,  he  came  to  a  place  where  there 
+was  a  market  of  merchandise,  and  which  is  called  even 
+unto  this  day  by  an  ancient  name  of  the  Angles  and 
+Saxons,  Lundenwich.3  And  when  after  no  great  delay 
+the  sailors  were  about  to  depart  on  their  return  home, 
+the  new  passenger,  with  the  consent  of  the  shipmaster, 
+diligently  went  on  board  ship,  and,  paying  the  fare, 
+came  with  favorable  winds  to  Dorstet; 4  and,  tarrying 
+
+1  Sublimatus:  literally,  '  raised  high.' 
+
+2  Stipendiis:  as  a  military  term,  in  continuance  of  the  metaphor 
+introduced  by '  armor  '  (armatura). 
+
+8  London.  In  the  Latin  of  the  period,  Londonia,  or  Lundonia. 
+Bede,  Historia  Ecclesiastica,  ii,  3. 
+
+4  Now  Wijk  bij  Duurstede,  on  the  river  Lek,  about  twelve  miles 
+
+
+44  WILLIBALD 
+
+there  a  while,  paid  due  praise  to  the  Lord  God  day  and 
+night. 
+
+But  a  hostile  quarrel  which  arose,  on  the  occasion  of 
+a  severe  attack  of  the  pagans,  between  Charles,  prince 
+and  glorious  duke  of  the  Franks,  and  Radbod,  king  of 
+the  Frisians,  threw  the  folk  of  either  side  into  confu 
+sion;  l  and  now  the  greatest  part  of  the  churches  of 
+Christ,  which  formerly  in  Frisia  were  subject  to  the 
+empire  of  the  Franks,  were  wasted  and  overthrown, 
+while  Radbod  conducted  an. oppressive  persecution 
+and  the  servants  of  God  were  driven  out.    Moreover, 
+heathen  shrines  were  reared,  and,  sad  to  say,  the  wor 
+ship  of  idols  was  restored.    Then  the  man  of  God,  per 
+ceiving  the  wickedness  of  perverseness,  came  to  Trecht,2 
+and  waiting  there  some  days,  addressed  King  Radbod, 
+who  came  thither:    that  by  compassing  and  viewing 
+many  parts  of  those  lands,  he  might  diligently  inquire 
+whether  in  the  future  an  opportunity  of  preaching 
+would  be  anywhere  opened  to  him;   and  purposing  in 
+his  soul  that  if  in  any  portion  of  this  folk  a  way  of  ap 
+proach  for  the  gospel  should  ever  become  visible,  he 
+would  minister  the  seed3  of  the  word  of  God.     And 
+this,  after  the  passage  of  many  years,  the  glorious  evi 
+dence  of  his  martyrdom  attested. 
+
+southeast  of  Utrecht:  the  chief  emporium  of  the  surrounding  region 
+until  it  fell  into  the  hands  of  the  Danes  in  the  ninth  century. 
+
+Adolf  Soetbeer  gives  some  valuable  notes  on  Dorstet  in  Forschungen 
+zur  deutschen  Geschichte,  iv  (1864),  pp.  300-303. 
+
+1  In  716. 
+
+2  Utrecht  (the  Roman  Ultratrajectum  or  Trajectum  ad  Rhenum). 
+
+3  II  Corinthians,  ix,  10. 
+
+
+THE  LIFE  OF  BONIFACE 
+
+But  it  is  the  singular  property  of  the  holiness 
+saints,  that  when  for  the  time  being  they  perceive  that  / 
+their  labor  avails  nothing  because  there  is  no  greenness^ 
+of  life  in  the  spiritual  sprout,  they  remove  to  wholly  ) 
+different  places  that  are  prolific1  of  fruitful  labor:  2\ 
+since  one  dwells  in  a  place  to  no  purpose,  if  the  fruit  of 
+holiness  is  lacking.    Therefore  the  saint,  when  he  had 
+dwelt  for  a  moderately  long  time  in  the  barren  land  of 
+the  Frisians,  and  the  summer  and  some  small  part  of 
+the  autumn  had  passed,  now  left  the  regions  that  were 
+withered  by  the  lack  of  the  dew  of  celestial  fruitfulness, 
+and,  taking  with  him  his  travelling  companions,  de 
+parted  to  his  native  country.    Seeking  the  retirement 
+of  his  monastery,  he  there,  received  by  the  love  of  the 
+exulting  brethren,  spent  also  the  winter  of  the  second 
+year,3  that  he  might  imitate  the  apostolic  voice  of  the 
+teacher  of  the  Gentiles,  saying:    "  for  I  have  deter 
+mined  there  to  winter."  4 
+
+1  Reading  foecunda  with  the  best  manuscript,  Monacensis  1086. 
+The  vulgate  reading  foecundo,  which  Levison  follows,  makes  no  sense. 
+
+2  Gregory  the  Great,  Dialogi,  ii,  3,  in  P.  L.,  Ixvi,  col.  140. 
+
+3  That  is,  two  winters  and  one  summer:  from  the  autumn  of  716  to 
+the  spring  of  718. 
+
+4  Titus,  iii,  12. 
+
+
+0 
+
+
+CHAPTER  V 
+
+HOW  AFTER  HIS  ABBOT  DIED  HE  TARRIED  A  LITTLE  TlME  WITH 
+
+THE  BRETHREN,  AND  AFTERWARD  CAME  TO  ROME  WITH 
+
+LETTERS  OF  INTRODUCTION  FROM  HIS  BISHOP 
+
+HAVING  now  touched  briefly  and  in  part  upon  the  vir 
+tues  of  the  saint,  we  shall  make  clearly  known  his  en 
+suing  history,  just  as  we  have  ascertained  the  facts 
+from  the  regortsj^f  newsmongers:  that  the  path  of  his 
+life  and  character  may  be  forever  more  plainly  mani 
+fest  to  those  who  direct  themselves  toward  the  pattern 
+of  his  holy  conversation. 
+
+When  he  had  passed  the  great  peril  of  the  journey 
+and  escaped  unharmed  from  the  abysses  of  the  sea,  and 
+on  his  return  had  betaken  himself  to  the  fellowship  of 
+his  brethren  and  then  joined  their  company  for  many 
+days,  at  length  heavy  sorrow  took  possession  of  his 
+mind,  and  a  fresh  grief  oppressed  his  soul.  For  now  he 
+saw  the  aged  limbs  of  his  teacher  grow  weaker;  and  at 
+last,  while  the  congregation  of  the  monks  stood  by, 
+Winbert's  sickness  waxed  exceedingly,  and  amid  shak 
+ing  and  trembling  the  day  of  his  death  was  at  hand; 
+and  finally  the  saint  saw  Winbert  lay  aside  the  prison 
+of  the  body  and  breathe  his  last  breath,  while  the 
+mourning  monks  looked  on  sadly.  Often  in  the  hearts 
+of  saints  the  sympathetic  piety  of  compassion  shines 
+with  special  brightness:  since  for  the  moment  they  are 
+
+
+THE  LIFE  OF  BONIFACE  47 
+
+wont  to  be  greatly  saddened,  but,  cleaving  to  the  pre 
+cept  of  the  apostle,  they  receive  everlasting  consola 
+tion  in  the  Lord.1 
+
+The  saint  now  kindly  addressed  the  brethren,  and, 
+mindful  of  the  tradition  of  the  fathers,  urged  them  with 
+spiritual  discourses  to  preserve  perpetually  and  in  all 
+things  the  model  of  the  constitution  of  the  rule,  and  the 
+pattern  of  ecclesiastical  prescription;  and  taught  that 
+they  should  submit  themselves  to  the  goveftiment  of 
+some  spiritual  father.2  Then  all  with  one  mind  and  one 
+voice  earnestly  demanded  that  all  should  implore  our 
+saint,  who  at  that  time  was  called  Winfrid,  to  assume 
+the  pastoral  office  of  abbot  over  them.  But  anon  the 
+saint  contemned  his  country's  riches  and  abandoned 
+the  primacy  of  government;  and,  being  now  ready  and 
+prepared  to  fulfil  his  predetermined  purpose,  excused 
+himself  with  sagacious  care,  and  declined  and  refused 
+the  whole  inheritance. 
+
+When  now  the  winter  time  had  passed  and  the 
+warmth  of  summer  began  to  glow,  and  the  pristine  pur 
+pose  of  the  gliding  year  was  renewed,  he  strove  with 
+the  utmost  solicitude  to  renew  and  repeat  the  journey 
+which  he  had  laid  aside.  Then,  taking  letters  of  in 
+troduction  from  Daniel  of  blessed  memory,3  watchman 
+of  the  people4  of  God,  he  essayed  to  come  to  Rome,  to 
+
+1  II  Corinthians,  i,  5;  II  Thessalonians,  ii,  16. 
+
+2  Saint  Benedict,  Regula,  64. 
+
+3  Bishop  of  Winchester  (705-745).     As  to  the  letters,  see  note 
+below. 
+
+4  Plebis.    See  DuCange,  Glossarium  Mediae  el  Infimae  Latinitatis, 
+s.  v.    It  will  be  noted  that  the  word  had  a  wide  ecclesiastical  mean- 
+
+
+48  j  WILLIBALD 
+
+^ — x 
+
+the  threshold  of  the  apostles.    Yet  for  a  while  he  was 
+
+detained  by  the  need  of  the  remaining  brethren,  now 
+fatherless;  and  in  such  wise  did  his  love  of  the  wailing 
+monks  and  compassion  for  their  double  sorrow  oppose 
+his  plan  for  the  moment,  that  he  was  oppressed  with 
+great  mental  anguish,  and  knew  not  which  way  to  turn. 
+For  he  feared,  on  the  one  hand,  lest,  if  he  departed,  the 
+flock  which  had  been  committed  to  his  master,  and 
+which  wTas  now  without  a  shepherd's  watchful  care, 
+should  be  exposed  to  biting  wolves;  on  the  other,  that 
+the  autumn  season  of  going  abroad  might  fail  him.  And 
+when,  not  unmindful  of  his  piety,  almighty  God  with 
+his  wonted  clemency  wished  to  deliver  from  anxious 
+grief  his  servant,  who  was  perturbed  by  such  great  op 
+pression  of  soul,  and  to  provide  a  pleasant  directorship 
+for  the  flock,  presently  Bishop  Daniel  took  thought  for 
+the  brethren,  and  set  over  this  church  a  man  of  good 
+quality,  Stephen  by  name,  and  sent  our  saint,  who 
+wished  to  go  upon  his  long  pilgrim  journey,  safe  to  his 
+destination. 
+
+Forthwith  the  saint  bade  farewell  to  the  breth 
+ren  and  departed;  and  in  fulfilment  of  his  wish  went 
+through  a  great  extent  of  country  to  the  place  which 
+now,  as  we  have  said  above,  is  called  by  the  name  Lun- 
+denwich.  And  swiftly  mounting  the  side  of  a  swift 
+ship,  he  began  to  try  the  unknown  paths  of  the  seas; 
+the  sailors  danced;  the  huge  sails  rose  to  the  breath  of 
+the  northwest  wind,  and  with  a  stiff  breeze  and  a 
+
+ing.  Possibly  some  might  here  prefer  the  rendering  '  diocese '  or 
+'  parish.' 
+
+
+THE  LIFE  OF  BONIFACE  49 
+
+
+lucky  voyage  they  quickly  sighted  the  mouth  of 
+river  which  is  called  Cuent,1  and  were  now  safe  from 
+all  danger  of  shipwreck.  They  came  safe  to  dry  land; 
+but  they  pitched  camp  in  Cuentawich,2  until  the  re 
+maining  multitude  of  the  company  should  have 
+gathered  together. 
+
+When  all  were  collected,  while  each  day  the  cold  of 
+winter  threatened,  they  set  forth;  and  they  went  to 
+many  churches  of  the  saints,  and  prayed  that  by  the 
+help  of  God's  throne  they  might  surmount  the  snowy 
+Alpine  heights  more  safely,  and  experience  greater 
+kindness  at  the  hands  of  the  Lombards,  and  escape 
+more  easily  from  the  malicious  ferocity  of  the  haughty 
+soldiers.3  And  when  by  the  suffrage  of  the  patronage 
+of  the  saints  and  the  ordinance  of  the  Lord  God  the 
+whole  band  of  companions  that  clave  to  the  retinue  of 
+our  saint  prosperously  approached  the  threshold  of 
+Saint  Peter  the  apostle,  immediately  they  returned  un 
+measured  thanks  to  Christ  for  their  safety.  And 
+having  entered  with  great  joy  the  church  of  Saint  Peter 
+chief  of  the  apostles,  most  of  them  brought  divers 
+gifts,  asking  the  annulment  of  their  sins. 
+
+Now  when  not  many  days  had  passed,  the  saint 
+spoke  to  the  venerable  pope  of  the  apostolic  see,  Greg 
+ory  of  blessed  memory,  second  from  the  first  and 
+prior  to  the  latest  of  that  name,  who  in  the  common 
+
+1  The  Canche,  a  small  stream  a  few  miles  south  of  Boulogne. 
+
+2  Probably  not  far  from  Staples. 
+
+3  The  milites  or  Byzantine  troops  that  garrisoned  the  Exarchate  of 
+Ravenna.     Paul  Roth,  Geschichte  des  Beneficialwesens   (Erlangen, 
+1850),  pp.  294  f.     So  also  below,  p.  58. 
+
+
+50  WILLIBALD 
+
+speech  of  the  Romans  is  also  called  the  Younger,1  and 
+discovered  to  him  in  order  the  whole  occasion  of  his 
+journey  and  visit,  and  explained  the  nature  of  the 
+ardent  desire  for  which  he  had  labored  long  and  hard 
+and  anxiously.  The  holy  pope,  suddenly  looking  to 
+ward  him  with  cheerful  countenance  and  laughing  eyes, 
+inquired  whether  he  had  brought  letters  of  introduc 
+tion  from  his  bishop.2  The  saint,  aroused,  threw  off 
+his  cloak,  and  produced  a  note  folded  conformably  to 
+custom  3  and  a  letter,  and  gave  them  to  the  admirable 
+man  of  holy  memory:  who  took  the  letter,  and  at 
+once  signed  to  the  saint  to  withdraw.  The  apostolic 
+pope  perused  the  letter  and  examined  the  note  of  intro 
+duction,  and  thereafter  had  busy  daily  conference  and 
+debate  with  the  saint,  until  the  summer  season  for  set 
+ting  forth  on  the  return  was  at  hand.  But  when  the 
+
+1  Gregory  II  (715-731)- 
+
+2  The  importance  attached  to  such  letters  is  well  indicated  by  a 
+passage  in  a  letter  of  Pope  Symmachus  to  Bishop  Caesarius  of  Aries, 
+dated  n  June  514:  "  Et  in  hac  parte  magnopere  te  volumus  esse  sol- 
+licitum,  ut,  si  quern  de  Gallicana  vel  de  Hispania  regionibus  ecclesi 
+astic!  ordinis  adque  officii  [necessitas]  ad  nos  venire  conpulerit,  cum 
+fraternitatis  tuae  notitiam  iter  peregrinationis  arripiat,  ut  nee  honor 
+ejus  per  ignorantiam  aliquam  contumiliam  patiatur,  et,  ambiguitate 
+depulsa,  a  nobis  animo  secure  in  communionis  gratiam  possit  admitti." 
+M.G.H.,  Epistolae  Merowingici  et  Karolini  Aevi,  i  (Berolini,  1892), 
+pp.  41  f. 
+
+3  Carlo,  ex  more  iniioluta.    Presumably  a  formal  ecclesiastical  note 
+of  introduction  (epistola  formata),  authenticated  by  a  numerical  key 
+known  only  to  the  initiated.    There  are  good  examples  of  the  epistola 
+formata  in  M .  G.  H.,  Leges,  sect,  v,  pp.  557-568,  and  a  brief  discussion 
+in  Arthur  Giry's  Manuel  de  Diplomatique  (Paris,  1894),  p.  811.    In 
+addition  to  this,  as  is  indicated,  the  saint  carried  an  open  letter  of 
+introduction,  presumably  the  one  preserved  and  printed,  £.,  n. 
+
+
+THE  LIFE  OF  BONIFACE 
+
+month  Nisan,  which  is  April,  went  by,  and  already  the 
+gates  of  lar,  or  May,1  were  opened,  then,  having  asked 
+and  received  the  benediction  of  the  apostolic  see  and  a 
+letter,2  the  saint  was  sent  by  the  most  blessed  pope  to 
+inspect  the  savage  peoples  of  Germany:  that  he 
+might  consider  whether  the  uncultivated  fields  of  their 
+hearts,  if  tilled  by  the  gospel  ploughshare,  would  be 
+disposed  to  receive  the  seed  of  preaching. 
+
+And  so,  having  collected  a  great  multitude  of  relics, 
+he  retraced  his  journey  in  company  with  his  fellow 
+servants,  and  approached  the  bounds  of  Italy; 3  and 
+waited  upon  Liutprand,  most  excellent  king  of  the 
+Lombards,4  with  pacific  gifts,  and  addressed  him. 
+Being  honorably  received  by  Liutprand,  he  reposed 
+his  limbs,  wearied  from  the  journey;  and  thus  recom 
+pensed,  he  traversed  hills  and  plains,  and  passed  over 
+the  precipitous  ridges  of  the  Alps. 
+
+Approaching  the  unknown  boundaries  of  the  Ba 
+varians  and  the  contiguous  limits  of  Germany,5  he  pro 
+ceeded  into  Thuringia  on  his  journey  of  inspection,  in 
+accordance  with  the  command  of  the  apostolic  see: 
+manifestly  after  the  fashion  of  the  most  prudent  bee, 
+which  flies  around  the  fields  and  meadows  in  its  pecu 
+liar  way,  and,  gently  whirring  its  feathery  wings,  goes 
+among  the  vast  numbers  of  odorous  herbs;  and  proves 
+
+L l  Bede,  De  Temporum  Ratione,  n. 
+
+2  £.,  12.    Dated  15  May  719. 
+
+3  In  the  sense  of  Upper  Italy  or  Langobardia. 
+
+4  712-744. 
+
+5  In  the  narrower  sense  of  the  territory  east  of  the  Rhine  and  north 
+of  the  Danube.     So  £.,45. 
+
+
+52\  WILLIE  ALD 
+
+v^,  ___  ^ 
+
+with  its  gathering  mouth  where  the  honey-flowing 
+sweetness  of  nectar  is  hidden,  and,  utterly  disdaining 
+all  bitter  and  deadly  sap,  bears  the  sweetness  to  the 
+hives;  and,  to  illustrate  by  the  words  of  the  apostle, 
+proves  all  things,  and  holds  fast  that  which  is  good.1 
+So  in  Thuringia  the  saint,  in  accordance  with  the  com 
+mand  laid  upon  him  by^the  apostolic  bishop,  addressed 
+with  spiritual  words  theel3e7s^oT3ie  church  and  the 
+chiefs  of  the  whole  people,  and  summoned  them  to  the 
+true  way  of  knowledge  and  the  light  of  understanding, 
+which  before,  seduced  by  perverse  teachers,  they  had 
+for  the  most  part  lost.  But  the  priests  and  elders  - 
+of  whom  some  devoted  themselves  to  the  pious  wor 
+ship  of  almighty  God,  while 
+
+
+polluted  by  unchastity,jiajijoj3^^ 
+wTricir^ 
+
+-  he  corrected,  warned,  and  taugh^to_th^bes^of  his^ 
+^ 
+
+
+from  the  perverseness  of  malice  to  the  rectitude  of  the 
+
+
+in  company  with  the 
+brethren.  Being  informed  of  the  death  of  Radbod,3 
+king  of  the  Frisians,  he  rejoiced  with  great  joy,4  and, 
+desiring  that  Frisia  also  might  receive  the  word  of  God, 
+
+1  I  Thessalonians,  v,  21. 
+
+2  Married  priests. 
+
+3  In  719. 
+
+4  So  Bugga  wrote  to  Boniface  with  reference  to  Radbod's  death, 
+"  I  return  thanks  without  ceasing  to  almighty  God,  because  ...  he 
+hath  cast  down  before  thee  Radbod,  the  enemy  of  the  Catholic 
+church."   £.,  15. 
+
+
+THE  LIFE  OF  BONIFACE 
+
+
+immediately  went  up  the  river  1  by  ship,  and  reached 
+lands  uncultivated  by  the  heavenly  preaching.    And 
+now  that  fierce  King  Radbod's  persecution  was  at  an 
+end,  the  saint  provided  the  seed  of  the  celestial  doc-  • 
+trine,  and,  satisfying  the  hunger  for  the  word  of 
+refreshed  the  multitude,  famished  by  pagan  supers  ti- 
+tion,  with  the  food  of  the  preaching  of  eternity.    And 
+when  speedily  the  spontaneous  accomplishment  of  the 
+work  followed  his  heart's  desire,  and  the  longed  for 
+light  of  the  predestined  doctrine  began  to  shine  by  the 
+ordinance  of  the  Lord  God,  and  the  sovereignty  of 
+glorious  Duke  Charles  over  the  Frisians  was  strength- 
+ened,  now  the  war  trumpet  of  the  heavenly  word 
+sounded,  and  the  voice  of  the  preachers  thundered  fs 
+with  the  coming  of  heaven's  fertilizing  dew,  while  the(l 
+word  of  God  was  propagated  by  the  venerable  Willi- 
+brord  2  and  his  fellow  workers.    But  because  he  saw 
+that  the  harvest  truly  was  plenteous,  but  the  laborers 
+were  few,3  our  holy  servant  of  God  also  became  a  fel 
+low  worker  of  Archbishop  Willibrord  for  three  years 
+uninterruptedly,4  and,  laboring  much  in  Christ,5  de-  / 
+stroyed  temples  and  sanctuaries  and  built  churches  ) 
+and  oratories;  and,  helped  by  Willibrord,  brought  no 
+small  people  unto  the  Lord. 
+
+But  when  Archbishop  Willibrord  had  grown  old  and 
+was  burdened  with  the  weight  of  many  years,  he  deter 
+mined,  partly  at  the  suggestion  of  the  company  of  dis- 
+
+1  The  Rhine.    The  voyage  must  have  been  rather  down  the  river. 
+
+2  Born  in  657-58.  4  719-22. 
+
+3  Matthew,  ix,  37.  5  Romans,  xvi,  12. 
+
+
+ht*.C)          ~ 
+
+
+-  >••>/  \p  j  <~ 
+
+
+WILLIE  ALD 
+
+les,  to  provide  for  his  decrepit  old  age  a  relief  in  his 
+great  ministry,  and  to  choose  a  faithful  man  from  the 
+small  congregation  who  would  be  able  to  rule  so  great 
+a  folk.  Having  summoned  our  servant  of  God,  he 
+urged  him,  with  wholesome  instruction,  to  undertake 
+the  episcopal  command  and  rank,  and  to  assist  him  to 
+rule  God's  people.  The  saint  in  his  humility  hastily 
+refused,  answering  that  he  was  not  worthy  of  the  rank 
+of  bishop;  and  prayed  that  so  great  and  high  a  dignity 
+might  not  be  imposed  upon  him  while  he  was  still 
+reckoned  a  youth  in  years;  and  averred  that  he  had 
+not  yet  attained  the  age  of  fifty  years  required  by  the 
+standard  of  the  canon  law: l  in  order  that  by  every 
+denial  and  excuse  he  might  utterly  avoid  this  exalted 
+rank.  Therefore  Archbishop  Willibrord  of  holy  fame 
+reproved  him  with  mild  words,  diligently  urging  him 
+to  accept  the  proffered  rank,  and  particularly  premis 
+ing  the  extreme  indigence  of  the  subject  folk.  But 
+when  not  even  Willibrord's  reproof  moved  the  saint  to 
+consent  to  undertake  this  exalted  rank,  then  through 
+/long  delays  and  evasions  a  spiritual  strife  arose  be- 
+stween  them,  and  there  was  a  harmonious  discord  of 
+(glorious  dispute.  The  saint,  on  the  one  hand,  pre 
+vented  from  accepting  by  his  sublime  humility,  refused 
+the  highly  honorable  rank;  Willibrord,  on  the  other, 
+ensnared  by  his  passionate  longing  for  most  pious  gain, 
+coveted  the  salvation  of  souls.  After  they  had  thus 
+alternately  advanced  opposing  arguments,  our  holy 
+
+1  Gregory  the  Great,  Dialogi,  ii,  2;  and  other  passages  cited  by 
+Levison  in  his  note. 
+
+
+THE  LIFE  OF  BONIFACE  55 
+
+servant  of  God,  as  if  set  in  a  kind  of  spiritual  race,1 
+brought  forward  a  wholly  acceptable  excuse,  saying: 
+
+"Most  holy  bishop!  Pilot  of  the  struggle  of  the 
+spirit!2  I  brought  to  the  nations  of  Germany  the 
+charge  of  blessed  Pope  Gregory  of  holy  memory.3  I, 
+ambassador  of  the  apostolic  see  to  the  western  lands  of 
+the  barbarians,  voluntarily  attached  myself  to  thy 
+lordship  and  governance;  and  I  did  this  from  the 
+choice  of  my  own  free  will,  without  the  knowledge  of 
+my  sublime  masters,  to  whose  service  I  am  bound  and 
+subject  by  my  vow  even  unto  this  day.  Wherefore 
+without  the  decree  of  the  apostolic  see,  and  without  its 
+commission  and  authentic  command,  I  dare  not  under 
+take  a  rank  so  distinguished  and  sublime." 
+
+Moreover,  he  added  a  reasonable  prayer  and  request, 
+saying:  "  I  beseech  therefore,  that  thou  elect  to  send 
+me,  who  am  bound  by  the  fetters  of  my  own  solemn 
+promise,  back  to  these  lands  to  which  at  first  I  was 
+sent  by  the  apostolic  see." 
+
+Willibrord,  the  man  of  God,  when  he  learned  the 
+occasion  of  the  saint's  great  promise,  bestowed  upon 
+him  a  benediction,  and  immediately  gave  him  liberty 
+to  go  away.  The  saint,  departing  straightway,4 
+
+1  I  Corinthians,  ix,  24. 
+
+2  I  Corinthians,  ix,  25;  II  Timothy,  ii,  5;  iv,  7,  8;  Saint  Augus 
+tine,  De  A  gone  Christiana. 
+
+8  The  mediaeval  practice  permitted  the  use  of  this  phrase  as  a  term 
+of  honor  for  the  living  as  well  as  for  the  dead.  G.  D.  Hofmann,  Ver- 
+mischte  Beobachtungen  aus  der  deutschen  Staatsgeschichte  und  Rechten 
+(Ulm,  1760-64),  ii,  p.  67. 
+
+4  Probably  to  this  journey  may  be  assigned  the  beginning  of  the 
+discipleship  of  the  noble  Prankish  youth  Gregory.  Liudger,  Vita 
+
+
+56  WILLIBALD 
+
+reached  a  place  named  Amanaburch : l  in  the  language 
+of  the  apostle,  "  nourished  up  in  the  words  of  faith  and 
+of  good  doctrine,  whereunto  "  he  "  attained."  2 
+
+Gregorii  Abbatis,  2,  in  M.  G.  H.,  Scrip  tores,  xv,  i,  pp.  67  f.  The  story 
+is  finely  paraphrased  by  Selwyn  in  his  poem,  pp.  13-15. 
+
+1  Amoneburg  in  Hesse-Nassau,  on  the  river  Ohm  (Amona) :  about 
+seven  miles  east  of  Marburg. 
+
+2  I  Timothy,  iv,  6. 
+
+
+CHAPTER  VI 
+
+WE  have  narrated  briefly,  proceeding  from  the  be 
+ginning  step  by  step,  the  proofs  of  our  saint's  virtue, 
+and  the  perseverance  of  his  labor  in  the  Lord :  that  we 
+may  recall  to  memory  more  minutely  and  in  mass  the 
+succeeding  examples  of  his  excellence. 
+
+When  he  had  brought  unto  the  Lord  a  vast  people 
+among  the  Frisians,  and  many,  educated  by  him  in 
+spiritual  learning,  had  come  to  knowledge  of  the  truth 
+in  the  beaming  rays  of  the  true  light;  then  indeed,  pro 
+tected  by  the  Lord,  he  went  to  other  parts  of  Germany 
+for  the  sake  of  preaching,  and,  with  the  Lord's  help, 
+came  to  Amanaburch.  There  twin  brothers  ruled, 
+iDettic  namely  and  Deorulf.  The  saint  summoned 
+them  from  the  sacrilegious  worship  of  idols,  which  they 
+wrongfully  practised  under  a  kind  of  name  of  Chris 
+tianity;  and  withdrew  a  very  great  multitude  of 
+people  from  the  malevolent  superstition  of  heathenism, 
+having  disclosed  to  them  the  way  of  right  understand 
+ing,  and  caused  them  to  put  aside  their  horrible  errors; 
+and,  having  gathered  a  congregation  of  God's  servants, 
+built  a  cell  for  a  monastery.  And  in  like  wise,  near  to 
+the  borders  of  the  Saxons,  by  preaching  the  gospel  in 
+junctions  he  set  free  from  the  captivity  of  devils  the 
+people  of  the  Hessians,  who  yet  wandered  in  pagan 
+rites. 
+
+57 
+
+
+WILLIBALD 
+
+'When  he  had  cleansed  many  thousand  people  from 
+their  inveterate  paganism  and  given  them  baptism,  he 
+directed  to  Rome  a  fit  messenger,  a  faithful  bearer  of 
+his  letter,  Bynna  by  name;  andjbythe  service  of  the, 
+voiceless  word  disclosed  in  ordertcT  the~~venerable 
+
+
+father7~ErieDishop  of  the  apostolic  see,  all  the  things 
+which  by  God's  gift  had  been  brought  to  pass  in  him; 
+and  showed  how  a  great  multitude  of  people,  illumi 
+nated  by  the  divine  spirit,  had  received  the  sacrament 
+of  regeneration.  But  also,  writing  further,  he  asked 
+concerning  things  which  pertained  to  the  daily  need  of 
+the  church  of  God  and  the  progress  of  the  people :  that 
+he  might  obtain  the  counsel  of  the  apostolic  see.  When 
+Bynna  the  messenger  had  remained  at  Rome  for  some 
+days,  and  the  time  of  his  return  was  already  at  hand, 
+he  received  in  exchange  from  the  bishop  of  the  apos 
+tolic  see  an  answer  to  his  embassy.  And  imme 
+diately  returning,  he  now  brought  to  his  master,  after 
+the  passage  of  no  long  time,  a  letter  written  by  the 
+apostolic  see. 
+
+When  the  saint  had  read  the  letter  that  was  brought, 
+he  gathered  that  he  was  invited  to  Rome,  and  sought 
+in  haste  to  fulfil  the  highest  degree  of  obedience.  With 
+out  delay,  attended  by  a  throng  of  clients  and  sur 
+rounded  by  a  train  of  the  brethren,  he  traversed  the 
+lands  of  the  Franks  and  the  Burgundians,  and,  having 
+surmounted  the  ridges  of  the  Alps,  the  territories  of  the 
+marches  of  Italy1  and  the  boundaries  of  the  soldiers.2 
+And  when  he  beheld  the  walls  of  the  Roman  city, 
+1  See  above,  p.  51,  n.  3.  2  See  p.  49,  n.  3. 
+
+
+THE  LIFE  OF  BONIFACE  59 
+
+quickly  he  returned  deserved  praise  and  thanks  to 
+God  on  high;  and  presently,  reaching  the  church  of 
+Saint  Peter,  he  fortified  himself  by  diligent  prayer. 
+But  when  he  had  rested  his  wearied  limbs  for  a  little 
+time,  it  was  announced  to  the  blessed  Gregory,  bishop 
+of  the  apostolic  see,  that  our  servant  of  God  had 
+arrived.  And  he  was  received  kindly  and  conducted 
+to  the  pilgrims'  lodge. 
+
+When  a  suitable  day  for  their  conference  arrived, 
+and  the  glorious  bishop  of  the  apostolic  see  came  to 
+the  church  of  Saint  Peter  the  apostle,  immediately  our 
+servant  of  God  was  summoned.  After  they  had  ex 
+changed  a  few  peaceful  words  of  salutation,  the  apos 
+tolic  bishop  questioned  him  concerning  the  creed  and 
+the  tradition  of  the  faith  of  the  church.  Anon  our  man 
+of  God  answered  him  humbly,  saying:  "Apostolic 
+lord !  I,  stranger  as  I  am,  know  that  I  have  no  skill  in 
+your  familiar  language;  but  I  beg  that  thou  grant  me 
+leisure  and  time  to  write  down  my  confession  of  faith, 
+and  that  onlythe  voicelessword  may  make  a  reason 
+able  presentation  ormy~faitri7r"~Trhe  bishop  at  once 
+consented,  and  commanded  him  to  bring  this  writing 
+speedily.  And  after  some  space  of  time  had  glided 
+away,  the  saint  brought  his  confession  of  faith  in  the 
+Holy  Trinity,  written  down  in  polished,  eloquent,  and 
+learned  language,  and  rendered  it  to  the  aforesaid 
+bishop.  Nevertheless  he  waited  yet  some  days. 
+
+At  last  he  was  summoned  again.  Having  been  con 
+ducted  within  the  Lateran,  immediately  he  cast  him 
+self  humbly  prostrate  on  his  face  at  the  feet  of  the 
+
+
+WILLIBALD 
+
+apostolic  bishop,  beseeching  his  benediction:  who 
+quickly  raised  him  from  the  ground,  and  returned  to 
+our  servant  of  God  the  writing  inwhichJj^^ 
+incorrupt  truth  ojEfaith  was  manifest,  and  made  him 
+siTbyTTislside.  AncThlT ins tructeHTiim ,  with  whole 
+some  teaching  and  admonition,  to  preserve  ceaselessly 
+inviolate  this  bulwark  of  faith,  and  to  preach  it 
+earnestly  unto  others  to  the  limit  of  his  strength.  And 
+he  brought  forward  many  other  matters  relating  to  the 
+holy  religion  and  the  true  faith  and  questioned  the 
+saint  concerning  them,  so  that  they  spent  almost  the 
+whole  day  in  mutual  conversation.  And  at  last  the 
+pope  inquired  how  the  peoples  who  before  had  wan 
+dered  in  error  and  crime  received  the  lessons  of  the 
+faith  through  his  teaching.  And  when  he  had  learned 
+for  a  certainty  that  the  saint  had  admitted  an  exceed 
+ing  great  multitude  of  the  commonalty  from  the 
+sacrilegious  worship  of  devils  to  the  fellowship  of  the 
+holy  church,  he  intimated  to  him  that  he  had  purposed 
+to  impose  upon  him  the  office  of  bishop,  and  to  set  him 
+over  the  peoples  that  before  had  lacked  a  shepherd's 
+care,  and  in  the  words  of  the  Lord  our  God,  fainted, 
+as  sheep  having  no  shepherd.1  But  the  saint,  because 
+he  dared  not  contradict  this  great  bishop  set  over  the 
+apostolic  see,  consented  and  obeyed.  And  so  the 
+most  high  bishop  of  holy  authority  appointed  a  day 
+of  ordination,  namely  the  thirtieth  of  November.2 
+
+After  the  sacred  day  of  the  holy  solemnity  had 
+dawned,  being  the  nataldayof  Saint  Andrew  and  the 
+
+1  Matthew,  ix,  36.  2  722. 
+
+
+THE  LIFE  OF  BONIFACE  61 
+
+day  set  for  the  ordination,  the  holy  bishop  of  the  apos 
+tolic  see  imposed  upon  the  saint  the  dignity  of  the 
+episcopacy  and  of  the  name  Boniface; 1  and  brought 
+him  the  book  in  which  the  most  sacred  laws  of  the 
+constitution  of  the  church  have  been  compiled  at  the 
+assemblies  of  the  bishops; 2  commanding,  that  thence 
+forth  this  order  of  episcopal  discipline  and  customs 
+should  remain  unshaken  in  his  hands,3  and  that  the 
+
+1  An  error,  as  is  shown  by  the  occurrence  of  the  name  in  several 
+letters  written  between  719  and  722.  E.,  12,  14,  15.    Probably  Greg 
+ory  conferred  the  Latin  name  upon  Winfrid  on  the  occasion  of  his 
+first  visit  to  Rome  in  719. 
+
+2  That  is,  a  manual  of  the  canon  law:  very  probably  that  of  Diony- 
+sius.    Rettberg,  Kirchengeschichte  Deuisdilands,  i,  p.  406. 
+
+3  The  ordination  oath  of  Boniface  is  preserved.    £.,  16.    "  I,  Boni 
+face,  bishop  by  the  grace  of  God,  promise  thee.  Saint  Peter  prince  of 
+the  apostles,  and  thy  vicar,  blessed  Pope  Gregory,  and  his  successors, 
+by  the  Father  and  the  Son  and  the  Holy  Spirit,  Trinity  inseparable, 
+and  by  this  thy  most  sacred  body,  to  exhibit  all  faith  and  purity  of  the 
+holy  Catholic  faith,  and,  with  God's  aid,  to  abide  in  the  unity  of  the 
+same  faith,  in  which  assuredly  all  the  salvation  of  Christians  is  at 
+tested;   in  no  wise  at  any  one's  persuasion  to  enter  into  agreement 
+against  the  unity  of  the  common  and  universal  church;  but,  as  I  have 
+said,  to  exhibit  in  all  matters  my  faith  and  purity  and  union  to  thee 
+and  to  the  profit  of  thy  church,  to  which  the  Lord  God  hath  given 
+power  to  bind  and  loose,  and  to  thy  vicar  aforesaid  and  his  successors; 
+and  also  I  promise  that  if  I  shall  have  knowledge  of  bishops  living 
+contrary  to  the  ancient  institutions  of  the  holy  fathers,  I  will  have  no 
+communion  or  intercourse  with  them.     Nay  more,  if  I  shall  have 
+power  to  forbid  them,  I  will  forbid;   if  not,  I  will  straightway  make 
+faithful  report  to  my  apostolic  lord.    But  if,  as  I  pray  may  not  be  the 
+case,  I  shall  attempt  in  any  wise  or  spirit  or  on  any  occasion  to  do  any 
+thing  contrary  to  the  tenor  of  this  my  promise,  may  I  be  condemned 
+at  the  eternal  judgment,  and  incur  the  punishment  of  Ananias  and 
+Sapphira,  who  presumed  to  practise  deceit  and  to  lie  unto  thee  even 
+concerning  their  own  property." 
+
+
+62  WILLIE  ALD 
+
+subject  peoples  should  be  instructed  by  these  examples. 
+But  also  he  gave  to  him  and  to  all  subject  to  him  the 
+friendship  of  the  holy  apostolic  see  thenceforth  for 
+ever.1  And  by  his  most  sacred  letter  he  placed  our 
+saint,  now  a  bishop,  under  the  protection  and  pious 
+care  of  the  sovereignty  of  glorious  Duke  Charles.2 
+
+After  Boniface  by  long  and  devious  ways  had  visited 
+the  territories  of  great  peoples,  he  came  to  the  aforesaid 
+prince  of  the  Franks,  and  was  received  by  him  with 
+veneration.  He  delivered  to  Duke  Charles  the  letters 
+of  the  abovementioned  Roman  bishop  and  of  the  apos 
+tolic  see,  and,  subject  to  his  lordship  and  patronage,3 
+returned,  with  the  consent  of  Duke  Charles,  to  the 
+land  of  the  Hessians  where  before  he  had  tarried. 
+
+Now  at  that  time  many  of  the  Hessians,  brought 
+under  the  Catholic  faith  and  confirmed  by  the  grace 
+of  the  sevenfold  spirit,4  received  the  laying  on  of  hands; 
+
+This  is  in  substance  the  oath  taken  by  the  Italian  bishops  of  the 
+time  who  were  immediately  subject  to  the  see  of  Rome  (episcopi 
+suburbicarii) ,  except  for  the  omission  of  the  promise  of  allegiance  to 
+the  Empire  and  Emperor. 
+
+1  This  special  relationship  of  friendship  or  brotherhood  between  the 
+Roman  see  on  the  one  hand,  and  Boniface  and  his  household  on  the 
+other,  was  renewed  at  the  accession  of  Gregory  III  in  731.  See  p.  67, 
+below.    Mention  of  it  is  also  made  of  it  by  Boniface,  E.,  86,  108,  in 
+letters  to  Zacharias  and  Stephen  III. 
+
+2  E.,  20.    There  also  remain  general  letters  of  commendation  given 
+by  Gregory  to  Boniface  under  date  of  i  December  722,  addressed 
+Universis  Christianis  and  Clero,  ordini,  et  plebi;   another  Thuringis 
+Christianis  which  doubtless  pertains  to  this  time,  and  another  Universo 
+populo  provittciae  Altsaxonum  which  may  so  belong.   Ibid.,  1 7-19,  2 1 . 
+
+3  The  letter  of  protection  issued  by  Charles  is  E.,  22. 
+
+4  Isaiah,  xi,  2;    Isidorus  Hispalensis,  Etymologiae,  vii,  3;    Saint 
+
+
+THE  LIFE  OF  BONIFACE 
+
+others  indeed,  not  yet  strengthened  in  soul,  refusecTTo 
+accept  in  their  entirety  the  lessons  of  the  inviolate  faith. 
+Moreover  some  were  wont  secretly,  some  openly  to 
+sacrifice  to  trees  and  springs;  some  in  secret,  others 
+openly  practised  inspections  of  victims  and  divina 
+tions,  legerdemain  and  incantations;  some  turned 
+their  attention  to  auguries  and  auspices  and  various 
+sacrificial  rites; 1  while  others,  with  sounder  minds, 
+abandoned  all  the  profanations  of  heathenism,  and 
+committed  none  of  these  things.  With  the  advice  and 
+counsel  of  these  last,  the  saint  attempted,  in  the  place 
+called  Gaesmere,2  while  the  servants  of  God  stood  by/ 
+his  side,  to  fell 3  a  certain  oak  of  extraordinary  size,} 
+which  is  called,  by  an  old  name  of  the  pagans,  the  Oak  ( 
+of  Jupiter.4  And  when  in  the  strength  of  his  steadfast 
+heart  he  had  cut  the  lower  notch,5  there  was  present  a 
+great  multitude  of  pagans,6  who  in  their  souls  were 
+most  earnestly  cursing  the  enemy  of  their  gods.  But 
+
+Augustine,  De  Sermone  Domini,  i,  4;  J.  F.  Bohmer,  Regesta  Imperil, 
+i,  i  (3d  ed.,  by  Engelbert  Miihlbacher,  Innsbruck,  1899),  p.  38, 
+no.  76a. 
+
+1  E.,  43- 
+
+2  The  location  is  uncertain.    There  are  in  Hesse  several  places 
+named  Geismar. 
+
+3  Succidere. 
+
+4  The  Latin  rendering  of  the  Teutonic  Thor. 
+
+5  Cum  arborem  succidisset.    Of  the  first  or  lower  notch,  cut  to  the 
+centre  of  the  tree  from  the  side  toward  which  it  was  intended  that  the 
+tree  should  fall. 
+
+6  As  Otloh  puts  it,  "  Ad  .  .  .  arboris  incisionem  magna  pagano- 
+rum  multitude  concurrit  ":  assembled  no  doubt  from  the  farms  and 
+villages  for  miles  around,  while  the  axe  was  making  its  slow  progress 
+through  the  tough  wood. 
+
+
+64  WILLIBALD 
+
+when  the  fore  side  of  the  tree  was  notched  only  a  little,1 
+suddenly  the  oak's  vast  bulk,  driven  by  a  divine  blast 
+from  above,  crashed  to  the  ground,  shivering  its  crown 
+of  branches  as  it  fell;  and,  as  if  by  the  gracious  dis 
+pensation  of  the  Most  High,  it  was  also  burst  into  four 
+parts,  and  four  trunks  of  huge  size,  equal  in  length, 
+were  seen,  unwrought  by  the  brethren  who  stood  by. 
+At  this  sight  the  pagans  who  before  had  cursed  now, 
+on  the  contrary,  believed,  and  blessed  the  Lord,  and 
+put  away  their  former  reviling.  Then  moreover  the 
+most  holy  bishop,  after  taking  counsel  with  the  breth 
+ren,  built  from  the  timber  of  the  tree  a  wooden  oratory, 
+and  dedicated  it  in  honor  of  Saint  Peter  the  apostle. 
+
+When  by  the  favor  of  God's  will  all  that  we  have 
+told  was  fulfilled  and  accomplished,  the  saint  went  on 
+to  Thuringia.  And  he  addressed  the  elders  of  the 
+
+1  Ad  modicum  quidem  arbore  praeciso.  Of  the  second,  upper,  or 
+fore  notch,  on  the  side  which  axeman  and  spectators  faced  as  the  tree 
+fell  in  the  opposite  direction. 
+
+This  passage  has  been  an  inveterate  stumbling-block  to  interpret 
+ers.  From  Otloh  to  Arndt,  all  have  given  renderings  equally  unsatis 
+factory,  perhaps  because  they  lacked  the  practical  acquaintance  with 
+the  woodman's  craft  which  we  may  assume  in  Boniface  and  Willibald 
+as  Saxons  of  the  eighth  century.  If  we  take  succidisset  and  praeciso  as 
+technical  terms  of  woodcraft,  as  I  have  done,  and  if  we  suppose  that 
+the  oak  was  to  some  extent  hollow,  Willibald's  account  becomes  in  all 
+important  respects  consistent  and  credible. 
+
+It  may  be  objected  to  this  interpretation,  that  it  requires  us  to  take 
+succidisset  as  used  in  a  different  sense  from  succidere  in  the  preceding 
+sentence.  This  does  not  seem  a  serious  objection:  Otloh,  Bonnell, 
+Kiilb,  and  Arndt,  to  name  no  others,  have  recognized  the  existence  of 
+the  difference,  though  none  of  them  has  chanced  to  hit  upon  the  same 
+rendering  for  succidisset. 
+
+
+THE  LIFE  OF  BONIFACE  65 
+
+church  and  the  chiefs  of  the  people,  and  summoned 
+them  to  forsake  their  blind  ignorance  and  to  return  to 
+the  Christian  religion  which  they  had  before  accepted. 
+For  the  sovereignty  of  their  kings  x  came  to  an  end; 
+and  under  the  perilous  leadership  of  Theotbald  and 
+Heden,  whose  disastrous  and  dangerous  sway  over 
+them  rested  rather  on  tyranny  and  devastation  than 
+on  loyalty,  a  great  number  of  their  counts  were  visited 
+with  bodily  death  by  the  two  tyrants,  or  captured  and 
+carried  off  by  the  enemy,  and  were  so  greatly  strait 
+ened  by  evils  of  various  sorts  that  the  remaining  rem 
+nant  of  the  people  had  submitted  to  the  dominion  of 
+the  Saxons.  And  when  the  sovereignty  of  the  religious 
+dukes  ceased,  I  there  ceased  also  in  the  land  attention  to 
+Christianity  and  religion,  and  false  brethren,  seducing 
+the  people,  were  brought  in :  who  under  the  name  of 
+religion  introduced  a  large  and  perverse  heretical  sectTj 
+Of  whom  ar^Torcji twine  and  Berehthere^EanJ^cJit 
+andjunradwho 
+
+: 3  who 
+
+stirred  up  a  most  vehement  conflict  against  the  man  of 
+God;  but,  opposed  and  confuted  by  the  words  of 
+truth,  they  received  a  just  judgment  of  recompense. 
+
+When  the  renewed  splendor  of  faith  had  dawned 
+among  the  people,  and  the  church  was  snatched  from 
+the  great  snare  of  error;  while  the  friends  of  the  pro 
+fane  enemy  and  the  abovementioned  dangerous  se 
+ducers  of  the  people  were  now  banished:  the  saint 
+
+1  More  properly  dukes,  as  they  are  called  in  the  following  sentence. 
+
+2  Married  clergy.  3  Hebrews,  xiii,  4. 
+
+
+WILLIBALD 
+
+
+entered  upon  a  harvest  truly  plenteous,  yet  with  few 
+reapers.1  And  at  first  he  endured  great  want  of  this 
+world's  goods,  and  frugal  living;  and,  though  strait 
+ened  and  distressed  by  great  indigence,  scattered  the 
+seed  of  the  word  of  God.2  ^But  when  little  by  little  the 
+multitude  of  the  believers  increasedj-nd  the  roll  of  the 
+preachers  too  was  multiplied,  then  also  churches  were 
+quickly  restored,  and  the  preaching  of  his  doctrines 
+was  diffused  in  many  ways;  and  the  united  servants 
+of  God  and  the  most  holy  monks  were  gathered  to 
+gether,  and  a  monastery  was  built  in  the  place  which  is 
+called  Orthorpf  .3  These  procured  food  and  raiment  for 
+themselves  by  laboring  assiduously  with  their  own 
+hands  after  the  manner  of  the  apostle.4 
+
+The  report  of  his  holy  preaching  was  so  spread 
+abroad,  and  increased  to  such  a  degree,  that  already 
+his  fame  resounded  through  the  greatest  part  of 
+Europe.  And  from  the  parts  of  Britain  an  exceed 
+ingly  great  multitude  of  the  congregation  of  the  serv 
+ants  of  God  had  come  unto  him:  readers,  and  writers 
+also,  and  men  learned  in  other  arts.  Of  these  a  very 
+great  number  put  themselves  under  the  instruction  of 
+his  rule, land  in  very  many  places  summoned  the  people 
+
+
+; 
+
+L~— 
+
+1  Matthew,  ix,  37. 
+
+
+2  Liudger  (Vita  Gregorii,  2)  refers  to  this  period:    "  they  were 
+obliged  to  live  by  the  work  of  their  hands,  and  sometimes  in  fear  of 
+death  to  flee  with  their  people  to  the  city  from  the  persecution  of  the 
+pagans;  and  there  to  dwell  straitened  by  hunger  for  many  days,  until 
+the  citizens  gathered  their  forces  and  again  drove  back  the  pagans 
+with  the  strong  hand." 
+
+3  Ohrdruf,  near  Gotha.  4  I  Corinthians,  iv,  12. 
+
+
+THE  LIFE  OF  BONIFACE  (67 
+
+~]  • 
+
+from  the  profane  error  of  heathenisnrj  And  some  in 
+
+the  province  of  the  Hessians,  and  others  in  Thuringia, 
+widely  dispersed  among  the  people,  preached  the  word 
+of  God  to  the  country  districts  and  villages. 
+
+A  prodigious  multitude  both  of  the  Hessians  and  of 
+the  Thuringians  received  the  sacraments  of  the  faith, 
+and  many  thousand  people  were  baptized.  And  when 
+now  Gregory  the  Second  of  blessed  memory,  pope  of 
+the  apostolic  see,  was  deceased,1  and  glorious  Gregory 
+the  Younger  2  ruled  the  chair  of  the  apostolic  summit 
+of  the  aforesaid  see,  again  the  saint's  messengers  came 
+to  Rome  and  addressed  the  holy  bishop  of  the  apostolic 
+see,  and  showed  to  him  the  former  alliance  of  friend 
+ship  which  his  predecessor  mercifully  conferred  upon 
+Saint  Boniface  and  his  household.  But  also  they 
+assured  him  of  the  saint's  devoted  and  humble  sub 
+mission  to  the  apostolic  see  for  the  future;  and,  in 
+accordance  with  their  instructions,  they  prayed  that 
+thenceforth  he  might  in  devout  submission  share  in  the 
+brotherhood  and  communion  of  the  sacred  bishop  and 
+of  the  whole  apostolic  see.  Then  straightway  the  holy 
+pope  of  the  apostolic  see  offered  a  conciliatory  reply, 
+and  granted  communion  of  brotherhood  and  friend 
+ship  with  himself  and  the  apostolic  see  to  Saint  Boni 
+face  and  to  those  subject  to  him.  And  he  gave  the  / 
+ambassadors  an  archbishop's  pall,3  and  sent  them  home  I 
+honorably  with  gifts  and  divers  relics  of  saints.  ^/ 
+
+The  messengers  on  their  arrival  recited  to  Boniface 
+the  voluntary  replies  of  the  man  apostolic.    He  now 
+
+1  ii  February  731.          2  Gregory  III  (731-741).         3  £.,  28. 
+
+
+S 
+
+
+WILLIBALD 
+
+rejoiced  greatly,  and,  being  exceedingly  strengthened 
+by  the  devoted  support  of  the  apostolic  see,  and  in 
+spired  by  the  aid  of  the  divine  mercy,  built  two 
+churches  to  the  Lord.  One  was  in  Frideslare,1  which 
+he  consecrated  in  honor  of  Saint  Peter  chief  of  the 
+/apostles.  The  second  was  in  Hamanaburch;  2  this  he 
+dedicated  in  honor  of  Saint  Michael  the  archangel. 
+Moreover  he  attached  two  small  monasteries  to  the 
+churches,  and  added  to  these  no  small  company  of  the 
+servants  of  God,  so  that  unto  this  day  glory  and  bless 
+ing  and  thanksgivings  are  devoutly  offered  to  the  Lord 
+God. 
+
+When  all  this  was  duly  accomplished,  he  went  to  the 
+lands  of  the  Bavarians,  where  then  Duke  Hugobert  3 
+reigned,  and  employed  among  them  most  assiduously 
+his  ardor  for  preaching,  and  went  around  to  many 
+churches  and  inspected  them.  And  he  was  armed  with 
+so  great  zeal  of  divine  fortitude,  that  truly  he  con 
+demned  and  cast  out,  in  accordance  with  the  decrees 
+of  the  canons,  a  certain  schismatic  beguiled  by  hereti- 
+depravity,  Eremvulf  by  name,  and  amended  the 
+eople  from  the  perverse  idolatry  of  his  sect.  And  he 
+epartedj  and  returned  to  the  brethren  who  were  es- 
+tablished  under  the  diocese  of  his  governance:  having, 
+according  to  the  word  of  the  apostle,  a  desire  to  come 
+unto  the  brethren.  4 
+
+1  Fritzlar. 
+
+2  The  same  as  Amanaburch,  above. 
+
+3  Died  not  later  than  the  beginning  of  736. 
+
+4  Romans,  xv,  23. 
+
+
+0 
+
+
+CHAPTER  VII 
+
+HOW  HE  EXPELLED  THE  HERETICS  FROM  THE  PROVINCE  OF  THE 
+
+BAVARIANS,  AND  DIVIDED  IT  INTO  FOUR  PARISHES 
+
+WE  have  occupied  some  time  with  selected  examples 
+of  the  merits  of  Saint  Boniface,  in  order  that  we  may 
+set  forth,  briefly  indeed,  the  strong  direction  of  religion 
+by  which  he  guided  himself  unceasingly  through  all 
+periods  of  his  life.  For  in  truth  among  saints  it  is  a 
+practice  of  long  standing,  that  they  improve  them 
+selves  daily  through  the  examples  of  others,  and  that 
+the  strength  of  love  in  their  hearts  increases  with  the 
+decrease  of  the  reckoning  of  their  days. 
+
+When  no  small  number  of  churches  had  been  built 
+among  the  Hessians  and  in  Thuringia,  and  a  warden 
+had  been  provided  for  each  church,  then,  accompanied 
+by  a  band  of  the  disciples,  he  came  for  the  third  time 
+to  Rome,  on  account  of  the  brotherly  communion  of 
+the  sacred  apostolic  bishop  and  of  the  whole  clergy: 
+that  he  might  enjoy  the  salutary  conversation  of  the 
+apostolic  father,  and,  being  now  advanced  in  age,  com 
+mend  himself  to  the  prayers  of  the  saints.  But  when 
+after  the  immensely  long  journey  he  was  presented  to 
+the  lord  apostolic,  Gregory  the  Younger  the  Second,  he 
+was  kindly  received  by  the  pope,  and  was  held  in  such 
+great  veneration  by  everyone,  as  well  Romans  as 
+
+
+WILLIBALD 
+
+strangers,  that  many  flocked  together  unto  his  whole 
+some  teaching.  For  of  Franks  and  Bavarians,  and  also 
+of  Saxons  arriving  from  Britain,  and  of  other  provinces, 
+a  prodigious  multitude  clave  sedulously  unto  his  ad 
+monition.  And  when  he  had  tarried  in  these  regions 
+for  a  great  part  of  a  year,1  and  had  made  the  round  of 
+the  relics  of  the  saints,  praying  as  he  went;  then  in- 
+deed,  having  again  saluted  the  venerable  bishop  of  the 
+apostolic  see,  he  returned  home,  honored  and  enriched 
+
+7  with  gifts  and  saints'  relics.  Coming  to  Italy,  he  en 
+tered  the  walls  of  the  city  Ticena,2  and,  as  his  limbs 
+were  already  weary  from  old  age,  rested  with  Liut- 
+prand,  the  honorable  king  of  the  Lombards. 
+
+Departing  from  Italy,  he  visited  the  Bavarians,3  not 
+only  because  of  the  invitation  of  Odilo  their  duke,  but 
+also  of  his  own  desire,  and  remained  among  them 
+many  days,  preaching  the  gospel  of  the  word  of  God. 
+He  renewed  the  sacraments  of  the  true  faith  and  of 
+religion,  and  drove  away  the  destroyers  of  churches 
+and  perverters  of  the  people.  Of  these  some  formerly 
+falsely  preferred  themselves  to  the  rank  of  the  episco 
+pacy;  some  assigned  themselves  to  the  priestly  office; 
+some  by  these  inventions  and  innumerable  others  mis 
+led  a  great  part  of  the  people.  But  the  saint,  already 
+dedicated  to  God  from  infancy,  and  not  enduring  the 
+
+/  insult  to  his  Lord,  restrained  Duke  Odilo  and  the 
+whole  multitude  from  the  unjust  heretical  false  sect 
+and  from  the  lewd  deception  of  the  priests.4  And  with 
+
+1  About  738.  2  Pavia.  3  In  739. 
+
+4  The  relation  of  Boniface  to  the  work  of  the  earlier  Celtic  mis- 
+
+
+THE  LIFE  OF  BONIFACE  71 
+
+the  consent  of  Duke  Odilo  he  divided  the  province  of 
+the  Bavarians  into  four  parishes,  and  to  rule  them 
+made  four  bishops,  whom  he  ordained  and  raised  to 
+the  episcopal  rank.  Of  these  the  first,  John  by  name, 
+assumed  the  episcopal  chair  of  the  church  in  the  town 
+which  is  caUed  Salzburch.1  The  second  was  Erembert, 
+who  ruled  as  chief  watchman  the  church  at  Freising. 
+The  third,  Gaibald,  was  shepherd  and  guard  of  the 
+church  in  the  city  of  Regina.2  And  when  all  things 
+were  duly  performed,  and  the  Christian  order  was 
+established,  and  the  canon  laws  were  restored  among 
+the  Bavarians,  then  he  returned  home  to  his  own 
+churches.  And  he  governed  the  people  committed  to 
+his  care,  and  watched  the  folds  of  the  flocks,  and  pro 
+vided  sentinels  for  the  church;  and  so  delivered  the 
+sheep  from  the  jaws  of  impious  wolves.3 
+
+When  the  temporal  kingdom  of  glorious  Duke 
+Charles  was  finished,4  and  the  sovereignty  of  his  sons 
+Carloman  and  Pippin  waxed  strong,  then  indeed,  by 
+the  help  of  the  Lord  God  and  at  the  suggestion  of  Saint 
+
+sionaries  in  Germany  is  discussed  in  detail  by  August  Ebrard  in  his 
+essays,  Die  iroschottische  Missionskirche  des  sechsten,  siebenten,  und 
+achten  Jahrhunderts,  und  ihre  Verbreitung  und  Bedeutung  auf  dem 
+Festland  (Giitersloh,  1873),  and  Bonifatius,  der  Zerstorer  des  colum- 
+banischen  Kirchentums  auf  dem  Festlande  (Giitersloh,  1882). 
+
+1  Salzburg. 
+
+2  Ratisbon  (Regensburg).— The  three  complete  the  tale  of  bishops 
+ordained  by  Boniface  at  this  time.    The  fourth  bishop,  Vivilo  of 
+Passau,  had  been  already  ordained  by  Gregory  III,  as  is  expressly 
+stated  in  Gregory's  letter  of  29  October  739,  confirming  the  establish 
+ment  of  the  bishoprics.   £.,  45. 
+
+3  John,  x,  12.  4  Charles  Martel  died  in  October,  741. 
+
+
+72  WILLIE  ALD 
+
+Boniface  the  archbishop,  the  testament  of  the  Chris 
+tian  religion  was  confirmed,  and  the  synodal  institu 
+tions  of  the  orthodox  fathers  were  established  in  proper 
+form  among  the  Franks,  and  all  was  amended  and 
+cleansed  by  the  authority  of  the  canons.  Th£wror|gful 
+connectipji^ojlayrrien  with  concubines  was  in  part 
+severed  at  the  exhortation  of  the  saint  f^wKife  the 
+
+disjoineci 
+
+
+anajDuFaway.2  Ana~Tnrough  the  teaching  of  Saint 
+great  ardor  of  divine  love  was  kindled  in 
+Carloman  and  Pippin,  that  to  a  large  extent  they  freed 
+the  church  from  the  perverse  worship  to  which  it  had 
+been  long  accustomed  :  wherein  it  had  lost  the  right  of 
+eternal  inheritance,3  being  involved  of  its  own  will,  and 
+cjeceived  by  the  suggestion  oT  heretics":  —  FoTtorSuCh  a 
+degr^rliaTrtrie~1;ein^^  the  light  of 
+
+spiritual  doctrine  among  the  people,  that  the  dark  fog 
+of  heretical  deception  had  covered  a  very  great  part 
+of  the  church.  JJw^a^fJblieJiere^^ 
+
+
+bert  and  Clemens,4  led  astray  by  profane  greed  of 
+
+1  Capitulare  Suessionense,  2  March  744,  4:  inM.G.H,,  Capitularia, 
+i,  p.  29. 
+
+2  Levison  quotes  Capitulare  Suessionense,  3,  8;    also  Karlmanni 
+Capitulare,  21  April  742,  i,  6,  7,  on  pp.  25  f.,  or  in  the  Epistolae,  56. 
+In  all  these  cases,  however,  the  wording  is  ambiguous  —  perhaps 
+purposely  so. 
+
+3  Hebrews,  ix,  15. 
+
+4  Aldebert,  a  Gallic  pseudo-saint,  is  an  interesting  figure,  of  whom 
+one  would  like  to  know  more  than  is  contained  in  the  scanty  and 
+partial  notices  that  have  survived.    He  would  appear  to  have  been  a 
+prophet  and  visionary  somewhat  of  the  type  of  the  late  Joseph  Smith. 
+Clemens,  a  stubborn  Bible  Scot,  or  Irishman,  professed  a  supreme  dis- 
+
+
+THE  LIFE  OF  BONIFACE  73 
+
+money,1  assiduously  turned  the  people  from  the  way  of 
+truth.  But  when  Saint  Boniface  the  archbishop,  with 
+the  consent  of  Carloman  and  Pippin,  glorious  dukes, 
+expelled  them  from  the  unity  of  the  church,  they  were, 
+in  the  words  of  the  apostle,  delivered  unto  Satan  for 
+the  destruction  of  the  flesh,  that  the  spirit  may  be 
+saved  in  the  day  of  the  Lord.2 
+
+regard  for  the  views  of  the  holy  fathers  Jerome,  Augustine,  and  Greg 
+ory,  and  sought  rather  to  shape  his  conduct  by  the  precepts  of  the 
+Book  of  Deuteronomy.  E.,  57,  59,  60,  62,  77;  Capitulare  Suessio- 
+nense,  2  March  744,  2,  7. 
+
+1  "  Quod  crimen  iisdem  ab  ipso  Bonifatio  minime  obiectum  est." 
+Levison. 
+
+2  I  Corinthians,  v,  5;  E.,  59. 
+
+
+CHAPTER  VIII 
+
+HOW  THROUGH  HIS  WHOLE  LlFE  HE  PREACHED   ZEALOUSLY; 
+AND  WITH  WHAT  END  HE  LEFT  THIS  WORLD 
+
+FOUR  synodal  councils  were  held,1  where  there  gath 
+ered  together  bishops  and  priests,  deacons  and  clerics, 
+and  all  ecclesiastical  ranks,  whom  Duke  Carloman  of 
+illustrious  memory  caused  to  be  summoned  under  the 
+sovereignty  of  his  kingdom.  At  these,  Boniface,  arch 
+bishop;  ruler  of  the  bishopric  of  the  city  of  Magontia 
+by  the  consent  and  gift  of  Carloman  himself;  legate  of 
+the  Roman  church  and  of  the  apostolic  see,  sent  first  by 
+the  holy  and  venerable  bishop  of  that  see,  Gregory  the 
+Younger,  or  the  Second,  to  count  from  the  First;  then 
+by  the  honorable  Gregory  who  was  the  Younger,  count 
+ing  from  the  Second,  or  the  Third,  to  count  from  the 
+First;  Boniface,  I  say,  urged  that  numerous  canons 
+and  ordinances  of  the  four  principal  early  councils  be 
+preserved  for  the  wholesome  increase  of  the  heavenly 
+doctrine:  in  order2  that,  as  in  the  Nicene  council,3  when 
+Constantine  Augustus  administered  the  empire  of  the 
+world,  the  falsehood  of  the  Arian  blasphemy  was  over 
+thrown;  as  the  assembly  of  a  hundred  and  fifty  fathers, 
+
+
+742-747 
+
+
+f«r~    /*t/« 
+
+Willibald  condenses  the  succeeding  summary  of  the  four  principal 
+icils  from  Isidorus  Hispalensis,  Etymologiae,  vi,  16. 
+
+
+2 
+
+councils 
+3  In  325- 
+
+74 
+
+
+THE  LIFE  OF  BONIFACE 
+
+when  Theodosius  the  Elder  ruled  Constantinop 
+condemned  one  Macedonius,  who  denied  that  the  Holy 
+Spirit  is  God;  as  the  union  of  two  hundred  bishops, 
+assembled  at  the  city  of  Ephesus 2  under  Theodosius 
+the  Younger,  separated  from  the  Catholic  church, 
+with  a  righteous  curse  of  excommunication,  Nestorius, 
+who  declared  that  there  are  two  persons  in  Christ;  and 
+as  the  council  of  Chalcedon,3  an  assembly  of  six  hun 
+dred  and  thirty  priests,  in  accordance  with  the  prede 
+termined  decision  of  the  fathers  bestowed  the  curse  of 
+excommunication  upon  Eutyches,  abbot  of  the  city  of 
+Constantinople,  and  Dioscurus  his  champion,  rebels 
+against  the  citadel  of  the  Catholic  faith:  so  indeed  in 
+Francia,  when  all  the  falsehood  of  the  heretics  was 
+utterly  rooted  out  and  the  conspiracy  of  the  wicked 
+destroyed,  the  power  of  the  divine  law  might  be  in-  / 
+creased;    the  synodal  canons  of  the  general  council/ n 
+might  be  received;  while  at  the  same  time  a  synodalV 
+assembly  of  bishops  of  spiritual  understanding  might  / 
+meet  in  accordance  with  the  predetermined  prescript 
+tion  of  the  authentic  constitution.  / 
+
+The  constant  expectation  of  war,  and  the  hostility^ 
+and  insurrections  of  the  surrounding  barbarian  tribes, 
+with  the  attendant  attempts  of  alien  robber  nations 
+without  to  destroy  the  Frankish  realm  by  violence,  had 
+prevented  the  holding  of  synodal  assemblies,  or  even 
+had  caused  them  to  be  so  wholly  forgotten  that  they 
+were  utterly  obliterated  from  present  memory  and  un- 
+
+1  In  381.  3  In  451. 
+
+2  In  431- 
+
+
+WILLIE  ALD 
+
+own.1  For  it  is  the  nature  of  the  world,  that  even 
+if  it  be  recruited,  it  daily  suffers  damage  and  decrease 
+within  itself;  while  if  it  is  not  thoroughly  renewed,  it 
+expends  itself  and  vanishes  away,  and  hurries  breath 
+lessly  to  its  predestined  end.  Wherefore  in  the  pilgrim 
+age  of  this  mortal  life,  if  for  healing  spiritual  leaders 
+have  ascertained  any  matters  for  the  common  profit  of 
+the  weak  in  this  world,  even  if  at  times  these  matters 
+have  been  introduced  into  the  minds  of  men,  they 
+ought  to  be  preserved  and  most  strongly  defended  by 
+Catholics,  and  held  with  minds  determined  and  im 
+movable:  lest  human  oblivion  steal  upon  them,  or  the 
+enticing  delight  of  worldly  enjoyment  impede  at  the 
+instigation  of  the  devil.  For  this  reason  our  holy 
+bishop  of  the  Lord,  moved  by  sharpest  anxiety  in  this 
+regard,  sought  to  deliver  the  folk  from  the  baleful 
+beguiling  of  the  crooked  serpent,2  and  very  often  urged 
+Duke  Carloman  to  assemble  the  synodal  meeting :  that 
+both  to  men  then  living  and  to  later  generations  the 
+wisdom  of  spiritual  learning  might  be  disclosed  and  the 
+knowledge  of  Christianity  come,  while  the  snaring  of 
+souls  was  averted. 
+
+After  he  placed  a  mirror  (as  it  were)  of  canonical 
+
+rectitude  before  all  ranks  for  a  pattern  of  right  living, 
+
+/  and  the  way  of  truth  became  clearly  visible  to  all, 
+
+Boniface,  being  old,  weak,  and  decrepit,  presented  a 
+
+1  Boniface  wrote  to  Pope  Zacharias,  early  in  742 :  "  The  old  men 
+say  that  the  Franks  have  held  no  synod  for  more  than  eighty  years, 
+nor  had  an  archbishop,  nor  established  or  renewed  in  any  place  the 
+canon  laws  of  the  church."    E,,  50. 
+
+2  Isaiah,  xxvii,  i. 
+
+
+THE  LIFE  OF  BONIFACE 
+
+plan  wholesome  for  himself  and  his  feebleness,  and  m 
+accordance  with  the  rule  of  ecclesiastical  management 
+provided  a  pastoral  magistracy  for  the  peoples:  that, 
+whether  he  lived  or  died,  the  folk  might  not  lack  pas 
+tors  and  their  healing  care.  He  promoted  to  the  epis 
+copal  order  l  two  men  of  good  diligence,  Willibald  and 
+Bur  chard,  and  divided  unto  them  the  churches  com 
+mitted  to  his  charge  in  the  innermost  parts  of  the  East 
+Franks  and  the  confines  of  the  Bavarians.  To  Willibald 
+he  entrusted  the  government  of  his  diocese  2  in  the 
+place  named  Haegsted.3  To  Bur  chard  he  delegated 
+rank  and  office 4  in  the  place  called  Wirzaburch,5  and 
+allotted  to  his  province  the  churches  in  the  borders  of 
+the  Franks  and  Saxons  and  Slavs.  And  even  unto  the 
+glorious  day  of  his  death  he  opened  without  ceasing  the 
+narrow  way  6  of  the  heavenly  kingdom  unto  the  multi 
+tudes. 
+
+*  Pippin,  fortunate  successor  of  his  brother  Carlo- 
+man,7  by  the  grace  of  God  received  the  royal  kingdom 
+of  the  Franks,  and  there  being  now  a  slight  lull  in  the 
+disorder  of  the  peoples,8  was  raised  to  the  rank  of  king.9 
+
+1  In  741. 
+
+2  Vita  Willibaldi,  5,  in  M.G.H.,  Scriptores,  xv,  i,  p.  105. 
+
+3  Eichstatt.  5  Wiirzburg. 
+
+4  £.,  50,  51,  53.  6  Matthew,  vii,  14. 
+
+7  Carloman  abdicated  in  747  and  became  a  monk. 
+
+8  749-75L 
+
+9  In  November,  751.     Annales  Regni  Francorum  (Hannoverae, 
+1895:    in  Scriptores  Rerum  Germanicarum) ,  pp.  8,  10:  "  Pippin  was 
+chosen  king  according  to  the  custom  of  the  Franks,  and  anointed  by 
+the  hand  of  Archbishop  Boniface  of  holy  memory,  and  was  proclaimed 
+king  by  the  Franks  in  the  city  of  Soissons."    Rettberg  rejects  the 
+
+
+78  )  WILLIBALD 
+
+Then  he  began  solicitously  to  fulfil  the  vows  he  had 
+sworn  unto  the  Lord,  and  to  restore  without  delay  the 
+synodal  ordinances,  and  to  renew  the  canonical  mys 
+teries  which  his  brother  in  accordance  with  the  exhor 
+tation  of  Saint  Boniface  the  archbishop  had  faithfully 
+commenced,  and  to  prefer  Boniface  in  friendship  and 
+honor,  and  to  obey  his  precepts  in  the  Lord.  But 
+because  the  saint,  oppressed  by  bodily  weakness,1  was 
+not  altogether  able  to  attend  the  synodal  assemblies, 
+he  now  determined,  with  the  approval  and  advice  of 
+the  glorious  king,  to  set  a  proper  minister  over  his 
+flock.  He  appointed  Lul,  his  able  disciple,2  to  teach 
+the  multitude  of  the  great  church,  and  advanced  and 
+ordained  him  to  the  episcopal  rank,  and  committed  to 
+him  the  inheritance  which  he  had  won  in  Christ  by 
+earnest  labor.  Lul  was  the  trusty  comrade  in  the  Lord 
+of  his  pilgrimage,  and  was  witness  both  of  the  suffering 
+and  of  the  consolation.3 
+
+Now  when  the  Lord  wished  to  deliver  his  servant 
+from  the  temptation  of  this  world  and  to  raise  him  up 
+from  the  tribulations  of  the  temporal  life,  then  it  was 
+determined  by  the  ordinance  of  the  Lord,  that,  ac 
+companied  by  the  servants  of  God,  he  should  come  to 
+/Frisia,  which  aforetime  he  had  left  in  body,  not  in 
+)mind:   in  order  that  where  first  he  entered  upon  his 
+active  preaching  and  his  profits  and  rewards  began, 
+
+anointing  of  Pippin  by  Boniface,  and  supports  his  position  by  a 
+careful  analysis  of  the  Frankish  chronicles.  Kirchengeschichte 
+Deutschlands,  i,  pp.  383-391.  Hauck,  on  the  other  hand,  accepts  the 
+story.  Kirchengeschichte  Deutschlands,  i  (2d  ed.)  p.  561. 
+
+1  £.,  93.  2  Ibid.  *  II  Corinthians,  i,  7. 
+
+
+THE  LIFE  OF  BONIFACE 
+
+there  also,  leaving  the  world,  he  might  receive  trie 
+charge  of  recompense. 
+
+He  foretold  the  coming  day  of  his  death  to  Bishop^ 
+Lul  by  a  marvellous  and  in  a  way  prophetic  for 
+and  made  known  to  him  with  what  end  he  was  at  last  /f) 
+to  leave  the  world,  and  set  before  him  in  order  his  plans 
+for  the  building  of  churches  and  the  teaching  of  the  vlT* 
+people.  "  I  desire,"  said  he,  "  to  fulfil  the  journey  set 
+before  me.  I  shall  not  be  able  to  call  myself  back  from 
+the  welcome  departing  journey.  For  now  the  day  of 
+my  departure  is  at  hand,1  and  the  time  of  my  death 
+approaches;  now  I  shall  put  aside  the  prison  of  the 
+body,  and  return  to  the  prize  of  the  eternal  recom 
+pense.  But  do  thou,  dearest  son,  conduct  to  comple 
+tion  the  building  of  churches  which  I  have  commenced 
+in  Thuringia.  Do  thou  most  earnestly  recall  the 
+people  from  the  trackless  waste  of  error.  And  do  thou 
+complete  the  construction  of  the  basilica  already 
+begun  at  Fulda,2  and  bring  thither  my  body  aged  by 
+many  hastening  years."  3  And  having  made  an  end  of 
+this  discourse,  he  added  to  it  more  words  of  the  follow 
+ing  sort,  saying:  "  Son,  provide  by  thy  most  prudent 
+counsel  everything  which  must  be  joined  to  our  use  in 
+this  our  journey;  but  also  lay  in  the  chest  of  my  books7 
+a  linen  cloth,  wherein  my  decrepit  body  may 
+wrapped." 
+
+1  II  Timothy,  iv,  6. 
+
+2  See  Gregor  Richter,  Beitrage  zur  Geschichte  der  Grabeskirche  des 
+hi.  Bonifatius  in  Fulda  in  Festgabe  zum  Bonifatius-Jubilaum  1905 
+(Fulda,  1905). 
+
+3  £.,  86. 
+
+
+8o  WILLIBALD 
+
+At  this  sad  speech  Bishop  Lul  could  not  restrain  his 
+sobs,  but  forthwith  wept  unrestrainedly.  Then  Saint 
+Boniface  made  an  end  of  the  conversation  and  turned 
+to  other  matters.  He  did  not  draw  back  from  the 
+journey  which  he  had  undertaken,  but,1  after  a  few 
+days'  interval,  took  travelling  companions  and  went 
+on  board  ship,  and  pushed  down  the  Rhine,2  seeking 
+haven  at  night  time,  until  he  entered  the  moist  fields 
+of  the  Frisians,  and  passed  in  safety  across  the  lake 
+which  in  their  tongue  is  called  Aelmere,3  and  made  a 
+round  of  inspection  along  shores  barren  of  the  divine 
+seed.4  And  after  escaping  peril  and  hazard  of  rivers 
+and  the  sea  and  of  the  great  waters,  he  went  safely  into 
+danger,  and  visited  the  pagan  nation  of  the  Frisians, 
+whose  land  is  divided  by  the  intervening  waters  into 
+many  territories  and  districts,  yet  in  such  wise  that  the 
+different  names  indicate  the  property  of  a  single 
+nation.  But  since  it  would  be  tedious  to  repeat  the 
+districts  in  order,  we  desire  to  mention  by  name  only 
+those  which  are  veraciously  cited  to  afford  connection 
+to  our  narrative:  that  place  and  language  may  equally 
+transmit  our  story  of  the  saint's  piety,  and  disclose  the 
+end  with  which  he  left  this  world. 
+
+So  he  traversed  all  Frisia,  and  removed  the  pagan 
+worship  and  overthrew  the  erroneous  way  of  heathen- 
+
+1  At  this  point  the  punctuation  of  the  older  texts  is  preferable  to 
+that  of  Jaffe  and  Levison,  who  begin  their  new  paragraph  in  the  mid 
+dle  of  a  sentence. 
+
+2  This  voyage  must  be  placed  in  the  summer  —  probably  the  early 
+summer  —  either  of  753  or  of  754. 
+
+3  Aelmere,  '  the  Noble  Sea  ';  now  the  Zuyder  Zee. 
+
+4  Matthew,  xiii;  Luke,  viii,  n. 
+
+
+THE  LIFE  OF  BONIFACE 
+
+ism,  and  earnestly  preached  the  word  of  God;  and, 
+having  destroyed  the  divinity  of  the  heathen  temples, 
+he  built  churches  with  great  zeal.  And  now  he  bap 
+tized  many  thousand  persons,  men  and  women  and 
+little  ones,  being  aided  by  his  fellow  soldier  and  suf 
+fragan  bishop  Eoba,  whom  he  summoned  to  Frisia  to 
+aid  the  feebleness  of  his  old  age,  charging  him  with  the 
+bishopric  in  the  city  which  is  called  Trecht;  and  by 
+priests  and  deacons,  of  whom  these  are  the  names: 
+Wintrung  and  Wai  there  and  Ethelhere,  endowed  with 
+the  sacerdotal  office  of  the  priesthood;  Hamund, 
+Scirbald,  and  Bosa,  assigned  to  the  service  of  Levites; 
+Wacchar  and  Gundaecer,  Illehere  and  Hathovulf, 
+raised  to  the  conventual  order  of  monks.  These  with 
+Saint  Boniface  published  widely  through  the  people 
+the  seed  of  eternal  life,1  and,  supported  by  the  Lord 
+God,  made  it  known  to  such  an  extent,  that  even  as  in 
+accordance  with  the  pattern  of  the  apostolic  custom 
+they  were  of  one  heart  and  one  soul,2  so  they  had  one 
+and  the  same  martyr's  crown,  one  and  the  same  reward 
+of  victory. 
+
+After  the  splendor  of  faith  of  which  we  have  spoken 
+dawned  through  Frisia,  and  the  happy  end  of  our 
+saint's  life  approached,3  then,  accompanied  only  by  a 
+
+1  Luke,  viii,  n:  "  The  seed  is  the  word  of  God." 
+
+2  Acts,  iv,  32. 
+
+3  According  to  Eigil,  Vita  Sturmi,  150.  (in  M.G.H.,  Scriptores,  ii, 
+p.  372) ,  this  was  hi  the  second  summer  of  the  Frisian  ministry,  after  an 
+intervening  winter  in  Germany.    "  In  the  tenth  year  after  he  removed 
+to  the  holy  place  [Fulda],  the  holy  Archbishop  Boniface,  having  taken 
+counsel  with  the  king  and  other  Christians,  went  to  the  farther  places 
+
+
+WILLIBALD 
+
+number  of  his  personal  followers,  he  pitched  his  tents 
+by  the  bank  of  the  river  which  is  called  Bordne,1  which 
+is  upon  the  limits  of  the  districts  which  in  the  country 
+tongue  are  called  Ostor-  and  Westeraeche.  But  be 
+cause  he  had  appointed  unto  the  people,  already  scat 
+tered  far  and  wide,  a  holiday  of  confirmation  of  the 
+neophytes,  and  of  the  laying  on  of  hands  by  the  bishop 
+upon  the  newly  baptized  and  of  their  confirmation, 
+every  man  went  unto  his  own  house,2  that  in  accord 
+ance  with  the  precise  command  of  the  holy  bishop  all 
+might  be  presented  together  on  the  day  set  for  their 
+^confirmation. 
+
+|H*  ^  [^  VjcyVf  f'  Wholly  opposite  was  the  event.  When  the  appointed 
+day  had  dawned,  and  the  morning  light  was  breaking 
+after  the  rising  of  the  sun,  then  came  enemies  instead 
+of  friends,  new  lictors  instead  of  new  worshippers  of 
+the  faith;  and  a  vast  multitude  of  foes,  armed  with 
+spears  and  shields,  rushed  with  glittering3  weapons 
+
+of  the  Frisians,  which  were  addicted  to  the  pagan  worship,  and  there 
+by  teaching  and  baptizing  brought  a  vast  multitude  of  people  unto  the 
+Lord.  Thence  after  a  long  time  departing,  he  came  in  safety  to  his 
+own  churches  in  Germany.  But  in  the  following  year  he  came  again 
+to  the  moist  fields  of  the  Frisians;  for  he  desired  to  complete  the  work 
+of  preaching  which  he  had  begun." 
+
+1  The  Boom,  in  the  Dutch  province  of  Friesland. 
+
+2  John,  vii,  53. 
+
+3  Bibrantibus:    wrongly  rendered  as  passive  (mil  geschwungenen 
+Wa/en)  by  Bonnell,  Kiilb,  and  Arndt;    as  indicating  sound  (mil 
+Wajjengeton)  by  Simson,  who  is  led  astray  by  the  will-o'-the-wisp 
+authority  of  Otloh's  paraphrase.    I  take  it  that  the  idea  meant  to  be 
+conveyed  is  that  of  the  play  of  light  upon  swiftly  moving  steel,  as  in 
+Scott's  story  of  the  attack  on  the  smugglers  in  Guy  Mannering:  "  The 
+press  became  furiously  agitated,  while  some  endeavored  to  defend 
+
+
+THE  LIFE  OF  BONIFACE  (83 
+
+^ — - 
+
+into  the  camp.  Then  hastily  the  attendants  sprang 
+forth  against  them  from  the  camp,  and  betook  them 
+selves  to  arms  on  either  side,  and  were  eager  to  defend 
+against  the  crazy  host  of  the  mad  folk  the  sainted 
+martyrs  that  were  to  be.  But  when  the  man  of  God 
+heard  the  onset  of  the  tumultuous  throng,  imme 
+diately  he  called  to  his  side  the  band  of  clerics,1  and, 
+taking  the  saints'  relics  which  he  was  wont  to  have 
+always  with  him,  came  out  of  the  tent.  And  at  once, 
+rebuking  the  attendants,  he  forbade  combat  and 
+battle,  saying:  "Stop  fighting,  lads!  Give  up  the 
+battle!  For  we  are  taught  by  the  trusty  witness  of 
+Scripture,  that  we  render  not  evil  for  evil,2  but  con 
+trariwise  good  for  evil.3  Already  the  long  desired  day 
+is  at  hand,  and  the  voluntary  time  of  our  departure  is 
+near.4  Therefore  be  ye  comforted  in  the  Lord,  and 
+suffer  with  joy  the  grace  of  his  permission.  Trust  on 
+
+themselves,  others  to  escape;  shots  were  fired,  and  the  glittering 
+broadswords  began  to  appear  flashing  above  the  heads  of  the  rioters." 
+
+Unequivocal  instances  of  the  reference  of  vibrare  to  the  play  of  light  / 
+are  Cicero,  Academica  Priora,  33  (in  a  discussion  of  the  colors  of  the  \ 
+sea):  "Mare  .  .  .  mine,  qua  a  sole  collucet,  albescit  et  vibrat  ";  J 
+Silius  Italicus,  Punica,  iv,  v.  156:  ^ 
+
+"  Colla  viri  fulvo  radiabant  lactea  torque, 
+
+Auro  virgatae  vestes;  manicaeque  rigebant 
+
+Ex  auro;  et  simili  vibrabat  crista  metallo." 
+
+1  "  Moreover  there  suffered  with  him  fifty  religious  men  of  his 
+clergy,  priests,  deacons,  and  monks;   but  the  better  known  among 
+them  were  Eobanus  the  bishop  and  Adalharius  the  priest."    Martyro- 
+logium  Fuldense,  in  Levison,  Vitae,  p.  60. 
+
+2  I  Thessalonians,  v,  15;  Romans,  xii,  17. 
+
+3  I  Peter,  iii,  9;  Matthew,  v,  39-44- 
+
+4  II  Timothy,  iv,  6. 
+
+
+WILLIBALD 
+
+him,  and  he  will  release  your  souls."  But  also  with 
+fatherly  speech  he  incited  those  standing  near,  priests 
+and  deacons  and  men  of  lower  rank,  trained  to  God's 
+service,  saying:  " Men  and  brethren,  be  of  stout  heart, 
+and  fear  not  them  who  kill  the  body,  since  they  are  not 
+able  to  slay  the  soul,1  which  continues  without  end; 
+/  but  rejoice  in  the  Lord,  and  fasten  to  God  the  anchor 
+S  of  your  hope.  For  straightway  he  shall  render  you  the 
+reward  of  perpetual  recompense,  and  shall  give  you  an 
+abode  in  his  heavenly  palace  with  the  angels  who 
+dwell  on  high.  Do  not  enslave  yourselves  to  the  empty 
+pleasures  of  this  world;  be  not  seduced  by  the  vain 
+flatteries  of  the  Gentiles;  but  endure  firmly  here  the 
+sudden  moment  of  death,  that  ye  may  be  able  to  reign 
+with  Christ  for  all  time."  While  with  such  exhorta 
+tion  of  doctrine  he  was  kindly  inciting  the  disciples  to 
+the  crown  of  martyrdom,  quickly  the  mad  tumult  of 
+pagans  rushed  in  upon  them  with  swords  and  all  the 
+equipment  of  war,  and  stained  the  saints'  bodies  with 
+propitious  gore. 
+
+Having  worked  their  will  on  the  mortal  flesh  of  the 
+just,  the  exultant  throng  of  heathens  at  once  seized  the 
+spoils  of  victory,  the  fruit  of  their  damnation,  and, 
+wasting  the  camp,  shared  and  plundered  the  booty. 
+But  also  they  stole  the  chests,  in  which  were  many 
+volumes  of  books,  and  the  boxes  of  relics;  and,  be- 
+lievingTrieTTTSelves  enriched  by  a  great  abundance  of 
+gold  and  silver,  carried  away  the  cases,  locked  as  they 
+were,  to  the  shipg.  Now  in  the  ships  was  the  daily 
+1  Matthew,  x,  28. 
+
+
+THE  LIFE  OF  BONIFACE 
+
+sustenance  of  the  clerics  and  attendants,  and 
+wine  still  left  of  the  same  supply.  And  when  they 
+found  the  beloved  drink,  the  heathens  hastily  com 
+menced  to  sate  their  thirsty  maws  and  to  make  their 
+stomachs  drunken  with  wine;  and  at  length,  through 
+the  wonderful  direction  of  almighty  God,  they  took 
+counsel,  and  began  to  discuss  concerning  the  booty 
+and  spoils  that  they  had  taken,  and  to  deliberate  how 
+they  might  mutually  share  the  gold  or  silver  which 
+they  had  not  even  seen.  While  they  held  wordy  dis 
+cussion  over  the  riches  they  reckoned  so  great,  again 
+and  again  dispute  and  quarrels  sprang  up;  and  finally 
+there  began  such  enmity  and  discord,  that  insane 
+frenzy  divided  the  raging  throng  into  two  factions, 
+and  at  last  they  turned  the  weapons,  with  which  earlier 
+they  had  murdered  the  holy  martyrs,  against  each 
+other  in  merciless  strife. 
+
+After  the  most  part  of  the  raging  throng  had  been 
+laid  low,  the  survivors  ran  rejoicing  to  the  wealth 
+gained  by  the  loss  of  souls  and  life,  while  the  rivals 
+who  opposed  them  respecting  the  passionately  coveted 
+treasure  lay  dead.  Having  broken  open  the  boxes  of 
+books,  they  found  volumes  instead  of  gold,  and  for 
+silver,  leaves  of  divine  learning.  Thus  deprived  of  the 
+precious  reward  of  gold  and  silver,  they  scattered  over 
+the  meadow  some  of  the  books  which  they  found; 
+others  they  threw  away,  casting  some  into  the  reed 
+thickets  of  the  marshes,  hiding  the  rest  each  in  a  dif 
+ferent  place.  But  by  the  grace  of  almighty  God  and 
+through  the  prayers  of  Saint  Boniface  the  archbishop 
+
+
+y         ^ 
+I 
+
+
+A  j 
+
+/  V  £RY  (sSfc-W 
+
+No^i  (jifMSt'Ai4|\ 
+
+j  I 
+
+S 
+
+[ 
+
+
+WILLIBALD 
+
+and  martyr,  the  books  were  found  a  long  time  after, 
+sound  and  unharmed,  and  returned  by  the  several  dis- 
+coverers  to  the  house1  in  which  even  unto  this  day 
+they  are  of  use  for  the  salvation  of  souls.2 
+
+Sad  at  the  loss  of  the  wealth  on  which  they  had  reck 
+oned,  the  murderers  returned  home.  After  three  days' 
+respite,  they  experienced  in  their  own  possessions  a 
+r  loss,  and  also  paid  life  for  life  in  retribution. 
+For  the  omnipotent  Author  and  Reformer  of  the  world 
+wished  to  avenge  himself  on  his  enemies,  and  with  the 
+zeal  of  his  wonted  compassion  to  take  revenge  for  the 
+blood  of  saints  shed  for  his  sake.3  Deeply  moved  by 
+the  recent  act  of  mad  wickedness,  he  wished  to  show 
+openly  his  wrath,  too  long  deferred,  against  the  idola- 
+
+1  Presumably  the  cathedral  at  Fulda. 
+
+2  Three  books,  the  so-called  codices  Bonifatiani,  ascribed  by  tradi 
+tion  to  this  collection,  are  preserved  in  the  Landesbibliothek  at  Fulda. 
+Carl  Scherer,  Die  Codices  Bonifatiani  in  der  Landesbibliothek  zu  Fulda, 
+in  Festgabe  zum  Bonifatius-Jubilaum  (Fulda,  1905)  ;  W.  M.  Lindsay, 
+Early  Irish  Minuscule  Script  (Oxford,  1910),  pp.  4-12.    One  of  these, 
+cut  almost  through  by  some  sharp  instrument,  is  traditionally  identi 
+fied  with  the  book  mentioned  in  the  Life  of  Boniface  attributed  to 
+Bishop  Radbod  of  Utrecht  (Levison,  Vitae,  p.  73)  :  "  As  I  was  making 
+inquiries  concerning  Boniface  in  the  same  region,  on  the  chance  that  I 
+might  find  some  material  for  my  work,  I  was  told  that  a  certain  woman 
+was  yet  living,  though  greatly  enfeebled  by  age,  who  was  wont  to 
+assert  with  an  oath,  that  she  was  present  when  the  soldier  of  Christ 
+was  beheaded,  and  to  say,  that  when  he  was  smitten  by  the  sword  he 
+covered  his  head  with  a  copy  of  the  holy  gospels:  that  beneath  it  he 
+might  receive  the  stroke  of  the  assassin,  and  that  he  might  have  its 
+defence  in  death,  as  he  had  loved  its  words  in  life." 
+
+3  Revelation,  xvi,  6;  Psalms,  Ixxix,  10.    Adam  of  Bremen  uses  the 
+second  of  these  references  in  a  very  similar  connection.    Gesta  Ham- 
+maburgensis  Ecclesiae  Pontificum,  i,  49. 
+
+
+THE  LIFE  OF  BONIFACE  87 
+
+ters.    And  as  the  unexpected  tidings  of  the  temporal 
+slaughter  of  the  sainted  martyrs  flew  through  the  dis 
+tricts  and  villages  and  the  whole  province,  and  the 
+Christians  learned  of  the  corporeal  death  of  the  mar 
+tyrs,  they  at  once  collected  a  very  large  expeditionary 
+force,  and,  being  warriors  prepared  to  take  speedy 
+vengeance,  hurried  to  the  boundary.    After  the  lapse 
+of  the  three  days'  period  mentioned  above,  they  en 
+tered  the  land  of  the  infidels  as  unharmed  but  un-/ 
+friendly  guests,  and  overthrew  with  prodigious  carnage^ 
+the  pagans  who  came  up  against  them.    The  pagans  /   ^    / 
+were  unable  to  withstand  the  first  onset  of  the  Chris 
+tian  folk,  and  consequently  betook  themselves  to  flight 
+and  were  slaughtered  in  great  numbers.    Fleeing,  they 
+lost  their  lives  and  household  goods  and  children.  But 
+the  Christians  took  as  spoil  the  wives  and  little  ones  l 
+of  the  superstitious  folk,  their  menservants  also  and 
+maidservants,  and  returned  to  their  own  land.  And  it 
+came  to  pass  in  wondrous  wise,  that  the  neighboring 
+heathen  that  survived,   shattered  by  present  mis 
+fortune,  were  enlightened  by  the  glory  of  faith  and 
+preferred  to  shun  eternal  torment;    and,  thoroughly 
+terrified  by  the  administration  of  the  divine  rebuke, 
+accepted,  upon  the  death  of  Bishop  Boniface,  the 
+proof  of  his  doctrine  which  they  rejected  while  he 
+lived. 
+
+With  swelling  sails  and  favorable  breezes,  the  body 
+of  the  sainted  bishop,  and  also  those  of  the  other 
+martyrs,  were  brought  after  not  many  days  across 
+1  Genesis,  xxxiv,  29;  Numbers,  xxxi,  9. 
+
+
+88  WILLIBALD 
+
+the  sea  which  is  called  Aelmere  to  the  abovenamed 
+city  of  Trecht.  There  they  were  deposited  and  in 
+terred/  until  religious  and  faithful  brethren  in  the 
+Lord  arrived  from  Magontia,  sent  by  ship  by  Bishop 
+Lul,  the  successor  of  our  holy  bishop  and  martyr  of 
+Christ,  to  bring  the  corpse  of  the  saint  to  the  monas 
+tery  which  he  had  built  during  his  life,  and  which  is 
+situate  on  the  banks  of  the  river  Fulda.  Of  these 
+brethren  there  was  one,  Hadda  by  name,  the  promoter 
+of  the  journey  and  organizer  of  the  party,  who  led  a 
+life  of  singular  sanctity  and  peculiar  chastity  and  con 
+tinence.  To  him  especially,  with  the  brethren  who 
+went  with  him,  Bishop  Lul  entrusted  the  performance 
+of  this  embassy  and  the  bringing  of  the  sacred  body: 
+that  greater  honor  of  devotion  might  be  paid  to  the 
+venerable  saint,  and  that  the  witness  of  many  might 
+prevail  more  in  those  matters  which  they  heard  or  saw. 
+When  the  honorable  brethren  of  this  holy  company 
+came  to  the  city  of  Trecht,  a  small  crowd  of  the  people 
+gathered  to  oppose  them.  When  the  crowd  heard  how 
+an  edict  had  been  issued  by  glorious  King  Pippin,  the 
+count  of  the  city  proclaimed  an  interdict,  and  forbade 
+that  the  body  of  Bishop  Boniface  should  be  removed 
+thence.  But  the  strength  of  the  Almighty  is  stronger 
+than  men's  strength.  Wherefore  immediately,  in  the 
+presence  of  all,  a  marvellous  and  memorable  miracle 
+was  heard,  wrought  through  angelic  rather  than  human 
+understanding.  The  bell  of  the  church,  untouched  by 
+human  hands,  was  rung,  as  a  token  of  the  admonition 
+1  Eigil,  Vita  Sturmi,  isa. 
+
+
+THE  LIFE  OF  BONIFACE  89 
+
+of  the  sacred  body;  so  that  all,  smitten  by  sudden  fear 
+and  terror,  were  stupefied,  and  trembled  exceedingly, 
+and  cried  out  that  the  body  of  this  righteous  man  must 
+be  given  up.  And  so  at  once  the  body  was  yielded, 
+and  was  honorably  removed  by  the  aforesaid  brethren 
+of  sacred  memory,  and  without  labor  of  rowers  l  was 
+brought  on  the  thirtieth  day  after  the  saint's  decease 
+to  the  abovementioned  city  of  Magontia. 
+
+The  wonderful  providence  of  almighty  God  brought 
+it  to  pass,  that  on  one  and  the  same  day,  though  the 
+time  had  not  been  beforehand  set  and  appointed,  there 
+assembled  unto  the  funeral  of  this  great  man,  as  if  the 
+day  had  been  set  and  predetermined,  not  only  the 
+ambassadors  who  brought  the  sacred  body,  but  also 
+many  faithful  men  and  women  from  distant  and  widely 
+scattered  countries.  Moreover  the  saint's  successor  in 
+his  venerable  office,  Lul,  bishop  of  the  Lord,  who  at 
+that  time  was  present  in  the  king's  palace,  came  to  the 
+city  of  Magontia  as  it  were  at  the  same  hour  and  mo 
+ment,  though  he  was  altogether  ignorant  of  the  occa 
+sion,  and  knew  not  of  the  arrival  of  the  sacred  body.2 
+
+1  "  Per  Rheni  alveum  navim  trahere,  et  superiora  petere  coepe- 
+runt."    Vita  Sturmi,  i$b. 
+
+2  This  passage  is  discussed  at  length  by  Michael  Tangl  in  his  essay 
+"Das  Todesjahr  des  Bonifatius,"  in  Zeitschrift  des  Vereins  fur  hess- 
+ische  Geschichte  und  Landeskunde,  Neue  Folge,  xxvii  (Cassel,  1903), 
+pp.  243  f.    It  appears  to  me,  however,  to  weigh  somewhat  heavily 
+against  Tangl's  contention  (see  below)  that  Boniface  died  in  754,  not 
+755  as  stated  by  Willibald.    In  the  latter  year  Lul's  presence  at  the 
+palace  at  Verneuil  near  the  end  of  June  is  probable,  since  King 
+Pippin  had  assembled  there  a  synod  of  "  almost  all  the  bishops  of  the 
+Gauls."    M.G.H.,  Capitularia,  i,  pp.  32-3?;    Bohmer-Miihlbacher, 
+
+
+90  W1LLIBALD 
+
+And  all,  strangers  and  citizens,  were  oppressed  by 
+sorrow  and  grief,  yet  rejoiced  abundantly  and  were 
+glad.  For  in  viewing  the  temporal  and  bodily  death 
+of  this  great  bishop,  they  grieved,  on  the  one  hand,  for 
+the  loss  of  his  corporeal  presence,  while  on  the  other 
+hand  they  believed  that  he  would  be  protector  to 
+them  and  theirs  for  all  time  to  come.  Wherefore, 
+their  hearts  torn  by  these  conflicting  emotions,  the 
+people,  with  the  priests  and  deacons  and  every  ec 
+clesiastical  rank,  carried  the  dead  saint  to  that  place 
+which  he  had  determined  upon  while  alive.1  They 
+prepared  a  new  sarcophagus  in  the  church,  and  placed 
+the  body  there  with  the  customary  rites  of  sepulture. 
+And  when  all  was  duly  performed,  they  returned  to 
+their  homes,  comforted  by  the  power  of  faith. 
+
+But  in  the  place  where  they  interred  the  sacred  body 
+there  was  an  abundant  succession  of  divine  blessings. 
+Through  the  prayers  of  the  saint,  those  who  came 
+thither  possessed  by  divers  infirmities  obtained  healing 
+remedy  of  body  and  mind.  Some  already  moribund  in 
+the  whole  body  and  almost  completely  lifeless,  at  the 
+
+Regesta,  i,  i,  pp.  40  f.  In  the  summer  of  754  also  Pippin  was  near 
+Paris,  at  Verberie  and  (28  July)  at  St.  Denis.  Regesta,  i,  i,  pp.  38  f. 
+But  Tangl's  confident  assertion,  "  Wahrend  derselben  Zeit  hatte  Lull 
+in  hochster  Eile  eine  Reise  an  den  Hof  unternommen,  um  sich  rasch 
+die  Nachfolge  in  Mainz  bei  Pippin  und  dem  am  Konigshof  weilenden 
+Papst  zu  sichern,"  is  in  truth  the  merest  conjecture,  and,  in  view 
+of  the  care  with  which  Boniface  had  provided  for  the  succession  before 
+his  departure  to  Frisia  (p.  78,  above;  and  E.,  93),  a  most  unlikely 
+one  on  the  face. 
+
+1  The  cathedral  at  Fulda.  Eigil  says  that  Lul  wished  to  retain  the 
+body  at  Mayence.  Vita  Sturmi,  isb. 
+
+
+THE  LIFE  OF  BONIFACE  91 
+
+last  breath,  were  restored  to  their  pristine  health. 
+Others,  whose  eyes  were  veiled  by  blindness,  received 
+their  sight.  Yet  others,  bound  fast  in  the  snares  of  the 
+devil,  out  of  their  senses  and  mad,  afterward  regained 
+soundness  of  mind,  and,  restored  to  pristine  health, 
+gave  praise  and  glorified  God:  who  deigned  to  adorn 
+and  enrich  and  honor  his  servant  with  this  great  gift, 
+and  to  glorify  him  by  dazzling  miracles  made  manifest 
+to  present  and  future  times  and  ages,  when  the  fortieth 
+year  of  his  pilgrimage  had  passed:  which  year  also  is 
+reckoned  of  the  incarnation  of  the  Lord  the  seven  hun 
+dred  and  fifty-fifth,  and  the  eighth  indiction.1  More 
+over  he  sat  in  the  episcopacy  thirty-six  years  six 
+months  and  six  days.2  And  so  in  the  manner  described 
+above,  on  the  fifth  of  June,  rewarded  with  the  triumph 
+of  martyrdom,  he  departed  to  the  Lord:  to  whom  is 
+honor  and  glory  unto  ages  of  ages.  Amen. 
+
+1  The  Fulda  tradition,  supported  by  Tangl  in  his  essay  mentioned 
+above,  gives  the  year  as  754.    Tangl's  arguments,  though  they  have 
+won  a  very  general  acceptance,  seem  to  me  far  from  conclusive. 
+
+2  An  error.     See  p.  60,  n.  2. 
+
+
+CHAPTER  IX 
+
+How  IN  THE  PLACE  WHERE  THE  BLOOD  OF  MARTYRS  WAS 
+
+SHED,  A  LIVING  FOUNTAIN  APPEARED  TO  THOSE  WHO  WERE 
+
+INSPECTING  THE  PREPARATIONS  FOR  A  CHURCH 
+
+HAVING  recounted  the  saint's  distinguished  deeds  in 
+childhood,  boyhood,  youth,  and  the  prime  of  life,  and 
+even  in  old  age,  let  us  return  to  those  wonders  that  by 
+the  help  of  the  Lord  were  wrought  to  declare  to  mortals 
+the  sanctity  of  the  saint's  life,  after  this  world's  race 
+was  run  and  that  life  was  happily  ended ;  and  recall  to 
+memory  a  miracle  for  folk  to  remember  and  repeat. 
+Venerable  Bishop  Lul  told  us  the  story  of  the  miracle 
+even  as  he  learned  it  from  glorious  King  Pippin,  who 
+in  turn  heard  it  from  eyewitnesses.  As  Lul  related  it 
+to  us,  it  was  as  follows. 
+
+In  the  place  where  of  yore  the  precious  blood  of  the 
+holy  martyr  was  shed,  the  church  and  a  great  part  of 
+the  Frisian  folk  planned  to  rear  high  upon  a  deep  foun 
+dation  an  earthen  mound.  This  was  because  of  the 
+vast  irruptions  of  the  neap  and  spring  tides,1  which  in 
+alternation  disturb  the  tides  of  sea  and  ocean,  the  less 
+ening  of  the  waters  and  the  floods.2  On  the  mound  they 
+proposed  to  raise  a  church  —  as  was  done  later 3  — 
+
+1  Ledonis  ac  malinae  inruptiones. 
+
+2  Bede,  De  Temporum  Ratione,  29. 
+
+3  Dedicated  to  Saint  Paul  and  Boniface.    Versus  Alchuini  de  Ec- 
+clesia  Sancti  Liudgeri,  in  M.G.H.,  Poetae  Latini  Aevi  Carolini,  i  (1881), 
+p.  304: 
+
+"  Adjuvat  hinc  Paulus,  doctor  Bonifatius  inde, 
+Haec  illis  quoniam  constat  simul  aula  dicata." 
+92 
+
+
+THE  LIFE  OF  BONIFACE  93 
+
+and  to  erect  a  habitation  of  the  servants  of  God  in  the 
+same  place.     But  when  now  the  mound  was  wholly 
+finished  and  the  entire  work  of  its  erection  was  com 
+pleted,  the  residents  and  inhabitants  of  that  place, 
+having  returned  home,  had  some  discussion  among 
+themselves  in  regard  to  the  want  of  fresh  water,  which 
+throughout  almost  all  Frisia  occasions  the  greatest 
+difficulty  both  to  men  and  to  beasts.    Then  at  length, 
+through  the  Lord's  compassion,  a  certain  man,  Abba 
+by  name,  who  in  accordance  with  the  edict  of  glorious 
+King  Pippin  administered  the  office  of  count  over  that 
+district  and  place  and  was  director  of  the  work  in 
+question,  taking  comrades  with  him,  mounted,  and 
+rode  round  the  hill,  and  inspected  the  mound.    Sud 
+denly  and  unexpectedly  the  steed  of  an  attendant, 
+while  merely  stamping  on  the  ground,  felt  it  sinking 
+and  giving  way  altogether,  and  wallowed,  its  fore 
+legs  held  fast  in  the  soil,  until  those  who  were  more 
+active  and  skilful  jumped  down  very  hurriedly  from 
+their  steeds,  and  pulled  out  the  horse  that  was  stuck 
+fast  in  the  earth.    But  at  once  a  miracle  stupendous 
+and  worthy  to  behold  was  made  manifest  to  those  who 
+were  present.    A  fountain,  exceeding  clear  beyond  the 
+manner  of  that  country,  and  wondrous  sweet  and  pleas 
+ant  to  the  taste,  came  bursting  out,  and,  penetrating 
+through  unknown  channels,  flowed  forth,  so  that  it 
+seemed  already  a  very  large  brook.     Astounded  by 
+this  miracle,  they  returned  home  with  rejoicing  and 
+gladness,  and  made  known  to  the  churches  those 
+matters  which  they  had  seen. 
+
+
+A  LIST  OF 
+
+EDITIONS  AND  TRANSLATIONS 
+OF  THE   LIFE 
+
+
+A  LIST  OF  EDITIONS  AND 
+TRANSLATIONS   OF  THE   LIFE 
+
+(a)  Editions 
+
+Henricus  Canisius.  Sancti  Willibaldi  Episcopi  Eichstadiani 
+Liber  de  vita  S.  Bonifacii  Martyris,  Germanorum  Apos- 
+toli,  Archiepiscopi  Moguntini.  Nunc  primum  editus 
+ex  manuscripts  codicibus  Monasterii  Rebdor/ensis, 
+prope  Eichstadium,  et  Magnifici  et  Cl.  D.  Alberti  Hungeri 
+Procancellarii  Academiae  Ingolstadiensis,  &c.  In  his 
+Antiqua  Lectio,  torn,  iv,  pars  secunda  (Ingolstadii, 
+1603),  pp.  337-391,  742-745-1 
+
+This  is  repeated,  with  a  new  preface  and  additional 
+notes,  in  the  second  edition  of  Canisius,  by  Jacques 
+Basnage  (Thesaurus  Monumentorum,  etc.,  Amstelae- 
+dami  or  Antverpiae,  1725),  in  vol.  ii,  pp.  227-249.2 
+
+Nicolaus  Serarius,  in  Epistolae  S.  Bonifacii  Martyris  (Mo- 
+guntiae,  1605;  with  new  title-page,  1629),  pp.  253-284. 
+From  a  manuscript  furnished  to  Serarius  by  Andreas 
+Weber  of  Frankfort,  supplemented  from  the  edition  of 
+Canisius.  Begins:  "  Prologus  in  Vitam,  vel  Passionem 
+Beatissimi  Martyris  Christi,  &  Archiepiscopi  Boni 
+facii." 
+
+1  Title,  p.  337;   De  Willibaldo,  Bonifacio,  Lullo,  Megingozo,  pp. 
+338-40;  text,  pp.  341-386;  Notae  et  variae  lectiones,  pp.  387-391; 
+Variae  lectiones  in  Vitam  S.  Bonifacii,  scriptam  a  S.  Willibaldo,  ex 
+membranis  m.  s.  Monasterii  Windbergensis  in  Bavaria,  pp.  742-745. 
+
+2  Text,  pp.  232-249. 
+
+07 
+
+
+98  EDITIONS  AND  TRANSLATIONS 
+
+Lauren tius  Surius.  Vita  S.  Bonifacii  A  rchiepiscopi  Mogun- 
+tini,  Germanorum  Apostoli  et  Martyris,  author  e  S.  Wili- 
+baldo  primo  Eistatense  Episcopo.  In  the  fourth  edition 
+of  his  De  Probatis  Sanctorum  Vitis  or  Vitae  Sanctorum 
+(Coloniae  Agrippinae,  1617),  Junius,  pp.  49~57-  Lacks 
+Chapter  IX. 
+
+In  the  latest  edition  of  Surius  (Augustae  Taurinorum, 
+1875-80)  Willibald's  work  is  omitted. 
+
+Jean  Mabillon.  Vita  Sancti  Bonifacii  Episcopi  Maguntini, 
+et  Martyris,  Auctore  Willibaldo  ipsius  discipulo.  Ex 
+tomo  4.  Henrici  Canisii,  et  Nicolao  Serario.  In  Acta 
+Sanctorum  Ordinis  S.  Benedicti,  saeculum  tertium,  pars 
+secunda  (Lutetiae  Parisiorum,  1672),  pp.  4-27. 
+
+In  the  second  edition  of  the  same  (Venetiis,  1734), 
+pp.  1-25  (text,  pp.  3-25). 
+
+Godfried  Henschen  and  Daniel  van  Papenbroeck.  Vita  I, 
+auctore  Willibaldo  Presbytero.  Ex  Ms.  Trevirensi  et 
+editionibus  tribus,  Canisii,  Serarii,  ac  Mabilionis.  In 
+Acta  Sanctorum,  Junius,  torn,  i  (Antverpiae,  1695),  pp. 
+460-473;  ibid.  (Venetiis,  1741),  'pp.  460-473;  editio 
+novissima,  curante  Joanne  Carnandet,  Junius,  torn,  i 
+(Parisiis  et  Romae,  1867),  pp.  453-465. 
+
+Georg  Heinrich  Pertz.  Vita  S.  Bonifacii  Archiepiscopi, 
+auctore  Willibaldo  Presbytero.  In  Monumenta  Ger- 
+maniae  Historica,  Scrip  tores,  ii  (Hannoverae,  1829), 
+PP-  331-353  (text,  pp.  333-353). 
+
+John  Allen  Giles.  De  Vita  vel  Passione  Beatissimi  Mar 
+tyris  Bonifacii,  auctore  Willibaldo.  In  his  Sancti  Boni 
+facii  Opera  quae  extant  Omnia  (Londini,  1844),  vol.  ii, 
+pp.  143-182.  From  Serarius,  with  some  emendations 
+from  Pertz. 
+
+
+EDITIONS  AND  TRANSLATIONS  99 
+
+Giles  reprints  this  in  his  Vita  [I]  quorundum  [!] 
+Anglo-Saxonum:  Original  Lives  of  Anglo-Saxons  and 
+others,  who  lived  before  the  Conquest  (London,  1854), 
+pp.  157-197.  This  volume  is  the  sixteenth  and  last  of 
+the  Publications  of  the  Caxton  Society. 
+
+Jacques  Paul  Migne.  Vita  S.  Bonifacii,  Auctore  Willibaldo, 
+ipsius  discipulo.  In  Patrologia  Latina  (title  page,  Pa- 
+trologiae  Cursus  Completes),  vol.  Ixxxix  (Parisiis,  1850), 
+coll.  603-634.  Repeated  from  Mabillon. 
+
+Philipp  Jaffe.  Willibaldi  Vita  S.  Bonifatii.  In  his  Biblio- 
+theca  Rerum  Germanicarum,  torn,  iii  (Monumenta  Mo- 
+gun  tina),  Berolini,  1866,  pp.  429-471.  Also  in  Vitae 
+Sancti  Bonifatii  Archiepiscopi  Moguntini,  reprinted 
+for  school  use  from  the  above  work  in  the  same  place 
+and  year,  pp.  10-52. 
+
+Vita  Sancti  Bonifacii  Episcopi  Moguntini  et  Martyris, 
+auctore  Willibaldo,  secundum  priorem,  ut  videtur,  con- 
+scriptionem  nunc  primum  edita.  In  Analecta  Bollan- 
+diana,  i  (Paris  and  Brussels,  1882),  pp.  51-72. 
+
+Not  the  original  text  of  Willibald's  Life,  as  the  editors 
+supposed,  but  a  condensation  made  in  the  twelfth  cen 
+tury  or  earlier.1 
+
+August  Nurnberger.  Vita  S.  Bonifatii,  auctore  Willibaldo. 
+Aus  der  Munchener  Handschrift  neu  herausgegeben  und 
+mit  textkritischem  Apparat  versehen.  In  Siebenund- 
+zwanzigster  Bericht  der  wissenschaftlichen  Gesellschaft 
+Philomathie  in  Neisse  (Neisse,  1895),  pp.  113-180  (text, 
+pp.  123-179).  Reprinted  in  separate  form,  Breslau, 
+
+1895.   ' 
+
+The  reprint  adds  at  the  end  a  page  of  "  Erganzungen 
+und  Berichtigungen." 
+
+1  Analecta  Bollandiana,  xv,  pp.  268-270;  Levison,  Vitae  Bonifatii, 
+pp.  xxvii  f . 
+
+
+ioo         EDITIONS  AND  TRANSLATIONS 
+
+Wilhelm  Levison.  Vita  Bonifatii  auctore  Willibaldo.  In 
+his  Vitae  Sancti  Bonifatii  Archiepiscopi  Moguntini 
+(Hannoverae  et  Lipsiae,  1905),  pp.  1-57.  With  a  full 
+and  excellent  introduction  and  good  notes.  Levison's 
+work  is  included  in  the  series  Scriptores  Rerum  Ger- 
+manicarum  in  usum  Scholarum  ex  Monumentis  Ger- 
+maniae  Historicis  separatim  editi;  but  it  is  in  no  sense  a 
+repetition  of  Pertz's  edition. 
+
+(b)  Selections 
+
+Martin  Bouquet  prints  extracts  in  his  Recueil  des  His- 
+toriens  des  Gaules  et  de  la  France,  torn,  iii  (Paris,  1741), 
+pp.  664-666  (nouvelle  ed.,  1869),  and  torn,  v  (1744), 
+pp.  424-425  (nouvelle  ed.,  1869).  From  Mabillon. 
+
+Arthur  West  Haddan  and  William  Stubbs,  Councils  and 
+Ecclesiastical  Documents  relating  to  Great  Britain  and 
+Ireland,  vol.  iii  (Oxford,  1871),  pp.  295-296,  give  so 
+much  of  Chapter  IV  as  in  this  translation  is  comprised 
+in  the  second  paragraph,  lacking  the  last  sentence. 
+From  Jaffe. 
+
+Ernst  Dummler,  in  Monumenta  Germaniae  Historica,  Epis- 
+tolae  Karolini  Aevi,  ii  (Berolini,  1895),  pp.  500-501, 
+gives  a  recension  of  the  Prologue  from  manuscripts. 
+
+(c)  German  Translations 
+
+Dat  leven  des  Erwerdighen  hilligen  Bisschops  und  mertelers 
+sunte  Bonifacy.  A  fifteenth  century  Low  German  trans 
+lation  of  the  Life  by  Willibald,  with  some  abridgment 
+and  the  omission  of  the  Prologue,  the  beginning  of 
+Chapter  VIII,  and  Chapter  IX,  and  with  some  addi 
+tions  from  the  Life  attributed  to  Bishop  Radbod  of 
+
+
+EDITIONS  AND  TRANSLATIONS          101 
+
+Utrecht.  The  translation  was  made  at  Freckenhorst  in 
+Westphalia.  It  has  been  edited  by  W.  Dorow  (Denk- 
+maler  alter  Sprache  und  Kunst,  i,  i,  Bonn,  1823,  pp.  53- 
+86)  and  by  J.  H.  Schulte  (Das  Leben  des  h.  Bonifacius, 
+des  Apostels  der  Deutschen,  in  niederdeutscher  Sprache, 
+Warendorf  and  Miinster,  1852). 
+
+Heinrich  Eduard  Bonnell.    Leben  des  heiligen  Bonifacius 
+wn  Willibald.    Am  der  Lateinischen  Urschrift  des  achten 
+Jahrhunderts  zum  ersten  Male  ubertragen.    Berlin,  1856. 
+Philipp  Hedwig  Kiilb.    Willibalds  Leben  des  heiligen  Boni 
+facius.    In  his  Sammtliche  Schriften  des  heiligen  Boni 
+facius  (Ratisbon,  1859),  vol.  ii,  pp.  213-270. 
+Bernhard  Eduard  Simson.    Willibald's  Leben  des  heiligen 
+Bonifazius,  nach  der  Ausgabe  der  Monumenta  Ger- 
+maniae  ubersetzt  und  erklart.    Berlin,  1863.    A  spirited 
+and  scholarly  translation,  with  good  notes. 
+Wilhelm  Arndt.    Willibalds  Leben  des  heiligen  Bonifazius. 
+In  Die  Geschichtschreiber  der  deutschen  Vorzeit,  VIII. 
+Jahrhundert,  2.  Band  (Berlin,  1863),  pp.  1-47;  second 
+edition  (Leipsic,  1888),  pp.  1-52.    Arndt  anticipated 
+the  editors  of  the  text  in  using  —  though  only  to  a 
+limited    extent  — the   best   manuscript,    Monacensis 
+1086. 
+
+M.  M.  Wilden.  Willibald' s  Leben  des  heiligen  Bonifacius, 
+aus  den  Monumenta  Germaniae  iibersetzt.  An  appendix 
+(pp.  315-360)  to  his  Beda  des  Ehrwurdigen  Kirchenge- 
+schichte  der  Angelsachsen  (Schaffhausen,  1866). 
+Heinrich  Joseph  Mertens.  Leben  oder  Leiden  des  seligsten 
+Martyrers  Bonifazius,  verfasst  wn  Willibald.  In  his 
+Eine  heilige  Kbnigsfamilie  (Ratisbon,  etc.,  1875),  pp. 
+124-175.  Of  inferior  value. 
+
+
+102         EDITIONS  AND  TRANSLATIONS 
+
+(d)  French  Translation 
+
+Charles  Barthelemy.  Vie  de  Saint  Boniface,  Archeveqw 
+de  Mayence  et  Martyr,  ecrite  au  Huitieme  Siecle  par  Wil- 
+libalde,  Pretre  du  Diocese  de  Mayence,  et  completee  au 
+Neuweme  Siecle  par  Saint  Litdger,  Premier  £v£que  de 
+Mimigerneford.  In  his  Les  Vies  de  tons  les  Saints  de 
+France  depuis  le  Premier  Siecle,  neuvieme  annee  (Ver 
+sailles,  1868):  the  Life  by  Willibald  in  coll.  705-745; 
+extracts  from  Liudger's  Life  of  Gregory,  coll.  745-759. 
+
+
+INDICES 
+
+
+INDEX  OF  AUTHORS  CITED 
+IN  THE  NOTES 
+
+
+Adam  of  Bremen,  86. 
+Alcuin,  92. 
+Aldhelm,  31,  41. 
+Analecta  Bollandiana,  99. 
+Annales  Regni  Francorum,  77. 
+Arndt,  Wilhelm,  64,  82. 
+Augustine,  Saint,  55,  62. 
+
+Bede,  28,  31,  33,  43,  51,  92. 
+Benedict  of  Nursia,  Saint,  30, 
+
+34,  47- 
+BIBLE,  THE: 
+Acts,  81. 
+
+I  Corinthians,  37,  38,  39,  55, 
+66,  73- 
+
+II  Corinthians,  44,  47,  78. 
+Daniel,  35. 
+Deuteronomy,  39. 
+Genesis,  87. 
+
+Hebrews,  25,  65,  72. 
+
+Isaiah,  62,  76. 
+
+John,  35,  71,  82. 
+
+Judges,  39- 
+
+Luke,  29,  39,  80,  81. 
+
+Mark,  35. 
+
+Matthew,  29,  30,  53,  60,  66, 
+
+77,  80,  83,  84. 
+Numbers,  87. 
+I  Peter,  83. 
+Philemon,  35. 
+
+
+Philippians,  35. 
+Psalms,  37,  38,  86. 
+Revelation,  86. 
+Romans,  30,  35,  53 ,  68,  83. 
+
+I  Thessalonians,  52,  83. 
+
+II  Thessalonians,  47. 
+
+I  Timothy,  35,  56. 
+
+II  Timothy,  36,  55,  79,  83. 
+Titus,  45. 
+
+Binterim,  A.  J.,  12. 
+Bohmer,  J.  F.,  63,  89,  90. 
+BonneU,  H.  E.,  64,  82. 
+
+Capitular  e  Suessionense,  72,  73. 
+Cassianus,  Joannes,  34. 
+Cicero,  83. 
+
+DuCange,  47. 
+Durand,  Ursin,  16. 
+
+Ebert,  Adolf,  12. 
+Ebrard,  August,  71. 
+Eigil,  n,  81,  88,  89,  90. 
+Eugippius,  29. 
+
+Festgabe  zum  Bonifatius-Jubi- 
+
+laum  1905,  79,  86. 
+Forschungen  zur  deutschen  Ge- 
+
+schichte,  44. 
+
+
+105 
+
+
+io6 
+
+
+INDEX  OF  AUTHORS 
+
+
+Gaisford,  Thomas,  13. 
+
+Giles,  J.  A.,  13,  16. 
+
+Giry,  Arthur,  50. 
+
+Gregory  the  Great,  25,  34,  45, 
+
+54- 
+
+Hauck,  Albert,  u,  78. 
+Hofmann,  G.  D.,  55. 
+
+Isidorus  Hispalensis,  13, 31, 32, 
+41,  62,  74. 
+
+Jaffe,  Philipp,  14,  32,  80. 
+Jerome,  Saint,  25. 
+
+Karlmanni  Capitular  e,  72. 
+Kiilb,  P.  H.,  12,64,82. 
+Kylie,  Edward,  16. 
+
+Levison,  Wilhelm,  17,  27,  32, 
+45,  54,  72,  73,  80,  83,  86,  99. 
+Lindsay,  W.  M.,  86. 
+Liudger,  55,  66. 
+
+Mai,  Angelo,  12. 
+Manitius,  Max,  13,  14,  17. 
+Martene,  Edmond,  16. 
+Martyr ologium  Fuldense,  83. 
+Migne,   J.   P.,   see   Patrologia 
+
+Latina. 
+Monumenta    Germaniae    His- 
+
+torica  : 
+
+Auctores  Antiquissimi,ix,  23. 
+Capitularia,  i,  72,  73,  89. 
+Epistolae     Merowingici     et 
+Karolini  Aevi,  ii,  15,  50. 
+See   S.  Bonifatii  et  Lulli 
+Epistolae. 
+Leges,  sect,  v,  50. 
+
+
+Poetae  Latini  Aevi  Carolini, 
+i,  13,  14,  92. 
+
+Scriptores,  ii,  81.    See  Eigil. 
+
+Scriptores,  xv,  i,  12,  56,  77. 
+See  Liudger,   Vita  Willi- 
+baldi,  Vita  Wynnebaldi. 
+Miihlbacher,  Engelbert,  63,  89, 
+
+90. 
+
+Niirnberger,  August,  12. 
+
+Nun  of  Heidenheim,  the,  see 
+Vita  Willibaldi,  Vita  Wynne 
+baldi. 
+
+Otloh,  1 8,  63,  64,  82. 
+
+Patrologia  Latina,  16,  25,  34, 
+
+45- 
+
+Poenitentiale  S.  Bonifacii,  12. 
+Programm  des  konigl.  kathol- 
+
+ischen  Gymnasiums  zuNeisse, 
+
+12. 
+
+Rettberg,  F.  W.,  12,  61,  78. 
+Rheinisches  Museum,  13. 
+Richter,  Gregor,  79. 
+Roth,  Paul,  49. 
+Rousseau,  J.  B.,  18. 
+Rufinus,  25. 
+
+S.  Bonifatii  et  Lulli  Epistolae, 
+n,  13,  14,  15,  16,  33,  41,  50, 
+51,  52,  61,  62,  63,  67,  71,  72, 
+
+73,  76,  77,  78,  79,  90- 
+Scherer,  Carl,  86. 
+Schmitz,  H.  J.,  12. 
+Scott,  82. 
+Scriptores     Rerum     Germani- 
+
+carum,  77. 
+
+
+INDEX  OF  AUTHORS 
+
+
+107 
+
+
+Selwyn,  William,  33,  56. 
+Serarius,  Nicolaus,  12,  14. 
+Silius  Italicus,  83. 
+Simson,  B.  E.,  82. 
+Smith,  I.  G.,  16. 
+Soetbeer,  Adolf,  44. 
+Symmachus,  Pope,  50. 
+
+
+Tangl,  Michael,  89,  90,  91. 
+Trithemius,  Joannes,  19. 
+
+
+Victorius  Aquitanus,  23. 
+Vita  Willibaldi,  77. 
+Vita  Wynnebaldi,  n. 
+
+Wasserschleben,  F.  W.  H.,  12. 
+Wattenbach,  Wilhelm,  12,  17. 
+Wilmanns,  August,  13. 
+
+Zeitschrift  des  Vereins  fur  hess- 
+ische  Geschichte  und  Landes- 
+kunde,  89. 
+
+
+GENERAL  INDEX 
+
+
+Abba,  Prankish  count,  93. 
+Adalharius  (Ethelhere) ,  83 ,  n.  i . 
+Ad-Escancastre  (Exeter),  30. 
+Aelmere  (the  Zuyder  Zee),  80, 
+
+88. 
+
+Aethelbald,  king  of  Mercia,  15. 
+Aldebert,  Gallic  pseudo-saint, 
+
+72  f. 
+
+Aldhelm,  15. 
+Alps,  the,  49,  51,  58. 
+Altsaxones,  62,  n.  2. 
+Amanaburch  (Amoneburg),  56, 
+
+57,  68. 
+
+Anacletus  (Anicetus),  25. 
+Ananias,  61,  n.  3. 
+Ancients,  the  (the  old  Saxons), 
+
+30,  4i- 
+Angles,  43. 
+Anointing  of  Pippin,  the,  77, 
+
+n.  o. 
+
+Arianism,  74. 
+Auguries,  63. 
+
+Augustine,  Saint,  72,  n.  4. 
+Auspices,  63. 
+
+Barbarians,  55. 
+
+Bavarians,  the,  51,  68,  70,  71, 
+
+77- 
+
+Bee,  simile  of  the,  51  f. 
+Bell,  miracle  of  the,  88  f . 
+Benedict,  Saint,  of  Nursia,  34. 
+Beorwald,  abbot  of  Glaston- 
+
+bury,  41. 
+
+
+Berehthere,  opponent  of  Boni 
+face,  65. 
+
+Bertwald,  archbishop  of  Can 
+terbury  (692-731),  41  f. 
+
+Bibrantibus,  82,  n.  3. 
+
+Boniface,  Saint,  n,  24,  25. 
+name  of,  47,  61. 
+writings  of,  1 2-1 6. 
+Life  of,  by  Willibald,  17,  23- 
+
+93- 
+
+later  lives,  17  f. 
+modern    literature    relative 
+
+to,  18  f . 
+importance  and  character  of 
+
+his  work,  19  f. 
+his  mother,  27. 
+his  father,  27-30. 
+early  desire  for  the  monastic 
+
+life,  27-30. 
+enters    the    monastery    at 
+
+Exeter,  30. 
+early  studies,  31  f. 
+overcomes   the  passions  of 
+
+youth,  32. 
+
+removes  to  Nhutscelle,  33. 
+great  learning  of,  33  f . 
+gains  fame  as  teacher  and 
+
+preacher,  34-38. 
+ordained  priest,  38  f. 
+abstinence  of,  39. 
+embassy  to  Canterbury,  40  ff. 
+first  missionary  journey  to 
+
+Frisia,  42-45- 
+
+
+109 
+
+
+no 
+
+
+GENERAL  INDEX 
+
+
+Boniface,  again  at  NhutsceUe 
+
+46  f. 
+
+first  journey  to  Rome,  47-51 
+labors  in  Thuringia,  52,  64  ff 
+
+69,  77- 
+aids  Willibrord  in  Frisia,  52 
+
+56. 
+converts     many     Hessians 
+
+57f.,62ff. 
+second  journey  to  Rome,  58- 
+
+62. 
+
+ordination  as  bishop,  60  ff. 
+under     the    protection     o 
+
+Charles  Martel,  62. 
+fells  the  sacred  oak,  63  f. 
+receives  reinforcements  from 
+
+England,  66  f . 
+made  archbishop,  67. 
+builds  churches,  68. 
+inspects       the       Bavarian 
+
+churches,  68. 
+
+third  journey  to  Rome,  69  f . 
+attacks  schismatics  in  Ba 
+varia,  68,  70  f. 
+ordains  bishops,  71,  77,  78. 
+at  the  Prankish  church  coun 
+cils,  71-76. 
+conflict  with  Aldebert  and 
+
+Clemens,  72  f. 
+
+appoints  Lul  his  successor 
+
+in  the  see  of  Mayence,  78. 
+
+his  final  missionary  work  in 
+
+Frisia,  78-82. 
+the  martyrdom,  82  ff. 
+the  sepulture,  87-90. 
+miracles  following  his  death, 
+
+90-93- 
+
+Bordne  (Boorn),  river,  82. 
+Bosa,  deacon,  81. 
+
+
+Britain,  24,  66,  70. 
+Bugga,  abbess,  16. 
+Burchard,  bishop  of  Wiirzburg, 
+
+77- 
+
+Burgundians,  the,  58. 
+Bynna,  messenger,  58. 
+
+Caesarius,  bishop  of  Aries,  50, 
+n.  2. 
+
+Canterbury,  41. 
+
+Carloman,  duke  of  Austrasia 
+(741-47),  7i,  72,  73,  74,  76, 
+77- 
+
+Ceillier,  Remy,  16. 
+
+Celtic  missionaries  in  Ger 
+many,  70,  n.  4. 
+
+Chalcedon,  Council  of  (451), 
+75- 
+
+Charles  Martel,  Frankish  may 
+or  of  the  palace  and  duke  of 
+Austrasia,  44,  53,  62,  71. 
+
+Clemens,  expelled  from  the 
+church  by  Boniface,  72  f. 
+
+Bodices  Bonifatiani,  86,  n.  2. 
+
+Confession  of  faith,  59. 
+
+Constantine  the  Great,  Roman 
+emperor,  74. 
+
+Constantinople,     Council     of 
+
+(38i),  74  f- 
+
+Councils,  ecclesiastical,  40  f., 
+71  f.,  74  ff-,  77  I-,  89,  n.  2. 
+
+Crimean  War,  the,  18,  n.  i. 
+Crooked  serpent,  the,  76. 
+
+'uent  (Canche)  river,  49. 
+
+luentawich,  49. 
+
+)anes,  the,  43,  n.  4. 
+)aniel,  bishop  of  Winchester 
+(705-45),  16,  47,  48. 
+
+
+GENERAL  INDEX 
+
+
+in 
+
+
+Deorulf,  German  chief,  57. 
+Dettic,  German  chief,  57. 
+Deuteronomy,  Book  of,  72,  n.  4. 
+Dionysius  Exiguus,  61,  n.  2. 
+Dioscurus,     excommunicated, 
+
+75- 
+
+Divinations,  63. 
+Donatus,  13. 
+Dorstet,  city,  43. 
+Dudd,  abbot,  14,  16. 
+Diimmler,  Ernst,  13,  15. 
+
+Eadburga,  abbess,  16. 
+
+Eanbercht,  opponent  of  Boni 
+face,  65. 
+
+East  Franks,  the,  77. 
+
+Ebert,  Adolf,  18. 
+
+Eigil,  ii. 
+
+England,  18. 
+
+Eoba  (Eobanus),  assistant  to 
+Boniface,  81,  83,  n.  i. 
+
+Ephesus,  Council  of  (431),  75. 
+
+Episcopi  suburbicarii,  61,  n.  3. 
+
+Epistola  for mata,  50,  n.  3. 
+
+Erembert,  bishop  of  Freising, 
+
+71- 
+
+Eremvulf,  schismatic,  68. 
+
+Ethelhere,  priest,  81,  83,  n.  i. 
+
+Eusebius  of  Caesarea,  25. 
+
+Eutyches,  abbot  of  Constanti 
+nople,  excommunicated,  75. 
+
+Exempla  mrtutis,  12,  n.  i. 
+
+Exeter,  see  Ad-Escancastre. 
+
+Fountain,  miracle  of  the,  92  f . 
+
+Francia,  52,  75. 
+
+Franks,  the,  44,  58,  62,  70,  72, 
+
+77- 
+Freising,  71. 
+
+
+Frideslare    (Fritzlar),    church 
+
+and  monastery  at,  68. 
+Frisia,  44,  52,  8o;  81,  93. 
+Frisians,  the,  44,  45,  52,  53,  57, 
+
+80,  81,  n.  3,  92. 
+
+Fulda,  abbey,  n,  18,  81,  n.  3. 
+cathedral  of,   79,  86,  n.   i, 
+
+90,  n.  i. 
+Fulda,  river,  88. 
+
+Gaesmere  (Geismar),  felling  of 
+
+the  sacred  oak  at,  63  f. 
+Gaibald,  bishop  of  Ratisbon, 
+
+Gaul,  24. 
+
+Germany,  14, 18,  24,  51,  55,  57, 
+
+81,  n.  3. 
+
+Giles,  John  Allen,  13,  16. 
+Glestingaburg    (Glastonbury), 
+
+monastery,  41. 
+Gregory   I,   the   Great,   pope 
+
+(590-604),  25,  72,  n.  4. 
+Gregory  II,  pope  (715-31), 
+
+49  #.,  55,  58,  59-62,  67,  74. 
+Gregory   III,   pope    (731-41), 
+
+67  f.,  69  f.,  71,  n.  2,  74. 
+Gregory,  disciple  of  Boniface, 
+
+ii,  55,  n.  4- 
+Gundaecer,  monk,  81. 
+
+Hadda,  monk,  88. 
+Haegsted  (Eichstatt),  77. 
+Hamanaburch,  68.    See  Aman- 
+
+aburch. 
+
+Hamund,  deacon,  81. 
+Hathovulf,  monk,  81. 
+Hauck,  Albert,  18. 
+Heathen,  Heathens,  see  Pagans. 
+Heden,  Thuringian  chief,  65. 
+
+
+112 
+
+
+GENERAL  INDEX 
+
+
+Hegesippus,  25. 
+
+Heretics,  74  f . 
+in  Thuringia,  52,  65. 
+in  Bavaria,  68,  70. 
+among  the  Franks,  72  f. 
+early  Celtic  missionaries  in 
+Germany,  70,  n.  4. 
+
+Hessians,  the,  57,  62  ff.,  67,  69. 
+
+Hilary,  Roman  archdeacon,  23, 
+n.  i. 
+
+Hugobert,    duke    of   the    Ba 
+varians,  68. 
+
+Hunraed,   opponent  of  Boni 
+face,  65. 
+
+lar,  month,  51. 
+
+Illehere,  monk,  81. 
+
+Incantations,  63. 
+
+Ine,  king  of  the  West  Saxons 
+
+(688-725),  40  ff. 
+Infula,  41,  n.  5. 
+Isidore  of  Seville,  13. 
+Italy,  51,  58,  70. 
+Itinerant   preaching,    practice 
+
+of,  28. 
+
+Jaffe,  Philipp,  14. 
+Jerome,  Saint,  72,  n.  4. 
+John,  bishop  of  Salzburg,  71. 
+
+Kent,  41. 
+
+Kylie,  Edward,  16. 
+
+Lateran,  the,  59. 
+Legerdemain,  63. 
+Levison,  Wilhelm,  17. 
+Liutprand,  king  of  the  Lom 
+bards  (712-44),  5i>  70- 
+Lombards,  the,  49,  51,  70. 
+
+
+Lul,  successor  of  Boniface  in 
+the  bishopric  of  Mayence, 
+15,  17,  23,  78,  79  f.,  88,  89, 
+92. 
+
+Lundenwich  (London),  43,  48. 
+
+
+Macedonius,  condemned,  75. 
+Magontia  (Mayence),  city,  74, 
+
+88,  89. 
+
+Mai,  Angelo,  12. 
+Manitius,  Max,  18. 
+Megingoz,    bishop    of    Wlirz- 
+
+burg,  17,  23. 
+Migne,  J.  A.,  16. 
+Milites,  49,  n.  3. 
+Miracles,  88  f.,  90  f.,  92  f. 
+
+Nestorius,      excommunicated, 
+
+75- 
+
+Nhutscelle     (Nursling,     Nut- 
+shalling),  monastery,  13,  33, 
+
+41. 
+
+Nice,  Council  of  (325),  74. 
+Nisan,  month,  51. 
+Nithard,  14,  16. 
+Nun  of  Heidenheim,  the,  u. 
+
+
+Oak  of  Jupiter,  the,  63  f  . 
+Odilo,  duke  of  the  Bavarians, 
+
+70  f. 
+
+Oilpress,  simile  of  the,  23  f. 
+Orthorpf  (Ohrdruf),  monastery 
+
+at,  66. 
+Ostoraeche,  district  in  Frisia, 
+
+82. 
+Otloh,  monk  of  St.  Emmeram, 
+
+17  f. 
+
+
+GENERAL  INDEX 
+
+
+Pagans,  19  f.,  32,  n.  i,  57,  66, 
+n.  2. 
+
+in  Frisia,  44,  52  f.,  80-87. 
+
+Hessians,  57  f.,  63  f.,  67. 
+
+Thuringians,  65,  67. 
+
+slaughter  Boniface  and  his 
+companions,  82  ff. 
+
+quarrel  over  the  booty,  84  ff. 
+
+chastised,  86  f . 
+
+heathen  practices,  16,  63. 
+Pamphilus,  25. 
+Pilgrims'  lodge,  the,  at  Rome, 
+
+59- 
+
+Pippin,  duke  of  Neustria  (from 
+741),  of  Austrasia  (from  747), 
+king  of  the  Franks  (751-68), 
+7i,  72,  73,  77  f«,  88,  89,  n.  2, 
+92,  93- 
+
+Plebis,  47,  n.  4,  62,  n.  2. 
+
+Potthast,  August,  18. 
+
+Radbod,  king  of  the  Frisians, 
+
+44,  52,  53- 
+
+Regina  (Ratisbon),  71. 
+Rettberg,  F.  W.,  18. 
+Rhine,  the,  53,  n.  i,  80,  89,  n.  i. 
+Romans,  69. 
+
+Rome,  19,  25,  47,  58,  67,  69. 
+Rousseau,  Johann  Baptist,  18. 
+Ruthard,    fictitious    monk    of 
+
+Hirschau,  19. 
+
+Sacrificial  rites,  63. 
+
+Saint  Michael,  church  of,  at 
+
+Hamanaburch,  68. 
+Saint    Peter,    church    of,    at 
+
+Frideslare,  68. 
+Saint    Peter,    church    of,    at 
+
+Rome,  49,  59. 
+
+
+Saint    Peter,    oratory    of,    at 
+
+Gaesmere,  64. 
+Salzburch  (Salzburg),  71. 
+Sapphira,  61,  n.  3. 
+Saxons,  of  England,  43,  70. 
+Saxons,  people  of  Germany,  57, 
+
+65>  77- 
+
+Schismatics,  see  Heretics. 
+Scirbald,  deacon,  81. 
+Scythia,  14. 
+Selwyn,  William,  18. 
+Serarius,  Nicolaus,  14. 
+'  Seron,'  13,  n.  6. 
+Sevenfold  spirit,  the,  62. 
+Slaves,  38. 
+Slavs,  14,  77. 
+
+Smith,  Isaac  Gregory,  16,  18. 
+Soissons,  77,  n.  9. 
+Soldiers,  the,  49,  58. 
+Springs,  sacrifices  to,  63. 
+Stephen  II,  pope  (752-57),  62, 
+
+n.  i,  89,  n.  2. 
+Stephen,  successor  of  Winbert, 
+
+48. 
+Sturmi,  abbot  of  Fulda,  n. 
+
+Theodosius  I,  the  Great,  Ro 
+man  emperor,  75. 
+
+Theodosius  II,  emperor  of  the 
+East  (408-50),  75. 
+
+Theotbald,   Thuringian   chief, 
+
+65- 
+Thuringia,  51,  52,  64  f.,  67,  69, 
+
+79- 
+
+Thuringi  Christiani,  62,  n.  2. 
+
+Ticena  (Pavia),  70. 
+
+Tides,  the,  92. 
+
+Torchtwine,  opponent  of  Boni 
+face,  65. 
+
+
+GENERAL  INDEX 
+
+
+Trecht  (Utrecht),  city,  44,  81, 
+88  f. 
+
+Trees,  sacrifices  to,  63. 
+
+Trithemius,  Joannes,  19. 
+
+Turkey,  18,  n.  i. 
+
+Tuscany,  24. 
+
+Tyssesburg  (Tisbury),  monas 
+tery,  41. 
+
+Uncultivated  fields,  metaphor 
+
+of  the,  51. 
+Utrecht,  see  Trecht. 
+
+Victims,  inspection  of,  63. 
+Vivilo,  bishop  of  Passau,  71, 
+
+n.  2. 
+Voyages,  43,  46,  48  f. 
+
+on  the  Rhine,  53,  80,  88,  89. 
+
+on  Aelmere,  80,  87  f. 
+
+Wacchar,  monk,  81. 
+Waldburga,  abbess  of  Heiden- 
+
+heim,  n,  n.  i. 
+Walthere,  priest,  81. 
+
+
+Westeraeche,  district  in  Frisia, 
+
+82. 
+Willibald,  author  of  the  Life  of 
+
+Boniface,  n,  17. 
+Willibald,  bishop  of  Eichstatt, 
+
+"»  77- 
+Willibrord,  English  missionary, 
+
+'apostle    of    the    Frisians,' 
+
+53  ff- 
+Winbert,  abbot  of  Nhutscelle, 
+
+33,  41,  42  f.,  46. 
+Wintra,  abbot  of  Tisbury,  41. 
+Wintrung,  priest,  81. 
+Wirzaburch  (Wiirzburg),  77. 
+World,  nature  of  the,  76. 
+Wulfhard,  abbot  of  Ad-Escan- 
+
+castre,  30,  32. 
+Wynnebald,  abbot  of  Heiden- 
+
+heim,  n. 
+
+Yeomen,  38. 
+
+Zacharias,  pope  (741-52),  14, 
+16,  62,  n.  i,  76,  n.  i. 
+
+
+6  - 
+
+
+UNIVERSITY  OF  TORONTO 
+LIBRARY 
+
+
+Acme    Library   Card    Pocket 
+
+Under  Pat.  "  Ref.  Index  File." 
+Made  by  LIBRAKT  BUKEAU 
+
+

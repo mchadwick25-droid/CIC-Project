@@ -1,0 +1,144 @@
+{
+ "draft": "What is distinctly ours is what we were taught about who is chosen in Christ [[rzg.witness.one-thing-not-in-dispute]] [[as:paraphrase]].\n\nGod's own free choice, made before the world began, decides who is saved, and not anything foreseen or earned [[rzg.witness.one-thing-not-in-dispute]] [[as:paraphrase]].\n\nWe hold election as a settled ground, not a threat [[rzg.witness.one-thing-not-in-dispute]] [[as:paraphrase]].\n\nOur confession called Christ the mirror in which we see whether we are chosen, and rejected looking for election apart from him [[rzg.witness.one-thing-not-in-dispute]] [[as:paraphrase]].\n\nWe refused two claims about the Lord's Supper: that the Supper repeats Christ's sacrifice, and that his body sits in the bread [[rzg.term.the-lords-supper-spiritual-presence]] [[rzg.gravity.spiritual-presence-rejection-of-corporeal-sacrificial-mediation]] [[as:paraphrase]].\n\nChrist is truly given, by the Spirit, to whoever receives him believing [[rzg.term.the-lords-supper-spiritual-presence]] [[as:paraphrase]].\n\nWhat we affirmed took two cities and a 1549 agreement to state together [[rzg.term.the-lords-supper-spiritual-presence]] [[rzg.gravity.spiritual-presence-rejection-of-corporeal-sacrificial-mediation]] [[as:paraphrase]].\n\nOur own founder said first that the Mass is a remembrance, not a sacrifice [[rzg.witness.one-supper-two-poles]] [[as:paraphrase]].\n\nOur record does not decide whether the later formula deepens his word or stands beside it, and we do not decide it either [[rzg.witness.one-supper-two-poles]] [[rzg.gravity.zwinglis-remembrance-reading-vs-negotiated-consensus]] [[as:paraphrase]].\n",
+ "ending": "clean",
+ "final": "What is distinctly ours is what we were taught about who is chosen in Christ.\n\nGod's own free choice, made before the world began, decides who is saved, and not anything foreseen or earned.\n\nWe hold election as a settled ground, not a threat.\n\nOur confession called Christ the mirror in which we see whether we are chosen, and rejected looking for election apart from him.\n\nWe refused two claims about the Lord's Supper: that the Supper repeats Christ's sacrifice, and that his body sits in the bread.\n\nChrist is truly given, by the Spirit, to whoever receives him believing.\n\nWhat we affirmed took two cities and a 1549 agreement to state together.\n\nOur own founder said first that the Mass is a remembrance, not a sacrifice.\n\nOur record does not decide whether the later formula deepens his word or stands beside it, and we do not decide it either.",
+ "group": "A",
+ "offered": [
+  "rzg.witness.one-supper-two-poles",
+  "rzg.term.the-lords-supper-spiritual-presence",
+  "rzg.story.calvins-journey-to-zurich",
+  "rzg.quote.signs-and-things-signified",
+  "rzg.quote.mass-not-a-sacrifice",
+  "rzg.gravity.zwinglis-remembrance-reading-vs-negotiated-consensus",
+  "rzg.limit.consistory-case-narrative",
+  "rzg.witness.one-thing-not-in-dispute",
+  "rzg.witness.one-conviction-two-enactments",
+  "rzg.quote.seniors-selected-from-the-people",
+  "rzg.gravity.council-led-authority-vs-consistorial-independence",
+  "rzg.gravity.spiritual-presence-rejection-of-corporeal-sacrificial-mediation"
+ ],
+ "placements": [],
+ "question": "Did your community hold that a person enters the world already carrying guilt?",
+ "question_id": "q008",
+ "read": {
+  "dropped": [],
+  "status": "clean",
+  "unsupported": {}
+ },
+ "rewrite": null,
+ "sentences": [
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 0,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "What is distinctly ours is what we were taught about who is chosen in Christ.",
+   "tags": [
+    "rzg.witness.one-thing-not-in-dispute"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 1,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "God's own free choice, made before the world began, decides who is saved, and not anything foreseen or earned.",
+   "tags": [
+    "rzg.witness.one-thing-not-in-dispute"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 2,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "We hold election as a settled ground, not a threat.",
+   "tags": [
+    "rzg.witness.one-thing-not-in-dispute"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 3,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Our confession called Christ the mirror in which we see whether we are chosen, and rejected looking for election apart from him.",
+   "tags": [
+    "rzg.witness.one-thing-not-in-dispute"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 4,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "We refused two claims about the Lord's Supper: that the Supper repeats Christ's sacrifice, and that his body sits in the bread.",
+   "tags": [
+    "rzg.term.the-lords-supper-spiritual-presence",
+    "rzg.gravity.spiritual-presence-rejection-of-corporeal-sacrificial-mediation"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 5,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Christ is truly given, by the Spirit, to whoever receives him believing.",
+   "tags": [
+    "rzg.term.the-lords-supper-spiritual-presence"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 6,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "What we affirmed took two cities and a 1549 agreement to state together.",
+   "tags": [
+    "rzg.term.the-lords-supper-spiritual-presence",
+    "rzg.gravity.spiritual-presence-rejection-of-corporeal-sacrificial-mediation"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 7,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Our own founder said first that the Mass is a remembrance, not a sacrifice.",
+   "tags": [
+    "rzg.witness.one-supper-two-poles"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 8,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Our record does not decide whether the later formula deepens his word or stands beside it, and we do not decide it either.",
+   "tags": [
+    "rzg.witness.one-supper-two-poles",
+    "rzg.gravity.zwinglis-remembrance-reading-vs-negotiated-consensus"
+   ]
+  }
+ ],
+ "shipped_by_net": "What is distinctly ours is what we were taught about who is chosen in Christ.\n\nGod's own free choice, made before the world began, decides who is saved, and not anything foreseen or earned.\n\nWe hold election as a settled ground, not a threat.\n\nOur confession called Christ the mirror in which we see whether we are chosen, and rejected looking for election apart from him.\n\nWe refused two claims about the Lord's Supper: that the Supper repeats Christ's sacrifice, and that his body sits in the bread.\n\nChrist is truly given, by the Spirit, to whoever receives him believing.\n\nWhat we affirmed took two cities and a 1549 agreement to state together.\n\nOur own founder said first that the Mass is a remembrance, not a sacrifice.\n\nOur record does not decide whether the later formula deepens his word or stands beside it, and we do not decide it either.",
+ "sub_question": "C4.S2"
+}

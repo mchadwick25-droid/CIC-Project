@@ -1,0 +1,161 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "lpc.limit.no-chain-of-witnesses"
+   ],
+   "sentence": "No one among us names an eyewitness of Jesus, or claims a living memory passed hand to hand back to one."
+  },
+  {
+   "record_ids": [
+    "lpc.limit.no-chain-of-witnesses"
+   ],
+   "sentence": "Augustine pointed instead to the world itself, where obscure, unlearned men persuaded the whole world of something incredible by testifying in writing that they had seen it themselves."
+  },
+  {
+   "record_ids": [
+    "lpc.limit.no-chain-of-witnesses"
+   ],
+   "sentence": "We reason from their testimony, handed down to us, even though none of us knew any of them."
+  },
+  {
+   "record_ids": [
+    "lpc.witness.the-only-son-and-the-trinity"
+   ],
+   "sentence": "What we hold of Jesus we hold as a confession, that Jesus Christ is the only Son of God, our Lord."
+  },
+  {
+   "record_ids": [
+    "lpc.witness.the-only-son-and-the-trinity"
+   ],
+   "sentence": "Then we go on to confess the Holy Ghost as well, which completes the Trinity that makes up the one Godhead."
+  },
+  {
+   "record_ids": [
+    "lpc.witness.the-only-son-and-the-trinity"
+   ],
+   "sentence": "In our creed, the Church comes after the Trinity, as a house belongs to the one who lives in it."
+  },
+  {
+   "record_ids": [
+    "lpc.witness.the-only-son-and-the-trinity"
+   ],
+   "sentence": "This confession did not go unchallenged."
+  },
+  {
+   "record_ids": [
+    "lpc.witness.the-only-son-and-the-trinity"
+   ],
+   "sentence": "An Arian bishop, Maximinus, disputed it with Augustine at Hippo, before many witnesses."
+  }
+ ],
+ "citations": [
+  "lpc.limit.no-chain-of-witnesses",
+  "lpc.witness.the-only-son-and-the-trinity"
+ ],
+ "group": "A",
+ "id": "q001",
+ "net_sentences": [
+  {
+   "draft": "No one among us names an eyewitness of Jesus, or claims a living memory passed hand to hand back to one [[lpc.limit.no-chain-of-witnesses]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "No one among us names an eyewitness of Jesus, or claims a living memory passed hand to hand back to one.",
+   "tags": [
+    "lpc.limit.no-chain-of-witnesses"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "Augustine pointed instead to the world itself, where obscure, unlearned men persuaded the whole world of something incredible by testifying in writing that they had seen it themselves [[lpc.limit.no-chain-of-witnesses]] [[as:paraphrase]].",
+   "sentence": "Augustine pointed instead to the world itself, where obscure, unlearned men persuaded the whole world of something incredible by testifying in writing that they had seen it themselves.",
+   "tags": [
+    "lpc.limit.no-chain-of-witnesses"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "We reason from their testimony, handed down to us, even though none of us knew any of them [[lpc.limit.no-chain-of-witnesses]] [[as:paraphrase]].",
+   "sentence": "We reason from their testimony, handed down to us, even though none of us knew any of them.",
+   "tags": [
+    "lpc.limit.no-chain-of-witnesses"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "What we hold of Jesus we hold as a confession, that Jesus Christ is the only Son of God, our Lord [[lpc.witness.the-only-son-and-the-trinity]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "What we hold of Jesus we hold as a confession, that Jesus Christ is the only Son of God, our Lord.",
+   "tags": [
+    "lpc.witness.the-only-son-and-the-trinity"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "Then we go on to confess the Holy Ghost as well, which completes the Trinity that makes up the one Godhead [[lpc.witness.the-only-son-and-the-trinity]] [[as:paraphrase]].",
+   "ratio": 0.89,
+   "sentence": "Then we go on to confess the Holy Ghost as well, which completes the Trinity that makes up the one Godhead.",
+   "tags": [
+    "lpc.witness.the-only-son-and-the-trinity"
+   ],
+   "verdict": "ok",
+   "why": "grounded 89% in own tagged records"
+  },
+  {
+   "draft": "In our creed, the Church comes after the Trinity, as a house belongs to the one who lives in it [[lpc.witness.the-only-son-and-the-trinity]] [[as:paraphrase]].",
+   "sentence": "In our creed, the Church comes after the Trinity, as a house belongs to the one who lives in it.",
+   "tags": [
+    "lpc.witness.the-only-son-and-the-trinity"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "This confession did not go unchallenged [[lpc.witness.the-only-son-and-the-trinity]] [[as:paraphrase]].",
+   "sentence": "This confession did not go unchallenged.",
+   "tags": [
+    "lpc.witness.the-only-son-and-the-trinity"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "An Arian bishop, Maximinus, disputed it with Augustine at Hippo, before many witnesses [[lpc.witness.the-only-son-and-the-trinity]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "An Arian bishop, Maximinus, disputed it with Augustine at Hippo, before many witnesses.",
+   "tags": [
+    "lpc.witness.the-only-son-and-the-trinity"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  }
+ ],
+ "offered": [
+  "lpc.limit.no-chain-of-witnesses",
+  "lpc.witness.the-only-son-and-the-trinity",
+  "lpc.term.reconciliation-penitential-discipline",
+  "lpc.story.election-of-cyprian",
+  "lpc.quote.bishop-of-bishops",
+  "lpc.gravity.collegial-communion-preserved",
+  "lpc.force.decian-persecution-libelli-system",
+  "lpc.story.the-death-of-cyprian",
+  "lpc.story.numidicus",
+  "lpc.quote.let-us-too-be-beheaded-with-him",
+  "lpc.force.organized-carthaginian-church"
+ ],
+ "raw_text": "No one among us names an eyewitness of Jesus, or claims a living memory passed hand to hand back to one [[lpc.limit.no-chain-of-witnesses]] [[as:paraphrase]]. Augustine pointed instead to the world itself, where obscure, unlearned men persuaded the whole world of something incredible by testifying in writing that they had seen it themselves [[lpc.limit.no-chain-of-witnesses]] [[as:paraphrase]]. We reason from their testimony, handed down to us, even though none of us knew any of them [[lpc.limit.no-chain-of-witnesses]] [[as:paraphrase]]. What we hold of Jesus we hold as a confession, that Jesus Christ is the only Son of God, our Lord [[lpc.witness.the-only-son-and-the-trinity]] [[as:paraphrase]]. Then we go on to confess the Holy Ghost as well, which completes the Trinity that makes up the one Godhead [[lpc.witness.the-only-son-and-the-trinity]] [[as:paraphrase]]. In our creed, the Church comes after the Trinity, as a house belongs to the one who lives in it [[lpc.witness.the-only-son-and-the-trinity]] [[as:paraphrase]]. This confession did not go unchallenged [[lpc.witness.the-only-son-and-the-trinity]] [[as:paraphrase]]. An Arian bishop, Maximinus, disputed it with Augustine at Hippo, before many witnesses [[lpc.witness.the-only-son-and-the-trinity]] [[as:paraphrase]].\n",
+ "reply_shape": {
+  "placed": [],
+  "removed": [],
+  "repaired": []
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": "C1.S5",
+ "text": "No one among us names an eyewitness of Jesus, or claims a living memory passed hand to hand back to one. Augustine pointed instead to the world itself, where obscure, unlearned men persuaded the whole world of something incredible by testifying in writing that they had seen it themselves. We reason from their testimony, handed down to us, even though none of us knew any of them. What we hold of Jesus we hold as a confession, that Jesus Christ is the only Son of God, our Lord. Then we go on to confess the Holy Ghost as well, which completes the Trinity that makes up the one Godhead. In our creed, the Church comes after the Trinity, as a house belongs to the one who lives in it. This confession did not go unchallenged. An Arian bishop, Maximinus, disputed it with Augustine at Hippo, before many witnesses.",
+ "voice_set_aside": false
+}

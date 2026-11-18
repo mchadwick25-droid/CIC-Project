@@ -15,7 +15,7 @@ confidence:
   divergence_note: null
 sources:
 - source_id: ijc.source.ammianus-marcellinus
-  locus: "Res Gestae XXVII.3.12-13"
+  locus: "Res Gestae XXVII.3.12-13 (cic/texts/ammianus-marcellinus_roman-history_yonge1862.txt, lines 23176-23189)"
   license: public-domain
 text: 'Damasus and Ursinus, being both immoderately eager to obtain the bishopric, formed parties and
   carried on the conflict with great asperity, the partisans of each carrying their violence to actual

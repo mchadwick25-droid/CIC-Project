@@ -38,7 +38,7 @@ nearest_material:
 retrieval:
   tier: 2
   retrieve_when:
-  - "participant asks whether you baptised babies, infants or children, or only adults"
+  - "participant asks whether you baptized babies, infants or children, or only adults"
   - "participant asks whether you baptise or baptize babies, infants and children, or only adults"
 relations:
 - type: associated-with

@@ -49,7 +49,8 @@ sources:
     a full sweep, scoped to its own thirteen works, returns 1,798 raw / 1,665 markup-stripped occurrences
     of 'grace' -- by a wide margin the highest raw-frequency count of any term in this lexicon; On the
     Proceedings of Pelagius 34 -- 'we certainly do not deserve by any faith that we should have faith
-    itself'
+    itself'; verified directly against cic/texts/npnf105_augustine-anti-pelagian-writings.xml, lines
+    10082-10082
   license: public-domain
 retrieval:
   tier: 1
@@ -104,6 +105,12 @@ senses:
     the priority of divine action over human capacity, argued against a named opponent over roughly a
     decade, with direct consequences for how a congregation is taught, how failure is handled, and what
     a pastor can reasonably ask of anyone.
+  heard_today: A modern listener is likely to hear grace as a warm general benevolence, or as 'grace
+    under pressure,' or as a denominational shibboleth they may already have an opinion about, and to
+    hear our anti-Pelagian position as harsh determinism.
+  meant_here: We mean a specific and contested claim about the priority of divine action over human
+    capacity, argued against a named opponent over roughly a decade, with direct consequences for how
+    a congregation is taught, how failure is handled, and what a pastor can reasonably ask of anyone.
 quick_meaning: 'For us, grace means this: no one''s own effort is ever enough. Whatever good a person
   does was given to them first.'
 ---

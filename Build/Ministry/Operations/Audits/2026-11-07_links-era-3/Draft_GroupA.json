@@ -1,0 +1,1543 @@
+{
+ "group": "A",
+ "dispositions": [
+  {
+   "movement": "cyrilline-miaphysite-egyptian-christianity",
+   "field": "relationsSummary",
+   "sentence": "Continues Alexandria + Desert; contested sibling of the Chalcedonian and Syriac Orthodox traditions",
+   "other_id": "alexandria-catechetical",
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 1,
+   "reason": "alexandria-catechetical is the catechetical school world (c. 150-400), not the see of Alexandria; no text shows this church continuing the school, and its own History condemns Origen's books (the existing coptic--alexandria-catechetical link). No link; sentence restated as continuing the see."
+  },
+  {
+   "movement": "cyrilline-miaphysite-egyptian-christianity",
+   "field": "relationsSummary",
+   "sentence": "Continues Alexandria + Desert; contested sibling of the Chalcedonian and Syriac Orthodox traditions",
+   "other_id": "desert-monasticism",
+   "disposition": "link",
+   "link_id": "desert-monasticism--cyrilline-miaphysite-egyptian-christianity",
+   "prose_change": 1,
+   "reason": "History of the Patriarchs places the patriarchs' letters and Benjamin's refuge in the Scetis monasteries; drafted as 'influenced' (era 2 does not name it)."
+  },
+  {
+   "movement": "cyrilline-miaphysite-egyptian-christianity",
+   "field": "relationsSummary",
+   "sentence": "Continues Alexandria + Desert; contested sibling of the Chalcedonian and Syriac Orthodox traditions",
+   "other_id": "byzantine-imperial-church-justinianic",
+   "disposition": "link",
+   "link_id": "byzantine-imperial-church-justinianic--cyrilline-miaphysite-egyptian-christianity",
+   "prose_change": 1,
+   "reason": "Existing broke-with link carries it (locus corrected, Miaphysite-side witness added); 'contested sibling' wording also restated."
+  },
+  {
+   "movement": "cyrilline-miaphysite-egyptian-christianity",
+   "field": "relationsSummary",
+   "sentence": "Continues Alexandria + Desert; contested sibling of the Chalcedonian and Syriac Orthodox traditions",
+   "other_id": "syriac-orthodox-west-syriac-christianity",
+   "disposition": "link",
+   "link_id": "cyrilline-miaphysite-egyptian-christianity--syriac-orthodox-west-syriac-christianity",
+   "prose_change": 1,
+   "reason": "The two churches shared one communion (Evagrius IV.4; History of the Patriarchs); 'contested sibling' restated. Contact link drafted; influence link also drafted."
+  },
+  {
+   "movement": "cyrilline-miaphysite-egyptian-christianity",
+   "field": "longDescription",
+   "sentence": "When the Council of Chalcedon defined Christ in 451 as one person known in two natures, the Egyptian church heard a betrayal of Cyril of Alexandria, its greatest teacher, and refused the council's wording.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Council, not a movement. Supported: Chalcedon's condemnation of Dioscorus (NPNF 2.14, 20082-20084) and the Egyptian petition in Evagrius II.8 (3675-3678)."
+  },
+  {
+   "movement": "cyrilline-miaphysite-egyptian-christianity",
+   "field": "longDescription",
+   "sentence": "When the Council of Chalcedon defined Christ in 451 as one person known in two natures, the Egyptian church heard a betrayal of Cyril of Alexandria, its greatest teacher, and refused the council's wording.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Person (d. 444). Supported in substance: Severus calls him 'Cyril the teacher of exact orthodoxy' (Select Letters VI part 2, line 8924); the History of the Patriarchs gives Cyril's letters at length (lines ~34688-34861). 'Greatest' is the church's own esteem, kept."
+  },
+  {
+   "movement": "cyrilline-miaphysite-egyptian-christianity",
+   "field": "longDescription",
+   "sentence": "Its patriarch Dioscorus was deposed at Chalcedon itself, and for the next two centuries Alexandria had two rival lines of bishops — one backed by Constantinople, one held by most Egyptians — with the Miaphysite line surviving deposition, exile and periodic imperial force.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Council, not a movement. Supported: NPNF 2.14, 20082-20084 ('you were deposed from the episcopate')."
+  },
+  {
+   "movement": "cyrilline-miaphysite-egyptian-christianity",
+   "field": "longDescription",
+   "sentence": "Its patriarch Dioscorus was deposed at Chalcedon itself, and for the next two centuries Alexandria had two rival lines of bishops — one backed by Constantinople, one held by most Egyptians — with the Miaphysite line surviving deposition, exile and periodic imperial force.",
+   "other_id": "byzantine-imperial-church-justinianic",
+   "disposition": "link",
+   "link_id": "byzantine-imperial-church-justinianic--cyrilline-miaphysite-egyptian-christianity",
+   "prose_change": null,
+   "reason": "Existing broke-with link carries the rival lines (Proterius in Evagrius II.8; Theodosius ejected, John of Ephesus IV.7)."
+  },
+  {
+   "movement": "cyrilline-miaphysite-egyptian-christianity",
+   "field": "longDescription",
+   "sentence": "It was carried by the monasteries of the Egyptian desert and increasingly in the Coptic language rather than Greek, and for two decades it sheltered Severus of Antioch, the exiled Syrian patriarch who became the movement's great theologian.",
+   "other_id": "desert-monasticism",
+   "disposition": "link",
+   "link_id": "desert-monasticism--cyrilline-miaphysite-egyptian-christianity",
+   "prose_change": null,
+   "reason": "New 'influenced' link from the desert entry, on the History of the Patriarchs (Peter Mongus's letters at the Monastery of Macarius; Benjamin in Wadi Habib)."
+  },
+  {
+   "movement": "cyrilline-miaphysite-egyptian-christianity",
+   "field": "longDescription",
+   "sentence": "It was carried by the monasteries of the Egyptian desert and increasingly in the Coptic language rather than Greek, and for two decades it sheltered Severus of Antioch, the exiled Syrian patriarch who became the movement's great theologian.",
+   "other_id": "syriac-orthodox-west-syriac-christianity",
+   "disposition": "link",
+   "link_id": "cyrilline-miaphysite-egyptian-christianity--syriac-orthodox-west-syriac-christianity",
+   "prose_change": null,
+   "reason": "Contact link (Severus fled to Egypt and hid at Sakha) and a separate influence link (Severus's Letter I.49) both drafted."
+  },
+  {
+   "movement": "cyrilline-miaphysite-egyptian-christianity",
+   "field": "longDescription",
+   "sentence": "When Arab armies took Egypt in 642 the imperial pressure simply ended, and the church that had refused Chalcedon was left standing.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "State actor. Supported: John of Nikiu CXXI.1-2 (lines 12005-12012) and al-Baladhuri Part VII."
+  },
+  {
+   "movement": "cyrilline-miaphysite-egyptian-christianity",
+   "field": "longDescription",
+   "sentence": "When Arab armies took Egypt in 642 the imperial pressure simply ended, and the church that had refused Chalcedon was left standing.",
+   "other_id": "byzantine-imperial-church-justinianic",
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Supported: John of Nikiu CXXI.1-2 says Benjamin returned after the conquest and blames 'the emperor Heraclius and his persecution of the Orthodox through the patriarch Cyrus' (lines 12005-12012). The rupture itself is the existing broke-with link."
+  },
+  {
+   "movement": "cyrilline-miaphysite-egyptian-christianity",
+   "field": "why",
+   "sentence": "When the Council of Chalcedon called Christ \"one person known in two natures\" in 451, Egypt's church heard betrayal of Cyril of Alexandria and refused the wording outright.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Council, not a movement. Supported as above (NPNF 2.14; Evagrius II.8)."
+  },
+  {
+   "movement": "cyrilline-miaphysite-egyptian-christianity",
+   "field": "why",
+   "sentence": "When the Council of Chalcedon called Christ \"one person known in two natures\" in 451, Egypt's church heard betrayal of Cyril of Alexandria and refused the wording outright.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Person. Supported as in the longDescription (Severus, Select Letters VI part 2, line 8924)."
+  },
+  {
+   "movement": "cyrilline-miaphysite-egyptian-christianity",
+   "field": "why",
+   "sentence": "For two centuries rival bishops split Alexandria between them, while the Miaphysite line survived deposition and exile, carried increasingly in Coptic rather than Greek.",
+   "other_id": "byzantine-imperial-church-justinianic",
+   "disposition": "link",
+   "link_id": "byzantine-imperial-church-justinianic--cyrilline-miaphysite-egyptian-christianity",
+   "prose_change": null,
+   "reason": "Existing broke-with link."
+  },
+  {
+   "movement": "cyrilline-miaphysite-egyptian-christianity",
+   "field": "legacy",
+   "sentence": "This is one of the traditions on the map that never ended: the same institution continued under Muslim rule as Coptic Christianity, and its patriarchal line runs unbroken to the Coptic Orthodox pope of Alexandria today.",
+   "other_id": "coptic-christianity-under-early-islam",
+   "disposition": "link",
+   "link_id": "cyrilline-miaphysite-egyptian-christianity--coptic-christianity-under-early-islam",
+   "prose_change": 2,
+   "reason": "New 'continued as' link on Benjamin's patriarchate across 642 (John of Nikiu CXXI.1; History of the Patriarchs, Benjamin I)."
+  },
+  {
+   "movement": "cyrilline-miaphysite-egyptian-christianity",
+   "field": "legacy",
+   "sentence": "It gave the wider Oriental Orthodox family — Syriac, Armenian, Ethiopian, Eritrean — its shared theological anchor in Cyril of Alexandria, and it made Coptic a liturgical language still sung in Egyptian churches every week.",
+   "other_id": "syriac-orthodox-west-syriac-christianity",
+   "disposition": "link",
+   "link_id": "syriac-orthodox-west-syriac-christianity--cyrilline-miaphysite-egyptian-christianity",
+   "prose_change": 2,
+   "reason": "Influence ran from Severus to Egypt as much as the reverse; the links carry what is shown and the sentence is restated as a shared anchor."
+  },
+  {
+   "movement": "cyrilline-miaphysite-egyptian-christianity",
+   "field": "legacy",
+   "sentence": "It gave the wider Oriental Orthodox family — Syriac, Armenian, Ethiopian, Eritrean — its shared theological anchor in Cyril of Alexandria, and it made Coptic a liturgical language still sung in Egyptian churches every week.",
+   "other_id": "armenian-christianity-after-avarayr",
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 2,
+   "reason": "No vendored text shows this church passing Cyril to Armenia in 451-642; Timothy Aelurus's Refutation survives in Armenian but the translation is undated. Restated as a shared anchor (Ormanian 1912). No link."
+  },
+  {
+   "movement": "cyrilline-miaphysite-egyptian-christianity",
+   "field": "legacy",
+   "sentence": "It gave the wider Oriental Orthodox family — Syriac, Armenian, Ethiopian, Eritrean — its shared theological anchor in Cyril of Alexandria, and it made Coptic a liturgical language still sung in Egyptian churches every week.",
+   "other_id": "aksumite-christianity",
+   "disposition": "link",
+   "link_id": "aksumite-christianity--cyrilline-miaphysite-egyptian-christianity",
+   "prose_change": 2,
+   "reason": "The Aksum-Alexandria link (Inferential-Thin) carries what the evidence bears; the sentence is restated as a shared anchor."
+  },
+  {
+   "movement": "cyrilline-miaphysite-egyptian-christianity",
+   "field": "legacy",
+   "sentence": "It gave the wider Oriental Orthodox family — Syriac, Armenian, Ethiopian, Eritrean — its shared theological anchor in Cyril of Alexandria, and it made Coptic a liturgical language still sung in Egyptian churches every week.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 2,
+   "reason": "No census entry; the Eritrean church's Cyrilline confession today is not in question and the restated sentence claims only a shared anchor."
+  },
+  {
+   "movement": "aksumite-christianity",
+   "field": "relationsSummary",
+   "sentence": "In communion with Alexandria and sharing its rejection of Chalcedon, Aksum was the parent of the later medieval Ethiopian church.",
+   "other_id": "cyrilline-miaphysite-egyptian-christianity",
+   "disposition": "link",
+   "link_id": "aksumite-christianity--cyrilline-miaphysite-egyptian-christianity",
+   "prose_change": 5,
+   "reason": "Inferential-Thin contact link: Simeon's request (Zachariah VIII.3) and John of Ephesus's 'he also was a believer'; sentence qualified."
+  },
+  {
+   "movement": "aksumite-christianity",
+   "field": "relationsSummary",
+   "sentence": "In communion with Alexandria and sharing its rejection of Chalcedon, Aksum was the parent of the later medieval Ethiopian church.",
+   "other_id": "byzantine-imperial-church-justinianic",
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 5,
+   "reason": "No vendored text of 451-615 shows Aksum rejecting Chalcedon; Procopius (Wars I.20) has Justinian appeal to the kingdoms' 'community of religion'. No link to the imperial church drafted."
+  },
+  {
+   "movement": "aksumite-christianity",
+   "field": "relationsSummary",
+   "sentence": "In communion with Alexandria and sharing its rejection of Chalcedon, Aksum was the parent of the later medieval Ethiopian church.",
+   "other_id": "post-aksumite-ethiopian-christianity",
+   "disposition": "link",
+   "link_id": "aksumite-christianity--post-aksumite-ethiopian-christianity",
+   "prose_change": 5,
+   "reason": "New 'continued as' link (Widely Accepted): Synaxarium's Kaleb entry plus Munro-Hay and Phillipson."
+  },
+  {
+   "movement": "aksumite-christianity",
+   "field": "relationsSummary",
+   "sentence": "The Najran martyrs of 523 and King Kaleb's intervention in Himyar around 525 are part of its own story.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "No census entry. Supported: Simeon of Beth Arsham's letter (Zachariah VIII.3, from line ~9496) and the Synaxarium's Najran entry (vol. I, lines 19416-19422)."
+  },
+  {
+   "movement": "aksumite-christianity",
+   "field": "relationsSummary",
+   "sentence": "The Najran martyrs of 523 and King Kaleb's intervention in Himyar around 525 are part of its own story.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "State actor. Supported: Procopius, Wars I.20 (lines 2586-2596); the date 'around 525' is not in Procopius, and the Synaxarium places it under Justin I (vol. I, line 19418)."
+  },
+  {
+   "movement": "aksumite-christianity",
+   "field": "longDescription",
+   "sentence": "Tradition credits the spread of monasticism and much of that translation work to the Nine Saints, monks said to have come from the Roman east around the turn of the sixth century.",
+   "other_id": "byzantine-imperial-church-justinianic",
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": 6,
+   "reason": "The sentence already marks this as tradition ('tradition credits', 'said to have come'); the Synaxarium has Pantaleon arriving 'with Nine Saints' (vol. I, line 11697). The inventory's mapping to the imperial church is not drafted: the tradition names no movement."
+  },
+  {
+   "movement": "aksumite-christianity",
+   "field": "longDescription",
+   "sentence": "In 523 the Jewish king of Himyar, across the water in Yemen, massacred the Christians of Najran.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "State actor. Supported: Zachariah VIII.3 (Simeon's letter on the Jewish king's killings at Najran)."
+  },
+  {
+   "movement": "aksumite-christianity",
+   "field": "longDescription",
+   "sentence": "Its church stayed in communion with Alexandria and shared its refusal of Chalcedon.",
+   "other_id": "cyrilline-miaphysite-egyptian-christianity",
+   "disposition": "link",
+   "link_id": "aksumite-christianity--cyrilline-miaphysite-egyptian-christianity",
+   "prose_change": 6,
+   "reason": "As in the relationsSummary; sentence qualified."
+  },
+  {
+   "movement": "aksumite-christianity",
+   "field": "longDescription",
+   "sentence": "Its church stayed in communion with Alexandria and shared its refusal of Chalcedon.",
+   "other_id": "byzantine-imperial-church-justinianic",
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 6,
+   "reason": "As in the relationsSummary; restated as 'no text from inside these years shows where its church stood on Chalcedon'."
+  },
+  {
+   "movement": "aksumite-christianity",
+   "field": "longDescription",
+   "sentence": "But the kingdom was still substantial enough in 615 that Muhammad sent his first followers to its king for protection.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 6,
+   "reason": "No census entry. No vendored or repo-cited source for the emigration to Aksum (searched cic/texts and records/ for Negus, Najashi, hijra); attributed to Muslim tradition in the rewrite. See wants."
+  },
+  {
+   "movement": "aksumite-christianity",
+   "field": "longDescription",
+   "sentence": "The Aksumite king Kaleb crossed the Red Sea in about 525, destroyed his kingdom, and for a few decades Aksum ruled southern Arabia.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 6,
+   "reason": "State actor. 'Destroyed his kingdom ... ruled southern Arabia' qualified: Procopius (Wars I.20) has a tributary king, then Abramus, whom Aksum could not remove."
+  },
+  {
+   "movement": "aksumite-christianity",
+   "field": "why",
+   "sentence": "Aksum was already a Christian kingdom astride the Red Sea trade routes when, around 525, its king Kaleb crossed the water to avenge the massacre of Christians at Najran and briefly ruled southern Arabia.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 7,
+   "reason": "State actor. Avenging Najran supported (Synaxarium, Genbot 20, lines 30426-30429; Procopius I.20). 'Briefly ruled southern Arabia' qualified to tribute."
+  },
+  {
+   "movement": "aksumite-christianity",
+   "field": "why",
+   "sentence": "Its church stayed in communion with Alexandria and shared its rejection of Chalcedon, though the direct evidence from these particular centuries is thin: mostly inscriptions, early manuscripts and archaeology.",
+   "other_id": "cyrilline-miaphysite-egyptian-christianity",
+   "disposition": "link",
+   "link_id": "aksumite-christianity--cyrilline-miaphysite-egyptian-christianity",
+   "prose_change": 7,
+   "reason": "As in the relationsSummary; sentence qualified."
+  },
+  {
+   "movement": "aksumite-christianity",
+   "field": "legacy",
+   "sentence": "The same institution continued without interruption and is today the Ethiopian Orthodox Tewahedo Church, one of the largest of the Oriental Orthodox communions, alongside its Eritrean counterpart.",
+   "other_id": "post-aksumite-ethiopian-christianity",
+   "disposition": "link",
+   "link_id": "aksumite-christianity--post-aksumite-ethiopian-christianity",
+   "prose_change": null,
+   "reason": "New 'continued as' link to the era-4 entry."
+  },
+  {
+   "movement": "aksumite-christianity",
+   "field": "legacy",
+   "sentence": "The same institution continued without interruption and is today the Ethiopian Orthodox Tewahedo Church, one of the largest of the Oriental Orthodox communions, alongside its Eritrean counterpart.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "No census entry; a present-day fact about the Eritrean church, not in question."
+  },
+  {
+   "movement": "aksumite-christianity",
+   "field": "legacy",
+   "sentence": "The same institution continued without interruption and is today the Ethiopian Orthodox Tewahedo Church, one of the largest of the Oriental Orthodox communions, alongside its Eritrean counterpart.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Generic family, no single entry; a present-day fact, not in question."
+  },
+  {
+   "movement": "nubian-christianity",
+   "field": "relationsSummary",
+   "sentence": "Child of Egypt - both rival communions' missions at once",
+   "other_id": "cyrilline-miaphysite-egyptian-christianity",
+   "disposition": "link",
+   "link_id": "cyrilline-miaphysite-egyptian-christianity--nubian-christianity",
+   "prose_change": 3,
+   "reason": "New 'gave rise to' link (John of Ephesus IV.6-8); sentence restated in full."
+  },
+  {
+   "movement": "nubian-christianity",
+   "field": "relationsSummary",
+   "sentence": "Child of Egypt - both rival communions' missions at once",
+   "other_id": "cyrilline-miaphysite-egyptian-christianity",
+   "disposition": "link",
+   "link_id": "cyrilline-miaphysite-egyptian-christianity--nubian-christianity",
+   "prose_change": 3,
+   "reason": "Same link."
+  },
+  {
+   "movement": "nubian-christianity",
+   "field": "relationsSummary",
+   "sentence": "Child of Egypt - both rival communions' missions at once",
+   "other_id": "byzantine-imperial-church-justinianic",
+   "disposition": "link",
+   "link_id": "byzantine-imperial-church-justinianic--nubian-christianity",
+   "prose_change": 3,
+   "reason": "New 'in contact with' link (Justinian's envoys, John of Ephesus IV.6-7)."
+  },
+  {
+   "movement": "nubian-christianity",
+   "field": "longDescription",
+   "sentence": "Christianity reached the Nubian kingdoms south of Egypt through competing missions in the 540s — a Miaphysite priest named Julian sent with the empress Theodora's backing, and a Chalcedonian effort sent with Justinian's.",
+   "other_id": "cyrilline-miaphysite-egyptian-christianity",
+   "disposition": "link",
+   "link_id": "cyrilline-miaphysite-egyptian-christianity--nubian-christianity",
+   "prose_change": null,
+   "reason": "Same link: Julian of Theodosius's clergy."
+  },
+  {
+   "movement": "nubian-christianity",
+   "field": "longDescription",
+   "sentence": "Christianity reached the Nubian kingdoms south of Egypt through competing missions in the 540s — a Miaphysite priest named Julian sent with the empress Theodora's backing, and a Chalcedonian effort sent with Justinian's.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Person. Supported: John of Ephesus IV.6 (Julian 'spoke about them to the late queen Theodora', lines 10934-10936)."
+  },
+  {
+   "movement": "nubian-christianity",
+   "field": "longDescription",
+   "sentence": "Christianity reached the Nubian kingdoms south of Egypt through competing missions in the 540s — a Miaphysite priest named Julian sent with the empress Theodora's backing, and a Chalcedonian effort sent with Justinian's.",
+   "other_id": "byzantine-imperial-church-justinianic",
+   "disposition": "link",
+   "link_id": "byzantine-imperial-church-justinianic--nubian-christianity",
+   "prose_change": null,
+   "reason": "Same contact link."
+  },
+  {
+   "movement": "nubian-christianity",
+   "field": "longDescription",
+   "sentence": "And the story of that race survives only because a Syrian bishop, John of Ephesus, wrote it down from the winning side.",
+   "other_id": "syriac-orthodox-west-syriac-christianity",
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Names the author of the source, not a relationship between movements. Supported: the race exists only in John's HE III, IV.6-7; John of Biclarum (s.a. 569) notes Makuria's conversion but not the race."
+  },
+  {
+   "movement": "nubian-christianity",
+   "field": "longDescription",
+   "sentence": "When Arab armies pushed south after taking Egypt, Nubian archers held them at Dongola, and in 652 the two sides signed the Baqt.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "State actor. Archers supported by al-Baladhuri, Part VIII (lines 15207-15218, the Nubians' arrows 'putting out our eyes'); Dongola is not in the vendored text and rests on Welsby (census- and dossier-cited, not read). Kept; flagged."
+  },
+  {
+   "movement": "nubian-christianity",
+   "field": "longDescription",
+   "sentence": "When Arab armies pushed south after taking Egypt, Nubian archers held them at Dongola, and in 652 the two sides signed the Baqt.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "State actor. A peace of exchange supported by al-Baladhuri, Part VIII ('they give slaves and we give them their value in terms of food', lines 15236-15238, under 'Abdallah ibn-Sa'd'); the year 652 and the name 'Baqt' are not in the vendored text (Welsby, not read). Kept; flagged."
+  },
+  {
+   "movement": "nubian-christianity",
+   "field": "why",
+   "sentence": "Christianity reached the Nubian kingdoms south of Egypt through rival missions in the 540s, one Miaphysite and one Chalcedonian, and the story survives only because a Syrian bishop wrote it down from the winning side.",
+   "other_id": "syriac-orthodox-west-syriac-christianity",
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "As in the longDescription."
+  },
+  {
+   "movement": "nubian-christianity",
+   "field": "why",
+   "sentence": "Nubia itself left walls rather than words: the painted bishops, kings and saints of the cathedral at Faras, and the archers who held an invading Arab army at Dongola until both sides signed the Baqt treaty in 652.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "As in the longDescription (al-Baladhuri, Part VIII; Dongola and 652 from Welsby, not read)."
+  },
+  {
+   "movement": "nubian-christianity",
+   "field": "legacy",
+   "sentence": "Christian Nubia outlasted this window by many centuries and only faded in the later Middle Ages; no Nubian church continues today.",
+   "other_id": "makurian-nubian-christianity",
+   "disposition": "link",
+   "link_id": "nubian-christianity--makurian-nubian-christianity",
+   "prose_change": null,
+   "reason": "New 'continued as' link (Widely Accepted)."
+  },
+  {
+   "movement": "nubian-christianity",
+   "field": "legacy",
+   "sentence": "And the Baqt held, in one form or another, for centuries — an unusually durable settlement between a Christian state and its Muslim neighbor.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "State actor. Durability supported in part: al-Baladhuri has the terms still enforced under al-Mahdi (775-785, lines 15254-15262); 'for centuries' rests on Welsby (not read)."
+  },
+  {
+   "movement": "latin-africa-under-byzantium",
+   "field": "relationsSummary",
+   "sentence": "The Nicene church of Roman Africa, restored after a century of Vandal persecution, was heir to the earlier African Christian tradition of Tertullian, Cyprian and Augustine, and became one of the principal voices resisting Justinian's condemnation of the Three Chapters.",
+   "other_id": "tertullian-s-voice",
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 8,
+   "reason": "No text shows this church using Tertullian; Facundus and Ferrandus's own text (PL 67) cite Cyprian and Augustine, and the Tertullian references in that file are Migne's editorial notes. No link; Tertullian kept as a product of the earlier African church."
+  },
+  {
+   "movement": "latin-africa-under-byzantium",
+   "field": "relationsSummary",
+   "sentence": "The Nicene church of Roman Africa, restored after a century of Vandal persecution, was heir to the earlier African Christian tradition of Tertullian, Cyprian and Augustine, and became one of the principal voices resisting Justinian's condemnation of the Three Chapters.",
+   "other_id": "latin-pastoral-congregational-christianity",
+   "disposition": "link",
+   "link_id": "latin-pastoral-congregational-christianity--latin-africa-under-byzantium",
+   "prose_change": 8,
+   "reason": "New 'influenced' link from latin-pastoral-congregational-christianity, Cyprian's own church (inventory had no movement): Facundus I.3; Procopius III.21."
+  },
+  {
+   "movement": "latin-africa-under-byzantium",
+   "field": "relationsSummary",
+   "sentence": "The Nicene church of Roman Africa, restored after a century of Vandal persecution, was heir to the earlier African Christian tradition of Tertullian, Cyprian and Augustine, and became one of the principal voices resisting Justinian's condemnation of the Three Chapters.",
+   "other_id": "latin-pastoral-congregational-christianity",
+   "disposition": "link",
+   "link_id": "latin-pastoral-congregational-christianity--latin-africa-under-byzantium",
+   "prose_change": 8,
+   "reason": "Same link: Facundus I.4 calls Augustine 'the most wise and most famous teacher of the churches of Christ'."
+  },
+  {
+   "movement": "latin-africa-under-byzantium",
+   "field": "relationsSummary",
+   "sentence": "The Nicene church of Roman Africa, restored after a century of Vandal persecution, was heir to the earlier African Christian tradition of Tertullian, Cyprian and Augustine, and became one of the principal voices resisting Justinian's condemnation of the Three Chapters.",
+   "other_id": "gothic-and-vandal-homoian-christianity",
+   "disposition": "link",
+   "link_id": "latin-africa-under-byzantium--gothic-and-vandal-homoian-christianity",
+   "prose_change": 8,
+   "reason": "New 'argued against' link (Procopius III.21; Novel 37); 'a century of persecution' qualified to 'nearly a century of Vandal rule and repeated persecution'."
+  },
+  {
+   "movement": "latin-africa-under-byzantium",
+   "field": "relationsSummary",
+   "sentence": "The Nicene church of Roman Africa, restored after a century of Vandal persecution, was heir to the earlier African Christian tradition of Tertullian, Cyprian and Augustine, and became one of the principal voices resisting Justinian's condemnation of the Three Chapters.",
+   "other_id": "byzantine-imperial-church-justinianic",
+   "disposition": "link",
+   "link_id": "latin-africa-under-byzantium--byzantine-imperial-church-justinianic",
+   "prose_change": 8,
+   "reason": "New 'argued against' link (Facundus to Justinian; Victor of Tunnuna s.a. 550, 552)."
+  },
+  {
+   "movement": "latin-africa-under-byzantium",
+   "field": "longDescription",
+   "sentence": "When Belisarius destroyed the Vandal kingdom in 533, the Nicene church of Roman Africa came out of a century of persecution and was restored to its buildings and its bishoprics.",
+   "other_id": "gothic-and-vandal-homoian-christianity",
+   "disposition": "link",
+   "link_id": "latin-africa-under-byzantium--gothic-and-vandal-homoian-christianity",
+   "prose_change": 9,
+   "reason": "Same Vandal link; 'a century of persecution' qualified."
+  },
+  {
+   "movement": "latin-africa-under-byzantium",
+   "field": "longDescription",
+   "sentence": "When Belisarius destroyed the Vandal kingdom in 533, the Nicene church of Roman Africa came out of a century of persecution and was restored to its buildings and its bishoprics.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "State actor. Supported: Procopius, Wars III.21 (the taking of Carthage, Cyprian's shrine)."
+  },
+  {
+   "movement": "latin-africa-under-byzantium",
+   "field": "longDescription",
+   "sentence": "And within twenty years it was the most stubborn opposition Justinian faced anywhere in his own empire.",
+   "other_id": "byzantine-imperial-church-justinianic",
+   "disposition": "link",
+   "link_id": "latin-africa-under-byzantium--byzantine-imperial-church-justinianic",
+   "prose_change": 9,
+   "reason": "Same link; 'the most stubborn opposition ... anywhere' qualified to 'among the most stubborn' (Victor also records Illyrian resistance, s.a. 549)."
+  },
+  {
+   "movement": "latin-africa-under-byzantium",
+   "field": "longDescription",
+   "sentence": "When he condemned the Three Chapters to appease the Miaphysites, the African bishops refused.",
+   "other_id": "cyrilline-miaphysite-egyptian-christianity",
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Names Justinian's motive, not a relationship between this church and the Miaphysite church. Supported from the African side: Facundus's preface says the 'Acephali', opponents of Chalcedon, sought the condemnation (PL 67, lines 41872-41875)."
+  },
+  {
+   "movement": "latin-africa-under-byzantium",
+   "field": "longDescription",
+   "sentence": "Maximus the Confessor spent formative years here, and African councils in 646 rejected the empire's next attempted compromise about the wills of Christ.",
+   "other_id": "byzantine-imperial-church-justinianic",
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 9,
+   "reason": "A person, not a movement relationship. 'Formative years' is wrong: he came to Africa as an adult monk. Restated as the 645 disputation with Pyrrhus held in Africa (PG 91, Acta disputationis)."
+  },
+  {
+   "movement": "latin-africa-under-byzantium",
+   "field": "longDescription",
+   "sentence": "Maximus the Confessor spent formative years here, and African councils in 646 rejected the empire's next attempted compromise about the wills of Christ.",
+   "other_id": "byzantine-imperial-church-heraclian-iconoclast",
+   "disposition": "link",
+   "link_id": "latin-africa-under-byzantium--byzantine-imperial-church-heraclian-iconoclast",
+   "prose_change": null,
+   "reason": "New 'argued against' link, to the Heraclian entry (622-843), not the Justinianic one the inventory named: the 646 letters (Mansi X)."
+  },
+  {
+   "movement": "latin-africa-under-byzantium",
+   "field": "longDescription",
+   "sentence": "Then Arab armies reached Carthage in the 690s, and the ancient African church, the church that had given Latin Christianity Tertullian, Cyprian and Augustine, was finished within a few generations.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "State actor. The 690s fall of Carthage is not in a vendored text (era 1 logged the same gap: a text on African Latin Christians after the conquest). Kept as the census's own end date; flagged."
+  },
+  {
+   "movement": "latin-africa-under-byzantium",
+   "field": "why",
+   "sentence": "When Belisarius destroyed the Vandal kingdom in 533, the Nicene church of Roman Africa was restored to its buildings after a century of persecution, and within twenty years it was refusing Justinian's own doctrinal compromise over the Three Chapters.",
+   "other_id": "gothic-and-vandal-homoian-christianity",
+   "disposition": "link",
+   "link_id": "latin-africa-under-byzantium--gothic-and-vandal-homoian-christianity",
+   "prose_change": 10,
+   "reason": "Same Vandal link; 'a century of persecution' qualified."
+  },
+  {
+   "movement": "latin-africa-under-byzantium",
+   "field": "why",
+   "sentence": "When Belisarius destroyed the Vandal kingdom in 533, the Nicene church of Roman Africa was restored to its buildings after a century of persecution, and within twenty years it was refusing Justinian's own doctrinal compromise over the Three Chapters.",
+   "other_id": "byzantine-imperial-church-justinianic",
+   "disposition": "link",
+   "link_id": "latin-africa-under-byzantium--byzantine-imperial-church-justinianic",
+   "prose_change": 10,
+   "reason": "Same Three Chapters link."
+  },
+  {
+   "movement": "latin-africa-under-byzantium",
+   "field": "why",
+   "sentence": "Bishops like Reparatus of Carthage were deposed and exiled for that refusal, and when Arab armies reached Carthage in the 690s, the church that had produced Tertullian, Cyprian and Augustine came to an end within a few generations.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 10,
+   "reason": "As in the longDescription."
+  },
+  {
+   "movement": "latin-africa-under-byzantium",
+   "field": "legacy",
+   "sentence": "Latin Christianity in North Africa dwindled after the conquest and had effectively disappeared by the later Middle Ages — the only major region of the ancient Christian world to vanish so completely.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 11,
+   "reason": "State actor. 'Dwindled ... effectively disappeared' is already the softened form era 1 agreed with (era-1 wanted text: Gregory VII's letters of 1076 to Carthage). Kept."
+  },
+  {
+   "movement": "latin-africa-under-byzantium",
+   "field": "legacy",
+   "sentence": "Its resistance over the Three Chapters hardened a Western conviction that an emperor could not settle doctrine by decree, and its part in the argument over Christ's wills fed straight into the council of 680-681 that closed it.",
+   "other_id": "byzantine-imperial-church-justinianic",
+   "disposition": "qualify",
+   "link_id": "latin-africa-under-byzantium--byzantine-imperial-church-justinianic",
+   "prose_change": 11,
+   "reason": "'Hardened a Western conviction' is a reception claim no vendored text shows; restated as what Facundus and Victor show. The Three Chapters link carries the relationship."
+  },
+  {
+   "movement": "latin-africa-under-byzantium",
+   "field": "legacy",
+   "sentence": "Its resistance over the Three Chapters hardened a Western conviction that an emperor could not settle doctrine by decree, and its part in the argument over Christ's wills fed straight into the council of 680-681 that closed it.",
+   "other_id": null,
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 11,
+   "reason": "Council, not a movement. 'Fed straight into' is causal and not shown; restated as the sequence the vendored texts show (646 letters read at Rome in 649; Constantinople III's two-wills definition, NPNF 2.14 line 24884)."
+  },
+  {
+   "movement": "latin-africa-under-byzantium",
+   "field": "legacy",
+   "sentence": "Its earlier centuries had already given the Latin church Tertullian, Cyprian and Augustine; what this last century added was a demonstration that a provincial church could tell an empire no.",
+   "other_id": "tertullian-s-voice",
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": 11,
+   "reason": "States that the earlier African church produced Tertullian, which era 1 documents (Jerome, On Illustrious Men 53: Tertullian of Carthage); it claims no influence on this church."
+  },
+  {
+   "movement": "latin-africa-under-byzantium",
+   "field": "legacy",
+   "sentence": "Its earlier centuries had already given the Latin church Tertullian, Cyprian and Augustine; what this last century added was a demonstration that a provincial church could tell an empire no.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 11,
+   "reason": "Generic; Tertullian, Cyprian and Augustine's place in the Latin church is carried by era-1 links."
+  },
+  {
+   "movement": "latin-africa-under-byzantium",
+   "field": "legacy",
+   "sentence": "Its earlier centuries had already given the Latin church Tertullian, Cyprian and Augustine; what this last century added was a demonstration that a provincial church could tell an empire no.",
+   "other_id": "byzantine-imperial-church-justinianic",
+   "disposition": "link",
+   "link_id": "latin-africa-under-byzantium--byzantine-imperial-church-justinianic",
+   "prose_change": 11,
+   "reason": "Same Three Chapters link; the sentence ('a provincial church could tell an empire no') is supported by Facundus and Victor."
+  }
+ ],
+ "links": [
+  {
+   "old_index": null,
+   "id": "byzantine-imperial-church-justinianic--cyrilline-miaphysite-egyptian-christianity",
+   "action": "rewrite",
+   "from": "byzantine-imperial-church-justinianic",
+   "to": "cyrilline-miaphysite-egyptian-christianity",
+   "type": "broke with",
+   "confidence": "Documented",
+   "note": "The Council of Chalcedon deposed Dioscorus, bishop of Alexandria, in October 451. A petition quoted by the historian Evagrius says Timothy Aelurus broke from the church right after the council. John of Ephesus, writing for the other side, says Justinian drove Patriarch Theodosius from his throne for refusing Chalcedon.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": "ijc.source.chalcedon-acts",
+     "work": "Council of Chalcedon, Condemnation Sent to Dioscorus, in Percival, The Seven Ecumenical Councils (NPNF 2.14)",
+     "file": "cic/texts/npnf214_seven-ecumenical-councils.xml",
+     "lines": "20082-20084",
+     "locus": "Chalcedon, 'The Condemnation Sent by the Holy and Ecumenical Synod to Dioscorus'",
+     "quote": "We do you to wit that on the thirteenth day of the month of October you were deposed from the episcopate and made a stranger to all ecclesiastical order",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Evagrius Scholasticus, Ecclesiastical History II (Walford, 1846), quoting the Egyptian bishops' petition to Leo",
+     "file": "cic/texts/evagrius-scholasticus_ecclesiastical-history_walford1846.txt",
+     "lines": "3675-3678",
+     "locus": "Evagrius, HE II.8, the petition of the Egyptian bishops and Alexandrian clergy to Emperor Leo",
+     "quote": "Timotheus, immediately after the holy synod at Chalcedon, being at that time a presbyter, severed himself from the Catholic church and faith",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "John of Ephesus, Ecclesiastical History, Part III (Payne Smith, 1860), Book IV.7",
+     "file": "cic/texts/john-ephesus_ecclesiastical-history-part3_paynesmith1860.txt",
+     "lines": "11045-11048",
+     "locus": "HE III, IV.7 (Julian's teaching to the Nobadae)",
+     "quote": "the blessed Theodo- sius being required to receive the council, and having refused, was ejected by the king from his throne",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "cyrilline-miaphysite-egyptian-christianity relationsSummary ('contested sibling of the Chalcedonian ... traditions'), longDescription ('two rival lines of bishops — one backed by Constantinople'; 'imperial pressure'), why ('rival bishops split Alexandria').",
+   "wants": [],
+   "drafter_flags": [
+    "Locus corrected: the Evagrius petition stands in HE II.8 (running heads 'CHAP. VIII.] DEATH OF MARCIAN' at line 3563 and 'MURDER OF PROTERIUS' at 3636), not II.5. Quote and lines unchanged.",
+    "Added a source from the anti-Chalcedonian side (John of Ephesus), since 'broke with' asks for the rupture ideally from both sides. Payne Smith's OCR splits 'Theodo- sius' across a line; the quote keeps the file's form.",
+    "The group drafting byzantine-imperial-church-justinianic may also list this link; the two drafts should be merged."
+   ],
+   "change_reason": "Rewrite: locus II.5 corrected to II.8; a Miaphysite-side witness added and the note extended by one sentence to carry it. from/to/type/grade unchanged."
+  },
+  {
+   "old_index": null,
+   "id": "desert-monasticism--cyrilline-miaphysite-egyptian-christianity",
+   "action": "new",
+   "from": "desert-monasticism",
+   "to": "cyrilline-miaphysite-egyptian-christianity",
+   "type": "influenced",
+   "confidence": "Documented",
+   "note": "The Egyptian church's History of the Patriarchs, compiled centuries later, places the Miaphysite patriarchs among the old monasteries of Scetis. It says Patriarch Peter's letters were kept at the Monastery of Macarius. It says Benjamin hid in the monasteries of Wadi Habib before the Arab conquest.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Severus ibn al-Muqaffa (attrib.), History of the Patriarchs of the Coptic Church of Alexandria (Evetts, PO 1), Peter (Peter Mongus, 477-490)",
+     "file": "cic/texts/severus-al-muqaffa_history-patriarchs-coptic-church-v1_evetts1904.txt",
+     "lines": "35554-35555",
+     "locus": "History of the Patriarchs, Pt. I, Peter Mongus",
+     "quote": "All his epistles are preserved in the Monastery of Father Macarius",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Severus ibn al-Muqaffa (attrib.), History of the Patriarchs of the Coptic Church of Alexandria (Evetts, PO 1), Benjamin I",
+     "file": "cic/texts/severus-al-muqaffa_history-patriarchs-coptic-church-v1_evetts1904.txt",
+     "lines": "43445-43446",
+     "locus": "History of the Patriarchs, Pt. I, Ch. XIV (Benjamin I)",
+     "quote": "Then Benjamin went forth from the monasteries in Wadi Habib, and departed to Lpper Egypt",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "cyrilline-miaphysite-egyptian-christianity relationsSummary ('Continues ... Desert') and longDescription ('carried by the monasteries of the Egyptian desert'); the desert-monasticism text does not name this church (era2_names_it false).",
+   "wants": [
+    "A text from inside 451-642 (e.g. a Life of a Scetis abbot, or Zachariah Rhetor on the Egyptian monks' refusal of Chalcedon, read for the purpose) naming the desert monasteries as the anti-Chalcedonian party's base."
+   ],
+   "drafter_flags": [
+    "Type is a judgment. The monasteries of Scetis (Wadi Habib, Wadi al-Natrun) are the desert world's own foundations carried on into this church; 'influenced' is the nearest of the six types. 'continued as' would claim the whole desert world became this church, which nothing shows.",
+    "The History of the Patriarchs is a tenth-century compilation of earlier lives. It is this church's own record, used the same way in the existing desert-monasticism--coptic-christianity-under-early-islam and coptic--alexandria links. 'Lpper' is the file's OCR for 'Upper'.",
+    "'Wadi Habib' is the History's name for Scetis (Wadi al-Natrun). The note says 'Scetis' on that identification, which the desert text itself names; the History does not use the word 'Scetis' in these lines."
+   ],
+   "change_reason": "New: the Miaphysite text names the desert monasteries as its carriers, and no link existed."
+  },
+  {
+   "old_index": null,
+   "id": "cyrilline-miaphysite-egyptian-christianity--syriac-orthodox-west-syriac-christianity",
+   "action": "new",
+   "from": "cyrilline-miaphysite-egyptian-christianity",
+   "to": "syriac-orthodox-west-syriac-christianity",
+   "type": "in contact with",
+   "confidence": "Documented",
+   "note": "Evagrius says Justin I ordered the arrest of Severus of Antioch, who fled his see in 518. The Egyptian church's History says Severus and his bishops came to Egypt, where he later hid from Justinian. It adds that Severus and Patriarch Theodosius of Alexandria 'had one faith'.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Evagrius Scholasticus, Ecclesiastical History IV.4 (Walford, 1846)",
+     "file": "cic/texts/evagrius-scholasticus_ecclesiastical-history_walford1846.txt",
+     "lines": "7872-7873",
+     "locus": "Evagrius, HE IV.4 (deposition of Severus)",
+     "quote": "Justin, in the first year of his reign, ordered him to be arrested",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Severus ibn al-Muqaffa (attrib.), History of the Patriarchs (Evetts, PO 1), Timothy III",
+     "file": "cic/texts/severus-al-muqaffa_history-patriarchs-coptic-church-v1_evetts1904.txt",
+     "lines": "36612-36614",
+     "locus": "History of the Patriarchs, Pt. I, Timothy III",
+     "quote": "So when Severus, the patriarch, and his bishops, who were from the East, were driven away from Antioch, and came to Egypt",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Severus ibn al-Muqaffa (attrib.), History of the Patriarchs (Evetts, PO 1), Theodosius I",
+     "file": "cic/texts/severus-al-muqaffa_history-patriarchs-coptic-church-v1_evetts1904.txt",
+     "lines": "37465-37467",
+     "locus": "History of the Patriarchs, Pt. I, Theodosius I",
+     "quote": "Now Severus, the patriarch, was hiding himself from Justinian, the heretical prince, in a Christ-loving town, called Sakha, in Egypt, at the house of a man, named Dorotheas",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Severus ibn al-Muqaffa (attrib.), History of the Patriarchs (Evetts, PO 1), Anastasius",
+     "file": "cic/texts/severus-al-muqaffa_history-patriarchs-coptic-church-v1_evetts1904.txt",
+     "lines": "41842-41843",
+     "locus": "History of the Patriarchs, Pt. I, Ch. XIV (Anastasius, 605-616)",
+     "quote": "so also Severus and Theodo¬ sius had one faith, and lived in unity",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "cyrilline-miaphysite-egyptian-christianity relationsSummary ('contested sibling of the ... Syriac Orthodox traditions'), longDescription ('for two decades it sheltered Severus of Antioch, the exiled Syrian patriarch'), legacy ('Syriac').",
+   "wants": [
+    "Michael the Syrian, Chronicle (Chabot), book X, on the schism between Peter of Callinicus and Damian of Alexandria and the reunion of 616, to give the Syriac side of the break the History of the Patriarchs records ('the division of Antioch from Alexandria'), lines 41745-41747."
+   ],
+   "drafter_flags": [
+    "The History of the Patriarchs also records a break: 'the division of Antioch from Alexandria, the cause of which was Peter, patriarch of Antioch', healed by Anastasius and Athanasius of Antioch c. 616 (lines 41745-41760, OCR badly damaged). Only the Egyptian side is vendored, so no 'broke with' link is drafted; this may be what the census's 'contested sibling' meant. See wants.",
+    "The 'one faith' sentence is spoken by Athanasius of Antioch in the History's account of the 616 reunion; it is the Egyptian compiler's report of a Syrian speaker. '¬' is the file's line-break mark.",
+    "The group drafting syriac-orthodox-west-syriac-christianity may draft this pair too."
+   ],
+   "change_reason": "New: the Egyptian text names its sheltering of Severus, and no link joined the two churches."
+  },
+  {
+   "old_index": null,
+   "id": "syriac-orthodox-west-syriac-christianity--cyrilline-miaphysite-egyptian-christianity",
+   "action": "new",
+   "from": "syriac-orthodox-west-syriac-christianity",
+   "to": "cyrilline-miaphysite-egyptian-christianity",
+   "type": "influenced",
+   "confidence": "Documented",
+   "note": "Writing after his exile began, Severus of Antioch told Egyptian clergy his care for Alexandria's church was even greater than for Antioch's. He says groups long separated from the Egyptian church joined it through his efforts. Patriarch Dioscorus II of Alexandria, he writes, followed his advice.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Severus of Antioch, Select Letters, Book VI, I.49 (to John and John, presbyters and archimandrites), Brooks 1903",
+     "file": "cic/texts/severus-of-antioch_select-letters-book6-part1_brooks1903.txt",
+     "lines": "5186-5188",
+     "locus": "Select Letters VI, I.49",
+     "quote": "For do not think of me that my concern for the church of the Alexandrines is different from my concern for that of the Antiochenes",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Severus of Antioch, Select Letters, Book VI, I.49, Brooks 1903",
+     "file": "cic/texts/severus-of-antioch_select-letters-book6-part1_brooks1903.txt",
+     "lines": "5202-5204",
+     "locus": "Select Letters VI, I.49",
+     "quote": "(to Speak with God's permission) of my wretched miserable self joined the catholic and orthodox church in Egypt",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Severus of Antioch, Select Letters, Book VI, I.49, Brooks 1903",
+     "file": "cic/texts/severus-of-antioch_select-letters-book6-part1_brooks1903.txt",
+     "lines": "5212-5214",
+     "locus": "Select Letters VI, I.49",
+     "quote": "as far as was possible he complied with my advice and satisfied those who were separated",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "cyrilline-miaphysite-egyptian-christianity longDescription ('Severus of Antioch ... who became the movement's great theologian').",
+   "wants": [],
+   "drafter_flags": [
+    "The second quote starts inside a sentence broken by a page head (line 5199); the sentence's subject is 'the party of the learned Hippocrates ... and a very large number of other well-known and distinguished men' (lines 5190-5193).",
+    "This is Severus's own account of his part in Egypt; the Egyptian side's acceptance is shown in the History of the Patriarchs (lines 37635-37637: Severus 'had composed books in which he refuted the heresy of those that believe in the Two Natures'), not quoted here because the OCR breaks that clause ('* in t he').",
+    "The 'old man' who 'complied with my advice' is the 'blessed Dioscorus who a short time ago departed' (lines 5206-5207), i.e. Dioscorus II of Alexandria (d. 517). The identification is mine from the letter's own words.",
+    "Two links on this pair (contact, and influence) are each separately evidenced. A reviewer may prefer to keep one."
+   ],
+   "change_reason": "New: the Egyptian text calls Severus its great theologian, and no link carried his influence."
+  },
+  {
+   "old_index": null,
+   "id": "cyrilline-miaphysite-egyptian-christianity--nubian-christianity",
+   "action": "new",
+   "from": "cyrilline-miaphysite-egyptian-christianity",
+   "to": "nubian-christianity",
+   "type": "gave rise to",
+   "confidence": "Documented",
+   "note": "John of Ephesus says the priest Julian, one of the clergy of exiled Patriarch Theodosius of Alexandria, converted the king of the Nobadae in the 540s. Julian told them to 'walk in the ways of pope Theodosius'. John adds that the new converts were placed under Theodosius as patriarch.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "John of Ephesus, Ecclesiastical History, Part III, IV.6 (Payne Smith, 1860)",
+     "file": "cic/texts/john-ephesus_ecclesiastical-history-part3_paynesmith1860.txt",
+     "lines": "10926-10928",
+     "locus": "HE III, IV.6",
+     "quote": "was a presbyter named Julianus, an old man of great worth, who conceived an earnest spi ritual desire to christianize the wandering people",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "John of Ephesus, Ecclesiastical History, Part III, IV.7 (Payne Smith, 1860)",
+     "file": "cic/texts/john-ephesus_ecclesiastical-history-part3_paynesmith1860.txt",
+     "lines": "11051-11053",
+     "locus": "HE III, IV.7",
+     "quote": "her majesty has sent us to you, that ye also may walk in the ways of pope Theodosius, and stand in his faith, and imitate his constancy.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "John of Ephesus, Ecclesiastical History, Part III, IV.8 (Payne Smith, 1860)",
+     "file": "cic/texts/john-ephesus_ecclesiastical-history-part3_paynesmith1860.txt",
+     "lines": "11118-11120",
+     "locus": "HE III, IV.8",
+     "quote": "The chief charge of the new converts was vested in Theodosius, as being patriarch of Alex andria",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "nubian-christianity relationsSummary ('Child of Egypt'), longDescription ('a Miaphysite priest named Julian sent with the empress Theodora's backing'), why ('rival missions ... one Miaphysite').",
+   "wants": [],
+   "drafter_flags": [
+    "John of Ephesus is the only narrative source and wrote for the Miaphysite side; the note names him. Julian set out from Theodosius's household in Constantinople, not from Egypt; the link runs from the Egyptian church because Julian was its patriarch's priest and the converts were placed under that patriarch.",
+    "The OCR splits 'spi ritual' and 'Alex andria'; the quotes keep the file's form. The dates 543 and 'the 540s' come from the census; John's text here gives no year."
+   ],
+   "change_reason": "New: the Nubian text names Egypt's Miaphysite mission as its origin, and no link existed."
+  },
+  {
+   "old_index": null,
+   "id": "byzantine-imperial-church-justinianic--nubian-christianity",
+   "action": "new",
+   "from": "byzantine-imperial-church-justinianic",
+   "to": "nubian-christianity",
+   "type": "in contact with",
+   "confidence": "Documented",
+   "note": "John of Ephesus says Justinian sent envoys with gold and baptismal robes to the Nobadae, asking them to join his church. The king accepted the gifts but refused the emperor's faith, and sent a written answer. John wrote for the rival party, and his is the only account of this exchange.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "John of Ephesus, Ecclesiastical History, Part III, IV.6 (Payne Smith, 1860)",
+     "file": "cic/texts/john-ephesus_ecclesiastical-history-part3_paynesmith1860.txt",
+     "lines": "10966-10968",
+     "locus": "HE III, IV.6",
+     "quote": "he sent thither, without a moment's delay, am bassadors with gold and baptismal robes, and gifts of honour for the king of that people",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "John of Ephesus, Ecclesiastical History, Part III, IV.7 (Payne Smith, 1860)",
+     "file": "cic/texts/john-ephesus_ecclesiastical-history-part3_paynesmith1860.txt",
+     "lines": "11063-11066",
+     "locus": "HE III, IV.7",
+     "quote": "The king of the Romans has sent us to you, that in case of your becoming Christians, you may cleave to the church and those who govern it",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "John of Ephesus, Ecclesiastical History, Part III, IV.7 (Payne Smith, 1860)",
+     "file": "cic/texts/john-ephesus_ecclesiastical-history-part3_paynesmith1860.txt",
+     "lines": "11084-11086",
+     "locus": "HE III, IV.7",
+     "quote": "In this manner then they sent the king's messengers away, with a written answer to the same effect.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "nubian-christianity relationsSummary ('both rival communions' missions'), longDescription ('a Chalcedonian effort sent with Justinian's').",
+   "wants": [
+    "A Chalcedonian-side account of the 540s embassy, if any survives; John of Biclarum (s.a. 569, Mommsen line 19834) records only that the Makurians 'accepted the faith of Christ'."
+   ],
+   "drafter_flags": [
+    "The Nobadian king's refusal could be read as 'argued against' (nubian -> byzantine). It rests on one partisan account, so I drafted the plainer 'in contact with'.",
+    "The group drafting byzantine-imperial-church-justinianic may draft this pair too."
+   ],
+   "change_reason": "New: the Nubian text names Justinian's rival mission, and no link existed."
+  },
+  {
+   "old_index": null,
+   "id": "cyrilline-miaphysite-egyptian-christianity--coptic-christianity-under-early-islam",
+   "action": "new",
+   "from": "cyrilline-miaphysite-egyptian-christianity",
+   "to": "coptic-christianity-under-early-islam",
+   "type": "continued as",
+   "confidence": "Documented",
+   "note": "Benjamin led the church of Alexandria both before and after the Arab conquest. John of Nikiu says he returned to Alexandria in the thirteenth year after fleeing the Romans. The History of the Patriarchs says the conqueror Amr told him to resume governing his churches.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "John of Nikiu, Chronicle, ch. CXXI (Charles, 1916)",
+     "file": "cic/texts/john-nikiu_chronicle_charles1916.txt",
+     "lines": "12005-12008",
+     "locus": "Chronicle CXXI.1",
+     "quote": "And Abba Benjamin, the patriarch of the Egyptians, returned to the city of Alexandria in the thirteenth year after his flight from the Romans, and he went to the Churches, and inspected all of them.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Severus ibn al-Muqaffa (attrib.), History of the Patriarchs (Evetts, PO 1), Benjamin I",
+     "file": "cic/texts/severus-al-muqaffa_history-patriarchs-coptic-church-v1_evetts1904.txt",
+     "lines": "44689-44690",
+     "locus": "History of the Patriarchs, Pt. I, Ch. XIV (Benjamin I)",
+     "quote": "Resume the government of all thv churches and of thy people, and administer their affairs.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "cyrilline-miaphysite-egyptian-christianity legacy ('the same institution continued under Muslim rule as Coptic Christianity') and its continuesAs field; coptic-christianity-under-early-islam relationsSummary ('Continuation of Miaphysite Egypt').",
+   "wants": [],
+   "drafter_flags": [
+    "Gives the existing continuesAs pairing a sourced link, as era 1 did for syriac-edessa-nisibis. 'thv' is the file's OCR for 'thy'.",
+    "Era 4 owns the Coptic entry's own text; it names this continuation too. Era 4 is not running now, so I drafted it."
+   ],
+   "change_reason": "New: the legacy text names the continuation, and the continuesAs field had no sourced link."
+  },
+  {
+   "old_index": null,
+   "id": "aksumite-christianity--cyrilline-miaphysite-egyptian-christianity",
+   "action": "new",
+   "from": "aksumite-christianity",
+   "to": "cyrilline-miaphysite-egyptian-christianity",
+   "type": "in contact with",
+   "confidence": "Inferential-Thin",
+   "note": "A Syriac letter on the Najran killings of the 520s asks that the patriarch of Alexandria write to the Ethiopian king for help. John of Ephesus calls the Aksumite king a fellow believer. No surviving text from these years is known to show a letter actually sent between them.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Simeon of Beth Arsham, letter on the Najran martyrs, in Pseudo-Zachariah Rhetor, Chronicle VIII.3 (Hamilton and Brooks, 1899)",
+     "file": "cic/texts/zachariah-rhetor_chronicle_hamiltonbrooks1899.txt",
+     "lines": "9997-9999",
+     "locus": "Chronicle VIII.3",
+     "quote": "and especially to the chief priest of Alexandria, in order that he may write to the king of the Ethiopians to come at once and help",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "John of Ephesus, Lives of the Eastern Saints, Life of Simeon the bishop (Brooks, PO 17, 1923)",
+     "file": "cic/texts/john-ephesus_lives-eastern-saints-po17_brooks1923.txt",
+     "lines": "9076-9077",
+     "locus": "Lives 10 (Simeon the Persian debater)",
+     "quote": "an account of these things was written to the king of Aethiopia; and, since he also was a believer, he made this request",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Axel Moberg, introduction to The Book of the Himyarites (Lund, 1924), pp. xxxiv-xxxv (vendored: cic/texts/book-of-the-himyarites-syr-eng_moberg1924.txt, lines 2064-2075 and 2134-2139)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "aksumite-christianity relationsSummary ('In communion with Alexandria'), longDescription and why ('Its church stayed in communion with Alexandria'); cyrilline-miaphysite-egyptian-christianity legacy ('Ethiopian').",
+   "wants": [
+    "The Martyrium Arethae (Greek acts of the Najran martyrs), which Moberg says describes Timothy of Alexandria urging the Aksumite king to war; not vendored.",
+    "Any text from 451-615 naming a bishop of Aksum consecrated by Alexandria."
+   ],
+   "drafter_flags": [
+    "Simeon's letter asks for an Alexandrian letter; it does not show one sent. Moberg (1924) notes the Book of the Himyarites never mentions Alexandria and names a local bishop, Euprepios of Abyssinia; only the later Greek Acta bring in Timothy. Hence Inferential-Thin.",
+    "'In communion' has no exact type among the six; 'in contact with' is the nearest, and its own bar (a named meeting or letter) is not met, which is why the grade is the lowest.",
+    "The 'king of Aethiopia' in the Life of Simeon intervened with the Persian king for imprisoned Miaphysites; the Life gives no name or date. Kaleb is the likely king but the text does not say so, and the note does not."
+   ],
+   "change_reason": "New: the Aksumite text names communion with Alexandria in three fields, and no link existed; graded at what the vendored evidence bears."
+  },
+  {
+   "old_index": null,
+   "id": "aksumite-christianity--post-aksumite-ethiopian-christianity",
+   "action": "new",
+   "from": "aksumite-christianity",
+   "to": "post-aksumite-ethiopian-christianity",
+   "type": "continued as",
+   "confidence": "Widely Accepted",
+   "note": "The later Ethiopian church kept Aksum's king Kaleb in its calendar of saints. Its Synaxarium remembers him as a holy man 'of the True Faith' who went to war for Najran. Modern histories of Aksum treat the Ethiopian church as the same body carried on.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Ethiopian Synaxarium, 20 Genbot (King Kaleb), in Budge, The Book of the Saints of the Ethiopian Church (1928)",
+     "file": "cic/texts/ethiopian-synaxarium_book-of-saints-ethiopian-church-v2-v4-microform_budge1928.txt",
+     "lines": "30426-30428",
+     "locus": "Synaxarium, Genbot 20",
+     "quote": "On this day died the holy and just man kaleb, King of Ethiopia. This saint loved and feared God, and he was of the True Faith.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Stuart Munro-Hay, Aksum: An African Civilisation of Late Antiquity (1991)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "David W. Phillipson, Foundations of an African Civilisation: Aksum and the Northern Horn (2012)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "aksumite-christianity relationsSummary ('parent of the later medieval Ethiopian church'), legacy ('The same institution continued without interruption'), and its continuesAs field.",
+   "wants": [
+    "A text from the seventh or eighth century showing the Aksumite church's bishops or clergy after 615 (none vendored)."
+   ],
+   "drafter_flags": [
+    "The Synaxarium is a medieval compilation; it shows the later church claiming Kaleb, not continuity across 615 itself. The continuity reading rests on Munro-Hay and Phillipson, cited in the census and in Build/worlds/_cross-world/dossiers/aksumite-christianity_Source_Readiness_Dossier.md but not read (no pages cited).",
+    "verification_state: the Synaxarium lines were read directly; the secondary works were not."
+   ],
+   "change_reason": "New: the Aksumite text names the medieval Ethiopian church as its heir, and the continuesAs field had no sourced link."
+  },
+  {
+   "old_index": null,
+   "id": "nubian-christianity--makurian-nubian-christianity",
+   "action": "new",
+   "from": "nubian-christianity",
+   "to": "makurian-nubian-christianity",
+   "type": "continued as",
+   "confidence": "Widely Accepted",
+   "note": "John of Biclarum records that the Makurians accepted Christianity in the third year of Justin II, about 569. Al-Baladhuri shows the Nubians still bound by their treaty under the caliph al-Mahdi, in the 770s and 780s. Modern histories treat Christian Nubia as one continuing church across these centuries.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "John of Biclarum, Chronicle, s.a. 569 (Mommsen, MGH AA 11, 1894)",
+     "file": "cic/texts/chronica-minora-2_marcellinus-victor-tunnunensis-biclaro-isidore-mgh-aa-11-lat_mommsen1894.txt",
+     "lines": "19834",
+     "locus": "John of Biclarum, Chronicle, anno III Iustini, 3",
+     "quote": "Maccurritarum gens his temporibus Christi fidem recepit.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "al-Baladhuri, The Origins of the Islamic State, Part VIII, Terms made with Nubia (Hitti, 1916)",
+     "file": "cic/texts/baladhuri_origins-of-the-islamic-state-v1_hitti1916.txt",
+     "lines": "15254-15255",
+     "locus": "Futuh al-buldan, Part VIII (Nubia)",
+     "quote": "The caliph al-Mahdi ordered that Nubia be held respon- sible every year for 360 slaves and one giraffe",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Derek A. Welsby, The Medieval Kingdoms of Nubia (2002)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "nubian-christianity legacy ('Christian Nubia outlasted this window by many centuries') and its continuesAs field.",
+   "wants": [
+    "A text showing the Nubian church itself between 652 and 697 (e.g. the Faras bishop list in a vendored edition); none vendored."
+   ],
+   "drafter_flags": [
+    "Neither primary source names the church across 652-697: Biclaro shows Makuria Christian by about 569, Baladhuri shows the Nubian state still under the treaty about 780. The continuity of the church rests on Welsby (cited in the census and the nubian-christianity Source Readiness Dossier, not read; no pages).",
+    "al-Mahdi reigned 775-785; the dates are mine, not the file's. The Mommsen year heading reads '569?'; the note says 'about 569'."
+   ],
+   "change_reason": "New: the Nubian legacy names its long continuation, and the continuesAs field had no sourced link."
+  },
+  {
+   "old_index": null,
+   "id": "latin-pastoral-congregational-christianity--latin-africa-under-byzantium",
+   "action": "new",
+   "from": "latin-pastoral-congregational-christianity",
+   "to": "latin-africa-under-byzantium",
+   "type": "influenced",
+   "confidence": "Documented",
+   "note": "Around 550 Facundus of Hermiane cited 'blessed Cyprian, bishop of Carthage and martyr' in his defence of the Three Chapters. He called Augustine the 'most wise and most famous teacher of the churches of Christ'. Procopius says the Carthaginians of 533 revered Cyprian above all other holy men.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Facundus of Hermiane, Pro defensione trium capitulorum I.3 (PL 67, Migne 1865)",
+     "file": "cic/texts/facundus-ferrandus-caesarius-dionysius-pl67-lat_migne1865.txt",
+     "lines": "42540-42541",
+     "locus": "Pro def. I.3",
+     "quote": "beatus Cyprianus Carthaginiensis antistes et martyr",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Facundus of Hermiane, Pro defensione trium capitulorum I.4 (PL 67, Migne 1865)",
+     "file": "cic/texts/facundus-ferrandus-caesarius-dionysius-pl67-lat_migne1865.txt",
+     "lines": "43120-43121",
+     "locus": "Pro def. I.4",
+     "quote": "sapientissimus atque clarissimus Ecclesiarum Christi magister Augustinus",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Procopius, History of the Wars III.21 (Vandalic War; Dewing, 1916)",
+     "file": "cic/texts/procopius_wars-3-4-vandalic_dewing1916.txt",
+     "lines": "2206-2207",
+     "locus": "Wars III.21",
+     "quote": "Cyprian,[57] a holy man, is reverenced above all others by the Carthaginians.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "latin-africa-under-byzantium relationsSummary ('heir to the earlier African Christian tradition of Tertullian, Cyprian and Augustine'), longDescription and legacy (Cyprian and Augustine). The inventory gave Cyprian and Augustine no movement; latin-pastoral-congregational-christianity is 'the churches led by Cyprian at Carthage and Augustine at Hippo'.",
+   "wants": [],
+   "drafter_flags": [
+    "Inventory mapping changed: the inventory lists Cyprian and Augustine with other_id null, but latin-pastoral-congregational-christianity is their church. The reviewer should confirm.",
+    "The PL 67 OCR is rough; both Facundus phrases are clean in the file. Book I chapter numbers are from the CAPUT headings at lines 42385 (III) and 42853 (IV). The date 'around 550' rests on Victor of Tunnuna s.a. 550 ('Eo tempore duodecim libri ... refulsere', Mommsen lines 19053-19054).",
+    "'[57]' is Dewing's footnote marker, kept because the quote must be verbatim.",
+    "Tertullian is not on this link: no text shows this church using him (see dispositions)."
+   ],
+   "change_reason": "New: the text names Cyprian and Augustine's tradition as its inheritance, and no link carried it."
+  },
+  {
+   "old_index": null,
+   "id": "latin-africa-under-byzantium--gothic-and-vandal-homoian-christianity",
+   "action": "new",
+   "from": "latin-africa-under-byzantium",
+   "to": "gothic-and-vandal-homoian-christianity",
+   "type": "argued against",
+   "confidence": "Documented",
+   "note": "When Belisarius took Carthage in 533, Procopius says, the Arian priests fled Cyprian's shrine and the orthodox reclaimed it. Soon after, Bishop Reparatus and the African bishops asked Justinian to restore church lands taken under Vandal rule. His reply ordered property held by Arians handed back to the orthodox churches.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Procopius, History of the Wars III.21 (Vandalic War; Dewing, 1916)",
+     "file": "cic/texts/procopius_wars-3-4-vandalic_dewing1916.txt",
+     "lines": "2234-2237",
+     "locus": "Wars III.21",
+     "quote": "And the priests of the Arians were off in flight, while the Christians who conform to the orthodox faith came to the temple of Cyprian, and they burned all the lamps and attended to the sacred festival",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Justinian, Novel 37 (De Africana ecclesia), to Solomon, prefect of Africa (Schoell-Kroll, 1895)",
+     "file": "cic/texts/justinian_novellae-corpus-iuris-civilis-v3-lat-grc_schoell-kroll1895.txt",
+     "lines": "52510-52512",
+     "locus": "Nov. 37 pr.",
+     "quote": "possessiones eccle- siarum totius Africani tractus tyrannico quidem tempore ablatas eis, post victorias autem caelesti praesidio nobis (contra) Uuandalos praestitas per nostri numinis piam dispositionem eis redditas",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Justinian, Novel 37 (De Africana ecclesia), to Solomon, prefect of Africa (Schoell-Kroll, 1895)",
+     "file": "cic/texts/justinian_novellae-corpus-iuris-civilis-v3-lat-grc_schoell-kroll1895.txt",
+     "lines": "52518-52519",
+     "locus": "Nov. 37.1",
+     "quote": "Si quas autem alias possessiones sive domus sive ecclesiarum ornamenta apud aliquos vel Arianos vel paganos vel alias quaslibet personas detineri probatum fuerit",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "latin-africa-under-byzantium relationsSummary ('restored after a century of Vandal persecution'), longDescription ('When Belisarius destroyed the Vandal kingdom in 533'), why ('restored to its buildings after a century of persecution').",
+   "wants": [
+    "The letter of the council of Carthage of 535 (Reparatus) on receiving Arian clergy, in a vendored edition; the Source Readiness Dossier places it in the Collectio Avellana, but I did not find it in the vendored pars I."
+   ],
+   "drafter_flags": [
+    "Type is a judgment. The persecution itself (Honoric's, in Procopius III.8, lines 914-918) is the Vandal church acting against the Nicene church BEFORE this entry's window opens in 533, so it is not drafted as gothic-and-vandal 'argued against' this entry. What falls inside the window is the restored church acting against the Arians: retaking Cyprian's shrine, and petitioning for the return of property. The petition is reported in Justinian's law, not quoted from the bishops; the law, not the petition, names the Arians. If the reviewer judges this short of 'a text or act directed at the other by name', this sentence should become kept-as-is instead.",
+    "The 535 date for Novel 37 is the standard one; the file shows only its consular subscription in the apparatus, so the note says 'soon after'.",
+    "The group drafting gothic-and-vandal-homoian-christianity may draft this pair, perhaps in the other direction."
+   ],
+   "change_reason": "New: the text names the Vandal persecution and the restoration of 533, and no link joined the two churches."
+  },
+  {
+   "old_index": null,
+   "id": "latin-africa-under-byzantium--byzantine-imperial-church-justinianic",
+   "action": "new",
+   "from": "latin-africa-under-byzantium",
+   "to": "byzantine-imperial-church-justinianic",
+   "type": "argued against",
+   "confidence": "Documented",
+   "note": "Facundus of Hermiane addressed his twelve books defending the Three Chapters to Justinian himself. Victor of Tunnuna records that in 550 the African bishops sent the emperor letters in their defence. He also records that Reparatus of Carthage was deposed and exiled for refusing to condemn them.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Facundus of Hermiane, Pro defensione trium capitulorum, preface (PL 67, Migne 1865)",
+     "file": "cic/texts/facundus-ferrandus-caesarius-dionysius-pl67-lat_migne1865.txt",
+     "lines": "41881-41882",
+     "locus": "Pro def., praefatio (Libri XII ad Justinianum imperatorem)",
+     "quote": "hoc opus suadentibus fratribus ad imperato- rem Constantinopoli scripsi.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Victor of Tunnuna, Chronicle, s.a. 550 (Mommsen, MGH AA 11, 1894)",
+     "file": "cic/texts/chronica-minora-2_marcellinus-victor-tunnunensis-biclaro-isidore-mgh-aa-11-lat_mommsen1894.txt",
+     "lines": "19048-19049",
+     "locus": "Victor Tunnunensis, Chronicon, s.a. 550, 1",
+     "quote": "pro defensione memoratorum trium capitulorum litteras satis idoneas lustiniano principi",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Victor of Tunnuna, Chronicle, s.a. 552 (Mommsen, MGH AA 11, 1894)",
+     "file": "cic/texts/chronica-minora-2_marcellinus-victor-tunnunensis-biclaro-isidore-mgh-aa-11-lat_mommsen1894.txt",
+     "lines": "19068-19070",
+     "locus": "Victor Tunnunensis, Chronicon, post cons. Basilii anno XII, 1",
+     "quote": "Reparatus archiepiscopus plurimis calumniis inipetitus pro eo, quod damnationi trium memoratorum capitulorum assensimi non praebuit, officio sumptibusque privatus Euchaida exilio relegatur",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "latin-africa-under-byzantium relationsSummary ('one of the principal voices resisting Justinian's condemnation of the Three Chapters'), longDescription ('the most stubborn opposition Justinian faced'), why ('refusing Justinian's own doctrinal compromise'), legacy ('an emperor could not settle doctrine by decree'; 'a provincial church could tell an empire no').",
+   "wants": [
+    "A clean edition of Victor of Tunnuna's Chronicle (the Mommsen OCR reads 'lustiniano', 'inipetitus', 'assensimi')."
+   ],
+   "drafter_flags": [
+    "The Mommsen OCR misreads are kept in the quotes ('lustiniano' for Iustiniano, 'inipetitus' for impetitus, 'assensimi' for assensum); the meaning is clear. The Facundus quote keeps the file's line-break hyphen 'imperato- rem'.",
+    "Victor's year for Reparatus's exile is the heading 'POST CONSVLATVM BASILI V. C. ANNO XIL' (line 19066), i.e. 552; the note gives no year for it.",
+    "The group drafting byzantine-imperial-church-justinianic may also draft the reverse (the emperor against the African bishops)."
+   ],
+   "change_reason": "New: the text names the African resistance to Justinian in all four fields, and no link existed."
+  },
+  {
+   "old_index": null,
+   "id": "latin-africa-under-byzantium--byzantine-imperial-church-heraclian-iconoclast",
+   "action": "new",
+   "from": "latin-africa-under-byzantium",
+   "to": "byzantine-imperial-church-heraclian-iconoclast",
+   "type": "argued against",
+   "confidence": "Documented",
+   "note": "In 646 the bishops of Numidia, Byzacena and Mauretania wrote to Pope Theodore against a 'novelty' spreading from Constantinople. Pope Martin told the Roman synod of 649 that they had also appealed to the emperor against its defender, Patriarch Paul of Constantinople.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Letter of the African councils to Pope Theodore (646), read at the Lateran synod of 649 (Mansi X, Welter facsimile 1901)",
+     "file": "cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-10-lat_welter-facsimile1901.txt",
+     "lines": "93527-93530",
+     "locus": "Lateran 649, the African bishops' letter to Theodore",
+     "quote": "exofum apud Conftantinopolitanam civitatem novitatis com- mentum ad nos ufque opinanter fuifle dela- tum.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Pope Martin I at the Lateran synod of 649, on the African letters (Mansi X, Welter facsimile 1901)",
+     "file": "cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-10-lat_welter-facsimile1901.txt",
+     "lines": "93845-93849",
+     "locus": "Lateran 649, Martin's statement on the African letters",
+     "quote": "& piiflimo principi per fuam fuggeftionem acclamantes contra novitatis defenfores , id eft , Paulum Con- ftantinopolitanum antiftitem , fupplicabiliter fuggeflerunt",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "latin-africa-under-byzantium longDescription ('African councils in 646 rejected the empire's next attempted compromise about the wills of Christ'), legacy ('its part in the argument over Christ's wills'). The inventory maps these to byzantine-imperial-church-justinianic; in 646 the empire is the Heraclian entry (byzantine-imperial-church-heraclian-iconoclast, 622-843).",
+   "wants": [
+    "A clean edition (ACO ser. 2, vol. 1, Riedinger) of the Lateran acts of 649, to replace the long-s Welter OCR."
+   ],
+   "drafter_flags": [
+    "Inventory mapping changed from byzantine-imperial-church-justinianic (ends 622) to byzantine-imperial-church-heraclian-iconoclast (era 4), whose window holds 646. Reviewer to confirm.",
+    "The Mansi OCR uses long s ('f') throughout; quotes keep it. The 646 date and the three provinces come from the letter's own heading (Columbus of Numidia, Stephen of Byzacena, Reparatus of Mauretania, lines 93435-93442) and the file header; the 'second session' label is from a Migne note (PL 67 line ~41898) and is not used in the note.",
+    "The 'novelty' is not named as monothelitism in the quoted lines; the letter names Pyrrhus's libellus and Paul (lines 93534-93539). The note says only 'novelty'."
+   ],
+   "change_reason": "New: the text names the African councils of 646 against the empire's doctrine of Christ's wills, and no link existed."
+  }
+ ],
+ "prose_changes": [
+  {
+   "n": 1,
+   "movement": "cyrilline-miaphysite-egyptian-christianity",
+   "field": "relationsSummary",
+   "old": "Continues Alexandria + Desert; contested sibling of the Chalcedonian and Syriac Orthodox traditions",
+   "new": "The church of Alexandria after 451, carried by the old desert monasteries. It broke with the imperial church that accepted Chalcedon, and shared one faith with the Syriac Orthodox church.",
+   "reason": "'Continues Alexandria' pointed at the Alexandrian catechetical school (c. 150-400), a different world; what this church continued is the see of Alexandria, shown by its patriarchs' own History. 'Contested sibling' of the Syriac Orthodox is wrong in kind: the two shared one communion (Evagrius IV.4; History of the Patriarchs, Anastasius), apart from a schism c. 580s-616 that only the Egyptian side records in a vendored text. Restated as the links show: broke with the imperial church, in contact with and influenced by the Syriac Orthodox, carried by the desert monasteries."
+  },
+  {
+   "n": 2,
+   "movement": "cyrilline-miaphysite-egyptian-christianity",
+   "field": "legacy",
+   "old": "This is one of the traditions on the map that never ended: the same institution continued under Muslim rule as Coptic Christianity, and its patriarchal line runs unbroken to the Coptic Orthodox pope of Alexandria today. It gave the wider Oriental Orthodox family — Syriac, Armenian, Ethiopian, Eritrean — its shared theological anchor in Cyril of Alexandria, and it made Coptic a liturgical language still sung in Egyptian churches every week. Its desert monasteries in the Wadi Natrun and its painted late-antique churches in Upper Egypt are still standing, and most are still in use.",
+   "new": "This is one of the traditions on the map that never ended. The same institution continued under Muslim rule as Coptic Christianity. Its line of patriarchs runs unbroken to the Coptic Orthodox pope of Alexandria today. Cyril of Alexandria is still the shared theological anchor of the wider Oriental Orthodox family: Syriac, Armenian, Ethiopian and Eritrean. This church also made Coptic a liturgical language, still sung in Egyptian churches every week. Its desert monasteries in the Wadi Natrun and its painted late-antique churches in Upper Egypt still stand, and most are still in use.",
+   "reason": "'It gave the wider Oriental Orthodox family ... its shared theological anchor in Cyril' claims this church passed Cyril on. No vendored text shows that for Armenia: Timothy Aelurus's Refutation survives in Armenian, but the translation is undated. For the Syriac church the influence ran the other way too (Severus). Restated as a shared anchor, which Severus ('Cyril the teacher of exact orthodoxy', Select Letters VI part 2, line 8924) and Ormanian (1912, lines 2329 and 5284) support. Long sentences split; every other fact kept."
+  },
+  {
+   "n": 3,
+   "movement": "nubian-christianity",
+   "field": "relationsSummary",
+   "old": "Child of Egypt - both rival communions' missions at once",
+   "new": "Converted from Egypt by rival missions in the 540s. Nobadia took the Miaphysite faith of Alexandria's exiled patriarch and refused the faith Justinian's envoys offered. A Chalcedonian chronicler records Makuria's conversion around 569.",
+   "reason": "'Child of Egypt - both rival communions' missions at once' is a note, not a sentence, and 'at once' is unclear. John of Ephesus (HE III, IV.6-8) shows the Miaphysite mission winning Nobadia against Justinian's envoys; John of Biclarum (s.a. 569) records Makuria's conversion. Restated plainly with both."
+  },
+  {
+   "n": 4,
+   "movement": "nubian-christianity",
+   "field": "longDescription",
+   "old": "Christianity reached the Nubian kingdoms south of Egypt through competing missions in the 540s — a Miaphysite priest named Julian sent with the empress Theodora's backing, and a Chalcedonian effort sent with Justinian's. And the story of that race survives only because a Syrian bishop, John of Ephesus, wrote it down from the winning side. What Nubia itself left is not narrative but walls. The cathedral at Faras, built a few generations later,, buried in sand and rescued before the Aswan dam flooded the region, gave up a list of its bishops and more than a hundred painted figures: Nubian bishops, kings and queens, saints, some with dark faces and some pale, in a style nobody had seen before. When Arab armies pushed south after taking Egypt, Nubian archers held them at Dongola, and in 652 the two sides signed the Baqt. A treaty of exchange rather than of conquest, which left Christian Nubia standing on its own terms.",
+   "new": "Christianity reached the Nubian kingdoms south of Egypt through competing missions in the 540s — a Miaphysite priest named Julian sent with the empress Theodora's backing, and a Chalcedonian effort sent with Justinian's. And the story of that race survives only because a Syrian bishop, John of Ephesus, wrote it down from the winning side. What Nubia itself left is not narrative but walls. The cathedral at Faras, built a few generations later, buried in sand and rescued before the Aswan dam flooded the region, gave up a list of its bishops and more than a hundred painted figures: Nubian bishops, kings and queens, saints, some with dark faces and some pale, in a style nobody had seen before. When Arab armies pushed south after taking Egypt, Nubian archers held them at Dongola, and in 652 the two sides signed the Baqt. A treaty of exchange rather than of conquest, which left Christian Nubia standing on its own terms.",
+   "reason": "Typo only: a double comma after 'built a few generations later'. No wording changed."
+  },
+  {
+   "n": 5,
+   "movement": "aksumite-christianity",
+   "field": "relationsSummary",
+   "old": "In communion with Alexandria and sharing its rejection of Chalcedon, Aksum was the parent of the later medieval Ethiopian church. The Najran martyrs of 523 and King Kaleb's intervention in Himyar around 525 are part of its own story.",
+   "new": "Aksum was the parent of the later medieval Ethiopian church. A Miaphysite historian of the time counted its king as a fellow believer. The evidence for its ties to Alexandria in these years is thin. The Najran martyrs of 523 and King Kaleb's intervention in Himyar around 525 are part of its own story.",
+   "reason": "No vendored text from 451-615 shows Aksum in communion with Alexandria or rejecting Chalcedon. Simeon of Beth Arsham asks Alexandria's patriarch to write to the Ethiopian king (Zachariah VIII.3), and John of Ephesus calls the king 'a believer' (Lives, Simeon); Procopius (Wars I.20) has Justinian appeal to the two kingdoms' 'community of religion'. Restated as what those show."
+  },
+  {
+   "n": 6,
+   "movement": "aksumite-christianity",
+   "field": "longDescription",
+   "old": "Aksum had been Christian since the fourth century, and in the period after Chalcedon it was a serious Red Sea power with its own coinage, its own script, and its Bible being translated into Ge'ez. Tradition credits the spread of monasticism and much of that translation work to the Nine Saints, monks said to have come from the Roman east around the turn of the sixth century. In 523 the Jewish king of Himyar, across the water in Yemen, massacred the Christians of Najran. The Aksumite king Kaleb crossed the Red Sea in about 525, destroyed his kingdom, and for a few decades Aksum ruled southern Arabia. Its church stayed in communion with Alexandria and shared its refusal of Chalcedon. Evidence from inside this particular window is thin — inscriptions, a few very early gospel books, archaeology. But the kingdom was still substantial enough in 615 that Muhammad sent his first followers to its king for protection.",
+   "new": "Aksum had been Christian since the fourth century. In the period after Chalcedon it was a serious Red Sea power, with its own coinage, its own script, and its Bible being translated into Ge'ez. Tradition credits the spread of monasticism and much of that translation work to the Nine Saints. They are said to have been monks from the Roman east, arriving around the turn of the sixth century. In 523 the Jewish king of Himyar, across the water in Yemen, massacred the Christians of Najran. The Aksumite king Kaleb crossed the Red Sea in about 525, killed him, and set up a Christian king who paid Aksum tribute. Not long after, the Aksumite soldiers who had stayed behind set up another king, Abramus, and Aksum could not remove him. A Miaphysite historian of the time counted the Aksumite king as a fellow believer. No text from inside these years shows where its church stood on Chalcedon. Evidence from this window is thin: inscriptions, a few very early gospel books, archaeology. Muslim tradition remembers that around 615 Muhammad sent his first followers to its king for protection.",
+   "reason": "Three changes. (1) 'Destroyed his kingdom, and for a few decades Aksum ruled southern Arabia': Procopius (Wars I.20, lines 2586-2626) says Kaleb killed the king and set up a tributary Christian king, who was soon overthrown by Abramus, whom Aksum failed to remove. (2) 'Stayed in communion with Alexandria and shared its refusal of Chalcedon': not shown by any vendored text of the window; restated as John of Ephesus's 'he also was a believer'. (3) Muhammad's followers in 615: no vendored or repo-cited source; attributed to Muslim tradition (see wants). Long sentences split."
+  },
+  {
+   "n": 7,
+   "movement": "aksumite-christianity",
+   "field": "why",
+   "old": "Aksum was already a Christian kingdom astride the Red Sea trade routes when, around 525, its king Kaleb crossed the water to avenge the massacre of Christians at Najran and briefly ruled southern Arabia. Its church stayed in communion with Alexandria and shared its rejection of Chalcedon, though the direct evidence from these particular centuries is thin: mostly inscriptions, early manuscripts and archaeology.",
+   "new": "Aksum was already a Christian kingdom astride the Red Sea trade routes. Around 525 its king Kaleb crossed the water to avenge the massacre of Christians at Najran. For a time southern Arabia paid Aksum tribute. A Miaphysite historian counted its king as a fellow believer, but direct evidence from these centuries is thin: mostly inscriptions, early manuscripts and archaeology.",
+   "reason": "'Briefly ruled southern Arabia' and 'stayed in communion with Alexandria and shared its rejection of Chalcedon' qualified as in the longDescription (Procopius, Wars I.20; John of Ephesus, Lives, Simeon). The text's own statement that the evidence is thin is kept."
+  },
+  {
+   "n": 8,
+   "movement": "latin-africa-under-byzantium",
+   "field": "relationsSummary",
+   "old": "The Nicene church of Roman Africa, restored after a century of Vandal persecution, was heir to the earlier African Christian tradition of Tertullian, Cyprian and Augustine, and became one of the principal voices resisting Justinian's condemnation of the Three Chapters.",
+   "new": "The Nicene church of Roman Africa, restored after nearly a century of Vandal rule and repeated persecution. Its bishops still cited Cyprian and Augustine, great teachers of the earlier African church that had also produced Tertullian. It became one of the principal voices resisting Justinian's condemnation of the Three Chapters.",
+   "reason": "'Heir to the tradition of Tertullian': no text shows this church using Tertullian; Facundus cites Cyprian and Augustine (Pro def. I.3, I.4). 'A century of Vandal persecution': Vandal rule ran from the 430s to 533, but persecution came in waves; Procopius says Hilderic (523) was harsh 'neither to the Christians nor to anyone else' (Wars III.9, lines 1028-1031). Restated to match."
+  },
+  {
+   "n": 9,
+   "movement": "latin-africa-under-byzantium",
+   "field": "longDescription",
+   "old": "When Belisarius destroyed the Vandal kingdom in 533, the Nicene church of Roman Africa came out of a century of persecution and was restored to its buildings and its bishoprics. And within twenty years it was the most stubborn opposition Justinian faced anywhere in his own empire. When he condemned the Three Chapters to appease the Miaphysites, the African bishops refused. Facundus of Hermiane wrote twelve books against it, Reparatus of Carthage was deposed and exiled, and the chronicler Victor of Tunnuna spent years in prison and exile for the same refusal. Africa stayed a place where theology got argued at full volume. Maximus the Confessor spent formative years here, and African councils in 646 rejected the empire's next attempted compromise about the wills of Christ. Then Arab armies reached Carthage in the 690s, and the ancient African church, the church that had given Latin Christianity Tertullian, Cyprian and Augustine, was finished within a few generations.",
+   "new": "When Belisarius destroyed the Vandal kingdom in 533, the Nicene church of Roman Africa came out of nearly a century of Vandal rule and repeated persecution. It was restored to its buildings and its bishoprics. Within twenty years it was among the most stubborn opposition Justinian faced anywhere in his own empire. When he condemned the Three Chapters to appease the Miaphysites, the African bishops refused. Facundus of Hermiane wrote twelve books against it, Reparatus of Carthage was deposed and exiled, and the chronicler Victor of Tunnuna spent years in prison and exile for the same refusal. Africa stayed a place where theology got argued at full volume. Maximus the Confessor lived here for some years, and in 645 he debated the deposed patriarch Pyrrhus in Africa. African councils in 646 rejected the empire's next attempted compromise about the wills of Christ. Then Arab armies reached Carthage in the 690s. The ancient African church, which had given Latin Christianity Tertullian, Cyprian and Augustine, was finished within a few generations.",
+   "reason": "Three changes. (1) 'A century of persecution' as in the relationsSummary. (2) 'The most stubborn opposition Justinian faced anywhere': Victor of Tunnuna also records an Illyrian synod defending the Three Chapters (s.a. 549, Mommsen line 19038), so 'among the most stubborn'. (3) 'Maximus spent formative years here': he came to Africa as an adult monk; what the vendored text shows is the disputation with Pyrrhus held in Africa (PG 91, the Acta disputationis, lines ~15042-15063; date 645 from the file header). Long sentences split; every other fact kept."
+  },
+  {
+   "n": 10,
+   "movement": "latin-africa-under-byzantium",
+   "field": "why",
+   "old": "When Belisarius destroyed the Vandal kingdom in 533, the Nicene church of Roman Africa was restored to its buildings after a century of persecution, and within twenty years it was refusing Justinian's own doctrinal compromise over the Three Chapters. Bishops like Reparatus of Carthage were deposed and exiled for that refusal, and when Arab armies reached Carthage in the 690s, the church that had produced Tertullian, Cyprian and Augustine came to an end within a few generations.",
+   "new": "When Belisarius destroyed the Vandal kingdom in 533, the Nicene church of Roman Africa was restored to its buildings after nearly a century of Vandal rule. Within twenty years it was refusing Justinian's own doctrinal compromise over the Three Chapters. Bishops like Reparatus of Carthage were deposed and exiled for that refusal. When Arab armies reached Carthage in the 690s, the church that had produced Tertullian, Cyprian and Augustine came to an end within a few generations.",
+   "reason": "'After a century of persecution' qualified as in the relationsSummary. Long sentences split; no other change."
+  },
+  {
+   "n": 11,
+   "movement": "latin-africa-under-byzantium",
+   "field": "legacy",
+   "old": "This church left no successor. Latin Christianity in North Africa dwindled after the conquest and had effectively disappeared by the later Middle Ages — the only major region of the ancient Christian world to vanish so completely. But it handed on its refusal. Its resistance over the Three Chapters hardened a Western conviction that an emperor could not settle doctrine by decree, and its part in the argument over Christ's wills fed straight into the council of 680-681 that closed it. Its earlier centuries had already given the Latin church Tertullian, Cyprian and Augustine; what this last century added was a demonstration that a provincial church could tell an empire no. The ruins of Carthage and of dozens of African basilicas remain.",
+   "new": "This church left no successor. Latin Christianity in North Africa dwindled after the conquest and had effectively disappeared by the later Middle Ages. It is the only major region of the ancient Christian world to vanish so completely. But it handed on its refusal. Its bishops wrote to the emperor in defence of writings the council of Chalcedon had accepted, and would not condemn them. In 646 its councils wrote to Rome against the teaching of a single will in Christ, and their letters were read out at the Roman synod of 649. The council of 680-681 later condemned that teaching. Its earlier centuries had already given the Latin church Tertullian, Cyprian and Augustine. What this last century added was a demonstration that a provincial church could tell an empire no. The ruins of Carthage and of dozens of African basilicas remain.",
+   "reason": "Two reception claims qualified. (1) 'Hardened a Western conviction that an emperor could not settle doctrine by decree': no vendored text shows that reception; restated as what Facundus (preface, to Justinian) and Victor of Tunnuna (s.a. 550) show. (2) 'Fed straight into the council of 680-681 that closed it': the vendored chain is the 646 letters read at the Lateran synod of 649 (Mansi X, lines 93425-93430) and Constantinople III's two-wills definition (NPNF 2.14, line 24884); restated as that sequence without the causal 'straight into'. Long sentences split; every other fact kept."
+  }
+ ],
+ "wants": [
+  "Michael the Syrian, Chronicle (Chabot), book X: the Peter of Callinicus-Damian schism and the 616 reunion, to give the Syriac side of the break the History of the Patriarchs records.",
+  "A dated witness to the Armenian translation of Timothy Aelurus's Refutation, or the Armenian Book of Letters (Girk' T'ght'ots), to show Egyptian anti-Chalcedonian texts reaching Armenia in 451-554.",
+  "The Martyrium Arethae (Greek acts of the Najran martyrs), which Moberg (1924) says has Timothy of Alexandria urging the Aksumite king to war.",
+  "Any text of 451-615 naming a bishop of Aksum consecrated by Alexandria, or stating Aksum's stand on Chalcedon.",
+  "A vendored text of Ibn Ishaq's account (via Ibn Hisham) of the first Muslim emigration to Aksum, to restore the 615 sentence as fact rather than tradition.",
+  "A seventh- or eighth-century text showing the Aksumite church's clergy after 615.",
+  "The Faras bishop list, or another text of the Nubian church between 652 and 697, in a vendored edition.",
+  "A vendored source for Dongola and the year 652 of the Baqt (e.g. al-Maqrizi's Khitat on the Baqt, or Welsby 2002 read and cited by page).",
+  "A Life of a Scetis abbot from 451-642, or Zachariah Rhetor read for the Egyptian monks' refusal of Chalcedon, to document the desert monasteries' role from inside the window.",
+  "The letter of the council of Carthage of 535 (Reparatus) on Arian clergy, in a vendored edition.",
+  "A clean edition of Victor of Tunnuna's Chronicle (Mommsen OCR is rough).",
+  "ACO ser. 2, vol. 1 (Riedinger), the Lateran acts of 649, to replace the long-s Mansi X OCR for the African letters of 646.",
+  "A Latin or English text of the Disputation with Pyrrhus with a clean Latin column (PG 91 OCR is unreadable in Greek), to quote its African setting.",
+  "Munro-Hay (1991), Phillipson (2012) and Welsby (2002) read and cited by page, before the two 'continued as' links from Aksum and Nubia can be checked against them."
+ ],
+ "escalations": [
+  "A (reviewer check, not a method change): two inventory mappings changed. Cyprian and Augustine map to latin-pastoral-congregational-christianity (inventory: no movement); the 646 councils map to byzantine-imperial-church-heraclian-iconoclast (era 4), not the Justinianic entry, whose window ends in 622.",
+  "A (cross-group): five drafted links touch movements another era-3 group owns: byzantine-imperial-church-justinianic (3 links, including the existing broke-with), syriac-orthodox-west-syriac-christianity (2), gothic-and-vandal-homoian-christianity (1). The merge should check for duplicates.",
+  "A (cross-world, for Mark): the census carries two Egyptian Miaphysite entries for the same years: cyrilline-miaphysite-egyptian-tradition (era 2, 'from 451', Deferred by Step 0, continuesAs this entry) and cyrilline-miaphysite-egyptian-christianity (era 3, 451-642). The corpus-map dossier already names this duplicate-id question as needs-ruling. I drafted only the era-3 entry's links.",
+  "A (methodology, for Mark): the 'in communion with' relationship (Aksum and Alexandria; Egypt and the Syriac Orthodox) has no type of its own among the six. I used 'in contact with', whose bar (a named meeting or letter) Aksum's case does not meet, hence Inferential-Thin. If communion is to be shown on the tree, the type set would need a ruling."
+ ]
+}

@@ -1,0 +1,352 @@
+{
+ "round": 1,
+ "kind": "full review",
+ "verdict": "revise",
+ "counts": {
+  "blocking": 0,
+  "substantial": 11,
+  "minor": 10
+ },
+ "findings": [
+  {
+   "id": "R1-01",
+   "target": "census application of secondary sources (36 era-7 links)",
+   "severity": "substantial",
+   "issue": "Putting the drafts into the census stripped file, lines, locus and quote from every secondary source the drafts gave with a locus (56 of 71 drafted secondaries carried them). This left identical duplicate entries on nine links (McGlothlin x3 on anabaptist--baptists, x2 on puritanism--baptists; Brumbaugh, Brandt, Anjou, Rees, Waterworth, Mouravieff, Assemani x2). It also removed the published evidence on which several outcomes rest: McGlothlin 2775-2790 (anabaptist--baptists), Assemani 1725 101042-101076 (CoE schism--tridentine), Mouravieff 6040-6070 (Ottoman--Russian), Schaff headnote line 14 (Geneva--Huguenots). Earlier eras publish secondaries with file and lines (89 such entries in the census), so the schema allows them. Affected: rhineland--lutheran, tridentine--lutheran, lutheran--schwenckfelders, geneva--scottish, geneva--huguenots, anabaptist--baptists, anabaptist--radical-pietism, english--family-of-love, lutheran--english, geneva--english, english--puritanism, english--puritanism--2, geneva--puritanism, puritanism--baptists, geneva--remonstrants, hussite--czech, scandinavian--tridentine, anti-trinitarian--remonstrants, jesuits--tridentine, tridentine--borromean, borromean--tridentine, tridentine--carmelite, geneva--ottoman, tridentine--ottoman, kyiv--ottoman, kyiv--russian-nikon, jesuits--kyiv, ottoman--russian-stoglav, stoglav--old-believers, armenian-cilicia--new-julfa, st-thomas-1300--st-thomas, coe-schism--st-thomas, st-thomas--jesuits, coe-timur--coe-schism, coe-schism--tridentine, coe-schism--chaldean.",
+   "evidence": "Drafting_Record.json links[*].sources (e.g. anabaptist--baptists: McGlothlin lines 406-407, 2745-2748, 2775-2779) against world-census.json edges; python comparison of the two.",
+   "fix": "Find why the apply step drops these fields and fix that step. Do not patch by hand. Then re-apply each link's secondaries as the Drafting_Record gives them (file, lines, locus, quote, license). Re-run node tools/validate-census.mjs, which will then check the secondary quotes too."
+  },
+  {
+   "id": "R1-02",
+   "target": "kongo-christianity-afonso-to-1650--the-antonian-movement-in-kongo",
+   "severity": "substantial",
+   "issue": "Graded Dominant Modern Reconstruction, but the only secondary is Thornton (1998), which the drafter says was not read. A named-not-rechecked secondary cannot raise a grade. The note also states facts no listed source shows. 'She was a baptized noblewoman', 'Thornton's 1998 study reads her movement as born inside that church' and 'Her own words survive only in reports by the friars who judged her' rest on nothing that was read. The one primary (Lopes) shows only the 1491 arrival. The Kongo relationsSummary then states 'later grew out of it' as fact.",
+   "evidence": "lopes_report-of-the-kingdom-of-congo_hutchinson1881.txt:3511-3514; Drafting_Record drafter_flags ('the grade rests on Thornton ... not read here').",
+   "fix": "Regrade to Inferential-Thin (keep Thornton listed, named-not-rechecked; Thornton read at a locus is in wants). Note: \"The Kongo church began when Portuguese ships arrived in 1491, a report of 1591 says. Dona Beatriz Kimpa Vita's movement rose inside Kongo from 1704. How far it grew out of that older church rests on one modern study, so the tie is thin.\" (FRE 71.2, FK 6.7). Kongo relationsSummary: replace 'later grew out of it.' with 'may have grown out of it, as one modern study holds.' (whole field FRE 71.8, FK 5.9)."
+  },
+  {
+   "id": "R1-03",
+   "target": "kirishitan-japan--japanese-christianity-hidden-emergence-meiji",
+   "severity": "substantial",
+   "issue": "Graded Dominant Modern Reconstruction on Turnbull and Whelan, neither of them read. They cannot raise the grade. The note says what these two scholars argue ('trace the hidden Christians of 1865 back to these believers') without anyone having read them. The primaries show only the 1614 expulsion. The movement's relationsSummary and why, and the mission-born label's legacy, state the 250-year hidden survival as plain fact.",
+   "evidence": "pages_histoire-religion-chretienne-japon-annexes-fra_1870.txt:6913-6914; cocks_diary-v1_thompson1883.txt:2588-2590; Drafting_Record drafter_flags.",
+   "fix": "Regrade to Inferential-Thin, unless Turnbull or Whelan is read at a locus first. Note: \"A Franciscan report of the 1620s says the ban of 1614 sent every missionary out of Japan. The English trader Richard Cocks noted the same thing in 1615. The tie to the hidden Christians found in 1865 rests on modern studies alone, so it is thin.\" (FRE 72.3, FK 6.7). kirishitan-japan.relationsSummary: \"Grew from the Jesuit mission of 1549. The ban of 1614 drove its communities underground. Later studies hold that hidden believers kept the faith for about two hundred and fifty years without a priest.\" (FRE 69.1, FK 6.3). Apply the same qualifier to the hidden-believers sentence in kirishitan-japan.why and in mission-born legacy."
+  },
+  {
+   "id": "R1-04",
+   "target": "new-spain-and-andes-mission-born-christianity--colonial-latin-american-devotional-catholicism",
+   "severity": "substantial",
+   "issue": "Graded Widely Accepted, but the only secondary (Mills, Cambridge History vol. 6, ch. 27) is named in the label's source list and was not read. The drafter says so. The note's 'Historians read these as one church in two stages' attributes a reading to historians on that unread work.",
+   "evidence": "motolinia_...sanchez-garcia1914.txt:8541-8542; gage_english-american-...1648.txt:11083-11085; Drafting_Record drafter_flags ('Mills's chapter ... not read here').",
+   "fix": "Read Mills or another repo-cited secondary at a locus and keep WA. Otherwise regrade to Inferential-Thin and use this note: \"Motolinia tells of the first friars baptizing many people in Mexico from 1524. A century later, the friar Thomas Gage saw Indian towns in Guatemala run their own groups for the saints. The tie rests on these two accounts, a century apart.\" (FRE 65.0, FK 7.6)."
+  },
+  {
+   "id": "R1-05",
+   "target": "outcomes: lutheran--scandinavian, geneva--scottish, geneva--huguenots, geneva--dutch (and, unoutcomed, hieronymian--tridentine, kyiv--ottoman)",
+   "severity": "substantial",
+   "issue": "The drafters applied the stricter test unevenly to one class of act: a church body adopting another side's confession, catechism, worship order or set text. Four got outcomes: the Uppsala council binding Sweden to the Augsburg Confession, the Scottish General Assembly's order 'according to the Kirk of Geneva', the Paris synod approving the Calvin-drafted confession, and Emden's catechism rule. Two of the same kind were left minor as 'set reading' or 'text taken up': Trent's Vulgate decree and the four patriarchs' 1643 decree that every Orthodox Christian read and receive Mohyla's Confession. The ruling lists translations and set reading among what does not count. A text another body adopts by vote is still a text taken up by the other side. The act that counts is a condemnation, a split, or a rule or settlement imposed or changed by authority (for example Milan's levy, Diamper's ban, the Moscow patriarchate). Separately, the Emden outcome is half about the Heidelberg Catechism, not Geneva, and the link's note never mentions Emden.",
+   "evidence": "bensow_...1912.txt:31003-31040; kirk-of-scotland_booke-...peterkin1839.txt:1201-1211; schaff_gallican-confession-fra-eng_1877.txt:14; dutch-reformed-synods_acta-...rutgers1889.txt:3018-3022; mogila_orthodox-confession_overbeck1898.txt:389-393; council-of-trent_...waterworth1848.txt:12474-12482.",
+   "fix": "Drop the outcome (and outcome_locus) from lutheran--scandinavian, geneva--scottish, geneva--huguenots and geneva--dutch. Record outcome_considered: 'A church body adopted the other side's text or order by its own vote: a text taken up, which the stricter test excludes, as for Trent's Vulgate decree and the patriarchs' 1643 decree.' On geneva--dutch, also drop the Emden source, since the note does not use it. Mark should confirm the class ruling (see escalations_view). If he rules the class counts, add outcomes to hieronymian--tridentine and kyiv--ottoman as well, so that all six are treated alike."
+  },
+  {
+   "id": "R1-06",
+   "target": "the-tridentine-church--carmelite-reform-and-spanish-mystics (outcome)",
+   "severity": "substantial",
+   "issue": "The outcome fails the stricter test. The only act shown is Teresa's own practice of asking the bishop's consent 'according to the decree of the council'. That is a rule followed by one person, a practice taken up. No council, canon or authority's act appears in the listed lines. Trent's decree is mentioned, not quoted. The outcome also repeats the note.",
+   "evidence": "teresa-of-avila_book-of-foundations_lewis1913.txt:13766-13768.",
+   "fix": "Drop the outcome. outcome_considered: 'Teresa followed a decree of the Council in her own foundations; a practice taken up by one person, with no act of an authority in the listed lines.'"
+  },
+  {
+   "id": "R1-07",
+   "target": "the-kyiv-mohyla-orthodox-revival--the-union-of-brest-and-ruthenian-greek-catholic- (outcome)",
+   "severity": "substantial",
+   "issue": "The outcome fails the stricter test, and it says more than its locus shows. Susza (a Uniate writer, 1666) reports only an envoy's words to Smotrytsky: the synod 'censere eam contrariam et impiam'. That is a verbal judgment on one man's book, reported from the other side. It is not a canon or a condemnation of the union or its members. No result that lasted is shown, and Smotrytsky soon went over to the union. 'Smotrytsky's book for the union' is also stronger than the note's 'a book that leaned toward Rome'.",
+   "evidence": "susza_saulus-et-paulus-ruthenae-unionis-lat_martynov1864.txt:3738-3755.",
+   "fix": "Drop the outcome. outcome_considered: 'An envoy's report of a synod's verdict on one man's book, from the other side; no canon, condemnation of the union or lasting result is shown.'"
+  },
+  {
+   "id": "R1-08",
+   "target": "readability: seven link notes below FRE 60",
+   "severity": "substantial",
+   "issue": "Six kept notes and one new note fail Reading Ease 60. The merge note says every other note passes, but the kept notes were never scored. waldensians--waldensian-union 56.9; lutheran--anabaptists 41.6; latin-pastoral--geneva 51.9; anabaptists--lutheran 44.3; lutheran--geneva (contact) 54.2; lutheran--geneva--2 54.8; kyiv--brest 59.97.",
+   "evidence": "engine.m7.turn_readability.score_turn on each note; Drafting_Record merge_notes ('Every other note ... scores FRE >= 60').",
+   "fix": "Replace with the following, each scored. waldensians-in-the-alps--the-waldensian-reformed-union: \"In 1532 the Waldensian churches of the Alpine valleys chose to hold their worship in the open. Their confession of that year says its teaching was handed down from father to son. Scholars disagree whether this shows an unbroken line back to the old Waldensians, or a later reading of the past.\" (70.1/7.7). lutheran-wittenberg-and-its-congregations--the-anabaptist-movements: \"In 1530 the Lutheran side named and condemned the Anabaptists in the Augsburg Confession. It rejects their view that children should not be baptized. It also rejects their rule that a Christian may not serve as a judge or ruler.\" (65.7/7.3). latin-pastoral-congregational-christianity--the-reformed-cities-zurich-and-geneva: \"In his Institutes, Calvin calls on Augustine as his guide on grace and on God's choice of the saved. He says he could fill a whole book with Augustine's words alone and need no others.\" (73.0/7.4). the-anabaptist-movements--lutheran-wittenberg-and-its-congregations: \"The Hutterite chronicle names Luther and Zwingli. It says they laid bare the faults of the popes, but then leaned on worldly rulers and human help. This is the view of one Anabaptist group, in a chronicle kept over many years.\" (69.2/7.0). lutheran-wittenberg-and-its-congregations--the-reformed-cities-zurich-and-geneva: \"In October 1529 Zwingli went to Marburg to meet Luther and Melanchthon and talk about the Lord's Supper. Two Zurich writers tell of it. One is Zwingli himself, who says he preached there. The other is his friend Myconius.\" (74.7/5.2). lutheran-wittenberg-and-its-congregations--the-reformed-cities-zurich-and-geneva--2: \"The Lutheran Formula of Concord of 1577 has a chapter on the Lord's Supper. It names the 'Zwinglian teachers' and says they broke away when the Augsburg Confession was first read out. The chapter then condemns the 'Sacramentarians'.\" (64.0/7.4). the-kyiv-mohyla-orthodox-revival--the-union-of-brest-and-ruthenian-greek-catholic-: \"In his own notes Petro Mohyla called the union a wicked falling away from the faith. In August 1628 a synod at the Caves monastery in Kyiv sent envoys to Meletius Smotrytsky. They asked about his Apology, a book that leaned toward Rome. The envoy told him the synod held the whole book to be against the faith and wicked.\" (61.4/8.4). This also corrects 'a synod ... met Meletius Smotrytsky': Susza says he was not admitted to the Caves monastery and four priests were sent to him at St Michael's."
+  },
+  {
+   "id": "R1-09",
+   "target": "two-way: era-7 continuations named in text with no link",
+   "severity": "substantial",
+   "issue": "Five era-7 movements name their continuation into the next era, and their continuesAs field points there, but no 'continued as' link exists. Three dispositions also misuse 'out-of-scope': a link with one end in era 7 is in scope. (a) russian-church-stoglav-to-nikon.relationsSummary: 'What followed - Patriarch Nikon's liturgical reforms ... belongs to the next chapter of this story' (continuesAs russian-church-nikon-to-holy-synod; disposition out-of-scope). (b) the-union-of-brest-and-ruthenian-greek-catholic-.relationsSummary: 'Its line runs on to the Lviv underground church' (continuesAs ruthenian-uniate-18th-century; disposition out-of-scope). (c) armenian-christianity-new-julfa.legacy: 'The Armenian Apostolic Church continues, with Etchmiadzin still its mother see' (continuesAs armenian-christianity-era-8; disposition not-a-relationship). (d) orthodoxy-under-the-ottomans-parish-millet-and-n.legacy: 'This is the church that came through. The Ecumenical Patriarchate is still at the Phanar' (continuesAs orthodoxy-under-the-ottomans-1650-1821; no disposition). (e) the-tridentine-church.legacy: 'That framework governed Catholic life until the Second Vatican Council' (continuesAs catholic-church-ancien-regime). Only an Inferential-Thin link straight to era 10 carries it. The four era-7 continuations that are drawn (English, Huguenots, Philippines, Czech) show the pass meant to carry this kind of link.",
+   "evidence": "world-census.json movements[*].continuesAs and edges; Drafting_Record dispositions (out-of-scope entries for russian-church-stoglav-to-nikon and the-union-of-brest...).",
+   "fix": "Draft a sourced 'continued as' link for each of (a) to (e), from the era-7 movement to its continuesAs successor, or qualify the sentence if no source carries it. Change the three misapplied dispositions to link or qualify. A succession of patriarchs or a dated synod across 1650 would carry (a), (d) and (e). For (b), the Lviv clause would need the 18th-century link; otherwise qualify it."
+  },
+  {
+   "id": "R1-10",
+   "target": "the-anabaptist-movements.relationsSummary",
+   "severity": "substantial",
+   "issue": "'They led the way for the free churches that came later, such as the Baptists' is stated as fact. The link that carries it (anabaptist--baptists) is Contested, and its note opens 'Scholars disagree about how much the English Baptists owed the Anabaptists'. The disposition says 'qualify', but the text was not qualified.",
+   "evidence": "world-census.json the-anabaptist-movements.relationsSummary; edge the-anabaptist-movements--the-baptists note.",
+   "fix": "Whole field: \"Lutheran, Reformed and Catholic churches all condemned them. Catholic lands hunted them hardest. Later free churches such as the Baptists shared some of their beliefs. How much they owed them is still argued.\" (FRE 62.6, FK 6.6)."
+  },
+  {
+   "id": "R1-11",
+   "target": "the-ethiopian-monastic-flowering--ethiopian-christianity-gragn-to-fasilides; church-of-the-east-timur-to-hakkari--church-of-the-east-schism-of-1552",
+   "severity": "substantial",
+   "issue": "The era-6 branch carries the same two link ids at Documented, and this branch carries them at Widely Accepted. One published id cannot hold two grades. The merge note leaves the conflict for 'whichever merges second'. Era 6's Mendes quote names the monastic founders, which is the continuity itself.",
+   "evidence": "Drafting_Record merge_notes (the two 'DISAGREE on grade' entries).",
+   "fix": "Settle before either branch reaches main. Take the better-evidenced version: for the Ethiopian link, era 6's Documented with Mendes added. For the Church of the East link, compare era 6's Mingana 1504 and Masius evidence with this branch's, and keep one grade and one source list on the single id."
+  },
+  {
+   "id": "R1-12",
+   "target": "build narration across era-7 links, sources and prose (all hits)",
+   "severity": "minor",
+   "issue": "All hits found by grep and by reading: (1) the-tridentine-church--the-post-vatican-ii-parish-world note: 'That later decree is cited here by name only, so this tie is thin.' (2) scandinavian-conversion-christianity--scandinavian-reformation-kingdoms note: 'with four centuries between the two ends, so the line is thin'. 'Ends' is link-talk, and the note runs to six sentences. (3) the-society-of-jesus--the-kyiv-mohyla-orthodox-revival, source work string: '(cited in this movement's own source list; not read)'. The same note says 'The college's own rules, which might show this plainly, are not in print', an unsupported claim about what has been published. (4) Hiob Ludolf work string on three links (ethiopian-monastic--ethiopian, ethiopian--jesuits, jesuits--ethiopian) and T. J. Lamy work string on two (coe-timur--coe-schism, coe-schism--chaldean) carry '(file <name>.txt)'. (5) the-reformed-cities-zurich-and-geneva.legacy: 'Four traditions shown on their own on this map took their pattern from them.' Checked and not hits: 'record' as a verb in lutheran--geneva ('Two Zurich writers record it'); 'records' meaning historical records in lutheran.why and scottish.why.",
+   "evidence": "grep of every era-7-touching note, outcome, source work/locus string and era-7 prose field for we hold|we have|vendored|not checked|census|entry|record|this pass|link|grade|cited here|not read|file.",
+   "fix": "(1) Replace the last sentence with: \"This rests on the 1570 bull alone. The 1963 decree is named but not quoted.\" (whole note FRE 73.8, FK 5.8). (2) Whole note: \"The historian Anjou traces the see of Skara in Sweden to Sigfrid, the missionary who baptized King Olof Skötkonung. When its bishop left in 1529, the provost Sven was chosen, and a council at Uppsala backed him in 1530. Denmark broke harder: in 1536 its bishops were jailed, and the church law of 1537 set a superintendent over each diocese. This rests on one history from the 1850s, so the tie is thin.\" (64.6/8.6). (3) Work string: \"Ihor Sevcenko, 'The Many Worlds of Peter Mohyla', Harvard Ukrainian Studies (1984)\". Delete the note's last sentence: the remaining two score 61.2/9.6. (4) Move the file names into the source's file field and delete the parentheses. (5) \"Four traditions took their pattern from them.\" (whole field 60.7/7.2)."
+  },
+  {
+   "id": "R1-13",
+   "target": "sentence length and sentence count in link notes",
+   "severity": "minor",
+   "issue": "the-english-reformation-and-elizabethan-settleme--the-tridentine-church has a 28-word sentence. the-english-reformation-and-elizabethan-settleme--recusant-english-catholicism has a 26-word sentence. Twenty-five notes run past the brief's three sentences: four to six each, the worst being scandinavian-conversion (6), anabaptist--baptists (5) and puritanism--baptists (5).",
+   "evidence": "sentence split of every note (scratch script mech.py).",
+   "fix": "English--Tridentine: \"Henry VIII's orders of 1536 told the clergy to keep the laws that ended the Pope's 'usurped power' in England. Under Mary I, in 1555, London parishes prayed for the Pope again. In 1562 John Jewel wrote that the English had left Rome and gave thanks for it. In 1570 Pope Pius V cut Elizabeth off from the church.\" (77.5/5.9). English--recusant: \"The Act of Uniformity of 1559 fined anyone who stayed away from the parish church twelve pence each time. In January 1586 a London court found priests guilty of treason. They had been made priests in France by the Pope's authority and had then stayed in England.\" (73.2/6.8). Trim the six- and five-sentence notes when they are next touched."
+  },
+  {
+   "id": "R1-14",
+   "target": "the-reformed-cities-zurich-and-geneva--the-huguenots (note)",
+   "severity": "minor",
+   "issue": "'Among them were Arnold and Peter Gilbert' reads as two Gilberts. The letter names 'Arnold', who replaces Vesener, and a different man, 'Peter Gilbert'. Peter Gilbert is on line 1982 but outside the quote.",
+   "evidence": "calvin_letters-vol4_bonnet1858.txt:1979-1986.",
+   "fix": "\"Calvin wrote from Geneva in May 1559, just before the French churches met in synod at Paris. His letter names the ministers Geneva was sending to help them. Two of them were a man called Arnold and Peter Gilbert.\" (69.3/6.7). Extend the quote to: \"Arnold is substituted in his place, a man well versed in polite letters ; — though Peter Gilbert has not the advantages of a liberal education,\" (lines 1981-1983)."
+  },
+  {
+   "id": "R1-15",
+   "target": "the-reformed-cities-zurich-and-geneva--dutch-further-reformation-and-refuge-culture (note)",
+   "severity": "minor",
+   "issue": "'Gisbertus Voetius taught at Utrecht' does not appear in the cited lines (20622-20625). The same file supports it in the dedication: 'GISBERTO VOETIO, DIENAER DES Goddelicken woorts, ende Professor DER H. Theologie tot Utrecht.'",
+   "evidence": "voetius_catechisatie-heidelbergschen-catechismus-v1-nld_kuyper1891.txt:904-907, 1170-1172, 20622-20625.",
+   "fix": "Add a primary source with file voetius_catechisatie-heidelbergschen-catechismus-v1-nld_kuyper1891.txt, lines 906-907, quote \"Professor DER H. Theologie tot Utrecht.\". Note first sentence: \"Gisbertus Voetius was professor of theology at Utrecht.\" (whole note 63.5/7.2)."
+  },
+  {
+   "id": "R1-16",
+   "target": "outcome wording: the-tridentine-church--the-humiliati; the-english-reformation-and-elizabethan-settleme--recusant-english-catholicism",
+   "severity": "minor",
+   "issue": "The Humiliati outcome repeats the note's first sentence word for word and does not name the result. The recusant outcome's 'Under the new law' does not stand alone, because no law has been named.",
+   "evidence": "bullarium-romanum_...cherubini.txt:92832-92843; catholic-record-society_...pollen1908.txt:15381-15402.",
+   "fix": "Humiliati: \"The bull put an end to the order of Humiliati brothers. It did away with its offices, its rules and its rights.\" (lines 92832-92843; 76.5/5.3). Recusant: \"In 1586 London courts found priests guilty of treason under a law of the last parliament. Their crime was being made priests abroad and then staying in England.\" (83.5/5.0)."
+  },
+  {
+   "id": "R1-17",
+   "target": "ambrosian-milan-standalone--tridentine-parish-renewal-borromean-milan (note)",
+   "severity": "minor",
+   "issue": "'Augustine says Ambrose's church began singing hymns in 386' gives Augustine a year he does not give. The quoted lines say only 'At this time'. The date 386 comes from context outside the quote.",
+   "evidence": "npnf101_augustine-confessions-letters.xml:13770-13773.",
+   "fix": "\"Borromeo's biographer says Milan had always kept the Ambrosian rite. Borromeo revised its Missal and let no one depart from it, because it was so old. Augustine says Ambrose's church began to sing hymns 'after the manner of the Eastern Church.' How much of the later rite goes back to Ambrose is unclear.\" (69.4/6.9)."
+  },
+  {
+   "id": "R1-18",
+   "target": "the-tridentine-church--the-anabaptist-movements (note and grade)",
+   "severity": "minor",
+   "issue": "The Martyrs Mirror lines are the compiler's report of Sebastian Franck, not the book's own statement. Franck's 'popedom' means Catholic lands generally, not Trent. Ensisheim and Sattler were Habsburg civil courts. The Documented grade can stand: the canon condemns, word for word, the rebaptizing that names the group ('Anabaptist' means rebaptizer). But the note should not fold the martyr book into Trent's act.",
+   "evidence": "council-of-trent_canons-and-decrees_waterworth1848.txt:14242-14246; van-braght_martyrs-mirror_sohm1886.txt:60486-60499.",
+   "fix": "\"In March 1547 the Council of Trent condemned anyone who said that those baptized as babies must be baptized again as adults. The canon does not name the Anabaptists. A Mennonite martyr book quotes a writer who says they were hunted 'first especially in popedom.' It says about six hundred died at Ensisheim alone.\" (61.5/8.0)."
+  },
+  {
+   "id": "R1-19",
+   "target": "sentence fragments in era-7 prose",
+   "severity": "minor",
+   "issue": "Group C's four are confirmed: Dutch longDescription ('English separatists, French and Flemish refugees, Jews expelled from Iberia, and books that could be published nowhere else.'), Remonstrants ('Asking the government to allow their view.'), Waldensian union ('And to pay for a new French translation of the Bible, ...'), Czech ('Surviving as a tolerated, functioning body long after the Hussite wars that gave it birth.'). The same pattern, from an earlier sentence split and not new in this pass, appears in: Zurich-Geneva longDescription ('And Geneva after 1536 under John Calvin, ...', 'Which makes this one of the best pictures ...'); English Reformation longDescription ('And only afterwards became a change ...', 'The Book of Common Prayer, first issued in 1549 ..., which fixed ...'); Scottish longDescription ('Usually over small matters, ...'); Huguenots legacy ('Huguenot surnames, ...'); Recusant longDescription ('Mass said in an upstairs room, ...') and legacy ('And a devotional literature, ...'); Puritanism longDescription ('That a church with bishops ...', 'A normal thing for ordinary men and women to produce.'); Jesuits longDescription ('Not as a monastic order ...'); Family of Love longDescription ('The Family of Love, a secretive fellowship ...'); Ottoman longDescription ('The neomartyr, executed ...'); Philippines longDescription ('Who baptized, gathered scattered settlements ...'); Kyiv-Mohyla longDescription ('On the reasoning that ...', 'An Orthodox Confession of faith, ...'); Carmelite longDescription ('And spent the rest of her life ...', 'Which is when he wrote ...'); Tridentine legacy ('The Latin Mass in the form fixed in 1570, ...').",
+   "evidence": "Reading of every era-7 relationsSummary, longDescription, why and legacy in world-census.json.",
+   "fix": "Repair them in one sweep across era 7, joining each fragment back to its sentence and keeping each sentence under about 25 words. This is doc hygiene on text not drafted in this pass, so flag it to the owning thread rather than fold it into this revision, unless Mark folds it in."
+  },
+  {
+   "id": "R1-20",
+   "target": "the-english-reformation-and-elizabethan-settleme--family-of-love-and-spiritualists-franck-niclaes; family-of-love.longDescription and why",
+   "severity": "minor",
+   "issue": "The year '1580' for the royal proclamation, stated as fact in two prose fields, rests only on Fuller's 1845 editor's footnote (named-not-rechecked). The 1606 tract shows proclamations against H. N. but gives no year, and Strype does not print the 1580 proclamation.",
+   "evidence": "family-of-love_supplication-examined-and-confuted_1606.txt:1373-1375; strype_annals-of-the-reformation-v2-pt2_1824.txt header note (line 8).",
+   "fix": "Either read Fuller at a locus, or drop the year from the prose: 'Familists were hunted by royal proclamation in England.' The proclamation is already in wants."
+  },
+  {
+   "id": "R1-21",
+   "target": "st-thomas-christians-under-portuguese-pressure-d--northeast-india-revivals-and-the-mar-thoma-refor; the-ethiopian-monastic-flowering--ethiopian-christianity-gragn-to-fasilides",
+   "severity": "minor",
+   "issue": "Both links are graded Widely Accepted, and their secondaries (Whitehouse, Howard, Ludolf) are cited with no locus, as 'narratives'. The vendored files do carry the matter: Howard ch. III from line 3055 (1653); Whitehouse line 9992 (Muttancherry oath); Ludolf line 10029 (the patriarch of Alexandria). Without a locus, a reader cannot tell the secondary was read.",
+   "evidence": "howard_christians-of-st-thomas-and-their-liturgies_1864.txt:3055; whitehouse_lingerings-of-light-in-a-dark-land_1873.txt:9992; ludolf_new-history-of-ethiopia_jp1682.txt:10029.",
+   "fix": "Add file, lines and a quote to each secondary, or confirm in the record that each was read. Specificity then stays A."
+  }
+ ],
+ "two_way_gaps": [
+  {
+   "movement": "russian-church-stoglav-to-nikon",
+   "field": "relationsSummary",
+   "text": "What followed - Patriarch Nikon's liturgical reforms ... belongs to the next chapter of this story.",
+   "gap": "continuation to russian-church-nikon-to-holy-synod (its continuesAs) has no link; disposition wrongly out-of-scope",
+   "see": "R1-09"
+  },
+  {
+   "movement": "the-union-of-brest-and-ruthenian-greek-catholic-",
+   "field": "relationsSummary",
+   "text": "Its line runs on to the Lviv underground church of the twentieth century.",
+   "gap": "no continued-as to ruthenian-uniate-18th-century (its continuesAs); disposition wrongly out-of-scope",
+   "see": "R1-09"
+  },
+  {
+   "movement": "armenian-christianity-new-julfa",
+   "field": "legacy",
+   "text": "The Armenian Apostolic Church continues, with Etchmiadzin still its mother see",
+   "gap": "continuation to armenian-christianity-era-8 (its continuesAs) marked not-a-relationship; no link",
+   "see": "R1-09"
+  },
+  {
+   "movement": "orthodoxy-under-the-ottomans-parish-millet-and-n",
+   "field": "legacy",
+   "text": "This is the church that came through. The Ecumenical Patriarchate is still at the Phanar in Istanbul.",
+   "gap": "continuation to orthodoxy-under-the-ottomans-1650-1821 (its continuesAs) has no link or disposition",
+   "see": "R1-09"
+  },
+  {
+   "movement": "the-tridentine-church",
+   "field": "legacy",
+   "text": "That framework governed Catholic life until the Second Vatican Council of 1962-65 revised it",
+   "gap": "continuation to catholic-church-ancien-regime (its continuesAs) has no link; only an Inferential-Thin era-10 link",
+   "see": "R1-09"
+  },
+  {
+   "movement": "the-anabaptist-movements",
+   "field": "relationsSummary",
+   "text": "They led the way for the free churches that came later, such as the Baptists.",
+   "gap": "disposition 'qualify' not carried out; Contested link stated as fact",
+   "see": "R1-10"
+  },
+  {
+   "movement": "kongo-christianity-afonso-to-1650",
+   "field": "relationsSummary",
+   "text": "The prophetic movement of Dona Beatriz, from 1704, later grew out of it.",
+   "gap": "stated as fact on a link whose only secondary was not read",
+   "see": "R1-02"
+  },
+  {
+   "movement": "kirishitan-japan / mission-born label",
+   "field": "relationsSummary, why, legacy",
+   "text": "hidden believers kept a transmitted faith for roughly two hundred and fifty years without a priest",
+   "gap": "stated as fact on a link whose secondaries were not read",
+   "see": "R1-03"
+  }
+ ],
+ "outcomes_view": [
+  {
+   "link": "the-reformed-cities-zurich-and-geneva--the-anabaptist-movements--2",
+   "verdict": "keep",
+   "reason": "The council's mandate that rebaptizers be drowned, and its sentence on Manz, are a law condemning a group (Egli 33701-33706, 33747-33752)."
+  },
+  {
+   "link": "the-tridentine-church--the-humiliati",
+   "verdict": "keep",
+   "reason": "A papal bull abolishing the order is an authority excluding a group (Bullarium 92832-92843). Rewrite the wording (R1-16)."
+  },
+  {
+   "link": "the-tridentine-church--lutheran-wittenberg-and-its-congregations",
+   "verdict": "keep",
+   "reason": "The bull's condemning clause (Mirbt 15502-15506) and Mirbt's summary of the burning order and the penalty clause (15508-15512) show a law condemning a teaching, within 10 lines."
+  },
+  {
+   "link": "lutheran-wittenberg-and-its-congregations--scandinavian-reformation-kingdoms",
+   "verdict": "drop",
+   "reason": "The Uppsala council adopting the Augsburg Confession is a text taken up by vote (R1-05)."
+  },
+  {
+   "link": "the-reformed-cities-zurich-and-geneva--the-scottish-reformation-and-kirk",
+   "verdict": "drop",
+   "reason": "The Assembly adopting Geneva's order of worship is a practice taken up by vote (R1-05)."
+  },
+  {
+   "link": "the-reformed-cities-zurich-and-geneva--the-huguenots",
+   "verdict": "drop",
+   "reason": "The synod approving a Geneva-drafted confession is a text taken up, and the evidence is an editor's headnote (R1-05)."
+  },
+  {
+   "link": "the-tridentine-church--the-anabaptist-movements",
+   "verdict": "keep",
+   "reason": "A council canon condemning the teaching that defines the group (Waterworth 14242-14248)."
+  },
+  {
+   "link": "the-anabaptist-movements--the-baptists",
+   "verdict": "keep",
+   "reason": "A split into separate bodies, shown by McGlothlin 2775-2790. That locus must be restored to the census source (R1-01)."
+  },
+  {
+   "link": "the-scottish-reformation-and-kirk--the-tridentine-church",
+   "verdict": "keep",
+   "reason": "Parliament's act ending papal jurisdiction, on pain of banishment, is a law excluding (Knox II 5162-5187)."
+  },
+  {
+   "link": "the-english-reformation-and-elizabethan-settleme--recusant-english-catholicism",
+   "verdict": "keep",
+   "reason": "Treason convictions under statute show a law excluding a group, carried out (Pollen 15381-15402). Rewrite the wording (R1-16)."
+  },
+  {
+   "link": "the-reformed-cities-zurich-and-geneva--dutch-further-reformation-and-refuge-culture",
+   "verdict": "drop",
+   "reason": "Emden's catechism rule is a text taken up, half of it the Heidelberg, not Geneva's; the note does not mention it (R1-05)."
+  },
+  {
+   "link": "the-reformed-cities-zurich-and-geneva--anti-trinitarian-currents-servetus-polish-brethr",
+   "verdict": "keep",
+   "reason": "The Geneva council's sentence of death and the burning of Servetus's books (Calvini Opera 8: 54355-54361, 54713-54717)."
+  },
+  {
+   "link": "the-tridentine-church--tridentine-parish-renewal-borromean-milan",
+   "verdict": "keep",
+   "reason": "A provincial council's new levy, made to carry out Trent's mandate, is a rule set by an authority (Acta 2786-2803). It is a new rule, not a text taken up."
+  },
+  {
+   "link": "the-tridentine-church--carmelite-reform-and-spanish-mystics",
+   "verdict": "drop",
+   "reason": "One person's practice under a decree; no authority's act in the listed lines (R1-06)."
+  },
+  {
+   "link": "orthodoxy-under-the-ottomans-parish-millet-and-n--the-reformed-cities-zurich-and-geneva",
+   "verdict": "keep",
+   "reason": "Two synods condemn and anathematize 'Calvin's heresy' and the Confession's chapters (Lucaris 1645: 2594-2598, 4178-4189)."
+  },
+  {
+   "link": "the-tridentine-church--the-union-of-brest-and-ruthenian-greek-catholic-",
+   "verdict": "keep",
+   "reason": "The bull incorporating the Ruthenian church is a settlement by authority that made a separate body (Harasiewicz 11166-11186)."
+  },
+  {
+   "link": "the-kyiv-mohyla-orthodox-revival--the-union-of-brest-and-ruthenian-greek-catholic-",
+   "verdict": "drop",
+   "reason": "An envoy's report of a verdict on one book, from the other side; no lasting result (R1-07)."
+  },
+  {
+   "link": "orthodoxy-under-the-ottomans-parish-millet-and-n--russian-church-stoglav-to-nikon",
+   "verdict": "keep",
+   "reason": "Creating the Moscow patriarchate is a settlement changed by authority (Fletcher 10232-10247; Mouravieff 6040-6070)."
+  },
+  {
+   "link": "the-tridentine-church--st-thomas-christians-under-portuguese-pressure-d",
+   "verdict": "keep",
+   "reason": "Synod decrees condemning the community's books and binding it to Trent (Hough 31939-31955, 32704-32708)."
+  },
+  {
+   "link": "church-of-the-east-schism-of-1552--st-thomas-christians-under-portuguese-pressure-d",
+   "verdict": "keep",
+   "reason": "Diamper's decree forbidding the patriarch of Babylon to be acknowledged, on pain of excommunication, changed practice by authority and ended the tie (Hough 31641-31668). A third party performed it, but the test does not require either side to act."
+  },
+  {
+   "link": "church-of-the-east-schism-of-1552--the-tridentine-church",
+   "verdict": "keep",
+   "reason": "Julius III's proclamation of Sulaqa produced two rival patriarchs, a split (Assemani 1725, 101042-101076). That locus must be restored to the census source (R1-01)."
+  },
+  {
+   "link": "links left minor (all outcome_considered)",
+   "verdict": "keep",
+   "reason": "Checked all 42. None clearly passes. Closest: english--family-of-love (proclamations mentioned without a date); jesuits--ethiopia (the emperor's proclamation was reversed in 1632); geneva--remonstrants (Dort's sentence is not in the listed lines). hieronymian--tridentine and kyiv--ottoman stay minor, consistent with R1-05."
+  }
+ ],
+ "escalations_view": "Group E (label movement with no links): agree with the draft. Every relationship the mission-born label names is carried by a regional movement's link, and its dispositions point to those links, so the two-way check is met. Drawing links on the label would carry each tie twice. Whether the tree should show the label detached is a display question for Mark. It needs no change to the links. Group F (Brest 'broke with' drawn to Ottoman Orthodoxy): agree. The union's synodal charter (Akty IV 13931-13935) and the exarch Nikephoros's circular, cutting the metropolitan off 'as apostates' in the name of the Constantinople throne (15036-15046), are dated rupture documents from both sides. The Kyiv metropolis was subject to that throne. Group G (two 'broke with' links on one side's sources): keep both at Documented, but say so in the notes. ethiopian--jesuits rests on Jesuit histories, which record the expulsion they suffered and quote the emperor's own proclamation (Telles 18963-18967; Lobo 1667-1669). st-thomas--jesuits rests on the community's 1787 document and a Roman Carmelite envoy (Sebastiani 663-666), with no Jesuit letter. The brief says 'ideally from both sides', which is a preference, not a requirement. A Jesuit letter of 1653 and the Susenyos chronicle stay in wants. New, for Mark: the outcome-test class in R1-05. Should a church body adopting another side's confession, catechism or worship order by its own vote count as 'a rule ... changed by an authority', or as 'a text taken up'? The drafters split four to two. My verdict is that it is a text taken up, so drop the four outcomes. Whichever way Mark rules, it must apply to all six links, including Trent's Vulgate decree and the patriarchs' 1643 decree. This interprets his change order, so it is his call.",
+ "checked": "Read CLAUDE.md, the Drafting_Brief, and the Era7_Brief rules. Diffed the census against origin/main: 95 edges touch the 34 era-7 movements; 80 added, 2 changed, 13 unchanged, none removed; 42 prose fields changed, all in the Drafting_Record. Ran node tools/validate-census.mjs: 0 errors, 2 warnings (shortName length on two non-era-7 movements). Also ran it with --base origin/main: 0 errors. The validator confirms every primary quote verbatim at its lines, the symmetric ordering, ids and vocabularies. I checked type and arrow direction for all 95 by hand: symmetric types are ordered, critics are on the from side, and no type changes were needed. I opened the cited lines myself, with context, for every outcome locus (21) and for the claims beyond the quotes in the notes on: Zurich council (Egli), the Humiliati bull, Exsurge Domine (Mirbt), Waterworth, Uppsala (Bensow), the Scottish Assembly, the Schaff headnote, Trent's baptism canon and the Martyrs Mirror, McGlothlin, the Scottish Act of 1560, Pollen, the Calvin letters and Calvini Opera on Servetus, the Borromeo Acta, the Lucaris censures and 1645 preface, Harasiewicz, Susza and Mohyla's note, Fletcher and Mouravieff, the Hough Diamper acts, Assemani 1725, Voetius, Calvin letter vol. 4, Frere and Douglas (Parker, Field and Wilcox), Baxter, Cranz, Dort and Brandt, Purchas, Chirino, Zakaria and Ormanian, Sebastiani, Telles, the Hutterite chronicle, Gilles, the Giussano/Manning preface, and the Howard, Whitehouse and Ludolf loci. For every secondary on a WA, DMR or Contested link, I grepped records/, Build/ and cic/ to see that the repo cites it, and checked the drafter flags for whether it was read. Found three grades resting on unread works. Scored every note and outcome touching era 7, and all 42 changed prose fields, with engine.m7.turn_readability. All the changed prose passes; seven notes fail; every replacement proposed here was scored. Grepped all notes, outcomes, source strings and era-7 prose for build narration. Did the two-way check over all 324 dispositions against the four fields of all 34 era-7 movements, and against continuesAs. Compared the Drafting_Record links with the census edges field by field, which found the stripped secondaries. Did not re-read every primary quote's context for the 13 links kept unchanged from earlier passes, beyond readability and narration. Did not check the Anjou-based facts in the kept Scandinavian note."
+}

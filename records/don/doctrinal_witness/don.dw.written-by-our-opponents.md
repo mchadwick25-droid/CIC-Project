@@ -16,7 +16,7 @@ confidence:
     The strongest-grounded record in this batch, because its subject is the evidentiary situation itself
     rather than a claim resting on it. Every element is stated in the world_core's own thinness and cautions
     fields and traceable to a named source record: the Author Gravity concentration, the four texts that
-    speak as us, the epigraphic exception, the contested Circumcellion characterisation, and the named
+    speak as us, the epigraphic exception, the contested Circumcellion characterization, and the named
     unread material. The one thing this record cannot do is stand outside its own problem - it is a self-assessment
     of a corpus, written from inside the corpus.
 sources:
@@ -81,7 +81,7 @@ text: >-
   body, a light on a hillside, and they were written to be read aloud at
   a graveside, not filed with a magistrate. But the founding documents
   run the other way, and they do not flatter us. There is a court
-  transcript in which a town councillor admits, under threat of torture, that
+  transcript in which a town councilor admits, under threat of torture, that
   he added false lines to the letter proving our central accusation. There is another in which our own bishops are
   read out advising each other, in writing, to keep a charge out of
   court because it was true. We could not remove those if we wanted to.

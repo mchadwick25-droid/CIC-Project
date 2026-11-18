@@ -16,7 +16,7 @@ confidence:
     his biographer''s account of what he maintained at Trier, written some eighteen years later.'
 sources:
 - source_id: ijc.source.sulpicius-chronica
-  locus: 'Sacred History II.50, the Priscillian narrative (npnf211 lines 11652-11660)'
+  locus: "Sacred History II.50, the Priscillian narrative (cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml, lines 11652-11660)"
   license: public-domain
 text: For Martin, being then settled at Treves, did not cease to importune Ithacius, that he should give
   up his accusations, or to implore Maximus that he should not shed the blood of the unhappy persons
@@ -35,7 +35,7 @@ modern_lens_note: >-
   Treves is Trier, then an imperial capital. Martin is not arguing that Priscillian was innocent or
   that heresy did not matter - he accepts the bishops' verdict and their sentence of expulsion. His
   objection is entirely about jurisdiction: who may impose which penalty, and for what kind of
-  offence.
+  offense.
 retrieval:
   tier: 2
   retrieve_when:

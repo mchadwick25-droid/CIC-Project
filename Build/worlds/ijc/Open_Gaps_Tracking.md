@@ -427,3 +427,25 @@ Status: OPEN for the project lead to schedule.
 47. **`ijc.dw.how-we-read` reworded so it no longer quotes Matthew 16:18, 2026-10-28.** Closes the "quotes Matthew 16:18 in wording the vendored sources do not hold" entry (2026-10-27). The vendored Leo edition (`cic/texts/npnf212_leo-great-gregory-great.xml`) reads "Thou art Peter, and upon this rock I will build My Church". No vendored source holds the record's modern wording word for word. Per the precedent Mark set on 2026-10-28 for `don.dw.two-churches-in-one-town` (reword, no quotation marks, nothing new quoted), the sentence now reads "Rome read Christ's words to Peter, that he would build his church on that rock, as a standing grant of office." The meaning is unchanged. The witness-quotation gate no longer lists the record and is registered in `engine/m1/gates.py`. The embedded-quotation pin for this world moves from 7 to 6 records, since this record held one. The package is rebuilt and repinned.
 
    Status: CLOSED.
+
+48. **Neighbour re-confirmation requested by the Latin Apologists (`latap`) Doc_01, 2026-10-29.** Doc_01 of the Latin Apologists (Atlas I.43; `Build/worlds/latap/`) names this world as a built neighbour. The corpus map splits Lactantius: his apologetic corpus is the Latin Apologists', and *De mortibus persecutorum* is this world's (`ijc.source.lactantius-de-mortibus`). The work's authorship is disputed (Harnack holds it Lactantius's and Brandt denied it, as Harnack reports), and this world's source record does not name the dispute. This world is asked to re-confirm the shared boundary from its own side. No record here is edited by that request.
+
+   Status: OPEN.
+
+49. **Open points removed from ijc construction documents by the live-surface cleanup, 2026-11-03.** The clauses below were removed from the ijc documents named in each item so the documents state what is true now. They are recorded in full here.
+   (1) ijc Doc_04 line 7, removed: "**Note on this document's own place in this project's methodology:** the L4 Template used for this document's structure states plainly that it \"has not yet been tested against a live build.\" This is that template's first live application. Anything about it that doesn't fit this world's actual evidentiary shape is flagged in §7 (Open Items) for report back to the coach thread, per the template's own explicit invitation, not silently worked around."
+   (2) ijc Doc_04 L132 (wording replaced): "flagged as an open item (§7) rather than asserted either way" (Candidate 6 not independently evidenced in Strand B).
+   (3) ijc Doc_07 L12: "see Open Item 2" (pointer to the lens-merge judgement; now "item 2 of the closing list").
+   (4) ijc Doc_09 L29 (clause removed): "and should be re-confirmed once World #8's own Doc_01 exists (an open item, not a defect)."
+   (5) ijc ijc_World_Profile L6 (clause removed): "flagged here and in the Open Items below for System Hub, per this thread's own standing instruction to report rather than silently work around process gaps" (Doc_07 selected five lenses, not the template's fixed A–E set).
+   (6) ijc ijc_World_Profile L214: "Doc_07's own open item" (pagan-boundary coverage gap pointer; not found in Doc_07).
+
+   Status: OPEN.
+
+50. **Every quote rendering reviewed by Opus against the edition, 2026-11-03.** The `rendering-review` gate found 39 ijc renderings with no named Opus review file. Two independent Opus reviewers read all 39 against each record's `text` and the edition text in `cic/texts/` at its locus. Round 1 failed two, both P1. In `chalcedon-definition`, the translator's bracketed "[united]" was voiced as the Council's own word. In `vc-conquer-by-this`, the hour and the inscription had moved outside Constantine's "He said that" report. Both were re-rendered by Opus and passed a second independent Opus reader. `chalcedon-definition`'s use_note.means was corrected the same way. An independent pull-request review re-checked both and a sample of the passed renderings. Per-record log: `Review-Artifacts/Rendering_Review_Log_39_2026-11-03.md`. The `m1:rendering-review/ijc` waiver is removed; the gate reports 0 for ijc (39 → 0).
+
+   Status: CLOSED.
+
+51. **Every verbatim quote names its exact lines, 2026-11-04.** All 39 ijc verbatim quotes with no line span in their locus now name one, the span the independent Opus reviewer found in the batch review tables (see "Every quote rendering reviewed by Opus against the edition", 2026-11-03). The `quote-locus` gate checks each. Four reviewer spans were short and were corrected to the lines that hold the whole text. `compelled-to-come-in` (19616-19624) and `ambrose-blessing-changes-nature` (33203-33270) each join two passages with an elision; each locus names both parts. `constantine-bishop-outside` sits at 66732-66734, as its locus already said, and `he-deferred-it-in-the-hope` at 67751-67762. Rough pointers for the same file ("from file line 67742", "npnf201 lines ...") are replaced by the exact span; labeled pointers to a chapter division are kept.
+
+   Status: CLOSED. Owner: Library record-defects thread.

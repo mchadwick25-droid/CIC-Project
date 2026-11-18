@@ -15,7 +15,7 @@ confidence:
   divergence_note: null
 sources:
 - source_id: pahc.source.justin-dialogue
-  locus: "8"
+  locus: "8 (cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml, lines 17851-17857)"
   license: public-domain
 text: "When he had spoken these and many other things, which there is no time for mentioning at present, he went away, bidding me attend to them; and I have not seen him since. But straightway a flame was kindled in my soul; and a love of the prophets, and of those men who are friends of Christ, possessed me; and whilst revolving his words in my mind, I found this philosophy alone to be safe and profitable. Thus, and for this reason, I am a philosopher."
 modern_rendering: >-

@@ -16,6 +16,8 @@ assignments:
       - syriac-edessa-nisibis
     role: tradition
     confidence: assigned
+    locus_ids: [line1]
+    language: eng
     note: >
       Aphrahat is one of the built Syriac world's core voices. Dem. VII closes
       with his address to "solitaries, sons of a covenant" - direct evidence
@@ -47,6 +49,8 @@ assignments:
       - syriac-edessa-nisibis
     role: tradition
     confidence: assigned
+    locus_ids: [line67, line79, line81, line83, line87, line89, line91, line93, line95, line99, line101, line103, line105, line107, line109, line111, line113]
+    language: eng
     note: >
       Aphrahat's exposition of the two great commandments and forgiveness.
       Same standing as Dem. VII above: core voice of the built Syriac world,

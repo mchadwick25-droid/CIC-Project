@@ -13,6 +13,7 @@ from engine.m1.loader import RECORDS_ROOT, load_fleet_records, load_world_record
 from engine.m1.registry import get_world, is_fixture, load_registry
 
 from . import builders, validation
+from .edition_facts import source_edition_facts
 from .canonical import canonical_json
 from .manifest import build_manifest, manifest_hash
 
@@ -92,7 +93,7 @@ def compile_world(
         "compiled/capsule.md": builders.build_capsule(voiced, registry_entry),
         "compiled/quotes.json": builders.build_quotes_json(voiced),
         "compiled/figures.json": builders.build_figures_json(voiced),
-        "compiled/repository.json": builders.build_repository_json(voiced),
+        "compiled/repository.json": builders.build_repository_json(voiced, source_edition_facts(voiced, registry_entry.get("census_id"))),
         "compiled/coverage.json": builders.build_coverage_json(voiced, fleet),
         "compiled/frame.json": builders.build_frame_json(voiced, fleet, registry_entry),
         "compiled/indexes/canon-map.json": builders.build_canon_map_json(fleet),

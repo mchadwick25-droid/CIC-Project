@@ -17,7 +17,7 @@ confidence:
     Celestine's letter, not a passage from Cassian, Sulpitius, or Vincent themselves.
 sources:
 - source_id: gallic.source.npnf-editorial-apparatus
-  locus: "Gibson's prolegomena to Cassian (npnf211 div iv.i.i, file lines 15767-15770): the editor's account of the Massilian response to Celestine's letter"
+  locus: "Gibson's prolegomena to Cassian (cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml, lines 15767-15770; div iv.i.i): the editor's account of the Massilian response to Celestine's letter"
   license: public-domain
 retrieval:
   tier: 3

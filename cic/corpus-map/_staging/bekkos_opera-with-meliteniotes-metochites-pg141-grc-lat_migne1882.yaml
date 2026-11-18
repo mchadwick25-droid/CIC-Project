@@ -1,0 +1,11 @@
+source_file: bekkos_opera-with-meliteniotes-metochites-pg141-grc-lat_migne1882.txt
+assignments:
+- row_id: bekkos_opera-with-meliteniotes-metochites-pg141-grc-lat_migne1882--john-bekkos-works-on-the-union-of-the-churches-greek-and
+  work: 'John Bekkos, works on the union of the churches, Greek and Latin (PG 141)'
+  author: bekkos
+  locus: 'from about OCR line 575; add 12 to OCR line numbers'
+  atlas_ids:
+  - byzantine-church-after-1054
+  role: tradition
+  confidence: provisional
+  note: 'The patriarch''s own defence of the union. He speaks for the party that accepted the union.'

@@ -1,0 +1,151 @@
+{
+  "round": 1,
+  "kind": "full review",
+  "verdict": "revise",
+  "counts": {
+    "blocking": 1,
+    "substantial": 5,
+    "minor": 7
+  },
+  "findings": [
+    {
+      "id": "R1-01",
+      "target": "pelagianism--hieronymian-ascetic-literary (grade)",
+      "severity": "blocking",
+      "issue": "Graded Documented, but no quoted line shows the act itself. Augustine reports a rumour: the followers of Pelagius 'are said to have' done it. Innocent's letter says the women 'left untold the name' of the attacker. Jerome's own account (Ep. 138) is in code names. Documented needs a quote that shows the relationship. These lines show a contemporary attribution, which is a different thing. The drafter flagged this, and the flag is right. The note itself is honest; only the grade overreaches.",
+      "evidence": "cic/texts/npnf105_augustine-anti-pelagian-writings.xml:10586 ('Certain followers of Pelagius are said to have carried their support of his cause ... They are said') and 10590; cic/texts/npnf206_jerome-principal-works.xml:28472-28475 (Innocent: 'they have left untold the name and motive of his human agent. Now although there can be no doubt as to who is the guilty person'; the editors' footnote: 'The attack was supposed to have been instigated by Pelagius'); 28503-28525 (Ep. 138: 'Catiline' for Pelagius).",
+      "fix": "Set confidence to 'Inferential-Thin' (keep citation_specificity 'A' and verification_state 'verified-direct'). Replace the note with: 'In 416 the monasteries of Jerome's community at Bethlehem were attacked and burned, and his deacon was killed. Augustine reports that followers of Pelagius were said to have done it. Pope Innocent noted that the women who told him of it did not name the attacker. So the link rests on report, not on a named act.' Optionally add, as a fourth primary source: Innocent, Letter to John of Jerusalem (Jerome, Ep. 137), npnf206 lines 28474-28475, quote 'Now although there can be no doubt as to who is the guilty person;'. Add to wants: 'A repo-cited modern study of the Bethlehem attack of 416, for a Widely Accepted reading'."
+    },
+    {
+      "id": "R1-02",
+      "target": "aksumite-christianity-conversion-era--aksumite-christianity (grade)",
+      "severity": "substantial",
+      "issue": "Documented 'continued as' rests on two moments 170 years apart. There is a bishop of Aksum in the 350s, and a Christian king and churches in the 520s-550s. No vendored line names a bishop or church of Aksum between them, or after 451. The era-1 review set the bar for a 'continued as' of a see: the see shown on both sides of the split (Opus_Review_Round1.json, era 1, R1-02). The drafter raised the same question (escalation 4). By that bar the grade is one step too high. Continuity is the natural reading, but here it is an inference from two snapshots.",
+      "evidence": "cic/texts/npnf204_athanasius-select-works-letters.xml:36108-36112 (Constantius to Aezanes and Sazanes on Frumentius, 'Bishop of that place'); cic/texts/procopius_wars-1-2-persian_dewing1914.txt:2586-2588 (Hellestheaeus 'a Christian'); cic/texts/cosmas-indicopleustes_christian-topography_mccrindle1897.txt:7265-7266 ('So too in Ethiopia and Axom'). Neither later text names a bishop.",
+      "fix": "Either (a) find a vendored line that names a bishop or church of Aksum after 451 and add it, keeping Documented; or (b) set confidence to 'Inferential-Thin' and add a last sentence to the note: 'No bishop of Aksum is named in these sources between Frumentius and the sixth century, so the unbroken line is inferred.' Add to wants: 'A vendored or repo-cited source naming a bishop or church of Aksum between c. 360 and c. 520 (e.g. a Ge'ez or Coptic episcopal list, or Munro-Hay)'."
+    },
+    {
+      "id": "R1-03",
+      "target": "homoian-arian-christianity--gothic-and-vandal-homoian-christianity (type)",
+      "severity": "substantial",
+      "issue": "'Continued as' means the same community carried into a later entry by a period split or rename. These two entries are not a split. They overlap from 451 to 589, and the Homoian entry has no continuesAs pointer. The Homoian text itself runs on to Toledo 589 and the Lombards. The drafter flagged the overlap. The sources show something else that the method already has a type for. Ulfila signed the Homoian creed of 360 as bishop of the Goths. The Goths took up that faith on the emperor's account. In 427 or 428 a Goth-escorted bishop still named that creed. That is a church that grew out of the imperial Homoian party: 'gave rise to'. It meets the Documented bar (named people passing, in a dated text). The Gothic entry's own summary reads the same way ('Descended from Ulfila's missionary church').",
+      "evidence": "census movements: homoian-arian-christianity dates '4th-6th c.', end 589, continuesAs null; gothic-and-vandal-homoian-christianity 451-c. 680. npnf202:9608-9610 (Ulfilas assents to the creed of Constantinople 360); 34561-34563; 14445-14448 (Goths 'adherents to that heresy on the emperor's account'); augustine_arian-sermon-collatio-maximinum-pl42-lat_migne1886.txt:54421-54422, 54500-54503.",
+      "fix": "Change type to 'gave rise to' (keep from/to, id, confidence 'Documented', all sources). Replace the note's last sentence with: 'Socrates, writing in the fifth century, says many Goths took up this faith to please the emperor Valens, and still held it in his day.' No change to the link id."
+    },
+    {
+      "id": "R1-04",
+      "target": "donatism--latin-pastoral-congregational-christianity--2 (source[0] work and locus)",
+      "severity": "substantial",
+      "issue": "The first quote is cited as Optatus 'Book I, ch. 19' (locus 'Book I.19'). In the vendored translation it sits under chapter XV ('The schism took its rise from the consecration of Majorinus'). Chapter XIX begins at line 209. The second source's 'Book I.22' is right (heading XXII at line 255). The quote is verbatim, but the citation sends a reader to the wrong chapter.",
+      "evidence": "cic/texts/optatus_against-the-donatists.txt:185 (heading 'XV. The schism took its rise from the consecration of Majorinus.'), 187 (the quoted line), 209 (heading 'XIX. The unlawful consecration by Numidian bishops of Majorinus against Caecilian.').",
+      "fix": "Set source[0].work to 'Optatus of Milevis, On the Schism of the Donatists against Parmenian, Book I, ch. 15' and source[0].locus to 'Book I.15'. Nothing else changes."
+    },
+    {
+      "id": "R1-05",
+      "target": "antiochene-exegetical-christianity-chrysostom-ce.legacy",
+      "severity": "substantial",
+      "issue": "The prose pass turned the drafter's 'no direct line between the two has been traced' into 'though no one has traced a direct line between the two'. This states, as fact, a negative about all scholarship, and no source supports it. The drafter's reason was narrower: no vendored or repo-cited source supports descent. The new wording is an unsupported claim. It may well be false, since medieval and Reformation readers of Chrysostom and Theodore are a studied subject. Uncertainty should be stated plainly, not turned into a claim of its own.",
+      "evidence": "cic-website/data/world-census.json, antiochene legacy: 'Later Western Bible scholars made a similar historical-grammatical method standard, though no one has traced a direct line between the two.' Drafting_Record.json prose_changes (antiochene legacy) reason: 'Is the ancestor of is a genealogical claim no vendored or repo-cited source supports. The likeness of method is fair to state; the descent is not.'",
+      "fix": "Replace that sentence with: 'Later Western Bible scholars made a similar historical-grammatical method standard. How much they owed to Antioch directly is not clear.' Rescore the paragraph with score_turn."
+    },
+    {
+      "id": "R1-06",
+      "target": "desert-monasticism.legacy (two-way: the Philokalia sentence)",
+      "severity": "substantial",
+      "issue": "This pass added a new relationship to the desert legacy: 'the Philokalia was gathered on Mount Athos and printed in 1782. It opens with counsels credited to Antony, and it carries Evagrius and Cassian too.' The Philokalia of 1782 belongs to census movements (the-kollyvades-and-greek-renewal, era 9; the-hesychast-revival-paisius-and-the-philokalia, era 8). No link carries the relationship, and neither later entry's text names the desert. The pass's own two-way rule therefore leaves a gap. The relationship is well evidenced in a vendored file, so a link is the right fix, not a cut.",
+      "evidence": "cic/texts/philokalia_ton-ieron-neptikon-v1-grc_tzelatis1893.txt:2 (header: 'compiled by Macarius of Corinth and Nikodemos the Hagiorite (first printed Venice, 1782)'), 1017 ('ἈΝΤΩΝΙΟΥ ΤΟΥ ΜΕΓΆΛΟΥ'), 58634 ('Εὐαγρίου Μοναχοῦ ὑποτύπωσις Νο-'), 58646 ('Τοῦ ᾿Αγίου Κασσιανοῦ τοῦ Ῥω-'). Census: the-kollyvades-and-greek-renewal longDescription ('in 1782 published in Venice the Philokalia'). No edge touches either later entry.",
+      "fix": "Add the link: {\"id\": \"desert-monasticism--the-kollyvades-and-greek-renewal\", \"from\": \"desert-monasticism\", \"to\": \"the-kollyvades-and-greek-renewal\", \"type\": \"influenced\", \"confidence\": \"Documented\", \"note\": \"In 1782 Macarius of Corinth and Nikodemos of Athos printed the Philokalia at Venice. It is an anthology of Greek writing on prayer. Its first volume opens with counsels credited to Antony the Great, and it also carries works by Evagrius and Cassian.\", \"sources\": [{\"kind\": \"primary\", \"source_id\": null, \"work\": \"Philokalia, vol. 1 (Athens, 1893, second edition of the Venice 1782 anthology), opening heading\", \"file\": \"cic/texts/philokalia_ton-ieron-neptikon-v1-grc_tzelatis1893.txt\", \"lines\": \"1017\", \"locus\": \"Philokalia I, Antony\", \"quote\": \"ἈΝΤΩΝΙΟΥ ΤΟΥ ΜΕΓΆΛΟΥ\", \"license\": \"public-domain\"}, {\"kind\": \"primary\", \"source_id\": null, \"work\": \"Philokalia, vol. 1 (Athens, 1893), table of contents\", \"file\": \"cic/texts/philokalia_ton-ieron-neptikon-v1-grc_tzelatis1893.txt\", \"lines\": \"58634\", \"locus\": \"Philokalia I, contents (Evagrius)\", \"quote\": \"Εὐαγρίου Μοναχοῦ ὑποτύπωσις\", \"license\": \"public-domain\"}, {\"kind\": \"primary\", \"source_id\": null, \"work\": \"Philokalia, vol. 1 (Athens, 1893), table of contents\", \"file\": \"cic/texts/philokalia_ton-ieron-neptikon-v1-grc_tzelatis1893.txt\", \"lines\": \"58646\", \"locus\": \"Philokalia I, contents (Cassian)\", \"quote\": \"Τοῦ ᾿Αγίου Κασσιανοῦ\", \"license\": \"public-domain\"}], \"citation_specificity\": \"A\", \"verification_state\": \"verified-direct\"}. Run the validator on it (the quotes are exact substrings of those lines; check the trailing spaces). Then the gap closes. The alternative is to cut the two Philokalia sentences, but that drops a documented fact."
+    },
+    {
+      "id": "R1-07",
+      "target": "hieronymian-ascetic-literary--latin-pastoral-congregational-christianity (source[1] work)",
+      "severity": "minor",
+      "issue": "The work field reads 'Jerome, letter to Augustine, quoted by Augustine in Letter 144 to Jerome's correspondents (Jerome, Ep. 134), as given in Jerome's letters'. In the file, the lines sit in NPNF Jerome Letter CXLIV, 'From Augustine to Optatus' (bishop of Milevis), which quotes Jerome's letter. 'To Jerome's correspondents' is wrong and the order is confusing.",
+      "evidence": "cic/texts/npnf206_jerome-principal-works.xml: Letter CXLIV heading 'From Augustine to Optatus' just above 28727; 28727-28728 the quote.",
+      "fix": "Set work to 'Jerome, letter to Augustine (Jerome, Ep. 134), as quoted by Augustine in his letter to Optatus of Milevis (NPNF 2.6, Jerome Letter 144)' and locus to 'Jerome, Ep. 134, in Letter 144'."
+    },
+    {
+      "id": "R1-08",
+      "target": "palestinian-ascetic-monasticism-early.relationsSummary",
+      "severity": "minor",
+      "issue": "The drafter changed 'the direct antecedent of' to 'the forerunner of', because the link to the Chalcedonian monasteries is Inferential-Thin. The prose pass then made it 'It leads on to', which puts back some of the causal sense the drafter removed.",
+      "evidence": "Drafting_Record.json prose_changes n=0 (reason: 'Forerunner keeps the order of the two without claiming the same community'); census now 'It leads on to the Chalcedonian monasteries of the Judean desert and Gaza.'",
+      "fix": "Replace 'It leads on to the Chalcedonian monasteries of the Judean desert and Gaza.' with 'It came before the Chalcedonian monasteries of the Judean desert and Gaza.'"
+    },
+    {
+      "id": "R1-09",
+      "target": "gallic-nicene-episcopate.legacy",
+      "severity": "minor",
+      "issue": "'A light from Hilary's church at Poitiers led the Frankish king Clovis against the Arian Goths' firms what Gregory of Tours says. In Gregory, a beacon came from the church 'over above his head' and was a sign of Hilary's help. It did not lead the march.",
+      "evidence": "cic/texts/gregory-tours_history-of-the-franks-v2_dalton1927.txt:3709-3713.",
+      "fix": "Replace with: 'Two centuries on, Gregory of Tours told how a light from Hilary's church at Poitiers shone over the Frankish king Clovis as he marched against the Arian Goths.'"
+    },
+    {
+      "id": "R1-10",
+      "target": "imperial-juridical-christianity--pneumatomachian-current (note, last sentence)",
+      "severity": "minor",
+      "issue": "'It stood against those who denied his sovereignty' is weaker than the quoted line, which says 'seeking to destroy his sovereignty'. The fact is kept, but the wording drifts from the source.",
+      "evidence": "cic/texts/npnf214_seven-ecumenical-councils.xml:20253-20255.",
+      "fix": "Replace with: 'It was aimed at those who sought to destroy his sovereignty.'"
+    },
+    {
+      "id": "R1-11",
+      "target": "cappadocian-nicene-pastoral-monastic-tradition.longDescription",
+      "severity": "minor",
+      "issue": "'Then take Epistle 38, the letter most often used...' is an assistant-voice turn ('Then take') that the old text did not have.",
+      "evidence": "census cappadocian longDescription: 'Then take Epistle 38, the letter most often used to show that the three men agreed on the technical terms. Even its author is in dispute.'",
+      "fix": "Replace those two sentences with: 'Even the letter most often used to show that the three men agreed on the technical terms, Epistle 38, is in dispute.' Keep the next sentence as it is."
+    },
+    {
+      "id": "R1-12",
+      "target": "ambrosian-milan-standalone--homoian-arian-christianity (source[2])",
+      "severity": "minor",
+      "issue": "The second sermon quote, 'because there had been here an Arian bishop, named Auxentius', is about the earlier Auxentius of Milan (d. 374), not the rival of 386. Read alone, it seems to describe the man the note is about. The full sentence shows the link more clearly: the rival took the earlier Arian bishop's name.",
+      "evidence": "cic/texts/npnf210_ambrose-select-works-letters.xml:42415-42418.",
+      "fix": "Set source[2].lines to '42416-42418' and quote to 'That no one might know who he was, he changed his name so as to call himself Auxentius, because there had been here an Arian bishop, named Auxentius.'"
+    },
+    {
+      "id": "R1-13",
+      "target": "aquileian-christianity.voices[4]",
+      "severity": "minor",
+      "issue": "The prose pass changed the drafter's 'Ambrose of Milan - who came up the road ...' to 'Ambrose of Milan - he came up the road ... He led its questioning.' The other four voices all run as one clause after the dash. Accuracy is fine; the line just breaks the list's form.",
+      "evidence": "census aquileian voices; Drafting_Record.json prose_changes (aquileian voices) new text.",
+      "fix": "Set to: 'Ambrose of Milan - who came up the road in 381 to the council that condemned two Homoian bishops of Illyricum, and led its questioning'."
+    }
+  ],
+  "two_way_gaps": [
+    "desert-monasticism.legacy names the Philokalia (1782), which belongs to the-kollyvades-and-greek-renewal (and the-hesychast-revival-paisius-and-the-philokalia). No link, and neither later text names the desert. See R1-06.",
+    "aksumite-christianity-conversion-era.relationsSummary ('Child of Alexandria (Frumentius consecrated by Athanasius)') and cyrilline-miaphysite-egyptian-tradition.relationsSummary ('Carries on the church of Alexandria'): no link. This is escalation 1 (no census entry for the see of Alexandria). It is correctly held for Mark, but the two summaries still state the tie as fact without a link. The Aksum line is also still a cataloguing fragment and not a sentence.",
+    "persian-church-of-the-east-early.longDescription names Persian students reading Theodore's commentaries at Edessa. The only link goes to the-church-of-the-east-under-persia (antiochene--the-church-of-the-east-under-persia), not to the early entry whose text names it. This is acceptable because the two entries overlap from 424 to 451 and the 585 synod belongs to the later one. Optional: one note sentence on the Edessa students would let the link stand for both. Note for the record: the drafter's flag that those students 'became bishops after 451' conflicts with Scher's own note in the vendored file (barhadbeshabba...scher1908.txt 20625, 20820: Barsauma consecrated 435). The public text does not depend on it.",
+    "No gaps found in the other direction. Every new link has a named_in_text entry, and I checked each against the current text. The one changed basis is gallic-nicene-episcopate--merovingian-gallic-christianity: its original naming sentence was removed, and it is now named by the new Gregory of Tours sentence."
+  ],
+  "escalations_view": [
+    "1 (see of Alexandria has no entry): needs Mark. It is a portfolio and entry-structure decision, and the drafter was right not to bend alexandria-catechetical to cover it.",
+    "2 (two Cyrilline entries from the same year): needs Mark (portfolio). The continued-as link is harmless either way.",
+    "3 (does 'qualify' apply to well-established facts that only lack a vendored source?): needs Mark. It is a method rule. Leaving the Ezana and Coptic-language sentences as they are, with wants listed, is the right holding pattern.",
+    "4 (Aksum continued-as grade): resolvable by the method as it stands. Apply the era-1 bar; see R1-02.",
+    "5 (Jerome, Against John of Jerusalem): no action now. No era-2 text names the quarrel. It belongs to the entry owner if the text ever does.",
+    "6 (chalcedonian-monasticism 'Direct heir of Desert Monasticism'): belongs to the era-3 pass and that entry's owner.",
+    "7 (one rule for anti-Nicene imperial acts, 337-378): needs Mark. It decides which entry owns an emperor's act across several links, which is a cross-movement mapping ruling. The two existing links are each defensible on their own sources.",
+    "8 (ambrosian 'folded into' summary): resolved in this pass. The relationsSummary is rewritten and the cataloguing phrase is gone.",
+    "9 (Cappadocian tile 'and named them'): resolved in this pass. The tile no longer says it (verified in entry.tile).",
+    "10 (312 vs 313 in the imperial entry): entry owner. It is a one-word fact fix outside the relationship fields.",
+    "11 (Persian entries overlap 424-451): needs Mark (census date structure). The continued-as link is sound on its own evidence.",
+    "12 ('Queen of Translations'): entry owner.",
+    "13 (Ambrosian standalone vs the imperial entry): needs Mark (cross-entry). The argued-against link is sound as long as both entries exist.",
+    "14 (Augustine has no entry; links point at latin-pastoral-congregational-christianity): needs Mark. It is a cross-entry mapping decision that affects several eras.",
+    "15 (teaser and voices overstatements in aquileian, hieronymian, gallic): entry owners. These are outside this pass's four fields. The aquileian voice was fixed here.",
+    "16 (danubian and imperial 'last Homoian bishops' or 'secretary' framing): the imperial part is resolved. The relationsSummary now says 'secretary', and Jerome Ep. 123.10 supports it. The danubian (era 1) text belongs to that entry's owner.",
+    "17 (gallic source record says Epp. 225-226 are not vendored): belongs to the gallic world record's owner. CSEL 57 is vendored, as the drafter says.",
+    "18 ('this record' in the donatism text): resolved in this pass. The sentence is rewritten.",
+    "19 (Vincent not introduced; present-day facts in the gallic legacy): partly resolved, since Vincent is now introduced with the Commonitory c. 434. The unsourced present-day facts belong to the entry owner.",
+    "20 (pelagianism sentence fragment): resolved in the prose pass.",
+    "21 (NPNF 'Arles' for Avila): no action needed. Just never quote that NPNF line.",
+    "22 (which entry owns Maximus's, Gratian's, Justinian's and Maurice's acts; Braga I): resolvable by the method as it stands. A ruler's act sits with the entry whose dates and text cover it: Maurice (582-602) falls inside byzantine-imperial-church-justinianic (451-622). With no Suevic entry, Braga I gets no link. The choices made are right.",
+    "23 (imperial sponsorship of a creed fits no type): resolvable as it stands. 'Influenced' (texts or practices passed on) fits an emperor's councils imposing a creed the Homoians kept. No new type is needed.",
+    "24 (Homoian and Gothic entries overlap): the overlap of dates is for the entry owner or Mark. The link no longer depends on it once retyped to 'gave rise to' (R1-03).",
+    "25 and 26 (candidate links no text names): correct not to draft them under this pass's rule. Leave them for a later pass.",
+    "27 (unsourced reception language in the anomoean and apollinarian legacies): entry owner. It is low risk, but 'still quoted in debates' is the same kind of unsupported reception claim this pass removed elsewhere."
+  ],
+  "checked": "Diffed the census against census_main.json. There are 51 new edges and 3 changed ones (54), none removed, and no text changes outside the 22 era-2 movements plus the Cappadocian entry.tile. For every one of the 54 links, I opened each primary source's file at the stated lines with 12 lines of context before and 5 after (script in scratchpad/review1/ctx.py). I checked that the work and locus match the file's own headings, that the quote shows the claimed relationship, and that the note adds nothing beyond the sources. I also checked type, arrow direction and alphabetical order for the symmetric types, and the grade against Drafting_Brief.md. I checked movement date ranges and continuesAs fields for every continued-as and gave-rise-to link. Secondary works: I confirmed the Browne/Swallow headnote (npnf207 46293-46308), Basil Ep. 225's headnote on the embezzlement charge (npnf208 39515-39532), Neumann's notes on Joseph (eghishe 558-566, 5771), Waterworth on Jerome's version (trent 4174), and the repo citations of Ormanian and Kihn. Spot facts checked in the files: VC III.30 addressee, Ep. 202 heading, the Rufinus HE preface (tenth book, two added), De praed. sanct. date, CTh 16.1.3 date, Secundianus in the Aquileia acts, Hilarion as the first monk of Palestine, Serapion in Scete, and Barhadbeshabba's students made bishops. Prose: I compared the old and new text sentence by sentence for all 22 movements (four fields plus voices) and read each change against its Drafting_Record reason and the prose-pass result. Two-way: I checked all 371 dispositions against the census (every link_id exists, and each 'qualify' sentence is gone or rewritten). I read every out-of-scope reason and every new link's named_in_text against the current text. I searched era-2 text for raw movement ids, 'presided' and internal words. Open items: 'presided' at Aquileia is gone from all era-2 text (the one 'presided' left is Isaac at the synod of 410, in the Persian voices, which is correct). No raw movement ids remain in era-2 text. I did not re-run the quote validator or the readability scorer; I relied on the validator for verbatim match and on Readability_Scores.json (55 paragraphs, all at 60 or above)."
+}

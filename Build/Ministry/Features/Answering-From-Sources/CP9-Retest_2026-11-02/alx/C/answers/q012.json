@@ -1,0 +1,163 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "alx.term.kanon-pisteos"
+   ],
+   "sentence": "Scripture was never read alone among us: the rule of faith, the short summary of what the apostles handed down, set the bounds for reading it."
+  },
+  {
+   "record_ids": [
+    "alx.term.kanon-pisteos"
+   ],
+   "sentence": "The rule of faith was no written creed imposed by a council."
+  },
+  {
+   "record_ids": [
+    "alx.dw.one-church"
+   ],
+   "sentence": "We belonged to one baptism, one bread, the scriptures, the rule of faith, and communion with churches across the whole world."
+  },
+  {
+   "record_ids": [
+    "alx.term.episkopos"
+   ],
+   "sentence": "The bishop governed how the community was formed and guarded what it had received."
+  },
+  {
+   "record_ids": [
+    "alx.gravity.learning-formation"
+   ],
+   "sentence": "In the school tradition, study and the bond between teacher and student were themselves the path of formation."
+  },
+  {
+   "record_ids": [
+    "alx.contested.allegory-from-within"
+   ],
+   "sentence": "Not every Egyptian Christian read Scripture in one way, since Nepos attacked the allegorists from within Egypt."
+  },
+  {
+   "record_ids": [
+    "alx.quote.ecclesiastical-and-apostolical-tradition"
+   ],
+   "sentence": "Origen of Alexandria set out his test for truth: “So, there are many who think they hold the opinions of Christ, and some of them think differently from those who came before. Yet the teaching of the Church is still preserved. It has been handed down in orderly succession from the apostles, and it remains in the churches to this day. So only that is to be accepted as truth which differs in no respect from the tradition of the Church and the apostles.”"
+  }
+ ],
+ "citations": [
+  "alx.contested.allegory-from-within",
+  "alx.dw.one-church",
+  "alx.gravity.learning-formation",
+  "alx.quote.ecclesiastical-and-apostolical-tradition",
+  "alx.term.episkopos",
+  "alx.term.kanon-pisteos"
+ ],
+ "group": "A",
+ "id": "q012",
+ "net_sentences": [
+  {
+   "draft": "Scripture was never read alone among us: the rule of faith, the short summary of what the apostles handed down, set the bounds for reading it [[alx.term.kanon-pisteos]] [[as:paraphrase]].",
+   "sentence": "Scripture was never read alone among us: the rule of faith, the short summary of what the apostles handed down, set the bounds for reading it.",
+   "tags": [
+    "alx.term.kanon-pisteos"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "The rule of faith was no written creed imposed by a council [[alx.term.kanon-pisteos]] [[as:paraphrase]].",
+   "sentence": "The rule of faith was no written creed imposed by a council.",
+   "tags": [
+    "alx.term.kanon-pisteos"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "We belonged to one baptism, one bread, the scriptures, the rule of faith, and communion with churches across the whole world [[alx.dw.one-church]] [[as:paraphrase]].",
+   "sentence": "We belonged to one baptism, one bread, the scriptures, the rule of faith, and communion with churches across the whole world.",
+   "tags": [
+    "alx.dw.one-church"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "The bishop governed how the community was formed and guarded what it had received [[alx.term.episkopos]] [[as:paraphrase]].",
+   "sentence": "The bishop governed how the community was formed and guarded what it had received.",
+   "tags": [
+    "alx.term.episkopos"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "In the school tradition, study and the bond between teacher and student were themselves the path of formation [[alx.gravity.learning-formation]] [[as:paraphrase]].",
+   "sentence": "In the school tradition, study and the bond between teacher and student were themselves the path of formation.",
+   "tags": [
+    "alx.gravity.learning-formation"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Not every Egyptian Christian read Scripture in one way, since Nepos attacked the allegorists from within Egypt [[alx.contested.allegory-from-within]] [[as:paraphrase]].",
+   "ratio": 0.82,
+   "sentence": "Not every Egyptian Christian read Scripture in one way, since Nepos attacked the allegorists from within Egypt.",
+   "tags": [
+    "alx.contested.allegory-from-within"
+   ],
+   "verdict": "ok",
+   "why": "grounded 82% in own tagged records"
+  },
+  {
+   "draft": "Origen of Alexandria set out his test for truth: [[quote:alx.quote.ecclesiastical-and-apostolical-tradition]]",
+   "placed_quote": "alx.quote.ecclesiastical-and-apostolical-tradition",
+   "sentence": "Origen of Alexandria set out his test for truth: “So, there are many who think they hold the opinions of Christ, and some of them think differently from those who came before. Yet the teaching of the Church is still preserved. It has been handed down in orderly succession from the apostles, and it remains in the churches to this day. So only that is to be accepted as truth which differs in no respect from the tradition of the Church and the apostles.”",
+   "tags": [
+    "alx.quote.ecclesiastical-and-apostolical-tradition"
+   ],
+   "verdict": "ok",
+   "why": "quote placed by code, verbatim to its record"
+  },
+  {
+   "draft": "[[as:paraphrase]].",
+   "sentence": ".",
+   "tags": [],
+   "verdict": "ok",
+   "why": "no checkable claim - interpretive/connective framing"
+  }
+ ],
+ "offered": [
+  "alx.dw.one-church",
+  "alx.term.kanon-pisteos",
+  "alx.story.didymus-meeting",
+  "alx.quote.ecclesiastical-and-apostolical-tradition",
+  "alx.quote.the-grades-here-in-the-church",
+  "alx.gravity.learning-formation",
+  "alx.contested.allegory-from-within",
+  "alx.dw.church-failure",
+  "alx.quote.no-sun-no-moon-no-sky",
+  "alx.term.episkopos",
+  "alx.quote.clement-bee",
+  "alx.term.martys",
+  "alx.story.potamiaena",
+  "alx.quote.clement-rash-martyrdom",
+  "alx.gravity.martyrdom-contemplative-tension",
+  "alx.gravity.learning-community-tension",
+  "alx.gravity.soul-transformation"
+ ],
+ "raw_text": "Scripture was never read alone among us: the rule of faith, the short summary of what the apostles handed down, set the bounds for reading it [[alx.term.kanon-pisteos]] [[as:paraphrase]]. The rule of faith was no written creed imposed by a council [[alx.term.kanon-pisteos]] [[as:paraphrase]]. We belonged to one baptism, one bread, the scriptures, the rule of faith, and communion with churches across the whole world [[alx.dw.one-church]] [[as:paraphrase]]. The bishop governed how the community was formed and guarded what it had received [[alx.term.episkopos]] [[as:paraphrase]]. In the school tradition, study and the bond between teacher and student were themselves the path of formation [[alx.gravity.learning-formation]] [[as:paraphrase]]. Not every Egyptian Christian read Scripture in one way, since Nepos attacked the allegorists from within Egypt [[alx.contested.allegory-from-within]] [[as:paraphrase]]. Origen of Alexandria set out his test for truth: [[quote:alx.quote.ecclesiastical-and-apostolical-tradition]] [[as:paraphrase]].\n",
+ "reply_shape": {
+  "placed": [
+   "alx.quote.ecclesiastical-and-apostolical-tradition"
+  ],
+  "removed": [],
+  "repaired": []
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": "C6.S4",
+ "text": "Scripture was never read alone among us: the rule of faith, the short summary of what the apostles handed down, set the bounds for reading it. The rule of faith was no written creed imposed by a council. We belonged to one baptism, one bread, the scriptures, the rule of faith, and communion with churches across the whole world. The bishop governed how the community was formed and guarded what it had received. In the school tradition, study and the bond between teacher and student were themselves the path of formation. Not every Egyptian Christian read Scripture in one way, since Nepos attacked the allegorists from within Egypt. Origen of Alexandria set out his test for truth: “So, there are many who think they hold the opinions of Christ, and some of them think differently from those who came before. Yet the teaching of the Church is still preserved. It has been handed down in orderly succession from the apostles, and it remains in the churches to this day. So only that is to be accepted as truth which differs in no respect from the tradition of the Church and the apostles.”.",
+ "voice_set_aside": false
+}

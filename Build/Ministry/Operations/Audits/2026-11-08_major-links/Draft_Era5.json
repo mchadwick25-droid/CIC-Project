@@ -1,0 +1,382 @@
+{
+ "group": "5",
+ "links": [
+  {
+   "id": "latin-papal-church-gregorian--byzantine-church-after-1054",
+   "decision": "major",
+   "outcome": "In 1054 the pope's envoys declared Patriarch Michael Cerularius and all who followed him accursed, ranking them with the heretics of old.",
+   "evidence": {
+    "source_index": 1,
+    "file": "cic/texts/mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt",
+    "lines": "9987-9990",
+    "text": "omnes sequaces eorum in praefatis erroribus et praesumptionibus, sint anathema Maranatha, cum Simoniacis, Valesiis, Arianis, Do- natistis, Nicolaitis, Severianis, Pneumatomachis et Manichaeis, et Nazarenis, et cum Omnibus haereticis"
+   },
+   "reason": "formal sentence of anathema excluding the patriarch and his followers; date from the editor's heading (line 9940)",
+   "doubt": "The 1205 letter (source 2) also shows a changed settlement after 1204; not used, since it follows conquest rather than this sentence."
+  },
+  {
+   "id": "cistercian-monasticism--the-english-mystics-and-devout",
+   "decision": "minor",
+   "reason": "quoting and admiring only; no teaching or practice shown taken up"
+  },
+  {
+   "id": "canons-regular-victorine-school--the-english-mystics-and-devout",
+   "decision": "minor",
+   "reason": "one writer following another's reading of a text; no lasting result shown beyond use"
+  },
+  {
+   "id": "canons-regular-victorine-school--the-franciscan-movement",
+   "decision": "minor",
+   "reason": "one writer using another's pattern and an editor calling him a disciple; no adoption beyond that shown"
+  },
+  {
+   "id": "carthusian-life--the-english-mystics-and-devout",
+   "decision": "minor",
+   "reason": "unnamed borrowing identified only by an editor's guess; no result shown"
+  },
+  {
+   "id": "athonite-and-comnenian-byzantine-monasticism--hesychasm-and-the-palamite-synthesis",
+   "decision": "minor",
+   "reason": "a teacher recommending Symeon's chapters to monks, and a document heading; no result shown in the lines"
+  },
+  {
+   "id": "athonite-and-comnenian-byzantine-monasticism--the-hesychast-revival-paisius-and-the-philokalia",
+   "decision": "major",
+   "outcome": "The compilers of the Philokalia took a talk on faith by Symeon the New Theologian into their collection of writings on prayer.",
+   "evidence": {
+    "source_index": 0,
+    "file": "cic/texts/philokalia_ton-ieron-neptikon-v2-grc_tzelatis1893.txt",
+    "lines": "74199-74202",
+    "text": "Ὁσίου Πατρὸς ἡμῶν Συμεὼν τοῦ νέου Θεολόγου λόγος περὶ πίστεως"
+   },
+   "reason": "text taken up: the later anthology carries Symeon's work",
+   "doubt": "Borderline: a reviewer may read anthologizing as reprinting rather than adoption. The lines are a table-of-contents entry only."
+  },
+  {
+   "id": "athonite-and-comnenian-byzantine-monasticism--kievan-rus-christianity-1054-1240",
+   "decision": "major",
+   "outcome": "Anthony, who had taken his monk's vows on Mount Athos, came home and founded the Caves Monastery at Kyiv.",
+   "evidence": {
+    "source_index": 0,
+    "file": null,
+    "lines": null,
+    "text": "He then came home and began the Caves Monastery at Kyiv."
+   },
+   "reason": "secondary source with no file; the reviewed note states the result (a monastery founded by an Athonite monk)",
+   "doubt": "Rests on one 1838 history that names no earlier witness (note says so); the rule itself came from Stoudios, not Athos."
+  },
+  {
+   "id": "athonite-and-comnenian-byzantine-monasticism--the-georgian-golden-age",
+   "decision": "major",
+   "outcome": "Under King Bagrat III, Georgian monks on Mount Athos put scripture and the best Greek theology into Georgian.",
+   "evidence": {
+    "source_index": 0,
+    "file": null,
+    "lines": null,
+    "text": "They put scripture and the best Greek books of theology into Georgian."
+   },
+   "reason": "secondary source with no file; the reviewed note states the result (texts taken into Georgian)",
+   "doubt": "Rests on one 1849 modern summary (Brosset); no primary text in hand."
+  },
+  {
+   "id": "the-carmelites--carmelite-reform-and-spanish-mystics",
+   "decision": "major",
+   "outcome": "Teresa of Ávila's reformed nuns took up the stricter Carmelite rule settled under Pope Innocent IV and set aside the softened rule called the Mitigation.",
+   "evidence": {
+    "source_index": 0,
+    "file": "cic/texts/teresa-of-avila_life_lewis1904.txt",
+    "lines": "19258-19262",
+    "text": "We keep the rule of our Lady of Carmel, not the rule of the Mitigation, but as it was settled by Fr. Hugo, Cardinal of Santa Sabina"
+   },
+   "reason": "rule taken up and practice changed: Teresa's houses adopt the earlier rule over the mitigated one",
+   "doubt": "'stricter' rests on lines 19265-19268 ('the rule be somewhat severe ... according to the primitive rule')."
+  },
+  {
+   "id": "latin-papal-church-gregorian--the-carmelites",
+   "decision": "major",
+   "outcome": "At the Carmelites' request, Pope Innocent IV confirmed a corrected and softened version of their rule at Lyons in 1247.",
+   "evidence": {
+    "source_index": 1,
+    "file": "cic/texts/teresa-of-avila_book-of-foundations_lewis1913.txt",
+    "lines": "22014-22017",
+    "text": "We, consenting to your pious desires, do by our Apostolic authority confirm, and by the protection of these letters maintain, the explanation, mitigation, and correction aforesaid"
+   },
+   "reason": "rule changed: papal confirmation of the revised Carmelite rule; place and year from lines 22409-22415",
+   "doubt": "The letter itself gives only the fifth year of the pontificate; 1247 is the editor's footnote (lines 22411-22415)."
+  },
+  {
+   "id": "the-dominican-order--the-carmelites",
+   "decision": "minor",
+   "reason": "the two revisers acted as papal delegates; no source shows the Dominican order shaping the rule",
+   "doubt": "Editor's footnote (lines 22000-22001) does call both revisers Dominicans; the rule did change, but not as a Dominican act."
+  },
+  {
+   "id": "latin-church-of-outremer--the-carmelites",
+   "decision": "major",
+   "outcome": "The hermits of Mount Carmel took up Albert's letter as their rule, and it was this rule their order asked the pope to revise in 1247.",
+   "evidence": {
+    "source_index": 0,
+    "file": "cic/texts/teresa-of-avila_book-of-foundations_lewis1913.txt",
+    "lines": "22030-22032",
+    "text": "certain matters of your rule formerly delivered unto you by Albert, of happy memory, patriarch of Jeru-"
+   },
+   "reason": "rule taken up: the Carmelites lived by the rule Albert gave them; evidence lines are in the surrounding passage (22030-22032), year from footnote line 21998"
+  },
+  {
+   "id": "the-dominican-order--the-franciscan-movement",
+   "decision": "minor",
+   "reason": "a meeting and a wish for union, with no recorded result"
+  },
+  {
+   "id": "latin-papal-church-gregorian--the-franciscan-movement",
+   "decision": "major",
+   "outcome": "Pope Innocent III granted and confirmed Francis's way of life for him and for all his brothers, present and future.",
+   "evidence": {
+    "source_index": 0,
+    "file": "cic/texts/clareno_expositio-regulae-fratrum-minorum-lat_oliger1912.txt",
+    "lines": "4873-4875",
+    "text": "dominus papa concessit et confirmavit sibi et suis fratribus habitis et futuris."
+   },
+   "reason": "rule settled: papal grant and confirmation of the brothers' way of life",
+   "doubt": "Approval of a rule read as a settlement; a reviewer may judge papal approval part of the contact itself."
+  },
+  {
+   "id": "the-dominican-order--cathars-albigensians",
+   "decision": "minor",
+   "reason": "an inquisitor's handbook setting out the Cathars' errors; the cited lines show no sentence or other result",
+   "doubt": "Gui's own sentences against Cathars would show a result; they are not among these sources."
+  },
+  {
+   "id": "latin-papal-church-avignon-to-lateran-v--the-beguines",
+   "decision": "major",
+   "outcome": "The Council of Vienne formally condemned eight errors that it charged to the beguines and beghards of Germany.",
+   "evidence": {
+    "source_index": 1,
+    "file": "cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-25-1300-1344-lat_welter-facsimile1903.txt",
+    "lines": "39817-39819",
+    "text": "In eodem concilio fuerunt damnati ogo er- tores Beguinarum & Beguardorum, qui infur- rexerunt in Alemannia"
+   },
+   "reason": "council condemning a teaching ascribed to the group"
+  },
+  {
+   "id": "latin-papal-church-avignon-to-lateran-v--free-spirit-heresy",
+   "decision": "major",
+   "outcome": "The Council of Vienne in 1311-12 ruled as error the claim that those who live in the spirit of liberty owe no human obedience.",
+   "evidence": {
+    "source_index": 1,
+    "file": "cic/texts/denzinger_enchiridion-symbolorum-lat_bannwart1911.txt",
+    "lines": "14788-14808",
+    "text": "Conc. YIENNENSE 1311—1312. Oecumenicum XV (Templarii aboliti). Errores Beguardorum et Beguinarum (de statu perfectionis)"
+   },
+   "reason": "council condemning a teaching; error 3 at line 14808 in the same span",
+   "doubt": "Denzinger lists the errors under the council without a verb of condemnation, so the outcome says 'ruled as error'. Lerner (secondary) doubts any sect held them; the outcome names the teaching, not a group."
+  },
+  {
+   "id": "the-tridentine-church--the-humiliati",
+   "decision": "major",
+   "outcome": "Pope Pius V abolished the order of Humiliati brothers, along with its general, its provincial heads and all its statutes.",
+   "evidence": {
+    "source_index": 0,
+    "file": "cic/texts/bullarium-romanum_magnum-bullarium-tomus2-pius-iv-to-innocent-ix-lat_cherubini.txt",
+    "lines": "92832-92838",
+    "text": "extinguimus & abolemus Ordinem pradi- &ortm Fratrum Humiliatorum, & officium Prepo- fiti Generalis, ac Provincialium,& quicumque alia minifleria Ordinis fic fuppre(fi, necnon omnia & quacumque fatuta, confnetudines, & decreta"
+   },
+   "reason": "law abolishing the order and its offices"
+  },
+  {
+   "id": "latin-papal-church-gregorian--the-humiliati",
+   "decision": "minor",
+   "reason": "the only primary witness is a 1500s report of a chronicler, which Foxe himself partly doubts; too thin to carry a result",
+   "doubt": "Foxe's lines do say the Humiliati 'were rejected by the pope Lucius III'. Upgrade only if the 1184 decree itself is vendored."
+  },
+  {
+   "id": "latin-papal-church-gregorian--the-humiliati--2",
+   "decision": "major",
+   "outcome": "Pope Innocent III approved the Humiliati around 1200, and the order then spread to more than two hundred houses in the province of Milan.",
+   "evidence": {
+    "source_index": 0,
+    "file": null,
+    "lines": null,
+    "text": "Pope Innocent III approved the Humiliati around 1200, and many later popes confirmed them."
+   },
+   "reason": "secondary source with no file; the reviewed note states the result (papal approval of the order)",
+   "doubt": "Approval read as a settlement, as for the Franciscan rule; secondary only (Catholic Encyclopedia)."
+  },
+  {
+   "id": "latin-papal-church-gregorian--the-waldensians",
+   "decision": "major",
+   "outcome": "A church council at Rome, held before the Lateran council, judged Valdes's followers schismatics and then condemned them as heretics.",
+   "evidence": {
+    "source_index": 2,
+    "file": "cic/texts/bernard-gui_manuel-inquisiteur-t1-lat-fra_mollat1926.txt",
+    "lines": "4900-4903",
+    "text": "Demum vero in quodam concilio, quod fuit Rome ante Lateranense concilium? celebratum, cum essent perti- naces, fuerunt scismatict judicati et deinde ut heretici condempnati."
+   },
+   "reason": "council condemning the group"
+  },
+  {
+   "id": "latin-papal-church-gregorian--cathars-albigensians",
+   "decision": "major",
+   "outcome": "In 1179 the Third Lateran Council cut off the Cathars and all who defended or sheltered them, and barred anyone from housing them.",
+   "evidence": {
+    "source_index": 1,
+    "file": "cic/texts/denzinger_enchiridion-symbolorum-lat_bannwart1911.txt",
+    "lines": "13198-13200",
+    "text": "eos et defensores et receptatores eoruni anathemati decernimus subiacere, et sub anathemate prohibemus, ne quis eos in domibus vel in terra sua"
+   },
+   "reason": "council canon condemning the group; council and year from Denzinger heading line 13160"
+  },
+  {
+   "id": "balkan-bogomil-continuation--cathars-albigensians",
+   "decision": "major",
+   "outcome": "The Cathars of Concorezzo kept as their secret book the Questions of John, which their bishop Nazarius had brought from Bulgaria.",
+   "evidence": {
+    "source_index": 1,
+    "file": "cic/texts/racki_bogomili-i-patareni-rad-x-hrv_jazu1870.txt",
+    "lines": "4658-4663",
+    "text": "secretum hereticorum de Concorezio, portatum de Bulgaria Nazario suo episcopo, plenum erroribus."
+   },
+   "reason": "text taken up by the later side: a Bulgarian book adopted by an Italian Cathar church",
+   "doubt": "Link is Contested; the witness is an inquisitor's colophon. Book title from Rački's lines 4658-4660."
+  },
+  {
+   "id": "byzantine-church-after-1054--balkan-bogomil-continuation",
+   "decision": "minor",
+   "reason": "a trial and burning of one teacher and a commissioned polemic; the note shows no council or law against the group",
+   "doubt": "Could be read as a condemnation by emperor and patriarch; the only witness here is Rački's retelling (secondary). Anna Komnene's own text would settle it."
+  },
+  {
+   "id": "joachimite-current--the-franciscan-movement",
+   "decision": "minor",
+   "reason": "praise of Joachim in a sermon; the book built on Joachim rests on a secondary note and is one friar's work, not uptake by the order",
+   "doubt": "Gerard's book (secondary, Lea/Denifle) could count as a teaching taken up; no primary text of it here."
+  },
+  {
+   "id": "joachimite-current--franciscan-order-era-6",
+   "decision": "minor",
+   "reason": "a historian of the Spirituals using Joachim's scheme; one writer drawing on another, no rule or practice shown changed"
+  },
+  {
+   "id": "latin-papal-church-gregorian--joachimite-current",
+   "decision": "major",
+   "outcome": "The Fourth Lateran Council in 1215 condemned and rejected the treatise Joachim wrote against Peter Lombard on the Trinity.",
+   "evidence": {
+    "source_index": 0,
+    "file": "cic/texts/denzinger_enchiridion-symbolorum-lat_bannwart1911.txt",
+    "lines": "13944-13946",
+    "text": "Damnamus ergo et reprobamus libellum seu tractatum, 39 (358) quem Abbas loachim edidit contra Magistrum Petrum Lombardum, de unitate seu essentia Trinitatis,"
+   },
+   "reason": "council condemning a text; year from Denzinger heading line 13921",
+   "doubt": "The 1255 Anagni condemnation rests on secondary notes only; the outcome uses only the 1215 canon."
+  },
+  {
+   "id": "the-reformed-cities-zurich-and-geneva--latin-papal-church-gregorian",
+   "decision": "minor",
+   "reason": "polemic only; no recorded result"
+  },
+  {
+   "id": "cistercian-monasticism--military-religious-orders-templars-hospitallers",
+   "decision": "minor",
+   "reason": "praise and defense of the Templars, resting on a modern history; no result shown"
+  },
+  {
+   "id": "latin-papal-church-avignon-to-lateran-v--military-religious-orders-templars-hospitallers",
+   "decision": "major",
+   "outcome": "In 1312 Pope Clement V, with the Council of Vienne's approval, did away with the Templars' order, habit and name for ever.",
+   "evidence": {
+    "source_index": 0,
+    "file": "cic/texts/mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt",
+    "lines": "13646-13649",
+    "text": "praefatum tempH ordinem et eius statum, habitum atque 30 nomen irrefragabih et perpetuo vahtura tollimus sanctione, ac perpetuae prohibitioni subiieimus, saero eoncilio (sc. Viennensi) approbante,"
+   },
+   "reason": "law abolishing the order; date from Mirbt's heading line 13621"
+  },
+  {
+   "id": "armenian-cilicia--byzantine-church-after-1054",
+   "decision": "minor",
+   "reason": "union talks that were never finished; no recorded result"
+  },
+  {
+   "id": "armenian-cilicia--latin-church-of-outremer",
+   "decision": "minor",
+   "reason": "a pilgrimage and a closer bond; no rule, union or settlement recorded"
+  },
+  {
+   "id": "latin-church-of-outremer--byzantine-church-after-1054",
+   "decision": "major",
+   "outcome": "After an earthquake struck Antioch, its prince had the Greek patriarch Athanasius thrown out of the city, and the Latin patriarch Aimery returned.",
+   "evidence": {
+    "source_index": 2,
+    "file": "cic/texts/rhc-armeniens_documents-armeniens-t1-fra_academie1869.txt",
+    "lines": "46510-46516",
+    "text": "de le jeter hors de la ville; ce qui fut exécuté. Cet homme mourut là dans son opprobre. Après quoi le patriarche frank Aimeric rentra dans"
+   },
+   "reason": "a see's settlement changed: the rival Greek patriarch expelled and the Latin one restored",
+   "doubt": "Athanasius was dying when expelled (line 46512); a reviewer may judge the change short-lived. Lines do not give the year."
+  },
+  {
+   "id": "latin-church-of-outremer--maronite-christianity",
+   "decision": "major",
+   "outcome": "The Maronites joined the Latin church around 1182, as William of Tyre reported.",
+   "evidence": {
+    "source_index": 0,
+    "file": null,
+    "lines": null,
+    "text": "He wrote that the Maronites joined the Latin church around 1182."
+   },
+   "reason": "secondary source with no file; the reviewed note states the result (a union)",
+   "doubt": "Rests only on modern historians of the Maronites; William of Tyre's own text is not in hand."
+  },
+  {
+   "id": "latin-papal-church-gregorian--maronite-christianity",
+   "decision": "major",
+   "outcome": "After Patriarch Jeremiah attended the Fourth Lateran Council in 1215, a papal bull set out the terms of the Maronites' union with Rome.",
+   "evidence": {
+    "source_index": 0,
+    "file": null,
+    "lines": null,
+    "text": "A papal bull then set out the terms of the union."
+   },
+   "reason": "secondary source with no file; the reviewed note states the result (union terms set)",
+   "doubt": "Rests only on modern historians; the bull itself is not in hand."
+  },
+  {
+   "id": "byzantine-church-after-1054--latin-papal-church-gregorian--2",
+   "decision": "minor",
+   "reason": "a profession of faith at a council; the sources show no lasting union or change",
+   "doubt": "Pastor aeternus (1870) cites the profession; that is later citation, not a result of the contact."
+  },
+  {
+   "id": "byzantine-church-after-1054--kievan-rus-christianity-1054-1240",
+   "decision": "minor",
+   "reason": "describes standing jurisdiction (bishops named from Constantinople), not a result of this influence",
+   "doubt": "A reviewer may read the province relationship as a lasting settlement; secondary only."
+  },
+  {
+   "id": "church-of-the-east-under-the-mongols--latin-papal-church-gregorian",
+   "decision": "minor",
+   "reason": "an embassy and an exchange of communion, with no recorded result"
+  },
+  {
+   "id": "coptic-christianity-fatimid-to-mamluk--zagwe-and-early-solomonic-ethiopian-christianity",
+   "decision": "minor",
+   "reason": "standing practice of sending a bishop, and a request for one; no change or new settlement recorded",
+   "doubt": "Same shape as the Rus' jurisdiction link; treated alike."
+  },
+  {
+   "id": "the-franciscan-movement--observant-reform-and-popular-preaching",
+   "decision": "minor",
+   "reason": "friars keeping the Rule their own order already shared; the sources show no new uptake or change caused by the link",
+   "doubt": "The 1438 letter gives the Observant houses their own vicar; that could be argued as a body formed, but it is internal to the order."
+  }
+ ],
+ "wants": [
+  "Lucius III, Ad abolendam (1184), naming the Humiliati and the Poor of Lyon (would test the Humiliati condemnation link).",
+  "Bernard Gui, Liber sententiarum (sentences against Cathars), for the Dominican-Cathar link.",
+  "Anna Komnene, Alexiad 15, on the trial and burning of Basil the Bogomil.",
+  "The 1255 Anagni protocol or Alexander IV's condemnation of the Introductorius in Evangelium aeternum.",
+  "Innocent III's bull Quia divinae sapientiae (1216) to the Maronites, and William of Tyre, Historia 22.8, on the Maronite union.",
+  "Paterik of the Kyiv Caves (Kievo-Pechersky Paterik) on Anthony and Athos.",
+  "A primary Georgian witness (e.g. Life of John and Euthymius) for the Iviron translators."
+ ]
+}

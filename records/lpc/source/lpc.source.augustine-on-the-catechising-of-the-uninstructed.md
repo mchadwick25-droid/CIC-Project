@@ -19,6 +19,7 @@ work: On the Catechising of the Uninstructed
 edition: Nicene and Post-Nicene Fathers, Series I, vol. III, vendored as cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml
 citation: 'Augustine of Hippo, On the Catechising of the Uninstructed, Nicene and Post-Nicene Fathers, Series I, vol. III'
 kind: vendored
+shelf_row: npnf103_augustine-holy-trinity-doctrinal-moral-treatises--on-the-catechising-of-the-uninstructed
 rights_status: 'public-domain; vendored in cic/texts/ as part of the corpus map''s own pre-existing inventory
   (role: tradition, confidence: assigned), carried into this world''s construction without this row''s
   own specific locus being independently re-collated.'

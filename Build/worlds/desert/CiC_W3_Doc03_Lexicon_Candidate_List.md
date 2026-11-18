@@ -151,7 +151,7 @@ Each entry: term (Greek/Coptic form, transliteration), preliminary definition, i
 - **Preliminary definition:** the specific ascetic technique of verbally countering a demonic *logismos* with a scriptural rebuttal at the moment of temptation, systematized by Evagrius in his *Antirrhetikos* (Doc_02, Section 1.4).
 - **Initial tier estimate:** 3 — a specialized technique, not this world's general vocabulary.
 - **Strand attribution:** Strand C-bound, single-author (Evagrian).
-- **Author Gravity risk:** **high** — entirely dependent on one text by one author. The *Antirrhetikos*'s original Greek is lost; the complete text survives only in translation — Syriac (ed. Frankenberg), plus Armenian and Georgian — with additional fragmentary Sogdian material surviving from the Turfan finds. This fact is not yet present in Doc_02 and should be added there as a supplement at the next opportunity to revise that document, not cited as already established there (Section 4, open item).
+- **Author Gravity risk:** **high** — entirely dependent on one text by one author. The *Antirrhetikos*'s original Greek is lost; the complete text survives only in translation — Syriac (ed. Frankenberg), plus Armenian and Georgian — with additional fragmentary Sogdian material surviving from the Turfan finds.
 - **Source anchor:** Doc_02, Section 1.4.
 
 ### 1.18 "Purity of heart" (Latin *puritas cordis*) — a translation-challenge entry, not a Greek/Coptic term
@@ -160,13 +160,13 @@ Each entry: term (Greek/Coptic form, transliteration), preliminary definition, i
 - **Initial tier estimate:** 3 — this term belongs to this world's *reception history* (via Cassian, writing in the 420s, at the very edge of Doc_01's c. 430 closing boundary) rather than to the world's own core vocabulary, and is included here specifically as a translation-challenge case study for Doc_06.
 - **Strand attribution:** not strand-bound within this world — this is evidence of *this world's own vocabulary being deliberately altered* as it exits the world via Cassian's transmission to Gaul.
 - **Author Gravity risk:** low as a documented translation choice, single-source (Cassian) by definition.
-- **Source anchor:** verified this drafting pass; not yet present in Doc_02 and flagged as a research lead that should be added to Doc_02's Section 1 (Cassian as a primary transmission-adjacent voice) at the next opportunity to revise that document (Section 4, open item).
+- **Source anchor:** verified; not yet present in Doc_02, where it would sit in Section 1 (Cassian as a primary transmission-adjacent voice). See Section 4, item 3.
 
 ---
 
 ### 1.19 Tier 1 candidates — roll-up for Doc_06
 
-Per Framework Step 3's requirement to note terms that will require full Tier 1 treatment at Doc_06: this document's Tier 1 estimates are *anachōrēsis* (1.1), *apotagē* (1.2), *hēsychia* (1.4), *logismoi* (1.5, systematized-form caveat applies), *diakrisis* (1.9), *gerōn*/*abba*/*amma* (1.11), *cheirōnaxia*/*ergocheiron* (1.15), and *apophthegma* (1.16). *Koinōnia* (1.12) is Tier 1 for Strand B specifically, not cross-strand. All eight are subject to Doc_04's Confidence/Gravity Cross-Check (Section 4, open item 2) before any of them can anchor a Primary gravity classification.
+Per Framework Step 3's requirement to note terms that will require full Tier 1 treatment at Doc_06: this document's Tier 1 estimates are *anachōrēsis* (1.1), *apotagē* (1.2), *hēsychia* (1.4), *logismoi* (1.5, systematized-form caveat applies), *diakrisis* (1.9), *gerōn*/*abba*/*amma* (1.11), *cheirōnaxia*/*ergocheiron* (1.15), and *apophthegma* (1.16). *Koinōnia* (1.12) is Tier 1 for Strand B specifically, not cross-strand. All eight are subject to Doc_04's Confidence/Gravity Cross-Check (Section 4, item 2) before any of them can anchor a Primary gravity classification.
 
 ---
 

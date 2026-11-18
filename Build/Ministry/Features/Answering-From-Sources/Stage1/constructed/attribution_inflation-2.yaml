@@ -1,0 +1,162 @@
+- seed_type: attribution_inflation
+  world: desert
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings:
+  - kind: record
+    id: desert.quote.taor-not-compelled-to-market
+  sentence: Our virgins needed no fine clothes, veils or sandals, because none of them was required to go down to the market.
+  record_words: she is the exception within her own community, not its rule.
+  construction: Palladius reports one virgin, Taor, refusing fine clothes because she does not go out, and the record says she was the exception in her house; the sentence makes it true of all the virgins.
+- seed_type: attribution_inflation
+  world: desert
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings:
+  - kind: record
+    id: desert.quote.talida-key-never-taken
+  sentence: In our women's houses the key was never taken away from any of the virgins, so great was their affection for the mother.
+  record_words: Talida's house as typical of women's communities as a whole
+  construction: The record gives this of Talida's one house at Antinoe, unlike other houses; the sentence widens it to all the women's houses.
+- seed_type: attribution_inflation
+  world: gallic
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings:
+  - kind: record
+    id: gallic.quote.pope-stephen-no-innovation
+  sentence: 'We repeated the rule again and again: let nothing new be brought in, nothing except what has been handed down.'
+  record_words: a rule widely repeated in this world, when Vincent's single citation is its only witness here
+  construction: The record has Stephen's rule once, in Vincent's single citation; the sentence turns it into a rule the community repeated.
+- seed_type: attribution_inflation
+  world: gallic
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings:
+  - kind: record
+    id: gallic.quote.castor-anxious-for-egyptian-institutions
+  sentence: Gaul as a whole had no monasteries yet, and we were eager to see the institutions of the East, Egypt's above all, set up there.
+  record_words: a claim that all Gaul lacked monasteries, when the text speaks of Castor's province
+  construction: The record gives one bishop, Castor, eager for Egypt's institutions in his own province; the sentence widens both the wish and the province to all of Gaul.
+- seed_type: attribution_inflation
+  world: gallic
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings:
+  - kind: record
+    id: gallic.quote.cassian-archebius-expelled-from-monastic-system
+  sentence: Those of us made bishops complained that we had been expelled from the monastic life as unworthy, never having reached the purity it demands.
+  record_words: a claim that all monk-bishops felt their office as a loss
+  construction: Cassian reports this of one bishop, Archebius; the sentence makes it the complaint of all the monks made bishops.
+- seed_type: attribution_inflation
+  world: witt
+  records_commit: 1a716fe86fc084a46b5241dfac5952be65a0c30d
+  bindings:
+  - kind: record
+    id: witt.quote.the-sword-is-at-your-throats
+  sentence: Our church warned the princes that they were the cause of God's anger, and that their false security would break their necks.
+  record_words: Luther tells the princes and lords that that they are the cause of God's anger
+  construction: The record gives this as Luther's warning in one 1525 tract; the sentence makes it the church's warning.
+- seed_type: attribution_inflation
+  world: witt
+  records_commit: 1a716fe86fc084a46b5241dfac5952be65a0c30d
+  bindings:
+  - kind: record
+    id: witt.quote.the-time-of-the-sword
+  sentence: We taught the rulers that, once the peasants were in arms, it was the time of the sword, not the day of grace.
+  record_words: Luther tells the rulers it is the time of the sword, not of mercy
+  construction: The record gives this as Luther's words to the rulers in one 1525 tract; the sentence makes it the community's teaching.
+- seed_type: attribution_inflation
+  world: witt
+  records_commit: 1a716fe86fc084a46b5241dfac5952be65a0c30d
+  bindings:
+  - kind: record
+    id: witt.quote.you-too-must-have-a-care
+  sentence: We granted that the princes oppressed the people and deserved God's judgment, yet we warned the peasants that their own cause must be just.
+  record_words: Luther grants that the princes oppress them and deserve God's judgment
+  construction: The record gives this as Luther's concession and warning in one 1525 tract; the sentence makes it the community's own position.
+- seed_type: attribution_inflation
+  world: lpc
+  records_commit: fcd5768412b60ae64e58c639a5624979679bce6f
+  bindings:
+  - kind: record
+    id: lpc.quote.a-hundred-thousand-sesterces
+  sentence: Whenever believers were taken captive, our church sent money, collected from the clergy and people, to buy them back.
+  record_words: We have then sent you a sum of one hundred thousand sesterces
+  construction: The record gives one sum sent on one occasion to the Numidian bishops; the sentence turns it into a standing habit.
+- seed_type: attribution_inflation
+  world: lpc
+  records_commit: fcd5768412b60ae64e58c639a5624979679bce6f
+  bindings:
+  - kind: record
+    id: lpc.quote.love-and-do-what-thou-wilt
+  sentence: 'Our church taught one short rule: love, and do what you will, for from the root of love nothing grows but good.'
+  record_words: Augustine says the root decides the deed
+  construction: The record gives this as Augustine's precept in one homily on 1 John; the sentence makes it the church's teaching.
+- seed_type: attribution_inflation
+  world: lpc
+  records_commit: fcd5768412b60ae64e58c639a5624979679bce6f
+  bindings:
+  - kind: record
+    id: lpc.quote.left-doubtful-a-kind-of-purgatorial-fire
+  sentence: We held that whether some believers pass through a purging fire after death may be asked, and may be found out or stay unknown.
+  record_words: Augustine says whether some believers pass through a fire after death may be found out or left doubtful.
+  construction: The record gives this open question as Augustine's, in the Enchiridion; the sentence makes it what we held.
+- seed_type: attribution_inflation
+  world: lpc
+  records_commit: fcd5768412b60ae64e58c639a5624979679bce6f
+  bindings:
+  - kind: record
+    id: lpc.quote.the-mildest-punishment-of-all
+  sentence: We taught that the mildest punishment of all falls on those who add no sin of their own to original sin.
+  record_words: Augustine says the mildest punishment of all falls on those with no sin of their own added to original sin.
+  construction: The record gives this as Augustine's judgment in the Enchiridion; the sentence makes it the church's teaching.
+- seed_type: attribution_inflation
+  world: alx
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings:
+  - kind: record
+    id: alx.quote.a-doctrine-they-would-not-have-taught
+  sentence: We all held that the disciples would never have preached so dangerous a doctrine with such courage if they had invented the resurrection.
+  record_words: Documented as Origen's own argument, made in open reply to a named pagan critic.
+  construction: The record gives this as Origen's own argument against Celsus, a proof he holds; the sentence says all of us held it.
+- seed_type: attribution_inflation
+  world: alx
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings:
+  - kind: record
+    id: alx.quote.to-believe-or-disbelieve
+  sentence: Our church taught that believing or disbelieving lies in our power, since we are equally masters of either choice, as with philosophy.
+  record_words: it evidences how an Alexandrian teacher reasoned, not how an ordinary believer experienced doubt
+  construction: The record gives this as Clement's own philosophical argument; the sentence makes it the church's teaching.
+- seed_type: attribution_inflation
+  world: syr
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings:
+  - kind: record
+    id: syr.quote.palladius-hospitaller
+  sentence: Whenever famine came, our teachers told the rich to trust them, and took on the care of the needy on their behalf.
+  record_words: one-time, ad hoc assumption of charitable responsibility during a single famine
+  construction: The record gives Ephrem's offer once, in a single famine at Edessa; the sentence makes it a habit of all our teachers in every famine.
+- seed_type: attribution_inflation
+  world: ijc
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings:
+  - kind: record
+    id: ijc.quote.secular-ruler-ecclesiastical-cause
+  sentence: We held that it was a foul and unheard-of disgrace for a secular ruler to be judge in a church case.
+  record_words: the record shows the bishops of Gaul divided
+  construction: The record gives this as Martin's position at Trier, with the bishops divided and Augustine later arguing the other way; the sentence makes it what we held.
+- seed_type: attribution_inflation
+  world: pahc
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings:
+  - kind: record
+    id: pahc.quote.those-who-lived-reasonably-are-christians
+  sentence: We held that those who lived by reason, like Socrates, Heraclitus and Abraham, were Christians, even though they were thought to be atheists.
+  record_words: Documented as Justin's own argument, addressed to a Roman emperor
+  construction: The record gives this as Justin's own argument in the First Apology; the sentence makes it what the community held.
+- seed_type: attribution_inflation
+  world: hal
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings:
+  - kind: record
+    id: hal.quote.dispute-to-learn
+  sentence: Our women never accepted a teacher's explanations of Scripture at once; they disputed them, not to argue but to learn the answers.
+  record_words: a claim that women in general could openly challenge teachers in this world
+  construction: Jerome recalls this of one woman, Marcella; the sentence widens it to all our women.

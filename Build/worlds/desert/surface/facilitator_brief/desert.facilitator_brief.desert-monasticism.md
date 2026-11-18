@@ -287,9 +287,9 @@ session opened and read directly.
 
 A NOTE ON THE SOURCE DOCUMENT'S OWN STANDING. Unlike the syr Phase Six
 document (approved to proceed, twice independently reviewed), this
-world's own Phase Six draft explicitly discloses itself as "a
-synthesis awaiting its own Round 1 review, not as a cleared or
-disposition-ready artifact" - it was never independently reviewed at
+world's own Phase Six draft explicitly discloses itself as a
+synthesis awaiting independent review, not a cleared or
+disposition-ready artifact - it was never independently reviewed at
 all. This record's own discipline (ground only in real, current M1
 records, never in that draft's own citations) applies with the same
 force regardless, but the draft's own lower standing is one more reason

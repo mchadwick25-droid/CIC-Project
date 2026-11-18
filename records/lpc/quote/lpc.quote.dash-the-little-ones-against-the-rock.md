@@ -37,6 +37,7 @@ retrieval:
   - participant asks about Psalm 137:9, 'happy is he who dashes your little ones against the rock'
   - participant asks how Augustine read the verse about dashing the little ones
   - participant asks how Augustine's people read the harsh verses of the Psalms
+  - participant asks how the church could read a Bible verse that blesses smashing babies against rocks
   prefer_instead: []
 claim_guards:
 - The passage does not say that the verse has no literal sense, and it says nothing of the Psalm's first

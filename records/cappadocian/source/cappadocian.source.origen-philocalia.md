@@ -19,6 +19,7 @@ work: The Philocalia, the Origen anthology traditionally compiled by Basil and N
 edition: Lewis' 1911 translation, vendored (for the Alexandria world, 2026-08-21) as cic/texts/origen_philocalia_lewis1911.txt
 citation: Origen, The Philocalia, the anthology traditionally compiled by Basil and Gregory of Nazianzus, trans. Lewis (1911)
 kind: vendored
+shelf_row: origen_philocalia_lewis1911--the-philocalia-of-origen-2
 rights_status: "public-domain; vendored, rights independently confirmed"
 attribution_status: contested (the traditional Basil-Nazianzen compiling attribution is now Contested
   in the scholarship)

@@ -840,3 +840,65 @@ Status: OPEN for an independent recheck of the quotes.
 The closing now says the quarrel over 'saved by faith alone' came later, not that the words did (Rufinus's Latin has 'sola fide' in Origen's passage on the thief); 'merely' is dropped from the Quis Dives paraphrase. Two Clement hits for 'faith alone' (Stromateis V.6, anf02 line 41905; and anf02 line 32187) are not in the record's list of what was found; neither sets faith against works. Awaiting a fourth read.
 
 Status: OPEN for the fourth read.
+
+### OG-41. Passage seeds: phase 1 and the first phase 2 batch, 2026-11-02.
+
+`Build/worlds/alx/build/alx_Passage_Seeds.yaml` holds 52 checked seeds for 28 of the 130 sub-questions; none can be voiced, because no alx passage has a named speaker. Phase 1 gave 21 seeds from the coverage-map hits; the first search batch (11 concrete sub-questions) added 31. Each seed passed the code check against the vendored text and a reading by Sonnet, and Opus read every passage the first reader rated direct or partial.
+
+What alx needs that lpc did not have: (1) `locus_ids` on its corpus-map rows. Without them every seed binds to the whole file, 52 of 52 read `file level only`, and many passages sit in works that are not Alexandrian (Methodius, Tertullian, the Apostolic Constitutions, Gregory of Nyssa); work and author are set on 10 and 19 of the 52, translator and edition year on none, and the date window is unknown on all. (2) Speaker marks for the multi-author Ante-Nicene volumes, where the index marks speakers mixed or unknown. Neither is a seed fix.
+
+Status: OPEN. Owner: Library thread, through the coordination thread.
+
+## OG-42. Row narrowing of the volumes behind the seeds (2026-11-03)
+
+- **What changed.** 108 corpus-map rows in 18 multi-work volumes (alx and syr shelves) now carry `locus_ids` and `language`, set from the vendored file by in-session readers: the divisions of each volume are assigned to the row whose work they print. Volumes: ANF 2, 4, 6, 7, 8, 9; NPNF 2.1, 2.2, 2.3, 2.4, 2.8, 2.13, 2.14; Origen Philocalia, Addai, Ephraim prose, Aphrahat (Hallock), Palladius Paradise I. Ten world packages were rebuilt and repinned (alx, aec, desert, don, gallic, hal, ijc, pahc, syr, wsyr).
+- **Reach under the lens** (English passages that are not apparatus, by the division test): alx 47.7% before, 69.3% after (3,083,184 of 6,601,958 words before, 4,634,085 after).
+- **Seeds.** alx `row narrowed`: 0 of 52 before, 35 of 52 after. The 17 that stay `file level only` sit in works the alx rows do not name (Apostolic Constitutions, the Pseudo-Clementines, Gregory of Nyssa and others), so they are correctly off the lens.
+- **Not done.** Dates and translators on these rows are not set. `window` stays `unknown` on all 52. Divisions the readers left out of every row on purpose: general introductions and editors' notes that serve several works.
+- **Owner.** Library thread, through the coordination thread.
+
+## OG-43. Deployment-layer work still open from the v7 gap-closure tracker, 2026-11-03
+
+`v7_Gap_Closure_Tracker.md` (now under `Build/Ministry/Operations/Audits/World-Findings/alx/`) closed every item it named except the following, which it listed as remaining and which are recorded here so they do not go quiet:
+- The Tier-2 lexicon chunk files (`047` onward), including the governed contested-term entries `046`, `051`, `059`, `074`, `081` and `090`.
+- Full completion of the 153 one-directional reciprocity back-links flagged in the directory-wide audit; `051` (Apokatastasis) is the one genuinely unbuilt chunk.
+- Optional only: folding the fuller v7 prose for per-gravity temporal profiles and the daily, weekly and annual rhythm detail back into the cleared record. The content is preserved in the archive; the project lead decides whether to fold it back.
+
+Article 31 external review (OG-4) remains the outstanding external gate. The tracker's work did not freeze the world.
+
+Status: OPEN. Owner: this world's thread.
+
+## OG-44. Open points removed from alx construction documents by the live-surface cleanup, 2026-11-03
+
+The clauses below were removed from the alx documents named in each item so the documents state what is true now. They are recorded in full here. Article 31 external review is tracked at OG-4.
+
+1. alx Doc_02 L103 (removed clause): "a future revision pass may draw on it directly" (Mingarelli 1769 *De Trinitate*, Latin only, not yet used for any claim). Full original sentence: "Its own specific content has not yet been read for any claim below — this is a discovery-layer/library integration only, consistent with this project's own "vendor and map now, integrate later" discipline; a future revision pass may draw on it directly."
+2. alx Doc_02 L248 (label removed; line kept as a rule): "**Open item (verification hygiene):** two primary-source datings carry a live scholarly caveat and should be stated with it wherever reused — the *Address of Thanksgiving* dating (Nautin's authenticity/dating dispute; consensus reaffirms c. 238) and the exact endpoint of the Diocletianic persecution (303–311, toleration 313)."
+3. alx Doc_04 L33: "(deferred to Article 31 external scholarly review)" for the whole-ecology question (also at line 187 in the doc).
+4. alx Doc_04 L113 (bracket removed): "*[Open item, not resolved here (see Open_Gaps_Tracking.md). The "c. 150–254" endpoint is narrower than this world's own corpus supports — Theognostus (fl. c. 260) and Pierus (fl. c. 275) are assigned school-tradition voices inside 254–296 — and it contradicts `alx.figure.didymus`, which has Didymus holding "the school's chair for fifty years, to 398." Crucially, **that contradiction does not flip this Persistence verdict, and Didymus is why**: if the test measured whether advanced teachers existed, Didymus-to-398 would have flipped it long ago. It measures formation's centre of gravity moving to the episcopal-doctrinal channel under the post-Nicene authority shift, which none of these three touches. C5 remains **Supporting (temporally qualified)**; what needs reconciling is the date wording across two records.]*" The open point is the date-wording mismatch across two records. The verdict reasoning stays in the doc.
+5. alx Doc_04 L123 (label removed): "**Alexander of Alexandria's *Epistles on the Arian Heresy*** — also assigned to this world, directly transmitted, and currently drawn on by no record — is the stronger, later end of the same chain and is named here as an open item, not relied on."
+6. alx Doc_04 L170 (line removed): "- This entire divergence is **deferred to Article 31 external scholarly review** (a qualified subject-matter reviewer is the only accountable way to test whether the reconstruction has mistaken the school's gravities for the ecology's) and is logged as a standing open item."
+7. alx alexlex028 L58 (sentence removed): "Whether a fuller, independently-grounded account of prayer's contemplative development exists elsewhere in this world's own vendored Origen corpus (*On First Principles*, the biblical commentaries) is an open item for a future revision pass, not asserted here."
+8. alx alexlex038 L56 (clause removed): "whether an independently-grounded Origen account of love-as-orientation exists elsewhere in this world's vendored Origen corpus (*On First Principles*, the *Commentary on John*) is an open item for a future revision pass, not asserted here."
+9. alx alex_World_Profile lines 15 and 21, removed as stale: "The world's name and outer scope remain flagged for the project lead (OG-3) ... if the project lead prefers a narrower 'catechetical-school institution' world, the Profile and its upstream docs revise together" and "Name/scope flagged for the project lead, OG-3". OG-3 is RESOLVED: the project lead confirmed the broad reading and the name on 2026-07-17, and sections 9 and 11 of the same file say so. Nothing open remains in this item.
+
+Status: OPEN. Owner: this world's thread.
+
+## OG-45. Every quote rendering reviewed by Opus against the edition, 2026-11-04.
+
+- **Finding.** The `rendering-review` gate found 26 alx renderings with no named Opus review file.
+- **Done.** An independent Opus reviewer read all 26 against each record's `text` and the edition text in `cic/texts/` at its locus. Round 1 failed four: one P1 and three P2.
+  - `the-grades-here-in-the-church` (P1) voiced the translator's "[as deacons]" as Clement's own words.
+  - `clement-instructor` (P2): "unnatural passions" read as sexual vice.
+  - `no-festal-letter-was-written` (P2) joined two thoughts in a 26-word sentence and added "men" as the searchers.
+  - `timothy-ordinary-questions` (P2) read a case put to the bishop as a permission.
+- All four were re-rendered by Opus and passed a second independent reader. The lens notes of `no-festal-letter-was-written` and `the-grades-here-in-the-church`, and the use_note of `clement-instructor`, were corrected to match.
+- A third reader checked how a bracket in a rendering reaches a participant. The reply sets the rendering inside quotation marks, and the card shows it as written. No code removes single brackets or reads renderings aloud. So "[as deacons]" is shown marked as the translator's word. That reader failed the record on another point: the last sentence had dropped the quotation marks the edition sets around Ephesians 4:13, "a perfect man". Under the project lead's cap ruling (System Hub Decision Log, "Cap ruling: alx the-grades-here-in-the-church rendering", 2026-11-04), a fresh fourth reader judged only that sentence. It passed "This goes on until they grow into “a mature man.”".
+- Per-record log: `Review-Artifacts/Rendering_Review_Log_26_2026-11-03.md`. The `m1:rendering-review/alx` waiver is removed; the gate reports 0 for alx (26 → 0).
+- **Owner.** Library record-defects thread. Closed.
+
+## OG-46. Every verbatim quote names its exact lines, 2026-11-04.
+
+- **Finding.** 26 alx verbatim quotes named no line span in their locus.
+- **Done.** Each now names `cic/texts/<file>, lines N-M`, the span the independent Opus reviewer found in the batch review table (see "Every quote rendering reviewed by Opus against the edition", 2026-11-04). The `quote-locus` gate checks the text against it, and all 26 match. Two records cite two sources: `dionysius-plague` takes its span on the Eusebius source, whose text it quotes; the second source is a different translation. `origen-scripture-senses` takes its span on the Philocalia source. Where a locus already held a rough pointer for the same file, such as "(anf02 line 18785)" or "near line 47889", the exact span replaces it.
+- **Owner.** Library record-defects thread. Closed.

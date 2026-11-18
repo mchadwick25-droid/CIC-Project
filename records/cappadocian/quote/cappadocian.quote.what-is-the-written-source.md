@@ -15,7 +15,7 @@ confidence:
   divergence_note: null
 sources:
 - source_id: cappadocian.source.basil-on-the-holy-spirit
-  locus: "On the Holy Spirit, ch. 27, sec. 67 (npnf208_basil-letters-select-works.xml)"
+  locus: "On the Holy Spirit, ch. 27, sec. 67 (cic/texts/npnf208_basil-letters-select-works.xml, lines 14128-14139)"
   license: public-domain
 text: >-
   Time will fail me if I attempt to recount the unwritten mysteries of the
@@ -48,37 +48,36 @@ relations:
 - type: associated-with
   target: cappadocian.dw.unwritten-carries-too
 modern_rendering: >-
-  Time would fail me if I attempted to recount the unwritten mysteries of the church. I'll
-  say nothing of the rest. But of the very confession of our faith in Father, Son, and Holy
-  Spirit -- what is the written source? Suppose it is granted that, just as we are
-  baptized, so too under the obligation to believe, we make our confession in the same
-  terms as our baptism. Suppose it is granted that this follows the tradition of our
-  baptism and conforms to the principles of true religion. Then let our opponents grant us
-  the same consistency in our ascription of glory as in our confession of faith. If they
-  object to our doxology on the ground that it lacks written authority, let them give us
-  the written evidence for the confession of our faith, and for the other matters we have
-  enumerated.
+  Time will fail me if I try to recount the unwritten mysteries of the Church. Of the
+  rest I say nothing. But of the very confession of our faith in Father, Son, and Holy
+  Spirit, what is the written source? Suppose this is granted: as we are baptized, so,
+  bound to believe, we confess in the same terms as our baptism. Suppose it is also
+  granted that we do this in keeping with the tradition of our baptism and the
+  principles of true religion. Then let our opponents grant us, too, the right to be as
+  consistent in giving glory as in confessing our faith. If they object to our doxology
+  because it lacks written authority, let them show us written evidence for our
+  confession of faith. And let them do the same for the other matters we have listed.
 use_note:
   means: "Basil, in On the Holy Spirit, challenges critics who demand written authority for his doxology to produce written authority for the baptismal confession itself."
   not_for:
     - "the baptize-believe-glorify sequence argument, which sits in cappadocian.quote.baptize-believe-glorify-in-sequence"
     - "a claim that this world set tradition against scripture as rival authorities"
-    - "unwritten tradition as licence to defend whatever a bishop preferred"
+    - "unwritten tradition as license to defend whatever a bishop preferred"
   years: {from: 375, to: 375}
   status: reviewed
 ---
 Verified verbatim directly against the vendored
 npnf208_basil-letters-select-works.xml (On the Holy Spirit, ch. 27, the
 treatise's own numbered sec. 67, the paragraph immediately following the
-"unwritten mysteries" catalogue - facing east, standing to pray, the
+"unwritten mysteries" catalog - facing east, standing to pray, the
 threefold immersion - that cappadocian.quote.we-look-to-the-east quotes
 from the same chapter's sec. 66). Double-spacing normalized to single
 spaces; no wording added, dropped, or reordered.
 
-Chosen over the earlier sec. 66 catalogue for THIS cell specifically
+Chosen over the earlier sec. 66 catalog for THIS cell specifically
 because sec. 67 makes the "Bible only authority" argument explicit and
 turns it back on the critics (daring them to find written authority even
-for the baptismal confession itself), while sec. 66's catalogue of
+for the baptismal confession itself), while sec. 66's catalog of
 customs is the stronger match for F4-E (apostolic origin of practices) and
 is quoted there instead - two distinct, genuinely separate excerpts from
 the same chapter, not one quote stretched to cover two cells.

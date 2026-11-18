@@ -16,7 +16,7 @@ confidence:
   divergence_note: null
 sources:
 - source_id: ijc.source.leo-letters
-  locus: Ep. CIV to Marcian, ch. III (npnf212 lines 9078-9084)
+  locus: "Ep. CIV to Marcian, ch. III (cic/texts/npnf212_leo-great-gregory-great.xml, lines 9079-9083)"
   license: public-domain
 text: 'Let the city of Constantinople have, as we desire, its high rank, and under the protection of
   God''s right hand, long enjoy your clemency''s rule. Yet things secular stand on a different basis

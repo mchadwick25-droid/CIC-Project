@@ -1,0 +1,1157 @@
+{
+ "group": "A",
+ "movements": [
+  "medieval-irish-christianity",
+  "medieval-welsh-christianity",
+  "anglo-saxon-christianity",
+  "late-anglo-saxon-christianity",
+  "scandinavian-conversion-christianity"
+ ],
+ "dispositions": [
+  {
+   "movement": "medieval-irish-christianity",
+   "field": "why",
+   "sentence": "Ireland from the end of the Insular and Irish Monastic Christianity entry in 664 to 1169.",
+   "other_id": "insular-irish-monastic-christianity",
+   "disposition": "link",
+   "link_id": "insular-irish-monastic-christianity--medieval-irish-christianity",
+   "prose_change": null,
+   "reason": "Stub naming its predecessor: drafted as continued as, Documented on Bede IV.4 and V.15 and Adomnan's own line of abbots."
+  },
+  {
+   "movement": "medieval-welsh-christianity",
+   "field": "why",
+   "sentence": "Wales from the end of the British and Welsh Christianity entry in 768 to 1282.",
+   "other_id": "british-welsh-christianity",
+   "disposition": "link",
+   "link_id": "british-welsh-christianity--medieval-welsh-christianity",
+   "prose_change": null,
+   "reason": "Stub naming its predecessor: drafted as continued as, Documented on the Annales Cambriae for 768, 809 and 840."
+  },
+  {
+   "movement": "anglo-saxon-christianity",
+   "field": "relationsSummary",
+   "sentence": "Child of Benedictine + Irish lines converging at Whitby; parent of the Carolingian reform",
+   "other_id": "early-benedictine-italian-monasticism",
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 0,
+   "reason": "No vendored text supports a Benedictine parent: Whitby settled Easter and tonsure between Roman and Irish custom (Bede III.25-26), and the only claims that Augustine's monks were Benedictine are two editors' notes (Bede, Jane 1903, file line 15824, which also misnames Gregory's monastery; Gasquet 1925, lines 100-105). The prior audit already lists the Rule-and-Gregory's-monastery text as wanted. Summary rewritten to name the Roman and Irish missions."
+  },
+  {
+   "movement": "anglo-saxon-christianity",
+   "field": "relationsSummary",
+   "sentence": "Child of Benedictine + Irish lines converging at Whitby; parent of the Carolingian reform",
+   "other_id": "insular-irish-monastic-christianity",
+   "disposition": "link",
+   "link_id": "anglo-saxon-christianity--insular-irish-monastic-christianity",
+   "prose_change": null,
+   "reason": "The Irish line is the existing gave-rise-to link; 'converging at Whitby' is carried by the new argued-against link (Wilfrid's speech, Oswy's ruling, Colman's withdrawal)."
+  },
+  {
+   "movement": "anglo-saxon-christianity",
+   "field": "relationsSummary",
+   "sentence": "Child of Benedictine + Irish lines converging at Whitby; parent of the Carolingian reform",
+   "other_id": "carolingian-reform-christianity",
+   "disposition": "link",
+   "link_id": "anglo-saxon-christianity--carolingian-reform-christianity",
+   "prose_change": 0,
+   "reason": "New gave-rise-to link, Widely Accepted: Daniel's letter for Wynfrith, Boniface's synod letter, Alcuin's own words, and Kylie's 1911 introduction. Kept in the rewritten summary."
+  },
+  {
+   "movement": "anglo-saxon-christianity",
+   "field": "longDescription",
+   "sentence": "Christianity reached the English twice over and from two directions — from Rome in 597, when Augustine landed in Kent, and from Ireland by way of Iona, whose monks founded Lindisfarne and evangelized Northumbria.",
+   "other_id": "roman-church-gregorian",
+   "disposition": "link",
+   "link_id": "roman-church-gregorian--anglo-saxon-christianity",
+   "prose_change": null,
+   "reason": "Existing Documented link (Bede I.23, I.25); kept."
+  },
+  {
+   "movement": "anglo-saxon-christianity",
+   "field": "longDescription",
+   "sentence": "Christianity reached the English twice over and from two directions — from Rome in 597, when Augustine landed in Kent, and from Ireland by way of Iona, whose monks founded Lindisfarne and evangelized Northumbria.",
+   "other_id": "insular-irish-monastic-christianity",
+   "disposition": "link",
+   "link_id": "insular-irish-monastic-christianity--anglo-saxon-christianity",
+   "prose_change": null,
+   "reason": "Existing Documented link (Bede III.3); kept."
+  },
+  {
+   "movement": "anglo-saxon-christianity",
+   "field": "longDescription",
+   "sentence": "And at the Synod of Whitby in 664 the two traditions had to settle publicly which calendar and which customs the English church would keep.",
+   "other_id": "roman-church-gregorian",
+   "disposition": "link",
+   "link_id": "anglo-saxon-christianity--insular-irish-monastic-christianity",
+   "prose_change": null,
+   "reason": "The Roman side at Whitby was Roman custom argued by the Englishman Wilfrid inside the English church; the Gregorian Roman church (to 604) took no part, so no second Roman link. The dispute is the new argued-against link, and the Roman descent stays on the existing gave-rise-to link."
+  },
+  {
+   "movement": "anglo-saxon-christianity",
+   "field": "longDescription",
+   "sentence": "And at the Synod of Whitby in 664 the two traditions had to settle publicly which calendar and which customs the English church would keep.",
+   "other_id": "insular-irish-monastic-christianity",
+   "disposition": "link",
+   "link_id": "anglo-saxon-christianity--insular-irish-monastic-christianity",
+   "prose_change": null,
+   "reason": "New argued-against link, Documented on Bede III.25-26."
+  },
+  {
+   "movement": "anglo-saxon-christianity",
+   "field": "longDescription",
+   "sentence": "Within a century of being a mission field, England was sending missionaries of its own back across the Channel — Willibrord to Frisia, Boniface into Germany, and with them women such as the abbess Leoba, whose one surviving letter comes down under her own name.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The Frisian and German missions have no census entry of their own; the German mission's tie to the Frankish church is the new Carolingian link. Checked: Daniel of Winchester's letter for Wynfrith (Kylie, lines 2402-2404), Alcuin's Vita Willibrordi on Frisia (PL 101, line 55187), and Lioba's letter to Boniface (Kylie, contents line 372, 'Lioba asks Boniface to pray to God for her'). Claim stands."
+  },
+  {
+   "movement": "anglo-saxon-christianity",
+   "field": "longDescription",
+   "sentence": "The window closes on 8 June 793, when Viking raiders sacked Lindisfarne and a different age began.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Vikings have no entry. The sack is in Alcuin's Lindisfarne poem (PL 101, lines 64370-64371). The exact date '8 June 793' has no vendored source (Froben's note says 795); left as written and listed in wants and escalations."
+  },
+  {
+   "movement": "anglo-saxon-christianity",
+   "field": "why",
+   "sentence": "Christianity reached the English twice, from Rome through Augustine in 597 and from Ireland through the monks of Iona who founded Lindisfarne, and the two traditions settled their differences publicly at the Synod of Whitby in 664.",
+   "other_id": "roman-church-gregorian",
+   "disposition": "link",
+   "link_id": "roman-church-gregorian--anglo-saxon-christianity",
+   "prose_change": null,
+   "reason": "As the longDescription: existing link."
+  },
+  {
+   "movement": "anglo-saxon-christianity",
+   "field": "why",
+   "sentence": "Christianity reached the English twice, from Rome through Augustine in 597 and from Ireland through the monks of Iona who founded Lindisfarne, and the two traditions settled their differences publicly at the Synod of Whitby in 664.",
+   "other_id": "insular-irish-monastic-christianity",
+   "disposition": "link",
+   "link_id": "insular-irish-monastic-christianity--anglo-saxon-christianity",
+   "prose_change": null,
+   "reason": "As the longDescription: existing link."
+  },
+  {
+   "movement": "anglo-saxon-christianity",
+   "field": "why",
+   "sentence": "Christianity reached the English twice, from Rome through Augustine in 597 and from Ireland through the monks of Iona who founded Lindisfarne, and the two traditions settled their differences publicly at the Synod of Whitby in 664.",
+   "other_id": "roman-church-gregorian",
+   "disposition": "link",
+   "link_id": "anglo-saxon-christianity--insular-irish-monastic-christianity",
+   "prose_change": null,
+   "reason": "As the longDescription: no second Roman link; the dispute is the argued-against link."
+  },
+  {
+   "movement": "anglo-saxon-christianity",
+   "field": "why",
+   "sentence": "Christianity reached the English twice, from Rome through Augustine in 597 and from Ireland through the monks of Iona who founded Lindisfarne, and the two traditions settled their differences publicly at the Synod of Whitby in 664.",
+   "other_id": "insular-irish-monastic-christianity",
+   "disposition": "link",
+   "link_id": "anglo-saxon-christianity--insular-irish-monastic-christianity",
+   "prose_change": null,
+   "reason": "As the longDescription: new argued-against link."
+  },
+  {
+   "movement": "anglo-saxon-christianity",
+   "field": "why",
+   "sentence": "Within a century a church that had itself just been converted was sending its own missionaries back across the Channel, among them Boniface into Germany and the abbess Leoba, whose one surviving letter is a rare case of a woman's own words reaching us directly from the period.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "As the longDescription; Boniface's mission documented in Kylie. Lioba: the Kylie volume holds her letter to Boniface; 'one surviving letter' not checked against a modern list."
+  },
+  {
+   "movement": "anglo-saxon-christianity",
+   "field": "legacy",
+   "sentence": "The same church continued: this story runs straight on into the late Anglo-Saxon church that survived the Viking wars and was rebuilt under Alfred and the reforming bishops.",
+   "other_id": "late-anglo-saxon-christianity",
+   "disposition": "link",
+   "link_id": "anglo-saxon-christianity--late-anglo-saxon-christianity",
+   "prose_change": null,
+   "reason": "New continued-as link, Documented on Bede III.3 and Alcuin's poem to the Lindisfarne community after the raid."
+  },
+  {
+   "movement": "anglo-saxon-christianity",
+   "field": "legacy",
+   "sentence": "Bede's history shaped how the English told their own story for a thousand years and gave the Western world the habit of dating years from the Incarnation; and the mission into Germany reorganized the continental church so thoroughly that the Carolingian reform grew directly out of it.",
+   "other_id": "carolingian-reform-christianity",
+   "disposition": "link",
+   "link_id": "anglo-saxon-christianity--carolingian-reform-christianity",
+   "prose_change": null,
+   "reason": "New gave-rise-to link, Widely Accepted. 'Grew directly out of it' is interpretive; Kylie 1911 ('laid the foundation-stone of the imperial edifice') is the secondary that carries it. Left as written."
+  },
+  {
+   "movement": "late-anglo-saxon-christianity",
+   "field": "relationsSummary",
+   "sentence": "Viking-age survival, Alfred's revival, then the Benedictine Reform (Dunstan, Aethelwold, Oswald) - the English parallel to Cluny; ends at the Conquest (1066, one boundary crossing)",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Vikings have no entry. No vendored text on the ninth-century Viking wars in England (the Anglo-Saxon Chronicle and Asser are wanted). Left as written; see escalations."
+  },
+  {
+   "movement": "late-anglo-saxon-christianity",
+   "field": "relationsSummary",
+   "sentence": "Viking-age survival, Alfred's revival, then the Benedictine Reform (Dunstan, Aethelwold, Oswald) - the English parallel to Cluny; ends at the Conquest (1066, one boundary crossing)",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Alfred is a person. His translations are reported by two vendored editors (Barmby, NPNF 12, lines 24031-24035; Gardner 1911, lines 1275-1276), carried on the Gregory link. Asser and Alfred's preface are not vendored (wants)."
+  },
+  {
+   "movement": "late-anglo-saxon-christianity",
+   "field": "relationsSummary",
+   "sentence": "Viking-age survival, Alfred's revival, then the Benedictine Reform (Dunstan, Aethelwold, Oswald) - the English parallel to Cluny; ends at the Conquest (1066, one boundary crossing)",
+   "other_id": null,
+   "disposition": "link",
+   "link_id": "early-benedictine-italian-monasticism--late-anglo-saxon-christianity",
+   "prose_change": 1,
+   "reason": "The named reform has no entry; its tie to Benedict's Rule is the new Inferential-Thin link. Summary rewritten for its internal fragment."
+  },
+  {
+   "movement": "late-anglo-saxon-christianity",
+   "field": "relationsSummary",
+   "sentence": "Viking-age survival, Alfred's revival, then the Benedictine Reform (Dunstan, Aethelwold, Oswald) - the English parallel to Cluny; ends at the Conquest (1066, one boundary crossing)",
+   "other_id": "cluniac-reform-monasticism",
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 1,
+   "reason": "Comparison only. No vendored source shows contact with Cluny (the Fleury route is unsourced here), so the summary keeps the shared century and drops 'parallel'. No link drafted. Also removes the cataloguing phrase 'one boundary crossing'."
+  },
+  {
+   "movement": "late-anglo-saxon-christianity",
+   "field": "relationsSummary",
+   "sentence": "Viking-age survival, Alfred's revival, then the Benedictine Reform (Dunstan, Aethelwold, Oswald) - the English parallel to Cluny; ends at the Conquest (1066, one boundary crossing)",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The Norman Conquest has no entry. Kept in the rewritten summary as a date boundary."
+  },
+  {
+   "movement": "late-anglo-saxon-christianity",
+   "field": "longDescription",
+   "sentence": "The Viking wars nearly killed English Christianity.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "As the summary: no vendored source; see escalations."
+  },
+  {
+   "movement": "late-anglo-saxon-christianity",
+   "field": "longDescription",
+   "sentence": "Monasteries were destroyed, whole dioceses lapsed, and when Alfred of Wessex set out to rebuild he complained that he could hardly find a priest south of the Thames able to translate a Latin letter.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Alfred's complaint about priests south of the Thames comes from his preface to the Pastoral Care, which is not vendored (wants: Sweet 1871). Left as written; see escalations."
+  },
+  {
+   "movement": "late-anglo-saxon-christianity",
+   "field": "longDescription",
+   "sentence": "His answer was a translation program — Gregory the Great's Pastoral Care and other essential books put into English so that clergy could read them at all.",
+   "other_id": "roman-church-gregorian",
+   "disposition": "link",
+   "link_id": "roman-church-gregorian--late-anglo-saxon-christianity",
+   "prose_change": null,
+   "reason": "New influenced link, Dominant Modern Reconstruction on the two editors (the primary is not vendored)."
+  },
+  {
+   "movement": "late-anglo-saxon-christianity",
+   "field": "longDescription",
+   "sentence": "A century later a second rebuilding, led by the bishops Dunstan, Æthelwold and Oswald, refounded the monasteries on the Benedictine rule and produced an agreed customary for the whole country.",
+   "other_id": "early-benedictine-italian-monasticism",
+   "disposition": "link",
+   "link_id": "early-benedictine-italian-monasticism--late-anglo-saxon-christianity",
+   "prose_change": null,
+   "reason": "New influenced link, Inferential-Thin. The 'agreed customary' (Regularis Concordia) is not vendored (wants). Left as written."
+  },
+  {
+   "movement": "late-anglo-saxon-christianity",
+   "field": "longDescription",
+   "sentence": "The vernacular stayed central throughout: Ælfric wrote well over a hundred sermons in English so that ordinary congregations could hear careful teaching in their own tongue, and Archbishop Wulfstan, preaching in 1014 as the Danish invasions closed in, told the English that their own sins had brought the calamity on them.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The Danish invasions have no entry. Ælfric's sermons and Wulfstan's Sermon of the Wolf (1014) are not vendored (wants). Left as written; see escalations."
+  },
+  {
+   "movement": "late-anglo-saxon-christianity",
+   "field": "longDescription",
+   "sentence": "The Norman Conquest of 1066 ended the church's independent development.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "As the summary."
+  },
+  {
+   "movement": "late-anglo-saxon-christianity",
+   "field": "legacy",
+   "sentence": "The dioceses, the cathedral communities and the parish network built in these centuries carried straight on into the Norman and later medieval English church, and many English cathedrals still stand where these bishops put them.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "No census entry for the English church after 1066 (the Latin papal entry is Europe-wide). No vendored source checked for diocesan continuity across 1066. Raised as a census-structure question in escalations."
+  },
+  {
+   "movement": "late-anglo-saxon-christianity",
+   "field": "why",
+   "sentence": "The Viking wars nearly destroyed English Christianity, and when Alfred of Wessex set out to rebuild it, he complained he could barely find a priest south of the Thames able to translate a Latin letter, so he launched a program translating essential books into English instead.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Inventory missed this why sentence. Vikings and Alfred: as the longDescription (no vendored primary; Gregory link carries the translations). Left as written."
+  },
+  {
+   "movement": "late-anglo-saxon-christianity",
+   "field": "why",
+   "sentence": "A century later the bishops Dunstan, Æthelwold and Oswald refounded the monasteries on the Benedictine rule, and Ælfric wrote well over a hundred English sermons so ordinary congregations could hear careful teaching in their own tongue, while Archbishop Wulfstan, preaching in 1014 as Danish invasions closed in, told the English their own sins had brought the disaster on them.",
+   "other_id": "early-benedictine-italian-monasticism",
+   "disposition": "link",
+   "link_id": "early-benedictine-italian-monasticism--late-anglo-saxon-christianity",
+   "prose_change": null,
+   "reason": "Inventory missed this why sentence. The Benedictine rule is the new Inferential-Thin link; Ælfric, Wulfstan and the Danish invasions are no-entry with no vendored source (wants, escalations)."
+  },
+  {
+   "movement": "scandinavian-conversion-christianity",
+   "field": "relationsSummary",
+   "sentence": "Child of Anglo-Saxon + Hamburg-Bremen missions; Iceland converted by communal vote at the Althing (1000)",
+   "other_id": "anglo-saxon-christianity",
+   "disposition": "qualify",
+   "link_id": "late-anglo-saxon-christianity--scandinavian-conversion-christianity",
+   "prose_change": 2,
+   "reason": "Wrong entry named: the Anglo-Saxon window (597-793) ends before this one opens (826). Willibrord's visit to the Danish king about 700 (Alcuin, Vita Willibrordi I.9) failed and predates the window. The English missionaries Anjou names belong to the late Anglo-Saxon church: linked there, Inferential-Thin, and the summary says 'probably'."
+  },
+  {
+   "movement": "scandinavian-conversion-christianity",
+   "field": "relationsSummary",
+   "sentence": "Child of Anglo-Saxon + Hamburg-Bremen missions; Iceland converted by communal vote at the Althing (1000)",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": "carolingian-reform-christianity--scandinavian-conversion-christianity",
+   "prose_change": 2,
+   "reason": "Hamburg-Bremen has no entry. The see was the Frankish mission's own (Anjou, lines 402-405, Hamburg 834 and Bremen 858), so the Carolingian link carries it. Kept in the rewritten summary."
+  },
+  {
+   "movement": "scandinavian-conversion-christianity",
+   "field": "relationsSummary",
+   "sentence": "Child of Anglo-Saxon + Hamburg-Bremen missions; Iceland converted by communal vote at the Althing (1000)",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 2,
+   "reason": "The Althing has no entry. No vendored source for the conversion of Iceland (Ari's Íslendingabók is wanted). Kept in the rewritten summary; see escalations."
+  },
+  {
+   "movement": "scandinavian-conversion-christianity",
+   "field": "longDescription",
+   "sentence": "A Frankish monk named Anskar preached in Denmark and at Birka in Sweden in the 820s and 830s, with modest and short-lived results.",
+   "other_id": "carolingian-reform-christianity",
+   "disposition": "link",
+   "link_id": "carolingian-reform-christianity--scandinavian-conversion-christianity",
+   "prose_change": null,
+   "reason": "New gave-rise-to link, Documented on the Frankish royal annals (823, 826); Anskar himself rests on Anjou (secondary)."
+  },
+  {
+   "movement": "scandinavian-conversion-christianity",
+   "field": "longDescription",
+   "sentence": "Then came the kings — Harald Bluetooth, who set up a great carved stone at Jelling claiming that he had 'made the Danes Christian', and the two Olafs in Norway, whose methods included force and one of whom was killed in battle and venerated as a saint almost at once.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Harald Bluetooth and the Jelling stone: no vendored source (the inscription is wanted). Left as written; see escalations."
+  },
+  {
+   "movement": "scandinavian-conversion-christianity",
+   "field": "longDescription",
+   "sentence": "Then came the kings — Harald Bluetooth, who set up a great carved stone at Jelling claiming that he had 'made the Danes Christian', and the two Olafs in Norway, whose methods included force and one of whom was killed in battle and venerated as a saint almost at once.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The two Olafs: Anjou names Olof Skötkonung of Sweden, not the Norwegian Olafs. No vendored saga or chronicle (Heimskringla wanted). Left as written; see escalations."
+  },
+  {
+   "movement": "scandinavian-conversion-christianity",
+   "field": "longDescription",
+   "sentence": "Iceland took a different road: in the year 1000 the question was put to the Althing, the island's assembly, and the pagan law-speaker Þorgeir, after a night's deliberation, ruled that all Icelanders should be baptized, with some old practices tolerated privately for a time — a whole community changing religion by public decision rather than by conquest.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "As the summary: no vendored source. Left as written."
+  },
+  {
+   "movement": "scandinavian-conversion-christianity",
+   "field": "longDescription",
+   "sentence": "The window closes in 1104, when the northern church received its own archbishopric at Lund and stopped being mission territory administered from Germany.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Lund has no entry. Anjou (lines 406-408) gives the archbishopric of Lund as created in 1103; the census says 1104. Both dates are current in the literature; left as written and flagged."
+  },
+  {
+   "movement": "scandinavian-conversion-christianity",
+   "field": "longDescription",
+   "sentence": "The window closes in 1104, when the northern church received its own archbishopric at Lund and stopped being mission territory administered from Germany.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": "carolingian-reform-christianity--scandinavian-conversion-christianity",
+   "prose_change": null,
+   "reason": "Mission run from Germany: Anjou (lines 404-408) says the archbishop of Bremen had the mission in his care until Lund. Supported; left as written."
+  },
+  {
+   "movement": "scandinavian-conversion-christianity",
+   "field": "why",
+   "sentence": "Christianity came to Scandinavia through kings as much as missionaries — Harald Bluetooth raised a stone at Jelling claiming he had made the Danes Christian, and the Norwegian king Olaf Haraldsson was killed pressing the faith and venerated as a saint almost at once.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "As the longDescription: Jelling and Olaf Haraldsson unsourced in the vendored corpus."
+  },
+  {
+   "movement": "scandinavian-conversion-christianity",
+   "field": "why",
+   "sentence": "Christianity came to Scandinavia through kings as much as missionaries — Harald Bluetooth raised a stone at Jelling claiming he had made the Danes Christian, and the Norwegian king Olaf Haraldsson was killed pressing the faith and venerated as a saint almost at once.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "As the longDescription."
+  },
+  {
+   "movement": "scandinavian-conversion-christianity",
+   "field": "why",
+   "sentence": "Iceland took a different road: in the year 1000 the pagan law-speaker Þorgeir, after a night's deliberation, ruled at the island's own assembly that all Icelanders would be baptized, a whole community changing religion by public decision rather than by force.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "As the longDescription: no vendored source for the Althing decision."
+  },
+  {
+   "movement": "scandinavian-conversion-christianity",
+   "field": "legacy",
+   "sentence": "These conversions became the national churches of Denmark, Norway, Sweden and Iceland, which have existed continuously ever since.",
+   "other_id": null,
+   "disposition": "link",
+   "link_id": "scandinavian-conversion-christianity--scandinavian-reformation-kingdoms",
+   "prose_change": null,
+   "reason": "The four national churches are the Scandinavian Reformation entry's churches; carried by the new continued-as link, Inferential-Thin. 'Existed continuously ever since' is supported only for Skara and Lund, by Anjou."
+  },
+  {
+   "movement": "scandinavian-conversion-christianity",
+   "field": "legacy",
+   "sentence": "Often the same dioceses and the same cathedral sites, reformed rather than replaced at the Reformation.",
+   "other_id": "scandinavian-reformation-kingdoms",
+   "disposition": "link",
+   "link_id": "scandinavian-conversion-christianity--scandinavian-reformation-kingdoms",
+   "prose_change": null,
+   "reason": "New continued-as link, Inferential-Thin on Anjou (Skara from Sigfrid to the close of the Middle Ages; Lund from 1103 to 1517). The four-century gap with no entry is raised in escalations."
+  }
+ ],
+ "links": [
+  {
+   "id": "roman-church-gregorian--anglo-saxon-christianity",
+   "action": "keep",
+   "from": "roman-church-gregorian",
+   "to": "anglo-saxon-christianity",
+   "type": "gave rise to",
+   "confidence": "Documented",
+   "named_in_text": "anglo-saxon-christianity longDescription and why ('from Rome in 597, when Augustine landed in Kent'); roman-church-gregorian legacy",
+   "wants": [],
+   "drafter_flags": [
+    "Both Bede quotes rechecked against the vendored Giles/Jane file at the stated lines; they match."
+   ],
+   "change_reason": "Keep. The Roman half of the English church; the Roman side at Whitby in 664 is Roman custom inside the English church, not an act of the Gregorian Roman church (which ends 604), so it adds no second Roman link."
+  },
+  {
+   "id": "insular-irish-monastic-christianity--anglo-saxon-christianity",
+   "action": "keep",
+   "from": "insular-irish-monastic-christianity",
+   "to": "anglo-saxon-christianity",
+   "type": "gave rise to",
+   "confidence": "Documented",
+   "named_in_text": "anglo-saxon-christianity relationsSummary, longDescription and why ('from Ireland by way of Iona, whose monks founded Lindisfarne'); insular-irish-monastic-christianity relationsSummary ('parent of Anglo-Saxon Christianity') and legacy",
+   "wants": [],
+   "drafter_flags": [
+    "All three Bede III.3 quotes rechecked against the vendored file at the stated lines; they match (OCR 'asking-' and 'singu- lar' kept as printed)."
+   ],
+   "change_reason": "Keep. The Whitby dispute is carried by a separate new link, so this one stays the plain descent link."
+  },
+  {
+   "id": "insular-irish-monastic-christianity--medieval-irish-christianity",
+   "action": "new",
+   "from": "insular-irish-monastic-christianity",
+   "to": "medieval-irish-christianity",
+   "type": "continued as",
+   "confidence": "Documented",
+   "note": "After the Synod of Whitby in 664, Bishop Colman led his Irish monks out of Lindisfarne. Bede says he built a house for them on a small island off the west coast of Ireland. About 703 Adamnan, abbot of Columba's monastery on Iona, preached in Ireland. In his Life of Columba he names the abbots who came before him.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Bede, Ecclesiastical History of the English Nation, IV.4 (Giles/Jane 1903)",
+     "file": "cic/texts/bede_ecclesiastical-history-english-people_giles1903.txt",
+     "lines": "9196-9198",
+     "locus": "HE IV.4",
+     "quote": "Colman, the Scottish bishop, departing from Britain, took along with him all the Scots he had assembled in the isle of Lindisfarne,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Bede, Ecclesiastical History of the English Nation, IV.4 (Giles/Jane 1903)",
+     "file": "cic/texts/bede_ecclesiastical-history-english-people_giles1903.txt",
+     "lines": "9204-9207",
+     "locus": "HE IV.4",
+     "quote": "Afterwards he retired to a small island, which is to the west of Ireland, and at some distance from its coast, called in the language of the Scots, Inisbo- finde, the Island of the White Heifer.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Bede, Ecclesiastical History of the English Nation, V.15 (Giles/Jane 1903)",
+     "file": "cic/texts/bede_ecclesiastical-history-english-people_giles1903.txt",
+     "lines": "13551-13552",
+     "locus": "HE V.15",
+     "quote": "Adamnan, priest and abbat of the monks that were in the isle of Hii, was sent ambassador by his nation",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Bede, Ecclesiastical History of the English Nation, V.15 (Giles/Jane 1903)",
+     "file": "cic/texts/bede_ecclesiastical-history-english-people_giles1903.txt",
+     "lines": "13575-13579",
+     "locus": "HE V.15",
+     "quote": "He then sailed over into Ireland, to preach to those people, and by modestly declaring the legal time of Easter, he reduced many of them, and almost all that were not under the dominion of those of Hii, to the Catholic unity,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Adomnan, Life of Saint Columba (trans. W. Huyshe, 1905)",
+     "file": "cic/texts/adomnan_life-of-saint-columba_huyshe1905.txt",
+     "lines": "2419-2421",
+     "locus": "Vita Columbae I.1",
+     "quote": "My prede- cessor, our Abbot Failbeus, related this narrative to me, Adamnan, nothing doubting,",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "medieval-irish-christianity why ('Ireland from the end of the Insular and Irish Monastic Christianity entry in 664 to 1169')",
+   "wants": [
+    "A vendored Irish annal (the Annals of Ulster or of Tigernach, in a public-domain edition) showing named Irish houses and their abbots on both sides of 664"
+   ],
+   "drafter_flags": [
+    "Iona lies in Scotland, not Ireland. I use it because Columba's community and the houses 'under the dominion of those of Hii' (Bede V.15) spanned both, and Adomnan preached in Ireland. A reviewer who holds the Irish entry strictly to Ireland may want Documented to rest on the Colman passages alone.",
+    "The Huyshe locus 'I.1' is my reading of where the Oswald vision sits; the line numbers are exact. Check the chapter if the locus matters.",
+    "Bede uses 'Scots' for the Irish throughout; the note says 'Irish'."
+   ],
+   "change_reason": "New: gives the stub's 'follows the Insular and Irish Monastic entry' a sourced continued-as link. Colman's Lindisfarne community moving to Ireland after Whitby, and Iona's abbots in one line across 664, show the same community carrying on.",
+   "fre_after": 64.7,
+   "fk_after": 7.8
+  },
+  {
+   "id": "british-welsh-christianity--medieval-welsh-christianity",
+   "action": "new",
+   "from": "british-welsh-christianity",
+   "to": "medieval-welsh-christianity",
+   "type": "continued as",
+   "confidence": "Documented",
+   "note": "The Welsh annals record that the Britons changed their date for Easter in 768, led by Elbodug, a man of God. The same annals record his death in 809 as archbishop of Gwynedd. They go on naming bishops of Menevia, the see of St Davids, in the decades that follow.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Annales Cambriae, annal for 768 (ed. J. Williams ab Ithel, Rolls Series 20, 1860)",
+     "file": "cic/texts/annales-cambriae-rolls-series-20-lat_williams-ab-ithel1860.txt",
+     "lines": "2984-2988",
+     "locus": "AC s.a. 768 (Annus CCCXXIV)",
+     "quote": "Pasca commutatur' apud BrittoneS; ^ [super Dominicam diem,] emendante ^Elbodugo bomine' Dei.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Annales Cambriae, annal for 809 (ed. J. Williams ab Ithel, Rolls Series 20, 1860)",
+     "file": "cic/texts/annales-cambriae-rolls-series-20-lat_williams-ab-ithel1860.txt",
+     "lines": "3102-3104",
+     "locus": "AC s.a. 809 (Annus CCCLXV)",
+     "quote": "^^Elbodg archiepiscopus Gue- nedote regione migravit ad Dominum.'",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Annales Cambriae, annal for 840 (ed. J. Williams ab Ithel, Rolls Series 20, 1860)",
+     "file": "cic/texts/annales-cambriae-rolls-series-20-lat_williams-ab-ithel1860.txt",
+     "lines": "3327-3329",
+     "locus": "AC s.a. 840 (Annus CCCXCVI)",
+     "quote": "^ Nobis episcopus in Miniu reoiiavit.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "medieval-welsh-christianity why ('Wales from the end of the British and Welsh Christianity entry in 768 to 1282'); british-welsh-christianity longDescription and why (the Welsh church came round to the Roman Easter around 768)",
+   "wants": [
+    "A clean edition or translation of the Annales Cambriae (the Rolls Series OCR is rough)",
+    "Brut y Tywysogion in a public-domain edition, for the Welsh sees after 954"
+   ],
+   "drafter_flags": [
+    "The quotes keep the OCR as printed: the apparatus marks '^' and '[ ]', 'BrittoneS', 'bomine' (for 'homine') and 'reoiiavit' (for 'regnavit').",
+    "Annus numbers convert to AD with Annus I = 445 (Annus CCCLI is printed beside 795 in the same file): CCCXXIV = 768, CCCLXV = 809, CCCXCVI = 840.",
+    "The annals were compiled in the tenth century; the 768 and 809 entries are retrospective, though close in time.",
+    "'Miniu' is Menevia, St Davids (the editor's index, file lines 988-992). The note names the see that way."
+   ],
+   "change_reason": "New: gives the stub's 'follows the British and Welsh entry' a sourced continued-as link. The man who led the Easter change of 768 died in 809 as archbishop in Gwynedd, and the St Davids see goes on in the annals.",
+   "fre_after": 70.7,
+   "fk_after": 7.4
+  },
+  {
+   "id": "anglo-saxon-christianity--insular-irish-monastic-christianity",
+   "action": "new",
+   "from": "anglo-saxon-christianity",
+   "to": "insular-irish-monastic-christianity",
+   "type": "argued against",
+   "confidence": "Documented",
+   "note": "At the Synod of Whitby in 664, Wilfrid argued for the Roman Easter against Bishop Colman and the Irish custom, as Bede tells it. He called those who kept the old reckoning obstinate and foolish. King Oswy ruled for Rome, and Colman left with everyone who would not accept the Roman Easter and tonsure.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Bede, Ecclesiastical History of the English Nation, III.25 (Giles/Jane 1903)",
+     "file": "cic/texts/bede_ecclesiastical-history-english-people_giles1903.txt",
+     "lines": "8017-8021",
+     "locus": "HE III.25",
+     "quote": "except only these and their accomplices in obstinacy, I mean the Picts and the Britons, who foolishly, in these two remote islands ot the world, and only in part even of them, oppose all the rest of the universe.\"",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Bede, Ecclesiastical History of the English Nation, III.25 (Giles/Jane 1903)",
+     "file": "cic/texts/bede_ecclesiastical-history-english-people_giles1903.txt",
+     "lines": "8215-8218",
+     "locus": "HE III.25",
+     "quote": "all present, both great and small, gave their assent, and renouncing the more imperfect institution, resolved to conform to that which they found to be better.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Bede, Ecclesiastical History of the English Nation, III.26 (Giles/Jane 1903)",
+     "file": "cic/texts/bede_ecclesiastical-history-english-people_giles1903.txt",
+     "lines": "8227-8230",
+     "locus": "HE III.26",
+     "quote": "Colman, perceiving that his doctrine was rejected, and his sect despised, took with him such as would not comply with the Catholic Easter and the tonsure",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "anglo-saxon-christianity relationsSummary ('converging at Whitby'), longDescription and why ('the two traditions settled their differences publicly at the Synod of Whitby in 664'); insular-irish-monastic-christianity longDescription ('at Whitby in 664 the Northumbrian king ruled against the Irish reckoning')",
+   "wants": [
+    "An Irish-side text on the Easter question, such as Cummian's letter De controversia paschali (c. 632), so the dispute has a voice from both sides"
+   ],
+   "drafter_flags": [
+    "Colman's party were bishops of the Northumbrian church itself, so one could say the dispute was inside the English church. I take the Irish side as the Irish line, since the Irish entry closes on exactly this ruling.",
+    "Wilfrid names 'the Picts and the Britons'; 'these' refers to Colman's party. The note says 'those who kept the old reckoning' rather than putting the word 'Irish' in his mouth.",
+    "'broke with' was considered (Colman's withdrawal) but the rupture is recorded only by Bede, from the winning side; argued against fits a speech directed at the other party by name.",
+    "Quote 1 keeps the OCR 'ot' (for 'of') and the closing quotation mark as printed. Quote 2's lines 8215-8218 run through the end of the sentence ('better.' on 8218)."
+   ],
+   "change_reason": "New: the Whitby dispute that both entries name, as a speech and a ruling directed against the Irish custom.",
+   "fre_after": 62.8,
+   "fk_after": 8.9
+  },
+  {
+   "id": "anglo-saxon-christianity--carolingian-reform-christianity",
+   "action": "new",
+   "from": "anglo-saxon-christianity",
+   "to": "carolingian-reform-christianity",
+   "type": "gave rise to",
+   "confidence": "Widely Accepted",
+   "note": "In 718 Bishop Daniel of Winchester gave the English priest Wynfrith, later called Boniface, a letter of introduction for his work abroad. Boniface later wrote that he held a synod at the request of the Frankish rulers, to restore the law of Christ. Alcuin, too, came to the Franks at King Charles's command.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Daniel of Winchester, letter of introduction for Wynfrith (718), in The English Correspondence of Saint Boniface (trans. E. Kylie, 1911)",
+     "file": "cic/texts/boniface_english-correspondence_kylie1911.txt",
+     "lines": "2402-2404",
+     "locus": "Kylie, letter of Daniel (718)",
+     "quote": "priest and servant of the Omnipotent God, Wynfrith, who bears this letter, the love which God himself prizes and enjoins.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Boniface, letter to Cuthbert of Canterbury (747), in The English Correspondence of Saint Boniface (trans. E. Kylie, 1911)",
+     "file": "cic/texts/boniface_english-correspondence_kylie1911.txt",
+     "lines": "7039-7042",
+     "locus": "Kylie, letter XLII (Tangl 78)",
+     "quote": "In it, at the command of the Roman pontiff and the request of the rulers of the Franks and Gauls, I undertook to gather and exhort a synod in the hope of restoring the law of Christ.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Alcuin, Adversus Elipandum I.16 (Migne PL 101, 1863)",
+     "file": "cic/texts/alcuin_opera-omnia-letters_migne-pl100-101_1863.txt",
+     "lines": "18639-18640",
+     "locus": "Adv. Elipandum I.16",
+     "quote": "Antequam ego, eodem sapien- üssimo rege Carolo jubente, venissem in Franciam,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Edward Kylie, introduction to The English Correspondence of Saint Boniface (1911)",
+     "file": "cic/texts/boniface_english-correspondence_kylie1911.txt",
+     "lines": "1523-1525",
+     "quote": "By his influence, both in Church and State, the English missionary kad laid the foundation-stone of the imperial edifice,"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Edward Kylie, introduction to The English Correspondence of Saint Boniface (1911)",
+     "file": "cic/texts/boniface_english-correspondence_kylie1911.txt",
+     "lines": "1394-1396",
+     "quote": "It was apparent also that while actually framing his measures Boniface kept English precedents before his mind."
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "anglo-saxon-christianity relationsSummary ('parent of the Carolingian reform') and legacy ('the Carolingian reform grew directly out of it'); carolingian-reform-christianity relationsSummary ('Child of Anglo-Saxon + Gallic lines') and longDescription ('Alcuin of York above all')",
+   "wants": [
+    "The Annales regni Francorum entry for 750/751 on Boniface anointing Pippin, in a clean text (the vendored Kurze OCR breaks the sentence across a page and its apparatus, file lines 1357 and 1446)",
+    "A modern study of Boniface and the Frankish reform synods (e.g. Levison, England and the Continent in the Eighth Century, 1946), if one is cited in the repo; none is"
+   ],
+   "drafter_flags": [
+    "Other group: carolingian-reform-christianity is drafted by another group and its own summary names this link ('Child of Anglo-Saxon'). Merge should dedupe on this id.",
+    "Graded Widely Accepted, not Documented: the people passing are documented, but 'gave rise to' ('grew directly out of it') is an interpretation. The secondary is Kylie's 1911 introduction, vendored with the letters; it is old, and no modern study is cited in the repo.",
+    "Boniface's synods ran 742-747, before the Carolingian window opens in 751, but under the Carolingian mayors Carloman and Pippin; Alcuin falls inside the window.",
+    "The Alcuin quote keeps the OCR 'üssimo' (for 'tissimo') and the hyphen break 'sapien- üssimo'. The work is a treatise, not a letter; the locus is the chapter in this volume.",
+    "Kylie's letter numbering: the volume heads it '78 XLII'; I give both."
+   ],
+   "change_reason": "New: the parent link both entries name, carried by English churchmen documented at work in the Frankish church.",
+   "fre_after": 62.3,
+   "fk_after": 8.9
+  },
+  {
+   "id": "anglo-saxon-christianity--late-anglo-saxon-christianity",
+   "action": "new",
+   "from": "anglo-saxon-christianity",
+   "to": "late-anglo-saxon-christianity",
+   "type": "continued as",
+   "confidence": "Documented",
+   "note": "Alcuin wrote a poem to the monks of Lindisfarne after the Vikings sacked their island. He told the surviving brothers not to let the attack break their spirit. He called Cuthbert the glory of their church and urged them to keep praying. The community he wrote to was the one Aidan had founded.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Bede, Ecclesiastical History of the English Nation, III.3 (Giles/Jane 1903)",
+     "file": "cic/texts/bede_ecclesiastical-history-english-people_giles1903.txt",
+     "lines": "5726-5729",
+     "locus": "HE III.3, chapter title",
+     "quote": "The same king Oswald, asking- a bishop of the Scottish nation, had Aidan sent him, and granted him an episcopal see in the Isle of Lindisfarne.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Alcuin, poem On the fall of human things and the destruction of the monastery of Lindisfarne (Migne PL 101, 1863)",
+     "file": "cic/texts/alcuin_opera-omnia-letters_migne-pl100-101_1863.txt",
+     "lines": "64370-64371",
+     "locus": "Carm., De clade Lindisfarnensis monasterii, title",
+     "quote": "De rerum humanarum vicissitudine et clade Lindis- farnensis monasterii.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Alcuin, poem On the destruction of the monastery of Lindisfarne (Migne PL 101, 1863)",
+     "file": "cic/texts/alcuin_opera-omnia-letters_migne-pl100-101_1863.txt",
+     "lines": "64601-64602",
+     "locus": "Carm., De clade Lindisfarnensis monasterii",
+     "quote": "Horrida non frangat vestras tentatio mentes, Impia quam vobis gessit iniqua manus.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Alcuin, poem On the destruction of the monastery of Lindisfarne (Migne PL 101, 1863)",
+     "file": "cic/texts/alcuin_opera-omnia-letters_migne-pl100-101_1863.txt",
+     "lines": "64637-64638",
+     "locus": "Carm., De clade Lindisfarnensis monasterii",
+     "quote": "Magnus et ipse Pater, przsul, pastorque sacerdos Cudbertus, vestrze jam decus Ecclesise",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "anglo-saxon-christianity continuesAs field and legacy ('The same church continued: this story runs straight on into the late Anglo-Saxon church')",
+   "wants": [
+    "The Anglo-Saxon Chronicle (D and E texts) in a public-domain edition, for the raid on Lindisfarne and its date",
+    "Alcuin's letters to Bishop Higbald and to King Æthelred on the raid, located and quoted in the vendored PL 100 Latin or an English translation"
+   ],
+   "drafter_flags": [
+    "The note gives no year. Froben's note beside the poem dates the attack 795 (file line 64387); the census says 8 June 793. Neither date has a vendored primary source.",
+    "The poem's Latin keeps the OCR as printed ('przsul', 'vestrze', 'Ecclesise' for 'praesul', 'vestrae', 'Ecclesiae'). The heading in this volume does not give Froben's poem number, so the locus names the poem.",
+    "The note's last sentence ('the one Aidan had founded') rests on Bede III.3 for Aidan's see at Lindisfarne, and on the poem's own appeal to Aidan (line 64630, OCR 'Ledani') and Cuthbert as the community's fathers.",
+    "Only one community is shown across the break. A second see (Canterbury or York) on both sides of 793 would make this firmer; Alcuin's letters to Archbishop Æthelheard are indexed in the volume but I did not locate a quotable passage."
+   ],
+   "change_reason": "New: gives the existing continuesAs pairing a sourced link, through the Lindisfarne community before and after the raid that closes the window.",
+   "fre_after": 75.3,
+   "fk_after": 6.1
+  },
+  {
+   "id": "roman-church-gregorian--late-anglo-saxon-christianity",
+   "action": "new",
+   "from": "roman-church-gregorian",
+   "to": "late-anglo-saxon-christianity",
+   "type": "influenced",
+   "confidence": "Dominant Modern Reconstruction",
+   "note": "Alfred the Great had Gregory the Great's Pastoral Care put into English. It is Gregory's book on how a bishop should do his work. Alfred meant to send a copy to every bishop in his kingdom. About 890 Bishop Werferth of Worcester put Gregory's Dialogues into English at Alfred's request. Two editors of Gregory's works report both facts.",
+   "sources": [
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "J. Barmby, introduction to Gregory the Great, Book of Pastoral Rule, in Nicene and Post-Nicene Fathers, 2nd series, vol. 12 (1895)",
+     "file": "cic/texts/npnf212_leo-great-gregory-great.xml",
+     "lines": "24031-24034",
+     "quote": "This is asserted by Alfred the Great, who, nearly three hundred years afterwards, with the assistance of his divines, made a translation, or rather paraphrase, of it in the West Saxon tongue, intending, as he says, to send a copy to"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "E. G. Gardner, introduction to The Dialogues of Saint Gregory (1911)",
+     "file": "cic/texts/gregory-great_dialogues_gardner1911.txt",
+     "lines": "1275-1276",
+     "quote": "about 890, by Bishop Werferth of Worcester, at the instigation of Alfred the Great."
+    }
+   ],
+   "citation_specificity": "B",
+   "verification_state": "named-not-rechecked",
+   "named_in_text": "late-anglo-saxon-christianity longDescription ('Gregory the Great's Pastoral Care and other essential books put into English') and why; roman-church-gregorian legacy ('Alfred translated it into English')",
+   "wants": [
+    "Alfred's Old English Pastoral Care with his preface (ed. H. Sweet, Early English Text Society, 1871; named in the NPNF 12 note at file line 24035), which would document this directly"
+   ],
+   "drafter_flags": [
+    "Graded Dominant Modern Reconstruction only because the vendored evidence is two editors' statements. The fact itself is not a reconstruction: Alfred's translation and preface survive. With Sweet's 1871 edition vendored this becomes Documented.",
+    "Barmby's quote breaks off at 'to' because the next line runs straight into the endnote markup; the note's 'every bishop in his kingdom' is the next line (24035), read directly.",
+    "verification_state is named-not-rechecked because both supports are secondary, though I read both passages myself."
+   ],
+   "change_reason": "New: the late Anglo-Saxon entry names Gregory's Pastoral Care as the heart of Alfred's translation programme.",
+   "fre_after": 60.2,
+   "fk_after": 7.7
+  },
+  {
+   "id": "early-benedictine-italian-monasticism--late-anglo-saxon-christianity",
+   "action": "new",
+   "from": "early-benedictine-italian-monasticism",
+   "to": "late-anglo-saxon-christianity",
+   "type": "influenced",
+   "confidence": "Inferential-Thin",
+   "note": "Dunstan, Oswald and Æthelwold were bishops of the late Anglo-Saxon church, as the reformer John Foxe recalled. A modern editor of Benedict's Rule says English nuns and others kept the Rule and had it put into English. Neither source tells of the refounding in the tenth century. So this tie rests on thin evidence.",
+   "sources": [
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "John Foxe, Acts and Monuments, vol. 4 (ed. Cattley and Townsend, 1837)",
+     "file": "cic/texts/foxe_acts-and-monuments-v4_cattley-townsend1837.txt",
+     "lines": "10969-10971",
+     "quote": "Thus Odo, Dunstan, Oswold, Ethelwold, Adel- lnus, and Lanfranc, although they fetched their palls afterward from"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "F. A. Gasquet, introduction to The Rule of Saint Benedict (1925)",
+     "file": "cic/texts/benedict_rule-of-saint-benedict_gasquet1925.txt",
+     "lines": "593-595",
+     "quote": "For the benefit of nuns in England who followed the Rule, and of others, the work was several times translated into English during the"
+    }
+   ],
+   "citation_specificity": "C",
+   "verification_state": "named-not-rechecked",
+   "named_in_text": "late-anglo-saxon-christianity relationsSummary ('the Benedictine Reform (Dunstan, Aethelwold, Oswald)'), longDescription and why ('refounded the monasteries on the Benedictine rule')",
+   "wants": [
+    "The Regularis Concordia (c. 970) in a public-domain edition or translation",
+    "Æthelwold's Old English account of King Edgar's establishment of monasteries, or his Old English translation of the Rule",
+    "A repo-cited modern study of the tenth-century English Benedictine reform (none found)"
+   ],
+   "drafter_flags": [
+    "Thin: no vendored text describes the tenth-century refounding. Foxe (16th century) names the bishops only as king-made prelates; Gasquet speaks of English observance of the Rule generally. The census statement itself is standard history, so I left the prose as written and graded the link at what the vendored evidence bears.",
+    "Both Foxe and Gasquet quotes break at a line end mid-sentence (the next words are 'Rome, yet were they made bishops...' and 'Middle Ages,'), kept to the stated lines.",
+    "Foxe's spellings 'Oswold' and 'Adel- lnus' are as printed."
+   ],
+   "change_reason": "New: the entry names Benedict's Rule as the basis of the tenth-century reform; graded thin for want of a vendored source.",
+   "fre_after": 65.2,
+   "fk_after": 7.6
+  },
+  {
+   "id": "carolingian-reform-christianity--scandinavian-conversion-christianity",
+   "action": "new",
+   "from": "carolingian-reform-christianity",
+   "to": "scandinavian-conversion-christianity",
+   "type": "gave rise to",
+   "confidence": "Documented",
+   "note": "In 823, the Frankish royal annals report, Archbishop Ebo of Reims went to preach among the Danes. He went with the emperor's backing and the pope's authority, and he baptized many. In 826 the Danish king Harald was baptized at Mainz with his wife and a great crowd of Danes. From 829 Anskar, a monk of Corbie, preached in Sweden.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Annales regni Francorum, annal for 823 (ed. F. Kurze, MGH SRG 6, 1895)",
+     "file": "cic/texts/annales-regni-francorum_kurze1895.txt",
+     "lines": "10926-10930",
+     "locus": "ARF s.a. 823",
+     "quote": "Cum quibus et Ebo* Eemorumu archiepiscopus , qui consilio imperatoris et auctoritate Romaniv pontificis praedicandi gratia ad terminos Da- norum accesserat etw aestatex praeterita multos ex eis ad fidem venientes baptizaverat, regressus est.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Annales regni Francorum, annal for 826 (ed. F. Kurze, MGH SRG 6, 1895)",
+     "file": "cic/texts/annales-regni-francorum_kurze1895.txt",
+     "lines": "11326-11327",
+     "locus": "ARF s.a. 826",
+     "quote": "Eodem tempore Herioldusff cum uxore et magna Danorum multitudine veniens Mogontiacih apud sanctum",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Annales regni Francorum, annal for 826 (ed. F. Kurze, MGH SRG 6, 1895)",
+     "file": "cic/texts/annales-regni-francorum_kurze1895.txt",
+     "lines": "11347",
+     "locus": "ARF s.a. 826",
+     "quote": "Albanum cum his, quos secum adduxit, baptizatus est1;",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "L. A. Anjou, The History of the Reformation in Sweden (1850-51), trans. H. M. Mason (1859)",
+     "file": "cic/texts/anjou_history-of-the-reformation-in-sweden_mason1859.txt",
+     "lines": "379-381",
+     "quote": "That Ansgarius, who came from the monastery of Corbey, in France, here preached the Gospel in the year 829,"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "L. A. Anjou, The History of the Reformation in Sweden (1850-51), trans. H. M. Mason (1859)",
+     "file": "cic/texts/anjou_history-of-the-reformation-in-sweden_mason1859.txt",
+     "lines": "402-405",
+     "quote": "The erection of the arclibishoj:)ric of Hamburgh, in 834, its confirmation by the pope in 835, and the union of the see with Bremen, in 858, had for their object the Clmstian- izing of tke North."
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "scandinavian-conversion-christianity longDescription ('A Frankish monk named Anskar preached in Denmark and at Birka in Sweden in the 820s and 830s') and relationsSummary ('Hamburg-Bremen missions')",
+   "wants": [
+    "Rimbert, Life of Anskar (Vita Anskarii, c. 870), in a public-domain translation (e.g. Robinson, 1921), to document Anskar's mission from his own disciple",
+    "The Annales Bertiniani entries naming Anskar and Hamburg, located in the vendored Waitz 1883 Latin (prudentius-troyes_annales-bertiniani_waitz1883.txt; not searched to a quote this pass)"
+   ],
+   "drafter_flags": [
+    "The 826 sentence is broken by a page break and the apparatus in the OCR (lines 11328-11346), so it is given as two quotes at 11326-11327 and 11347. Read together they say Harald, coming with his wife and a great crowd of Danes to Mainz, was baptized at St Alban's with those he brought.",
+    "OCR kept as printed: 'Ebo*', 'Eemorumu' (Remorum), 'Romaniv', 'etw', 'aestatex', 'Herioldusff', 'Mogontiacih', 'est1', and the Anjou misreads 'arclibishoj:)ric', 'Clmstian- izing', 'tke'.",
+    "Graded Documented on the Frankish annals: named Frankish clergy baptizing Danes (823) and the Danish king baptized at the emperor's court (826), the year this entry opens. The census itself calls Anskar's results 'modest and short-lived'; a reviewer may judge 'gave rise to' too strong for the lasting conversion and prefer 'in contact with'.",
+    "Anskar is not named in any vendored primary I found; his part rests on Anjou (secondary). 'Corbey, in France' is Corbie; the note says Corbie. The census spells him 'Anskar'.",
+    "The Hamburg-Bremen mission has no census entry; this link carries it, since Anjou ties the Hamburg see to the same Frankish mission."
+   ],
+   "change_reason": "New: the entry's Frankish mission (Anskar) and its 'Hamburg-Bremen' parent, carried by the Carolingian entry that sent it.",
+   "fre_after": 69.2,
+   "fk_after": 7.1
+  },
+  {
+   "id": "late-anglo-saxon-christianity--scandinavian-conversion-christianity",
+   "action": "new",
+   "from": "late-anglo-saxon-christianity",
+   "to": "scandinavian-conversion-christianity",
+   "type": "gave rise to",
+   "confidence": "Inferential-Thin",
+   "note": "The Swedish historian L. A. Anjou wrote in 1850 that teachers came to Sweden first from France and later chiefly from England. He also repeats the story that St David set out from England for Sweden in search of martyrdom. This rests on one later account, so the English share in the mission is thin evidence.",
+   "sources": [
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "L. A. Anjou, The History of the Reformation in Sweden (1850-51), trans. H. M. Mason (1859)",
+     "file": "cic/texts/anjou_history-of-the-reformation-in-sweden_mason1859.txt",
+     "lines": "420-423",
+     "quote": "The country was visited by teachers, at first from France, afterward chiefly from England, whose distin- guished missionaries began to turn their attention to the North-,"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "L. A. Anjou, The History of the Reformation in Sweden (1850-51), trans. H. M. Mason (1859)",
+     "file": "cic/texts/anjou_history-of-the-reformation-in-sweden_mason1859.txt",
+     "lines": "1051-1054",
+     "quote": "St. David is said to have set out from England for Swe- den, to find martyrdom in a country where, as his attendants told him, the three nephews of St. Sigfrid had sufifered the same."
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "named-not-rechecked",
+   "named_in_text": "scandinavian-conversion-christianity relationsSummary ('Child of Anglo-Saxon + Hamburg-Bremen missions')",
+   "wants": [
+    "Adam of Bremen, Gesta Hammaburgensis ecclesiae pontificum (c. 1075), in a public-domain edition or translation, for the English bishops in Norway and Sweden",
+    "Snorri Sturluson, Heimskringla (Olaf Tryggvason's and Olaf Haraldsson's sagas), in a public-domain translation (e.g. Laing, 1844), for the English clergy with the two Olafs",
+    "A repo-cited modern study of the English mission to Scandinavia (none found)"
+   ],
+   "drafter_flags": [
+    "The summary said 'Anglo-Saxon'. The Anglo-Saxon entry ends in 793, decades before this window opens in 826; the English missionaries who worked in the north in the tenth and eleventh centuries belong to the late Anglo-Saxon church. I linked the later entry and rewrote the summary (prose change). Willibrord's visit to the Danish king Ongendus about 700 (Alcuin, Vita Willibrordi I.9, file line 55187-55215) falls inside the Anglo-Saxon window but failed, by Alcuin's own account, and long predates this entry; I did not link it.",
+    "Anjou's St David story is reported as hearsay ('is said'); the note says 'repeats the story'.",
+    "Anjou wrote in Swedish in 1850-51; Mason's English is 1859. The note dates the writing 1850.",
+    "Anjou quote keeps the OCR 'North-,' and 'sufifered'."
+   ],
+   "change_reason": "New: the English half of the summary's 'Child of Anglo-Saxon + Hamburg-Bremen', retargeted to the late Anglo-Saxon church and graded thin on one nineteenth-century account.",
+   "fre_after": 75.7,
+   "fk_after": 5.4
+  },
+  {
+   "id": "scandinavian-conversion-christianity--scandinavian-reformation-kingdoms",
+   "action": "new",
+   "from": "scandinavian-conversion-christianity",
+   "to": "scandinavian-reformation-kingdoms",
+   "type": "continued as",
+   "confidence": "Inferential-Thin",
+   "note": "Anjou says the see of Skara dates from Sigfrid, who baptized the Swedish king Olof Skötkonung. He traces its bishops to the close of the Middle Ages. Lund became an archbishopric in 1103, and an archbishop of Lund was still in office in 1517. This rests on one later account, so the claim of an unbroken line is thin.",
+   "sources": [
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "L. A. Anjou, The History of the Reformation in Sweden (1850-51), trans. H. M. Mason (1859)",
+     "file": "cic/texts/anjou_history-of-the-reformation-in-sweden_mason1859.txt",
+     "lines": "992-994",
+     "quote": "The bishopric of Skara, to which Vcrmland and Dais- land belonged, dates its origin from the time of Sigfrid, who baptized king Olof Skotkonung,"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "L. A. Anjou, The History of the Reformation in Sweden (1850-51), trans. H. M. Mason (1859)",
+     "file": "cic/texts/anjou_history-of-the-reformation-in-sweden_mason1859.txt",
+     "lines": "1002-1004",
+     "quote": "At the close of the middle ages, the bishops of the see of Skara were of less importance in the state than those of Upsala,"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "L. A. Anjou, The History of the Reformation in Sweden (1850-51), trans. H. M. Mason (1859)",
+     "file": "cic/texts/anjou_history-of-the-reformation-in-sweden_mason1859.txt",
+     "lines": "406-408",
+     "quote": "until its primacy over the Swedish church was transferred from Bremen to the archbishopric of Lund, created in the year 1103."
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "L. A. Anjou, The History of the Reformation in Sweden (1850-51), trans. H. M. Mason (1859)",
+     "file": "cic/texts/anjou_history-of-the-reformation-in-sweden_mason1859.txt",
+     "lines": "718",
+     "quote": "commissioned, in 1517, Bergcr, archbishop of Lund,"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "named-not-rechecked",
+   "named_in_text": "scandinavian-conversion-christianity legacy ('These conversions became the national churches of Denmark, Norway, Sweden and Iceland ... Often the same dioceses and the same cathedral sites, reformed rather than replaced at the Reformation')",
+   "wants": [
+    "A medieval list of the bishops of Skara or Lund (e.g. the Skara bishop list Anjou cites, or Scriptores rerum Suecicarum / Danicarum medii aevi)",
+    "Adam of Bremen, Gesta Hammaburgensis, for the sees founded before 1104",
+    "A Danish-side source naming the Reformation superintendents in the old sees (the vendored 1537 Ordinatio ecclesiastica is in heavy long-s OCR)"
+   ],
+   "drafter_flags": [
+    "Census structure: no entry covers the Scandinavian church between 1104 and the 1520s, so this link spans four centuries. See escalations.",
+    "The evidence is one nineteenth-century Swedish historian, and only for Sweden (Skara) and Lund. Nothing vendored shows Denmark, Norway or Iceland's sees across the Reformation.",
+    "Anjou dates Lund's archbishopric 1103; the census says 1104. Both dates appear in the literature (the legate's visit and Asser's pallium). I did not change the census date.",
+    "Anjou's OCR 'Vcrmland', 'Dais- land', 'Bergcr' kept as printed."
+   ],
+   "change_reason": "New: the legacy's 'same dioceses ... reformed rather than replaced', graded thin on one later account.",
+   "fre_after": 72.5,
+   "fk_after": 6.7
+  }
+ ],
+ "prose_changes": [
+  {
+   "n": 0,
+   "movement": "anglo-saxon-christianity",
+   "field": "relationsSummary",
+   "old": "Child of Benedictine + Irish lines converging at Whitby; parent of the Carolingian reform",
+   "new": "Born of two missions, one from Rome and one from Ireland, which settled their quarrel over Easter at Whitby in 664. It became a parent of the Carolingian reform.",
+   "reason": "'Benedictine + Irish lines converging at Whitby' claimed a Benedictine parent that no vendored text supports: the Whitby dispute was over Easter and the tonsure, Roman custom against Irish (Bede III.25-26), and no vendored text ties Augustine's mission or Whitby to Benedict's Rule (the 2026-11-06 audit already wants 'a text that ties Gregory's own monastery on the Caelian to Benedict's Rule'). The new wording names the two missions the sources do show and keeps the Carolingian parent, now a sourced link. The '+' shorthand is gone.",
+   "fre_after": 65.7,
+   "fk_after": 7.6
+  },
+  {
+   "n": 1,
+   "movement": "late-anglo-saxon-christianity",
+   "field": "relationsSummary",
+   "old": "Viking-age survival, Alfred's revival, then the Benedictine Reform (Dunstan, Aethelwold, Oswald) - the English parallel to Cluny; ends at the Conquest (1066, one boundary crossing)",
+   "new": "It came through the Viking age and revived under Alfred. Then the bishops Dunstan, Aethelwold and Oswald rebuilt its monasteries on the Benedictine rule. This was England's own reform, in the same century as Cluny's. It ends at the Norman Conquest of 1066.",
+   "reason": "'(1066, one boundary crossing)' was cataloguing language printed to readers. 'The English parallel to Cluny' could be read as a tie; no vendored source shows contact (the route usually cited runs through Fleury, and no text for it is vendored), so the new wording keeps only the shared century. Note-form fragments made full sentences.",
+   "fre_after": 61.2,
+   "fk_after": 7.3
+  },
+  {
+   "n": 2,
+   "movement": "scandinavian-conversion-christianity",
+   "field": "relationsSummary",
+   "old": "Child of Anglo-Saxon + Hamburg-Bremen missions; Iceland converted by communal vote at the Althing (1000)",
+   "new": "Frankish missions came first, led from Hamburg and then Bremen. Missions from England probably came later. In the year 1000 Iceland chose to become Christian by a public vote at its assembly, the Althing.",
+   "reason": "'Anglo-Saxon' was the wrong entry: the Anglo-Saxon window ends in 793, before this one opens in 826; the English missionaries belong to the late Anglo-Saxon church, and the only vendored support is one nineteenth-century account (Anjou), so 'probably'. 'Hamburg-Bremen' is kept and now rests on the Frankish link. The Althing sentence is unchanged in substance (no-entry; see escalations).",
+   "fre_after": 67.5,
+   "fk_after": 6.6
+  }
+ ],
+ "wants": [
+  "A Danish-side source naming the Reformation superintendents in the old sees (the vendored 1537 Ordinatio ecclesiastica is in heavy long-s OCR)",
+  "A clean edition or translation of the Annales Cambriae (the Rolls Series OCR is rough)",
+  "A medieval list of the bishops of Skara or Lund (e.g. the Skara bishop list Anjou cites, or Scriptores rerum Suecicarum / Danicarum medii aevi)",
+  "A modern study of Boniface and the Frankish reform synods (e.g. Levison, England and the Continent in the Eighth Century, 1946), if one is cited in the repo; none is",
+  "A public-domain reading of the Jelling stone inscription (Harald Bluetooth's 'made the Danes Christian')",
+  "A repo-cited modern study of the English mission to Scandinavia (none found)",
+  "A repo-cited modern study of the tenth-century English Benedictine reform (none found)",
+  "A vendored Irish annal (the Annals of Ulster or of Tigernach, in a public-domain edition) showing named Irish houses and their abbots on both sides of 664",
+  "Adam of Bremen, Gesta Hammaburgensis ecclesiae pontificum (c. 1075), in a public-domain edition or translation, for the English bishops in Norway and Sweden",
+  "Adam of Bremen, Gesta Hammaburgensis, for the sees founded before 1104",
+  "Alcuin's letters to Bishop Higbald and to King Æthelred on the raid, located and quoted in the vendored PL 100 Latin or an English translation",
+  "Alfred's Old English Pastoral Care with his preface (ed. H. Sweet, Early English Text Society, 1871; named in the NPNF 12 note at file line 24035), which would document this directly",
+  "An Irish-side text on the Easter question, such as Cummian's letter De controversia paschali (c. 632), so the dispute has a voice from both sides",
+  "Ari Þorgilsson, Íslendingabók (c. 1130), in a public-domain edition or translation, for the Althing decision of 1000",
+  "Asser, Life of King Alfred, in a public-domain edition or translation (e.g. Stevenson 1904; Cook 1906)",
+  "Brut y Tywysogion in a public-domain edition, for the Welsh sees after 954",
+  "Rimbert, Life of Anskar (Vita Anskarii, c. 870), in a public-domain translation (e.g. Robinson, 1921), to document Anskar's mission from his own disciple",
+  "Rimbert, Vita Anskarii, in a public-domain translation (e.g. C. H. Robinson, Anskar, the Apostle of the North, 1921)",
+  "Snorri Sturluson, Heimskringla (Olaf Tryggvason's and Olaf Haraldsson's sagas), in a public-domain translation (e.g. Laing, 1844), for the English clergy with the two Olafs",
+  "The Anglo-Saxon Chronicle (D and E texts) in a public-domain edition, for the raid on Lindisfarne and its date",
+  "The Anglo-Saxon Chronicle in a public-domain edition (e.g. Plummer-Earle, Two of the Saxon Chronicles Parallel, 1892-99), for the raid on Lindisfarne and its date, the Viking wars, and the Danish invasions of 1013-1016",
+  "The Annales Bertiniani entries naming Anskar and Hamburg, located in the vendored Waitz 1883 Latin (prudentius-troyes_annales-bertiniani_waitz1883.txt; not searched to a quote this pass)",
+  "The Annales regni Francorum entry for 750/751 on Boniface anointing Pippin, in a clean text (the vendored Kurze OCR breaks the sentence across a page and its apparatus, file lines 1357 and 1446)",
+  "The Regularis Concordia (c. 970) in a public-domain edition or translation",
+  "Ælfric's Catholic Homilies (ed. Thorpe, 1844-46) and Wulfstan's Sermo Lupi ad Anglos (1014), in public-domain editions",
+  "Æthelwold's Old English account of King Edgar's establishment of monasteries, or his Old English translation of the Rule"
+ ],
+ "escalations": [
+  "Census structure: two of my movements end at a boundary with no successor entry for the same church. (1) The late Anglo-Saxon legacy says the dioceses 'carried straight on into the Norman and later medieval English church', but no census entry covers the English church from 1066 to the Reformation, so that continuity has nowhere to go. (2) The Scandinavian legacy says the conversion-era dioceses were 'reformed rather than replaced at the Reformation', but no entry covers the Scandinavian church from 1104 to the 1520s; I drafted the continued-as link straight to scandinavian-reformation-kingdoms (era 7) at Inferential-Thin. Whether that four-century span should stand, or wait for medieval entries, is a census-structure call.",
+  "Unsourced no-entry claims, left as written for the entry owner: much of the late Anglo-Saxon and Scandinavian text rests on texts not vendored and not cited anywhere in the repo. Late Anglo-Saxon: Alfred's complaint about priests south of the Thames, the Viking-age collapse, Ælfric's hundred-plus sermons, Wulfstan's 1014 sermon, the Regularis Concordia. Scandinavian: the Jelling inscription, the two Olafs, Þorgeir and the Althing in 1000. Anglo-Saxon: the date 8 June 793. None names a census relationship, and all are standard history, so I did not rewrite them with 'may have'; qualifying them all would rewrite most of two entries. The wanted texts are listed. Mark's call: qualify, acquire, or leave."
+ ]
+}

@@ -21,6 +21,7 @@ edition: Nicene and Post-Nicene Fathers, 2nd series, vol. 11 (Sulpitius Severus,
   as cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml
 citation: John Cassian, The Twelve Books on the Institutes of the Coenobia, trans. Edgar C. S. Gibson, Nicene and Post-Nicene Fathers, 2nd series, vol. 11, ed. Schaff and Wace
 kind: vendored
+shelf_row: npnf211_sulpitius-severus-vincent-lerins-cassian--the-twelve-books-on-the-institutes-of-the-coenobia
 rights_status: "public-domain; vendored, rights confirmed as part of this world's own corpus-map assignment"
 attribution_status: attributed
 discovery_channel: builder-direct-read; Source Registry row 7; the passage or text at issue was read directly,

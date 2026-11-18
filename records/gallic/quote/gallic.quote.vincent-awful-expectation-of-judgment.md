@@ -17,9 +17,7 @@ confidence:
     judgment gravity.
 sources:
 - source_id: gallic.source.vincent-commonitory
-  locus: "Commonitory ch. 1 [2] (npnf211 div iii.ii, file lines 12086-12093): Vincent's own stated
-    reasons for writing - the nearness of time, the approach of judgment, and the danger of new
-    heresies"
+  locus: "Commonitory ch. 1 [2] (cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml, lines 12086-12092; div iii.ii): Vincent's own stated reasons for writing - the nearness of time, the approach of judgment, and the danger of new heresies"
   license: public-domain
 retrieval:
   tier: 2

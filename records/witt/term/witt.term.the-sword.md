@@ -62,7 +62,7 @@ senses:
     serve as soldiers, swear oaths, and marry.'
   evidential: Attested in the founder's own treatises and the confession's own list of what Christians
     may lawfully do.
-  personal: This power is God's own ordinance for peace, held by the ruler and by no cleric -- honoured
+  personal: This power is God's own ordinance for peace, held by the ruler and by no cleric -- honored
     and prayed for, never the Church's own instrument.
   translational: 'Do not hear ''the sword'' as violence blessed by religion, or ''secular'' as non-religious:
     we mean God''s own ordinance for external peace, held by the temporal ruler alone.'

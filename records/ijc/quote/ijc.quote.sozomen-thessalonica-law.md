@@ -16,7 +16,7 @@ confidence:
   divergence_note: null
 sources:
 - source_id: ijc.source.sozomen-he
-  locus: VII.4 (npnf202 lines 40605-40628)
+  locus: "VII.4 (cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml, lines 40613-40626)"
   license: public-domain
 text: He made known by this law his intention of leading all his subjects to the reception of that faith
   which Peter, the chief of the apostles, had, from the beginning, preached to the Romans, and which was

@@ -1,0 +1,11 @@
+source_file: oldham_christianity-and-the-race-problem_1924.txt
+assignments:
+- row_id: oldham_christianity-and-the-race-problem_1924--oldham-christianity-and-the-race-problem
+  work: 'Oldham, Christianity and the Race Problem'
+  author: oldham
+  locus: 'whole'
+  atlas_ids:
+  - the-ecumenical-movement-and-the-wcc
+  role: tradition
+  confidence: assigned
+  note: 'His own book of 1924.'

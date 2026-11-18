@@ -1,0 +1,646 @@
+{
+ "claims": [
+  {
+   "claim": "Calvin, 28 March 1541: Contarini is legate 'from the Pope, who has distributed so many crosses for us at his first entrance'. Then: 'for two days afterwards his arm, I think, must have felt the fatigue of it'",
+   "witness": "calvin_letters-vol1_bonnet1858.txt l.10975-10978",
+   "witness_kind": "participant",
+   "formation_confidence": "Documented"
+  },
+  {
+   "claim": "Faber, as the MHSI editors quote his Spanish letter of 12 March 1541 from Ratisbon, says the legate Contarini entered the city that afternoon",
+   "witness": "ignatius-loyola_epistolae-et-instructiones-v22-lat_1903.txt l.7027-7030",
+   "witness_kind": "participant",
+   "formation_confidence": "Documented"
+  },
+  {
+   "claim": "The edition the MHSI editors cite for Faber's 12 March letter (Cartas y otros escritos del B. Padre Pedro Fabro) is not held",
+   "witness": "ignatius-loyola_epistolae-et-instructiones-v22-lat_1903.txt l.7029-7030",
+   "witness_kind": "modern reconstruction",
+   "formation_confidence": "Documented"
+  },
+  {
+   "claim": "Held English sources call the city Ratisbon: Calvin's letters, Foxe, Sarpi in Brent's English and the 1542 bull in Waterworth's English",
+   "witness": "calvin_letters-vol1_bonnet1858.txt l.10340-10341; foxe_acts-and-monuments-v7_cattley-townsend1837.txt l.48618-48619; sarpi_history-of-the-council-of-trent_brent1676.txt l.15651; council-of-trent_canons-and-decrees_waterworth1848.txt l.11940-11941",
+   "witness_kind": "later narrative",
+   "formation_confidence": "Documented"
+  },
+  {
+   "claim": "Calvin, writing from Strasbourg on 19 February 1541, had been chosen as a deputy to the Diet of Ratisbon. He served Geneva's church 'as well as that of Strasbourg'",
+   "witness": "calvin_letters-vol1_bonnet1858.txt l.10316; calvin_letters-vol1_bonnet1858.txt l.10340-10344",
+   "witness_kind": "participant",
+   "formation_confidence": "Documented"
+  },
+  {
+   "claim": "Calvin: Contarini 'is desirous of bringing us under the yoke of subjection without bloodshed'",
+   "witness": "calvin_letters-vol1_bonnet1858.txt l.10979-10981",
+   "witness_kind": "participant",
+   "formation_confidence": "Documented"
+  },
+  {
+   "claim": "Calvin: the emperor's mind is 'altogether turned to peace'. He fears an attack from the Turk and, from the king of France, an uncertain peace or open war",
+   "witness": "calvin_letters-vol1_bonnet1858.txt l.11032-11034; calvin_letters-vol1_bonnet1858.txt l.11142-11145",
+   "witness_kind": "participant",
+   "formation_confidence": "Documented"
+  },
+  {
+   "claim": "Calvin: the Protestants expect no lasting peace without 'a settled agreement in religion' and will urge the estates to undertake it",
+   "witness": "calvin_letters-vol1_bonnet1858.txt l.11100-11105",
+   "witness_kind": "participant",
+   "formation_confidence": "Documented"
+  },
+  {
+   "claim": "Sarpi: the Diet began in March 1541. The emperor came in person, hoping to end discord and unite religion, and had asked the pope for a legate with ample authority",
+   "witness": "sarpi_history-of-the-council-of-trent_brent1676.txt l.15654-15660",
+   "witness_kind": "later narrative",
+   "formation_confidence": "Documented"
+  },
+  {
+   "claim": "Sarpi: the first business of the Diet began on 5 April",
+   "witness": "sarpi_history-of-the-council-of-trent_brent1676.txt l.15726",
+   "witness_kind": "later narrative",
+   "formation_confidence": "Documented"
+  },
+  {
+   "claim": "Sarpi and Pallavicino: the emperor proposed that a few godly and learned men of each side confer on the controversies. Pallavicino adds the proviso 'salua sempre la conclusione e la costituzione d'Augusta' (a normalized reading of the OCR 'faina fempre la conclnfme t la cofiitHXfom Angufia')",
+   "witness": "sarpi_history-of-the-council-of-trent_brent1676.txt l.15747-15752; pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664.txt l.27352-27360",
+   "witness_kind": "later narrative",
+   "formation_confidence": "Documented"
+  },
+  {
+   "claim": "Paul III's bull of 1542: treating of reunion in the diets 'seemed only adapted to excite greater discord'. So the pope reverted to a general council",
+   "witness": "council-of-trent_canons-and-decrees_waterworth1848.txt l.11935-11939",
+   "witness_kind": "acts",
+   "formation_confidence": "Documented"
+  },
+  {
+   "claim": "Sarpi: at Worms Eck and Melanchthon spoke three days, then the emperor's letters recalled Granvelle and referred the rest to the Diet in Ratisbon",
+   "witness": "sarpi_history-of-the-council-of-trent_brent1676.txt l.15648-15651",
+   "witness_kind": "later narrative",
+   "formation_confidence": "Documented"
+  },
+  {
+   "claim": "Calvin: the estates allowed the emperor to choose a few pious and experienced men to seek agreement and submit it to the estates",
+   "witness": "calvin_letters-vol1_bonnet1858.txt l.11614-11618",
+   "witness_kind": "participant",
+   "formation_confidence": "Documented"
+  },
+  {
+   "claim": "Pallavicino: the emperor committed the choice to the Diet, which handed it back to him; he named the theologians 'con partecipazion del Legato'",
+   "witness": "pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664.txt l.27448-27457",
+   "witness_kind": "later narrative",
+   "formation_confidence": "Documented"
+  },
+  {
+   "claim": "The pope sent Contarini as legate at the emperor's request",
+   "witness": "sarpi_history-of-the-council-of-trent_brent1676.txt l.15656-15666; pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664.txt l.26975-26985",
+   "witness_kind": "later narrative",
+   "formation_confidence": "Widely Accepted"
+  },
+  {
+   "claim": "Sarpi, of the Order of the Servi, served the Venetian Senate as theologian and consultor in its quarrel with Pope Paul V from 1606",
+   "witness": "sarpi_history-of-the-council-of-trent_brent1676.txt l.679-680; sarpi_history-of-the-council-of-trent_brent1676.txt l.3973-3986; sarpi_history-of-the-council-of-trent_brent1676.txt l.3997-4006",
+   "witness_kind": "later narrative",
+   "formation_confidence": "Documented"
+  },
+  {
+   "claim": "Pallavicino was a Jesuit and wrote to refute Sarpi's history, published under the name Pietro Soave Polano",
+   "witness": "pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664.txt l.26-34",
+   "witness_kind": "later narrative",
+   "formation_confidence": "Documented"
+  },
+  {
+   "claim": "Calvin, 24 April: on the 20th the emperor appointed for the Catholics Julius Pflug, John Gropper of Cologne and John Eck. For the Protestants Philip Melanchthon, Martin Bucer and John Pistorius",
+   "witness": "calvin_letters-vol1_bonnet1858.txt l.11619-11622",
+   "witness_kind": "participant",
+   "formation_confidence": "Documented"
+  },
+  {
+   "claim": "Pallavicino names the same six, with Gropper as archdeacon of Cologne",
+   "witness": "pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664.txt l.27456-27468",
+   "witness_kind": "later narrative",
+   "formation_confidence": "Documented"
+  },
+  {
+   "claim": "Calvin: the emperor 'gave them his hand on their first meeting, and when they took their leave'. By an interpreter he charged them to aim at 'the glory of God, the public peace'",
+   "witness": "calvin_letters-vol1_bonnet1858.txt l.11628-11636",
+   "witness_kind": "participant",
+   "formation_confidence": "Documented"
+  },
+  {
+   "claim": "Pallavicino: two presidents, Granvelle the emperor's minister and Frederick the Palatine, the Elector's brother; six hearers, most of them officials of various princes",
+   "witness": "pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664.txt l.27468-27477",
+   "witness_kind": "later narrative",
+   "formation_confidence": "Documented"
+  },
+  {
+   "claim": "Calvin: at his request the Protestants asked that a greater number of witnesses be present",
+   "witness": "calvin_letters-vol1_bonnet1858.txt l.11624-11626",
+   "witness_kind": "participant",
+   "formation_confidence": "Documented"
+  },
+  {
+   "claim": "Calvin: the bishop of Modena, son of Jerome Morone, was sent separately as nuncio; 'He of Modena is altogether sanguinary'",
+   "witness": "calvin_letters-vol1_bonnet1858.txt l.10978-10984",
+   "witness_kind": "participant",
+   "formation_confidence": "Documented"
+  },
+  {
+   "claim": "Calvin's 28 March list of arrivals includes 'the two Bavarians', Frederick the Palatine, the Landgrave and the Archbishop of Mentz. The Elector of Saxony excused himself by ambassadors",
+   "witness": "calvin_letters-vol1_bonnet1858.txt l.10908-10921",
+   "witness_kind": "participant",
+   "formation_confidence": "Documented"
+  },
+  {
+   "claim": "Calvin names envoys of Venice, England (the Bishop of Winchester), Portugal and France, and a good many bishops",
+   "witness": "calvin_letters-vol1_bonnet1858.txt l.10986-11008",
+   "witness_kind": "participant",
+   "formation_confidence": "Documented"
+  },
+  {
+   "claim": "Foxe: Henry VIII sent the bishop of Winchester and Sir Henry Knivet as joint ambassadors. The emperor was 'then at a diet or council at Ratisbon'",
+   "witness": "foxe_acts-and-monuments-v7_cattley-townsend1837.txt l.48615-48620",
+   "witness_kind": "later narrative",
+   "formation_confidence": "Documented"
+  },
+  {
+   "claim": "Pallavicino notes Calvin at the Diet, 'tuttoché di picciol nome' until then",
+   "witness": "pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664.txt l.27393-27395",
+   "witness_kind": "later narrative",
+   "formation_confidence": "Documented"
+  },
+  {
+   "claim": "Faber: in January 1541 he and his companions went to Ratisbon, where the imperial diet was held",
+   "witness": "faber_memoriale-lat_1873.txt l.1055-1056",
+   "witness_kind": "participant",
+   "formation_confidence": "Documented"
+  },
+  {
+   "claim": "Faber at Ratisbon heard confessions of the imperial court and gave the Exercises to Spanish, Italian and German nobles",
+   "witness": "faber_memoriale-lat_1873.txt l.1089-1100",
+   "witness_kind": "participant",
+   "formation_confidence": "Documented"
+  },
+  {
+   "claim": "Faber made his profession at Ratisbon, signed 9 July 1541",
+   "witness": "faber_memoriale-lat_1873.txt l.1133-1140; faber_memoriale-lat_1873.txt l.1177",
+   "witness_kind": "participant",
+   "formation_confidence": "Documented"
+  },
+  {
+   "claim": "Calvin names Brentz, Musculus and Freithus as present; no one fights 'more earnestly against the wafer god than Brentz'",
+   "witness": "calvin_letters-vol1_bonnet1858.txt l.11994-11996; calvin_letters-vol1_bonnet1858.txt l.12007",
+   "witness_kind": "participant",
+   "formation_confidence": "Documented"
+  },
+  {
+   "claim": "Pallavicino: the emperor had Granvelle carry a book to the legate, composed, Granvelle affirmed, by pious and learned persons",
+   "witness": "pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664.txt l.27494-27497",
+   "witness_kind": "later narrative",
+   "formation_confidence": "Documented"
+  },
+  {
+   "claim": "Pallavicino: the book was woven largely from Scripture and the Fathers and had twenty-two chapters",
+   "witness": "pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664.txt l.27501-27505",
+   "witness_kind": "later narrative",
+   "formation_confidence": "Documented"
+  },
+  {
+   "claim": "Pallavicino: the legate and the nuncio perceived from various signs that Gropper was the author. Contarini found more than twenty places to correct and Gropper corrected them without contradiction",
+   "witness": "pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664.txt l.27516-27524",
+   "witness_kind": "later narrative",
+   "formation_confidence": "Documented"
+  },
+  {
+   "claim": "Pallavicino: Eck suspected the book was by 'il Vicelio', whom he hated; he first spoke ill of it, then yielded",
+   "witness": "pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664.txt l.27536-27540",
+   "witness_kind": "later narrative",
+   "formation_confidence": "Documented"
+  },
+  {
+   "claim": "Pallavicino: no error being found in the book in the papal theologians' view, it was put to the six by the emperor's command",
+   "witness": "pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664.txt l.27542-27544",
+   "witness_kind": "later narrative",
+   "formation_confidence": "Documented"
+  },
+  {
+   "claim": "Sarpi calls it 'the Book of the Concord'",
+   "witness": "sarpi_history-of-the-council-of-trent_brent1676.txt l.15823",
+   "witness_kind": "later narrative",
+   "formation_confidence": "Documented"
+  },
+  {
+   "claim": "Calvin, 11 May: agreement on original sin 'without any difficulty'; on free will, drawn from Augustine, they did not depart from the Protestant view",
+   "witness": "calvin_letters-vol1_bonnet1858.txt l.11850-11855",
+   "witness_kind": "participant",
+   "formation_confidence": "Documented"
+  },
+  {
+   "claim": "Calvin: on justification 'the debate in controversy was more keen'; a formula 'on receiving certain corrections, was accepted on both sides'",
+   "witness": "calvin_letters-vol1_bonnet1858.txt l.11855-11858",
+   "witness_kind": "participant",
+   "formation_confidence": "Documented"
+  },
+  {
+   "claim": "Calvin: 'You will be astonished, I am sure, that our opponents have yielded so much'",
+   "witness": "calvin_letters-vol1_bonnet1858.txt l.11858-11859",
+   "witness_kind": "participant",
+   "formation_confidence": "Documented"
+  },
+  {
+   "claim": "Calvin enclosed the formula in his letter; the edition does not print it",
+   "witness": "calvin_letters-vol1_bonnet1858.txt l.11858-11861",
+   "witness_kind": "participant",
+   "formation_confidence": "Documented"
+  },
+  {
+   "claim": "Pallavicino: the parties agreed on the articles of justification, faith, works, bishops and baptism; the legate reserved the pope's approval",
+   "witness": "pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664.txt l.27542-27549",
+   "witness_kind": "later narrative",
+   "formation_confidence": "Documented"
+  },
+  {
+   "claim": "Calvin: on the Church they agreed on the definition but differed on its power, and omitted that article",
+   "witness": "calvin_letters-vol1_bonnet1858.txt l.11872-11876",
+   "witness_kind": "participant",
+   "formation_confidence": "Documented"
+  },
+  {
+   "claim": "Calvin: 'There stood the impassable rock which barred the way to farther progress'; transubstantiation and other forms were 'utterly rejected'",
+   "witness": "calvin_letters-vol1_bonnet1858.txt l.11880-11883",
+   "witness_kind": "participant",
+   "formation_confidence": "Documented"
+  },
+  {
+   "claim": "Pallavicino: the first subject of dissent was the Eucharist; the Lutherans began by refusing the word transubstantiation as not used by the ancient Fathers",
+   "witness": "pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664.txt l.27565-27569",
+   "witness_kind": "later narrative",
+   "formation_confidence": "Documented"
+  },
+  {
+   "claim": "Calvin spoke in Latin at the Protestants' own consultation on the Supper",
+   "witness": "calvin_letters-vol1_bonnet1858.txt l.11889-11899",
+   "witness_kind": "participant",
+   "formation_confidence": "Documented"
+  },
+  {
+   "claim": "Calvin: Melanchthon's written statement, presented to Granvelle, 'was rejected with harsh expressions'",
+   "witness": "calvin_letters-vol1_bonnet1858.txt l.11902-11905",
+   "witness_kind": "participant",
+   "formation_confidence": "Documented"
+  },
+  {
+   "claim": "Calvin, 12 May: Granvelle asked the four remaining theologians, Pistorius being left out, to confer alone. Philip and Bucer drew up 'ambiguous and insincere formulas concerning transubstantiation', which Calvin could not accept",
+   "witness": "calvin_letters-vol1_bonnet1858.txt l.11951; calvin_letters-vol1_bonnet1858.txt l.11962-11975",
+   "witness_kind": "participant",
+   "formation_confidence": "Documented"
+  },
+  {
+   "claim": "Calvin: 'if we could be content with only a half Christ we might easily come to understand one another'",
+   "witness": "calvin_letters-vol1_bonnet1858.txt l.11968-11969",
+   "witness_kind": "participant",
+   "formation_confidence": "Documented"
+  },
+  {
+   "claim": "Calvin reports Eck's apoplexy by 12 May",
+   "witness": "calvin_letters-vol1_bonnet1858.txt l.11962-11963; calvin_letters-vol1_bonnet1858.txt l.12007-12008",
+   "witness_kind": "participant",
+   "formation_confidence": "Documented"
+  },
+  {
+   "claim": "Calvin: on the invocation of saints, the primacy of the Pope and the authority of the Church 'we could come to no agreement'",
+   "witness": "calvin_letters-vol1_bonnet1858.txt l.12405-12408",
+   "witness_kind": "participant",
+   "formation_confidence": "Documented"
+  },
+  {
+   "claim": "Sarpi lists five disputed articles: the ninth (power of the Church), fourteenth (penance), eighteenth (hierarchy), nineteenth (articles determined by the Church), twenty-first (single life)",
+   "witness": "sarpi_history-of-the-council-of-trent_brent1676.txt l.15806-15812",
+   "witness_kind": "later narrative",
+   "formation_confidence": "Documented"
+  },
+  {
+   "claim": "Calvin: the emperor thanked the commissioners and referred the whole to the States, with the book and the articles",
+   "witness": "calvin_letters-vol1_bonnet1858.txt l.12408-12416",
+   "witness_kind": "participant",
+   "formation_confidence": "Documented"
+  },
+  {
+   "claim": "Sarpi: on 28 July the emperor made the recess, remitting the colloquy to a general council, a national synod or a diet. Failing a council, a diet would meet within eighteen months",
+   "witness": "sarpi_history-of-the-council-of-trent_brent1676.txt l.16155-16161",
+   "witness_kind": "later narrative",
+   "formation_confidence": "Documented"
+  },
+  {
+   "claim": "Pallavicino: the recess imposed acceptance of the articles until an ecumenical council in Germany, promised (the emperor said) by the legate. A council in Germany was a condition the cardinal had always refused",
+   "witness": "pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664.txt l.28275-28282",
+   "witness_kind": "later narrative",
+   "formation_confidence": "Documented"
+  },
+  {
+   "claim": "Calvin, 3 August: 'The Diet concluded'; all referred 'to an Universal Council, or, at least, to a National one'",
+   "witness": "calvin_letters-vol1_bonnet1858.txt l.12676-12680",
+   "witness_kind": "participant",
+   "formation_confidence": "Documented"
+  },
+  {
+   "claim": "Calvin: 'the whole plan of pacification passed off in smoke'; yet 'the adverse party will feel that they have received no slight wound'",
+   "witness": "calvin_letters-vol1_bonnet1858.txt l.12676-12678; calvin_letters-vol1_bonnet1858.txt l.12687-12689",
+   "witness_kind": "participant",
+   "formation_confidence": "Documented"
+  },
+  {
+   "claim": "Pallavicino: none of it took effect; the attacks did not cease, no council was held in Germany, and neither party received the articles",
+   "witness": "pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664.txt l.28300-28302",
+   "witness_kind": "later narrative",
+   "formation_confidence": "Documented"
+  },
+  {
+   "claim": "Pallavicino: Eck, absent from the last sessions with fever, wrote a sharp confutation of the book; his two colleagues answered with an apology",
+   "witness": "pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664.txt l.28302-28309",
+   "witness_kind": "later narrative",
+   "formation_confidence": "Documented"
+  },
+  {
+   "claim": "Paul III's bull: by the advice of the diet he was called on to tolerate certain articles until a council. Catholic truth and the Apostolic See's dignity would not let him yield. So he chose that a council 'should be held as soon as possible'",
+   "witness": "council-of-trent_canons-and-decrees_waterworth1848.txt l.11944-11961",
+   "witness_kind": "acts",
+   "formation_confidence": "Documented"
+  },
+  {
+   "claim": "Paul III's bull: he proposed a council 'especially and finally in the diet of Ratisbon'. There Contarini acted as legate 'with very great learning and integrity'",
+   "witness": "council-of-trent_canons-and-decrees_waterworth1848.txt l.11939-11943",
+   "witness_kind": "acts",
+   "formation_confidence": "Documented"
+  },
+  {
+   "claim": "The bull was given at Rome in 1542, on the eleventh of the calends of June",
+   "witness": "council-of-trent_canons-and-decrees_waterworth1848.txt l.12141-12142",
+   "witness_kind": "acts",
+   "formation_confidence": "Documented"
+  },
+  {
+   "claim": "Sarpi: the Diet was the principal cause that moved the pope to work for a council. It assured the Protestants they could obtain nothing where the pope's ministers were present",
+   "witness": "sarpi_history-of-the-council-of-trent_brent1676.txt l.15711-15722",
+   "witness_kind": "later narrative",
+   "formation_confidence": "Contested"
+  },
+  {
+   "claim": "Sarpi: Contarini 'was much Caluminated in the Court of Rome', suspected of leaning to Lutheranism",
+   "witness": "sarpi_history-of-the-council-of-trent_brent1676.txt l.16222-16224",
+   "witness_kind": "later narrative",
+   "formation_confidence": "Documented"
+  },
+  {
+   "claim": "Pallavicino: many in Rome blamed Contarini as cold against the Lutherans, others as yielding in substance; Pole's letter consoled him",
+   "witness": "pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664.txt l.28336-28348",
+   "witness_kind": "later narrative",
+   "formation_confidence": "Documented"
+  },
+  {
+   "claim": "Pallavicino: the pope received Contarini most warmly at Lucca and gave him the legation of Bologna",
+   "witness": "pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664.txt l.28402-28407",
+   "witness_kind": "later narrative",
+   "formation_confidence": "Documented"
+  },
+  {
+   "claim": "Histoire ecclésiastique: citizens of Metz heard of the articles concluded at the imperial diet at Ratisbon that year. They asked for free exercise of religion according to the Diet's resolution. It was not granted",
+   "witness": "beza_histoire-ecclesiastique-t3-fra_baum-cunitz-reuss1889.txt l.31490-31493; beza_histoire-ecclesiastique-t3-fra_baum-cunitz-reuss1889.txt l.31517-31519",
+   "witness_kind": "later narrative",
+   "formation_confidence": "Documented"
+  },
+  {
+   "claim": "The Spanish index of 1559 (Valdés, Valladolid) forbids works written against the imperial diet held at Ratisbon in 1541",
+   "witness": "reusch_indices-librorum-prohibitorum-sechzehnten-jahrhunderts-deu-lat_1886.txt l.13751; reusch_indices-librorum-prohibitorum-sechzehnten-jahrhunderts-deu-lat_1886.txt l.13894-13897; reusch_indices-librorum-prohibitorum-sechzehnten-jahrhunderts-deu-lat_1886.txt l.15423-15425",
+   "witness_kind": "later narrative",
+   "formation_confidence": "Documented"
+  },
+  {
+   "claim": "Clement VIII's Roman index (1596 in Reusch's heading) lists books written against the imperial diet of Ratisbon, with no year",
+   "witness": "reusch_indices-librorum-prohibitorum-sechzehnten-jahrhunderts-deu-lat_1886.txt l.34946; reusch_indices-librorum-prohibitorum-sechzehnten-jahrhunderts-deu-lat_1886.txt l.37631",
+   "witness_kind": "later narrative",
+   "formation_confidence": "Documented"
+  },
+  {
+   "claim": "Waterworth: the colloquies 'during the years 1541-42, at Worms and Ratisbon' and other attempts 'ended in nothing but disappointment'",
+   "witness": "council-of-trent_canons-and-decrees_waterworth1848.txt l.3171-3178",
+   "witness_kind": "modern reconstruction",
+   "formation_confidence": "Documented"
+  },
+  {
+   "claim": "Calvin: 'the Marquis of Brandenbourg' secretly, not without the emperor's knowledge, sent 'one of the princes of Anhalt' on an embassy to Luther. Calvin did not yet know the answer",
+   "witness": "calvin_letters-vol1_bonnet1858.txt l.12363-12369",
+   "witness_kind": "participant",
+   "formation_confidence": "Documented"
+  },
+  {
+   "claim": "Pallavicino calls the Protestants heretics in his own voice",
+   "witness": "pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664.txt l.27484",
+   "witness_kind": "later narrative",
+   "formation_confidence": "Documented"
+  },
+  {
+   "claim": "Sarpi: Contarini answered in writing 'not more Perſpicuouſly than the ancient Oracles' (OCR 'Perſpicnoufly than the angient Oracles')",
+   "witness": "sarpi_history-of-the-council-of-trent_brent1676.txt l.15841-15843",
+   "witness_kind": "later narrative",
+   "formation_confidence": "Contested"
+  },
+  {
+   "claim": "Pallavicino: how clear Contarini's answer was, everyone can feel",
+   "witness": "pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664.txt l.28083-28084",
+   "witness_kind": "later narrative",
+   "formation_confidence": "Contested"
+  },
+  {
+   "claim": "The held English Sarpi says that at Lucca Contarini gave account of his legation 'and gave abſolute Satisfaction'",
+   "witness": "sarpi_history-of-the-council-of-trent_brent1676.txt l.16232-16234",
+   "witness_kind": "later narrative",
+   "formation_confidence": "Contested"
+  },
+  {
+   "claim": "A second colloquy met at Regensburg in 1546. A letter from the city dated 31 January 1546 says it began on 27 January. Sarpi tells a colloquy in Ratisbon with no good fruit",
+   "witness": "broet_epistolae-broeti-jaji-codurii-rodericii-lat_1903.txt l.6759-6774; sarpi_history-of-the-council-of-trent_brent1676.txt l.19765-19776",
+   "witness_kind": "later narrative",
+   "formation_confidence": "Documented"
+  },
+  {
+   "claim": "Calvin: the Protestants 'have thus retained also the substance of the true doctrine' in the agreed formula",
+   "witness": "calvin_letters-vol1_bonnet1858.txt l.11861-11864",
+   "witness_kind": "participant",
+   "formation_confidence": "Contested"
+  },
+  {
+   "claim": "Pallavicino: in Rome the agreed words on justification did not satisfy because of their ambiguity. The pope told the legate to approve nothing not Catholic in sense and free of ambiguity",
+   "witness": "pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664.txt l.27655-27662",
+   "witness_kind": "later narrative",
+   "formation_confidence": "Contested"
+  },
+  {
+   "claim": "Pallavicino: the Catholic princes, barons and bishops refused the articles as ambiguous and too generous to the heretics. The deputies of the Catholic cities mostly wished them accepted",
+   "witness": "pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664.txt l.28140-28156",
+   "witness_kind": "later narrative",
+   "formation_confidence": "Contested"
+  },
+  {
+   "claim": "Sarpi: the bishops rejected the Book of the Concord absolutely; the other electors and Catholic princes, desirous of peace, did not agree with them",
+   "witness": "sarpi_history-of-the-council-of-trent_brent1676.txt l.15823-15826",
+   "witness_kind": "later narrative",
+   "formation_confidence": "Contested"
+  },
+  {
+   "claim": "Sarpi: Contarini excused the pope for not giving full power, since authority to decide matters of faith cannot be communicated",
+   "witness": "sarpi_history-of-the-council-of-trent_brent1676.txt l.15678-15705",
+   "witness_kind": "later narrative",
+   "formation_confidence": "Contested"
+  },
+  {
+   "claim": "Pallavicino: Sarpi 'incespa nel primo passo grauemente'; the instruction's first chapter gave the legate no power to dispense the Church's laws and rites",
+   "witness": "pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664.txt l.27076-27091; pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664.txt l.52975-52982",
+   "witness_kind": "later narrative",
+   "formation_confidence": "Contested"
+  },
+  {
+   "claim": "Pallavicino: Sarpi's two claims about the Diet are 'falfe con euidenza'; the pope had sought a council long before",
+   "witness": "pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664.txt l.27370-27382; pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664.txt l.52983-52992",
+   "witness_kind": "later narrative",
+   "formation_confidence": "Contested"
+  },
+  {
+   "claim": "Pallavicino charges Sarpi with saying the pope received Contarini badly",
+   "witness": "pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664.txt l.52993-52997",
+   "witness_kind": "later narrative",
+   "formation_confidence": "Contested"
+  },
+  {
+   "claim": "Sarpi's list of disputed articles lies beside an OCR gap in the held copy",
+   "witness": "sarpi_history-of-the-council-of-trent_brent1676.txt l.15767-15780; sarpi_history-of-the-council-of-trent_brent1676.txt l.15806-15812",
+   "witness_kind": "modern reconstruction",
+   "formation_confidence": "Inferential-Thin"
+  },
+  {
+   "claim": "Pallavicino dates a consistory to the day after the emperor's recess; the day is unreadable in the held OCR",
+   "witness": "pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664.txt l.28457-28466",
+   "witness_kind": "later narrative",
+   "formation_confidence": "Inferential-Thin"
+  },
+  {
+   "claim": "Calvin counts himself with the Protestants: the emperor appointed 'on the part of our adversaries' Pflug, Gropper and Eck, and 'on our side' Melanchthon, Bucer and Pistorius",
+   "witness": "calvin_letters-vol1_bonnet1858.txt l.11619-11622",
+   "witness_kind": "participant",
+   "formation_confidence": "Documented"
+  },
+  {
+   "claim": "Faber, writing from Ratisbon on 12 May 1541 to the Jesuit scholastics at Paris: 'Negotium fidei valde ambigue procedit, et eo modo ut in Deo solum immediate confidamus, cum media quibus utimur nihil sint in hominum judicio.' Our translation: the business of the faith goes forward very doubtfully, and in such a way that we trust directly in God alone, since the means we use are nothing in men's judgment. He does not name the colloquy",
+   "witness": "faber_memoriale-lat_1873.txt l.13292-13296; faber_memoriale-lat_1873.txt l.13476-13483; faber_memoriale-lat_1873.txt l.13514-13516",
+   "witness_kind": "participant",
+   "formation_confidence": "Documented"
+  },
+  {
+   "claim": "The two papal envoys who read the Book were the legate and the nuncio Morone: the legate was bound to secrecy 'fuor solo col Nunzio Morone' (OCR 'fuor folo'), and 'i primi due' who saw Gropper's hand are the legate and the nuncio. Calvin: Morone was sent as nuncio",
+   "witness": "pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664.txt l.27494-27497; pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664.txt l.27516-27518; calvin_letters-vol1_bonnet1858.txt l.10978-10980",
+   "witness_kind": "later narrative",
+   "formation_confidence": "Documented"
+  },
+  {
+   "claim": "Calvin, 12 May: Granvelle 'had cut off all hope on the part of our friends by his reply'",
+   "witness": "calvin_letters-vol1_bonnet1858.txt l.11951; calvin_letters-vol1_bonnet1858.txt l.11962",
+   "witness_kind": "participant",
+   "formation_confidence": "Documented"
+  }
+ ],
+ "contested_claims": [
+  {
+   "claim": "Whether the justification formula was truly agreed and orthodox",
+   "sides": "Accepted on both sides and keeping 'the substance of the true doctrine': Calvin (calvin_letters-vol1_bonnet1858.txt l.11855-11864). Pallavicino: agreed by the parties, the legate reserving the pope's approval (pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664.txt l.27542-27549), but in Rome the words did not satisfy for their ambiguity (pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664.txt l.27655-27662). The Catholic princes, barons and bishops called the articles ambiguous (pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664.txt l.28140-28156). The text of the formula is not held.",
+   "formation_confidence": "Contested"
+  },
+  {
+   "claim": "Which Catholic estates refused the agreed articles",
+   "sides": "Sarpi: the bishops rejected the Book absolutely and the other electors and Catholic princes did not agree with them (sarpi_history-of-the-council-of-trent_brent1676.txt l.15823-15826). Pallavicino: the princes, barons and bishops refused, the Catholic cities' deputies mostly wished acceptance, and the electors inclined to accept until a council (pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664.txt l.28140-28156; pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664.txt l.28270-28275).",
+   "formation_confidence": "Contested"
+  },
+  {
+   "claim": "What powers Contarini's instruction gave him and how he excused the pope",
+   "sides": "Sarpi: Contarini excused the pope for not delegating authority on matters of faith, while he might agree with the Protestants if they kept the primacy and the Roman sacraments (sarpi_history-of-the-council-of-trent_brent1676.txt l.15678-15705). Pallavicino: Sarpi stumbles at the first step; the instruction gave no power to dispense laws and rites (pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664.txt l.27076-27091; pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664.txt l.52975-52982). The instruction is not held.",
+   "formation_confidence": "Contested"
+  },
+  {
+   "claim": "What the Diet proved, and whether it moved the pope to the council",
+   "sides": "Sarpi: nothing could be obtained where the pope's ministers were present, and the Diet moved the pope to procure a council (sarpi_history-of-the-council-of-trent_brent1676.txt l.15711-15722). Pallavicino: both claims are plainly false; Contarini worked so hard for concord that Rome blamed him, and the pope had long sought a council (pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664.txt l.27370-27382; pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664.txt l.52983-52992). Paul III's bull ties the Diet to his call for a council (council-of-trent_canons-and-decrees_waterworth1848.txt l.11935-11961).",
+   "formation_confidence": "Contested"
+  },
+  {
+   "claim": "Whether Contarini's written answer was clear",
+   "sides": "Sarpi: no clearer than the ancient oracles (sarpi_history-of-the-council-of-trent_brent1676.txt l.15841-15843). Pallavicino: everyone can feel how clear it was, and the emperor bent it to his own reading (pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664.txt l.28083-28087).",
+   "formation_confidence": "Contested"
+  },
+  {
+   "claim": "How Rome received Contarini after the Diet",
+   "sides": "Sarpi, held English: much calumniated in the Court of Rome (sarpi_history-of-the-council-of-trent_brent1676.txt l.16222-16224), yet at Lucca he 'gave absolute Satisfaction' (sarpi_history-of-the-council-of-trent_brent1676.txt l.16232-16234). Pallavicino charges Sarpi with saying the pope received him badly, and says the pope welcomed him warmly and made him legate of Bologna (pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664.txt l.52993-52997; pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664.txt l.28402-28407). Pallavicino's charge does not match the held English text.",
+   "formation_confidence": "Contested"
+  },
+  {
+   "claim": "Who wrote the Book",
+   "sides": "Granvelle: pious and learned persons (as Pallavicino reports, pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664.txt l.27494-27497). The legate and nuncio: Gropper, by various signs (pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664.txt l.27516-27518). Eck: suspected 'il Vicelio', whom he hated (pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664.txt l.27536-27537). No other held source names an author.",
+   "formation_confidence": "Contested"
+  },
+  {
+   "claim": "Whom Calvin's 'who has distributed so many crosses' refers to",
+   "sides": "Grammar allows the pope, the nearest noun (calvin_letters-vol1_bonnet1858.txt l.10974-10976). 'At his first entrance' and the tired arm fit the legate, whose entry Faber reports as the MHSI editors quote him (calvin_letters-vol1_bonnet1858.txt l.10976-10977; ignatius-loyola_epistolae-et-instructiones-v22-lat_1903.txt l.7027-7029). The Latin original is not held; 'crosses' is the 1858 translator's word. No held witness reads 'who' as the pope.",
+   "formation_confidence": "Contested"
+  }
+ ],
+ "absent_details": [
+  {
+   "detail": "The acts of the colloquy: the Regensburg Book, the agreed article on justification, the recess",
+   "note": "Not held. Searched all of cic/texts, case-insensitive: liber ratisbon|regensburger buch|book of ratisbon|libro di ratisbona|interim, and Wormser Buch. Also double-justice patterns (iustitia duplex|duplicem iustitiam|double justi|double righteous|doppelte gerechtigkeit|giustizia doppia) and inhaerens/imputata patterns: no text. Recess: taeuferakten-wuerttemberg (recesses jump 1535 to 1544), mirbt 1911 (nothing for 1541), mansi tomus 32 (Ratisbon hits are 1524) for Ratisb|Ratispon|Regensp|Abschied|Receß|recess. Calvin's enclosure of the formula (calvin_letters-vol1_bonnet1858.txt l.11858-11861) is not printed."
+  },
+  {
+   "detail": "Melanchthon's, Bucer's and Luther's own words on the colloquy",
+   "note": "Not held. Searched luther_*, melanchthon_*, book-of-concord_*, schwenckfeld_* for Ratisb|Regensp|Regensburg|1541|Contarin|Granvel: Luther hits are the 1541 death of the Danish prince (luther_table-talk_bell1886.txt l.1450-1452) and unrelated references; no Bucer file. Their views reach us through Calvin and Pallavicino."
+  },
+  {
+   "detail": "Luther's answer to the envoy from Brandenburg",
+   "note": "Not held. Calvin had not yet learned it (calvin_letters-vol1_bonnet1858.txt l.12367-12368); same searches as above."
+  },
+  {
+   "detail": "The names of the Brandenburg prince and the Anhalt envoy",
+   "note": "Calvin names neither (calvin_letters-vol1_bonnet1858.txt l.12363-12366). Bonnet's notes supply names (l.12389, l.12395); they are an editor's identification, unchecked by any other held source, and are not used."
+  },
+  {
+   "detail": "Contarini's own letters, instruction and written answers",
+   "note": "Not held. Searched contarin|contaren across cic/texts; Pallavicino cites his letters to Farnese in the margins (pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664.txt l.27200-27215) but no Contarini file exists."
+  },
+  {
+   "detail": "Eck's confutation of the Book and Pflug and Gropper's apology",
+   "note": "Not held; named only by Pallavicino (pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664.txt l.28302-28309). Searched gropp|pflug|phlug|eccius|eckius|echio."
+  },
+  {
+   "detail": "Faber's Spanish letters in their own edition",
+   "note": "Not held. The 12 March line reaches us only as the MHSI editors quote it (ignatius-loyola_epistolae-et-instructiones-v22-lat_1903.txt l.7027-7030), citing Cartas y otros escritos del B. Padre Pedro Fabro, I, 61."
+  },
+  {
+   "detail": "A count of those present, and a list of names",
+   "note": "None held. Only the six, two presidents and six hearers are counted (calvin_letters-vol1_bonnet1858.txt l.11619-11622; pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664.txt l.27464-27477). Calvin's lists of arrivals (l.10908-10921, l.10986-11008) are partial."
+  },
+  {
+   "detail": "Calvin's printed account, 'The Proceedings of the Imperial Diet held in the City of Regensbourg' (Geneva, 1541)",
+   "note": "Not held; only its title in Bonnet's note (calvin_letters-vol1_bonnet1858.txt l.9938-9941). Searched calvin_* for Ratisb|Regensp|Regespourg|Actes de la journ."
+  },
+  {
+   "detail": "Any held source calling 1541 the last serious joint attempt at reunion",
+   "note": "None. The claim is the councils scan's, not a held line. A second colloquy met at Regensburg in 1546 (broet_epistolae-broeti-jaji-codurii-rodericii-lat_1903.txt l.6759-6774; sarpi_history-of-the-council-of-trent_brent1676.txt l.19765-19776). Not used."
+  },
+  {
+   "detail": "Any held line saying Trent condemned the Regensburg article",
+   "note": "None. Pallavicino says Seripando named Pflug and Gropper among teachers of two justices (pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664.txt l.49202-49205); Waterworth says Trent condemned more than one formal cause (council-of-trent_canons-and-decrees_waterworth1848.txt l.4975-4980). Neither names Regensburg. Not used."
+  },
+  {
+   "detail": "Gropper's death",
+   "note": "Only Bonnet's note says he was strangled with his cardinal's hat strings, citing Beza's Icones, not held (calvin_letters-vol1_bonnet1858.txt l.11644-11648). Not used."
+  },
+  {
+   "detail": "A Latin text of Paul III's bull of 1542",
+   "note": "Not held; searched 'Initio nostri' across cic/texts. English in Waterworth only."
+  }
+ ]
+}

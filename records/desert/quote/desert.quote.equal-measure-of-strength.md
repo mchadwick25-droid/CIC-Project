@@ -22,9 +22,7 @@ confidence:
     about women's capacity. It may not use it to show what women's position was.
 sources:
 - source_id: desert.source.palladius-paradise-syriac
-  locus: >-
-    Book I, ch. xxxv, the opening of the section on holy women, in Budge's English
-    (cic/texts/palladius_paradise-v1-syriac_budge1907.txt)
+  locus: "Book I, ch. xxxv, the opening of the section on holy women, in Budge's English (cic/texts/palladius_paradise-v1-syriac_budge1907.txt, line 1119)"
   license: public-domain
 text: >-
   Now therefore it is necessary for us to remember also the chosen and mighty women unto whom God
@@ -56,7 +54,7 @@ relations:
 - type: associated-with
   target: desert.story.virgin-who-hid-athanasius
 use_note:
-  means: "Palladius, opening his section on holy women in the Syriac Paradise, says God gave chosen women strength of will equal to men's for ascetic labour."
+  means: "Palladius, opening his section on holy women in the Syriac Paradise, says God gave chosen women strength of will equal to men's for ascetic labor."
   not_for:
     - "a description of how women were actually treated or positioned in this world"
     - "equality in any modern sense, when the sentence removes an excuse rather than conferring standing"

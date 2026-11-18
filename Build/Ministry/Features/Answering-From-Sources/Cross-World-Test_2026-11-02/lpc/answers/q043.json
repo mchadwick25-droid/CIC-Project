@@ -1,0 +1,218 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "lpc.story.the-death-of-cyprian"
+   ],
+   "sentence": "After the sentence, the crowd of the brethren spoke as one body, and the Acta records what they said."
+  },
+  {
+   "record_ids": [
+    "lpc.quote.let-us-too-be-beheaded-with-him"
+   ],
+   "sentence": "In today's English, The Acta Proconsularia of Cyprian says: “After this sentence the crowd of the brothers kept saying, ‘Let us be beheaded with him too.’ Because of this an uproar rose among the brothers, and a large crowd followed him.”"
+  },
+  {
+   "record_ids": [
+    "lpc.story.the-death-of-cyprian"
+   ],
+   "sentence": "No spectator left an account of his own, so what any one person in the crowd made of the day cannot be told."
+  },
+  {
+   "record_ids": [
+    "lpc.story.the-death-of-cyprian"
+   ],
+   "sentence": "Pontius and the Acta agree on the core of the death, and the two texts differ on who tied the cloths over Cyprian's eyes."
+  },
+  {
+   "record_ids": [
+    "lpc.story.the-death-of-cyprian"
+   ],
+   "sentence": "Two early texts tell the death of our great bishop Cyprian:"
+  },
+  {
+   "record_ids": [
+    "lpc.story.the-death-of-cyprian"
+   ],
+   "sentence": "Two early texts tell how our great bishop Cyprian was put to death on 14 September: a life by his deacon Pontius, and the Acta."
+  },
+  {
+   "record_ids": [
+    "lpc.story.the-death-of-cyprian"
+   ],
+   "sentence": "On his last night all his people kept watch at the door of the house where he was held."
+  },
+  {
+   "record_ids": [
+    "lpc.story.the-death-of-cyprian"
+   ],
+   "sentence": "Sentenced as an enemy of the gods, Cyprian said, Thanks be to God, and the believers cried out to be beheaded with him."
+  },
+  {
+   "record_ids": [
+    "lpc.story.the-death-of-cyprian"
+   ],
+   "sentence": "The texts differ on the cloth over his eyes: Pontius says he bound it himself, while in the Acta two clergy named Julianus tied it."
+  },
+  {
+   "record_ids": [
+    "lpc.story.the-death-of-cyprian"
+   ],
+   "sentence": "And so the blessed Cyprian suffered martyrdom."
+  }
+ ],
+ "citations": [
+  "lpc.quote.let-us-too-be-beheaded-with-him",
+  "lpc.story.the-death-of-cyprian"
+ ],
+ "group": "B",
+ "id": "q043",
+ "net_sentences": [
+  {
+   "draft": "After the sentence, the crowd of the brethren spoke as one body, and the Acta records what they said [[lpc.story.the-death-of-cyprian]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "After the sentence, the crowd of the brethren spoke as one body, and the Acta records what they said.",
+   "tags": [
+    "lpc.story.the-death-of-cyprian"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "The Acta Proconsularia of Cyprian wrote: [[quote:lpc.quote.let-us-too-be-beheaded-with-him]]",
+   "placed_quote": "lpc.quote.let-us-too-be-beheaded-with-him",
+   "sentence": "In today's English, The Acta Proconsularia of Cyprian says: “After this sentence the crowd of the brothers kept saying, ‘Let us be beheaded with him too.’ Because of this an uproar rose among the brothers, and a large crowd followed him.”",
+   "tags": [
+    "lpc.quote.let-us-too-be-beheaded-with-him"
+   ],
+   "verdict": "ok",
+   "why": "quote placed by code, verbatim to its record"
+  },
+  {
+   "draft": "No spectator left an account of his own, so what any one person in the crowd made of the day cannot be told [[lpc.story.the-death-of-cyprian]] [[as:paraphrase]].",
+   "sentence": "No spectator left an account of his own, so what any one person in the crowd made of the day cannot be told.",
+   "tags": [
+    "lpc.story.the-death-of-cyprian"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Pontius and the Acta agree on the core of the death, and the two texts differ on who tied the cloths over Cyprian's eyes [[lpc.story.the-death-of-cyprian]] [[as:paraphrase]].",
+   "narrates_story": true,
+   "ratio": 1.0,
+   "sentence": "Pontius and the Acta agree on the core of the death, and the two texts differ on who tied the cloths over Cyprian's eyes.",
+   "tags": [
+    "lpc.story.the-death-of-cyprian"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "Two early texts tell the death of our great bishop Cyprian: [[story:lpc.story.the-death-of-cyprian:medium]]",
+   "ratio": 1.0,
+   "sentence": "Two early texts tell the death of our great bishop Cyprian:",
+   "tags": [
+    "lpc.story.the-death-of-cyprian"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "Two early texts tell how our great bishop Cyprian was put to death on 14 September: a life by his deacon Pontius, and the Acta [[lpc.story.the-death-of-cyprian]].",
+   "placed_story": "lpc.story.the-death-of-cyprian",
+   "sentence": "Two early texts tell how our great bishop Cyprian was put to death on 14 September: a life by his deacon Pontius, and the Acta.",
+   "tags": [
+    "lpc.story.the-death-of-cyprian"
+   ],
+   "verdict": "ok",
+   "why": "story placed by code, verbatim to its record"
+  },
+  {
+   "draft": "On his last night all his people kept watch at the door of the house where he was held [[lpc.story.the-death-of-cyprian]].",
+   "placed_story": "lpc.story.the-death-of-cyprian",
+   "sentence": "On his last night all his people kept watch at the door of the house where he was held.",
+   "tags": [
+    "lpc.story.the-death-of-cyprian"
+   ],
+   "verdict": "ok",
+   "why": "story placed by code, verbatim to its record"
+  },
+  {
+   "draft": "Sentenced as an enemy of the gods, Cyprian said, Thanks be to God, and the believers cried out to be beheaded with him [[lpc.story.the-death-of-cyprian]].",
+   "placed_story": "lpc.story.the-death-of-cyprian",
+   "sentence": "Sentenced as an enemy of the gods, Cyprian said, Thanks be to God, and the believers cried out to be beheaded with him.",
+   "tags": [
+    "lpc.story.the-death-of-cyprian"
+   ],
+   "verdict": "ok",
+   "why": "story placed by code, verbatim to its record"
+  },
+  {
+   "draft": "The texts differ on the cloth over his eyes: Pontius says he bound it himself, while in the Acta two clergy named Julianus tied it [[lpc.story.the-death-of-cyprian]].",
+   "placed_story": "lpc.story.the-death-of-cyprian",
+   "sentence": "The texts differ on the cloth over his eyes: Pontius says he bound it himself, while in the Acta two clergy named Julianus tied it.",
+   "tags": [
+    "lpc.story.the-death-of-cyprian"
+   ],
+   "verdict": "ok",
+   "why": "story placed by code, verbatim to its record"
+  },
+  {
+   "draft": "And so the blessed Cyprian suffered martyrdom [[lpc.story.the-death-of-cyprian]].",
+   "placed_story": "lpc.story.the-death-of-cyprian",
+   "sentence": "And so the blessed Cyprian suffered martyrdom.",
+   "tags": [
+    "lpc.story.the-death-of-cyprian"
+   ],
+   "verdict": "ok",
+   "why": "story placed by code, verbatim to its record"
+  }
+ ],
+ "offered": [
+  "lpc.limit.the-outsiders-own-view",
+  "lpc.witness.blamed-for-the-worlds-troubles",
+  "lpc.term.libelli",
+  "lpc.story.the-death-of-cyprian",
+  "lpc.story.numidicus",
+  "lpc.quote.o-blessed-people-of-the-church",
+  "lpc.quote.let-us-too-be-beheaded-with-him",
+  "lpc.force.decian-persecution-libelli-system",
+  "lpc.contested.de-unitate-recensions",
+  "lpc.witness.no-salvation-outside-the-church",
+  "lpc.witness.the-pattern-we-are-modelled-on",
+  "lpc.story.hundred-thousand-sesterces",
+  "lpc.quote.the-old-man-nailed-to-the-cross-speaks",
+  "lpc.quote.the-wretched-woman-and-mercy"
+ ],
+ "raw_text": "After the sentence, the crowd of the brethren spoke as one body, and the Acta records what they said [[lpc.story.the-death-of-cyprian]] [[as:paraphrase]].\n\nThe Acta Proconsularia of Cyprian wrote: [[quote:lpc.quote.let-us-too-be-beheaded-with-him]]\n\nNo spectator left an account of his own, so what any one person in the crowd made of the day cannot be told [[lpc.story.the-death-of-cyprian]] [[as:paraphrase]]. Pontius and the Acta agree on the core of the death, and the two texts differ on who tied the cloths over Cyprian's eyes [[lpc.story.the-death-of-cyprian]] [[as:paraphrase]].\n\nTwo early texts tell the death of our great bishop Cyprian: [[story:lpc.story.the-death-of-cyprian:medium]]\n",
+ "reply_shape": {
+  "placed": [
+   "lpc.story.the-death-of-cyprian",
+   "lpc.quote.let-us-too-be-beheaded-with-him"
+  ],
+  "removed": [],
+  "repaired": [
+   {
+    "draft": "The Acta Proconsularia of Cyprian wrote: [[quote:lpc.quote.let-us-too-be-beheaded-with-him]]",
+    "lead_in": "In today's English, The Acta Proconsularia of Cyprian says",
+    "unresolved": [
+     {
+      "detail": "wrote",
+      "kind": "genre"
+     }
+    ],
+    "why": "lead-in stated a detail no source document supports; replaced by code's"
+   }
+  ],
+  "story_lengths": {
+   "lpc.story.the-death-of-cyprian": "short"
+  }
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": "C9.S1",
+ "text": "After the sentence, the crowd of the brethren spoke as one body, and the Acta records what they said.\n\nIn today's English, The Acta Proconsularia of Cyprian says: “After this sentence the crowd of the brothers kept saying, ‘Let us be beheaded with him too.’ Because of this an uproar rose among the brothers, and a large crowd followed him.”\n\nNo spectator left an account of his own, so what any one person in the crowd made of the day cannot be told. Pontius and the Acta agree on the core of the death, and the two texts differ on who tied the cloths over Cyprian's eyes.\n\nTwo early texts tell the death of our great bishop Cyprian:\n\nTwo early texts tell how our great bishop Cyprian was put to death on 14 September: a life by his deacon Pontius, and the Acta.\n\nOn his last night all his people kept watch at the door of the house where he was held.\n\nSentenced as an enemy of the gods, Cyprian said, Thanks be to God, and the believers cried out to be beheaded with him.\n\nThe texts differ on the cloth over his eyes: Pontius says he bound it himself, while in the Acta two clergy named Julianus tied it.\n\nAnd so the blessed Cyprian suffered martyrdom.",
+ "voice_set_aside": false
+}

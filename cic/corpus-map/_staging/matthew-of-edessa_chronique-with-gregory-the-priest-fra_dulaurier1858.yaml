@@ -1,0 +1,24 @@
+source_file: matthew-of-edessa_chronique-with-gregory-the-priest-fra_dulaurier1858.txt
+assignments:
+- row_id: matthew-of-edessa_chronique-with-gregory-the-priest-fra_dulaurier1858--matthew-of-edessa-chronicle-french-dulaurier-1858
+  work: 'Matthew of Edessa, Chronicle, with the continuation of Gregory the Priest, French (Dulaurier 1858)'
+  author: matthew-of-edessa
+  locus: 'the chronicle at about OCR lines 1170-15720, the continuation from about 13999; add 12 to OCR line numbers'
+  atlas_ids:
+  - armenian-cilicia
+  role: tradition
+  confidence: assigned
+  language: fra
+  date: {formation_confidence: unknown, checked: "the title page gives the years the chronicle covers (962-1136, and 1162 for the continuation), not the years of writing; Dulaurier's preface speaks of him as an Armenian monk of the twelfth century (file line 853) and gives no year of writing"}
+  note: 'An Armenian monk''s chronicle of 962-1136 and a priest''s continuation to 1162, in French.'
+- row_id: matthew-of-edessa_chronique-with-gregory-the-priest-fra_dulaurier1858--matthew-of-edessa-chronicle-on-the-bagratid-years
+  work: 'Matthew of Edessa, Chronicle: the years from 962 (Dulaurier 1858)'
+  author: matthew-of-edessa
+  locus: 'the whole chronicle; not mapped'
+  atlas_ids:
+  - bagratid-armenian-christianity
+  role: context
+  confidence: assigned
+  language: fra
+  date: {formation_confidence: unknown, checked: "the title page gives the years the chronicle covers (962-1136), not the years of writing; Dulaurier's preface speaks of him as an Armenian monk of the twelfth century (file line 853) and gives no year of writing"}
+  note: 'A later Armenian chronicle whose first part covers the Bagratid years.'

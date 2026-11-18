@@ -1,0 +1,25 @@
+source_file: offord_jerry-mcauley-his-life-and-work_2nd-ed1885.txt
+assignments:
+- row_id: offord_jerry-mcauley-his-life-and-work_2nd-ed1885--jerry-mcauley-his-life-and-work-with-introduction-by-rev-s
+  work: 'Jerry McAuley: his life and work, with introduction by Rev. S. Irenaeus Prime, D.D., and personal sketches
+    by'
+  author: offord
+  locus: the whole volume; not mapped
+  atlas_ids:
+  - the-rescue-mission-movement
+  role: context
+  confidence: assigned
+  language: eng
+  date:
+    start: 1885
+    end: 1885
+    source: the copyright notice at OCR line 40 ('Copyright, 1885'); the title page prints no year (page image,
+      leaf n8)
+    formation_confidence: Documented
+  edition_date:
+    year: 1885
+    source: the copyright notice at OCR line 40 ('Copyright, 1885'); the title page prints no year (page image,
+      leaf n8)
+    formation_confidence: Documented
+  note: 'Era 9 row 219, Jerry McAuley: his life and his own account. A Life compiled by another hand, printed in
+    1885, before the entry''s window opens.'

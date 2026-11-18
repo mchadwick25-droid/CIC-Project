@@ -1,3 +1,4 @@
 Build/worlds/**
 !Build/worlds/*/surface/**
 !Build/worlds/*/build/records/**
+!Build/worlds/*/Review-Artifacts/**

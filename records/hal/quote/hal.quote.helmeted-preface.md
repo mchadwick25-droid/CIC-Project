@@ -16,7 +16,7 @@ confidence:
   divergence_note: null
 sources:
 - source_id: hal.source.vulgate-prefaces
-  locus: Preface to Samuel and Kings (the 'Helmeted Preface')
+  locus: "Preface to Samuel and Kings (the 'Helmeted Preface') (cic/texts/npnf206_jerome-principal-works.xml, lines 46908-46911)"
   license: public-domain
 text: 'This preface to the Scriptures may serve as a "helmeted" introduction to all the
   books which we turn from Hebrew into Latin, so that we may be assured that what is not

@@ -1,0 +1,12 @@
+source_file: porete_marguerite-in-revue-historique-54-fra_langlois1894.txt
+assignments:
+- row_id: porete_marguerite-in-revue-historique-54-fra_langlois1894--langlois-marguerite-porete-revue-historique-54-1894
+  work: Langlois, 'Marguerite Porete' (Revue historique 54, 1894)
+  author: porete
+  locus: the article from about OCR line 16038; the rest of the volume is other articles; add 12 to OCR line numbers
+  atlas_ids:
+  - free-spirit-heresy
+  - the-beguines
+  role: context
+  confidence: provisional
+  note: A historian's article that prints the Paris proceedings of 1310 against her, a persecutors' record.

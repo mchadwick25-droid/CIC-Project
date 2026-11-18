@@ -1,0 +1,70 @@
+{
+  "name": "Isaac of Alexandria",
+  "knownFor": "Coptic patriarch of Alexandria after John III. He wrote to two Christian kings of the south to make peace, and nearly died for it. A long Coptic Life of him by Mina survives.",
+  "dates": "B. Evetts heads his life in the History of the Patriarchs 686 to 689, and E. Porcher's edition of Mina's Life gives the same years. The History gives him two years and nine months, or three years in another copy. It puts his death on the 2nd of the Coptic month Hatur, Mina on the 9th",
+  "place": "Alexandria. Born at Shubra, the History says, or at a village called Picho, Mina says. A monk of Saint Macarius in the desert of Scetis",
+  "tradition": "Coptic Christianity under Early Islam",
+  "role": "Patriarch of Alexandria, the forty-first in the History's count",
+  "briefLength": "about 2 minutes",
+  "legacy": {
+    "traces": [
+      "He repaired the great church of Saint Mark in Alexandria and renewed the bishop's residence, the History says.",
+      "He built a church at Hulwan, where he went to visit the Amir Abd al-Aziz, the History says. A book on the churches of Egypt, under the name of Abu Salih, dates a monastery there to his time."
+    ],
+    "remembered": [
+      "Mina's Life was read as a sermon on his feast, the 9th of Hatur. E. Porcher reports this from a note on its manuscript.",
+      "The Ethiopic Synaxarium, a book of saints' days, keeps him on the 9th of Khedar in E. A. Wallis Budge's English. It gives him three and a half years.",
+      "Mina says a lamp broke over him at his acclamation and drenched him. The crowd, he says, hailed him as the thirteenth apostle."
+    ]
+  },
+  "uncertain": [
+    "His life rests on two accounts. The History of the Patriarchs, a later Arabic history of the Coptic church, gives a short one. Mina's Coptic Life is long.",
+    "E. Porcher, who edited Mina's Life, says its aim was to edify. It is not a work of history as history is written today, he says.",
+    "Who Mina was. The Life's title calls him bishop of Pchati. Porcher says he was a monk of Saint Macarius who followed John of Nikiu as bishop. Porcher gives no date for the Life.",
+    "The archbishop in the letter story. Mina does not name him. Budge's Ethiopic tells the same story and names him Abba John the archbishop.",
+    "His birthplace. The History has Shubra, and Mina a village called Picho. Porcher says the Arabic Synaxarium has Bourlos. Budge's Ethiopic has Borles.",
+    "The kings he wrote to. The History names the kings of the Abyssinians and the Nubians. Mina names the kings of Makuria and of a land he calls Maurotania. Porcher thinks the scribe may have had Mauritania in mind.",
+    "How the danger passed. The History says the secretaries swapped his letters. Mina says the apostles Peter and Mark walked beside him, and the Amir was afraid.",
+    "His years. F. Nau, in a note to Porcher's edition, cites three and a half years from the Arabic Synaxarium. He takes a Sunday consecration from Mina and a Tuesday death from Peter ibn Rahib, and reckons 684 to 687. He doubts those weekdays himself.",
+    "The rival, George of Sakha. The History says the Amir found that John III had not named him. Mina says George was married and had wicked sons. A note in Evetts's 1895 English of Abu Salih calls the rival John.",
+    "The crosses. The History says Abd al-Aziz ordered all the crosses in Egypt destroyed in Isaac's time. Mina puts an order against crosses earlier, before Isaac, and has a dream stop it."
+  ],
+  "sources": {
+    "about": [
+      {
+        "title": "History of the Patriarchs of the Coptic Church of Alexandria, lives of John III and Isaac, in Patrologia Orientalis 5 (tr. B. Evetts)",
+        "author": "Attributed to Severus ibn al-Muqaffa",
+        "date": "1910",
+        "language": "Arabic with English translation",
+        "file": "cic/texts/chronicle-of-seert_histoire-nestorienne-premiere-partie-fasc2-patrologia-orientalis-5-ara-fra_scher-dib1910.txt"
+      },
+      {
+        "title": "Vie d'Isaac, patriarche d'Alexandrie de 686 à 689, in Patrologia Orientalis 11 (tr. E. Porcher)",
+        "author": "Mina, bishop of Pchati",
+        "date": "1915",
+        "language": "French translation from the Coptic",
+        "file": "cic/texts/synaxaire-arabe-jacobite_po11-toubeh-amshir-fra_basset1915.txt"
+      },
+      {
+        "title": "Historia patriarcharum Alexandrinorum Jacobitarum",
+        "author": "Eusèbe Renaudot",
+        "date": "1713",
+        "language": "Latin",
+        "file": "cic/texts/renaudot_historia-patriarcharum-alexandrinorum-jacobitarum-lat_1713.txt"
+      },
+      {
+        "title": "The Book of the Saints of the Ethiopian Church, volume 1, 9 Khedar (tr. E. A. Wallis Budge)",
+        "date": "1928",
+        "language": "English translation",
+        "file": "cic/texts/ethiopian-synaxarium_book-of-saints-ethiopian-church-v1-maskaram-khedar_budge1928.txt"
+      },
+      {
+        "title": "The Churches and Monasteries of Egypt (tr. B. T. A. Evetts, notes by Alfred J. Butler)",
+        "author": "Attributed to Abu Salih the Armenian",
+        "date": "1895",
+        "language": "English translation",
+        "file": "cic/texts/abu-salih_churches-and-monasteries-of-egypt_evetts1895.txt"
+      }
+    ]
+  }
+}

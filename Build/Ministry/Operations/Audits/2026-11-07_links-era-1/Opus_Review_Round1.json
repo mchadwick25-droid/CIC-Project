@@ -1,0 +1,148 @@
+{
+  "round": 1,
+  "kind": "full review",
+  "verdict": "revise",
+  "counts": {"blocking": 1, "substantial": 4, "minor": 10},
+  "findings": [
+    {
+      "id": "R1-01",
+      "target": "syriac-edessa-nisibis--syriac-orthodox-west-syriac-christianity (note; source[0] locus)",
+      "severity": "blocking",
+      "issue": "The note says 'In 519 a bishop who accepted Chalcedon expelled the monks who refused it.' The date is wrong. The Chronicle's section 89 has the patrician arrive in Seleucid 831 (519/20) to remove Paul. Paul left on 27 Tammuz 833 (July 522), and Asclepius entered Edessa on 23 Tishri I 834 (October 522). Section 90 dates the expulsion to 24 Canun I (December), 'after the entering of Asclepius'. That is December 522, not 519. The locus label 'Chron. Edessa 90 (An. 831 = 519)' carries the same error. The drafter asked for the conversion to be checked; it fails. This is a factual error stated as fact in public text.",
+      "evidence": "cic/texts/chronicle-of-edessa_cowper.txt line 223 (sections 89-90, read in full): 'came the patrician ... in An. 831 ... Paul departed from Edessa on Tammuz (July) 27, of the year 833, and Asclepius ... entered Edessa on the 23rd of Tishrin the former (October), of the year 834 ... 90. And in the month Canun the former (December), on the 24th in it, after the entering of Asclepius the bishop to Edessa, he expelled the Oriental monks'.",
+      "fix": "Change the note to 'In 522 a bishop who accepted Chalcedon expelled the monks who refused it.' Change the locus to 'Chron. Edessa 90 (An. 834 = 522)'. Optionally add the section 89 sentence on Paul, the anti-Chalcedonian bishop removed in 519-522, as a second quote; it shows the see itself in the anti-Chalcedonian camp."
+    },
+    {
+      "id": "R1-02",
+      "target": "syriac-edessa-nisibis--persian-church-of-the-east-early (type vs note and sources)",
+      "severity": "substantial",
+      "issue": "The link claims 'continued as', which means the same community or see. Its last sentence and its secondary make a different claim: 'Historians treat that church as a daughter of Edessa's Christianity.' A daughter is 'gave rise to', not 'continued as'. Wigram pp. 25-26 says exactly that: Persia received the gospel from Edessene teachers, and the 'Church of the Easterns' was Edessa's 'daughter'. He says nothing about the see of Nisibis passing in 363. The 'Historians treat' phrasing also turns one 1910 author into a consensus. The Barhadbeshabba quote does not show 'its church passed with it' either. It shows Ephrem leaving Nisibis for Edessa when the city was handed to Persia. What actually shows continuity of the see is the 410 signature and the metropolitan list (Osee of Nisibis).",
+      "evidence": "cic/texts/wigram_introduction-to-the-history-of-the-assyrian-church-100-640_1910.txt lines 1274-1310 (pp. 25-26: 'received the gospel from teachers whose head-quarters were at Edessa'; 'nursing mother'; 'The Church of the Easterns was the daughter, not of Antioch, but of Edessa'). cic/texts/barhadbeshabba_cause-de-la-fondation-des-ecoles-po4-syr-fra_scher1908.txt 20437-20438 (Ephrem 'se retira à Édesse'). cic/texts/synodicon-orientale_recueil-de-synodes-nestoriens-syr-fra_chabot1902.txt 17745-17746, 17861.",
+      "fix": "Keep 'continued as', since it mirrors the census continuesAs pairing and the see evidence fits that type. Make the note claim only see continuity. For example: 'Nisibis passed to Persia in 363. At the Persian church's synod of 410, its bishop Osee signed the acts and was named second metropolitan.' Drop the 'daughter' sentence and drop Wigram from this link. Replace the Barhadbeshabba quote, or keep it only for the handover of the city. If a vendored line names a pre-363 bishop of Nisibis (Jacob), add it; the link then shows the see on both sides and can be graded Documented. Without it, the link can stay at a grade below Documented, which needs no secondary for the inference. If the 'daughter' relationship is wanted, it belongs on a separate 'gave rise to' link carrying Wigram."
+    },
+    {
+      "id": "R1-03",
+      "target": "syriac-edessa-nisibis--syriac-orthodox-west-syriac-christianity (grade)",
+      "severity": "substantial",
+      "issue": "The link is graded Widely Accepted on Wigram pp. 25-26. That page says the Edessene church 'was merged in that ecclesiastical circle that developed into the Patriarchate of Antioch'. It does not name the Syriac Orthodox church or the anti-Chalcedonian split. Its subject is the Persian church, and its claim is the general Antiochene orbit, which both Chalcedonian and anti-Chalcedonian heirs share. The method says Widely Accepted needs a secondary work for the consensus reading itself. The drafter's own flag concedes Wigram supports the line 'in general, not the Syriac Orthodox by name'. That makes this an over-grade. The same page is cited for two different claims across R1-02 and this link.",
+      "evidence": "Wigram file lines 1287-1291 (p. 25). Drafting_Record.json link drafter_flags for this id. Menze (2008) and Frend (1972) are named in Build/worlds/wsyr/Doc_02_Source_Ecology.md but were not consulted.",
+      "fix": "Drop Wigram from this link. Regrade to Inferential-Thin, and say plainly in the note what it rests on: the see of Edessa continues in the Chronicle's bishop list, an anti-Chalcedonian bishop (Paul) is removed from it in 519-522 and its monks are expelled in 522, and Jacob Baradaeus later takes Edessa's title. Keep Menze/Frend in wants. Regrade upward only once one of them has been read and is cited by page as the repo has seen it. This can be settled within the method; see the escalations view."
+    },
+    {
+      "id": "R1-04",
+      "target": "danubian-latin-christianity.relationsSummary[0]",
+      "severity": "substantial",
+      "issue": "The new last sentence, 'Its own commentary on the Apocalypse comes to us as Jerome edited it', strengthens the old claim ('Jerome edited it'). It now says the commentary survives only in Jerome's edition. That is not shown by any vendored text, and the movement's own longDescription says only that Jerome 'reissued' it and 'rewrote the ending'. Victorinus's unrevised text in fact also survives. The referent is also ambiguous. 'Its own' follows a sentence about the Homoian leaders, so it reads as the Homoian church's commentary.",
+      "evidence": "Main vs working diff of danubian-latin-christianity.relationsSummary. The same movement's longDescription ('when Jerome reissued the Commentary on the Apocalypse he rewrote the ending'). Drafting_Record prose change E8. No Victorinus edition is vendored (ls cic/texts | grep -i victorin: none).",
+      "fix": "Replace it with: 'Its first bishop-writer, Victorinus of Poetovio, wrote a commentary on the Apocalypse that Jerome later reissued with a new ending.' That claim is supported by the movement's own text and the existing danubian-latin-christianity--hieronymian-ascetic-literary link."
+    },
+    {
+      "id": "R1-05",
+      "target": "Readability pass (Prose_Pass_0..3) across the 43 scored paragraphs",
+      "severity": "substantial",
+      "issue": "The pass aimed only at Reading Ease 60. In doing so it pushed 40 of 43 paragraphs below the Flesch-Kincaid grade-8 floor that CLAUDE.md names ('Treat grade 8 as a floor worth staying above'; the risk it guards against is flattening the voice). The minimum is 3.7. The long fields show the cost as staccato, primer-like runs, for example: 'He also had them translated on purpose.' 'His followers divided into two groups.' (manichaeism.longDescription, FK 6.7); 'Then he is answered and won over.' (latin-apologists); 'He set himself up as a rival bishop. He also wrote a Refutation.' (roman-church-third-century.why). Facts were mostly kept. But 'distinctive' is one of the three things that must hold together, and these paragraphs read flatter than the BBC/National Geographic register the standard sets.",
+      "evidence": "Readability_Scores.json (fk_after < 8 on 40 of 43; lowest: roman-church-third-century.relationsSummary 3.7, montanism relationsSummary 4.8, marcion-marcionism.why 5.1, post-apostolic-house-church.legacy 5.6, manichaeism.why 5.9, antiochene-church-third-century.longDescription 6.2). Main vs working prose diff.",
+      "fix": "Re-merge adjacent short sentences in the longDescription, why and legacy fields scoring below FK 7 (manichaeism longDescription/why, marcion why, antiochene longDescription, post-apostolic legacy, anatolian why). Aim for FK 8-10 while keeping FRE at or above 60. Very short relationsSummary lines may sit lower and need no work. Change no facts. Score both FRE and FK in the next Readability_Scores."
+    },
+    {
+      "id": "R1-06",
+      "target": "tertullian-s-voice--hieronymian-ascetic-literary (note)",
+      "severity": "minor",
+      "issue": "The note says Jerome wrote 'that Origen should be read for his learning, just as we read Tertullian'. Jerome wrote 'we should sometimes read him', and added that readers should 'select what is good and avoid what is bad'. Dropping 'sometimes' makes his advice sound like a plainer endorsement than it was.",
+      "evidence": "cic/texts/npnf206_jerome-principal-works.xml 15118-15123 (Ep. 62.2).",
+      "fix": "Change it to: 'He wrote that Origen should sometimes be read for his learning, \"just as we read Tertullian\", taking the good and leaving the bad.'"
+    },
+    {
+      "id": "R1-07",
+      "target": "bardaisanite-current--marcion-marcionism (note)",
+      "severity": "minor",
+      "issue": "'The dialogues themselves are lost.' This is true, but no listed source states it. Eusebius HE IV.30 and McGiffert's note at that place do not say it. The brief requires every fact in a note to come from a listed source.",
+      "evidence": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml 26620-26640.",
+      "fix": "Drop the sentence, or replace it with something the listed lines do show: 'Eusebius knew them in Greek translation.'"
+    },
+    {
+      "id": "R1-08",
+      "target": "alexandria-catechetical--ebionite-nazoraean-current (source[1])",
+      "severity": "minor",
+      "issue": "The note says On First Principles was 'written at Alexandria'. The supporting quote is only the chapter title of HE VI.24 ('The Commentaries which he prepared at Alexandria'). The title does not name De Principiis. The body of the chapter does.",
+      "evidence": "npnf201 line 35968 (title) and line 36069 ('He wrote also the books De Principiis', within VI.24.3).",
+      "fix": "Replace or supplement the quote with line 36069, 'He wrote also the books De Principiis', locus HE VI.24.3."
+    },
+    {
+      "id": "R1-09",
+      "target": "post-apostolic-house-church--montanism-the-new-prophecy (source[0]; note last sentence)",
+      "severity": "minor",
+      "issue": "The first quote ('And those few who were thus deluded were Phrygians.') does not show the relationship; it only identifies the followers. The relationship is carried by the second quote. Separately, the note gives Apolinarius of Hierapolis's anti-Phrygian books to the household-church movement. Eusebius IV.27 lists those books alongside his apology to the emperor, so he could as well sit with greek-apologists-second-century. The mapping is defensible (he was bishop of an Asian church), but the choice should be deliberate.",
+      "evidence": "anf07 line 11308 (read in context); npnf201 26105-26115 (HE IV.27).",
+      "fix": "Remove the first quote. Keep the Apolinarius sentence only if the mapping is intended. Otherwise move that evidence to a greek-apologists-second-century--montanism-the-new-prophecy argued-against link, which the Eusebius line supports as Documented."
+    },
+    {
+      "id": "R1-10",
+      "target": "antiochene-church-third-century--roman-church-third-century (note second sentence)",
+      "severity": "minor",
+      "issue": "The roman-church-third-century movement ends in 268. Aurelian's ruling is c. 272, under bishop Felix, as McGiffert's note at that line says. The note presents it without a date, as part of the same contact. The drafter flagged that the contact rests on the letter.",
+      "evidence": "npnf201 42326-42328 and the footnote there ('The bishop of Rome to whose judgment Aurelian appealed was Felix').",
+      "fix": "Date it: 'When Paul kept the church building, Aurelian in 272 gave it to whoever the bishops of Italy and Rome named.' Or drop the sentence and the second quote, leaving the letter to Dionysius as the contact."
+    },
+    {
+      "id": "R1-11",
+      "target": "Quote boundaries: anatolian-church-third-century--antiochene-church-third-century source[1]; apocryphal-and-pseudepigraphal-literature--alexandria-catechetical source[1]; anatolian-church-third-century--byzantine-imperial-church-heraclian-iconoclast source[1]; alexandria-catechetical--ambrosian-milan-standalone source[0]",
+      "severity": "minor",
+      "issue": "Several quotes are fragments that neither start nor end at a clause boundary: 'Athenodorus, pastors of the churches in Pontus;' (it does not name Gregory), 'or “The Book of James,”', and 'of Gregory the Wonder-worker, Bishop of Neocæsarea;'. The Ambrose quote also carries raw '<i>' markup copied from the XML. Each passes the verbatim check, and the relationship is shown in context. But the brief asks for clause-bounded quotes.",
+      "evidence": "npnf201 41872-41874 (footnote splits 'Gregory' from 'and Athenodorus'); anf09 30601-30607; npnf214 26744-26745; npnf206 19268-19269.",
+      "fix": "Where a footnote breaks the clause, keep the fragment and say so in the work field, as is already done for Eusebius VII.28. Otherwise merge the fragments into one clause-bounded quote (Origen: lines 30601-30607 as one sentence, if under about 40 words without the editor's notes). Strip the '<i>' tags from the Ambrose quote if the validator's squash allows, or choose words outside the italics."
+    },
+    {
+      "id": "R1-12",
+      "target": "greek-apologists-second-century--marcion-marcionism (note); latin-pastoral-congregational-christianity--manichaeism (note)",
+      "severity": "minor",
+      "issue": "Two small facts are not in the listed sources: 'Justin, writing at Rome' (1 Apol. 26 does not say where it was written) and 'Around 400 he wrote a long reply to Faustus' (Contra Faustum I.1 gives no date). Both are standard, but under the brief's rule each fact in the note needs a listed source.",
+      "evidence": "anf01 14943-14945; npnf104 4305-4308.",
+      "fix": "Drop 'writing at Rome' (keep 'while Marcion was still alive', which the quote shows). Drop 'Around 400', or cite a vendored line that dates the work (for example the NPNF 1.4 introduction to Contra Faustum, if it gives the date)."
+    },
+    {
+      "id": "R1-13",
+      "target": "alexandria-catechetical.legacy[2] and [3]",
+      "severity": "minor",
+      "issue": "Three problems. First, 'Did the tradition also feed the rise of Egypt's monks? That is still argued.' is a rhetorical-question opener the readability pass introduced, a generated-voice cadence. Second, 'Athanasius tells a different story: a boy raised at home by Christian parents' does not say why that contradicts an Origenist reading. The link note frames it as Athanasius showing an Egyptian raised at home, not schooled at Alexandria. Third, 'had two minds about the school' (paragraph 3) shifts the drafter's 'remembered the school in two minds' toward contemporary ambivalence, when the evidence is a much later History.",
+      "evidence": "Main vs working diff; Drafting_Record prose change B10; link alexandria-catechetical--desert-monasticism note; Prose_Pass files.",
+      "fix": "Use: 'Whether the tradition also fed Egypt's monks is still argued. One modern reading finds Origen's ideas in the letters of Antony. Athanasius instead shows Antony as a boy raised at home by Christian parents, not schooled in the city.' And: 'The church of Alexandria later remembered the school in two minds.'"
+    },
+    {
+      "id": "R1-14",
+      "target": "greek-apologists-second-century.legacy[0]; apocryphal-and-pseudepigraphal-literature.legacy[0]; montanism-the-new-prophecy.legacy[0]",
+      "severity": "minor",
+      "issue": "The readability pass inserted stock framing lines that read as assistant voice and add a judgment the drafts did not make: 'Justin made a bold claim.' ('bold' is new), 'The irony is plain.', and 'That is the honest problem.'",
+      "evidence": "Main vs working diff; compare Drafting_Record prose changes A5 and B8 (the drafts had no such lines).",
+      "fix": "Use 'Justin argued that, before the incarnation, the Word was already sowing seeds of truth in the philosophers.' Use 'Ironically, they were kept by the tradition that had parted from the one that produced them.' Restore 'That is the honest difficulty:' and join it to the next sentence."
+    },
+    {
+      "id": "R1-15",
+      "target": "anatolian-church-third-century.legacy[0] (two-way)",
+      "severity": "minor",
+      "issue": "The new text says 'Jerome knew the Banquet by name.' Under the brief, naming the earlier side's work is the Documented evidence for 'influenced'. No anatolian-church-third-century to hieronymian-ascetic-literary link carries it. The sentence is careful not to claim borrowing, but it does state a cross-movement relationship as fact.",
+      "evidence": "Working anatolian legacy; Drafting_Record prose change B15 (cites Jerome DVI 83); edges list (no anatolian/hieronymian pair).",
+      "fix": "Add an 'influenced' link anatolian-church-third-century --> hieronymian-ascetic-literary, Documented, on Jerome DVI 83 (npnf203), quoting the line that lists the Banquet. Use a note in the same careful terms: Jerome lists it, and borrowing is not shown."
+    }
+  ],
+  "two_way_gaps": [
+    "(b) greek-apologists-second-century--marcion-marcionism and greek-apologists-second-century--valentinian-and-other-gnostic-christianities: neither movement's text names Justin writing against Marcion or the Valentinians (greek-apologists text has no mention of heretics; Marcion's text says only 'the men who wrote to refute him, above all Tertullian'; the Valentinian text names Irenaeus only). The notes are self-standing but do not show why they stand alone. Fix: add a clause to greek-apologists-second-century.longDescription, for example 'Justin also wrote against Marcion and the Valentinians, whom he refused to call Christians.'",
+    "(a) anatolian-church-third-century.legacy 'Jerome knew the Banquet by name': no link (see R1-15).",
+    "(a) syriac-edessa-nisibis.relationsSummary 'It is the parent of the Church of the East': the only link is 'continued as' (R1-02). If the note is narrowed to see continuity as proposed, 'parent' either needs a 'gave rise to' link on Wigram (Widely Accepted is fair there) or should read 'Its see of Nisibis passed into the Church of the East'.",
+    "(a) ebionite-nazoraean-current.longDescription names Irenaeus, Eusebius and Epiphanius as describing the Ebionites. Origen and Jerome are now linked. Irenaeus and Epiphanius have no census movement (no-entry, acceptable under the method). Eusebius HE III.27 is a vendored argued-against text, but his Church History falls after the 312 close of palestinian-church-pre-constantinian. It could map to imperial-juridical-christianity (312-451), whose own text treats the Constantinian church. That is the drafters' open question; I would draft it there rather than leave it.",
+    "(a) tertullian-s-voice.legacy (unchanged this pass) says 'Cyprian, Jerome and Augustine all read him closely'. The links cover Cyprian and Jerome. For Augustine, the only evidence is De haer. 86, which says Tertullian's works 'are read', not that Augustine read him closely. Either soften to 'knew his works' or find an Augustine passage that engages Tertullian.",
+    "(a) valentinian-and-other-gnostic-christianities.longDescription: Irenaeus's Against Heresies is the strongest argued-against text, but Irenaeus has no movement. It is carried only as a witness inside post-apostolic-house-church--valentinian-and-other-gnostic-christianities. This is acceptable under the method; record it as a no-entry gap in Open_Gaps_Tracking rather than leave it in this thread.",
+    "No other gap found: the other 30 new links touching era-1 movements are named in at least one of their two movements' current texts. I checked each sentence by name search across all four fields."
+  ],
+  "escalations_view": [
+    "B (raw movement ids in other movements): No need for Mark. This is doc hygiene. The era-1 ones are now clean (I scanned all era-1 fields: no raw ids, no internal words). Four era-2+ movements still print raw ids: palestinian-ascetic-monasticism-early, aquileian-christianity, gallic-nicene-episcopate, roman-church-gregorian. They belong to the era-2+ link passes. Log them in the owning Open_Gaps_Tracking.",
+    "B (Philocalia compilers: 'attributed' in records/alx vs Contested in records/cappadocian and Source Registry row 81): Yes, it needs one ruling, because it is a cross-world records inconsistency, and the default table says to always ask on cross-world matters. It does not block this pass. The prose and note follow the more cautious status, which is correct meanwhile. The vendored NPNF 7 heading at npnf207 line 47442 itself says 'edited by himself and S. Basil', so the evidence on each side should go to Mark together.",
+    "B (two qualifies that correct factual errors): No need for Mark. Both are right. Pseudo-Matthew ch. 14 has the ox and the ass; the Protevangelium does not. Tertullian and Cyprian on virgins predate the Banquet.",
+    "C (Wigram carrying two Widely Accepted links): Can be settled within the method, without Mark. The method requires a secondary for the consensus reading. Wigram pp. 25-26 states the Persian church's Edessene parentage ('daughter', 'admitted'), which is a 'gave rise to' claim. It does not state the Syriac Orthodox descent. So the Persian link should be narrowed to see continuity (R1-02), and the Syriac Orthodox link drops to Inferential-Thin until Menze or Frend is read (R1-03). Showing a well-known descent as thin is the honest display of what the vendored evidence carries. The want list is the remedy, not a governance change.",
+    "C (Manichaeism 'Jewish-Christian' sect and Uyghur state religion): No need for Mark. The method answers it: the softened text is sourced (Fihrist via Newman; Yule-Cordier citing von Le Coq), and the stronger claims become wants (a Cologne Mani Codex translation; a source for the 762/3 adoption). Add both to wants if they are not there already.",
+    "D (Montanism dates 'c. 165-400s' vs suppression under Justinian): No need for Mark. This is a census-data reconciliation for the movement's owner. The new links' own evidence (Procopius, Secret History XI; Justinian Novel 45) supports extending the end date into the sixth century. Log it in Open_Gaps_Tracking with those loci.",
+    "E (Aquileia 381 / Palladius link missing): No need for Mark. Both ends are era 2, so it goes to the era-2 drafter, as proposed.",
+    "E (Roman church of c. 140-160 and the Asian synods mapped to post-apostolic-house-church): No need for Mark; I agree with both mappings. The movement runs 70-200 and its region is 'Antioch, Asia Minor, Rome'. roman-church-third-century starts at 200 and has an existing link from it. The Asian synods of the 170s-190s fall inside its dates and region. The one doubtful piece is Apolinarius of Hierapolis, who could sit with the Greek apologists (R1-09)."
+  ],
+  "checked": "Method: CLAUDE.md (all) and Drafting_Brief.md read first. I saved origin/main's census to a scratch file and diffed it against the working copy by script. Result: 32 new links, 1 changed (anatolian-church-third-century--cappadocian-nicene-pastoral-monastic-tradition), none removed. meta.release went 3 to 4. 41 prose fields (43 scored paragraphs) changed across era-1 movements, and nothing outside edges, these prose fields and meta. For every primary source of every new or changed link, I printed and read 3-6 lines of context on both sides in the vendored file, with tags stripped. I did not rely on the validator's verbatim pass. For each, I judged whether the passage shows the claimed relationship, the arrow direction, and the symmetric-type ordering (all correct), and checked from/to against each movement's start/end. Notable confirmations: Jerome DVI 53 and Ep. 84.2 (Cyprian's 'master'); Socrates IV.26 and the Ep. 115 heading at npnf207 47442 (which gives 'about Easter 382'); Jerome Ep. 84.7 (Ambrose's Hexaemeron, a single partisan witness, but a contemporary statement of use, so Documented is within the method); Pamphilus DVI 75 and Apol. III.12; Trullo can. 2; Origen Comm. Matt. X.17 including the following lines, where Origen shares the aim of Mary's virginity; Ephraim's Prose Refutations; Eusebius IV.30; Sozomen III.16 and Theodoret IV.26; Contra Faustum I.1 and Conf. IV.1; Origen De princ. IV.1.22; Jerome to Augustine 404; Anonymous in HE V.16; Tertullian De res. 11/63 and Adv. Prax. 1; VC III.64-65; Procopius XI and Novel 45; Cyprian Epp. 40/75 and En. Ps. 55; Nicaea can. 8; Socrates I.10/I.13 (Acesius, Auxanon); Tertullian Adv. Marc. I.1-2, IV.4 and Praescr. 30; Irenaeus III.3.4 and III.4.3; Justin 1 Apol. 26 and Dial. 35; Adv. Val. 4-5; Philostorgius III.15 (all three Lucianists are present, Antonius as 'Anthony' at Tarsus); Eusebius VII.27-30; Basil Ep. 204.6 and De Sp. S. 29.74. For the Wigram citation, I opened pp. 25-26 in the vendored file and compared its wording with both claims. For the Chronicle of Edessa, I read sections 89-90 in full and recomputed the Seleucid dates. Prose: I read every changed paragraph, main against working, and checked each against its Drafting_Record prose_change reason and the readability pass. I spot-verified the new facts against vendored lines: Clement 'the seeds of the Truth' at anf02 46779; Pseudo-Matthew's ox and ass (per B6); Acts of Peter and of Philip deaths at anf08 47555-47561 and 48752; Chauncy 1743 lines 6290-6305 ('Cries, and Shrieks, and falling down' and 'the MONTANISTS of old'); Calvin Inst. III.22 at vol2 25388-25391; Moll as cited in the pahc Doc_01 and the pahc source records; Athanasius VA 1 via the desert link; and the History of the Patriarchs via the Coptic link. I scanned all era-1 text fields for raw movement ids and internal vocabulary (none). I reviewed Readability_Scores for both FRE (all at least 60) and FK (40 of 43 below 8). Two-way: I searched each era-1 movement's four fields for the names behind every link touching it, and read the dispositions (link / qualify / remove / out-of-scope / no-entry) for every named cross-movement sentence. I made no repo edits other than this file and no model calls."
+}

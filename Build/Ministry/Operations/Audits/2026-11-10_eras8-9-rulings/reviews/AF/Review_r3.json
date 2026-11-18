@@ -1,0 +1,19 @@
+{
+ "slice": "AF",
+ "round": 3,
+ "verdict": "revise",
+ "blocking": [],
+ "substantial": [
+  {
+   "id": "AF-R3-S1",
+   "where": "entries AF-1 to AF-5 .sources",
+   "problem": "The sources lists described in Sources_added.md are not in the draft. No AF entry, and no RVA entry, has a 'sources' key. Draft.json was last written at 20:43:38, before Sources_added.md (20:57:36), so the edit was never saved.",
+   "evidence": "Every AF entry's key list has no 'sources'. RVA entries show 0 sources each. The file is 141635 bytes, the same as the round 2 file.",
+   "fix": "Re-run the edit that writes the sources, save it, and return the file for this narrow check. The list in Sources_added.md is itself sound. Every work it names is one the rows' sentences rest on. Bentley is volume II (the raw title page says VOLUME II). Butcher and the Catholic Encyclopedia are correctly typed secondary. Thornton 1998 is correctly marked named, not opened. When the lists are written, check that each note scores FRE 60 or more and that titles match the fact table's work strings."
+  }
+ ],
+ "minor": [],
+ "quotes_checked": 0,
+ "quotes_failed": [],
+ "notes": "Narrow round 3. The content approved in round 2 is unchanged. Only the promised sources lists are missing."
+}

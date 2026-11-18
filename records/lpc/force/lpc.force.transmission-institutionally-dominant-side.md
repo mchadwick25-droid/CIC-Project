@@ -16,7 +16,7 @@ confidence:
     of this build''s own corpus. This world was acutely conscious of transmission and acted on it in its
     own voice (Cyprian''s own dossier and collation practice; Augustine''s own Retractationes); what it
     could not experience -- the Catholic institutional tradition''s own selection and the 19th-century
-    translation programme -- is named directly rather than narrated from inside, per Doc_08 §8''s own
+    translation program -- is named directly rather than narrated from inside, per Doc_08 §8''s own
     Reported-Experience discipline.'
 sources:
 - source_id: lpc.source.cyprian-epistles
@@ -59,7 +59,7 @@ description: >-
 
 
   What this world could not experience is what came later: the Catholic tradition's own selection of
-  texts, and a 19th-century translation programme.
+  texts, and a 19th-century translation program.
 
 
   This has three effects. First, the record is full and one-sided at the same time. Its imbalance does

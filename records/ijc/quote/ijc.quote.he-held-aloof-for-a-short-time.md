@@ -16,8 +16,7 @@ confidence:
     Documented as Socrates's report, written a century after Nicaea from documents he had in hand - he goes on to reproduce Eusebius's letter in full. Socrates is not neutral about the controversy, but the hesitation he records is not to his advantage and he records it anyway.
 sources:
 - source_id: ijc.source.socrates-he
-  locus: >-
-    Ecclesiastical History I.8, on Eusebius of Caesarea at the Council of Nicaea (npnf202_socrates-sozomen-ecclesiastical-histories.xml, from file line 2972)
+  locus: "Ecclesiastical History I.8, on Eusebius of Caesarea at the Council of Nicaea (cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml, lines 2972-2978)"
   license: public-domain
 text: >-
   ...had held aloof for a short time, after mature consideration whether he ought to receive this definition of the faith, at length acquiesced in it, and subscribed it with all the rest: he also sent to the people under his charge a copy of the Creed, with an explanation of the word homoousios, that no one might impugn his motives on account of his previous hesitation.

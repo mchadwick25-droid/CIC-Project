@@ -4,7 +4,7 @@
 in this same directory, nothing regenerates this file — it's the procedure,
 not a report on the corpus.
 
-**Trigger — two real paths, both fine (2026-09-03).** Mark finds a source
+**Trigger — two real paths, both fine.** Mark finds a source
 and downloads it to his own machine; from there:
 - **Attach it in a live chat message** — one or a few files, no separate
   upload step. Good for a single find mid-conversation.
@@ -19,13 +19,11 @@ the file up — from a raw attachment or `_intake/` file to a vendored file
 every future session can search and cite.
 
 **Two shapes of source, same pipeline, different rights checklist.** Most of
-this corpus so far is an English translation of an ancient work. Starting
-2026-09-02, Mark is also sourcing **original-language texts** (Greek, Latin,
-Syriac, ...) directly. Everything below applies to both; where they differ,
+this corpus is an English translation of an ancient work. Mark also sources
+**original-language texts** (Greek, Latin, Syriac, ...) directly. Everything below applies to both; where they differ,
 both paths are stated.
 
-**A clean public-domain original can be primary evidence (Mark's ruling,
-2026-09-25).** Language is not what decides whether a source is primary —
+**A clean public-domain original can be primary evidence.** Language is not what decides whether a source is primary —
 credibility and truth are. If a work is a primary source to the world it
 belongs to, that holds regardless of what language it survives in. In
 practice:
@@ -33,12 +31,20 @@ practice:
 - A quote record holds the original-language text, verified against the
   vendored file, the same verification discipline every English quote
   already gets.
-- The modern English a Representative actually speaks is an Opus
-  translation of that original, independently Opus-checked, and marked in
-  the record as rendered from the original rather than quoted from an
-  existing English edition.
+- The modern English a Representative speaks, or a card prints, is our own
+  rendering of that original, marked in the record as rendered from the
+  original rather than quoted from an existing English edition. A second
+  rendering, made independently by an agent that never sees the first,
+  checks it. Any difference in meaning is marked uncertain, and both
+  readings are kept. The model that renders is the one `CLAUDE.md` names
+  for renderings, unless Mark has made an exception for the work in hand.
+  An older stage of a language counts as foreign here: Old and Middle
+  English (`ang`, `enm`), Middle High German (`gmh`) and the like. A
+  quotation from an English text printed before 1931 is given in our modern
+  English too, with the second rendering; the printed wording stays on
+  record with its file and lines.
 - A public-domain English translation, where one exists, is a cross-check
-  against the Opus rendering — useful, not required. Its absence is not a
+  against our rendering — useful, not required. Its absence is not a
   reason to treat the original as unusable.
 - **Scan quality decides quotability, not language.** A garbled OCR
   scan — long ſ, þ, ð and similar systematic encoding failures aside,
@@ -49,12 +55,6 @@ practice:
   rendering þ as `])`/`]?`), each one verified against page images before
   it's trusted. No model ever retypes a source to work around a bad scan.
 
-This replaces this file's own prior framing (in force 2026-09-02 through
-2026-09-25) that an original-language text was a second witness by
-definition, never primary evidence, because the project's evidence language
-was English. The reasoning for the change, and the ruling's own words, are
-recorded in `worlds/_cross-world/LIBRARY-DECISION-LOG.md` — this file states
-the current rule plainly, not its history.
 
 ---
 
@@ -63,7 +63,7 @@ the current rule plainly, not its history.
 Extract the text, and pull whatever the source itself states: title, author,
 translator/editor, publisher, year, and — critically — **where Mark got it
 and what that host itself says about rights.** A chat attachment usually has
-this in Mark's own message alongside it; a file pulled from `_intake/`
+this in Mark's message alongside it; a file pulled from `_intake/`
 should have it in a sidecar note per that folder's own convention. If
 neither states the URL and the host's own rights statement, ask before doing
 anything else. A rights basis is never guessed; it either comes from the
@@ -78,14 +78,41 @@ verified-not-asserted case this whole registry rests on.
 `texts_registry.py`'s own docstring:
 - Published > 95 years ago (rolling; 1930 as of 2026) → public domain by
   date.
+- Where a title page prints no year, a copyright notice in the volume dated
+  1930 or earlier stands for the date; a dated preface stands for it only
+  where the library catalogue's date agrees. The header's Rights line says
+  which date was used and where it stands in the file.
 - A transcriber's explicit PD declaration (Pearse's site-wide notice is the
   precedent) → accepted, recorded as such.
 - An explicit open licence (CC BY 4.0 — Dysinger's Evagrius is the one case
   so far) → `open-licence`, with the attribution string recorded and carried
   into every quote that draws on it.
-- 1931–1963 US publications need an actual renewal check (Stanford Copyright
-  Renewal Database / NYPL `cce-renewals`), not a guess — flag for that
-  research rather than assuming clear.
+- The date is the imprint on the title page, not the host's record, and the
+  line moves each January.
+- An institution's report (an annual statement, a proceedings) counts by a
+  date printed in its own text, where that date is read on the page image.
+  The header's Rights line says where the date stands.
+- A scan that carries a microfilm maker's notice against reproduction is not
+  taken, whatever the date of the print. Another scan of the same print with
+  no such notice may be.
+- A host's own additions (page-foot stamps, watermark text, host banners) may
+  be removed at intake; nothing of the printed work is. The header's
+  Provenance note gives the exact text removed, the number of lines, the host
+  URL and the original byte count, so the original can be fetched again and
+  checked against the file.
+- 1931–1963 US publications whose copyright was not renewed → free, for any
+  such book. The renewal search (Stanford Copyright Renewal Database / NYPL
+  `cce-renewals`, or the catalogue transcriptions) is run, never guessed, and
+  recorded in the file header: what was searched, the names searched, the
+  date, the result. A renewal found means in copyright, not held.
+- An owner's own statement that the text is free (CC BY 4.0, "not
+  copyrighted", "may be reproduced without permission") → `owner-declared
+  free`, a class beside public domain, with the owner's own words copied into
+  the file header. Entries the owner marks as reprinted "with permission" are
+  skipped. Where the statement says the text must stay unchanged, the text is
+  quoted word for word only and gets no modern rendering.
+- A "non-commercial use only" permission → not held. Cite and link, and write
+  for permission where the text matters.
 - Foreign-published 1931+ translations: assume URAA-restored (in copyright in
   the US) unless a licence says otherwise — see
   `world-build-docs/_cross-world/PLAN-texts-store-scaling.md`'s sibling
@@ -107,6 +134,22 @@ order of how often they'll actually come up:
   itself asserts copyright on its "electronic edition." If this is Mark's
   source, cite it bibliographically in the eventual source record; do not
   save its text into `cic/texts/`.
+- **Vatican texts** — the Latin of the *Acta* printed by 1930 is held under
+  the date rule and rendered by us. Everything later is cite and link only.
+- **Court and government records** — a printed record counts by its imprint
+  date, like a book. Unprinted archive records are cite only. US federal
+  government works are free.
+- **Church statements with no stated terms** (confessions, conference
+  resolutions, bishops' documents) — cite and link, and write to the body for
+  permission.
+- **Old works whose only scan is locked** (lending-only) — record as "located,
+  not obtainable here"; do not take them.
+- **Martin Luther King Jr.** — cite and link only. No quotation, no rendering.
+- **A work we do not hold** is never quoted. A profile gives facts and a
+  citation.
+- **Our own rendering from an old original** — a second independent
+  rendering checks the first, whether or not an old English translation
+  exists, and differences in meaning are marked uncertain on the card.
 - Anything else: treat like an English translation from an unfamiliar host —
   find the host's own explicit rights statement before proceeding, never
   infer one from silence.
@@ -213,8 +256,7 @@ Expressions, one Greek-based, one Syriac).
 python cic/engine/corpus_index.py --build
 ```
 
-Derived, gitignored, ~10 seconds for the whole corpus as of 2026-09-02 (64
-files). Skipping this just means the new file is invisible to
+Derived, gitignored, about 10 seconds for the whole corpus. Skipping this just means the new file is invisible to
 `corpus_index.py`'s search until someone rebuilds it — not a correctness
 risk, just a wasted trip for whoever searches next.
 

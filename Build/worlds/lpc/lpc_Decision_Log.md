@@ -2943,3 +2943,29 @@ Not done from the audit: the quotes' "setting" field (needs the engine thread's 
 Context: the not_for lines added to `lpc.quote.bishop-of-bishops` and `lpc.quote.clamour-and-tears` in the retrieval-hint change took each list past the schema's length limit, and the fleet drift test (`m1:schema-validation/lpc`) failed on `main` after that merge. My own gate run was cut short and did not reach it.
 
 Changed: the two added lines of `clamour-and-tears` are one line; the added line of `bishop-of-bishops` joins the line about Stephen. No claim was dropped and no meaning changed. Pin `packages/lpc/2026-10-28T18-53-09Z`. No model call.
+
+### 2026-10-29 — Record fixes from the fleet run's second pass (lpc)
+
+Context: the fleet graded run (pin 2026-10-28T17-58-42Z) found real answer defects in lpc: a false denial that the bishops spoke of baptism as a new birth (F4-T), an invented attribution of the apse letter to Fussala (F5-E), Felicissimus called a rival bishop in the same city (F3-P), and two quotes pulled out of context. Fixed at the source, no live run, no model call.
+
+Changed: new witness `lpc.witness.baptism-as-new-birth` (Cyprian, Epistle LXXII to Jubaianus, section 21; every quotation checked word for word); `lpc.witness.communion-over-separation` places the deacon's faction in Carthage and the rival bishop at Rome and bars the causal claim; the world core names the apse letter as Augustine's Letter CXXVI to Albina (411) and cites it as a source (the voice had said Fussala); the "Love, and do what thou wilt" quote's hint narrowed to deeds judged by their root; not_for lines on the council-on-the-sick quote and the "longing expectation" quote. The coordination thread's drafting branch was read and used as a cross-check, not adopted.
+
+Not done: the claim that no text a woman wrote survives (F3-I) waits on the project lead's ruling, because Perpetua's account (203) predates the window.
+
+Review: one Opus round, Revise (one P1: a broken quote in the world core's YAML; four P2). All applied. New pin `packages/lpc/2026-10-29T05-33-56Z`.
+
+### 2026-10-29 — The women's-writing claim is kept and scoped to the world's own cities and years (project lead's ruling)
+
+Context: the fleet run showed the voice saying that no text a woman wrote survives, which Perpetua's own prison account (Carthage, 203) contradicts. It falls before the window, and the Passion is outside this world's sources.
+
+Ruling: the project lead chose option 1 in chat, 2026-10-29: keep the claim, scoped to the window. Done: the limit's statement now reads "From our own two cities, in our years from 246 to 430, no text a woman wrote herself survives"; the registry card says the same for Carthage and Hippo between 246 and 430; the generator mirror and the claims register row (aee22bcd) match. Opus check: Revise (one P1, the card was scoped by date but not by place, so it denied Egeria and Proba; two P2, the sentence was long and the voice had nothing to say about Perpetua). The P1 and the sentence are applied. A line that names Perpetua is not added: it needs Augustine's Sermons 280 and 281 as a vendored source with a shelf row, which needs its own decision. New pin `packages/lpc/2026-10-29T11-53-43Z`. No model call.
+
+### 2026-10-29 — Live test "lpc go-live rerun 1": validation on the new pin, and what it showed (record)
+
+Authorized by the project lead in chat, 2026-10-29 ("go ahead with the $3 run"; named "lpc go-live rerun 1", cap $3.00; entry in the System Hub Decision Log). Conditions held before it started: record fixes on a pushed branch, Opus-reviewed where their meaning changed, lpc gates passing on pin `packages/lpc/2026-10-29T11-53-43Z`, the engine change decided by the coordination thread, and a `--settings-only` estimate under the cap.
+
+Ran: the 30 validation conversations (the 10-turn Deep Interview included) on that pin; no admission run. Spent $1.55 of $3.00 per the engine's ledger; $1.45 left unspent.
+
+Result (Opus review, `Review-Artifacts/Rerun1_Validation_Review_2026-10-29.md`): Revise. 39 rows: 2 PASS, 25 CONCERN, 10 FAIL (run 3 on the older pin had 13), one fabrication (laundering-2: the Donatist believer is given words from Sermon 79). Gone: Letter 228 with an army outside Hippo, Celerinus's sister buying a certificate, pointers to other worlds. Correct: the world's end at 430. Repeated: caution 14 and 15 breaches, withheld sentences leaving gutted answers, build talk. The gate reads voice-turn readability now. `validation lpc` fails on three content findings and one readability finding; lpc stays `built`, not `admitted`.
+
+Not tested by these questions: baptism as new birth, the apse letter, Felicissimus, the scoped women's-writing claim. No spend is approved beyond this entry.

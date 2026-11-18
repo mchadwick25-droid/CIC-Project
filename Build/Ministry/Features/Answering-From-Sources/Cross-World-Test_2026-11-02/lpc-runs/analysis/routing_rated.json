@@ -1,0 +1,598 @@
+[
+ {
+  "id": "q001",
+  "label_fit": "partly",
+  "records_fit": "partly",
+  "pattern": "eyewitness-chain limit when the question asks how the gospel texts and teaching reached them",
+  "better": "C1.S5 is closest; C1.S7 Which gospels and writings about Jesus they had is unmapped, so no record exists for the transmission path"
+ },
+ {
+  "id": "q002",
+  "label_fit": "yes",
+  "records_fit": "yes"
+ },
+ {
+  "id": "q003",
+  "label_fit": "yes",
+  "records_fit": "partly",
+  "pattern": "Augustine's own unfreed conviction and a thin-record limit, nothing addressed to the one who cannot believe",
+  "better": "C1.S8 Would Jesus want someone like me; I want to believe"
+ },
+ {
+  "id": "q004",
+  "label_fit": "yes",
+  "records_fit": "yes"
+ },
+ {
+  "id": "q005",
+  "label_fit": "yes",
+  "records_fit": "yes"
+ },
+ {
+  "id": "q006",
+  "label_fit": "yes",
+  "records_fit": "partly",
+  "pattern": "one record on God commanding Old Testament violence for a broad question about God's character",
+  "better": "C4.S1 Faith and works, grace, 'what must I do'"
+ },
+ {
+  "id": "q007",
+  "label_fit": "yes",
+  "records_fit": "partly",
+  "pattern": "Augustine's personal conversion struggle and a limit record, nothing on the community making room",
+  "better": "C14.S5 Hypocrisy and a judgmental community; belonging; forgiving the unrepentant"
+ },
+ {
+  "id": "q008",
+  "label_fit": "yes",
+  "records_fit": "yes"
+ },
+ {
+  "id": "q009",
+  "label_fit": "yes",
+  "records_fit": "yes"
+ },
+ {
+  "id": "q010",
+  "label_fit": "yes",
+  "records_fit": "yes"
+ },
+ {
+  "id": "q011",
+  "label_fit": "yes",
+  "records_fit": "partly",
+  "pattern": "records about violent and hard passages when the question is about dullness and confusion",
+  "better": "C5.S6 Who could read or own a Bible; language; translation"
+ },
+ {
+  "id": "q012",
+  "label_fit": "yes",
+  "records_fit": "yes"
+ },
+ {
+  "id": "q013",
+  "label_fit": "yes",
+  "records_fit": "yes"
+ },
+ {
+  "id": "q014",
+  "label_fit": "yes",
+  "records_fit": "yes"
+ },
+ {
+  "id": "q015",
+  "label_fit": "partly",
+  "records_fit": "partly",
+  "pattern": "records on forgiving members who failed the church, when the question is the church failing a person",
+  "better": "C14.S6 Leaders who did harm, cover-up, bullying bishops, accountability; the hardest true thing"
+ },
+ {
+  "id": "q016",
+  "label_fit": "yes",
+  "records_fit": "no",
+  "pattern": "apostolic-succession and one-true-church claims, nothing on any church today",
+  "better": "no record exists"
+ },
+ {
+  "id": "q017",
+  "label_fit": "yes",
+  "records_fit": "yes"
+ },
+ {
+  "id": "q018",
+  "label_fit": "yes",
+  "records_fit": "yes"
+ },
+ {
+  "id": "q019",
+  "label_fit": "yes",
+  "records_fit": "partly",
+  "pattern": "one restless-heart record, nothing on a practice for an unquiet mind",
+  "better": "C7.S3 Prayer: why and how, set or free, teach me, prayer in anxiety"
+ },
+ {
+  "id": "q020",
+  "label_fit": "yes",
+  "records_fit": "yes"
+ },
+ {
+  "id": "q021",
+  "label_fit": "yes",
+  "records_fit": "none-mapped"
+ },
+ {
+  "id": "q022",
+  "label_fit": "yes",
+  "records_fit": "none-mapped"
+ },
+ {
+  "id": "q023",
+  "label_fit": "yes",
+  "records_fit": "none-mapped"
+ },
+ {
+  "id": "q024",
+  "label_fit": "yes",
+  "records_fit": "partly",
+  "pattern": "the three goods of marriage, nothing on how a marriage was marked",
+  "better": "no record exists"
+ },
+ {
+  "id": "q025",
+  "label_fit": "partly",
+  "records_fit": "no",
+  "pattern": "letter-authentication and recension records when the question is a torture-obtained outside witness",
+  "better": "no record exists"
+ },
+ {
+  "id": "q026",
+  "label_fit": "no",
+  "records_fit": "none-mapped",
+  "pattern": "question about an unsettling part of community life routed to the pressing-to-invent ground",
+  "better": "C14.S6 Leaders who did harm, cover-up, bullying bishops, accountability; the hardest true thing"
+ },
+ {
+  "id": "q027",
+  "label_fit": "partly",
+  "records_fit": "no",
+  "pattern": "prayer-for-the-dead records when the question is how they would regard the outsider asking",
+  "better": "C7.S1 Becoming one of them; baptism: infants, dunking or pouring"
+ },
+ {
+  "id": "q028",
+  "label_fit": "yes",
+  "records_fit": "yes"
+ },
+ {
+  "id": "q029",
+  "label_fit": "yes",
+  "records_fit": "partly",
+  "pattern": "Augustine's case for endless punishment, nothing on Origen or his condemnation",
+  "better": "no record exists"
+ },
+ {
+  "id": "q030",
+  "label_fit": "partly",
+  "records_fit": "no",
+  "pattern": "Augustine's hell records when the question is Gregory of Nyssa's own teaching",
+  "better": "no record exists"
+ },
+ {
+  "id": "q031",
+  "label_fit": "yes",
+  "records_fit": "partly",
+  "pattern": "grace doctrine and the Pelagius contest, nothing on whether ordinary people knew the argument",
+  "better": "C16.S3 Where the record is thinnest; whose voices are missing"
+ },
+ {
+  "id": "q032",
+  "label_fit": "yes",
+  "records_fit": "none-mapped"
+ },
+ {
+  "id": "q033",
+  "label_fit": "yes",
+  "records_fit": "partly",
+  "pattern": "a bulk dump of quotes and figures when the question asks why famous figures are absent",
+  "better": "C16.S3 Where the record is thinnest; whose voices are missing"
+ },
+ {
+  "id": "q034",
+  "label_fit": "yes",
+  "records_fit": "no",
+  "pattern": "quote dump with no Athanasius material",
+  "better": "no record exists"
+ },
+ {
+  "id": "q035",
+  "label_fit": "yes",
+  "records_fit": "yes"
+ },
+ {
+  "id": "q036",
+  "label_fit": "yes",
+  "records_fit": "yes"
+ },
+ {
+  "id": "q037",
+  "label_fit": "partly",
+  "records_fit": "partly",
+  "pattern": "leadership-election records that lack the good-shepherds quote the question names",
+  "better": "C16.S5 Named figures in their own words; one line to quote; the famous names missing from the table"
+ },
+ {
+  "id": "q038",
+  "label_fit": "yes",
+  "records_fit": "yes"
+ },
+ {
+  "id": "q039",
+  "label_fit": "partly",
+  "records_fit": "yes",
+  "pattern": "sentencing words routed to the seeking-martyrdom/lapsed sub-question",
+  "better": "C9.S1 How dangerous it was; how many died; local or empire-wide; what was done; catacombs; accusations"
+ },
+ {
+  "id": "q040",
+  "label_fit": "yes",
+  "records_fit": "yes"
+ },
+ {
+  "id": "q041",
+  "label_fit": "yes",
+  "records_fit": "yes"
+ },
+ {
+  "id": "q042",
+  "label_fit": "yes",
+  "records_fit": "yes"
+ },
+ {
+  "id": "q043",
+  "label_fit": "yes",
+  "records_fit": "yes"
+ },
+ {
+  "id": "q044",
+  "label_fit": "no",
+  "records_fit": "none-mapped",
+  "pattern": "no sub-question chosen though a Possidius deathbed quote exists",
+  "better": "C12.S5 Burial, grief, mourning customs"
+ },
+ {
+  "id": "q045",
+  "label_fit": "yes",
+  "records_fit": "yes"
+ },
+ {
+  "id": "q046",
+  "label_fit": "yes",
+  "records_fit": "yes"
+ },
+ {
+  "id": "q047",
+  "label_fit": "yes",
+  "records_fit": "yes"
+ },
+ {
+  "id": "q048",
+  "label_fit": "yes",
+  "records_fit": "yes"
+ },
+ {
+  "id": "q049",
+  "label_fit": "yes",
+  "records_fit": "yes"
+ },
+ {
+  "id": "q050",
+  "label_fit": "yes",
+  "records_fit": "yes"
+ },
+ {
+  "id": "q051",
+  "label_fit": "yes",
+  "records_fit": "yes"
+ },
+ {
+  "id": "q052",
+  "label_fit": "yes",
+  "records_fit": "yes"
+ },
+ {
+  "id": "q053",
+  "label_fit": "yes",
+  "records_fit": "yes"
+ },
+ {
+  "id": "q054",
+  "label_fit": "yes",
+  "records_fit": "yes"
+ },
+ {
+  "id": "q055",
+  "label_fit": "yes",
+  "records_fit": "yes"
+ },
+ {
+  "id": "q056",
+  "label_fit": "yes",
+  "records_fit": "yes"
+ },
+ {
+  "id": "q057",
+  "label_fit": "yes",
+  "records_fit": "yes"
+ },
+ {
+  "id": "q058",
+  "label_fit": "yes",
+  "records_fit": "yes"
+ },
+ {
+  "id": "q059",
+  "label_fit": "yes",
+  "records_fit": "yes"
+ },
+ {
+  "id": "q060",
+  "label_fit": "yes",
+  "records_fit": "yes"
+ },
+ {
+  "id": "q061",
+  "label_fit": "partly",
+  "records_fit": "no",
+  "pattern": "prayer records that lack the psalms-on-the-wall story the question names",
+  "better": "C7.S5 Confession and penance; fasting"
+ },
+ {
+  "id": "q062",
+  "label_fit": "yes",
+  "records_fit": "yes"
+ },
+ {
+  "id": "q063",
+  "label_fit": "yes",
+  "records_fit": "none-mapped"
+ },
+ {
+  "id": "q064",
+  "label_fit": "yes",
+  "records_fit": "none-mapped"
+ },
+ {
+  "id": "q065",
+  "label_fit": "yes",
+  "records_fit": "none-mapped"
+ },
+ {
+  "id": "q066",
+  "label_fit": "yes",
+  "records_fit": "none-mapped"
+ },
+ {
+  "id": "q067",
+  "label_fit": "yes",
+  "records_fit": "yes"
+ },
+ {
+  "id": "q068",
+  "label_fit": "yes",
+  "records_fit": "yes"
+ },
+ {
+  "id": "q069",
+  "label_fit": "yes",
+  "records_fit": "yes"
+ },
+ {
+  "id": "q070",
+  "label_fit": "yes",
+  "records_fit": "none-mapped"
+ },
+ {
+  "id": "q071",
+  "label_fit": "yes",
+  "records_fit": "no",
+  "pattern": "record on Old Testament violence when the question is whether Jews and Muslims worship the same God",
+  "better": "no record exists"
+ },
+ {
+  "id": "q072",
+  "label_fit": "yes",
+  "records_fit": "yes"
+ },
+ {
+  "id": "q073",
+  "label_fit": "yes",
+  "records_fit": "none-mapped"
+ },
+ {
+  "id": "q074",
+  "label_fit": "yes",
+  "records_fit": "none-mapped"
+ },
+ {
+  "id": "q075",
+  "label_fit": "yes",
+  "records_fit": "none-mapped"
+ },
+ {
+  "id": "q076",
+  "label_fit": "yes",
+  "records_fit": "none-mapped"
+ },
+ {
+  "id": "q077",
+  "label_fit": "yes",
+  "records_fit": "partly",
+  "pattern": "an afterlife-of-the-corpus force and one silence limit, not what would survive scrutiny",
+  "better": "C16.S2 Legend collected later; false attribution; later polish; what historians think you got wrong"
+ },
+ {
+  "id": "q078",
+  "label_fit": "yes",
+  "records_fit": "partly",
+  "pattern": "one silence limit and a corpus force, not the line between documentation and inference",
+  "better": "C16.S3 Where the record is thinnest; whose voices are missing"
+ },
+ {
+  "id": "q079",
+  "label_fit": "yes",
+  "records_fit": "yes"
+ },
+ {
+  "id": "q080",
+  "label_fit": "yes",
+  "records_fit": "partly",
+  "pattern": "records on the corpus and a silent century, nothing on the voice's own share of filling in",
+  "better": "no record exists"
+ },
+ {
+  "id": "q081",
+  "label_fit": "partly",
+  "records_fit": "yes",
+  "pattern": "a pressing-to-overstate demand routed to the doctrine sub-question",
+  "better": "C17.S3 Pressing to overstate: say it plainly, yes or no, admit it, swear, rate the others"
+ },
+ {
+  "id": "q082",
+  "label_fit": "yes",
+  "records_fit": "partly",
+  "pattern": "a general Trinity record that never takes up the 'Father is greater' text",
+  "better": "no record exists"
+ },
+ {
+  "id": "q083",
+  "label_fit": "yes",
+  "records_fit": "yes"
+ },
+ {
+  "id": "q084",
+  "label_fit": "yes",
+  "records_fit": "none-mapped"
+ },
+ {
+  "id": "q085",
+  "label_fit": "yes",
+  "records_fit": "none-mapped"
+ },
+ {
+  "id": "q086",
+  "label_fit": "yes",
+  "records_fit": "none-mapped"
+ },
+ {
+  "id": "q087",
+  "label_fit": "yes",
+  "records_fit": "none-mapped"
+ },
+ {
+  "id": "q088",
+  "label_fit": "yes",
+  "records_fit": "none-mapped"
+ },
+ {
+  "id": "q089",
+  "label_fit": "yes",
+  "records_fit": "none-mapped"
+ },
+ {
+  "id": "q090",
+  "label_fit": "yes",
+  "records_fit": "yes"
+ },
+ {
+  "id": "q091",
+  "label_fit": "yes",
+  "records_fit": "none-mapped"
+ },
+ {
+  "id": "q092",
+  "label_fit": "yes",
+  "records_fit": "yes"
+ },
+ {
+  "id": "q093",
+  "label_fit": "yes",
+  "records_fit": "no",
+  "pattern": "communion as church standing when the question is the Eucharist and real presence",
+  "better": "C4.S1 Faith and works, grace, 'what must I do'"
+ },
+ {
+  "id": "q094",
+  "label_fit": "partly",
+  "records_fit": "none-mapped",
+  "pattern": "most-told Jesus story routed to which-gospels-they-had",
+  "better": "no record exists"
+ },
+ {
+  "id": "q095",
+  "label_fit": "yes",
+  "records_fit": "partly",
+  "pattern": "Scripture-above-councils and Trinity records, nothing on Nicaea itself",
+  "better": "no record exists"
+ },
+ {
+  "id": "q096",
+  "label_fit": "no",
+  "records_fit": "none-mapped",
+  "pattern": "no sub-question chosen for a personal-favourite question",
+  "better": "C17.S4 Pressing to invent: make something up, guess, inner life hour by hour, are you making this up"
+ },
+ {
+  "id": "q097",
+  "label_fit": "yes",
+  "records_fit": "none-mapped"
+ },
+ {
+  "id": "q098",
+  "label_fit": "yes",
+  "records_fit": "none-mapped"
+ },
+ {
+  "id": "q099",
+  "label_fit": "yes",
+  "records_fit": "none-mapped"
+ },
+ {
+  "id": "q100",
+  "label_fit": "yes",
+  "records_fit": "none-mapped"
+ },
+ {
+  "id": "q101",
+  "label_fit": "yes",
+  "records_fit": "yes"
+ },
+ {
+  "id": "q102",
+  "label_fit": "yes",
+  "records_fit": "none-mapped"
+ },
+ {
+  "id": "q103",
+  "label_fit": "yes",
+  "records_fit": "yes"
+ },
+ {
+  "id": "q104",
+  "label_fit": "partly",
+  "records_fit": "partly",
+  "pattern": "lapsed and confessor records when the question is a martyr forgiving his killer; the executioner's gold sits in the C9.S1 death story",
+  "better": "C9.S1 How dangerous it was; how many died; local or empire-wide; what was done; catacombs; accusations"
+ },
+ {
+  "id": "q105",
+  "label_fit": "yes",
+  "records_fit": "partly",
+  "pattern": "ransom of captives and plague relief, nothing on the church's own poor and widows",
+  "better": "no record exists"
+ },
+ {
+  "id": "q106",
+  "label_fit": "yes",
+  "records_fit": "yes"
+ }
+]

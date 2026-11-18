@@ -1,0 +1,44 @@
+[
+ {
+  "finding_id": "RP-B1",
+  "action": "fixed",
+  "what": "Dropped the augustine-of-hippo concerns on latin-pastoral-congregational-christianity--the-reformed-cities-zurich-and-geneva (concerns array now 41). Augustine's legacy sentence on Calvin stays and still names the link.",
+  "reason": "Coordinator ruling: the link goes to john-calvin, whose own words it quotes."
+ },
+ {
+  "finding_id": "RP-S1",
+  "action": "fixed",
+  "what": "longDescription now says 'In September 386 he sat in the garden of the house where he lodged in Milan. A child's voice from a nearby house chanted \"Take up and read\"'. why says 'in a garden in Milan'. The garden is cited to Confessions VIII.8 (npnf101 12800-12801) and the voice to VIII.12 (13107-13110), both Documented. Schaff is kept only for 'September 386' (Widely Accepted). The old 'Take, read' wording is also corrected to the translation's 'Take up and read'.",
+  "reason": "The primary text overrides Schaff's Cassiciacum slip."
+ },
+ {
+  "finding_id": "RP-S5",
+  "action": "fixed",
+  "what": "imperial-juridical-christianity--jovinian is regraded Inferential-Thin, and its 'not held here' line is kept. Siricius Letter 7 and Ambrose Letter 42 were already on wants. For consistency, the two Jovinian-page fact rows resting only on the editors' summaries (the Rome and Milan synods; Ambrose's reply to Siricius) are also Inferential-Thin, and the prose now says 'By the editors' account' / 'Their editors report'. The flag text is updated.",
+  "reason": "Coordinator ruling; the same evidence should carry the same grade on the page as on the link."
+ },
+ {
+  "finding_id": "RP-M1",
+  "action": "fixed",
+  "what": "The consecration fact row is re-cited to npnf210 964-966 ('Eight days later, December 7, a.d. 374, he was consecrated Bishop.').",
+  "reason": "The old line 597 was Eudoxius's consecration."
+ },
+ {
+  "finding_id": "RP-M11",
+  "action": "fixed",
+  "what": "Ambrose's longDescription gains a paragraph: 'He also judged teachers. About 390, by his editor's account, he and a synod at Milan joined Rome's sentence on the monk Jovinian. In a letter to Vercelli he attacked two monks who said there is \"no merit in abstinence\".' The relationsSummary names the sentence on Jovinian. Fact rows: Inferential-Thin for the synod reply, Documented for Letter 63.7. The link stays on ambrosian-milan-standalone with concerns ambrose-of-milan.",
+  "reason": "Coordinator ruling: the link is his, so his page names it (two-way check)."
+ },
+ {
+  "finding_id": "RP-M14",
+  "action": "fixed",
+  "what": "Jovinian is now status 'Pre-Survey Candidate', chip and glyph psc, statusWord 'Told within no tradition'. The statusDescription keeps why his record is thin (only his opponents' report). The flag is rewritten (pending Mark; same convention as Peter the Iberian).",
+  "reason": "Coordinator ruling. P2 must set Peter's statusWord to 'Told within no tradition' to match; his is currently 'Known through his own disciples'."
+ },
+ {
+  "finding_id": "RP-M15",
+  "action": "fixed",
+  "what": "Cut the templated first paragraph ('X's place on the map is within Y ... Here the man himself is in view') from Augustine, Cyprian, Ambrose and Jerome. Each page now opens on the person ('Augustine was born at Tagaste in 354', 'Cyprian was trained as a rhetorician', 'His father held high office in Gaul', 'Jerome was born at Stridon'). Irenaeus's first paragraph now opens on Polycarp and adds a sourced line (AH III.3.4: Polycarp 'always taught the things which he had learned from the apostles'). Jovinian's first paragraph is kept: it is the required plain statement 'known only through Jerome and Ambrose', in its own words, and not the template.",
+  "reason": "Each relationsSummary already states the home ('He is told within ...'), so the opening paragraph only repeated it."
+ }
+]

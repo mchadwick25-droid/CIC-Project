@@ -20,6 +20,7 @@ work: 'To the Knights of the Teutonic Order: An Exhortation That They Lay Aside 
 edition: (1523), intro./trans. Lambert, vol. III; vendored as cic/texts/luther_works-v3-selected_various1930.txt
 citation: 'Luther, To the Knights of the Teutonic Order: An Exhortation That They Lay Aside False Chastity and Take Upon Them the True Chastity of Wedlock (1523), intro./trans. Lambert, vol. III'
 kind: vendored
+shelf_row: luther_works-v3-selected_various1930--to-the-knights-of-the-teutonic-order
 rights_status: "Vendored; rights basis recorded in this world's own Source Acquisition Manifest, not independently re-checked at the rights level"
 attribution_status: attributed
 discovery_channel: builder-direct-read; Source Registry row 24; v3 file; 2026-09-15

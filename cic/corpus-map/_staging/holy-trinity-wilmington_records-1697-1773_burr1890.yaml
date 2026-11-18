@@ -1,0 +1,11 @@
+source_file: holy-trinity-wilmington_records-1697-1773_burr1890.txt
+assignments:
+- row_id: holy-trinity-wilmington_records-1697-1773_burr1890--records-of-holy-trinity-1697-1786
+  work: 'The Records of Holy Trinity (Old Swedes) Church, Wilmington, tr. Burr (Wilmington, 1890)'
+  author: holy-trinity-wilmington
+  locus: 'the records written from 1697 to 1786, from about OCR line 395; add 12 to OCR line numbers for this file''s own'
+  atlas_ids:
+  - swedish-lutherans-of-new-sweden
+  role: tradition
+  confidence: provisional
+  note: 'The congregation''s own records in an English translation of 1890. The records to 1786 fall inside this entry''s window; those of 1787-1810 have no entry yet.'

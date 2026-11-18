@@ -1,0 +1,26 @@
+source_file: iglesia-filipina-independiente_documentos-interesantes-spa_1906.txt
+assignments:
+- row_id: iglesia-filipina-independiente_documentos-interesantes-spa_1906--documentos-interesantes-de-la-iglesia-filipina-independiente
+  work: Documentos interesantes de la Iglesia filipina independiente
+  author: iglesia-filipina-independiente
+  locus: life of Gregorio Aglipay signed F. B. at lines 49-182; documents signed by Aglípay at lines 219-1818; the
+    rest not mapped
+  atlas_ids:
+  - philippine-catholicism-gomburza-to-aglipay
+  role: tradition
+  confidence: provisional
+  language: spa
+  date:
+    start: 1906
+    end: 1906
+    source: 'the dated preface at line 183 of this file (''Manila, I. F., Enero 1906.''), with which the library
+      catalogue record of the item agrees (MARC 260: ''Manila, Imp. Fajardo y c.a, 1906.''); the title page cannot
+      be read in the OCR, and the title and publisher in this header are from the catalogue record'
+    formation_confidence: Documented
+  edition_date:
+    year: 1906
+    source: 'the dated preface at line 183 of this file (''Manila, I. F., Enero 1906.''), with which the library
+      catalogue record of the item agrees (MARC 260: ''Manila, Imp. Fajardo y c.a, 1906.''); the title page cannot
+      be read in the OCR, and the title and publisher in this header are from the catalogue record'
+    formation_confidence: Documented
+  note: 'Era 9 row 280, Gregorio Aglipay: documents of the Iglesia Filipina Independiente.'

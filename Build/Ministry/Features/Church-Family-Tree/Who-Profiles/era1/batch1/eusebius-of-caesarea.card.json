@@ -1,0 +1,80 @@
+{
+  "name": "Eusebius of Caesarea",
+  "otherNames": [
+    "Eusebius Pamphili"
+  ],
+  "knownFor": "Bishop of Caesarea in Palestine who wrote the first history of the church and a Life of Constantine.",
+  "dates": "About 260 to 339",
+  "place": "Caesarea in Palestine",
+  "tradition": "Palestinian church",
+  "role": "Bishop and church historian",
+  "briefLength": "about 2 minutes 30 seconds",
+  "keyWorks": [
+    {
+      "title": "Church History",
+      "about": "the church from Christ to his own day, built from the documents he could find"
+    },
+    {
+      "title": "Martyrs of Palestine",
+      "about": "the persecution he lived through"
+    },
+    {
+      "title": "Life of Constantine",
+      "about": "the emperor he knew, with the story of the cross of light"
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "He has long been called the Father of Church History. Arthur McGiffert, who translated him, says the title is deserved.",
+      "Socrates of Constantinople built his own account of the Council of Nicaea on Eusebius's words."
+    ],
+    "remembered": [
+      "Sabinus, bishop of the Macedonians at Heraclea in Thrace, scorned the Council of Nicaea but still called Eusebius a trustworthy witness, Socrates of Constantinople says."
+    ]
+  },
+  "uncertain": [
+    "Potamo, a bishop from Heraclea in Egypt, charged at Tyre in 335 that Eusebius had escaped prison by some unlawful promise. Epiphanius of Salamis tells it, writing decades later on the side of Athanasius of Alexandria. Arthur McGiffert, who translated Eusebius, notes that Potamo only guessed, and Athanasius says only that Eusebius was \"accused of sacrificing.\"",
+    "How far he truly accepted the Nicene wording is argued. His own letter says he accepted it only after asking what it meant. Eustathius of Antioch said he twisted it.",
+    "Constantine's vision of the cross rests on what the emperor told Eusebius under oath. Ernest Richardson, who translated the Life of Constantine, notes that the account was doubted from the first."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "Church History; Life of Constantine; Oration in Praise of Constantine",
+        "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+        "language": "English"
+      },
+      {
+        "title": "Letter to the people of his diocese, on the Council of Nicaea",
+        "file": "cic/texts/npnf204_athanasius-select-works-letters.xml",
+        "language": "English"
+      },
+      {
+        "title": "Life of Constantine (Greek)",
+        "file": "cic/texts/eusebius_werke-bd1-vita-constantini-oratio-ad-sanctos-grc_heikel1902.txt",
+        "language": "Greek"
+      },
+      {
+        "title": "Church History, Books 6 to 10 (Greek)",
+        "file": "cic/texts/eusebius_werke-bd2-2-historia-ecclesiastica-vi-x-rufinus-x-xi-grc-lat_schwartz-mommsen1908.txt",
+        "language": "Greek and Latin"
+      }
+    ],
+    "about": [
+      {
+        "title": "Church History, Book 1, chapters 8 and 23",
+        "author": "Socrates of Constantinople",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml"
+      },
+      {
+        "title": "Panarion 68.8 (Latin translation)",
+        "author": "Epiphanius of Salamis",
+        "date": null,
+        "language": "Latin",
+        "file": "cic/texts/epiphanius_panarion-haer-48-69-corpus-haereseologicum-t2-pars-posterior-grc-lat_oehler1860.txt"
+      }
+    ]
+  }
+}

@@ -1,8 +1,6 @@
 (function (root) {
   "use strict";
 
-  // Shows the Go Deeper parts of the privacy page only when Go Deeper is on,
-  // and swaps the one-job cookie paragraph for the two-job one.
   function apply(doc, config) {
     if (!config || config.enabled !== true) return false;
     var section = doc.getElementById("go-deeper");
@@ -15,7 +13,6 @@
     return true;
   }
 
-  // The account parts of the page, shown only when accounts are on. Independent of Go Deeper.
   var ACCOUNT_PARTS = [
     "accounts-optional", "accounts-holds", "accounts-signin", "accounts-back", "accounts-delete",
     "accounts-review", "accounts-services", "accounts-retention",

@@ -25,5 +25,6 @@ discovery_channel: cic/texts/REGISTRY.yaml entry added 2026-09-25 (source-acquis
 external_ids: {}
 citation: John Calvin, Letters of John Calvin, Vol. II, ed. Jules Bonnet (Philadelphia - Presbyterian Board of Publication, 1858)
 kind: vendored
+shelf_row: calvin_letters-vol2_bonnet1858--letters-of-john-calvin-compiled-from-the-original
 ---
 First-hand letters from Calvin's Geneva years. Loci used in this world's records - letter CCLXXXV, To the Ministers of Switzerland, "Statement of the controversy with Bolsec regarding Election," Geneva, October 1551 (the Bolsec controversy); and, for the Perrin conflict, the letters the volume's table of contents lists under Amy Perrin (for example CLXIV, To Amy Perrin, and CLXXIII, To Farel). Both loci are directly present in the vendored file.

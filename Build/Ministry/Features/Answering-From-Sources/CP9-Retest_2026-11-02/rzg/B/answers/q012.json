@@ -1,0 +1,347 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "rzg.term.sola-scriptura"
+   ],
+   "sentence": "Yes: Scripture alone, not church tradition or a pope's decree, settled what we believed and how we governed our churches."
+  },
+  {
+   "record_ids": [
+    "rzg.term.sola-scriptura"
+   ],
+   "sentence": "Scripture alone did not mean each believer decided doctrine from personal study, with no authoritative church structure."
+  },
+  {
+   "record_ids": [
+    "rzg.witness.one-conviction-two-enactments",
+    "rzg.story.first-zurich-disputation"
+   ],
+   "sentence": "At Zurich, the council itself judged what the text had yielded and bound every priest in its territory."
+  },
+  {
+   "record_ids": [
+    "rzg.witness.one-conviction-two-enactments",
+    "rzg.term.catechism"
+   ],
+   "sentence": "At Geneva, doctrine was built up article by article and taught to everyone through the Catechism."
+  },
+  {
+   "record_ids": [
+    "rzg.witness.one-conviction-two-enactments"
+   ],
+   "sentence": "Who held the final word over church discipline, our two cities never agreed."
+  },
+  {
+   "record_ids": [
+    "rzg.quote.taught-better-from-scripture"
+   ],
+   "sentence": "Huldrych Zwingli set out his position: “I, Ulrich Zwingli, declare that I have preached the articles and opinions below in the good city of Zurich. I preached them as based on the Scriptures that are called inspired by God... Where my present understanding of these Scriptures is not correct, I will let myself be taught better. But I will be taught only from these same Scriptures.”"
+  },
+  {
+   "record_ids": [
+    "rzg.story.first-zurich-disputation"
+   ],
+   "sentence": "Six hundred people met in Zurich's Town Hall on 29 January 1523."
+  },
+  {
+   "record_ids": [
+    "rzg.story.first-zurich-disputation"
+   ],
+   "sentence": "The city council had summoned the meeting itself."
+  },
+  {
+   "record_ids": [
+    "rzg.story.first-zurich-disputation"
+   ],
+   "sentence": "Priests and laymen came from across the canton."
+  },
+  {
+   "record_ids": [
+    "rzg.story.first-zurich-disputation"
+   ],
+   "sentence": "Delegates from the bishop of Constance came as well."
+  },
+  {
+   "record_ids": [
+    "rzg.story.first-zurich-disputation"
+   ],
+   "sentence": "They met to test Zwingli's case against Scripture."
+  },
+  {
+   "record_ids": [
+    "rzg.story.first-zurich-disputation"
+   ],
+   "sentence": "Enemies of the new preaching mocked the gathering."
+  },
+  {
+   "record_ids": [
+    "rzg.story.first-zurich-disputation"
+   ],
+   "sentence": "They called it a \"tinker's day,\" and said that nothing but tinkers were attending."
+  },
+  {
+   "record_ids": [
+    "rzg.story.first-zurich-disputation"
+   ],
+   "sentence": "That mockery moved a Zurich schoolmaster named Erhart Hegenwald to write an account of the day."
+  },
+  {
+   "record_ids": [
+    "rzg.story.first-zurich-disputation"
+   ],
+   "sentence": "He had sat through the whole disputation."
+  },
+  {
+   "record_ids": [
+    "rzg.story.first-zurich-disputation"
+   ],
+   "sentence": "\"I was there myself and sat with them,\" he wrote, \"heard and understood and remembered all that was said there.\""
+  },
+  {
+   "record_ids": [
+    "rzg.story.first-zurich-disputation"
+   ],
+   "sentence": "When the arguments were finished, the council ruled for the reform."
+  },
+  {
+   "record_ids": [
+    "rzg.story.first-zurich-disputation"
+   ],
+   "sentence": "It ordered every priest in the canton to preach the same way."
+  }
+ ],
+ "citations": [
+  "rzg.quote.taught-better-from-scripture",
+  "rzg.story.first-zurich-disputation",
+  "rzg.term.catechism",
+  "rzg.term.sola-scriptura",
+  "rzg.witness.one-conviction-two-enactments"
+ ],
+ "group": "A",
+ "id": "q012",
+ "net_sentences": [
+  {
+   "draft": "Yes: Scripture alone, not church tradition or a pope's decree, settled what we believed and how we governed our churches [[rzg.term.sola-scriptura]] [[as:paraphrase]].",
+   "sentence": "Yes: Scripture alone, not church tradition or a pope's decree, settled what we believed and how we governed our churches.",
+   "tags": [
+    "rzg.term.sola-scriptura"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Scripture alone did not mean each believer decided doctrine from personal study, with no authoritative church structure [[rzg.term.sola-scriptura]] [[as:paraphrase]].",
+   "sentence": "Scripture alone did not mean each believer decided doctrine from personal study, with no authoritative church structure.",
+   "tags": [
+    "rzg.term.sola-scriptura"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "At Zurich, the council itself judged what the text had yielded and bound every priest in its territory [[rzg.witness.one-conviction-two-enactments]] [[rzg.story.first-zurich-disputation]] [[as:paraphrase]].",
+   "ratio": 0.9,
+   "sentence": "At Zurich, the council itself judged what the text had yielded and bound every priest in its territory.",
+   "tags": [
+    "rzg.witness.one-conviction-two-enactments",
+    "rzg.story.first-zurich-disputation"
+   ],
+   "verdict": "ok",
+   "why": "grounded 90% in own tagged records"
+  },
+  {
+   "draft": "At Geneva, doctrine was built up article by article and taught to everyone through the Catechism [[rzg.witness.one-conviction-two-enactments]] [[rzg.term.catechism]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "At Geneva, doctrine was built up article by article and taught to everyone through the Catechism.",
+   "tags": [
+    "rzg.witness.one-conviction-two-enactments",
+    "rzg.term.catechism"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "Who held the final word over church discipline, our two cities never agreed [[rzg.witness.one-conviction-two-enactments]] [[as:paraphrase]].",
+   "ratio": 0.44,
+   "sentence": "Who held the final word over church discipline, our two cities never agreed.",
+   "tags": [
+    "rzg.witness.one-conviction-two-enactments"
+   ],
+   "verdict": "ok",
+   "why": "grounded 44% in own tagged records"
+  },
+  {
+   "draft": "Huldrych Zwingli set out his position: [[quote:rzg.quote.taught-better-from-scripture]]",
+   "placed_quote": "rzg.quote.taught-better-from-scripture",
+   "sentence": "Huldrych Zwingli set out his position: “I, Ulrich Zwingli, declare that I have preached the articles and opinions below in the good city of Zurich. I preached them as based on the Scriptures that are called inspired by God... Where my present understanding of these Scriptures is not correct, I will let myself be taught better. But I will be taught only from these same Scriptures.”",
+   "tags": [
+    "rzg.quote.taught-better-from-scripture"
+   ],
+   "verdict": "ok",
+   "why": "quote placed by code, verbatim to its record"
+  },
+  {
+   "draft": "[[as:paraphrase]].",
+   "sentence": ".",
+   "tags": [],
+   "verdict": "ok",
+   "why": "no checkable claim - interpretive/connective framing"
+  },
+  {
+   "draft": "Six hundred people met in Zurich's Town Hall on 29 January 1523 [[rzg.story.first-zurich-disputation]].",
+   "placed_story": "rzg.story.first-zurich-disputation",
+   "sentence": "Six hundred people met in Zurich's Town Hall on 29 January 1523.",
+   "tags": [
+    "rzg.story.first-zurich-disputation"
+   ],
+   "verdict": "ok",
+   "why": "story placed by code, verbatim to its record"
+  },
+  {
+   "draft": "The city council had summoned the meeting itself [[rzg.story.first-zurich-disputation]].",
+   "placed_story": "rzg.story.first-zurich-disputation",
+   "sentence": "The city council had summoned the meeting itself.",
+   "tags": [
+    "rzg.story.first-zurich-disputation"
+   ],
+   "verdict": "ok",
+   "why": "story placed by code, verbatim to its record"
+  },
+  {
+   "draft": "Priests and laymen came from across the canton [[rzg.story.first-zurich-disputation]].",
+   "placed_story": "rzg.story.first-zurich-disputation",
+   "sentence": "Priests and laymen came from across the canton.",
+   "tags": [
+    "rzg.story.first-zurich-disputation"
+   ],
+   "verdict": "ok",
+   "why": "story placed by code, verbatim to its record"
+  },
+  {
+   "draft": "Delegates from the bishop of Constance came as well [[rzg.story.first-zurich-disputation]].",
+   "placed_story": "rzg.story.first-zurich-disputation",
+   "sentence": "Delegates from the bishop of Constance came as well.",
+   "tags": [
+    "rzg.story.first-zurich-disputation"
+   ],
+   "verdict": "ok",
+   "why": "story placed by code, verbatim to its record"
+  },
+  {
+   "draft": "They met to test Zwingli's case against Scripture [[rzg.story.first-zurich-disputation]].",
+   "placed_story": "rzg.story.first-zurich-disputation",
+   "sentence": "They met to test Zwingli's case against Scripture.",
+   "tags": [
+    "rzg.story.first-zurich-disputation"
+   ],
+   "verdict": "ok",
+   "why": "story placed by code, verbatim to its record"
+  },
+  {
+   "draft": "Enemies of the new preaching mocked the gathering [[rzg.story.first-zurich-disputation]].",
+   "placed_story": "rzg.story.first-zurich-disputation",
+   "sentence": "Enemies of the new preaching mocked the gathering.",
+   "tags": [
+    "rzg.story.first-zurich-disputation"
+   ],
+   "verdict": "ok",
+   "why": "story placed by code, verbatim to its record"
+  },
+  {
+   "draft": "They called it a \"tinker's day,\" and said that nothing but tinkers were attending [[rzg.story.first-zurich-disputation]].",
+   "placed_story": "rzg.story.first-zurich-disputation",
+   "sentence": "They called it a \"tinker's day,\" and said that nothing but tinkers were attending.",
+   "tags": [
+    "rzg.story.first-zurich-disputation"
+   ],
+   "verdict": "ok",
+   "why": "story placed by code, verbatim to its record"
+  },
+  {
+   "draft": "That mockery moved a Zurich schoolmaster named Erhart Hegenwald to write an account of the day [[rzg.story.first-zurich-disputation]].",
+   "placed_story": "rzg.story.first-zurich-disputation",
+   "sentence": "That mockery moved a Zurich schoolmaster named Erhart Hegenwald to write an account of the day.",
+   "tags": [
+    "rzg.story.first-zurich-disputation"
+   ],
+   "verdict": "ok",
+   "why": "story placed by code, verbatim to its record"
+  },
+  {
+   "draft": "He had sat through the whole disputation [[rzg.story.first-zurich-disputation]].",
+   "placed_story": "rzg.story.first-zurich-disputation",
+   "sentence": "He had sat through the whole disputation.",
+   "tags": [
+    "rzg.story.first-zurich-disputation"
+   ],
+   "verdict": "ok",
+   "why": "story placed by code, verbatim to its record"
+  },
+  {
+   "draft": "\"I was there myself and sat with them,\" he wrote, \"heard and understood and remembered all that was said there [[rzg.story.first-zurich-disputation]].\"",
+   "placed_story": "rzg.story.first-zurich-disputation",
+   "sentence": "\"I was there myself and sat with them,\" he wrote, \"heard and understood and remembered all that was said there.\"",
+   "tags": [
+    "rzg.story.first-zurich-disputation"
+   ],
+   "verdict": "ok",
+   "why": "story placed by code, verbatim to its record"
+  },
+  {
+   "draft": "When the arguments were finished, the council ruled for the reform [[rzg.story.first-zurich-disputation]].",
+   "placed_story": "rzg.story.first-zurich-disputation",
+   "sentence": "When the arguments were finished, the council ruled for the reform.",
+   "tags": [
+    "rzg.story.first-zurich-disputation"
+   ],
+   "verdict": "ok",
+   "why": "story placed by code, verbatim to its record"
+  },
+  {
+   "draft": "It ordered every priest in the canton to preach the same way [[rzg.story.first-zurich-disputation]].",
+   "placed_story": "rzg.story.first-zurich-disputation",
+   "sentence": "It ordered every priest in the canton to preach the same way.",
+   "tags": [
+    "rzg.story.first-zurich-disputation"
+   ],
+   "verdict": "ok",
+   "why": "story placed by code, verbatim to its record"
+  }
+ ],
+ "offered": [
+  "rzg.witness.one-conviction-two-enactments",
+  "rzg.term.sola-scriptura",
+  "rzg.term.catechism",
+  "rzg.term.sixty-seven-articles",
+  "rzg.story.first-zurich-disputation",
+  "rzg.quote.taught-better-from-scripture",
+  "rzg.gravity.scripture-sole-authority-disputation-catechesis",
+  "rzg.force.zwinglis-1519-preaching-sausage-affair",
+  "rzg.contested.anabaptist-schism-legitimacy"
+ ],
+ "raw_text": "Yes: Scripture alone, not church tradition or a pope's decree, settled what we believed and how we governed our churches [[rzg.term.sola-scriptura]] [[as:paraphrase]]. Scripture alone did not mean each believer decided doctrine from personal study, with no authoritative church structure [[rzg.term.sola-scriptura]] [[as:paraphrase]]. At Zurich, the council itself judged what the text had yielded and bound every priest in its territory [[rzg.witness.one-conviction-two-enactments]] [[rzg.story.first-zurich-disputation]] [[as:paraphrase]]. At Geneva, doctrine was built up article by article and taught to everyone through the Catechism [[rzg.witness.one-conviction-two-enactments]] [[rzg.term.catechism]] [[as:paraphrase]]. Who held the final word over church discipline, our two cities never agreed [[rzg.witness.one-conviction-two-enactments]] [[as:paraphrase]]. Huldrych Zwingli set out his position: [[quote:rzg.quote.taught-better-from-scripture]] [[as:paraphrase]]. Our sayings tell of the First Zurich Disputation: [[story:rzg.story.first-zurich-disputation]]\n",
+ "reply_shape": {
+  "placed": [
+   "rzg.story.first-zurich-disputation",
+   "rzg.quote.taught-better-from-scripture"
+  ],
+  "removed": [
+   {
+    "draft": "Our sayings tell of the First Zurich Disputation: [[story:rzg.story.first-zurich-disputation]]",
+    "sentence": "Our sayings tell of the First Zurich Disputation:",
+    "why": "introduction names someone the story does not"
+   }
+  ],
+  "repaired": [],
+  "story_lengths": {
+   "rzg.story.first-zurich-disputation": "full"
+  }
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": "C6.S4",
+ "text": "Yes: Scripture alone, not church tradition or a pope's decree, settled what we believed and how we governed our churches. Scripture alone did not mean each believer decided doctrine from personal study, with no authoritative church structure. At Zurich, the council itself judged what the text had yielded and bound every priest in its territory. At Geneva, doctrine was built up article by article and taught to everyone through the Catechism. Who held the final word over church discipline, our two cities never agreed. Huldrych Zwingli set out his position: “I, Ulrich Zwingli, declare that I have preached the articles and opinions below in the good city of Zurich. I preached them as based on the Scriptures that are called inspired by God... Where my present understanding of these Scriptures is not correct, I will let myself be taught better. But I will be taught only from these same Scriptures.”.\n\nSix hundred people met in Zurich's Town Hall on 29 January 1523. The city council had summoned the meeting itself. Priests and laymen came from across the canton. Delegates from the bishop of Constance came as well. They met to test Zwingli's case against Scripture.\n\nEnemies of the new preaching mocked the gathering. They called it a \"tinker's day,\" and said that nothing but tinkers were attending.\n\nThat mockery moved a Zurich schoolmaster named Erhart Hegenwald to write an account of the day. He had sat through the whole disputation. \"I was there myself and sat with them,\" he wrote, \"heard and understood and remembered all that was said there.\"\n\nWhen the arguments were finished, the council ruled for the reform. It ordered every priest in the canton to preach the same way.",
+ "voice_set_aside": false
+}

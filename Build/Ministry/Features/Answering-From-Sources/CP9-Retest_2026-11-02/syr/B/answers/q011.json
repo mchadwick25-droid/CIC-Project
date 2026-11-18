@@ -1,0 +1,164 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "syr.term.raza-shrara"
+   ],
+   "sentence": "They are missing the raza: in our reading, each word of Scripture is a symbol bound to the truth it carries."
+  },
+  {
+   "record_ids": [
+    "syr.term.raza-shrara"
+   ],
+   "sentence": "We call that truth the shrara."
+  },
+  {
+   "record_ids": [
+    "syr.term.raza-shrara"
+   ],
+   "sentence": "The symbol is bound to it, and no reader picks a stand-in at will."
+  },
+  {
+   "record_ids": [
+    "syr.quote.a-pearl-upon-the-palm"
+   ],
+   "sentence": "In today's English, Ephrem the Syrian says: “One day, my brothers, I picked up a pearl. In it I saw mysteries of the Kingdom, images and symbols of the Majesty; it became a fountain, and from it I drank mysteries of the Son. I set it, my brothers, on the palm of my hand so I could examine it. I went to look at it from one side, and it showed faces on every side.”"
+  },
+  {
+   "record_ids": [
+    "syr.dw.was-jesus-god"
+   ],
+   "sentence": "Our teachers warned against prying scrutiny into the Godhead, because they held that what God is, is better sung than dissected."
+  },
+  {
+   "record_ids": [
+    "syr.dw.was-jesus-god"
+   ],
+   "sentence": "Our sage did not give a philosopher's definition of Jesus, but a chain of Scripture's own names."
+  },
+  {
+   "record_ids": [
+    "syr.dw.was-jesus-god"
+   ],
+   "sentence": "So our native tongue for that faith was praise."
+  }
+ ],
+ "citations": [
+  "syr.dw.was-jesus-god",
+  "syr.quote.a-pearl-upon-the-palm",
+  "syr.term.raza-shrara"
+ ],
+ "group": "A",
+ "id": "q011",
+ "net_sentences": [
+  {
+   "draft": "They are missing the raza: in our reading, each word of Scripture is a symbol bound to the truth it carries [[syr.term.raza-shrara]][[as:paraphrase]].",
+   "sentence": "They are missing the raza: in our reading, each word of Scripture is a symbol bound to the truth it carries.",
+   "tags": [
+    "syr.term.raza-shrara"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "We call that truth the shrara [[syr.term.raza-shrara]][[as:paraphrase]].",
+   "sentence": "We call that truth the shrara.",
+   "tags": [
+    "syr.term.raza-shrara"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "The symbol is bound to it, and no reader picks a stand-in at will [[syr.term.raza-shrara]][[as:paraphrase]].",
+   "sentence": "The symbol is bound to it, and no reader picks a stand-in at will.",
+   "tags": [
+    "syr.term.raza-shrara"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Ephrem the Syrian wrote in his first Pearl hymn: [[quote:syr.quote.a-pearl-upon-the-palm]]",
+   "placed_quote": "syr.quote.a-pearl-upon-the-palm",
+   "sentence": "In today's English, Ephrem the Syrian says: “One day, my brothers, I picked up a pearl. In it I saw mysteries of the Kingdom, images and symbols of the Majesty; it became a fountain, and from it I drank mysteries of the Son. I set it, my brothers, on the palm of my hand so I could examine it. I went to look at it from one side, and it showed faces on every side.”",
+   "tags": [
+    "syr.quote.a-pearl-upon-the-palm"
+   ],
+   "verdict": "ok",
+   "why": "quote placed by code, verbatim to its record"
+  },
+  {
+   "draft": "Our teachers warned against prying scrutiny into the Godhead, because they held that what God is, is better sung than dissected [[syr.dw.was-jesus-god]][[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "Our teachers warned against prying scrutiny into the Godhead, because they held that what God is, is better sung than dissected.",
+   "tags": [
+    "syr.dw.was-jesus-god"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "Our sage did not give a philosopher's definition of Jesus, but a chain of Scripture's own names [[syr.dw.was-jesus-god]][[as:paraphrase]].",
+   "ratio": 0.88,
+   "sentence": "Our sage did not give a philosopher's definition of Jesus, but a chain of Scripture's own names.",
+   "tags": [
+    "syr.dw.was-jesus-god"
+   ],
+   "verdict": "ok",
+   "why": "grounded 88% in own tagged records"
+  },
+  {
+   "draft": "So our native tongue for that faith was praise [[syr.dw.was-jesus-god]][[as:paraphrase]].",
+   "sentence": "So our native tongue for that faith was praise.",
+   "tags": [
+    "syr.dw.was-jesus-god"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "What do you find dull or confusing in them?",
+   "sentence": "What do you find dull or confusing in them?",
+   "tags": [],
+   "verdict": "ok",
+   "why": "no checkable claim - interpretive/connective framing"
+  }
+ ],
+ "offered": [
+  "syr.dw.corpus-and-its-edges",
+  "syr.term.raza-shrara",
+  "syr.story.qyama-morning",
+  "syr.story.choirs-tradition",
+  "syr.quote.a-pearl-upon-the-palm",
+  "syr.dw.was-jesus-god",
+  "syr.story.jacob-nicaea",
+  "syr.quote.aphrahat-sure-thing"
+ ],
+ "raw_text": "They are missing the raza: in our reading, each word of Scripture is a symbol bound to the truth it carries [[syr.term.raza-shrara]][[as:paraphrase]]. We call that truth the shrara [[syr.term.raza-shrara]][[as:paraphrase]]. The symbol is bound to it, and no reader picks a stand-in at will [[syr.term.raza-shrara]][[as:paraphrase]]. Ephrem the Syrian wrote in his first Pearl hymn: [[quote:syr.quote.a-pearl-upon-the-palm]]\nOur teachers warned against prying scrutiny into the Godhead, because they held that what God is, is better sung than dissected [[syr.dw.was-jesus-god]][[as:paraphrase]]. Our sage did not give a philosopher's definition of Jesus, but a chain of Scripture's own names [[syr.dw.was-jesus-god]][[as:paraphrase]]. So our native tongue for that faith was praise [[syr.dw.was-jesus-god]][[as:paraphrase]]. What do you find dull or confusing in them?\n",
+ "reply_shape": {
+  "placed": [
+   "syr.quote.a-pearl-upon-the-palm"
+  ],
+  "removed": [],
+  "repaired": [
+   {
+    "draft": "Ephrem the Syrian wrote in his first Pearl hymn: [[quote:syr.quote.a-pearl-upon-the-palm]]",
+    "lead_in": "In today's English, Ephrem the Syrian says",
+    "unresolved": [
+     {
+      "detail": "wrote",
+      "kind": "genre"
+     }
+    ],
+    "why": "lead-in stated a detail no source document supports; replaced by code's"
+   }
+  ]
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": "C5.S2",
+ "text": "They are missing the raza: in our reading, each word of Scripture is a symbol bound to the truth it carries. We call that truth the shrara. The symbol is bound to it, and no reader picks a stand-in at will. In today's English, Ephrem the Syrian says: “One day, my brothers, I picked up a pearl. In it I saw mysteries of the Kingdom, images and symbols of the Majesty; it became a fountain, and from it I drank mysteries of the Son. I set it, my brothers, on the palm of my hand so I could examine it. I went to look at it from one side, and it showed faces on every side.”\n\nOur teachers warned against prying scrutiny into the Godhead, because they held that what God is, is better sung than dissected. Our sage did not give a philosopher's definition of Jesus, but a chain of Scripture's own names. So our native tongue for that faith was praise. What do you find dull or confusing in them?",
+ "voice_set_aside": false
+}

@@ -1,0 +1,11 @@
+source_file: birgitta_revelationes-libri-vi-viii-tomus-2-lat_duranti1628.txt
+assignments:
+- row_id: birgitta_revelationes-libri-vi-viii-tomus-2-lat_duranti1628--birgitta-of-sweden-revelations-books-vi-viii-with-the-rule-and-the-sermo-angelicus-duranti-1628-vol-ii
+  work: 'Birgitta of Sweden, Revelations, Books VI-VIII, with the Rule and the Sermo angelicus (Duranti 1628, vol. II)'
+  author: birgitta
+  locus: 'OCR lines 113-44176; add 12 to OCR line numbers'
+  atlas_ids:
+  - latin-papal-church-avignon-to-lateran-v
+  role: tradition
+  confidence: provisional
+  note: 'The Latin of the printed canon, with a seventeenth-century bishop''s notes between the chapters. The prologue to Book VIII (about OCR lines 28565-30490) is headed as Alphonsus''s, not hers.'

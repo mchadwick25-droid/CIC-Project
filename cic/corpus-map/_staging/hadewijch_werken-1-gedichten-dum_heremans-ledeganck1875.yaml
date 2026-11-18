@@ -1,0 +1,11 @@
+source_file: hadewijch_werken-1-gedichten-dum_heremans-ledeganck1875.txt
+assignments:
+- row_id: hadewijch_werken-1-gedichten-dum_heremans-ledeganck1875--hadewijch-poems-middle-dutch-heremans-and-ledeganck-1875
+  work: 'Hadewijch, poems, Middle Dutch (Heremans and Ledeganck 1875)'
+  author: hadewijch
+  locus: 'whole text; dbnl''s page markers give the printed pages'
+  atlas_ids:
+  - the-beguines
+  role: tradition
+  confidence: provisional
+  note: 'Her own poems in her own Middle Dutch, from the two Brussels manuscripts. No translation is held, and her prose is not in this volume.'

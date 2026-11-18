@@ -1,0 +1,3817 @@
+{
+ "sweep": "P2-G1",
+ "date": "2026-11-08",
+ "candidates": [
+  {
+   "number": 1,
+   "group": 1,
+   "group_title": "The Cyrilline duplicate and the church of Alexandria",
+   "name": "The Cyrilline duplicate",
+   "kind": "movement",
+   "likely_era": 2,
+   "likely_lane": "4 Africa",
+   "dates_hint": "I.14 reads 'from 451' (data 451-500); II.1 reads 451-642. I.14's shelf holds Cyril's own works and the acts of Ephesus 431 and 449.",
+   "citations": [
+    {
+     "file": "Build/Ministry/Features/Church-Family-Tree/Open-Gaps.md",
+     "lines": "133",
+     "quote": "Two Egyptian Miaphysite entries from the same year (2026-11-07)."
+    },
+    {
+     "file": "cic/corpus-map/_staging/npnf214_seven-ecumenical-councils.yaml",
+     "lines": "306-307",
+     "quote": "a near-duplicate era-3 id (cyrilline-miaphysite-egyptian-christianity)"
+    },
+    {
+     "file": "cic/corpus-map/cyrilline-miaphysite-egyptian-tradition.yaml",
+     "lines": "180",
+     "quote": "The opponent's own words, including the twelve counter-anathemas against Cyril"
+    },
+    {
+     "file": "cic-website/data/world-census.json",
+     "lines": "meta.identifiers",
+     "quote": "Once published, an ID is never changed or reused."
+    }
+   ],
+   "why_no_home": "duplicate",
+   "why_detail": "I.14's census text, links and voices all describe the church after 451, the same church as II.1; only its shelf (Cyril, Ephesus 431 and 449, Nestorius, Leo) sits before 451.",
+   "nearest_census": [
+    "cyrilline-miaphysite-egyptian-tradition",
+    "cyrilline-miaphysite-egyptian-christianity",
+    "alexandria-catechetical"
+   ],
+   "sources": {
+    "vendored": [
+     "cyril-alexandria_five-tomes-against-nestorius-scholia-christ-is-one_pusey1881.txt",
+     "cyril-alexandria_three-epistles-grc-eng_pusey1872.txt",
+     "council-of-ephesus-449_akten-der-ephesinischen-synode-449-deu_flemming-hoffmann1917.txt",
+     "council-of-ephesus-449_second-synod-of-ephesus-syriac-acts_perry1881.txt",
+     "npnf214_seven-ecumenical-councils.xml",
+     "nestorius_bazaar-of-heracleides_driver-hodgson1925.txt"
+    ],
+    "wanted": []
+   },
+   "recommendation": "retire as duplicate",
+   "merge_target": "cyrilline-miaphysite-egyptian-christianity",
+   "reason": "Option C: retire I.14 into II.1 with a redirect and add a church-of-Alexandria entry to 451 that takes over the pre-451 shelf. It closes \"No entry for the church of Alexandria, 4th-5th century\" (Open-Gaps, 2026-11-07) and \"Two Egyptian Miaphysite entries from the same year\" (Open-Gaps, 2026-11-07) together and keeps every ID promise.",
+   "strength": "strong",
+   "options": [
+    {
+     "option": "A",
+     "name": "Retire I.14 into II.1 with a redirect and move its links",
+     "effect": "Uses the unused retiredMovements mechanism (validator needs id, date, reason, redirectTo). I.14's three links (continued as II.1, broke with imperial-juridical-christianity, desert-monasticism gave rise to I.14) are retired and re-made on II.1, the first one simply dropping. The tree page, its audio entries and its index card go or redirect. totalEntries drops by one and the Deferred by Step 0 count by one. Closes \"Two Egyptian Miaphysite entries from the same year\" (Open-Gaps, 2026-11-07) only. The pre-451 shelf (Cyril's letters and Tomes, Ephesus 431, Ephesus 449, Nestorius) would land in II.1, whose window opens at 451, so those rows would be context at best. \"No entry for the church of Alexandria, 4th-5th century\" (Open-Gaps, 2026-11-07) stays open: Aksum's conversion-era entry still calls itself a child of an Alexandria no entry holds."
+    },
+    {
+     "option": "B",
+     "name": "Keep I.14's ID and re-scope it to the pre-451 church its shelf holds",
+     "effect": "Breaks the permanence promise. The identifiers statement says an ID is never changed or reused. It allows a rename (the old address redirects) but a rename keeps the same referent. Re-scoping makes the published ID mean a different church: its slug says 'miaphysite' (a post-451 label), its tree page has been public with post-451 text, and its three links all rest on 451-457 events (Chalcedon, Proterius, Timothy Aelurus), so each link would have to be retired and the page rewritten under the same address. Dates would move from 451-500 to a period before 451 and the era-2 'continued as' to II.1 would still need a new reason. It does close \"No entry for the church of Alexandria, 4th-5th century\" (Open-Gaps, 2026-11-07) and \"Two Egyptian Miaphysite entries from the same year\" (Open-Gaps, 2026-11-07), but by reusing an ID."
+    },
+    {
+     "option": "C",
+     "name": "Retire I.14 into II.1 with a redirect, and add a new entry for the church of Alexandria to 451 that takes over the shelf",
+     "effect": "Does A's retirement (links, page, narration and index handled as in A) and adds one new era-2, lane 4 Africa entry with a new ID. It takes the pre-451 rows (Cyril, Ephesus 431 and 449, Nestorius, Leo, Theodoret, Chalcedon sessions I-III). Gives Aksum's conversion-era entry the parent its text names, closing \"No entry for the church of Alexandria, 4th-5th century\" (Open-Gaps, 2026-11-07), and the new entry continues as II.1, closing \"Two Egyptian Miaphysite entries from the same year\" (Open-Gaps, 2026-11-07). Cost: one new entry to write and source, and a boundary to draw against alexandria-catechetical (c. 150-400, Built and Live), which already shelves about 25 Athanasius and Peter of Alexandria works as tradition; copy or leave those rows there, do not move them off a live entry. The new entry should not carry the 'Cyrilline/Miaphysite' name, which is a post-451 label."
+    }
+   ]
+  },
+  {
+   "number": 2,
+   "group": 1,
+   "group_title": "The Cyrilline duplicate and the church of Alexandria",
+   "name": "The church of Alexandria, 4th-5th century (Athanasius to Dioscorus)",
+   "kind": "movement",
+   "likely_era": 2,
+   "likely_lane": "4 Africa",
+   "dates_hint": "Open-Gaps gives 'Athanasius to Dioscorus'; I.14's shelf runs Ephesus 431 to Chalcedon 451; Athanasius's Festal Letter 39 is 367 on the desert shelf.",
+   "citations": [
+    {
+     "file": "Build/Ministry/Features/Church-Family-Tree/Open-Gaps.md",
+     "lines": "128",
+     "quote": "No entry for the church of Alexandria, 4th-5th century (2026-11-07)."
+    },
+    {
+     "file": "Build/Ministry/Operations/Audits/2026-11-07_links-era-2/Drafting_Record.json",
+     "lines": "escalations (group A)",
+     "quote": "the census has no entry for the church (see) of Alexandria in the fourth and fifth centuries"
+    }
+   ],
+   "why_no_home": "missing",
+   "why_detail": "The census holds the catechetical school (c. 150-400) and the post-451 church, nothing for the see of Athanasius and Cyril; Aksum's conversion-era entry calls itself its child.",
+   "nearest_census": [
+    "alexandria-catechetical",
+    "cyrilline-miaphysite-egyptian-tradition",
+    "aksumite-christianity-conversion-era",
+    "desert-monasticism"
+   ],
+   "sources": {
+    "vendored": [
+     "npnf204_athanasius-select-works-letters.xml",
+     "cyril-alexandria_five-tomes-against-nestorius-scholia-christ-is-one_pusey1881.txt",
+     "npnf214_seven-ecumenical-councils.xml",
+     "npnf202_socrates-sozomen-ecclesiastical-histories.xml"
+    ],
+    "wanted": []
+   },
+   "recommendation": "add",
+   "reason": "Fills the 312-451 hole between the school and the post-451 church; only worth doing as option C of the Cyrilline duplicate, otherwise it overlaps I.14.",
+   "strength": "strong"
+  },
+  {
+   "number": 3,
+   "group": 2,
+   "group_title": "New movements recommended",
+   "name": "Melitian schism",
+   "kind": "movement",
+   "likely_era": 2,
+   "likely_lane": "4 Africa",
+   "dates_hint": "Peter's canons 306 are its 'immediate background'; Pageus/Hathor papyri 330s-340s with a dated contract of 334 (REGISTRY note)",
+   "citations": [
+    {
+     "file": "cic/corpus-map/_staging/anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.yaml",
+     "lines": "356",
+     "quote": "Melitian schism, which has no census entry; noted."
+    },
+    {
+     "file": "cic/corpus-map/_staging/anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.yaml",
+     "lines": "460",
+     "quote": "(no census entry; noted)"
+    },
+    {
+     "file": "Build/worlds/alx/Review-Artifacts/Unused_Assigned_Corpus_Finding_Round1_Review.md",
+     "lines": "221",
+     "quote": "The Melitian schism has no census entry."
+    },
+    {
+     "file": "cic/texts/REGISTRY.yaml",
+     "lines": "2327",
+     "quote": "bell_jews-christians-egypt-meletian-papyri_1924.txt"
+    }
+   ],
+   "why_no_home": "missing",
+   "why_detail": "A rival Egyptian hierarchy with its own period and its own papyri; no entry covers it (the catechetical school and the post-451 church both miss it).",
+   "nearest_census": [
+    "alexandria-catechetical",
+    "desert-monasticism",
+    "donatism",
+    "novatianism"
+   ],
+   "sources": {
+    "vendored": [
+     "bell_jews-christians-egypt-meletian-papyri_1924.txt",
+     "npnf204_athanasius-select-works-letters.xml",
+     "anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml"
+    ],
+    "wanted": []
+   },
+   "recommendation": "add",
+   "reason": "Fills a real Egyptian gap with the Meletians' own papyri vendored (Bell 1924, Part II); sits beside the Alexandria church entry and the desert, and is the lesser case if Mark adds the Alexandria entry and wants it told inside it.",
+   "strength": "strong"
+  },
+  {
+   "number": 4,
+   "group": 2,
+   "group_title": "New movements recommended",
+   "name": "Luciferians",
+   "kind": "movement",
+   "likely_era": 2,
+   "likely_lane": "5 Latin West & Catholicism",
+   "dates_hint": "Lucifer's exile pamphlets 355-361 and the Luciferian Libellus precum 383-384 (README)",
+   "citations": [
+    {
+     "file": "cic/corpus-map/_staging/npnf206_jerome-principal-works.yaml",
+     "lines": "130",
+     "quote": "Luciferians themselves (a Nicene rigorist schism) have no census entry"
+    },
+    {
+     "file": "cic/texts/README.md",
+     "lines": "1980",
+     "quote": "the Luciferian Libellus precum of Faustinus and Marcellinus (383-384)"
+    },
+    {
+     "file": "cic/texts/README.md",
+     "lines": "2590",
+     "quote": "The hard-line Nicene dissent of 355-361 in its own words."
+    }
+   ],
+   "why_no_home": "missing",
+   "why_detail": "A hard-line Nicene schism that refused the settlement the Gallic bishops made; only a context note on gallic-nicene-episcopate touches it.",
+   "nearest_census": [
+    "gallic-nicene-episcopate",
+    "homoian-arian-christianity",
+    "imperial-juridical-christianity"
+   ],
+   "sources": {
+    "vendored": [
+     "lucifer-cagliari_opuscula-lat_hartel1886-csel14.txt",
+     "collectio-avellana_epistulae-imperatorum-pontificum-pars1-lat_guenther1895-csel35.txt",
+     "npnf206_jerome-principal-works.xml"
+    ],
+    "wanted": []
+   },
+   "recommendation": "add",
+   "reason": "A distinct body with its own period and its own voice vendored (Lucifer's pamphlets, the Libellus); Jerome's Dialogue against them is vendored in NPNF 6.",
+   "strength": "strong"
+  },
+  {
+   "number": 5,
+   "group": 2,
+   "group_title": "New movements recommended",
+   "name": "New France Jesuit mission (Huron and Algonquin Christians, 1610-1650)",
+   "kind": "movement",
+   "likely_era": 7,
+   "likely_lane": "5 Latin West & Catholicism",
+   "dates_hint": "1610-1650 (Relations vols. 1-35, per the volume headers)",
+   "citations": [
+    {
+     "file": "Build/worlds/_cross-world/dossiers/mission-born-christianities-kirishitan-japan-kon_Source_Readiness_Dossier.md",
+     "lines": "65",
+     "quote": "New France, 1610–1650. Same time, a different region that this census entry does not name"
+    }
+   ],
+   "why_no_home": "missing",
+   "why_detail": "The Society of Jesus entry mentions Canada and holds the Relations as tradition, but no mission entry names New France; the mission entries cover Japan, Kongo, China and New Spain and the Andes.",
+   "nearest_census": [
+    "the-society-of-jesus",
+    "mission-born-christianities-kirishitan-japan-kon",
+    "new-spain-and-andes-mission-born-christianity"
+   ],
+   "sources": {
+    "vendored": [
+     "jesuit-relations_thwaites-v01-fra-eng_1896-1901.txt (through v35, 35 volumes)"
+    ],
+    "wanted": []
+   },
+   "recommendation": "add",
+   "reason": "Fills the missing region among the per-region mission entries; 35 vendored volumes of its own record. The close call: the Jesuit entry already stages these volumes, so the entry would tell the converts' side, not the order's.",
+   "strength": "moderate"
+  },
+  {
+   "number": 6,
+   "group": 2,
+   "group_title": "New movements recommended",
+   "name": "Swedish Lutheran congregations on the Delaware (New Sweden)",
+   "kind": "movement",
+   "likely_era": 8,
+   "likely_lane": "6 Protestant & Evangelical",
+   "dates_hint": "colony of 1638; history written 1759 (Acrelius file)",
+   "citations": [
+    {
+     "file": "Build/worlds/_cross-world/dossiers/radical-pietism-and-the-brethren-dunkers-ephrata_Source_Readiness_Dossier.md",
+     "lines": "83",
+     "quote": "Acrelius's History of New Sweden is that community's own record; the census has no entry for it."
+    },
+    {
+     "file": "Build/worlds/_cross-world/dossiers/the-moravian-church-at-herrnhut_Source_Readiness_Dossier.md",
+     "lines": "114",
+     "quote": "by its subject the Swedish Lutherans on the Delaware, who have no census entry"
+    },
+    {
+     "file": "Build/worlds/_cross-world/dossiers/radical-pietism-and-the-brethren-dunkers-ephrata_Source_Readiness_Dossier.md",
+     "lines": "83",
+     "quote": "the census has no entry for it."
+    },
+    {
+     "file": "cic/texts/README.md",
+     "lines": "1577",
+     "quote": "Israel Acrelius,"
+    }
+   ],
+   "why_no_home": "missing",
+   "why_detail": "Confirmed: no census entry names the Delaware Swedes or New Sweden.",
+   "nearest_census": [
+    "scandinavian-reformation-kingdoms",
+    "radical-pietism-and-the-brethren-dunkers-ephrata",
+    "confessional-lutheran-revival-emigrations"
+   ],
+   "sources": {
+    "vendored": [
+     "acrelius_history-of-new-sweden_reynolds1874.txt"
+    ],
+    "wanted": []
+   },
+   "recommendation": "add",
+   "reason": "A distinct congregation tradition in its own place, with a provost's own history vendored (one volume). Fills the Lutheran presence in America before the 1817 entries. End date not settled by the files; the span reaches into era 8.",
+   "strength": "moderate"
+  },
+  {
+   "number": 7,
+   "group": 2,
+   "group_title": "New movements recommended",
+   "name": "English Unitarianism (Lindsey and Priestley; Biddle, Nye and Toulmin before them)",
+   "kind": "movement",
+   "likely_era": 8,
+   "likely_lane": "6 Protestant & Evangelical",
+   "dates_hint": "1774 (the Essex House chapel sermon, per its vendored file title); no other dates in the files",
+   "citations": [
+    {
+     "file": "Build/worlds/_cross-world/dossiers/swedenborgian-new-church_Source_Readiness_Dossier.md",
+     "lines": "83",
+     "quote": "where does English Unitarianism sit?"
+    },
+    {
+     "file": "Build/worlds/_cross-world/dossiers/anti-trinitarian-currents-servetus-polish-brethr_Source_Readiness_Dossier.md",
+     "lines": "107",
+     "quote": "Biddle, Nye (1687) and Toulmin are English Unitarians after 1640."
+    },
+    {
+     "file": "cic/corpus-map/english-old-dissent.yaml",
+     "lines": "126",
+     "quote": "Lindsey left the Church of England rather than coming from Old Dissent; which world"
+    },
+    {
+     "file": "Build/worlds/_cross-world/dossiers/anti-trinitarian-currents-servetus-polish-brethr_Source_Readiness_Dossier.md",
+     "lines": "107",
+     "quote": "Biddle, Nye (1687) and Toulmin are English Unitarians after 1640."
+    },
+    {
+     "file": "Build/worlds/_cross-world/dossiers/anti-trinitarian-currents-servetus-polish-brethr_Source_Readiness_Dossier.md",
+     "lines": "107",
+     "quote": "Biddle, Nye (1687) and Toulmin are English Unitarians after 1640."
+    }
+   ],
+   "why_no_home": "missing",
+   "why_detail": "VII.26 names only a Presbyterian drift toward Unitarian belief; no entry tells the Unitarian congregations (Lindsey's chapel, Priestley) as their own body, while the American ones have two.",
+   "nearest_census": [
+    "english-old-dissent",
+    "early-american-unitarians-universalists",
+    "anti-trinitarian-currents-servetus-polish-brethr"
+   ],
+   "sources": {
+    "vendored": [
+     "lindsey_sermon-at-the-opening-of-the-chapel-in-essex-street_1774.txt",
+     "priestley_memoirs-to-1795-v1_1806.txt",
+     "priestley_letters-to-the-members-of-the-new-jerusalem-church_1791.txt",
+     "priestley_discourses-on-the-evidences-of-revealed-religion-philadelphia_1796.txt",
+     "general-baptist-assembly_minutes-v2-1731-1811_whitley1910.txt"
+    ],
+    "wanted": []
+   },
+   "recommendation": "add",
+   "reason": "A church body with a founding act (Essex House, 1774) and its own vendored voices that no census entry carries. Rule applied: a separate church body gets an entry; a wing inside one lineage does not. Biddle, Nye and Toulmin have no vendored text, so they stay named inside it, not as persons. Fallback if Mark prefers fewer entries: merge into english-old-dissent. The persons Biddle, Nye and Toulmin fail ruling 14 (no writings of theirs vendored) and are told within it. The eras 5-7 judge read the same leads as a merge into english-old-dissent; that is option B.",
+   "strength": "moderate",
+   "options": [
+    {
+     "key": "A",
+     "label": "Add a movement",
+     "effect": "A new era 8 entry with the Essex Street chapel (1774) and Priestley on its shelf."
+    },
+    {
+     "key": "B",
+     "label": "Merge into english-old-dissent",
+     "effect": "No new entry; the Old Dissent text tells the move to Unitarian belief, Lindsey included."
+    }
+   ]
+  },
+  {
+   "number": 8,
+   "group": 2,
+   "group_title": "New movements recommended",
+   "name": "Mennonites and Amish after 1650 (Pennsylvania Mennonites named)",
+   "kind": "movement",
+   "likely_era": 8,
+   "likely_lane": "6 Protestant & Evangelical",
+   "dates_hint": "1660 (Martyrs' Mirror, per its README line); 1846 and 1856 Lancaster printings of the Ausbund",
+   "citations": [
+    {
+     "file": "Build/worlds/_cross-world/dossiers/radical-pietism-and-the-brethren-dunkers-ephrata_Source_Readiness_Dossier.md",
+     "lines": "85",
+     "quote": "no Era VIII Mennonite entry exists."
+    },
+    {
+     "file": "cic/texts/README.md",
+     "lines": "1713",
+     "quote": "still in liturgical use among the Amish"
+    }
+   ],
+   "why_no_home": "successor gap",
+   "why_detail": "VI.3 ends 1650 and its own legacy line says Mennonites, Amish and Hutterites descend from it; nothing carries them after 1650.",
+   "nearest_census": [
+    "the-anabaptist-movements",
+    "radical-pietism-and-the-brethren-dunkers-ephrata"
+   ],
+   "sources": {
+    "vendored": [
+     "van-braght_martyrs-mirror_sohm1886.txt",
+     "ausbund_lancaster1846-deu.txt",
+     "ausbund_etliche-schoene-christliche-lieder-deu_baer1856.txt",
+     "dordrecht-confession_ministers-manual_elkhart1890.txt"
+    ],
+    "wanted": []
+   },
+   "recommendation": "add",
+   "reason": "A living tradition with a visible hole between 1650 and the present. Caveat: the vendored voices are mostly Anabaptist-era texts in later printings; no Pennsylvania Mennonite text of the period is vendored. A source pass should come before its shelf opens.",
+   "strength": "moderate"
+  },
+  {
+   "number": 9,
+   "group": 2,
+   "group_title": "New movements recommended",
+   "name": "Melkite Greek Catholic Church after 1815",
+   "kind": "movement",
+   "likely_era": 9,
+   "likely_lane": "3<->5 bridge (Greek East / Latin West)",
+   "dates_hint": "synods from 1831 to 1902 (per corpus map); Charon tome II covers 1833-1855 (per README)",
+   "citations": [
+    {
+     "file": "Build/worlds/_cross-world/dossiers/melkite-greek-catholic-church_Source_Readiness_Dossier.md",
+     "lines": "64",
+     "quote": "No census entry carries the Melkites after 1815."
+    },
+    {
+     "file": "cic/corpus-map/melkite-greek-catholic-church.yaml",
+     "lines": "45",
+     "quote": "The church's nineteenth-century synods, past the window's end; no later Melkite entry"
+    }
+   ],
+   "why_no_home": "successor gap",
+   "why_detail": "VII.23 ends in 1815; the Library holds the church's own synods from 1831 and a 1911 history of its modern period.",
+   "nearest_census": [
+    "melkite-greek-catholic-church",
+    "melkite-arabic-christianity"
+   ],
+   "sources": {
+    "vendored": [
+     "mansi_sacrorum-conciliorum-collectio-tomus-46-synodi-melchitarum-lat_petit1911.txt",
+     "charon_histoire-des-patriarcats-melkites-t2-t3-fra_1911.txt"
+    ],
+    "wanted": []
+   },
+   "recommendation": "add",
+   "reason": "A living church with its own synod record after 1815 and no census entry; the Era VIII and later siblings (Ruthenian, Old Catholic, Armenian) all have successors. Fills the gap after VII.23.",
+   "strength": "strong"
+  },
+  {
+   "number": 10,
+   "group": 3,
+   "group_title": "New person entries recommended",
+   "name": "Augustine of Hippo",
+   "kind": "person",
+   "likely_era": 2,
+   "likely_lane": "5 Latin West & Catholicism",
+   "dates_hint": null,
+   "citations": [
+    {
+     "file": "Build/Ministry/Features/Church-Family-Tree/Open-Gaps.md",
+     "lines": "161",
+     "quote": "Augustine has no movement of his own (2026-11-07)."
+    },
+    {
+     "file": "Build/Ministry/Operations/Audits/2026-11-07_links-era-2/Drafting_Record.json",
+     "lines": "escalations (group C)",
+     "quote": "Augustine's own thought has no census entry of its own."
+    }
+   ],
+   "why_no_home": "merged into another entry",
+   "why_detail": "Told today inside latin-pastoral-congregational-christianity (I.8, 107 of his works shelved as tradition), whose own text says 'not the councils and not the controversies'; named in the voices of Pelagianism, Donatism and Manichaeism and the other end of several era-2 links.",
+   "nearest_census": [
+    "latin-pastoral-congregational-christianity",
+    "pelagianism",
+    "donatism",
+    "manichaeism",
+    "gallic-monastic-ascetic-christianity"
+   ],
+   "sources": {
+    "vendored": [
+     "npnf101_augustine-confessions-letters.xml",
+     "npnf102_augustine-city-of-god-christian-doctrine.xml",
+     "npnf104_augustine-anti-manichaean-anti-donatist.xml",
+     "npnf105_augustine-anti-pelagian-writings.xml",
+     "augustine_retractationes-lat_knoll-csel36.txt"
+    ],
+    "wanted": []
+   },
+   "recommendation": "add as person",
+   "reason": "Passes ruling 14: own writings vendored, party in four controversies, no census movement is his (Jansenism and the friars descend by later claim, and no Library file I read says he founded an order). Told within I.8 as Tertullian is within the Latin Apologists, so I.8 keeps its shelf and the controversy links get a true target.",
+   "strength": "strong"
+  },
+  {
+   "number": 11,
+   "group": 3,
+   "group_title": "New person entries recommended",
+   "name": "Irenaeus of Lyon",
+   "kind": "person",
+   "likely_era": 1,
+   "likely_lane": "Origin (pre-lane)",
+   "dates_hint": "Against Heresies c. 180 (shelf note on post-apostolic-house-church)",
+   "citations": [
+    {
+     "file": "Build/Ministry/Features/Church-Family-Tree/Open-Gaps.md",
+     "lines": "98",
+     "quote": "Irenaeus has no movement of his own (2026-11-07)."
+    },
+    {
+     "file": "cic/corpus-map/post-apostolic-house-church.yaml",
+     "lines": "1643",
+     "quote": "Irenaeus of Lyons, c. 180, disciple of Polycarp and heir of the Asia Minor churches."
+    },
+    {
+     "file": "cic/corpus-map/marcion-marcionism.yaml",
+     "lines": "70",
+     "quote": "principal heresiological witness to both entries"
+    }
+   ],
+   "why_no_home": "merged into another entry",
+   "why_detail": "His works sit as tradition on the household-church shelf (I.1) though I.1's text never names him; Marcion, Valentinian and Ebionite entries use him only as a hostile witness.",
+   "nearest_census": [
+    "post-apostolic-house-church",
+    "valentinian-and-other-gnostic-christianities",
+    "marcion-marcionism",
+    "ebionite-nazoraean-current"
+   ],
+   "sources": {
+    "vendored": [
+     "anf01_apostolic-fathers-justin-irenaeus.xml"
+    ],
+    "wanted": []
+   },
+   "recommendation": "add as person",
+   "reason": "Passes ruling 14 (own writings vendored, named opponent of the Valentinians and Marcion, founded nothing). Weaker than Augustine because I.1 already shelves him as tradition; the alternative is to name him in I.1's text, but then three entries keep calling him a witness with no home of his own.",
+   "strength": "moderate"
+  },
+  {
+   "number": 12,
+   "group": 3,
+   "group_title": "New person entries recommended",
+   "name": "Nestorius",
+   "kind": "person",
+   "likely_era": 2,
+   "likely_lane": "3 Greek East & Orthodoxy",
+   "dates_hint": "Ephesus 431 (shelf note)",
+   "citations": [
+    {
+     "file": "cic/corpus-map/cyrilline-miaphysite-egyptian-tradition.yaml",
+     "lines": "180",
+     "quote": "The opponent's own words, including the twelve counter-anathemas against Cyril"
+    },
+    {
+     "file": "cic/corpus-map/cyrilline-miaphysite-egyptian-tradition.yaml",
+     "lines": "38",
+     "quote": "decree against Nestorius 10.11"
+    }
+   ],
+   "why_no_home": "missing",
+   "why_detail": "Found while checking the Cyrilline shelf, not in the input leads: no census entry tells Nestorius; only I.14 names him and his own writings sit on four shelves as context.",
+   "nearest_census": [
+    "cyrilline-miaphysite-egyptian-tradition",
+    "the-church-of-the-east-under-persia",
+    "antiochene-exegetical-christianity-chrysostom-ce",
+    "imperial-juridical-christianity"
+   ],
+   "sources": {
+    "vendored": [
+     "nestorius_bazaar-of-heracleides_driver-hodgson1925.txt",
+     "nestorius_livre-d-heraclide-de-damas-fra_nau1910.txt",
+     "nestorius_nestoriana-fragmenta-grc-lat-deu_loofs1905.txt"
+    ],
+    "wanted": []
+   },
+   "recommendation": "add as person",
+   "reason": "Own writings vendored, a named party condemned at Ephesus, and no census movement descends from him by the Library's own text. My own addition to the list; Mark may prefer to treat it as outside this sweep.",
+   "strength": "strong"
+  },
+  {
+   "number": 13,
+   "group": 3,
+   "group_title": "New person entries recommended",
+   "name": "Jovinian",
+   "kind": "person",
+   "likely_era": 2,
+   "likely_lane": "5 Latin West & Catholicism",
+   "dates_hint": null,
+   "citations": [
+    {
+     "file": "cic/corpus-map/_staging/npnf206_jerome-principal-works.yaml",
+     "lines": "171",
+     "quote": "has no census entry."
+    },
+    {
+     "file": "cic/texts/npnf210_ambrose-select-works-letters.xml",
+     "lines": "1479",
+     "quote": "excommunication passed upon Jovinian and his followers."
+    }
+   ],
+   "why_no_home": "missing",
+   "why_detail": "Named in a ruling (the excommunication in the Ambrose letters) and the target of Jerome's longest treatise, about 71,000 words; his own writing is not vendored.",
+   "nearest_census": [
+    "hieronymian-ascetic-literary",
+    "ambrosian-milan-standalone"
+   ],
+   "sources": {
+    "vendored": [
+     "npnf206_jerome-principal-works.xml",
+     "npnf210_ambrose-select-works-letters.xml"
+    ],
+    "wanted": []
+   },
+   "recommendation": "add as person",
+   "reason": "Meets the 'recorded position' limb of ruling 14 and is a party in a ruling; none of his own words survive in the Library, so the page would be told through Jerome and Ambrose.",
+   "strength": "moderate"
+  },
+  {
+   "number": 14,
+   "group": 3,
+   "group_title": "New person entries recommended",
+   "name": "Peter the Iberian",
+   "kind": "person",
+   "likely_era": 3,
+   "likely_lane": "2 Caucasus",
+   "dates_hint": "The Syriac Life was written c. 500 (README)",
+   "citations": [
+    {
+     "file": "Build/worlds/_cross-world/dossiers/georgian-christianity_Source_Readiness_Dossier.md",
+     "lines": "63",
+     "quote": "Peter the Iberian: Georgia, Judean-desert monasticism, the West Syriac entry, or the Egyptian miaphysite one? needs-ruling."
+    },
+    {
+     "file": "cic/texts/README.md",
+     "lines": "2565",
+     "quote": "the Palestinian anti-Chalcedonian monks' story, Juvenal's 'apostasy', Timothy Aelurus's consecration"
+    }
+   ],
+   "why_no_home": "merged into another entry",
+   "why_detail": "Three entries shelve the Life and none tells him (only the Judean-desert text mentions him in passing); no writing of his own survives, the Life is by a disciple.",
+   "nearest_census": [
+    "georgian-christianity",
+    "chalcedonian-monasticism-judean-desert-and-gaza",
+    "syriac-orthodox-west-syriac-christianity",
+    "cyrilline-miaphysite-egyptian-christianity"
+   ],
+   "sources": {
+    "vendored": [
+     "life-of-peter-the-iberian_petrus-der-iberer-deu_raabe1895.txt",
+     "po08_john-rufus-plerophories-and-others-fra_1912.txt"
+    ],
+    "wanted": []
+   },
+   "recommendation": "add as person",
+   "reason": "A voice with no home across four candidate entries and a recorded position (the anti-Chalcedonian bishop of Maiuma); passes ruling 14 on the 'recorded position' limb only.",
+   "strength": "moderate"
+  },
+  {
+   "number": 15,
+   "group": 3,
+   "group_title": "New person entries recommended",
+   "name": "Simeon of Beth Arsham",
+   "kind": "person",
+   "likely_era": 3,
+   "likely_lane": "1 Syriac East & Asia",
+   "dates_hint": "Letter on the Najran martyrs, 523 (dossier)",
+   "citations": [
+    {
+     "file": "Build/worlds/_cross-world/dossiers/the-church-of-the-east-under-persia_Source_Readiness_Dossier.md",
+     "lines": "93",
+     "quote": "West Syriac bishops working inside Persia (Simeon of Beth Arsham, Ahudemmeh): placement rule."
+    },
+    {
+     "file": "Build/worlds/_cross-world/dossiers/aksumite-christianity_Source_Readiness_Dossier.md",
+     "lines": "25",
+     "quote": "Simeon of Beth Arsham's letter on the Najran martyrs, 523"
+    }
+   ],
+   "why_no_home": "missing",
+   "why_detail": "His letter on Najran is vendored inside Zachariah's chronicle and John of Ephesus tells his debate with the catholicos Babai; neither West Syriac nor Persian entry names him.",
+   "nearest_census": [
+    "the-church-of-the-east-under-persia",
+    "syriac-orthodox-west-syriac-christianity",
+    "aksumite-christianity"
+   ],
+   "sources": {
+    "vendored": [
+     "zachariah-rhetor_chronicle_hamiltonbrooks1899.txt",
+     "john-of-ephesus_lives-of-the-eastern-saints_brooks1923.txt",
+     "book-of-the-himyarites-syr-eng_moberg1924.txt"
+    ],
+    "wanted": []
+   },
+   "recommendation": "add as person",
+   "reason": "Own letter vendored, a recorded debate, no movement founded; a voice with no home between two entries. Narrow, so moderate.",
+   "strength": "moderate"
+  },
+  {
+   "number": 16,
+   "group": 3,
+   "group_title": "New person entries recommended",
+   "name": "William Tyndale",
+   "kind": "person",
+   "likely_era": 7,
+   "likely_lane": "6 Protestant & Evangelical",
+   "dates_hint": "1525-1536 (dossier)",
+   "citations": [
+    {
+     "file": "Build/worlds/_cross-world/dossiers/the-english-reformation-and-elizabethan-settleme_Source_Readiness_Dossier.md",
+     "lines": "109",
+     "quote": "Whether he is this world's prelude or belongs in a world of his own is still for the lead"
+    }
+   ],
+   "why_no_home": "missing",
+   "why_detail": "The census text never names Tyndale. The dossier says he precedes the entry's 1530s start and Lollardy ends c. 1520.",
+   "nearest_census": [
+    "the-english-reformation-and-elizabethan-settleme",
+    "lollardy"
+   ],
+   "sources": {
+    "vendored": [
+     "tyndale_doctrinal-treatises_walter1848.txt"
+    ],
+    "wanted": []
+   },
+   "recommendation": "add as person",
+   "reason": "Own writings vendored, founded no lasting body, and the Library's own note puts him between two entries' windows. This is the one person here with no home; the weak point is that no opponent (More) is vendored. If Mark reads him as the English Reformation's prelude, merge instead.",
+   "strength": "moderate"
+  },
+  {
+   "number": 17,
+   "group": 4,
+   "group_title": "Successor gaps and structure questions from the link passes",
+   "name": "Medieval English church after 1066",
+   "kind": "movement",
+   "likely_era": 5,
+   "likely_lane": "5 Latin West & Catholicism",
+   "dates_hint": "Late Anglo-Saxon ends 1066 (Open-Gaps)",
+   "citations": [
+    {
+     "file": "Build/Ministry/Features/Church-Family-Tree/Open-Gaps.md",
+     "lines": "243",
+     "quote": "No medieval English or Scandinavian successor entry (2026-11-08)."
+    }
+   ],
+   "why_no_home": "successor gap",
+   "why_detail": "\"No medieval English or Scandinavian successor entry\" (Open-Gaps, 2026-11-08): nothing carries the English church on from 1066 until the era 6 mystics and Lollards.",
+   "nearest_census": [
+    "anglo-saxon-christianity",
+    "late-anglo-saxon-christianity",
+    "the-english-mystics-and-devout",
+    "lollardy"
+   ],
+   "sources": {
+    "vendored": [],
+    "wanted": []
+   },
+   "recommendation": "leave out",
+   "reason": "No vendored voice for 1066-1330 found in cic/texts (I searched Anselm, Becket, Aelred and similar names). A real gap, but no sources to build it.",
+   "strength": "thin"
+  },
+  {
+   "number": 18,
+   "group": 4,
+   "group_title": "Successor gaps and structure questions from the link passes",
+   "name": "Medieval Scandinavian church after 1104",
+   "kind": "movement",
+   "likely_era": 5,
+   "likely_lane": "5 Latin West & Catholicism",
+   "dates_hint": "Scandinavian conversion ends 1104 (Open-Gaps)",
+   "citations": [
+    {
+     "file": "Build/Ministry/Features/Church-Family-Tree/Open-Gaps.md",
+     "lines": "243-244",
+     "quote": "no entry carries either church on"
+    }
+   ],
+   "why_no_home": "successor gap",
+   "why_detail": "\"No medieval English or Scandinavian successor entry\" (Open-Gaps, 2026-11-08): the 'continued as' link runs to the Reformation kingdoms.",
+   "nearest_census": [
+    "scandinavian-conversion-christianity",
+    "scandinavian-reformation-kingdoms",
+    "latin-papal-church-avignon-to-lateran-v"
+   ],
+   "sources": {
+    "vendored": [
+     "birgitta_revelationes-lat_duranti1628.txt",
+     "birgitta_revelations-enm_cumming1929.txt"
+    ],
+    "wanted": []
+   },
+   "recommendation": "leave out",
+   "reason": "Only Birgitta is vendored, already told in the Avignon entry. Not enough for a medieval entry.",
+   "strength": "thin"
+  },
+  {
+   "number": 19,
+   "group": 4,
+   "group_title": "Successor gaps and structure questions from the link passes",
+   "name": "Melkite church 1009-1724",
+   "kind": "movement",
+   "likely_era": 5,
+   "likely_lane": "3 Greek East & Orthodoxy",
+   "dates_hint": "1009 and 1724 (Open-Gaps)",
+   "citations": [
+    {
+     "file": "Build/Ministry/Features/Church-Family-Tree/Open-Gaps.md",
+     "lines": "260-261",
+     "quote": "No Melkite entry between 1009 and 1724 (2026-11-08)."
+    }
+   ],
+   "why_no_home": "successor gap",
+   "why_detail": "A real seven-century hole between the Melkite entries of 700-1009 and 1724-1815.",
+   "nearest_census": [
+    "melkite-arabic-christianity",
+    "melkite-greek-catholic-church",
+    "byzantine-church-after-1054",
+    "orthodoxy-under-the-ottomans-parish-millet-and-n"
+   ],
+   "sources": {
+    "vendored": [
+     "paul-of-aleppo_travels-of-macarius-v1_belfour1836.txt (placed on later entries)"
+    ],
+    "wanted": []
+   },
+   "recommendation": "leave out",
+   "reason": "I found no vendored Melkite voice for 1009-1650; the one 1650s witness is already staged on other entries. Reopen if sources are acquired.",
+   "strength": "thin"
+  },
+  {
+   "number": 20,
+   "group": 4,
+   "group_title": "Successor gaps and structure questions from the link passes",
+   "name": "Bulgarian church of the Second Empire (Tarnovo)",
+   "kind": "movement",
+   "likely_era": 5,
+   "likely_lane": "3 Greek East & Orthodoxy",
+   "dates_hint": "synod of 1211 (Open-Gaps)",
+   "citations": [
+    {
+     "file": "Build/Ministry/Features/Church-Family-Tree/Open-Gaps.md",
+     "lines": "302-303",
+     "quote": "The Tarnovo synod of 1211 against the Bogomils cannot be linked."
+    }
+   ],
+   "why_no_home": "covered (stale note)",
+   "why_detail": "The Serbian and Bulgarian monasticism entry names the restored Tarnovo patriarchate, and the Bogomil entry names the 1211 anathema.",
+   "nearest_census": [
+    "serbian-and-bulgarian-medieval-monasticism",
+    "balkan-bogomil-continuation"
+   ],
+   "sources": {
+    "vendored": [],
+    "wanted": []
+   },
+   "recommendation": "merge into existing",
+   "merge_target": "serbian-and-bulgarian-medieval-monasticism",
+   "reason": "Already told there; the only Bulgarian text on the shelf is Paisii (1762). The link problem is a link fix, not a new entry.",
+   "strength": "moderate"
+  },
+  {
+   "number": 21,
+   "group": 4,
+   "group_title": "Successor gaps and structure questions from the link passes",
+   "name": "Syriac Orthodox church after 1300",
+   "kind": "movement",
+   "likely_era": 6,
+   "likely_lane": "1 Syriac East & Asia",
+   "dates_hint": null,
+   "citations": [
+    {
+     "file": "Build/Ministry/Features/Church-Family-Tree/Open-Gaps.md",
+     "lines": "311-312",
+     "quote": "No Syriac Orthodox movement after 1300 (2026-11-08)."
+    },
+    {
+     "file": "cic/texts/barhebraeus_chronicon-ecclesiasticum-vol3-lat_abbeloos-lamy1877.txt",
+     "lines": "25788, 27031, 27282, 35184",
+     "quote": "Series maphrianorum continuata."
+    }
+   ],
+   "why_no_home": "successor gap",
+   "why_detail": "syriac-renaissance (1054-1300) has nothing to continue as.",
+   "nearest_census": [
+    "syriac-renaissance",
+    "church-of-the-east-timur-to-hakkari"
+   ],
+   "sources": {
+    "vendored": [
+     "barhebraeus_chronicon-ecclesiasticum-vol3-lat_abbeloos-lamy1877.txt"
+    ],
+    "wanted": []
+   },
+   "recommendation": "leave out",
+   "reason": "Hold for now. Michael the Syrian and Bar Hebraeus's own work end before 1300, but the vendored Chronicon, vol. 3 (Abbeloos and Lamy, 1877), carries a continued list of maphrians with entries dated 1317, 1364 and 1369. That is one chronicle list, not a shelf, and vol. 2 (the western continuation) is not vendored. A source pass could make this an add; low urgency, as the Open-Gaps entry says.",
+   "strength": "thin"
+  },
+  {
+   "number": 22,
+   "group": 4,
+   "group_title": "Successor gaps and structure questions from the link passes",
+   "name": "Conciliar movement (Constance, Basel)",
+   "kind": "movement",
+   "likely_era": 6,
+   "likely_lane": "5 Latin West & Catholicism",
+   "dates_hint": "Constance 1409-1418 (Mansi 27 title)",
+   "citations": [
+    {
+     "file": "Build/Ministry/Features/Church-Family-Tree/Open-Gaps.md",
+     "lines": "372",
+     "quote": "The Council of Basel sits under the papacy (2026-11-08)."
+    }
+   ],
+   "why_no_home": "merged into another entry",
+   "why_detail": "The Avignon-to-Lateran V entry names Haec sancta and Frequens and Basel; the dossier says conciliarism is carried inside the story.",
+   "nearest_census": [
+    "latin-papal-church-avignon-to-lateran-v",
+    "the-hussite-and-bohemian-brethren-movement"
+   ],
+   "sources": {
+    "vendored": [
+     "council-of-constance_acta-concilii-constanciensis-bd2-lat_finke1923.txt",
+     "council-of-constance_acta-concilii-constanciensis-bd3-lat_finke1926.txt",
+     "gerson_opera-omnia-tomus-2-pars-1-tractatus-ad-schisma-lat_dupin1706.txt"
+    ],
+    "wanted": [
+     "Basel acts (no Mansi 29-30 found on the shelf)"
+    ]
+   },
+   "recommendation": "merge into existing",
+   "merge_target": "latin-papal-church-avignon-to-lateran-v",
+   "reason": "Closest call in this set: a party with its own sources, but a constitutional claim, not a community, and Basel itself is not vendored. Mark's choice under \"The Council of Basel sits under the papacy\" (Open-Gaps, 2026-11-08); if split, the Compacts link's 'from' changes.",
+   "strength": "moderate"
+  },
+  {
+   "number": 23,
+   "group": 4,
+   "group_title": "Successor gaps and structure questions from the link passes",
+   "name": "Carthusians after 1300",
+   "kind": "movement",
+   "likely_era": 6,
+   "likely_lane": "5 Latin West & Catholicism",
+   "dates_hint": "1084-1300 for the entry (census)",
+   "citations": [
+    {
+     "file": "Build/Ministry/Features/Church-Family-Tree/Open-Gaps.md",
+     "lines": "377-379",
+     "quote": "documented Carthusian copying of The Cloud of Unknowing and Hilton's Scale cannot be drawn as a link"
+    }
+   ],
+   "why_no_home": "successor gap",
+   "why_detail": "carthusian-life ends in 1300 though its text says the order kept its shape 'ever since'.",
+   "nearest_census": [
+    "carthusian-life",
+    "the-english-mystics-and-devout"
+   ],
+   "sources": {
+    "vendored": [
+     "love_mirror-of-the-blessed-life-of-jesus-christ-enm_powell1908.txt"
+    ],
+    "wanted": []
+   },
+   "recommendation": "leave out",
+   "reason": "Order rule: no Carthusian voice after 1300 beyond one English text already placed on the mystics entry. Extending the 1300 end date is an owner call, not a new entry.",
+   "strength": "thin"
+  },
+  {
+   "number": 24,
+   "group": 4,
+   "group_title": "Successor gaps and structure questions from the link passes",
+   "name": "Scottish church after 1650 (Restoration Covenanters 1660-1690; Church of Scotland after 1690)",
+   "kind": "movement",
+   "likely_era": 8,
+   "likely_lane": "6 Protestant & Evangelical",
+   "dates_hint": null,
+   "citations": [
+    {
+     "file": "Build/worlds/_cross-world/dossiers/the-scottish-reformation-and-kirk_Source_Readiness_Dossier.md",
+     "lines": "100",
+     "quote": "has no entry for the Covenanters of 1660–1690 or the Church of Scotland after 1690"
+    }
+   ],
+   "why_no_home": "successor gap",
+   "why_detail": "VI.5 ends 1650 and no entry covers Scotland after it; the Library's Scottish files stop at 1654 and Rutherford's letters at 1661.",
+   "nearest_census": [
+    "the-scottish-reformation-and-kirk",
+    "puritanism"
+   ],
+   "sources": {
+    "vendored": [
+     "rutherford_letters_bonar1891.txt",
+     "kirk-of-scotland_records-of-the-kirk-1638-1654_peterkin1838.txt"
+    ],
+    "wanted": []
+   },
+   "recommendation": "leave out",
+   "reason": "A real census hole, but no vendored voice after 1661, so an entry would have no shelf. Hold it as a named successor gap until a source pass finds Restoration and eighteenth-century Scottish texts. The Covenanters are a wing of the same church, so one entry would cover both.",
+   "strength": "thin"
+  },
+  {
+   "number": 25,
+   "group": 4,
+   "group_title": "Successor gaps and structure questions from the link passes",
+   "name": "Swedenborgian New Church, nineteenth-century successor",
+   "kind": "movement",
+   "likely_era": 9,
+   "likely_lane": "8 Beyond the Floor (researched & explained)",
+   "dates_hint": "1816 (the one vendored sermon)",
+   "citations": [
+    {
+     "file": "Build/worlds/_cross-world/dossiers/swedenborgian-new-church_Source_Readiness_Dossier.md",
+     "lines": "86",
+     "quote": "no later Swedenborgian world exists in the census to receive them."
+    },
+    {
+     "file": "cic/corpus-map/swedenborgian-new-church.yaml",
+     "lines": "7",
+     "quote": "Sermon on the True Nature of the Resurrection of Man (1816)"
+    }
+   ],
+   "why_no_home": "successor gap",
+   "why_detail": "VII.13 ends 1815; the only later item vendored is one 1816 sermon, and the Boston magazine named in the dossier is not vendored.",
+   "nearest_census": [
+    "swedenborgian-new-church"
+   ],
+   "sources": {
+    "vendored": [
+     "hargrove_sermon-on-the-true-nature-of-the-resurrection-of-man_1816.txt"
+    ],
+    "wanted": [
+     "Boston New Jerusalem Magazine",
+     "General Convention liturgies"
+    ]
+   },
+   "recommendation": "leave out",
+   "reason": "A successor gap, but one sermon is not a shelf. Hold until the wanted texts are vendored.",
+   "strength": "thin"
+  },
+  {
+   "number": 26,
+   "group": 4,
+   "group_title": "Successor gaps and structure questions from the link passes",
+   "name": "Belokrinitsa hierarchy (1846)",
+   "kind": "movement",
+   "likely_era": 9,
+   "likely_lane": "3 Greek East & Orthodoxy",
+   "dates_hint": "1846 (the census text)",
+   "citations": [
+    {
+     "file": "Build/worlds/_cross-world/dossiers/the-old-believers_Source_Readiness_Dossier.md",
+     "lines": "86",
+     "quote": "Belokrinitsa falls outside the window."
+    }
+   ],
+   "why_no_home": "successor gap",
+   "why_detail": "VII.7 and VIII.31 both name it, but no entry covers the Old Believers after 1815 and no text of the hierarchy is vendored.",
+   "nearest_census": [
+    "the-old-believers",
+    "russian-church-synodal-century"
+   ],
+   "sources": {
+    "vendored": [
+     "conybeare_russian-dissenters_1921.txt"
+    ],
+    "wanted": []
+   },
+   "recommendation": "leave out",
+   "reason": "A boundary event, not a body with its own record. The wider Old Believers after 1815 is a successor gap; the only vendored item is Conybeare's 1921 scholarship, which is not their voice.",
+   "strength": "thin"
+  },
+  {
+   "number": 27,
+   "group": 5,
+   "group_title": "Existing entries checked for the person kind",
+   "name": "Ambrose (existing entry ambrosian-milan-standalone)",
+   "kind": "person",
+   "likely_era": 2,
+   "likely_lane": "5 Latin West & Catholicism",
+   "dates_hint": "c. 374-397 (census)",
+   "citations": [
+    {
+     "file": "cic-website/data/world-census.json",
+     "lines": "ambrosian-milan-standalone.legacy",
+     "quote": "Milan still keeps the Ambrosian Rite"
+    }
+   ],
+   "why_no_home": "existing entry, person-shaped",
+   "why_detail": "The text centers on Ambrose, but his Milan, its basilica struggle and its living rite are a city church with a congregation (Monica, Justina, Theodosius in the voices).",
+   "nearest_census": [
+    "ambrosian-milan-standalone"
+   ],
+   "sources": {
+    "vendored": [
+     "npnf210_ambrose-select-works-letters.xml"
+    ],
+    "wanted": []
+   },
+   "recommendation": "leave out",
+   "reason": "Real church and living rite, so the 'founded no lasting movement' limb of ruling 14 is not clean; keep as a movement.",
+   "strength": "thin"
+  },
+  {
+   "number": 28,
+   "group": 5,
+   "group_title": "Existing entries checked for the person kind",
+   "name": "Jerome and his circle (existing entry hieronymian-ascetic-literary)",
+   "kind": "movement",
+   "likely_era": 2,
+   "likely_lane": "5 Latin West & Catholicism",
+   "dates_hint": "c. 382-420 (census)",
+   "citations": [
+    {
+     "file": "cic-website/data/world-census.json",
+     "lines": "hieronymian-ascetic-literary.longDescription",
+     "quote": "a circle of ascetic women"
+    }
+   ],
+   "why_no_home": "existing entry, person-shaped",
+   "why_detail": "Text centers on Jerome but the entry is a circle: Marcella, Paula, Blaesilla and Eustochium fund and live the community, and the Bethlehem monasteries were burned in the Pelagian dispute.",
+   "nearest_census": [
+    "hieronymian-ascetic-literary"
+   ],
+   "sources": {
+    "vendored": [
+     "npnf206_jerome-principal-works.xml"
+    ],
+    "wanted": []
+   },
+   "recommendation": "leave out",
+   "reason": "A real circle with women's voices; not one person.",
+   "strength": "thin"
+  },
+  {
+   "number": 29,
+   "group": 5,
+   "group_title": "Existing entries checked for the person kind",
+   "name": "Gregory the Great (existing entry roman-church-gregorian)",
+   "kind": "person",
+   "likely_era": 3,
+   "likely_lane": "5 Latin West & Catholicism",
+   "dates_hint": "c. 560-604 (census)",
+   "citations": [
+    {
+     "file": "cic-website/data/world-census.json",
+     "lines": "roman-church-gregorian.legacy",
+     "quote": "The mission to Kent is why there is an English church"
+    }
+   ],
+   "why_no_home": "existing entry, person-shaped",
+   "why_detail": "Text is largely Gregory, but it is the Roman church in his age: estates, the Lombards, the Kent mission, the Register; the mission founded a lasting church.",
+   "nearest_census": [
+    "roman-church-gregorian"
+   ],
+   "sources": {
+    "vendored": [],
+    "wanted": []
+   },
+   "recommendation": "leave out",
+   "reason": "The entry is a church in a period and his mission founded a lasting church; keep as a movement.",
+   "strength": "thin"
+  },
+  {
+   "number": 30,
+   "group": 5,
+   "group_title": "Existing entries checked for the person kind",
+   "name": "John Chrysostom (existing entry antiochene-exegetical-christianity-chrysostom-ce)",
+   "kind": "movement",
+   "likely_era": 2,
+   "likely_lane": "3 Greek East & Orthodoxy",
+   "dates_hint": "c. 350-430 (census)",
+   "citations": [
+    {
+     "file": "Build/worlds/_cross-world/dossiers/antiochene-exegetical-christianity-chrysostom-ce_Source_Readiness_Dossier.md",
+     "lines": "49",
+     "quote": "this is \"Chrysostom-centered,\" not a full \"Antiochene school\""
+    }
+   ],
+   "why_no_home": "existing entry, person-shaped",
+   "why_detail": "The dossier calls it Chrysostom-centered, but its voices include Diodore, Theodore, Theodoret and Libanius and it tells a school's method.",
+   "nearest_census": [
+    "antiochene-exegetical-christianity-chrysostom-ce"
+   ],
+   "sources": {
+    "vendored": [],
+    "wanted": []
+   },
+   "recommendation": "leave out",
+   "reason": "A school with several voices, not one person.",
+   "strength": "thin"
+  },
+  {
+   "number": 31,
+   "group": 6,
+   "group_title": "Told within an existing entry",
+   "name": "Church of Lyons and Vienne (the martyrs of 177)",
+   "kind": "movement",
+   "likely_era": 1,
+   "likely_lane": "Origin (pre-lane)",
+   "dates_hint": "Martyrs of 177 (shelf note)",
+   "citations": [
+    {
+     "file": "cic/corpus-map/post-apostolic-house-church.yaml",
+     "lines": "1879",
+     "quote": "No Gaul entry exists for Era 1; pahc holds it through"
+    }
+   ],
+   "why_no_home": "merged into another entry",
+   "why_detail": "Found beside Irenaeus: one letter, held on the household-church shelf; with Irenaeus it is the only Library evidence of Gaul before 312.",
+   "nearest_census": [
+    "post-apostolic-house-church"
+   ],
+   "sources": {
+    "vendored": [
+     "anf01_apostolic-fathers-justin-irenaeus.xml"
+    ],
+    "wanted": []
+   },
+   "recommendation": "merge into existing",
+   "merge_target": "post-apostolic-house-church",
+   "reason": "One letter does not make a distinct entry; revisit only if Irenaeus gets a page.",
+   "strength": "thin"
+  },
+  {
+   "number": 32,
+   "group": 6,
+   "group_title": "Told within an existing entry",
+   "name": "Hermogenes",
+   "kind": "person",
+   "likely_era": 1,
+   "likely_lane": "5 Latin West & Catholicism",
+   "dates_hint": null,
+   "citations": [
+    {
+     "file": "cic/corpus-map/_staging/anf03_tertullian.yaml",
+     "lines": "311",
+     "quote": "not a Valentinian or Marcionite, so no doctrinal-floor entry fits; the census has no bucket"
+    },
+    {
+     "file": "Build/worlds/_cross-world/NEEDS-RULING.md",
+     "lines": "343",
+     "quote": "Hermogenes, Bardaisan, and iconoclasm"
+    }
+   ],
+   "why_no_home": "merged into another entry",
+   "why_detail": "Known only through Tertullian's Against Hermogenes, which is already shelved on latin-apologists; none of his own words are vendored.",
+   "nearest_census": [
+    "latin-apologists",
+    "tertullian-s-voice",
+    "marcion-marcionism"
+   ],
+   "sources": {
+    "vendored": [
+     "anf03_tertullian.xml"
+    ],
+    "wanted": []
+   },
+   "recommendation": "merge into existing",
+   "merge_target": "latin-apologists",
+   "reason": "One treatise of refutation is the whole record; stays told within the Latin Apologists with Tertullian.",
+   "strength": "thin"
+  },
+  {
+   "number": 33,
+   "group": 6,
+   "group_title": "Told within an existing entry",
+   "name": "Tatian and Encratism",
+   "kind": "person",
+   "likely_era": 1,
+   "likely_lane": "1 Syriac East & Asia",
+   "dates_hint": "Address to the Greeks c. 150-172, Contested (shelf note)",
+   "citations": [
+    {
+     "file": "cic/corpus-map/_staging/anf09_gospel-of-peter-diatessaron-origen-commentaries.yaml",
+     "lines": "102",
+     "quote": "His Encratism has no census entry; noted, not assigned."
+    },
+    {
+     "file": "cic-website/data/world-census.json",
+     "lines": "syriac-edessa-nisibis.voices",
+     "quote": "founding a rigorist sect of his own"
+    }
+   ],
+   "why_no_home": "merged into another entry",
+   "why_detail": "Tatian's Address is shelved on three entries including the Greek Apologists and his harmony is told in the Edessa entry; the Library has no text of an Encratite body itself, only the claim that he founded one.",
+   "nearest_census": [
+    "greek-apologists-second-century",
+    "syriac-edessa-nisibis"
+   ],
+   "sources": {
+    "vendored": [
+     "anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml",
+     "anf09_gospel-of-peter-diatessaron-origen-commentaries.xml"
+    ],
+    "wanted": []
+   },
+   "recommendation": "merge into existing",
+   "merge_target": "greek-apologists-second-century",
+   "reason": "Fails ruling 14's last limb (the census text says he founded a sect) and Encratism has no sources of its own; stays with the Greek Apologists.",
+   "strength": "thin"
+  },
+  {
+   "number": 34,
+   "group": 6,
+   "group_title": "Told within an existing entry",
+   "name": "Diodore of Tarsus and Theodore of Mopsuestia",
+   "kind": "person",
+   "likely_era": 2,
+   "likely_lane": "3 Greek East & Orthodoxy",
+   "dates_hint": null,
+   "citations": [
+    {
+     "file": "Build/worlds/_cross-world/dossiers/antiochene-exegetical-christianity-chrysostom-ce_Source_Readiness_Dossier.md",
+     "lines": "49",
+     "quote": "the school's other two pillars (Diodore, Theodore) have no clean PD path in."
+    }
+   ],
+   "why_no_home": "merged into another entry",
+   "why_detail": "antiochene-exegetical-christianity-chrysostom-ce names both in its voices and text; the Church of the East entries name Theodore. No own writings are vendored, only Cyril's fragments against them and Barhadbeshabba's chapters.",
+   "nearest_census": [
+    "antiochene-exegetical-christianity-chrysostom-ce",
+    "the-church-of-the-east-under-persia"
+   ],
+   "sources": {
+    "vendored": [
+     "cyril-alexandria_five-tomes-against-nestorius-scholia-christ-is-one_pusey1881.txt",
+     "po09_barhadbeshabba-ecclesiastical-history-part2-and-others-fra_1913.txt"
+    ],
+    "wanted": []
+   },
+   "recommendation": "merge into existing",
+   "merge_target": "antiochene-exegetical-christianity-chrysostom-ce",
+   "reason": "Already voices in I.13; their own writings are not in the Library, so a person page would be told wholly through opponents.",
+   "strength": "thin"
+  },
+  {
+   "number": 35,
+   "group": 6,
+   "group_title": "Told within an existing entry",
+   "name": "Germanus of Auxerre",
+   "kind": "person",
+   "likely_era": 2,
+   "likely_lane": "5 Latin West & Catholicism",
+   "dates_hint": null,
+   "citations": [
+    {
+     "file": "Build/worlds/_cross-world/dossiers/british-welsh-christianity_Source_Readiness_Dossier.md",
+     "lines": "69",
+     "quote": "Pelagius, Fastidius and Germanus (before 451): antecedents here, or wholly pelagianism's?"
+    }
+   ],
+   "why_no_home": "merged into another entry",
+   "why_detail": "Constantius's Life of Germanus is shelved as context on british-welsh-christianity; he is a bishop-visitor in the story, not a party with writing of his own.",
+   "nearest_census": [
+    "british-welsh-christianity",
+    "pelagianism"
+   ],
+   "sources": {
+    "vendored": [
+     "constantius-lyon_vita-germani_levison1920.txt"
+    ],
+    "wanted": []
+   },
+   "recommendation": "merge into existing",
+   "merge_target": "british-welsh-christianity",
+   "reason": "Told as context in the British entry; no writing of his own vendored.",
+   "strength": "thin"
+  },
+  {
+   "number": 36,
+   "group": 6,
+   "group_title": "Told within an existing entry",
+   "name": "Helvidius",
+   "kind": "person",
+   "likely_era": 2,
+   "likely_lane": "5 Latin West & Catholicism",
+   "dates_hint": null,
+   "citations": [
+    {
+     "file": "cic/corpus-map/_staging/npnf206_jerome-principal-works.yaml",
+     "lines": "159",
+     "quote": "Helvidius has no census entry, so it stays with its author."
+    }
+   ],
+   "why_no_home": "merged into another entry",
+   "why_detail": "One pamphlet by Jerome is the whole record; no Library text carries his side.",
+   "nearest_census": [
+    "hieronymian-ascetic-literary"
+   ],
+   "sources": {
+    "vendored": [
+     "npnf206_jerome-principal-works.xml"
+    ],
+    "wanted": []
+   },
+   "recommendation": "merge into existing",
+   "merge_target": "hieronymian-ascetic-literary",
+   "reason": "Stays told inside Jerome's entry; a person page would rest on one hostile treatise.",
+   "strength": "thin"
+  },
+  {
+   "number": 37,
+   "group": 6,
+   "group_title": "Told within an existing entry",
+   "name": "Vigilantius",
+   "kind": "person",
+   "likely_era": 2,
+   "likely_lane": "5 Latin West & Catholicism",
+   "dates_hint": null,
+   "citations": [
+    {
+     "file": "cic/corpus-map/_staging/npnf206_jerome-principal-works.yaml",
+     "lines": "182",
+     "quote": "Vigilantius, who has"
+    }
+   ],
+   "why_no_home": "merged into another entry",
+   "why_detail": "One pamphlet by Jerome is the whole record; no Library text carries his side.",
+   "nearest_census": [
+    "hieronymian-ascetic-literary"
+   ],
+   "sources": {
+    "vendored": [
+     "npnf206_jerome-principal-works.xml"
+    ],
+    "wanted": []
+   },
+   "recommendation": "merge into existing",
+   "merge_target": "hieronymian-ascetic-literary",
+   "reason": "Stays told inside Jerome's entry; same case as Helvidius.",
+   "strength": "thin"
+  },
+  {
+   "number": 38,
+   "group": 6,
+   "group_title": "Told within an existing entry",
+   "name": "Brittany (Breton church) and Samson of Dol",
+   "kind": "movement",
+   "likely_era": 3,
+   "likely_lane": "5 Latin West & Catholicism",
+   "dates_hint": null,
+   "citations": [
+    {
+     "file": "Build/worlds/_cross-world/dossiers/british-welsh-christianity_Source_Readiness_Dossier.md",
+     "lines": "68",
+     "quote": "Brittany against Merovingian Gaul (Samson at Dol and at Paris)."
+    },
+    {
+     "file": "Build/worlds/_cross-world/dossiers/british-welsh-christianity_Source_Readiness_Dossier.md",
+     "lines": "77",
+     "quote": "Samson of contested date"
+    }
+   ],
+   "why_no_home": "merged into another entry",
+   "why_detail": "british-welsh-christianity already names Brittany (named by British emigrants) and lists Samson of Dol among its voices; his Life is shelved there, with a Merovingian context row.",
+   "nearest_census": [
+    "british-welsh-christianity",
+    "merovingian-gallic-christianity"
+   ],
+   "sources": {
+    "vendored": [
+     "samson-of-dol_life-of-st-samson_taylor1925.txt"
+    ],
+    "wanted": []
+   },
+   "recommendation": "merge into existing",
+   "merge_target": "british-welsh-christianity",
+   "reason": "One Life of contested date; told inside the British entry already.",
+   "strength": "thin"
+  },
+  {
+   "number": 39,
+   "group": 6,
+   "group_title": "Told within an existing entry",
+   "name": "Najran and Himyar Christians (South Arabian material)",
+   "kind": "movement",
+   "likely_era": 3,
+   "likely_lane": "4 Africa",
+   "dates_hint": "The Najran martyrs of 523 (dossier, census Aksum text)",
+   "citations": [
+    {
+     "file": "Build/worlds/_cross-world/dossiers/aksumite-christianity_Source_Readiness_Dossier.md",
+     "lines": "68",
+     "quote": "Who owns the Najran and Himyar material: Aksum, the West Syriac entry, or a separate South Arabian entry?"
+    }
+   ],
+   "why_no_home": "merged into another entry",
+   "why_detail": "aksumite-christianity already tells Najran 523 and Kaleb's campaign as 'part of its own story'; the sources are one Syriac book, Simeon's letter inside Zachariah, and Procopius.",
+   "nearest_census": [
+    "aksumite-christianity",
+    "syriac-orthodox-west-syriac-christianity"
+   ],
+   "sources": {
+    "vendored": [
+     "book-of-the-himyarites-syr-eng_moberg1924.txt",
+     "zachariah-rhetor_chronicle_hamiltonbrooks1899.txt"
+    ],
+    "wanted": [
+     "Martyrium Arethae (no PD English)"
+    ]
+   },
+   "recommendation": "merge into existing",
+   "merge_target": "aksumite-christianity",
+   "reason": "Too few sources for an entry of its own; keep it in Aksum's story.",
+   "strength": "thin"
+  },
+  {
+   "number": 40,
+   "group": 6,
+   "group_title": "Told within an existing entry",
+   "name": "Suevic Christianity in Gallaecia (Martin of Braga)",
+   "kind": "movement",
+   "likely_era": 3,
+   "likely_lane": "5 Latin West & Catholicism",
+   "dates_hint": "Councils of Braga 561 and 572; Visigothic annexation 585 (dossier)",
+   "citations": [
+    {
+     "file": "Build/worlds/_cross-world/dossiers/nicene-visigothic-iberia_Source_Readiness_Dossier.md",
+     "lines": "72",
+     "quote": "Suevic Gallaecia (Martin of Braga, Braga 561 and 572) predates the Visigothic annexation of 585: inside this entry?"
+    }
+   ],
+   "why_no_home": "merged into another entry",
+   "why_detail": "The entry's window opens c. 560, so Braga 561 and 572 and Martin's sermon are inside it, and the shelf already holds them; only the entry's text is silent on the Suevi.",
+   "nearest_census": [
+    "nicene-visigothic-iberia",
+    "gothic-and-vandal-homoian-christianity"
+   ],
+   "sources": {
+    "vendored": [
+     "martin-braga_de-correctione-rusticorum-lat_caspari1883.txt"
+    ],
+    "wanted": []
+   },
+   "recommendation": "merge into existing",
+   "merge_target": "nicene-visigothic-iberia",
+   "reason": "Fix the Visigothic entry's text to name the Suevic church; a separate entry would rest on one sermon and two councils.",
+   "strength": "moderate"
+  },
+  {
+   "number": 41,
+   "group": 6,
+   "group_title": "Told within an existing entry",
+   "name": "Augustinian Hermits",
+   "kind": "movement",
+   "likely_era": 5,
+   "likely_lane": "5 Latin West & Catholicism",
+   "dates_hint": null,
+   "citations": [
+    {
+     "file": "Build/worlds/witt/witt_Doc_04_Historical_Gravity.md",
+     "lines": "552",
+     "quote": "the Augustinian Hermits (Doc_01 §8.6, seedbed; no Atlas entry; unbuilt)"
+    }
+   ],
+   "why_no_home": "covered (stale note)",
+   "why_detail": "Stale: the Wittenberg entry's relations text names the Hermits as Luther's seedbed, and the Tridentine entry tells their Catholic remainder.",
+   "nearest_census": [
+    "lutheran-wittenberg-and-its-congregations",
+    "the-tridentine-church",
+    "the-carmelites"
+   ],
+   "sources": {
+    "vendored": [],
+    "wanted": []
+   },
+   "recommendation": "merge into existing",
+   "merge_target": "lutheran-wittenberg-and-its-congregations",
+   "reason": "Order rule: the census gives separate entries to orders with their own vendored rule or chronicle (Franciscans, Dominicans, Carmelites, Carthusians, Jesuits). I found no Hermit text in cic/texts.",
+   "strength": "moderate"
+  },
+  {
+   "number": 42,
+   "group": 6,
+   "group_title": "Told within an existing entry",
+   "name": "Franciscan Asian mission (Montecorvino, Marignolli)",
+   "kind": "movement",
+   "likely_era": 5,
+   "likely_lane": "5 Latin West & Catholicism",
+   "dates_hint": null,
+   "citations": [
+    {
+     "file": "Build/worlds/_cross-world/dossiers/franciscan-order-era-6_Source_Readiness_Dossier.md",
+     "lines": "53",
+     "quote": "The census describes this world as empire-wide, which may take in the Asian mission."
+    }
+   ],
+   "why_no_home": "merged into another entry",
+   "why_detail": "The order world's region reads 'empire-wide'; the dossier proposes the Cathay volume only as provisional context.",
+   "nearest_census": [
+    "franciscan-order-era-6",
+    "the-franciscan-movement",
+    "church-of-the-east-under-the-mongols"
+   ],
+   "sources": {
+    "vendored": [
+     "cathay-and-the-way-thither_vol3-missionary-friars-pegolotti-marignolli_yule-cordier1914.txt"
+    ],
+    "wanted": []
+   },
+   "recommendation": "merge into existing",
+   "merge_target": "franciscan-order-era-6",
+   "reason": "A mission of one order, with one vendored volume. The dossier gives no dates and the files here do not settle the era boundary; keep it inside the order world.",
+   "strength": "thin"
+  },
+  {
+   "number": 43,
+   "group": 6,
+   "group_title": "Told within an existing entry",
+   "name": "Peter of John Olivi",
+   "kind": "person",
+   "likely_era": 5,
+   "likely_lane": "5 Latin West & Catholicism",
+   "dates_hint": null,
+   "citations": [
+    {
+     "file": "Build/worlds/_cross-world/dossiers/franciscan-order-era-6_Source_Readiness_Dossier.md",
+     "lines": "134",
+     "quote": "Olivi enters through Ehrle Bd 3 and Lea, and through the Joachimite Current world if it claims him."
+    }
+   ],
+   "why_no_home": "covered (stale note)",
+   "why_detail": "The Fraticelli entry already lists Olivi among its voices; the dossier found no edition of his own.",
+   "nearest_census": [
+    "fraticelli-spiritual-franciscan-rigorists",
+    "joachimite-current",
+    "franciscan-order-era-6"
+   ],
+   "sources": {
+    "vendored": [
+     "ehrle-denifle_archiv-literatur-kirchengeschichte-mittelalters-bd3-deu-lat_1887.txt"
+    ],
+    "wanted": []
+   },
+   "recommendation": "merge into existing",
+   "merge_target": "fraticelli-spiritual-franciscan-rigorists",
+   "reason": "Ruling 14 test fails: no writing of his own is vendored and he is already a named voice in the Fraticelli entry.",
+   "strength": "strong"
+  },
+  {
+   "number": 44,
+   "group": 6,
+   "group_title": "Told within an existing entry",
+   "name": "Beguins of Languedoc (lay supporters of the Spirituals)",
+   "kind": "movement",
+   "likely_era": 6,
+   "likely_lane": "5 Latin West & Catholicism",
+   "dates_hint": null,
+   "citations": [
+    {
+     "file": "Build/worlds/_cross-world/dossiers/fraticelli-spiritual-franciscan-rigorists_Source_Readiness_Dossier.md",
+     "lines": "128",
+     "quote": "Beguins are not Beguines. Gui's Beguins are the lay supporters of the Spirituals in Languedoc."
+    }
+   ],
+   "why_no_home": "merged into another entry",
+   "why_detail": "The dossier itself places them with the Fraticelli and Spiritual Franciscans; it only warns they are not the Beguines entry.",
+   "nearest_census": [
+    "fraticelli-spiritual-franciscan-rigorists",
+    "the-beguines"
+   ],
+   "sources": {
+    "vendored": [
+     "bernard-gui_manuel-inquisiteur-t1-lat-fra_mollat1926.txt",
+     "bernard-gui_manuel-inquisiteur-t2-lat-fra_mollat1927.txt"
+    ],
+    "wanted": []
+   },
+   "recommendation": "merge into existing",
+   "merge_target": "fraticelli-spiritual-franciscan-rigorists",
+   "reason": "Lay wing of the same rigorist current; the only voice on the shelf is the inquisitor Gui, a hostile witness. Not a separate body.",
+   "strength": "moderate"
+  },
+  {
+   "number": 45,
+   "group": 6,
+   "group_title": "Told within an existing entry",
+   "name": "Birgitta of Sweden",
+   "kind": "person",
+   "likely_era": 6,
+   "likely_lane": "5 Latin West & Catholicism",
+   "dates_hint": null,
+   "citations": [
+    {
+     "file": "Build/worlds/_cross-world/dossiers/latin-papal-church-avignon-to-lateran-v_Source_Readiness_Dossier.md",
+     "lines": "117",
+     "quote": "The census calls them the Avignon-era prophetic women and lists them as voices. Their staging here is tradition."
+    }
+   ],
+   "why_no_home": "covered (stale note)",
+   "why_detail": "Named in the Avignon-to-Lateran V entry as a voice.",
+   "nearest_census": [
+    "latin-papal-church-avignon-to-lateran-v"
+   ],
+   "sources": {
+    "vendored": [
+     "birgitta_revelationes-lat_duranti1628.txt",
+     "birgitta_revelations-enm_cumming1929.txt"
+    ],
+    "wanted": []
+   },
+   "recommendation": "merge into existing",
+   "merge_target": "latin-papal-church-avignon-to-lateran-v",
+   "reason": "Same test as Catherine: vendored writings, but a voice already told within her entry.",
+   "strength": "strong"
+  },
+  {
+   "number": 46,
+   "group": 6,
+   "group_title": "Told within an existing entry",
+   "name": "Catherine of Siena",
+   "kind": "person",
+   "likely_era": 6,
+   "likely_lane": "5 Latin West & Catholicism",
+   "dates_hint": null,
+   "citations": [
+    {
+     "file": "Build/worlds/_cross-world/dossiers/latin-papal-church-avignon-to-lateran-v_Source_Readiness_Dossier.md",
+     "lines": "117",
+     "quote": "The census calls them the Avignon-era prophetic women and lists them as voices. Their staging here is tradition."
+    }
+   ],
+   "why_no_home": "covered (stale note)",
+   "why_detail": "Named in the Avignon-to-Lateran V entry as a voice.",
+   "nearest_census": [
+    "latin-papal-church-avignon-to-lateran-v",
+    "the-dominican-order"
+   ],
+   "sources": {
+    "vendored": [
+     "catherine-of-siena_dialogue_thorold1896.txt",
+     "catherine-of-siena_libro-della-divina-dottrina-ita_fiorilli1912.txt",
+     "catherine-of-siena_selected-letters_scudder1905.txt"
+    ],
+    "wanted": []
+   },
+   "recommendation": "merge into existing",
+   "merge_target": "latin-papal-church-avignon-to-lateran-v",
+   "reason": "Writings vendored, but she is a voice told within her entry and is no opponent or party in a ruling. Ruling 14 not met.",
+   "strength": "strong"
+  },
+  {
+   "number": 47,
+   "group": 6,
+   "group_title": "Told within an existing entry",
+   "name": "Ewostathian monastic dissent (Ewostatewos, Estifanos)",
+   "kind": "movement",
+   "likely_era": 6,
+   "likely_lane": "4 Africa",
+   "dates_hint": null,
+   "citations": [
+    {
+     "file": "Build/worlds/_cross-world/dossiers/the-ethiopian-monastic-flowering_Source_Readiness_Dossier.md",
+     "lines": "43",
+     "quote": "the movement split into two bodies, the larger at Debra Libanos under Takla Haymanot and his successor the Ichegue, the smaller under Eustatheus"
+    },
+    {
+     "file": "Build/worlds/_cross-world/dossiers/the-ethiopian-monastic-flowering_Source_Readiness_Dossier.md",
+     "lines": "98",
+     "quote": "the Estifanos acts and the Ewostatewos life are in copyright or lending-restricted"
+    }
+   ],
+   "why_no_home": "covered (stale note)",
+   "why_detail": "The census entry already tells the Ewostathians, the Sabbath dispute and Zar'a Ya'eqob's persecution of Estifanos's monks. The Estifanos lead (a person) is grouped here.",
+   "nearest_census": [
+    "the-ethiopian-monastic-flowering"
+   ],
+   "sources": {
+    "vendored": [
+     "gadla-takla-haymanot_life-and-miracles-of-takla-haymanot_budge1906.txt",
+     "mendes_expeditio-aethiopica-liber-1-2-lat_beccari1908.txt"
+    ],
+    "wanted": [
+     "Estifanos acts; Ewostatewos life (copyright or lending-restricted)"
+    ]
+   },
+   "recommendation": "merge into existing",
+   "merge_target": "the-ethiopian-monastic-flowering",
+   "reason": "Told within the entry's own story; no vendored text of the dissenters themselves. Person test fails for Estifanos.",
+   "strength": "strong"
+  },
+  {
+   "number": 48,
+   "group": 6,
+   "group_title": "Told within an existing entry",
+   "name": "German-speaking Waldensian communities outside the Alps",
+   "kind": "movement",
+   "likely_era": 6,
+   "likely_lane": "5 Latin West & Catholicism",
+   "dates_hint": null,
+   "citations": [
+    {
+     "file": "Build/worlds/_cross-world/dossiers/waldensians-in-the-alps_Source_Readiness_Dossier.md",
+     "lines": "85",
+     "quote": "Wattenbach 1886 and Haupt 1890 are German records of German-speaking communities outside the Alps"
+    }
+   ],
+   "why_no_home": "merged into another entry",
+   "why_detail": "The dossier stages these as context on the Alps entry; Haupt records inquisition trials, not the communities' own voice.",
+   "nearest_census": [
+    "waldensians-in-the-alps",
+    "the-waldensians"
+   ],
+   "sources": {
+    "vendored": [
+     "haupt_waldenserthum-und-inquisition-im-suedoestlichen-deutschland-deu_1890.txt"
+    ],
+    "wanted": []
+   },
+   "recommendation": "merge into existing",
+   "merge_target": "waldensians-in-the-alps",
+   "reason": "Hostile records only; a branch of the covered body.",
+   "strength": "thin"
+  },
+  {
+   "number": 49,
+   "group": 6,
+   "group_title": "Told within an existing entry",
+   "name": "Lollards of Kyle (Scottish Lollards)",
+   "kind": "movement",
+   "likely_era": 6,
+   "likely_lane": "5 Latin West & Catholicism",
+   "dates_hint": null,
+   "citations": [
+    {
+     "file": "Build/worlds/_cross-world/dossiers/lollardy_Source_Readiness_Dossier.md",
+     "lines": "64",
+     "quote": "An appendix, \"On the Lollards in Scotland, during the fifteenth century\", tells of the Lollards of Kyle."
+    }
+   ],
+   "why_no_home": "merged into another entry",
+   "why_detail": "One appendix in Knox's Works; the dossier proposes it as context only.",
+   "nearest_census": [
+    "lollardy",
+    "the-scottish-reformation-and-kirk"
+   ],
+   "sources": {
+    "vendored": [
+     "knox_works-v1_laing1895.txt"
+    ],
+    "wanted": []
+   },
+   "recommendation": "merge into existing",
+   "merge_target": "lollardy",
+   "reason": "A local group known from one appendix; no body of its own.",
+   "strength": "thin"
+  },
+  {
+   "number": 50,
+   "group": 6,
+   "group_title": "Told within an existing entry",
+   "name": "Picards",
+   "kind": "movement",
+   "likely_era": 6,
+   "likely_lane": "5 Latin West & Catholicism",
+   "dates_hint": null,
+   "citations": [
+    {
+     "file": "Build/worlds/_cross-world/dossiers/inquisition-record-sects-adamites-and-kin_Source_Readiness_Dossier.md",
+     "lines": "77",
+     "quote": "Höfler I prints \"articles of the Picards\"; Březová prints \"articles of the Adamites\"."
+    },
+    {
+     "file": "Build/worlds/_cross-world/dossiers/taborite-radicalism_Source_Readiness_Dossier.md",
+     "lines": "77",
+     "quote": "Höfler I prints articles of the Picards"
+    }
+   ],
+   "why_no_home": "merged into another entry",
+   "why_detail": "Both dossiers file the Picard articles under the Inquisition-Record entry; whether Picards and Adamites are one group is left open.",
+   "nearest_census": [
+    "inquisition-record-sects-adamites-and-kin",
+    "taborite-radicalism"
+   ],
+   "sources": {
+    "vendored": [
+     "hofler_geschichtschreiber-husitischen-bewegung-v1-lat_1856.txt",
+     "hofler_geschichtschreiber-husitischen-bewegung-v2-lat_1865.txt",
+     "laurentius-de-brezova_historia-hussitica-lat-ces_goll1893.txt"
+    ],
+    "wanted": []
+   },
+   "recommendation": "merge into existing",
+   "merge_target": "inquisition-record-sects-adamites-and-kin",
+   "reason": "Known only through hostile articles, and the files do not say it is a body apart from the Adamites. Not enough to stand alone.",
+   "strength": "thin"
+  },
+  {
+   "number": 51,
+   "group": 6,
+   "group_title": "Told within an existing entry",
+   "name": "Windesheim Congregation",
+   "kind": "movement",
+   "likely_era": 6,
+   "likely_lane": "5 Latin West & Catholicism",
+   "dates_hint": null,
+   "citations": [
+    {
+     "file": "Build/worlds/_cross-world/dossiers/devotio-moderna-brethren-of-the-common-life_Source_Readiness_Dossier.md",
+     "lines": "110",
+     "quote": "Pohl's volumes are Kempis writing as a Windesheim canon, not as a Brother of the Common Life."
+    }
+   ],
+   "why_no_home": "covered (stale note)",
+   "why_detail": "The census entry already names the canons of Windesheim as the stricter branch of the same movement.",
+   "nearest_census": [
+    "devotio-moderna-brethren-of-the-common-life"
+   ],
+   "sources": {
+    "vendored": [
+     "busch_chronicon-windeshemense-lat_grube1886.txt",
+     "kempis_chronicle-of-mount-st-agnes_arthur1906.txt",
+     "kempis_opera-omnia-tractatus-lat_pohl1902.txt"
+    ],
+    "wanted": []
+   },
+   "recommendation": "merge into existing",
+   "merge_target": "devotio-moderna-brethren-of-the-common-life",
+   "reason": "Branch of one movement, same window (c. 1380-1517), already told in that entry. Order rule applied: a branch stays in its covering entry unless its story and sources differ from the parent's.",
+   "strength": "strong"
+  },
+  {
+   "number": 52,
+   "group": 6,
+   "group_title": "Told within an existing entry",
+   "name": "Capuchins",
+   "kind": "movement",
+   "likely_era": 7,
+   "likely_lane": "5 Latin West & Catholicism",
+   "dates_hint": null,
+   "citations": [
+    {
+     "file": "Build/worlds/_cross-world/dossiers/the-tridentine-church_Source_Readiness_Dossier.md",
+     "lines": "129",
+     "quote": "no source yet in the corpus speaks for the Capuchins or Ursulines"
+    }
+   ],
+   "why_no_home": "covered (stale note)",
+   "why_detail": "The Tridentine entry names the Capuchins among the new active orders; a Franciscan branch of the same period.",
+   "nearest_census": [
+    "the-tridentine-church",
+    "franciscan-order-era-6"
+   ],
+   "sources": {
+    "vendored": [],
+    "wanted": []
+   },
+   "recommendation": "merge into existing",
+   "merge_target": "the-tridentine-church",
+   "reason": "Order rule: orders and branches that rose inside a covering entry's window stay there unless they have their own vendored voice. None here.",
+   "strength": "strong"
+  },
+  {
+   "number": 53,
+   "group": 6,
+   "group_title": "Told within an existing entry",
+   "name": "Congregation of the Oratory (Philip Neri)",
+   "kind": "movement",
+   "likely_era": 7,
+   "likely_lane": "5 Latin West & Catholicism",
+   "dates_hint": null,
+   "citations": [
+    {
+     "file": "Build/worlds/_cross-world/dossiers/the-tridentine-church_Source_Readiness_Dossier.md",
+     "lines": "141",
+     "quote": "the new orders (the Oratory's Life of Philip Neri)"
+    }
+   ],
+   "why_no_home": "covered (stale note)",
+   "why_detail": "The Tridentine entry's text names the Oratorians among the new orders.",
+   "nearest_census": [
+    "the-tridentine-church",
+    "tridentine-parish-renewal-borromean-milan"
+   ],
+   "sources": {
+    "vendored": [
+     "bacci_life-of-st-philip-neri-v1_faber1847.txt"
+    ],
+    "wanted": []
+   },
+   "recommendation": "merge into existing",
+   "merge_target": "the-tridentine-church",
+   "reason": "One vendored Life, already used as the voice of the new orders in the Tridentine world. Order rule: stays inside.",
+   "strength": "strong"
+  },
+  {
+   "number": 54,
+   "group": 6,
+   "group_title": "Told within an existing entry",
+   "name": "Discalced Carmelite mission to Malabar (Sebastiani, Vincenzo Maria)",
+   "kind": "movement",
+   "likely_era": 7,
+   "likely_lane": "5 Latin West & Catholicism",
+   "dates_hint": "1656-1658 (dossier)",
+   "citations": [
+    {
+     "file": "Build/worlds/_cross-world/dossiers/carmelite-reform-and-spanish-mystics_Source_Readiness_Dossier.md",
+     "lines": "225-227",
+     "quote": "Whether the world ends at 1622 or its order continues into those missions is a question for the census owner."
+    }
+   ],
+   "why_no_home": "successor gap",
+   "why_detail": "The mission falls inside the St. Thomas Christians entry (1599-1665); the Carmelite world ends at 1622.",
+   "nearest_census": [
+    "st-thomas-christians-under-portuguese-pressure-d",
+    "carmelite-reform-and-spanish-mystics",
+    "the-carmelites"
+   ],
+   "sources": {
+    "vendored": [
+     "sebastiani_prima-speditione-indie-orientali-ita_1666.txt",
+     "sebastiani_seconda-speditione-indie-orientali-ita_1672.txt",
+     "vincenzo-maria_viaggio-indie-orientali-ita_1672.txt"
+    ],
+    "wanted": []
+   },
+   "recommendation": "merge into existing",
+   "merge_target": "st-thomas-christians-under-portuguese-pressure-d",
+   "reason": "A mission of an order inside another community's story and window; own books are vendored, so they speak there. The Carmelite world need not be extended.",
+   "strength": "moderate"
+  },
+  {
+   "number": 55,
+   "group": 6,
+   "group_title": "Told within an existing entry",
+   "name": "Finnish Lutheran church (Mikael Agricola)",
+   "kind": "movement",
+   "likely_era": 7,
+   "likely_lane": "6 Protestant & Evangelical",
+   "dates_hint": "Manual of 1549 (dossier)",
+   "citations": [
+    {
+     "file": "Build/worlds/_cross-world/dossiers/scandinavian-reformation-kingdoms_Source_Readiness_Dossier.md",
+     "lines": "179-180",
+     "quote": "The census names Agricola. No Agricola text is vendored; the Manual of 1549 is a verified lead"
+    }
+   ],
+   "why_no_home": "covered (stale note)",
+   "why_detail": "The Scandinavian entry's region reads 'Sweden-Finland' and names Agricola among its voices.",
+   "nearest_census": [
+    "scandinavian-reformation-kingdoms"
+   ],
+   "sources": {
+    "vendored": [
+     "anjou_history-of-the-reformation-in-sweden_mason1859.txt"
+    ],
+    "wanted": [
+     "Agricola, Käsikiria (1549) (queued)"
+    ]
+   },
+   "recommendation": "merge into existing",
+   "merge_target": "scandinavian-reformation-kingdoms",
+   "reason": "Already told; no own text vendored, so no basis for a separate entry or person.",
+   "strength": "strong"
+  },
+  {
+   "number": 56,
+   "group": 6,
+   "group_title": "Told within an existing entry",
+   "name": "Hutterites (Hutterite Brethren)",
+   "kind": "movement",
+   "likely_era": 7,
+   "likely_lane": "6 Protestant & Evangelical",
+   "dates_hint": null,
+   "citations": [
+    {
+     "file": "Build/worlds/_cross-world/dossiers/czech-churches-last-century_Source_Readiness_Dossier.md",
+     "lines": "117",
+     "quote": "The Hutterite Chronicle records the 1622 expulsion from Moravia."
+    },
+    {
+     "file": "Build/worlds/_cross-world/dossiers/the-anabaptist-movements_Source_Readiness_Dossier.md",
+     "lines": "127",
+     "quote": "`hutterite-brethren_geschichtbuch_wolkan1923-deu.txt` and `ausbund_lancaster1846-deu.txt`"
+    }
+   ],
+   "why_no_home": "merged into another entry",
+   "why_detail": "The Anabaptist entry already names the Hutterite communities in Moravia. The census has no later Hutterite or Mennonite entry, so the story after 1650 is a separate gap, not judged here.",
+   "nearest_census": [
+    "the-anabaptist-movements",
+    "czech-churches-last-century"
+   ],
+   "sources": {
+    "vendored": [
+     "hutterite-brethren_geschichtbuch_wolkan1923-deu.txt",
+     "hutterite-brethren_geschicht-buch-deu_wolkan1923.txt",
+     "hutterite-brethren_geschichts-buecher-oesterreich-ungarn-deu_beck1883.txt"
+    ],
+    "wanted": []
+   },
+   "recommendation": "merge into existing",
+   "merge_target": "the-anabaptist-movements",
+   "reason": "Strong sources, but the census tells Hutterites inside the Anabaptist entry; sub-group rule applied. A post-1650 Mennonite/Hutterite entry would be a successor gap for Mark.",
+   "strength": "strong"
+  },
+  {
+   "number": 57,
+   "group": 6,
+   "group_title": "Told within an existing entry",
+   "name": "Marian restoration (1553-1558)",
+   "kind": "movement",
+   "likely_era": 7,
+   "likely_lane": "6 Protestant & Evangelical",
+   "dates_hint": "1553-1558 (dossier)",
+   "citations": [
+    {
+     "file": "Build/worlds/_cross-world/dossiers/the-english-reformation-and-elizabethan-settleme_Source_Readiness_Dossier.md",
+     "lines": "106",
+     "quote": "The Marian church, 1553–1558, between this world and Recusant English Catholicism (VI.7)."
+    }
+   ],
+   "why_no_home": "covered (stale note)",
+   "why_detail": "The English Reformation entry already tells the Marian burnings; the dossier says these orders are inside its window.",
+   "nearest_census": [
+    "the-english-reformation-and-elizabethan-settleme",
+    "recusant-english-catholicism"
+   ],
+   "sources": {
+    "vendored": [
+     "church-of-england_visitation-articles-injunctions-v2-1536-1558_frere-kennedy1910.txt"
+    ],
+    "wanted": []
+   },
+   "recommendation": "merge into existing",
+   "merge_target": "the-english-reformation-and-elizabethan-settleme",
+   "reason": "A five-year regime, not a movement; the placement question is only whether the recusant entry also reads it.",
+   "strength": "strong"
+  },
+  {
+   "number": 58,
+   "group": 6,
+   "group_title": "Told within an existing entry",
+   "name": "Provençal Vaudois of Mérindol and Cabrières",
+   "kind": "movement",
+   "likely_era": 7,
+   "likely_lane": "6 Protestant & Evangelical",
+   "dates_hint": "1545 (dossier)",
+   "citations": [
+    {
+     "file": "Build/worlds/_cross-world/dossiers/the-waldensian-reformed-union_Source_Readiness_Dossier.md",
+     "lines": "189-190",
+     "quote": "Vaudois of Mérindol and Cabrières (1545) sit between this world and the Huguenots"
+    }
+   ],
+   "why_no_home": "merged into another entry",
+   "why_detail": "Waldensian communities of the 1530s-1550s; the union entry (1532-1655+) tells them or borders them.",
+   "nearest_census": [
+    "the-waldensian-reformed-union",
+    "the-huguenots",
+    "the-waldensians"
+   ],
+   "sources": {
+    "vendored": [],
+    "wanted": []
+   },
+   "recommendation": "merge into existing",
+   "merge_target": "the-waldensian-reformed-union",
+   "reason": "An episode of a covered body; the only record cited is Calvin's letters.",
+   "strength": "thin"
+  },
+  {
+   "number": 59,
+   "group": 6,
+   "group_title": "Told within an existing entry",
+   "name": "Ruthenian Orthodox brotherhoods (Lviv, Vilnius)",
+   "kind": "movement",
+   "likely_era": 7,
+   "likely_lane": "3 Greek East & Orthodoxy",
+   "dates_hint": null,
+   "citations": [
+    {
+     "file": "Build/worlds/_cross-world/dossiers/the-kyiv-mohyla-orthodox-revival_Source_Readiness_Dossier.md",
+     "lines": "125",
+     "quote": "Potii, Smotrycki and the Lviv brotherhood stay with the Brest pass."
+    },
+    {
+     "file": "Build/worlds/_cross-world/dossiers/the-kyiv-mohyla-orthodox-revival_Source_Readiness_Dossier.md",
+     "lines": "138",
+     "quote": "the Vilnius brotherhood's pamphlets of 1621-1632 (garbled)"
+    }
+   ],
+   "why_no_home": "merged into another entry",
+   "why_detail": "The Brest entry names Lviv and Vilnius; the Kyiv entry names brotherhoods. The dossier keeps them with the Brest pass.",
+   "nearest_census": [
+    "the-union-of-brest-and-ruthenian-greek-catholic-",
+    "the-kyiv-mohyla-orthodox-revival"
+   ],
+   "sources": {
+    "vendored": [
+     "arkhiv-iugo-zapadnoi-rossii_ch1-t7-pamiatniki-polemiki-vyshensky-mogila-rus_1887.txt"
+    ],
+    "wanted": []
+   },
+   "recommendation": "merge into existing",
+   "merge_target": "the-union-of-brest-and-ruthenian-greek-catholic-",
+   "reason": "Lay confraternities told in two covering entries; Lviv and Vilnius grouped here. No voice of their own except garbled pamphlets.",
+   "strength": "moderate"
+  },
+  {
+   "number": 60,
+   "group": 6,
+   "group_title": "Told within an existing entry",
+   "name": "Sebastian Franck",
+   "kind": "person",
+   "likely_era": 7,
+   "likely_lane": "6 Protestant & Evangelical",
+   "dates_hint": "wrote in the 1530s, died 1542 (dossier)",
+   "citations": [
+    {
+     "file": "Build/worlds/_cross-world/dossiers/family-of-love-and-spiritualists-franck-niclaes_Source_Readiness_Dossier.md",
+     "lines": "102",
+     "quote": "Franck wrote in the 1530s and died in 1542; the sources in hand connect him to the Anabaptist-Spiritualist milieu (Rembert 1899), not to Niclaes."
+    }
+   ],
+   "why_no_home": "covered (stale note)",
+   "why_detail": "The entry's own title and voices already carry Franck; the dossier asks only whether to split him from Niclaes.",
+   "nearest_census": [
+    "family-of-love-and-spiritualists-franck-niclaes",
+    "the-anabaptist-movements"
+   ],
+   "sources": {
+    "vendored": [
+     "franck_paradoxa-deu_rab1559.txt",
+     "franck_forbidden-fruit_anon1640.txt"
+    ],
+    "wanted": []
+   },
+   "recommendation": "merge into existing",
+   "merge_target": "family-of-love-and-spiritualists-franck-niclaes",
+   "reason": "Own writing is vendored, but he is a named voice of an existing entry. Ruling 14 asks for a party in his own right; the files show a split question, not a polemic or ruling. Mark could still choose to split.",
+   "strength": "moderate"
+  },
+  {
+   "number": 61,
+   "group": 6,
+   "group_title": "Told within an existing entry",
+   "name": "Swiss Brethren",
+   "kind": "movement",
+   "likely_era": 7,
+   "likely_lane": "6 Protestant & Evangelical",
+   "dates_hint": null,
+   "citations": [
+    {
+     "file": "Build/worlds/_cross-world/dossiers/the-anabaptist-movements_Source_Readiness_Dossier.md",
+     "lines": "135",
+     "quote": "mainstream Anabaptism (Swiss Brethren, Hubmaier, Menno) is doctrinally distinct from"
+    }
+   ],
+   "why_no_home": "merged into another entry",
+   "why_detail": "The Anabaptist entry opens with the Zurich radicals; the Swiss Brethren are its core, not a neighbor.",
+   "nearest_census": [
+    "the-anabaptist-movements"
+   ],
+   "sources": {
+    "vendored": [
+     "ausbund_lancaster1846-deu.txt",
+     "hubmaier_grund-und-ursach-deu_1527.txt"
+    ],
+    "wanted": []
+   },
+   "recommendation": "merge into existing",
+   "merge_target": "the-anabaptist-movements",
+   "reason": "The core of the Anabaptist entry; splitting it from the entry would leave the entry without its origin.",
+   "strength": "strong"
+  },
+  {
+   "number": 62,
+   "group": 6,
+   "group_title": "Told within an existing entry",
+   "name": "Ursulines",
+   "kind": "movement",
+   "likely_era": 7,
+   "likely_lane": "5 Latin West & Catholicism",
+   "dates_hint": null,
+   "citations": [
+    {
+     "file": "Build/worlds/_cross-world/dossiers/the-tridentine-church_Source_Readiness_Dossier.md",
+     "lines": "129",
+     "quote": "no source yet in the corpus speaks for the Capuchins or Ursulines"
+    }
+   ],
+   "why_no_home": "covered (stale note)",
+   "why_detail": "The Tridentine entry names the Ursulines among the new active orders.",
+   "nearest_census": [
+    "the-tridentine-church"
+   ],
+   "sources": {
+    "vendored": [],
+    "wanted": []
+   },
+   "recommendation": "merge into existing",
+   "merge_target": "the-tridentine-church",
+   "reason": "Same order rule: no vendored voice of their own.",
+   "strength": "strong"
+  },
+  {
+   "number": 63,
+   "group": 6,
+   "group_title": "Told within an existing entry",
+   "name": "Waterlander and Dordrecht Mennonites",
+   "kind": "movement",
+   "likely_era": 7,
+   "likely_lane": "6 Protestant & Evangelical",
+   "dates_hint": null,
+   "citations": [
+    {
+     "file": "Build/worlds/_cross-world/dossiers/the-anabaptist-movements_Source_Readiness_Dossier.md",
+     "lines": "70",
+     "quote": "prints the Waterlander confession of c. 1580"
+    }
+   ],
+   "why_no_home": "merged into another entry",
+   "why_detail": "Menno's congregations are already told in the Anabaptist entry; the two confessions are provisional rows there.",
+   "nearest_census": [
+    "the-anabaptist-movements"
+   ],
+   "sources": {
+    "vendored": [
+     "menno-simons_complete-works_funk1871.txt",
+     "dordrecht-confession_ministers-manual_elkhart1890.txt"
+    ],
+    "wanted": []
+   },
+   "recommendation": "merge into existing",
+   "merge_target": "the-anabaptist-movements",
+   "reason": "Same sub-group rule: a wing of the covering entry. Mennonites after 1650 have no entry; that gap is for Mark and sits in era 8.",
+   "strength": "strong"
+  },
+  {
+   "number": 64,
+   "group": 6,
+   "group_title": "Told within an existing entry",
+   "name": "Basilian Order (Ruthenian Uniate)",
+   "kind": "movement",
+   "likely_era": 8,
+   "likely_lane": "3<->5 bridge (Greek East / Latin West)",
+   "dates_hint": "1791 (Pochaiv press constitutions)",
+   "citations": [
+    {
+     "file": "Build/worlds/_cross-world/dossiers/ruthenian-uniate-18th-century_Source_Readiness_Dossier.md",
+     "lines": "81",
+     "quote": "the Basilian order's own constitutions from its Pochaiv press"
+    }
+   ],
+   "why_no_home": "merged into another entry",
+   "why_detail": "VII.28's text already names the Basilians; the order is a body inside the Uniate church.",
+   "nearest_census": [
+    "ruthenian-uniate-18th-century",
+    "the-union-of-brest-and-ruthenian-greek-catholic-"
+   ],
+   "sources": {
+    "vendored": [
+     "basilian-order_codex-constitutionum-ordinis-s-basilii-lat_1791.txt"
+    ],
+    "wanted": []
+   },
+   "recommendation": "merge into existing",
+   "merge_target": "ruthenian-uniate-18th-century",
+   "reason": "Rule: orders stay inside their church's entry in Eras VIII to IX. The constitutions are a source for VII.28.",
+   "strength": "moderate"
+  },
+  {
+   "number": 65,
+   "group": 6,
+   "group_title": "Told within an existing entry",
+   "name": "Carpathian (Munkacs) Greek Catholics",
+   "kind": "movement",
+   "likely_era": 8,
+   "likely_lane": "3<->5 bridge (Greek East / Latin West)",
+   "dates_hint": "1799 (Basilovits, vendored)",
+   "citations": [
+    {
+     "file": "Build/worlds/_cross-world/dossiers/ruthenian-uniate-18th-century_Source_Readiness_Dossier.md",
+     "lines": "73",
+     "quote": "Do the Carpathian (Munkács) Greek Catholics belong to this entry, or to a separate Habsburg Hungary entry?"
+    }
+   ],
+   "why_no_home": "merged into another entry",
+   "why_detail": "One vendored text (a Ruthenian Basilian's notice of the Munkacs foundation); the corpus map marks the placement as a ruling.",
+   "nearest_census": [
+    "ruthenian-uniate-18th-century",
+    "ruthenian-greek-catholic-polotsk-to-galicia"
+   ],
+   "sources": {
+    "vendored": [
+     "basilovits_brevis-notitia-fundationis-koriathovits-pars1-lat_1799.txt"
+    ],
+    "wanted": []
+   },
+   "recommendation": "merge into existing",
+   "merge_target": "ruthenian-uniate-18th-century",
+   "reason": "A regional branch of the same Ruthenian church with a single source. A separate entry would rest on one text.",
+   "strength": "thin"
+  },
+  {
+   "number": 66,
+   "group": 6,
+   "group_title": "Told within an existing entry",
+   "name": "Clapham evangelicals (Wilberforce, Hannah More)",
+   "kind": "movement",
+   "likely_era": 8,
+   "likely_lane": "6 Protestant & Evangelical",
+   "dates_hint": "1797 (Wilberforce's Practical View, vendored)",
+   "citations": [
+    {
+     "file": "Build/worlds/_cross-world/dossiers/restoration-georgian-church-of-england_Source_Readiness_Dossier.md",
+     "lines": "94",
+     "quote": "Wilberforce and More as Clapham evangelicals: here, or the Victorian church"
+    }
+   ],
+   "why_no_home": "merged into another entry",
+   "why_detail": "Wilberforce's Practical View is shelved under VII.20 and VIII.30; no Hannah More text or Clapham record is vendored.",
+   "nearest_census": [
+    "restoration-georgian-church-of-england",
+    "victorian-church-of-england"
+   ],
+   "sources": {
+    "vendored": [
+     "wilberforce_practical-view-of-the-prevailing-religious-system_dublin1797.txt"
+    ],
+    "wanted": []
+   },
+   "recommendation": "merge into existing",
+   "merge_target": "restoration-georgian-church-of-england",
+   "reason": "A circle inside the Church of England with one vendored voice. Rule: a group inside one church is told inside it. A missionary or abolitionist world would need its own sources first.",
+   "strength": "thin"
+  },
+  {
+   "number": 67,
+   "group": 6,
+   "group_title": "Told within an existing entry",
+   "name": "Colonial Anglican / Episcopal church (SPG colonial church)",
+   "kind": "movement",
+   "likely_era": 8,
+   "likely_lane": "6 Protestant & Evangelical",
+   "dates_hint": "1730 (Humphreys) and 1772 (Moss), per file names",
+   "citations": [
+    {
+     "file": "Build/worlds/_cross-world/dossiers/restoration-georgian-church-of-england_Source_Readiness_Dossier.md",
+     "lines": "93",
+     "quote": "The colonial church (Perry's collections): Georgian church or a future colonial-Anglican/Episcopal world"
+    }
+   ],
+   "why_no_home": "covered (stale note)",
+   "why_detail": "VII.20's region already reads England, Wales, Ireland and the colonies, and its text names the SPG of 1701.",
+   "nearest_census": [
+    "restoration-georgian-church-of-england"
+   ],
+   "sources": {
+    "vendored": [
+     "humphreys_historical-account-of-the-spg_1730.txt",
+     "moss_sermon-before-the-spg-1772_1772.txt"
+    ],
+    "wanted": []
+   },
+   "recommendation": "merge into existing",
+   "merge_target": "restoration-georgian-church-of-england",
+   "reason": "The census entry already claims the colonies. The Library holds the society's reports, not the colonial churches' own voice.",
+   "strength": "moderate"
+  },
+  {
+   "number": 68,
+   "group": 6,
+   "group_title": "Told within an existing entry",
+   "name": "Dauphine prophets of 1688-1689 and Isabeau Vincent",
+   "kind": "movement",
+   "likely_era": 8,
+   "likely_lane": "6 Protestant & Evangelical",
+   "dates_hint": "1688-1689 (as the dossier gives them)",
+   "citations": [
+    {
+     "file": "Build/worlds/_cross-world/dossiers/camisard-prophetism_Source_Readiness_Dossier.md",
+     "lines": "80",
+     "quote": "Isabeau Vincent and the 1688-1689 Dauphiné prophets predate this world's 1700 start;"
+    }
+   ],
+   "why_no_home": "covered (stale note)",
+   "why_detail": "VII.15's own text names Isabeau Vincent as the first widely reported case and lists her among its voices; her record comes only through outside observers.",
+   "nearest_census": [
+    "camisard-prophetism",
+    "church-of-the-desert-huguenots"
+   ],
+   "sources": {
+    "vendored": [
+     "brueys_histoire-du-fanatisme-t1-t2-fra_1755.txt"
+    ],
+    "wanted": []
+   },
+   "recommendation": "merge into existing",
+   "merge_target": "camisard-prophetism",
+   "reason": "Already told inside VII.15. No writing of her own, so she fails ruling 14 as a person; the 1688 prophets are the entry's own opening.",
+   "strength": "moderate"
+  },
+  {
+   "number": 69,
+   "group": 6,
+   "group_title": "Told within an existing entry",
+   "name": "Edinoverie (1800)",
+   "kind": "movement",
+   "likely_era": 8,
+   "likely_lane": "3 Greek East & Orthodoxy",
+   "dates_hint": "1800 (the census text)",
+   "citations": [
+    {
+     "file": "Build/worlds/_cross-world/dossiers/the-old-believers_Source_Readiness_Dossier.md",
+     "lines": "86",
+     "quote": "The census names both as later boundary events (1800, 1846);"
+    }
+   ],
+   "why_no_home": "covered (stale note)",
+   "why_detail": "VII.7's text names it as the 1800 boundary shared by the two churches and gives it as the reason its window ends in 1815.",
+   "nearest_census": [
+    "the-old-believers",
+    "russian-church-nikon-to-holy-synod"
+   ],
+   "sources": {
+    "vendored": [],
+    "wanted": []
+   },
+   "recommendation": "merge into existing",
+   "merge_target": "the-old-believers",
+   "reason": "A boundary event already inside VII.7. Nothing in the Library covers it as a body.",
+   "strength": "thin"
+  },
+  {
+   "number": 70,
+   "group": 6,
+   "group_title": "Told within an existing entry",
+   "name": "English Calvinistic Methodism (Whitefield's line)",
+   "kind": "movement",
+   "likely_era": 8,
+   "likely_lane": "6 Protestant & Evangelical",
+   "dates_hint": null,
+   "citations": [
+    {
+     "file": "Build/worlds/meth/Review-Artifacts/Doc02_Round3_Review.md",
+     "lines": "54",
+     "quote": "VII.6 is New England, 1734–c.1760, and cannot hold English Calvinistic Methodism."
+    }
+   ],
+   "why_no_home": "merged into another entry",
+   "why_detail": "Whitefield is already a named voice of VII.5 and VII.6, and the Welsh Calvinistic Methodists are in VII.10. His works are vendored; no Huntingdon text is.",
+   "nearest_census": [
+    "the-methodist-revival",
+    "the-welsh-revival-tradition",
+    "the-evangelical-awakening-in-new-england"
+   ],
+   "sources": {
+    "vendored": [
+     "whitefield_works-v1-letters-1734-1770_1771.txt",
+     "whitefield_works-v6-sermons_1771.txt",
+     "whitefield_two-first-parts-of-his-life-with-journals_1756.txt"
+    ],
+    "wanted": []
+   },
+   "recommendation": "merge into existing",
+   "merge_target": "the-methodist-revival",
+   "reason": "The files show a voice, not a separate English body with its own record. The Methodist build's open Whitefield question (the Methodist build's Open Gaps entry on Whitefield as a cross-world decision (2026-09-25)) is Mark's cross-world ruling; this does not settle it.",
+   "strength": "thin"
+  },
+  {
+   "number": 71,
+   "group": 6,
+   "group_title": "Told within an existing entry",
+   "name": "French Appellant movement (Unigenitus quarrel; Quesnel)",
+   "kind": "movement",
+   "likely_era": 8,
+   "likely_lane": "5 Latin West & Catholicism",
+   "dates_hint": null,
+   "citations": [
+    {
+     "file": "Build/worlds/_cross-world/dossiers/port-royal-jansenism_Source_Readiness_Dossier.md",
+     "lines": "75",
+     "quote": "Should they sit with Port-Royal, with church-of-utrecht, or with a French appellant world"
+    }
+   ],
+   "why_no_home": "merged into another entry",
+   "why_detail": "VII.19's text already carries Unigenitus and the Jansenist crisis in France; VII.25 carries the Utrecht church that came out of the quarrel. No appellants' own text is vendored.",
+   "nearest_census": [
+    "catholic-church-ancien-regime",
+    "church-of-utrecht",
+    "port-royal-jansenism"
+   ],
+   "sources": {
+    "vendored": [
+     "clement-xi_unigenitus-lat-eng_1713.txt"
+    ],
+    "wanted": []
+   },
+   "recommendation": "merge into existing",
+   "merge_target": "catholic-church-ancien-regime",
+   "reason": "The quarrel is the setup of VII.19 and VII.25. Unigenitus is the pope's text, not the appellants' voice; no body of their own is documented.",
+   "strength": "thin"
+  },
+  {
+   "number": 72,
+   "group": 6,
+   "group_title": "Told within an existing entry",
+   "name": "French Prophets in London (Marion, Lacy)",
+   "kind": "movement",
+   "likely_era": 8,
+   "likely_lane": "6 Protestant & Evangelical",
+   "dates_hint": "1707 (Marion's and Lacy's vendored Warnings)",
+   "citations": [
+    {
+     "file": "Build/worlds/_cross-world/dossiers/camisard-prophetism_Source_Readiness_Dossier.md",
+     "lines": "77",
+     "quote": "Should the Camisard prophets' London afterlife (Marion, Lacy, the Warnings) sit here as transmission"
+    },
+    {
+     "file": "cic/corpus-map/camisard-prophetism.yaml",
+     "lines": "90",
+     "quote": "An Englishman prophesying in the Camisard manner within months of their arrival; reception,"
+    }
+   ],
+   "why_no_home": "covered (stale note)",
+   "why_detail": "VII.15's text already says the prophets reached London and became the French Prophets; Marion's Warnings sit on its shelf as tradition and Lacy's as context.",
+   "nearest_census": [
+    "camisard-prophetism"
+   ],
+   "sources": {
+    "vendored": [
+     "marion_avertissements-prophetiques-fra_1707.txt",
+     "marion_prophetical-warnings_1707.txt",
+     "lacy-john_warnings-of-the-eternal-spirit_1707.txt",
+     "misson_cry-from-the-desart_lacy1707.txt"
+    ],
+    "wanted": []
+   },
+   "recommendation": "merge into existing",
+   "merge_target": "camisard-prophetism",
+   "reason": "Ruling 14: Marion and Lacy have writing of their own, but their voices are already told inside VII.15 and the files give the London group no dates or lasting body of its own. Not a person entry, not a new entry.",
+   "strength": "moderate"
+  },
+  {
+   "number": 73,
+   "group": 6,
+   "group_title": "Told within an existing entry",
+   "name": "Germantown Brethren (strand against Ephrata, 1728)",
+   "kind": "movement",
+   "likely_era": 8,
+   "likely_lane": "6 Protestant & Evangelical",
+   "dates_hint": "1728 (as the dossier gives the split)",
+   "citations": [
+    {
+     "file": "Build/worlds/_cross-world/dossiers/radical-pietism-and-the-brethren-dunkers-ephrata_Source_Readiness_Dossier.md",
+     "lines": "89",
+     "quote": "(Germantown Brethren versus Ephrata, a real split in 1728)"
+    }
+   ],
+   "why_no_home": "merged into another entry",
+   "why_detail": "The VII.3 entry is named for the Brethren and Ephrata together, and the dossier calls the split a Step 0 question for that world.",
+   "nearest_census": [
+    "radical-pietism-and-the-brethren-dunkers-ephrata"
+   ],
+   "sources": {
+    "vendored": [
+     "mack-alexander_writings-bilingual_columbiana1860.txt",
+     "brumbaugh_history-german-baptist-brethren_1899.txt",
+     "sauer-christopher_quarrel-with-beissel-1739_pennypacker1888.txt"
+    ],
+    "wanted": []
+   },
+   "recommendation": "merge into existing",
+   "merge_target": "radical-pietism-and-the-brethren-dunkers-ephrata",
+   "reason": "A strand inside an entry already built to hold both. Same rule as the Baptist branches.",
+   "strength": "moderate"
+  },
+  {
+   "number": 74,
+   "group": 6,
+   "group_title": "Told within an existing entry",
+   "name": "Gottfried Arnold",
+   "kind": "person",
+   "likely_era": 8,
+   "likely_lane": "6 Protestant & Evangelical",
+   "dates_hint": "1696 and 1699-1700 (the two works named)",
+   "citations": [
+    {
+     "file": "Build/worlds/_cross-world/dossiers/radical-pietism-and-the-brethren-dunkers-ephrata_Source_Readiness_Dossier.md",
+     "lines": "82",
+     "quote": "Whether Arnold is vendored under this world, under VII.2, or once for both"
+    }
+   ],
+   "why_no_home": "merged into another entry",
+   "why_detail": "The dossier says his works are German Pietism's own literature and that Mack, Hochmann and Beissel read them; no Arnold text is in cic/texts.",
+   "nearest_census": [
+    "german-pietism-spener-francke-halle",
+    "radical-pietism-and-the-brethren-dunkers-ephrata"
+   ],
+   "sources": {
+    "vendored": [],
+    "wanted": [
+     "Die erste Liebe (1696)",
+     "Unparteiische Kirchen- und Ketzer-Historie (1699-1700)"
+    ]
+   },
+   "recommendation": "merge into existing",
+   "merge_target": "radical-pietism-and-the-brethren-dunkers-ephrata",
+   "reason": "Fails ruling 14's evidence leg (no writing vendored) and is a voice inside German and Radical Pietism, not a party apart. Placement between VII.2 and VII.3 is the lead's call.",
+   "strength": "thin"
+  },
+  {
+   "number": 75,
+   "group": 6,
+   "group_title": "Told within an existing entry",
+   "name": "Griffith Jones's circulating schools",
+   "kind": "movement",
+   "likely_era": 8,
+   "likely_lane": "6 Protestant & Evangelical",
+   "dates_hint": "1750 and 1759-1760 (his vendored works)",
+   "citations": [
+    {
+     "file": "Build/worlds/_cross-world/dossiers/the-welsh-revival-tradition_Source_Readiness_Dossier.md",
+     "lines": "96",
+     "quote": "Griffith Jones's circulating schools could be an antecedent of this world"
+    }
+   ],
+   "why_no_home": "merged into another entry",
+   "why_detail": "Both his Welch Piety reports and his Welsh dialogues are already shelved under VII.10 as antecedent.",
+   "nearest_census": [
+    "the-welsh-revival-tradition",
+    "restoration-georgian-church-of-england"
+   ],
+   "sources": {
+    "vendored": [
+     "jones-griffith_welch-piety-1759-1760_1760.txt",
+     "jones-griffith_galwad-at-orseddfaingc-y-gras-cym_1750.txt"
+    ],
+    "wanted": []
+   },
+   "recommendation": "merge into existing",
+   "merge_target": "the-welsh-revival-tradition",
+   "reason": "Ruling 14: he has writings, but the corpus treats the schools as the revival's antecedent, not a party apart. An Anglican rector's schools are an institution, not a church body.",
+   "strength": "moderate"
+  },
+  {
+   "number": 76,
+   "group": 6,
+   "group_title": "Told within an existing entry",
+   "name": "Italian Jansenist reform (Pistoia)",
+   "kind": "movement",
+   "likely_era": 8,
+   "likely_lane": "5 Latin West & Catholicism",
+   "dates_hint": "1794 (Auctorem fidei, vendored)",
+   "citations": [
+    {
+     "file": "Build/worlds/_cross-world/dossiers/catholic-church-ancien-regime_Source_Readiness_Dossier.md",
+     "lines": "90",
+     "quote": "is Italian Jansenist reform this world's internal current or a separate entry's?"
+    }
+   ],
+   "why_no_home": "merged into another entry",
+   "why_detail": "Only the papal condemnation (Auctorem fidei) is vendored; the Pistoia acts themselves are left as a lead.",
+   "nearest_census": [
+    "catholic-church-ancien-regime",
+    "port-royal-jansenism"
+   ],
+   "sources": {
+    "vendored": [
+     "pius-vi_auctorem-fidei-lat_1794.txt"
+    ],
+    "wanted": [
+     "the Pistoia Atti (named as a lead in the dossier)"
+    ]
+   },
+   "recommendation": "merge into existing",
+   "merge_target": "catholic-church-ancien-regime",
+   "reason": "A current inside the Ancien Régime Church with no voice of its own in the Library. Rule: an internal current without its own vendored voice is told inside the parent.",
+   "strength": "thin"
+  },
+  {
+   "number": 77,
+   "group": 6,
+   "group_title": "Told within an existing entry",
+   "name": "Keithian Friends (George Keith's separation)",
+   "kind": "movement",
+   "likely_era": 8,
+   "likely_lane": "6 Protestant & Evangelical",
+   "dates_hint": "1770 (Morgan Edwards's Materials, per file name)",
+   "citations": [
+    {
+     "file": "Build/worlds/_cross-world/dossiers/the-quakers-religious-society-of-friends_Source_Readiness_Dossier.md",
+     "lines": "102",
+     "quote": "Morgan Edwards's Materials is linked here for the Keithian Friends who became Baptists;"
+    }
+   ],
+   "why_no_home": "merged into another entry",
+   "why_detail": "The Keithian schism is a split inside VII.1 and its Baptist outcome sits with VII.16; the census already gives Era IX its own Quaker separations entry.",
+   "nearest_census": [
+    "the-quakers-religious-society-of-friends",
+    "the-baptists",
+    "nineteenth-century-quakerism-separations"
+   ],
+   "sources": {
+    "vendored": [
+     "edwards-morgan_materials-history-of-baptists-pennsylvania_1770.txt"
+    ],
+    "wanted": []
+   },
+   "recommendation": "merge into existing",
+   "merge_target": "the-quakers-religious-society-of-friends",
+   "reason": "Rule: a schism inside one body is told inside the era's entry. Only an outside witness (Edwards) is vendored, not the Keithians' own voice.",
+   "strength": "moderate"
+  },
+  {
+   "number": 78,
+   "group": 6,
+   "group_title": "Told within an existing entry",
+   "name": "Moravian missions to the enslaved (Danish West Indies) and the Inuit (Greenland, Labrador)",
+   "kind": "movement",
+   "likely_era": 8,
+   "likely_lane": "6 Protestant & Evangelical",
+   "dates_hint": "1767 (Cranz, Greenland), 1777 (Oldendorp), 1790 (Periodical Accounts), per file names",
+   "citations": [
+    {
+     "file": "Build/worlds/_cross-world/dossiers/the-moravian-church-at-herrnhut_Source_Readiness_Dossier.md",
+     "lines": "113",
+     "quote": "the enslaved and Inuit congregations they describe have no census entry of their own."
+    }
+   ],
+   "why_no_home": "merged into another entry",
+   "why_detail": "VII.4's text already names the St Thomas and Greenland missions; the converts' words survive only as the missionaries recorded them.",
+   "nearest_census": [
+    "the-moravian-church-at-herrnhut"
+   ],
+   "sources": {
+    "vendored": [
+     "oldendorp_geschichte-der-mission-caraibische-inseln-v1-deu_bossart1777.txt",
+     "cranz_history-of-greenland-v1_1767.txt",
+     "moravian-church_periodical-accounts-missions-v1_1790.txt"
+    ],
+    "wanted": []
+   },
+   "recommendation": "merge into existing",
+   "merge_target": "the-moravian-church-at-herrnhut",
+   "reason": "Same rule as Tranquebar: the record is the Moravians' own, so the missions stay inside VII.4. Era VI's separate mission-born entries rest on the congregations' own voices, which these lack.",
+   "strength": "moderate"
+  },
+  {
+   "number": 79,
+   "group": 6,
+   "group_title": "Told within an existing entry",
+   "name": "Nonjurors",
+   "kind": "movement",
+   "likely_era": 8,
+   "likely_lane": "6 Protestant & Evangelical",
+   "dates_hint": null,
+   "citations": [
+    {
+     "file": "Build/worlds/_cross-world/dossiers/restoration-georgian-church-of-england_Source_Readiness_Dossier.md",
+     "lines": "91",
+     "quote": "Nonjurors (Ken, Law, Thomas Smith): one world with the established church they left, or a separate strand?"
+    }
+   ],
+   "why_no_home": "covered (stale note)",
+   "why_detail": "VII.20's text says the Toleration Act of 1689 produced the nonjurors; Ken's works and Law's Serious Call are shelved there.",
+   "nearest_census": [
+    "restoration-georgian-church-of-england"
+   ],
+   "sources": {
+    "vendored": [
+     "ken_prose-works-with-letters_round1838.txt",
+     "law_serious-call-to-a-devout-and-holy-life_1729.txt"
+    ],
+    "wanted": []
+   },
+   "recommendation": "merge into existing",
+   "merge_target": "restoration-georgian-church-of-england",
+   "reason": "A strand of the established church; the files show no nonjuring body's own record. Rule: a branch within one church stays in the era's entry.",
+   "strength": "moderate"
+  },
+  {
+   "number": 80,
+   "group": 6,
+   "group_title": "Told within an existing entry",
+   "name": "Paisii of Hilendar",
+   "kind": "person",
+   "likely_era": 8,
+   "likely_lane": "3 Greek East & Orthodoxy",
+   "dates_hint": "1762 (his Istoriia, per the corpus map)",
+   "citations": [
+    {
+     "file": "Build/worlds/_cross-world/dossiers/orthodoxy-under-the-ottomans-1650-1821_Source_Readiness_Dossier.md",
+     "lines": "98",
+     "quote": "Paisii of Hilendar is placed here as provisional tradition."
+    },
+    {
+     "file": "cic/corpus-map/orthodoxy-under-the-ottomans-1650-1821.yaml",
+     "lines": "282",
+     "quote": "the Slav flocks; provisional because his book is also the founding text of a national"
+    }
+   ],
+   "why_no_home": "merged into another entry",
+   "why_detail": "His 1762 history is vendored and shelved under VII.18, with VIII.28 as a provisional antecedent row.",
+   "nearest_census": [
+    "orthodoxy-under-the-ottomans-1650-1821",
+    "orthodoxy-after-1821-balkan-autocephalies"
+   ],
+   "sources": {
+    "vendored": [
+     "paisii-hilendarski_istoriia-slavianobolgarskaia-bul_ivanov1914.txt"
+    ],
+    "wanted": []
+   },
+   "recommendation": "merge into existing",
+   "merge_target": "orthodoxy-under-the-ottomans-1650-1821",
+   "reason": "Ruling 14: he has writing of his own, but the corpus map calls his book the founding text of a national revival, so he is tied to a lasting movement, and his voice is already told inside VII.18. Not Paisius Velichkovsky (VII.8).",
+   "strength": "moderate"
+  },
+  {
+   "number": 81,
+   "group": 6,
+   "group_title": "Told within an existing entry",
+   "name": "Persons: George Liele and David George (Black Baptist thread)",
+   "kind": "person",
+   "likely_era": 8,
+   "likely_lane": "6 Protestant & Evangelical",
+   "dates_hint": "1791 and 1793 (Liele's account and George's narrative, per the census text)",
+   "citations": [
+    {
+     "file": "Build/worlds/_cross-world/dossiers/the-baptists_Source_Readiness_Dossier.md",
+     "lines": "93",
+     "quote": "Liele and David George: the Black Baptist thread"
+    }
+   ],
+   "why_no_home": "merged into another entry",
+   "why_detail": "VII.16's sources already name both; the dossier ties them to a lasting Black Baptist thread. Neither text is vendored.",
+   "nearest_census": [
+    "the-baptists",
+    "the-black-church-in-america"
+   ],
+   "sources": {
+    "vendored": [],
+    "wanted": [
+     "Liele's letters and account (1791)",
+     "David George's narrative (1793)"
+    ]
+   },
+   "recommendation": "merge into existing",
+   "merge_target": "the-baptists",
+   "reason": "Ruling 14 fails twice: no writing vendored, and the dossier links them to a lasting movement. Their home exists.",
+   "strength": "thin"
+  },
+  {
+   "number": 82,
+   "group": 6,
+   "group_title": "Told within an existing entry",
+   "name": "Separate Baptists, General Baptists (and Free Will Baptists named)",
+   "kind": "movement",
+   "likely_era": 8,
+   "likely_lane": "6 Protestant & Evangelical",
+   "dates_hint": "1654-1811 (General Baptist Assembly minutes, per file names); 1773 (Backus)",
+   "citations": [
+    {
+     "file": "Build/worlds/_cross-world/dossiers/the-evangelical-awakening-in-new-england_Source_Readiness_Dossier.md",
+     "lines": "95",
+     "quote": "The Separates who became Baptists (Backus) are the Baptist world's; nothing here claims them."
+    },
+    {
+     "file": "Build/worlds/_cross-world/dossiers/the-baptists_Source_Readiness_Dossier.md",
+     "lines": "94",
+     "quote": "The General Baptist assembly's Socinian and Unitarian disputes (vol. II) run parallel"
+    },
+    {
+     "file": "Build/worlds/_cross-world/dossiers/the-remonstrants-and-dort_Source_Readiness_Dossier.md",
+     "lines": "119",
+     "quote": "The Arminian line runs through the General Baptists, the Free Will Baptists and the Methodist family"
+    }
+   ],
+   "why_no_home": "merged into another entry",
+   "why_detail": "VII.16's text already tells the General and Particular split; Backus and both Assembly volumes are on its shelf. The census builds one Baptist entry per era (VII.16, VIII.35). Free Will Baptists appear only as a name in an audience line.",
+   "nearest_census": [
+    "the-baptists",
+    "nineteenth-century-baptists",
+    "english-old-dissent"
+   ],
+   "sources": {
+    "vendored": [
+     "backus-isaac_appeal-to-the-public-for-religious-liberty_1773.txt",
+     "general-baptist-assembly_minutes-v1-1654-1728_whitley1910.txt",
+     "general-baptist-assembly_minutes-v2-1731-1811_whitley1910.txt"
+    ],
+    "wanted": []
+   },
+   "recommendation": "merge into existing",
+   "merge_target": "the-baptists",
+   "reason": "Rule: denominational wings stay inside the era's single entry, as Baptists, Methodists and Quakers already do. Free Will Baptists have no Library evidence at all.",
+   "strength": "moderate"
+  },
+  {
+   "number": 83,
+   "group": 6,
+   "group_title": "Told within an existing entry",
+   "name": "Tamil congregation at Tranquebar (Halle mission)",
+   "kind": "movement",
+   "likely_era": 8,
+   "likely_lane": "6 Protestant & Evangelical",
+   "dates_hint": null,
+   "citations": [
+    {
+     "file": "Build/worlds/_cross-world/dossiers/german-pietism-spener-francke-halle_Source_Readiness_Dossier.md",
+     "lines": "96",
+     "quote": "The Tamil congregation has no census entry;"
+    }
+   ],
+   "why_no_home": "merged into another entry",
+   "why_detail": "VII.2 already names Ziegenbalg and Tranquebar; the vendored record is the missionary's letters, not the congregation's words.",
+   "nearest_census": [
+    "german-pietism-spener-francke-halle"
+   ],
+   "sources": {
+    "vendored": [
+     "ziegenbalg_propagation-of-the-gospel-in-the-east_boehm1718.txt"
+    ],
+    "wanted": []
+   },
+   "recommendation": "merge into existing",
+   "merge_target": "german-pietism-spener-francke-halle",
+   "reason": "Rule for mission-born congregations: if the Library holds only the sending body's account, the congregation stays inside the sending body's entry. Revisit if a Tamil voice is ever vendored.",
+   "strength": "moderate"
+  },
+  {
+   "number": 84,
+   "group": 6,
+   "group_title": "Told within an existing entry",
+   "name": "Welsh Independents and Welsh Old Dissent (Edmund Jones)",
+   "kind": "movement",
+   "likely_era": 8,
+   "likely_lane": "6 Protestant & Evangelical",
+   "dates_hint": "1779 and 1780 (Edmund Jones's two vendored works)",
+   "citations": [
+    {
+     "file": "Build/worlds/_cross-world/dossiers/english-old-dissent_Source_Readiness_Dossier.md",
+     "lines": "94",
+     "quote": "The Welsh Independents (Edmund Jones) and Welsh Old Dissent could belong here"
+    },
+    {
+     "file": "Build/worlds/_cross-world/dossiers/the-welsh-revival-tradition_Source_Readiness_Dossier.md",
+     "lines": "97",
+     "quote": "Edmund Jones and the Welsh Independents could belong here or with English Old Dissent"
+    }
+   ],
+   "why_no_home": "merged into another entry",
+   "why_detail": "VII.26's region is England and Wales, and its Congregationalist half is the Independents; Edmund Jones is already shelved under both VII.26 and VII.10.",
+   "nearest_census": [
+    "english-old-dissent",
+    "the-welsh-revival-tradition"
+   ],
+   "sources": {
+    "vendored": [
+     "jones-edmund_account-of-the-parish-of-aberystruth_1779.txt",
+     "jones-edmund_relation-of-apparitions-of-spirits-in-wales_1780.txt"
+    ],
+    "wanted": []
+   },
+   "recommendation": "merge into existing",
+   "merge_target": "english-old-dissent",
+   "reason": "Rule: a national branch of one lineage stays inside the era's entry. VII.26 already covers Wales by region; the Welsh Independents are its Congregationalists.",
+   "strength": "moderate"
+  },
+  {
+   "number": 85,
+   "group": 7,
+   "group_title": "Leave out",
+   "name": "Adoptionist Monarchianism",
+   "kind": "movement",
+   "likely_era": 1,
+   "likely_lane": "8 Beyond the Floor (researched & explained)",
+   "dates_hint": null,
+   "citations": [
+    {
+     "file": "cic/corpus-map/_staging/anf05_hippolytus-cyprian-caius-novatian.yaml",
+     "lines": "757",
+     "quote": "targets adoptionist Monarchianism, which has no census entry."
+    }
+   ],
+   "why_no_home": "merged into another entry",
+   "why_detail": "The Library has only the anti-Artemon fragment and Paul of Samosata's deposition; Paul's teaching is already in antiochene-church-third-century.",
+   "nearest_census": [
+    "antiochene-church-third-century",
+    "roman-church-third-century",
+    "modalist-monarchianism"
+   ],
+   "sources": {
+    "vendored": [
+     "anf05_hippolytus-cyprian-caius-novatian.xml"
+    ],
+    "wanted": []
+   },
+   "recommendation": "leave out",
+   "reason": "A label for a teaching known only from opponents' fragments; its one named case is already told in I.42.",
+   "strength": "thin"
+  },
+  {
+   "number": 86,
+   "group": 7,
+   "group_title": "Leave out",
+   "name": "Paul of Samosata (teaching)",
+   "kind": "person",
+   "likely_era": 1,
+   "likely_lane": "3 Greek East & Orthodoxy",
+   "dates_hint": null,
+   "citations": [
+    {
+     "file": "Build/worlds/_cross-world/NEEDS-RULING.md",
+     "lines": "53",
+     "quote": "Paul's own teaching stays an unregistered floor question"
+    }
+   ],
+   "why_no_home": "covered (stale note)",
+   "why_detail": "antiochene-church-third-century now tells him in text and voices ('surviving only in his enemies' minutes') and its floor note names the open question.",
+   "nearest_census": [
+    "antiochene-church-third-century",
+    "modalist-monarchianism"
+   ],
+   "sources": {
+    "vendored": [
+     "anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml"
+    ],
+    "wanted": []
+   },
+   "recommendation": "leave out",
+   "reason": "Already told in I.42; nothing further to add.",
+   "strength": "thin"
+  },
+  {
+   "number": 87,
+   "group": 7,
+   "group_title": "Leave out",
+   "name": "Fastidius",
+   "kind": "person",
+   "likely_era": 2,
+   "likely_lane": "5 Latin West & Catholicism",
+   "dates_hint": null,
+   "citations": [
+    {
+     "file": "Build/worlds/_cross-world/dossiers/british-welsh-christianity_Source_Readiness_Dossier.md",
+     "lines": "69",
+     "quote": "Pelagius, Fastidius and Germanus (before 451): antecedents here, or wholly pelagianism's?"
+    }
+   ],
+   "why_no_home": "missing",
+   "why_detail": "Named only through Gennadius (dossier line 28); no text of his is vendored and no census entry names him.",
+   "nearest_census": [
+    "british-welsh-christianity",
+    "pelagianism"
+   ],
+   "sources": {
+    "vendored": [
+     "npnf203_theodoret-jerome-gennadius-rufinus.xml"
+    ],
+    "wanted": []
+   },
+   "recommendation": "leave out",
+   "reason": "No own writings or recorded position in the Library beyond a catalog notice.",
+   "strength": "thin"
+  },
+  {
+   "number": 88,
+   "group": 7,
+   "group_title": "Leave out",
+   "name": "Hydatius",
+   "kind": "person",
+   "likely_era": 2,
+   "likely_lane": "5 Latin West & Catholicism",
+   "dates_hint": "Chronicle entry dated May 429 (NEEDS-RULING note)",
+   "citations": [
+    {
+     "file": "Build/worlds/_cross-world/NEEDS-RULING.md",
+     "lines": "396",
+     "quote": "The staging file for this volume has no row for Hydatius at all"
+    }
+   ],
+   "why_no_home": "missing",
+   "why_detail": "A chronicle with no shelf; a source placement question for the Library, not a body or a party.",
+   "nearest_census": [
+    "nicene-visigothic-iberia",
+    "priscillianist-asceticism"
+   ],
+   "sources": {
+    "vendored": [],
+    "wanted": []
+   },
+   "recommendation": "leave out",
+   "reason": "A witness, not a party in a controversy; shelf placement belongs to the Library thread.",
+   "strength": "thin"
+  },
+  {
+   "number": 89,
+   "group": 7,
+   "group_title": "Leave out",
+   "name": "Marutha of Maipherqat",
+   "kind": "person",
+   "likely_era": 2,
+   "likely_lane": "1 Syriac East & Asia",
+   "dates_hint": null,
+   "citations": [
+    {
+     "file": "cic/corpus-map/_staging/maruta-of-maipherqat_de-sancta-nicaena-synodo-syrische-texte-deu_braun1898.yaml",
+     "lines": "25",
+     "quote": "Placed here as the nearest entry to Marutha's own milieu;"
+    }
+   ],
+   "why_no_home": "covered (stale note)",
+   "why_detail": "persian-church-of-the-east-early already names him in its voices ('bishop and envoy'); the shelf note is only about which shelf holds his dossier, and its attribution to him is 'not secure'.",
+   "nearest_census": [
+    "persian-church-of-the-east-early",
+    "syriac-edessa-nisibis"
+   ],
+   "sources": {
+    "vendored": [
+     "maruta-of-maipherqat_de-sancta-nicaena-synodo-syrische-texte-deu_braun1898.txt"
+    ],
+    "wanted": []
+   },
+   "recommendation": "leave out",
+   "reason": "Told in I.12's voices already; a shelf-placement question, not a tree gap.",
+   "strength": "thin"
+  },
+  {
+   "number": 90,
+   "group": 7,
+   "group_title": "Leave out",
+   "name": "Massilian ('semi-Pelagian') phase",
+   "kind": "movement",
+   "likely_era": 2,
+   "likely_lane": "5 Latin West & Catholicism",
+   "dates_hint": "Augustine's treatise to the Hadrumetum monks 426/427 (note)",
+   "citations": [
+    {
+     "file": "cic/corpus-map/_staging/npnf105_augustine-anti-pelagian-writings.yaml",
+     "lines": "338",
+     "quote": "The census has no separate entry for the"
+    }
+   ],
+   "why_no_home": "covered (stale note)",
+   "why_detail": "gallic-monastic-ascetic-christianity now tells the Marseilles monks who resisted Augustine's late teaching on grace, with a link to I.8.",
+   "nearest_census": [
+    "gallic-monastic-ascetic-christianity",
+    "pelagianism"
+   ],
+   "sources": {
+    "vendored": [
+     "npnf105_augustine-anti-pelagian-writings.xml"
+    ],
+    "wanted": []
+   },
+   "recommendation": "leave out",
+   "reason": "Covered by the Gallic monastic entry; the note predates it.",
+   "strength": "thin"
+  },
+  {
+   "number": 91,
+   "group": 7,
+   "group_title": "Leave out",
+   "name": "Pagan critics",
+   "kind": "movement",
+   "likely_era": 2,
+   "likely_lane": "8 Beyond the Floor (researched & explained)",
+   "dates_hint": null,
+   "citations": [
+    {
+     "file": "cic/corpus-map/_staging/npnf102_augustine-city-of-god-christian-doctrine.yaml",
+     "lines": "114",
+     "quote": "pagan critics and Book X engages Porphyry, but the census has no pagan"
+    }
+   ],
+   "why_no_home": "missing",
+   "why_detail": "A category of opponents, not a body; the Library names Porphyry and 'pagan critics' only as targets inside Augustine's City of God.",
+   "nearest_census": [
+    "latin-pastoral-congregational-christianity"
+   ],
+   "sources": {
+    "vendored": [
+     "npnf102_augustine-city-of-god-christian-doctrine.xml"
+    ],
+    "wanted": []
+   },
+   "recommendation": "leave out",
+   "reason": "A category, not a community; no pagan texts are shelved as a body.",
+   "strength": "thin"
+  },
+  {
+   "number": 92,
+   "group": 7,
+   "group_title": "Leave out",
+   "name": "Syrian or urban asceticism of the fourth century",
+   "kind": "movement",
+   "likely_era": 2,
+   "likely_lane": "1 Syriac East & Asia",
+   "dates_hint": null,
+   "citations": [
+    {
+     "file": "cic/corpus-map/_staging/npnf109_chrysostom-priesthood-ascetic-homilies-statutes.yaml",
+     "lines": "39",
+     "quote": "no census entry covers Syrian/urban asceticism of this period."
+    },
+    {
+     "file": "cic/corpus-map/_staging/npnf206_jerome-principal-works.yaml",
+     "lines": "116",
+     "quote": "no census entry"
+    },
+    {
+     "file": "Build/worlds/aec/Source_Registry.md",
+     "lines": "19",
+     "quote": "no census entry covers Syrian or urban asceticism"
+    }
+   ],
+   "why_no_home": "covered (stale note)",
+   "why_detail": "Jerome's Hilarion and Malchus are now on palestinian-ascetic-monasticism-early; the covenant is told in the Edessa entry; Chrysostom's treatises sit on I.13. What remains is a theme, not a body with texts of its own.",
+   "nearest_census": [
+    "palestinian-ascetic-monasticism-early",
+    "syriac-edessa-nisibis",
+    "antiochene-exegetical-christianity-chrysostom-ce"
+   ],
+   "sources": {
+    "vendored": [
+     "npnf109_chrysostom-priesthood-ascetic-homilies-statutes.xml",
+     "npnf206_jerome-principal-works.xml"
+    ],
+    "wanted": []
+   },
+   "recommendation": "leave out",
+   "reason": "A theme spread over three entries; no distinct community or own-voice sources.",
+   "strength": "thin"
+  },
+  {
+   "number": 93,
+   "group": 7,
+   "group_title": "Leave out",
+   "name": "Ahudemmeh",
+   "kind": "person",
+   "likely_era": 3,
+   "likely_lane": "1 Syriac East & Asia",
+   "dates_hint": null,
+   "citations": [
+    {
+     "file": "Build/worlds/_cross-world/dossiers/the-church-of-the-east-under-persia_Source_Readiness_Dossier.md",
+     "lines": "93",
+     "quote": "West Syriac bishops working inside Persia (Simeon of Beth Arsham, Ahudemmeh): placement rule."
+    }
+   ],
+   "why_no_home": "missing",
+   "why_detail": "Appears only in a modern French study of Persian Christianity (Labourt) and a manuscript reference; no text of his or a Life is vendored.",
+   "nearest_census": [
+    "the-church-of-the-east-under-persia",
+    "syriac-orthodox-west-syriac-christianity"
+   ],
+   "sources": {
+    "vendored": [],
+    "wanted": []
+   },
+   "recommendation": "leave out",
+   "reason": "No Library evidence of his own.",
+   "strength": "thin"
+  },
+  {
+   "number": 94,
+   "group": 7,
+   "group_title": "Leave out",
+   "name": "Shushanik",
+   "kind": "person",
+   "likely_era": 3,
+   "likely_lane": "2 Caucasus",
+   "dates_hint": null,
+   "citations": [
+    {
+     "file": "Build/worlds/_cross-world/dossiers/armenian-christianity-after-avarayr_Source_Readiness_Dossier.md",
+     "lines": "70",
+     "quote": "Shushanik: which entry holds her Armenian synaxarion notice as tradition, and which as context (Georgia)?"
+    }
+   ],
+   "why_no_home": "covered (stale note)",
+   "why_detail": "georgian-christianity names her and her chaplain's account in its voices; the dossier line is a shelf-role question.",
+   "nearest_census": [
+    "georgian-christianity",
+    "armenian-christianity-after-avarayr"
+   ],
+   "sources": {
+    "vendored": [],
+    "wanted": []
+   },
+   "recommendation": "leave out",
+   "reason": "Already a voice in the Georgian entry.",
+   "strength": "thin"
+  },
+  {
+   "number": 95,
+   "group": 7,
+   "group_title": "Leave out",
+   "name": "Iconoclasm",
+   "kind": "movement",
+   "likely_era": 4,
+   "likely_lane": "3 Greek East & Orthodoxy",
+   "dates_hint": null,
+   "citations": [
+    {
+     "file": "Build/worlds/_cross-world/NEEDS-RULING.md",
+     "lines": "343",
+     "quote": "Hermogenes, Bardaisan, and iconoclasm"
+    }
+   ],
+   "why_no_home": "covered (stale note)",
+   "why_detail": "byzantine-imperial-church-heraclian-iconoclast (622-843) now tells it, with Hieria 754 and Nicaea 787, and Nicaea II's acts are shelved there.",
+   "nearest_census": [
+    "byzantine-imperial-church-heraclian-iconoclast",
+    "iconophile-byzantine-monasticism"
+   ],
+   "sources": {
+    "vendored": [],
+    "wanted": []
+   },
+   "recommendation": "leave out",
+   "reason": "Covered by the Heraclian and Iconoclast entry; the note predates it.",
+   "strength": "thin"
+  },
+  {
+   "number": 96,
+   "group": 7,
+   "group_title": "Leave out",
+   "name": "Brigittine order",
+   "kind": "movement",
+   "likely_era": 6,
+   "likely_lane": "5 Latin West & Catholicism",
+   "dates_hint": null,
+   "citations": [
+    {
+     "file": "Build/worlds/_cross-world/dossiers/latin-papal-church-avignon-to-lateran-v_Source_Readiness_Dossier.md",
+     "lines": "117",
+     "quote": "If a Dominican or a Brigittine entry is ever opened, the same files would serve it."
+    }
+   ],
+   "why_no_home": "merged into another entry",
+   "why_detail": "The dossier names it only as a possible future entry; no order record (rule, chronicle) is vendored.",
+   "nearest_census": [
+    "latin-papal-church-avignon-to-lateran-v"
+   ],
+   "sources": {
+    "vendored": [
+     "birgitta_revelationes-lat_duranti1628.txt",
+     "birgitta_revelations-enm_cumming1929.txt"
+    ],
+    "wanted": []
+   },
+   "recommendation": "leave out",
+   "reason": "Order rule: no order text of its own, only its founder's Revelations, which are already placed. Nothing to add.",
+   "strength": "thin"
+  },
+  {
+   "number": 97,
+   "group": 7,
+   "group_title": "Leave out",
+   "name": "Cypriot Chaldaeans (Church of the East in Cyprus, 1445 bull)",
+   "kind": "movement",
+   "likely_era": 6,
+   "likely_lane": "1 Syriac East & Asia",
+   "dates_hint": "1445 (bull, per dossier)",
+   "citations": [
+    {
+     "file": "Build/worlds/_cross-world/dossiers/maronite-christianity-era-6_Source_Readiness_Dossier.md",
+     "lines": "76",
+     "quote": "Nothing in the library says where the Cypriot Chaldaeans sit in the Atlas."
+    }
+   ],
+   "why_no_home": "missing",
+   "why_detail": "A small group named in a union bull; the files give no voice or record of their own.",
+   "nearest_census": [
+    "maronite-christianity-era-6",
+    "church-of-the-east-timur-to-hakkari"
+   ],
+   "sources": {
+    "vendored": [],
+    "wanted": []
+   },
+   "recommendation": "leave out",
+   "reason": "No Library evidence beyond one bull; not a body the files describe.",
+   "strength": "thin"
+  },
+  {
+   "number": 98,
+   "group": 7,
+   "group_title": "Leave out",
+   "name": "Armenian diaspora church in Poland (Lviv)",
+   "kind": "movement",
+   "likely_era": 7,
+   "likely_lane": "2 Caucasus",
+   "dates_hint": null,
+   "citations": [
+    {
+     "file": "Build/worlds/_cross-world/dossiers/armenian-christianity-new-julfa_Source_Readiness_Dossier.md",
+     "lines": "178-180",
+     "quote": "Armenian diaspora church in Poland may deserve its own mapping if the Ruthenian entries (VI.20) are built."
+    }
+   ],
+   "why_no_home": "merged into another entry",
+   "why_detail": "The dossier proposes one row for the 1634 union and no more; the Ruthenian entries it was waiting on now exist.",
+   "nearest_census": [
+    "armenian-christianity-new-julfa",
+    "the-union-of-brest-and-ruthenian-greek-catholic-"
+   ],
+   "sources": {
+    "vendored": [],
+    "wanted": []
+   },
+   "recommendation": "leave out",
+   "reason": "One proposed row, no vendored voice of its own. Reopen only if Armenian-in-Poland sources are acquired.",
+   "strength": "thin"
+  },
+  {
+   "number": 99,
+   "group": 7,
+   "group_title": "Leave out",
+   "name": "Carmelite and Capuchin missions at Isfahan",
+   "kind": "movement",
+   "likely_era": 7,
+   "likely_lane": "5 Latin West & Catholicism",
+   "dates_hint": null,
+   "citations": [
+    {
+     "file": "Build/worlds/_cross-world/dossiers/armenian-christianity-new-julfa_Source_Readiness_Dossier.md",
+     "lines": "175-177",
+     "quote": "The Carmelite and Capuchin missions at Isfahan (Tavernier lines 7635, 13456, 13478) bear on Latin-rite work in Persia; no census world covers them."
+    }
+   ],
+   "why_no_home": "missing",
+   "why_detail": "The only evidence is a traveler's account; no voice of the missions themselves is vendored.",
+   "nearest_census": [
+    "armenian-christianity-new-julfa",
+    "carmelite-reform-and-spanish-mystics",
+    "the-tridentine-church"
+   ],
+   "sources": {
+    "vendored": [
+     "tavernier_six-voyages-through-turky-into-persia-and-the-east-indies_phillips1678.txt"
+    ],
+    "wanted": []
+   },
+   "recommendation": "leave out",
+   "reason": "Outsider account only (Tavernier), no own sources. Order-mission rule: no mission of an order gets an entry without its own voice.",
+   "strength": "thin"
+  },
+  {
+   "number": 100,
+   "group": 7,
+   "group_title": "Leave out",
+   "name": "Jakob Böhme",
+   "kind": "person",
+   "likely_era": 7,
+   "likely_lane": "6 Protestant & Evangelical",
+   "dates_hint": null,
+   "citations": [
+    {
+     "file": "Build/worlds/_cross-world/dossiers/radical-pietism-and-the-brethren-dunkers-ephrata_Source_Readiness_Dossier.md",
+     "lines": "84",
+     "quote": "The 1764 Law edition of Böhme and the Ephrata press's 1811 Christosophia point to a Behmenist current"
+    }
+   ],
+   "why_no_home": "missing",
+   "why_detail": "The dossier says no census entry owns a Behmenist current. No Böhme text is vendored, and none is queued in the files read.",
+   "nearest_census": [
+    "radical-pietism-and-the-brethren-dunkers-ephrata",
+    "german-pietism-spener-francke-halle"
+   ],
+   "sources": {
+    "vendored": [],
+    "wanted": []
+   },
+   "recommendation": "leave out",
+   "reason": "Ruling 14 needs his own writing vendored; none is. The current the dossier names is a reception trail in later worlds, not a body.",
+   "strength": "thin"
+  },
+  {
+   "number": 101,
+   "group": 7,
+   "group_title": "Leave out",
+   "name": "Katharina Schütz Zell",
+   "kind": "person",
+   "likely_era": 7,
+   "likely_lane": "6 Protestant & Evangelical",
+   "dates_hint": null,
+   "citations": [
+    {
+     "file": "Build/worlds/witt/witt_Doc02_Round4_ZellCheck.md",
+     "lines": "203",
+     "quote": "no census world currently covers Strasbourg to receive her."
+    }
+   ],
+   "why_no_home": "covered (stale note)",
+   "why_detail": "The Wittenberg entry still names her as a voice; the review only asks to reconcile that.",
+   "nearest_census": [
+    "lutheran-wittenberg-and-its-congregations"
+   ],
+   "sources": {
+    "vendored": [],
+    "wanted": []
+   },
+   "recommendation": "leave out",
+   "reason": "No Zell text is vendored, so ruling 14's own-writing test fails; she stays a named voice in the Wittenberg entry.",
+   "strength": "thin"
+  },
+  {
+   "number": 102,
+   "group": 7,
+   "group_title": "Leave out",
+   "name": "Münsterite Anabaptism",
+   "kind": "movement",
+   "likely_era": 7,
+   "likely_lane": "6 Protestant & Evangelical",
+   "dates_hint": null,
+   "citations": [
+    {
+     "file": "Build/worlds/_cross-world/dossiers/the-anabaptist-movements_Source_Readiness_Dossier.md",
+     "lines": "139",
+     "quote": "Münster** is excluded as outside \"mainstream\"; none of the sources above are Münsterite"
+    }
+   ],
+   "why_no_home": "merged into another entry",
+   "why_detail": "The census entry already tells Münster; the dossier excludes it only from this world's Representative scope.",
+   "nearest_census": [
+    "the-anabaptist-movements"
+   ],
+   "sources": {
+    "vendored": [
+     "boehmer_urkunden-bauernkrieg-wiedertaeufer-deu_1910.txt"
+    ],
+    "wanted": [
+     "Cornelius 1853 (named in the dossier as available)"
+    ]
+   },
+   "recommendation": "leave out",
+   "reason": "No Münsterite voice is vendored. An episode of 1534-35 told in the covering entry, not a lasting body.",
+   "strength": "thin"
+  },
+  {
+   "number": 103,
+   "group": 7,
+   "group_title": "Leave out",
+   "name": "Roger Williams and John Clarke",
+   "kind": "person",
+   "likely_era": 7,
+   "likely_lane": "6 Protestant & Evangelical",
+   "dates_hint": null,
+   "citations": [
+    {
+     "file": "Build/worlds/_cross-world/dossiers/the-baptists_Source_Readiness_Dossier.md",
+     "lines": "96",
+     "quote": "Roger Williams and John Clarke (Rhode Island) could serve this world or New England. Neither is vendored yet."
+    }
+   ],
+   "why_no_home": "covered (stale note)",
+   "why_detail": "The Baptists entry (era 8) names Williams in its legacy.",
+   "nearest_census": [
+    "the-baptists",
+    "the-evangelical-awakening-in-new-england"
+   ],
+   "sources": {
+    "vendored": [],
+    "wanted": []
+   },
+   "recommendation": "leave out",
+   "reason": "Neither man's writings are vendored. Ruling 14 not met.",
+   "strength": "thin"
+  },
+  {
+   "number": 104,
+   "group": 7,
+   "group_title": "Leave out",
+   "name": "Separatists of Plymouth (Bradford)",
+   "kind": "movement",
+   "likely_era": 7,
+   "likely_lane": "6 Protestant & Evangelical",
+   "dates_hint": null,
+   "citations": [
+    {
+     "file": "Build/worlds/_cross-world/dossiers/puritanism_Source_Readiness_Dossier.md",
+     "lines": "114",
+     "quote": "Bradford's Plymouth history and Cotton's church-way treatises sit on the line between this world and the Separatist and Baptist entries; left as leads."
+    }
+   ],
+   "why_no_home": "missing",
+   "why_detail": "Bradford's Plymouth history is queued, not vendored; Puritanism (England, New England) and the Baptists already border it.",
+   "nearest_census": [
+    "puritanism",
+    "the-baptists",
+    "english-old-dissent"
+   ],
+   "sources": {
+    "vendored": [],
+    "wanted": [
+     "History of Plymouth Plantation, 1620-1647 (download-queue-seed.yaml)"
+    ]
+   },
+   "recommendation": "leave out",
+   "reason": "No vendored voice of its own. Reopen if the Plymouth history is acquired.",
+   "strength": "thin"
+  },
+  {
+   "number": 105,
+   "group": 7,
+   "group_title": "Leave out",
+   "name": "The Reformation in Strasbourg",
+   "kind": "movement",
+   "likely_era": 7,
+   "likely_lane": "6 Protestant & Evangelical",
+   "dates_hint": null,
+   "citations": [
+    {
+     "file": "Build/worlds/witt/witt_Doc02_Round4_ZellCheck.md",
+     "lines": "203",
+     "quote": "no census world currently covers Strasbourg to receive her."
+    }
+   ],
+   "why_no_home": "missing",
+   "why_detail": "Confirmed: only the Wittenberg and Rhineland entries mention Strasbourg.",
+   "nearest_census": [
+    "lutheran-wittenberg-and-its-congregations",
+    "the-reformed-cities-zurich-and-geneva",
+    "rhineland-mysticism-and-the-friends-of-god"
+   ],
+   "sources": {
+    "vendored": [],
+    "wanted": []
+   },
+   "recommendation": "leave out",
+   "reason": "No Bucer, Capito or Zell text is vendored; the review's gap rests on one person. Reopen if Strasbourg sources are acquired.",
+   "strength": "thin"
+  },
+  {
+   "number": 106,
+   "group": 7,
+   "group_title": "Leave out",
+   "name": "Persons: Lemuel Haynes and Jupiter Hammon",
+   "kind": "person",
+   "likely_era": 8,
+   "likely_lane": "6 Protestant & Evangelical",
+   "dates_hint": null,
+   "citations": [
+    {
+     "file": "Build/worlds/_cross-world/dossiers/the-evangelical-awakening-in-new-england_Source_Readiness_Dossier.md",
+     "lines": "94",
+     "quote": "Haynes and Hammon remain unfound."
+    }
+   ],
+   "why_no_home": "merged into another entry",
+   "why_detail": "VII.6's sources already list both as Black voices; no writing of either is vendored.",
+   "nearest_census": [
+    "the-evangelical-awakening-in-new-england",
+    "the-black-church-in-america"
+   ],
+   "sources": {
+    "vendored": [],
+    "wanted": [
+     "Haynes's sermons and Liberty Further Extended",
+     "Hammon's broadsides"
+    ]
+   },
+   "recommendation": "leave out",
+   "reason": "Ruling 14 needs their own writing in the Library, and none is vendored. Both are already named voices of VII.6. Revisit only if the texts are found.",
+   "strength": "thin"
+  },
+  {
+   "number": 107,
+   "group": 7,
+   "group_title": "Leave out",
+   "name": "Philadelphians (Behmenist current; English Philadelphian Society)",
+   "kind": "movement",
+   "likely_era": 8,
+   "likely_lane": "6 Protestant & Evangelical",
+   "dates_hint": null,
+   "citations": [
+    {
+     "file": "Build/worlds/_cross-world/dossiers/radical-pietism-and-the-brethren-dunkers-ephrata_Source_Readiness_Dossier.md",
+     "lines": "84",
+     "quote": "point to a Behmenist current that runs under this world"
+    }
+   ],
+   "why_no_home": "missing",
+   "why_detail": "The dossier infers a current from two later editions; no Behmenist or Philadelphian text is vendored.",
+   "nearest_census": [
+    "radical-pietism-and-the-brethren-dunkers-ephrata",
+    "the-moravian-church-at-herrnhut",
+    "german-pietism-spener-francke-halle"
+   ],
+   "sources": {
+    "vendored": [],
+    "wanted": [
+     "1764 Law edition of Böhme",
+     "Ephrata press Christosophia (1811)"
+    ]
+   },
+   "recommendation": "leave out",
+   "reason": "An inferred current with no Library text and no dates; a category the dossier read out of two reprints, not a body.",
+   "strength": "thin"
+  },
+  {
+   "number": 108,
+   "group": 7,
+   "group_title": "Leave out",
+   "name": "Pinsk congregation (Orthodox brotherhood of the Commonwealth)",
+   "kind": "movement",
+   "likely_era": 8,
+   "likely_lane": "3 Greek East & Orthodoxy",
+   "dates_hint": "1791 (as the dossier gives it)",
+   "citations": [
+    {
+     "file": "Build/worlds/_cross-world/dossiers/ruthenian-uniate-18th-century_Source_Readiness_Dossier.md",
+     "lines": "77",
+     "quote": "The Orthodox side of the Commonwealth (Pinsk congregation 1791; the Mohyla confession) is thin here;"
+    }
+   ],
+   "why_no_home": "missing",
+   "why_detail": "A name and a year in one dossier line; no vendored text or corpus-map row mentions it.",
+   "nearest_census": [
+    "ruthenian-uniate-18th-century",
+    "the-kyiv-mohyla-orthodox-revival"
+   ],
+   "sources": {
+    "vendored": [],
+    "wanted": []
+   },
+   "recommendation": "leave out",
+   "reason": "No Library evidence beyond the name. The Commonwealth's Orthodox side after 1700 may be a real hole, but nothing here supports an entry.",
+   "strength": "thin"
+  }
+ ]
+}

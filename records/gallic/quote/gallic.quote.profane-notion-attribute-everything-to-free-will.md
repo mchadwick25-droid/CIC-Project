@@ -18,8 +18,7 @@ confidence:
     will.
 sources:
 - source_id: gallic.source.cassian-conferences-part-ii
-  locus: "XIII.16 (npnf211 div iv.v.iv.xvi, file lines 38459-38465): the refusal of the opposite
-    extreme, that grace is earned by desert"
+  locus: "XIII.16 (cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml, lines 38459-38464; div iv.v.iv.xvi): the refusal of the opposite extreme, that grace is earned by desert"
   license: public-domain
 retrieval:
   tier: 2

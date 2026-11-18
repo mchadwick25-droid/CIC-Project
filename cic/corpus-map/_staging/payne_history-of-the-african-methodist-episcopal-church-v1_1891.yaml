@@ -1,0 +1,23 @@
+source_file: payne_history-of-the-african-methodist-episcopal-church-v1_1891.txt
+assignments:
+- row_id: payne_history-of-the-african-methodist-episcopal-church-v1_1891--history-of-the-african-methodist-episcopal-church-edited-by
+  work: History of the African Methodist Episcopal Church; edited by Rev. C. S. Smith (vol. I)
+  author: payne
+  locus: the outline of Daniel Coker's life and character at lines 5500-5700; the rest not mapped
+  atlas_ids:
+  - the-black-church-in-america
+  - nineteenth-century-methodism
+  role: tradition
+  confidence: provisional
+  language: eng
+  date:
+    start: 1891
+    end: 1891
+    source: 'the printing''s own title page: line 77, on the title page'
+    formation_confidence: Documented
+  edition_date:
+    year: 1891
+    source: line 77, on the title page
+    formation_confidence: Documented
+  note: 'Era 9 row 230, Daniel Coker: Payne''s history of his church, which tells of Coker (Coker''s own Dialogue
+    and Journal were not found in print).'

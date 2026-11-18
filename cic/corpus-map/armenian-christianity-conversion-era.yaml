@@ -3,6 +3,27 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: armenian-christianity-conversion-era
 works:
+- row_id: langlois_collection-historiens-armenie-tomes1-2-fra_1867-1869--agathangelos-history-french-langlois-1867
+  work: Agathangelos, History of Tiridates and of the preaching of Gregory the Illuminator,
+    French (Langlois 1867)
+  author: agathangelos
+  locus: Agathangelos from about OCR line 13550; add 12 to OCR line numbers
+  role: tradition
+  confidence: assigned
+  note: The Armenian church's own account of its founding patriarch, in French. The version
+    is usually dated after 451, and its date is not settled. The author's claim to be an eyewitness
+    is not accepted.
+  source_file: langlois_collection-historiens-armenie-tomes1-2-fra_1867-1869.txt
+- row_id: agathangelos_agathangelus-und-die-akten-gregors-von-armenien-grc-deu_lagarde1887--agathangelos-greek-version-lagarde-1887
+  work: Agathangelos, the Greek version, with the Acts of Gregory (Lagarde 1887)
+  author: agathangelos
+  locus: the Greek from about OCR line 195; add 12 to OCR line numbers
+  role: tradition
+  confidence: assigned
+  note: The old Greek translation of the Armenian life of Gregory. The version is usually
+    dated after 451, and its date is not settled. The Greek OCR is garbled, so quote only
+    from the page image.
+  source_file: agathangelos_agathangelus-und-die-akten-gregors-von-armenien-grc-deu_lagarde1887.txt
 - row_id: moses-khoren_history-of-armenians-ita_mechitaristi1850--history-of-the-armenians
   work: History of the Armenians
   author: moses-khoren
@@ -22,8 +43,32 @@ works:
   work: 'Moses of Chorene: History of Armenia (extract)'
   author: moses-of-chorene
   locus: div2 9.13
+  locus_ids:
+  - ix.xiii.i
+  - ix.xiii.i/notes
+  - ix.xiii.ii
+  - ix.xiii.ii/notes
+  - ix.xiii.iii
+  - ix.xiii.iii/notes
+  - ix.xiii.iv
+  - ix.xiii.iv/notes
+  - ix.xiii.v
+  - ix.xiii.v/notes
+  - ix.xiii.vi
+  - ix.xiii.vi/notes
+  - ix.xiii.vii
+  - ix.xiii.vii/notes
+  - ix.xiii.viii
+  - ix.xiii.viii/notes
+  - ix.xiii.ix
+  - ix.xiii.ix/notes
+  - ix.xiii.x
+  - ix.xiii.x/notes
+  - ix.xiii.xi
+  - ix.xiii.xi/notes
   role: tradition
   confidence: provisional
+  language: eng
   note: 'Armenian national history retelling the Abgar/Addai material — assigned to the Armenian
     conversion-era entry as its historiography and to syr for its subject. Moses'' traditional
     date is 5th c.; scholarship ranges to the 8th, which would move the Armenian id to a later

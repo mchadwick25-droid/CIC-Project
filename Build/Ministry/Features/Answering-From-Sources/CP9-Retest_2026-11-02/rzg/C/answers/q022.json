@@ -1,0 +1,152 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "rzg.limit.ordinary-daily-practice"
+   ],
+   "sentence": "We cannot walk you through an ordinary day, because what survives from our hand is confession, catechism, disputation record, and argument."
+  },
+  {
+   "record_ids": [
+    "rzg.limit.ordinary-daily-practice"
+   ],
+   "sentence": "How a Sunday service felt to sit through, or what a Consistory summons felt like to receive, has not reached us."
+  },
+  {
+   "record_ids": [
+    "rzg.term.consistory"
+   ],
+   "sentence": "What we can show is the frame around such a day, and at Geneva that frame was the Consistory, our body of pastors and lay elders."
+  },
+  {
+   "record_ids": [
+    "rzg.term.consistory"
+   ],
+   "sentence": "The Consistory held everyone to account for how they lived each day."
+  },
+  {
+   "record_ids": [
+    "rzg.term.consistory"
+   ],
+   "sentence": "At Zurich the council ruled church and city directly."
+  },
+  {
+   "record_ids": [
+    "rzg.gravity.council-led-authority-vs-consistorial-independence"
+   ],
+   "sentence": "We never settled between our two cities who holds the final word over church discipline."
+  },
+  {
+   "record_ids": [
+    "rzg.witness.one-supper-two-poles"
+   ],
+   "sentence": "At the Supper, the bread and cup were not a sacrifice repeated, and not Christ's body confined to what you can chew."
+  }
+ ],
+ "citations": [
+  "rzg.gravity.council-led-authority-vs-consistorial-independence",
+  "rzg.limit.ordinary-daily-practice",
+  "rzg.term.consistory",
+  "rzg.witness.one-supper-two-poles"
+ ],
+ "group": "A",
+ "id": "q022",
+ "net_sentences": [
+  {
+   "draft": "We cannot walk you through an ordinary day, because what survives from our hand is confession, catechism, disputation record, and argument [[rzg.limit.ordinary-daily-practice]] [[as:paraphrase]].",
+   "sentence": "We cannot walk you through an ordinary day, because what survives from our hand is confession, catechism, disputation record, and argument.",
+   "tags": [
+    "rzg.limit.ordinary-daily-practice"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "How a Sunday service felt to sit through, or what a Consistory summons felt like to receive, has not reached us [[rzg.limit.ordinary-daily-practice]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "How a Sunday service felt to sit through, or what a Consistory summons felt like to receive, has not reached us.",
+   "tags": [
+    "rzg.limit.ordinary-daily-practice"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "What we can show is the frame around such a day, and at Geneva that frame was the Consistory, our body of pastors and lay elders [[rzg.term.consistory]] [[as:paraphrase]].",
+   "ratio": 0.9,
+   "sentence": "What we can show is the frame around such a day, and at Geneva that frame was the Consistory, our body of pastors and lay elders.",
+   "tags": [
+    "rzg.term.consistory"
+   ],
+   "verdict": "ok",
+   "why": "grounded 90% in own tagged records"
+  },
+  {
+   "draft": "The Consistory held everyone to account for how they lived each day [[rzg.term.consistory]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "The Consistory held everyone to account for how they lived each day.",
+   "tags": [
+    "rzg.term.consistory"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "At Zurich the council ruled church and city directly [[rzg.term.consistory]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "At Zurich the council ruled church and city directly.",
+   "tags": [
+    "rzg.term.consistory"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "We never settled between our two cities who holds the final word over church discipline [[rzg.gravity.council-led-authority-vs-consistorial-independence]] [[as:paraphrase]].",
+   "ratio": 0.89,
+   "sentence": "We never settled between our two cities who holds the final word over church discipline.",
+   "tags": [
+    "rzg.gravity.council-led-authority-vs-consistorial-independence"
+   ],
+   "verdict": "ok",
+   "why": "grounded 89% in own tagged records"
+  },
+  {
+   "draft": "At the Supper, the bread and cup were not a sacrifice repeated, and not Christ's body confined to what you can chew [[rzg.witness.one-supper-two-poles]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "At the Supper, the bread and cup were not a sacrifice repeated, and not Christ's body confined to what you can chew.",
+   "tags": [
+    "rzg.witness.one-supper-two-poles"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  }
+ ],
+ "offered": [
+  "rzg.limit.ordinary-daily-practice",
+  "rzg.witness.a-quieted-mind",
+  "rzg.term.consistory",
+  "rzg.story.first-zurich-disputation",
+  "rzg.story.myconius-account-of-zwinglis-death",
+  "rzg.quote.zwinglis-last-words",
+  "rzg.witness.one-supper-two-poles",
+  "rzg.term.mutual-consent",
+  "rzg.quote.mass-not-a-sacrifice",
+  "rzg.quote.signs-and-things-signified",
+  "rzg.gravity.consistorial-church-discipline",
+  "rzg.gravity.council-led-authority-vs-consistorial-independence",
+  "rzg.passage.71baef974eb0"
+ ],
+ "raw_text": "We cannot walk you through an ordinary day, because what survives from our hand is confession, catechism, disputation record, and argument [[rzg.limit.ordinary-daily-practice]] [[as:paraphrase]].\nHow a Sunday service felt to sit through, or what a Consistory summons felt like to receive, has not reached us [[rzg.limit.ordinary-daily-practice]] [[as:paraphrase]].\nWhat we can show is the frame around such a day, and at Geneva that frame was the Consistory, our body of pastors and lay elders [[rzg.term.consistory]] [[as:paraphrase]].\nThe Consistory held everyone to account for how they lived each day [[rzg.term.consistory]] [[as:paraphrase]].\nAt Zurich the council ruled church and city directly [[rzg.term.consistory]] [[as:paraphrase]].\nWe never settled between our two cities who holds the final word over church discipline [[rzg.gravity.council-led-authority-vs-consistorial-independence]] [[as:paraphrase]].\nAt the Supper, the bread and cup were not a sacrifice repeated, and not Christ's body confined to what you can chew [[rzg.witness.one-supper-two-poles]] [[as:paraphrase]].\n",
+ "reply_shape": {
+  "placed": [],
+  "removed": [],
+  "repaired": []
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": "C12.S1",
+ "text": "We cannot walk you through an ordinary day, because what survives from our hand is confession, catechism, disputation record, and argument. How a Sunday service felt to sit through, or what a Consistory summons felt like to receive, has not reached us. What we can show is the frame around such a day, and at Geneva that frame was the Consistory, our body of pastors and lay elders. The Consistory held everyone to account for how they lived each day. At Zurich the council ruled church and city directly. We never settled between our two cities who holds the final word over church discipline. At the Supper, the bread and cup were not a sacrifice repeated, and not Christ's body confined to what you can chew.",
+ "voice_set_aside": false
+}

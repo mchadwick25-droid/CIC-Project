@@ -1,0 +1,185 @@
+{
+ "draft": "We held marriage to be a real good, and Augustine wrote a whole treatise to defend it [[lpc.witness.marriage-a-threefold-good]] [[as:paraphrase]]. He wrote it against those who thought that praising virginity meant condemning marriage [[lpc.witness.marriage-a-threefold-good]] [[as:paraphrase]].\n\nAugustine named three things marriage is good for: offspring, faithfulness, and what he called its sacrament [[lpc.witness.marriage-a-threefold-good]] [[as:paraphrase]]. Of that third good he wrote that a marriage compact is entered into as a matter of a certain sacrament [[lpc.witness.marriage-a-threefold-good]] [[as:paraphrase]]. Separation does not make that compact void [[lpc.witness.marriage-a-threefold-good]] [[as:paraphrase]].\n\nSo long as her husband lives, Augustine taught, a wife who marries another while separated from him still commits adultery [[lpc.witness.marriage-a-threefold-good]] [[as:paraphrase]]. That is a teaching about what marriage itself is and what it binds [[lpc.witness.marriage-a-threefold-good]] [[as:paraphrase]].\n",
+ "ending": "rewritten",
+ "final": "Augustine wrote his treatise on marriage against those who thought that praising virginity meant condemning marriage. Augustine named three things marriage is good for: offspring, faithfulness, and what he called its sacrament. Of the third good, Augustine wrote that a marriage compact is entered into as a matter of a certain sacrament. Separation does not make the marriage compact void. So long as her husband lives, Augustine taught, a wife who marries another while separated from him still commits adultery. Augustine's teaching on the separated wife is a teaching about what marriage itself is and what marriage binds.",
+ "group": "A",
+ "offered": [
+  "lpc.witness.marriage-a-threefold-good",
+  "lpc.term.reconciliation-penitential-discipline",
+  "lpc.story.election-of-cyprian",
+  "lpc.quote.let-it-be-the-office-of-love-to-feed-the-flock",
+  "lpc.gravity.pastoral-office-flock-keeping",
+  "lpc.force.decian-persecution-libelli-system",
+  "lpc.force.organized-carthaginian-church"
+ ],
+ "placements": [],
+ "question": "How did your community understand and mark marriage?",
+ "question_id": "q024",
+ "read": {
+  "dropped": [],
+  "status": "rewrite",
+  "unsupported": {
+   "0": {
+    "problem": "widened_scope",
+    "reason": "The record gives marriage as a real good only as Augustine's teaching (391 to 430), and the sentence states it as what we held.",
+    "supported": false
+   }
+  }
+ },
+ "rewrite": [
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "lpc.witness.marriage-a-threefold-good"
+   ],
+   "sentence": "Augustine wrote his treatise on marriage against those who thought that praising virginity meant condemning marriage.",
+   "tags": [
+    "lpc.witness.marriage-a-threefold-good"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "lpc.witness.marriage-a-threefold-good"
+   ],
+   "sentence": "Augustine named three things marriage is good for: offspring, faithfulness, and what he called its sacrament.",
+   "tags": [
+    "lpc.witness.marriage-a-threefold-good"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "lpc.witness.marriage-a-threefold-good"
+   ],
+   "sentence": "Of the third good, Augustine wrote that a marriage compact is entered into as a matter of a certain sacrament.",
+   "tags": [
+    "lpc.witness.marriage-a-threefold-good"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "lpc.witness.marriage-a-threefold-good"
+   ],
+   "sentence": "Separation does not make the marriage compact void.",
+   "tags": [
+    "lpc.witness.marriage-a-threefold-good"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "lpc.witness.marriage-a-threefold-good"
+   ],
+   "sentence": "So long as her husband lives, Augustine taught, a wife who marries another while separated from him still commits adultery.",
+   "tags": [
+    "lpc.witness.marriage-a-threefold-good"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "lpc.witness.marriage-a-threefold-good"
+   ],
+   "sentence": "Augustine's teaching on the separated wife is a teaching about what marriage itself is and what marriage binds.",
+   "tags": [
+    "lpc.witness.marriage-a-threefold-good"
+   ]
+  }
+ ],
+ "sentences": [
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 0,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "We held marriage to be a real good, and Augustine wrote a whole treatise to defend it.",
+   "tags": [
+    "lpc.witness.marriage-a-threefold-good"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 1,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "He wrote it against those who thought that praising virginity meant condemning marriage.",
+   "tags": [
+    "lpc.witness.marriage-a-threefold-good"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 2,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Augustine named three things marriage is good for: offspring, faithfulness, and what he called its sacrament.",
+   "tags": [
+    "lpc.witness.marriage-a-threefold-good"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 3,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Of that third good he wrote that a marriage compact is entered into as a matter of a certain sacrament.",
+   "tags": [
+    "lpc.witness.marriage-a-threefold-good"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 4,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Separation does not make that compact void.",
+   "tags": [
+    "lpc.witness.marriage-a-threefold-good"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 5,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "So long as her husband lives, Augustine taught, a wife who marries another while separated from him still commits adultery.",
+   "tags": [
+    "lpc.witness.marriage-a-threefold-good"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 6,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "That is a teaching about what marriage itself is and what it binds.",
+   "tags": [
+    "lpc.witness.marriage-a-threefold-good"
+   ]
+  }
+ ],
+ "shipped_by_net": "We held marriage to be a real good, and Augustine wrote a whole treatise to defend it. He wrote it against those who thought that praising virginity meant condemning marriage.\n\nAugustine named three things marriage is good for: offspring, faithfulness, and what he called its sacrament. Of that third good he wrote that a marriage compact is entered into as a matter of a certain sacrament. Separation does not make that compact void.\n\nSo long as her husband lives, Augustine taught, a wife who marries another while separated from him still commits adultery. That is a teaching about what marriage itself is and what it binds.",
+ "sub_question": "C8.S4"
+}

@@ -104,7 +104,7 @@ description: >-
 manifestations:
 - "Salvian's one book: the rich 'murdering the poor,' 'as many tyrants as curials,' Romans fleeing to the Goths and Bagaudae, the Gallic provinces burning as 'the ever-present judgment of God'"
 - "The barbarians 'rushing within the two divisions of Gaul' as the occasion of Martin's discharge (Vita IV)"
-- "Sixteen demons' false rumour of a barbarian inroad, exposed by exorcism - 'nothing was less in the minds of the barbarians' (Vita XVIII)"
+- "Sixteen demons' false rumor of a barbarian inroad, exposed by exorcism - 'nothing was less in the minds of the barbarians' (Vita XVIII)"
 - "Brictio, raised in Martin's monastery, accused of trading in barbarian captives (Dial. III.15) - the force let in as an accusation against one of the community's own"
 - "Gennadius's 'two monasteries ... which are still standing,' c. 495 - the institution surviving, in a text outside the window"
 - "Vincent's silence on the Vandals, read by his editor as deliberate; L\u00e9rins as 'a citadel inaccessible to the waves of barbarian invasion' (Gibson, quoting, editorial)"

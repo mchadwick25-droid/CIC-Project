@@ -3,6 +3,18 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: desert-monasticism
 works:
+- row_id: amelineau_histoire-de-saint-pakhome-annales-guimet-17_leroux1889--amelineau-s-introduction-1889
+  work: Amélineau's introduction to the Monuments (1889)
+  author: amelineau
+  locus: about OCR lines 77-4874 (cxii pages; it ends "Bruxelles, 24 décembre, 1886"); add
+    12 to OCR line numbers
+  role: context
+  confidence: provisional
+  language: fra
+  note: 'Nineteenth-century scholar''s apparatus: his survey of the sources of the Pachomian
+    history and of the Egyptian church. Not an ancient source; marked context for that reason.
+    Its judgments are his, of 1889, and must not be carried as the tradition''s.'
+  source_file: amelineau_histoire-de-saint-pakhome-annales-guimet-17_leroux1889.txt
 - row_id: anan-isho_paradise-v2-sayings_budge1907--the-paradise-of-the-holy-fathers-volume-ii-the-sayings-of
   work: The Paradise of the Holy Fathers, Volume II - the Sayings of the Fathers of Egypt
   author: anan-isho
@@ -18,6 +30,18 @@ works:
 
     '
   source_file: anan-isho_paradise-v2-sayings_budge1907.txt
+- row_id: amelineau_histoire-de-saint-pakhome-annales-guimet-17_leroux1889--arabic-life-of-pachomius-with-french
+  work: The Arabic Life of Pachomius, with Amélineau's French translation (1889)
+  author: arabic_life_of_pachomius
+  locus: about OCR lines 20362-38700; add 12 to OCR line numbers. The Arabic is garbage in
+    this OCR; the French is readable.
+  role: tradition
+  confidence: assigned
+  language: fra
+  note: 'A later, fuller Arabic version of the Pachomian Life in Amélineau''s French. Same
+    witness status: French checkable against the scan, Arabic and Coptic not readable from
+    this OCR. Cite as the Arabic Life in Amélineau''s French.'
+  source_file: amelineau_histoire-de-saint-pakhome-annales-guimet-17_leroux1889.txt
 - row_id: fleet-sweep-additions-npnf204--festal-letter-xxxix-367-the-canon-list-and-the-books--voice
   work: Festal Letter XXXIX (367) - the canon list and the books appointed to be read
   author: athanasius
@@ -32,8 +56,76 @@ works:
   work: Personal Letters of Athanasius
   author: athanasius
   locus: div3 under div2 25.3 — Personal Letters (Letters 46-64)
+  locus_ids:
+  - xxv.iii.iv.i
+  - xxv.iii.iv.i/notes
+  - xxv.iii.iv.ii
+  - xxv.iii.iv.ii/notes
+  - xxv.iii.iv.iii
+  - xxv.iii.iv.iii/notes
+  - xxv.iii.iv.iv/line71341
+  - xxv.iii.iv.iv/notes
+  - xxv.iii.iv.iv/line71371
+  - xxv.iii.iv.iv/line71398
+  - xxv.iii.iv.iv/line71418
+  - xxv.iii.iv.iv/line71457
+  - xxv.iii.iv.iv/line71483
+  - xxv.iii.iv.iv/line71504
+  - xxv.iii.iv.iv/line71531
+  - xxv.iii.iv.iv/line71547
+  - xxv.iii.iv.iv/line71570
+  - xxv.iii.iv.v
+  - xxv.iii.iv.v/notes
+  - xxv.iii.iv.vi
+  - xxv.iii.iv.vi/notes
+  - xxv.iii.iv.vii
+  - xxv.iii.iv.vii/notes
+  - xxv.iii.iv.viii
+  - xxv.iii.iv.viii/notes
+  - xxv.iii.iv.ix
+  - xxv.iii.iv.ix/notes
+  - xxv.iii.iv.x
+  - xxv.iii.iv.x/notes
+  - xxv.iii.iv.xi
+  - xxv.iii.iv.xi/notes
+  - xxv.iii.iv.xii
+  - xxv.iii.iv.xii/notes
+  - xxv.iii.iv.xiii
+  - xxv.iii.iv.xiii/notes
+  - xxv.iii.iv.xiv/line72459
+  - xxv.iii.iv.xiv/notes
+  - xxv.iii.iv.xiv/line72494
+  - xxv.iii.iv.xiv/line72536
+  - xxv.iii.iv.xiv/line72563
+  - xxv.iii.iv.xiv/line72605
+  - xxv.iii.iv.xiv/line72643
+  - xxv.iii.iv.xiv/line72675
+  - xxv.iii.iv.xiv/line72705
+  - xxv.iii.iv.xiv/line72740
+  - xxv.iii.iv.xiv/line72777
+  - xxv.iii.iv.xiv/line72801
+  - xxv.iii.iv.xiv/line72827
+  - xxv.iii.iv.xv/line72858
+  - xxv.iii.iv.xv/notes
+  - xxv.iii.iv.xv/line72894
+  - xxv.iii.iv.xv/line72923
+  - xxv.iii.iv.xv/line72957
+  - xxv.iii.iv.xv/line72989
+  - xxv.iii.iv.xv/line73024
+  - xxv.iii.iv.xv/line73056
+  - xxv.iii.iv.xv/line73088
+  - xxv.iii.iv.xvi
+  - xxv.iii.iv.xvi/notes
+  - xxv.iii.iv.xvii
+  - xxv.iii.iv.xvii/notes
+  - xxv.iii.iv.xviii
+  - xxv.iii.iv.xviii/notes
+  - xxv.iii.iv.xix
+  - xxv.iii.iv.xix/notes
+  - xxv.iii.iv.xx
   role: tradition
   confidence: assigned
+  language: eng
   note: 'The surviving personal correspondence, grouped as the volume groups it. Assigned
     to desert as well as Alexandria because several of its most substantial pieces are addressed
     into the monastic world (to Dracontius the monk-bishop, to Amun on ascetic questions,
@@ -46,8 +138,59 @@ works:
   author: athanasius
   locus: from "The Life of Saint Anthony, by Athanasius, Archbishop of Alexandria"; about
     14,800 words
+  locus_ids:
+  - line607
+  - line613
+  - line615
+  - line617
+  - line619
+  - line621
+  - line623
+  - line625
+  - line627
+  - line629
+  - line631
+  - line633
+  - line635
+  - line639
+  - line641
+  - line643
+  - line645
+  - line647
+  - line649
+  - line651
+  - line653
+  - line655
+  - line657
+  - line661
+  - line663
+  - line665
+  - line667
+  - line669
+  - line671
+  - line673
+  - line675
+  - line677
+  - line679
+  - line681
+  - line683
+  - line685
+  - line687
+  - line689
+  - line691
+  - line693
+  - line695
+  - line697
+  - line699
+  - line703
+  - line705
+  - line707
+  - line709
+  - line711
+  - line713
   role: tradition
   confidence: assigned
+  language: eng
   note: 'The Syriac Vita, ABRIDGED - about 14,800 words against roughly 32,000 in the NPNF
     Greek at npnf204, which both these entries already hold. Carried as a second witness for
     comparison rather than as a source to quote in preference: where the Syriac is shorter,
@@ -60,8 +203,133 @@ works:
   work: Vita Antonii (Life of Antony)
   author: athanasius
   locus: div1 'Life of Antony'
+  locus_ids:
+  - xvi.i/line33178
+  - xvi.i/line33222
+  - xvi.i/line33281
+  - xvi.i/line33316
+  - xvi.i/line33351
+  - xvi.i/line33384
+  - xvi.i/line33407
+  - xvi.i/notes
+  - xvi.i/line33444
+  - xvi.i/line33489
+  - xvi.i/line33515
+  - xvi.i/line33535
+  - xvi.i/line33563
+  - xvi.i/line33584
+  - xvi.i/line33629
+  - xvi.i/line33662
+  - xvi.i/line33734
+  - xvi.i/line33764
+  - xvi.ii.i
+  - xvi.ii.ii
+  - xvi.ii.ii/notes
+  - xvi.ii.iii
+  - xvi.ii.iii/notes
+  - xvi.ii.iv
+  - xvi.ii.iv/notes
+  - xvi.ii.v
+  - xvi.ii.v/notes
+  - xvi.ii.vi
+  - xvi.ii.vi/notes
+  - xvi.ii.vii
+  - xvi.ii.vii/notes
+  - xvi.ii.viii
+  - xvi.ii.viii/notes
+  - xvi.ii.ix
+  - xvi.ii.ix/notes
+  - xvi.ii.x
+  - xvi.ii.x/notes
+  - xvi.ii.xi/line34568
+  - xvi.ii.xi/notes
+  - xvi.ii.xi/line34595
+  - xvi.ii.xi/line34624
+  - xvi.ii.xi/line34662
+  - xvi.ii.xi/line34697
+  - xvi.ii.xi/line34717
+  - xvi.ii.xi/line34739
+  - xvi.ii.xi/line34761
+  - xvi.ii.xi/line34801
+  - xvi.ii.xi/line34820
+  - xvi.ii.xi/line34842
+  - xvi.ii.xi/line34857
+  - xvi.ii.xi/line34907
+  - xvi.ii.xi/line34927
+  - xvi.ii.xi/line34971
+  - xvi.ii.xi/line34989
+  - xvi.ii.xi/line35014
+  - xvi.ii.xi/line35059
+  - xvi.ii.xi/line35079
+  - xvi.ii.xi/line35099
+  - xvi.ii.xi/line35121
+  - xvi.ii.xi/line35152
+  - xvi.ii.xi/line35178
+  - xvi.ii.xi/line35203
+  - xvi.ii.xi/line35241
+  - xvi.ii.xii
+  - xvi.ii.xii/notes
+  - xvi.ii.xiii
+  - xvi.ii.xiii/notes
+  - xvi.ii.xiv
+  - xvi.ii.xiv/notes
+  - xvi.ii.xv
+  - xvi.ii.xv/notes
+  - xvi.ii.xvi
+  - xvi.ii.xvi/notes
+  - xvi.ii.xvii
+  - xvi.ii.xvii/notes
+  - xvi.ii.xviii
+  - xvi.ii.xviii/notes
+  - xvi.ii.xix
+  - xvi.ii.xx
+  - xvi.ii.xx/notes
+  - xvi.ii.xxi
+  - xvi.ii.xxii
+  - xvi.ii.xxii/notes
+  - xvi.ii.xxiii
+  - xvi.ii.xxiii/notes
+  - xvi.ii.xxiv
+  - xvi.ii.xxiv/notes
+  - xvi.ii.xxv
+  - xvi.ii.xxv/notes
+  - xvi.ii.xxvi
+  - xvi.ii.xxvii
+  - xvi.ii.xxvii/notes
+  - xvi.ii.xxviii
+  - xvi.ii.xxviii/notes
+  - xvi.ii.xxix
+  - xvi.ii.xxix/notes
+  - xvi.ii.xxx
+  - xvi.ii.xxxi
+  - xvi.ii.xxxi/notes
+  - xvi.ii.xxxii
+  - xvi.ii.xxxii/notes
+  - xvi.ii.xxxiii
+  - xvi.ii.xxxiii/notes
+  - xvi.ii.xxxiv
+  - xvi.ii.xxxiv/notes
+  - xvi.ii.xxxv
+  - xvi.ii.xxxv/notes
+  - xvi.ii.xxxvi
+  - xvi.ii.xxxvi/notes
+  - xvi.ii.xxxvii
+  - xvi.ii.xxxvii/notes
+  - xvi.ii.xxxviii
+  - xvi.ii.xxxix
+  - xvi.ii.xxxix/notes
+  - xvi.ii.xl
+  - xvi.ii.xli
+  - xvi.ii.xlii
+  - xvi.ii.xlii/notes
+  - xvi.ii.xliii
+  - xvi.ii.xliii/notes
+  - xvi.ii.xliv
+  - xvi.ii.xlv
+  - xvi.ii.xlvi
   role: tradition
   confidence: assigned
+  language: eng
   note: 'The single most influential text about the desert world, written from outside it
     by a bishop who was not a desert participant. Assigned to desert as primary evidence AND
     to Alexandria as its author''s own work - assignment is not exclusive, and an exclusive
@@ -74,26 +342,43 @@ works:
   author: bell
   locus: Part II — the Pageus/Hathor archive, incl. the dated 334 CE deputy-appointment contract
     (P.Lond. 1918, Phamenoth 23)
-  role: tradition
+  role: context
   confidence: provisional
-  note: 'Found by desert.source.bell-jews-christians-egypt (no corpus-map assignment given
-    at intake time); not previously assigned to any Atlas entry. Independently re-verified
-    directly against the vendored file, not just the source record''s own account: `grep`
-    on the raw text confirms 16 occurrences of "Pageus" and 13 of "Hathor", and the 334 CE
-    contract itself is present verbatim ("In the consulship of Flavius Optatus, Patrician,
-    and Anicius Paulinus the most illustrious, Phamenoth 23. Aurelius Pageus son of Horus...")
-    naming his brother Gerontius as deputy before departing for a council at Caesarea "concerning
-    the purgation of the holy Christian body". Real, dated, primary documentary evidence of
-    an actual eastern-desert monastic community (Hathor, upper Cynopolite nome, 330s-340s)
-    — its own legal and personal papers, not later commentary about it, so `role: tradition`
-    on the same footing this build gives its other papyrus-archive evidence. `confidence:
-    provisional`: the community is Melitian (schismatic), not Nicene-communion, and whether
-    it is representative of this world''s mainstream ascetic strands is not established (see
-    Doc_01 and this world''s own Open_Gaps_Tracking.md). No quote, story, or doctrinal_witness
-    record cites it; it is registered as available only.
+  note: 'The papers of a Melitian monastic community at Hathor in the upper Cynopolite nome,
+    330s-340s: its own letters, appeals and the dated contract of 334 naming Pageus''s deputy.
+    Contemporary with desert monasticism and from the same Egyptian desert, but a schismatic
+    community''s voice, not this entry''s own: the view from beside it. Its own-voice row
+    is on melitian-schism.
 
     '
   source_file: bell_jews-christians-egypt-meletian-papyri_1924.txt
+- row_id: amelineau_histoire-de-saint-pakhome-annales-guimet-17_leroux1889--bohairic-life-of-pachomius-with-french
+  work: The Life of Pachomius in the Bohairic dialect, with Amélineau's French translation
+    (1889)
+  author: bohairic_life_of_pachomius
+  locus: about OCR lines 4877-14793; add 12 to OCR line numbers. The Coptic is garbage in
+    this OCR; the French is what can be read.
+  role: tradition
+  confidence: assigned
+  language: fra
+  note: 'The Pachomian koinonia telling its own founding story, in Amélineau''s French of
+    the Coptic Life. A SECOND WITNESS FOR QUOTATION: the French can be quoted once checked
+    against the scan, but it is Amélineau''s translation, not the Coptic, and must be cited
+    as that. The Coptic OCR is unusable. Quote as the Bohairic Life in French; do not quote
+    it as Pachomius''s own words.'
+  source_file: amelineau_histoire-de-saint-pakhome-annales-guimet-17_leroux1889.txt
+- row_id: acta-sanctorum_maii-tomus-3-lat-grc_palme1866--bollandist-commentary-and-appendix-on-pachomius
+  work: The Bollandists' commentary on SS. Pachomius and Theodorus, with the Appendix on Pachomius
+    the Younger
+  author: bollandists
+  locus: commentary from about OCR line 78831; Appendix de Pachomio juniore about 94048-95390;
+    add 12 to OCR line numbers
+  role: context
+  confidence: provisional
+  language: lat
+  note: 'Seventeenth-century Jesuit editorial apparatus: the sources of the Life, Sozomen
+    on the rule, the dating of Pachomius. Not an ancient source; context for that reason.'
+  source_file: acta-sanctorum_maii-tomus-3-lat-grc_palme1866.txt
 - row_id: palladius_paradise-v1-syriac_budge1907--budge-s-preface-and-introduction-to-the-paradise-1907
   work: Budge's Preface and Introduction to the Paradise (1907)
   author: budge
@@ -219,6 +504,17 @@ works:
 
     '
   source_file: npnf203_theodoret-jerome-gennadius-rufinus.xml
+- row_id: jerome_opera-pl23-part1-with-regula-pachomii-lat_migne1883--jerome-s-preface-to-the-rule-of-pachomius
+  work: Jerome's preface to his translation of the Rule of Pachomius
+  author: jerome
+  locus: about OCR lines 4300-4505; add 12 to OCR line numbers
+  role: context
+  confidence: provisional
+  language: lat
+  note: 'A Latin outsider''s own account of why he translated it: the Latin monks of the Thebaid
+    and at Metanoia, the books sent by the presbyter Silvanus, Leontinus''s request. Context,
+    because Jerome is not of the koinonia. Voice of Jerome, not of Pachomius.'
+  source_file: jerome_opera-pl23-part1-with-regula-pachomii-lat_migne1883.txt
 - row_id: npnf206_jerome-principal-works--letter-xxii-to-eustochium-on-virginity
   work: Letter XXII (To Eustochium, on virginity)
   author: jerome
@@ -265,6 +561,33 @@ works:
 
     '
   source_file: npnf206_jerome-principal-works.xml
+- row_id: ladeuze_etude-sur-le-cenobitisme-pakhomien-fra_1898--etude-sur-le-cenobitisme-pakhomien-1898
+  work: Étude sur le cénobitisme pakhomien pendant le IVe siècle et la première moitié du
+    Ve (1898)
+  author: ladeuze
+  locus: whole file; preface about line 254, Part I (the sources) from 316, the koinonia under
+    Pachomius from 9163, under Shenoute from 11635; line numbers are this file's own
+  role: context
+  confidence: provisional
+  language: fra
+  note: 'A scholar''s dissertation of 1898 on the sources and history of Pachomian monasticism:
+    modern apparatus, not an ancient source. Useful for how the Lives were sorted and dated
+    by scholars then, and for finding passages in the Lives; its judgments are Ladeuze''s
+    of 1898.'
+  source_file: ladeuze_etude-sur-le-cenobitisme-pakhomien-fra_1898.txt
+- row_id: amelineau_histoire-de-saint-pakhome-annales-guimet-17_leroux1889--life-of-theodorus-with-sahidic-fragments
+  work: The Life of Theodorus, disciple of Pachomius, with Sahidic fragments, in Amélineau's
+    French (1889)
+  author: life_of_theodorus_disciple_of_pachomius
+  locus: about OCR lines 14793-20359; the Sahidic ("thébains") fragments from about 18509;
+    add 12 to OCR line numbers
+  role: tradition
+  confidence: assigned
+  language: fra
+  note: 'The life of Pachomius''s successor in the Coptic tradition, with the French beside
+    it. Same witness status as the Bohairic Life above: the French is readable and checkable,
+    the Coptic OCR is not.'
+  source_file: amelineau_histoire-de-saint-pakhome-annales-guimet-17_leroux1889.txt
 - row_id: macarius_fifty-spiritual-homilies_mason1921--fifty-spiritual-homilies-of-st-macarius-the-egyptian
   work: Fifty Spiritual Homilies of St. Macarius the Egyptian
   author: macarius
@@ -343,6 +666,21 @@ works:
 
     '
   source_file: origen_philocalia_lewis1911.txt
+- row_id: jerome_opera-pl23-part1-with-regula-pachomii-lat_migne1883--regula-pachomii-in-jerome-s-latin
+  work: The Rule of Pachomius (Praecepta, Instituta, Judicia, Monita and the letters of Theodorus),
+    Jerome's Latin translation, PL 23
+  author: pachomian_rule_latin_jerome
+  locus: Rule from about OCR line 4506; Praecepta et instituta 5655; Praecepta atque judicia
+    5915; Monita 6198; Easter letter to the monasteries to 7243; add 12 to OCR line numbers
+  role: tradition
+  confidence: assigned
+  language: lat
+  note: 'THE LATIN PACHOMIAN RULE, the 194-article text Schodde says he could not consult
+    (see the Ethiopic row of pachomius_rules-ethiopic_schodde1885). Latin of 1883 reprinting
+    Vallarsi, with the two columns run together in the OCR: quote only after a check against
+    the scan. Quote as the Pachomian legislation as Jerome rendered it (Jerome wrote it into
+    Latin from the Greek in about 404), never as Pachomius''s own Coptic words.'
+  source_file: jerome_opera-pl23-part1-with-regula-pachomii-lat_migne1883.txt
 - row_id: pachomius_rules-ethiopic_schodde1885--ethiopic-rules-aksumite-transmission--voice
   work: The Rules of Pachomius in their Ethiopic (Ge'ez) version
   author: pachomius
@@ -475,8 +813,617 @@ works:
   author: sozomen
   locus: div1 3 — esp. I.12-14, III.14, VI.28-34 (monks); II.9-14 (Persian martyrs); III.16
     (Ephraim); Books I-IV (Arian controversy); VIII (Chrysostom)
+  locus_ids:
+  - iii.i
+  - iii.ii.i/line19945
+  - iii.ii.i/notes
+  - iii.ii.i/line20044
+  - iii.ii.i/line20064
+  - iii.ii.i/line20096
+  - iii.ii.i/line20175
+  - iii.ii.i/line20190
+  - iii.ii.i/line20264
+  - iii.ii.i/line20315
+  - iii.ii.i/line20354
+  - iii.ii.i/line20387
+  - iii.ii.i/line20435
+  - iii.ii.i/line20454
+  - iii.ii.i/line20479
+  - iii.ii.i/line20535
+  - iii.ii.i/line20555
+  - iii.ii.i/line20597
+  - iii.ii.i/line20634
+  - iii.ii.ii/line20655
+  - iii.ii.ii/line20688
+  - iii.ii.ii/notes
+  - iii.ii.ii/line20716
+  - iii.ii.ii/line20754
+  - iii.ii.ii/line20784
+  - iii.ii.ii/line20819
+  - iii.ii.ii/line20846
+  - iii.ii.ii/line20870
+  - iii.ii.ii/line20933
+  - iii.ii.ii/line21003
+  - iii.ii.ii/line21136
+  - iii.ii.ii/line21163
+  - iii.ii.ii/line21231
+  - iii.ii.ii/line21253
+  - iii.ii.ii/line21373
+  - iii.ii.ii/line21435
+  - iii.ii.ii/line21503
+  - iii.ii.ii/line21589
+  - iii.ii.ii/line21641
+  - iii.ii.ii/line21715
+  - iii.ii.ii/line21738
+  - iii.ii.ii/line21781
+  - iii.ii.ii/line21844
+  - iii.ii.ii/line21892
+  - iii.ii.ii/line21918
+  - iii.ii.ii/line21950
+  - iii.ii.ii/line21980
+  - iii.ii.ii/line22032
+  - iii.ii.ii/line22065
+  - iii.ii.ii/line22081
+  - iii.ii.ii/line22102
+  - iii.ii.ii/line22150
+  - iii.ii.ii/line22177
+  - iii.ii.ii/line22196
+  - iii.ii.ii/line22234
+  - iii.ii.ii/line22254
+  - iii.ii.ii/line22289
+  - iii.ii.ii/line22321
+  - iii.ii.ii/line22403
+  - iii.ii.ii/line22460
+  - iii.ii.ii/line22809
+  - iii.ii.ii/line22998
+  - iii.ii.ii/line23135
+  - iii.ii.ii/line23228
+  - iii.ii.ii/line23352
+  - iii.ii.ii/line23481
+  - iii.ii.ii/line23600
+  - iii.ii.ii/line23647
+  - iii.ii.ii/line23675
+  - iii.ii.ii/line23720
+  - iii.ii.ii/line23745
+  - iii.ii.ii/line23781
+  - iii.ii.ii/line23856
+  - iii.ii.ii/line23901
+  - iii.ii.ii/line23931
+  - iii.ii.ii/line23987
+  - iii.ii.ii/line24032
+  - iii.ii.iii/line24087
+  - iii.ii.iii/line24178
+  - iii.ii.iii/line24237
+  - iii.ii.iii/line24266
+  - iii.ii.iii/line24294
+  - iii.ii.iii/line24336
+  - iii.ii.iii/line24378
+  - iii.ii.iii/line24438
+  - iii.ii.iii/line24490
+  - iii.ii.iii/line24543
+  - iii.ii.iii/line24614
+  - iii.ii.iii/line24673
+  - iii.ii.iii/line24707
+  - iii.ii.iii/line24766
+  - iii.ii.iii/line24864
+  - iii.ii.iii/line24947
+  - iii.ii.iii/line25004
+  - iii.ii.iii/line25064
+  - iii.ii.iii/line25119
+  - iii.ii.iii/line25183
+  - iii.ii.iii/line25240
+  - iii.ii.iii/line25306
+  - iii.ii.iii/line25364
+  - iii.ii.iv
+  - iii.iii
+  - iii.iv
+  - iii.v
+  - iii.v/notes
+  - iii.vi.i
+  - iii.vi.i/notes
+  - iii.vi.ii
+  - iii.vi.ii/notes
+  - iii.vi.iii
+  - iii.vi.iii/notes
+  - iii.vi.iv
+  - iii.vi.iv/notes
+  - iii.vi.v
+  - iii.vi.v/notes
+  - iii.vi.vi
+  - iii.vi.vi/notes
+  - iii.vi.vii
+  - iii.vi.vii/notes
+  - iii.vi.viii
+  - iii.vi.viii/notes
+  - iii.vi.ix
+  - iii.vi.ix/notes
+  - iii.vi.x
+  - iii.vi.x/notes
+  - iii.vi.xi
+  - iii.vi.xi/notes
+  - iii.vi.xii
+  - iii.vi.xii/notes
+  - iii.vi.xiii
+  - iii.vi.xiii/notes
+  - iii.vi.xiv
+  - iii.vi.xiv/notes
+  - iii.vi.xv
+  - iii.vi.xv/notes
+  - iii.vi.xvi
+  - iii.vi.xvi/notes
+  - iii.vi.xvii
+  - iii.vi.xvii/notes
+  - iii.vi.xviii
+  - iii.vi.xviii/notes
+  - iii.vi.xix
+  - iii.vi.xix/notes
+  - iii.vi.xx
+  - iii.vi.xx/notes
+  - iii.vi.xxi
+  - iii.vi.xxi/notes
+  - iii.vi.xxii
+  - iii.vi.xxii/notes
+  - iii.vi.xxiii
+  - iii.vi.xxiii/notes
+  - iii.vi.xxiv
+  - iii.vi.xxiv/notes
+  - iii.vi.xxv
+  - iii.vi.xxv/notes
+  - iii.vii.i
+  - iii.vii.i/notes
+  - iii.vii.ii
+  - iii.vii.ii/notes
+  - iii.vii.iii
+  - iii.vii.iii/notes
+  - iii.vii.iv
+  - iii.vii.iv/notes
+  - iii.vii.v
+  - iii.vii.v/notes
+  - iii.vii.vi
+  - iii.vii.vi/notes
+  - iii.vii.vii
+  - iii.vii.vii/notes
+  - iii.vii.viii
+  - iii.vii.viii/notes
+  - iii.vii.ix
+  - iii.vii.ix/notes
+  - iii.vii.x
+  - iii.vii.x/notes
+  - iii.vii.xi
+  - iii.vii.xi/notes
+  - iii.vii.xii
+  - iii.vii.xiii
+  - iii.vii.xiii/notes
+  - iii.vii.xiv
+  - iii.vii.xv
+  - iii.vii.xv/notes
+  - iii.vii.xvi
+  - iii.vii.xvi/notes
+  - iii.vii.xvii
+  - iii.vii.xvii/notes
+  - iii.vii.xviii
+  - iii.vii.xviii/notes
+  - iii.vii.xix
+  - iii.vii.xix/notes
+  - iii.vii.xx
+  - iii.vii.xx/notes
+  - iii.vii.xxi
+  - iii.vii.xxi/notes
+  - iii.vii.xxii
+  - iii.vii.xxii/notes
+  - iii.vii.xxiii
+  - iii.vii.xxiii/notes
+  - iii.vii.xxiv
+  - iii.vii.xxiv/notes
+  - iii.vii.xxv
+  - iii.vii.xxv/notes
+  - iii.vii.xxvi
+  - iii.vii.xxvi/notes
+  - iii.vii.xxvii
+  - iii.vii.xxvii/notes
+  - iii.vii.xxviii
+  - iii.vii.xxviii/notes
+  - iii.vii.xxix
+  - iii.vii.xxix/notes
+  - iii.vii.xxx
+  - iii.vii.xxx/notes
+  - iii.vii.xxxi
+  - iii.vii.xxxi/notes
+  - iii.vii.xxxii
+  - iii.vii.xxxii/notes
+  - iii.vii.xxxiii
+  - iii.vii.xxxiii/notes
+  - iii.vii.xxxiv
+  - iii.vii.xxxiv/notes
+  - iii.viii.i
+  - iii.viii.i/notes
+  - iii.viii.ii
+  - iii.viii.ii/notes
+  - iii.viii.iii
+  - iii.viii.iii/notes
+  - iii.viii.iv
+  - iii.viii.iv/notes
+  - iii.viii.v
+  - iii.viii.v/notes
+  - iii.viii.vi
+  - iii.viii.vi/notes
+  - iii.viii.vii
+  - iii.viii.vii/notes
+  - iii.viii.viii
+  - iii.viii.viii/notes
+  - iii.viii.ix
+  - iii.viii.ix/notes
+  - iii.viii.x
+  - iii.viii.x/notes
+  - iii.viii.xi
+  - iii.viii.xi/notes
+  - iii.viii.xii
+  - iii.viii.xii/notes
+  - iii.viii.xiii
+  - iii.viii.xiii/notes
+  - iii.viii.xiv/line31342
+  - iii.viii.xiv/notes
+  - iii.viii.xiv/line31440
+  - iii.viii.xiv/line31461
+  - iii.viii.xiv/line31487
+  - iii.viii.xiv/line31534
+  - iii.viii.xiv/line31611
+  - iii.viii.xiv/line31642
+  - iii.viii.xv
+  - iii.viii.xv/notes
+  - iii.viii.xvi
+  - iii.viii.xvi/notes
+  - iii.viii.xvii
+  - iii.viii.xvii/notes
+  - iii.viii.xviii
+  - iii.viii.xviii/notes
+  - iii.viii.xix
+  - iii.viii.xix/notes
+  - iii.viii.xx
+  - iii.viii.xx/notes
+  - iii.viii.xxi
+  - iii.viii.xxi/notes
+  - iii.viii.xxii
+  - iii.viii.xxii/notes
+  - iii.viii.xxiii
+  - iii.viii.xxiii/notes
+  - iii.viii.xxiv
+  - iii.viii.xxiv/notes
+  - iii.ix.i
+  - iii.ix.i/notes
+  - iii.ix.ii
+  - iii.ix.ii/notes
+  - iii.ix.iii
+  - iii.ix.iii/notes
+  - iii.ix.iv
+  - iii.ix.iv/notes
+  - iii.ix.v
+  - iii.ix.v/notes
+  - iii.ix.vi
+  - iii.ix.vi/notes
+  - iii.ix.vii
+  - iii.ix.vii/notes
+  - iii.ix.viii
+  - iii.ix.viii/notes
+  - iii.ix.ix
+  - iii.ix.ix/notes
+  - iii.ix.x
+  - iii.ix.x/notes
+  - iii.ix.xi
+  - iii.ix.xi/notes
+  - iii.ix.xii
+  - iii.ix.xii/notes
+  - iii.ix.xiii
+  - iii.ix.xiii/notes
+  - iii.ix.xiv
+  - iii.ix.xiv/notes
+  - iii.ix.xv
+  - iii.ix.xv/notes
+  - iii.ix.xvi
+  - iii.ix.xvi/notes
+  - iii.ix.xvii
+  - iii.ix.xvii/notes
+  - iii.ix.xviii
+  - iii.ix.xviii/notes
+  - iii.ix.xix
+  - iii.ix.xix/notes
+  - iii.ix.xx
+  - iii.ix.xx/notes
+  - iii.ix.xxi
+  - iii.ix.xxi/notes
+  - iii.ix.xxii
+  - iii.ix.xxii/notes
+  - iii.ix.xxiii
+  - iii.ix.xxiii/notes
+  - iii.ix.xxiv
+  - iii.ix.xxiv/notes
+  - iii.ix.xxv
+  - iii.ix.xxv/notes
+  - iii.ix.xxvi
+  - iii.ix.xxvi/notes
+  - iii.ix.xxvii
+  - iii.ix.xxvii/notes
+  - iii.ix.xxviii
+  - iii.ix.xxviii/notes
+  - iii.ix.xxix
+  - iii.ix.xxix/notes
+  - iii.ix.xxx
+  - iii.ix.xxx/notes
+  - iii.x.i
+  - iii.x.i/notes
+  - iii.x.ii
+  - iii.x.ii/notes
+  - iii.x.iii
+  - iii.x.iii/notes
+  - iii.x.iv
+  - iii.x.iv/notes
+  - iii.x.v
+  - iii.x.v/notes
+  - iii.x.vi
+  - iii.x.vi/notes
+  - iii.x.vii
+  - iii.x.vii/notes
+  - iii.x.viii
+  - iii.x.viii/notes
+  - iii.x.ix
+  - iii.x.ix/notes
+  - iii.x.x
+  - iii.x.x/notes
+  - iii.x.xi
+  - iii.x.xi/notes
+  - iii.x.xii
+  - iii.x.xii/notes
+  - iii.x.xiii
+  - iii.x.xiii/notes
+  - iii.x.xiv
+  - iii.x.xiv/notes
+  - iii.x.xv
+  - iii.x.xv/notes
+  - iii.x.xvi
+  - iii.x.xvi/notes
+  - iii.x.xvii
+  - iii.x.xvii/notes
+  - iii.x.xviii
+  - iii.x.xviii/notes
+  - iii.x.xix
+  - iii.x.xix/notes
+  - iii.x.xx
+  - iii.x.xx/notes
+  - iii.x.xxi
+  - iii.x.xxi/notes
+  - iii.x.xxii
+  - iii.x.xxii/notes
+  - iii.xi.i
+  - iii.xi.i/notes
+  - iii.xi.ii
+  - iii.xi.ii/notes
+  - iii.xi.iii
+  - iii.xi.iii/notes
+  - iii.xi.iv
+  - iii.xi.iv/notes
+  - iii.xi.v
+  - iii.xi.v/notes
+  - iii.xi.vi
+  - iii.xi.vi/notes
+  - iii.xi.vii
+  - iii.xi.vii/notes
+  - iii.xi.viii
+  - iii.xi.viii/notes
+  - iii.xi.ix
+  - iii.xi.ix/notes
+  - iii.xi.x
+  - iii.xi.x/notes
+  - iii.xi.xi
+  - iii.xi.xi/notes
+  - iii.xi.xii
+  - iii.xi.xii/notes
+  - iii.xi.xiii
+  - iii.xi.xiii/notes
+  - iii.xi.xiv
+  - iii.xi.xiv/notes
+  - iii.xi.xv
+  - iii.xi.xv/notes
+  - iii.xi.xvi
+  - iii.xi.xvi/notes
+  - iii.xi.xvii
+  - iii.xi.xvii/notes
+  - iii.xi.xviii
+  - iii.xi.xviii/notes
+  - iii.xi.xix
+  - iii.xi.xix/notes
+  - iii.xi.xx
+  - iii.xi.xx/notes
+  - iii.xi.xxi
+  - iii.xi.xxi/notes
+  - iii.xi.xxii
+  - iii.xi.xxii/notes
+  - iii.xi.xxiii
+  - iii.xi.xxiii/notes
+  - iii.xi.xxiv
+  - iii.xi.xxiv/notes
+  - iii.xi.xxv
+  - iii.xi.xxv/notes
+  - iii.xi.xxvi
+  - iii.xi.xxvi/notes
+  - iii.xi.xxvii
+  - iii.xi.xxvii/notes
+  - iii.xi.xxviii
+  - iii.xi.xxviii/notes
+  - iii.xi.xxix
+  - iii.xi.xxix/notes
+  - iii.xi.xxx
+  - iii.xi.xxx/notes
+  - iii.xi.xxxi
+  - iii.xi.xxxi/notes
+  - iii.xi.xxxii
+  - iii.xi.xxxii/notes
+  - iii.xi.xxxiii
+  - iii.xi.xxxiii/notes
+  - iii.xi.xxxiv
+  - iii.xi.xxxiv/notes
+  - iii.xi.xxxv
+  - iii.xi.xxxv/notes
+  - iii.xi.xxxvi
+  - iii.xi.xxxvi/notes
+  - iii.xi.xxxvii
+  - iii.xi.xxxvii/notes
+  - iii.xi.xxxviii
+  - iii.xi.xxxviii/notes
+  - iii.xi.xxxix
+  - iii.xi.xxxix/notes
+  - iii.xi.xl
+  - iii.xi.xl/notes
+  - iii.xii.i
+  - iii.xii.i/notes
+  - iii.xii.ii
+  - iii.xii.ii/notes
+  - iii.xii.iii
+  - iii.xii.iii/notes
+  - iii.xii.iv
+  - iii.xii.iv/notes
+  - iii.xii.v
+  - iii.xii.v/notes
+  - iii.xii.vi
+  - iii.xii.vi/notes
+  - iii.xii.vii
+  - iii.xii.vii/notes
+  - iii.xii.viii
+  - iii.xii.viii/notes
+  - iii.xii.ix
+  - iii.xii.ix/notes
+  - iii.xii.x
+  - iii.xii.x/notes
+  - iii.xii.xi
+  - iii.xii.xi/notes
+  - iii.xii.xii
+  - iii.xii.xii/notes
+  - iii.xii.xiii
+  - iii.xii.xiii/notes
+  - iii.xii.xiv
+  - iii.xii.xiv/notes
+  - iii.xii.xv
+  - iii.xii.xv/notes
+  - iii.xii.xvi
+  - iii.xii.xvi/notes
+  - iii.xii.xvii
+  - iii.xii.xvii/notes
+  - iii.xii.xviii
+  - iii.xii.xviii/notes
+  - iii.xii.xix
+  - iii.xii.xix/notes
+  - iii.xii.xx
+  - iii.xii.xx/notes
+  - iii.xii.xxi
+  - iii.xii.xxi/notes
+  - iii.xii.xxii
+  - iii.xii.xxii/notes
+  - iii.xii.xxiii
+  - iii.xii.xxiii/notes
+  - iii.xii.xxiv
+  - iii.xii.xxiv/notes
+  - iii.xii.xxv
+  - iii.xii.xxv/notes
+  - iii.xii.xxvi
+  - iii.xii.xxvi/notes
+  - iii.xii.xxvii
+  - iii.xii.xxvii/notes
+  - iii.xii.xxviii
+  - iii.xii.xxviii/notes
+  - iii.xii.xxix
+  - iii.xii.xxix/notes
+  - iii.xiii.i
+  - iii.xiii.i/notes
+  - iii.xiii.ii
+  - iii.xiii.ii/notes
+  - iii.xiii.iii
+  - iii.xiii.iii/notes
+  - iii.xiii.iv
+  - iii.xiii.iv/notes
+  - iii.xiii.v
+  - iii.xiii.v/notes
+  - iii.xiii.vi
+  - iii.xiii.vi/notes
+  - iii.xiii.vii
+  - iii.xiii.vii/notes
+  - iii.xiii.viii
+  - iii.xiii.viii/notes
+  - iii.xiii.ix
+  - iii.xiii.ix/notes
+  - iii.xiii.x
+  - iii.xiii.x/notes
+  - iii.xiii.xi
+  - iii.xiii.xi/notes
+  - iii.xiii.xii
+  - iii.xiii.xii/notes
+  - iii.xiii.xiii
+  - iii.xiii.xiii/notes
+  - iii.xiii.xiv
+  - iii.xiii.xiv/notes
+  - iii.xiii.xv
+  - iii.xiii.xv/notes
+  - iii.xiii.xvi
+  - iii.xiii.xvi/notes
+  - iii.xiii.xvii
+  - iii.xiii.xvii/notes
+  - iii.xiii.xviii
+  - iii.xiii.xviii/notes
+  - iii.xiii.xix
+  - iii.xiii.xix/notes
+  - iii.xiii.xx
+  - iii.xiii.xx/notes
+  - iii.xiii.xxi
+  - iii.xiii.xxi/notes
+  - iii.xiii.xxii
+  - iii.xiii.xxii/notes
+  - iii.xiii.xxiii
+  - iii.xiii.xxiii/notes
+  - iii.xiii.xxiv
+  - iii.xiii.xxiv/notes
+  - iii.xiii.xxv
+  - iii.xiii.xxv/notes
+  - iii.xiii.xxvi
+  - iii.xiii.xxvi/notes
+  - iii.xiii.xxvii
+  - iii.xiii.xxvii/notes
+  - iii.xiii.xxviii
+  - iii.xiii.xxviii/notes
+  - iii.xiv.i
+  - iii.xiv.i/notes
+  - iii.xiv.ii
+  - iii.xiv.ii/notes
+  - iii.xiv.iii
+  - iii.xiv.iii/notes
+  - iii.xiv.iv
+  - iii.xiv.iv/notes
+  - iii.xiv.v
+  - iii.xiv.v/notes
+  - iii.xiv.vi
+  - iii.xiv.vi/notes
+  - iii.xiv.vii
+  - iii.xiv.vii/notes
+  - iii.xiv.viii
+  - iii.xiv.viii/notes
+  - iii.xiv.ix
+  - iii.xiv.ix/notes
+  - iii.xiv.x
+  - iii.xiv.x/notes
+  - iii.xiv.xi
+  - iii.xiv.xi/notes
+  - iii.xiv.xii
+  - iii.xiv.xii/notes
+  - iii.xiv.xiii
+  - iii.xiv.xiii/notes
+  - iii.xiv.xiv
+  - iii.xiv.xiv/notes
+  - iii.xiv.xv
+  - iii.xiv.xv/notes
+  - iii.xiv.xvi
+  - iii.xiv.xvi/notes
+  - iii.xiv.xvii
+  - iii.xiv.xvii/notes
   role: context
   confidence: assigned
+  language: eng
   note: 'Same work, context row. Sozomen is the most monastically interested of the continuators:
     I.12-14, III.14 and VI.28-34 are extended accounts of Egyptian (and Palestinian/Syrian)
     monasticism naming Antony, Pachomius and the Nitrian fathers - outside evidence desert''s
@@ -499,3 +1446,30 @@ works:
     Life: gallic-monastic-ascetic-christianity (era 2, c. 360-450), the pre-Merovingian Gaul
     entry rather than the later Merovingian entry this work antedates.'
   source_file: npnf211_sulpitius-severus-vincent-lerins-cassian.xml
+- row_id: acta-sanctorum_maii-tomus-3-lat-grc_palme1866--paralipomena-on-pachomius-and-theodorus
+  work: Paralipomena on SS. Pachomius and Theodorus, in Latin, Acta Sanctorum, 14 May
+  author: vita_prima_pachomii_cardon_latin
+  locus: about OCR lines 88515-94018; add 12 to OCR line numbers
+  role: tradition
+  confidence: provisional
+  language: lat
+  note: The additional Pachomian material the Bollandists print after the Life (the Greek
+    Paralipomena, in Latin), by the same hand as the Life or its continuator; the editors'
+    own account of the attribution is at about OCR lines 78900-79300. Provisional until that
+    attribution is checked.
+  source_file: acta-sanctorum_maii-tomus-3-lat-grc_palme1866.txt
+- row_id: acta-sanctorum_maii-tomus-3-lat-grc_palme1866--vita-prima-of-pachomius-in-cardon-s-latin
+  work: The Life of Pachomius (Vita prima), in Daniel Cardon's Latin translation of the Greek,
+    Acta Sanctorum, 14 May
+  author: vita_prima_pachomii_cardon_latin
+  locus: about OCR lines 80678-88510 (Prologue from 80678; Chapter I from 80922); add 12 to
+    OCR line numbers. Columns are run together in places.
+  role: tradition
+  confidence: assigned
+  language: lat
+  note: 'The Pachomian koinonia''s earliest Life as Latin readers had it in 1866: Cardon''s
+    version of the Greek, made from manuscripts. NOT the Latin of Dionysius Exiguus, which
+    this volume does not print (it is in Rosweyde''s Vitae Patrum and Migne PL 73, not held).
+    A second witness to the Greek, in Latin, with a fair OCR: quote only after a check against
+    the scan, and cite as Cardon''s Latin.'
+  source_file: acta-sanctorum_maii-tomus-3-lat-grc_palme1866.txt

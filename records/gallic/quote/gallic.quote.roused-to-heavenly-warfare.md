@@ -16,9 +16,7 @@ confidence:
     stated purpose for writing Martin's life, in his own opening chapter.
 sources:
 - source_id: gallic.source.sulpitius-vita-martini
-  locus: "Life of St. Martin ch. I (npnf211 div ii.ii.ii, file lines 592-598): Sulpitius's own
-    stated reason for writing - to rouse his readers to true knowledge, heavenly warfare, and
-    divine virtue"
+  locus: "Life of St. Martin ch. I (cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml, lines 594-598; div ii.ii.ii): Sulpitius's own stated reason for writing - to rouse his readers to true knowledge, heavenly warfare, and divine virtue"
   license: public-domain
 retrieval:
   tier: 3

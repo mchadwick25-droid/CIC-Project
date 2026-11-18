@@ -21,7 +21,7 @@ statement: >-
   believing? No saying and no story of ours says so in those words. We said
   plainly that ours was the one true way. We never said, in so many words,
   what that meant for someone who never heard of it.
-why_sources_cannot_answer: "The word 'hell' does not occur anywhere in the Vita, and 'condemn' occurs four times, describing sin condemned in the flesh, the devil condemned, and a caution against condemning one's neighbours - none of them about the personal standing of someone outside the Christian faith. This is a genuine gap in what survives, not evidence that desert participants had no view on the question."
+why_sources_cannot_answer: "The word 'hell' does not occur anywhere in the Vita, and 'condemn' occurs four times, describing sin condemned in the flesh, the devil condemned, and a caution against condemning one's neighbors - none of them about the personal standing of someone outside the Christian faith. This is a genuine gap in what survives, not evidence that desert participants had no view on the question."
 nearest_material:
 - desert.dw.only-true-religion
 - desert.dw.marriage-ending
@@ -49,5 +49,5 @@ and "condemn" occurs four times, none of them on this question; the
 one-true-way question, by contrast, is answered by
 desert.dw.only-true-religion, built from Vita SS72-80. The compiled
 statement opens "We do not have an honest answer," matching the
-fleet's own strict we-voice discipline (fleet-voice/EXEMPLAR-TRANSCRIPT.md
+fleet's own we-voice for the tradition's perspective (fleet-voice/EXEMPLAR-TRANSCRIPT.md
 v4, restated in desert.voice.craft's own flavor_notes).

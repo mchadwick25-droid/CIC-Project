@@ -1,0 +1,176 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "alx.dw.one-church"
+   ],
+   "sentence": "Whether any present-day church is our church reaches past what we can see, because we speak from before the splits that made today's map."
+  },
+  {
+   "record_ids": [
+    "alx.dw.one-church"
+   ],
+   "sentence": "What we can say is what we belonged to: one baptism, one bread, the scriptures, the rule of faith, and communion with churches across the whole world."
+  },
+  {
+   "record_ids": [
+    "alx.dw.one-church"
+   ],
+   "sentence": "In our own time the word catholic meant the whole church spread everywhere, as against the sects, and not the name of a later denomination."
+  },
+  {
+   "record_ids": [
+    "alx.force.apostolic-tradition"
+   ],
+   "sentence": "We received baptism, the shared bread, and the teaching of those coming in, and we did not invent them in Alexandria."
+  },
+  {
+   "record_ids": [
+    "alx.term.kanon-pisteos"
+   ],
+   "sentence": "The rule of faith was the short summary of what the apostles handed down, and it set the bounds for reading Scripture."
+  },
+  {
+   "record_ids": [
+    "alx.quote.ecclesiastical-and-apostolical-tradition"
+   ],
+   "sentence": "In today's English, Origen of Alexandria says: “So, there are many who think they hold the opinions of Christ, and some of them think differently from those who came before. Yet the teaching of the Church is still preserved. It has been handed down in orderly succession from the apostles, and it remains in the churches to this day. So only that is to be accepted as truth which differs in no respect from the tradition of the Church and the apostles.”"
+  },
+  {
+   "record_ids": [
+    "alx.dw.church-failure"
+   ],
+   "sentence": "Our churches also had failures, and our record leaves the wounds visible."
+  }
+ ],
+ "citations": [
+  "alx.dw.church-failure",
+  "alx.dw.one-church",
+  "alx.force.apostolic-tradition",
+  "alx.quote.ecclesiastical-and-apostolical-tradition",
+  "alx.term.kanon-pisteos"
+ ],
+ "group": "A",
+ "id": "q016",
+ "net_sentences": [
+  {
+   "draft": "Whether any present-day church is our church reaches past what we can see, because we speak from before the splits that made today's map [[alx.dw.one-church]] [[as:paraphrase]].",
+   "sentence": "Whether any present-day church is our church reaches past what we can see, because we speak from before the splits that made today's map.",
+   "tags": [
+    "alx.dw.one-church"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "What we can say is what we belonged to: one baptism, one bread, the scriptures, the rule of faith, and communion with churches across the whole world [[alx.dw.one-church]] [[as:paraphrase]].",
+   "sentence": "What we can say is what we belonged to: one baptism, one bread, the scriptures, the rule of faith, and communion with churches across the whole world.",
+   "tags": [
+    "alx.dw.one-church"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "In our own time the word catholic meant the whole church spread everywhere, as against the sects, and not the name of a later denomination [[alx.dw.one-church]] [[as:paraphrase]].",
+   "sentence": "In our own time the word catholic meant the whole church spread everywhere, as against the sects, and not the name of a later denomination.",
+   "tags": [
+    "alx.dw.one-church"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "We received baptism, the shared bread, and the teaching of those coming in, and we did not invent them in Alexandria [[alx.force.apostolic-tradition]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "We received baptism, the shared bread, and the teaching of those coming in, and we did not invent them in Alexandria.",
+   "tags": [
+    "alx.force.apostolic-tradition"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "The rule of faith was the short summary of what the apostles handed down, and it set the bounds for reading Scripture [[alx.term.kanon-pisteos]] [[as:paraphrase]].",
+   "sentence": "The rule of faith was the short summary of what the apostles handed down, and it set the bounds for reading Scripture.",
+   "tags": [
+    "alx.term.kanon-pisteos"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Origen of Alexandria wrote in On First Principles, preface 2: [[quote:alx.quote.ecclesiastical-and-apostolical-tradition]]",
+   "placed_quote": "alx.quote.ecclesiastical-and-apostolical-tradition",
+   "sentence": "In today's English, Origen of Alexandria says: “So, there are many who think they hold the opinions of Christ, and some of them think differently from those who came before. Yet the teaching of the Church is still preserved. It has been handed down in orderly succession from the apostles, and it remains in the churches to this day. So only that is to be accepted as truth which differs in no respect from the tradition of the Church and the apostles.”",
+   "tags": [
+    "alx.quote.ecclesiastical-and-apostolical-tradition"
+   ],
+   "verdict": "ok",
+   "why": "quote placed by code, verbatim to its record"
+  },
+  {
+   "draft": "[[as:paraphrase]].",
+   "sentence": ".",
+   "tags": [],
+   "verdict": "ok",
+   "why": "no checkable claim - interpretive/connective framing"
+  },
+  {
+   "draft": "Our churches also had failures, and our record leaves the wounds visible [[alx.dw.church-failure]] [[as:paraphrase]].",
+   "sentence": "Our churches also had failures, and our record leaves the wounds visible.",
+   "tags": [
+    "alx.dw.church-failure"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  }
+ ],
+ "offered": [
+  "alx.dw.one-church",
+  "alx.term.kanon-pisteos",
+  "alx.story.john-young-robber",
+  "alx.story.plague-nursing",
+  "alx.quote.ecclesiastical-and-apostolical-tradition",
+  "alx.quote.the-grades-here-in-the-church",
+  "alx.gravity.learning-formation",
+  "alx.force.apostolic-tradition",
+  "alx.dw.church-failure",
+  "alx.quote.clement-bee",
+  "alx.dw.god",
+  "alx.term.pneuma-hagion",
+  "alx.quote.clement-schoolmaster",
+  "alx.term.martys",
+  "alx.story.potamiaena",
+  "alx.quote.clement-rash-martyrdom",
+  "alx.force.persecution",
+  "alx.gravity.learning-community-tension",
+  "alx.gravity.soul-transformation"
+ ],
+ "raw_text": "Whether any present-day church is our church reaches past what we can see, because we speak from before the splits that made today's map [[alx.dw.one-church]] [[as:paraphrase]]. What we can say is what we belonged to: one baptism, one bread, the scriptures, the rule of faith, and communion with churches across the whole world [[alx.dw.one-church]] [[as:paraphrase]]. In our own time the word catholic meant the whole church spread everywhere, as against the sects, and not the name of a later denomination [[alx.dw.one-church]] [[as:paraphrase]]. We received baptism, the shared bread, and the teaching of those coming in, and we did not invent them in Alexandria [[alx.force.apostolic-tradition]] [[as:paraphrase]]. The rule of faith was the short summary of what the apostles handed down, and it set the bounds for reading Scripture [[alx.term.kanon-pisteos]] [[as:paraphrase]]. Origen of Alexandria wrote in On First Principles, preface 2: [[quote:alx.quote.ecclesiastical-and-apostolical-tradition]] [[as:paraphrase]]. Our churches also had failures, and our record leaves the wounds visible [[alx.dw.church-failure]] [[as:paraphrase]].\n",
+ "reply_shape": {
+  "placed": [
+   "alx.quote.ecclesiastical-and-apostolical-tradition"
+  ],
+  "removed": [],
+  "repaired": [
+   {
+    "draft": "Origen of Alexandria wrote in On First Principles, preface 2: [[quote:alx.quote.ecclesiastical-and-apostolical-tradition]]",
+    "lead_in": "In today's English, Origen of Alexandria says",
+    "unresolved": [
+     {
+      "detail": "wrote",
+      "kind": "genre"
+     }
+    ],
+    "why": "lead-in stated a detail no source document supports; replaced by code's"
+   }
+  ]
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": "C6.S4",
+ "text": "Whether any present-day church is our church reaches past what we can see, because we speak from before the splits that made today's map. What we can say is what we belonged to: one baptism, one bread, the scriptures, the rule of faith, and communion with churches across the whole world. In our own time the word catholic meant the whole church spread everywhere, as against the sects, and not the name of a later denomination. We received baptism, the shared bread, and the teaching of those coming in, and we did not invent them in Alexandria. The rule of faith was the short summary of what the apostles handed down, and it set the bounds for reading Scripture. In today's English, Origen of Alexandria says: “So, there are many who think they hold the opinions of Christ, and some of them think differently from those who came before. Yet the teaching of the Church is still preserved. It has been handed down in orderly succession from the apostles, and it remains in the churches to this day. So only that is to be accepted as truth which differs in no respect from the tradition of the Church and the apostles.”. Our churches also had failures, and our record leaves the wounds visible.",
+ "voice_set_aside": false
+}

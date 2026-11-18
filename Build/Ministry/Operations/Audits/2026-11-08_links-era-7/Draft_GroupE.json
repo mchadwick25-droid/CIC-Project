@@ -1,0 +1,1015 @@
+{
+ "group": "E",
+ "movements": [
+  "mission-born-christianities-kirishitan-japan-kon",
+  "kongo-christianity-afonso-to-1650",
+  "kirishitan-japan",
+  "china-mission-born-christianity",
+  "new-spain-and-andes-mission-born-christianity",
+  "philippine-catholicism"
+ ],
+ "dispositions": [
+  {
+   "movement": "mission-born-christianities-kirishitan-japan-kon",
+   "field": "relationsSummary",
+   "sentence": "Grew out of the Jesuit missions",
+   "other_id": "the-society-of-jesus",
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 0,
+   "reason": "The movement is a label over four regions ('A label, not one movement'); the Jesuit origin holds for Japan and China and is drawn there (the-society-of-jesus--kirishitan-japan, the-society-of-jesus--china-mission-born-christianity). Kongo (1491) and New Spain (1524) began before Jesuit work, so the sentence is rewritten region by region. No separate link is drawn on the label; see escalations."
+  },
+  {
+   "movement": "mission-born-christianities-kirishitan-japan-kon",
+   "field": "relationsSummary",
+   "sentence": "and the wider Catholic Reformation",
+   "other_id": "the-tridentine-church",
+   "disposition": "remove",
+   "link_id": null,
+   "prose_change": 0,
+   "reason": "Kongo's church (1491) and the New Spain mission (1524) predate the Council of Trent and the Catholic Reformation; no cited source ties the label as a whole to the Tridentine Church. Removed in the rewrite."
+  },
+  {
+   "movement": "mission-born-christianities-kirishitan-japan-kon",
+   "field": "relationsSummary",
+   "sentence": "became the root of Christianity's spread as a truly global religion",
+   "other_id": null,
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 0,
+   "reason": "Not a tie to a census movement, but overstated: Christianity was already in China, India and Ethiopia. 'the root' becomes 'one root'."
+  },
+  {
+   "movement": "mission-born-christianities-kirishitan-japan-kon",
+   "field": "longDescription",
+   "sentence": "The kingdom of Kongo, whose ruler Afonso I adopted the faith and whose letters survive in his own voice.",
+   "other_id": "kongo-christianity-afonso-to-1650",
+   "disposition": "not-a-relationship",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The label names one of its own regions; the Kongo movement is that region, not a separate party."
+  },
+  {
+   "movement": "mission-born-christianities-kirishitan-japan-kon",
+   "field": "longDescription",
+   "sentence": "Japan, where a Jesuit mission from 1549 gathered a large Christian population",
+   "other_id": "the-society-of-jesus",
+   "disposition": "link",
+   "link_id": "the-society-of-jesus--kirishitan-japan",
+   "prose_change": null,
+   "reason": "Carried on the Japan movement; the label adds no link of its own."
+  },
+  {
+   "movement": "mission-born-christianities-kirishitan-japan-kon",
+   "field": "longDescription",
+   "sentence": "before a savage prohibition drove the survivors underground",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The Tokugawa ban has no census movement. Checked: Sotelo's memorial (Pagès annexes, lines 6913-6914) and Cocks's diary (2588-2590) record the 1614 expulsion."
+  },
+  {
+   "movement": "mission-born-christianities-kirishitan-japan-kon",
+   "field": "longDescription",
+   "sentence": "China, where Jesuits and Chinese converts argued out how the Christian God could be spoken of in a Confucian idiom.",
+   "other_id": "the-society-of-jesus",
+   "disposition": "link",
+   "link_id": "the-society-of-jesus--china-mission-born-christianity",
+   "prose_change": null,
+   "reason": "Carried on the China movement. The label also names its own China region (not-a-relationship)."
+  },
+  {
+   "movement": "mission-born-christianities-kirishitan-japan-kon",
+   "field": "longDescription",
+   "sentence": "And Spanish America, where conquest and mission arrived together and Andean and Nahua Christians made something of their own out of what they were given.",
+   "other_id": "new-spain-and-andes-mission-born-christianity",
+   "disposition": "not-a-relationship",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The label names one of its own regions."
+  },
+  {
+   "movement": "mission-born-christianities-kirishitan-japan-kon",
+   "field": "legacy",
+   "sentence": "The hidden Christians of Japan kept a transmitted faith for roughly two hundred and fifty years without priests",
+   "other_id": "japanese-christianity-hidden-emergence-meiji",
+   "disposition": "link",
+   "link_id": "kirishitan-japan--japanese-christianity-hidden-emergence-meiji",
+   "prose_change": null,
+   "reason": "Carried on the Japan movement, the region the hidden Christians came from."
+  },
+  {
+   "movement": "mission-born-christianities-kirishitan-japan-kon",
+   "field": "legacy",
+   "sentence": "Latin American ... Catholicism ... grew directly out of this period",
+   "other_id": "colonial-latin-american-devotional-catholicism",
+   "disposition": "link",
+   "link_id": "new-spain-and-andes-mission-born-christianity--colonial-latin-american-devotional-catholicism",
+   "prose_change": null,
+   "reason": "Carried on the New Spain and Andes movement."
+  },
+  {
+   "movement": "mission-born-christianities-kirishitan-japan-kon",
+   "field": "legacy",
+   "sentence": "Philippine Catholicism ... grew directly out of this period",
+   "other_id": "philippine-catholicism",
+   "disposition": "link",
+   "link_id": "new-spain-and-andes-mission-born-christianity--philippine-catholicism",
+   "prose_change": null,
+   "reason": "The Philippines is not one of the label's four regions; its origin is drawn from the New Spain movement (and the Jesuits)."
+  },
+  {
+   "movement": "mission-born-christianities-kirishitan-japan-kon",
+   "field": "legacy",
+   "sentence": "Kongolese Christianity shaped religion on both sides of the Atlantic, including among enslaved Africans in the Americas",
+   "other_id": null,
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 3,
+   "reason": "No census movement for enslaved Africans in this window (the-black-church-in-america is era 8 and not named). No vendored text, and no repo-cited work on the Atlantic, supports it; qualified to 'may have'. Wanted: a public-domain source on Central African Christians in the Americas."
+  },
+  {
+   "movement": "mission-born-christianities-kirishitan-japan-kon",
+   "field": "legacy",
+   "sentence": "These are the beginnings of Christianity as a genuinely global religion",
+   "other_id": null,
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 3,
+   "reason": "Not a relationship; overstated (the Church of the East in Tang China, the St Thomas Christians). Now 'among the first steps'."
+  },
+  {
+   "movement": "kongo-christianity-afonso-to-1650",
+   "field": "relationsSummary",
+   "sentence": "Grew from the Portuguese mission of 1491",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "No census movement for the Portuguese mission. Checked: Lopes and Pigafetta (1591) date the ships' arrival and the first baptism to 1491 (lines 3511-3524)."
+  },
+  {
+   "movement": "kongo-christianity-afonso-to-1650",
+   "field": "relationsSummary",
+   "sentence": "and the Jesuit missions of the Catholic Reformation",
+   "other_id": "the-society-of-jesus",
+   "disposition": "qualify",
+   "link_id": "kongo-christianity-afonso-to-1650--the-society-of-jesus",
+   "prose_change": 1,
+   "reason": "The 1547 royal letter sends four Jesuits to help a bishop already in Kongo, so the church did not grow from them. Retyped to 'in contact with' (Documented) and the sentence rewritten."
+  },
+  {
+   "movement": "kongo-christianity-afonso-to-1650",
+   "field": "relationsSummary",
+   "sentence": "the later prophetic movement of Dona Beatriz (1704) is its own entry",
+   "other_id": "the-antonian-movement-in-kongo",
+   "disposition": "link",
+   "link_id": "kongo-christianity-afonso-to-1650--the-antonian-movement-in-kongo",
+   "prose_change": 1,
+   "reason": "Drawn as 'gave rise to' (Dominant Modern Reconstruction, on Thornton). 'is its own entry' was build narration; rewritten."
+  },
+  {
+   "movement": "kongo-christianity-afonso-to-1650",
+   "field": "why",
+   "sentence": "sent his sons to Lisbon, asked for priests, and left letters in his own voice that argue with Portugal about the slave trade and about his church",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Portugal and its court have no census movement. Checked: Afonso's letter of 18 March 1526 asks for fifty priests (Paiva Manso doc. XXVI, lines 2207-2240); the 1526 slave-trade letters are listed in the corpus-map at lines 2339 onward. The sons in Lisbon rest on the label's documented story, not rechecked."
+  },
+  {
+   "movement": "kirishitan-japan",
+   "field": "relationsSummary",
+   "sentence": "Grew from the Jesuit mission of 1549",
+   "other_id": "the-society-of-jesus",
+   "disposition": "link",
+   "link_id": "the-society-of-jesus--kirishitan-japan",
+   "prose_change": null,
+   "reason": "Documented from Xavier's letters."
+  },
+  {
+   "movement": "kirishitan-japan",
+   "field": "relationsSummary",
+   "sentence": "the prohibition of 1614 drove its communities underground",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "No census movement for the Tokugawa state. Checked: Sotelo memorial and Cocks's diary record the 1614 expulsion."
+  },
+  {
+   "movement": "kirishitan-japan",
+   "field": "relationsSummary",
+   "sentence": "where hidden believers kept a transmitted faith for roughly two hundred and fifty years without a priest",
+   "other_id": "japanese-christianity-hidden-emergence-meiji",
+   "disposition": "link",
+   "link_id": "kirishitan-japan--japanese-christianity-hidden-emergence-meiji",
+   "prose_change": null,
+   "reason": "Drawn as 'gave rise to', Dominant Modern Reconstruction."
+  },
+  {
+   "movement": "kirishitan-japan",
+   "field": "why",
+   "sentence": "In Japan, a Jesuit mission from 1549 gathered a large Christian population before a savage prohibition drove the survivors underground.",
+   "other_id": "the-society-of-jesus",
+   "disposition": "link",
+   "link_id": "the-society-of-jesus--kirishitan-japan",
+   "prose_change": null,
+   "reason": "Same link; the prohibition part is no-entry as above."
+  },
+  {
+   "movement": "kirishitan-japan",
+   "field": "why",
+   "sentence": "Hidden believers kept a transmitted faith alive for roughly two hundred and fifty years without a single priest",
+   "other_id": "japanese-christianity-hidden-emergence-meiji",
+   "disposition": "link",
+   "link_id": "kirishitan-japan--japanese-christianity-hidden-emergence-meiji",
+   "prose_change": null,
+   "reason": "Same link."
+  },
+  {
+   "movement": "china-mission-born-christianity",
+   "field": "relationsSummary",
+   "sentence": "Grew from Matteo Ricci's entry in 1583 and the Jesuit China mission",
+   "other_id": "the-society-of-jesus",
+   "disposition": "link",
+   "link_id": "the-society-of-jesus--china-mission-born-christianity",
+   "prose_change": null,
+   "reason": "Documented from Purchas's abridgment of Trigault."
+  },
+  {
+   "movement": "china-mission-born-christianity",
+   "field": "relationsSummary",
+   "sentence": "the rites controversy that followed belongs to the Society of Jesus and to later entries",
+   "other_id": "the-society-of-jesus",
+   "disposition": "remove",
+   "link_id": null,
+   "prose_change": 2,
+   "reason": "A pointer to other entries, not a relationship claim, and the Society's own text does not discuss the rites. Build narration; removed."
+  },
+  {
+   "movement": "china-mission-born-christianity",
+   "field": "why",
+   "sentence": "In China, Jesuits and Chinese converts argued out how the Christian God could be spoken of in a Confucian idiom.",
+   "other_id": "the-society-of-jesus",
+   "disposition": "link",
+   "link_id": "the-society-of-jesus--china-mission-born-christianity",
+   "prose_change": null,
+   "reason": "The same Jesuit-convert relationship; no second link."
+  },
+  {
+   "movement": "new-spain-and-andes-mission-born-christianity",
+   "field": "relationsSummary",
+   "sentence": "Grew from the Franciscan mission of 1524",
+   "other_id": "franciscan-order-era-6",
+   "disposition": "link",
+   "link_id": "franciscan-order-era-6--new-spain-and-andes-mission-born-christianity",
+   "prose_change": null,
+   "reason": "Inventory gave the era-5 Franciscan movement; the era-6 order is the nearest. Documented from Motolinia."
+  },
+  {
+   "movement": "new-spain-and-andes-mission-born-christianity",
+   "field": "relationsSummary",
+   "sentence": "and the Spanish conquest",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "No census movement for the conquest. Checked: Motolinia (lines 9107-9109) dates the 1523 commission 'two years after this land was won by Hernando Cortés'."
+  },
+  {
+   "movement": "new-spain-and-andes-mission-born-christianity",
+   "field": "relationsSummary",
+   "sentence": "colonial Latin American devotional Catholicism continues it",
+   "other_id": "colonial-latin-american-devotional-catholicism",
+   "disposition": "link",
+   "link_id": "new-spain-and-andes-mission-born-christianity--colonial-latin-american-devotional-catholicism",
+   "prose_change": null,
+   "reason": "Widely Accepted."
+  },
+  {
+   "movement": "new-spain-and-andes-mission-born-christianity",
+   "field": "why",
+   "sentence": "Guaman Poma's vast illustrated letter to the king protests what colonial Christianity had become",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "No census movement for 'colonial Christianity' as Guaman Poma's target. Not vendored; the work itself is cited in the label's sources (Nueva corónica, 1615). Kept as a repo-cited claim; wanted."
+  },
+  {
+   "movement": "new-spain-and-andes-mission-born-christianity",
+   "field": "why",
+   "sentence": "the Huarochiri manuscript exists only because an extirpator of idolatry commissioned it",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The extirpators have no census movement. Not vendored; rests on Salomon and Urioste (1991), cited in the label's sources. Kept; wanted."
+  },
+  {
+   "movement": "philippine-catholicism",
+   "field": "relationsSummary",
+   "sentence": "Grew directly out of Spanish colonial Catholicism, brought by friars following the start of Spanish rule in 1565.",
+   "other_id": "new-spain-and-andes-mission-born-christianity",
+   "disposition": "link",
+   "link_id": "new-spain-and-andes-mission-born-christianity--philippine-catholicism",
+   "prose_change": 4,
+   "reason": "Documented from Morga and Chirino; the sentence now names New Spain."
+  },
+  {
+   "movement": "philippine-catholicism",
+   "field": "longDescription",
+   "sentence": "Spanish rule in the Philippines began in 1565, and with it came friars — Augustinians first, then Franciscans, Jesuits, Dominicans and Recollects. (Augustinians)",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "No census movement for the Augustinian order in this period. Checked: Morga, lines 894-897. The friars sailed from New Spain, so the New Spain link carries them."
+  },
+  {
+   "movement": "philippine-catholicism",
+   "field": "longDescription",
+   "sentence": "Spanish rule in the Philippines began in 1565, and with it came friars — Augustinians first, then Franciscans, Jesuits, Dominicans and Recollects. (Franciscans)",
+   "other_id": "the-franciscan-movement",
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The census Franciscan movements end in 1300 and 1517; the discalced Franciscans reached Manila in the 1570s (Morga, lines 1201-1203; Chirino, 4575-4577) by way of New Spain, so the New Spain link carries them. A line from a medieval movement would claim more than the sources show."
+  },
+  {
+   "movement": "philippine-catholicism",
+   "field": "longDescription",
+   "sentence": "Spanish rule in the Philippines began in 1565, and with it came friars — Augustinians first, then Franciscans, Jesuits, Dominicans and Recollects. (Jesuits)",
+   "other_id": "the-society-of-jesus",
+   "disposition": "link",
+   "link_id": "the-society-of-jesus--philippine-catholicism",
+   "prose_change": null,
+   "reason": "Documented from Chirino."
+  },
+  {
+   "movement": "philippine-catholicism",
+   "field": "longDescription",
+   "sentence": "Spanish rule in the Philippines began in 1565, and with it came friars — Augustinians first, then Franciscans, Jesuits, Dominicans and Recollects. (Dominicans)",
+   "other_id": "the-dominican-order",
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The census Dominican movement ends in 1300. Bishop Salazar, a Dominican, came from the province of Mexico (Chirino, lines 4580-4582), so the New Spain link carries the Dominican share."
+  },
+  {
+   "movement": "philippine-catholicism",
+   "field": "longDescription",
+   "sentence": "Spanish rule in the Philippines began in 1565, and with it came friars — Augustinians first, then Franciscans, Jesuits, Dominicans and Recollects. (Recollects)",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "No census movement for the Augustinian Recollects. Their Philippine missions appear in Blair and Robertson vols. XXXVI and XLI (content notes); not rechecked line by line."
+  },
+  {
+   "movement": "philippine-catholicism",
+   "field": "legacy",
+   "sentence": "its devotional culture of patronal fiestas, confraternities, the Black Nazarene procession in Manila and the chanted pasyon at Holy Week descends directly from this period",
+   "other_id": "philippine-catholicism-era-8",
+   "disposition": "link",
+   "link_id": "philippine-catholicism--philippine-catholicism-era-8",
+   "prose_change": null,
+   "reason": "Drawn as 'continued as' to the era-8 movement (the continuesAs field already points there)."
+  },
+  {
+   "movement": "philippine-catholicism",
+   "field": "why",
+   "sentence": "Out of that vernacular habit grew the pasyon",
+   "other_id": null,
+   "disposition": "not-a-relationship",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "A practice growing within the movement, not a tie to another movement."
+  }
+ ],
+ "links": [
+  {
+   "id": "the-society-of-jesus--kirishitan-japan",
+   "action": "new",
+   "from": "the-society-of-jesus",
+   "to": "kirishitan-japan",
+   "type": "gave rise to",
+   "confidence": "Documented",
+   "note": "Francis Xavier and his Jesuit companions landed at Kagoshima on 15 August 1549. It was the home town of Paul, a Japanese convert who came with them. Writing in 1551, Xavier says Paul's family and friends all became Christians, and more than a hundred joined the church there.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Francis Xavier, letter to the Society at Goa, Kagoshima, 5 November 1549, in H. J. Coleridge, The Life and Letters of St. Francis Xavier, vol. II (1872)",
+     "file": "cic/texts/francis-xavier_life-and-letters-v2_coleridge1872.txt",
+     "lines": "15863-15866",
+     "locus": "Book V, letter of 5 November 1549",
+     "quote": "we arrived, by the help of God, on the 15 th of August, the happy and auspicious day of the feast of our Blessed Lady’s Assumption, at Cagoxima, the native place of Paul of the holy Faith.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Francis Xavier, letter LXXXIV to the Society at Goa, Yamaguchi, July 1551, in Coleridge, vol. II (1872)",
+     "file": "cic/texts/francis-xavier_life-and-letters-v2_coleridge1872.txt",
+     "lines": "16724-16729",
+     "locus": "Book V, letter LXXXIV",
+     "quote": "On our arrival at the native place of our good Paul, we were received very kindly indeed by his relations and friends. They all of them became Christians, being led by what Paul told them;",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Francis Xavier, letter LXXXIV to the Society at Goa, Yamaguchi, July 1551, in Coleridge, vol. II (1872)",
+     "file": "cic/texts/francis-xavier_life-and-letters-v2_coleridge1872.txt",
+     "lines": "16729-16730",
+     "locus": "Book V, letter LXXXIV",
+     "quote": "In that time more than a hundred were gathered into the fold of Christ.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in": "kirishitan-japan relationsSummary ('Grew from the Jesuit mission of 1549') and why ('a Jesuit mission from 1549'); mission-born label longDescription ('a Jesuit mission from 1549')",
+   "drafter_flags": [
+    "also named in the-society-of-jesus (relationsSummary 'parent of the mission-born traditions'; longDescription 'sending men to India, Japan, China')",
+    "Coleridge's English, not Xavier's Spanish; the original is vendored in Monumenta Xaveriana I (file line 29054 onward) but not checked against it"
+   ],
+   "change_reason": "New link for a relationship the Japan text names; the founding letters are vendored.",
+   "fre": 67.5,
+   "fk": 7.6
+  },
+  {
+   "id": "the-society-of-jesus--china-mission-born-christianity",
+   "action": "new",
+   "from": "the-society-of-jesus",
+   "to": "china-mission-born-christianity",
+   "type": "gave rise to",
+   "confidence": "Documented",
+   "note": "Two Jesuits, Ruggieri and Ricci, reached Zhaoqing in September 1583. So says the story told from Ricci's own papers. By 1587 it counts forty Christians there. Later a scholar from Shanghai was baptized as Paul, and his whole family followed him.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Samuel Purchas, Hakluytus Posthumus or Purchas His Pilgrimes, vol. XII (1625; 1906 ed.), ch. V, abridging Nicolas Trigault, De Christiana expeditione apud Sinas (1615), from Ricci's papers",
+     "file": "cic/texts/purchas_hakluytus-posthumus-pilgrimes-v12_1906.txt",
+     "lines": "15909-15911",
+     "locus": "ch. V, section III, heading",
+     "quote": "Ruggerius enters againe into China with Ricius, and is forced backe to Amacao ; thence sent for againe by the Vice-roy.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Purchas, vol. XII, ch. V (from Trigault and Ricci)",
+     "file": "cic/texts/purchas_hakluytus-posthumus-pilgrimes-v12_1906.txt",
+     "lines": "16081-16083",
+     "locus": "ch. V, section III, Anno 1583",
+     "quote": "had set foorth in the beginning of September, 1583. and in the same moneth came to Sciauquin,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Purchas, vol. XII, ch. V (from Trigault and Ricci)",
+     "file": "cic/texts/purchas_hakluytus-posthumus-pilgrimes-v12_1906.txt",
+     "lines": "16812",
+     "locus": "ch. V, letter of the Provincial of India, 1587",
+     "quote": "their returne to Xauchin they found fortie Christians",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Purchas, vol. XII, ch. VIII (from Trigault and Ricci)",
+     "file": "cic/texts/purchas_hakluytus-posthumus-pilgrimes-v12_1906.txt",
+     "lines": "29333-29335",
+     "locus": "ch. VIII",
+     "quote": "At Nanquin one borne at Scianhai, and first pronounced Licentiat in the examination of 1597. was Baptised hy the name of Paulus, who converted his whole Family.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in": "china-mission-born-christianity relationsSummary ('Grew from Matteo Ricci's entry in 1583 and the Jesuit China mission') and why ('Jesuits and Chinese converts argued out ...'); mission-born label longDescription ('China, where Jesuits and Chinese converts ...')",
+   "drafter_flags": [
+    "also named in the-society-of-jesus (longDescription 'sending men to ... China')",
+    "Purchas abridges Trigault with his own Protestant asides; the Latin Trigault is vendored but its OCR is not quotable (corpus-map note)",
+    "Purchas does not name the convert; he is Xu Guangqi (licentiate 1597, baptized 1603), named in the mission-born label's own voices list. The note does not name him for that reason.",
+    "OCR 'hy' for 'by' kept as printed in the quote"
+   ],
+   "change_reason": "New link for a relationship the China text names.",
+   "fre": 62.4,
+   "fk": 7.0
+  },
+  {
+   "id": "kongo-christianity-afonso-to-1650--the-society-of-jesus",
+   "action": "new",
+   "from": "kongo-christianity-afonso-to-1650",
+   "to": "the-society-of-jesus",
+   "type": "in contact with",
+   "confidence": "Documented",
+   "note": "In 1547 King João III of Portugal wrote to the king of Kongo that he was sending four Jesuits to help the bishop there. In 1550 King Diogo of Kongo wrote back about these Jesuits, calling them good men, before setting out his complaints against them.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "João III of Portugal, letter to the king of Kongo, Lisbon, 9 August 1547, in Paiva Manso, Historia do Congo (Documentos) (1877), doc. XLIX",
+     "file": "cic/texts/paiva-manso_historia-do-congo-documentos-por_1877.txt",
+     "lines": "3736",
+     "locus": "doc. XLIX",
+     "quote": "entre os Padres da Companhia de Jesu, Ghristovam Ribeiro,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "João III of Portugal, letter to the king of Kongo, 9 August 1547, in Paiva Manso (1877), doc. XLIX",
+     "file": "cic/texts/paiva-manso_historia-do-congo-documentos-por_1877.txt",
+     "lines": "3737-3738",
+     "locus": "doc. XLIX",
+     "quote": "e Jorge Vaz, e o irmam Diogo do Soveral para os enviar a elle, e ajudarem ao Bispo liom Joam Bautista,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "D. Diogo, king of Kongo, letter to João III, 10 March 1550, in Paiva Manso (1877), doc. LVI",
+     "file": "cic/texts/paiva-manso_historia-do-congo-documentos-por_1877.txt",
+     "lines": "4434-4436",
+     "locus": "doc. LVI",
+     "quote": "lios padres da companliia do nome de Jesu que qua foram emviados por vossa Alteza, certo sam omens vertuozos de bom emxempllo,",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "outcome_considered": "Neither letter records a council, law, split or changed rule; Diogo's complaint asks the Portuguese king to act but no act follows in the cited lines.",
+   "named_in": "kongo-christianity-afonso-to-1650 relationsSummary ('the Jesuit missions of the Catholic Reformation'), after prose change 1",
+   "drafter_flags": [
+    "Type changed from the text's 'grew from': the 1547 letter sends the Jesuits to help a bishop already in Kongo, so the church predates them; 'in contact with' is what the two letters show",
+    "OCR misreads kept as printed: 'Ghristovam', 'liom', 'lios', 'companliia'",
+    "Diogo's complaint about Jesuit preaching against him rests on the editor's heading (lines 4427-4430), not on the quoted lines; the note says only 'complaints'",
+    "also named in the-society-of-jesus only generally ('parent of the mission-born traditions')"
+   ],
+   "change_reason": "New link; replaces the text's claim that Kongo Christianity grew from the Jesuit missions.",
+   "fre": 71.2,
+   "fk": 8.9
+  },
+  {
+   "id": "kongo-christianity-afonso-to-1650--the-antonian-movement-in-kongo",
+   "action": "new",
+   "from": "kongo-christianity-afonso-to-1650",
+   "to": "the-antonian-movement-in-kongo",
+   "type": "gave rise to",
+   "confidence": "Dominant Modern Reconstruction",
+   "note": "Dona Beatriz Kimpa Vita was born into a Kongo church that was nearly two hundred years old. She was a baptized noblewoman. John Thornton's 1998 study reads her movement as born inside that church. Her own words survive only in reports by the friars who judged her.",
+   "sources": [
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "John Thornton, The Kongolese Saint Anthony: Dona Beatriz Kimpa Vita and the Antonian Movement, 1684-1706 (Cambridge, 1998)",
+     "file": null,
+     "lines": null,
+     "quote": null
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Duarte Lopes and Filippo Pigafetta, A Report of the Kingdom of Congo (1591), trans. Margarite Hutchinson (1881)",
+     "file": "cic/texts/lopes_report-of-the-kingdom-of-congo_hutchinson1881.txt",
+     "lines": "3511-3514",
+     "locus": "Book II",
+     "quote": "At laft, the fhips arrived with the expected means, which was in the year 1491 of our era, and anchored at the mouth of the Zaire.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "C",
+   "verification_state": "named-not-rechecked",
+   "named_in": "kongo-christianity-afonso-to-1650 relationsSummary ('the later prophetic movement of Dona Beatriz (1704)'); the-antonian-movement-in-kongo relationsSummary ('Christianity already two centuries African producing its own prophetess')",
+   "drafter_flags": [
+    "Lopes shows only the 1491 start of the church, not the relationship; the grade rests on Thornton, cited in the Antonian movement's own sources but not read here",
+    "The Capuchin relations of Bernardo da Gallo and Lorenzo da Lucca, the only contemporary record, are not in the public domain (Antonian source dossier, section 4)",
+    "Era 8 movement; the gap 1650-1704 has no census movement"
+   ],
+   "change_reason": "New link for the succession the Kongo text names.",
+   "fre": 70.1,
+   "fk": 6.3
+  },
+  {
+   "id": "kirishitan-japan--japanese-christianity-hidden-emergence-meiji",
+   "action": "new",
+   "from": "kirishitan-japan",
+   "to": "japanese-christianity-hidden-emergence-meiji",
+   "type": "gave rise to",
+   "confidence": "Dominant Modern Reconstruction",
+   "note": "A Franciscan report of the 1620s says the ban of 1614 sent every missionary out of Japan. The English trader Richard Cocks noted the same thing in 1615. Two modern scholars, Stephen Turnbull and Christal Whelan, trace the hidden Christians of 1865 back to these believers.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Luis Sotelo, O.F.M., memorial (Latin, after 1622), in Léon Pagès, Histoire de la religion chrétienne au Japon, seconde partie: Annexes (1870)",
+     "file": "cic/texts/pages_histoire-religion-chretienne-japon-annexes-fra_1870.txt",
+     "lines": "6913-6914",
+     "locus": "annex, running head 'Mémorial Sotelo'",
+     "quote": "religiosi quoque omnes generali Imperatoris edicto relegati;",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Richard Cocks, Diary, 1615-1617, ed. Edward Maunde Thompson (Hakluyt Society, 1883), vol. I",
+     "file": "cic/texts/cocks_diary-v1_thompson1883.txt",
+     "lines": "2588-2590",
+     "locus": "Diary, August 1615",
+     "quote": "he hath formerly banished all Christians out of his dominions: I meane all fryres, monkes, jesuists, and pristes.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Stephen Turnbull, The Kakure Kirishitan of Japan: A Study of Their Development, Beliefs and Rituals to the Present Day (Richmond, 1998)",
+     "file": null,
+     "lines": null,
+     "quote": null
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Christal Whelan, trans., The Beginning of Heaven and Earth: The Sacred Book of Japan's Hidden Christians (Honolulu, 1996), introduction",
+     "file": null,
+     "lines": null,
+     "quote": null
+    }
+   ],
+   "citation_specificity": "B",
+   "verification_state": "named-not-rechecked",
+   "named_in": "kirishitan-japan relationsSummary ('hidden believers kept a transmitted faith ...') and why ('Hidden believers kept a transmitted faith alive ...'); mission-born label legacy ('The hidden Christians of Japan kept a transmitted faith ...')",
+   "drafter_flags": [
+    "The primaries show only the 1614 expulsion; the descent of the 1865 communities from the Kirishitan rests on Turnbull and Whelan, both cited in the era-9 movement's documented stories, not read here",
+    "The Sotelo memorial's next lines say some religious stayed hidden (line 6920, OCR too broken to quote)",
+    "Era 9 movement; the gap 1650-1865 has no census movement. 'gave rise to' rather than 'continued as' because the era-9 movement also takes in Protestant and Orthodox missions",
+    "The Pagès annex volume also prints letters of Japanese Christians under the ban (corpus-map row), not used here"
+   ],
+   "change_reason": "New link for the continuity both the Japan text and the label name.",
+   "fre": 62.4,
+   "fk": 8.1
+  },
+  {
+   "id": "franciscan-order-era-6--new-spain-and-andes-mission-born-christianity",
+   "action": "new",
+   "from": "franciscan-order-era-6",
+   "to": "new-spain-and-andes-mission-born-christianity",
+   "type": "gave rise to",
+   "confidence": "Documented",
+   "note": "In 1523 the head of the Franciscans asked Martín de Valencia to take twelve friars to New Spain. Martín had led the friars' province of San Gabriel in Spain. Motolinia, one of the first friars there, says they split up across the land. They learned the language and preached through interpreters.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Toribio de Benavente (Motolinia), Historia de los indios de la Nueva España (written 1536-1541), ed. Sánchez García (1914)",
+     "file": "cic/texts/motolinia_historia-de-los-indios-de-la-nueva-espana-spa_sanchez-garcia1914.txt",
+     "lines": "9100",
+     "locus": "Tratado III",
+     "quote": "Habiendo regido la provincia de San Gabriel,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Motolinia, Historia de los indios (1914 ed.)",
+     "file": "cic/texts/motolinia_historia-de-los-indios-de-la-nueva-espana-spa_sanchez-garcia1914.txt",
+     "lines": "9106",
+     "locus": "Tratado III",
+     "quote": "en el monasterio de Bel vis en el afio de 1523,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Motolinia, Historia de los indios (1914 ed.)",
+     "file": "cic/texts/motolinia_historia-de-los-indios-de-la-nueva-espana-spa_sanchez-garcia1914.txt",
+     "lines": "9109-9110",
+     "locus": "Tratado III",
+     "quote": "el General llamo a Fray Martin de Valencia,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Motolinia, Historia de los indios (1914 ed.)",
+     "file": "cic/texts/motolinia_historia-de-los-indios-de-la-nueva-espana-spa_sanchez-garcia1914.txt",
+     "lines": "9118",
+     "locus": "Tratado III",
+     "quote": "que el pasase con doce conipaneros,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Motolinia, Historia de los indios (1914 ed.)",
+     "file": "cic/texts/motolinia_historia-de-los-indios-de-la-nueva-espana-spa_sanchez-garcia1914.txt",
+     "lines": "8555-8558",
+     "locus": "Tratado II",
+     "quote": "Todos estos diez y siete fueron repartidos por las principales provincias de esta tierra, y luego comenzainos a deprender la lengua y a predicar con interprete.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in": "new-spain-and-andes-mission-born-christianity relationsSummary ('Grew from the Franciscan mission of 1524')",
+   "drafter_flags": [
+    "cross-era: era 6",
+    "The inventory gave the era-5 Franciscan movement (1209-1300); the era-6 order (1300-1517) is the nearest census movement, ending six years before the commission",
+    "The twelve were Observants, after Leo X's 1517 division; observant-reform-and-popular-preaching (era 6) is the alternative parent if the merge prefers it",
+    "OCR drops accents and misreads ('iMinistro', 'afio', 'conipaneros', 'comenzainos'); kept as printed",
+    "Motolinia was one of the twelve (corpus-map note); the note says 'one of the first friars there' to stay within the cited lines"
+   ],
+   "change_reason": "New link for the Franciscan origin the New Spain text names.",
+   "fre": 81.4,
+   "fk": 5.1
+  },
+  {
+   "id": "new-spain-and-andes-mission-born-christianity--colonial-latin-american-devotional-catholicism",
+   "action": "new",
+   "from": "new-spain-and-andes-mission-born-christianity",
+   "to": "colonial-latin-american-devotional-catholicism",
+   "type": "continued as",
+   "confidence": "Widely Accepted",
+   "note": "Motolinia tells of the first friars baptizing many people in Mexico from 1524. A century later, the friar Thomas Gage found Indian towns in Guatemala running their own brotherhoods for the saints. Historians read these as one church in two stages.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Motolinia, Historia de los indios de la Nueva España (1914 ed.)",
+     "file": "cic/texts/motolinia_historia-de-los-indios-de-la-nueva-espana-spa_sanchez-garcia1914.txt",
+     "lines": "8541-8542",
+     "locus": "Tratado II",
+     "quote": "despues que fueron muchos los Indios bautizados, llamaronlos Espafioles.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Thomas Gage, The English-American his Travail by Sea and Land (London, 1648)",
+     "file": "cic/texts/gage_english-american-new-survey-of-the-west-indias_1648.txt",
+     "lines": "11083-11085",
+     "locus": "ch. on the Indian towns of Guatemala",
+     "quote": "also to every Company or Sodality of the Saints, or Virgin, there are two or three, whom they call Mayordomo's, who gather about the Towne Almes for the maintaining of the Sodality;",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Kenneth Mills, 'The naturalisation of Andean Christianities', The Cambridge History of Christianity, vol. 6, ch. 27",
+     "file": null,
+     "lines": null,
+     "quote": null
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in": "new-spain-and-andes-mission-born-christianity relationsSummary ('colonial Latin American devotional Catholicism continues it'); colonial-latin-american-devotional-catholicism relationsSummary ('This continues the earlier missionary Catholicism of Spanish America'); mission-born label legacy ('Latin American ... Catholicism ... grew directly out of this period')",
+   "drafter_flags": [
+    "The primaries show the facts at each end; the 'one church' reading is the secondary's. Mills's chapter is cited in the mission-born label's sources but not read here (named-not-rechecked for that part)",
+    "Gage was a Dominican who turned Protestant and writes against the friars; his witness to the confraternities is hostile in tone",
+    "Gage's years (1620s-1630s) fall inside both windows (to 1650; from c. 1600)",
+    "Motolinia's sentence is about the name given to the baptized; it is quoted only for the baptisms"
+   ],
+   "change_reason": "New link for the continuation both texts name.",
+   "fre": 60.1,
+   "fk": 8.2
+  },
+  {
+   "id": "new-spain-and-andes-mission-born-christianity--philippine-catholicism",
+   "action": "new",
+   "from": "new-spain-and-andes-mission-born-christianity",
+   "to": "philippine-catholicism",
+   "type": "gave rise to",
+   "confidence": "Documented",
+   "note": "Antonio de Morga writes that Legazpi, a citizen of Mexico, sailed from New Spain in 1564. Five Augustinian friars went with him. A Jesuit, Pedro Chirino, adds that Manila's first bishop came from Mexico. He brought the first Jesuits with him.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Antonio de Morga, Sucesos de las Islas Filipinas (Mexico, 1609), trans. Blair and Robertson (1907)",
+     "file": "cic/texts/morga_sucesos-islas-filipinas_blair-robertson1907.txt",
+     "lines": "884-887",
+     "locus": "ch. 1",
+     "quote": "The viceroy equipped a fleet and its crew with the most necessary things in Puerto de la Navidad, in the southern sea, under charge of a worthy and reliable man, Miguel Lopez de Legazpi, a citizen of Mexico",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Morga, Sucesos (1907 trans.)",
+     "file": "cic/texts/morga_sucesos-islas-filipinas_blair-robertson1907.txt",
+     "lines": "893-897",
+     "locus": "ch. 1",
+     "quote": "Miguel Lopez de Legazpi left Puerto de la Navidad in the year one thousand five hundred and sixty-four, with five ships and five hundred men, accompanied by Fray Andres de Urdaneta and four other religious of the Order of St. Augustine.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Pedro Chirino, S.J., Relación de las Islas Filipinas (Rome, 1604), trans. in Blair and Robertson, The Philippine Islands, vol. XII (1904)",
+     "file": "cic/texts/blair-robertson_philippine-islands-v12_1904.txt",
+     "lines": "4581-4584",
+     "locus": "ch. on the coming of the Society",
+     "quote": "This great prelate had left his province of Mexico to consult with the Catholic king, Don Felipe Second, concerning matters of grave importance; and, being by his Majesty appointed bishop of the Filipinas,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Chirino, Relación (B&R vol. XII)",
+     "file": "cic/texts/blair-robertson_philippine-islands-v12_1904.txt",
+     "lines": "4587-4589",
+     "locus": "ch. on the coming of the Society",
+     "quote": "Accordingly he took with him from that country the first members of the Society to enter those islands--namely, Father Antonio Sedeño and Father Alonso Sanchez.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in": "philippine-catholicism relationsSummary ('Grew directly out of Spanish colonial Catholicism, brought by friars'), after prose change 4",
+   "drafter_flags": [
+    "The New Spain movement centers on native Christians; this link rests on the Spanish church of New Spain as the base the mission sailed from. The merge may judge that the text's 'Spanish colonial Catholicism' has no census movement (then no-entry) instead",
+    "The Franciscans who arrived in 1578 and the Dominicans with Salazar also came by way of Mexico; this link carries them (see dispositions)",
+    "Translation by Blair and Robertson, not Morga's or Chirino's Spanish (Spanish Morga and Chirino are vendored, not checked)"
+   ],
+   "change_reason": "New link for the origin the Philippine text names.",
+   "fre": 61.3,
+   "fk": 7.2
+  },
+  {
+   "id": "the-society-of-jesus--philippine-catholicism",
+   "action": "new",
+   "from": "the-society-of-jesus",
+   "to": "philippine-catholicism",
+   "type": "gave rise to",
+   "confidence": "Documented",
+   "note": "A Jesuit named Pedro Chirino says the first bishop of Manila brought in his order. The Augustinian and Franciscan friars were already there. In two towns near the city, he found barely forty Christians. Within ten years, he says, they had baptized over seven thousand.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Pedro Chirino, S.J., Relación de las Islas Filipinas (Rome, 1604), trans. in Blair and Robertson, vol. XII (1904)",
+     "file": "cic/texts/blair-robertson_philippine-islands-v12_1904.txt",
+     "lines": "4577-4580",
+     "locus": "ch. on the coming of the Society",
+     "quote": "the fathers of the Society of Jesus were also needed. They were introduced, in that year, by the first bishop of these islands, Don Fray Domingo de Salazar,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Chirino, Relación (B&R vol. XII)",
+     "file": "cic/texts/blair-robertson_philippine-islands-v12_1904.txt",
+     "lines": "4975-4979",
+     "locus": "ch. on Taytay and Antipolo",
+     "quote": "As it was clearly evident that the villages of Taitai, Antipolo, and others of that encomienda--which was six leguas from Manila, up the river, and in which there were already some Christians--contained many infidels who should be converted, he entrusted it to the Society.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Chirino, Relación (B&R vol. XII)",
+     "file": "cic/texts/blair-robertson_philippine-islands-v12_1904.txt",
+     "lines": "4984-4986",
+     "locus": "ch. on Taytay and Antipolo",
+     "quote": "when I entered the place, I found hardly forty Christians, and at the end of that time there were not four infidels. If I am not mistaken, we baptized with our own hands more than seven thousand souls;",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in": "philippine-catholicism longDescription ('Augustinians first, then Franciscans, Jesuits, Dominicans and Recollects')",
+   "drafter_flags": [
+    "One of several orders: 'gave rise to' claims a share in the founding, not the whole; the note says the Jesuits came after the Augustinians and Franciscans",
+    "also named in the-society-of-jesus only generally ('sending men to India, Japan, China, Brazil and Canada'; the Philippines is not named there)"
+   ],
+   "change_reason": "New link for the Jesuit share the Philippine text names.",
+   "fre": 60.1,
+   "fk": 7.7
+  },
+  {
+   "id": "philippine-catholicism--philippine-catholicism-era-8",
+   "action": "new",
+   "from": "philippine-catholicism",
+   "to": "philippine-catholicism-era-8",
+   "type": "continued as",
+   "confidence": "Documented",
+   "note": "Antonio de Morga writes that the first bishop, Domingo de Salazar, set up Manila's cathedral under bulls from the pope. In 1656 Archbishop Miguel Poblete wrote to the king from the same see. By then Manila was the head of a group of dioceses.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Antonio de Morga, Sucesos de las Islas Filipinas (1609), trans. Blair and Robertson (1907)",
+     "file": "cic/texts/morga_sucesos-islas-filipinas_blair-robertson1907.txt",
+     "lines": "1196-1198",
+     "locus": "ch. on Ronquillo's government",
+     "quote": "It was during the administration of Don Gonzalo Ronquillo, that the first bishop of the Filipinas was appointed, in the person of Don Fray Domingo de Salazar, of the Dominican order,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Morga, Sucesos (1907 trans.)",
+     "file": "cic/texts/morga_sucesos-islas-filipinas_blair-robertson1907.txt",
+     "lines": "1203-1204",
+     "locus": "ch. on Ronquillo's government",
+     "quote": "The bishop erected his cathedral in the city of Manila, by apostolic bulls,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Miguel de Poblete, archbishop of Manila, letter to Felipe IV, Manila, 30 July 1656, in Blair and Robertson, The Philippine Islands, vol. XXXVI (1906)",
+     "file": "cic/texts/blair-robertson_philippine-islands-v36_1906.txt",
+     "lines": "1570-1573",
+     "locus": "letter of 30 July 1656",
+     "quote": "The most effective measure, it appears to me, is to discontinue the bishopric of Camarines, and have the bishop put over the said nations--considering that the former is the smallest bishopric, and borders on this archbishopric of Manila;",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in": "philippine-catholicism legacy ('its devotional culture ... descends directly from this period'); philippine-catholicism-era-8 relationsSummary ('This continues the story of Philippine Catholicism'); the movement's continuesAs field already points here with no published link",
+   "drafter_flags": [
+    "The 1656 date is from the document heading (B&R vol. XXXVI contents, line 81-82), not the quoted lines",
+    "'over the islands' other dioceses' rests on the letter's mention of the bishopric of Camarines bordering 'this archbishopric'; the suffragan structure is not spelled out in the quoted lines"
+   ],
+   "change_reason": "New link for the period split the continuesAs field already records.",
+   "fre": 64.4,
+   "fk": 7.8
+  }
+ ],
+ "prose_changes": [
+  {
+   "n": 0,
+   "movement": "mission-born-christianities-kirishitan-japan-kon",
+   "field": "relationsSummary",
+   "old": "Grew out of the Jesuit missions and the wider Catholic Reformation, and became the root of Christianity's spread as a truly global religion in the centuries that followed.",
+   "new": "Grew out of Catholic missions. The Portuguese came to Kongo in 1491 and the Franciscans to Mexico in 1524. The Jesuits went to Japan and China. Together they became one root of the spread of Christianity across the world in the centuries that followed.",
+   "reason": "The old summary made every community grow from the Jesuits and the Catholic Reformation; Kongo (1491) and New Spain (Franciscans, 1524) began before both. Christianity was already in Asia and Africa, so 'the root' becomes 'one root'.",
+   "fre_after": 63.2,
+   "fk_after": 7.0
+  },
+  {
+   "n": 1,
+   "movement": "kongo-christianity-afonso-to-1650",
+   "field": "relationsSummary",
+   "old": "Grew from the Portuguese mission of 1491 and the Jesuit missions of the Catholic Reformation; the later prophetic movement of Dona Beatriz (1704) is its own entry.",
+   "new": "Grew from the Portuguese mission of 1491. In 1547 Portugal sent Jesuits to help its bishop. The prophetic movement of Dona Beatriz, from 1704, later grew out of it.",
+   "reason": "Jesuits arrived in a church that already had a bishop (1547 letter), so 'grew from the Jesuit missions' is wrong. 'is its own entry' was build narration.",
+   "fre_after": 67.9,
+   "fk_after": 5.9
+  },
+  {
+   "n": 2,
+   "movement": "china-mission-born-christianity",
+   "field": "relationsSummary",
+   "old": "Grew from Matteo Ricci's entry in 1583 and the Jesuit China mission; the rites controversy that followed belongs to the Society of Jesus and to later entries.",
+   "new": "Grew from Matteo Ricci's arrival in 1583 and the Jesuit mission to China.",
+   "reason": "'belongs to the Society of Jesus and to later entries' was build narration, and the Society's own text does not discuss the rites quarrel.",
+   "fre_after": 60.7,
+   "fk_after": 7.8
+  },
+  {
+   "n": 3,
+   "movement": "mission-born-christianities-kirishitan-japan-kon",
+   "field": "legacy",
+   "old": "These are the beginnings of Christianity as a genuinely global religion, and several of them were never broken. The hidden Christians of Japan kept a transmitted faith for roughly two hundred and fifty years without priests, and their villages are now a UNESCO World Heritage site. Latin American and Philippine Catholicism, with their processions, confraternities and local devotions, grew directly out of this period, and Kongolese Christianity shaped religion on both sides of the Atlantic, including among enslaved Africans in the Americas.",
+   "new": "These are among the first steps of Christianity as a faith of the whole world, and several of them were never broken. The hidden Christians of Japan kept a faith handed down for about two hundred and fifty years with no priests. Their villages are now a UNESCO World Heritage site. Latin American and Philippine Catholicism grew straight out of this time, with their processions, brotherhoods and local saints. Kongo's Christians may also have shaped the beliefs of enslaved Africans in the Americas. But the writings of this time do not show it.",
+   "reason": "The Atlantic claim has no source in the library or the movement's cited works (Thornton and Heywood are cited only on Kongo itself), so it becomes 'may have'. 'The beginnings' becomes 'among the first steps': the Church of the East had reached China in the 600s. Sentences split for reading level.",
+   "fre_after": 61.9,
+   "fk_after": 8.5
+  },
+  {
+   "n": 4,
+   "movement": "philippine-catholicism",
+   "field": "relationsSummary",
+   "old": "Grew directly out of Spanish colonial Catholicism, brought by friars following the start of Spanish rule in 1565.",
+   "new": "Grew out of Spanish colonial Catholicism. Augustinian friars brought it from New Spain in 1565, and other orders came after them.",
+   "reason": "Names where the friars came from, which the new New Spain link documents (Morga); 'directly' dropped, since several orders took part.",
+   "fre_after": 61.3,
+   "fk_after": 7.2
+  }
+ ],
+ "wants": [
+  "Bernard Petitjean's letters of March 1865 on the Urakami Christians (printed in Francisque Marnas, La Religion de Jésus ressuscitée au Japon, 1896), to document the Kirishitan to hidden-Christian descent",
+  "Bernardo da Gallo's and Lorenzo da Lucca's relations on Dona Beatriz (only modern, in-copyright editions known; Antonian dossier section 4)",
+  "Mateus Cardoso's Kikongo Doutrina Christãa (1624), the Jesuit catechism for Kongo, for a possible 'influenced' link from the Jesuits",
+  "Guaman Poma, Nueva corónica y buen gobierno (1615), in a public-domain transcription",
+  "The Huarochirí manuscript in a public-domain edition, or Francisco de Ávila's own account of commissioning it",
+  "A public-domain source on Central African Christians among the enslaved in the Americas (seventeenth century), for the Atlantic claim in the label's legacy",
+  "Coleridge's Xavier quotes checked against the Spanish of Monumenta Xaveriana I (vendored)"
+ ],
+ "escalations": [
+  "The mission-born movement is a label over four regional movements ('A label, not one movement - assessed per region'). This draft draws no links on the label itself: each relationship it names is carried on the regional movement, and its summary is rewritten region by region. Whether a label movement should also carry its own links (and so appear joined in the tree) is a method question no ruling covers; the only other label is progressive-christianity (era 10)."
+ ]
+}

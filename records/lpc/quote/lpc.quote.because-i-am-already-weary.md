@@ -31,6 +31,7 @@ retrieval:
   retrieve_when:
   - participant asks how Lucian's letter from prison ends
   - participant asks what the confessors' own letters sound like
+  - participant asks what Christians held in prison for their faith wrote to their friends
   prefer_instead:
   - participant wants what the prison was like -- lpc.quote.shut-up-in-two-cells gives that
 claim_guards:

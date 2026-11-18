@@ -17,9 +17,7 @@ confidence:
     receptive-with-adaptation mode.
 sources:
 - source_id: gallic.source.cassian-institutes
-  locus: "Preface (npnf211 div iv.ii, file lines 16515-16534): Cassian's own method - follow the
-    ancient Egyptian rule rather than any individual founder's own fancy, adapting only where
-    climate or circumstance in Gaul makes the letter of it impossible"
+  locus: "Preface (cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml, lines 16515-16534; div iv.ii): Cassian's own method - follow the ancient Egyptian rule rather than any individual founder's own fancy, adapting only where climate or circumstance in Gaul makes the letter of it impossible"
   license: public-domain
 retrieval:
   tier: 2
@@ -78,7 +76,7 @@ use_note:
   means: "Cassian states in the Institutes preface that he will follow the ancient rule of Egypt and Palestine over any founder's fancy, adapting only where Gaul's conditions require."
   not_for:
     - "Castor's request for Egyptian institutions, which sits in gallic.quote.castor-anxious-for-egyptian-institutions"
-    - "a licence for Gallic invention, when adaptation draws on other eastern custom"
+    - "a license for Gallic invention, when adaptation draws on other eastern custom"
     - "a description of how Gallic monasteries actually ran"
   years: {from: 415, to: 426}
   status: reviewed

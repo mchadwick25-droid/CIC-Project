@@ -20,6 +20,8 @@ assignments:
   - syriac-edessa-nisibis
   role: tradition
   confidence: assigned
+  locus_ids: [front/line208, front/line231, front/line234, front/line240, front/line246, front/line249, front/line252, front/line255, front/line261, front/line267, front/line270, front/line273, front/line276, front/line279, front/line285, front/line291, front/line294, front/line297, front/line300, front/line303, front/line309, front/line315, front/line318, front/line321, front/line324, front/line330, front/line336, front/line339, front/line345, front/line348, front/line351, front/line354, front/line357, front/line360, front/line363, front/line366, front/line371, front/line374, front/line377, front/line380, p1, p2/line402, p2/line411, p2/line414, p2/line417, p2/line420, p2/line423, p2/line427, p2/line430, p2/line433, p2/line439, p2/line442, p2/line449, p2/line453, p2/line455, p2/line459, p2/line463, p2/line469, p2/line471, p2/line475, p2/line479, p2/line483, p2/line485, p2/line489, p2/line497, p2/line501, p2/line503, p2/line507, p2/line513, p2/line515, p2/line519, p2/line525, p2/line527, p2/line533, p2/line535, p2/line539, p2/line543, p1~2, p2, p3, p4, p5, p6, p9/line579, p9/line586, p9/line594, p9/line598, p9/line602, p9/line606, p9/line614, p9/line618, p9/line624, p9/line630, p9/line634, p9/line638, p9/line642, p9/line646, p9/line654, p9/line658, p9/line662, p9/line666, p9/line670, p9/line679, p9/line685, p9/line687, p9/line693, p9/line697, p9/line701, p9/line707, p9/line713, p9/line717, p9/line721, p9/line729, p9/line735, p9/line745, p1~3, p2~2, p3~2, p4~2, p5~2, p6/line767, p6/line773, p6/line777, p6/line781, p6/line785, p6/line791, p6/line797, p6/line801, p6/line809, p6/line817, p6/line825, p6/line833, p6/line837, p6/line841, p6/line847, p6/line849, p6/line857, p6/line859, p6/line863, p6/line867, p6/line875, p6/line879, p6/line887, p6/line891, p6/line895, p6/line899, p6/line903, p6/line907, p6/line913, p6/line919, p6/line923, p6/line929, p2/line951, p2/line957, p2/line961, p2/line965, p2/line969, p2/line975, p2/line977, p2/line981, p2/line985, p2/line989, p2/line993, p2/line1001, p2/line1005, p2/line1009, p2/line1019, p2/line1021, p2/line1027, p2/line1035, p2/line1039, p2/line1047, p2/line1051, p2/line1059, p2/line1067, p2/line1073, p2/line1077, p2/line1085, p2/line1087, p2/line1093, p2/line1095, p2/line1099, p2/line1103, p2/line1113, p2/line1117, p2/line1121, p2/line1131, p2/line1135, p2/line1137, p2/line1145, p2/line1149, p2/line1153, p2/line1163, p2/line1171, p2/line1175, p2/line1185, p2/line1187, p2/line1193, p2/line1195, p2/line1201, p1~4, p2~3]
+  language: eng
   note: 'Ephraim''s own prose polemic, a core voice of the built Syriac world. The second
     discourse''s own heading names the targets: "TO HYPATIUS AGAINST MANI AND MARCION AND
     BARDAISAN".
@@ -53,6 +55,8 @@ assignments:
   - syriac-edessa-nisibis
   role: tradition
   confidence: assigned
+  locus_ids: [p5/line1349, p5/line1358, p5/line1364, p5/line1372, p5/line1376, p5/line1388, p5/line1392, p5/line1396, p5/line1404, p5/line1406, p5/line1410, p5/line1414, p5/line1418, p5/line1420, p5/line1422, p5/line1430, p5/line1436, p5/line1440, p5/line1444, p5/line1448, p5/line1452, p5/line1458, p5/line1464, p5/line1466, p5/line1468, p5/line1472, p5/line1474, p5/line1478, p5/line1485, p5/line1487, p5/line1493, p1~5, p3~4, p5~3, p6~2, p7, p8, p10, p12]
+  language: eng
   note: 'Ephraim answering Bardaisan of Edessa on his own ground - also the corpus''s main
     transmission of Bardaisan''s lost "Domnus". Tradition for the Syriac world as Ephraim''s
     own work.
@@ -80,6 +84,8 @@ assignments:
   - syriac-edessa-nisibis
   role: tradition
   confidence: assigned
+  locus_ids: [p13/line1537, p13/line1547, p13/line1549, p13/line1553, p13/line1555, p13/line1557, p13/line1559, p13/line1561, p13/line1563, p13/line1571, p13/line1573, p13/line1577, p13/line1583, p13/line1589, p13/line1599, p13/line1601, p13/line1603, p13/line1605, p13/line1607, p13/line1609, p13/line1611, p13/line1613, p13/line1619, p13/line1621, p13/line1625, p13/line1627, p13/line1629, p13/line1631, p13/line1633, p13/line1639, p13/line1643, p1~6, p2~5, p4~4, p5~4, p9, p10~2, p11, p12~2, p13, p14, p15, p16, p17, p18, p19, p20, p22, p23, p24, p27, p28, p29, p31, p32, p33, p34/line1735, p34/line1758, p34/line1764, p34/line1768, p34/line1770, p34/line1772, p34/line1774, p34/line1778, p34/line1784, p34/line1796, p1~7, p3~5, p4~5, p5~5, p6~3, p7~2, p8~2, p9~2, p10~3, p11~2, p12~3, p13~2, p14/line1832, p14/line1840, p14/line1842, p14/line1844, p14/line1850, p14/line1852, p14/line1854, p14/line1856, p14/line1864, p14/line1870, p14/line1880, p14/line1882, p14/line1892, p2~6, p3~6, p4~6, p6~4, p7~3, p8~3, p10~4, p11~3, p12~4, p13~3]
+  language: eng
   note: 'Three connected discourses, assigned as one work a reader would name. Ephraim''s
     own anti-Marcionite polemic, tradition for the Syriac world.
 
@@ -105,6 +111,8 @@ assignments:
   - syriac-edessa-nisibis
   role: tradition
   confidence: assigned
+  locus_ids: [p14/line1934, p14/line1946, p14/line1954, p14/line1962, p14/line1968, p14/line1986, p14/line2008, p14/line2014, p14/line2024, p14/line2030, p14/line2036, p14/line2045, p14/line2051, p14/line2057, p14/line2063, p14/line2069, p14/line2082, p14/line2090, p14/line2096, p14/line2102, p14/line2108, p14/line2112, p14/line2118, p14/line2124, p14/line2132, p14/line2146, p2~7, p3~7, p4~7, p5~6, p6~5, p7~4, p8~4, p9~3, p10~5, p12~5, p13~4, p14~2, p16~2, p17~2, p18~2, p19~2, p20~2, p21, p22~2, p23~2, p24~2, p25, p26, p27~2, p29~2, p30]
+  language: eng
   note: 'Distinct from the reply to the "Domnus"; Ephraim''s own work against Edessa''s home-grown
     teacher.
 
@@ -128,6 +136,8 @@ assignments:
   - syriac-edessa-nisibis
   role: tradition
   confidence: assigned
+  locus_ids: [p31/line2214, p31/line2226, p31/line2230, p31/line2236, p31/line2242, p31/line2246, p31/line2254, p31/line2258, p31/line2262, p31/line2268, p31/line2274, p31/line2280, p31/line2286, p31/line2292, p31/line2300, p31/line2306, p31/line2312, p31/line2316, p31/line2322, p31/line2328, p31/line2332, p31/line2352, p2~8, p3~8, p4~8, p5~7, p6~6, p7~5, p8~5, p9~4, p11~4, p12~6, p13~5, p14~3, p16~3, p17~3, p18~3, p19~3]
+  language: eng
   note: 'The one non-polemical piece in the volume: Ephraim''s ascetic teaching, direct evidence
     for the Syriac world''s consecrated-virginity strand.
 
@@ -140,6 +150,8 @@ assignments:
   - syriac-edessa-nisibis
   role: tradition
   confidence: assigned
+  locus_ids: [p21/line2394, p21/line2406, p21/line2422, p21/line2424, p21/line2430, p21/line2438, p21/line2440, p21/line2442, p21/line2452, p21/line2454, p21/line2462, p21/line2464, p21/line2468, p21/line2470, p21/line2472, p21/line2474, p21/line2476, p21/line2482, p21/line2484, p21/line2486, p21/line2488, p21/line2494, p21/line2498, p21/line2502, p21/line2506, p21/line2520, p21/line2534, p2~9, p3~9, p5~8, p7~6, p9~5, p10~6, p13~6]
+  language: eng
   note: 'Ephraim''s own anti-Manichaean discourse, tradition for the Syriac world.
 
     '

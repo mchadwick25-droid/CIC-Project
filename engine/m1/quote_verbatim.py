@@ -107,8 +107,7 @@ ALLOWED_DIFFERENCE_CLASSES: dict[str, str] = {
 # quotation) - is NOT. That stays a failure and gets fixed in the record,
 # not accommodated here.
 
-# Two of the three patterns a #403 triage flagged (not the stray-backslash
-# one, left for the record-fix session) fold into the whitespace/ellipsis
+# Two of the three patterns (the source-side ones) fold into the whitespace/ellipsis
 # handling above rather than becoming new classes - each is a source-
 # side typesetting/notation quirk, not a difference in what's actually
 # said. The third (stray backslash) is a record-authoring bug, out of
@@ -127,7 +126,7 @@ ALLOWED_DIFFERENCE_CLASSES: dict[str, str] = {
 # same file, and no safe, narrow rule for telling the two apart has been
 # found yet. See the fleet report for the six records this still blocks
 # (five apparatus-only, one - `cappadocian.quote.basil-on-work-and-
-# prayer` - already nested-mark-fixed by #413 but blocked here too).
+# prayer` - whose nested marks are already fixed, but blocked here too).
 
 # The rule: fleet-wide principles, since a hundred worlds cannot each be
 # told individually what to say for every quote - never a per-record
@@ -488,9 +487,11 @@ def _clean_source(source_raw: str, source_is_xml: bool) -> str:
     return strip_apparatus(source_full)
 
 
-def verify_quote_text(
-    quote_text: str, source_raw: str, *, source_is_xml: bool, apply_letterform_normalization: bool = True
-) -> VerifyResult:
+@lru_cache(maxsize=2)
+def _prepared_source(source_raw: str, source_is_xml: bool, apply_letterform_normalization: bool):
+    """The cleaned source, its letterform-normalized form and the offset map
+    back to the cleaned form: the same for every quote checked against one
+    source, so computed once per source rather than once per quote."""
     source_full = _clean_source(source_raw, source_is_xml)
     # Kept alongside the normalized text (never reassigned below) so a
     # letterform class can be credited from the RAW span a match actually
@@ -506,6 +507,15 @@ def verify_quote_text(
         # simply never find a letterform class to credit, because neither
         # side of the comparison was normalized.
         source_offset_map = range(len(source_full))
+    return source_full, source_raw_for_letterforms, source_offset_map
+
+
+def verify_quote_text(
+    quote_text: str, source_raw: str, *, source_is_xml: bool, apply_letterform_normalization: bool = True
+) -> VerifyResult:
+    source_full, source_raw_for_letterforms, source_offset_map = _prepared_source(
+        source_raw, source_is_xml, apply_letterform_normalization
+    )
     quote_raw_for_letterforms = quote_text
     if apply_letterform_normalization:
         quote_text, _ = normalize_archaic_letterforms(quote_text)

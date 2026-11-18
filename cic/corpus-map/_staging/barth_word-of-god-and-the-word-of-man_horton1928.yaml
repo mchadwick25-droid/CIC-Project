@@ -1,0 +1,11 @@
+source_file: barth_word-of-god-and-the-word-of-man_horton1928.txt
+assignments:
+- row_id: barth_word-of-god-and-the-word-of-man_horton1928--barth-the-word-of-god-and-the-word-of-man-horton-1928
+  work: 'Barth, The Word of God and the Word of Man (Horton 1928)'
+  author: barth
+  locus: 'whole; the end of the last address is missing'
+  atlas_ids:
+  - the-mainline-century-liberal-and-neo-orthodox
+  role: tradition
+  confidence: assigned
+  note: 'His addresses in the English translation of 1928.'

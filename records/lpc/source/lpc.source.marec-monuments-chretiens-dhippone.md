@@ -29,7 +29,7 @@ rights_status: in-copyright; never vendored, consultation-only, per Source_Acqui
   primary editions and secondary scholarship alike, per that same rule. Cited and consulted by this build,
   never quoted as licensed vendored material.
 attribution_status: attributed
-discovery_channel: WebSearch (library catalogue records).
+discovery_channel: WebSearch (library catalog records).
 external_ids:
   lpc_source_registry_row: 63
 ---

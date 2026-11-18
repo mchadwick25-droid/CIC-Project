@@ -1,0 +1,11 @@
+run: CFT person pilot 2026-11-11
+voice_id: fxnZk29PIJ3WKEC9MDEo
+model_id: eleven_multilingual_v2
+output_format: mp3_44100_64
+voice_settings: {"stability": 0.95, "similarity_boost": 0.68, "style": 0, "use_speaker_boost": true}
+  item origen: 1734 chars
+items: 1  total chars: 1734  cap: 5500
+balance before (used/limit): (199409, 600000)
+  origen: 1734 chars sent, character-cost 841, 963438 bytes -> /tmp/claude-0/-home-user-CIC-Project/6d98dab9-13d8-521f-bb4d-c1b444ee38ce/scratchpad/pilot/rec/origen.mp3
+total character-cost: 841
+balance after (used/limit): (199409, 600000)

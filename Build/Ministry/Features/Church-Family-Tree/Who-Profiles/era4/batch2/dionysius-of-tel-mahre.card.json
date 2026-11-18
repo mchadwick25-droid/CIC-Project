@@ -1,0 +1,117 @@
+{
+  "name": "Dionysius of Tel Mahre",
+  "otherNames": [
+    "Denys de Tell Mahrê",
+    "Dionysius Telmaharensis"
+  ],
+  "knownFor": "Patriarch of the Syriac Orthodox church from 818 to 845, who pleaded his church's cause before the caliph al-Ma'mun and his emirs. He wrote a history of the church down to his own times, which later chroniclers kept in part.",
+  "dates": "Made patriarch on Sunday, the first of August 818, in his own words as Bar Hebraeus quotes them. The year 818 is the editors' reckoning of his year of the Greeks, 1129. Died on 22 August 845, Bar Hebraeus says, by the same reckoning. No source used here gives his birth",
+  "place": "Kenneshre, the monastery of John bar Aphthonia, where he was a monk and where Bar Hebraeus says he was buried. As patriarch of Antioch he traveled to Baghdad, Tagrit, Damascus and Egypt",
+  "tradition": "Syriac Orthodox Christianity under Islam",
+  "role": "Patriarch of Antioch of the Syriac Orthodox church; historian",
+  "briefLength": "about 2 minutes 30 seconds",
+  "keyWorks": [
+    {
+      "title": "History, written for John of Dara",
+      "about": "a history of the church and the world, written at the request of John, metropolitan of Dara. Michael the Syrian says it ran from the emperor Maurice to the emperor Theophilus. The book itself is not held. Michael keeps its preface and passages of it, and Bar Hebraeus quotes it on Egypt and on Dionysius's own election"
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "Michael the Syrian copies from it. A marginal note in his chronicle says that a letter of Peter, patriarch of Antioch, is written out in full in Dionysius's book. Michael gives extracts of it.",
+      "Michael quotes Dionysius naming a source for one story: the histories of Daniel, son of Samuel, of the Tur Abdin. Daniel was his grandfather on his mother's side. Dionysius then gives his own view of the story.",
+      "Bar Hebraeus quotes his report on the Coptic church of Egypt. Dionysius found its people chaste, and they gave him every honor due to their own pope. He also found the study of Scripture neglected. No one reached the office of bishop, he wrote, without two or three hundred gold coins.",
+      "Bar Hebraeus also quotes his account of the pyramids. Dionysius judged them solid tombs of ancient kings, and not the granaries of Joseph that some had thought.",
+      "Bar Hebraeus says Dionysius ordained a hundred bishops. When Daniel of Tagrit died, Dionysius chose and ordained Thomas there as maphrian, the first bishop after the patriarch in all the East.",
+      "Bar Hebraeus's Nomocanon, his book of church law, cites Dionysius with Jacob of Edessa. It gives their rule on kinship through the sponsors at a wedding."
+    ],
+    "remembered": [
+      "Bar Hebraeus, closing his account of Dionysius's last words, calls him that blessed man.",
+      "A heading at the start of Michael the Syrian's chronicle names Dionysius of Tel Mahre among the writers it was compiled from. J.-B. Chabot, who translated Michael, holds that the heading is not Michael's own."
+    ]
+  },
+  "uncertain": [
+    "How we know him. The scene with al-Ma'mun is told by Bar Hebraeus, who was born in 1226 by his editors' account. He does not mark it as a quotation from Dionysius. He does quote Dionysius's own words on his election, on Egypt and in his last letter. Renaudot, in his history of the patriarchs of Alexandria, also has him come to Egypt and spend many days with the patriarch Jacob.",
+    "How much of his history survives. Michael keeps its preface and passages of it. J.-B. Chabot says that one passage in Michael's tenth book, taken from Dionysius, is the only chapter of Dionysius's chronicle whose text we have.",
+    "Which chronicle is his. Joseph Assemani found at Scete a shorter chronicle ending about 775 and took it for Dionysius's. Bar Hebraeus's editors follow him, and say it is addressed to George, a country bishop of Amida, and others, not to John of Dara. W. Wright, in his edition of Joshua the Stylite, also gives this chronicle to Dionysius. He says Dionysius took Joshua's short chronicle into his own larger work. In 1895 Chabot published part of it as Dionysius's. By 1899, in his Michael, he calls its author Pseudo-Denys. J. K. Fotheringham, in 1923, says it was once given to Dionysius in error.",
+    "Dates. The years 818 and 845 are the editors' reckoning of Bar Hebraeus's years of the Greeks. Bar Hebraeus sets the first voyage in the year 1136 of the Greeks, when the emir Abdallah, son of Tahir, went down to Egypt. The editors give that year as 823. For the second journey, with al-Ma'mun, he gives no year of its own, only the same year as the events before it.",
+    "The rebels of Lower Egypt. Bar Hebraeus calls them Byamites and has Afshin burn their villages. Eutychius of Alexandria has al-Mu'tasim lead the army, and says the rebels refused their tax. Neither he nor Makrizi, as Renaudot reports him, says Dionysius was there. Bar Hebraeus's editors give other names for the rebels from Renaudot and Le Quien.",
+    "His own side. In his preface Dionysius charges Theophilus of Edessa, a Chalcedonian, with leaving out every story about his church. He writes as a patriarch of the church that refused Chalcedon."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "Preface to his history, and passages of it, in Michael the Syrian's Chronicle, books X and XI (tr. J.-B. Chabot)",
+        "author": "Dionysius of Tel Mahre",
+        "language": "French translation",
+        "file": "cic/texts/michael-the-syrian_chronique-tome2-livres-viii-xi-fra_chabot1901.txt"
+      },
+      {
+        "title": "His account of his election, of Egypt and of his last years, as quoted in Bar Hebraeus's Ecclesiastical Chronicle, volume 1 (ed. and tr. J.-B. Abbeloos and T. J. Lamy)",
+        "author": "Dionysius of Tel Mahre",
+        "language": "Latin translation",
+        "file": "cic/texts/barhebraeus_chronicon-ecclesiasticum-vol1-lat_abbeloos-lamy1872.txt"
+      }
+    ],
+    "about": [
+      {
+        "title": "Ecclesiastical Chronicle, volume 1, the patriarchs of Antioch, on Dionysius, with the editors' notes",
+        "author": "Bar Hebraeus",
+        "language": "Latin translation",
+        "file": "cic/texts/barhebraeus_chronicon-ecclesiasticum-vol1-lat_abbeloos-lamy1872.txt"
+      },
+      {
+        "title": "Ecclesiastical Chronicle, volume 3, on Thomas of Tagrit",
+        "author": "Bar Hebraeus",
+        "language": "Latin translation",
+        "file": "cic/texts/barhebraeus_chronicon-ecclesiasticum-vol3-lat_abbeloos-lamy1877.txt"
+      },
+      {
+        "title": "Chronicle, books X and XI, with the translator's notes (tr. J.-B. Chabot)",
+        "author": "Michael the Syrian",
+        "date": "1901",
+        "language": "French translation",
+        "file": "cic/texts/michael-the-syrian_chronique-tome2-livres-viii-xi-fra_chabot1901.txt"
+      },
+      {
+        "title": "Chronicle, books I to VII, with the translator's introduction (tr. J.-B. Chabot)",
+        "author": "Michael the Syrian",
+        "date": "1899",
+        "language": "French translation",
+        "file": "cic/texts/michael-the-syrian_chronique-tome1-livres-i-vii-fra_chabot1899.txt"
+      },
+      {
+        "title": "Nomocanon of the Syrian church of Antioch (tr. Angelo Mai), in Scriptorum veterum nova collectio, volume 10",
+        "author": "Bar Hebraeus",
+        "language": "Latin translation",
+        "file": "cic/texts/mai_scriptorum-veterum-nova-collectio-tomus10-ebedjesu-synodus-timothei-lat_mai1838.txt"
+      },
+      {
+        "title": "Historia patriarcharum Alexandrinorum Jacobitarum",
+        "author": "Eusèbe Renaudot",
+        "date": "1713",
+        "language": "Latin",
+        "file": "cic/texts/renaudot_historia-patriarcharum-alexandrinorum-jacobitarum-lat_1713.txt"
+      },
+      {
+        "title": "Annals, in Patrologia Graeca 111",
+        "author": "Eutychius of Alexandria",
+        "language": "Latin translation",
+        "file": "cic/texts/nicholas-mystikos_epistolae-with-eutychius-alexandrinus-pg111-grc-lat_migne1863.txt"
+      },
+      {
+        "title": "The Chronicle of Joshua the Stylite, introduction",
+        "author": "W. Wright",
+        "language": "English",
+        "file": "cic/texts/joshua-the-stylite_chronicle_wright1882.txt"
+      },
+      {
+        "title": "Eusebii Pamphili Chronici canones, preface",
+        "author": "J. K. Fotheringham",
+        "date": "1923",
+        "language": "Latin",
+        "file": "cic/texts/jerome_eusebii-chronici-canones-lat_fotheringham1923.txt"
+      }
+    ]
+  }
+}

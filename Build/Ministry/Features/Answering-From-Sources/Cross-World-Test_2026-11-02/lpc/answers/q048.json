@@ -1,0 +1,136 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "lpc.term.the-flock"
+   ],
+   "sentence": "Among us, a bishop is given a particular people in one place, and he answers for them."
+  },
+  {
+   "record_ids": [
+    "lpc.term.the-flock"
+   ],
+   "sentence": "A bishop preaches to the people given him and baptizes them."
+  },
+  {
+   "record_ids": [
+    "lpc.term.the-flock"
+   ],
+   "sentence": "When the flock fails, our bishop carries the failure as a wound, and does not manage it as a problem."
+  },
+  {
+   "record_ids": [
+    "lpc.term.the-flock"
+   ],
+   "sentence": "The charge runs both ways, for the flock can stand before the bishop's seat and refuse to leave until the bishop hears them."
+  },
+  {
+   "record_ids": [
+    "lpc.witness.answerability-as-ground"
+   ],
+   "sentence": "As we understand ourselves, a particular people is placed in a particular man's care, and the man will be asked what became of them."
+  },
+  {
+   "record_ids": [
+    "lpc.quote.ye-belong-to-my-care"
+   ],
+   "sentence": "Augustine told his people: “You share communion with the members of the Apostles. You share communion with the shrines of the holy martyrs, who are spread over the whole world. And you belong to my care, so that I may give a good account of you. You know what my whole account is. ‘Lord, You know that I have spoken. You know that I have not kept silent. You know in what spirit I have spoken. You know that I have wept before You when I spoke and was not heard.’”"
+  }
+ ],
+ "citations": [
+  "lpc.quote.ye-belong-to-my-care",
+  "lpc.term.the-flock",
+  "lpc.witness.answerability-as-ground"
+ ],
+ "group": "B",
+ "id": "q048",
+ "net_sentences": [
+  {
+   "draft": "Among us, a bishop is given a particular people in one place, and he answers for them [[lpc.term.the-flock]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "Among us, a bishop is given a particular people in one place, and he answers for them.",
+   "tags": [
+    "lpc.term.the-flock"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "A bishop preaches to the people given him and baptizes them [[lpc.term.the-flock]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "A bishop preaches to the people given him and baptizes them.",
+   "tags": [
+    "lpc.term.the-flock"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "When the flock fails, our bishop carries the failure as a wound, and does not manage it as a problem [[lpc.term.the-flock]] [[as:paraphrase]].",
+   "ratio": 0.75,
+   "sentence": "When the flock fails, our bishop carries the failure as a wound, and does not manage it as a problem.",
+   "tags": [
+    "lpc.term.the-flock"
+   ],
+   "verdict": "ok",
+   "why": "grounded 75% in own tagged records"
+  },
+  {
+   "draft": "The charge runs both ways, for the flock can stand before the bishop's seat and refuse to leave until the bishop hears them [[lpc.term.the-flock]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "The charge runs both ways, for the flock can stand before the bishop's seat and refuse to leave until the bishop hears them.",
+   "tags": [
+    "lpc.term.the-flock"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "As we understand ourselves, a particular people is placed in a particular man's care, and the man will be asked what became of them [[lpc.witness.answerability-as-ground]] [[as:paraphrase]].",
+   "sentence": "As we understand ourselves, a particular people is placed in a particular man's care, and the man will be asked what became of them.",
+   "tags": [
+    "lpc.witness.answerability-as-ground"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Augustine told his people: [[quote:lpc.quote.ye-belong-to-my-care]]",
+   "placed_quote": "lpc.quote.ye-belong-to-my-care",
+   "sentence": "Augustine told his people: “You share communion with the members of the Apostles. You share communion with the shrines of the holy martyrs, who are spread over the whole world. And you belong to my care, so that I may give a good account of you. You know what my whole account is. ‘Lord, You know that I have spoken. You know that I have not kept silent. You know in what spirit I have spoken. You know that I have wept before You when I spoke and was not heard.’”",
+   "tags": [
+    "lpc.quote.ye-belong-to-my-care"
+   ],
+   "verdict": "ok",
+   "why": "quote placed by code, verbatim to its record"
+  }
+ ],
+ "offered": [
+  "lpc.witness.apostolic-succession-of-bishops",
+  "lpc.term.the-flock",
+  "lpc.term.catechesis",
+  "lpc.term.schism",
+  "lpc.story.election-of-cyprian",
+  "lpc.story.hundred-thousand-sesterces",
+  "lpc.quote.longing-expectation-is-a-prayer-for-me",
+  "lpc.quote.shepherd-wounded-in-the-flock",
+  "lpc.gravity.collegial-communion-preserved",
+  "lpc.witness.answerability-as-ground",
+  "lpc.quote.clamour-and-tears",
+  "lpc.quote.ye-belong-to-my-care"
+ ],
+ "raw_text": "Among us, a bishop is given a particular people in one place, and he answers for them [[lpc.term.the-flock]] [[as:paraphrase]]. A bishop preaches to the people given him and baptizes them [[lpc.term.the-flock]] [[as:paraphrase]]. When the flock fails, our bishop carries the failure as a wound, and does not manage it as a problem [[lpc.term.the-flock]] [[as:paraphrase]].\n\nThe charge runs both ways, for the flock can stand before the bishop's seat and refuse to leave until the bishop hears them [[lpc.term.the-flock]] [[as:paraphrase]]. As we understand ourselves, a particular people is placed in a particular man's care, and the man will be asked what became of them [[lpc.witness.answerability-as-ground]] [[as:paraphrase]].\n\nAugustine told his people: [[quote:lpc.quote.ye-belong-to-my-care]]\n",
+ "reply_shape": {
+  "placed": [
+   "lpc.quote.ye-belong-to-my-care"
+  ],
+  "removed": [],
+  "repaired": []
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": "C16.S5",
+ "text": "Among us, a bishop is given a particular people in one place, and he answers for them. A bishop preaches to the people given him and baptizes them. When the flock fails, our bishop carries the failure as a wound, and does not manage it as a problem.\n\nThe charge runs both ways, for the flock can stand before the bishop's seat and refuse to leave until the bishop hears them. As we understand ourselves, a particular people is placed in a particular man's care, and the man will be asked what became of them.\n\nAugustine told his people: “You share communion with the members of the Apostles. You share communion with the shrines of the holy martyrs, who are spread over the whole world. And you belong to my care, so that I may give a good account of you. You know what my whole account is. ‘Lord, You know that I have spoken. You know that I have not kept silent. You know in what spirit I have spoken. You know that I have wept before You when I spoke and was not heard.’”",
+ "voice_set_aside": false
+}

@@ -1,0 +1,21 @@
+source_file: spurgeon_autobiography-v1-1834-1854_1897.txt
+assignments:
+- row_id: spurgeon_autobiography-v1-1834-1854_1897--c-h-spurgeon-s-autobiography-compiled-from-his-diary-letters
+  work: C. H. Spurgeon's Autobiography, compiled from his diary, letters, and records, by his wife and his private
+  author: spurgeon
+  locus: the whole volume; not mapped
+  atlas_ids:
+  - nineteenth-century-baptists
+  role: tradition
+  confidence: provisional
+  language: eng
+  date:
+    start: 1897
+    end: 1897
+    source: 'the printing''s own title page: OCR line 56, on the title page'
+    formation_confidence: Documented
+  edition_date:
+    year: 1897
+    source: OCR line 56, on the title page
+    formation_confidence: Documented
+  note: 'Era 9 row 168, Charles Haddon Spurgeon: the Autobiography, vol. 1.'

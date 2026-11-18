@@ -1,11 +1,11 @@
 Title: Historie o těžkých protivenstvích církve české, hned od počátku jejího na víru křesťanskou obrácení, v létu Páně 894, až do léta 1632, za panování Ferdinanda II., s připojením historie o persekucí Valdenských, roku 1655 stalé
 Creator: Not named on the title page. The host catalogue ascribes it to Jan Amos Comenius with Adam Hartmann; the text names Adam Hartmann as a servant of the church (file line 7517)
-Publisher: V Praze: Dr. Ed. Grégr for the česká evangelická reformovaná církev pražská, 1890 (the title page reads 1890; the host record dates the item 1870)
-Publication Date: 1890
-Rights: Public Domain (published 1890; pd-us-by-date)
+Publisher: V Praze: Dr. Ed. Grégr for the česká evangelická reformovaná církev pražská, 1870 (the title page, read on the page image; the host record also dates the item 1870)
+Publication Date: 1870
+Rights: Public Domain (published 1870; pd-us-by-date)
 Language: ces
 Source: Internet Archive item historieotezkych00come, file historieotezkych00come_djvu.txt, fetched directly by the library/source-research thread (Era VII session), 2026-10-16; host rights statement: archive.org possible-copyright-status 'The Library of Congress is unaware of any copyright restrictions for this item'; scan from the Library of Congress.
-Provenance note: Header prepended; the OCR text follows unchanged apart from no characters changed. Rights basis: the imprint year 1890 is 1930 or earlier, so the work is public domain by the project's date rule.
+Provenance note: Header prepended; the OCR text follows unchanged apart from no characters changed. Rights basis: the imprint year 1870 is 1930 or earlier, so the work is public domain by the project's date rule.
 Content note: A history of the sufferings of the Czech church from 894 to 1632 under Ferdinand II, with an appended account of the Waldensian persecution of 1655. The 1618-1632 sections bear on the suppression this world covers. OCR sampled at five points (10/30/50/70/90 percent): clean Czech. The authorship is the host catalogue's ascription and is not settled by the title page.
 
 ---

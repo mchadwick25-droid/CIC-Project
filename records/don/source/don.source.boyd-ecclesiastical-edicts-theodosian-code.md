@@ -14,7 +14,7 @@ confidence:
   divergence_note: Two confirmed ABSENCES bound what this row licenses, and both were checked directly.
     (1) Law 16.5.52's own text is NOT quoted anywhere in this file -- this row does not license it; Mommsen
     and Meyer (Registry row 51) does. (2) The term agonistici does not appear here either; Boyd uses 'Circumcellions'
-    throughout. Separately, Doc_02 SS3 flags Boyd's own one-sentence characterisation of the group as
+    throughout. Separately, Doc_02 SS3 flags Boyd's own one-sentence characterization of the group as
     an uncritical restatement of Augustine's and Optatus's hostile framing -- NOT corroborating evidence
     of the group's character. Acquired as a stopgap while the critical edition remained unlocated; now
     supplemented rather than needed as a substitute.
@@ -26,6 +26,7 @@ work: The Ecclesiastical Edicts of the Theodosian Code (Studies in History, Econ
 edition: 'New York: Columbia University Press / Macmillan, 1905; vendored as cic/texts/boyd_ecclesiastical-edicts-theodosian-code_1905.txt'
 citation: 'William K. Boyd, The Ecclesiastical Edicts of the Theodosian Code, Studies in History, Economics and Public Law, Columbia University, Vol. XXIV (New York: Columbia University Press / Macmillan, 1905)'
 kind: vendored
+shelf_row: boyd_ecclesiastical-edicts-theodosian-code_1905--the-ecclesiastical-edicts-of-the-theodosian-code
 rights_status: "public-domain; vendored, identity and provenance directly confirmed (the vendored file's own provenance header states Public Domain)"
 attribution_status: attributed. Confirmed a genuine 1905 Columbia University monograph, bound together
   in the scanned volume with two unrelated studies, neither of which this build cites.

@@ -19,8 +19,7 @@ confidence:
     that he may not yet have been at Lérins when he wrote it; this record does not assert Lérins.
 sources:
 - source_id: gallic.source.vincent-commonitory
-  locus: "ch. 1 [2] (npnf211 div iii.ii, file lines 12112-12120): Vincent's own account of leaving
-    secular warfare for the harbour of religion"
+  locus: "ch. 1 [2] (cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml, lines 12112-12120; div iii.ii): Vincent's own account of leaving secular warfare for the harbour of religion"
   license: public-domain
 retrieval:
   tier: 2
@@ -43,14 +42,14 @@ license: verbatim
 modern_lens_note: >-
   Vincent uses "warfare" here for the life he left, not the life he entered - the opposite of how
   the Institutes and Sulpitius use the same military idiom for the ascetic life itself. His own
-  image is nautical, not military, for what came after: a harbour reached after tempests, not a
+  image is nautical, not military, for what came after: a harbor reached after tempests, not a
   battle joined.
 modern_rendering: >-
   Moreover, it fits well with my purpose in taking up this life. At one time I was caught up in
   the many and wretched storms of worldly warfare. Now, at last, under Christ's guidance, I have
-  cast anchor in the harbour of the religious life. It is a harbour that is always very safe for
+  cast anchor in the harbor of the religious life. It is a harbor that is always very safe for
   everyone. I came there so that I might be freed from the blasts of vanity and pride. There I
-  might seek God's favour through the sacrifice of Christian humility. In this way I may be able
+  might seek God's favor through the sacrifice of Christian humility. In this way I may be able
   to escape not only the shipwrecks of this life, but also the flames of the world to come.
 relations:
 - type: associated-with
@@ -58,7 +57,7 @@ relations:
 - type: associated-with
   target: gallic.force.army-and-rank-before
 use_note:
-  means: "Vincent describes leaving the tempests of secular warfare for the harbour of religion in a remote monastery, to escape present shipwreck and future flames."
+  means: "Vincent describes leaving the tempests of secular warfare for the harbor of religion in a remote monastery, to escape present shipwreck and future flames."
   not_for:
     - "a confirmed residence at Lerins, which this passage does not name"
     - "the soldier-of-Christ idiom for ascetic life, which Vincent here reverses and which sits in gallic.quote.institutes-opening-soldier-of-christ"

@@ -1,0 +1,115 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "rzg.limit.ordinary-daily-practice"
+   ],
+   "sentence": "An ordinary day among us is not something our record can show you; what survives from our hand is confession, catechism, disputation record and doctrinal argument."
+  },
+  {
+   "record_ids": [
+    "rzg.limit.ordinary-daily-practice"
+   ],
+   "sentence": "How a Sunday service felt, or what a Consistory summons felt like to receive, has not reached us in our words."
+  },
+  {
+   "record_ids": [
+    "rzg.term.consistory"
+   ],
+   "sentence": "At Geneva, the Consistory was our body of pastors and lay elders, and it held everyone to account for how they lived each day."
+  },
+  {
+   "record_ids": [
+    "rzg.term.consistory"
+   ],
+   "sentence": "At Zurich, no such body appears in our record, and the council ruled church and city directly."
+  }
+ ],
+ "citations": [
+  "rzg.limit.ordinary-daily-practice",
+  "rzg.term.consistory"
+ ],
+ "group": "A",
+ "id": "q022",
+ "net_sentences": [
+  {
+   "draft": "An ordinary day among us is not something our record can show you; what survives from our hand is confession, catechism, disputation record and doctrinal argument [[rzg.limit.ordinary-daily-practice]] [[as:paraphrase]].",
+   "sentence": "An ordinary day among us is not something our record can show you; what survives from our hand is confession, catechism, disputation record and doctrinal argument.",
+   "tags": [
+    "rzg.limit.ordinary-daily-practice"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "How a Sunday service felt, or what a Consistory summons felt like to receive, has not reached us in our words [[rzg.limit.ordinary-daily-practice]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "How a Sunday service felt, or what a Consistory summons felt like to receive, has not reached us in our words.",
+   "tags": [
+    "rzg.limit.ordinary-daily-practice"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "What we can tell you is how conduct was held to account.",
+   "sentence": "What we can tell you is how conduct was held to account.",
+   "tags": [],
+   "verdict": "ok",
+   "why": "no checkable claim - interpretive/connective framing"
+  },
+  {
+   "draft": "At Geneva, the Consistory was our body of pastors and lay elders, and it held everyone to account for how they lived each day [[rzg.term.consistory]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "At Geneva, the Consistory was our body of pastors and lay elders, and it held everyone to account for how they lived each day.",
+   "tags": [
+    "rzg.term.consistory"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "At Zurich, no such body appears in our record, and the council ruled church and city directly [[rzg.term.consistory]] [[as:paraphrase]].",
+   "ratio": 0.9,
+   "sentence": "At Zurich, no such body appears in our record, and the council ruled church and city directly.",
+   "tags": [
+    "rzg.term.consistory"
+   ],
+   "verdict": "ok",
+   "why": "grounded 90% in own tagged records"
+  },
+  {
+   "draft": "Which of those two cities are you asking about?",
+   "sentence": "Which of those two cities are you asking about?",
+   "tags": [],
+   "verdict": "withhold",
+   "why": "specific claim (number) with no citation tag"
+  }
+ ],
+ "offered": [
+  "rzg.limit.ordinary-daily-practice",
+  "rzg.witness.a-quieted-mind",
+  "rzg.term.consistory",
+  "rzg.story.first-zurich-disputation",
+  "rzg.story.myconius-account-of-zwinglis-death",
+  "rzg.quote.zwinglis-last-words",
+  "rzg.witness.one-supper-two-poles",
+  "rzg.term.mutual-consent",
+  "rzg.quote.mass-not-a-sacrifice",
+  "rzg.quote.signs-and-things-signified",
+  "rzg.gravity.consistorial-church-discipline",
+  "rzg.gravity.council-led-authority-vs-consistorial-independence"
+ ],
+ "raw_text": "An ordinary day among us is not something our record can show you; what survives from our hand is confession, catechism, disputation record and doctrinal argument [[rzg.limit.ordinary-daily-practice]] [[as:paraphrase]]. How a Sunday service felt, or what a Consistory summons felt like to receive, has not reached us in our words [[rzg.limit.ordinary-daily-practice]] [[as:paraphrase]]. What we can tell you is how conduct was held to account. At Geneva, the Consistory was our body of pastors and lay elders, and it held everyone to account for how they lived each day [[rzg.term.consistory]] [[as:paraphrase]]. At Zurich, no such body appears in our record, and the council ruled church and city directly [[rzg.term.consistory]] [[as:paraphrase]]. Which of those two cities are you asking about?\n",
+ "reply_shape": {
+  "placed": [],
+  "removed": [],
+  "repaired": []
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": "C12.S1",
+ "text": "An ordinary day among us is not something our record can show you; what survives from our hand is confession, catechism, disputation record and doctrinal argument. How a Sunday service felt, or what a Consistory summons felt like to receive, has not reached us in our words. What we can tell you is how conduct was held to account. At Geneva, the Consistory was our body of pastors and lay elders, and it held everyone to account for how they lived each day. At Zurich, no such body appears in our record, and the council ruled church and city directly. Which of those two cities are you asking about?",
+ "voice_set_aside": false
+}

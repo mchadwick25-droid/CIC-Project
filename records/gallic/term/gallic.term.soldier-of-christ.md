@@ -101,7 +101,7 @@ senses:
     "our first struggle," "our sixth combat" - and the man who leaves his cell becomes "a runaway from
     His service, and a deserter." Even the argument about grace is fought in this idiom: Job is God's
     "well tried athlete." At Lerins Vincent names only what he has left, "the tempests of secular
-    warfare," and calls the monastery a harbour.
+    warfare," and calls the monastery a harbor.
   evidential: >-
     Directly attested in Sulpitius (Life chs. I, IV; Letter III; Dialogues II.11) and in Cassian
     (Institutes I.1, I.11, II.1, V.19, X.3; Conferences XIII.14), the two never citing each other.
@@ -111,7 +111,7 @@ senses:
   personal: >-
     For us this is not a metaphor we chose but a discharge that happened: Martin stood before Caesar
     and said it was not lawful for him to fight. Everything after keeps the soldier's grammar - the
-    girdle is armour, the faults are an order of battle, the devil is an enemy who is really there,
+    girdle is armor, the faults are an order of battle, the devil is an enemy who is really there,
     growing cold is desertion, and the deathbed is a last stand. And our whole warfare is fought with
     the cross, prayer, fasting, watching and the cell, never with weapons.
   translational: >-

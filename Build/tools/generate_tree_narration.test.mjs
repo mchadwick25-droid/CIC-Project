@@ -1,14 +1,19 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import path from 'path';
-import { parseArgs, requireApprovedRun, requirePaidSettings, planNarration, synthesize, synthesizeWithCost, audioPathFor, audioDir, resolveVoiceId, narrationTextFor, defaultVoiceSettings } from './generate_tree_narration.mjs';
+import { readsAudioTags, parseArgs, requireApprovedRun, requirePaidSettings, parseVoiceSettings, parseOutputFormat, parseAudioTag, requestTextFor, applyPronunciations, loadPronunciations, lastSentenceStart, onlyIds, planNarration, synthesize, synthesizeWithCost, audioPathFor, audioDir, resolveVoiceId, narrationTextFor, defaultVoiceSettings, narrationFingerprint, recordingMatchesText, hasOwnWorldStory } from './generate_tree_narration.mjs';
 
 function movement(id, overrides = {}) {
   return { id, name: id, longDescription: `The story of ${id}.`, ...overrides };
 }
 
+/** A manifest entry recorded from the movement's current text. */
+function recorded(m) {
+  return { file: `${m.id}.mp3`, text_sha256: narrationFingerprint(m.longDescription) };
+}
+
 test('parseArgs: defaults with no flags', () => {
-  assert.deepEqual(parseArgs([]), { dryRun: false, only: null, limit: null, charBudget: null, force: false, voiceId: null, model: null, approvedRun: null, charCap: null });
+  assert.deepEqual(parseArgs([]), { dryRun: false, only: null, limit: null, charBudget: null, force: false, voiceId: null, model: null, approvedRun: null, charCap: null, people: false, personVoiceId: null, voiceSettings: null, outputFormat: null, openTag: null, closingTag: null });
 });
 
 test('parseArgs: recognizes every flag', () => {
@@ -22,7 +27,19 @@ test('parseArgs: recognizes every flag', () => {
     model: 'm1',
     approvedRun: 'tree batch 3',
     charCap: 9000,
+    people: false,
+    personVoiceId: null,
+    voiceSettings: null,
+    outputFormat: null,
+    openTag: null,
+    closingTag: null,
   });
+  const p = parseArgs(['--output-format', 'mp3_44100_128', '--open-tag', '[calmly]', '--closing-tag', '[warmly]']);
+  assert.equal(p.outputFormat, 'mp3_44100_128');
+  assert.equal(p.openTag, '[calmly]');
+  assert.equal(p.closingTag, '[warmly]');
+  assert.deepEqual(parseArgs(['--people', '--person-voice-id', 'pv']).people, true);
+  assert.deepEqual(parseArgs(['--people', '--person-voice-id', 'pv']).personVoiceId, 'pv');
 });
 
 test('parseArgs: rejects an unrecognized argument', () => {
@@ -39,7 +56,7 @@ test('parseArgs: rejects a negative or non-numeric --char-budget', () => {
   assert.throws(() => parseArgs(['--char-budget', 'nope']), /--char-budget must be a non-negative integer/);
 });
 
-test('audioPathFor: one file per movement id under cic-website/audio/tree', () => {
+test('audioPathFor: one file per movement id under cft-website/audio/tree', () => {
   assert.equal(audioPathFor('alx'), path.join(audioDir, 'alx.mp3'));
 });
 
@@ -52,7 +69,7 @@ test('planNarration: skips a movement with no longDescription at all', () => {
 
 test('planNarration: skips a movement that is already in the manifest, unless --force', () => {
   const movements = [movement('narrated'), movement('not-yet')];
-  const manifest = { narrated: {} };
+  const manifest = { narrated: recorded(movements[0]) };
 
   const withoutForce = planNarration(movements, { only: null, force: false, limit: null, manifest });
   assert.deepEqual(withoutForce.toGenerate.map((m) => m.id), ['not-yet']);
@@ -60,6 +77,66 @@ test('planNarration: skips a movement that is already in the manifest, unless --
 
   const withForce = planNarration(movements, { only: null, force: true, limit: null, manifest });
   assert.deepEqual(withForce.toGenerate.map((m) => m.id), ['narrated', 'not-yet']);
+});
+
+test('planNarration: a recording made from text that has since changed is stale and re-voiced', () => {
+  const movements = [movement('current'), movement('edited'), movement('unfingerprinted'), movement('new')];
+  const manifest = {
+    current: recorded(movements[0]),
+    edited: { file: 'edited.mp3', text_sha256: narrationFingerprint('The old text.') },
+    unfingerprinted: { file: 'unfingerprinted.mp3' },
+  };
+  const { toGenerate, alreadyNarrated, stale } = planNarration(movements, { only: null, force: false, limit: null, manifest });
+  assert.deepEqual(alreadyNarrated, ['current']);
+  assert.deepEqual(stale, ['edited', 'unfingerprinted']);
+  assert.deepEqual(toGenerate.map((m) => m.id), ['edited', 'unfingerprinted', 'new']);
+});
+
+test('planNarration: a built world with its own orientation.story is left out, as its tree page shows no tree recording', () => {
+  const movements = [movement('built'), movement('unbuilt')];
+  const { toGenerate, skippedBuiltWorld } = planNarration(movements, { only: null, force: true, limit: null, ownWorldStoryFn: (m) => m.id === 'built' });
+  assert.deepEqual(skippedBuiltWorld, ['built']);
+  assert.deepEqual(toGenerate.map((m) => m.id), ['unbuilt']);
+});
+
+test('planNarration: outside a person run, person rows are left out, even with --force or --only', () => {
+  const movements = [movement('a-person', { kind: 'person' }), movement('a-church'), movement('a-movement', { kind: 'cross-church movement' })];
+  const plain = planNarration(movements, { only: null, force: true, limit: null, ownWorldStoryFn: () => false });
+  assert.deepEqual(plain.skippedPerson, ['a-person']);
+  assert.deepEqual(plain.toGenerate.map((m) => m.id), ['a-church', 'a-movement']);
+  const only = planNarration(movements, { only: 'a-person', force: true, limit: null, ownWorldStoryFn: () => false });
+  assert.deepEqual(only.toGenerate, []);
+});
+
+test('planNarration: a person run plans person rows only, narrowed by a comma-separated --only', () => {
+  const movements = [movement('p1', { kind: 'person' }), movement('a-church'), movement('p2', { kind: 'person' }), movement('p3', { kind: 'person' })];
+  const all = planNarration(movements, { only: null, force: false, limit: null, people: true, ownWorldStoryFn: () => false });
+  assert.deepEqual(all.toGenerate.map((m) => m.id), ['p1', 'p2', 'p3']);
+  assert.deepEqual(all.skippedNotPerson, ['a-church']);
+  assert.deepEqual(all.skippedPerson, []);
+  const some = planNarration(movements, { only: 'p3, p1,a-church', force: false, limit: null, people: true, ownWorldStoryFn: () => false });
+  assert.deepEqual(some.toGenerate.map((m) => m.id), ['p1', 'p3']);
+});
+
+test('planNarration: a person run skips a person already recorded from its current text', () => {
+  const p1 = movement('p1', { kind: 'person' });
+  const p2 = movement('p2', { kind: 'person' });
+  const { toGenerate, alreadyNarrated } = planNarration([p1, p2], { only: 'p1,p2', force: false, limit: null, people: true, manifest: { p1: recorded(p1) }, ownWorldStoryFn: () => false });
+  assert.deepEqual(toGenerate.map((m) => m.id), ['p2']);
+  assert.deepEqual(alreadyNarrated, ['p1']);
+});
+
+test('onlyIds: one id, several ids, or none', () => {
+  assert.equal(onlyIds(null), null);
+  assert.deepEqual(onlyIds('a'), ['a']);
+  assert.deepEqual(onlyIds('a, b,,c'), ['a', 'b', 'c']);
+});
+
+test('hasOwnWorldStory: true only for a data file with a non-empty orientation.story', () => {
+  const m = movement('x');
+  assert.equal(hasOwnWorldStory(m, { existsFn: () => false }), false);
+  assert.equal(hasOwnWorldStory(m, { existsFn: () => true, readFn: () => JSON.stringify({ orientation: { story: [] } }) }), false);
+  assert.equal(hasOwnWorldStory(m, { existsFn: () => true, readFn: () => JSON.stringify({ orientation: { story: [{ text: 'p' }] } }) }), true);
 });
 
 test('planNarration: --only narrows to a single movement by id', () => {
@@ -105,7 +182,7 @@ test('planNarration: --char-budget combines with already-narrated and --limit fi
     movement('a', { longDescription: 'x'.repeat(1000) }),
     movement('b', { longDescription: 'x'.repeat(1000) }),
   ];
-  const manifest = { narrated: {} };
+  const manifest = { narrated: recorded(movements[0]) };
   const { toGenerate, alreadyNarrated, skippedBudget } = planNarration(movements, {
     only: null,
     force: false,
@@ -120,7 +197,7 @@ test('planNarration: --char-budget combines with already-narrated and --limit fi
 
 test('planNarration: --limit caps only the NEW work, not what is already narrated', () => {
   const movements = [movement('a'), movement('b'), movement('c'), movement('d')];
-  const manifest = { a: {} };
+  const manifest = { a: recorded(movements[0]) };
   const { toGenerate, alreadyNarrated } = planNarration(movements, { only: null, force: false, limit: 2, manifest });
   assert.deepEqual(alreadyNarrated, ['a']);
   assert.deepEqual(toGenerate.map((m) => m.id), ['b', 'c']);
@@ -267,6 +344,64 @@ test('requirePaidSettings: refuses a missing voice or model, never reads the env
   }
 });
 
+const SETTINGS = { stability: 0.5, similarity_boost: 0.75, style: 0.2, use_speaker_boost: true };
+
+test('parseVoiceSettings: accepts the four required keys and an optional speed', () => {
+  assert.deepEqual(parseVoiceSettings(JSON.stringify(SETTINGS)), SETTINGS);
+  assert.deepEqual(parseVoiceSettings(JSON.stringify({ ...SETTINGS, speed: 0.95 })), { ...SETTINGS, speed: 0.95 });
+  assert.deepEqual(parseArgs(['--voice-settings', JSON.stringify(SETTINGS)]).voiceSettings, SETTINGS);
+});
+
+test('parseVoiceSettings: refuses a missing, unknown or out-of-range setting', () => {
+  assert.throws(() => parseVoiceSettings(undefined), /needs a JSON object/);
+  assert.throws(() => parseVoiceSettings('--model'), /needs a JSON object/);
+  assert.throws(() => parseVoiceSettings('{bad'), /not valid JSON/);
+  assert.throws(() => parseVoiceSettings('[1]'), /must be a JSON object/);
+  assert.throws(() => parseVoiceSettings(JSON.stringify({ ...SETTINGS, tone: 1 })), /unknown key: tone/);
+  for (const key of ['stability', 'similarity_boost', 'style']) {
+    const missing = { ...SETTINGS };
+    delete missing[key];
+    assert.throws(() => parseVoiceSettings(JSON.stringify(missing)), new RegExp(`${key} must be a number`));
+    assert.throws(() => parseVoiceSettings(JSON.stringify({ ...SETTINGS, [key]: 1.5 })), new RegExp(`${key} must be a number`));
+  }
+  assert.throws(() => parseVoiceSettings(JSON.stringify({ ...SETTINGS, use_speaker_boost: 'yes' })), /use_speaker_boost/);
+  assert.throws(() => parseVoiceSettings(JSON.stringify({ stability: 0.5, similarity_boost: 0.5, style: 0 })), /use_speaker_boost/);
+  assert.throws(() => parseVoiceSettings(JSON.stringify({ ...SETTINGS, speed: 2 })), /speed/);
+});
+
+test('synthesizeWithCost: sends the voice settings it is given', async () => {
+  let body;
+  const fetchImpl = async (url, init) => {
+    body = JSON.parse(init.body);
+    return { ok: true, arrayBuffer: async () => new ArrayBuffer(1), headers: { get: () => '7' } };
+  };
+  const { cost } = await synthesizeWithCost('t', { apiKey: 'k', voiceId: 'pv', modelId: 'm', voiceSettings: { ...SETTINGS, speed: 0.9 }, fetchImpl });
+  assert.deepEqual(body.voice_settings, { ...SETTINGS, speed: 0.9 });
+  assert.equal(cost, 7);
+});
+
+test('requirePaidSettings: a person run requires --person-voice-id, takes no --voice-id, never reads the environment', () => {
+  const saved = process.env.ELEVENLABS_PERSON_VOICE_ID;
+  process.env.ELEVENLABS_PERSON_VOICE_ID = 'from-env';
+  try {
+    const vs = SETTINGS;
+    const fmt = 'mp3_44100_128';
+    assert.throws(() => requirePaidSettings({ people: true, personVoiceId: null, model: 'm', voiceSettings: vs, outputFormat: fmt }), /--person-voice-id is required/);
+    assert.throws(() => requirePaidSettings({ people: true, personVoiceId: '--model', model: 'm', voiceSettings: vs, outputFormat: fmt }), /--person-voice-id is required/);
+    assert.throws(() => requirePaidSettings({ people: true, personVoiceId: 'pv', model: null, voiceSettings: vs, outputFormat: fmt }), /--model is required/);
+    assert.throws(() => requirePaidSettings({ people: true, personVoiceId: 'pv', voiceId: 'v', model: 'm', voiceSettings: vs, outputFormat: fmt }), /not --voice-id/);
+    assert.throws(() => requirePaidSettings({ people: false, personVoiceId: 'pv', voiceId: 'v', model: 'm' }), /needs --people/);
+    assert.throws(() => requirePaidSettings({ people: true, personVoiceId: 'pv', model: 'm', outputFormat: fmt }), /--voice-settings is required/);
+    assert.throws(() => requirePaidSettings({ people: true, personVoiceId: 'pv', model: 'm', voiceSettings: vs }), /--output-format is required/);
+    assert.throws(() => requirePaidSettings({ people: false, voiceId: 'v', model: 'm', outputFormat: fmt }), /need --people/);
+    assert.throws(() => requirePaidSettings({ people: false, voiceId: 'v', model: 'm', openTag: '[calmly]' }), /need --people/);
+    assert.throws(() => requirePaidSettings({ people: false, voiceId: 'v', model: 'm', voiceSettings: vs }), /--voice-settings needs --people/);
+    requirePaidSettings({ people: true, personVoiceId: 'pv', model: 'm', voiceSettings: vs, outputFormat: fmt });
+  } finally {
+    if (saved === undefined) delete process.env.ELEVENLABS_PERSON_VOICE_ID; else process.env.ELEVENLABS_PERSON_VOICE_ID = saved;
+  }
+});
+
 test('requireApprovedRun: refuses a run with no approved name or no cap', () => {
   assert.throws(() => requireApprovedRun({ approvedRun: null, charCap: 1000 }, 10), /--approved-run/);
   assert.throws(() => requireApprovedRun({ approvedRun: '', charCap: 1000 }, 10), /--approved-run/);
@@ -279,4 +414,101 @@ test('requireApprovedRun: refuses a run with no approved name or no cap', () => 
 test('requireApprovedRun: refuses a run that plans more characters than its cap', () => {
   assert.throws(() => requireApprovedRun({ approvedRun: 'r', charCap: 100 }, 101), /plans 101 characters, over its --char-cap of 100/);
   requireApprovedRun({ approvedRun: 'r', charCap: 100 }, 100);
+});
+
+test('narrationFingerprint: sha256 of the UTF-8 text', () => {
+  assert.equal(narrationFingerprint('abc'), 'ba7816bf8f01cfea414140de5dae2223b00361a396177a9cb410ff61f20015ad');
+  assert.notEqual(narrationFingerprint('caf\u00e9'), narrationFingerprint('cafe'));
+});
+
+test('recordingMatchesText: match, mismatch and missing fingerprint', () => {
+  const text = 'The story of x.';
+  assert.equal(recordingMatchesText({ file: 'x.mp3', text_sha256: narrationFingerprint(text) }, text), true);
+  assert.equal(recordingMatchesText({ file: 'x.mp3', text_sha256: narrationFingerprint(text) }, `${text} Edited.`), false);
+  assert.equal(recordingMatchesText({ file: 'x.mp3' }, text), false);
+  assert.equal(recordingMatchesText(undefined, text), false);
+});
+
+test('parseOutputFormat and parseAudioTag: accept the expected shapes only', () => {
+  assert.equal(parseOutputFormat('mp3_44100_128'), 'mp3_44100_128');
+  for (const bad of [undefined, '--model', 'mp3', 'pcm_44100', 'mp3_44100_128;x']) assert.throws(() => parseOutputFormat(bad), /--output-format/);
+  assert.equal(parseAudioTag('--open-tag', '[calmly]'), '[calmly]');
+  for (const bad of [undefined, 'calmly', '[Calmly]', '[calmly', '[a]b]', '--closing-tag']) assert.throws(() => parseAudioTag('--open-tag', bad), /--open-tag/);
+});
+
+test('requestTextFor: open tag first, closing tag before the last sentence, text otherwise unchanged', () => {
+  const text = 'He came to Rome. He preached there.\n\nHe wrote, "the advance has no check." He died in 395.';
+  assert.equal(requestTextFor(text), text);
+  const sent = requestTextFor(text, { openTag: '[calmly]', closingTag: '[warmly]' });
+  assert.equal(sent, '[calmly] He came to Rome. He preached there.\n\nHe wrote, "the advance has no check." [warmly] He died in 395.');
+  assert.equal(sent.replace('[calmly] ', '').replace('[warmly] ', ''), text);
+});
+
+test('requestTextFor: a last sentence that ends in a quotation, or a one-sentence text', () => {
+  assert.equal(requestTextFor('First. Then he wrote, "the advance has no check."', { closingTag: '[warmly]' }), 'First. [warmly] Then he wrote, "the advance has no check."');
+  assert.equal(requestTextFor('Only one sentence.', { openTag: '[calmly]', closingTag: '[warmly]' }), '[calmly] [warmly] Only one sentence.');
+  assert.equal(lastSentenceStart('One. "Two," he said. Three!'), 21);
+});
+
+test('synthesizeWithCost: returns the request-id header', async () => {
+  const fetchImpl = async () => ({ ok: true, arrayBuffer: async () => new ArrayBuffer(1), headers: { get: (h) => ({ 'character-cost': '5', 'request-id': 'req123' })[h] } });
+  const out = await synthesizeWithCost('t', { apiKey: 'k', voiceId: 'v', modelId: 'm', outputFormat: 'mp3_44100_128', fetchImpl });
+  assert.equal(out.requestId, 'req123');
+  assert.equal(out.cost, 5);
+});
+
+const SEVEN = [
+  ['Origen', 'OR-ih-jen'], ['Eusebius', 'yoo-SEE-bee-us'], ['Hexapla', 'HEK-suh-pluh'], ['Rufinus', 'roo-FY-nus'],
+  ['Caesarea', 'sess-uh-REE-uh'], ['Decius', 'DEE-shus'], ['Nazianzus', 'naz-ee-AN-zus'],
+];
+const sevenEntries = SEVEN.map(([written, say]) => ({ written, say, form: 'respelling' }));
+
+test('pronunciation list: holds Mark\'s seven exactly, each a respelling', () => {
+  const list = loadPronunciations();
+  assert.deepEqual(list.entries.map((e) => [e.written, e.say]), SEVEN);
+  assert.ok(list.entries.every((e) => e.form === 'respelling'));
+  assert.ok(list.paragraphPause);
+});
+
+test('applyPronunciations: whole words, possessives and "X of Y" forms', () => {
+  const out = applyPronunciations("Origen's Hexapla. Basil of Caesarea; Gregory of Nazianzus. Decius, then Rufinus.", sevenEntries);
+  assert.equal(out, "OR-ih-jen's HEK-suh-pluh. Basil of sess-uh-REE-uh; Gregory of naz-ee-AN-zus. DEE-shus, then roo-FY-nus.");
+  assert.equal(applyPronunciations('Origen\u2019s work', sevenEntries), 'OR-ih-jen\u2019s work');
+});
+
+test('applyPronunciations: never inside a longer word, and case-aware', () => {
+  assert.equal(applyPronunciations('Neocaesarea, Deciusx, Origenist, origen, Caesareans', sevenEntries), 'Neocaesarea, Deciusx, Origenist, origen, Caesareans');
+  assert.equal(applyPronunciations('ORIGEN wrote', sevenEntries), 'OR-IH-JEN wrote');
+});
+
+test('requestTextFor: respells the audio script only, pauses between paragraphs, tags in place', () => {
+  const pronunciations = { paragraphPause: '[pause]', entries: sevenEntries };
+  const text = 'Origen taught. He left.\n\nIn Caesarea he died. Eusebius wrote it down.';
+  const sent = requestTextFor(text, { openTag: '[calmly]', closingTag: '[warmly]', pronunciations });
+  assert.equal(sent, '[calmly] OR-ih-jen taught. He left.\n\n[pause]\n\nIn sess-uh-REE-uh he died. [warmly] yoo-SEE-bee-us wrote it down.');
+  assert.equal(requestTextFor(text), text);
+  assert.equal(narrationFingerprint(text), narrationFingerprint('Origen taught. He left.\n\nIn Caesarea he died. Eusebius wrote it down.'));
+});
+
+test('requestTextFor: a one-sentence last paragraph still gets the closing tag on its own sentence', () => {
+  const sent = requestTextFor('First one.\n\nLast one.', { closingTag: '[warmly]', pronunciations: { paragraphPause: '[pause]', entries: [] } });
+  assert.equal(sent, 'First one.\n\n[pause]\n\n[warmly] Last one.');
+});
+
+test('requestTextFor: a model that does not read audio tags gets the respellings and no tags', () => {
+  const pronunciations = { paragraphPause: '[pause]', entries: [{ written: 'Nicaea', say: 'nye-SEE-uh', form: 'place' }] };
+  const text = 'Bishops met at Nicaea.\n\nThey wrote a creed.';
+  const daniel = requestTextFor(text, { openTag: '[calmly]', closingTag: '[warmly]', pronunciations, model: 'eleven_multilingual_v2' });
+  assert.equal(daniel, 'Bishops met at nye-SEE-uh.\n\nThey wrote a creed.');
+  assert.ok(!daniel.includes('['));
+  const neo = requestTextFor(text, { pronunciations, model: 'eleven_v4' });
+  assert.equal(neo, 'Bishops met at nye-SEE-uh.\n\n[pause]\n\nThey wrote a creed.');
+  assert.equal(readsAudioTags('eleven_v4'), true);
+  assert.equal(readsAudioTags('eleven_multilingual_v2'), false);
+});
+
+test('requirePaidSettings: a person run refuses open or closing tags on a model that would speak them', () => {
+  const base = { people: true, personVoiceId: 'v', model: 'eleven_multilingual_v2', voiceSettings: {}, outputFormat: 'mp3_44100_64' };
+  assert.throws(() => requirePaidSettings({ ...base, openTag: '[calmly]' }), /would speak them/);
+  assert.doesNotThrow(() => requirePaidSettings(base));
 });

@@ -27,6 +27,7 @@ edition: 'Th. Mommsen and Paul M. Meyer (eds.), Theodosiani Libri XVI, Voluminis
   row 51)'
 citation: 'Codex Theodosianus, Book 16, in Theodosiani Libri XVI, Voluminis I Pars Posterior: Textus cum Apparatu, ed. Th. Mommsen and Paul M. Meyer (Berlin: Weidmann, 1905)'
 kind: vendored
+shelf_row: theodosianus-16_mommsen-meyer1905--theodosiani-libri-xvi-book-16-critical-latin-text
 rights_status: "public-domain; vendored, identity and provenance directly confirmed (the vendored file's own provenance header states Public Domain)"
 attribution_status: documentary
 discovery_channel: builder-prior-knowledge, cross-checked via WebSearch / 2026-09-01; direct text search
@@ -35,4 +36,4 @@ discovery_channel: builder-prior-knowledge, cross-checked via WebSearch / 2026-0
 external_ids:
   don_source_registry_row: 16
 ---
-The independent, non-polemical attestation that the Circumcellion group existed as its own legally-marked category -- the evidentiary hinge Doc_01 SS7 item 2 and Doc_02 SS6 both turn on when separating the group's attested existence from its hostile-polemically-shaped characterisation. Five prior acquisition attempts for this edition all returned the wrong volume (the Prolegomena, not Book 16's text), and a sixth download was rejected outright on source-integrity grounds; the standing 16.5.52 citation gap is closed by the edition itself, not by a substitute.
+The independent, non-polemical attestation that the Circumcellion group existed as its own legally-marked category -- the evidentiary hinge Doc_01 SS7 item 2 and Doc_02 SS6 both turn on when separating the group's attested existence from its hostile-polemically-shaped characterization. Five prior acquisition attempts for this edition all returned the wrong volume (the Prolegomena, not Book 16's text), and a sixth download was rejected outright on source-integrity grounds; the standing 16.5.52 citation gap is closed by the edition itself, not by a substitute.

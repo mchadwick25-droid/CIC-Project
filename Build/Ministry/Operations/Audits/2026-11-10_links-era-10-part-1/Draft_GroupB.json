@@ -1,0 +1,739 @@
+{
+ "group": "B",
+ "movements": [
+  "fundamentalism-1910-1970s",
+  "progressive-christianity-a-broad-label-not-one-m",
+  "the-narrative-kingdom-renewal-the-bible-as-one-s",
+  "the-church-struggle-against-apartheid",
+  "the-christian-right",
+  "messianic-judaism",
+  "indonesian-christianity-the-independent-century"
+ ],
+ "dispositions": [
+  {
+   "movement": "fundamentalism-1910-1970s",
+   "field": "relationsSummary",
+   "sentence": "Fundamentalism grew out of the Niagara Bible Conference of the 1870s and the Princeton doctrine of biblical inerrancy set out in 1881, decades before it took its name in 1920.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Neither the Niagara conference nor Princeton theology has a movement of its own. The facts rest on the entry's own primaries (the Niagara Creed of 1878; Hodge and Warfield, 'Inspiration', 1881) and on Sandeen and Marsden, both repo-cited. Kept."
+  },
+  {
+   "movement": "fundamentalism-1910-1970s",
+   "field": "relationsSummary",
+   "sentence": "It defended traditional Christian doctrine against theological liberalism, as in J. Gresham Machen's Christianity and Liberalism (1923), and suffered public defeats at the Scopes trial in 1925 and in Princeton Seminary's reorganization in 1929.",
+   "other_id": "the-mainline-century-liberal-and-neo-orthodox",
+   "disposition": "link",
+   "link_id": "fundamentalism-1910-1970s--the-mainline-century-liberal-and-neo-orthodox",
+   "prose_change": null,
+   "reason": "Carried by the existing broke-with link, rewritten and regraded on the Auburn Affirmation (1924) and the Orthodox Presbyterian Church's own 1946 history, both read online."
+  },
+  {
+   "movement": "fundamentalism-1910-1970s",
+   "field": "relationsSummary",
+   "sentence": "Much of its constituency later moved into the neo-evangelical movement through the National Association of Evangelicals in 1942, Fuller Seminary in 1947, and Billy Graham's break with separatism in 1957, while its independent Baptist and separatist churches continued on their own.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": "fundamentalism-1910-1970s--lausanne-era-global-evangelicalism",
+   "prose_change": null,
+   "reason": "The neo-evangelical movement and the NAE have no entries. The NAE's own history page (read online) gives the 1942 founding as a 'middle way' between the fundamentalist and progressive councils. Fuller and Graham rest on Wacker and the BGEA timeline, both on the entry's source list. The handoff onward is carried by the new link to Lausanne-era evangelicalism."
+  },
+  {
+   "movement": "fundamentalism-1910-1970s",
+   "field": "relationsSummary",
+   "sentence": "The networks gave radio evangelists such as Paul Rader and Charles Fuller no free time, so they bought airtime instead. In 1944 evangelical broadcasters formed the National Religious Broadcasters, at the invitation of the National Association of Evangelicals. Billy Graham's Los Angeles campaign of 1949 ran for more than eight weeks instead of the three planned.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Added (the inventory missed these sentences). Persons and bodies with no entries; supported by Hangen (repo-cited), the Wheaton NRB records and the BGEA timeline on the entry's source list. Not re-read in this run."
+  },
+  {
+   "movement": "fundamentalism-1910-1970s",
+   "field": "relationsSummary",
+   "sentence": "The political mobilization that began with the Moral Majority in 1979 also traces back to this movement, one step beyond its own historical window. The Christian Right has its own entry.",
+   "other_id": "the-christian-right",
+   "disposition": "link",
+   "link_id": "fundamentalism-1910-1970s--the-christian-right",
+   "prose_change": null,
+   "reason": "New 'gave rise to' link at Dominant Modern Reconstruction (Williams; Martin)."
+  },
+  {
+   "movement": "fundamentalism-1910-1970s",
+   "field": "longDescription",
+   "sentence": "The Niagara Bible Conference had met annually from the 1870s until 1897 and adopted a fourteen-point creed in 1878; A. A. Hodge and B. B. Warfield published 'Inspiration' in the Presbyterian Review in April 1881, giving the doctrine of scripture its most exacting American statement.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "As for the summary: the entry's own listed primaries (Niagara Creed; Presbyterian Review, April 1881). Kept."
+  },
+  {
+   "movement": "fundamentalism-1910-1970s",
+   "field": "longDescription",
+   "sentence": "The Presbyterian General Assembly adopted a five-point doctrinal deliverance in 1910.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The Presbyterian church body has no entry of its own. The 1910 Doctrinal Deliverance is on the entry's source list; the Auburn Affirmation (read online) answers the 1923 assembly's restatement of the same five points. Kept."
+  },
+  {
+   "movement": "fundamentalism-1910-1970s",
+   "field": "longDescription",
+   "sentence": "Then came the public defeats and the separations: the Scopes trial in July 1925, Princeton Seminary reorganized in 1929 with Westminster founded in answer, and new denominations of their own from the 1930s.",
+   "other_id": "the-mainline-century-liberal-and-neo-orthodox",
+   "disposition": "link",
+   "link_id": "fundamentalism-1910-1970s--the-mainline-century-liberal-and-neo-orthodox",
+   "prose_change": null,
+   "reason": "Added (the inventory missed it). The separations are the rupture the broke-with link now dates: the OPC's own 1946 history names Westminster's founding and the new church of 1936."
+  },
+  {
+   "movement": "fundamentalism-1910-1970s",
+   "field": "why",
+   "sentence": "The name arrived in 1920, when Curtis Lee Laws called for 'battle royal for the Fundamentals' in the Watchman-Examiner, but the movement was older: twelve volumes called The Fundamentals, financed by Lyman Stewart and given away in some three million copies between 1910 and 1915, defended the doctrine of scripture A. A. Hodge and B. B. Warfield had set out in 1881.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Laws, The Fundamentals and Princeton theology have no entries; all three are on the entry's own source list. Kept."
+  },
+  {
+   "movement": "fundamentalism-1910-1970s",
+   "field": "why",
+   "sentence": "Public defeats followed — the Scopes trial in 1925, Princeton Seminary's reorganization in 1929 — before much of its constituency moved into the neo-evangelical world through the National Association of Evangelicals in 1942 and Billy Graham's 1957 break with separatism, while its independent Baptist and separatist churches carried on.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": "fundamentalism-1910-1970s--lausanne-era-global-evangelicalism",
+   "prose_change": null,
+   "reason": "Same as the summary sentence: NAE page read online; handoff carried by the Lausanne link."
+  },
+  {
+   "movement": "fundamentalism-1910-1970s",
+   "field": "legacy",
+   "sentence": "It closes at a documented handoff rather than a death — the National Association of Evangelicals in 1942, Fuller Seminary in 1947, and Billy Graham's break with separatist fundamentalism in 1957 carried much of its constituency into the neo-evangelical world that this map picks up again at Lausanne.",
+   "other_id": "lausanne-era-global-evangelicalism",
+   "disposition": "link",
+   "link_id": "fundamentalism-1910-1970s--lausanne-era-global-evangelicalism",
+   "prose_change": null,
+   "reason": "New 'gave rise to' link at Dominant Modern Reconstruction (Carpenter; Stanley; Wacker). The inventory gave other_names_it false; correct, the Lausanne text does not name Fundamentalism."
+  },
+  {
+   "movement": "fundamentalism-1910-1970s",
+   "field": "legacy",
+   "sentence": "The political mobilization that began with the Moral Majority in 1979 sits one step past this window. It has its own entry, the Christian Right.",
+   "other_id": "the-christian-right",
+   "disposition": "link",
+   "link_id": "fundamentalism-1910-1970s--the-christian-right",
+   "prose_change": null,
+   "reason": "Same link as the summary."
+  },
+  {
+   "movement": "progressive-christianity-a-broad-label-not-one-m",
+   "field": "relationsSummary",
+   "sentence": "Progressive Christianity covers mainline progressive congregations, post-evangelical networks, and much in between, with the emerging church of the 1990s and 2000s as its most documented expression.",
+   "other_id": "the-mainline-century-liberal-and-neo-orthodox",
+   "disposition": "link",
+   "link_id": "the-mainline-century-liberal-and-neo-orthodox--progressive-christianity-a-broad-label-not-one-m",
+   "prose_change": null,
+   "reason": "The mainline part is the parent relationship, carried by the new 'gave rise to' link."
+  },
+  {
+   "movement": "progressive-christianity-a-broad-label-not-one-m",
+   "field": "relationsSummary",
+   "sentence": "Progressive Christianity covers mainline progressive congregations, post-evangelical networks, and much in between, with the emerging church of the 1990s and 2000s as its most documented expression.",
+   "other_id": "the-emerging-church-and-post-evangelical-movemen",
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "A classification (the emerging church is one expression of the label), not one of the six link types; earlier eras treated 'part of' claims the same way. The emerging-church entry carries the movement's own books (Tomlinson, The Post-Evangelical, 1995; McLaren; Tickle) and Marti and Ganiel, all repo-cited. That entry's own legacy says its questions 'fed the broader progressive current'; whether that is an 'influenced' link is group D's to judge."
+  },
+  {
+   "movement": "progressive-christianity-a-broad-label-not-one-m",
+   "field": "relationsSummary",
+   "sentence": "It descends from the mainline century of liberal Protestantism and neo-orthodoxy, which hands off to it around 1990.",
+   "other_id": "the-mainline-century-liberal-and-neo-orthodox",
+   "disposition": "link",
+   "link_id": "the-mainline-century-liberal-and-neo-orthodox--progressive-christianity-a-broad-label-not-one-m",
+   "prose_change": null,
+   "reason": "New 'gave rise to' link at Dominant Modern Reconstruction (Dorrien; Bass)."
+  },
+  {
+   "movement": "progressive-christianity-a-broad-label-not-one-m",
+   "field": "longDescription",
+   "sentence": "By 2010 'Progressive Christianity' was claimed by mainline congregations, by post-evangelical networks, by individual writers and by organizations with no relation to one another.",
+   "other_id": "the-mainline-century-liberal-and-neo-orthodox",
+   "disposition": "link",
+   "link_id": "the-mainline-century-liberal-and-neo-orthodox--progressive-christianity-a-broad-label-not-one-m",
+   "prose_change": null,
+   "reason": "Same parent link."
+  },
+  {
+   "movement": "progressive-christianity-a-broad-label-not-one-m",
+   "field": "longDescription",
+   "sentence": "By 2010 'Progressive Christianity' was claimed by mainline congregations, by post-evangelical networks, by individual writers and by organizations with no relation to one another.",
+   "other_id": "the-emerging-church-and-post-evangelical-movemen",
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Classification, as above; the post-evangelical networks are the emerging-church entry's own subject."
+  },
+  {
+   "movement": "progressive-christianity-a-broad-label-not-one-m",
+   "field": "longDescription",
+   "sentence": "The Center for Progressive Christianity, founded in 1994, published a set of points and revised it.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Added (the inventory listed it only as hygiene). The Center has no entry. Its own pages returned 403 in this run, so the 1994 date rests on the entry's listed primary (the Eight Points and their dated revisions); put on the wanted list. Kept."
+  },
+  {
+   "movement": "progressive-christianity-a-broad-label-not-one-m",
+   "field": "legacy",
+   "sentence": "It has a history that reaches further back than the word does: the mainline century of liberal Protestantism and neo-orthodoxy is its parent, and hands off to it around 1990.",
+   "other_id": "the-mainline-century-liberal-and-neo-orthodox",
+   "disposition": "link",
+   "link_id": "the-mainline-century-liberal-and-neo-orthodox--progressive-christianity-a-broad-label-not-one-m",
+   "prose_change": null,
+   "reason": "Same parent link."
+  },
+  {
+   "movement": "progressive-christianity-a-broad-label-not-one-m",
+   "field": "legacy",
+   "sentence": "And it had a documented movement expression in the emerging church of the 1990s and 2000s.",
+   "other_id": "the-emerging-church-and-post-evangelical-movemen",
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Classification, as above."
+  },
+  {
+   "movement": "the-narrative-kingdom-renewal-the-bible-as-one-s",
+   "field": "relationsSummary",
+   "sentence": "Lineage: Newbigin's missional vision, Willard's kingdom discipleship, Wright's popularization; ...",
+   "other_id": null,
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": 1,
+   "reason": "Names persons, not movements; their books and dates are bibliographic facts on the entry's source list. Kept in substance in the rewritten summary (prose change 1)."
+  },
+  {
+   "movement": "the-narrative-kingdom-renewal-the-bible-as-one-s",
+   "field": "relationsSummary",
+   "sentence": "a counter-reading culture to the dispensational, prophecy-focused way of reading the Bible (story vs. chart - two rival ways a generation learned to read)",
+   "other_id": "dispensational-prophecy-culture",
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 1,
+   "reason": "An 'argued against' link would need a text by the current's writers aimed at prophecy teaching. N. T. Wright's 'Farewell to the Rapture' (Bible Review, August 2001) is that text, but its page refused this run's fetch, and the era 10 rule names only church bodies' own texts as online primaries. Kept as a contrast between two ways of reading, not as a documented rivalry; Wright's texts on the wanted list; see escalations."
+  },
+  {
+   "movement": "the-narrative-kingdom-renewal-the-bible-as-one-s",
+   "field": "relationsSummary",
+   "sentence": "heirs of Anglican biblical scholarship going back to the Oxford Movement",
+   "other_id": "the-oxford-movement-and-anglo-catholic-revival",
+   "disposition": "remove",
+   "link_id": null,
+   "prose_change": 1,
+   "reason": "No vendored or repo-cited source ties this current, or Wright's scholarship, to the Oxford Movement; the entry's own sources do not mention it. Removed."
+  },
+  {
+   "movement": "the-narrative-kingdom-renewal-the-bible-as-one-s",
+   "field": "relationsSummary",
+   "sentence": "the missional line running through the 1910 Edinburgh missionary conference",
+   "other_id": "the-student-volunteer-movement-and-edinburgh-191",
+   "disposition": "remove",
+   "link_id": null,
+   "prose_change": 1,
+   "reason": "The likely chain (Edinburgh 1910 -> its Continuation Committee -> the International Missionary Council, which Newbigin led from 1959) could not be shown: no source page for it could be opened in this run, and no repo-cited study covers it. Removed; Newbigin's own memoir and IMC records on the wanted list."
+  },
+  {
+   "movement": "the-narrative-kingdom-renewal-the-bible-as-one-s",
+   "field": "why",
+   "sentence": "It stood as a direct alternative to reading the Bible as a chart of the future.",
+   "other_id": "dispensational-prophecy-culture",
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Describes two ways of reading side by side; it claims no contact or argument between them. Supported by the entry's own sources (Wright's books) as a description."
+  },
+  {
+   "movement": "the-narrative-kingdom-renewal-the-bible-as-one-s",
+   "field": "legacy",
+   "sentence": "That put it in direct rivalry with the dispensational reading culture carried elsewhere here.",
+   "other_id": "dispensational-prophecy-culture",
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 2,
+   "reason": "'Direct rivalry' claims a documented argument no source read here shows. Rewritten as a contrast, with a plain statement that no study yet shows how far its writers answered that culture. The whole field is rewritten to meet the reading target."
+  },
+  {
+   "movement": "the-church-struggle-against-apartheid",
+   "field": "relationsSummary",
+   "sentence": "It stands beside the Confessing Church in Germany as a comparison, not a line of descent.",
+   "other_id": "the-confessing-church",
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The sentence claims no link and denies descent, so none is drafted. The comparison rests on de Gruchy, The Church Struggle in South Africa (1979; 2004), repo-cited. An 'influenced' link (Barmen as a model for the Belhar or Kairos texts) may exist but nothing read here shows it: the Belhar text read online does not name Barmen. On the wanted list."
+  },
+  {
+   "movement": "the-church-struggle-against-apartheid",
+   "field": "relationsSummary",
+   "sentence": "Its carriers included the South African Council of Churches, the Institute for Contextual Theology and the Dutch Reformed Mission Church.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "None of the three has an entry. The Kairos Document's imprint (Braamfontein: Institute for Contextual Theology, 1985) is on the entry's source list. The Reformed Church in America's Belhar page (read online) says the confession 'was first drafted in 1982 by the Dutch Reformed Mission Church (DRMC); the DRMC formally adopted the Belhar Confession in 1986.' The Council rests on de Gruchy. Kept."
+  },
+  {
+   "movement": "the-church-struggle-against-apartheid",
+   "field": "longDescription",
+   "sentence": "In October 1982 a synod of the Dutch Reformed Mission Church, meeting at Belhar, accepted a draft confession.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Checked against the RCA page above (1982 draft; 1986 adoption). The first article's wording also matches that page's translation ('who gathers, protects and cares for the church through Word and Spirit'). Kept."
+  },
+  {
+   "movement": "the-church-struggle-against-apartheid",
+   "field": "longDescription",
+   "sentence": "This story opens with the Cottesloe Consultation, which met in Johannesburg from 7 to 14 December 1960.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Added. Cottesloe has no entry; it rests on Van der Borght (2011), on the entry's source list. Not re-read. Kept."
+  },
+  {
+   "movement": "the-christian-right",
+   "field": "relationsSummary",
+   "sentence": "The entry on Fundamentalism traces this movement back to it.",
+   "other_id": "fundamentalism-1910-1970s",
+   "disposition": "link",
+   "link_id": "fundamentalism-1910-1970s--the-christian-right",
+   "prose_change": null,
+   "reason": "Same 'gave rise to' link. The sentence points to another part of the map rather than standing alone; left for the census owner, as a wording matter only."
+  },
+  {
+   "movement": "the-christian-right",
+   "field": "relationsSummary",
+   "sentence": "They were the Moral Majority (1979–1989), the Christian Coalition (from 1989) and the Faith and Freedom Coalition (from 2009).",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Added. The groups are part of this movement, not separate entries. The Moral Majority's founding (6 June 1979, five ministers) matches the Liberty University Archive finding aid read online. Kept."
+  },
+  {
+   "movement": "the-christian-right",
+   "field": "longDescription",
+   "sentence": "That month Ronald Reagan spoke in Dallas, at a briefing run by another group, the Religious Roundtable.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The Religious Roundtable has no entry; the briefing rests on the Reagan address and the Reagan Library Blackwell files on the entry's source list. Not re-read. Kept."
+  },
+  {
+   "movement": "the-christian-right",
+   "field": "why",
+   "sentence": "Another group, the Religious Roundtable, ran it.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "As above."
+  },
+  {
+   "movement": "messianic-judaism",
+   "field": "relationsSummary",
+   "sentence": "That question was the first argument the early church ever had, among the first Jewish believers in Jesus, and this movement brought it back in living form.",
+   "other_id": null,
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 3,
+   "reason": "No movement for the first Jewish believers exists (the Ebionite / Nazoraean entry, era 1, itself says no line of descent connects it to Messianic Judaism), so no link. 'The first argument ... ever' is more than the sources show. Acts 21:20-21, quoted in the Augustine-Jerome letters (cic/texts/npnf101_augustine-confessions-letters.xml, lines 33504-33509), shows Jerusalem's Jewish believers 'all zealous of the law' and troubled that Paul taught Jews 'to forsake Moses'. Rewritten to say they argued over it."
+  },
+  {
+   "movement": "messianic-judaism",
+   "field": "longDescription",
+   "sentence": "The Hebrew Christian Alliance of America, founded in 1915, renamed itself the Messianic Jewish Alliance of America in 1975, and the change of name was also a change of self-description.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The Alliance is part of this movement. Its own site (https://www.mjaa.org/, read online) says 'Founded in 1915'. The 1975 rename rests on the entry's listed primary; not found on the pages opened. Kept."
+  },
+  {
+   "movement": "messianic-judaism",
+   "field": "longDescription",
+   "sentence": "The Union of Messianic Jewish Congregations followed in 1979 and set out its position in a document called 'Defining Messianic Judaism' in 2005.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Part of this movement. The UMJC's own page (https://www.umjc.org/defining-messianic-judaism, read online) dates the statement: 'UMJC Theology Committee; affirmed by delegate vote, July 20, 2005.' Kept."
+  },
+  {
+   "movement": "messianic-judaism",
+   "field": "longDescription",
+   "sentence": "Jews for Jesus, founded in 1973, took a more evangelistic shape.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "An organization within this movement, no entry. Rests on the entry's listed primary (Jews for Jesus publications from 1973). Not re-read. Kept."
+  },
+  {
+   "movement": "messianic-judaism",
+   "field": "longDescription",
+   "sentence": "It was argued about from outside in two directions at once, by Jewish communal bodies and in Christian debates over supersessionism.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Added. Neither party is an entry; rests on the entry's listed primaries and on Harris-Shapiro and Ariel, repo-cited. Kept."
+  },
+  {
+   "movement": "messianic-judaism",
+   "field": "legacy",
+   "sentence": "Its lasting significance on this map is the question it kept open rather than the institutions it built: whether a person can be fully Jewish and a follower of Jesus was the first thing the church ever argued about, and this movement put it back in living form.",
+   "other_id": null,
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 4,
+   "reason": "Same overclaim as the summary ('the first thing the church ever argued about'), qualified the same way. The whole field is rewritten to meet the reading target, keeping every fact."
+  },
+  {
+   "movement": "indonesian-christianity-the-independent-century",
+   "field": "relationsSummary",
+   "sentence": "The HKBP, the Batak church, became fully independent in 1930.",
+   "other_id": "indonesian-christianity",
+   "disposition": "link",
+   "link_id": "indonesian-christianity--indonesian-christianity-the-independent-century",
+   "prose_change": null,
+   "reason": "Added (the inventory listed no relationships). The continuity with the era 9 entry is carried by the existing 'continued as' link, kept."
+  },
+  {
+   "movement": "indonesian-christianity-the-independent-century",
+   "field": "relationsSummary",
+   "sentence": "Indonesia's Catholics are part of this story too. Karel Steenbrink called the years 1903 to 1942 \"the spectacular growth of a self-confident minority\".",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Added. No Indonesian Catholic entry. The phrase is the subtitle of Steenbrink's Catholics in Indonesia vol. 2 (KITLV Press, 2007), on the entry's source list and repo-cited. Kept."
+  },
+  {
+   "movement": "indonesian-christianity-the-independent-century",
+   "field": "longDescription",
+   "sentence": "Between 1965 and 1971 a revival ran through Timor, whose best-known account, Mel Tari's Like a Mighty Wind (1971), is disputed for embellishment, and whose most careful evaluation, George W. Peters's Indonesia Revival: Focus on Timor (1973), was written on the ground.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Added. The Timor revival is part of this movement; Tari and Peters are on the entry's source list. Kept."
+  },
+  {
+   "movement": "indonesian-christianity-the-independent-century",
+   "field": "legacy",
+   "sentence": "The Timor revival gave world Pentecostalism one of its most circulated stories and, in Tari and Peters together, an unusually clear case of a movement's account and its critical evaluation surviving side by side.",
+   "other_id": "global-south-pentecostal-christianity",
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 5,
+   "reason": "Added (the inventory listed it as hygiene). 'Gave world Pentecostalism one of its most circulated stories' claims an influence no source read here or cited in the repo shows; the Global South Pentecostal entry does not name Timor. Qualified to what the entry supports (a widely read account, as the 'why' field already says). The whole field is rewritten to meet the reading target."
+  }
+ ],
+ "links": [
+  {
+   "id": "fundamentalism-1910-1970s--the-mainline-century-liberal-and-neo-orthodox",
+   "from": "fundamentalism-1910-1970s",
+   "to": "the-mainline-century-liberal-and-neo-orthodox",
+   "type": "broke with",
+   "confidence": "Widely Accepted",
+   "note": "In the 1920s conservatives and liberals fought hard over doctrine, most of all in the Presbyterian church. In 1924 more than a thousand of its ministers and elders signed a statement. They would not let five doctrines become a test for new ministers. In 1936 the church's top court upheld the guilty verdicts on Machen and other conservative ministers. They then formed a church of their own.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "An Affirmation designed to safeguard the unity and liberty of the Presbyterian Church in the United States of America (the Auburn Affirmation), signed by ministers and elders of that church, January 1924; text as reproduced by the PCA Historical Center",
+     "url": "https://pcahistory.org/documents/auburn/auburntext.html",
+     "accessed": "2026-11-10",
+     "locus": "section IV",
+     "quote": "we are opposed to any attempt to elevate these five doctrinal statements, or any of them, to the position of tests for ordination or for good standing in our church.",
+     "license": "rights reserved; short quotation"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Robert S. Marsden, ed., The First Ten Years: The Orthodox Presbyterian Church 1936-1946 (Philadelphia: Committee on Home Missions and Church Extension, 1946), excerpt as published by the Orthodox Presbyterian Church",
+     "url": "https://opc.org/books/FirstTenYears.html",
+     "accessed": "2026-11-10",
+     "locus": "opening section, on the General Assembly of 1 June 1936 and the First General Assembly of 11 June 1936",
+     "quote": "The new church was necessary because the denomination had officially sanctioned a grave departure from the biblical doctrine of the final authority of the Word of God, and because the legal ways of combating this unbelief from within the church had been exhausted.",
+     "license": "rights reserved; short quotation"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "George M. Marsden, Fundamentalism and American Culture (Oxford University Press, 1980)"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Bradley J. Longfield, The Presbyterian Controversy: Fundamentalists, Modernists, and Moderates (Oxford University Press, 1991)"
+    }
+   ],
+   "citation_specificity": "B",
+   "verification_state": "verified-online",
+   "action": "rewrite",
+   "named_in_text": [
+    "fundamentalism-1910-1970s relationsSummary ('defended traditional Christian doctrine against theological liberalism, as in J. Gresham Machen's Christianity and Liberalism (1923)')",
+    "fundamentalism-1910-1970s longDescription ('Then came the public defeats and the separations ... Westminster founded in answer, and new denominations of their own from the 1930s')",
+    "the-mainline-century-liberal-and-neo-orthodox relationsSummary and legacy (the fundamentalist-modernist controversy; 'fought out in dated documents on both sides')"
+   ],
+   "wants": [
+    "J. Gresham Machen, Christianity and Liberalism (1923), and Harry Emerson Fosdick, 'Shall the Fundamentalists Win?' (1922): both US publications of 1922-23, so likely public domain now; vendored in cic/texts/ they would let this link be Documented from both sides."
+   ],
+   "drafter_flags": [
+    "Type and ids unchanged (broke with, from < to). The old note said the two sides 'split in the early 1920s'. The 1920s were the quarrel; the separation in the Presbyterian church came in 1929 (Westminster) and 1936 (the new church). The note now dates the break to 1936.",
+    "Regraded Dominant Modern Reconstruction -> Widely Accepted under the era 10 rule: two dated texts read online, one from each side (Auburn Affirmation 1924; the Orthodox Presbyterian Church's own ten-year history of 1946), plus repo-cited Marsden and Longfield (named, not re-read). Capped at Widely Accepted because neither text is in the Library.",
+    "Reviewer to judge: the Auburn Affirmation is a statement signed by ministers and elders, not an act of the General Assembly. I treated it as a dated official statement of the church's liberal side; if it does not count under the rule, the link drops back to Dominant Modern Reconstruction.",
+    "The PCA Historical Center page says the January 1924 printing carried 150 names and the 5 May 1924 printing 1,274; the note says 'more than a thousand' on that basis.",
+    "'Machen and other conservative ministers': the OPC text lists Machen among the names in the 1936 decisions ('Griffiths, MacPherson, Rian, Woolley, Woodbridge, McIntire, Machen, ...') and says the assembly on 1 June 1936 'affirmed the condemnations of these ministers'; the new church was constituted on 11 June.",
+    "Licence: both texts are given as 'rights reserved; short quotation' per the era 10 rule; the Auburn Affirmation (1924) is likely public domain in the US.",
+    "The mainline entry (group C) also names this pair; this record should be the one action on it. Fosdick's 1922 date and Dorrien are dropped from the note, not from the evidence: Dorrien is kept off the source list because nothing seen ties his volumes to the 1936 break; Marsden and Longfield cover it by title."
+   ],
+   "change_reason": "Note rewritten: the misdated 'split in the early 1920s' is replaced by the dated texts of both sides (1924, 1936). Regraded to Widely Accepted on two primary texts read online plus repo-cited studies; Dorrien replaced by the two primaries."
+  },
+  {
+   "id": "fundamentalism-1910-1970s--the-christian-right",
+   "from": "fundamentalism-1910-1970s",
+   "to": "the-christian-right",
+   "type": "gave rise to",
+   "confidence": "Dominant Modern Reconstruction",
+   "note": "Jerry Falwell and four other ministers founded the Moral Majority in 1979. Historians such as Daniel K. Williams trace its roots back to the fundamentalists. This link rests on their books.",
+   "sources": [
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Daniel K. Williams, God's Own Party: The Making of the Christian Right (New York: Oxford University Press, 2010), details confirmed from the Church History review listing (Cambridge University Press)",
+     "url": "https://www.cambridge.org/core/journals/church-history/article/gods-own-party-the-making-of-the-christian-right-by-williams-daniel-k-new-york-oxford-university-press-2010-viii-372-pp-2995-cloth/C50412D661DCDC63A61FBDF3732E60E4",
+     "accessed": "2026-11-10"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "William Martin, With God on Our Side: The Rise of the Religious Right in America (Broadway Books, 1996)"
+    }
+   ],
+   "citation_specificity": "C",
+   "verification_state": "named-not-rechecked",
+   "action": "new",
+   "named_in_text": [
+    "fundamentalism-1910-1970s relationsSummary ('The political mobilization that began with the Moral Majority in 1979 also traces back to this movement') and legacy ('It has its own entry, the Christian Right')",
+    "the-christian-right relationsSummary ('The entry on Fundamentalism traces this movement back to it'; 'Its founders were ministers')"
+   ],
+   "wants": [
+    "Jerry Falwell's own dated texts naming fundamentalism as his tradition (for example the Moral Majority's Fundamentalist Journal, 1982-1989, held at the Liberty University Archive), which would show people passing from one to the other.",
+    "A readable passage of Williams, God's Own Party, on the movement's roots in the 1920s and 1930s."
+   ],
+   "drafter_flags": [
+    "'Gave rise to' rests on the people: the Moral Majority's founding ministers came out of the fundamentalist and separatist Baptist world. No text read in this run shows that in their own words, so the grade is Dominant Modern Reconstruction on repo-cited studies (Williams and Martin are on the Christian Right entry's source list). Williams's details were confirmed on a Cambridge University Press review listing; the book itself was not read.",
+    "Read but not cited (not a primary or a study): the Liberty University Archive finding aid MOR RG 2 (updated 24 March 2014) gives the founding on 6 June 1979 by Falwell, LaHaye, Stanley, Kennedy and Dixon, and lists the Moral Majority's 'Fundamentalist Journal'. https://pimcore.liberty.edu/imports/coldfusion/1420/documents/archivefindingaids/MOR_RG-02.pdf, accessed 2026-11-10. A Wheaton College Archives page summarising Williams also says its roots 'go back to the 1920s and 1930s'; a summary, so not used.",
+    "Influenced is the weaker alternative if the reviewer finds the people-continuity unshown."
+   ],
+   "change_reason": "New link for a relationship both entries name."
+  },
+  {
+   "id": "fundamentalism-1910-1970s--lausanne-era-global-evangelicalism",
+   "from": "fundamentalism-1910-1970s",
+   "to": "lausanne-era-global-evangelicalism",
+   "type": "gave rise to",
+   "confidence": "Dominant Modern Reconstruction",
+   "note": "After 1942 many fundamentalists joined a wider group of evangelicals. Joel Carpenter's book tells that story. Brian Stanley names the later, worldwide age of this group after Billy Graham and John Stott. This link rests on their books.",
+   "sources": [
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Joel A. Carpenter, Revive Us Again: The Reawakening of American Fundamentalism (New York: Oxford University Press, 1997), details confirmed from the Church History review listing (Cambridge University Press)",
+     "url": "https://www.cambridge.org/core/journals/church-history/article/abs/revive-us-again-the-reawakening-of-american-fundamentalism-by-joel-a-carpenter-new-york-oxford-university-press-1997-xiv-335-pp-3000-cloth/A55AD7089797529C8E814BF0C0597F57",
+     "accessed": "2026-11-10"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Brian Stanley, The Global Diffusion of Evangelicalism: The Age of Billy Graham and John Stott (IVP, 2013)"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Grant Wacker, America's Pastor: Billy Graham and the Shaping of a Nation (Belknap Press of Harvard University Press, 2014)"
+    }
+   ],
+   "citation_specificity": "C",
+   "verification_state": "named-not-rechecked",
+   "action": "new",
+   "named_in_text": [
+    "fundamentalism-1910-1970s legacy ('carried much of its constituency into the neo-evangelical world that this map picks up again at Lausanne')"
+   ],
+   "wants": [
+    "A readable passage of Carpenter, Revive Us Again, or Stanley, The Global Diffusion of Evangelicalism (chapter 1), on the move from fundamentalism to postwar evangelicalism."
+   ],
+   "drafter_flags": [
+    "The relationship runs through a middle stage, the neo-evangelical movement of the 1940s-60s, which has no entry of its own. Carpenter covers fundamentalism to 1950; Stanley covers the Graham-Stott age that includes Lausanne. The link joins the two reconstructions, so it is graded no higher than Dominant Modern Reconstruction; Inferential-Thin is defensible if the reviewer reads the two-step chain as the map's own.",
+    "Carpenter is not cited elsewhere in the repo; his author, title, publisher and year were confirmed on a Cambridge University Press review listing in this run (named, not read). Stanley and Wacker are repo-cited on the Lausanne and Fundamentalism entries.",
+    "The NAE's own history page (https://www.nae.org/history/, accessed 2026-11-10) says the NAE was founded in 1942 as a 'middle way' between 'the fundamentalist American Council of Christian Churches and the progressive Federal Council of Churches'. That supports the 1942 handoff but is undated, so it is not cited on the link.",
+    "Only the Fundamentalism text names this pair; the Lausanne entry (group F) does not."
+   ],
+   "change_reason": "New link for the handoff the Fundamentalism legacy names."
+  },
+  {
+   "id": "the-mainline-century-liberal-and-neo-orthodox--progressive-christianity-a-broad-label-not-one-m",
+   "from": "the-mainline-century-liberal-and-neo-orthodox",
+   "to": "progressive-christianity-a-broad-label-not-one-m",
+   "type": "gave rise to",
+   "confidence": "Dominant Modern Reconstruction",
+   "note": "From the 1990s many old mainline churches took up the name progressive. Historians of liberal theology, such as Gary Dorrien, tell the longer story behind them. This link rests on their books.",
+   "sources": [
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Gary Dorrien, The Making of American Liberal Theology (Westminster John Knox, 2001-2006)"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Diana Butler Bass, Christianity for the Rest of Us (2006)"
+    }
+   ],
+   "citation_specificity": "C",
+   "verification_state": "named-not-rechecked",
+   "action": "new",
+   "named_in_text": [
+    "progressive-christianity-a-broad-label-not-one-m relationsSummary ('It descends from the mainline century ... which hands off to it around 1990'), longDescription ('claimed by mainline congregations') and legacy ('is its parent')",
+    "the-mainline-century-liberal-and-neo-orthodox relationsSummary and legacy ('hands off around 1990 to the current called progressive Christianity')"
+   ],
+   "wants": [
+    "The Center for Progressive Christianity's own dated texts (founding, 1994; the Eight Points and their revisions): the site returned 403 to every fetch in this run.",
+    "A readable passage of Dorrien's third volume or of Bass, Christianity for the Rest of Us, on mainline congregations taking up the progressive name."
+   ],
+   "drafter_flags": [
+    "'Gave rise to', not 'continued as': the progressive label also covers post-evangelical networks and writers with no mainline past, so it is not the same community carried on. The mainline legacy calls it 'their continuation'; group C should check that phrase against this type.",
+    "Both works are repo-cited (Dorrien on both entries; Bass on the progressive entry) but were not read here. Dominant Modern Reconstruction is the most the named works allow.",
+    "Group C (mainline) may draft the same pair; one record should carry it."
+   ],
+   "change_reason": "New link for a parent relationship both entries name."
+  },
+  {
+   "id": "indonesian-christianity--indonesian-christianity-the-independent-century",
+   "from": "indonesian-christianity",
+   "to": "indonesian-christianity-the-independent-century",
+   "type": "continued as",
+   "confidence": "Dominant Modern Reconstruction",
+   "note": "The Batak church of North Sumatra gave itself a written order in 1881. It is the same church, the HKBP, that became fully free of the mission in 1930. The churches of Java and the eastern islands also lived on into the next century. Jan Aritonang and Karel Steenbrink tell both parts of the story in their history of Indonesia's churches.",
+   "sources": [
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Jan Sihar Aritonang and Karel Steenbrink, eds., A History of Christianity in Indonesia (Brill, 2008)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Sutarman S. Partonadi, Sadrach's Community and Its Contextual Roots (Rodopi, 1990)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    }
+   ],
+   "citation_specificity": "C",
+   "verification_state": "named-not-rechecked",
+   "action": "keep",
+   "named_in_text": [
+    "indonesian-christianity-the-independent-century relationsSummary, longDescription, why and legacy (the HKBP's independence in 1930)",
+    "indonesian-christianity legacy ('belongs to the next chapter of the same story')"
+   ],
+   "wants": [
+    "The HKBP's own church order of 1930, or its own dated history: no official HKBP page could be opened in this run."
+   ],
+   "drafter_flags": [
+    "Kept as published by the era 9 pass. No HKBP text could be opened online, so there is nothing to raise it to Widely Accepted. The note runs to four sentences, one more than the note rule's three; left for the reviewer, since it passed era 9 review."
+   ],
+   "change_reason": "Kept: the continuity of the Batak church across 1906 is carried by the repo-cited Aritonang and Steenbrink history; nothing new was found."
+  }
+ ],
+ "prose_changes": [
+  {
+   "n": 1,
+   "movement": "the-narrative-kingdom-renewal-the-bible-as-one-s",
+   "field": "relationsSummary",
+   "old": "Lineage: Newbigin's missional vision, Willard's kingdom discipleship, Wright's popularization; a counter-reading culture to the dispensational, prophecy-focused way of reading the Bible (story vs. chart - two rival ways a generation learned to read); heirs of Anglican biblical scholarship going back to the Oxford Movement and the missional line running through the 1910 Edinburgh missionary conference.",
+   "new": "It drew on three writers. Lesslie Newbigin asked what the church is for. Dallas Willard put the kingdom at the heart of discipleship. N. T. Wright carried the story to a wide readership. It read the Bible as one story, not as a chart of the future. That set it apart from the dispensational prophecy culture.",
+   "reason": "Oxford Movement and Edinburgh 1910 claims removed (no source); the dispensational contrast kept as a contrast, not a documented rivalry; code-style summary rewritten as plain sentences, using the writers and books named in the entry's own longDescription."
+  },
+  {
+   "n": 2,
+   "movement": "the-narrative-kingdom-renewal-the-bible-as-one-s",
+   "field": "legacy",
+   "old": "In 2010 it was a teaching current with real formation texture — reading plans, classroom cohorts, church curricula — rather than a body with members, and this map takes that at face value. What it did was give a generation an alternative to reading the Bible as a chart of the future: story rather than scheme. That put it in direct rivalry with the dispensational reading culture carried elsewhere here. No standard scholarly account of it had appeared by 2010, which is itself worth saying.",
+   "new": "In 2010 it was a teaching current, not a body with members. It lived in reading plans, classes and church courses, and this map takes that at face value. It gave a generation a way to read the Bible as a story rather than a scheme. That set it apart from the dispensational reading culture shown elsewhere on this map. No standard study of it had appeared by 2010, which is itself worth saying. So no study yet shows how far its writers set out to answer that culture.",
+   "reason": "'Direct rivalry' qualified; whole field rewritten to Reading Ease 60+, keeping every fact (teaching current, formation texture, story rather than scheme, no standard account by 2010)."
+  },
+  {
+   "n": 3,
+   "movement": "messianic-judaism",
+   "field": "relationsSummary",
+   "old": "Messianic Judaism raises again a question as old as the church itself: whether a person can be fully Jewish and a follower of Jesus. That question was the first argument the early church ever had, among the first Jewish believers in Jesus, and this movement brought it back in living form.",
+   "new": "Messianic Judaism raises a question as old as the church: can a person be fully Jewish and follow Jesus? The first Jewish believers argued over it. In the book of Acts, the believers in Jerusalem were \"all zealous of the law\". They heard that Paul taught Jews \"to forsake Moses\". This movement brought the question back in living form.",
+   "reason": "'The first argument the early church ever had' qualified to what Acts 21:20-21 shows (quoted in the vendored Augustine-Jerome letters, npnf101, lines 33504-33509: 'all zealous of the law'; 'to forsake Moses')."
+  },
+  {
+   "n": 4,
+   "movement": "messianic-judaism",
+   "field": "legacy",
+   "old": "By 2010 it was a living movement, with congregations in Israel and North America and a body of published self-definition unusually dense for its size. Its Bible translation and its congregational liturgies circulated well beyond it. Its lasting significance on this map is the question it kept open rather than the institutions it built: whether a person can be fully Jewish and a follower of Jesus was the first thing the church ever argued about, and this movement put it back in living form. Counting it was hard — the congregations' own figures and outside estimates differed, and nothing independent settled it.",
+   "new": "By 2010 it was a living movement, with congregations in Israel and North America. For its size, it had written a great deal about what it is. Its Bible translation and its prayers for worship were used well beyond it. On this map, the question it kept open matters more than what it built. Can a person be fully Jewish and follow Jesus? The first Jewish believers argued over that, and this movement put it back in living form. Counting it was hard. The congregations' own figures and outside counts differed, and nothing independent settled it.",
+   "reason": "Same qualification as the summary; whole field rewritten to the reading target with every fact kept."
+  },
+  {
+   "n": 5,
+   "movement": "indonesian-christianity-the-independent-century",
+   "field": "legacy",
+   "old": "In 2010 these were living churches, and large ones, in a country where Christians were a minority and their position was periodically contested. The HKBP's independence in 1930 stands as an early institutional marker of the whole twentieth-century shift from mission to self-governing church. The Timor revival gave world Pentecostalism one of its most circulated stories and, in Tari and Peters together, an unusually clear case of a movement's account and its critical evaluation surviving side by side.",
+   "new": "In 2010 these were living churches, and large ones. Christians were a minority in the country, and their place was at times contested. The HKBP's independence in 1930 is an early marker of a long shift, from mission to self-governing church. The Timor revival left a widely read account in Mel Tari's book. Tari and Peters together are a rare case. A movement's own account and its critical evaluation survive side by side.",
+   "reason": "'Gave world Pentecostalism one of its most circulated stories' qualified to 'a widely read account' (as the entry's why already says); whole field rewritten to the reading target."
+  }
+ ],
+ "wants": [
+  "J. Gresham Machen, Christianity and Liberalism (1923), and Harry Emerson Fosdick, 'Shall the Fundamentalists Win?' (1922): likely public domain by date; vendoring them would let the fundamentalist-liberal break be Documented.",
+  "The Fundamentals (1910-1915), the Niagara Creed (1878) and Hodge and Warfield, 'Inspiration' (Presbyterian Review, April 1881): all public domain by date; would carry the Fundamentalism entry's formation claims from the Library.",
+  "Jerry Falwell's own dated texts naming fundamentalism, or the Moral Majority's Fundamentalist Journal (1982-1989): would show the people passing from fundamentalism to the Christian Right.",
+  "Readable passages of Williams, God's Own Party (2010); Carpenter, Revive Us Again (1997); Stanley, The Global Diffusion of Evangelicalism (2013).",
+  "N. T. Wright, 'Farewell to the Rapture', Bible Review 17:4 (August 2001), and Surprised by Hope (2008): the narrative-kingdom writers' own texts against rapture teaching. The ntwrightpage.com copy refused this run's fetch.",
+  "Lesslie Newbigin, Unfinished Agenda (1985), or International Missionary Council records: would test the Edinburgh 1910 line removed from the narrative-kingdom summary.",
+  "The Center for Progressive Christianity's own dated pages (1994 founding; the Eight Points and their revisions): returned 403 in this run.",
+  "A source showing the Barmen Declaration as a model for the Belhar Confession or the Kairos Document (for example the Belhar accompanying letter, or de Gruchy): would test an 'influenced' link from the Confessing Church to the church struggle.",
+  "The Messianic Jewish Alliance of America's own record of its 1975 rename.",
+  "The HKBP's church order of 1930, or its own dated history page."
+ ],
+ "escalations": [
+  "Method question (for Mark): the era 10 evidence rule lets a church body's own dated text read online be a primary source. The narrative-kingdom renewal never became a body; its own dated texts are its writers' (for example Wright's 2001 article against rapture teaching). Should a movement writer's own dated text read online count as a primary, capped at Widely Accepted like the rest? Until ruled, its relationship to the dispensational prophecy culture is qualified in the prose, not linked.",
+  "No movement text found wrong beyond one sentence. Five fields are rewritten for unsupported clauses (the Oxford Movement and Edinburgh lines; 'direct rivalry'; 'the first argument the church ever had', twice; 'world Pentecostalism').",
+  "Cross-group overlaps for the merge: the Fundamentalism-mainline break and the mainline-progressive link are also named in the mainline entry (group C); the mainline legacy's 'their continuation' sits uneasily with a 'gave rise to' link. The homeschool entry (group C) names Fundamentalism; the Hebrew Roots entry (group D) names Messianic Judaism; the emerging-church entry (group D) says it 'fed the broader progressive current'; the dispensational entry (group E) says the narrative reading was 'in large part a reaction against the chart', which no source read here shows. None of these are drafted here."
+ ]
+}

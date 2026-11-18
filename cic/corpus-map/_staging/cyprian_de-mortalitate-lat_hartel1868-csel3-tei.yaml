@@ -11,6 +11,9 @@ assignments:
       - latin-pastoral-congregational-christianity
     role: tradition
     confidence: assigned
+    locus_ids: [whole-file]
+    language: lat
+    date: {start: 252, end: 253, source: "Build/worlds/lpc/Doc_01_World_Identification_Boundaries_Orientation.md section 2: the Carthage plague and De Mortalitate (c. 252-253)", formation_confidence: Widely Accepted}
     note: >
       Latin original of the work the English twin row(s) in
       anf05_hippolytus-cyprian-caius-novatian.xml hold: Cyprian's treatise on the mortality, the

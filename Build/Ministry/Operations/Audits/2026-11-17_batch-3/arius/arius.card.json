@@ -1,0 +1,254 @@
+{
+  "knownFor": "A presbyter of Alexandria who taught that the Son of God was made, and not eternal; his teaching was condemned at the Council of Nicaea in 325.",
+  "datesNote": "In dispute with Bishop Alexander of Alexandria from about 318 or 319; died in Constantinople in 336, both by Archibald Robertson's dating",
+  "placeNote": "Alexandria",
+  "role": "Presbyter and teacher",
+  "keyWorks": [
+    {
+      "title": "Letter to Eusebius of Nicomedia",
+      "about": "his own statement of belief, kept by Theodoret of Cyrrhus in his Church History, Book 1"
+    },
+    {
+      "title": "The Thalia",
+      "about": "a book of his teaching in verse, known only from the quotations and mockery of Athanasius"
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "The churches later called Arian, which held with him that the Son was not eternal.",
+      "The creed of Nicaea, which the council wrote to define the faith against his teaching."
+    ],
+    "remembered": [
+      "Socrates of Constantinople sets the start of the quarrel at his clash with Bishop Alexander, when Arius said \"there was a time when the Son was not.\"",
+      "Athanasius of Alexandria tells of his sudden death in Constantinople, the day before he was to be received back, as the presbyter Macarius told it to him."
+    ]
+  },
+  "uncertain": [
+    "How the quarrel began is told more than one way. Socrates of Constantinople starts it at Arius's answer to Bishop Alexander. Archibald Robertson, who edited Athanasius in English, calls the origin obscure, and notes that Constantine's own letter has Alexander asking his clergy about a passage of Scripture. Philostorgius, through Photius, says a presbyter nicknamed Baucalis started it.",
+    "His own words reach us through others. Theodoret of Cyrrhus kept his letter to Eusebius of Nicomedia, and Athanasius quotes the Thalia while mocking it.",
+    "Philostorgius, a historian on his side, praised Arius but also found fault with him. His history survives only in a hostile summary by Photius, patriarch of Constantinople in the 800s, who calls Philostorgius a liar. So the attack on Arius and the defense of him both come through opponents.",
+    "Athanasius was not in Constantinople when Arius died, and had the account from the presbyter Macarius. Sozomen gives three views of the death. Those who held Arius's views blamed magic. Others saw God's judgment, and some a sudden disease of the heart.",
+    "The year of his birth is not given in a held source. Robertson reports that he was said to be a native of Libya, and dates his death to 336."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "Letter to Eusebius of Nicomedia, in Church History, Book 1, chapter 4",
+        "author": "Arius, in Theodoret of Cyrrhus",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml"
+      },
+      {
+        "title": "Extracts from the Thalia, in On the Councils (de Synodis) and the Orations against the Arians",
+        "author": "Arius, quoted by Athanasius of Alexandria",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf204_athanasius-select-works-letters.xml"
+      },
+      {
+        "title": "Letter to Eusebius of Nicomedia, in Panarion 69.6",
+        "author": "Arius, in Epiphanius of Salamis",
+        "date": null,
+        "language": "Greek, with Latin translation",
+        "file": "cic/texts/epiphanius_panarion-haer-48-69-corpus-haereseologicum-t2-pars-posterior-grc-lat_oehler1860.txt"
+      },
+      {
+        "title": "Thalia, Greek, in Athanasius, Opera omnia, Patrologia Graeca 26 (Migne 1857), De Synodis and the Orations against the Arians",
+        "author": "Arius, quoted by Athanasius of Alexandria",
+        "date": null,
+        "language": "Greek",
+        "file": "cic/texts/athanasius_opera-omnia-pg26-grc-lat_migne1857.txt"
+      }
+    ],
+    "about": [
+      {
+        "title": "Church History, Book 1, chapters 5 to 9, on the dispute and the Council of Nicaea",
+        "author": "Socrates of Constantinople",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml"
+      },
+      {
+        "title": "Select Works and Letters, with the letter to Serapion on the death of Arius and Robertson's prolegomena",
+        "author": "Athanasius of Alexandria",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf204_athanasius-select-works-letters.xml"
+      },
+      {
+        "title": "Ecclesiastical History (an Arian account, surviving in Photius's hostile summary)",
+        "author": "Philostorgius",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/philostorgius_ecclesiastical-history_walford1855.txt"
+      },
+      {
+        "title": "Church History, Book 2, chapter 10, with the letter of the eastern bishops from Antioch, 341",
+        "author": "Socrates of Constantinople",
+        "date": null,
+        "language": "Greek, with Latin translation",
+        "file": "cic/texts/socrates_historia-ecclesiastica-tomus1-grc-lat_hussey1853.txt"
+      },
+      {
+        "title": "The Creed of Nicaea, in The Seven Ecumenical Councils",
+        "author": "Council of Nicaea (325)",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf214_seven-ecumenical-councils.xml"
+      },
+      {
+        "title": "Acts of the Council of Aquileia (381), in Sacrorum conciliorum collectio, vol. 3",
+        "author": "ed. Giovanni Domenico Mansi",
+        "date": null,
+        "language": "Latin",
+        "file": "cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-3-347-409-lat_welter-facsimile1901.txt"
+      },
+      {
+        "title": "Aus der Schule des Wulfila, with the editor's account of the Council of Aquileia",
+        "author": "Friedrich Kauffmann",
+        "date": "1899",
+        "language": "German",
+        "file": "cic/texts/auxentius-durostorum_epistula-de-fide-vita-obitu-wulfilae_kauffmann1899.txt"
+      },
+      {
+        "title": "Dialogue against the Luciferians, on the council of Ariminum (359)",
+        "author": "Jerome",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf206_jerome-principal-works.xml"
+      },
+      {
+        "title": "Acts of the Third Council of Toledo (589), in Collectio canonum Ecclesiae Hispanae",
+        "author": "Third Council of Toledo",
+        "date": "1808",
+        "language": "Latin",
+        "file": "cic/texts/collectio-canonum-ecclesiae-hispanae-toledo-iii-lat_1808.txt"
+      }
+    ]
+  },
+  "briefReferences": [
+    "Arius, Letter to Eusebius of Nicomedia, in Epiphanius, Panarion 69.6 (Oehler, lines 45594-45746; the opening quotation at 45736-45738) and Theodoret, Church History 1.4 (npnf203, lines 6004-6066): we are persecuted for saying the Son has a beginning; God alone without beginning; the Son begotten before time as perfect God; before he was begotten he was not.",
+    "Arius and his fellow clergy, Letter to Alexander, in Athanasius, De Synodis 16 (npnf204, lines 57094-57111, 57166-57172), and Epiphanius, Panarion 69 (Oehler, lines 45897-45903): the Son not eternal or co-eternal with the Father; two beings without beginning; a Son who is part of the Father would make God divisible.",
+    "Socrates, Church History 1.5 (npnf202, lines 2063-2076), and Robertson's prolegomena to Athanasius (npnf204, lines 1673-1676, 1687-1689): a presbyter of Alexandria under Bishop Alexander; the dispute begins about 318 or 319.",
+    "Alexander of Alexandria, encyclical on the deposition of Arius (npnf204, lines 18975-18998, 19015-19019): Arius and his allies deposed as \"enemies of Christ\".",
+    "Theodoret, Epiphanius and Athanasius (npnf203, lines 5992-5997; Oehler, lines 45641-45656; npnf204, lines 41457-41479, 57002-57005): his own words survive only in his opponents' books, and Athanasius quotes the Thalia to mock it.",
+    "The Creed of Nicaea, in The Seven Ecumenical Councils (npnf214, lines 2408-2429): \"begotten, not made\", \"of one substance with the Father\", and the closing curse on \"before he was begotten he was not\", the phrase of his own letter.",
+    "Socrates, Church History 1.8-9, with the synodal letter of Nicaea and Constantine's letter (npnf202, lines 2962-2965, 3184-3193, 3363-3386): his opinions condemned in 325; the emperor exiles him and orders his books burned, with death for anyone who hid one.",
+    "Arius and Euzoius to Constantine, in Socrates, Church History 1.26 (npnf202, lines 4859-4903): the creed without the disputed phrases on which he was taken back.",
+    "Athanasius, Letter 54, to Serapion (npnf204, lines 70051-70106), and Robertson's prolegomena (npnf204, lines 4854-4875): the bishop of Constantinople refuses to admit him and prays that God take either Arius or himself; the sudden death the day before his reception, in 336 by Robertson's dating; Athanasius was not there and sees God's judgment in it.",
+    "The eastern bishops at Antioch, 341, in Socrates, Church History 2.10 (Hussey, lines 16658-16659), and Athanasius, De Synodis 22 (npnf204, lines 57413-57423): \"We have not been followers of Arius. For how could we, who are bishops, follow a priest?\"; Athanasius says they wrote so because the name was hated.",
+    "Sulpicius Severus, Chronicle 2.40-41 (npnf211, lines 11186-11200): the emperor Constantius favored the Arians and ordered the council of Ariminum.",
+    "The creed of Constantinople, 360, in Socrates, Church History 2.41 (npnf202, lines 9565-9574, 9606-9610): the word substance dropped as unscriptural; the Son \"like the Father\" as the Scriptures teach; Ulfila, bishop of the Goths, assents.",
+    "Jerome, Dialogue against the Luciferians 19 (npnf206, lines 32409-32413): at Ariminum the world \"groaned, and was astonished to find itself Arian\".",
+    "Socrates, Church History 4.33 (npnf202, lines 14441-14459), and Jordanes, Getica (Mierow, lines 1648-1660): under the emperor Valens the Goths take this faith; Ulfila makes their letters and translates the Scriptures.",
+    "Ulfila's creed, in Auxentius of Durostorum (Kauffmann, lines 15308-15325): the Father \"alone unbegotten\"; the Son our Lord and God, \"subject and obedient in all things\" to the Father.",
+    "Third Council of Toledo, 589, anathema 1 (Collectio canonum Ecclesiae Hispanae, lines 36900-36904): the Gothic bishops of Spain curse all who hold \"the faith and communion that came from Arius\", held by them until then."
+  ],
+  "quotationOriginals": [
+    {
+      "modern": "We are persecuted because we said: the Son has a beginning, but God has no beginning.",
+      "printed": "Διωκόμεϑα δὲ ὅτι εἴπομεν, ᾿Δρχὴν ἔχει ὁ υἱὸς, ὁ δὲ ϑεὸς ἀναρχός ἐστι.",
+      "work": "Arius, Letter to Eusebius of Nicomedia, in Epiphanius, Panarion 69.6, ed. Franz Oehler; checked against Theodoret, Church History 1.4, in Nicene and Post-Nicene Fathers, second series, vol. 3 (lines 6045-6046)",
+      "file": "cic/texts/epiphanius_panarion-haer-48-69-corpus-haereseologicum-t2-pars-posterior-grc-lat_oehler1860.txt",
+      "lines": "45736-45738",
+      "uncertain": "The file is OCR, kept as it stands: ᾿Δρχὴν reads Ἀρχὴν, ἀναρχός reads ἄναρχός, and ϑ is the scan's θ; line 45737, inside the span, is scanned apparatus. \"We said\" follows the Greek aorist εἴπομεν; the English of Theodoret reads \"we say\".",
+      "secondReading": "same"
+    },
+    {
+      "modern": "begotten, not made",
+      "printed": "begotten (γεννηθέντα), not made",
+      "work": "The Creed of Nicaea, in Nicene and Post-Nicene Fathers, second series, vol. 14",
+      "file": "cic/texts/npnf214_seven-ecumenical-councils.xml",
+      "lines": "2411-2412",
+      "secondReading": "same"
+    },
+    {
+      "modern": "of one substance with the Father",
+      "printed": "of one substance (ὁμοούσιον, consubstantialem) with the Father",
+      "work": "The Creed of Nicaea, in Nicene and Post-Nicene Fathers, second series, vol. 14",
+      "file": "cic/texts/npnf214_seven-ecumenical-councils.xml",
+      "lines": "2412-2413",
+      "uncertain": "\"Of one substance\" renders ὁμοούσιον (homoousios). A listener may hear \"substance\" as material stuff; the brief's question, whether the Son is God in the same full sense as the Father, gives its sense.",
+      "secondReading": "minor"
+    },
+    {
+      "modern": "enemies of Christ",
+      "printed": "enemies of Christ",
+      "work": "Alexander of Alexandria, encyclical on the deposition of Arius, in Nicene and Post-Nicene Fathers, second series, vol. 4",
+      "file": "cic/texts/npnf204_athanasius-select-works-letters.xml",
+      "lines": "19018",
+      "secondReading": "minor"
+    },
+    {
+      "modern": "before he was begotten he was not",
+      "printed": "before he was begotten he was not",
+      "work": "The Creed of Nicaea, in Nicene and Post-Nicene Fathers, second series, vol. 14",
+      "file": "cic/texts/npnf214_seven-ecumenical-councils.xml",
+      "lines": "2422",
+      "secondReading": "same"
+    },
+    {
+      "modern": "We have not been followers of Arius. For how could we, who are bishops, follow a priest?",
+      "printed": "Ἡμεῖς οὔτε ἀκόλουθοι ' Apelov γεγόναμεν. πῶς γὰρ ἐπίσκοποι ὄντες ἀκολουθήσομενν πρεσβυτέρῳ ;",
+      "work": "The eastern bishops at Antioch, 341, in Socrates, Church History 2.10, ed. Robert Hussey; checked against Athanasius, De Synodis 22, in Nicene and Post-Nicene Fathers, second series, vol. 4 (npnf204, lines 57418-57419)",
+      "file": "cic/texts/socrates_historia-ecclesiastica-tomus1-grc-lat_hussey1853.txt",
+      "lines": "16658-16659",
+      "uncertain": "The file is OCR, kept as it stands: ' Apelov reads Ἀρείου, and ἀκολουθήσομενν reads ἀκολουθήσομεν. \"A priest\" renders πρεσβυτέρῳ, a presbyter.",
+      "secondReading": "same"
+    },
+    {
+      "modern": "substance",
+      "printed": "the term ousia [substance or essence], which was used by the fathers in a very simple and intelligible sense, but not being understood by the people, has been a cause of offense, we have thought proper to reject it, as it is not contained even in the sacred writings",
+      "work": "The creed of Constantinople, 360, in Socrates, Church History 2.41, in Nicene and Post-Nicene Fathers, second series, vol. 2",
+      "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml",
+      "lines": "9565-9571",
+      "uncertain": "\"Substance\" is the English term for the Greek ousia; \"being\" or \"essence\" is plainer.",
+      "secondReading": "minor"
+    },
+    {
+      "modern": "like the Father",
+      "printed": "we affirm that the Son is like the Father, in such a manner as the sacred Scriptures declare and teach",
+      "work": "The creed of Constantinople, 360, in Socrates, Church History 2.41, in Nicene and Post-Nicene Fathers, second series, vol. 2",
+      "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml",
+      "lines": "9573-9574",
+      "secondReading": "same"
+    },
+    {
+      "modern": "groaned, and was astonished to find itself Arian",
+      "printed": "The whole world groaned, and was astonished to find itself Arian.",
+      "work": "Jerome, Dialogue against the Luciferians 19, in Nicene and Post-Nicene Fathers, second series, vol. 6",
+      "file": "cic/texts/npnf206_jerome-principal-works.xml",
+      "lines": "32412-32413",
+      "uncertain": "Jerome, an opponent, writing about twenty years later, of the council of Ariminum in 359.",
+      "secondReading": "same"
+    },
+    {
+      "modern": "alone unbegotten",
+      "printed": "solum ingenitum",
+      "work": "Ulfila's creed, in Auxentius of Durostorum, Letter on the faith, life and death of Ulfila, ed. Friedrich Kauffmann, Aus der Schule des Wulfila (1899)",
+      "file": "cic/texts/auxentius-durostorum_epistula-de-fide-vita-obitu-wulfilae_kauffmann1899.txt",
+      "lines": "15310",
+      "uncertain": "The file is OCR. Solum may govern ingenitum alone or ingenitum et inuisiuilem together; the brief quotes only alone unbegotten.",
+      "secondReading": "same"
+    },
+    {
+      "modern": "subject and obedient in all things",
+      "printed": "et filium subditum et oboedientem suo in omnibus deo patri",
+      "work": "Ulfila's creed, in Auxentius of Durostorum, Letter on the faith, life and death of Ulfila, ed. Friedrich Kauffmann, Aus der Schule des Wulfila (1899)",
+      "file": "cic/texts/auxentius-durostorum_epistula-de-fide-vita-obitu-wulfilae_kauffmann1899.txt",
+      "lines": "15323-15325",
+      "uncertain": "The file is OCR. Subditum is subject in rank. The same words stand at lines 15322-15323 of the Holy Spirit, subject to the Son; the brief's are of the Son to the Father, on line 15324.",
+      "secondReading": "same"
+    },
+    {
+      "modern": "the faith and communion that came from Arius",
+      "printed": "Omnis ergo, qui fidem et communionem ab Ario venientem, et hucusque a nobis retentam adhuc tenere desiderat et de tota.cordis intentione non damnat, anathema sit.",
+      "work": "Third Council of Toledo (589), anathema 1, in Collectio canonum Ecclesiae Hispanae (Madrid, 1808)",
+      "file": "cic/texts/collectio-canonum-ecclesiae-hispanae-toledo-iii-lat_1808.txt",
+      "lines": "36900-36904",
+      "uncertain": "The file is OCR, kept as it stands, with line-break hyphens joined: tota.cordis reads tota cordis. Communio means church fellowship. Venientem is present (coming); the canon adds et hucusque a nobis retentam, held by us until now, so came also fits.",
+      "secondReading": "minor"
+    }
+  ]
+}

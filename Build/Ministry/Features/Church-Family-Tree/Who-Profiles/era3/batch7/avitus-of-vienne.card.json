@@ -1,0 +1,113 @@
+{
+  "name": "Avitus of Vienne",
+  "otherNames": [
+    "Alcimus Ecdicius Avitus",
+    "Alcimus Avitus"
+  ],
+  "knownFor": "Bishop of Vienne under the Burgundian kings, who argued the Catholic faith against the Arian church of King Gundobad, wrote to Clovis of the Franks at his baptism, and signed first at the council of Epaone in 517.",
+  "dates": "Born about 460, in Rudolf Peiper's estimate, which follows Binding and Jahn. Bishop of Vienne after his father Isicius; his Life puts this in the time of the emperor Zeno, and no source used here gives a year. He signed at the council of Epaone in 517. No source used here gives the year of his death; his Life puts it under the emperor Anastasius, which Peiper corrects to Justin. Peiper's index places it before 533, when Julian signs as bishop of Vienne at the council of Orléans. It places it after a homily at Geneva that Binding dates to the end of 525 or the start of 526. Peiper dates his latest letters to 517 or 518 and to about 518",
+  "place": "Vienne, in Gaul, in the kingdom of the Burgundian kings Gundobad and Sigismund",
+  "tradition": "Merovingian Gallic Christianity",
+  "role": "Bishop of Vienne; writer of letters, homilies and poems",
+  "briefLength": "about 2 minutes",
+  "keyWorks": [
+    {
+      "title": "Letters (Epistulae)",
+      "about": "letters to Clovis, Gundobad and Sigismund, to the popes of Rome and the bishop of Constantinople, and some written in Sigismund's name to the emperor; Gregory of Tours counts nine books of them"
+    },
+    {
+      "title": "Against the heresy of Eutyches (Contra Eutychianam haeresim), in two books",
+      "about": "written at King Gundobad's request, in Gregory of Tours's account, against Eutyches, who in O. M. Dalton's note recognized only the divine nature in Christ; Peiper dates them to 512 or 513"
+    },
+    {
+      "title": "Poems, in six books",
+      "about": "five books in heroic verse, from the origin of the world to the crossing of the Red Sea, and a sixth in praise of virginity for his sister Fuscina, as Isidore of Seville lists them"
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "He called the bishops of his province to the council of Epaone in 517, writing that the pope of Rome had sent him sharp letters because councils had been left unheld. He signed its canons first, and one of them refused to put the churches of heretics to holy use.",
+      "In 501, in Peiper's date, he wrote to the Roman senators Faustus and Symmachus about the wrong done to Pope Symmachus. If the pope of Rome is called in doubt, he warned, the whole order of bishops will seem to waver.",
+      "His letter to Clovis is one of the three early witnesses that O. M. Dalton weighs when he dates the Frankish king's baptism."
+    ],
+    "remembered": [
+      "Agobard of Lyon, writing in the ninth century, calls him Catholic in faith, most eloquent, and most learned in the letters of the world as well.",
+      "His epitaph, which Peiper prints, says no orator and no poet was his equal.",
+      "The martyrology of Ado of Vienne keeps his day on the Nones of February, and says his faith and teaching defended Gaul from the Arian heresy in King Gundobad's time."
+    ]
+  },
+  "uncertain": [
+    "His years. No source used here gives the year he died. His Life says it was while Anastasius was still emperor; Rudolf Peiper corrects this to Justin and calls the Life's emperor an error. Peiper's index puts his death before 533, when Julian signs as bishop of Vienne at the council of Orléans. It also puts it after the end of 525 or the start of 526, when he preached at the dedication of a church at Geneva. That homily's date is Binding's, and Peiper's preface puts all the Geneva letters and homilies between 513 and 516. Peiper's birth year, about 460, is an estimate that follows Binding and Jahn. No source used here gives the year he became bishop; his Life puts it in the time of the emperor Zeno.",
+    "The scene with Gundobad. It is known from Gregory of Tours, a Catholic bishop writing later in the same century, who calls the king's refusal madness. Peiper prints Gregory's chapter first among the remains of Avitus's dialogues with the king.",
+    "Clovis's baptism. Peiper dates the letter to 496 or 497. O. M. Dalton holds with Kurth, d'Arbois de Jubainville and Levillain for Reims at Christmas 496; Bruno Krusch argued for the church of Saint Martin at Tours in 507 or 508. Dalton notes that none of the three early witnesses names the place. Avitus says only that the king was reborn on the day the world received its Lord.",
+    "Sigismund's conversion. Agobard of Lyon says Avitus turned Sigismund to the Catholic faith once Gundobad was lost in his unbelief, and the Life says he taught him after an exile. Peiper dates Avitus's letter to the pope of Rome about Sigismund's conversion, with a query, to between 513 and 516, while Gundobad was alive. The chronicle of Marius of Avenches, which Peiper cites, has Sigismund building the monastery of Agaune in 515 and Gundobad dying in 516.",
+    "The Life. Peiper says its second to fourth chapters are copied from the Life of his brother Apollinaris. Peiper thinks it older than Ado of Vienne and written in Gregory of Tours's time; Binding thought it worthless and copied from Ado. The Life says Avitus grieved over Sigismund's killing. Peiper gives that grief to a namesake, the abbot Avitus of Micy near Orléans, whom Gregory of Tours shows pleading with King Chlodomer for Sigismund's life.",
+    "Faustus. Ado of Vienne says Avitus wrote against Faustus, bishop of Riez. Louis Duchesne says Avitus took the Faustus he answered to be Faustus the Manichaean, and held the bishop of Riez in the highest regard.",
+    "A debate at Lyon. A Collation of the bishops before King Gundobad, with Avitus as the bishops' speaker against the Arians, is known only from the manuscript papers of Hieronymus Vignier, printed by d'Achery. Peiper says neither Maassen nor Thiel found a manuscript of it. Peiper prints it in his appendix and thinks it keeps some likeness of a meeting held in 499."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "Opera: letters, Against Eutyches, dialogue fragments, homilies, poems, Monumenta Germaniae Historica, Auctores antiquissimi 6.2 (ed. Rudolf Peiper)",
+        "language": "Latin",
+        "file": "cic/texts/avitus-vienne_opera-mgh-aa-6-2-lat_peiper1883.txt"
+      },
+      {
+        "title": "Letter summoning the bishops to the council of Epaone, with the council's acts, Monumenta Germaniae Historica, Concilia 1 (ed. Friedrich Maassen)",
+        "language": "Latin",
+        "file": "cic/texts/concilia-aevi-merovingici-mgh-concilia-1-lat_maassen1893.txt"
+      }
+    ],
+    "about": [
+      {
+        "title": "History of the Franks, book II, chapter 34, with notes (tr. O. M. Dalton)",
+        "author": "Gregory of Tours",
+        "date": "1927",
+        "language": "English translation",
+        "file": "cic/texts/gregory-tours_history-of-the-franks-v2_dalton1927.txt"
+      },
+      {
+        "title": "Life of Avitus, and testimonies of Ado of Vienne, Agobard of Lyon and others (in Peiper's edition)",
+        "author": "Anonymous; Ado of Vienne; Agobard of Lyon",
+        "date": null,
+        "language": "Latin",
+        "file": "cic/texts/avitus-vienne_opera-mgh-aa-6-2-lat_peiper1883.txt"
+      },
+      {
+        "title": "Prooemium, chronology of the letters and index of persons",
+        "author": "Rudolf Peiper",
+        "date": "1883",
+        "language": "Latin",
+        "file": "cic/texts/avitus-vienne_opera-mgh-aa-6-2-lat_peiper1883.txt"
+      },
+      {
+        "title": "Famous Men (De viris illustribus), chapter 36 (in Patrologia Latina 83)",
+        "author": "Isidore of Seville",
+        "date": null,
+        "language": "Latin",
+        "file": "cic/texts/isidore-seville_sententiae-eccl-officiis-historia-gothorum-pl83-lat_migne1860.txt"
+      },
+      {
+        "title": "Introductions to the Passion of the martyrs of Agaune and to Hincmar's Life of Remigius, Monumenta Germaniae Historica, Scriptores rerum Merovingicarum 3",
+        "author": "Bruno Krusch",
+        "date": "1896",
+        "language": "Latin",
+        "file": "cic/texts/passiones-vitaeque-sanctorum-merovingici-mgh-srm-3-lat_krusch1896.txt"
+      },
+      {
+        "title": "Chronicle, in Chronica minora 2 (ed. Theodor Mommsen)",
+        "author": "Marius of Avenches",
+        "date": null,
+        "language": "Latin",
+        "file": "cic/texts/chronica-minora-2_marcellinus-victor-tunnunensis-biclaro-isidore-mgh-aa-11-lat_mommsen1894.txt"
+      },
+      {
+        "title": "Histoire ancienne de l'Eglise, volume 3",
+        "author": "Louis Duchesne",
+        "date": "1910",
+        "language": "French",
+        "file": "cic/texts/duchesne_histoire-ancienne-de-leglise-tome3-fra_2e-ed1910.txt"
+      }
+    ]
+  }
+}

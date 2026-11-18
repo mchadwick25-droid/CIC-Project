@@ -1,0 +1,171 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "rzg.witness.a-quieted-mind"
+   ],
+   "sentence": "Yes, our confession turns a mind that will not settle away from searching harder within."
+  },
+  {
+   "record_ids": [
+    "rzg.witness.a-quieted-mind"
+   ],
+   "sentence": "Our confession rejected those who ask whether they are chosen apart from Christ."
+  },
+  {
+   "record_ids": [
+    "rzg.witness.a-quieted-mind"
+   ],
+   "sentence": "The confession named Christ as the mirror in which we see our election."
+  },
+  {
+   "record_ids": [
+    "rzg.witness.a-quieted-mind"
+   ],
+   "sentence": "A mind turned only on itself finds more of itself, and no bottom to it."
+  },
+  {
+   "record_ids": [
+    "rzg.witness.a-quieted-mind"
+   ],
+   "sentence": "So we turned the mind outward toward Christ, once, rather than toward the self, endlessly."
+  },
+  {
+   "record_ids": [
+    "rzg.quote.christ-the-mirror-of-election"
+   ],
+   "sentence": "In today's English, Heinrich Bullinger says: “We reject those who try to find out, apart from Christ, whether they are chosen. ... Let ... Christ be the mirror in which we look at our predestination.”"
+  },
+  {
+   "record_ids": [
+    "rzg.gravity.sovereignty-of-god-predestination-election"
+   ],
+   "sentence": "God's free choice, made before the world existed, is held as the ground of a settled life and not as a threat."
+  },
+  {
+   "record_ids": [
+    "rzg.gravity.sovereignty-of-god-predestination-election"
+   ],
+   "sentence": "Whoever is joined to Christ by true faith already has, in that faith, the only evidence of election anyone is given."
+  }
+ ],
+ "citations": [
+  "rzg.gravity.sovereignty-of-god-predestination-election",
+  "rzg.quote.christ-the-mirror-of-election",
+  "rzg.witness.a-quieted-mind"
+ ],
+ "group": "A",
+ "id": "q019",
+ "net_sentences": [
+  {
+   "draft": "Yes, our confession turns a mind that will not settle away from searching harder within [[rzg.witness.a-quieted-mind]] [[as:paraphrase]].",
+   "sentence": "Yes, our confession turns a mind that will not settle away from searching harder within.",
+   "tags": [
+    "rzg.witness.a-quieted-mind"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Our confession rejected those who ask whether they are chosen apart from Christ [[rzg.witness.a-quieted-mind]] [[as:paraphrase]].",
+   "sentence": "Our confession rejected those who ask whether they are chosen apart from Christ.",
+   "tags": [
+    "rzg.witness.a-quieted-mind"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "The confession named Christ as the mirror in which we see our election [[rzg.witness.a-quieted-mind]] [[as:paraphrase]].",
+   "sentence": "The confession named Christ as the mirror in which we see our election.",
+   "tags": [
+    "rzg.witness.a-quieted-mind"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "A mind turned only on itself finds more of itself, and no bottom to it [[rzg.witness.a-quieted-mind]] [[as:paraphrase]].",
+   "sentence": "A mind turned only on itself finds more of itself, and no bottom to it.",
+   "tags": [
+    "rzg.witness.a-quieted-mind"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "So we turned the mind outward toward Christ, once, rather than toward the self, endlessly [[rzg.witness.a-quieted-mind]] [[as:paraphrase]].",
+   "sentence": "So we turned the mind outward toward Christ, once, rather than toward the self, endlessly.",
+   "tags": [
+    "rzg.witness.a-quieted-mind"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Heinrich Bullinger wrote: [[quote:rzg.quote.christ-the-mirror-of-election]]",
+   "placed_quote": "rzg.quote.christ-the-mirror-of-election",
+   "sentence": "In today's English, Heinrich Bullinger says: “We reject those who try to find out, apart from Christ, whether they are chosen. ... Let ... Christ be the mirror in which we look at our predestination.”",
+   "tags": [
+    "rzg.quote.christ-the-mirror-of-election"
+   ],
+   "verdict": "ok",
+   "why": "quote placed by code, verbatim to its record"
+  },
+  {
+   "draft": "God's free choice, made before the world existed, is held as the ground of a settled life and not as a threat [[rzg.gravity.sovereignty-of-god-predestination-election]] [[as:paraphrase]].",
+   "sentence": "God's free choice, made before the world existed, is held as the ground of a settled life and not as a threat.",
+   "tags": [
+    "rzg.gravity.sovereignty-of-god-predestination-election"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Whoever is joined to Christ by true faith already has, in that faith, the only evidence of election anyone is given [[rzg.gravity.sovereignty-of-god-predestination-election]] [[as:paraphrase]].",
+   "sentence": "Whoever is joined to Christ by true faith already has, in that faith, the only evidence of election anyone is given.",
+   "tags": [
+    "rzg.gravity.sovereignty-of-god-predestination-election"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  }
+ ],
+ "offered": [
+  "rzg.witness.a-quieted-mind",
+  "rzg.term.reformation",
+  "rzg.quote.christ-the-mirror-of-election",
+  "rzg.gravity.sovereignty-of-god-predestination-election",
+  "rzg.force.synod-of-dort-international-dimension",
+  "rzg.witness.what-we-have-not-agreed",
+  "rzg.gravity.council-led-authority-vs-consistorial-independence",
+  "rzg.gravity.zwinglis-remembrance-reading-vs-negotiated-consensus",
+  "rzg.force.perrinist-crisis"
+ ],
+ "raw_text": "Yes, our confession turns a mind that will not settle away from searching harder within [[rzg.witness.a-quieted-mind]] [[as:paraphrase]].\nOur confession rejected those who ask whether they are chosen apart from Christ [[rzg.witness.a-quieted-mind]] [[as:paraphrase]].\nThe confession named Christ as the mirror in which we see our election [[rzg.witness.a-quieted-mind]] [[as:paraphrase]].\nA mind turned only on itself finds more of itself, and no bottom to it [[rzg.witness.a-quieted-mind]] [[as:paraphrase]].\nSo we turned the mind outward toward Christ, once, rather than toward the self, endlessly [[rzg.witness.a-quieted-mind]] [[as:paraphrase]].\nHeinrich Bullinger wrote: [[quote:rzg.quote.christ-the-mirror-of-election]]\nGod's free choice, made before the world existed, is held as the ground of a settled life and not as a threat [[rzg.gravity.sovereignty-of-god-predestination-election]] [[as:paraphrase]].\nWhoever is joined to Christ by true faith already has, in that faith, the only evidence of election anyone is given [[rzg.gravity.sovereignty-of-god-predestination-election]] [[as:paraphrase]].\n",
+ "reply_shape": {
+  "placed": [
+   "rzg.quote.christ-the-mirror-of-election"
+  ],
+  "removed": [],
+  "repaired": [
+   {
+    "draft": "Heinrich Bullinger wrote: [[quote:rzg.quote.christ-the-mirror-of-election]]",
+    "lead_in": "In today's English, Heinrich Bullinger says",
+    "unresolved": [
+     {
+      "detail": "wrote",
+      "kind": "genre"
+     }
+    ],
+    "why": "lead-in stated a detail no source document supports; replaced by code's"
+   }
+  ]
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": "C14.S8",
+ "text": "Yes, our confession turns a mind that will not settle away from searching harder within. Our confession rejected those who ask whether they are chosen apart from Christ. The confession named Christ as the mirror in which we see our election. A mind turned only on itself finds more of itself, and no bottom to it. So we turned the mind outward toward Christ, once, rather than toward the self, endlessly. In today's English, Heinrich Bullinger says: “We reject those who try to find out, apart from Christ, whether they are chosen. ... Let ... Christ be the mirror in which we look at our predestination.”\n\nGod's free choice, made before the world existed, is held as the ground of a settled life and not as a threat. Whoever is joined to Christ by true faith already has, in that faith, the only evidence of election anyone is given.",
+ "voice_set_aside": false
+}

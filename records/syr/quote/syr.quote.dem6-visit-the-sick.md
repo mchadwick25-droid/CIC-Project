@@ -15,7 +15,7 @@ confidence:
   divergence_note: null
 sources:
 - source_id: syr.source.aphrahat-select-demonstrations
-  locus: VI (the covenant exhortation)
+  locus: "VI (the covenant exhortation) (cic/texts/npnf213_gregory-great-ephraim-syrus-aphrahat.xml, lines 25658-25659)"
   license: public-domain
 text: Let us visit our Lord in the persons of the sick
 modern_rendering: >-
@@ -31,7 +31,7 @@ retrieval:
 use_note:
   means: "Aphrahat, in the covenant exhortation of Demonstration VI, urges his hearers to visit the Lord in the persons of the sick."
   not_for:
-    - "evidence of organised hospitals or a standing care institution"
+    - "evidence of organized hospitals or a standing care institution"
     - "a report of what members actually did rather than an exhortation to do it"
   years: {from: 337, to: 337}
   status: reviewed

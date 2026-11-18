@@ -19,6 +19,46 @@ works:
   confidence: provisional
   note: The nineteenth-century patriarchs' acts; provisional for the successor world.
   source_file: gedeon_kanonikai-diataxeis-v1-grc_1888.txt
+- row_id: pharmakidis_oikonomos-ho-ex-oikonomon-ell_1849--work
+  work: ΟΙΚΟΝΟΜΟΣ Ο ΕΞ ΟΙΚΟΝΟΜΩΝ Η ΠΕΡΙ ΟΡΚΟΥ
+  author: pharmakidis
+  locus: the whole volume; not mapped
+  role: tradition
+  confidence: provisional
+  language: ell
+  date:
+    start: 1849
+    end: 1849
+    source: 'the printing''s own title page: read on the scan''s page image, leaf n7; the
+      OCR does not give it cleanly'
+    formation_confidence: Documented
+  edition_date:
+    year: 1849
+    source: read on the scan's page image, leaf n7; the OCR does not give it cleanly
+    formation_confidence: Documented
+  note: 'Era 9 rows 300 and 301, Theoklitos Pharmakidis: a pamphlet against Konstantinos Oikonomos.
+    The title page names no author; the archive.org record names Theokletos Pharmakides.'
+  source_file: pharmakidis_oikonomos-ho-ex-oikonomon-ell_1849.txt
+- row_id: scheffler_das-bulgarische-exarchat-und-der-mazedonische-kirchenstreit-deu_1909--das-bulgarische-exarchat-und-der-mazedonische-kirchenstreit
+  work: Das Bulgarische Exarchat und der Mazedonische Kirchenstreit. Inaugural-Dissertation
+    zur Erlangung der
+  author: scheffler
+  locus: the firman of 11 March 1870 in German, articles 1-11, at lines 1117-1263; the election
+    of the exarch Anthimos and the events of 1872 at lines 1319-1347; the rest not mapped
+  role: context
+  confidence: provisional
+  language: deu
+  date:
+    start: 1909
+    end: 1909
+    source: 'the printing''s own title page: line 46 of this file, on the title page'
+    formation_confidence: Documented
+  edition_date:
+    year: 1909
+    source: line 46 of this file, on the title page
+    formation_confidence: Documented
+  note: 'Era 9 row 302, Antim I: the firman of 1870 in German, in a dissertation.'
+  source_file: scheffler_das-bulgarische-exarchat-und-der-mazedonische-kirchenstreit-deu_1909.txt
 - row_id: walsh_residence-at-constantinople-v1_1836--a-residence-at-constantinople-vol-1-walsh-1836
   work: A Residence at Constantinople, vol. 1 (Walsh, 1836)
   author: walsh

@@ -16,7 +16,7 @@ confidence:
     the rival Caecilianist line (Doc_05 SS4) -- and undisputed by the hostile sources that report it. What no
     source supplies is the office from inside: how a primate was chosen, what his authority over the other bishops
     actually consisted of in practice, and how the office understood itself. Monceaux''s remark that in this communion
-    ''only the primate spoke in the party''s name'' (Doc_02 SS1) is a modern characterisation, not a quoted Donatist
+    ''only the primate spoke in the party''s name'' (Doc_02 SS1) is a modern characterization, not a quoted Donatist
     statement of the office''s own powers.'
 sources:
 - source_id: don.source.optatus-against-the-donatists

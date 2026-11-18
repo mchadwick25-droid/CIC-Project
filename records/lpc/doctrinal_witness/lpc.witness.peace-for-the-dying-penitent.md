@@ -67,6 +67,6 @@ text: Cyprian wrote to his presbyters and deacons about the sick. Summer had com
   sickness and danger, should not wait for his coming. They could confess before any presbyter who
   was present. If no presbyter was found and death drew near, they could confess before a deacon.
   Then hands would be laid on them for repentance, and they would go to the Lord with the peace the martyrs had asked for. In another letter he spoke of a council. It had decided that penitents in peril of
-  sickness should be assisted and have peace granted to them. Cyprian does not name that council or say when it met.
+  sickness should be assisted and have peace granted to them.
 ---
 Grounded directly in Cyprian, Epistle XII section 1 and Epistle LII section 2 -- verified against the vendored files at the lines above. Each quoted clause is the ANF English word for word, at lpc.quote.before-even-a-deacon and lpc.quote.penitents-in-peril-of-sickness-should-be-assisted. This record is for questions about what was done for a penitent in danger of death. It gives the provision the record holds; it makes no claim about how often it was used.

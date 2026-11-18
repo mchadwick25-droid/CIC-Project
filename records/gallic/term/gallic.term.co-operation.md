@@ -35,9 +35,9 @@ retrieval:
   retrieve_when:
   - how grace and effort "work together"
   - whether the monks were "synergists"
-  - what God does while the monk labours, or how they prayed about it
+  - what God does while the monk labors, or how they prayed about it
   - participant uses "cooperate," "synergy," "synergism," "work together," "help," "God helps those who help themselves"
-  - Conf. XIII.13; "Not I, but the grace of God with me"; the titles Protector, Saviour, Helper, Sponsor
+  - Conf. XIII.13; "Not I, but the grace of God with me"; the titles Protector, Savior, Helper, Sponsor
   prefer_instead:
   - the broader doctrine is the question (retrieve grace (of God))
   - the participant means the modern label "synergism" as a confessional position to affirm or refute
@@ -88,8 +88,8 @@ senses:
     verb in this sense, and the Lerins side (Faustus) is unread. No Augustine passage is needed
     here.
   personal: >-
-    This is not a theory of shares - so much God's, so much mine. It is what a labouring monk finds:
-    that grace works with his labour and helps it, and he names God twice for the two moments.
+    This is not a theory of shares - so much God's, so much mine. It is what a laboring monk finds:
+    that grace works with his labor and helps it, and he names God twice for the two moments.
   translational: >-
     A modern hearer may reach for "synergism" or "God helps those who help themselves." Neither is
     what we mean. Our word names an experience prayed before it was argued - grace that works with
@@ -111,7 +111,7 @@ use_note:
 Built from Doc_06 entry 045 (`galliclex045_co-operation.md`, Tier 2, tags SC TC DR; Doc_03 5.6).
 CT tag not applied per Doc_06 section 3 (the "synergism" gap is a distortion risk) - carried here as
 false_friend and distortion_risk: high. Doc_03 5.6's flag that Doc_01 section 7 used "synergy"
-analytically is honoured: the record's own vocabulary is "co-operate," never "synergy."
+analytically is honored: the record's own vocabulary is "co-operate," never "synergy."
 
 Related-Terms also names grace (of God), free will, humility, combat / athlete, unceasing prayer /
 the canonical system, and purity of heart - cross-batch at authoring time, added as relations (typed

@@ -1,0 +1,147 @@
+{
+ "round": 2,
+ "kind": "targeted recheck",
+ "verdict": "revise",
+ "counts": {
+  "blocking": 0,
+  "substantial": 1,
+  "minor": 2,
+  "round1_fixed": 21,
+  "round1_partly": 0,
+  "round1_not_fixed": 0
+ },
+ "round1_status": [
+  {
+   "id": "R1-01",
+   "status": "fixed",
+   "note": "The census now keeps file, lines, locus, quote and license on secondaries. 66 era-7-touching secondaries carry a locus. Every quote is verbatim at its lines once whitespace runs are squashed. No era-7 link has an identical duplicate source."
+  },
+  {
+   "id": "R1-02",
+   "status": "fixed",
+   "note": "kongo--antonian is now Inferential-Thin, with the reviewer's note. Lopes 3511-3514 shows the 1491 arrival. The relationsSummary is qualified ('may have grown out of it, as one modern study holds')."
+  },
+  {
+   "id": "R1-03",
+   "status": "fixed",
+   "note": "Regraded to Inferential-Thin. Sotelo 6913-6914 and Cocks 2588-2590 support the note. The qualifier 'Later studies hold' is in the kirishitan relationsSummary, why and teaser and in the label's why and legacy. No era-7 field states the hidden survival as plain fact."
+  },
+  {
+   "id": "R1-04",
+   "status": "fixed",
+   "note": "Regraded to Inferential-Thin, with the reviewer's note. Motolinia 8541-8542 and Gage 11083-11085 support it. '1524' is not at the quoted lines, but the edition's own introduction in the same file gives it (line 289). It is unchanged from round 1."
+  },
+  {
+   "id": "R1-05",
+   "status": "fixed",
+   "note": "The outcomes and outcome_loci are dropped on lutheran--scandinavian, geneva--scottish, geneva--huguenots and geneva--dutch, each with outcome_considered. The Emden source is gone from geneva--dutch. The class question is with Mark. But origin/main (era 6, PR #1544) now publishes an outcome on hieronymian--tridentine (Trent's Vulgate decree), one of the six links in the class. See R2-01."
+  },
+  {
+   "id": "R1-06",
+   "status": "fixed",
+   "note": "Outcome dropped on tridentine--carmelite; outcome_considered recorded."
+  },
+  {
+   "id": "R1-07",
+   "status": "fixed",
+   "note": "Outcome dropped on kyiv--brest. The new note matches Susza 3737-3752: four priests came from the Peczarski synod to Smotrytsky at St Michael's, and the date '13 augusti' is at line 3737."
+  },
+  {
+   "id": "R1-08",
+   "status": "fixed",
+   "note": "All seven notes are rewritten and each scores FRE >= 60 and FK <= 10 (lowest kyiv--brest 61.4/8.4). The reviser dropped 'October 1529' from lutheran--geneva because neither listed source dates the colloquy. That is correct."
+  },
+  {
+   "id": "R1-09",
+   "status": "fixed",
+   "note": "The five new continued-as links are checked at their lines. (a) Paul of Aleppo 18921-18923 and Ligarides 5414-5415 show Nikon elected to follow Joseph: Documented holds. (b) Rupniewski 1728, at Harasiewicz 19758-19772, and Harasiewicz's list 13288-13296 (cited in Build dossiers, read at its lines): WA holds. (c) Zakaria 3214-3216 and Ormanian 4373-4374 and 4578-4581: WA holds. (d) Jerusalem 1672 at 4132-4135, 4171-4172, 3440-3441, 3894-3895 and 4201-4205: Documented holds. (e) Paris assembly 1699 at 2007-2011 and 1411-1419; the speaker is the archbishop ('Monseigneur l'Archevêque a ajouté', line 1985): Documented holds. The dispositions are corrected and the Brest relationsSummary is qualified."
+  },
+  {
+   "id": "R1-10",
+   "status": "fixed",
+   "note": "The Anabaptist relationsSummary has the reviewer's wording (62.6/6.6)."
+  },
+  {
+   "id": "R1-11",
+   "status": "fixed",
+   "note": "Both ids now match origin/main exactly. The other shared ids now conflict with the merged era-6 versions. That is a new merge problem, given as R2-01."
+  },
+  {
+   "id": "R1-12",
+   "status": "fixed",
+   "note": "(1) to (5) are carried out. The Fuller locus that carried narration is cleared. The step-3 grep is clean (see checked)."
+  },
+  {
+   "id": "R1-13",
+   "status": "fixed",
+   "note": "english--tridentine and english--recusant are split. No note sentence passes 25 words. Five rewritten notes run to four sentences, all in the reviewer's own proposed text. The untouched long notes are deferred, as the finding allowed."
+  },
+  {
+   "id": "R1-14",
+   "status": "fixed",
+   "note": "The quote is extended to 1981-1983 and now includes Peter Gilbert. The note names two men."
+  },
+  {
+   "id": "R1-15",
+   "status": "fixed",
+   "note": "Voetius dedication 906-907 is added. The quote is verbatim."
+  },
+  {
+   "id": "R1-16",
+   "status": "fixed",
+   "note": "Both outcomes are reworded. The Humiliati outcome matches the bull at 92832-92843. The recusant outcome's 'law of the last parliament' rests on 15386-15388 ('after the Session of the last parliament'), a fair reading of the record. Main has a different Humiliati outcome; see R2-01."
+  },
+  {
+   "id": "R1-17",
+   "status": "fixed",
+   "note": "'in 386' removed. Augustine is quoted (13770-13773)."
+  },
+  {
+   "id": "R1-18",
+   "status": "fixed",
+   "note": "The note gives the martyr book's lines as the book quoting another writer, and keeps them apart from Trent's canon (14242-14246)."
+  },
+  {
+   "id": "R1-19",
+   "status": "fixed",
+   "note": "Flagged to the owning thread in for_open_gaps, as the finding's own fix directed. The one fragment in a rewritten field (Family of Love longDescription) is repaired."
+  },
+  {
+   "id": "R1-20",
+   "status": "fixed",
+   "note": "'1580' is gone from every public era-7 field and source string. It remains only in outcome_considered, which is in the drafting record only."
+  },
+  {
+   "id": "R1-21",
+   "status": "fixed",
+   "note": "Whitehouse 9991-9994 and Howard 3054-3058 now carry quotes, both verbatim. The Ethiopian id is now era 6's version, with no Ludolf."
+  }
+ ],
+ "findings": [
+  {
+   "id": "R2-01",
+   "target": "branch census against current origin/main (era 6 merged, PR #1544): 36 missing links and 7 ids published in two versions",
+   "severity": "substantial",
+   "issue": "Era 6 merged to main after this branch was cut. Validating against origin/main gives 36 errors, every one 'published and is gone without a retiredLinks entry'. The branch lacks era 6's 36 new links. Seven of them touch era 7: devotio-moderna--jesuits, english-mystics--recusant, english--late-medieval-lay-parish-piety, lollardy--english, hussite--lutheran, latin-papal--tridentine and muscovite-monastic--russian-stoglav. Against the merge base the validator gives 0 errors. Main and this branch both changed six era-7-touching ids, so one published id would hold two versions. Five differ in note and sources: armenian-cilicia--new-julfa, byzantine-palaiologan--ottoman, rhineland--lutheran, st-thomas-1300--st-thomas and hussite--czech. On the-tridentine-church--the-humiliati, main's outcome is 'Pope Pius V put an end to the order of Humiliati brothers. He also did away with its general, its heads in each province and all its statutes.' The branch has the R1-16 text instead. Both are faithful to the bull (92832-92843). A seventh id, hieronymian-ascetic-literary--the-tridentine-church, changed on main only. Main now publishes an outcome there for Trent's Vulgate decree, the class that R1-05 judged a text taken up and sent to Mark. A plain merge would put that outcome live, while this branch drops four others of the same class. The class would then be split one to five before Mark rules.",
+   "evidence": "node tools/validate-census.mjs --base <origin/main census> : 36 errors, 2 warnings; --base <merge-base census> : 0 errors. Field diff of branch, merge base and origin/main edges for every era-7-touching id.",
+   "fix": "Merge origin/main into the branch with git, not by hand-copying, so that all 36 era-6 links come in. For each of the five note-and-sources conflicts, keep main's published version. It passed era 6's two review rounds. The branch's version may replace it only as a named change order, with the evidence compared. For the Humiliati outcome, keep main's text: 'Pope Pius V put an end to the order of Humiliati brothers. He also did away with its general, its heads in each province and all its statutes.' (FRE 71.8, FK 6.7). It names the same result and needs no change of locus. For hieronymian--tridentine, keep main's outcome until Mark rules. Add this sentence to the 'Outcome test, adoption by vote' entry: 'Origin/main (era 6, PR #1544) already publishes an outcome on hieronymian--tridentine, so the class stands one with an outcome and five without until Mark rules.' Then check the 7 merged era-6 links that touch era 7 against this branch's links for duplicate or contradictory claims, as the existing for_open_gaps entry asks. Re-run node tools/validate-census.mjs --base <origin/main census> and get 0 errors."
+  },
+  {
+   "id": "R2-02",
+   "target": "the-society-of-jesus--the-kyiv-mohyla-orthodox-revival (note)",
+   "severity": "minor",
+   "issue": "The note says more than its two read sources show. Pinkerton (660-663) says the Kyiv academy was founded 'after the manner of the Polish schools'. He does not say Jesuit colleges. Pinkerton writes in 1814 and Golubev in 1883, so neither speaks for 'historians' today. Golubev (18351-18355) says that the outer polish of scholastic learning, rhetorical phrases and clever speech, proper to Western and above all Jesuit colleges, at once ('сразу же') took deep root in the Mohyla college. 'Came straight from Western colleges' turns 'at once took root' into a claim about direct origin.",
+   "evidence": "cic/texts/platon_present-state-of-the-greek-church-in-russia_pinkerton1814.txt:660-663; cic/texts/golubev_petr-mogila-i-ego-spodvizhniki-t1-rus_1883.txt:18349-18356",
+   "fix": "A memoir printed in 1814 says the Kyiv academy was set up after the manner of the Polish schools, and Latin became its main language. In 1883 the historian Stefan Golubev wrote about the college. He said the showy learning and clever speech of Western colleges, the Jesuit ones above all, took deep root there at once. (FRE 62.1, FK 9.2; grade, type and sources unchanged)"
+  },
+  {
+   "id": "R2-03",
+   "target": "the-society-of-jesus--ethiopian-christianity-gragn-to-fasilides, Ludolf secondary (added in this revision for R1-12(4))",
+   "severity": "minor",
+   "issue": "The new Ludolf quote is 47 words. The source rule allows about 40.",
+   "evidence": "cic/texts/ludolf_new-history-of-ethiopia_jp1682.txt:10018-10022",
+   "fix": "lines: \"10019-10022\"; quote: \"at the Request of the King went to Court, and so oblig'd him with several Discourses concerning Martcers as well Ecclesiastical as Civil , that at farst privately, chen publickly he embrac'd the Latin Religion,\" (35 words; verbatim at those lines with whitespace squashed)."
+  }
+ ],
+ "checked": "Read CLAUDE.md, Era7_Brief, the Drafting_Brief, Opus_Review_Round1 and Revision_Round1. All 35 revision links match the census edges in type, grade, note, outcome and sources, apart from null source_id or locus keys. For every rewritten and new link I opened each listed file at its lines, with 2-4 lines of context. I checked each note fact against those lines, and further context where a fact lay outside them (Susza 3715-3752, Anjou 14070-14088, Formula of Concord 'Sacramentarians' 26638 on, the Paris procès-verbal 1420-1470 and 1960-2007, the Ligarides header, the Zakaria header, Motolinia 8543-8560). The grades hold. No unread secondary raises a grade. Harasiewicz, Ormanian, Golubev, Anjou, Ludolf, Lamy, Whitehouse and Howard are read at their lines, and Harasiewicz is cited in Build dossiers. All 11 prose changes are in the census as written. I scored them, every rewritten or new note, and all outcomes with engine.m7.turn_readability: all pass FRE >= 60 and FK <= 10. The lowest are mission-born why 60.9/8.2 and the russian-nikon note 60.5/8.4. No sentence passes 25 words. The step-3 grep ran over all notes, outcomes and source work and locus strings of the 100 edges touching the 34 era-7 movements, and the five prose fields of those movements. Pattern: we hold|we have|vendored|not checked|not read|census|entry|record|this pass|cited here|cited in|Build/|link|grade|named-not. A second pass looked for .txt|.xml|(file|cic/. No build narration is left. Every hit is a false positive: historical 'records' (Egli and Pollen work strings, lutheran.why, scottish.why, three teasers), 'gentry' in recusant.longDescription, 'cannot read' in kyiv.longDescription and why, and Lamy's 'series III, first entry' in a work string, which means an entry in Lamy's own list. The 15 outcomes each name an institutional act: a council law and sentence, papal bulls, a council canon, a church split, parliamentary acts, treason convictions under statute, a city sentence, a provincial levy, synodal anathemas, a bull of union, the founding of a patriarchate, the Diamper decrees, and a papal appointment that made rival patriarchs. Each locus lies within about 60 lines of a listed quote (the widest is Assemani, 30 lines). Each is under 30 words (the longest is 28) and ends with a full stop. I re-opened the loci for Mirbt 15500-15513, Knox II 5170-5187, McGlothlin 2770-2792 and the Humiliati bull 92836-92845. 66 secondary quotes with a locus on era-7-touching edges are all verbatim at their lines. Over 40 words: one new (R2-03), and two older ones not touched in this revision (geneva--remonstrants 47, tridentine--carmelite Zimmerman 41). The validator with no base gives 0 errors and 2 warnings. Against origin/main it gives 36 errors (R2-01); against the merge base, 0. I did not re-check the 13 era-7 links kept unchanged from earlier passes, apart from the grep, nor the dispositions beyond the 13 changed ones."
+}

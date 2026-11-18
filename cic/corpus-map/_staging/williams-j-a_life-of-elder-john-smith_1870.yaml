@@ -1,0 +1,21 @@
+source_file: williams-j-a_life-of-elder-john-smith_1870.txt
+assignments:
+- row_id: williams-j-a_life-of-elder-john-smith_1870--life-of-elder-john-smith-with-some-account-of-the-rise-and
+  work: Life of Elder John Smith, with some account of the rise and progress of the current reformation
+  author: williams-j-a
+  locus: the whole volume; not mapped
+  atlas_ids:
+  - the-stone-campbell-restoration-movement
+  role: context
+  confidence: provisional
+  language: eng
+  date:
+    start: 1870
+    end: 1870
+    source: 'the printing''s own title page: line 58, on the title page'
+    formation_confidence: Documented
+  edition_date:
+    year: 1870
+    source: line 58, on the title page
+    formation_confidence: Documented
+  note: 'Era 9 row 228, ''Raccoon'' John Smith: a Life told by another.'

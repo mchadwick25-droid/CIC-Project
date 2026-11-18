@@ -15,7 +15,7 @@ confidence:
   divergence_note: null
 sources:
 - source_id: rzg.source.zwingli-sixty-seven-articles
-  locus: Article XVIII, lines 4565-4569
+  locus: "Article XVIII (cic/texts/zwingli_selected-works_jackson1901.txt, lines 4565-4569)"
   license: public-domain
 relations: []
 text: That Christ, having sacrificed himself once, is to eternity a certain and valid sacrifice for the

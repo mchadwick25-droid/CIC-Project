@@ -1026,6 +1026,32 @@ The census gains `armenian-christianity-before-the-bagratids` (II.19, c. 554-884
 
 **Standing.** Books I-VII stay unobtained. The Turchi 1907 selection and the NPNF English selections remain the route for the four letters naming the Donatists. The Don world's Register row (32) still reads "not yet obtained" and is the Don thread's to update to say Books VIII-XIV are now held. A reuse-terms email to the Bavarian State Library or dMGH, or a different scan, would reopen this.
 
+## 2026-10-28 — Last unclassified wants: Library checks
+
+**Ruling.** Mark, 2026-10-28, chose Library checks and world re-pointing for the 15 wants the generator cannot classify from their records' own words (three further LPC rows now classify; see the generator tests).
+
+**Held already; the Cappadocian records need re-pointing, not an acquisition.** Nicaea (325) subscription lists: Cuntz 1898. Eunomius, the confession of 383: Mansi tomus 3. Gregory of Nyssa, Ad Graecos ex communibus notionibus: Migne PG 45. Nyssa homilies on the Song of Songs, Ecclesiastes and the Beatitudes: Migne PG 44. All four were vendored 2026-10-27 (see the entries above). Their records still say "not located". The Cappadocian thread owns the edit.
+
+**Checked, no public-domain text found.**
+- Dentiere, Epistre tres utile (1539): no Gallica or archive.org scan turned up in a web search. The usable modern edition is McKinley's 2004 University of Chicago Press translation, in copyright. An English excerpt is online at World History Encyclopedia, which is not a vendorable edition. A Gallica or BnF catalogue search by a person with access is the next step.
+- Luther, That Jesus Christ Was Born a Jew (1523): the Weimar Ausgabe, vol. 11, would be the public-domain text (page numbers cited as 314-336, unconfirmed). No scan located. Folger and Emory hold digitized 1523 printings. The Morgenstern edition is in copyright.
+
+**Not examined this pass.** Beza's letters and the Tabula praedestinationis, Karlstadt (Zorzin's essay is a modern edition note), Luther's De votis monasticis and the 1522 New Testament, Epiphanius on Eustathius, Basil's Small Asketikon. The Cambridge History of Christianity is a modern reference work and stays consult-only. Gregory the Great's Register is recorded in the entry above.
+
+## 2026-10-28 — Last unclassified wants: second pass (Wittenberg, Reformed, Cappadocian)
+
+**Luther, De votis monasticis (1521).** The public-domain text is Weimar Ausgabe vol. 8 (about p. 573 ff.; the cited passage is at p. 606). The English is Luther's Works vol. 44 (Fortress, in copyright). The Library of Congress holds a digitized 1521 Lotter printing. The Bavarian State Library copy (VD16 L 5010) is offered for non-commercial use only, so nothing from it is taken. The Philadelphia Edition volume that carries the English could not be confirmed; vendored vol. IV does not list it.
+
+**Luther, the 1522 September Testament and the 1534 Bible.** The Deutsches Textarchiv full text of 1522 is CC BY-SA 3.0, a share-alike condition, so it is not vendored without a ruling. German Wikisource has an unfinished transcription of the same print. Emory and Halle hold scans. No text of the 1534 Bible was located.
+
+**Beza's letters.** The Correspondance de Theodore de Beze (Droz, 43 volumes, from 1960) is in print and in copyright. No public-domain edition of the letters or of the Tabula praedestinationis (1555) was located.
+
+**Basil, Small Asketikon in Rufinus's Latin.** The critical Latin text is Zelzer, CSEL 86 (1986), in copyright; Silvas (2013) is also in copyright. No public-domain Latin edition located.
+
+**Not searched.** Epiphanius on Eustathius, Karlstadt.
+
+**Ruling.** Mark, 2026-10-28: share-alike texts are skipped, as non-commercial ones are. The Deutsches Textarchiv 1522 September Testament (CC BY-SA 3.0) is not vendored.
+
 ## 2026-10-27 — Reformed and Wittenberg wants audited; Calvin's 1541 ordinances vendored
 
 **Audit, to the scholarly-rigor bar.** Already held, so only a record fix is needed: the Philadelphia Edition vol. IV (vendored) and the 1562 Marot-Beza Psalter (vendored). Not chased: Zorzin on Karlstadt and the Cambridge History of Christianity (modern, in copyright), Beza's works "generally" (too vague to target), Dentiere's 1539 Epistre (no scan found). Luther's 1522 German New Testament has two archive.org scans, both rejected because the Fraktur OCR is noise. Luther's De votis monasticis and That Jesus Christ Was Born a Jew: no clean scan confirmed (the Weimar volumes found did not show them).

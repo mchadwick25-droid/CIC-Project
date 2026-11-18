@@ -1,0 +1,11 @@
+source_file: adam-eynsham_magna-vita-sancti-hugonis-lat_dimock1864.txt
+assignments:
+- row_id: adam-eynsham_magna-vita-sancti-hugonis-lat_dimock1864--adam-of-eynsham-magna-vita-sancti-hugonis-dimock-1864
+  work: Adam of Eynsham, Magna Vita Sancti Hugonis (Dimock 1864)
+  author: adam-eynsham
+  locus: the whole volume
+  atlas_ids:
+  - carthusian-life
+  role: tradition
+  confidence: provisional
+  note: The Life of the Carthusian bishop of Lincoln by his own chaplain, written inside this window.

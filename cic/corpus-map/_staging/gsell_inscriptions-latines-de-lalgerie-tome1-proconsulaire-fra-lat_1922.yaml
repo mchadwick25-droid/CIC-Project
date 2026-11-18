@@ -9,6 +9,9 @@ assignments:
       - latin-pastoral-congregational-christianity
     role: context
     confidence: provisional
+    locus_ids: [whole-file]
+    language: fra-lat
+    date: {formation_confidence: unknown, checked: "gsell_inscriptions-latines-de-lalgerie-tome1-proconsulaire-fra-lat_1922.txt: header gives Publication Date 1922; title page, header and Preface (file line 335) read; no edition statement and no dateline in the OCR of the Preface; the file states neither the work's first publication year nor a dated preface or approval, so no window is set"}
     note: >
       Modern (1922) edition of Latin inscriptions from the old Proconsular province. Not
       checked against any specific inscription. Registry row 227.

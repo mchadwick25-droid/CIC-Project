@@ -1,0 +1,125 @@
+{
+ "changes": [
+  {
+   "movement": "post-apostolic-house-church",
+   "field": "legacy",
+   "paragraph": 0,
+   "old": "Almost every Christian tradition claims a root in these early gatherings. The basic rhythm of Christian worship—assembling on the first day of the week, reading aloud from the prophets and the apostles' memoirs, and sharing the bread and the cup, whether in a full communal meal or the bread and wine alone—shows up earliest in these spaces.",
+   "new": "Almost every Christian tradition claims a root in these early gatherings. The basic rhythm of Christian worship shows up earliest here. Believers met on the first day of the week. They read aloud from the prophets and from the apostles' memoirs. And they shared the bread and the cup, either in a full common meal or as the bread and wine alone.",
+   "fre_before": 53.6,
+   "fre_after": 76.9,
+   "fk_after": 5.6,
+   "facts_check": "Sentence-by-sentence map: first-day assembly, prophets + apostles' memoirs, bread and cup (full meal or bread and wine alone), 'earliest', 'almost every tradition' all kept; nothing added."
+  },
+  {
+   "movement": "greek-apologists-second-century",
+   "field": "longDescription",
+   "paragraph": 0,
+   "old": "Around 124 a Christian named Quadratus handed the emperor Hadrian a written defense of his religion, and for the next eighty years others kept doing it. Aristides did it at Athens; Justin, a philosopher who kept wearing the philosopher's cloak after his conversion and ran a school at Rome, did it twice and was executed for it about 165. Athenagoras addressed Marcus Aurelius; Melito of Sardis addressed him too; Theophilus wrote three books to a pagan friend named Autolycus; an anonymous writer produced the letter to Diognetus that is still the most quoted thing any of them wrote. The charges were always roughly the same - that Christians were atheists because they had no images, cannibals because of what they said about eating a body, and disloyal because they would not sacrifice - and the answers were too. What made the enterprise interesting was the second move. Several of them, Justin above all, did more than deny the charges. They argued that the best of Greek philosophy had been reaching toward what the church now held. Christians were therefore the true heirs of reason, not its enemies.",
+   "new": "Around 124 a Christian named Quadratus handed the emperor Hadrian a written defense of his religion. For the next eighty years, others kept doing the same. Aristides did it at Athens. Justin did it twice, and was put to death for it about 165. He was a philosopher who kept wearing the philosopher's cloak after his conversion, and he ran a school at Rome. Athenagoras addressed Marcus Aurelius, and so did Melito of Sardis. Theophilus wrote three books to a pagan friend named Autolycus. An unknown writer produced the letter to Diognetus, still the most quoted thing any of them wrote. The charges were always roughly the same, and so were the answers. Christians were called atheists because they had no images. They were called cannibals because of what they said about eating a body. And they were called disloyal because they would not sacrifice. What made the effort interesting was the second move. Several of them, Justin above all, did more than deny the charges. They argued that the best of Greek philosophy had been reaching toward what the church now held. Christians were therefore the true heirs of reason, not its enemies.",
+   "fre_before": 48.6,
+   "fre_after": 64.2,
+   "fk_after": 7.3,
+   "facts_check": "Checked each name/date/act (Quadratus 124 Hadrian; Aristides Athens; Justin cloak, school at Rome, twice, executed c.165; Athenagoras, Melito to Marcus Aurelius; Theophilus 3 books to Autolycus; Diognetus most quoted; three charges and reasons; Justin's second move) present; 'roughly', 'several' kept; nothing added."
+  },
+  {
+   "movement": "greek-apologists-second-century",
+   "field": "legacy",
+   "paragraph": 0,
+   "old": "Justin's argument that the Word was sowing seeds of truth in the philosophers before the incarnation gave the church a way of relating to inherited learning that it has never entirely put down. Clement at Alexandria spoke the same way of philosophers receiving 'the seeds of the Truth', and he and Origen took the approach much further. The apologists also settled some of the vocabulary: Theophilus is the first surviving writer to use the word Trinity of God. And the Epistle to Diognetus' description of Christians as resident aliens - at home everywhere and strangers everywhere - has outlived every other line the movement produced.",
+   "new": "Justin made a bold claim. Before the incarnation, he said, the Word was already sowing seeds of truth in the philosophers. That gave the church a way to deal with the learning it had inherited, and it has never fully put that down. Clement at Alexandria spoke the same way of philosophers receiving 'the seeds of the Truth'. He and Origen took the idea much further. The apologists also settled some of the church's words. Theophilus is the first writer whose work survives to use the word Trinity of God. And one line from the Epistle to Diognetus has outlived every other line the movement produced. It calls Christians resident aliens, at home everywhere and strangers everywhere.",
+   "fre_before": 33.7,
+   "fre_after": 61.3,
+   "fk_after": 7.9,
+   "facts_check": "Seeds-of-truth before incarnation, 'never entirely' -> 'never fully', Clement quote verbatim, Clement and Origen further, Theophilus first surviving writer on Trinity, Diognetus resident-aliens line all kept; nothing added."
+  },
+  {
+   "movement": "latin-apologists",
+   "field": "longDescription",
+   "paragraph": 0,
+   "old": "Carthage, 197 CE. A convert trained as a rhetorician sat down to answer the slanders against his new faith, and found that Latin had no words yet for most of what he needed to say - so he made them. Trinitas, persona, substantia, sacramentum: the technical vocabulary Western Christians still use for the Trinity and the sacraments came substantially off Tertullian's own pen, in the Apology and in the string of treatises that followed it - Against Praxeas arguing that Father and Son are genuinely distinct, the Prescription Against Heretics contending that Scripture belongs to the churches that received it, five long books Against Marcion answering the one rival he judged most dangerous. In his later years he grew steadily more rigorist and aligned himself with the New Prophecy out of Phrygia, which is one reason the Latin church quoted him endlessly and never made him a saint. Roughly a generation on and in a very different key, a Roman advocate named Minucius Felix wrote a dialogue set on the beach at Ostia, in which a pagan friend states the case against Christianity - it is a religion of the ignorant, its god was a criminal, Rome's greatness is proof enough that Rome's gods work - and is answered and convinced. What makes the Octavius unusual is that its author gives the other side the better speech: Caecilius' half is the fullest surviving statement of the educated pagan objection to Christianity. A century later and in a different register again, an African rhetorician at Sicca called Arnobius wrote seven furious books Against the Heathen - to persuade his own bishop that his conversion was genuine, if Jerome is to be believed - and produced along the way the most detailed account of Roman religious practice that any Christian left, because he had to describe what he was attacking. Between them, and impossible to date within three centuries, sits Commodian: eighty short poems in acrostic verse that does not scan by the old rules, aimed at ordinary people, half catechism and half warning. And at the end of the line stands Lactantius, whom Jerome makes Arnobius' pupil: a professor of Latin rhetoric summoned to Diocletian's new capital at Nicomedia, who was still teaching there when the persecution broke out and wrote the Divine Institutes in the middle of it, and who was old by the time it was over, when Constantine brought him to Trier to teach his son. What these five share is not a place or a generation. It is that each had to make the argument in Latin, in a vocabulary that had not been built to carry it - Tertullian first and most consequentially, the others after him.",
+   "new": "Carthage, 197 CE. A convert trained in rhetoric sat down to answer the slanders against his new faith. He found that Latin had no words yet for most of what he needed to say. So he made them. Trinitas, persona, substantia, sacramentum: Western Christians still use these technical words for the Trinity and the sacraments. In large part they came off Tertullian's own pen. They appear in the Apology and in the string of treatises that followed it. Against Praxeas argues that Father and Son are truly distinct. The Prescription Against Heretics holds that Scripture belongs to the churches that received it. Five long books Against Marcion answer the one rival he judged most dangerous. In his later years he grew steadily stricter, and he sided with the New Prophecy out of Phrygia. That is one reason the Latin church quoted him endlessly and never made him a saint. Roughly a generation on, and in a very different key, came a Roman lawyer named Minucius Felix. He wrote a dialogue set on the beach at Ostia. In it a pagan friend states the case against Christianity. It is a religion of the ignorant, he says. Its god was a criminal. Rome's greatness is proof enough that Rome's gods work. Then he is answered and won over. What makes the Octavius unusual is that its author gives the other side the better speech. Caecilius' half is the fullest surviving statement of the educated pagan case against Christianity. A century later, in a different register again, came Arnobius, an African rhetorician at Sicca. He wrote seven furious books Against the Heathen. If Jerome is to be believed, he wrote them to persuade his own bishop that his conversion was real. Along the way he left the most detailed account of Roman religious practice that any Christian left. He had to describe what he was attacking. Between them sits Commodian, whom no one can date to within three centuries. He wrote eighty short poems in acrostic verse that does not scan by the old rules. They speak to ordinary people, half lesson in the faith and half warning. And at the end of the line stands Lactantius, whom Jerome makes Arnobius' pupil. He was a professor of Latin rhetoric, called to Diocletian's new capital at Nicomedia. He was still teaching there when the persecution broke out. He wrote the Divine Institutes in the middle of it. He was old by the time it was over, when Constantine brought him to Trier to teach his son. What these five share is not a place or a generation. Each had to make the argument in Latin, in words that had not been built to carry it. Tertullian came first and left the deepest mark; the others came after him.",
+   "fre_before": 30.2,
+   "fre_after": 67.1,
+   "fk_after": 7.0,
+   "facts_check": "Walked each clause: 197 Carthage, four Latin terms verbatim, 'substantially' -> 'in large part', Apology + three treatises with their arguments, rigorism + New Prophecy + not a saint, Minucius Felix/Ostia/three pagan claims/Octavius/Caecilius, Arnobius Sicca/7 books/'if Jerome is to be believed'/Roman practice, Commodian undatable within three centuries/80 acrostic poems, Lactantius pupil per Jerome/Nicomedia/Divine Institutes/Trier, closing claim; kept as one paragraph; nothing added."
+  },
+  {
+   "movement": "apocryphal-and-pseudepigraphal-literature",
+   "field": "relationsSummary",
+   "paragraph": 0,
+   "old": "Not a community and not a tradition: a body of writing that circulated across all of them. Its natural relation to the other early movements is that many of them read it. Origen, for one, knew the Protevangelium as the Book of James.",
+   "new": "This is not a community and not a tradition. It is a body of writing that passed among all of them. Its natural link to the other early movements is that many of them read it. Origen, for one, knew the Protevangelium as the Book of James.",
+   "fre_before": 54.6,
+   "fre_after": 68.9,
+   "fk_after": 6.6,
+   "facts_check": "Not community/tradition, read across movements, Origen knew it as the Book of James: all kept; nothing added."
+  },
+  {
+   "movement": "apocryphal-and-pseudepigraphal-literature",
+   "field": "longDescription",
+   "paragraph": 0,
+   "old": "From about the second century onwards Christians wrote, read and copied a great deal that never went into the New Testament and was never quite meant to. Some of it fills gaps the gospels leave: the Protevangelium of James supplies Mary's parents, her childhood in the Temple and the birth in a cave, and almost everything later Christians believed about her early life comes from it rather than from scripture. Some of it carries the apostles into adventures - Andrew among cannibals, Philip at Hierapolis, Thomas in India - in narratives that read like Greek romances and often carry a strongly ascetic charge. And a third body is not Christian in origin at all: the Life of Adam and Eve and the Testament of Abraham are Jewish works that survive because Christian scribes kept copying them, sometimes with Christian passages worked in, after Judaism itself had let them go. The Testaments of the Twelve Patriarchs may belong here too, but scholars still argue whether it began as a Jewish book or a Christian one. And it kept being written. The Dormition narratives that gave the church the Assumption, the tour-of-hell apocalypses that shaped medieval visions of the afterlife, Pseudo-Matthew and its later Latin abridgement that carried Mary's childhood into the Latin West - these run to the ninth century and beyond. What holds all of it together is not a community or a doctrine. It is a fact about transmission: this is the literature the church read for centuries and never canonized.",
+   "new": "From about the second century on, Christians wrote, read and copied a great deal that never went into the New Testament. It was never quite meant to. Some of it fills gaps the gospels leave. The Protevangelium of James supplies Mary's parents, her childhood in the Temple and the birth in a cave. Almost everything later Christians believed about her early life comes from it, not from scripture. Some of it carries the apostles into adventures: Andrew among cannibals, Philip at Hierapolis, Thomas in India. These tales read like Greek romances, and they often carry a strong push toward self-denial. And a third body is not Christian in origin at all. The Life of Adam and Eve and the Testament of Abraham are Jewish works. They survive because Christian scribes kept copying them after Judaism itself had let them go. Sometimes the scribes worked Christian passages in. The Testaments of the Twelve Patriarchs may belong here too. But scholars still argue whether it began as a Jewish book or a Christian one. And this writing kept coming. The Dormition stories of Mary's death gave the church the Assumption. The tour-of-hell apocalypses shaped medieval visions of the afterlife. Pseudo-Matthew and its later, shorter Latin version carried Mary's childhood into the Latin West. These run to the ninth century and beyond. What holds all of it together is not a community or a doctrine. It is a fact about how texts were handed down. This is the literature the church read for centuries and never made part of its Bible.",
+   "fre_before": 44.5,
+   "fre_after": 64.7,
+   "fk_after": 7.3,
+   "facts_check": "Checked: 2nd-century start, never meant for NT, Protevangelium contents and 'almost everything', three apostles' adventures, romance/ascetic (glossed as self-denial), Jewish works + Christian interpolations, Testaments 'may belong' and still argued, Dormition/Assumption, hell tours, Pseudo-Matthew + abridgement, 9th century and beyond, transmission point. Glosses only (Dormition = Mary's death; canonized = made part of its Bible); no new fact."
+  },
+  {
+   "movement": "apocryphal-and-pseudepigraphal-literature",
+   "field": "why",
+   "paragraph": 0,
+   "old": "For centuries Christians copied and read stories that never entered the Bible, among them the Protevangelium of James, the source of nearly everything later believers came to know about Mary's parents and childhood. Some of these works, like the Life of Adam and Eve, were originally Jewish texts that survive today only because Christian scribes kept copying them long after Judaism itself had let them go.",
+   "new": "For centuries Christians copied and read stories that never entered the Bible. One was the Protevangelium of James. It is the source of nearly everything later believers came to know about Mary's parents and childhood. Some of these works, like the Life of Adam and Eve, began as Jewish texts. They survive today only because Christian scribes kept copying them, long after Judaism itself had let them go.",
+   "fre_before": 34.9,
+   "fre_after": 61.2,
+   "fk_after": 8.1,
+   "facts_check": "Protevangelium as source of 'nearly everything' on Mary's parents/childhood, Life of Adam and Eve as originally Jewish and surviving 'only because' scribes copied it: kept; nothing added."
+  },
+  {
+   "movement": "apocryphal-and-pseudepigraphal-literature",
+   "field": "legacy",
+   "paragraph": 0,
+   "old": "Marian devotion in both East and West rests substantially on the Protevangelium of James. Anna and Joachim and the presentation in the Temple entered the calendar and the iconography from it, a book the church never accepted as scripture. The ox and the ass at the manger come from Pseudo-Matthew, a later Latin retelling. The apocryphal Acts tell how the apostles died: Peter crucified head down, Philip hung by his ankles. Medieval art and legend probably took most of what it knew of those deaths from them. And the Jewish pseudepigrapha in this collection survive only because Christians copied them - preserved, ironically, by the tradition that had parted from the one that produced it.",
+   "new": "Marian devotion in both East and West rests in large part on the Protevangelium of James. Anna and Joachim and the presentation in the Temple came from it into the church's calendar and its sacred images. Yet the church never accepted the book as scripture. The ox and the ass at the manger come from Pseudo-Matthew, a later Latin retelling. The apocryphal Acts tell how the apostles died: Peter crucified head down, Philip hung by his ankles. Medieval art and legend probably took most of what they knew of those deaths from them. And the Jewish books in this collection, written under the names of ancient figures, survive only because Christians copied them. The irony is plain. They were kept by the tradition that had parted from the one that produced them.",
+   "fre_before": 48.3,
+   "fre_after": 64.6,
+   "fk_after": 7.9,
+   "facts_check": "'Substantially' -> 'in large part'; Anna, Joachim, presentation into calendar and images; never scripture; ox and ass from Pseudo-Matthew; Peter and Philip deaths; 'probably' kept; pseudepigrapha glossed in plain words; irony kept; nothing added."
+  },
+  {
+   "movement": "alexandria-catechetical",
+   "field": "legacy",
+   "paragraph": 1,
+   "old": "Origen's textual scholarship set the standard for taking the original languages seriously. Basil of Caesarea and Gregory of Nazianzus studied his books, and tradition credits them with an anthology of his writings. Ambrose and Jerome read him closely even when they were careful about saying so.",
+   "new": "Origen worked closely on texts. He set the standard for taking seriously the languages they were first written in. Basil of Caesarea and Gregory of Nazianzus studied his books. Tradition says the two put together a book of pieces from his work. Ambrose and Jerome read him closely too, even when they were careful about saying so.",
+   "fre_before": 38.6,
+   "fre_after": 61.7,
+   "fk_after": 7.5,
+   "facts_check": "Textual scholarship/original languages standard, Basil and Gregory studied his books, anthology credited by 'tradition' (hedge kept), Ambrose and Jerome read closely 'even when they were careful about saying so': kept; nothing added."
+  },
+  {
+   "movement": "alexandria-catechetical",
+   "field": "legacy",
+   "paragraph": 2,
+   "old": "Whether the tradition also fed Egyptian monasticism is still argued. One modern reading finds Origen's ideas in Antony's letters. Athanasius tells instead of a boy raised at home by Christian parents.",
+   "new": "Did the tradition also feed the rise of Egypt's monks? That is still argued. One modern reading finds Origen's ideas in the letters of Antony. Athanasius tells a different story: a boy raised at home by Christian parents.",
+   "fre_before": 43.5,
+   "fre_after": 63.6,
+   "fk_after": 6.7,
+   "facts_check": "'Still argued' kept as an open question; one modern reading (Origen in Antony's letters) vs Athanasius's boy raised at home by Christian parents: kept; nothing added."
+  },
+  {
+   "movement": "alexandria-catechetical",
+   "field": "legacy",
+   "paragraph": 3,
+   "old": "The church of Alexandria itself remembered the school in two minds. Its History of the Patriarchs, compiled centuries later, condemns Origen's books but honours Dionysius as patriarch.",
+   "new": "The church of Alexandria itself had two minds about the school. Its History of the Patriarchs was put together centuries later. It condemns the books of Origen. But it honours Dionysius as patriarch.",
+   "fre_before": 39.6,
+   "fre_after": 62.6,
+   "fk_after": 6.6,
+   "facts_check": "Two minds, History of the Patriarchs compiled centuries later, condemns Origen's books, honours Dionysius as patriarch: kept; nothing added."
+  }
+ ]
+}

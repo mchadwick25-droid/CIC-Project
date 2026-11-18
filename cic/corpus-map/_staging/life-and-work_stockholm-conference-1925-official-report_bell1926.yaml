@@ -1,0 +1,11 @@
+source_file: life-and-work_stockholm-conference-1925-official-report_bell1926.txt
+assignments:
+- row_id: life-and-work_stockholm-conference-1925-official-report_bell1926--the-stockholm-conference-1925-official-report
+  work: 'The Stockholm Conference 1925: Official Report'
+  author: life-and-work
+  locus: 'whole; the Message, lines 32448-32749'
+  atlas_ids:
+  - the-ecumenical-movement-and-the-wcc
+  role: tradition
+  confidence: assigned
+  note: 'The conference''s own printed report; many churches'' voices.'

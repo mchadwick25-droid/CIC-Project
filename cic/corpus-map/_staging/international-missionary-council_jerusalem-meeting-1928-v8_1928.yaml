@@ -1,0 +1,20 @@
+source_file: international-missionary-council_jerusalem-meeting-1928-v8_1928.txt
+assignments:
+- row_id: international-missionary-council_jerusalem-meeting-1928-v8_1928--the-jerusalem-meeting-of-the-international-missionary
+  work: 'The Jerusalem Meeting of the International Missionary Council 1928, volume 8'
+  author: international-missionary-council
+  locus: 'whole'
+  atlas_ids:
+  - the-ecumenical-movement-and-the-wcc
+  role: tradition
+  confidence: assigned
+  note: 'The meeting''s own printed report; many voices.'
+- row_id: international-missionary-council_jerusalem-meeting-1928-v8_1928--cheng-ching-yi-days-of-vision-address-at-jerusalem-march-25
+  work: 'Cheng Ching-yi, Days of Vision (address at Jerusalem, March 25, 1928)'
+  author: international-missionary-council
+  locus: 'lines 1693-2219'
+  atlas_ids:
+  - the-chinese-church-indigenous-and-suffering
+  role: tradition
+  confidence: assigned
+  note: 'His own address as the meeting printed it.'

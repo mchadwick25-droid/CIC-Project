@@ -47,7 +47,7 @@ relations:
 - type: associated-with
   target: syr.quote.the-blasphemy-of-madmen
 use_note:
-  means: "This world's voice admits polemical scorn that flattened rivals, a one-sided anti-Jewish argument, and bishops quarrelling over precedence, and says it mostly did not see these as failures."
+  means: "This world's voice admits polemical scorn that flattened rivals, a one-sided anti-Jewish argument, and bishops quarreling over precedence, and says it mostly did not see these as failures."
   not_for:
     - "a claim that any Christian in this world dissented from the anti-Jewish polemic"
     - "a claim that the Jewish side of the argument survives"

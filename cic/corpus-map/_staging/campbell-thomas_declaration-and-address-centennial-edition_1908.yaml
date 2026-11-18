@@ -1,0 +1,17 @@
+source_file: campbell-thomas_declaration-and-address-centennial-edition_1908.txt
+assignments:
+- row_id: campbell-thomas_declaration-and-address-centennial-edition_1908--campbell-thomas-declaration-and-address-1809
+  work: 'Thomas Campbell, Declaration and Address of the Christian Association of Washington (1809; Centennial reprint, 1908)'
+  author: campbell-thomas
+  locus: 'the Declaration at OCR lines 174-312; the Address at 313-1276; the Appendix at 1277-2955; the Postscript from 2956; add 12 to OCR line numbers'
+  atlas_ids:
+  - the-stone-campbell-restoration-movement
+  role: tradition
+  confidence: assigned
+  language: eng
+  date: {start: 1809, end: 1809, source: "the reprinted title page's year stands at OCR line 152, garbled as 'I8OQ.'; the preamble dates the meetings 17 August and 7 September 1809 (lines 155-172)", formation_confidence: Documented}
+  note: 'The founding paper of the Campbell movement, read in a reprint that claims to follow the first print letter for letter. The claim was not tested against a copy of 1809. The introduction and the two Centennial pieces at the end belong to the reprint and are not Campbell''s.'
+authors_ruled:
+  campbell-thomas:
+    kind: metadata-omission
+    evidence: "The Centennial title page (file lines 16-26) names Thomas Campbell. The 1809 title page reprinted inside (file lines 137-164) names the Christian Association of Washington and no author."

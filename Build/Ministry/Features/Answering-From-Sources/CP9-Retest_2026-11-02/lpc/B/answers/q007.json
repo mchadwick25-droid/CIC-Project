@@ -1,0 +1,157 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "lpc.witness.grant-me-chastity-but-not-yet"
+   ],
+   "sentence": "Yes, and one of our own knew a trouble close to yours, before he was received among us."
+  },
+  {
+   "record_ids": [
+    "lpc.witness.grant-me-chastity-but-not-yet"
+   ],
+   "sentence": "As a young man, Augustine prayed for chastity and continency, but not yet, afraid that God would answer him before he was ready to let go."
+  },
+  {
+   "record_ids": [
+    "lpc.witness.grant-me-chastity-but-not-yet"
+   ],
+   "sentence": "Later he wrote that the truth had become certain to him, yet the old burden had not lifted, and being persuaded was not the same as being free."
+  },
+  {
+   "record_ids": [
+    "lpc.witness.grant-me-chastity-but-not-yet"
+   ],
+   "sentence": "We do not tell that struggle away, or promise it ends on any set schedule."
+  },
+  {
+   "record_ids": [
+    "lpc.witness.grant-me-chastity-but-not-yet"
+   ],
+   "sentence": "It was real in one of our own, and it was not the end of his story."
+  },
+  {
+   "record_ids": [
+    "lpc.quote.longing-expectation-is-a-prayer-for-me"
+   ],
+   "sentence": "Augustine said this to the people who came to hear him: “But now I imagine that no one has come here except those who want to hear. So I am not speaking to deaf hearts, or to minds that will look down on the word. Instead, this longing expectation of yours is a prayer for me.”"
+  },
+  {
+   "record_ids": [
+    "lpc.limit.ordinary-interior-life"
+   ],
+   "sentence": "What an ordinary believer felt from inside is almost never ours to give you, apart from the tears Augustine shed at his own baptism, which he told years afterward."
+  }
+ ],
+ "citations": [
+  "lpc.limit.ordinary-interior-life",
+  "lpc.quote.longing-expectation-is-a-prayer-for-me",
+  "lpc.witness.grant-me-chastity-but-not-yet"
+ ],
+ "group": "A",
+ "id": "q007",
+ "net_sentences": [
+  {
+   "draft": "Yes, and one of our own knew a trouble close to yours, before he was received among us [[lpc.witness.grant-me-chastity-but-not-yet]] [[as:paraphrase]].",
+   "sentence": "Yes, and one of our own knew a trouble close to yours, before he was received among us.",
+   "tags": [
+    "lpc.witness.grant-me-chastity-but-not-yet"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "As a young man, Augustine prayed for chastity and continency, but not yet, afraid that God would answer him before he was ready to let go [[lpc.witness.grant-me-chastity-but-not-yet]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "As a young man, Augustine prayed for chastity and continency, but not yet, afraid that God would answer him before he was ready to let go.",
+   "tags": [
+    "lpc.witness.grant-me-chastity-but-not-yet"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "Later he wrote that the truth had become certain to him, yet the old burden had not lifted, and being persuaded was not the same as being free [[lpc.witness.grant-me-chastity-but-not-yet]] [[as:paraphrase]].",
+   "sentence": "Later he wrote that the truth had become certain to him, yet the old burden had not lifted, and being persuaded was not the same as being free.",
+   "tags": [
+    "lpc.witness.grant-me-chastity-but-not-yet"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "We do not tell that struggle away, or promise it ends on any set schedule [[lpc.witness.grant-me-chastity-but-not-yet]] [[as:paraphrase]].",
+   "sentence": "We do not tell that struggle away, or promise it ends on any set schedule.",
+   "tags": [
+    "lpc.witness.grant-me-chastity-but-not-yet"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "It was real in one of our own, and it was not the end of his story [[lpc.witness.grant-me-chastity-but-not-yet]] [[as:paraphrase]].",
+   "sentence": "It was real in one of our own, and it was not the end of his story.",
+   "tags": [
+    "lpc.witness.grant-me-chastity-but-not-yet"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Augustine said this to the people who came to hear him: [[quote:lpc.quote.longing-expectation-is-a-prayer-for-me]]",
+   "placed_quote": "lpc.quote.longing-expectation-is-a-prayer-for-me",
+   "sentence": "Augustine said this to the people who came to hear him: “But now I imagine that no one has come here except those who want to hear. So I am not speaking to deaf hearts, or to minds that will look down on the word. Instead, this longing expectation of yours is a prayer for me.”",
+   "tags": [
+    "lpc.quote.longing-expectation-is-a-prayer-for-me"
+   ],
+   "verdict": "ok",
+   "why": "quote placed by code, verbatim to its record"
+  },
+  {
+   "draft": "[[as:paraphrase]].",
+   "sentence": ".",
+   "tags": [],
+   "verdict": "ok",
+   "why": "no checkable claim - interpretive/connective framing"
+  },
+  {
+   "draft": "What an ordinary believer felt from inside is almost never ours to give you, apart from the tears Augustine shed at his own baptism, which he told years afterward [[lpc.limit.ordinary-interior-life]] [[as:paraphrase]].",
+   "ratio": 0.88,
+   "sentence": "What an ordinary believer felt from inside is almost never ours to give you, apart from the tears Augustine shed at his own baptism, which he told years afterward.",
+   "tags": [
+    "lpc.limit.ordinary-interior-life"
+   ],
+   "verdict": "ok",
+   "why": "grounded 88% in own tagged records"
+  }
+ ],
+ "offered": [
+  "lpc.limit.ordinary-interior-life",
+  "lpc.witness.grant-me-chastity-but-not-yet",
+  "lpc.term.confessor",
+  "lpc.term.schism",
+  "lpc.term.reconciliation-penitential-discipline",
+  "lpc.story.election-of-cyprian",
+  "lpc.quote.an-ever-burning-gehenna",
+  "lpc.quote.earlier-councils-corrected-by-later",
+  "lpc.witness.restless-heart-and-the-unrepentant-enemy",
+  "lpc.witness.peace-for-the-dying-penitent",
+  "lpc.term.the-lapsed",
+  "lpc.quote.the-case-set-before-the-bishop",
+  "lpc.quote.longing-expectation-is-a-prayer-for-me"
+ ],
+ "raw_text": "Yes, and one of our own knew a trouble close to yours, before he was received among us [[lpc.witness.grant-me-chastity-but-not-yet]] [[as:paraphrase]]. As a young man, Augustine prayed for chastity and continency, but not yet, afraid that God would answer him before he was ready to let go [[lpc.witness.grant-me-chastity-but-not-yet]] [[as:paraphrase]]. Later he wrote that the truth had become certain to him, yet the old burden had not lifted, and being persuaded was not the same as being free [[lpc.witness.grant-me-chastity-but-not-yet]] [[as:paraphrase]]. We do not tell that struggle away, or promise it ends on any set schedule [[lpc.witness.grant-me-chastity-but-not-yet]] [[as:paraphrase]]. It was real in one of our own, and it was not the end of his story [[lpc.witness.grant-me-chastity-but-not-yet]] [[as:paraphrase]]. Augustine said this to the people who came to hear him: [[quote:lpc.quote.longing-expectation-is-a-prayer-for-me]] [[as:paraphrase]]. What an ordinary believer felt from inside is almost never ours to give you, apart from the tears Augustine shed at his own baptism, which he told years afterward [[lpc.limit.ordinary-interior-life]] [[as:paraphrase]].\n",
+ "reply_shape": {
+  "placed": [
+   "lpc.quote.longing-expectation-is-a-prayer-for-me"
+  ],
+  "removed": [],
+  "repaired": []
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": "C14.S4",
+ "text": "Yes, and one of our own knew a trouble close to yours, before he was received among us. As a young man, Augustine prayed for chastity and continency, but not yet, afraid that God would answer him before he was ready to let go. Later he wrote that the truth had become certain to him, yet the old burden had not lifted, and being persuaded was not the same as being free. We do not tell that struggle away, or promise it ends on any set schedule. It was real in one of our own, and it was not the end of his story. Augustine said this to the people who came to hear him: “But now I imagine that no one has come here except those who want to hear. So I am not speaking to deaf hearts, or to minds that will look down on the word. Instead, this longing expectation of yours is a prayer for me.”. What an ordinary believer felt from inside is almost never ours to give you, apart from the tears Augustine shed at his own baptism, which he told years afterward.",
+ "voice_set_aside": false
+}

@@ -1,0 +1,180 @@
+{
+ "changes": [
+  {
+   "movement": "desert-monasticism",
+   "field": "longDescription",
+   "paragraph": 2,
+   "old": "What kept any of this from tipping into excess was discernment: the skill, prized above all others, of judging how much fasting, how much solitude, a particular person could actually bear. The tradition's most common story shape is an eager newcomer asking for an extreme practice and being redirected toward something more moderate. Evagrius, the most formally educated man the desert produced, tried to systematize the struggle into a scheme of his own: eight named categories of tempting thought, and a ladder rising from practice through passionlessness to contemplation. He died at Kellia in January 399, just before a controversy his own learned circle could not survive. A bishop's letter on how literally to picture God split simple monks from learned ones, and soon afterward Evagrius's circle was driven out of Egypt. His writings survived anyway, part of them transmitted for centuries under another name.",
+   "new": "What kept any of this from tipping into excess was discernment. It was the skill most prized of all: judging how much fasting and how much solitude one person could truly bear. The tradition's most common story shape is an eager newcomer who asks for an extreme practice and is steered toward something milder. Evagrius was the most formally educated man the desert produced. He tried to build the struggle into a scheme of his own. He named eight kinds of tempting thought, and he drew a ladder that rises from practice through passionlessness to contemplation. He died at Kellia in January 399, just before a dispute his own learned circle could not survive. A bishop's letter on how literally to picture God split simple monks from learned ones. Soon after, Evagrius's circle was driven out of Egypt. His writings survived anyway, and part of them was handed down for centuries under another name.",
+   "fre_before": 36.8,
+   "fre_after": 60.3,
+   "fk_after": 8.7,
+   "notes": "'redirected' rendered as 'steered'; 'systematize the struggle into a scheme' as 'build the struggle into a scheme'; 'eight named categories' as 'named eight kinds'; 'controversy' as 'dispute'."
+  },
+  {
+   "movement": "desert-monasticism",
+   "field": "legacy",
+   "paragraph": 0,
+   "old": "Almost every later form of Christian monastic life descends from here. Benedict's own Rule for Western monks sends its readers directly to John Cassian's reports from Egypt. In the East, the Philokalia, gathered on Mount Athos and printed in 1782, opens with counsels credited to Antony and carries Evagrius and Cassian too.",
+   "new": "Almost every later form of Christian monastic life comes down from here. In the West, Benedict's own Rule for monks sends its readers straight to John Cassian's reports from Egypt. In the East, the Philokalia was gathered on Mount Athos and printed in 1782. It opens with counsels credited to Antony, and it carries Evagrius and Cassian too.",
+   "fre_before": 46.9,
+   "fre_after": 60.3,
+   "fk_after": 8.4,
+   "notes": ""
+  },
+  {
+   "movement": "cappadocian-nicene-pastoral-monastic-tradition",
+   "field": "longDescription",
+   "paragraph": 1,
+   "old": "Basil's own preaching indicted the region's grain-hoarders and moved them to open their stores. After the famine of 368 he built a hospital, hostel, and workhouse complex outside Caesarea. It was a genuine, near-unprecedented undertaking, though not, as later legend sometimes claims, the first of its kind anywhere. Before that, he had already spent years answering a more radical ascetic ferment loose in the region — households dissolved, slaves urged to leave their masters, fasts kept against the church's own feasts — not by condemning the impulse but by giving it a rule, an obedience, and an open door for guests instead. Macrina turned the family estate into an ascetic household of her own and, in her brother's account of her last days, taught him theology from her deathbed — the only record of her that survives; no words of her own reach us independently of his telling.",
+   "new": "Basil's own preaching indicted the region's grain-hoarders and moved them to open their stores. After the famine of 368, he built a complex outside Caesarea with a hospital, a hostel, and a workhouse. It was a genuine undertaking, with almost no precedent. But it was not the first of its kind anywhere, as later legend sometimes claims. Even before that, he had spent years answering a more radical ascetic ferment loose in the region. Households were dissolved, slaves were urged to leave their masters, and fasts were kept against the church's own feasts. He did not condemn the impulse. Instead, he gave it a rule, an obedience, and an open door for guests. Macrina turned the family estate into an ascetic household of her own. In her brother's account of her last days, she taught him theology from her deathbed. That account is the only record of her that survives; no words of her own reach us apart from his telling.",
+   "fre_before": 42.2,
+   "fre_after": 64.8,
+   "fk_after": 7.9,
+   "notes": "'near-unprecedented' rendered as 'with almost no precedent'; 'independently of his telling' as 'apart from his telling'."
+  },
+  {
+   "movement": "cappadocian-nicene-pastoral-monastic-tradition",
+   "field": "longDescription",
+   "paragraph": 2,
+   "old": "Gregory of Nazianzus carried the argument to Constantinople, where the creed most Christians still recite took its final shape in 381. The years were not peaceful throughout. This Christian tradition buried its own martyr, Eupsychius of Caesarea, executed under Julian in 362. Under Valens, a hostile church party had Gregory of Nyssa deposed, and he lived in exile until 378. Even the letter usually cited as proof the three men agreed on the technical vocabulary — Epistle 38 — is itself contested between Basil and Gregory of Nyssa in modern scholarship.",
+   "new": "Gregory of Nazianzus carried the argument to Constantinople. There, in 381, the creed most Christians still say took its final shape. Those years were not always peaceful. This Christian tradition buried its own martyr, Eupsychius of Caesarea, who was put to death under Julian in 362. Under Valens, a hostile church party had Gregory of Nyssa thrown out of office. He lived in exile until 378. Then take Epistle 38, the letter most often used to show that the three men agreed on the technical terms. Even its author is in dispute. Modern scholars still argue over whether Basil or Gregory of Nyssa wrote it.",
+   "fre_before": 35.3,
+   "fre_after": 61.4,
+   "fk_after": 7.5,
+   "notes": "'deposed' rendered as 'thrown out of office'; 'contested between Basil and Gregory of Nyssa in modern scholarship' rendered as an authorship dispute ('Even its author is in dispute... whether Basil or Gregory of Nyssa wrote it') - reviewer should confirm that is the dispute meant. 'cited as proof' rendered as 'used to show'."
+  },
+  {
+   "movement": "cappadocian-nicene-pastoral-monastic-tradition",
+   "field": "entry.tile",
+   "paragraph": 0,
+   "old": "The Nicene-confessing churches of Cappadocia and Pontus lasted from about 325 to 394 CE. One family and one friendship stood at their center. They were Basil of Caesarea; his sister, Macrina; his brother, Gregory of Nyssa; and Basil's friend, Gregory of Nazianzus. Basil, Gregory of Nyssa, and Gregory of Nazianzus argued the century's hardest question. Is the Son fully God, the same way the Father is? Is the Spirit God in that same way, too? Macrina turned the family estate into an ascetic household of her own. The council that later censured them made a claim about ascetic radicals in the region. It said the radicals had already broken up households and urged enslaved people to leave their owners. Basil did not condemn that impulse. Instead, he gave it a rule to follow. It came with a vow of obedience, and a household that welcomed guests. A famine struck the region around 368. Basil, still a priest at the time, preached against the local landowners who hoarded grain, and named them. Once he became bishop, he built a complex outside Caesarea. It fed the poor, housed travelers, treated the sick, and sheltered people with leprosy. Places like it already existed elsewhere, so it was not the first. What made it unusual was its size, and how openly it stood inside the city. This Christian tradition buried a martyr too. Eupsychius of Caesarea was executed under Julian in 362. Under Valens, Gregory of Nyssa was deposed and sent into exile. The charge: mishandling money. His brother Basil called it trumped up, but no record survives from the side that brought the charge. Gregory returned two years later, once political pressure on Nicene bishops eased. Then, in 381, this Nicene minority finally won the empire's favor.",
+   "new": "The Nicene-confessing churches of Cappadocia and Pontus lasted from about 325 to 394 CE. One family and one friendship stood at their center. They were Basil of Caesarea; his sister, Macrina; his brother, Gregory of Nyssa; and Basil's friend, Gregory of Nazianzus. Basil, Gregory of Nyssa, and Gregory of Nazianzus argued the century's hardest question. Is the Son fully God, the same way the Father is? Is the Spirit God in that same way, too? Macrina turned the family estate into an ascetic household of her own. The council that later censured them made a claim about ascetic radicals in the region. It said the radicals had already broken up households and urged enslaved people to leave their owners. Basil did not condemn that impulse. Instead, he gave it a rule to follow. It came with a vow of obedience, and a household that welcomed guests. A famine struck the region around 368. Basil, still a priest at the time, preached against the local landowners who hoarded grain. Once he became bishop, he built a complex outside Caesarea. It fed the poor, housed travelers, treated the sick, and sheltered people with leprosy. Places like it already existed elsewhere, so it was not the first. What made it unusual was its size, and how openly it stood inside the city. This Christian tradition buried a martyr too. Eupsychius of Caesarea was executed under Julian in 362. Under Valens, Gregory of Nyssa was deposed and sent into exile. The charge: mishandling money. His brother Basil called it trumped up, but no record survives from the side that brought the charge. Gregory returned two years later, once political pressure on Nicene bishops eased. Then, in 381, this Nicene minority finally won the empire's favor.",
+   "fre_before": 56.8,
+   "fre_after": 56.6,
+   "fk_after": 8.2,
+   "notes": "Only change: removed ', and named them' (no source has Basil name the hoarders; Gregory of Nazianzus, Or. 43, says only that he opened their stores by his word). Per the brief nothing else in the tile was rewritten, so it stays below target (fre 56.6, fk 8.2); it already scored fre 56.8 before this fix. A readability rewrite of the tile is for its owner."
+  },
+  {
+   "movement": "antiochene-exegetical-christianity-chrysostom-ce",
+   "field": "relationsSummary",
+   "paragraph": 0,
+   "old": "Historical-literal exegesis, set against Alexandria's allegorical method, though scholars dispute how sharp the contrast was. Theodore of Mopsuestia wrote against Origen, was condemned in 553, and was defended by the Church of the East as its 'Interpreter'.",
+   "new": "It read the Bible literally, as history. Alexandria read it as allegory, though scholars argue over how sharp the contrast was. Theodore of Mopsuestia wrote against Origen. He was condemned in 553, but the Church of the East stood by him as its 'Interpreter'.",
+   "fre_before": 28,
+   "fre_after": 60.2,
+   "fk_after": 7.5,
+   "notes": "'Historical-literal exegesis, set against Alexandria's allegorical method' rendered as 'It read the Bible literally, as history. Alexandria read it as allegory'. The original was a verbless fragment; the subject 'It' (the Antiochene tradition) is supplied. 'defended him' rendered as 'stood by him'."
+  },
+  {
+   "movement": "antiochene-exegetical-christianity-chrysostom-ce",
+   "field": "legacy",
+   "paragraph": 0,
+   "old": "Chrysostom's sermons never stopped being read. Reformation writers quoted him too. Calvin prized his saying that humility is 'the foundation of our philosophy', though he thought Chrysostom gave the human will too much power. The Augsburg Confession of 1530 cited him on how the early church shared Communion. And the eucharistic liturgy that carries his name is still the ordinary Sunday rite of the Eastern Orthodox churches. The Antiochene way of reading insisted that a text means what it meant to those who first heard it. Later Western biblical scholarship made a similar historical-grammatical method standard, though no direct line between the two has been traced. The school's own fate was harsher. Theodore of Mopsuestia was condemned at Constantinople in 553, more than a century after his death, and much of his work survives only in Syriac translation preserved by the Church of the East.",
+   "new": "Chrysostom's sermons never stopped being read. Reformation writers quoted him too. Calvin prized his saying that humility is 'the foundation of our philosophy'. But he thought Chrysostom gave the human will too much power. The Augsburg Confession of 1530 cited him on how the early church shared Communion. And the Communion liturgy that carries his name is still the normal Sunday rite of the Eastern Orthodox churches. The Antiochene way of reading held that a text means what it meant to those who first heard it. Later Western Bible scholars made a similar historical-grammatical method standard, though no one has traced a direct line between the two. The school's own fate was harsher. Theodore of Mopsuestia was condemned at Constantinople in 553, more than a century after his death. Much of his work survives only in Syriac translation, kept safe by the Church of the East.",
+   "fre_before": 52.5,
+   "fre_after": 61.0,
+   "fk_after": 8.0,
+   "notes": "'eucharistic liturgy' rendered as 'Communion liturgy'; 'ordinary Sunday rite' as 'normal Sunday rite'; 'insisted' as 'held'; 'biblical scholarship' as 'Bible scholars'."
+  },
+  {
+   "movement": "cyrilline-miaphysite-egyptian-tradition",
+   "field": "legacy",
+   "paragraph": 0,
+   "old": "This is a living communion, not a closed chapter: the Coptic Orthodox Church of Egypt, together with the Armenian, Syriac, Ethiopian, Eritrean, and Indian Orthodox churches, forms the Oriental Orthodox family of tens of millions of Christians today. It preserved Coptic — the last stage of the ancient Egyptian language — as a liturgical tongue, along with a distinctive iconography, a long fasting calendar, and a monastic life descended unbroken from the desert. Modern dialogue has argued that the fifth-century split was as much about vocabulary as about belief. Joint statements since the 1980s record Oriental Orthodox, Eastern Orthodox, and Catholic representatives agreeing that they confess the same faith in Christ in different words. Historians still debate how far that holds for the fifth century itself.",
+   "new": "This is a living church family, not a closed chapter. The Coptic Orthodox Church of Egypt belongs to the Oriental Orthodox family. So do the Armenian, Syriac, Ethiopian, Eritrean, and Indian Orthodox churches. Together they have tens of millions of members today. This tradition has kept Coptic, the last stage of the language of ancient Egypt, as its tongue of worship. It also kept its own style of icons, a long fasting calendar, and a monastic life that comes down unbroken from the desert. In modern talks, the churches have argued that the split of the fifth century was as much about words as about belief. Since the 1980s, delegates of the Oriental Orthodox, Eastern Orthodox, and Catholic churches have put out joint statements. In them, they agree that they confess the same faith in Christ in different words. Historians still debate how far that holds for the fifth century itself.",
+   "fre_before": 31.2,
+   "fre_after": 60.4,
+   "fk_after": 8.6,
+   "notes": "'communion' rendered as 'church family'; 'tens of millions of Christians' as 'members'; 'liturgical tongue' as 'tongue of worship'; 'distinctive iconography' as 'its own style of icons'; 'Modern dialogue' as 'In modern talks, the churches'; 'representatives' as 'delegates'; 'joint statements record ... agreeing' as 'have put out joint statements. In them, they agree'. 'It preserved Coptic' made explicit as 'This tradition has kept Coptic'."
+  },
+  {
+   "movement": "aquileian-christianity",
+   "field": "relationsSummary",
+   "paragraph": 0,
+   "old": "Next to Ambrose's Milan in place and time, and tied to Jerome's circle at Bethlehem by its people. Jerome and Rufinus were formed here together and later quarreled. Its tie to the Alexandrian school matters most. Rufinus's translations are why much of Origen survives in Latin at all.",
+   "new": "It sits next to Ambrose's Milan in place and time. Its people tie it to Jerome's circle at Bethlehem. Jerome and Rufinus were formed here together and later fell out. Its tie to the Alexandrian school matters most. Rufinus's translations are why much of Origen survives in Latin at all.",
+   "fre_before": 55.4,
+   "fre_after": 63.0,
+   "fk_after": 7.0,
+   "notes": "'quarreled' rendered as 'fell out'."
+  },
+  {
+   "movement": "aquileian-christianity",
+   "field": "longDescription",
+   "paragraph": 0,
+   "old": "Aquileia stood where the roads from Italy, the Danube and the Balkans met at the head of the Adriatic, and in the fourth century it was among the largest cities of the empire and among the more consequential churches of the West; its basilica floor mosaics from the 310s are still there. In the 370s a group of young ascetics gathered in the city whom Jerome afterwards remembered as a chorus of the blessed. He was one of them. So was Rufinus of Concordia, and the friendship between those two ended thirty years later in the bitterest literary quarrel the Latin church produced. In 381 Ambrose came up from Milan to a council at Aquileia. The record names the city's own bishop, Valerian, first. Ambrose led the questioning. The council condemned two Homoian bishops of the Danube provinces, Palladius and Secundianus. And around 404 Rufinus, home in Italy after decades in Egypt and Palestine, sat down and wrote out the creed his own church used at baptism, explaining it line by line for people about to say it. That is why anyone knows that the Aquileian creed called the Father invisible and impassible where Rome's did not, and that it already contained the clause about the descent into hell, which Rufinus points out - a little pointedly - that the Roman creed does not have. Rufinus's own words show that the Western churches did not all say the same words at the font.",
+   "new": "Aquileia stood at the head of the Adriatic, where the roads from Italy, the Danube and the Balkans met. In the fourth century it was among the largest cities of the empire, and its church was among the more consequential in the West. Its basilica floor mosaics from the 310s are still there. In the 370s a group of young ascetics gathered in the city, and Jerome later remembered them as a chorus of the blessed. He was one of them. So was Rufinus of Concordia. Thirty years later, the friendship between those two ended in the bitterest literary quarrel the Latin church produced. In 381 Ambrose came up from Milan to a council at Aquileia. The record names the city's own bishop, Valerian, first. Ambrose led the questioning. The council condemned two Homoian bishops of the Danube provinces, Palladius and Secundianus. Around 404 Rufinus, home in Italy after decades in Egypt and Palestine, sat down and wrote out the creed his own church used at baptism. He explained it line by line for people about to say it. That is why anyone knows two things about the Aquileian creed. It called the Father invisible and impassible, where Rome's did not. And it already had the clause about the descent into hell, which Rufinus points out, a little pointedly, that the Roman creed does not have. Rufinus's own words show that the Western churches did not all say the same words at the font.",
+   "fre_before": 55.2,
+   "fre_after": 64.4,
+   "fk_after": 7.8,
+   "notes": "Spaced hyphens around 'a little pointedly' replaced with commas; sentence order kept."
+  },
+  {
+   "movement": "aquileian-christianity",
+   "field": "why",
+   "paragraph": 0,
+   "old": "Around 404, Rufinus of Concordia sat down in his home church at Aquileia and wrote out the creed used there at baptism, explaining it line by line for people about to say it — and noted, a little pointedly, that this creed already contained the clause about Christ's descent into hell, which Rome's did not. Rufinus's own words show that the Western churches did not all say the same words at the font. Rufinus had belonged to a circle of young ascetics gathered at Aquileia in the 370s that also included Jerome, before their friendship broke apart in the bitterest literary quarrel the Latin church produced.",
+   "new": "Around 404, Rufinus of Concordia sat down in his home church at Aquileia and wrote out the creed used there at baptism. He explained it line by line for people about to say it. He also noted, a little pointedly, that this creed already had the clause about Christ's descent into hell, which Rome's did not. Rufinus's own words show that the Western churches did not all say the same words at the font. In the 370s, Rufinus had belonged to a circle of young ascetics at Aquileia that also included Jerome. Later their friendship broke apart in the bitterest literary quarrel the Latin church produced.",
+   "fre_before": 41.5,
+   "fre_after": 61.8,
+   "fk_after": 9.0,
+   "notes": ""
+  },
+  {
+   "movement": "aquileian-christianity",
+   "field": "legacy",
+   "paragraph": 0,
+   "old": "The Apostles' Creed as the Latin West came to recite it is not the Roman text alone. The descent into hell, which every later version carries, is first attested in a Western baptismal creed here. Rufinus notes that the Roman creed lacks it, though a creed drawn up at Sirmium in 359 already had a form of it. It entered the received Western text from the provincial creeds rather than from Rome. Rufinus' commentary is also one of the first full explanations of a creed in Latin. Other writers had explained it briefly before him, he says. A century later, Gennadius judged it so good that other explanations counted for nothing beside it. And his translations - Origen, Eusebius, the Clementine Recognitions, Basil, the Sentences of Sextus - are the channel through which a great deal of Greek Christianity reached the Latin Middle Ages, often as the only text that survives.",
+   "new": "The Apostles' Creed that the Latin West came to say is not just the Roman text. Every later version carries the descent into hell, and the first Western creed for baptism known to carry it is this one. Rufinus notes that the Roman creed lacks it. Still, a creed drawn up at Sirmium in 359 already had a form of it. The clause reached the accepted Western text from the creeds of the provinces, not from Rome. Rufinus' commentary is also one of the first Latin works to explain a creed in full. Other writers had explained it briefly before him, he says. A century later, Gennadius judged it so good that others counted for nothing beside it. Rufinus' translations also brought much of Greek Christianity to the Latin Middle Ages, often as the only text that survives. He translated Origen, Eusebius, the Clementine Recognitions, Basil, and the Sentences of Sextus.",
+   "fre_before": 52.6,
+   "fre_after": 61.3,
+   "fk_after": 8.4,
+   "notes": "'first attested in a Western baptismal creed here' rendered as 'the first Western creed for baptism known to carry it is this one'; 'received Western text' as 'accepted Western text'; 'provincial creeds' as 'the creeds of the provinces'; 'a great deal of' as 'much of'; 'other explanations' as 'others'. The translation list moved to its own closing sentence."
+  },
+  {
+   "movement": "aquileian-christianity",
+   "field": "voices",
+   "paragraph": 4,
+   "old": "Ambrose of Milan - who came up the road in 381 to the council that condemned two Homoian bishops of Illyricum, and led its questioning",
+   "new": "Ambrose of Milan - he came up the road in 381 to the council that condemned two Homoian bishops of Illyricum. He led its questioning.",
+   "fre_before": 54.8,
+   "fre_after": 66.4,
+   "fk_after": 6.9,
+   "notes": "Kept 'Name - description' shape; the description is now two sentences."
+  },
+  {
+   "movement": "homoian-arian-christianity",
+   "field": "longDescription",
+   "paragraph": 0,
+   "old": "For long stretches of the fourth century, the church the emperors backed was not the one that eventually won. The Homoians — from the Greek homoios, \"like\" — taught that the Son is like the Father according to the Scriptures. They refused to go further and call him of one being with the Father, because Scripture never used the word and no council should force it on anyone. They did not call themselves Arians; that label came from their opponents. One of their own bishops put it the other way round: Arius had followed the bishops, not the bishops Arius. Backed by the emperors Constantius II and later Valens, and adopted at the councils of 359 and 360, this was the imperial church's official position long enough for Jerome to write that the world groaned to find itself Arian. Its most lasting work was done outside the empire: Ulfila, consecrated bishop around 341, spent his life among the Goths, made an alphabet for their language, and translated the Bible into it. The Goths became Christians in this form, and the Vandals, Burgundians, and Lombards held it too. Jordanes, a sixth-century historian of the Goths, says they passed it on to \"all people of their speech.\" Homoian kingdoms ruled Italy, Spain, and North Africa for generations after the empire itself had turned Nicene. The Visigoths of Spain went over to the Nicene creed at Toledo in 589, and the Lombards of Italy were the last to follow, two generations later.",
+   "new": "For long stretches of the fourth century, the church the emperors backed was not the one that won in the end. The Homoians — from the Greek homoios, \"like\" — taught that the Son is like the Father according to the Scriptures. They refused to go further and call him of one being with the Father. Scripture never used that word, they said, and no council should force it on anyone. They did not call themselves Arians; that label came from their opponents. One of their own bishops put it the other way round: Arius had followed the bishops, not the bishops Arius. The emperors Constantius II and later Valens backed this position, and the councils of 359 and 360 adopted it. It stayed the imperial church's official position long enough for Jerome to write that the world groaned to find itself Arian. Its most lasting work was done outside the empire. Ulfila, made a bishop around 341, spent his life among the Goths. He made an alphabet for their language and translated the Bible into it. The Goths became Christians in this form, and the Vandals, Burgundians, and Lombards held it too. Jordanes, a sixth-century historian of the Goths, says they passed it on to \"all people of their speech.\" Homoian kingdoms ruled Italy, Spain, and North Africa for generations after the empire itself had turned Nicene. The Visigoths of Spain went over to the Nicene creed at Toledo in 589. The Lombards of Italy were the last to follow, two generations later.",
+   "fre_before": 57.4,
+   "fre_after": 66.7,
+   "fk_after": 7.8,
+   "notes": "'consecrated bishop' rendered as 'made a bishop'; the councils/emperors sentence turned active."
+  },
+  {
+   "movement": "homoian-arian-christianity",
+   "field": "why",
+   "paragraph": 0,
+   "old": "The Homoians taught that the Son is 'like' the Father according to the Scriptures, but refused to say he was of one being with the Father, holding that no council should force a word Scripture itself never used. Backed by the emperors Constantius II and Valens, this was the official position of the imperial church for long stretches of the fourth century — long enough for Jerome to write that the world groaned to find itself Arian. Its bishop Ulfila spent his life among the Goths, made an alphabet for their language, and translated the Bible into it. The Goths became Christians in this form, and the Vandals, Burgundians, and Lombards held it too. Homoian kingdoms ruled Italy, Spain, and North Africa for generations after the empire itself had turned Nicene.",
+   "new": "The Homoians taught that the Son is 'like' the Father according to the Scriptures. But they refused to say he was of one being with the Father. No council, they held, should force a word that Scripture itself never used. The emperors Constantius II and Valens backed them, and for long stretches of the fourth century this was the imperial church's official position. It lasted long enough for Jerome to write that the world groaned to find itself Arian. Its bishop Ulfila spent his life among the Goths, made an alphabet for their language, and translated the Bible into it. The Goths became Christians in this form, and the Vandals, Burgundians, and Lombards held it too. Homoian kingdoms ruled Italy, Spain, and North Africa for generations after the empire itself had turned Nicene.",
+   "fre_before": 52.2,
+   "fre_after": 62.7,
+   "fk_after": 8.6,
+   "notes": ""
+  },
+  {
+   "movement": "homoian-arian-christianity",
+   "field": "legacy",
+   "paragraph": 0,
+   "old": "Its own churches are gone: every Homoian kingdom eventually conformed to the Nicene creed, and no continuing community carries the tradition forward. What it left behind is more oblique. Large parts of Ulfila's Gothic Bible survive, and scholars of the Germanic languages still edit and study it. Its finest copy, written in silver and gold letters on purple parchment in the fifth or sixth century, is kept in Uppsala. Its buildings survive too. Ravenna was the capital of Theoderic, an Arian king, and its Arian Baptistery and Sant'Apollinare Nuovo still stand, with mosaics among the finest anywhere. And the Nicene Creed is itself partly the shape of the argument with them. In 381 the Council of Constantinople confirmed the faith of Nicaea, which calls the Son of one being with the Father. In the same canon it condemned the Homoians by name, as \"the Arians or Eudoxians.\"",
+   "new": "Its own churches are gone. Every Homoian kingdom in time came over to the Nicene creed, and no community today carries the tradition forward. What it left behind is less direct. Large parts of Ulfila's Gothic Bible survive, and scholars of the Germanic languages still edit and study it. Its finest copy is kept in Uppsala. It was written in silver and gold letters on purple parchment in the fifth or sixth century. Its buildings survive too. Ravenna was the capital of Theoderic, an Arian king. Its Arian Baptistery and Sant'Apollinare Nuovo still stand, with mosaics among the finest anywhere. And the Nicene Creed itself partly carries the shape of the argument with them. In 381 the Council of Constantinople confirmed the faith of Nicaea, which calls the Son of one being with the Father. In the same canon it condemned the Homoians by name, as \"the Arians or Eudoxians.\"",
+   "fre_before": 55.8,
+   "fre_after": 62.3,
+   "fk_after": 7.4,
+   "notes": "'conformed to' rendered as 'came over to'; 'no continuing community' as 'no community today'; 'more oblique' as 'less direct'; 'is itself partly the shape of the argument' as 'itself partly carries the shape of the argument'."
+  }
+ ]
+}

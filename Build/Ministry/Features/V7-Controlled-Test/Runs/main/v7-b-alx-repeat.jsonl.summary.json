@@ -1,0 +1,47 @@
+{
+  "run_settings": {
+    "live_test": "v7-b-alx-pahc-syr",
+    "cap_usd": 1.276,
+    "mode": "live",
+    "voice_model_id": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+    "voice_max_tokens": 2048,
+    "a_voice_max_tokens": 2048,
+    "voice_temperature": "API default (not set by stream_voice_turn)",
+    "region": "us-east-1",
+    "route": "Bedrock, regional inference profile, us-east-1",
+    "price_source": "Anthropic published API rate card (platform.claude.com/docs/en/about-claude/pricing, fetched August 2026); Bedrock's own pricing page was not independently fetchable in this environment (egress to aws.amazon.com blocked) - Bedrock has historically mirrored Anthropic's direct per-token rates for the same models, not independently re-verified here; x1.1 Bedrock regional-profile premium (Billing Audit measurement)",
+    "safety_call": "not made - the admission harness path answers each sealed probe with the voice call only",
+    "reader_call": "not made - not in the admission harness path",
+    "self_revision": "off - not in the admission harness path",
+    "voice_call_attempts": 3,
+    "world": "alx",
+    "arm": "b",
+    "reading_context": true,
+    "reading_records_dir": "/tmp/claude-0/-home-user-CIC-Project/e2c96c64-fa8f-5255-a365-4dc2e101dbc4/scratchpad/v6/reading_records_974/records",
+    "reading_sha256": "sha256:e6d6d576618b550b3ea8150199269025e7918c32f9dd8fc31c2b774771bfc625",
+    "reading_records": 35,
+    "probe_count": 14,
+    "battery_size": 28,
+    "package_manifest_hash": "sha256:de580ce573d277199435172652714fcee132edce80812af600b3ec2849b68ee3",
+    "package_content_hash": "sha256:9448b3a729bdd26b9bcd76d5b665ee7979016e91aeb6ea7467f31a88f50e5e4f",
+    "shape_hash": "sha256:4b285d569c53328c5c83a1157047377396f8a5eca4bf00faa635491fc565aeca",
+    "seal_hash": "sha256:6168a4de56b7f5d332452555437e212811a98ae204a9d91a69ac05bf707aaa47",
+    "repo_commit": "cb585b75ad38cf73fa465214bb62dacefd317b89"
+  },
+  "started_at": "2026-11-04T01:54:05+00:00",
+  "finished_at": "2026-11-04T01:58:42+00:00",
+  "turns": 14,
+  "priced_usd": 0.448174,
+  "pending_replies": [],
+  "stopped": null,
+  "live_test": {
+    "name": "v7-b-alx-pahc-syr",
+    "cap_usd": 1.276,
+    "route": "Bedrock, regional inference profile, us-east-1",
+    "model_ids": [
+      "us.anthropic.claude-sonnet-4-5-20250929-v1:0"
+    ],
+    "priced_total_usd": 0.448174
+  },
+  "ledger": "/tmp/claude-0/-home-user-CIC-Project/e2c96c64-fa8f-5255-a365-4dc2e101dbc4/scratchpad/v8/ledger-v7-b-alx-pahc-syr-main.jsonl"
+}

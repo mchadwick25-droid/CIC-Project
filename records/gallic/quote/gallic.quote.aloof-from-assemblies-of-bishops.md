@@ -18,7 +18,7 @@ confidence:
     the wording is Documented to this Dialogues text.
 sources:
 - source_id: gallic.source.sulpitius-dialogues-ii-iii
-  locus: "Dialogues III.13 (npnf211 div ii.iv.iii.xiii, file lines 5217-5219): the aftermath of Martin's coerced communion with the Ithacian bishops"
+  locus: "Dialogues III.13 (cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml, lines 5217-5219; div ii.iv.iii.xiii): the aftermath of Martin's coerced communion with the Ithacian bishops"
   license: public-domain
 retrieval:
   tier: 2

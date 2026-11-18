@@ -1,0 +1,169 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "lpc.witness.the-only-son-and-the-trinity"
+   ],
+   "sentence": "To us, Jesus Christ is the only Son of God, and with the Holy Ghost the Trinity makes up the one Godhead."
+  },
+  {
+   "record_ids": [
+    "lpc.term.grace"
+   ],
+   "sentence": "Augustine taught that grace means no effort of ours is enough alone, and any good we do was given to us first."
+  },
+  {
+   "record_ids": [
+    "lpc.quote.no-one-has-the-love-of-god-from-himself"
+   ],
+   "sentence": "Augustine, reading Paul, wrote: “Indeed, he had said, ‘The love of God has been poured out in our hearts.’ Then he added at once, ‘through the Holy Spirit, who has been given to us.’ He did this so that no one would think his love for God came from himself. So if you are to love God, let God live in you and love Himself through you. That is, let Him move you to His love. Let Him kindle you, give you light and stir you up.”"
+  },
+  {
+   "record_ids": [
+    "lpc.witness.restless-heart-and-the-unrepentant-enemy"
+   ],
+   "sentence": "Augustine opened the story of his own life with a heart restless until it finds rest in God."
+  },
+  {
+   "record_ids": [
+    "lpc.witness.judged-on-the-life-lived-here"
+   ],
+   "sentence": "God is also judge, and Augustine taught that a person is judged on the life lived here."
+  },
+  {
+   "record_ids": [
+    "lpc.witness.punishment-without-end"
+   ],
+   "sentence": "Augustine taught that the punishment of the lost has no end, and that some lost suffer less than others."
+  }
+ ],
+ "citations": [
+  "lpc.quote.no-one-has-the-love-of-god-from-himself",
+  "lpc.term.grace",
+  "lpc.witness.judged-on-the-life-lived-here",
+  "lpc.witness.punishment-without-end",
+  "lpc.witness.restless-heart-and-the-unrepentant-enemy",
+  "lpc.witness.the-only-son-and-the-trinity"
+ ],
+ "group": "A",
+ "id": "q006",
+ "net_sentences": [
+  {
+   "draft": "To us, Jesus Christ is the only Son of God, and with the Holy Ghost the Trinity makes up the one Godhead [[lpc.witness.the-only-son-and-the-trinity]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "To us, Jesus Christ is the only Son of God, and with the Holy Ghost the Trinity makes up the one Godhead.",
+   "tags": [
+    "lpc.witness.the-only-son-and-the-trinity"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "Augustine taught that grace means no effort of ours is enough alone, and any good we do was given to us first [[lpc.term.grace]] [[as:paraphrase]].",
+   "sentence": "Augustine taught that grace means no effort of ours is enough alone, and any good we do was given to us first.",
+   "tags": [
+    "lpc.term.grace"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Augustine, reading Paul, wrote: [[quote:lpc.quote.no-one-has-the-love-of-god-from-himself]]",
+   "placed_quote": "lpc.quote.no-one-has-the-love-of-god-from-himself",
+   "sentence": "Augustine, reading Paul, wrote: “Indeed, he had said, ‘The love of God has been poured out in our hearts.’ Then he added at once, ‘through the Holy Spirit, who has been given to us.’ He did this so that no one would think his love for God came from himself. So if you are to love God, let God live in you and love Himself through you. That is, let Him move you to His love. Let Him kindle you, give you light and stir you up.”",
+   "tags": [
+    "lpc.quote.no-one-has-the-love-of-god-from-himself"
+   ],
+   "verdict": "ok",
+   "why": "quote placed by code, verbatim to its record"
+  },
+  {
+   "draft": "[[as:paraphrase]].",
+   "sentence": ".",
+   "tags": [],
+   "verdict": "ok",
+   "why": "no checkable claim - interpretive/connective framing"
+  },
+  {
+   "draft": "Augustine opened the story of his own life with a heart restless until it finds rest in God [[lpc.witness.restless-heart-and-the-unrepentant-enemy]] [[as:paraphrase]].",
+   "sentence": "Augustine opened the story of his own life with a heart restless until it finds rest in God.",
+   "tags": [
+    "lpc.witness.restless-heart-and-the-unrepentant-enemy"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "God is also judge, and Augustine taught that a person is judged on the life lived here [[lpc.witness.judged-on-the-life-lived-here]] [[as:paraphrase]].",
+   "ratio": 0.88,
+   "sentence": "God is also judge, and Augustine taught that a person is judged on the life lived here.",
+   "tags": [
+    "lpc.witness.judged-on-the-life-lived-here"
+   ],
+   "verdict": "ok",
+   "why": "grounded 88% in own tagged records"
+  },
+  {
+   "draft": "Augustine taught that the punishment of the lost has no end, and that some lost suffer less than others [[lpc.witness.punishment-without-end]] [[as:paraphrase]].",
+   "sentence": "Augustine taught that the punishment of the lost has no end, and that some lost suffer less than others.",
+   "tags": [
+    "lpc.witness.punishment-without-end"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  }
+ ],
+ "offered": [
+  "lpc.witness.violence-commanded-not-cruel",
+  "lpc.term.reconciliation-penitential-discipline",
+  "lpc.story.election-of-cyprian",
+  "lpc.quote.chosen-while-still-a-neophyte",
+  "lpc.quote.before-even-a-deacon",
+  "lpc.contested.grace-pelagius-characterization",
+  "lpc.limit.womens-own-voice",
+  "lpc.witness.heard-for-salvation-not-for-wish",
+  "lpc.witness.infants-and-the-sin-of-another",
+  "lpc.term.grace",
+  "lpc.quote.not-his-own-sins-but-the-sins-of-another",
+  "lpc.quote.no-one-has-the-love-of-god-from-himself",
+  "lpc.story.the-death-of-cyprian",
+  "lpc.quote.numidicus-remained-unwillingly",
+  "lpc.quote.thanks-be-to-god"
+ ],
+ "raw_text": "To us, Jesus Christ is the only Son of God, and with the Holy Ghost the Trinity makes up the one Godhead [[lpc.witness.the-only-son-and-the-trinity]] [[as:paraphrase]]. Cyprian's council judged that God's mercy and grace are not to be refused to anyone born of man [[lpc.witness.infants-and-the-sin-of-another]] [[as:paraphrase]]. Augustine taught that grace means no effort of ours is enough alone, and any good we do was given to us first [[lpc.term.grace]] [[as:paraphrase]]. Augustine, reading Paul, wrote: [[quote:lpc.quote.no-one-has-the-love-of-god-from-himself]] [[as:paraphrase]]. Augustine opened the story of his own life with a heart restless until it finds rest in God [[lpc.witness.restless-heart-and-the-unrepentant-enemy]] [[as:paraphrase]]. God is also judge, and Augustine taught that a person is judged on the life lived here [[lpc.witness.judged-on-the-life-lived-here]] [[as:paraphrase]]. Augustine taught that the punishment of the lost has no end, and that some lost suffer less than others [[lpc.witness.punishment-without-end]] [[as:paraphrase]].\n",
+ "reply_shape": {
+  "leadin_support": {
+   "lpc.quote.no-one-has-the-love-of-god-from-himself": [
+    {
+     "detail": "Paul",
+     "kind": "name",
+     "snippet": "ove thee, enkindle, enlighten, arouse thee. Augustine reads Paul to say God's love is poured into the heart by the Holy Spir",
+     "span": "record lpc.quote.no-one-has-the-love-of-god-from-himself"
+    },
+    {
+     "detail": "wrote",
+     "kind": "genre",
+     "snippet": "words of the Apostle, which have been just read out of his Epistle. “But I say, Walk in the Spirit, and ye shall not fulfil th",
+     "span": "cic/texts/npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml, lines 19456-19516"
+    }
+   ]
+  },
+  "placed": [
+   "lpc.quote.no-one-has-the-love-of-god-from-himself"
+  ],
+  "removed": [
+   {
+    "draft": "Cyprian's council judged that God's mercy and grace are not to be refused to anyone born of man [[lpc.witness.infants-and-the-sin-of-another]] [[as:paraphrase]].",
+    "sentence": "Cyprian's council judged that God's mercy and grace are not to be refused to anyone born of man.",
+    "why": "gives a quote record's words without placing it"
+   }
+  ],
+  "repaired": []
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": "C2.S2",
+ "text": "To us, Jesus Christ is the only Son of God, and with the Holy Ghost the Trinity makes up the one Godhead. Augustine taught that grace means no effort of ours is enough alone, and any good we do was given to us first. Augustine, reading Paul, wrote: “Indeed, he had said, ‘The love of God has been poured out in our hearts.’ Then he added at once, ‘through the Holy Spirit, who has been given to us.’ He did this so that no one would think his love for God came from himself. So if you are to love God, let God live in you and love Himself through you. That is, let Him move you to His love. Let Him kindle you, give you light and stir you up.”. Augustine opened the story of his own life with a heart restless until it finds rest in God. God is also judge, and Augustine taught that a person is judged on the life lived here. Augustine taught that the punishment of the lost has no end, and that some lost suffer less than others.",
+ "voice_set_aside": false
+}

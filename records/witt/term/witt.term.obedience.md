@@ -61,10 +61,10 @@ senses:
     and queer they may be.'' Our confession: ''Christians are necessarily bound to obey their own magistrates
     and laws save only when commanded to sin; for then they ought to obey God rather than men.'''
   evidential: Attested at both catechisms and the confession's own limit-clause.
-  personal: A majesty hidden in parents and rulers, honoured even where they are 'lowly, poor, frail,
+  personal: A majesty hidden in parents and rulers, honored even where they are 'lowly, poor, frail,
     and queer' -- limited at the one point where obeying them would be sin.
   translational: 'Do not hear obedience as servility, and do not hear the limit-clause as a general right
-    of resistance: we mean honour of a majesty hidden in ordinary people, limited only where obedience
+    of resistance: we mean honor of a majesty hidden in ordinary people, limited only where obedience
     would mean sin.'
 quick_meaning: 'We owe honor to parents and rulers. One limit: we never obey an order to sin.'
 distortion_risk: high

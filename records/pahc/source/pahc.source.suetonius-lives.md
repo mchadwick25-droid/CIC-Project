@@ -18,6 +18,7 @@ work: "Life of Claudius 25.4 (the 'Chrestus' expulsion notice, events c. 49 CE) 
 edition: "The Translation of Alexander Thomson, M.D., revised and corrected by T. Forester, Esq., A.M. (Bohn's Classical Library; London: George Bell & Sons, 1909) - vendored as cic/texts/suetonius_lives-of-the-twelve-caesars_thomson-forester1909.txt, sourced from Project Gutenberg eBook #6400 (a clean transcription of this same edition) and independently cross-checked directly against an archive.org scan of the same 1909 printing (identifier livesoftwelvecae0000suet_o9f1) - title page and both cited passages match exactly"
 citation: 'Suetonius, Lives of the Twelve Caesars, trans. Alexander Thomson, rev. T. Forester (Bohn''s Classical Library; London: George Bell & Sons, 1909)'
 kind: vendored
+shelf_row: suetonius_lives-of-the-twelve-caesars_thomson-forester1909--the-lives-of-the-twelve-caesars
 rights_status: public-domain
 attribution_status: attributed
 discovery_channel: "prior-build Source Registry row P09 (Doc_02, approved 2026-07-07), candidate edition named but not fetchable from the build sandbox at that time (pahc.search.roman-historians-english-pd, result: not_found); acquired and vendored 2026-09-13 via a fleet cross-world research thread's resource handoff, independently re-verified against two independent digitizations of the same edition before vendoring"

@@ -1,0 +1,24 @@
+{
+  "round": 3,
+  "kind": "targeted recheck",
+  "verdict": "revise",
+  "counts": {"blocking": 0, "substantial": 0, "minor": 1},
+  "findings": [
+    {
+      "id": "R3-01",
+      "target": "notes of byzantine-church-after-1054--latin-papal-church-gregorian and athonite-and-comnenian-byzantine-monasticism--serbian-and-bulgarian-medieval-monasticism (links touching era-5 movements, unchanged since 0eb42483)",
+      "severity": "minor",
+      "issue": "R2-02 was meant to clear the 'we hold' wording from every era-5 note and field in one pass. Its list of 17 places left out these two notes. Both still use the library's own voice: 'We hold only the Latin side's record of this break.' and 'We do not yet hold the founding charter or Sava's own writings, so this rests on a modern study of Sava.' This is the same fault R2-02 fixed elsewhere. The miss is the round-2 reviewer's, not the reviser's, who applied R2-02 exactly as written.",
+      "evidence": "cic-website/data/world-census.json edges with those ids; same text at 0eb42483. A scan of every edge with an era-5 end, and of the four fields of every era-5 movement, finds no other 'we hold' or 'we do not' wording.",
+      "fix": "Mechanical string replacement only. No further review round is needed beyond confirming the two strings. (1) byzantine-church-after-1054--latin-papal-church-gregorian: 'We hold only the Latin side's record of this break.' -> 'Only the Latin side's record of this break is quoted here.' (note Reading Ease 60.0). (2) athonite-and-comnenian-byzantine-monasticism--serbian-and-bulgarian-medieval-monasticism: 'We do not yet hold the founding charter or Sava's own writings, so this rests on a modern study of Sava.' -> 'This rests on a modern study of Sava, not on the founding charter or Sava's own writings.' (note Reading Ease 62.7). Neither replacement claims that no source exists."
+    }
+  ],
+  "rechecked": [
+    {"finding": "R2-01", "status": "fixed. Era-6 pair link removed from edges. New link the-franciscan-movement--observant-reform-and-popular-preaching matches the fix: influenced, Documented, A, verified-direct. Its quotes match lines 42614-42616 (no. 485, dated 28 August 1440 at 42602) and 34650-34653 (no. 385). The note is accurate to both letters and scores 60.3. relationsSummary sentence replaced ('Later the Observants kept its rule to the letter.', field 64.1). Drafting_Record disposition points to the new link id."},
+    {"finding": "R2-02", "status": "fixed as specified: all 16 applicable places changed to the given strings, each field/note scores >= 60 (60.5-76.6); item 7 lapsed with the dropped link. Two places the list missed: see R3-01."},
+    {"finding": "R2-03", "status": "fixed as specified; field scores 63.8."},
+    {"finding": "R2-04", "status": "fixed; the item is not carried into Open-Gaps."},
+    {"finding": "scope of change", "status": "census diff against 0eb42483 shows only the edges and era-5 movement fields listed in Revision_Round2.json; no other top-level key changed."},
+    {"finding": "validator", "status": "node tools/validate-census.mjs: 300 movements, 289 edges, 0 errors, 2 unrelated shortName warnings."}
+  ]
+}

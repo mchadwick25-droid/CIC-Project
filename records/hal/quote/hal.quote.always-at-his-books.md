@@ -16,7 +16,7 @@ confidence:
   divergence_note: null
 sources:
 - source_id: hal.source.sulpitius-dialogues
-  locus: Dialogue I.9
+  locus: "Dialogue I.9 (cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml, lines 2960-2962)"
   license: public-domain
 text: 'He is always occupied in reading, always at his books with his whole heart: he
   takes no rest day or night; he is perpetually either reading or writing something.'
@@ -32,7 +32,7 @@ retrieval:
   - "participant asks what an ordinary day of work looked like"
   - "participant asks how a visitor described the household from outside"
 use_note:
-  means: "The traveller Postumianus, in Sulpitius Severus's Dialogues, describes Jerome at Bethlehem around 400 as constantly reading or writing, day and night."
+  means: "The traveler Postumianus, in Sulpitius Severus's Dialogues, describes Jerome at Bethlehem around 400 as constantly reading or writing, day and night."
   not_for:
     - "a literal timetable of Jerome's day rather than an admiring visitor's sketch"
     - "a claim that the whole community, not Jerome alone, spent every hour at books"

@@ -1,0 +1,182 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "syr.dw.adam-grace"
+   ],
+   "sentence": "We said that from Adam's transgression, death has ruled over everyone, even over those who had not sinned as Adam did."
+  },
+  {
+   "record_ids": [
+    "syr.dw.adam-grace"
+   ],
+   "sentence": "What people inherit from Adam we described as death's rule and sin's wounding, a sickness in the human race."
+  },
+  {
+   "record_ids": [
+    "syr.dw.adam-grace"
+   ],
+   "sentence": "We preached that our Lord took sin and nailed it to his cross."
+  },
+  {
+   "record_ids": [
+    "syr.dw.physician"
+   ],
+   "sentence": "The sage taught that of all who ever put on a body, only One was without wound."
+  },
+  {
+   "record_ids": [
+    "syr.limit.what-must-one-do"
+   ],
+   "sentence": "For the one who falls, he named penitence as the medicine for the wound."
+  },
+  {
+   "record_ids": [
+    "syr.quote.aphrahat-stone-foundation"
+   ],
+   "sentence": "The Persian sage wrote in Demonstration I: “In the same way the true Stone, our Lord Jesus Christ, is the foundation of all our faith. On him, on this Stone, faith is laid; and resting on faith, the whole structure rises until it is complete.”"
+  },
+  {
+   "record_ids": [
+    "syr.dw.adam-grace"
+   ],
+   "sentence": "On faith the whole house was raised: fasting, prayer, love, almsgiving, and meekness."
+  },
+  {
+   "record_ids": [
+    "syr.limit.what-must-one-do"
+   ],
+   "sentence": "Aphrahat leaves the final reckoning to the judge."
+  }
+ ],
+ "citations": [
+  "syr.dw.adam-grace",
+  "syr.dw.physician",
+  "syr.limit.what-must-one-do",
+  "syr.quote.aphrahat-stone-foundation"
+ ],
+ "group": "A",
+ "id": "q008",
+ "net_sentences": [
+  {
+   "draft": "We said that from Adam's transgression, death has ruled over everyone, even over those who had not sinned as Adam did [[syr.dw.adam-grace]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "We said that from Adam's transgression, death has ruled over everyone, even over those who had not sinned as Adam did.",
+   "tags": [
+    "syr.dw.adam-grace"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "What people inherit from Adam we described as death's rule and sin's wounding, a sickness in the human race [[syr.dw.adam-grace]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "What people inherit from Adam we described as death's rule and sin's wounding, a sickness in the human race.",
+   "tags": [
+    "syr.dw.adam-grace"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "We preached that our Lord took sin and nailed it to his cross [[syr.dw.adam-grace]] [[as:paraphrase]].",
+   "sentence": "We preached that our Lord took sin and nailed it to his cross.",
+   "tags": [
+    "syr.dw.adam-grace"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "The sage taught that of all who ever put on a body, only One was without wound [[syr.dw.physician]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "The sage taught that of all who ever put on a body, only One was without wound.",
+   "tags": [
+    "syr.dw.physician"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "For the one who falls, he named penitence as the medicine for the wound [[syr.limit.what-must-one-do]] [[as:paraphrase]].",
+   "sentence": "For the one who falls, he named penitence as the medicine for the wound.",
+   "tags": [
+    "syr.limit.what-must-one-do"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "The Persian sage wrote in Demonstration I: [[quote:syr.quote.aphrahat-stone-foundation]]",
+   "placed_quote": "syr.quote.aphrahat-stone-foundation",
+   "sentence": "The Persian sage wrote in Demonstration I: “In the same way the true Stone, our Lord Jesus Christ, is the foundation of all our faith. On him, on this Stone, faith is laid; and resting on faith, the whole structure rises until it is complete.”",
+   "tags": [
+    "syr.quote.aphrahat-stone-foundation"
+   ],
+   "verdict": "ok",
+   "why": "quote placed by code, verbatim to its record"
+  },
+  {
+   "draft": "On faith the whole house was raised: fasting, prayer, love, almsgiving, and meekness [[syr.dw.adam-grace]] [[as:paraphrase]].",
+   "sentence": "On faith the whole house was raised: fasting, prayer, love, almsgiving, and meekness.",
+   "tags": [
+    "syr.dw.adam-grace"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Aphrahat leaves the final reckoning to the judge [[syr.limit.what-must-one-do]] [[as:paraphrase]].",
+   "sentence": "Aphrahat leaves the final reckoning to the judge.",
+   "tags": [
+    "syr.limit.what-must-one-do"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  }
+ ],
+ "offered": [
+  "syr.limit.what-must-one-do",
+  "syr.dw.adam-grace",
+  "syr.story.basil-legend",
+  "syr.quote.aphrahat-stone-foundation",
+  "syr.gravity.heresiological-self-definition",
+  "syr.limit.ritual-sequence",
+  "syr.dw.cost-distance",
+  "syr.dw.apostolic",
+  "syr.term.qyama",
+  "syr.term.ihidaya",
+  "syr.quote.dem6-visit-the-sick",
+  "syr.gravity.covenant-life"
+ ],
+ "raw_text": "We said that from Adam's transgression, death has ruled over everyone, even over those who had not sinned as Adam did [[syr.dw.adam-grace]] [[as:paraphrase]]. What people inherit from Adam we described as death's rule and sin's wounding, a sickness in the human race [[syr.dw.adam-grace]] [[as:paraphrase]]. We preached that our Lord took sin and nailed it to his cross [[syr.dw.adam-grace]] [[as:paraphrase]]. The sage taught that of all who ever put on a body, only One was without wound [[syr.dw.physician]] [[as:paraphrase]]. For the one who falls, he named penitence as the medicine for the wound [[syr.limit.what-must-one-do]] [[as:paraphrase]]. The Persian sage wrote in Demonstration I: [[quote:syr.quote.aphrahat-stone-foundation]]\nOn faith the whole house was raised: fasting, prayer, love, almsgiving, and meekness [[syr.dw.adam-grace]] [[as:paraphrase]]. Aphrahat leaves the final reckoning to the judge [[syr.limit.what-must-one-do]] [[as:paraphrase]].\n",
+ "reply_shape": {
+  "leadin_support": {
+   "syr.quote.aphrahat-stone-foundation": [
+    {
+     "detail": "Demonstration",
+     "kind": "name",
+     "snippet": "the structure rises until it is completed. Aphrahat says in Demonstration I that Jesus Christ is the true Stone founding all faith, a",
+     "span": "record syr.quote.aphrahat-stone-foundation"
+    },
+    {
+     "detail": "wrote",
+     "kind": "genre",
+     "snippet": "the Persian sage whose dated letters survive where his life does not - a voice from inside the",
+     "span": "record syr.figure.aphrahat"
+    }
+   ]
+  },
+  "placed": [
+   "syr.quote.aphrahat-stone-foundation"
+  ],
+  "removed": [],
+  "repaired": []
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": "C4.S2",
+ "text": "We said that from Adam's transgression, death has ruled over everyone, even over those who had not sinned as Adam did. What people inherit from Adam we described as death's rule and sin's wounding, a sickness in the human race. We preached that our Lord took sin and nailed it to his cross. The sage taught that of all who ever put on a body, only One was without wound. For the one who falls, he named penitence as the medicine for the wound. The Persian sage wrote in Demonstration I: “In the same way the true Stone, our Lord Jesus Christ, is the foundation of all our faith. On him, on this Stone, faith is laid; and resting on faith, the whole structure rises until it is complete.”\n\nOn faith the whole house was raised: fasting, prayer, love, almsgiving, and meekness. Aphrahat leaves the final reckoning to the judge.",
+ "voice_set_aside": false
+}

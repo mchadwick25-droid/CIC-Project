@@ -33,6 +33,7 @@ retrieval:
   - participant asks how Augustine spoke of Cyprian
   - participant asks why the Lord spoke of one Shepherd and not of many
   - participant asks how good shepherds were held in one unity
+  - participant asks how Augustine could call many leaders good shepherds and still say the Lord named only one Shepherd
   prefer_instead:
   - participant asks whether one bishop could overrule another -- lpc.quote.bishop-of-bishops gives Cyprian's
     own words

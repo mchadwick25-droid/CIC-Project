@@ -1,0 +1,214 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "lpc.story.hundred-thousand-sesterces"
+   ],
+   "sentence": "Yes, our church sent a hundred thousand sesterces to ransom our captive brethren."
+  },
+  {
+   "record_ids": [
+    "lpc.quote.a-hundred-thousand-sesterces"
+   ],
+   "sentence": "Cyprian wrote: “Finally, we give you our warmest thanks. You wanted us to share in your concern, and in so great and needed a work. You offered us fruitful fields in which to sow the seeds of our hope. We expect a harvest of the richest fruit from this heavenly work that brings salvation. So we have sent you a sum of one hundred thousand sesterces. It was collected here in the Church over which, by the Lord's mercy, we preside. It came from the gifts of the clergy and people who live among us. You will hand it out there as carefully as you can.”"
+  },
+  {
+   "record_ids": [
+    "lpc.story.hundred-thousand-sesterces"
+   ],
+   "sentence": "Our letters tell of this ransom:"
+  },
+  {
+   "record_ids": [
+    "lpc.story.hundred-thousand-sesterces"
+   ],
+   "sentence": "Eight bishops wrote to Cyprian, who led our church, that barbarians had carried off our brothers and sisters, and he read their letter with tears."
+  },
+  {
+   "record_ids": [
+    "lpc.story.hundred-thousand-sesterces"
+   ],
+   "sentence": "He answered that we must pay to set them free, not only out of love but because our religion called us to it."
+  },
+  {
+   "record_ids": [
+    "lpc.story.hundred-thousand-sesterces"
+   ],
+   "sentence": "Paul says that everyone baptized into Christ has put on Christ, so we were to see Christ himself in our captive brothers and sisters."
+  },
+  {
+   "record_ids": [
+    "lpc.story.hundred-thousand-sesterces"
+   ],
+   "sentence": "Our clergy and people gave quickly and freely."
+  },
+  {
+   "record_ids": [
+    "lpc.story.hundred-thousand-sesterces"
+   ],
+   "sentence": "We sent the bishops one hundred thousand sesterces to use for the captives as carefully as they could."
+  },
+  {
+   "record_ids": [
+    "lpc.story.hundred-thousand-sesterces"
+   ],
+   "sentence": "We do not know whether the ransom worked, because Cyprian never wrote again about the outcome."
+  },
+  {
+   "record_ids": [
+    "lpc.story.hundred-thousand-sesterces"
+   ],
+   "sentence": "No source of ours gives the sum in modern money, and specialists contest any such comparison."
+  }
+ ],
+ "citations": [
+  "lpc.quote.a-hundred-thousand-sesterces",
+  "lpc.story.hundred-thousand-sesterces"
+ ],
+ "group": "C",
+ "id": "q056",
+ "net_sentences": [
+  {
+   "draft": "Yes, our church sent a hundred thousand sesterces to ransom our captive brethren [[lpc.story.hundred-thousand-sesterces]] [[as:paraphrase]].",
+   "ratio": 0.89,
+   "sentence": "Yes, our church sent a hundred thousand sesterces to ransom our captive brethren.",
+   "tags": [
+    "lpc.story.hundred-thousand-sesterces"
+   ],
+   "verdict": "ok",
+   "why": "grounded 89% in own tagged records"
+  },
+  {
+   "draft": "Cyprian wrote: [[quote:lpc.quote.a-hundred-thousand-sesterces]]",
+   "placed_quote": "lpc.quote.a-hundred-thousand-sesterces",
+   "sentence": "Cyprian wrote: “Finally, we give you our warmest thanks. You wanted us to share in your concern, and in so great and needed a work. You offered us fruitful fields in which to sow the seeds of our hope. We expect a harvest of the richest fruit from this heavenly work that brings salvation. So we have sent you a sum of one hundred thousand sesterces. It was collected here in the Church over which, by the Lord's mercy, we preside. It came from the gifts of the clergy and people who live among us. You will hand it out there as carefully as you can.”",
+   "tags": [
+    "lpc.quote.a-hundred-thousand-sesterces"
+   ],
+   "verdict": "ok",
+   "why": "quote placed by code, verbatim to its record"
+  },
+  {
+   "draft": "Our letters tell of this ransom: [[story:lpc.story.hundred-thousand-sesterces:short]]",
+   "sentence": "Our letters tell of this ransom:",
+   "tags": [
+    "lpc.story.hundred-thousand-sesterces"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Eight bishops wrote to Cyprian, who led our church, that barbarians had carried off our brothers and sisters, and he read their letter with tears [[lpc.story.hundred-thousand-sesterces]].",
+   "placed_story": "lpc.story.hundred-thousand-sesterces",
+   "sentence": "Eight bishops wrote to Cyprian, who led our church, that barbarians had carried off our brothers and sisters, and he read their letter with tears.",
+   "tags": [
+    "lpc.story.hundred-thousand-sesterces"
+   ],
+   "verdict": "ok",
+   "why": "story placed by code, verbatim to its record"
+  },
+  {
+   "draft": "He answered that we must pay to set them free, not only out of love but because our religion called us to it [[lpc.story.hundred-thousand-sesterces]].",
+   "placed_story": "lpc.story.hundred-thousand-sesterces",
+   "sentence": "He answered that we must pay to set them free, not only out of love but because our religion called us to it.",
+   "tags": [
+    "lpc.story.hundred-thousand-sesterces"
+   ],
+   "verdict": "ok",
+   "why": "story placed by code, verbatim to its record"
+  },
+  {
+   "draft": "Paul says that everyone baptized into Christ has put on Christ, so we were to see Christ himself in our captive brothers and sisters [[lpc.story.hundred-thousand-sesterces]].",
+   "placed_story": "lpc.story.hundred-thousand-sesterces",
+   "sentence": "Paul says that everyone baptized into Christ has put on Christ, so we were to see Christ himself in our captive brothers and sisters.",
+   "tags": [
+    "lpc.story.hundred-thousand-sesterces"
+   ],
+   "verdict": "ok",
+   "why": "story placed by code, verbatim to its record"
+  },
+  {
+   "draft": "Our clergy and people gave quickly and freely [[lpc.story.hundred-thousand-sesterces]].",
+   "placed_story": "lpc.story.hundred-thousand-sesterces",
+   "sentence": "Our clergy and people gave quickly and freely.",
+   "tags": [
+    "lpc.story.hundred-thousand-sesterces"
+   ],
+   "verdict": "ok",
+   "why": "story placed by code, verbatim to its record"
+  },
+  {
+   "draft": "We sent the bishops one hundred thousand sesterces to use for the captives as carefully as they could [[lpc.story.hundred-thousand-sesterces]].",
+   "placed_story": "lpc.story.hundred-thousand-sesterces",
+   "sentence": "We sent the bishops one hundred thousand sesterces to use for the captives as carefully as they could.",
+   "tags": [
+    "lpc.story.hundred-thousand-sesterces"
+   ],
+   "verdict": "ok",
+   "why": "story placed by code, verbatim to its record"
+  },
+  {
+   "draft": "We do not know whether the ransom worked, because Cyprian never wrote again about the outcome [[lpc.story.hundred-thousand-sesterces]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "We do not know whether the ransom worked, because Cyprian never wrote again about the outcome.",
+   "tags": [
+    "lpc.story.hundred-thousand-sesterces"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "No source of ours gives the sum in modern money, and specialists contest any such comparison [[lpc.story.hundred-thousand-sesterces]] [[as:paraphrase]].",
+   "sentence": "No source of ours gives the sum in modern money, and specialists contest any such comparison.",
+   "tags": [
+    "lpc.story.hundred-thousand-sesterces"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  }
+ ],
+ "offered": [
+  "lpc.witness.no-salvation-outside-the-church",
+  "lpc.term.grace",
+  "lpc.story.the-plague-and-the-enemies",
+  "lpc.story.hundred-thousand-sesterces",
+  "lpc.quote.a-hundred-thousand-sesterces",
+  "lpc.quote.it-becomes-us-to-answer-to-our-birth",
+  "lpc.force.confessors-claim-to-grant-peace",
+  "lpc.limit.the-lapsed-own-account",
+  "lpc.story.the-psalms-on-the-wall",
+  "lpc.quote.the-psalms-hung-upon-the-wall",
+  "lpc.witness.answerability-as-ground",
+  "lpc.term.the-flock",
+  "lpc.quote.let-it-be-the-office-of-love-to-feed-the-flock",
+  "lpc.quote.ancient-venom-against-my-episcopate"
+ ],
+ "raw_text": "Yes, our church sent a hundred thousand sesterces to ransom our captive brethren [[lpc.story.hundred-thousand-sesterces]] [[as:paraphrase]].\n\nCyprian wrote: [[quote:lpc.quote.a-hundred-thousand-sesterces]]\n\nOur letters tell of this ransom: [[story:lpc.story.hundred-thousand-sesterces:short]]\n\nWe do not know whether the ransom worked, because Cyprian never wrote again about the outcome [[lpc.story.hundred-thousand-sesterces]] [[as:paraphrase]]. No source of ours gives the sum in modern money, and specialists contest any such comparison [[lpc.story.hundred-thousand-sesterces]] [[as:paraphrase]].\n",
+ "reply_shape": {
+  "leadin_support": {
+   "lpc.quote.a-hundred-thousand-sesterces": [
+    {
+     "detail": "wrote",
+     "kind": "genre",
+     "snippet": "ong us. You will hand it out there as carefully as you can. Epistle LIX (Oxford Ep. 62), section 3; English at ; Latin at",
+     "span": "record lpc.quote.a-hundred-thousand-sesterces"
+    }
+   ]
+  },
+  "placed": [
+   "lpc.story.hundred-thousand-sesterces",
+   "lpc.quote.a-hundred-thousand-sesterces"
+  ],
+  "removed": [],
+  "repaired": [],
+  "story_lengths": {
+   "lpc.story.hundred-thousand-sesterces": "short"
+  }
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": "C10.S4",
+ "text": "Yes, our church sent a hundred thousand sesterces to ransom our captive brethren.\n\nCyprian wrote: “Finally, we give you our warmest thanks. You wanted us to share in your concern, and in so great and needed a work. You offered us fruitful fields in which to sow the seeds of our hope. We expect a harvest of the richest fruit from this heavenly work that brings salvation. So we have sent you a sum of one hundred thousand sesterces. It was collected here in the Church over which, by the Lord's mercy, we preside. It came from the gifts of the clergy and people who live among us. You will hand it out there as carefully as you can.”\n\nOur letters tell of this ransom:\n\nEight bishops wrote to Cyprian, who led our church, that barbarians had carried off our brothers and sisters, and he read their letter with tears.\n\nHe answered that we must pay to set them free, not only out of love but because our religion called us to it. Paul says that everyone baptized into Christ has put on Christ, so we were to see Christ himself in our captive brothers and sisters.\n\nOur clergy and people gave quickly and freely. We sent the bishops one hundred thousand sesterces to use for the captives as carefully as they could.\n\nWe do not know whether the ransom worked, because Cyprian never wrote again about the outcome. No source of ours gives the sum in modern money, and specialists contest any such comparison.",
+ "voice_set_aside": false
+}

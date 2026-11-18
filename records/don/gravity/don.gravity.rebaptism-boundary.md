@@ -14,7 +14,7 @@ confidence:
   divergence_note: >-
     Doc_04 SS3.2: CONSISTENT, no significant divergence - the least qualified of the four Primary gravities
     on its own terms. The bare fact of the practice is Documented: attested directly and repeatedly in Augustine's
-    own primary text (not merely characterised) and corroborated by Petilian's own quoted argument. The disclosure
+    own primary text (not merely characterized) and corroborated by Petilian's own quoted argument. The disclosure
     that still belongs here is where that confidence rests: on the vendored Optatus/Augustine corpus and Petilian's
     quoted words specifically, which is corroboration from within the hostile text's own quotation of a Donatist
     voice rather than from a source outside that corpus - unlike the martyr-cult gravity, which is attested
@@ -60,7 +60,7 @@ classification: primary
 description: >-
   Rebaptism is confirmed as a central, defining pattern of this world. It is the rite by which a
   person crosses into this church, and by which membership is marked. Baptism given outside the true
-  church is no baptism. So the one who comes over is not baptised again but baptised for the first
+  church is no baptism. So the one who comes over is not baptized again but baptized for the first
   time, and truly.
 
   The risk that this reflects one author's view is low. Augustine's own writing bears witness to the
@@ -80,7 +80,7 @@ description: >-
   concretely acted out and the one most personally felt.
 
   This practice explains why the movement drew the direct and lasting attention of imperial law.
-  Under edict after edict, the law singled out the rebaptism of Catholics as an offence in itself.
+  Under edict after edict, the law singled out the rebaptism of Catholics as an offense in itself.
   It also explains the specific concerns of the 411 Conference.
 
   It held on strongly, and it is attested from the movement's start through the 411 Conference.
@@ -113,17 +113,17 @@ description: >-
   made the rite possible. The charge against Felix of Aptungi did not. That charge grounds the rival
   church's institutional form instead. The ongoing practice of purity and rebaptism is this rite's
   own lived, continuing form. And shifting imperial policy met it head-on. One edict after another
-  named this practice outright as an offence in law.
+  named this practice outright as an offense in law.
 manifestations:
 - the enacted threshold crossed once and bodily - baptism given by a hand of unbroken standing, held to be
   the first true baptism a person ever received
 - On Baptism and Answer to the Letters of Petilian, both devoted substantially to this practice
-- successive imperial edicts naming rebaptism of Catholics specifically as a targeted legal offence
+- successive imperial edicts naming rebaptism of Catholics specifically as a targeted legal offense
 - the Council of Carthage 419 canons on receiving Donatist clergy, whose content depends on this norm
 - the Maximianist clergy received back without repeated baptism - the exception that presupposes the norm
 - Gregory the Great's letters to Columbus (592) and Pantaleon (594), naming Donatist rebaptism - in Numidia in 592, in Africa in 594
 use_note:
-  means: "Rebaptism is the enacted rite by which a person crossed into the communion, counted as a first true baptism and named as an offence in imperial edicts, a central practice Augustine attests directly."
+  means: "Rebaptism is the enacted rite by which a person crossed into the communion, counted as a first true baptism and named as an offense in imperial edicts, a central practice Augustine attests directly."
   not_for:
     - "a claim about the doctrine that a tainted hand confers nothing, the rite's doctrinal ground, which sits in don.gravity.ministerial-purity"
     - "a claim about the Maximianist clergy received back without rebaptism, the exception that sits in don.gravity.rigor-against-reception"

@@ -26,6 +26,7 @@ edition: Clarke's 1916 translation, vendored as cic/texts/gregory-nyssa_life-of-
   kept per the Registry's own no-deletion practice, redundant with this row)
 citation: Gregory of Nyssa, Life of St. Macrina, trans. Clarke (1916)
 kind: vendored
+shelf_row: gregory-nyssa_life-of-macrina_clarke1916--the-life-of-st-macrina-vita-macrinae-complete-introduction
 rights_status: "public-domain; vendored and independently verified (identity, completeness, provenance) before vendoring"
 attribution_status: attributed
 discovery_channel: builder-prior-knowledge; Source Registry row 48; the file itself was independently

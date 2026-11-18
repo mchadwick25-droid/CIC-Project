@@ -17,8 +17,7 @@ confidence:
     Documented: Justin is describing the practice of his own community to an outside audience, in an apology addressed to the emperor, so the account is shaped to look orderly and unthreatening to a Roman reader. What is described is normal practice as one participant presents it, not a rule observed everywhere.
 sources:
 - source_id: pahc.source.justin-first-apology
-  locus: >-
-    First Apology, ch. LXVII (Weekly worship of the Christians), in the ANF translation (anf01_apostolic-fathers-justin-irenaeus.xml)
+  locus: "First Apology, ch. LXVII (Weekly worship of the Christians), in the ANF translation (cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml, lines 16502-16507)"
   license: public-domain
 text: >-
   And on the day called Sunday, all who live in cities or in the country gather together to one place, and the memoirs of the apostles or the writings of the prophets are read, as long as time permits; then, when the reader has ceased, the president verbally instructs, and exhorts to the imitation of these good things.

@@ -1,0 +1,165 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "syr.term.raza-shrara"
+   ],
+   "sentence": "A modern reader may be missing the symbol: each thing in Scripture shows a hidden truth, which we call the shrara."
+  },
+  {
+   "record_ids": [
+    "syr.term.raza-shrara"
+   ],
+   "sentence": "Our word for the symbol is raza, and the raza is bound to the truth it shows."
+  },
+  {
+   "record_ids": [
+    "syr.term.raza-shrara"
+   ],
+   "sentence": "It is not a stand-in that a reader picks at will."
+  },
+  {
+   "record_ids": [
+    "syr.dw.was-jesus-god"
+   ],
+   "sentence": "Our teachers held that what God is, is better sung than dissected."
+  },
+  {
+   "record_ids": [
+    "syr.dw.was-jesus-god"
+   ],
+   "sentence": "Our native tongue for our faith was praise."
+  },
+  {
+   "record_ids": [
+    "syr.quote.a-pearl-upon-the-palm"
+   ],
+   "sentence": "In today's English, Ephrem the Syrian says: “One day, my brothers, I picked up a pearl. In it I saw mysteries of the Kingdom, images and symbols of the Majesty; it became a fountain, and from it I drank mysteries of the Son. I set it, my brothers, on the palm of my hand so I could examine it. I went to look at it from one side, and it showed faces on every side.”"
+  }
+ ],
+ "citations": [
+  "syr.dw.was-jesus-god",
+  "syr.quote.a-pearl-upon-the-palm",
+  "syr.term.raza-shrara"
+ ],
+ "group": "A",
+ "id": "q011",
+ "net_sentences": [
+  {
+   "draft": "A modern reader may be missing the symbol: each thing in Scripture shows a hidden truth, which we call the shrara [[syr.term.raza-shrara]] [[as:paraphrase]].",
+   "sentence": "A modern reader may be missing the symbol: each thing in Scripture shows a hidden truth, which we call the shrara.",
+   "tags": [
+    "syr.term.raza-shrara"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Our word for the symbol is raza, and the raza is bound to the truth it shows [[syr.term.raza-shrara]] [[as:paraphrase]].",
+   "sentence": "Our word for the symbol is raza, and the raza is bound to the truth it shows.",
+   "tags": [
+    "syr.term.raza-shrara"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "It is not a stand-in that a reader picks at will [[syr.term.raza-shrara]] [[as:paraphrase]].",
+   "sentence": "It is not a stand-in that a reader picks at will.",
+   "tags": [
+    "syr.term.raza-shrara"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "A modern reader may also be missing the song [[syr.dw.was-jesus-god]] [[as:paraphrase]].",
+   "sentence": "A modern reader may also be missing the song.",
+   "tags": [
+    "syr.dw.was-jesus-god"
+   ],
+   "verdict": "withhold",
+   "why": "tagged claim sharing no content word with its own tagged records"
+  },
+  {
+   "draft": "Our teachers held that what God is, is better sung than dissected [[syr.dw.was-jesus-god]] [[as:paraphrase]].",
+   "sentence": "Our teachers held that what God is, is better sung than dissected.",
+   "tags": [
+    "syr.dw.was-jesus-god"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Our native tongue for our faith was praise [[syr.dw.was-jesus-god]] [[as:paraphrase]].",
+   "sentence": "Our native tongue for our faith was praise.",
+   "tags": [
+    "syr.dw.was-jesus-god"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Ephrem the Syrian wrote in his first Pearl hymn: [[quote:syr.quote.a-pearl-upon-the-palm]]",
+   "placed_quote": "syr.quote.a-pearl-upon-the-palm",
+   "sentence": "In today's English, Ephrem the Syrian says: “One day, my brothers, I picked up a pearl. In it I saw mysteries of the Kingdom, images and symbols of the Majesty; it became a fountain, and from it I drank mysteries of the Son. I set it, my brothers, on the palm of my hand so I could examine it. I went to look at it from one side, and it showed faces on every side.”",
+   "tags": [
+    "syr.quote.a-pearl-upon-the-palm"
+   ],
+   "verdict": "ok",
+   "why": "quote placed by code, verbatim to its record"
+  }
+ ],
+ "offered": [
+  "syr.dw.corpus-and-its-edges",
+  "syr.term.raza-shrara",
+  "syr.story.qyama-morning",
+  "syr.story.choirs-tradition",
+  "syr.quote.a-pearl-upon-the-palm",
+  "syr.dw.was-jesus-god",
+  "syr.story.jacob-nicaea",
+  "syr.quote.aphrahat-sure-thing"
+ ],
+ "raw_text": "A modern reader may be missing the symbol: each thing in Scripture shows a hidden truth, which we call the shrara [[syr.term.raza-shrara]] [[as:paraphrase]]. Our word for the symbol is raza, and the raza is bound to the truth it shows [[syr.term.raza-shrara]] [[as:paraphrase]]. It is not a stand-in that a reader picks at will [[syr.term.raza-shrara]] [[as:paraphrase]].\n\nA modern reader may also be missing the song [[syr.dw.was-jesus-god]] [[as:paraphrase]]. Our teachers held that what God is, is better sung than dissected [[syr.dw.was-jesus-god]] [[as:paraphrase]]. Our native tongue for our faith was praise [[syr.dw.was-jesus-god]] [[as:paraphrase]].\n\nAs we reconstruct a typical morning in Nisibis before 363, it holds the covenant's vigil, sung hymns, the Gospel harmony read, and the vow lived at home [[syr.story.qyama-morning]] [[as:paraphrase]]. No such specific morning is recorded anywhere [[syr.story.qyama-morning]] [[as:paraphrase]]. The inner experience of the worshippers is not attested [[syr.story.qyama-morning]] [[as:paraphrase]].\n\nEphrem the Syrian wrote in his first Pearl hymn: [[quote:syr.quote.a-pearl-upon-the-palm]]\n",
+ "reply_shape": {
+  "placed": [
+   "syr.quote.a-pearl-upon-the-palm"
+  ],
+  "removed": [
+   {
+    "draft": "As we reconstruct a typical morning in Nisibis before 363, it holds the covenant's vigil, sung hymns, the Gospel harmony read, and the vow lived at home [[syr.story.qyama-morning]] [[as:paraphrase]].",
+    "sentence": "As we reconstruct a typical morning in Nisibis before 363, it holds the covenant's vigil, sung hymns, the Gospel harmony read, and the vow lived at home.",
+    "why": "tells an offered story without placing it"
+   },
+   {
+    "draft": "No such specific morning is recorded anywhere [[syr.story.qyama-morning]] [[as:paraphrase]].",
+    "sentence": "No such specific morning is recorded anywhere.",
+    "why": "tells an offered story without placing it"
+   },
+   {
+    "draft": "The inner experience of the worshippers is not attested [[syr.story.qyama-morning]] [[as:paraphrase]].",
+    "sentence": "The inner experience of the worshippers is not attested.",
+    "why": "tells an offered story without placing it"
+   }
+  ],
+  "repaired": [
+   {
+    "draft": "Ephrem the Syrian wrote in his first Pearl hymn: [[quote:syr.quote.a-pearl-upon-the-palm]]",
+    "lead_in": "In today's English, Ephrem the Syrian says",
+    "unresolved": [
+     {
+      "detail": "wrote",
+      "kind": "genre"
+     }
+    ],
+    "why": "lead-in stated a detail no source document supports; replaced by code's"
+   }
+  ]
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": "C5.S2",
+ "text": "A modern reader may be missing the symbol: each thing in Scripture shows a hidden truth, which we call the shrara. Our word for the symbol is raza, and the raza is bound to the truth it shows. It is not a stand-in that a reader picks at will.\n\nA modern reader may also be missing the song. Our teachers held that what God is, is better sung than dissected. Our native tongue for our faith was praise.\n\nIn today's English, Ephrem the Syrian says: “One day, my brothers, I picked up a pearl. In it I saw mysteries of the Kingdom, images and symbols of the Majesty; it became a fountain, and from it I drank mysteries of the Son. I set it, my brothers, on the palm of my hand so I could examine it. I went to look at it from one side, and it showed faces on every side.”",
+ "voice_set_aside": false
+}

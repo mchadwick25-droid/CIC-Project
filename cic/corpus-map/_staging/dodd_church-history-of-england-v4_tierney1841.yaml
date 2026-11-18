@@ -1,0 +1,20 @@
+source_file: dodd_church-history-of-england-v4_tierney1841.txt
+assignments:
+- row_id: dodd_church-history-of-england-v4_tierney1841--dodd-tierney-church-history-vol-4-appendix
+  work: 'Dodd''s Church History of England, ed. Tierney, vol. IV (London, 1841): appendix of documents, 1578-1631'
+  author: dodd
+  locus: 'the appendix of documents, e.g. Blackwell''s letter of 22 July 1605 at about OCR line 16755; add 12 to OCR line numbers for this file''s own'
+  atlas_ids:
+  - recusant-english-catholicism
+  role: tradition
+  confidence: provisional
+  note: 'English Catholic clergy''s own letters and papers of 1578-1631, printed by a Catholic priest-historian; inside this entry''s window. Dodd''s narrative (1730s) and Tierney''s notes (1841) are later frames.'
+- row_id: dodd_church-history-of-england-v4_tierney1841--dodd-tierney-church-history-vol-4-narrative
+  work: 'Dodd''s Church History of England, ed. Tierney, vol. IV (London, 1841): Dodd''s history and Tierney''s notes'
+  author: dodd
+  locus: 'the history and notes before the appendix; add 12 to OCR line numbers for this file''s own'
+  atlas_ids:
+  - recusant-english-catholicism
+  role: context
+  confidence: provisional
+  note: 'A Catholic history of the reign of James I, by Dodd with Tierney''s notes of 1841, written after this entry''s window, about it.'

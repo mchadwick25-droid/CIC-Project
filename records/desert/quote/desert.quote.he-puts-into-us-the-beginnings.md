@@ -14,7 +14,7 @@ confidence:
   divergence_note: "Contested for whether this represents the Egyptian elders' own teaching or Cassian's own: the Conferences are written up in Gaul, decades later, in Latin, by a participant with his own argument to make against Augustine's followers. The NPNF edition's own apparatus flags this Conference as semi-Pelagian and notes that Prosper of Aquitaine extracted passages from it as erroneous. The words are quoted verbatim from the vendored file; what they are evidence FOR is Cassian's own reporting, not an unmediated desert voice."
 sources:
 - source_id: desert.source.cassian-conferences
-  locus: "Conference XIII (Third Conference of Abbot Chaeremon, On the Protection of God), ch. XVIII"
+  locus: "Conference XIII (Third Conference of Abbot Chaeremon, On the Protection of God), ch. XVIII (cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml, lines 38582-38586)"
   license: public-domain
 text: "...now He puts into us the very beginnings of salvation, and gives to each the zeal of his free will; and now grants the carrying out of the work, and the perfecting of goodness; and now saves men, even against their will and without their knowledge, from ruin that is close at hand, and a headlong fall..."
 modern_rendering: >-

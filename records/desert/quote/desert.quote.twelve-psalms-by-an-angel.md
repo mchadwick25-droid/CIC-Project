@@ -22,8 +22,7 @@ confidence:
     already flags.
 sources:
 - source_id: desert.source.cassian-institutes
-  locus: "Institutes II.5 (the angel legend explaining the fixed number of twelve Psalms, npnf211 line
-    17133)"
+  locus: "Institutes II.5 (the angel legend explaining the fixed number of twelve Psalms; cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml, lines 17184-17211)"
   license: public-domain
 text: "And when each man in proportion to his own fervour—and unmindful of the weakness of
   others—thought that that should be appointed which he judged was quite easy by considering his own

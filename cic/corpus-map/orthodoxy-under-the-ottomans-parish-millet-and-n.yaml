@@ -53,6 +53,25 @@ works:
 
     '
   source_file: sphrantzes-cananus-anagnostes_chronicles-grc-lat_bekker1838.txt
+- row_id: athos-monasteries_haupturkunden-fur-die-geschichte-der-athoskloster-ger-grc_meyer1894--die-haupturkunden-the-athos-documents-of-1498-to-1574
+  work: 'Die Haupturkunden: the Athos documents of 1498 to 1574'
+  author: athos-monasteries
+  locus: documents XIII-XV (contents at about OCR lines 191-195; Meyer at about 3718-3756);
+    add 12 to OCR line numbers for this file's own
+  role: tradition
+  confidence: provisional
+  note: The patriarchal decrees of 1498 and 1574 and the monk Pachomios's tract of about 1530
+    on the Athos community's own life. Within this entry's window (1453-1650).
+  source_file: athos-monasteries_haupturkunden-fur-die-geschichte-der-athoskloster-ger-grc_meyer1894.txt
+- row_id: busbecq_life-and-letters-v1_forster-daniell1881--busbecq-turkish-letters-i-iv-with-the-editors-life-forster-and-daniell
+  work: Busbecq, Turkish Letters I-IV, with the editors' Life (Forster and Daniell)
+  author: busbecq
+  locus: about OCR lines 3531-19084; add 12 to OCR line numbers
+  role: context
+  confidence: assigned
+  note: An imperial ambassador's Turkish Letters in a translators' English; an outside witness.
+    No census entry is the Ottoman state, so the work sits on this entry.
+  source_file: busbecq_life-and-letters-v1_forster-daniell1881.txt
 - row_id: sphrantzes-cananus-anagnostes_chronicles-grc-lat_bekker1838--john-cananus-de-bello-constantinopolitano-greek-with-latin
   work: John Cananus, De bello Constantinopolitano, Greek with Latin
   author: cananus
@@ -180,6 +199,36 @@ works:
 
     '
   source_file: euchologion-to-mega_second-edition-grc_zerbos1862.txt
+- row_id: evliya-celebi_narrative-of-travels-v1-pt1_hammer1834--evliya-efendi-narrative-of-travels-volume-i-part-1-von-hammer
+  work: Evliya Efendi, Narrative of Travels, volume I, part 1 (von Hammer)
+  author: evliya-celebi
+  locus: the whole volume; not mapped
+  role: context
+  confidence: assigned
+  note: An Ottoman traveler of the seventeenth century, by the title page, in a translator's
+    English; an outside witness. No census entry is the Ottoman state, so the work sits on
+    this entry.
+  source_file: evliya-celebi_narrative-of-travels-v1-pt1_hammer1834.txt
+- row_id: evliya-celebi_narrative-of-travels-v1-pt2_hammer1846--evliya-efendi-narrative-of-travels-volume-i-part-2-von-hammer
+  work: Evliya Efendi, Narrative of Travels, volume I, part 2 (von Hammer)
+  author: evliya-celebi
+  locus: the whole volume; not mapped
+  role: context
+  confidence: assigned
+  note: An Ottoman traveler of the seventeenth century, by the title page, in a translator's
+    English; an outside witness. No census entry is the Ottoman state, so the work sits on
+    this entry.
+  source_file: evliya-celebi_narrative-of-travels-v1-pt2_hammer1846.txt
+- row_id: evliya-celebi_narrative-of-travels-v2_hammer1850--evliya-efendi-narrative-of-travels-volume-ii-von-hammer
+  work: Evliya Efendi, Narrative of Travels, volume II (von Hammer)
+  author: evliya-celebi
+  locus: the whole volume; not mapped
+  role: context
+  confidence: assigned
+  note: An Ottoman traveler of the seventeenth century, by the title page, in a translator's
+    English; an outside witness. No census entry is the Ottoman state, so the work sits on
+    this entry.
+  source_file: evliya-celebi_narrative-of-travels-v2_hammer1850.txt
 - row_id: fletcher-giles-elder_russe-common-wealth-with-horsey-travels_bond1856--of-the-russe-common-wealth-giles-fletcher-1591-and-the-2
   work: Of the Russe Common Wealth (Giles Fletcher, 1591) and the Travels of Sir Jerome Horsey,
     in Bond's Hakluyt Society edition (1856)
@@ -345,6 +394,15 @@ works:
 
     '
   source_file: acta-et-scripta-wirtembergensium_jeremias-ii-correspondence-lat_1584.txt
+- row_id: katib-celebi_history-of-the-maritime-wars-of-the-turks-chapters-1-4_mitchell1831--katib-chelebi-history-of-the-maritime-wars-of-the-turks-chapters-i-iv-mitchell
+  work: Katib Chelebi, History of the Maritime Wars of the Turks, chapters I-IV (Mitchell)
+  author: katib-celebi
+  locus: the whole volume; not mapped
+  role: context
+  confidence: assigned
+  note: An Ottoman writer in a translator's English; an outside witness. No census entry is
+    the Ottoman state, so the work sits on this entry.
+  source_file: katib-celebi_history-of-the-maritime-wars-of-the-turks-chapters-1-4_mitchell1831.txt
 - row_id: smith-thomas_collectanea-de-cyrillo-lucario-lat_1707--appendix-letters-and-papers-of-cyril-lucaris-with-ottoman-command
   work: 'Appendix: letters and papers of Cyril Lucaris in Latin, with an Italian ''Instruttione''
     and a ''Comandamento'' (an Ottoman command concerning the Patriarch) in Italian'
@@ -511,53 +569,6 @@ works:
   confidence: assigned
   note: Same text and placement as the Kimmel and Overbeck rows for this entry.
   source_file: schaff_creeds-of-christendom-v2-greek-latin-creeds_1878.txt
-- row_id: nikodemos-hagiorite_pedalion-canons-grc_1886--pedalion-the-rudder-the-holy-and-divine-canons-with-the
-  work: 'Pedalion (the Rudder): the holy and divine canons with the commentary of Agapios
-    and Nikodemos, Greek'
-  author: nikodemos-hagiorite
-  locus: title page at file lines 102-125, the publisher's address to Orthodox Christians
-    at 227; canon texts and commentary follow (for example Canon 85 at line 43851)
-  role: tradition
-  confidence: provisional
-  note: 'The standard Greek book of canon law, compiled by Agapios and Nikodemos and first
-    printed at Leipzig in 1800; this is the 1886 Athens edition. Nikodemos wrote after this
-    world''s window closes (1749-1809 against a window of 1453-1650); this edition is a late
-    witness to practice and law, so its place here is a provisional shelf assignment for the
-    world''s builders to confirm. Second witness for exact Greek wording (accents imperfect);
-    the running text is readable.
-
-    '
-  source_file: nikodemos-hagiorite_pedalion-canons-grc_1886.txt
-- row_id: nikodemos-hagiorite_synaxaristes-vol1-sep-feb-grc_1900--synaxaristes-of-the-twelve-months-volume-1-september-to
-  work: Synaxaristes of the Twelve Months, volume 1 (September to February), Greek
-  author: nikodemos-hagiorite
-  locus: whole volume; the prologue at file line 70, the September entries from line 3016
-  role: tradition
-  confidence: provisional
-  note: 'Lives of the saints and feast-day accounts in Greek, arranged by month. The text
-    is Nikodemos''s revision of an older Greek Synaxarion, in an 1868 edition reprinted about
-    1900. Nikodemos wrote after this world''s window closes (1749-1809 against a window of
-    1453-1650); this edition is a late witness to practice and law, so its place here is a
-    provisional shelf assignment for the world''s builders to confirm. Second witness only:
-    the Greek OCR is heavily garbled in accents and vowels.
-
-    '
-  source_file: nikodemos-hagiorite_synaxaristes-vol1-sep-feb-grc_1900.txt
-- row_id: nikodemos-hagiorite_synaxaristes-vol2-mar-aug-grc_1900--synaxaristes-of-the-twelve-months-volume-2-march-to-august
-  work: Synaxaristes of the Twelve Months, volume 2 (March to August), Greek
-  author: nikodemos-hagiorite
-  locus: whole volume; the March entries from about file line 3401
-  role: tradition
-  confidence: provisional
-  note: 'Lives of the saints and feast-day accounts in Greek, arranged by month. The text
-    is Nikodemos''s revision of an older Greek Synaxarion, in an 1868 edition reprinted about
-    1900. Nikodemos wrote after this world''s window closes (1749-1809 against a window of
-    1453-1650); this edition is a late witness to practice and law, so its place here is a
-    provisional shelf assignment for the world''s builders to confirm. Second witness only:
-    the Greek OCR is heavily garbled in accents and vowels.
-
-    '
-  source_file: nikodemos-hagiorite_synaxaristes-vol2-mar-aug-grc_1900.txt
 - row_id: gedeon_kanonikai-diataxeis-v1-grc_1888--patriarchal-acts-before-1650-gedeon-kanonikai-diataxeis-i
   work: Patriarchal acts before 1650 (Gedeon, Kanonikai diataxeis I)
   author: patriarchate-of-constantinople

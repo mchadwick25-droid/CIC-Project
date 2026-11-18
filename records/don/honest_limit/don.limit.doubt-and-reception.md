@@ -28,12 +28,12 @@ statement: Was there room among us for doubt? I will not pretend our record can 
 why_sources_cannot_answer: 'Doc_08_Forces_Document.md''s own governing-principles synthesis (SS8) states
   the community''s reception of the 411 verdict, the Vandal conquest, and this world''s own later institutional
   attrition ''is not recoverable from surviving sources'' at Forces 3A-1, 3A-2, 3B-1, and 3B-2 -- each
-  stated in its own distinct wording, per Representative/don_Rep_Phase1_Ecology_Assessment.md SS2''s own
+  stated in its own distinct wording, per Build/worlds/don/Review-Artifacts/don_Rep_Phase1_Ecology_Assessment.md SS2''s own
   precise account (3A-1: ''this world''s own record does not preserve a direct account of how its own
   participants received this specific verdict''; 3A-2/3B-2: ''not recoverable from surviving sources,''
   used directly). The surviving emotional register (Doc_07 SS2B) is vindication and defiant joy, ''because
   that is what the transmission mechanism preserved'' -- the register of those who held firm, not of those
-  who wavered. Representative/don_Rep_Phase7_Encounter_Ecology_Mapping.md SS4/SS9 independently confirm
+  who wavered. Build/worlds/don/Review-Artifacts/don_Rep_Phase7_Encounter_Ecology_Mapping.md SS4/SS9 independently confirm
   this finding against the tested Representative''s own construction record: this domain was correctly
   handled as ''THIN, redirection not information-dump,'' never filled with invented interior content.'
 nearest_material:

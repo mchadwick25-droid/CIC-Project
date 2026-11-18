@@ -1,0 +1,198 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "alx.dw.god"
+   ],
+   "sentence": "In our reading, scripture is God's main lesson, and the whole creation is his school."
+  },
+  {
+   "record_ids": [
+    "alx.dw.god"
+   ],
+   "sentence": "The slow healing of a soul is God's patient method."
+  },
+  {
+   "record_ids": [
+    "alx.term.oikonomia"
+   ],
+   "sentence": "God's whole plan for saving creation unfolds through graduated teaching, centered on the Incarnation."
+  },
+  {
+   "record_ids": [
+    "alx.gravity.learning-formation"
+   ],
+   "sentence": "In the school tradition, learning was itself formation: study, inquiry, and the bond of teacher and student were the very path of the soul's change, not a preparation for it."
+  },
+  {
+   "record_ids": [
+    "alx.gravity.learning-formation"
+   ],
+   "sentence": "Learning as formation was strongest in the early and middle years, and it weakened late."
+  },
+  {
+   "record_ids": [
+    "alx.quote.clement-bee"
+   ],
+   "sentence": "Clement, opening the Stromateis, praised his final teacher, whom he does not name there: “He was the true Sicilian bee. He gathered the spoil of the flowers in the prophetic and apostolic meadow. And he produced in the souls of his listeners a deathless element of knowledge.”"
+  },
+  {
+   "record_ids": [
+    "alx.dw.suffering"
+   ],
+   "sentence": "Suffering too was read as part of the lesson, for it is the school's hardest classroom."
+  },
+  {
+   "record_ids": [
+    "alx.gravity.learning-community-tension"
+   ],
+   "sentence": "The depth of the school's reading was given to the few, while breadth was owed to the whole worshipping community."
+  },
+  {
+   "record_ids": [
+    "alx.gravity.learning-community-tension"
+   ],
+   "sentence": "The school side of our record is well attested, and the community side is thinly attested."
+  }
+ ],
+ "citations": [
+  "alx.dw.god",
+  "alx.dw.suffering",
+  "alx.gravity.learning-community-tension",
+  "alx.gravity.learning-formation",
+  "alx.quote.clement-bee",
+  "alx.term.oikonomia"
+ ],
+ "group": "A",
+ "id": "q010",
+ "net_sentences": [
+  {
+   "draft": "In our reading, scripture is God's main lesson, and the whole creation is his school [[alx.dw.god]] [[as:paraphrase]].",
+   "sentence": "In our reading, scripture is God's main lesson, and the whole creation is his school.",
+   "tags": [
+    "alx.dw.god"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "The slow healing of a soul is God's patient method [[alx.dw.god]] [[as:paraphrase]].",
+   "sentence": "The slow healing of a soul is God's patient method.",
+   "tags": [
+    "alx.dw.god"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "God's whole plan for saving creation unfolds through graduated teaching, centered on the Incarnation [[alx.term.oikonomia]] [[as:paraphrase]].",
+   "ratio": 0.9,
+   "sentence": "God's whole plan for saving creation unfolds through graduated teaching, centered on the Incarnation.",
+   "tags": [
+    "alx.term.oikonomia"
+   ],
+   "verdict": "ok",
+   "why": "grounded 90% in own tagged records"
+  },
+  {
+   "draft": "In the school tradition, learning was itself formation: study, inquiry, and the bond of teacher and student were the very path of the soul's change, not a preparation for it [[alx.gravity.learning-formation]] [[as:paraphrase]].",
+   "sentence": "In the school tradition, learning was itself formation: study, inquiry, and the bond of teacher and student were the very path of the soul's change, not a preparation for it.",
+   "tags": [
+    "alx.gravity.learning-formation"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Learning as formation was strongest in the early and middle years, and it weakened late [[alx.gravity.learning-formation]] [[as:paraphrase]].",
+   "sentence": "Learning as formation was strongest in the early and middle years, and it weakened late.",
+   "tags": [
+    "alx.gravity.learning-formation"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Clement, opening the Stromateis, praised his final teacher, whom he does not name there: [[quote:alx.quote.clement-bee]]",
+   "placed_quote": "alx.quote.clement-bee",
+   "sentence": "Clement, opening the Stromateis, praised his final teacher, whom he does not name there: “He was the true Sicilian bee. He gathered the spoil of the flowers in the prophetic and apostolic meadow. And he produced in the souls of his listeners a deathless element of knowledge.”",
+   "tags": [
+    "alx.quote.clement-bee"
+   ],
+   "verdict": "ok",
+   "why": "quote placed by code, verbatim to its record"
+  },
+  {
+   "draft": "Suffering too was read as part of the lesson, for it is the school's hardest classroom [[alx.dw.suffering]] [[as:paraphrase]].",
+   "sentence": "Suffering too was read as part of the lesson, for it is the school's hardest classroom.",
+   "tags": [
+    "alx.dw.suffering"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "The depth of the school's reading was given to the few, while breadth was owed to the whole worshipping community [[alx.gravity.learning-community-tension]] [[as:paraphrase]].",
+   "sentence": "The depth of the school's reading was given to the few, while breadth was owed to the whole worshipping community.",
+   "tags": [
+    "alx.gravity.learning-community-tension"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "The school side of our record is well attested, and the community side is thinly attested [[alx.gravity.learning-community-tension]] [[as:paraphrase]].",
+   "sentence": "The school side of our record is well attested, and the community side is thinly attested.",
+   "tags": [
+    "alx.gravity.learning-community-tension"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  }
+ ],
+ "offered": [
+  "alx.dw.god",
+  "alx.term.oikonomia",
+  "alx.quote.clement-schoolmaster",
+  "alx.dw.suffering",
+  "alx.quote.clement-possessions",
+  "alx.term.ekklesia",
+  "alx.term.episkopos",
+  "alx.story.leonides-martyrdom",
+  "alx.quote.clement-bee",
+  "alx.gravity.learning-formation",
+  "alx.force.origen-demetrius-conflict",
+  "alx.force.post-nicene-authority-shift",
+  "alx.gravity.learning-community-tension"
+ ],
+ "raw_text": "In our reading, scripture is God's main lesson, and the whole creation is his school [[alx.dw.god]] [[as:paraphrase]]. The slow healing of a soul is God's patient method [[alx.dw.god]] [[as:paraphrase]]. God's whole plan for saving creation unfolds through graduated teaching, centered on the Incarnation [[alx.term.oikonomia]] [[as:paraphrase]].\n\nIn the school tradition, learning was itself formation: study, inquiry, and the bond of teacher and student were the very path of the soul's change, not a preparation for it [[alx.gravity.learning-formation]] [[as:paraphrase]]. Learning as formation was strongest in the early and middle years, and it weakened late [[alx.gravity.learning-formation]] [[as:paraphrase]].\n\nClement, opening the Stromateis, praised his final teacher, whom he does not name there: [[quote:alx.quote.clement-bee]]\n\nSuffering too was read as part of the lesson, for it is the school's hardest classroom [[alx.dw.suffering]] [[as:paraphrase]]. The depth of the school's reading was given to the few, while breadth was owed to the whole worshipping community [[alx.gravity.learning-community-tension]] [[as:paraphrase]]. The school side of our record is well attested, and the community side is thinly attested [[alx.gravity.learning-community-tension]] [[as:paraphrase]].\n",
+ "reply_shape": {
+  "leadin_support": {
+   "alx.quote.clement-bee": [
+    {
+     "detail": "Stromateis",
+     "kind": "name",
+     "snippet": "rers a deathless element of knowledge. Clement, opening the Stromateis, praises his final teacher, whom he does not name here and",
+     "span": "record alx.quote.clement-bee"
+    },
+    {
+     "detail": "teacher",
+     "kind": "role",
+     "snippet": "owledge. Clement, opening the Stromateis, praises his final teacher, whom he does not name here and Eusebius names as Pantaenus",
+     "span": "record alx.quote.clement-bee"
+    }
+   ]
+  },
+  "placed": [
+   "alx.quote.clement-bee"
+  ],
+  "removed": [],
+  "repaired": []
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": "C5.S2",
+ "text": "In our reading, scripture is God's main lesson, and the whole creation is his school. The slow healing of a soul is God's patient method. God's whole plan for saving creation unfolds through graduated teaching, centered on the Incarnation.\n\nIn the school tradition, learning was itself formation: study, inquiry, and the bond of teacher and student were the very path of the soul's change, not a preparation for it. Learning as formation was strongest in the early and middle years, and it weakened late.\n\nClement, opening the Stromateis, praised his final teacher, whom he does not name there: “He was the true Sicilian bee. He gathered the spoil of the flowers in the prophetic and apostolic meadow. And he produced in the souls of his listeners a deathless element of knowledge.”\n\nSuffering too was read as part of the lesson, for it is the school's hardest classroom. The depth of the school's reading was given to the few, while breadth was owed to the whole worshipping community. The school side of our record is well attested, and the community side is thinly attested.",
+ "voice_set_aside": false
+}

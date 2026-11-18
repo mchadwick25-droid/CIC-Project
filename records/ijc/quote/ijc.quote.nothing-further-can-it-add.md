@@ -16,8 +16,7 @@ confidence:
     Documented as the conciliar acts in the standard English of the NPNF conciliar volume, read directly at the session cited. The NPNF editor's parenthetical gloss giving the Latin 'fidei regulam' is dropped from the quoted run; nothing else is altered.
 sources:
 - source_id: ijc.source.chalcedon-acts
-  locus: >-
-    Extracts from the Acts, Session IV (Labbe and Cossart, Concilia IV, col. 469; npnf214_seven-ecumenical-councils.xml)
+  locus: "Extracts from the Acts, Session IV (Labbe and Cossart, Concilia IV, col. 469; cic/texts/npnf214_seven-ecumenical-councils.xml, lines 20106-20118)"
   license: public-domain
 text: >-
   As the holy and blessed and Ecumenical Synod holds fast and follows the rule of faith...which was set forth by the fathers at Nice, it also confirms the faith set forth by the Synod of 150 fathers gathered at Constantinople at the bidding of the great Theodosius of blessed memory. Moreover the exposition of their faith, of the illustrious Cyril of blessed memory set forth at the Council of Ephesus (in which Nestorius was condemned) is received. And in the third place the writings of that blessed man, Leo, Archbishop of all the churches, who condemned the heresy of Nestorius and Eutyches, shew what the true faith is. Likewise the holy Synod holds this faith, this it follows—nothing further can it add nor can it take aught away.

@@ -1,0 +1,66 @@
+{
+  "name": "Hermas",
+  "otherNames": [
+    "Hermas, author of the Shepherd"
+  ],
+  "knownFor": "A Christian of Rome whose book of visions, the Shepherd, was read for centuries and allowed one repentance after baptism.",
+  "dates": "Writing between about 100 and 160",
+  "place": "Rome",
+  "tradition": "Post-apostolic church",
+  "role": "Writer of visions",
+  "briefLength": "about 1 minute 55 seconds",
+  "keyWorks": [
+    {
+      "title": "The Shepherd",
+      "about": "visions, commands and parables calling the church to repent"
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "The Shepherd taught that a Christian who sins after \"that great and holy calling\" may repent once."
+    ],
+    "remembered": [
+      "Irenaeus of Lyon quoted it as Scripture. Clement of Alexandria and Origen used it as inspired.",
+      "Tertullian of Carthage called it \"the only one which favours adulterers.\"",
+      "The Muratorian Canon says it should be read, but not in church to the people. Eusebius of Caesarea placed it among the spurious books. Jerome of Strido found it almost unknown among the Latins."
+    ]
+  },
+  "uncertain": [
+    "What the Shepherd tells of Hermas comes from inside its visions, and no other source confirms it.",
+    "The Muratorian Canon makes him the brother of Pius, bishop of Rome, which puts the book in the middle of the second century. Arthur McGiffert, who translated Eusebius of Caesarea, says most scholars accepted this. Zahn dated it between 97 and 100, to an unknown Hermas living when Clement of Rome did.",
+    "That he was the Hermas whom Paul greets in Romans goes back to Origen. McGiffert calls it \"a mere guess.\"",
+    "Cleveland Coxe, in his notes to the American edition, asks whether the words on one repentance can be genuine, since they sound like the strictness the book opposes. Part of the sentence before them is found in only one manuscript."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "The Pastor of Hermas",
+        "file": "cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml",
+        "language": "English"
+      }
+    ],
+    "about": [
+      {
+        "title": "The Muratorian Canon",
+        "author": "Unknown",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
+      },
+      {
+        "title": "On Modesty, chapters 10 and 20",
+        "author": "Tertullian of Carthage",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/anf04_tertullian4-minucius-felix-commodian-origen1-2.xml"
+      },
+      {
+        "title": "Church History, Book 3, chapter 3, with McGiffert's notes",
+        "author": "Eusebius of Caesarea",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml"
+      }
+    ]
+  }
+}

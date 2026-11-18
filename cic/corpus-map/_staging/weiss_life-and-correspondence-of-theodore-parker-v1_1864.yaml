@@ -1,0 +1,22 @@
+source_file: weiss_life-and-correspondence-of-theodore-parker-v1_1864.txt
+assignments:
+- row_id: weiss_life-and-correspondence-of-theodore-parker-v1_1864--life-and-correspondence-of-theodore-parker-minister-of-the
+  work: Life and Correspondence of Theodore Parker, Minister of the Twenty-eighth Congregational Society, Boston.
+    By
+  author: weiss
+  locus: the whole volume; not mapped
+  atlas_ids:
+  - american-unitarianism-universalism-consolidations
+  role: context
+  confidence: provisional
+  language: eng
+  date:
+    start: 1864
+    end: 1864
+    source: 'the printing''s own title page: OCR line 58, on the title page'
+    formation_confidence: Documented
+  edition_date:
+    year: 1864
+    source: OCR line 58, on the title page
+    formation_confidence: Documented
+  note: 'Era 9 row 184, Theodore Parker: a Life with his letters (vol. 1).'

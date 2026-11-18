@@ -1,0 +1,719 @@
+{
+ "draft": "Yes, our teachers left room for doubt, and they built their whole method on questions [[alx.dw.doubt]] [[as:paraphrase]]. Clement insisted that faith is the foundation and not the ceiling [[alx.dw.doubt]] [[as:paraphrase]]. We treated doubt aimed at understanding as hunger, and we did not count it as sin [[alx.dw.doubt]] [[as:paraphrase]].\n\nFaith, our word pistis, is the soul's first real turn toward God, and it is compatible with unresolved questions [[alx.term.pistis]] [[as:paraphrase]]. Our doubters stood inside a praying community, questioned inside the rule of faith, and were expected to bring the question to a teacher [[alx.dw.doubt]] [[as:paraphrase]]. What the apostles delivered plainly is fixed, and everything else is open ground [[alx.dw.doubt]] [[as:paraphrase]].\n\nDionysius of Alexandria, quoted by Eusebius, wrote: [[quote:alx.quote.dionysius-too-high-for-me-to-grasp]]\n\nOur record keeps Gregory's own account of how Origen taught him: [[story:alx.story.gregory-formation]]\n\nGregory's account is one gifted pupil's, not the ordinary Alexandrian catechumen's [[alx.story.gregory-formation]] [[as:paraphrase]]. The room had an edge, because after Nicaea the church itself learned to use exile and condemnation [[alx.dw.church-failure]] [[as:paraphrase]]. Our teachers' sources barely show how ordinary doubters themselves felt [[alx.dw.doubt]] [[as:paraphrase]].\n",
+ "ending": "rewritten",
+ "final": "Yes, our teachers left room for doubt, and our teachers built their whole method on questions. Clement insisted that faith is the foundation and not the ceiling. We treated doubt aimed at understanding as hunger, and we did not count doubt of that kind as sin. Faith, our word pistis, is the soul's first real turn toward God, and faith is compatible with unresolved questions. Our doubters stood inside a praying community, questioned inside the rule of faith, and were expected to bring the question to a teacher. What the apostles delivered plainly is fixed, and everything else is open ground. Our record keeps Gregory's own account of how Origen taught him. Origen did not begin with doctrines, Gregory says. He began like a farmer testing soil. He questioned young Gregory and dug into his mind to see what it did under pressure. Gregory had come from Neo-Caesarea, in Pontus, to study law. At Caesarea he met Origen, and he stayed some five years. He tells how he was taught in a farewell speech of praise, though who gave it, and when, is not settled. Logic came first, to make thinking honest. Next came the natural world, geometry and the stars, until the students' sense of wonder was trained. Then came ethics, formed as habits, with the teacher's own life teaching as well. Only then came theology. They read everything the philosophers and poets had said of God, with Scripture at the center. Under all of it, Gregory says, something else was happening. Love was kindled in his inmost soul, like a spark falling there. It was love for the holy Word, and for this man who was the Word's friend. Gregory gave up the law. When at last he had to leave, he called it being driven out of paradise. Gregory's account is one gifted pupil's, not the ordinary Alexandrian catechumen's. Our teachers' sources barely show how ordinary doubters themselves felt.",
+ "group": "A",
+ "offered": [
+  "alx.dw.doubt",
+  "alx.term.pistis",
+  "alx.story.gregory-formation",
+  "alx.quote.to-believe-or-disbelieve",
+  "alx.quote.dionysius-too-high-for-me-to-grasp",
+  "alx.gravity.learning-community-tension",
+  "alx.gravity.soul-transformation",
+  "alx.force.knowing-impulse",
+  "alx.dw.church-failure",
+  "alx.quote.clement-instructor",
+  "alx.term.lapsi",
+  "alx.quote.gregory-spark",
+  "alx.gravity.martyrdom-contemplative-tension",
+  "alx.gravity.speculative-doctrinal-tension"
+ ],
+ "placements": [
+  {
+   "decision": "keep",
+   "judgement": {
+    "fit": "partly",
+    "limit_stated": true,
+    "reason": "It shows a teacher who questioned a student, but it is not about someone struggling to believe."
+   },
+   "record_id": "alx.story.gregory-formation"
+  }
+ ],
+ "question": "Was there space in your community for someone who struggled to believe?",
+ "question_id": "q007",
+ "read": {
+  "dropped": [],
+  "status": "rewrite",
+  "unsupported": {
+   "24": {
+    "problem": "added_detail",
+    "reason": "Church-failure record says the church used exile and condemnation after Nicaea but does not tie this to the room for doubters.",
+    "supported": false
+   }
+  }
+ },
+ "rewrite": [
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "alx.dw.doubt"
+   ],
+   "sentence": "Yes, our teachers left room for doubt, and our teachers built their whole method on questions.",
+   "tags": [
+    "alx.dw.doubt"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "alx.dw.doubt"
+   ],
+   "sentence": "Clement insisted that faith is the foundation and not the ceiling.",
+   "tags": [
+    "alx.dw.doubt"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "alx.dw.doubt"
+   ],
+   "sentence": "We treated doubt aimed at understanding as hunger, and we did not count doubt of that kind as sin.",
+   "tags": [
+    "alx.dw.doubt"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "alx.term.pistis"
+   ],
+   "sentence": "Faith, our word pistis, is the soul's first real turn toward God, and faith is compatible with unresolved questions.",
+   "tags": [
+    "alx.term.pistis"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "alx.dw.doubt"
+   ],
+   "sentence": "Our doubters stood inside a praying community, questioned inside the rule of faith, and were expected to bring the question to a teacher.",
+   "tags": [
+    "alx.dw.doubt"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "alx.dw.doubt"
+   ],
+   "sentence": "What the apostles delivered plainly is fixed, and everything else is open ground.",
+   "tags": [
+    "alx.dw.doubt"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "alx.story.gregory-formation"
+   ],
+   "sentence": "Our record keeps Gregory's own account of how Origen taught him.",
+   "tags": [
+    "alx.story.gregory-formation"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": null,
+   "n": 7,
+   "placed": true,
+   "placed_id": "alx.story.gregory-formation",
+   "question_id": "q007",
+   "reason": "placed by code",
+   "records": [
+    "alx.story.gregory-formation"
+   ],
+   "sentence": "Origen did not begin with doctrines, Gregory says.",
+   "tags": [
+    "alx.story.gregory-formation"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": null,
+   "n": 8,
+   "placed": true,
+   "placed_id": "alx.story.gregory-formation",
+   "question_id": "q007",
+   "reason": "placed by code",
+   "records": [
+    "alx.story.gregory-formation"
+   ],
+   "sentence": "He began like a farmer testing soil.",
+   "tags": [
+    "alx.story.gregory-formation"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": null,
+   "n": 9,
+   "placed": true,
+   "placed_id": "alx.story.gregory-formation",
+   "question_id": "q007",
+   "reason": "placed by code",
+   "records": [
+    "alx.story.gregory-formation"
+   ],
+   "sentence": "He questioned young Gregory and dug into his mind to see what it did under pressure.",
+   "tags": [
+    "alx.story.gregory-formation"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": null,
+   "n": 10,
+   "placed": true,
+   "placed_id": "alx.story.gregory-formation",
+   "question_id": "q007",
+   "reason": "placed by code",
+   "records": [
+    "alx.story.gregory-formation"
+   ],
+   "sentence": "Gregory had come from Neo-Caesarea, in Pontus, to study law.",
+   "tags": [
+    "alx.story.gregory-formation"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": null,
+   "n": 11,
+   "placed": true,
+   "placed_id": "alx.story.gregory-formation",
+   "question_id": "q007",
+   "reason": "placed by code",
+   "records": [
+    "alx.story.gregory-formation"
+   ],
+   "sentence": "At Caesarea he met Origen, and he stayed some five years.",
+   "tags": [
+    "alx.story.gregory-formation"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": null,
+   "n": 12,
+   "placed": true,
+   "placed_id": "alx.story.gregory-formation",
+   "question_id": "q007",
+   "reason": "placed by code",
+   "records": [
+    "alx.story.gregory-formation"
+   ],
+   "sentence": "He tells how he was taught in a farewell speech of praise, though who gave it, and when, is not settled.",
+   "tags": [
+    "alx.story.gregory-formation"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": null,
+   "n": 13,
+   "placed": true,
+   "placed_id": "alx.story.gregory-formation",
+   "question_id": "q007",
+   "reason": "placed by code",
+   "records": [
+    "alx.story.gregory-formation"
+   ],
+   "sentence": "Logic came first, to make thinking honest.",
+   "tags": [
+    "alx.story.gregory-formation"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": null,
+   "n": 14,
+   "placed": true,
+   "placed_id": "alx.story.gregory-formation",
+   "question_id": "q007",
+   "reason": "placed by code",
+   "records": [
+    "alx.story.gregory-formation"
+   ],
+   "sentence": "Next came the natural world, geometry and the stars, until the students' sense of wonder was trained.",
+   "tags": [
+    "alx.story.gregory-formation"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": null,
+   "n": 15,
+   "placed": true,
+   "placed_id": "alx.story.gregory-formation",
+   "question_id": "q007",
+   "reason": "placed by code",
+   "records": [
+    "alx.story.gregory-formation"
+   ],
+   "sentence": "Then came ethics, formed as habits, with the teacher's own life teaching as well.",
+   "tags": [
+    "alx.story.gregory-formation"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": null,
+   "n": 16,
+   "placed": true,
+   "placed_id": "alx.story.gregory-formation",
+   "question_id": "q007",
+   "reason": "placed by code",
+   "records": [
+    "alx.story.gregory-formation"
+   ],
+   "sentence": "Only then came theology.",
+   "tags": [
+    "alx.story.gregory-formation"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": null,
+   "n": 17,
+   "placed": true,
+   "placed_id": "alx.story.gregory-formation",
+   "question_id": "q007",
+   "reason": "placed by code",
+   "records": [
+    "alx.story.gregory-formation"
+   ],
+   "sentence": "They read everything the philosophers and poets had said of God, with Scripture at the center.",
+   "tags": [
+    "alx.story.gregory-formation"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": null,
+   "n": 18,
+   "placed": true,
+   "placed_id": "alx.story.gregory-formation",
+   "question_id": "q007",
+   "reason": "placed by code",
+   "records": [
+    "alx.story.gregory-formation"
+   ],
+   "sentence": "Under all of it, Gregory says, something else was happening.",
+   "tags": [
+    "alx.story.gregory-formation"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": null,
+   "n": 19,
+   "placed": true,
+   "placed_id": "alx.story.gregory-formation",
+   "question_id": "q007",
+   "reason": "placed by code",
+   "records": [
+    "alx.story.gregory-formation"
+   ],
+   "sentence": "Love was kindled in his inmost soul, like a spark falling there.",
+   "tags": [
+    "alx.story.gregory-formation"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": null,
+   "n": 20,
+   "placed": true,
+   "placed_id": "alx.story.gregory-formation",
+   "question_id": "q007",
+   "reason": "placed by code",
+   "records": [
+    "alx.story.gregory-formation"
+   ],
+   "sentence": "It was love for the holy Word, and for this man who was the Word's friend.",
+   "tags": [
+    "alx.story.gregory-formation"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": null,
+   "n": 21,
+   "placed": true,
+   "placed_id": "alx.story.gregory-formation",
+   "question_id": "q007",
+   "reason": "placed by code",
+   "records": [
+    "alx.story.gregory-formation"
+   ],
+   "sentence": "Gregory gave up the law.",
+   "tags": [
+    "alx.story.gregory-formation"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": null,
+   "n": 22,
+   "placed": true,
+   "placed_id": "alx.story.gregory-formation",
+   "question_id": "q007",
+   "reason": "placed by code",
+   "records": [
+    "alx.story.gregory-formation"
+   ],
+   "sentence": "When at last he had to leave, he called it being driven out of paradise.",
+   "tags": [
+    "alx.story.gregory-formation"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "alx.story.gregory-formation"
+   ],
+   "sentence": "Gregory's account is one gifted pupil's, not the ordinary Alexandrian catechumen's.",
+   "tags": [
+    "alx.story.gregory-formation"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "alx.dw.doubt"
+   ],
+   "sentence": "Our teachers' sources barely show how ordinary doubters themselves felt.",
+   "tags": [
+    "alx.dw.doubt"
+   ]
+  }
+ ],
+ "sentences": [
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 0,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Yes, our teachers left room for doubt, and they built their whole method on questions.",
+   "tags": [
+    "alx.dw.doubt"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 1,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Clement insisted that faith is the foundation and not the ceiling.",
+   "tags": [
+    "alx.dw.doubt"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 2,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "We treated doubt aimed at understanding as hunger, and we did not count it as sin.",
+   "tags": [
+    "alx.dw.doubt"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 3,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Faith, our word pistis, is the soul's first real turn toward God, and it is compatible with unresolved questions.",
+   "tags": [
+    "alx.term.pistis"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 4,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Our doubters stood inside a praying community, questioned inside the rule of faith, and were expected to bring the question to a teacher.",
+   "tags": [
+    "alx.dw.doubt"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 5,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "What the apostles delivered plainly is fixed, and everything else is open ground.",
+   "tags": [
+    "alx.dw.doubt"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": null,
+   "n": 6,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Our record keeps Gregory's own account of how Origen taught him:",
+   "tags": [
+    "alx.story.gregory-formation"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": null,
+   "n": 7,
+   "placed": true,
+   "placed_id": "alx.story.gregory-formation",
+   "reason": "placed by code",
+   "sentence": "Origen did not begin with doctrines, Gregory says.",
+   "tags": [
+    "alx.story.gregory-formation"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": null,
+   "n": 8,
+   "placed": true,
+   "placed_id": "alx.story.gregory-formation",
+   "reason": "placed by code",
+   "sentence": "He began like a farmer testing soil.",
+   "tags": [
+    "alx.story.gregory-formation"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": null,
+   "n": 9,
+   "placed": true,
+   "placed_id": "alx.story.gregory-formation",
+   "reason": "placed by code",
+   "sentence": "He questioned young Gregory and dug into his mind to see what it did under pressure.",
+   "tags": [
+    "alx.story.gregory-formation"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": null,
+   "n": 10,
+   "placed": true,
+   "placed_id": "alx.story.gregory-formation",
+   "reason": "placed by code",
+   "sentence": "Gregory had come from Neo-Caesarea, in Pontus, to study law.",
+   "tags": [
+    "alx.story.gregory-formation"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": null,
+   "n": 11,
+   "placed": true,
+   "placed_id": "alx.story.gregory-formation",
+   "reason": "placed by code",
+   "sentence": "At Caesarea he met Origen, and he stayed some five years.",
+   "tags": [
+    "alx.story.gregory-formation"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": null,
+   "n": 12,
+   "placed": true,
+   "placed_id": "alx.story.gregory-formation",
+   "reason": "placed by code",
+   "sentence": "He tells how he was taught in a farewell speech of praise, though who gave it, and when, is not settled.",
+   "tags": [
+    "alx.story.gregory-formation"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": null,
+   "n": 13,
+   "placed": true,
+   "placed_id": "alx.story.gregory-formation",
+   "reason": "placed by code",
+   "sentence": "Logic came first, to make thinking honest.",
+   "tags": [
+    "alx.story.gregory-formation"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": null,
+   "n": 14,
+   "placed": true,
+   "placed_id": "alx.story.gregory-formation",
+   "reason": "placed by code",
+   "sentence": "Next came the natural world, geometry and the stars, until the students' sense of wonder was trained.",
+   "tags": [
+    "alx.story.gregory-formation"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": null,
+   "n": 15,
+   "placed": true,
+   "placed_id": "alx.story.gregory-formation",
+   "reason": "placed by code",
+   "sentence": "Then came ethics, formed as habits, with the teacher's own life teaching as well.",
+   "tags": [
+    "alx.story.gregory-formation"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": null,
+   "n": 16,
+   "placed": true,
+   "placed_id": "alx.story.gregory-formation",
+   "reason": "placed by code",
+   "sentence": "Only then came theology.",
+   "tags": [
+    "alx.story.gregory-formation"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": null,
+   "n": 17,
+   "placed": true,
+   "placed_id": "alx.story.gregory-formation",
+   "reason": "placed by code",
+   "sentence": "They read everything the philosophers and poets had said of God, with Scripture at the center.",
+   "tags": [
+    "alx.story.gregory-formation"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": null,
+   "n": 18,
+   "placed": true,
+   "placed_id": "alx.story.gregory-formation",
+   "reason": "placed by code",
+   "sentence": "Under all of it, Gregory says, something else was happening.",
+   "tags": [
+    "alx.story.gregory-formation"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": null,
+   "n": 19,
+   "placed": true,
+   "placed_id": "alx.story.gregory-formation",
+   "reason": "placed by code",
+   "sentence": "Love was kindled in his inmost soul, like a spark falling there.",
+   "tags": [
+    "alx.story.gregory-formation"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": null,
+   "n": 20,
+   "placed": true,
+   "placed_id": "alx.story.gregory-formation",
+   "reason": "placed by code",
+   "sentence": "It was love for the holy Word, and for this man who was the Word's friend.",
+   "tags": [
+    "alx.story.gregory-formation"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": null,
+   "n": 21,
+   "placed": true,
+   "placed_id": "alx.story.gregory-formation",
+   "reason": "placed by code",
+   "sentence": "Gregory gave up the law.",
+   "tags": [
+    "alx.story.gregory-formation"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": null,
+   "n": 22,
+   "placed": true,
+   "placed_id": "alx.story.gregory-formation",
+   "reason": "placed by code",
+   "sentence": "When at last he had to leave, he called it being driven out of paradise.",
+   "tags": [
+    "alx.story.gregory-formation"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 23,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Gregory's account is one gifted pupil's, not the ordinary Alexandrian catechumen's.",
+   "tags": [
+    "alx.story.gregory-formation"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 24,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "The room had an edge, because after Nicaea the church itself learned to use exile and condemnation.",
+   "tags": [
+    "alx.dw.church-failure"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 25,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Our teachers' sources barely show how ordinary doubters themselves felt.",
+   "tags": [
+    "alx.dw.doubt"
+   ]
+  }
+ ],
+ "shipped_by_net": "Yes, our teachers left room for doubt, and they built their whole method on questions. Clement insisted that faith is the foundation and not the ceiling. We treated doubt aimed at understanding as hunger, and we did not count it as sin.\n\nFaith, our word pistis, is the soul's first real turn toward God, and it is compatible with unresolved questions. Our doubters stood inside a praying community, questioned inside the rule of faith, and were expected to bring the question to a teacher. What the apostles delivered plainly is fixed, and everything else is open ground.\n\nOur record keeps Gregory's own account of how Origen taught him:\n\nOrigen did not begin with doctrines, Gregory says. He began like a farmer testing soil. He questioned young Gregory and dug into his mind to see what it did under pressure.\n\nGregory had come from Neo-Caesarea, in Pontus, to study law. At Caesarea he met Origen, and he stayed some five years. He tells how he was taught in a farewell speech of praise, though who gave it, and when, is not settled.\n\nLogic came first, to make thinking honest. Next came the natural world, geometry and the stars, until the students' sense of wonder was trained. Then came ethics, formed as habits, with the teacher's own life teaching as well. Only then came theology. They read everything the philosophers and poets had said of God, with Scripture at the center.\n\nUnder all of it, Gregory says, something else was happening. Love was kindled in his inmost soul, like a spark falling there. It was love for the holy Word, and for this man who was the Word's friend. Gregory gave up the law. When at last he had to leave, he called it being driven out of paradise.\n\nGregory's account is one gifted pupil's, not the ordinary Alexandrian catechumen's. The room had an edge, because after Nicaea the church itself learned to use exile and condemnation. Our teachers' sources barely show how ordinary doubters themselves felt.",
+ "sub_question": "C14.S4"
+}

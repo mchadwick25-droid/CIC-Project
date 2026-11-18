@@ -3,6 +3,29 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: the-church-of-the-east-on-the-silk-road
 works:
+- row_id: ishoyahb-iii_liber-epistularum-versio-lat_duval-csco1905--ishoyahb-iii-liber-epistularum-tr-duval-1905
+  work: Ishoyahb III, Liber epistularum, tr. Duval (1905)
+  author: ishoyahb-iii
+  locus: the Latin version, to about OCR line 11600; add 12 to OCR line numbers
+  role: tradition
+  confidence: provisional
+  note: The catholicos's own letters. Duval's preface places him from 630 (OCR about 96) to
+    his death in 658 (about 134), across both windows; which letter falls in which window
+    is not settled here.
+  source_file: ishoyahb-iii_liber-epistularum-versio-lat_duval-csco1905.txt
+- row_id: legge_nestorian-monument-of-hsi-an-fu_trubner1888--legge-s-lecture-on-the-monument
+  work: Legge's lecture on the Nestorian Monument, with his sketch of later Christian missions
+    in China (1888)
+  author: legge
+  locus: about OCR lines 3556-end; add 11 to OCR line numbers
+  role: context
+  confidence: provisional
+  language: eng
+  note: A Victorian missionary scholar's account of the monument and of the later Catholic
+    and Protestant missions in China; the voice of 1888, not of the stele. Context for the
+    Silk Road entry; the later-missions half could serve entries on Catholic and Protestant
+    China, not assigned here.
+  source_file: legge_nestorian-monument-of-hsi-an-fu_trubner1888.txt
 - row_id: synodicon-orientale_recueil-de-synodes-nestoriens-syr-fra_chabot1902--appendix-synods-of-timothy-i
   work: 'Synodicon Orientale: appendix, the synods of Timothy I (late eighth century)'
   author: synodicon-orientale
@@ -15,6 +38,24 @@ works:
 
     '
   source_file: synodicon-orientale_recueil-de-synodes-nestoriens-syr-fra_chabot1902.txt
+- row_id: tabari_annales-prima-series-iv-ara-lat_de-goeje1890--al-tabari-annales-prima-series-iv
+  work: al-Tabari, Annales, prima series IV
+  author: tabari
+  locus: the whole volume; add 12 to OCR line numbers
+  role: context
+  confidence: provisional
+  note: A Muslim historian (839-923, era 4 audit) on the conquests of Syria and Iraq, from
+    the conquerors' side; outside witness.
+  source_file: tabari_annales-prima-series-iv-ara-lat_de-goeje1890.txt
+- row_id: tabari_annales-prima-series-v-ara-lat_de-goeje1893--al-tabari-annales-prima-series-v
+  work: al-Tabari, Annales, prima series V
+  author: tabari
+  locus: the whole volume; add 12 to OCR line numbers
+  role: context
+  confidence: provisional
+  note: A Muslim historian (839-923, era 4 audit) on the conquests of Syria and Iraq, from
+    the conquerors' side; outside witness.
+  source_file: tabari_annales-prima-series-v-ara-lat_de-goeje1893.txt
 - row_id: thomas-of-marga_book-of-governors-v2-english_budge1893--book-of-governors--voice
   work: Thomas of Marga, The Book of Governors (Historia Monastica), English
   author: thomas-of-marga
@@ -23,3 +64,18 @@ works:
   confidence: provisional
   note: A 9th-century monastic history of the Church of the East. Placed on its date.
   source_file: thomas-of-marga_book-of-governors-v2-english_budge1893.txt
+- row_id: legge_nestorian-monument-of-hsi-an-fu_trubner1888--xi-an-stele-in-legge-s-english
+  work: The Xi'an stele of 781 (the Nestorian Monument), in Legge's English translation with
+    his notes (1888)
+  author: xian_stele_inscription_781
+  locus: about OCR lines 342-3550; add 11 to OCR line numbers. The Chinese characters are
+    not in the OCR.
+  role: tradition
+  confidence: assigned
+  language: eng
+  note: The stele that tells of Alopen (Legge writes Olopun) reaching the Tang capital, in
+    a translation made independently of Wylie's and Pauthier's, with Legge's footnotes. Legge's
+    English of 1888 is a translation; the Chinese is not readable from this OCR. Quote it
+    as Legge's English; the project's own rendering from the Chinese is a separate step (INTAKE.md).
+    The Syriac names on the stone's sides are not transcribed in this OCR.
+  source_file: legge_nestorian-monument-of-hsi-an-fu_trubner1888.txt

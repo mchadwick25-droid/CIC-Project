@@ -1,0 +1,22 @@
+source_file: brine_taeping-rebellion-in-china_1862.txt
+assignments:
+- row_id: brine_taeping-rebellion-in-china_1862--the-taeping-rebellion-in-china-a-narrative-of-its-rise-and
+  work: The Taeping Rebellion in China; a narrative of its rise and progress. Based upon original documents and
+  author: brine
+  locus: Chapter IV, early life of Hung-siu-tsuen, at lines 3061-4406; Chapter XII, with the letter of Mr. Roberts
+    on leaving Nankin, at lines 11811-12839; the rest not mapped
+  atlas_ids:
+  - taiping-heavenly-kingdom
+  role: context
+  confidence: provisional
+  language: eng
+  date:
+    start: 1862
+    end: 1862
+    source: 'the printing''s own title page: line 73 of this file, on the title page'
+    formation_confidence: Documented
+  edition_date:
+    year: 1862
+    source: line 73 of this file, on the title page
+    formation_confidence: Documented
+  note: 'Era 9 rows 263 to 266, the Taiping leaders and Issachar Roberts: an outside account.'

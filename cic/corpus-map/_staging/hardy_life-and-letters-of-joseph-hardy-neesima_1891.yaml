@@ -1,0 +1,21 @@
+source_file: hardy_life-and-letters-of-joseph-hardy-neesima_1891.txt
+assignments:
+- row_id: hardy_life-and-letters-of-joseph-hardy-neesima_1891--life-and-letters-of-joseph-hardy-neesima
+  work: LIFE AND LETTERS OF JOSEPH HARDY NEESIMA
+  author: hardy
+  locus: the whole volume; not mapped
+  atlas_ids:
+  - japanese-christianity-hidden-emergence-meiji
+  role: context
+  confidence: provisional
+  language: eng
+  date:
+    start: 1891
+    end: 1891
+    source: the copyright notice at line 69 of this file ('Copyright, 1891,'); the title page prints no year
+    formation_confidence: Documented
+  edition_date:
+    year: 1891
+    source: the copyright notice at line 69 of this file ('Copyright, 1891,'); the title page prints no year
+    formation_confidence: Documented
+  note: 'Era 9 row 282, Niijima Jo: a Life with his letters.'

@@ -41,7 +41,7 @@ tellable_as: In 1549, many feared that Geneva and Zurich taught different things
 text: By 1549, a worry had spread among people who respected both our churches. They feared that Calvin's
   teaching on the Supper differed from what Zurich taught. Calvin heard this often, from worthy people.
   They wanted his writings to help them learn the doctrine of piety. They did not want any sign of disagreement
-  to hold them back. He thought a friendly conference was the best way to end the offence. So he went
+  to hold them back. He thought a friendly conference was the best way to end the offense. So he went
   to Zurich himself. His colleague William Farel had suggested and advised the visit, and went with him.
   Calvin called Farel an "indefatigable soldier of Christ." Calvin wrote that the two churches already
   agreed in judgment. What the two men worked out with Zurich's pastors became the Consensus Tigurinus.
@@ -52,7 +52,7 @@ modern_contrast: 'A modern reader might expect two theologians to settle a doctr
   or through delegates. Calvin''s own account states plainly that he judged the matter too important for
   that: he made the journey himself, in person, with a colleague at his side.'
 use_note:
-  means: "In 1549, because others doubted that Geneva's and Zurich's teaching on the sacraments agreed, Calvin travelled to Zurich himself with Farel, and their conference there became the Consensus Tigurinus."
+  means: "In 1549, because others doubted that Geneva's and Zurich's teaching on the sacraments agreed, Calvin traveled to Zurich himself with Farel, and their conference there became the Consensus Tigurinus."
   not_for:
     - "a claim that the Consensus was reached without Calvin's in-person conference at Zurich"
   years: {from: 1549, to: 1549}

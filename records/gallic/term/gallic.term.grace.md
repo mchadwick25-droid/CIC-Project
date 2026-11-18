@@ -123,7 +123,7 @@ world_word: grace (of God) / gratia
 false_friend:
 - a binary of grace alone versus works, Augustine versus Pelagius, on one side of which we must be placed
 - semi-Pelagian as a settled verdict
-- grace as a feeling or a favour
+- grace as a feeling or a favor
 - abstract theology unrelated to how anyone lived
 senses:
   informational: >-
@@ -160,7 +160,7 @@ senses:
   translational: >-
     'So were you on the side of grace or of works - were you semi-Pelagians?' - the label is a
     sixteenth-century coinage that appears in our own texts only in the editors' notes; what we held
-    was help that co-operates and requires labour, on both sides at once, declared beyond
+    was help that co-operates and requires labor, on both sides at once, declared beyond
     reason's grasp - and a Representative who resolves it either way has left us.
 quick_meaning: >-
   God's help, without which no effort reaches its goal - working with the will, helping it, and
@@ -181,7 +181,7 @@ Doc_03 5.1). Register emic. Quotations verified at locus by the build's own Doc_
 here. Both CT contest types are carried in divergence_note; the two modern-scholarship poles (Chadwick,
 Casiday) are cited as sources because the contest itself is part of this record's content, not as
 attestations of the world's usage. Augustine's treatise is cited as context only, labeled so in its
-locus. Salvian (row 43) and Augustine beyond rows 14-16 are not cited, per licence. Canon cells F1-T
+locus. Salvian (row 43) and Augustine beyond rows 14-16 are not cited, per license. Canon cells F1-T
 and F1-I: this is the term that carries the "faith alone versus works" question and the world's own
 internal argument.
 

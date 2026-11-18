@@ -1,0 +1,13 @@
+source_file: international-review-of-missions_v19_1930.txt
+assignments:
+- row_id: international-review-of-missions_v19_1930--whole
+  work: 'The International Review of Missions, Volume the Nineteenth (1930)'
+  author: international-review-of-missions
+  locus: 'whole'
+  atlas_ids:
+  - the-ecumenical-movement-and-the-wcc
+  role: tradition
+  confidence: assigned
+  language: eng
+  date: {start: 1930, end: 1930, source: "title leaf: '1930'", formation_confidence: Documented}
+  note: 'The quarterly the title leaf says ''is published by the International Missionary Council''; each article is its writer''s own.'

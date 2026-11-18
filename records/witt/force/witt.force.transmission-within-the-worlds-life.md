@@ -33,7 +33,7 @@ relations:
 - type: associated-with
   target: witt.gravity.hearers-and-repeaters-of-words
 name: 'Transmission within the world''s life: the founder''s own printing, the collectors, and the first
-  selections, 1517-1545 [2B - ongoing/internal]'
+  selections, 1517-1545'
 kind: ongoing
 matrix_cell: 2B
 description: 'Several people passed on this world''s writings during the period this library covers. The printers of

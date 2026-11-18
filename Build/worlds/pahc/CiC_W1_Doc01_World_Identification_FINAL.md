@@ -93,7 +93,7 @@ Has a new gravity emerged marking exit from this world by c. 200? Yes, on three 
 
 **Reserved for Doc_04 (Gravity Discovery, per Framework Step 4):** cross-strand gravity testing — which of this world's candidate gravities (household-based gathering, correspondence-maintained unity, apostolic-memory authority anchor, active boundary-drawing against rival claimants) hold across both Strand A and Strand B, and are therefore more likely to represent this world's own irreducible core, versus which are strand-bound to one or the other.
 
-**Open item carried to Doc_04, not resolved here:** whether a third, less-clearly-evidenced profile exists in the broader Asia Minor material beyond Ignatius's own direct addressees (e.g., material bearing on the seven churches of Revelation, or Justin Martyr's own formation background prior to his move to Rome), or whether this material should be folded into Strand A. The current evidentiary base assembled for this document does not resolve this with confidence, and it is flagged rather than forced.
+**Reserved for Doc_04, not resolved here:** whether a third, less-clearly-evidenced profile exists in the broader Asia Minor material beyond Ignatius's own direct addressees (e.g., material bearing on the seven churches of Revelation, or Justin Martyr's own formation background prior to his move to Rome), or whether this material should be folded into Strand A. The current evidentiary base assembled for this document does not resolve this with confidence, and it is flagged rather than forced.
 
 ---
 

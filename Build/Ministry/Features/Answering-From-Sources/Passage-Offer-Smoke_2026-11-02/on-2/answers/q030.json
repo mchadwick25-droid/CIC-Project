@@ -1,0 +1,178 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "lpc.passage.fa48439aa66e"
+   ],
+   "sentence": "Augustine writes of tender-hearted Christians who decline to believe that the lost suffer for ever."
+  },
+  {
+   "record_ids": [
+    "lpc.passage.fa48439aa66e"
+   ],
+   "sentence": "Augustine says these Christians suppose the lost will be delivered after a fixed term, longer or shorter according to each one's sin."
+  },
+  {
+   "record_ids": [
+    "lpc.passage.fa48439aa66e"
+   ],
+   "sentence": "Augustine says Origen went further and believed that the devil and his angels would be delivered from their torments."
+  },
+  {
+   "record_ids": [
+    "lpc.passage.fa48439aa66e"
+   ],
+   "sentence": "Augustine adds that the Church, not without reason, condemned Origen for this and other errors."
+  },
+  {
+   "record_ids": [
+    "lpc.witness.punishment-without-end"
+   ],
+   "sentence": "Augustine taught that the punishment of the lost has no end, and that the lost suffer in degrees."
+  },
+  {
+   "record_ids": [
+    "lpc.quote.very-many-make-moan-over-the-eternal-punishment"
+   ],
+   "sentence": "Augustine wrote of those who pitied the lost: “So it is in vain that some, indeed very many, lament the eternal punishment and the endless, unbroken torments of the lost. They say they do not believe it will be so. They do not set themselves directly against Holy Scripture. But, prompted by their own feelings, they soften everything that seems hard. They give a milder sense to sayings they think were meant more to frighten than to be taken as literally true.”"
+  },
+  {
+   "record_ids": [
+    "lpc.witness.punishment-without-end"
+   ],
+   "sentence": "Augustine let them suppose, if the thought gave them pleasure, that the pains of the damned are at times eased, but he would not let them say the punishment ends."
+  }
+ ],
+ "citations": [
+  "lpc.passage.fa48439aa66e",
+  "lpc.quote.very-many-make-moan-over-the-eternal-punishment",
+  "lpc.witness.punishment-without-end"
+ ],
+ "group": "B",
+ "id": "q030",
+ "net_sentences": [
+  {
+   "draft": "What we hold on the hope that all the lost will be restored is Augustine's answer to those who held it [[lpc.passage.fa48439aa66e]] [[lpc.witness.punishment-without-end]] [[as:paraphrase]].",
+   "ratio": 0.14,
+   "sentence": "What we hold on the hope that all the lost will be restored is Augustine's answer to those who held it.",
+   "tags": [
+    "lpc.passage.fa48439aa66e",
+    "lpc.witness.punishment-without-end"
+   ],
+   "verdict": "withhold",
+   "why": "specific claim (proper-noun:[\"augustine's\"]) only 14% grounded in its own tags"
+  },
+  {
+   "draft": "Augustine writes of tender-hearted Christians who decline to believe that the lost suffer for ever [[lpc.passage.fa48439aa66e]] [[as:paraphrase]].",
+   "sentence": "Augustine writes of tender-hearted Christians who decline to believe that the lost suffer for ever.",
+   "tags": [
+    "lpc.passage.fa48439aa66e"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Augustine says these Christians suppose the lost will be delivered after a fixed term, longer or shorter according to each one's sin [[lpc.passage.fa48439aa66e]] [[as:paraphrase]].",
+   "sentence": "Augustine says these Christians suppose the lost will be delivered after a fixed term, longer or shorter according to each one's sin.",
+   "tags": [
+    "lpc.passage.fa48439aa66e"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Augustine says Origen went further and believed that the devil and his angels would be delivered from their torments [[lpc.passage.fa48439aa66e]] [[as:paraphrase]].",
+   "ratio": 0.7,
+   "sentence": "Augustine says Origen went further and believed that the devil and his angels would be delivered from their torments.",
+   "tags": [
+    "lpc.passage.fa48439aa66e"
+   ],
+   "verdict": "ok",
+   "why": "grounded 70% in own tagged records"
+  },
+  {
+   "draft": "Augustine adds that the Church, not without reason, condemned Origen for this and other errors [[lpc.passage.fa48439aa66e]] [[as:paraphrase]].",
+   "ratio": 0.86,
+   "sentence": "Augustine adds that the Church, not without reason, condemned Origen for this and other errors.",
+   "tags": [
+    "lpc.passage.fa48439aa66e"
+   ],
+   "verdict": "ok",
+   "why": "grounded 86% in own tagged records"
+  },
+  {
+   "draft": "Augustine taught that the punishment of the lost has no end, and that the lost suffer in degrees [[lpc.witness.punishment-without-end]] [[as:paraphrase]].",
+   "sentence": "Augustine taught that the punishment of the lost has no end, and that the lost suffer in degrees.",
+   "tags": [
+    "lpc.witness.punishment-without-end"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Augustine wrote of those who pitied the lost: [[quote:lpc.quote.very-many-make-moan-over-the-eternal-punishment]]",
+   "placed_quote": "lpc.quote.very-many-make-moan-over-the-eternal-punishment",
+   "sentence": "Augustine wrote of those who pitied the lost: “So it is in vain that some, indeed very many, lament the eternal punishment and the endless, unbroken torments of the lost. They say they do not believe it will be so. They do not set themselves directly against Holy Scripture. But, prompted by their own feelings, they soften everything that seems hard. They give a milder sense to sayings they think were meant more to frighten than to be taken as literally true.”",
+   "tags": [
+    "lpc.quote.very-many-make-moan-over-the-eternal-punishment"
+   ],
+   "verdict": "ok",
+   "why": "quote placed by code, verbatim to its record"
+  },
+  {
+   "draft": "[[as:paraphrase]].",
+   "sentence": ".",
+   "tags": [],
+   "verdict": "ok",
+   "why": "no checkable claim - interpretive/connective framing"
+  },
+  {
+   "draft": "Augustine let them suppose, if the thought gave them pleasure, that the pains of the damned are at times eased, but he would not let them say the punishment ends [[lpc.witness.punishment-without-end]] [[as:paraphrase]].",
+   "sentence": "Augustine let them suppose, if the thought gave them pleasure, that the pains of the damned are at times eased, but he would not let them say the punishment ends.",
+   "tags": [
+    "lpc.witness.punishment-without-end"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  }
+ ],
+ "offered": [
+  "lpc.witness.punishment-without-end",
+  "lpc.term.catechesis",
+  "lpc.story.election-of-cyprian",
+  "lpc.story.hundred-thousand-sesterces",
+  "lpc.story.numidicus",
+  "lpc.quote.very-many-make-moan-over-the-eternal-punishment",
+  "lpc.quote.an-ever-burning-gehenna",
+  "lpc.force.augustine-engagement-cyprian-conciliar-acts",
+  "lpc.witness.marriage-a-threefold-good",
+  "lpc.term.the-one-episcopate",
+  "lpc.quote.earlier-councils-corrected-by-later",
+  "lpc.quote.bishop-of-bishops",
+  "lpc.passage.fa48439aa66e"
+ ],
+ "raw_text": "What we hold on the hope that all the lost will be restored is Augustine's answer to those who held it [[lpc.passage.fa48439aa66e]] [[lpc.witness.punishment-without-end]] [[as:paraphrase]]. Augustine writes of tender-hearted Christians who decline to believe that the lost suffer for ever [[lpc.passage.fa48439aa66e]] [[as:paraphrase]]. Augustine says these Christians suppose the lost will be delivered after a fixed term, longer or shorter according to each one's sin [[lpc.passage.fa48439aa66e]] [[as:paraphrase]]. Augustine says Origen went further and believed that the devil and his angels would be delivered from their torments [[lpc.passage.fa48439aa66e]] [[as:paraphrase]]. Augustine adds that the Church, not without reason, condemned Origen for this and other errors [[lpc.passage.fa48439aa66e]] [[as:paraphrase]]. Augustine taught that the punishment of the lost has no end, and that the lost suffer in degrees [[lpc.witness.punishment-without-end]] [[as:paraphrase]]. Augustine wrote of those who pitied the lost: [[quote:lpc.quote.very-many-make-moan-over-the-eternal-punishment]] [[as:paraphrase]]. Augustine let them suppose, if the thought gave them pleasure, that the pains of the damned are at times eased, but he would not let them say the punishment ends [[lpc.witness.punishment-without-end]] [[as:paraphrase]].\n",
+ "reply_shape": {
+  "leadin_support": {
+   "lpc.quote.very-many-make-moan-over-the-eternal-punishment": [
+    {
+     "detail": "wrote",
+     "kind": "genre",
+     "snippet": "rential-Thin npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml : New York, March, 1887. Documented Professor J. F. S",
+     "span": "record lpc.source.augustine-the-enchiridion"
+    }
+   ]
+  },
+  "placed": [
+   "lpc.quote.very-many-make-moan-over-the-eternal-punishment"
+  ],
+  "removed": [],
+  "repaired": []
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": "C3.S3",
+ "text": "What we hold on the hope that all the lost will be restored is Augustine's answer to those who held it. Augustine writes of tender-hearted Christians who decline to believe that the lost suffer for ever. Augustine says these Christians suppose the lost will be delivered after a fixed term, longer or shorter according to each one's sin. Augustine says Origen went further and believed that the devil and his angels would be delivered from their torments. Augustine adds that the Church, not without reason, condemned Origen for this and other errors. Augustine taught that the punishment of the lost has no end, and that the lost suffer in degrees. Augustine wrote of those who pitied the lost: “So it is in vain that some, indeed very many, lament the eternal punishment and the endless, unbroken torments of the lost. They say they do not believe it will be so. They do not set themselves directly against Holy Scripture. But, prompted by their own feelings, they soften everything that seems hard. They give a milder sense to sayings they think were meant more to frighten than to be taken as literally true.”. Augustine let them suppose, if the thought gave them pleasure, that the pains of the damned are at times eased, but he would not let them say the punishment ends.",
+ "voice_set_aside": false
+}

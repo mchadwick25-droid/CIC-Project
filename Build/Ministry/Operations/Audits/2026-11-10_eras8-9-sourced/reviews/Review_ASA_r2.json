@@ -1,0 +1,19 @@
+{
+ "slice": "ASA",
+ "round": 2,
+ "verdict": "approve",
+ "blocking": [],
+ "substantial": [],
+ "minor": [
+  {
+   "id": "ASA-r2-M1",
+   "where": "fact_table row 49 (rendering only; prose is right)",
+   "problem": "The rendering of lines 1546-1549 garbles the Spanish: 'his extensive correspondence with Apolinario and his secretary [was] taken'. The Spanish is an absolute clause: the correspondence OF Apolinario and of his secretary and of the leading members was seized, and then the secretary was jailed. Not participant-facing; the prose sentence it supports is correct.",
+   "evidence": "montero...t3 lines 1546-1550: '[ocu]pada la extensa correspondencia de Apolinario y su secretario Octavio Ignacio de San Jorge y los más significados cofrades de La Laguna y Tayabas, redújose á prisión al titulado secretario'.",
+   "fix": "Rendering: \"[once] the extensive correspondence of Apolinario, of his secretary Octavio Ignacio de San Jorge and of the leading members of La Laguna and Tayabas [had been] seized, the so-called secretary was put in prison\"."
+  }
+ ],
+ "quotes_checked": 51,
+ "quotes_failed": [],
+ "notes": "Targeted recheck against round 1. ASA-S1 resolved: paragraph 5 now says the mission set out in 1715 and reached Peking at the end of that year or early in 1716; new row 10 (vyp1 3802-3803) is at its lines and matches the page image I read in round 1 (n73, p. 68). ASA-S2 resolved: paragraph 4 opens 'The movement speaks here only through its enemies'; paragraph 5 names both excluded groups (rows 46-47, lines 2101 and 2132-2134, verified), the letters read at the meetings (row 48, 1470-1471, verified) and seized in 1841 (row 49, 1546-1549, verified; the raid date 19 September 1841 is at 1541), and the Library holding none of them; the Ileto process note is gone, the title-only sentence is supported by the subtitle. M1 ('In 1695, Adoratskii says'), M2 ('yet you yourself ... unknowing men'), M3 ('in their own faith', row note explains закон), M4 (thesis X counter-clause added, row 19 at 10534-10538 verified; matches page image n216) and M5 (voices: 'hostile Spanish accounts') all applied as given. check_draft.py: 51 quotes, none missing; READ-FAIL only on the two frozen first paragraphs (VII.21 para 0, VIII.39 para 0), which are unchanged; every new paragraph passes. My own line check: 51/51 quotes present at their lines. Diff against the census: VII.21 paragraphs 0-1 and VIII.39 paragraph 0 unchanged; only longDescription, the two added sources on VII.21, and the added voice and two sources on VIII.39 differ; holds (3) and the rest of the draft unchanged in substance."
+}

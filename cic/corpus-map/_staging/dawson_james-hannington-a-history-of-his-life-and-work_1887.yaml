@@ -1,0 +1,21 @@
+source_file: dawson_james-hannington-a-history-of-his-life-and-work_1887.txt
+assignments:
+- row_id: dawson_james-hannington-a-history-of-his-life-and-work_1887--james-hannington-d-d-f-l-s-f-r-g-s-first-bishop-of-eastern
+  work: 'JAMES HANNINGTON, D.D., F.L.S., F.R.G.S., First Bishop of Eastern Equatorial Africa: A History of his Life'
+  author: dawson
+  locus: the whole volume; not mapped
+  atlas_ids:
+  - east-african-christianity-uganda-martyrs
+  role: context
+  confidence: provisional
+  language: eng
+  date:
+    start: 1887
+    end: 1887
+    source: 'the printing''s own title page: line 183 of this file, on the title page'
+    formation_confidence: Documented
+  edition_date:
+    year: 1887
+    source: line 183 of this file, on the title page
+    formation_confidence: Documented
+  note: 'Era 9 row 319, James Hannington: a Life.'

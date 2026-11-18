@@ -1,0 +1,201 @@
+{
+ "draft": "Our bishop Augustine had psalms of penance copied for him, and in his last illness he wept over them [[lpc.story.the-psalms-on-the-wall]] [[as:paraphrase]].\n\nAugustine taught that even good Christians must repent before they die [[lpc.story.the-psalms-on-the-wall]] [[as:paraphrase]].\n\nPossidius tells how he did it himself: [[story:lpc.story.the-psalms-on-the-wall:medium]]\n",
+ "ending": "clean",
+ "final": "Our bishop Augustine had psalms of penance copied for him, and in his last illness he wept over them.\n\nAugustine taught that even good Christians must repent before they die.\n\nPossidius tells how he did it himself:\n\nWhen the Vandals besieged Hippo, Possidius, Augustine's friend for nearly forty years, took refuge in the city with other bishops. In the third month of the siege, Augustine came down with the fever that would be his last illness.\n\nIn private conversation he had often told his friends that even after baptism, good Christians and priests should not die without proper repentance. Now he did what he had taught, and he had the shortest of the psalms of repentance copied out and hung on the wall. Lying in bed, he read them and wept \"freely and constantly.\"\n\nAbout ten days before the end, he asked that no one come in except the doctors and those bringing food. His wish was kept, and he had all that time free for prayer.\n\nUntil that illness he had never stopped preaching, and at the end his sight and hearing were still sound. Then he died, while his friends, Possidius among them, stood by, watching and praying. He left no will, because he was a poor man of God and had nothing to leave.",
+ "group": "C",
+ "offered": [
+  "lpc.witness.the-dying-and-the-pastors-post",
+  "lpc.term.reconciliation-penitential-discipline",
+  "lpc.story.celerinus-writes-to-lucian",
+  "lpc.story.the-psalms-on-the-wall",
+  "lpc.quote.the-case-set-before-the-bishop",
+  "lpc.quote.the-psalms-hung-upon-the-wall",
+  "lpc.force.confessors-claim-to-grant-peace",
+  "lpc.witness.infants-and-the-sin-of-another",
+  "lpc.story.the-death-of-cyprian",
+  "lpc.quote.thank-offerings-for-the-very-good",
+  "lpc.quote.not-his-own-sins-but-the-sins-of-another",
+  "lpc.witness.answerability-as-ground",
+  "lpc.quote.ye-belong-to-my-care",
+  "lpc.quote.clamour-and-tears"
+ ],
+ "placements": [
+  {
+   "decision": "keep",
+   "judgement": {
+    "fit": "fits",
+    "limit_stated": false,
+    "reason": "It tells how Augustine had penance psalms copied and wept over them, which answers the question about a bishop weeping over his sins."
+   },
+   "record_id": "lpc.story.the-psalms-on-the-wall"
+  }
+ ],
+ "question": "Give me an example of a bishop who wept over his own sins.",
+ "question_id": "q062",
+ "read": {
+  "dropped": [],
+  "status": "clean",
+  "unsupported": {}
+ },
+ "rewrite": null,
+ "sentences": [
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 0,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Our bishop Augustine had psalms of penance copied for him, and in his last illness he wept over them.",
+   "tags": [
+    "lpc.story.the-psalms-on-the-wall"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 1,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Augustine taught that even good Christians must repent before they die.",
+   "tags": [
+    "lpc.story.the-psalms-on-the-wall"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": null,
+   "n": 2,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Possidius tells how he did it himself:",
+   "tags": [
+    "lpc.story.the-psalms-on-the-wall"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": null,
+   "n": 3,
+   "placed": true,
+   "placed_id": "lpc.story.the-psalms-on-the-wall",
+   "reason": "placed by code",
+   "sentence": "When the Vandals besieged Hippo, Possidius, Augustine's friend for nearly forty years, took refuge in the city with other bishops.",
+   "tags": [
+    "lpc.story.the-psalms-on-the-wall"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": null,
+   "n": 4,
+   "placed": true,
+   "placed_id": "lpc.story.the-psalms-on-the-wall",
+   "reason": "placed by code",
+   "sentence": "In the third month of the siege, Augustine came down with the fever that would be his last illness.",
+   "tags": [
+    "lpc.story.the-psalms-on-the-wall"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": null,
+   "n": 5,
+   "placed": true,
+   "placed_id": "lpc.story.the-psalms-on-the-wall",
+   "reason": "placed by code",
+   "sentence": "In private conversation he had often told his friends that even after baptism, good Christians and priests should not die without proper repentance.",
+   "tags": [
+    "lpc.story.the-psalms-on-the-wall"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": null,
+   "n": 6,
+   "placed": true,
+   "placed_id": "lpc.story.the-psalms-on-the-wall",
+   "reason": "placed by code",
+   "sentence": "Now he did what he had taught, and he had the shortest of the psalms of repentance copied out and hung on the wall.",
+   "tags": [
+    "lpc.story.the-psalms-on-the-wall"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": null,
+   "n": 7,
+   "placed": true,
+   "placed_id": "lpc.story.the-psalms-on-the-wall",
+   "reason": "placed by code",
+   "sentence": "Lying in bed, he read them and wept \"freely and constantly.\"",
+   "tags": [
+    "lpc.story.the-psalms-on-the-wall"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": null,
+   "n": 8,
+   "placed": true,
+   "placed_id": "lpc.story.the-psalms-on-the-wall",
+   "reason": "placed by code",
+   "sentence": "About ten days before the end, he asked that no one come in except the doctors and those bringing food.",
+   "tags": [
+    "lpc.story.the-psalms-on-the-wall"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": null,
+   "n": 9,
+   "placed": true,
+   "placed_id": "lpc.story.the-psalms-on-the-wall",
+   "reason": "placed by code",
+   "sentence": "His wish was kept, and he had all that time free for prayer.",
+   "tags": [
+    "lpc.story.the-psalms-on-the-wall"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": null,
+   "n": 10,
+   "placed": true,
+   "placed_id": "lpc.story.the-psalms-on-the-wall",
+   "reason": "placed by code",
+   "sentence": "Until that illness he had never stopped preaching, and at the end his sight and hearing were still sound.",
+   "tags": [
+    "lpc.story.the-psalms-on-the-wall"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": null,
+   "n": 11,
+   "placed": true,
+   "placed_id": "lpc.story.the-psalms-on-the-wall",
+   "reason": "placed by code",
+   "sentence": "Then he died, while his friends, Possidius among them, stood by, watching and praying.",
+   "tags": [
+    "lpc.story.the-psalms-on-the-wall"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": null,
+   "n": 12,
+   "placed": true,
+   "placed_id": "lpc.story.the-psalms-on-the-wall",
+   "reason": "placed by code",
+   "sentence": "He left no will, because he was a poor man of God and had nothing to leave.",
+   "tags": [
+    "lpc.story.the-psalms-on-the-wall"
+   ]
+  }
+ ],
+ "shipped_by_net": "Our bishop Augustine had psalms of penance copied for him, and in his last illness he wept over them.\n\nAugustine taught that even good Christians must repent before they die.\n\nPossidius tells how he did it himself:\n\nWhen the Vandals besieged Hippo, Possidius, Augustine's friend for nearly forty years, took refuge in the city with other bishops. In the third month of the siege, Augustine came down with the fever that would be his last illness.\n\nIn private conversation he had often told his friends that even after baptism, good Christians and priests should not die without proper repentance. Now he did what he had taught, and he had the shortest of the psalms of repentance copied out and hung on the wall. Lying in bed, he read them and wept \"freely and constantly.\"\n\nAbout ten days before the end, he asked that no one come in except the doctors and those bringing food. His wish was kept, and he had all that time free for prayer.\n\nUntil that illness he had never stopped preaching, and at the end his sight and hearing were still sound. Then he died, while his friends, Possidius among them, stood by, watching and praying. He left no will, because he was a poor man of God and had nothing to leave.",
+ "sub_question": "C7.S5"
+}

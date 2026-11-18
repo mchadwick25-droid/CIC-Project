@@ -1,0 +1,506 @@
+[
+ {
+  "id": "q013-A",
+  "answers_question": "partly",
+  "depth": "thin",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "tier3",
+  "note": "says plainly it cannot answer, then drifts to Decian certificates unrelated to hiding"
+ },
+ {
+  "id": "q024-B",
+  "answers_question": "yes",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "no",
+  "accuracy": "ok",
+  "note": "accurate threefold-good summary but reads as report on Augustine, says nothing of how marriage was marked"
+ },
+ {
+  "id": "q026-B",
+  "answers_question": "partly",
+  "depth": "adequate",
+  "plain": "no",
+  "community_voice": "yes",
+  "accuracy": "tier3",
+  "note": "garbled middle sentence joins rebaptism and confessor tension incoherently"
+ },
+ {
+  "id": "q023-A",
+  "answers_question": "yes",
+  "depth": "rich",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "vivid, grounded account of the certificate and Celerinus's grief"
+ },
+ {
+  "id": "q012-B",
+  "answers_question": "yes",
+  "depth": "adequate",
+  "plain": "no",
+  "community_voice": "yes",
+  "accuracy": "tier3",
+  "note": "sound ordering of authorities but last sentences run on without punctuation"
+ },
+ {
+  "id": "q003-B",
+  "answers_question": "partly",
+  "depth": "adequate",
+  "plain": "no",
+  "community_voice": "yes",
+  "accuracy": "tier3",
+  "note": "duplicated 'years later', out-of-order quotes, restlessness-as-design slightly stretched"
+ },
+ {
+  "id": "q019-A",
+  "answers_question": "yes",
+  "depth": "rich",
+  "plain": "no",
+  "community_voice": "yes",
+  "accuracy": "tier3",
+  "note": "substantive but long, repetitive and quote placement jumbled"
+ },
+ {
+  "id": "q018-B",
+  "answers_question": "partly",
+  "depth": "adequate",
+  "plain": "no",
+  "community_voice": "yes",
+  "accuracy": "tier3",
+  "note": "honest about limits but meandering with dangling fragments and unclear 'one exception'"
+ },
+ {
+  "id": "q023-B",
+  "answers_question": "partly",
+  "depth": "thin",
+  "plain": "yes",
+  "community_voice": "no",
+  "accuracy": "ok",
+  "note": "accurate but terse and never says what was given up"
+ },
+ {
+  "id": "q021-B",
+  "answers_question": "yes",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "correctly cites Letter 126 to Albina and names unread material honestly"
+ },
+ {
+  "id": "q005-A",
+  "answers_question": "yes",
+  "depth": "adequate",
+  "plain": "no",
+  "community_voice": "no",
+  "accuracy": "tier3",
+  "note": "accurate but report-like with word-count and source-locus talk"
+ },
+ {
+  "id": "q008-A",
+  "answers_question": "yes",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "clear and grounded on Fidus council and Augustine"
+ },
+ {
+  "id": "q005-B",
+  "answers_question": "yes",
+  "depth": "rich",
+  "plain": "no",
+  "community_voice": "yes",
+  "accuracy": "tier3",
+  "note": "good substance but ends in unpunctuated run-on fragments"
+ },
+ {
+  "id": "q021-A",
+  "answers_question": "yes",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "tier1",
+  "note": "attributes the apse description to a letter to Fussala; it is Letter 126 to Albina"
+ },
+ {
+  "id": "q020-B",
+  "answers_question": "yes",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Jubaianus 'born of both sacraments' verified in the text"
+ },
+ {
+  "id": "q010-B",
+  "answers_question": "yes",
+  "depth": "adequate",
+  "plain": "no",
+  "community_voice": "yes",
+  "accuracy": "tier3",
+  "note": "right points but run-on fragments and dangling 'he'"
+ },
+ {
+  "id": "q007-B",
+  "answers_question": "yes",
+  "depth": "adequate",
+  "plain": "no",
+  "community_voice": "yes",
+  "accuracy": "tier3",
+  "note": "dangling sentences ('He told them...', 'a room of real people') break the thread"
+ },
+ {
+  "id": "q020-A",
+  "answers_question": "partly",
+  "depth": "adequate",
+  "plain": "no",
+  "community_voice": "yes",
+  "accuracy": "tier1",
+  "note": "denies the record uses born-again language, but Cyprian speaks of regeneration and being born of water"
+ },
+ {
+  "id": "q004-B",
+  "answers_question": "yes",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "concise creedal answer, grounded"
+ },
+ {
+  "id": "q016-B",
+  "answers_question": "partly",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "holds the 430 boundary correctly, then drifts into loosely related points"
+ },
+ {
+  "id": "q007-A",
+  "answers_question": "yes",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "clear, honest, links struggle to road back"
+ },
+ {
+  "id": "q019-B",
+  "answers_question": "partly",
+  "depth": "thin",
+  "plain": "yes",
+  "community_voice": "no",
+  "accuracy": "tier3",
+  "note": "three disconnected statements, last one a non sequitur"
+ },
+ {
+  "id": "q009-A",
+  "answers_question": "yes",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "measured, specific self-assessment of strong and weak claims"
+ },
+ {
+  "id": "q022-B",
+  "answers_question": "yes",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "refuses to invent a day, offers grounded decided practices"
+ },
+ {
+  "id": "q006-B",
+  "answers_question": "no",
+  "depth": "flat",
+  "plain": "yes",
+  "community_voice": "no",
+  "accuracy": "ok",
+  "note": "empty non-answer"
+ },
+ {
+  "id": "q008-B",
+  "answers_question": "yes",
+  "depth": "adequate",
+  "plain": "no",
+  "community_voice": "yes",
+  "accuracy": "tier3",
+  "note": "accurate quotes but strung as unpunctuated fragments out of order"
+ },
+ {
+  "id": "q002-A",
+  "answers_question": "yes",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "clear Christ-pattern answer grounded in Augustine"
+ },
+ {
+  "id": "q028-B",
+  "answers_question": "yes",
+  "depth": "adequate",
+  "plain": "no",
+  "community_voice": "yes",
+  "accuracy": "tier3",
+  "note": "hard teaching held honestly, but quotes misordered so referents confuse"
+ },
+ {
+  "id": "q014-B",
+  "answers_question": "yes",
+  "depth": "adequate",
+  "plain": "no",
+  "community_voice": "yes",
+  "accuracy": "tier3",
+  "note": "grounded but repetitive and choppy, Pontius election told twice"
+ },
+ {
+  "id": "q027-A",
+  "answers_question": "partly",
+  "depth": "thin",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "tier3",
+  "note": "only the lapsed angle, ends on meta remark about phases"
+ },
+ {
+  "id": "q011-B",
+  "answers_question": "partly",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "no",
+  "accuracy": "ok",
+  "note": "accurate on Moses and Genesis but never says what the reader is missing"
+ },
+ {
+  "id": "q017-A",
+  "answers_question": "yes",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "clear account of the apostolic-custom test and its gaps"
+ },
+ {
+  "id": "q006-A",
+  "answers_question": "partly",
+  "depth": "adequate",
+  "plain": "no",
+  "community_voice": "yes",
+  "accuracy": "tier3",
+  "note": "some good material but incoherent sequence with dangling referents"
+ },
+ {
+  "id": "q001-A",
+  "answers_question": "partly",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "good on written testimony, then drifts into Trinity and Maximinus"
+ },
+ {
+  "id": "q001-B",
+  "answers_question": "yes",
+  "depth": "rich",
+  "plain": "no",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "thorough two-paths answer with succession and competing tests, overlong"
+ },
+ {
+  "id": "q025-B",
+  "answers_question": "no",
+  "depth": "thin",
+  "plain": "yes",
+  "community_voice": "no",
+  "accuracy": "tier3",
+  "note": "ignores the torture-obtained-source question entirely"
+ },
+ {
+  "id": "q010-A",
+  "answers_question": "partly",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "no",
+  "accuracy": "ok",
+  "note": "accurate Genesis-days material but only one facet of reading purpose, ends off topic"
+ },
+ {
+  "id": "q004-A",
+  "answers_question": "yes",
+  "depth": "rich",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "creed plus lived pattern, clear and grounded"
+ },
+ {
+  "id": "q015-B",
+  "answers_question": "yes",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "tier2",
+  "note": "calls Felicissimus's faction a rival bishop and asserts a causal link from schisms to the penance discipline"
+ },
+ {
+  "id": "q018-A",
+  "answers_question": "partly",
+  "depth": "thin",
+  "plain": "yes",
+  "community_voice": "no",
+  "accuracy": "ok",
+  "note": "teach-then-wash grounded but repetitive 'the person' and rebaptism drift"
+ },
+ {
+  "id": "q027-B",
+  "answers_question": "yes",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "warm, honest, avoids claiming to know the asker"
+ },
+ {
+  "id": "q014-A",
+  "answers_question": "yes",
+  "depth": "rich",
+  "plain": "no",
+  "community_voice": "yes",
+  "accuracy": "tier3",
+  "note": "substantive but sprawling, off-topic tail and dangling 'He wrote: He wrote: Lucian wrote:'"
+ },
+ {
+  "id": "q022-A",
+  "answers_question": "partly",
+  "depth": "thin",
+  "plain": "yes",
+  "community_voice": "no",
+  "accuracy": "ok",
+  "note": "few disconnected facts, little of a day"
+ },
+ {
+  "id": "q015-A",
+  "answers_question": "yes",
+  "depth": "adequate",
+  "plain": "no",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "grounded but a list of facts loosely joined"
+ },
+ {
+  "id": "q024-A",
+  "answers_question": "yes",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "tier3",
+  "note": "good on bond and honest about rite, but wealth and almsgiving tangent loosely tied to marriage"
+ },
+ {
+  "id": "q002-B",
+  "answers_question": "yes",
+  "depth": "rich",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "shepherd framing from Sermon 88 plus Christ-pattern, grounded"
+ },
+ {
+  "id": "q017-B",
+  "answers_question": "yes",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "no",
+  "accuracy": "ok",
+  "note": "accurate but report-voice repeating Augustine's name"
+ },
+ {
+  "id": "q011-A",
+  "answers_question": "yes",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "tier3",
+  "note": "answers well but generic claims about psalms and letters rest on no cited record"
+ },
+ {
+  "id": "q026-A",
+  "answers_question": "yes",
+  "depth": "rich",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "confessor tension told vividly and grounded in Cyprian's letter"
+ },
+ {
+  "id": "q009-B",
+  "answers_question": "partly",
+  "depth": "adequate",
+  "plain": "no",
+  "community_voice": "no",
+  "accuracy": "tier2",
+  "note": "leaks engine tagging instructions and build talk, a world-boundary break, with a boastful unsupported claim"
+ },
+ {
+  "id": "q013-B",
+  "answers_question": "yes",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "honest limit stated plainly with grounded context on persecution and Cyprian's 258 death"
+ },
+ {
+  "id": "q025-A",
+  "answers_question": "partly",
+  "depth": "thin",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "tier3",
+  "note": "fairly declines an unrecognized premise but leaks 'this turn' meta phrasing"
+ },
+ {
+  "id": "q016-A",
+  "answers_question": "yes",
+  "depth": "thin",
+  "plain": "yes",
+  "community_voice": "no",
+  "accuracy": "tier3",
+  "note": "holds the 430 boundary, but opens with a self-label that sounds like a system persona"
+ },
+ {
+  "id": "q012-A",
+  "answers_question": "yes",
+  "depth": "rich",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "clear ordering of authorities with a verbatim Augustine passage and the confessor tension"
+ },
+ {
+  "id": "q003-A",
+  "answers_question": "yes",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "grounded, clear, and honest about the struggle"
+ },
+ {
+  "id": "q028-A",
+  "answers_question": "yes",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "no",
+  "accuracy": "ok",
+  "note": "accurate on extra ecclesiam and Demetrianus but reads as report on Cyprian"
+ }
+]

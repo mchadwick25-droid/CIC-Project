@@ -1,0 +1,24 @@
+source_file: mcgready_posthumous-works_smith1837.txt
+assignments:
+- row_id: mcgready_posthumous-works_smith1837--mcgready-narrative-of-the-revival-1801
+  work: 'McGready, Narrative of the Commencement and Progress of the Revival of 1800 (letter of 23 October 1801)'
+  author: mcgready
+  locus: 'the Narrative at OCR lines 222-488; add 12 to OCR line numbers'
+  atlas_ids:
+  - the-second-great-awakening-and-camp-meeting-worl
+  role: tradition
+  confidence: assigned
+  language: eng
+  date: {start: 1801, end: 1801, source: "headed 'In a Letter to a Friend, dated Logan County, Ky., Oct. 23, 1801' (OCR line 222 onward)", formation_confidence: Documented}
+  note: 'McGready''s own account of the Logan County revival, written in 1801. A bracketed note at about line 456 is the editor''s.'
+- row_id: mcgready_posthumous-works_smith1837--mcgready-sermons
+  work: 'McGready, Posthumous Works: sermons I-XLII, a lecture and an address (ed. Smith, 1837)'
+  author: mcgready
+  locus: 'the sermons at OCR lines 601-25533; the lecture and address at 25534-26861; add 12 to OCR line numbers'
+  atlas_ids:
+  - the-second-great-awakening-and-camp-meeting-worl
+  role: tradition
+  confidence: provisional
+  language: eng
+  date: {start: 1837, end: 1837, source: "title page: 1837; the sermons are not dated in the contents", formation_confidence: Documented}
+  note: 'His sermons, printed after his death by James Smith. How far Smith edited the manuscripts was not checked.'

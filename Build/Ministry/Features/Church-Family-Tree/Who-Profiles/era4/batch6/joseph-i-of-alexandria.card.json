@@ -1,0 +1,73 @@
+{
+  "name": "Joseph I of Alexandria",
+  "otherNames": [
+    "Yusab",
+    "Yusab I"
+  ],
+  "knownFor": "Coptic patriarch of Alexandria in the ninth century. The caliph al-Ma'mun sent him with Dionysius of Tel Mahre to the rebels of Lower Egypt.",
+  "dates": "Eusèbe Renaudot reckons his ordination to 831 and his death to 850, after eighteen years and eleven months. René Basset's French of the Arabic Synaxarium brackets 837 to 849. Both synaxaria give him nineteen years, and keep his death on the 23rd of Babeh, or Tekemt in the Ethiopic",
+  "place": "Alexandria. Of a leading family of Manuf, the Arabic Synaxarium says. A monk at the monastery of Saint Macarius in the desert of Scetis, the Ethiopic Synaxarium says",
+  "tradition": "Coptic Christianity under Early Islam",
+  "role": "Patriarch of Alexandria, the fifty-second in Renaudot's and Budge's count",
+  "briefLength": "about 2 minutes",
+  "legacy": {
+    "traces": [
+      "He received Georgios, son of King Zacharias of Nubia, on his way to the caliph, Renaudot says. Georgios carried a gold cross that everyone kissed.",
+      "Al-Ma'mun gave him a diploma protecting his ordinations and depositions, Renaudot says. He later showed it to a hostile judge.",
+      "He sent bishops to Africa, Pentapolis, Ethiopia and Nubia, Renaudot says, warning that the flocks might perish."
+    ],
+    "remembered": [
+      "The Arabic Synaxarium, the Coptic church's book of saints' days, keeps him on the 23rd of Babeh. It says God worked many miracles through him.",
+      "The Ethiopic Synaxarium, in E. A. Wallis Budge's English, keeps him on the 23rd of Tekemt. It greets him as Joseph of the city of Manuf, \"unto whom was given the knowledge of Letters\".",
+      "Dionysius of Tel Mahre, as Bar Hebraeus quotes him, called the Copts chaste, sincere and humble, but found that church office there was bought."
+    ]
+  },
+  "uncertain": [
+    "The History of the Patriarchs, a later Arabic history of the Coptic church, has a life of him, but it is not held. The held witnesses are Renaudot's Latin retelling, the two synaxaria and Bar Hebraeus.",
+    "Eusèbe Renaudot was a Catholic scholar who wrote in 1713. He calls these patriarchs heretics.",
+    "Who wrote his life. Renaudot says its writer shared Joseph's prison, but no held source gives his name.",
+    "His age. The Arabic Synaxarium gives eighty-two, the Ethiopic sixty-eight.",
+    "Who sent the swordsman. The Arabic Synaxarium says the emir's brother, and the Ethiopic the king's brother. Renaudot says the governor Afshin sent his own father.",
+    "When the revolt fell. Renaudot puts it under Joseph, but notes that the historian Elmacinus and another life put it under his predecessor Jacob.",
+    "The bishop of Ethiopia whom he sent back. The History, as Renaudot retells it, and the Ethiopic Synaxarium name him John. Renaudot reports that Makrizi calls him Jacob.",
+    "Who received Georgios in Baghdad. Renaudot says the caliph. A book on the churches of Egypt, under the name of Abu Salih, says Ibrahim, brother of al-Ma'mun.",
+    "The rival for the see. Renaudot names Isaac, son of Andunah, a rich married man. The synaxaria do not name him."
+  ],
+  "sources": {
+    "about": [
+      {
+        "title": "Historia patriarcharum Alexandrinorum Jacobitarum",
+        "author": "Eusèbe Renaudot",
+        "date": "1713",
+        "language": "Latin",
+        "file": "cic/texts/renaudot_historia-patriarcharum-alexandrinorum-jacobitarum-lat_1713.txt"
+      },
+      {
+        "title": "Le Synaxaire arabe jacobite, Thout to Babeh, 23 Babeh, in Patrologia Orientalis 1 (tr. René Basset)",
+        "date": "1907",
+        "language": "Arabic with French translation",
+        "file": "cic/texts/synaxaire-arabe-jacobite_po1-thout-babeh-synaxaire-ethiopien-fra_basset-guidi1907.txt"
+      },
+      {
+        "title": "The Book of the Saints of the Ethiopian Church, volume 1, 23 Tekemt (tr. E. A. Wallis Budge)",
+        "date": "1928",
+        "language": "English translation",
+        "file": "cic/texts/ethiopian-synaxarium_book-of-saints-ethiopian-church-v1-maskaram-khedar_budge1928.txt"
+      },
+      {
+        "title": "Chronicon ecclesiasticum, volume 1 (ed. J. B. Abbeloos and T. J. Lamy)",
+        "author": "Bar Hebraeus",
+        "date": "1872",
+        "language": "Latin translation",
+        "file": "cic/texts/barhebraeus_chronicon-ecclesiasticum-vol1-lat_abbeloos-lamy1872.txt"
+      },
+      {
+        "title": "The Churches and Monasteries of Egypt (tr. B. T. A. Evetts, notes by Alfred J. Butler)",
+        "author": "Attributed to Abu Salih the Armenian",
+        "date": "1895",
+        "language": "English translation",
+        "file": "cic/texts/abu-salih_churches-and-monasteries-of-egypt_evetts1895.txt"
+      }
+    ]
+  }
+}

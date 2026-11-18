@@ -1,0 +1,196 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "syr.term.raza-shrara"
+   ],
+   "sentence": "We read Scripture and the world through the raza, a symbol that shows a hidden truth we call the shrara."
+  },
+  {
+   "record_ids": [
+    "syr.term.raza-shrara"
+   ],
+   "sentence": "The raza is bound to the truth it shows."
+  },
+  {
+   "record_ids": [
+    "syr.term.raza-shrara"
+   ],
+   "sentence": "It is not a stand-in that a reader picks at will."
+  },
+  {
+   "record_ids": [
+    "syr.term.raza-shrara"
+   ],
+   "sentence": "The pair stands at the center of Ephrem's method of reading."
+  },
+  {
+   "record_ids": [
+    "syr.dw.apostolic"
+   ],
+   "sentence": "Our practices were already in place when our sources begin."
+  },
+  {
+   "record_ids": [
+    "syr.dw.apostolic"
+   ],
+   "sentence": "We kept assembly on the first day and fasting, and the one Gospel was already the standard."
+  },
+  {
+   "record_ids": [
+    "syr.dw.apostolic"
+   ],
+   "sentence": "We lived our inheritance as apostolic."
+  },
+  {
+   "record_ids": [
+    "syr.dw.apostolic"
+   ],
+   "sentence": "Our written record shows our inheritance only from the point where the sources begin."
+  },
+  {
+   "record_ids": [
+    "syr.quote.a-pearl-upon-the-palm"
+   ],
+   "sentence": "In today's English, Ephrem the Syrian says: “One day, my brothers, I picked up a pearl. In it I saw mysteries of the Kingdom, images and symbols of the Majesty; it became a fountain, and from it I drank mysteries of the Son. I set it, my brothers, on the palm of my hand so I could examine it. I went to look at it from one side, and it showed faces on every side.”"
+  }
+ ],
+ "citations": [
+  "syr.dw.apostolic",
+  "syr.quote.a-pearl-upon-the-palm",
+  "syr.term.raza-shrara"
+ ],
+ "group": "A",
+ "id": "q010",
+ "net_sentences": [
+  {
+   "draft": "We read Scripture and the world through the raza, a symbol that shows a hidden truth we call the shrara [[syr.term.raza-shrara]] [[as:paraphrase]].",
+   "sentence": "We read Scripture and the world through the raza, a symbol that shows a hidden truth we call the shrara.",
+   "tags": [
+    "syr.term.raza-shrara"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "The raza is bound to the truth it shows [[syr.term.raza-shrara]] [[as:paraphrase]].",
+   "sentence": "The raza is bound to the truth it shows.",
+   "tags": [
+    "syr.term.raza-shrara"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "It is not a stand-in that a reader picks at will [[syr.term.raza-shrara]] [[as:paraphrase]].",
+   "sentence": "It is not a stand-in that a reader picks at will.",
+   "tags": [
+    "syr.term.raza-shrara"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "The pair stands at the center of Ephrem's method of reading [[syr.term.raza-shrara]] [[as:paraphrase]].",
+   "ratio": 0.83,
+   "sentence": "The pair stands at the center of Ephrem's method of reading.",
+   "tags": [
+    "syr.term.raza-shrara"
+   ],
+   "verdict": "ok",
+   "why": "grounded 83% in own tagged records"
+  },
+  {
+   "draft": "Our practices were already in place when our sources begin [[syr.dw.apostolic]] [[as:paraphrase]].",
+   "sentence": "Our practices were already in place when our sources begin.",
+   "tags": [
+    "syr.dw.apostolic"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "We kept assembly on the first day and fasting, and the one Gospel was already the standard [[syr.dw.apostolic]] [[as:paraphrase]].",
+   "sentence": "We kept assembly on the first day and fasting, and the one Gospel was already the standard.",
+   "tags": [
+    "syr.dw.apostolic"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "We lived our inheritance as apostolic [[syr.dw.apostolic]] [[as:paraphrase]].",
+   "sentence": "We lived our inheritance as apostolic.",
+   "tags": [
+    "syr.dw.apostolic"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Our written record shows our inheritance only from the point where the sources begin [[syr.dw.apostolic]] [[as:paraphrase]].",
+   "sentence": "Our written record shows our inheritance only from the point where the sources begin.",
+   "tags": [
+    "syr.dw.apostolic"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Ephrem the Syrian wrote in his first Pearl hymn: [[quote:syr.quote.a-pearl-upon-the-palm]]",
+   "placed_quote": "syr.quote.a-pearl-upon-the-palm",
+   "sentence": "In today's English, Ephrem the Syrian says: “One day, my brothers, I picked up a pearl. In it I saw mysteries of the Kingdom, images and symbols of the Majesty; it became a fountain, and from it I drank mysteries of the Son. I set it, my brothers, on the palm of my hand so I could examine it. I went to look at it from one side, and it showed faces on every side.”",
+   "tags": [
+    "syr.quote.a-pearl-upon-the-palm"
+   ],
+   "verdict": "ok",
+   "why": "quote placed by code, verbatim to its record"
+  }
+ ],
+ "offered": [
+  "syr.dw.apostolic",
+  "syr.term.raza-shrara",
+  "syr.quote.a-pearl-upon-the-palm",
+  "syr.gravity.covenant-life",
+  "syr.term.anti-jewish-polemic",
+  "syr.quote.on-a-certain-day-a-pearl",
+  "syr.dw.corpus-and-its-edges",
+  "syr.story.abgar-addai-legend",
+  "syr.story.edessa-flood-201",
+  "syr.quote.abgar-letter",
+  "syr.force.transmission-ending",
+  "syr.force.transmission-ongoing"
+ ],
+ "raw_text": "We read Scripture and the world through the raza, a symbol that shows a hidden truth we call the shrara [[syr.term.raza-shrara]] [[as:paraphrase]]. The raza is bound to the truth it shows [[syr.term.raza-shrara]] [[as:paraphrase]]. It is not a stand-in that a reader picks at will [[syr.term.raza-shrara]] [[as:paraphrase]]. The pair stands at the center of Ephrem's method of reading [[syr.term.raza-shrara]] [[as:paraphrase]].\n\nOur practices were already in place when our sources begin [[syr.dw.apostolic]] [[as:paraphrase]]. We kept assembly on the first day and fasting, and the one Gospel was already the standard [[syr.dw.apostolic]] [[as:paraphrase]]. We lived our inheritance as apostolic [[syr.dw.apostolic]] [[as:paraphrase]]. Our own account of that rests on the story of Addai the apostle, our cherished legend [[syr.dw.apostolic]] [[syr.story.abgar-addai-legend]] [[as:paraphrase]]. Our written record shows our inheritance only from the point where the sources begin [[syr.dw.apostolic]] [[as:paraphrase]].\n\nEphrem the Syrian wrote in his first Pearl hymn: [[quote:syr.quote.a-pearl-upon-the-palm]]\n",
+ "reply_shape": {
+  "placed": [
+   "syr.quote.a-pearl-upon-the-palm"
+  ],
+  "removed": [
+   {
+    "draft": "Our own account of that rests on the story of Addai the apostle, our cherished legend [[syr.dw.apostolic]] [[syr.story.abgar-addai-legend]] [[as:paraphrase]].",
+    "sentence": "Our own account of that rests on the story of Addai the apostle, our cherished legend.",
+    "why": "tells an offered story without placing it"
+   }
+  ],
+  "repaired": [
+   {
+    "draft": "Ephrem the Syrian wrote in his first Pearl hymn: [[quote:syr.quote.a-pearl-upon-the-palm]]",
+    "lead_in": "In today's English, Ephrem the Syrian says",
+    "unresolved": [
+     {
+      "detail": "wrote",
+      "kind": "genre"
+     }
+    ],
+    "why": "lead-in stated a detail no source document supports; replaced by code's"
+   }
+  ]
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": "C5.S2",
+ "text": "We read Scripture and the world through the raza, a symbol that shows a hidden truth we call the shrara. The raza is bound to the truth it shows. It is not a stand-in that a reader picks at will. The pair stands at the center of Ephrem's method of reading.\n\nOur practices were already in place when our sources begin. We kept assembly on the first day and fasting, and the one Gospel was already the standard. We lived our inheritance as apostolic. Our written record shows our inheritance only from the point where the sources begin.\n\nIn today's English, Ephrem the Syrian says: “One day, my brothers, I picked up a pearl. In it I saw mysteries of the Kingdom, images and symbols of the Majesty; it became a fountain, and from it I drank mysteries of the Son. I set it, my brothers, on the palm of my hand so I could examine it. I went to look at it from one side, and it showed faces on every side.”",
+ "voice_set_aside": false
+}

@@ -1,0 +1,209 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "lpc.witness.days-before-the-sun"
+   ],
+   "sentence": "We read the sacred texts openly, and we name a difficulty rather than explain it away."
+  },
+  {
+   "record_ids": [
+    "lpc.witness.days-before-the-sun"
+   ],
+   "sentence": "Augustine took up how to read the days of Genesis directly, in City of God."
+  },
+  {
+   "record_ids": [
+    "lpc.witness.days-before-the-sun"
+   ],
+   "sentence": "Ordinary days have morning and evening only by the sun's rising and setting."
+  },
+  {
+   "record_ids": [
+    "lpc.witness.days-before-the-sun"
+   ],
+   "sentence": "But Genesis reports the first three days before the sun existed, since it was made only on the fourth day."
+  },
+  {
+   "record_ids": [
+    "lpc.witness.days-before-the-sun"
+   ],
+   "sentence": "What kind of light made those days, and by what movement it made evening and morning, is beyond the reach of our senses."
+  },
+  {
+   "record_ids": [
+    "lpc.witness.days-before-the-sun"
+   ],
+   "sentence": "We cannot understand how it was, Augustine wrote, and yet we must believe it."
+  },
+  {
+   "record_ids": [
+    "lpc.witness.days-before-the-sun"
+   ],
+   "sentence": "Some histories claimed many thousands of years for the world, and Augustine called those documents highly mendacious."
+  },
+  {
+   "record_ids": [
+    "lpc.witness.days-before-the-sun"
+   ],
+   "sentence": "He held instead that by Scripture's own reckoning, not 6,000 years had yet passed since the world began."
+  },
+  {
+   "record_ids": [
+    "lpc.force.augustine-engagement-cyprian-conciliar-acts"
+   ],
+   "sentence": "We read our own bishops with the same care."
+  },
+  {
+   "record_ids": [
+    "lpc.force.augustine-engagement-cyprian-conciliar-acts"
+   ],
+   "sentence": "Augustine read the ruling on rebaptism made by Cyprian's council of 256, and argued at length that it was wrong."
+  },
+  {
+   "record_ids": [
+    "lpc.force.augustine-engagement-cyprian-conciliar-acts"
+   ],
+   "sentence": "Cyprian was a predecessor who belonged to us, and we did not disown him."
+  }
+ ],
+ "citations": [
+  "lpc.force.augustine-engagement-cyprian-conciliar-acts",
+  "lpc.witness.days-before-the-sun"
+ ],
+ "group": "A",
+ "id": "q010",
+ "net_sentences": [
+  {
+   "draft": "We read the sacred texts openly, and we name a difficulty rather than explain it away [[lpc.witness.days-before-the-sun]] [[as:paraphrase]].",
+   "sentence": "We read the sacred texts openly, and we name a difficulty rather than explain it away.",
+   "tags": [
+    "lpc.witness.days-before-the-sun"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Augustine took up how to read the days of Genesis directly, in City of God [[lpc.witness.days-before-the-sun]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "Augustine took up how to read the days of Genesis directly, in City of God.",
+   "tags": [
+    "lpc.witness.days-before-the-sun"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "Ordinary days have morning and evening only by the sun's rising and setting [[lpc.witness.days-before-the-sun]] [[as:paraphrase]].",
+   "sentence": "Ordinary days have morning and evening only by the sun's rising and setting.",
+   "tags": [
+    "lpc.witness.days-before-the-sun"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "But Genesis reports the first three days before the sun existed, since it was made only on the fourth day [[lpc.witness.days-before-the-sun]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "But Genesis reports the first three days before the sun existed, since it was made only on the fourth day.",
+   "tags": [
+    "lpc.witness.days-before-the-sun"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "What kind of light made those days, and by what movement it made evening and morning, is beyond the reach of our senses [[lpc.witness.days-before-the-sun]] [[as:paraphrase]].",
+   "sentence": "What kind of light made those days, and by what movement it made evening and morning, is beyond the reach of our senses.",
+   "tags": [
+    "lpc.witness.days-before-the-sun"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "We cannot understand how it was, Augustine wrote, and yet we must believe it [[lpc.witness.days-before-the-sun]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "We cannot understand how it was, Augustine wrote, and yet we must believe it.",
+   "tags": [
+    "lpc.witness.days-before-the-sun"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "Some histories claimed many thousands of years for the world, and Augustine called those documents highly mendacious [[lpc.witness.days-before-the-sun]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "Some histories claimed many thousands of years for the world, and Augustine called those documents highly mendacious.",
+   "tags": [
+    "lpc.witness.days-before-the-sun"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "He held instead that by Scripture's own reckoning, not 6,000 years had yet passed since the world began [[lpc.witness.days-before-the-sun]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "He held instead that by Scripture's own reckoning, not 6,000 years had yet passed since the world began.",
+   "tags": [
+    "lpc.witness.days-before-the-sun"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "We read our own bishops with the same care [[lpc.force.augustine-engagement-cyprian-conciliar-acts]] [[as:paraphrase]].",
+   "sentence": "We read our own bishops with the same care.",
+   "tags": [
+    "lpc.force.augustine-engagement-cyprian-conciliar-acts"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Augustine read the ruling on rebaptism made by Cyprian's council of 256, and argued at length that it was wrong [[lpc.force.augustine-engagement-cyprian-conciliar-acts]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "Augustine read the ruling on rebaptism made by Cyprian's council of 256, and argued at length that it was wrong.",
+   "tags": [
+    "lpc.force.augustine-engagement-cyprian-conciliar-acts"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "Cyprian was a predecessor who belonged to us, and we did not disown him [[lpc.force.augustine-engagement-cyprian-conciliar-acts]] [[as:paraphrase]].",
+   "sentence": "Cyprian was a predecessor who belonged to us, and we did not disown him.",
+   "tags": [
+    "lpc.force.augustine-engagement-cyprian-conciliar-acts"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  }
+ ],
+ "offered": [
+  "lpc.witness.days-before-the-sun",
+  "lpc.story.the-death-of-cyprian",
+  "lpc.story.numidicus",
+  "lpc.quote.believe-and-thou-hast-eaten-already",
+  "lpc.gravity.collegial-communion-preserved",
+  "lpc.force.augustine-engagement-cyprian-conciliar-acts"
+ ],
+ "raw_text": "We read the sacred texts openly, and we name a difficulty rather than explain it away [[lpc.witness.days-before-the-sun]] [[as:paraphrase]]. Augustine took up how to read the days of Genesis directly, in City of God [[lpc.witness.days-before-the-sun]] [[as:paraphrase]]. Ordinary days have morning and evening only by the sun's rising and setting [[lpc.witness.days-before-the-sun]] [[as:paraphrase]]. But Genesis reports the first three days before the sun existed, since it was made only on the fourth day [[lpc.witness.days-before-the-sun]] [[as:paraphrase]]. What kind of light made those days, and by what movement it made evening and morning, is beyond the reach of our senses [[lpc.witness.days-before-the-sun]] [[as:paraphrase]]. We cannot understand how it was, Augustine wrote, and yet we must believe it [[lpc.witness.days-before-the-sun]] [[as:paraphrase]]. Some histories claimed many thousands of years for the world, and Augustine called those documents highly mendacious [[lpc.witness.days-before-the-sun]] [[as:paraphrase]]. He held instead that by Scripture's own reckoning, not 6,000 years had yet passed since the world began [[lpc.witness.days-before-the-sun]] [[as:paraphrase]]. We read our own bishops with the same care [[lpc.force.augustine-engagement-cyprian-conciliar-acts]] [[as:paraphrase]]. Augustine read the ruling on rebaptism made by Cyprian's council of 256, and argued at length that it was wrong [[lpc.force.augustine-engagement-cyprian-conciliar-acts]] [[as:paraphrase]]. Cyprian was a predecessor who belonged to us, and we did not disown him [[lpc.force.augustine-engagement-cyprian-conciliar-acts]] [[as:paraphrase]]. Augustine gave the principle that let him say so: even among plenary councils, the earlier are often corrected by the later [[lpc.force.augustine-engagement-cyprian-conciliar-acts]] [[as:paraphrase]].\n",
+ "reply_shape": {
+  "placed": [],
+  "removed": [
+   {
+    "draft": "Augustine gave the principle that let him say so: even among plenary councils, the earlier are often corrected by the later [[lpc.force.augustine-engagement-cyprian-conciliar-acts]] [[as:paraphrase]].",
+    "sentence": "Augustine gave the principle that let him say so: even among plenary councils, the earlier are often corrected by the later.",
+    "why": "words attributed without a placed quote"
+   }
+  ],
+  "repaired": []
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": "C5.S2",
+ "text": "We read the sacred texts openly, and we name a difficulty rather than explain it away. Augustine took up how to read the days of Genesis directly, in City of God. Ordinary days have morning and evening only by the sun's rising and setting. But Genesis reports the first three days before the sun existed, since it was made only on the fourth day. What kind of light made those days, and by what movement it made evening and morning, is beyond the reach of our senses. We cannot understand how it was, Augustine wrote, and yet we must believe it. Some histories claimed many thousands of years for the world, and Augustine called those documents highly mendacious. He held instead that by Scripture's own reckoning, not 6,000 years had yet passed since the world began. We read our own bishops with the same care. Augustine read the ruling on rebaptism made by Cyprian's council of 256, and argued at length that it was wrong. Cyprian was a predecessor who belonged to us, and we did not disown him.",
+ "voice_set_aside": false
+}

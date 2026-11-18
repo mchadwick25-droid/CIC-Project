@@ -9,5 +9,7 @@ assignments:
   - the-hussite-and-bohemian-brethren-movement
   role: tradition
   confidence: provisional
+  language: deu-lat-ces
+  date: {formation_confidence: unknown, checked: "title page (1882, file line 190) and front matter: no dated preface; the volume mixes Goll's commentary with Brethren writings of 1468-1478"}
   note: 'The Brethren''s earliest apologetic writings with Goll''s German commentary. Provisional: not
     read through. The volume year (1882) is inferred; see the file header.'

@@ -7,7 +7,7 @@ See `Build/worlds/_cross-world/SOURCE-READINESS.md` for what this is.
 **Time window:** c. 325–450
 **Region(s):** Jerusalem
 **Dossier author / date:** source-research thread, 2026-09-15
-**Corpus-map / `cic/texts/` state as of:** PR #178 (merged 2026-09-13)
+**Corpus-map / `cic/texts/` state as of:** PR #178 (merged September 2026)
 
 ## 1. Already assigned
 
@@ -31,7 +31,7 @@ None identified this pass beyond what's already assigned.
 
 | title | author | translator | year | url | rights basis | verified by (method + date) |
 |---|---|---|---|---|---|---|
-| The Pilgrimage of Etheria (Peregrinatio Aetheriae / Egeria) | Egeria (Aetheria/Silvia) | M. L. McClure and C. L. Feltoe | 1919 | https://archive.org/details/pilgrimageofethe00mccliala | pd-us-by-date | direct WebFetch verification, 2026-09-13 (publisher, date, editors, `NOT_IN_COPYRIGHT` tag, and full-text downloadability all confirmed against the host directly — note: an initial guessed identifier, `pilgrimageofethe00mccl`, was wrong and caught before committing; the real identifier above was independently confirmed via WebSearch + WebFetch). Queued, status `not-yet-downloaded`. |
+| The Pilgrimage of Etheria (Peregrinatio Aetheriae / Egeria) | Egeria (Aetheria/Silvia) | M. L. McClure and C. L. Feltoe | 1919 | https://archive.org/details/pilgrimageofethe00mccliala | pd-us-by-date | direct WebFetch verification, September 2026 (publisher, date, editors, `NOT_IN_COPYRIGHT` tag, and full-text downloadability all confirmed against the host directly — note: an initial guessed identifier, `pilgrimageofethe00mccl`, was wrong and caught before committing; the real identifier above was independently confirmed via WebSearch + WebFetch). Queued, status `not-yet-downloaded`. |
 
 Egeria's own diary of her pilgrimage to Jerusalem and the Holy Land, including the fullest surviving eyewitness account of that church's fourth-century liturgical year — the load-bearing gap next to the already-vendored Cyril of Jerusalem material. Widely cited for this world but not currently vendored.
 

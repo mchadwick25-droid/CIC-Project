@@ -1,0 +1,203 @@
+{
+ "draft": "Our claim to apostolic practice rests on a story, and our written record shows the practices only from the point where the sources begin [[syr.dw.apostolic]] [[as:paraphrase]].\n\nAddai the apostle came to Edessa, healed the king, and set the church's life in order, and we cherish that story as our legend [[syr.dw.apostolic]] [[syr.story.abgar-addai-legend]] [[as:paraphrase]].\n\nThe legend was written down late, and it is not a document from the beginning [[syr.dw.apostolic]] [[as:paraphrase]].\n\nWe tell the king's letter to Jesus as our legend, not as our history [[syr.dw.corpus-and-its-edges]] [[as:paraphrase]].\n\nWhen the sources begin, the practices are already there: assembly on the first day, fasting, the covenant, and the one Gospel as the standard [[syr.dw.apostolic]] [[as:paraphrase]].\n\nAphrahat's Demonstration 6 attests the covenant, men and women vowed to lifelong celibacy and service inside the town congregation [[syr.gravity.covenant-life]] [[as:paraphrase]].\n\nOur oldest dated word is a line about a flood in Edessa, though we cannot be sure the line stood in the first record and was not added later [[syr.dw.corpus-and-its-edges]] [[as:paraphrase]].\n\nThe Chronicle of Edessa, in its entry for the year 513 of the Greeks, records: [[quote:syr.quote.chronicle-flood-line]]\n",
+ "ending": "rewritten",
+ "final": "Our claim to apostolic practice rests on a story, and our written record shows the practices only from the point where the sources begin. The Addai legend was written down late, and the Addai legend is not a document from the beginning. We tell the king's letter to Jesus as our legend, not as our history. When the sources begin, the practices are already there: assembly on the first day, fasting, the covenant, and the one Gospel as the standard. Aphrahat's Demonstration 6 attests the covenant, men and women vowed to lifelong celibacy and service inside the town congregation. Our oldest dated word is a line about a flood in Edessa, though we cannot be sure the flood line stood in the first record and was not added later.",
+ "group": "A",
+ "offered": [
+  "syr.dw.corpus-and-its-edges",
+  "syr.term.qyama",
+  "syr.term.catholicos",
+  "syr.story.abgar-addai-legend",
+  "syr.gravity.covenant-life",
+  "syr.gravity.persecution-endurance",
+  "syr.force.institutional-consolidation",
+  "syr.contested.jacob-death-year",
+  "syr.dw.was-jesus-god",
+  "syr.story.jacob-nicaea",
+  "syr.quote.aphrahat-sure-thing",
+  "syr.story.edessa-flood-201",
+  "syr.quote.chronicle-flood-line",
+  "syr.quote.theodoret-gnats",
+  "syr.dw.god",
+  "syr.gravity.heresiological-self-definition",
+  "syr.gravity.raza-shrara-method",
+  "syr.force.rival-movements",
+  "syr.contested.bardaisan-nicene-floor"
+ ],
+ "placements": [
+  {
+   "decision": "drop",
+   "judgement": {
+    "fit": "off_point",
+    "limit_stated": false,
+    "reason": "It shows only that a church building existed by the flood year and says nothing of rituals, and the record forbids using it as evidence of what Christians did inside the building."
+   },
+   "record_id": "syr.quote.chronicle-flood-line"
+  }
+ ],
+ "question": "What evidence connects your rituals to the earliest followers, rather than later invention?",
+ "question_id": "q017",
+ "read": {
+  "dropped": [
+   "syr.quote.chronicle-flood-line"
+  ],
+  "status": "rewrite",
+  "unsupported": {}
+ },
+ "rewrite": [
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "syr.dw.apostolic"
+   ],
+   "sentence": "Our claim to apostolic practice rests on a story, and our written record shows the practices only from the point where the sources begin.",
+   "tags": [
+    "syr.dw.apostolic"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "syr.dw.apostolic"
+   ],
+   "sentence": "The Addai legend was written down late, and the Addai legend is not a document from the beginning.",
+   "tags": [
+    "syr.dw.apostolic"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "syr.dw.corpus-and-its-edges"
+   ],
+   "sentence": "We tell the king's letter to Jesus as our legend, not as our history.",
+   "tags": [
+    "syr.dw.corpus-and-its-edges"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "syr.dw.apostolic"
+   ],
+   "sentence": "When the sources begin, the practices are already there: assembly on the first day, fasting, the covenant, and the one Gospel as the standard.",
+   "tags": [
+    "syr.dw.apostolic"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "syr.gravity.covenant-life"
+   ],
+   "sentence": "Aphrahat's Demonstration 6 attests the covenant, men and women vowed to lifelong celibacy and service inside the town congregation.",
+   "tags": [
+    "syr.gravity.covenant-life"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "syr.dw.corpus-and-its-edges"
+   ],
+   "sentence": "Our oldest dated word is a line about a flood in Edessa, though we cannot be sure the flood line stood in the first record and was not added later.",
+   "tags": [
+    "syr.dw.corpus-and-its-edges"
+   ]
+  }
+ ],
+ "sentences": [
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 0,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Our claim to apostolic practice rests on a story, and our written record shows the practices only from the point where the sources begin.",
+   "tags": [
+    "syr.dw.apostolic"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 1,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "The legend was written down late, and it is not a document from the beginning.",
+   "tags": [
+    "syr.dw.apostolic"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 2,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "We tell the king's letter to Jesus as our legend, not as our history.",
+   "tags": [
+    "syr.dw.corpus-and-its-edges"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 3,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "When the sources begin, the practices are already there: assembly on the first day, fasting, the covenant, and the one Gospel as the standard.",
+   "tags": [
+    "syr.dw.apostolic"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 4,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Aphrahat's Demonstration 6 attests the covenant, men and women vowed to lifelong celibacy and service inside the town congregation.",
+   "tags": [
+    "syr.gravity.covenant-life"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 5,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Our oldest dated word is a line about a flood in Edessa, though we cannot be sure the line stood in the first record and was not added later.",
+   "tags": [
+    "syr.dw.corpus-and-its-edges"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": null,
+   "n": 6,
+   "placed": true,
+   "placed_id": "syr.quote.chronicle-flood-line",
+   "reason": "placed by code",
+   "sentence": "The Chronicle of Edessa, in its entry for the year 513 of the Greeks, records: “And they destroyed the temple of the church of the Christians.”",
+   "tags": [
+    "syr.quote.chronicle-flood-line"
+   ]
+  }
+ ],
+ "shipped_by_net": "Our claim to apostolic practice rests on a story, and our written record shows the practices only from the point where the sources begin.\n\nThe legend was written down late, and it is not a document from the beginning.\n\nWe tell the king's letter to Jesus as our legend, not as our history.\n\nWhen the sources begin, the practices are already there: assembly on the first day, fasting, the covenant, and the one Gospel as the standard.\n\nAphrahat's Demonstration 6 attests the covenant, men and women vowed to lifelong celibacy and service inside the town congregation.\n\nOur oldest dated word is a line about a flood in Edessa, though we cannot be sure the line stood in the first record and was not added later.\n\nThe Chronicle of Edessa, in its entry for the year 513 of the Greeks, records: “And they destroyed the temple of the church of the Christians.”",
+ "sub_question": "C7.S8"
+}

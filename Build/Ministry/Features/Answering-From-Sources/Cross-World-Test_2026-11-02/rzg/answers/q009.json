@@ -1,0 +1,218 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "rzg.core.the-reformed-cities-zurich-and-geneva"
+   ],
+   "sentence": "Our claims on doctrine and confession would stand best, because our record is richest there."
+  },
+  {
+   "record_ids": [
+    "rzg.core.the-reformed-cities-zurich-and-geneva"
+   ],
+   "sentence": "We hold Calvin's Institutes and Catechism, Zwingli's founding statements and later writings, the Consensus Tigurinus and the Second Helvetic Confession, all directly and verified."
+  },
+  {
+   "record_ids": [
+    "rzg.core.the-reformed-cities-zurich-and-geneva"
+   ],
+   "sentence": "Much of our record rests on one author, and we disclose that at every point that bears weight."
+  },
+  {
+   "record_ids": [
+    "rzg.core.the-reformed-cities-zurich-and-geneva"
+   ],
+   "sentence": "Calvin's own corpus runs roughly four times Zwingli's in the base we hold."
+  },
+  {
+   "record_ids": [
+    "rzg.core.the-reformed-cities-zurich-and-geneva"
+   ],
+   "sentence": "The core of election stands in both cities, but its fullest, later double-predestination form rests mostly on Calvin and Beza."
+  },
+  {
+   "record_ids": [
+    "rzg.core.the-reformed-cities-zurich-and-geneva"
+   ],
+   "sentence": "We do not smooth that into a claim that both cities teach election equally."
+  },
+  {
+   "record_ids": [
+    "rzg.contested.sign-and-the-thing-signified"
+   ],
+   "sentence": "On the Supper, we claim the 1549 formula is a genuine synthesis of Zwingli's memorial view and Calvin's spiritual presence."
+  },
+  {
+   "record_ids": [
+    "rzg.contested.sign-and-the-thing-signified"
+   ],
+   "sentence": "Our record does not settle whether the formula was synthesis or accommodation."
+  },
+  {
+   "record_ids": [
+    "rzg.contested.zwinglis-remembrance-vs-negotiated-consensus"
+   ],
+   "sentence": "We also claim the 1549 statement deepens Zwingli's 1523 remembrance doctrine, and we do not claim the record settles which reading is correct."
+  },
+  {
+   "record_ids": [
+    "rzg.core.the-reformed-cities-zurich-and-geneva"
+   ],
+   "sentence": "Our account of that contest rests on no vendored scholarship on the Consensus Tigurinus, and so it is not a finding handed down by scholars."
+  },
+  {
+   "record_ids": [
+    "rzg.core.the-reformed-cities-zurich-and-geneva"
+   ],
+   "sentence": "Daily life is thin: no account tells what an ordinary Sunday service or Consistory summons felt like."
+  },
+  {
+   "record_ids": [
+    "rzg.core.the-reformed-cities-zurich-and-geneva"
+   ],
+   "sentence": "Three sources are not yet in hand: the 1541 Ecclesiastical Ordinances, Geneva's consistory registers, and Marie Dentiere's own works."
+  }
+ ],
+ "citations": [
+  "rzg.contested.sign-and-the-thing-signified",
+  "rzg.contested.zwinglis-remembrance-vs-negotiated-consensus",
+  "rzg.core.the-reformed-cities-zurich-and-geneva"
+ ],
+ "group": "A",
+ "id": "q009",
+ "net_sentences": [
+  {
+   "draft": "Our claims on doctrine and confession would stand best, because our record is richest there [[rzg.core.the-reformed-cities-zurich-and-geneva]] [[as:paraphrase]].",
+   "sentence": "Our claims on doctrine and confession would stand best, because our record is richest there.",
+   "tags": [
+    "rzg.core.the-reformed-cities-zurich-and-geneva"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "We hold Calvin's Institutes and Catechism, Zwingli's founding statements and later writings, the Consensus Tigurinus and the Second Helvetic Confession, all directly and verified [[rzg.core.the-reformed-cities-zurich-and-geneva]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "We hold Calvin's Institutes and Catechism, Zwingli's founding statements and later writings, the Consensus Tigurinus and the Second Helvetic Confession, all directly and verified.",
+   "tags": [
+    "rzg.core.the-reformed-cities-zurich-and-geneva"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "Much of our record rests on one author, and we disclose that at every point that bears weight [[rzg.core.the-reformed-cities-zurich-and-geneva]] [[as:paraphrase]].",
+   "sentence": "Much of our record rests on one author, and we disclose that at every point that bears weight.",
+   "tags": [
+    "rzg.core.the-reformed-cities-zurich-and-geneva"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Calvin's own corpus runs roughly four times Zwingli's in the base we hold [[rzg.core.the-reformed-cities-zurich-and-geneva]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "Calvin's own corpus runs roughly four times Zwingli's in the base we hold.",
+   "tags": [
+    "rzg.core.the-reformed-cities-zurich-and-geneva"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "The core of election stands in both cities, but its fullest, later double-predestination form rests mostly on Calvin and Beza [[rzg.core.the-reformed-cities-zurich-and-geneva]] [[as:paraphrase]].",
+   "ratio": 0.93,
+   "sentence": "The core of election stands in both cities, but its fullest, later double-predestination form rests mostly on Calvin and Beza.",
+   "tags": [
+    "rzg.core.the-reformed-cities-zurich-and-geneva"
+   ],
+   "verdict": "ok",
+   "why": "grounded 93% in own tagged records"
+  },
+  {
+   "draft": "We do not smooth that into a claim that both cities teach election equally [[rzg.core.the-reformed-cities-zurich-and-geneva]] [[as:paraphrase]].",
+   "sentence": "We do not smooth that into a claim that both cities teach election equally.",
+   "tags": [
+    "rzg.core.the-reformed-cities-zurich-and-geneva"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "On the Supper, we claim the 1549 formula is a genuine synthesis of Zwingli's memorial view and Calvin's spiritual presence [[rzg.contested.sign-and-the-thing-signified]] [[as:paraphrase]].",
+   "ratio": 0.91,
+   "sentence": "On the Supper, we claim the 1549 formula is a genuine synthesis of Zwingli's memorial view and Calvin's spiritual presence.",
+   "tags": [
+    "rzg.contested.sign-and-the-thing-signified"
+   ],
+   "verdict": "ok",
+   "why": "grounded 91% in own tagged records"
+  },
+  {
+   "draft": "Our record does not settle whether the formula was synthesis or accommodation [[rzg.contested.sign-and-the-thing-signified]] [[as:paraphrase]].",
+   "sentence": "Our record does not settle whether the formula was synthesis or accommodation.",
+   "tags": [
+    "rzg.contested.sign-and-the-thing-signified"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "We also claim the 1549 statement deepens Zwingli's 1523 remembrance doctrine, and we do not claim the record settles which reading is correct [[rzg.contested.zwinglis-remembrance-vs-negotiated-consensus]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "We also claim the 1549 statement deepens Zwingli's 1523 remembrance doctrine, and we do not claim the record settles which reading is correct.",
+   "tags": [
+    "rzg.contested.zwinglis-remembrance-vs-negotiated-consensus"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "Our account of that contest rests on no vendored scholarship on the Consensus Tigurinus, and so it is not a finding handed down by scholars [[rzg.core.the-reformed-cities-zurich-and-geneva]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "Our account of that contest rests on no vendored scholarship on the Consensus Tigurinus, and so it is not a finding handed down by scholars.",
+   "tags": [
+    "rzg.core.the-reformed-cities-zurich-and-geneva"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "Daily life is thin: no account tells what an ordinary Sunday service or Consistory summons felt like [[rzg.core.the-reformed-cities-zurich-and-geneva]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "Daily life is thin: no account tells what an ordinary Sunday service or Consistory summons felt like.",
+   "tags": [
+    "rzg.core.the-reformed-cities-zurich-and-geneva"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "Three sources are not yet in hand: the 1541 Ecclesiastical Ordinances, Geneva's consistory registers, and Marie Dentiere's own works [[rzg.core.the-reformed-cities-zurich-and-geneva]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "Three sources are not yet in hand: the 1541 Ecclesiastical Ordinances, Geneva's consistory registers, and Marie Dentiere's own works.",
+   "tags": [
+    "rzg.core.the-reformed-cities-zurich-and-geneva"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  }
+ ],
+ "offered": [
+  "rzg.core.the-reformed-cities-zurich-and-geneva",
+  "rzg.contested.sign-and-the-thing-signified",
+  "rzg.contested.zwinglis-remembrance-vs-negotiated-consensus"
+ ],
+ "raw_text": "Our claims on doctrine and confession would stand best, because our record is richest there [[rzg.core.the-reformed-cities-zurich-and-geneva]] [[as:paraphrase]].\n\nWe hold Calvin's Institutes and Catechism, Zwingli's founding statements and later writings, the Consensus Tigurinus and the Second Helvetic Confession, all directly and verified [[rzg.core.the-reformed-cities-zurich-and-geneva]] [[as:paraphrase]].\n\nMuch of our record rests on one author, and we disclose that at every point that bears weight [[rzg.core.the-reformed-cities-zurich-and-geneva]] [[as:paraphrase]].\n\nCalvin's own corpus runs roughly four times Zwingli's in the base we hold [[rzg.core.the-reformed-cities-zurich-and-geneva]] [[as:paraphrase]].\n\nThe core of election stands in both cities, but its fullest, later double-predestination form rests mostly on Calvin and Beza [[rzg.core.the-reformed-cities-zurich-and-geneva]] [[as:paraphrase]].\n\nWe do not smooth that into a claim that both cities teach election equally [[rzg.core.the-reformed-cities-zurich-and-geneva]] [[as:paraphrase]].\n\nOn the Supper, we claim the 1549 formula is a genuine synthesis of Zwingli's memorial view and Calvin's spiritual presence [[rzg.contested.sign-and-the-thing-signified]] [[as:paraphrase]].\n\nOur record does not settle whether the formula was synthesis or accommodation [[rzg.contested.sign-and-the-thing-signified]] [[as:paraphrase]].\n\nWe also claim the 1549 statement deepens Zwingli's 1523 remembrance doctrine, and we do not claim the record settles which reading is correct [[rzg.contested.zwinglis-remembrance-vs-negotiated-consensus]] [[as:paraphrase]].\n\nOur account of that contest rests on no vendored scholarship on the Consensus Tigurinus, and so it is not a finding handed down by scholars [[rzg.core.the-reformed-cities-zurich-and-geneva]] [[as:paraphrase]].\n\nDaily life is thin: no account tells what an ordinary Sunday service or Consistory summons felt like [[rzg.core.the-reformed-cities-zurich-and-geneva]] [[as:paraphrase]].\n\nThree sources are not yet in hand: the 1541 Ecclesiastical Ordinances, Geneva's consistory registers, and Marie Dentiere's own works [[rzg.core.the-reformed-cities-zurich-and-geneva]] [[as:paraphrase]].\n",
+ "reply_shape": {
+  "placed": [],
+  "removed": [],
+  "repaired": []
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": "C16.S2",
+ "text": "Our claims on doctrine and confession would stand best, because our record is richest there.\n\nWe hold Calvin's Institutes and Catechism, Zwingli's founding statements and later writings, the Consensus Tigurinus and the Second Helvetic Confession, all directly and verified.\n\nMuch of our record rests on one author, and we disclose that at every point that bears weight.\n\nCalvin's own corpus runs roughly four times Zwingli's in the base we hold.\n\nThe core of election stands in both cities, but its fullest, later double-predestination form rests mostly on Calvin and Beza.\n\nWe do not smooth that into a claim that both cities teach election equally.\n\nOn the Supper, we claim the 1549 formula is a genuine synthesis of Zwingli's memorial view and Calvin's spiritual presence.\n\nOur record does not settle whether the formula was synthesis or accommodation.\n\nWe also claim the 1549 statement deepens Zwingli's 1523 remembrance doctrine, and we do not claim the record settles which reading is correct.\n\nOur account of that contest rests on no vendored scholarship on the Consensus Tigurinus, and so it is not a finding handed down by scholars.\n\nDaily life is thin: no account tells what an ordinary Sunday service or Consistory summons felt like.\n\nThree sources are not yet in hand: the 1541 Ecclesiastical Ordinances, Geneva's consistory registers, and Marie Dentiere's own works.",
+ "voice_set_aside": false
+}

@@ -1,0 +1,5 @@
+We cannot walk you through an ordinary day, because what an ordinary citizen of Zurich or Geneva did from waking to sleeping has not reached us in our words [[rzg.limit.ordinary-daily-practice]] [[as:paraphrase]].
+How a Sunday service felt to sit through, or what a Consistory summons felt like to receive, has not reached us either [[rzg.limit.ordinary-daily-practice]] [[as:paraphrase]].
+What survives from our hand is confession, catechism, disputation record and confessional argument [[rzg.limit.ordinary-daily-practice]] [[as:paraphrase]].
+At Geneva the Consistory, a body of pastors and lay elders, held the daily conduct of the whole population to account [[rzg.term.consistory]] [[as:paraphrase]].
+At Zurich our record shows no such body, because the council ruled church and city directly [[rzg.term.consistory]] [[rzg.gravity.council-led-authority-vs-consistorial-independence]] [[as:paraphrase]].

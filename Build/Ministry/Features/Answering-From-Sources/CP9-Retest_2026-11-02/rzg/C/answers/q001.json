@@ -1,0 +1,157 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "rzg.witness.what-we-have-of-christ"
+   ],
+   "sentence": "What we have of Christ is not a living chain, but the text."
+  },
+  {
+   "record_ids": [
+    "rzg.witness.what-we-have-of-christ"
+   ],
+   "sentence": "No one among us met anyone who met him, and fifteen hundred years stand between his life and ours."
+  },
+  {
+   "record_ids": [
+    "rzg.witness.what-we-have-of-christ"
+   ],
+   "sentence": "We hold that the text is enough on its own terms."
+  },
+  {
+   "record_ids": [
+    "rzg.witness.what-we-have-of-christ"
+   ],
+   "sentence": "Where we have not understood the Scriptures rightly, we will be taught better, but only from the Scriptures themselves."
+  },
+  {
+   "record_ids": [
+    "rzg.term.sola-scriptura"
+   ],
+   "sentence": "Scripture alone, not church tradition or a pope's decree, was the final authority for our doctrine and our church order."
+  },
+  {
+   "record_ids": [
+    "rzg.witness.one-conviction-two-enactments"
+   ],
+   "sentence": "At Zurich that conviction was argued aloud before the council, until the council said what the text had yielded."
+  },
+  {
+   "record_ids": [
+    "rzg.witness.one-conviction-two-enactments"
+   ],
+   "sentence": "At Geneva it was built up article by article and taught to everyone through the Catechism."
+  },
+  {
+   "record_ids": [
+    "rzg.core.the-reformed-cities-zurich-and-geneva"
+   ],
+   "sentence": "Zurich's reform opened on 1 January 1519, when Zwingli began to preach straight through the Gospel of Matthew."
+  }
+ ],
+ "citations": [
+  "rzg.core.the-reformed-cities-zurich-and-geneva",
+  "rzg.term.sola-scriptura",
+  "rzg.witness.one-conviction-two-enactments",
+  "rzg.witness.what-we-have-of-christ"
+ ],
+ "group": "A",
+ "id": "q001",
+ "net_sentences": [
+  {
+   "draft": "What we have of Christ is not a living chain, but the text [[rzg.witness.what-we-have-of-christ]] [[as:paraphrase]].",
+   "sentence": "What we have of Christ is not a living chain, but the text.",
+   "tags": [
+    "rzg.witness.what-we-have-of-christ"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "No one among us met anyone who met him, and fifteen hundred years stand between his life and ours [[rzg.witness.what-we-have-of-christ]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "No one among us met anyone who met him, and fifteen hundred years stand between his life and ours.",
+   "tags": [
+    "rzg.witness.what-we-have-of-christ"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "We hold that the text is enough on its own terms [[rzg.witness.what-we-have-of-christ]] [[as:paraphrase]].",
+   "sentence": "We hold that the text is enough on its own terms.",
+   "tags": [
+    "rzg.witness.what-we-have-of-christ"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Where we have not understood the Scriptures rightly, we will be taught better, but only from the Scriptures themselves [[rzg.witness.what-we-have-of-christ]] [[as:paraphrase]].",
+   "sentence": "Where we have not understood the Scriptures rightly, we will be taught better, but only from the Scriptures themselves.",
+   "tags": [
+    "rzg.witness.what-we-have-of-christ"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Scripture alone, not church tradition or a pope's decree, was the final authority for our doctrine and our church order [[rzg.term.sola-scriptura]] [[as:paraphrase]].",
+   "sentence": "Scripture alone, not church tradition or a pope's decree, was the final authority for our doctrine and our church order.",
+   "tags": [
+    "rzg.term.sola-scriptura"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "At Zurich that conviction was argued aloud before the council, until the council said what the text had yielded [[rzg.witness.one-conviction-two-enactments]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "At Zurich that conviction was argued aloud before the council, until the council said what the text had yielded.",
+   "tags": [
+    "rzg.witness.one-conviction-two-enactments"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "At Geneva it was built up article by article and taught to everyone through the Catechism [[rzg.witness.one-conviction-two-enactments]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "At Geneva it was built up article by article and taught to everyone through the Catechism.",
+   "tags": [
+    "rzg.witness.one-conviction-two-enactments"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "Zurich's reform opened on 1 January 1519, when Zwingli began to preach straight through the Gospel of Matthew [[rzg.core.the-reformed-cities-zurich-and-geneva]] [[as:paraphrase]].",
+   "ratio": 0.9,
+   "sentence": "Zurich's reform opened on 1 January 1519, when Zwingli began to preach straight through the Gospel of Matthew.",
+   "tags": [
+    "rzg.core.the-reformed-cities-zurich-and-geneva"
+   ],
+   "verdict": "ok",
+   "why": "grounded 90% in own tagged records"
+  }
+ ],
+ "offered": [
+  "rzg.witness.what-we-have-of-christ",
+  "rzg.term.consistory",
+  "rzg.force.anabaptist-schism",
+  "rzg.gravity.consistorial-church-discipline",
+  "rzg.gravity.council-led-authority-vs-consistorial-independence"
+ ],
+ "raw_text": "What we have of Christ is not a living chain, but the text [[rzg.witness.what-we-have-of-christ]] [[as:paraphrase]]. No one among us met anyone who met him, and fifteen hundred years stand between his life and ours [[rzg.witness.what-we-have-of-christ]] [[as:paraphrase]]. We hold that the text is enough on its own terms [[rzg.witness.what-we-have-of-christ]] [[as:paraphrase]]. Where we have not understood the Scriptures rightly, we will be taught better, but only from the Scriptures themselves [[rzg.witness.what-we-have-of-christ]] [[as:paraphrase]]. Scripture alone, not church tradition or a pope's decree, was the final authority for our doctrine and our church order [[rzg.term.sola-scriptura]] [[as:paraphrase]]. At Zurich that conviction was argued aloud before the council, until the council said what the text had yielded [[rzg.witness.one-conviction-two-enactments]] [[as:paraphrase]]. At Geneva it was built up article by article and taught to everyone through the Catechism [[rzg.witness.one-conviction-two-enactments]] [[as:paraphrase]]. Zurich's reform opened on 1 January 1519, when Zwingli began to preach straight through the Gospel of Matthew [[rzg.core.the-reformed-cities-zurich-and-geneva]] [[as:paraphrase]].\n",
+ "reply_shape": {
+  "placed": [],
+  "removed": [],
+  "repaired": []
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": "C1.S5",
+ "text": "What we have of Christ is not a living chain, but the text. No one among us met anyone who met him, and fifteen hundred years stand between his life and ours. We hold that the text is enough on its own terms. Where we have not understood the Scriptures rightly, we will be taught better, but only from the Scriptures themselves. Scripture alone, not church tradition or a pope's decree, was the final authority for our doctrine and our church order. At Zurich that conviction was argued aloud before the council, until the council said what the text had yielded. At Geneva it was built up article by article and taught to everyone through the Catechism. Zurich's reform opened on 1 January 1519, when Zwingli began to preach straight through the Gospel of Matthew.",
+ "voice_set_aside": false
+}

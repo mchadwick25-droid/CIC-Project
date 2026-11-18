@@ -1,0 +1,30 @@
+{
+ "round": 1,
+ "applies": "Opus_Review_Round1.json",
+ "changes": [
+  {
+   "rid": "B1-01",
+   "applied": "verified-direct as written"
+  },
+  {
+   "rid": "B1-02",
+   "applied": "reviewer note as written (FRE 61.9, FK 7.9)"
+  },
+  {
+   "rid": "B1-03",
+   "applied": "atlas-sync, generate_tree_pages and build_tree_site run; map, tree, method, data and about pages regenerated from release 18"
+  },
+  {
+   "rid": "B1-04",
+   "applied": "second Mouravieff entry added, lines 1552, quote as written; the Hilarion entry kept"
+  },
+  {
+   "rid": "B1-05",
+   "applied": "method paragraph as written (FRE 65.6)"
+  },
+  {
+   "rid": "B1-06",
+   "applied": "named-not-rechecked as written; it was the only link left unverified with no quote"
+  }
+ ]
+}

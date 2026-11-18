@@ -1,0 +1,23 @@
+source_file: mexico_codigo-de-la-reforma-spa_1861.txt
+assignments:
+- row_id: mexico_codigo-de-la-reforma-spa_1861--codigo-de-la-reforma-coleccion-de-leyes-decretos-y-supremas
+  work: CÓDIGO DE LA REFORMA. COLECCIÓN DE LEYES, DECRETOS Y SUPREMAS ÓRDENES, EXPEDIDAS DESDE 1856 HASTA 1861
+  author: mexico
+  locus: No. 49, the decree of Benito Juárez nationalizing the property of the clergy, at lines 5338-5558; the rest
+    not mapped
+  atlas_ids:
+  - nineteenth-century-latin-american-catholicism
+  role: context
+  confidence: provisional
+  language: spa
+  date:
+    start: 1856
+    end: 1861
+    source: 'the printing''s own title page: read on the scan''s page image, leaf n4; the OCR does not give it cleanly'
+    formation_confidence: Documented
+  edition_date:
+    year: 1861
+    source: read on the scan's page image, leaf n4; the OCR does not give it cleanly
+    formation_confidence: Documented
+  note: 'Era 9 row 285, Benito Juarez: the Reform laws, 1856 to 1861. The laws of the state that acted on the church:
+    an outside voice.'

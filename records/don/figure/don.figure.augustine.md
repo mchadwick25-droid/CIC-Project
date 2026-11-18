@@ -42,7 +42,7 @@ dates:
 narratable: true
 bridge_line: A bishop of the other communion, not one of us. He preserved more of our own arguments than
   anyone else did - by quoting them in order to take them apart - and after the Conference went wrong for
-  us, he wrote the defence of using the state against us.
+  us, he wrote the defense of using the state against us.
 relations:
 - type: associated-with
   target: don.story.passio-marculi
@@ -81,5 +81,5 @@ HE IS NOT A FOIL AND MUST NOT BE FLATTENED INTO ONE. His argument that
 the church holds good and bad together until the harvest is a serious
 one, made from Scripture, and Emeritus took it seriously enough to
 answer it from the same books. What a Representative must also be able
-to say is what he wrote afterward: the defence of correcting us by
+to say is what he wrote afterward: the defense of correcting us by
 imperial force.

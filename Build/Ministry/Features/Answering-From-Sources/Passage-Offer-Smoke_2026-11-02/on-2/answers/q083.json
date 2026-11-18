@@ -1,0 +1,139 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "lpc.witness.punishment-without-end"
+   ],
+   "sentence": "Our records say the punishment has no end, but they do not say whether the fire was flame."
+  },
+  {
+   "record_ids": [
+    "lpc.witness.punishment-without-end"
+   ],
+   "sentence": "Augustine wrote that after the final judgment there are two kingdoms, and the death of the lost shall be without end."
+  },
+  {
+   "record_ids": [
+    "lpc.witness.punishment-without-end"
+   ],
+   "sentence": "Augustine taught that the lost suffer in degrees, some more bearably than others."
+  },
+  {
+   "record_ids": [
+    "lpc.witness.punishment-without-end"
+   ],
+   "sentence": "Many around Augustine found this hard to bear, and he said they softened down everything that seemed hard."
+  },
+  {
+   "record_ids": [
+    "lpc.witness.punishment-without-end"
+   ],
+   "sentence": "Augustine would not let them say the punishment ends."
+  },
+  {
+   "record_ids": [
+    "lpc.witness.no-salvation-outside-the-church"
+   ],
+   "sentence": "Cyprian also told that same man that no repentance is too late for one who still lives in this world."
+  }
+ ],
+ "citations": [
+  "lpc.witness.no-salvation-outside-the-church",
+  "lpc.witness.punishment-without-end"
+ ],
+ "group": "G",
+ "id": "q083",
+ "net_sentences": [
+  {
+   "draft": "Our records say the punishment has no end, but they do not say whether the fire was flame [[lpc.witness.punishment-without-end]] [[as:paraphrase]].",
+   "sentence": "Our records say the punishment has no end, but they do not say whether the fire was flame.",
+   "tags": [
+    "lpc.witness.punishment-without-end"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Augustine wrote that after the final judgment there are two kingdoms, and the death of the lost shall be without end [[lpc.witness.punishment-without-end]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "Augustine wrote that after the final judgment there are two kingdoms, and the death of the lost shall be without end.",
+   "tags": [
+    "lpc.witness.punishment-without-end"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "Augustine taught that the lost suffer in degrees, some more bearably than others [[lpc.witness.punishment-without-end]] [[as:paraphrase]].",
+   "sentence": "Augustine taught that the lost suffer in degrees, some more bearably than others.",
+   "tags": [
+    "lpc.witness.punishment-without-end"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Many around Augustine found this hard to bear, and he said they softened down everything that seemed hard [[lpc.witness.punishment-without-end]] [[as:paraphrase]].",
+   "ratio": 0.78,
+   "sentence": "Many around Augustine found this hard to bear, and he said they softened down everything that seemed hard.",
+   "tags": [
+    "lpc.witness.punishment-without-end"
+   ],
+   "verdict": "ok",
+   "why": "grounded 78% in own tagged records"
+  },
+  {
+   "draft": "Augustine would not let them say the punishment ends [[lpc.witness.punishment-without-end]] [[as:paraphrase]].",
+   "sentence": "Augustine would not let them say the punishment ends.",
+   "tags": [
+    "lpc.witness.punishment-without-end"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Cyprian also told that same man that no repentance is too late for one who still lives in this world [[lpc.witness.no-salvation-outside-the-church]] [[as:paraphrase]].",
+   "sentence": "Cyprian also told that same man that no repentance is too late for one who still lives in this world.",
+   "tags": [
+    "lpc.witness.no-salvation-outside-the-church"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  }
+ ],
+ "offered": [
+  "lpc.witness.violence-commanded-not-cruel",
+  "lpc.term.certificates-letters-of-peace",
+  "lpc.story.celerinus-writes-to-lucian",
+  "lpc.quote.believe-and-thou-hast-eaten-already",
+  "lpc.quote.dash-the-little-ones-against-the-rock",
+  "lpc.gravity.collegial-communion-preserved",
+  "lpc.witness.the-only-son-and-the-trinity",
+  "lpc.quote.the-flight-of-the-mind-is-fear",
+  "lpc.quote.bishop-of-bishops",
+  "lpc.witness.grant-me-chastity-but-not-yet"
+ ],
+ "raw_text": "Our records say the punishment has no end, but they do not say whether the fire was flame [[lpc.witness.punishment-without-end]] [[as:paraphrase]]. Augustine wrote that after the final judgment there are two kingdoms, and the death of the lost shall be without end [[lpc.witness.punishment-without-end]] [[as:paraphrase]]. Augustine taught that the lost suffer in degrees, some more bearably than others [[lpc.witness.punishment-without-end]] [[as:paraphrase]].\n\nMany around Augustine found this hard to bear, and he said they softened down everything that seemed hard [[lpc.witness.punishment-without-end]] [[as:paraphrase]]. Augustine let them suppose, if the thought pleased them, that the pains of the damned are at times eased [[lpc.witness.punishment-without-end]] [[as:paraphrase]]. Augustine would not let them say the punishment ends [[lpc.witness.punishment-without-end]] [[as:paraphrase]].\n\nCyprian told Demetrianus, a pagan who persecuted us, that an ever-burning Gehenna awaits the condemned, with no respite or end to their torments [[lpc.witness.no-salvation-outside-the-church]] [[as:paraphrase]]. Cyprian also told that same man that no repentance is too late for one who still lives in this world [[lpc.witness.no-salvation-outside-the-church]] [[as:paraphrase]].\n",
+ "reply_shape": {
+  "placed": [],
+  "removed": [
+   {
+    "draft": "Augustine let them suppose, if the thought pleased them, that the pains of the damned are at times eased [[lpc.witness.punishment-without-end]] [[as:paraphrase]].",
+    "sentence": "Augustine let them suppose, if the thought pleased them, that the pains of the damned are at times eased.",
+    "why": "gives a quote record's words without placing it"
+   },
+   {
+    "draft": "Cyprian told Demetrianus, a pagan who persecuted us, that an ever-burning Gehenna awaits the condemned, with no respite or end to their torments [[lpc.witness.no-salvation-outside-the-church]] [[as:paraphrase]].",
+    "sentence": "Cyprian told Demetrianus, a pagan who persecuted us, that an ever-burning Gehenna awaits the condemned, with no respite or end to their torments.",
+    "why": "words attributed without a placed quote"
+   }
+  ],
+  "repaired": []
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": "C5.S2",
+ "text": "Our records say the punishment has no end, but they do not say whether the fire was flame. Augustine wrote that after the final judgment there are two kingdoms, and the death of the lost shall be without end. Augustine taught that the lost suffer in degrees, some more bearably than others.\n\nMany around Augustine found this hard to bear, and he said they softened down everything that seemed hard. Augustine would not let them say the punishment ends.\n\nCyprian also told that same man that no repentance is too late for one who still lives in this world.",
+ "voice_set_aside": false
+}

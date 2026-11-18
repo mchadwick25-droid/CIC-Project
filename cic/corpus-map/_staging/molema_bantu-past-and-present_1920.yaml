@@ -1,0 +1,22 @@
+source_file: molema_bantu-past-and-present_1920.txt
+assignments:
+- row_id: molema_bantu-past-and-present_1920--the-bantu-past-and-present-an-ethnographical-historical
+  work: 'THE BANTU PAST AND PRESENT: An Ethnographical & Historical Study of the Native Races of South Africa'
+  author: molema
+  locus: the hymn of Ntsikana in English at lines 8920-8945; the rest not mapped
+  atlas_ids:
+  - southern-african-mission-churches
+  role: context
+  confidence: provisional
+  language: eng
+  date:
+    start: 1920
+    end: 1920
+    source: 'the printing''s own title page: line 81 of this file, on the title page'
+    formation_confidence: Documented
+  edition_date:
+    year: 1920
+    source: line 81 of this file, on the title page
+    formation_confidence: Documented
+  note: 'Era 9 row 321, Ntsikana: his hymn in English, in a later history. A later history by another hand, printed
+    in 1920, after the entry''s window closes.'

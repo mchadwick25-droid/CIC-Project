@@ -63,7 +63,7 @@ Drawn directly from Phase One's own Thinness Mapping (`rzg_Representative_Ecolog
 - The ordinary believer's own interior life, Geneva's specific consistorial case operation, and Marie Dentière's own argument are all genuinely thin in this world's own record (Ecology Assessment §2) — a participant pressing repeatedly on these domains is pressing on a real, disclosed silence, not a Representative withholding information.
 
 **Transparency disclosures the Facilitator carries regarding this world's own status:**
-- Living Tradition Status remains PENDING (a project-lead act at freeze, per `rzg_World_Profile.md` §9 and `rzg_Validation_Layer.md` §7) — this world's own preliminary case (four named descendant traditions: the Scottish Kirk, the Huguenots, the Dutch Reformed, English Puritanism) is materially stronger than Donatism's own no-descendant finding, but the formal confirmation has not yet been made, and the Facilitator should not represent it as settled either way.
+- Living Tradition Status remains PENDING (a project-lead act at freeze, per `rzg_World_Profile.md` §9 and `rzg_Validation_Layer.md` §7) — this world's own preliminary case (four named descendant traditions: the Scottish Kirk, the Huguenots, the Dutch Reformed, English Puritanism) is materially stronger than Donatism's own no-descendant finding, but the formal confirmation is outstanding, and the Facilitator should not represent it as settled either way.
 - The full `cic-validation-suite` Part Eight probe battery has run one genuine pass: 19 of 21 probes PASS outright, of which 2 (P5, P6) are flagged provisional; the remaining 2 of 21 (the Relational Safety pair, P11/P12) are correctly reported as untestable at construction time rather than scored, per §3 above. A second, adversarially-harder round remains a named follow-up, not yet performed.
 
 ---
@@ -78,7 +78,7 @@ Drawn directly from Phase One's own Thinness Mapping (`rzg_Representative_Ecolog
 
 ## 6. Escalation check
 
-None of the four `cic-build-cycle` categories apply. This document does not decide Representative identity, title, or voice (already decided, unchanged here); it does not make a portfolio-level or cross-world decision (§0's routing table is the already-adopted portfolio default, confirmed rather than set here, and no change to shared infrastructure is proposed); it does not change governance or methodology (Phase Six's own required deliverables are supplied, not redefined); and it names no unresolved tension the pipeline cannot close on its own — the Track B residual finding and the second validation round (§5) are ordinary follow-up work, not blocking contradictions between two already-cleared documents.
+None of the four `cic-build-cycle` categories apply. This document does not decide Representative identity, title, or voice (already decided, unchanged here); it does not make a portfolio-level or cross-world decision (§0's routing table is the already-adopted portfolio default, confirmed rather than set here, and no change to shared infrastructure is proposed); it does not change governance or methodology (Phase Six's own required deliverables are supplied, not redefined); and it names no unresolved tension the pipeline cannot close on its own — the Track B residual finding and the second validation round (§5) are ordinary further work, not blocking contradictions between two already-cleared documents.
 
 ---
 

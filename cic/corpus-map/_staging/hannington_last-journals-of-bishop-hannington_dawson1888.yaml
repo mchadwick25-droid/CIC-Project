@@ -1,0 +1,22 @@
+source_file: hannington_last-journals-of-bishop-hannington_dawson1888.txt
+assignments:
+- row_id: hannington_last-journals-of-bishop-hannington_dawson1888--the-last-journals-of-bishop-hannington-being-narratives-of-a
+  work: THE LAST JOURNALS OF BISHOP HANNINGTON, being Narratives of A Journey through Palestine in 1884 and A Journey
+  author: hannington
+  locus: chapter X, the last journal from October 12th to 29th with the closing letter from Bishop Parker, at lines
+    6887-7727; editor's Introductory at lines 410-527; the rest not mapped
+  atlas_ids:
+  - east-african-christianity-uganda-martyrs
+  role: tradition
+  confidence: provisional
+  language: eng
+  date:
+    start: 1884
+    end: 1888
+    source: 'the printing''s own title page: line 104 of this file, on the title page'
+    formation_confidence: Documented
+  edition_date:
+    year: 1888
+    source: line 104 of this file, on the title page
+    formation_confidence: Documented
+  note: 'Era 9 row 319, James Hannington: his last journals.'

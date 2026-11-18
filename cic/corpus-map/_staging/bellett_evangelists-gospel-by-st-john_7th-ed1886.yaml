@@ -1,0 +1,13 @@
+source_file: bellett_evangelists-gospel-by-st-john_7th-ed1886.txt
+assignments:
+- row_id: bellett_evangelists-gospel-by-st-john_7th-ed1886--bellett-evangelists-john
+  work: 'Bellett, The Evangelists: the Gospel by St. John (seventh edition, 1886)'
+  author: bellett
+  locus: 'the introduction at OCR lines 85-673; the papers on John at 681-7143; add 12 to OCR line numbers'
+  atlas_ids:
+  - plymouth-brethren-and-dispensational-formation
+  role: tradition
+  confidence: provisional
+  language: eng
+  date: {start: 1886, end: 1886, source: "the part's title page: 1886, seventh edition", formation_confidence: Documented}
+  note: 'Bellett''s meditations on the fourth Gospel. A late edition; the year of the first is not printed in the scan.'

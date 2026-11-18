@@ -21,7 +21,7 @@ confidence:
     corroboration of it.
 sources:
 - source_id: gallic.source.sulpitius-sacred-history
-  locus: "Sacred History II.50 (npnf211 div ii.vi.ii.l, file lines 11655-11660): Sulpitius's own statement of Martin's position on the trial of the Priscillianists at Treves"
+  locus: "Sacred History II.50 (cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml, lines 11655-11660; div ii.vi.ii.l): Sulpitius's own statement of Martin's position on the trial of the Priscillianists at Treves"
   license: public-domain
 retrieval:
   tier: 2

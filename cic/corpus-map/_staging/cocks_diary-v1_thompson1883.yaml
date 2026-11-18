@@ -24,4 +24,6 @@ assignments:
   - the-society-of-jesus
   role: context
   confidence: provisional
+  language: eng
+  date: {start: 1615, end: 1617, source: "the journal begun 'le 1th day of June, 1615' (file line 1363); the entry 'January 1, 1616-7' (line 9208); the last entry of the volume, '_December 31._' (line 13653), is the third December 31 in the sequence, so 1617 by inference from the sequence of printed dates, not a printed year", formation_confidence: Widely Accepted}
   note: 'The Society seen by a hostile English merchant in Japan, 1615-1617; placed on a word count only.'

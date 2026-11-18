@@ -88,7 +88,7 @@ gloss_forms:
 false_friend:
 - abbot as the canonical head of a Benedictine abbey, elected for life, with jurisdiction and a crozier
 - elder as a church officer or simply an old man
-- the senior's judgment of thoughts as spiritual direction or counselling one may take or leave
+- the senior's judgment of thoughts as spiritual direction or counseling one may take or leave
 senses:
   informational: >-
     In Cassian's book the senior is the first fact of a young monk's life: the juniors are taught "to
@@ -99,10 +99,10 @@ senses:
     brother, and at the top the one who presides, who may not do so "before he has ... learnt by
     obedience what he ought to enjoin." Every father in the Conferences is "Abbot": Abbot Moses, Abbot
     Piamun. Of the Gallic head of a house Cassian says only that he is "presiding as he does over a
-    large monastery." And not every grey head is an elder: the majority "pass their old age in a
+    large monastery." And not every gray head is an elder: the majority "pass their old age in a
     lukewarmness which they contracted in youth." At Tours the elder is one man and needs no title -
-    Sulpitius, offered the place of honour, "deemed it unlawful to do anything but acquiesce" - and
-    Martin too asks "his elders, whether among the presbyters or clerics" before he will honour a tomb.
+    Sulpitius, offered the place of honor, "deemed it unlawful to do anything but acquiesce" - and
+    Martin too asks "his elders, whether among the presbyters or clerics" before he will honor a tomb.
   evidential: >-
     Cassian, Institutes II.3, IV.5-9 and Conferences I.1, II.10-13, Preface II; Sulpitius, Life chs. X,
     XI, XXV; Gennadius on Faustus as "first abbot" at Lerins. The offices are Egyptian by Cassian's
@@ -110,7 +110,7 @@ senses:
     read.
   personal: >-
     The man to whom our thoughts are shown before they are acted on, whose examination replaces our
-    own discretion. A grey head is no guarantee, and the man who appoints himself Abbot before he has
+    own discretion. A gray head is no guarantee, and the man who appoints himself Abbot before he has
     professed himself a disciple has "grown cold through pride." Even the master who is obeyed without
     argument submits what he does not know to those older in the Church.
   translational: >-

@@ -1,0 +1,35 @@
+{
+ "round": 2,
+ "scope": "Targeted recheck of Round 1 findings on D1-D4 (movements and the II.1 extension), including D2/Draft_optionA.json",
+ "verdict": "approve",
+ "findings": [
+  {
+   "id": "R2-1",
+   "target": "D4 mennonites-and-amish-after-1650",
+   "field": "longDescription paragraph 3",
+   "severity": "minor",
+   "problem": "New in the revision: 'In 1886 its publishers brought out the Martyrs Mirror in English' follows a sentence about the 1856 Lancaster Ausbund printing. 'Its' therefore reads as the Ausbund's printers (Johann Bär of Lancaster), but the 1886 edition came from Elkhart.",
+   "evidence": "van-braght_martyrs-mirror_sohm1886.txt 68-70 (Publisher's Preface to English Edition, 1886, 'our Mennonite people'); ausbund Lancaster 1856 imprint",
+   "fix": "Write: 'In 1886 Mennonite publishers brought out the Martyrs Mirror in English.'"
+  },
+  {
+   "id": "R2-2",
+   "target": "D2 Draft_optionA.json",
+   "field": "wants",
+   "severity": "minor",
+   "problem": "Option A carries two Chauncy wants. The second still says the text is 'Needed to raise the era 7 Carthusian entry above thin', but option A has no era 7 entry.",
+   "evidence": "Draft_optionA.json wants[0], wants[1]",
+   "fix": "Drop the second want. The first already states the named-gap purpose."
+  },
+  {
+   "id": "R2-3",
+   "target": "D2 Draft_optionA.json carthusians-later-middle-ages",
+   "field": "end (1534) and legacy",
+   "severity": "minor",
+   "problem": "Under option A the 1534 end is the split point with an entry that no longer exists. The English houses ran to 1539, and that is vendored (Morris 1603-1604 for 15 Nov 1539). The new legacy tells 1535-1537 without a link, which the drafter reasoned by span. That reasoning holds only because the end stayed at 1534.",
+   "evidence": "morris ser1 1557-1558, 1603-1604; Rulings P1",
+   "fix": "Not required. If Mark picks option A, consider ending the entry in 1539 by evidence (P1) and re-homing the English Reformation 'argued against' link to the era 6 entry. Otherwise the option stands as reasoned."
+  }
+ ],
+ "checked": "Targeted recheck of Round 1 findings M1-M27 against each Revision_Round1.json and the rebuilt drafts. check_draft.py passes cleanly on D1, D2/Draft.json, D2/Draft_optionA.json, D3 and D4. Resolved, each verified in the draft and, where new, at the source lines: M1 (retired_link_updates re-points the 11-09 record). M2. M3 (Bell 3343 now on the link). M4 (Bell 3410-3411 named in the text). M7 (rows regraded; Bell 3190; the Orationes title). M8 (the new Peter the Iberian sentence was checked at Raabe 3420-3436: only Eusebius of Pelusium could be found, and the people carried Peter in). M9. M10 (new 'broke with' --3, with quotes for both sides checked; Documented is sound). M12. M14. M15 (rebaptism now matches Jerome 32834). M16 (Tomus 59986-59989 quoted; the sees still rest on Fremantle, as noted). M17 (Biddle 1653 title page). M18 (Nye kept only in sourcing, absence stated). M19. M20. M21 (prose and link note). M22 (qualified). M23. M24 (Fléché checked at Thwaites v1 5568-5573 and 14328-14337; 'one evening' at v14 7761-7762; informalName kept per the ruling's wording, which is sound). M25. M26 (no modern front-matter quote remains; the 1886 preface lines 68-80 are public domain). M27. Departures accepted as reasoned: M5 (no change; flagged for P2-L11 under principle M), M6 (coordinator kept five stories), M13 (flagged). M11 is held for Mark with both files. Option b (Draft.json) is unchanged from round 1 apart from the D2 fixes. Option A (Draft_optionA.json) drops the era 7 entry, both of its links and continuesAs, and adds two legacy sentences: the 4 May 1535 priors (McCann 14313-14316, plus the Morris indictment 776-781) and the Newgate deaths and the Bruges and Nieuport exiles (McCann 14316-14320). Both check out. Both D2 files are sound; Mark's choice between them is a ruling, not a review finding. New errors introduced: one wording ambiguity (R2-1) and two option A housekeeping points (R2-2, R2-3). None is substantial."
+}

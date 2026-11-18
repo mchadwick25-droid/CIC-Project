@@ -36,7 +36,7 @@ text: >-
   for long. Basil wrote with longing of a quiet retreat by a river in
   Pontus. He was called away from it to serve the church. His friend Gregory
   was made a priest against his will and fled to that same retreat. Then he
-  wrote the era's classic defence of that flight. He came back to serve
+  wrote the era's classic defense of that flight. He came back to serve
   anyway, and was drawn into office again and again. We do not think their
   failure to keep the quiet was the point. We think the wanting itself was
   real and holy, even unfinished. What ordered the reaching for us was not a
@@ -61,7 +61,7 @@ relations:
 use_note:
   means: "This witness says this world's teachers longed for stillness, rarely kept it, and taught passions ordered toward love rather than erased."
   not_for:
-    - "Basil's riverside letter in cappadocian.quote.basil-on-his-retreat as a defence of fleeing church office, which is Gregory of Nazianzus's Oration 2"
+    - "Basil's riverside letter in cappadocian.quote.basil-on-his-retreat as a defense of fleeing church office, which is Gregory of Nazianzus's Oration 2"
     - "a method for quieting a busy mind, which the record says it lacks"
     - "apatheia as feeling nothing"
     - "stillness as an ideal held by plateau congregations beyond the literate core"

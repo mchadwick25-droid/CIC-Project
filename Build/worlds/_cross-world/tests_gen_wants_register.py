@@ -59,3 +59,18 @@ def test_known_only_via_a_quoted_clause_is_resolved():
 def test_an_unverified_named_source_stays_unclassified():
     assert kind("Confirmed absent from the vendored npnf205",
                 "not independently verified; named for completeness") == "unclassified"
+
+
+def test_standing_reference_whose_parts_are_vendored_is_resolved():
+    assert kind("Pars I-IV are vendored (rows 193, 195, 196). This row is the standing reference.",
+                "public-domain; vendored in cic/texts/, and the content was read") == RESOLVED
+
+
+def test_edition_with_one_part_held_back_and_no_path_in_rights_stays_unclassified():
+    assert kind("Vol. IV is vendored as a file; vol. V is HELD BACK",
+                "Vols. IV and VI: copyrights not renewed. Vol. V: public domain from 1 January 2027") == "unclassified"
+
+
+def test_recognized_field_category_is_not_a_held_text():
+    assert kind("No edition.",
+                "No rights position is stated - a recognized field category with nothing to vendor") == NOT_HELD

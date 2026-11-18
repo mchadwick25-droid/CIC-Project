@@ -15,7 +15,7 @@ confidence:
   divergence_note: null
 sources:
 - source_id: hal.source.attack-letters-416
-  locus: Ep. 137 (Innocent to John of Jerusalem)
+  locus: "Ep. 137 (Innocent to John of Jerusalem) (cic/texts/npnf206_jerome-principal-works.xml, lines 28468-28474)"
   license: public-domain
 text: 'The holy virgins Eustochium and Paula have deplored to me the ravages, murders,
   fires and outrages of all kinds, which they say that the devil has perpetrated in the

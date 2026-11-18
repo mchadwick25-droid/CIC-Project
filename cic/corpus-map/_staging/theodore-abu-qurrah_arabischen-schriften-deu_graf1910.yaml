@@ -1,0 +1,11 @@
+source_file: theodore-abu-qurrah_arabischen-schriften-deu_graf1910.txt
+assignments:
+- row_id: theodore-abu-qurrah_arabischen-schriften-deu_graf1910--theodore-abu-qurrah-arabic-treatises-in-german-graf-1910
+  work: 'Theodore Abu Qurrah, Arabic treatises in German (Graf 1910)'
+  author: theodore-abu-qurrah
+  locus: 'the translated treatises; add 12 to OCR line numbers'
+  atlas_ids:
+  - melkite-arabic-christianity
+  role: tradition
+  confidence: provisional
+  note: 'The bishop''s own Arabic works in a German translation; Graf''s introduction is his own.'

@@ -12,7 +12,7 @@ confidence:
   evidentiary_weight: load-bearing
   formation_confidence: Documented
   divergence_note: >-
-    Documented, attested both in Augustine's own primary text (not merely characterised) and in Petilian's
+    Documented, attested both in Augustine's own primary text (not merely characterized) and in Petilian's
     own quoted argument (Doc_08 Cell 2B, Layer 1; Doc_04 SS3.1, SS3.2). The disclosure that belongs on this
     force specifically: Petilian's words survive ONLY because Augustine needed them in front of a reader in
     order to refute them clause by clause - a preservation mechanism that selects for refutability, not for
@@ -45,7 +45,7 @@ description: >-
   whole time.
 
   This pattern is documented directly in Augustine's own writing, which attests it rather than
-  merely characterising it. Petilian's own argument, quoted in Augustine's reply, attests it too.
+  merely characterizing it. Petilian's own argument, quoted in Augustine's reply, attests it too.
 
   To belong here was to have been washed again, on purpose, by a hand of unbroken standing. This
   was not a repeat of something already valid. It was the first true baptism a person had ever

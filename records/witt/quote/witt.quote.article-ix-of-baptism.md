@@ -19,9 +19,7 @@ confidence:
     confessional voice's own article, not the household catechism's.
 sources:
 - source_id: witt.source.melanchthon-augsburg-confession
-  locus: >-
-    Article IX: Of Baptism: 'children are to be baptized who, being offered to God through Baptism are
-    received into God's grace'
+  locus: "Article IX: Of Baptism: 'children are to be baptized who, being offered to God through Baptism are received into God's grace' (cic/texts/melanchthon_augsburg-confession_anon-pg275.txt, lines 309-315)"
   license: public-domain
 retrieval:
   tier: 1

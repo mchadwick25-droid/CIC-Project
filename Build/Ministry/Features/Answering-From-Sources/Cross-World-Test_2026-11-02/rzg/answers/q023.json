@@ -1,0 +1,141 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "rzg.limit.no-teaching-on-wealth-or-marriage"
+   ],
+   "sentence": "No record here shows how ordinary people lived with wealth and want, so we cannot list what a person gave up to belong."
+  },
+  {
+   "record_ids": [
+    "rzg.force.anabaptist-schism"
+   ],
+   "sentence": "What our record does show is a break inside our own founding circle."
+  },
+  {
+   "record_ids": [
+    "rzg.force.anabaptist-schism"
+   ],
+   "sentence": "On 21 January 1525, at Felix Manz's house in Zurich, Conrad Grebel baptized Georg Blaurock, who then baptized the others present, including Manz."
+  },
+  {
+   "record_ids": [
+    "rzg.force.anabaptist-schism"
+   ],
+   "sentence": "Grebel and Manz had both belonged to Zwingli's own reform circle."
+  },
+  {
+   "record_ids": [
+    "rzg.witness.why-the-children-too"
+   ],
+   "sentence": "Their case was that only a believer's own chosen profession makes a true member."
+  },
+  {
+   "record_ids": [
+    "rzg.witness.why-the-children-too"
+   ],
+   "sentence": "Ours was that a whole believing city, infants included from birth, was the covenant shape Scripture itself describes."
+  },
+  {
+   "record_ids": [
+    "rzg.witness.why-the-children-too"
+   ],
+   "sentence": "We did not see a baptised child as belonging to a lesser church waiting on a later, personal choice."
+  }
+ ],
+ "citations": [
+  "rzg.force.anabaptist-schism",
+  "rzg.limit.no-teaching-on-wealth-or-marriage",
+  "rzg.witness.why-the-children-too"
+ ],
+ "group": "A",
+ "id": "q023",
+ "net_sentences": [
+  {
+   "draft": "No record here shows how ordinary people lived with wealth and want, so we cannot list what a person gave up to belong [[rzg.limit.no-teaching-on-wealth-or-marriage]] [[as:paraphrase]].",
+   "sentence": "No record here shows how ordinary people lived with wealth and want, so we cannot list what a person gave up to belong.",
+   "tags": [
+    "rzg.limit.no-teaching-on-wealth-or-marriage"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "What our record does show is a break inside our own founding circle [[rzg.force.anabaptist-schism]] [[as:paraphrase]].",
+   "sentence": "What our record does show is a break inside our own founding circle.",
+   "tags": [
+    "rzg.force.anabaptist-schism"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "On 21 January 1525, at Felix Manz's house in Zurich, Conrad Grebel baptized Georg Blaurock, who then baptized the others present, including Manz [[rzg.force.anabaptist-schism]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "On 21 January 1525, at Felix Manz's house in Zurich, Conrad Grebel baptized Georg Blaurock, who then baptized the others present, including Manz.",
+   "tags": [
+    "rzg.force.anabaptist-schism"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "Grebel and Manz had both belonged to Zwingli's own reform circle [[rzg.force.anabaptist-schism]] [[as:paraphrase]].",
+   "ratio": 0.86,
+   "sentence": "Grebel and Manz had both belonged to Zwingli's own reform circle.",
+   "tags": [
+    "rzg.force.anabaptist-schism"
+   ],
+   "verdict": "ok",
+   "why": "grounded 86% in own tagged records"
+  },
+  {
+   "draft": "Their case was that only a believer's own chosen profession makes a true member [[rzg.witness.why-the-children-too]] [[as:paraphrase]].",
+   "sentence": "Their case was that only a believer's own chosen profession makes a true member.",
+   "tags": [
+    "rzg.witness.why-the-children-too"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Ours was that a whole believing city, infants included from birth, was the covenant shape Scripture itself describes [[rzg.witness.why-the-children-too]] [[as:paraphrase]].",
+   "sentence": "Ours was that a whole believing city, infants included from birth, was the covenant shape Scripture itself describes.",
+   "tags": [
+    "rzg.witness.why-the-children-too"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "We did not see a baptised child as belonging to a lesser church waiting on a later, personal choice [[rzg.witness.why-the-children-too]] [[as:paraphrase]].",
+   "sentence": "We did not see a baptised child as belonging to a lesser church waiting on a later, personal choice.",
+   "tags": [
+    "rzg.witness.why-the-children-too"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  }
+ ],
+ "offered": [
+  "rzg.witness.what-we-have-not-agreed",
+  "rzg.story.calvins-journey-to-zurich",
+  "rzg.story.first-zurich-disputation",
+  "rzg.quote.seniors-selected-from-the-people",
+  "rzg.force.perrinist-crisis",
+  "rzg.witness.why-the-children-too",
+  "rzg.force.anabaptist-schism"
+ ],
+ "raw_text": "No record here shows how ordinary people lived with wealth and want, so we cannot list what a person gave up to belong [[rzg.limit.no-teaching-on-wealth-or-marriage]] [[as:paraphrase]].\nWhat our record does show is a break inside our own founding circle [[rzg.force.anabaptist-schism]] [[as:paraphrase]].\nOn 21 January 1525, at Felix Manz's house in Zurich, Conrad Grebel baptized Georg Blaurock, who then baptized the others present, including Manz [[rzg.force.anabaptist-schism]] [[as:paraphrase]].\nGrebel and Manz had both belonged to Zwingli's own reform circle [[rzg.force.anabaptist-schism]] [[as:paraphrase]].\nTheir case was that only a believer's own chosen profession makes a true member [[rzg.witness.why-the-children-too]] [[as:paraphrase]].\nOurs was that a whole believing city, infants included from birth, was the covenant shape Scripture itself describes [[rzg.witness.why-the-children-too]] [[as:paraphrase]].\nWe did not see a baptised child as belonging to a lesser church waiting on a later, personal choice [[rzg.witness.why-the-children-too]] [[as:paraphrase]].\n",
+ "reply_shape": {
+  "placed": [],
+  "removed": [],
+  "repaired": []
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": "C12.S6",
+ "text": "No record here shows how ordinary people lived with wealth and want, so we cannot list what a person gave up to belong. What our record does show is a break inside our own founding circle. On 21 January 1525, at Felix Manz's house in Zurich, Conrad Grebel baptized Georg Blaurock, who then baptized the others present, including Manz. Grebel and Manz had both belonged to Zwingli's own reform circle. Their case was that only a believer's own chosen profession makes a true member. Ours was that a whole believing city, infants included from birth, was the covenant shape Scripture itself describes. We did not see a baptised child as belonging to a lesser church waiting on a later, personal choice.",
+ "voice_set_aside": false
+}

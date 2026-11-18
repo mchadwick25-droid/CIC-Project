@@ -1,0 +1,45 @@
+{
+ "round": 2,
+ "verdict": "revise",
+ "counts": {"blocking": 0, "substantial": 1, "minor": 2, "resolved": 11, "not_resolved": 0},
+ "checked": "All 11 entries in Diff_round1_revision.json read old against new and matched to cic-website/data/world-census.json (every changed field equal to the diff's new value). Vendored lines reread: Avvakum 1700-1716, 1130-1142, 1872-1880, 2100-2115; Mouravieff 10518-10532 and 19188-19194; Frere-Douglas 1098-1105; Pollen 15382-15389; Pages 6912-6923; Conybeare 2338-2372; Subbotin v1 546-549. Era-8 Final.json entry for russian-church-stoglav-to-nikon--the-old-believers compared with the added --2 link: type, confidence, four sources, specificity A and verified-direct match exactly; only 'Ivan' became 'John'. All 8 changed notes scored with engine.m7.turn_readability.score_turn: all pass (lowest FRE 60.3 bardaisanite, highest FK 8.9 Zurich); longest sentence 21 words; no British spelling or internal language. 'Rainier' no longer in any note; 'presbyter' in no note; validator `node tools/validate-census.mjs --base .../main/base_census.json` -> 301 movements, 577 edges, 10 eras, 0 errors, 2 warnings (shortName length only, as in round 1).",
+ "resolved": [
+  {"rid": "R1-01", "status": "resolved", "note": "Note is the required text verbatim; it now gives the reason (province, not the see alone). FRE 62.8, FK 7.7."},
+  {"rid": "R1-02", "status": "resolved", "note": "Link --2 added as required; the descent claim now has a link. Sources: Avvakum 1710-1711 (primary) carries the ordination, and his own next lines (1711-1714: priest eight years before archpriest, 'twenty years ago') with the translators' table (1138, c. 1644; Nikon's reforms 1653) place it before Nikon, so Documented is earned. Neronov 2107-2109 carries the spiritual-father sentence. Mouravieff 10527-10529 is not used by the note but supports the relationship (the Stoglav as the 'foundation' of the old-rite case); relevant, keep. No source is irrelevant. But the note's 'of St Basil's' is wrong: see R2-01."},
+  {"rid": "R1-03", "status": "resolved", "note": "Required text verbatim; 'Ephraim' now the clear subject. FRE 60.3."},
+  {"rid": "R1-04", "status": "resolved", "note": "Pluperfect gone; Frere-Douglas widened to 1100-1104 and the quote matches the vendored lines, 1566 now inside it."},
+  {"rid": "R1-05", "status": "resolved", "note": "Pollen 15387-15388 added; quote verbatim and carries the forty-day stay."},
+  {"rid": "R1-06", "status": "resolved", "note": "Sotelo 6914 and 6920 added verbatim; with 6921-6922 they now show 'most of them ... stayed hidden in various places'."},
+  {"rid": "R1-07", "status": "resolved", "note": "Required sentence verbatim. FRE 61.7."},
+  {"rid": "R1-08", "status": "resolved", "note": "Lucian now 'a priest of Antioch'; no note uses 'presbyter'."},
+  {"rid": "R1-09", "status": "resolved", "note": "Apollinarian note now 'condemned', matching the Eunomian note. A third note on the same canon still says 'cursed': R2-03."},
+  {"rid": "R1-10", "status": "resolved", "note": "New wording keeps every fact of the old opening (Italian inquisitor, about 1250, all Cathar churches from two in the east, Bulgaria and Dugunthia); only the sentence order changes. FRE 62.6, FK 7.1. The link's source work string still says 'Rainier': R2-02."},
+  {"rid": "R1-11", "status": "resolved", "note": "Blackmore 1842 note now secondary on both links; grade unaffected (Inferential-Thin)."}
+ ],
+ "findings": [
+  {
+   "rid": "R2-01",
+   "severity": "substantial",
+   "links": ["russian-church-stoglav-to-nikon--the-old-believers--2"],
+   "finding": "The note says Avvakum's spiritual father was 'John Neronov of St Basil's in Moscow'. That takes the 1924 translators' 'St. Basil's Minster' as fact, and two vendored sources say otherwise: Neronov was archpriest of the Kazan Cathedral in Moscow. A Documented note should not state a church the record contradicts. This came from round 1's required text, carried over from era 8.",
+   "evidence": "cic/texts/conybeare_russian-dissenters_1921.txt:2344-2345 'Ivan Neronov, Protopope of the Kazanski church'; cic/texts/subbotin_materialy-dlia-istorii-raskola-v1-dokumenty-rus_1874.txt:548 'О протопопе Казанского, в Москве, собора Иване' (OCR-normalized); the note's only support is avvakum_life...harrison-mirrlees1924.txt:2107-2108 'St. Basil's Minster, to John Neronov'. Avvakum's own lines 1873-1876 name him as a Moscow archpriest.",
+   "required_fix": "note: \"Archpriest Avvakum, the great voice of the Old Believers, was ordained in the Russian church before Nikon's reforms. He writes that he became a deacon at twenty and a priest two years later. His translators date this to about 1644. His spiritual father was John Neronov, an archpriest in Moscow.\" (FRE 64.9, FK 7.2.) Add a primary source, same work and file as the Avvakum entries, lines \"1873-1876\", locus \"Life, arrival in Moscow\", quote: \"in my wanderings I reached Moscow, I made straight for the Tsar’s chaplain, the arch- priest Stephen, and for Neronov, the arch- priest John\". Keep the 2107-2109 source."
+  },
+  {
+   "rid": "R2-02",
+   "severity": "minor",
+   "links": ["balkan-bogomil-continuation--cathars-albigensians"],
+   "finding": "R1-10 made the note say 'Rainerius Sacconi', but the link's own source work string still reads 'Rainier Sacconi, Summa de Catharis...'. A reader sees two spellings of the same man on one link.",
+   "evidence": "cic-website/data/world-census.json:11649 work 'Rainier Sacconi, Summa de Catharis et Pauperibus de Lugduno (c. 1250) ...'; no other source or note uses 'Rainier'.",
+   "required_fix": "In that source's work string change 'Rainier Sacconi' to 'Rainerius Sacconi'."
+  },
+  {
+   "rid": "R2-03",
+   "severity": "minor",
+   "links": ["imperial-juridical-christianity--pneumatomachian-current"],
+   "finding": "R1-09's reason (one canon, one rendering) is not met set-wide. Canon 1 of Constantinople (381) is now 'condemned' in the Eunomian and Apollinarian notes but still 'cursed by name' in the Pneumatomachian note, and 'put a curse on' in its outcome.",
+   "evidence": "Census note: 'In 381 the Council of Constantinople, in its first canon, cursed by name the Semi-Arians'; outcome: 'In their first canon they put a curse on the Semi-Arians'. Source on that link (13974-13976) is the same canon list.",
+   "required_fix": "note: change 'cursed by name the Semi-Arians' to 'condemned by name the Semi-Arians' (FRE 60.2, FK 8.9). outcome: \"Theodosius had the bishops meet at Constantinople. In their first canon they condemned a group by name. It was the Semi-Arians, who were also known as the Pneumatomachi.\" (FRE 62.8, FK 6.9; the plain swap fails at FRE 48.0.)"
+  }
+ ]
+}

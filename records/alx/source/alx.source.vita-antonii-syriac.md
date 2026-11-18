@@ -30,13 +30,14 @@ work: "The Life of Saint Anthony by Athanasius, Archbishop of Alexandria, in the
 edition: "trans. E. A. Wallis Budge (London: Chatto & Windus, 1907), vendored as cic/texts/palladius_paradise-v1-syriac_budge1907.txt - from the thirteenth- or fourteenth-century Syriac manuscript Budge was shown at Mosul in 1888 and had copied, described in his own Preface"
 citation: 'Athanasius of Alexandria, The Life of Saint Anthony, Syriac recension, trans. E. A. Wallis Budge (London: Chatto & Windus, 1907)'
 kind: vendored
+shelf_row: palladius_paradise-v1-syriac_budge1907--the-life-of-saint-anthony-by-athanasius-syriac-recension
 rights_status: "public-domain; 1907, long out of US copyright"
 attribution_status: "Athanasius by the manuscript's own ascription, as in the Greek; the abridgement is the Syriac tradition's, not his"
 discovery_channel: "opened 2026-08-27 by the fleet unopened-volume sweep (alx.search.unopened-volume-sweep)"
 external_ids: {}
 ---
-THIS WORLD'S MOST WIDELY TRAVELLED BOOK, IN ONE OF THE PLACES IT
-TRAVELLED TO.
+THIS WORLD'S MOST WIDELY TRAVELED BOOK, IN ONE OF THE PLACES IT
+TRAVELED TO.
 
 The Vita Antonii is the Alexandrian text that went furthest: Athanasius
 wrote it, Latin readers had it within a decade, and Augustine records
@@ -51,7 +52,7 @@ literature and its own reasons to want this one. The abridgement is the evidence
 different tradition kept and what it did not think it needed is a
 measurement of what the book was FOR outside the city that wrote it -
 and this world can now make that measurement rather than assert that the
-Life travelled.
+Life traveled.
 
 WHAT IT IS NOT. Not a better text, not an earlier text, and not a
 correction to the Greek. Where the two differ this world reads npnf204

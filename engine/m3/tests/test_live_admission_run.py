@@ -5,67 +5,68 @@ here aborts before loader/client construction. The one case that runs
 _run_world (the running-check trip) replaces it with a fake, so this
 still never touches the network or needs credentials.
 """
+import copy
 import json
+from types import SimpleNamespace
+
 import pytest
 
 import engine.m3.live_admission_run as lar
+from engine.m3.generation import LivePathSettings
 from engine.m3.live_admission_run import (
     DEFAULT_MAX_USD,
-    estimate_run_cost_usd,
     estimate_world_cost_usd,
-    real_world_costs,
+    live_path_turn_ceiling_usd,
     run,
 )
 
-REAL_COSTS = real_world_costs()
+SONNET = "us.anthropic.claude-sonnet-4-5-20250929-v1:0"
+OPUS = "us.anthropic.claude-opus-5-5"
 
 
 def test_default_max_usd_ceiling_is_three_dollars():
     assert DEFAULT_MAX_USD == pytest.approx(3.00)
 
 
-def test_a_world_with_a_real_report_uses_its_own_latest_observed_cost():
-    assert "don" in REAL_COSTS  # real reports exist for don
-    assert estimate_world_cost_usd("don", REAL_COSTS) == pytest.approx(REAL_COSTS["don"])
+def test_the_turn_ceiling_is_the_highest_measured_whole_turn_cost():
+    assert live_path_turn_ceiling_usd() == pytest.approx(0.0696, abs=0.001)
 
 
-def test_a_world_with_no_real_report_falls_back_to_the_highest_observed_cost():
-    fake_costs = {"alx": 0.10, "desert": 0.90}
-    assert estimate_world_cost_usd("rzg", fake_costs) == pytest.approx(0.90)
+def test_a_world_estimate_is_the_ceiling_for_every_probe():
+    assert estimate_world_cost_usd(28, SONNET, ceiling_usd=0.05) == pytest.approx(1.40)
 
 
-def test_estimate_run_cost_usd_sums_each_worlds_own_estimate():
-    fake_costs = {"alx": 0.10, "desert": 0.90}
-    total = estimate_run_cost_usd(["alx", "desert"], fake_costs)
-    assert total == pytest.approx(1.00)
+def test_a_voice_model_override_scales_the_estimate_by_its_output_price():
+    assert estimate_world_cost_usd(28, OPUS, ceiling_usd=0.05) == pytest.approx(1.40 * 20 / 15)
 
 
-def test_omitting_max_usd_falls_back_to_the_three_dollar_ceiling():
-    """The ceiling is the default itself, not an opt-in: requesting every
-    formation world (a real, expensive combination) aborts even when
-    --max-usd is never named on the command line."""
+def test_a_voice_model_with_no_approved_price_has_no_estimate():
+    with pytest.raises(RuntimeError, match="no approved price"):
+        estimate_world_cost_usd(28, "us.anthropic.claude-mystery", ceiling_usd=0.05)
+
+
+def test_omitting_max_usd_falls_back_to_the_three_dollar_ceiling(monkeypatch):
     from engine.m1.registry import formation_world_keys
 
-    worlds = formation_world_keys()
-    assert estimate_run_cost_usd(worlds, REAL_COSTS) > DEFAULT_MAX_USD
+    monkeypatch.setattr(lar, "live_path_turn_ceiling_usd", lambda: 0.07)
+
     with pytest.raises(SystemExit, match="exceeds --max-usd"):
-        run("us-east-1", world_keys=worlds, authorized_by="test-harness")
+        run("us-east-1", world_keys=formation_world_keys(), authorized_by="test-harness")
 
 
 def test_a_run_over_the_max_usd_ceiling_aborts_before_any_billed_call():
-    tiny_ceiling = estimate_run_cost_usd(["alx"], REAL_COSTS) / 2
     with pytest.raises(SystemExit, match="exceeds --max-usd"):
-        run("us-east-1", world_keys=["alx"], max_usd=tiny_ceiling, authorized_by="test-harness")
+        run("us-east-1", world_keys=["alx"], max_usd=0.01, authorized_by="test-harness")
 
 
 def test_a_blank_authorized_by_aborts():
-    generous_ceiling = estimate_run_cost_usd(["alx"], REAL_COSTS) * 100
+    generous_ceiling = 100.0
     with pytest.raises(SystemExit, match="--authorized-by is required"):
         run("us-east-1", world_keys=["alx"], max_usd=generous_ceiling, authorized_by="   ")
 
 
 def test_an_unregistered_world_key_aborts_before_any_billed_call():
-    generous_ceiling = estimate_run_cost_usd(["alx"], REAL_COSTS) * 100
+    generous_ceiling = 100.0
     with pytest.raises(SystemExit, match="not a real formation world"):
         run("us-east-1", world_keys=["not-a-real-world"], max_usd=generous_ceiling, authorized_by="test-harness")
 
@@ -77,10 +78,7 @@ def test_the_running_check_trips_even_when_preflight_passes(monkeypatch):
     alone. _run_world is faked here (a fixed, high actual_usd for the
     first world) rather than any network/client internals, so this stays
     fully hermetic - no real call is ever made."""
-    fake_costs = {"alx": 0.10, "desert": 0.10}
-    monkeypatch.setattr(lar, "real_world_costs", lambda: fake_costs)
     monkeypatch.setattr(lar, "resolve_model_id", lambda model, region: "fake-model-id")
-    monkeypatch.setattr(lar, "load_fleet_records", lambda: {})
 
     def fake_run_world(world_key, **kwargs):
         # alx's REAL cost turns out to be far above its own $0.10 estimate.
@@ -105,52 +103,56 @@ def test_the_running_check_trips_even_when_preflight_passes(monkeypatch):
     assert report["actual_usd_spent"] == pytest.approx(5.00)
 
 
-class _FakeStream:
-    def __init__(self, chunks):
-        self.text_stream = iter(chunks)
-        self._text = "".join(chunks)
-
-    def get_final_message(self):
-        class _Usage:
-            input_tokens, output_tokens = 100, 20
-            cache_creation_input_tokens, cache_read_input_tokens = 0, 0
-
-        class _Block:
-            type = "text"
-
-        block = _Block()
-        block.text = self._text
-
-        class _Message:
-            usage = _Usage()
-            content = [block]
-            stop_reason = "end_turn"
-
-        return _Message()
-
-
 class _FakeStreamCtx:
     def __init__(self, chunks):
         self._chunks = chunks
 
     def __enter__(self):
-        return _FakeStream(self._chunks)
+        usage = SimpleNamespace(input_tokens=100, output_tokens=20, cache_creation_input_tokens=0, cache_read_input_tokens=0)
+        message = SimpleNamespace(usage=usage, content=[SimpleNamespace(type="text", text="".join(self._chunks))], stop_reason="end_turn")
+        return SimpleNamespace(text_stream=iter(self._chunks), get_final_message=lambda: message)
 
     def __exit__(self, *exc):
         return False
 
 
+_GATE_OUTPUT = {
+    "submit_safety_classification": {"signal": "NO_SIGNAL", "acute_level": "none", "risk_subject": "not_applicable",
+                                     "check_in_reason": "not_applicable", "dynamic_tags": [], "confidence": "high"},
+    "submit_reader_output": {"asks": [{"order": 1, "text": "what the world held"}], "register": "informational", "clarity": "clear",
+                             "ambiguity_options": [], "out_of_scope": {"class": "none"}, "modern_terms": []},
+}
+
+
 class _FakeClient:
-    """Answers every voice call with the same tagged reply, no network."""
+    """Answers the gate calls with fixed tool output and every voice call
+    with the same tagged reply, no network."""
 
     def __init__(self, record_id):
         chunks = ["We hold this, ", f"as our teachers wrote. [[{record_id}]]"]
+        usage = SimpleNamespace(input_tokens=100, output_tokens=20, cache_creation_input_tokens=0, cache_read_input_tokens=0)
 
         class _Messages:
             def stream(self, **kwargs):
                 return _FakeStreamCtx(chunks)
 
+            def create(self, *, tool_choice, **kwargs):
+                name = tool_choice["name"]
+                block = SimpleNamespace(type="tool_use", name=name, input=copy.deepcopy(_GATE_OUTPUT[name]))
+                return SimpleNamespace(content=[block], usage=usage)
+
         self.messages = _Messages()
+
+
+_SETTINGS = LivePathSettings(
+    voice_model_id="us.anthropic.claude-sonnet-4-5-20250929-v1:0", safety_model_id="us.anthropic.claude-haiku-4-5-20251001-v1:0",
+    r27_enforce=False, self_revision_enabled=False, citation_attach_enabled=False,
+)
+
+
+@pytest.fixture(autouse=True)
+def _small_turn_ceiling(monkeypatch):
+    monkeypatch.setattr(lar, "live_path_turn_ceiling_usd", lambda: 0.1 / 28)
 
 
 def _run_alx_with_fake_client(monkeypatch, save_transcripts, answers_path=None):
@@ -161,9 +163,8 @@ def _run_alx_with_fake_client(monkeypatch, save_transcripts, answers_path=None):
     record_id = next(rid for rid, r in load_world_records("alx").items() if r.get("record_type") == "quote")
     monkeypatch.setattr(lar, "make_client", lambda region: _FakeClient(record_id))
     return lar._run_world(
-        "alx", registry=load_registry(), loader=LazyWorldLoader(), voice_model_id="fake-model-id",
-        region="us-east-1", canon_questions=lar.load_fleet_records(), save_transcripts=save_transcripts,
-        answers_path=answers_path,
+        "alx", registry=load_registry(), loader=LazyWorldLoader(), settings=_SETTINGS,
+        region="us-east-1", save_transcripts=save_transcripts, answers_path=answers_path,
     )
 
 
@@ -178,11 +179,15 @@ def test_save_transcripts_keeps_every_probe_and_leaves_grading_unchanged(monkeyp
     assert (plain["pass_count"], plain["overall_pass"]) == (saved["pass_count"], saved["overall_pass"])
 
     transcript = saved["per_probe"][0]["transcript"]
-    assert transcript["raw_text"].endswith("]]")
-    assert transcript["request"] == {"model": "fake-model-id", "max_tokens": 2048}
-    assert transcript["stop_reason"] == "end_turn"
-    assert transcript["seconds_to_first_text"] is not None and transcript["seconds_total"] is not None
+    draft = transcript["drafts"][0]
+    assert draft["raw_text"].endswith("]]")
+    assert draft["request"] == {"model": _SETTINGS.voice_model_id, "max_tokens": 2048}
+    assert draft["stop_reason"] == "end_turn"
+    assert draft["seconds_to_first_text"] is not None and draft["seconds_total"] is not None
+    assert transcript["routing_action"] == "voice_with_directive"
+    assert transcript["reader"]["directive"]["asks"][0]["text"] == "what the world held"
     assert isinstance(transcript["citations"], list) and transcript["answer_text"]
+    assert {u["call_kind"] for u in transcript["usage"]} == {"safety_call", "reader_call", "voice_generation"}
 
 
 def test_each_answer_is_written_to_the_answers_file_as_it_returns(monkeypatch, tmp_path):
@@ -197,14 +202,15 @@ def test_each_answer_is_written_to_the_answers_file_as_it_returns(monkeypatch, t
 def test_settings_only_exits_before_any_billed_call(monkeypatch, capsys):
     monkeypatch.setattr(lar, "resolve_model_id", lambda model, region: "fake-model-id")
     monkeypatch.setattr(lar, "_run_world", lambda *a, **k: pytest.fail("billed call made under --settings-only"))
-    generous_ceiling = estimate_run_cost_usd(["alx"], REAL_COSTS) * 100
+    generous_ceiling = 100.0
     report = run("us-east-1", world_keys=["alx"], max_usd=generous_ceiling, authorized_by="test-harness",
                  save_transcripts=True, settings_only=True)
 
     settings = report["run_settings"]
     assert settings["voice_model_id"] == "fake-model-id"
-    assert settings["self_revision"].startswith("off")
-    assert settings["safety_model_id"] is None
+    assert settings["safety_model_id"] == "fake-model-id"
+    assert settings["self_revision_enabled"] is False
+    assert settings["path"].startswith("engine.m4.turn.run_turn")
     assert settings["seal_hash"].startswith("sha256:")
     assert set(settings["package_manifest_hash"]) == {"alx"}
     assert settings["save_transcripts"] is True
@@ -214,9 +220,7 @@ def test_settings_only_exits_before_any_billed_call(monkeypatch, capsys):
 def _fake_world_result(cost: float) -> dict:
     return {
         "battery_size": 1, "pass_count": 1, "overall_pass": True, "per_probe": [],
-        "actual_usd": cost,
-        "total_input_tokens": 0, "total_output_tokens": 0,
-        "total_cache_creation_input_tokens": 0, "total_cache_read_input_tokens": 0,
+        "actual_usd": cost, "unanswered": 0, "priced_from_usage_usd": cost,
     }
 
 
@@ -228,10 +232,7 @@ def test_a_cap_stop_part_way_through_a_world_keeps_the_worlds_already_run(monkey
     stay in the report, the stop is named, and the report is on disk."""
     from engine.provider import guard
 
-    fake_costs = {"alx": 0.10, "desert": 0.10}
-    monkeypatch.setattr(lar, "real_world_costs", lambda: fake_costs)
     monkeypatch.setattr(lar, "resolve_model_id", lambda model, region: "fake-model-id")
-    monkeypatch.setattr(lar, "load_fleet_records", lambda: {})
 
     def fake_run_world(world_key, **kwargs):
         if world_key == "desert":
@@ -256,10 +257,7 @@ def test_the_report_is_written_after_every_world(monkeypatch, tmp_path):
     """A crash or a kill between worlds must not lose the worlds already
     paid for: the report on disk is refreshed after each one, marked in
     progress until the run ends."""
-    fake_costs = {"alx": 0.10, "desert": 0.10}
-    monkeypatch.setattr(lar, "real_world_costs", lambda: fake_costs)
     monkeypatch.setattr(lar, "resolve_model_id", lambda model, region: "fake-model-id")
-    monkeypatch.setattr(lar, "load_fleet_records", lambda: {})
     out = tmp_path / "report.json"
     seen = []
 
@@ -281,3 +279,20 @@ def test_the_report_is_written_after_every_world(monkeypatch, tmp_path):
     assert list(final["worlds"]) == ["alx", "desert"]
     assert final["aborted_reason"] is None
     assert final["overall_pass"] is True and report["overall_pass"] is True
+
+
+def test_an_unanswered_probe_is_written_to_the_answers_file_with_its_error(tmp_path):
+    from engine.m3.generation import AnswerUnavailable
+
+    class _Failing:
+        def answer(self, cell, probe_text):
+            raise AnswerUnavailable("RuntimeError: voice generation call failed: error {'error': 'boom'}")
+
+    path = tmp_path / "run.answers.jsonl"
+    recorder = lar._RecordingAnswerer(_Failing(), spill_path=path)
+
+    with pytest.raises(AnswerUnavailable):
+        recorder.answer("C-I", "q")
+
+    line = json.loads(path.read_text(encoding="utf-8"))
+    assert line["unanswered"].endswith("'boom'}") and line["cell"] == "C-I"

@@ -40,8 +40,7 @@ relations:
   target: witt.gravity.the-word
 - type: precondition-for
   target: witt.gravity.estate-office-and-calling
-name: 'The papal force, initiating: the indulgence trade, the Leipzig polemic, and the bull, 1517-1521
-  [1A - initiating/external]'
+name: 'The papal force, initiating: the indulgence trade, the Leipzig polemic, and the bull, 1517-1521'
 kind: initiating
 matrix_cell: 1A
 description: 'It began with the sale of indulgences. The protest came in a letter to Albrecht of Mainz, with the Theses

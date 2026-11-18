@@ -1,0 +1,21 @@
+source_file: wiseman_appeal-to-the-english-people-catholic-hierarchy_1850.txt
+assignments:
+- row_id: wiseman_appeal-to-the-english-people-catholic-hierarchy_1850--an-appeal-to-the-reason-and-good-feeling-of-the-english
+  work: An Appeal to the Reason and Good Feeling of the English People on the Subject of the Catholic Hierarchy
+  author: wiseman
+  locus: the whole volume; not mapped
+  atlas_ids:
+  - catholic-church-long-nineteenth-century
+  role: tradition
+  confidence: provisional
+  language: eng
+  date:
+    start: 1850
+    end: 1850
+    source: 'the printing''s own title page: line 42, on the title page'
+    formation_confidence: Documented
+  edition_date:
+    year: 1850
+    source: line 42, on the title page
+    formation_confidence: Documented
+  note: 'Era 9 row 278, Nicholas Wiseman: his Appeal of 1850 on the hierarchy.'

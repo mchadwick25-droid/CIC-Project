@@ -92,7 +92,7 @@ relations:
   target: gallic.term.co-operation
 plain_meaning: >-
   In Cassian's Marseilles, the power that "always remains free in man" to "neglect or delight in the
-  grace of God." It was real enough that a monk's fasting, watching and labour were truly his and
+  grace of God." It was real enough that a monk's fasting, watching and labor were truly his and
   truly required. It was weak enough that "the assistance and grace of God are necessary to it every
   day and hour." We never denied it, and it was never enough on its own.
 world_word: free will
@@ -120,13 +120,13 @@ senses:
     ourselves" is his characterization, not the brethren's own words. Gennadius, post-window, gives
     Faustus's later position; Faustus's own De gratia was grepped only, with no hit for liber*
     arbitri* on an OCR-sensitive regex - not a negative finding. The Latin liberum arbitrium is not
-    attested in the vendored translation. Salvian is excluded by licence.
+    attested in the vendored translation. Salvian is excluded by license.
   personal: >-
     We feel this in our own practice before we hear it argued. The manual commands fasting, watching,
-    labour, the psalms and the disclosure of thoughts; it blames the deserter; it tells the junior to
+    labor, the psalms and the disclosure of thoughts; it blames the deserter; it tells the junior to
     conquer his own wishes. Then, at the summit, it tells us what our will is: "this very free will of
     ours, which is more readily inclined to sin, is turned by Him to a better purpose." The will is the
-    thing that labours; the labouring is not its own. That is why a Massilian monk can say both that
+    thing that labors; the laboring is not its own. That is why a Massilian monk can say both that
     his will is anticipated by grace and that his fast is required of him.
   translational: >-
     'Did you believe people choose God by their own free will?' - we believed the will "always remains
@@ -151,7 +151,7 @@ Built from Doc_06 entry 009 (Tier 1, [CT] Meaning and Application; chunk gallicl
 Doc_03 5.2). Register emic. Quotations verified at locus by the build's own Doc_06 pass (including the
 "appear" -> "seem" correction at Conf. XIII.11); not re-read here. The relation to grace is typed
 presupposes, per the chunk's own Do-Not-Retrieve note ("this one presupposes that one"). Salvian and
-Augustine beyond rows 14-16 not cited, per licence.
+Augustine beyond rows 14-16 not cited, per license.
 
 Related-Terms also names beginning of a good will, co-operation, merit, perseverance,
 predestination, Pelagians as foil and Massilians - cross-batch at authoring time, added as relations

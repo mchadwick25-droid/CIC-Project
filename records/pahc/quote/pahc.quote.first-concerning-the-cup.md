@@ -16,8 +16,7 @@ confidence:
     Documented as the Didache's own text, from a manual whose date and place remain contested (see pahc.source.didache). What it evidences is the practice of the community that used it.
 sources:
 - source_id: pahc.source.didache
-  locus: >-
-    The Teaching of the Twelve Apostles, ch. IX.1-2, in the ANF (Riddle) translation (anf07_lactantius-apostolic-constitutions-didache-liturgies.xml); the edition's interleaved footnotes are removed from the text quoted here
+  locus: "The Teaching of the Twelve Apostles, ch. IX.1-2, in the ANF (Riddle) translation (cic/texts/anf07_lactantius-apostolic-constitutions-didache-liturgies.xml, lines 12960-12964); the edition's interleaved footnotes are removed from the text quoted here"
   license: public-domain
 text: >-
   Now concerning the Thanksgiving (Eucharist), thus give thanks. First, concerning the cup: We thank thee, our Father, for the holy vine of David Thy servant, which Thou madest known to us through Jesus Thy Servant; to Thee be the glory for ever.

@@ -1,0 +1,184 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "alx.dw.record"
+   ],
+   "sentence": "Our account stands on our own books, which survive, are public, and were public from the start, so much of it can be checked against named works."
+  },
+  {
+   "record_ids": [
+    "alx.dw.record"
+   ],
+   "sentence": "Origen answered Celsus by name, point by point, in the open."
+  },
+  {
+   "record_ids": [
+    "alx.dw.record"
+   ],
+   "sentence": "Dionysius weighed the Apocalypse's authorship by its style, and Origen compared manuscript readings."
+  },
+  {
+   "record_ids": [
+    "alx.dw.record"
+   ],
+   "sentence": "We do not claim that ancient testimony meets modern historians' standards."
+  },
+  {
+   "record_ids": [
+    "alx.dw.record"
+   ],
+   "sentence": "Much of what survives comes through one later historian's selection."
+  },
+  {
+   "record_ids": [
+    "alx.contested.didaskaleion-institution"
+   ],
+   "sentence": "The claim of a formal school with an unbroken line of heads from Pantaenus onward is contested, and rests almost entirely on Eusebius."
+  },
+  {
+   "record_ids": [
+    "alx.contested.didaskaleion-institution"
+   ],
+   "sentence": "What is well attested is a teaching tradition."
+  },
+  {
+   "record_ids": [
+    "alx.dw.record"
+   ],
+   "sentence": "Those who could not write left almost nothing."
+  },
+  {
+   "record_ids": [
+    "alx.term.logikos"
+   ],
+   "sentence": "The wider view built on logikos is contested, and so is whether it was Origen's own."
+  }
+ ],
+ "citations": [
+  "alx.contested.didaskaleion-institution",
+  "alx.dw.record",
+  "alx.term.logikos"
+ ],
+ "group": "A",
+ "id": "q009",
+ "net_sentences": [
+  {
+   "draft": "Our account stands on our own books, which survive, are public, and were public from the start, so much of it can be checked against named works [[alx.dw.record]] [[as:paraphrase]].",
+   "sentence": "Our account stands on our own books, which survive, are public, and were public from the start, so much of it can be checked against named works.",
+   "tags": [
+    "alx.dw.record"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Origen answered Celsus by name, point by point, in the open [[alx.dw.record]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "Origen answered Celsus by name, point by point, in the open.",
+   "tags": [
+    "alx.dw.record"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "Dionysius weighed the Apocalypse's authorship by its style, and Origen compared manuscript readings [[alx.dw.record]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "Dionysius weighed the Apocalypse's authorship by its style, and Origen compared manuscript readings.",
+   "tags": [
+    "alx.dw.record"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "We do not claim that ancient testimony meets modern historians' standards [[alx.dw.record]] [[as:paraphrase]].",
+   "sentence": "We do not claim that ancient testimony meets modern historians' standards.",
+   "tags": [
+    "alx.dw.record"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Much of what survives comes through one later historian's selection [[alx.dw.record]] [[as:paraphrase]].",
+   "sentence": "Much of what survives comes through one later historian's selection.",
+   "tags": [
+    "alx.dw.record"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "The claim of a formal school with an unbroken line of heads from Pantaenus onward is contested, and rests almost entirely on Eusebius [[alx.contested.didaskaleion-institution]] [[as:paraphrase]].",
+   "ratio": 0.92,
+   "sentence": "The claim of a formal school with an unbroken line of heads from Pantaenus onward is contested, and rests almost entirely on Eusebius.",
+   "tags": [
+    "alx.contested.didaskaleion-institution"
+   ],
+   "verdict": "ok",
+   "why": "grounded 92% in own tagged records"
+  },
+  {
+   "draft": "What is well attested is a teaching tradition [[alx.contested.didaskaleion-institution]] [[as:paraphrase]].",
+   "sentence": "What is well attested is a teaching tradition.",
+   "tags": [
+    "alx.contested.didaskaleion-institution"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Those who could not write left almost nothing [[alx.dw.record]] [[as:paraphrase]].",
+   "sentence": "Those who could not write left almost nothing.",
+   "tags": [
+    "alx.dw.record"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "The wider view built on logikos is contested, and so is whether it was Origen's own [[alx.term.logikos]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "The wider view built on logikos is contested, and so is whether it was Origen's own.",
+   "tags": [
+    "alx.term.logikos"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  }
+ ],
+ "offered": [
+  "alx.dw.record",
+  "alx.term.pistis",
+  "alx.story.arsinoite-conference",
+  "alx.quote.dionysius-too-high-for-me-to-grasp",
+  "alx.force.gnostic-challenge",
+  "alx.contested.didaskaleion-institution",
+  "alx.dw.god",
+  "alx.term.gnosis",
+  "alx.term.logikos",
+  "alx.term.autexousia",
+  "alx.quote.clement-schoolmaster",
+  "alx.gravity.logos-unity"
+ ],
+ "raw_text": "Our account stands on our own books, which survive, are public, and were public from the start, so much of it can be checked against named works [[alx.dw.record]] [[as:paraphrase]]. Origen answered Celsus by name, point by point, in the open [[alx.dw.record]] [[as:paraphrase]]. Dionysius weighed the Apocalypse's authorship by its style, and Origen compared manuscript readings [[alx.dw.record]] [[as:paraphrase]]. We do not claim that ancient testimony meets modern historians' standards [[alx.dw.record]] [[as:paraphrase]]. Much of what survives comes through one later historian's selection [[alx.dw.record]] [[as:paraphrase]]. The claim of a formal school with an unbroken line of heads from Pantaenus onward is contested, and rests almost entirely on Eusebius [[alx.contested.didaskaleion-institution]] [[as:paraphrase]]. What is well attested is a teaching tradition [[alx.contested.didaskaleion-institution]] [[as:paraphrase]]. Those who could not write left almost nothing [[alx.dw.record]] [[as:paraphrase]]. Rural and Coptic-speaking Egypt is thin, and the Arsinoite villagers appear only in their bishop's own account [[alx.story.arsinoite-conference]] [[as:paraphrase]]. The wider view built on logikos is contested, and so is whether it was Origen's own [[alx.term.logikos]] [[as:paraphrase]].\n",
+ "reply_shape": {
+  "placed": [],
+  "removed": [
+   {
+    "draft": "Rural and Coptic-speaking Egypt is thin, and the Arsinoite villagers appear only in their bishop's own account [[alx.story.arsinoite-conference]] [[as:paraphrase]].",
+    "sentence": "Rural and Coptic-speaking Egypt is thin, and the Arsinoite villagers appear only in their bishop's own account.",
+    "why": "tells an offered story without placing it"
+   }
+  ],
+  "repaired": []
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": "C16.S2",
+ "text": "Our account stands on our own books, which survive, are public, and were public from the start, so much of it can be checked against named works. Origen answered Celsus by name, point by point, in the open. Dionysius weighed the Apocalypse's authorship by its style, and Origen compared manuscript readings. We do not claim that ancient testimony meets modern historians' standards. Much of what survives comes through one later historian's selection. The claim of a formal school with an unbroken line of heads from Pantaenus onward is contested, and rests almost entirely on Eusebius. What is well attested is a teaching tradition. Those who could not write left almost nothing. The wider view built on logikos is contested, and so is whether it was Origen's own.",
+ "voice_set_aside": false
+}

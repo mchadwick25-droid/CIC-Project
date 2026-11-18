@@ -1,0 +1,21 @@
+source_file: foote_brand-plucked-from-the-fire_1879.txt
+assignments:
+- row_id: foote_brand-plucked-from-the-fire_1879--a-brand-plucked-from-the-fire-an-autobiographical-sketch
+  work: 'A Brand Plucked from the Fire: an autobiographical sketch'
+  author: foote
+  locus: the whole volume; not mapped
+  atlas_ids:
+  - the-black-church-in-america
+  role: tradition
+  confidence: provisional
+  language: eng
+  date:
+    start: 1879
+    end: 1879
+    source: 'the printing''s own title page: line 62, on the title page'
+    formation_confidence: Documented
+  edition_date:
+    year: 1879
+    source: line 62, on the title page
+    formation_confidence: Documented
+  note: 'Era 9 row 232, Julia Foote: A Brand Plucked from the Fire.'

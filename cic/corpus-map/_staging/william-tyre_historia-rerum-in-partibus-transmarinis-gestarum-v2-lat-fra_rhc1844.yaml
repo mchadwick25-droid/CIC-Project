@@ -1,0 +1,20 @@
+source_file: william-tyre_historia-rerum-in-partibus-transmarinis-gestarum-v2-lat-fra_rhc1844.txt
+assignments:
+- row_id: william-tyre_historia-rerum-in-partibus-transmarinis-gestarum-v2-lat-fra_rhc1844--william-of-tyre-historia-books-xvi-xxiii-rhc-occ-i-part-2
+  work: William of Tyre, Historia, books XVI-XXIII (RHC Occ. I, part 2)
+  author: william-tyre
+  locus: the whole volume; the Maronite union in book XXII from about OCR line 26903; add 12 to OCR line numbers
+  atlas_ids:
+  - latin-church-of-outremer
+  role: tradition
+  confidence: provisional
+  note: The second half of the history, written inside this window.
+- row_id: william-tyre_historia-rerum-in-partibus-transmarinis-gestarum-v2-lat-fra_rhc1844--william-of-tyre-the-maronite-union-of-about-1182-book-xxii
+  work: William of Tyre, the Maronite union of about 1182 (book XXII)
+  author: william-tyre
+  locus: book XXII, from about OCR line 26903; add 12 to OCR line numbers
+  atlas_ids:
+  - maronite-christianity
+  role: context
+  confidence: provisional
+  note: A Latin archbishop's account of the Maronite union, from outside the Maronite church.

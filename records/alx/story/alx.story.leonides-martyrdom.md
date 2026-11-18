@@ -61,6 +61,33 @@ use_note:
     - "treating Eusebius's report as first-person testimony"
   years: {from: 202, to: 203}
   status: reviewed
+reading_card:
+  setting: Eusebius, writing at Caesarea about a century later, on Origen's boyhood.
+  source_says: Leonides was jailed under Severus. Origen's mother hid his clothes to stop him seeking
+    death, so he wrote urging his father not to waver.
+  historians_conclude:
+    text: The persecutions are documented, but Leonides's particulars rest on Eusebius alone and are carried
+      lightly.
+    confidence: Contested
+  contributes: It shows persecution costing a family its father and property.
+  whose_view: Eusebius's narrative, from letters and people who knew Origen; not first-person testimony.
+  open: Eusebius praises the boy's zeal and credits Providence for stopping him. The mother is unnamed.
+  reads_differently_today: A teenager's wish to die may sound like a crisis. Here his mother stops it,
+    and the tradition elsewhere condemns rushing on death.
+  complicated_by:
+  - alx.quote.clement-rash-martyrdom
+  - alx.limit.f5-women-own-words
+  sources:
+    setting: alx.story.leonides-martyrdom, narrative_tier_justification; Build/worlds/alx/Doc_02_Source_Ecology.md
+      §3.6
+    source_says: alx.source.eusebius-historia-ecclesiastica, HE VI.2.2-6, npnf201 lines 32520-32565
+    historians_conclude: Build/worlds/alx/Doc_09_Story_Inventory.md §2 (alexstory003); Doc_08_Forces_Document.md
+      2A-3
+    contributes: alx.force.persecution; alx.gravity.martyrdom-contemplative-tension
+    whose_view: alx.source.eusebius-historia-ecclesiastica, HE VI.2.1, npnf201 lines 32514-32518
+    open: alx.source.eusebius-historia-ecclesiastica, HE VI.2.4-6 and McGiffert's note, npnf201 lines
+      32545-32565; alx.story.leonides-martyrdom, absent_detail
+    reads_differently_today: alx.story.leonides-martyrdom, modern_contrast
 ---
 Serves F5-P (did belonging cost you - family, standing: it cost this
 family a father and its property) and F3-I (was it actually dangerous:

@@ -21,7 +21,7 @@
 | **2** (6 terms) | Monasterium duplex, Xenodochium, Praeceptor, Peregrinatio, Epitaphium, Bibliotheca | Complete entry inline below; standalone chunk deferred |
 | **3** (2 terms) | Scriptorium, Propositum | Quick Meaning inline below; standalone chunk deferred |
 
-**CT (Contested Tradition) tags applied:** Origenism (live scholarly disagreement over doctrinal-vs-political motivation, per Doc_03 #11). Pelagianism considered for CT tagging but not applied at this stage — pending Doc_08's forces analysis, which may surface a specific contest type; noted as an open item, not silently decided either way.
+**CT (Contested Tradition) tags applied:** Origenism (live scholarly disagreement over doctrinal-vs-political motivation, per Doc_03 #11). Pelagianism considered for CT tagging but not applied at this stage — pending Doc_08's forces analysis, which may surface a specific contest type.
 
 ---
 
@@ -395,7 +395,7 @@
 
 **CT Contest Type check:** 1 term tagged CT (Origenism) — Contest Type "Meaning," completed above (Part A, entry 8), not left templated.
 
-**Related-Terms reciprocity check:** Nosocomium ↔ Xenodochium cross-reference each other reciprocally, correctly preventing conflation of two distinct institutions. **Most other links in this lexicon are genuinely one-directional, not reciprocal**, including: Vulgata → Epistula (no return link); Epistula → Hebraica veritas (no return); Origenism → Hebraica veritas and Origenism → Patrocinium (no returns); Exegesis-as-practiced-authority → Patrocinium (no return); Matrona → Renuntiatio (Renuntiatio does not list Matrona back). Hebraica veritas, Praefatio, and Grammaticus are related to each other only through Hebraica veritas as a common hub — Praefatio and Grammaticus do not reference each other directly, so no three-way mutual cluster exists among them. **This one-directional pattern is disclosed here as a known, unresolved characteristic of this lexicon's current state, not corrected term-by-term in this revision** — a full reciprocity pass (adding return links where genuinely warranted, or confirming a one-directional link is intentional because the relationship's relevance is asymmetric) is flagged as appropriate follow-up work, not completed here, so as not to silently claim a fix beyond what this revision actually verified.
+**Related-Terms reciprocity check:** Nosocomium ↔ Xenodochium cross-reference each other reciprocally, correctly preventing conflation of two distinct institutions. **Most other links in this lexicon are genuinely one-directional, not reciprocal**, including: Vulgata → Epistula (no return link); Epistula → Hebraica veritas (no return); Origenism → Hebraica veritas and Origenism → Patrocinium (no returns); Exegesis-as-practiced-authority → Patrocinium (no return); Matrona → Renuntiatio (Renuntiatio does not list Matrona back). Hebraica veritas, Praefatio, and Grammaticus are related to each other only through Hebraica veritas as a common hub — Praefatio and Grammaticus do not reference each other directly, so no three-way mutual cluster exists among them. **This one-directional pattern is a disclosed characteristic of this lexicon as it stands: the links are not corrected term by term.**
 
 ---
 

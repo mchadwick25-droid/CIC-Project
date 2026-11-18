@@ -1,0 +1,13 @@
+source_file: snow_biography-and-family-record-of-lorenzo-snow_1884.txt
+assignments:
+- row_id: snow_biography-and-family-record-of-lorenzo-snow_1884--snow-biography-of-lorenzo-snow
+  work: 'Eliza R. Snow Smith, Biography and Family Record of Lorenzo Snow (1884)'
+  author: snow
+  locus: 'chapters I-LXIII at OCR lines 996-24811; the supplement at 24812-29276; add 12 to OCR line numbers'
+  atlas_ids:
+  - latter-day-saints-lds
+  role: tradition
+  confidence: provisional
+  language: eng
+  date: {start: 1884, end: 1884, source: "title page: 1884", formation_confidence: Documented}
+  note: 'A Latter-day Saint woman writes her brother''s life from his journals and letters and her own memory. His letters and journal extracts are first-hand; name him when quoting them.'

@@ -42,9 +42,9 @@ contain this work.
 
 What the file actually holds: Budge's 1907 Preface and Introduction, the
 Syriac Life of Antony, and Palladius Book I, ending "Here endeth the
-first Book". Budge's Introduction summarises the contents of Books I AND
+first Book". Budge's Introduction summarizes the contents of Books I AND
 II and lists the Askêtikon among the Mosul manuscript's contents - which
-is what the catalogue description was drawn from - but Book II's text is
+is what the catalog description was drawn from - but Book II's text is
 not printed in the file supplied.
 
 So this source remains consult-only and unquotable, and the honest limit

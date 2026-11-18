@@ -20,6 +20,8 @@ assignments:
       - syriac-edessa-nisibis
     role: tradition
     confidence: assigned
+    locus_ids: [whole-file]
+    language: eng
     note: >
       The foundational origin legend of Edessene Christianity: the Abgar-Jesus
       correspondence, Addai's mission to Edessa, the founding of the church,

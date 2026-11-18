@@ -1,0 +1,12 @@
+source_file: ibn-battuta_voyages-v1-ara-fra_defremery-sanguinetti1853.txt
+assignments:
+- row_id: ibn-battuta_voyages-v1-ara-fra_defremery-sanguinetti1853--ibn-battuta-travels-vol-1-defremery-and-sanguinetti
+  work: 'Ibn Battuta, Travels, vol. 1 (Defremery and Sanguinetti)'
+  author: ibn-battuta
+  locus: 'the whole volume; not mapped'
+  atlas_ids:
+  - byzantine-church-palaiologan
+  - st-thomas-christians-1300-1517
+  role: context
+  confidence: assigned
+  note: 'A Muslim traveller of 1325-1354, an outside witness. Read in the editors'' French. Not read in depth; which volume holds Constantinople and Malabar was not checked.'

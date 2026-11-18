@@ -1,0 +1,13 @@
+source_file: dialogues-on-prophecy_v3_1829.txt
+assignments:
+- row_id: dialogues-on-prophecy_v3_1829--dialogues-on-prophecy-v3
+  work: 'Dialogues on Prophecy, vol. III: conversations 13-18 (1829)'
+  author: dialogues-on-prophecy
+  locus: 'the conversations at OCR lines 1519-20927; the preface at 83-1513; add 12 to OCR line numbers'
+  atlas_ids:
+  - catholic-apostolic-church-irvingites
+  role: antecedent
+  confidence: provisional
+  language: eng
+  date: {start: 1829, end: 1829, source: "title page: 'M. DCCC, XXIX,'; the preface is dated January 1829 (OCR line 1513)", formation_confidence: Documented}
+  note: 'The last volume of the conversations. The preface says the friends began to meet about three years before.'

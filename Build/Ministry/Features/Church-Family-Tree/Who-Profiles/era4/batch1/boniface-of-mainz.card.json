@@ -1,0 +1,121 @@
+{
+  "name": "Boniface of Mainz",
+  "otherNames": [
+    "Boniface",
+    "Wynfrith",
+    "Uinfridus",
+    "Bonifatius",
+    "Bonifacius"
+  ],
+  "knownFor": "English monk who preached in Frisia, Hesse and Thuringia and called English monks and nuns to help him. At the pope's command and the Frankish rulers' request, he wrote, he gathered a synod in the hope of restoring the law of Christ. Pagans killed him in Frisia in 754.",
+  "dates": "Born between 675 and 680, by Edward Kylie's reckoning; no older source used here gives the year. Killed in 754, the year the Royal Frankish Annals and the Continuation of Bede give. Kylie gives the day as 5 June, and the Bollandists give the Nones of June, the same day. He dates the first journey to Frisia to 716 and the coming to Rome to 718. He dates the consecration as bishop to 722 and the appointment as archbishop to 732",
+  "place": "Crediton by tradition, Kylie says, with the monastery at Exeter as his first school; Nursling, near Winchester; Frisia, Hesse and Thuringia; Mainz, whose archbishop the Royal Frankish Annals call him; Fulda, the monastery he founded, to which his body was carried from Utrecht; Dokkum in Frisia, where he was killed. Kylie spells it Docking, Altfrid's Life of Liudger Doceinga, and the Bollandists Dockum",
+  "tradition": "Anglo-Saxon Christianity",
+  "role": "Monk and teacher of the Bible at Nursling; missionary; bishop and archbishop; legate in Germany of the universal Church, as he called himself; reformer of the Frankish church",
+  "briefLength": "about 2 minutes 30 seconds",
+  "keyWorks": [
+    {
+      "title": "Letters to his English friends",
+      "about": "in Edward Kylie's English selection of 1911, made from Ernst Dümmler's text in the Monumenta Germaniae Historica. They ask for prayers, books and help. Among them are letters to Lioba, Tecla and Cynehilda, to Abbess Eadburga of Thanet, and to Egbert of York asking for the works of Bede"
+    },
+    {
+      "title": "Letter to all the English on the Saxons",
+      "about": "dated about 737 by Kylie. He asks them to pray that God would turn the hearts of the pagan Saxons. The Saxons themselves say, he writes, \"We are of one blood and one bone.\" Torhthelm, bishop of Leicester, answered with a gift and a promise of prayers"
+    },
+    {
+      "title": "Letter to Cuthbert, archbishop of Canterbury, after the synod of 747",
+      "about": "sends the synod's rules. They include a profession of unity with the Roman church and a synod every year. Every priest is to give an account each Easter, and each bishop is to go round his diocese against pagan practices. It adds advice on checking women's pilgrimages to Rome and on monasteries ruled by laymen"
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "Cuthbert, archbishop of Canterbury, wrote to Boniface's helper Lul that an English synod had fixed the day of his martyrdom as a yearly feast. They would seek him as patron alongside Gregory the Great and Augustine of Canterbury.",
+      "Kylie writes that Lul was to follow him at Mainz and complete the church at Fulda. Lioba was to stay at her work in Germany and be buried beside him.",
+      "Altfrid's Life of Liudger says Liudger was taught by Gregory of Utrecht, the disciple and successor of Boniface the martyr.",
+      "Alcuin of York wrote verses for the church that Liudger built where Boniface and his companions were killed. Altfrid gives them in his Life of Liudger.",
+      "The revised Royal Frankish Annals tell of the year 774. Saxons tried to burn the church at Fritzlar that Boniface had dedicated, and fled in sudden fear."
+    ],
+    "remembered": [
+      "Milret, bishop of Worcester, wrote to Lul that Boniface was now \"the glory and support of all those sprung from this land.\"",
+      "The Continuation of Bede, in Charles Plummer's edition, records under 754 that Boniface, also called Wynfrith, bishop of the Franks, was martyred with fifty-three others.",
+      "Edward Kylie ranks him with those who uphold tradition and law against those who question authority. He notes that Clemens the Scot and Virgil, a Celt in Bavaria, both fell under his ban.",
+      "The Roman Breviary in the Marquess of Bute's English gives a prayer from the diocese of Plymouth. It names the zeal of Boniface as the means by which God caused many peoples to know his Name."
+    ]
+  },
+  "uncertain": [
+    "Edward Kylie's modern account is the main witness for his early life. Among the sources used here, Kylie alone gives his birth years, his first school and his Latin name in Rome. He alone tells of the oak at Geismar and the scene of his death. The Life of Boniface ascribed to Willibald is not among these sources. The Bollandists quote one phrase of it in a note.",
+    "His death. The Royal Frankish Annals say pagans killed him in Frisia as he preached, in 754. The Continuation of Bede gives the same year. The Bollandists report that some put it in 755, and follow the annals for 754.",
+    "Archbishop. Kylie dates his appointment as archbishop to 732. He also writes that Boniface was chosen archbishop at the first Frankish synod. The decree of 742 by Carloman, prince of the Franks, says he set Archbishop Boniface over the bishops of the cities.",
+    "His see. Kylie writes that a plan to make him archbishop of Cologne was dropped, and that he was left to run the diocese of Mainz. The Royal Frankish Annals call him archbishop of Mainz.",
+    "His birthplace. Kylie gives Crediton only as tradition, and says there can be little doubt that the monastery at Exeter was his first school.",
+    "His name. He is a different man from the popes named Boniface."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "The English Correspondence of Saint Boniface, translated by Edward Kylie",
+        "author": "Boniface",
+        "date": "1911",
+        "language": "English",
+        "file": "cic/texts/boniface_english-correspondence_kylie1911.txt"
+      },
+      {
+        "title": "Letter to Pope Zacharias, quoted in the headnote to Carloman's capitulary of 742, MGH Capitularia regum Francorum 1",
+        "author": "Boniface",
+        "language": "Latin",
+        "file": "cic/texts/capitulatio-de-partibus-saxoniae_pertz1881.txt"
+      }
+    ],
+    "about": [
+      {
+        "title": "Introduction to The English Correspondence of Saint Boniface",
+        "author": "Edward Kylie",
+        "date": "1911",
+        "language": "English",
+        "file": "cic/texts/boniface_english-correspondence_kylie1911.txt"
+      },
+      {
+        "title": "Letters of Cuthbert of Canterbury and Milret of Worcester to Lul, in Kylie's translation",
+        "language": "English",
+        "file": "cic/texts/boniface_english-correspondence_kylie1911.txt"
+      },
+      {
+        "title": "Capitulary of Carloman, 742, in Capitularia regum Francorum 1, ed. Alfred Boretius",
+        "date": "1883",
+        "language": "Latin",
+        "file": "cic/texts/capitulatio-de-partibus-saxoniae_pertz1881.txt"
+      },
+      {
+        "title": "Royal Frankish Annals, ed. Friedrich Kurze",
+        "date": "1895",
+        "language": "Latin",
+        "file": "cic/texts/annales-regni-francorum_kurze1895.txt"
+      },
+      {
+        "title": "Continuation of Bede, in Bede's Historical Works, ed. Charles Plummer",
+        "date": "1896",
+        "language": "Latin",
+        "file": "cic/texts/bede_opera-historica-v1-historia-abbatum-lat_plummer1896.txt"
+      },
+      {
+        "title": "Life of Liudger, with the Bollandists' notes, in Acta Sanctorum, March 3",
+        "author": "Altfrid of Münster",
+        "date": "1865",
+        "language": "Latin",
+        "file": "cic/texts/acta-sanctorum_martii-tomus-3-lat-grc_palme1865.txt"
+      },
+      {
+        "title": "Verses on the church of Saint Liudger, in Patrologia Latina 101",
+        "author": "Alcuin of York",
+        "language": "Latin",
+        "file": "cic/texts/alcuin_opera-omnia-letters_migne-pl100-101_1863.txt"
+      },
+      {
+        "title": "The Roman Breviary, translated by the Marquess of Bute",
+        "date": "1908",
+        "language": "English",
+        "file": "cic/texts/roman-breviary_bute1908.txt"
+      }
+    ]
+  }
+}

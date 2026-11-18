@@ -26,6 +26,7 @@ work: 'Histoire litteraire de l''Afrique chretienne depuis les origines jusqu''a
 edition: 'Paris: Editions Ernest Leroux, 1922; vendored as cic/texts/monceaux_histoire-litteraire-afrique-chretienne-tome6_1922.txt'
 citation: 'Paul Monceaux, Histoire litteraire de l''Afrique chretienne depuis les origines jusqu''a l''invasion arabe, Tome VI: La Litterature Donatiste au temps de saint Augustin (Paris: Editions Ernest Leroux, 1922)'
 kind: vendored
+shelf_row: monceaux_histoire-litteraire-afrique-chretienne-tome6_1922--histoire-litteraire-de-l-afrique-chretienne-tome-vi-la
 rights_status: "public-domain; vendored, identity and provenance directly confirmed (the vendored file's own provenance header states Public Domain)"
 attribution_status: attributed. Dated 1922 from the title page, with the same catalog-date caveat as Tome
   IV (Registry row 52).

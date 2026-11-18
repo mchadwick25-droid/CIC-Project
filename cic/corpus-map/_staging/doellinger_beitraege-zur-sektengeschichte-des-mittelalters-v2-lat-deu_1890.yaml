@@ -1,0 +1,12 @@
+source_file: doellinger_beitraege-zur-sektengeschichte-des-mittelalters-v2-lat-deu_1890.txt
+assignments:
+- row_id: doellinger_beitraege-zur-sektengeschichte-des-mittelalters-v2-lat-deu_1890--d-llinger-beitr-ge-zur-sektengeschichte-ii-documents-on-the-wald
+  work: 'Döllinger, Beiträge zur Sektengeschichte II: documents on the Waldensians and Cathars'
+  author: doellinger
+  locus: the whole volume
+  atlas_ids:
+  - the-waldensians
+  - cathars-albigensians
+  role: context
+  confidence: provisional
+  note: A collection of the inquisitors' and chroniclers' documents on both movements, edited in 1890.

@@ -1,0 +1,121 @@
+{
+  "name": "Photius of Constantinople",
+  "knownFor": "Patriarch of Constantinople, raised from layman to patriarch, twice deposed and twice in office. He wrote against the Latin addition to the Creed, and his Library sums up 279 books.",
+  "dates": "Patriarch 858 to 867 and again 878 to 886, by J. H. Freese's list of patriarchs. Brought before the council of Constantinople on 20 October 869, by the date of its fifth session. Received at a council with Pope John VIII's legates in 879. Sent by Leo VI to the monastery of Gordon, where he died, Symeon the Logothete says. Cornelius Will dates his death to 891",
+  "place": "Constantinople, as chief secretary at court and as patriarch. Symeon the Logothete places his first exile at the monastery called Skepe, and his death at the monastery of Gordon",
+  "tradition": "The Byzantine Imperial Church (Macedonian Era)",
+  "role": "Court official, scholar and patriarch; writer against the Latins on the Creed",
+  "briefLength": "about 2 minutes 30 seconds",
+  "keyWorks": [
+    {
+      "title": "The Library (Bibliotheca, or Myriobiblon)",
+      "about": "summaries of 279 books he had read, written for Tarasius, whom he calls his beloved brother. He wrote it after his appointment as ambassador \"to Assyria\". J. H. Freese's note, citing J. B. Bury, takes this to mean the caliph of Baghdad"
+    },
+    {
+      "title": "Letter to the patriarchs of the East",
+      "about": "against the customs of the Latins, and above all the teaching that the Spirit proceeds from the Son as well. Cornelius Will prints a passage in Latin and dates the letter to 866"
+    },
+    {
+      "title": "On the Mystagogy of the Holy Spirit",
+      "about": "his book on the procession of the Spirit. Cornelius Will dates it to 885 and thinks it seems to be his last and most finished work"
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "In 879 the council that received Photius cursed anyone who added to the Creed or took from it. Its own acts say so, and so does Nilus of Rhodes.",
+      "Nilus also quotes a letter of Pope John VIII to Photius. In it the pope says Rome keeps the Creed as it was handed down, adding nothing and taking nothing away.",
+      "Cornelius Will says later defenders of the split between the churches often drew on his Mystagogy, and so did those who worked for union.",
+      "Severinus Binius, whose notes Mansi prints, holds that Photius corrupted John VIII's letters, and that the true letters are kept in the Vatican library."
+    ],
+    "remembered": [
+      "Nicetas the Paphlagonian, in his Life of Ignatius, patriarch of Constantinople, calls him the first scholar of his age. He says Photius read through whole nights for love of glory.",
+      "The Lives of the Popes, in Louis Duchesne's edition, call him the invader of the see. At Rome, Hadrian II's Life says, John, metropolitan of Caesarea in Cappadocia, threw Photius's book against Pope Nicholas to the ground.",
+      "The chronicle that continues Theophanes praises his wisdom and learning. It says Basil gave him rooms in the palace and made him tutor of his children.",
+      "In Hadrian II's Life, Basil's envoy, his sword-bearer, says the book falsely carried Basil's signature after Michael's. He says Photius had got the drunken Michael to sign at night."
+    ]
+  },
+  "uncertain": [
+    "The record of his trial in 869 comes from the council that condemned him, in the Latin of Anastasius, librarian of the Roman see. Louis Duchesne says Anastasius was at its last session.",
+    "His witnesses take sides. Nicetas the Paphlagonian wrote the Life of Photius's rival Ignatius. The Lives of the Popes call Photius an invader, and Severinus Binius calls his council of 879 a false synod.",
+    "The chronicle that continues Theophanes praises Basil, who restored him. Symeon the Logothete tells a hostile story that Photius won Basil back with a forged family tree.",
+    "Why Basil put him out. Symeon says Photius called Basil a robber and a murderer, unworthy of communion, and that Basil then sought Rome's ruling. The Life of Pope Hadrian II says Basil drove him out by the Roman church's ruling. Cornelius Will gives Basil's taking of the throne as the turn.",
+    "The council of 879. Severinus Binius calls it a false synod. He quotes Cardinal Bellarmine, who holds either that the whole story was invented or that the Greeks forged most of its acts.",
+    "Binius does not deny that John VIII restored Photius after Ignatius's death. The council's own acts, in Mansi, curse anyone who adds to the Creed or takes from it. An unsigned note printed with them says Photius made up the last two sessions himself, with their decree on the Creed. Nilus of Rhodes, whom Mansi's heading calls a schismatic, reports the same decree.",
+    "Cornelius Will says Photius misled John VIII about what the council decreed, and that the pope then cursed him publicly. He says Popes Marinus, Hadrian III and Stephen V repeated it.",
+    "His embassy \"to Assyria\". J. H. Freese's note, citing J. B. Bury, takes it to mean the caliph of Baghdad. It adds that others take it as Persia or one of the eastern emirs.",
+    "Tarasius. Photius calls him his beloved brother. The held sources used here do not say whether they were brothers by birth.",
+    "His birth year. None of the sources on this card gives it. Cornelius Will dates his death to 891. Symeon the Logothete gives no year."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "The Library of Photius, volume 1, with the letter to Tarasius (tr. J. H. Freese)",
+        "author": "Photius",
+        "date": "1920",
+        "language": "English translation",
+        "file": "cic/texts/photius_library-v1_freese1920.txt"
+      },
+      {
+        "title": "Letter to the patriarchs of the East, as Cornelius Will prints it in Latin in Acta et scripta de controversiis ecclesiae Graecae et Latinae",
+        "author": "Photius",
+        "language": "Latin translation",
+        "file": "cic/texts/will_acta-et-scripta-de-controversiis-ecclesiae-graecae-et-latinae-saec-xi-grc-lat_1861.txt"
+      },
+      {
+        "title": "His replies at the fifth session of the council of Constantinople, 869, in Mansi, Sacrorum conciliorum collectio, volume 16",
+        "author": "Photius",
+        "language": "Latin and Greek",
+        "file": "cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-16-lat_welter-facsimile1902.txt"
+      }
+    ],
+    "about": [
+      {
+        "title": "Acts of the council of Constantinople, 869 to 870, in Anastasius's Latin and in the Greek, with Nicetas's Life of Ignatius, in Mansi volume 16",
+        "language": "Latin and Greek",
+        "file": "cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-16-lat_welter-facsimile1902.txt"
+      },
+      {
+        "title": "Letters of Pope Nicholas I and the councils of 855 to 868, in Mansi volume 15",
+        "language": "Latin and Greek",
+        "file": "cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-15-lat_welter-facsimile1902.txt"
+      },
+      {
+        "title": "The council of 879 to 880, with Severinus Binius's notes and Nilus of Rhodes's account, in Mansi volume 17",
+        "language": "Latin and Greek",
+        "file": "cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-17-18-lat_welter-facsimile1902.txt"
+      },
+      {
+        "title": "Life of Ignatius, patriarch of Constantinople",
+        "author": "Nicetas David the Paphlagonian",
+        "language": "Greek, with Latin translation",
+        "file": "cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-16-lat_welter-facsimile1902.txt"
+      },
+      {
+        "title": "Chronicle, on Basil I and Leo VI, in Patrologia Graeca 109",
+        "author": "Symeon the Logothete",
+        "language": "Greek, with Latin translation",
+        "file": "cic/texts/theophanes-continuatus_historiae-byzantinae-scriptores-post-theophanem-pg109-grc-lat_migne1863.txt"
+      },
+      {
+        "title": "The chronicle that continues Theophanes, books IV and V, in Patrologia Graeca 109",
+        "author": "Theophanes Continuatus",
+        "language": "Greek, with Latin translation",
+        "file": "cic/texts/theophanes-continuatus_historiae-byzantinae-scriptores-post-theophanem-pg109-grc-lat_migne1863.txt"
+      },
+      {
+        "title": "Liber Pontificalis, volume 2, the Lives of Nicholas I and Hadrian II, with the editor's notes",
+        "author": "Louis Duchesne (ed.)",
+        "date": "1892",
+        "language": "Latin, with French notes",
+        "file": "cic/texts/liber-pontificalis_texte-introduction-commentaire-t2-lat-fra_duchesne1892.txt"
+      },
+      {
+        "title": "Acta et scripta de controversiis ecclesiae Graecae et Latinae, introduction",
+        "author": "Cornelius Will",
+        "date": "1861",
+        "language": "Latin",
+        "file": "cic/texts/will_acta-et-scripta-de-controversiis-ecclesiae-graecae-et-latinae-saec-xi-grc-lat_1861.txt"
+      }
+    ]
+  }
+}

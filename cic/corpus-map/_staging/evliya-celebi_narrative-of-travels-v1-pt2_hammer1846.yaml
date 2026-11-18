@@ -1,0 +1,11 @@
+source_file: evliya-celebi_narrative-of-travels-v1-pt2_hammer1846.txt
+assignments:
+- row_id: evliya-celebi_narrative-of-travels-v1-pt2_hammer1846--evliya-efendi-narrative-of-travels-volume-i-part-2-von-hammer
+  work: 'Evliya Efendi, Narrative of Travels, volume I, part 2 (von Hammer)'
+  author: evliya-celebi
+  locus: 'the whole volume; not mapped'
+  atlas_ids:
+  - orthodoxy-under-the-ottomans-parish-millet-and-n
+  role: context
+  confidence: assigned
+  note: "An Ottoman traveler of the seventeenth century, by the title page, in a translator's English; an outside witness. No census entry is the Ottoman state, so the work sits on this entry."

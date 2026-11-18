@@ -16,7 +16,7 @@ confidence:
     disputed doctrine against conciliar authority.
 sources:
 - source_id: gallic.source.vincent-commonitory
-  locus: "Commonitory ch. 3 [8] (npnf211 div iii.iv, file lines 12218-12220): the rule for what to prefer when error appears even in antiquity"
+  locus: "Commonitory ch. 3 [8] (cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml, lines 12218-12220; div iii.iv): the rule for what to prefer when error appears even in antiquity"
   license: public-domain
 retrieval:
   tier: 2

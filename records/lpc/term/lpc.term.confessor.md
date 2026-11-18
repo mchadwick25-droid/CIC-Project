@@ -38,12 +38,17 @@ confidence:
     carries this sense -- this term belongs to Cyprian''s phase and does not cross into Augustine''s.'
 sources:
 - source_id: lpc.source.cyprian-epistles
-  locus: the Epistles are the primary evidence, including Epistles XX-XXI, whose own title-line the Registry
-    gives as 'the confessors'
+  locus: the Epistles are the primary evidence, including Epistles XX-XXI, whose own title-line the
+    Registry gives as 'the confessors'; Epistle XVI, the confessors to Cyprian -- 'we have granted peace;
+    and we have desired that this rescript should be made known by you to the other bishops also'; verified
+    directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 30386-30391; Latin
+    at cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt, lines 3389-3391
   license: public-domain
 - source_id: lpc.source.cyprian-de-lapsis
   locus: De Lapsis 2 -- 'We look with glad countenances upon confessors illustrious with the heraldry
-    of a good name... The white-robed cohort of Christ's soldiers is here'
+    of a good name... The white-robed cohort of Christ's soldiers is here'; verified directly against
+    cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 43650-43661; Latin at cic/texts/cyprian_de-lapsis-lat_hartel1868-csel3-tei.txt,
+    lines 124-131 and 142
   license: public-domain
 retrieval:
   tier: 1
@@ -66,7 +71,7 @@ false_friend:
 senses:
   informational: 'You were taken, you were asked, and you did not say what they wanted. Then, unlike the
     others, you came back. Everyone knows which of us it is, because it happened where people could see.
-    What follows is not a quiet honour -- it is a claim. Someone who stood in front of a magistrate and
+    What follows is not a quiet honor -- it is a claim. Someone who stood in front of a magistrate and
     held will not easily accept that they have nothing to say about the ones who did not hold, so they
     write letters naming a lapsed person who may come back, and the people named expect to be received.
     Against that stands the conviction that the church''s own peace is not any one person''s to give out
@@ -85,6 +90,12 @@ senses:
     opposite direction entirely: not one who hears confession, but one who made confession, under interrogation,
     at real risk, and survived. The word names what was done to us and what we did not say, and it carries
     a claim on the church''s own decisions rather than an office within its ministry.'
+  heard_today: A modern listener will almost certainly hear 'confessor' as a priest who hears confessions
+    -- the later, Western, sacramental sense -- or a vague honorific for a saintly figure.
+  meant_here: 'We mean the opposite direction entirely: not one who hears confession, but one who made
+    confession, under interrogation, at real risk, and survived. The word names what was done to us
+    and what we did not say, and it carries a claim on the church''s own decisions rather than an office
+    within its ministry.'
 quick_meaning: For us, a confessor is someone who was asked to deny the faith, did not, and lived. In
   Cyprian's time, that standing could rival a bishop.
 ---

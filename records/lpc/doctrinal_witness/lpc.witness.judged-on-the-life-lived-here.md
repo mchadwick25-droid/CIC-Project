@@ -86,6 +86,6 @@ text: Augustine taught that a person is judged on the life he lived here. He wro
   pass through "a kind of purgatorial fire" after death. He said this "may be inquired into, and either
   ascertained or left doubtful." He added that it could not help those who "shall not inherit the kingdom
   of God" unless "after suitable repentance their sins be forgiven them." In these words he left the matter
-  open. We do not claim a settled doctrine of purgatory for Augustine.
+  open.
 ---
 Grounded directly in Augustine, Enchiridion, chapters 69, 70 and 110 (chapters LXIX, LXX and CX in the Latin) -- verified against the vendored files at the lines above. The quoted phrases are the NPNF English word for word. "Something of the same kind" at the start of chapter 69 looks back to chapter 68, where a believer who loses what he loved is saved "so as by fire." The Latin behind "left doubtful" is latere, to lie hidden. The Latin is OCR text with misreads. No year for the Enchiridion is stated here, and none is stated by the vendored sources for this world. Cyprian's own teaching on almsgiving is at lpc.witness.almsgiving-quenches-sin.

@@ -12,7 +12,7 @@ use_note:
   not_for:
     - "a claim that nothing happened in those years"
     - "a claim that the silence is settled, since a handful of old sermons have not been weighed yet"
-    - "a claim that fills the silence from a neighbouring communion's sources"
+    - "a claim that fills the silence from a neighboring communion's sources"
     - "a claim that no Catholic African writing survives from these years, since Optatus wrote against the Donatists c. 366 to 384"
   years: {from: 258, to: 391}
   status: reviewed

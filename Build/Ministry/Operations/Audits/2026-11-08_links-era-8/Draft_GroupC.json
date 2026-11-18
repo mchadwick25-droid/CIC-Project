@@ -1,0 +1,1598 @@
+{
+ "group": "C",
+ "movements": [
+  "port-royal-jansenism",
+  "quietist-controversy-molinos-guyon",
+  "church-of-utrecht",
+  "camisard-prophetism",
+  "church-of-the-desert-huguenots"
+ ],
+ "dispositions": [
+  {
+   "movement": "port-royal-jansenism",
+   "field": "relationsSummary",
+   "sentence": "Augustine's long shadow inside the Tridentine church",
+   "other_id": "latin-pastoral-congregational-christianity",
+   "disposition": "link",
+   "link_id": "latin-pastoral-congregational-christianity--port-royal-jansenism",
+   "prose_change": null,
+   "reason": "Augustine has no entry; the Latin pastoral church of Cyprian and Augustine is his world. Documented: Jansen's book was named Augustinus and Pascal defends Arnauld's Augustinian grace."
+  },
+  {
+   "movement": "port-royal-jansenism",
+   "field": "relationsSummary",
+   "sentence": "Augustine's long shadow inside the Tridentine church",
+   "other_id": "the-tridentine-church",
+   "disposition": "not-a-relationship",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "'Inside the Tridentine church' places the movement inside the Catholic Church of its day; no separate relationship is claimed. Rome's acts against it are carried by the Ancien Régime link."
+  },
+  {
+   "movement": "port-royal-jansenism",
+   "field": "longDescription",
+   "sentence": "Port-Royal was a Cistercian convent outside Paris, reformed into severity by a young abbess, Angélique Arnauld, and it became the center of a movement that read Augustine on grace harder than the Jesuits or the French crown could tolerate.",
+   "other_id": "latin-pastoral-congregational-christianity",
+   "disposition": "link",
+   "link_id": "latin-pastoral-congregational-christianity--port-royal-jansenism",
+   "prose_change": null,
+   "reason": "Same Augustine link."
+  },
+  {
+   "movement": "port-royal-jansenism",
+   "field": "longDescription",
+   "sentence": "Port-Royal was a Cistercian convent outside Paris, reformed into severity by a young abbess, Angélique Arnauld, and it became the center of a movement that read Augustine on grace harder than the Jesuits or the French crown could tolerate.",
+   "other_id": "the-society-of-jesus",
+   "disposition": "link",
+   "link_id": "the-society-of-jesus--port-royal-jansenism",
+   "prose_change": null,
+   "reason": "'Harder than the Jesuits could tolerate' is the Jesuits' opposition: Angélique Arnauld (1643) on Jesuit preaching against Jansen, and Meynier's 1656 book."
+  },
+  {
+   "movement": "port-royal-jansenism",
+   "field": "longDescription",
+   "sentence": "Port-Royal was a Cistercian convent outside Paris, reformed into severity by a young abbess, Angélique Arnauld, and it became the center of a movement that read Augustine on grace harder than the Jesuits or the French crown could tolerate.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The French crown has no entry."
+  },
+  {
+   "movement": "port-royal-jansenism",
+   "field": "longDescription",
+   "sentence": "And in its orbit stood Blaise Pascal, whose Provincial Letters mocked Jesuit moral reasoning so effectively that the mockery outlived the quarrel.",
+   "other_id": "the-society-of-jesus",
+   "disposition": "link",
+   "link_id": "port-royal-jansenism--the-society-of-jesus",
+   "prose_change": null,
+   "reason": "Pascal's letters addressed to the Jesuits by name, revised by Arnauld and Nicole. Pascal is a person, not an entry; he is carried by this link. 'In its orbit' fits his own denial of membership."
+  },
+  {
+   "movement": "port-royal-jansenism",
+   "field": "longDescription",
+   "sentence": "Rome condemned five propositions said to be contained in Jansen's Augustinus, and the nuns were required to sign a formulary declaring both that the propositions were heretical and that they were in the book.",
+   "other_id": "catholic-church-ancien-regime",
+   "disposition": "link",
+   "link_id": "catholic-church-ancien-regime--port-royal-jansenism",
+   "prose_change": null,
+   "reason": "'Rome' maps to the Catholic Church of the Ancien Régime (1650-1815). Documented and major: Cum occasione (1653) and the Formulary (1664)."
+  },
+  {
+   "movement": "port-royal-jansenism",
+   "field": "longDescription",
+   "sentence": "Rome condemned five propositions said to be contained in Jansen's Augustinus, and the nuns were required to sign a formulary declaring both that the propositions were heretical and that they were in the book.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Jansen is a person; his book is the object of the condemnation, not a party."
+  },
+  {
+   "movement": "port-royal-jansenism",
+   "field": "longDescription",
+   "sentence": "Louis XIV lost patience: the nuns were dispersed in 1709 and the buildings pulled down, down to digging up the cemetery.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Louis XIV has no entry. The dispersal is reported by Neale (a papal bull obtained, the convent suppressed), which supports the sentence."
+  },
+  {
+   "movement": "port-royal-jansenism",
+   "field": "why",
+   "sentence": "The convent of Port-Royal, reformed into severity by the young abbess Angélique Arnauld, read Augustine on grace harder than the Jesuits or the French crown could tolerate, and men of rank gave up their careers to live plainly nearby and write in its defense — among them Blaise Pascal, whose Provincial Letters mocked Jesuit moral reasoning so well that the mockery outlived the quarrel.",
+   "other_id": "the-society-of-jesus",
+   "disposition": "link",
+   "link_id": "the-society-of-jesus--port-royal-jansenism",
+   "prose_change": null,
+   "reason": "As in longDescription."
+  },
+  {
+   "movement": "port-royal-jansenism",
+   "field": "why",
+   "sentence": "The convent of Port-Royal, reformed into severity by the young abbess Angélique Arnauld, read Augustine on grace harder than the Jesuits or the French crown could tolerate, and men of rank gave up their careers to live plainly nearby and write in its defense — among them Blaise Pascal, whose Provincial Letters mocked Jesuit moral reasoning so well that the mockery outlived the quarrel.",
+   "other_id": "the-society-of-jesus",
+   "disposition": "link",
+   "link_id": "port-royal-jansenism--the-society-of-jesus",
+   "prose_change": null,
+   "reason": "Pascal's Provincial Letters against the Jesuits."
+  },
+  {
+   "movement": "port-royal-jansenism",
+   "field": "why",
+   "sentence": "The convent of Port-Royal, reformed into severity by the young abbess Angélique Arnauld, read Augustine on grace harder than the Jesuits or the French crown could tolerate, and men of rank gave up their careers to live plainly nearby and write in its defense — among them Blaise Pascal, whose Provincial Letters mocked Jesuit moral reasoning so well that the mockery outlived the quarrel.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The French crown has no entry."
+  },
+  {
+   "movement": "port-royal-jansenism",
+   "field": "why",
+   "sentence": "When a core of the nuns refused to sign a formulary swearing to a matter of fact they said they had no way of knowing, Louis XIV had them dispersed in 1709 and the buildings pulled down to the cemetery.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Louis XIV has no entry."
+  },
+  {
+   "movement": "port-royal-jansenism",
+   "field": "legacy",
+   "sentence": "The quarrel outlived the abbey too: Jansenism became a political force in eighteenth-century France and fed the campaign that suppressed the Jesuits, and it produced one lasting institution.",
+   "other_id": "catholic-church-ancien-regime",
+   "disposition": "not-a-relationship",
+   "link_id": null,
+   "prose_change": 2,
+   "reason": "Jansenism as a force in eighteenth-century France is a current inside the Ancien Régime church (its own summary says so), not a link between two movements. Neale (line 2498) shows the parlements' part."
+  },
+  {
+   "movement": "port-royal-jansenism",
+   "field": "legacy",
+   "sentence": "The quarrel outlived the abbey too: Jansenism became a political force in eighteenth-century France and fed the campaign that suppressed the Jesuits, and it produced one lasting institution.",
+   "other_id": "the-society-of-jesus",
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 2,
+   "reason": "No vendored text ties Jansenism to the Jesuit suppression; the repo-cited Van Kley (1975) is the standard account. Qualified to 'historians hold'. Not linked: the campaign of the 1760s is outside both Port-Royal's (to 1710) and the Jesuit entry's (to 1650) windows."
+  },
+  {
+   "movement": "port-royal-jansenism",
+   "field": "legacy",
+   "sentence": "The small Church of Utrecht in the Netherlands, which consecrated its own archbishop without Rome in the 1720s and became the root of the Old Catholic churches.",
+   "other_id": "church-of-utrecht",
+   "disposition": "link",
+   "link_id": "port-royal-jansenism--church-of-utrecht",
+   "prose_change": 2,
+   "reason": "Widely Accepted 'influenced'. The sentence fragment is mended in prose change 2."
+  },
+  {
+   "movement": "port-royal-jansenism",
+   "field": "legacy",
+   "sentence": "The small Church of Utrecht in the Netherlands, which consecrated its own archbishop without Rome in the 1720s and became the root of the Old Catholic churches.",
+   "other_id": "old-catholic-churches-union-of-utrecht",
+   "disposition": "link",
+   "link_id": "church-of-utrecht--old-catholic-churches-union-of-utrecht",
+   "prose_change": 2,
+   "reason": "The root-of claim is Utrecht's, carried by the Documented continued-as link (1889 Declaration)."
+  },
+  {
+   "movement": "quietist-controversy-molinos-guyon",
+   "field": "relationsSummary",
+   "sentence": "Adjacent to Port-Royal's tradition",
+   "other_id": "port-royal-jansenism",
+   "disposition": "link",
+   "link_id": "port-royal-jansenism--quietist-controversy-molinos-guyon",
+   "prose_change": 0,
+   "reason": "'Adjacent' rewritten to the one documented contact: Guyon's meeting with Nicole."
+  },
+  {
+   "movement": "quietist-controversy-molinos-guyon",
+   "field": "longDescription",
+   "sentence": "It was hugely popular until it was not; Molinos was arrested in 1685 and sixty-eight propositions drawn from his work were condemned in 1687.",
+   "other_id": "catholic-church-ancien-regime",
+   "disposition": "link",
+   "link_id": "catholic-church-ancien-regime--quietist-controversy-molinos-guyon",
+   "prose_change": null,
+   "reason": "'Church authorities' map to the Ancien Régime Catholic entry. Documented and major: Coelestis Pastor (1687). The count of sixty-eight matches Denzinger's numbering (1221-1288)."
+  },
+  {
+   "movement": "quietist-controversy-molinos-guyon",
+   "field": "longDescription",
+   "sentence": "The quarrel then moved to France, around Jeanne Guyon, a widow whose Short and Easy Method of Prayer taught something similar, and who found a defender in Fénelon, archbishop of Cambrai, and an implacable opponent in Bossuet, bishop of Meaux.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Fénelon is a person inside this movement (its defender), not another entry."
+  },
+  {
+   "movement": "quietist-controversy-molinos-guyon",
+   "field": "longDescription",
+   "sentence": "The quarrel then moved to France, around Jeanne Guyon, a widow whose Short and Easy Method of Prayer taught something similar, and who found a defender in Fénelon, archbishop of Cambrai, and an implacable opponent in Bossuet, bishop of Meaux.",
+   "other_id": "catholic-church-ancien-regime",
+   "disposition": "link",
+   "link_id": "catholic-church-ancien-regime--quietist-controversy-molinos-guyon",
+   "prose_change": null,
+   "reason": "Bossuet acted as a bishop of the Ancien Régime church; his Relation is a source on the same link."
+  },
+  {
+   "movement": "quietist-controversy-molinos-guyon",
+   "field": "longDescription",
+   "sentence": "Guyon spent years in confinement, including in the Bastille; Fénelon's defense of her was condemned by Rome in 1699, and he read out his own submission from his own pulpit.",
+   "other_id": "catholic-church-ancien-regime",
+   "disposition": "link",
+   "link_id": "catholic-church-ancien-regime--quietist-controversy-molinos-guyon",
+   "prose_change": null,
+   "reason": "Cum alias (1699) and Fénelon's mandement of submission are sources on the same link."
+  },
+  {
+   "movement": "quietist-controversy-molinos-guyon",
+   "field": "why",
+   "sentence": "Miguel de Molinos taught a prayer of total interior passivity — stop even asking, and let God act — until he was arrested in 1685 and dozens of his propositions condemned.",
+   "other_id": "catholic-church-ancien-regime",
+   "disposition": "link",
+   "link_id": "catholic-church-ancien-regime--quietist-controversy-molinos-guyon",
+   "prose_change": null,
+   "reason": "As in longDescription."
+  },
+  {
+   "movement": "quietist-controversy-molinos-guyon",
+   "field": "why",
+   "sentence": "The argument moved to France around the widow Jeanne Guyon, whose similar teaching found a defender in the archbishop Fénelon and an implacable opponent in Bossuet; Guyon spent years imprisoned, including in the Bastille, and Fénelon read out his own submission from his own pulpit when Rome condemned him in 1699.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Fénelon: person inside the movement."
+  },
+  {
+   "movement": "quietist-controversy-molinos-guyon",
+   "field": "why",
+   "sentence": "The argument moved to France around the widow Jeanne Guyon, whose similar teaching found a defender in the archbishop Fénelon and an implacable opponent in Bossuet; Guyon spent years imprisoned, including in the Bastille, and Fénelon read out his own submission from his own pulpit when Rome condemned him in 1699.",
+   "other_id": "catholic-church-ancien-regime",
+   "disposition": "link",
+   "link_id": "catholic-church-ancien-regime--quietist-controversy-molinos-guyon",
+   "prose_change": null,
+   "reason": "Bossuet and the 1699 condemnation, same link."
+  },
+  {
+   "movement": "quietist-controversy-molinos-guyon",
+   "field": "legacy",
+   "sentence": "The condemnation ended quietism as a movement inside Catholicism, but not the texts.",
+   "other_id": "catholic-church-ancien-regime",
+   "disposition": "link",
+   "link_id": "catholic-church-ancien-regime--quietist-controversy-molinos-guyon",
+   "prose_change": 1,
+   "reason": "Same link; the sentence is kept."
+  },
+  {
+   "movement": "quietist-controversy-molinos-guyon",
+   "field": "legacy",
+   "sentence": "Guyon's writings had a long second life among Protestants — translated, reprinted and read warmly by Pietists, Quakers and Methodists.",
+   "other_id": "german-pietism-spener-francke-halle",
+   "disposition": "link",
+   "link_id": "quietist-controversy-molinos-guyon--german-pietism-spener-francke-halle",
+   "prose_change": 1,
+   "reason": "Documented through Francke's translation of Molinos; the sentence said Guyon and is rewritten to Molinos."
+  },
+  {
+   "movement": "quietist-controversy-molinos-guyon",
+   "field": "legacy",
+   "sentence": "Guyon's writings had a long second life among Protestants — translated, reprinted and read warmly by Pietists, Quakers and Methodists.",
+   "other_id": "the-quakers-religious-society-of-friends",
+   "disposition": "link",
+   "link_id": "quietist-controversy-molinos-guyon--the-quakers-religious-society-of-friends",
+   "prose_change": 1,
+   "reason": "Widely Accepted; rewritten to what the evidence shows."
+  },
+  {
+   "movement": "quietist-controversy-molinos-guyon",
+   "field": "legacy",
+   "sentence": "Guyon's writings had a long second life among Protestants — translated, reprinted and read warmly by Pietists, Quakers and Methodists.",
+   "other_id": "the-methodist-revival",
+   "disposition": "link",
+   "link_id": "quietist-controversy-molinos-guyon--the-methodist-revival",
+   "prose_change": 1,
+   "reason": "Documented from Wesley's journal; 'warmly' replaced by his mixed reading."
+  },
+  {
+   "movement": "quietist-controversy-molinos-guyon",
+   "field": "legacy",
+   "sentence": "So that a condemned French Catholic widow became devotional reading in English-speaking evangelicalism, and still is.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 1,
+   "reason": "English-speaking evangelicalism has no single entry; the Methodist link carries the documented part. Sentence kept."
+  },
+  {
+   "movement": "church-of-utrecht",
+   "field": "relationsSummary",
+   "sentence": "This church grew out of the Jansenist quarrel: the Utrecht cathedral chapter elected Cornelius Steenoven without Rome's approval in 1723, and Dominique Varlet consecrated him in 1724.",
+   "other_id": "port-royal-jansenism",
+   "disposition": "link",
+   "link_id": "port-royal-jansenism--church-of-utrecht",
+   "prose_change": null,
+   "reason": "Linked as 'influenced', not descent: no vendored text shows Port-Royal's people founding the church. The sentence names the quarrel as cause and is left as it stands."
+  },
+  {
+   "movement": "church-of-utrecht",
+   "field": "relationsSummary",
+   "sentence": "This church grew out of the Jansenist quarrel: the Utrecht cathedral chapter elected Cornelius Steenoven without Rome's approval in 1723, and Dominique Varlet consecrated him in 1724.",
+   "other_id": "catholic-church-ancien-regime",
+   "disposition": "link",
+   "link_id": "catholic-church-ancien-regime--church-of-utrecht",
+   "prose_change": null,
+   "reason": "'Without Rome's approval': the break with the papacy, Documented."
+  },
+  {
+   "movement": "church-of-utrecht",
+   "field": "relationsSummary",
+   "sentence": "This church grew out of the Jansenist quarrel: the Utrecht cathedral chapter elected Cornelius Steenoven without Rome's approval in 1723, and Dominique Varlet consecrated him in 1724.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Varlet is a person."
+  },
+  {
+   "movement": "church-of-utrecht",
+   "field": "relationsSummary",
+   "sentence": "The small communion that resulted survived and became the root of the later Old Catholic Union of Utrecht.",
+   "other_id": "old-catholic-churches-union-of-utrecht",
+   "disposition": "link",
+   "link_id": "church-of-utrecht--old-catholic-churches-union-of-utrecht",
+   "prose_change": null,
+   "reason": "Continued-as, Documented by the 1889 Declaration."
+  },
+  {
+   "movement": "church-of-utrecht",
+   "field": "longDescription",
+   "sentence": "The Catholic Church in the Dutch Republic was a church without legal standing, tolerated in hidden chapels, and its clergy had absorbed a good deal of the Jansenist temper of the age.",
+   "other_id": "port-royal-jansenism",
+   "disposition": "link",
+   "link_id": "port-royal-jansenism--church-of-utrecht",
+   "prose_change": null,
+   "reason": "The 'Jansenist temper', same link."
+  },
+  {
+   "movement": "church-of-utrecht",
+   "field": "longDescription",
+   "sentence": "When Rome refused for years to confirm any archbishop for Utrecht, the cathedral chapter fell back on what it held to be its own ancient right and, in 1723, elected Cornelius Steenoven itself.",
+   "other_id": "catholic-church-ancien-regime",
+   "disposition": "link",
+   "link_id": "catholic-church-ancien-regime--church-of-utrecht",
+   "prose_change": null,
+   "reason": "Part of the break; same broke-with link."
+  },
+  {
+   "movement": "church-of-utrecht",
+   "field": "longDescription",
+   "sentence": "A French missionary bishop, Dominique Marie Varlet — himself already in trouble with Rome — consecrated him in 1724, which gave the small church a valid succession and a permanent breach with the papacy in the same act.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Varlet is a person."
+  },
+  {
+   "movement": "church-of-utrecht",
+   "field": "longDescription",
+   "sentence": "A French missionary bishop, Dominique Marie Varlet — himself already in trouble with Rome — consecrated him in 1724, which gave the small church a valid succession and a permanent breach with the papacy in the same act.",
+   "other_id": "catholic-church-ancien-regime",
+   "disposition": "link",
+   "link_id": "catholic-church-ancien-regime--church-of-utrecht",
+   "prose_change": null,
+   "reason": "'A permanent breach with the papacy': the broke-with link."
+  },
+  {
+   "movement": "church-of-utrecht",
+   "field": "why",
+   "sentence": "When Rome refused for years to confirm an archbishop for the tolerated but legally unrecognized Catholic church of the Dutch Republic, its cathedral chapter fell back on what it held to be its own ancient right and elected Cornelius Steenoven itself in 1723.",
+   "other_id": "catholic-church-ancien-regime",
+   "disposition": "link",
+   "link_id": "catholic-church-ancien-regime--church-of-utrecht",
+   "prose_change": null,
+   "reason": "Same broke-with link."
+  },
+  {
+   "movement": "church-of-utrecht",
+   "field": "why",
+   "sentence": "A French missionary bishop, Dominique Varlet — already in trouble with Rome himself — consecrated him the following year, giving the small church a valid succession and a permanent breach with the papacy in the same act, though it kept the Catholic faith in everything else.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Varlet is a person."
+  },
+  {
+   "movement": "church-of-utrecht",
+   "field": "legacy",
+   "sentence": "When the First Vatican Council defined papal infallibility in 1870, Catholics in Germany, Switzerland and Austria who rejected the definition needed bishops, and Utrecht — the one Western church with an unquestioned Catholic succession outside Rome — supplied them.",
+   "other_id": null,
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The 1870 break joins the Old Catholic churches and the nineteenth-century Catholic Church, both era 9."
+  },
+  {
+   "movement": "church-of-utrecht",
+   "field": "legacy",
+   "sentence": "When the First Vatican Council defined papal infallibility in 1870, Catholics in Germany, Switzerland and Austria who rejected the definition needed bishops, and Utrecht — the one Western church with an unquestioned Catholic succession outside Rome — supplied them.",
+   "other_id": "old-catholic-churches-union-of-utrecht",
+   "disposition": "link",
+   "link_id": "church-of-utrecht--old-catholic-churches-union-of-utrecht",
+   "prose_change": null,
+   "reason": "'Utrecht supplied them' belongs to the continued-as link. The 1873 consecration of Reinkens is not in a vendored text (wanted); the 1889 Declaration documents the continuity."
+  },
+  {
+   "movement": "church-of-utrecht",
+   "field": "legacy",
+   "sentence": "The resulting Old Catholic churches bound themselves together in the Declaration of Utrecht in 1889, and that Union of Utrecht continues today, in full communion with the Anglican churches since 1931.",
+   "other_id": "old-catholic-churches-union-of-utrecht",
+   "disposition": "link",
+   "link_id": "church-of-utrecht--old-catholic-churches-union-of-utrecht",
+   "prose_change": null,
+   "reason": "The 1889 Declaration, quoted from Mirbt."
+  },
+  {
+   "movement": "church-of-utrecht",
+   "field": "legacy",
+   "sentence": "The resulting Old Catholic churches bound themselves together in the Declaration of Utrecht in 1889, and that Union of Utrecht continues today, in full communion with the Anglican churches since 1931.",
+   "other_id": "victorian-church-of-england",
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Full communion with the Anglicans (1931) joins the Union of Utrecht (era 9) and the Anglican churches after 1906; neither is era 8, and the Victorian Church of England entry ends in 1906. No vendored text records the 1931 agreement; Moss (repo-cited) is the reference for it."
+  },
+  {
+   "movement": "camisard-prophetism",
+   "field": "relationsSummary",
+   "sentence": "Aftermath of the Huguenot tradition's suppression",
+   "other_id": "the-huguenots",
+   "disposition": "link",
+   "link_id": "the-huguenots--camisard-prophetism",
+   "prose_change": null,
+   "reason": "Gave rise to, Documented by the 1703 manifesto."
+  },
+  {
+   "movement": "camisard-prophetism",
+   "field": "longDescription",
+   "sentence": "After Louis XIV outlawed Protestantism in 1685, the Protestants of the Cévennes were left with no pastors, no churches and no legal existence.",
+   "other_id": "the-huguenots",
+   "disposition": "link",
+   "link_id": "the-huguenots--camisard-prophetism",
+   "prose_change": null,
+   "reason": "Same link."
+  },
+  {
+   "movement": "camisard-prophetism",
+   "field": "longDescription",
+   "sentence": "Bands of peasants known as Camisards fought royal troops through the mountains for two years, led by men like Jean Cavalier, a baker's apprentice of twenty, with prophets traveling alongside the fighters and directing them.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The royal army has no entry."
+  },
+  {
+   "movement": "camisard-prophetism",
+   "field": "longDescription",
+   "sentence": "The rising was broken by 1704 and the last resistance ended by 1710; some of the prophets escaped to London, where they caused a fresh sensation as the 'French Prophets'.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The London French Prophets are the Camisard exiles' own story, inside this entry; no separate entry."
+  },
+  {
+   "movement": "camisard-prophetism",
+   "field": "why",
+   "sentence": "After Protestantism was outlawed in France in 1685, ordinary people in the Cévennes — many of them children and young women with no pastors left to guide them — began falling into trance and speaking as they believed the Spirit directed.",
+   "other_id": "the-huguenots",
+   "disposition": "link",
+   "link_id": "the-huguenots--camisard-prophetism",
+   "prose_change": null,
+   "reason": "Same link."
+  },
+  {
+   "movement": "camisard-prophetism",
+   "field": "legacy",
+   "sentence": "The Camisards left no church of their own — French Protestantism rebuilt itself without them, in a completely different key, sober and clandestine.",
+   "other_id": "church-of-the-desert-huguenots",
+   "disposition": "link",
+   "link_id": "church-of-the-desert-huguenots--camisard-prophetism",
+   "prose_change": 3,
+   "reason": "Court's 1715 synod against the prophets' revelations; Documented, major."
+  },
+  {
+   "movement": "camisard-prophetism",
+   "field": "legacy",
+   "sentence": "The exiles in London published sworn accounts of their experiences, drew crowds and ridicule, and shaped English and continental arguments about religious enthusiasm for a generation, with echoes reaching later revival movements.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 3,
+   "reason": "The English and continental debate on enthusiasm has no entry. The French Church of London's Examen du Théâtre sacré (1708) is vendored and supports the sentence; kept."
+  },
+  {
+   "movement": "camisard-prophetism",
+   "field": "legacy",
+   "sentence": "The exiles in London published sworn accounts of their experiences, drew crowds and ridicule, and shaped English and continental arguments about religious enthusiasm for a generation, with echoes reaching later revival movements.",
+   "other_id": "the-methodist-revival",
+   "disposition": "qualify",
+   "link_id": "camisard-prophetism--the-methodist-revival",
+   "prose_change": 3,
+   "reason": "'Later revival movements' named nothing. Qualified to 'may have' with Wesley's 1739 visit to a French prophet, linked at Inferential-Thin."
+  },
+  {
+   "movement": "camisard-prophetism",
+   "field": "legacy",
+   "sentence": "In the Cévennes the memory was never allowed to fade, and it is still marked by an assembly held every September at the Musée du Désert.",
+   "other_id": "church-of-the-desert-huguenots",
+   "disposition": "not-a-relationship",
+   "link_id": null,
+   "prose_change": 3,
+   "reason": "A place of memory, not a relationship between movements."
+  },
+  {
+   "movement": "church-of-the-desert-huguenots",
+   "field": "relationsSummary",
+   "sentence": "This is the story of what survived after Louis XIV's 1685 Revocation of the Edict of Nantes outlawed French Protestantism.",
+   "other_id": "the-huguenots",
+   "disposition": "link",
+   "link_id": "the-huguenots--church-of-the-desert-huguenots",
+   "prose_change": null,
+   "reason": "Continued-as, Documented by the 1715 and 1721 synods."
+  },
+  {
+   "movement": "church-of-the-desert-huguenots",
+   "field": "relationsSummary",
+   "sentence": "The Camisard prophetic uprising belongs to this same story's opening decades.",
+   "other_id": "camisard-prophetism",
+   "disposition": "link",
+   "link_id": "church-of-the-desert-huguenots--camisard-prophetism",
+   "prose_change": null,
+   "reason": "Placement in one story; the documented relationship between the two is Court's synod against the prophets."
+  },
+  {
+   "movement": "church-of-the-desert-huguenots",
+   "field": "longDescription",
+   "sentence": "When Louis XIV revoked the Edict of Nantes in 1685, French Protestantism was simply abolished.",
+   "other_id": "the-huguenots",
+   "disposition": "link",
+   "link_id": "the-huguenots--church-of-the-desert-huguenots",
+   "prose_change": null,
+   "reason": "Same continued-as link."
+  },
+  {
+   "movement": "church-of-the-desert-huguenots",
+   "field": "longDescription",
+   "sentence": "Its churches were pulled down, its pastors expelled, its people forbidden to emigrate and required to attend Mass.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Enforced Mass attendance was the crown's law (the Revocation edict); no church entry is a party here."
+  },
+  {
+   "movement": "church-of-the-desert-huguenots",
+   "field": "longDescription",
+   "sentence": "He held a synod, restored ordained ministry and discipline, discouraged the prophesying that had led to the Camisard rising, and founded a seminary at Lausanne to train pastors who went back over the border knowing they could hang for it.",
+   "other_id": "camisard-prophetism",
+   "disposition": "link",
+   "link_id": "church-of-the-desert-huguenots--camisard-prophetism",
+   "prose_change": null,
+   "reason": "Court's 1715 synod, Documented."
+  },
+  {
+   "movement": "church-of-the-desert-huguenots",
+   "field": "legacy",
+   "sentence": "It survived, and it is the direct ancestor of the Reformed Church in France.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The Reformed Church of France after 1787 has no entry."
+  },
+  {
+   "movement": "church-of-the-desert-huguenots",
+   "field": "legacy",
+   "sentence": "In the Cévennes the memory is deliberately kept: the Musée du Désert stands in a Camisard leader's birthplace, and an assembly gathers there every September.",
+   "other_id": "camisard-prophetism",
+   "disposition": "not-a-relationship",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "A museum in a Camisard leader's birthplace is a place of memory, not a relationship."
+  }
+ ],
+ "links": [
+  {
+   "id": "latin-pastoral-congregational-christianity--port-royal-jansenism",
+   "action": "new",
+   "from": "latin-pastoral-congregational-christianity",
+   "to": "port-royal-jansenism",
+   "type": "influenced",
+   "confidence": "Documented",
+   "note": "Port-Royal took its view of grace from Augustine of Hippo. Rome condemned five propositions in 1653. They were said to come from Cornelius Jansen's book, which he named Augustinus. In 1656 Pascal mocked the idea that Augustine's grace became false the moment Antoine Arnauld defended it.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Formulary of submission, in Alexander VII, Regiminis apostolici (15 February 1664), in Denzinger, Enchiridion symbolorum, 11th ed. (1911)",
+     "file": "cic/texts/denzinger_enchiridion-symbolorum-lat_bannwart1911.txt",
+     "lines": "22057-22058",
+     "locus": "Denzinger n. 1099",
+     "quote": "quinque propositiones ex Cornelii lansenii libro, cui nomen Augustinus, excerptas, et in sensu ab eodem auctore intento,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Blaise Pascal, Provincial Letters, Letter III (1656), tr. Thomas M'Crie (1856)",
+     "file": "cic/texts/pascal_provincial-letters_mcrie1856.txt",
+     "lines": "3750-3751",
+     "locus": "Letter III",
+     "quote": "The grace of St. Augustine will never be the true grace, so long as he continues to defend it.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "port-royal-jansenism relationsSummary ('Augustine's long shadow'), longDescription and why ('read Augustine on grace')",
+   "major": false,
+   "minor_reason": "A teaching taken up by the later side; no institutional act.",
+   "wants": [],
+   "drafter_flags": [
+    "cross-era: era 1. Augustine has no entry of his own; the Latin pastoral church of Cyprian and Augustine is the nearest, and its own summary names Augustine at Hippo.",
+    "The Denzinger text is OCR: 'lansenii' is the file's reading of 'Iansenii'. Quote kept as printed.",
+    "Pascal's line is ironic (the Jesuits' view, as Pascal mocks it); the note says so."
+   ],
+   "change_reason": "New. Carries 'Augustine's long shadow' with the condemned book's own title and Pascal's defense of Arnauld's Augustinian grace."
+  },
+  {
+   "id": "port-royal-jansenism--the-society-of-jesus",
+   "action": "new",
+   "from": "port-royal-jansenism",
+   "to": "the-society-of-jesus",
+   "type": "argued against",
+   "confidence": "Documented",
+   "note": "In 1656 Blaise Pascal addressed several of his Provincial Letters to the Jesuits by name. He knew the Port-Royal recluses well, and Arnauld and Nicole revised his drafts. His sixteenth letter defended the Port-Royal nuns against a Jesuit book.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Blaise Pascal, Provincial Letters, Letter XVI (4 December 1656), tr. Thomas M'Crie (1856)",
+     "file": "cic/texts/pascal_provincial-letters_mcrie1856.txt",
+     "lines": "11794",
+     "locus": "Letter XVI, heading",
+     "quote": "TO THE REVEREND FATHERS, THE JESUITS.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Blaise Pascal, Provincial Letters, Letter XVI (4 December 1656), tr. Thomas M'Crie (1856)",
+     "file": "cic/texts/pascal_provincial-letters_mcrie1856.txt",
+     "lines": "11896-11899",
+     "locus": "Letter XVI",
+     "quote": "to publish in Paris such a scandalous book, with the name of your Father Meynier on its front, and under this infamous title, “Port-Royal and Geneva in concert against the most holy Sacrament of the Altar,”",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Blaise Pascal, Provincial Letters, Letter XVI (4 December 1656), tr. Thomas M'Crie (1856)",
+     "file": "cic/texts/pascal_provincial-letters_mcrie1856.txt",
+     "lines": "11875-11876",
+     "locus": "Letter XVI",
+     "quote": "I do know some of them, and honor the virtue of them all.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Thomas M'Crie, historical introduction to The Provincial Letters (1856)",
+     "file": "cic/texts/pascal_provincial-letters_mcrie1856.txt",
+     "lines": "1269-1271",
+     "quote": "As Pascal proceeded, he transmitted his manuscripts to Port-Royal des Champs, where they were carefully revised and corrected by Arnauld and Nicole.",
+     "locus": "Introduction",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "John Mason Neale, A History of the So-called Jansenist Church of Holland (1858)",
+     "file": "cic/texts/neale_history-so-called-jansenist-church-of-holland_1858.txt",
+     "lines": "1285-1289",
+     "quote": "Blaise Pascal was at this time in the thirty-fourth year of his age, and intimately connected, not only with Arnauld, but with Nicole, Lemaistre, Le Maistre de Sacy, and the rest of the recluses at Port-Royal-des- Champs.",
+     "locus": "ch. on the Provincial Letters",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "port-royal-jansenism longDescription and why ('Provincial Letters mocked Jesuit moral reasoning'; 'read Augustine on grace harder than the Jesuits ... could tolerate')",
+   "major": false,
+   "minor_reason": "Polemical letters; no council, split or authority's ruling on the link's own sources.",
+   "wants": [],
+   "drafter_flags": [
+    "cross-era: era 7. The Society of Jesus entry runs 1540-1650; Pascal wrote in 1656. No later Jesuit entry exists, and the order is one continuous body, so the link goes to it. Reviewer may want this window question settled fleet-wide.",
+    "Pascal denies in the same letter that he belongs to Port-Royal (lines 11866-11868); the note says he knew the recluses, not that he was one. The census text's 'in its orbit' fits this.",
+    "M'Crie and Neale are 19th-century historians, kept as secondary."
+   ],
+   "change_reason": "New. Documents the attack on the Jesuits the entry names."
+  },
+  {
+   "id": "the-society-of-jesus--port-royal-jansenism",
+   "action": "new",
+   "from": "the-society-of-jesus",
+   "to": "port-royal-jansenism",
+   "type": "argued against",
+   "confidence": "Documented",
+   "note": "In 1643 Mother Angélique Arnauld wrote that Jesuit preachers were attacking Jansen from the pulpit. They called him a Calvin warmed over. In 1656 Pascal answered a Jesuit book by Father Meynier. Its title tied Port-Royal to Geneva in a plot against the Mass.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Mère Marie Angélique Arnauld, Lettres, tome I (1742), letter CXXXII (1643)",
+     "file": "cic/texts/arnauld-angelique_lettres-t1-fra_1742.txt",
+     "lines": "11252-11255",
+     "locus": "Lettre CXXXII",
+     "quote": "Les Pères Jefuites crient en chaire d'une manière étrange contre M. d'Ypres, juf- 3u'à l'appeller un Calvin rebouilli",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Blaise Pascal, Provincial Letters, Letter XVI (4 December 1656), tr. Thomas M'Crie (1856)",
+     "file": "cic/texts/pascal_provincial-letters_mcrie1856.txt",
+     "lines": "11896-11899",
+     "locus": "Letter XVI",
+     "quote": "to publish in Paris such a scandalous book, with the name of your Father Meynier on its front, and under this infamous title, “Port-Royal and Geneva in concert against the most holy Sacrament of the Altar,”",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "port-royal-jansenism longDescription and why ('harder than the Jesuits ... could tolerate')",
+   "major": false,
+   "minor_reason": "Sermons and a pamphlet; no institutional act on the link's sources.",
+   "wants": [
+    "Father Bernard Meynier, Le Port-Royal et Genève d'intelligence contre le très-Saint Sacrement de l'autel (1656), to show the Jesuit side in its own words rather than through Pascal"
+   ],
+   "drafter_flags": [
+    "cross-era: era 7.",
+    "Angélique's letter is OCR of the 1742 edition: '3u'à' is the file's reading of 'jusqu'à' broken across the line ('juf- 3u'à'). Quote kept exactly. 'M. d'Ypres' is Jansen, bishop of Ypres. The letter's year, 1643, is the edition's marginal date (line 11244).",
+    "The 1643 letter falls inside the Jesuit entry's 1540-1650 window; the 1656 book falls after it (see the reverse link)."
+   ],
+   "change_reason": "New. The Jesuit side of the quarrel, from Port-Royal's abbess and from Pascal's report of a named Jesuit book."
+  },
+  {
+   "id": "catholic-church-ancien-regime--port-royal-jansenism",
+   "action": "new",
+   "from": "catholic-church-ancien-regime",
+   "to": "port-royal-jansenism",
+   "type": "argued against",
+   "confidence": "Documented",
+   "note": "In May 1653 Rome condemned five propositions said to come from Jansen's book Augustinus. In 1664 it made a form to be sworn, rejecting them in the sense Jansen meant. Later a papal bull was obtained to close the convent of Port-Royal itself.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Innocent X, Cum occasione (31 May 1653), in Denzinger, Enchiridion symbolorum, 11th ed. (1911)",
+     "file": "cic/texts/denzinger_enchiridion-symbolorum-lat_bannwart1911.txt",
+     "lines": "21920-21922",
+     "locus": "Denzinger nn. 1092-1096, heading",
+     "quote": "Excerpti ex «Augustino» et damnati in Constit. «Cum occasione», 31. Maii 1653.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Alexander VII, Regiminis apostolici (15 February 1664), the Formulary, in Denzinger (1911)",
+     "file": "cic/texts/denzinger_enchiridion-symbolorum-lat_bannwart1911.txt",
+     "lines": "22050-22052",
+     "locus": "Denzinger n. 1099, heading",
+     "quote": "Formularium submissionis lansenistis propositum ^ [Ex Coiistit. «Regiminis apostolici», 15. Febr. 1664.]",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Formulary of submission (1664), in Denzinger (1911)",
+     "file": "cic/texts/denzinger_enchiridion-symbolorum-lat_bannwart1911.txt",
+     "lines": "22057-22058",
+     "locus": "Denzinger n. 1099",
+     "quote": "quinque propositiones ex Cornelii lansenii libro, cui nomen Augustinus, excerptas, et in sensu ab eodem auctore intento,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "John Mason Neale, A History of the So-called Jansenist Church of Holland (1858)",
+     "file": "cic/texts/neale_history-so-called-jansenist-church-of-holland_1858.txt",
+     "lines": "1868-1871",
+     "quote": "A Bull having been obtained for that purpose, Cardinal de Noailles was compelled to issue his instructions for the suppression of the convent.",
+     "locus": "ch. on the destruction of Port-Royal",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "port-royal-jansenism longDescription ('Rome condemned five propositions said to be contained in Jansen's Augustinus ... a formulary')",
+   "major": true,
+   "outcome": "In 1653 Rome condemned five points from Jansen's book, and in 1664 it made people swear to a form that rejected them.",
+   "outcome_kind": "council-law",
+   "outcome_evidence": {
+    "file": "cic/texts/denzinger_enchiridion-symbolorum-lat_bannwart1911.txt",
+    "lines": "21920-21922",
+    "text": "Excerpti ex «Augustino» et damnati in Constit. «Cum occasione», 31. Maii 1653."
+   },
+   "wants": [
+    "Clement XI's bull of 1708 suppressing Port-Royal des Champs, and the 1709 dispersal orders, in a vendored text; Neale reports the bull but it is not itself vendored"
+   ],
+   "drafter_flags": [
+    "'Rome' has no entry of its own; the Ancien Régime Catholic entry (1650-1815) is the church whose pope issued these acts and its own summary names the Jansenist crisis.",
+    "Denzinger is OCR: 'lansenii', 'lansenistis', 'Coiistit.' and the stray '^' are the file's readings. Quotes kept exactly.",
+    "The outcome's 'sworn' rests on the formulary's 'ita iuro' (line 22060), within a few lines of the cited quote."
+   ],
+   "change_reason": "New. The papal condemnations the entry names, from the texts of the bulls."
+  },
+  {
+   "id": "port-royal-jansenism--church-of-utrecht",
+   "action": "new",
+   "from": "port-royal-jansenism",
+   "to": "church-of-utrecht",
+   "type": "influenced",
+   "confidence": "Widely Accepted",
+   "note": "The Dutch Catholic clergy stood close to Port-Royal's circle. The historian J. M. Neale records that Archbishop Neercassel of Utrecht counted Antoine Arnauld and Pasquier Quesnel as friends. At its synod of 1763 the Utrecht church still defended the teaching on grace that Rome's anti-Jansenist bulls were said to condemn.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Acta et decreta secundae Synodi Provinciae Ultrajectensis (1763; printed 1764), Relatio",
+     "file": "cic/texts/church-of-utrecht_acta-et-decreta-secundae-synodi-lat_1764.txt",
+     "lines": "3586-3587",
+     "locus": "Relationes",
+     "quote": "Hanc faluberrimam doclrinam Conflitutionibus Innocentii X & Alexandri VII adeo non intendit damnare fandi a Sedes Apoftolica",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "John Mason Neale, A History of the So-called Jansenist Church of Holland (1858)",
+     "file": "cic/texts/neale_history-so-called-jansenist-church-of-holland_1858.txt",
+     "lines": "7701-7705",
+     "quote": "Amauld and Quesnel were his valued friends. The second- class leaders of the Augustinian party, as they gra- dually came forward, began to look to Utrecht as a future home,",
+     "locus": "ch. VII, John van Neercassel",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "C. B. Moss, The Old Catholic Movement: Its Origins and History (London, 1948)",
+     "file": null,
+     "lines": null,
+     "quote": null
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "named-not-rechecked",
+   "named_in_text": "church-of-utrecht relationsSummary ('grew out of the Jansenist quarrel') and longDescription ('absorbed a good deal of the Jansenist temper'); port-royal-jansenism legacy ('produced one lasting institution')",
+   "major": false,
+   "minor_reason": "Shared teaching and friendships; the institutional break belongs to the link with Rome, not to this one.",
+   "wants": [
+    "A clean edition or translation of the 1725 Utrecht dossier pieces citing Arnauld (the Recueil de divers témoignages, 1763, prints a 1725 letter recommending Arnauld's 1688 writing on consecration without bulls, but its two-column OCR at lines 27030-27050 cannot be quoted)",
+    "Neercassel's correspondence with Arnauld, to document the friendship from the letters themselves"
+   ],
+   "drafter_flags": [
+    "Type chosen as 'influenced', not 'gave rise to': no vendored text shows Port-Royal's own people founding the Utrecht church. It grew out of the Dutch mission's clergy. The entry's 'grew out of the Jansenist quarrel' names the quarrel as cause, which this link and the break with Rome carry together.",
+    "Neale names Arnauld; Quesnel was an Oratorian, Arnauld's companion in exile, not a Port-Royal solitaire. 'Close to Port-Royal's circle' is pitched to that.",
+    "Moss is cited in the repo (Atlas-World-Map design prototype) but not vendored; not rechecked.",
+    "The Acta's Latin is OCR ('fandi a' for 'sancta', 'doclrinam' for 'doctrinam')."
+   ],
+   "change_reason": "New. Carries the Jansenist temper the Utrecht entry names; graded below Documented because the tie is through friendships recorded by a historian."
+  },
+  {
+   "id": "catholic-church-ancien-regime--church-of-utrecht",
+   "action": "new",
+   "from": "catholic-church-ancien-regime",
+   "to": "church-of-utrecht",
+   "type": "broke with",
+   "confidence": "Documented",
+   "note": "In 1703 Rome told the Dutch church's vicars-general to stop all their spiritual work, or be cut off. A history printed with Utrecht's synod of 1763 dates the split from these acts. In 1725 Barchman Wuytiers was made archbishop. A papal letter then declared him and his clergy cut off from the church.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Brevis historia Ecclesiae Ultrajectinae, in Acta et decreta secundae Synodi Provinciae Ultrajectensis (1764)",
+     "file": "cic/texts/church-of-utrecht_acta-et-decreta-secundae-synodi-lat_1764.txt",
+     "lines": "705-707",
+     "locus": "Brevis historia",
+     "quote": "quo Vicariis Generalibus denuo in- jungebatur ut ab omni jurifdiftionis fpiritualis exercitio abftinerent , fub poena excommunicationis incurrenda IPSO FACTO",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Brevis historia Ecclesiae Ultrajectinae, in Acta et decreta secundae Synodi Provinciae Ultrajectensis (1764)",
+     "file": "cic/texts/church-of-utrecht_acta-et-decreta-secundae-synodi-lat_1764.txt",
+     "lines": "723",
+     "locus": "Brevis historia",
+     "quote": "Ex his proceffibus fchifma peni ortum eft lugendiffimum.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Brevis historia Ecclesiae Ultrajectinae, in Acta et decreta secundae Synodi Provinciae Ultrajectensis (1764)",
+     "file": "cic/texts/church-of-utrecht_acta-et-decreta-secundae-synodi-lat_1764.txt",
+     "lines": "965-966",
+     "locus": "Brevis historia",
+     "quote": "Cornelio Steenoven brevi fublato, fucccffit Cornelius-Joanncs Barchman Wuytiers die 30 Septembris anni M. D CC. XXV confccratus",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "John Mason Neale, A History of the So-called Jansenist Church of Holland (1858)",
+     "file": "cic/texts/neale_history-so-called-jansenist-church-of-holland_1858.txt",
+     "lines": "12680-12683",
+     "quote": "a Brief of Dec. 6 declared him and his clergy excommunicated and schis- matic, as well as all those who should in any way assist or encourage him.",
+     "locus": "ch. on Barchman Wuytiers",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "C. B. Moss, The Old Catholic Movement: Its Origins and History (London, 1948)",
+     "file": null,
+     "lines": null,
+     "quote": null
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "church-of-utrecht relationsSummary ('without Rome's approval'), longDescription and why ('Rome refused for years to confirm'; 'a permanent breach with the papacy'); port-royal-jansenism legacy ('without Rome')",
+   "wants": [
+    "Benedict XIII's briefs of 1725 declaring Steenoven's election and consecration null and excommunicating Barchman Wuytiers, to show the rupture from Rome's side in its own words",
+    "The cathedral chapter's acts of 1723-1725 and Varlet's Apologie (1727)"
+   ],
+   "drafter_flags": [
+    "The rupture is shown in a dated Utrecht text; Rome's side is in that text's report of the 1703 decree and in Neale's account of the 1725 brief, not in a vendored papal document. Documented on the Utrecht record; reviewer may judge Widely Accepted the safer grade until the briefs are vendored.",
+    "The Brevis historia is by the volume's unnamed editor, printed with the synod's acts; the note says 'the account printed with', not 'the synod'.",
+    "Acta OCR: 'peni' is the file's reading of 'pene'; quotes kept exactly."
+   ],
+   "change_reason": "New. The break with the papacy the entry names, ordered alphabetically as the symmetric type requires."
+  },
+  {
+   "id": "church-of-utrecht--old-catholic-churches-union-of-utrecht",
+   "action": "new",
+   "from": "church-of-utrecht",
+   "to": "old-catholic-churches-union-of-utrecht",
+   "type": "continued as",
+   "confidence": "Documented",
+   "note": "In September 1889 the archbishop of Utrecht and two of his bishops met at Utrecht. With them were the Old Catholic bishops of Germany and Switzerland. Together they signed a statement of faith. In it they renewed every protest the old Catholic church of Holland had made against Rome.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Old Catholic Declaration of Utrecht (24 September 1889), in Carl Mirbt, Quellen zur Geschichte des Papsttums, 3rd ed. (1911)",
+     "file": "cic/texts/mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt",
+     "lines": "31196-31198",
+     "locus": "Mirbt n. 588",
+     "quote": "Altkatliolisclies Glaubensbekenntnis v. 24. Sept. 1889. Unterzeichnet von den zu einer Konferenz in Utrecht versammelten altkath. Bischöfen: JHey- KAMP, EBvUtrecht; CJRixkel, BvHaarlem; CDiepexdaal, BvDeventer;",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Old Catholic Declaration of Utrecht (24 September 1889), art. 4, in Mirbt (1911)",
+     "file": "cic/texts/mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt",
+     "lines": "31221-31222",
+     "locus": "Mirbt n. 588, art. 4",
+     "quote": "Ueberdies erneuern wir alle diejenigen Proteste, welche die alte katholische lürche von Holland in früherer Zeit bereits gegen Rom erhoben hat.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "C. B. Moss, The Old Catholic Movement: Its Origins and History (London, 1948)",
+     "file": null,
+     "lines": null,
+     "quote": null
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "church-of-utrecht relationsSummary ('became the root of the later Old Catholic Union of Utrecht') and legacy ('the Declaration of Utrecht in 1889'); port-royal-jansenism legacy ('the root of the Old Catholic churches')",
+   "wants": [
+    "A text recording Joseph Hubert Reinkens's consecration in 1873 by a bishop of the Utrecht line (e.g. the Amtliches Altkatholisches Kirchenblatt), to document 'Utrecht supplied them' directly"
+   ],
+   "drafter_flags": [
+    "cross-era: era 9.",
+    "Mirbt is OCR: 'Altkatliolisclies', 'JHey- KAMP', 'CJRixkel', 'CDiepexdaal' and 'lürche' are the file's readings (Altkatholisches, Heykamp, Rinkel, Diependaal, Kirche). Quotes kept exactly; the note gives offices, not the garbled names.",
+    "The census already records this pair as the Utrecht entry's continuation."
+   ],
+   "change_reason": "New. The continuation the census records, documented from the 1889 declaration itself."
+  },
+  {
+   "id": "port-royal-jansenism--quietist-controversy-molinos-guyon",
+   "action": "new",
+   "from": "port-royal-jansenism",
+   "to": "quietist-controversy-molinos-guyon",
+   "type": "in contact with",
+   "confidence": "Documented",
+   "note": "In her own Life, Jeanne Guyon tells of visiting Pierre Nicole, who had often spoken against her. She says they read her Short Method through together and he found no error in it. Nicole was one of the Port-Royal circle, a close colleague of Arnauld and Pascal.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Jeanne Guyon, Autobiography, tr. Thomas Taylor Allen, vol. II (1897), part III",
+     "file": "cic/texts/guyon_autobiography-v2_allen1897.txt",
+     "lines": "10264-10266",
+     "locus": "Part III",
+     "quote": "A person of my acquaintance, a particular friend of Monsieur Nicole, had heard him often declaim against me, without knowing me ;",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Jeanne Guyon, Autobiography, tr. Thomas Taylor Allen, vol. II (1897), part III",
+     "file": "cic/texts/guyon_autobiography-v2_allen1897.txt",
+     "lines": "10290-10292",
+     "locus": "Part III",
+     "quote": "We went through the book, from one end to the other, without his finding anything that struck him.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "John Mason Neale, A History of the So-called Jansenist Church of Holland (1858)",
+     "file": "cic/texts/neale_history-so-called-jansenist-church-of-holland_1858.txt",
+     "lines": "1285-1289",
+     "quote": "Blaise Pascal was at this time in the thirty-fourth year of his age, and intimately connected, not only with Arnauld, but with Nicole, Lemaistre, Le Maistre de Sacy, and the rest of the recluses at Port-Royal-des- Champs.",
+     "locus": "ch. on the Provincial Letters",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "quietist-controversy-molinos-guyon relationsSummary ('Adjacent to Port-Royal's tradition', rewritten in prose change 0)",
+   "major": false,
+   "minor_reason": "Private meetings; no institutional act.",
+   "wants": [
+    "Pierre Nicole, Réfutation des principales erreurs des quiétistes (1695), which would document an 'argued against' link from Port-Royal's side"
+   ],
+   "drafter_flags": [
+    "The meeting is told only by Guyon, in Allen's 1897 English; Nicole's own account is not vendored.",
+    "Guyon v2 line 7510 also names a 'party of the Jansenists' man used against her; not used, since it does not name Port-Royal."
+   ],
+   "change_reason": "New. Replaces the vague 'adjacent' with the one documented meeting between the two movements."
+  },
+  {
+   "id": "catholic-church-ancien-regime--quietist-controversy-molinos-guyon",
+   "action": "new",
+   "from": "catholic-church-ancien-regime",
+   "to": "quietist-controversy-molinos-guyon",
+   "type": "argued against",
+   "confidence": "Documented",
+   "note": "In 1687 Rome condemned errors drawn from the writings of Miguel de Molinos. In France, Bossuet tried in person to show Fénelon the errors in Guyon's books. In 1699 Rome condemned twenty-three propositions from Fénelon's Maxims of the Saints, and Fénelon condemned them himself in a pastoral letter.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Innocent XI, Coelestis Pastor (19 November 1687), in Denzinger, Enchiridion symbolorum, 11th ed. (1911)",
+     "file": "cic/texts/denzinger_enchiridion-symbolorum-lat_bannwart1911.txt",
+     "lines": "22846-22848",
+     "locus": "Denzinger nn. 1221-1288, heading",
+     "quote": "Damnati in Decreto 28. Aug. et in Constit. «Coelestis Pastor», 19. Nov. 1687.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Innocent XII, Cum alias (12 March 1699), in Denzinger (1911)",
+     "file": "cic/texts/denzinger_enchiridion-symbolorum-lat_bannwart1911.txt",
+     "lines": "23569",
+     "locus": "Denzinger nn. 1327-1349, heading",
+     "quote": "Damnati in Brevi «Cum alias», 12. Martii 1699.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Denzinger's note to Cum alias (1911)",
+     "file": "cic/texts/denzinger_enchiridion-symbolorum-lat_bannwart1911.txt",
+     "lines": "23593-23595",
+     "locus": "Denzinger n. 1327, note",
+     "quote": "Continentur in libello «Explications des maximes des Saints sur la vie interieure», par Messire FranQois de Salignac Fenelon, Archeveque Duc de Cambray etc.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Fénelon, Mandement of submission (1699), in the Cum alias dossier (Paris, 1699)",
+     "file": "cic/texts/innocent-xii_cum-alias-with-fenelon-mandement-lat-fra_1699.txt",
+     "lines": "981-983",
+     "locus": "Mandement",
+     "quote": "Ainfi nous condamnons tant le livre que les 23. propolkions , précifé- ment dans la même forme",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Jacques-Bénigne Bossuet, Relation sur le Quiétisme (1698)",
+     "file": "cic/texts/bossuet_relation-sur-le-quietisme-fra_1698.txt",
+     "lines": "1056-1059",
+     "locus": "Relation, section 20",
+     "quote": "en luy montrant fur les livres de Me Guyon toutes les erreurs &: tous les excès qu'on vient d'entendre i il con- viendroit avec moy qu'elle eftoit trompée,",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "quietist-controversy-molinos-guyon longDescription and why ('sixty-eight propositions ... condemned in 1687'; 'an implacable opponent in Bossuet'; 'condemned by Rome in 1699'); legacy ('The condemnation ended quietism as a movement inside Catholicism')",
+   "major": true,
+   "outcome": "In 1687 Rome condemned errors drawn from Molinos, and in 1699 it condemned 23 claims from a book by Fénelon.",
+   "outcome_kind": "council-law",
+   "outcome_evidence": {
+    "file": "cic/texts/denzinger_enchiridion-symbolorum-lat_bannwart1911.txt",
+    "lines": "22846-22848",
+    "text": "Damnati in Decreto 28. Aug. et in Constit. «Coelestis Pastor», 19. Nov. 1687."
+   },
+   "wants": [],
+   "drafter_flags": [
+    "'Rome' and Bossuet have no entries of their own; the Ancien Régime Catholic entry is the church both acted for, and its summary names the Quietist controversy.",
+    "Denzinger numbers the Molinos errors 1221-1288 (sixty-eight). The entry's 'sixty-eight' is consistent with that numbering but the count is not stated in words in the file; the note does not repeat it.",
+    "The Fénelon and Bossuet files are OCR with the long s as f ('propolkions' for 'propositions', 'i il' for '; il'). Quotes kept exactly.",
+    "Bossuet's section number (20) is inferred from 'section 21' at line 1114; reviewer may drop it from the locus."
+   ],
+   "change_reason": "New. The two papal condemnations and Bossuet's campaign the entry names."
+  },
+  {
+   "id": "quietist-controversy-molinos-guyon--german-pietism-spener-francke-halle",
+   "action": "new",
+   "from": "quietist-controversy-molinos-guyon",
+   "to": "german-pietism-spener-francke-halle",
+   "type": "influenced",
+   "confidence": "Documented",
+   "note": "In 1687 Rome censured Molinos. Soon after, the young August Hermann Francke put his Spiritual Guide into Latin at Leipzig. Critics later said Francke had taken in Molinos's ideas. He replied that reading and translating Molinos had not been the start of his conversion.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Preface to A. H. Francke, Christus Sacrae Scripturae Nucleus (London, 1732), built from Francke's own papers",
+     "file": "cic/texts/francke_christ-the-sum-and-substance-of-scripture_1732.txt",
+     "lines": "369-372",
+     "locus": "Preface",
+     "quote": "A Person of Note defired Mr. Franck^ who un- der'Aood the Italian^ to make a Latin Tranflation of his Writings,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Preface to A. H. Francke, Christus Sacrae Scripturae Nucleus (London, 1732), quoting Francke",
+     "file": "cic/texts/francke_christ-the-sum-and-substance-of-scripture_1732.txt",
+     "lines": "397-399",
+     "locus": "Preface",
+     "quote": "The reading and tranflating the Works of Molinos was not the be- ginning of my Converfion,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "H. E. F. Guericke, The Life of Augustus Herman Franké, tr. Samuel Jackson (1837)",
+     "file": "cic/texts/guericke_life-of-francke_jackson1837.txt",
+     "lines": "757-769",
+     "quote": "In 1687, Franke was induced, by a disputation held in Leipzig, ' De quietismo contra Molinosum/ in",
+     "locus": "ch. I",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "quietist-controversy-molinos-guyon legacy ('read warmly by Pietists', rewritten in prose change 1)",
+   "major": false,
+   "minor_reason": "A translation; the text was taken up, no institutional act.",
+   "wants": [
+    "Pierre Poiret's editions of Guyon or Gerhard Tersteegen's translations, to document German Pietist reading of Guyon herself"
+   ],
+   "drafter_flags": [
+    "The entry said Pietists read Guyon. The vendored evidence is Francke's translation of Molinos, not Guyon; the legacy is rewritten to say so (prose change 1).",
+    "OCR: 'Franck^', 'un- der'Aood', 'Italian^' are the file's readings. Quote kept exactly.",
+    "Spangenberg's Life of Zinzendorf (lines 7693-7705) shows Guyon read at Herrnhut in 1731; the Moravians are not named in the entry, so no link."
+   ],
+   "change_reason": "New. Documents the Pietist reception the legacy names, through the one vendored text that shows it."
+  },
+  {
+   "id": "quietist-controversy-molinos-guyon--the-quakers-religious-society-of-friends",
+   "action": "new",
+   "from": "quietist-controversy-molinos-guyon",
+   "to": "the-quakers-religious-society-of-friends",
+   "type": "influenced",
+   "confidence": "Widely Accepted",
+   "note": "A Quaker memoir of 1821, the life of Mary Penington, carried a book list. It offered Guyon's Life and her Short Method of Prayer. Ellwood's editor wrote in 1900 that Quaker booksellers sold Molinos. Woolman's editor wrote in 1922 that he read the French quietist writers in English.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Publishers' list in Mary Penington, Some Account of Circumstances in the Life of Mary Penington (London: Harvey and Darton, 1821)",
+     "file": "cic/texts/penington-mary_some-account-of-circumstances-in-the-life_1821.txt",
+     "lines": "3659-3660",
+     "locus": "Books and Pamphlets list",
+     "quote": "The EXEMPLARY LIFE of the Pious LADY GUYON. Translated from the French.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Publishers' list in Mary Penington, Some Account (1821)",
+     "file": "cic/texts/penington-mary_some-account-of-circumstances-in-the-life_1821.txt",
+     "lines": "3664-3665",
+     "locus": "Books and Pamphlets list",
+     "quote": "A Short and Easy METHOD of PRAYER. From the French of Lady Guyon.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "C. G. Crump, introduction to his edition of The History of the Life of Thomas Ellwood (1900)",
+     "file": "cic/texts/ellwood_history-of-the-life_crump1900.txt",
+     "lines": "915-917",
+     "quote": "Books like those of Molinos' began to form part of Quaker libraries, and to be sold by Quaker booksellers ;",
+     "locus": "Introduction",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Amelia Mott Gummere, introduction to The Journal and Essays of John Woolman (1922)",
+     "file": "cic/texts/woolman_journal-and-essays_gummere1922.txt",
+     "lines": "1946-1947",
+     "quote": "and the French quietistic writers in the English translations.",
+     "locus": "Introduction",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "named-not-rechecked",
+   "named_in_text": "quietist-controversy-molinos-guyon legacy ('read warmly by ... Quakers', rewritten in prose change 1)",
+   "major": false,
+   "minor_reason": "Books sold and read; no institutional act.",
+   "wants": [
+    "The first edition of Thomas Ellwood's History of the Life (1714), whose advertisement of the Spiritual Guide Crump reports",
+    "A Quaker writer of the period naming Guyon or Molinos in his own words"
+   ],
+   "drafter_flags": [
+    "Not Documented: no vendored Quaker writer names Guyon or Molinos in his own words. The 1821 list shows Guyon offered to a Quaker book's readers; the two editors give the consensus reading.",
+    "The list's publisher, Harvey and Darton, is not called Quaker in the file; the note calls the memoir Quaker, not the publisher."
+   ],
+   "change_reason": "New. The Quaker reception the legacy names, graded to what the vendored evidence carries."
+  },
+  {
+   "id": "quietist-controversy-molinos-guyon--the-methodist-revival",
+   "action": "new",
+   "from": "quietist-controversy-molinos-guyon",
+   "to": "the-methodist-revival",
+   "type": "influenced",
+   "confidence": "Documented",
+   "note": "John Wesley read Guyon's Short Method of Prayer in 1742 and dismissed her as a 'poor Quietist'. By 1770 he wrote that she was a woman of 'excellent piety'. In 1776 he wrote a preface for a shortened Life of her.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "John Wesley, Journal, 5 June 1742, ed. Nehemiah Curnock, vol. III (1909)",
+     "file": "cic/texts/wesley-j_journal-v3_curnock1909.txt",
+     "lines": "1318-1319",
+     "locus": "Journal, 5 June 1742",
+     "quote": "made an end of Madame Guyon's Short Method of Prayer, and Les Torrents Spirituelles",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "John Wesley, Journal, 5 June 1742, ed. Curnock, vol. III",
+     "file": "cic/texts/wesley-j_journal-v3_curnock1909.txt",
+     "lines": "1322-1323",
+     "locus": "Journal, 5 June 1742",
+     "quote": "They are only retailed from this poor Quietist, and that with the utmost faithfulness.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "John Wesley, Journal, August 1770, ed. Curnock, vol. V",
+     "file": "cic/texts/wesley-j_journal-v5_curnock1909.txt",
+     "lines": "21312-21314",
+     "locus": "Journal, Aug. 1770",
+     "quote": "She was undoubtedly a woman of a very uncommon understanding, and of excellent piety.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Nehemiah Curnock, editorial note to Wesley's Journal, November 1776, vol. VI (1909)",
+     "file": "cic/texts/wesley-j_journal-v6_curnock1909.txt",
+     "lines": "7925-7927",
+     "quote": "On Nov. 9 he wrote in London a Preface of nine paragraphs for an Extract of the Life of Madame Guion",
+     "locus": "Editorial note, Nov. 1776",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "quietist-controversy-molinos-guyon legacy ('read warmly by ... Methodists', rewritten in prose change 1)",
+   "major": false,
+   "minor_reason": "A writer read and an extract printed; no institutional act.",
+   "wants": [
+    "John Wesley, An Extract of the Life of Madame Guion (1776), with his preface, to document the 1776 step from Wesley's own text"
+   ],
+   "drafter_flags": [
+    "The 1742 entry addresses 'my brethren' whose words came from Guyon; I could not tell from the vendored lines whether they were Methodists or the Moravian 'still' party, so the note does not say Methodists used her words.",
+    "The day in 1742 is read from the entry 'Sat. 5.' under the running head June 1742 (lines 1174, 1317)."
+   ],
+   "change_reason": "New. The Methodist reception the legacy names, from Wesley's own journal."
+  },
+  {
+   "id": "the-huguenots--camisard-prophetism",
+   "action": "new",
+   "from": "the-huguenots",
+   "to": "camisard-prophetism",
+   "type": "gave rise to",
+   "confidence": "Documented",
+   "note": "In their manifesto of 1703, the armed Protestants of the Cévennes said their country had turned Reformed at the Reformation and stayed so ever since. They had taken up arms, they wrote, to keep the faith they had long professed, not to bring in a new one.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "The Manifesto of the Cevennois (London, 1703)",
+     "file": "cic/texts/camisards_manifesto-of-the-cevennois_1703.txt",
+     "lines": "57-58",
+     "locus": "Manifesto",
+     "quote": "In a very ſhort time this whole Country became Reformed, and has continued ſo ever ſince.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "The Manifesto of the Cevennois (London, 1703)",
+     "file": "cic/texts/camisards_manifesto-of-the-cevennois_1703.txt",
+     "lines": "59-61",
+     "locus": "Manifesto",
+     "quote": "So that it is not any new Religion which they now de- ſire to introduce, but to maintain that which they anciently profeſſed,",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "camisard-prophetism relationsSummary ('Aftermath of the Huguenot tradition's suppression'), longDescription and why ('After Louis XIV outlawed Protestantism in 1685')",
+   "wants": [],
+   "drafter_flags": [
+    "cross-era: era 7. The era 7 drafters may also draft this pair from the Huguenot side; merge, do not duplicate.",
+    "The manifesto also claims the Waldensians and Albigensians as forebears (lines 45-52); the entry does not name them, so no link.",
+    "The file keeps the long s (ſ); quotes copy it exactly."
+   ],
+   "change_reason": "New. The Camisards' own statement that they were the Reformed of the Cévennes."
+  },
+  {
+   "id": "church-of-the-desert-huguenots--camisard-prophetism",
+   "action": "new",
+   "from": "church-of-the-desert-huguenots",
+   "to": "camisard-prophetism",
+   "type": "argued against",
+   "confidence": "Documented",
+   "note": "Antoine Court called his first synod in the Cévennes for 21 August 1715. Its preachers included the last remnants of the Camisard bands. Court wrote that the synod voted to forbid women to preach and to reject the revelations then in vogue among them.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Antoine Court, memoir of the first synod (21 August 1715), quoted in E. Hugues, Les Synodes du Désert, t. I (1885)",
+     "file": "cic/texts/french-reformed-synods_synodes-du-desert-t1-fra_hugues1885.txt",
+     "lines": "2929-2930",
+     "locus": "Premier synode du 21 août 1715",
+     "quote": "«J'avais convoqué», écrit Antoine Court, «pour le 21 août 1715, tout ce qu'il y avait de prédicants dans les Cévennes et le Bas-Languedoc;",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Antoine Court, memoir of the first synod (1715), in Hugues (1885)",
+     "file": "cic/texts/french-reformed-synods_synodes-du-desert-t1-fra_hugues1885.txt",
+     "lines": "2949-2950",
+     "locus": "Premier synode du 21 août 1715",
+     "quote": "1° que, selon l'ordre de Saint-Paul, il serait défendu aux femmes de prêcher à l'avenir;",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Antoine Court, memoir of the first synod (1715), in Hugues (1885)",
+     "file": "cic/texts/french-reformed-synods_synodes-du-desert-t1-fra_hugues1885.txt",
+     "lines": "2952-2953",
+     "locus": "Premier synode du 21 août 1715",
+     "quote": "l'on rejetterait toutes les prétendues révélations, qui avaient la vogue parmi nous,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Edmond Hugues, introduction to Les Synodes du Désert, t. I (1885)",
+     "file": "cic/texts/french-reformed-synods_synodes-du-desert-t1-fra_hugues1885.txt",
+     "lines": "989-990",
+     "quote": "derniers débris comme Bonbonnoux des bandes Camisardes,",
+     "locus": "Introduction",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "church-of-the-desert-huguenots longDescription ('discouraged the prophesying that had led to the Camisard rising') and relationsSummary ('The Camisard prophetic uprising belongs to this same story's opening decades'); camisard-prophetism legacy ('French Protestantism rebuilt itself without them')",
+   "major": true,
+   "outcome": "In 1715 the first synod of the Cévennes preachers banned women from preaching and threw out the revelations then in vogue.",
+   "outcome_kind": "council-law",
+   "outcome_evidence": {
+    "file": "cic/texts/french-reformed-synods_synodes-du-desert-t1-fra_hugues1885.txt",
+    "lines": "2949-2953",
+    "text": "1° que, selon l'ordre de Saint-Paul, il serait défendu aux femmes de prêcher à l'avenir; 2° qu'il serait ordonné de s'en tenir uniquement à l'Ecriture sainte, comme à la seule règle de la foi, et qu'en conséquence l'on rejetterait toutes les prétendues révélations, qui avaient la vogue parmi nous,"
+   },
+   "wants": [
+    "The synod's own minute of 21 August 1715 (Hugues says none survives for this first synod; the earliest extant rules are of 1716-1717), so the rule rests on Court's memoir"
+   ],
+   "drafter_flags": [
+    "The rule is known from Court's own memoir as quoted by Hugues, not from a minute of the synod; Hugues notes the 1716-1717 synods are the first whose rules survive (line 2893). Judged major as a synod's rule rejecting the prophets' revelations; reviewer should confirm a remembered synod rule meets the institutional-act test.",
+    "The tie between 'the revelations' and the Camisard prophets rests on Hugues's description of the preachers present as the last of the Camisard bands, and on Court's purge of 'fanatisme' (line 2935)."
+   ],
+   "change_reason": "New. Court's synod against the prophesying, which both entries name."
+  },
+  {
+   "id": "the-huguenots--church-of-the-desert-huguenots",
+   "action": "new",
+   "from": "the-huguenots",
+   "to": "church-of-the-desert-huguenots",
+   "type": "continued as",
+   "confidence": "Documented",
+   "note": "Antoine Court called his first synod in 1715 to restore the old church rules. In 1721 a Desert synod in the Cévennes made a new rule. Every minister had to sign the confession of faith of the Protestant churches of France. He also had to sign \"our discipline\", the church's rule book.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Antoine Court, memoir of the first synod (1715), in Hugues, Les Synodes du Désert, t. I (1885)",
+     "file": "cic/texts/french-reformed-synods_synodes-du-desert-t1-fra_hugues1885.txt",
+     "lines": "2935",
+     "locus": "Premier synode du 21 août 1715",
+     "quote": "était le rétablissement de la discipline;",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Synod of Bas-Languedoc and Cévennes (1721), art. II, in Hugues, Les Synodes du Désert, t. I (1885)",
+     "file": "cic/texts/french-reformed-synods_synodes-du-desert-t1-fra_hugues1885.txt",
+     "lines": "3917-3919",
+     "locus": "Synodes provinciaux de 1721, Bas-Languedoc et Cévennes, art. II",
+     "quote": "Déformais tant miniftres que propofants figneront la confeffion de foi, dreffée d'un commun accord par les églifes proteftantes du Royaume de France, & notre discipline.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "church-of-the-desert-huguenots relationsSummary ('what survived after ... outlawed French Protestantism') and longDescription",
+   "wants": [],
+   "drafter_flags": [
+    "cross-era: era 7. The census already records this pair as the Huguenot entry's continuation; the era 7 drafters may draft it too. Merge, do not duplicate.",
+    "The 1721 article's French keeps the long s as f ('Déformais', 'figneront'); quote kept exactly. The synod heading is line 3907."
+   ],
+   "change_reason": "New. The continuation the census records, documented from the Desert synods' own acts."
+  },
+  {
+   "id": "camisard-prophetism--the-methodist-revival",
+   "action": "new",
+   "from": "camisard-prophetism",
+   "to": "the-methodist-revival",
+   "type": "in contact with",
+   "confidence": "Inferential-Thin",
+   "note": "In January 1739 John Wesley went to hear a young woman 'commonly called' a French prophet, to test her spirit. His editor names her as probably Mary Plewit and calls the French prophets refugee Camisards. The tie to the Camisard rising, thirty years on, rests on that name alone.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "John Wesley, Journal, 28 January 1739, ed. Nehemiah Curnock, vol. II (1909)",
+     "file": "cic/texts/wesley-j_journal-v2_curnock1909.txt",
+     "lines": "8384-8385",
+     "locus": "Journal, 28 Jan. 1739",
+     "quote": "with four or five of my friends, to a house where was one of those commonly called French prophets.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Nehemiah Curnock, footnote to Wesley's Journal, 28 January 1739, vol. II (1909)",
+     "file": "cic/texts/wesley-j_journal-v2_curnock1909.txt",
+     "lines": "8422",
+     "quote": "French prophets were refugee Camisards,",
+     "locus": "Footnote",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "named-not-rechecked",
+   "named_in_text": "camisard-prophetism legacy ('echoes reaching later revival movements', made concrete in prose change 3)",
+   "major": false,
+   "minor_reason": "A single visit; no institutional act.",
+   "wants": [
+    "A text tracing the London French Prophets' circle from the Camisard exiles of 1706 to the 1730s (e.g. a vendored history of the French Prophets), to test whether this woman belonged to it"
+   ],
+   "drafter_flags": [
+    "A woman of about twenty-five in 1739 cannot herself have been a Camisard exile; Curnock's 'refugee Camisards' describes the group's origin. Graded Inferential-Thin for that reason.",
+    "Curnock's footnote is two-column OCR; the quoted phrase is one contiguous column fragment on line 8422.",
+    "The Camisard entry's window ends 1710; the meeting is 1739. Reviewer may prefer to drop the link and keep only the qualified sentence."
+   ],
+   "change_reason": "New. Gives the vague 'echoes reaching later revival movements' one documented, plainly thin instance."
+  }
+ ],
+ "prose_changes": [
+  {
+   "n": 0,
+   "movement": "quietist-controversy-molinos-guyon",
+   "field": "relationsSummary",
+   "old": "Adjacent to Port-Royal's tradition",
+   "new": "A quarrel over passive prayer, condemned by Rome in 1687 and 1699. Its French voice, Jeanne Guyon, met one of Port-Royal's circle, Pierre Nicole, who had spoken against her.",
+   "reason": "'Adjacent to Port-Royal's tradition' is vague and misleading: the two movements were both condemned but stood far apart on prayer, and the only vendored tie is Guyon's own account of meeting Nicole. Rewritten to the documented condemnations and the documented meeting.",
+   "fre_after": 77.8,
+   "fk_after": 5.9
+  },
+  {
+   "n": 1,
+   "movement": "quietist-controversy-molinos-guyon",
+   "field": "legacy",
+   "old": "The condemnation ended quietism as a movement inside Catholicism, but not the texts. Guyon's writings had a long second life among Protestants — translated, reprinted and read warmly by Pietists, Quakers and Methodists. So that a condemned French Catholic widow became devotional reading in English-speaking evangelicalism, and still is. Fénelon's Telemachus and his letters of spiritual direction stayed in print and are read to this day. The word 'quietism' itself survived as a term of criticism for any spirituality thought too passive.",
+   "new": "The condemnation ended quietism as a movement inside Catholicism, but not its books. They had a long second life among Protestants. In 1687 the young August Hermann Francke put Molinos's Spiritual Guide into Latin; he later led German Pietism. Quaker booksellers sold Molinos, and a Quaker memoir of 1821 still listed Guyon's Life and Short Method. John Wesley at first called Guyon a 'poor Quietist'. By 1770 he praised her 'excellent piety', and in 1776 he wrote a preface for a short Life of her. So a condemned French Catholic widow became a devotional author for English-speaking evangelicals, and still is. Fénelon's Telemachus and his letters of spiritual guidance stayed in print and are still read. The word 'quietism' lived on too, as a charge against any prayer thought too passive.",
+   "reason": "'Guyon's writings ... read warmly by Pietists' is not supported: the vendored Pietist evidence is Francke's Latin translation of Molinos, not Guyon. 'Read warmly' by Methodists overstates Wesley's mixed reading (critical in 1742, admiring by 1770). Rewritten to what the three links document; every other sentence kept.",
+   "fre_after": 60.5,
+   "fk_after": 8.4
+  },
+  {
+   "n": 2,
+   "movement": "port-royal-jansenism",
+   "field": "legacy",
+   "old": "The house was destroyed and the movement formally beaten, yet almost nothing about it actually disappeared. Pascal's Provincial Letters and Pensées became permanent French classics, and the Port-Royal schools' methods, along with the Port-Royal Logic and Grammar, shaped European education for generations. The quarrel outlived the abbey too: Jansenism became a political force in eighteenth-century France and fed the campaign that suppressed the Jesuits, and it produced one lasting institution. The small Church of Utrecht in the Netherlands, which consecrated its own archbishop without Rome in the 1720s and became the root of the Old Catholic churches. The abbey ruins and the farm beside them are now a French national museum.",
+   "new": "The house was destroyed and the movement formally beaten, yet almost nothing about it truly vanished. Pascal's Provincial Letters and Pensées became lasting French classics. The Port-Royal schools' methods, with the Port-Royal Logic and Grammar, shaped how Europe taught for generations. The quarrel outlived the abbey too. Jansenism became a political force in France in the 1700s. Historians hold that it helped drive the campaign that suppressed the Jesuits. It also left one lasting body: the small Church of Utrecht in the Netherlands. That church made its own archbishop without Rome in the 1720s and became the root of the Old Catholic churches. The abbey ruins and the farm beside them are now a French national museum.",
+   "reason": "'Fed the campaign that suppressed the Jesuits' has no vendored source (the Clement XIV bulls do not name the Jansenists); the repo cites Dale Van Kley's The Jansenists and the Expulsion of the Jesuits from France (1975) as the standard account, so it is kept as historians' judgment rather than plain fact. Also mends the old sentence fragment ('The small Church of Utrecht ... churches.') and splits long sentences; every other fact kept.",
+   "fre_after": 65.0,
+   "fk_after": 7.5
+  },
+  {
+   "n": 3,
+   "movement": "camisard-prophetism",
+   "field": "legacy",
+   "old": "The Camisards left no church of their own — French Protestantism rebuilt itself without them, in a completely different key, sober and clandestine. What the prophets left was a wave that carried. The exiles in London published sworn accounts of their experiences, drew crowds and ridicule, and shaped English and continental arguments about religious enthusiasm for a generation, with echoes reaching later revival movements. In the Cévennes the memory was never allowed to fade, and it is still marked by an assembly held every September at the Musée du Désert.",
+   "new": "The Camisards left no church of their own. French Protestantism rebuilt itself without them, in a wholly different key, sober and hidden. What the prophets left was a wave that carried. The exiles in London published sworn accounts of what they had seen, and drew crowds and scorn. For a generation they shaped the debate in England and Europe over religious enthusiasm. Faint echoes may have reached later revivals: in 1739 John Wesley went to hear a woman 'commonly called' a French prophet. In the Cévennes the memory was never allowed to fade. Every September an assembly still gathers at the Musée du Désert to mark it.",
+   "reason": "'Echoes reaching later revival movements' named no movement and no evidence. Qualified to 'may have', with the one documented instance (Wesley's visit of 1739), which is itself thin: a French prophet of 1739 was not a Camisard exile. Long sentences split for readability; every fact kept.",
+   "fre_after": 64.2,
+   "fk_after": 7.7
+  }
+ ],
+ "wants": [
+  "A Quaker writer of the period naming Guyon or Molinos in his own words",
+  "A clean edition or translation of the 1725 Utrecht dossier pieces citing Arnauld (the Recueil de divers témoignages, 1763, prints a 1725 letter recommending Arnauld's 1688 writing on consecration without bulls, but its two-column OCR at lines 27030-27050 cannot be quoted)",
+  "A text recording Joseph Hubert Reinkens's consecration in 1873 by a bishop of the Utrecht line (e.g. the Amtliches Altkatholisches Kirchenblatt), to document 'Utrecht supplied them' directly",
+  "A text tracing the London French Prophets' circle from the Camisard exiles of 1706 to the 1730s (e.g. a vendored history of the French Prophets), to test whether this woman belonged to it",
+  "Benedict XIII's briefs of 1725 declaring Steenoven's election and consecration null and excommunicating Barchman Wuytiers, to show the rupture from Rome's side in its own words",
+  "Clement XI's bull of 1708 suppressing Port-Royal des Champs, and the 1709 dispersal orders, in a vendored text; Neale reports the bull but it is not itself vendored",
+  "Father Bernard Meynier, Le Port-Royal et Genève d'intelligence contre le très-Saint Sacrement de l'autel (1656), to show the Jesuit side in its own words rather than through Pascal",
+  "John Wesley, An Extract of the Life of Madame Guion (1776), with his preface, to document the 1776 step from Wesley's own text",
+  "Neercassel's correspondence with Arnauld, to document the friendship from the letters themselves",
+  "Pierre Nicole, Réfutation des principales erreurs des quiétistes (1695), which would document an 'argued against' link from Port-Royal's side",
+  "Pierre Poiret's editions of Guyon or Gerhard Tersteegen's translations, to document German Pietist reading of Guyon herself",
+  "The cathedral chapter's acts of 1723-1725 and Varlet's Apologie (1727)",
+  "The first edition of Thomas Ellwood's History of the Life (1714), whose advertisement of the Spiritual Guide Crump reports",
+  "The synod's own minute of 21 August 1715 (Hugues says none survives for this first synod; the earliest extant rules are of 1716-1717), so the rule rests on Court's memoir",
+  "Dale K. Van Kley, The Jansenists and the Expulsion of the Jesuits from France, 1757-1765 (1975) is in copyright; a public-domain primary instead, e.g. the Paris Parlement's arrêt of 6 August 1762 against the Jesuits or the Extraits des assertions (1762), to source the Jansenist part in the Jesuit suppression"
+ ],
+ "escalations": []
+}

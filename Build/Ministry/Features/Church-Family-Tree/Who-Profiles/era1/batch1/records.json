@@ -1,0 +1,320 @@
+{
+  "josephus": {
+    "claims": [
+      {
+        "claim": "Josephus asked Titus for his family and the holy books; three crucified acquaintances",
+        "witness": "Josephus, Life",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Born first year of Caius (37), priestly family",
+        "witness": "Josephus, Life",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Prediction to Vespasian at Jotapata",
+        "witness": "Josephus, Jewish War III; Suetonius, Vespasian 5",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "James passage names Jesus called Christ",
+        "witness": "Antiquities XX; McGiffert note: Neander and common opinion genuine, some critics doubt the phrase",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Testimonium Flavianum wording is Josephus's own",
+        "witness": "Antiquities XVIII; Origen; McGiffert four views; Whiston",
+        "formation_confidence": "Contested"
+      }
+    ],
+    "contested_claims": [
+      {
+        "claim": "Testimonium Flavianum wording is Josephus's own",
+        "sides": "Antiquities XVIII; Origen; McGiffert four views; Whiston"
+      }
+    ]
+  },
+  "ignatius-of-antioch": {
+    "claims": [
+      {
+        "claim": "Taken under guard from Syria to Rome; wrote from Smyrna and Troas",
+        "witness": "Ignatius, letters; Eusebius HE III.36",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Second bishop of Antioch after Peter",
+        "witness": "Eusebius HE III.36 (tradition, via Origen)",
+        "formation_confidence": "Inferential-Thin"
+      },
+      {
+        "claim": "Died by wild beasts at Rome",
+        "witness": "Eusebius HE III.36 (\"Report says\"); Irenaeus",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Shorter Greek recension of seven letters is genuine",
+        "witness": "Daillé 1666 and Cureton 1845 against; Pearson 1672, Zahn and Lightfoot for; McGiffert 1890: settled, some still deny",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      },
+      {
+        "claim": "Death in 107 under Trajan",
+        "witness": "Eusebius Chronicle vs Zahn, Lightfoot, Harnack",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "First use of \"Catholic Church\"",
+        "witness": "Coxe, ANF introductory note (one modern judgment)",
+        "formation_confidence": "Inferential-Thin"
+      }
+    ],
+    "contested_claims": [
+      {
+        "claim": "Death in 107 under Trajan",
+        "sides": "Eusebius Chronicle vs Zahn, Lightfoot, Harnack"
+      }
+    ]
+  },
+  "marcion-of-pontus": {
+    "claims": [
+      {
+        "claim": "Taught two gods, Creator and a higher good God",
+        "witness": "Justin, Irenaeus, Tertullian (independent on teaching)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Cut down Luke and Paul",
+        "witness": "Irenaeus I.27; Tertullian AM IV",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Shipmaster of Pontus; money returned; offered repentance",
+        "witness": "Tertullian alone (partisan)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Polycarp called him first-born of Satan",
+        "witness": "Irenaeus III.3.4 (one witness, partisan)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Bishop's son excommunicated for violating a virgin",
+        "witness": "Pseudo-Tertullian Adv. omn. haer. 6 and Epiphanius 42.1 for; Holl: Tertullian's silence against",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "From Sinope",
+        "witness": "Epiphanius 42.1 alone (Filastrius depends on him, Holl)",
+        "formation_confidence": "Inferential-Thin"
+      },
+      {
+        "claim": "At Rome under Eleutherus (Tertullian) or Anicetus (Irenaeus)",
+        "witness": "Tertullian Praescr 30 vs Irenaeus III.4.3",
+        "formation_confidence": "Contested"
+      }
+    ],
+    "contested_claims": [
+      {
+        "claim": "Bishop's son excommunicated for violating a virgin",
+        "sides": "Pseudo-Tertullian Adv. omn. haer. 6 and Epiphanius 42.1 for; Holl: Tertullian's silence against"
+      },
+      {
+        "claim": "At Rome under Eleutherus (Tertullian) or Anicetus (Irenaeus)",
+        "sides": "Tertullian Praescr 30 vs Irenaeus III.4.3"
+      }
+    ]
+  },
+  "justin-martyr": {
+    "claims": [
+      {
+        "claim": "Son of Priscus, of Flavia Neapolis",
+        "witness": "Justin, First Apology 1",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Conversion through the philosophers and the old man",
+        "witness": "Justin, Dialogue 2-8 (his own account)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Trial before Rusticus and beheading",
+        "witness": "Martyrdom of Justin (date and author unknown)",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Crescens caused his death",
+        "witness": "Eusebius HE IV.16 vs McGiffert note (Acts silent)",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Date of death under Marcus Aurelius, after 163",
+        "witness": "McGiffert note; two traditions",
+        "formation_confidence": "Contested"
+      }
+    ],
+    "contested_claims": [
+      {
+        "claim": "Crescens caused his death",
+        "sides": "Eusebius HE IV.16 vs McGiffert note (Acts silent)"
+      },
+      {
+        "claim": "Date of death under Marcus Aurelius, after 163",
+        "sides": "McGiffert note; two traditions"
+      }
+    ]
+  },
+  "clement-of-alexandria": {
+    "claims": [
+      {
+        "claim": "Teachers in Greece, Magna Graecia, East; found the last in Egypt",
+        "witness": "Clement, Stromata I.1",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "That teacher was Pantaenus",
+        "witness": "Eusebius HE V.11 (\"It seems to me\")",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Presbyter; led the school after Pantaenus; taught Origen",
+        "witness": "Jerome, Lives 38; Eusebius VI.6",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Carried Alexander's letter to Antioch",
+        "witness": "Eusebius HE VI.11",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Left Alexandria in 202 in the persecution under Severus",
+        "witness": "McGiffert, reading Eusebius VI.3 (all teachers driven away)",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      }
+    ],
+    "contested_claims": []
+  },
+  "eusebius-of-caesarea": {
+    "claims": [
+      {
+        "claim": "Eyewitness of martyrdoms in the Thebais",
+        "witness": "Eusebius HE VIII.9",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Friend of Pamphilus; called Eusebius Pamphili",
+        "witness": "McGiffert prolegomena",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Presented his creed at Nicaea; Constantine added One-in-essence",
+        "witness": "Eusebius, Letter to his diocese (his own account)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Eustathius accused him of perverting the Nicene creed",
+        "witness": "Socrates I.23",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Escaped prison by an unlawful promise",
+        "witness": "Potamo in Epiphanius 68.8 (partisan, pro-Athanasius) for; McGiffert: conjecture; Athanasius: only \"accused\"",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Constantine told him of the cross under oath",
+        "witness": "Eusebius, Life of Constantine I.28; Richardson note",
+        "formation_confidence": "Documented"
+      }
+    ],
+    "contested_claims": [
+      {
+        "claim": "Escaped prison by an unlawful promise",
+        "sides": "Potamo in Epiphanius 68.8 (partisan, pro-Athanasius) for; McGiffert: conjecture; Athanasius: only \"accused\""
+      }
+    ]
+  },
+  "hermas": {
+    "claims": [
+      {
+        "claim": "Sold to Rhode in Rome; vision on the road",
+        "witness": "The Shepherd, Vision 1 (the book's own visionary frame)",
+        "formation_confidence": "Inferential-Thin"
+      },
+      {
+        "claim": "Brother of Pius, writing at Rome c. 140-154",
+        "witness": "Muratorian Canon; McGiffert: majority accept",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      },
+      {
+        "claim": "Date of the Shepherd",
+        "witness": "Muratorian Canon and the majority (McGiffert) for mid-second century; Zahn and Salmon for 97-100",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "One repentance after the calling",
+        "witness": "The Shepherd, Mandate IV",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Read as Scripture, then set aside",
+        "witness": "Irenaeus, Tertullian, Muratorian, Eusebius III.25, Jerome (McGiffert note)",
+        "formation_confidence": "Documented"
+      }
+    ],
+    "contested_claims": [
+      {
+        "claim": "Date of the Shepherd",
+        "sides": "Muratorian Canon and the majority (McGiffert) for mid-second century; Zahn and Salmon for 97-100"
+      }
+    ]
+  },
+  "valentinus": {
+    "claims": [
+      {
+        "claim": "At Rome from Hyginus to Anicetus",
+        "witness": "Irenaeus III.4.3 (one witness, partisan)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Passed over for bishop and broke away",
+        "witness": "Tertullian, Against the Valentinians 4 (one witness, partisan)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Taught paired divine powers including Truth",
+        "witness": "Irenaeus I.11; Hippolytus Refutation VI (may depend in part on Irenaeus)",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Followers divided people by nature",
+        "witness": "Irenaeus I.6; Clement Strom II.3 (independent)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "A fallen power produced the world",
+        "witness": "Irenaeus I.11 alone",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Heart as caravanserai; the Father makes it shine",
+        "witness": "Clement, Stromata II.20, quoting his letter",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "At Rome under Eleutherus (Tertullian) or earlier (Irenaeus)",
+        "witness": "Tertullian Praescr 30 vs Irenaeus III.4.3",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Taught by Theudas, pupil of Paul",
+        "witness": "Clement Strom VII.17, reporting followers' claim",
+        "formation_confidence": "Inferential-Thin"
+      }
+    ],
+    "contested_claims": [
+      {
+        "claim": "At Rome under Eleutherus (Tertullian) or earlier (Irenaeus)",
+        "sides": "Tertullian Praescr 30 vs Irenaeus III.4.3"
+      }
+    ]
+  }
+}

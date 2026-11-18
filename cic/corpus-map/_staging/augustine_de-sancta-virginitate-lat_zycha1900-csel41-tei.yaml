@@ -12,6 +12,9 @@ assignments:
       - latin-pastoral-congregational-christianity
     role: tradition
     confidence: assigned
+    locus_ids: [whole-file]
+    language: lat
+    date: {start: 401, end: 401, source: "NPNF 1 Prolegomena 'The Writings of St. Augustin' (npnf101_augustine-confessions-letters.xml, id iv.4, Schaff's list of Augustine's works): De virginitate (401)", formation_confidence: Widely Accepted}
     note: >
       Companion to On the Good of Marriage. Latin original of the ALREADY-PRESENT English entry 'Of
       Holy Virginity' (source_file npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml) in

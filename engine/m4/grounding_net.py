@@ -1,7 +1,7 @@
 """Live-turn grounding for CITATION-TAGGED output (Live-Generation Design
 §6 - see engine/m4/LIVE-GENERATION-DESIGN.md §9.5, all four forks signed
 off). Promoted from the design's own companion prototype
-(grounding_experimental.py, claude/cic-design-assignment-ecoxh2), which
+(grounding_experimental.py), which
 proved this exact logic against the real alx package (§6.2's run log) -
 ported unchanged except this docstring; the calibration history below is
 that prototype's own postmortem, kept because it is why the module is
@@ -81,7 +81,7 @@ _TAG = re.compile(r"\[\[([a-z0-9_.-]+)\]\]")
 # transcript for transparency markup: one turn's raw text ended inside an
 # unclosed "[[don.dw.room-for-diss", which strip_tags' own re.sub below
 # left untouched, verbatim, brackets and all.
-_DANGLING_TAG = re.compile(r"\[\[(?:\s*(?:quote|story)\s*:\s*)?[a-z0-9_.-]*\Z", re.IGNORECASE)
+_DANGLING_TAG = re.compile(r"\[\[(?:\s*(?:quote|story|as)\s*:\s*)?[a-z0-9_.-]*\Z", re.IGNORECASE)
 
 
 def _drop_truncated_tail(text: str) -> tuple[str, bool]:
@@ -117,7 +117,10 @@ QUOTE_MARKER = re.compile(r"\[\[\s*quote\s*(?::[^\]\[]*)?(?:\]\]|\Z)", re.IGNORE
 # A story marker, [[story:<record id>]]: where the voice asks for a story
 # record's telling to be placed (engine.m4.story_placement).
 STORY_MARKER = re.compile(r"\[\[\s*story\s*(?::[^\]\[]*)?(?:\]\]|\Z)", re.IGNORECASE)
-_DISPLAY_TAG = re.compile(rf"\s*(?:\[\[[a-z0-9_.-]+\]\]|(?i:{QUOTE_MARKER.pattern})|(?i:{STORY_MARKER.pattern}))")
+# A label marker, [[as:paraphrase]] or [[as:inference]]: how the voice says a
+# sentence stands to the records it is tagged to (engine.m4.bound_draft).
+LABEL_MARKER = re.compile(r"\[\[\s*as\s*:\s*(paraphrase|inference)\s*\]\]", re.IGNORECASE)
+_DISPLAY_TAG = re.compile(rf"\s*(?:\[\[[a-z0-9_.-]+\]\]|(?i:{QUOTE_MARKER.pattern})|(?i:{STORY_MARKER.pattern})|(?i:{LABEL_MARKER.pattern}))")
 
 
 def strip_tags(text: str) -> str:
@@ -984,7 +987,9 @@ def _placed_verdict(text: str, tags: list[str], records: dict[str, dict], index:
     lead-in attributes it to no one but that record's own speaker, types no
     quotation of its own (a quotation mark left open counts), and names that
     speaker (the project lead's ruling of 14 October: code checks the name
-    and adds no words)."""
+    and adds no words). The sentence cites that record alone: any other tag
+    the voice wrote on its lead-in was not checked against the sentence, and a
+    citation carries only what the net verified."""
     record = records.get(record_id) or {}
     rendering = placed_key(quotable_rendering(record))
     spans = [span for span in _checked_pairs(text) if placed_key(span[2]) == rendering]
@@ -1005,17 +1010,21 @@ def _placed_verdict(text: str, tags: list[str], records: dict[str, dict], index:
             why = REASON_SPEAKER_UNNAMED
     if why is not None:
         return {"sentence": text, "tags": tags, "verdict": "withhold", "why": why}
-    return {"sentence": text, "tags": tags, "verdict": "ok", "why": WHY_PLACED, "placed_quote": record_id}
+    return {"sentence": text, "tags": [record_id], "verdict": "ok", "why": WHY_PLACED, "placed_quote": record_id}
 
 
 def _placed_story_verdict(text: str, tags: list[str], records: dict[str, dict], record_id: str) -> dict:
-    """A sentence of a story record's telling that code placed: it stands
-    in the telling word for word, tagged with that record. The telling's
+    """A sentence of one of a story record's tellings (the full telling, or a
+    shorter reviewed one) that code placed: it stands in that telling word for
+    word, tagged with that record. The telling's
     speech is the record's own rendering, so no quotation check applies."""
     record = records.get(record_id) or {}
     holds = (
         record.get("record_type") == "story" and record_id in tags and bool(text.strip())
-        and placed_key(text) in placed_key(record.get("telling") or "")
+        and any(
+            placed_key(text) in placed_key(record.get(field) or "")
+            for field in ("telling", "telling_short", "telling_medium")
+        )
     )
     if not holds:
         return {"sentence": text, "tags": tags, "verdict": "withhold", "why": REASON_STORY_MISMATCH}
@@ -1502,7 +1511,7 @@ def check_turn(
 
 # Blank-line blocks - the exact regex
 # engine.m4.live_uncited_claims_battery's own _PARAGRAPH_SPLIT already
-# proved live across two battery runs (#419, #420). A paragraph is a
+# proved live across two battery runs. A paragraph is a
 # sequence of the same sentences parse_tagged already produces, grouped by
 # which blank-line block they fell in - nothing about how a sentence
 # itself is found or tagged changes.

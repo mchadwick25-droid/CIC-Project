@@ -31,7 +31,7 @@ Melito 70117, Hegesippus 71396, Dionysius of Corinth 71715, Rhodon
 71796, Claudius Apollinaris 72428, Polycrates 72521, Serapion 72678,
 Apollonius 72748.
 
-THIS WAS FOUND INSIDE A PILE LABELLED AS SOMETHING ELSE. The assignment
+THIS WAS FOUND INSIDE A PILE LABELED AS SOMETHING ELSE. The assignment
 run put twenty-three anf08 works on this world and they read, at a
 glance, as an apocryphal-Acts import. They are not one thing. The volume
 splits by its own div1 sections: "Apocrypha of the New Testament" (line

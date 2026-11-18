@@ -1,0 +1,215 @@
+{
+ "round": 1,
+ "scope": "P2-G3 person entries (22) with their links, concerns lists and neighbor changes: P1 (Augustine, Cyprian, Irenaeus, Jovinian, Ambrose, Jerome; lpc longDescription; post-apostolic voices line; Tertullian name and four-link reading), P2 (Origen, Athanasius, Gregory of Nyssa, Ephrem, Chrysostom, Nestorius, Simeon of Beth Arsham, Peter the Iberian), P3 (Gregory the Great, Tyndale, Thomas a Kempis, Wyclif, Luther, Calvin, Ignatius, Wesley; Windesheim line).",
+ "verdict": "revise",
+ "findings": [
+  {
+   "id": "RP-B1",
+   "target": "P1+P3 concerns; P2+P3 concerns",
+   "field": "concerns",
+   "severity": "blocking",
+   "problem": "Two existing links are given concerns by two packages with different persons, but concerns is one person ID per link (tools/validate-census.mjs line 225-231). As drafted the merged release cannot hold both: latin-pastoral-congregational-christianity--the-reformed-cities-zurich-and-geneva (P1 augustine-of-hippo, P3 john-calvin) and antiochene-exegetical-christianity-chrysostom-ce--the-reformed-cities-zurich-and-geneva (P2 john-chrysostom, P3 john-calvin).",
+   "evidence": "REV-P/concerns_dump.txt (DUPES line). Both notes quote Calvin's own Institutes about the earlier man.",
+   "fix": "Coordinator picks one rule and applies it across all three packages. Recommended: the person whose own words the link quotes (the rule P1 used for the Jerome/Origen links and P2 recorded in not_concerns), so both go to john-calvin and P1/P2 drop their entries. Augustine's and Chrysostom's legacy sentences can still name the link. If both persons must be drawn, that is a P2-G2 schema question (list-valued concerns), as P2 flags."
+  },
+  {
+   "id": "RP-S1",
+   "target": "augustine-of-hippo",
+   "field": "why; longDescription (para 2); fact rows 8, 19",
+   "severity": "substantial",
+   "problem": "'came to faith in a garden near Milan' / 'In a garden near the city'. The Confessions place the garden at the house where he lodged in Milan. The draft follows Schaff's introduction, which puts it at the Villa Cassiciacum, the country house he went to afterwards. A secondary slip overrides the primary text.",
+   "evidence": "cic/texts/npnf101_augustine-confessions-letters.xml 12800-12802 (Confessions VIII.8): 'There was a little garden belonging to our lodging, of which we had the use, as of the whole house'; vs 1194-1195 (Schaff intro): 'in a garden of the Villa Cassiciacum, not far from Milan'.",
+   "fix": "Say 'in the garden of the house where he lodged in Milan' (why: 'in a garden in Milan'). Cite 12800-12801 as Documented. Keep Schaff only for the date, September 386."
+  },
+  {
+   "id": "RP-S2",
+   "target": "nestorius",
+   "field": "why",
+   "severity": "substantial",
+   "problem": "'His own account of it all was lost for fourteen centuries, and found again in Syriac.' This is wrong and contradicts his own legacy and the custody link. The Church of the East kept the Syriac version from about 535. Ebedjesu (c. 1300) knew it, and the one copy sat in the patriarch's library at Kotchanes. It was unknown only to Western scholars until the 1890s.",
+   "evidence": "cic/texts/nestorius_bazaar-of-heracleides_driver-hodgson1925.txt 333-340 ('Apart from the reference to it by Ebedjesu it is not again heard of until the nineteenth century ... noticed in the last decade of the nineteenth century by two German scholars'); 372-376 (Syriac c. 535; one manuscript at Kotchanes).",
+   "fix": "E.g. 'His own defense survived in one Syriac copy, kept by the Church of the East, and Western scholars found it only in the 1890s.'"
+  },
+  {
+   "id": "RP-S3",
+   "target": "athanasius-of-alexandria",
+   "field": "teaser",
+   "severity": "substantial",
+   "problem": "'outlived the men who drove him out' has no fact row and is false. His fifth exile (365-366) was under Valens, who outlived him (died 378). The editor's own account dates that exile to the Procopius revolt under Valens.",
+   "evidence": "cic/texts/npnf204_athanasius-select-works-letters.xml 7104-7106 ('the shortest and mildest of the five exiles of Athanasius. In the autumn the dangerous revolt of Procopius ...'); no teaser row in P2 fact_table for this entry.",
+   "fix": "Cut the clause, e.g. 'A bishop sent into exile five times, who held to the creed of Nicaea and died in his own city.' (died at Alexandria: fact row 29)."
+  },
+  {
+   "id": "RP-S4",
+   "target": "link alexandria-catechetical--homoian-arian-christianity; athanasius-of-alexandria",
+   "field": "note; longDescription para 3; fact row 28",
+   "severity": "substantial",
+   "problem": "The note says that in his Defence Athanasius 'names the bishops who led the Arian party in his day'. The longDescription says 'he wrote against the Arians and named their leaders'. But Apologia 48 is the synodal letter of the Council of Sardica (343), which Athanasius quotes ('dearly beloved brethren ... deserting the Council'). The naming is the council's, not his. The cited quote also stops before Ursacius and Valens, whom the note names.",
+   "evidence": "cic/texts/npnf204_athanasius-select-works-letters.xml 24195-24213: the letter's own voice ('They had good reason therefore, dearly beloved brethren, for not hearkening to our frequent summons, and for deserting the Council') runs into §48's list, which ends 'Ursacius of Singidunum in Mœsia, and Valens of Mursa in Pannonia' at 24212-24213.",
+   "fix": "Note: 'In his Defence Against the Arians, Athanasius quotes the letter of the council of Sardica. It names the leaders of the party against him, among them Ursacius and Valens.' Extend the quote to 24210-24213. Fix longDescription the same way, or rest the sentence on his own anti-Arian works."
+  },
+  {
+   "id": "RP-S5",
+   "target": "link imperial-juridical-christianity--jovinian",
+   "field": "confidence",
+   "severity": "substantial",
+   "problem": "Graded Widely Accepted with no primary source. Both sources are 1890s editors' summaries (Fremantle 1893, de Romestin 1896), and the note says so itself ('His own letter is not held here'). Widely Accepted needs a primary for the facts plus a secondary. Old editors' accounts alone are Inferential-Thin, unless a modern study in the repo supports them.",
+   "evidence": "Build/Ministry/Operations/Audits/2026-11-06_census-lineage-rigor/Drafting_Brief.md 39-46; Decision-Log 'Whole-set rulings' ruling 1 and '2026-11-08 Dominant links on two or three old accounts'. Sources: npnf206 33894-33896, npnf210 1478-1479 (both secondary).",
+   "fix": "Inferential-Thin, with the note's existing 'not held here' line kept. Put Siricius's letter (and Ambrose Letter 42 if not vendored) on wants."
+  },
+  {
+   "id": "RP-S6",
+   "target": "neighbor change devotio-moderna-brethren-of-the-common-life; thomas-a-kempis",
+   "field": "longDescription (neighbor); home why",
+   "severity": "substantial",
+   "problem": "The rewritten Devotio Moderna text keeps 'One such gathering, worked up by Thomas à Kempis at a house near Zwolle, became the Imitation of Christ'. That states the authorship as settled. The new Kempis page tags it Contested and names both sides (Busch; Atkynson's Gerson; Benham), so the person page contradicts its home text in the very field this change rewrites. The home why ('That habit produced Thomas a Kempis's Imitation of Christ') has the same flat claim.",
+   "evidence": "P3/Draft.json neighbor_changes[0].set.longDescription; census devotio-moderna-brethren-of-the-common-life.why; P3 fact rows 78-79, 94-97 (graded Contested). The home voices line already says 'credited with'.",
+   "fix": "In the neighbor change, write 'One such gathering became the Imitation of Christ, credited to Thomas à Kempis of Mount St Agnes near Zwolle, though its authorship is disputed.' Flag the home why to its owner (doc-hygiene on another thread's text), or add it to the same neighbor change if the coordinator owns it."
+  },
+  {
+   "id": "RP-M1",
+   "target": "ambrose-of-milan",
+   "field": "fact row 76",
+   "severity": "minor",
+   "problem": "'on 7 December 374 he was consecrated' cites line 597, which is the 359 consecration of Eudoxius. The date is right, but it sits elsewhere in the file.",
+   "evidence": "cic/texts/npnf210_ambrose-select-works-letters.xml 597 ('Eudoxius consecrated Bishop.'); 965 ('days later, December 7, a.d. 374, he was').",
+   "fix": "Re-cite to 964-966."
+  },
+  {
+   "id": "RP-M2",
+   "target": "john-wesley",
+   "field": "longDescription para 4; fact row 245",
+   "severity": "minor",
+   "problem": "'In 1741 he read Luther's book on Galatians again'. The journal says he had only esteemed it from others' praise and from quoted sentences. It does not say he had read it before.",
+   "evidence": "cic/texts/wesley-j_journal-v2_curnock1909.txt 28330-28335 ('only because I heard it so commended by others; or, at best, because I had read some excellent sentences occasionally quoted from it').",
+   "fix": "Drop 'again'."
+  },
+  {
+   "id": "RP-M3",
+   "target": "thomas-a-kempis",
+   "field": "why",
+   "severity": "minor",
+   "problem": "'sixty-five years as a canon' is the drafter's own sum (1406 to 1471). The cited chronicle line says 'the sixty-third year after his investiture'.",
+   "evidence": "cic/texts/kempis_chronicle-of-mount-st*.txt 3415-3416.",
+   "fix": "'from his investiture in 1406 until his death in 1471', or 'more than sixty years', or the chronicle's own figure, attributed to it."
+  },
+  {
+   "id": "RP-M4",
+   "target": "thomas-a-kempis",
+   "field": "longDescription para 1",
+   "severity": "minor",
+   "problem": "'Florentius sent him to his own brother John' reads as Florentius's brother. The prior was Thomas's own brother.",
+   "evidence": "kempis chronicle 3419-3421 ('by whom also he was sent, when twenty years old, to his own brother, who at that time was Prior').",
+   "fix": "'Florentius sent him to Thomas's own elder brother John, prior of ...' (or 'to his brother John' after naming Thomas as subject); keep 'elder' only if sourced."
+  },
+  {
+   "id": "RP-M5",
+   "target": "origen",
+   "field": "longDescription para 3",
+   "severity": "minor",
+   "problem": "'About 231 he left Alexandria for Caesarea ... His own bishop, Demetrius, had cut him off.' The past perfect puts the cutting off before the move. The home text has it as 'falling out with his bishop and moving', and the cited source (History of the Patriarchs) gives no order.",
+   "evidence": "census alexandria-catechetical.longDescription; P2 fact row 7.",
+   "fix": "'His own bishop, Demetrius, cut him off.' (no sequence claimed)."
+  },
+  {
+   "id": "RP-M6",
+   "target": "link georgian-christianity--peter-the-iberian; peter-the-iberian",
+   "field": "note; sources; fact row 157",
+   "severity": "minor",
+   "problem": "'The family was Christian' is cited to Raabe 1306, but there 'christ-' describes the emperor's court. The family's faith is at 864-865: Bakurios was 'der erste von den Regierenden jenes Landes ein christlicher König'.",
+   "evidence": "cic/texts/life-of-peter-the-iberian_petrus-der-iberer-deu_raabe1895.txt 1306 vs 864-865.",
+   "fix": "Add a source at 864-865 with that quote; keep 1306 for the hostage at twelve."
+  },
+  {
+   "id": "RP-M7",
+   "target": "peter-the-iberian",
+   "field": "legacy",
+   "severity": "minor",
+   "problem": "'two years after Peter died' is exact, but the source says 'About 490'.",
+   "evidence": "cic/texts/severus-of-antioch_select-letters-book6-part1_brooks1903.txt 118-120.",
+   "fix": "'about two years after Peter died'."
+  },
+  {
+   "id": "RP-M8",
+   "target": "link antiochene-exegetical-christianity-chrysostom-ce--the-church-of-the-east-under-persia--2; nestorius",
+   "field": "sources[0].kind; legacy",
+   "severity": "minor",
+   "problem": "The custody link's first source is labelled primary, but its quote is the 1925 editors' introduction citing Bedjan. It is secondary. The legacy line 'around 535, its editors say' also drops that the editors take the date from Bedjan, and that Bethune-Baker proposed 525-533. The link type (influenced, for custody) and the Widely Accepted grade are sound, and the note says plainly that the copy was kept at Kotchanes.",
+   "evidence": "nestorius_bazaar-of-heracleides_driver-hodgson1925.txt 372-373 ('according to Bedjan'); 330-333 (Bethune-Baker 'between 525 and 533, but no absolute certainty').",
+   "fix": "Set kind secondary. Legacy: 'made around 535, according to the scholar Bedjan, though the date is not certain'."
+  },
+  {
+   "id": "RP-M9",
+   "target": "nestorius",
+   "field": "floorNote; fact rows 92-93",
+   "severity": "minor",
+   "problem": "The two floorNote sentences cite lines that do not support them. 'In his own defense Nestorius denied it' cites a running head, 'Cyril the aggressor'. 'Historians still argue over what he really taught' cites a sentence identifying the book with Evagrius's mention.",
+   "evidence": "driver-hodgson 7247; 329.",
+   "fix": "Cite a Bazaar passage where Nestorius rejects the charge of two sons/two persons, and the Bethune-Baker framing (Nestorius and his Teaching, 1908, named at 310-311) for the open question, or tag the last sentence as resting on that one 1908 study."
+  },
+  {
+   "id": "RP-M10",
+   "target": "ephrem-the-syrian",
+   "field": "why; fact row 60",
+   "severity": "minor",
+   "problem": "'He was a deacon at Nisibis, and later at Edessa' is stated flat, but its fact row is graded Contested: Gwynn says he was made deacon by Basil. Following the home text avoids a contradiction, but leaves a claim tagged disputed presented as settled.",
+   "evidence": "cic/texts/npnf213_gregory-great-ephraim-syrus-aphrahat.xml 10620-10622 ('from him he received the diaconate').",
+   "fix": "Either 'He served as a deacon. The sources differ on where he was ordained.' or drop the place. Grade then fits."
+  },
+  {
+   "id": "RP-M11",
+   "target": "ambrose-of-milan; link ambrosian-milan-standalone--jovinian",
+   "field": "relationsSummary/longDescription",
+   "severity": "minor",
+   "problem": "Two-way check: the new link names Ambrose (concerns ambrose-of-milan), but Ambrose's page never mentions Jovinian.",
+   "evidence": "P1 links[2]; Ambrose prose.",
+   "fix": "Add one sentence, e.g. 'About 390 he and a synod at Milan joined Rome's sentence on the monk Jovinian.' (editor's summary; grade to match the link)."
+  },
+  {
+   "id": "RP-M12",
+   "target": "john-chrysostom",
+   "field": "why",
+   "severity": "minor",
+   "problem": "'That plain speech made him loved in the city and hated at court' has no fact row. The home text supports only that preaching to the court was 'roughly why he died in exile'.",
+   "evidence": "census antiochene-exegetical-christianity-chrysostom-ce.longDescription; P2 fact rows 75-77.",
+   "fix": "'That plain speech, aimed at the court too, led in the end to his exile.'"
+  },
+  {
+   "id": "RP-M13",
+   "target": "john-calvin",
+   "field": "longDescription para 4",
+   "severity": "minor",
+   "problem": "'He wanted Michael Servetus put to death' is supported. But the same cited letter goes on to ask that 'the severity of the punishment may be mitigated'. Without that clause the line reads harsher than the source.",
+   "evidence": "Existing link the-reformed-cities-zurich-and-geneva--anti-trinitarian-currents-servetus-polish-brethr, Calvin Letters vol. 2 (Bonnet 1858).",
+   "fix": "'He hoped Servetus would be sentenced to death, though by a milder death than fire, and in 1553 Geneva burned him.'"
+  },
+  {
+   "id": "RP-M14",
+   "target": "P1 jovinian vs P2 peter-the-iberian",
+   "field": "status",
+   "severity": "minor",
+   "problem": "The two persons told within no tradition get different statuses. Jovinian is 'Contested - Evidentiary' (cev) and Peter is 'Pre-Survey Candidate' with a new statusWord. Both are flagged, but the release needs one convention.",
+   "evidence": "P1 entries[3]; P2 entries[7]; P2 flags.",
+   "fix": "Coordinator/Mark choose one convention for told-within-none persons. Then either apply it to both, or state why the two differ (hostile-only record vs disciples' record)."
+  },
+  {
+   "id": "RP-M15",
+   "target": "most person pages, P1-P3",
+   "field": "longDescription opening; sourcing",
+   "severity": "minor",
+   "problem": "The same template opens about ten pages: 'X's place on the map is within Y. That entry tells ... Here the man himself is in view.' P3 has its own: 'This page holds the man' and 'The record is rich. We have ...'. Read side by side, the repeated cadence sounds generated, not like the world's voice. It also repeats relationsSummary.",
+   "evidence": "Augustine, Cyprian, Ambrose, Jerome, Origen, Gregory of Nyssa, Ephrem, Chrysostom, Nestorius, Simeon longDescription para 1; P3 why/sourcing.",
+   "fix": "Vary or cut the first paragraph where relationsSummary already gives the home. Open on the person."
+  },
+  {
+   "id": "RP-M16",
+   "target": "P3 entries",
+   "field": "floorNote; voices; sourcing",
+   "severity": "minor",
+   "problem": "P3 departs from P1/P2 and the census. floorNotes are fragments ('No question'), where the census uses 'Not in question.' Kempis's floorNote holds the Imitation authorship dispute, which is not a floor question. voices use ' - ' for ' — '. sourcing gives no shelf count.",
+   "evidence": "P3 entries floorNote/voices/sourcing; census person model tertullian-s-voice.",
+   "fix": "floorNote 'Not in question.' for all eight. The authorship dispute stays in longDescription. Use em dashes in voices, and add the own-works shelf count as P1/P2 do."
+  }
+ ],
+ "checked": "Mechanical: check_draft.py on all three drafts, clean (every quote verbatim at its lines, every prose paragraph within FRE>=60/FK<=10). Concerns: every one of the 109 concerns entries (P1 42, P2 18, P3 49) checked against its link's note and source quotes in census_release22.json (REV-P/dump_concerns.py, output REV-P/concerns_dump.txt), judged for whether the link is about the named person, not only names him. All are defensible except the two cross-package collisions (RP-B1). Irenaeus on the Marcion/Valentinian links is acceptable: he is the only person entry told within the house-church end, and Against Heresies is itself the argument. P2 not_concerns and P1 tertullian_link_reading reviewed; consistent. Every roman-church-gregorian link carries concerns gregory-the-great, so his relationsSummary 'each one naming him' holds. Links: all 16 new links read in full, with their sources opened at the cited lines for the people links. Peter the Iberian's argued-against link is Inferential-Thin, and its note says plainly why (no text shows him acting against the Judean desert monks by name). The Peter links to Georgia, Syriac Orthodox and II.1 are typed and graded within method (Georgia 'gave rise to' is flagged as a convention question). The Simeon-Aksum in-contact link is acceptable: the envoy he met came from the Christian king of Himyar whom the Ethiopians set up; aksumite-christianity tells Najran/Himyar as its own story; Widely Accepted for Halevy's forgery view (Moberg 1614-1615). The Nestorius custody link is drafted as 'influenced', Widely Accepted on the 1925 editors; sound, see RP-M8 for a source-kind label. The cyrilline<->antiochene pair (Ephesus 431, outcome) and alexandria--cyrilline (433) depend on II.1's extension to 328, as P2 flags. lpc--roman-church-third-century (Cyprian-Stephen) and hieronymian--jovinian are Documented on primary quotes. ambrosian--jovinian is Widely Accepted on a primary plus editor. imperial--jovinian is overgraded (RP-S5). lutheran--methodist (Aldersgate) is Documented. Dates: every dates/start/end checked against fact rows and sources, and against home spans. Person spans outside the home span are flagged by the drafters (Nestorius past 430; Jerome from 374 before the 382 home start). modernCountries IDs: every place/placeId/countryId/pleiadesId tuple matches an existing census entry. All IDs are new; all shortNames are 20 characters or fewer. Prose facts: P1 and P2 fact tables read row by row (103 and 177 rows). Quotes were opened in the vendored file where the row carried a precise date, office or place, or where the quote looked thin (about 40 openings: Confessions garden; Schaff chronology; Faustus; Ambrose consecration and death; Pontius trees; De baptismo note; Bazaar intro 262-380 and 690-694, 7244-7253; Zachariah 9530-9560, 9785-9798, 9994-10000, 498-504; Gwynn on Ephrem 10606-10630; Raabe 855-868, 1302-1308, 4125-4132; Nau 364-378; Brooks 116-122, 4120-4126; Apologia 24195-24213 and 7098-7106). P3's 255 rows were read in full. Openings were sampled where a number or sequence was asserted (Kempis chronicle 3410-3424; Wesley journal 28330-28339; Tyndale treatises 1208-1220, 1162-1170, 3336-3344; Wace-Buchheim 1885 header and 2590-2600; Ignatius autobiography 1553-1555 lines). Rows citing census text or an existing link were checked against that census text. Rulings: each person's home matches ruling 5/10-16 and P4. lpc text checked against Build/worlds/lpc/Doc_01 section 2 'Historical Pressures': it now names the Donatist schism, Manichaeism and Pelagius, plus Cyprian's Novatian and Stephen quarrels, each with a link; no lpc world file touched. Irenaeus line is in voices, not longDescription (P1 flags it for the coordinator; acceptable reading of ruling 11). Windesheim line is present (see RP-S6). Tyndale page says his work precedes the 1530s start. Jovinian and Peter pages say 'known only through ...'. Founders' pages (Luther, Calvin, Ignatius, Wesley, Wyclif, Gregory) point to their tradition's entry instead of retelling it. Home-text contradiction check: each person page compared with its home entry's dated sentences. Only Kempis/Devotio Moderna conflicts (RP-S6). Ephrem is qualified, not contradicted. Not checked: the people rows on home movements (separate pass), and the later-worlds/person counts."
+}

@@ -1,0 +1,471 @@
+[
+ {
+  "movement": "the-optina-elders-and-russian-ascetic-renewal",
+  "field": "longDescription",
+  "paragraph": 0,
+  "scored": true,
+  "fre": 61.24562347931874,
+  "fk": 7.553010948905111,
+  "words": 139
+ },
+ {
+  "movement": "the-optina-elders-and-russian-ascetic-renewal",
+  "field": "why",
+  "paragraph": 0,
+  "scored": true,
+  "fre": 70.80111111111111,
+  "fk": 6.258659611992947,
+  "words": 83
+ },
+ {
+  "movement": "the-optina-elders-and-russian-ascetic-renewal",
+  "field": "legacy",
+  "paragraph": 0,
+  "scored": true,
+  "fre": 62.98005393743259,
+  "fk": 7.317993527508094,
+  "words": 105
+ },
+ {
+  "movement": "coptic-revival-under-cyril-iv",
+  "field": "relationsSummary",
+  "paragraph": 0,
+  "scored": true,
+  "fre": 73.40813725490199,
+  "fk": 5.83588235294118,
+  "words": 33
+ },
+ {
+  "movement": "coptic-revival-under-cyril-iv",
+  "field": "legacy",
+  "paragraph": 0,
+  "scored": true,
+  "fre": 62.727142857142894,
+  "fk": 7.242857142857144,
+  "words": 77
+ },
+ {
+  "movement": "jehovah-s-witnesses-bible-students",
+  "field": "longDescription",
+  "paragraph": 0,
+  "scored": true,
+  "fre": 67.77329545454546,
+  "fk": 7.22219696969697,
+  "words": 167
+ },
+ {
+  "movement": "jehovah-s-witnesses-bible-students",
+  "field": "why",
+  "paragraph": 0,
+  "scored": true,
+  "fre": 64.57362068965519,
+  "fk": 8.369408866995077,
+  "words": 117
+ },
+ {
+  "movement": "korean-catholic-origins",
+  "field": "relationsSummary",
+  "paragraph": 0,
+  "scored": true,
+  "fre": 61.45839285714288,
+  "fk": 7.7303571428571445,
+  "words": 50
+ },
+ {
+  "movement": "orthodoxy-after-1821-balkan-autocephalies",
+  "field": "longDescription",
+  "paragraph": 0,
+  "scored": true,
+  "fre": 62.55781479666831,
+  "fk": 7.534012738853505,
+  "words": 164
+ },
+ {
+  "movement": "orthodoxy-after-1821-balkan-autocephalies",
+  "field": "why",
+  "paragraph": 0,
+  "scored": true,
+  "fre": 60.84163793103451,
+  "fk": 8.375344827586208,
+  "words": 60
+ },
+ {
+  "movement": "old-catholic-churches-union-of-utrecht",
+  "field": "legacy",
+  "paragraph": 0,
+  "scored": true,
+  "fre": 62.07230392156865,
+  "fk": 8.120882352941177,
+  "words": 88
+ },
+ {
+  "movement": "american-unitarianism-universalism-consolidations",
+  "field": "relationsSummary",
+  "paragraph": 0,
+  "scored": true,
+  "fre": 60.6010792349727,
+  "fk": 7.33237704918033,
+  "words": 64
+ },
+ {
+  "movement": "american-unitarianism-universalism-consolidations",
+  "field": "longDescription",
+  "paragraph": 0,
+  "scored": true,
+  "fre": 61.14304347826089,
+  "fk": 7.179889579020017,
+  "words": 213
+ },
+ {
+  "movement": "ruthenian-greek-catholic-polotsk-to-galicia",
+  "field": "longDescription",
+  "paragraph": 0,
+  "scored": true,
+  "fre": 61.43153301886795,
+  "fk": 7.982531446540882,
+  "words": 160
+ },
+ {
+  "movement": "ruthenian-greek-catholic-polotsk-to-galicia",
+  "field": "legacy",
+  "paragraph": 0,
+  "scored": true,
+  "fre": 64.89728571428573,
+  "fk": 8.38104761904762,
+  "words": 86
+ },
+ {
+  "movement": "church-of-the-east-chaldean-consolidation",
+  "field": "why",
+  "paragraph": 0,
+  "scored": true,
+  "fre": 60.651910447761196,
+  "fk": 8.128537313432837,
+  "words": 69
+ },
+ {
+  "movement": "malagasy-christianity",
+  "field": "legacy",
+  "paragraph": 0,
+  "scored": true,
+  "fre": 60.0529566210046,
+  "fk": 7.905684931506851,
+  "words": 73
+ },
+ {
+  "movement": "taiping-heavenly-kingdom",
+  "field": "relationsSummary",
+  "paragraph": 0,
+  "scored": true,
+  "fre": 64.13493150684931,
+  "fk": 6.904540117416833,
+  "words": 76
+ },
+ {
+  "movement": "haitian-church-rupture-to-concordat",
+  "field": "relationsSummary",
+  "paragraph": 0,
+  "scored": true,
+  "fre": 71.81757653061226,
+  "fk": 6.285459183673471,
+  "words": 52
+ },
+ {
+  "movement": "nineteenth-century-latin-american-catholicism",
+  "field": "legacy",
+  "paragraph": 0,
+  "scored": true,
+  "fre": 60.40266566265062,
+  "fk": 9.989246987951809,
+  "words": 85
+ },
+ {
+  "movement": "ethiopian-christianity-tewodros-to-menelik",
+  "field": "longDescription",
+  "paragraph": 0,
+  "scored": true,
+  "fre": 65.87640156453718,
+  "fk": 7.453333333333333,
+  "words": 181
+ },
+ {
+  "link": "desert-monasticism--the-kollyvades-and-greek-renewal",
+  "field": "note",
+  "scored": true,
+  "fre": 60.90479674796748,
+  "fk": 8.159512195121952,
+  "words": 42
+ },
+ {
+  "link": "russian-church-synodal-century--the-optina-elders-and-russian-ascetic-renewal",
+  "field": "note",
+  "scored": true,
+  "fre": 66.2107971014493,
+  "fk": 7.8334782608695654,
+  "words": 48
+ },
+ {
+  "link": "russian-church-synodal-century--ruthenian-greek-catholic-polotsk-to-galicia",
+  "field": "note",
+  "scored": true,
+  "fre": 65.72500000000001,
+  "fk": 7.570000000000004,
+  "words": 43
+ },
+ {
+  "link": "russian-church-synodal-century--ruthenian-greek-catholic-polotsk-to-galicia",
+  "field": "outcome",
+  "scored": true,
+  "fre": 60.70500000000001,
+  "fk": 7.773333333333333,
+  "words": 25
+ },
+ {
+  "link": "russian-church-synodal-century--japanese-christianity-hidden-emergence-meiji",
+  "field": "note",
+  "scored": true,
+  "fre": 64.85201754385966,
+  "fk": 7.360526315789475,
+  "words": 39
+ },
+ {
+  "link": "russian-church-synodal-century--the-old-believers",
+  "field": "note",
+  "scored": true,
+  "fre": 70.93338461538464,
+  "fk": 5.30328205128205,
+  "words": 43
+ },
+ {
+  "link": "the-optina-elders-and-russian-ascetic-renewal--emigre-orthodoxy-and-the-paris-school",
+  "field": "note",
+  "scored": true,
+  "fre": 63.486153846153854,
+  "fk": 7.633846153846157,
+  "words": 40
+ },
+ {
+  "link": "russian-church-synodal-century--alaskan-mission-herman-veniaminov",
+  "field": "note",
+  "scored": true,
+  "fre": 63.69500000000001,
+  "fk": 8.350000000000005,
+  "words": 49
+ },
+ {
+  "link": "alaskan-mission-herman-veniaminov--american-orthodoxy-autocephaly-and-the-convert-wave",
+  "field": "note",
+  "scored": true,
+  "fre": 66.2107971014493,
+  "fk": 7.8334782608695654,
+  "words": 48
+ },
+ {
+  "link": "church-of-the-east-chaldean-consolidation--victorian-church-of-england",
+  "field": "note",
+  "scored": true,
+  "fre": 63.13333333333334,
+  "fk": 8.34553191489362,
+  "words": 48
+ },
+ {
+  "link": "church-of-the-east-chaldean-consolidation--the-sayfo-and-the-syriac-diaspora",
+  "field": "note",
+  "scored": true,
+  "fre": 61.9929811320755,
+  "fk": 7.245886792452833,
+  "words": 57
+ },
+ {
+  "link": "armenian-christianity-zartonk--the-armenian-church-after-the-genocide-medz-yegh",
+  "field": "note",
+  "scored": true,
+  "fre": 61.33333333333334,
+  "fk": 8.596595744680851,
+  "words": 49
+ },
+ {
+  "link": "ruthenian-greek-catholic-polotsk-to-galicia--the-ukrainian-greek-catholic-underground",
+  "field": "note",
+  "scored": true,
+  "fre": 63.770000000000024,
+  "fk": 8.091111111111115,
+  "words": 48
+ },
+ {
+  "link": "catholic-church-long-nineteenth-century--old-catholic-churches-union-of-utrecht",
+  "field": "note",
+  "scored": true,
+  "fre": 62.493401360544254,
+  "fk": 8.600408163265307,
+  "words": 52
+ },
+ {
+  "link": "old-catholic-churches-union-of-utrecht--victorian-church-of-england",
+  "field": "note",
+  "scored": true,
+  "fre": 62.53253623188408,
+  "fk": 8.346521739130438,
+  "words": 47
+ },
+ {
+  "link": "old-catholic-churches-union-of-utrecht--russian-church-synodal-century",
+  "field": "note",
+  "scored": true,
+  "fre": 64.40294573643413,
+  "fk": 7.837209302325583,
+  "words": 43
+ },
+ {
+  "link": "old-catholic-churches-union-of-utrecht--orthodoxy-after-1821-balkan-autocephalies",
+  "field": "note",
+  "scored": true,
+  "fre": 69.88905797101451,
+  "fk": 7.320434782608697,
+  "words": 47
+ },
+ {
+  "link": "catholic-church-long-nineteenth-century--the-catholic-church-pius-x-to-the-council",
+  "field": "note",
+  "scored": true,
+  "fre": 73.46235294117649,
+  "fk": 7.2360784313725475,
+  "words": 52
+ },
+ {
+  "link": "catholic-church-long-nineteenth-century--nineteenth-century-latin-american-catholicism",
+  "field": "note",
+  "scored": true,
+  "fre": 69.31034836065577,
+  "fk": 7.380450819672131,
+  "words": 63
+ },
+ {
+  "link": "catholic-church-long-nineteenth-century--nineteenth-century-latin-american-catholicism",
+  "field": "outcome",
+  "scored": true,
+  "fre": 60.70500000000001,
+  "fk": 7.773333333333333,
+  "words": 25
+ },
+ {
+  "link": "catholic-church-long-nineteenth-century--haitian-church-rupture-to-concordat",
+  "field": "note",
+  "scored": true,
+  "fre": 60.0566666666667,
+  "fk": 8.195,
+  "words": 43
+ },
+ {
+  "link": "colonial-latin-american-devotional-catholicism--nineteenth-century-latin-american-catholicism",
+  "field": "note",
+  "scored": true,
+  "fre": 63.23166666666668,
+  "fk": 8.91148148148148,
+  "words": 55
+ },
+ {
+  "link": "china-mission-born-christianity--korean-catholic-origins",
+  "field": "note",
+  "scored": true,
+  "fre": 69.75357142857145,
+  "fk": 7.00809523809524,
+  "words": 42
+ },
+ {
+  "link": "catholic-church-long-nineteenth-century--japanese-christianity-hidden-emergence-meiji",
+  "field": "note",
+  "scored": true,
+  "fre": 60.70500000000001,
+  "fk": 7.773333333333333,
+  "words": 38
+ },
+ {
+  "link": "coptic-christianity-fatimid-to-mamluk--coptic-revival-under-cyril-iv",
+  "field": "note",
+  "scored": true,
+  "fre": 81.91881818181821,
+  "fk": 5.1125454545454545,
+  "words": 71
+ },
+ {
+  "link": "coptic-revival-under-cyril-iv--the-coptic-monastic-and-sunday-school-revival",
+  "field": "note",
+  "scored": true,
+  "fre": 71.76785714285715,
+  "fk": 6.727142857142859,
+  "words": 42
+ },
+ {
+  "link": "coptic-revival-under-cyril-iv--ethiopian-christianity-tewodros-to-menelik",
+  "field": "note",
+  "scored": true,
+  "fre": 66.71030303030307,
+  "fk": 8.509090909090908,
+  "words": 57
+ },
+ {
+  "link": "ethiopian-christianity-tewodros-to-menelik--modern-ethiopian-and-eritrean-christianity",
+  "field": "note",
+  "scored": true,
+  "fre": 67.93166666666669,
+  "fk": 8.255925925925926,
+  "words": 56
+ },
+ {
+  "link": "east-african-christianity-uganda-martyrs--the-east-african-revival-balokole",
+  "field": "note",
+  "scored": true,
+  "fre": 60.90479674796748,
+  "fk": 8.159512195121952,
+  "words": 43
+ },
+ {
+  "link": "the-optina-elders-and-russian-ascetic-renewal--the-russian-new-martyrs-and-the-catacomb-church",
+  "field": "note",
+  "scored": true,
+  "fre": 61.20287878787883,
+  "fk": 8.366363636363637,
+  "words": 46
+ },
+ {
+  "link": "catholic-church-long-nineteenth-century--church-of-the-east-chaldean-consolidation",
+  "field": "note",
+  "scored": true,
+  "fre": 62.45500000000004,
+  "fk": 9.516666666666666,
+  "words": 61
+ },
+ {
+  "link": "catholic-church-long-nineteenth-century--church-of-the-east-chaldean-consolidation",
+  "field": "outcome",
+  "scored": true,
+  "fre": 66.67612068965518,
+  "fk": 7.561551724137935,
+  "words": 29
+ },
+ {
+  "link": "victorian-church-of-england--east-african-christianity-uganda-martyrs",
+  "field": "note",
+  "scored": true,
+  "fre": 60.90479674796748,
+  "fk": 8.159512195121952,
+  "words": 42
+ },
+ {
+  "link": "catholic-church-long-nineteenth-century--east-african-christianity-uganda-martyrs",
+  "field": "note",
+  "scored": true,
+  "fre": 61.3169230769231,
+  "fk": 7.936410256410259,
+  "words": 42
+ },
+ {
+  "link": "the-kollyvades-and-greek-renewal--russian-church-synodal-century",
+  "field": "note",
+  "scored": true,
+  "fre": 61.890000000000015,
+  "fk": 8.353333333333339,
+  "words": 47
+ }
+]

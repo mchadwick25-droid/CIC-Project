@@ -1,0 +1,11 @@
+source_file: stephen-bourbon_anecdotes-historiques-lat_lecoy-de-la-marche1877.txt
+assignments:
+- row_id: stephen-bourbon_anecdotes-historiques-lat_lecoy-de-la-marche1877--stephen-of-bourbon-anecdotes-including-the-account-of-valdes-lec
+  work: Stephen of Bourbon, anecdotes, including the account of Valdes (Lecoy de la Marche 1877)
+  author: stephen-bourbon
+  locus: the Waldensian passages from about OCR line 13327; add 12 to OCR line numbers
+  atlas_ids:
+  - the-waldensians
+  role: context
+  confidence: provisional
+  note: A Dominican inquisitor's account of Valdes, from outside the movement.

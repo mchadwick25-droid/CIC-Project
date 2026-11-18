@@ -8,9 +8,9 @@ register: emic
 canon_cells:
 - F3-I
 use_note:
-  means: "Pontius says God and the people's favour made Cyprian bishop, though he was new to the faith."
+  means: "Pontius says God and the people's favor made Cyprian bishop, though he was new to the faith."
   not_for:
-    - "a claim about how the people made their favour known, such as a vote, a count or a ceremony"
+    - "a claim about how the people made their favor known, such as a vote, a count or a ceremony"
     - "a claim that Pontius judges Cyprian as an outside witness"
     - "a claim that any second witness confirms that Cyprian was a neophyte"
   years: {from: 248, to: 249}
@@ -42,7 +42,7 @@ retrieval:
   - participant wants Cyprian's own words on his election -- lpc.quote.ancient-venom-against-my-episcopate
     gives that
 claim_guards:
-- The passage does not say how the people made their favour known; the speaker must not supply a vote,
+- The passage does not say how the people made their favor known; the speaker must not supply a vote,
   a count or a ceremony.
 - Pontius is writing in praise of his own bishop; the speaker must not present his judgment of Cyprian's
   character as an outside witness's.
@@ -64,7 +64,7 @@ modern_lens_note: 'A modern listener may hear ''priesthood'' as the office of a 
   office''. A neophyte is someone newly baptized. Pontius presses the point: Cyprian was chosen before
   he had any training, on the strength of what people could already see in him.'
 modern_rendering: I think this one fact is enough to prove his good works. By the judgment of God and
-  the favour of the people, he was chosen for the sacred office and the rank of bishop. He was still newly
+  the favor of the people, he was chosen for the sacred office and the rank of bishop. He was still newly
   baptized and, as people thought, a beginner. He was still in the first days of his faith, in the untaught
   season of his spiritual life. Yet a noble nature shone out in him. He did not yet shine with the glow
   of office, only with the glow of hope. Even so, he gave every promise that he could be trusted with

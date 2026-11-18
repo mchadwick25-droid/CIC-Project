@@ -41,6 +41,8 @@ relations:
 - type: enabled-by
   target: cappadocian.force.paideia-ladder
 - type: associated-with
+  target: cappadocian.force.policy-oscillation
+- type: associated-with
   target: cappadocian.force.eunomian-movement
 - type: illustrated-by
   target: cappadocian.story.athens-friendship

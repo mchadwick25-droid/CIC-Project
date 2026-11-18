@@ -21,7 +21,7 @@ confidence:
     self-understanding, not as independently established fact.
 sources:
 - source_id: gallic.source.sulpitius-dialogues-ii-iii
-  locus: "Dialogues III.12-13 (npnf211 divs ii.iv.iii.xii-xiii, file lines 5145-5219): the bishops' terror before Maximus, the executioners appointed, Martin's night plea, the forced communion at Felix's ordination, the mourning at Andethanna, the angel's rebuke, and the diminished power that followed"
+  locus: "Dialogues III.12-13 (cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml, lines 5145-5219; divs ii.iv.iii.xii-xiii): the bishops' terror before Maximus, the executioners appointed, Martin's night plea, the forced communion at Felix's ordination, the mourning at Andethanna, the angel's rebuke, and the diminished power that followed"
   license: public-domain
 retrieval:
   tier: 1

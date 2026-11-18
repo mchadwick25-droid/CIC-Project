@@ -1,0 +1,285 @@
+{
+ "draft": "Among us a person was taught first and washed afterward [[lpc.term.catechesis]] [[as:paraphrase]]. We told the person what they were joining before they joined it [[lpc.term.catechesis]] [[as:paraphrase]]. The person said the creed back, and then we baptized them [[lpc.term.catechesis]] [[as:paraphrase]].\n\nThat teaching was catechesis, the teaching given before baptism, including the creed [[lpc.term.catechesis]] [[as:paraphrase]]. Augustine wrote a guide to it [[lpc.term.catechesis]] [[as:paraphrase]]. Both bishops preached to shape believers, and Augustine's works for those preparing for baptism have the same aim [[lpc.gravity.preaching-and-catechesis]] [[as:paraphrase]].\n\nSomeone already baptized outside our church came in another way, and we answered that question twice [[lpc.term.heresy]] [[as:paraphrase]]. Cyprian's council said a baptism given outside counted for nothing [[lpc.term.heresy]] [[as:paraphrase]]. Augustine said that baptism was given, though it did the person no good there [[lpc.term.heresy]] [[as:paraphrase]]. Augustine would not rebaptize someone already baptized among heretics [[lpc.witness.baptism-traced-to-the-apostles]] [[as:paraphrase]].\n\nAugustine, our bishop at Hippo, wrote about whose act a baptism is: [[quote:lpc.quote.peter-may-baptize-but-this-is-he-that-baptizeth]]\n",
+ "ending": "rewritten",
+ "final": "Among us a person was taught first and washed afterward. We told the person what the person was joining before the person joined. The person said the creed back, and then we baptized the person. Catechesis was the teaching given before baptism, including the creed. Augustine wrote a guide to catechesis. Both bishops preached to shape believers, and Augustine's works for those preparing for baptism have the same aim. Cyprian's council said a baptism given outside our one church counted for nothing. Augustine said a baptism given outside our one church was given, though it did no good there. Augustine would not rebaptize someone already baptized among heretics.",
+ "group": "A",
+ "offered": [
+  "lpc.limit.apostolic-origin-undefended",
+  "lpc.witness.baptism-traced-to-the-apostles",
+  "lpc.term.catechesis",
+  "lpc.term.heresy",
+  "lpc.story.election-of-cyprian",
+  "lpc.story.celerinus-writes-to-lucian",
+  "lpc.quote.peter-may-baptize-but-this-is-he-that-baptizeth",
+  "lpc.gravity.preaching-and-catechesis",
+  "lpc.witness.judged-on-the-life-lived-here",
+  "lpc.quote.all-sins-against-us-are-to-be-forgiven",
+  "lpc.witness.the-dying-and-the-pastors-post",
+  "lpc.term.reconciliation-penitential-discipline",
+  "lpc.quote.before-even-a-deacon",
+  "lpc.quote.all-the-merit-or-demerit-is-acquired-in-this-life"
+ ],
+ "placements": [
+  {
+   "decision": "drop",
+   "judgement": {
+    "fit": "partly",
+    "limit_stated": false,
+    "reason": "It says whose act baptism is, which touches one step of joining but does not describe the process."
+   },
+   "record_id": "lpc.quote.peter-may-baptize-but-this-is-he-that-baptizeth"
+  }
+ ],
+ "question": "Describe, step by step, the process by which someone joined your community.",
+ "question_id": "q018",
+ "read": {
+  "dropped": [
+   "lpc.quote.peter-may-baptize-but-this-is-he-that-baptizeth"
+  ],
+  "status": "rewrite",
+  "unsupported": {
+   "6": {
+    "problem": "added_detail",
+    "reason": "The heresy record says only that the question of outside baptism was answered twice, not that such a person came in by another way.",
+    "supported": false
+   }
+  }
+ },
+ "rewrite": [
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "lpc.term.catechesis"
+   ],
+   "sentence": "Among us a person was taught first and washed afterward.",
+   "tags": [
+    "lpc.term.catechesis"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "lpc.term.catechesis"
+   ],
+   "sentence": "We told the person what the person was joining before the person joined.",
+   "tags": [
+    "lpc.term.catechesis"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "lpc.term.catechesis"
+   ],
+   "sentence": "The person said the creed back, and then we baptized the person.",
+   "tags": [
+    "lpc.term.catechesis"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "lpc.term.catechesis"
+   ],
+   "sentence": "Catechesis was the teaching given before baptism, including the creed.",
+   "tags": [
+    "lpc.term.catechesis"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "lpc.term.catechesis"
+   ],
+   "sentence": "Augustine wrote a guide to catechesis.",
+   "tags": [
+    "lpc.term.catechesis"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "lpc.gravity.preaching-and-catechesis"
+   ],
+   "sentence": "Both bishops preached to shape believers, and Augustine's works for those preparing for baptism have the same aim.",
+   "tags": [
+    "lpc.gravity.preaching-and-catechesis"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "lpc.term.heresy"
+   ],
+   "sentence": "Cyprian's council said a baptism given outside our one church counted for nothing.",
+   "tags": [
+    "lpc.term.heresy"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "lpc.term.heresy"
+   ],
+   "sentence": "Augustine said a baptism given outside our one church was given, though it did no good there.",
+   "tags": [
+    "lpc.term.heresy"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "lpc.witness.baptism-traced-to-the-apostles"
+   ],
+   "sentence": "Augustine would not rebaptize someone already baptized among heretics.",
+   "tags": [
+    "lpc.witness.baptism-traced-to-the-apostles"
+   ]
+  }
+ ],
+ "sentences": [
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 0,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Among us a person was taught first and washed afterward.",
+   "tags": [
+    "lpc.term.catechesis"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 1,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "We told the person what they were joining before they joined it.",
+   "tags": [
+    "lpc.term.catechesis"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 2,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "The person said the creed back, and then we baptized them.",
+   "tags": [
+    "lpc.term.catechesis"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 3,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "That teaching was catechesis, the teaching given before baptism, including the creed.",
+   "tags": [
+    "lpc.term.catechesis"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 4,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Augustine wrote a guide to it.",
+   "tags": [
+    "lpc.term.catechesis"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 5,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Both bishops preached to shape believers, and Augustine's works for those preparing for baptism have the same aim.",
+   "tags": [
+    "lpc.gravity.preaching-and-catechesis"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 6,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Someone already baptized outside our church came in another way, and we answered that question twice.",
+   "tags": [
+    "lpc.term.heresy"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 7,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Cyprian's council said a baptism given outside counted for nothing.",
+   "tags": [
+    "lpc.term.heresy"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 8,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Augustine said that baptism was given, though it did the person no good there.",
+   "tags": [
+    "lpc.term.heresy"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 9,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Augustine would not rebaptize someone already baptized among heretics.",
+   "tags": [
+    "lpc.witness.baptism-traced-to-the-apostles"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": null,
+   "n": 10,
+   "placed": true,
+   "placed_id": "lpc.quote.peter-may-baptize-but-this-is-he-that-baptizeth",
+   "reason": "placed by code",
+   "sentence": "Augustine, our bishop at Hippo, wrote about whose act a baptism is: “What then did he learn from the dove, so that he would not later be found a liar? (God forbid we should think it.) It can only be this. There was to be something that belongs to Christ alone. Many ministers would baptize, whether righteous or unrighteous. But the holiness of baptism would be credited to Him alone. The dove came down on Him, and it was said of Him, ‘This is He who baptizes with the Holy Spirit.’ Peter may baptize, but this is He who baptizes. Paul may baptize, yet this is He who baptizes. Judas may baptize, still this is He who baptizes.”",
+   "tags": [
+    "lpc.quote.peter-may-baptize-but-this-is-he-that-baptizeth"
+   ]
+  }
+ ],
+ "shipped_by_net": "Among us a person was taught first and washed afterward. We told the person what they were joining before they joined it. The person said the creed back, and then we baptized them.\n\nThat teaching was catechesis, the teaching given before baptism, including the creed. Augustine wrote a guide to it. Both bishops preached to shape believers, and Augustine's works for those preparing for baptism have the same aim.\n\nSomeone already baptized outside our church came in another way, and we answered that question twice. Cyprian's council said a baptism given outside counted for nothing. Augustine said that baptism was given, though it did the person no good there. Augustine would not rebaptize someone already baptized among heretics.\n\nAugustine, our bishop at Hippo, wrote about whose act a baptism is: “What then did he learn from the dove, so that he would not later be found a liar? (God forbid we should think it.) It can only be this. There was to be something that belongs to Christ alone. Many ministers would baptize, whether righteous or unrighteous. But the holiness of baptism would be credited to Him alone. The dove came down on Him, and it was said of Him, ‘This is He who baptizes with the Holy Spirit.’ Peter may baptize, but this is He who baptizes. Paul may baptize, yet this is He who baptizes. Judas may baptize, still this is He who baptizes.”",
+ "sub_question": "C7.S1"
+}

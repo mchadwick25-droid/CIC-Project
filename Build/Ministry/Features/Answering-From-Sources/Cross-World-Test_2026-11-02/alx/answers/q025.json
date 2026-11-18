@@ -1,0 +1,106 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "alx.term.prayer"
+   ],
+   "sentence": "From inside, we describe our worship as prayer, converse with God, spoken or silent."
+  },
+  {
+   "record_ids": [
+    "alx.term.katechesis"
+   ],
+   "sentence": "Our teaching for baptism was katechesis, given step by step over a long time."
+  },
+  {
+   "record_ids": [
+    "alx.dw.church-failure"
+   ],
+   "sentence": "Our own record keeps its failures visible: our greatest teacher was driven out by his own bishop, not by pagans."
+  },
+  {
+   "record_ids": [
+    "alx.gravity.learning-community-tension"
+   ],
+   "sentence": "The school side of our record is well attested, and the community side is thinly attested."
+  }
+ ],
+ "citations": [
+  "alx.dw.church-failure",
+  "alx.gravity.learning-community-tension",
+  "alx.term.katechesis",
+  "alx.term.prayer"
+ ],
+ "group": "A",
+ "id": "q025",
+ "net_sentences": [
+  {
+   "draft": "From inside, we describe our worship as prayer, converse with God, spoken or silent [[alx.term.prayer]] [[as:paraphrase]].",
+   "sentence": "From inside, we describe our worship as prayer, converse with God, spoken or silent.",
+   "tags": [
+    "alx.term.prayer"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Our teaching for baptism was katechesis, given step by step over a long time [[alx.term.katechesis]] [[as:paraphrase]].",
+   "sentence": "Our teaching for baptism was katechesis, given step by step over a long time.",
+   "tags": [
+    "alx.term.katechesis"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Our own record keeps its failures visible: our greatest teacher was driven out by his own bishop, not by pagans [[alx.dw.church-failure]] [[as:paraphrase]].",
+   "sentence": "Our own record keeps its failures visible: our greatest teacher was driven out by his own bishop, not by pagans.",
+   "tags": [
+    "alx.dw.church-failure"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "The school side of our record is well attested, and the community side is thinly attested [[alx.gravity.learning-community-tension]] [[as:paraphrase]].",
+   "sentence": "The school side of our record is well attested, and the community side is thinly attested.",
+   "tags": [
+    "alx.gravity.learning-community-tension"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  }
+ ],
+ "offered": [
+  "alx.dw.church-failure",
+  "alx.term.katechesis",
+  "alx.term.prayer",
+  "alx.story.john-young-robber",
+  "alx.quote.gregory-spark",
+  "alx.dw.suffering",
+  "alx.term.thanatos",
+  "alx.term.elpis",
+  "alx.story.plague-nursing",
+  "alx.quote.origen-punishment-heals",
+  "alx.gravity.learning-community-tension",
+  "alx.force.teacher-bishop-ongoing"
+ ],
+ "raw_text": "From inside, we describe our worship as prayer, converse with God, spoken or silent [[alx.term.prayer]] [[as:paraphrase]]. Our teaching for baptism was katechesis, given step by step over a long time [[alx.term.katechesis]] [[as:paraphrase]]. Our own record keeps its failures visible: our greatest teacher was driven out by his own bishop, not by pagans [[alx.dw.church-failure]] [[as:paraphrase]]. Dionysius wrote of Alexandrian Christians nursing plague victims fearlessly, many dying of it, while the plague was still raging [[alx.story.plague-nursing]] [[as:paraphrase]]. The school side of our record is well attested, and the community side is thinly attested [[alx.gravity.learning-community-tension]] [[as:paraphrase]].\n",
+ "reply_shape": {
+  "placed": [],
+  "removed": [
+   {
+    "draft": "Dionysius wrote of Alexandrian Christians nursing plague victims fearlessly, many dying of it, while the plague was still raging [[alx.story.plague-nursing]] [[as:paraphrase]].",
+    "sentence": "Dionysius wrote of Alexandrian Christians nursing plague victims fearlessly, many dying of it, while the plague was still raging.",
+    "why": "tells an offered story without placing it"
+   }
+  ],
+  "repaired": []
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": "C16.S4",
+ "text": "From inside, we describe our worship as prayer, converse with God, spoken or silent. Our teaching for baptism was katechesis, given step by step over a long time. Our own record keeps its failures visible: our greatest teacher was driven out by his own bishop, not by pagans. The school side of our record is well attested, and the community side is thinly attested.",
+ "voice_set_aside": false
+}

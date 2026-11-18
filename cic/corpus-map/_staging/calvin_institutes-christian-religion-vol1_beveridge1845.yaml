@@ -10,6 +10,11 @@ assignments:
       - the-reformed-cities-zurich-and-geneva
     role: tradition
     confidence: assigned
+    locus_ids: [whole-file]
+    language: eng
+    date: {end: 1559, formation_confidence: Documented, source: 'calvin_institutes-christian-religion-vol1_beveridge1845.txt line 6086: Geneva, 1st August 1559.', start: 1559}
+    translator: {formation_confidence: Documented, name: Henry Beveridge, source: 'calvin_institutes-christian-religion-vol1_beveridge1845.txt line 67: BY HENRY BEVERIDGE, ESQ'}
+    edition_date: {formation_confidence: Documented, source: 'calvin_institutes-christian-religion-vol1_beveridge1845.txt line 76: M.DCCC.XLV.', year: 1845}
     note: >
       Calvin's own systematic theology, 1559 final Latin edition, in the
       standard-cited Beveridge 1845 English translation. Book I: the

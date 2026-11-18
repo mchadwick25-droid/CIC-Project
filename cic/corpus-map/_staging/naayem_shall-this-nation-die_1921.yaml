@@ -1,0 +1,11 @@
+source_file: naayem_shall-this-nation-die_1921.txt
+assignments:
+- row_id: naayem_shall-this-nation-die_1921--naayem-shall-this-nation-die-1921
+  work: 'Naayem, Shall This Nation Die? (1921)'
+  author: naayem
+  locus: 'whole; the preface and the essay are not his'
+  atlas_ids:
+  - the-sayfo-and-the-syriac-diaspora
+  role: tradition
+  confidence: assigned
+  note: 'A priest''s own account with depositions he gathered, published by Chaldean Rescue. The print does not say who made the English.'

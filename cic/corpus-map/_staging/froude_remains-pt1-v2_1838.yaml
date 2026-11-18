@@ -1,0 +1,13 @@
+source_file: froude_remains-pt1-v2_1838.txt
+assignments:
+- row_id: froude_remains-pt1-v2_1838--froude-remains-pt1-v2
+  work: 'Froude, Remains, in two volumes, vol. II (1838)'
+  author: froude
+  locus: 'the sermons at OCR lines 377-12062; the papers at 12063-17740; add 12 to OCR line numbers'
+  atlas_ids:
+  - the-oxford-movement-and-anglo-catholic-revival
+  role: tradition
+  confidence: provisional
+  language: eng
+  date: {start: 1838, end: 1838, source: "title page: 1838", formation_confidence: Documented}
+  note: 'Froude''s sermons and papers on the liturgy and church architecture, printed two years after his death by editors who are not named in the volume.'

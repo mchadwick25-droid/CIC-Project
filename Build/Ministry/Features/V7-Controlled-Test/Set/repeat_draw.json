@@ -1,0 +1,127 @@
+{
+  "seed": 20261103,
+  "per_world": 14,
+  "total": 42,
+  "worlds": {
+    "alx": {
+      "probe_ids": [
+        "c-i-probe-01",
+        "c-e-probe-01",
+        "f1-e-probe-01",
+        "f1-p-probe-01",
+        "f2-i-probe-01",
+        "f2-e-probe-01",
+        "f3-p-probe-01",
+        "f3-t-probe-01",
+        "f4-i-probe-01",
+        "f4-t-probe-01",
+        "f5-i-probe-01",
+        "f5-t-probe-01",
+        "f6-p-probe-01",
+        "f6-t-probe-01"
+      ],
+      "cells": [
+        "C-I",
+        "C-E",
+        "F1-E",
+        "F1-P",
+        "F2-I",
+        "F2-E",
+        "F3-P",
+        "F3-T",
+        "F4-I",
+        "F4-T",
+        "F5-I",
+        "F5-T",
+        "F6-P",
+        "F6-T"
+      ],
+      "register_counts": {
+        "I": 4,
+        "E": 3,
+        "P": 3,
+        "T": 4
+      }
+    },
+    "pahc": {
+      "probe_ids": [
+        "c-i-probe-01",
+        "c-e-probe-01",
+        "f1-e-probe-01",
+        "f1-t-probe-01",
+        "f2-e-probe-01",
+        "f2-p-probe-01",
+        "f3-i-probe-01",
+        "f3-p-probe-01",
+        "f4-i-probe-01",
+        "f4-t-probe-01",
+        "f5-p-probe-01",
+        "f5-t-probe-01",
+        "f6-e-probe-01",
+        "f6-t-probe-01"
+      ],
+      "cells": [
+        "C-I",
+        "C-E",
+        "F1-E",
+        "F1-T",
+        "F2-E",
+        "F2-P",
+        "F3-I",
+        "F3-P",
+        "F4-I",
+        "F4-T",
+        "F5-P",
+        "F5-T",
+        "F6-E",
+        "F6-T"
+      ],
+      "register_counts": {
+        "I": 3,
+        "E": 4,
+        "P": 3,
+        "T": 4
+      }
+    },
+    "syr": {
+      "probe_ids": [
+        "c-i-probe-01",
+        "c-p-probe-01",
+        "f1-i-probe-01",
+        "f1-p-probe-01",
+        "f2-p-probe-01",
+        "f2-t-probe-01",
+        "f3-e-probe-01",
+        "f3-t-probe-01",
+        "f4-i-probe-01",
+        "f4-t-probe-01",
+        "f5-i-probe-01",
+        "f5-e-probe-01",
+        "f6-e-probe-01",
+        "f6-p-probe-01"
+      ],
+      "cells": [
+        "C-I",
+        "C-P",
+        "F1-I",
+        "F1-P",
+        "F2-P",
+        "F2-T",
+        "F3-E",
+        "F3-T",
+        "F4-I",
+        "F4-T",
+        "F5-I",
+        "F5-E",
+        "F6-E",
+        "F6-P"
+      ],
+      "register_counts": {
+        "I": 4,
+        "E": 3,
+        "P": 4,
+        "T": 3
+      }
+    }
+  }
+}

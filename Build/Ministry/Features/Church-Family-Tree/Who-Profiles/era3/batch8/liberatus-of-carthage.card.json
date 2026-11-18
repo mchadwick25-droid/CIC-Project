@@ -1,0 +1,95 @@
+{
+  "name": "Liberatus of Carthage",
+  "otherNames": [
+    "Liberatus Carthaginensis diaconus",
+    "Liberatus archidiaconus Ecclesiae Carthaginensis"
+  ],
+  "knownFor": "Deacon of Carthage under Justinian who wrote the Breviarium. It is a short history of the quarrels over Nestorius and Eutyches, down to Justinian's book against the Three Chapters. Bossuet names the Three Chapters as Theodore of Mopsuestia, Theodoret's writings against Cyril and the letter of Ibas of Edessa. Liberatus wrote from the side of the African church that defended them.",
+  "dates": "No source used here gives the year of his birth or death. Otto Günther dates Pope Agapetus's letter that names him to 9 September 535. Theodor Mommsen dates the Breviarium between 555 and 567, since it tells of the death of Pope Vigilius. He adds that Liberatus wrote while Theodosius, once bishop of Alexandria, and Apollinaris of Alexandria were alive. Jean Garnier says he wrote under Justinian",
+  "place": "Carthage, in Roman Africa; Rome, where he says he was when Pope John wrote to the emperor; Euchaida, if Garnier is right that he shared his bishop's exile there",
+  "tradition": "Latin African Christianity under Byzantium",
+  "role": "Deacon of the church of Carthage, called archdeacon in the title of his book; envoy of Bishop Reparatus to Rome; writer of the Breviarium",
+  "briefLength": "about 2 minutes",
+  "keyWorks": [
+    {
+      "title": "Breviarium (Breviarium causae Nestorianorum et Eutychianorum)",
+      "about": "twenty-four short chapters. They begin with Paul of Samosata and Apollinaris, whom Liberatus names as the sources of the two heresies. They go on through Nestorius, the councils of Ephesus and Chalcedon and the bishops of Alexandria. They end with Theodore of Caesarea and Justinian's book against the Three Chapters"
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "A. C. Zenos, in the English Socrates, says the Breviarium certainly used the church history of Socrates of Constantinople. Chester Hartranft, in the same volume, says Liberatus used the Tripartite History. Garnier says the church history Liberatus names was the Latin one Epiphanius made at Cassiodorus's urging.",
+      "Theodor Mommsen notes that he took passages from Prosper's chronicle under the name of Lucentius. Otto Günther notes that Liberatus used a summary in his chapters 15, 16 and 18. Günther prints it in the second appendix to the Collectio Avellana."
+    ],
+    "remembered": [
+      "Garnier says some value the Breviarium highly for its brevity and the range of its matter. Others fault it for too little care with the documents, too much trust in men not wholly honest, and zeal for his own party. He was caught in schism, Garnier says, through his stubborn defense of the Three Chapters.",
+      "Garnier finds his style plain almost beyond belief. He says the range of his matter makes up for it, since the sources he drew on are now largely lost.",
+      "Theodor Mommsen says Liberatus and Victor of Tunnuna were of the same time, land and party. He calls them fierce defenders of the true faith."
+    ]
+  },
+  "uncertain": [
+    "His life is known almost only from one letter of Pope Agapetus and his own book, the Breviarium. No source used here gives his birth, his death or his family. Victor of Tunnuna, who tells of Bishop Reparatus's exile, does not name him in the lines used here.",
+    "Deacon or archdeacon. Pope Agapetus calls him a deacon, and so does the heading of the Breviarium in Migne's volume. The title of the Breviarium itself calls him archdeacon of the church of Carthage, of its sixth district.",
+    "His time in Rome. He says he was in Rome when Pope John wrote to the emperor. Agapetus's letter names him with the bishops Gaius and Petrus. Garnier reasons that either Liberatus's words are false, which he can hardly believe, or he came to Rome twice. Garnier says the envoys named in Agapetus's letter left Africa only after Pope John had died. Garnier holds that he came first to tell John of Reparatus's ordination, then to greet Agapetus and carry the business of the African council.",
+    "The journey of his preface. Liberatus says only that he wrote worn out by the hardships of a journey. Garnier takes it to be Reparatus's exile at Euchaida and says Liberatus did not leave until his bishop had died. Garnier also notes that the wording of the sentence may be corrupt.",
+    "When he wrote. Mommsen dates the Breviarium between 555 and 567. Garnier dates it after the deaths of Vigilius and of Primosus, Reparatus's successor at Carthage. He dates it before the death of Theodosius of Alexandria, who Liberatus says lives to this day.",
+    "His fairness. Garnier finds him partial to Nestorius, or at least to Theodoret of Cyrus, and less fair to Cyril of Alexandria and the emperor Theodosius. He says the end of the book tries to lead the reader to see the fifth council as a political gathering. Its bishops, on this view, flattered the emperor. Garnier reports that Cardinal Baronius accused him of trusting writers who favored Nestorius. Liberatus reports that Theodore of Caesarea cried out in public that he and Pelagius deserved to be burned alive. Of this, Garnier says the credit rests with an author who writes in anger.",
+    "Liberatus and Victor of Tunnuna. Mommsen says both, embittered against Pope Vigilius by a hatred he calls just, give a letter of his that some think forged. He holds that Victor did not draw on the Breviarium, though the two often agree.",
+    "Who is meant. The last chapter names no African bishop. It speaks only of bishops rewarded, deposed, exiled or hiding. Garnier's note says Liberatus means his own Africans. Reparatus of Carthage was deposed and exiled to Euchaida. Primasius, primate of Byzacena, was sent back to his see with gifts after he condemned the Three Chapters. Verecundus and Victor of Tunnuna were moved from prison to prison and shut in monasteries. Victor of Tunnuna says that Firmus, primate of Numidia, was won over by the emperor's gifts.",
+    "His name. He is a different man from Liberatus the deacon who signs the Eleventh Council of Toledo for Sinduittus, bishop of Segovia."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "Breviarium causae Nestorianorum et Eutychianorum, with Garnier's preface and notes, in Patrologia Latina 68",
+        "language": "Latin",
+        "file": "cic/texts/liberatus-victor-tunnunensis-primasius-junillus-pl68-lat_migne1866.txt"
+      }
+    ],
+    "about": [
+      {
+        "title": "Letter of Pope Agapetus to Reparatus, bishop of Carthage, in Collectio Avellana (ed. Otto Günther)",
+        "author": "Agapetus",
+        "date": "1895",
+        "language": "Latin",
+        "file": "cic/texts/collectio-avellana_epistulae-imperatorum-pontificum-pars1-lat_guenther1895-csel35.txt"
+      },
+      {
+        "title": "Preface and notes to the Breviarium, reprinted in Patrologia Latina 68",
+        "author": "Garnier",
+        "language": "Latin",
+        "file": "cic/texts/liberatus-victor-tunnunensis-primasius-junillus-pl68-lat_migne1866.txt"
+      },
+      {
+        "title": "Chronicle, with Theodor Mommsen's preface, in Chronica minora 2",
+        "author": "Victor of Tunnuna",
+        "date": "1894",
+        "language": "Latin",
+        "file": "cic/texts/chronica-minora-2_marcellinus-victor-tunnunensis-biclaro-isidore-mgh-aa-11-lat_mommsen1894.txt"
+      },
+      {
+        "title": "Introduction to Prosper's chronicle, in Chronica minora 1",
+        "author": "Theodor Mommsen",
+        "date": "1892",
+        "language": "Latin",
+        "file": "cic/texts/chronica-minora-liber-genealogus_mommsen1892.txt"
+      },
+      {
+        "title": "Seven Ecumenical Councils, with Bossuet on the Three Chapters (tr. Allies), in Nicene and Post-Nicene Fathers, second series, volume 14 (ed. Henry Percival)",
+        "language": "English translation",
+        "file": "cic/texts/npnf214_seven-ecumenical-councils.xml"
+      },
+      {
+        "title": "Introductions to Socrates and Sozomen, in Nicene and Post-Nicene Fathers, second series, volume 2",
+        "author": "A. C. Zenos; Chester Hartranft",
+        "language": "English",
+        "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml"
+      },
+      {
+        "title": "Acts of the Eleventh Council of Toledo, in Collectio canonum Ecclesiae Hispanae",
+        "language": "Latin",
+        "file": "cic/texts/collectio-canonum-ecclesiae-hispanae-toledo-iii-lat_1808.txt"
+      }
+    ]
+  }
+}

@@ -35,6 +35,14 @@ RELATION_INVERSE = {
     "associated-with": "associated-with",
 }
 
+FORMATION_CONFIDENCE_LEVELS = (
+    "Documented",
+    "Widely Accepted",
+    "Dominant Modern Reconstruction",
+    "Contested",
+    "Inferential-Thin",
+)
+
 _CONFIDENCE_SCHEMA = {
     "type": "object",
     "properties": {
@@ -43,15 +51,7 @@ _CONFIDENCE_SCHEMA = {
             "enum": ["verified-direct", "verified-via-authority", "named-not-rechecked", "unverified"]
         },
         "evidentiary_weight": {"enum": ["load-bearing", "corroborating", "illustrative", "contested"]},
-        "formation_confidence": {
-            "enum": [
-                "Documented",
-                "Widely Accepted",
-                "Dominant Modern Reconstruction",
-                "Contested",
-                "Inferential-Thin",
-            ]
-        },
+        "formation_confidence": {"enum": list(FORMATION_CONFIDENCE_LEVELS)},
         "divergence_note": {"type": ["string", "null"]},
     },
     "additionalProperties": False,
@@ -77,6 +77,38 @@ _SOURCE_REF_SCHEMA = {
         "address": {"type": "string"},
     },
     "required": ["source_id"],
+    "additionalProperties": False,
+}
+
+# A reading card: short world-construction material on a quote or a story.
+# Each text line is one or two sentences; `sources` names, for each line
+# present, the source id and locus or the construction document and section
+# that supports it. `whose_view` is prose, never a rank. The field is
+# stripped at compile (engine/m2/builders.py), so no package carries it.
+READING_CARD_TEXT_LINES = ("setting", "source_says", "contributes", "whose_view", "open", "reads_differently_today")
+READING_CARD_SOURCED_LINES = ("setting", "source_says", "historians_conclude", "contributes", "whose_view", "open", "reads_differently_today")
+
+_READING_CARD_SCHEMA = {
+    "type": "object",
+    "properties": {
+        **{line: {"type": "string"} for line in READING_CARD_TEXT_LINES},
+        "historians_conclude": {
+            "type": "object",
+            "properties": {
+                "text": {"type": "string"},
+                "confidence": {"enum": list(FORMATION_CONFIDENCE_LEVELS)},
+            },
+            "required": ["text", "confidence"],
+            "additionalProperties": False,
+        },
+        "complicated_by": {"type": "array", "items": {"type": "string"}},
+        "sources": {
+            "type": "object",
+            "properties": {line: {"type": "string"} for line in READING_CARD_SOURCED_LINES},
+            "additionalProperties": False,
+        },
+    },
+    "minProperties": 1,
     "additionalProperties": False,
 }
 
@@ -417,16 +449,10 @@ TYPE_PROPERTIES: dict[str, dict] = {
         # (Constitution Article 29) - spoken in the same first-person
         # register as horizon/formation_logic/thinness/cautions above, and
         # compiled into build_prompt() the same way (see that function's own
-        # comment). Root-caused and added per Open_Gaps_Tracking.md OG-45/
-        # OG-48: witt's own world_core record authored this content honestly
-        # in its body, disclosing at authoring time that no such field
-        # existed yet ("pending a future schema change-order... the same way
-        # thin_topics was added structurally after thinness/cautions already
-        # existed in prose") - so the M2 compiler had no code path to read
-        # it, and a project-lead-confirmed Article 29 determination never
-        # reached the deployed prompt. Left unset, a world_core record has
-        # nothing to say here (most do not yet have a confirmed Article 29
-        # determination at all). Not yet in COMPLETION_REQUIRED - existing
+        # comment). A field, not body prose, so the M2 compiler can read it
+        # into the deployed prompt. Left unset, a world_core record has
+        # nothing to say here (a world without a confirmed Article 29
+        # determination leaves it unset). Not in COMPLETION_REQUIRED - existing
         # world_core records validate unchanged without it.
         "living_traditions": {"type": "string"},
         # Optional, additive: a structured index
@@ -508,6 +534,8 @@ TYPE_PROPERTIES: dict[str, dict] = {
                 "evidential": {"type": "string"},
                 "personal": {"type": "string"},
                 "translational": {"type": "string"},
+                "heard_today": {"type": "string"},
+                "meant_here": {"type": "string"},
             },
             "additionalProperties": False,
         },
@@ -566,11 +594,36 @@ TYPE_PROPERTIES: dict[str, dict] = {
         # story, readability-graded, placed word for word into a turn by
         # code. Optional; `text` stays the unvoiced source wording.
         "telling": {"type": "string"},
+        # What the story is about and why it was kept: one or two plain
+        # sentences, reviewed against the full record.
+        "heart": {"type": "string"},
+        # The story's events in order. `essential` marks an event the story
+        # fails without; `rests_on` names the place in `text` it rests on.
+        "events": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "line": {"type": "string"},
+                    "rests_on": {"type": "string"},
+                    "essential": {"type": "boolean"},
+                },
+                "required": ["line", "rests_on"],
+                "additionalProperties": False,
+            },
+        },
+        # Shorter reviewed tellings of the same story, placed word for word
+        # like `telling`: short (about 90 words) keeps every essential event
+        # and the heart; medium (about 160 words) keeps every event.
+        "telling_short": {"type": "string"},
+        "telling_medium": {"type": "string"},
+        "telling_long": {"type": "string"},
         "absent_detail": {"type": "string"},
         # Story's own version of term's senses.translational (Glossary/
         # Story/Quote Template SS2) - not yet in COMPLETION_REQUIRED;
         # existing story records validate unchanged without it.
         "modern_contrast": {"type": "string"},
+        "reading_card": _READING_CARD_SCHEMA,
     },
     "quote": {
         "text": {"type": "string"},
@@ -603,6 +656,7 @@ TYPE_PROPERTIES: dict[str, dict] = {
             "minProperties": 1,
             "additionalProperties": False,
         },
+        "reading_card": _READING_CARD_SCHEMA,
     },
     "figure": {
         "names": {
@@ -826,9 +880,8 @@ TYPE_PROPERTIES: dict[str, dict] = {
                 "questions": {"type": "array", "items": _QUESTION_ENTRY},
                 # mode 2, each: bare quote/term record ids, rendered from
                 # quote.modern_rendering / term.plain_meaning-or-quick_
-                # meaning at compile time - never `quote.text` (Mark's
-                # standing quote ruling; see gates.py's quotation-mark
-                # fidelity gate).
+                # meaning at compile time - never `quote.text` (see
+                # gates.py's quotation-mark fidelity gate).
                 "pull_quotes": {"type": "array", "items": {"type": "string"}},
                 "glossary": {"type": "array", "items": {"type": "string"}},
             },

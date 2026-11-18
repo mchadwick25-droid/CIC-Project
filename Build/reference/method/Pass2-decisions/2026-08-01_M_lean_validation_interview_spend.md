@@ -1,25 +1,23 @@
-# M decision — Lean validation at interview-class spend; table on limited use (Mark, 2026-08-01)
+# Lean validation at interview-class spend; table on limited use
 
-**Mark's call, in his own words:** "can we get the quality checks we need
-with interview level api spends, we are burning through way to much api
-credits at this point. we are putting the multi-representative table on
-limited use to manage expenses, we can work on the conversation dynamics
-later, we need the right things said."
+**Decision:** the quality checks a world needs run at interview-level API
+spend, because API credit use is too high. The multi-representative table is
+on limited use to manage expenses. Conversation dynamics are later work; the
+right things said come first.
 
-**Refined same day, his words:** "we need the conversation dynamics for
-interviews, but not as much on multi-representative table dynamics at
-this point." So the freeze bar is content accuracy AND
-single-representative interview dynamics (parroting, pushback,
+**Scope:** conversation dynamics count for interviews, but not as much for
+multi-representative table dynamics. So the bar for a freeze is content
+accuracy AND single-representative interview dynamics (parroting, pushback,
 over-settling, re-gloss, cross-round memory, register, ceiling behavior
 — pressed by an extended 6–8-round live interview plus targeted probes);
 ONLY multi-representative table dynamics are deferred. Freeze
 declarations read "content-and-interview-frozen; table-dynamics
 deferred."
 
-**Policy, as recorded into the Record-Native World Build Process V1.0
+**Policy, as recorded in the Record-Native World Build Process V1.0
 (§5) and its launch prompt:**
 
-1. **Content accuracy is the freeze bar** ("the right things said");
+1. **Content accuracy is the bar for a freeze** ("the right things said");
    live conversation dynamics are deferred work, not freeze blockers.
 2. **Lean validation is the DEFAULT for future world freezes:** the free
    deterministic floor (7 gates, schema, render parity, prompt coverage,
@@ -31,7 +29,7 @@ deferred."
    live 3-round Deep Interview against the real deployed site (which is
    also the deploy verification). Interview-class spend: ~$1.25–1.80
    measured, vs ~$30 for a full battery.
-3. **The full V7.4 two-trial battery runs on Mark's word only.** This is
+3. **The full V7.4 two-trial battery runs only on the project lead's instruction.** This is
    a recorded project-lead deviation from CF V7.4's own two-trial
    Validation Protocol Rigor text; reconciling the Framework wording is
    a coach-thread item (process doc Appendix C).
@@ -47,8 +45,8 @@ deferred."
    live-pressed table dynamics.
 
 **Context:** the six S6.2 freezes ran the full battery + TRR (PAHC
-battery ~$30; a credit exhaustion killed a TRR table mid-run once). The
-2026-08-01 live Deep-Interview sweep demonstrated the fundamentals and
+battery ~$30; a credit exhaustion killed a TRR table mid-run once). A
+August 2026 live Deep-Interview sweep demonstrated the fundamentals and
 content-accuracy re-probes verifiable at $1.25–1.80/world against the
 real deployed site. Intro pricing (claude-sonnet-5, $2/$10) ends
-2026-08-31; measured figures rise ~50% after.
+at the end of August 2026; measured figures rise ~50% after.

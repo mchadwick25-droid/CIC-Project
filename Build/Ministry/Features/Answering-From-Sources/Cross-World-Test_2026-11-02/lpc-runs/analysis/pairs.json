@@ -1,0 +1,442 @@
+[
+ {
+  "id": "q006",
+  "question": "Describe the character and nature of God as your community understood it.",
+  "old": {
+   "m": {
+    "words": 309,
+    "sents": 20,
+    "mean_len": 15.4,
+    "over25": 3,
+    "named": 0.35,
+    "says": 0.3,
+    "pron": 0.5,
+    "fk": 5.7,
+    "fre": 81.4
+   },
+   "first": "We understand God as the one who holds everything together, not by pretending our failures do not exist, but by making a road back through them.",
+   "direct": "yes",
+   "plain": "no",
+   "reason": "names God's character (holds all, makes a road back), but runs past 25 words with a not-X-but-Y turn"
+  },
+  "stage3": {
+   "m": {
+    "words": 197,
+    "sents": 8,
+    "mean_len": 24.6,
+    "over25": 2,
+    "named": 0.5,
+    "says": 0.0,
+    "pron": 0.0,
+    "fk": 10.6,
+    "fre": 62.9
+   },
+   "first": "We confess Jesus Christ, the only Son of God, and then the Holy Ghost, and that completes the Trinity that makes up the one Godhead.",
+   "direct": "partly",
+   "plain": "no",
+   "reason": "gives a Trinitarian confession but leaves God's character open, and the Son-then-Spirit-completes phrasing is hard to follow"
+  },
+  "plain": {
+   "m": {
+    "words": 146,
+    "sents": 7,
+    "mean_len": 20.9,
+    "over25": 2,
+    "named": 0.57,
+    "says": 0.29,
+    "pron": 0.14,
+    "fk": 8.7,
+    "fre": 69.8
+   },
+   "first": "In Augustine's teaching, God's grace means that no effort of ours is enough alone, and any good we do was given to us first.",
+   "direct": "partly",
+   "plain": "yes",
+   "reason": "speaks of grace rather than of God's own nature"
+  }
+ },
+ {
+  "id": "q009",
+  "question": "If a modern scholar examined your claims, how much would survive rigorous scrutiny?",
+  "old": {
+   "m": {
+    "words": 358,
+    "sents": 26,
+    "mean_len": 13.8,
+    "over25": 2,
+    "named": 0.04,
+    "says": 0.0,
+    "pron": 0.04,
+    "fk": 7.0,
+    "fre": 69.1
+   },
+   "first": "We hold ourselves to a standard most scholarship does not reach, and we name our limits plainly where the record runs thin.",
+   "direct": "no",
+   "plain": "yes",
+   "reason": "self-assessing boast that never says how much would survive"
+  },
+  "stage3": {
+   "m": {
+    "words": 145,
+    "sents": 7,
+    "mean_len": 20.7,
+    "over25": 1,
+    "named": 0.29,
+    "says": 0.29,
+    "pron": 0.29,
+    "fk": 9.4,
+    "fre": 64.5
+   },
+   "first": "That Cyprian and Augustine each held a theory of what councils can decide is solidly attested, in each bishop's own words.",
+   "direct": "partly",
+   "plain": "no",
+   "reason": "names one well-attested claim but not how much overall survives; 'solidly attested' is formal"
+  },
+  "plain": {
+   "m": {
+    "words": 133,
+    "sents": 7,
+    "mean_len": 19,
+    "over25": 1,
+    "named": 0.29,
+    "says": 0.29,
+    "pron": 0.14,
+    "fk": 9.0,
+    "fre": 64.1
+   },
+   "first": "Part of what we say would stand, because Cyprian and Augustine each held a theory of council power, and both theories are in their own words.",
+   "direct": "yes",
+   "plain": "no",
+   "reason": "says part would stand and why, but 'theory of council power' is abstract"
+  }
+ },
+ {
+  "id": "q011",
+  "question": "A modern reader finds the scriptures confusing or dull - what would you say they are missing?",
+  "old": {
+   "m": {
+    "words": 244,
+    "sents": 22,
+    "mean_len": 11.1,
+    "over25": 0,
+    "named": 0.14,
+    "says": 0.09,
+    "pron": 0.36,
+    "fk": 5.8,
+    "fre": 73.4
+   },
+   "first": "The scriptures themselves are not missing anything.",
+   "direct": "partly",
+   "plain": "yes",
+   "reason": "turns the ask around (scripture lacks nothing) without saying what the reader misses"
+  },
+  "stage3": {
+   "m": {
+    "words": 149,
+    "sents": 6,
+    "mean_len": 24.8,
+    "over25": 2,
+    "named": 0.33,
+    "says": 0.33,
+    "pron": 0.0,
+    "fk": 11.7,
+    "fre": 55.6
+   },
+   "first": "We would say the hard places in our older Scriptures need reading as pictures, because we held that the earthly wars of the old order were themselves a kind of picture, for a time.",
+   "direct": "yes",
+   "plain": "no",
+   "reason": "answers (read the hard places as pictures) but long, with a nested because-clause"
+  },
+  "plain": {
+   "m": {
+    "words": 157,
+    "sents": 8,
+    "mean_len": 19.6,
+    "over25": 1,
+    "named": 0.12,
+    "says": 0.0,
+    "pron": 0.12,
+    "fk": 9.1,
+    "fre": 64.6
+   },
+   "first": "Augustine met the same trouble with our Scriptures, and he named the difficulty honestly rather than explaining it away.",
+   "direct": "no",
+   "plain": "yes",
+   "reason": "framing line about Augustine's own trouble, no answer yet"
+  }
+ },
+ {
+  "id": "q012",
+  "question": "Was scripture your community's sole source of authority, or were there others?",
+  "old": {
+   "m": {
+    "words": 179,
+    "sents": 11,
+    "mean_len": 16.3,
+    "over25": 1,
+    "named": 0.18,
+    "says": 0.09,
+    "pron": 0.0,
+    "fk": 9.1,
+    "fre": 58.5
+   },
+   "first": "Scripture stood above every other authority we held, but it was not our only one.",
+   "direct": "yes",
+   "plain": "yes",
+   "reason": "plain, direct answer: highest, not sole"
+  },
+  "stage3": {
+   "m": {
+    "words": 180,
+    "sents": 9,
+    "mean_len": 20,
+    "over25": 4,
+    "named": 0.22,
+    "says": 0.22,
+    "pron": 0.0,
+    "fk": 10.4,
+    "fre": 56.3
+   },
+   "first": "Scripture stood above our bishops' own writings, but it was not our only authority.",
+   "direct": "yes",
+   "plain": "yes",
+   "reason": "plainly says scripture was highest but not the only authority"
+  },
+  "plain": {
+   "m": {
+    "words": 164,
+    "sents": 8,
+    "mean_len": 20.5,
+    "over25": 2,
+    "named": 0.38,
+    "says": 0.25,
+    "pron": 0.0,
+    "fk": 10.6,
+    "fre": 55.5
+   },
+   "first": "Scripture stood above our bishops' own writings, but it was not our only authority.",
+   "direct": "yes",
+   "plain": "yes",
+   "reason": "plain, direct answer: highest, not sole"
+  }
+ },
+ {
+  "id": "q015",
+  "question": "Every community has failed people at times - how did yours respond when it failed someone?",
+  "old": {
+   "m": {
+    "words": 266,
+    "sents": 19,
+    "mean_len": 14,
+    "over25": 1,
+    "named": 0.0,
+    "says": 0.0,
+    "pron": 0.16,
+    "fk": 7.6,
+    "fre": 65.1
+   },
+   "first": "We did fail people, and more than once.",
+   "direct": "partly",
+   "plain": "yes",
+   "reason": "admits failure but does not say how they responded"
+  },
+  "stage3": {
+   "m": {
+    "words": 188,
+    "sents": 10,
+    "mean_len": 18.8,
+    "over25": 2,
+    "named": 0.4,
+    "says": 0.3,
+    "pron": 0.0,
+    "fk": 9.6,
+    "fre": 59.2
+   },
+   "first": "We did not stand apart from the one who fell, because Cyprian wrote that when the flock is wounded, it is the shepherd who is wounded most.",
+   "direct": "partly",
+   "plain": "no",
+   "reason": "about the one who fell, not the community failing someone; long with a quoted image"
+  },
+  "plain": {
+   "m": {
+    "words": 173,
+    "sents": 10,
+    "mean_len": 17.3,
+    "over25": 0,
+    "named": 0.4,
+    "says": 0.1,
+    "pron": 0.1,
+    "fk": 9.3,
+    "fre": 58.9
+   },
+   "first": "For us, reconciliation was a public road that a failed member walked, in stages, back into the community.",
+   "direct": "partly",
+   "plain": "yes",
+   "reason": "describes a failed member's return, which misreads the community-failed-someone ask"
+  }
+ },
+ {
+  "id": "q019",
+  "question": "For someone whose mind won't settle, does your community's practice offer anything?",
+  "old": {
+   "m": {
+    "words": 300,
+    "sents": 19,
+    "mean_len": 15.8,
+    "over25": 3,
+    "named": 0.05,
+    "says": 0.05,
+    "pron": 0.32,
+    "fk": 5.9,
+    "fre": 80.5
+   },
+   "first": "The short answer first.",
+   "direct": "no",
+   "plain": "yes",
+   "reason": "pure framing line"
+  },
+  "stage3": {
+   "m": {
+    "words": 103,
+    "sents": 7,
+    "mean_len": 14.7,
+    "over25": 0,
+    "named": 0.43,
+    "says": 0.14,
+    "pron": 0.14,
+    "fk": 5.3,
+    "fre": 83.5
+   },
+   "first": "Yes, we have a name for that condition, and it comes from Augustine's own life.",
+   "direct": "partly",
+   "plain": "yes",
+   "reason": "says yes and a name exists, but gives neither the name nor the practice"
+  },
+  "plain": {
+   "m": {
+    "words": 123,
+    "sents": 9,
+    "mean_len": 13.7,
+    "over25": 0,
+    "named": 0.56,
+    "says": 0.22,
+    "pron": 0.11,
+    "fk": 5.1,
+    "fre": 82.9
+   },
+   "first": "Yes.",
+   "direct": "partly",
+   "plain": "yes",
+   "reason": "a bare yes with nothing on what the practice offers"
+  }
+ },
+ {
+  "id": "q021",
+  "question": "What physical evidence would remain of your community's gathering place?",
+  "old": {
+   "m": {
+    "words": 131,
+    "sents": 8,
+    "mean_len": 16.4,
+    "over25": 1,
+    "named": 0.12,
+    "says": 0.12,
+    "pron": 0.25,
+    "fk": 7.5,
+    "fre": 70.9
+   },
+   "first": "We can describe what one of our own bishops saw and named, but not what a trench would find.",
+   "direct": "partly",
+   "plain": "yes",
+   "reason": "hedges about what can be described without naming any evidence"
+  },
+  "stage3": {
+   "m": {
+    "words": 127,
+    "sents": 6,
+    "mean_len": 21.2,
+    "over25": 1,
+    "named": 0.17,
+    "says": 0.0,
+    "pron": 0.0,
+    "fk": 10.3,
+    "fre": 58.6
+   },
+   "first": "The clearest physical evidence of our gathering place comes to us through a letter, not from a trench.",
+   "direct": "partly",
+   "plain": "yes",
+   "reason": "same as Y: a letter, not a trench, with no physical remains named"
+  },
+  "plain": {
+   "m": {
+    "words": 85,
+    "sents": 6,
+    "mean_len": 14.2,
+    "over25": 0,
+    "named": 0.33,
+    "says": 0.17,
+    "pron": 0.0,
+    "fk": 8.3,
+    "fre": 60.7
+   },
+   "first": "The clearest evidence of our gathering place is a letter, not a trench.",
+   "direct": "partly",
+   "plain": "yes",
+   "reason": "signals the evidence is textual, not archaeological, but names nothing physical"
+  }
+ },
+ {
+  "id": "q028",
+  "question": "What did your community hold about the eternal fate of those outside it?",
+  "old": {
+   "m": {
+    "words": 188,
+    "sents": 12,
+    "mean_len": 15.7,
+    "over25": 1,
+    "named": 0.33,
+    "says": 0.25,
+    "pron": 0.25,
+    "fk": 6.1,
+    "fre": 79.3
+   },
+   "first": "We held it hard, and we do not soften it here.",
+   "direct": "no",
+   "plain": "yes",
+   "reason": "framing line that promises hardness without stating the view"
+  },
+  "stage3": {
+   "m": {
+    "words": 198,
+    "sents": 8,
+    "mean_len": 24.8,
+    "over25": 1,
+    "named": 0.62,
+    "says": 0.25,
+    "pron": 0.0,
+    "fk": 10.8,
+    "fre": 61.7
+   },
+   "first": "Cyprian held that there is no salvation outside the Church, and he said it of heretics, people who confessed Christ but stood outside the Church.",
+   "direct": "yes",
+   "plain": "no",
+   "reason": "answers plainly but adds a second idea defining heretics"
+  },
+  "plain": {
+   "m": {
+    "words": 187,
+    "sents": 11,
+    "mean_len": 17,
+    "over25": 0,
+    "named": 0.82,
+    "says": 0.55,
+    "pron": 0.0,
+    "fk": 8.6,
+    "fre": 63.9
+   },
+   "first": "Cyprian held that there is no salvation outside the Church.",
+   "direct": "yes",
+   "plain": "yes",
+   "reason": "short, plain statement of the held position"
+  }
+ }
+]

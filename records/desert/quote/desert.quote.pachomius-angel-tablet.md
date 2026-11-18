@@ -14,7 +14,7 @@ confidence:
   divergence_note: "Widely Accepted for the vision's own place in this world's founding narrative, matching desert.story.pachomius-founding's own basis - vendored, hagiographic frame, per desert.source.pachomian-corpus's own standing channel-naming rule and desert.source.palladius-lausiac-history's own AUTHOR GRAVITY note (a hagiographic summary at one remove, not the Rule's own text)."
 sources:
 - source_id: desert.source.palladius-lausiac-history
-  locus: "ch. XXXII - the angel's own opening instruction, in Clarke's translation"
+  locus: "ch. XXXII - the angel's own opening instruction, in Clarke's translation (cic/texts/palladius_lausiac-history_clarke1918.txt, line 401)"
   license: public-domain
 text: "Thou shalt allow each man to eat and drink according to his strength; and proportionately to the strength of the eaters appoint to them their labours. And prevent no man either from fasting or eating..."
 modern_rendering: >-

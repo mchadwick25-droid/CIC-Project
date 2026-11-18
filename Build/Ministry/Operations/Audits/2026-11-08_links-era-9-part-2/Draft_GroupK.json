@@ -1,0 +1,779 @@
+{
+ "group": "K",
+ "movements": [
+  "coptic-revival-under-cyril-iv",
+  "malagasy-christianity",
+  "east-african-christianity-uganda-martyrs",
+  "ethiopian-christianity-tewodros-to-menelik"
+ ],
+ "dispositions": [
+  {
+   "movement": "coptic-revival-under-cyril-iv",
+   "field": "relationsSummary",
+   "sentence": "Continuation of the long Egyptian lane; parent of the Sunday School revival",
+   "other_id": "coptic-christianity-fatimid-to-mamluk",
+   "disposition": "link",
+   "link_id": "coptic-christianity-fatimid-to-mamluk--coptic-revival-under-cyril-iv",
+   "prose_change": 1,
+   "reason": "The 'long Egyptian lane' is the Coptic church; its last earlier movement is the Fatimid-to-Mamluk one. Budge's numbered list of patriarchs shows the see unbroken. Inventory had no match; added."
+  },
+  {
+   "movement": "coptic-revival-under-cyril-iv",
+   "field": "relationsSummary",
+   "sentence": "Continuation of the long Egyptian lane; parent of the Sunday School revival",
+   "other_id": "the-coptic-monastic-and-sunday-school-revival",
+   "disposition": "link",
+   "link_id": "coptic-revival-under-cyril-iv--the-coptic-monastic-and-sunday-school-revival",
+   "prose_change": 1,
+   "reason": "Same claim as the continuesAs field; drafted as 'continued as', the same church. 'Lane' rewritten in words."
+  },
+  {
+   "movement": "coptic-revival-under-cyril-iv",
+   "field": "longDescription",
+   "sentence": "An elected lay communal council from 1874, a Coptic press and newspapers from the 1870s, and the schools that would eventually produce the twentieth-century Sunday School movement out of which the modern Coptic renaissance came.",
+   "other_id": "the-coptic-monastic-and-sunday-school-revival",
+   "disposition": "link",
+   "link_id": "coptic-revival-under-cyril-iv--the-coptic-monastic-and-sunday-school-revival",
+   "prose_change": null,
+   "reason": "Carried by the new continued-as link (repo-cited secondaries). The sentence's own facts (majlis milli 1874, 1870s press) are named in the movement's sources, not vendored. Left standing under the open item 'Well-known facts with no vendored source' (2026-11-07)."
+  },
+  {
+   "movement": "coptic-revival-under-cyril-iv",
+   "field": "why",
+   "sentence": "He died suddenly in 1861, but what he started did not stop: an elected lay council from 1874 and a Coptic press from the 1870s laid the ground for the Sunday School movement that would later rebuild the church's monasteries and leadership.",
+   "other_id": "the-coptic-monastic-and-sunday-school-revival",
+   "disposition": "link",
+   "link_id": "coptic-revival-under-cyril-iv--the-coptic-monastic-and-sunday-school-revival",
+   "prose_change": null,
+   "reason": "Same as the description. Cyril's death in 1861 is supported by Budge's list (1854-1861, lines 2857)."
+  },
+  {
+   "movement": "coptic-revival-under-cyril-iv",
+   "field": "legacy",
+   "sentence": "Everything the modern Coptic Church is known for was made possible here.",
+   "other_id": null,
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 2,
+   "reason": "An overstatement with no source; qualified to 'much of'."
+  },
+  {
+   "movement": "coptic-revival-under-cyril-iv",
+   "field": "legacy",
+   "sentence": "The Sunday School movement that grew out of Cyril's schools, formally organized from 1918, produced the generation of teachers, monks and bishops who repopulated the desert monasteries and led the church through the twentieth century, and the Coptic diaspora carried that renewal to Europe, North America and Australia.",
+   "other_id": "the-coptic-monastic-and-sunday-school-revival",
+   "disposition": "link",
+   "link_id": "coptic-revival-under-cyril-iv--the-coptic-monastic-and-sunday-school-revival",
+   "prose_change": 2,
+   "reason": "Carried by the continued-as link; the descent from Cyril's schools restated as the historians' reading (Suriel; Guirguis and van Doorn-Harder). Sentence split for reading level."
+  },
+  {
+   "movement": "coptic-revival-under-cyril-iv",
+   "field": "legacy",
+   "sentence": "The Sunday School movement that grew out of Cyril's schools, formally organized from 1918, produced the generation of teachers, monks and bishops who repopulated the desert monasteries and led the church through the twentieth century, and the Coptic diaspora carried that renewal to Europe, North America and Australia.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 2,
+   "reason": "The Coptic diaspora has no movement of its own (the African diaspora churches movement is about other churches). A twentieth-century fact outside every vendored text. Left standing under the open item 'Well-known facts with no vendored source' (2026-11-07)."
+  },
+  {
+   "movement": "coptic-revival-under-cyril-iv",
+   "field": "legacy",
+   "sentence": "The Sunday School movement that grew out of Cyril's schools, formally organized from 1918, produced the generation of teachers, monks and bishops who repopulated the desert monasteries and led the church through the twentieth century, and the Coptic diaspora carried that renewal to Europe, North America and Australia.",
+   "other_id": null,
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": 2,
+   "reason": "The desert monasteries are places, not the fourth-century desert movement (the inventory rightly did not match it). The repopulation is the era-10 movement's own subject."
+  },
+  {
+   "movement": "malagasy-christianity",
+   "field": "relationsSummary",
+   "sentence": "The London Missionary Society arrived in 1818/1820, and the first baptisms took place in 1831.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The London Missionary Society has no movement of its own. The missionary-movement entry does not name Madagascar, and this text does not name it, so no link is drafted. No vendored source; William Ellis's History of Madagascar (1838) in wants. Left standing under the open item 'Well-known facts with no vendored source' (2026-11-07)."
+  },
+  {
+   "movement": "malagasy-christianity",
+   "field": "relationsSummary",
+   "sentence": "Queen Ranavalona I banned Christianity in 1835, and Rasalama was martyred in 1837.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "A monarch, not a movement. No vendored source; Ellis in wants. Left standing under the open item 'Well-known facts with no vendored source' (2026-11-07)."
+  },
+  {
+   "movement": "malagasy-christianity",
+   "field": "relationsSummary",
+   "sentence": "Ranavalona II converted in 1869, and the French conquest of 1895-96 ended the kingdom that housed the church.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "A monarch and a state, not movements. No vendored source; Ellis's Madagascar Revisited (1867) and Sibree in wants. Left standing under the open item 'Well-known facts with no vendored source' (2026-11-07)."
+  },
+  {
+   "movement": "malagasy-christianity",
+   "field": "longDescription",
+   "sentence": "The London Missionary Society reached Madagascar in 1818, and its most consequential work turned out to be alphabetical.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "As in the summary: the mission society has no movement of its own. Left standing under the open item 'Well-known facts with no vendored source' (2026-11-07)."
+  },
+  {
+   "movement": "malagasy-christianity",
+   "field": "longDescription",
+   "sentence": "Queen Ranavalona I banned Christianity in 1835 and expelled the missionaries.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "A monarch. Left standing under the open item 'Well-known facts with no vendored source' (2026-11-07)."
+  },
+  {
+   "movement": "malagasy-christianity",
+   "field": "longDescription",
+   "sentence": "Ranavalona II was baptized in 1869 and burned the royal talismans, and the church became the establishment it had once been martyred by, until the French conquest of 1895 ended the kingdom that housed it.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The Merina state is not a movement. The French took the capital in 1895 and the monarchy was abolished in 1897; '1895 ended the kingdom' is loose but matches the movement's end date. Left standing under the open item 'Well-known facts with no vendored source' (2026-11-07)."
+  },
+  {
+   "movement": "malagasy-christianity",
+   "field": "why",
+   "sentence": "Missionaries gave Madagascar's language its first written form and, by 1835, a complete Bible, the same year Queen Ranavalona I banned Christianity outright and drove them out.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Mission society and monarch, neither a movement. Left standing under the open item 'Well-known facts with no vendored source' (2026-11-07)."
+  },
+  {
+   "movement": "malagasy-christianity",
+   "field": "legacy",
+   "sentence": "In Antananarivo four memorial churches stand on the sites where believers were killed, built by the people who had survived them.",
+   "other_id": null,
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 3,
+   "reason": "'Built by the people who had survived them' has no source and is doubtful; removed. Added from own reading of the field; the inventory missed it."
+  },
+  {
+   "movement": "malagasy-christianity",
+   "field": "legacy",
+   "sentence": "The Malagasy persecution became one of the most retold missionary narratives of the nineteenth century, a standard illustration in sermons and mission magazines wherever the question was whether a church could hold together with no clergy and no protection at all.",
+   "other_id": null,
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 3,
+   "reason": "Mission literature is not a movement. The superlative has no source; softened. The reception claim itself is left under the open item 'Well-known facts with no vendored source' (2026-11-07)."
+  },
+  {
+   "movement": "east-african-christianity-uganda-martyrs",
+   "field": "relationsSummary",
+   "sentence": "Johann Ludwig Krapf began mission work on the coast in 1844, and the Universities' Mission to Central Africa followed in 1857.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "A person and a mission society, neither a movement. Krapf's Travels, Researches and Missionary Labours (1860) in wants. Left standing under the open item 'Well-known facts with no vendored source' (2026-11-07)."
+  },
+  {
+   "movement": "east-african-christianity-uganda-martyrs",
+   "field": "relationsSummary",
+   "sentence": "The Church Missionary Society and the Catholic White Fathers reached Buganda in 1877 and 1879.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Mission societies, not movements; the Catholic nineteenth-century movement does not name Africa. Left standing under the open item 'Well-known facts with no vendored source' (2026-11-07)."
+  },
+  {
+   "movement": "east-african-christianity-uganda-martyrs",
+   "field": "relationsSummary",
+   "sentence": "Anglican and Catholic pages together became the Uganda Martyrs, executed between 1885 and 1887, with Charles Lwanga burned at Namugongo in 1886.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The martyrs are this movement's own people. No vendored source; Ashe, Two Kings of Uganda (1889), in wants. Left standing under the open item 'Well-known facts with no vendored source' (2026-11-07)."
+  },
+  {
+   "movement": "east-african-christianity-uganda-martyrs",
+   "field": "relationsSummary",
+   "sentence": "By the 1900 Agreement that settled Buganda's relations with Britain, it was a Christian kingdom.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "A state treaty, not a movement. Left standing under the open item 'Well-known facts with no vendored source' (2026-11-07)."
+  },
+  {
+   "movement": "east-african-christianity-uganda-martyrs",
+   "field": "longDescription",
+   "sentence": "Christianity came back to East Africa along the coast first — Johann Ludwig Krapf landed at Mombasa in 1844 and began the language and mapping work later missions relied on — and then inland to the kingdom of Buganda, where Anglican missionaries arrived in 1877 and French Catholic White Fathers in 1879.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Persons and mission societies, not movements. Left standing under the open item 'Well-known facts with no vendored source' (2026-11-07)."
+  },
+  {
+   "movement": "east-african-christianity-uganda-martyrs",
+   "field": "longDescription",
+   "sentence": "Their converts were largely young men of the royal court, and when the kabaka Mwanga II turned on them between 1885 and 1887 he killed both kinds together: Anglican and Catholic pages executed side by side, the largest group burned alive at Namugongo on 3 June 1886 under the leadership of Charles Lwanga, who is said to have arranged his own pyre.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Mwanga II is a ruler, not a movement. The pyre detail is already hedged ('is said to'). Left standing under the open item 'Well-known facts with no vendored source' (2026-11-07)."
+  },
+  {
+   "movement": "east-african-christianity-uganda-martyrs",
+   "field": "longDescription",
+   "sentence": "Persecution did what it often does. The church grew, and Baganda converts carried it outward as evangelists into the surrounding kingdoms faster than any mission society could have, so that by the agreement of 1900 that settled Buganda's relations with Britain, it was a Christian kingdom.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Neighbouring kingdoms and the 1900 Agreement are not movements. Left standing under the open item 'Well-known facts with no vendored source' (2026-11-07)."
+  },
+  {
+   "movement": "east-african-christianity-uganda-martyrs",
+   "field": "legacy",
+   "sentence": "Uganda became one of the most heavily Christian countries in Africa, and the martyrs are honored on both sides of the division that produced them — canonized by the Catholic Church in 1964, commemorated in the Anglican calendar, with shrines of both communions at Namugongo that draw enormous crowds every 3 June.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Acts of the modern Catholic and Anglican churches, no movement in this period. A twentieth-century fact outside every vendored text. Left standing under the open item 'Well-known facts with no vendored source' (2026-11-07)."
+  },
+  {
+   "movement": "east-african-christianity-uganda-martyrs",
+   "field": "relationsSummary",
+   "sentence": "The revival movement that swept the same churches decades later grew out of this same soil.",
+   "other_id": "the-east-african-revival-balokole",
+   "disposition": "link",
+   "link_id": "east-african-christianity-uganda-martyrs--the-east-african-revival-balokole",
+   "prose_change": null,
+   "reason": "Drafted as 'gave rise to' at Dominant Modern Reconstruction on Ward and Wild-Wood and on Peterson (both repo-cited). Era 10 has not run."
+  },
+  {
+   "movement": "east-african-christianity-uganda-martyrs",
+   "field": "legacy",
+   "sentence": "The pattern set here mattered as much as the memory. African Christians carrying the faith to neighboring peoples on their own initiative is how Christianity actually spread across this region, and the revival that swept these same churches from the 1930s grew out of the same soil.",
+   "other_id": "the-east-african-revival-balokole",
+   "disposition": "link",
+   "link_id": "east-african-christianity-uganda-martyrs--the-east-african-revival-balokole",
+   "prose_change": null,
+   "reason": "Same link as the summary."
+  },
+  {
+   "movement": "ethiopian-christianity-tewodros-to-menelik",
+   "field": "relationsSummary",
+   "sentence": "Menelik II won the decisive victory over Italy at Adwa in 1896.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Italy is a state, not a movement. Adwa is not in a vendored text. Left standing under the open item 'Well-known facts with no vendored source' (2026-11-07)."
+  },
+  {
+   "movement": "ethiopian-christianity-tewodros-to-menelik",
+   "field": "longDescription",
+   "sentence": "After a century in which Ethiopia's emperors were figureheads and the regional lords ruled, a provincial soldier crowned himself Tewodros II in 1855 and set out to remake the empire.",
+   "other_id": null,
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 4,
+   "reason": "Added from own reading: Tewodros was crowned by the abun, not by himself. Rewritten. The century before names no movement; the last Ethiopian movement before this one ends in 1650, and neither text names the other, so no link is drafted (escalated as a map gap)."
+  },
+  {
+   "movement": "ethiopian-christianity-tewodros-to-menelik",
+   "field": "longDescription",
+   "sentence": "And its church, whose lands he seized and whose clergy he tried to bring under his hand, until his quarrel with Britain ended with a redcoat army at Magdala and his suicide in 1868.",
+   "other_id": null,
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": 4,
+   "reason": "Britain is a state, not a movement. The British army at Magdala and Tewodros's defeat and suicide are supported: Budge, Kebra Nagast introduction (lines 1128-1131); Budge, Synaxarium preface (lines 262-263). Kept in the rewrite."
+  },
+  {
+   "movement": "ethiopian-christianity-tewodros-to-menelik",
+   "field": "longDescription",
+   "sentence": "His successor Yohannes IV settled a doctrinal argument that had divided Ethiopian theologians for two centuries: at the Council of Boru Meda in 1878 he ruled for the Tewahedo position on how Christ's divinity and humanity are united, and enforced it as the empire's single teaching.",
+   "other_id": null,
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 4,
+   "reason": "Added from own reading: Tekle Giyorgis II reigned between Tewodros and Yohannes, so 'his successor' is wrong; rewritten. The opposing Ethiopian schools have no movement of their own; Boru Meda is in no vendored text. Left standing under the open item 'Well-known facts with no vendored source' (2026-11-07)."
+  },
+  {
+   "movement": "ethiopian-christianity-tewodros-to-menelik",
+   "field": "longDescription",
+   "sentence": "Menelik II then did what no other African ruler managed in that century — at Adwa in 1896 he destroyed an invading Italian army and kept his country independent.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 4,
+   "reason": "Italy is a state. Left standing under the open item 'Well-known facts with no vendored source' (2026-11-07)."
+  },
+  {
+   "movement": "ethiopian-christianity-tewodros-to-menelik",
+   "field": "longDescription",
+   "sentence": "And Ethiopia entered the twentieth century as an ancient Christian state that had never been colonized, its church still receiving its head, the abun, from the Coptic patriarch in Egypt.",
+   "other_id": "coptic-revival-under-cyril-iv",
+   "disposition": "link",
+   "link_id": "coptic-revival-under-cyril-iv--ethiopian-christianity-tewodros-to-menelik",
+   "prose_change": 4,
+   "reason": "New 'in contact with' link, Widely Accepted: the 1894 panel inscription names the patriarch on 'the throne of Mark' as King John's father. The Coptic text does not name Ethiopia, so the link is ours."
+  },
+  {
+   "movement": "ethiopian-christianity-tewodros-to-menelik",
+   "field": "why",
+   "sentence": "A decade later Yohannes IV settled a two-century theological argument over how Christ's divinity and humanity are united at the Council of Boru Meda, even as the church that ruling bound together still had to receive its own head, the abun, from the Coptic patriarch in Egypt.",
+   "other_id": "coptic-revival-under-cyril-iv",
+   "disposition": "link",
+   "link_id": "coptic-revival-under-cyril-iv--ethiopian-christianity-tewodros-to-menelik",
+   "prose_change": null,
+   "reason": "Same link."
+  },
+  {
+   "movement": "ethiopian-christianity-tewodros-to-menelik",
+   "field": "why",
+   "sentence": "Tewodros II seized church lands and tried to bring the clergy under his own control, a quarrel that ended with a British army at Magdala and his suicide in 1868.",
+   "other_id": null,
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Britain is a state. Magdala and the suicide supported by Budge (Kebra Nagast introduction, lines 1128-1131)."
+  },
+  {
+   "movement": "ethiopian-christianity-tewodros-to-menelik",
+   "field": "legacy",
+   "sentence": "The Ethiopian Orthodox Tewahedo Church is one of the largest of the ancient Oriental Orthodox churches, and both things this century settled are still in place: the Tewahedo doctrine ruled at Boru Meda, and the independence Adwa secured.",
+   "other_id": "modern-ethiopian-and-eritrean-christianity",
+   "disposition": "link",
+   "link_id": "ethiopian-christianity-tewodros-to-menelik--modern-ethiopian-and-eritrean-christianity",
+   "prose_change": null,
+   "reason": "The Oriental Orthodox family is not one movement, so no link for it. The continuity into the twentieth century carries the continuesAs field; new 'continued as' link, Widely Accepted (Kebra Nagast introduction; Binns)."
+  },
+  {
+   "movement": "ethiopian-christianity-tewodros-to-menelik",
+   "field": "legacy",
+   "sentence": "The one arrangement that did change came later — the church received its first Ethiopian bishops in 1929 and its own patriarch in 1959, ending sixteen centuries of taking its head from Alexandria.",
+   "other_id": "coptic-revival-under-cyril-iv",
+   "disposition": "link",
+   "link_id": "coptic-revival-under-cyril-iv--ethiopian-christianity-tewodros-to-menelik",
+   "prose_change": null,
+   "reason": "The tie to Alexandria in this period is the new contact link. 1929 and 1959 are the next movement's facts, not vendored. Left standing under the open item 'Well-known facts with no vendored source' (2026-11-07)."
+  },
+  {
+   "movement": "ethiopian-christianity-tewodros-to-menelik",
+   "field": "legacy",
+   "sentence": "Adwa itself became a byword far beyond Ethiopia, a rallying point for Pan-Africanism and, in the Caribbean and the Americas, for movements that looked to Ethiopia as the image of an Africa that had never been conquered.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Pan-Africanism and the Caribbean and American movements have no movement of their own on the map. No vendored source. Left standing under the open item 'Well-known facts with no vendored source' (2026-11-07)."
+  }
+ ],
+ "links": [
+  {
+   "id": "coptic-christianity-fatimid-to-mamluk--coptic-revival-under-cyril-iv",
+   "from": "coptic-christianity-fatimid-to-mamluk",
+   "to": "coptic-revival-under-cyril-iv",
+   "type": "continued as",
+   "confidence": "Widely Accepted",
+   "note": "The Coptic church of Egypt kept one numbered line of patriarchs from the Middle Ages into the 1800s. Budge's list of 1928 sets Peter VII, from 1809 to 1852, as the 109th. The 110th, the reformer who took office in 1854, is listed as Cyril V. Most lists call him Cyril IV.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "E. A. Wallis Budge, table of the Jacobite (Coptic) patriarchs of Alexandria, introduction to The Book of the Saints of the Ethiopian Church, vol. 1 (1928)",
+     "file": "cic/texts/ethiopian-synaxarium_book-of-saints-ethiopian-church-v1-maskaram-khedar_budge1928.txt",
+     "lines": "2855-2857",
+     "locus": "Introduction, list of the Jacobite patriarchs, nos. 108-110",
+     "quote": "108 Mark VIII 1796-1809 tog Peter VII 1809-1852 110 Cyril V 1854-1861",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "E. A. Wallis Budge, table of the Jacobite (Coptic) patriarchs of Alexandria, introduction to The Book of the Saints of the Ethiopian Church, vol. 1 (1928)",
+     "file": "cic/texts/ethiopian-synaxarium_book-of-saints-ethiopian-church-v1-maskaram-khedar_budge1928.txt",
+     "lines": "2827-2831",
+     "locus": "Introduction, list of the Jacobite patriarchs, nos. 85-86",
+     "quote": "THE JACOBITE PATRIARCHS OF ALEXANDRIA 85 John X 1363-1369 86 Gabriel IV 1370-1378",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Otto Meinardus, Two Thousand Years of Coptic Christianity (AUC Press, 1999)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Magdi Guirguis and Nelly van Doorn-Harder, The Emergence of the Modern Coptic Papacy (AUC Press, 2011)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "action": "new",
+   "named_in_text": [
+    "coptic-revival-under-cyril-iv relationsSummary ('Continuation of the long Egyptian lane')",
+    "coptic-christianity-fatimid-to-mamluk legacy ('it runs unbroken through this period'; does not name the later movement)"
+   ],
+   "wants": [
+    "The History of the Patriarchs of the Coptic Church, its later continuations (fourteenth to nineteenth centuries): the line of patriarchs from the original side, not a modern table"
+   ],
+   "drafter_flags": [
+    "The primary here is Budge's 1928 table of patriarchs, an editor's compilation, not an original witness. It is labelled primary only because it is the vendored text that shows the unbroken numbered see; a reviewer may prefer to treat it as a reference and grade the link Dominant Modern Reconstruction.",
+    "OCR reads '109' as 'tog'; the quote keeps the OCR exactly.",
+    "Budge names the 1854-1861 patriarch 'Cyril V'; most modern lists, and this movement's own text, call him Cyril IV. The note says so.",
+    "No Coptic movement sits between 1300 and 1854, so this link spans about 550 years. Whether the map should bridge that gap is a layout question; listed in escalations."
+   ],
+   "change_reason": "New link. The movement's own summary names the long Egyptian line; the earlier Coptic movement has no forward link."
+  },
+  {
+   "id": "coptic-revival-under-cyril-iv--the-coptic-monastic-and-sunday-school-revival",
+   "from": "coptic-revival-under-cyril-iv",
+   "to": "the-coptic-monastic-and-sunday-school-revival",
+   "type": "continued as",
+   "confidence": "Dominant Modern Reconstruction",
+   "note": "The same Coptic church carried Cyril IV's work on into the next century. Historians trace its Sunday-school movement back to the schools of this time. Habib Girgis taught from the 1890s. Around 1918 he built the movement across the whole church.",
+   "sources": [
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Bishop Suriel, Habib Girgis: Coptic Orthodox Educator and a Light in the Darkness (SVS Press, 2017)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Magdi Guirguis and Nelly van Doorn-Harder, The Emergence of the Modern Coptic Papacy (AUC Press, 2011)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    }
+   ],
+   "citation_specificity": "C",
+   "verification_state": "named-not-rechecked",
+   "action": "new",
+   "named_in_text": [
+    "coptic-revival-under-cyril-iv continuesAs field, relationsSummary ('parent of the Sunday School revival'), longDescription ('the schools that would eventually produce the twentieth-century Sunday School movement'), why ('laid the ground for the Sunday School movement') and legacy ('grew out of Cyril's schools, formally organized from 1918')",
+    "the-coptic-monastic-and-sunday-school-revival relationsSummary and longDescription (Habib Girgis, 'organized around 1918'; does not name the earlier movement)"
+   ],
+   "wants": [
+    "Habib Girgis's own writings and the records of the General Sunday School Committee (c. 1918), Arabic",
+    "Records of Cyril IV's Patriarchal school (1855) and of the majlis milli (1874)"
+   ],
+   "drafter_flags": [
+    "No vendored text covers the Coptic church after 1895, so the link rests on the repo-cited secondaries only. The continuity of the church itself is not in doubt; once a primary on Girgis's schools is vendored it can go to Widely Accepted.",
+    "Girgis teaching from the 1890s and the 1918 organization come from the era-10 source research (Suriel verified there at the year level); no page number is given.",
+    "A 34-year gap (1906 to the 1940s) lies between the two movements; the era-10 movement's own text already names Girgis inside it."
+   ],
+   "change_reason": "New link carrying the movement's continuesAs field; era 10 has not run."
+  },
+  {
+   "id": "coptic-revival-under-cyril-iv--ethiopian-christianity-tewodros-to-menelik",
+   "from": "coptic-revival-under-cyril-iv",
+   "to": "ethiopian-christianity-tewodros-to-menelik",
+   "type": "in contact with",
+   "confidence": "Widely Accepted",
+   "note": "A panel painted in Cairo in 1894 shows the funeral of King John of Ethiopia, with Bishop Athanasius riding behind him. Its writing calls the king 'the son of Abba Cyril', who sits 'on the throne of Mark'. That is the head of the Coptic church in Egypt. The Ethiopian church still took its chief bishop from him.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Painted panel of the funeral of King John (Yohannes IV), painted in Cairo, 1894, described and its inscription translated by E. A. Wallis Budge, The Lives of Maba' Seyon and Gabra Krestos (1898), chapter on the illustrations",
+     "file": "cic/texts/gadla-maba-seyon_lives-of-maba-seyon-and-gabra-krestos_budge1898.txt",
+     "lines": "1703-1709",
+     "locus": "On the Illustrations of Ethiopic MSS., p. lxxxii",
+     "quote": "wooden panel upon which is depicted the funeral of King John.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Painted panel of the funeral of King John (Yohannes IV), painted in Cairo, 1894, described and its inscription translated by E. A. Wallis Budge, The Lives of Maba' Seyon and Gabra Krestos (1898), chapter on the illustrations",
+     "file": "cic/texts/gadla-maba-seyon_lives-of-maba-seyon-and-gabra-krestos_budge1898.txt",
+     "lines": "1708-1709",
+     "locus": "On the Illustrations of Ethiopic MSS., p. lxxxii",
+     "quote": "After the king rides Bishop Athanasius,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Painted panel of the funeral of King John (Yohannes IV), Budge's note on its date (1898)",
+     "file": "cic/texts/gadla-maba-seyon_lives-of-maba-seyon-and-gabra-krestos_budge1898.txt",
+     "lines": "1718",
+     "locus": "On the Illustrations of Ethiopic MSS., p. lxxxii, note 1",
+     "quote": "It was painted by an Abyssinian artist living in Cairo in 1894.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Painted panel of the funeral of King John (Yohannes IV), inscription in the tablet, trans. Budge (1898)",
+     "file": "cic/texts/gadla-maba-seyon_lives-of-maba-seyon-and-gabra-krestos_budge1898.txt",
+     "lines": "1732-1734",
+     "locus": "On the Illustrations of Ethiopic MSS., p. lxxxiii",
+     "quote": "the King of Kings, John of Ethiopia, the King of Zion, the son of Abba Cyril, the Archbishop, who sitteth on the throne of Mark, the orthodox one",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "E. A. Wallis Budge, introduction to The Lives of Maba' Seyon and Gabra Krestos (1898), on the abun (vendored: cic/texts/gadla-maba-seyon_lives-of-maba-seyon-and-gabra-krestos_budge1898.txt, lines 534-536)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "John Binns, The Orthodox Church of Ethiopia: A History (I.B. Tauris, 2017)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Magdi Guirguis and Nelly van Doorn-Harder, The Emergence of the Modern Coptic Papacy (AUC Press, 2011)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "action": "new",
+   "named_in_text": [
+    "ethiopian-christianity-tewodros-to-menelik longDescription ('its church still receiving its head, the abun, from the Coptic patriarch in Egypt'), why ('had to receive its own head, the abun, from the Coptic patriarch in Egypt') and legacy ('ending sixteen centuries of taking its head from Alexandria')"
+   ],
+   "major": {
+    "major": false,
+    "kind": null,
+    "evidence": null,
+    "reason": "A standing tie between two churches shown by an inscription; no council, split or changed rule in the link's own sources."
+   },
+   "wants": [
+    "A record of Cyril IV's own mission to Tewodros in 1856-57 (patriarchate records or a contemporary account)",
+    "A royal chronicle of Yohannes IV, for the four bishops sent from Alexandria in 1881"
+   ],
+   "drafter_flags": [
+    "Graded Widely Accepted, not Documented: the inscription names the patriarch as the king's spiritual father but is not a letter or meeting. Budge's 1898 remark that the abun 'was always appointed by the patriarch of the Coptic Church' is his own comment and is listed as a secondary.",
+    "The 'Abba Cyril' of the inscription is the patriarch of King John's reign (Cyril V, from 1874), not Cyril IV, who died in 1861; the note says only that he was the head of the Coptic church, which the phrase 'throne of Mark' supports. Budge's own list numbers patriarchs differently; see the Coptic continued-as link.",
+    "The panel was painted after John's death in 1889 (the inscription asks the Redeemer to 'receive him'). The note says 1894 and 'funeral'.",
+    "Cyril IV's 1856 journey to Tewodros is well known but not in any vendored text, so it is not in the note; in wants."
+   ],
+   "change_reason": "New link. Ethiopian text names the Coptic patriarch three times; the Coptic text does not name Ethiopia."
+  },
+  {
+   "id": "ethiopian-christianity-tewodros-to-menelik--modern-ethiopian-and-eritrean-christianity",
+   "from": "ethiopian-christianity-tewodros-to-menelik",
+   "to": "modern-ethiopian-and-eritrean-christianity",
+   "type": "continued as",
+   "confidence": "Widely Accepted",
+   "note": "The same church and its Christian kings ran on into the twentieth century. One book shows the thread. British soldiers took a copy of the Kebra Nagast, the book of Ethiopia's kings, from Magdala in 1868. It was sent back to King John in 1872, and Menelik II later showed it to a French envoy.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "E. A. Wallis Budge, introduction to The Queen of Sheba and her only son Menyelek (Kebra Nagast) (1922)",
+     "file": "cic/texts/kebra-nagast_queen-of-sheba-and-menyelek_budge1922.txt",
+     "lines": "1128-1131",
+     "locus": "Introduction, p. xxv",
+     "quote": "the great collection of Ethiopic manuscripts, which the British Army brought away from Makdala after the defeat and suicide of King Theodore, was brought to the British Museum",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "King John IV, letter to Earl Granville, 10 August 1872, quoted by Budge (1922)",
+     "file": "cic/texts/kebra-nagast_queen-of-sheba-and-menyelek_budge1922.txt",
+     "lines": "1142-1143",
+     "locus": "Introduction, p. xxv",
+     "quote": "On 10 Aug., 1872, Prince Kasa, who was subsequently crowned as King John IV, wrote to Earl Granville",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "E. A. Wallis Budge, introduction to the Kebra Nagast (1922), on the return of the manuscript",
+     "file": "cic/texts/kebra-nagast_queen-of-sheba-and-menyelek_budge1922.txt",
+     "lines": "1173-1174",
+     "locus": "Introduction, p. xxvi",
+     "quote": "the manuscript was restored to him on 14 December, 1872.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Hugues Le Roux's account of his visit to Menelik II, as given by Budge (1922)",
+     "file": "cic/texts/kebra-nagast_queen-of-sheba-and-menyelek_budge1922.txt",
+     "lines": "1177-1179",
+     "locus": "Introduction, p. xxvi",
+     "quote": "M. Hugues Le Roux, a French envoy from the President of the French Republic to Menyelek II, King of Ethiopia, went to Addis Alem",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "John Binns, The Orthodox Church of Ethiopia: A History (I.B. Tauris, 2017)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "action": "new",
+   "named_in_text": [
+    "ethiopian-christianity-tewodros-to-menelik continuesAs field and legacy ('both things this century settled are still in place'; 'first Ethiopian bishops in 1929 and its own patriarch in 1959')",
+    "modern-ethiopian-and-eritrean-christianity longDescription ('entered the twentieth century as an ancient national church under a Coptic hierarchy')"
+   ],
+   "wants": [
+    "A royal chronicle of Menelik II (Gabra Sellase), for the church and court across 1900"
+   ],
+   "drafter_flags": [
+    "The vendored evidence runs 1868-1872 and to Menelik's reign, but Le Roux's visit is not dated in the file, so nothing here shows the year 1900 itself. The continuity of the church across 1900 rests on Binns (repo-cited, not page-checked).",
+    "Le Roux's account, as Budge gives it, says this is the same manuscript the British took and an ambassador returned to Emperor John (file lines 1205-1221, in French)."
+   ],
+   "change_reason": "New link carrying the movement's continuesAs field; era 10 has not run."
+  },
+  {
+   "id": "east-african-christianity-uganda-martyrs--the-east-african-revival-balokole",
+   "from": "east-african-christianity-uganda-martyrs",
+   "to": "the-east-african-revival-balokole",
+   "type": "gave rise to",
+   "confidence": "Dominant Modern Reconstruction",
+   "note": "The East African Revival began around 1930 among Anglicans in Rwanda and Uganda. From 1935 it held large meetings at Kabale in Uganda. Historians see it as growing out of the churches that missions and Baganda converts had built. No text from either side is held here.",
+   "sources": [
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Kevin Ward and Emma Wild-Wood (eds.), The East African Revival: History and Legacies (Ashgate, 2012)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Derek R. Peterson, Ethnic Patriotism and the East African Revival: A History of Dissent, c. 1935-1972 (Cambridge University Press, 2012)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    }
+   ],
+   "citation_specificity": "C",
+   "verification_state": "named-not-rechecked",
+   "action": "new",
+   "named_in_text": [
+    "east-african-christianity-uganda-martyrs relationsSummary ('The revival movement that swept the same churches decades later grew out of this same soil') and legacy ('the revival that swept these same churches from the 1930s grew out of the same soil')",
+    "the-east-african-revival-balokole longDescription ('led by Africans inside the mission Anglicanism that had planted the church')"
+   ],
+   "wants": [
+    "Joe Church, Quest for the Highest (1981): the revival's start at Gahini, from the missionary side (in copyright)",
+    "Revival testimonies from the Kabale conventions (from 1935)"
+   ],
+   "drafter_flags": [
+    "Era 10 has not run, so this pair is drafted here although the revival's own text also speaks of 'mission Anglicanism'.",
+    "The revival began at Gahini in Rwanda, whose mission dates from the 1920s, after this movement's end; the tie runs through the Anglican church of Uganda. No secondary page is cited for the tie itself."
+   ],
+   "change_reason": "New link; no link joined the two movements."
+  }
+ ],
+ "prose_changes": [
+  {
+   "n": 1,
+   "movement": "coptic-revival-under-cyril-iv",
+   "field": "relationsSummary",
+   "old": "Continuation of the long Egyptian lane; parent of the Sunday School revival",
+   "new": "It carries on the Coptic Church of Egypt. Its line of patriarchs runs back without a break through the centuries before it. Its schools helped prepare the Sunday-school revival of the next century.",
+   "reason": "'Lane' is map-building language. Rewritten in words; 'parent' softened to what the secondary works support."
+  },
+  {
+   "n": 2,
+   "movement": "coptic-revival-under-cyril-iv",
+   "field": "legacy",
+   "old": "Everything the modern Coptic Church is known for was made possible here. The Sunday School movement that grew out of Cyril's schools, formally organized from 1918, produced the generation of teachers, monks and bishops who repopulated the desert monasteries and led the church through the twentieth century, and the Coptic diaspora carried that renewal to Europe, North America and Australia. The Coptic Orthodox Church remains the largest Christian community in the Middle East.",
+   "new": "Much of what the Coptic Church is known for today began here. Historians trace its Sunday-school movement back to Cyril's schools. That movement took formal shape from 1918. It trained the teachers, monks and bishops who filled the desert monasteries again. They led the church through the twentieth century. Copts who moved abroad later took that renewal to Europe, North America and Australia. The Coptic Orthodox Church is still the largest Christian community in the Middle East.",
+   "reason": "'Everything the modern Coptic Church is known for was made possible here' overstates: the monastic renewal also had its own roots. Qualified, and the descent from Cyril's schools stated as the historians' reading, which is all the repo-cited works support."
+  },
+  {
+   "n": 3,
+   "movement": "malagasy-christianity",
+   "field": "legacy",
+   "old": "Christianity is still the majority faith of Madagascar, and the churches grown from this period remain among the island's largest institutions. In Antananarivo four memorial churches stand on the sites where believers were killed, built by the people who had survived them. The story traveled further than the island did. The Malagasy persecution became one of the most retold missionary narratives of the nineteenth century, a standard illustration in sermons and mission magazines wherever the question was whether a church could hold together with no clergy and no protection at all.",
+   "new": "Most people in Madagascar are still Christians. The churches grown from this time remain among the island's largest bodies. Four memorial churches stand in the capital, Antananarivo, on the spots where believers were killed. The story also went far beyond the island. Sermons and mission magazines told it again and again in the 1800s. It became their standard proof that a church could hold together with no clergy and no protection at all.",
+   "reason": "'Built by the people who had survived them' removed: no vendored or repo-cited source says who built or paid for the memorial churches, and standard accounts credit mission funds from Britain. 'One of the most retold' softened, since no source measures it."
+  },
+  {
+   "n": 4,
+   "movement": "ethiopian-christianity-tewodros-to-menelik",
+   "field": "longDescription",
+   "old": "After a century in which Ethiopia's emperors were figureheads and the regional lords ruled, a provincial soldier crowned himself Tewodros II in 1855 and set out to remake the empire. And its church, whose lands he seized and whose clergy he tried to bring under his hand, until his quarrel with Britain ended with a redcoat army at Magdala and his suicide in 1868. His successor Yohannes IV settled a doctrinal argument that had divided Ethiopian theologians for two centuries: at the Council of Boru Meda in 1878 he ruled for the Tewahedo position on how Christ's divinity and humanity are united, and enforced it as the empire's single teaching. Menelik II then did what no other African ruler managed in that century — at Adwa in 1896 he destroyed an invading Italian army and kept his country independent. And Ethiopia entered the twentieth century as an ancient Christian state that had never been colonized, its church still receiving its head, the abun, from the Coptic patriarch in Egypt.",
+   "new": "For a century Ethiopia's emperors had been figureheads while regional lords ruled. Then in 1855 a soldier from the provinces took the throne as Tewodros II. He set out to remake the empire, and its church too. He seized church lands and tried to bring the clergy under his hand. His quarrel with Britain ended in 1868, when a British army stormed Magdala and he took his own life. Yohannes IV took the throne a few years later. He settled an argument that had split Ethiopian scholars for two centuries. At the Council of Boru Meda in 1878 he ruled for the Tewahedo teaching on how God and man are united in Christ. He then made it the one teaching of the empire. Menelik II did what no other African ruler managed in that century. At Adwa in 1896 he crushed an invading Italian army and kept his country free. Ethiopia entered the twentieth century as an ancient Christian state that had never been ruled by Europeans. Its church still took its head, the abun, from the Coptic patriarch in Egypt.",
+   "reason": "Two fixes. Tewodros did not crown himself; the abun crowned him, so 'took the throne' replaces it. Yohannes was not Tewodros's direct successor (Tekle Giyorgis II ruled between them), so 'his successor' goes. The defeat and suicide at Magdala are supported (Budge, Kebra Nagast introduction, lines 1128-1131)."
+  }
+ ],
+ "wants": [
+  "William Ellis, History of Madagascar (1838) and Madagascar Revisited (1867): the London Missionary Society, the 1835 ban and the persecution",
+  "James Sibree, Madagascar and its People (1870): the memorial churches and the church after 1869",
+  "J. L. Krapf, Travels, Researches and Missionary Labours (1860): the East African coast mission from 1844",
+  "R. P. Ashe, Two Kings of Uganda (1889), and Mackay of Uganda, by his sister (1890): Buganda and the martyrs, from the missionary side",
+  "A royal chronicle of Tewodros II and of Yohannes IV, and a record of the Council of Boru Meda (1878)",
+  "A record of Cyril IV's mission to Tewodros, 1856-57",
+  "The History of the Patriarchs of the Coptic Church, later continuations, for the line of patriarchs 1300-1854",
+  "Habib Girgis's writings and the General Sunday School Committee records (c. 1918), Arabic",
+  "Records of Cyril IV's Patriarchal school (1855), the majlis milli (1874) and al-Watan (1877-)"
+ ],
+ "escalations": [
+  "Map gaps (portfolio layout, for Mark): the Coptic church has no movement between 1300 and 1854, and the Ethiopian church none between 1650 and 1855. This draft bridges the Coptic gap with a 'continued as' link because the Coptic Revival's own text names the earlier line; the Ethiopian gap is not bridged because neither text names the other. Should both be bridged, or neither?"
+ ]
+}

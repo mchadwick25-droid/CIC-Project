@@ -1,0 +1,74 @@
+{
+  "name": "Marcion of Pontus",
+  "otherNames": [
+    "Marcion of Sinope, in Epiphanius of Salamis"
+  ],
+  "knownFor": "A teacher at Rome who held that the God of the law was not the Father of Jesus, and whose own churches spread widely.",
+  "dates": "Taught at Rome in the middle of the second century",
+  "place": "Pontus, then Rome",
+  "tradition": "Marcionism",
+  "role": "Founder of the Marcionite churches",
+  "briefLength": "about 2 minutes 25 seconds",
+  "keyWorks": [
+    {
+      "title": "Antitheses",
+      "about": "set the law against the gospel. It is lost and known through Tertullian of Carthage's answer"
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "Justin Martyr says many \"of every nation\" followed him. Tertullian of Carthage says the Marcionites built churches of their own."
+    ],
+    "remembered": [
+      "Irenaeus of Lyon tells that Polycarp of Smyrna called him \"the first-born of Satan.\"",
+      "Tertullian wrote five books Against Marcion, arguing from Marcion's own Gospel and Antitheses."
+    ]
+  },
+  "uncertain": [
+    "Almost everything known of him comes from his opponents: Justin Martyr, Irenaeus of Lyon, Tertullian of Carthage and Epiphanius of Salamis. None of his own books survives.",
+    "The teaching rests on more than one of them. Justin, writing while Marcion lived, and Tertullian, who read Marcion's own books, agree that he set another god above the Creator.",
+    "Several life details rest on Tertullian alone: the shipmaster, the money returned, and the late offer to repent.",
+    "Tertullian places Marcion at Rome under Bishop Eleutherus. Irenaeus has him flourish under Anicetus, an earlier bishop.",
+    "That he was a bishop's son put out for violating a young woman is told by the book Against All Heresies printed with Tertullian's works, and at more length by Epiphanius. Karl Holl, who edited Epiphanius's Greek, thought Tertullian's silence spoke against the story.",
+    "Justin Martyr and Irenaeus of Lyon say he came from Pontus. Only Epiphanius, two centuries later, names the city of Sinope; Holl notes that the one other early writer to name it copied him."
+  ],
+  "sources": {
+    "about": [
+      {
+        "title": "First Apology, chapters 26 and 58",
+        "author": "Justin Martyr",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml"
+      },
+      {
+        "title": "Against Heresies, Book 1 chapter 27; Book 3 chapters 3 and 4",
+        "author": "Irenaeus of Lyon",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml"
+      },
+      {
+        "title": "Prescription against Heretics 30; Against Marcion, Books 1 to 5",
+        "author": "Tertullian of Carthage",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/anf03_tertullian.xml"
+      },
+      {
+        "title": "Against All Heresies 6 (printed with Tertullian's works)",
+        "author": "Unknown",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/anf03_tertullian.xml"
+      },
+      {
+        "title": "Panarion 42 (Greek)",
+        "author": "Epiphanius of Salamis",
+        "date": null,
+        "language": "Greek",
+        "file": "cic/texts/epiphanius_panarion-haer-34-64-gcs-bd2-grc_holl1922.txt"
+      }
+    ]
+  }
+}

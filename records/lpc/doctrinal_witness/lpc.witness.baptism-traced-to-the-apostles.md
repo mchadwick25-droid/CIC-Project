@@ -65,8 +65,7 @@ text: Augustine traced two of our practices back to the apostles in plain words.
   someone who had already been baptized among heretics. That custom, he said, no one could find to have
   been invented by a later age. It was "rightly believed to have been handed down from the apostles."
   He said the same of baptizing infants. It was held everywhere and instituted by no council. It too was
-  "rightly held to have been handed down by apostolical authority." Neither claim rests on a written text
-  from an apostle's own hand. Both rest on the same reasoning. A custom this old and this universal, with
+  "rightly held to have been handed down by apostolical authority." Both rest on the same reasoning. A custom this old and this universal, with
   no other explanation for its origin, is rightly believed to have come from the apostles.
 ---
 Grounded directly in Augustine, On Baptism II.7.10 and IV.24.32 -- both verified against the vendored XML at the line numbers above. lpc.witness.tradition-tested-by-apostolic-warrant covers how Cyprian and Augustine would each test an apostolic-origin claim, in the Stephen/rebaptism dispute specifically; this record covers the two places where Augustine directly says a practice was handed down from the apostles -- non-rebaptism, the very practice of that dispute, and infant baptism. The remaining absence in lpc.limit.apostolic-origin-undefended is catechesis, the road back, and the teaching before the water specifically, not a blanket absence of any traced practice.

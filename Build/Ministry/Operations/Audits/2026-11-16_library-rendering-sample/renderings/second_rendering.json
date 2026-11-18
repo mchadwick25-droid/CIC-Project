@@ -1,0 +1,342 @@
+{
+ "treatment_of_named_terms": {
+  "Revolutie": "Capitalised 'Revolutie' is 'the Revolution'. The lower-case 'de revolutie der 18e eeuw' in P1 is kept lower-case: 'the revolution of the eighteenth century'.",
+  "Reformatie": "'the Reformation' (P2, three times).",
+  "Hervorming": "Does not occur inside any of the three passages (its nearest use is line 6853, just after P2). I would also render it 'the Reformation': in Groen it is the native Dutch name for the same event, and English has no second name for it.",
+  "Omwenteling": "Occurs once (P2, line 6846). Rendered 'the Upheaval', capitalised, to keep it a different word from 'the Revolution', as the Dutch keeps them apart. See the P2 choices for the doubt."
+ },
+ "passages": [
+  {
+   "id": "P1",
+   "dutch_reading": "Thans zijn wij aan den aanvang der ontwikkeling van mijne hoofdgedachte; namelijk dat de oorzaak der Revolutie in het ongeloof ligt.\n\nMet al haar verscheidenheden van theoretische en praktikale rigtingen en gedaanten, is de Revolutie gevolg, toepassing, ontplooijing van het ongeloof. Door theoretisch en praktikaal ongeloof werd de filozofie en de revolutie der 18e eeuw gevormd. Eene geheele reeks van dwaalbegrippen en gruwelen moest volgen op een reeks van syllogismen, toen eenmaal het ongeloof den boventoon had.",
+   "ocr_faults": [
+    {
+     "line": 6941,
+     "ocr": "aanvant»-",
+     "print": "aanvang"
+    },
+    {
+     "line": 6942,
+     "ocr": "lioordgedaclite",
+     "print": "hoofdgedachte"
+    },
+    {
+     "line": 6945,
+     "ocr": "prakli-",
+     "print": "prakti- (praktikale)"
+    },
+    {
+     "line": 6948,
+     "ocr": "IB^",
+     "print": "18e"
+    }
+   ],
+   "english": "We now stand at the beginning of the development of my main thought: namely, that the cause of the Revolution lies in unbelief.\n\nWith all its varieties of theoretical and practical tendencies and forms, the Revolution is the consequence, the application, the unfolding of unbelief. The philosophy and the revolution of the eighteenth century were formed by theoretical and practical unbelief. A whole series of false ideas and atrocities had to follow upon a series of syllogisms, once unbelief had the upper hand.",
+   "choices": [
+    {
+     "dutch": "ontwikkeling van mijne hoofdgedachte",
+     "english": "the development of my main thought",
+     "why": "'Ontwikkeling' here is the working-out of an argument; 'development' carries that, and I kept 'unfolding' free for 'ontplooijing' two lines on so the two Dutch words stay two English words."
+    },
+    {
+     "dutch": "ongeloof (italic in print, first paragraph)",
+     "english": "unbelief (no markup)",
+     "why": "The print italicises the word; I added no markup or extra word, and rely on its place at the end of the sentence to carry the stress. If the record can hold italics, this word should have them."
+    },
+    {
+     "dutch": "Met al haar verscheidenheden",
+     "english": "With all its varieties",
+     "why": "Could be read concessively ('for all its variety, despite it'); I kept the neutral 'with', which leaves both readings open as the Dutch does."
+    },
+    {
+     "dutch": "rigtingen en gedaanten",
+     "english": "tendencies and forms",
+     "why": "'Rigtingen' is literally 'directions' but means schools or currents of thought and practice; 'gedaanten' is 'shapes, guises'. Mild doubt between 'tendencies' and 'schools'."
+    },
+    {
+     "dutch": "gevolg",
+     "english": "consequence",
+     "why": "Could also be 'result'; 'consequence' keeps the logical colour that the following 'syllogisms' sentence depends on."
+    },
+    {
+     "dutch": "de revolutie der 18e eeuw",
+     "english": "the revolution of the eighteenth century",
+     "why": "The print has a small r here, unlike the capital elsewhere in the passage; I kept the difference rather than normalising it."
+    },
+    {
+     "dutch": "dwaalbegrippen",
+     "english": "false ideas",
+     "why": "Literally 'erring notions'; 'errors' was the alternative but loses 'begrippen' (ideas, concepts)."
+    },
+    {
+     "dutch": "gruwelen",
+     "english": "atrocities",
+     "why": "Hesitated between 'horrors' and 'atrocities'; he means deeds done, so 'atrocities'."
+    },
+    {
+     "dutch": "moest (italic in print)",
+     "english": "had to",
+     "why": "Italic stress on necessity; 'had to' carries it without an added word, but the italics themselves are not marked in the plain string."
+    },
+    {
+     "dutch": "den boventoon had",
+     "english": "had the upper hand",
+     "why": "The Dutch image is musical (the dominant tone); English has no equally plain musical idiom, so the image is lost and only the sense of dominance kept."
+    }
+   ]
+  },
+  {
+   "id": "P2",
+   "dutch_reading": "Oorzaak der Revolutie, heeft de Reformatie niet kunnen zijn, vermits zij van een tegenovergesteld beginsel uitging; van objectieve geloofseenheid, niet van de verscheidenheid der subjectieve gevoelens; van de onfeilbaarheid der Openbaring, niet van de oppermagt des verstands; van de souvereiniteit Gods, niet van de souvereiniteit van den mensch. De Reformatie heeft aan de verwarring der midden-eeuwen een einde gemaakt en tegen de overheersching van het ongeloof behoed. Door het verminderen en bijkans te niet gaan van haar invloed, werd Europa voor de Omwenteling rijp. Eén middel slechts is er van leven en herleving ook voor de volken; het Woord des Levens. Laat ons in de heilvolle werking der Reformatie de vervulling der profetie erkennen: „Mijn Woord zal doen wat Mij behaagt en het zal voorspoedig zijn waartoe Ik het zende.\"",
+   "ocr_faults": [
+    {
+     "line": 6837,
+     "ocr": "heelt",
+     "print": "heeft"
+    },
+    {
+     "line": 6838,
+     "ocr": "vcrmils",
+     "print": "vermits"
+    },
+    {
+     "line": 6838,
+     "ocr": "legenovcrgcstcld",
+     "print": "tegenovergesteld"
+    },
+    {
+     "line": 6839,
+     "ocr": "geloofscenheid",
+     "print": "geloofseenheid"
+    },
+    {
+     "line": 6841,
+     "ocr": "souverciniteit",
+     "print": "souvereiniteit"
+    },
+    {
+     "line": 6842,
+     "ocr": "souverciniteit",
+     "print": "souvereiniteit"
+    },
+    {
+     "line": 6842,
+     "ocr": "niensch  De",
+     "print": "mensch ¹). De (footnote mark, not part of the passage; the full stop is lost in the OCR)"
+    },
+    {
+     "line": 6846,
+     "ocr": "dc",
+     "print": "de"
+    },
+    {
+     "line": 6847,
+     "ocr": "dc",
+     "print": "de"
+    },
+    {
+     "line": 6849,
+     "ocr": ",,Aiijn",
+     "print": "„Mijn"
+    },
+    {
+     "line": 6850,
+     "ocr": "zendc",
+     "print": "zende"
+    }
+   ],
+   "english": "The Reformation cannot have been the cause of the Revolution, because it started from an opposite principle. It started from objective unity of faith, not from the variety of subjective opinions. It started from the infallibility of Revelation, not from the supremacy of the intellect. It started from the sovereignty of God, not from the sovereignty of man. The Reformation put an end to the confusion of the Middle Ages and gave protection against the domination of unbelief. Through the lessening and near disappearance of its influence, Europe became ripe for the Upheaval. There is only one means of life and revival, for the nations as well: the Word of Life. Let us recognise in the beneficial working of the Reformation the fulfilment of the prophecy: \"My Word will do what pleases Me, and it will succeed in that for which I send it.\"",
+   "choices": [
+    {
+     "dutch": "Oorzaak der Revolutie, heeft de Reformatie niet kunnen zijn",
+     "english": "The Reformation cannot have been the cause of the Revolution",
+     "why": "The Dutch fronts 'Oorzaak der Revolutie' for stress; natural English order moves it to the end of the clause, where it still takes the stress, but the fronting is lost."
+    },
+    {
+     "dutch": "van ... ; van ... ; van ... (one sentence)",
+     "english": "It started from ... (three times)",
+     "why": "To split a 50-word sentence I repeated the governing verb 'uitging' three times; the words repeat Groen's own verb and add no new sense, but they are repetitions the Dutch does not print."
+    },
+    {
+     "dutch": "geloofseenheid",
+     "english": "unity of faith",
+     "why": "Could be 'unity of belief' (shared doctrine) or 'unity of the faith'; 'unity of faith' leaves it as open as the compound does."
+    },
+    {
+     "dutch": "subjectieve gevoelens",
+     "english": "subjective opinions",
+     "why": "In 1868 'gevoelen' is a held view or opinion; 'feelings' is the false friend a modern reader would reach for, and it would turn a point about doctrine into one about emotion."
+    },
+    {
+     "dutch": "oppermagt des verstands",
+     "english": "the supremacy of the intellect",
+     "why": "Real doubt: 'reason' is the word an English reader expects, but Groen writes 'verstand' (understanding, intellect), not 'rede'; I kept the narrower word."
+    },
+    {
+     "dutch": "tegen de overheersching van het ongeloof behoed",
+     "english": "gave protection against the domination of unbelief",
+     "why": "'Behoed' has no object in the Dutch (it does not say whom it protected), so I avoided supplying 'Europe' or 'us'; 'overheersching' is domination, rule over others."
+    },
+    {
+     "dutch": "bijkans te niet gaan",
+     "english": "near disappearance",
+     "why": "Literally 'almost coming to nothing'; 'near disappearance' is the same sense in fewer words, with slight loss of the 'to nothing' image."
+    },
+    {
+     "dutch": "de Omwenteling",
+     "english": "the Upheaval",
+     "why": "Real doubt: 'Omwenteling' is the native Dutch word for 'revolution' (an overturning) and many would simply write 'the Revolution'; I kept a separate word because Groen uses 'Revolutie' in the same paragraph and the brief treats the two as distinct, but 'the Upheaval' is weaker as a proper name than the Dutch."
+    },
+    {
+     "dutch": "ook voor de volken",
+     "english": "for the nations as well",
+     "why": "'Ook' implies 'as for the single person, so for nations'; I did not spell that out. 'Volken' could be 'peoples'; 'nations' reads more plainly."
+    },
+    {
+     "dutch": "middel ... van leven en herleving",
+     "english": "means of life and revival",
+     "why": "'Herleving' is coming back to life; 'revival' carries it, though in English it also names a religious revival, which fits Groen's meaning rather than misleading."
+    },
+    {
+     "dutch": "heilvolle werking",
+     "english": "beneficial working",
+     "why": "Real doubt: 'heilvol' is 'full of heil' (wellbeing, blessing, and behind it salvation); 'beneficial' is plainer and flatter than the Dutch, 'blessed' and 'saving' each say more than he does."
+    },
+    {
+     "dutch": "het zal voorspoedig zijn waartoe Ik het zende",
+     "english": "it will succeed in that for which I send it",
+     "why": "Rendered from the Dutch as printed (Groen's wording of Isaiah 55:11), not from an English Bible; 'voorspoedig zijn' is 'prosper, succeed', and I chose 'succeed' because 'prosper' now suggests wealth."
+    },
+    {
+     "dutch": "Mijn Woord (capital W)",
+     "english": "My Word",
+     "why": "Capitals kept as printed, since they tie the prophecy to 'het Woord des Levens' in the sentence before."
+    }
+   ]
+  },
+  {
+   "id": "P3",
+   "dutch_reading": "g. Ongeloof is het beginsel, het geneesmiddel ligt dus in het geloof. — Er is geen reden voor moedeloosheid, zoolang het proefhoudend geneesmiddel niet beproefd is en bij de hand ligt. Men verbreke den revolutionairen cirkel; men bekeere zich tot God, wiens waarheid alleen tegen de kracht van den leugen bestand is. Zoo iemand deze gewigtigste les der historie meer voor gemoedelijke verzuchting dan voor raadgeving der staatkunde houdt, hij vergeet dat het vermogen van het evangelie om orde en vrijheid en welvaart te bewerken, door de wereldhistorie gestaafd is. Hij bedenke dat al wat den mensch nuttig en heilrijk is, door de vreeze Gods bevorderd, door de verloochening Gods tegengewerkt wordt. Hij bedenke vooral dat de revolutionaire theorie ontvouwing der ongeloofskiem was, en dat de giftige plant, door geloofsverzaking gekweekt, in de atmosfeer van geloofsherleving verkwijnt en verstikt.",
+   "ocr_faults": [
+    {
+     "line": 10547,
+     "ocr": "hgt",
+     "print": "ligt"
+    },
+    {
+     "line": 10547,
+     "ocr": "hel",
+     "print": "het"
+    }
+   ],
+   "english": "Unbelief is the principle, so the remedy lies in faith. There is no reason to lose heart as long as the proven remedy has not been tried and lies at hand. Let the revolutionary circle be broken. Let people turn to God, whose truth alone can stand against the power of the lie. Someone may take this weightiest lesson of history more for a pious sigh than for political counsel. He forgets that world history has confirmed the power of the gospel to bring about order and freedom and prosperity. Let him consider that everything useful and wholesome for man is furthered by the fear of God and thwarted by the denial of God. Let him consider above all that the revolutionary theory was the unfolding of the seed of unbelief. Let him consider that the poisonous plant, grown by the abandonment of faith, withers and suffocates in the atmosphere of a revival of faith.",
+   "choices": [
+    {
+     "dutch": "g.",
+     "english": "(not rendered)",
+     "why": "The passage opens with the list letter of Groen's enumeration (a to g); it is a label, not a clause, so I left it out of the English and kept it in the Dutch reading. Put it back if the record wants the label."
+    },
+    {
+     "dutch": "in het geloof (italic in print)",
+     "english": "in faith",
+     "why": "The print italicises the phrase; no markup or word added, and it stands last in the sentence to take the stress. 'Het geloof' could be 'the faith' (the Christian faith) or 'faith' as the opposite of unbelief; the pairing with 'ongeloof' decided for 'faith'."
+    },
+    {
+     "dutch": "beginsel",
+     "english": "principle",
+     "why": "Means the root principle from which the rest follows, close to 'source'; 'principle' keeps the term Groen uses throughout, at some risk that a modern reader hears only 'a rule'."
+    },
+    {
+     "dutch": "moedeloosheid",
+     "english": "to lose heart",
+     "why": "Noun turned into a verb phrase for plain English; 'despondency' was the literal alternative."
+    },
+    {
+     "dutch": "proefhoudend geneesmiddel",
+     "english": "proven remedy",
+     "why": "'Proefhoudend' is 'that stands the test'; 'proven' is the same claim in one word."
+    },
+    {
+     "dutch": "zoolang ... niet beproefd is en bij de hand ligt",
+     "english": "as long as the proven remedy has not been tried and lies at hand",
+     "why": "The 'niet' governs only 'beproefd' (not yet tried, yet within reach); the English keeps the same order and could be misread for a moment in the same way as the Dutch."
+    },
+    {
+     "dutch": "Men verbreke ... men bekeere zich",
+     "english": "Let the revolutionary circle be broken. Let people turn to God",
+     "why": "The Dutch is an impersonal exhortation ('let one...'); I avoided 'let us', which would add a 'we' he does not write. 'Zich bekeeren' is 'turn, be converted'; 'turn to God' was chosen over 'be converted' as plainer, with some loss of the conversion sense."
+    },
+    {
+     "dutch": "wiens waarheid alleen",
+     "english": "whose truth alone",
+     "why": "'Alleen' can be read as 'only his truth' or 'his truth by itself'; 'alone' leaves both open."
+    },
+    {
+     "dutch": "den leugen",
+     "english": "the lie",
+     "why": "Singular with the article, as in the Dutch: the lie as a power, not 'lies' or 'falsehood'."
+    },
+    {
+     "dutch": "Zoo iemand ... houdt, hij vergeet",
+     "english": "Someone may take ... He forgets",
+     "why": "The conditional 'if anyone' is split into two sentences to stay near 25 words; 'may take' carries the 'if', but the strict if-then form is loosened."
+    },
+    {
+     "dutch": "gemoedelijke verzuchting",
+     "english": "a pious sigh",
+     "why": "Real doubt: in 1868 'gemoedelijk' means 'of the heart and conscience, devout', not today's 'easy-going'; 'pious' may sound more dismissive than the Dutch, and 'heartfelt' was the alternative."
+    },
+    {
+     "dutch": "raadgeving der staatkunde",
+     "english": "political counsel",
+     "why": "Literally 'counsel of statecraft'; 'staatkunde' is the art of governing, wider than party politics, so 'political' is slightly narrow."
+    },
+    {
+     "dutch": "welvaart",
+     "english": "prosperity",
+     "why": "Could be 'welfare' in the older sense of general wellbeing; 'welfare' now suggests state benefits, so 'prosperity'."
+    },
+    {
+     "dutch": "nuttig en heilrijk",
+     "english": "useful and wholesome",
+     "why": "'Heilrijk' is 'rich in heil' (wellbeing, blessing, with salvation behind it); 'wholesome' is plainer and loses the religious undertone, 'blessed' would overstate it."
+    },
+    {
+     "dutch": "de vreeze Gods",
+     "english": "the fear of God",
+     "why": "Kept as the fixed phrase; a modern reader may hear dread rather than reverence, but 'reverence for God' would replace his word with a gloss."
+    },
+    {
+     "dutch": "verloochening Gods",
+     "english": "the denial of God",
+     "why": "'Verloochening' is disowning as well as denying that he exists; 'denial' covers both less sharply."
+    },
+    {
+     "dutch": "ontvouwing der ongeloofskiem",
+     "english": "the unfolding of the seed of unbelief",
+     "why": "'Kiem' is a germ or sprout; 'germ' now means a microbe, so I used 'seed' to keep the plant image that the next clause completes, though a seed is a slightly earlier stage than a 'kiem'."
+    },
+    {
+     "dutch": "Hij bedenke vooral dat ..., en dat ...",
+     "english": "Let him consider above all that ... Let him consider that ...",
+     "why": "The second 'dat' clause is made its own sentence by repeating the governing verb; 'vooral' (above all) is stated once, so it is not visibly carried onto the second half as it is in the Dutch."
+    },
+    {
+     "dutch": "door geloofsverzaking gekweekt",
+     "english": "grown by the abandonment of faith",
+     "why": "'Gekweekt' is cultivated, raised; 'verzaking' is forsaking or renouncing. 'Grown by' is plain but slightly weaker than 'cultivated by'."
+    },
+    {
+     "dutch": "geloofsherleving",
+     "english": "a revival of faith",
+     "why": "Could be 'faith coming back to life' in general or a religious revival (the Réveil Groen belonged to); 'a revival of faith' allows both."
+    },
+    {
+     "dutch": "verkwijnt en verstikt",
+     "english": "withers and suffocates",
+     "why": "'Verstikt' is 'chokes' or 'suffocates'; 'suffocates' fits the 'atmosphere' image he sets up."
+    }
+   ]
+  }
+ ]
+}

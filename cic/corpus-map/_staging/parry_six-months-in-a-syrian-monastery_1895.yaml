@@ -1,0 +1,13 @@
+source_file: parry_six-months-in-a-syrian-monastery_1895.txt
+assignments:
+- row_id: parry_six-months-in-a-syrian-monastery_1895--parry-six-months-in-a-syrian-monastery
+  work: 'Parry, Six Months in a Syrian Monastery (1895)'
+  author: parry
+  locus: 'the travel chapters at OCR lines 635-13399; ''The Old Syrian Church'' at 13400-17282; add 12 to OCR line numbers'
+  atlas_ids:
+  - the-sayfo-and-the-syriac-diaspora
+  role: context
+  confidence: needs-ruling
+  language: eng
+  date: {start: 1895, end: 1895, source: "title page: 1895 (page image); the prefatory note is dated 8 December 1894; the visit was in 1892", formation_confidence: Documented}
+  note: 'An English visitor, sent in 1892 by the Syrian Patriarchate Education Society to inspect the patriarch''s schools, describes the Syriac Orthodox of Mardin and Tur Abdin. An outsider''s friendly account.'

@@ -1,0 +1,38 @@
+{
+ "round": 2,
+ "applies": "Opus_Review_Round2_TargetedRecheck.json",
+ "changes": [
+  {
+   "rid": "R2-01",
+   "applied": "reviewer note and Avvakum 1873-1876 source as written"
+  },
+  {
+   "rid": "R2-02",
+   "applied": "Rainier -> Rainerius in the source work string"
+  },
+  {
+   "rid": "R2-03",
+   "applied": "reviewer note and outcome as written"
+  }
+ ],
+ "readability": [
+  {
+   "id": "russian-church-stoglav-to-nikon--the-old-believers--2",
+   "field": "note",
+   "fre": 64.9,
+   "fk": 7.2
+  },
+  {
+   "id": "imperial-juridical-christianity--pneumatomachian-current",
+   "field": "note",
+   "fre": 60.2,
+   "fk": 8.9
+  },
+  {
+   "id": "imperial-juridical-christianity--pneumatomachian-current",
+   "field": "outcome",
+   "fre": 62.8,
+   "fk": 6.9
+  }
+ ]
+}

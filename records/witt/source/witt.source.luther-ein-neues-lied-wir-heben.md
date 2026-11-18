@@ -20,6 +20,7 @@ edition: (1523), hymn V — "A Song of the Two Christian Martyrs burnt at Brusse
   vendored as cic/texts/luther_hymns_bacon-allen.txt
 citation: Luther, Ein neues Lied wir heben an (1523), hymn V, "A Song of the Two Christian Martyrs burnt at Brussels by the Sophists of Louvain"
 kind: vendored
+shelf_row: luther_hymns_bacon-allen--dr-martin-luther-s-deutsche-geistliche-lieder-the-hymns-of
 rights_status: "Vendored; rights basis recorded in this world's own Source Acquisition Manifest, not independently re-checked at the rights level"
 attribution_status: attributed
 discovery_channel: builder-direct-read; Source Registry row 30; hymns file; 2026-09-15

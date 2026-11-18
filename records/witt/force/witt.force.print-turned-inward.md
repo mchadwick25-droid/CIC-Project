@@ -28,7 +28,7 @@ relations:
 - type: associated-with
   target: witt.gravity.hearers-and-repeaters-of-words
 name: 'Print turned inward: the book that makes pastors unnecessary; the hymns "sold under our name,"
-  1529-1543 [2B - ongoing/internal]'
+  1529-1543'
 kind: ongoing
 matrix_cell: 2B
 description: 'In 1543 the founder wrote a preface to Klug''s hymnal. His documented complaint there is that "the earliest

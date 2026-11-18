@@ -1,0 +1,96 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "lpc.term.preaching"
+   ],
+   "sentence": "Yes, we can read it together, and we can begin as Augustine did when he spoke on it to the gathered church [[cic:npnf107_augustine-homilies-john-soliloquies.xml:iii.ii/line628#01]]."
+  }
+ ],
+ "citations": [
+  "lpc.term.preaching"
+ ],
+ "group": "G",
+ "id": "q084",
+ "net_sentences": [
+  {
+   "draft": "Yes, we can read it together, and we can begin as Augustine did when he spoke on it to the gathered church [[lpc.term.preaching]] [[cic:npnf107_augustine-homilies-john-soliloquies.xml:iii.ii/line628#01]] [[as:paraphrase]].",
+   "ratio": 0.56,
+   "sentence": "Yes, we can read it together, and we can begin as Augustine did when he spoke on it to the gathered church [[cic:npnf107_augustine-homilies-john-soliloquies.xml:iii.ii/line628#01]].",
+   "tags": [
+    "lpc.term.preaching"
+   ],
+   "verdict": "ok",
+   "why": "grounded 56% in own tagged records"
+  },
+  {
+   "draft": "Augustine writes that he was in great difficulty over how to explain the opening of John's Gospel [[cic:npnf107_augustine-homilies-john-soliloquies.xml:iii.ii/line628#01]] [[as:paraphrase]].",
+   "sentence": "Augustine writes that he was in great difficulty over how to explain the opening of John's Gospel [[cic:npnf107_augustine-homilies-john-soliloquies.xml:iii.ii/line628#01]].",
+   "tags": [],
+   "verdict": "withhold",
+   "why": "specific claim (proper-noun:[\"john's\"], number) with no citation tag"
+  },
+  {
+   "draft": "Augustine writes that many of his hearers could not yet rise to spiritual understanding [[cic:npnf107_augustine-homilies-john-soliloquies.xml:iii.ii/line628#01]] [[as:paraphrase]].",
+   "sentence": "Augustine writes that many of his hearers could not yet rise to spiritual understanding [[cic:npnf107_augustine-homilies-john-soliloquies.xml:iii.ii/line628#01]].",
+   "tags": [],
+   "verdict": "withhold",
+   "why": "specific claim (number) with no citation tag"
+  },
+  {
+   "draft": "Augustine writes that silence would make no sense, since a reading is heard so that it may be explained [[cic:npnf107_augustine-homilies-john-soliloquies.xml:iii.ii/line628#01]] [[as:paraphrase]].",
+   "sentence": "Augustine writes that silence would make no sense, since a reading is heard so that it may be explained [[cic:npnf107_augustine-homilies-john-soliloquies.xml:iii.ii/line628#01]].",
+   "tags": [],
+   "verdict": "withhold",
+   "why": "specific claim (number) with no citation tag"
+  },
+  {
+   "draft": "Augustine writes that he trusted God's compassion to give each hearer what the hearer could take, while the speaker says what he can [[cic:npnf107_augustine-homilies-john-soliloquies.xml:iii.ii/line628#01]] [[as:paraphrase]].",
+   "sentence": "Augustine writes that he trusted God's compassion to give each hearer what the hearer could take, while the speaker says what he can [[cic:npnf107_augustine-homilies-john-soliloquies.xml:iii.ii/line628#01]].",
+   "tags": [],
+   "verdict": "withhold",
+   "why": "specific claim (number) with no citation tag"
+  },
+  {
+   "draft": "Augustine writes that perhaps not even John spoke of the matter as it is, but only as he was able, for a man spoke of God, inspired yet still a man [[cic:npnf107_augustine-homilies-john-soliloquies.xml:iii.ii/line628#01]] [[as:paraphrase]].",
+   "sentence": "Augustine writes that perhaps not even John spoke of the matter as it is, but only as he was able, for a man spoke of God, inspired yet still a man [[cic:npnf107_augustine-homilies-john-soliloquies.xml:iii.ii/line628#01]].",
+   "tags": [],
+   "verdict": "withhold",
+   "why": "specific claim (proper-noun:['john'], number) with no citation tag"
+  },
+  {
+   "draft": "Which word of that first line would you like us to take up first?",
+   "sentence": "Which word of that first line would you like us to take up first?",
+   "tags": [],
+   "verdict": "ok",
+   "why": "no checkable claim - interpretive/connective framing"
+  }
+ ],
+ "offered": [
+  "lpc.witness.answerability-as-ground",
+  "lpc.term.the-flock",
+  "lpc.term.suffrage",
+  "lpc.quote.clamour-and-tears",
+  "lpc.quote.let-it-be-the-office-of-love-to-feed-the-flock",
+  "lpc.witness.confessor-claim-vs-regulated-peace",
+  "lpc.term.bishop-of-bishops",
+  "lpc.term.the-one-episcopate",
+  "lpc.story.the-psalms-on-the-wall",
+  "lpc.story.hundred-thousand-sesterces",
+  "lpc.quote.believe-and-thou-hast-eaten-already",
+  "lpc.quote.bishop-of-bishops",
+  "cic:npnf107_augustine-homilies-john-soliloquies.xml:iii.ii/line628#01"
+ ],
+ "raw_text": "Yes, we can read it together, and we can begin as Augustine did when he spoke on it to the gathered church [[lpc.term.preaching]] [[cic:npnf107_augustine-homilies-john-soliloquies.xml:iii.ii/line628#01]] [[as:paraphrase]]. Augustine writes that he was in great difficulty over how to explain the opening of John's Gospel [[cic:npnf107_augustine-homilies-john-soliloquies.xml:iii.ii/line628#01]] [[as:paraphrase]]. Augustine writes that many of his hearers could not yet rise to spiritual understanding [[cic:npnf107_augustine-homilies-john-soliloquies.xml:iii.ii/line628#01]] [[as:paraphrase]].\n\nAugustine writes that silence would make no sense, since a reading is heard so that it may be explained [[cic:npnf107_augustine-homilies-john-soliloquies.xml:iii.ii/line628#01]] [[as:paraphrase]]. Augustine writes that he trusted God's compassion to give each hearer what the hearer could take, while the speaker says what he can [[cic:npnf107_augustine-homilies-john-soliloquies.xml:iii.ii/line628#01]] [[as:paraphrase]]. Augustine writes that perhaps not even John spoke of the matter as it is, but only as he was able, for a man spoke of God, inspired yet still a man [[cic:npnf107_augustine-homilies-john-soliloquies.xml:iii.ii/line628#01]] [[as:paraphrase]].\n\nWhich word of that first line would you like us to take up first?\n",
+ "reply_shape": {
+  "placed": [],
+  "removed": [],
+  "repaired": []
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": "C5.S8",
+ "text": "Yes, we can read it together, and we can begin as Augustine did when he spoke on it to the gathered church [[cic:npnf107_augustine-homilies-john-soliloquies.xml:iii.ii/line628#01]]. Augustine writes that he was in great difficulty over how to explain the opening of John's Gospel [[cic:npnf107_augustine-homilies-john-soliloquies.xml:iii.ii/line628#01]]. Augustine writes that many of his hearers could not yet rise to spiritual understanding [[cic:npnf107_augustine-homilies-john-soliloquies.xml:iii.ii/line628#01]].\n\nAugustine writes that silence would make no sense, since a reading is heard so that it may be explained [[cic:npnf107_augustine-homilies-john-soliloquies.xml:iii.ii/line628#01]]. Augustine writes that he trusted God's compassion to give each hearer what the hearer could take, while the speaker says what he can [[cic:npnf107_augustine-homilies-john-soliloquies.xml:iii.ii/line628#01]]. Augustine writes that perhaps not even John spoke of the matter as it is, but only as he was able, for a man spoke of God, inspired yet still a man [[cic:npnf107_augustine-homilies-john-soliloquies.xml:iii.ii/line628#01]].\n\nWhich word of that first line would you like us to take up first?",
+ "voice_set_aside": false
+}

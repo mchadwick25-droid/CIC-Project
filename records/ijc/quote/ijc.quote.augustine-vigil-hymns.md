@@ -15,7 +15,7 @@ confidence:
   divergence_note: null
 sources:
 - source_id: ijc.source.augustine-confessions
-  locus: IX.7 (npnf101 lines 13765-13775)
+  locus: "IX.7 (cic/texts/npnf101_augustine-confessions-letters.xml, lines 13765-13775)"
   license: public-domain
 text: The pious people kept guard in the church, prepared to die with their bishop, Thy servant. There
   my mother, Thy handmaid, bearing a chief part of those cares and watchings, lived in prayer. ... At

@@ -2027,3 +2027,34 @@ Deeper grant check never rejects before the message is recorded.
 
 **Which of these explains the missing test messages is not established**; the project
 lead did not recall what the screen showed. Status: OPEN, for the project lead.
+
+---
+
+## 2026-11-03 — Open items taken out of live reference documents (Live-Surface Cleanup, CL3)
+
+**Context.** The Live-Surface Cleanup program removed open items and open questions from `Build/reference/` documents, because a live reference states what is true now and does not carry a list of things left to do. Each item is filed here in full so it is tracked in one place. The original wording of each is also in `Build/Ministry/Operations/Audits/Tech-Readiness-2026-09/Live-Surface-Cleanup/Decision-Log.md`, "Entry — CL3". Four of the five are fleet or governance level, which is why this ledger holds them (the fifth, the homepage card clamp, belongs to one world and is filed in `Build/worlds/pahc/Open_Gaps_Tracking.md`, OG-45). Status of each: OPEN, for the project lead to assign, except item 4, which is a recorded known limit.
+
+1. **Governance gaps once listed in `Build/reference/Project-Reference/CiC_V7_Upgrade_Reference.md`.** Items identified as missing from the architecture; any document that references one flags it as an open gap and does not resolve it:
+   - Deployment Standards document: highest-priority governance gap, required by Constitution Article 35, not yet scoped. All deployment output counts and gate requirements belong there; output counts are never hardcoded, and documents always reference that document for them.
+   - World Maturity Framework: referenced as a Layer 8 deliverable, not yet built. Its criteria must be axis-neutral, not benchmarked against any single world's realization.
+   - Construction Framework reconciliation: must be updated to the five-level confidence vocabulary (Article 17) and the four-tier story classification (Article 19). Open flag in Articles 17 and 19.
+   - Facilitator Calibration Library: not yet built; Phase 2 deliverable, equal in importance to the fierce-without-recruiting calibration library.
+   - Facilitator-Governance design-versus-runtime distinction: Table Design's Construction Note says it generates the Table Runtime Document loaded into the AI system, which separates a design document from a runtime artifact. Facilitator-Governance has no equivalent statement although it reads throughout in direct operational address. Unresolved: whether it is the design document for a not-yet-built runtime artifact (defensible under DOCX = governance, MD = runtime), or is itself functioning as the runtime document, in which case its DOCX filing should be reconsidered. Flag when encountered; do not resolve without a dedicated pass.
+   - Article 20 (Marginalized-Voices Affirmative Duty): not yet formally assigned a home in most Level 2-3 documents. Candidates: Layer 4 (construction side) and Layer 2/7 (participant-facing and runtime carriage).
+   - Resolved and not open: the Facilitator Governance V3.3 Section 14 drift-signal count (corrected to eleven, with a second count error in Section 10 found and corrected in the same pass).
+2. **No review round has been run on `Build/reference/L0-Reference/L0_Entry_Paul_of_Samosata_DRAFT.md`.** Round 1 of the earlier Level 0 work on the same figure (`l0fig001`) found two P0 citation errors in work that read as confident and finished. This entry should be assumed to contain comparable errors until an adversarial pass says otherwise. Per Doc_00 section 6, any such pass by a dispatched agent must open with the literal line "Simulated review - informational only, not an Article 31 substitute." The file's status line still says DRAFT.
+3. **Cross-session participant identity (recorded known limit, not a question for the project lead).** The acute-distress and harmful-dynamic mechanism proposal (`Build/reference/L3D-Encounter-Methodology/CiC_L3D_AcuteDistress_HarmfulDynamic_Mechanism_Proposal_DRAFT.md`, line 74) scopes its accumulator to a single session at prototype scale. Recognising the same participant across sessions needs persistent participant identity, which is not currently established elsewhere in the architecture as reviewed. The proposal named this as an open gap for whoever owns session and identity infrastructure; no owner is named. Safety handling stays settled with the Facilitator (Settled Items Register row 1); this entry records the limit only.
+4. **Name for closure.** What "closed" gets called once Phase Five and system review actually complete has not been decided. The project has not reached that point for any world. To be named when the situation first arises. (Source: `Build/reference/Project-Reference/CiC_Governance_Standing_Rules.md`, section 1.)
+
+## 2026-11-04 — The Atlas, the census and the generated site pages disagree (found while converting the site to American spelling)
+
+**Context.** Converting the public site's prose (CL9e) meant editing the hand-authored census, the Atlas's embedded data and the generated pages in place, because regenerating any of them would have brought in changes that are not spelling. These differences already existed on `main`.
+
+**Open items.**
+1. **The Atlas and the census differ in 23 places.** `python -m engine.m6.cli atlas-check` reports 23 differences on `main`, before and after the spelling conversion. `atlas-sync` would rewrite about 1,000 lines of `cic-website/atlas-v3.html`, among them new `portrait` and `topics` fields for the house-church entry.
+2. **The tree-page generator no longer reproduces the committed pages.** `node Build/tools/generate_tree_pages.mjs` changes 10 of the 292 tree pages beyond spelling (cappadocian-nicene-pastoral-monastic-tradition, chalcedonian-monasticism-judean-desert-and-gaza, church-of-the-east-schism-of-1552, desert-monasticism, hebrew-roots-and-torah-observance-movements, imperial-juridical-christianity, latin-pastoral-congregational-christianity, mission-born-christianities-kirishitan-japan-kon, northeast-india-and-mar-thoma-twentieth-century, syriac-edessa-nisibis) and adds 24 entries to `cic-website/sitemap.xml`.
+3. **The tradition-page generator stops partway.** `python3 Build/tools/generate_tradition_pages.py` raises `AttributeError` at `generate_tradition_pages.py:205`: a built world has no census entry, so `census_entry` is `None`. Before it stops it rewrites 5 pages, 4 of them with changes beyond spelling.
+4. **`cic-website/data/corpus-coverage.json` carries British spellings from the Library's rights wording** (113 occurrences of "licence" and similar, quoted from host sites' terms). The spelling check exempts the file; if its generator is ever changed to normalize rights wording, remove the exemption.
+
+Site work waits for the screen redesign (Settled Item 3), so none of these is being fixed now.
+

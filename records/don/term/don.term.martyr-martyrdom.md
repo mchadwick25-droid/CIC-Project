@@ -67,9 +67,9 @@ plain_meaning: A martyr dies for the true faith. But our best-known dead were no
 world_word: martyr / martyrium
 false_friend:
 - a generic early-church martyr cult, killed by pagan Rome and admired by everyone since
-- '''martyr complex'' as a modern psychological label for self-dramatising suffering'
+- '''martyr complex'' as a modern psychological label for self-dramatizing suffering'
 - relic veneration treated as superstition, rather than as the community's proof of its own claim
-- a settled category both sides recognise -- here the rival refuses the word outright
+- a settled category both sides recognize -- here the rival refuses the word outright
 senses:
   informational: 'The imperial commissioners Paul and Macarius came in 347-348 to enforce unity across Africa.
     A bishop of Sicilibba was gravely wounded; the bishop of Advocata was killed with many of his faithful and
@@ -79,7 +79,7 @@ senses:
   evidential: 'This is the one channel where the record speaks in its own voice at volume. Three Donatist-voiced
     or -authored texts survive -- the commemorative sermon, the Passio Marculi, and Macrobius''s letter -- alongside
     the Deo laudes acclamation on stone, which passes through no hostile pen at all. Against that: the sermon''s
-    dating and authorship are genuinely contested between Mabillon and Monceaux, hagiographic idealisation is
+    dating and authorship are genuinely contested between Mabillon and Monceaux, hagiographic idealization is
     structural to the passio genre rather than incidental, and the ordinary mourner''s own experience at the graveside
     is nowhere recorded.'
   personal: Commemoration here was not remembering something finished. The account was read at the grave
@@ -97,7 +97,7 @@ use_note:
   not_for:
     - "a claim that these were generic early-church martyrs killed by pagan Rome"
     - "a claim that martyrdom here is a modern 'martyr complex'"
-    - "a claim that martyr was a settled category both sides recognised"
+    - "a claim that martyr was a settled category both sides recognized"
   years: {from: 311, to: 439}
   status: reviewed
 ---

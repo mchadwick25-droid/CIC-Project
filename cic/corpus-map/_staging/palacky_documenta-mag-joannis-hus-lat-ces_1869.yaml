@@ -9,6 +9,8 @@ assignments:
   - the-hussite-and-bohemian-brethren-movement
   role: tradition
   confidence: assigned
+  language: lat-ces
+  date: {start: 1403, end: 1418, source: "title (file line 125): 'controversias de religione in Bohemia annis 1403-1418 motas illustrantia'", formation_confidence: Documented}
   note: Hus's own letters in the Latin and Czech he wrote, the earliest account of the Constance trial
     by Petr of Mladoňovice (the Relatio), and the documents of the Bohemian disputes before and during
     the council. It answers the request for the Latin and Czech originals of the letters and for the Relatio.

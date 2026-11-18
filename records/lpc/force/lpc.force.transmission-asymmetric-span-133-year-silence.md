@@ -31,10 +31,10 @@ description: >-
   lies a silence of roughly 133 years, from Cyprian's martyrdom to Augustine's ordination. No surviving
   voice continuous with Cyprian's ordinary pastoral mode, from within this world's boundary, that this
   build has assessed dates from within that gap. Nine tractatus in Morin 1917, one titled in a manuscript
-  as a sermon of Optatus of Milevis, are not yet assessed. Some texts in our own source catalogue do date from it or record its events, such as
+  as a sermon of Optatus of Milevis, are not yet assessed. Some texts in our own source catalog do date from it or record its events, such as
   Optatus's polemic, the council canons and imperial law, and none of them is that voice. The silence claim is contested
   for that reason. The uneven attestation is a documented fact about the record itself, and anyone can
-  check it against the catalogue.
+  check it against the catalog.
 
 
   Augustine does not receive Cyprian through a chain of teachers who knew him. He receives a set of

@@ -1,0 +1,1063 @@
+{
+ "round": 1,
+ "fixes": [
+  {
+   "finding": "R1-01",
+   "what": "Regraded to Inferential-Thin. Added Innocent IV's salutation ('hermits of blessed Mary of Mount Carmel', Foundations 21980-21983) as a primary. Note rewritten to say the tie is thin and why. Wants: a modern study of the change from hermits to friars.",
+   "agreed_with_reviewer": true,
+   "why": "Checked Foundations 21975-22030. Zimmerman's note (21999-22001) says only that Hugh and William were 'both Dominicans', sent by the pope. Nothing says their order shaped the Carmelites. I used the reviewer's note but joined its two short hermits/friars sentences into one, so the contrast reads as a single point (FRE 64.9)."
+  },
+  {
+   "finding": "R1-02",
+   "what": "Kept Documented, on a new primary. The anonymous continuation of the Constable Sempad's chronicle, in the same vendored volume, gives the catholicos's line at Sis in 1322 (72319, 72320-72321). Dulaurier's preliminary note is added as a secondary for the continuation's date. The note now names that succession.",
+   "agreed_with_reviewer": false,
+   "why": "The reviewer's lowering to Widely Accepted was right on the evidence he cited. But the volume holds a primary he did not use. The file's header points to Sempad's chronicle 'with its anonymous continuation to about 1335' (67474 onward). Dulaurier's preliminary note (67704-67705) says the continuator 'reprend en 1286 pour finir en 1331'. It also says Dulaurier put in brackets both the continuator's insertions into Sempad's own text and the passages he took from Nersès Balients (67712-67725). The year-771 entry (1321-1322; heading at 72263) falls in the continuation proper and is not bracketed, apart from the editor's '[III]'. It records the death of the catholicos Constantin of Caesarea and the choice of Constantin of Lampron, bishop of Sis, 'par ordre du roi Léon et de la majorité des évêques'. That shows the see on the far side of 1300 in a primary, which is the era-1 bar. I kept to the 1322 entry and left out 71499: there the death of Gregory falls between the 748 and 751 headings, which does not fit Gregory VII's death in 1307 as the editor gives it."
+  },
+  {
+   "finding": "R1-03",
+   "what": "Regraded to Widely Accepted. Denzinger's heading and Bannwart's note are now one secondary. The profession's text (14629-14632) and Vatican I (Schaff 23524-23530) stay primary. Note credits the 1911 editor for naming Clement IV, Michael VIII and Gregory X.",
+   "agreed_with_reviewer": true,
+   "why": "Checked 14504-14520: the heading 'Professio fidei Michaelis Palaeologi' is Denzinger's own, as is Bannwart's note. So I moved the heading to secondary too, which the reviewer did not ask. I also split the editor's sentence in two (no sentence over 18 words). And I changed the last sentence. 'How the union was refused at home' assumed a refusal that no source we hold shows. It now reads 'how the Greek church received the union'. The Mansi 24 want stays."
+  },
+  {
+   "finding": "R1-04",
+   "what": "Dropped latin-papal-church-gregorian--byzantine-church-after-1054--2 (new in this pass, never on main, so no retired entry). Moved its two Theiner letters (1205, 1209) and Mouravieff into the 1054 link. That link's note was rewritten whole, with the 1204 sentences added. It stays Documented on the 1054 bull.",
+   "agreed_with_reviewer": true,
+   "why": "Agreed on the duplicate. Adding the reviewer's two sentences to the old note gave FRE 43.3, so I rewrote the whole note to FRE 63.1 ('excommunicated' became 'cast ... out of the church'). The type question has a narrower answer than 'absorption'. The brief's 'argued against' covers an act aimed at the other side by name. Innocent's letter acts on 'ipsa Constantinopolitana ecclesia' by name, and the note states what he did without calling it hostile. Three dispositions in Drafting_Record.json (byzantine-church-after-1054 relationsSummary, longDescription and why) still cite the dropped --2 id. They should now be read as citing latin-papal-church-gregorian--byzantine-church-after-1054. This file's shape has no field for disposition edits, so the drafting record needs that one-line change when it is next touched."
+  },
+  {
+   "finding": "R1-05",
+   "what": "relationsSummary now says Serbian monastic life grew out of the monasteries of Mount Athos. 'These churches' is kept only for the hesychast sentence, which is already qualified.",
+   "agreed_with_reviewer": true,
+   "why": "The gave-rise-to link's evidence covers Nemanja, Sava and Hilandar only. I wrote 'the monasteries of Mount Athos' rather than 'Mount Athos', because a way of life grows out of communities, not out of a place."
+  },
+  {
+   "finding": "R1-06",
+   "what": "The Fetha Nagast sentence now reads 'may owe a debt to al-Safi's canons. No text we hold yet shows that line.'",
+   "agreed_with_reviewer": false,
+   "why": "Agreed on removing the build narration and the claim about what scholars usually say. I did not use the reviewer's 'is said to draw on', which is still a report of what someone says, with no one named and no source behind it. 'May owe a debt', followed by the reason, is the qualify rule's own form. Whole paragraph FRE 72.2. The Fetha Nagast and al-Safi's canons stay on the wants list."
+  },
+  {
+   "finding": "R1-07",
+   "what": "Option (a). New link franciscan-order-era-6 'gave rise to' observant-reform-and-popular-preaching, Documented. It rests on Eugenius IV's confirmation of 1 September 1438 (Bullarium Franciscanum NS I, no. 385, lines 34646-34653): William of Casale, minister general of 'ipsius ordinis', made Bernardino of Siena, 'eiusdem ordinis professorem', vicar of the order's Italian houses 'sub sacro observantiae nomine'. The relationsSummary was rewritten.",
+   "agreed_with_reviewer": false,
+   "why": "Agreed with (a). I did not use the reviewer's locus (191-192), because that is Huntemann's 1929 preface, an editor and so a secondary. I cite it as one. I used the papal letter itself, which shows a named friar of the order made head of its Observant houses in a dated text. That is the 'gave rise to' bar. No link existed on the pair. I also did not take the reviewer's summary wording 'is part of its own story', which is the very phrase R1-16 asks to remove. It now reads 'Its lay third order, the Order of Penance, dates from 1221.' The note says that no text we hold shows how the first Observant houses began (Brugliano, 1368, is on the wants list)."
+  },
+  {
+   "finding": "R1-08",
+   "what": "Both links raised to Dominant Modern Reconstruction. The Kyiv note's 28-word sentence is split as proposed. The Georgian note is unchanged.",
+   "agreed_with_reviewer": true,
+   "why": "Checked Mouravieff 1555-1563: it is a narrative of Anthony on Athos with no earlier witness named. The grade now matches the other links resting on Mouravieff and Brosset, and the base precedent. Prose A8 and E0 now fit the grade, so they are unchanged."
+  },
+  {
+   "finding": "R1-09",
+   "what": "'Likely heir' became 'Perhaps heir ..., though the tie is thin'.",
+   "agreed_with_reviewer": true,
+   "why": "As proposed. FRE 85.0."
+  },
+  {
+   "finding": "R1-10",
+   "what": "Assemani changed to a secondary. Documented stands on Sliba (Gismondi 11219-11221, 11225). The note is unchanged.",
+   "agreed_with_reviewer": true,
+   "why": "Checked Assemani 93984-93996: he cites 'Ebedjesu', so he is a compiler. The note already reads 'The scholar Assemani, writing in 1725, says ...', which shows the reader the source's age, so the reviewer's reword was not needed. The drafting record keeps Assemani's lines and quote."
+  },
+  {
+   "finding": "R1-11",
+   "what": "The last sentence is replaced. The note says the Life was written down after the saint's time and some of its dates do not fit. 'As a boy' became 'at fifteen'. Budge's 1906 introduction is added as a secondary.",
+   "agreed_with_reviewer": true,
+   "why": "Checked 5536-5543: the text says 'when the boy had completed the fifteenth year of his age', so 'at fifteen' is more exact. Budge's introduction (2971-2981) works the Benjamin synchronism out to a seventh-century birth, and (3015-3031) says the Life was written by Gabra Maskal and later rebuilt by Kama. That supports 'written down after the saint's time' and 'some of its dates do not fit'."
+  },
+  {
+   "finding": "R1-12",
+   "what": "The first sentence is replaced and split. The book of saints is now 'written down after his time', and the bishop's name keeps Budge's query.",
+   "agreed_with_reviewer": false,
+   "why": "I did not use the reviewer's 'put together later'. The vendored volumes (v2-v4) do not include Budge's introduction with the compilation date, so I used the weaker wording that the text itself supports: it records Cyril's death, so it was written after his time. The name now reads 'Its translator reads the bishop's name, with a query, as Severus' (35445-35447: 'sAwiROS (severus ?)'). FRE 68.5."
+  },
+  {
+   "finding": "R1-13",
+   "what": "Changed to 'the king of England, probably in Gascony'.",
+   "agreed_with_reviewer": true,
+   "why": "Checked Budge 3188 ('Gascony (?)') and 7618 ('Kas6éniA (Gascony ?)')."
+  },
+  {
+   "finding": "R1-14",
+   "what": "Added 'Foxe himself doubted another part of that story, about the friars approved in their place.'",
+   "agreed_with_reviewer": false,
+   "why": "Checked Foxe 38608-38616. The reviewer himself notes that Foxe's doubt is about the friars said to have been approved in the Humiliati's place, not about the rejection. His sentence 'doubted part of that chronicler's story' leaves the reader to guess which part. The new sentence names it, so the doubt is not read as falling on the rejection itself."
+  },
+  {
+   "finding": "R1-15",
+   "what": "the-humiliati.longDescription and .why now say 'around 1200'.",
+   "agreed_with_reviewer": true,
+   "why": "Giussano 12177-12178: 'approved by Innocent III. in 1200'. Innocent's 1201 letters (Tiraboschi) stay on the wants list for the year."
+  },
+  {
+   "finding": "R1-16",
+   "what": "All the listed summaries were rewritten as history: Waldensians, Cathars, Victorines, beguines, Joachimites and the Gregorian papacy (the Franciscans under R1-07). The fragments in the Armenian Cilicia, Maronite and Athonite long descriptions were joined. So were two more of the same kind that I found in this pass's movements: Cathars ('A dualism that...') and Victorines ('But who, unlike monks...').",
+   "agreed_with_reviewer": false,
+   "why": "Agreed on the substance, with one change in method. These fields were never changed earlier in this pass, and most were below Reading Ease 60 as they stood (Armenian Cilicia 31.7, Maronite 36.6, Athonite 34.3, Cathar 41.0, Victorine 53.4, Gregorian summary 30.7). Joining a fragment would leave the field failing the floor, so each of these paragraphs is rewritten whole in shorter sentences. Every fact is kept and no relationship claim is added. 'Perfect' is now explained before it is used. Each new summary rests on links already drawn: Waldensians to the Alpine entry and the 1184 condemnation; Cathars to the papal and Dominican links; beguines to the Avignon link (in the entry's own words, 'errors it laid on beguines'); Joachimites to both Franciscan links. One wording choice: I did not write 'survived' for the Waldensians, as the reviewer's example did. I used 'held on in the Alpine valleys', the entry's own words, which leave the 'how unbroken' question open as the longDescription does."
+  },
+  {
+   "finding": "R1-17",
+   "what": "'this link rests on' became 'this rests on'.",
+   "agreed_with_reviewer": true,
+   "why": "As proposed. FRE 63.1."
+  },
+  {
+   "finding": "R1-18",
+   "what": "The last sentence now reads 'among them belief in two natures in Christ and honor for the fourth council'.",
+   "agreed_with_reviewer": true,
+   "why": "Checked 46195-46199: the list goes on to 25 December and leavened bread. As proposed."
+  },
+  {
+   "finding": "R1-19",
+   "what": "Changed to 'It has canon law run by trained lawyers, cardinals who elect the pope, ...'.",
+   "agreed_with_reviewer": true,
+   "why": "As proposed. Whole paragraph FRE 68.8."
+  },
+  {
+   "finding": "R1-20",
+   "what": "The note now opens with the claim that one church carried on across the year 1000.",
+   "agreed_with_reviewer": true,
+   "why": "As proposed. FRE 64.8. No fact added; the reigns and names are those of the old note."
+  },
+  {
+   "finding": "R1-21",
+   "what": "Split the Joachimite 26-word sentence and the papacy 28-word sentence, as proposed.",
+   "agreed_with_reviewer": true,
+   "why": "FRE 68.7 and 79.3. No sentence in any note in this file is over 25 words."
+  },
+  {
+   "finding": "TW-1 (Observants)",
+   "what": "Closed by the new franciscan-order-era-6 to observant-reform-and-popular-preaching link and the rewritten Franciscan summary (R1-07).",
+   "agreed_with_reviewer": true,
+   "why": "See R1-07."
+  },
+  {
+   "finding": "TW-2 (Dominicans and Carmelites)",
+   "what": "The note now says why the link stands alone: no text we hold says the Dominicans shaped the order, so the tie is thin (R1-01). No prose was added to either movement, since a thin tie is not one to state in their summaries.",
+   "agreed_with_reviewer": true,
+   "why": "See R1-01."
+  },
+  {
+   "finding": "TW-3 (Athonite Lavra and the emperor)",
+   "what": "athonite-and-comnenian-byzantine-monasticism.longDescription now reads 'Later accounts say a Byzantine emperor backed him.' The 963 founding date is unchanged and is left under Open-Gaps 24 (escalation A1).",
+   "agreed_with_reviewer": true,
+   "why": "That matches the Inferential-Thin link resting on Curzon's report of a 1701 account. Done together with the R1-16 fragment fix in the same paragraph."
+  },
+  {
+   "finding": "TW-4 (Cluny and the Cistercians)",
+   "what": "Not changed. The era-4 Cluny entry belongs to its owner (escalation A2). It is listed in for_open_gaps.",
+   "agreed_with_reviewer": true,
+   "why": "Out of scope for this pass by instruction."
+  },
+  {
+   "finding": "TW-5 (reverse check)",
+   "what": "Nothing to fix. After this round, the one change to that check is the dropped --2 link, whose three dispositions now point at the merged 1054 link (see R1-04). The new Observant link is named in the-franciscan-movement.relationsSummary.",
+   "agreed_with_reviewer": true,
+   "why": "Confirmed the new link is cited by the prose that names it."
+  }
+ ],
+ "links": [
+  {
+   "id": "the-dominican-order--the-carmelites",
+   "action": "rewrite",
+   "from": "the-dominican-order",
+   "to": "the-carmelites",
+   "type": "influenced",
+   "confidence": "Inferential-Thin",
+   "note": "In 1247 the pope sent two men to revise the Carmelite rule. They were Hugh, a cardinal, and William, bishop of Tortosa. The editor of Teresa's Foundations says both were Dominicans. Their letter calls the Carmelites friars, while the pope's own letter still calls them hermits. No text we hold says the Dominicans shaped the order, so this tie is thin.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Hugh of Saint-Cher and William of Tortosa, letter to the Carmelites with the revised Rule (1247), in Innocent IV's confirmation, trans. Lewis (1913)",
+     "file": "cic/texts/teresa-of-avila_book-of-foundations_lewis1913.txt",
+     "lines": "22021-22023",
+     "locus": "the delegates' letter, salutation",
+     "quote": "Friar Hugh, by the Divine compassion cardinal priest of Santa Sabina, and friar William, by the same compas- sion bishop of Tortosa,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "same letter",
+     "file": "cic/texts/teresa-of-avila_book-of-foundations_lewis1913.txt",
+     "lines": "22024-22026",
+     "locus": "the delegates' letter, salutation",
+     "quote": "the prior-general and the definitors of the general chapter of the order of the friars of blessed Mary of Mount Carmel,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Innocent IV, letter of confirmation of the revised Carmelite Rule (1247), salutation, trans. Lewis (1913)",
+     "file": "cic/texts/teresa-of-avila_book-of-foundations_lewis1913.txt",
+     "lines": "21980-21983",
+     "locus": "Innocent IV's confirmation, salutation",
+     "quote": "Innocent, bishop, servant of the servants of God, to His beloved children the prior and brethren, hermits of blessed Mary of Mount Carmel, health and the apostolic blessing.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "work": "Benedict Zimmerman, note to the Rule, in The Book of the Foundations (1913)",
+     "source_id": null
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "wants": [
+    "A repo-cited modern study of the Carmelites' change from hermits to friars in the 1240s"
+   ],
+   "change_reason": "R1-01: regraded Widely Accepted to Inferential-Thin; the editor names the delegates as Dominicans but no text says their order shaped the Carmelites. Added Innocent IV's salutation for the hermits/friars contrast; note rewritten."
+  },
+  {
+   "id": "armenian-cilicia--armenian-cilicia-after-the-kingdom",
+   "action": "rewrite",
+   "from": "armenian-cilicia",
+   "to": "armenian-cilicia-after-the-kingdom",
+   "type": "continued as",
+   "confidence": "Documented",
+   "note": "Hethum, lord of Korikos, kept a table of the years. It says that in 1292 the Mamluk sultan al-Ashraf took Hromkla, where the Armenian patriarchs lived. He seized Stephen, the catholicos or head of the church, and Gregory VII was raised in his place. An unnamed writer carried the Constable Sempad's chronicle on to 1331. He says that in 1322 the king and most of the bishops chose Constantin of Lampron, bishop of Sis, as the next catholicos.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Hethum of Korikos, Chronological Table, with its continuation, in French, in Recueil des historiens des croisades, Documents arméniens I (1869)",
+     "file": "cic/texts/rhc-armeniens_documents-armeniens-t1-fra_academie1869.txt",
+     "lines": "55154-55155",
+     "locus": "year 741 of the Armenian era (1292-1293)",
+     "quote": "Aschraf prit la forteresse de Hr'om-gla, résidence des patriarches d'Arménie, et fit prisonnier le seigneur Étienne, catholicos *.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Hethum of Korikos, Chronological Table, with its continuation, in French, in Recueil des historiens des croisades, Documents arméniens I (1869)",
+     "file": "cic/texts/rhc-armeniens_documents-armeniens-t1-fra_academie1869.txt",
+     "lines": "55181-55184",
+     "locus": "the same years",
+     "quote": "Le seigneur Grégoire [VII, surnommé] le don des prêtres, fut élevé à la dignité de catholicos.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Constable Sempad, Chronicle, with its anonymous continuation (1286-1331), in French, in Recueil des historiens des croisades, Documents arméniens I (1869)",
+     "file": "cic/texts/rhc-armeniens_documents-armeniens-t1-fra_academie1869.txt",
+     "lines": "72319",
+     "locus": "year 771 of the Armenian era (1321-1322)",
+     "quote": "Cette même année mourut le seigneur Constantin de Césarée, catholicos.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Constable Sempad, Chronicle, with its anonymous continuation (1286-1331), in French, in Recueil des historiens des croisades, Documents arméniens I (1869)",
+     "file": "cic/texts/rhc-armeniens_documents-armeniens-t1-fra_academie1869.txt",
+     "lines": "72320-72321",
+     "locus": "year 771 of the Armenian era (1321-1322)",
+     "quote": "on lui donna pour successeur, par ordre du roi Léon et de la majorité des évêques, le seigneur Constantin [III] de Lampron, évêque de Sis.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Édouard Dulaurier (ed.), preliminary note to the Constable Sempad's chronicle, in Recueil des historiens des croisades, Documents arméniens I (1869)"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "change_reason": "R1-02: kept Documented, but on new evidence. The anonymous continuation of Sempad's chronicle, a primary carried to 1331, shows the catholicos's line at Sis in 1322. The see now shows on both sides of 1300. Note rewritten to say so."
+  },
+  {
+   "id": "byzantine-church-after-1054--latin-papal-church-gregorian--2",
+   "action": "rewrite",
+   "from": "byzantine-church-after-1054",
+   "to": "latin-papal-church-gregorian",
+   "type": "in contact with",
+   "confidence": "Widely Accepted",
+   "note": "At the Second Council of Lyon in 1274, the Greek side made a profession of faith. In it they accepted the full primacy of the Roman church. Its 1911 editor says Pope Clement IV first put the text to Emperor Michael VIII in 1267. Michael then offered it to Pope Gregory X at Lyon. No text we hold shows how the Greek church received the union.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Profession of faith of Michael VIII Palaiologos (1274), in Denzinger, Enchiridion symbolorum, ed. Bannwart (1911), on the Roman primacy",
+     "file": "cic/texts/denzinger_enchiridion-symbolorum-lat_bannwart1911.txt",
+     "lines": "14629-14632",
+     "locus": "Denzinger no. 466",
+     "quote": "quem se ab ipso Domino in beato PETRO Apostolorum principe sive vertice, cuius Romanus Pontifex est successor, cum potestatis plenitudine recepisse veraciter et humiliter recognoscit.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "First Vatican Council, Pastor aeternus, ch. 4 (1870), on the Greeks' profession at Lyon, in Schaff, The Creeds of Christendom, vol. 2 (1878), English",
+     "file": "cic/texts/schaff_creeds-of-christendom-v2-greek-latin-creeds_1878.txt",
+     "lines": "23524-23530",
+     "locus": "Pastor aeternus, ch. 4",
+     "quote": "with the approval of the Second Council of Lyons, the Greeks professed that the holy Roman Church enjoys su- preme and full primacy and pre- eminence over the whole Catholic Church,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Clemens Bannwart (ed.), Denzinger, Enchiridion symbolorum, 11th ed. (1911), heading and note to nos. 461-466 (the profession of Michael VIII)"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "wants": [
+    "Mansi 24, Michael VIII's letter to Gregory X and the acts of Lyon II, to name the emperor and council in a primary"
+   ],
+   "change_reason": "R1-03: regraded Documented to Widely Accepted. The profession's text names no emperor, pope or council; the tie to Michael VIII and Lyon is the editor's. Denzinger's heading and Bannwart's note are now secondary. Note credits the editor."
+  },
+  {
+   "id": "latin-papal-church-gregorian--byzantine-church-after-1054--2",
+   "action": "drop",
+   "change_reason": "R1-04: second 'argued against' link on the same pair and direction, new in this pass and never on main. Its 1204 episode is folded into latin-papal-church-gregorian--byzantine-church-after-1054."
+  },
+  {
+   "id": "latin-papal-church-gregorian--byzantine-church-after-1054",
+   "action": "rewrite",
+   "from": "latin-papal-church-gregorian",
+   "to": "byzantine-church-after-1054",
+   "type": "argued against",
+   "confidence": "Documented",
+   "note": "In July 1054 Cardinal Humbert and two other envoys of the pope cast the patriarch of Constantinople, Michael Cerularius, out of the church. Their written sentence calls him a patriarch in name only. It says the seeds of heresy are sown among his followers every day. Crusaders took Constantinople in 1204. Pope Innocent III then treated its church as his own. In 1205 he wrote that it had lately come back into unity with Rome.",
+   "sources": [
+    {
+     "kind": "primary",
+     "work": "Carl Mirbt (ed.), Quellen zur Geschichte des Papsttums, 3rd ed. (1911), no. 228: Excommunication of Michael Caerularius (1054)",
+     "file": "cic/texts/mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt",
+     "lines": "9952-9954",
+     "locus": "no. 228, Humbert's bull of excommunication",
+     "quote": "Quan- tum autem  ad  Mchaelem,  abusive  dictum  patriarcham,  et  eius  stultitiae  fautores,  nimia zizania  haereseon  quotidie  seminantur  in  medio  eius.",
+     "license": "public-domain",
+     "source_id": null
+    },
+    {
+     "kind": "primary",
+     "work": "Carl Mirbt (ed.), Quellen zur Geschichte des Papsttums, 3rd ed. (1911), no. 228: Excommunication of Michael Caerularius (1054)",
+     "file": "cic/texts/mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt",
+     "lines": "9987-9988",
+     "locus": "no. 228, closing anathema",
+     "quote": "et  omnes  sequaces  eorum  in  praefatis  erroribus et  praesumptionibus,  sint  anathema  Maranatha",
+     "license": "public-domain",
+     "source_id": null
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Innocent III, letter to the archbishop of Kalocsa, 3 May 1205 (Register, year 8, letter 40), in Theiner, Vetera monumenta Slavorum meridionalium, vol. 1 (1863)",
+     "file": "cic/texts/theiner_vetera-monumenta-slavorum-meridionalium-v1-lat_1863.txt",
+     "lines": "7329-7330",
+     "locus": "Reg. VIII ep. 40",
+     "quote": "quia cum ipsa Constantinopolitana ecclesia nuper ad apostolice sedis redierit uni- tatem, eam nolumus suo iure privari.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Innocent III, letter to the bishops of Padua and Ceneda (Register, year 12, letter 94, 1209), in Theiner, Vetera monumenta Slavorum meridionalium, vol. 1 (1863)",
+     "file": "cic/texts/theiner_vetera-monumenta-slavorum-meridionalium-v1-lat_1863.txt",
+     "lines": "7698-7699",
+     "locus": "Reg. XII ep. 94",
+     "quote": "et venerabilis frater noster Constantinopolitanus Patriarcha electio- nem confirmasset ipsius et in Epum consecrasset,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "A. N. Mouravieff, A History of the Church of Russia (1838; trans. R. W. Blackmore, Oxford, 1842)"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "change_reason": "R1-04: absorbed the 1204 episode from the dropped --2 link. Added Innocent III's letters of 1205 and 1209 as primary and Mouravieff as secondary; note extended by two sentences. Grade stays Documented on the 1054 bull."
+  },
+  {
+   "id": "franciscan-order-era-6--observant-reform-and-popular-preaching",
+   "action": "new",
+   "from": "franciscan-order-era-6",
+   "to": "observant-reform-and-popular-preaching",
+   "type": "gave rise to",
+   "confidence": "Documented",
+   "note": "In 1438 Pope Eugenius IV confirmed a letter from William of Casale, the head of the Franciscan order. William had made Bernardino of Siena, a friar of the same order, vicar of all its houses in Italy that kept the strict 'observance'. So the Observant friars grew up inside the order. No text we hold shows how their first houses began.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Eugenius IV, Ad futuram rei memoriam, Ferrara, 1 September 1438, confirming William of Casale's letter that made Bernardino of Siena vicar of the Observant houses, in Bullarium Franciscanum, Nova Series I, ed. Huntemann (1929), no. 385",
+     "file": "cic/texts/bullarium-franciscanum_nova-series-v1-lat_huntemann1929.txt",
+     "lines": "34646-34648",
+     "locus": "no. 385",
+     "quote": "dilectus filius Guillelmus de Ca- sali, sacrae theologiae professor et generalis minister ipsius ordinis,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Eugenius IV, Ad futuram rei memoriam, Ferrara, 1 September 1438, confirming William of Casale's letter that made Bernardino of Siena vicar of the Observant houses, in Bullarium Franciscanum, Nova Series I, ed. Huntemann (1929), no. 385",
+     "file": "cic/texts/bullarium-franciscanum_nova-series-v1-lat_huntemann1929.txt",
+     "lines": "34650-34653",
+     "locus": "no. 385",
+     "quote": "Bernardinum de Senis, eiusdem ordinis profes- sorem, omnium et singularum domorum et con- ventuum Italiae dicti ordinis sub sacro observan- tiae nomine constitutarum ipsius vicarium fecit,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Ulricus Huntemann, preface to Bullarium Franciscanum, Nova Series I (Quaracchi, 1929)"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "wants": [
+    "A vendored text on the first Observant hermitage at Brugliano (Paoluccio Trinci, 1368)"
+   ],
+   "change_reason": "R1-07 (option a): new cross-era link named in the-franciscan-movement's text. Eugenius IV's confirmation of 1438 shows Bernardino, a professed friar of the order, made vicar of the order's own Observant houses."
+  },
+  {
+   "id": "athonite-and-comnenian-byzantine-monasticism--kievan-rus-christianity-1054-1240",
+   "action": "rewrite",
+   "from": "athonite-and-comnenian-byzantine-monasticism",
+   "to": "kievan-rus-christianity-1054-1240",
+   "type": "influenced",
+   "confidence": "Dominant Modern Reconstruction",
+   "note": "A. N. Mouravieff's history of the Russian church, published in 1838, says Anthony took his vows on Mount Athos. He then came home and began the Caves Monastery at Kyiv. The same history says the house's rule came from the Stoudios monastery in Constantinople. No earlier text we hold tells the story.",
+   "sources": [
+    {
+     "kind": "secondary",
+     "work": "A. N. Mouravieff, A History of the Church of Russia (1838; English trans. Blackmore, 1842), ch. 1",
+     "source_id": null
+    },
+    {
+     "kind": "secondary",
+     "work": "A. N. Mouravieff, A History of the Church of Russia (1838; English trans. Blackmore, 1842), ch. 1",
+     "source_id": null
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "change_reason": "R1-08: regraded Inferential-Thin to Dominant Modern Reconstruction, matching the other links resting on Mouravieff; split the 28-word first sentence."
+  },
+  {
+   "id": "athonite-and-comnenian-byzantine-monasticism--the-georgian-golden-age",
+   "action": "regrade",
+   "from": "athonite-and-comnenian-byzantine-monasticism",
+   "to": "the-georgian-golden-age",
+   "type": "influenced",
+   "confidence": "Dominant Modern Reconstruction",
+   "note": "In 1849 Marie-Félicité Brosset, who edited the Georgian chronicles, wrote that under King Bagrat III the Georgian monastery on Athos was home to learned translators. They put scripture and the best Greek books of theology into Georgian. This rests on that one modern summary.",
+   "sources": [
+    {
+     "kind": "secondary",
+     "work": "Marie-Félicité Brosset, introduction to Histoire de la Géorgie, première partie (1849)",
+     "source_id": null
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "change_reason": "R1-08: regraded Inferential-Thin to Dominant Modern Reconstruction, matching the other links resting on Brosset; note unchanged."
+  },
+  {
+   "id": "church-of-the-east-under-the-mongols--church-of-the-east-timur-to-hakkari",
+   "action": "rewrite",
+   "from": "church-of-the-east-under-the-mongols",
+   "to": "church-of-the-east-timur-to-hakkari",
+   "type": "continued as",
+   "confidence": "Documented",
+   "note": "A history of the church's heads, written in the fourteenth century, says Yahballaha III died in November 1317. It adds that his seat then stood empty for three months and eight days. The scholar Assemani, writing in 1725, says Timothy II, bishop of Mosul and Arbela, was chosen in February 1318.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Sliba ibn Yuhanna, Lives of the Patriarchs of the East, Yahballaha III (Latin trans. Gismondi)",
+     "file": "cic/texts/amr-ibn-matta_de-patriarchis-nestorianorum-commentaria-pars-altera-ara-lat_gismondi1896-1897.txt",
+     "lines": "11219-11221",
+     "locus": "De patriarchis Nestorianorum, pars altera, Yahballaha III",
+     "quote": "Diu vitam produxil hic pater, et obiit sabbato exeuiite ante dominicam ter- tiam consecrationis ecclesiae, 13 novembris anno [graecorumi 1629,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Sliba ibn Yuhanna, Lives of the Patriarchs of the East, Yahballaha III (Latin trans. Gismondi)",
+     "file": "cic/texts/amr-ibn-matta_de-patriarchis-nestorianorum-commentaria-pars-altera-ara-lat_gismondi1896-1897.txt",
+     "lines": "11225",
+     "locus": "De patriarchis Nestorianorum, pars altera, Yahballaha III",
+     "quote": "Yacavit post ijisum .sedos jior menses tres et dies oclo.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "J. S. Assemani, Bibliotheca Orientalis III.1 (Rome, 1725), ch. 56, Timothy II, summarizing Abdisho of Nisibis"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "change_reason": "R1-10: Assemani (1725) changed from primary to secondary; he summarizes Abdisho and is not a witness. Documented stands on Sliba's death date and vacancy. Note already gives Assemani's date."
+  },
+  {
+   "id": "zagwe-and-early-solomonic-ethiopian-christianity--the-ethiopian-monastic-flowering",
+   "action": "rewrite",
+   "from": "zagwe-and-early-solomonic-ethiopian-christianity",
+   "to": "the-ethiopian-monastic-flowering",
+   "type": "continued as",
+   "confidence": "Documented",
+   "note": "The Life of the monk Takla Haymanot says that at fifteen he was made a deacon by Bishop Gerlos, 'in the kingdom of Zaga'. The same Life says Yekuno Amlak 'brought back the kingdom from the Zague'. The Life was written down after the saint's time, and some of its dates do not fit. It still shows one church carrying its saint across the change of kings.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Life of Takla Haymanot, Dabra Libanos version (trans. Budge, 1906), ch. 25",
+     "file": "cic/texts/gadla-takla-haymanot_life-and-miracles-of-takla-haymanot_budge1906.txt",
+     "lines": "5539-5543",
+     "locus": "Life, ch. 25, fol. 37a",
+     "quote": "at the time when Abba BenyAmin (Ben¬ jamin) was Archbishop of Alexandria, for (Fol. 37 a. 3) AbbA Gerlos was still Papa (i. e., Bishop) in the country of ’Amhara, in the kingdom of ZagA.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Life of Takla Haymanot, Dabra Libanos version (trans. Budge, 1906), the royal genealogy",
+     "file": "cic/texts/gadla-takla-haymanot_life-and-miracles-of-takla-haymanot_budge1906.txt",
+     "lines": "6760-6761",
+     "locus": "Life, fol. 51b",
+     "quote": "’Edem ’Asgad begot Yakuno ’Amlak, who brought back the kingdom from the Zague2",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Kebra Nagast, colophon (trans. Budge, 1922)",
+     "file": "cic/texts/kebra-nagast_queen-of-sheba-and-her-only-son-menyelek_budge1922.txt",
+     "lines": "15312-15314",
+     "locus": "colophon",
+     "quote": "It went out in the days of Zagua, and they did not translate it because this book says : Those who reign not being Israelites are transgressors of the Law.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "E. A. Wallis Budge, introduction to The Life and Miracles of Takla Haymanot (1906)"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "change_reason": "R1-11: last sentence replaced. It now says the Life is late and its dates do not all fit (Budge's introduction), and drops the unshown claim about bishops after 1270."
+  },
+  {
+   "id": "post-aksumite-ethiopian-christianity--zagwe-and-early-solomonic-ethiopian-christianity",
+   "action": "rewrite",
+   "from": "post-aksumite-ethiopian-christianity",
+   "to": "zagwe-and-early-solomonic-ethiopian-christianity",
+   "type": "continued as",
+   "confidence": "Documented",
+   "note": "Cyril was the sixty-seventh patriarch of Alexandria. The Ethiopian church's book of saints, written down after his time, says he sent a bishop to Ethiopia. Its translator reads the bishop's name, with a query, as Severus. Around 1200, under the Zagwe kings, a Coptic survey still says the head bishop came from Alexandria. A later Life of Takla Haymanot says the crown passed from the old royal line to the Zagwe.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Ethiopian Synaxarium, Sane 12, Cyril of Alexandria (trans. Budge, 1928)",
+     "file": "cic/texts/ethiopian-synaxarium_book-of-saints-ethiopian-church-v2-v4-microform_budge1928.txt",
+     "lines": "35415-35416",
+     "locus": "Sane 12",
+     "quote": "And on this day also died the holy father Abba cyril, the sixty-seventh Archbishop of the city of Alexandria.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Ethiopian Synaxarium, Sane 12, Cyril of Alexandria (trans. Budge, 1928)",
+     "file": "cic/texts/ethiopian-synaxarium_book-of-saints-ethiopian-church-v2-v4-microform_budge1928.txt",
+     "lines": "35445-35447",
+     "locus": "Sane 12",
+     "quote": "During his period of office he appointed a second bishop to the country of Ethiopia, whose name was sAwiROS (severus ?).",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Churches and Monasteries of Egypt, attributed to Abu Salih (trans. Evetts, 1895), on Abyssinia",
+     "file": "cic/texts/abu-salih_churches-and-monasteries-of-egypt_evetts1895.txt",
+     "lines": "14287-14288",
+     "locus": "fol. 105a",
+     "quote": "A metropolitan is sent from the see of Mark the Evangelist to Abyssinia ^, from the patriarch of Alexandria in Egypt ;",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Life of Takla Haymanot, Dabra Libanos version (trans. Budge, 1906), the royal genealogy",
+     "file": "cic/texts/gadla-takla-haymanot_life-and-miracles-of-takla-haymanot_budge1906.txt",
+     "lines": "3547-3549",
+     "locus": "Life, the royal genealogy",
+     "quote": "And from Delna'Ad the kingdom departed, and it was given unto others who were not of the people of Israel, that is to say they belonged to the ZAgue,",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "change_reason": "R1-12: first sentence replaced; it now says the book of saints is later than the events and keeps Budge's query on the bishop's name."
+  },
+  {
+   "id": "church-of-the-east-under-the-mongols--latin-papal-church-gregorian",
+   "action": "rewrite",
+   "from": "church-of-the-east-under-the-mongols",
+   "to": "latin-papal-church-gregorian",
+   "type": "in contact with",
+   "confidence": "Documented",
+   "note": "Rabban Sawma, a monk of the Church of the East, reached Rome as envoy of the Mongol king Arghun and of his own catholicos. He told the cardinals he carried letters 'concerning the matter of Jerusalem'. He then gave communion to the king of England, probably in Gascony. Back in Rome, he received it from the new pope, Nicholas IV.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "History of Mar Yahballaha and Rabban Sawma (trans. Budge, The Monks of Kublai Khan, 1928), Sawma before the cardinals in Rome",
+     "file": "cic/texts/yahballaha-sauma_monks-of-kublai-khan_budge1928.txt",
+     "lines": "7149-7152",
+     "locus": "ch. 7 (Rabban Sawma in Italy)",
+     "quote": "The Mongols and the Catholicus of the East have sent me to Mar Papa concerning the matter of Jerusalem; and they have sent letters with me.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "History of Mar Yahballaha and Rabban Sawma (trans. Budge, The Monks of Kublai Khan, 1928), Sawma at the court of the king of England",
+     "file": "cic/texts/yahballaha-sauma_monks-of-kublai-khan_budge1928.txt",
+     "lines": "7648-7651",
+     "locus": "ch. 7 (Rabban Sawma goes to the king of England)",
+     "quote": "the king commanded Rabban Sawma to celebrate the Eucharist, and he performed the Glorious Mysteries ; and the king and his officers of state stood up, and the king partook of the Sacrament,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "History of Mar Yahballaha and Rabban Sawma (trans. Budge, The Monks of Kublai Khan, 1928), Sawma's return to Rome",
+     "file": "cic/texts/yahballaha-sauma_monks-of-kublai-khan_budge1928.txt",
+     "lines": "7855-7857",
+     "locus": "ch. 7 (Rabban Sawma in Rome)",
+     "quote": "And RABBAN SAwm4A rejoiced greatly in receiving the Eucharistic Mystery from the hand of MAR PApA.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "change_reason": "R1-13: 'in Gascony' now 'probably in Gascony', since Budge prints the place with a query."
+  },
+  {
+   "id": "latin-papal-church-gregorian--the-humiliati",
+   "action": "rewrite",
+   "from": "latin-papal-church-gregorian",
+   "to": "the-humiliati",
+   "type": "argued against",
+   "confidence": "Inferential-Thin",
+   "note": "In 1184 Pope Lucius III condemned the Waldensians for claiming the right to preach. John Foxe, writing in the 1500s, reports a chronicler's claim that Lucius rejected the Humiliati with them. Foxe himself doubted another part of that story, about the friars approved in their place. This rests on that late report.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "John Foxe, Acts and Monuments, vol. 4 (ed. Cattley and Townsend, 1837), on the Waldenses of Provence, reporting Paulus Aemilius",
+     "file": "cic/texts/foxe_acts-and-monuments-v4_cattley-townsend1837.txt",
+     "lines": "38608-38611",
+     "locus": "Acts and Monuments, History of Merindol and Cabrieres",
+     "quote": "of these Pauperes cle Lugduno, and Humiliati, and dividing these 1547. two orders from the Albigenses, reporteth that the two former orders were rejected by the pope Lucius III.,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "work": "Édouard Montet, Histoire littéraire des Vaudois du Piémont (Paris, 1885)",
+     "source_id": null
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "change_reason": "R1-14: added Foxe's own doubt about the chronicler's story."
+  },
+  {
+   "id": "latin-church-of-outremer--maronite-christianity",
+   "action": "rewrite",
+   "from": "latin-church-of-outremer",
+   "to": "maronite-christianity",
+   "type": "in contact with",
+   "confidence": "Dominant Modern Reconstruction",
+   "note": "William of Tyre was archbishop of Tyre in the crusader kingdom. He wrote that the Maronites joined the Latin church around 1182. We do not hold his history, so this rests on modern historians of the Maronites.",
+   "sources": [
+    {
+     "kind": "secondary",
+     "work": "Matti Moosa, The Maronites in History (Syracuse University Press, 1986; repr. Gorgias 2005)",
+     "source_id": null
+    },
+    {
+     "kind": "secondary",
+     "work": "Kamal Salibi, Maronite Historians of Mediaeval Lebanon (Beirut, 1959)",
+     "source_id": null
+    }
+   ],
+   "citation_specificity": "C",
+   "verification_state": "named-not-rechecked",
+   "change_reason": "R1-17: removed 'this link rests on'."
+  },
+  {
+   "id": "armenian-cilicia--byzantine-church-after-1054",
+   "action": "rewrite",
+   "from": "armenian-cilicia",
+   "to": "byzantine-church-after-1054",
+   "type": "in contact with",
+   "confidence": "Documented",
+   "note": "Vartan, an Armenian historian of the 1200s, says Emperor Manuel asked the catholicos Gregory and his brother Nerses to set out their faith. They wrote it down and sought union with the Greeks, but the work was never finished. Michael the Syrian quotes a letter from Nerses. It lists what the Greeks asked of him, among them belief in two natures in Christ and honor for the fourth council.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Vartan the Great, Universal History, extract in French, in Recueil des historiens des croisades, Documents arméniens I (1869)",
+     "file": "cic/texts/rhc-armeniens_documents-armeniens-t1-fra_academie1869.txt",
+     "lines": "50854-50855",
+     "locus": "years 617-621 of the Armenian era",
+     "quote": "L'empereur Manuel ayant envoyé demander aux deux frères leur profession de foi, ils rédigèrent une exposition de notre croyance,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Vartan the Great, Universal History, extract in French, in Recueil des historiens des croisades, Documents arméniens I (1869)",
+     "file": "cic/texts/rhc-armeniens_documents-armeniens-t1-fra_academie1869.txt",
+     "lines": "50856-50857",
+     "locus": "years 617-621 of the Armenian era",
+     "quote": "ils voulurent opérer la réunion de notre nation [avec les Grecs], mais cette œuvre resta inachevée,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Michael the Syrian, Chronicle (Armenian version), extract in French, in Recueil des historiens des croisades, Documents arméniens I (1869)",
+     "file": "cic/texts/rhc-armeniens_documents-armeniens-t1-fra_academie1869.txt",
+     "lines": "46197-46198",
+     "locus": "Nerses's letter to Michael",
+     "quote": "Le seigneur Nersès m'écrivit en ces termes : «On me demande de reconnaître « deux natures en Jésus-Christ, et d'honorer Île quatrième concile,",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "change_reason": "R1-18: last sentence no longer reads as a range."
+  },
+  {
+   "id": "georgian-revival-tao-klarjeti--the-georgian-golden-age",
+   "action": "rewrite",
+   "from": "georgian-revival-tao-klarjeti",
+   "to": "the-georgian-golden-age",
+   "type": "continued as",
+   "confidence": "Dominant Modern Reconstruction",
+   "note": "The Georgian church carried on across the year 1000. Brosset, who edited the Georgian chronicles in the 1800s, lists its heads in those years. One died under King Bagrat III, before 1014. Another, Giorgi of Tao, served under Bagrat IV. Brosset also says the Bagratid family lived in Tao and Klarjeti. Bagrat III, adopted by one of them, ruled a united kingdom by 1008.",
+   "sources": [
+    {
+     "kind": "secondary",
+     "work": "M.-F. Brosset, Histoire de la Géorgie, part I (St Petersburg, 1849), Brosset's introduction",
+     "source_id": null
+    },
+    {
+     "kind": "secondary",
+     "work": "M.-F. Brosset, Histoire de la Géorgie, part I (St Petersburg, 1849), Brosset's introduction",
+     "source_id": null
+    },
+    {
+     "kind": "secondary",
+     "work": "M.-F. Brosset, Histoire de la Géorgie, part I (St Petersburg, 1849), Brosset's introduction",
+     "source_id": null
+    },
+    {
+     "kind": "secondary",
+     "work": "M.-F. Brosset, Histoire de la Géorgie, part I (St Petersburg, 1849), Brosset's introduction",
+     "source_id": null
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "change_reason": "R1-20: note now opens with the claim, one church carried across the year 1000."
+  },
+  {
+   "id": "joachimite-current--the-franciscan-movement",
+   "action": "rewrite",
+   "from": "joachimite-current",
+   "to": "the-franciscan-movement",
+   "type": "influenced",
+   "confidence": "Documented",
+   "note": "Joachim's view of history spread among the Franciscan friars in the mid-1200s. The friar Angelo Clareno writes of a companion of John of Parma, head of the order from 1248. In a sermon, this friar praised Joachim far beyond measure. In 1254 another friar, Gerard of Borgo San Donnino, built a book on Joachim's three main works.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Angelo Clareno, Historia septem tribulationum ordinis minorum (c. 1320s), fifth tribulation, Latin text printed by Franz Ehrle in Archiv für Literatur- und Kirchengeschichte des Mittelalters 2 (1886)",
+     "file": "cic/texts/ehrle-denifle_archiv-literatur-kirchengeschichte-mittelalters-bd2-deu-lat_1886.txt",
+     "lines": "15462-15469",
+     "locus": "Historia, on the trial of John of Parma (Ehrle, Archiv 2, p. 276)",
+     "quote": "Fuit autem racio tercia | persecucionis duorum sermonum conscriptio faeta a duobus quibusdam fratris Johannis sociis b), quorum primus per excessum et, ut ita dicam, sine sale laudabat abbatis Joachim doctrinam pariter et personam,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "work": "Henry Charles Lea, A History of the Inquisition of the Middle Ages, vol. 3 (1888), ch. 1",
+     "source_id": null
+    },
+    {
+     "kind": "secondary",
+     "work": "Henry Charles Lea, A History of the Inquisition of the Middle Ages, vol. 3 (1888), ch. 1",
+     "source_id": null
+    },
+    {
+     "kind": "secondary",
+     "work": "Heinrich Denifle, 'Das Evangelium aeternum und die Commission zu Anagni', Archiv für Literatur- und Kirchengeschichte des Mittelalters 1 (1885)",
+     "source_id": null
+    },
+    {
+     "kind": "secondary",
+     "work": "Heinrich Denifle, 'Das Evangelium aeternum und die Commission zu Anagni', Archiv für Literatur- und Kirchengeschichte des Mittelalters 1 (1885)",
+     "source_id": null
+    },
+    {
+     "kind": "secondary",
+     "work": "Marjorie Reeves, The Influence of Prophecy in the Later Middle Ages: A Study in Joachimism (Clarendon, 1969)",
+     "source_id": null
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "change_reason": "R1-21: split a 26-word sentence."
+  },
+  {
+   "id": "latin-papal-church-gregorian--latin-papal-church-avignon-to-lateran-v",
+   "action": "rewrite",
+   "from": "latin-papal-church-gregorian",
+   "to": "latin-papal-church-avignon-to-lateran-v",
+   "type": "continued as",
+   "confidence": "Documented",
+   "note": "Gregory VII's Dictatus Papae of 1075 says that no one may judge the pope. In 1302 Boniface VIII, pope from 1294 to 1303, wrote in Unam sanctam that the highest spiritual power is judged by God alone. No human may judge it. The same see carried the same claims across 1300.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Gregory VII, Dictatus Papae (1075), Register II.55a, in Mirbt, Quellen zur Geschichte des Papsttums, 3rd ed. (1911), no. 255",
+     "file": "cic/texts/mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt",
+     "lines": "11209",
+     "locus": "Dictatus Papae 19",
+     "quote": "Quod a nemine ipse iudicari debeat.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Boniface VIII, bull Unam sanctam (18 November 1302), in Mirbt, Quellen, 3rd ed. (1911), no. 309",
+     "file": "cic/texts/mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt",
+     "lines": "13593-13594",
+     "locus": "Unam sanctam",
+     "quote": "Ergo si deviat terrena potestas, iudicabitur a potestate spirituah; sed si deviat spiri- tuahs minor, a suo superiori; si vero suprema, a solo Deo, non ab homine poterit iudicari;",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "work": "Carl Mirbt (ed.), Quellen zur Geschichte des Papsttums, 3rd ed. (1911), editor's heading to nos. 307-309",
+     "source_id": null
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "change_reason": "R1-21: split a 28-word sentence."
+  }
+ ],
+ "prose_changes": [
+  {
+   "n": 0,
+   "movement": "serbian-and-bulgarian-medieval-monasticism",
+   "field": "relationsSummary",
+   "old": "These churches grew out of Byzantine monasticism on Mount Athos, where Sava was a monk and the Serbian house of Hilandar was founded. They may also",
+   "new": "Serbian monastic life grew out of the monasteries of Mount Athos, where Sava was a monk and the Serbian house of Hilandar was founded. These churches may also",
+   "reason": "R1-05: the Athos origin is shown for the Serbian side only (Nemanja, Sava, Hilandar). The Bulgarian church is older than the Athonite houses, and nothing cited ties it to them.",
+   "fre_after": 63.4,
+   "fk_after": 9.9
+  },
+  {
+   "n": 1,
+   "movement": "coptic-christianity-fatimid-to-mamluk",
+   "field": "legacy",
+   "old": "is usually traced to al-Safi's canons, but we have not yet checked this against the Ethiopian text.",
+   "new": "may owe a debt to al-Safi's canons. No text we hold yet shows that line.",
+   "reason": "R1-06: removes build narration and the unsourced claim about what scholars usually say; states the tie as possible, with the reason.",
+   "fre_after": 72.2,
+   "fk_after": 6.9
+  },
+  {
+   "n": 2,
+   "movement": "the-franciscan-movement",
+   "field": "relationsSummary",
+   "old": "Sibling and rival of the Dominicans. Parent of the Spirituals, and through its later order of the Observants. Its lay third order, the Order of Penance of 1221, belongs inside its own story.",
+   "new": "Sibling and rival of the Dominicans, and parent of the Spirituals. Its lay third order, the Order of Penance, dates from 1221. The Observants grew up later inside the same order.",
+   "reason": "R1-07 and R1-16: the Observant clause now rests on the new franciscan-order-era-6 link; the hard-to-parse clause is gone, and so is 'belongs inside its own story'.",
+   "fre_after": 64.1,
+   "fk_after": 6.8
+  },
+  {
+   "n": 3,
+   "movement": "athonite-and-comnenian-byzantine-monasticism",
+   "field": "relationsSummary",
+   "old": "Likely heir of the monks who fought for icons;",
+   "new": "Perhaps heir of the monks who fought for icons, though the tie is thin;",
+   "reason": "R1-09: the tie to the iconophile monks is thin, so the qualifier now gives the reason, not a likelihood.",
+   "fre_after": 85.0,
+   "fk_after": 6.4
+  },
+  {
+   "n": 4,
+   "movement": "the-humiliati",
+   "field": "longDescription",
+   "old": "took the Humiliati back in 1201.",
+   "new": "took the Humiliati back around 1200.",
+   "reason": "R1-15: both sources give 1200 (Giussano, after Tiraboschi); no vendored text shows 1201.",
+   "fre_after": 62.5,
+   "fk_after": 7.3
+  },
+  {
+   "n": 5,
+   "movement": "the-humiliati",
+   "field": "why",
+   "old": "took them back in 1201 and",
+   "new": "took them back around 1200 and",
+   "reason": "R1-15: as above.",
+   "fre_after": 67.6,
+   "fk_after": 7.0
+  },
+  {
+   "n": 6,
+   "movement": "latin-papal-church-gregorian",
+   "field": "legacy",
+   "old": "It has a trained body of canon law, cardinals",
+   "new": "It has canon law run by trained lawyers, cardinals",
+   "reason": "R1-19: lawyers are trained, not law.",
+   "fre_after": 68.8,
+   "fk_after": 7.0
+  },
+  {
+   "n": 7,
+   "movement": "the-waldensians",
+   "field": "relationsSummary",
+   "old": "The map's clearest 'dissent that survived' thread - joins the Reformed tradition in 1532",
+   "new": "Dissenters condemned in 1184. They held on in the Alpine valleys, and in 1532 they joined the Reformed churches.",
+   "reason": "R1-16: describes the history, not the map. Every fact is in the entry's own text.",
+   "fre_after": 63.8,
+   "fk_after": 6.5
+  },
+  {
+   "n": 8,
+   "movement": "cathars-albigensians",
+   "field": "relationsSummary",
+   "old": "Target of crusade and inquisition - which the map names without softening",
+   "new": "Target of a papal crusade from 1209 and then of the inquisition. Together these destroyed them.",
+   "reason": "R1-16: describes the history, not the map. Rests on the papal and Dominican 'argued against' links already drawn.",
+   "fre_after": 63.9,
+   "fk_after": 6.2
+  },
+  {
+   "n": 9,
+   "movement": "canons-regular-victorine-school",
+   "field": "relationsSummary",
+   "old": "Bridge between cloister and the schools; the Premonstratensians (Norbert’s reformed canons, 1120/21) ride inside this canons-regular family’s story",
+   "new": "A bridge between the cloister and the schools. The reformed canons that Norbert founded in 1120 or 1121, known as Premonstratensians, belong to the same family.",
+   "reason": "R1-16: plain statement of the history, no cataloguing talk.",
+   "fre_after": 60.7,
+   "fk_after": 7.8
+  },
+  {
+   "n": 10,
+   "movement": "the-beguines",
+   "field": "relationsSummary",
+   "old": "Lay women's movement outside every standard structure; suppression pressure is part of its own story",
+   "new": "A lay women's movement that fitted none of the church's usual forms. Church leaders suspected it. In 1312 the Council of Vienne condemned errors it laid on beguines.",
+   "reason": "R1-16: plain statement of the history. The 1312 condemnation is the Avignon papacy's 'argued against' link, in the words of the entry's own text.",
+   "fre_after": 69.2,
+   "fk_after": 5.8
+  },
+  {
+   "n": 11,
+   "movement": "joachimite-current",
+   "field": "relationsSummary",
+   "old": "Where it became communal, it lives inside the Franciscan Spirituals' story",
+   "new": "Where it took root in communities, they were those of the Franciscan Spirituals.",
+   "reason": "R1-16: plain statement of the history; rests on the links to both Franciscan entries.",
+   "fre_after": 63.5,
+   "fk_after": 7.6
+  },
+  {
+   "n": 12,
+   "movement": "latin-papal-church-gregorian",
+   "field": "relationsSummary",
+   "old": "The western side of the Great Schism: Leo IX's reform circle, the Investiture Contest, the Lateran councils, and the rise of the papal monarchy, in lasting tension with the Byzantine church. This era's story also carries the national churches of the age — Anselm and Becket's England, Capetian France, and the Reconquista — along with the rise of the universities, scholastic theology, and the crusading ransom orders.",
+   "new": "The western side of the Great Schism. It runs from Leo IX's reform circle through the Investiture Contest and the Lateran councils to the rise of the papal monarchy. All of it stood in lasting tension with the Byzantine church. The age also saw the national churches of Anselm and Becket's England, of Capetian France and of the Reconquista. It saw the rise of the universities, of scholastic theology and of the crusading ransom orders.",
+   "reason": "R1-16: 'This era's story also carries' now describes the age. The field was below Reading Ease 60, so the whole paragraph is split into sentences; no fact added or lost.",
+   "fre_after": 60.8,
+   "fk_after": 8.5
+  },
+  {
+   "n": 13,
+   "movement": "armenian-cilicia",
+   "field": "longDescription",
+   "old": "After the Seljuk conquest of the Armenian homeland, Armenians resettled in Cilicia on the Mediterranean coast, where a principality grew into a kingdom — Levon I was crowned in 1198. And the Armenian church went with them. In 1151 the catholicos moved his seat to Hromkla, a fortress above the Euphrates, and there Nerses Shnorhali, 'the Gracious', wrote the finest Armenian religious poetry of the age and conducted a long and remarkably generous correspondence with the Byzantine emperor Manuel I about reuniting the Armenian and Greek churches. The reunion never happened. The Cilician church spent the following century negotiating instead with the Latin crusader states next door. A closeness that some Armenians welcomed and others resented deeply, and that shaped the church's arguments with itself for generations.",
+   "new": "After the Seljuks took the Armenian homeland, Armenians moved to Cilicia, on the coast of the Mediterranean Sea. There a small state grew into a kingdom, and Levon I was crowned in 1198. The Armenian church went with them. In 1151 its head, the catholicos, moved his seat to Hromkla, a fortress above the Euphrates. There Nerses Shnorhali, 'the Gracious', wrote the finest Armenian church poetry of his day. He and Manuel I, the Byzantine emperor, wrote each other long and remarkably generous letters. They wrote about how the Armenian and Greek churches might be one again. That never happened. In the next century the church in Cilicia dealt instead with the Latin crusader states next door. Some Armenians were glad of that closeness, and others deeply resented it. For a long time it shaped the church's arguments with itself.",
+   "reason": "R1-16: the fragment 'A closeness that...' is now a sentence. The paragraph scored Reading Ease 31.7, so it is rewritten in shorter sentences; every fact kept and none added.",
+   "fre_after": 61.1,
+   "fk_after": 7.9
+  },
+  {
+   "n": 14,
+   "movement": "maronite-christianity",
+   "field": "longDescription",
+   "old": "The Maronites take their name from a Syriac monk, Maron, and from the monastery built around his memory. By the medieval period they were a distinct church of the West Syriac liturgical family, concentrated in the mountains and gorges of Lebanon, where their monasteries and hermitages were cut straight into the cliffs. Their early history is unusually hard to recover, because much of what is told about it was written down later and under argument. Specifically over whether the community had once held that Christ had only one will, a position the wider church had rejected. What is clear is that when the crusaders arrived, the Maronites entered into communion with Rome: William of Tyre describes the union around 1182, and in 1215 the Maronite patriarch Jeremiah al-Amshitti traveled to Rome for the Fourth Lateran Council, after which a papal bull set out the terms of the union.",
+   "new": "The Maronites take their name from a Syriac monk, Maron, and from the monastery built around his memory. By the Middle Ages they were a church of their own, in the West Syriac family of worship. They lived mostly in the mountains and gorges of Lebanon, where they cut their monasteries and hermit cells straight into the cliffs. Their early history is unusually hard to recover. Much of what is told about it was written down later, by people arguing about it. The question was whether the community had once held that Christ had only one will, a view the wider church had rejected. What is clear is that when the crusaders came, the Maronites joined in communion with Rome. William of Tyre describes the union around 1182. In 1215 the Maronite patriarch Jeremiah al-Amshitti went to Rome for the Fourth Lateran Council. After it, a papal bull set out the terms of the union.",
+   "reason": "R1-16: the fragment 'Specifically over whether...' is now a sentence. The paragraph scored Reading Ease 36.6, so it is rewritten in shorter sentences; every fact kept and none added.",
+   "fre_after": 64.3,
+   "fk_after": 8.1
+  },
+  {
+   "n": 15,
+   "movement": "athonite-and-comnenian-byzantine-monasticism",
+   "field": "longDescription",
+   "old": "In 963 the monk Athanasios, with the backing of a Byzantine emperor, founded the Great Lavra on the mountainous peninsula of Athos in northern Greece, and the loose scatter of hermits already living there began to take the shape it has kept ever since. A self-governing federation of monasteries, each running on a written charter, a typikon, in which its founder set down exactly what the house was for, down to the diet, the liturgy and the charity. In Constantinople in the same period Symeon the New Theologian preached to his monks that God can be known directly and consciously, in experienced light, and was pushed out of his monastery for pressing the claim so hard. Between them the Athonite houses and the capital's monasteries carried the disciplines of interior prayer that the following century would gather up and name hesychasm.",
+   "new": "In 963 the monk Athanasios founded the Great Lavra on the mountain peninsula of Athos in northern Greece. Later accounts say a Byzantine emperor backed him. The loose scatter of hermits already living there began to take the shape it has kept ever since. Athos became a self-governing league of monasteries. Each ran on a written charter, called a typikon. In it the founder set down exactly what the house was for, down to the diet, the liturgy and the charity. In Constantinople at the same time, Symeon the New Theologian preached to his monks. He taught that God can be known directly and consciously, in experienced light. He pressed the claim so hard that he was pushed out of his monastery. Between them, the houses of Athos and the monasteries of the capital kept the practice of inner prayer alive. The next century would gather it up and name it hesychasm.",
+   "reason": "R1-16 and two-way gap 3: the emperor's backing rests only on Curzon's report of a 1701 account (Inferential-Thin), so it is now given as what later accounts say. The fragment is now sentences, and the paragraph (Reading Ease 34.3) is rewritten in shorter sentences. The 963 date is left as it was, for Open-Gaps 24.",
+   "fre_after": 63.7,
+   "fk_after": 7.8
+  },
+  {
+   "n": 16,
+   "movement": "cathars-albigensians",
+   "field": "longDescription",
+   "old": "From the 1140s, church writers in the Rhineland and then in southern France describe communities with their own ministers, their own initiation rite, and a teaching that the visible material world was not the work of the good God. A dualism that placed them outside Christianity as the councils had defined it. In Languedoc they had noble protection and something close to a parallel church, and in 1209 the papacy launched a crusade against them: two decades of war, then inquisition, then the siege of Montségur in 1244, where roughly two hundred of their ministers walked into a fire rather than recant. The last known Languedoc perfect, Guillaume Bélibaste, was burned in 1321. Almost everything known about them comes from the people who destroyed them, and historians now argue seriously about how much of 'Catharism' was a coherent movement at all and how much was a category assembled by inquisitors out of scattered local dissent.",
+   "new": "From the 1140s, church writers in the Rhineland and then in southern France describe communities with their own ministers and their own rite of entry. They taught that the visible world of matter was not the work of the good God. This dualism placed them outside Christianity as the councils had defined it. In Languedoc they had noble protection and something close to a parallel church. In 1209 the papacy launched a crusade against them. Two decades of war followed, then the inquisition, then the siege of Montségur in 1244. There about two hundred of their ministers walked into a fire rather than recant. Their ministers were called the perfect. The last known perfect of Languedoc, Guillaume Bélibaste, was burned in 1321. Almost everything known about them comes from the people who destroyed them. Historians now argue hard about how much of 'Catharism' was one movement at all. Some of it may have been a label that inquisitors built out of scattered local dissent.",
+   "reason": "R1-16: the fragment 'A dualism that...' is now a sentence. The paragraph scored Reading Ease 41.0, so it is rewritten in shorter sentences, and 'perfect' is explained before it is used; no fact added.",
+   "fre_after": 64.3,
+   "fk_after": 7.7
+  },
+  {
+   "n": 17,
+   "movement": "canons-regular-victorine-school",
+   "field": "longDescription",
+   "old": "Canons regular were clergy who lived in community under a rule — usually the Rule of St Augustine. But who, unlike monks, kept working in the world: serving churches, running hospitals, teaching. The most influential of their houses was the abbey of Saint-Victor on the left bank of Paris, where the master William of Champeaux withdrew from the schools in 1108 and where his successors built a way of learning that refused to choose between the classroom and the cloister. Hugh of St Victor argued in the Didascalicon that every art and science, rightly ordered, leads toward wisdom; Richard of St Victor mapped the stages of contemplation more carefully than anyone in the Latin West had yet done. Adam of St Victor wrote the sequences the abbey sang. The school's line ran down to Thomas Gallus, who died in 1246, and the abbey itself no longer stands.",
+   "new": "Canons regular were clergy who lived in community under a rule, usually the Rule of St Augustine. But unlike monks, they kept working in the world: serving churches, running hospitals, teaching. The most influential of their houses was the abbey of Saint-Victor on the left bank of Paris. There the master William of Champeaux withdrew from the schools in 1108. His successors built a way of learning that refused to choose between the classroom and the cloister. Hugh of St Victor argued in the Didascalicon that every art and science, rightly ordered, leads toward wisdom. Richard of St Victor mapped the stages of contemplation more carefully than anyone in the Latin West had yet done. Adam of St Victor wrote the sequences the abbey sang. The school's line ran down to Thomas Gallus, who died in 1246. The abbey itself no longer stands.",
+   "reason": "R1-16: the fragment 'But who...' is now a sentence. The paragraph scored Reading Ease 53.4, so its long sentences are split; no fact added or lost.",
+   "fre_after": 62.5,
+   "fk_after": 8.1
+  }
+ ],
+ "for_open_gaps": [
+  "Cistercians and Cluny (2026-11-08): the era-4 cluniac-reform-monasticism entry still says the Cistercians reacted against Cluny, while the era-5 Cistercian entry no longer claims any Cluny tie. The two entries disagree. For the era-4 owner (escalation A2).",
+  "Open-Gaps 24 dated log, era 5 (2026-11-08): non-relationship facts carried as fact without a vendored source. These are the Carmelites' move west, Molesme, the Lavra's 963 founding (A1); the Lateran IV dress rule, Troyes 1129, the orders of St John, Rhodes and Malta, and William of Tyre's reception (D1); Dante, Languedoc's annexation and the Waldensian etymology (C2); and the sack's memory, the 2001 apology, the contested Lavra and Kyiv's political weight (E1). Note the precision risk in the word 'apology'.",
+  "Bulgarian church of the Second Empire (2026-11-08): no census entry exists, so the Tarnovo church cannot be linked. A census-structure question for Mark, low urgency (escalation C1).",
+  "Long-gap continuity to modern entries (2026-11-08): the Georgian and Serbian/Bulgarian churches to their modern entries are left undrawn until Mark rules on cross-era mapping (escalation E2).",
+  "Church jurisdiction link type (2026-11-08): no link type fits church jurisdiction. 'influenced' (Caesarea to Armenia, Constantinople to Kyiv) and 'in contact with' (Aksum and Alexandria, Alexandria to Ethiopia) are both in use in the meantime. A method question for Mark (escalation F1).",
+  "Syriac Orthodox church after 1300 (2026-11-08): no census entry continues syriac-renaissance, so its continuesAs stays null. Portfolio structure, for Mark, low urgency (escalation F2).",
+  "Abbasid continuesAs (2026-11-08): church-of-the-east-under-the-abbasids has continuesAs null although the Abbasid-to-Mongol 'continued as' link now exists. A data fix for the entry owner (escalation F2).",
+  "Humiliati sources (2026-11-08): Innocent III's letters of 1201 (Tiraboschi) and Ad abolendam in Mansi 22 or Friedberg are wanted. They would settle the approval year, now given as 'around 1200', and the three qualified sentences on 1184 (R1-15, escalation B1).",
+  "Dispositions in Drafting_Record.json (2026-11-08): the three byzantine-church-after-1054 dispositions that cite latin-papal-church-gregorian--byzantine-church-after-1054--2 should now cite latin-papal-church-gregorian--byzantine-church-after-1054, after the duplicate was merged in revision round 1."
+ ]
+}

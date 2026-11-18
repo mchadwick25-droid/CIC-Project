@@ -1,0 +1,119 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "lpc.witness.confessor-claim-vs-regulated-peace"
+   ],
+   "sentence": "Among us, a name had to be set down before peace was asked for someone who had failed."
+  },
+  {
+   "record_ids": [
+    "lpc.witness.confessor-claim-vs-regulated-peace"
+   ],
+   "sentence": "That name was then examined before the whole congregation, with its judgment."
+  },
+  {
+   "record_ids": [
+    "lpc.term.certificates-letters-of-peace"
+   ],
+   "sentence": "Cyprian wanted each certificate to name the person."
+  },
+  {
+   "record_ids": [
+    "lpc.quote.such-a-one-with-his-friends"
+   ],
+   "sentence": "Cyprian wrote: “For I hear that some certificates are given in a way that says, ‘Let so-and-so be received into communion along with his own people.’ The martyrs never did this in any case. Such a vague and blind request will soon heap blame on us. For it opens a wide door to say, ‘So-and-so with his own people.’ Then twenty or thirty or more may be brought to us. They may be said to be the relatives, in-laws, freedmen and household of the man who received the certificate. For this reason I beg you to name in the certificate those whom you yourselves see and have known. Name those whose repentance you see is very near to full satisfaction. Then send us letters that agree with faith and discipline.”"
+  }
+ ],
+ "citations": [
+  "lpc.quote.such-a-one-with-his-friends",
+  "lpc.term.certificates-letters-of-peace",
+  "lpc.witness.confessor-claim-vs-regulated-peace"
+ ],
+ "group": "G",
+ "id": "q085",
+ "net_sentences": [
+  {
+   "draft": "Among us, a name had to be set down before peace was asked for someone who had failed [[lpc.witness.confessor-claim-vs-regulated-peace]] [[as:paraphrase]].",
+   "sentence": "Among us, a name had to be set down before peace was asked for someone who had failed.",
+   "tags": [
+    "lpc.witness.confessor-claim-vs-regulated-peace"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "That name was then examined before the whole congregation, with its judgment [[lpc.witness.confessor-claim-vs-regulated-peace]] [[as:paraphrase]].",
+   "sentence": "That name was then examined before the whole congregation, with its judgment.",
+   "tags": [
+    "lpc.witness.confessor-claim-vs-regulated-peace"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Cyprian wanted each certificate to name the person [[lpc.term.certificates-letters-of-peace]] [[as:paraphrase]].",
+   "sentence": "Cyprian wanted each certificate to name the person.",
+   "tags": [
+    "lpc.term.certificates-letters-of-peace"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Cyprian wrote: [[quote:lpc.quote.such-a-one-with-his-friends]]",
+   "placed_quote": "lpc.quote.such-a-one-with-his-friends",
+   "sentence": "Cyprian wrote: “For I hear that some certificates are given in a way that says, ‘Let so-and-so be received into communion along with his own people.’ The martyrs never did this in any case. Such a vague and blind request will soon heap blame on us. For it opens a wide door to say, ‘So-and-so with his own people.’ Then twenty or thirty or more may be brought to us. They may be said to be the relatives, in-laws, freedmen and household of the man who received the certificate. For this reason I beg you to name in the certificate those whom you yourselves see and have known. Name those whose repentance you see is very near to full satisfaction. Then send us letters that agree with faith and discipline.”",
+   "tags": [
+    "lpc.quote.such-a-one-with-his-friends"
+   ],
+   "verdict": "ok",
+   "why": "quote placed by code, verbatim to its record"
+  },
+  {
+   "draft": "Do you want us to go further into how we dealt with those who failed, or into the saying itself?",
+   "sentence": "Do you want us to go further into how we dealt with those who failed, or into the saying itself?",
+   "tags": [],
+   "verdict": "ok",
+   "why": "no checkable claim - interpretive/connective framing"
+  }
+ ],
+ "offered": [
+  "lpc.witness.confessor-claim-vs-regulated-peace",
+  "lpc.term.confessor",
+  "lpc.story.celerinus-writes-to-lucian",
+  "lpc.quote.pardon-through-a-wicked-clergyman",
+  "lpc.quote.such-a-one-with-his-friends",
+  "lpc.force.confessors-claim-to-grant-peace",
+  "lpc.witness.answerability-as-ground",
+  "lpc.story.election-of-cyprian",
+  "lpc.story.the-psalms-on-the-wall",
+  "lpc.quote.all-sins-against-us-are-to-be-forgiven",
+  "lpc.quote.dash-the-little-ones-against-the-rock",
+  "lpc.force.inherited-latin-theological-vocabulary"
+ ],
+ "raw_text": "Among us, a name had to be set down before peace was asked for someone who had failed [[lpc.witness.confessor-claim-vs-regulated-peace]] [[as:paraphrase]]. That name was then examined before the whole congregation, with its judgment [[lpc.witness.confessor-claim-vs-regulated-peace]] [[as:paraphrase]]. Cyprian wanted each certificate to name the person [[lpc.term.certificates-letters-of-peace]] [[as:paraphrase]]. Cyprian wrote: [[quote:lpc.quote.such-a-one-with-his-friends]]. Do you want us to go further into how we dealt with those who failed, or into the saying itself?\n",
+ "reply_shape": {
+  "leadin_support": {
+   "lpc.quote.such-a-one-with-his-friends": [
+    {
+     "detail": "wrote",
+     "kind": "genre",
+     "snippet": "Then send us letters that agree with faith and discipline. Epistle X (Oxford Ep. 15), to the martyrs and confessors, section 4",
+     "span": "record lpc.quote.such-a-one-with-his-friends"
+    }
+   ]
+  },
+  "placed": [
+   "lpc.quote.such-a-one-with-his-friends"
+  ],
+  "removed": [],
+  "repaired": []
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": "C5.S8",
+ "text": "Among us, a name had to be set down before peace was asked for someone who had failed. That name was then examined before the whole congregation, with its judgment. Cyprian wanted each certificate to name the person. Cyprian wrote: “For I hear that some certificates are given in a way that says, ‘Let so-and-so be received into communion along with his own people.’ The martyrs never did this in any case. Such a vague and blind request will soon heap blame on us. For it opens a wide door to say, ‘So-and-so with his own people.’ Then twenty or thirty or more may be brought to us. They may be said to be the relatives, in-laws, freedmen and household of the man who received the certificate. For this reason I beg you to name in the certificate those whom you yourselves see and have known. Name those whose repentance you see is very near to full satisfaction. Then send us letters that agree with faith and discipline.”\n\nDo you want us to go further into how we dealt with those who failed, or into the saying itself?",
+ "voice_set_aside": false
+}

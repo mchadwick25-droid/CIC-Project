@@ -1,0 +1,22 @@
+source_file: wallbridge_demerara-martyr-memoirs-of-the-rev-john-smith_1848.txt
+assignments:
+- row_id: wallbridge_demerara-martyr-memoirs-of-the-rev-john-smith_1848--the-demerara-martyr-memoirs-of-the-rev-john-smith-missionary
+  work: The Demerara Martyr. Memoirs of the Rev. John Smith, Missionary to Demerara; by Edwin Angel Wallbridge,
+    with
+  author: wallbridge
+  locus: the whole volume; not mapped
+  atlas_ids:
+  - caribbean-churches-of-slavery-and-emancipation
+  role: context
+  confidence: provisional
+  language: eng
+  date:
+    start: 1848
+    end: 1848
+    source: 'the printing''s own title page: line 334 of this file, on the title page'
+    formation_confidence: Documented
+  edition_date:
+    year: 1848
+    source: line 334 of this file, on the title page
+    formation_confidence: Documented
+  note: 'Era 9 row 247, John Smith of Demerara: a Life.'

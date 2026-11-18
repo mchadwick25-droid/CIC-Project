@@ -10,7 +10,7 @@ canon_cells:
 use_note:
   means: "Augustine says many offer the other cheek yet do not love the one who strikes, and the Lord, struck, answered instead."
   not_for:
-    - "a ruling on self-defence or lawsuits, which the passage does not take up"
+    - "a ruling on self-defense or lawsuits, which the passage does not take up"
     - "a claim that it says the Lord answered in anger"
     - "a claim that it was checked against the Latin, which is not vendored"
   years: {from: 391, to: 430}
@@ -37,7 +37,7 @@ retrieval:
   - participant asks how Augustine said Jesus himself acted when he was struck
   prefer_instead: []
 claim_guards:
-- The passage does not take up self-defence or lawsuits and must not be given as Augustine's ruling on
+- The passage does not take up self-defense or lawsuits and must not be given as Augustine's ruling on
   them; later sections, outside it, say correction out of love is not forbidden.
 - It does not say the Lord answered in anger; it says he was ready in heart for more.
 - It does not take up lawsuits, the coat or the mile; those come in the next sections, 59 to 61.

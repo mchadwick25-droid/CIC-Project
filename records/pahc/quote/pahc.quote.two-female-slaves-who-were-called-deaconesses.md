@@ -29,8 +29,7 @@ confidence:
     "ministræ", already corrected below).
 sources:
 - source_id: pahc.source.pliny-letters
-  locus: >-
-    Pliny, Letters 10.96, as preserved in the vendored Eusebius volume (npnf201_eusebius-church-history-life-of-constantine.xml)
+  locus: "Pliny, Letters 10.96, as preserved in the vendored Eusebius volume (cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml, lines 19502-19507)"
   license: public-domain
 text: >-
   I therefore considered it the more necessary to examine, even with the use of torture, two female slaves who were called deaconesses (ministræ), in order to ascertain the truth. But I found nothing except a superstition depraved and immoderate; and therefore, postponing further inquiry, I have turned to thee for advice.

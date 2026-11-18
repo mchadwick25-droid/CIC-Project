@@ -1,0 +1,133 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "syr.dw.corpus-and-its-edges"
+   ],
+   "sentence": "Among the sources we can check, none is a record taken under torture: they are our sage's letters, our poet's hymns and a short city chronicle."
+  },
+  {
+   "record_ids": [
+    "syr.dw.corpus-and-its-edges"
+   ],
+   "sentence": "Our sage's letters date themselves to the year, and our poet's hymns survive in ancient copies."
+  },
+  {
+   "record_ids": [
+    "syr.dw.corpus-and-its-edges",
+    "syr.story.edessa-flood-201"
+   ],
+   "sentence": "The chronicle was drawn from real archives and records that a flood destroyed a church building in Edessa."
+  },
+  {
+   "record_ids": [
+    "syr.story.edessa-flood-201",
+    "syr.dw.corpus-and-its-edges"
+   ],
+   "sentence": "The chronicle was compiled later, so it is no eyewitness account, and we cannot be sure the church line stood in the first record."
+  },
+  {
+   "record_ids": [
+    "syr.story.jacob-deliverance"
+   ],
+   "sentence": "Theodoret, an outside historian, tells of Jacob's prayer that brought gnats on the siege of Nisibis, and we hold that as hagiographic tradition, not attested event."
+  }
+ ],
+ "citations": [
+  "syr.dw.corpus-and-its-edges",
+  "syr.story.edessa-flood-201",
+  "syr.story.jacob-deliverance"
+ ],
+ "group": "A",
+ "id": "q025",
+ "net_sentences": [
+  {
+   "draft": "Among the sources we can check, none is a record taken under torture: they are our sage's letters, our poet's hymns and a short city chronicle [[syr.dw.corpus-and-its-edges]] [[as:paraphrase]].",
+   "sentence": "Among the sources we can check, none is a record taken under torture: they are our sage's letters, our poet's hymns and a short city chronicle.",
+   "tags": [
+    "syr.dw.corpus-and-its-edges"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Our sage's letters date themselves to the year, and our poet's hymns survive in ancient copies [[syr.dw.corpus-and-its-edges]] [[as:paraphrase]].",
+   "sentence": "Our sage's letters date themselves to the year, and our poet's hymns survive in ancient copies.",
+   "tags": [
+    "syr.dw.corpus-and-its-edges"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "The chronicle was drawn from real archives and records that a flood destroyed a church building in Edessa [[syr.dw.corpus-and-its-edges]] [[syr.story.edessa-flood-201]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "The chronicle was drawn from real archives and records that a flood destroyed a church building in Edessa.",
+   "tags": [
+    "syr.dw.corpus-and-its-edges",
+    "syr.story.edessa-flood-201"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "The chronicle was compiled later, so it is no eyewitness account, and we cannot be sure the church line stood in the first record [[syr.story.edessa-flood-201]] [[syr.dw.corpus-and-its-edges]] [[as:paraphrase]].",
+   "sentence": "The chronicle was compiled later, so it is no eyewitness account, and we cannot be sure the church line stood in the first record.",
+   "tags": [
+    "syr.story.edessa-flood-201",
+    "syr.dw.corpus-and-its-edges"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Theodoret, an outside historian, tells of Jacob's prayer that brought gnats on the siege of Nisibis, and we hold that as hagiographic tradition, not attested event [[syr.story.jacob-deliverance]] [[as:paraphrase]].",
+   "ratio": 0.87,
+   "sentence": "Theodoret, an outside historian, tells of Jacob's prayer that brought gnats on the siege of Nisibis, and we hold that as hagiographic tradition, not attested event.",
+   "tags": [
+    "syr.story.jacob-deliverance"
+   ],
+   "verdict": "ok",
+   "why": "grounded 87% in own tagged records"
+  },
+  {
+   "draft": "Which record do you have in mind?",
+   "sentence": "Which record do you have in mind?",
+   "tags": [],
+   "verdict": "ok",
+   "why": "no checkable claim - interpretive/connective framing"
+  }
+ ],
+ "offered": [
+  "syr.limit.f5-enslaved",
+  "syr.limit.f5-women-own-words",
+  "syr.quote.ephrem-keeper-of-strangers",
+  "syr.quote.palladius-hospitaller",
+  "syr.dw.corpus-and-its-edges",
+  "syr.quote.chronicle-flood-line",
+  "syr.quote.theodoret-gnats",
+  "syr.dw.remains",
+  "syr.story.simeon-martyrdom",
+  "syr.story.ephrem-roll-and-vine",
+  "syr.quote.the-temple-of-the-church-of-the-christians",
+  "syr.quote.the-scribes-and-the-prefects-over-the-archives"
+ ],
+ "raw_text": "Among the sources we can check, none is a record taken under torture: they are our sage's letters, our poet's hymns and a short city chronicle [[syr.dw.corpus-and-its-edges]] [[as:paraphrase]]. Our sage's letters date themselves to the year, and our poet's hymns survive in ancient copies [[syr.dw.corpus-and-its-edges]] [[as:paraphrase]]. The chronicle was drawn from real archives and records that a flood destroyed a church building in Edessa [[syr.dw.corpus-and-its-edges]] [[syr.story.edessa-flood-201]] [[as:paraphrase]]. The chronicle was compiled later, so it is no eyewitness account, and we cannot be sure the church line stood in the first record [[syr.story.edessa-flood-201]] [[syr.dw.corpus-and-its-edges]] [[as:paraphrase]]. Theodoret, an outside historian, tells of Jacob's prayer that brought gnats on the siege of Nisibis, and we hold that as hagiographic tradition, not attested event [[syr.story.jacob-deliverance]] [[as:paraphrase]]. Even the Persian church's memory of its bishop Simeon's death is a hagiographic account with a historical core [[syr.story.simeon-martyrdom]] [[as:paraphrase]]. Which record do you have in mind?\n",
+ "reply_shape": {
+  "placed": [],
+  "removed": [
+   {
+    "draft": "Even the Persian church's memory of its bishop Simeon's death is a hagiographic account with a historical core [[syr.story.simeon-martyrdom]] [[as:paraphrase]].",
+    "sentence": "Even the Persian church's memory of its bishop Simeon's death is a hagiographic account with a historical core.",
+    "why": "tells an offered story without placing it"
+   }
+  ],
+  "repaired": []
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": "C16.S1",
+ "text": "Among the sources we can check, none is a record taken under torture: they are our sage's letters, our poet's hymns and a short city chronicle. Our sage's letters date themselves to the year, and our poet's hymns survive in ancient copies. The chronicle was drawn from real archives and records that a flood destroyed a church building in Edessa. The chronicle was compiled later, so it is no eyewitness account, and we cannot be sure the church line stood in the first record. Theodoret, an outside historian, tells of Jacob's prayer that brought gnats on the siege of Nisibis, and we hold that as hagiographic tradition, not attested event. Which record do you have in mind?",
+ "voice_set_aside": false
+}

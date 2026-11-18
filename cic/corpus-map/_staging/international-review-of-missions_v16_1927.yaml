@@ -1,0 +1,24 @@
+source_file: international-review-of-missions_v16_1927.txt
+assignments:
+- row_id: international-review-of-missions_v16_1927--whole
+  work: 'The International Review of Missions, Volume the Sixteenth (1927)'
+  author: international-review-of-missions
+  locus: 'whole'
+  atlas_ids:
+  - the-ecumenical-movement-and-the-wcc
+  role: tradition
+  confidence: assigned
+  language: eng
+  date: {start: 1927, end: 1927, source: "title leaf: '1927'", formation_confidence: Documented}
+  note: 'The quarterly the title leaf says ''is published by the International Missionary Council''; each article is its writer''s own.'
+- row_id: international-review-of-missions_v16_1927--kriele-the-nias-revival
+  work: 'Ed. Kriele, ''The Nias Revival: the Story of a Spiritual Awakening'' (International Review of Missions, 1927)'
+  author: international-review-of-missions
+  locus: 'OCR lines 5441-6173; add 12 to OCR line numbers'
+  atlas_ids:
+  - indonesian-christianity-the-independent-century
+  role: context
+  confidence: assigned
+  language: eng
+  date: {start: 1927, end: 1927, source: "printed in the number of January 1927", formation_confidence: Documented}
+  note: 'An account of the awakening on Nias; the article is headed ''the story of a spiritual awakening''.'

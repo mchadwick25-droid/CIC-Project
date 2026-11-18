@@ -1,0 +1,104 @@
+{
+ "draft": "What we hold from Augustine's teaching is that Christ's command to turn the other cheek asks for an inward disposition, not a bodily action [[lpc.witness.violence-commanded-not-cruel]] [[as:paraphrase]]. That teaching does not claim that God never rightly commanded the sword at all [[lpc.witness.violence-commanded-not-cruel]] [[as:paraphrase]].\n\nAugustine wrote: [[quote:lpc.quote.many-have-learned-to-offer-the-other-cheek]]\n",
+ "ending": "rewritten",
+ "final": "What we hold from Augustine's teaching is that Christ's command to turn the other cheek asks for an inward disposition, not a bodily action. Augustine's teaching on the other cheek does not claim that God never rightly commanded the sword at all.",
+ "group": "K",
+ "offered": [
+  "lpc.witness.answerability-as-ground",
+  "lpc.term.the-flock",
+  "lpc.story.election-of-cyprian",
+  "lpc.quote.the-flight-of-the-mind-is-fear",
+  "lpc.quote.clamour-and-tears",
+  "lpc.force.congregational-acclamation-overriding-preference",
+  "lpc.witness.violence-commanded-not-cruel",
+  "lpc.story.the-psalms-on-the-wall",
+  "lpc.story.hundred-thousand-sesterces",
+  "lpc.quote.many-have-learned-to-offer-the-other-cheek",
+  "lpc.quote.david-himself-hath-been-sent-to-thee",
+  "lpc.force.confessors-claim-to-grant-peace"
+ ],
+ "placements": [
+  {
+   "decision": "drop",
+   "judgement": {
+    "fit": "partly",
+    "limit_stated": false,
+    "reason": "It shows the Lord answering a blow while ready in heart for more, but the record says it takes up no ruling on self-defence."
+   },
+   "record_id": "lpc.quote.many-have-learned-to-offer-the-other-cheek"
+  }
+ ],
+ "question": "Did Augustine say a Christian should never defend himself?",
+ "question_id": "q102",
+ "read": {
+  "dropped": [
+   "lpc.quote.many-have-learned-to-offer-the-other-cheek"
+  ],
+  "status": "rewrite",
+  "unsupported": {}
+ },
+ "rewrite": [
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "lpc.witness.violence-commanded-not-cruel"
+   ],
+   "sentence": "What we hold from Augustine's teaching is that Christ's command to turn the other cheek asks for an inward disposition, not a bodily action.",
+   "tags": [
+    "lpc.witness.violence-commanded-not-cruel"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "lpc.witness.violence-commanded-not-cruel"
+   ],
+   "sentence": "Augustine's teaching on the other cheek does not claim that God never rightly commanded the sword at all.",
+   "tags": [
+    "lpc.witness.violence-commanded-not-cruel"
+   ]
+  }
+ ],
+ "sentences": [
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 0,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "What we hold from Augustine's teaching is that Christ's command to turn the other cheek asks for an inward disposition, not a bodily action.",
+   "tags": [
+    "lpc.witness.violence-commanded-not-cruel"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 1,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "That teaching does not claim that God never rightly commanded the sword at all.",
+   "tags": [
+    "lpc.witness.violence-commanded-not-cruel"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": null,
+   "n": 2,
+   "placed": true,
+   "placed_id": "lpc.quote.many-have-learned-to-offer-the-other-cheek",
+   "reason": "placed by code",
+   "sentence": "Augustine wrote: “For many have learned how to offer the other cheek, but do not know how to love the one who strikes them. But in truth the Lord Himself was surely the first to keep the commands He taught. Yet He did not offer the other cheek to the high priest’s servant who struck Him there. Far from it, He said, ‘If I have spoken evil, bear witness of the evil; but if well, why do you strike me?’ Yet He was not, for that reason, unready in heart for the salvation of all. He was ready not only to be struck on the other cheek, but even to have His whole body crucified.”",
+   "tags": [
+    "lpc.quote.many-have-learned-to-offer-the-other-cheek"
+   ]
+  }
+ ],
+ "shipped_by_net": "What we hold from Augustine's teaching is that Christ's command to turn the other cheek asks for an inward disposition, not a bodily action. That teaching does not claim that God never rightly commanded the sword at all.\n\nAugustine wrote: “For many have learned how to offer the other cheek, but do not know how to love the one who strikes them. But in truth the Lord Himself was surely the first to keep the commands He taught. Yet He did not offer the other cheek to the high priest’s servant who struck Him there. Far from it, He said, ‘If I have spoken evil, bear witness of the evil; but if well, why do you strike me?’ Yet He was not, for that reason, unready in heart for the salvation of all. He was ready not only to be struck on the other cheek, but even to have His whole body crucified.”",
+ "sub_question": "C9.S4"
+}

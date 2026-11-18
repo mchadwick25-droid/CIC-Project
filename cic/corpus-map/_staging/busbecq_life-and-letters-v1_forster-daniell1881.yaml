@@ -1,0 +1,11 @@
+source_file: busbecq_life-and-letters-v1_forster-daniell1881.txt
+assignments:
+- row_id: busbecq_life-and-letters-v1_forster-daniell1881--busbecq-turkish-letters-i-iv-with-the-editors-life-forster-and-daniell
+  work: 'Busbecq, Turkish Letters I-IV, with the editors'' Life (Forster and Daniell)'
+  author: busbecq
+  locus: 'about OCR lines 3531-19084; add 12 to OCR line numbers'
+  atlas_ids:
+  - orthodoxy-under-the-ottomans-parish-millet-and-n
+  role: context
+  confidence: assigned
+  note: "An imperial ambassador's Turkish Letters in a translators' English; an outside witness. No census entry is the Ottoman state, so the work sits on this entry."

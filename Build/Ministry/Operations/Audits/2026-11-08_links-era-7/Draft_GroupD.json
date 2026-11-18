@@ -1,0 +1,1069 @@
+{
+ "group": "D",
+ "movements": [
+  "the-society-of-jesus",
+  "tridentine-parish-renewal-borromean-milan",
+  "the-tridentine-church",
+  "carmelite-reform-and-spanish-mystics"
+ ],
+ "dispositions": [
+  {
+   "movement": "the-society-of-jesus",
+   "field": "relationsSummary",
+   "sentence": "Spearhead of Catholic reform",
+   "other_id": "the-tridentine-church",
+   "disposition": "link",
+   "link_id": "the-society-of-jesus--the-tridentine-church",
+   "prose_change": 0,
+   "reason": "Carried by the Jesuits' documented work at Trent (bull of 1540, Ignatius's 1546 instruction, Laínez in the justification debate). Widely Accepted, so 'spearhead' is softened to 'a driving force'."
+  },
+  {
+   "movement": "the-society-of-jesus",
+   "field": "relationsSummary",
+   "sentence": "parent of the mission-born traditions",
+   "other_id": "mission-born-christianities-kirishitan-japan-kon",
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 0,
+   "reason": "Too wide: Kongo's church began with the Portuguese mission of 1491, before the Society existed, and New Spain's first missions were not Jesuit. Rewritten to name Japan and China, each linked with 'gave rise to'. The umbrella entry's own text ('Grew out of the Jesuit missions') belongs to its drafter."
+  },
+  {
+   "movement": "the-society-of-jesus",
+   "field": "longDescription",
+   "sentence": "The Society of Jesus was approved by Rome in 1540",
+   "other_id": "the-tridentine-church",
+   "disposition": "link",
+   "link_id": "the-society-of-jesus--the-tridentine-church",
+   "prose_change": null,
+   "reason": "Paul III's bull Regimini militantis Ecclesiae (27 September 1540) is a listed source on that link."
+  },
+  {
+   "movement": "the-society-of-jesus",
+   "field": "longDescription",
+   "sentence": "sending men to India, Japan, China, Brazil and Canada",
+   "other_id": "kirishitan-japan",
+   "disposition": "link",
+   "link_id": "the-society-of-jesus--kirishitan-japan",
+   "prose_change": null,
+   "reason": "Xavier's letter documents the 1549 landing and first baptisms."
+  },
+  {
+   "movement": "the-society-of-jesus",
+   "field": "longDescription",
+   "sentence": "sending men to India, Japan, China, Brazil and Canada",
+   "other_id": "china-mission-born-christianity",
+   "disposition": "link",
+   "link_id": "the-society-of-jesus--china-mission-born-christianity",
+   "prose_change": null,
+   "reason": "Trigault (1615) documents the 1583 arrival and the first baptism."
+  },
+  {
+   "movement": "the-society-of-jesus",
+   "field": "longDescription",
+   "sentence": "sending men to India, Japan, China, Brazil and Canada",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "India, Brazil and Canada have no census movement for these missions. The claim holds: Xavier's India letters (Coleridge vol. 1), Ignatius's letters on news from Brazil (Epistolae tomus 2, lines 15612-15614, 32075) and the Jesuit Relations for New France (Thwaites)."
+  },
+  {
+   "movement": "the-society-of-jesus",
+   "field": "longDescription",
+   "sentence": "During a long convalescence he read the lives of the saints",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "A reading influence on Ignatius, with no census movement behind it. Supported by the Autobiography (O'Conor 1900, lines 2190-2193)."
+  },
+  {
+   "movement": "the-society-of-jesus",
+   "field": "why",
+   "sentence": "sending men as far as India, Japan, China, Brazil and Canada",
+   "other_id": "kirishitan-japan",
+   "disposition": "link",
+   "link_id": "the-society-of-jesus--kirishitan-japan",
+   "prose_change": null,
+   "reason": "As in the longDescription."
+  },
+  {
+   "movement": "the-society-of-jesus",
+   "field": "why",
+   "sentence": "sending men as far as India, Japan, China, Brazil and Canada",
+   "other_id": "china-mission-born-christianity",
+   "disposition": "link",
+   "link_id": "the-society-of-jesus--china-mission-born-christianity",
+   "prose_change": null,
+   "reason": "As in the longDescription."
+  },
+  {
+   "movement": "the-society-of-jesus",
+   "field": "why",
+   "sentence": "sending men as far as India, Japan, China, Brazil and Canada",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "As in the longDescription: India, Brazil and Canada, supported, no census movement."
+  },
+  {
+   "movement": "the-society-of-jesus",
+   "field": "legacy",
+   "sentence": "in 2013 one of its members became the first Jesuit pope",
+   "other_id": null,
+   "disposition": "not-a-relationship",
+   "link_id": null,
+   "prose_change": 1,
+   "reason": "A fact about the order's later history, not a tie to another movement. Kept."
+  },
+  {
+   "movement": "the-society-of-jesus",
+   "field": "legacy",
+   "sentence": "by Catholics and, increasingly, by Protestants",
+   "other_id": null,
+   "disposition": "remove",
+   "link_id": null,
+   "prose_change": 1,
+   "reason": "No vendored or repo-cited source shows Protestants making the Exercises, or a growing number of them. Removed."
+  },
+  {
+   "movement": "the-society-of-jesus",
+   "field": "legacy",
+   "sentence": "Its missionaries' letters home also gave Europe some of its first sustained descriptions of Japan, China and the Americas.",
+   "other_id": null,
+   "disposition": "not-a-relationship",
+   "link_id": null,
+   "prose_change": 1,
+   "reason": "About Europe's knowledge, not a tie between communities. Xavier's letters and the Jesuit Relations bear it out. Kept, in shorter words."
+  },
+  {
+   "movement": "tridentine-parish-renewal-borromean-milan",
+   "field": "relationsSummary",
+   "sentence": "The Catholic mirror of Wittenberg's parish question",
+   "other_id": "lutheran-wittenberg-and-its-congregations",
+   "disposition": "not-a-relationship",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "A comparison, not a claim of contact or influence: 'mirror' says the two faced the same question. No source shows Borromeo answering Wittenberg. Kept; the reviewer may prefer wording that makes the parallel plainer."
+  },
+  {
+   "movement": "tridentine-parish-renewal-borromean-milan",
+   "field": "longDescription",
+   "sentence": "The Council of Trent decided what Catholic reform ought to mean; Milan under Archbishop Charles Borromeo showed what it looked like in a parish.",
+   "other_id": "the-tridentine-church",
+   "disposition": "link",
+   "link_id": "the-tridentine-church--tridentine-parish-renewal-borromean-milan",
+   "prose_change": null,
+   "reason": "Documented: Borromeo's own letter and the first provincial council's seminary decree cite Trent's command."
+  },
+  {
+   "movement": "tridentine-parish-renewal-borromean-milan",
+   "field": "longDescription",
+   "sentence": "He also mobilized the laity, through Schools of Christian Doctrine in which ordinary men and women taught catechism to children and through confraternities that organized charity.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "No census movement. Supported: Manning's list of the Acta's contents names the rules of the Confraternities of the Christian Doctrine and of Charity (Giussano vol. 1, lines 475-477)."
+  },
+  {
+   "movement": "tridentine-parish-renewal-borromean-milan",
+   "field": "why",
+   "sentence": "Archbishop Charles Borromeo took the Council of Trent's decrees and worked out what they meant for one ordinary parish",
+   "other_id": "the-tridentine-church",
+   "disposition": "link",
+   "link_id": "the-tridentine-church--tridentine-parish-renewal-borromean-milan",
+   "prose_change": null,
+   "reason": "Same link. 'One ordinary parish' is loose (he reshaped a province), but the paragraph scores below the reading target and a one-word fix would force a full rewrite, so it is flagged for the reviewer rather than changed."
+  },
+  {
+   "movement": "tridentine-parish-renewal-borromean-milan",
+   "field": "legacy",
+   "sentence": "Borromeo's Milan became the template. His Acta Ecclesiae Mediolanensis, published in 1582, circulated as a working handbook for bishops across the Catholic world",
+   "other_id": "the-tridentine-church",
+   "disposition": "qualify",
+   "link_id": "tridentine-parish-renewal-borromean-milan--the-tridentine-church",
+   "prose_change": 2,
+   "reason": "Narrowed to what Peña (1610) shows: bishops in many lands followed his example and his councils' decrees. Widely Accepted."
+  },
+  {
+   "movement": "tridentine-parish-renewal-borromean-milan",
+   "field": "legacy",
+   "sentence": "his diocese still keeps the Ambrosian rite that long predates him",
+   "other_id": "ambrosian-milan-standalone",
+   "disposition": "link",
+   "link_id": "ambrosian-milan-standalone--tridentine-parish-renewal-borromean-milan",
+   "prose_change": 2,
+   "reason": "Inferential-Thin: Giussano names the rite Milan always kept and Borromeo's guarding of it; its descent from Ambrose's own day is not shown. Wording kept in prose change 2."
+  },
+  {
+   "movement": "tridentine-parish-renewal-borromean-milan",
+   "field": "legacy",
+   "sentence": "Charles Borromeo remains one of Catholicism's most widely invoked patrons of bishops and seminarians",
+   "other_id": null,
+   "disposition": "not-a-relationship",
+   "link_id": null,
+   "prose_change": 2,
+   "reason": "A fact about his cult, not a tie to another movement. Kept, in plainer words."
+  },
+  {
+   "movement": "the-tridentine-church",
+   "field": "relationsSummary",
+   "sentence": "The Catholic Church's answer to the Reformation",
+   "other_id": "lutheran-wittenberg-and-its-congregations",
+   "disposition": "link",
+   "link_id": "the-tridentine-church--lutheran-wittenberg-and-its-congregations",
+   "prose_change": null,
+   "reason": "Documented: Exsurge Domine (1520) condemns Luther's teachings by name; Waterworth reads Trent's justification decree as aimed at Luther. Also named in the Wittenberg text ('a rival to Rome')."
+  },
+  {
+   "movement": "the-tridentine-church",
+   "field": "relationsSummary",
+   "sentence": "the missionary office Propaganda Fide founded in 1622",
+   "other_id": null,
+   "disposition": "not-a-relationship",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "An institution of this church, not a tie to another movement."
+  },
+  {
+   "movement": "the-tridentine-church",
+   "field": "relationsSummary",
+   "sentence": "the Index of Forbidden Books and the Roman Inquisition",
+   "other_id": null,
+   "disposition": "not-a-relationship",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Institutions of this church. Their targets are not named here."
+  },
+  {
+   "movement": "the-tridentine-church",
+   "field": "relationsSummary",
+   "sentence": "new active orders such as the Capuchins",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "No census movement for the Capuchins. Supported: Trent's Session XXV decree names 'the brethren of St. Francis (called) Capuchins' (Waterworth, lines 22145-22146)."
+  },
+  {
+   "movement": "the-tridentine-church",
+   "field": "relationsSummary",
+   "sentence": "the Greek College in Rome",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "No census movement. Supported: a bull of Gregory XIII in the Bullarium speaks of the 'Graecorum Collegio à Nobis erecto' (line 115786). The Orthodoxy-under-the-Ottomans text ties Lucaris to it; that belongs to its drafter."
+  },
+  {
+   "movement": "the-tridentine-church",
+   "field": "relationsSummary",
+   "sentence": "the Catholic remainder of the Augustinian Hermits after the Reformation split the order",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "No census movement for the Augustinian Hermits. Supported in part: Waterworth's essay calls Luther an Augustinian (line 383) and puts the Augustinians' General at Trent (lines 6387, 8284-8286). No vendored text counts the houses lost; 'split' is loose but not wrong. The Wittenberg text's 'seedbed' claim belongs to its drafter."
+  },
+  {
+   "movement": "the-tridentine-church",
+   "field": "longDescription",
+   "sentence": "The Catholic Church's answer to the Reformation took decades to assemble and then held for four centuries.",
+   "other_id": "lutheran-wittenberg-and-its-congregations",
+   "disposition": "link",
+   "link_id": "the-tridentine-church--lutheran-wittenberg-and-its-congregations",
+   "prose_change": null,
+   "reason": "Same link."
+  },
+  {
+   "movement": "the-tridentine-church",
+   "field": "longDescription",
+   "sentence": "a wave of new active orders — Capuchins, Ursulines, Oratorians — doing work the older monastic rules had never been designed for",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "No census movements. Supported: Trent names the Capuchins; Giussano records Borromeo founding Ursulines in Milan (vol. 1, line 2065); Bacci's Life of Philip Neri is the Oratory's own witness."
+  },
+  {
+   "movement": "the-tridentine-church",
+   "field": "why",
+   "sentence": "new active orders, the Capuchins, Ursulines and Oratorians",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "As in the longDescription."
+  },
+  {
+   "movement": "the-tridentine-church",
+   "field": "legacy",
+   "sentence": "That framework governed Catholic life until the Second Vatican Council of 1962-65 revised it",
+   "other_id": "the-post-vatican-ii-parish-world",
+   "disposition": "link",
+   "link_id": "the-tridentine-church--the-post-vatican-ii-parish-world",
+   "prose_change": null,
+   "reason": "Inferential-Thin: Quo primum (1570) is vendored; the Vatican II side is named in the repo but not vendored. The fact is not in doubt, so the prose stands."
+  },
+  {
+   "movement": "the-tridentine-church",
+   "field": "legacy",
+   "sentence": "the older Mass is still celebrated today by communities that have kept it",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "No census movement for these communities. Repo-cited support: Summorum Pontificum (2007) and Traditionis Custodes (2021), named in the post-Vatican-II text and in the era-10 sources file. Kept."
+  },
+  {
+   "movement": "the-tridentine-church",
+   "field": "legacy",
+   "sentence": "The missionary and educational institutions built in this period carried Catholicism to every continent.",
+   "other_id": null,
+   "disposition": "not-a-relationship",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Names no community. The mission churches are tied through the Jesuit links; a direct link from this entry to the mission umbrella is left to the mission drafter."
+  },
+  {
+   "movement": "carmelite-reform-and-spanish-mystics",
+   "field": "relationsSummary",
+   "sentence": "connects to the medieval Carmelite order",
+   "other_id": "the-carmelites",
+   "disposition": "link",
+   "link_id": "the-carmelites--carmelite-reform-and-spanish-mystics",
+   "prose_change": null,
+   "reason": "Existing Documented link, kept."
+  },
+  {
+   "movement": "carmelite-reform-and-spanish-mystics",
+   "field": "relationsSummary",
+   "sentence": "lives inside the wider Tridentine Catholic reform",
+   "other_id": "the-tridentine-church",
+   "disposition": "link",
+   "link_id": "the-tridentine-church--carmelite-reform-and-spanish-mystics",
+   "prose_change": null,
+   "reason": "Documented in Teresa's Foundations: she sought the bishop's sanction 'according to the decree of the council', and Trent's hermit decree brought Mariano to her reform."
+  },
+  {
+   "movement": "carmelite-reform-and-spanish-mystics",
+   "field": "longDescription",
+   "sentence": "Teresa of Ávila had spent more than twenty years as a Carmelite nun in a large, comfortable, sociable convent",
+   "other_id": "the-carmelites",
+   "disposition": "link",
+   "link_id": "the-carmelites--carmelite-reform-and-spanish-mystics",
+   "prose_change": null,
+   "reason": "The sixteenth-century order has no census movement of its own; the tie to the medieval order is the existing link through the rule."
+  },
+  {
+   "movement": "carmelite-reform-and-spanish-mystics",
+   "field": "longDescription",
+   "sentence": "Both were watched by the Inquisition",
+   "other_id": null,
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 3,
+   "reason": "The Spanish Inquisition has no census movement (the Tridentine entry covers the Roman Inquisition). Shown for Teresa (her Life denounced in 1574 and examined); not shown for John. Narrowed to Teresa."
+  },
+  {
+   "movement": "carmelite-reform-and-spanish-mystics",
+   "field": "longDescription",
+   "sentence": "opposed from inside their own order, and John spent nine months imprisoned by his own brethren",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 3,
+   "reason": "The friars of the mitigated rule in the 1570s have no census movement; the-carmelites ends in 1300. Supported: the 1873 Life of John on his arrest and Toledo prison ('more than eight months', line 4586)."
+  },
+  {
+   "movement": "carmelite-reform-and-spanish-mystics",
+   "field": "why",
+   "sentence": "the friar who joined her reform, John of the Cross, wrote some of his finest poetry during nine months imprisoned by his own brethren",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "As in the longDescription."
+  },
+  {
+   "movement": "carmelite-reform-and-spanish-mystics",
+   "field": "legacy",
+   "sentence": "The Discalced Carmelites are still a worldwide order of friars and nuns.",
+   "other_id": null,
+   "disposition": "not-a-relationship",
+   "link_id": null,
+   "prose_change": 4,
+   "reason": "Present status, not a tie. No later census movement for the order."
+  },
+  {
+   "movement": "carmelite-reform-and-spanish-mystics",
+   "field": "legacy",
+   "sentence": "far beyond Catholicism, read by Protestants, by poets and by psychologists",
+   "other_id": null,
+   "disposition": "remove",
+   "link_id": null,
+   "prose_change": 4,
+   "reason": "No vendored or repo-cited source shows these readers. Replaced with 'translated and read far beyond Spain', which the vendored English translations show."
+  }
+ ],
+ "links": [
+  {
+   "id": "the-society-of-jesus--kirishitan-japan",
+   "action": "new",
+   "from": "the-society-of-jesus",
+   "to": "kirishitan-japan",
+   "type": "gave rise to",
+   "confidence": "Documented",
+   "note": "Francis Xavier wrote that he and the Jesuits with him reached Japan on 15 August 1549. They came ashore at Kagoshima, where the family of Paul, a Japanese convert, took up the faith. Later, he says, they baptized about five hundred people at Yamaguchi in two months.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Francis Xavier, letter to the Society in Europe (Cochin, January 1552), in H. J. Coleridge, The Life and Letters of St. Francis Xavier, vol. 2 (1872)",
+     "file": "cic/texts/francis-xavier_life-and-letters-v2_coleridge1872.txt",
+     "lines": "18511-18516",
+     "locus": "Letter LXXXVI, To the Society in Europe",
+     "quote": "By the favour of God we all arrived at Japan in perfect health on the 15th of August 1549. We landed at Cagoxima, the native place of our companions.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Francis Xavier, letter to the Society in Europe (Cochin, January 1552), in H. J. Coleridge, The Life and Letters of St. Francis Xavier, vol. 2 (1872)",
+     "file": "cic/texts/francis-xavier_life-and-letters-v2_coleridge1872.txt",
+     "lines": "18515-18517",
+     "locus": "Letter LXXXVI",
+     "quote": "relations of Paul, the Japanese convert, all of whom had the blessing to receive the light of truth from heaven, and by Paul’s persuasion became Christians.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Francis Xavier, letter to the Society in Europe (Cochin, January 1552), in H. J. Coleridge, The Life and Letters of St. Francis Xavier, vol. 2 (1872)",
+     "file": "cic/texts/francis-xavier_life-and-letters-v2_coleridge1872.txt",
+     "lines": "18866-18867",
+     "locus": "Letter LXXXVI",
+     "quote": "In the course of two months, after numerous conferences, we baptized about five hundred persons at Amanguchi,",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in": "the-society-of-jesus relationsSummary ('parent of the mission-born traditions'; after prose change 0, 'its missions began the churches of Japan and China'), longDescription and why ('sending men to ... Japan')",
+   "drafter_flags": [
+    "also named in kirishitan-japan (relationsSummary 'Grew from the Jesuit mission of 1549') and mission-born-christianities-kirishitan-japan-kon (longDescription)",
+    "Coleridge's 1872 English of Xavier's letter; the letter's place and date (Cochin, January 1552) come from Coleridge's headnote at lines 18495-18498, which says it was written after Xavier returned to India.",
+    "Cagoxima = Kagoshima, Amanguchi = Yamaguchi: the note uses the modern names."
+   ],
+   "change_reason": "New. Documents the Jesuit origin of the Japanese church that three movement texts name.",
+   "fre": 61.9,
+   "fk": 8.4
+  },
+  {
+   "id": "the-society-of-jesus--china-mission-born-christianity",
+   "action": "new",
+   "from": "the-society-of-jesus",
+   "to": "china-mission-born-christianity",
+   "type": "gave rise to",
+   "confidence": "Documented",
+   "note": "Nicolas Trigault's history of 1615, drawn from Matteo Ricci's journals, tells the China mission as the work of the Jesuits. It says they reached Zhaoqing in September 1583. There they baptized a dying man. Trigault calls him the first person in China's kingdom to be baptized.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Nicolas Trigault, De Christiana expeditione apud Sinas suscepta ab Societate Iesu, from the commentaries of Matteo Ricci (Augsburg, 1615)",
+     "file": "cic/texts/trigault_de-christiana-expeditione-apud-sinas-lat_1615.txt",
+     "lines": "796-798",
+     "locus": "title of Book I",
+     "quote": "EXPEDITIONE APVD SINAS AB SOCIETATE IESV SVSCEPTA.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Nicolas Trigault, De Christiana expeditione apud Sinas suscepta ab Societate Iesu, from the commentaries of Matteo Ricci (Augsburg, 1615)",
+     "file": "cic/texts/trigault_de-christiana-expeditione-apud-sinas-lat_1615.txt",
+     "lines": "8293-8294",
+     "locus": "Book II (arrival at Sciauquin)",
+     "quote": "Difceflerate CoMegio focij Septembri men- (eineunteanni 1583.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Nicolas Trigault, De Christiana expeditione apud Sinas suscepta ab Societate Iesu, from the commentaries of Matteo Ricci (Augsburg, 1615)",
+     "file": "cic/texts/trigault_de-christiana-expeditione-apud-sinas-lat_1615.txt",
+     "lines": "8789-8792",
+     "locus": "Book II (the first baptism)",
+     "quote": "ibieum omni neceffario fumptunoftri recreabant, ac fimul fidei Chrimattac capitibus imbuebant, poftea vero quamfatisinftruclusvidebatur, Baptifmum primus in Sina- rum regno fufcepit,",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in": "the-society-of-jesus relationsSummary ('parent of the mission-born traditions'; after prose change 0, 'its missions began the churches of Japan and China'), longDescription and why ('sending men to ... China')",
+   "drafter_flags": [
+    "also named in china-mission-born-christianity (relationsSummary 'Grew from Matteo Ricci's entry in 1583 and the Jesuit China mission') and mission-born-christianities-kirishitan-japan-kon",
+    "The OCR of this 1615 Latin is very poor; the quotes keep it exactly ('focij' = socii, 'fufcepit' = suscepit, 'noftri' = nostri). Line 8294's date reads '(eineunteanni 1583.' for 'ineunte anni 1583'; the September and the arrival at Sciauquin (Zhaoqing) are in lines 8293-8296.",
+    "Trigault reworked Ricci's Italian (file header). 'First in the kingdom' is Trigault's claim; earlier Christians in China (Tang, Yuan) are not in view.",
+    "The dying man's baptism is undated in the quoted lines; the note does not date it."
+   ],
+   "change_reason": "New. Documents the Jesuit origin of the Ming China church.",
+   "fre": 66.8,
+   "fk": 6.7
+  },
+  {
+   "id": "the-society-of-jesus--the-tridentine-church",
+   "action": "new",
+   "from": "the-society-of-jesus",
+   "to": "the-tridentine-church",
+   "type": "influenced",
+   "confidence": "Widely Accepted",
+   "note": "Pope Paul III approved the Society of Jesus by bull in 1540. In 1546 Ignatius sent instructions to his men at the Council of Trent, where Laínez and Salmerón served as the pope's theologians. Laínez argued there against a two-part view of justification, and the council's decree ruled it out.",
+   "outcome_considered": "The decree on justification is the council's own teaching, and no listed source shows it adopted because of the Jesuits; Waterworth says only that Laínez argued ably and the decree aimed at Seripando's view. No institutional act results from the relationship itself.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Paul III, bull Regimini militantis Ecclesiae (27 September 1540), in Institutum Societatis Iesu, vol. 1 (Florence, 1892)",
+     "file": "cic/texts/society-of-jesus_institutum-societatis-iesu-v1-lat_1892.txt",
+     "lines": "1554",
+     "locus": "index of papal letters",
+     "quote": "Regimini militantis, 27 Sept. 1540.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Paul III, bull Regimini militantis Ecclesiae (27 September 1540), in Institutum Societatis Iesu, vol. 1 (Florence, 1892)",
+     "file": "cic/texts/society-of-jesus_institutum-societatis-iesu-v1-lat_1892.txt",
+     "lines": "2115-2117",
+     "locus": "Regimini militantis, approval clause",
+     "quote": "apostolica auctoritate, tenore prae¬ sentium ex certa scientia approba¬ mus, confirmamus et benedicimus,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Ignatius of Loyola, Letter XX, To the Society at Trent (Rome, 1546), in Letters and Instructions, trans. O'Leary and Goodier (1914)",
+     "file": "cic/texts/ignatius-loyola_letters-instructions-v1_oleary-goodier1914.txt",
+     "lines": "3953-3957",
+     "locus": "Letter XX",
+     "quote": "To the Society at Trent . 85 Rome, first months, 1546. Instructions for the Journey to Trent.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Council of Trent, Canons and Decrees, trans. J. Waterworth (London, 1848), Session VI, Decree on Justification, ch. 7",
+     "file": "cic/texts/council-of-trent_canons-and-decrees_waterworth1848.txt",
+     "lines": "13188-13190",
+     "locus": "Sess. VI, ch. 7",
+     "quote": "lastly, the alone formal cause is the justice of God, not that whereby He Himself is just, but that whereby He maketh us just,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Ignatius of Loyola, Letters and Instructions, editors' note to Letter XX (O'Leary and Goodier, 1914)",
+     "file": "cic/texts/ignatius-loyola_letters-instructions-v1_oleary-goodier1914.txt",
+     "lines": "5842-5845",
+     "quote": "On the 18th of May, 1546, the Jesuit Fathers Laynez and Salmeron arrived in Trent, having been appointed to be the theologians of the Pope by Paul III.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "J. Waterworth, historical essay prefixed to The Canons and Decrees of the Sacred and Oecumenical Council of Trent (London, 1848)",
+     "file": "cic/texts/council-of-trent_canons-and-decrees_waterworth1848.txt",
+     "lines": "4900-4902",
+     "quote": "Only five theologians supported this system, which was impugned by the rest, and especially, in a very able argument, by Lainez, of the Society of Jesus.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "J. Waterworth, historical essay prefixed to The Canons and Decrees of the Sacred and Oecumenical Council of Trent (London, 1848)",
+     "file": "cic/texts/council-of-trent_canons-and-decrees_waterworth1848.txt",
+     "lines": "4973-4975",
+     "quote": "It also aims at the opinion of Seripando, on the intrinsic and extrinsic application of the merits of Christ, in justification;",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Sforza Pallavicino, S.J., Istoria del Concilio di Trento, part 1 (Rome, 1664)",
+     "file": "cic/texts/pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664.txt",
+     "lines": "43575-43576",
+     "quote": "erano arriuaci s poc’anzi due Teologi della Tua nazione, mandati colà dal Poncefìce,Dicgo Lainez,ed Alfonfo Salmerones",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in": "the-society-of-jesus relationsSummary ('Spearhead of Catholic reform'; after prose change 0, 'A driving force of Catholic reform. Its theologians spoke at the Council of Trent'); longDescription ('approved by Rome in 1540')",
+   "drafter_flags": [
+    "The jes world's Doc_02 rates 'the Society was founded as a response to the Reformation' Contested (O'Malley, The First Jesuits, named in the movement's sources, not vendored). This link claims only influence on the Catholic Church of the period through the Council, not the founding motive; 'Spearhead' is softened to 'a driving force' in prose change 0.",
+    "Widely Accepted rests on vendored primaries for the facts (bull, Ignatius's instruction, the decree) and on Waterworth (1848) and Pallavicino (1664) for the reading that Laínez's part counted. No modern secondary is vendored.",
+    "Quote 2 keeps the edition's '¬' line-break hyphens exactly.",
+    "Pallavicino's OCR is poor ('Poncefìce', 'Dicgo'); kept exactly."
+   ],
+   "change_reason": "New. Carries 'Spearhead of Catholic reform' and 'approved by Rome' on the Society's work at Trent.",
+   "fre": 67.2,
+   "fk": 8.2
+  },
+  {
+   "id": "the-tridentine-church--tridentine-parish-renewal-borromean-milan",
+   "action": "new",
+   "from": "the-tridentine-church",
+   "to": "tridentine-parish-renewal-borromean-milan",
+   "type": "influenced",
+   "confidence": "Documented",
+   "note": "Charles Borromeo wrote that he called Milan's first provincial council because the Council of Trent had ordered it. The council met in 1565. Its decree on seminaries quotes Trent's order. Then it taxes church incomes across the province to pay for one.",
+   "outcome": "Milan's first provincial council did what Trent told it to do. It taxed church incomes in the province to found and pay for a seminary.",
+   "outcome_locus": "Acta Ecclesiae Mediolanensis, lines 2786-2790 (Trent's mandate to provincial synods to found seminaries) and 2795-2800 (the council's levy on the revenues of bishops' tables, chapters and benefices).",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Charles Borromeo, Acta Ecclesiae Mediolanensis (1599 printing; first published 1582), Borromeo's letter to the province",
+     "file": "cic/texts/borromeo_acta-ecclesiae-mediolanensis-lat_1599.txt",
+     "lines": "542-544",
+     "locus": "Concilium Provinciale I, opening letter",
+     "quote": "cogendi Prouincialem Synodum, quo die ex grauifsimo iuflb fandi Tridentini Con- cilij recognoui ,mature vt id munusexequi poflem , vehementerelaboraui .",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Charles Borromeo, Acta Ecclesiae Mediolanensis (1599 printing; first published 1582)",
+     "file": "cic/texts/borromeo_acta-ecclesiae-mediolanensis-lat_1599.txt",
+     "lines": "2786-2790",
+     "locus": "Concilium Provinciale I, De Seminario Clericorum",
+     "quote": "Amdatvm cfta facro Tridcntino co- cilio prouinci.-ilibus lynodis , vt quampri- mum in eam curam incumberent , vt femina- riumclcricorum , vbicunque id fieri pollet, conftituerecur ,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Charles Borromeo, Acta Ecclesiae Mediolanensis (1599 printing; first published 1582)",
+     "file": "cic/texts/borromeo_acta-ecclesiae-mediolanensis-lat_1599.txt",
+     "lines": "2795-2800",
+     "locus": "Concilium Provinciale I, De Seminario Clericorum",
+     "quote": "Itaque nos prouincis noftrar ftatu, Sc ecclcfia- rum,ac beneficiorum genere diligenter confi- derato , duximus ad hanc rationem confugien dum dVe; vt detrahamus,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Giovanni Pietro Giussano, The Life of St. Charles Borromeo (Italian 1610; English version, 1884), table of contents",
+     "file": "cic/texts/giussano_life-of-st-charles-borromeo-v1_1884.txt",
+     "lines": "1334-1336",
+     "locus": "Book I, ch. XI (contents)",
+     "quote": "ST. CHARLES MAEES HIS ENTRY INTO MILAN I CELEBRATION OF HIS FIRST PROVINCIAL COUNCIL, OCTOBER 1 5, 1 565",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Henry Edward Manning, preface to Giussano, The Life of St. Charles Borromeo, vol. 1 (1884)",
+     "file": "cic/texts/giussano_life-of-st-charles-borromeo-v1_1884.txt",
+     "lines": "497-502",
+     "quote": "In them the Council of Trent is to be seen translated into provincial and diocesan administration for the reform of all orders of the Church.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in": "tridentine-parish-renewal-borromean-milan longDescription ('The Council of Trent decided what Catholic reform ought to mean; Milan ... showed what it looked like in a parish') and why ('took the Council of Trent's decrees and worked out what they meant')",
+   "drafter_flags": [
+    "The Acta's Latin OCR is very poor ('Amdatvm cfta' = Mandatum est a, 'Tridcntino' = Tridentino); quotes kept exactly. The seminary decree (lines 2771-2812) falls inside the first provincial council, which ends at line 10279 ('Finis Concilij Prouincialis Primi').",
+    "The levy's size ('decimam partem', line 2799) is left out of the note and outcome; the OCR around it is not clean enough to state the rate safely.",
+    "Outcome test: a provincial council's levy is a rule changed by an authority, shown within 15 lines of the mandate quote."
+   ],
+   "change_reason": "New. Documents the Trent-to-Milan tie the movement's own description rests on.",
+   "fre": 64.4,
+   "fk": 6.8
+  },
+  {
+   "id": "tridentine-parish-renewal-borromean-milan--the-tridentine-church",
+   "action": "new",
+   "from": "tridentine-parish-renewal-borromean-milan",
+   "to": "the-tridentine-church",
+   "type": "influenced",
+   "confidence": "Widely Accepted",
+   "note": "Francisco Peña wrote in 1610, from the hearings held to make Borromeo a saint. He says bishops in many lands followed his example and his councils' decrees. Many came from beyond the Alps to learn from him. His biographer says he hoped other bishops would copy his seminaries.",
+   "outcome_considered": "Peña reports bishops following Borromeo's example in general terms; no listed source shows a council, law or authority in another diocese adopting Milan's decrees.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Francisco Pena, Relatione sommaria della vita ... di S. Carlo Borromeo, drawn from the canonization processes (Rome, 1610)",
+     "file": "cic/texts/pena-francisco_relatione-sommaria-vita-canonizatione-s-carlo-borromeo-ita_1610.txt",
+     "lines": "764-766",
+     "locus": "Relatione, on his example to other bishops",
+     "quote": "Onde ne.fègui poi che k-fue diUgen2e>-e fatiche s’eftefèro all’aiuto di molti pa«fi>perché i Vcfcoui moffi daU’efiempiO} &:efl'ortationi diluì*.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Francisco Pena, Relatione sommaria della vita ... di S. Carlo Borromeo, drawn from the canonization processes (Rome, 1610)",
+     "file": "cic/texts/pena-francisco_relatione-sommaria-vita-canonizatione-s-carlo-borromeo-ita_1610.txt",
+     "lines": "784-786",
+     "locus": "Relatione, on bishops helped by his councils' decrees",
+     "quote": "& lliutati dà grordini^.& decreri 4c’ fuoi Coih»« li; , faceuàno gran frutto nel buon gouernodellQ Ghicfe loro .",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Francisco Pena, Relatione sommaria della vita ... di S. Carlo Borromeo, drawn from the canonization processes (Rome, 1610)",
+     "file": "cic/texts/pena-francisco_relatione-sommaria-vita-canonizatione-s-carlo-borromeo-ita_1610.txt",
+     "lines": "786-788",
+     "locus": "Relatione, on bishops from beyond the Alps",
+     "quote": "£t molti étiandio di paefi -Oltra? moncàni andauano à pigliare indrizzo » e norma da lui medefimo di ben reggere J- anime :",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Giovanni Pietro Giussano, The Life of St. Charles Borromeo (Italian 1610; English version, 1884)",
+     "file": "cic/texts/giussano_life-of-st-charles-borromeo-v1_1884.txt",
+     "lines": "6780-6784",
+     "locus": "Book II (on the seminaries)",
+     "quote": "The idea of the Cardinal was, however, rather to induce other Bishops to found similar institutions in their own dioceses by showing them the abundant fruits they might look for in reward for their labours.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Henry Edward Manning, preface to Giussano, The Life of St. Charles Borromeo, vol. 1 (1884)",
+     "file": "cic/texts/giussano_life-of-st-charles-borromeo-v1_1884.txt",
+     "lines": "758-761",
+     "quote": "there will be the life of St. Charles as tie pattern, and the mind of St. Charles as the rule, of sacerdotal perfection.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in": "tridentine-parish-renewal-borromean-milan legacy ('Borromeo's Milan became the template ... a working handbook for bishops'; after prose change 2, 'Borromeo's Milan became a model ... bishops in many lands used it as a working handbook')",
+   "drafter_flags": [
+    "Peña was a Rota judge in the canonization cause and writes as an advocate; his claim is general. Lines 784-786 (very poor OCR: 'grordini^.& decreri 4c’ fuoi Coih»« li', for gl'ordini e decreti de' suoi Concili) say bishops were helped by his councils' orders and decrees. Because the witness is an advocate speaking generally, this stays Widely Accepted, not Documented.",
+    "Manning's 1884 preface is the consensus reading; no modern study of the Acta's reception is vendored. Wanted below.",
+    "Manning's 'tie pattern' is the OCR's misreading of 'the pattern'; kept exactly."
+   ],
+   "change_reason": "New. Carries the legacy's 'template' claim, narrowed in prose change 2 to what Peña shows.",
+   "fre": 69.5,
+   "fk": 6.5
+  },
+  {
+   "id": "ambrosian-milan-standalone--tridentine-parish-renewal-borromean-milan",
+   "action": "new",
+   "from": "ambrosian-milan-standalone",
+   "to": "tridentine-parish-renewal-borromean-milan",
+   "type": "influenced",
+   "confidence": "Inferential-Thin",
+   "note": "Borromeo's biographer says Milan had always kept the Ambrosian rite. Borromeo revised its Missal and let no one depart from it, because it was so old. Augustine says Ambrose's church began singing hymns in 386. How much of the later rite goes back to Ambrose is unclear.",
+   "outcome_considered": "Borromeo's revision of the Ambrosian Missal is Milan's own liturgical act; it keeps an inherited rite rather than resulting from any act of Ambrose's Milan, and the descent of the rite from Ambrose's day is itself uncertain.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Giovanni Pietro Giussano, The Life of St. Charles Borromeo (Italian 1610; English version, 1884)",
+     "file": "cic/texts/giussano_life-of-st-charles-borromeo-v1_1884.txt",
+     "lines": "19307-19309",
+     "locus": "Book IV (1577, the first Sunday of Lent)",
+     "quote": "The Church of Milan, which has always kept to the Ambrosian rite, had never changed the original prac- tice.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Giovanni Pietro Giussano, The Life of St. Charles Borromeo (Italian 1610; English version, 1884)",
+     "file": "cic/texts/giussano_life-of-st-charles-borromeo-v2_1884.txt",
+     "lines": "11891-11895",
+     "locus": "Book VIII (his care for worship)",
+     "quote": "He reformed the Ambrosian Missal, and was par- ticular in observing that rite himself, and reviving its ancient glory, and would not allow any deviation from it, on account of its antiquity",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Augustine, Confessions IX.7.15, NPNF 1st ser. vol. 1",
+     "file": "cic/texts/npnf101_augustine-confessions-letters.xml",
+     "lines": "13770-13773",
+     "locus": "Conf. IX.7.15",
+     "quote": "At this time it was instituted that, after the manner of the Eastern Church, hymns and psalms should be sung, lest the people should pine away in the tediousness of sorrow;",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in": "tridentine-parish-renewal-borromean-milan legacy ('his diocese still keeps the Ambrosian rite that long predates him')",
+   "drafter_flags": [
+    "Inferential-Thin because the tie is the rite's name and Milan's own tradition. No vendored or repo-cited study traces which parts of the rite are Ambrose's; the era-2 text says only 'Hymns said to be by Ambrose are still sung.'",
+    "Augustine's '386' is the year of the basilica crisis under Justina (Conf. IX.7.15 context); the quoted lines themselves say only 'at this time'. The era-2 entry's longDescription dates the crisis to 386.",
+    "Joins an era-7 movement to an era-2 movement; no era-6 check needed."
+   ],
+   "change_reason": "New. The legacy names the Ambrosian rite; this states the tie and its thinness.",
+   "fre": 66.4,
+   "fk": 6.9
+  },
+  {
+   "id": "the-tridentine-church--lutheran-wittenberg-and-its-congregations",
+   "action": "new",
+   "from": "the-tridentine-church",
+   "to": "lutheran-wittenberg-and-its-congregations",
+   "type": "argued against",
+   "confidence": "Documented",
+   "note": "In June 1520 Pope Leo X condemned a list of Martin Luther's teachings as errors, in the bull Exsurge Domine. Later the Council of Trent ruled on how sinners are made right with God. Its English translator says one key chapter aims mainly at Luther's errors.",
+   "outcome": "In 1520 a bull of Pope Leo X, Exsurge Domine, condemned the teachings of Martin Luther as errors.",
+   "outcome_locus": "Denzinger, Enchiridion (1911), lines 17513-17515: heading 'Errores Martini Luther' and '[Damnati in Bulla «Exsurge Domine», 15. Iunii 1520.]'.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Leo X, bull Exsurge Domine (15 June 1520), errors of Martin Luther, in Denzinger-Bannwart, Enchiridion symbolorum (1911)",
+     "file": "cic/texts/denzinger_enchiridion-symbolorum-lat_bannwart1911.txt",
+     "lines": "17513-17515",
+     "locus": "Denz. 741 heading",
+     "quote": "Errores Martini Luther^ [Damnati in Bulla «E.xsurge Domine», 15. lunii 1520.]",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Leo X, bull Exsurge Domine (15 June 1520), in Denzinger-Bannwart, Enchiridion symbolorum (1911)",
+     "file": "cic/texts/denzinger_enchiridion-symbolorum-lat_bannwart1911.txt",
+     "lines": "17606-17607",
+     "locus": "Denz. 757 (art. 17)",
+     "quote": "Thesauri Ecclesiae, unde Papa dat indulgentias, 939 non sunt merita Christi et Sanctorum.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "J. Waterworth, historical essay prefixed to The Canons and Decrees of the Sacred and Oecumenical Council of Trent (London, 1848)",
+     "file": "cic/texts/council-of-trent_canons-and-decrees_waterworth1848.txt",
+     "lines": "4970-4973",
+     "quote": "The seventh chapter is directed mainly against the errors of Luther, especially on the formal cause of justifi cation ;",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in": "the-tridentine-church relationsSummary and longDescription ('The Catholic Church's answer to the Reformation')",
+   "drafter_flags": [
+    "also named in lutheran-wittenberg-and-its-congregations relationsSummary ('becoming a rival to Rome'); the merge should de-duplicate.",
+    "The OCR prints 'E.xsurge' and 'lunii' (for Iunii) and a stray '^'; kept exactly. The Denzinger heading line also carries a margin number in quote 2 ('939'), kept as printed.",
+    "Exsurge Domine (1520) falls inside this movement's dates (1517-1650). Trent's canons themselves do not name Luther; the tie to Trent rests on Waterworth's reading, which is why the note credits it to him.",
+    "The reverse link (Wittenberg argued against Rome) belongs to the Wittenberg drafter."
+   ],
+   "change_reason": "New. 'The Catholic Church's answer to the Reformation' rests on the papal condemnation of Luther and Trent's decree.",
+   "fre": 71.3,
+   "fk": 7.0
+  },
+  {
+   "id": "the-tridentine-church--carmelite-reform-and-spanish-mystics",
+   "action": "new",
+   "from": "the-tridentine-church",
+   "to": "carmelite-reform-and-spanish-mystics",
+   "type": "influenced",
+   "confidence": "Documented",
+   "note": "Teresa of Ávila wrote that before each new house she first sought the local bishop's consent, 'according to the decree of the council'. She also tells how Trent's decree on hermits made the hermit Mariano want to appeal to Rome. After she showed him her rule, he joined her reform.",
+   "outcome": "Under a decree of the Council of Trent, Teresa sought the local bishop's consent before she founded each new house.",
+   "outcome_locus": "Foundations, lines 13766-13768 (the quoted passage itself).",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Teresa of Avila, The Book of the Foundations, trans. David Lewis, ed. Benedict Zimmerman (1913)",
+     "file": "cic/texts/teresa-of-avila_book-of-foundations_lewis1913.txt",
+     "lines": "13766-13768",
+     "locus": "Foundations ch. 24 (the Seville foundation)",
+     "quote": "for in founding the other monasteries the first thing I sought was the sanction of the ordinary, according to the decree of the council.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Teresa of Avila, The Book of the Foundations, trans. David Lewis, ed. Benedict Zimmerman (1913)",
+     "file": "cic/texts/teresa-of-avila_book-of-foundations_lewis1913.txt",
+     "lines": "10025-10032",
+     "locus": "Foundations 17.8",
+     "quote": "When the holy Council of Trent had been held, and when the decree came forth by which all hermits were to be brought under the discipline of the regular orders, Mariano wished to go to Rome,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Teresa of Avila, The Book of the Foundations, trans. David Lewis, ed. Benedict Zimmerman (1913), editor's note quoting Mariano's letter of 7 May 1571",
+     "file": "cic/texts/teresa-of-avila_book-of-foundations_lewis1913.txt",
+     "lines": "10053-10054",
+     "locus": "note to Foundations 17",
+     "quote": "Your servant in the Lord Doctor Mariano Azaro, Italian, Discalced Carmelite friar,’",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Benedict Zimmerman, introduction to Teresa of Avila, The Book of the Foundations, trans. Lewis (1913)",
+     "file": "cic/texts/teresa-of-avila_book-of-foundations_lewis1913.txt",
+     "lines": "1209-1213",
+     "quote": "until the Council of Trent radically changed these matters. They had been so ingrained in the minds and customs of the times that the introduction of the Reform decreed by the Council taxed the ingenuity of the General to the utmost.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in": "carmelite-reform-and-spanish-mystics relationsSummary ('lives inside the wider Tridentine Catholic reform')",
+   "drafter_flags": [
+    "Outcome test is borderline: the act is the Council's decree (a rule set by an authority) and Teresa's text shows it carried out. Reviewer may judge it 'a practice taken up' and drop the outcome; the link stands either way.",
+    "Lines 13760-13772 fall under the running head 'CH. XXIV.' (line 13759), the Seville foundation, where the archbishop had not been told beforehand.",
+    "The Inquisition named in the longDescription is the Spanish Inquisition, not the Roman Inquisition this entry covers; it is handled as no-entry, not drawn as a link."
+   ],
+   "change_reason": "New. Carries 'lives inside the wider Tridentine Catholic reform' on Teresa's own words.",
+   "fre": 69.8,
+   "fk": 7.7
+  },
+  {
+   "id": "the-tridentine-church--the-post-vatican-ii-parish-world",
+   "action": "new",
+   "from": "the-tridentine-church",
+   "to": "the-post-vatican-ii-parish-world",
+   "type": "influenced",
+   "confidence": "Inferential-Thin",
+   "note": "In 1570 Pope Pius V issued the Roman Missal, reformed under a decree of the Council of Trent. It stayed the standard Mass book until the Second Vatican Council's liturgy decree of 1963 ordered the rite revised. That later decree is cited here by name only, so this tie is thin.",
+   "outcome_considered": "Quo primum is the Tridentine side's own act; no listed source shows the Vatican II revision, so no lasting outcome can be drawn from them.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Pius V, bull Quo primum tempore (14 July 1570), in Cherubini, Magnum bullarium Romanum, vol. 2",
+     "file": "cic/texts/bullarium-romanum_magnum-bullarium-tomus2-pius-iv-to-innocent-ix-lat_cherubini.txt",
+     "lines": "87956-87958",
+     "locus": "heading of the bull",
+     "quote": "Miffalis Romani, ad rité Miffas celebrandas ex Con- cilii Tridentini decreto reformati , approbatio, & aliorum abolitio.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Pius V, bull Quo primum tempore (14 July 1570), in Cherubini, Magnum bullarium Romanum, vol. 2",
+     "file": "cic/texts/bullarium-romanum_magnum-bullarium-tomus2-pius-iv-to-innocent-ix-lat_cherubini.txt",
+     "lines": "88306-88307",
+     "locus": "dating",
+     "quote": "ANNO 1570.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "John W. O'Malley, What Happened at Vatican II (Harvard, 2008)",
+     "file": null,
+     "lines": null,
+     "quote": null
+    }
+   ],
+   "citation_specificity": "C",
+   "verification_state": "named-not-rechecked",
+   "named_in": "the-tridentine-church legacy ('That framework governed Catholic life until the Second Vatican Council of 1962-65 revised it')",
+   "drafter_flags": [
+    "No Vatican II document is vendored. Sacrosanctum Concilium and O'Malley are named in Build/Ministry/Features/Atlas-World-Map/Design/StepZero-Eras/CiC_Step0_Era10_Sources_E.json (lines 638, 653), marked not verified; neither can raise the grade. Wanted below.",
+    "Lines 88306-88307 are the year in the bull's margin dating; the day (14 July) is not in the quoted lines and is left out of the note.",
+    "Specificity C: the Vatican II side is cited by work only.",
+    "Spans eras 7 to 10; era 8 and 9 Catholic entries sit between. 'influenced' claims inheritance of the Tridentine Missal and parish shape, not continuity of one entry."
+   ],
+   "change_reason": "New. The legacy names Vatican II's revision; this is the honest grade without the council's texts.",
+   "fre": 67.7,
+   "fk": 7.9
+  },
+  {
+   "id": "hieronymian-ascetic-literary--the-tridentine-church",
+   "action": "keep",
+   "named_in": "Not named in the-tridentine-church's own text (its longDescription says only 'restating Catholic teaching on Scripture and tradition'); named in hieronymian-ascetic-literary's text, era 2.",
+   "outcome_considered": "Trent's Vulgate decree is an act of authority, but it makes Jerome's version the set text for reading and preaching: under the stricter test a text taken up (translation, set reading) does not count.",
+   "change_reason": "Keep. Quote checked at lines 12477-12480 of the Waterworth file; Widely Accepted fits, since the decree does not name Jerome and Waterworth's essay supplies the identification."
+  },
+  {
+   "id": "the-tridentine-church--the-humiliati",
+   "action": "keep",
+   "named_in": "Not named in the-tridentine-church's text; named in the-humiliati's text, era 5.",
+   "outcome": "In 1571 Pope Pius V shut down the order of Humiliati brothers by a bull.",
+   "outcome_locus": "Bullarium Romanum 2, Pius V const. 119, lines 92832-92835 ('extinguimus & abolemus Ordinem ... Fratrum Humiliatorum').",
+   "change_reason": "Keep. Quotes checked at 92832-92835 and 92588-92591; the bull's suppression of the order is a law excluding a group, so the outcome is added."
+  },
+  {
+   "id": "the-carmelites--carmelite-reform-and-spanish-mystics",
+   "action": "keep",
+   "named_in": "carmelite-reform-and-spanish-mystics relationsSummary ('connects to the medieval Carmelite order'); the-carmelites legacy, era 5.",
+   "outcome_considered": "Teresa's houses took up the 1247 rule; a rule taken up by the other side does not count under the stricter test.",
+   "change_reason": "Keep. Quote checked at Life lines 19258-19262. 'influenced', not 'gave rise to', stands for the era-5 drafter's reason: the reform came from the sixteenth-century order, not the 1206-1300 communities that entry covers."
+  }
+ ],
+ "prose_changes": [
+  {
+   "n": 0,
+   "movement": "the-society-of-jesus",
+   "field": "relationsSummary",
+   "old": "Spearhead of Catholic reform; parent of the mission-born traditions",
+   "new": "A driving force of Catholic reform. Its theologians spoke at the Council of Trent, and its missions began the churches of Japan and China.",
+   "reason": "'Parent of the mission-born traditions' overclaims: the Kongo church began with the Portuguese mission of 1491, before the Society existed, and the first missions in New Spain were not Jesuit. The Jesuit origin is documented for Japan (Xavier, 1549) and China (Trigault, 1583), so the sentence names those two. 'Spearhead' becomes 'a driving force', carried by the Widely Accepted link to the Tridentine Church; the jes world rates the founding as a response to the Reformation Contested, so the text claims reform, not reaction.",
+   "fre_after": 67.8,
+   "fk_after": 6.8
+  },
+  {
+   "n": 1,
+   "movement": "the-society-of-jesus",
+   "field": "legacy",
+   "old": "The Society still exists and is the largest religious order of men in the Catholic Church; in 2013 one of its members became the first Jesuit pope. Its lasting institutional bequest is education — a worldwide network of schools and universities. And its lasting spiritual one is the Spiritual Exercises, still made as eight-day and thirty-day retreats by Catholics and, increasingly, by Protestants. Its missionaries' letters home also gave Europe some of its first sustained descriptions of Japan, China and the Americas.",
+   "new": "The Society still exists. It is the largest order of men in the Catholic Church, and in 2013 one of its members became the first Jesuit pope. Its great gift to the world of learning is a worldwide network of schools and universities. Its great spiritual gift is the Spiritual Exercises, still made today as retreats of eight or thirty days. Its missionaries' letters home also gave Europe some of its first long accounts of Japan, China and the Americas.",
+   "reason": "No vendored or repo-cited source shows Protestants making the Exercises, or a growing number of them; 'and, increasingly, by Protestants' is removed, and 'by Catholics' with it. The old paragraph scored below the reading target, so the rest is split into shorter sentences with the same facts.",
+   "fre_after": 64.4,
+   "fk_after": 8.2
+  },
+  {
+   "n": 2,
+   "movement": "tridentine-parish-renewal-borromean-milan",
+   "field": "legacy",
+   "old": "Borromeo's Milan became the template. His Acta Ecclesiae Mediolanensis, published in 1582, circulated as a working handbook for bishops across the Catholic world, and the parish shape it describes — a trained resident priest, regular catechism, the confessional, the visitation — lasted into the twentieth century. Charles Borromeo remains one of Catholicism's most widely invoked patrons of bishops and seminarians, and his diocese still keeps the Ambrosian rite that long predates him.",
+   "new": "Borromeo's Milan became a model. His book of rules for Milan, the Acta Ecclesiae Mediolanensis, first came out in 1582. It gathered the decrees of his councils, and bishops in many lands used it as a working handbook. The parish it describes lasted into the twentieth century. It had a trained priest who lived among his people, regular lessons in the faith, the confessional and the bishop's visit. Catholics still call on Charles Borromeo as patron of bishops and of men training to be priests. His diocese still keeps the Ambrosian rite, which is far older than he is.",
+   "reason": "'Became the template' and 'circulated ... for bishops across the Catholic world' are wider than the evidence. Peña (1610) says bishops in many provinces and kingdoms followed his example and his councils' decrees; the text now says 'a model' and 'bishops in many lands', carried by the Widely Accepted link to the Tridentine Church. The Ambrosian clause is kept and carried by the Inferential-Thin link from Ambrosian Milan. The old paragraph scored far below the reading target, so it is split into shorter sentences with the same facts.",
+   "fre_after": 61.4,
+   "fk_after": 8.2
+  },
+  {
+   "n": 3,
+   "movement": "carmelite-reform-and-spanish-mystics",
+   "field": "longDescription",
+   "old": "Teresa of Ávila had spent more than twenty years as a Carmelite nun in a large, comfortable, sociable convent when she concluded that the life she had promised was not the life she was living. In 1562 she founded a small house, St Joseph's in Ávila, under a stricter rule — poverty, enclosure, few sisters, long hours of silent prayer. And spent the rest of her life traveling Spain founding others, arguing with officials, and writing books about prayer she had never intended to publish. In 1568 a young friar, John of the Cross, joined the reform on the men's side and became its greatest poet. Both were watched by the Inquisition and opposed from inside their own order, and John spent nine months imprisoned by his own brethren. Which is when he wrote some of his finest verse.",
+   "new": "Teresa of Ávila had spent more than twenty years as a Carmelite nun in a large, comfortable, sociable convent when she concluded that the life she had promised was not the life she was living. In 1562 she founded a small house, St Joseph's in Ávila, under a stricter rule — poverty, enclosure, few sisters, long hours of silent prayer. And spent the rest of her life traveling Spain founding others, arguing with officials, and writing books about prayer she had never intended to publish. In 1568 a young friar, John of the Cross, joined the reform on the men's side and became its greatest poet. The Inquisition examined Teresa's account of her life, and both were opposed from inside their own order. John spent nine months imprisoned by his own brethren. Which is when he wrote some of his finest verse.",
+   "reason": "The Inquisition's examination of Teresa's Life is shown (Zimmerman's introduction to the 1904 Life, lines 2154-2161: the Princess of Eboli denounced it in 1574 and the Inquisition named censors). No vendored text shows the Inquisition watching John in his lifetime, so the claim is narrowed to Teresa. 'Nine months' is kept: the 1873 Life says 'more than eight months' (line 4586), December 1577 to August 1578, and nine is the usual round figure. One sentence changed.",
+   "fre_after": 63.1,
+   "fk_after": 9.4
+  },
+  {
+   "n": 4,
+   "movement": "carmelite-reform-and-spanish-mystics",
+   "field": "legacy",
+   "old": "The Discalced Carmelites are still a worldwide order of friars and nuns. Teresa's and John's writings became permanent classics of Christian spiritual literature far beyond Catholicism, read by Protestants, by poets and by psychologists, and both were later declared Doctors of the Church — Teresa in 1970, the first woman ever so named. Their vocabulary passed into ordinary English: the 'dark night of the soul', the 'interior castle'.",
+   "new": "The Discalced Carmelites are still a worldwide order of friars and nuns. Teresa's and John's writings became lasting classics of Christian prayer, translated and read far beyond Spain. Both were later named Doctors of the Church. Teresa, named in 1970, was the first woman to hold that title. Their words passed into ordinary English: the 'dark night of the soul', the 'interior castle'.",
+   "reason": "No vendored or repo-cited source shows their reading by Protestants, poets or psychologists, or 'far beyond Catholicism'. The vendored English translations (Lewis 1891-1913, Stanbrook 1912-19) show them translated and read far beyond Spain, which is what the text now says. The old paragraph scored below the reading target, so the long sentence is split.",
+   "fre_after": 64.6,
+   "fk_after": 7.3
+  }
+ ],
+ "wants": [
+  "Second Vatican Council, Sacrosanctum Concilium (4 December 1963), and Paul VI, apostolic constitution Missale Romanum (3 April 1969): to document the Tridentine Missal's revision (named in the era-10 sources file, not vendored).",
+  "A public-domain study of the Ambrosian rite's origins (e.g. L. Duchesne, Christian Worship: Its Origin and Evolution, English 1903) to test which parts of the rite go back to Ambrose's Milan.",
+  "Evidence of the Acta Ecclesiae Mediolanensis in use outside Milan: later diocesan synods or bishops' letters citing it (for example Francis de Sales's Geneva synods), to raise the Milan-to-Tridentine link above Widely Accepted.",
+  "A cleaner text of the China mission's beginnings: Ricci's own Italian commentaries (Tacchi Venturi, Opere storiche del P. Matteo Ricci, 1911-13) or a better scan of Trigault 1615.",
+  "A cleaner OCR of the Acta Ecclesiae Mediolanensis (another scan of the 1582 or 1599 printing) for the first provincial council's seminary decree.",
+  "A source on the reception of the Spiritual Exercises among Protestants and of Teresa and John among Protestant, literary and psychological readers (e.g. William James, The Varieties of Religious Experience, 1902), if the removed claims are to return.",
+  "A source, if one exists, on the Inquisition and John of the Cross in his lifetime."
+ ],
+ "escalations": []
+}

@@ -16,16 +16,17 @@ confidence:
   divergence_note: null
 sources:
 - source_id: hal.source.jerome-ep108
-  locus: sec. 10
+  locus: "sec. 10 (cic/texts/npnf206_jerome-principal-works.xml, lines 21139-21143)"
   license: public-domain
 text: 'she protested in my hearing that she could behold with the eyes of faith the
   infant Lord wrapped in swaddling clothes and crying in the manger, the wise men
   worshipping Him, the star shining overhead, the virgin mother, the attentive
   foster-father, the shepherds coming by night'
 modern_rendering: >-
-  In my hearing she declared that, with the eyes of faith, she could see the infant Lord
-  wrapped in cloths and crying in the manger. She could see the wise men worshipping him
-  and the star shining overhead. She could see the virgin mother, the watchful
+  In my hearing she declared that she could see, with the eyes of faith, the infant Lord
+  wrapped in cloths and crying in the manger. She declared that she could also see, with
+  the eyes of faith, the wise men worshipping him and the star shining overhead. With
+  those same eyes, she declared, she could see the virgin mother, the watchful
   foster-father, and the shepherds coming by night.
 speaker_or_author: hal.figure.jerome
 license: verbatim

@@ -1,0 +1,178 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "lpc.core.latin-pastoral-congregational-christianity",
+    "lpc.witness.punishment-without-end"
+   ],
+   "sentence": "We cannot say what Origen taught, but Augustine taught that the punishment of the lost has no end."
+  },
+  {
+   "record_ids": [
+    "lpc.witness.punishment-without-end"
+   ],
+   "sentence": "Augustine wrote that after the final judgment there are two kingdoms, and that the lost suffer in degrees."
+  },
+  {
+   "record_ids": [
+    "lpc.quote.the-life-and-the-death-shall-both-be-without-end"
+   ],
+   "sentence": "Augustine wrote: “After the resurrection, when the final judgment of all has been completed, there will be two kingdoms. Each will have its own clear boundaries. One is Christ’s, the other the devil’s. One is made up of the good, the other of the bad. Both are made up of angels and human beings. The first will have no will to sin, and the second no power to sin. Neither will have any power to choose death. The first will live truly and happily in eternal life. The second will drag out a wretched existence in eternal death, without the power of dying. For both the life and the death will be without end. Among the first there will be degrees of happiness, one happier than another. Among the second there will be degrees of misery, one more bearable than another.”"
+  },
+  {
+   "record_ids": [
+    "lpc.witness.punishment-without-end"
+   ],
+   "sentence": "Many around Augustine found this hard to bear, and he called their moan in vain."
+  },
+  {
+   "record_ids": [
+    "lpc.witness.punishment-without-end"
+   ],
+   "sentence": "Augustine would not let them say the punishment ends."
+  },
+  {
+   "record_ids": [
+    "lpc.witness.no-salvation-outside-the-church"
+   ],
+   "sentence": "Cyprian also pressed that same man to turn while he lived, and told him no repentance is too late in this world."
+  },
+  {
+   "record_ids": [
+    "lpc.core.latin-pastoral-congregational-christianity"
+   ],
+   "sentence": "Whether anyone condemned Origen for his teaching, our records do not say."
+  }
+ ],
+ "citations": [
+  "lpc.core.latin-pastoral-congregational-christianity",
+  "lpc.quote.the-life-and-the-death-shall-both-be-without-end",
+  "lpc.witness.no-salvation-outside-the-church",
+  "lpc.witness.punishment-without-end"
+ ],
+ "group": "B",
+ "id": "q029",
+ "net_sentences": [
+  {
+   "draft": "We cannot say what Origen taught, but Augustine taught that the punishment of the lost has no end [[lpc.core.latin-pastoral-congregational-christianity]] [[lpc.witness.punishment-without-end]] [[as:paraphrase]].",
+   "ratio": 0.75,
+   "sentence": "We cannot say what Origen taught, but Augustine taught that the punishment of the lost has no end.",
+   "tags": [
+    "lpc.core.latin-pastoral-congregational-christianity",
+    "lpc.witness.punishment-without-end"
+   ],
+   "verdict": "ok",
+   "why": "grounded 75% in own tagged records"
+  },
+  {
+   "draft": "Augustine wrote that after the final judgment there are two kingdoms, and that the lost suffer in degrees [[lpc.witness.punishment-without-end]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "Augustine wrote that after the final judgment there are two kingdoms, and that the lost suffer in degrees.",
+   "tags": [
+    "lpc.witness.punishment-without-end"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "Augustine wrote: [[quote:lpc.quote.the-life-and-the-death-shall-both-be-without-end]]",
+   "placed_quote": "lpc.quote.the-life-and-the-death-shall-both-be-without-end",
+   "sentence": "Augustine wrote: “After the resurrection, when the final judgment of all has been completed, there will be two kingdoms. Each will have its own clear boundaries. One is Christ’s, the other the devil’s. One is made up of the good, the other of the bad. Both are made up of angels and human beings. The first will have no will to sin, and the second no power to sin. Neither will have any power to choose death. The first will live truly and happily in eternal life. The second will drag out a wretched existence in eternal death, without the power of dying. For both the life and the death will be without end. Among the first there will be degrees of happiness, one happier than another. Among the second there will be degrees of misery, one more bearable than another.”",
+   "tags": [
+    "lpc.quote.the-life-and-the-death-shall-both-be-without-end"
+   ],
+   "verdict": "ok",
+   "why": "quote placed by code, verbatim to its record"
+  },
+  {
+   "draft": "Many around Augustine found this hard to bear, and he called their moan in vain [[lpc.witness.punishment-without-end]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "Many around Augustine found this hard to bear, and he called their moan in vain.",
+   "tags": [
+    "lpc.witness.punishment-without-end"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "Augustine would not let them say the punishment ends [[lpc.witness.punishment-without-end]] [[as:paraphrase]].",
+   "sentence": "Augustine would not let them say the punishment ends.",
+   "tags": [
+    "lpc.witness.punishment-without-end"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Cyprian also pressed that same man to turn while he lived, and told him no repentance is too late in this world [[lpc.witness.no-salvation-outside-the-church]] [[as:paraphrase]].",
+   "sentence": "Cyprian also pressed that same man to turn while he lived, and told him no repentance is too late in this world.",
+   "tags": [
+    "lpc.witness.no-salvation-outside-the-church"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Whether anyone condemned Origen for his teaching, our records do not say [[lpc.core.latin-pastoral-congregational-christianity]] [[as:paraphrase]].",
+   "ratio": 0.71,
+   "sentence": "Whether anyone condemned Origen for his teaching, our records do not say.",
+   "tags": [
+    "lpc.core.latin-pastoral-congregational-christianity"
+   ],
+   "verdict": "ok",
+   "why": "grounded 71% in own tagged records"
+  }
+ ],
+ "offered": [
+  "lpc.witness.punishment-without-end",
+  "lpc.term.reconciliation-penitential-discipline",
+  "lpc.term.catechesis",
+  "lpc.term.libellatici-sacrificati",
+  "lpc.story.hundred-thousand-sesterces",
+  "lpc.story.election-of-cyprian",
+  "lpc.quote.an-ever-burning-gehenna",
+  "lpc.quote.the-life-and-the-death-shall-both-be-without-end",
+  "lpc.witness.infants-and-the-sin-of-another",
+  "lpc.quote.the-mildest-condemnation-of-all",
+  "lpc.quote.the-mildest-punishment-of-all",
+  "lpc.witness.no-salvation-outside-the-church",
+  "lpc.quote.no-salvation-out-of-the-church",
+  "lpc.quote.left-doubtful-a-kind-of-purgatorial-fire",
+  "lpc.force.recurring-contest-failed-member"
+ ],
+ "raw_text": "We cannot say what Origen taught, but Augustine taught that the punishment of the lost has no end [[lpc.core.latin-pastoral-congregational-christianity]] [[lpc.witness.punishment-without-end]] [[as:paraphrase]]. Augustine wrote that after the final judgment there are two kingdoms, and that the lost suffer in degrees [[lpc.witness.punishment-without-end]] [[as:paraphrase]]. Augustine wrote: [[quote:lpc.quote.the-life-and-the-death-shall-both-be-without-end]]\n\nMany around Augustine found this hard to bear, and he called their moan in vain [[lpc.witness.punishment-without-end]] [[as:paraphrase]]. Augustine let them suppose, if the thought pleased them, that the pains of the damned are at times eased [[lpc.witness.punishment-without-end]] [[as:paraphrase]]. Augustine would not let them say the punishment ends [[lpc.witness.punishment-without-end]] [[as:paraphrase]].\n\nCyprian told Demetrianus, a pagan who persecuted us, that the condemned face a fire with no respite or end [[lpc.witness.no-salvation-outside-the-church]] [[as:paraphrase]]. Cyprian also pressed that same man to turn while he lived, and told him no repentance is too late in this world [[lpc.witness.no-salvation-outside-the-church]] [[as:paraphrase]]. Whether anyone condemned Origen for his teaching, our records do not say [[lpc.core.latin-pastoral-congregational-christianity]] [[as:paraphrase]].\n",
+ "reply_shape": {
+  "leadin_support": {
+   "lpc.quote.the-life-and-the-death-shall-both-be-without-end": [
+    {
+     "detail": "wrote",
+     "kind": "genre",
+     "snippet": "rential-Thin npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml : New York, March, 1887. Documented Professor J. F. S",
+     "span": "record lpc.source.augustine-the-enchiridion"
+    }
+   ]
+  },
+  "placed": [
+   "lpc.quote.the-life-and-the-death-shall-both-be-without-end"
+  ],
+  "removed": [
+   {
+    "draft": "Augustine let them suppose, if the thought pleased them, that the pains of the damned are at times eased [[lpc.witness.punishment-without-end]] [[as:paraphrase]].",
+    "sentence": "Augustine let them suppose, if the thought pleased them, that the pains of the damned are at times eased.",
+    "why": "gives a quote record's words without placing it"
+   },
+   {
+    "draft": "Cyprian told Demetrianus, a pagan who persecuted us, that the condemned face a fire with no respite or end [[lpc.witness.no-salvation-outside-the-church]] [[as:paraphrase]].",
+    "sentence": "Cyprian told Demetrianus, a pagan who persecuted us, that the condemned face a fire with no respite or end.",
+    "why": "words attributed without a placed quote"
+   }
+  ],
+  "repaired": []
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": "C3.S3",
+ "text": "We cannot say what Origen taught, but Augustine taught that the punishment of the lost has no end. Augustine wrote that after the final judgment there are two kingdoms, and that the lost suffer in degrees. Augustine wrote: “After the resurrection, when the final judgment of all has been completed, there will be two kingdoms. Each will have its own clear boundaries. One is Christ’s, the other the devil’s. One is made up of the good, the other of the bad. Both are made up of angels and human beings. The first will have no will to sin, and the second no power to sin. Neither will have any power to choose death. The first will live truly and happily in eternal life. The second will drag out a wretched existence in eternal death, without the power of dying. For both the life and the death will be without end. Among the first there will be degrees of happiness, one happier than another. Among the second there will be degrees of misery, one more bearable than another.”\n\nMany around Augustine found this hard to bear, and he called their moan in vain. Augustine would not let them say the punishment ends.\n\nCyprian also pressed that same man to turn while he lived, and told him no repentance is too late in this world. Whether anyone condemned Origen for his teaching, our records do not say.",
+ "voice_set_aside": false
+}

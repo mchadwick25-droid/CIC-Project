@@ -1,0 +1,20 @@
+source_file: machen_christianity-and-liberalism_1923.txt
+assignments:
+- row_id: machen_christianity-and-liberalism_1923--machen-christianity-and-liberalism
+  work: 'Machen, Christianity and Liberalism'
+  author: machen
+  locus: 'whole'
+  atlas_ids:
+  - fundamentalism-1910-1970s
+  role: tradition
+  confidence: assigned
+  note: 'His own book.'
+- row_id: machen_christianity-and-liberalism_1923--machen-christianity-and-liberalism-for-the-mainline-shelf
+  work: 'Machen, Christianity and Liberalism, for the Mainline shelf'
+  author: machen
+  locus: 'whole'
+  atlas_ids:
+  - the-mainline-century-liberal-and-neo-orthodox
+  role: context
+  confidence: assigned
+  note: 'The opposing side''s voice on this shelf.'

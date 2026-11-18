@@ -1,0 +1,28 @@
+=== Tree narration  ===
+619 movements total
+8 skipped - no longDescription to narrate
+12 skipped - built world with its own orientation.story, recorded in its Representative's voice
+349 skipped - not a person row (person run)
+0 already narrated and current (use --force to regenerate)
+0 stale - recorded from text that has since changed, re-voiced this run
+9 to generate this run, 21557 characters total
+=== PAID RUN, settings as actually used ===
+approved run     : Batch 3: record the twelve (Mark, 2026-11-18, 'I approve', cap 15,500 credits)   char cap: 22200
+person voice id  : onegjDE2z0mQtp1g0HK7   (kind "person", every item)
+output format    : mp3_44100_64
+model            : eleven_v4
+settings         : {"stability":0.95,"similarity_boost":0.68,"style":0,"use_speaker_boost":true}
+audio tags       : open (none), before the last sentence (none), between paragraphs [pause], 7 respellings
+items            : 9   characters: 21557 text, 22100 sent
+===========================================
+  ok: thomas-a-kempis voice=onegjDE2z0mQtp1g0HK7 model=eleven_v4 format=mp3_44100_64 settings={"stability":0.95,"similarity_boost":0.68,"style":0,"use_speaker_boost":true} chars=2214 sent=2277 cost=1104 request-id=BrC89iCChNC7g1gEcKmo
+  ok: john-wyclif voice=onegjDE2z0mQtp1g0HK7 model=eleven_v4 format=mp3_44100_64 settings={"stability":0.95,"similarity_boost":0.68,"style":0,"use_speaker_boost":true} chars=2498 sent=2561 cost=1242 request-id=rZ3JLv3UVuzk9AAkwplr
+  ok: justin-martyr voice=onegjDE2z0mQtp1g0HK7 model=eleven_v4 format=mp3_44100_64 settings={"stability":0.95,"similarity_boost":0.68,"style":0,"use_speaker_boost":true} chars=2577 sent=2640 cost=1280 request-id=CgTJaJcdOfFjFGaMgBHi
+  ok: pachomius voice=onegjDE2z0mQtp1g0HK7 model=eleven_v4 format=mp3_44100_64 settings={"stability":0.95,"similarity_boost":0.68,"style":0,"use_speaker_boost":true} chars=2683 sent=2764 cost=1340 request-id=BnjtipIJM219FJmcXBAD
+  ok: arius voice=onegjDE2z0mQtp1g0HK7 model=eleven_v4 format=mp3_44100_64 settings={"stability":0.95,"similarity_boost":0.68,"style":0,"use_speaker_boost":true} chars=2605 sent=2680 cost=1299 request-id=k2ljieqPHsYlM7VWO8y0
+  ok: moses-the-black voice=onegjDE2z0mQtp1g0HK7 model=eleven_v4 format=mp3_44100_64 settings={"stability":0.95,"similarity_boost":0.68,"style":0,"use_speaker_boost":true} chars=1910 sent=1955 cost=948 request-id=mB6hOPSRrTfz1bB7cKiX
+  ok: vardan-mamikonian voice=onegjDE2z0mQtp1g0HK7 model=eleven_v4 format=mp3_44100_64 settings={"stability":0.95,"similarity_boost":0.68,"style":0,"use_speaker_boost":true} chars=2803 sent=2857 cost=1385 request-id=6R7UX493wXeKLwJS8xnF
+  ok: narsai voice=onegjDE2z0mQtp1g0HK7 model=eleven_v4 format=mp3_44100_64 settings={"stability":0.95,"similarity_boost":0.68,"style":0,"use_speaker_boost":true} chars=2345 sent=2399 cost=1163 request-id=UyGjjfHGTxPMa1uVwBq3
+  ok: baudonivia voice=onegjDE2z0mQtp1g0HK7 model=eleven_v4 format=mp3_44100_64 settings={"stability":0.95,"similarity_boost":0.68,"style":0,"use_speaker_boost":true} chars=1922 sent=1967 cost=954 request-id=IUQyG6w3zaOC3f2iad1M
+
+9/9 generated. credits charged (character-cost headers): 10715

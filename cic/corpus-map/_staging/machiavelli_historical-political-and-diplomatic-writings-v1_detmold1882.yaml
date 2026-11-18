@@ -1,0 +1,12 @@
+source_file: machiavelli_historical-political-and-diplomatic-writings-v1_detmold1882.txt
+assignments:
+- row_id: machiavelli_historical-political-and-diplomatic-writings-v1_detmold1882--machiavelli-writings-in-english-volume-1-detmold
+  work: 'Machiavelli, writings in English, volume 1 (Detmold)'
+  author: machiavelli
+  locus: 'the whole volume; not mapped'
+  atlas_ids:
+  - latin-papal-church-avignon-to-lateran-v
+  - the-tridentine-church
+  role: context
+  confidence: assigned
+  note: "His own writings in a translator's English; an outside witness. No census entry is Italy's politics, so the work sits on these entries."

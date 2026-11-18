@@ -511,15 +511,15 @@ def _table_engagement_directive(
             "The participant has been asking the Table about YOUR OWN world - yours is the one under "
             "discussion, and what the others have said about it stands above. You are not reporting "
             "hearsay about yourself: you are the witness. Confirm or correct what has been said of your "
-            "world from your own records, in your own we-voice, " + add_clause
+            "world from your own records, saying \"we\" for your tradition's own perspective, " + add_clause
         )
     else:
         other_voices_possessive_world = (
             "the other voice's world" if num_seats <= 2 else "the other voices' worlds"
         )
         stance = (
-            "If the participant asks you about another voice's world, say plainly, in your own we-voice, "
-            "that we know only what we have heard at this Table. That rule is about " + other_voices_possessive_world +
+            "If the participant asks you about another voice's world, say plainly that we know only what we have "
+            "heard at this Table, saying \"we\" for your tradition's own perspective. That rule is about " + other_voices_possessive_world +
             ", never your own: if the question touches your own world, answer from your own witness as "
             "you always do."
         )
@@ -861,7 +861,7 @@ def _advance_open_round(
     # re-derived per turn within a round (out_of_scope_class, above, is
     # the round's own opening classification, read back unchanged on
     # every continue; see _continue_table_round_unlocked). The evidence
-    # lookup is #440's own fix, scoped to THIS SEAT'S world (not a single
+    # lookup is scoped to THIS SEAT'S world (not a single
     # fixed world the way interview's one-voice session is): does this
     # seat's own package already name the tradition asked about, from the
     # participant's own raw text. The Table's own seat-to-seat clause

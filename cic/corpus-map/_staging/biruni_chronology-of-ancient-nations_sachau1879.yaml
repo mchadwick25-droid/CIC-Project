@@ -1,0 +1,11 @@
+source_file: biruni_chronology-of-ancient-nations_sachau1879.txt
+assignments:
+- row_id: biruni_chronology-of-ancient-nations_sachau1879--al-biruni-chronology-on-mani-sachau-1879
+  work: 'al-Biruni, Chronology of Ancient Nations, the passages on Mani (Sachau 1879)'
+  author: biruni
+  locus: 'the Shabuhragan quotations at about OCR lines 12356-12420; the account of Mani from 29036; add 11 to OCR line numbers'
+  atlas_ids:
+  - manichaeism
+  role: context
+  confidence: provisional
+  note: 'A Muslim scholar writing about 1000 quotes Mani''s own book, the Shabuhragan, for Mani''s birth date and his claim to be a prophet. An outside witness, later than this window.'

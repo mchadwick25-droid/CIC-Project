@@ -11,6 +11,11 @@ assignments:
       - the-reformed-cities-zurich-and-geneva
     role: tradition
     confidence: assigned
+    locus_ids: [whole-file]
+    language: eng
+    date: {checked: 'title page (lines 1-80) and a grep for 1559/1536 and dedication; only a translator''s footnote mentions the 1559 Geneva edition, no composition date for Book IV', formation_confidence: unknown}
+    translator: {formation_confidence: Documented, name: Henry Beveridge, source: 'calvin_institutes-christian-religion-vol3_beveridge1845.txt line 66: BY HENRY BEVERIDGE, ESQ.'}
+    edition_date: {formation_confidence: Documented, source: 'calvin_institutes-christian-religion-vol3_beveridge1845.txt line 75: M.DCCC.XLVI.', year: 1846}
     note: >
       Book IV: the church, sacraments, and civil government - completes
       the Beveridge 1845 three-volume Institutes.

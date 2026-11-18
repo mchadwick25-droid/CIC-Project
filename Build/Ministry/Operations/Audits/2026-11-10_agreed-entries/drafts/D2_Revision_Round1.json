@@ -1,0 +1,44 @@
+[
+ {
+  "finding_id": "M10",
+  "action": "fixed",
+  "what": "New link imperial-juridical-christianity--luciferians--3, 'broke with', Documented: Socrates 3.9 (npnf202 10919-10925, 10932-10934) and Augustine, De agone 30.32 (1591-1593) for the majority side; the Libellus precum (Avellana 6802-6806) for the Luciferian side. Note scored FRE 73.",
+  "reason": "The rupture is recorded from both sides; imperial-juridical-christianity is the only era 2 entry telling the Nicene majority church (Damasus, councils). Home flagged for the reviewer."
+ },
+ {
+  "finding_id": "M11",
+  "action": "held for Mark; option A prepared",
+  "what": "Draft.json keeps the era 7 entry as drafted (option b of the review's wording, ship flagged thin). Draft_optionA.json drops carthusians-london-charterhouse-and-exile and its story, drops its two links, removes continuesAs from carthusians-later-middle-ages, and adds a legacy paragraph of three sourced sentences on the London martyrs and the Bruges exiles (McCann 14313-14320; the 1535 indictment as printed by Morris 776-781). Chauncy's Historia leads wants.",
+  "reason": "The English Reformation link was dropped rather than re-homed: its acts (1535-1537) fall after the era 6 entry's 1534 end. The legacy sentence stands without a link and the link returns when the era 7 entry is built."
+ },
+ {
+  "finding_id": "M12",
+  "action": "fixed",
+  "what": "Outcome now: 'The emperors told their prefect to shield two bishops, Gregory and Heraclida, and priests like them. No one was to harm them.'",
+  "reason": "The reviewer's wording scored FRE 59.6. This form says the same thing as the rescript (tueatur et defendat; non fraus attemptet) and scores 76."
+ },
+ {
+  "finding_id": "M13",
+  "action": "accepted, flagged",
+  "what": "drafter_flags on hieronymian-ascetic-literary--luciferians notes that the Dialogue (c. 379) comes before the entry's c. 382 start.",
+  "reason": "Jerome's own work; the per-era pass sees the flag."
+ },
+ {
+  "finding_id": "M14",
+  "action": "fixed",
+  "what": "End kept at c. 440. Sourcing gains: 'A modern editor thinks the group died out early in the 400s. Socrates, writing later, says it still stood apart in his day.' Fact rows: Fremantle 31455-31456 (secondary) and Socrates 10932-10934 (primary).",
+  "reason": "Records the disagreement in public text."
+ },
+ {
+  "finding_id": "M15",
+  "action": "fixed",
+  "what": "Legacy sentence rewritten to the rebaptism question Jerome actually cites: 'The quarrel also raised an older question, which Jerome traces back to Cyprian. Should people baptized outside the church be baptized again when they come in?' Now its own paragraph.",
+  "reason": "Ties the sentence to the cited passage (npnf206 32834-32835)."
+ },
+ {
+  "finding_id": "M16",
+  "action": "fixed",
+  "what": "Fremantle-based fact rows (362 terms, the no-compromise principle, Milan, Eleutheropolis, death in 371, date 379) regraded 'Widely Accepted (secondary: Fremantle 1893)'. A new row cites the Tomus ad Antiochenos itself (npnf204 59986-59989) for the 362 terms, graded Documented, noting that 'bishops kept their sees' still rests on Fremantle.",
+  "reason": "Grade follows the source kind; the primary is now cited where it is vendored."
+ }
+]

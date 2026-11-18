@@ -21,7 +21,7 @@ confidence:
     not as a claim about any Gallic house's own practice.
 sources:
 - source_id: gallic.source.cassian-institutes
-  locus: "Institutes IV.19 (npnf211 div iv.iii.iv.xix, file lines 19172-19200): the weekly rotation of service across the East, and the handover of vessels and utensils on the Monday after the Mattin hymns"
+  locus: "Institutes IV.19 (cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml, lines 19172-19200; div iv.iii.iv.xix): the weekly rotation of service across the East, and the handover of vessels and utensils on the Monday after the Mattin hymns"
   license: public-domain
 retrieval:
   tier: 3

@@ -1,0 +1,1270 @@
+[
+ {
+  "id": "post-apostolic-house-church",
+  "atlasId": "I.1",
+  "era": 1,
+  "name": "Post-Apostolic Household-Church Christianity",
+  "dates": "70–200 CE",
+  "lane": "Origin — before the lanes divide",
+  "currentFlag": true,
+  "existingLivingEvidence": null,
+  "predecessors": [],
+  "successors": [
+   {
+    "id": "roman-church-third-century",
+    "atlasId": "I.33",
+    "living": false,
+    "confidence": "Widely Accepted"
+   }
+  ],
+  "lineTerminals": [
+   {
+    "atlasId": "I.33",
+    "id": "roman-church-third-century",
+    "era": 1,
+    "living": false,
+    "end": 268,
+    "weakestLink": "Widely Accepted"
+   }
+  ],
+  "otherLinksToLivingEntries": [],
+  "statusDescription": "You can sit down with this tradition now.",
+  "relationsSummary": "The earliest layer on the map, which most later traditions claim as their root",
+  "why": "In the decades after the apostles died, these house churches held together with no fixed hierarchy and no finished New Testament - Ignatius wrote seven letters while under armed guard on his way to execution, and Rome wrote at length to settle a quarrel in Corinth.",
+  "legacy": "Almost every Christian tradition claims a root in these early gatherings, and the basic rhythm of Christian worship shows up earliest here. Believers met on the first day of the week and read aloud from the prophets and from the apostles' memoirs. And they shared the bread and the cup, either in a full common meal or as the bread and wine alone.\n\nWith the apostles no longer there to consult, these communities had to work out how to live together: how to treat one another, how to pray, and how to forgive and restore those who fell into sin or caused division. The roles of bishop, presbyter, and deacon were already named in the apostolic writings, but trying to live out those instructions under local pressures gave the offices more concrete form.\n\nThe apostolic texts themselves gained authority in much the same way. Reading the apostles' letters aloud week after week became an enduring habit, and it was through this regular use in worship—not by an early decree—that these writings came to be heard alongside the ancient Jewish Scriptures. Carried by travelers from city to city, these letters bound scattered households together, and writings like those of Clement, Ignatius, and Polycarp were preserved and read for generations to come."
+ },
+ {
+  "id": "greek-apologists-second-century",
+  "atlasId": "I.35",
+  "era": 1,
+  "name": "The Second-Century Greek Apologists",
+  "dates": "c. 124-200",
+  "lane": "Origin — before the lanes divide",
+  "currentFlag": false,
+  "existingLivingEvidence": null,
+  "predecessors": [],
+  "successors": [],
+  "lineTerminals": [
+   {
+    "atlasId": "I.35",
+    "id": "greek-apologists-second-century",
+    "era": 1,
+    "living": false,
+    "end": 200,
+    "weakestLink": null
+   }
+  ],
+  "otherLinksToLivingEntries": [
+   "this influenced I.2 [Documented] (I.2 = Alexandrian Catechetical / Christian-Platonist Tradition, c. 150–400 CE)"
+  ],
+  "statusDescription": "Named as a live future candidate for survey, or a dropped voice, with reasoning given either way - not yet chosen, not forgotten.",
+  "relationsSummary": "It overlaps the household churches of the same years, in time and in people. Justin taught at Rome, Theophilus was bishop of Antioch and Melito bishop of Sardis. But it is a different thing. The household churches show the church's inner life. Here the church turns outward, to emperors and an educated public that despised it.",
+  "why": "For eighty years, Christian writers handed Roman emperors formal defenses of their faith, answering charges of atheism and cannibalism by arguing that Greek philosophy itself had been reaching toward Christ. Justin ran a school at Rome and was executed for his teaching around 165. A generation later, Theophilus of Antioch, writing to a pagan friend, became the first Christian author on record to call God by the word 'Trinity.'",
+  "legacy": "Justin argued that, before the incarnation, the Word was already sowing seeds of truth in the philosophers. That gave the church a way to deal with the learning it had inherited, and it has never fully put that down. Clement at Alexandria spoke the same way of philosophers receiving 'the seeds of the Truth'. He and Origen took the idea much further. The apologists also settled some of the church's words. Theophilus is the first writer whose work survives to use the word Trinity of God. And one line from the Epistle to Diognetus has outlived all the others the movement wrote. It calls Christians resident aliens, at home everywhere and strangers everywhere."
+ },
+ {
+  "id": "latin-apologists",
+  "atlasId": "I.43",
+  "era": 1,
+  "name": "The Latin Apologists",
+  "dates": "c. 197-320",
+  "lane": "Latin West & Catholicism",
+  "currentFlag": false,
+  "existingLivingEvidence": null,
+  "predecessors": [],
+  "successors": [],
+  "lineTerminals": [
+   {
+    "atlasId": "I.43",
+    "id": "latin-apologists",
+    "era": 1,
+    "living": false,
+    "end": 320,
+    "weakestLink": null
+   }
+  ],
+  "otherLinksToLivingEntries": [
+   "this influenced I.6 [Inferential-Thin] (I.6 = Imperial and Juridical Christianity, c. 312-451)"
+  ],
+  "statusDescription": "Named as a live future candidate for survey, or a dropped voice, with reasoning given either way - not yet chosen, not forgotten.",
+  "relationsSummary": "This is the Latin counterpart to the Greek apologists of the second century, a generation later and never as coherent a body. It includes Tertullian, whose Latin apologetic writing opened the tradition and gave it its vocabulary before the other authors continued it. Its clearest link to the later imperial church runs through Lactantius, who wrote his own defense during persecution and then tutored the son of the emperor who ended it.",
+  "why": "A Carthaginian convert named Tertullian had to invent Latin words for the Trinity and the sacraments just to defend his faith, coining terms like trinitas, persona, and substantia. The argument he opened ran a further century, through Minucius Felix's dialogue giving pagan objections their fullest voice, to Lactantius, who wrote his own defense in the middle of persecution and later tutored the emperor's son.",
+  "legacy": "The Latin vocabulary of Christian argument was made here. Tertullian coined most of the technical words Western Christians still use for the Trinity and the sacraments, and left lines that entered common Christian speech, most famously that the blood of Christians is seed; the Western habit of thinking about God, the church, and the sacraments in legal and forensic categories owes a great deal to a man trained as an advocate. Minucius Felix gave the West its model for the apologetic dialogue and preserved, inadvertently, the most complete record of what educated Romans actually said against the church. Arnobius is now read mostly by historians of Roman religion, who need him precisely because he described in detail the thing he was trying to demolish. And Lactantius' Latin was good enough that the Renaissance called him the Christian Cicero and printed him before it printed most of the Fathers - the Divine Institutes was among the first books off a press in Italy, in 1465."
+ },
+ {
+  "id": "apocryphal-and-pseudepigraphal-literature",
+  "atlasId": "I.36",
+  "era": 1,
+  "name": "Apocryphal and Pseudepigraphal Literature in Christian Transmission",
+  "dates": "c. 100-900",
+  "lane": "Origin — before the lanes divide",
+  "currentFlag": false,
+  "existingLivingEvidence": null,
+  "predecessors": [],
+  "successors": [],
+  "lineTerminals": [
+   {
+    "atlasId": "I.36",
+    "id": "apocryphal-and-pseudepigraphal-literature",
+    "era": 1,
+    "living": false,
+    "end": 900,
+    "weakestLink": null
+   }
+  ],
+  "otherLinksToLivingEntries": [
+   "this influenced I.2 [Documented] (I.2 = Alexandrian Catechetical / Christian-Platonist Tradition, c. 150–400 CE)"
+  ],
+  "statusDescription": "Named as a live future candidate for survey, or a dropped voice, with reasoning given either way - not yet chosen, not forgotten.",
+  "relationsSummary": "This is not a community and not a tradition. It is a body of writing that passed among all of them. Its natural link to the other early movements is that many of them read it. Origen, for one, knew the Protevangelium as the Book of James.",
+  "why": "For centuries Christians copied and read stories that never entered the Bible. One was the Protevangelium of James. It is the source of nearly everything later believers came to know about Mary's parents and childhood. Some of these works, like the Life of Adam and Eve, began as Jewish texts. They survive today only because Christian scribes kept copying them, long after Judaism itself had let them go.",
+  "legacy": "Marian devotion in both East and West rests in large part on the Protevangelium of James. Anna and Joachim and the presentation in the Temple came from it into the church's calendar and its sacred images. Yet the church never accepted the book as scripture. The ox and the ass at the manger come from Pseudo-Matthew, a later Latin retelling. The apocryphal Acts tell how the apostles died: Peter crucified head down, Philip hung by his ankles. Medieval art and legend probably took most of what they knew of those deaths from them. And the Jewish books in this collection, written under the names of ancient figures, survive only because Christians copied them. Ironically, they were kept by the tradition that had parted from the one that produced them."
+ },
+ {
+  "id": "alexandria-catechetical",
+  "atlasId": "I.2",
+  "era": 1,
+  "name": "Alexandrian Catechetical / Christian-Platonist Tradition",
+  "dates": "c. 150–400 CE",
+  "lane": "Africa",
+  "currentFlag": true,
+  "existingLivingEvidence": null,
+  "predecessors": [],
+  "successors": [],
+  "lineTerminals": [
+   {
+    "atlasId": "I.2",
+    "id": "alexandria-catechetical",
+    "era": 1,
+    "living": true,
+    "end": 400,
+    "weakestLink": null
+   }
+  ],
+  "otherLinksToLivingEntries": [
+   "this gave rise to I.3 [Contested] (I.3 = Desert Monasticism, c. 320–430 CE)",
+   "III.3 argued against this [Documented] (III.3 = Coptic Christianity under Early Islam, 642-1013)",
+   "this influenced I.5 [Documented] (I.5 = Cappadocian Christianity, c. 325-394 CE)"
+  ],
+  "statusDescription": "You can sit down with this tradition now.",
+  "relationsSummary": "A contested influence on Desert Monasticism, real at one disputed point and denied as a general continuation; scholarship parent of the Bethlehem Circle",
+  "why": "Teachers here read Scripture in layers, the plain story and a deeper meaning beneath it, confident that Greek philosophy could serve Christ rather than threaten him - a method that shaped how much of the church has read the Bible ever since.",
+  "legacy": "The Alexandrian way of reading Scripture — that the text has depths beneath its surface, and that reading it is a lifelong formation rather than an act of information-gathering — became one of Christianity's most influential approaches, shaping how the East and West alike read Scripture for centuries.\n\nOrigen worked closely on texts. He set the standard for taking seriously the languages they were first written in. Basil of Caesarea and Gregory of Nazianzus studied his books. The two are credited with a book of pieces from his work, the Philocalia. Ambrose and Jerome read him closely too, even when they were careful about saying so.\n\nWhether the tradition also fed Egypt's monks is still argued. One modern reading finds Origen's ideas in Antony's letters. But Athanasius shows him as a boy raised at home by Christian parents, a boy who would not be taught to read.\n\nThe church of Alexandria later remembered the school in two minds. Its History of the Patriarchs was put together much later, and it condemns the books of Origen. Yet the same book honors Dionysius as patriarch."
+ },
+ {
+  "id": "latin-pastoral-congregational-christianity",
+  "atlasId": "I.8",
+  "era": 1,
+  "name": "Latin Pastoral-Congregational Christianity",
+  "dates": "c. 240s-430",
+  "lane": "Latin West & Catholicism",
+  "currentFlag": true,
+  "existingLivingEvidence": null,
+  "predecessors": [],
+  "successors": [],
+  "lineTerminals": [
+   {
+    "atlasId": "I.8",
+    "id": "latin-pastoral-congregational-christianity",
+    "era": 1,
+    "living": true,
+    "end": 430,
+    "weakestLink": null
+   }
+  ],
+  "otherLinksToLivingEntries": [
+   "this influenced VI.2 [Documented] (VI.2 = The Reformed Cities - Zurich & Geneva, 1519-1650)",
+   "I.27 argued against this [Documented] (I.27 = Gallic Monastic-Ascetic Christianity, c. 360-450)",
+   "this argued against I.27 [Documented] (I.27 = Gallic Monastic-Ascetic Christianity, c. 360-450)"
+  ],
+  "statusDescription": "One of the traditions chosen for its era after a completed survey. Construction has not begun.",
+  "relationsSummary": "The churches led by Cyprian at Carthage and Augustine at Hippo. From the 310s a rival Donatist church stood in the same towns.",
+  "why": "Cyprian, bishop of Carthage in the mid-200s, told his congregation to nurse their pagan neighbors through the plague that now bears his name, before he was beheaded outside the city in 258. A century and a half later, Augustine preached to the same Hippo congregation several times a week for thirty-five years, and stenographers took down much of what he said. There's no built conversation for this tradition here yet.",
+  "legacy": "The North African church itself did not survive. The Vandals took the province in the 430s. The Arab conquest came in the seventh century. After it, Latin Christianity there slowly died out. What it left behind is the working vocabulary of Western church life. Cyprian's letters laid the ground for how the West thinks about the bishop's office and the unity of the church. Later, the Donatists quoted them in their own defense. Augustine's sermons shaped Christian preaching for well over a thousand years. These congregations also worked out the catechumenate, the training of new believers before baptism. They worked out the practice of penance too. Both became the pattern for Western sacramental discipline. In Geneva, Calvin wrote that he could fill a whole book with Augustine's words on God's choice of the saved. Latin Christianity's basic ideas about what a local church is took shape largely in these two African towns."
+ },
+ {
+  "id": "marcion-marcionism",
+  "atlasId": "I.20",
+  "era": 1,
+  "name": "Marcion / Marcionism",
+  "dates": "c. 140-300s",
+  "lane": "Non-Nicene Traditions",
+  "currentFlag": false,
+  "existingLivingEvidence": null,
+  "predecessors": [],
+  "successors": [],
+  "lineTerminals": [
+   {
+    "atlasId": "I.20",
+    "id": "marcion-marcionism",
+    "era": 1,
+    "living": false,
+    "end": 300,
+    "weakestLink": null
+   }
+  ],
+  "otherLinksToLivingEntries": [
+   "I.7 argued against this [Documented] (I.7 = Syriac Christianity (Edessa/Nisibis), 200–410 CE)",
+   "I.1 argued against this [Documented] (I.1 = Post-Apostolic Household-Church Christianity, 70–200 CE)"
+  ],
+  "statusDescription": "Excluded on a stated creedal ground you can read in full. Exclusion is not a judgment of unimportance.",
+  "relationsSummary": "Second-century rival the proto-orthodox defined themselves against",
+  "why": "Marcion was a wealthy shipowner from Sinope. He concluded that the strict God of the Hebrew Scriptures, who gave the law, could not be the same being as the merciful Father whom Jesus revealed. The Roman church expelled him and gave back his money, by tradition in 144. He then built a rival network of churches with its own edited Scripture: a version of Luke and ten letters of Paul, which he had stripped of what he judged to be Jewish corruption.",
+  "legacy": "Marcionite churches faded in the West by roughly the fourth century and lingered considerably longer in Syria and the East, but nothing descends from them. What Marcion left behind is what he provoked. Congregations that had never needed to specify which books counted as Scripture discovered that they now had to, and the confession of one God, maker of heaven and earth, whose Son truly took flesh, was hammered into its sharpest early form in argument against him. How far he actually caused the New Testament canon rather than accelerated a process already under way is still debated by historians."
+ },
+ {
+  "id": "valentinian-and-other-gnostic-christianities",
+  "atlasId": "I.21",
+  "era": 1,
+  "name": "Valentinian & other Gnostic Christianities",
+  "dates": "2nd-3rd c.",
+  "lane": "Non-Nicene Traditions",
+  "currentFlag": false,
+  "existingLivingEvidence": null,
+  "predecessors": [],
+  "successors": [],
+  "lineTerminals": [
+   {
+    "atlasId": "I.21",
+    "id": "valentinian-and-other-gnostic-christianities",
+    "era": 1,
+    "living": false,
+    "end": 300,
+    "weakestLink": null
+   }
+  ],
+  "otherLinksToLivingEntries": [
+   "I.1 argued against this [Documented] (I.1 = Post-Apostolic Household-Church Christianity, 70–200 CE)"
+  ],
+  "statusDescription": "Excluded on a stated creedal ground you can read in full. Exclusion is not a judgment of unimportance.",
+  "relationsSummary": "Rivals the early churches cast out and wrote against. Answering them helped shape those churches.",
+  "why": "Valentinus, an Alexandrian teacher who came to Rome around 136, taught that a divine spark lies trapped within human beings and that Christ came to awaken it - a teaching offered quietly inside ordinary congregations rather than through a rival church. For eighteen centuries this movement was known only through the bishops who wrote against it, until 1945, when a buried jar near Nag Hammadi in Egypt turned out to hold their own writings, including the Gospel of Truth.",
+  "legacy": "No community survives, and none claims descent. Their trace is double. First, the shape of what became orthodox Christianity was set partly by the labor of answering them. The insistence that the one God made matter and called it good, that the Son took real flesh and rose in a real body, and that the faith is a public rule handed down openly rather than a secret reserved for initiates, were all pressed into their enduring form in this argument. Second, since 1945 the Nag Hammadi texts have been read, translated and fought over continuously, and have reshaped how modern readers picture the diversity of the earliest Christian centuries."
+ },
+ {
+  "id": "manichaeism",
+  "atlasId": "I.22",
+  "era": 1,
+  "name": "Manichaeism",
+  "dates": "3rd-7th c.",
+  "lane": "Non-Nicene Traditions",
+  "currentFlag": false,
+  "existingLivingEvidence": null,
+  "predecessors": [],
+  "successors": [],
+  "lineTerminals": [
+   {
+    "atlasId": "I.22",
+    "id": "manichaeism",
+    "era": 1,
+    "living": false,
+    "end": 650,
+    "weakestLink": null
+   }
+  ],
+  "otherLinksToLivingEntries": [
+   "I.7 argued against this [Documented] (I.7 = Syriac Christianity (Edessa/Nisibis), 200–410 CE)",
+   "I.8 argued against this [Documented] (I.8 = Latin Pastoral-Congregational Christianity, c. 240s-430)"
+  ],
+  "statusDescription": "Excluded on a stated creedal ground you can read in full. Exclusion is not a judgment of unimportance.",
+  "relationsSummary": "Augustine's own former allegiance",
+  "why": "Mani was born in Mesopotamia in 216 and raised by a sect of baptizers. He broke from them after what he described as revelations from his heavenly twin. He went on to teach that the world is a battleground between eternal Light and Darkness, where sparks of light lie trapped in matter. He wrote his own scriptures and had them translated on purpose, and his faith spread from Persia all the way to China. Augustine of Hippo followed it as a Hearer for nine years before his conversion.",
+  "legacy": "In the West, emperors and the church hunted it down. It had largely vanished by the sixth century. Yet the word 'Manichaean' survived for centuries afterwards. It became an insult aimed at anyone thought too fond of dualism, the belief that two opposed powers divide the world. In the East it lasted far longer. Many Uyghur Turks of Central Asia followed it, and it held on in southern China for many centuries. Mani wrote his own books. Over the last century, manuscripts have also been recovered from Turfan in western China and from Medinet Madi in Egypt. There is also the tiny Cologne Mani Codex. Because of all this, it is one of the few extinct ancient religions that can now be read largely in its own words. It is no longer known only through its enemies."
+ },
+ {
+  "id": "ebionite-nazoraean-current",
+  "atlasId": "I.24",
+  "era": 1,
+  "name": "Ebionite / Nazoraean Current",
+  "dates": "1st-4th c.",
+  "lane": "Origin — before the lanes divide",
+  "currentFlag": false,
+  "existingLivingEvidence": null,
+  "predecessors": [],
+  "successors": [],
+  "lineTerminals": [
+   {
+    "atlasId": "I.24",
+    "id": "ebionite-nazoraean-current",
+    "era": 1,
+    "living": false,
+    "end": 400,
+    "weakestLink": null
+   }
+  ],
+  "otherLinksToLivingEntries": [
+   "I.2 argued against this [Documented] (I.2 = Alexandrian Catechetical / Christian-Platonist Tradition, c. 150–400 CE)",
+   "I.6 argued against this [Documented] (I.6 = Imperial and Juridical Christianity, c. 312-451)"
+  ],
+  "statusDescription": "The record is genuinely disputed. This entry carries the question, not a verdict.",
+  "relationsSummary": "These communities are the clearest evidence that Christianity began inside Judaism. Modern Messianic Jewish movements are sometimes compared to them, but no line of descent connects the two.",
+  "why": "Some Jewish communities of believers in Jesus kept observing Torah, circumcision, and the Sabbath long after most of the church had moved on, honoring James, the brother of Jesus, and regarding Paul as someone who had abandoned the Law. Not one word survives from these communities in their own voice - everything known of them comes through later writers who disagreed with each other and wrote from the outside, so even what they actually believed remains genuinely uncertain.",
+  "legacy": "No community descends from them. They disappear from the record by roughly the fifth century, absorbed into the wider church or back into Judaism or simply gone, and the gospel material attributed to them survives only as quotations in the writers who opposed them. What they left behind is a question rather than an institution. They are the standing reminder that Christianity began inside Judaism, and that the separation of the two was slower, later and far more contested than a tidy account allows. Modern Messianic Jewish movements are sometimes compared to them, but no line of descent connects them."
+ },
+ {
+  "id": "montanism-the-new-prophecy",
+  "atlasId": "I.25",
+  "era": 1,
+  "name": "Montanism (the New Prophecy)",
+  "dates": "c. 165-400s",
+  "lane": "Origin — before the lanes divide",
+  "currentFlag": false,
+  "existingLivingEvidence": null,
+  "predecessors": [],
+  "successors": [],
+  "lineTerminals": [
+   {
+    "atlasId": "I.25",
+    "id": "montanism-the-new-prophecy",
+    "era": 1,
+    "living": false,
+    "end": 400,
+    "weakestLink": null
+   }
+  ],
+  "otherLinksToLivingEntries": [
+   "I.1 argued against this [Documented] (I.1 = Post-Apostolic Household-Church Christianity, 70–200 CE)",
+   "I.6 argued against this [Documented] (I.6 = Imperial and Juridical Christianity, c. 312-451)"
+  ],
+  "statusDescription": "The concern is limited primary sourcing, not that prophetic leaders were involved. Surviving evidence centers on a handful of quoted oracles from three named prophets and hostile reports. Whether independent community voices survive (some Phrygian inscriptions may point that way) isn't yet resolved.",
+  "relationsSummary": "In the late second century the faithful of Roman Asia met many times to judge it. They cast it out.",
+  "why": "In a Phrygian village around 165, a man named Montanus began prophesying that the Holy Spirit was speaking through him. Two women, Priscilla and Maximilla, prophesied alongside him, and together they expected the New Jerusalem to descend on their own village of Pepuza. Lost for over a thousand years, that village was located by archaeologists only in 2000.",
+  "legacy": "No church descends from the New Prophecy. In the sixth century, under Justinian, the empire moved to crush it. Procopius says the Montanists of Phrygia shut themselves in their churches and set them alight. Its own writings were destroyed. What remains is a handful of quoted oracles. There are also some graves in Phrygia with inscriptions, but whether those are Montanist is itself argued over. That is the honest difficulty: nearly all the evidence comes through the three named prophets and their enemies. Whether any of the community's own words remain is not yet settled. What outlasted it are the questions it forced. Did prophecy go on after the apostles? Who may authorize it? How does a church tell genuine inspiration from enthusiasm? Critics of later revivals have reached for the comparison. In 1743 Charles Chauncy likened the cries and falling down of the Great Awakening to the Montanists of old. No line of descent links any later movement to it."
+ },
+ {
+  "id": "novatianism",
+  "atlasId": "I.26",
+  "era": 1,
+  "name": "Novatianism",
+  "dates": "c. 251-400s",
+  "lane": "Origin — before the lanes divide",
+  "currentFlag": false,
+  "existingLivingEvidence": null,
+  "predecessors": [],
+  "successors": [],
+  "lineTerminals": [
+   {
+    "atlasId": "I.26",
+    "id": "novatianism",
+    "era": 1,
+    "living": false,
+    "end": 400,
+    "weakestLink": null
+   }
+  ],
+  "otherLinksToLivingEntries": [
+   "I.8 argued against this [Documented] (I.8 = Latin Pastoral-Congregational Christianity, c. 240s-430)",
+   "I.6 argued against this [Documented] (I.6 = Imperial and Juridical Christianity, c. 312-451)",
+   "I.6 in contact with this [Documented] (I.6 = Imperial and Juridical Christianity, c. 312-451)"
+  ],
+  "statusDescription": "The concern is limited primary sourcing, not that a single leader was involved. Surviving evidence centers on Novatian's own rigorist stance and rival ordination; whether an independent community voice beyond his own survives in the record isn't yet resolved.",
+  "relationsSummary": "A strict church that broke from the Roman majority in 251. It lived on beside the majority for centuries.",
+  "why": "When many Christians complied with the emperor Decius' order to sacrifice in 250 and then wanted back into the church, the Roman theologian Novatian argued that the church had no authority to forgive such apostasy, however much God might. His followers, who called themselves the Katharoi, 'the pure,' consecrated him as a rival bishop and spread across the empire for centuries; a Novatianist bishop even attended the Council of Nicaea in 325 and accepted its creed.",
+  "legacy": "No church descends from them; the last Novatianist communities faded in the East by around the seventh century. Two things outlasted the schism. The first is the doctrine sharpened against it — that the church is a hospital rather than a society of the already-perfect, and that no sin lies beyond the reach of the church's ministry of reconciliation — worked out by Cyprian in the moment and by Augustine at length afterwards, along with the graded system of public penance that grew out of exactly this argument. The second is Novatian's own On the Trinity, which was copied, read and valued in the mainstream church as a careful Latin statement of orthodox doctrine long after his party was gone, handed down in manuscripts among the works of Tertullian."
+ },
+ {
+  "id": "anatolian-church-third-century",
+  "atlasId": "I.38",
+  "era": 1,
+  "name": "The Anatolian Church in the Third Century",
+  "dates": "c. 240-312",
+  "lane": "Greek East & Orthodoxy",
+  "currentFlag": false,
+  "existingLivingEvidence": null,
+  "predecessors": [],
+  "successors": [],
+  "lineTerminals": [
+   {
+    "atlasId": "I.38",
+    "id": "anatolian-church-third-century",
+    "era": 1,
+    "living": false,
+    "end": 312,
+    "weakestLink": null
+   }
+  ],
+  "otherLinksToLivingEntries": [
+   "this influenced I.5 [Documented] (I.5 = Cappadocian Christianity, c. 325-394 CE)",
+   "I.2 influenced this [Documented] (I.2 = Alexandrian Catechetical / Christian-Platonist Tradition, c. 150–400 CE)",
+   "this argued against I.2 [Documented] (I.2 = Alexandrian Catechetical / Christian-Platonist Tradition, c. 150–400 CE)"
+  ],
+  "statusDescription": "Named as a live future candidate for survey, or a dropped voice, with reasoning given either way - not yet chosen, not forgotten.",
+  "relationsSummary": "This is the ground the Cappadocian tradition grows from, and it knows it. Basil's grandmother Macrina taught him the words of Gregory Thaumaturgus. Basil points to Gregory's practice as a precedent. Origen's reach runs through it both ways. Gregory was his devoted pupil. Methodius was one of his first serious critics.",
+  "why": "Gregory of Neocaesarea was a devoted pupil of Origen. In the 250s, some Christians looted with Gothic raiders. Gregory wrote a canonical letter, a letter of rules for the church, about them. It worked out what to do with them, case by case. Methodius of Olympus came a generation later. He turned Plato's Symposium into a Christian dialogue in which ten women take turns to praise chastity. He was also one of the first serious critics of Origen. Then he died in the persecution around 311.",
+  "legacy": "The Cappadocian tradition says plainly that it comes from this ground. When Basil wants to show that something is old, he cites Gregory's practice as precedent. Gregory's Canonical Epistle entered the standard books of church law in the East, and it is still there. And Methodius' Banquet is an early landmark of Christian writing on virginity. It is a whole dialogue in its praise. Tertullian and Cyprian had already written about virgins. Jerome knew the Banquet by name. But how much he, Ambrose or Gregory of Nyssa drew from it is hard to show."
+ },
+ {
+  "id": "antiochene-church-third-century",
+  "atlasId": "I.42",
+  "era": 1,
+  "name": "The Church of Antioch in the Third Century",
+  "dates": "c. 190-312",
+  "lane": "Greek East & Orthodoxy",
+  "currentFlag": false,
+  "existingLivingEvidence": null,
+  "predecessors": [],
+  "successors": [],
+  "lineTerminals": [
+   {
+    "atlasId": "I.42",
+    "id": "antiochene-church-third-century",
+    "era": 1,
+    "living": false,
+    "end": 312,
+    "weakestLink": null
+   }
+  ],
+  "otherLinksToLivingEntries": [],
+  "statusDescription": "Named as a live future candidate for survey, or a dropped voice, with reasoning given either way - not yet chosen, not forgotten.",
+  "relationsSummary": "Third-century Antioch was the seedbed of the fourth-century quarrel over the Son. Lucian's pupils led the Arian party. Three of them later taught Aetius, the first Anomoean teacher. Its tie to modalist monarchianism is a mirror, not a line of descent. Paul taught adoptionism and Sabellius taught modalism. These were opposite ways of refusing the account of the Son that the century was working out.",
+  "why": "In 268, a council of bishops at Antioch deposed Paul of Samosata. He taught that Christ was a man the Word had come to dwell in, rather than the Word made flesh. The bishops found his conduct just as troubling, including a raised throne in church and hymns sung to himself. He would not leave until the emperor Aurelian retook the city in 272. Aurelian settled the matter by asking which claimant was in communion with the bishops of Italy and Rome. In the 350s, bishops wary of Nicaea's word 'homoousios' pointed back to this council. They said it had turned the word down, and Athanasius had to explain why.",
+  "legacy": "Two things went out of this council into the fourth century. The word homoousios - one substance - seems to have been rejected here as something Paul had misused. A generation after Nicaea adopted it in 325, Eastern bishops who were not Arians still cited this council when they balked at it. And Lucian's school gave the Arian party its leadership and its self-description: Arius wrote to Eusebius of Nicomedia as one Lucianist to another. The Antiochene way of reading Scripture, carried by Diodore, Theodore and Chrysostom, may also go back to Lucian's work on the text. No ancient source draws that line. If it does, this century began two things the next four centuries spent arguing about."
+ },
+ {
+  "id": "palestinian-church-pre-constantinian",
+  "atlasId": "I.39",
+  "era": 1,
+  "name": "The Church of Roman Palestine before Constantine",
+  "dates": "c. 185-312",
+  "lane": "Greek East & Orthodoxy",
+  "currentFlag": false,
+  "existingLivingEvidence": null,
+  "predecessors": [],
+  "successors": [
+   {
+    "id": "jerusalem-liturgical-pilgrimage-christianity",
+    "atlasId": "I.15",
+    "living": false,
+    "confidence": "Inferential-Thin"
+   }
+  ],
+  "lineTerminals": [
+   {
+    "atlasId": "I.15",
+    "id": "jerusalem-liturgical-pilgrimage-christianity",
+    "era": 2,
+    "living": false,
+    "end": 450,
+    "weakestLink": "Inferential-Thin"
+   }
+  ],
+  "otherLinksToLivingEntries": [
+   "I.2 influenced this [Documented] (I.2 = Alexandrian Catechetical / Christian-Platonist Tradition, c. 150–400 CE)",
+   "this influenced I.6 [Documented] (I.6 = Imperial and Juridical Christianity, c. 312-451)"
+  ],
+  "statusDescription": "Named as a live future candidate for survey, or a dropped voice, with reasoning given either way - not yet chosen, not forgotten.",
+  "relationsSummary": "This is the province where Origen taught for the last twenty years of his life. Eusebius was formed here too. It bridges two worlds. One is the Alexandrian school, whose greatest teacher moved here. The other is the Jerusalem church of liturgy and pilgrimage, which begins where this one ends.",
+  "why": "When Origen left Alexandria for Caesarea around 231, he spent his last twenty years teaching there, and a presbyter named Pamphilus built his books into the best Christian library in the ancient world. A young Eusebius trained in that library and later called himself 'Eusebius of Pamphilus' out of loyalty to his teacher. When persecution came, Pamphilus was killed in 310, and Eusebius wrote down, name by name, what he watched happen to his own province.",
+  "legacy": "Almost all that anyone knows about the first three Christian centuries comes through this library. Eusebius wrote his Church History from the shelves Pamphilus and Alexander had filled. It quotes texts that survive nowhere else. So the shape of early Christian memory is partly the shape of what one library in Palestine happened to hold. The Hexapla sat here. It was Origen's Old Testament, laid out in six columns. Jerome later searched these shelves. He prized copies of Origen made in Pamphilus's own hand. And Africanus wrote a chronicle. Eusebius built his own timeline on it. That timeline in turn set the frame for each history of the world written in the Middle Ages."
+ },
+ {
+  "id": "roman-church-third-century",
+  "atlasId": "I.33",
+  "era": 1,
+  "name": "The Roman Church in the Third Century",
+  "dates": "c. 200-268",
+  "lane": "Latin West & Catholicism",
+  "currentFlag": false,
+  "existingLivingEvidence": null,
+  "predecessors": [
+   {
+    "id": "post-apostolic-house-church",
+    "atlasId": "I.1",
+    "confidence": "Widely Accepted"
+   }
+  ],
+  "successors": [],
+  "lineTerminals": [
+   {
+    "atlasId": "I.33",
+    "id": "roman-church-third-century",
+    "era": 1,
+    "living": false,
+    "end": 268,
+    "weakestLink": null
+   }
+  ],
+  "otherLinksToLivingEntries": [
+   "I.8 argued against this [Documented] (I.8 = Latin Pastoral-Congregational Christianity, c. 240s-430)"
+  ],
+  "statusDescription": "Named as a live future candidate for survey, or a dropped voice, with reasoning given either way - not yet chosen, not forgotten.",
+  "relationsSummary": "The church of Rome after its house-church years, from about 200. The Novatian schism of 251 began inside it.",
+  "why": "Callistus, a former slave once sent to the Sardinian mines, became bishop of Rome. He led his congregation through open arguments over two questions. One was grave sin after baptism. The other was how to speak of Father and Son without naming two Gods. Hippolytus was a learned presbyter who thought him wrong on every count. He set himself up as a rival bishop. He also wrote a Refutation. Almost by accident, it preserves more about second- and third-century religious movements than any other surviving book. Callistus himself left not one word in his own voice.",
+  "legacy": "The questions argued here did not go away. After the persecution of 250, Rome had to decide a hard case. Could Christians who had sacrificed be restored? The quarrel split the city in the Novatian schism of 251. Rome's answer was that they could. That is the answer the Western church kept. Hippolytus wrote his Refutation to discredit Callistus. In passing, it also keeps more about second- and third-century religious movements than any other surviving book."
+ },
+ {
+  "id": "danubian-latin-christianity",
+  "atlasId": "I.40",
+  "era": 1,
+  "name": "Latin Christianity in the Danubian Provinces",
+  "dates": "c. 250-400",
+  "lane": "Latin West & Catholicism",
+  "currentFlag": false,
+  "existingLivingEvidence": null,
+  "predecessors": [],
+  "successors": [],
+  "lineTerminals": [
+   {
+    "atlasId": "I.40",
+    "id": "danubian-latin-christianity",
+    "era": 1,
+    "living": false,
+    "end": 400,
+    "weakestLink": null
+   }
+  ],
+  "otherLinksToLivingEntries": [],
+  "statusDescription": "Named as a live future candidate for survey, or a dropped voice, with reasoning given either way - not yet chosen, not forgotten.",
+  "relationsSummary": "It sits between two neighbors. One is Latin pastoral Christianity at Carthage, with the same language but not the same region. The other is Homoian Christianity, with the same region; fifty years later its leaders held sees in these provinces. This church's own bishop, Victorinus, wrote on the Apocalypse, and Jerome later put out his book again with a new ending.",
+  "why": "Victorinus of Pettau, a bishop on the frontier river Drava, wrote the first Latin biblical commentaries around the year 300, though Jerome said he knew Greek better than his own Latin. Victorinus read the seals, trumpets, and bowls of Revelation not as a sequence but as the same events told three times over, a reading that passed into the standard Western way of reading the book even after Jerome quietly rewrote his ending to remove its literal thousand-year reign. He died in the persecution around 304.",
+  "legacy": "Victorinus read the Apocalypse as recapitulation. On this reading, the seals, trumpets and bowls tell the same events over again, not a sequence of them. That reading survived Jerome's revision. Tyconius and Augustine also taught readers to look for it, though neither names Victorinus. It became the standard Western reading of the book. That is a long career for a commentary that its own editor thought needed fixing. The millenarianism did not make the same journey. That is roughly the point. What the Latin West kept of its first interpreter of scripture is what its second was willing to pass on."
+ },
+ {
+  "id": "desert-monasticism",
+  "atlasId": "I.3",
+  "era": 2,
+  "name": "Desert Monasticism",
+  "dates": "c. 320–430 CE",
+  "lane": "Africa",
+  "currentFlag": true,
+  "existingLivingEvidence": null,
+  "predecessors": [],
+  "successors": [],
+  "lineTerminals": [
+   {
+    "atlasId": "I.3",
+    "id": "desert-monasticism",
+    "era": 2,
+    "living": true,
+    "end": 430,
+    "weakestLink": null
+   }
+  ],
+  "otherLinksToLivingEntries": [
+   "I.2 gave rise to this [Contested] (I.2 = Alexandrian Catechetical / Christian-Platonist Tradition, c. 150–400 CE)",
+   "this influenced III.6 [Inferential-Thin] (III.6 = Iconophile Byzantine Monasticism, 726-843)",
+   "this influenced II.6 [Widely Accepted] (II.6 = Early Benedictine / Italian Monasticism, c. 500-604)",
+   "this influenced II.8 [Inferential-Thin] (II.8 = Insular / Irish Monastic Christianity, c. 450-664)",
+   "this influenced III.3 [Documented] (III.3 = Coptic Christianity under Early Islam, 642-1013)",
+   "this influenced I.27 [Documented] (I.27 = Gallic Monastic-Ascetic Christianity, c. 360-450)",
+   "this influenced VIII.12 [Documented] (VIII.12 = The Kollyvades & Greek Renewal, 1750s-1860s)",
+   "this influenced II.1 [Documented] (II.1 = The Church of Alexandria and Miaphysite Egypt, 328-642)",
+   "this influenced II.5 [Documented] (II.5 = Chalcedonian Monasticism - Judean Desert & Gaza, c. 450-614)",
+   "this influenced IX.10 [Widely Accepted] (IX.10 = The Coptic Monastic & Sunday-School Revival, 1940s-c. 2010)"
+  ],
+  "statusDescription": "You can sit down with this tradition now.",
+  "relationsSummary": "A distinct formation world from Alexandria's own, not its continuation — though one disputed reading of its founder's letters leaves the question of contact open; parent of monastic life across the wider Christian world.",
+  "why": "Antony gave away his inheritance after one Gospel reading and spent decades alone at what he called the inner mountain; Pachomius built the first written rule for living the same struggle in community instead.",
+  "legacy": "Almost every later form of Christian monastic life comes down from here. In the West, Benedict's own Rule for monks sends its readers straight to John Cassian's reports from Egypt. In the East, the Philokalia was gathered on Mount Athos and printed in 1782. It opens with counsels credited to Antony, and it carries Evagrius and Cassian too.\n\nThe sayings themselves are still read as spiritual reading across Orthodox, Catholic, and Protestant traditions alike. Evagrius's eight named categories of tempting thought traveled west through Cassian and, by way of Gregory the Great two centuries later, narrowed into the seven deadly sins of Western moral teaching. One popular link doesn't actually hold: the desert's own word for the stillness they sought, hesychia, is often assumed to be the same practice as the later Byzantine Hesychast tradition and its Jesus Prayer technique — that systematized method belongs to a separate, later world and isn't part of this one's own record.\n\nSome of the houses founded in that first Egyptian generation are still living communities. The Coptic monasteries of St Antony and St Paul near the Red Sea, and the cluster of monasteries at Wadi al-Natrun, are inhabited by monks today, on or near the same ground this tradition's own record describes."
+ },
+ {
+  "id": "palestinian-ascetic-monasticism-early",
+  "atlasId": "I.34",
+  "era": 2,
+  "name": "Early Palestinian Ascetic Monasticism",
+  "dates": "c. 330-450",
+  "lane": "Greek East & Orthodoxy",
+  "currentFlag": false,
+  "existingLivingEvidence": null,
+  "predecessors": [],
+  "successors": [
+   {
+    "id": "chalcedonian-monasticism-judean-desert-and-gaza",
+    "atlasId": "II.5",
+    "living": true,
+    "confidence": "Inferential-Thin"
+   }
+  ],
+  "lineTerminals": [
+   {
+    "atlasId": "II.5",
+    "id": "chalcedonian-monasticism-judean-desert-and-gaza",
+    "era": 3,
+    "living": true,
+    "end": 614,
+    "weakestLink": "Inferential-Thin"
+   }
+  ],
+  "otherLinksToLivingEntries": [
+   "I.3 influenced this [Documented] (I.3 = Desert Monasticism, c. 320–430 CE)"
+  ],
+  "statusDescription": "Named as a live future candidate for survey, or a dropped voice, with reasoning given either way - not yet chosen, not forgotten.",
+  "relationsSummary": "Its roots are in Egypt: Hilarion learned the life from Antony. It came before the Chalcedonian monasteries of the Judean desert and Gaza. Those start about 450, where this one leaves off.",
+  "why": "Hilarion, a disciple of Antony's, went home to Gaza around 306 and settled in the coastal scrub. He lived alone, but within reach of the villages, roads, and pilgrims of the coast rather than in deep desert. In the Judean hills, Chariton founded another pattern at Pharan, called the laura. There monks lived apart through the week and met only on Sundays. That way of life later shaped the great monasteries of the Judean desert. Jerome told the story of a lonelier life still, farther north, in his Life of Malchus, a Syrian monk carried off by raiders.",
+  "legacy": "The laura became the Palestinian form: monks alone through the week, together on Sunday. In the next century it passed into the great Judean desert monasteries of Euthymius and Sabas. From there it passed into the Byzantine monastic tradition. Jerome's Life of Hilarion did a more specific thing too. He wrote it about 390, after his own Life of Paul and the Latin Life of Antony. It helped make the saint's life a form of Latin writing."
+ },
+ {
+  "id": "donatism",
+  "atlasId": "I.4",
+  "era": 2,
+  "name": "Donatism",
+  "dates": "c. 311-439 CE",
+  "lane": "Latin West & Catholicism",
+  "currentFlag": false,
+  "existingLivingEvidence": null,
+  "predecessors": [],
+  "successors": [],
+  "lineTerminals": [
+   {
+    "atlasId": "I.4",
+    "id": "donatism",
+    "era": 2,
+    "living": false,
+    "end": 439,
+    "weakestLink": null
+   }
+  ],
+  "otherLinksToLivingEntries": [
+   "I.8 argued against this [Documented] (I.8 = Latin Pastoral-Congregational Christianity, c. 240s-430)",
+   "this argued against I.8 [Widely Accepted] (I.8 = Latin Pastoral-Congregational Christianity, c. 240s-430)",
+   "I.8 influenced this [Documented] (I.8 = Latin Pastoral-Congregational Christianity, c. 240s-430)",
+   "I.6 argued against this [Documented] (I.6 = Imperial and Juridical Christianity, c. 312-451)",
+   "this argued against I.6 [Widely Accepted] (I.6 = Imperial and Juridical Christianity, c. 312-451)",
+   "this broke with I.8 [Documented] (I.8 = Latin Pastoral-Congregational Christianity, c. 240s-430)",
+   "this influenced I.8 [Documented] (I.8 = Latin Pastoral-Congregational Christianity, c. 240s-430)"
+  ],
+  "statusDescription": "You can sit down with this tradition now.",
+  "relationsSummary": "This was the rival of the Latin pastoral church of Carthage and Hippo. The two split over the same persecution. Its bishop Donatus asked what the emperor had to do with the church. That was the reverse of the church-state alliance of Imperial and Juridical Christianity. It also baptized again those who came over from the other side. Basil of Caesarea, by contrast, wrote that the old rule was to accept the baptism of schismatics.",
+  "why": "For a century, Roman North Africa held two rival churches side by side, each with its own bishop and basilica, over one unyielding conviction: that a bishop who had surrendered Scripture under persecution could no longer give what his office claimed to give. Nearly everything known of them survives only through the hostile writings of their opponents - Augustine chief among them.",
+  "legacy": "Donatism left no continuing communion of its own. Its contest with the rival Catholic church did not end with the Roman empire that had tried to settle it. A century later, Byzantine emperors were still issuing laws against it. And in the 590s the dispute was live enough that Pope Gregory the Great wrote about it in at least eight letters.\n\nWhat arguing against this communion produced outlasted it. Answering the claim that a sacrament's worth depends on the minister's own purity, Augustine reasoned his way to the claim that stuck: the church is a mixed field of wheat and weeds until harvest, not a pure remnant, and what a sacrament gives does not depend on the purity of the hand that gives it. Both became foundational Western doctrine, worked out against this communion's own most absolute conviction. Tyconius, condemned by his own church around 380, fared stranger still: his one surviving book crossed over to the side that had expelled him and shaped how Augustine himself, and centuries of readers after him, learned to read Scripture.\n\nExcavated basilica ruins from Donatist-era Numidia, at Timgad in modern Algeria, still stand — a physical trace of a communion that otherwise left no institution behind, its own history readable mostly in the words of the church that outlasted it."
+ },
+ {
+  "id": "cappadocian-nicene-pastoral-monastic-tradition",
+  "atlasId": "I.5",
+  "era": 2,
+  "name": "Cappadocian Christianity",
+  "dates": "c. 325-394 CE",
+  "lane": "Greek East & Orthodoxy",
+  "currentFlag": true,
+  "existingLivingEvidence": null,
+  "predecessors": [],
+  "successors": [],
+  "lineTerminals": [
+   {
+    "atlasId": "I.5",
+    "id": "cappadocian-nicene-pastoral-monastic-tradition",
+    "era": 2,
+    "living": true,
+    "end": 394,
+    "weakestLink": null
+   }
+  ],
+  "otherLinksToLivingEntries": [
+   "I.2 influenced this [Documented] (I.2 = Alexandrian Catechetical / Christian-Platonist Tradition, c. 150–400 CE)",
+   "this in contact with I.6 [Documented] (I.6 = Imperial and Juridical Christianity, c. 312-451)",
+   "this influenced I.10 [Widely Accepted] (I.10 = Armenian Christianity (conversion era), c. 314-451)",
+   "I.10 in contact with this [Widely Accepted] (I.10 = Armenian Christianity (conversion era), c. 314-451)"
+  ],
+  "statusDescription": "You can sit down with this tradition now.",
+  "relationsSummary": "Trinitarian and pneumatological theology paired with charitable-ascetic practice; Jerome heard Gregory of Nazianzus teach, and this Christian tradition argued directly, by name, against the Eunomians and the deniers of the Spirit's divinity.",
+  "why": "Basil of Caesarea, his sister Macrina, and his brother Gregory of Nyssa argued the fourth century's hardest question - is the Son fully God? - while also building a famine-relief complex outside Caesarea that fed, housed, and nursed the destitute.",
+  "legacy": "Their labor on the language — one being, three persons — became the standard grammar of Christian talk about God in East and West alike and stands behind the creed recited in most churches on Sunday, though the tidy story of a fully agreed \"Cappadocian settlement\" is itself contested by modern scholars, who read more real variation between the three than the textbook version allows.\n\nBasil's rules for communal ascetic life remain foundational for Eastern Orthodox monasticism, and his hospital-and-hostel complex for the sick and destitute is often named among the ancestors of the Christian hospital, though no physical trace of the complex itself has ever been securely identified.\n\nAll four are venerated as saints across the Orthodox, Catholic, Anglican, and Lutheran calendars, and Gregory of Nazianzus is one of only three figures the Eastern church calls simply \"the Theologian.\""
+ },
+ {
+  "id": "imperial-juridical-christianity",
+  "atlasId": "I.6",
+  "era": 2,
+  "name": "Imperial and Juridical Christianity",
+  "dates": "c. 312-451",
+  "lane": "Greek East / Latin West — bridge",
+  "currentFlag": true,
+  "existingLivingEvidence": null,
+  "predecessors": [],
+  "successors": [],
+  "lineTerminals": [
+   {
+    "atlasId": "I.6",
+    "id": "imperial-juridical-christianity",
+    "era": 2,
+    "living": true,
+    "end": 451,
+    "weakestLink": null
+   }
+  ],
+  "otherLinksToLivingEntries": [
+   "this in contact with I.12 [Documented] (I.12 = Persian Church of the East (early), c. 300-451)",
+   "II.1 broke with this [Documented] (II.1 = The Church of Alexandria and Miaphysite Egypt, 328-642)",
+   "I.5 in contact with this [Documented] (I.5 = Cappadocian Christianity, c. 325-394 CE)",
+   "I.27 in contact with this [Documented] (I.27 = Gallic Monastic-Ascetic Christianity, c. 360-450)"
+  ],
+  "statusDescription": "You can sit down with this tradition now.",
+  "relationsSummary": "Jerome served as secretary to Damasus of Rome. He had earlier written to Damasus that he kept communion only with 'the chair of Peter'. The creed received at Chalcedon in 451 came from the council of 381. Bishops of the Cappadocian churches took part in that council.",
+  "why": "Between Constantine's toleration of the church in 312 and the Council of Chalcedon in 451, bishops went from outlaws to office-holders beside a throne - and never agreed among themselves whether Rome, Constantinople, or a bishop's own moral standing held the final word.",
+  "legacy": "This is where most of what people mean by \"the institutional church\" was built: canon law, church courts, dioceses drawn along the empire's own administrative lines, and the assumption that a general council can settle a disputed doctrine for everybody.\n\nThe argument it started — where a ruler's authority over the church ends and the church's over the ruler begins — runs on through the medieval investiture disputes, the Reformation's territorial settlements, and every later fight about established churches and their disestablishment.\n\nIts physical inheritance is still standing. The basilica was the form the emperors paid for. It was a Roman public hall rather than a temple, and it remains the basic shape of church buildings across Europe. A quieter inheritance survives from the same crisis. During the siege of 386, Ambrose's congregation began singing psalms 'after the manner of the Eastern Church'. Augustine, then living in Milan, says the custom was 'retained from then till now'. He adds that 'almost all' congregations 'throughout the rest of the world' copied it."
+ },
+ {
+  "id": "hieronymian-ascetic-literary",
+  "atlasId": "I.9",
+  "era": 2,
+  "name": "Hieronymian Ascetic-Literary Christianity",
+  "dates": "c. 382–420 CE",
+  "lane": "Latin West & Catholicism",
+  "currentFlag": false,
+  "existingLivingEvidence": null,
+  "predecessors": [],
+  "successors": [],
+  "lineTerminals": [
+   {
+    "atlasId": "I.9",
+    "id": "hieronymian-ascetic-literary",
+    "era": 2,
+    "living": false,
+    "end": 420,
+    "weakestLink": null
+   }
+  ],
+  "otherLinksToLivingEntries": [
+   "I.3 influenced this [Documented] (I.3 = Desert Monasticism, c. 320–430 CE)",
+   "I.2 influenced this [Documented] (I.2 = Alexandrian Catechetical / Christian-Platonist Tradition, c. 150–400 CE)",
+   "I.5 influenced this [Documented] (I.5 = Cappadocian Christianity, c. 325-394 CE)",
+   "this argued against I.2 [Documented] (I.2 = Alexandrian Catechetical / Christian-Platonist Tradition, c. 150–400 CE)",
+   "this in contact with I.6 [Documented] (I.6 = Imperial and Juridical Christianity, c. 312-451)",
+   "this in contact with I.8 [Documented] (I.8 = Latin Pastoral-Congregational Christianity, c. 240s-430)",
+   "I.8 argued against this [Documented] (I.8 = Latin Pastoral-Congregational Christianity, c. 240s-430)"
+  ],
+  "statusDescription": "You can sit down with this tradition now.",
+  "relationsSummary": "Descends scripturally from Alexandria's Origen, the same legacy this circle later fractured over with Rufinus; Jerome served as Damasus of Rome's own secretary before Bethlehem began.",
+  "why": "A circle of wealthy Roman women funded and led a community at Bethlehem where Jerome translated the Bible into Latin word by word from the Hebrew - work now known as the Vulgate - though nearly everything known of the women themselves survives only through his own letters.",
+  "legacy": "The Vulgate became the Bible of the Latin West for over a thousand years. Medieval theology argued from it, and later translators worked from it or against it. In 1546 the Council of Trent declared it the authentic text. Its rise was not immediate or uncontested. Augustine quoted Jerome's Hebrew version at times, but he never gave it the old version's authority. Writing after Jerome's death, he granted that even the Jews judged the work faithful. Yet, he wrote, 'the churches of Christ judge that no one should be preferred to the authority' of the Seventy translators. In the 590s, Pope Gregory the Great still drew on both the new Latin version and the old.\n\nIts principle mattered as much as its content. Jerome insisted on going back to the Hebrew instead of resting on the Greek. Scholars of the Renaissance and Reformation later made the same kind of appeal to the original languages. In the end, they turned it on the Vulgate itself.\n\nThe circle left a second, quieter pattern too — wealthy women funding, hosting, and directing serious biblical scholarship — which recurs constantly in later Christian history. The caves beneath the Church of the Nativity in Bethlehem, where tradition places Jerome's study, are still shown to pilgrims."
+ },
+ {
+  "id": "aksumite-christianity-conversion-era",
+  "atlasId": "I.11",
+  "era": 2,
+  "name": "Aksumite Christianity (conversion era)",
+  "dates": "c. 330-451",
+  "lane": "Africa",
+  "currentFlag": true,
+  "existingLivingEvidence": null,
+  "predecessors": [],
+  "successors": [
+   {
+    "id": "aksumite-christianity",
+    "atlasId": "II.9",
+    "living": true,
+    "confidence": "Documented"
+   }
+  ],
+  "lineTerminals": [
+   {
+    "atlasId": "VI.25",
+    "id": "ethiopian-christianity-gragn-to-fasilides",
+    "era": 7,
+    "living": true,
+    "end": 1650,
+    "weakestLink": "Widely Accepted"
+   }
+  ],
+  "otherLinksToLivingEntries": [
+   "II.1 gave rise to this [Documented] (II.1 = The Church of Alexandria and Miaphysite Egypt, 328-642)"
+  ],
+  "statusDescription": "Considered for its era and held for a later one — the reasons are on record.",
+  "relationsSummary": "Child of Alexandria (Frumentius consecrated by Athanasius)",
+  "why": "Christianity reached the Red Sea kingdom of Aksum by an almost accidental route: a shipwrecked young man from Tyre named Frumentius rose to tutor the royal household, then traveled to Alexandria and returned as the kingdom's first bishop around 330. King Ezana's own conversion is visible on his coinage, which stops carrying the disc and crescent of the old religion and starts carrying the cross — one of the earliest such declarations by any state. The faith took root in Ge'ez, the kingdom's own language, in which Scripture and liturgy were eventually rendered.",
+  "legacy": "This became, and remains, one of the great ancient churches of the world: the Ethiopian Orthodox Tewahedo Church and the Eritrean Orthodox Tewahedo Church together count tens of millions of members. It carried down a whole distinctive Christian culture — Ge'ez as a scriptural and liturgical language, a broader Old Testament canon than any other church's, drums and sistra and liturgical dance in worship, and, centuries later, the rock-hewn churches of Lalibela. The link Frumentius's consecration made with Alexandria held for roughly sixteen centuries, until the Ethiopian church received a patriarch of its own in the twentieth."
+ },
+ {
+  "id": "antiochene-exegetical-christianity-chrysostom-ce",
+  "atlasId": "I.13",
+  "era": 2,
+  "name": "Antiochene Exegetical Christianity (Chrysostom-centered)",
+  "dates": "c. 350-430",
+  "lane": "Greek East & Orthodoxy",
+  "currentFlag": false,
+  "existingLivingEvidence": null,
+  "predecessors": [],
+  "successors": [],
+  "lineTerminals": [
+   {
+    "atlasId": "I.13",
+    "id": "antiochene-exegetical-christianity-chrysostom-ce",
+    "era": 2,
+    "living": false,
+    "end": 430,
+    "weakestLink": null
+   }
+  ],
+  "otherLinksToLivingEntries": [
+   "this argued against I.2 [Documented] (I.2 = Alexandrian Catechetical / Christian-Platonist Tradition, c. 150–400 CE)",
+   "this in contact with I.6 [Documented] (I.6 = Imperial and Juridical Christianity, c. 312-451)",
+   "I.6 argued against this [Documented] (I.6 = Imperial and Juridical Christianity, c. 312-451)",
+   "this influenced II.3 [Documented] (II.3 = The Church of the East under Persia, 424-651)",
+   "this influenced VI.2 [Documented] (VI.2 = The Reformed Cities - Zurich & Geneva, 1519-1650)",
+   "this influenced VI.1 [Documented] (VI.1 = Lutheran Wittenberg & Its Congregations, 1517-1580)",
+   "this influenced II.3 [Widely Accepted] (II.3 = The Church of the East under Persia, 424-651)",
+   "II.1 argued against this [Documented] (II.1 = The Church of Alexandria and Miaphysite Egypt, 328-642)",
+   "this argued against II.1 [Documented] (II.1 = The Church of Alexandria and Miaphysite Egypt, 328-642)"
+  ],
+  "statusDescription": "Named as a live future candidate for survey, or a dropped voice, with reasoning given either way - not yet chosen, not forgotten.",
+  "relationsSummary": "It read the Bible literally, as history. Alexandria read it as allegory, though scholars argue over how sharp the contrast was. Theodore of Mopsuestia wrote against Origen. He was condemned in 553, but the Church of the East stood by him as its 'Interpreter'.",
+  "why": "Where Alexandria's teachers hunted for a hidden spiritual sense beneath Scripture, Antioch's insisted on what the words actually said, and pressed hard on what that demanded of their listeners. John Chrysostom preached that way through the 380s and 390s to Antioch's tradesmen, householders, and slaves — on money, anger, and how they treated their own servants — and in 387, after crowds smashed the imperial statues, preached his sermons On the Statues to a city waiting to learn whether it would be destroyed in reprisal. Taken to Constantinople in 397 to preach the same way to the imperial court, he died in exile a decade later.",
+  "legacy": "Chrysostom's sermons never stopped being read. Reformation writers quoted him too. Calvin prized his saying that humility is 'the foundation of our philosophy'. But he thought Chrysostom gave the human will too much power. The Augsburg Confession of 1530 cited him on how the early church shared Communion. And the Communion liturgy that carries his name is still the normal Sunday rite of the Eastern Orthodox churches. The Antiochene way of reading held that a text means what it meant to those who first heard it. Later Western Bible scholars made a similar historical-grammatical method standard. How much they owed to Antioch directly is not clear. The school's own fate was harsher. Theodore of Mopsuestia was condemned at Constantinople in 553, more than a century after his death. Much of his work survives only in Syriac translation, kept safe by the Church of the East."
+ },
+ {
+  "id": "jerusalem-liturgical-pilgrimage-christianity",
+  "atlasId": "I.15",
+  "era": 2,
+  "name": "Jerusalem Liturgical-Pilgrimage Christianity",
+  "dates": "c. 325-450",
+  "lane": "Greek East & Orthodoxy",
+  "currentFlag": false,
+  "existingLivingEvidence": null,
+  "predecessors": [
+   {
+    "id": "palestinian-church-pre-constantinian",
+    "atlasId": "I.39",
+    "confidence": "Inferential-Thin"
+   }
+  ],
+  "successors": [],
+  "lineTerminals": [
+   {
+    "atlasId": "I.15",
+    "id": "jerusalem-liturgical-pilgrimage-christianity",
+    "era": 2,
+    "living": false,
+    "end": 450,
+    "weakestLink": null
+   }
+  ],
+  "otherLinksToLivingEntries": [
+   "I.6 in contact with this [Documented] (I.6 = Imperial and Juridical Christianity, c. 312-451)",
+   "this influenced II.10 [Inferential-Thin] (II.10 = Georgian Christianity, c. 330-609)"
+  ],
+  "statusDescription": "Named as a live future candidate for survey, or a dropped voice, with reasoning given either way - not yet chosen, not forgotten.",
+  "relationsSummary": "This was a near neighbor of Jerome's circle at Bethlehem. Its members worshipped at the holy places of Jerusalem. Yet Jerome wrote that heaven was as near from Britain.",
+  "why": "In the 330s Constantine's builders raised a great church complex over what they took to be the tomb of Christ. Jerusalem's clergy then built a liturgy that marked the gospel on the actual day and at the actual place it happened. They held a Palm Sunday procession down the Mount of Olives with branches in hand. They venerated the Cross on Good Friday and kept an all-night vigil at the tomb at Easter. A western pilgrim named Egeria kept a detailed diary in the early 380s of exactly what was done and when. The manuscript was lost for centuries and found again at Arezzo, in Italy, in 1883.",
+  "legacy": "Jerusalem's calendar became everyone's calendar. Holy Week came to be kept as a run of days, each one marking its own event. There was the Palm Sunday procession, Maundy Thursday, the Good Friday veneration of the Cross, and the Easter vigil. That way of keeping it spread west from here, and it is still how most of the Christian world keeps Easter. The idea of pilgrimage itself as a Christian practice spread too. With it came the habit of building churches that copy the shape of Jerusalem's holy places. Cyril was bishop of Jerusalem. His lectures are still a primary source for how the church explained baptism and communion to newcomers in the fourth century. Egeria's diary is read wherever early liturgy is studied."
+ },
+ {
+  "id": "ambrosian-milan-standalone",
+  "atlasId": "I.16",
+  "era": 2,
+  "name": "Ambrosian Milan (standalone)",
+  "dates": "c. 374-397",
+  "lane": "Latin West & Catholicism",
+  "currentFlag": false,
+  "existingLivingEvidence": null,
+  "predecessors": [],
+  "successors": [],
+  "lineTerminals": [
+   {
+    "atlasId": "I.16",
+    "id": "ambrosian-milan-standalone",
+    "era": 2,
+    "living": false,
+    "end": 397,
+    "weakestLink": null
+   }
+  ],
+  "otherLinksToLivingEntries": [
+   "I.2 influenced this [Documented] (I.2 = Alexandrian Catechetical / Christian-Platonist Tradition, c. 150–400 CE)",
+   "this argued against I.6 [Documented] (I.6 = Imperial and Juridical Christianity, c. 312-451)",
+   "this influenced I.8 [Documented] (I.8 = Latin Pastoral-Congregational Christianity, c. 240s-430)",
+   "this influenced VI.12 [Inferential-Thin] (VI.12 = Tridentine Parish Renewal - Borromean Milan, 1560-1610)"
+  ],
+  "statusDescription": "Named as a live future candidate for survey, or a dropped voice, with reasoning given either way - not yet chosen, not forgotten.",
+  "relationsSummary": "Ambrose's Milan was the seat of the western court, and its bishop argued with that court in public. He claimed that the emperor is within the church, not above it. That claim is one of the three answers told in Imperial and Juridical Christianity.",
+  "why": "In 374 the people of Milan acclaimed as their bishop a provincial governor named Ambrose who had not yet even been baptized; he was baptized and consecrated within the week. In 386 he refused to hand a basilica over to the Empress Justina's court, and his congregation occupied the building for days, singing hymns he wrote to keep their spirits up; four years later he required the emperor Theodosius to do public penance for a massacre at Thessalonica before receiving him back to the sacrament.",
+  "legacy": "Milan still keeps the Ambrosian Rite, with its own calendar, chant, and order of worship. It is distinct from the Roman Rite used almost all over the Latin church, and it is the largest surviving non-Roman Western rite. Hymns said to be by Ambrose are still sung. The people's hymn-singing he made famous when his flock held the basilica had a very long afterlife. Within two generations, a Greek historian, Theodoret, was telling again the story of his stand against Theodosius. Ambrose had stated the rule himself: a Christian ruler stands within the church, not above it. And by Augustine's own account, Ambrose's preaching is a large part of the reason the West got Augustine at all. The church he founded in the 380s still stands on its site in Milan, with his remains beneath its altar. It was rebuilt in Romanesque form eight centuries later."
+ },
+ {
+  "id": "aquileian-christianity",
+  "atlasId": "I.41",
+  "era": 2,
+  "name": "The Church of Aquileia",
+  "dates": "c. 340-410",
+  "lane": "Latin West & Catholicism",
+  "currentFlag": false,
+  "existingLivingEvidence": null,
+  "predecessors": [],
+  "successors": [],
+  "lineTerminals": [
+   {
+    "atlasId": "I.41",
+    "id": "aquileian-christianity",
+    "era": 2,
+    "living": false,
+    "end": 410,
+    "weakestLink": null
+   }
+  ],
+  "otherLinksToLivingEntries": [
+   "I.2 influenced this [Widely Accepted] (I.2 = Alexandrian Catechetical / Christian-Platonist Tradition, c. 150–400 CE)",
+   "I.5 influenced this [Documented] (I.5 = Cappadocian Christianity, c. 325-394 CE)"
+  ],
+  "statusDescription": "Named as a live future candidate for survey, or a dropped voice, with reasoning given either way - not yet chosen, not forgotten.",
+  "relationsSummary": "It sits next to Ambrose's Milan in place and time. Its people tie it to Jerome's circle at Bethlehem. Jerome and Rufinus were formed here together and later fell out. Its tie to the Alexandrian school matters most. Rufinus's translations are why much of Origen survives in Latin at all.",
+  "why": "Around 404, Rufinus of Concordia sat down in his home church at Aquileia and wrote out the creed used there at baptism. He explained it line by line for people about to say it. He also noted, a little pointedly, that this creed already had the clause about Christ's descent into hell, which Rome's did not. Rufinus's own words show that the Western churches did not all say the same words at the font. In the 370s, Rufinus had belonged to a circle of young ascetics at Aquileia that also included Jerome. Later their friendship broke apart in the bitterest literary quarrel the Latin church produced.",
+  "legacy": "The Apostles' Creed that the Latin West came to say is not just the Roman text. Every later version carries the descent into hell, and the first Western creed for baptism known to carry it is this one. Rufinus notes that the Roman creed lacks it. Still, a creed drawn up at Sirmium in 359 already had a form of it. The clause reached the accepted Western text from the creeds of the provinces, not from Rome. Rufinus' commentary is also one of the first Latin works to explain a creed in full. Other writers had explained it briefly before him, he says. A century later, Gennadius judged it so good that others counted for nothing beside it. Rufinus' translations also brought much of Greek Christianity to the Latin Middle Ages, often as the only text that survives. He translated Origen, Eusebius, the Clementine Recognitions, Basil, and the Sentences of Sextus."
+ },
+ {
+  "id": "gallic-nicene-episcopate",
+  "atlasId": "I.37",
+  "era": 2,
+  "name": "The Gallic Nicene Episcopate",
+  "dates": "c. 350-400",
+  "lane": "Latin West & Catholicism",
+  "currentFlag": false,
+  "existingLivingEvidence": null,
+  "predecessors": [],
+  "successors": [],
+  "lineTerminals": [
+   {
+    "atlasId": "I.37",
+    "id": "gallic-nicene-episcopate",
+    "era": 2,
+    "living": false,
+    "end": 400,
+    "weakestLink": null
+   }
+  ],
+  "otherLinksToLivingEntries": [
+   "this influenced I.27 [Documented] (I.27 = Gallic Monastic-Ascetic Christianity, c. 360-450)",
+   "I.6 argued against this [Widely Accepted] (I.6 = Imperial and Juridical Christianity, c. 312-451)",
+   "this argued against I.6 [Widely Accepted] (I.6 = Imperial and Juridical Christianity, c. 312-451)",
+   "this influenced I.8 [Documented] (I.8 = Latin Pastoral-Congregational Christianity, c. 240s-430)"
+  ],
+  "statusDescription": "Named as a live future candidate for survey, or a dropped voice, with reasoning given either way - not yet chosen, not forgotten.",
+  "relationsSummary": "This is the other half of fourth-century Gaul, beside Gallic monastic Christianity. It was a body of bishops resisting an imperial creed, not a monastery. The two touch at one point that matters. Martin of Tours was Hilary's disciple, and the monastic world grew up in the Gaul these bishops defended.",
+  "why": "In 356 the emperor Constantius II exiled Hilary, bishop of Poitiers, to Phrygia for refusing to condemn Athanasius — a miscalculation, since Hilary spent his exile learning the eastern debates from the inside and wrote home a patient account of what the eastern creeds actually said. He returned with De Trinitate, a massive Latin answer to Arianism, and when he came home around 360 the Gallic church repudiated the Homoian creed that had been imposed at Ariminum. He had already ordained a young ex-soldier, Martin, who was living as a monk at Ligugé.",
+  "legacy": "Hilary's De Trinitate gave Latin theology its first full study of the Trinity. Augustine, who wrote the second, quotes it by name. Gaul's refusal of the council of Ariminum also had real effects. Writing some forty years on, Sulpicius Severus says Hilary alone freed Gaul from heresy. Two centuries on, Gregory of Tours told of the Frankish king Clovis, camped near Poitiers on his way to fight the Arian Goths. A fiery light came out of Hilary's church there and stood over his head. Gregory saw the light as Hilary's help against the heretics he had fought. Hilary also ordained Martin. That ties these bishops to the Gaul of the monks that grew up beside them."
+ },
+ {
+  "id": "gallic-monastic-ascetic-christianity",
+  "atlasId": "I.27",
+  "era": 2,
+  "name": "Gallic Monastic-Ascetic Christianity",
+  "dates": "c. 360-450",
+  "lane": "Latin West & Catholicism",
+  "currentFlag": true,
+  "existingLivingEvidence": null,
+  "predecessors": [],
+  "successors": [],
+  "lineTerminals": [
+   {
+    "atlasId": "I.27",
+    "id": "gallic-monastic-ascetic-christianity",
+    "era": 2,
+    "living": true,
+    "end": 450,
+    "weakestLink": null
+   }
+  ],
+  "otherLinksToLivingEntries": [
+   "I.3 influenced this [Documented] (I.3 = Desert Monasticism, c. 320–430 CE)",
+   "this influenced II.6 [Widely Accepted] (II.6 = Early Benedictine / Italian Monasticism, c. 500-604)",
+   "this influenced II.8 [Inferential-Thin] (II.8 = Insular / Irish Monastic Christianity, c. 450-664)",
+   "this argued against I.8 [Documented] (I.8 = Latin Pastoral-Congregational Christianity, c. 240s-430)",
+   "I.8 argued against this [Documented] (I.8 = Latin Pastoral-Congregational Christianity, c. 240s-430)",
+   "this in contact with I.6 [Documented] (I.6 = Imperial and Juridical Christianity, c. 312-451)"
+  ],
+  "statusDescription": "You can sit down with this tradition now.",
+  "relationsSummary": "It drew on the desert monks of Egypt through Cassian, who had lived among them before he set up his houses at Marseilles. It fed the Merovingian Gallic church that follows it. One Irish account from the eighth century also traces a line from Cassian and Lérins to the monks of Ireland.",
+  "why": "Martin of Tours, a soldier who asked to leave the army to serve Christ unarmed, became a bishop who never stopped living like a monk; two generations later, monks at Lerins and Marseilles carried the wisdom of the Egyptian desert into a colder climate and a different church.",
+  "legacy": "Cassian's Conferences became the West's standing handbook of the inner life. Benedict's Rule praises them by name and sets them as daily reading. That carried them into every Benedictine house in Europe. Vincent, a monk of Lérins, set out a test about 434 in his Commonitory: what has been believed everywhere, always, by everyone. Sixteen centuries later, it is still quoted in debates about how doctrine develops. Lérins itself is still a monastery, on the island off Cannes where it has stood since about 410. Martin became the patron saint of France. He was one of the most widely honored saints of the medieval West, and thousands of churches carry his name. The case Gaul made against Augustine on grace was argued from Marseilles. It was still being fought over at the Reformation."
+ },
+ {
+  "id": "priscillianist-asceticism",
+  "atlasId": "I.18",
+  "era": 2,
+  "name": "Priscillianist Asceticism",
+  "dates": "c. 370-450",
+  "lane": "Latin West & Catholicism",
+  "currentFlag": false,
+  "existingLivingEvidence": null,
+  "predecessors": [],
+  "successors": [],
+  "lineTerminals": [
+   {
+    "atlasId": "I.18",
+    "id": "priscillianist-asceticism",
+    "era": 2,
+    "living": false,
+    "end": 450,
+    "weakestLink": null
+   }
+  ],
+  "otherLinksToLivingEntries": [
+   "I.6 argued against this [Documented] (I.6 = Imperial and Juridical Christianity, c. 312-451)"
+  ],
+  "statusDescription": "Named as a live future candidate for survey, or a dropped voice, with reasoning given either way - not yet chosen, not forgotten.",
+  "relationsSummary": "Iberian ascetic current",
+  "why": "In the 370s the Spanish layman Priscillian taught a severe ascetic life. It meant fasting, celibacy, and retreat to the countryside. Lay men and women read Scripture together, outside the bishops' oversight. It spread fast enough to alarm the bishops of Spain and Gaul. His opponents called it the heresy of the Gnostics and accused him of sorcery. They took the case to the emperor's court. Around 385 Magnus Maximus, an emperor who had seized the throne, had him and several companions tried at Trier and put to death. It was apparently the first time a Christian state put Christians to death over belief. Martin of Tours objected to churchmen who took a quarrel over doctrine to the executioner. He begged the emperor to spare the accused.",
+  "legacy": "The movement was suppressed but not immediately extinguished. Priscillian became a martyr in the eyes of his followers, the ascetic current he represented persisted in Galicia in north-western Spain for more than a century, and a council at Braga was still condemning Priscillianism in 561. Its heaviest legacy is the precedent set against it. The execution at Trier is the point at which capital punishment for heresy enters Western Christian practice, and it was cited afterwards both as precedent and as warning. In 1885 a set of eleven anonymous treatises was identified in a Würzburg manuscript, widely thought to come from Priscillian or his circle: the first chance in fourteen centuries to hear this movement in something close to its own voice rather than through the charges laid against it."
+ },
+ {
+  "id": "pelagianism",
+  "atlasId": "I.19",
+  "era": 2,
+  "name": "Pelagianism",
+  "dates": "c. 390-430",
+  "lane": "Latin West & Catholicism",
+  "currentFlag": false,
+  "existingLivingEvidence": null,
+  "predecessors": [],
+  "successors": [],
+  "lineTerminals": [
+   {
+    "atlasId": "I.19",
+    "id": "pelagianism",
+    "era": 2,
+    "living": false,
+    "end": 430,
+    "weakestLink": null
+   }
+  ],
+  "otherLinksToLivingEntries": [
+   "I.8 argued against this [Documented] (I.8 = Latin Pastoral-Congregational Christianity, c. 240s-430)",
+   "this argued against I.8 [Documented] (I.8 = Latin Pastoral-Congregational Christianity, c. 240s-430)"
+  ],
+  "statusDescription": "Named as a live future candidate for survey, or a dropped voice, with reasoning given either way - not yet chosen, not forgotten.",
+  "relationsSummary": "Augustine's great controversy-partner",
+  "why": "Pelagius, a British-born ascetic teacher in Rome, argued that God never commands the impossible — if Scripture tells you to be perfect, then you can be, and pleading a weak human nature is an excuse, not an explanation. Around that conviction gathered a movement of serious, high-minded Christians who pushed the argument into questions about infant baptism, inherited guilt, and whether grace helps a person or simply takes them over. Augustine fought them for the last twenty years of his life, and African councils condemned the movement in 418, the Council of Ephesus again in 431.",
+  "legacy": "There was never a Pelagian church, and the movement left no institution. But the argument it forced has never closed. To answer it, Augustine worked out the Western doctrines of original sin, prevenient grace, and predestination. He gave them the form that Aquinas, Luther, Calvin, and the Jansenists would all later fight over. So a good deal of the shape of Western theology is the shape of this quarrel. \"Pelagian\" also lives on as one of Christianity's most lasting insults. It is thrown at anyone thought to make salvation a matter of human effort, usually by people who have never read a line of Pelagius, since so little of him survives to read. A few of his works did come through under Jerome's name. Augustine knew in his own day that one of them, the Letter to Demetrias, was Pelagius's own. Yet it was still printed among Jerome's works in the nineteenth century."
+ },
+ {
+  "id": "homoian-arian-christianity",
+  "atlasId": "I.23",
+  "era": 2,
+  "name": "Homoian ('Arian') Christianity",
+  "dates": "4th-6th c.",
+  "lane": "Non-Nicene Traditions",
+  "currentFlag": false,
+  "existingLivingEvidence": null,
+  "predecessors": [],
+  "successors": [],
+  "lineTerminals": [
+   {
+    "atlasId": "I.23",
+    "id": "homoian-arian-christianity",
+    "era": 2,
+    "living": false,
+    "end": 589,
+    "weakestLink": null
+   }
+  ],
+  "otherLinksToLivingEntries": [
+   "I.6 argued against this [Documented] (I.6 = Imperial and Juridical Christianity, c. 312-451)",
+   "this argued against I.5 [Widely Accepted] (I.5 = Cappadocian Christianity, c. 325-394 CE)",
+   "I.6 influenced this [Documented] (I.6 = Imperial and Juridical Christianity, c. 312-451)",
+   "I.2 argued against this [Documented] (I.2 = Alexandrian Catechetical / Christian-Platonist Tradition, c. 150–400 CE)"
+  ],
+  "statusDescription": "Excluded on a stated creedal ground you can read in full. Exclusion is not a judgment of unimportance.",
+  "relationsSummary": "For stretches of the 4th c., the imperial church itself",
+  "why": "The Homoians taught that the Son is 'like' the Father according to the Scriptures. But they refused to say he was of one being with the Father. No council, they held, should force a word that Scripture itself never used. The emperors Constantius II and Valens backed them, and for long stretches of the fourth century this was the imperial church's official position. It lasted long enough for Jerome to write that the world groaned to find itself Arian. Its bishop Ulfila spent his life among the Goths, made an alphabet for their language, and translated the Bible into it. The Goths became Christians in this form, and the Vandals, Burgundians, and Lombards held it too. Homoian kingdoms ruled Italy, Spain, and North Africa for generations after the empire itself had turned Nicene.",
+  "legacy": "Its own churches are gone. Every Homoian kingdom in time came over to the Nicene creed, and no community today carries the tradition forward. What it left behind is less direct. Large parts of Ulfila's Gothic Bible survive, and scholars of the Germanic languages still edit and study it. Its finest copy is kept in Uppsala. It was written in silver and gold letters on purple parchment in the fifth or sixth century. Its buildings survive too. Ravenna was the capital of Theoderic, an Arian king. Its Arian Baptistery and Sant'Apollinare Nuovo still stand, with mosaics among the finest anywhere. And the Nicene Creed itself partly carries the shape of the argument with them. In 381 the Council of Constantinople confirmed the faith of Nicaea, which calls the Son of one being with the Father. In the same canon it condemned the Homoians by name, as \"the Arians or Eudoxians.\""
+ },
+ {
+  "id": "anomoean-eunomian-christianity",
+  "atlasId": "I.28",
+  "era": 2,
+  "name": "Anomoean (Eunomian) Christianity",
+  "dates": "c. 350-c. 430",
+  "lane": "Non-Nicene Traditions",
+  "currentFlag": false,
+  "existingLivingEvidence": null,
+  "predecessors": [],
+  "successors": [],
+  "lineTerminals": [
+   {
+    "atlasId": "I.28",
+    "id": "anomoean-eunomian-christianity",
+    "era": 2,
+    "living": false,
+    "end": 430,
+    "weakestLink": null
+   }
+  ],
+  "otherLinksToLivingEntries": [
+   "I.5 argued against this [Documented] (I.5 = Cappadocian Christianity, c. 325-394 CE)",
+   "I.6 argued against this [Documented] (I.6 = Imperial and Juridical Christianity, c. 312-451)"
+  ],
+  "statusDescription": "Carries a named creedal question for a future survey to answer - stated as a question, not a verdict.",
+  "relationsSummary": "This was the radical wing of the Arian dispute in the fourth century. It was a different party from the Homoians, though it is usually filed with them. The break began at Constantinople in 360. That year a Homoian council deposed Aetius. This is the party the Cappadocians wrote against. It is also the one the First Council of Constantinople formally cursed by name.",
+  "why": "In the 350s the Antiochene deacon Aetius pushed the Arian case to its sharpest point, teaching that the Son is not merely lesser than the Father but unlike him — anomoios — in essence. His pupil Eunomius went further still, claiming that God's essence is simply ingeneracy and that a human mind can know it exactly as God knows it himself. It was against that claim that Basil, Gregory of Nyssa, and Gregory of Nazianzus wrote some of the century's most demanding theology, and the Council of Constantinople in 381 condemned the Eunomians by name.",
+  "legacy": "The Cappadocian theology that the Nicene tradition still uses was largely forged against these opponents: the distinction between God's unknowable essence and his knowable operations, and the doctrine that theological language names God truly without comprehending him, were both worked out to answer Eunomius' claim that it could. Gregory of Nyssa's Against Eunomius is the reason substantial portions of Eunomius' own argument survive at all. Constantinople I's first canon names the Eunomians among the parties it condemns, and that canon is still read in the conciliar collections. The sect itself left no continuing church."
+ },
+ {
+  "id": "pneumatomachian-current",
+  "atlasId": "I.29",
+  "era": 2,
+  "name": "Pneumatomachian ('Macedonian') Christianity",
+  "dates": "c. 360-420",
+  "lane": "Non-Nicene Traditions",
+  "currentFlag": false,
+  "existingLivingEvidence": null,
+  "predecessors": [],
+  "successors": [],
+  "lineTerminals": [
+   {
+    "atlasId": "I.29",
+    "id": "pneumatomachian-current",
+    "era": 2,
+    "living": false,
+    "end": 420,
+    "weakestLink": null
+   }
+  ],
+  "otherLinksToLivingEntries": [
+   "I.5 argued against this [Documented] (I.5 = Cappadocian Christianity, c. 325-394 CE)",
+   "I.6 argued against this [Documented] (I.6 = Imperial and Juridical Christianity, c. 312-451)"
+  ],
+  "statusDescription": "Carries a named creedal question for a future survey to answer - stated as a question, not a verdict.",
+  "relationsSummary": "A distinct question from the Arian one, and later: these were people who had largely accepted Nicaea on the Son and stopped short on the Spirit. Condemned by name in canon 1 of Constantinople I alongside Eunomians, Arians and others.",
+  "why": "By about 360, a body of churchmen in Constantinople and Asia Minor had come to accept the Son's full divinity but stopped short of saying the same of the Holy Spirit, holding him instead to be a creature or a ministering spirit of some lesser order. Basil of Caesarea answered them around 375 in On the Holy Spirit, arguing the Spirit's divinity not from a single proof-text but from how the church already prayed and baptized. The Council of Constantinople settled the question in 381 by expanding the creed's third article into the clauses still recited every week.",
+  "legacy": "The third article of the Nicene Creed as it is recited today - Lord and giver of life, worshipped and glorified together with the Father and the Son - is the answer to this party. Basil argued it in a way of his own. He took the church's practice of prayer and baptism as evidence of what it believes."
+ },
+ {
+  "id": "apollinarian-christianity",
+  "atlasId": "I.30",
+  "era": 2,
+  "name": "Apollinarian Christianity",
+  "dates": "c. 360-430",
+  "lane": "Non-Nicene Traditions",
+  "currentFlag": false,
+  "existingLivingEvidence": null,
+  "predecessors": [],
+  "successors": [],
+  "lineTerminals": [
+   {
+    "atlasId": "I.30",
+    "id": "apollinarian-christianity",
+    "era": 2,
+    "living": false,
+    "end": 430,
+    "weakestLink": null
+   }
+  ],
+  "otherLinksToLivingEntries": [
+   "I.5 argued against this [Documented] (I.5 = Cappadocian Christianity, c. 325-394 CE)",
+   "I.6 argued against this [Documented] (I.6 = Imperial and Juridical Christianity, c. 312-451)"
+  ],
+  "statusDescription": "Carries a named creedal question for a future survey to answer - stated as a question, not a verdict.",
+  "relationsSummary": "This was not an Arian position at all. Apollinaris had stood with Athanasius against Arianism, and he came to his view by pressing the unity of Christ too hard. The question he raised, how much of a human being Christ became, ran on into the councils of Ephesus and Chalcedon.",
+  "why": "Apollinaris of Laodicea was an ally of Athanasius and a defender of Nicaea. He pressed the unity of Christ so hard that he left no room in him for a human mind. The divine Word, he argued, took the place a human rational soul would hold. Gregory of Nazianzus gave the reply that stuck, in a letter to the priest Cledonius: what is not assumed is not healed. So a Christ without a human mind could not save the human mind. Apollinaris' teaching was condemned at Rome in the 370s and by name at Constantinople in 381. His own writings survived mostly because his followers kept passing them around under other men's names.",
+  "legacy": "Gregory's principle, what is not assumed is not healed, became a load-bearing rule of Christian thought. It is still quoted in debates that have nothing to do with Apollinaris. The quarrel also shaped the next hundred years. At Ephesus in 431 the bishops heard a letter from Cyril. It said the Word took flesh \"animated by a rational soul.\" At Chalcedon in 451 their definition called Christ truly man, with a rational soul and a body."
+ },
+ {
+  "id": "modalist-monarchianism",
+  "atlasId": "I.31",
+  "era": 1,
+  "name": "Modalist Monarchianism",
+  "dates": "c. 190-270",
+  "lane": "Non-Nicene Traditions",
+  "currentFlag": false,
+  "existingLivingEvidence": null,
+  "predecessors": [],
+  "successors": [],
+  "lineTerminals": [
+   {
+    "atlasId": "I.31",
+    "id": "modalist-monarchianism",
+    "era": 1,
+    "living": false,
+    "end": 270,
+    "weakestLink": null
+   }
+  ],
+  "otherLinksToLivingEntries": [],
+  "statusDescription": "Carries a named creedal question for a future survey to answer - stated as a question, not a verdict.",
+  "relationsSummary": "The mirror-image error to Arianism and earlier than it: both are attempts to protect the one God, one by subordinating the Son and one by dissolving him into the Father. Hippolytus accused Callistus, bishop of Rome, of sheltering it.",
+  "why": "Around the turn of the third century, teachers including Noetus of Smyrna and Praxeas at Rome argued that Father, Son, and Spirit were not truly distinct, but one God appearing in three different ways. Their opponents pressed the blunt consequence: if the Son simply is the Father, then it was the Father who was born and died on the cross. Tertullian's reply, Against Praxeas, forged much of the Latin vocabulary later theology would use to say the opposite.",
+  "legacy": "Tertullian's Against Praxeas is where a great deal of Latin trinitarian vocabulary was first put to work, so the tradition's language for the doctrine was partly forged in the argument against this position. Modalism has also proved unusually persistent: it is the account of the Trinity that ordinary believers most often reinvent without being taught it, and 'Sabellianism' is still the name theologians reach for when they see it."
+ },
+ {
+  "id": "bardaisanite-current",
+  "atlasId": "I.32",
+  "era": 1,
+  "name": "Bardaisan and the Bardaisanites",
+  "dates": "c. 180-400",
+  "lane": "Non-Nicene Traditions",
+  "currentFlag": false,
+  "existingLivingEvidence": null,
+  "predecessors": [],
+  "successors": [],
+  "lineTerminals": [
+   {
+    "atlasId": "I.32",
+    "id": "bardaisanite-current",
+    "era": 1,
+    "living": false,
+    "end": 400,
+    "weakestLink": null
+   }
+  ],
+  "otherLinksToLivingEntries": [
+   "I.7 argued against this [Documented] (I.7 = Syriac Christianity (Edessa/Nisibis), 200–410 CE)",
+   "this influenced I.7 [Documented] (I.7 = Syriac Christianity (Edessa/Nisibis), 200–410 CE)"
+  ],
+  "statusDescription": "Carries a named creedal question for a future survey to answer - stated as a question, not a verdict.",
+  "relationsSummary": "Bardaisan was Edessa's best-known Christian thinker before Ephraim. A century and a half later, Ephraim fought his followers. He was a near neighbor of Edessa's Syriac church, not a stranger to it.",
+  "why": "Bardaisan of Edessa was a courtier, philosopher, and baptized member of the Edessene church who wrote against Marcion and argued that human freedom is real against the fatalism of the astrologers. His hymns were popular enough that, a century and a half later, Ephraim the Syrian felt he had to write better ones, even while accusing Bardaisan of a heretical cosmology of primordial beings. Which picture is true is a question the surviving evidence has never settled.",
+  "legacy": "Syriac hymnody as a form owes something to both sides of this argument: Bardaisan and his son Harmonius set the pattern, and Ephraim's decision to answer them in the same form gave the Syriac church the madrasha tradition that shaped its worship for centuries. The Book of the Laws of Countries remains one of the earliest Syriac prose works of any kind."
+ },
+ {
+  "id": "melitian-schism",
+  "atlasId": "I.44",
+  "era": 2,
+  "name": "The Melitian Schism",
+  "dates": "c. 306-8th c.",
+  "lane": "Africa",
+  "currentFlag": false,
+  "existingLivingEvidence": null,
+  "predecessors": [],
+  "successors": [],
+  "lineTerminals": [
+   {
+    "atlasId": "I.44",
+    "id": "melitian-schism",
+    "era": 2,
+    "living": false,
+    "end": 768,
+    "weakestLink": null
+   }
+  ],
+  "otherLinksToLivingEntries": [
+   "II.1 broke with this [Documented] (II.1 = The Church of Alexandria and Miaphysite Egypt, 328-642)",
+   "II.1 argued against this [Documented] (II.1 = The Church of Alexandria and Miaphysite Egypt, 328-642)",
+   "this argued against II.1 [Documented] (II.1 = The Church of Alexandria and Miaphysite Egypt, 328-642)",
+   "I.3 argued against this [Documented] (I.3 = Desert Monasticism, c. 320–430 CE)",
+   "I.6 argued against this [Documented] (I.6 = Imperial and Juridical Christianity, c. 312-451)"
+  ],
+  "statusDescription": "Not yet researched or tiered; added so that works in the Library have a place on the Atlas.",
+  "relationsSummary": "A rival church to the bishops of Alexandria from about 306. It broke with them, and its members brought charges against Athanasius. The Council of Nicaea tried to settle the split in 325. Antony of the desert would hold no communion with it.",
+  "why": "A quarrel between two bishops in a time of persecution split the church of Egypt for more than two centuries. The Melitians kept their own bishops, priests and monks. They fought Athanasius before councils and emperors. Their letters, in Greek and Coptic, let them speak for themselves.",
+  "legacy": "No church today descends from the Melitians. Their papyri give something rare: the losing side of an early church quarrel, in its own words. Most of what is known of such groups comes only from their enemies. The letters also show an organized community of Egyptian monks in the 330s, outside the main church."
+ },
+ {
+  "id": "luciferians",
+  "atlasId": "I.45",
+  "era": 2,
+  "name": "The Luciferians",
+  "dates": "c. 355-c. 440",
+  "lane": "Latin West & Catholicism",
+  "currentFlag": false,
+  "existingLivingEvidence": null,
+  "predecessors": [],
+  "successors": [],
+  "lineTerminals": [
+   {
+    "atlasId": "I.45",
+    "id": "luciferians",
+    "era": 2,
+    "living": false,
+    "end": 440,
+    "weakestLink": null
+   }
+  ],
+  "otherLinksToLivingEntries": [
+   "I.6 in contact with this [Documented] (I.6 = Imperial and Juridical Christianity, c. 312-451)",
+   "I.6 argued against this [Inferential-Thin] (I.6 = Imperial and Juridical Christianity, c. 312-451)",
+   "I.6 broke with this [Documented] (I.6 = Imperial and Juridical Christianity, c. 312-451)",
+   "I.8 argued against this [Documented] (I.8 = Latin Pastoral-Congregational Christianity, c. 240s-430)"
+  ],
+  "statusDescription": "Proposed for later study. Not yet reviewed.",
+  "relationsSummary": "They began as the hardest of the Nicene party. Lucifer wrote against the emperor Constantius and the bishops who took his creed. In 362 the church agreed to let bishops who had given way keep their sees. Lucifer's followers would not accept them, and stood apart. Jerome wrote a dialogue against them, and Augustine said they had cut themselves off. In 383 or 384 two of their priests asked the emperors for protection, and the emperors granted it.",
+  "why": "In 359 almost every bishop of the West signed a creed the emperor wanted. Later most of them took it back. The church then let them keep their places. A small party said no. A bishop who had given way once, they held, could never lead the church again. Their stand shows how hard it was to heal the church after the fights over the creed. It also left the losing side's case in its own words.",
+  "legacy": "The group did not last, but its case lives on in its own words. Its petition was kept in a Roman book of letters from emperors and popes, the Collectio Avellana. Lucifer's pamphlets survive whole. Jerome's dialogue against the group holds his famous line on the council of Ariminum: the whole world groaned to find itself Arian.\n\nThe quarrel also raised an older question, which Jerome traces back to Cyprian. Should people baptized outside the church be baptized again when they come in?"
+ }
+]

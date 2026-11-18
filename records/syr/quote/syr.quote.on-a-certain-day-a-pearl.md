@@ -17,18 +17,17 @@ confidence:
     Documented as Ephrem's own, in Morris's Oxford translation carried into the NPNF series. The hymns are liturgical poetry composed for singing, not exposition, and the argument is carried by the image rather than stated beside it.
 sources:
 - source_id: syr.source.ephrem-hymns-on-faith-pearl
-  locus: >-
-    The Pearl: Seven Hymns on the Faith, Hymn I.1, trans. J. B. Morris (npnf213_gregory-great-ephraim-syrus-aphrahat.xml)
+  locus: "The Pearl: Seven Hymns on the Faith, Hymn I.1, trans. J. B. Morris (cic/texts/npnf213_gregory-great-ephraim-syrus-aphrahat.xml, lines 21794-21801)"
   license: public-domain
 text: >-
   On a certain day a pearl did I take up, my brethren; I saw in it mysteries pertaining to the Kingdom; semblances and types of the Majesty; it became a fountain, and I drank out of it mysteries of the Son. I put it, my brethren, upon the palm of my hand, that I might examine it: I went to look at it on one side, and it proved faces on all sides. I found out that the Son was incomprehensible, since He is wholly Light.
 modern_rendering: >-
   One day, my brothers, I picked up a pearl. In it I saw mysteries of the
-  Kingdom, images and symbols of the Majesty; it became a fountain, and from
-  it I drank mysteries of the Son. I set it, my brothers, on the palm of my
-  hand so I could examine it. I went to look at it from one side, and it
-  showed faces on every side. I discovered that the Son cannot be fully
-  grasped, since he is wholly Light.
+  Kingdom, likenesses and symbols of the Majesty. It became a fountain, and
+  from it I drank mysteries of the Son. I set it, my brothers, on the palm of
+  my hand so I could examine it. I went to look at it from one side, and it
+  showed faces on every side. I discovered that the Son cannot be grasped,
+  since he is wholly Light.
 speaker_or_author: Ephrem the Syrian, The Pearl, Hymn I
 license: verbatim
 modern_lens_note: >-

@@ -18,9 +18,7 @@ confidence:
     corroborated outside Cassian's own corpus).
 sources:
 - source_id: gallic.source.cassian-conferences-part-ii
-  locus: "Conference XV.7 (npnf211 div iv.v.vi.vii, file lines 39875-39904): Nesteros's teaching
-    that humility, not miracle-working, is the mistress of the virtues, and his judgment against
-    self-professed exorcists"
+  locus: "Conference XV.7 (cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml, lines 39884-39906; div iv.v.vi.vii): Nesteros's teaching that humility, not miracle-working, is the mistress of the virtues, and his judgment against self-professed exorcists"
   license: public-domain
 retrieval:
   tier: 2
@@ -61,7 +59,7 @@ modern_lens_note: >-
   crowd is, on this teaching, evidence against a monk, not for one.
 modern_rendering: >-
   So humility is the mistress of all virtues. It is the surest foundation of the heavenly
-  building. It is the special and splendid gift of the Saviour. For the one who can perform all
+  building. It is the special and splendid gift of the Savior. For the one who can perform all
   the miracles Christ worked, without danger of being puffed up, is the one who follows the
   gentle Lord. He follows Him not in the grandeur of His miracles, but in the virtues of patience
   and humility. But someone may aim to command unclean spirits, or to give gifts of healing, or

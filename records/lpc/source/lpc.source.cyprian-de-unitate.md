@@ -14,7 +14,7 @@ confidence:
   divergence_note: Confidence B rather than A because De Unitate 5 does not carry Cyprian's own anti-Stephen
     position -- the treatise predates by several years the dispute with Stephen, in which Cyprian held baptism given outside the church void (Doc_01 SS7);
     a finding about what this row is NOT licensed for, not an independent locus check. De Unitate 4-5
-    also survives in two recensions, one (the 'Primacy Text') reading more favourably to Roman primacy
+    also survives in two recensions, one (the 'Primacy Text') reading more favorably to Roman primacy
     -- a transmission fact Doc_01 SS7 names and does not resolve; Registry row 51 (Bévenot's critical
     edition) is the instrument that would actually close it. It is in copyright and is not held.
 sources: []
@@ -24,6 +24,7 @@ work: On the Unity of the Church (De Unitate)
 edition: Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml
 citation: 'Cyprian of Carthage, On the Unity of the Church (De Unitate), Ante-Nicene Fathers, vol. V'
 kind: vendored
+shelf_row: anf05_hippolytus-cyprian-caius-novatian--on-the-unity-of-the-church-de-unitate
 rights_status: 'public-domain; vendored in cic/texts/ as part of the corpus map''s own pre-existing inventory
   (role: tradition, confidence: assigned), carried into this world''s construction without this row''s
   own specific locus being independently re-collated.'

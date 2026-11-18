@@ -1,0 +1,151 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "lpc.witness.baptism-traced-to-the-apostles",
+    "lpc.limit.apostolic-origin-undefended"
+   ],
+   "sentence": "Augustine traced two of our practices to the apostles by name, infant baptism and the refusal to rebaptize, though no apostle wrote either down."
+  },
+  {
+   "record_ids": [
+    "lpc.witness.baptism-traced-to-the-apostles"
+   ],
+   "sentence": "His reasoning was that a custom this old and this universal, with no council behind it, is rightly believed to come from the apostles."
+  },
+  {
+   "record_ids": [
+    "lpc.witness.apostolic-succession-of-bishops",
+    "lpc.limit.apostolic-origin-undefended"
+   ],
+   "sentence": "The office of bishop is traced too, because Augustine counted the line of Rome's bishops back to Peter."
+  },
+  {
+   "record_ids": [
+    "lpc.witness.apostolic-succession-of-bishops"
+   ],
+   "sentence": "Cyprian gave no list of his own, but he stated the principle that carries that line forward."
+  },
+  {
+   "record_ids": [
+    "lpc.limit.apostolic-origin-undefended"
+   ],
+   "sentence": "Neither bishop traces catechesis, the road back, or the teaching before the water to the apostles by name."
+  },
+  {
+   "record_ids": [
+    "lpc.limit.apostolic-origin-undefended"
+   ],
+   "sentence": "That gap is real, and we do not close it."
+  },
+  {
+   "record_ids": [
+    "lpc.limit.apostolic-origin-undefended",
+    "lpc.term.the-one-episcopate"
+   ],
+   "sentence": "The oneness of the bishop's office is an argument Cyprian drew from what the Lord said to Peter, not a second named succession."
+  }
+ ],
+ "citations": [
+  "lpc.limit.apostolic-origin-undefended",
+  "lpc.term.the-one-episcopate",
+  "lpc.witness.apostolic-succession-of-bishops",
+  "lpc.witness.baptism-traced-to-the-apostles"
+ ],
+ "group": "A",
+ "id": "q017",
+ "net_sentences": [
+  {
+   "draft": "Augustine traced two of our practices to the apostles by name, infant baptism and the refusal to rebaptize, though no apostle wrote either down [[lpc.witness.baptism-traced-to-the-apostles]][[lpc.limit.apostolic-origin-undefended]][[as:paraphrase]].",
+   "ratio": 0.93,
+   "sentence": "Augustine traced two of our practices to the apostles by name, infant baptism and the refusal to rebaptize, though no apostle wrote either down.",
+   "tags": [
+    "lpc.witness.baptism-traced-to-the-apostles",
+    "lpc.limit.apostolic-origin-undefended"
+   ],
+   "verdict": "ok",
+   "why": "grounded 93% in own tagged records"
+  },
+  {
+   "draft": "His reasoning was that a custom this old and this universal, with no council behind it, is rightly believed to come from the apostles [[lpc.witness.baptism-traced-to-the-apostles]][[as:paraphrase]].",
+   "sentence": "His reasoning was that a custom this old and this universal, with no council behind it, is rightly believed to come from the apostles.",
+   "tags": [
+    "lpc.witness.baptism-traced-to-the-apostles"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "The office of bishop is traced too, because Augustine counted the line of Rome's bishops back to Peter [[lpc.witness.apostolic-succession-of-bishops]][[lpc.limit.apostolic-origin-undefended]][[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "The office of bishop is traced too, because Augustine counted the line of Rome's bishops back to Peter.",
+   "tags": [
+    "lpc.witness.apostolic-succession-of-bishops",
+    "lpc.limit.apostolic-origin-undefended"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "Cyprian gave no list of his own, but he stated the principle that carries that line forward [[lpc.witness.apostolic-succession-of-bishops]][[as:paraphrase]].",
+   "sentence": "Cyprian gave no list of his own, but he stated the principle that carries that line forward.",
+   "tags": [
+    "lpc.witness.apostolic-succession-of-bishops"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Neither bishop traces catechesis, the road back, or the teaching before the water to the apostles by name [[lpc.limit.apostolic-origin-undefended]][[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "Neither bishop traces catechesis, the road back, or the teaching before the water to the apostles by name.",
+   "tags": [
+    "lpc.limit.apostolic-origin-undefended"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "That gap is real, and we do not close it [[lpc.limit.apostolic-origin-undefended]][[as:paraphrase]].",
+   "sentence": "That gap is real, and we do not close it.",
+   "tags": [
+    "lpc.limit.apostolic-origin-undefended"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "The oneness of the bishop's office is an argument Cyprian drew from what the Lord said to Peter, not a second named succession [[lpc.limit.apostolic-origin-undefended]][[lpc.term.the-one-episcopate]][[as:paraphrase]].",
+   "ratio": 0.92,
+   "sentence": "The oneness of the bishop's office is an argument Cyprian drew from what the Lord said to Peter, not a second named succession.",
+   "tags": [
+    "lpc.limit.apostolic-origin-undefended",
+    "lpc.term.the-one-episcopate"
+   ],
+   "verdict": "ok",
+   "why": "grounded 92% in own tagged records"
+  }
+ ],
+ "offered": [
+  "lpc.limit.apostolic-origin-undefended",
+  "lpc.witness.baptism-traced-to-the-apostles",
+  "lpc.term.plenary-council",
+  "lpc.story.election-of-cyprian",
+  "lpc.story.numidicus",
+  "lpc.quote.not-his-own-sins-but-the-sins-of-another",
+  "lpc.quote.earlier-councils-corrected-by-later",
+  "lpc.force.congregational-acclamation-overriding-preference"
+ ],
+ "raw_text": "Augustine traced two of our practices to the apostles by name, infant baptism and the refusal to rebaptize, though no apostle wrote either down [[lpc.witness.baptism-traced-to-the-apostles]][[lpc.limit.apostolic-origin-undefended]][[as:paraphrase]]. His reasoning was that a custom this old and this universal, with no council behind it, is rightly believed to come from the apostles [[lpc.witness.baptism-traced-to-the-apostles]][[as:paraphrase]]. The office of bishop is traced too, because Augustine counted the line of Rome's bishops back to Peter [[lpc.witness.apostolic-succession-of-bishops]][[lpc.limit.apostolic-origin-undefended]][[as:paraphrase]]. Cyprian gave no list of his own, but he stated the principle that carries that line forward [[lpc.witness.apostolic-succession-of-bishops]][[as:paraphrase]]. Neither bishop traces catechesis, the road back, or the teaching before the water to the apostles by name [[lpc.limit.apostolic-origin-undefended]][[as:paraphrase]]. That gap is real, and we do not close it [[lpc.limit.apostolic-origin-undefended]][[as:paraphrase]]. The oneness of the bishop's office is an argument Cyprian drew from what the Lord said to Peter, not a second named succession [[lpc.limit.apostolic-origin-undefended]][[lpc.term.the-one-episcopate]][[as:paraphrase]].\n",
+ "reply_shape": {
+  "placed": [],
+  "removed": [],
+  "repaired": []
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": "C7.S8",
+ "text": "Augustine traced two of our practices to the apostles by name, infant baptism and the refusal to rebaptize, though no apostle wrote either down. His reasoning was that a custom this old and this universal, with no council behind it, is rightly believed to come from the apostles. The office of bishop is traced too, because Augustine counted the line of Rome's bishops back to Peter. Cyprian gave no list of his own, but he stated the principle that carries that line forward. Neither bishop traces catechesis, the road back, or the teaching before the water to the apostles by name. That gap is real, and we do not close it. The oneness of the bishop's office is an argument Cyprian drew from what the Lord said to Peter, not a second named succession.",
+ "voice_set_aside": false
+}

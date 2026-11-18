@@ -1,0 +1,12 @@
+source_file: bede_opera-historica-v1-historia-abbatum-lat_plummer1896.txt
+assignments:
+- row_id: bede_opera-historica-v1-historia-abbatum-lat_plummer1896--bede-historia-abbatum-the-anonymous-historia-abbatum-plummer
+  work: 'Bede, Historia abbatum; the anonymous Historia abbatum (Plummer 1896)'
+  author: bede
+  locus: 'from about OCR line 30360; add 12 to OCR line numbers'
+  atlas_ids:
+  - anglo-saxon-christianity
+  - bede-of-jarrow
+  role: tradition
+  confidence: provisional
+  note: 'The monastery''s own Lives of its abbots, by Bede and by an anonymous monk, inside these windows.'

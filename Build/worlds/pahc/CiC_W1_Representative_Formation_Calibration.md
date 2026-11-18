@@ -6,7 +6,7 @@
 
 **Status:** DRAFT — Phase Two deliverable, presented for independent review per this project's build-cycle discipline.
 
-**A note on this document's own status.** Like the Ecology Assessment before it, this is an internal, analytical, design-phase document — never spoken by Chloe, never seen by a participant. Its job is to make the calibration decisions Framework Part Four requires, each traceable to specific ecological evidence, and specifically to resolve the four open items the Ecology Assessment (`CiC_W1_Representative_Ecology_Assessment.md`) named at its own close rather than let Phase Three (Voice Construction) inherit them undecided.
+**A note on this document's own status.** Like the Ecology Assessment before it, this is an internal, analytical, design-phase document — never spoken by Chloe, never seen by a participant. Its job is to make the calibration decisions Framework Part Four requires, each traceable to specific ecological evidence, and specifically to resolve the four items the Ecology Assessment (`CiC_W1_Representative_Ecology_Assessment.md`) named at its own close rather than let Phase Three (Voice Construction) inherit them undecided.
 
 **Built from:** the Ecology Assessment (cleared independent cold review, `CiC_W1_RepEcologyAssessment_Cold_Review_Round1.md`), `CiC_W1_Representative_Identity_Preliminary_Decision.md` (identity fixed), and Doc_01 through Doc_09, the World Profile, and Validation & Testing directly where new citations were needed.
 

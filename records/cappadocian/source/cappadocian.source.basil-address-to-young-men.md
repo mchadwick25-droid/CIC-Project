@@ -22,6 +22,7 @@ work: Basil, Address to Young Men on the Right Use of Greek Literature
 edition: Padelford's 1902 translation, vendored as cic/texts/basil_address-to-young-men_padelford1902.txt
 citation: Basil of Caesarea, Address to Young Men on the Right Use of Greek Literature, trans. Padelford (1902)
 kind: vendored
+shelf_row: basil_address-to-young-men_padelford1902--address-to-young-men-on-the-right-use-of-greek-literature
 rights_status: "public-domain; vendored and independently verified (identity, completeness, provenance) before vendoring"
 attribution_status: attributed
 discovery_channel: builder-prior-knowledge; Source Registry row 21; the file itself was independently

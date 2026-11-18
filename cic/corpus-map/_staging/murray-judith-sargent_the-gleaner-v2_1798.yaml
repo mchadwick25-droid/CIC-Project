@@ -1,0 +1,17 @@
+source_file: murray-judith-sargent_the-gleaner-v2_1798.txt
+assignments:
+- row_id: murray-judith-sargent_the-gleaner-v2_1798--gleaner-v2-essays
+  work: 'Judith Sargent Murray (''Constantia''), The Gleaner, vol. II: essays XXXV-LXVIII (1798)'
+  author: murray-judith-sargent
+  locus: 'the essays at OCR lines 217-19712; add 12 to OCR line numbers'
+  atlas_ids:
+  - early-american-unitarians-universalists
+  role: tradition
+  confidence: provisional
+  language: eng
+  date: {start: 1794, end: 1798, source: "title page: 1798 (OCR lines 43-50); essays in it are dated 1794", formation_confidence: Documented}
+  note: 'Essays and a serial story, printed under the name Constantia. Her life appears in them only indirectly.'
+authors_ruled:
+  murray-judith-sargent:
+    kind: pseudonymous
+    evidence: "The title page reads 'By Constantia'. The archive.org record names Judith Sargent Murray; in the conclusion of vol. III, 'The Gleaner Unmasked', the author drops the mask (vol. III file lines 16048-16236)."

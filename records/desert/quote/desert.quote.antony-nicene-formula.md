@@ -14,7 +14,7 @@ confidence:
   divergence_note: "Contested for incident-level attribution, matching desert.quote.antony-arians-serpents's own basis for material from the same Vita and the same episode - reported teaching within Athanasius's own narrative, written by a bishop with his own anti-Arian purposes. The words themselves are quoted verbatim from the vendored text."
 sources:
 - source_id: desert.source.athanasius-vita-antonii
-  locus: "SS69 - Antony, summoned to Alexandria by the bishops, publicly teaching against the Arians"
+  locus: "SS69 - Antony, summoned to Alexandria by the bishops, publicly teaching against the Arians (cic/texts/npnf204_athanasius-select-works-letters.xml, lines 32931-32936)"
   license: public-domain
 text: "...the Son of God was not a created being, neither had He come into being from non-existence, but that He was the Eternal Word and Wisdom of the Essence of the Father. And therefore it was impious to say, 'there was a time when He was not,' for the Word was always co-existent with the Father."
 modern_rendering: >-

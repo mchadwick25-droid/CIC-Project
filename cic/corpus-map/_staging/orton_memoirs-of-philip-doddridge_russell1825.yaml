@@ -1,0 +1,28 @@
+source_file: orton_memoirs-of-philip-doddridge_russell1825.txt
+assignments:
+- row_id: orton_memoirs-of-philip-doddridge_russell1825--orton-memoirs-of-doddridge
+  work: 'Orton, Memoirs of the Life, Character and Writings of Philip Doddridge (preface of 1765; Edinburgh, 1825)'
+  author: orton
+  locus: 'Orton''s preface at OCR lines 963-1336; chapters I-IX at 1348-11899; add 12 to OCR line numbers'
+  atlas_ids:
+  - english-old-dissent
+  role: tradition
+  confidence: provisional
+  language: eng
+  date: {start: 1765, end: 1765, source: "Orton's preface is dated Shrewsbury, 6 November 1765 (OCR line 1336); this printing's title page reads 1825", formation_confidence: Documented}
+  note: 'Orton''s Life of Doddridge, with long quotations from Doddridge''s letters and papers. Read in a reprint of 1825; whether the reprint changes Orton''s text was not checked.'
+- row_id: orton_memoirs-of-philip-doddridge_russell1825--russell-introductory-essay-to-orton
+  work: 'David Russell, introductory essay to Orton''s Memoirs of Doddridge (1825)'
+  author: russell-david
+  locus: 'the essay at OCR lines 165-960; add 12 to OCR line numbers'
+  atlas_ids:
+  - english-old-dissent
+  role: context
+  confidence: provisional
+  language: eng
+  date: {start: 1825, end: 1825, source: "signed 'David Russell. Dundee, June 1825' (OCR lines 958-960)", formation_confidence: Documented}
+  note: 'An essay of 1825, signed from Dundee, commending the Life. Later than the entry''s window and not Orton''s voice.'
+authors_ruled:
+  russell-david:
+    kind: metadata-omission
+    evidence: "The title page reads 'with an introductory essay, by the Rev. David Russell, Dundee' (file lines 47-86), and the essay is signed 'David Russell' (file line 970)."

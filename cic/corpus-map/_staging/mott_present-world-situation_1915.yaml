@@ -1,0 +1,11 @@
+source_file: mott_present-world-situation_1915.txt
+assignments:
+- row_id: mott_present-world-situation_1915--mott-the-present-world-situation
+  work: 'Mott, The Present World Situation'
+  author: mott
+  locus: 'whole'
+  atlas_ids:
+  - the-student-volunteer-movement-and-edinburgh-191
+  role: tradition
+  confidence: assigned
+  note: 'His own book.'

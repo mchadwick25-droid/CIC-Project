@@ -43,6 +43,25 @@ works:
   note: Bossuet preaching death and providence to the court; the oration for Le Tellier praises
     the Revocation, which the Desert world should see.
   source_file: bossuet_oraisons-funebres-fra_doumic1928.txt
+- row_id: brother-lawrence_practice-of-the-presence-of-god_allenson1906--the-practice-of-the-presence-of-god-the-letters-and-conversations-of-brother-lawrence
+  work: 'The Practice of the Presence of God: the letters and conversations of Brother Lawrence'
+  author: brother-lawrence
+  locus: the letters from about OCR line 1540; the conversations, recorded by Beaufort, from
+    about 708; add 12 to OCR line numbers for this file's own
+  role: tradition
+  confidence: provisional
+  note: A Discalced Carmelite lay brother of Paris in his own letters, and in conversations
+    recorded by another; written between 1666 and 1691. Within this entry's window (1650-1815).
+  source_file: brother-lawrence_practice-of-the-presence-of-god_allenson1906.txt
+- row_id: carthusian-statutes_nova-collectio-statutorum-ordinis-cartusiensis-lat_1681--nova-collectio-statutorum-ordinis-cartusiensis-1681
+  work: Nova collectio statutorum ordinis Cartusiensis (1681)
+  author: carthusian-statutes
+  locus: the whole volume; add 12 to OCR line numbers for this file's own
+  role: tradition
+  confidence: provisional
+  note: The Carthusians' own law as their general chapter ordered it in 1679-1681. Within
+    this entry's window (1650-1815).
+  source_file: carthusian-statutes_nova-collectio-statutorum-ordinis-cartusiensis-lat_1681.txt
 - row_id: challoner_garden-of-the-soul_1755--the-garden-of-the-soul-1740-1755-printing
   work: The Garden of the Soul (1740; 1755 printing)
   author: challoner
@@ -93,6 +112,15 @@ works:
 
     '
   source_file: council-of-trent_canons-and-decrees_waterworth1848.txt
+- row_id: de-luca-giovanni_annales-minorum-t18-1540-1553-lat_1740--annales-minorum-tomus-xviii-1540-1553-continued-by-giovanni-de-luca
+  work: Annales Minorum, tomus XVIII (1540-1553), continued by Giovanni de Luca
+  author: de-luca-giovanni
+  locus: the whole volume; add 12 to OCR line numbers for this file's own
+  role: tradition
+  confidence: provisional
+  note: The order's own chronologer on its history in 1540-1553, written in 1740. Within this
+    entry's window (1650-1815) by its date of writing.
+  source_file: de-luca-giovanni_annales-minorum-t18-1540-1553-lat_1740.txt
 - row_id: denzinger_enchiridion-symbolorum-lat_bannwart1911--papal-and-conciliar-condemnations-1650-1800
   work: Papal and conciliar condemnations, 1650-1800
   author: denzinger
@@ -111,6 +139,15 @@ works:
   note: An Academician bishop of Louis XIV's church in his own letters; the episcopal voice
     of the Gallican church at the turn of the century.
   source_file: flechier_lettres-fra_1712.txt
+- row_id: francisco-de-santa-maria_reforma-de-los-descalzos-t2-spa_1655--reforma-de-los-descalzos-tomo-ii-1655
+  work: Reforma de los Descalzos, tomo II (1655)
+  author: francisco-de-santa-maria
+  locus: the whole volume; add 12 to OCR line numbers for this file's own
+  role: tradition
+  confidence: provisional
+  note: The Discalced Carmelites' own history, written by the order's general historian and
+    printed in 1655. Within this entry's window (1650-1815).
+  source_file: francisco-de-santa-maria_reforma-de-los-descalzos-t2-spa_1655.txt
 - row_id: innocent-xii_cum-alias-with-fenelon-mandement-lat-fra_1699--cum-alias-and-the-french-reception-of-it-1699
   work: Cum alias and the French reception of it (1699)
   author: innocent-xii
@@ -155,6 +192,47 @@ works:
   note: The community's own witness to its martyrdom, by its surviving sister; the source
     the census story rests on.
   source_file: marie-de-l-incarnation-compiegne_histoire-des-carmelites-de-compiegne-fra_1836.txt
+- row_id: marie-de-l-incarnation-quebec_lettres-t2-fra_richaudeau1876--lettres-de-marie-de-l-incarnation-tome-2-richaudeau-1876
+  work: Lettres de Marie de l'Incarnation, tome 2 (Richaudeau, 1876)
+  author: marie-de-l-incarnation-quebec
+  locus: the whole volume; add 12 to OCR line numbers for this file's own
+  role: tradition
+  confidence: provisional
+  note: The Ursuline founder's own letters from Quebec after 1650, to her death in 1672. Within
+    this entry's window (1650-1815); the tree has no New France entry after 1650.
+  source_file: marie-de-l-incarnation-quebec_lettres-t2-fra_richaudeau1876.txt
+- row_id: marsollier_vie-de-dom-armand-jean-le-bouthillier-de-rance-t1-fra_1758--marsollier-vie-de-rance-t1
+  work: 'Marsollier, La vie de dom Armand-Jean Le Bouthillier de Rancé, tome 1: books I-III
+    (new edition, 1758)'
+  author: marsollier
+  locus: books I-III at OCR lines 1175-17362; add 12 to OCR line numbers
+  role: tradition
+  confidence: provisional
+  language: fra
+  date:
+    start: 1758
+    end: 1758
+    source: this edition's title page reads 1758 and 'Nouvelle Edition'; the year of the first
+      edition is not on it
+    formation_confidence: Documented
+  note: A canon of Uzès writes the Life of the reformer of La Trappe. An admiring Life from
+    inside the French church, read in a new edition of 1758.
+  source_file: marsollier_vie-de-dom-armand-jean-le-bouthillier-de-rance-t1-fra_1758.txt
+- row_id: marsollier_vie-de-dom-armand-jean-le-bouthillier-de-rance-t2-fra_1758--marsollier-vie-de-rance-t2
+  work: 'Marsollier, La vie de dom Armand-Jean Le Bouthillier de Rancé, tome 2: books IV-VI
+    (new edition, 1758)'
+  author: marsollier
+  locus: books IV-VI at OCR lines 518-17855; add 12 to OCR line numbers
+  role: tradition
+  confidence: provisional
+  language: fra
+  date:
+    start: 1758
+    end: 1758
+    source: this edition's title page reads 1758; approbation of 27 May 1758 (OCR line 388)
+    formation_confidence: Documented
+  note: The second half of the Life, to Rancé's death. See the note on tome 1.
+  source_file: marsollier_vie-de-dom-armand-jean-le-bouthillier-de-rance-t2-fra_1758.txt
 - row_id: merck_captivite-et-mort-de-pie-vi-fra_1814--la-captivite-et-la-mort-de-pie-vi-1814
   work: La Captivité et la mort de Pie VI (1814)
   author: merck
@@ -208,6 +286,68 @@ works:
   confidence: assigned
   note: The restoration that the census uses to close this world's story.
   source_file: clement-xiv_bulls-suppression-and-restoration-of-the-jesuits-lat-eng_1814.txt
+- row_id: quebec-bishops_mandements-lettres-pastorales-et-circulaires-v1-fra_tetu-gagnon1887--mandements-des-v-ques-de-qu-bec-vol-i-laval-and-his-successors
+  work: 'Mandements des évêques de Québec, vol. I: Laval and his successors'
+  author: quebec-bishops
+  locus: the mandements from about OCR line 329; add 12 to OCR line numbers for this file's
+    own
+  role: tradition
+  confidence: provisional
+  note: The New France church's bishops in their own pastoral letters from 1659. Within this
+    entry's window (1650-1815); the tree has no New France entry after 1650.
+  source_file: quebec-bishops_mandements-lettres-pastorales-et-circulaires-v1-fra_tetu-gagnon1887.txt
+- row_id: quesnel_nouveau-testament-avec-des-reflexions-morales-t1-fra_1693--quesnel-reflexions-morales-as-condemned-text
+  work: Quesnel, Réflexions morales, tome 1 (1693), as the book condemned by Unigenitus
+  author: quesnel
+  locus: Matthew at OCR lines 5621-37303; Mark at 37306-56513; add 12 to OCR line numbers
+  role: context
+  confidence: needs-ruling
+  language: fra
+  date:
+    start: 1693
+    end: 1693
+    source: 'title page: ''M. DC. XCIII.'''
+    formation_confidence: Documented
+  note: The bull Unigenitus (1713) condemned 101 propositions from the Réflexions morales
+    as a whole. Which of them fall in Matthew and Mark, and in which edition, was not checked.
+  source_file: quesnel_nouveau-testament-avec-des-reflexions-morales-t1-fra_1693.txt
+- row_id: rance_de-la-saintete-et-des-devoirs-de-la-vie-monastique-t1-fra_1683--de-la-saintete-et-des-devoirs-de-la-vie-monastique-tome-1-1683
+  work: De la saintete et des devoirs de la vie monastique, tome 1 (1683)
+  author: rance
+  locus: the whole volume; add 12 to OCR line numbers for this file's own
+  role: tradition
+  confidence: provisional
+  note: The Cistercian reform of La Trappe in its abbot's own treatise, printed in 1683. Within
+    this entry's window (1650-1815). The author is the host record's attribution, not the
+    title page's.
+  source_file: rance_de-la-saintete-et-des-devoirs-de-la-vie-monastique-t1-fra_1683.txt
+- row_id: rance_de-la-saintete-et-des-devoirs-de-la-vie-monastique-t2-fra_1683--de-la-saintete-et-des-devoirs-de-la-vie-monastique-tome-2-1683
+  work: De la saintete et des devoirs de la vie monastique, tome 2 (1683)
+  author: rance
+  locus: the whole volume; add 12 to OCR line numbers for this file's own
+  role: tradition
+  confidence: provisional
+  note: The Cistercian reform of La Trappe in its abbot's own treatise, printed in 1683. Within
+    this entry's window (1650-1815). The author is the host record's attribution, not the
+    title page's.
+  source_file: rance_de-la-saintete-et-des-devoirs-de-la-vie-monastique-t2-fra_1683.txt
+- row_id: marsollier_vie-de-dom-armand-jean-le-bouthillier-de-rance-t2-fra_1758--rance-pensees-in-marsollier-t2
+  work: Rancé, Pensées sur divers sujets de piété, tirées de ses lettres spirituelles (in
+    Marsollier's Vie, tome 2, 1758)
+  author: rance
+  locus: the Pensées at OCR lines 17913-20952; the avertissement before them at 17860; add
+    12 to OCR line numbers
+  role: tradition
+  confidence: provisional
+  language: fra
+  date:
+    start: 1758
+    end: 1758
+    source: printed in 1758; the extracts are from Rancé's letters and are not dated
+    formation_confidence: Documented
+  note: Rancé's own sentences on the spiritual life, cut from his letters by an editor. The
+    letters they come from are not named line by line.
+  source_file: marsollier_vie-de-dom-armand-jean-le-bouthillier-de-rance-t2-fra_1758.txt
 - row_id: roman-missal_england1843--the-roman-missal-translated-into-the-english-language-for-2
   work: The Roman Missal, Translated into the English Language for the Use of the Laity
   author: roman-missal
@@ -221,3 +361,37 @@ works:
 
     '
   source_file: roman-missal_england1843.txt
+- row_id: soli-muratori_vita-del-proposto-lodovico-antonio-muratori-ita_napoli1758--soli-muratori-vita-del-muratori
+  work: 'Soli Muratori, Vita del proposto Lodovico Antonio Muratori (Naples, 1758): the Life'
+  author: soli-muratori
+  locus: the Vita at OCR lines 649-11145; the catalogue of works at 11146; add 12 to OCR line
+    numbers
+  role: tradition
+  confidence: provisional
+  language: ita
+  date:
+    start: 1758
+    end: 1758
+    source: this edition's title page reads 1758 and calls itself the Naples edition; the
+      funeral oration it prints is for 23 January 1751
+    formation_confidence: Documented
+  note: Muratori's nephew writes the Life soon after his death. A family voice from inside
+    the Italian church of the day.
+  source_file: soli-muratori_vita-del-proposto-lodovico-antonio-muratori-ita_napoli1758.txt
+- row_id: soli-muratori_vita-del-proposto-lodovico-antonio-muratori-ita_napoli1758--soli-muratori-vita-appendix-of-letters
+  work: 'Soli Muratori, Vita del proposto Lodovico Antonio Muratori (Naples, 1758): the appendices
+    of documents and letters'
+  author: soli-muratori
+  locus: the appendix of documents at OCR lines 11532-16255; the second appendix at 16256;
+    the funeral oration at 16613-17811; add 12 to OCR line numbers
+  role: context
+  confidence: provisional
+  language: ita
+  date:
+    start: 1705
+    end: 1758
+    source: the letters run from about 1705 to the 1730s; printed in 1758
+    formation_confidence: Documented
+  note: Letters to and from Muratori and pieces by other hands. Each has its own writer, named
+    at its head; none is Soli's.
+  source_file: soli-muratori_vita-del-proposto-lodovico-antonio-muratori-ita_napoli1758.txt

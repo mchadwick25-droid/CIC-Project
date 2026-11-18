@@ -1,0 +1,21 @@
+source_file: casalis_les-bassoutos-fra_1859.txt
+assignments:
+- row_id: casalis_les-bassoutos-fra_1859--les-bassoutos-vingt-trois-annees-de-sejour-et-d-observations
+  work: 'LES BASSOUTOS: vingt-trois années de séjour et d''observations au sud de l''Afrique'
+  author: casalis
+  locus: the whole volume; not mapped
+  atlas_ids:
+  - southern-african-mission-churches
+  role: tradition
+  confidence: provisional
+  language: fra
+  date:
+    start: 1859
+    end: 1859
+    source: 'the printing''s own title page: line 142 of this file, on the title page'
+    formation_confidence: Documented
+  edition_date:
+    year: 1859
+    source: line 142 of this file, on the title page
+    formation_confidence: Documented
+  note: 'Era 9 row 322, Moshoeshoe: Casalis, Les Bassoutos, in French.'

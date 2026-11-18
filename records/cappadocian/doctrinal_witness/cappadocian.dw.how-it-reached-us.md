@@ -56,7 +56,7 @@ tensions:
   own span from his own life, and we do not pretend otherwise
 - the deposit and the search sit together in our own record without being reconciled - our own great
   bishop, in one sentence, both names his grandmother as the one who handed him the faith and describes
-  travelling over much sea and land afterward to choose for himself whom he would call fathers; the
+  traveling over much sea and land afterward to choose for himself whom he would call fathers; the
   position that what reached us was never "a personally gathered testimony" is true of the deposit and
   not of every one of us who received it
 relations:

@@ -32,7 +32,7 @@ exchange:
     be drawn out of his monastery, so a citizen named Ruricius threw himself
     at his knees and pretended his wife was ill. Crowds had been posted
     along the road, and he was escorted to the city under a kind of guard.
-    The people of Tours and the neighbouring cities had one wish, that
+    The people of Tours and the neighboring cities had one wish, that
     Martin was the worthiest man for the episcopate. A few of the bishops
     summoned to make the appointment resisted, saying his person was
     contemptible, his clothing mean, and his hair disgusting. The reader for

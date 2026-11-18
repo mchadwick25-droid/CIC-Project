@@ -1,0 +1,70 @@
+{
+  "name": "Sozomen",
+  "otherNames": [
+    "Salaminius Hermias Sozomen"
+  ],
+  "knownFor": "Church historian from near Gaza and an advocate, whose nine-book Church History, dedicated to the emperor Theodosius, sets out to include the founders of monastic life and their successors.",
+  "dates": "Born between 370 and 380, by Chester Hartranft's guess; wrote some time after June 443, by Hartranft's dating; his history stops at 425",
+  "place": "Bethelia near Gaza, his family's town; Constantinople",
+  "tradition": "Gaza / Constantinople",
+  "role": "Advocate, church historian and recorder",
+  "briefLength": "about 2 minutes",
+  "keyWorks": [
+    {
+      "title": "Church History",
+      "about": "nine books dedicated to the emperor Theodosius, meant to run from 323 to 439 but stopping at 425, by Hartranft's dates; it gives a large place to the monks"
+    },
+    {
+      "title": "An epitome in two books",
+      "about": "his earlier summary of the church's history \"from the ascension of Christ to the deposition of Licinius\"; lost, as Hartranft notes"
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "A. C. Zenos reports that Epiphanius Scholasticus put the histories of Socrates of Constantinople, Sozomen and Theodoret of Cyrrhus into Latin under Cassiodorus, as the Tripartite History.",
+      "Hartranft notes that Theodoret \"has taken his stuff from Sozomen, and says nothing about the original.\""
+    ],
+    "remembered": [
+      "Hartranft rejects the charge that Sozomen was \"a feeble reviser of Socrates\" as \"wholly unfair and unwarranted by the general usage of his day\".",
+      "Hartranft also grants that Socrates \"was the finer mind\"."
+    ]
+  },
+  "uncertain": [
+    "His life comes almost only from his own history, through what he says of his grandfather, his youth near Gaza and a friend at the Michaelium. The conversion of his family through the monk Hilarion of Gaza is something Sozomen reports as said: \"It is said\".",
+    "Sozomen does not name \"the other family\" whose members founded the first churches and monasteries near Gaza. Hartranft's note says he \"probably means that of Alaphion.\"",
+    "His birth year rests on no held line. Hartranft places it between 370 and 380 by reckoning back from his grandfather and the exile under Julian, and says \"We can only guess\".",
+    "How far he copied Socrates of Constantinople is disputed. Hartranft lists three views: that he plagiarized Socrates, that both used the same sources, or that Socrates guided him to the sources. Hartranft finds the use sure and rejects the charge of plagiarism.",
+    "The meaning of his name Salaminius \"cannot yet be accurately determined\", Hartranft says.",
+    "No source used here gives the place or year of his death."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "Church History (tr. Chester Hartranft, revising earlier translations)",
+        "language": "English translation",
+        "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml"
+      },
+      {
+        "title": "Historia ecclesiastica, Books 5 to 9, Greek text (ed. Robert Hussey)",
+        "language": "Greek",
+        "file": "cic/texts/sozomen_historia-ecclesiastica-tomus2-libri-5-9-grc-lat_hussey1860.txt"
+      }
+    ],
+    "about": [
+      {
+        "title": "Introduction to Sozomen",
+        "author": "Chester Hartranft",
+        "date": null,
+        "language": "English",
+        "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml"
+      },
+      {
+        "title": "Introduction to Socrates, on later uses of the histories",
+        "author": "A. C. Zenos",
+        "date": null,
+        "language": "English",
+        "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml"
+      }
+    ]
+  }
+}

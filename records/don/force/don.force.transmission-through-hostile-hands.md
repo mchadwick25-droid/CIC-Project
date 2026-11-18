@@ -70,7 +70,7 @@ manifestations:
 - the small independently-surviving remainder made disproportionately valuable by exactly this pattern
 ---
 Re-derived from the cleared Doc_08 (Cell 2B, Force 2B-2, all three layers; the transmission
-dimension Doc_08 SS9 certifies as explicitly addressed in this cell, and synthesised fully at Doc_08
+dimension Doc_08 SS9 certifies as explicitly addressed in this cell, and synthesized fully at Doc_08
 SS6). CROSS-CELL CONNECTION (Doc_08 SS4, Connection 8, outgoing): '2B-2 -> 3B-2 - the pattern
 established during the ongoing phase, survival through the hostile party's own quotation and
 refutation, becomes definitive and irreversible once the Caecilianist party's institutional victory

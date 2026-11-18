@@ -31,6 +31,40 @@ works:
 
     '
   source_file: npnf214_seven-ecumenical-councils.xml
+- row_id: mansi_sacrorum-conciliorum-collectio-tomus-12-lat_welter-facsimile1901--mansi-xii-the-second-council-of-nicaea-787-sessions-i-iii
+  work: Mansi XII, the Second Council of Nicaea (787), sessions I-III
+  author: council-of-nicaea-787
+  locus: about OCR line 99123 to the end of the volume; add 12 to OCR line numbers
+  role: tradition
+  confidence: provisional
+  note: The council's acts in the old Latin version with the Greek beside it. Only the Latin
+    can be read in this OCR. The rest of the volume (councils of 687-787) is not placed.
+  source_file: mansi_sacrorum-conciliorum-collectio-tomus-12-lat_welter-facsimile1901.txt
+- row_id: mansi_sacrorum-conciliorum-collectio-tomus-13-lat_welter-facsimile1902--mansi-xiii-the-second-council-of-nicaea-787-sessions-iv-viii
+  work: Mansi XIII, the Second Council of Nicaea (787), sessions IV-VIII, definition and canons
+  author: council-of-nicaea-787
+  locus: about OCR lines 744-83064; add 12 to OCR line numbers
+  role: tradition
+  confidence: provisional
+  note: The second half of the council's acts, with its definition and canons. Only the Latin
+    can be read in this OCR. The later councils in the volume are not placed.
+  source_file: mansi_sacrorum-conciliorum-collectio-tomus-13-lat_welter-facsimile1902.txt
+- row_id: mendham_seventh-general-council-second-of-nicaea_1850--second-council-of-nicaea-acts-english-mendham-1850
+  work: The Second Council of Nicaea (787), acts in English (Mendham 1850)
+  author: council-of-nicaea-787
+  locus: the acts at about OCR lines 5971-30890; Mendham's introduction at about 499-4169;
+    add 12 to OCR line numbers
+  role: tradition
+  confidence: provisional
+  language: eng
+  date:
+    start: 787
+    end: 787
+    source: 'title page: ''held A.D. 787'''
+    formation_confidence: Documented
+  note: The council's acts in English. The translator's introduction and notes are his own
+    and stand on the same pages.
+  source_file: mendham_seventh-general-council-second-of-nicaea_1850.txt
 - row_id: npnf214_seven-ecumenical-councils--the-second-council-of-nicaea-787-extracts-from-the-acts
   work: 'The Second Council of Nicaea (787): Extracts from the Acts, Decree, Canons'
   author: council-of-nicaea-787
@@ -47,6 +81,104 @@ works:
 
     '
   source_file: npnf214_seven-ecumenical-councils.xml
+- row_id: hadrian-i_epistolae-karolini-aevi-3-mgh-epistolae-5-lat_1899--hadrian-i-reply-to-charlemagne-on-the-images-latin-mgh
+  work: Hadrian I, reply to Charlemagne on the images, Latin (MGH Epistolae V, 1899)
+  author: hadrian-i
+  locus: about OCR lines 707-5771; add 12 to OCR line numbers
+  role: context
+  confidence: provisional
+  note: The pope's answer, chapter by chapter, to the Frankish objections to the council of
+    787. It is Rome's voice, so it stands as an outside witness on both the Frankish and the
+    Byzantine entry.
+  source_file: hadrian-i_epistolae-karolini-aevi-3-mgh-epistolae-5-lat_1899.txt
+- row_id: hefele_history-of-the-councils-v4-451-680_clark1895--hefele-a-history-of-the-councils-of-the-church-vol-4-451-680
+  work: Hefele, A History of the Councils of the Church, vol. 4 (451-680), English, 1895
+  author: hefele
+  locus: whole volume; add 12 to OCR line numbers
+  role: context
+  confidence: provisional
+  note: A nineteenth-century Catholic historian's account of the councils from the documents.
+    A modern study, not a witness.
+  source_file: hefele_history-of-the-councils-v4-451-680_clark1895.txt
+- row_id: hefele_history-of-the-councils-v5-626-787_clark1896--hefele-a-history-of-the-councils-of-the-church-vol-5-626-787
+  work: Hefele, A History of the Councils of the Church, vol. 5 (626-787), English, 1896
+  author: hefele
+  locus: whole volume; add 12 to OCR line numbers
+  role: context
+  confidence: provisional
+  note: A nineteenth-century Catholic historian's account of the councils from the documents.
+    A modern study, not a witness.
+  source_file: hefele_history-of-the-councils-v5-626-787_clark1896.txt
+- row_id: mansi_sacrorum-conciliorum-collectio-tomus-10-lat_welter-facsimile1901--ecthesis-heraclii
+  work: The Ecthesis of the emperor Heraclius (638), Latin and Greek, as read into the Lateran
+    Council of 649, Secretarius III
+  author: heraclius
+  locus: 'file lines about 100110-100680 (cols. 991-998): Martin''s order that the Ecthesis
+    be read, then ''Expositio orthodoxae fidei, facta a Deo conservando et piissimo nostro
+    domino ... Heraclio''; the editors'' notice of it at about 71259'
+  role: tradition
+  confidence: provisional
+  note: 'The imperial statement of faith forbidding talk of one or two operations in Christ
+    and confessing one will, drafted by the patriarch Sergius and issued in Heraclius''s name.
+    A document issued in the emperor''s own name, preserved in the acts of the council that
+    condemned it. Latin readable with long-s and ligature noise; the Greek column is garbled.
+    Second witness for quotation until checked against the page image.
+
+    '
+  source_file: mansi_sacrorum-conciliorum-collectio-tomus-10-lat_welter-facsimile1901.txt
+- row_id: ignatius-deacon_vita-tarasii-in-germanus-tarasius-pg98-grc-lat_migne1860--ignatius-the-deacon-life-of-tarasius-of-constantinople-latin
+  work: Ignatius the Deacon, Life of Tarasius of Constantinople, Latin (PG 98)
+  author: ignatius-deacon
+  locus: from about OCR line 117439; add 12 to OCR line numbers
+  role: tradition
+  confidence: assigned
+  note: The Life of the patriarch who presided at Nicaea II, by Ignatius the Deacon, in Gentian
+    Hervet's Latin version; no Greek is printed. The volume gives no date of writing.
+  source_file: ignatius-deacon_vita-tarasii-in-germanus-tarasius-pg98-grc-lat_migne1860.txt
+- row_id: john-damascus_on-holy-images-with-three-sermons-on-the-assumption_allies1898--john-of-damascus-on-holy-images-english-allies-1898
+  work: John of Damascus, On Holy Images, English (Allies 1898)
+  author: john-damascus
+  locus: Parts I-III at about OCR lines 197-4773; add 12 to OCR line numbers
+  role: tradition
+  confidence: provisional
+  language: eng
+  date:
+    formation_confidence: unknown
+    checked: the title page and the opening of the translator's preface (OCR lines 17-60)
+      give no year for the treatises
+  note: The three treatises against those who attack the holy images, in English. The Greek
+    is held in PG 94.
+  source_file: john-damascus_on-holy-images-with-three-sermons-on-the-assumption_allies1898.txt
+- row_id: john-damascus_opera-omnia-t1-with-vita-pg94-grc-lat_migne1860--john-of-damascus-works-pg-94
+  work: John of Damascus, works (PG 94)
+  author: john-damascus
+  locus: the whole volume except the Vita
+  role: tradition
+  confidence: provisional
+  note: John of Damascus's own works, written in these entries' windows by the era 4 audit's
+    dating of him (c.675-749).
+  source_file: john-damascus_opera-omnia-t1-with-vita-pg94-grc-lat_migne1860.txt
+- row_id: libri-carolini_caroli-magni-capitulare-de-imaginibus-mgh-concilia-2-suppl-lat_bastgen1924--libri-carolini-as-the-frankish-reply-to-nicaea-ii
+  work: Libri Carolini, as the Frankish reply to Nicaea II
+  author: libri-carolini
+  locus: the work from about OCR line 192; add 12 to OCR line numbers
+  role: context
+  confidence: provisional
+  note: An outside witness to the council of 787, written against it from a faulty Latin version
+    of its acts.
+  source_file: libri-carolini_caroli-magni-capitulare-de-imaginibus-mgh-concilia-2-suppl-lat_bastgen1924.txt
+- row_id: mansi_sacrorum-conciliorum-collectio-tomus-11-lat_welter-facsimile1901--sophronius-of-jerusalem-synodical-letter-634-as-read-at-constantinople
+  work: Sophronius of Jerusalem, Synodical Letter (634), as read at Constantinople III (Mansi
+    XI)
+  author: mansi
+  locus: OCR lines 44625-44660 and following; add 12 to OCR line numbers for this file's own
+  role: tradition
+  confidence: provisional
+  note: The patriarch of Jerusalem's own letter on taking office, 634, setting out the two
+    operations in Christ against the imperial compromise, read and accepted at the council
+    of 680-681. A document issued in his name, inside this entry's window. It also answers
+    the Jerusalem church after 450 (Open-Gaps 158). Second witness only.
+  source_file: mansi_sacrorum-conciliorum-collectio-tomus-11-lat_welter-facsimile1901.txt
 - row_id: maximus-confessor_relatio-motionis-disputatio-bizyae-grc-lat_migne-pg90--relatio-motionis-and-disputatio-bizyae
   work: Relatio Motionis and Disputatio Bizyae
   author: maximus-confessor
@@ -62,6 +194,15 @@ works:
 
     '
   source_file: maximus-confessor_relatio-motionis-disputatio-bizyae-grc-lat_migne-pg90.txt
+- row_id: nikephoros-cp_opera-with-vita-stephani-iunioris-pg100-grc-lat_migne1860--nikephoros-of-constantinople-breviarium-antirrhetici
+  work: Nikephoros of Constantinople, Breviarium, Antirrhetici, Apologeticus (PG 100)
+  author: nikephoros-cp
+  locus: the whole volume except the Life of Stephen
+  role: tradition
+  confidence: provisional
+  note: The patriarch's own writings, inside these windows by the era 4 audit's dating of
+    him (c.758-828).
+  source_file: nikephoros-cp_opera-with-vita-stephani-iunioris-pg100-grc-lat_migne1860.txt
 - row_id: john-moschus_pratum-spirituale-sophronius-opera-grc-lat_migne-pg87-3--sophronius-synodical-letter-and-works
   work: Sophronius of Jerusalem, Epistola synodica ad Sergium (634), Orationes, Miracula Cyri
     et Joannis, Vita Mariae Aegyptiacae, Anacreontica
@@ -77,3 +218,57 @@ works:
 
     '
   source_file: john-moschus_pratum-spirituale-sophronius-opera-grc-lat_migne-pg87-3.txt
+- row_id: tabari_annales-prima-series-iv-ara-lat_de-goeje1890--al-tabari-annales-prima-series-iv
+  work: al-Tabari, Annales, prima series IV
+  author: tabari
+  locus: the whole volume; add 12 to OCR line numbers
+  role: context
+  confidence: provisional
+  note: A Muslim historian (839-923, era 4 audit) on the conquests of Syria and Iraq, from
+    the conquerors' side; outside witness.
+  source_file: tabari_annales-prima-series-iv-ara-lat_de-goeje1890.txt
+- row_id: tabari_annales-prima-series-v-ara-lat_de-goeje1893--al-tabari-annales-prima-series-v
+  work: al-Tabari, Annales, prima series V
+  author: tabari
+  locus: the whole volume; add 12 to OCR line numbers
+  role: context
+  confidence: provisional
+  note: A Muslim historian (839-923, era 4 audit) on the conquests of Syria and Iraq, from
+    the conquerors' side; outside witness.
+  source_file: tabari_annales-prima-series-v-ara-lat_de-goeje1893.txt
+- row_id: theodore-studite_opera-omnia-pg99-grc-lat_migne1860--theodore-the-studite-antirrhetici-letters-and-other-works-pg
+  work: Theodore the Studite, Antirrhetici, Letters and other works (PG 99)
+  author: theodore-studite
+  locus: the whole volume except the Vita
+  role: tradition
+  confidence: provisional
+  note: His own writings, inside these windows by the era 4 audit's dating of him (759-826).
+  source_file: theodore-studite_opera-omnia-pg99-grc-lat_migne1860.txt
+- row_id: theodore-studite_epistolae-et-fragmenta-in-nova-patrum-bibliotheca-t8-lat_cozza1871--theodore-the-studite-letters-mai-and-cozza-nova-patrum
+  work: Theodore the Studite, letters (Mai and Cozza, Nova Patrum Bibliotheca VIII), Latin
+  author: theodore-studite
+  locus: part I, from about OCR line 1055; letters 140 and 205 at about 14902 and 20685; add
+    12 to OCR line numbers
+  role: tradition
+  confidence: provisional
+  note: His own letters, here in Latin translation only. The two letters to Theophanes the
+    Confessor are among them.
+  source_file: theodore-studite_epistolae-et-fragmenta-in-nova-patrum-bibliotheca-t8-lat_cozza1871.txt
+- row_id: theophanes-confessor_chronographia-pg108-grc-lat_migne1863--theophanes-the-confessor-chronographia-pg-108
+  work: Theophanes the Confessor, Chronographia (PG 108)
+  author: theophanes-confessor
+  locus: from about OCR line 3707; add 12 to OCR line numbers
+  role: tradition
+  confidence: provisional
+  note: A monk inside the church writing in this window, by the era 4 audit's dating of him
+    (c.760-818).
+  source_file: theophanes-confessor_chronographia-pg108-grc-lat_migne1863.txt
+- row_id: zonaras_epitomae-historiarum-libri-xiii-xviii-t3-grc_buettner-wobst1897--john-zonaras-epitome-of-histories-xiii-xviii-greek-buttner
+  work: John Zonaras, Epitome of Histories XIII-XVIII, Greek (Büttner-Wobst 1897)
+  author: zonaras
+  locus: whole volume; add 12 to OCR line numbers
+  role: context
+  confidence: provisional
+  note: A world chronicle written long after most of what it tells, so a later witness for
+    these centuries.
+  source_file: zonaras_epitomae-historiarum-libri-xiii-xviii-t3-grc_buettner-wobst1897.txt

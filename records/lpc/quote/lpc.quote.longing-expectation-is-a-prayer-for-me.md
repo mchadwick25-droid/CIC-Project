@@ -13,6 +13,7 @@ use_note:
     - "a claim that it is only flattery of an attentive crowd"
     - "a claim about when or where the sermon was preached"
     - "a claim about why or how often the congregation attended"
+    - "a claim that Augustine said it to people struggling with a sin"
   years: {from: 391, to: 430}
   status: reviewed
 confidence:

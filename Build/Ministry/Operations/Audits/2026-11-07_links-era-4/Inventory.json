@@ -1,0 +1,2496 @@
+{
+  "era": 4,
+  "date": "2026-11-07",
+  "movements": [
+    {
+      "id": "medieval-irish-christianity",
+      "name": "Medieval Irish Christianity",
+      "dates": "c. 664-1169",
+      "relationships": [
+        {
+          "field": "why",
+          "paragraph": null,
+          "sentence": "Ireland from the end of the Insular and Irish Monastic Christianity entry in 664 to 1169.",
+          "other": "Insular and Irish Monastic Christianity entry (ends 664)",
+          "other_id": "insular-irish-monastic-christianity",
+          "claim": "Predecessor: this window opens where the Insular and Irish Monastic Christianity entry closes."
+        }
+      ],
+      "raw_ids_in_text": [],
+      "existing_links": []
+    },
+    {
+      "id": "medieval-welsh-christianity",
+      "name": "Medieval Welsh Christianity",
+      "dates": "c. 768-1282",
+      "relationships": [
+        {
+          "field": "why",
+          "paragraph": null,
+          "sentence": "Wales from the end of the British and Welsh Christianity entry in 768 to 1282.",
+          "other": "British and Welsh Christianity entry (ends 768)",
+          "other_id": "british-welsh-christianity",
+          "claim": "Predecessor: this window opens where the British and Welsh Christianity entry closes."
+        }
+      ],
+      "raw_ids_in_text": [],
+      "existing_links": []
+    },
+    {
+      "id": "the-church-of-the-east-on-the-silk-road",
+      "name": "The Church of the East on the Silk Road",
+      "dates": "c. 635-845",
+      "relationships": [
+        {
+          "field": "relationsSummary",
+          "paragraph": null,
+          "sentence": "A continuation of the Syriac Church of the East - one of the longest single lineages in this history, running from Edessa to Xi'an.",
+          "other": "Syriac Church of the East (Persian-centred)",
+          "other_id": "the-church-of-the-east-under-persia",
+          "other_id_note": "Era-3 entry (424-651) overlaps the start of this window (635). The era-2 entry persian-church-of-the-east-early (300-451) predates it.",
+          "claim": "Continuation of the Church of the East lineage."
+        },
+        {
+          "field": "relationsSummary",
+          "paragraph": null,
+          "sentence": "A continuation of the Syriac Church of the East - one of the longest single lineages in this history, running from Edessa to Xi'an.",
+          "other": "Syriac church at Edessa",
+          "other_id": "syriac-edessa-nisibis",
+          "other_id_note": "Name fit only. The era-1 entry (200-410) predates this window, so the lineage claim spans centuries.",
+          "claim": "Lineage traced back to Edessa."
+        },
+        {
+          "field": "longDescription",
+          "paragraph": null,
+          "sentence": "A Syriac-speaking church whose bishops sat in Persia had, by the seventh century, sent monks the whole width of Asia: in 635 a missionary the Chinese records call Alopen reached the Tang capital of Chang'an and was received at the imperial court, and toleration for his religion was proclaimed three years later.",
+          "other": "Tang imperial court at Chang'an",
+          "other_id": null,
+          "claim": "Contact: the missionary Alopen was received at the Tang imperial court, and toleration was proclaimed."
+        },
+        {
+          "field": "longDescription",
+          "paragraph": null,
+          "sentence": "The reach closes visibly in 845, when an imperial edict aimed at foreign religions ordered clergy out of their monasteries and the Chinese church stops appearing in the sources.",
+          "other": "Tang imperial government (edict aimed at foreign religions)",
+          "other_id": null,
+          "claim": "Opposition: an imperial edict in 845 ordered clergy out of their monasteries."
+        },
+        {
+          "field": "longDescription",
+          "paragraph": null,
+          "sentence": "Though the same communion carried on in Persia and Central Asia.",
+          "other": "Church of the East in Persia and Central Asia",
+          "other_id": "church-of-the-east-under-the-abbasids",
+          "other_id_note": "Continuation after 845 falls in the Abbasid-era entry (845-1220). The text names no entry.",
+          "claim": "Continuation: the same communion persisted in Persia and Central Asia."
+        },
+        {
+          "field": "why",
+          "paragraph": null,
+          "sentence": "What survives from that reach is a bilingual stone stele at Xi'an and manuscripts recovered from desert caves at Dunhuang and Turfan, testimony to a mission that a ninth-century edict expelling foreign clergy pushed out of visibility in China, though the same communion continued from its Mesopotamian heartland and would reach east again under the Mongols.",
+          "other": "Tang imperial government (ninth-century edict)",
+          "other_id": null,
+          "claim": "Opposition: a ninth-century edict expelled foreign clergy and ended the church's visibility in China."
+        },
+        {
+          "field": "why",
+          "paragraph": null,
+          "sentence": "What survives from that reach is a bilingual stone stele at Xi'an and manuscripts recovered from desert caves at Dunhuang and Turfan, testimony to a mission that a ninth-century edict expelling foreign clergy pushed out of visibility in China, though the same communion continued from its Mesopotamian heartland and would reach east again under the Mongols.",
+          "other": "Church of the East (Mesopotamian heartland)",
+          "other_id": "church-of-the-east-under-the-abbasids",
+          "other_id_note": "Continuation after 845 falls in the Abbasid-era entry (845-1220).",
+          "claim": "Continuation: the same communion continued from its Mesopotamian heartland."
+        },
+        {
+          "field": "why",
+          "paragraph": null,
+          "sentence": "What survives from that reach is a bilingual stone stele at Xi'an and manuscripts recovered from desert caves at Dunhuang and Turfan, testimony to a mission that a ninth-century edict expelling foreign clergy pushed out of visibility in China, though the same communion continued from its Mesopotamian heartland and would reach east again under the Mongols.",
+          "other": "Mongol-era Church of the East",
+          "other_id": "church-of-the-east-under-the-mongols",
+          "other_id_note": "Later entry (c. 1220-1317), after this window.",
+          "claim": "Later reach: the church would extend eastward again under the Mongols."
+        },
+        {
+          "field": "legacy",
+          "paragraph": null,
+          "sentence": "The Church of the East continued from its Mesopotamian heartland and would reach east again under the Mongols.",
+          "other": "Church of the East (Mesopotamian heartland)",
+          "other_id": "church-of-the-east-under-the-abbasids",
+          "other_id_note": "Continuation after 845 falls in the Abbasid-era entry (845-1220).",
+          "claim": "Continuation: the church continued from its Mesopotamian heartland."
+        },
+        {
+          "field": "legacy",
+          "paragraph": null,
+          "sentence": "The Church of the East continued from its Mesopotamian heartland and would reach east again under the Mongols.",
+          "other": "Mongol-era Church of the East",
+          "other_id": "church-of-the-east-under-the-mongols",
+          "other_id_note": "Later entry (c. 1220-1317), after this window.",
+          "claim": "Later reach: the church would extend eastward again under the Mongols."
+        }
+      ],
+      "raw_ids_in_text": [],
+      "existing_links": []
+    },
+    {
+      "id": "church-of-the-east-under-the-abbasids",
+      "name": "The Church of the East under the Abbasids",
+      "dates": "c. 845-1220",
+      "relationships": [
+        {
+          "field": "why",
+          "paragraph": null,
+          "sentence": "The Church of the East from the end of the Silk Road entry in 845 to the start of the Mongol entry in 1220.",
+          "other": "The Church of the East on the Silk Road (entry ends 845)",
+          "other_id": "the-church-of-the-east-on-the-silk-road",
+          "claim": "Predecessor: this window opens where the Silk Road entry closes (845)."
+        },
+        {
+          "field": "why",
+          "paragraph": null,
+          "sentence": "The Church of the East from the end of the Silk Road entry in 845 to the start of the Mongol entry in 1220.",
+          "other": "Mongol entry (Church of the East under the Mongols)",
+          "other_id": "church-of-the-east-under-the-mongols",
+          "claim": "Successor: this window closes where the Mongol entry begins (1220)."
+        }
+      ],
+      "raw_ids_in_text": [],
+      "existing_links": []
+    },
+    {
+      "id": "melkite-arabic-christianity",
+      "name": "Melkite Arabic Christianity",
+      "dates": "c. 700-1009",
+      "relationships": [
+        {
+          "field": "relationsSummary",
+          "paragraph": null,
+          "sentence": "Heir to the Judean Desert monastic tradition; the first church to think in Arabic.",
+          "other": "Judean Desert monastic tradition",
+          "other_id": "chalcedonian-monasticism-judean-desert-and-gaza",
+          "other_id_note": "Era-3 entry ends 614, before this window (700).",
+          "claim": "Heir to the Judean Desert monastic tradition."
+        },
+        {
+          "field": "longDescription",
+          "paragraph": null,
+          "sentence": "When the Arab conquests cut Palestine and Syria off from Constantinople, the Chalcedonian Christians of those provinces — Melkites, 'the emperor's people', as their neighbors labeled them — found themselves a minority under a new government and, within a few generations, doing something no church had done before: praying, arguing and writing theology in Arabic.",
+          "other": "Constantinople (Byzantine church)",
+          "other_id": "byzantine-imperial-church-heraclian-iconoclast",
+          "other_id_note": "Era-4 imperial entry (622-843) covers this period. The census has no separate Constantinople entry.",
+          "claim": "Separation: the Arab conquests cut Palestine and Syria off from Constantinople."
+        },
+        {
+          "field": "longDescription",
+          "paragraph": null,
+          "sentence": "When the Arab conquests cut Palestine and Syria off from Constantinople, the Chalcedonian Christians of those provinces — Melkites, 'the emperor's people', as their neighbors labeled them — found themselves a minority under a new government and, within a few generations, doing something no church had done before: praying, arguing and writing theology in Arabic.",
+          "other": "Arab conquerors and the new Islamic government",
+          "other_id": null,
+          "claim": "Status: became a minority under a new government after the conquests."
+        },
+        {
+          "field": "longDescription",
+          "paragraph": null,
+          "sentence": "Their intellectual heart was the monastic world of the Judean desert, above all the monastery of Mar Saba, where John of Damascus, from a family that had served in the Muslim administration, wrote the great defense of religious images that Byzantine emperors could not silence because he lived beyond their reach.",
+          "other": "Judean Desert monastic world (Mar Saba)",
+          "other_id": "chalcedonian-monasticism-judean-desert-and-gaza",
+          "other_id_note": "Era-3 entry (450-614) ends before this window.",
+          "claim": "Institutional home: the Judean Desert monastic world, above all Mar Saba."
+        },
+        {
+          "field": "longDescription",
+          "paragraph": null,
+          "sentence": "Their intellectual heart was the monastic world of the Judean desert, above all the monastery of Mar Saba, where John of Damascus, from a family that had served in the Muslim administration, wrote the great defense of religious images that Byzantine emperors could not silence because he lived beyond their reach.",
+          "other": "Byzantine emperors (iconoclast period)",
+          "other_id": "byzantine-imperial-church-heraclian-iconoclast",
+          "claim": "Opposition: Byzantine emperors tried to silence John of Damascus's defense of images."
+        },
+        {
+          "field": "longDescription",
+          "paragraph": null,
+          "sentence": "A generation later Theodore Abu Qurrah was writing theology in Arabic for a mixed audience of Christians and Muslims, and anonymous works such as the treatise now called On the Triune Nature of God were explaining the Trinity in the vocabulary of the world around them.",
+          "other": "Muslims (mixed audience)",
+          "other_id": null,
+          "claim": "Contact: Theodore Abu Qurrah wrote Arabic theology for a mixed Christian and Muslim audience."
+        },
+        {
+          "field": "longDescription",
+          "paragraph": null,
+          "sentence": "The window closes hard in 1009, when the caliph al-Hakim ordered the Church of the Holy Sepulchre razed.",
+          "other": "Caliph al-Hakim (Fatimid state)",
+          "other_id": null,
+          "other_id_note": "The Church of the Holy Sepulchre has no census entry for 1009.",
+          "claim": "Opposition: the caliph al-Hakim ordered the Church of the Holy Sepulchre razed, closing the window."
+        },
+        {
+          "field": "why",
+          "paragraph": null,
+          "sentence": "From the monastery of Mar Saba, John of Damascus wrote his defense of religious images beyond the reach of the Byzantine emperors trying to suppress them, and a generation later Theodore Abu Qurrah was writing Arabic theology for an audience of Christians and Muslims alike.",
+          "other": "Mar Saba monastery",
+          "other_id": "chalcedonian-monasticism-judean-desert-and-gaza",
+          "other_id_note": "Era-3 entry (450-614) ends before this window.",
+          "claim": "Institutional home: John of Damascus wrote at Mar Saba."
+        },
+        {
+          "field": "why",
+          "paragraph": null,
+          "sentence": "From the monastery of Mar Saba, John of Damascus wrote his defense of religious images beyond the reach of the Byzantine emperors trying to suppress them, and a generation later Theodore Abu Qurrah was writing Arabic theology for an audience of Christians and Muslims alike.",
+          "other": "Byzantine emperors (iconoclast period)",
+          "other_id": "byzantine-imperial-church-heraclian-iconoclast",
+          "claim": "Opposition: Byzantine emperors tried to suppress religious images."
+        },
+        {
+          "field": "why",
+          "paragraph": null,
+          "sentence": "Cut off from Constantinople by the Arab conquests, the Chalcedonian Christians of Palestine and Syria became the first church to pray and argue theology in Arabic.",
+          "other": "Constantinople (Byzantine church)",
+          "other_id": "byzantine-imperial-church-heraclian-iconoclast",
+          "other_id_note": "Era-4 imperial entry covers this period.",
+          "claim": "Separation: cut off from Constantinople by the Arab conquests."
+        },
+        {
+          "field": "legacy",
+          "paragraph": null,
+          "sentence": "The same communion continues in the Greek Orthodox patriarchates of Antioch and Jerusalem and, after an eighteenth-century division, in the Melkite Greek Catholic Church.",
+          "other": "Greek Orthodox patriarchates of Antioch and Jerusalem",
+          "other_id": null,
+          "other_id_note": "No census entry for these patriarchates.",
+          "claim": "Continuation: the same communion continues in the Greek Orthodox patriarchates."
+        },
+        {
+          "field": "legacy",
+          "paragraph": null,
+          "sentence": "The same communion continues in the Greek Orthodox patriarchates of Antioch and Jerusalem and, after an eighteenth-century division, in the Melkite Greek Catholic Church.",
+          "other": "Melkite Greek Catholic Church",
+          "other_id": "melkite-greek-catholic-church",
+          "other_id_note": "Era-8 entry 'The Melkite Greek Catholic Split' (1724-1815) matches the eighteenth-century division.",
+          "claim": "Schism: an eighteenth-century division produced the Melkite Greek Catholic Church."
+        },
+        {
+          "field": "legacy",
+          "paragraph": null,
+          "sentence": "John of Damascus's defense of images became the settled theology of icons for the whole Orthodox world — he was vindicated by name at the council that restored them in 787.",
+          "other": "Council of 787 (Second Council of Nicaea)",
+          "other_id": "byzantine-imperial-church-heraclian-iconoclast",
+          "other_id_note": "The council has no separate census entry; the era-4 imperial entry records the 787 restoration.",
+          "claim": "Vindication: John of Damascus was vindicated by name at the 787 council."
+        },
+        {
+          "field": "legacy",
+          "paragraph": null,
+          "sentence": "And his systematic Exposition of the Orthodox Faith was translated into Latin and read by Western theologians for centuries afterward.",
+          "other": "Western (Latin) theologians",
+          "other_id": null,
+          "claim": "Transmission: his Exposition of the Orthodox Faith was translated into Latin and read in the West."
+        }
+      ],
+      "raw_ids_in_text": [],
+      "existing_links": []
+    },
+    {
+      "id": "coptic-christianity-under-early-islam",
+      "name": "Coptic Christianity under Early Islam",
+      "dates": "642-1013",
+      "relationships": [
+        {
+          "field": "relationsSummary",
+          "paragraph": null,
+          "sentence": "Continuation of Miaphysite Egypt",
+          "other": "Miaphysite Egypt",
+          "other_id": "cyrilline-miaphysite-egyptian-christianity",
+          "other_id_note": "Era-3 entry (451-642) ends where this window begins.",
+          "claim": "Continuation of Miaphysite Egypt."
+        },
+        {
+          "field": "longDescription",
+          "paragraph": null,
+          "sentence": "Egypt's miaphysite Christians had spent the century before the Arab conquest under Byzantine pressure for refusing the Council of Chalcedon.",
+          "other": "Byzantine pressure (over Chalcedon)",
+          "other_id": "byzantine-imperial-church-justinianic",
+          "other_id_note": "Justinianic entry (451-622) covers the pre-conquest pressure.",
+          "claim": "Opposition: Byzantine pressure fell on the church before the Arab conquest."
+        },
+        {
+          "field": "longDescription",
+          "paragraph": null,
+          "sentence": "Egypt's miaphysite Christians had spent the century before the Arab conquest under Byzantine pressure for refusing the Council of Chalcedon.",
+          "other": "Council of Chalcedon (451)",
+          "other_id": null,
+          "other_id_note": "The 451 council has no census movement.",
+          "claim": "Opposition: the church refused the Council of Chalcedon, which grounded the Byzantine pressure."
+        },
+        {
+          "field": "longDescription",
+          "paragraph": null,
+          "sentence": "When Arab armies took Alexandria in 641-42 their patriarch Benjamin came out of hiding and was restored to his see.",
+          "other": "Arab armies (conquest of Alexandria)",
+          "other_id": null,
+          "claim": "Restoration: after the Arab conquest of Alexandria, patriarch Benjamin was restored to his see."
+        },
+        {
+          "field": "longDescription",
+          "paragraph": null,
+          "sentence": "No longer persecuted for its confession but taxed and governed as a protected minority, shifting gradually from Coptic into Arabic, and beginning the long, centuries-long drift toward minority status that conversions would eventually bring.",
+          "other": "Islamic state (protected-minority rule)",
+          "other_id": null,
+          "claim": "Status: taxed and governed as a protected minority under Islamic rule."
+        },
+        {
+          "field": "longDescription",
+          "paragraph": null,
+          "sentence": "The window ends with the persecution under the caliph al-Hakim in the early eleventh century, the harshest single episode the community had yet faced.",
+          "other": "Caliph al-Hakim (Fatimid state)",
+          "other_id": null,
+          "claim": "Opposition: persecution under the caliph al-Hakim closes the window."
+        },
+        {
+          "field": "why",
+          "paragraph": null,
+          "sentence": "When Arab armies took Alexandria in 641-42, the miaphysite patriarch Benjamin came out of hiding after years of Byzantine persecution and was restored to his see.",
+          "other": "Byzantine persecution",
+          "other_id": "byzantine-imperial-church-justinianic",
+          "other_id_note": "Justinianic entry (451-622) covers the period.",
+          "claim": "Opposition: years of Byzantine persecution before the conquest."
+        },
+        {
+          "field": "why",
+          "paragraph": null,
+          "sentence": "Freed from pressure over its faith but now taxed and governed as a minority, the church shifted gradually from Coptic into Arabic over the centuries that followed, a slow change historians still argue about, until a harsh persecution under the caliph al-Hakim closed the period in the early eleventh century.",
+          "other": "Islamic state (protected-minority rule)",
+          "other_id": null,
+          "claim": "Status: freed from pressure over its faith but taxed and governed as a minority."
+        },
+        {
+          "field": "why",
+          "paragraph": null,
+          "sentence": "Freed from pressure over its faith but now taxed and governed as a minority, the church shifted gradually from Coptic into Arabic over the centuries that followed, a slow change historians still argue about, until a harsh persecution under the caliph al-Hakim closed the period in the early eleventh century.",
+          "other": "Caliph al-Hakim (Fatimid state)",
+          "other_id": null,
+          "claim": "Opposition: a harsh persecution under al-Hakim closed the period."
+        },
+        {
+          "field": "legacy",
+          "paragraph": null,
+          "sentence": "Its institutions continued unbroken into the Fatimid and Mamluk centuries and on into the present-day Coptic Orthodox Church of Alexandria, one of the largest Christian bodies in the Middle East.",
+          "other": "Fatimid and Mamluk Coptic church",
+          "other_id": "coptic-christianity-fatimid-to-mamluk",
+          "other_id_note": "Era-5 entry (c. 1054-1300) overlaps only the window's end.",
+          "claim": "Continuation into the Fatimid and Mamluk centuries."
+        },
+        {
+          "field": "legacy",
+          "paragraph": null,
+          "sentence": "Its institutions continued unbroken into the Fatimid and Mamluk centuries and on into the present-day Coptic Orthodox Church of Alexandria, one of the largest Christian bodies in the Middle East.",
+          "other": "Coptic Orthodox Church of Alexandria (present day)",
+          "other_id": null,
+          "other_id_note": "No census entry for the present-day church. The era-9 Coptic Revival entry (1854-1906) is the nearest but does not fit.",
+          "claim": "Continuation into the present-day Coptic Orthodox Church."
+        }
+      ],
+      "raw_ids_in_text": [],
+      "existing_links": [
+        {
+          "id": "desert-monasticism--coptic-christianity-under-early-islam",
+          "from": "desert-monasticism",
+          "to": "coptic-christianity-under-early-islam",
+          "type": "influenced",
+          "confidence": "Documented"
+        },
+        {
+          "id": "coptic-christianity-under-early-islam--alexandria-catechetical",
+          "from": "coptic-christianity-under-early-islam",
+          "to": "alexandria-catechetical",
+          "type": "argued against",
+          "confidence": "Documented"
+        }
+      ]
+    },
+    {
+      "id": "anglo-saxon-christianity",
+      "name": "Anglo-Saxon Christianity",
+      "dates": "597-793",
+      "relationships": [
+        {
+          "field": "relationsSummary",
+          "paragraph": null,
+          "sentence": "Child of Benedictine + Irish lines converging at Whitby; parent of the Carolingian reform",
+          "other": "Benedictine line",
+          "other_id": "early-benedictine-italian-monasticism",
+          "other_id_note": "Era-3 entry (c. 500-604) predates this window; the text names no date.",
+          "claim": "Descent: child of the Benedictine line."
+        },
+        {
+          "field": "relationsSummary",
+          "paragraph": null,
+          "sentence": "Child of Benedictine + Irish lines converging at Whitby; parent of the Carolingian reform",
+          "other": "Irish line (converging at Whitby)",
+          "other_id": "insular-irish-monastic-christianity",
+          "claim": "Descent: child of the Irish line, converging with the Benedictine line at Whitby."
+        },
+        {
+          "field": "relationsSummary",
+          "paragraph": null,
+          "sentence": "Child of Benedictine + Irish lines converging at Whitby; parent of the Carolingian reform",
+          "other": "Carolingian reform",
+          "other_id": "carolingian-reform-christianity",
+          "claim": "Parent of the Carolingian reform."
+        },
+        {
+          "field": "longDescription",
+          "paragraph": null,
+          "sentence": "Christianity reached the English twice over and from two directions — from Rome in 597, when Augustine landed in Kent, and from Ireland by way of Iona, whose monks founded Lindisfarne and evangelized Northumbria.",
+          "other": "Church at Rome (Augustine's mission)",
+          "other_id": "roman-church-gregorian",
+          "other_id_note": "Era-3 entry (c. 560-604) covers Augustine's mission of 597.",
+          "claim": "Mission from Rome under Augustine, 597."
+        },
+        {
+          "field": "longDescription",
+          "paragraph": null,
+          "sentence": "Christianity reached the English twice over and from two directions — from Rome in 597, when Augustine landed in Kent, and from Ireland by way of Iona, whose monks founded Lindisfarne and evangelized Northumbria.",
+          "other": "Ireland and Iona (missionary monks)",
+          "other_id": "insular-irish-monastic-christianity",
+          "claim": "Mission from Ireland by way of Iona, which founded Lindisfarne."
+        },
+        {
+          "field": "longDescription",
+          "paragraph": null,
+          "sentence": "And at the Synod of Whitby in 664 the two traditions had to settle publicly which calendar and which customs the English church would keep.",
+          "other": "Roman tradition (Synod of Whitby)",
+          "other_id": "roman-church-gregorian",
+          "other_id_note": "Era-3 entry (c. 560-604) covers the Roman side of the dispute.",
+          "claim": "Dispute: the Roman side at the Synod of Whitby (664)."
+        },
+        {
+          "field": "longDescription",
+          "paragraph": null,
+          "sentence": "And at the Synod of Whitby in 664 the two traditions had to settle publicly which calendar and which customs the English church would keep.",
+          "other": "Irish tradition (Synod of Whitby)",
+          "other_id": "insular-irish-monastic-christianity",
+          "claim": "Dispute: the Irish side at the Synod of Whitby (664)."
+        },
+        {
+          "field": "longDescription",
+          "paragraph": null,
+          "sentence": "Within a century of being a mission field, England was sending missionaries of its own back across the Channel — Willibrord to Frisia, Boniface into Germany, and with them women such as the abbess Leoba, whose one surviving letter comes down under her own name.",
+          "other": "Continental mission (Frisia and Germany)",
+          "other_id": null,
+          "claim": "Mission: English missionaries were sent to Frisia and Germany."
+        },
+        {
+          "field": "longDescription",
+          "paragraph": null,
+          "sentence": "The window closes on 8 June 793, when Viking raiders sacked Lindisfarne and a different age began.",
+          "other": "Viking raiders",
+          "other_id": null,
+          "claim": "Opposition: Viking raiders sacked Lindisfarne, closing the window."
+        },
+        {
+          "field": "why",
+          "paragraph": null,
+          "sentence": "Christianity reached the English twice, from Rome through Augustine in 597 and from Ireland through the monks of Iona who founded Lindisfarne, and the two traditions settled their differences publicly at the Synod of Whitby in 664.",
+          "other": "Church at Rome (Augustine's mission)",
+          "other_id": "roman-church-gregorian",
+          "claim": "Mission from Rome under Augustine, 597."
+        },
+        {
+          "field": "why",
+          "paragraph": null,
+          "sentence": "Christianity reached the English twice, from Rome through Augustine in 597 and from Ireland through the monks of Iona who founded Lindisfarne, and the two traditions settled their differences publicly at the Synod of Whitby in 664.",
+          "other": "Ireland and Iona (missionary monks)",
+          "other_id": "insular-irish-monastic-christianity",
+          "claim": "Mission from Ireland through the monks of Iona."
+        },
+        {
+          "field": "why",
+          "paragraph": null,
+          "sentence": "Christianity reached the English twice, from Rome through Augustine in 597 and from Ireland through the monks of Iona who founded Lindisfarne, and the two traditions settled their differences publicly at the Synod of Whitby in 664.",
+          "other": "Roman tradition (Synod of Whitby)",
+          "other_id": "roman-church-gregorian",
+          "claim": "Dispute: the Roman side settled its differences at the Synod of Whitby."
+        },
+        {
+          "field": "why",
+          "paragraph": null,
+          "sentence": "Christianity reached the English twice, from Rome through Augustine in 597 and from Ireland through the monks of Iona who founded Lindisfarne, and the two traditions settled their differences publicly at the Synod of Whitby in 664.",
+          "other": "Irish tradition (Synod of Whitby)",
+          "other_id": "insular-irish-monastic-christianity",
+          "claim": "Dispute: the Irish side settled its differences at the Synod of Whitby."
+        },
+        {
+          "field": "why",
+          "paragraph": null,
+          "sentence": "Within a century a church that had itself just been converted was sending its own missionaries back across the Channel, among them Boniface into Germany and the abbess Leoba, whose one surviving letter is a rare case of a woman's own words reaching us directly from the period.",
+          "other": "Continental mission (Germany)",
+          "other_id": null,
+          "claim": "Mission: English missionaries were sent into Germany."
+        },
+        {
+          "field": "legacy",
+          "paragraph": null,
+          "sentence": "The same church continued: this story runs straight on into the late Anglo-Saxon church that survived the Viking wars and was rebuilt under Alfred and the reforming bishops.",
+          "other": "Late Anglo-Saxon church",
+          "other_id": "late-anglo-saxon-christianity",
+          "claim": "Continuation into the late Anglo-Saxon church."
+        },
+        {
+          "field": "legacy",
+          "paragraph": null,
+          "sentence": "Bede's history shaped how the English told their own story for a thousand years and gave the Western world the habit of dating years from the Incarnation; and the mission into Germany reorganized the continental church so thoroughly that the Carolingian reform grew directly out of it.",
+          "other": "Carolingian reform (grew out of the German mission)",
+          "other_id": "carolingian-reform-christianity",
+          "claim": "Parent: the German mission led directly to the Carolingian reform."
+        }
+      ],
+      "raw_ids_in_text": [],
+      "existing_links": [
+        {
+          "id": "roman-church-gregorian--anglo-saxon-christianity",
+          "from": "roman-church-gregorian",
+          "to": "anglo-saxon-christianity",
+          "type": "gave rise to",
+          "confidence": "Documented"
+        },
+        {
+          "id": "insular-irish-monastic-christianity--anglo-saxon-christianity",
+          "from": "insular-irish-monastic-christianity",
+          "to": "anglo-saxon-christianity",
+          "type": "gave rise to",
+          "confidence": "Documented"
+        }
+      ]
+    },
+    {
+      "id": "carolingian-reform-christianity",
+      "name": "Carolingian Reform Christianity",
+      "dates": "751-888",
+      "relationships": [
+        {
+          "field": "relationsSummary",
+          "paragraph": null,
+          "sentence": "Child of Anglo-Saxon + Gallic lines; parent of Cluny",
+          "other": "Anglo-Saxon line",
+          "other_id": "anglo-saxon-christianity",
+          "claim": "Descent: child of the Anglo-Saxon line."
+        },
+        {
+          "field": "relationsSummary",
+          "paragraph": null,
+          "sentence": "Child of Anglo-Saxon + Gallic lines; parent of Cluny",
+          "other": "Gallic line",
+          "other_id": "merovingian-gallic-christianity",
+          "other_id_note": "Era-3 entry (c. 480-620) ends before this window (751). Nearest name fit.",
+          "claim": "Descent: child of the Gallic line."
+        },
+        {
+          "field": "relationsSummary",
+          "paragraph": null,
+          "sentence": "Child of Anglo-Saxon + Gallic lines; parent of Cluny",
+          "other": "Cluny",
+          "other_id": "cluniac-reform-monasticism",
+          "claim": "Parent of Cluny."
+        },
+        {
+          "field": "longDescription",
+          "paragraph": null,
+          "sentence": "When Pippin was anointed king in 751 and his son Charlemagne built an empire across western Europe, they treated the condition of the church as a matter of government: schools attached to cathedrals and monasteries, corrected copies of Scripture and the liturgy, one monastic rule for the whole realm, and decrees ordering that every priest be able to explain the Creed and the Lord's Prayer to his people in words they could understand.",
+          "other": "Frankish kingship (Pippin, Charlemagne)",
+          "other_id": null,
+          "claim": "Governance: the Frankish kings treated the church's condition as a matter of government."
+        },
+        {
+          "field": "longDescription",
+          "paragraph": null,
+          "sentence": "When Pippin was anointed king in 751 and his son Charlemagne built an empire across western Europe, they treated the condition of the church as a matter of government: schools attached to cathedrals and monasteries, corrected copies of Scripture and the liturgy, one monastic rule for the whole realm, and decrees ordering that every priest be able to explain the Creed and the Lord's Prayer to his people in words they could understand.",
+          "other": "Monastic rule for the whole realm (rule not named)",
+          "other_id": null,
+          "other_id_note": "The text does not name the rule.",
+          "claim": "Reform: one monastic rule was imposed across the realm."
+        },
+        {
+          "field": "longDescription",
+          "paragraph": null,
+          "sentence": "Scholars were imported to run it, Alcuin of York above all, and the clear round script their scriptoria developed — Carolingian minuscule — is the ancestor of the letters you are reading now.",
+          "other": "Alcuin of York (imported from England)",
+          "other_id": "anglo-saxon-christianity",
+          "other_id_note": "Alcuin came from York, Northumbria. The Anglo-Saxon entry (597-793) is the nearest census fit.",
+          "claim": "Contact: English scholars, Alcuin of York above all, were imported to run the reform."
+        },
+        {
+          "field": "legacy",
+          "paragraph": null,
+          "sentence": "Its institutional line runs on into the papal reform of the eleventh century and through that into the Latin church of the whole later Middle Ages.",
+          "other": "Eleventh-century papal reform",
+          "other_id": "latin-papal-church-gregorian",
+          "other_id_note": "Era-5 entry 'Gregorian Reform to Innocent III' (c. 1049-1300) matches.",
+          "claim": "Continuation: the institutional line runs into the eleventh-century papal reform."
+        },
+        {
+          "field": "legacy",
+          "paragraph": null,
+          "sentence": "Its institutional line runs on into the papal reform of the eleventh century and through that into the Latin church of the whole later Middle Ages.",
+          "other": "Latin church of the later Middle Ages",
+          "other_id": null,
+          "other_id_note": "No single census entry; the era-5 and era-6 papal entries split this period.",
+          "claim": "Continuation into the Latin church of the later Middle Ages."
+        },
+        {
+          "field": "legacy",
+          "paragraph": null,
+          "sentence": "Its most durable legacies are practical: Carolingian minuscule, which Renaissance humanists took as their model and which therefore stands behind modern printed type.",
+          "other": "Renaissance humanists",
+          "other_id": null,
+          "claim": "Influence: humanists took Carolingian minuscule as their model."
+        },
+        {
+          "field": "legacy",
+          "paragraph": null,
+          "sentence": "Corrected texts of the Bible and the Roman liturgy that stayed standard for centuries; and the cathedral and monastic schools that were the seed-bed of the medieval universities.",
+          "other": "Medieval universities",
+          "other_id": null,
+          "claim": "Influence: cathedral and monastic schools seeded the medieval universities."
+        }
+      ],
+      "raw_ids_in_text": [],
+      "existing_links": []
+    },
+    {
+      "id": "iconophile-byzantine-monasticism",
+      "name": "Iconophile Byzantine Monasticism",
+      "dates": "726-843",
+      "relationships": [
+        {
+          "field": "relationsSummary",
+          "paragraph": null,
+          "sentence": "Heir of Greek monastic lines; parent of Athonite monasticism",
+          "other": "Greek monastic lines (before 726)",
+          "other_id": null,
+          "other_id_note": "No census entry for Greek monasticism before 726.",
+          "claim": "Descent: heir of Greek monastic lines."
+        },
+        {
+          "field": "relationsSummary",
+          "paragraph": null,
+          "sentence": "Heir of Greek monastic lines; parent of Athonite monasticism",
+          "other": "Athonite monasticism",
+          "other_id": "athonite-and-comnenian-byzantine-monasticism",
+          "other_id_note": "Era-5 entry (c. 963-1300) begins after this window ends (843).",
+          "claim": "Parent of Athonite monasticism."
+        },
+        {
+          "field": "longDescription",
+          "paragraph": null,
+          "sentence": "Twice over a century and more, the Byzantine court tried to purge Christian worship of images, and both times the strongest organized resistance came from the monasteries.",
+          "other": "Byzantine court (iconoclast emperors)",
+          "other_id": "byzantine-imperial-church-heraclian-iconoclast",
+          "claim": "Opposition: the Byzantine court tried twice to purge images from Christian worship."
+        },
+        {
+          "field": "longDescription",
+          "paragraph": null,
+          "sentence": "Stephen the Younger was killed in 765, and Theodore, abbot of the great Stoudios monastery in Constantinople, was beaten, imprisoned and exiled more than once while still producing letters, talks to his monks, and treatises on the holy icons.",
+          "other": "Byzantine iconoclast government",
+          "other_id": "byzantine-imperial-church-heraclian-iconoclast",
+          "claim": "Persecution: Stephen the Younger was killed, and Theodore was beaten, imprisoned and exiled."
+        },
+        {
+          "field": "longDescription",
+          "paragraph": null,
+          "sentence": "Images were restored once at the Council of Nicaea in 787 and finally in 843, a day the Orthodox churches still keep as the Triumph of Orthodoxy.",
+          "other": "Orthodox churches (Triumph of Orthodoxy, 843)",
+          "other_id": "byzantine-imperial-church-macedonian",
+          "other_id_note": "The 843 restoration falls in the era-4 Macedonian entry (843-1054).",
+          "claim": "Commemoration: the Orthodox churches keep 843 as the Triumph of Orthodoxy."
+        },
+        {
+          "field": "longDescription",
+          "paragraph": null,
+          "sentence": "The winning side wrote the record, and the iconoclasts' own case survives almost entirely in quotations made by the people refuting it.",
+          "other": "Iconoclasts (imperial iconoclast party)",
+          "other_id": "byzantine-imperial-church-heraclian-iconoclast",
+          "claim": "Dispute: the iconoclasts' case survives only in quotations by their opponents."
+        },
+        {
+          "field": "why",
+          "paragraph": null,
+          "sentence": "Twice over a century, Byzantine emperors tried to purge Christian worship of images, and both times monks led the resistance, arguing that a God who had become visible in a human being could rightly be painted.",
+          "other": "Byzantine emperors (iconoclast period)",
+          "other_id": "byzantine-imperial-church-heraclian-iconoclast",
+          "claim": "Opposition: Byzantine emperors tried twice to purge images; monks led the resistance."
+        },
+        {
+          "field": "why",
+          "paragraph": null,
+          "sentence": "Stephen the Younger was killed for the argument in 765, and Theodore of Stoudios was beaten, imprisoned and exiled more than once before icons were restored for good in 843, a day still kept as the Triumph of Orthodoxy.",
+          "other": "Byzantine iconoclast government",
+          "other_id": "byzantine-imperial-church-heraclian-iconoclast",
+          "claim": "Persecution: Stephen the Younger was killed for the argument in 765."
+        },
+        {
+          "field": "legacy",
+          "paragraph": null,
+          "sentence": "The same monastic tradition continues directly as Athonite monasticism and, through it, the wider Orthodox monastic world.",
+          "other": "Athonite monasticism",
+          "other_id": "athonite-and-comnenian-byzantine-monasticism",
+          "claim": "Continuation as Athonite monasticism."
+        },
+        {
+          "field": "legacy",
+          "paragraph": null,
+          "sentence": "Its theology of the image became settled Orthodox doctrine.",
+          "other": "Orthodox doctrine",
+          "other_id": null,
+          "claim": "Influence: its theology of the image became settled Orthodox doctrine."
+        },
+        {
+          "field": "legacy",
+          "paragraph": null,
+          "sentence": "Theodore's reorganization of Stoudios also shaped later Byzantine and Slavic monastic rules well beyond his own house.",
+          "other": "Later Byzantine and Slavic monastic rules (unnamed)",
+          "other_id": null,
+          "other_id_note": "The text names no house. The era-5 Serbian and Bulgarian entry (1170-1396) is a possible but unnamed fit.",
+          "claim": "Influence: Theodore's reorganization of Stoudios shaped later monastic rules."
+        }
+      ],
+      "raw_ids_in_text": [],
+      "existing_links": [
+        {
+          "id": "desert-monasticism--iconophile-byzantine-monasticism",
+          "from": "desert-monasticism",
+          "to": "iconophile-byzantine-monasticism",
+          "type": "influenced",
+          "confidence": "Inferential-Thin"
+        }
+      ]
+    },
+    {
+      "id": "cyrillo-methodian-slavic-christianity",
+      "name": "Cyrillo-Methodian Slavic Christianity",
+      "dates": "c. 863-916",
+      "relationships": [
+        {
+          "field": "relationsSummary",
+          "paragraph": null,
+          "sentence": "Child of Byzantium; parent of Kievan Rus' Christianity",
+          "other": "Byzantium (Constantinople)",
+          "other_id": "byzantine-imperial-church-macedonian",
+          "other_id_note": "Era-4 Macedonian entry (843-1054) covers the sending church.",
+          "claim": "Descent: child of Byzantium."
+        },
+        {
+          "field": "relationsSummary",
+          "paragraph": null,
+          "sentence": "Child of Byzantium; parent of Kievan Rus' Christianity",
+          "other": "Kievan Rus' Christianity",
+          "other_id": "kievan-rus-christianity",
+          "claim": "Parent of Kievan Rus' Christianity."
+        },
+        {
+          "field": "longDescription",
+          "paragraph": null,
+          "sentence": "In 863 two brothers from Thessaloniki — Constantine, better known by his monastic name Cyril, and Methodius — were sent from Constantinople to Moravia at its ruler's request, and did something unusual for their day: rather than teach in Greek or Latin, they devised an alphabet for the Slavic language and translated the Scriptures and the liturgy into it.",
+          "other": "Constantinople (sending church)",
+          "other_id": "byzantine-imperial-church-macedonian",
+          "claim": "Mission: the brothers were sent from Constantinople."
+        },
+        {
+          "field": "longDescription",
+          "paragraph": null,
+          "sentence": "In 863 two brothers from Thessaloniki — Constantine, better known by his monastic name Cyril, and Methodius — were sent from Constantinople to Moravia at its ruler's request, and did something unusual for their day: rather than teach in Greek or Latin, they devised an alphabet for the Slavic language and translated the Scriptures and the liturgy into it.",
+          "other": "Moravia (its ruler)",
+          "other_id": null,
+          "other_id_note": "No census entry for Moravia.",
+          "claim": "Mission: the brothers were sent to Moravia at the ruler's request."
+        },
+        {
+          "field": "longDescription",
+          "paragraph": null,
+          "sentence": "The idea was fought hard, by clergy who held that God could properly be worshipped only in Hebrew, Greek and Latin, and the brothers traveled to Rome to argue the case, where the pope approved the Slavonic books.",
+          "other": "Clergy who opposed Slavonic worship (unnamed)",
+          "other_id": null,
+          "claim": "Opposition: clergy held that God could be worshipped only in Hebrew, Greek and Latin."
+        },
+        {
+          "field": "longDescription",
+          "paragraph": null,
+          "sentence": "The idea was fought hard, by clergy who held that God could properly be worshipped only in Hebrew, Greek and Latin, and the brothers traveled to Rome to argue the case, where the pope approved the Slavonic books.",
+          "other": "Papacy at Rome (ninth century)",
+          "other_id": null,
+          "other_id_note": "No ninth-century papal entry in the census.",
+          "claim": "Contact: the brothers argued at Rome, and the pope approved the Slavonic books."
+        },
+        {
+          "field": "longDescription",
+          "paragraph": null,
+          "sentence": "After Methodius died in 885 their disciples were driven out of Moravia and carried the work south, where Clement and Naum built schools at Ohrid and Preslav that turned it into a permanent literature.",
+          "other": "Moravian church (clergy, unnamed)",
+          "other_id": null,
+          "other_id_note": "No census entry for the Moravian church.",
+          "claim": "Opposition: the disciples were driven out of Moravia after Methodius died in 885."
+        },
+        {
+          "field": "longDescription",
+          "paragraph": null,
+          "sentence": "After Methodius died in 885 their disciples were driven out of Moravia and carried the work south, where Clement and Naum built schools at Ohrid and Preslav that turned it into a permanent literature.",
+          "other": "Bulgarian church at Ohrid and Preslav",
+          "other_id": null,
+          "other_id_note": "Era-5 Bulgarian entry (serbian-and-bulgarian-medieval-monasticism, 1170-1396) postdates this window.",
+          "claim": "Contact: the disciples carried the work to Ohrid and Preslav."
+        },
+        {
+          "field": "legacy",
+          "paragraph": null,
+          "sentence": "The tradition continues directly into the Christianity of Kievan Rus' and through that into the Russian, Ukrainian, Serbian and Bulgarian churches.",
+          "other": "Kievan Rus' Christianity",
+          "other_id": "kievan-rus-christianity",
+          "claim": "Continuation into the Christianity of Kievan Rus'."
+        },
+        {
+          "field": "legacy",
+          "paragraph": null,
+          "sentence": "The tradition continues directly into the Christianity of Kievan Rus' and through that into the Russian, Ukrainian, Serbian and Bulgarian churches.",
+          "other": "Russian and Ukrainian churches",
+          "other_id": null,
+          "other_id_note": "No census entry for these churches in this window.",
+          "claim": "Continuation into the Russian and Ukrainian churches."
+        },
+        {
+          "field": "legacy",
+          "paragraph": null,
+          "sentence": "The tradition continues directly into the Christianity of Kievan Rus' and through that into the Russian, Ukrainian, Serbian and Bulgarian churches.",
+          "other": "Serbian and Bulgarian churches",
+          "other_id": "serbian-and-bulgarian-medieval-monasticism",
+          "other_id_note": "Name match on Serbia and Bulgaria. The entry covers monasticism, 1170-1396.",
+          "claim": "Continuation into the Serbian and Bulgarian churches."
+        },
+        {
+          "field": "legacy",
+          "paragraph": null,
+          "sentence": "Cyril and Methodius are venerated as saints in both East and West, and in 1980 the Catholic Church named them co-patrons of Europe.",
+          "other": "Eastern and Western churches (veneration)",
+          "other_id": null,
+          "claim": "Veneration: Cyril and Methodius are venerated as saints in East and West."
+        },
+        {
+          "field": "legacy",
+          "paragraph": null,
+          "sentence": "Cyril and Methodius are venerated as saints in both East and West, and in 1980 the Catholic Church named them co-patrons of Europe.",
+          "other": "Catholic Church (1980)",
+          "other_id": null,
+          "other_id_note": "1980 falls outside every Catholic census entry window.",
+          "claim": "Recognition: the Catholic Church named them co-patrons of Europe in 1980."
+        }
+      ],
+      "raw_ids_in_text": [],
+      "existing_links": []
+    },
+    {
+      "id": "kievan-rus-christianity",
+      "name": "Kievan Rus' Christianity",
+      "dates": "988-1054",
+      "relationships": [
+        {
+          "field": "relationsSummary",
+          "paragraph": null,
+          "sentence": "Child of the Cyril and Methodius mission; parent of the whole Russian line.",
+          "other": "Cyril and Methodius mission",
+          "other_id": "cyrillo-methodian-slavic-christianity",
+          "claim": "Descent: child of the Cyril and Methodius mission."
+        },
+        {
+          "field": "relationsSummary",
+          "paragraph": null,
+          "sentence": "Child of the Cyril and Methodius mission; parent of the whole Russian line.",
+          "other": "Russian line (later)",
+          "other_id": null,
+          "other_id_note": "No census entry for the Russian line before 1517. Later candidates: muscovite-monastic-christianity (1340-1517), russian-church-stoglav-to-nikon (1517-1650).",
+          "claim": "Parent of the whole Russian line."
+        },
+        {
+          "field": "longDescription",
+          "paragraph": null,
+          "sentence": "Envoys sent out to sample the religions who reported that in Hagia Sophia at Constantinople they had not known whether they stood in heaven or on earth.",
+          "other": "Byzantine church at Constantinople (Hagia Sophia)",
+          "other_id": "byzantine-imperial-church-macedonian",
+          "other_id_note": "Era-4 Macedonian entry (843-1054) covers the period.",
+          "claim": "Contact: envoys who saw worship at Hagia Sophia in Constantinople reported back."
+        },
+        {
+          "field": "longDescription",
+          "paragraph": null,
+          "sentence": "The window is short, barely two generations, but almost the whole later history of Russian, Ukrainian and Belarusian Christianity runs back through it.",
+          "other": "Russian, Ukrainian and Belarusian Christianity (later)",
+          "other_id": null,
+          "other_id_note": "No census entry for these later churches in this window.",
+          "claim": "Descent: later Russian, Ukrainian and Belarusian Christianity runs back through this window."
+        },
+        {
+          "field": "why",
+          "paragraph": null,
+          "sentence": "In 988 Prince Vladimir of Kyiv was baptized and had his people baptized with him, an act the Rus' chronicle later wrapped in the story of envoys who, standing in Hagia Sophia at Constantinople, could not tell whether they were in heaven or on earth.",
+          "other": "Byzantine church at Constantinople (Hagia Sophia)",
+          "other_id": "byzantine-imperial-church-macedonian",
+          "claim": "Contact: envoys stood in Hagia Sophia at Constantinople and could not tell heaven from earth."
+        },
+        {
+          "field": "legacy",
+          "paragraph": null,
+          "sentence": "The same church continued without a break into the Kievan Rus' of the following two centuries and, through it, into the Russian, Ukrainian and Belarusian Orthodox churches — the largest body of Orthodox Christians in the world traces its founding to these two generations.",
+          "other": "Kievan Rus' of the following two centuries",
+          "other_id": "kievan-rus-christianity-1054-1240",
+          "claim": "Continuation into the Kievan Rus' of the following two centuries."
+        },
+        {
+          "field": "legacy",
+          "paragraph": null,
+          "sentence": "The same church continued without a break into the Kievan Rus' of the following two centuries and, through it, into the Russian, Ukrainian and Belarusian Orthodox churches — the largest body of Orthodox Christians in the world traces its founding to these two generations.",
+          "other": "Russian, Ukrainian and Belarusian Orthodox churches",
+          "other_id": null,
+          "other_id_note": "No census entry for these churches in this window.",
+          "claim": "Continuation into the Russian, Ukrainian and Belarusian Orthodox churches."
+        },
+        {
+          "field": "legacy",
+          "paragraph": null,
+          "sentence": "St Sophia in Kyiv keeps its eleventh-century mosaics and frescoes, the Caves Monastery is still a monastery, and Boris and Gleb, venerated as 'passion-bearers' who would not raise a hand against their own brother, became a model of holiness distinctive to the Slavic churches.",
+          "other": "Slavic churches",
+          "other_id": null,
+          "claim": "Influence: Boris and Gleb became a model of holiness for the Slavic churches."
+        }
+      ],
+      "raw_ids_in_text": [],
+      "existing_links": []
+    },
+    {
+      "id": "mozarabic-christianity",
+      "name": "Mozarabic Christianity",
+      "dates": "711-1031",
+      "relationships": [
+        {
+          "field": "relationsSummary",
+          "paragraph": null,
+          "sentence": "Heir of post-589 Iberia; a community arguing with itself about provoked martyrdom",
+          "other": "Post-589 Iberia (Visigothic)",
+          "other_id": "nicene-visigothic-iberia",
+          "other_id_note": "Era-3 entry (c. 560-711) covers the Visigothic period.",
+          "claim": "Descent: heir of Visigothic Iberia after 589."
+        },
+        {
+          "field": "longDescription",
+          "paragraph": null,
+          "sentence": "After 711 most of Iberia's Christians lived under Muslim rule, kept the old Visigothic liturgy, and — as generations passed — increasingly spoke, wrote and thought in Arabic.",
+          "other": "Muslim rulers of Iberia",
+          "other_id": null,
+          "claim": "Status: most Iberian Christians lived under Muslim rule after 711."
+        },
+        {
+          "field": "longDescription",
+          "paragraph": null,
+          "sentence": "After 711 most of Iberia's Christians lived under Muslim rule, kept the old Visigothic liturgy, and — as generations passed — increasingly spoke, wrote and thought in Arabic.",
+          "other": "Visigothic liturgy and church",
+          "other_id": "nicene-visigothic-iberia",
+          "claim": "Continuity: kept the old Visigothic liturgy."
+        },
+        {
+          "field": "longDescription",
+          "paragraph": null,
+          "sentence": "In the 850s that quiet accommodation broke open in Córdoba, where some four dozen Christians were executed after publicly denouncing Islam, many of them going out of their way to provoke the sentence.",
+          "other": "Muslim authorities of Córdoba",
+          "other_id": null,
+          "claim": "Opposition: some four dozen Christians were executed after publicly denouncing Islam."
+        },
+        {
+          "field": "longDescription",
+          "paragraph": null,
+          "sentence": "The community then argued with itself about what had happened: the priest Eulogius wrote the martyrs up as heroes and was executed himself in 859.",
+          "other": "Muslim authorities of Córdoba (Eulogius)",
+          "other_id": null,
+          "other_id_note": "Eulogius is a person with no census entry.",
+          "claim": "Opposition: the priest Eulogius was executed in 859."
+        },
+        {
+          "field": "longDescription",
+          "paragraph": null,
+          "sentence": "And other Christians, including bishops assembled in council, judged that the martyrs had thrown their lives away.",
+          "other": "Bishops assembled in council (Mozarabic)",
+          "other_id": null,
+          "other_id_note": "Internal dispute; no separate census entry.",
+          "claim": "Dispute: bishops judged that the martyrs had thrown their lives away."
+        },
+        {
+          "field": "longDescription",
+          "paragraph": null,
+          "sentence": "The window closes with the collapse of the Caliphate of Córdoba in 1031.",
+          "other": "Caliphate of Córdoba",
+          "other_id": null,
+          "other_id_note": "No census entry.",
+          "claim": "Window closes with the collapse of the Caliphate of Córdoba (1031)."
+        },
+        {
+          "field": "why",
+          "paragraph": null,
+          "sentence": "After 711 most Christians in Iberia lived under Muslim rule, kept their old Visigothic liturgy, and increasingly spoke and wrote in Arabic, until in the 850s a group in Córdoba began publicly denouncing Islam, some going out of their way to provoke execution.",
+          "other": "Muslim authorities of Córdoba",
+          "other_id": null,
+          "claim": "Opposition: a Córdoba group publicly denounced Islam from the 850s."
+        },
+        {
+          "field": "why",
+          "paragraph": null,
+          "sentence": "The community argued fiercely over what to make of them: the priest Eulogius defended the martyrs and was executed himself in 859, while his friend Paulus Alvarus lamented that young Christians preferred Arabic poetry to their own Latin, and other Christians, including bishops, judged that the martyrs had simply thrown their lives away.",
+          "other": "Muslim authorities of Córdoba (Eulogius)",
+          "other_id": null,
+          "other_id_note": "Eulogius is a person with no census entry.",
+          "claim": "Opposition: Eulogius was executed in 859."
+        },
+        {
+          "field": "why",
+          "paragraph": null,
+          "sentence": "The community argued fiercely over what to make of them: the priest Eulogius defended the martyrs and was executed himself in 859, while his friend Paulus Alvarus lamented that young Christians preferred Arabic poetry to their own Latin, and other Christians, including bishops, judged that the martyrs had simply thrown their lives away.",
+          "other": "Bishops (Mozarabic dispute)",
+          "other_id": null,
+          "other_id_note": "Internal dispute; no separate census entry.",
+          "claim": "Dispute: bishops judged that the martyrs had thrown their lives away."
+        },
+        {
+          "field": "legacy",
+          "paragraph": null,
+          "sentence": "Mozarabic Christianity was worn away between the pressure of the Almoravid and Almohad periods and absorption into the Latin church of the northern kingdoms as they advanced.",
+          "other": "Latin church of the northern kingdoms",
+          "other_id": null,
+          "claim": "Absorption into the Latin church of the northern kingdoms."
+        },
+        {
+          "field": "legacy",
+          "paragraph": null,
+          "sentence": "Mozarabic Christianity was worn away between the pressure of the Almoravid and Almohad periods and absorption into the Latin church of the northern kingdoms as they advanced.",
+          "other": "Almoravid and Almohad rule",
+          "other_id": null,
+          "claim": "Opposition: the Almoravid and Almohad periods pressed the community."
+        },
+        {
+          "field": "legacy",
+          "paragraph": null,
+          "sentence": "The old Hispanic rite, which the Mozarabs held on to when the rest of the Latin West adopted Roman usage, was rescued at Toledo around 1500 by Cardinal Cisneros, who had its books printed and endowed a chapel to keep it in use.",
+          "other": "Latin West (Roman usage)",
+          "other_id": null,
+          "claim": "Contrast: the Mozarabs kept the Hispanic rite when the Latin West adopted Roman usage."
+        },
+        {
+          "field": "legacy",
+          "paragraph": null,
+          "sentence": "The old Hispanic rite, which the Mozarabs held on to when the rest of the Latin West adopted Roman usage, was rescued at Toledo around 1500 by Cardinal Cisneros, who had its books printed and endowed a chapel to keep it in use.",
+          "other": "Cardinal Cisneros (person)",
+          "other_id": null,
+          "claim": "Patronage: Cardinal Cisneros rescued the Hispanic rite and endowed a chapel to keep it in use."
+        }
+      ],
+      "raw_ids_in_text": [],
+      "existing_links": []
+    },
+    {
+      "id": "cluniac-reform-monasticism",
+      "name": "Cluniac Reform Monasticism",
+      "dates": "909-1109",
+      "relationships": [
+        {
+          "field": "relationsSummary",
+          "paragraph": null,
+          "sentence": "Cluny grew out of the Carolingian reform tradition, and it became the establishment that the next century's new monastic orders, the Cistercians above all, reacted against.",
+          "other": "Carolingian reform tradition",
+          "other_id": "carolingian-reform-christianity",
+          "claim": "Origin: Cluny grew out of the Carolingian reform tradition."
+        },
+        {
+          "field": "relationsSummary",
+          "paragraph": null,
+          "sentence": "Cluny grew out of the Carolingian reform tradition, and it became the establishment that the next century's new monastic orders, the Cistercians above all, reacted against.",
+          "other": "Cistercians and the next century's new orders",
+          "other_id": "cistercian-monasticism",
+          "claim": "Opposition: the Cistercians and other new orders reacted against Cluny."
+        },
+        {
+          "field": "relationsSummary",
+          "paragraph": null,
+          "sentence": "It reached its peak in the twelfth century under Peter the Venerable, who led the house until 1156, commissioned the first Latin translation of the Qur'an, and gave shelter to Peter Abelard.",
+          "other": "Islam (the Qur'an)",
+          "other_id": null,
+          "claim": "Contact: Peter the Venerable commissioned the first Latin translation of the Qur'an."
+        },
+        {
+          "field": "relationsSummary",
+          "paragraph": null,
+          "sentence": "It reached its peak in the twelfth century under Peter the Venerable, who led the house until 1156, commissioned the first Latin translation of the Qur'an, and gave shelter to Peter Abelard.",
+          "other": "Peter Abelard (person)",
+          "other_id": null,
+          "claim": "Patronage: Peter the Venerable gave shelter to Abelard."
+        },
+        {
+          "field": "longDescription",
+          "paragraph": null,
+          "sentence": "In 909 or 910 — the foundation charter's own year is disputed — a duke of Aquitaine endowed a monastery at Cluny in Burgundy and did something unusual with the deed: he renounced all rights over it, for himself and his heirs, and placed it directly under the pope, so that no local lord or bishop could appoint its abbot or spend its money.",
+          "other": "Duke of Aquitaine (founder)",
+          "other_id": null,
+          "claim": "Foundation: a duke of Aquitaine endowed Cluny and renounced all rights over it."
+        },
+        {
+          "field": "longDescription",
+          "paragraph": null,
+          "sentence": "In 909 or 910 — the foundation charter's own year is disputed — a duke of Aquitaine endowed a monastery at Cluny in Burgundy and did something unusual with the deed: he renounced all rights over it, for himself and his heirs, and placed it directly under the pope, so that no local lord or bishop could appoint its abbot or spend its money.",
+          "other": "Papacy (direct papal subjection)",
+          "other_id": "latin-papal-church-gregorian",
+          "other_id_note": "Overlaps 1049-1109. No papal entry for 909-1049 in the census.",
+          "claim": "Exemption: Cluny was placed directly under the pope."
+        },
+        {
+          "field": "longDescription",
+          "paragraph": null,
+          "sentence": "In 909 or 910 — the foundation charter's own year is disputed — a duke of Aquitaine endowed a monastery at Cluny in Burgundy and did something unusual with the deed: he renounced all rights over it, for himself and his heirs, and placed it directly under the pope, so that no local lord or bishop could appoint its abbot or spend its money.",
+          "other": "Local lords and bishops",
+          "other_id": null,
+          "claim": "Exemption: no local lord or bishop could appoint the abbot."
+        },
+        {
+          "field": "longDescription",
+          "paragraph": null,
+          "sentence": "Its abbots reached outward too: Odilo spread the commemoration of all the dead on 2 November and lent his weight to efforts to limit private warfare, and by the eleventh century Cluny's church was the largest in Christendom.",
+          "other": "Efforts to limit private warfare (unnamed)",
+          "other_id": null,
+          "claim": "Contact: Odilo lent his weight to efforts to limit private warfare."
+        },
+        {
+          "field": "why",
+          "paragraph": null,
+          "sentence": "In 909 or 910 a duke of Aquitaine endowed the monastery of Cluny and renounced all rights over it, placing it directly under the pope so that no local lord could control its abbot or its money.",
+          "other": "Papacy (direct papal subjection)",
+          "other_id": "latin-papal-church-gregorian",
+          "other_id_note": "Overlaps 1049-1109.",
+          "claim": "Exemption: Cluny was placed directly under the pope."
+        },
+        {
+          "field": "legacy",
+          "paragraph": null,
+          "sentence": "Its insistence that a monastery answer to Rome rather than to the local lord fed directly into the papal reform of the eleventh century.",
+          "other": "Eleventh-century papal reform",
+          "other_id": "latin-papal-church-gregorian",
+          "claim": "Influence: Cluny's insistence on answering to Rome fed the eleventh-century papal reform."
+        },
+        {
+          "field": "legacy",
+          "paragraph": null,
+          "sentence": "The commemoration of All Souls on 2 November, which Odilo did most to spread, is still kept across Western Christianity.",
+          "other": "Western Christianity (All Souls)",
+          "other_id": null,
+          "claim": "Legacy: the commemoration of All Souls is kept across Western Christianity."
+        },
+        {
+          "field": "legacy",
+          "paragraph": null,
+          "sentence": "And the next century's new orders, the Cistercians above all, defined themselves precisely against Cluny's wealth and its long liturgy.",
+          "other": "Cistercian monasticism",
+          "other_id": "cistercian-monasticism",
+          "claim": "Opposition: the Cistercians defined themselves against Cluny."
+        }
+      ],
+      "raw_ids_in_text": [],
+      "existing_links": []
+    },
+    {
+      "id": "st-thomas-christians-of-india",
+      "name": "St. Thomas Christians of India",
+      "dates": "849-1054",
+      "relationships": [
+        {
+          "field": "relationsSummary",
+          "paragraph": null,
+          "sentence": "Daughter/partner of the Church of the East",
+          "other": "Church of the East",
+          "other_id": "church-of-the-east-under-the-abbasids",
+          "other_id_note": "Era-4 entry (845-1220) covers this window (849-1054).",
+          "claim": "Descent: daughter or partner of the Church of the East."
+        },
+        {
+          "field": "longDescription",
+          "paragraph": null,
+          "sentence": "On the Malabar coast of India there was, long before any European arrived, a Christian community that traced itself to the apostle Thomas, worshipped in Syriac, and received its bishops from the patriarch of the Church of the East in Mesopotamia — an Indian church inside an Asian communion, on nobody's European line at all.",
+          "other": "Church of the East (patriarch in Mesopotamia)",
+          "other_id": "church-of-the-east-under-the-abbasids",
+          "other_id_note": "Era-4 entry (845-1220) covers this window.",
+          "claim": "Ecclesiastical link: bishops came from the Church of the East patriarch in Mesopotamia."
+        },
+        {
+          "field": "longDescription",
+          "paragraph": null,
+          "sentence": "What it left of itself in this period is mostly not writing but objects and documents drawn up by others: granite crosses carved with inscriptions in Pahlavi, the language of Persia, and above all a set of copper plates issued around 849 in which a local ruler grants land and trading privileges to a church at Kollam and names the Christians as a recognized community with standing among their neighbors.",
+          "other": "Local ruler (of Kollam)",
+          "other_id": null,
+          "claim": "Patronage: a local ruler granted land and trading privileges to the Kollam church, c. 849."
+        },
+        {
+          "field": "why",
+          "paragraph": null,
+          "sentence": "On India's Malabar coast, a Christian community that traced itself to the apostle Thomas worshipped in Syriac and received its bishops from the patriarch of the Church of the East in Mesopotamia.",
+          "other": "Church of the East (patriarch in Mesopotamia)",
+          "other_id": "church-of-the-east-under-the-abbasids",
+          "other_id_note": "Era-4 entry (845-1220) covers this window.",
+          "claim": "Ecclesiastical link: bishops came from the Church of the East patriarch in Mesopotamia."
+        },
+        {
+          "field": "why",
+          "paragraph": null,
+          "sentence": "What survives from this period is not writing in their own words but objects made by and for them — granite crosses carved with Persian inscriptions, and a set of copper plates from around 849 recording a local ruler's grant of land and standing to the church at Kollam.",
+          "other": "Local ruler (of Kollam)",
+          "other_id": null,
+          "claim": "Patronage: a local ruler granted land and standing to the Kollam church."
+        },
+        {
+          "field": "legacy",
+          "paragraph": null,
+          "sentence": "Its descendants are the St Thomas Christians of Kerala.",
+          "other": "St Thomas Christians of Kerala (descendants)",
+          "other_id": "st-thomas-christians-1300-1517",
+          "other_id_note": "Era-6 entry is the nearest census line after this window.",
+          "claim": "Descent: its descendants are the St Thomas Christians of Kerala."
+        },
+        {
+          "field": "legacy",
+          "paragraph": null,
+          "sentence": "Today divided among several churches, after Portuguese pressure in the sixteenth century and the ruptures that followed, but continuous with this one, and still using Syriac liturgical traditions.",
+          "other": "Portuguese pressure (sixteenth century)",
+          "other_id": "st-thomas-christians-under-portuguese-pressure-d",
+          "other_id_note": "Era-7 entry (1599-1665) matches the Portuguese pressure.",
+          "claim": "Opposition: Portuguese pressure in the sixteenth century divided the community."
+        }
+      ],
+      "raw_ids_in_text": [],
+      "existing_links": []
+    },
+    {
+      "id": "paulicians",
+      "name": "Paulicians",
+      "dates": "c. 650-878",
+      "relationships": [
+        {
+          "field": "relationsSummary",
+          "paragraph": null,
+          "sentence": "Deported en masse by Byzantium - also a victim story",
+          "other": "Byzantium (Byzantine state)",
+          "other_id": "byzantine-imperial-church-heraclian-iconoclast",
+          "other_id_note": "Era-4 entry (622-843) covers most of the period. Later deportations fall in the Macedonian entry (843-1054).",
+          "claim": "Opposition: Byzantium deported the Paulicians en masse."
+        },
+        {
+          "field": "longDescription",
+          "paragraph": null,
+          "sentence": "Byzantine heresy-hunters describe a movement that rejected the Old Testament, the cross, the sacraments and the veneration of Mary, and held a dualist view of the world.",
+          "other": "Byzantine heresy-hunters (imperial church polemicists)",
+          "other_id": "byzantine-imperial-church-heraclian-iconoclast",
+          "other_id_note": "Polemicists have no census entry; the imperial church entry is the nearest.",
+          "claim": "Opposition: Byzantine polemicists described the Paulicians as heretics."
+        },
+        {
+          "field": "longDescription",
+          "paragraph": null,
+          "sentence": "Imperial campaigns killed and displaced them in large numbers, and the survivors built a fortified state of their own at Tephrike on the frontier, made common cause with the Arabs, and raided Byzantine territory until the fortress fell in 878.",
+          "other": "Imperial Byzantine state (campaigns)",
+          "other_id": "byzantine-imperial-church-heraclian-iconoclast",
+          "claim": "Opposition: imperial campaigns killed and displaced the Paulicians."
+        },
+        {
+          "field": "longDescription",
+          "paragraph": null,
+          "sentence": "Imperial campaigns killed and displaced them in large numbers, and the survivors built a fortified state of their own at Tephrike on the frontier, made common cause with the Arabs, and raided Byzantine territory until the fortress fell in 878.",
+          "other": "Arabs",
+          "other_id": null,
+          "claim": "Alliance: the survivors made common cause with the Arabs."
+        },
+        {
+          "field": "longDescription",
+          "paragraph": null,
+          "sentence": "Imperial campaigns killed and displaced them in large numbers, and the survivors built a fortified state of their own at Tephrike on the frontier, made common cause with the Arabs, and raided Byzantine territory until the fortress fell in 878.",
+          "other": "Byzantine territory",
+          "other_id": "byzantine-imperial-church-heraclian-iconoclast",
+          "claim": "Conflict: raids on Byzantine territory until Tephrike fell in 878."
+        },
+        {
+          "field": "longDescription",
+          "paragraph": null,
+          "sentence": "Later emperors deported whole Paulician populations to the Balkans.",
+          "other": "Later Byzantine emperors",
+          "other_id": "byzantine-imperial-church-macedonian",
+          "other_id_note": "Era-4 Macedonian entry (843-1054).",
+          "claim": "Opposition: later emperors deported whole Paulician populations to the Balkans."
+        },
+        {
+          "field": "why",
+          "paragraph": null,
+          "sentence": "Byzantine heresy hunters describe the Paulicians as rejecting the Old Testament, the cross and the sacraments, though whether that is what the movement itself believed or what its enemies needed it to believe cannot now be settled, since no Paulician account of their own faith survives.",
+          "other": "Byzantine heresy hunters (imperial church polemicists)",
+          "other_id": "byzantine-imperial-church-heraclian-iconoclast",
+          "other_id_note": "Polemicists have no census entry; the imperial church entry is the nearest.",
+          "claim": "Opposition: Byzantine heresy hunters described the Paulicians as rejecting the Old Testament."
+        },
+        {
+          "field": "why",
+          "paragraph": null,
+          "sentence": "What is certain is what happened to them: after imperial campaigns killed and displaced them, survivors built a fortified state at Tephrike on the Byzantine frontier and raided imperial territory until it fell in 878.",
+          "other": "Imperial Byzantine state (campaigns)",
+          "other_id": "byzantine-imperial-church-heraclian-iconoclast",
+          "claim": "Opposition: imperial campaigns killed and displaced the Paulicians."
+        },
+        {
+          "field": "why",
+          "paragraph": null,
+          "sentence": "What is certain is what happened to them: after imperial campaigns killed and displaced them, survivors built a fortified state at Tephrike on the Byzantine frontier and raided imperial territory until it fell in 878.",
+          "other": "Imperial territory",
+          "other_id": "byzantine-imperial-church-heraclian-iconoclast",
+          "claim": "Conflict: raids on imperial territory until Tephrike fell in 878."
+        },
+        {
+          "field": "legacy",
+          "paragraph": null,
+          "sentence": "Nothing institutional survived: the Paulician state ended with Tephrike in 878, and the communities deported into Thrace were absorbed or converted over the following centuries.",
+          "other": "Thrace communities (absorbing body unnamed)",
+          "other_id": null,
+          "claim": "Absorption: the deported communities in Thrace were absorbed or converted."
+        },
+        {
+          "field": "legacy",
+          "paragraph": null,
+          "sentence": "Medieval and modern writers have repeatedly linked them to the Bogomils of Bulgaria and through them to the Cathars of the West, but that chain rests on the same hostile heresy-catalogs that describe the Paulicians themselves, and it cannot be demonstrated.",
+          "other": "Bogomils of Bulgaria",
+          "other_id": "bogomils",
+          "claim": "Claimed link: medieval and modern writers linked the Paulicians to the Bogomils; it cannot be demonstrated."
+        },
+        {
+          "field": "legacy",
+          "paragraph": null,
+          "sentence": "Medieval and modern writers have repeatedly linked them to the Bogomils of Bulgaria and through them to the Cathars of the West, but that chain rests on the same hostile heresy-catalogs that describe the Paulicians themselves, and it cannot be demonstrated.",
+          "other": "Cathars of the West",
+          "other_id": "cathars-albigensians",
+          "claim": "Claimed link: medieval and modern writers linked the Paulicians to the Cathars through the Bogomils; it cannot be demonstrated."
+        },
+        {
+          "field": "legacy",
+          "paragraph": null,
+          "sentence": "An Armenian text called The Key of Truth, published in 1898, was presented as a Paulician manual.",
+          "other": "The Key of Truth (Armenian text)",
+          "other_id": null,
+          "claim": "Attribution: The Key of Truth was presented as a Paulician manual."
+        }
+      ],
+      "raw_ids_in_text": [],
+      "existing_links": []
+    },
+    {
+      "id": "bogomils",
+      "name": "Bogomils",
+      "dates": "10th c. onward",
+      "relationships": [
+        {
+          "field": "relationsSummary",
+          "paragraph": null,
+          "sentence": "Parent-influence claimed for the Cathars",
+          "other": "Cathars",
+          "other_id": "cathars-albigensians",
+          "claim": "Parent-influence claimed for the Cathars (asserted by medieval writers; disputed)."
+        },
+        {
+          "field": "longDescription",
+          "paragraph": null,
+          "sentence": "The Bogomils take their name from a Bulgarian priest of the mid-tenth century, and the earliest account of them — a long sermon written against them by another priest, Cosmas.",
+          "other": "Cosmas (rival priest)",
+          "other_id": null,
+          "claim": "Opposition: rival priest Cosmas wrote a long sermon against them."
+        },
+        {
+          "field": "longDescription",
+          "paragraph": null,
+          "sentence": "Describes a movement of ascetics who rejected almost everything the visible church consisted of: church buildings, the cross, icons, the sacraments, infant baptism and the clergy who administered them.",
+          "other": "Visible church (buildings, sacraments, clergy)",
+          "other_id": null,
+          "claim": "Opposition: rejected church buildings, the sacraments and the clergy of the visible church."
+        },
+        {
+          "field": "longDescription",
+          "paragraph": null,
+          "sentence": "They spread from Bulgaria through the Balkans and into Byzantium, where around 1100 their most prominent teacher, a man called Basil, was burned in Constantinople.",
+          "other": "Byzantium (Constantinople)",
+          "other_id": "byzantine-church-after-1054",
+          "other_id_note": "Era-5 entry (1054-1300) overlaps the window's end.",
+          "claim": "Spread: the movement spread into Byzantium."
+        },
+        {
+          "field": "longDescription",
+          "paragraph": null,
+          "sentence": "They spread from Bulgaria through the Balkans and into Byzantium, where around 1100 their most prominent teacher, a man called Basil, was burned in Constantinople.",
+          "other": "Byzantine authorities at Constantinople",
+          "other_id": "byzantine-church-after-1054",
+          "other_id_note": "Era-5 entry (1054-1300) covers the period.",
+          "claim": "Opposition: their teacher Basil was burned in Constantinople around 1100."
+        },
+        {
+          "field": "longDescription",
+          "paragraph": null,
+          "sentence": "As with the Paulicians, none of their own writing survives: everything described here is the report of people arguing against them.",
+          "other": "Paulicians",
+          "other_id": "paulicians",
+          "claim": "Comparison: as with the Paulicians, none of their own writing survives."
+        },
+        {
+          "field": "why",
+          "paragraph": null,
+          "sentence": "The movement spread through the Balkans into Byzantium, where a teacher named Basil was burned in Constantinople around 1100, and medieval writers later claimed it influenced the Cathars of the West, though that claim rests on the same hostile sources and cannot be confirmed.",
+          "other": "Cathars of the West",
+          "other_id": "cathars-albigensians",
+          "claim": "Claimed influence on the Cathars; medieval writers asserted it and it cannot be confirmed."
+        },
+        {
+          "field": "why",
+          "paragraph": null,
+          "sentence": "Named for a mid-tenth-century Bulgarian priest, the Bogomils are known almost entirely through a sermon a rival priest, Cosmas, wrote against them, describing ascetics who rejected church buildings, icons, the sacraments and infant baptism because they held that the material world had been made not by God but by a fallen power.",
+          "other": "Cosmas (rival priest)",
+          "other_id": null,
+          "claim": "Opposition: rival priest Cosmas wrote a sermon against them."
+        },
+        {
+          "field": "why",
+          "paragraph": null,
+          "sentence": "The movement spread through the Balkans into Byzantium, where a teacher named Basil was burned in Constantinople around 1100, and medieval writers later claimed it influenced the Cathars of the West, though that claim rests on the same hostile sources and cannot be confirmed.",
+          "other": "Byzantine authorities at Constantinople",
+          "other_id": "byzantine-church-after-1054",
+          "other_id_note": "Era-5 entry (1054-1300) covers the period.",
+          "claim": "Opposition: the teacher Basil was burned in Constantinople around 1100."
+        },
+        {
+          "field": "legacy",
+          "paragraph": null,
+          "sentence": "The movement continued in the Balkans for centuries — its story runs on directly into the Bogomil communities of the twelfth and thirteenth centuries — before disappearing under Ottoman rule and Catholic and Orthodox pressure alike.",
+          "other": "Bogomil communities of the 12th and 13th centuries",
+          "other_id": "balkan-bogomil-continuation",
+          "claim": "Continuation: the story runs on into the Bogomil communities of the twelfth and thirteenth centuries."
+        },
+        {
+          "field": "legacy",
+          "paragraph": null,
+          "sentence": "The movement continued in the Balkans for centuries — its story runs on directly into the Bogomil communities of the twelfth and thirteenth centuries — before disappearing under Ottoman rule and Catholic and Orthodox pressure alike.",
+          "other": "Ottoman rule; Catholic and Orthodox pressure",
+          "other_id": null,
+          "claim": "Opposition: the movement disappeared under Ottoman rule and Catholic and Orthodox pressure."
+        },
+        {
+          "field": "legacy",
+          "paragraph": null,
+          "sentence": "Its most discussed legacy is a claimed influence on the Cathars of southern France and northern Italy.",
+          "other": "Cathars of southern France and northern Italy",
+          "other_id": "cathars-albigensians",
+          "claim": "Claimed influence on the Cathars; historians still argue how much of it is real."
+        }
+      ],
+      "raw_ids_in_text": [],
+      "existing_links": []
+    },
+    {
+      "id": "scandinavian-conversion-christianity",
+      "name": "Scandinavian Conversion Christianity",
+      "dates": "c. 826-1104",
+      "relationships": [
+        {
+          "field": "relationsSummary",
+          "paragraph": null,
+          "sentence": "Child of Anglo-Saxon + Hamburg-Bremen missions; Iceland converted by communal vote at the Althing (1000)",
+          "other": "Anglo-Saxon mission line",
+          "other_id": "anglo-saxon-christianity",
+          "claim": "Descent: child of the Anglo-Saxon mission line."
+        },
+        {
+          "field": "relationsSummary",
+          "paragraph": null,
+          "sentence": "Child of Anglo-Saxon + Hamburg-Bremen missions; Iceland converted by communal vote at the Althing (1000)",
+          "other": "Hamburg-Bremen missions",
+          "other_id": null,
+          "other_id_note": "No census entry for the Hamburg-Bremen mission.",
+          "claim": "Descent: child of the Hamburg-Bremen missions."
+        },
+        {
+          "field": "relationsSummary",
+          "paragraph": null,
+          "sentence": "Child of Anglo-Saxon + Hamburg-Bremen missions; Iceland converted by communal vote at the Althing (1000)",
+          "other": "Althing (Icelandic assembly)",
+          "other_id": null,
+          "claim": "Conversion: Iceland converted by communal vote at the Althing in 1000."
+        },
+        {
+          "field": "longDescription",
+          "paragraph": null,
+          "sentence": "A Frankish monk named Anskar preached in Denmark and at Birka in Sweden in the 820s and 830s, with modest and short-lived results.",
+          "other": "Frankish mission (Anskar)",
+          "other_id": "carolingian-reform-christianity",
+          "other_id_note": "Anskar was a Frankish monk. The Carolingian entry (751-888) is the nearest census fit.",
+          "claim": "Mission: the Frankish monk Anskar preached in Denmark and Sweden."
+        },
+        {
+          "field": "longDescription",
+          "paragraph": null,
+          "sentence": "Then came the kings — Harald Bluetooth, who set up a great carved stone at Jelling claiming that he had 'made the Danes Christian', and the two Olafs in Norway, whose methods included force and one of whom was killed in battle and venerated as a saint almost at once.",
+          "other": "Danish kingship (Harald Bluetooth)",
+          "other_id": null,
+          "claim": "Royal conversion: Harald Bluetooth claimed to have made the Danes Christian."
+        },
+        {
+          "field": "longDescription",
+          "paragraph": null,
+          "sentence": "Then came the kings — Harald Bluetooth, who set up a great carved stone at Jelling claiming that he had 'made the Danes Christian', and the two Olafs in Norway, whose methods included force and one of whom was killed in battle and venerated as a saint almost at once.",
+          "other": "Norwegian kingship (the two Olafs)",
+          "other_id": null,
+          "claim": "Royal conversion: the two Olafs in Norway converted by force."
+        },
+        {
+          "field": "longDescription",
+          "paragraph": null,
+          "sentence": "Iceland took a different road: in the year 1000 the question was put to the Althing, the island's assembly, and the pagan law-speaker Þorgeir, after a night's deliberation, ruled that all Icelanders should be baptized, with some old practices tolerated privately for a time — a whole community changing religion by public decision rather than by conquest.",
+          "other": "Althing (Icelandic assembly)",
+          "other_id": null,
+          "claim": "Conversion by communal decision at the Althing in 1000."
+        },
+        {
+          "field": "longDescription",
+          "paragraph": null,
+          "sentence": "The window closes in 1104, when the northern church received its own archbishopric at Lund and stopped being mission territory administered from Germany.",
+          "other": "Archbishopric of Lund",
+          "other_id": null,
+          "claim": "Independence: the northern church received its own archbishopric at Lund in 1104."
+        },
+        {
+          "field": "longDescription",
+          "paragraph": null,
+          "sentence": "The window closes in 1104, when the northern church received its own archbishopric at Lund and stopped being mission territory administered from Germany.",
+          "other": "Germany (administration of mission territory)",
+          "other_id": null,
+          "other_id_note": "Hamburg-Bremen has no census entry.",
+          "claim": "Former mission territory administered from Germany, ended in 1104."
+        },
+        {
+          "field": "why",
+          "paragraph": null,
+          "sentence": "Christianity came to Scandinavia through kings as much as missionaries — Harald Bluetooth raised a stone at Jelling claiming he had made the Danes Christian, and the Norwegian king Olaf Haraldsson was killed pressing the faith and venerated as a saint almost at once.",
+          "other": "Danish kingship (Harald Bluetooth)",
+          "other_id": null,
+          "claim": "Royal conversion: Harald Bluetooth claimed to have made the Danes Christian."
+        },
+        {
+          "field": "why",
+          "paragraph": null,
+          "sentence": "Christianity came to Scandinavia through kings as much as missionaries — Harald Bluetooth raised a stone at Jelling claiming he had made the Danes Christian, and the Norwegian king Olaf Haraldsson was killed pressing the faith and venerated as a saint almost at once.",
+          "other": "Norwegian kingship (Olaf Haraldsson)",
+          "other_id": null,
+          "claim": "Royal conversion: Olaf Haraldsson was killed pressing the faith."
+        },
+        {
+          "field": "why",
+          "paragraph": null,
+          "sentence": "Iceland took a different road: in the year 1000 the pagan law-speaker Þorgeir, after a night's deliberation, ruled at the island's own assembly that all Icelanders would be baptized, a whole community changing religion by public decision rather than by force.",
+          "other": "Althing (Icelandic assembly)",
+          "other_id": null,
+          "claim": "Conversion by public decision at the Althing."
+        },
+        {
+          "field": "legacy",
+          "paragraph": null,
+          "sentence": "These conversions became the national churches of Denmark, Norway, Sweden and Iceland, which have existed continuously ever since.",
+          "other": "National churches of Denmark, Norway, Sweden and Iceland",
+          "other_id": null,
+          "claim": "Descent: the conversions became the national churches of four Nordic countries."
+        },
+        {
+          "field": "legacy",
+          "paragraph": null,
+          "sentence": "Often the same dioceses and the same cathedral sites, reformed rather than replaced at the Reformation.",
+          "other": "Reformation of the Scandinavian kingdoms",
+          "other_id": "scandinavian-reformation-kingdoms",
+          "other_id_note": "Era-7 entry (1520s-1650) covers the Reformation.",
+          "claim": "Reformed, not replaced, at the Reformation."
+        }
+      ],
+      "raw_ids_in_text": [],
+      "existing_links": []
+    },
+    {
+      "id": "byzantine-imperial-church-heraclian-iconoclast",
+      "name": "The Byzantine Imperial Church (Heraclian & Iconoclast Eras)",
+      "dates": "622-843",
+      "relationships": [
+        {
+          "field": "relationsSummary",
+          "paragraph": null,
+          "sentence": "The church of the crisis centuries: Heraclius's wars, the monothelete compromise and its collapse, Maximus the Confessor's resistance, the iconoclast emperors as rivals inside (Hieria 754, 338 bishops), with the Iconophile monastic movement as its persecuted counterpart; ends at the Triumph of Orthodoxy (843).",
+          "other": "Maximus the Confessor (monk)",
+          "other_id": null,
+          "other_id_note": "Person with no census entry.",
+          "claim": "Opposition: Maximus resisted the imperial compromise formula."
+        },
+        {
+          "field": "relationsSummary",
+          "paragraph": null,
+          "sentence": "The church of the crisis centuries: Heraclius's wars, the monothelete compromise and its collapse, Maximus the Confessor's resistance, the iconoclast emperors as rivals inside (Hieria 754, 338 bishops), with the Iconophile monastic movement as its persecuted counterpart; ends at the Triumph of Orthodoxy (843).",
+          "other": "Iconoclast emperors (rivals within)",
+          "other_id": null,
+          "other_id_note": "Internal to this movement; no separate entry.",
+          "claim": "Rivalry within the imperial church."
+        },
+        {
+          "field": "relationsSummary",
+          "paragraph": null,
+          "sentence": "The church of the crisis centuries: Heraclius's wars, the monothelete compromise and its collapse, Maximus the Confessor's resistance, the iconoclast emperors as rivals inside (Hieria 754, 338 bishops), with the Iconophile monastic movement as its persecuted counterpart; ends at the Triumph of Orthodoxy (843).",
+          "other": "Iconophile monastic movement",
+          "other_id": "iconophile-byzantine-monasticism",
+          "claim": "Counterpart: the Iconophile monastic movement, persecuted by the imperial church."
+        },
+        {
+          "field": "longDescription",
+          "paragraph": null,
+          "sentence": "Heraclius recovered the True Cross from Persia in 630 and within a decade had lost Syria, Palestine and Egypt to the Arab armies.",
+          "other": "Sasanian Persia",
+          "other_id": null,
+          "claim": "Conflict: Heraclius recovered the True Cross from Persia in 630."
+        },
+        {
+          "field": "longDescription",
+          "paragraph": null,
+          "sentence": "Heraclius recovered the True Cross from Persia in 630 and within a decade had lost Syria, Palestine and Egypt to the Arab armies.",
+          "other": "Arab armies",
+          "other_id": null,
+          "claim": "Conflict: Syria, Palestine and Egypt were lost to the Arab armies."
+        },
+        {
+          "field": "longDescription",
+          "paragraph": null,
+          "sentence": "His government's attempt to hold the remaining eastern Christians together with a compromise formula — that Christ had two natures but only one will — was pushed as state policy and resisted by a monk, Maximus, who was tried, had his tongue and right hand cut off, and died in exile.",
+          "other": "Maximus the Confessor (monk)",
+          "other_id": null,
+          "other_id_note": "Person with no census entry.",
+          "claim": "Opposition: the monk Maximus resisted the imperial formula, was tried and exiled."
+        },
+        {
+          "field": "longDescription",
+          "paragraph": null,
+          "sentence": "Through all of it the same institution — palace, patriarchate, councils — kept running, which is why this era looks so different depending on whether you stand with the court or with the monasteries.",
+          "other": "Monasteries (Iconophile)",
+          "other_id": "iconophile-byzantine-monasticism",
+          "claim": "Opposition: the court and the monasteries stood on opposite sides."
+        },
+        {
+          "field": "why",
+          "paragraph": null,
+          "sentence": "Heraclius recovered the True Cross from Persia in 630 and within a decade had lost Syria, Palestine and Egypt to the Arab armies, and his government's attempt to hold the remaining East together with a compromise on Christ's will was resisted by the monk Maximus, who had his tongue and right hand cut off for it and was vindicated by a council only after his death.",
+          "other": "Sasanian Persia",
+          "other_id": null,
+          "claim": "Conflict: Heraclius recovered the True Cross from Persia in 630."
+        },
+        {
+          "field": "why",
+          "paragraph": null,
+          "sentence": "Heraclius recovered the True Cross from Persia in 630 and within a decade had lost Syria, Palestine and Egypt to the Arab armies, and his government's attempt to hold the remaining East together with a compromise on Christ's will was resisted by the monk Maximus, who had his tongue and right hand cut off for it and was vindicated by a council only after his death.",
+          "other": "Arab armies",
+          "other_id": null,
+          "claim": "Conflict: Syria, Palestine and Egypt were lost to the Arab armies."
+        },
+        {
+          "field": "why",
+          "paragraph": null,
+          "sentence": "Heraclius recovered the True Cross from Persia in 630 and within a decade had lost Syria, Palestine and Egypt to the Arab armies, and his government's attempt to hold the remaining East together with a compromise on Christ's will was resisted by the monk Maximus, who had his tongue and right hand cut off for it and was vindicated by a council only after his death.",
+          "other": "Maximus the Confessor (monk)",
+          "other_id": null,
+          "other_id_note": "Person with no census entry.",
+          "claim": "Opposition: the monk Maximus resisted the imperial compromise."
+        },
+        {
+          "field": "legacy",
+          "paragraph": null,
+          "sentence": "The same institution continued as the Byzantine church of the Macedonian era and through that into the Orthodox churches of today.",
+          "other": "Byzantine church of the Macedonian era",
+          "other_id": "byzantine-imperial-church-macedonian",
+          "claim": "Continuation: the Macedonian-era Byzantine church."
+        },
+        {
+          "field": "legacy",
+          "paragraph": null,
+          "sentence": "The ruling of the Third Council of Constantinople that Christ has a human will as well as a divine one, and the Second Council of Nicaea's defense of religious images, are both counted among the seven ecumenical councils by Orthodox and Catholics alike, and the canons issued at Constantinople in 692 still shape Orthodox church law.",
+          "other": "Orthodox and Catholic churches (recognition of councils)",
+          "other_id": null,
+          "claim": "Recognition: Orthodox and Catholics count these councils as ecumenical."
+        },
+        {
+          "field": "legacy",
+          "paragraph": null,
+          "sentence": "The same institution continued as the Byzantine church of the Macedonian era and through that into the Orthodox churches of today.",
+          "other": "Orthodox churches of today",
+          "other_id": null,
+          "claim": "Continuation into the Orthodox churches of today."
+        }
+      ],
+      "raw_ids_in_text": [],
+      "existing_links": [
+        {
+          "id": "anatolian-church-third-century--byzantine-imperial-church-heraclian-iconoclast",
+          "from": "anatolian-church-third-century",
+          "to": "byzantine-imperial-church-heraclian-iconoclast",
+          "type": "influenced",
+          "confidence": "Documented"
+        }
+      ]
+    },
+    {
+      "id": "byzantine-imperial-church-macedonian",
+      "name": "The Byzantine Imperial Church (Macedonian Era)",
+      "dates": "843-1054",
+      "relationships": [
+        {
+          "field": "relationsSummary",
+          "paragraph": null,
+          "sentence": "The church of the restored icons: Photius's two patriarchates and the Photian schism, the Filioque dispute opening, the missions to Bulgaria (864) and the Slavs (the parent context of the Cyril and Methodius mission); receives the 1054 schism itself.",
+          "other": "Papacy (Photian schism)",
+          "other_id": null,
+          "other_id_note": "No ninth-century papal entry in the census.",
+          "claim": "Schism: the Photian schism with the papacy."
+        },
+        {
+          "field": "relationsSummary",
+          "paragraph": null,
+          "sentence": "The church of the restored icons: Photius's two patriarchates and the Photian schism, the Filioque dispute opening, the missions to Bulgaria (864) and the Slavs (the parent context of the Cyril and Methodius mission); receives the 1054 schism itself.",
+          "other": "Latin West (Filioque)",
+          "other_id": null,
+          "other_id_note": "The Latin church's entry from 1049 is latin-papal-church-gregorian; no ninth-century entry.",
+          "claim": "Dispute: the Filioque dispute with the Latin West opens."
+        },
+        {
+          "field": "relationsSummary",
+          "paragraph": null,
+          "sentence": "The church of the restored icons: Photius's two patriarchates and the Photian schism, the Filioque dispute opening, the missions to Bulgaria (864) and the Slavs (the parent context of the Cyril and Methodius mission); receives the 1054 schism itself.",
+          "other": "Bulgarian mission (864)",
+          "other_id": null,
+          "other_id_note": "No census entry for this mission.",
+          "claim": "Mission: missions converted Bulgaria."
+        },
+        {
+          "field": "relationsSummary",
+          "paragraph": null,
+          "sentence": "The church of the restored icons: Photius's two patriarchates and the Photian schism, the Filioque dispute opening, the missions to Bulgaria (864) and the Slavs (the parent context of the Cyril and Methodius mission); receives the 1054 schism itself.",
+          "other": "Cyril and Methodius mission",
+          "other_id": "cyrillo-methodian-slavic-christianity",
+          "claim": "Parent context: this church's mission to the Slavs is the context for the Cyril and Methodius mission."
+        },
+        {
+          "field": "relationsSummary",
+          "paragraph": null,
+          "sentence": "The church of the restored icons: Photius's two patriarchates and the Photian schism, the Filioque dispute opening, the missions to Bulgaria (864) and the Slavs (the parent context of the Cyril and Methodius mission); receives the 1054 schism itself.",
+          "other": "Latin papal church (1054 schism)",
+          "other_id": "latin-papal-church-gregorian",
+          "other_id_note": "Era-5 entry (c. 1049-1300) covers the 1054 split.",
+          "claim": "Schism: receives the 1054 schism with the Latin papal church."
+        },
+        {
+          "field": "longDescription",
+          "paragraph": null,
+          "sentence": "It recovered its learning, sent missions that converted Bulgaria, Moravia and eventually Rus', and put figures back on the walls of Hagia Sophia — the first of them a great gold-ground Virgin and Child in the apse, unveiled in 867, at which the patriarch Photius preached that the imposters who had cast such images down had now been answered.",
+          "other": "Bulgaria and Moravia (converted)",
+          "other_id": null,
+          "other_id_note": "No census entry for these peoples in this form.",
+          "claim": "Mission: converted Bulgaria and Moravia."
+        },
+        {
+          "field": "longDescription",
+          "paragraph": null,
+          "sentence": "It recovered its learning, sent missions that converted Bulgaria, Moravia and eventually Rus', and put figures back on the walls of Hagia Sophia — the first of them a great gold-ground Virgin and Child in the apse, unveiled in 867, at which the patriarch Photius preached that the imposters who had cast such images down had now been answered.",
+          "other": "Rus' (converted)",
+          "other_id": "kievan-rus-christianity",
+          "claim": "Mission: converted Rus'."
+        },
+        {
+          "field": "longDescription",
+          "paragraph": null,
+          "sentence": "It recovered its learning, sent missions that converted Bulgaria, Moravia and eventually Rus', and put figures back on the walls of Hagia Sophia — the first of them a great gold-ground Virgin and Child in the apse, unveiled in 867, at which the patriarch Photius preached that the imposters who had cast such images down had now been answered.",
+          "other": "Iconoclasts (imposters)",
+          "other_id": "byzantine-imperial-church-heraclian-iconoclast",
+          "claim": "Opposition: Photius preached that the iconoclast 'imposters' had been answered."
+        },
+        {
+          "field": "longDescription",
+          "paragraph": null,
+          "sentence": "Photius is the age's emblem: a layman raised straight to the patriarchate, an enormous reader who cataloged nearly three hundred books, many of which survive nowhere else, and the man who put in its sharpest form the Eastern objection to the Latin West's addition of one clause, the Filioque, to the Creed.",
+          "other": "Latin West (Filioque)",
+          "other_id": null,
+          "other_id_note": "The Latin church's entry from 1049 is latin-papal-church-gregorian; no ninth-century entry.",
+          "claim": "Dispute: the Eastern objection to the Latin West's addition of the Filioque."
+        },
+        {
+          "field": "longDescription",
+          "paragraph": null,
+          "sentence": "That argument, along with disputes over papal authority and over who had jurisdiction among the newly converted Slavs, hardened across the following century and a half, until in 1054 a papal delegation and the patriarch of Constantinople excommunicated one another inside Hagia Sophia.",
+          "other": "Papacy (papal authority)",
+          "other_id": null,
+          "other_id_note": "No ninth-century papal entry in the census.",
+          "claim": "Dispute: disputes with the papacy over authority."
+        },
+        {
+          "field": "longDescription",
+          "paragraph": null,
+          "sentence": "That argument, along with disputes over papal authority and over who had jurisdiction among the newly converted Slavs, hardened across the following century and a half, until in 1054 a papal delegation and the patriarch of Constantinople excommunicated one another inside Hagia Sophia.",
+          "other": "Newly converted Slavs (jurisdiction)",
+          "other_id": null,
+          "other_id_note": "No census entry for this jurisdictional dispute.",
+          "claim": "Dispute: disputes over jurisdiction among the newly converted Slavs."
+        },
+        {
+          "field": "longDescription",
+          "paragraph": null,
+          "sentence": "That argument, along with disputes over papal authority and over who had jurisdiction among the newly converted Slavs, hardened across the following century and a half, until in 1054 a papal delegation and the patriarch of Constantinople excommunicated one another inside Hagia Sophia.",
+          "other": "Latin papal church (1054 delegation)",
+          "other_id": "latin-papal-church-gregorian",
+          "other_id_note": "Era-5 entry (c. 1049-1300) covers the 1054 split.",
+          "claim": "Schism: a papal delegation and the patriarch mutually excommunicated in 1054."
+        },
+        {
+          "field": "why",
+          "paragraph": null,
+          "sentence": "With icons restored in 843, the Byzantine church sent missions that converted Bulgaria, Moravia and eventually Rus', while in Constantinople the patriarch Photius — a layman raised straight to the office, and a reader who cataloged nearly three hundred books now otherwise lost — sharpened the Eastern case against the Latin church's addition of the Filioque to the Creed.",
+          "other": "Latin church (Filioque)",
+          "other_id": null,
+          "other_id_note": "The Latin church's entry from 1049 is latin-papal-church-gregorian; no ninth-century entry.",
+          "claim": "Dispute: the Eastern case against the Filioque was sharpened."
+        },
+        {
+          "field": "why",
+          "paragraph": null,
+          "sentence": "That dispute, and others over jurisdiction among the newly converted Slavs, hardened for a century until 1054, when a papal delegation and the patriarch excommunicated each other inside Hagia Sophia.",
+          "other": "Newly converted Slavs (jurisdiction)",
+          "other_id": null,
+          "other_id_note": "No census entry for this jurisdictional dispute.",
+          "claim": "Dispute: disputes over jurisdiction among the newly converted Slavs."
+        },
+        {
+          "field": "why",
+          "paragraph": null,
+          "sentence": "With icons restored in 843, the Byzantine church sent missions that converted Bulgaria, Moravia and eventually Rus', while in Constantinople the patriarch Photius — a layman raised straight to the office, and a reader who cataloged nearly three hundred books now otherwise lost — sharpened the Eastern case against the Latin church's addition of the Filioque to the Creed.",
+          "other": "Rus' (converted)",
+          "other_id": "kievan-rus-christianity",
+          "claim": "Mission: missions converted Rus'."
+        },
+        {
+          "field": "legacy",
+          "paragraph": null,
+          "sentence": "The same church continued as the Byzantine church after the schism and, through it, into the Orthodox churches of today.",
+          "other": "Byzantine church after the schism",
+          "other_id": "byzantine-church-after-1054",
+          "claim": "Continuation: the Byzantine church after the schism."
+        },
+        {
+          "field": "legacy",
+          "paragraph": null,
+          "sentence": "The mission to the Slavs, which made most of eastern Europe Orthodox and Slavonic-speaking, and the rupture of 1054, whose mutual excommunications were only lifted in 1965, when Pope Paul VI and Patriarch Athenagoras revoked them together.",
+          "other": "Mission to the Slavs",
+          "other_id": "cyrillo-methodian-slavic-christianity",
+          "claim": "Mission to the Slavs made eastern Europe Orthodox and Slavonic-speaking."
+        },
+        {
+          "field": "legacy",
+          "paragraph": null,
+          "sentence": "The mission to the Slavs, which made most of eastern Europe Orthodox and Slavonic-speaking, and the rupture of 1054, whose mutual excommunications were only lifted in 1965, when Pope Paul VI and Patriarch Athenagoras revoked them together.",
+          "other": "Latin papal church (1054 rupture)",
+          "other_id": "latin-papal-church-gregorian",
+          "other_id_note": "The 1054 split is in its window; the 1965 revocation is not.",
+          "claim": "Schism: the 1054 mutual excommunications were lifted in 1965 by Paul VI and Athenagoras."
+        },
+        {
+          "field": "legacy",
+          "paragraph": null,
+          "sentence": "The same church continued as the Byzantine church after the schism and, through it, into the Orthodox churches of today.",
+          "other": "Orthodox churches of today",
+          "other_id": null,
+          "claim": "Continuation into the Orthodox churches of today."
+        }
+      ],
+      "raw_ids_in_text": [],
+      "existing_links": []
+    },
+    {
+      "id": "bagratid-armenian-christianity",
+      "name": "Bagratid Armenian Christianity",
+      "dates": "c. 884-1045",
+      "relationships": [
+        {
+          "field": "relationsSummary",
+          "paragraph": null,
+          "sentence": "The Bagratid revival: catholicosate at Ani by 992, cathedral finished 1001, Gregory of Narek (c. 950-1003); absorbs the story of Caucasian Albania's catholicosate after 705; ends with the fall of Ani (1045)",
+          "other": "Caucasian Albania's catholicosate",
+          "other_id": "church-of-caucasian-albania",
+          "claim": "Absorption: the Bagratid church absorbs Caucasian Albania's catholicosate after 705."
+        },
+        {
+          "field": "longDescription",
+          "paragraph": null,
+          "sentence": "After two centuries under Arab governors, an Armenian kingdom was restored under the Bagratid dynasty in the 880s, and with it came a burst of church building and writing.",
+          "other": "Arab governors",
+          "other_id": null,
+          "claim": "Rule: after two centuries under Arab governors, an Armenian kingdom was restored."
+        },
+        {
+          "field": "longDescription",
+          "paragraph": null,
+          "sentence": "Trdat was regarded well enough that he was called to Constantinople to rebuild the dome of Hagia Sophia after an earthquake brought it down.",
+          "other": "Constantinople (Hagia Sophia)",
+          "other_id": "byzantine-imperial-church-macedonian",
+          "other_id_note": "Era-4 Macedonian entry (843-1054) covers the period.",
+          "claim": "Contact: architect Trdat was called to Constantinople to rebuild the dome of Hagia Sophia."
+        },
+        {
+          "field": "longDescription",
+          "paragraph": null,
+          "sentence": "The kingdom ended in 1045, when Byzantium annexed Ani; the Seljuk Turks took the city twenty years after that.",
+          "other": "Byzantium (annexation of Ani)",
+          "other_id": "byzantine-imperial-church-macedonian",
+          "claim": "Opposition: Byzantium annexed Ani in 1045, ending the kingdom."
+        },
+        {
+          "field": "longDescription",
+          "paragraph": null,
+          "sentence": "The kingdom ended in 1045, when Byzantium annexed Ani; the Seljuk Turks took the city twenty years after that.",
+          "other": "Seljuk Turks",
+          "other_id": null,
+          "claim": "Conquest: the Seljuk Turks took Ani."
+        },
+        {
+          "field": "why",
+          "paragraph": null,
+          "sentence": "After two centuries under Arab governors, an Armenian kingdom restored under the Bagratid dynasty in the 880s built the cathedral at Ani, finished in 1001 by the architect Trdat, who was later summoned to Constantinople to rebuild the fallen dome of Hagia Sophia.",
+          "other": "Arab governors",
+          "other_id": null,
+          "claim": "Rule: after two centuries under Arab governors, an Armenian kingdom was restored."
+        },
+        {
+          "field": "why",
+          "paragraph": null,
+          "sentence": "After two centuries under Arab governors, an Armenian kingdom restored under the Bagratid dynasty in the 880s built the cathedral at Ani, finished in 1001 by the architect Trdat, who was later summoned to Constantinople to rebuild the fallen dome of Hagia Sophia.",
+          "other": "Constantinople (Hagia Sophia)",
+          "other_id": "byzantine-imperial-church-macedonian",
+          "claim": "Contact: Trdat was summoned to Constantinople to rebuild Hagia Sophia's dome."
+        },
+        {
+          "field": "legacy",
+          "paragraph": null,
+          "sentence": "The church itself continued: the same institution carried on into the Armenian kingdom of Cilicia and runs unbroken to the Armenian Apostolic Church of today.",
+          "other": "Armenian kingdom of Cilicia",
+          "other_id": "armenian-cilicia",
+          "claim": "Continuation into the Armenian kingdom of Cilicia."
+        },
+        {
+          "field": "legacy",
+          "paragraph": null,
+          "sentence": "The church itself continued: the same institution carried on into the Armenian kingdom of Cilicia and runs unbroken to the Armenian Apostolic Church of today.",
+          "other": "Armenian Apostolic Church (today)",
+          "other_id": null,
+          "other_id_note": "No modern census entry.",
+          "claim": "Continuation to the present Armenian Apostolic Church."
+        },
+        {
+          "field": "legacy",
+          "paragraph": null,
+          "sentence": "It is still printed and prayed, and in 2015 Pope Francis declared him a Doctor of the Church, an unusual honor for a figure outside the Catholic communion.",
+          "other": "Pope Francis and the Catholic Church",
+          "other_id": null,
+          "other_id_note": "2015 falls outside the census windows.",
+          "claim": "Recognition: Pope Francis declared Gregory of Narek a Doctor of the Church in 2015."
+        }
+      ],
+      "raw_ids_in_text": [],
+      "existing_links": []
+    },
+    {
+      "id": "syriac-orthodox-under-islam",
+      "name": "Syriac Orthodox Christianity under Islam",
+      "dates": "c. 650-1054",
+      "relationships": [
+        {
+          "field": "relationsSummary",
+          "paragraph": null,
+          "sentence": "The West Syriac church as dhimmi community - patriarch-chronicler Dionysius of Tel Mahre traveled with al-Ma'mun; West Syriac monasticism rides inside, cleanly distinct from the Melkite monastery of Mar Saba.",
+          "other": "Islamic state (dhimmi status)",
+          "other_id": null,
+          "claim": "Status: the West Syriac church was a dhimmi community under Islamic rule."
+        },
+        {
+          "field": "relationsSummary",
+          "paragraph": null,
+          "sentence": "The West Syriac church as dhimmi community - patriarch-chronicler Dionysius of Tel Mahre traveled with al-Ma'mun; West Syriac monasticism rides inside, cleanly distinct from the Melkite monastery of Mar Saba.",
+          "other": "Caliph al-Ma'mun",
+          "other_id": null,
+          "claim": "Contact: patriarch Dionysius of Tel Mahre traveled with the caliph al-Ma'mun."
+        },
+        {
+          "field": "relationsSummary",
+          "paragraph": null,
+          "sentence": "The West Syriac church as dhimmi community - patriarch-chronicler Dionysius of Tel Mahre traveled with al-Ma'mun; West Syriac monasticism rides inside, cleanly distinct from the Melkite monastery of Mar Saba.",
+          "other": "Melkite monastery of Mar Saba",
+          "other_id": "melkite-arabic-christianity",
+          "other_id_note": "Mar Saba's Melkite identity matches the era-4 entry 'Melkite Arabic Christianity' (700-1009).",
+          "claim": "Distinction: West Syriac monasticism is distinct from the Melkite monastery of Mar Saba."
+        },
+        {
+          "field": "longDescription",
+          "paragraph": null,
+          "sentence": "They had been the losing side under Byzantine emperors who wanted Chalcedon enforced, and under the caliphs they became simply one protected community among others — taxed, but not pressed to change their confession.",
+          "other": "Byzantine emperors (Chalcedon enforced)",
+          "other_id": "byzantine-imperial-church-justinianic",
+          "other_id_note": "Pressure for Chalcedon belongs to the Justinianic period (451-622).",
+          "claim": "Opposition: Byzantine emperors wanted Chalcedon enforced."
+        },
+        {
+          "field": "longDescription",
+          "paragraph": null,
+          "sentence": "They had been the losing side under Byzantine emperors who wanted Chalcedon enforced, and under the caliphs they became simply one protected community among others — taxed, but not pressed to change their confession.",
+          "other": "Caliphs (Islamic rule)",
+          "other_id": null,
+          "claim": "Status: under the caliphs, one protected community among others."
+        },
+        {
+          "field": "longDescription",
+          "paragraph": null,
+          "sentence": "Dionysius of Tel Mahre, patriarch and historian, traveled to Egypt in the caliph al-Ma'mun's own company and wrote a chronicle that later writers mined for centuries; Moses bar Kepha explained the liturgy and the Scriptures for his clergy.",
+          "other": "Caliph al-Ma'mun",
+          "other_id": null,
+          "claim": "Contact: Dionysius of Tel Mahre traveled to Egypt in the caliph al-Ma'mun's company."
+        },
+        {
+          "field": "why",
+          "paragraph": null,
+          "sentence": "Having been the losing side under Byzantine emperors who wanted Chalcedon enforced, the West Syriac church found under the caliphs the room to become one protected community among others, and used it productively: Jacob of Edessa revised the Syriac Bible and wrote the first grammar of his own language, while the patriarch Dionysius of Tel Mahre traveled to Egypt in the caliph al-Ma'mun's own company and wrote a chronicle later writers drew on for centuries.",
+          "other": "Byzantine emperors (Chalcedon enforced)",
+          "other_id": "byzantine-imperial-church-justinianic",
+          "claim": "Opposition: Byzantine emperors wanted Chalcedon enforced."
+        },
+        {
+          "field": "why",
+          "paragraph": null,
+          "sentence": "Having been the losing side under Byzantine emperors who wanted Chalcedon enforced, the West Syriac church found under the caliphs the room to become one protected community among others, and used it productively: Jacob of Edessa revised the Syriac Bible and wrote the first grammar of his own language, while the patriarch Dionysius of Tel Mahre traveled to Egypt in the caliph al-Ma'mun's own company and wrote a chronicle later writers drew on for centuries.",
+          "other": "Caliph al-Ma'mun",
+          "other_id": null,
+          "claim": "Contact: Dionysius of Tel Mahre traveled to Egypt in the caliph al-Ma'mun's company."
+        },
+        {
+          "field": "legacy",
+          "paragraph": null,
+          "sentence": "The same church continued directly into the Syriac Renaissance of the following centuries and exists today as the Syriac Orthodox Church of Antioch, with its own patriarch and a large worldwide diaspora.",
+          "other": "Syriac Renaissance",
+          "other_id": "syriac-renaissance",
+          "claim": "Continuation into the Syriac Renaissance."
+        },
+        {
+          "field": "legacy",
+          "paragraph": null,
+          "sentence": "The same church continued directly into the Syriac Renaissance of the following centuries and exists today as the Syriac Orthodox Church of Antioch, with its own patriarch and a large worldwide diaspora.",
+          "other": "Syriac Orthodox Church of Antioch (today)",
+          "other_id": null,
+          "other_id_note": "No modern census entry.",
+          "claim": "Continuation into the present Syriac Orthodox Church of Antioch."
+        }
+      ],
+      "raw_ids_in_text": [],
+      "existing_links": []
+    },
+    {
+      "id": "makurian-nubian-christianity",
+      "name": "Makurian Nubian Christianity",
+      "dates": "697-1054",
+      "relationships": [
+        {
+          "field": "relationsSummary",
+          "paragraph": null,
+          "sentence": "Unified Christian Nubia after Merkurios (crowned 697, the 'New Constantine'); Faras cathedral rebuilt 707; the fresco golden age flourished under the peace secured by the 652 Baqt treaty.",
+          "other": "Muslim Egypt (Baqt treaty, 652)",
+          "other_id": null,
+          "claim": "Treaty: the Baqt peace of 652 with Muslim Egypt secured the fresco golden age."
+        },
+        {
+          "field": "longDescription",
+          "paragraph": null,
+          "sentence": "Between Egypt and the deserts of the Sudan, the Christian kingdom of Makuria held together for centuries under an arrangement no one else had: the Baqt, a treaty struck with Muslim Egypt in 652 that set terms of exchange rather than conquest and was more or less honored for six hundred years.",
+          "other": "Muslim Egypt (Baqt treaty, 652)",
+          "other_id": null,
+          "claim": "Treaty: the Baqt set terms of exchange with Muslim Egypt rather than conquest."
+        },
+        {
+          "field": "longDescription",
+          "paragraph": null,
+          "sentence": "Nubian Christians wrote their own language, Old Nubian, in an alphabet adapted from Coptic.",
+          "other": "Coptic script",
+          "other_id": "coptic-christianity-under-early-islam",
+          "other_id_note": "The Coptic entry (642-1013) is the nearest census fit for the script.",
+          "claim": "Influence: Old Nubian's alphabet was adapted from Coptic."
+        },
+        {
+          "field": "why",
+          "paragraph": null,
+          "sentence": "The Christian kingdom of Makuria held together for centuries under the Baqt, a treaty struck with Muslim Egypt in 652 that was honored for roughly six hundred years, and after Merkurios — called a new Constantine by an Egyptian writer — took the throne in 697, Nubia rebuilt its cathedral at Faras and covered its walls with paintings of saints, archangels and the bishops themselves.",
+          "other": "Muslim Egypt (Baqt treaty, 652)",
+          "other_id": null,
+          "claim": "Treaty: the Baqt was struck with Muslim Egypt in 652."
+        },
+        {
+          "field": "why",
+          "paragraph": null,
+          "sentence": "Nubian Christians wrote their own language, Old Nubian, in a script adapted from Coptic, though this is a Christianity known mainly by what it built and painted rather than by what it said about itself.",
+          "other": "Coptic script",
+          "other_id": "coptic-christianity-under-early-islam",
+          "other_id_note": "The Coptic entry (642-1013) is the nearest census fit for the script.",
+          "claim": "Influence: Old Nubian's script was adapted from Coptic."
+        },
+        {
+          "field": "legacy",
+          "paragraph": null,
+          "sentence": "Christian Nubia lasted far longer than most people expect, into the fifteenth century in places, before it was worn down and its churches vanished; no Nubian Christian community survives today.",
+          "other": "Christian Nubia into the fifteenth century",
+          "other_id": "terminal-christian-nubia",
+          "claim": "Continuation: Christian Nubia lasted into the fifteenth century in places."
+        },
+        {
+          "field": "legacy",
+          "paragraph": null,
+          "sentence": "When the Aswan High Dam was built in the 1960s the cathedral at Faras was about to go under the reservoir, and a Polish archaeological team lifted the murals off its walls.",
+          "other": "Polish archaeological team (Faras)",
+          "other_id": null,
+          "claim": "Contact: a Polish team lifted the murals off the Faras cathedral walls."
+        }
+      ],
+      "raw_ids_in_text": [],
+      "existing_links": []
+    },
+    {
+      "id": "late-anglo-saxon-christianity",
+      "name": "Late Anglo-Saxon Christianity",
+      "dates": "c. 793-1066",
+      "relationships": [
+        {
+          "field": "relationsSummary",
+          "paragraph": null,
+          "sentence": "Viking-age survival, Alfred's revival, then the Benedictine Reform (Dunstan, Aethelwold, Oswald) - the English parallel to Cluny; ends at the Conquest (1066, one boundary crossing)",
+          "other": "Vikings",
+          "other_id": null,
+          "claim": "Opposition: the Viking wars shaped the period."
+        },
+        {
+          "field": "relationsSummary",
+          "paragraph": null,
+          "sentence": "Viking-age survival, Alfred's revival, then the Benedictine Reform (Dunstan, Aethelwold, Oswald) - the English parallel to Cluny; ends at the Conquest (1066, one boundary crossing)",
+          "other": "Alfred of Wessex (royal patron)",
+          "other_id": null,
+          "other_id_note": "Person with no census entry.",
+          "claim": "Patronage: Alfred of Wessex led the revival."
+        },
+        {
+          "field": "relationsSummary",
+          "paragraph": null,
+          "sentence": "Viking-age survival, Alfred's revival, then the Benedictine Reform (Dunstan, Aethelwold, Oswald) - the English parallel to Cluny; ends at the Conquest (1066, one boundary crossing)",
+          "other": "Benedictine Reform (Dunstan, Æthelwold, Oswald)",
+          "other_id": null,
+          "other_id_note": "Named reform; no census entry.",
+          "claim": "Reform: the Benedictine Reform refounded the monasteries."
+        },
+        {
+          "field": "relationsSummary",
+          "paragraph": null,
+          "sentence": "Viking-age survival, Alfred's revival, then the Benedictine Reform (Dunstan, Aethelwold, Oswald) - the English parallel to Cluny; ends at the Conquest (1066, one boundary crossing)",
+          "other": "Cluny",
+          "other_id": "cluniac-reform-monasticism",
+          "claim": "Comparison: the Benedictine Reform was the English parallel to Cluny."
+        },
+        {
+          "field": "relationsSummary",
+          "paragraph": null,
+          "sentence": "Viking-age survival, Alfred's revival, then the Benedictine Reform (Dunstan, Aethelwold, Oswald) - the English parallel to Cluny; ends at the Conquest (1066, one boundary crossing)",
+          "other": "Norman Conquest (1066)",
+          "other_id": null,
+          "other_id_note": "No census entry for the Norman Conquest.",
+          "claim": "Boundary: the window ends at the Norman Conquest."
+        },
+        {
+          "field": "longDescription",
+          "paragraph": null,
+          "sentence": "The Viking wars nearly killed English Christianity.",
+          "other": "Vikings",
+          "other_id": null,
+          "claim": "Opposition: the Viking wars nearly destroyed English Christianity."
+        },
+        {
+          "field": "longDescription",
+          "paragraph": null,
+          "sentence": "Monasteries were destroyed, whole dioceses lapsed, and when Alfred of Wessex set out to rebuild he complained that he could hardly find a priest south of the Thames able to translate a Latin letter.",
+          "other": "Alfred of Wessex (royal patron)",
+          "other_id": null,
+          "other_id_note": "Person with no census entry.",
+          "claim": "Patronage: Alfred of Wessex set out to rebuild and commissioned translations."
+        },
+        {
+          "field": "longDescription",
+          "paragraph": null,
+          "sentence": "His answer was a translation program — Gregory the Great's Pastoral Care and other essential books put into English so that clergy could read them at all.",
+          "other": "Gregory the Great (Roman church)",
+          "other_id": "roman-church-gregorian",
+          "other_id_note": "Era-3 entry (c. 560-604) covers Gregory's lifetime.",
+          "claim": "Influence: Gregory the Great's Pastoral Care was translated into English."
+        },
+        {
+          "field": "longDescription",
+          "paragraph": null,
+          "sentence": "A century later a second rebuilding, led by the bishops Dunstan, Æthelwold and Oswald, refounded the monasteries on the Benedictine rule and produced an agreed customary for the whole country.",
+          "other": "Benedictine rule",
+          "other_id": "early-benedictine-italian-monasticism",
+          "other_id_note": "The rule's origin is in the era-3 Benedictine entry (c. 500-604), which predates this window.",
+          "claim": "Influence: the monasteries were refounded on the Benedictine rule."
+        },
+        {
+          "field": "longDescription",
+          "paragraph": null,
+          "sentence": "The vernacular stayed central throughout: Ælfric wrote well over a hundred sermons in English so that ordinary congregations could hear careful teaching in their own tongue, and Archbishop Wulfstan, preaching in 1014 as the Danish invasions closed in, told the English that their own sins had brought the calamity on them.",
+          "other": "Danish invasions",
+          "other_id": null,
+          "claim": "Opposition: Archbishop Wulfstan preached in 1014 as the Danish invasions closed in."
+        },
+        {
+          "field": "longDescription",
+          "paragraph": null,
+          "sentence": "The Norman Conquest of 1066 ended the church's independent development.",
+          "other": "Norman Conquest (1066)",
+          "other_id": null,
+          "other_id_note": "No census entry for the Norman Conquest.",
+          "claim": "Boundary: the Norman Conquest of 1066 ended the church's independent development."
+        },
+        {
+          "field": "legacy",
+          "paragraph": null,
+          "sentence": "The dioceses, the cathedral communities and the parish network built in these centuries carried straight on into the Norman and later medieval English church, and many English cathedrals still stand where these bishops put them.",
+          "other": "Norman and later medieval English church",
+          "other_id": null,
+          "claim": "Continuation into the Norman and later medieval English church."
+        }
+      ],
+      "raw_ids_in_text": [],
+      "existing_links": []
+    },
+    {
+      "id": "georgian-revival-tao-klarjeti",
+      "name": "Georgian Revival — Tao-Klarjeti and Athos",
+      "dates": "c. 780-1000",
+      "relationships": [
+        {
+          "field": "relationsSummary",
+          "paragraph": null,
+          "sentence": "Grigol Khandzteli rebuilt Georgian monasticism from Khandzta starting around 782, and Georgian monks founded Iviron on Mount Athos between 980 and 983.",
+          "other": "Mount Athos (Iviron)",
+          "other_id": "athonite-and-comnenian-byzantine-monasticism",
+          "other_id_note": "Era-5 entry (c. 963-1300) covers the 980-983 foundation.",
+          "claim": "Foundation: Georgian monks founded Iviron on Mount Athos."
+        },
+        {
+          "field": "relationsSummary",
+          "paragraph": null,
+          "sentence": "This revival leads directly into the Georgian Golden Age that follows it.",
+          "other": "Georgian Golden Age",
+          "other_id": "the-georgian-golden-age",
+          "claim": "Successor: the revival leads directly into the Georgian Golden Age."
+        },
+        {
+          "field": "longDescription",
+          "paragraph": null,
+          "sentence": "After the Arab conquests reduced the old Georgian kingdoms to a handful of mountain principalities, the rebuilding of Georgian Christian life happened in the highland province of Tao-Klarjeti, where a monk named Grigol founded the monastery of Khandzta around 782 and, over a very long life, seeded a whole district with monasteries.",
+          "other": "Arab conquests",
+          "other_id": null,
+          "claim": "Conquest: the Arab conquests reduced the Georgian kingdoms to mountain principalities."
+        },
+        {
+          "field": "longDescription",
+          "paragraph": null,
+          "sentence": "Georgian monks were in Palestine, on Sinai and near Antioch, and between 980 and 983 they founded Iviron on Mount Athos, which became a translation house moving books between Greek and Georgian in both directions — one of them, a Georgian retelling of a story ultimately of Indian origin, passed into Greek as Barlaam and Josaphat and from there into most of the languages of Europe.",
+          "other": "Palestine, Sinai and Antioch (Georgian monks)",
+          "other_id": null,
+          "other_id_note": "Sinai and Antioch have no census entry. The Judean Desert entry (450-614) predates this window.",
+          "claim": "Contact: Georgian monks were in Palestine, on Sinai and near Antioch."
+        },
+        {
+          "field": "longDescription",
+          "paragraph": null,
+          "sentence": "Georgian monks were in Palestine, on Sinai and near Antioch, and between 980 and 983 they founded Iviron on Mount Athos, which became a translation house moving books between Greek and Georgian in both directions — one of them, a Georgian retelling of a story ultimately of Indian origin, passed into Greek as Barlaam and Josaphat and from there into most of the languages of Europe.",
+          "other": "Greek-language church (Byzantine)",
+          "other_id": "byzantine-imperial-church-macedonian",
+          "other_id_note": "The Greek-language tradition is Byzantine; the era-4 Macedonian entry (843-1054) fits.",
+          "claim": "Exchange: Iviron moved books between Greek and Georgian in both directions."
+        },
+        {
+          "field": "longDescription",
+          "paragraph": null,
+          "sentence": "Georgian monks were in Palestine, on Sinai and near Antioch, and between 980 and 983 they founded Iviron on Mount Athos, which became a translation house moving books between Greek and Georgian in both directions — one of them, a Georgian retelling of a story ultimately of Indian origin, passed into Greek as Barlaam and Josaphat and from there into most of the languages of Europe.",
+          "other": "Greek and European literary tradition (Barlaam and Josaphat)",
+          "other_id": null,
+          "claim": "Influence: the translated story passed into Greek and then into most European languages."
+        },
+        {
+          "field": "why",
+          "paragraph": null,
+          "sentence": "Georgian monks later carried the movement to Mount Athos, founding Iviron between 980 and 983 as a translation house that moved books between Greek and Georgian, including a story of Indian origin that passed through Georgian and Greek into most of the languages of Europe as Barlaam and Josaphat.",
+          "other": "Mount Athos (Iviron)",
+          "other_id": "athonite-and-comnenian-byzantine-monasticism",
+          "other_id_note": "Era-5 entry (c. 963-1300) covers the 980-983 foundation.",
+          "claim": "Foundation: Georgian monks founded Iviron on Mount Athos."
+        },
+        {
+          "field": "legacy",
+          "paragraph": null,
+          "sentence": "The same tradition runs straight on into the Georgian Golden Age of the following centuries and into the Georgian Orthodox Church of today.",
+          "other": "Georgian Golden Age",
+          "other_id": "the-georgian-golden-age",
+          "claim": "Continuation into the Georgian Golden Age."
+        },
+        {
+          "field": "legacy",
+          "paragraph": null,
+          "sentence": "The same tradition runs straight on into the Georgian Golden Age of the following centuries and into the Georgian Orthodox Church of today.",
+          "other": "Georgian Orthodox Church (today)",
+          "other_id": "the-georgian-orthodox-church-restored",
+          "claim": "Continuation into the Georgian Orthodox Church of today."
+        },
+        {
+          "field": "legacy",
+          "paragraph": null,
+          "sentence": "Its most visible legacy is Iviron itself, still one of the twenty ruling monasteries of Mount Athos, and the body of translated literature its monks produced, which gave the Georgian church a full library in its own language.",
+          "other": "Mount Athos (Iviron)",
+          "other_id": "athonite-and-comnenian-byzantine-monasticism",
+          "claim": "Legacy: Iviron is still one of the ruling monasteries of Mount Athos."
+        }
+      ],
+      "raw_ids_in_text": [],
+      "existing_links": []
+    },
+    {
+      "id": "post-aksumite-ethiopian-christianity",
+      "name": "Post-Aksumite Ethiopian Christianity",
+      "dates": "c. 615-1137",
+      "relationships": [
+        {
+          "field": "relationsSummary",
+          "paragraph": null,
+          "sentence": "This is the church of the period between Aksum's decline and the rise of the Zagwe dynasty.",
+          "other": "Aksum (decline)",
+          "other_id": "aksumite-christianity",
+          "claim": "Predecessor: this church belongs to the period after Aksum's decline."
+        },
+        {
+          "field": "relationsSummary",
+          "paragraph": null,
+          "sentence": "This is the church of the period between Aksum's decline and the rise of the Zagwe dynasty.",
+          "other": "Zagwe dynasty",
+          "other_id": "zagwe-and-early-solomonic-ethiopian-christianity",
+          "claim": "Successor: this church belongs to the period before the rise of the Zagwe dynasty."
+        },
+        {
+          "field": "relationsSummary",
+          "paragraph": null,
+          "sentence": "It survived in isolation, continuing to receive its bishops from the Coptic patriarchate in Alexandria.",
+          "other": "Coptic patriarchate in Alexandria",
+          "other_id": "coptic-christianity-under-early-islam",
+          "claim": "Dependence: the church kept receiving its bishops from the Coptic patriarch in Alexandria."
+        },
+        {
+          "field": "longDescription",
+          "paragraph": null,
+          "sentence": "Aksum had been one of the great powers of the late-antique world, minting its own coins, its kings Christian since the fourth century.",
+          "other": "Aksum (Christian kingdom)",
+          "other_id": "aksumite-christianity",
+          "claim": "Predecessor: Aksum was a great Christian power whose trade and coinage declined."
+        },
+        {
+          "field": "longDescription",
+          "paragraph": null,
+          "sentence": "Aksum had been one of the great powers of the late-antique world, minting its own coins, its kings Christian since the fourth century.",
+          "other": "Aksumite kings (conversion era)",
+          "other_id": "aksumite-christianity-conversion-era",
+          "claim": "Origin: Aksum's kings were Christian from the fourth century."
+        },
+        {
+          "field": "longDescription",
+          "paragraph": null,
+          "sentence": "Later Ethiopian tradition fills the silence with the story of a queen remembered as Gudit, who is said to have destroyed churches around the year 960, but that account comes from much later and largely hostile sources and cannot be verified.",
+          "other": "Queen Gudit (alleged church destruction)",
+          "other_id": null,
+          "other_id_note": "Person with no census entry; the account is late and hostile.",
+          "claim": "Opposition: a queen named Gudit is said to have destroyed churches around 960."
+        },
+        {
+          "field": "longDescription",
+          "paragraph": null,
+          "sentence": "The church survived, its center shifted south into the highlands, and it went on receiving its chief bishop from the Coptic patriarch in Alexandria, a link that would last into the twentieth century.",
+          "other": "Coptic patriarch in Alexandria",
+          "other_id": "coptic-christianity-under-early-islam",
+          "claim": "Dependence: the church went on receiving its chief bishop from the Coptic patriarch."
+        },
+        {
+          "field": "longDescription",
+          "paragraph": null,
+          "sentence": "When the record resumes under the Zagwe kings in the twelfth century, there is a functioning church with monasteries, a liturgy in Ge'ez and its own saints.",
+          "other": "Zagwe kings",
+          "other_id": "zagwe-and-early-solomonic-ethiopian-christianity",
+          "claim": "Successor: the record resumes under the Zagwe kings."
+        },
+        {
+          "field": "why",
+          "paragraph": null,
+          "sentence": "Aksum had been a great Christian power, minting its own coins, but when the trade that sustained it moved away the coinage stopped and Ethiopian Christianity went nearly silent for close to five hundred years, one of the least documented stretches in the history of any ancient church.",
+          "other": "Aksum (Christian kingdom)",
+          "other_id": "aksumite-christianity",
+          "claim": "Predecessor: Aksum was a great Christian power."
+        },
+        {
+          "field": "why",
+          "paragraph": null,
+          "sentence": "What can be said with confidence is that the church survived, moved its center into the highlands, and kept receiving its chief bishop from the Coptic patriarch in Alexandria, a link that lasted into the twentieth century, so that when a functioning church reappears under the Zagwe kings, it already has monasteries, a Ge'ez liturgy and its own saints.",
+          "other": "Coptic patriarch in Alexandria",
+          "other_id": "coptic-christianity-under-early-islam",
+          "claim": "Dependence: the church kept receiving its chief bishop from the Coptic patriarch."
+        },
+        {
+          "field": "why",
+          "paragraph": null,
+          "sentence": "What can be said with confidence is that the church survived, moved its center into the highlands, and kept receiving its chief bishop from the Coptic patriarch in Alexandria, a link that lasted into the twentieth century, so that when a functioning church reappears under the Zagwe kings, it already has monasteries, a Ge'ez liturgy and its own saints.",
+          "other": "Zagwe kings",
+          "other_id": "zagwe-and-early-solomonic-ethiopian-christianity",
+          "claim": "Successor: a functioning church reappears under the Zagwe kings."
+        },
+        {
+          "field": "legacy",
+          "paragraph": null,
+          "sentence": "The same institution continues directly into the Zagwe period — the age of the rock-hewn churches of Lalibela — and on into the Ethiopian Orthodox Tewahedo Church of today, one of the largest ancient churches in the world.",
+          "other": "Zagwe period",
+          "other_id": "zagwe-and-early-solomonic-ethiopian-christianity",
+          "claim": "Continuation into the Zagwe period."
+        },
+        {
+          "field": "legacy",
+          "paragraph": null,
+          "sentence": "The same institution continues directly into the Zagwe period — the age of the rock-hewn churches of Lalibela — and on into the Ethiopian Orthodox Tewahedo Church of today, one of the largest ancient churches in the world.",
+          "other": "Ethiopian Orthodox Tewahedo Church (today)",
+          "other_id": "modern-ethiopian-and-eritrean-christianity",
+          "claim": "Continuation into the Ethiopian Orthodox Tewahedo Church of today."
+        },
+        {
+          "field": "legacy",
+          "paragraph": null,
+          "sentence": "The link with Alexandria that these centuries kept alive held until 1959, when the Ethiopian church finally received a patriarch of its own.",
+          "other": "Alexandria (Coptic patriarchate)",
+          "other_id": "coptic-christianity-under-early-islam",
+          "other_id_note": "The 1959 end falls outside this window; the era-4 Coptic entry is the nearest.",
+          "claim": "Link: the ties to Alexandria held until 1959, when Ethiopia received its own patriarch."
+        }
+      ],
+      "raw_ids_in_text": [],
+      "existing_links": []
+    }
+  ]
+}

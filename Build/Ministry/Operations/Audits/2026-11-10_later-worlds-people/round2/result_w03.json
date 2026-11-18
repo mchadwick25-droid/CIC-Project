@@ -1,0 +1,626 @@
+[
+ {
+  "cid": "C008",
+  "name": "Mesrop Mashtots",
+  "passes": true,
+  "traditions": {
+   "armenian-christianity-era-8": {
+    "labels": {
+     "armenian-christianity-era-8#r2-0": "U",
+     "armenian-christianity-era-8#r2-1": "E",
+     "armenian-christianity-era-8#r2-2": "U",
+     "armenian-christianity-era-8#r2-3": "S",
+     "armenian-christianity-era-8#r2-4": "U",
+     "armenian-christianity-era-8#r2-5": "S",
+     "armenian-christianity-era-8#r2-6": "U",
+     "armenian-christianity-era-8#r2-7": "U",
+     "armenian-christianity-era-8#r2-8": "U",
+     "armenian-christianity-era-8#r2-9": "S",
+     "armenian-christianity-era-8#r2-10": "U",
+     "armenian-christianity-era-8#r2-11": "U",
+     "armenian-christianity-era-8#r2-12": "S",
+     "armenian-christianity-era-8#r2-13": "U",
+     "armenian-christianity-era-8#r2-14": "U"
+    },
+    "clean_passages": 9,
+    "clean_refs": [
+     "issaverdens_armenian-ritual-parts1-4_1876.txt:9926",
+     "issaverdens_armenian-ritual-parts1-4_1876.txt:9961",
+     "issaverdens_armenian-ritual-parts1-4_1876.txt:9981",
+     "issaverdens_armenian-ritual-parts1-4_1876.txt:10014",
+     "issaverdens_armenian-ritual-parts1-4_1876.txt:15672",
+     "issaverdens_armenian-ritual-parts1-4_1876.txt:15701",
+     "issaverdens_armenian-ritual-parts1-4_1876.txt:15739",
+     "nurikhan_life-and-times-of-abbot-mechitar_mcquillan1915.txt:18330",
+     "nurikhan_life-and-times-of-abbot-mechitar_mcquillan1915.txt:18367"
+    ],
+    "best_quote": {
+     "file": "issaverdens_armenian-ritual-parts1-4_1876.txt",
+     "line": 9926,
+     "text": "name of its compiler St. Mesrob surnamed Mashdotz. This eminent man, as we have"
+    }
+   },
+   "armenian-christianity-zartonk": {
+    "labels": {
+     "armenian-christianity-zartonk#r2-0": "S",
+     "armenian-christianity-zartonk#r2-1": "E",
+     "armenian-christianity-zartonk#r2-2": "S",
+     "armenian-christianity-zartonk#r2-3": "S",
+     "armenian-christianity-zartonk#r2-4": "S",
+     "armenian-christianity-zartonk#r2-5": "S",
+     "armenian-christianity-zartonk#r2-6": "S",
+     "armenian-christianity-zartonk#r2-7": "S",
+     "armenian-christianity-zartonk#r2-8": "S",
+     "armenian-christianity-zartonk#r2-9": "S",
+     "armenian-christianity-zartonk#r2-10": "S",
+     "armenian-christianity-zartonk#r2-11": "E",
+     "armenian-christianity-zartonk#r2-12": "S",
+     "armenian-christianity-zartonk#r2-13": "S",
+     "armenian-christianity-zartonk#r2-14": "S"
+    },
+    "clean_passages": 13,
+    "clean_refs": [
+     "issaverdens_armenian-ritual-parts1-4_1876.txt:9926",
+     "issaverdens_armenian-ritual-parts1-4_1876.txt:9961",
+     "issaverdens_armenian-ritual-parts1-4_1876.txt:9981",
+     "issaverdens_armenian-ritual-parts1-4_1876.txt:10014",
+     "issaverdens_armenian-ritual-parts1-4_1876.txt:15672",
+     "issaverdens_armenia-and-the-armenians-v2-ecclesiastical-history_1875.txt:2117",
+     "issaverdens_armenia-and-the-armenians-v2-ecclesiastical-history_1875.txt:2145",
+     "issaverdens_armenia-and-the-armenians-v2-ecclesiastical-history_1875.txt:2205",
+     "issaverdens_armenia-and-the-armenians-v2-ecclesiastical-history_1875.txt:2228",
+     "issaverdens_armenia-and-the-armenians-v2-ecclesiastical-history_1875.txt:2241",
+     "issaverdens_armenia-and-the-armenians-v2-ecclesiastical-history_1875.txt:2258",
+     "issaverdens_armenia-and-the-armenians-v2-ecclesiastical-history_1875.txt:2303",
+     "issaverdens_armenia-and-the-armenians-v2-ecclesiastical-history_1875.txt:2310"
+    ],
+    "best_quote": {
+     "file": "issaverdens_armenia-and-the-armenians-v2-ecclesiastical-history_1875.txt",
+     "line": 2117,
+     "text": "At this time St. Mesrob became famous for sanctity and wisdom. He was the son"
+    }
+   }
+  },
+  "namesake_notes": "None met in the contexts checked.",
+  "editorial_notes": "Contents-list lines and chapter headings in the Ritual (9824, 15659) are editorial summaries (E). Zakaria/Brosset notes are E/U.",
+  "comment": "Stopped early (needs 2): era-8 and zartonk both reach 5 on the Ritual (whole-work locus) alone. Contexts shown for era-8 were mostly U (Issaverdens v2 line 2117+ lies in the first fifth of a file whose shelved locus is the last third; Zakaria lines are outside the Abraham of Crete locus). The clean passages counted come from fresh reads of the Ritual and Nurikhan, listed in clean_refs. After-Avarayr and Albania were not labelled (not needed); Albania's Koriun body (Langlois ~3427-4540) holds many more Mesrob lines than the sample. Quote spans line breaks; file has double spaces, normalised."
+ },
+ {
+  "cid": "C024",
+  "name": "Melito of Sardis",
+  "passes": false,
+  "traditions": {
+   "syriac-orthodox-west-syriac-christianity": {
+    "labels": {
+     "syriac-orthodox-west-syriac-christianity#r2-0": "S",
+     "syriac-orthodox-west-syriac-christianity#r2-1": "S"
+    },
+    "clean_passages": 2,
+    "best_quote": {
+     "file": "michael-the-syrian_chronique-tome1-livres-i-vii-fra_chabot1899.txt",
+     "line": 14481,
+     "text": "A cette époque Méliton, d'Asie, évêque des Sardiens, présenta"
+    }
+   },
+   "the-kollyvades-and-greek-renewal": {
+    "labels": {
+     "the-kollyvades-and-greek-renewal#r2-0": "U",
+     "the-kollyvades-and-greek-renewal#r2-1": "U",
+     "the-kollyvades-and-greek-renewal#r2-2": "E",
+     "the-kollyvades-and-greek-renewal#r2-3": "E",
+     "the-kollyvades-and-greek-renewal#r2-4": "E"
+    },
+    "clean_passages": 0
+   },
+   "orthodoxy-under-the-ottomans-parish-millet-and-n": {
+    "labels": {
+     "orthodoxy-under-the-ottomans-parish-millet-and-n#r2-0": "U",
+     "orthodoxy-under-the-ottomans-parish-millet-and-n#r2-1": "U",
+     "orthodoxy-under-the-ottomans-parish-millet-and-n#r2-2": "E",
+     "orthodoxy-under-the-ottomans-parish-millet-and-n#r2-3": "E",
+     "orthodoxy-under-the-ottomans-parish-millet-and-n#r2-4": "E"
+    },
+    "clean_passages": 0
+   },
+   "orthodoxy-under-the-ottomans-1650-1821": {
+    "labels": {
+     "orthodoxy-under-the-ottomans-1650-1821#r2-0": "U",
+     "orthodoxy-under-the-ottomans-1650-1821#r2-1": "U",
+     "orthodoxy-under-the-ottomans-1650-1821#r2-2": "E",
+     "orthodoxy-under-the-ottomans-1650-1821#r2-3": "E",
+     "orthodoxy-under-the-ottomans-1650-1821#r2-4": "E"
+    },
+    "clean_passages": 0
+   }
+  },
+  "namesake_notes": "Synaxaristes: lines 55887-55891 are index entries for several martyrs named Meliton (other persons); 28666 is under the martyr Meliton's entry.",
+  "editorial_notes": "Index entries (Synaxaristes vol 2 ~55887-55891) counted E.",
+  "comment": "Syriac has only 2 contexts, in one notice of Michael (14481 and 14487, adjacent sentences, counted 2; could be 1). Synaxaristes 60962 is a footnote cross-reference 'see the Meliton, tom. 1, p. 343' that does not identify the bishop (U). No tradition can reach 5."
+ },
+ {
+  "cid": "C045",
+  "name": "Pamphilus",
+  "passes": true,
+  "traditions": {
+   "imperial-juridical-christianity": {
+    "labels": {
+     "imperial-juridical-christianity#r2-0": "N",
+     "imperial-juridical-christianity#r2-1": "E",
+     "imperial-juridical-christianity#r2-2": "U",
+     "imperial-juridical-christianity#r2-3": "N",
+     "imperial-juridical-christianity#r2-4": "E",
+     "imperial-juridical-christianity#r2-5": "N",
+     "imperial-juridical-christianity#r2-6": "E",
+     "imperial-juridical-christianity#r2-7": "U",
+     "imperial-juridical-christianity#r2-8": "N",
+     "imperial-juridical-christianity#r2-9": "E",
+     "imperial-juridical-christianity#r2-10": "U",
+     "imperial-juridical-christianity#r2-11": "N",
+     "imperial-juridical-christianity#r2-12": "E",
+     "imperial-juridical-christianity#r2-13": "U",
+     "imperial-juridical-christianity#r2-14": "E"
+    },
+    "clean_passages": 6,
+    "clean_refs": [
+     "npnf201_eusebius-church-history-life-of-constantine.xml:36888",
+     "npnf201_eusebius-church-history-life-of-constantine.xml:36974",
+     "npnf201_eusebius-church-history-life-of-constantine.xml:43010",
+     "npnf201_eusebius-church-history-life-of-constantine.xml:44791",
+     "npnf202_socrates-sozomen-ecclesiastical-histories.xml:10542",
+     "npnf202_socrates-sozomen-ecclesiastical-histories.xml:14029"
+    ],
+    "best_quote": {
+     "file": "npnf201_eusebius-church-history-life-of-constantine.xml",
+     "line": 44791,
+     "text": "Pamphilus, a presbyter, who was the great glory of the parish of"
+    }
+   },
+   "hieronymian-ascetic-literary": {
+    "labels": {
+     "hieronymian-ascetic-literary#r2-0": "S",
+     "hieronymian-ascetic-literary#r2-1": "S",
+     "hieronymian-ascetic-literary#r2-2": "S",
+     "hieronymian-ascetic-literary#r2-3": "S",
+     "hieronymian-ascetic-literary#r2-4": "E",
+     "hieronymian-ascetic-literary#r2-5": "S",
+     "hieronymian-ascetic-literary#r2-6": "E",
+     "hieronymian-ascetic-literary#r2-7": "S",
+     "hieronymian-ascetic-literary#r2-8": "E",
+     "hieronymian-ascetic-literary#r2-9": "S",
+     "hieronymian-ascetic-literary#r2-10": "E",
+     "hieronymian-ascetic-literary#r2-11": "S",
+     "hieronymian-ascetic-literary#r2-12": "S",
+     "hieronymian-ascetic-literary#r2-13": "S",
+     "hieronymian-ascetic-literary#r2-14": "E"
+    },
+    "clean_passages": 6,
+    "clean_refs": [
+     "npnf203_theodoret-jerome-gennadius-rufinus.xml:39361",
+     "npnf203_theodoret-jerome-gennadius-rufinus.xml:41076",
+     "npnf203_theodoret-jerome-gennadius-rufinus.xml:50159",
+     "npnf203_theodoret-jerome-gennadius-rufinus.xml:51390",
+     "npnf203_theodoret-jerome-gennadius-rufinus.xml:53982",
+     "npnf206_jerome-principal-works.xml:19400"
+    ],
+    "best_quote": {
+     "file": "npnf203_theodoret-jerome-gennadius-rufinus.xml",
+     "line": 53982,
+     "text": "Pamphilus wrote nothing except some short letters to his friends, and"
+    }
+   }
+  },
+  "namesake_notes": "'Eusebius Pamphilus / Pamphili' is Eusebius's surname (N) throughout Socrates, Sozomen, Collectio Avellana, Heikel; Pamphilus deacon of Jerusalem (Syriac Pelagius notice) and Anastasius son of Pamphilus; Pamphilus = Thomas Randolph in the Zurich Letters.",
+  "editorial_notes": "NPNF Prolegomena and 'Testimonies of the ancients' (npnf201 5663-6100), chapter titles and summaries in npnf203 (div4 titles, numbered summaries), Heikel's German introduction.",
+  "comment": "Stopped early (needs 2): Imperial and Hieronymian reach 5 on fresh S passages (the 15 shown contexts for Imperial held none; the Greek Eusebius in the Schwartz file lies outside its Rufinus X-XI locus, so U). Imperial passages: Eusebius HE VI.32, VI.33, VII.32.25, VIII.13 (npnf201), Socrates (10542, 14029). Martyrs of Palestine (npnf201 ~46695-47315) not counted. Hieronymian: Jerome DVI ch. 3 and 81, Rufinus Apology 50159, Jerome Apology 51390 and 53982, Letter 84 section 10 (one passage; shelf locus for the Letters entry is truncated in the input, assumed shelved). Letter 84's 19400-19427 hits are one paragraph (marked S as duplicates). Other two traditions not labelled."
+ },
+ {
+  "cid": "C056",
+  "name": "Aetius of Antioch",
+  "passes": false,
+  "traditions": {
+   "chalcedonian-monasticism-judean-desert-and-gaza": {
+    "labels": {
+     "chalcedonian-monasticism-judean-desert-and-gaza#r2-0": "N",
+     "chalcedonian-monasticism-judean-desert-and-gaza#r2-1": "N",
+     "chalcedonian-monasticism-judean-desert-and-gaza#r2-2": "N",
+     "chalcedonian-monasticism-judean-desert-and-gaza#r2-3": "N",
+     "chalcedonian-monasticism-judean-desert-and-gaza#r2-4": "N",
+     "chalcedonian-monasticism-judean-desert-and-gaza#r2-5": "N",
+     "chalcedonian-monasticism-judean-desert-and-gaza#r2-6": "N",
+     "chalcedonian-monasticism-judean-desert-and-gaza#r2-7": "N",
+     "chalcedonian-monasticism-judean-desert-and-gaza#r2-8": "N",
+     "chalcedonian-monasticism-judean-desert-and-gaza#r2-9": "N",
+     "chalcedonian-monasticism-judean-desert-and-gaza#r2-10": "N"
+    },
+    "clean_passages": 0
+   },
+   "byzantine-imperial-church-justinianic": {
+    "labels": {
+     "byzantine-imperial-church-justinianic#r2-0": "N",
+     "byzantine-imperial-church-justinianic#r2-1": "N",
+     "byzantine-imperial-church-justinianic#r2-2": "N",
+     "byzantine-imperial-church-justinianic#r2-3": "N",
+     "byzantine-imperial-church-justinianic#r2-4": "N",
+     "byzantine-imperial-church-justinianic#r2-5": "N",
+     "byzantine-imperial-church-justinianic#r2-6": "N",
+     "byzantine-imperial-church-justinianic#r2-7": "N",
+     "byzantine-imperial-church-justinianic#r2-8": "N",
+     "byzantine-imperial-church-justinianic#r2-9": "N",
+     "byzantine-imperial-church-justinianic#r2-10": "N"
+    },
+    "clean_passages": 0
+   }
+  },
+  "namesake_notes": "Every Aetius hit in the Chalcedon acts is Aetius, archdeacon of Constantinople, not Aetius of Antioch.",
+  "editorial_notes": "Bracketed narrative links in NPNF acts (e.g. 19409, 20019, 20601) are the editor's.",
+  "comment": "No S passage."
+ },
+ {
+  "cid": "C071",
+  "name": "Monica",
+  "passes": false,
+  "traditions": {
+   "the-society-of-jesus": {
+    "labels": {
+     "the-society-of-jesus#r2-0": "N",
+     "the-society-of-jesus#r2-1": "N",
+     "the-society-of-jesus#r2-2": "E",
+     "the-society-of-jesus#r2-3": "N",
+     "the-society-of-jesus#r2-4": "N",
+     "the-society-of-jesus#r2-5": "S",
+     "the-society-of-jesus#r2-6": "N",
+     "the-society-of-jesus#r2-7": "N",
+     "the-society-of-jesus#r2-8": "N",
+     "the-society-of-jesus#r2-9": "E",
+     "the-society-of-jesus#r2-10": "N",
+     "the-society-of-jesus#r2-11": "N",
+     "the-society-of-jesus#r2-12": "N",
+     "the-society-of-jesus#r2-13": "N",
+     "the-society-of-jesus#r2-14": "U"
+    },
+    "clean_passages": 2,
+    "best_quote": {
+     "file": "gerard-john_condition-of-catholics-under-james-i_morris1871.txt",
+     "line": 9630,
+     "text": "if he would not be a follower of Catholic religion. St. Monica, by her tears and prayers, did win her son, St. Augustin"
+    }
+   },
+   "recusant-english-catholicism": {
+    "labels": {
+     "recusant-english-catholicism#r2-0": "N",
+     "recusant-english-catholicism#r2-1": "E",
+     "recusant-english-catholicism#r2-2": "N",
+     "recusant-english-catholicism#r2-3": "N",
+     "recusant-english-catholicism#r2-4": "S",
+     "recusant-english-catholicism#r2-5": "N",
+     "recusant-english-catholicism#r2-6": "E",
+     "recusant-english-catholicism#r2-7": "N",
+     "recusant-english-catholicism#r2-8": "N",
+     "recusant-english-catholicism#r2-9": "S",
+     "recusant-english-catholicism#r2-10": "N",
+     "recusant-english-catholicism#r2-11": "N",
+     "recusant-english-catholicism#r2-12": "N",
+     "recusant-english-catholicism#r2-13": "N",
+     "recusant-english-catholicism#r2-14": "N"
+    },
+    "clean_passages": 6,
+    "clean_refs": [
+     "smith-richard_life-of-lady-magdalen-montague_cf1627.txt:258",
+     "smith-richard_life-of-lady-magdalen-montague_cf1627.txt:2915",
+     "smith-richard_life-of-lady-magdalen-montague_cf1627.txt:2974",
+     "gerard-john_condition-of-catholics-under-james-i_morris1871.txt:9630",
+     "morris-john_troubles-of-our-catholic-forefathers-ser1_1872.txt:2377",
+     "morris-john_troubles-of-our-catholic-forefathers-ser1_1872.txt:2449"
+    ],
+    "best_quote": {
+     "file": "gerard-john_condition-of-catholics-under-james-i_morris1871.txt",
+     "line": 9630,
+     "text": "if he would not be a follower of Catholic religion. St. Monica, by her tears and prayers, did win her son, St. Augustin"
+    }
+   },
+   "philippine-catholicism-era-8": {
+    "labels": {
+     "philippine-catholicism-era-8#r2-0": "N",
+     "philippine-catholicism-era-8#r2-1": "N",
+     "philippine-catholicism-era-8#r2-2": "N",
+     "philippine-catholicism-era-8#r2-3": "N",
+     "philippine-catholicism-era-8#r2-4": "N",
+     "philippine-catholicism-era-8#r2-5": "N",
+     "philippine-catholicism-era-8#r2-6": "N",
+     "philippine-catholicism-era-8#r2-7": "N",
+     "philippine-catholicism-era-8#r2-8": "N",
+     "philippine-catholicism-era-8#r2-9": "N"
+    },
+    "clean_passages": 0
+   },
+   "the-anabaptist-movements": {
+    "labels": {
+     "the-anabaptist-movements#r2-0": "S",
+     "the-anabaptist-movements#r2-1": "U",
+     "the-anabaptist-movements#r2-2": "S",
+     "the-anabaptist-movements#r2-3": "S",
+     "the-anabaptist-movements#r2-4": "S",
+     "the-anabaptist-movements#r2-5": "S"
+    },
+    "clean_passages": 4,
+    "best_quote": {
+     "file": "van-braght_martyrs-mirror_sohm1886.txt",
+     "line": 23052,
+     "text": "Monica, Augustine's mother, who, though born of Christian parents, was not baptized until she had reached adult years"
+    }
+   }
+  },
+  "namesake_notes": "St. Monica's Convent/Cloister/Chronicle (Louvain), Monique (Huron captive), madona Monica (Nadal), Santa Monica (Philippine friars).",
+  "editorial_notes": "Indexes of Gerard/Morris volumes (19069, 19439), Morris footnotes.",
+  "comment": "No tradition is confirmed at 5. Recusant reaches 6 only if two Morris passages (ser1 2377, 2449: the convent's patroness 'St. Monica, mother to our holy Father St. Augustine', in the Clement paper) are counted; without them 4 (Smith 258, 2915, 2974; Gerard 9630). Anabaptist has 4 (Martyrs' Mirror 20645, 21344/21356 as one passage, 23052, 23170); would be 5 only if 21344 and 21356 (same paragraph, one a quotation of Montanus) are counted separately. Smyth 20930 sits in the 'Argumenta contra baptismum infantum' text, not among the shelved works named (U). Jesuit: Jesuit Relations v26 3383/3469 (French and English, one passage) plus Gerard 9630 = 2; Morris ser1 2449 is outside the Jesuit locus (U)."
+ },
+ {
+  "cid": "C087",
+  "name": "Vardan Mamikonian",
+  "passes": false,
+  "traditions": {
+   "armenian-cilicia-after-the-kingdom": {
+    "labels": {
+     "armenian-cilicia-after-the-kingdom#r2-0": "N",
+     "armenian-cilicia-after-the-kingdom#r2-1": "N",
+     "armenian-cilicia-after-the-kingdom#r2-2": "N",
+     "armenian-cilicia-after-the-kingdom#r2-3": "E",
+     "armenian-cilicia-after-the-kingdom#r2-4": "N",
+     "armenian-cilicia-after-the-kingdom#r2-5": "N",
+     "armenian-cilicia-after-the-kingdom#r2-6": "N",
+     "armenian-cilicia-after-the-kingdom#r2-7": "N",
+     "armenian-cilicia-after-the-kingdom#r2-8": "N",
+     "armenian-cilicia-after-the-kingdom#r2-9": "N",
+     "armenian-cilicia-after-the-kingdom#r2-10": "N",
+     "armenian-cilicia-after-the-kingdom#r2-11": "N",
+     "armenian-cilicia-after-the-kingdom#r2-12": "N",
+     "armenian-cilicia-after-the-kingdom#r2-13": "N",
+     "armenian-cilicia-after-the-kingdom#r2-14": "N"
+    },
+    "clean_passages": 0
+   },
+   "armenian-cilicia": {
+    "labels": {
+     "armenian-cilicia#r2-0": "N",
+     "armenian-cilicia#r2-1": "N",
+     "armenian-cilicia#r2-2": "N",
+     "armenian-cilicia#r2-3": "E",
+     "armenian-cilicia#r2-4": "N",
+     "armenian-cilicia#r2-5": "N",
+     "armenian-cilicia#r2-6": "N",
+     "armenian-cilicia#r2-7": "N",
+     "armenian-cilicia#r2-8": "N",
+     "armenian-cilicia#r2-9": "N",
+     "armenian-cilicia#r2-10": "N",
+     "armenian-cilicia#r2-11": "N",
+     "armenian-cilicia#r2-12": "N",
+     "armenian-cilicia#r2-13": "N",
+     "armenian-cilicia#r2-14": "N"
+    },
+    "clean_passages": 0
+   },
+   "armenian-christianity-era-8": {
+    "labels": {
+     "armenian-christianity-era-8#r2-0": "N",
+     "armenian-christianity-era-8#r2-1": "S",
+     "armenian-christianity-era-8#r2-2": "U",
+     "armenian-christianity-era-8#r2-3": "N",
+     "armenian-christianity-era-8#r2-4": "N",
+     "armenian-christianity-era-8#r2-5": "S",
+     "armenian-christianity-era-8#r2-6": "U",
+     "armenian-christianity-era-8#r2-7": "N",
+     "armenian-christianity-era-8#r2-8": "N",
+     "armenian-christianity-era-8#r2-9": "N",
+     "armenian-christianity-era-8#r2-10": "U",
+     "armenian-christianity-era-8#r2-11": "S",
+     "armenian-christianity-era-8#r2-12": "N",
+     "armenian-christianity-era-8#r2-13": "S",
+     "armenian-christianity-era-8#r2-14": "U"
+    },
+    "clean_passages": 2,
+    "best_quote": {
+     "file": "nurikhan_life-and-times-of-abbot-mechitar_mcquillan1915.txt",
+     "line": 9629,
+     "text": "who fought against Nembrod down to General Vardan, saint and martyr, who took up arms in defence of the Christian faith"
+    }
+   },
+   "armenian-christianity-new-julfa": {
+    "labels": {
+     "armenian-christianity-new-julfa#r2-0": "N",
+     "armenian-christianity-new-julfa#r2-1": "N",
+     "armenian-christianity-new-julfa#r2-2": "N",
+     "armenian-christianity-new-julfa#r2-3": "N",
+     "armenian-christianity-new-julfa#r2-4": "N",
+     "armenian-christianity-new-julfa#r2-5": "E",
+     "armenian-christianity-new-julfa#r2-6": "E",
+     "armenian-christianity-new-julfa#r2-7": "N",
+     "armenian-christianity-new-julfa#r2-8": "N",
+     "armenian-christianity-new-julfa#r2-9": "E",
+     "armenian-christianity-new-julfa#r2-10": "E",
+     "armenian-christianity-new-julfa#r2-11": "E",
+     "armenian-christianity-new-julfa#r2-12": "E",
+     "armenian-christianity-new-julfa#r2-13": "E",
+     "armenian-christianity-new-julfa#r2-14": "E"
+    },
+    "clean_passages": 0
+   }
+  },
+  "namesake_notes": "Vartan/Vardan in the Cilician volume is the historian Vardan Areveltsi or Vartan of Tarsus; in Zakaria it is the historian, Khodja-Vardan, a courier, vartabed Vardan of Baghesh; Vardan Hovnanian in Nurikhan.",
+  "editorial_notes": "RHC editor's notes and glossary (6403 mentions the Mamikonian but in the editor's note), Brosset's notes in the Zakaria file (21531, 21758, 21934 etc.), index lines.",
+  "comment": "Round 1's Issaverdens S passages (v2 lines 2334-2894) are U under the strict rule: they lie in the first fifth of a 14595-line file whose shelved locus is the last third. Era-8 S = Nurikhan only: the 5th-century general Vardan in two passages (9629/Italian 8516; 11584/Italian 10873), each in English and Italian counted once. Max 2."
+ },
+ {
+  "cid": "C112",
+  "name": "Aidan",
+  "passes": false,
+  "traditions": {
+   "medieval-welsh-christianity": {
+    "labels": {
+     "medieval-welsh-christianity#r2-0": "N",
+     "medieval-welsh-christianity#r2-1": "N",
+     "medieval-welsh-christianity#r2-2": "N",
+     "medieval-welsh-christianity#r2-3": "N",
+     "medieval-welsh-christianity#r2-4": "N",
+     "medieval-welsh-christianity#r2-5": "N",
+     "medieval-welsh-christianity#r2-6": "N",
+     "medieval-welsh-christianity#r2-7": "N",
+     "medieval-welsh-christianity#r2-8": "N",
+     "medieval-welsh-christianity#r2-9": "N",
+     "medieval-welsh-christianity#r2-10": "N",
+     "medieval-welsh-christianity#r2-11": "N",
+     "medieval-welsh-christianity#r2-12": "N"
+    },
+    "clean_passages": 0
+   }
+  },
+  "namesake_notes": "Welsh shelf: Aidan/Aedan/Maidoc, disciple of St David (Rees Lives; Aidan of Ferns), Aidan son of Blegywryd, Aeddan son of Gavran (Annales Cambriae and editor's index), never Aidan of Lindisfarne.",
+  "editorial_notes": "Annales Cambriae editor's glossary and index lines (11383, 12204, 12209); Rees's footnote at 18190.",
+  "comment": "Only one tradition shown, with no S. With the-tridentine-church confirmed in round 1 (not re-checked) the person has 1, so passes is false."
+ },
+ {
+  "cid": "C143",
+  "name": "Gratian",
+  "passes": false,
+  "traditions": {
+   "latin-papal-church-avignon-to-lateran-v": {
+    "labels": {
+     "latin-papal-church-avignon-to-lateran-v#r2-0": "E",
+     "latin-papal-church-avignon-to-lateran-v#r2-1": "N",
+     "latin-papal-church-avignon-to-lateran-v#r2-2": "S",
+     "latin-papal-church-avignon-to-lateran-v#r2-3": "U",
+     "latin-papal-church-avignon-to-lateran-v#r2-4": "N",
+     "latin-papal-church-avignon-to-lateran-v#r2-5": "S",
+     "latin-papal-church-avignon-to-lateran-v#r2-6": "N",
+     "latin-papal-church-avignon-to-lateran-v#r2-7": "S",
+     "latin-papal-church-avignon-to-lateran-v#r2-8": "N"
+    },
+    "clean_passages": 3
+   },
+   "franciscan-order-era-6": {
+    "labels": {
+     "franciscan-order-era-6#r2-0": "U",
+     "franciscan-order-era-6#r2-1": "U",
+     "franciscan-order-era-6#r2-2": "U",
+     "franciscan-order-era-6#r2-3": "N",
+     "franciscan-order-era-6#r2-4": "U",
+     "franciscan-order-era-6#r2-5": "U",
+     "franciscan-order-era-6#r2-6": "U"
+    },
+    "clean_passages": 0
+   },
+   "catholic-church-ancien-regime": {
+    "labels": {
+     "catholic-church-ancien-regime#r2-0": "N",
+     "catholic-church-ancien-regime#r2-1": "N",
+     "catholic-church-ancien-regime#r2-2": "N",
+     "catholic-church-ancien-regime#r2-3": "N",
+     "catholic-church-ancien-regime#r2-4": "N",
+     "catholic-church-ancien-regime#r2-5": "N"
+    },
+    "clean_passages": 0
+   },
+   "the-society-of-jesus": {
+    "labels": {
+     "the-society-of-jesus#r2-0": "N",
+     "the-society-of-jesus#r2-1": "E",
+     "the-society-of-jesus#r2-2": "N",
+     "the-society-of-jesus#r2-3": "N",
+     "the-society-of-jesus#r2-4": "N",
+     "the-society-of-jesus#r2-5": "N"
+    },
+    "clean_passages": 0
+   }
+  },
+  "namesake_notes": "Gratianus/Graziano as other men: Franciscan friars (Bullarium 89129, 89248; Glassberger), abbot Johannes Gratianus and bishop Gratianus of Alatri (Mansi), Father Graziano and Sister Maria Angela Rosa Graziano (Liguori), a mason and a Neapolitan tailor (Jesuit sources).",
+  "editorial_notes": "Birgitta index (5070); Ignatius file 54341 is an editor's note on Pseudo-Isidore; Scholz and Ehrle bd2 files are not on the Franciscan shelf as listed (U).",
+  "comment": "Avignon: 3 S at most (Gerson 30311 and 81434, Birgitta 30209 which sits in Duranti's interleaved notes, counted S because the shelf entry includes them); Mansi 32 line 11517 is before 'CONCILIUM LATERANENSE V' at 62016 and so likely outside the shelved locus (U). No tradition reaches 5. No best_quote given (Latin f-for-s OCR)."
+ },
+ {
+  "cid": "C164",
+  "name": "Hugo Grotius",
+  "passes": true,
+  "traditions": {
+   "restoration-georgian-church-of-england": {
+    "labels": {
+     "restoration-georgian-church-of-england#r2-0": "S",
+     "restoration-georgian-church-of-england#r2-1": "S",
+     "restoration-georgian-church-of-england#r2-2": "S",
+     "restoration-georgian-church-of-england#r2-3": "S",
+     "restoration-georgian-church-of-england#r2-4": "S",
+     "restoration-georgian-church-of-england#r2-5": "S",
+     "restoration-georgian-church-of-england#r2-6": "S",
+     "restoration-georgian-church-of-england#r2-7": "S",
+     "restoration-georgian-church-of-england#r2-8": "S",
+     "restoration-georgian-church-of-england#r2-9": "S",
+     "restoration-georgian-church-of-england#r2-10": "S",
+     "restoration-georgian-church-of-england#r2-11": "S",
+     "restoration-georgian-church-of-england#r2-12": "S",
+     "restoration-georgian-church-of-england#r2-13": "S",
+     "restoration-georgian-church-of-england#r2-14": "S",
+     "restoration-georgian-church-of-england#r2-15": "S",
+     "restoration-georgian-church-of-england#r2-16": "S",
+     "restoration-georgian-church-of-england#r2-17": "S",
+     "restoration-georgian-church-of-england#r2-18": "S",
+     "restoration-georgian-church-of-england#r2-19": "S",
+     "restoration-georgian-church-of-england#r2-20": "S",
+     "restoration-georgian-church-of-england#r2-21": "S",
+     "restoration-georgian-church-of-england#r2-22": "S",
+     "restoration-georgian-church-of-england#r2-23": "S"
+    },
+    "clean_passages": 15,
+    "clean_refs": [
+     "burnet_discourse-of-the-pastoral-care_1692.txt:7152",
+     "burnet_discourse-of-the-pastoral-care_1692.txt:7263",
+     "burnet_discourse-of-the-pastoral-care_1692.txt:7470",
+     "barlow_brutum-fulmen_1681.txt:18865",
+     "barlow_brutum-fulmen_1681.txt:19182",
+     "barlow_brutum-fulmen_1681.txt:19267",
+     "barlow_brutum-fulmen_1681.txt:19340",
+     "barlow_brutum-fulmen_1681.txt:20757"
+    ],
+    "best_quote": {
+     "file": "barlow_brutum-fulmen_1681.txt",
+     "line": 20757,
+     "text": "Prefent Tenfe, yet Grotius confeffes, that it mult be taken"
+    }
+   },
+   "english-old-dissent": {
+    "labels": {
+     "english-old-dissent#r2-0": "U",
+     "english-old-dissent#r2-1": "U",
+     "english-old-dissent#r2-2": "U",
+     "english-old-dissent#r2-3": "U",
+     "english-old-dissent#r2-4": "U",
+     "english-old-dissent#r2-5": "U",
+     "english-old-dissent#r2-6": "S",
+     "english-old-dissent#r2-7": "S",
+     "english-old-dissent#r2-8": "S",
+     "english-old-dissent#r2-9": "S",
+     "english-old-dissent#r2-10": "S",
+     "english-old-dissent#r2-11": "S",
+     "english-old-dissent#r2-12": "S",
+     "english-old-dissent#r2-13": "U",
+     "english-old-dissent#r2-14": "U",
+     "english-old-dissent#r2-15": "U"
+    },
+    "clean_passages": 6,
+    "clean_refs": [
+     "baxter_reliquiae-baxterianae_sylvester1696.txt:23646",
+     "baxter_reliquiae-baxterianae_sylvester1696.txt:38045",
+     "baxter_reliquiae-baxterianae_sylvester1696.txt:44728",
+     "baxter_reliquiae-baxterianae_sylvester1696.txt:46958",
+     "baxter_reliquiae-baxterianae_sylvester1696.txt:47361",
+     "baxter_reliquiae-baxterianae_sylvester1696.txt:51478"
+    ],
+    "best_quote": {
+     "file": "baxter_reliquiae-baxterianae_sylvester1696.txt",
+     "line": 46958,
+     "text": "mutual edification and live Religioufly. As Grotius laith that by a Papilt he racaneth"
+    }
+   }
+  },
+  "namesake_notes": "None.",
+  "editorial_notes": "None found in Restoration contexts (Barlow's lines are his own running commentary, well after the embedded bull texts; Burnet whole work).",
+  "comment": "Stopped early (needs 2). Restoration: 15 distinct clusters (Burnet 3, Barlow 12; Barlow clusters grouped by argument). Old Dissent: 6 in the 1696 Baxter file after the 1660 narrative start (about line 18360): 23646/23650/23662 (Pierce, counted once), 38045, 44728, 46958, 47361, 51478 (44728 is a fresh passage not among the shown contexts; without it 5). The abridged Lloyd-Thomas hits 6938 and 8088 lie before its Part Two (line 8706): U. Sylvester lines 4895 (Part I), 13099, 13284, 13819 (page 147, where Part II vs Part I headings are ambiguous) and the Appendix lines 62225-62405 are U. Quakers and Pietism not labelled. Quotes checked with whitespace normalised (the Baxter file has double spaces)."
+ }
+]

@@ -1,0 +1,11 @@
+source_file: leo-africanus_history-and-description-of-africa-v3_pory-brown1896.txt
+assignments:
+- row_id: leo-africanus_history-and-description-of-africa-v3_pory-brown1896--leo-africanus-history-and-description-of-africa-volume-3-pory-ed-brown
+  work: 'Leo Africanus, History and Description of Africa, volume 3 (Pory, ed. Brown)'
+  author: leo-africanus
+  locus: 'the whole volume; not mapped'
+  atlas_ids:
+  - the-coptic-church-under-the-ottomans
+  role: context
+  confidence: assigned
+  note: "A Moor baptized as Giovanni Leone, by the title page, describing Africa, in the English of 1600; an outside witness. No census entry is North Africa, so the work sits on this entry."

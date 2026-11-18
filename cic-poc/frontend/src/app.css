@@ -581,6 +581,41 @@ button {
   font-size: 0.88rem;
 }
 
+/* Quote card template B: three labelled layers on the click page. */
+.story-mark__layer {
+  margin-top: 8px;
+}
+
+.story-mark__layer-label {
+  margin: 0;
+  font-size: 0.78rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  opacity: 0.75;
+}
+
+.story-mark__edition blockquote {
+  margin: 4px 0 0;
+  padding-left: 10px;
+  border-left: 2px solid var(--color-border);
+  font-size: 0.88rem;
+}
+
+.story-mark__layer-note,
+.story-mark__layer-list {
+  margin: 4px 0 0;
+  font-size: 0.82rem;
+}
+
+.story-mark__layer-list {
+  padding-left: 18px;
+}
+
+.story-mark__means {
+  margin: 4px 0 0;
+  font-size: 0.85rem;
+}
+
 /* WitnessMark's Level-2/Level-3 content (VoiceTurnBody.tsx) - identical
    treatment to .story-mark__* above, under its own selector rather than a
    shared one: same visual grammar, different record_type, kept separable
@@ -2528,4 +2563,55 @@ button {
 
 .account-home button {
   font-size: 0.95rem;
+}
+
+/* Term card (lexicon template B): labelled layers on the click page. */
+.term-mark__layer {
+  margin-top: 8px;
+}
+
+.term-mark__layer-label {
+  margin: 0;
+  font-size: 0.78rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  opacity: 0.75;
+}
+
+.term-mark__layer p:not(.term-mark__layer-label),
+.term-mark__layer ul {
+  margin: 4px 0 0;
+  font-size: 0.88rem;
+}
+
+.term-mark__layer ul {
+  padding-left: 18px;
+}
+
+.term-mark__contrast {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 8px 16px;
+}
+
+.term-mark__flag,
+.term-mark__confidence {
+  margin-top: 4px !important;
+  font-size: 0.78rem;
+  font-style: italic;
+  color: var(--color-text-muted);
+}
+
+.term-mark__unavailable {
+  font-style: italic;
+  color: var(--color-text-muted);
+}
+
+.edition-facts__line {
+  font-size: 0.82rem;
+}
+
+.edition-facts__checked {
+  margin: 2px 0 0;
+  font-size: 0.78rem;
 }

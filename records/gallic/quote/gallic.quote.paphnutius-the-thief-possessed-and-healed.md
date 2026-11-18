@@ -19,9 +19,7 @@ confidence:
     independent assessment that a possession and a reserved cure occurred.
 sources:
 - source_id: gallic.source.cassian-conferences-part-iii
-  locus: "Conferences XVIII.15 (npnf211 div iv.vi.ii.xv, file lines 43058-43079): the accuser possessed
-    by a demon and confessing his own plot; Isidore's healing gift unable to cure him; the cure reserved
-    for Paphnutius's own prayers"
+  locus: "Conferences XVIII.15 (cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml, lines 43058-43079; div iv.vi.ii.xv): the accuser possessed by a demon and confessing his own plot; Isidore's healing gift unable to cure him; the cure reserved for Paphnutius's own prayers"
   license: public-domain
 retrieval:
   tier: 3
@@ -67,7 +65,7 @@ modern_rendering: >-
   priest Isidore could not drive the cruel tormentor out of him. Yet the Lord had generously given
   Isidore such power that no possessed person was ever brought to his door without being healed at once. For Christ
   was saving this glory for the young Paphnutius. The man would be cleansed only by the prayers of the
-  one he had plotted against. The jealous enemy would be pardoned for his offence, and his present punishment ended,
+  one he had plotted against. The jealous enemy would be pardoned for his offense, and his present punishment ended,
   only by calling out Paphnutius's name. This was the man whose good name he had thought he could
   damage.
 use_note:

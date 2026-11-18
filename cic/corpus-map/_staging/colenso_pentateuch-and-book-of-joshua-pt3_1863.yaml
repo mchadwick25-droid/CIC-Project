@@ -1,0 +1,13 @@
+source_file: colenso_pentateuch-and-book-of-joshua-pt3_1863.txt
+assignments:
+- row_id: colenso_pentateuch-and-book-of-joshua-pt3_1863--colenso-pentateuch-part-3-deuteronomy
+  work: 'Colenso, The Pentateuch and Book of Joshua Critically Examined, part III: Deuteronomy (1863)'
+  author: colenso
+  locus: 'the preface at OCR lines 227-2123; chapters I-XXII at 2468-14378; add 12 to OCR line numbers'
+  atlas_ids:
+  - victorian-church-of-england
+  role: tradition
+  confidence: provisional
+  language: eng
+  date: {start: 1863, end: 1863, source: "title page: 1863; the preface is signed 3 June 1863 (OCR line 2123)", formation_confidence: Documented}
+  note: 'The Bishop of Natal''s own argument on the date and authorship of Deuteronomy, with a long preface answering his critics.'

@@ -24,7 +24,7 @@ names:
 - name: Augustinius of Hippo Regius, presbyter 391, bishop 395/396-430
   tag: scholarly
 dates:
-  display: converted 386, baptised 387; seized by the congregation at Hippo and ordained presbyter against
+  display: converted 386, baptized 387; seized by the congregation at Hippo and ordained presbyter against
     his own wishes in 391, weeping through it (Possidius, Vita IV); designated coadjutor and consecrated
     bishop of Hippo by Megalius, primate of Numidia, in 395/396, again amid popular acclamation (Possidius,
     Vita VIII); died 430, during the Vandal siege of Hippo

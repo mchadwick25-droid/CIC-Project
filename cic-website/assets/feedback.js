@@ -1,12 +1,3 @@
-/* "Tell us what you think": opens a card from the button with id
-   feedback-toggle and posts the comment to the engine. On Church Family Tree
-   pages and the interactive tree it also adds a quiet row at the foot of the
-   page: a like, and a link that opens a small card to report a problem.
-
-   The card is added to the page when the script runs. With JavaScript off the
-   button does nothing and the Contact link in the footer still works. The
-   engine address follows the same local-or-live rule as go-deeper-config.js,
-   worked out here so the script stands alone. */
 (function () {
   'use strict';
 
@@ -198,11 +189,10 @@
 
   var id = window.location.pathname.replace(/^\/+/, '').replace(/\.html$/, '');
   var onTree = id.indexOf('tree/') === 0 && id.length > 5;
+  if (id === '' || id === 'index') { if (document.getElementById('world')) id = 'atlas-v3'; }
   var onAtlas = id === 'atlas-v3';
   if (!onTree && !onAtlas) { return; }
 
-  var PAGE = id.replace(/[^A-Za-z0-9\/_.:-]/g, '-').slice(0, 120);
-  var LIKE_KEY = 'cic-page-like:' + PAGE;
   var MAX_NOTE = 600;
 
   var isLocal = ['localhost', '127.0.0.1'].indexOf(window.location.hostname) !== -1;
@@ -246,16 +236,13 @@
       '</div>' +
     '</form>';
 
+  function mount(container, before, page) {
+  var PAGE = page.replace(/[^A-Za-z0-9\/_.:-]/g, '-').slice(0, 120);
+  var LIKE_KEY = 'cic-page-like:' + PAGE;
   var root = document.createElement('div');
-  root.className = 'page-feedback' + (onAtlas ? ' page-feedback--fixed' : '');
+  root.className = 'page-feedback';
   root.innerHTML = MARKUP;
-
-  var footer = document.querySelector('.site-footer');
-  if (onTree && footer) {
-    footer.parentNode.insertBefore(root, footer);
-  } else {
-    (document.querySelector('main') || document.body).appendChild(root);
-  }
+  container.insertBefore(root, before);
 
   var likeBtn = root.querySelector('#pf-like');
   var reportBtn = root.querySelector('#pf-report');
@@ -282,21 +269,21 @@
 
   function setLiked() {
     likeBtn.setAttribute('aria-pressed', 'true');
-    likeBtn.disabled = true;
+    likeBtn.setAttribute('aria-disabled', 'true');
   }
 
   try {
     if (window.localStorage.getItem(LIKE_KEY) === '1') { setLiked(); }
-  } catch (e) { /* storage blocked: the like still works for this visit */ }
+  } catch (e) {  }
 
   likeBtn.addEventListener('click', function () {
-    if (likeBtn.disabled) { return; }
-    likeBtn.disabled = true;
+    if (likeBtn.getAttribute('aria-disabled') === 'true') { return; }
+    likeBtn.setAttribute('aria-disabled', 'true');
     post({ kind: 'like', page: PAGE }).then(function () {
       setLiked();
-      try { window.localStorage.setItem(LIKE_KEY, '1'); } catch (e) { /* remembering is a convenience */ }
+      try { window.localStorage.setItem(LIKE_KEY, '1'); } catch (e) {  }
     }).catch(function () {
-      likeBtn.disabled = false;
+      likeBtn.removeAttribute('aria-disabled');
     });
   });
 
@@ -353,4 +340,13 @@
       sendBtn.disabled = false;
     });
   });
+  }
+
+  if (onTree) {
+    var footer = document.querySelector('.site-footer');
+    if (footer) { mount(footer.parentNode, footer, id); }
+    else { var main = document.querySelector('main') || document.body; mount(main, null, id); }
+  } else {
+    window.PageFeedback = { mount: function (container, page) { mount(container, null, page); } };
+  }
 })();

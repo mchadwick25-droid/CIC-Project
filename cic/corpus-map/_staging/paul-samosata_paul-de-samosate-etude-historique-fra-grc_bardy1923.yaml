@@ -1,0 +1,11 @@
+source_file: paul-samosata_paul-de-samosate-etude-historique-fra-grc_bardy1923.txt
+assignments:
+- row_id: paul-samosata_paul-de-samosate-etude-historique-fra-grc_bardy1923--paul-of-samosata-fragments-bardy-1923
+  work: 'Paul of Samosata, the fragments, text and French commentary (Bardy 1923)'
+  author: paul-samosata
+  locus: 'the fragments from about OCR line 15640; add 12 to OCR line numbers'
+  atlas_ids:
+  - antiochene-church-third-century
+  role: tradition
+  confidence: assigned
+  note: "The fragments with a French commentary, printed a year before Loofs. Which fragments are Paul's own is disputed."

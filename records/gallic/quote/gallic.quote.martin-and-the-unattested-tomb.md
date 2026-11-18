@@ -17,7 +17,7 @@ confidence:
     surrounding narration is Sulpitius's, not a direct quotation of Martin throughout.
 sources:
 - source_id: gallic.source.sulpitius-vita-martini
-  locus: "Life of St. Martin ch. XI (npnf211 div ii.ii.xii, file lines 1176-1183): Martin's caution before an unattested martyr's tomb, before he tests it"
+  locus: "Life of St. Martin ch. XI (cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml, lines 1176-1183; div ii.ii.xii): Martin's caution before an unattested martyr's tomb, before he tests it"
   license: public-domain
 retrieval:
   tier: 2

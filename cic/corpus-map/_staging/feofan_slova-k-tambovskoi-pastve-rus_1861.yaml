@@ -1,0 +1,22 @@
+source_file: feofan_slova-k-tambovskoi-pastve-rus_1861.txt
+assignments:
+- row_id: feofan_slova-k-tambovskoi-pastve-rus_1861--work
+  work: Слова къ Тамбовской паствѣ Феофана, Епископа Тамбовскаго и Шацкаго
+  author: feofan
+  locus: the whole volume; not mapped
+  atlas_ids:
+  - the-optina-elders-and-russian-ascetic-renewal
+  - russian-church-synodal-century
+  role: tradition
+  confidence: provisional
+  language: rus
+  date:
+    start: 1859
+    end: 1861
+    source: 'the printing''s own title page: line 50 of this file, on the title page'
+    formation_confidence: Documented
+  edition_date:
+    year: 1861
+    source: line 50 of this file, on the title page
+    formation_confidence: Documented
+  note: 'Era 9 row 295, Theophan the Recluse: his sermons to the Tambov flock.'

@@ -1,0 +1,21 @@
+source_file: garcia-moreno_escritos-y-discursos-t1-spa_1887.txt
+assignments:
+- row_id: garcia-moreno_escritos-y-discursos-t1-spa_1887--escritos-y-discursos-de-gabriel-garcia-moreno-recopilados-y
+  work: ESCRITOS Y DISCURSOS DE GABRIEL GARCIA MORENO, RECOPILADOS Y PUBLICADOS POR LA SOCIEDAD DE LA JUVENTUD
+  author: garcia-moreno
+  locus: the whole volume; not mapped
+  atlas_ids:
+  - nineteenth-century-latin-american-catholicism
+  role: tradition
+  confidence: provisional
+  language: spa
+  date:
+    formation_confidence: unknown
+    checked: the title page and front matter of this printing (1887); they do not state when the text was first
+      written
+  edition_date:
+    year: 1887
+    source: line 71 of this file, on the title page
+    formation_confidence: Documented
+  note: 'Era 9 row 286, Gabriel Garcia Moreno: his writings and speeches, vol. 1. His own writings, collected after
+    his death by a Catholic society of Quito; a lay ruler''s voice inside the tradition.'

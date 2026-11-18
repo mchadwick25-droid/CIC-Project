@@ -1,0 +1,552 @@
+[
+ {
+  "movement": "desert-monasticism",
+  "field": "longDescription",
+  "paragraph": 2,
+  "fre_before": 33.7,
+  "fre_after": 60.3,
+  "fk_after": 8.7,
+  "words": 154,
+  "passed": true
+ },
+ {
+  "movement": "desert-monasticism",
+  "field": "legacy",
+  "paragraph": 0,
+  "fre_before": 52.4,
+  "fre_after": 60.3,
+  "fk_after": 8.4,
+  "words": 58,
+  "passed": true
+ },
+ {
+  "movement": "palestinian-ascetic-monasticism-early",
+  "field": "relationsSummary",
+  "paragraph": 0,
+  "fre_before": 27.7,
+  "fre_after": 62.6,
+  "fk_after": 7.1,
+  "words": 32,
+  "passed": true
+ },
+ {
+  "movement": "palestinian-ascetic-monasticism-early",
+  "field": "longDescription",
+  "paragraph": 0,
+  "fre_before": 43.6,
+  "fre_after": 63.5,
+  "fk_after": 7.8,
+  "words": 181,
+  "passed": true
+ },
+ {
+  "movement": "palestinian-ascetic-monasticism-early",
+  "field": "why",
+  "paragraph": 0,
+  "fre_before": 38,
+  "fre_after": 64,
+  "fk_after": 8.4,
+  "words": 98,
+  "passed": true
+ },
+ {
+  "movement": "palestinian-ascetic-monasticism-early",
+  "field": "legacy",
+  "paragraph": 0,
+  "fre_before": 21.4,
+  "fre_after": 61.5,
+  "fk_after": 7.8,
+  "words": 77,
+  "passed": true
+ },
+ {
+  "movement": "donatism",
+  "field": "relationsSummary",
+  "paragraph": 0,
+  "fre_before": -4.9,
+  "fre_after": 63.7,
+  "fk_after": 7.5,
+  "words": 75,
+  "passed": true
+ },
+ {
+  "movement": "donatism",
+  "field": "longDescription",
+  "paragraph": 0,
+  "fre_before": 23.9,
+  "fre_after": 60.6,
+  "fk_after": 8.4,
+  "words": 192,
+  "passed": true
+ },
+ {
+  "movement": "donatism",
+  "field": "longDescription",
+  "paragraph": 1,
+  "fre_before": 40,
+  "fre_after": 62.7,
+  "fk_after": 8.3,
+  "words": 138,
+  "passed": true
+ },
+ {
+  "movement": "donatism",
+  "field": "longDescription",
+  "paragraph": 2,
+  "fre_before": 28.2,
+  "fre_after": 60.1,
+  "fk_after": 8.5,
+  "words": 177,
+  "passed": true
+ },
+ {
+  "movement": "donatism",
+  "field": "legacy",
+  "paragraph": 0,
+  "fre_before": 47.5,
+  "fre_after": 67.9,
+  "fk_after": 7.6,
+  "words": 61,
+  "passed": true
+ },
+ {
+  "movement": "cappadocian-nicene-pastoral-monastic-tradition",
+  "field": "longDescription",
+  "paragraph": 1,
+  "fre_before": 24.1,
+  "fre_after": 64.8,
+  "fk_after": 7.9,
+  "words": 161,
+  "passed": true
+ },
+ {
+  "movement": "cappadocian-nicene-pastoral-monastic-tradition",
+  "field": "longDescription",
+  "paragraph": 2,
+  "fre_before": 22.3,
+  "fre_after": 61.4,
+  "fk_after": 7.5,
+  "words": 105,
+  "passed": true
+ },
+ {
+  "movement": "imperial-juridical-christianity",
+  "field": "relationsSummary",
+  "paragraph": 0,
+  "fre_before": 6.9,
+  "fre_after": 61.9,
+  "fk_after": 7.4,
+  "words": 47,
+  "passed": true
+ },
+ {
+  "movement": "imperial-juridical-christianity",
+  "field": "longDescription",
+  "paragraph": 1,
+  "fre_before": 44.7,
+  "fre_after": 61.2,
+  "fk_after": 8.3,
+  "words": 219,
+  "passed": true
+ },
+ {
+  "movement": "imperial-juridical-christianity",
+  "field": "legacy",
+  "paragraph": 2,
+  "fre_before": 56.3,
+  "fre_after": 60.4,
+  "fk_after": 8,
+  "words": 89,
+  "passed": true
+ },
+ {
+  "movement": "hieronymian-ascetic-literary",
+  "field": "longDescription",
+  "paragraph": 0,
+  "fre_before": 35.8,
+  "fre_after": 60.4,
+  "fk_after": 9,
+  "words": 118,
+  "passed": true
+ },
+ {
+  "movement": "hieronymian-ascetic-literary",
+  "field": "longDescription",
+  "paragraph": 2,
+  "fre_before": 55,
+  "fre_after": 61.6,
+  "fk_after": 8.8,
+  "words": 83,
+  "passed": true
+ },
+ {
+  "movement": "hieronymian-ascetic-literary",
+  "field": "legacy",
+  "paragraph": 0,
+  "fre_before": 18.2,
+  "fre_after": 62.5,
+  "fk_after": 8.1,
+  "words": 115,
+  "passed": true
+ },
+ {
+  "movement": "hieronymian-ascetic-literary",
+  "field": "legacy",
+  "paragraph": 1,
+  "fre_before": 11.2,
+  "fre_after": 63.2,
+  "fk_after": 7.5,
+  "words": 49,
+  "passed": true
+ },
+ {
+  "movement": "persian-church-of-the-east-early",
+  "field": "longDescription",
+  "paragraph": 0,
+  "fre_before": 37.1,
+  "fre_after": 64,
+  "fk_after": 8.1,
+  "words": 213,
+  "passed": true
+ },
+ {
+  "movement": "antiochene-exegetical-christianity-chrysostom-ce",
+  "field": "relationsSummary",
+  "paragraph": 0,
+  "fre_before": -3.8,
+  "fre_after": 60.2,
+  "fk_after": 7.5,
+  "words": 44,
+  "passed": true
+ },
+ {
+  "movement": "antiochene-exegetical-christianity-chrysostom-ce",
+  "field": "legacy",
+  "paragraph": 0,
+  "fre_before": 42.6,
+  "fre_after": 61.3,
+  "fk_after": 7.7,
+  "words": 145,
+  "passed": true
+ },
+ {
+  "movement": "cyrilline-miaphysite-egyptian-tradition",
+  "field": "relationsSummary",
+  "paragraph": 0,
+  "fre_before": null,
+  "fre_after": 63.5,
+  "fk_after": 7.6,
+  "words": 13,
+  "passed": true
+ },
+ {
+  "movement": "cyrilline-miaphysite-egyptian-tradition",
+  "field": "legacy",
+  "paragraph": 0,
+  "fre_before": 12.8,
+  "fre_after": 60.4,
+  "fk_after": 8.6,
+  "words": 151,
+  "passed": true
+ },
+ {
+  "movement": "jerusalem-liturgical-pilgrimage-christianity",
+  "field": "relationsSummary",
+  "paragraph": 0,
+  "fre_before": null,
+  "fre_after": 62.8,
+  "fk_after": 6.9,
+  "words": 29,
+  "passed": true
+ },
+ {
+  "movement": "jerusalem-liturgical-pilgrimage-christianity",
+  "field": "longDescription",
+  "paragraph": 0,
+  "fre_before": 50.4,
+  "fre_after": 64.6,
+  "fk_after": 8.3,
+  "words": 212,
+  "passed": true
+ },
+ {
+  "movement": "jerusalem-liturgical-pilgrimage-christianity",
+  "field": "why",
+  "paragraph": 0,
+  "fre_before": 21.5,
+  "fre_after": 64,
+  "fk_after": 8.8,
+  "words": 108,
+  "passed": true
+ },
+ {
+  "movement": "jerusalem-liturgical-pilgrimage-christianity",
+  "field": "legacy",
+  "paragraph": 0,
+  "fre_before": 37.1,
+  "fre_after": 60.5,
+  "fk_after": 8.2,
+  "words": 124,
+  "passed": true
+ },
+ {
+  "movement": "ambrosian-milan-standalone",
+  "field": "relationsSummary",
+  "paragraph": 0,
+  "fre_before": null,
+  "fre_after": 67,
+  "fk_after": 7.6,
+  "words": 44,
+  "passed": true
+ },
+ {
+  "movement": "ambrosian-milan-standalone",
+  "field": "legacy",
+  "paragraph": 0,
+  "fre_before": 50.1,
+  "fre_after": 65,
+  "fk_after": 8.3,
+  "words": 146,
+  "passed": true
+ },
+ {
+  "movement": "aquileian-christianity",
+  "field": "relationsSummary",
+  "paragraph": 0,
+  "fre_before": 1.6,
+  "fre_after": 63,
+  "fk_after": 7,
+  "words": 50,
+  "passed": true
+ },
+ {
+  "movement": "aquileian-christianity",
+  "field": "longDescription",
+  "paragraph": 0,
+  "fre_before": 50.2,
+  "fre_after": 64.4,
+  "fk_after": 7.8,
+  "words": 244,
+  "passed": true
+ },
+ {
+  "movement": "aquileian-christianity",
+  "field": "why",
+  "paragraph": 0,
+  "fre_before": 40.8,
+  "fre_after": 61.8,
+  "fk_after": 9,
+  "words": 106,
+  "passed": true
+ },
+ {
+  "movement": "aquileian-christianity",
+  "field": "legacy",
+  "paragraph": 0,
+  "fre_before": 40.8,
+  "fre_after": 61.3,
+  "fk_after": 8.4,
+  "words": 151,
+  "passed": true
+ },
+ {
+  "movement": "aquileian-christianity",
+  "field": "voices",
+  "paragraph": 4,
+  "fre_before": 52.6,
+  "fre_after": 64.7,
+  "fk_after": 9.5,
+  "words": 23,
+  "passed": true
+ },
+ {
+  "movement": "gallic-nicene-episcopate",
+  "field": "relationsSummary",
+  "paragraph": 0,
+  "fre_before": 32.6,
+  "fre_after": 60.2,
+  "fk_after": 8.1,
+  "words": 51,
+  "passed": true
+ },
+ {
+  "movement": "gallic-nicene-episcopate",
+  "field": "legacy",
+  "paragraph": 0,
+  "fre_before": 32.6,
+  "fre_after": 64.7,
+  "fk_after": 7.4,
+  "words": 116,
+  "passed": true
+ },
+ {
+  "movement": "gallic-monastic-ascetic-christianity",
+  "field": "relationsSummary",
+  "paragraph": 0,
+  "fre_before": 21.9,
+  "fre_after": 67.6,
+  "fk_after": 8.2,
+  "words": 52,
+  "passed": true
+ },
+ {
+  "movement": "gallic-monastic-ascetic-christianity",
+  "field": "legacy",
+  "paragraph": 0,
+  "fre_before": 33.5,
+  "fre_after": 60.4,
+  "fk_after": 8.1,
+  "words": 133,
+  "passed": true
+ },
+ {
+  "movement": "priscillianist-asceticism",
+  "field": "longDescription",
+  "paragraph": 0,
+  "fre_before": 36.7,
+  "fre_after": 60.2,
+  "fk_after": 8.2,
+  "words": 203,
+  "passed": true
+ },
+ {
+  "movement": "priscillianist-asceticism",
+  "field": "why",
+  "paragraph": 0,
+  "fre_before": 24.1,
+  "fre_after": 61.8,
+  "fk_after": 7.8,
+  "words": 127,
+  "passed": true
+ },
+ {
+  "movement": "pelagianism",
+  "field": "longDescription",
+  "paragraph": 0,
+  "fre_before": 42.9,
+  "fre_after": 62,
+  "fk_after": 8.3,
+  "words": 163,
+  "passed": true
+ },
+ {
+  "movement": "pelagianism",
+  "field": "legacy",
+  "paragraph": 0,
+  "fre_before": 41.8,
+  "fre_after": 60.8,
+  "fk_after": 8.6,
+  "words": 153,
+  "passed": true
+ },
+ {
+  "movement": "homoian-arian-christianity",
+  "field": "longDescription",
+  "paragraph": 0,
+  "fre_before": 35.3,
+  "fre_after": 66.7,
+  "fk_after": 7.8,
+  "words": 254,
+  "passed": true
+ },
+ {
+  "movement": "homoian-arian-christianity",
+  "field": "why",
+  "paragraph": 0,
+  "fre_before": 34.7,
+  "fre_after": 62.7,
+  "fk_after": 8.6,
+  "words": 133,
+  "passed": true
+ },
+ {
+  "movement": "homoian-arian-christianity",
+  "field": "legacy",
+  "paragraph": 0,
+  "fre_before": 44.2,
+  "fre_after": 62.3,
+  "fk_after": 7.4,
+  "words": 150,
+  "passed": true
+ },
+ {
+  "movement": "anomoean-eunomian-christianity",
+  "field": "relationsSummary",
+  "paragraph": 0,
+  "fre_before": 35.4,
+  "fre_after": 61.9,
+  "fk_after": 7.2,
+  "words": 64,
+  "passed": true
+ },
+ {
+  "movement": "anomoean-eunomian-christianity",
+  "field": "longDescription",
+  "paragraph": 0,
+  "fre_before": 45.4,
+  "fre_after": 60.9,
+  "fk_after": 8.3,
+  "words": 219,
+  "passed": true
+ },
+ {
+  "movement": "pneumatomachian-current",
+  "field": "longDescription",
+  "paragraph": 0,
+  "fre_before": 42.7,
+  "fre_after": 61.5,
+  "fk_after": 8,
+  "words": 175,
+  "passed": true
+ },
+ {
+  "movement": "pneumatomachian-current",
+  "field": "legacy",
+  "paragraph": 0,
+  "fre_before": 43.2,
+  "fre_after": 67.3,
+  "fk_after": 8.6,
+  "words": 59,
+  "passed": true
+ },
+ {
+  "movement": "apollinarian-christianity",
+  "field": "relationsSummary",
+  "paragraph": 0,
+  "fre_before": 39.5,
+  "fre_after": 61.3,
+  "fk_after": 8.8,
+  "words": 50,
+  "passed": true
+ },
+ {
+  "movement": "apollinarian-christianity",
+  "field": "longDescription",
+  "paragraph": 0,
+  "fre_before": 54.8,
+  "fre_after": 63.6,
+  "fk_after": 8.7,
+  "words": 174,
+  "passed": true
+ },
+ {
+  "movement": "apollinarian-christianity",
+  "field": "why",
+  "paragraph": 0,
+  "fre_before": 37.8,
+  "fre_after": 61.4,
+  "fk_after": 8.7,
+  "words": 113,
+  "passed": true
+ },
+ {
+  "movement": "apollinarian-christianity",
+  "field": "legacy",
+  "paragraph": 0,
+  "fre_before": 40.3,
+  "fre_after": 61,
+  "fk_after": 7.9,
+  "words": 76,
+  "passed": true
+ }
+]

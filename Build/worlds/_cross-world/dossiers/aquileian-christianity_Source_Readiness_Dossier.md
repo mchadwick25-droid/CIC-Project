@@ -7,7 +7,7 @@ See `Build/worlds/_cross-world/SOURCE-READINESS.md` for what this is.
 **Time window:** c. 340–410
 **Region(s):** Aquileia and Concordia, head of the Adriatic
 **Dossier author / date:** source-research thread, 2026-09-15
-**Corpus-map / `cic/texts/` state as of:** PR #178 (merged 2026-09-13)
+**Corpus-map / `cic/texts/` state as of:** PR #178 (merged September 2026)
 
 ## 1. Already assigned
 

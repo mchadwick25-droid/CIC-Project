@@ -15,7 +15,7 @@ confidence:
   divergence_note: null
 sources:
 - source_id: cappadocian.source.basil-chorepiscopoi-letters
-  locus: "Letter LIII (Ep. 53), To the Chorepiscopi (npnf208_basil-letters-select-works.xml)"
+  locus: "Letter LIII (Ep. 53), To the Chorepiscopi (cic/texts/npnf208_basil-letters-select-works.xml, lines 27548-27555)"
   license: public-domain
 text: >-
   It is a lighter sin to wish in ignorance to buy, than it is to sell,
@@ -49,12 +49,11 @@ relations:
 - type: associated-with
   target: cappadocian.dw.authority-and-spread
 modern_rendering: >-
-  It is a lesser sin to try, out of ignorance, to buy God's gift than it
-  is to sell it. What happened here was a sale - and if you sell what
-  you were given for free, you will lose it, as though you yourself had
-  been sold to Satan. You are dragging the huckster's trade into sacred
-  things, into the Church itself, where we are entrusted with the body
-  and blood of Christ. This cannot be allowed to stand.
+  It is a lighter sin to wish, in ignorance, to buy the gift of God than to sell it.
+  What happened was a sale. If you sell what you received as a free gift, you will be
+  stripped of that gift. It will be as though you yourself were sold to Satan. You are
+  forcing the huckster's trade into spiritual things and into the Church, where we are
+  entrusted with the body and blood of Christ. These things must not be.
 use_note:
   means: "Basil, writing early in his episcopate to his village bishops, condemns taking money for ordination as selling God's free gift."
   not_for:

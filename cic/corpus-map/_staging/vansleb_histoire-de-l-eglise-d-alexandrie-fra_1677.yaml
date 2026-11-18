@@ -1,0 +1,13 @@
+source_file: vansleb_histoire-de-l-eglise-d-alexandrie-fra_1677.txt
+assignments:
+- row_id: vansleb_histoire-de-l-eglise-d-alexandrie-fra_1677--vansleb-histoire-de-l-eglise-d-alexandrie
+  work: 'Vansleb, Histoire de l''Église d''Alexandrie (1677)'
+  author: vansleb
+  locus: 'parts I-VII at OCR lines 1202-16316; the catalog of patriarchs at 14095-15435; add 12 to OCR line numbers'
+  atlas_ids:
+  - the-coptic-church-under-the-ottomans
+  role: context
+  confidence: provisional
+  language: fra
+  date: {start: 1672, end: 1677, source: "title page: 'Écrite au Caire même, en 1672 et 1673' and 'M. DC. LXXVII.'", formation_confidence: Documented}
+  note: 'A Dominican who lived in Cairo in 1672-1673 describes the Coptic church from its own Arabic books and from what he saw. A Catholic outsider''s digest; the Arabic sources are his to report.'

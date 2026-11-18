@@ -14,7 +14,7 @@ confidence:
   evidentiary_weight: load-bearing
   formation_confidence: Documented
   divergence_note: 'Doc_04 SS3.2: the practice itself is attested directly and repeatedly inside Augustine''s
-    own primary text, and argued FOR in Petilian''s own quoted words rather than merely characterised by an opponent
+    own primary text, and argued FOR in Petilian''s own quoted words rather than merely characterized by an opponent
     -- so the practice is Documented, not inferred. The qualification, carried rather than smoothed away, is that
     this corroboration comes from a Donatist voice quoted inside the hostile corpus rather than from a source
     outside it, so the specific argumentative texture remains Augustine-mediated in the same degree as the purity
@@ -68,7 +68,7 @@ senses:
     public refusal of the settlement the state was trying to impose. Its one recorded internal exception is the
     Maximianist clergy, received back without repeating either rite.
   evidential: Documented. Augustine devotes seven books of On Baptism and three of the Answer to Petilian to it,
-    and quotes Petilian arguing for it clause by clause -- a Donatist voice reasoning in its own favour, not merely
+    and quotes Petilian arguing for it clause by clause -- a Donatist voice reasoning in its own favor, not merely
     a hostile summary. Doc_04 SS3.2 rates the bare practice Documented; the qualification is that the voice reaches
     this record from inside the hostile corpus that preserved it, and that what a rebaptism actually felt like
     to undergo is nowhere recorded (Doc_05 SS2).

@@ -1,0 +1,11 @@
+source_file: usque_consolacam-as-tribulacoens-de-israel-por_mendes-dos-remedios1906.txt
+assignments:
+- row_id: usque_consolacam-as-tribulacoens-de-israel-por_mendes-dos-remedios1906--samuel-usque-consolacam-as-tribulacoens-de-israel
+  work: 'Samuel Usque, Consolacam as tribulacoens de Israel'
+  author: usque
+  locus: 'about OCR lines 692-20641; add 12 to OCR line numbers'
+  atlas_ids:
+  - the-tridentine-church
+  role: context
+  confidence: assigned
+  note: "A Jewish writer's own book in Portuguese; an outside witness. No census entry is the Jews of Europe, so the work sits on this entry."

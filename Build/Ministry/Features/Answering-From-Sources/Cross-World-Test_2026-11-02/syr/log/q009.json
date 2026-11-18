@@ -1,0 +1,191 @@
+{
+ "draft": "Much of what we tell you can be checked [[syr.dw.corpus-and-its-edges]] [[as:paraphrase]]. Our two great voices are solid: our sage's letters date themselves to the year, and our poet's hymns survive in ancient copies [[syr.dw.corpus-and-its-edges]] [[as:paraphrase]]. A short city chronicle, drawn from real archives, records that the flood destroyed a church building in Edessa [[syr.dw.corpus-and-its-edges]] [[as:paraphrase]]. That line is our oldest dated word, though we cannot be sure it stood in the first record and was not added later [[syr.dw.corpus-and-its-edges]] [[as:paraphrase]].\n\nThe story of the king who wrote to Jesus is a legend [[syr.dw.corpus-and-its-edges]] [[as:paraphrase]]. It was written down generations later to give our church an apostolic beginning, and we tell it as our legend, not as our history [[syr.dw.corpus-and-its-edges]] [[as:paraphrase]]. For the whole of our years the Gospel was one continuous woven story, the harmony of Tatian, which Aphrahat quotes and Ephrem comments on [[syr.gravity.diatessaron-normative]] [[syr.term.ewangeliyon-da-mhallete]] [[as:paraphrase]].\n\nWho led us never resolves [[syr.gravity.authority-ambiguity]] [[as:paraphrase]]. Aphrahat's rank is unknown, and Papa's primacy was contested by his own bishops [[syr.gravity.authority-ambiguity]] [[as:paraphrase]].\n\nThe record is thinnest where it always is [[syr.dw.corpus-and-its-edges]] [[as:paraphrase]]. Ordinary believers left no writings of their own [[syr.dw.corpus-and-its-edges]] [[as:paraphrase]]. The women whose singing everyone heard had not one line of their own kept, and the enslaved are missing [[syr.dw.corpus-and-its-edges]] [[as:paraphrase]]. Some of our arguments survive only from our side, and the Jewish answers to our teachers were not kept at all [[syr.dw.corpus-and-its-edges]] [[syr.term.anti-jewish-polemic]] [[as:paraphrase]].\n",
+ "ending": "clean",
+ "final": "Much of what we tell you can be checked. Our two great voices are solid: our sage's letters date themselves to the year, and our poet's hymns survive in ancient copies. A short city chronicle, drawn from real archives, records that the flood destroyed a church building in Edessa. That line is our oldest dated word, though we cannot be sure it stood in the first record and was not added later.\n\nThe story of the king who wrote to Jesus is a legend. It was written down generations later to give our church an apostolic beginning, and we tell it as our legend, not as our history. For the whole of our years the Gospel was one continuous woven story, the harmony of Tatian, which Aphrahat quotes and Ephrem comments on.\n\nWho led us never resolves. Aphrahat's rank is unknown, and Papa's primacy was contested by his own bishops.\n\nThe record is thinnest where it always is. Ordinary believers left no writings of their own. The women whose singing everyone heard had not one line of their own kept, and the enslaved are missing. Some of our arguments survive only from our side, and the Jewish answers to our teachers were not kept at all.",
+ "group": "A",
+ "offered": [
+  "syr.dw.corpus-and-its-edges",
+  "syr.term.raza-shrara",
+  "syr.term.anti-jewish-polemic",
+  "syr.term.ewangeliyon-da-mhallete",
+  "syr.story.basil-legend",
+  "syr.quote.pearl-mysteries",
+  "syr.quote.tatian-barbaric-writings",
+  "syr.gravity.diatessaron-normative",
+  "syr.gravity.raza-shrara-method",
+  "syr.quote.a-pearl-upon-the-palm",
+  "syr.gravity.authority-ambiguity",
+  "syr.force.qyama-commitment"
+ ],
+ "placements": [],
+ "question": "If a modern scholar examined your claims, how much would survive rigorous scrutiny?",
+ "question_id": "q009",
+ "read": {
+  "dropped": [],
+  "status": "clean",
+  "unsupported": {}
+ },
+ "rewrite": null,
+ "sentences": [
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 0,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Much of what we tell you can be checked.",
+   "tags": [
+    "syr.dw.corpus-and-its-edges"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 1,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Our two great voices are solid: our sage's letters date themselves to the year, and our poet's hymns survive in ancient copies.",
+   "tags": [
+    "syr.dw.corpus-and-its-edges"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 2,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "A short city chronicle, drawn from real archives, records that the flood destroyed a church building in Edessa.",
+   "tags": [
+    "syr.dw.corpus-and-its-edges"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 3,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "That line is our oldest dated word, though we cannot be sure it stood in the first record and was not added later.",
+   "tags": [
+    "syr.dw.corpus-and-its-edges"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 4,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "The story of the king who wrote to Jesus is a legend.",
+   "tags": [
+    "syr.dw.corpus-and-its-edges"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 5,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "It was written down generations later to give our church an apostolic beginning, and we tell it as our legend, not as our history.",
+   "tags": [
+    "syr.dw.corpus-and-its-edges"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 6,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "For the whole of our years the Gospel was one continuous woven story, the harmony of Tatian, which Aphrahat quotes and Ephrem comments on.",
+   "tags": [
+    "syr.gravity.diatessaron-normative",
+    "syr.term.ewangeliyon-da-mhallete"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 7,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Who led us never resolves.",
+   "tags": [
+    "syr.gravity.authority-ambiguity"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 8,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Aphrahat's rank is unknown, and Papa's primacy was contested by his own bishops.",
+   "tags": [
+    "syr.gravity.authority-ambiguity"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 9,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "The record is thinnest where it always is.",
+   "tags": [
+    "syr.dw.corpus-and-its-edges"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 10,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Ordinary believers left no writings of their own.",
+   "tags": [
+    "syr.dw.corpus-and-its-edges"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 11,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "The women whose singing everyone heard had not one line of their own kept, and the enslaved are missing.",
+   "tags": [
+    "syr.dw.corpus-and-its-edges"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 12,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Some of our arguments survive only from our side, and the Jewish answers to our teachers were not kept at all.",
+   "tags": [
+    "syr.dw.corpus-and-its-edges",
+    "syr.term.anti-jewish-polemic"
+   ]
+  }
+ ],
+ "shipped_by_net": "Much of what we tell you can be checked. Our two great voices are solid: our sage's letters date themselves to the year, and our poet's hymns survive in ancient copies. A short city chronicle, drawn from real archives, records that the flood destroyed a church building in Edessa. That line is our oldest dated word, though we cannot be sure it stood in the first record and was not added later.\n\nThe story of the king who wrote to Jesus is a legend. It was written down generations later to give our church an apostolic beginning, and we tell it as our legend, not as our history. For the whole of our years the Gospel was one continuous woven story, the harmony of Tatian, which Aphrahat quotes and Ephrem comments on.\n\nWho led us never resolves. Aphrahat's rank is unknown, and Papa's primacy was contested by his own bishops.\n\nThe record is thinnest where it always is. Ordinary believers left no writings of their own. The women whose singing everyone heard had not one line of their own kept, and the enslaved are missing. Some of our arguments survive only from our side, and the Jewish answers to our teachers were not kept at all.",
+ "sub_question": "C16.S2"
+}

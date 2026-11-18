@@ -18,6 +18,7 @@ work: "The Jerome-related letters in Augustine's own collection: Epistulae 28, 3
 edition: "trans. J.G. Cunningham, Nicene and Post-Nicene Fathers 1st ser. vol. 1, vendored as cic/texts/npnf101_augustine-confessions-letters.xml, div ids vii.1.XXVIII et seq."
 citation: Augustine of Hippo, Letters (the Jerome-related letters in Augustine's collection), trans. J.G. Cunningham, Nicene and Post-Nicene Fathers, 1st series, vol. 1
 kind: vendored
+shelf_row: npnf101_augustine-confessions-letters--letters-of-st-augustin-the-augustine-jerome-correspondence
 rights_status: public-domain
 attribution_status: attributed
 discovery_channel: "prior HAL build Doc_02 named the correspondence; the Augustine-side volume was vendored 2026-08-15 (its own registry entry confirms Letter LXXV's presence); letter list verified on this branch by direct enumeration of the volume's Jerome-titled letter divisions"

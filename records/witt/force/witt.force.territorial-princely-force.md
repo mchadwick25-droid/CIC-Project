@@ -73,7 +73,7 @@ description: >-
   to suffer distress and hunger a plenty" (LC 92-97). The same petition also speaks of money, naming "how
   much trouble there is now in the world only on account of bad coin... and daily oppression and raising
   of prices" (LC 3535-3541). Seen from inside this world, this was no market at work. It was a sin against
-  the neighbour's bread.
+  the neighbor's bread.
 
   After 1522 this force reset the teaching on promise and sign, the sacraments, through the founder's
   own appeal to "the aid of the authorities." Between 1520 and 1529 it changed who the household catechism

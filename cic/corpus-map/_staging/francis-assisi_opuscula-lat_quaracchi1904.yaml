@@ -1,0 +1,15 @@
+source_file: francis-assisi_opuscula-lat_quaracchi1904.txt
+
+assignments:
+  - row_id: francis-assisi_opuscula-lat_quaracchi1904--opuscula
+    work: "Francis of Assisi, Opuscula, Latin (Quaracchi 1904)"
+    author: francis-assisi
+    locus: "the Admonitiones from OCR line 495 to the Officium Passionis; the Testamentum from 2826; add 12 for this file's own line numbers"
+    atlas_ids:
+      - the-franciscan-movement
+    role: tradition
+    confidence: assigned
+    note: >
+      Primary original-language voice of the founder: the Latin critical text of his Rules,
+      Testament, letters and praises edited by the Quaracchi Fathers. The Italian Canticle is not
+      printed here. Readable Latin; quote after checking the page image.

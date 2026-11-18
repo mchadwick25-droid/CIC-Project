@@ -1,0 +1,11 @@
+source_file: sahagun_historia-de-la-conquista-de-mexico-libro-12-spa_bustamante1829.txt
+assignments:
+- row_id: sahagun_historia-de-la-conquista-de-mexico-libro-12-spa_bustamante1829--sahagun-historia-de-la-conquista-de-mexico-book-xii-of-the-historia-general-bustamante
+  work: 'Sahagun, Historia de la conquista de Mexico (Book XII of the Historia general; Bustamante)'
+  author: sahagun
+  locus: 'about OCR lines 356-2796; add 12 to OCR line numbers'
+  atlas_ids:
+  - new-spain-and-andes-mission-born-christianity
+  role: tradition
+  confidence: provisional
+  note: 'The friar''s Spanish text of the conquest book; the Nahuatl is not in this edition.'

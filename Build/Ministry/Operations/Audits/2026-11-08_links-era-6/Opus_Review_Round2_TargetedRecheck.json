@@ -1,0 +1,52 @@
+{
+  "round": 2,
+  "kind": "targeted recheck",
+  "verdict": "revise",
+  "counts": {
+    "blocking": 0,
+    "substantial": 0,
+    "minor": 4
+  },
+  "fabrication_found": false,
+  "findings": [
+    {
+      "id": "R2-01",
+      "severity": "minor",
+      "target": "devotio-moderna-brethren-of-the-common-life.longDescription (prose change 3, R1-25)",
+      "problem": "The readability rewrite turned 'the habit of keeping a rapiarium' into 'Each of them kept a rapiarium'. That makes a habit of the movement into a claim about every member, which the old text did not make.",
+      "evidence": "Revision_Round1.json prose_changes n=3, old: 'a plain, interior, methodical devotion, and the habit of keeping a rapiarium'.",
+      "proposed_fix": "Replace 'Each of them kept a rapiarium, a personal notebook of gathered passages to return to.' with 'They had the habit of keeping a rapiarium, a personal notebook of gathered passages to return to.' (Whole field Reading Ease 62.8, FK 8.1.)"
+    },
+    {
+      "id": "R2-02",
+      "severity": "minor",
+      "target": "waldensians-in-the-alps.why (prose change 34, R1-25)",
+      "problem": "'They knew the Bible by heart' says the barbes had the whole Bible memorized. The old text said only that they 'memorized scripture', and the longDescription of the same rewrite says 'long parts of the Bible'.",
+      "evidence": "Revision_Round1.json prose_changes n=34 old: 'memorized scripture in the vernacular'; n=33 new: 'They knew long parts of the Bible by heart in their own tongue.'",
+      "proposed_fix": "Replace 'They knew the Bible by heart in their own tongue.' with 'They knew long parts of the Bible by heart in their own tongue.' (Whole field Reading Ease 67.5, FK 6.8.)"
+    },
+    {
+      "id": "R2-03",
+      "severity": "minor",
+      "target": "armenian-cilicia-after-the-kingdom.legacy (prose change 46, R1-13)",
+      "problem": "'day-by-day records' overstates the old 'running record'. Colophons note events book by book, not day by day.",
+      "evidence": "Revision_Round1.json prose_changes n=46 old: 'one of the most detailed running records of ordinary catastrophe and survival'.",
+      "proposed_fix": "Replace 'So historians have one of the most detailed day-by-day records of ordinary disaster and survival anywhere in the medieval world.' with 'So historians have a running record of ordinary disaster and survival as full as any in the medieval world.' (Whole field Reading Ease 61.5, FK 8.3. A plain swap of 'running' for 'day-by-day' scores 59.3.)"
+    },
+    {
+      "id": "R2-04",
+      "severity": "minor",
+      "target": "lollardy.why (prose change 9, R1-25)",
+      "problem": "'the trial records made to convict them' has no plural antecedent. The sentence before is about 'the movement', so the reader has to guess who 'them' is.",
+      "evidence": "lollardy.why: 'After a failed rising in 1414, the movement was driven underground. Yet the trial records made to convict them ended up keeping...'",
+      "proposed_fix": "Replace 'the trial records made to convict them' with 'the trial records made to convict Lollards'. (Whole field Reading Ease 61.0, FK 8.0.)"
+    }
+  ],
+  "two_way_gaps": [
+    "Round-1 gap 2 (inquisition relationsSummary '-') is closed. The field now names both links (Taborites 1421; the 1367 questioning).",
+    "Round-1 gaps 1, 3 and 4 are era-7/8 fields and rightly held for that pass. They are listed in for_mark.",
+    "No new gap. The revision added no link and removed none. Every relationship clause in the 54 rewritten fields is one the round-1 dispositions already carried."
+  ],
+  "quotes_rechecked": 61,
+  "notes": "Scope: the 25 round-1 findings, the 14 rewritten links and the 54 prose changes only. (1) Fixes. R1-01 to R1-24 are all applied. The census matches the revision record field for field for all 14 links and all 54 prose changes. No other edge or movement field changed. These departures from the proposed fixes are sound. R1-02 keeps the file's OCR 'Poman'. R1-04's Wattenbach lines are 5719-5723, which checks out. R1-12 narrows to the one man the 1367 record shows. R1-14 has 'Where the rest went is not clear.', which is better than the review's own narrated wording. R1-16 also drops 1341 from the note, since no source on the link dates the tome. R1-17 keeps 'at the grand prince's call' (Mouravieff 3952, 'Basil convoked'), and the year 1448 is at line 631 of the same file. R1-18 adds Major's title page (201-202) for 1517. Herberstein's 'Emperor Maximilian's ambassador' (9806-9807) fixes the visit as the first embassy. R1-21's footnote is at line 23484, which is correct. R1-25 went past the proposed 'log only' and rewrote every listed field. I read all of them, old against new. Apart from R2-01 to R2-04, no fact is added or dropped and the voice is kept. The only additions are glosses (transubstantiation, lavra). All 54 changed fields score Reading Ease 60 or above and FK 10 or below, and no sentence runs past 25 words. (2) Links. All 61 file-backed quotes on the 14 rewritten links match their cited lines verbatim, the 4 new ones included (Evans 1825-1826, Wattenbach 5719-5723, Bannwart 23484, Major 201-202). The regrades of R1-01 (Inferential-Thin) and R1-02 (Widely Accepted) and the removal of the R1-03 outcome follow the rules. The R1-15, R1-16, R1-17 and R1-19 outcomes are each under 30 words, and each fact in them is on the link. After R1-20, each of the five links still has a primary text quote. (3) R1-05. The four restored facts match the pre-pass wording, recast only for reading level ('harried' became 'persecuted', the old why's own word). They are restored rightly. (4) Narration grep. The listed patterns gave zero hits in the notes and outcomes of the 69 links with an era-6 end, and zero in the relationsSummary, longDescription, why and legacy of the 23 era-6 movements. Outside that scope, 'entry' appears in the statusDescription of 13 era-6 movements, e.g. 'carrying an earlier entry forward; not yet reviewed'. It also appears in 80 of the 300 movements fleet-wide. That is a status field with a fleet-wide pattern, not this pass's text. It is not a finding here, but it should be logged in Open-Gaps as a fleet item. Two reader-inclusive uses of 'we/us' remain ('leaves us', Kempe; 'what we hear', Armenian longDescription). They are not build narration and are not findings. (5) Record, not public text. The Open-Gaps entries asked for by R1-05, R1-23 and R1-24 sit in restored_facts and for_mark, and Open-Gaps.md is unchanged. Era 5 logged its items after the review rounds, so this is pending, not a defect. It must be done before close. The R1-01 link's named_in still quotes the old St Thomas relationsSummary wording. Round 3, if run, needs only to confirm the four replacements above."
+}

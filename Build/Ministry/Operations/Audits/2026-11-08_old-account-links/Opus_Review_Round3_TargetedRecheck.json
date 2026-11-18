@@ -1,0 +1,9 @@
+{"round":3,"verdict":"pass","scope":"HEAD b605ea91 only (targeted recheck)",
+"counts":{"blocking":0,"substantial":0,"minor":0,"cleared":4},
+"findings":[],
+"cleared":[
+{"check":1,"item":"New sentence accuracy and register","result":"All six links cite only sources dated 1549-1925 (Hunter Blair 1907, Gasquet 1925; Barmby 1895, Sweet 1871; Mouravieff 1838/1842, Pinkerton 1814, Herberstein 1549/1851; Cath. Encyc. 1910, Giussano 1884; Conybeare 1921, Mouravieff notes 1842; Mouravieff 1842, Pelesz 1880). 'No modern study of it has been consulted.' is true for each, states what this note rests on rather than asserting none exists, and is a present-state limit, not process narration."},
+{"check":2,"item":"Readability and text scope","result":"score_turn on all six: FRE 65.8-72.1, FK 5.3-7.1, no failures. Census diff: 6 lines, each differing only in the replaced sentence. index.html (6 notes) and 11 tree pages (12 lines) differ only in the same sentence."},
+{"check":3,"item":"Gates","result":"check_live_commentary --base origin/main --enforce exit 0 (5 KEEP iso-date only). validate-census vs base_release19: 0 errors, 2 pre-existing shortName warnings (not in scope). build_tree_site: 0 mismatched; working tree clean after build."},
+{"check":4,"item":"Decision-Log entry","result":"Quotes Mark ('approve the full review'), uses 'approved to proceed', never 'finalized', states explicitly it is not a closure and names Phase Five boundary testing and full-system review. Build-Plan status and audit README wording consistent with it."}
+]}

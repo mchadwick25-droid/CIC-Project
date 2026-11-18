@@ -18,6 +18,7 @@ work: "The Martyrdom of Polycarp; traditional dating c. 155-156 CE, Eusebius's C
 edition: "Ante-Nicene Fathers vol. 1 (1885), Roberts-Donaldson series (the volume-level editor-translator credit; no per-work translator credit is printed at this work's own head), vendored as cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml (div1 iv, div2 iv.iv, chapters I-XXII)"
 citation: The Martyrdom of Polycarp, Ante-Nicene Fathers vol. 1 (1885), Roberts-Donaldson series
 kind: vendored
+shelf_row: anf01_apostolic-fathers-justin-irenaeus--the-martyrdom-of-polycarp
 rights_status: public-domain
 attribution_status: anonymous-community
 discovery_channel: "prior-build Source Registry row P16 (added during Doc_09's construction after its absence was caught - see Doc_02's reopened log), re-registered against the vendored corpus; work presence verified at div2 iv.iv with all 22 chapters present"

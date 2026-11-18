@@ -3,6 +3,266 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: victorian-church-of-england
 works:
+- row_id: ashwell_life-of-samuel-wilberforce-v1_1880--life-of-the-right-reverend-samuel-wilberforce-d-d-lord
+  work: Life of the Right Reverend Samuel Wilberforce, D.D., Lord Bishop of Oxford and afterwards
+    of Winchester, with
+  author: ashwell
+  locus: the whole volume; not mapped
+  role: context
+  confidence: provisional
+  language: eng
+  date:
+    start: 1880
+    end: 1880
+    source: 'the printing''s own title page: line 61, on the title page'
+    formation_confidence: Documented
+  edition_date:
+    year: 1880
+    source: line 61, on the title page
+    formation_confidence: Documented
+  note: 'Era 9 row 272, Samuel Wilberforce: a Life with his diaries and letters (vol. 1).'
+  source_file: ashwell_life-of-samuel-wilberforce-v1_1880.txt
+- row_id: colenso_pentateuch-and-book-of-joshua-pt3_1863--colenso-pentateuch-part-3-deuteronomy
+  work: 'Colenso, The Pentateuch and Book of Joshua Critically Examined, part III: Deuteronomy
+    (1863)'
+  author: colenso
+  locus: the preface at OCR lines 227-2123; chapters I-XXII at 2468-14378; add 12 to OCR line
+    numbers
+  role: tradition
+  confidence: provisional
+  language: eng
+  date:
+    start: 1863
+    end: 1863
+    source: 'title page: 1863; the preface is signed 3 June 1863 (OCR line 2123)'
+    formation_confidence: Documented
+  note: The Bishop of Natal's own argument on the date and authorship of Deuteronomy, with
+    a long preface answering his critics.
+  source_file: colenso_pentateuch-and-book-of-joshua-pt3_1863.txt
+- row_id: colenso_ten-weeks-in-natal_1855--ten-weeks-in-natal-a-journal-of-a-first-tour-of-visitation
+  work: 'Ten Weeks in Natal: a journal of a first tour of visitation among the colonists and
+    Zulu Kafirs of Natal'
+  author: colenso
+  locus: the journal at lines 1044-10883; extracts from letters of Mrs. Woodrow and others
+    at lines 10918-11391; the rest not mapped
+  role: tradition
+  confidence: provisional
+  language: eng
+  date:
+    start: 1855
+    end: 1855
+    source: 'the printing''s own title page: line 83, on the title page'
+    formation_confidence: Documented
+  edition_date:
+    year: 1855
+    source: line 83, on the title page
+    formation_confidence: Documented
+  note: 'Era 9 row 274, John William Colenso: Ten Weeks in Natal.'
+  source_file: colenso_ten-weeks-in-natal_1855.txt
+- row_id: colenso_pentateuch-and-book-of-joshua-pt1_1862--the-pentateuch-and-book-of-joshua-critically-examined-the
+  work: The Pentateuch and Book of Joshua Critically Examined (the title page prints no part
+    number; the text is
+  author: colenso
+  locus: the whole volume; not mapped
+  role: tradition
+  confidence: provisional
+  language: eng
+  date:
+    start: 1862
+    end: 1862
+    source: 'the printing''s own title page: line 111, on the title page'
+    formation_confidence: Documented
+  edition_date:
+    year: 1862
+    source: line 111, on the title page
+    formation_confidence: Documented
+  note: 'Era 9 row 274, John William Colenso: The Pentateuch and Book of Joshua, part I.'
+  source_file: colenso_pentateuch-and-book-of-joshua-pt1_1862.txt
+- row_id: cox-george-w_life-of-john-william-colenso-v1_1888--cox-life-of-colenso-v1
+  work: Cox, The Life of John William Colenso, vol. I (1888)
+  author: cox-george-w
+  locus: chapters I-XII at OCR lines 715-30173; add 12 to OCR line numbers
+  role: context
+  confidence: provisional
+  language: eng
+  date:
+    start: 1888
+    end: 1888
+    source: 'title page: 1888 (page image); preface dated 10 December 1887'
+    formation_confidence: Documented
+  note: A friend's Life, written to defend the bishop, with many of his letters. The letters
+    are first-hand; the argument is Cox's.
+  source_file: cox-george-w_life-of-john-william-colenso-v1_1888.txt
+- row_id: hodder_life-and-work-of-seventh-earl-of-shaftesbury-v2_1887--hodder-shaftesbury-v2
+  work: Hodder, The Life and Work of the Seventh Earl of Shaftesbury, vol. II (1887)
+  author: hodder
+  locus: the chapters at OCR lines 370-22165; add 12 to OCR line numbers
+  role: context
+  confidence: provisional
+  language: eng
+  date:
+    start: 1887
+    end: 1887
+    source: 'title page: 1887'
+    formation_confidence: Documented
+  note: A Life built on Shaftesbury's diaries, which are quoted at length. The diary entries
+    are first-hand; the frame is Hodder's.
+  source_file: hodder_life-and-work-of-seventh-earl-of-shaftesbury-v2_1887.txt
+- row_id: hodder_life-and-work-of-seventh-earl-of-shaftesbury-v3_1886--hodder-shaftesbury-v3
+  work: Hodder, The Life and Work of the Seventh Earl of Shaftesbury, vol. III (1886)
+  author: hodder
+  locus: the chapters at OCR lines 486-23864; add 12 to OCR line numbers
+  role: context
+  confidence: provisional
+  language: eng
+  date:
+    start: 1886
+    end: 1886
+    source: 'title page: 1886'
+    formation_confidence: Documented
+  note: A Life built on Shaftesbury's diaries, which are quoted at length. The diary entries
+    are first-hand; the frame is Hodder's.
+  source_file: hodder_life-and-work-of-seventh-earl-of-shaftesbury-v3_1886.txt
+- row_id: hodder_life-and-work-of-seventh-earl-of-shaftesbury-v1_1887--the-life-and-work-of-the-seventh-earl-of-shaftesbury-k-g-vol
+  work: The Life and Work of the Seventh Earl of Shaftesbury, K.G.; vol. I
+  author: hodder
+  locus: the whole volume; not mapped
+  role: context
+  confidence: provisional
+  language: eng
+  date:
+    start: 1887
+    end: 1887
+    source: 'the printing''s own title page: line 91, on the title page'
+    formation_confidence: Documented
+  edition_date:
+    year: 1887
+    source: line 91, on the title page
+    formation_confidence: Documented
+  note: 'Era 9 row 271, Lord Shaftesbury: a Life told by another (vol. 1).'
+  source_file: hodder_life-and-work-of-seventh-earl-of-shaftesbury-v1_1887.txt
+- row_id: lambeth-conferences_1867-1878-1888_davidson1889--the-lambeth-conferences-of-1867-1878-and-1888-with-the
+  work: The Lambeth Conferences of 1867, 1878, and 1888; with the official reports and resolutions,
+    together with the
+  author: lambeth-conferences
+  locus: the editor's narrative of the first conference, 1867, at lines 739-1364; the Archbishop
+    of Canterbury's opening address of September 24, 1867, at lines 4106-4363; the 'Address
+    to the Faithful' of the 1867 conference with its signatures at lines 4629-4886; the rest
+    not mapped
+  role: tradition
+  confidence: provisional
+  language: eng
+  date:
+    start: 1867
+    end: 1889
+    source: the title, which names the conferences of 1867, 1878 and 1888, and the title page's
+      imprint year (line 482)
+    formation_confidence: Documented
+  edition_date:
+    year: 1889
+    source: line 482, on the title page
+    formation_confidence: Documented
+  note: 'Era 9 row 275, Charles Longley: the documents of the Lambeth Conference of 1867.'
+  source_file: lambeth-conferences_1867-1878-1888_davidson1889.txt
+- row_id: marsden_life-and-work-of-samuel-marsden_jb-marsden1913--j-b-marsden-life-and-work-of-samuel-marsden-1913-with-marsden-s-letter
+  work: J. B. Marsden, Life and Work of Samuel Marsden (1913), with Marsden's letters
+  author: marsden
+  locus: Marsden's letters and journals dated from 1815 on, as printed through the book (the
+    first is his letter from Parramatta of 5 June 1815 at about OCR line 3125); add 11 to
+    OCR line numbers for this file's own
+  role: tradition
+  confidence: provisional
+  note: Marsden's own letters and journals, as chaplain of New South Wales and founder of
+    the New Zealand mission in 1814, inside a biography. His words are his own; the frame
+    is the biographer's. This row carries the letters written from 1815 to 1837, which fall
+    inside this entry's window. The earlier letters sit on the Georgian Church of England's
+    shelf.
+  source_file: marsden_life-and-work-of-samuel-marsden_jb-marsden1913.txt
+- row_id: maurice_theological-essays_2nd-ed1853--theological-essays-with-a-new-preface-and-other-additions
+  work: Theological Essays; with a new preface, and other additions (second edition)
+  author: maurice
+  locus: the whole volume; not mapped
+  role: tradition
+  confidence: provisional
+  language: eng
+  date:
+    start: 1853
+    end: 1853
+    source: 'the printing''s own title page: line 71, on the title page'
+    formation_confidence: Documented
+  edition_date:
+    year: 1853
+    source: line 71, on the title page
+    formation_confidence: Documented
+  note: 'Era 9 row 273, Frederick Denison Maurice: Theological Essays.'
+  source_file: maurice_theological-essays_2nd-ed1853.txt
+- row_id: maurice-f_life-of-frederick-denison-maurice-v2_1884--maurice-f-life-of-f-d-maurice-v2
+  work: F. Maurice, The Life of Frederick Denison Maurice, chiefly told in his own letters,
+    vol. II (1884)
+  author: maurice-f
+  locus: chapters I-XXII at OCR lines 459-28577; add 12 to OCR line numbers
+  role: context
+  confidence: provisional
+  language: eng
+  date:
+    start: 1884
+    end: 1884
+    source: 'title page: 1884'
+    formation_confidence: Documented
+  note: His son's Life, made chiefly of Maurice's own letters. The letters are first-hand;
+    the selection and the links are the son's.
+  source_file: maurice-f_life-of-frederick-denison-maurice-v2_1884.txt
+- row_id: maurice-f_life-of-frederick-denison-maurice-v1_1884--the-life-of-frederick-denison-maurice-chiefly-told-in-his
+  work: The Life of Frederick Denison Maurice, chiefly told in his own letters; edited by
+    his son Frederick Maurice;
+  author: maurice-f
+  locus: the whole volume; not mapped
+  role: context
+  confidence: provisional
+  language: eng
+  date:
+    start: 1884
+    end: 1884
+    source: 'the printing''s own title page: line 199, on the title page'
+    formation_confidence: Documented
+  edition_date:
+    year: 1884
+    source: line 199, on the title page
+    formation_confidence: Documented
+  note: 'Era 9 row 273, Frederick Denison Maurice: a Life told in his letters (vol. 1).'
+  source_file: maurice-f_life-of-frederick-denison-maurice-v1_1884.txt
+- row_id: pascoe_two-hundred-years-of-the-spg-v2_1901--pascoe-spg-v2-asia-and-europe
+  work: 'Pascoe, Two Hundred Years of the S.P.G., vol. II: the Asian and European fields'
+  author: pascoe
+  locus: chapters LXXVI-XCIII at OCR lines 97-22501; add 12 to OCR line numbers
+  role: context
+  confidence: provisional
+  language: eng
+  date:
+    start: 1901
+    end: 1901
+    source: 'title page: 1901'
+    formation_confidence: Documented
+  note: The Society's own digest of its records, field by field. Nearly all of it is the nineteenth
+    century; the opening of the Madras chapter looks back to Tranquebar and Schwartz. A summary
+    written in 1901 by the Society's assistant secretary.
+  source_file: pascoe_two-hundred-years-of-the-spg-v2_1901.txt
+- row_id: pascoe_two-hundred-years-of-the-spg-v2_1901--pascoe-spg-v2-home-work-and-roll
+  work: 'Pascoe, Two Hundred Years of the S.P.G., vol. II: the episcopate, education, translations,
+    funds and the roll of missionaries'
+  author: pascoe
+  locus: OCR lines 22505-61667; add 12 to OCR line numbers
+  role: context
+  confidence: provisional
+  language: eng
+  date:
+    start: 1901
+    end: 1901
+    source: 'title page: 1901'
+    formation_confidence: Documented
+  note: Reference chapters and the roll of every missionary from 1701 to 1900, with places
+    and years. Useful for checking a name or a date.
+  source_file: pascoe_two-hundred-years-of-the-spg-v2_1901.txt
 - row_id: wilberforce_practical-view-of-the-prevailing-religious-system_dublin1797--a-practical-view-of-the-prevailing-religious-system-of-2
   work: A Practical View of the Prevailing Religious System of Professed Christians (1797)
   author: wilberforce
@@ -11,3 +271,33 @@ works:
   confidence: provisional
   note: The Clapham evangelicalism the Victorian church inherited; provisional.
   source_file: wilberforce_practical-view-of-the-prevailing-religious-system_dublin1797.txt
+- row_id: wilberforce-reginald_life-of-samuel-wilberforce-v2_1881--wilberforce-reginald-life-of-samuel-wilberforce-v2
+  work: R. G. Wilberforce, Life of Samuel Wilberforce, vol. II (1881)
+  author: wilberforce-reginald
+  locus: the chapters at OCR lines 695-20706; add 12 to OCR line numbers
+  role: context
+  confidence: provisional
+  language: eng
+  date:
+    start: 1881
+    end: 1881
+    source: 'title page: 1881'
+    formation_confidence: Documented
+  note: The bishop's son continues the Life from his father's diaries and letters. The diary
+    and letters are first-hand; the choice and the narrative are the son's.
+  source_file: wilberforce-reginald_life-of-samuel-wilberforce-v2_1881.txt
+- row_id: wilberforce-reginald_life-of-samuel-wilberforce-v3_1882--wilberforce-reginald-life-of-samuel-wilberforce-v3
+  work: R. G. Wilberforce, Life of Samuel Wilberforce, vol. III (1882)
+  author: wilberforce-reginald
+  locus: the chapters at OCR lines 701-20925; add 12 to OCR line numbers
+  role: context
+  confidence: provisional
+  language: eng
+  date:
+    start: 1882
+    end: 1882
+    source: 'title page: 1882'
+    formation_confidence: Documented
+  note: The bishop's son continues the Life from his father's diaries and letters. The diary
+    and letters are first-hand; the choice and the narrative are the son's.
+  source_file: wilberforce-reginald_life-of-samuel-wilberforce-v3_1882.txt

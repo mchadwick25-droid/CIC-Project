@@ -12,6 +12,11 @@ assignments:
       - the-reformed-cities-zurich-and-geneva
     role: tradition
     confidence: assigned
+    locus_ids: [whole-file]
+    language: eng
+    date: {end: 1525, formation_confidence: Widely Accepted, source: 'zwingli_latin-works-correspondence-vol3_heller1929.txt line 386: from beginning the task before the latter part of the year 1524.; zwingli_latin-works-correspondence-vol3_heller1929.txt line 404: The book came from the press at the end of March, 1525.', start: 1524}
+    translator: {formation_confidence: Documented, name: Henry Preble (True and False Religion); George William Gilmore (Reply to Emser); revised and annotated by Clarence Nevin Heller (editor), source: 'zwingli_latin-works-correspondence-vol3_heller1929.txt line 144: Religion was translated by Henry Preble, Esq., of New York,'}
+    edition_date: {formation_confidence: Documented, source: 'zwingli_latin-works-correspondence-vol3_heller1929.txt line 89: Copyright, 1929', year: 1929}
     note: >
       A third, independent volume of Zwingli's own voice alongside the
       Selected Works (Jackson 1901) and the Latin Works Vol. I (Jackson

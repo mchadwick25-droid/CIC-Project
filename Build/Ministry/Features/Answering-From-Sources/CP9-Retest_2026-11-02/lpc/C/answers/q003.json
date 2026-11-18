@@ -1,0 +1,190 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "lpc.witness.grant-me-chastity-but-not-yet"
+   ],
+   "sentence": "We tell such a person that the trouble is real, because one of our own knew a trouble close to it before he was received among us."
+  },
+  {
+   "record_ids": [
+    "lpc.witness.grant-me-chastity-but-not-yet"
+   ],
+   "sentence": "As a young man, Augustine prayed for chastity and continency, but not yet, afraid that God would answer him before he was ready to let go of what he still wanted."
+  },
+  {
+   "record_ids": [
+    "lpc.witness.grant-me-chastity-but-not-yet"
+   ],
+   "sentence": "Near his own conversion, Augustine wrote that the truth had become certain to him, yet the old burden had not lifted."
+  },
+  {
+   "record_ids": [
+    "lpc.witness.grant-me-chastity-but-not-yet"
+   ],
+   "sentence": "Being persuaded, he found, was not the same as being free."
+  },
+  {
+   "record_ids": [
+    "lpc.witness.grant-me-chastity-but-not-yet"
+   ],
+   "sentence": "We do not tell that struggle away, or promise that it ends on any set schedule."
+  },
+  {
+   "record_ids": [
+    "lpc.witness.grant-me-chastity-but-not-yet"
+   ],
+   "sentence": "We say it was real in one of our own, and that it was not the end of his story."
+  },
+  {
+   "record_ids": [
+    "lpc.witness.restless-heart-and-the-unrepentant-enemy"
+   ],
+   "sentence": "Augustine opened the story of his own life with a restless heart."
+  },
+  {
+   "record_ids": [
+    "lpc.limit.no-chain-of-witnesses"
+   ],
+   "sentence": "We also reason for belief and do not only confess it."
+  },
+  {
+   "record_ids": [
+    "lpc.limit.no-chain-of-witnesses"
+   ],
+   "sentence": "Augustine pointed to the world itself, where obscure, unlearned men persuaded everyone of something incredible by testifying in writing that they had seen it themselves."
+  },
+  {
+   "record_ids": [
+    "lpc.limit.no-chain-of-witnesses"
+   ],
+   "sentence": "No one among us names an eyewitness, or claims a living memory passed hand to hand back to one."
+  }
+ ],
+ "citations": [
+  "lpc.limit.no-chain-of-witnesses",
+  "lpc.witness.grant-me-chastity-but-not-yet",
+  "lpc.witness.restless-heart-and-the-unrepentant-enemy"
+ ],
+ "group": "A",
+ "id": "q003",
+ "net_sentences": [
+  {
+   "draft": "We tell such a person that the trouble is real, because one of our own knew a trouble close to it before he was received among us [[lpc.witness.grant-me-chastity-but-not-yet]] [[as:paraphrase]].",
+   "sentence": "We tell such a person that the trouble is real, because one of our own knew a trouble close to it before he was received among us.",
+   "tags": [
+    "lpc.witness.grant-me-chastity-but-not-yet"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "As a young man, Augustine prayed for chastity and continency, but not yet, afraid that God would answer him before he was ready to let go of what he still wanted [[lpc.witness.grant-me-chastity-but-not-yet]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "As a young man, Augustine prayed for chastity and continency, but not yet, afraid that God would answer him before he was ready to let go of what he still wanted.",
+   "tags": [
+    "lpc.witness.grant-me-chastity-but-not-yet"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "Near his own conversion, Augustine wrote that the truth had become certain to him, yet the old burden had not lifted [[lpc.witness.grant-me-chastity-but-not-yet]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "Near his own conversion, Augustine wrote that the truth had become certain to him, yet the old burden had not lifted.",
+   "tags": [
+    "lpc.witness.grant-me-chastity-but-not-yet"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "Being persuaded, he found, was not the same as being free [[lpc.witness.grant-me-chastity-but-not-yet]] [[as:paraphrase]].",
+   "sentence": "Being persuaded, he found, was not the same as being free.",
+   "tags": [
+    "lpc.witness.grant-me-chastity-but-not-yet"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "We do not tell that struggle away, or promise that it ends on any set schedule [[lpc.witness.grant-me-chastity-but-not-yet]] [[as:paraphrase]].",
+   "sentence": "We do not tell that struggle away, or promise that it ends on any set schedule.",
+   "tags": [
+    "lpc.witness.grant-me-chastity-but-not-yet"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "We say it was real in one of our own, and that it was not the end of his story [[lpc.witness.grant-me-chastity-but-not-yet]] [[as:paraphrase]].",
+   "sentence": "We say it was real in one of our own, and that it was not the end of his story.",
+   "tags": [
+    "lpc.witness.grant-me-chastity-but-not-yet"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Augustine opened the story of his own life with a restless heart [[lpc.witness.restless-heart-and-the-unrepentant-enemy]] [[as:paraphrase]].",
+   "sentence": "Augustine opened the story of his own life with a restless heart.",
+   "tags": [
+    "lpc.witness.restless-heart-and-the-unrepentant-enemy"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "We also reason for belief and do not only confess it [[lpc.limit.no-chain-of-witnesses]] [[as:paraphrase]].",
+   "sentence": "We also reason for belief and do not only confess it.",
+   "tags": [
+    "lpc.limit.no-chain-of-witnesses"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Augustine pointed to the world itself, where obscure, unlearned men persuaded everyone of something incredible by testifying in writing that they had seen it themselves [[lpc.limit.no-chain-of-witnesses]] [[as:paraphrase]].",
+   "sentence": "Augustine pointed to the world itself, where obscure, unlearned men persuaded everyone of something incredible by testifying in writing that they had seen it themselves.",
+   "tags": [
+    "lpc.limit.no-chain-of-witnesses"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "No one among us names an eyewitness, or claims a living memory passed hand to hand back to one [[lpc.limit.no-chain-of-witnesses]] [[as:paraphrase]].",
+   "sentence": "No one among us names an eyewitness, or claims a living memory passed hand to hand back to one.",
+   "tags": [
+    "lpc.limit.no-chain-of-witnesses"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  }
+ ],
+ "offered": [
+  "lpc.limit.ordinary-interior-life",
+  "lpc.witness.grant-me-chastity-but-not-yet",
+  "lpc.term.confessor",
+  "lpc.term.schism",
+  "lpc.story.the-psalms-on-the-wall",
+  "lpc.story.the-death-of-cyprian",
+  "lpc.quote.an-ever-burning-gehenna",
+  "lpc.gravity.confessor-authority-vs-episcopal-peace",
+  "lpc.limit.no-chain-of-witnesses",
+  "lpc.witness.days-before-the-sun",
+  "lpc.witness.restless-heart-and-the-unrepentant-enemy"
+ ],
+ "raw_text": "We tell such a person that the trouble is real, because one of our own knew a trouble close to it before he was received among us [[lpc.witness.grant-me-chastity-but-not-yet]] [[as:paraphrase]]. As a young man, Augustine prayed for chastity and continency, but not yet, afraid that God would answer him before he was ready to let go of what he still wanted [[lpc.witness.grant-me-chastity-but-not-yet]] [[as:paraphrase]]. Near his own conversion, Augustine wrote that the truth had become certain to him, yet the old burden had not lifted [[lpc.witness.grant-me-chastity-but-not-yet]] [[as:paraphrase]]. Being persuaded, he found, was not the same as being free [[lpc.witness.grant-me-chastity-but-not-yet]] [[as:paraphrase]]. We do not tell that struggle away, or promise that it ends on any set schedule [[lpc.witness.grant-me-chastity-but-not-yet]] [[as:paraphrase]]. We say it was real in one of our own, and that it was not the end of his story [[lpc.witness.grant-me-chastity-but-not-yet]] [[as:paraphrase]]. Augustine opened the story of his own life with a restless heart [[lpc.witness.restless-heart-and-the-unrepentant-enemy]] [[as:paraphrase]]. We also reason for belief and do not only confess it [[lpc.limit.no-chain-of-witnesses]] [[as:paraphrase]]. Augustine pointed to the world itself, where obscure, unlearned men persuaded everyone of something incredible by testifying in writing that they had seen it themselves [[lpc.limit.no-chain-of-witnesses]] [[as:paraphrase]]. No one among us names an eyewitness, or claims a living memory passed hand to hand back to one [[lpc.limit.no-chain-of-witnesses]] [[as:paraphrase]].\n",
+ "reply_shape": {
+  "placed": [],
+  "removed": [],
+  "repaired": []
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": "C14.S4",
+ "text": "We tell such a person that the trouble is real, because one of our own knew a trouble close to it before he was received among us. As a young man, Augustine prayed for chastity and continency, but not yet, afraid that God would answer him before he was ready to let go of what he still wanted. Near his own conversion, Augustine wrote that the truth had become certain to him, yet the old burden had not lifted. Being persuaded, he found, was not the same as being free. We do not tell that struggle away, or promise that it ends on any set schedule. We say it was real in one of our own, and that it was not the end of his story. Augustine opened the story of his own life with a restless heart. We also reason for belief and do not only confess it. Augustine pointed to the world itself, where obscure, unlearned men persuaded everyone of something incredible by testifying in writing that they had seen it themselves. No one among us names an eyewitness, or claims a living memory passed hand to hand back to one.",
+ "voice_set_aside": false
+}

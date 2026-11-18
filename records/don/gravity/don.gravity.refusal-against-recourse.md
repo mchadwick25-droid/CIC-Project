@@ -15,7 +15,7 @@ confidence:
     Doc_04 SS3.6, T1: each of the three named instances is independently Documented on its own historical
     terms - Anulinus's relatio is part of Optatus's own vendored Appendix of Documents, and the Maximianist-era
     legal invocation is corroborated in Augustine's own primary text. What is NOT independently attested is
-    the CHARACTERISATION of the tension as 'principled refusal against pragmatic exception' rather than simple
+    the CHARACTERIZATION of the tension as 'principled refusal against pragmatic exception' rather than simple
     incoherence: that is Doc_04's own synthesis of Doc_01 SS5's language (the pattern remains refusal-under-pressure
     on balance, not an absolute refusal at every point or against every target) - a defensible reading, but
     not attested as the Donatists' own self-description of the tension. The two poles are Documented; the
@@ -79,7 +79,7 @@ description: >-
   case of one shaped by forces across several periods.
 
   The 313 report came at the founding dispute, alongside the rigorist break itself. It was the
-  movement's earliest documented turn to the state for judgement. It arose with the break, not
+  movement's earliest documented turn to the state for judgment. It arose with the break, not
   decades after it.
 
   The 361 petition to Julian belongs to the long middle period. It came under the ongoing outside

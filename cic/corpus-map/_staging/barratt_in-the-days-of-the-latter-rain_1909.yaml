@@ -1,0 +1,11 @@
+source_file: barratt_in-the-days-of-the-latter-rain_1909.txt
+assignments:
+- row_id: barratt_in-the-days-of-the-latter-rain_1909--barratt-in-the-days-of-the-latter-rain
+  work: 'Barratt, In the Days of the Latter Rain'
+  author: barratt
+  locus: 'whole'
+  atlas_ids:
+  - azusa-street-and-early-pentecostalism
+  role: tradition
+  confidence: assigned
+  note: 'His own book, printed in London in 1909.'

@@ -1,0 +1,26 @@
+{
+ "verdict": "approve",
+ "summary": "Approve. Targeted recheck of round 2 only. All 14 round 2 findings are fixed (R2-01 to R2-14). Checked against decisions_r1/r2, the two era 10 apply files and the new saved pages. R2-01: openQuestion is null on all 17 decisions. R2-02 and R2-03: Kongo and New France now match each other and the CO-3 ruling. Both are living, graded none, with no presentBody and no descent grade, and outcome is kept. R2-04: the UCC history quote is in ucc_hist.html (and f_hist.html), and its canonical URL matches the one cited. R2-05, R2-06, R2-07, R2-11, R2-13 and R2-14 are applied word for word. R2-12 is applied; the cross-reference cites subject and date. R2-08: f_mt.html's canonical URL and published_time (2025-02-12) match the corrected citation, and the quote is on the page. R2-09: the staging item is gone, and the 2013 Madhyamam report alone gives CR. R2-10: each extended quote, date stamp included, is on its saved page (mospat matches once the non-breaking spaces are normalized). The reviser's two notes are both acceptable. (1) The amp URL is the same article: its canonical tag names /en/node/8985, its datePublished is 2013-02-11, and it can be fetched and checked, which the looping en URL cannot. (2) VI.31's openQuestion offers the Wendake link as a question, says plainly that no source in hand shows it, and goes to Open-Gaps rather than into the public basis. That is the honest form for an unproven link, not a claim. The round 2 revision introduced nothing wrong. Two cosmetic record-keeping points remain. Totals: 0 substantial, 2 cosmetic, no change orders.",
+ "findings": [
+  {
+   "id": "R3-01",
+   "atlasId": "era 10: the-russian-orthodox-church-council-patriarchate-and-reunion; the-russian-new-martyrs-and-the-catacomb-church; northeast-india-and-mar-thoma-twentieth-century; mospat/cogic/hkbp items",
+   "severity": "cosmetic",
+   "problem": "The research record no longer agrees with the output. research/era10_evidence.json still carries the old Moscow Times URL (2026/08/05 path), the uatwp.marthoma.in staging item and the short quotes. research/quote_check_era10.json has no entry for the round 2 checks. The extended quotes and the new URL checks appear only in the prose of Revision_Round2.json. apply_living.mjs reads the apply file, so the public data is right. But a later re-check of 'verified' has no structured record to check against.",
+   "fix": {
+    "research/era10_evidence.json": "set the Moscow Times url to https://www.themoscowtimes.com/2025/02/12/russian-patriarch-mocks-priest-for-questioning-churchs-patriotism-a87963; remove the uatwp.marthoma.in item; replace the mospat, cogic and hkbp quotes with the extended quotes in Revision_Round2.json (R2-10)",
+    "research/quote_check_era10.json": "add entries for the round 2 checks: the Moscow Times a87963 URL, the Madhyamam amp URL, the three extended quotes and the UCC history quote, each with its saved page and fresh-fetch result"
+   }
+  },
+  {
+   "id": "R3-02",
+   "atlasId": "I.27",
+   "severity": "cosmetic",
+   "problem": "The openQuestion says the question 'is logged in Open-Gaps' under 'The Lérins entry says the abbey has stood since about 410' (2026-11-10). No Open-Gaps file holds that entry yet. The reference is true only once the Open-Gaps hand-off writes it. VI.31's openQuestion goes to the same place.",
+   "fix": {
+    "Open-Gaps hand-off": "when the openQuestions are logged, write the Lérins entry under exactly that subject and date, so the cross-reference resolves. Do this with the VI.31 New France question."
+   }
+  }
+ ],
+ "changeOrders": []
+}

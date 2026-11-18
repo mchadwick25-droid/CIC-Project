@@ -16,8 +16,7 @@ confidence:
     Documented as Leo's own words in the standard English of the NPNF Leo volume, read directly at the line cited. One editorial footnote stands inside the quoted run in the vendored file and is dropped; nothing else is altered.
 sources:
 - source_id: ijc.source.leo-letters
-  locus: >-
-    Letter XXVIII (the Tome), sec. 1 (npnf212_leo-great-gregory-great.xml, from line 5099)
+  locus: "Letter XXVIII (the Tome), sec. 1 (cic/texts/npnf212_leo-great-gregory-great.xml, lines 5140-5151)"
   license: public-domain
 text: >-
   For what learning has he acquired about the pages of the New and Old Testament, who has not even grasped the rudiments of the Creed? And that which, throughout the world, is professed by the mouth of every one who is to be born again , is not yet taken in by the heart of this old man.
@@ -28,7 +27,7 @@ modern_rendering: >-
 speaker_or_author: Leo of Rome, Letter XXVIII (the Tome), sec. 1
 license: verbatim
 modern_lens_note: >-
-  The order is the argument. Leo is not saying scripture is insufficient - a few lines later he faults Eutyches for not searching 'the length and breadth of the Holy Scriptures.' He is saying that a man who has not taken in the Creed is not equipped to read the Testaments at all, and the sequence he has in mind is baptismal rather than academic: 'every one who is to be born again' professes the confession before being baptised, so it is the first thing anyone learns and the frame every later reading happens inside. Asked whether the Bible was the only authority, this world would not have recognised the question: scripture and the confession were not two authorities to rank, they were a text and the mind you had to bring to it.
+  The order is the argument. Leo is not saying scripture is insufficient - a few lines later he faults Eutyches for not searching 'the length and breadth of the Holy Scriptures.' He is saying that a man who has not taken in the Creed is not equipped to read the Testaments at all, and the sequence he has in mind is baptismal rather than academic: 'every one who is to be born again' professes the confession before being baptized, so it is the first thing anyone learns and the frame every later reading happens inside. Asked whether the Bible was the only authority, this world would not have recognized the question: scripture and the confession were not two authorities to rank, they were a text and the mind you had to bring to it.
 retrieval:
   tier: 1
   retrieve_when:

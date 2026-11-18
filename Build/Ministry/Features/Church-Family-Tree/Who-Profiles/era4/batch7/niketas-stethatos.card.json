@@ -1,0 +1,109 @@
+{
+  "name": "Niketas Stethatos",
+  "otherNames": [
+    "Nicetas Pectoratus, the Latin form",
+    "Niketas, presbyter of Studios"
+  ],
+  "knownFor": "Monk and priest of the monastery of Studios in Constantinople, disciple of Symeon the New Theologian and writer of his Life. His three hundred chapters on the spiritual life are in the Philokalia. His book against the Latin church, which he condemned before the emperor and the pope's envoys in 1054, is held in Latin.",
+  "dates": "Eleventh century. The compilers of the Philokalia say he lived in 1030. The envoys' record dates his recantation to the feast of John the Baptist's birth in the twelfth year of Constantine Monomachos, which Cornelius Will reckons as 24 June 1054. Some copies read the eleventh year. Will puts this down to an error in dating, since many placed the embassy in 1053. No held source gives his birth or death",
+  "place": "The monastery of Studios in Constantinople; the palace of Pigi, where he went to the envoys",
+  "tradition": "The Byzantine Imperial Church (Macedonian Era); Athonite & Comnenian Byzantine Monasticism",
+  "role": "Monk and presbyter of Studios; spiritual writer; disciple and biographer of Symeon the New Theologian",
+  "briefLength": "about 2 minutes 15 seconds",
+  "keyWorks": [
+    {
+      "title": "Three centuries of chapters",
+      "about": "three hundred chapters, practical, natural and gnostic, on tears, compunction, prayer and the divine light. In the Philokalia, volume 2, in Greek"
+    },
+    {
+      "title": "Book against the Latins",
+      "about": "on unleavened bread, the Saturday fast and the marriage of priests, which he later condemned. Held in a Latin translation in Cornelius Will's edition of 1861"
+    },
+    {
+      "title": "Life of Symeon the New Theologian",
+      "about": "known through François Combefis's long summary with Greek extracts, in Patrologia Graeca 152. The Life itself is not held"
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "Gregory of Sinai, in the Philokalia, puts the works of the New Theologian and of his disciple Stethatos on a short list of writings on stillness and prayer.",
+      "Paisius Velichkovsky translated his three hundred chapters into Slavonic. A monk in a skete on Athos told him the skete held only twenty-two in Greek. Paisius says the older Slavonic had only parts of the three hundreds.",
+      "Paisius Ligarides, in the 1600s, cites his book for blaming the Latins for saying masses in Lent against the canons."
+    ],
+    "remembered": [
+      "The compilers of the Philokalia call him the truest disciple of Symeon, and say his teacher's virtues shone in him like a second sun.",
+      "Nil Sorsky quotes him on vainglory: if you find no evil deeds in yourself, think of the perfection of the commandments, and you will find yourself a small basin beside the sea.",
+      "Michel Le Quien counts him among the authors of the schism, with the patriarch Michael Cerularius."
+    ]
+  },
+  "uncertain": [
+    "The account of 1054 is the envoys' own record, which Cornelius Will judges to be by Humbert of Silva Candida. No held text of Niketas speaks of it.",
+    "Whether the book was his own idea. Will suspects that the patriarch Michael Cerularius had him write it, and that it was not from his own conviction. Combefis says he took Cerularius's side.",
+    "Whether his change of heart lasted. Michel Le Quien reasons that he wrote against the Latins on the procession of the Holy Spirit after the envoys left. A Latin writer complains that the Greeks did not strike him from the lists of names read in the liturgy. Edmond Martène, who printed that writer, dates him to about 1050 to 1100, and says Niketas strove with all his strength to defend the schism.",
+    "Presbyter or abbot. The Philokalia and his book call him presbyter and monk. The same Latin writer calls him abbot of Studios.",
+    "Who wrote the reply. Will gives it to Humbert. Wibert's Life of Leo IX, as Will reports it, says Frederick the chancellor answered him.",
+    "The reply calls him a cursed child of a hundred years, after Isaiah 65:20. The words are an insult and say nothing of his age."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "Three centuries of chapters, with the compilers' notice, in the Philokalia, volume 2",
+        "author": "Niketas Stethatos; Macarius of Corinth and Nikodemos the Hagiorite (comp.); Panagiotes Tzelatis (ed.)",
+        "date": "1893",
+        "language": "Greek",
+        "file": "cic/texts/philokalia_ton-ieron-neptikon-v2-grc_tzelatis1893.txt"
+      },
+      {
+        "title": "Book against the Latins, in Acta et scripta quae de controversiis ecclesiae Graecae et Latinae saeculo undecimo composita extant",
+        "author": "Niketas Stethatos; Cornelius Will (ed.)",
+        "date": "1861",
+        "language": "Latin translation",
+        "file": "cic/texts/will_acta-et-scripta-de-controversiis-ecclesiae-graecae-et-latinae-saec-xi-grc-lat_1861.txt"
+      },
+      {
+        "title": "Life of Symeon the New Theologian, in François Combefis's summary and extracts, Patrologia Graeca 152",
+        "author": "Niketas Stethatos; François Combefis",
+        "date": "1866",
+        "language": "Greek and Latin",
+        "file": "cic/texts/calecas_opera-omnia-pg152-grc-lat_migne1866.txt"
+      }
+    ],
+    "about": [
+      {
+        "title": "Acta et scripta: the envoys' record of 1054, Humbert's reply, and Will's introduction",
+        "author": "Humbert of Silva Candida; Cornelius Will (ed.)",
+        "date": "1861",
+        "language": "Latin",
+        "file": "cic/texts/will_acta-et-scripta-de-controversiis-ecclesiae-graecae-et-latinae-saec-xi-grc-lat_1861.txt"
+      },
+      {
+        "title": "Dissertationes Damascenicae, in Patrologia Graeca 94",
+        "author": "Michel Le Quien",
+        "date": "1860",
+        "language": "Latin",
+        "file": "cic/texts/john-damascus_opera-omnia-t1-with-vita-pg94-grc-lat_migne1860.txt"
+      },
+      {
+        "title": "Life and Writings of the Elder Paisius Velichkovsky",
+        "author": "Optina monastery (ed.)",
+        "date": "1847",
+        "language": "Church Slavonic and Russian",
+        "file": "cic/texts/paisius-velichkovsky_zhitie-i-pisaniia-chu_optina1847.txt"
+      },
+      {
+        "title": "Predanie and Ustav",
+        "author": "Nil Sorsky; M. S. Borovkova-Maikova (ed.)",
+        "date": "1912",
+        "language": "Church Slavonic",
+        "file": "cic/texts/nil-sorsky_predanie-i-ustav-chu_borovkova-maikova1912.txt"
+      },
+      {
+        "title": "The History of the Condemnation of the Patriarch Nikon (tr. William Palmer)",
+        "author": "Paisius Ligarides",
+        "date": "1873",
+        "language": "English translation",
+        "file": "cic/texts/ligarides_history-of-the-condemnation-of-patriarch-nikon_palmer1873.txt"
+      }
+    ]
+  }
+}

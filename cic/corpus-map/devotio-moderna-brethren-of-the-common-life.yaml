@@ -7,7 +7,7 @@ works:
   work: Chronicon Windeshemense und Liber de Reformatione Monasteriorum
   author: busch
   locus: whole volume
-  role: context
+  role: tradition
   confidence: assigned
   note: 'The major chronicle of the Windesheim Congregation, ed. Grube (1886), previously
     wholly unrepresented in this world''s vendored corpus. Per the Library''s non-English-primary-evidence
@@ -254,6 +254,16 @@ works:
 
     '
   source_file: langenberg_quellen-und-forschungen-niederdeutschen-mystik-gml_1902.txt
+- row_id: pomerius_de-origine-monasterii-viridisvallis-in-analecta-bollandiana-4-lat_1885--henry-pomerius-de-origine-monasterii-viridisvallis-with-the-life-of-ruusbroec-analecta-bollandiana-4
+  work: Henry Pomerius, De origine monasterii Viridisvallis, with the Life of Ruusbroec (Analecta
+    Bollandiana 4)
+  author: pomerius
+  locus: about OCR lines 15148-19290; add 12 to OCR line numbers
+  role: tradition
+  confidence: provisional
+  note: A canon of Groenendael writing his own house's history and its first prior's Life,
+    a generation after Ruusbroec.
+  source_file: pomerius_de-origine-monasterii-viridisvallis-in-analecta-bollandiana-4-lat_1885.txt
 - row_id: ruusbroec_adornment-spiritual-marriage-sparkling-stone-book-supreme-truth_wynschenk-dom1916--ruysbroeck-adornment-of-the-spiritual-marriage-sparkling-2
   work: Ruysbroeck, Adornment of the Spiritual Marriage, Sparkling Stone, Book of Supreme
     Truth (Wynschenk Dom's translation)

@@ -1,0 +1,98 @@
+[
+ {
+  "finding_id": "RP-B1",
+  "action": "fixed",
+  "what": "Dropped concerns john-chrysostom on antiochene-exegetical-christianity-chrysostom-ce--the-reformed-cities-zurich-and-geneva (17 concerns remain). Chrysostom's legacy still names the link.",
+  "reason": "Coordinator ruling: it goes to john-calvin, whose own words the link quotes."
+ },
+ {
+  "finding_id": "RP-S2",
+  "action": "fixed",
+  "what": "Nestorius why now reads: 'His own defense survived in one Syriac copy, kept by the Church of the East. Western scholars found it only in the 1890s.' Two fact rows: Driver-Hodgson 372-376 (Kotchanes copy) and 337-338 (noticed in the 1890s).",
+  "reason": "The old line contradicted the custody evidence."
+ },
+ {
+  "finding_id": "RP-S3",
+  "action": "fixed",
+  "what": "Athanasius teaser now ends 'held to the creed of Nicaea and died in his own city.'",
+  "reason": "The clause 'outlived the men who drove him out' was false: Valens outlived him."
+ },
+ {
+  "finding_id": "RP-S4",
+  "action": "fixed",
+  "what": "Link note now says Athanasius quotes the letter of the council held at Sardica, and that the letter names the leaders, Ursacius and Valens among them. The §48 quote now runs through 'Valens of Mursa in Pannonia', and the letter's heading ('Encyclical Letter of the Council of Sardica.') is added as a source. The longDescription no longer says he named the leaders. It now rests on his own Four Discourses Against the Arians, with a new fact row on that title.",
+  "reason": "Coordinator ruling. The naming of the leaders belongs to the council, not to Athanasius."
+ },
+ {
+  "finding_id": "RP-M5",
+  "action": "fixed",
+  "what": "Origen: 'His own bishop, Demetrius, cut him off.' The sentence no longer claims an order of events.",
+  "reason": "The source gives no sequence."
+ },
+ {
+  "finding_id": "RP-M6",
+  "action": "fixed",
+  "what": "Added Raabe 864-865 (Bakurios 'der erste ... ein christlicher König') as a source on georgian-christianity--peter-the-iberian and as the fact row for 'Christian royal house'. The note's 'The family was Christian' is now 'His mother's father, Bakurios, was the first Christian king of that land.' Line 1306 is kept only for the hostage at twelve.",
+  "reason": "The old citation pointed at the emperor's court, not at Peter's family."
+ },
+ {
+  "finding_id": "RP-M7",
+  "action": "fixed",
+  "what": "Peter legacy: 'about two years after Peter died'.",
+  "reason": "Brooks says 'About 490'."
+ },
+ {
+  "finding_id": "RP-M8",
+  "action": "fixed",
+  "what": "The custody link's Driver-Hodgson/Bedjan source is now kind secondary. A primary source from the Syriac-derived Bazaar text itself (§54 heading) is added, so the Widely Accepted grade carries both. Nestorius legacy: 'around 535, according to the scholar Bedjan, though the date is not certain'. The link note says 'by one scholar's dating'.",
+  "reason": "The cited lines are the editors' report of Bedjan, not Nestorius's own text."
+ },
+ {
+  "finding_id": "RP-M9",
+  "action": "fixed",
+  "what": "floorNote 'In his own defense Nestorius denied it' now cites Bazaar 4406 ('and there were not two Sons but one by an union.'). The open-question sentence now names its basis: 'a 1908 study, Nestorius and his Teaching, reopened the question'. It cites Driver-Hodgson 310 and is graded Contested.",
+  "reason": "The old lines did not support the sentences."
+ },
+ {
+  "finding_id": "RP-M10",
+  "action": "fixed",
+  "what": "Ephrem why: 'He served as a deacon. The sources differ on where he was ordained.' Rows: Gwynn 'from him he received the diaconate' (Widely Accepted for the deacon fact) and the home voices against Gwynn (Contested for the place).",
+  "reason": "The page now shows the dispute that the fact table records."
+ },
+ {
+  "finding_id": "RP-M12",
+  "action": "fixed",
+  "what": "Chrysostom why: 'That plain speech, aimed at the court too, led in the end to his exile.' Fact row on the home longDescription.",
+  "reason": "The old line had no source."
+ },
+ {
+  "finding_id": "RP-M14",
+  "action": "fixed",
+  "what": "Peter: status 'Pre-Survey Candidate' (psc), statusWord 'Told within no tradition'. The statusDescription is unchanged and says his record comes from his disciples.",
+  "reason": "Coordinator ruling, pending Mark; the same convention as Jovinian."
+ },
+ {
+  "finding_id": "RP-M15",
+  "action": "fixed",
+  "what": "Cut the templated first paragraph from Origen, Gregory of Nyssa, Ephrem, Chrysostom and Simeon. Each page now opens on the person, and relationsSummary already gives the home. Athanasius now opens on the two churches that claim him. Nestorius now opens on his shelf and on the home span. Peter's opening is not the template and is kept, since it carries the required plain statement of his place. Fact rows for removed sentences are dropped by a check in build.py.",
+  "reason": "The repeated cadence read as generated."
+ },
+ {
+  "finding_id": "coord: Athanasius -> II.1 link",
+  "action": "dropped",
+  "what": "Removed alexandria-catechetical--cyrilline-miaphysite-egyptian-christianity. Athanasius relationsSummary now says he was also the first bishop of the church of Alexandria on this map, with a fact row on D1's II.1 text. The legacy now calls Cyril 'a later bishop of Alexandria'. The flag is updated.",
+  "reason": "II.1 now starts with him as its bishop, and an entry is not influenced by its own first bishop."
+ },
+ {
+  "finding_id": "coord: Nestorius home span",
+  "action": "fixed",
+  "what": "Nestorius longDescription para 1: 'Their story on this map ends in 430. His years as bishop and in exile run past that date.' Fact row on the home dates (c. 350-430).",
+  "reason": "Said plainly, as asked. The home span is left alone: it is a Possible Future World entry owned elsewhere."
+ },
+ {
+  "finding_id": "coord: Cyril/Nestorius links",
+  "action": "kept",
+  "what": "Both links to II.1 stand, now that D1 extends II.1 to 328-642 with Cyril's shelf.",
+  "reason": "The flag about the dependency is still true, now satisfied."
+ }
+]

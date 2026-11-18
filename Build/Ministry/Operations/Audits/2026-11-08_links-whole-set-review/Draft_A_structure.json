@@ -1,0 +1,339 @@
+{
+ "theme": "STR: duplicates, overlaps, contradictions and chains across eras 1-9",
+ "checked": "All 575 links touching eras 1-9 and 301 movements. 42 multi-link pairs (mech.json) read for type contradictions; 64 shared-quote groups read link by link; a successor-family scan (any two non-continued-as links whose ends lie on the same continued-as chains) gave 83 pairs, each read; 90 continued-as links checked for fan-in/fan-out (none), cycles (none), backward dates (none), gaps over 60 years (10) and lane changes (5); the 6 era-gap continuations checked against every same-community movement in the census; 9 movements with two or more 'gave rise to' parents; symmetric-type order and reversed duplicates (none); 7 continuesAs-without-link and 22 link-not-in-continuesAs cases; dated events repeated across notes (40 keyword sweeps: Chalcedon, Dvin, Nisibis, Diamper, Trent, Vienne, 1662 and others) for disagreeing dates (none found). Open-Gaps items handed to P2-L11 on structure (St Thomas to Northeast India; era 7 and era 8 typed three links differently) resolved here. Every quote relied on was read in cic/texts.",
+ "findings": [
+  {
+   "fid": "STR-01",
+   "kind": "duplicate",
+   "severity": "substantial",
+   "links": [
+    "puritanism--restoration-georgian-church-of-england",
+    "english-old-dissent--restoration-georgian-church-of-england"
+   ],
+   "eras": [
+    7,
+    8
+   ],
+   "finding": "The Great Ejection of 1662 is carried as 'broke with' on two links: once from Puritanism (era 7, c. 1560-1660, drawn by the era 7 pass) and once from English Old Dissent (era 8, 1662-1815, drawn by the era 8 pass, which listed the Puritan link as 'earlier pass' and drew its own anyway). Both rest on the same evidence: the 1662 Act of Uniformity and the same Baxter sentence (10801-10803). Neither is separately evidenced, so the map draws one rupture twice. The 1662 deadline falls after the Puritanism entry's end date (1660) and is the founding event of the Old Dissent entry, so the Old Dissent link is the one the dates support. The Puritan side of the story stays carried by puritanism--english-old-dissent (gave rise to, Documented), whose note already names the 1662 silencing.",
+   "evidence": "cic/texts/baxter_autobiography-reliquiae-baxterianae-abridged_lloyd-thomas1925.txt:10801-10803 'When Bartholomew Day came, about one thousand eight hundred or two thousand ministers were silenced and cast out.' (quoted by both links); cic/texts/church-of-england_book-of-common-prayer_oxford1706.txt:813-817 and 1015-1030 (the Act, cited by both). Census: puritanism 'c. 1560-1660'; english-old-dissent '1662-1815'. Build/Ministry/Operations/Audits/2026-11-08_links-era-8/README.md:182 lists the Puritan link as 'earlier pass'.",
+   "fix": {
+    "action": "retire",
+    "edits": [],
+    "retire": [
+     {
+      "id": "puritanism--restoration-georgian-church-of-england",
+      "reason": "The 1662 ejection is carried by the Old Dissent link on the same evidence (the Act of Uniformity and Baxter). The Puritanism movement ends in 1660; the ejected ministers of 1662 are the start of Old Dissent.",
+      "replacedBy": "english-old-dissent--restoration-georgian-church-of-england"
+     }
+    ],
+    "prose": [],
+    "readability": []
+   },
+   "doubts": "The puritanism longDescription names the ejection ('after the Restoration of 1660 were ejected from the Church of England altogether'); after retirement that sentence is carried by puritanism--english-old-dissent (gave rise to) and the Old Dissent break. If the owner prefers to keep the era-7 link (it was published first), retire the Old Dissent one instead; one of the two must go."
+  },
+  {
+   "fid": "STR-02",
+   "kind": "duplicate",
+   "severity": "substantial",
+   "links": [
+    "bogomils--cathars-albigensians",
+    "balkan-bogomil-continuation--cathars-albigensians"
+   ],
+   "eras": [
+    4,
+    5
+   ],
+   "finding": "The claimed Bogomil-to-Cathar influence is drawn twice: from bogomils (era 4, drawn by era 4) and from its continuation balkan-bogomil-continuation (era 5, drawn new by era 5). Both are 'influenced', Contested, and both rest on the same Sacconi list of c. 1250 (racki VII 4328-4330). The era-4 link has no other evidence; the era-5 link adds the Interrogatio Iohannis colophon (Nazarius bringing the book from Bulgaria) and Everwin of Steinfeld. The era-4 link is not separately evidenced, and Sacconi describes the Balkan churches of his own day, which is the era-5 entry's span (1054-1300; Cathars c. 1143-1321). The two notes also spell the source differently ('Rainerius Sacconi', 'Rainier Sacconi').",
+   "evidence": "cic/texts/racki_bogomili-i-patareni-rad-vii-hrv_jazu1869.txt:4328-4330 'Ecclesia Burgariae (Bulgariae), Ecclesia Dugunthiae (Dugranicae). Et omnes habuerunt originem de duabus ultimis.' (both links); cic/texts/racki_bogomili-i-patareni-rad-x-hrv_jazu1870.txt:4661-4663 (era-5 link only). Era 5 README:135 drew the Balkan link 'new' while listing the era-4 link at :98. Open-Gaps 'The Bogomil entries overlap' (2026-11-08) notes the entry overlap as Mark's call, and that 'The Cathar link sits on bogomils'.",
+   "fix": {
+    "action": "retire",
+    "edits": [],
+    "retire": [
+     {
+      "id": "bogomils--cathars-albigensians",
+      "reason": "The same claim, on the same evidence (Sacconi's list of about 1250), is carried by the link from the Balkan Bogomil churches of 1054-1300, which Sacconi describes and which has more sources.",
+      "replacedBy": "balkan-bogomil-continuation--cathars-albigensians"
+     }
+    ],
+    "prose": [],
+    "readability": []
+   },
+   "doubts": "Depends on the open entry-overlap question ('The Bogomil entries overlap', 2026-11-08, Mark's call). If Mark merges or re-dates the two Bogomil entries, the surviving link follows that ruling. The bogomils text names the Cathar claim three times; it stays true of the movement as a whole and is carried through bogomils--balkan-bogomil-continuation; the owner may still want one sentence qualified. If the retirement is held for Mark's ruling, log it as escalate_mark instead."
+  },
+  {
+   "fid": "STR-03",
+   "kind": "chain",
+   "severity": "substantial",
+   "links": [
+    "st-thomas-christians-under-portuguese-pressure-d--northeast-india-revivals-and-the-mar-thoma-refor",
+    "northeast-india-revivals-and-the-mar-thoma-refor--the-malankara-churches-orthodox-and-jacobite"
+   ],
+   "eras": [
+    7,
+    9
+   ],
+   "finding": "Era 7's 'continued as' (Widely Accepted) runs from the St Thomas Christians of 1599-1665 across era 8 into an era-9 entry that joins two bodies: the Mar Thoma reform in Kerala and the northeast hill churches planted by Welsh and American missions (its own longDescription). The link therefore tells the reader the hill churches are the St Thomas Christians carried on. It also clashes with the chain beyond it: the era-9 entry's own text says the reform 'divided the ancient community' and 'the larger body continued as the Malankara church', and era 9 draws the reform 'broke with' the Malankara churches. A 'continued as' into the breakaway minority of a split, inside a composite entry, is a chain defect. The link's own evidence (the 1787 Malankara document; Philipos of the Great Church at Kottayam, 1869) shows the old church going on, and the 1847 patriarchal letter shows the reform rising inside its flock: that is what 'gave rise to' claims. Open-Gaps 'Era 7's St Thomas link into the Northeast India churches' (2026-11-08) handed this to P2-L11.",
+   "evidence": "cic/texts/philipos_syrian-christians-of-malabar_howard1869.txt:2159-2161 ('redeemed the now existing Syrian churches from the Portuguese'); :2593-2595 'And he sent him to India hour before hour, that he might expel the reprobate Matthew, and keep from him all the flock of Mar Thomas,' (read by me; already a verified source on the era-9 broke-with link); whitehouse 19286-19289, 19303-19305. Census northeast-india-revivals-and-the-mar-thoma-refor longDescription: 'The reform divided the ancient community ... while the larger body continued as the Malankara church ... small congregations planted by Welsh and American missions'.",
+   "fix": {
+    "action": "edit",
+    "edits": [
+     {
+      "id": "st-thomas-christians-under-portuguese-pressure-d--northeast-india-revivals-and-the-mar-thoma-refor",
+      "field": "type",
+      "new": "gave rise to"
+     },
+     {
+      "id": "st-thomas-christians-under-portuguese-pressure-d--northeast-india-revivals-and-the-mar-thoma-refor",
+      "field": "note",
+      "new": "In 1787 'all the Church people of Malankara' signed a paper recalling their forefathers' oath at Mattancherry. In 1869 a priest of the Great Church at Kottayam wrote that a bishop from Antioch won back 'the now existing Syrian churches' after 1685. The Mar Thoma reform grew inside this church. In 1847 the Patriarch of Antioch wrote that his predecessor had sent a bishop to keep 'all the flock of Mar Thomas' from the reforming bishop Matthew. The hill churches of the northeast are not part of this line."
+     },
+     {
+      "id": "st-thomas-christians-under-portuguese-pressure-d--northeast-india-revivals-and-the-mar-thoma-refor",
+      "field": "sources",
+      "new": "keep the five existing sources and append: {\"kind\": \"primary\", \"source_id\": null, \"work\": \"Ignatius Jacob II, Patriarch of Antioch, letter of 29 May 1847, on the earlier Patriarch Elias sending Mar Koorillos, in Edavalikel Philipos, The Syrian Christians of Malabar, ed. G. B. Howard (1869)\", \"file\": \"cic/texts/philipos_syrian-christians-of-malabar_howard1869.txt\", \"lines\": \"2593-2595\", \"locus\": \"The Patriarch's Letter (May, 1847)\", \"quote\": \"And he sent him to India hour before hour, that he might expel the reprobate Matthew, and keep from him all the flock of Mar Thomas,\", \"license\": \"public-domain\"}"
+     }
+    ],
+    "retire": [],
+    "prose": [],
+    "readability": [
+     {
+      "id or movement": "st-thomas-christians-under-portuguese-pressure-d--northeast-india-revivals-and-the-mar-thoma-refor (note)",
+      "fre": 67.16,
+      "fk": 8.12
+     }
+    ]
+   },
+   "doubts": "Confidence stays Widely Accepted (primaries for the facts; Whitehouse 1873 and Howard 1864 as the secondary reading). The last note sentence ('The hill churches of the northeast are not part of this line') is a scope statement drawn from the era-9 entry's own text, not from the link's sources; the reviewer may cut it. The quote is given in the single-spaced form the era-9 link already uses for these lines; the file has double spaces between words. The deeper problem is structural and is Mark's: no entry carries the Malankara church between 1665 and 1912, and the era-9 entry is a composite. Leave the movement's continuesAs null if this retype is taken."
+  },
+  {
+   "fid": "STR-04",
+   "kind": "contradiction",
+   "severity": "substantial",
+   "links": [
+    "russian-church-stoglav-to-nikon--the-old-believers",
+    "muscovite-monastic-christianity--the-old-believers",
+    "russian-church-nikon-to-holy-synod--the-old-believers"
+   ],
+   "eras": [
+    6,
+    7,
+    8
+   ],
+   "finding": "The Old Believers' relationsSummary says they 'grew out of Muscovite Christianity', but no link into the Old Believers is 'gave rise to'. The only link from muscovite-monastic-christianity is 'influenced' at Inferential-Thin (one 1921 reading); the era-7 church carries 'influenced' (the Stoglav's two-finger rule cited by the Solovetsky monks in 1666); the era-8 church carries the rupture. So the text states as fact a descent that the links either grade thin or do not carry. Era 8 drafted the missing link, russian-church-stoglav-to-nikon--the-old-believers as 'gave rise to' (Avvakum ordained deacon and priest in the pre-Nikon church; his spiritual father Neronov), passed by its round-1 review (R1-15, a wording fix only), and dropped it at the merge only because era 7 had published a different type on the same id (Open-Gaps 'Era 7 and era 8 typed three links differently', 2026-11-08, for P2-L11). Both claims are separately true and separately evidenced, so two links on the pair are allowed.",
+   "evidence": "cic/texts/avvakum_life-of-archpriest-avvakum_harrison-mirrlees1924.txt:1710-1711 'at the age of twenty I was ordained deacon and, after two years, priest.'; :1138 'c. 1644. Avvakum ordained priest.' (translators' table); :2107-2109 'In Lent he sent a pastoral letter to St. Basil's Minster, to John Neronov. Now he was my ghostly father' (all read by me). Era-8 draft: Build/Ministry/Operations/Audits/2026-11-08_links-era-8/Final.json (links, action 'drop', merge_notes); review Opus_Review_Round1.json R1-15.",
+   "fix": {
+    "action": "escalate_owner",
+    "edits": [],
+    "retire": [],
+    "prose": [],
+    "readability": [
+     {
+      "id or movement": "proposed russian-church-stoglav-to-nikon--the-old-believers--2 (note)",
+      "fre": 63.86,
+      "fk": 7.46
+     }
+    ]
+   },
+   "doubts": "Recommended: add russian-church-stoglav-to-nikon--the-old-believers--2, type 'gave rise to', with era 8's reviewed note and sources from Final.json (note: 'Archpriest Avvakum, the great voice of the Old Believers, was ordained in the Russian church before Nikon's reforms. He writes that he became a deacon at twenty and a priest two years later. His translators date this to about 1644. His spiritual father was Ivan Neronov of St Basil's in Moscow.'). Adding a link is outside this pass's fix list, so it is logged for the owner. Grade: era 8 drafted Documented, but the primary gives no year; 'before Nikon' rests on the translators' date (c. 1644), so Widely Accepted may be the honest grade. Alternative if no link is added: qualify the relationsSummary sentence so it does not state 'grew out of' as fact."
+  },
+  {
+   "fid": "STR-05",
+   "kind": "duplicate",
+   "severity": "minor",
+   "links": [
+    "cyrilline-miaphysite-egyptian-tradition--imperial-juridical-christianity",
+    "byzantine-imperial-church-justinianic--cyrilline-miaphysite-egyptian-christianity"
+   ],
+   "eras": [
+    2,
+    3
+   ],
+   "finding": "The rupture of October 451 (Dioscorus deposed; Egypt's clergy and monks break communion with Proterius) is told as 'broke with' on two links at the era 2/3 boundary: era 2's Egyptian tradition to imperial Christianity, and era 3's Justinianic church to Egyptian Christianity. Both quote the same Chalcedon sentence (npnf214 20082-20084) and the same Pseudo-Zachariah clause (2542-2543). The era-3 link is separately evidenced by later acts (Evagrius on Timothy's break after the council; John of Ephesus on Theodosius ejected for refusing it), so it can stand, but its note should tell the later, lasting split rather than repeat 451. The overlap comes from the two Egyptian entries that both start in 451 (Open-Gaps 'Two Egyptian Miaphysite entries from the same year', 2026-11-07, Mark's call).",
+   "evidence": "npnf214_seven-ecumenical-councils.xml:20082-20084 and zachariah-rhetor_chronicle_hamiltonbrooks1899.txt:2542-2543 cited by both; evagrius-scholasticus_ecclesiastical-history_walford1846.txt:3675-3678 'Timotheus, immediately after the holy synod at Chalcedon, being at that time a presbyter, severed himself from the Catholic church and faith'; john-ephesus_ecclesiastical-history-part3_paynesmith1860.txt:11045-11048 'the blessed Theodo- sius being required to receive the council, and having refused, was ejected by the king from his throne' (read by me).",
+   "fix": {
+    "action": "edit",
+    "edits": [
+     {
+      "id": "byzantine-imperial-church-justinianic--cyrilline-miaphysite-egyptian-christianity",
+      "field": "note",
+      "new": "The historian Evagrius quotes a petition from Egypt's bishops to Emperor Leo. It says Timothy Aelurus broke from the Catholic church right after the Council of Chalcedon. The other side kept its own record of the split. John of Ephesus records that Bishop Theodosius would not accept the council. So the emperor drove him from his throne."
+     },
+     {
+      "id": "byzantine-imperial-church-justinianic--cyrilline-miaphysite-egyptian-christianity",
+      "field": "sources",
+      "new": "remove the three sources it shares with the era-2 rupture (Chalcedon, Condemnation Sent to Dioscorus, npnf214 20082-20084; Pseudo-Zachariah III.2, 2539-2541 and 2542-2543); keep Evagrius (3675-3678) and John of Ephesus (11045-11048), one from each side"
+     }
+    ],
+    "retire": [],
+    "prose": [],
+    "readability": [
+     {
+      "id or movement": "byzantine-imperial-church-justinianic--cyrilline-miaphysite-egyptian-christianity (note)",
+      "fre": 61.69,
+      "fk": 7.49
+     }
+    ]
+   },
+   "doubts": "'The emperor' renders John's 'the king' (the Syriac usage for the Roman emperor). If Mark merges the two Egyptian entries, one of the two links goes instead. Documented still holds: two primaries, verified-direct, one from each side."
+  },
+  {
+   "fid": "STR-06",
+   "kind": "duplicate",
+   "severity": "minor",
+   "links": [
+    "desert-monasticism--cyrilline-miaphysite-egyptian-tradition",
+    "desert-monasticism--cyrilline-miaphysite-egyptian-christianity"
+   ],
+   "eras": [
+    2,
+    3
+   ],
+   "finding": "Era 2's 'gave rise to' ends on a much later fact, Patriarch Peter's letters kept at the Monastery of Macarius (Peter Mongus, 477-490), with the same quote that era 3's 'influenced' link from the desert monks to the era-3 Egyptian church uses. The fact belongs to the era-3 entry's span, and a letter archive kept in a monastery does not show the people of one body forming the other. The two links share evidence; removing it leaves the era-2 link on its own 457 evidence.",
+   "evidence": "cic/texts/severus-al-muqaffa_history-patriarchs-coptic-church-v1_evetts1904.txt:35554-35555 'All his epistles are preserved in the Monastery of Father Macarius' (cited by both); zachariah-rhetor_chronicle_hamiltonbrooks1899.txt:3282-3289 (the 457 counsel with 'the whole order of the monks', era 2 only).",
+   "fix": {
+    "action": "edit",
+    "edits": [
+     {
+      "id": "desert-monasticism--cyrilline-miaphysite-egyptian-tradition",
+      "field": "note",
+      "new": "In 457 the party in Alexandria that rejected Chalcedon took counsel with 'the whole order of the monks'. They chose Timothy as bishop. He was an ascetic who had once been brought from the desert to Cyril, and Cyril ordained him."
+     },
+     {
+      "id": "desert-monasticism--cyrilline-miaphysite-egyptian-tradition",
+      "field": "sources",
+      "new": "remove the History of the Patriarchs source (severus-al-muqaffa ... 35554-35555); keep the two Pseudo-Zachariah IV.1 sources"
+     }
+    ],
+    "retire": [],
+    "prose": [],
+    "readability": [
+     {
+      "id or movement": "desert-monasticism--cyrilline-miaphysite-egyptian-tradition (note)",
+      "fre": 64.29,
+      "fk": 7.61
+     }
+    ]
+   },
+   "doubts": "Minor; the link was within era 2's own call. If the owner prefers, leave the sources and only cut the sentence."
+  },
+  {
+   "fid": "STR-07",
+   "kind": "continuesAs",
+   "severity": "minor",
+   "links": [
+    "armenian-christianity-after-avarayr--armenian-christianity-before-the-bagratids",
+    "armenian-christianity-before-the-bagratids--bagratid-armenian-christianity"
+   ],
+   "eras": [
+    3,
+    4
+   ],
+   "finding": "The Armenian chain runs through the links correctly (after Avarayr -> before the Bagratids -> Bagratid), but armenian-christianity-after-avarayr.continuesAs names bagratid-armenian-christianity, skipping armenian-christianity-before-the-bagratids (c. 554-884), whose own continuesAs is null. This is the one continued-as link whose source movement's continuesAs names a different target. Already logged ('The Armenian continues as chain skips a movement', 2026-11-07; era 3 R1-27) and still open.",
+   "evidence": "Census movements: armenian-christianity-after-avarayr (451-554) continuesAs bagratid-armenian-christianity; armenian-christianity-before-the-bagratids (c. 554-884) continuesAs null. mech.json continuesAs_without_link[0].",
+   "fix": {
+    "action": "escalate_owner",
+    "edits": [],
+    "retire": [],
+    "prose": [],
+    "readability": []
+   },
+   "doubts": "Two one-field data fixes, clearly right: after-avarayr.continuesAs -> armenian-christianity-before-the-bagratids; before-the-bagratids.continuesAs -> bagratid-armenian-christianity. Not applied here (movement fields)."
+  },
+  {
+   "fid": "STR-08",
+   "kind": "continuesAs",
+   "severity": "minor",
+   "links": [
+    "carolingian-reform-christianity--latin-papal-church-gregorian",
+    "cyrillo-methodian-slavic-christianity--kievan-rus-christianity",
+    "athonite-and-comnenian-byzantine-monasticism--hesychasm-and-the-palamite-synthesis",
+    "czech-churches-last-century--the-moravian-church-at-herrnhut",
+    "the-hesychast-revival-paisius-and-the-philokalia--the-optina-elders-and-russian-ascetic-renewal",
+    "the-student-volunteer-movement-and-edinburgh-191--the-ecumenical-movement-and-the-wcc"
+   ],
+   "eras": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "finding": "Six movements carry a continuesAs whose pair the links type as 'influenced' (Carolingian -> Gregorian papacy; Cyrillo-Methodian mission -> Kievan Rus'; Athonite -> Palamite hesychasm) or 'gave rise to' (Czech churches -> Herrnhut; Paisian revival -> Optina; Student Volunteer Movement -> the ecumenical movement). In each case I read the link's sources and the type is the one they support: books and letters, a forged decretal, named people passing to a new body, a committee handing work to a new council. None shows the same community carried on. The continuesAs field is the error, and while it stands the map's card marks each pair 'continued as - not yet graded' against a graded link of another kind. Most are already logged ('Two continues as fields name entries the evidence only influenced', 2026-11-08; '\"Continues as\" with no graded link', 2026-11-08; era 7's note on Czech/Herrnhut; era 9 part 1 text owners' items for the SVM; 'Optina's continuesAs', 2026-11-08).",
+   "evidence": "mech.json continuesAs_without_link (6 of 7). Link sources read: Mirbt 10864-10865 (Gregory VII quoting a Pseudo-Isidorian letter); Mouravieff/Pinkerton/Herberstein secondaries; Kallistos PG147 32624-32625 and the Hagioritic Tome PG150 68790-68793; Cranz 1780 4784-4786, 4976-4980, 4362-4365; Optina 1847 262-332; Stanley 2009 (secondary).",
+   "fix": {
+    "action": "escalate_owner",
+    "edits": [],
+    "retire": [],
+    "prose": [],
+    "readability": []
+   },
+   "doubts": "Clear each of the six continuesAs fields (or set it to the real successor if one exists). The Athonite case is the closest call: hesychasm's own summary calls it 'Heir of the Athonite line', and the Tome is the Athonite monks' own text, so a 'continued as' might be sourced there; era 5 chose 'influenced', and the chain into Athos from the iconophile monks is the thinner one (continued as, Inferential-Thin). Not re-litigated here."
+  },
+  {
+   "fid": "STR-09",
+   "kind": "continuesAs",
+   "severity": "minor",
+   "links": [
+    "post-apostolic-house-church--roman-church-third-century",
+    "palestinian-ascetic-monasticism-early--chalcedonian-monasticism-judean-desert-and-gaza",
+    "palestinian-church-pre-constantinian--jerusalem-liturgical-pilgrimage-christianity",
+    "armenian-christianity-before-the-bagratids--bagratid-armenian-christianity",
+    "british-welsh-christianity--medieval-welsh-christianity",
+    "insular-irish-monastic-christianity--medieval-irish-christianity",
+    "scandinavian-conversion-christianity--scandinavian-reformation-kingdoms",
+    "the-church-of-the-east-on-the-silk-road--church-of-the-east-under-the-abbasids",
+    "church-of-the-east-under-the-abbasids--church-of-the-east-under-the-mongols",
+    "st-thomas-christians-of-india--st-thomas-christians-1300-1517",
+    "makurian-nubian-christianity--terminal-christian-nubia",
+    "the-franciscan-movement--franciscan-order-era-6",
+    "new-spain-and-andes-mission-born-christianity--colonial-latin-american-devotional-catholicism",
+    "st-thomas-christians-under-portuguese-pressure-d--northeast-india-revivals-and-the-mar-thoma-refor",
+    "church-of-the-east-schism-of-1552--church-of-the-east-chaldean-consolidation",
+    "restorationist-apocalyptic-ferment-and-adventism--seventh-day-adventist-church-twentieth-century",
+    "church-of-the-east-chaldean-consolidation--the-sayfo-and-the-syriac-diaspora",
+    "armenian-christianity-zartonk--the-armenian-church-after-the-genocide-medz-yegh",
+    "ruthenian-greek-catholic-polotsk-to-galicia--the-ukrainian-greek-catholic-underground",
+    "colonial-latin-american-devotional-catholicism--nineteenth-century-latin-american-catholicism",
+    "coptic-christianity-fatimid-to-mamluk--coptic-revival-under-cyril-iv"
+   ],
+   "eras": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "finding": "21 'continued as' links start at a movement whose continuesAs is null, so the field and the links disagree (the reverse case of STR-08). For every one I checked that the target is the only 'continued as' out of that movement (no fan-out, no fan-in) and that no census entry of the same community sits between the two ends (see checked_and_fine for the era-gap cases). So the field, not the link, is what is missing. A few are already logged ('The Abbasid Church of the East has no continuesAs', 2026-11-08; era 8's note on New Spain; era 3 R1-27 on the Welsh church); most are not.",
+   "evidence": "mech.json continued_as_link_not_in_continuesAs (22; the Armenian one is STR-07). Movements with continuesAs null: post-apostolic-house-church, palestinian-ascetic-monasticism-early, palestinian-church-pre-constantinian, armenian-christianity-before-the-bagratids, british-welsh-christianity, insular-irish-monastic-christianity, scandinavian-conversion-christianity, the-church-of-the-east-on-the-silk-road, church-of-the-east-under-the-abbasids, st-thomas-christians-of-india, makurian-nubian-christianity, the-franciscan-movement, new-spain-and-andes-mission-born-christianity, st-thomas-christians-under-portuguese-pressure-d, church-of-the-east-schism-of-1552, restorationist-apocalyptic-ferment-and-adventism, church-of-the-east-chaldean-consolidation, armenian-christianity-zartonk, ruthenian-greek-catholic-polotsk-to-galicia, colonial-latin-american-devotional-catholicism, coptic-christianity-fatimid-to-mamluk.",
+   "fix": {
+    "action": "escalate_owner",
+    "edits": [],
+    "retire": [],
+    "prose": [],
+    "readability": []
+   },
+   "doubts": "One-field data fixes (set continuesAs to the link's target). Hold two: st-thomas-christians-under-portuguese-pressure-d (STR-03 would retype its link to 'gave rise to', so leave null), and scandinavian-conversion-christianity (its link waits on Mark: 'No medieval English or Scandinavian successor entry', 2026-11-08). armenian-christianity-before-the-bagratids is also in STR-07."
+  }
+ ],
+ "checked_and_fine": [
+  "Era-gap continuations with no intermediate entry: scandinavian-conversion (e4) -> scandinavian-reformation (e7), no Scandinavian entry 1104-1520s (and already Mark's call, 'No medieval English or Scandinavian successor entry', 2026-11-08); st-thomas-christians-of-india (e4) -> st-thomas-1300-1517 (e6), none 1054-1300; makurian (e4) -> terminal-christian-nubia (e6, starts 1054, contiguous); church-of-the-east-schism-of-1552 (e7) -> chaldean-consolidation (e9), no e8 Church of the East entry; coptic fatimid-to-mamluk (e5) -> coptic-revival (e9), no Coptic entry 1300-1854 (already logged, 'Coptic and Ethiopian map gaps', 2026-11-08). Also Georgian 609->780, Merovingian 620->751, iconophile 843->963, Cilicia 1441->1517 gaps: no intermediate entries exist.",
+  "Lane changes: Waldensians and Hussites into the Protestant lane, the Origin house churches into the Roman church, Scandinavia: each a real confessional or lane move of the same community, typed and graded by its era; not chain defects. St Thomas into the bridge lane is STR-03.",
+  "Era 7 vs era 8 typings ('Era 7 and era 8 typed three links differently', 2026-11-08): Czech churches -> Herrnhut stays 'gave rise to' (the Cranz evidence shows people and a bishop passing on; era 8's own continued-as draft was Contested); the continuesAs field mismatch is in STR-08. Anabaptists -> Baptists: era 8's 'in contact with' draft rests on Smyth's application to the Waterlanders (smyth works v2 18434-18437), which the published 'influenced' link already quotes (18431-18436), so a second link would duplicate its evidence; no change. Stoglav -> Old Believers is STR-04.",
+  "Optina has three 'gave rise to' parents (the Paisian revival, the Russian church 1652-1815, the synodal church 1815-1906). The two Russian-church links share the 1829 quote, but each has its own evidence (Leonid entering Optina in 1797 and Beloberezh in 1804; the skete and its visitors after 1829): two acts, separately evidenced. Not a defect.",
+  "Alaska has two 'gave rise to' parents (Russian church 1652-1815, Inferential-Thin; synodal church, Documented) quoting the same 1842 diocese list (mouravieff 19190-19193). The era-8 link's note says plainly that the list does not reach the 1794 mission and grades it thin; that is the correct handling of thin evidence, not a duplicate claim.",
+  "Methodist revival -> Black church (gave rise to: Allen joining a Methodist society) and nineteenth-century Methodism -> Black church (broke with: Emory's circular, the court case, 1816) quote one shared line (allen 992-994) but each has its own evidence for its own claim.",
+  "Franciscan movement -> Observants (influenced: living 'sub observantia regulae beati Francisci', 1440) and Franciscan order 1300-1517 -> Observants (gave rise to: the order's minister general appointing Bernardino, 1438) share the 1438 quote but make different, separately evidenced claims. Joachim -> Franciscan movement and -> Franciscan order use different Clareno passages and different periods.",
+  "Edessa-Nisibis -> Persian church early (continued as: Nisibis bishops, 410 synod) and Edessa-Nisibis -> Church of the East under Persia (influenced: Narsai's school) share one Barhadbeshabba line for context; each has its own evidence.",
+  "Benedict's Rule naming the Lives of the Fathers (desert monks) and Cassian's Collationes/Institutes (Gallic monks): one passage, two different works named, two separate influences.",
+  "Council canons naming several parties (Constantinople 381 canon 1; Vienne 1311-12; the Gregory IX decree naming Cathars and Poor of Lyon) document an 'argued against' for each party named; shared quotes are expected there.",
+  "Catholic church -> Church of Utrecht (1703-1725) and long-nineteenth-century Catholic church -> Old Catholics (1870-1893) are two separate ruptures with separate evidence.",
+  "Multi-link pairs (42): all type combinations (gave rise to + argued against; broke with + argued against; influenced + in contact with; mutual argued against) are compatible and each link carries its own evidence; no pair has a link saying 'continued as' beside 'broke with', no reversed symmetric duplicates, no same-type duplicates on one directed pair.",
+  "Dates across notes: the same event is dated the same way wherever it recurs (Whitby 664, Dvin 506/554, Chalcedon 451, 410 synod, Diamper 1599, Vienne 1311-12, Trent 1546/1547, Bonn 1874, the 1662 Act). No contradiction found.",
+  "Methodist revival -> nineteenth-century Methodism grade upgrade ('Era 8 and era 9 drew the same Methodist link', 2026-11-08) is a grade question for another reviewer; no chain defect."
+ ]
+}

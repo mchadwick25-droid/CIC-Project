@@ -15,17 +15,108 @@ works:
     rest of the book serves the Coptic worlds. Notes are scholarship. Ready to quote once
     verified against the scan.
   source_file: abu-salih_churches-and-monasteries-of-egypt_evetts1895.txt
+- row_id: ibn-khaldun_histoire-des-berberes-v1-fra_de-slane1852--ibn-khaldun-histoire-des-berberes-vol-1-de-slane
+  work: Ibn Khaldun, Histoire des Berberes, vol. 1 (de Slane)
+  author: ibn-khaldun
+  locus: the whole volume; not mapped
+  role: context
+  confidence: assigned
+  note: An outside witness. No census entry covers Mamluk Egypt and Syria or the Maghreb after
+    1300, so the work sits on this entry. Not read in depth for its passages on Christians.
+  source_file: ibn-khaldun_histoire-des-berberes-v1-fra_de-slane1852.txt
+- row_id: ibn-khaldun_histoire-des-berberes-v2-fra_de-slane1854--ibn-khaldun-histoire-des-berberes-vol-2-de-slane
+  work: Ibn Khaldun, Histoire des Berberes, vol. 2 (de Slane)
+  author: ibn-khaldun
+  locus: the whole volume; not mapped
+  role: context
+  confidence: assigned
+  note: An outside witness. No census entry covers Mamluk Egypt and Syria or the Maghreb after
+    1300, so the work sits on this entry. Not read in depth for its passages on Christians.
+  source_file: ibn-khaldun_histoire-des-berberes-v2-fra_de-slane1854.txt
+- row_id: ibn-khaldun_histoire-des-berberes-v3-fra_de-slane1856--ibn-khaldun-histoire-des-berberes-vol-3-de-slane
+  work: Ibn Khaldun, Histoire des Berberes, vol. 3 (de Slane)
+  author: ibn-khaldun
+  locus: the whole volume; not mapped
+  role: context
+  confidence: assigned
+  note: An outside witness. No census entry covers Mamluk Egypt and Syria or the Maghreb after
+    1300, so the work sits on this entry. Not read in depth for its passages on Christians.
+  source_file: ibn-khaldun_histoire-des-berberes-v3-fra_de-slane1856.txt
+- row_id: ibn-khaldun_histoire-des-berberes-v4-fra_de-slane1856--ibn-khaldun-histoire-des-berberes-vol-4-de-slane
+  work: Ibn Khaldun, Histoire des Berberes, vol. 4 (de Slane)
+  author: ibn-khaldun
+  locus: the whole volume; not mapped
+  role: context
+  confidence: assigned
+  note: An outside witness. No census entry covers Mamluk Egypt and Syria or the Maghreb after
+    1300, so the work sits on this entry. Not read in depth for its passages on Christians.
+  source_file: ibn-khaldun_histoire-des-berberes-v4-fra_de-slane1856.txt
+- row_id: ibn-khaldun_prolegomenes-pt1-fra_de-slane1863--ibn-khaldun-prolegomenes-part-1-de-slane
+  work: Ibn Khaldun, Prolegomenes, part 1 (de Slane)
+  author: ibn-khaldun
+  locus: the whole volume; not mapped
+  role: context
+  confidence: assigned
+  note: An outside witness. No census entry covers Mamluk Egypt and Syria or the Maghreb after
+    1300, so the work sits on this entry. Not read in depth for its passages on Christians.
+  source_file: ibn-khaldun_prolegomenes-pt1-fra_de-slane1863.txt
+- row_id: ibn-khaldun_prolegomenes-pt2-fra_de-slane1865--ibn-khaldun-prolegomenes-part-2-de-slane
+  work: Ibn Khaldun, Prolegomenes, part 2 (de Slane)
+  author: ibn-khaldun
+  locus: the whole volume; not mapped
+  role: context
+  confidence: assigned
+  note: An outside witness. No census entry covers Mamluk Egypt and Syria or the Maghreb after
+    1300, so the work sits on this entry. Not read in depth for its passages on Christians.
+  source_file: ibn-khaldun_prolegomenes-pt2-fra_de-slane1865.txt
+- row_id: ibn-khaldun_prolegomenes-pt3-fra_de-slane1868--ibn-khaldun-prolegomenes-part-3-de-slane
+  work: Ibn Khaldun, Prolegomenes, part 3 (de Slane)
+  author: ibn-khaldun
+  locus: the whole volume; not mapped
+  role: context
+  confidence: assigned
+  note: An outside witness. No census entry covers Mamluk Egypt and Syria or the Maghreb after
+    1300, so the work sits on this entry. Not read in depth for its passages on Christians.
+  source_file: ibn-khaldun_prolegomenes-pt3-fra_de-slane1868.txt
 - row_id: john-ephesus_lives-eastern-saints-po17_brooks1923--synaxaire-arabe-jacobite-v-basset--voice
   work: 'Le Synaxaire arabe jacobite, V (months Baounah to Mesore), ed. and tr. R. Basset
     (bound in this PO volume): the Coptic church''s calendar notices of Dioscorus, Timothy,
     Theodosius, Benjamin and the murder of Proterius'
   author: john-ephesus
-  locus: the Synaxaire arabe section (raw file lines ~49000-64550)
+  locus: the Synaxaire arabe section (raw file lines 49935-~64550)
   role: tradition
   confidence: provisional
   note: The Coptic-Arabic Synaxarion, a 13th-century compilation, in a French translation.
     Placed on its date.
   source_file: john-ephesus_lives-eastern-saints-po17_brooks1923.txt
+- row_id: qalqashandi_la-syrie-a-l-epoque-des-mamelouks-fra_gaudefroy-demombynes1923--al-qalqashandi-and-others-syria-under-the-mamluks-gaudefroy-demombynes-1923
+  work: al-Qalqashandi and others, Syria under the Mamluks (Gaudefroy-Demombynes 1923)
+  author: qalqashandi
+  locus: the whole volume; not mapped
+  role: context
+  confidence: assigned
+  note: An outside witness. No census entry covers Mamluk Egypt and Syria or the Maghreb after
+    1300, so the work sits on this entry. Not read in depth for its passages on Christians.
+  source_file: qalqashandi_la-syrie-a-l-epoque-des-mamelouks-fra_gaudefroy-demombynes1923.txt
+- row_id: qalqashandi_geographie-und-verwaltung-von-aegypten-deu_wuestenfeld1879--al-qalqashandi-on-the-geography-and-government-of-egypt-wustenfeld-1879
+  work: al-Qalqashandi, on the geography and government of Egypt (Wustenfeld 1879)
+  author: qalqashandi
+  locus: the whole volume; not mapped
+  role: context
+  confidence: assigned
+  note: An outside witness. No census entry covers Mamluk Egypt and Syria or the Maghreb after
+    1300, so the work sits on this entry. Not read in depth for its passages on Christians.
+  source_file: qalqashandi_geographie-und-verwaltung-von-aegypten-deu_wuestenfeld1879.txt
+- row_id: renaudot_historia-patriarcharum-alexandrinorum-jacobitarum-lat_1713--renaudot-historia-patriarcharum-alexandrinorum-jacobitarum-the-s
+  work: Renaudot, Historia patriarcharum Alexandrinorum Jacobitarum; the section on Cyril
+    III ibn Laqlaq
+  author: renaudot
+  locus: the whole volume; Cyril III from about OCR line 34564; add 12 to OCR line numbers
+  role: context
+  confidence: provisional
+  note: A Catholic orientalist's Latin narrative of the patriarchs from Arabic sources, written
+    after the window and about it. It is not Cyril's own record.
+  source_file: renaudot_historia-patriarcharum-alexandrinorum-jacobitarum-lat_1713.txt
 - row_id: synaxaire-arabe-jacobite_po1-thout-babeh-synaxaire-ethiopien-fra_basset-guidi1907--synaxaire-arabe-tout-babeh--voice
   work: Le Synaxaire arabe jacobite, I (months of Tout and Babeh), with French
   author: synaxaire-arabe-jacobite

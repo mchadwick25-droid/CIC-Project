@@ -16,17 +16,16 @@ confidence:
     Documented as Jerome's own writing and circulated by him as a letter, which in this circle means a public document with an argument to win, not private correspondence. He is an advocate for the ascetic life throughout, and his portraits are shaped to persuade.
 sources:
 - source_id: hal.source.jerome-ep77
-  locus: >-
-    Letter LXXVII (to Oceanus, on the death of Fabiola), sec. 4 (npnf206_jerome-principal-works.xml)
+  locus: "Letter LXXVII (to Oceanus, on the death of Fabiola), sec. 4 (cic/texts/npnf206_jerome-principal-works.xml, lines 17449-17464)"
   license: public-domain
 text: >-
   Who would believe that, after the death of her second husband at a time when most widows, having shaken off the yoke of servitude, grow careless and allow themselves more liberty than ever... that at this time Fabiola came to herself? Yet it was then that she put on sackcloth to make public confession of her error. It was then that in the presence of all Rome (in the basilica which formerly belonged to that Lateranus who perished by the sword of Cæsar ) she stood in the ranks of the penitents and exposed before bishop, presbyters, and people—all of whom wept when they saw her weep—her dishevelled hair, pale features, soiled hands and unwashed neck.
 modern_rendering: >-
-  Who would believe it? Her second husband had died. At such a time most widows shake off
-  the yoke of servitude, grow careless and allow themselves more liberty than ever... Yet
-  at that time Fabiola came to herself. It was then that she put on sackcloth to make
-  public confession of her wrongdoing. It was then that she stood in the ranks of the
-  penitents in the presence of all Rome. This was in the basilica that once belonged to
+  Her second husband had died. At such a time most widows shake off the yoke of servitude.
+  They grow careless and allow themselves more liberty than ever... Who would believe that
+  at this very time Fabiola came to herself? Yet it was then that she put on sackcloth to
+  make public confession of her error. It was then that she stood in the ranks of the
+  penitents, in the presence of all Rome. This was in the basilica that once belonged to
   that Lateranus who died by the sword of Caesar. Before bishop, presbyters and people she
   showed her disheveled hair, pale features, soiled hands and unwashed neck. They all wept
   when they saw her weep.
@@ -56,7 +55,7 @@ Opened for F6-T, served by hal.dw.marriage-ending alone, which cites this locus 
 "Fabiola's divorce, remarriage, penance, restoration" and had nothing quotable.
 
 The closing clause is quoted from the sentence's continuation in the letter rather than paraphrased,
-and the record is deliberately the restoration rather than the offence: this world's own hard-place
+and the record is deliberately the restoration rather than the offense: this world's own hard-place
 answer is that the way back existed and was walked in public.
 
 The closing sentence carries Jerome's own parenthetical naming the

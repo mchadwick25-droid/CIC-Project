@@ -19,7 +19,7 @@ confidence:
     of which bishops.
 sources:
 - source_id: gallic.source.sulpitius-vita-martini
-  locus: "Life of St. Martin ch. XXVII (npnf211 div ii.ii.xxviii, file lines 1938-1941): Sulpitius's aside on the source of some of Martin's slander"
+  locus: "Life of St. Martin ch. XXVII (cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml, lines 1938-1941; div ii.ii.xxviii): Sulpitius's aside on the source of some of Martin's slander"
   license: public-domain
 retrieval:
   tier: 2

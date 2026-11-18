@@ -230,6 +230,81 @@ def test_latest_review_is_the_highest_round_or_the_last_unnumbered_file(tmp_path
     assert latest_review(review_files("w", 5, other))[0] == "Doc_05_Independent_Check.md"
 
 
+def _rule_for(root, world, names):
+    listed = ", ".join(f"`{n}`" for n in names)
+    write(root, DECISION_LOG, f"## 2026-10-31 - Cap ruling: {world} Doc_05\n\nOne more recheck: {listed}.\n")
+
+
+def _latest(root, code="w"):
+    return latest_review(review_files(code, 5, root), root, code)[0]
+
+
+def test_latest_review_is_the_review_a_cap_ruling_names(tmp_path):
+    names = [f"Doc_05_Review_Round{i}.md" for i in (1, 2, 3, 4)] + ["Doc_05_Targeted_Recheck_Ruled.md"]
+    root = _world(tmp_path, names)
+    assert _latest(root) == "round 4"
+    _rule_for(root, "w", ["Doc_05_Targeted_Recheck_Ruled.md"])
+    assert _latest(root) == "ruled review Doc_05_Targeted_Recheck_Ruled.md"
+
+
+def test_a_numbered_round_after_the_ruled_review_is_still_the_latest(tmp_path):
+    root = _world(tmp_path, [f"Doc_05_Review_Round{i}.md" for i in (1, 2, 3, 4, 5)])
+    _rule_for(root, "w", ["Doc_05_Review_Round4.md"])
+    assert _latest(root) == "round 5"
+
+
+def test_a_ruling_for_another_world_does_not_override_this_worlds_rounds(tmp_path):
+    root = _world(tmp_path, [f"Doc_05_ChangeOrder_Review_Round{i}.md" for i in (1, 2, 3, 4)])
+    _rule_for(root, "other", ["Doc_05_ChangeOrder_Review_Round3.md"])
+    assert _latest(root) == "round 4"
+
+
+def test_a_word_in_another_worlds_ruling_does_not_make_a_file_ruled(tmp_path):
+    root = _world(tmp_path, [f"Doc_05_Review_Round{i}.md" for i in (1, 2, 3)] + ["Doc_05_CapRuling_Review.md"])
+    write(root, DECISION_LOG, "## 2026-10-01 - Cap ruling: rcg Doc_05\n\nFix both findings (w included), then `Doc_05_CapRuling_Review.md`.\n")
+    assert _latest(root) == "round 3"
+
+
+def test_a_ruled_review_of_a_closed_cycle_is_not_the_latest(tmp_path):
+    root = _world(tmp_path, [f"Doc_05_Review_Round{i}.md" for i in (1, 2, 3)] + ["Doc_05_CapRuling_Review.md"])
+    _rule_for(root, "w", ["Doc_05_CapRuling_Review.md"])
+    assert _latest(root) == "ruled review Doc_05_CapRuling_Review.md"
+    write(root, "Build/Ministry/Operations/Standing/Some_Decision_Log.md", "## 2026-10-05 \u2014 New sources\n\nx\n")
+    from .fixture_world import review_text
+
+    for n in (1, 2, 3):
+        write(root, f"Build/worlds/w/Doc_05_Review_Round{n}.md", review_text(n))
+    _reset(root, "Doc_05_Review_Round4.md", 4, field="New sources")
+    assert _latest(root) == "round 4"
+
+
+def test_a_ruling_made_after_the_cap_in_a_restarted_cycle_is_the_latest(tmp_path):
+    from .fixture_world import review_text
+
+    root = _world(tmp_path, ["Doc_05_Review_Round5.md", "Doc_05_Review_Round6.md", "Doc_05_CapRuling_Review.md"])
+    write(root, "Build/Ministry/Operations/Standing/Some_Decision_Log.md", "## 2026-10-05 \u2014 New sources\n\nx\n")
+    for n in (1, 2, 3):
+        write(root, f"Build/worlds/w/Doc_05_Review_Round{n}.md", review_text(n))
+    _reset(root, "Doc_05_Review_Round4.md", 4, field="New sources")
+    write(root, "Build/worlds/w/Doc_05_Review_Round5.md", review_text(5, cleared=False))
+    write(root, "Build/worlds/w/Doc_05_Review_Round6.md", review_text(6, cleared=False))
+    _rule_for(root, "w", ["Doc_05_CapRuling_Review.md"])
+    assert _latest(root) == "ruled review Doc_05_CapRuling_Review.md"
+
+
+def test_the_unruled_files_of_the_ruled_round_are_read_with_it(tmp_path):
+    root = _world(tmp_path, [f"Doc_05_Review_Round{i}.md" for i in (1, 2, 3, 4)] + ["Doc_05_Recheck_Round4.md"])
+    _rule_for(root, "w", ["Doc_05_Review_Round4.md"])
+    names = [p.name for p in latest_review(review_files("w", 5, root), root, "w")[1]]
+    assert sorted(names) == ["Doc_05_Recheck_Round4.md", "Doc_05_Review_Round4.md"]
+
+
+def test_ruled_files_without_a_round_number_are_ordered_by_number_not_by_text(tmp_path):
+    root = _world(tmp_path, ["Doc_05_Review_Round1.md", "Doc_05_Review_Round2.md", "Doc_05_Review_Round3.md", "Doc_05_CapRuling_Review3.md", "Doc_05_CapRuling_Review10.md"])
+    _rule_for(root, "w", ["Doc_05_CapRuling_Review3.md", "Doc_05_CapRuling_Review10.md"])
+    assert _latest(root) == "ruled review Doc_05_CapRuling_Review10.md"
+
+
 def test_the_command_exits_nonzero_with_three_files_and_check_new(tmp_path):
     root = _world(tmp_path, [f"Doc_05_Review_Round{i}.md" for i in (1, 2, 3)])
     run = lambda *extra: subprocess.run([sys.executable, "-m", "engine.m10.cli", "roundcount", "w", "5", "--root", str(root), *extra], capture_output=True, text=True).returncode  # noqa: E731

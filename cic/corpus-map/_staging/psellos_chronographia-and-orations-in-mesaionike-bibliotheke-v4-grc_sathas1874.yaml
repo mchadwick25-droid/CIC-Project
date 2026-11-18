@@ -1,0 +1,11 @@
+source_file: psellos_chronographia-and-orations-in-mesaionike-bibliotheke-v4-grc_sathas1874.txt
+assignments:
+- row_id: psellos_chronographia-and-orations-in-mesaionike-bibliotheke-v4-grc_sathas1874--michael-psellos-chronographia-and-orations-sathas-iv
+  work: 'Michael Psellos, Chronographia and orations (Sathas IV)'
+  author: psellos
+  locus: 'the whole volume; add 12 to OCR line numbers'
+  atlas_ids:
+  - byzantine-imperial-church-macedonian
+  role: context
+  confidence: provisional
+  note: 'Psellos''s Chronographia and orations. The Keroularios oration is a funeral oration, so it was written after his death, which falls after this entry''s end in 1054 (patriarch 1043-1058, era 4 audit).'

@@ -1,0 +1,52 @@
+{
+  "round": 2,
+  "verdict": "revise",
+  "findings": [
+    {
+      "id": "R2-1",
+      "target": "constantine-the-great (p2)",
+      "field": "floorNote",
+      "severity": "substantial",
+      "problem": "The reviser kept the baptism dispute as Constantine's floorNote and says in the flags that it is a note 'about faith and doctrine'. It is not. It is a dispute between two sources (Eusebius against the Zachariah chronicle) over where and when he was baptized. It says nothing about whether he stands within the faith the Nicene Creed states. This is the same misuse B4 fixed for Patrick, Justinian, Bede and Grotius. The revision brief says source caveats go in sourcing. As the entry stands, the page shows a floor note that is not a floor judgment, and Constantine has no floor statement at all.",
+      "evidence": "p2/Draft_r1.json constantine-the-great.floorNote: 'How and when he was baptized is disputed. Eusebius says ... A Syriac chronicle that goes under Zachariah's name says Eusebius is wrong ...'. The flag 'FLOOR NOTES' says it stays 'as floor notes about faith and doctrine'. Release 29 floorNote values in cic-website/data/world-census.json (augustine-of-hippo, simeon-of-beth-arsham, john-calvin) each state the person's standing against the Nicene faith. Person_Revision_Brief.md: 'caveats about dates or sources go in sourcing'.",
+      "fix": "floorNote: 'Not in question. He called the bishops to the council at Nicaea.' (This scores FRE 81. Its second sentence rests on the existing row 'He called the bishops to Nicaea, says Eusebius'.) Move the two baptism paragraphs, unchanged, to the end of sourcing, and set their six fact rows to field sourcing. If the coordinator thinks the baptism bears on his faith, the floorNote must say how, from a source. Retelling the dispute does not do that."
+    },
+    {
+      "id": "R2-2",
+      "target": "constantine-the-great (p2)",
+      "field": "longDescription para 1 (reviser's departure under R12)",
+      "severity": "minor",
+      "problem": "To keep Reading Ease at 60, the reviser cut 'their edict' and wrote 'Eusebius copies it whole.' Now 'it' has no antecedent, because no sentence in the paragraph names the edict. A reader will take 'it' for 'the religion they chose'. The rest of the departure is accurate. 'In 312 Constantine began to tolerate the church' is R12's own text, and row 74 supports the freedom sentence.",
+      "evidence": "p2/Draft_r1.json: 'Together they gave Christians and all others the freedom to follow the religion they chose. Eusebius copies it whole.' npnf201 50285-50287: 'to grant both to the Christians and to all men freedom to follow the religion which they choose'.",
+      "fix": "'In 312 Constantine began to tolerate the church. Later he and Licinius met at Milan. Their edict gave Christians and all others the freedom to follow the religion they chose. Eusebius copies it whole.' (scored FRE 62.6, FK 6.6). Update row 74's sentence to match."
+    },
+    {
+      "id": "R2-3",
+      "target": "hugo-grotius (p4)",
+      "field": "longDescription para 3 (reviser's departure under M9)",
+      "severity": "minor",
+      "problem": "The rewording goes past Foster in two places. (a) 'It fell on all his fellow Arminians' adds 'all'. Foster says only 'the ban laid upon his fellow-Arminians'. (b) 'He found a kinder welcome among the English ones' leaves 'He' unclear (Foster is the last person named). 'Welcome' also suggests a personal welcome. Foster's 'kinder reception' is about how his ideas were received: the next lines say his works 'were highly prized in England'.",
+      "evidence": "cic/texts/grotius_defence-of-the-catholic-faith-satisfaction-of-christ_foster1889.txt 754-757: 'The Arminia[ns were] condemned at Dort ... Grotius suffered under the ban laid upon his fellow-Arminians. As a commentator, he received ...'; 1264-1272: 'Among the English Arminians, however, Grotius found a different atmosphere, and a kinder reception ... Grotius's work upon international law and his defence of the Christian religion were highly prized in England'.",
+      "fix": "'Dort condemned the Remonstrants. Foster, who put the book into English, says Grotius shared the ban laid on his fellow Arminians. He adds that the English Arminians gave Grotius a kinder reception.' (scored FRE 61.2, FK 7.4). Rows 68 and 69 stand, with their sentences updated."
+    },
+    {
+      "id": "R2-4",
+      "target": "hugo-grotius (p4)",
+      "field": "fact_table row 62 (why / longDescription 'jurist of Holland')",
+      "severity": "minor",
+      "problem": "Row 62 cites the file's header Content note ('States of Holland's leading Remonstrant-side jurist'), lines 4-8. B2 ruled out that note as a source. Row 64 (the census voices line, 'jurist and Remonstrant sympathizer') supports 'jurist' and 'Remonstrant side'. No row from a source supports 'of Holland'. Foster's text speaks of 'the Arminians of Holland' (line 910) but never calls Grotius a jurist of Holland.",
+      "evidence": "Foster file line 8 is the header Content note. Line 910: 'the Arminians of Holland'. Draft row 64: census the-remonstrants-and-dort voices.",
+      "fix": "Delete row 62. longDescription para 1: 'Grotius was a jurist on the Remonstrant side. In 1617 he published at Leiden a treatise on theology.' (FRE 63.8). why: 'Hugo Grotius was a jurist who sided with the Remonstrants.' Both rest on row 64. Alternatively, keep 'of Holland' only if a vendored line or census field is cited for it."
+    },
+    {
+      "id": "R2-5",
+      "target": "basil-of-caesarea (p2)",
+      "field": "fact_table row 117 (longDescription para 1, R6)",
+      "severity": "minor",
+      "problem": "Para 1 now says Macrina kept 'the words of Gregory the Wonder-worker'. That is correct. But row 117 quotes only Letter 204 ('the blessed Gregory'), and its sentence claims 'whom the Library names as Gregory the Wonder-worker' without quoting that naming. Row 118 names him at a different passage (On the Holy Spirit 74). The Library does name him for this passage, in the editor's life of Basil, which points to Ep. 204.",
+      "evidence": "npnf208 1020-1027: 'Basil was taught the rudiments of religion by his grandmother ... in accordance with the teaching of the great Gregory the Wonder-worker.' with note 'See Ep. cciv.'",
+      "fix": "Add the row {entry basil-of-caesarea, field longDescription, file cic/texts/npnf208_basil-letters-select-works.xml, lines 1020-1027, quote 'the teaching of the great Gregory the Wonder-worker', grade Documented, sentence 'The Library's editor names the Gregory of Macrina's teaching as Gregory the Wonder-worker, citing Ep. 204.'}. Trim row 117's sentence to what its quote says."
+    }
+  ],
+  "checked": "Targeted recheck of what changed between Draft.json and Draft_r1.json in p1-p4, checked field by field with a diff script. check_draft.py ran on all four Draft_r1.json files and printed nothing but 'check done'. Every prose paragraph passes and every quote matches its cited lines. (1) Round-1 findings: R2, R4, R6, R7, R8, R9, R10, R11 and R12 are applied. R1, R3 and R5 are void because Pamphilus is held. B1-B7 and M1-M9 are applied, and the given texts and renderings are used as written. Fixes checked in the files: Grotius 1617 at Foster 360-364 and the row order after Arminius (1603); Mirbt 11184-11189 for Sackur and Deusdedit; Mirbt 10367-10381 for M2 including 'vel facient'; Mirbt 12139-12150 for M3; Mirbt 12274-12283 and 12392-12400 for Lateran IV and canon 21; Baxter's Pierce rows; Nennius 1213-1217 '(the Irish)'; Bede 15020-15024 and 15633-15637; the M1 Latin rows; Patrick's Q145/Q22890 row. The Nennius 'c. 829' row cites the file's Creator line for a date, which round 1 accepted for dates (Justinian, Grotius). (2) New and changed sentences have rows with verbatim quotes. Exceptions are R2-4 (a header note used as a source) and R2-5 (a naming not quoted). (3) Departures: Constantine's opening is accurate except for the dangling 'it' (R2-2). Grotius's longDescription is accurate except for 'all' and 'welcome' (R2-3, R2-4). The floorNote moves in p1 are accurate: Polycarp's and Methodius's caveats moved verbatim to sourcing, and Lactantius's note, Jerome's reservation on his teaching, stays as a doctrinal note. The p2 moves for Paula and Basil are accurate and Gregory of Nazianzus's note stays properly. Keeping Constantine's baptism dispute as a floor note is not accurate (R2-1). (4) Paula: sourcing now says 'Her own words survive in one letter, Letter 46' and names the editor's view that Jerome wrote it. voices[0] names her letter, the concerns tag on the circle link is removed, and the ruling B flag is filed. Nothing left in the entry denies her own words (npnf206 8730-8740 checked). Pamphilus: no entry, fact row, rows item, concerns, want or flag naming him (or the Apology or Rufinus) is left in p1/Draft_r1.json, checked by grep. Not re-reviewed: anything round 1 approved and nobody changed."
+}

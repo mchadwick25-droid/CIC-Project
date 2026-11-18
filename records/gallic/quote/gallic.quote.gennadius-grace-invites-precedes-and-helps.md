@@ -17,8 +17,7 @@ confidence:
     he does not quote it.
 sources:
 - source_id: gallic.source.gennadius-de-viris-illustribus
-  locus: "ch. LXXXVI (npnf203 div v.iv.lxxxvii, file lines 43695-43699): Gennadius's own summary of
-    Faustus's book On the Grace of God"
+  locus: "ch. LXXXVI (cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml, lines 43693-43699; div v.iv.lxxxvii): Gennadius's own summary of Faustus's book On the Grace of God"
   license: public-domain
 retrieval:
   tier: 2

@@ -1,0 +1,382 @@
+file: augustine_sermones-1-340-lat_migne-pl38.txt
+scheme: Maurist sermon numbers 1-340, read from the Roman numeral in each sermon heading (SERMO <numeral> with its footnote mark), addressed sermoNNN; inside the fourteen sermons that run over 5,000 words (4, 9, 32, 37, 46, 47, 51, 52, 71, 88, 117, 169, 277, 294) the printed CAPUT headings are a second level (sermoNNN/caputNN); in sermon 88 the printed head CAPITA VII et VIII is one division (caput07-08), and in sermon 294 CAPUT V and VI are printed in the middle of a line and have no division of their own; section numbers are not used
+curator: Sonnet 5.5
+status: sampled-ok
+rules:
+- id: sermon-first
+  pattern: '^SERMO PRIMUS '
+  lines:
+  - [937, 937]
+  locus: sermo001
+- id: sermon
+  pattern: ^(?:[*•] )?(?:SERMONIS|SERMO|SEHMO|SERHO|SEKMO|SEIiMO|SE HMO|Sermo|SERM\(j|SE11MO) (?P<n>[IVXLCivxclUHYPTrfRG1n.!]+) ?(?:[*•‘’“»■"'(\[]|[0-9,] \()
+  lines:
+  - [938, 104456]
+  locus: sermo{n|int:3}
+  number: n
+  ocr_map: {'1': I, l: I, i: I, U: II, H: II, Y: V, P: I, T: I, r: I, G: C, n: II, .: '', '!': I}
+  fixes:
+  - line: 55002
+    set: {n: CXLIII}
+  - line: 87661
+    set: {n: CCLXXIII}
+  - line: 4026
+    quote: SERMONIS VHP,
+    set: {n: VIII}
+  - line: 39023
+    quote: SEKMO KC
+    set: {n: XC}
+  - line: 69336
+    quote: SERMO CLXXX1K
+    set: {n: CLXXXIII}
+  - line: 77245
+    quote: SERMO CCIXVII
+    set: {n: CCXXVII}
+  - line: 77495
+    quote: SERMO CCXXI X
+    set: {n: CCXXIX}
+  - line: 77587
+    quote: SERMO CCXXXF
+    set: {n: CCXXXI}
+  - line: 99047
+    quote: SERMO CCdX
+    set: {n: CCCIX}
+  - line: 101235
+    quote: SERMO CCCMt
+    set: {n: CCCXIX}
+  - line: 103781
+    quote: SERMO CCCIXXYH
+    set: {n: CCCXXXVII}
+- id: caput
+  parent: sermon
+  pattern: ^(?:CAPUT|CA\.PUT|CAPllT|CAPU1|CAPITA)\.? ?'?(?P<c>PRIMUM|[IVXLCivxlcYH1|]+)[ .,]*[—_-]
+  lines:
+  - [1636, 2996]
+  - [4587, 5746]
+  - [13334, 14120]
+  - [15120, 16142]
+  - [18623, 20405]
+  - [20406, 21883]
+  - [23040, 24551]
+  - [24552, 25267]
+  - [30996, 32529]
+  - [46252, 46982]
+  - [64175, 64954]
+  - [88330, 89074]
+  locus: caput{c|int:2}
+  number: c
+  ocr_map: {'1': I, l: I, i: I, '|': I, H: II, Y: V}
+  fixes:
+  - line: 1912
+    quote: CAPUT V IH.
+    set: {c: VIII}
+  - line: 24188
+    quote: CAPUT XVII I.
+    set: {c: XVIII}
+  - line: 24348
+    quote: CAPUT XXL
+    set: {c: XXI}
+  - line: 46709
+    quote: CAPUT IXl
+    set: {c: IX}
+  - line: 13685
+    quote: CAPUT XU.
+    set: {c: XII}
+  - line: 13704
+    quote: CAPUT XU1.
+    set: {c: XIII}
+  - line: 20762
+    quote: CAPUT VIU.
+    set: {c: VIII}
+  - line: 24672
+    quote: CAPUT IU.
+    set: {c: III}
+  - line: 14049
+    quote: VPUT  XXVII.
+    set: {c: XXVII}
+  - line: 88756
+    quote: CAPUT  XII.
+    set: {c: XII}
+divisions:
+- start_line: 37668
+  parent: sermon
+  locus: caput01
+  title: ''
+- start_line: 37693
+  parent: sermon
+  locus: caput02
+  title: ''
+- start_line: 37742
+  parent: sermon
+  locus: caput03
+  title: ''
+- start_line: 37801
+  parent: sermon
+  locus: caput04
+  title: ''
+- start_line: 37864
+  parent: sermon
+  locus: caput05
+  title: ''
+- start_line: 37888
+  parent: sermon
+  locus: caput06
+  title: ''
+- start_line: 37916
+  parent: sermon
+  locus: caput07-08
+  title: ''
+- start_line: 37972
+  parent: sermon
+  locus: caput09
+  title: ''
+- start_line: 37997
+  parent: sermon
+  locus: caput10
+  title: ''
+- start_line: 38037
+  parent: sermon
+  locus: caput11
+  title: ''
+- start_line: 38105
+  parent: sermon
+  locus: caput12
+  title: ''
+- start_line: 38121
+  parent: sermon
+  locus: caput13
+  title: ''
+- start_line: 38151
+  parent: sermon
+  locus: caput14
+  title: ''
+- start_line: 38205
+  parent: sermon
+  locus: caput15
+  title: ''
+- start_line: 38259
+  parent: sermon
+  locus: caput16
+  title: ''
+- start_line: 38316
+  parent: sermon
+  locus: caput17
+  title: ''
+- start_line: 38356
+  parent: sermon
+  locus: caput18
+  title: ''
+- start_line: 38429
+  parent: sermon
+  locus: caput19
+  title: ''
+- start_line: 38522
+  parent: sermon
+  locus: caput20
+  title: ''
+- start_line: 38565
+  parent: sermon
+  locus: caput21
+  title: ''
+- start_line: 38617
+  parent: sermon
+  locus: caput22
+  title: ''
+- start_line: 93803
+  parent: sermon
+  locus: caput01
+  title: ''
+- start_line: 93858
+  parent: sermon
+  locus: caput02
+  title: ''
+- start_line: 93918
+  parent: sermon
+  locus: caput03
+  title: ''
+- start_line: 93985
+  parent: sermon
+  locus: caput04
+  title: ''
+- start_line: 94045
+  parent: sermon
+  locus: caput07
+  title: ''
+- start_line: 94095
+  parent: sermon
+  locus: caput08
+  title: ''
+- start_line: 94135
+  parent: sermon
+  locus: caput09
+  title: ''
+- start_line: 94190
+  parent: sermon
+  locus: caput10
+  title: ''
+- start_line: 94243
+  parent: sermon
+  locus: caput11
+  title: ''
+- start_line: 94275
+  parent: sermon
+  locus: caput12
+  title: ''
+- start_line: 94315
+  parent: sermon
+  locus: caput13
+  title: ''
+- start_line: 94351
+  parent: sermon
+  locus: caput14
+  title: ''
+- start_line: 94391
+  parent: sermon
+  locus: caput15
+  title: ''
+- start_line: 94441
+  parent: sermon
+  locus: caput16
+  title: ''
+- start_line: 94476
+  parent: sermon
+  locus: caput17
+  title: ''
+- start_line: 94512
+  parent: sermon
+  locus: caput18
+  title: ''
+- start_line: 94545
+  parent: sermon
+  locus: caput19
+  title: ''
+- start_line: 94595
+  parent: sermon
+  locus: caput20
+  title: ''
+- start_line: 94647
+  parent: sermon
+  locus: caput21
+  title: ''
+ignore:
+- pattern: '^(?:\S{1,6} )?(?:S\. AUGUSTINI EPISCOPI )?SERMO(?: [IVXLCivxclUHYPTrfGKd1n.!]{1,14})?\.?(?: (?=[A-Za-z]*[0-9«%$&])[0-9A-Za-z«»%$&]{1,6})?[ ,.]*$'
+  kind: running-head
+  lines: [938, 104456]
+- pattern: ^SERMO CLXV\*$
+  kind: running-head
+  lines:
+  - [63191, 63191]
+- pattern: '^(?:[0-9]{1,4} )?S\. AUGUSTINI EPISCOPI(?: [0-9A-Za-z*]{1,5})?$'
+  kind: running-head
+  lines: [938, 104456]
+- pattern: ^Digitized by
+  kind: scanner-mark
+  lines: [11, 104456]
+- pattern: ^Google$
+  kind: scanner-mark
+  lines: [11, 104456]
+- pattern: ^[0-9]{1,4}$
+  kind: page-number
+  lines: [938, 104456]
+apparatus:
+- lines: [11, 936]
+  kind: front
+  locus: front
+- lines: [69759, 69770]
+  kind: front
+  locus: classis2-title
+- lines: [87649, 87660]
+  kind: front
+  locus: classis3-title
+evidence:
+- {line: 937, quote: SERMO PRIMUS * (a).}
+- {line: 1128, quote: SERMO 11 • (a).}
+- {line: 4587, quote: SERMO IX* (a).}
+- {line: 72895, quote: CCIV.}
+- {line: 91102, quote: SEliUO CCL XXXVL rm}
+- {line: 19675, quote: 285 SERMO XLYI.}
+- {line: 78213, quote: 1113 SERMO CCXXX1IL 1114}
+- {line: 25299, quote: SERMO Llii.}
+- {line: 17120, quote: 949 SERMO XL1. 250}
+- {line: 21236, quote: SERMO XLVII.}
+- {line: 104293, quote: SERMO CCCXL * (a).}
+- {line: 34380, quote: SERMO LXX1X* (o).}
+- {line: 20406, quote: SERMO XLVIl * (a).}
+- {line: 42681, quote: SERMO Cii * (a).}
+- {line: 9881, quote: SERMO XXU* (a).}
+- {line: 10049, quote: SERMO XXII.}
+- {line: 17343, quote: SERMO XLH * (a).}
+- {line: 51626, quote: SERMO CXXXIH * (a).}
+- {line: 51755, quote: SERMO CXXXIII.}
+- {line: 17767, quote: SERMO XLIY * (a).}
+- {line: 3493, quote: SERMO VP (a).}
+- {line: 26159, quote: SERMO LVT(o).}
+- {line: 18623, quote: SERMO XLVr(a).}
+- {line: 72837, quote: SERMO GCIV* (a).}
+- {line: 78165, quote: SERMO CCXXXin. * (b).}
+- {line: 4026, quote: 'SERMONIS VHP,'}
+- {line: 4294, quote: SERMO VIII.}
+- {line: 39023, quote: SEKMO KC*(«).}
+- {line: 39164, quote: 561 SERMO XC. 5S*}
+- {line: 69336, quote: SERMO CLXXX1K * («).}
+- {line: 69379, quote: '90(, SERMO CLXXXllI. m'}
+- {line: 77587, quote: SERMO CCXXXF(a).}
+- {line: 77643, quote: DOS SEUMO CCXXXl. 110»}
+- {line: 77495, quote: SERMO CCXXI X*(a).}
+- {line: 99047, quote: SERMO CCdX ‘(a).}
+- {line: 99099, quote: SERMO CCCIX.}
+- {line: 55002, quote: 'SERMO CXLIR * (a,.'}
+- {line: 55034, quote: SERMO CX LUI.}
+- {line: 87661, quote: SERMO CCI.XXHI * In).}
+- {line: 87719, quote: SERMO CCLXXlll.}
+- {line: 77245, quote: 'SERMO CCIXVII* (a),'}
+- {line: 101235, quote: SERMO CCCMt * (a).}
+- {line: 103781, quote: SERMO CCCIXXYH * (b).}
+- {line: 70339, quote: SERMO CLXXXVHI*(a).}
+- {line: 79062, quote: SERMO CCXXXVllI *„}
+- {line: 89075, quote: SERMO CCLXXV11! * (a).}
+- {line: 90318, quote: SERMO CCLXXXU1 * (a).}
+- {line: 91417, quote: 'SERMO CCLXXXVH * (a),'}
+- {line: 91504, quote: SERMO CCLXXXVH! ‘ (a).}
+- {line: 102087, quote: SERMO CCCXXVIII * (a).}
+- {line: 102932, quote: SERMO CCCXXXlil * (b).}
+- {line: 103979, quote: SERMO CCCXXXVlir (a).}
+- {line: 63191, quote: SERMO CLXV*}
+- {line: 63290, quote: SERMO CLXV • (i).}
+- {line: 69763, quote: SERMONES}
+- {line: 69768, quote: 'CLASSIS IL DE TEMPORE ,'}
+- {line: 87649, quote: S. AURELII AUGUSTINI}
+- {line: 87658, quote: CLASSIS III. DE SANCTIS.}
+- {line: 935, quote: CLASSIS PRIMA.}
+- {line: 1642, quote: 'CAPUT PRIMUM. — i. Spirilualiler'}
+- {line: 1673, quote: 'CAPUT 11. —'}
+- {line: 1854, quote: 'CAPUT VH —'}
+- {line: 1912, quote: 'CAPUT V IH. —'}
+- {line: 2656, quote: 'CAPUT XXV11I. —'}
+- {line: 2981, quote: 'CAPUT XXXIV. —'}
+- {line: 13685, quote: 'CAPUT XU. —'}
+- {line: 13704, quote: 'CAPUT XU1. —'}
+- {line: 14049, quote: 'VPUT XXVII. — 27.'}
+- {line: 14088, quote: 'CAPUT XXVIII. —'}
+- {line: 20762, quote: 'CAPUT VIU. —'}
+- {line: 24188, quote: 'CAPUT XVII I. —'}
+- {line: 24348, quote: 'CAPUT XXL —'}
+- {line: 24672, quote: 'CAPUT IU. —'}
+- {line: 38617, quote: 'CAPUT XXU.—'}
+- {line: 37916, quote: 'CAPITA VII et VIII. —'}
+- {line: 37972, quote: 'CAPUT IX. — 8.'}
+- {line: 46465, quote: 'CAPUT |V. —'}
+- {line: 46709, quote: 'CAPUT IXl —'}
+- {line: 88756, quote: 'CAPUT XII. — 12.'}
+- {line: 93918, quote: 'CAPUT IU. —'}
+- {line: 93985, quote: 'CAPUT IV. — Ecce exposuit'}
+- {line: 93997, quote: 'non CAPUT VI. — Respondete'}
+- {line: 94045, quote: 'CAPUT VII. — 7.'}
+- {line: 94275, quote: 'C.iPUT XII. — Misit'}
+- {line: 94647, quote: 'CAPUT XXI. — 20.'}
+- {line: 4294, quote: 'SERMO VIII.'}
+- {line: 69379, quote: 'SERMO CLXXXllI.'}
+- {line: 63290, quote: 'SERMO CLXV • (i).'}
+- {line: 103885, quote: 'SERMO GCCXXXYIU'}
+- {line: 101411, quote: 'SERMO CCCXX*'}
+- {line: 77382, quote: 'SERMO CCXXVIIl'}

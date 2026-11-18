@@ -1,0 +1,95 @@
+{
+  "name": "Michael I of Alexandria",
+  "otherNames": [
+    "Khail",
+    "Kha'il",
+    "Chail"
+  ],
+  "knownFor": "Coptic patriarch of Alexandria through the fall of the caliph Marwan. His life in the History is told by John the deacon, who shared his prisons.",
+  "dates": "B. Evetts heads the life 744 to 768, and the title of his volume gives 766. The History says a council met in the year 459 of Diocletian, and he was consecrated on the 17th of Tut. He died on the 16th of Barmahat, after twenty-three and a half years by a record at Saint Macarius",
+  "place": "Alexandria. A priest at the church of Saint Macarius in Wadi Habib, the History says, and a monk there, the synaxaria say. Held in prison at Misr and at Giza",
+  "tradition": "Coptic Christianity under Early Islam",
+  "role": "Patriarch of Alexandria, the forty-sixth in the History's count",
+  "briefLength": "about 2 minutes",
+  "keyWorks": [
+    {
+      "title": "Letter to the governors on the church of Saint Mennas at Mareotis",
+      "about": "written in Coptic and in Arabic, the History says, which quotes part of it. It opens in the name of the bishop of Alexandria and of the Theodosian people"
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "He won back the church of Saint Mennas at Mareotis from the Melkites before a judge. The founders' names on its pillars proved his case, the History says.",
+      "He ordered by letter that none of the faithful should take communion unless fasting, the History says.",
+      "He restored the church of Alexandria, stripped in Alexander II's time, and built churches east and west of the town.",
+      "He would not accept Isaac of Harran, whom the caliph made patriarch of Antioch, because no bishop should become patriarch."
+    ],
+    "remembered": [
+      "The Arabic Synaxarium, the Coptic church's book of saints' days, keeps him on the 16th of Barmahat in René Basset's French. It makes the king who marched for him a king of Abyssinia.",
+      "The Ethiopic Synaxarium, in E. A. Wallis Budge's English, keeps him on the 16th of Magabit.",
+      "The Arabic Synaxarium's notice of Masis, bishop of Ousim, who shared his sufferings, calls Michael a martyr without the shedding of blood. One manuscript reads the bishop's name as Mosas.",
+      "Eusèbe Renaudot, a Catholic scholar writing in Latin in 1713, mocks the life's many miracles. He calls the king's march nearer fable than history."
+    ]
+  },
+  "uncertain": [
+    "His life rests on the History of the Patriarchs, a later Arabic history of the Coptic church. Its writer, John the deacon, was an eyewitness. He calls Moses, bishop of Wasim, his spiritual father.",
+    "Who marched for him. John calls Cyriacus king of the Nubians and of al-Mukurrah. The synaxaria make him a king of Abyssinia or Ethiopia. Renaudot thinks he was probably Ethiopian.",
+    "The army. The History gives a hundred thousand horsemen, a hundred thousand horses and a hundred thousand camels. Budge's Ethiopic gives ten thousand horses.",
+    "His years. B. Evetts's heading gives 744 to 768, and the title of Evetts's volume gives 766. Basset's synaxarium brackets 743 to 767. Renaudot argues for an ordination about 741 or 742.",
+    "Who John was. He wore a monk's habit and once spoke of the villages of his diocese. No held line says he was made a bishop.",
+    "His successor. Michael's life does not name him. Renaudot names Mennas, a monk of Saint Macarius and one of his disciples.",
+    "The governor's name. The History calls him Abd al-Malik, son of Musa, son of Nasir. A book on the churches of Egypt, under the name of Abu Salih, names Saladin. B. Evetts, its translator, calls that a copyist's slip."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "History of the Patriarchs of the Coptic Church of Alexandria, life of Michael I, with his letter on the church of Saint Mennas, in Patrologia Orientalis 5 (tr. B. Evetts)",
+        "author": "Michael I of Alexandria",
+        "date": "1910",
+        "language": "Arabic with English translation",
+        "file": "cic/texts/chronicle-of-seert_histoire-nestorienne-premiere-partie-fasc2-patrologia-orientalis-5-ara-fra_scher-dib1910.txt"
+      }
+    ],
+    "about": [
+      {
+        "title": "History of the Patriarchs of the Coptic Church of Alexandria, life of Michael I, by John the deacon, in Patrologia Orientalis 5 (tr. B. Evetts)",
+        "author": "Attributed to Severus ibn al-Muqaffa",
+        "date": "1910",
+        "language": "Arabic with English translation",
+        "file": "cic/texts/chronicle-of-seert_histoire-nestorienne-premiere-partie-fasc2-patrologia-orientalis-5-ara-fra_scher-dib1910.txt"
+      },
+      {
+        "title": "Historia patriarcharum Alexandrinorum Jacobitarum",
+        "author": "Eusèbe Renaudot",
+        "date": "1713",
+        "language": "Latin",
+        "file": "cic/texts/renaudot_historia-patriarcharum-alexandrinorum-jacobitarum-lat_1713.txt"
+      },
+      {
+        "title": "Le Synaxaire arabe jacobite, Barmahat to Bachons, 16 Barmahat, in Patrologia Orientalis 16 (tr. René Basset)",
+        "date": "1922",
+        "language": "Arabic with French translation",
+        "file": "cic/texts/patrologia-orientalis-tomus16_synaxaire-arabe-jacobite-barmahat-bachons-synaxaire-armenien-tre-fra_graffin-nau1922.txt"
+      },
+      {
+        "title": "Le Synaxaire arabe jacobite, Baounah to Mesore, 11 Mesore, bound in Patrologia Orientalis 17 (tr. René Basset)",
+        "date": "1923",
+        "language": "Arabic with French translation",
+        "file": "cic/texts/john-ephesus_lives-eastern-saints-po17_brooks1923.txt"
+      },
+      {
+        "title": "The Book of the Saints of the Ethiopian Church, volumes 2 to 4, 16 Magabit (tr. E. A. Wallis Budge)",
+        "date": "1928",
+        "language": "English translation",
+        "file": "cic/texts/ethiopian-synaxarium_book-of-saints-ethiopian-church-v2-v4-microform_budge1928.txt"
+      },
+      {
+        "title": "The Churches and Monasteries of Egypt (tr. B. T. A. Evetts, notes by Alfred J. Butler)",
+        "author": "Attributed to Abu Salih the Armenian",
+        "date": "1895",
+        "language": "English translation",
+        "file": "cic/texts/abu-salih_churches-and-monasteries-of-egypt_evetts1895.txt"
+      }
+    ]
+  }
+}

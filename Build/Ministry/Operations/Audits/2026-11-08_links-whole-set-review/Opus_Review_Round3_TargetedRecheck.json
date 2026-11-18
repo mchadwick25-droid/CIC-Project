@@ -1,0 +1,15 @@
+{
+ "round": 3,
+ "verdict": "pass",
+ "counts": {"blocking": 0, "substantial": 0, "minor": 0, "resolved": 3, "not_resolved": 0},
+ "checked": "The 3 entries in Diff_round2_revision.json read old against new and matched to cic-website/data/world-census.json (each changed field equals the diff's new value; one census entry per id; type and confidence unchanged). Vendored Avvakum lines 1870-1878 reread. Changed notes and outcome scored with engine.m7.turn_readability.score_turn. Census-wide check: 'Rainier' appears 0 times; no link note or outcome on canon 1 of Constantinople (381) still uses 'cursed' (Eunomian 1272, Pneumatomachian 1429/1464, Apollinarian 1524 all 'condemned'; Arian 2582 'names ... among the heresies it rejects'). Validator `node tools/validate-census.mjs --base .../main/base_census.json` -> 301 movements, 577 edges, 10 eras, 0 errors, 2 warnings (shortName length only, unchanged since round 1).",
+ "resolved": [
+  {"rid": "R2-01", "status": "resolved", "note": "Note is the required text verbatim; 'of St Basil's' is gone and 'an archpriest in Moscow' agrees with Conybeare and Subbotin. Added source at 1873-1876 is verbatim against the vendored lines (line breaks joined, 'arch- priest' hyphenation and the curly apostrophe kept as printed) and shows exactly what the note uses it for: Neronov, 'the arch- priest John', in Moscow. Placed as primary, same work and file, locus 'Life, arrival in Moscow'; 2107-2109 kept as required. FRE 64.9, FK 7.2; sentences 18/15/7/10 words. Documented still earned."},
+  {"rid": "R2-02", "status": "resolved", "note": "Source work string now 'Rainerius Sacconi'; no other field changed; 'Rainier' appears nowhere in the census."},
+  {"rid": "R2-03", "status": "resolved", "note": "Note and outcome are the required text verbatim. Note FRE 60.2, FK 8.9 (sentences 20/17/19/12); outcome FRE 62.8, FK 6.9 (7/10/11). Canon 1 of 381 is now 'condemned' in every link that renders it. American spelling; no internal language."}
+ ],
+ "findings": [],
+ "observations": [
+  "Not a finding, outside this review's link scope: the Anomoean movement's relationsSummary (census line 28887) says the First Council of Constantinople 'formally cursed' the party by name. It is a movement field, not a link note, and was not part of R1-09 or R2-03. Flag only, for the owner of the movement texts if one-rendering-per-canon is wanted beyond the links."
+ ]
+}

@@ -85,7 +85,7 @@ senses:
     his arms to the river's bank," and it was revealed to the Abbot "that he had done the deed of
     Abraham." A count's son hawks ten baskets through the streets, "gaining through the grace of
     obedience that humility of Christ which is the true nobility." At Tours the word is scarcely used
-    and the thing is felt: Sulpitius, given the place of honour at Martin's table, "felt so overcome
+    and the thing is felt: Sulpitius, given the place of honor at Martin's table, "felt so overcome
     by the authority he unconsciously exerted, that I deemed it unlawful to do anything but
     acquiesce."
   evidential: >-

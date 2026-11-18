@@ -32,4 +32,4 @@ discovery_channel: builder-prior-knowledge / field knowledge, with the bibliogra
 external_ids:
   don_source_registry_row: 24
 ---
-The standard corrective to Frend's social-substrate reading (Doc_02 SS5), and the field's standard treatment of how hostile polemic shaped the Circumcellion/agonistici picture. Doc_02 SS6 keeps the group's ATTESTED EXISTENCE (Codex Theodosianus 16.5.52, Registry rows 16 and 51) rigorously separate from its polemically-shaped CHARACTERISATION, which is what this row bears on.
+The standard corrective to Frend's social-substrate reading (Doc_02 SS5), and the field's standard treatment of how hostile polemic shaped the Circumcellion/agonistici picture. Doc_02 SS6 keeps the group's ATTESTED EXISTENCE (Codex Theodosianus 16.5.52, Registry rows 16 and 51) rigorously separate from its polemically-shaped CHARACTERIZATION, which is what this row bears on.

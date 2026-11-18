@@ -1,0 +1,11 @@
+source_file: joseph-ha-kohen_chronicles-of-rabbi-joseph-ben-joshua-ben-meir-v1_bialloblotzky1835.txt
+assignments:
+- row_id: joseph-ha-kohen_chronicles-of-rabbi-joseph-ben-joshua-ben-meir-v1_bialloblotzky1835--joseph-ha-kohen-chronicles-divrei-ha-yamim-volume-1-bialloblotzky
+  work: 'Joseph ha-Kohen, Chronicles (Divrei ha-Yamim), volume 1 (Bialloblotzky)'
+  author: joseph-ha-kohen
+  locus: 'the whole volume; not mapped'
+  atlas_ids:
+  - the-tridentine-church
+  role: context
+  confidence: assigned
+  note: "A Jewish chronicler in a translator's English; an outside witness. No census entry is the Jews of Europe, so the work sits on this entry."

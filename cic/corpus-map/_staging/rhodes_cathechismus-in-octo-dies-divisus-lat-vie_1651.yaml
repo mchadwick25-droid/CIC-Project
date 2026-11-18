@@ -1,0 +1,13 @@
+source_file: rhodes_cathechismus-in-octo-dies-divisus-lat-vie_1651.txt
+assignments:
+- row_id: rhodes_cathechismus-in-octo-dies-divisus-lat-vie_1651--rhodes-cathechismus-in-octo-dies-divisus
+  work: 'Rhodes, Cathechismus in octo dies divisus, Latin and Vietnamese (Rome 1651)'
+  author: rhodes
+  locus: 'the eight days at OCR lines 109-25890; add 12 to OCR line numbers'
+  atlas_ids:
+  - vietnamese-catholicism-to-1815
+  role: tradition
+  confidence: needs-ruling
+  language: lat-vie
+  date: {start: 1651, end: 1651, source: "the Society's licence, dated 'Romae 8. Iulij 1651' (OCR line 78, confirmed on the page image, leaf n6)", formation_confidence: Documented}
+  note: 'A catechism for those preparing for baptism, in eight days, in Latin beside Vietnamese in Roman letters. Only the Latin can be read in this file. Printed in 1651, as this entry''s window opens; the mission it was made for is earlier, so the shelf needs a ruling.'

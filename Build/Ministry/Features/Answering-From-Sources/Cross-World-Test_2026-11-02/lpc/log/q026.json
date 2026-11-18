@@ -1,0 +1,239 @@
+{
+ "draft": "What we never settled was whether a baptism given outside our one church counts at all [[lpc.term.heresy]] [[as:paraphrase]]. We answered that question twice, in two different ways, a century and a half apart [[lpc.term.heresy]] [[as:paraphrase]]. Cyprian's council said such a baptism did not count, while Augustine said it was given, though it did no good there [[lpc.term.heresy]] [[as:paraphrase]].\n\nAugustine argued at book length that the ruling of Cyprian's council was wrong [[lpc.witness.communion-over-separation]] [[as:paraphrase]]. Yet Augustine never put Cyprian outside our communion [[lpc.witness.communion-over-separation]] [[lpc.witness.answerability-as-ground]] [[as:paraphrase]]. We do not pretend that being answerable for someone makes this question easy [[lpc.witness.answerability-as-ground]] [[as:paraphrase]].\n\nA second tension never became one rule. The confessors held that their suffering gave them standing to ask peace for the lapsed [[lpc.witness.confessor-claim-vs-regulated-peace]] [[lpc.term.confessor]] [[as:paraphrase]]. The church answered that a name must be set down, then examined before the whole congregation [[lpc.witness.confessor-claim-vs-regulated-peace]] [[as:paraphrase]]. We hold both as real, and we have never found the place where they become one settled rule [[lpc.witness.confessor-claim-vs-regulated-peace]] [[as:paraphrase]].\n",
+ "ending": "rewritten",
+ "final": "We answered the question of baptism outside our one church twice, in two different ways, a century and a half apart. Cyprian's council said a baptism given outside our one church did not count, while Augustine said the baptism was given, though it did no good there. Augustine argued at book length that the ruling of Cyprian's council was wrong. Yet Augustine never put Cyprian outside our communion. We do not pretend that being answerable for someone makes the question of baptism outside our one church easy. The confessors held that their suffering gave them standing to ask peace for the lapsed. The church answered that a name must be set down, then examined before the whole congregation. We hold both as real, and we have never found the place where the confessors' claim and the church's process become one settled rule.",
+ "group": "A",
+ "offered": [],
+ "placements": [],
+ "question": "Was there a part of your own community's life that unsettled you?",
+ "question_id": "q026",
+ "read": {
+  "dropped": [],
+  "status": "rewrite",
+  "unsupported": {
+   "0": {
+    "problem": "other",
+    "reason": "The records say the question was answered twice in different ways but never state that it was never settled, which is an absence claim.",
+    "supported": false
+   }
+  }
+ },
+ "rewrite": [
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "lpc.term.heresy"
+   ],
+   "sentence": "We answered the question of baptism outside our one church twice, in two different ways, a century and a half apart.",
+   "tags": [
+    "lpc.term.heresy"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "lpc.term.heresy"
+   ],
+   "sentence": "Cyprian's council said a baptism given outside our one church did not count, while Augustine said the baptism was given, though it did no good there.",
+   "tags": [
+    "lpc.term.heresy"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "lpc.witness.communion-over-separation"
+   ],
+   "sentence": "Augustine argued at book length that the ruling of Cyprian's council was wrong.",
+   "tags": [
+    "lpc.witness.communion-over-separation"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "lpc.witness.communion-over-separation",
+    "lpc.witness.answerability-as-ground"
+   ],
+   "sentence": "Yet Augustine never put Cyprian outside our communion.",
+   "tags": [
+    "lpc.witness.communion-over-separation",
+    "lpc.witness.answerability-as-ground"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "lpc.witness.answerability-as-ground"
+   ],
+   "sentence": "We do not pretend that being answerable for someone makes the question of baptism outside our one church easy.",
+   "tags": [
+    "lpc.witness.answerability-as-ground"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "lpc.witness.confessor-claim-vs-regulated-peace",
+    "lpc.term.confessor"
+   ],
+   "sentence": "The confessors held that their suffering gave them standing to ask peace for the lapsed.",
+   "tags": [
+    "lpc.witness.confessor-claim-vs-regulated-peace",
+    "lpc.term.confessor"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "lpc.witness.confessor-claim-vs-regulated-peace"
+   ],
+   "sentence": "The church answered that a name must be set down, then examined before the whole congregation.",
+   "tags": [
+    "lpc.witness.confessor-claim-vs-regulated-peace"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "lpc.witness.confessor-claim-vs-regulated-peace"
+   ],
+   "sentence": "We hold both as real, and we have never found the place where the confessors' claim and the church's process become one settled rule.",
+   "tags": [
+    "lpc.witness.confessor-claim-vs-regulated-peace"
+   ]
+  }
+ ],
+ "sentences": [
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 0,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "What we never settled was whether a baptism given outside our one church counts at all.",
+   "tags": [
+    "lpc.term.heresy"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 1,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "We answered that question twice, in two different ways, a century and a half apart.",
+   "tags": [
+    "lpc.term.heresy"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 2,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Cyprian's council said such a baptism did not count, while Augustine said it was given, though it did no good there.",
+   "tags": [
+    "lpc.term.heresy"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 3,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Augustine argued at book length that the ruling of Cyprian's council was wrong.",
+   "tags": [
+    "lpc.witness.communion-over-separation"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 4,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Yet Augustine never put Cyprian outside our communion.",
+   "tags": [
+    "lpc.witness.communion-over-separation",
+    "lpc.witness.answerability-as-ground"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 5,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "We do not pretend that being answerable for someone makes this question easy.",
+   "tags": [
+    "lpc.witness.answerability-as-ground"
+   ]
+  },
+  {
+   "decision": "withhold_unbound",
+   "label": null,
+   "n": 6,
+   "placed": false,
+   "placed_id": null,
+   "reason": "no valid binding",
+   "sentence": "A second tension never became one rule.",
+   "tags": []
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 7,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "The confessors held that their suffering gave them standing to ask peace for the lapsed.",
+   "tags": [
+    "lpc.witness.confessor-claim-vs-regulated-peace",
+    "lpc.term.confessor"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 8,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "The church answered that a name must be set down, then examined before the whole congregation.",
+   "tags": [
+    "lpc.witness.confessor-claim-vs-regulated-peace"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 9,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "We hold both as real, and we have never found the place where they become one settled rule.",
+   "tags": [
+    "lpc.witness.confessor-claim-vs-regulated-peace"
+   ]
+  }
+ ],
+ "shipped_by_net": "What we never settled was whether a baptism given outside our one church counts at all. We answered that question twice, in two different ways, a century and a half apart. Cyprian's council said such a baptism did not count, while Augustine said it was given, though it did no good there.\n\nAugustine argued at book length that the ruling of Cyprian's council was wrong. Yet Augustine never put Cyprian outside our communion. We do not pretend that being answerable for someone makes this question easy.\n\nA second tension never became one rule. The confessors held that their suffering gave them standing to ask peace for the lapsed. The church answered that a name must be set down, then examined before the whole congregation. We hold both as real, and we have never found the place where they become one settled rule.",
+ "sub_question": "C17.S4"
+}

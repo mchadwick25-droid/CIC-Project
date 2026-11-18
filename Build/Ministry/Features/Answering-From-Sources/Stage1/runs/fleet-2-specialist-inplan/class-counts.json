@@ -1,0 +1,65 @@
+{
+  "pool_items": 397,
+  "unlabelled_after_retry": 1,
+  "class_by_draw": {
+    "cue:embedded_voice": {
+      "supported": 7,
+      "unsupported": 3,
+      "negation_modal_shift": 1,
+      "no_claim": 1
+    },
+    "cue:false_friend": {
+      "supported": 77,
+      "unsupported": 23,
+      "cannot_judge": 5,
+      "generalisation": 2,
+      "negation_modal_shift": 1,
+      "false_friend": 1
+    },
+    "cue:generalisation": {
+      "supported": 30,
+      "no_claim": 2,
+      "unsupported": 16,
+      "generalisation": 4,
+      "negation_modal_shift": 3,
+      "embedded_voice": 1
+    },
+    "cue:negation_modal": {
+      "supported": 84,
+      "unsupported": 22,
+      "negation_modal_shift": 3,
+      "cannot_judge": 6,
+      "no_claim": 3,
+      "generalisation": 1
+    },
+    "random": {
+      "supported": 72,
+      "unsupported": 20,
+      "cannot_judge": 3,
+      "negation_modal_shift": 2,
+      "no_claim": 3
+    }
+  },
+  "other_classes_by_draw": {
+    "cue:false_friend": {
+      "unsupported_other": 4,
+      "negation_modal_shift": 1,
+      "generalisation": 1
+    },
+    "cue:generalisation": {
+      "generalisation": 4,
+      "unsupported_other": 4,
+      "negation_modal_shift": 2,
+      "embedded_voice": 1
+    },
+    "cue:negation_modal": {
+      "negation_modal_shift": 3,
+      "generalisation": 1,
+      "unsupported_other": 2
+    },
+    "random": {
+      "unsupported_other": 2
+    }
+  },
+  "note": "Counts are the specialist labels before Mark adjudicates. Items drawn by a cue are not a random sample; only the random draw gives natural rates."
+}

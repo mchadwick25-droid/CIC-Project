@@ -1,0 +1,6327 @@
+{
+ "rows": {
+  "lutheran-wittenberg-and-its-congregations": [
+   {
+    "person": "martin-luther"
+   },
+   {
+    "name": "Philipp Melanchthon",
+    "year": 1530,
+    "voice": 1,
+    "author": "melanchthon",
+    "held": "melanchthon_apology-augsburg-confession_bente-dau1921--the-apology-of-the-augsburg-confession"
+   }
+  ],
+  "the-reformed-cities-zurich-and-geneva": [
+   {
+    "name": "Huldrych Zwingli",
+    "year": 1519,
+    "voice": 0,
+    "author": "zwingli",
+    "held": "zwingli_selected-works_jackson1901--selected-works-letter-to-erasmus-the-petition-to-the-bishop"
+   },
+   {
+    "name": "Heinrich Bullinger",
+    "year": 1531,
+    "voice": 1,
+    "author": "bullinger",
+    "held": "schaff_second-helvetic-confession-heidelberg-catechism_1919--the-second-helvetic-confession-1566"
+   },
+   {
+    "person": "john-calvin"
+   },
+   {
+    "name": "Theodore Beza",
+    "year": 1564,
+    "voice": 3,
+    "author": "beza",
+    "held": "beza_job-expounded_legatt1589--job-expounded-by-theodore-beza-partly-in-manner-of-a"
+   }
+  ],
+  "the-anabaptist-movements": [
+   {
+    "name": "Conrad Grebel",
+    "year": 1525,
+    "voice": 0,
+    "source": {
+     "work": "Konrad Grebel and Marx Bosshard to the Zurich council (July 1525), in Emil Egli, Actensammlung zur Geschichte der Zürcher Reformation (1879), no. 766",
+     "file": "cic/texts/zurich-council_actensammlung-zuercher-reformation-deu_egli1879.txt",
+     "lines": "23098-23100",
+     "quote": "so wir üch, unseren gnädigen Herren, in allerlei zitlichen, dienst- lichen händlen mit gehorsami dienen könnend, sind wir willig und bereit"
+    }
+   },
+   {
+    "name": "Felix Manz",
+    "year": 1527,
+    "voice": 1,
+    "source": {
+     "work": "Felix Manz, admonition to his brethren, in Thieleman J. van Braght, Martyrs Mirror (English, 1886)",
+     "file": "cic/texts/van-braght_martyrs-mirror_sohm1886.txt",
+     "lines": "58479-58481",
+     "quote": "My heart rejoices in God, who gives me much knowledge and wisdom, that I may escape the eter- nal, and never-ending death."
+    }
+   },
+   {
+    "name": "Michael Sattler",
+    "year": 1527,
+    "voice": 2,
+    "source": {
+     "work": "Michael Sattler, letter from prison to the church at Horb (1527), in van Braght, Martyrs Mirror (English, 1886)",
+     "file": "cic/texts/van-braght_martyrs-mirror_sohm1886.txt",
+     "lines": "58970-58972",
+     "quote": "I can not forget you ; though I am not present with the body (Col. 2 :5), yet I continually care for and watch over you, as my fellow members,"
+    }
+   },
+   {
+    "name": "Menno Simons",
+    "year": 1536,
+    "voice": 3,
+    "author": "menno-simons",
+    "held": "menno-simons_complete-works_funk1871--the-complete-works-of-menno-simon-s"
+   },
+   {
+    "name": "Anneken Jans",
+    "year": 1539,
+    "voice": 4,
+    "source": {
+     "work": "Anneken Jans ('Anna of Rotterdam'), testament to her son Isaiah (1539), in van Braght, Martyrs Mirror (English, 1886)",
+     "file": "cic/texts/van-braght_martyrs-mirror_sohm1886.txt",
+     "lines": "63828-63830",
+     "quote": "Behold, I go today the way of the prophets, apostles and martyrs, and drink of the cup of which they all have drank."
+    }
+   }
+  ],
+  "the-english-reformation-and-elizabethan-settleme": [
+   {
+    "person": "william-tyndale"
+   },
+   {
+    "name": "Thomas Cranmer",
+    "year": 1533,
+    "voice": 0,
+    "author": "cranmer",
+    "held": "cranmer_miscellaneous-writings-and-letters_cox1846--letters-of-thomas-cranmer"
+   },
+   {
+    "name": "John Jewel",
+    "year": 1562,
+    "voice": 2,
+    "author": "jewel",
+    "held": "jewel_apologia-ecclesiae-anglicanae-lat_1838--apologia-ecclesiae-anglicanae-1562-the-latin-original"
+   },
+   {
+    "name": "John Foxe",
+    "year": 1563,
+    "voice": 4,
+    "author": "foxe",
+    "held": "foxe_acts-and-monuments-v7_cattley-townsend1837--the-acts-and-monuments-vol-vii-the-marian-persecution-of-1555"
+   },
+   {
+    "name": "Richard Hooker",
+    "year": 1593,
+    "voice": 3,
+    "author": "hooker",
+    "held": "hooker_laws-of-ecclesiastical-polity-books-1-5_keble1850--of-the-laws-of-ecclesiastical-polity-preface-and-books-i-v"
+   }
+  ],
+  "the-scottish-reformation-and-kirk": [
+   {
+    "name": "John Knox",
+    "year": 1560,
+    "voice": 0,
+    "author": "knox",
+    "held": "knox_works-v2_laing1895--first-book-of-discipline-1560"
+   },
+   {
+    "name": "Andrew Melville",
+    "year": 1574,
+    "voice": 1,
+    "source": {
+     "work": "Andrew Melville to James VI (1596), as set down in The Autobiography and Diary of Mr James Melvill (1842)",
+     "file": "cic/texts/melville-james_autobiography-and-diary_pitcairn1842.txt",
+     "lines": "18403",
+     "quote": "thair is twa Kings and twa Kingdomes in Scotland."
+    }
+   },
+   {
+    "name": "Archibald Johnston of Wariston",
+    "year": 1632,
+    "voice": 2,
+    "author": "wariston",
+    "held": "wariston_diary-1632-1639_paul1911--diary-of-sir-archibald-johnston-of-wariston-1632-1639"
+   }
+  ],
+  "the-huguenots": [
+   {
+    "name": "Jean Crespin",
+    "year": 1554,
+    "voice": 3,
+    "author": "crespin",
+    "held": "crespin_histoire-des-martyrs-t3-fra_benoit-lelievre1889--histoire-des-martyrs-tome-troisieme-livres-viii-xii"
+   },
+   {
+    "name": "Charlotte Arbaleste de Mornay",
+    "year": 1572,
+    "voice": 2,
+    "author": "mornay-charlotte",
+    "held": "mornay-charlotte_huguenot-family-in-the-xvi-century_crump1926--a-huguenot-family-in-the-xvi-century-the-memoirs"
+   }
+  ],
+  "recusant-english-catholicism": [
+   {
+    "name": "Edmund Campion",
+    "year": 1581,
+    "voice": 1,
+    "author": "campion",
+    "held": "campion_rationes-decem-ten-reasons-lat-eng_rickaby1914--rationes-decem-latin"
+   },
+   {
+    "name": "Margaret Clitherow",
+    "year": 1586,
+    "voice": 0,
+    "source": {
+     "work": "Margaret Clitherow at her trial (1586), in John Mush's Life, ed. John Morris, Troubles of our Catholic Forefathers, series 3 (1877)",
+     "file": "cic/texts/morris-john_troubles-of-our-catholic-forefathers-ser3_1877.txt",
+     "lines": "19443-19444",
+     "quote": "Having made no offence, I need no trial."
+    }
+   },
+   {
+    "name": "Robert Southwell",
+    "year": 1586,
+    "voice": 2,
+    "author": "southwell",
+    "held": "southwell_funeral-tears-triumphs-epistle-of-comfort_walter1822--an-epistle-of-comfort"
+   },
+   {
+    "name": "John Gerard",
+    "year": 1588,
+    "voice": 4,
+    "author": "gerard-john",
+    "held": "gerard-john_condition-of-catholics-under-james-i_morris1871--narrative-of-the-gunpowder-plot"
+   }
+  ],
+  "puritanism": [
+   {
+    "name": "William Perkins",
+    "year": 1590,
+    "voice": 0,
+    "author": "perkins",
+    "held": "perkins_golden-chaine-and-treatises_legat1600--a-golden-chaine-or-the-description-of-theologie"
+   },
+   {
+    "name": "Lady Margaret Hoby",
+    "year": 1599,
+    "voice": 1,
+    "author": "hoby",
+    "held": "hoby_diary-1599-1605_meads1930--diary-of-lady-margaret-hoby-1599-1605"
+   },
+   {
+    "name": "Nehemiah Wallington",
+    "year": 1630,
+    "voice": 2,
+    "author": "wallington",
+    "held": "wallington_historical-notices-v1_webb1869--historical-notices-vol-i-wallington-s-notebooks"
+   },
+   {
+    "name": "Thomas Shepard",
+    "year": 1635,
+    "voice": 3,
+    "author": "shepard",
+    "held": "shepard_autobiography_adams1832--the-autobiography-of-thomas-shepard"
+   },
+   {
+    "name": "Richard Baxter",
+    "year": 1641,
+    "voice": 4,
+    "author": "baxter",
+    "held": "baxter_autobiography-reliquiae-baxterianae-abridged_lloyd-thomas1925--reliquiae-baxterianae-abridged-part-one-baxter-s-life-1615-1660-childh"
+   }
+  ],
+  "dutch-further-reformation-and-refuge-culture": [
+   {
+    "name": "Willem Teellinck",
+    "year": 1613,
+    "voice": 0,
+    "author": "teellinck",
+    "held": "teellinck_pauls-complaint-against-his-naturall-corruption_1621--pauls-complaint-against-his-naturall-corruption"
+   },
+   {
+    "name": "Gisbertus Voetius",
+    "year": 1634,
+    "voice": 1,
+    "author": "voetius",
+    "held": "voetius_catechisatie-heidelbergschen-catechismus-v1-nld_kuyper1891--voetius-catechisatie-over-den-heidelbergschen-catechismus-v1"
+   },
+   {
+    "name": "Anna Maria van Schurman",
+    "year": 1648,
+    "voice": 2,
+    "author": "schurman",
+    "held": "schurman_opuscula-lat_spanheim1648--opuscula-dissertatio-and-epistolae"
+   }
+  ],
+  "the-waldensian-reformed-union": [
+   {
+    "name": "Pierre Olivétan",
+    "year": 1535,
+    "voice": 0,
+    "source": {
+     "work": "Pierre Robert Olivétan, preface to the French Bible (1535), in Samuel Morland's English, History of the Evangelical Churches of Piemont (1658)",
+     "file": "cic/texts/morland_history-evangelical-churches-piemont_1658.txt",
+     "lines": "6019-6021",
+     "quote": "to prefent thee with it (O poor Church)- on whom no man beftows anything."
+    }
+   },
+   {
+    "name": "Jean Léger",
+    "year": 1655,
+    "voice": 2,
+    "author": "leger",
+    "held": "leger_histoire-generale-eglises-vaudoises-livre1-fra_1669--histoire-generale-des-eglises-evangeliques-livre-premier"
+   }
+  ],
+  "the-society-of-jesus": [
+   {
+    "person": "ignatius-of-loyola"
+   },
+   {
+    "name": "Francis Xavier",
+    "year": 1541,
+    "voice": 1,
+    "author": "francis-xavier",
+    "held": "francis-xavier_monumenta-xaveriana-v1-lat_1899-1900--monumenta-xaveriana-tomus-i-xavier-s-letters-and-other"
+   },
+   {
+    "name": "Peter Canisius",
+    "year": 1555,
+    "voice": 3,
+    "author": "canisius",
+    "held": "canisius_summe-of-christian-doctrine_anon1622--a-summe-of-christian-doctrine"
+   }
+  ],
+  "tridentine-parish-renewal-borromean-milan": [
+   {
+    "name": "Charles Borromeo",
+    "year": 1564,
+    "voice": 0,
+    "author": "borromeo",
+    "held": "borromeo_acta-ecclesiae-mediolanensis-lat_1599--acta-ecclesiae-mediolanensis-2"
+   }
+  ],
+  "mission-born-christianities-kirishitan-japan-kon": [
+   {
+    "name": "Afonso I",
+    "year": 1509,
+    "voice": 0,
+    "source": {
+     "work": "Afonso I of Kongo to João III of Portugal, 6 July 1526, in Paiva Manso, Historia do Congo: documentos (1877)",
+     "file": "cic/texts/paiva-manso_historia-do-congo-documentos-por_1877.txt",
+     "lines": "2411-2412",
+     "quote": "porque nossa vontade he que nestes Reynos nam aja trato de esprauos nem sayda pêra elles"
+    }
+   }
+  ],
+  "kongo-christianity-afonso-to-1650": [],
+  "kirishitan-japan": [],
+  "china-mission-born-christianity": [],
+  "new-spain-and-andes-mission-born-christianity": [],
+  "anti-trinitarian-currents-servetus-polish-brethr": [
+   {
+    "name": "Michael Servetus",
+    "year": 1531,
+    "voice": 0,
+    "author": "servetus",
+    "held": "servetus_christianismi-restitutio-lat_murr1790--christianismi-restitutio"
+   },
+   {
+    "name": "Fausto Sozzini",
+    "year": 1579,
+    "voice": 1,
+    "author": "socinus",
+    "held": "socinus_argument-authority-holy-scripture_1731--argument-for-the-authority-of-holy-scripture"
+   }
+  ],
+  "schwenckfelders": [
+   {
+    "name": "Caspar Schwenckfeld von Ossig",
+    "year": 1525,
+    "voice": 0,
+    "author": "schwenckfeld",
+    "held": "schwenckfeld_christlicher-sendbrieff-vom-gebet-deu_1547--ain-christlicher-sendbrieff-vom-gebeet-1547"
+   },
+   {
+    "name": "Adam Reissner",
+    "year": 1533,
+    "voice": 1,
+    "source": {
+     "work": "Adam Reissner, hymn, as quoted in the Erläuterung für Caspar Schwenckfeld (1830)",
+     "file": "cic/texts/schultz-christopher_erlaeuterung-fuer-caspar-schwenckfeld-deu_benner1830.txt",
+     "lines": "11905-11906",
+     "quote": "Udonai Zebaoth, ohn’ End und An fang GOtt, alle Ding geschaffen bat"
+    }
+   }
+  ],
+  "family-of-love-and-spiritualists-franck-niclaes": [
+   {
+    "name": "Sebastian Franck",
+    "year": 1531,
+    "voice": 0,
+    "author": "franck",
+    "held": "franck-paradoxa-deu-rab1559-paradoxa-ducenta-octoginta-280-paradoxa-german-pforzheim-1559-printing-of-the-1534"
+   },
+   {
+    "name": "Hendrik Niclaes",
+    "year": 1540,
+    "voice": 1,
+    "author": "niclaes",
+    "held": "niclaes-evangelium-regni-london1652-evangelium-regni-a-joyfull-message-of-the-kingdom-english-translation-1652"
+   }
+  ],
+  "orthodoxy-under-the-ottomans-parish-millet-and-n": [
+   {
+    "name": "Gennadios Scholarios",
+    "year": 1454,
+    "voice": 0,
+    "author": "gennadius-scholarius",
+    "held": "monumenta-fidei-ecclesiae-orientalis_confessions-grc-lat_kimmel1850--confessiones-i-and-ii-of-gennadius-scholarius-greek-with"
+   },
+   {
+    "name": "Jeremias II",
+    "year": 1572,
+    "voice": 1,
+    "author": "jeremias-ii",
+    "held": "jeremias-ii_censura-orientalis-ecclesiae-lat_socolovius1582--censura-orientalis-ecclesiae-first-answer-of-jeremias-ii-latin"
+   },
+   {
+    "name": "Cyril Lucaris",
+    "year": 1620,
+    "voice": 2,
+    "author": "lucaris",
+    "held": "smith-thomas_collectanea-de-cyrillo-lucario-lat_1707--appendix-letters-and-papers-of-cyril-lucaris-with-ottoman-command"
+   },
+   {
+    "name": "Nikodemos the Hagiorite",
+    "year": 1782,
+    "voice": 3,
+    "author": "nikodemos-hagiorite",
+    "held": "nikodemos-hagiorite_pedalion-canons-grc_1886--pedalion-the-rudder-the-holy-and-divine-canons-with-the"
+   }
+  ],
+  "st-thomas-christians-under-portuguese-pressure-d": [
+   {
+    "name": "Aleixo de Menezes",
+    "year": 1599,
+    "voice": 0,
+    "source": {
+     "work": "Aleixo de Menezes, convocation of the Synod of Diamper (1599), in Michael Geddes's English (1694)",
+     "file": "cic/texts/geddes_history-of-the-church-of-malabar-synod-of-diamper_1694.txt",
+     "lines": "8826-8828",
+     "quote": "he commanded us upon the death of the Archbifbop Mar- Abraham, to take Poffeffion ofthis Church and Bi- froprick,"
+    }
+   }
+  ],
+  "philippine-catholicism": [
+   {
+    "name": "Juan de Plasencia",
+    "year": 1589,
+    "voice": 2,
+    "source": {
+     "work": "Juan de Plasencia, relation on the customs of the Tagalogs (Manila, 1589), in Blair and Robertson, The Philippine Islands, vol. 7 (1903)",
+     "file": "cic/texts/blair-robertson_philippine-islands-v07_1903.txt",
+     "lines": "4376-4378",
+     "quote": "I collected Indians from different districts--old men, and those of most capacity, all known to me; and from them I have obtained the simple truth,"
+    }
+   },
+   {
+    "name": "Pedro Chirino",
+    "year": 1604,
+    "voice": 3,
+    "author": "chirino",
+    "held": "chirino_relacion-islas-filipinas-spa_manila1890--chirino-relacion-spanish"
+   }
+  ],
+  "the-union-of-brest-and-ruthenian-greek-catholic-": [
+   {
+    "name": "Meletij Smotryc'kyj",
+    "year": 1610,
+    "voice": 2,
+    "author": "smotrycki",
+    "held": "smotrycki_apologia-peregrinatiey-pol_1628--apologia-peregrinatiey-pol_1628"
+   }
+  ],
+  "the-kyiv-mohyla-orthodox-revival": [
+   {
+    "name": "Zakhariia Kopystensky",
+    "year": 1621,
+    "voice": 2,
+    "author": "kopystenskij",
+    "held": "russkaya-istoricheskaya-biblioteka_pamyatniki-polemicheskoi-literatury-zapadnoi-rusi-t4-rus_giltebrandt1878--palinodiia-ili-kniga-oborony-katholicheskoi-palinodia-or-the"
+   },
+   {
+    "name": "Petro Mohyla",
+    "year": 1627,
+    "voice": 0,
+    "author": "mogila",
+    "held": "arkhiv-iugo-zapadnoi-rossii_ch1-t7-pamiatniki-polemiki-vyshensky-mogila-rus_1887--peter-mohyla-s-autograph-notes-tales-of-miracles-and-notable"
+   }
+  ],
+  "the-tridentine-church": [
+   {
+    "name": "Pope Paul III",
+    "year": 1540,
+    "voice": 0,
+    "source": {
+     "work": "Paul III, bull Regimini militantis Ecclesiae (27 September 1540), in Institutum Societatis Iesu, vol. 1 (1892)",
+     "file": "cic/texts/society-of-jesus_institutum-societatis-iesu-v1-lat_1892.txt",
+     "lines": "2115-2117",
+     "quote": "apostolica auctoritate, tenore prae¬ sentium ex certa scientia approba¬ mus, confirmamus et benedicimus"
+    }
+   },
+   {
+    "name": "Charles Borromeo",
+    "year": 1564,
+    "voice": 2,
+    "author": "borromeo",
+    "held": "borromeo_acta-ecclesiae-mediolanensis-lat_1599--acta-ecclesiae-mediolanensis"
+   },
+   {
+    "name": "Pope Pius V",
+    "year": 1566,
+    "voice": 1,
+    "author": "pius-v",
+    "held": "pius-v_apostolicarum-epistolarum-lat_1640--apostolicarum-pii-quinti-pont-max-epistolarum-libri-quinque"
+   },
+   {
+    "name": "Robert Bellarmine",
+    "year": 1586,
+    "voice": 4,
+    "author": "bellarmine",
+    "held": "bellarmine_eternal-happiness-of-the-saints_dalton--the-eternal-happiness-of-the-saints"
+   }
+  ],
+  "russian-church-stoglav-to-nikon": [
+   {
+    "name": "Metropolitan Macarius",
+    "year": 1551,
+    "voice": 0,
+    "author": "macarius-metropolitan",
+    "held": "macarius-metropolitan_velikie-minei-chetii-september-25-30-chu_arkheograficheskaya-kommissiya1883--great-menaion-of-metropolitan-macarius-september-25-the-life-2"
+   },
+   {
+    "name": "Hermogenes",
+    "year": 1606,
+    "voice": 2,
+    "source": {
+     "work": "Patriarch Hermogenes to the former patriarch Job (1607), in Akty Arkheograficheskoi Ekspeditsii, vol. 2 (1836)",
+     "file": "cic/texts/akty-arkheograficheskoi-ekspeditsii_akty-t2-1598-1615-rus_1836.txt",
+     "lines": "15121-15123",
+     "quote": "Государю отцу наше¬ му, святѣйшему Іеву Щтріарху, сынъ твои и богомолецъ Ермогенъ"
+    }
+   },
+   {
+    "name": "Filaret",
+    "year": 1606,
+    "voice": 3,
+    "source": {
+     "work": "Filaret, metropolitan of Rostov, letter to the archpriest of Ustiug (November 1606), in Akty Arkheograficheskoi Ekspeditsii, vol. 2 (1836)",
+     "file": "cic/texts/akty-arkheograficheskoi-ekspeditsii_akty-t2-1598-1615-rus_1836.txt",
+     "lines": "12843-12845",
+     "quote": "прислалъ ко мнѣ, къ Государеву Цареву и Великого Князя Василья Ивановича всеа Русіи богомолцу"
+    }
+   }
+  ],
+  "czech-churches-last-century": [
+   {
+    "name": "Jan Amos Comenius",
+    "year": 1623,
+    "voice": 1,
+    "author": "comenius",
+    "held": "comenius_labyrint-sveta-a-raj-srdce-ces_1809--labirynt-sw-ta-a-r-g-srdce-czech-original-1809-printing"
+   }
+  ],
+  "ethiopian-christianity-gragn-to-fasilides": [
+   {
+    "name": "Emperor Galawdewos",
+    "year": 1555,
+    "voice": 1,
+    "author": "galawdewos",
+    "held": "ludolf_commentarius-ad-historiam-aethiopicam-lat_1691--confession-of-faith-of-king-claudius-gal"
+   }
+  ],
+  "the-remonstrants-and-dort": [
+   {
+    "name": "Jacobus Arminius",
+    "year": 1603,
+    "voice": 0,
+    "author": "arminius",
+    "held": "arminius_works-v1_nichols1853--the-works-of-james-arminius-volume-one-life-orations-i-v"
+   },
+   {
+    "name": "Hugo Grotius",
+    "year": 1617,
+    "voice": 2,
+    "author": "grotius",
+    "held": "grotius_defence-of-the-catholic-faith-satisfaction-of-christ_foster1889--a-defence-of-the-catholic-faith-concerning-the-satisfaction"
+   },
+   {
+    "name": "Simon Episcopius",
+    "year": 1618,
+    "voice": 1,
+    "source": {
+     "work": "Simon Episcopius, reply to Heyden, in Frederick Calder, Memoirs of Simon Episcopius (1838)",
+     "file": "cic/texts/calder_memoirs-of-simon-episcopius_1838.txt",
+     "lines": "5988-5990",
+     "quote": "I do not wish Heyden to do any thing against his conscience, but by the same rule he ought to respect mine,"
+    }
+   }
+  ],
+  "scandinavian-reformation-kingdoms": [
+   {
+    "name": "Gustav Vasa",
+    "year": 1527,
+    "voice": 0,
+    "source": {
+     "work": "Gustav Vasa's assurance on the bishops' trial (1526), quoted in L. A. Anjou, History of the Reformation in Sweden (1859)",
+     "file": "cic/texts/anjou_history-of-the-reformation-in-sweden_mason1859.txt",
+     "lines": "6129",
+     "quote": "that they should be tried by proper judges,"
+    }
+   },
+   {
+    "name": "Olaus Petri",
+    "year": 1529,
+    "voice": 1,
+    "author": "olavus-petri",
+    "held": "olavus-petri_samlade-skrifter-v2-swe_hesselman1915--een-handbock-paa-swensko-1529"
+   },
+   {
+    "name": "Christian III",
+    "year": 1536,
+    "voice": 2,
+    "source": {
+     "work": "Christian III, preface to the Ordinatio ecclesiastica of Denmark and Norway (Copenhagen, 1537)",
+     "file": "cic/texts/danske-folkekirke_ordinatio-ecclesiastica-lat_vinitor1537.txt",
+     "lines": "248-249",
+     "quote": "vt nunc nos facimus hoc Có» tilio noſtro ⁊ ordinatione"
+    }
+   }
+  ],
+  "armenian-christianity-new-julfa": [],
+  "carmelite-reform-and-spanish-mystics": [
+   {
+    "name": "Teresa of Ávila",
+    "year": 1562,
+    "voice": 0,
+    "author": "teresa-of-avila",
+    "held": "teresa-of-avila_libro-de-la-vida-spa_silverio1915--libro-de-la-vida"
+   },
+   {
+    "name": "John of the Cross",
+    "year": 1568,
+    "voice": 1,
+    "author": "john-of-the-cross",
+    "held": "john-of-the-cross_cautelas-avisos-cartas-poesias-spa_gerardo1914--cautelas-avisos-cartas"
+   }
+  ],
+  "church-of-the-east-schism-of-1552": [
+   {
+    "name": "Abdisho IV Maron",
+    "year": 1555,
+    "voice": 2,
+    "author": "abdisho-iv",
+    "held": "abdisho-iv_approbatio-et-professio-fidei-concilio-tridentino-lat_1562--approbatio-et-professio-fidei-abdisho-iv-1562"
+   }
+  ],
+  "the-quakers-religious-society-of-friends": [
+   {
+    "name": "George Fox",
+    "year": 1647,
+    "voice": 0,
+    "author": "fox",
+    "held": "fox_collection-of-epistles_1698--a-collection-of-many-select-and-christian-epistles-letters"
+   },
+   {
+    "name": "Margaret Fell",
+    "year": 1652,
+    "voice": 1,
+    "author": "fell",
+    "held": "fell_brief-collection-of-remarkable-passages-works_1710--a-brief-collection-of-remarkable-passages-and-occurrences"
+   },
+   {
+    "name": "Katharine Evans",
+    "year": 1662,
+    "voice": 3,
+    "author": "evans-and-cheevers",
+    "held": "evans-and-cheevers_short-relation-of-cruel-sufferings-malta_1662--this-is-a-short-relation-of-some-of-the-cruel-sufferings-of"
+   },
+   {
+    "name": "Sarah Cheevers",
+    "year": 1662,
+    "voice": 3,
+    "author": "evans-and-cheevers",
+    "held": "evans-and-cheevers_short-relation-of-cruel-sufferings-malta_1662--this-is-a-short-relation-of-some-of-the-cruel-sufferings-of"
+   },
+   {
+    "name": "John Woolman",
+    "year": 1754,
+    "voice": 2,
+    "author": "woolman",
+    "held": "woolman_journal-and-essays_gummere1922--the-essays-of-john-woolman-some-considerations-on-the"
+   }
+  ],
+  "german-pietism-spener-francke-halle": [
+   {
+    "name": "Philipp Jakob Spener",
+    "year": 1675,
+    "voice": 0,
+    "author": "spener",
+    "held": "spener_geistliches-priesterthum-deu_steinkopf1851--das-geistliche-priesterthum-siebenzig-fragen-und-antworten"
+   },
+   {
+    "name": "August Hermann Francke",
+    "year": 1692,
+    "voice": 1,
+    "author": "francke",
+    "held": "francke_christ-the-sum-and-substance-of-scripture_1732--christ-the-sum-and-substance-of-all-the-holy-scriptures-1732"
+   },
+   {
+    "name": "Johann Anastasius Freylinghausen",
+    "year": 1704,
+    "voice": 3,
+    "author": "freylinghausen",
+    "held": "freylinghausen_geistreiches-gesangbuch-deu_halle1730--geist-reiches-gesang-buch-halle-1730-edition"
+   },
+   {
+    "name": "Bartholomäus Ziegenbalg",
+    "year": 1706,
+    "voice": 4,
+    "author": "ziegenbalg",
+    "held": "ziegenbalg_propagation-of-the-gospel-in-the-east_boehm1718--propagation-of-the-gospel-in-the-east-the-tranquebar"
+   }
+  ],
+  "radical-pietism-and-the-brethren-dunkers-ephrata": [
+   {
+    "name": "Ernst Christoph Hochmann von Hochenau",
+    "year": 1702,
+    "voice": 2,
+    "author": "hochmann",
+    "held": "brumbaugh_history-german-baptist-brethren_1899--hochmann-von-hochenau-confession-of-faith-detmold-1702"
+   },
+   {
+    "name": "Alexander Mack",
+    "year": 1708,
+    "voice": 0,
+    "author": "mack-alexander",
+    "held": "mack-alexander_writings-bilingual_columbiana1860--ground-searching-questions-grundforschende-fragen-1713"
+   },
+   {
+    "name": "Conrad Beissel",
+    "year": 1732,
+    "voice": 3,
+    "author": "beissel",
+    "held": "sachse_music-of-ephrata-cloister-beissel-treatise_1903--conrad-beissel-s-treatise-on-music-preface-to-the-turtel"
+   }
+  ],
+  "the-moravian-church-at-herrnhut": [
+   {
+    "name": "Nikolaus Ludwig von Zinzendorf",
+    "year": 1722,
+    "voice": 0,
+    "author": "zinzendorf",
+    "held": "zinzendorf_manual-of-doctrine_1742--a-manual-of-doctrine-zinzendorf-s-second-catechism-english"
+   }
+  ],
+  "the-methodist-revival": [
+   {
+    "name": "Charles Wesley",
+    "year": 1736,
+    "voice": 1,
+    "author": "wesley-c",
+    "held": "wesley-c_journal-v1_jackson1849--the-journal-of-the-rev-charles-wesley-vol-i-1736-1740s"
+   },
+   {
+    "name": "George Whitefield",
+    "year": 1736,
+    "voice": 2,
+    "author": "whitefield",
+    "held": "whitefield_two-first-parts-of-his-life-with-journals_1756--the-two-first-parts-of-his-life-with-his-journals-whitefield"
+   },
+   {
+    "person": "john-wesley"
+   },
+   {
+    "name": "Mary Bosanquet Fletcher",
+    "year": 1771,
+    "voice": 3,
+    "author": "fletcher-mary",
+    "held": "fletcher-mary_life-compiled-from-her-journal_moore1818--mary-bosanquet-fletcher-s-journal-and-letters-as-quoted-in"
+   },
+   {
+    "name": "Francis Asbury",
+    "year": 1771,
+    "voice": 4,
+    "author": "asbury-francis",
+    "held": "asbury_journal-v1_1821--the-journal-of-the-rev-francis-asbury-vol-i-1771-1786"
+   },
+   {
+    "name": "Richard Allen",
+    "year": 1786,
+    "voice": 5,
+    "author": "allen-richard",
+    "held": "allen-richard_life-experience-and-gospel-labors_1880--the-life-experience-and-gospel-labors-of-the-rt-rev-richard"
+   }
+  ],
+  "the-evangelical-awakening-in-new-england": [
+   {
+    "name": "Jonathan Edwards",
+    "year": 1737,
+    "voice": 0,
+    "author": "edwards",
+    "held": "edwards_faithful-narrative-of-the-surprising-work-of-god_1737--a-faithful-narrative-of-the-surprizing-work-of-god-edwards"
+   },
+   {
+    "name": "George Whitefield",
+    "year": 1739,
+    "voice": 1,
+    "author": "whitefield",
+    "held": "whitefield_two-first-parts-of-his-life-with-journals_1756--the-two-first-parts-of-his-life-with-his-journals-whitefield-2"
+   },
+   {
+    "name": "Sarah Osborn",
+    "year": 1743,
+    "voice": 2,
+    "author": "osborn-sarah",
+    "held": "osborn-sarah_familiar-letters-with-susanna-anthony_1807--familiar-letters-of-sarah-osborn-1807"
+   },
+   {
+    "name": "Charles Chauncy",
+    "year": 1743,
+    "voice": 3,
+    "author": "chauncy",
+    "held": "chauncy_seasonable-thoughts-on-the-state-of-religion-in-new-england_1743--seasonable-thoughts-on-the-state-of-religion-in-new-england"
+   },
+   {
+    "name": "Samson Occom",
+    "year": 1759,
+    "voice": 4,
+    "author": "occom",
+    "held": "occom_sermon-at-the-execution-of-moses-paul_1788--a-sermon-at-the-execution-of-moses-paul-an-indian-occom-1772"
+   },
+   {
+    "name": "Phillis Wheatley",
+    "year": 1773,
+    "voice": 5,
+    "author": "wheatley",
+    "held": "wheatley_poems-on-various-subjects-religious-and-moral_bell1773--poems-on-various-subjects-religious-and-moral-wheatley-1773"
+   }
+  ],
+  "the-old-believers": [
+   {
+    "name": "Patriarch Nikon",
+    "year": 1652,
+    "voice": 2,
+    "author": "nikon",
+    "held": "nikon_replies-against-streshnev-and-ligarides_palmer1871--the-replies-of-the-humble-nicon"
+   },
+   {
+    "name": "Archpriest Avvakum",
+    "year": 1653,
+    "voice": 0,
+    "author": "avvakum",
+    "held": "barskov_pamiatniki-pervykh-let-russkogo-staroobriadchestva-rus_1912--avvakum-s-letters-to-morozova-and-to-his-family-and-his"
+   },
+   {
+    "name": "Boyarynia Feodosia Morozova",
+    "year": 1669,
+    "voice": 1,
+    "author": "morozova",
+    "held": "barskov_pamiatniki-pervykh-let-russkogo-staroobriadchestva-rus_1912--boyarynia-feodosia-morozova-s-letters-to-avvakum-and-his"
+   },
+   {
+    "name": "Semyon Denisov",
+    "year": 1723,
+    "voice": 3,
+    "source": {
+     "work": "Semyon Denisov, history of the Solovki fathers, quoted in Ia. L. Barskov, Pamiatniki pervykh let russkogo staroobriadchestva (1912)",
+     "file": "cic/texts/barskov_pamiatniki-pervykh-let-russkogo-staroobriadchestva-rus_1912.txt",
+     "lines": "17606-17607",
+     "quote": "благородныхъ дворянъ персоны отъ Московскихъ странъ ради пользы и благословенія"
+    }
+   }
+  ],
+  "the-hesychast-revival-paisius-and-the-philokalia": [
+   {
+    "name": "Paisius Velichkovsky",
+    "year": 1746,
+    "voice": 0,
+    "author": "paisius-velichkovsky",
+    "held": "paisius-velichkovsky_zhitie-i-pisaniia-chu_optina1847--writings-of-paisius-velichkovsky-the-scroll-on-mental-prayer"
+   },
+   {
+    "name": "Nicodemus the Hagiorite",
+    "year": 1782,
+    "voice": 1,
+    "author": "nikodemos-hagiorite",
+    "held": "philokalia_ton-ieron-neptikon-v1-grc_tzelatis1893--prooimion-to-the-philokalia-nikodemos-the-hagiorite-1782"
+   },
+   {
+    "name": "Mitrofan",
+    "year": 1794,
+    "voice": 3,
+    "author": "mitrofan-schemamonk",
+    "held": "paisius-velichkovsky_zhitie-i-pisaniia-chu_optina1847--life-of-the-moldavian-elder-paisius-compiled-at-neamt-from"
+   }
+  ],
+  "port-royal-jansenism": [
+   {
+    "name": "Angélique Arnauld",
+    "year": 1609,
+    "voice": 0,
+    "author": "arnauld-angelique",
+    "held": "arnauld-angelique_lettres-t1-fra_1742--lettres-de-la-mere-marie-angelique-arnauld-tome-i-1742"
+   },
+   {
+    "name": "Blaise Pascal",
+    "year": 1656,
+    "voice": 3,
+    "author": "pascal",
+    "held": "pascal_lettres-provinciales-fra_stewart1920--les-lettres-provinciales-1656-1657-ed-stewart"
+   },
+   {
+    "name": "Angélique de Saint-Jean Arnauld d'Andilly",
+    "year": 1664,
+    "voice": 1,
+    "source": {
+     "work": "Angélique de Saint-Jean Arnauld d'Andilly, from the Port-Royal relations, in Ethel Romanes Lowndes's English, The Nuns of Port Royal (1909)",
+     "file": "cic/texts/lowndes_nuns-of-port-royal-own-narratives_1909.txt",
+     "lines": "5772-5774",
+     "quote": "that God, in the gifts He had assigned them, had distributed them diversely"
+    }
+   }
+  ],
+  "the-welsh-revival-tradition": [
+   {
+    "name": "Howell Harris",
+    "year": 1735,
+    "voice": 0,
+    "author": "harris-howell",
+    "held": "harris-howell_brief-account-of-the-life-with-letters_1791--a-brief-account-of-the-life-of-howell-harris-extracted-from"
+   },
+   {
+    "name": "Daniel Rowland",
+    "year": 1735,
+    "voice": 1,
+    "author": "rowland-daniel",
+    "held": "rowland-daniel_eight-sermons-upon-practical-subjects_1774--eight-sermons-upon-practical-subjects-preached-at-llangeitho"
+   },
+   {
+    "name": "William Williams Pantycelyn",
+    "year": 1744,
+    "voice": 2,
+    "author": "williams-pantycelyn",
+    "held": "williams-pantycelyn_gweithiau-v1-cym_cynhafal-jones1887--bywyd-a-marwolaeth-theomemphus-1764-and-golwg-ar-deyrnas"
+   },
+   {
+    "name": "Thomas Charles",
+    "year": 1784,
+    "voice": 4,
+    "author": "charles-thomas",
+    "held": "jones-thomas_cofiant-thomas-charles-cym_1816--thomas-charles-s-diary-and-letters-as-translated-in-the"
+   },
+   {
+    "name": "Ann Griffiths",
+    "year": 1796,
+    "voice": 3,
+    "author": "griffiths-ann",
+    "held": "griffiths-ann_hymns-in-english-verse_pughe1900--the-hymns-of-ann-griffiths-english-verse-1900"
+   }
+  ],
+  "the-antonian-movement-in-kongo": [],
+  "shakers": [
+   {
+    "name": "Ann Lee",
+    "year": 1774,
+    "voice": 0,
+    "source": {
+     "work": "Ann Lee's saying, in Testimonies of the Life, Character, Revelations and Doctrines of Mother Ann Lee (1888 edition)",
+     "file": "cic/texts/shakers_testimonies-of-mother-ann-lee-and-the-elders_bishop-wells1888.txt",
+     "lines": "939-941",
+     "quote": "You must forsake the marriage of the flesh, or you cannot be married to the Lamb,"
+    }
+   },
+   {
+    "name": "Benjamin Seth Youngs",
+    "year": 1808,
+    "voice": 2,
+    "author": "youngs-benjamin-seth",
+    "held": "youngs-benjamin-seth_testimony-of-christs-second-appearing_1810--the-testimony-of-christ-s-second-appearing-second-edition"
+   }
+  ],
+  "swedenborgian-new-church": [
+   {
+    "name": "Emanuel Swedenborg",
+    "year": 1749,
+    "voice": 0,
+    "author": "swedenborg",
+    "held": "swedenborg_treatise-concerning-heaven-and-hell_1778--a-treatise-concerning-heaven-and-hell-english-1778"
+   },
+   {
+    "name": "Robert Hindmarsh",
+    "year": 1784,
+    "voice": 1,
+    "author": "hindmarsh",
+    "held": "hindmarsh_letters-to-dr-priestley_1792--letters-to-dr-priestley-1792"
+   }
+  ],
+  "quietist-controversy-molinos-guyon": [
+   {
+    "name": "Miguel de Molinos",
+    "year": 1675,
+    "voice": 0,
+    "author": "molinos",
+    "held": "molinos_guida-spirituale-ita_1678--guida-spirituale-1675-venice-1678"
+   },
+   {
+    "name": "Jeanne Guyon",
+    "year": 1685,
+    "voice": 1,
+    "author": "guyon",
+    "held": "guyon_short-method-spiritual-torrents_marston1875--a-short-method-of-prayer-and-spiritual-torrents-tr-marston"
+   },
+   {
+    "name": "François Fénelon",
+    "year": 1697,
+    "voice": 2,
+    "author": "fenelon",
+    "held": "fenelon_explication-maximes-des-saints-fra_cherel1911--explication-des-maximes-des-saints-1697-ed-cherel"
+   },
+   {
+    "name": "Jacques-Bénigne Bossuet",
+    "year": 1697,
+    "voice": 3,
+    "author": "bossuet",
+    "held": "bossuet_instruction-sur-les-etats-d-oraison-fra_1697--instruction-sur-les-etats-d-oraison-1697"
+   }
+  ],
+  "camisard-prophetism": [
+   {
+    "name": "Jean Cavalier",
+    "year": 1702,
+    "voice": 1,
+    "author": "cavalier",
+    "held": "cavalier_memoirs-of-the-wars-of-the-cevennes_1726--memoirs-of-the-wars-of-the-cevennes-1726"
+   },
+   {
+    "name": "Élie Marion",
+    "year": 1707,
+    "voice": 2,
+    "author": "marion",
+    "held": "marion_avertissements-prophetiques-fra_1707--avertissements-prophetiques-d-elie-marion-1707"
+   }
+  ],
+  "the-baptists": [
+   {
+    "name": "John Smyth",
+    "year": 1609,
+    "voice": 0,
+    "author": "smyth",
+    "held": "smyth_works-v2_whitley1915--corde-credimus-propositions-and-conclusions-defence-of-ries"
+   },
+   {
+    "name": "John Bunyan",
+    "year": 1660,
+    "voice": 2,
+    "author": "bunyan",
+    "held": "bunyan_grace-abounding-relation-of-imprisonment-pilgrims-progress_brown1907--a-relation-of-the-imprisonment-of-mr-john-bunyan-written"
+   },
+   {
+    "name": "Agnes Beaumont",
+    "year": 1674,
+    "voice": 3,
+    "author": "beaumont-agnes",
+    "held": "james-samuel_abstract-of-the-gracious-dealings-of-god_1760--the-experience-narrative-of-the-persecutions-of-agnes"
+   },
+   {
+    "name": "George Liele",
+    "year": 1773,
+    "voice": 4,
+    "author": "liele-george",
+    "held": "rippon_baptist-annual-register-1790-1793_1793--george-liele-s-letters-from-kingston-jamaica-1791-1793"
+   },
+   {
+    "name": "David George",
+    "year": 1778,
+    "voice": 4,
+    "author": "george-david",
+    "held": "rippon_baptist-annual-register-1790-1793_1793--an-account-of-the-life-of-mr-david-george-1793"
+   },
+   {
+    "name": "William Carey",
+    "year": 1792,
+    "voice": 5,
+    "author": "carey-william",
+    "held": "carey-william_enquiry-into-the-obligations-of-christians_1792--an-enquiry-into-the-obligations-of-christians-to-use-means"
+   }
+  ],
+  "colonial-latin-american-devotional-catholicism": [
+   {
+    "name": "Sor Juana Inés de la Cruz",
+    "year": 1691,
+    "voice": 2,
+    "author": "juana-ines-de-la-cruz",
+    "held": "juana-ines-de-la-cruz_fama-y-obras-posthumas-spa_castorena1700--respuesta-a-sor-filotea-de-la-cruz-exercicios-devotos-for"
+   }
+  ],
+  "orthodoxy-under-the-ottomans-1650-1821": [
+   {
+    "name": "Dositheus II of Jerusalem",
+    "year": 1672,
+    "voice": 0,
+    "author": "dositheus",
+    "held": "dositheus_acts-and-decrees-synod-jerusalem_robertson1899--acts-and-decrees-of-the-synod-of-jerusalem-shield-of-2"
+   },
+   {
+    "name": "Gregory V of Constantinople",
+    "year": 1797,
+    "voice": 1,
+    "source": {
+     "work": "Gregory V, patriarchal encyclical (1797), in M. I. Gedeon, Kanonikai diataxeis, vol. 1 (1888)",
+     "file": "cic/texts/gedeon_kanonikai-diataxeis-v1-grc_1888.txt",
+     "lines": "11939-11940",
+     "quote": "Γρηγόρίος ελέω Θεού άρ/ιεπίσκοπος Κωνσταντινουπόλεως Νέας Ρώμης και Οικουμενικός Πατριάρχης."
+    }
+   }
+  ],
+  "catholic-church-ancien-regime": [
+   {
+    "name": "Clement XI",
+    "year": 1700,
+    "voice": 0,
+    "author": "clement-xi",
+    "held": "clement-xi_unigenitus-lat-eng_1713--unigenitus-8-september-1713"
+   },
+   {
+    "name": "Alphonsus Liguori",
+    "year": 1732,
+    "voice": 4,
+    "author": "liguori",
+    "held": "liguori_letters-v1_grimm1891--letters-of-st-alphonsus-de-liguori-vol-i-english-1891"
+   },
+   {
+    "name": "Clement XIV",
+    "year": 1769,
+    "voice": 1,
+    "author": "clement-xiv",
+    "held": "clement-xiv_bulls-suppression-and-restoration-of-the-jesuits-lat-eng_1814--dominus-ac-redemptor-21-july-1773-english"
+   },
+   {
+    "name": "Pius VI",
+    "year": 1775,
+    "voice": 2,
+    "author": "pius-vi",
+    "held": "pius-vi_auctorem-fidei-lat_1794--auctorem-fidei-28-august-1794"
+   },
+   {
+    "name": "Pius VII",
+    "year": 1800,
+    "voice": 3,
+    "author": "pius-vii",
+    "held": "clement-xiv_bulls-suppression-and-restoration-of-the-jesuits-lat-eng_1814--sollicitudo-omnium-ecclesiarum-7-august-1814-latin-and"
+   }
+  ],
+  "restoration-georgian-church-of-england": [
+   {
+    "name": "Joseph Butler",
+    "year": 1736,
+    "voice": 3,
+    "author": "butler",
+    "held": "butler_analogy-of-religion_1736--the-analogy-of-religion-natural-and-revealed-1736"
+   },
+   {
+    "name": "Hannah More",
+    "year": 1795,
+    "voice": 4,
+    "source": {
+     "work": "Hannah More, The Two Wealthy Farmers (tract signed 'Z'), in Cheap Repository Tracts, vol. 1 (1795)",
+     "file": "cic/texts/cheap-repository_tracts-v1-1795_marshall1797.txt",
+     "lines": "16098-16099",
+     "quote": "He went to-bed with leſs ſpirits and more humility than uſual."
+    }
+   }
+  ],
+  "russian-church-nikon-to-holy-synod": [
+   {
+    "name": "Patriarch Nikon",
+    "year": 1652,
+    "voice": 0,
+    "author": "nikon",
+    "held": "nikon_replies-against-streshnev-and-ligarides_palmer1871--the-replies-of-the-humble-nicon-against-the-questions-of"
+   },
+   {
+    "name": "Feofan Prokopovich",
+    "year": 1721,
+    "voice": 2,
+    "author": "prokopovich",
+    "held": "consett_collection-of-tracts-on-peter-the-great-v2_1729--funeral-oration-and-panegyrical-oration-on-peter-the-great"
+   },
+   {
+    "name": "Tikhon of Zadonsk",
+    "year": 1763,
+    "voice": 3,
+    "author": "tikhon-zadonskii",
+    "held": "tikhon-zadonskii_nastavleniia-dlia-monashestvuiushchikh-rus_kiev1854--work"
+   }
+  ],
+  "church-of-the-desert-huguenots": [
+   {
+    "name": "Antoine Court",
+    "year": 1715,
+    "voice": 0,
+    "author": "court-antoine",
+    "held": "court-antoine_histoire-des-troubles-des-cevennes-t1-fra_1819--histoire-des-troubles-des-cevennes-t-i-1760-1819-edition"
+   },
+   {
+    "name": "Paul Rabaut",
+    "year": 1738,
+    "voice": 1,
+    "source": {
+     "work": "Paul Rabaut to Antoine Court, quoted in Synodes du Désert, vol. 2 (1886)",
+     "file": "cic/texts/french-reformed-synods_synodes-du-desert-t2-fra_hugues1886.txt",
+     "lines": "335-336",
+     "quote": "Les églises veulent des assemblées et ne s'embarrassent pas du reste."
+    }
+   },
+   {
+    "name": "Rabaut Saint-Étienne",
+    "year": 1784,
+    "voice": 3,
+    "author": "rabaut-saint-etienne",
+    "held": "rabaut-saint-etienne_vieux-cevenol-fra_1784--le-vieux-cevenol-1784"
+   }
+  ],
+  "melkite-greek-catholic-church": [
+   {
+    "name": "Cyril VI Tanas",
+    "year": 1724,
+    "voice": 0,
+    "source": {
+     "work": "Cyril VI Tanas, oath of obedience, in Mansi, Sacrorum conciliorum collectio, vol. 46 (1911)",
+     "file": "cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-46-synodi-melchitarum-lat_petit1911.txt",
+     "lines": "19408-19409",
+     "quote": "Voveo denique et iuro me praedictum iuramentum eiusque obligationem intelligere"
+    }
+   }
+  ],
+  "armenian-apostolic-church-era-8": [
+   {
+    "name": "Abraham of Crete",
+    "year": 1734,
+    "voice": 2,
+    "source": {
+     "work": "Abraham of Crete, History of Nadir Shah, in M. Brosset's French, Collection d'historiens arméniens, vol. 2 (1876)",
+     "file": "cic/texts/zakaria_memoires-historiques-sur-les-sofis-fra_brosset1876.txt",
+     "lines": "14292-14293",
+     "quote": "je passais mes jours près de lui, dans l’intimité de sa maison, le renseignant, prenant continuellement part aux conseils, durant vingt jours."
+    }
+   }
+  ],
+  "armenian-christianity-era-8": [
+   {
+    "name": "Mekhitar of Sebaste",
+    "year": 1701,
+    "voice": 0,
+    "source": {
+     "work": "Mekhitar of Sebaste and his monks to the cardinals of Propaganda Fide, in Minas Nurikhan, The Life and Times of Abbot Mechitar (1915)",
+     "file": "cic/texts/nurikhan_life-and-times-of-abbot-mechitar_mcquillan1915.txt",
+     "lines": "7169-7170",
+     "quote": "we immediately accepted them with all due reverence, determined to observe them minutely."
+    }
+   }
+  ],
+  "church-of-utrecht": [
+   {
+    "name": "Cornelius Steenoven",
+    "year": 1723,
+    "voice": 0,
+    "source": {
+     "work": "Cornelius Steenoven to Cardinal de Noailles, in Recueil de divers témoignages (1763)",
+     "file": "cic/texts/church-of-utrecht_recueil-de-divers-temoignages-fra_1763.txt",
+     "lines": "26498-26502",
+     "quote": "communion ecclefiafiique entre les Evêques, oblige un nouvel Ar- chevêque de donner part de fa Confe- cration à fes Confrères dans l’Epifco* pat."
+    }
+   }
+  ],
+  "english-old-dissent": [
+   {
+    "name": "Richard Baxter",
+    "year": 1662,
+    "voice": 0,
+    "author": "baxter",
+    "held": "baxter_autobiography-reliquiae-baxterianae-abridged_lloyd-thomas1925--reliquiae-baxterianae-abridged-parts-two-and-three-the-restoration-the"
+   },
+   {
+    "name": "Isaac Watts",
+    "year": 1707,
+    "voice": 1,
+    "author": "watts",
+    "held": "watts_hymns-and-spiritual-songs-ninth-edition_1725--hymns-and-spiritual-songs-1707-ninth-edition-1725"
+   },
+   {
+    "name": "Philip Doddridge",
+    "year": 1729,
+    "voice": 2,
+    "author": "doddridge",
+    "held": "doddridge_rise-and-progress-of-religion-in-the-soul_1745--the-rise-and-progress-of-religion-in-the-soul-1745"
+   },
+   {
+    "name": "Joseph Priestley",
+    "year": 1755,
+    "voice": 3,
+    "author": "priestley",
+    "held": "priestley_letters-to-the-members-of-the-new-jerusalem-church_1791--letters-to-the-members-of-the-new-jerusalem-church-1791-3"
+   }
+  ],
+  "early-american-unitarians-universalists": [
+   {
+    "name": "John Murray",
+    "year": 1770,
+    "voice": 0,
+    "author": "murray-john",
+    "held": "murray-john_letters-and-sketches-of-sermons-v1_1812--letters-and-sketches-of-sermons-vol-i-1812"
+   },
+   {
+    "name": "Theophilus Lindsey",
+    "year": 1774,
+    "voice": 4,
+    "author": "lindsey",
+    "held": "lindsey_sermon-at-the-opening-of-the-chapel-in-essex-street_1774--a-sermon-preached-at-the-opening-of-the-chapel-in-essex"
+   },
+   {
+    "name": "James Freeman",
+    "year": 1785,
+    "voice": 3,
+    "author": "freeman-james",
+    "held": "freeman-james_sermons-on-particular-occasions_1814--sermons-on-particular-occasions-1814"
+   },
+   {
+    "name": "Judith Sargent Murray",
+    "year": 1790,
+    "voice": 1,
+    "source": {
+     "work": "[Judith Sargent Murray], continuation of Records of the Life of the Rev. John Murray (1816)",
+     "file": "cic/texts/murray-john_records-of-the-life-written-by-himself_1816.txt",
+     "lines": "10657-10658",
+     "quote": "Friendship might be too warm, and admiration too lavish."
+    }
+   },
+   {
+    "name": "Hosea Ballou",
+    "year": 1805,
+    "voice": 2,
+    "author": "ballou-hosea",
+    "held": "ballou-hosea_treatise-on-atonement_1805--a-treatise-on-atonement-1805"
+   }
+  ],
+  "ruthenian-uniate-18th-century": [
+   {
+    "name": "Lev Kishka",
+    "year": 1720,
+    "voice": 0,
+    "source": {
+     "work": "Lev Kishka, profession of faith at the Synod of Zamość (1720), in Mansi, Sacrorum conciliorum collectio, vol. 35",
+     "file": "cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-35-1414-1724-lat_welter-facsimile1902.txt",
+     "lines": "134354-134356",
+     "quote": "firma fide credo, & profiteor omnia, & finguia, que continentur in Symbolo"
+    }
+   }
+  ],
+  "philippine-catholicism-era-8": [
+   {
+    "name": "Gaspar Aquino de Belén",
+    "year": 1704,
+    "voice": 0,
+    "author": "aquino-de-belen",
+    "held": "aquino-de-belen_pasyon-and-manga-panalangin-tgl_manila1760--aquino-de-belen-pasyon"
+   },
+   {
+    "name": "Basilio Sancho de Santa Justa",
+    "year": 1767,
+    "voice": 1,
+    "source": {
+     "work": "Basilio Sancho de Santa Justa y Rufina, pastoral letter (1768), in Blair and Robertson, The Philippine Islands, vol. 50 (1907)",
+     "file": "cic/texts/blair-robertson_philippine-islands-v50_1907.txt",
+     "lines": "6864-6865",
+     "quote": "We cannot deny the great pleasure and satisfaction with which our heart is filled"
+    }
+   }
+  ]
+ },
+ "decisions": [
+  {
+   "movement": "lutheran-wittenberg-and-its-congregations",
+   "voice": 0,
+   "name": "Martin Luther",
+   "individual": true,
+   "backing": "none",
+   "reason": "shown as the planned person entry martin-luther (not listed again as a named voice); sort year 1517 estimated from voices line (1517 protest); person entry start estimated"
+  },
+  {
+   "movement": "lutheran-wittenberg-and-its-congregations",
+   "voice": 1,
+   "name": "Philipp Melanchthon",
+   "individual": true,
+   "backing": "held",
+   "reason": "held row by melanchthon; year 1530 rests on voices line (Augsburg Confession 1530)"
+  },
+  {
+   "movement": "lutheran-wittenberg-and-its-congregations",
+   "voice": 2,
+   "name": "Katharina von Bora",
+   "individual": true,
+   "backing": "none",
+   "reason": "no work of hers on the shelf; shelf grep found only passing mentions, no words of her own; left out"
+  },
+  {
+   "movement": "lutheran-wittenberg-and-its-congregations",
+   "voice": 3,
+   "name": "Argula von Grumbach",
+   "individual": true,
+   "backing": "none",
+   "reason": "no text of hers vendored; shelf grep found nothing; left out"
+  },
+  {
+   "movement": "lutheran-wittenberg-and-its-congregations",
+   "voice": 4,
+   "name": "Katharina Schütz Zell",
+   "individual": true,
+   "backing": "none",
+   "reason": "no text of hers vendored; shelf hits are other Zells; left out"
+  },
+  {
+   "movement": "the-reformed-cities-zurich-and-geneva",
+   "voice": 0,
+   "name": "Huldrych Zwingli",
+   "individual": true,
+   "backing": "held",
+   "reason": "held row by zwingli; year 1519 rests on voices line (people's priest 1519)"
+  },
+  {
+   "movement": "the-reformed-cities-zurich-and-geneva",
+   "voice": 1,
+   "name": "Heinrich Bullinger",
+   "individual": true,
+   "backing": "held",
+   "reason": "held row by bullinger; year 1531 rests on general reference (succeeded Zwingli 1531); held row is the Second Helvetic Confession, which the shelf file says Bullinger composed"
+  },
+  {
+   "movement": "the-reformed-cities-zurich-and-geneva",
+   "voice": 2,
+   "name": "John Calvin",
+   "individual": true,
+   "backing": "none",
+   "reason": "shown as the planned person entry john-calvin (not listed again as a named voice); sort year 1536 estimated from person entry start estimated (Institutes 1536)"
+  },
+  {
+   "movement": "the-reformed-cities-zurich-and-geneva",
+   "voice": 3,
+   "name": "Theodore Beza",
+   "individual": true,
+   "backing": "held",
+   "reason": "held row by beza; year 1564 rests on general reference (Calvin's successor, 1564)"
+  },
+  {
+   "movement": "the-reformed-cities-zurich-and-geneva",
+   "voice": 4,
+   "name": "Marie Dentière",
+   "individual": true,
+   "backing": "none",
+   "reason": "no text of hers vendored; one passing mention in Crespin; left out"
+  },
+  {
+   "movement": "the-anabaptist-movements",
+   "voice": 0,
+   "name": "Conrad Grebel",
+   "individual": true,
+   "backing": "source",
+   "reason": "joint letter of Grebel and Marx Bosshard to the Zurich council, as quoted in Egli's Actensammlung; year 1525 rests on voices line (January 1525)"
+  },
+  {
+   "movement": "the-anabaptist-movements",
+   "voice": 1,
+   "name": "Felix Manz",
+   "individual": true,
+   "backing": "source",
+   "reason": "his admonition to the brethren as printed in the Martyrs Mirror (English, 1886); year 1527 rests on voices line (drowned 1527)"
+  },
+  {
+   "movement": "the-anabaptist-movements",
+   "voice": 2,
+   "name": "Michael Sattler",
+   "individual": true,
+   "backing": "source",
+   "reason": "his prison letter to the church at Horb, Martyrs Mirror; year 1527 rests on voices line (Schleitheim 1527)"
+  },
+  {
+   "movement": "the-anabaptist-movements",
+   "voice": 3,
+   "name": "Menno Simons",
+   "individual": true,
+   "backing": "held",
+   "reason": "held row by menno-simons; year 1536 rests on general reference (left the priesthood 1536)"
+  },
+  {
+   "movement": "the-anabaptist-movements",
+   "voice": 4,
+   "name": "Anneken Jans",
+   "individual": true,
+   "backing": "source",
+   "reason": "her testament to her son; the Martyrs Mirror heads her 'Anna of Rotterdam'; year 1539 rests on voices line (executed 1539)"
+  },
+  {
+   "movement": "the-english-reformation-and-elizabethan-settleme",
+   "voice": null,
+   "name": "William Tyndale",
+   "individual": true,
+   "backing": "none",
+   "reason": "shown as the planned person entry william-tyndale (not listed again as a named voice); sort year 1525 estimated from person entry start estimated (New Testament 1525-26)"
+  },
+  {
+   "movement": "the-english-reformation-and-elizabethan-settleme",
+   "voice": 0,
+   "name": "Thomas Cranmer",
+   "individual": true,
+   "backing": "held",
+   "reason": "held row by cranmer; year 1533 rests on shelf row (Letters 1533-1556)"
+  },
+  {
+   "movement": "the-english-reformation-and-elizabethan-settleme",
+   "voice": 1,
+   "name": "Elizabeth I",
+   "individual": true,
+   "backing": "none",
+   "reason": "no words of hers found on the shelf: the 1559 prayer-book forms pray for her; her Injunctions are mentioned but not printed; left out"
+  },
+  {
+   "movement": "the-english-reformation-and-elizabethan-settleme",
+   "voice": 2,
+   "name": "John Jewel",
+   "individual": true,
+   "backing": "held",
+   "reason": "held row by jewel; year 1562 rests on voices line / shelf row (Apologia 1562)"
+  },
+  {
+   "movement": "the-english-reformation-and-elizabethan-settleme",
+   "voice": 4,
+   "name": "John Foxe",
+   "individual": true,
+   "backing": "held",
+   "reason": "held row by foxe; year 1563 rests on general reference (first English Acts and Monuments 1563)"
+  },
+  {
+   "movement": "the-english-reformation-and-elizabethan-settleme",
+   "voice": 3,
+   "name": "Richard Hooker",
+   "individual": true,
+   "backing": "held",
+   "reason": "held row by hooker; year 1593 rests on shelf row (Laws I-V, 1593-1597)"
+  },
+  {
+   "movement": "the-scottish-reformation-and-kirk",
+   "voice": 0,
+   "name": "John Knox",
+   "individual": true,
+   "backing": "held",
+   "reason": "held row by knox; year 1560 rests on shelf row (First Book of Discipline 1560)"
+  },
+  {
+   "movement": "the-scottish-reformation-and-kirk",
+   "voice": 1,
+   "name": "Andrew Melville",
+   "individual": true,
+   "backing": "source",
+   "reason": "his 1596 'two kings' speech as James Melville set it down in his diary; reported speech; year 1574 rests on general reference (returned to Scotland 1574)"
+  },
+  {
+   "movement": "the-scottish-reformation-and-kirk",
+   "voice": 2,
+   "name": "Archibald Johnston of Wariston",
+   "individual": true,
+   "backing": "held",
+   "reason": "held row by wariston; year 1632 rests on shelf row (Diary 1632-1639)"
+  },
+  {
+   "movement": "the-huguenots",
+   "voice": 0,
+   "name": "Gaspard de Coligny",
+   "individual": true,
+   "backing": "none",
+   "reason": "no letter or speech of his printed on the shelf; Beza mentions his letters without quoting them; left out"
+  },
+  {
+   "movement": "the-huguenots",
+   "voice": 1,
+   "name": "Philippe Duplessis-Mornay",
+   "individual": true,
+   "backing": "none",
+   "reason": "the shelf holds his wife's memoir of him, not his own writings; no quoted words of his found; left out"
+  },
+  {
+   "movement": "the-huguenots",
+   "voice": 3,
+   "name": "Jean Crespin",
+   "individual": true,
+   "backing": "held",
+   "reason": "held row by crespin; year 1554 rests on general reference (first Livre des martyrs 1554)"
+  },
+  {
+   "movement": "the-huguenots",
+   "voice": 2,
+   "name": "Charlotte Arbaleste de Mornay",
+   "individual": true,
+   "backing": "held",
+   "reason": "held row by mornay-charlotte; year 1572 rests on voices line (1572)"
+  },
+  {
+   "movement": "recusant-english-catholicism",
+   "voice": 1,
+   "name": "Edmund Campion",
+   "individual": true,
+   "backing": "held",
+   "reason": "held row by campion; year 1581 rests on shelf row (Rationes Decem 1581)"
+  },
+  {
+   "movement": "recusant-english-catholicism",
+   "voice": 0,
+   "name": "Margaret Clitherow",
+   "individual": true,
+   "backing": "source",
+   "reason": "her answer at her trial, in John Mush's life of her (Morris, 1877); reported speech; year 1586 rests on voices line (1586)"
+  },
+  {
+   "movement": "recusant-english-catholicism",
+   "voice": 2,
+   "name": "Robert Southwell",
+   "individual": true,
+   "backing": "held",
+   "reason": "held row by southwell; year 1586 rests on general reference (came to England 1586)"
+  },
+  {
+   "movement": "recusant-english-catholicism",
+   "voice": 4,
+   "name": "John Gerard",
+   "individual": true,
+   "backing": "held",
+   "reason": "held row by gerard-john; year 1588 rests on general reference (landed in England 1588)"
+  },
+  {
+   "movement": "recusant-english-catholicism",
+   "voice": 3,
+   "name": "Nicholas Owen",
+   "individual": true,
+   "backing": "none",
+   "reason": "no words of his own survive in the Library; Gerard's narratives mention him only; left out"
+  },
+  {
+   "movement": "puritanism",
+   "voice": 0,
+   "name": "William Perkins",
+   "individual": true,
+   "backing": "held",
+   "reason": "held row by perkins; year 1590 rests on general reference (Golden Chaine 1590)"
+  },
+  {
+   "movement": "puritanism",
+   "voice": 1,
+   "name": "Lady Margaret Hoby",
+   "individual": true,
+   "backing": "held",
+   "reason": "held row by hoby; year 1599 rests on voices line / shelf row (Diary 1599-1605)"
+  },
+  {
+   "movement": "puritanism",
+   "voice": 2,
+   "name": "Nehemiah Wallington",
+   "individual": true,
+   "backing": "held",
+   "reason": "held row by wallington; year 1630 rests on general reference (notebooks of the 1630s)"
+  },
+  {
+   "movement": "puritanism",
+   "voice": 3,
+   "name": "Thomas Shepard",
+   "individual": true,
+   "backing": "held",
+   "reason": "held row by shepard; year 1635 rests on general reference (sailed to New England 1635)"
+  },
+  {
+   "movement": "puritanism",
+   "voice": 4,
+   "name": "Richard Baxter",
+   "individual": true,
+   "backing": "held",
+   "reason": "held row by baxter; year 1641 rests on general reference (Kidderminster 1641)"
+  },
+  {
+   "movement": "dutch-further-reformation-and-refuge-culture",
+   "voice": 0,
+   "name": "Willem Teellinck",
+   "individual": true,
+   "backing": "held",
+   "reason": "held row by teellinck; year 1613 rests on general reference (Middelburg 1613)"
+  },
+  {
+   "movement": "dutch-further-reformation-and-refuge-culture",
+   "voice": 1,
+   "name": "Gisbertus Voetius",
+   "individual": true,
+   "backing": "held",
+   "reason": "held row by voetius; year 1634 rests on general reference (Utrecht chair 1634)"
+  },
+  {
+   "movement": "dutch-further-reformation-and-refuge-culture",
+   "voice": 2,
+   "name": "Anna Maria van Schurman",
+   "individual": true,
+   "backing": "held",
+   "reason": "held row by schurman; year 1648 rests on shelf row (Opuscula 1648)"
+  },
+  {
+   "movement": "the-waldensian-reformed-union",
+   "voice": 0,
+   "name": "Pierre Olivétan",
+   "individual": true,
+   "backing": "source",
+   "reason": "his preface to the 1535 French Bible, in Morland's English (1658); year 1535 rests on voices line (French Bible 1535)"
+  },
+  {
+   "movement": "the-waldensian-reformed-union",
+   "voice": 1,
+   "name": "Guillaume Farel",
+   "individual": true,
+   "backing": "none",
+   "reason": "Calvin's letters are to him, not by him; no words of his found quoted on the shelf; left out"
+  },
+  {
+   "movement": "the-waldensian-reformed-union",
+   "voice": 2,
+   "name": "Jean Léger",
+   "individual": true,
+   "backing": "held",
+   "reason": "held row by leger; year 1655 rests on voices line (1655)"
+  },
+  {
+   "movement": "the-society-of-jesus",
+   "voice": 0,
+   "name": "Ignatius of Loyola",
+   "individual": true,
+   "backing": "none",
+   "reason": "shown as the planned person entry ignatius-of-loyola (not listed again as a named voice); sort year 1540 estimated from person entry start estimated (Society approved 1540)"
+  },
+  {
+   "movement": "the-society-of-jesus",
+   "voice": 1,
+   "name": "Francis Xavier",
+   "individual": true,
+   "backing": "held",
+   "reason": "held row by francis-xavier; year 1541 rests on general reference (sailed for India 1541)"
+  },
+  {
+   "movement": "the-society-of-jesus",
+   "voice": 3,
+   "name": "Peter Canisius",
+   "individual": true,
+   "backing": "held",
+   "reason": "held row by canisius; year 1555 rests on general reference (Summa 1555)"
+  },
+  {
+   "movement": "the-society-of-jesus",
+   "voice": 2,
+   "name": "Matteo Ricci",
+   "individual": true,
+   "backing": "none",
+   "reason": "Trigault's De Christiana expeditione retells his journals in the third person; no words of his own found; left out"
+  },
+  {
+   "movement": "the-society-of-jesus",
+   "voice": 4,
+   "name": "Roberto de Nobili",
+   "individual": true,
+   "backing": "none",
+   "reason": "no text of his vendored; the Polanco hits are a namesake; left out"
+  },
+  {
+   "movement": "tridentine-parish-renewal-borromean-milan",
+   "voice": 0,
+   "name": "Charles Borromeo",
+   "individual": true,
+   "backing": "held",
+   "reason": "held row by borromeo; year 1564 rests on general reference (resident archbishop 1564)"
+  },
+  {
+   "movement": "tridentine-parish-renewal-borromean-milan",
+   "voice": 1,
+   "name": "Federico Borromeo",
+   "individual": true,
+   "backing": "none",
+   "reason": "every borromeo row on the shelf is by Charles, not Federico; no words of Federico found; left out"
+  },
+  {
+   "movement": "tridentine-parish-renewal-borromean-milan",
+   "voice": 2,
+   "name": "Castellino da Castello",
+   "individual": true,
+   "backing": "none",
+   "reason": "no text of his vendored; shelf grep found nothing; left out"
+  },
+  {
+   "movement": "mission-born-christianities-kirishitan-japan-kon",
+   "voice": 0,
+   "name": "Afonso I",
+   "individual": true,
+   "backing": "source",
+   "reason": "his letter to João III of 6 July 1526, in Paiva Manso's Portuguese edition; written by his scribe in the king's name; year 1509 rests on voices line (king from about 1509)"
+  },
+  {
+   "movement": "mission-born-christianities-kirishitan-japan-kon",
+   "voice": 1,
+   "name": "Fabian Fucan",
+   "individual": true,
+   "backing": "none",
+   "reason": "no text of his vendored; left out"
+  },
+  {
+   "movement": "mission-born-christianities-kirishitan-japan-kon",
+   "voice": 2,
+   "name": "Xu Guangqi",
+   "individual": true,
+   "backing": "none",
+   "reason": "no text of his vendored; Purchas retells his life from Trigault; left out"
+  },
+  {
+   "movement": "mission-born-christianities-kirishitan-japan-kon",
+   "voice": 3,
+   "name": "Guaman Poma de Ayala",
+   "individual": true,
+   "backing": "none",
+   "reason": "his Nueva corónica is not vendored; left out"
+  },
+  {
+   "movement": "anti-trinitarian-currents-servetus-polish-brethr",
+   "voice": 0,
+   "name": "Michael Servetus",
+   "individual": true,
+   "backing": "held",
+   "reason": "held row by servetus; year 1531 rests on general reference (De Trinitatis erroribus 1531)"
+  },
+  {
+   "movement": "anti-trinitarian-currents-servetus-polish-brethr",
+   "voice": 1,
+   "name": "Fausto Sozzini",
+   "individual": true,
+   "backing": "held",
+   "reason": "held row by socinus; year 1579 rests on general reference (came to Poland 1579)"
+  },
+  {
+   "movement": "anti-trinitarian-currents-servetus-polish-brethr",
+   "voice": 2,
+   "name": "Ferenc Dávid",
+   "individual": true,
+   "backing": "none",
+   "reason": "no text of his vendored; shelf 'David' hits are biblical; left out"
+  },
+  {
+   "movement": "schwenckfelders",
+   "voice": 0,
+   "name": "Caspar Schwenckfeld von Ossig",
+   "individual": true,
+   "backing": "held",
+   "reason": "held row by schwenckfeld; year 1525 rests on general reference (break with Luther 1525)"
+  },
+  {
+   "movement": "schwenckfelders",
+   "voice": 1,
+   "name": "Adam Reissner",
+   "individual": true,
+   "backing": "source",
+   "reason": "a line of his hymn as quoted in the Schwenkfelders' Erläuterung (1830); year 1533 rests on general reference (hymn In dich hab ich gehoffet, 1533)"
+  },
+  {
+   "movement": "schwenckfelders",
+   "voice": 2,
+   "name": "Beyond its founder the movement produced few prominent leade",
+   "individual": false,
+   "backing": "none",
+   "reason": "not a named individual"
+  },
+  {
+   "movement": "family-of-love-and-spiritualists-franck-niclaes",
+   "voice": 0,
+   "name": "Sebastian Franck",
+   "individual": true,
+   "backing": "held",
+   "reason": "held row by franck; year 1531 rests on general reference (Chronica 1531)"
+  },
+  {
+   "movement": "family-of-love-and-spiritualists-franck-niclaes",
+   "voice": 1,
+   "name": "Hendrik Niclaes",
+   "individual": true,
+   "backing": "held",
+   "reason": "held row by niclaes; year 1540 rests on general reference (founded the Family c. 1540)"
+  },
+  {
+   "movement": "family-of-love-and-spiritualists-franck-niclaes",
+   "voice": 2,
+   "name": "Hendrik Jansen van Barrefelt",
+   "individual": true,
+   "backing": "none",
+   "reason": "no text of his vendored; the story's schism record has no file; left out"
+  },
+  {
+   "movement": "orthodoxy-under-the-ottomans-parish-millet-and-n",
+   "voice": 0,
+   "name": "Gennadios Scholarios",
+   "individual": true,
+   "backing": "held",
+   "reason": "held row by gennadius-scholarius; year 1454 rests on general reference (patriarch 1454)"
+  },
+  {
+   "movement": "orthodoxy-under-the-ottomans-parish-millet-and-n",
+   "voice": 1,
+   "name": "Jeremias II",
+   "individual": true,
+   "backing": "held",
+   "reason": "held row by jeremias-ii; year 1572 rests on general reference (patriarch 1572)"
+  },
+  {
+   "movement": "orthodoxy-under-the-ottomans-parish-millet-and-n",
+   "voice": 2,
+   "name": "Cyril Lucaris",
+   "individual": true,
+   "backing": "held",
+   "reason": "held row by lucaris; year 1620 rests on general reference (patriarch 1620)"
+  },
+  {
+   "movement": "orthodoxy-under-the-ottomans-parish-millet-and-n",
+   "voice": 3,
+   "name": "Nikodemos the Hagiorite",
+   "individual": true,
+   "backing": "held",
+   "reason": "held row by nikodemos-hagiorite; year 1782 rests on general reference (Philokalia 1782)"
+  },
+  {
+   "movement": "st-thomas-christians-under-portuguese-pressure-d",
+   "voice": 0,
+   "name": "Aleixo de Menezes",
+   "individual": true,
+   "backing": "source",
+   "reason": "his convocation of the synod, in Geddes's English (1694); speaks as 'us'; year 1599 rests on voices line (Synod of Diamper 1599)"
+  },
+  {
+   "movement": "st-thomas-christians-under-portuguese-pressure-d",
+   "voice": 1,
+   "name": "Archdeacon Thomas",
+   "individual": true,
+   "backing": "none",
+   "reason": "no words of his own found on the shelf; left out"
+  },
+  {
+   "movement": "st-thomas-christians-under-portuguese-pressure-d",
+   "voice": 2,
+   "name": "Ahatallah",
+   "individual": true,
+   "backing": "none",
+   "reason": "Assemani mentions him; no letter of his printed; left out"
+  },
+  {
+   "movement": "philippine-catholicism",
+   "voice": 0,
+   "name": "Miguel López de Legazpi",
+   "individual": true,
+   "backing": "none",
+   "reason": "his letters (Blair and Robertson vols. 2-3) are not vendored; left out"
+  },
+  {
+   "movement": "philippine-catholicism",
+   "voice": 1,
+   "name": "Andrés de Urdaneta",
+   "individual": true,
+   "backing": "none",
+   "reason": "no text of his vendored; left out"
+  },
+  {
+   "movement": "philippine-catholicism",
+   "voice": 2,
+   "name": "Juan de Plasencia",
+   "individual": true,
+   "backing": "source",
+   "reason": "his relation on Tagalog customs, in Blair and Robertson vol. 7 (English); year 1589 rests on source (his relation, Manila, October 1589)"
+  },
+  {
+   "movement": "philippine-catholicism",
+   "voice": 3,
+   "name": "Pedro Chirino",
+   "individual": true,
+   "backing": "held",
+   "reason": "held row by chirino; year 1604 rests on voices line (Relacion 1604)"
+  },
+  {
+   "movement": "the-union-of-brest-and-ruthenian-greek-catholic-",
+   "voice": 0,
+   "name": "Ipatii Potii",
+   "individual": true,
+   "backing": "none",
+   "reason": "no text of his vendored; modern histories cite him in Polish; left out"
+  },
+  {
+   "movement": "the-union-of-brest-and-ruthenian-greek-catholic-",
+   "voice": 2,
+   "name": "Meletij Smotryc'kyj",
+   "individual": true,
+   "backing": "held",
+   "reason": "held row by smotrycki; year 1610 rests on general reference (Thrênos 1610)"
+  },
+  {
+   "movement": "the-union-of-brest-and-ruthenian-greek-catholic-",
+   "voice": 3,
+   "name": "Josyf Rutsky",
+   "individual": true,
+   "backing": "none",
+   "reason": "no letter of his found printed on the shelf; left out"
+  },
+  {
+   "movement": "the-union-of-brest-and-ruthenian-greek-catholic-",
+   "voice": 1,
+   "name": "Josaphat Kuntsevych",
+   "individual": true,
+   "backing": "none",
+   "reason": "Guépin's quotations are mostly of others; the Documenta Romana is not vendored; left out"
+  },
+  {
+   "movement": "the-kyiv-mohyla-orthodox-revival",
+   "voice": 1,
+   "name": "Yelysei Pletenetsky",
+   "individual": true,
+   "backing": "none",
+   "reason": "no text of his vendored; left out"
+  },
+  {
+   "movement": "the-kyiv-mohyla-orthodox-revival",
+   "voice": 2,
+   "name": "Zakhariia Kopystensky",
+   "individual": true,
+   "backing": "held",
+   "reason": "held row by kopystenskij; year 1621 rests on general reference (Palinodia 1621-22)"
+  },
+  {
+   "movement": "the-kyiv-mohyla-orthodox-revival",
+   "voice": 0,
+   "name": "Petro Mohyla",
+   "individual": true,
+   "backing": "held",
+   "reason": "held row by mogila; year 1627 rests on general reference (archimandrite 1627)"
+  },
+  {
+   "movement": "the-tridentine-church",
+   "voice": 3,
+   "name": "Angela Merici",
+   "individual": true,
+   "backing": "none",
+   "reason": "her Rule and Counsels are not vendored; left out"
+  },
+  {
+   "movement": "the-tridentine-church",
+   "voice": 0,
+   "name": "Pope Paul III",
+   "individual": true,
+   "backing": "source",
+   "reason": "his bull Regimini militantis Ecclesiae, in the Institutum Societatis Iesu; year 1540 rests on source (bull of 27 September 1540)"
+  },
+  {
+   "movement": "the-tridentine-church",
+   "voice": 2,
+   "name": "Charles Borromeo",
+   "individual": true,
+   "backing": "held",
+   "reason": "held row by borromeo; year 1564 rests on general reference (resident archbishop 1564)"
+  },
+  {
+   "movement": "the-tridentine-church",
+   "voice": 1,
+   "name": "Pope Pius V",
+   "individual": true,
+   "backing": "held",
+   "reason": "held row by pius-v; year 1566 rests on general reference (pope 1566)"
+  },
+  {
+   "movement": "the-tridentine-church",
+   "voice": 4,
+   "name": "Robert Bellarmine",
+   "individual": true,
+   "backing": "held",
+   "reason": "held row by bellarmine; year 1586 rests on general reference (Controversies 1586)"
+  },
+  {
+   "movement": "russian-church-stoglav-to-nikon",
+   "voice": 0,
+   "name": "Metropolitan Macarius",
+   "individual": true,
+   "backing": "held",
+   "reason": "held row by macarius-metropolitan; year 1551 rests on voices line (Stoglav 1551)"
+  },
+  {
+   "movement": "russian-church-stoglav-to-nikon",
+   "voice": 1,
+   "name": "Job",
+   "individual": true,
+   "backing": "none",
+   "reason": "the Tale of Tsar Feodor is printed as anonymous; no other words of his found; left out"
+  },
+  {
+   "movement": "russian-church-stoglav-to-nikon",
+   "voice": 2,
+   "name": "Hermogenes",
+   "individual": true,
+   "backing": "source",
+   "reason": "his letter to the former patriarch Job, in the Akty (1836); year 1606 rests on source (Filaret's letter of November 1606 names him patriarch)"
+  },
+  {
+   "movement": "russian-church-stoglav-to-nikon",
+   "voice": 3,
+   "name": "Filaret",
+   "individual": true,
+   "backing": "source",
+   "reason": "his letter as metropolitan of Rostov, in the Akty (1836); year 1606 rests on source (his letter, November 1606)"
+  },
+  {
+   "movement": "czech-churches-last-century",
+   "voice": 0,
+   "name": "Jan Blahoslav",
+   "individual": true,
+   "backing": "none",
+   "reason": "no text of his found; Kralice hits are the word 'blessed'; left out"
+  },
+  {
+   "movement": "czech-churches-last-century",
+   "voice": 1,
+   "name": "Jan Amos Comenius",
+   "individual": true,
+   "backing": "held",
+   "reason": "held row by comenius; year 1623 rests on general reference (Labyrinth 1623)"
+  },
+  {
+   "movement": "ethiopian-christianity-gragn-to-fasilides",
+   "voice": 0,
+   "name": "Ahmad ibn Ibrahim al-Ghazi",
+   "individual": true,
+   "backing": "none",
+   "reason": "no words of his vendored; left out"
+  },
+  {
+   "movement": "ethiopian-christianity-gragn-to-fasilides",
+   "voice": 1,
+   "name": "Emperor Galawdewos",
+   "individual": true,
+   "backing": "held",
+   "reason": "held row by galawdewos; year 1555 rests on shelf row / census (Confession 1555)"
+  },
+  {
+   "movement": "ethiopian-christianity-gragn-to-fasilides",
+   "voice": 2,
+   "name": "Emperor Susenyos",
+   "individual": true,
+   "backing": "none",
+   "reason": "the chronicles and Jesuit histories speak about him; no letter of his found; left out"
+  },
+  {
+   "movement": "ethiopian-christianity-gragn-to-fasilides",
+   "voice": 3,
+   "name": "Emperor Fasilides",
+   "individual": true,
+   "backing": "none",
+   "reason": "no words of his found; left out"
+  },
+  {
+   "movement": "the-remonstrants-and-dort",
+   "voice": 0,
+   "name": "Jacobus Arminius",
+   "individual": true,
+   "backing": "held",
+   "reason": "held row by arminius; year 1603 rests on general reference (Leiden chair 1603)"
+  },
+  {
+   "movement": "the-remonstrants-and-dort",
+   "voice": 2,
+   "name": "Hugo Grotius",
+   "individual": true,
+   "backing": "held",
+   "reason": "held row by grotius; year 1617 rests on general reference (Defensio fidei 1617)"
+  },
+  {
+   "movement": "the-remonstrants-and-dort",
+   "voice": 1,
+   "name": "Simon Episcopius",
+   "individual": true,
+   "backing": "source",
+   "reason": "his reply to Heyden, in Calder's Memoirs (1838); reported speech; year 1618 rests on voices line (spokesman at Dort)"
+  },
+  {
+   "movement": "the-remonstrants-and-dort",
+   "voice": 3,
+   "name": "Johan van Oldenbarnevelt",
+   "individual": true,
+   "backing": "none",
+   "reason": "no words of his found quoted on the shelf; left out"
+  },
+  {
+   "movement": "scandinavian-reformation-kingdoms",
+   "voice": 0,
+   "name": "Gustav Vasa",
+   "individual": true,
+   "backing": "source",
+   "reason": "his assurance about the bishops' trial, quoted in Anjou (English, 1859); year 1527 rests on voices line (Västerås 1527)"
+  },
+  {
+   "movement": "scandinavian-reformation-kingdoms",
+   "voice": 1,
+   "name": "Olaus Petri",
+   "individual": true,
+   "backing": "held",
+   "reason": "held row by olavus-petri; year 1529 rests on shelf row (Handbook 1529)"
+  },
+  {
+   "movement": "scandinavian-reformation-kingdoms",
+   "voice": 2,
+   "name": "Christian III",
+   "individual": true,
+   "backing": "source",
+   "reason": "the preface of the 1537 Ordinatio, which speaks in his name; raw OCR with long-s; year 1536 rests on voices line (1536)"
+  },
+  {
+   "movement": "scandinavian-reformation-kingdoms",
+   "voice": 3,
+   "name": "Johannes Bugenhagen",
+   "individual": true,
+   "backing": "none",
+   "reason": "the Ordinatio speaks in the king's voice; no words of Bugenhagen's own found; left out"
+  },
+  {
+   "movement": "scandinavian-reformation-kingdoms",
+   "voice": 4,
+   "name": "Mikael Agricola",
+   "individual": true,
+   "backing": "none",
+   "reason": "no text of his vendored; left out"
+  },
+  {
+   "movement": "armenian-christianity-new-julfa",
+   "voice": 0,
+   "name": "Shah Abbas I",
+   "individual": true,
+   "backing": "none",
+   "reason": "travel accounts report him; no words of his own vendored; left out"
+  },
+  {
+   "movement": "armenian-christianity-new-julfa",
+   "voice": 1,
+   "name": "Movses III of Tatev",
+   "individual": true,
+   "backing": "none",
+   "reason": "Zakaria of Kanaker writes his life; no words of his own; left out"
+  },
+  {
+   "movement": "armenian-christianity-new-julfa",
+   "voice": 2,
+   "name": "Khachatur Kesaratsi",
+   "individual": true,
+   "backing": "none",
+   "reason": "no words of his own vendored; left out"
+  },
+  {
+   "movement": "carmelite-reform-and-spanish-mystics",
+   "voice": 0,
+   "name": "Teresa of Ávila",
+   "individual": true,
+   "backing": "held",
+   "reason": "held row by teresa-of-avila; year 1562 rests on general reference (first foundation 1562)"
+  },
+  {
+   "movement": "carmelite-reform-and-spanish-mystics",
+   "voice": 1,
+   "name": "John of the Cross",
+   "individual": true,
+   "backing": "held",
+   "reason": "held row by john-of-the-cross; year 1568 rests on general reference (Duruelo 1568)"
+  },
+  {
+   "movement": "carmelite-reform-and-spanish-mystics",
+   "voice": 2,
+   "name": "Jerónimo Gracián",
+   "individual": true,
+   "backing": "none",
+   "reason": "Teresa writes of him; no text of his vendored; left out"
+  },
+  {
+   "movement": "carmelite-reform-and-spanish-mystics",
+   "voice": 3,
+   "name": "Ana de Jesús",
+   "individual": true,
+   "backing": "none",
+   "reason": "no text of hers vendored; left out"
+  },
+  {
+   "movement": "church-of-the-east-schism-of-1552",
+   "voice": 0,
+   "name": "Yohannan Sulaqa",
+   "individual": true,
+   "backing": "none",
+   "reason": "Assemani narrates his profession; it is not printed; left out"
+  },
+  {
+   "movement": "church-of-the-east-schism-of-1552",
+   "voice": 2,
+   "name": "Abdisho IV Maron",
+   "individual": true,
+   "backing": "held",
+   "reason": "held row by abdisho-iv; year 1555 rests on general reference (succeeded Sulaqa 1555)"
+  },
+  {
+   "movement": "church-of-the-east-schism-of-1552",
+   "voice": 1,
+   "name": "Shemon VII Ishoyahb",
+   "individual": true,
+   "backing": "none",
+   "reason": "no words of his vendored; left out"
+  },
+  {
+   "movement": "the-quakers-religious-society-of-friends",
+   "voice": 0,
+   "name": "George Fox",
+   "individual": true,
+   "backing": "held",
+   "reason": "held row by fox; year 1647 rests on general reference (began preaching 1647)"
+  },
+  {
+   "movement": "the-quakers-religious-society-of-friends",
+   "voice": 1,
+   "name": "Margaret Fell",
+   "individual": true,
+   "backing": "held",
+   "reason": "held row by fell; year 1652 rests on general reference (1652)"
+  },
+  {
+   "movement": "the-quakers-religious-society-of-friends",
+   "voice": 3,
+   "name": "Katharine Evans",
+   "individual": true,
+   "backing": "held",
+   "reason": "held row by evans-and-cheevers; year 1662 rests on voices line / shelf row (1662); joint narrative with Sarah Cheevers"
+  },
+  {
+   "movement": "the-quakers-religious-society-of-friends",
+   "voice": 3,
+   "name": "Sarah Cheevers",
+   "individual": true,
+   "backing": "held",
+   "reason": "held row by evans-and-cheevers; year 1662 rests on voices line / shelf row (1662); joint narrative with Katharine Evans"
+  },
+  {
+   "movement": "the-quakers-religious-society-of-friends",
+   "voice": 2,
+   "name": "John Woolman",
+   "individual": true,
+   "backing": "held",
+   "reason": "held row by woolman; year 1754 rests on general reference (Considerations 1754)"
+  },
+  {
+   "movement": "german-pietism-spener-francke-halle",
+   "voice": 0,
+   "name": "Philipp Jakob Spener",
+   "individual": true,
+   "backing": "held",
+   "reason": "held row by spener; year 1675 rests on voices line (1675)"
+  },
+  {
+   "movement": "german-pietism-spener-francke-halle",
+   "voice": 1,
+   "name": "August Hermann Francke",
+   "individual": true,
+   "backing": "held",
+   "reason": "held row by francke; year 1692 rests on general reference (Halle 1692)"
+  },
+  {
+   "movement": "german-pietism-spener-francke-halle",
+   "voice": 3,
+   "name": "Johann Anastasius Freylinghausen",
+   "individual": true,
+   "backing": "held",
+   "reason": "held row by freylinghausen; year 1704 rests on voices line (1704)"
+  },
+  {
+   "movement": "german-pietism-spener-francke-halle",
+   "voice": 4,
+   "name": "Bartholomäus Ziegenbalg",
+   "individual": true,
+   "backing": "held",
+   "reason": "held row by ziegenbalg; year 1706 rests on voices line (1706); the held letters are the Tranquebar missionaries' joint letters"
+  },
+  {
+   "movement": "german-pietism-spener-francke-halle",
+   "voice": 2,
+   "name": "Johanna Eleonora Petersen",
+   "individual": true,
+   "backing": "none",
+   "reason": "her 1718 Leben is not vendored; her husband's Leben is his own; left out"
+  },
+  {
+   "movement": "radical-pietism-and-the-brethren-dunkers-ephrata",
+   "voice": 2,
+   "name": "Ernst Christoph Hochmann von Hochenau",
+   "individual": true,
+   "backing": "held",
+   "reason": "held row by hochmann; year 1702 rests on voices line (1702)"
+  },
+  {
+   "movement": "radical-pietism-and-the-brethren-dunkers-ephrata",
+   "voice": 0,
+   "name": "Alexander Mack",
+   "individual": true,
+   "backing": "held",
+   "reason": "held row by mack-alexander; year 1708 rests on voices line (1708)"
+  },
+  {
+   "movement": "radical-pietism-and-the-brethren-dunkers-ephrata",
+   "voice": 1,
+   "name": "Gottfried Arnold",
+   "individual": true,
+   "backing": "none",
+   "reason": "his Impartial History is not vendored; left out"
+  },
+  {
+   "movement": "radical-pietism-and-the-brethren-dunkers-ephrata",
+   "voice": 3,
+   "name": "Conrad Beissel",
+   "individual": true,
+   "backing": "held",
+   "reason": "held row by beissel; year 1732 rests on general reference (Ephrata 1732)"
+  },
+  {
+   "movement": "radical-pietism-and-the-brethren-dunkers-ephrata",
+   "voice": 4,
+   "name": "The Roses of Saron — Ephrata's sisterhood, who produced much",
+   "individual": false,
+   "backing": "none",
+   "reason": "a community (the Ephrata sisterhood), not one named individual"
+  },
+  {
+   "movement": "the-moravian-church-at-herrnhut",
+   "voice": 0,
+   "name": "Nikolaus Ludwig von Zinzendorf",
+   "individual": true,
+   "backing": "held",
+   "reason": "held row by zinzendorf; year 1722 rests on general reference (Herrnhut 1722)"
+  },
+  {
+   "movement": "the-moravian-church-at-herrnhut",
+   "voice": 1,
+   "name": "Christian David",
+   "individual": true,
+   "backing": "none",
+   "reason": "histories narrate him; no words of his found; left out"
+  },
+  {
+   "movement": "the-moravian-church-at-herrnhut",
+   "voice": 2,
+   "name": "Leonhard Dober",
+   "individual": true,
+   "backing": "none",
+   "reason": "Spangenberg narrates his call; no words of his found; left out"
+  },
+  {
+   "movement": "the-moravian-church-at-herrnhut",
+   "voice": 2,
+   "name": "David Nitschmann",
+   "individual": true,
+   "backing": "none",
+   "reason": "no words of his found; left out"
+  },
+  {
+   "movement": "the-moravian-church-at-herrnhut",
+   "voice": 3,
+   "name": "Rebecca Protten",
+   "individual": true,
+   "backing": "none",
+   "reason": "her letter is not printed in the vendored Oldendorp volume; left out"
+  },
+  {
+   "movement": "the-moravian-church-at-herrnhut",
+   "voice": 4,
+   "name": "Anna Nitschmann",
+   "individual": true,
+   "backing": "none",
+   "reason": "no text of hers vendored; left out"
+  },
+  {
+   "movement": "the-methodist-revival",
+   "voice": 0,
+   "name": "John Wesley",
+   "individual": true,
+   "backing": "none",
+   "reason": "shown as the planned person entry john-wesley (not listed again as a named voice); sort year 1738 estimated from person entry start estimated (1738)"
+  },
+  {
+   "movement": "the-methodist-revival",
+   "voice": 1,
+   "name": "Charles Wesley",
+   "individual": true,
+   "backing": "held",
+   "reason": "held row by wesley-c; year 1736 rests on shelf row (Journal from 1736); held row moved to his own Journal (wesley-c), not the hymn collection edited by John"
+  },
+  {
+   "movement": "the-methodist-revival",
+   "voice": 2,
+   "name": "George Whitefield",
+   "individual": true,
+   "backing": "held",
+   "reason": "held row by whitefield; year 1736 rests on general reference (first sermon 1736)"
+  },
+  {
+   "movement": "the-methodist-revival",
+   "voice": 3,
+   "name": "Mary Bosanquet Fletcher",
+   "individual": true,
+   "backing": "held",
+   "reason": "held row by fletcher-mary; year 1771 rests on voices line (1771); held row quotes her journal and letters in Moore's Life"
+  },
+  {
+   "movement": "the-methodist-revival",
+   "voice": 4,
+   "name": "Francis Asbury",
+   "individual": true,
+   "backing": "held",
+   "reason": "held row by asbury-francis; year 1771 rests on shelf row (Journal from 1771)"
+  },
+  {
+   "movement": "the-methodist-revival",
+   "voice": 5,
+   "name": "Richard Allen",
+   "individual": true,
+   "backing": "held",
+   "reason": "held row by allen-richard; year 1786 rests on general reference (Philadelphia preaching 1786)"
+  },
+  {
+   "movement": "the-evangelical-awakening-in-new-england",
+   "voice": 0,
+   "name": "Jonathan Edwards",
+   "individual": true,
+   "backing": "held",
+   "reason": "held row by edwards; year 1737 rests on voices line / shelf row (Faithful Narrative 1737)"
+  },
+  {
+   "movement": "the-evangelical-awakening-in-new-england",
+   "voice": 1,
+   "name": "George Whitefield",
+   "individual": true,
+   "backing": "held",
+   "reason": "held row by whitefield; year 1739 rests on voices line (1739)"
+  },
+  {
+   "movement": "the-evangelical-awakening-in-new-england",
+   "voice": 2,
+   "name": "Sarah Osborn",
+   "individual": true,
+   "backing": "held",
+   "reason": "held row by osborn-sarah; year 1743 rests on general reference (memoir 1743)"
+  },
+  {
+   "movement": "the-evangelical-awakening-in-new-england",
+   "voice": 3,
+   "name": "Charles Chauncy",
+   "individual": true,
+   "backing": "held",
+   "reason": "held row by chauncy; year 1743 rests on voices line (1743)"
+  },
+  {
+   "movement": "the-evangelical-awakening-in-new-england",
+   "voice": 4,
+   "name": "Samson Occom",
+   "individual": true,
+   "backing": "held",
+   "reason": "held row by occom; year 1759 rests on general reference (ordained 1759)"
+  },
+  {
+   "movement": "the-evangelical-awakening-in-new-england",
+   "voice": 5,
+   "name": "Phillis Wheatley",
+   "individual": true,
+   "backing": "held",
+   "reason": "held row by wheatley; year 1773 rests on shelf row (Poems 1773)"
+  },
+  {
+   "movement": "the-old-believers",
+   "voice": 2,
+   "name": "Patriarch Nikon",
+   "individual": true,
+   "backing": "held",
+   "reason": "held row by nikon; year 1652 rests on general reference (patriarch 1652)"
+  },
+  {
+   "movement": "the-old-believers",
+   "voice": 0,
+   "name": "Archpriest Avvakum",
+   "individual": true,
+   "backing": "held",
+   "reason": "held row by avvakum; year 1653 rests on general reference (protest 1653)"
+  },
+  {
+   "movement": "the-old-believers",
+   "voice": 1,
+   "name": "Boyarynia Feodosia Morozova",
+   "individual": true,
+   "backing": "held",
+   "reason": "held row by morozova; year 1669 rests on general reference (letters of the late 1660s)"
+  },
+  {
+   "movement": "the-old-believers",
+   "voice": 3,
+   "name": "Semyon Denisov",
+   "individual": true,
+   "backing": "source",
+   "reason": "a passage of his history of the Solovki fathers, quoted in Barskov (1912); year 1723 rests on voices line / entry (1723)"
+  },
+  {
+   "movement": "the-hesychast-revival-paisius-and-the-philokalia",
+   "voice": 0,
+   "name": "Paisius Velichkovsky",
+   "individual": true,
+   "backing": "held",
+   "reason": "held row by paisius-velichkovsky; year 1746 rests on entry start / general reference (Athos 1746); held row moved to his own writings (the scroll on mental prayer); the first pick was a letter by his disciples"
+  },
+  {
+   "movement": "the-hesychast-revival-paisius-and-the-philokalia",
+   "voice": 1,
+   "name": "Nicodemus the Hagiorite",
+   "individual": true,
+   "backing": "held",
+   "reason": "held row by nikodemos-hagiorite; year 1782 rests on voices line (1782)"
+  },
+  {
+   "movement": "the-hesychast-revival-paisius-and-the-philokalia",
+   "voice": 2,
+   "name": "Macarius of Corinth",
+   "individual": true,
+   "backing": "none",
+   "reason": "the Philokalia's preface is by Nikodemos; no words of Macarius's own found; left out"
+  },
+  {
+   "movement": "the-hesychast-revival-paisius-and-the-philokalia",
+   "voice": 3,
+   "name": "Mitrofan",
+   "individual": true,
+   "backing": "held",
+   "reason": "held row by mitrofan-schemamonk; year 1794 rests on general reference (Life written after Paisius's death in 1794); held row is the Life compiled at Neamt from Mitrofan's account"
+  },
+  {
+   "movement": "port-royal-jansenism",
+   "voice": 0,
+   "name": "Angélique Arnauld",
+   "individual": true,
+   "backing": "held",
+   "reason": "held row by arnauld-angelique; year 1609 rests on general reference (1609)"
+  },
+  {
+   "movement": "port-royal-jansenism",
+   "voice": 3,
+   "name": "Blaise Pascal",
+   "individual": true,
+   "backing": "held",
+   "reason": "held row by pascal; year 1656 rests on shelf row (Provinciales 1656)"
+  },
+  {
+   "movement": "port-royal-jansenism",
+   "voice": 1,
+   "name": "Angélique de Saint-Jean Arnauld d'Andilly",
+   "individual": true,
+   "backing": "source",
+   "reason": "her own writing, in Lowndes's English (1909); year 1664 rests on census story source (Relation de captivité, 1664)"
+  },
+  {
+   "movement": "port-royal-jansenism",
+   "voice": 2,
+   "name": "Antoine Arnauld",
+   "individual": true,
+   "backing": "none",
+   "reason": "his own works are not on the shelf; the 'M. Arnauld' hits are his father and kin; left out"
+  },
+  {
+   "movement": "port-royal-jansenism",
+   "voice": 4,
+   "name": "Cornelius Jansen",
+   "individual": true,
+   "backing": "none",
+   "reason": "the Augustinus is not vendored; left out"
+  },
+  {
+   "movement": "the-welsh-revival-tradition",
+   "voice": 0,
+   "name": "Howell Harris",
+   "individual": true,
+   "backing": "held",
+   "reason": "held row by harris-howell; year 1735 rests on entry start / general reference (1735)"
+  },
+  {
+   "movement": "the-welsh-revival-tradition",
+   "voice": 1,
+   "name": "Daniel Rowland",
+   "individual": true,
+   "backing": "held",
+   "reason": "held row by rowland-daniel; year 1735 rests on general reference (1735)"
+  },
+  {
+   "movement": "the-welsh-revival-tradition",
+   "voice": 2,
+   "name": "William Williams Pantycelyn",
+   "individual": true,
+   "backing": "held",
+   "reason": "held row by williams-pantycelyn; year 1744 rests on general reference (first hymns 1744)"
+  },
+  {
+   "movement": "the-welsh-revival-tradition",
+   "voice": 4,
+   "name": "Thomas Charles",
+   "individual": true,
+   "backing": "held",
+   "reason": "held row by charles-thomas; year 1784 rests on general reference (Bala 1784)"
+  },
+  {
+   "movement": "the-welsh-revival-tradition",
+   "voice": 3,
+   "name": "Ann Griffiths",
+   "individual": true,
+   "backing": "held",
+   "reason": "held row by griffiths-ann; year 1796 rests on general reference (1796)"
+  },
+  {
+   "movement": "the-antonian-movement-in-kongo",
+   "voice": 0,
+   "name": "Dona Beatriz Kimpa Vita",
+   "individual": true,
+   "backing": "none",
+   "reason": "her words reach us only in Bernardo da Gallo's report, which is not vendored; left out"
+  },
+  {
+   "movement": "the-antonian-movement-in-kongo",
+   "voice": 1,
+   "name": "Bernardo da Gallo",
+   "individual": true,
+   "backing": "none",
+   "reason": "his report to Propaganda Fide is not vendored; left out"
+  },
+  {
+   "movement": "the-antonian-movement-in-kongo",
+   "voice": 2,
+   "name": "Pedro IV",
+   "individual": true,
+   "backing": "none",
+   "reason": "no words of his vendored; left out"
+  },
+  {
+   "movement": "the-antonian-movement-in-kongo",
+   "voice": 3,
+   "name": "The movement's own voice reaches us almost entirely through ",
+   "individual": false,
+   "backing": "none",
+   "reason": "a statement about the sources, not a named individual"
+  },
+  {
+   "movement": "shakers",
+   "voice": 0,
+   "name": "Ann Lee",
+   "individual": true,
+   "backing": "source",
+   "reason": "her saying as collected in the Testimonies (1888 edition); reported by witnesses; year 1774 rests on voices line (1774)"
+  },
+  {
+   "movement": "shakers",
+   "voice": 1,
+   "name": "Joseph Meacham",
+   "individual": true,
+   "backing": "none",
+   "reason": "Shaker histories narrate him; no words of his found; left out"
+  },
+  {
+   "movement": "shakers",
+   "voice": 1,
+   "name": "Lucy Wright",
+   "individual": true,
+   "backing": "none",
+   "reason": "no words of hers found; left out"
+  },
+  {
+   "movement": "shakers",
+   "voice": 2,
+   "name": "Benjamin Seth Youngs",
+   "individual": true,
+   "backing": "held",
+   "reason": "held row by youngs-benjamin-seth; year 1808 rests on voices line / shelf row (1808)"
+  },
+  {
+   "movement": "swedenborgian-new-church",
+   "voice": 0,
+   "name": "Emanuel Swedenborg",
+   "individual": true,
+   "backing": "held",
+   "reason": "held row by swedenborg; year 1749 rests on general reference (Arcana Coelestia 1749)"
+  },
+  {
+   "movement": "swedenborgian-new-church",
+   "voice": 1,
+   "name": "Robert Hindmarsh",
+   "individual": true,
+   "backing": "held",
+   "reason": "held row by hindmarsh; year 1784 rests on general reference (first society 1784)"
+  },
+  {
+   "movement": "swedenborgian-new-church",
+   "voice": 2,
+   "name": "James Glen",
+   "individual": true,
+   "backing": "none",
+   "reason": "no text of his vendored; left out"
+  },
+  {
+   "movement": "quietist-controversy-molinos-guyon",
+   "voice": 0,
+   "name": "Miguel de Molinos",
+   "individual": true,
+   "backing": "held",
+   "reason": "held row by molinos; year 1675 rests on voices line (1675)"
+  },
+  {
+   "movement": "quietist-controversy-molinos-guyon",
+   "voice": 1,
+   "name": "Jeanne Guyon",
+   "individual": true,
+   "backing": "held",
+   "reason": "held row by guyon; year 1685 rests on general reference (Moyen court 1685)"
+  },
+  {
+   "movement": "quietist-controversy-molinos-guyon",
+   "voice": 2,
+   "name": "François Fénelon",
+   "individual": true,
+   "backing": "held",
+   "reason": "held row by fenelon; year 1697 rests on voices line (1697)"
+  },
+  {
+   "movement": "quietist-controversy-molinos-guyon",
+   "voice": 3,
+   "name": "Jacques-Bénigne Bossuet",
+   "individual": true,
+   "backing": "held",
+   "reason": "held row by bossuet; year 1697 rests on shelf row (Instruction 1697)"
+  },
+  {
+   "movement": "camisard-prophetism",
+   "voice": 0,
+   "name": "Isabeau Vincent",
+   "individual": true,
+   "backing": "none",
+   "reason": "Misson's witnesses report her; no words of hers found quoted; left out"
+  },
+  {
+   "movement": "camisard-prophetism",
+   "voice": 1,
+   "name": "Jean Cavalier",
+   "individual": true,
+   "backing": "held",
+   "reason": "held row by cavalier; year 1702 rests on general reference (rising 1702)"
+  },
+  {
+   "movement": "camisard-prophetism",
+   "voice": 2,
+   "name": "Élie Marion",
+   "individual": true,
+   "backing": "held",
+   "reason": "held row by marion; year 1707 rests on shelf row (Avertissements 1707)"
+  },
+  {
+   "movement": "camisard-prophetism",
+   "voice": 2,
+   "name": "Abraham Mazel",
+   "individual": true,
+   "backing": "none",
+   "reason": "his memoirs (ed. Bost) are not vendored; no deposition of his in Misson; left out"
+  },
+  {
+   "movement": "camisard-prophetism",
+   "voice": 3,
+   "name": "Pierre Laporte",
+   "individual": true,
+   "backing": "none",
+   "reason": "no words of his found; left out"
+  },
+  {
+   "movement": "the-baptists",
+   "voice": 0,
+   "name": "John Smyth",
+   "individual": true,
+   "backing": "held",
+   "reason": "held row by smyth; year 1609 rests on voices line (1609)"
+  },
+  {
+   "movement": "the-baptists",
+   "voice": 1,
+   "name": "Thomas Helwys",
+   "individual": true,
+   "backing": "none",
+   "reason": "his Short Declaration is not vendored; the story's inscription comes from reference summaries; left out"
+  },
+  {
+   "movement": "the-baptists",
+   "voice": 2,
+   "name": "John Bunyan",
+   "individual": true,
+   "backing": "held",
+   "reason": "held row by bunyan; year 1660 rests on general reference (imprisoned 1660)"
+  },
+  {
+   "movement": "the-baptists",
+   "voice": 3,
+   "name": "Agnes Beaumont",
+   "individual": true,
+   "backing": "held",
+   "reason": "held row by beaumont-agnes; year 1674 rests on general reference (the events of 1674)"
+  },
+  {
+   "movement": "the-baptists",
+   "voice": 4,
+   "name": "George Liele",
+   "individual": true,
+   "backing": "held",
+   "reason": "held row by liele-george; year 1773 rests on general reference (first preaching 1773)"
+  },
+  {
+   "movement": "the-baptists",
+   "voice": 4,
+   "name": "David George",
+   "individual": true,
+   "backing": "held",
+   "reason": "held row by george-david; year 1778 rests on general reference (Silver Bluff c. 1778)"
+  },
+  {
+   "movement": "the-baptists",
+   "voice": 5,
+   "name": "William Carey",
+   "individual": true,
+   "backing": "held",
+   "reason": "held row by carey-william; year 1792 rests on voices line (1792)"
+  },
+  {
+   "movement": "colonial-latin-american-devotional-catholicism",
+   "voice": 0,
+   "name": "Rose of Lima",
+   "individual": true,
+   "backing": "none",
+   "reason": "Hansen's Life quotes others around her; no words of hers found; left out"
+  },
+  {
+   "movement": "colonial-latin-american-devotional-catholicism",
+   "voice": 1,
+   "name": "Martín de Porres",
+   "individual": true,
+   "backing": "none",
+   "reason": "no text of his vendored; left out"
+  },
+  {
+   "movement": "colonial-latin-american-devotional-catholicism",
+   "voice": 2,
+   "name": "Sor Juana Inés de la Cruz",
+   "individual": true,
+   "backing": "held",
+   "reason": "held row by juana-ines-de-la-cruz; year 1691 rests on voices line (1691)"
+  },
+  {
+   "movement": "colonial-latin-american-devotional-catholicism",
+   "voice": 3,
+   "name": "Úrsula de Jesús",
+   "individual": true,
+   "backing": "none",
+   "reason": "her diary is not vendored; left out"
+  },
+  {
+   "movement": "colonial-latin-american-devotional-catholicism",
+   "voice": 4,
+   "name": "Juan Diego",
+   "individual": true,
+   "backing": "none",
+   "reason": "no words of his vendored; the apparition account is later; left out"
+  },
+  {
+   "movement": "orthodoxy-under-the-ottomans-1650-1821",
+   "voice": 0,
+   "name": "Dositheus II of Jerusalem",
+   "individual": true,
+   "backing": "held",
+   "reason": "held row by dositheus; year 1672 rests on voices line (1672)"
+  },
+  {
+   "movement": "orthodoxy-under-the-ottomans-1650-1821",
+   "voice": 1,
+   "name": "Gregory V of Constantinople",
+   "individual": true,
+   "backing": "source",
+   "reason": "his encyclical letter as patriarch, in Gedeon's Kanonikai diataxeis (1888); year 1797 rests on source (patriarchal letters of 1797 in Gedeon)"
+  },
+  {
+   "movement": "orthodoxy-under-the-ottomans-1650-1821",
+   "voice": 2,
+   "name": "The Phanariots — the Greek families of Constantinople's Phan",
+   "individual": false,
+   "backing": "none",
+   "reason": "a group of families, not one named individual"
+  },
+  {
+   "movement": "orthodoxy-under-the-ottomans-1650-1821",
+   "voice": 3,
+   "name": "The neomartyrs — Orthodox Christians executed for refusing I",
+   "individual": false,
+   "backing": "none",
+   "reason": "a class of martyrs, not one named individual"
+  },
+  {
+   "movement": "catholic-church-ancien-regime",
+   "voice": 0,
+   "name": "Clement XI",
+   "individual": true,
+   "backing": "held",
+   "reason": "held row by clement-xi; year 1700 rests on general reference (pope 1700)"
+  },
+  {
+   "movement": "catholic-church-ancien-regime",
+   "voice": 4,
+   "name": "Alphonsus Liguori",
+   "individual": true,
+   "backing": "held",
+   "reason": "held row by liguori; year 1732 rests on general reference (Redemptorists 1732)"
+  },
+  {
+   "movement": "catholic-church-ancien-regime",
+   "voice": 1,
+   "name": "Clement XIV",
+   "individual": true,
+   "backing": "held",
+   "reason": "held row by clement-xiv; year 1769 rests on general reference (pope 1769)"
+  },
+  {
+   "movement": "catholic-church-ancien-regime",
+   "voice": 2,
+   "name": "Pius VI",
+   "individual": true,
+   "backing": "held",
+   "reason": "held row by pius-vi; year 1775 rests on general reference (pope 1775)"
+  },
+  {
+   "movement": "catholic-church-ancien-regime",
+   "voice": 3,
+   "name": "Pius VII",
+   "individual": true,
+   "backing": "held",
+   "reason": "held row by pius-vii; year 1800 rests on general reference (pope 1800)"
+  },
+  {
+   "movement": "restoration-georgian-church-of-england",
+   "voice": 0,
+   "name": "Gilbert Sheldon",
+   "individual": true,
+   "backing": "none",
+   "reason": "no words of his found on the shelf; left out"
+  },
+  {
+   "movement": "restoration-georgian-church-of-england",
+   "voice": 1,
+   "name": "William Sancroft",
+   "individual": true,
+   "backing": "none",
+   "reason": "the bishops' 1688 petition is not vendored; left out"
+  },
+  {
+   "movement": "restoration-georgian-church-of-england",
+   "voice": 2,
+   "name": "Thomas Bray",
+   "individual": true,
+   "backing": "none",
+   "reason": "the SPG history mentions him; no words of his found; left out"
+  },
+  {
+   "movement": "restoration-georgian-church-of-england",
+   "voice": 3,
+   "name": "Joseph Butler",
+   "individual": true,
+   "backing": "held",
+   "reason": "held row by butler; year 1736 rests on voices line / shelf row (1736)"
+  },
+  {
+   "movement": "restoration-georgian-church-of-england",
+   "voice": 4,
+   "name": "Hannah More",
+   "individual": true,
+   "backing": "source",
+   "reason": "a Cheap Repository tract signed 'Z', the mark the file's catalogue gives as More's; year 1795 rests on shelf row date (Cheap Repository 1795)"
+  },
+  {
+   "movement": "russian-church-nikon-to-holy-synod",
+   "voice": 0,
+   "name": "Patriarch Nikon",
+   "individual": true,
+   "backing": "held",
+   "reason": "held row by nikon; year 1652 rests on general reference (patriarch 1652)"
+  },
+  {
+   "movement": "russian-church-nikon-to-holy-synod",
+   "voice": 1,
+   "name": "Peter the Great",
+   "individual": true,
+   "backing": "none",
+   "reason": "the Spiritual Regulation is not vendored; Consett's tracts are about him; left out"
+  },
+  {
+   "movement": "russian-church-nikon-to-holy-synod",
+   "voice": 2,
+   "name": "Feofan Prokopovich",
+   "individual": true,
+   "backing": "held",
+   "reason": "held row by prokopovich; year 1721 rests on voices line (1721)"
+  },
+  {
+   "movement": "russian-church-nikon-to-holy-synod",
+   "voice": 3,
+   "name": "Tikhon of Zadonsk",
+   "individual": true,
+   "backing": "held",
+   "reason": "held row by tikhon-zadonskii; year 1763 rests on general reference (bishop 1763)"
+  },
+  {
+   "movement": "russian-church-nikon-to-holy-synod",
+   "voice": 4,
+   "name": "Herman of Alaska",
+   "individual": true,
+   "backing": "none",
+   "reason": "no text of his vendored; left out"
+  },
+  {
+   "movement": "church-of-the-desert-huguenots",
+   "voice": 0,
+   "name": "Antoine Court",
+   "individual": true,
+   "backing": "held",
+   "reason": "held row by court-antoine; year 1715 rests on voices line (1715)"
+  },
+  {
+   "movement": "church-of-the-desert-huguenots",
+   "voice": 1,
+   "name": "Paul Rabaut",
+   "individual": true,
+   "backing": "source",
+   "reason": "his letter to Antoine Court, quoted in the Synodes du Désert (1886); year 1738 rests on general reference (pastor from 1738)"
+  },
+  {
+   "movement": "church-of-the-desert-huguenots",
+   "voice": 2,
+   "name": "Marie Durand",
+   "individual": true,
+   "backing": "none",
+   "reason": "her letters are not vendored; left out"
+  },
+  {
+   "movement": "church-of-the-desert-huguenots",
+   "voice": 3,
+   "name": "Rabaut Saint-Étienne",
+   "individual": true,
+   "backing": "held",
+   "reason": "held row by rabaut-saint-etienne; year 1784 rests on shelf row (Vieux Cévenol 1784)"
+  },
+  {
+   "movement": "melkite-greek-catholic-church",
+   "voice": 0,
+   "name": "Cyril VI Tanas",
+   "individual": true,
+   "backing": "source",
+   "reason": "his sworn oath to Rome, signed by him, in Mansi vol. 46; year 1724 rests on voices line (1724)"
+  },
+  {
+   "movement": "melkite-greek-catholic-church",
+   "voice": 1,
+   "name": "Sylvester of Antioch",
+   "individual": true,
+   "backing": "none",
+   "reason": "Mansi names him; no words of his printed; left out"
+  },
+  {
+   "movement": "melkite-greek-catholic-church",
+   "voice": 2,
+   "name": "Euthymios Saifi",
+   "individual": true,
+   "backing": "none",
+   "reason": "Mansi cites him; no text of his own found; left out"
+  },
+  {
+   "movement": "armenian-apostolic-church-era-8",
+   "voice": 0,
+   "name": "Hacob IV of Julfa",
+   "individual": true,
+   "backing": "none",
+   "reason": "this entry has no Library shelf; no words of his found; left out"
+  },
+  {
+   "movement": "armenian-apostolic-church-era-8",
+   "voice": 1,
+   "name": "Gomidas",
+   "individual": true,
+   "backing": "none",
+   "reason": "the martyrdom accounts are by others; left out"
+  },
+  {
+   "movement": "armenian-apostolic-church-era-8",
+   "voice": 2,
+   "name": "Abraham of Crete",
+   "individual": true,
+   "backing": "source",
+   "reason": "his History of Nadir Shah, in Brosset's French (1876); year 1734 rests on voices line (1734)"
+  },
+  {
+   "movement": "armenian-apostolic-church-era-8",
+   "voice": 3,
+   "name": "Simeon of Erevan",
+   "individual": true,
+   "backing": "none",
+   "reason": "no text of his vendored; left out"
+  },
+  {
+   "movement": "armenian-apostolic-church-era-8",
+   "voice": 4,
+   "name": "Zakaria Pokouzian",
+   "individual": true,
+   "backing": "none",
+   "reason": "no text of his vendored; left out"
+  },
+  {
+   "movement": "armenian-christianity-era-8",
+   "voice": 0,
+   "name": "Mekhitar of Sebaste",
+   "individual": true,
+   "backing": "source",
+   "reason": "his letter to the cardinals of Propaganda, from himself and his monks, in Nurikhan's Life (English, 1915); year 1701 rests on voices line (1701)"
+  },
+  {
+   "movement": "armenian-christianity-era-8",
+   "voice": 1,
+   "name": "Abraham Petros I Ardzivian",
+   "individual": true,
+   "backing": "none",
+   "reason": "no text of his found; the abraham-of-crete row is a different man; left out"
+  },
+  {
+   "movement": "armenian-christianity-era-8",
+   "voice": 2,
+   "name": "The Mekhitarist scholars of San Lazzaro — collectively the e",
+   "individual": false,
+   "backing": "none",
+   "reason": "a body of scholars, not one named individual"
+  },
+  {
+   "movement": "church-of-utrecht",
+   "voice": 0,
+   "name": "Cornelius Steenoven",
+   "individual": true,
+   "backing": "source",
+   "reason": "his letter announcing his consecration to Cardinal de Noailles, in the Recueil (1763); year 1723 rests on voices line (1723)"
+  },
+  {
+   "movement": "church-of-utrecht",
+   "voice": 1,
+   "name": "Dominique Marie Varlet",
+   "individual": true,
+   "backing": "none",
+   "reason": "the Recueil prints letters to him, not by him; left out"
+  },
+  {
+   "movement": "english-old-dissent",
+   "voice": 0,
+   "name": "Richard Baxter",
+   "individual": true,
+   "backing": "held",
+   "reason": "held row by baxter; year 1662 rests on entry start (ejection 1662)"
+  },
+  {
+   "movement": "english-old-dissent",
+   "voice": 1,
+   "name": "Isaac Watts",
+   "individual": true,
+   "backing": "held",
+   "reason": "held row by watts; year 1707 rests on shelf row (Hymns 1707)"
+  },
+  {
+   "movement": "english-old-dissent",
+   "voice": 2,
+   "name": "Philip Doddridge",
+   "individual": true,
+   "backing": "held",
+   "reason": "held row by doddridge; year 1729 rests on general reference (Northampton 1729)"
+  },
+  {
+   "movement": "english-old-dissent",
+   "voice": 3,
+   "name": "Joseph Priestley",
+   "individual": true,
+   "backing": "held",
+   "reason": "held row by priestley; year 1755 rests on general reference (first ministry 1755)"
+  },
+  {
+   "movement": "early-american-unitarians-universalists",
+   "voice": 0,
+   "name": "John Murray",
+   "individual": true,
+   "backing": "held",
+   "reason": "held row by murray-john; year 1770 rests on file content note (came to America 1770)"
+  },
+  {
+   "movement": "early-american-unitarians-universalists",
+   "voice": 4,
+   "name": "Theophilus Lindsey",
+   "individual": true,
+   "backing": "held",
+   "reason": "held row by lindsey; year 1774 rests on voices line / shelf row (1774)"
+  },
+  {
+   "movement": "early-american-unitarians-universalists",
+   "voice": 3,
+   "name": "James Freeman",
+   "individual": true,
+   "backing": "held",
+   "reason": "held row by freeman-james; year 1785 rests on voices line (1785)"
+  },
+  {
+   "movement": "early-american-unitarians-universalists",
+   "voice": 1,
+   "name": "Judith Sargent Murray",
+   "individual": true,
+   "backing": "source",
+   "reason": "the continuation 'by a friend' of John Murray's Records, which the file's catalogue gives to her; year 1790 rests on general reference (On the Equality of the Sexes 1790)"
+  },
+  {
+   "movement": "early-american-unitarians-universalists",
+   "voice": 2,
+   "name": "Hosea Ballou",
+   "individual": true,
+   "backing": "held",
+   "reason": "held row by ballou-hosea; year 1805 rests on voices line (1805)"
+  },
+  {
+   "movement": "ruthenian-uniate-18th-century",
+   "voice": 0,
+   "name": "Lev Kishka",
+   "individual": true,
+   "backing": "source",
+   "reason": "his profession of faith at Zamość, signed by him, in Mansi vol. 35; year 1720 rests on voices line (1720)"
+  },
+  {
+   "movement": "ruthenian-uniate-18th-century",
+   "voice": 1,
+   "name": "Catherine II of Russia",
+   "individual": true,
+   "backing": "none",
+   "reason": "the 1794 ukase is not vendored; left out"
+  },
+  {
+   "movement": "ruthenian-uniate-18th-century",
+   "voice": 2,
+   "name": "Maria Theresa",
+   "individual": true,
+   "backing": "none",
+   "reason": "Pelesz summarizes her decrees; no words quoted; left out"
+  },
+  {
+   "movement": "ruthenian-uniate-18th-century",
+   "voice": 2,
+   "name": "Joseph II",
+   "individual": true,
+   "backing": "none",
+   "reason": "Pelesz summarizes his decrees; no words quoted; left out"
+  },
+  {
+   "movement": "philippine-catholicism-era-8",
+   "voice": 0,
+   "name": "Gaspar Aquino de Belén",
+   "individual": true,
+   "backing": "held",
+   "reason": "held row by aquino-de-belen; year 1704 rests on voices line (1704)"
+  },
+  {
+   "movement": "philippine-catholicism-era-8",
+   "voice": 1,
+   "name": "Basilio Sancho de Santa Justa",
+   "individual": true,
+   "backing": "source",
+   "reason": "his pastoral letter on the Jesuit expulsion, in Blair and Robertson vol. 50 (English); year 1767 rests on voices line (1767)"
+  },
+  {
+   "movement": "philippine-catholicism-era-8",
+   "voice": 2,
+   "name": "The friar orders — Augustinians, Franciscans, Dominicans, Re",
+   "individual": false,
+   "backing": "none",
+   "reason": "religious orders, not one named individual"
+  }
+ ],
+ "people_index": [
+  {
+   "name": "Martin Luther",
+   "movement": "lutheran-wittenberg-and-its-congregations",
+   "year": 1517,
+   "last_year": 1546,
+   "author": null,
+   "aliases": [
+    "Martinus Lutherus",
+    "Doctor Luther",
+    "Dr. Luther",
+    "D. Martin Luther",
+    "Luthero"
+   ]
+  },
+  {
+   "name": "Philipp Melanchthon",
+   "movement": "lutheran-wittenberg-and-its-congregations",
+   "year": 1530,
+   "last_year": 1560,
+   "author": "melanchthon",
+   "aliases": [
+    "Philip Melanchthon",
+    "Melancthon",
+    "Philippus Melanthon",
+    "Melanthon",
+    "Philippe Mélanchthon"
+   ]
+  },
+  {
+   "name": "Katharina von Bora",
+   "movement": "lutheran-wittenberg-and-its-congregations",
+   "year": 1525,
+   "last_year": 1552,
+   "author": null,
+   "aliases": [
+    "Katharine von Bora",
+    "Catherine von Bora",
+    "Catherine de Bora",
+    "Katharina Luther",
+    "Käthe Luther"
+   ]
+  },
+  {
+   "name": "Argula von Grumbach",
+   "movement": "lutheran-wittenberg-and-its-congregations",
+   "year": 1523,
+   "last_year": 1554,
+   "author": null,
+   "aliases": [
+    "Argula von Stauff",
+    "Argula de Grumbach"
+   ]
+  },
+  {
+   "name": "Katharina Schütz Zell",
+   "movement": "lutheran-wittenberg-and-its-congregations",
+   "year": 1524,
+   "last_year": 1562,
+   "author": null,
+   "aliases": [
+    "Katharina Zell",
+    "Katharina Schütz",
+    "Catherine Zell",
+    "Katherine Zell"
+   ]
+  },
+  {
+   "name": "Huldrych Zwingli",
+   "movement": "the-reformed-cities-zurich-and-geneva",
+   "year": 1519,
+   "last_year": 1531,
+   "author": "zwingli",
+   "aliases": [
+    "Ulrich Zwingli",
+    "Huldreich Zwingli",
+    "Zuinglius",
+    "Zwinglius",
+    "Zuingle",
+    "Zwingle"
+   ]
+  },
+  {
+   "name": "Heinrich Bullinger",
+   "movement": "the-reformed-cities-zurich-and-geneva",
+   "year": 1531,
+   "last_year": 1575,
+   "author": "bullinger",
+   "aliases": [
+    "Henry Bullinger",
+    "Henricus Bullingerus",
+    "Bullingerus"
+   ]
+  },
+  {
+   "name": "John Calvin",
+   "movement": "the-reformed-cities-zurich-and-geneva",
+   "year": 1536,
+   "last_year": 1564,
+   "author": null,
+   "aliases": [
+    "Jean Calvin",
+    "Johannes Calvinus",
+    "Calvinus",
+    "Jehan Calvin",
+    "Jan Calvijn"
+   ]
+  },
+  {
+   "name": "Theodore Beza",
+   "movement": "the-reformed-cities-zurich-and-geneva",
+   "year": 1564,
+   "last_year": 1605,
+   "author": "beza",
+   "aliases": [
+    "Théodore de Bèze",
+    "Theodorus Beza",
+    "Theodor Beza",
+    "Bèze"
+   ]
+  },
+  {
+   "name": "Marie Dentière",
+   "movement": "the-reformed-cities-zurich-and-geneva",
+   "year": 1539,
+   "last_year": 1561,
+   "author": null,
+   "aliases": [
+    "Marie Dentiere",
+    "Marie d'Ennetières",
+    "Marie d'Ennetieres"
+   ]
+  },
+  {
+   "name": "Conrad Grebel",
+   "movement": "the-anabaptist-movements",
+   "year": 1525,
+   "last_year": 1526,
+   "author": null,
+   "aliases": [
+    "Konrad Grebel",
+    "Cunrat Grebel",
+    "Kuonrat Grebel",
+    "Conradus Grebelius"
+   ]
+  },
+  {
+   "name": "Felix Manz",
+   "movement": "the-anabaptist-movements",
+   "year": 1527,
+   "last_year": 1527,
+   "author": null,
+   "aliases": [
+    "Felix Mantz",
+    "Felix Mans"
+   ]
+  },
+  {
+   "name": "Michael Sattler",
+   "movement": "the-anabaptist-movements",
+   "year": 1527,
+   "last_year": 1527,
+   "author": null,
+   "aliases": [
+    "Michel Sattler",
+    "Michael Satler"
+   ]
+  },
+  {
+   "name": "Menno Simons",
+   "movement": "the-anabaptist-movements",
+   "year": 1536,
+   "last_year": 1561,
+   "author": "menno-simons",
+   "aliases": [
+    "Menno Simonsz",
+    "Menno Symons",
+    "Menno Simonis",
+    "Mennonis Simonis"
+   ]
+  },
+  {
+   "name": "Anneken Jans",
+   "movement": "the-anabaptist-movements",
+   "year": 1539,
+   "last_year": 1539,
+   "author": null,
+   "aliases": [
+    "Anneken Jansz",
+    "Anna Jansz",
+    "Anna of Rotterdam",
+    "Anna van Rotterdam",
+    "Anneken Jansdochter"
+   ]
+  },
+  {
+   "name": "William Tyndale",
+   "movement": "the-english-reformation-and-elizabethan-settleme",
+   "year": 1525,
+   "last_year": 1536,
+   "author": null,
+   "aliases": [
+    "William Tindale",
+    "Guilielmus Tindalus",
+    "Tyndal",
+    "William Hychyns"
+   ]
+  },
+  {
+   "name": "Thomas Cranmer",
+   "movement": "the-english-reformation-and-elizabethan-settleme",
+   "year": 1533,
+   "last_year": 1556,
+   "author": "cranmer",
+   "aliases": [
+    "Thomas Cranmerus",
+    "Archbishop Cranmer"
+   ]
+  },
+  {
+   "name": "Elizabeth I",
+   "movement": "the-english-reformation-and-elizabethan-settleme",
+   "year": 1559,
+   "last_year": 1603,
+   "author": null,
+   "aliases": [
+    "Queen Elizabeth",
+    "Elizabetha regina",
+    "Élisabeth d'Angleterre",
+    "Elisabeth van Engeland"
+   ]
+  },
+  {
+   "name": "John Jewel",
+   "movement": "the-english-reformation-and-elizabethan-settleme",
+   "year": 1562,
+   "last_year": 1571,
+   "author": "jewel",
+   "aliases": [
+    "Johannes Juellus",
+    "Jewell",
+    "Bishop Jewel",
+    "Juellus"
+   ]
+  },
+  {
+   "name": "John Foxe",
+   "movement": "the-english-reformation-and-elizabethan-settleme",
+   "year": 1563,
+   "last_year": 1587,
+   "author": "foxe",
+   "aliases": [
+    "John Fox the martyrologist",
+    "Johannes Foxus",
+    "Foxus"
+   ]
+  },
+  {
+   "name": "Richard Hooker",
+   "movement": "the-english-reformation-and-elizabethan-settleme",
+   "year": 1593,
+   "last_year": 1600,
+   "author": "hooker",
+   "aliases": [
+    "Richardus Hookerus",
+    "Judicious Hooker"
+   ]
+  },
+  {
+   "name": "John Knox",
+   "movement": "the-scottish-reformation-and-kirk",
+   "year": 1560,
+   "last_year": 1572,
+   "author": "knox",
+   "aliases": [
+    "Johannes Cnoxus",
+    "Jhone Knox",
+    "Iohn Knox",
+    "Knoxius"
+   ]
+  },
+  {
+   "name": "Andrew Melville",
+   "movement": "the-scottish-reformation-and-kirk",
+   "year": 1574,
+   "last_year": 1622,
+   "author": null,
+   "aliases": [
+    "Andrew Melvill",
+    "Andro Melvill",
+    "Mr Andro",
+    "Andreas Melvinus",
+    "Andreas Melvillus"
+   ]
+  },
+  {
+   "name": "Archibald Johnston of Wariston",
+   "movement": "the-scottish-reformation-and-kirk",
+   "year": 1632,
+   "last_year": 1663,
+   "author": "wariston",
+   "aliases": [
+    "Archibald Johnston",
+    "Lord Wariston",
+    "Johnston of Warriston"
+   ]
+  },
+  {
+   "name": "Gaspard de Coligny",
+   "movement": "the-huguenots",
+   "year": 1559,
+   "last_year": 1572,
+   "author": null,
+   "aliases": [
+    "Admiral Coligny",
+    "Gaspar de Coligny",
+    "Gaspard de Châtillon",
+    "Colignius"
+   ]
+  },
+  {
+   "name": "Philippe Duplessis-Mornay",
+   "movement": "the-huguenots",
+   "year": 1572,
+   "last_year": 1623,
+   "author": null,
+   "aliases": [
+    "Philippe de Mornay",
+    "Du Plessis-Mornay",
+    "Philip de Mornay",
+    "Plessis Mornay",
+    "Mornaeus"
+   ]
+  },
+  {
+   "name": "Jean Crespin",
+   "movement": "the-huguenots",
+   "year": 1554,
+   "last_year": 1572,
+   "author": "crespin",
+   "aliases": [
+    "Joannes Crispinus",
+    "John Crespin",
+    "Jean Crispin"
+   ]
+  },
+  {
+   "name": "Charlotte Arbaleste de Mornay",
+   "movement": "the-huguenots",
+   "year": 1572,
+   "last_year": 1606,
+   "author": "mornay-charlotte",
+   "aliases": [
+    "Charlotte Arbaleste",
+    "Madame de Mornay",
+    "Charlotte de Mornay"
+   ]
+  },
+  {
+   "name": "Edmund Campion",
+   "movement": "recusant-english-catholicism",
+   "year": 1581,
+   "last_year": 1581,
+   "author": "campion",
+   "aliases": [
+    "Edmundus Campianus",
+    "Campianus",
+    "Edmond Campion"
+   ]
+  },
+  {
+   "name": "Margaret Clitherow",
+   "movement": "recusant-english-catholicism",
+   "year": 1586,
+   "last_year": 1586,
+   "author": null,
+   "aliases": [
+    "Margaret Clitheroe",
+    "Mrs. Clitherow",
+    "Margarita Clitherow"
+   ]
+  },
+  {
+   "name": "Robert Southwell",
+   "movement": "recusant-english-catholicism",
+   "year": 1586,
+   "last_year": 1595,
+   "author": "southwell",
+   "aliases": [
+    "Robertus Southwellus",
+    "Father Southwell"
+   ]
+  },
+  {
+   "name": "John Gerard",
+   "movement": "recusant-english-catholicism",
+   "year": 1588,
+   "last_year": 1637,
+   "author": "gerard-john",
+   "aliases": [
+    "Father John Gerard",
+    "Joannes Gerardus S.J."
+   ]
+  },
+  {
+   "name": "Nicholas Owen",
+   "movement": "recusant-english-catholicism",
+   "year": 1588,
+   "last_year": 1606,
+   "author": null,
+   "aliases": [
+    "Nicolaus Owenus"
+   ]
+  },
+  {
+   "name": "William Perkins",
+   "movement": "puritanism",
+   "year": 1590,
+   "last_year": 1602,
+   "author": "perkins",
+   "aliases": [
+    "Gulielmus Perkinsus",
+    "Perkinsius",
+    "Master Perkins"
+   ]
+  },
+  {
+   "name": "Lady Margaret Hoby",
+   "movement": "puritanism",
+   "year": 1599,
+   "last_year": 1633,
+   "author": "hoby",
+   "aliases": [
+    "Margaret Hoby",
+    "Lady Hoby",
+    "Margaret Dakins"
+   ]
+  },
+  {
+   "name": "Nehemiah Wallington",
+   "movement": "puritanism",
+   "year": 1630,
+   "last_year": 1658,
+   "author": "wallington",
+   "aliases": []
+  },
+  {
+   "name": "Thomas Shepard",
+   "movement": "puritanism",
+   "year": 1635,
+   "last_year": 1649,
+   "author": "shepard",
+   "aliases": []
+  },
+  {
+   "name": "Richard Baxter",
+   "movement": "puritanism",
+   "year": 1641,
+   "last_year": 1691,
+   "author": "baxter",
+   "aliases": [
+    "Richardus Baxterus",
+    "Mr. Baxter"
+   ]
+  },
+  {
+   "name": "Willem Teellinck",
+   "movement": "dutch-further-reformation-and-refuge-culture",
+   "year": 1613,
+   "last_year": 1629,
+   "author": "teellinck",
+   "aliases": [
+    "William Teellinck",
+    "Wilhelmus Teellinck",
+    "Guilielmus Teelinck"
+   ]
+  },
+  {
+   "name": "Gisbertus Voetius",
+   "movement": "dutch-further-reformation-and-refuge-culture",
+   "year": 1634,
+   "last_year": 1676,
+   "author": "voetius",
+   "aliases": [
+    "Gijsbert Voet",
+    "Gisbert Voet",
+    "Voetius"
+   ]
+  },
+  {
+   "name": "Anna Maria van Schurman",
+   "movement": "dutch-further-reformation-and-refuge-culture",
+   "year": 1648,
+   "last_year": 1678,
+   "author": "schurman",
+   "aliases": [
+    "Anna Maria Schurman",
+    "Anna Maria à Schurman",
+    "Anna Maria von Schurmann"
+   ]
+  },
+  {
+   "name": "Pierre Olivétan",
+   "movement": "the-waldensian-reformed-union",
+   "year": 1535,
+   "last_year": 1538,
+   "author": null,
+   "aliases": [
+    "Pierre Robert Olivétan",
+    "Petrus Robertus Olivetanus",
+    "Olivetanus",
+    "Pierre Robert"
+   ]
+  },
+  {
+   "name": "Guillaume Farel",
+   "movement": "the-waldensian-reformed-union",
+   "year": 1532,
+   "last_year": 1565,
+   "author": null,
+   "aliases": [
+    "William Farel",
+    "Guilielmus Farellus",
+    "Farellus"
+   ]
+  },
+  {
+   "name": "Jean Léger",
+   "movement": "the-waldensian-reformed-union",
+   "year": 1655,
+   "last_year": 1670,
+   "author": "leger",
+   "aliases": [
+    "Jean Leger",
+    "John Leger",
+    "Joannes Legerus"
+   ]
+  },
+  {
+   "name": "Ignatius of Loyola",
+   "movement": "the-society-of-jesus",
+   "year": 1540,
+   "last_year": 1556,
+   "author": null,
+   "aliases": [
+    "Ignatius Loyola",
+    "Íñigo de Loyola",
+    "Inigo de Loyola",
+    "Ignace de Loyola",
+    "Ignatius von Loyola"
+   ]
+  },
+  {
+   "name": "Francis Xavier",
+   "movement": "the-society-of-jesus",
+   "year": 1541,
+   "last_year": 1552,
+   "author": "francis-xavier",
+   "aliases": [
+    "Francisco Xavier",
+    "Franciscus Xaverius",
+    "François Xavier",
+    "Franz Xaver"
+   ]
+  },
+  {
+   "name": "Peter Canisius",
+   "movement": "the-society-of-jesus",
+   "year": 1555,
+   "last_year": 1597,
+   "author": "canisius",
+   "aliases": [
+    "Petrus Canisius",
+    "Pierre Canisius",
+    "Peter Kanis"
+   ]
+  },
+  {
+   "name": "Matteo Ricci",
+   "movement": "the-society-of-jesus",
+   "year": 1583,
+   "last_year": 1610,
+   "author": null,
+   "aliases": [
+    "Matthaeus Riccius",
+    "Matthew Ricci",
+    "Li Madou",
+    "Mathieu Ricci"
+   ]
+  },
+  {
+   "name": "Roberto de Nobili",
+   "movement": "the-society-of-jesus",
+   "year": 1606,
+   "last_year": 1656,
+   "author": null,
+   "aliases": [
+    "Robert de Nobili",
+    "Robertus de Nobilibus"
+   ]
+  },
+  {
+   "name": "Charles Borromeo",
+   "movement": "tridentine-parish-renewal-borromean-milan",
+   "year": 1564,
+   "last_year": 1584,
+   "author": "borromeo",
+   "aliases": [
+    "Carlo Borromeo",
+    "Carolus Borromaeus",
+    "Charles Borromée",
+    "Karl Borromäus"
+   ]
+  },
+  {
+   "name": "Federico Borromeo",
+   "movement": "tridentine-parish-renewal-borromean-milan",
+   "year": 1595,
+   "last_year": 1631,
+   "author": null,
+   "aliases": [
+    "Fridericus Borromaeus",
+    "Frédéric Borromée",
+    "Cardinal Federigo Borromeo",
+    "Federigo Borromeo"
+   ]
+  },
+  {
+   "name": "Castellino da Castello",
+   "movement": "tridentine-parish-renewal-borromean-milan",
+   "year": 1536,
+   "last_year": 1566,
+   "author": null,
+   "aliases": [
+    "Castellino da Castelli",
+    "Castellinus de Castello"
+   ]
+  },
+  {
+   "name": "Afonso I",
+   "movement": "mission-born-christianities-kirishitan-japan-kon",
+   "year": 1509,
+   "last_year": 1542,
+   "author": null,
+   "aliases": [
+    "Mvemba a Nzinga",
+    "Nzinga Mbemba",
+    "Afonso I of Kongo",
+    "Affonso I",
+    "Alfonso I of Congo",
+    "Dom Affonso, rei do Congo"
+   ]
+  },
+  {
+   "name": "Fabian Fucan",
+   "movement": "mission-born-christianities-kirishitan-japan-kon",
+   "year": 1586,
+   "last_year": 1621,
+   "author": null,
+   "aliases": [
+    "Fukansai Fabian",
+    "Fabian Fukan",
+    "Habian",
+    "Fukan Fabian"
+   ]
+  },
+  {
+   "name": "Xu Guangqi",
+   "movement": "mission-born-christianities-kirishitan-japan-kon",
+   "year": 1603,
+   "last_year": 1633,
+   "author": null,
+   "aliases": [
+    "Paul Xu",
+    "Paulus Siu",
+    "Hsü Kuang-ch'i",
+    "Siu Paul",
+    "Ciu Paolo"
+   ]
+  },
+  {
+   "name": "Guaman Poma de Ayala",
+   "movement": "mission-born-christianities-kirishitan-japan-kon",
+   "year": 1615,
+   "last_year": 1616,
+   "author": null,
+   "aliases": [
+    "Felipe Guaman Poma de Ayala",
+    "Huaman Poma",
+    "Waman Puma"
+   ]
+  },
+  {
+   "name": "Michael Servetus",
+   "movement": "anti-trinitarian-currents-servetus-polish-brethr",
+   "year": 1531,
+   "last_year": 1553,
+   "author": "servetus",
+   "aliases": [
+    "Miguel Servet",
+    "Michel Servet",
+    "Servetus",
+    "Miguel Serveto"
+   ]
+  },
+  {
+   "name": "Fausto Sozzini",
+   "movement": "anti-trinitarian-currents-servetus-polish-brethr",
+   "year": 1579,
+   "last_year": 1604,
+   "author": "socinus",
+   "aliases": [
+    "Faustus Socinus",
+    "Fauste Socin",
+    "Faustus Socinus Senensis",
+    "Sozzini"
+   ]
+  },
+  {
+   "name": "Ferenc Dávid",
+   "movement": "anti-trinitarian-currents-servetus-polish-brethr",
+   "year": 1568,
+   "last_year": 1579,
+   "author": null,
+   "aliases": [
+    "Francis David",
+    "Franciscus Davidis",
+    "Franz David",
+    "Dávid Ferenc"
+   ]
+  },
+  {
+   "name": "Caspar Schwenckfeld von Ossig",
+   "movement": "schwenckfelders",
+   "year": 1525,
+   "last_year": 1561,
+   "author": "schwenckfeld",
+   "aliases": [
+    "Kaspar Schwenkfeld",
+    "Caspar Schwenckfeld",
+    "Schwenckfeldius",
+    "Schwenkfelt"
+   ]
+  },
+  {
+   "name": "Adam Reissner",
+   "movement": "schwenckfelders",
+   "year": 1533,
+   "last_year": 1582,
+   "author": null,
+   "aliases": [
+    "Adam Reusner",
+    "Adam Reißner",
+    "Adam Reisner"
+   ]
+  },
+  {
+   "name": "Sebastian Franck",
+   "movement": "family-of-love-and-spiritualists-franck-niclaes",
+   "year": 1531,
+   "last_year": 1542,
+   "author": "franck",
+   "aliases": [
+    "Sebastianus Francus",
+    "Sebastian Frank"
+   ]
+  },
+  {
+   "name": "Hendrik Niclaes",
+   "movement": "family-of-love-and-spiritualists-franck-niclaes",
+   "year": 1540,
+   "last_year": 1580,
+   "author": "niclaes",
+   "aliases": [
+    "Henry Nicholas",
+    "Henrick Niclaes",
+    "Hendrick Niclaes"
+   ]
+  },
+  {
+   "name": "Hendrik Jansen van Barrefelt",
+   "movement": "family-of-love-and-spiritualists-franck-niclaes",
+   "year": 1573,
+   "last_year": 1594,
+   "author": null,
+   "aliases": [
+    "Hendrik Jansen",
+    "Henricus Jansenus Barrefeltius"
+   ]
+  },
+  {
+   "name": "Gennadios Scholarios",
+   "movement": "orthodoxy-under-the-ottomans-parish-millet-and-n",
+   "year": 1454,
+   "last_year": 1473,
+   "author": "gennadius-scholarius",
+   "aliases": [
+    "Gennadius Scholarius",
+    "George Scholarios",
+    "Georgios Kourtesios",
+    "Gennadius II"
+   ]
+  },
+  {
+   "name": "Jeremias II",
+   "movement": "orthodoxy-under-the-ottomans-parish-millet-and-n",
+   "year": 1572,
+   "last_year": 1595,
+   "author": "jeremias-ii",
+   "aliases": [
+    "Hieremias II",
+    "Jeremias Tranos",
+    "Patriarch Jeremias",
+    "Hieremias patriarcha"
+   ]
+  },
+  {
+   "name": "Cyril Lucaris",
+   "movement": "orthodoxy-under-the-ottomans-parish-millet-and-n",
+   "year": 1620,
+   "last_year": 1638,
+   "author": "lucaris",
+   "aliases": [
+    "Cyrillus Lucaris",
+    "Cyril Lucar",
+    "Kyrillos Loukaris",
+    "Cyrille Lucar"
+   ]
+  },
+  {
+   "name": "Nikodemos the Hagiorite",
+   "movement": "orthodoxy-under-the-ottomans-parish-millet-and-n",
+   "year": 1782,
+   "last_year": 1809,
+   "author": "nikodemos-hagiorite",
+   "aliases": [
+    "Nicodemus the Hagiorite",
+    "Nikodemos Hagioreites",
+    "Nicodème l'Hagiorite",
+    "Nicodemus of the Holy Mountain"
+   ]
+  },
+  {
+   "name": "Aleixo de Menezes",
+   "movement": "st-thomas-christians-under-portuguese-pressure-d",
+   "year": 1599,
+   "last_year": 1617,
+   "author": null,
+   "aliases": [
+    "Aleixo de Meneses",
+    "Alexius de Menezes",
+    "Alexis de Menezes"
+   ]
+  },
+  {
+   "name": "Archdeacon Thomas",
+   "movement": "st-thomas-christians-under-portuguese-pressure-d",
+   "year": 1653,
+   "last_year": 1670,
+   "author": null,
+   "aliases": [
+    "Mar Thoma I",
+    "Thomas de Campo",
+    "Archdeacon Thomas Parambil"
+   ]
+  },
+  {
+   "name": "Ahatallah",
+   "movement": "st-thomas-christians-under-portuguese-pressure-d",
+   "year": 1652,
+   "last_year": 1654,
+   "author": null,
+   "aliases": [
+    "Ahatalla",
+    "Atallah",
+    "Mar Ahatallah"
+   ]
+  },
+  {
+   "name": "Miguel López de Legazpi",
+   "movement": "philippine-catholicism",
+   "year": 1565,
+   "last_year": 1572,
+   "author": null,
+   "aliases": [
+    "Miguel Lopez de Legaspi",
+    "Legazpi",
+    "Legaspi"
+   ]
+  },
+  {
+   "name": "Andrés de Urdaneta",
+   "movement": "philippine-catholicism",
+   "year": 1565,
+   "last_year": 1568,
+   "author": null,
+   "aliases": [
+    "Andres de Urdaneta",
+    "Andrew Urdaneta",
+    "Urdaneta"
+   ]
+  },
+  {
+   "name": "Juan de Plasencia",
+   "movement": "philippine-catholicism",
+   "year": 1589,
+   "last_year": 1590,
+   "author": null,
+   "aliases": [
+    "Joan de Plasencia",
+    "John of Plasencia",
+    "Fray Juan de Plasencia"
+   ]
+  },
+  {
+   "name": "Pedro Chirino",
+   "movement": "philippine-catholicism",
+   "year": 1604,
+   "last_year": 1635,
+   "author": "chirino",
+   "aliases": [
+    "Petrus Chirinus",
+    "Pedro Chirino S.J."
+   ]
+  },
+  {
+   "name": "Ipatii Potii",
+   "movement": "the-union-of-brest-and-ruthenian-greek-catholic-",
+   "year": 1595,
+   "last_year": 1613,
+   "author": null,
+   "aliases": [
+    "Hipacy Pociej",
+    "Hypatius Pociej",
+    "Ipatij Potij",
+    "Adam Pociej",
+    "Hypatius Pocieius"
+   ]
+  },
+  {
+   "name": "Meletij Smotryc'kyj",
+   "movement": "the-union-of-brest-and-ruthenian-greek-catholic-",
+   "year": 1610,
+   "last_year": 1633,
+   "author": "smotrycki",
+   "aliases": [
+    "Meletius Smotrycki",
+    "Melecjusz Smotrycki",
+    "Meletii Smotritskii",
+    "Meletius Smotriscius"
+   ]
+  },
+  {
+   "name": "Josyf Rutsky",
+   "movement": "the-union-of-brest-and-ruthenian-greek-catholic-",
+   "year": 1613,
+   "last_year": 1637,
+   "author": null,
+   "aliases": [
+    "Józef Welamin Rutski",
+    "Joseph Velamin Rutsky",
+    "Iosephus Rutski",
+    "Rutskyj"
+   ]
+  },
+  {
+   "name": "Josaphat Kuntsevych",
+   "movement": "the-union-of-brest-and-ruthenian-greek-catholic-",
+   "year": 1618,
+   "last_year": 1623,
+   "author": null,
+   "aliases": [
+    "Josaphat Kuncewicz",
+    "Iosaphat Kuncevicius",
+    "Josaphat Kuncevič",
+    "Saint Josaphat"
+   ]
+  },
+  {
+   "name": "Yelysei Pletenetsky",
+   "movement": "the-kyiv-mohyla-orthodox-revival",
+   "year": 1599,
+   "last_year": 1624,
+   "author": null,
+   "aliases": [
+    "Elisei Pletenetskii",
+    "Jelisej Pletenec'kyj",
+    "Elisaeus Pletenecki"
+   ]
+  },
+  {
+   "name": "Zakhariia Kopystensky",
+   "movement": "the-kyiv-mohyla-orthodox-revival",
+   "year": 1621,
+   "last_year": 1627,
+   "author": "kopystenskij",
+   "aliases": [
+    "Zachariasz Kopysteński",
+    "Zakhariia Kopystenskii",
+    "Zacharias Kopystenski"
+   ]
+  },
+  {
+   "name": "Petro Mohyla",
+   "movement": "the-kyiv-mohyla-orthodox-revival",
+   "year": 1627,
+   "last_year": 1647,
+   "author": "mogila",
+   "aliases": [
+    "Peter Mogila",
+    "Petrus Mogilas",
+    "Piotr Mohyła",
+    "Pierre Moghila"
+   ]
+  },
+  {
+   "name": "Angela Merici",
+   "movement": "the-tridentine-church",
+   "year": 1535,
+   "last_year": 1540,
+   "author": null,
+   "aliases": [
+    "Angèle Mérici",
+    "Angela de Merici",
+    "Angela of Brescia"
+   ]
+  },
+  {
+   "name": "Pope Paul III",
+   "movement": "the-tridentine-church",
+   "year": 1540,
+   "last_year": 1549,
+   "author": null,
+   "aliases": [
+    "Paulus III",
+    "Paul III",
+    "Alessandro Farnese",
+    "Paulus Papa Tertius"
+   ]
+  },
+  {
+   "name": "Charles Borromeo",
+   "movement": "the-tridentine-church",
+   "year": 1564,
+   "last_year": 1584,
+   "author": "borromeo",
+   "aliases": [
+    "Carlo Borromeo",
+    "Carolus Borromaeus",
+    "Charles Borromée",
+    "Karl Borromäus"
+   ]
+  },
+  {
+   "name": "Pope Pius V",
+   "movement": "the-tridentine-church",
+   "year": 1566,
+   "last_year": 1572,
+   "author": "pius-v",
+   "aliases": [
+    "Pius V",
+    "Pius Quintus",
+    "Michele Ghislieri",
+    "Pie V"
+   ]
+  },
+  {
+   "name": "Robert Bellarmine",
+   "movement": "the-tridentine-church",
+   "year": 1586,
+   "last_year": 1621,
+   "author": "bellarmine",
+   "aliases": [
+    "Roberto Bellarmino",
+    "Robertus Bellarminus",
+    "Bellarmin",
+    "Cardinal Bellarmine"
+   ]
+  },
+  {
+   "name": "Metropolitan Macarius",
+   "movement": "russian-church-stoglav-to-nikon",
+   "year": 1551,
+   "last_year": 1563,
+   "author": "macarius-metropolitan",
+   "aliases": [
+    "Makarii",
+    "Macarius of Moscow",
+    "Metropolitan Makary"
+   ]
+  },
+  {
+   "name": "Job",
+   "movement": "russian-church-stoglav-to-nikon",
+   "year": 1589,
+   "last_year": 1607,
+   "author": null,
+   "aliases": [
+    "Patriarch Job",
+    "Iov",
+    "Іевъ Патріархъ"
+   ]
+  },
+  {
+   "name": "Hermogenes",
+   "movement": "russian-church-stoglav-to-nikon",
+   "year": 1606,
+   "last_year": 1612,
+   "author": null,
+   "aliases": [
+    "Patriarch Hermogenes",
+    "Germogen",
+    "Ermogen",
+    "Ермогенъ",
+    "Гермогенъ"
+   ]
+  },
+  {
+   "name": "Filaret",
+   "movement": "russian-church-stoglav-to-nikon",
+   "year": 1606,
+   "last_year": 1633,
+   "author": null,
+   "aliases": [
+    "Filaret Nikitich",
+    "Feodor Romanov"
+   ]
+  },
+  {
+   "name": "Jan Blahoslav",
+   "movement": "czech-churches-last-century",
+   "year": 1557,
+   "last_year": 1571,
+   "author": null,
+   "aliases": [
+    "Johannes Blahoslaus",
+    "Jan Blahoslaw"
+   ]
+  },
+  {
+   "name": "Jan Amos Comenius",
+   "movement": "czech-churches-last-century",
+   "year": 1623,
+   "last_year": 1670,
+   "author": "comenius",
+   "aliases": [
+    "Johann Amos Comenius",
+    "Jan Amos Komenský",
+    "Comenius",
+    "Komensky"
+   ]
+  },
+  {
+   "name": "Ahmad ibn Ibrahim al-Ghazi",
+   "movement": "ethiopian-christianity-gragn-to-fasilides",
+   "year": 1529,
+   "last_year": 1543,
+   "author": null,
+   "aliases": [
+    "Gragn",
+    "Grañ",
+    "Grañe",
+    "Ahmed Gran",
+    "Mahamet Granh"
+   ]
+  },
+  {
+   "name": "Emperor Galawdewos",
+   "movement": "ethiopian-christianity-gragn-to-fasilides",
+   "year": 1555,
+   "last_year": 1559,
+   "author": "galawdewos",
+   "aliases": [
+    "Claudius of Ethiopia",
+    "King Claudius",
+    "Galawdewos",
+    "Asnaf Sagad"
+   ]
+  },
+  {
+   "name": "Emperor Susenyos",
+   "movement": "ethiopian-christianity-gragn-to-fasilides",
+   "year": 1607,
+   "last_year": 1632,
+   "author": null,
+   "aliases": [
+    "Susneus",
+    "Socinios",
+    "Susenyos",
+    "Seltan Sagad"
+   ]
+  },
+  {
+   "name": "Emperor Fasilides",
+   "movement": "ethiopian-christianity-gragn-to-fasilides",
+   "year": 1632,
+   "last_year": 1667,
+   "author": null,
+   "aliases": [
+    "Fasiladas",
+    "Facilidas"
+   ]
+  },
+  {
+   "name": "Jacobus Arminius",
+   "movement": "the-remonstrants-and-dort",
+   "year": 1603,
+   "last_year": 1609,
+   "author": "arminius",
+   "aliases": [
+    "James Arminius",
+    "Jacob Hermanszoon",
+    "Jacobus Hermansz"
+   ]
+  },
+  {
+   "name": "Hugo Grotius",
+   "movement": "the-remonstrants-and-dort",
+   "year": 1617,
+   "last_year": 1645,
+   "author": "grotius",
+   "aliases": [
+    "Hugo de Groot",
+    "Huig de Groot",
+    "Grotius"
+   ]
+  },
+  {
+   "name": "Simon Episcopius",
+   "movement": "the-remonstrants-and-dort",
+   "year": 1618,
+   "last_year": 1643,
+   "author": null,
+   "aliases": [
+    "Simon Bisschop",
+    "Episcopius"
+   ]
+  },
+  {
+   "name": "Johan van Oldenbarnevelt",
+   "movement": "the-remonstrants-and-dort",
+   "year": 1586,
+   "last_year": 1619,
+   "author": null,
+   "aliases": [
+    "Barnevelt",
+    "Barneveld",
+    "Oldenbarneveldt",
+    "Joannes Barnevel"
+   ]
+  },
+  {
+   "name": "Gustav Vasa",
+   "movement": "scandinavian-reformation-kingdoms",
+   "year": 1527,
+   "last_year": 1560,
+   "author": null,
+   "aliases": [
+    "Gustavus Vasa",
+    "Gustav I",
+    "Gustaf Eriksson",
+    "Gustavus Ericus"
+   ]
+  },
+  {
+   "name": "Olaus Petri",
+   "movement": "scandinavian-reformation-kingdoms",
+   "year": 1529,
+   "last_year": 1552,
+   "author": "olavus-petri",
+   "aliases": [
+    "Olavus Petri",
+    "Olof Petersson",
+    "Olaf Petri"
+   ]
+  },
+  {
+   "name": "Christian III",
+   "movement": "scandinavian-reformation-kingdoms",
+   "year": 1536,
+   "last_year": 1559,
+   "author": null,
+   "aliases": [
+    "Christianus III",
+    "Christian den Tredje",
+    "Christiern III"
+   ]
+  },
+  {
+   "name": "Johannes Bugenhagen",
+   "movement": "scandinavian-reformation-kingdoms",
+   "year": 1537,
+   "last_year": 1558,
+   "author": null,
+   "aliases": [
+    "Pomeranus",
+    "Doctor Pommer",
+    "Johann Bugenhagen",
+    "Jean Bugenhagen"
+   ]
+  },
+  {
+   "name": "Mikael Agricola",
+   "movement": "scandinavian-reformation-kingdoms",
+   "year": 1548,
+   "last_year": 1557,
+   "author": null,
+   "aliases": [
+    "Michael Agricola",
+    "Mikael Olavinpoika",
+    "Michael Olai Agricola"
+   ]
+  },
+  {
+   "name": "Shah Abbas I",
+   "movement": "armenian-christianity-new-julfa",
+   "year": 1604,
+   "last_year": 1629,
+   "author": null,
+   "aliases": [
+    "Abbas the Great",
+    "Schach Abbas",
+    "Chah Abbas"
+   ]
+  },
+  {
+   "name": "Movses III of Tatev",
+   "movement": "armenian-christianity-new-julfa",
+   "year": 1630,
+   "last_year": 1632,
+   "author": null,
+   "aliases": [
+    "Moses of Tatev",
+    "Movses Tatevatsi",
+    "Moïse de Tathev"
+   ]
+  },
+  {
+   "name": "Khachatur Kesaratsi",
+   "movement": "armenian-christianity-new-julfa",
+   "year": 1636,
+   "last_year": 1646,
+   "author": null,
+   "aliases": [
+    "Khachatur of Caesarea",
+    "Khatchatour Kesaratsi",
+    "Chatchatur of Kesaria"
+   ]
+  },
+  {
+   "name": "Teresa of Ávila",
+   "movement": "carmelite-reform-and-spanish-mystics",
+   "year": 1562,
+   "last_year": 1582,
+   "author": "teresa-of-avila",
+   "aliases": [
+    "Teresa de Jesús",
+    "Teresa of Jesus",
+    "Thérèse d'Avila",
+    "Theresia von Avila",
+    "Santa Teresa"
+   ]
+  },
+  {
+   "name": "John of the Cross",
+   "movement": "carmelite-reform-and-spanish-mystics",
+   "year": 1568,
+   "last_year": 1591,
+   "author": "john-of-the-cross",
+   "aliases": [
+    "Juan de la Cruz",
+    "Joannes a Cruce",
+    "Jean de la Croix",
+    "Johannes vom Kreuz"
+   ]
+  },
+  {
+   "name": "Jerónimo Gracián",
+   "movement": "carmelite-reform-and-spanish-mystics",
+   "year": 1575,
+   "last_year": 1614,
+   "author": null,
+   "aliases": [
+    "Jerome Gratian",
+    "Hieronymus Gratianus",
+    "Jerónimo Gracián de la Madre de Dios"
+   ]
+  },
+  {
+   "name": "Ana de Jesús",
+   "movement": "carmelite-reform-and-spanish-mystics",
+   "year": 1575,
+   "last_year": 1621,
+   "author": null,
+   "aliases": [
+    "Anne of Jesus",
+    "Anne de Jésus",
+    "Ana de Lobera"
+   ]
+  },
+  {
+   "name": "Yohannan Sulaqa",
+   "movement": "church-of-the-east-schism-of-1552",
+   "year": 1553,
+   "last_year": 1555,
+   "author": null,
+   "aliases": [
+    "Simon Sulaqa",
+    "Joannes Sulaka",
+    "Sulaka",
+    "Siud",
+    "Shimun VIII"
+   ]
+  },
+  {
+   "name": "Abdisho IV Maron",
+   "movement": "church-of-the-east-schism-of-1552",
+   "year": 1555,
+   "last_year": 1570,
+   "author": "abdisho-iv",
+   "aliases": [
+    "Ebedjesus",
+    "Abdjesus",
+    "Abdisho of Gazarta",
+    "Hebed Jesu"
+   ]
+  },
+  {
+   "name": "Shemon VII Ishoyahb",
+   "movement": "church-of-the-east-schism-of-1552",
+   "year": 1538,
+   "last_year": 1558,
+   "author": null,
+   "aliases": [
+    "Simeon Bar Mama",
+    "Simeon VII",
+    "Shimun bar Mama"
+   ]
+  },
+  {
+   "name": "George Fox",
+   "movement": "the-quakers-religious-society-of-friends",
+   "year": 1647,
+   "last_year": 1691,
+   "author": "fox",
+   "aliases": [
+    "George Fox the Quaker"
+   ]
+  },
+  {
+   "name": "Margaret Fell",
+   "movement": "the-quakers-religious-society-of-friends",
+   "year": 1652,
+   "last_year": 1702,
+   "author": "fell",
+   "aliases": [
+    "Margaret Fox",
+    "Margaret Askew"
+   ]
+  },
+  {
+   "name": "Katharine Evans",
+   "movement": "the-quakers-religious-society-of-friends",
+   "year": 1662,
+   "last_year": 1692,
+   "author": "evans-and-cheevers",
+   "aliases": [
+    "Katherine Evans",
+    "Catharine Evans"
+   ]
+  },
+  {
+   "name": "Sarah Cheevers",
+   "movement": "the-quakers-religious-society-of-friends",
+   "year": 1662,
+   "last_year": 1664,
+   "author": "evans-and-cheevers",
+   "aliases": [
+    "Sarah Chevers",
+    "Sara Cheevers"
+   ]
+  },
+  {
+   "name": "John Woolman",
+   "movement": "the-quakers-religious-society-of-friends",
+   "year": 1754,
+   "last_year": 1772,
+   "author": "woolman",
+   "aliases": []
+  },
+  {
+   "name": "Philipp Jakob Spener",
+   "movement": "german-pietism-spener-francke-halle",
+   "year": 1675,
+   "last_year": 1705,
+   "author": "spener",
+   "aliases": [
+    "Philip Jacob Spener",
+    "Philippus Jacobus Spenerus",
+    "Ph. J. Spener"
+   ]
+  },
+  {
+   "name": "August Hermann Francke",
+   "movement": "german-pietism-spener-francke-halle",
+   "year": 1692,
+   "last_year": 1727,
+   "author": "francke",
+   "aliases": [
+    "Augustus Hermann Francke",
+    "Augustus Hermannus Franckius",
+    "A. H. Francke",
+    "Augustus Francke"
+   ]
+  },
+  {
+   "name": "Johann Anastasius Freylinghausen",
+   "movement": "german-pietism-spener-francke-halle",
+   "year": 1704,
+   "last_year": 1739,
+   "author": "freylinghausen",
+   "aliases": [
+    "J. A. Freylinghausen",
+    "Johann Anastasius Freilinghausen"
+   ]
+  },
+  {
+   "name": "Bartholomäus Ziegenbalg",
+   "movement": "german-pietism-spener-francke-halle",
+   "year": 1706,
+   "last_year": 1719,
+   "author": "ziegenbalg",
+   "aliases": [
+    "Bartholomew Ziegenbalg",
+    "Bartholomaeus Ziegenbalgius",
+    "Ziegenbalgh"
+   ]
+  },
+  {
+   "name": "Johanna Eleonora Petersen",
+   "movement": "german-pietism-spener-francke-halle",
+   "year": 1718,
+   "last_year": 1724,
+   "author": null,
+   "aliases": [
+    "Johanna Eleonora von Merlau",
+    "Johanna Eleonora Peterson",
+    "Eleonora Petersen"
+   ]
+  },
+  {
+   "name": "Ernst Christoph Hochmann von Hochenau",
+   "movement": "radical-pietism-and-the-brethren-dunkers-ephrata",
+   "year": 1702,
+   "last_year": 1721,
+   "author": "hochmann",
+   "aliases": [
+    "Hochmann von Hohenau",
+    "E. C. Hochmann",
+    "Ernst Christoph Hochmann"
+   ]
+  },
+  {
+   "name": "Alexander Mack",
+   "movement": "radical-pietism-and-the-brethren-dunkers-ephrata",
+   "year": 1708,
+   "last_year": 1735,
+   "author": "mack-alexander",
+   "aliases": [
+    "Alexander Mack Sen.",
+    "Alexander Mack senior"
+   ]
+  },
+  {
+   "name": "Gottfried Arnold",
+   "movement": "radical-pietism-and-the-brethren-dunkers-ephrata",
+   "year": 1699,
+   "last_year": 1714,
+   "author": null,
+   "aliases": [
+    "Godofredus Arnoldus",
+    "Gottfrid Arnold"
+   ]
+  },
+  {
+   "name": "Conrad Beissel",
+   "movement": "radical-pietism-and-the-brethren-dunkers-ephrata",
+   "year": 1732,
+   "last_year": 1768,
+   "author": "beissel",
+   "aliases": [
+    "Johann Conrad Beissel",
+    "Conrad Beisel",
+    "Friedsam Gottrecht",
+    "Father Friedsam"
+   ]
+  },
+  {
+   "name": "Nikolaus Ludwig von Zinzendorf",
+   "movement": "the-moravian-church-at-herrnhut",
+   "year": 1722,
+   "last_year": 1760,
+   "author": "zinzendorf",
+   "aliases": [
+    "Count Zinzendorf",
+    "Nicholas Lewis Zinzendorf",
+    "Graf von Zinzendorf",
+    "Comte de Zinzendorf",
+    "Ordinarius Fratrum"
+   ]
+  },
+  {
+   "name": "Christian David",
+   "movement": "the-moravian-church-at-herrnhut",
+   "year": 1722,
+   "last_year": 1751,
+   "author": null,
+   "aliases": []
+  },
+  {
+   "name": "Leonhard Dober",
+   "movement": "the-moravian-church-at-herrnhut",
+   "year": 1732,
+   "last_year": 1766,
+   "author": null,
+   "aliases": [
+    "Leonard Dober",
+    "Johann Leonhard Dober"
+   ]
+  },
+  {
+   "name": "David Nitschmann",
+   "movement": "the-moravian-church-at-herrnhut",
+   "year": 1732,
+   "last_year": 1772,
+   "author": null,
+   "aliases": [
+    "David Nitschman"
+   ]
+  },
+  {
+   "name": "Rebecca Protten",
+   "movement": "the-moravian-church-at-herrnhut",
+   "year": 1736,
+   "last_year": 1780,
+   "author": null,
+   "aliases": [
+    "Rebekka Protten",
+    "Rebecca Freundlich",
+    "Rebecca of St Thomas"
+   ]
+  },
+  {
+   "name": "Anna Nitschmann",
+   "movement": "the-moravian-church-at-herrnhut",
+   "year": 1730,
+   "last_year": 1760,
+   "author": null,
+   "aliases": [
+    "Anna Nitschman",
+    "Anna von Zinzendorf",
+    "Anna Caritas Nitschmann"
+   ]
+  },
+  {
+   "name": "John Wesley",
+   "movement": "the-methodist-revival",
+   "year": 1738,
+   "last_year": 1791,
+   "author": null,
+   "aliases": [
+    "Johannes Wesley",
+    "Rev. John Wesley"
+   ]
+  },
+  {
+   "name": "Charles Wesley",
+   "movement": "the-methodist-revival",
+   "year": 1736,
+   "last_year": 1788,
+   "author": "wesley-c",
+   "aliases": [
+    "Rev. Charles Wesley",
+    "Carolus Wesley"
+   ]
+  },
+  {
+   "name": "George Whitefield",
+   "movement": "the-methodist-revival",
+   "year": 1736,
+   "last_year": 1770,
+   "author": "whitefield",
+   "aliases": [
+    "George Whitfield",
+    "Mr. Whitefield",
+    "Georg Whitefield"
+   ]
+  },
+  {
+   "name": "Mary Bosanquet Fletcher",
+   "movement": "the-methodist-revival",
+   "year": 1771,
+   "last_year": 1815,
+   "author": "fletcher-mary",
+   "aliases": [
+    "Mary Bosanquet",
+    "Mary Fletcher",
+    "Mrs. Fletcher of Madeley"
+   ]
+  },
+  {
+   "name": "Francis Asbury",
+   "movement": "the-methodist-revival",
+   "year": 1771,
+   "last_year": 1816,
+   "author": "asbury-francis",
+   "aliases": [
+    "Bishop Asbury",
+    "Franciscus Asbury"
+   ]
+  },
+  {
+   "name": "Richard Allen",
+   "movement": "the-methodist-revival",
+   "year": 1786,
+   "last_year": 1831,
+   "author": "allen-richard",
+   "aliases": [
+    "Bishop Richard Allen",
+    "Rt. Rev. Richard Allen"
+   ]
+  },
+  {
+   "name": "Jonathan Edwards",
+   "movement": "the-evangelical-awakening-in-new-england",
+   "year": 1737,
+   "last_year": 1758,
+   "author": "edwards",
+   "aliases": [
+    "President Edwards",
+    "Jonathan Edwards of Northampton"
+   ]
+  },
+  {
+   "name": "George Whitefield",
+   "movement": "the-evangelical-awakening-in-new-england",
+   "year": 1739,
+   "last_year": 1770,
+   "author": "whitefield",
+   "aliases": [
+    "George Whitfield",
+    "Mr. Whitefield",
+    "Georg Whitefield"
+   ]
+  },
+  {
+   "name": "Sarah Osborn",
+   "movement": "the-evangelical-awakening-in-new-england",
+   "year": 1743,
+   "last_year": 1796,
+   "author": "osborn-sarah",
+   "aliases": [
+    "Sarah Haggar Wheaten Osborn",
+    "Mrs. Osborn"
+   ]
+  },
+  {
+   "name": "Charles Chauncy",
+   "movement": "the-evangelical-awakening-in-new-england",
+   "year": 1743,
+   "last_year": 1787,
+   "author": "chauncy",
+   "aliases": [
+    "Charles Chauncey",
+    "Dr. Chauncy"
+   ]
+  },
+  {
+   "name": "Samson Occom",
+   "movement": "the-evangelical-awakening-in-new-england",
+   "year": 1759,
+   "last_year": 1792,
+   "author": "occom",
+   "aliases": [
+    "Samson Occum",
+    "Sampson Occom"
+   ]
+  },
+  {
+   "name": "Phillis Wheatley",
+   "movement": "the-evangelical-awakening-in-new-england",
+   "year": 1773,
+   "last_year": 1784,
+   "author": "wheatley",
+   "aliases": [
+    "Phyllis Wheatley",
+    "Phillis Peters"
+   ]
+  },
+  {
+   "name": "Patriarch Nikon",
+   "movement": "the-old-believers",
+   "year": 1652,
+   "last_year": 1681,
+   "author": "nikon",
+   "aliases": [
+    "Nicon",
+    "Nikon of Moscow",
+    "Nikita Minin",
+    "Никон"
+   ]
+  },
+  {
+   "name": "Archpriest Avvakum",
+   "movement": "the-old-believers",
+   "year": 1653,
+   "last_year": 1682,
+   "author": "avvakum",
+   "aliases": [
+    "Avvakum Petrov",
+    "Avvakum",
+    "Habakkuk the Archpriest",
+    "Аввакум"
+   ]
+  },
+  {
+   "name": "Boyarynia Feodosia Morozova",
+   "movement": "the-old-believers",
+   "year": 1669,
+   "last_year": 1675,
+   "author": "morozova",
+   "aliases": [
+    "Theodosia Morozova",
+    "Feodosiia Morozova",
+    "Boyarina Morozova",
+    "Морозова"
+   ]
+  },
+  {
+   "name": "Semyon Denisov",
+   "movement": "the-old-believers",
+   "year": 1723,
+   "last_year": 1741,
+   "author": null,
+   "aliases": [
+    "Semen Denisov",
+    "Simeon Denisov",
+    "Semyon Vtorushin"
+   ]
+  },
+  {
+   "name": "Paisius Velichkovsky",
+   "movement": "the-hesychast-revival-paisius-and-the-philokalia",
+   "year": 1746,
+   "last_year": 1794,
+   "author": "paisius-velichkovsky",
+   "aliases": [
+    "Paisie Velicicovschi",
+    "Paisii Velichkovskii",
+    "Paisius of Neamt",
+    "Païssi Velitchkovski"
+   ]
+  },
+  {
+   "name": "Nicodemus the Hagiorite",
+   "movement": "the-hesychast-revival-paisius-and-the-philokalia",
+   "year": 1782,
+   "last_year": 1809,
+   "author": "nikodemos-hagiorite",
+   "aliases": [
+    "Nikodemos the Hagiorite",
+    "Nikodemos Hagioreites",
+    "Nicodème l'Hagiorite",
+    "Nicodemus of the Holy Mountain"
+   ]
+  },
+  {
+   "name": "Macarius of Corinth",
+   "movement": "the-hesychast-revival-paisius-and-the-philokalia",
+   "year": 1782,
+   "last_year": 1805,
+   "author": null,
+   "aliases": [
+    "Makarios of Corinth",
+    "Makarios Notaras",
+    "Macaire de Corinthe"
+   ]
+  },
+  {
+   "name": "Mitrofan",
+   "movement": "the-hesychast-revival-paisius-and-the-philokalia",
+   "year": 1794,
+   "last_year": null,
+   "author": "mitrofan-schemamonk",
+   "aliases": [
+    "Schemamonk Mitrofan",
+    "Mitrophanes",
+    "Mitrofan of Neamt"
+   ]
+  },
+  {
+   "name": "Angélique Arnauld",
+   "movement": "port-royal-jansenism",
+   "year": 1609,
+   "last_year": 1661,
+   "author": "arnauld-angelique",
+   "aliases": [
+    "Mère Angélique",
+    "Marie Angélique Arnauld",
+    "Jacqueline Arnauld",
+    "Angelica Arnauld"
+   ]
+  },
+  {
+   "name": "Blaise Pascal",
+   "movement": "port-royal-jansenism",
+   "year": 1656,
+   "last_year": 1662,
+   "author": "pascal",
+   "aliases": [
+    "Blasius Pascal",
+    "Louis de Montalte",
+    "Pascal"
+   ]
+  },
+  {
+   "name": "Angélique de Saint-Jean Arnauld d'Andilly",
+   "movement": "port-royal-jansenism",
+   "year": 1664,
+   "last_year": 1684,
+   "author": null,
+   "aliases": [
+    "Angélique de Saint-Jean",
+    "Mère Angélique de Saint-Jean",
+    "Angélique Arnauld d'Andilly"
+   ]
+  },
+  {
+   "name": "Antoine Arnauld",
+   "movement": "port-royal-jansenism",
+   "year": 1643,
+   "last_year": 1694,
+   "author": null,
+   "aliases": [
+    "le grand Arnauld",
+    "Antonius Arnaldus",
+    "Anthony Arnauld",
+    "M. Arnauld"
+   ]
+  },
+  {
+   "name": "Cornelius Jansen",
+   "movement": "port-royal-jansenism",
+   "year": 1640,
+   "last_year": 1638,
+   "author": null,
+   "aliases": [
+    "Cornelius Jansenius",
+    "Cornelis Jansen",
+    "Corneille Jansénius",
+    "Jansenius"
+   ]
+  },
+  {
+   "name": "Howell Harris",
+   "movement": "the-welsh-revival-tradition",
+   "year": 1735,
+   "last_year": 1773,
+   "author": "harris-howell",
+   "aliases": [
+    "Hywel Harris",
+    "Howel Harris"
+   ]
+  },
+  {
+   "name": "Daniel Rowland",
+   "movement": "the-welsh-revival-tradition",
+   "year": 1735,
+   "last_year": 1790,
+   "author": "rowland-daniel",
+   "aliases": [
+    "Daniel Rowlands",
+    "Daniel Rowland of Llangeitho"
+   ]
+  },
+  {
+   "name": "William Williams Pantycelyn",
+   "movement": "the-welsh-revival-tradition",
+   "year": 1744,
+   "last_year": 1791,
+   "author": "williams-pantycelyn",
+   "aliases": [
+    "William Williams of Pantycelyn",
+    "Pantycelyn",
+    "Williams Pant-y-celyn"
+   ]
+  },
+  {
+   "name": "Thomas Charles",
+   "movement": "the-welsh-revival-tradition",
+   "year": 1784,
+   "last_year": 1814,
+   "author": "charles-thomas",
+   "aliases": [
+    "Thomas Charles of Bala",
+    "Charles of Bala"
+   ]
+  },
+  {
+   "name": "Ann Griffiths",
+   "movement": "the-welsh-revival-tradition",
+   "year": 1796,
+   "last_year": 1805,
+   "author": "griffiths-ann",
+   "aliases": [
+    "Ann Thomas of Dolwar Fach",
+    "Ann Griffith"
+   ]
+  },
+  {
+   "name": "Dona Beatriz Kimpa Vita",
+   "movement": "the-antonian-movement-in-kongo",
+   "year": 1704,
+   "last_year": 1706,
+   "author": null,
+   "aliases": [
+    "Kimpa Vita",
+    "Beatriz Kimpa Vita",
+    "Dona Beatrice",
+    "Donna Beatrice",
+    "Dona Béatrice"
+   ]
+  },
+  {
+   "name": "Bernardo da Gallo",
+   "movement": "the-antonian-movement-in-kongo",
+   "year": 1704,
+   "last_year": null,
+   "author": null,
+   "aliases": [
+    "Bernardo di Gallo",
+    "Bernard de Gallo",
+    "Bernardus a Gallo"
+   ]
+  },
+  {
+   "name": "Pedro IV",
+   "movement": "the-antonian-movement-in-kongo",
+   "year": 1696,
+   "last_year": 1718,
+   "author": null,
+   "aliases": [
+    "Pedro IV of Kongo",
+    "Nusamu a Mvemba",
+    "Dom Pedro IV"
+   ]
+  },
+  {
+   "name": "Ann Lee",
+   "movement": "shakers",
+   "year": 1774,
+   "last_year": 1784,
+   "author": null,
+   "aliases": [
+    "Mother Ann",
+    "Mother Ann Lee",
+    "Ann Lees",
+    "Ann Standerin"
+   ]
+  },
+  {
+   "name": "Joseph Meacham",
+   "movement": "shakers",
+   "year": 1787,
+   "last_year": 1796,
+   "author": null,
+   "aliases": [
+    "Father Joseph Meacham"
+   ]
+  },
+  {
+   "name": "Lucy Wright",
+   "movement": "shakers",
+   "year": 1787,
+   "last_year": 1821,
+   "author": null,
+   "aliases": [
+    "Mother Lucy",
+    "Mother Lucy Wright"
+   ]
+  },
+  {
+   "name": "Benjamin Seth Youngs",
+   "movement": "shakers",
+   "year": 1808,
+   "last_year": 1855,
+   "author": "youngs-benjamin-seth",
+   "aliases": [
+    "Benjamin S. Youngs",
+    "B. S. Youngs"
+   ]
+  },
+  {
+   "name": "Emanuel Swedenborg",
+   "movement": "swedenborgian-new-church",
+   "year": 1749,
+   "last_year": 1772,
+   "author": "swedenborg",
+   "aliases": [
+    "Emanuel Swedberg",
+    "Emmanuel Swedenborg",
+    "Swedenborgius"
+   ]
+  },
+  {
+   "name": "Robert Hindmarsh",
+   "movement": "swedenborgian-new-church",
+   "year": 1784,
+   "last_year": 1835,
+   "author": "hindmarsh",
+   "aliases": [
+    "R. Hindmarsh"
+   ]
+  },
+  {
+   "name": "James Glen",
+   "movement": "swedenborgian-new-church",
+   "year": 1784,
+   "last_year": 1814,
+   "author": null,
+   "aliases": []
+  },
+  {
+   "name": "Miguel de Molinos",
+   "movement": "quietist-controversy-molinos-guyon",
+   "year": 1675,
+   "last_year": 1696,
+   "author": "molinos",
+   "aliases": [
+    "Michael Molinos",
+    "Michel de Molinos",
+    "Michael de Molinos",
+    "Molinosius"
+   ]
+  },
+  {
+   "name": "Jeanne Guyon",
+   "movement": "quietist-controversy-molinos-guyon",
+   "year": 1685,
+   "last_year": 1717,
+   "author": "guyon",
+   "aliases": [
+    "Madame Guyon",
+    "Jeanne-Marie Bouvier de la Motte",
+    "Madame Guion",
+    "Jeanne Marie Guyon"
+   ]
+  },
+  {
+   "name": "François Fénelon",
+   "movement": "quietist-controversy-molinos-guyon",
+   "year": 1697,
+   "last_year": 1715,
+   "author": "fenelon",
+   "aliases": [
+    "Fénelon",
+    "Francis Fenelon",
+    "François de Salignac de la Mothe-Fénelon",
+    "Archbishop of Cambray"
+   ]
+  },
+  {
+   "name": "Jacques-Bénigne Bossuet",
+   "movement": "quietist-controversy-molinos-guyon",
+   "year": 1697,
+   "last_year": 1704,
+   "author": "bossuet",
+   "aliases": [
+    "Bossuet",
+    "Jacobus Benignus Bossuetus",
+    "Bishop of Meaux"
+   ]
+  },
+  {
+   "name": "Isabeau Vincent",
+   "movement": "camisard-prophetism",
+   "year": 1688,
+   "last_year": null,
+   "author": null,
+   "aliases": [
+    "la bergère Isabeau",
+    "Isabel Vincent",
+    "the shepherdess of Crest"
+   ]
+  },
+  {
+   "name": "Jean Cavalier",
+   "movement": "camisard-prophetism",
+   "year": 1702,
+   "last_year": 1740,
+   "author": "cavalier",
+   "aliases": [
+    "John Cavalier",
+    "Jean Cavallier",
+    "Colonel Cavalier"
+   ]
+  },
+  {
+   "name": "Élie Marion",
+   "movement": "camisard-prophetism",
+   "year": 1707,
+   "last_year": 1713,
+   "author": "marion",
+   "aliases": [
+    "Elias Marion",
+    "Elie Marion"
+   ]
+  },
+  {
+   "name": "Abraham Mazel",
+   "movement": "camisard-prophetism",
+   "year": 1702,
+   "last_year": 1710,
+   "author": null,
+   "aliases": []
+  },
+  {
+   "name": "Pierre Laporte",
+   "movement": "camisard-prophetism",
+   "year": 1702,
+   "last_year": 1704,
+   "author": null,
+   "aliases": [
+    "Roland Laporte",
+    "Pierre Laporte dit Rolland"
+   ]
+  },
+  {
+   "name": "John Smyth",
+   "movement": "the-baptists",
+   "year": 1609,
+   "last_year": 1612,
+   "author": "smyth",
+   "aliases": [
+    "Iohn Smyth",
+    "the Se-Baptist"
+   ]
+  },
+  {
+   "name": "Thomas Helwys",
+   "movement": "the-baptists",
+   "year": 1612,
+   "last_year": 1616,
+   "author": null,
+   "aliases": [
+    "Thomas Helwisse",
+    "Thomas Helwis",
+    "Tho. Helwys"
+   ]
+  },
+  {
+   "name": "John Bunyan",
+   "movement": "the-baptists",
+   "year": 1660,
+   "last_year": 1688,
+   "author": "bunyan",
+   "aliases": [
+    "Iohn Bunyan",
+    "J. Bunyan",
+    "the Bedford tinker"
+   ]
+  },
+  {
+   "name": "Agnes Beaumont",
+   "movement": "the-baptists",
+   "year": 1674,
+   "last_year": 1720,
+   "author": "beaumont-agnes",
+   "aliases": [
+    "Agnes Beamont",
+    "Agnes Story"
+   ]
+  },
+  {
+   "name": "George Liele",
+   "movement": "the-baptists",
+   "year": 1773,
+   "last_year": 1828,
+   "author": "liele-george",
+   "aliases": [
+    "George Lisle",
+    "George Lile",
+    "George Sharp"
+   ]
+  },
+  {
+   "name": "David George",
+   "movement": "the-baptists",
+   "year": 1778,
+   "last_year": 1810,
+   "author": "george-david",
+   "aliases": []
+  },
+  {
+   "name": "William Carey",
+   "movement": "the-baptists",
+   "year": 1792,
+   "last_year": 1834,
+   "author": "carey-william",
+   "aliases": [
+    "Dr. Carey of Serampore",
+    "W. Carey"
+   ]
+  },
+  {
+   "name": "Rose of Lima",
+   "movement": "colonial-latin-american-devotional-catholicism",
+   "year": 1606,
+   "last_year": 1617,
+   "author": null,
+   "aliases": [
+    "Rosa de Santa María",
+    "Rosa de Lima",
+    "Sancta Rosa de Sancta Maria",
+    "Isabel Flores de Oliva",
+    "Rose de Lima"
+   ]
+  },
+  {
+   "name": "Martín de Porres",
+   "movement": "colonial-latin-american-devotional-catholicism",
+   "year": 1603,
+   "last_year": 1639,
+   "author": null,
+   "aliases": [
+    "Martin de Porres",
+    "Martín de Porras",
+    "Martinus de Porres"
+   ]
+  },
+  {
+   "name": "Sor Juana Inés de la Cruz",
+   "movement": "colonial-latin-american-devotional-catholicism",
+   "year": 1691,
+   "last_year": 1695,
+   "author": "juana-ines-de-la-cruz",
+   "aliases": [
+    "Juana Inés de la Cruz",
+    "Juana de Asbaje",
+    "Juana Ramírez de Asbaje",
+    "Décima Musa"
+   ]
+  },
+  {
+   "name": "Úrsula de Jesús",
+   "movement": "colonial-latin-american-devotional-catholicism",
+   "year": 1650,
+   "last_year": 1666,
+   "author": null,
+   "aliases": [
+    "Ursula de Jesus"
+   ]
+  },
+  {
+   "name": "Juan Diego",
+   "movement": "colonial-latin-american-devotional-catholicism",
+   "year": 1531,
+   "last_year": 1548,
+   "author": null,
+   "aliases": [
+    "Juan Diego Cuauhtlatoatzin",
+    "Ioan Diego"
+   ]
+  },
+  {
+   "name": "Dositheus II of Jerusalem",
+   "movement": "orthodoxy-under-the-ottomans-1650-1821",
+   "year": 1672,
+   "last_year": 1707,
+   "author": "dositheus",
+   "aliases": [
+    "Dositheos Notaras",
+    "Dositheus of Jerusalem",
+    "Dosithée de Jérusalem",
+    "Dositheus Hierosolymitanus"
+   ]
+  },
+  {
+   "name": "Gregory V of Constantinople",
+   "movement": "orthodoxy-under-the-ottomans-1650-1821",
+   "year": 1797,
+   "last_year": 1821,
+   "author": null,
+   "aliases": [
+    "Gregorios V",
+    "Grégoire V"
+   ]
+  },
+  {
+   "name": "Clement XI",
+   "movement": "catholic-church-ancien-regime",
+   "year": 1700,
+   "last_year": 1721,
+   "author": "clement-xi",
+   "aliases": [
+    "Clemens XI",
+    "Clément XI",
+    "Giovanni Francesco Albani"
+   ]
+  },
+  {
+   "name": "Alphonsus Liguori",
+   "movement": "catholic-church-ancien-regime",
+   "year": 1732,
+   "last_year": 1787,
+   "author": "liguori",
+   "aliases": [
+    "Alfonso de' Liguori",
+    "Alphonsus Maria de Liguori",
+    "Alphonse de Liguori",
+    "Alphonsus de Ligorio"
+   ]
+  },
+  {
+   "name": "Clement XIV",
+   "movement": "catholic-church-ancien-regime",
+   "year": 1769,
+   "last_year": 1774,
+   "author": "clement-xiv",
+   "aliases": [
+    "Clemens XIV",
+    "Clément XIV",
+    "Ganganelli",
+    "Lorenzo Ganganelli"
+   ]
+  },
+  {
+   "name": "Pius VI",
+   "movement": "catholic-church-ancien-regime",
+   "year": 1775,
+   "last_year": 1799,
+   "author": "pius-vi",
+   "aliases": [
+    "Pie VI",
+    "Giovanni Angelo Braschi",
+    "Pius Sextus"
+   ]
+  },
+  {
+   "name": "Pius VII",
+   "movement": "catholic-church-ancien-regime",
+   "year": 1800,
+   "last_year": 1823,
+   "author": "pius-vii",
+   "aliases": [
+    "Pie VII",
+    "Barnaba Chiaramonti",
+    "Pius Septimus"
+   ]
+  },
+  {
+   "name": "Gilbert Sheldon",
+   "movement": "restoration-georgian-church-of-england",
+   "year": 1660,
+   "last_year": 1677,
+   "author": null,
+   "aliases": [
+    "Archbishop Sheldon",
+    "Gilbertus Sheldon"
+   ]
+  },
+  {
+   "name": "William Sancroft",
+   "movement": "restoration-georgian-church-of-england",
+   "year": 1678,
+   "last_year": 1693,
+   "author": null,
+   "aliases": [
+    "Archbishop Sancroft",
+    "Gulielmus Sancroft"
+   ]
+  },
+  {
+   "name": "Thomas Bray",
+   "movement": "restoration-georgian-church-of-england",
+   "year": 1696,
+   "last_year": 1730,
+   "author": null,
+   "aliases": [
+    "Dr. Bray",
+    "Dr. Thomas Bray"
+   ]
+  },
+  {
+   "name": "Joseph Butler",
+   "movement": "restoration-georgian-church-of-england",
+   "year": 1736,
+   "last_year": 1752,
+   "author": "butler",
+   "aliases": [
+    "Josephus Butler"
+   ]
+  },
+  {
+   "name": "Hannah More",
+   "movement": "restoration-georgian-church-of-england",
+   "year": 1795,
+   "last_year": 1833,
+   "author": null,
+   "aliases": [
+    "Mrs. Hannah More"
+   ]
+  },
+  {
+   "name": "Patriarch Nikon",
+   "movement": "russian-church-nikon-to-holy-synod",
+   "year": 1652,
+   "last_year": 1681,
+   "author": "nikon",
+   "aliases": [
+    "Nicon",
+    "Nikon of Moscow",
+    "Nikita Minin",
+    "Никон"
+   ]
+  },
+  {
+   "name": "Peter the Great",
+   "movement": "russian-church-nikon-to-holy-synod",
+   "year": 1700,
+   "last_year": 1725,
+   "author": null,
+   "aliases": [
+    "Petrus Magnus",
+    "Pierre le Grand",
+    "Peter der Große",
+    "Czar Peter"
+   ]
+  },
+  {
+   "name": "Feofan Prokopovich",
+   "movement": "russian-church-nikon-to-holy-synod",
+   "year": 1721,
+   "last_year": 1736,
+   "author": "prokopovich",
+   "aliases": [
+    "Theophanes Prokopovich",
+    "Feofan Prokopovič",
+    "Theophan Procopowitsch"
+   ]
+  },
+  {
+   "name": "Tikhon of Zadonsk",
+   "movement": "russian-church-nikon-to-holy-synod",
+   "year": 1763,
+   "last_year": 1783,
+   "author": "tikhon-zadonskii",
+   "aliases": [
+    "Tikhon Zadonskii",
+    "Tychon of Zadonsk",
+    "Timofei Sokolovskii"
+   ]
+  },
+  {
+   "name": "Herman of Alaska",
+   "movement": "russian-church-nikon-to-holy-synod",
+   "year": 1794,
+   "last_year": 1837,
+   "author": null,
+   "aliases": [
+    "German of Alaska",
+    "Herman of Valaam"
+   ]
+  },
+  {
+   "name": "Antoine Court",
+   "movement": "church-of-the-desert-huguenots",
+   "year": 1715,
+   "last_year": 1760,
+   "author": "court-antoine",
+   "aliases": []
+  },
+  {
+   "name": "Paul Rabaut",
+   "movement": "church-of-the-desert-huguenots",
+   "year": 1738,
+   "last_year": 1794,
+   "author": null,
+   "aliases": []
+  },
+  {
+   "name": "Marie Durand",
+   "movement": "church-of-the-desert-huguenots",
+   "year": 1730,
+   "last_year": 1776,
+   "author": null,
+   "aliases": []
+  },
+  {
+   "name": "Rabaut Saint-Étienne",
+   "movement": "church-of-the-desert-huguenots",
+   "year": 1784,
+   "last_year": 1793,
+   "author": "rabaut-saint-etienne",
+   "aliases": [
+    "Jean-Paul Rabaut Saint-Étienne",
+    "Rabaut de Saint-Étienne",
+    "Rabaut-Saint-Etienne"
+   ]
+  },
+  {
+   "name": "Cyril VI Tanas",
+   "movement": "melkite-greek-catholic-church",
+   "year": 1724,
+   "last_year": 1760,
+   "author": null,
+   "aliases": [
+    "Cyrillus Tanas",
+    "Seraphim Tanas",
+    "Cyrille VI Tanas",
+    "Kyrillos VI"
+   ]
+  },
+  {
+   "name": "Sylvester of Antioch",
+   "movement": "melkite-greek-catholic-church",
+   "year": 1724,
+   "last_year": 1766,
+   "author": null,
+   "aliases": [
+    "Silvester of Antioch",
+    "Silvestros",
+    "Sylvestre d'Antioche"
+   ]
+  },
+  {
+   "name": "Euthymios Saifi",
+   "movement": "melkite-greek-catholic-church",
+   "year": 1683,
+   "last_year": 1723,
+   "author": null,
+   "aliases": [
+    "Euthymius Saifi",
+    "Euthymios al-Sayfi",
+    "Euthyme Saïfi"
+   ]
+  },
+  {
+   "name": "Hacob IV of Julfa",
+   "movement": "armenian-apostolic-church-era-8",
+   "year": 1655,
+   "last_year": 1680,
+   "author": null,
+   "aliases": [
+    "Jacob IV of Julfa",
+    "Hakob Jughayetsi",
+    "Jacques IV de Djoulfa"
+   ]
+  },
+  {
+   "name": "Gomidas",
+   "movement": "armenian-apostolic-church-era-8",
+   "year": 1707,
+   "last_year": 1707,
+   "author": null,
+   "aliases": [
+    "Komitas Keumurdjian",
+    "Gomidas Keumurgian",
+    "Der Gomidas",
+    "Cosmas of Carpi"
+   ]
+  },
+  {
+   "name": "Abraham of Crete",
+   "movement": "armenian-apostolic-church-era-8",
+   "year": 1734,
+   "last_year": 1737,
+   "author": null,
+   "aliases": [
+    "Abraham Kretatsi",
+    "Abraham de Crète",
+    "Abraham Cretensis"
+   ]
+  },
+  {
+   "name": "Simeon of Erevan",
+   "movement": "armenian-apostolic-church-era-8",
+   "year": 1763,
+   "last_year": 1780,
+   "author": null,
+   "aliases": [
+    "Simeon Erevantsi",
+    "Siméon d'Érivan",
+    "Simeon I of Yerevan"
+   ]
+  },
+  {
+   "name": "Zakaria Pokouzian",
+   "movement": "armenian-apostolic-church-era-8",
+   "year": 1773,
+   "last_year": 1799,
+   "author": null,
+   "aliases": [
+    "Zakaria Kokuzian",
+    "Zacharias of Kaghzvan"
+   ]
+  },
+  {
+   "name": "Mekhitar of Sebaste",
+   "movement": "armenian-christianity-era-8",
+   "year": 1701,
+   "last_year": 1749,
+   "author": null,
+   "aliases": [
+    "Mechitar",
+    "Mekhitar Sebastatsi",
+    "Mechitar von Sebaste",
+    "Méchitar",
+    "Mechitarus"
+   ]
+  },
+  {
+   "name": "Abraham Petros I Ardzivian",
+   "movement": "armenian-christianity-era-8",
+   "year": 1742,
+   "last_year": 1749,
+   "author": null,
+   "aliases": [
+    "Abraham Ardzivian",
+    "Abraham Pierre I Ardzivian",
+    "Abraham Petrus Arzivian"
+   ]
+  },
+  {
+   "name": "Cornelius Steenoven",
+   "movement": "church-of-utrecht",
+   "year": 1723,
+   "last_year": 1725,
+   "author": null,
+   "aliases": [
+    "Cornelis Steenoven",
+    "Corneille Steenoven",
+    "Cornelius Steenhoven"
+   ]
+  },
+  {
+   "name": "Dominique Marie Varlet",
+   "movement": "church-of-utrecht",
+   "year": 1719,
+   "last_year": 1742,
+   "author": null,
+   "aliases": [
+    "Dominicus Maria Varlet",
+    "M. Varlet"
+   ]
+  },
+  {
+   "name": "Richard Baxter",
+   "movement": "english-old-dissent",
+   "year": 1662,
+   "last_year": 1691,
+   "author": "baxter",
+   "aliases": [
+    "Richardus Baxterus",
+    "Mr. Baxter"
+   ]
+  },
+  {
+   "name": "Isaac Watts",
+   "movement": "english-old-dissent",
+   "year": 1707,
+   "last_year": 1748,
+   "author": "watts",
+   "aliases": [
+    "Dr. Watts",
+    "Isaacus Watts"
+   ]
+  },
+  {
+   "name": "Philip Doddridge",
+   "movement": "english-old-dissent",
+   "year": 1729,
+   "last_year": 1751,
+   "author": "doddridge",
+   "aliases": [
+    "Dr. Doddridge",
+    "Philippus Doddridge"
+   ]
+  },
+  {
+   "name": "Joseph Priestley",
+   "movement": "english-old-dissent",
+   "year": 1755,
+   "last_year": 1804,
+   "author": "priestley",
+   "aliases": [
+    "Dr. Priestley",
+    "Josephus Priestley"
+   ]
+  },
+  {
+   "name": "John Murray",
+   "movement": "early-american-unitarians-universalists",
+   "year": 1770,
+   "last_year": 1815,
+   "author": "murray-john",
+   "aliases": [
+    "Father Murray of Gloucester"
+   ]
+  },
+  {
+   "name": "Theophilus Lindsey",
+   "movement": "early-american-unitarians-universalists",
+   "year": 1774,
+   "last_year": 1808,
+   "author": "lindsey",
+   "aliases": [
+    "Theophilus Lindsay",
+    "Mr. Lindsey of Essex Street"
+   ]
+  },
+  {
+   "name": "James Freeman",
+   "movement": "early-american-unitarians-universalists",
+   "year": 1785,
+   "last_year": 1835,
+   "author": "freeman-james",
+   "aliases": [
+    "Rev. James Freeman of King's Chapel"
+   ]
+  },
+  {
+   "name": "Judith Sargent Murray",
+   "movement": "early-american-unitarians-universalists",
+   "year": 1790,
+   "last_year": 1820,
+   "author": null,
+   "aliases": [
+    "Judith Sargent Stevens",
+    "Judith Murray"
+   ]
+  },
+  {
+   "name": "Hosea Ballou",
+   "movement": "early-american-unitarians-universalists",
+   "year": 1805,
+   "last_year": 1852,
+   "author": "ballou-hosea",
+   "aliases": []
+  },
+  {
+   "name": "Lev Kishka",
+   "movement": "ruthenian-uniate-18th-century",
+   "year": 1720,
+   "last_year": 1728,
+   "author": null,
+   "aliases": [
+    "Leo Kiszka",
+    "Leon Kiszka",
+    "Leo Kyszka",
+    "Lev Kyshka"
+   ]
+  },
+  {
+   "name": "Catherine II of Russia",
+   "movement": "ruthenian-uniate-18th-century",
+   "year": 1762,
+   "last_year": 1796,
+   "author": null,
+   "aliases": [
+    "Catherine the Great",
+    "Catharina II",
+    "Katharina II",
+    "Ekaterina II",
+    "Catherine II"
+   ]
+  },
+  {
+   "name": "Maria Theresa",
+   "movement": "ruthenian-uniate-18th-century",
+   "year": 1740,
+   "last_year": 1780,
+   "author": null,
+   "aliases": [
+    "Maria Theresia",
+    "Marie-Thérèse",
+    "Maria Theresia von Österreich"
+   ]
+  },
+  {
+   "name": "Joseph II",
+   "movement": "ruthenian-uniate-18th-century",
+   "year": 1765,
+   "last_year": 1790,
+   "author": null,
+   "aliases": [
+    "Josephus II",
+    "Joseph der Zweite",
+    "Kaiser Joseph II"
+   ]
+  },
+  {
+   "name": "Gaspar Aquino de Belén",
+   "movement": "philippine-catholicism-era-8",
+   "year": 1704,
+   "last_year": null,
+   "author": "aquino-de-belen",
+   "aliases": [
+    "Gaspar Aquino de Belen",
+    "Gaspar Aquino"
+   ]
+  },
+  {
+   "name": "Basilio Sancho de Santa Justa",
+   "movement": "philippine-catholicism-era-8",
+   "year": 1767,
+   "last_year": 1787,
+   "author": null,
+   "aliases": [
+    "Basilio Sancho",
+    "Basilio Sancho de Santa Justa y Rufina"
+   ]
+  }
+ ],
+ "empty_reasons": {
+  "kongo-christianity-afonso-to-1650": "No named voices are listed for this tradition yet, so no person is shown.",
+  "kirishitan-japan": "No named voices are listed for this tradition yet, so no person is shown.",
+  "china-mission-born-christianity": "No named voices are listed for this tradition yet, so no person is shown.",
+  "new-spain-and-andes-mission-born-christianity": "No named voices are listed for this tradition yet, so no person is shown.",
+  "armenian-christianity-new-julfa": "The Library holds accounts of this community's leaders, but none of their own words yet.",
+  "the-antonian-movement-in-kongo": "Beatriz Kimpa Vita's words survive only in the reports of the men who condemned her, and the Library does not hold those reports yet."
+ },
+ "flags": [
+  "NO VOICES: kongo-christianity-afonso-to-1650, kirishitan-japan, china-mission-born-christianity and new-spain-and-andes-mission-born-christianity have voices: null in the census, so their rows are empty. When their voices lines are written, their rows need this pass. Afonso I is backed here under mission-born-christianities-kirishitan-japan-kon, the entry whose voices name him.",
+  "PRIOR ATTEMPT CHECKED: aliases.py, held_rows.json and held_spec.txt reused after checks. Every held row exists on its shelf with that author. Two picks were wrong and are replaced: Paisius Velichkovsky (the first pick was a letter by the Neamt elders Sofronii and Athanasius, not by him; now his own writings) and Charles Wesley (the first pick was the hymn collection John Wesley edited; now Charles's own Journal, author slug wesley-c, not wesley-charles; the shelf has both slugs for him).",
+  "JOINT: Konrad Grebel's quote is a joint letter with Marx Bosshard. Katharine Evans and Sarah Cheevers share one held row, their joint narrative. Mekhitar's letter is 'from himself and his monks'. Ziegenbalg's held row is the Tranquebar missionaries' joint letters.",
+  "REPORTED SPEECH (the person's words as someone else set them down): Andrew Melville (James Melville's diary), Margaret Clitherow (John Mush), Simon Episcopius (Calder's version of Limborch), Ann Lee (testimonies gathered decades later), Gustav Vasa (quoted by Anjou). Each is in direct quotation in its source. Mark may judge whether reported speech counts as 'their own words'.",
+  "ISSUED IN THEIR NAME: Afonso I's letter was written by his scribe ('dom Joham teyxeira o fez'). Christian III's quote is the preface of the 1537 Ordinatio, which speaks in the king's voice; the quote is raw OCR with long-s and r-rotunda, as the file holds it. Paul III's quote is from his bull. Kishka's and Cyril VI's are oaths and professions they signed.",
+  "ATTRIBUTION RESTS ON CATALOGUE: Judith Sargent Murray's quote is from the continuation 'by a friend', which the file's catalogue names as hers. Hannah More's quote is from a tract signed 'Z', which the file's creator line gives as More's mark.",
+  "TRANSLATIONS: many quotes are in a 17th-20th c. translation (Martyrs Mirror English, Morland, Geddes, Blair and Robertson, Lowndes, Brosset, Calder, Anjou). The work field names the translation where the file does.",
+  "OCR TEXT: quotes keep the files' OCR exactly (long-s, broken hyphenation such as 'eter- nal', misreadings such as 'Blagwell' and 'Udonai'). They pass the squash check but read roughly; Kishka, Steenoven, Olivetan, Menezes, Christian III and Gregory V are the roughest.",
+  "GREGORY V: the quoted encyclical heads Gedeon's documents of 'Gregory from Smyrna', dated 1797. Gregory V was metropolitan of Smyrna before his first patriarchate (1797). The identification rests on that, not on a name in the document itself.",
+  "ABRAHAM OF CRETE: his History of Nadir Shah is in the zakaria_ Brosset volume, on the armenian-christianity-era-8 shelf (author slug abraham-of-crete). armenian-apostolic-church-era-8 has no corpus-map shelf, so he is backed by source quote, not held.",
+  "MITROFAN: held row is the Life of Paisius 'compiled at Neamt from Mitrofan's account', so it is his account in another's compilation.",
+  "YEARS: many years rest on general reference (a first office or first dated work), not on a vendored file or the voices line; each decision's reason names the basis. Person-entry sort years are estimates: martin-luther 1517, john-calvin 1536, william-tyndale 1525, ignatius-of-loyola 1540, john-wesley 1738. If the person entries' own start years differ, the rows must be re-sorted.",
+  "WILLIAM TYNDALE: planned person entry placed in the-english-reformation-and-elizabethan-settleme row, though no voices line there names him.",
+  "NIKODEMOS IN TWO ROWS: Nikodemos the Hagiorite is a held voice in orthodoxy-under-the-ottomans-parish-millet-and-n (1453-1650) and in the-hesychast-revival-paisius-and-the-philokalia; his dates (1782-1809) fall far after the first entry's span. George Whitefield, Richard Baxter, Patriarch Nikon and Charles Borromeo also appear in two rows each.",
+  "ALIASES: the prior aliases list was cleaned of bare common or ambiguous forms (for example 'Rolland', 'Basilides', 'Arminius', 'Philaret', 'Gregory V', 'Hiel', 'Father Joseph', 'Constantia', 'Peter I', initials such as 'G. F.') and of glossed forms in parentheses. last_year values are from general reference."
+ ]
+}

@@ -1,0 +1,20 @@
+{
+ "round": 3,
+ "kind": "targeted recheck",
+ "verdict": "revise",
+ "counts": {
+  "blocking": 0,
+  "substantial": 1,
+  "minor": 0
+ },
+ "findings": [
+  {
+   "id": "R3-01",
+   "link": "latin-papal-church-gregorian--the-carmelites",
+   "severity": "substantial",
+   "issue": "The rewrite changes what the Carmelites asked for. The new sentence says they asked Innocent IV to confirm a rule that had already been corrected and softened. The evidence says otherwise. In the bull, the pope says that 'at your earnest prayer' he 'caused, by' Cardinal Hugh and Bishop William, the rule to be explained, corrected and mitigated (teresa-of-avila_book-of-foundations_lewis1913.txt 21987-22014). The delegates' own letter says the friars Reginald and Peter begged the pope 'to explain and correct' the rule and 'to mitigate certain austerities' (22026-22034). Only then did he confirm it (22014-22017). The old sentence ('At the Carmelites' request ... confirmed a corrected and softened version') was neutral on this sequence. The new one implies the friars brought a rule already corrected, perhaps by their own hand. It also clashes with the Albert-of-Jerusalem link, which correctly says the friars asked the pope to correct and soften it.",
+   "fix": "In 1247 the Carmelites asked Pope Innocent IV to correct and soften their rule. He had this done, and then he confirmed it."
+  }
+ ],
+ "checked": "All 43 rewritten sentences in Outcome_Prose.json, each compared with its old wording and with the Final.json evidence lines read in context in the vendored files. Every rewrite was re-scored with engine.m7.turn_readability.score_turn: all have Reading Ease of at least 60 and FK grade of at most 10. All have at most 30 words, end with a full stop, use American spelling, contain no internal terms and show no AI tells. The flagged word swaps hold. Trent: 'expositions' to 'teaching' is a fair plain rendering of public expositions of Scripture (waterworth1848 12477-12482). 'No one could reject it' keeps 'no one is to dare or presume to reject it', and 'made' keeps the force of 'ordains and declares'. Justinian and baptism: 'any other rite of the church' renders Procopius's 'any other sacrament' without strengthening or softening it (dewing1916 4260-4271). Curse/anathema: the Constantinople I canon 1, Constantinople II on Theodore, and the 754 council all use 'anathema'. The 754 council also says 'The Trinity has deposed these three', naming Germanus, George and Mansur/John Damascene (npnf214 39464-39472), so 'deposed and cursed' is shown. 'Removed' for Nerses Bakur matches Ormanian. 'Cut off from communion' for Paul of Samosata matches 'excommunicated' (npnf201 41926-41936). Templars: the split 'The Council of Vienne approved.' keeps 'sacro concilio approbante' (mirbt 13646-13649) and does not weaken it. Ambrose: both promises (amend the edict, end the investigation) are in npnf210 43978-43986. Severus's books: burning and the bar from the capital and its district are both in Novellae 56688-56693. Bogomils: imprisonment until they died is in racki 1749-1752. Only the Carmelite 1247 sentence (R3-01) shifts meaning. The replacement sentence scores FK 6.40 and Reading Ease 68.77, at 23 words."
+}

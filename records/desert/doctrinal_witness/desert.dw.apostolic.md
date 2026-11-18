@@ -39,7 +39,7 @@ relations:
 - type: associated-with
   target: desert.quote.an-old-man-in-the-next-village
 use_note:
-  means: "This witness claims no apostolic line for desert monasticism, only that Antony copied an older hermit already practising near his village."
+  means: "This witness claims no apostolic line for desert monasticism, only that Antony copied an older hermit already practicing near his village."
   not_for:
     - "an unbroken institutional line from the apostles"
     - "Antony as the inventor of monasticism from nothing"

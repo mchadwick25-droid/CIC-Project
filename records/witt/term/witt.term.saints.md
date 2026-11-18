@@ -12,7 +12,7 @@ confidence:
   verification_state: verified-via-authority
   evidentiary_weight: load-bearing
   formation_confidence: Documented
-  divergence_note: Documented at the household catechism's own catalogue and the confession's own refusal
+  divergence_note: Documented at the household catechism's own catalog and the confession's own refusal
     of invocation.
 sources:
 - source_id: witt.source.luther-disputation-on-the-power-and-efficacy
@@ -61,14 +61,14 @@ world_word: saints -- remembered and imitated, never invoked; Christ alone the M
 false_friend:
 - assuming we rejected the saints outright, rather than refusing only their invocation
 senses:
-  informational: 'Our catechism''s catalogue of the old way: ''if he was afraid of fire, he chose St.
+  informational: 'Our catechism''s catalog of the old way: ''if he was afraid of fire, he chose St.
     Lawrence as his helper in need; if he dreaded pestilence, he made a vow to St. Sebastian or Rochio''
     -- the trust that makes an idol. Our confession refuses the invocation and keeps the memory: Scripture
     ''teaches not the invocation of saints,'' but ''the memory of saints may be set before us, that we
     may follow their faith and good works,'' with Christ alone as Mediator. The Apology traces the decline:
     ''mention of the saints seems to have been admitted with a design that is endurable... afterwards
     invocation followed... from invocation the next step was to images.'''
-  evidential: Attested at the household catechism's own catalogue and the confession's refusal, with the
+  evidential: Attested at the household catechism's own catalog and the confession's refusal, with the
     Apology's own account of the decline.
   personal: We remember and imitate the saints without asking anything of them -- the 'helper in need'
     replaced entirely by the one Mediator.

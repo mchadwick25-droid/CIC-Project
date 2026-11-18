@@ -1,0 +1,3100 @@
+{
+  "era": 8,
+  "date": "2026-11-08",
+  "movements": [
+    {
+      "id": "the-quakers-religious-society-of-friends",
+      "name": "The Quakers (Religious Society of Friends)",
+      "dates": "1650s-1815",
+      "relationships": [
+        {
+          "field": "relationsSummary",
+          "sentence": "Radical child of the Puritan ferment; parent-influence on abolition",
+          "other": "Puritan ferment (Puritanism)",
+          "other_id": "puritanism",
+          "claim": "descent: a radical child of the Puritan ferment",
+          "match_note": "approximate: census entry \"Puritans\" (c. 1560-1660) is the nearest match"
+        },
+        {
+          "field": "relationsSummary",
+          "sentence": "Radical child of the Puritan ferment; parent-influence on abolition",
+          "other": "abolition",
+          "other_id": null,
+          "claim": "influenced: parent-influence on the abolition movement",
+          "match_note": "no census entry for abolition as a movement"
+        },
+        {
+          "field": "legacy",
+          "sentence": "The Religious Society of Friends is a living body on both sides of the Atlantic, though it divided in the nineteenth century into unprogrammed, evangelical and pastoral branches that persist to this day.",
+          "other": "nineteenth-century Quaker branches (unprogrammed, evangelical, pastoral)",
+          "other_id": "nineteenth-century-quakerism-separations",
+          "claim": "continued as: divided into unprogrammed, evangelical and pastoral branches",
+          "match_note": "approximate: census entry covers the 19th-century Quaker separations"
+        },
+        {
+          "field": "legacy",
+          "sentence": "Quaker campaigning was central to abolition in Britain and America, Quaker refusal to swear or to fight helped push conscience into English law, and Pennsylvania began as a Quaker experiment in governing without an established church.",
+          "other": "abolition in Britain and America",
+          "other_id": null,
+          "claim": "influenced: Quaker campaigning was central to abolition",
+          "match_note": "no census entry for abolition"
+        }
+      ],
+      "existing_links": [],
+      "raw_ids_in_text": []
+    },
+    {
+      "id": "german-pietism-spener-francke-halle",
+      "name": "German Pietism - Spener, Francke, Halle",
+      "dates": "1675-1750",
+      "relationships": [
+        {
+          "field": "relationsSummary",
+          "sentence": "Pietism grew out of Lutheran devotion together with the influence of Dutch Reformed precisianism, and gave rise in turn to the Moravian Church and the wider Protestant missionary movement.",
+          "other": "Lutheran devotion",
+          "other_id": null,
+          "claim": "descent: grew out of Lutheran devotion",
+          "match_note": "no census entry for Lutheran devotion as a whole; the Wittenberg entry is a single-city movement"
+        },
+        {
+          "field": "relationsSummary",
+          "sentence": "Pietism grew out of Lutheran devotion together with the influence of Dutch Reformed precisianism, and gave rise in turn to the Moravian Church and the wider Protestant missionary movement.",
+          "other": "Dutch Reformed precisianism",
+          "other_id": "dutch-further-reformation-and-refuge-culture",
+          "claim": "influenced: shaped by Dutch Reformed precisianism",
+          "match_note": "approximate: precisianism is the Dutch Further Reformation"
+        },
+        {
+          "field": "relationsSummary",
+          "sentence": "Pietism grew out of Lutheran devotion together with the influence of Dutch Reformed precisianism, and gave rise in turn to the Moravian Church and the wider Protestant missionary movement.",
+          "other": "the Moravian Church",
+          "other_id": "the-moravian-church-at-herrnhut",
+          "claim": "descent: gave rise to the Moravian Church"
+        },
+        {
+          "field": "relationsSummary",
+          "sentence": "Pietism grew out of Lutheran devotion together with the influence of Dutch Reformed precisianism, and gave rise in turn to the Moravian Church and the wider Protestant missionary movement.",
+          "other": "wider Protestant missionary movement",
+          "other_id": null,
+          "claim": "descent: gave rise to the wider Protestant missionary movement",
+          "match_note": "generic; no census entry"
+        },
+        {
+          "field": "relationsSummary",
+          "sentence": "Württemberg Pietism, associated with Johann Albrecht Bengel, belongs within this same movement.",
+          "other": "Württemberg Pietism (Johann Albrecht Bengel)",
+          "other_id": null,
+          "claim": "other: Württemberg Pietism belongs within the same movement",
+          "match_note": "no census entry"
+        },
+        {
+          "field": "longDescription",
+          "sentence": "Pietism gave German Protestantism the conversion narrative as a genre and a great body of new hymnody, and through Halle's graduates it launched one of the first organized Protestant missions sent out from Europe, when Bartholomäus Ziegenbalg and Heinrich Plütschau sailed for the Danish trading post at Tranquebar in South India in 1706.",
+          "other": "Tranquebar mission (Ziegenbalg and Plütschau)",
+          "other_id": null,
+          "claim": "other: Halle graduates launched a mission to South India in 1706",
+          "match_note": "mission and persons; no census entry"
+        },
+        {
+          "field": "longDescription",
+          "sentence": "What followed was less a new church than a renewal movement inside the Lutheran state churches, and its center became Halle, where August Hermann Francke built an orphanage that grew into a complex of schools, a printing house and a Bible institute, funded by donations and tied to correspondents across Europe, Russia, India and North America.",
+          "other": "Lutheran state churches",
+          "other_id": null,
+          "claim": "in contact with: a renewal movement inside the Lutheran state churches",
+          "match_note": "generic; no census entry"
+        },
+        {
+          "field": "why",
+          "sentence": "That conviction built an orphanage at Halle that grew into schools, a press, and a network reaching across Europe, and sent Bartholomäus Ziegenbalg to Tranquebar in South India in 1706, one of the first organized Protestant missions out of Europe.",
+          "other": "Tranquebar mission (Ziegenbalg)",
+          "other_id": null,
+          "claim": "other: sent a missionary to Tranquebar in 1706",
+          "match_note": "mission; no census entry"
+        },
+        {
+          "field": "legacy",
+          "sentence": "The Moravians at Herrnhut came out of its orbit and through them John Wesley; the Protestant missionary movement's first sustained institutional base was at Halle.",
+          "other": "the Moravians at Herrnhut",
+          "other_id": "the-moravian-church-at-herrnhut",
+          "claim": "influenced: Moravians came out of Pietism's orbit"
+        },
+        {
+          "field": "legacy",
+          "sentence": "The Moravians at Herrnhut came out of its orbit and through them John Wesley; the Protestant missionary movement's first sustained institutional base was at Halle.",
+          "other": "John Wesley",
+          "other_id": "the-methodist-revival",
+          "claim": "influenced: Pietism reached Wesley through the Moravians",
+          "match_note": "person-carried; Wesley founded the Methodist Revival"
+        },
+        {
+          "field": "legacy",
+          "sentence": "The Moravians at Herrnhut came out of its orbit and through them John Wesley; the Protestant missionary movement's first sustained institutional base was at Halle.",
+          "other": "Protestant missionary movement",
+          "other_id": null,
+          "claim": "influenced: Halle was the first institutional base of Protestant missions",
+          "match_note": "generic; no census entry"
+        },
+        {
+          "field": "legacy",
+          "sentence": "Pietism never became a denomination of its own — it stayed inside the Lutheran churches and eventually dissolved as a distinct party — but almost everything it touched outlived it.",
+          "other": "Lutheran churches",
+          "other_id": null,
+          "claim": "other: Pietism stayed inside the Lutheran churches",
+          "match_note": "generic; no census entry"
+        },
+        {
+          "field": "legacy",
+          "sentence": "Its habits — small groups meeting midweek to read Scripture, and the expectation that a Christian can tell the story of their own conversion — are now so ordinary across evangelical Protestantism that their origin is easy to miss.",
+          "other": "evangelical Protestantism",
+          "other_id": null,
+          "claim": "influenced: its habits became ordinary across evangelical Protestantism",
+          "match_note": "generic; no census entry for evangelical Protestantism as a whole"
+        }
+      ],
+      "existing_links": [],
+      "raw_ids_in_text": []
+    },
+    {
+      "id": "radical-pietism-and-the-brethren-dunkers-ephrata",
+      "name": "Radical Pietism & the Brethren (Dunkers, Ephrata)",
+      "dates": "1690s-1815",
+      "relationships": [
+        {
+          "field": "relationsSummary",
+          "sentence": "Between Pietism and Anabaptism - a real uniqueness test",
+          "other": "Pietism",
+          "other_id": "german-pietism-spener-francke-halle",
+          "claim": "other: positioned between Pietism and Anabaptism"
+        },
+        {
+          "field": "relationsSummary",
+          "sentence": "Between Pietism and Anabaptism - a real uniqueness test",
+          "other": "Anabaptism",
+          "other_id": "the-anabaptist-movements",
+          "claim": "other: positioned between Pietism and Anabaptism"
+        },
+        {
+          "field": "longDescription",
+          "sentence": "Where mainstream Pietism stayed inside the Lutheran church, a radical wing walked out of it — separatists who held that the true church had fallen away centuries earlier and that no state establishment could be mended.",
+          "other": "mainstream Pietism",
+          "other_id": "german-pietism-spener-francke-halle",
+          "claim": "broke with: the radical wing diverged from mainstream Pietism"
+        },
+        {
+          "field": "longDescription",
+          "sentence": "Where mainstream Pietism stayed inside the Lutheran church, a radical wing walked out of it — separatists who held that the true church had fallen away centuries earlier and that no state establishment could be mended.",
+          "other": "the Lutheran church",
+          "other_id": null,
+          "claim": "broke with: walked out of the Lutheran church",
+          "match_note": "no census entry for the Lutheran church as a whole"
+        },
+        {
+          "field": "longDescription",
+          "sentence": "In 1708, at Schwarzenau in the little county of Wittgenstein — one of the few German territories that would leave separatists alone — eight of them baptized one another in the river Eder and became the Brethren, joining Pietist inwardness to Anabaptist convictions: baptism only for believers, plain living, and refusal of the sword.",
+          "other": "Anabaptist convictions",
+          "other_id": "the-anabaptist-movements",
+          "claim": "influenced: joined Pietist inwardness to Anabaptist convictions"
+        },
+        {
+          "field": "longDescription",
+          "sentence": "In 1708, at Schwarzenau in the little county of Wittgenstein — one of the few German territories that would leave separatists alone — eight of them baptized one another in the river Eder and became the Brethren, joining Pietist inwardness to Anabaptist convictions: baptism only for believers, plain living, and refusal of the sword.",
+          "other": "Pietist inwardness",
+          "other_id": "german-pietism-spener-francke-halle",
+          "claim": "influenced: joined Pietist inwardness to Anabaptist convictions"
+        },
+        {
+          "field": "why",
+          "sentence": "In 1708, eight separatists waded into the river Eder at Schwarzenau in Germany and baptized one another, joining Pietist inward renewal to Anabaptist convictions — baptism only for believing adults, plain living, and refusal to bear arms.",
+          "other": "Pietist inward renewal",
+          "other_id": "german-pietism-spener-francke-halle",
+          "claim": "influenced: joined Pietist inward renewal to Anabaptist convictions"
+        },
+        {
+          "field": "why",
+          "sentence": "In 1708, eight separatists waded into the river Eder at Schwarzenau in Germany and baptized one another, joining Pietist inward renewal to Anabaptist convictions — baptism only for believing adults, plain living, and refusal to bear arms.",
+          "other": "Anabaptist convictions",
+          "other_id": "the-anabaptist-movements",
+          "claim": "influenced: joined Pietist inward renewal to Anabaptist convictions"
+        },
+        {
+          "field": "legacy",
+          "sentence": "Descend directly from the Schwarzenau baptisms, and they carried the plain-dress, peace-church strand of American Christianity alongside the Mennonites and the Quakers.",
+          "other": "Mennonites",
+          "other_id": "the-anabaptist-movements",
+          "claim": "in contact with: carried the peace-church strand alongside the Mennonites",
+          "match_note": "approximate: Mennonites descend from the Anabaptist movements entry"
+        },
+        {
+          "field": "legacy",
+          "sentence": "Descend directly from the Schwarzenau baptisms, and they carried the plain-dress, peace-church strand of American Christianity alongside the Mennonites and the Quakers.",
+          "other": "Quakers",
+          "other_id": "the-quakers-religious-society-of-friends",
+          "claim": "in contact with: carried the peace-church strand alongside the Quakers"
+        }
+      ],
+      "existing_links": [],
+      "raw_ids_in_text": []
+    },
+    {
+      "id": "the-moravian-church-at-herrnhut",
+      "name": "The Moravian Church at Herrnhut",
+      "dates": "1722-1815",
+      "relationships": [
+        {
+          "field": "relationsSummary",
+          "sentence": "This community is a direct renewal of the old Bohemian Unity of the Brethren, carried across the hidden century between its suppression in 1627 and the refugees' arrival at Herrnhut in 1722.",
+          "other": "old Bohemian Unity of the Brethren",
+          "other_id": "the-hussite-and-bohemian-brethren-movement",
+          "claim": "descent: a direct renewal of the old Bohemian Unity of the Brethren"
+        },
+        {
+          "field": "relationsSummary",
+          "sentence": "This community is a direct renewal of the old Bohemian Unity of the Brethren, carried across the hidden century between its suppression in 1627 and the refugees' arrival at Herrnhut in 1722.",
+          "other": "suppression of the Unity in 1627",
+          "other_id": "czech-churches-last-century",
+          "claim": "other: the Unity was suppressed in 1627",
+          "match_note": "approximate: census entry covers Czech churches to 1627"
+        },
+        {
+          "field": "relationsSummary",
+          "sentence": "Its episcopal succession was renewed through the Jablonski-Nitschmann consecration of 1735, tying it formally back to the old Unity.",
+          "other": "Jablonski-Nitschmann consecration (1735)",
+          "other_id": null,
+          "claim": "descent: succession renewed, tying the community back to the old Unity",
+          "match_note": "event and persons; no census entry"
+        },
+        {
+          "field": "relationsSummary",
+          "sentence": "It had a decisive influence on John Wesley, and began sending missionaries decades before any other Protestant body did.",
+          "other": "John Wesley",
+          "other_id": "the-methodist-revival",
+          "claim": "influenced: a decisive influence on John Wesley",
+          "match_note": "person-carried; Wesley founded the Methodist Revival"
+        },
+        {
+          "field": "relationsSummary",
+          "sentence": "It had a decisive influence on John Wesley, and began sending missionaries decades before any other Protestant body did.",
+          "other": "Protestant missionary sending",
+          "other_id": null,
+          "claim": "other: sent missionaries decades before other Protestant bodies",
+          "match_note": "generic; no census entry"
+        },
+        {
+          "field": "longDescription",
+          "sentence": "The remnant of the Unity of the Brethren, which had survived underground for nearly a century after the Habsburgs outlawed the Czech reform church.",
+          "other": "Unity of the Brethren",
+          "other_id": "the-hussite-and-bohemian-brethren-movement",
+          "claim": "descent: the remnant of the Unity of the Brethren settled at Herrnhut"
+        },
+        {
+          "field": "longDescription",
+          "sentence": "The remnant of the Unity of the Brethren, which had survived underground for nearly a century after the Habsburgs outlawed the Czech reform church.",
+          "other": "Habsburgs",
+          "other_id": null,
+          "claim": "other: the Habsburgs outlawed the Czech reform church",
+          "match_note": "state power; no census entry"
+        },
+        {
+          "field": "longDescription",
+          "sentence": "Count Nikolaus von Zinzendorf let them settle on his estate, the village they built was called Herrnhut, and after years of quarreling among the refugees and the other seekers who joined them, a communion service on 13 August 1727 became the moment the community always afterwards dated its renewal from.",
+          "other": "Nikolaus von Zinzendorf",
+          "other_id": null,
+          "claim": "in contact with: a patron who let the refugees settle on his estate",
+          "match_note": "person; no census entry"
+        },
+        {
+          "field": "longDescription",
+          "sentence": "From 1732 they began sending missionaries — to the enslaved people of St Thomas, to Greenland, to Suriname, to the Native congregations of Pennsylvania and New York.",
+          "other": "missionary fields (St Thomas, Greenland, Suriname, Native congregations)",
+          "other_id": null,
+          "claim": "other: sent missionaries to St Thomas, Greenland, Suriname and Native congregations",
+          "match_note": "mission fields; no census entries"
+        },
+        {
+          "field": "why",
+          "sentence": "In 1722 a handful of refugee families slipped out of Bohemia, remnants of a reformed church that had survived underground for nearly a century, and built the village of Herrnhut on a Saxon nobleman's land.",
+          "other": "Unity of the Brethren",
+          "other_id": "the-hussite-and-bohemian-brethren-movement",
+          "claim": "descent: remnants of a reformed church that survived underground"
+        },
+        {
+          "field": "why",
+          "sentence": "The community kept prayer running in shifts around the clock, wrote up its life in a diary every single day, and from 1732 sent out missionaries — to the enslaved of St Thomas, to Greenland, to Suriname — on a scale no other Protestant body approached for another two centuries.",
+          "other": "missionary fields (St Thomas, Greenland, Suriname)",
+          "other_id": null,
+          "claim": "other: sent missionaries from 1732",
+          "match_note": "mission fields; no census entries"
+        },
+        {
+          "field": "legacy",
+          "sentence": "Its most consequential single contact was with a young Anglican priest: John Wesley met Moravians in a storm at sea and again in London, and the Methodist revival carries their fingerprints.",
+          "other": "John Wesley",
+          "other_id": "the-methodist-revival",
+          "claim": "in contact with: met Moravians at sea and in London, and Methodism carries their fingerprints",
+          "match_note": "person-carried"
+        },
+        {
+          "field": "legacy",
+          "sentence": "Its most consequential single contact was with a young Anglican priest: John Wesley met Moravians in a storm at sea and again in London, and the Methodist revival carries their fingerprints.",
+          "other": "Church of England (Wesley's church)",
+          "other_id": "restoration-georgian-church-of-england",
+          "claim": "in contact with: the Moravians' most consequential contact was an Anglican priest",
+          "match_note": "approximate: Georgian C of E entry is the Church of England of the period"
+        },
+        {
+          "field": "legacy",
+          "sentence": "And the hidden-seed story ended well: a church suppressed in Bohemia in 1627 has descendants in every continent.",
+          "other": "Bohemian church suppressed in 1627",
+          "other_id": "the-hussite-and-bohemian-brethren-movement",
+          "claim": "continued as: the suppressed Bohemian church has descendants on every continent",
+          "match_note": "approximate: the 1627 suppression is covered by the Czech churches entry; the Bohemian Brethren are in the Hussite entry"
+        }
+      ],
+      "existing_links": [],
+      "raw_ids_in_text": []
+    },
+    {
+      "id": "the-methodist-revival",
+      "name": "The Methodist Revival",
+      "dates": "1738-1815",
+      "relationships": [
+        {
+          "field": "relationsSummary",
+          "sentence": "Methodism grew from Puritan piety and Moravian influence inside the Church of England, and became the parent of the Holiness movement and, through Holiness, of Pentecostalism.",
+          "other": "Puritan piety",
+          "other_id": "puritanism",
+          "claim": "descent: grew from Puritan piety",
+          "match_note": "approximate: census entry \"Puritans\""
+        },
+        {
+          "field": "relationsSummary",
+          "sentence": "Methodism grew from Puritan piety and Moravian influence inside the Church of England, and became the parent of the Holiness movement and, through Holiness, of Pentecostalism.",
+          "other": "Moravian influence",
+          "other_id": "the-moravian-church-at-herrnhut",
+          "claim": "influenced: grew from Moravian influence"
+        },
+        {
+          "field": "relationsSummary",
+          "sentence": "Methodism grew from Puritan piety and Moravian influence inside the Church of England, and became the parent of the Holiness movement and, through Holiness, of Pentecostalism.",
+          "other": "Church of England",
+          "other_id": "restoration-georgian-church-of-england",
+          "claim": "other: grew inside the Church of England",
+          "match_note": "approximate: Georgian C of E entry"
+        },
+        {
+          "field": "relationsSummary",
+          "sentence": "Methodism grew from Puritan piety and Moravian influence inside the Church of England, and became the parent of the Holiness movement and, through Holiness, of Pentecostalism.",
+          "other": "Holiness movement",
+          "other_id": "the-holiness-movement",
+          "claim": "descent: parent of the Holiness movement"
+        },
+        {
+          "field": "relationsSummary",
+          "sentence": "Methodism grew from Puritan piety and Moravian influence inside the Church of England, and became the parent of the Holiness movement and, through Holiness, of Pentecostalism.",
+          "other": "Pentecostalism",
+          "other_id": "azusa-street-and-early-pentecostalism",
+          "claim": "descent: through Holiness, parent of Pentecostalism",
+          "match_note": "approximate: Pentecostalism is generic; Azusa Street is the founding-era entry"
+        },
+        {
+          "field": "relationsSummary",
+          "sentence": "It is also a parent tradition of the Black Church in America, through Richard Allen's African Methodist Episcopal Church, founded in 1816, and the AME Zion Church, founded in 1821.",
+          "other": "Black Church in America",
+          "other_id": "the-black-church-in-america",
+          "claim": "descent: a parent tradition of the Black Church in America"
+        },
+        {
+          "field": "relationsSummary",
+          "sentence": "It is also a parent tradition of the Black Church in America, through Richard Allen's African Methodist Episcopal Church, founded in 1816, and the AME Zion Church, founded in 1821.",
+          "other": "African Methodist Episcopal Church (1816)",
+          "other_id": null,
+          "claim": "descent: parent of the AME Church through Richard Allen",
+          "match_note": "no census entry for the AME Church"
+        },
+        {
+          "field": "relationsSummary",
+          "sentence": "It is also a parent tradition of the Black Church in America, through Richard Allen's African Methodist Episcopal Church, founded in 1816, and the AME Zion Church, founded in 1821.",
+          "other": "AME Zion Church (1821)",
+          "other_id": null,
+          "claim": "descent: parent of the AME Zion Church",
+          "match_note": "no census entry"
+        },
+        {
+          "field": "longDescription",
+          "sentence": "John Wesley was an Oxford-trained Church of England priest whose methodical little religious society had earned him a mocking nickname and whose mission to Georgia had ended in failure.",
+          "other": "Church of England",
+          "other_id": "restoration-georgian-church-of-england",
+          "claim": "other: Wesley was a Church of England priest",
+          "match_note": "approximate: Georgian C of E entry"
+        },
+        {
+          "field": "longDescription",
+          "sentence": "Shut out of many pulpits, he and George Whitefield preached in fields and at pit-heads to crowds of thousands.",
+          "other": "George Whitefield",
+          "other_id": null,
+          "claim": "in contact with: preached together in fields and at pit-heads",
+          "match_note": "person; no census entry"
+        },
+        {
+          "field": "longDescription",
+          "sentence": "Wesley meant all of this to renew the Church of England from inside and insisted to the end that he had not left it.",
+          "other": "Church of England",
+          "other_id": "restoration-georgian-church-of-england",
+          "claim": "other: aimed to renew the Church of England from inside",
+          "match_note": "approximate: Georgian C of E entry"
+        },
+        {
+          "field": "longDescription",
+          "sentence": "After his death in 1791 the connexion became a separate church anyway.",
+          "other": "Church of England",
+          "other_id": "restoration-georgian-church-of-england",
+          "claim": "broke with: the connexion became a separate church after Wesley's death",
+          "match_note": "approximate: Georgian C of E entry"
+        },
+        {
+          "field": "why",
+          "sentence": "In May 1738, John Wesley felt his heart 'strangely warmed' at a meeting in London and began preaching holiness and assurance to crowds shut out of ordinary church pulpits, so he and George Whitefield preached in open fields instead.",
+          "other": "George Whitefield",
+          "other_id": null,
+          "claim": "in contact with: preached with Whitefield in open fields",
+          "match_note": "person; no census entry"
+        },
+        {
+          "field": "legacy",
+          "sentence": "The British connexion separated from the Church of England after Wesley's death, American Methodism organized itself as a church in 1784, and out of that stem came the nineteenth-century Holiness movement and, from Holiness, Pentecostalism.",
+          "other": "Church of England",
+          "other_id": "restoration-georgian-church-of-england",
+          "claim": "broke with: the British connexion separated from the Church of England",
+          "match_note": "approximate: Georgian C of E entry"
+        },
+        {
+          "field": "legacy",
+          "sentence": "The British connexion separated from the Church of England after Wesley's death, American Methodism organized itself as a church in 1784, and out of that stem came the nineteenth-century Holiness movement and, from Holiness, Pentecostalism.",
+          "other": "Holiness movement",
+          "other_id": "the-holiness-movement",
+          "claim": "descent: the Holiness movement came out of Methodism"
+        },
+        {
+          "field": "legacy",
+          "sentence": "The British connexion separated from the Church of England after Wesley's death, American Methodism organized itself as a church in 1784, and out of that stem came the nineteenth-century Holiness movement and, from Holiness, Pentecostalism.",
+          "other": "Pentecostalism",
+          "other_id": "azusa-street-and-early-pentecostalism",
+          "claim": "descent: Pentecostalism came out of Holiness",
+          "match_note": "approximate: Azusa Street is the founding-era entry"
+        },
+        {
+          "field": "legacy",
+          "sentence": "Now the fastest-growing form of Christianity on earth.",
+          "other": "Pentecostalism (fastest-growing form)",
+          "other_id": "global-south-pentecostal-christianity",
+          "claim": "descent: Pentecostalism is now the fastest-growing form of Christianity",
+          "match_note": "approximate: the global south entry covers the present-day spread"
+        },
+        {
+          "field": "legacy",
+          "sentence": "Richard Allen's African Methodist Episcopal Church, founded in 1816, made Methodism one of the foundations of the Black Church in America.",
+          "other": "Black Church in America",
+          "other_id": "the-black-church-in-america",
+          "claim": "descent: Methodism is one of the foundations of the Black Church"
+        },
+        {
+          "field": "legacy",
+          "sentence": "Richard Allen's African Methodist Episcopal Church, founded in 1816, made Methodism one of the foundations of the Black Church in America.",
+          "other": "African Methodist Episcopal Church (1816)",
+          "other_id": null,
+          "claim": "descent: the AME Church founded by Richard Allen",
+          "match_note": "no census entry for the AME Church"
+        }
+      ],
+      "existing_links": [
+        {
+          "id": "the-methodist-revival--the-holiness-movement",
+          "from": "the-methodist-revival",
+          "to": "the-holiness-movement",
+          "type": "influenced",
+          "confidence": "Widely Accepted"
+        },
+        {
+          "id": "the-methodist-revival--the-black-church-in-america",
+          "from": "the-methodist-revival",
+          "to": "the-black-church-in-america",
+          "type": "gave rise to",
+          "confidence": "Documented"
+        }
+      ],
+      "raw_ids_in_text": []
+    },
+    {
+      "id": "the-evangelical-awakening-in-new-england",
+      "name": "The Evangelical Awakening in New England",
+      "dates": "1734-c. 1760",
+      "relationships": [
+        {
+          "field": "relationsSummary",
+          "sentence": "The awakening grew out of New England Puritanism and became a parent of later American revival culture and the missionary movement.",
+          "other": "New England Puritanism",
+          "other_id": "puritanism",
+          "claim": "descent: grew out of New England Puritanism",
+          "match_note": "approximate: census entry \"Puritans\" is the English-world entry"
+        },
+        {
+          "field": "relationsSummary",
+          "sentence": "The awakening grew out of New England Puritanism and became a parent of later American revival culture and the missionary movement.",
+          "other": "later American revival culture",
+          "other_id": "the-second-great-awakening-and-camp-meeting-worl",
+          "claim": "descent: parent of later American revival culture",
+          "match_note": "approximate: the Second Great Awakening entry"
+        },
+        {
+          "field": "relationsSummary",
+          "sentence": "The awakening grew out of New England Puritanism and became a parent of later American revival culture and the missionary movement.",
+          "other": "missionary movement",
+          "other_id": null,
+          "claim": "descent: parent of the missionary movement",
+          "match_note": "generic; no census entry"
+        },
+        {
+          "field": "relationsSummary",
+          "sentence": "It also reached into the middle and southern colonies, through preachers like the Tennents and the revival at Hanover, Virginia — though historians are divided on whether that counts as part of the same movement or a separate one.",
+          "other": "the Tennents",
+          "other_id": null,
+          "claim": "other: reached the middle and southern colonies through the Tennents",
+          "match_note": "persons; no census entry"
+        },
+        {
+          "field": "relationsSummary",
+          "sentence": "It also reached into the middle and southern colonies, through preachers like the Tennents and the revival at Hanover, Virginia — though historians are divided on whether that counts as part of the same movement or a separate one.",
+          "other": "revival at Hanover, Virginia",
+          "other_id": null,
+          "claim": "other: reached Virginia; historians divided on whether it was the same movement",
+          "match_note": "no census entry"
+        },
+        {
+          "field": "relationsSummary",
+          "sentence": "Through the Black and Native Christian writing it produced, it stands among the parent traditions of the Black Church in America.",
+          "other": "Black Church in America",
+          "other_id": "the-black-church-in-america",
+          "claim": "descent: a parent tradition of the Black Church in America"
+        },
+        {
+          "field": "longDescription",
+          "sentence": "When the English preacher George Whitefield toured the colonies from 1739, scattered local revivals became a general one, with itinerants crossing parish lines and crowds gathering in the open air.",
+          "other": "George Whitefield",
+          "other_id": null,
+          "claim": "in contact with: Whitefield toured the colonies from 1739",
+          "match_note": "person; no census entry"
+        },
+        {
+          "field": "longDescription",
+          "sentence": "It split New England's churches: the New Lights defended the awakening, the Old Lights — Charles Chauncy of Boston foremost among them — attacked it as enthusiasm and disorder, and hundreds of Separate congregations broke away, a great many of them becoming Baptist.",
+          "other": "Charles Chauncy (Old Lights)",
+          "other_id": null,
+          "claim": "argued against: attacked the awakening as enthusiasm and disorder",
+          "match_note": "person; no census entry"
+        },
+        {
+          "field": "longDescription",
+          "sentence": "It split New England's churches: the New Lights defended the awakening, the Old Lights — Charles Chauncy of Boston foremost among them — attacked it as enthusiasm and disorder, and hundreds of Separate congregations broke away, a great many of them becoming Baptist.",
+          "other": "Old Lights",
+          "other_id": null,
+          "claim": "argued against: the Old Lights attacked the awakening as enthusiasm",
+          "match_note": "faction within New England Congregationalism; no census entry"
+        },
+        {
+          "field": "longDescription",
+          "sentence": "It split New England's churches: the New Lights defended the awakening, the Old Lights — Charles Chauncy of Boston foremost among them — attacked it as enthusiasm and disorder, and hundreds of Separate congregations broke away, a great many of them becoming Baptist.",
+          "other": "Separate congregations",
+          "other_id": null,
+          "claim": "broke with: Separate congregations broke away from existing parishes",
+          "match_note": "no census entry"
+        },
+        {
+          "field": "longDescription",
+          "sentence": "It split New England's churches: the New Lights defended the awakening, the Old Lights — Charles Chauncy of Boston foremost among them — attacked it as enthusiasm and disorder, and hundreds of Separate congregations broke away, a great many of them becoming Baptist.",
+          "other": "the Baptists",
+          "other_id": "the-baptists",
+          "claim": "continued as: many Separate congregations became Baptist"
+        },
+        {
+          "field": "longDescription",
+          "sentence": "It also produced the first substantial body of Christian writing by Black and Native people in the colonies.",
+          "other": "Black and Native Christian writing",
+          "other_id": "the-black-church-in-america",
+          "claim": "influenced: produced the first substantial body of Black and Native Christian writing",
+          "match_note": "approximate: Black Church entry"
+        },
+        {
+          "field": "why",
+          "sentence": "The awakening split New England's churches between defenders and critics of the revival, and produced the first substantial body of Christian writing by Black and Native people in the colonies.",
+          "other": "Black and Native Christian writing",
+          "other_id": "the-black-church-in-america",
+          "claim": "influenced: produced the first body of Black and Native Christian writing",
+          "match_note": "approximate: Black Church entry"
+        },
+        {
+          "field": "legacy",
+          "sentence": "It left no church of its own — the awakening ran through existing Congregational parishes and broke some of them — but it reshaped American religion permanently.",
+          "other": "New England Congregational parishes",
+          "other_id": null,
+          "claim": "other: ran through and broke some Congregational parishes",
+          "match_note": "no census entry; English Old Dissent covers English Congregationalists, a different body"
+        },
+        {
+          "field": "legacy",
+          "sentence": "It made the revival meeting and the itinerant preacher normal instruments, filled the Baptist churches with Separate converts, and produced in Edwards the most substantial theologian America has yet made, still argued over three centuries later.",
+          "other": "Baptist churches",
+          "other_id": "the-baptists",
+          "claim": "influenced: filled the Baptist churches with Separate converts"
+        },
+        {
+          "field": "legacy",
+          "sentence": "It seeded the first generation of Black and Native Christian writing in North America.",
+          "other": "Black and Native Christian writing",
+          "other_id": "the-black-church-in-america",
+          "claim": "influenced: seeded the first generation of Black and Native Christian writing",
+          "match_note": "approximate: Black Church entry"
+        },
+        {
+          "field": "legacy",
+          "sentence": "And the missionary societies of the following century traced their impulse back to it, often explicitly, through Edwards's Life of David Brainerd.",
+          "other": "missionary societies",
+          "other_id": null,
+          "claim": "influenced: missionary societies traced their impulse back to the awakening",
+          "match_note": "generic; no census entry"
+        },
+        {
+          "field": "legacy",
+          "sentence": "And the missionary societies of the following century traced their impulse back to it, often explicitly, through Edwards's Life of David Brainerd.",
+          "other": "David Brainerd (Life by Jonathan Edwards)",
+          "other_id": null,
+          "claim": "influenced: Edwards's Life of David Brainerd carried the impulse",
+          "match_note": "person and book; no census entry"
+        }
+      ],
+      "existing_links": [],
+      "raw_ids_in_text": []
+    },
+    {
+      "id": "the-old-believers",
+      "name": "The Old Believers",
+      "dates": "1666-1815",
+      "relationships": [
+        {
+          "field": "relationsSummary",
+          "sentence": "The Old Believers grew out of Muscovite Christianity, standing as the enduring counterpart to the official church's Nikonian reforms.",
+          "other": "Muscovite Christianity",
+          "other_id": "russian-church-stoglav-to-nikon",
+          "claim": "descent: grew out of Muscovite Christianity",
+          "match_note": "approximate: Muscovite Church II (1517-1650) is the nearest pre-schism entry"
+        },
+        {
+          "field": "relationsSummary",
+          "sentence": "The Old Believers grew out of Muscovite Christianity, standing as the enduring counterpart to the official church's Nikonian reforms.",
+          "other": "official church (Nikonian reforms)",
+          "other_id": "russian-church-nikon-to-holy-synod",
+          "claim": "argued against: the counterpart to the official church's Nikonian reforms"
+        },
+        {
+          "field": "relationsSummary",
+          "sentence": "Edinoverie, established in 1800, sits on the boundary shared between the two churches.",
+          "other": "Edinoverie (1800)",
+          "other_id": null,
+          "claim": "in contact with: Edinoverie sits on the boundary shared with the official church",
+          "match_note": "no census entry for Edinoverie"
+        },
+        {
+          "field": "relationsSummary",
+          "sentence": "In 1846 the priestly Old Believers restored their own episcopate through the Belokrinitsa hierarchy.",
+          "other": "Belokrinitsa hierarchy (1846)",
+          "other_id": null,
+          "claim": "other: restored their own episcopate through the Belokrinitsa hierarchy",
+          "match_note": "no census entry"
+        },
+        {
+          "field": "longDescription",
+          "sentence": "In the 1650s Patriarch Nikon set out to correct the Russian service books and rituals against contemporary Greek practice — two fingers in the sign of the cross became three, the spelling of Jesus's name changed, processions reversed direction.",
+          "other": "Patriarch Nikon (official church)",
+          "other_id": "russian-church-nikon-to-holy-synod",
+          "claim": "argued against: Nikon's corrections of the service books were refused"
+        },
+        {
+          "field": "longDescription",
+          "sentence": "And a great part of the Russian church refused.",
+          "other": "official Russian church",
+          "other_id": "russian-church-nikon-to-holy-synod",
+          "claim": "broke with: a large part of the church refused the reforms"
+        },
+        {
+          "field": "longDescription",
+          "sentence": "To them the old rite was not a detail but the faith itself, handed down and now being altered by a church they concluded had fallen; the council of 1666-67 anathematized them, and the state hunted them for generations.",
+          "other": "council of 1666-67",
+          "other_id": "russian-church-nikon-to-holy-synod",
+          "claim": "argued against: the council of 1666-67 anathematized the Old Believers",
+          "match_note": "approximate: the synodal-era entry covers the 1666-67 council"
+        },
+        {
+          "field": "longDescription",
+          "sentence": "To them the old rite was not a detail but the faith itself, handed down and now being altered by a church they concluded had fallen; the council of 1666-67 anathematized them, and the state hunted them for generations.",
+          "other": "Russian state",
+          "other_id": null,
+          "claim": "argued against: the state hunted them for generations",
+          "match_note": "state; no census entry"
+        },
+        {
+          "field": "why",
+          "sentence": "When Patriarch Nikon corrected the Russian service books in the 1650s — changing how the faithful crossed themselves and how Jesus's name was spelled — a large part of the church refused to accept it as a mere detail and was anathematized for it in 1666.",
+          "other": "Patriarch Nikon (official church)",
+          "other_id": "russian-church-nikon-to-holy-synod",
+          "claim": "argued against: refused Nikon's corrections to the service books"
+        },
+        {
+          "field": "legacy",
+          "sentence": "Russian literature never let the schism go either; the raskol runs through the nineteenth-century novel as the standing question of what faithfulness actually costs.",
+          "other": "Russian literature (nineteenth-century novel)",
+          "other_id": null,
+          "claim": "influenced: the schism runs through the nineteenth-century Russian novel",
+          "match_note": "generic; no census entry"
+        }
+      ],
+      "existing_links": [],
+      "raw_ids_in_text": []
+    },
+    {
+      "id": "the-hesychast-revival-paisius-and-the-philokalia",
+      "name": "The Hesychast Revival - Paisius & the Philokalia",
+      "dates": "1746-1815",
+      "relationships": [
+        {
+          "field": "relationsSummary",
+          "sentence": "Revival of the Palamite line; direct source of the Optina tradition",
+          "other": "Palamite line",
+          "other_id": "hesychasm-and-the-palamite-synthesis",
+          "claim": "continued as: a revival of the Palamite line"
+        },
+        {
+          "field": "relationsSummary",
+          "sentence": "Revival of the Palamite line; direct source of the Optina tradition",
+          "other": "Optina tradition",
+          "other_id": "the-optina-elders-and-russian-ascetic-renewal",
+          "claim": "influenced: a direct source of the Optina tradition"
+        },
+        {
+          "field": "longDescription",
+          "sentence": "In 1746 a young Ukrainian monk named Paisius Velichkovsky arrived on Mount Athos and began working through its monastery libraries for the old Greek texts on inner prayer that almost nobody was reading any more.",
+          "other": "Mount Athos",
+          "other_id": "athonite-and-comnenian-byzantine-monasticism",
+          "claim": "in contact with: worked through the Athos monastery libraries"
+        },
+        {
+          "field": "longDescription",
+          "sentence": "He gathered a community, moved with it to Moldavia, and at Neamț built a translation workshop where monks turned those fathers into Slavonic; meanwhile on Athos, Macarius of Corinth and Nicodemus the Hagiorite assembled the same material into an anthology printed at Venice in 1782 under the title Philokalia, 'the love of the beautiful'.",
+          "other": "Macarius of Corinth and Nicodemus the Hagiorite",
+          "other_id": "athonite-and-comnenian-byzantine-monasticism",
+          "claim": "in contact with: assembled the anthology on Athos"
+        },
+        {
+          "field": "longDescription",
+          "sentence": "He gathered a community, moved with it to Moldavia, and at Neamț built a translation workshop where monks turned those fathers into Slavonic; meanwhile on Athos, Macarius of Corinth and Nicodemus the Hagiorite assembled the same material into an anthology printed at Venice in 1782 under the title Philokalia, 'the love of the beautiful'.",
+          "other": "Neamț monastery (Moldavia)",
+          "other_id": null,
+          "claim": "other: built a translation workshop at Neamț",
+          "match_note": "monastic house; no census entry"
+        },
+        {
+          "field": "why",
+          "sentence": "In 1746 a young monk named Paisius Velichkovsky went looking through the monastery libraries of Mount Athos for old Greek teaching on inward prayer that almost nobody read anymore, and set his community to translating it into Slavonic at Neamț in Moldavia.",
+          "other": "Mount Athos",
+          "other_id": "athonite-and-comnenian-byzantine-monasticism",
+          "claim": "in contact with: searched the Athos monastery libraries"
+        },
+        {
+          "field": "why",
+          "sentence": "Printed as the Philokalia at Venice in 1782 and in Paisius's own Slavonic version at Moscow in 1793, that anthology carried a monk's teaching on the Jesus Prayer out to ordinary readers, and fed directly into the elders of Optina and the anonymous classic The Way of a Pilgrim.",
+          "other": "elders of Optina",
+          "other_id": "the-optina-elders-and-russian-ascetic-renewal",
+          "claim": "influenced: fed directly into the Optina elders"
+        },
+        {
+          "field": "why",
+          "sentence": "Printed as the Philokalia at Venice in 1782 and in Paisius's own Slavonic version at Moscow in 1793, that anthology carried a monk's teaching on the Jesus Prayer out to ordinary readers, and fed directly into the elders of Optina and the anonymous classic The Way of a Pilgrim.",
+          "other": "The Way of a Pilgrim",
+          "other_id": null,
+          "claim": "influenced: fed into the anonymous classic The Way of a Pilgrim",
+          "match_note": "a text, not a census movement"
+        },
+        {
+          "field": "legacy",
+          "sentence": "And the Russian tradition it fed produced the elders of Optina, the anonymous nineteenth-century classic The Way of a Pilgrim, and, through both, the spiritual world of Dostoevsky's novels.",
+          "other": "elders of Optina",
+          "other_id": "the-optina-elders-and-russian-ascetic-renewal",
+          "claim": "influenced: the Russian tradition it fed produced the Optina elders"
+        },
+        {
+          "field": "legacy",
+          "sentence": "And the Russian tradition it fed produced the elders of Optina, the anonymous nineteenth-century classic The Way of a Pilgrim, and, through both, the spiritual world of Dostoevsky's novels.",
+          "other": "The Way of a Pilgrim",
+          "other_id": null,
+          "claim": "influenced: the Russian tradition produced The Way of a Pilgrim",
+          "match_note": "a text, not a census movement"
+        },
+        {
+          "field": "legacy",
+          "sentence": "And the Russian tradition it fed produced the elders of Optina, the anonymous nineteenth-century classic The Way of a Pilgrim, and, through both, the spiritual world of Dostoevsky's novels.",
+          "other": "Dostoevsky's novels",
+          "other_id": null,
+          "claim": "influenced: the tradition reached the spiritual world of Dostoevsky's novels",
+          "match_note": "person and works; no census entry"
+        },
+        {
+          "field": "legacy",
+          "sentence": "Twentieth-century Orthodox theology in the West drew on it heavily, and the Jesus Prayer is now practiced far outside the monasteries the texts were written in.",
+          "other": "Orthodox theology in the West (20th c.)",
+          "other_id": "emigre-orthodoxy-and-the-paris-school",
+          "claim": "influenced: Western Orthodox theology drew on it heavily",
+          "match_note": "approximate: the Paris school entry"
+        },
+        {
+          "field": "legacy",
+          "sentence": "Neamț Monastery still stands and still functions, with Paisius's relics in it; he was canonized in 1988.",
+          "other": "Neamț Monastery",
+          "other_id": null,
+          "claim": "other: Neamț Monastery still stands, with Paisius's relics",
+          "match_note": "monastic house; no census entry"
+        }
+      ],
+      "existing_links": [
+        {
+          "id": "athonite-and-comnenian-byzantine-monasticism--the-hesychast-revival-paisius-and-the-philokalia",
+          "from": "athonite-and-comnenian-byzantine-monasticism",
+          "to": "the-hesychast-revival-paisius-and-the-philokalia",
+          "type": "influenced",
+          "confidence": "Documented"
+        }
+      ],
+      "raw_ids_in_text": []
+    },
+    {
+      "id": "port-royal-jansenism",
+      "name": "Port-Royal Jansenism",
+      "dates": "1640-1710",
+      "relationships": [
+        {
+          "field": "relationsSummary",
+          "sentence": "Augustine's long shadow inside the Tridentine church",
+          "other": "Augustine",
+          "other_id": null,
+          "claim": "influenced: Augustine's long shadow over the movement",
+          "match_note": "person; no census entry"
+        },
+        {
+          "field": "relationsSummary",
+          "sentence": "Augustine's long shadow inside the Tridentine church",
+          "other": "Tridentine church",
+          "other_id": "the-tridentine-church",
+          "claim": "other: existed inside the Tridentine church"
+        },
+        {
+          "field": "longDescription",
+          "sentence": "Port-Royal was a Cistercian convent outside Paris, reformed into severity by a young abbess, Angélique Arnauld, and it became the center of a movement that read Augustine on grace harder than the Jesuits or the French crown could tolerate.",
+          "other": "Augustine",
+          "other_id": null,
+          "claim": "influenced: read Augustine on grace",
+          "match_note": "person; no census entry"
+        },
+        {
+          "field": "longDescription",
+          "sentence": "Port-Royal was a Cistercian convent outside Paris, reformed into severity by a young abbess, Angélique Arnauld, and it became the center of a movement that read Augustine on grace harder than the Jesuits or the French crown could tolerate.",
+          "other": "Jesuits",
+          "other_id": "the-society-of-jesus",
+          "claim": "argued against: read Augustine harder than the Jesuits could tolerate"
+        },
+        {
+          "field": "longDescription",
+          "sentence": "Port-Royal was a Cistercian convent outside Paris, reformed into severity by a young abbess, Angélique Arnauld, and it became the center of a movement that read Augustine on grace harder than the Jesuits or the French crown could tolerate.",
+          "other": "French crown",
+          "other_id": null,
+          "claim": "argued against: read Augustine harder than the French crown could tolerate",
+          "match_note": "state; no census entry"
+        },
+        {
+          "field": "longDescription",
+          "sentence": "And in its orbit stood Blaise Pascal, whose Provincial Letters mocked Jesuit moral reasoning so effectively that the mockery outlived the quarrel.",
+          "other": "Blaise Pascal",
+          "other_id": null,
+          "claim": "in contact with: Pascal stood in the movement's orbit",
+          "match_note": "person; no census entry"
+        },
+        {
+          "field": "longDescription",
+          "sentence": "And in its orbit stood Blaise Pascal, whose Provincial Letters mocked Jesuit moral reasoning so effectively that the mockery outlived the quarrel.",
+          "other": "Jesuits",
+          "other_id": "the-society-of-jesus",
+          "claim": "argued against: Pascal's Provincial Letters mocked Jesuit moral reasoning"
+        },
+        {
+          "field": "longDescription",
+          "sentence": "Rome condemned five propositions said to be contained in Jansen's Augustinus, and the nuns were required to sign a formulary declaring both that the propositions were heretical and that they were in the book.",
+          "other": "Rome",
+          "other_id": null,
+          "claim": "argued against: Rome condemned five propositions said to be in Jansen's Augustinus",
+          "match_note": "the papacy; no single census entry"
+        },
+        {
+          "field": "longDescription",
+          "sentence": "Rome condemned five propositions said to be contained in Jansen's Augustinus, and the nuns were required to sign a formulary declaring both that the propositions were heretical and that they were in the book.",
+          "other": "Jansen (Augustinus)",
+          "other_id": null,
+          "claim": "other: the propositions were said to come from Jansen's Augustinus",
+          "match_note": "person; no census entry"
+        },
+        {
+          "field": "longDescription",
+          "sentence": "Louis XIV lost patience: the nuns were dispersed in 1709 and the buildings pulled down, down to digging up the cemetery.",
+          "other": "Louis XIV",
+          "other_id": null,
+          "claim": "argued against: Louis XIV dispersed the nuns and pulled down the buildings",
+          "match_note": "person (state); no census entry"
+        },
+        {
+          "field": "why",
+          "sentence": "The convent of Port-Royal, reformed into severity by the young abbess Angélique Arnauld, read Augustine on grace harder than the Jesuits or the French crown could tolerate, and men of rank gave up their careers to live plainly nearby and write in its defense — among them Blaise Pascal, whose Provincial Letters mocked Jesuit moral reasoning so well that the mockery outlived the quarrel.",
+          "other": "Jesuits",
+          "other_id": "the-society-of-jesus",
+          "claim": "argued against: read Augustine harder than the Jesuits could tolerate"
+        },
+        {
+          "field": "why",
+          "sentence": "The convent of Port-Royal, reformed into severity by the young abbess Angélique Arnauld, read Augustine on grace harder than the Jesuits or the French crown could tolerate, and men of rank gave up their careers to live plainly nearby and write in its defense — among them Blaise Pascal, whose Provincial Letters mocked Jesuit moral reasoning so well that the mockery outlived the quarrel.",
+          "other": "French crown",
+          "other_id": null,
+          "claim": "argued against: read Augustine harder than the crown could tolerate",
+          "match_note": "state; no census entry"
+        },
+        {
+          "field": "why",
+          "sentence": "The convent of Port-Royal, reformed into severity by the young abbess Angélique Arnauld, read Augustine on grace harder than the Jesuits or the French crown could tolerate, and men of rank gave up their careers to live plainly nearby and write in its defense — among them Blaise Pascal, whose Provincial Letters mocked Jesuit moral reasoning so well that the mockery outlived the quarrel.",
+          "other": "Blaise Pascal",
+          "other_id": null,
+          "claim": "in contact with: Pascal defended the movement from its orbit",
+          "match_note": "person; no census entry"
+        },
+        {
+          "field": "why",
+          "sentence": "When a core of the nuns refused to sign a formulary swearing to a matter of fact they said they had no way of knowing, Louis XIV had them dispersed in 1709 and the buildings pulled down to the cemetery.",
+          "other": "Louis XIV",
+          "other_id": null,
+          "claim": "argued against: Louis XIV had the nuns dispersed in 1709",
+          "match_note": "person (state); no census entry"
+        },
+        {
+          "field": "legacy",
+          "sentence": "The quarrel outlived the abbey too: Jansenism became a political force in eighteenth-century France and fed the campaign that suppressed the Jesuits, and it produced one lasting institution.",
+          "other": "Jansenism in eighteenth-century France",
+          "other_id": "catholic-church-ancien-regime",
+          "claim": "other: Jansenism became a political force in France",
+          "match_note": "approximate: the Ancien Régime entry covers the Jansenist crisis"
+        },
+        {
+          "field": "legacy",
+          "sentence": "The quarrel outlived the abbey too: Jansenism became a political force in eighteenth-century France and fed the campaign that suppressed the Jesuits, and it produced one lasting institution.",
+          "other": "Jesuits",
+          "other_id": "the-society-of-jesus",
+          "claim": "argued against: Jansenism fed the campaign that suppressed the Jesuits"
+        },
+        {
+          "field": "legacy",
+          "sentence": "The small Church of Utrecht in the Netherlands, which consecrated its own archbishop without Rome in the 1720s and became the root of the Old Catholic churches.",
+          "other": "Church of Utrecht",
+          "other_id": "church-of-utrecht",
+          "claim": "descent: the Church of Utrecht became the root of the Old Catholic churches"
+        },
+        {
+          "field": "legacy",
+          "sentence": "The small Church of Utrecht in the Netherlands, which consecrated its own archbishop without Rome in the 1720s and became the root of the Old Catholic churches.",
+          "other": "Old Catholic churches",
+          "other_id": "old-catholic-churches-union-of-utrecht",
+          "claim": "continued as: the Old Catholic churches descend from the Utrecht line"
+        }
+      ],
+      "existing_links": [],
+      "raw_ids_in_text": []
+    },
+    {
+      "id": "the-welsh-revival-tradition",
+      "name": "The Welsh Revival Tradition",
+      "dates": "1735-1815",
+      "relationships": [
+        {
+          "field": "relationsSummary",
+          "sentence": "Sibling of Methodism with its own language-tradition; parent of the 1904 revival",
+          "other": "Methodism",
+          "other_id": "the-methodist-revival",
+          "claim": "other: a sibling of Methodism"
+        },
+        {
+          "field": "relationsSummary",
+          "sentence": "Sibling of Methodism with its own language-tradition; parent of the 1904 revival",
+          "other": "1904 revival",
+          "other_id": "the-1904-07-revival-family-wales-mukti-india-pyo",
+          "claim": "descent: parent of the 1904 revival"
+        },
+        {
+          "field": "longDescription",
+          "sentence": "The Welsh revival began independently of England and in its own language: in 1735 Howell Harris, a schoolmaster from Trefeca, and Daniel Rowland, a curate at Llangeitho, were converted within months of each other and began preaching to whoever would gather.",
+          "other": "English revival (Methodism)",
+          "other_id": "the-methodist-revival",
+          "claim": "other: began independently of the English revival",
+          "match_note": "approximate: the Methodist entry is the English revival"
+        },
+        {
+          "field": "legacy",
+          "sentence": "It became a church: the Calvinistic Methodists ordained their own ministers in 1811 and are now the Presbyterian Church of Wales, and the revival's wider effect made Nonconformity rather than the established church the ordinary religion of Wales for a century and a half.",
+          "other": "Calvinistic Methodists",
+          "other_id": null,
+          "claim": "continued as: Calvinistic Methodists became the Presbyterian Church of Wales",
+          "match_note": "no census entry for the Presbyterian Church of Wales"
+        },
+        {
+          "field": "legacy",
+          "sentence": "It became a church: the Calvinistic Methodists ordained their own ministers in 1811 and are now the Presbyterian Church of Wales, and the revival's wider effect made Nonconformity rather than the established church the ordinary religion of Wales for a century and a half.",
+          "other": "Nonconformity in Wales",
+          "other_id": null,
+          "claim": "other: Nonconformity became the ordinary religion of Wales",
+          "match_note": "generic; no census entry"
+        },
+        {
+          "field": "legacy",
+          "sentence": "It became a church: the Calvinistic Methodists ordained their own ministers in 1811 and are now the Presbyterian Church of Wales, and the revival's wider effect made Nonconformity rather than the established church the ordinary religion of Wales for a century and a half.",
+          "other": "established church in Wales",
+          "other_id": "restoration-georgian-church-of-england",
+          "claim": "other: displaced the established church as the ordinary religion of Wales",
+          "match_note": "approximate: Georgian C of E entry"
+        },
+        {
+          "field": "legacy",
+          "sentence": "Its Sunday schools taught a great part of the nation to read Welsh, which is one reason the language came through industrialization alive.",
+          "other": "Sunday schools",
+          "other_id": "the-sunday-school-and-bible-institute-movement",
+          "claim": "influenced: its Sunday schools taught the nation to read Welsh",
+          "match_note": "approximate: census Sunday school entry is the nearest"
+        },
+        {
+          "field": "legacy",
+          "sentence": "And the singing tradition it created runs straight on to the revival of 1904-05 and, less obviously but just as really, into Welsh choral culture generally.",
+          "other": "1904-05 revival",
+          "other_id": "the-1904-07-revival-family-wales-mukti-india-pyo",
+          "claim": "continued as: the singing tradition runs on to the 1904-05 revival"
+        },
+        {
+          "field": "legacy",
+          "sentence": "And the singing tradition it created runs straight on to the revival of 1904-05 and, less obviously but just as really, into Welsh choral culture generally.",
+          "other": "Welsh choral culture",
+          "other_id": null,
+          "claim": "influenced: the singing tradition runs into Welsh choral culture",
+          "match_note": "generic; no census entry"
+        }
+      ],
+      "existing_links": [],
+      "raw_ids_in_text": []
+    },
+    {
+      "id": "the-antonian-movement-in-kongo",
+      "name": "The Antonian Movement in Kongo",
+      "dates": "1704-1706",
+      "relationships": [
+        {
+          "field": "relationsSummary",
+          "sentence": "Christianity already two centuries African producing its own prophetess - crushed at the stake",
+          "other": "Kingdom of Kongo's Christianity",
+          "other_id": "kongo-christianity-afonso-to-1650",
+          "claim": "other: a movement within the Kingdom of Kongo's Christianity",
+          "match_note": "approximate: census entry ends in 1650; the movement is 1704-06"
+        },
+        {
+          "field": "longDescription",
+          "sentence": "By 1700 the Kingdom of Kongo had been Christian for two centuries — its kings baptized, its capital São Salvador full of churches, its catechism printed in Kikongo.",
+          "other": "Kingdom of Kongo's Christianity",
+          "other_id": "kongo-christianity-afonso-to-1650",
+          "claim": "other: the Kingdom of Kongo had been Christian for two centuries",
+          "match_note": "approximate: census entry ends in 1650"
+        },
+        {
+          "field": "longDescription",
+          "sentence": "Two Capuchin missionaries persuaded the restored king to arrest her, and in July 1706 she was burned as a heretic.",
+          "other": "Capuchin missionaries",
+          "other_id": null,
+          "claim": "argued against: two Capuchins persuaded the king to arrest her",
+          "match_note": "no census entry for Capuchins"
+        },
+        {
+          "field": "longDescription",
+          "sentence": "In 1704 a young noblewoman named Kimpa Vita, baptized Beatriz, announced that she had died and been possessed by Saint Anthony of Padua, and that he now spoke through her.",
+          "other": "Saint Anthony of Padua",
+          "other_id": null,
+          "claim": "in contact with: claimed to be possessed by Saint Anthony of Padua",
+          "match_note": "saint; the text does not name the Franciscans"
+        },
+        {
+          "field": "why",
+          "sentence": "In 1704 a young noblewoman, Kimpa Vita, announced that Saint Anthony spoke through her and led thousands of followers back to reoccupy the ruined capital, insisting Christ and the saints should be understood as Kongolese rather than European — a claim that ended with her burned at the stake in 1706.",
+          "other": "Saint Anthony of Padua",
+          "other_id": null,
+          "claim": "in contact with: claimed Saint Anthony spoke through her",
+          "match_note": "saint; no census entry"
+        }
+      ],
+      "existing_links": [],
+      "raw_ids_in_text": []
+    },
+    {
+      "id": "shakers",
+      "name": "Shakers",
+      "dates": "1774-1815",
+      "relationships": [
+        {
+          "field": "relationsSummary",
+          "sentence": "Radical edge of the era's prophetic currents",
+          "other": "the era's prophetic currents",
+          "other_id": null,
+          "claim": "other: a radical edge of the era's prophetic currents",
+          "match_note": "unnamed group; not matched to a specific census entry"
+        },
+        {
+          "field": "longDescription",
+          "sentence": "The Shakers began among a small group of dissenters in Manchester who worshipped with shaking, dancing and ecstatic speech, and were transformed by one of them.",
+          "other": "Manchester dissenters",
+          "other_id": null,
+          "claim": "descent: began among a small group of Manchester dissenters",
+          "match_note": "no census entry; English Old Dissent is broader"
+        },
+        {
+          "field": "longDescription",
+          "sentence": "Their published confession identified Christ's second appearing with Ann Lee herself, which set them apart from the churches around them, and their dancing worship gave them the name their neighbors used.",
+          "other": "the churches around them",
+          "other_id": null,
+          "claim": "broke with: their confession set them apart from the surrounding churches",
+          "match_note": "generic; no census entry"
+        },
+        {
+          "field": "why",
+          "sentence": "The Shakers grew from a small circle of Manchester dissenters who worshipped with shaking, dancing and ecstatic speech, transformed by one of them, Ann Lee, who had buried four children and came to believe celibacy was the way out of the world's fallenness.",
+          "other": "Manchester dissenters",
+          "other_id": null,
+          "claim": "descent: grew from a small circle of Manchester dissenters",
+          "match_note": "no census entry"
+        }
+      ],
+      "existing_links": [],
+      "raw_ids_in_text": []
+    },
+    {
+      "id": "swedenborgian-new-church",
+      "name": "Swedenborgian New Church",
+      "dates": "1780s-1815",
+      "relationships": [
+        {
+          "field": "longDescription",
+          "sentence": "Emanuel Swedenborg was a Swedish mining engineer, anatomist and member of the House of Nobles who, in his mid-fifties, began having visions and spent the rest of his life writing an enormous body of theological work in Latin — accounts of heaven and hell, of the inner meaning of Scripture, and of a Christianity in which God is one person, Jesus Christ, rather than three.",
+          "other": "Trinitarian doctrine",
+          "other_id": null,
+          "claim": "argued against: God is one person, Jesus Christ, rather than three",
+          "match_note": "doctrine; no single census entry"
+        },
+        {
+          "field": "why",
+          "sentence": "Emanuel Swedenborg was a Swedish scientist who, in his mid-fifties, began having visions and spent the rest of his life writing an enormous body of theology in Latin — describing heaven and hell, the inner meaning of Scripture, and a God who is one person, Jesus Christ, rather than three.",
+          "other": "Trinitarian doctrine",
+          "other_id": null,
+          "claim": "argued against: God is one person, Jesus Christ, rather than three",
+          "match_note": "doctrine; no single census entry"
+        },
+        {
+          "field": "legacy",
+          "sentence": "Blake, Emerson, Balzac, Baudelaire and Yeats all read Swedenborg, and Helen Keller and John Chapman — 'Johnny Appleseed', who distributed Swedenborgian tracts along with his seedlings — were adherents.",
+          "other": "William Blake",
+          "other_id": null,
+          "claim": "influenced: read Swedenborg",
+          "match_note": "person; no census entry"
+        },
+        {
+          "field": "legacy",
+          "sentence": "Blake, Emerson, Balzac, Baudelaire and Yeats all read Swedenborg, and Helen Keller and John Chapman — 'Johnny Appleseed', who distributed Swedenborgian tracts along with his seedlings — were adherents.",
+          "other": "Ralph Waldo Emerson",
+          "other_id": null,
+          "claim": "influenced: read Swedenborg",
+          "match_note": "person; no census entry"
+        },
+        {
+          "field": "legacy",
+          "sentence": "Blake, Emerson, Balzac, Baudelaire and Yeats all read Swedenborg, and Helen Keller and John Chapman — 'Johnny Appleseed', who distributed Swedenborgian tracts along with his seedlings — were adherents.",
+          "other": "Honoré de Balzac",
+          "other_id": null,
+          "claim": "influenced: read Swedenborg",
+          "match_note": "person; no census entry"
+        },
+        {
+          "field": "legacy",
+          "sentence": "Blake, Emerson, Balzac, Baudelaire and Yeats all read Swedenborg, and Helen Keller and John Chapman — 'Johnny Appleseed', who distributed Swedenborgian tracts along with his seedlings — were adherents.",
+          "other": "Charles Baudelaire",
+          "other_id": null,
+          "claim": "influenced: read Swedenborg",
+          "match_note": "person; no census entry"
+        },
+        {
+          "field": "legacy",
+          "sentence": "Blake, Emerson, Balzac, Baudelaire and Yeats all read Swedenborg, and Helen Keller and John Chapman — 'Johnny Appleseed', who distributed Swedenborgian tracts along with his seedlings — were adherents.",
+          "other": "W. B. Yeats",
+          "other_id": null,
+          "claim": "influenced: read Swedenborg",
+          "match_note": "person; no census entry"
+        },
+        {
+          "field": "legacy",
+          "sentence": "Blake, Emerson, Balzac, Baudelaire and Yeats all read Swedenborg, and Helen Keller and John Chapman — 'Johnny Appleseed', who distributed Swedenborgian tracts along with his seedlings — were adherents.",
+          "other": "Helen Keller",
+          "other_id": null,
+          "claim": "other: was an adherent",
+          "match_note": "person; no census entry"
+        },
+        {
+          "field": "legacy",
+          "sentence": "Blake, Emerson, Balzac, Baudelaire and Yeats all read Swedenborg, and Helen Keller and John Chapman — 'Johnny Appleseed', who distributed Swedenborgian tracts along with his seedlings — were adherents.",
+          "other": "John Chapman (Johnny Appleseed)",
+          "other_id": null,
+          "claim": "other: was an adherent who distributed Swedenborgian tracts",
+          "match_note": "person; no census entry"
+        }
+      ],
+      "existing_links": [],
+      "raw_ids_in_text": []
+    },
+    {
+      "id": "quietist-controversy-molinos-guyon",
+      "name": "Quietist Controversy (Molinos, Guyon)",
+      "dates": "1675-1699",
+      "relationships": [
+        {
+          "field": "relationsSummary",
+          "sentence": "Adjacent to Port-Royal's tradition",
+          "other": "Port-Royal",
+          "other_id": "port-royal-jansenism",
+          "claim": "other: adjacent to Port-Royal's tradition"
+        },
+        {
+          "field": "longDescription",
+          "sentence": "It was hugely popular until it was not; Molinos was arrested in 1685 and sixty-eight propositions drawn from his work were condemned in 1687.",
+          "other": "Roman church authorities",
+          "other_id": null,
+          "claim": "argued against: sixty-eight propositions from Molinos condemned in 1687",
+          "match_note": "the church authorities; no single census entry"
+        },
+        {
+          "field": "longDescription",
+          "sentence": "The quarrel then moved to France, around Jeanne Guyon, a widow whose Short and Easy Method of Prayer taught something similar, and who found a defender in Fénelon, archbishop of Cambrai, and an implacable opponent in Bossuet, bishop of Meaux.",
+          "other": "Fénelon",
+          "other_id": null,
+          "claim": "in contact with: Fénelon defended Guyon",
+          "match_note": "person; no census entry"
+        },
+        {
+          "field": "longDescription",
+          "sentence": "The quarrel then moved to France, around Jeanne Guyon, a widow whose Short and Easy Method of Prayer taught something similar, and who found a defender in Fénelon, archbishop of Cambrai, and an implacable opponent in Bossuet, bishop of Meaux.",
+          "other": "Bossuet",
+          "other_id": null,
+          "claim": "argued against: Bossuet opposed Guyon",
+          "match_note": "person; no census entry"
+        },
+        {
+          "field": "longDescription",
+          "sentence": "Guyon spent years in confinement, including in the Bastille; Fénelon's defense of her was condemned by Rome in 1699, and he read out his own submission from his own pulpit.",
+          "other": "Rome",
+          "other_id": null,
+          "claim": "argued against: Rome condemned Fénelon's defense of Guyon in 1699",
+          "match_note": "the papacy; no single census entry"
+        },
+        {
+          "field": "why",
+          "sentence": "Miguel de Molinos taught a prayer of total interior passivity — stop even asking, and let God act — until he was arrested in 1685 and dozens of his propositions condemned.",
+          "other": "Roman church authorities",
+          "other_id": null,
+          "claim": "argued against: Molinos's propositions were condemned",
+          "match_note": "the church authorities; no single census entry"
+        },
+        {
+          "field": "why",
+          "sentence": "The argument moved to France around the widow Jeanne Guyon, whose similar teaching found a defender in the archbishop Fénelon and an implacable opponent in Bossuet; Guyon spent years imprisoned, including in the Bastille, and Fénelon read out his own submission from his own pulpit when Rome condemned him in 1699.",
+          "other": "Fénelon",
+          "other_id": null,
+          "claim": "in contact with: Fénelon defended Guyon",
+          "match_note": "person; no census entry"
+        },
+        {
+          "field": "why",
+          "sentence": "The argument moved to France around the widow Jeanne Guyon, whose similar teaching found a defender in the archbishop Fénelon and an implacable opponent in Bossuet; Guyon spent years imprisoned, including in the Bastille, and Fénelon read out his own submission from his own pulpit when Rome condemned him in 1699.",
+          "other": "Bossuet",
+          "other_id": null,
+          "claim": "argued against: Bossuet opposed Guyon",
+          "match_note": "person; no census entry"
+        },
+        {
+          "field": "why",
+          "sentence": "The argument moved to France around the widow Jeanne Guyon, whose similar teaching found a defender in the archbishop Fénelon and an implacable opponent in Bossuet; Guyon spent years imprisoned, including in the Bastille, and Fénelon read out his own submission from his own pulpit when Rome condemned him in 1699.",
+          "other": "Rome",
+          "other_id": null,
+          "claim": "argued against: Rome condemned Fénelon in 1699",
+          "match_note": "the papacy; no single census entry"
+        },
+        {
+          "field": "legacy",
+          "sentence": "The condemnation ended quietism as a movement inside Catholicism, but not the texts.",
+          "other": "Catholicism",
+          "other_id": "catholic-church-ancien-regime",
+          "claim": "argued against: the condemnation ended quietism inside Catholicism",
+          "match_note": "approximate: the Ancien Régime entry names the Quietist controversy"
+        },
+        {
+          "field": "legacy",
+          "sentence": "Guyon's writings had a long second life among Protestants — translated, reprinted and read warmly by Pietists, Quakers and Methodists.",
+          "other": "Pietists",
+          "other_id": "german-pietism-spener-francke-halle",
+          "claim": "influenced: Guyon's writings were read warmly by Pietists"
+        },
+        {
+          "field": "legacy",
+          "sentence": "Guyon's writings had a long second life among Protestants — translated, reprinted and read warmly by Pietists, Quakers and Methodists.",
+          "other": "Quakers",
+          "other_id": "the-quakers-religious-society-of-friends",
+          "claim": "influenced: Guyon's writings were read warmly by Quakers"
+        },
+        {
+          "field": "legacy",
+          "sentence": "Guyon's writings had a long second life among Protestants — translated, reprinted and read warmly by Pietists, Quakers and Methodists.",
+          "other": "Methodists",
+          "other_id": "the-methodist-revival",
+          "claim": "influenced: Guyon's writings were read warmly by Methodists"
+        },
+        {
+          "field": "legacy",
+          "sentence": "So that a condemned French Catholic widow became devotional reading in English-speaking evangelicalism, and still is.",
+          "other": "English-speaking evangelicalism",
+          "other_id": null,
+          "claim": "influenced: became devotional reading in English-speaking evangelicalism",
+          "match_note": "generic; no census entry"
+        }
+      ],
+      "existing_links": [],
+      "raw_ids_in_text": []
+    },
+    {
+      "id": "camisard-prophetism",
+      "name": "Camisard Prophetism",
+      "dates": "1700-1710",
+      "relationships": [
+        {
+          "field": "relationsSummary",
+          "sentence": "Aftermath of the Huguenot tradition's suppression",
+          "other": "Huguenot tradition",
+          "other_id": "the-huguenots",
+          "claim": "other: the aftermath of the suppression of the Huguenot tradition"
+        },
+        {
+          "field": "longDescription",
+          "sentence": "After Louis XIV outlawed Protestantism in 1685, the Protestants of the Cévennes were left with no pastors, no churches and no legal existence.",
+          "other": "Protestantism in France (Huguenots)",
+          "other_id": "the-huguenots",
+          "claim": "other: Louis XIV outlawed Protestantism in 1685",
+          "match_note": "approximate: the Huguenot entry covers French Protestantism"
+        },
+        {
+          "field": "longDescription",
+          "sentence": "Bands of peasants known as Camisards fought royal troops through the mountains for two years, led by men like Jean Cavalier, a baker's apprentice of twenty, with prophets traveling alongside the fighters and directing them.",
+          "other": "royal troops",
+          "other_id": null,
+          "claim": "argued against: fought royal troops through the mountains",
+          "match_note": "state army; no census entry"
+        },
+        {
+          "field": "longDescription",
+          "sentence": "The rising was broken by 1704 and the last resistance ended by 1710; some of the prophets escaped to London, where they caused a fresh sensation as the 'French Prophets'.",
+          "other": "French Prophets (London)",
+          "other_id": null,
+          "claim": "continued as: some prophets escaped to London as the French Prophets",
+          "match_note": "no census entry"
+        },
+        {
+          "field": "why",
+          "sentence": "After Protestantism was outlawed in France in 1685, ordinary people in the Cévennes — many of them children and young women with no pastors left to guide them — began falling into trance and speaking as they believed the Spirit directed.",
+          "other": "Protestantism in France (Huguenots)",
+          "other_id": "the-huguenots",
+          "claim": "other: Protestantism was outlawed in France in 1685",
+          "match_note": "approximate: the Huguenot entry"
+        },
+        {
+          "field": "legacy",
+          "sentence": "The Camisards left no church of their own — French Protestantism rebuilt itself without them, in a completely different key, sober and clandestine.",
+          "other": "French Protestantism (Church of the Desert)",
+          "other_id": "church-of-the-desert-huguenots",
+          "claim": "other: French Protestantism rebuilt itself without the Camisards",
+          "match_note": "approximate: the Church of the Desert entry"
+        },
+        {
+          "field": "legacy",
+          "sentence": "The exiles in London published sworn accounts of their experiences, drew crowds and ridicule, and shaped English and continental arguments about religious enthusiasm for a generation, with echoes reaching later revival movements.",
+          "other": "English and continental debate on enthusiasm",
+          "other_id": null,
+          "claim": "influenced: the London exiles shaped arguments about religious enthusiasm",
+          "match_note": "generic; no census entry"
+        },
+        {
+          "field": "legacy",
+          "sentence": "The exiles in London published sworn accounts of their experiences, drew crowds and ridicule, and shaped English and continental arguments about religious enthusiasm for a generation, with echoes reaching later revival movements.",
+          "other": "later revival movements",
+          "other_id": null,
+          "claim": "influenced: echoes reached later revival movements",
+          "match_note": "unnamed; not matched"
+        },
+        {
+          "field": "legacy",
+          "sentence": "In the Cévennes the memory was never allowed to fade, and it is still marked by an assembly held every September at the Musée du Désert.",
+          "other": "Musée du Désert (commemoration)",
+          "other_id": "church-of-the-desert-huguenots",
+          "claim": "other: the memory is marked by an assembly at the Musée du Désert",
+          "match_note": "approximate: the Church of the Desert entry"
+        }
+      ],
+      "existing_links": [],
+      "raw_ids_in_text": []
+    },
+    {
+      "id": "the-baptists",
+      "name": "The Baptists",
+      "dates": "1609-1815",
+      "relationships": [
+        {
+          "field": "relationsSummary",
+          "sentence": "The Baptists grew out of Puritan-Separatist ferment in England.",
+          "other": "Puritan-Separatist ferment",
+          "other_id": "puritanism",
+          "claim": "descent: grew out of Puritan-Separatist ferment in England",
+          "match_note": "approximate: census entry \"Puritans\""
+        },
+        {
+          "field": "relationsSummary",
+          "sentence": "They arrived at Anabaptist-like convictions about believer's baptism largely on their own — historians are divided on how much direct contact there was between the two movements.",
+          "other": "Anabaptist-like convictions",
+          "other_id": "the-anabaptist-movements",
+          "claim": "in contact with: arrived at Anabaptist-like convictions, with contact disputed",
+          "match_note": "the text says historians disagree on the contact"
+        },
+        {
+          "field": "relationsSummary",
+          "sentence": "From the Baptists came William Carey's missionary movement and the Black Baptist churches, which in turn became one of the founding traditions of the Black Church in America.",
+          "other": "William Carey's missionary movement",
+          "other_id": null,
+          "claim": "descent: William Carey's missionary movement came from the Baptists",
+          "match_note": "no census entry for Carey's society"
+        },
+        {
+          "field": "relationsSummary",
+          "sentence": "From the Baptists came William Carey's missionary movement and the Black Baptist churches, which in turn became one of the founding traditions of the Black Church in America.",
+          "other": "Black Baptist churches",
+          "other_id": "the-black-church-in-america",
+          "claim": "descent: Black Baptist churches became a founding tradition of the Black Church"
+        },
+        {
+          "field": "longDescription",
+          "sentence": "They were persecuted hard under the Restoration — John Bunyan spent twelve years in Bedford gaol for preaching without a license and wrote Grace Abounding there.",
+          "other": "the Restoration regime",
+          "other_id": "restoration-georgian-church-of-england",
+          "claim": "argued against: persecuted hard under the Restoration",
+          "match_note": "approximate: Georgian C of E entry is the church of the Restoration period"
+        },
+        {
+          "field": "longDescription",
+          "sentence": "In America they grew explosively out of the awakening, and the movement's outward turn came in 1792, when a Northamptonshire shoemaker named William Carey persuaded a small association of ministers to found a missionary society and then sailed for India himself.",
+          "other": "the awakening",
+          "other_id": "the-evangelical-awakening-in-new-england",
+          "claim": "descent: grew explosively out of the awakening in America"
+        },
+        {
+          "field": "longDescription",
+          "sentence": "In America they grew explosively out of the awakening, and the movement's outward turn came in 1792, when a Northamptonshire shoemaker named William Carey persuaded a small association of ministers to found a missionary society and then sailed for India himself.",
+          "other": "William Carey and his missionary society",
+          "other_id": null,
+          "claim": "other: founded a missionary society and sailed for India",
+          "match_note": "no census entry"
+        },
+        {
+          "field": "why",
+          "sentence": "The churches that grew from that governed themselves in writing, week by week, in minute books and covenants — John Bunyan wrote Grace Abounding during twelve years in Bedford gaol for preaching without a license — and in 1792 a shoemaker named William Carey persuaded a small association of ministers to found a missionary society before sailing for India himself.",
+          "other": "William Carey and his missionary society",
+          "other_id": null,
+          "claim": "other: founded a missionary society before sailing for India",
+          "match_note": "no census entry"
+        },
+        {
+          "field": "legacy",
+          "sentence": "The tradition's argument that no magistrate has authority over belief passed into Rhode Island's founding under Roger Williams and, through a long line of Baptist petitioning, into the American constitutional settlement on religion.",
+          "other": "Roger Williams (Rhode Island)",
+          "other_id": null,
+          "claim": "influenced: the argument passed into Rhode Island's founding",
+          "match_note": "person and colony; no census entry"
+        },
+        {
+          "field": "legacy",
+          "sentence": "The tradition's argument that no magistrate has authority over belief passed into Rhode Island's founding under Roger Williams and, through a long line of Baptist petitioning, into the American constitutional settlement on religion.",
+          "other": "American constitutional settlement on religion",
+          "other_id": null,
+          "claim": "influenced: the argument passed into the American settlement on religion",
+          "match_note": "no census entry"
+        },
+        {
+          "field": "legacy",
+          "sentence": "Carey's society opened the era of Protestant foreign missions and was quickly imitated across the denominations.",
+          "other": "Carey's society and Protestant foreign missions",
+          "other_id": null,
+          "claim": "influenced: Carey's society opened the era of Protestant foreign missions",
+          "match_note": "generic; no census entry"
+        },
+        {
+          "field": "legacy",
+          "sentence": "And the Black Baptist churches founded by Liele, George and their successors became one of the central institutions of African American life, and the ground from which the civil rights movement later grew.",
+          "other": "Black Baptist churches",
+          "other_id": "the-black-church-in-america",
+          "claim": "influenced: Black Baptist churches became central institutions of African American life",
+          "match_note": "approximate: Black Church entry"
+        },
+        {
+          "field": "legacy",
+          "sentence": "And the Black Baptist churches founded by Liele, George and their successors became one of the central institutions of African American life, and the ground from which the civil rights movement later grew.",
+          "other": "civil rights movement",
+          "other_id": null,
+          "claim": "influenced: the Black Baptist churches were the ground for the civil rights movement",
+          "match_note": "no census entry"
+        }
+      ],
+      "existing_links": [
+        {
+          "id": "the-baptists--the-black-church-in-america",
+          "from": "the-baptists",
+          "to": "the-black-church-in-america",
+          "type": "gave rise to",
+          "confidence": "Widely Accepted"
+        }
+      ],
+      "raw_ids_in_text": []
+    },
+    {
+      "id": "colonial-latin-american-devotional-catholicism",
+      "name": "Colonial Latin American Devotional Catholicism",
+      "dates": "c. 1600-1810",
+      "relationships": [
+        {
+          "field": "relationsSummary",
+          "sentence": "This continues the earlier missionary Catholicism of Spanish America into its settled, everyday form.",
+          "other": "missionary Catholicism of Spanish America",
+          "other_id": "new-spain-and-andes-mission-born-christianity",
+          "claim": "continued as: continues the earlier missionary Catholicism of Spanish America"
+        },
+        {
+          "field": "relationsSummary",
+          "sentence": "It is the popular piety that the twentieth-century base communities later re-read \"from below.\" The California missions, founded from 1769 under Junípero Serra, belong within this same New Spain-wide devotional world.",
+          "other": "twentieth-century base communities",
+          "other_id": "latin-american-base-communities",
+          "claim": "influenced: popular piety later re-read by the base communities"
+        },
+        {
+          "field": "relationsSummary",
+          "sentence": "It is the popular piety that the twentieth-century base communities later re-read \"from below.\" The California missions, founded from 1769 under Junípero Serra, belong within this same New Spain-wide devotional world.",
+          "other": "California missions (Junípero Serra)",
+          "other_id": null,
+          "claim": "other: the California missions belong within this devotional world",
+          "match_note": "no census entry"
+        },
+        {
+          "field": "longDescription",
+          "sentence": "Once the first missionary generation had passed, Catholicism in Spanish America settled into being the ordinary religion of whole societies, and its real institutions were local: the cofradías, lay confraternities that maintained an altar or an image, buried their members and paid for their funerals, organized by trade, by parish and often by race — with indigenous confraternities and Black brotherhoods running their own devotional life.",
+          "other": "indigenous confraternities and Black brotherhoods",
+          "other_id": null,
+          "claim": "other: indigenous confraternities and Black brotherhoods ran their own devotional life",
+          "match_note": "groups; no census entry"
+        },
+        {
+          "field": "longDescription",
+          "sentence": "Its saints were homegrown: Rose of Lima, canonized in 1671 as the first saint of the Americas, and Martín de Porres, the mixed-race Dominican lay brother of the same city.",
+          "other": "Dominican lay brother (Martín de Porres)",
+          "other_id": "the-dominican-order",
+          "claim": "other: a Dominican lay brother of the same city",
+          "match_note": "approximate: the Dominican entry is medieval; Martín de Porres is 17th-century"
+        },
+        {
+          "field": "legacy",
+          "sentence": "And this popular piety was the ground the base communities of the twentieth century stood on when they began reading Scripture from below.",
+          "other": "twentieth-century base communities",
+          "other_id": "latin-american-base-communities",
+          "claim": "influenced: popular piety was the ground the base communities stood on"
+        }
+      ],
+      "existing_links": [],
+      "raw_ids_in_text": []
+    },
+    {
+      "id": "orthodoxy-under-the-ottomans-1650-1821",
+      "name": "Orthodoxy under the Ottomans — the Second Act",
+      "dates": "1650-1821",
+      "relationships": [
+        {
+          "field": "relationsSummary",
+          "sentence": "This covers Ottoman Orthodoxy's second act: the Synod of Jerusalem under Dositheus in 1672, the East's own answer to the Council of Trent; the century that produced the largest number of neomartyrs; the rise of Phanariot influence; and the abolition of the Serbian patriarchate of Peć in 1766 and the archbishopric of Ohrid in 1767.",
+          "other": "Council of Trent",
+          "other_id": "the-tridentine-church",
+          "claim": "argued against: the East's own answer to the Council of Trent"
+        },
+        {
+          "field": "relationsSummary",
+          "sentence": "This covers Ottoman Orthodoxy's second act: the Synod of Jerusalem under Dositheus in 1672, the East's own answer to the Council of Trent; the century that produced the largest number of neomartyrs; the rise of Phanariot influence; and the abolition of the Serbian patriarchate of Peć in 1766 and the archbishopric of Ohrid in 1767.",
+          "other": "Phanariots",
+          "other_id": null,
+          "claim": "other: the rise of Phanariot influence",
+          "match_note": "group; no census entry"
+        },
+        {
+          "field": "relationsSummary",
+          "sentence": "This covers Ottoman Orthodoxy's second act: the Synod of Jerusalem under Dositheus in 1672, the East's own answer to the Council of Trent; the century that produced the largest number of neomartyrs; the rise of Phanariot influence; and the abolition of the Serbian patriarchate of Peć in 1766 and the archbishopric of Ohrid in 1767.",
+          "other": "Serbian patriarchate of Peć (abolished 1766)",
+          "other_id": "serbian-and-bulgarian-medieval-monasticism",
+          "claim": "other: the Serbian patriarchate of Peć was abolished in 1766",
+          "match_note": "approximate: census entry covers medieval Serbian monasticism, not the 1766 abolition"
+        },
+        {
+          "field": "relationsSummary",
+          "sentence": "This covers Ottoman Orthodoxy's second act: the Synod of Jerusalem under Dositheus in 1672, the East's own answer to the Council of Trent; the century that produced the largest number of neomartyrs; the rise of Phanariot influence; and the abolition of the Serbian patriarchate of Peć in 1766 and the archbishopric of Ohrid in 1767.",
+          "other": "archbishopric of Ohrid (abolished 1767)",
+          "other_id": null,
+          "claim": "other: the archbishopric of Ohrid was abolished in 1767",
+          "match_note": "no census entry"
+        },
+        {
+          "field": "relationsSummary",
+          "sentence": "The Serbian Great Migration of 1690 placed the Karlovci church outside the Ottoman millet system from that date.",
+          "other": "Serbian Great Migration and Karlovci church",
+          "other_id": null,
+          "claim": "other: placed the Karlovci church outside the millet system from 1690",
+          "match_note": "no census entry"
+        },
+        {
+          "field": "longDescription",
+          "sentence": "For a century and a half after 1650 the Orthodox church of the Ottoman Empire was both a church and an arm of the state: the Ecumenical Patriarch in Constantinople answered to the Sultan for the obedience of all Orthodox subjects, collected their taxes and judged their marriages and inheritances.",
+          "other": "Ottoman Sultan",
+          "other_id": null,
+          "claim": "other: the Patriarch answered to the Sultan",
+          "match_note": "state; no census entry"
+        },
+        {
+          "field": "longDescription",
+          "sentence": "And it came increasingly to be held under the influence of the Phanariots, the wealthy Greek families of Constantinople's Phanar quarter who supplied the empire's interpreters and the princes of its Danubian provinces.",
+          "other": "Phanariots",
+          "other_id": null,
+          "claim": "other: the Phanariots supplied interpreters and princes",
+          "match_note": "group; no census entry"
+        },
+        {
+          "field": "longDescription",
+          "sentence": "In 1672 the Synod of Jerusalem, under Patriarch Dositheus, issued a confession answering the Calvinist ideas that had been circulating under an Orthodox name — the East's own equivalent of the West's confessional settlements.",
+          "other": "Calvinist ideas",
+          "other_id": "the-reformed-cities-zurich-and-geneva",
+          "claim": "argued against: the Synod of Jerusalem answered Calvinist ideas",
+          "match_note": "approximate: Reformed cities entry"
+        },
+        {
+          "field": "longDescription",
+          "sentence": "That power also worked against its neighbors: the Serbian patriarchate of Peć was abolished in 1766 and the archbishopric of Ohrid in 1767, both absorbed into Constantinople.",
+          "other": "Serbian patriarchate of Peć (abolished 1766)",
+          "other_id": "serbian-and-bulgarian-medieval-monasticism",
+          "claim": "other: the Serbian patriarchate of Peć was abolished in 1766",
+          "match_note": "approximate: medieval Serbian monasticism entry"
+        },
+        {
+          "field": "longDescription",
+          "sentence": "It ended violently — when the Greek revolt broke out in 1821, Patriarch Gregory V was hanged in his vestments from the gate of his own patriarchate.",
+          "other": "Greek revolt of 1821",
+          "other_id": null,
+          "claim": "other: the Greek revolt of 1821 led to Gregory V's hanging",
+          "match_note": "event; no census entry"
+        },
+        {
+          "field": "why",
+          "sentence": "In 1672 the Synod of Jerusalem answered Calvinist ideas that had been spreading under an Orthodox name, and the arrangement ended violently in 1821, when Patriarch Gregory V was hanged in his vestments from the gate of his own patriarchate — a gate that has stayed welded shut ever since.",
+          "other": "Calvinist ideas",
+          "other_id": "the-reformed-cities-zurich-and-geneva",
+          "claim": "argued against: the Synod of Jerusalem answered Calvinist ideas",
+          "match_note": "approximate: Reformed cities entry"
+        },
+        {
+          "field": "legacy",
+          "sentence": "The arrangement kept Orthodox Christianity intact through centuries of Muslim rule, at the price of tying the church to a foreign state and of Greek ecclesiastical dominance over Slavs and Arabs.",
+          "other": "Slavs and Arabs under Greek dominance",
+          "other_id": null,
+          "claim": "other: Greek ecclesiastical dominance over Slavs and Arabs",
+          "match_note": "peoples; no census entry"
+        },
+        {
+          "field": "legacy",
+          "sentence": "When the empire's Christian provinces became nations in the nineteenth century, each took its own church with it, and the pattern of national Orthodox churches that exists today is the direct result.",
+          "other": "Balkan national churches",
+          "other_id": "orthodoxy-after-1821-balkan-autocephalies",
+          "claim": "continued as: each Christian province took its own church as it became a nation"
+        },
+        {
+          "field": "legacy",
+          "sentence": "A resentment that shaped every Balkan church that came after.",
+          "other": "Balkan churches",
+          "other_id": "orthodoxy-after-1821-balkan-autocephalies",
+          "claim": "influenced: the resentment over Greek dominance shaped every Balkan church"
+        }
+      ],
+      "existing_links": [],
+      "raw_ids_in_text": []
+    },
+    {
+      "id": "catholic-church-ancien-regime",
+      "name": "The Catholic Church of the Ancien Régime",
+      "dates": "1650-1815",
+      "relationships": [
+        {
+          "field": "relationsSummary",
+          "sentence": "This was the era's largest institutional story inside the Catholic Church: the Gallican Articles, the bull Unigenitus, and the Jansenist crisis it set off in France; the expulsion and suppression of the Jesuits between 1759 and 1773; the catastrophe of the French Revolution, which split the clergy between those who swore the required oath and those who refused, and left Pope Pius VI to die a prisoner in 1799; and the Concordat and the standoff between Pius VII and Napoleon that followed, ending with the Jesuits restored in 1814.",
+          "other": "Jansenist crisis in France",
+          "other_id": "port-royal-jansenism",
+          "claim": "other: the Jansenist crisis it set off in France",
+          "match_note": "approximate: Port-Royal entry is the core of the Jansenist movement"
+        },
+        {
+          "field": "relationsSummary",
+          "sentence": "This was the era's largest institutional story inside the Catholic Church: the Gallican Articles, the bull Unigenitus, and the Jansenist crisis it set off in France; the expulsion and suppression of the Jesuits between 1759 and 1773; the catastrophe of the French Revolution, which split the clergy between those who swore the required oath and those who refused, and left Pope Pius VI to die a prisoner in 1799; and the Concordat and the standoff between Pius VII and Napoleon that followed, ending with the Jesuits restored in 1814.",
+          "other": "Jesuits",
+          "other_id": "the-society-of-jesus",
+          "claim": "other: expelled and suppressed the Jesuits between 1759 and 1773"
+        },
+        {
+          "field": "relationsSummary",
+          "sentence": "This was the era's largest institutional story inside the Catholic Church: the Gallican Articles, the bull Unigenitus, and the Jansenist crisis it set off in France; the expulsion and suppression of the Jesuits between 1759 and 1773; the catastrophe of the French Revolution, which split the clergy between those who swore the required oath and those who refused, and left Pope Pius VI to die a prisoner in 1799; and the Concordat and the standoff between Pius VII and Napoleon that followed, ending with the Jesuits restored in 1814.",
+          "other": "French Revolution",
+          "other_id": null,
+          "claim": "other: the French Revolution split the clergy",
+          "match_note": "event; no census entry"
+        },
+        {
+          "field": "relationsSummary",
+          "sentence": "This was the era's largest institutional story inside the Catholic Church: the Gallican Articles, the bull Unigenitus, and the Jansenist crisis it set off in France; the expulsion and suppression of the Jesuits between 1759 and 1773; the catastrophe of the French Revolution, which split the clergy between those who swore the required oath and those who refused, and left Pope Pius VI to die a prisoner in 1799; and the Concordat and the standoff between Pius VII and Napoleon that followed, ending with the Jesuits restored in 1814.",
+          "other": "Napoleon",
+          "other_id": null,
+          "claim": "argued against: a standoff between Pius VII and Napoleon",
+          "match_note": "person; no census entry"
+        },
+        {
+          "field": "relationsSummary",
+          "sentence": "This was the era's largest institutional story inside the Catholic Church: the Gallican Articles, the bull Unigenitus, and the Jansenist crisis it set off in France; the expulsion and suppression of the Jesuits between 1759 and 1773; the catastrophe of the French Revolution, which split the clergy between those who swore the required oath and those who refused, and left Pope Pius VI to die a prisoner in 1799; and the Concordat and the standoff between Pius VII and Napoleon that followed, ending with the Jesuits restored in 1814.",
+          "other": "Jesuits",
+          "other_id": "the-society-of-jesus",
+          "claim": "continued as: the Jesuits restored in 1814"
+        },
+        {
+          "field": "relationsSummary",
+          "sentence": "The same period held the Quietist controversy, a Jansenist current that ran through the eighteenth century, Alphonsus Liguori's founding of the Redemptorists, and the broader current of Catholic Enlightenment thought.",
+          "other": "Quietist controversy",
+          "other_id": "quietist-controversy-molinos-guyon",
+          "claim": "other: the same period held the Quietist controversy"
+        },
+        {
+          "field": "relationsSummary",
+          "sentence": "The same period held the Quietist controversy, a Jansenist current that ran through the eighteenth century, Alphonsus Liguori's founding of the Redemptorists, and the broader current of Catholic Enlightenment thought.",
+          "other": "Jansenist current",
+          "other_id": "port-royal-jansenism",
+          "claim": "other: a Jansenist current ran through the eighteenth century",
+          "match_note": "approximate: Port-Royal entry"
+        },
+        {
+          "field": "relationsSummary",
+          "sentence": "The same period held the Quietist controversy, a Jansenist current that ran through the eighteenth century, Alphonsus Liguori's founding of the Redemptorists, and the broader current of Catholic Enlightenment thought.",
+          "other": "Redemptorists (Alphonsus Liguori)",
+          "other_id": null,
+          "claim": "descent: Alphonsus Liguori founded the Redemptorists",
+          "match_note": "no census entry"
+        },
+        {
+          "field": "relationsSummary",
+          "sentence": "The same period held the Quietist controversy, a Jansenist current that ran through the eighteenth century, Alphonsus Liguori's founding of the Redemptorists, and the broader current of Catholic Enlightenment thought.",
+          "other": "Catholic Enlightenment thought",
+          "other_id": null,
+          "claim": "other: the broader current of Catholic Enlightenment thought",
+          "match_note": "intellectual current; no census entry"
+        },
+        {
+          "field": "longDescription",
+          "sentence": "Rome's condemnation of Jansenism in the bull Unigenitus (1713) turned into a fifty-year political crisis in France, with parlements and bishops fighting over it.",
+          "other": "Jansenism (Unigenitus)",
+          "other_id": "port-royal-jansenism",
+          "claim": "argued against: Rome condemned Jansenism in Unigenitus (1713)",
+          "match_note": "approximate: Port-Royal entry is the core of the movement"
+        },
+        {
+          "field": "longDescription",
+          "sentence": "Rome's condemnation of Jansenism in the bull Unigenitus (1713) turned into a fifty-year political crisis in France, with parlements and bishops fighting over it.",
+          "other": "French parlements and bishops",
+          "other_id": null,
+          "claim": "other: parlements and bishops fought over Unigenitus",
+          "match_note": "groups; no census entry"
+        },
+        {
+          "field": "longDescription",
+          "sentence": "Then the Catholic monarchies turned on the church's most effective order, expelling the Jesuits from Portugal, France, Spain and Naples and forcing the pope to suppress the Society altogether in 1773.",
+          "other": "Jesuits",
+          "other_id": "the-society-of-jesus",
+          "claim": "other: expelled the Jesuits from Portugal, France, Spain and Naples"
+        },
+        {
+          "field": "longDescription",
+          "sentence": "Then the Catholic monarchies turned on the church's most effective order, expelling the Jesuits from Portugal, France, Spain and Naples and forcing the pope to suppress the Society altogether in 1773.",
+          "other": "Jesuits (the Society)",
+          "other_id": "the-society-of-jesus",
+          "claim": "other: forced suppression of the Society in 1773"
+        },
+        {
+          "field": "longDescription",
+          "sentence": "Then came the Revolution: church property nationalized, clergy required to swear to a Civil Constitution that split them into jurors and refractories, thousands killed or driven abroad, and Pope Pius VI carried off to die a French prisoner in 1799.",
+          "other": "Civil Constitution of the Clergy",
+          "other_id": null,
+          "claim": "other: clergy were required to swear to the Civil Constitution",
+          "match_note": "state law; no census entry"
+        },
+        {
+          "field": "longDescription",
+          "sentence": "His successor signed a concordat with Napoleon in 1801, was imprisoned by him in turn, outlived him, and restored the Jesuits in 1814.",
+          "other": "Napoleon",
+          "other_id": null,
+          "claim": "other: signed a concordat with Napoleon in 1801",
+          "match_note": "person; no census entry"
+        },
+        {
+          "field": "longDescription",
+          "sentence": "His successor signed a concordat with Napoleon in 1801, was imprisoned by him in turn, outlived him, and restored the Jesuits in 1814.",
+          "other": "Jesuits",
+          "other_id": "the-society-of-jesus",
+          "claim": "continued as: restored the Jesuits in 1814"
+        },
+        {
+          "field": "why",
+          "sentence": "Rome's condemnation of Jansenism in the bull Unigenitus (1713) set off a fifty-year political crisis in France, and within decades the Catholic monarchies themselves turned on the church's most effective order, forcing the pope to suppress the Jesuits altogether in 1773.",
+          "other": "Jansenism (Unigenitus)",
+          "other_id": "port-royal-jansenism",
+          "claim": "argued against: Rome condemned Jansenism in Unigenitus (1713)",
+          "match_note": "approximate: Port-Royal entry"
+        },
+        {
+          "field": "why",
+          "sentence": "Rome's condemnation of Jansenism in the bull Unigenitus (1713) set off a fifty-year political crisis in France, and within decades the Catholic monarchies themselves turned on the church's most effective order, forcing the pope to suppress the Jesuits altogether in 1773.",
+          "other": "Jesuits",
+          "other_id": "the-society-of-jesus",
+          "claim": "other: forced suppression of the Jesuits in 1773"
+        },
+        {
+          "field": "why",
+          "sentence": "Then came the Revolution — church property seized, clergy split by a forced oath, and Pope Pius VI dying a French prisoner in 1799 — until his successor Pius VII signed a concordat with Napoleon, was imprisoned by him in turn, and lived to restore the Jesuits in 1814.",
+          "other": "Napoleon",
+          "other_id": null,
+          "claim": "other: signed a concordat with Napoleon",
+          "match_note": "person; no census entry"
+        },
+        {
+          "field": "legacy",
+          "sentence": "The ultramontane Catholicism of the nineteenth century is the direct product of this catastrophe.",
+          "other": "ultramontane Catholicism",
+          "other_id": "catholic-church-long-nineteenth-century",
+          "claim": "descent: ultramontane Catholicism is the direct product of this period",
+          "match_note": "approximate: census entry covers the 19th-century Church of Pius IX and Leo XIII"
+        },
+        {
+          "field": "legacy",
+          "sentence": "The suppression and restoration of the Jesuits, the loss of the church lands, and the concordat as a way of settling with a secular state all set terms the church has operated under ever since.",
+          "other": "Jesuits",
+          "other_id": "the-society-of-jesus",
+          "claim": "other: the suppression and restoration of the Jesuits set terms"
+        },
+        {
+          "field": "legacy",
+          "sentence": "The suppression and restoration of the Jesuits, the loss of the church lands, and the concordat as a way of settling with a secular state all set terms the church has operated under ever since.",
+          "other": "secular state (concordat)",
+          "other_id": null,
+          "claim": "other: the concordat set terms for settling with a secular state",
+          "match_note": "state; no census entry"
+        }
+      ],
+      "existing_links": [],
+      "raw_ids_in_text": []
+    },
+    {
+      "id": "restoration-georgian-church-of-england",
+      "name": "The Restoration and Georgian Church of England",
+      "dates": "1660-1815",
+      "relationships": [
+        {
+          "field": "relationsSummary",
+          "sentence": "The restoration of the bishops in 1660, the Act of Uniformity of 1662, and the Great Ejection of roughly two thousand ministers defined church and dissent in a single stroke.",
+          "other": "English Dissent (the Ejection)",
+          "other_id": "english-old-dissent",
+          "claim": "other: the Great Ejection created English Dissent"
+        },
+        {
+          "field": "relationsSummary",
+          "sentence": "The Toleration Act of 1689 produced the nonjurors, and the church founded its first missionary societies, the SPCK in 1698 and the SPG in 1701.",
+          "other": "nonjurors",
+          "other_id": null,
+          "claim": "descent: the Toleration Act produced the nonjurors",
+          "match_note": "no census entry for nonjurors"
+        },
+        {
+          "field": "relationsSummary",
+          "sentence": "The Toleration Act of 1689 produced the nonjurors, and the church founded its first missionary societies, the SPCK in 1698 and the SPG in 1701.",
+          "other": "SPCK and SPG",
+          "other_id": null,
+          "claim": "descent: founded the first missionary societies, SPCK and SPG",
+          "match_note": "no census entry"
+        },
+        {
+          "field": "relationsSummary",
+          "sentence": "This is the church that Methodism grew up inside, and eventually out of.",
+          "other": "Methodism",
+          "other_id": "the-methodist-revival",
+          "claim": "descent: Methodism grew up inside this church and out of it"
+        },
+        {
+          "field": "longDescription",
+          "sentence": "About two thousand refused and were ejected from their livings on a single day, creating English Dissent as a permanent fact.",
+          "other": "English Dissent (ejected ministers)",
+          "other_id": "english-old-dissent",
+          "claim": "broke with: about two thousand ministers were ejected"
+        },
+        {
+          "field": "longDescription",
+          "sentence": "The nonjurors, several hundred clergy including the Archbishop of Canterbury, who would not swear allegiance to William and Mary in 1689 while James II lived, and walked out rather than break an oath.",
+          "other": "nonjurors",
+          "other_id": null,
+          "claim": "broke with: nonjurors refused the oath and walked out",
+          "match_note": "no census entry"
+        },
+        {
+          "field": "longDescription",
+          "sentence": "But it was also the church of the Prayer Book as ordinary people actually knew it, of parish registers and charity schools, and of the first Anglican missionary societies, the SPCK in 1698 and the SPG in 1701.",
+          "other": "SPCK and SPG",
+          "other_id": null,
+          "claim": "descent: the first Anglican missionary societies, SPCK and SPG",
+          "match_note": "no census entry"
+        },
+        {
+          "field": "longDescription",
+          "sentence": "And it was the church John and Charles Wesley were born in, ordained in, and never meant to leave.",
+          "other": "John and Charles Wesley (Methodism)",
+          "other_id": "the-methodist-revival",
+          "claim": "other: the Wesleys were born in, ordained in, and never meant to leave this church",
+          "match_note": "persons; Methodism entry"
+        },
+        {
+          "field": "why",
+          "sentence": "When the monarchy returned in 1660, so did the bishops and the Prayer Book, and the Act of Uniformity of 1662 forced out about two thousand ministers who wouldn't accept both, creating English Dissent as a permanent fact in a single day.",
+          "other": "English Dissent (ejected ministers)",
+          "other_id": "english-old-dissent",
+          "claim": "broke with: about two thousand ministers were forced out"
+        },
+        {
+          "field": "why",
+          "sentence": "The same church founded the first Anglican missionary societies, the SPCK in 1698 and the SPG in 1701, watched several hundred clergy including its own Archbishop of Canterbury walk out rather than break an oath to the old king in 1689, and was the church John and Charles Wesley were born in, ordained in, and never meant to leave.",
+          "other": "SPCK and SPG",
+          "other_id": null,
+          "claim": "descent: founded the first Anglican missionary societies",
+          "match_note": "no census entry"
+        },
+        {
+          "field": "why",
+          "sentence": "The same church founded the first Anglican missionary societies, the SPCK in 1698 and the SPG in 1701, watched several hundred clergy including its own Archbishop of Canterbury walk out rather than break an oath to the old king in 1689, and was the church John and Charles Wesley were born in, ordained in, and never meant to leave.",
+          "other": "nonjurors",
+          "other_id": null,
+          "claim": "broke with: several hundred clergy walked out rather than swear",
+          "match_note": "no census entry"
+        },
+        {
+          "field": "why",
+          "sentence": "The same church founded the first Anglican missionary societies, the SPCK in 1698 and the SPG in 1701, watched several hundred clergy including its own Archbishop of Canterbury walk out rather than break an oath to the old king in 1689, and was the church John and Charles Wesley were born in, ordained in, and never meant to leave.",
+          "other": "John and Charles Wesley (Methodism)",
+          "other_id": "the-methodist-revival",
+          "claim": "other: the church the Wesleys were born in",
+          "match_note": "persons; Methodism entry"
+        },
+        {
+          "field": "legacy",
+          "sentence": "Its missionary societies planted congregations across the Atlantic world and became the institutional seed of the worldwide Anglican Communion.",
+          "other": "Anglican Communion",
+          "other_id": null,
+          "claim": "descent: missionary societies seeded the worldwide Anglican Communion",
+          "match_note": "no census entry"
+        },
+        {
+          "field": "legacy",
+          "sentence": "And the ejection it caused in 1662 gave England a permanent Nonconformist tradition that shaped its politics for two centuries.",
+          "other": "Nonconformist tradition",
+          "other_id": "english-old-dissent",
+          "claim": "descent: the 1662 ejection gave England a permanent Nonconformist tradition",
+          "match_note": "approximate: English Old Dissent entry"
+        }
+      ],
+      "existing_links": [],
+      "raw_ids_in_text": []
+    },
+    {
+      "id": "russian-church-nikon-to-holy-synod",
+      "name": "The Russian Church — Nikon to the Holy Synod",
+      "dates": "1652-1815",
+      "relationships": [
+        {
+          "field": "relationsSummary",
+          "sentence": "Patriarch Nikon's reforms of 1652 and the council of 1666-67 are the establishment side of the story whose other side is the Old Believers, a related but separate tradition born of the same split rather than a successor to this one.",
+          "other": "Old Believers",
+          "other_id": "the-old-believers",
+          "claim": "other: the other side of the story; a related but separate tradition born of the same split"
+        },
+        {
+          "field": "relationsSummary",
+          "sentence": "Peter the Great left the patriarchal office empty from 1700 and replaced it with the Holy Synod in 1721.",
+          "other": "Peter the Great",
+          "other_id": null,
+          "claim": "other: Peter the Great left the patriarchate empty and created the Holy Synod",
+          "match_note": "person (state reform); no census entry"
+        },
+        {
+          "field": "relationsSummary",
+          "sentence": "The state secularized monastic lands in 1764, and in 1686 the Kyiv metropolia was transferred into this church's jurisdiction.",
+          "other": "the state (Catherine II)",
+          "other_id": null,
+          "claim": "other: the state secularized monastic lands",
+          "match_note": "state; no census entry"
+        },
+        {
+          "field": "relationsSummary",
+          "sentence": "The state secularized monastic lands in 1764, and in 1686 the Kyiv metropolia was transferred into this church's jurisdiction.",
+          "other": "Kyiv metropolia",
+          "other_id": "the-kyiv-mohyla-orthodox-revival",
+          "claim": "other: the Kyiv metropolia was transferred to this church in 1686",
+          "match_note": "approximate: Kyiv-Mohyla entry (1615-1700)"
+        },
+        {
+          "field": "relationsSummary",
+          "sentence": "In 1794 it sent the Valaam mission to Alaska, including Herman of Kodiak, and in 1800 it established Edinoverie, a formal arrangement on the shared boundary with the Old Believers.",
+          "other": "Valaam mission to Alaska",
+          "other_id": "alaskan-mission-herman-veniaminov",
+          "claim": "other: sent the Valaam mission to Alaska in 1794",
+          "match_note": "approximate: census entry covers 1824-1906"
+        },
+        {
+          "field": "relationsSummary",
+          "sentence": "In 1794 it sent the Valaam mission to Alaska, including Herman of Kodiak, and in 1800 it established Edinoverie, a formal arrangement on the shared boundary with the Old Believers.",
+          "other": "Edinoverie (1800)",
+          "other_id": null,
+          "claim": "other: established Edinoverie in 1800",
+          "match_note": "no census entry"
+        },
+        {
+          "field": "relationsSummary",
+          "sentence": "In 1794 it sent the Valaam mission to Alaska, including Herman of Kodiak, and in 1800 it established Edinoverie, a formal arrangement on the shared boundary with the Old Believers.",
+          "other": "Old Believers",
+          "other_id": "the-old-believers",
+          "claim": "in contact with: Edinoverie was a formal arrangement on the boundary with the Old Believers"
+        },
+        {
+          "field": "longDescription",
+          "sentence": "Patriarch Nikon, elected in 1652, set out to correct Russian service books against Greek models and to assert the priesthood's authority over the tsar's.",
+          "other": "Greek models",
+          "other_id": "byzantine-church-after-1054",
+          "claim": "influenced: Nikon corrected the service books against Greek models",
+          "match_note": "approximate: Orthodox Church of Constantinople entry"
+        },
+        {
+          "field": "longDescription",
+          "sentence": "And lost both fights: the corrections split the church permanently, and Nikon himself was deposed by the council of 1666-67 that condemned his opponents.",
+          "other": "Old Believers (the split)",
+          "other_id": "the-old-believers",
+          "claim": "other: the corrections split the church permanently"
+        },
+        {
+          "field": "longDescription",
+          "sentence": "And lost both fights: the corrections split the church permanently, and Nikon himself was deposed by the council of 1666-67 that condemned his opponents.",
+          "other": "Nikon's opponents (Old Believers)",
+          "other_id": "the-old-believers",
+          "claim": "argued against: the council condemned Nikon's opponents",
+          "match_note": "approximate: \"opponents\" are the Old Believers in context; the text does not name them"
+        },
+        {
+          "field": "longDescription",
+          "sentence": "Catherine II completed the process in 1764 by confiscating the monastic estates.",
+          "other": "Catherine II",
+          "other_id": null,
+          "claim": "other: Catherine II confiscated the monastic estates",
+          "match_note": "person (state); no census entry"
+        },
+        {
+          "field": "longDescription",
+          "sentence": "The church became, in effect, a department of the imperial government and stayed one for two hundred years.",
+          "other": "imperial government",
+          "other_id": null,
+          "claim": "other: the church became a department of the imperial government",
+          "match_note": "state; no census entry"
+        },
+        {
+          "field": "longDescription",
+          "sentence": "Yet the same church produced Tikhon of Zadonsk's gentle devotional writing, a serious seminary system, and in 1794 sent monks from Valaam across the Pacific to Alaska.",
+          "other": "Valaam mission to Alaska",
+          "other_id": "alaskan-mission-herman-veniaminov",
+          "claim": "other: sent monks from Valaam to Alaska in 1794",
+          "match_note": "approximate: census entry covers 1824-1906"
+        },
+        {
+          "field": "why",
+          "sentence": "Patriarch Nikon tried to correct Russia's service books and assert the church's authority over the tsar in the 1650s, and lost both fights — deposed by the same council that condemned the split his reforms caused.",
+          "other": "Old Believers (the split)",
+          "other_id": "the-old-believers",
+          "claim": "argued against: the council condemned the split his reforms caused"
+        },
+        {
+          "field": "why",
+          "sentence": "Peter the Great settled the larger argument by leaving the patriarchal office empty after 1700 and abolishing it in 1721, replacing it with a Holy Synod watched over by a state official, yet the same church still produced Tikhon of Zadonsk's widely read devotional writing and sent monks from Valaam across the Pacific to Alaska in 1794.",
+          "other": "Peter the Great",
+          "other_id": null,
+          "claim": "other: Peter the Great abolished the patriarchate",
+          "match_note": "person (state reform); no census entry"
+        },
+        {
+          "field": "why",
+          "sentence": "Peter the Great settled the larger argument by leaving the patriarchal office empty after 1700 and abolishing it in 1721, replacing it with a Holy Synod watched over by a state official, yet the same church still produced Tikhon of Zadonsk's widely read devotional writing and sent monks from Valaam across the Pacific to Alaska in 1794.",
+          "other": "Valaam mission to Alaska",
+          "other_id": "alaskan-mission-herman-veniaminov",
+          "claim": "other: sent monks from Valaam to Alaska in 1794",
+          "match_note": "approximate: census entry covers 1824-1906"
+        },
+        {
+          "field": "legacy",
+          "sentence": "Its Alaskan mission planted an Orthodox Christianity that survives among Native communities there to this day, the only Orthodox church established in North America before the nineteenth century.",
+          "other": "Alaskan mission",
+          "other_id": "alaskan-mission-herman-veniaminov",
+          "claim": "continued as: the Alaskan mission planted an Orthodox Christianity that survives"
+        },
+        {
+          "field": "legacy",
+          "sentence": "And the tension it created, an official church tied to the state with intense spiritual life running alongside and underneath it, produced both the Optina elders of the following century and the sharp religious searching of Russian literature.",
+          "other": "Optina elders",
+          "other_id": "the-optina-elders-and-russian-ascetic-renewal",
+          "claim": "descent: the tension produced the Optina elders"
+        },
+        {
+          "field": "legacy",
+          "sentence": "And the tension it created, an official church tied to the state with intense spiritual life running alongside and underneath it, produced both the Optina elders of the following century and the sharp religious searching of Russian literature.",
+          "other": "Russian literature",
+          "other_id": null,
+          "claim": "influenced: the tension produced the religious searching of Russian literature",
+          "match_note": "generic; no census entry"
+        }
+      ],
+      "existing_links": [],
+      "raw_ids_in_text": []
+    },
+    {
+      "id": "church-of-the-desert-huguenots",
+      "name": "The Church of the Desert",
+      "dates": "1685-1787",
+      "relationships": [
+        {
+          "field": "relationsSummary",
+          "sentence": "This is the story of what survived after Louis XIV's 1685 Revocation of the Edict of Nantes outlawed French Protestantism.",
+          "other": "French Protestantism (Huguenots)",
+          "other_id": "the-huguenots",
+          "claim": "other: Louis XIV's revocation outlawed French Protestantism"
+        },
+        {
+          "field": "relationsSummary",
+          "sentence": "The Camisard prophetic uprising belongs to this same story's opening decades.",
+          "other": "Camisard prophetic uprising",
+          "other_id": "camisard-prophetism",
+          "claim": "other: the Camisard uprising belongs to the opening decades of this story"
+        },
+        {
+          "field": "longDescription",
+          "sentence": "When Louis XIV revoked the Edict of Nantes in 1685, French Protestantism was simply abolished.",
+          "other": "French Protestantism (Huguenots)",
+          "other_id": "the-huguenots",
+          "claim": "other: the revocation abolished French Protestantism"
+        },
+        {
+          "field": "longDescription",
+          "sentence": "Its churches were pulled down, its pastors expelled, its people forbidden to emigrate and required to attend Mass.",
+          "other": "Catholic Mass (imposed)",
+          "other_id": null,
+          "claim": "other: Protestants were required to attend Mass",
+          "match_note": "the Catholic church; no single census entry"
+        },
+        {
+          "field": "longDescription",
+          "sentence": "He held a synod, restored ordained ministry and discipline, discouraged the prophesying that had led to the Camisard rising, and founded a seminary at Lausanne to train pastors who went back over the border knowing they could hang for it.",
+          "other": "Camisard prophesying",
+          "other_id": "camisard-prophetism",
+          "claim": "argued against: Antoine Court discouraged the prophesying of the Camisards"
+        },
+        {
+          "field": "legacy",
+          "sentence": "It survived, and it is the direct ancestor of the Reformed Church in France.",
+          "other": "Reformed Church in France",
+          "other_id": null,
+          "claim": "continued as: the Church of the Desert is the direct ancestor of the Reformed Church in France",
+          "match_note": "no census entry"
+        },
+        {
+          "field": "legacy",
+          "sentence": "In the Cévennes the memory is deliberately kept: the Musée du Désert stands in a Camisard leader's birthplace, and an assembly gathers there every September.",
+          "other": "Camisard leader (birthplace museum)",
+          "other_id": "camisard-prophetism",
+          "claim": "other: the Musée du Désert stands in a Camisard leader's birthplace",
+          "match_note": "approximate: place and museum tied to the Camisard entry"
+        }
+      ],
+      "existing_links": [],
+      "raw_ids_in_text": []
+    },
+    {
+      "id": "melkite-greek-catholic-church",
+      "name": "The Melkite Greek Catholic Split",
+      "dates": "1724-1815",
+      "relationships": [
+        {
+          "field": "relationsSummary",
+          "sentence": "At Athanasius III's death the Damascus party elects the pro-Roman Cyril VI Tanas (1724); Constantinople consecrates Sylvester instead; the Antiochian patriarchate splits permanently and the Melkite Greek Catholic communion - alive today - begins; kin-shape to the Union of Brest and the Maronite union, both seated; the Orthodox side of the split continues within the later history of Ottoman-era Orthodoxy.",
+          "other": "Damascus party (pro-Roman)",
+          "other_id": null,
+          "claim": "other: Damascus elected the pro-Roman Cyril VI Tanas",
+          "match_note": "group and person; no census entry"
+        },
+        {
+          "field": "relationsSummary",
+          "sentence": "At Athanasius III's death the Damascus party elects the pro-Roman Cyril VI Tanas (1724); Constantinople consecrates Sylvester instead; the Antiochian patriarchate splits permanently and the Melkite Greek Catholic communion - alive today - begins; kin-shape to the Union of Brest and the Maronite union, both seated; the Orthodox side of the split continues within the later history of Ottoman-era Orthodoxy.",
+          "other": "Constantinople (Sylvester)",
+          "other_id": "orthodoxy-under-the-ottomans-1650-1821",
+          "claim": "argued against: Constantinople consecrated a rival, Sylvester, instead",
+          "match_note": "approximate: Ottoman Orthodoxy II covers the Constantinople patriarchate of the period"
+        },
+        {
+          "field": "relationsSummary",
+          "sentence": "At Athanasius III's death the Damascus party elects the pro-Roman Cyril VI Tanas (1724); Constantinople consecrates Sylvester instead; the Antiochian patriarchate splits permanently and the Melkite Greek Catholic communion - alive today - begins; kin-shape to the Union of Brest and the Maronite union, both seated; the Orthodox side of the split continues within the later history of Ottoman-era Orthodoxy.",
+          "other": "Antiochian patriarchate",
+          "other_id": "melkite-arabic-christianity",
+          "claim": "descent: the Antiochian patriarchate split; the Melkite Greek Catholic communion begins",
+          "match_note": "approximate: census Melkites (c. 700-1009) is the earlier body of the same community"
+        },
+        {
+          "field": "relationsSummary",
+          "sentence": "At Athanasius III's death the Damascus party elects the pro-Roman Cyril VI Tanas (1724); Constantinople consecrates Sylvester instead; the Antiochian patriarchate splits permanently and the Melkite Greek Catholic communion - alive today - begins; kin-shape to the Union of Brest and the Maronite union, both seated; the Orthodox side of the split continues within the later history of Ottoman-era Orthodoxy.",
+          "other": "Union of Brest",
+          "other_id": "the-union-of-brest-and-ruthenian-greek-catholic-",
+          "claim": "other: kin-shape to the Union of Brest"
+        },
+        {
+          "field": "relationsSummary",
+          "sentence": "At Athanasius III's death the Damascus party elects the pro-Roman Cyril VI Tanas (1724); Constantinople consecrates Sylvester instead; the Antiochian patriarchate splits permanently and the Melkite Greek Catholic communion - alive today - begins; kin-shape to the Union of Brest and the Maronite union, both seated; the Orthodox side of the split continues within the later history of Ottoman-era Orthodoxy.",
+          "other": "Maronite union",
+          "other_id": "maronite-christianity",
+          "claim": "other: kin-shape to the Maronite union",
+          "match_note": "approximate: era-5 Maronite entry covers the union period"
+        },
+        {
+          "field": "relationsSummary",
+          "sentence": "At Athanasius III's death the Damascus party elects the pro-Roman Cyril VI Tanas (1724); Constantinople consecrates Sylvester instead; the Antiochian patriarchate splits permanently and the Melkite Greek Catholic communion - alive today - begins; kin-shape to the Union of Brest and the Maronite union, both seated; the Orthodox side of the split continues within the later history of Ottoman-era Orthodoxy.",
+          "other": "Ottoman-era Orthodoxy",
+          "other_id": "orthodoxy-under-the-ottomans-1650-1821",
+          "claim": "continued as: the Orthodox side continues within Ottoman-era Orthodoxy",
+          "match_note": "approximate: Ottoman era spans multiple census entries"
+        },
+        {
+          "field": "longDescription",
+          "sentence": "When the Patriarch of Antioch died in 1724, the Christians of Damascus elected Cyril VI Tanas, who favored union with Rome.",
+          "other": "Christians of Damascus (pro-Roman election)",
+          "other_id": null,
+          "claim": "other: Damascus Christians elected a pro-Roman patriarch",
+          "match_note": "group; no census entry"
+        },
+        {
+          "field": "longDescription",
+          "sentence": "Constantinople refused to accept him and consecrated a rival, Sylvester, a Greek monk from Cyprus.",
+          "other": "Constantinople",
+          "other_id": "orthodoxy-under-the-ottomans-1650-1821",
+          "claim": "argued against: Constantinople refused and consecrated a rival",
+          "match_note": "approximate: Ottoman Orthodoxy II entry"
+        },
+        {
+          "field": "longDescription",
+          "sentence": "What followed was the permanent division of one Arabic-speaking, Byzantine-rite community into two churches — one in communion with Rome, recognized by the pope in 1729, and one with Constantinople — sharing the same liturgy, the same language and frequently the same families.",
+          "other": "the pope (Rome)",
+          "other_id": null,
+          "claim": "other: the pope recognized Cyril's line in 1729",
+          "match_note": "the papacy; no single census entry"
+        },
+        {
+          "field": "longDescription",
+          "sentence": "The Catholic side, based at Damascus, Aleppo and the monasteries of Mount Lebanon, was pressed hard by Ottoman authorities acting on Orthodox complaints, and was not granted a recognized civil standing of its own until well into the nineteenth century.",
+          "other": "Orthodox complaints",
+          "other_id": "orthodoxy-under-the-ottomans-1650-1821",
+          "claim": "argued against: Orthodox complaints led Ottoman authorities to press the Catholic side",
+          "match_note": "approximate: Ottoman Orthodoxy II entry"
+        },
+        {
+          "field": "longDescription",
+          "sentence": "The Catholic side, based at Damascus, Aleppo and the monasteries of Mount Lebanon, was pressed hard by Ottoman authorities acting on Orthodox complaints, and was not granted a recognized civil standing of its own until well into the nineteenth century.",
+          "other": "Ottoman authorities",
+          "other_id": null,
+          "claim": "argued against: Ottoman authorities pressed the Catholic side",
+          "match_note": "state; no census entry"
+        },
+        {
+          "field": "why",
+          "sentence": "When the Patriarch of Antioch died in 1724, Damascus elected Cyril VI Tanas, who favored union with Rome, but Constantinople refused to accept him and consecrated a rival instead — permanently splitting one Arabic-speaking, Byzantine-rite community into two churches that share the same liturgy, language, and often the same families to this day.",
+          "other": "Constantinople",
+          "other_id": "orthodoxy-under-the-ottomans-1650-1821",
+          "claim": "argued against: Constantinople refused and consecrated a rival",
+          "match_note": "approximate: Ottoman Orthodoxy II entry"
+        },
+        {
+          "field": "why",
+          "sentence": "Rome recognized Cyril's line in 1729, and the resulting Melkite Greek Catholic church was pressed hard by Ottoman authorities for generations before gaining any recognized civil standing of its own.",
+          "other": "Rome",
+          "other_id": null,
+          "claim": "other: Rome recognized Cyril's line in 1729",
+          "match_note": "the papacy; no single census entry"
+        },
+        {
+          "field": "why",
+          "sentence": "Rome recognized Cyril's line in 1729, and the resulting Melkite Greek Catholic church was pressed hard by Ottoman authorities for generations before gaining any recognized civil standing of its own.",
+          "other": "Ottoman authorities",
+          "other_id": null,
+          "claim": "argued against: Ottoman authorities pressed the Catholic side for generations",
+          "match_note": "state; no census entry"
+        },
+        {
+          "field": "legacy",
+          "sentence": "The Greek Orthodox Patriarchate of Antioch continues alongside it.",
+          "other": "Greek Orthodox Patriarchate of Antioch",
+          "other_id": null,
+          "claim": "in contact with: the Orthodox patriarchate continues alongside the Melkites",
+          "match_note": "no census entry for the Greek Orthodox Patriarchate of Antioch"
+        },
+        {
+          "field": "legacy",
+          "sentence": "The split also fixed a pattern that recurs across the Christian East — an Eastern-rite church in union with Rome standing beside its Orthodox mother church, with all the ordinary difficulty that creates.",
+          "other": "Eastern-rite churches in union with Rome (pattern)",
+          "other_id": null,
+          "claim": "other: a pattern across the Christian East of union churches beside Orthodox mother churches",
+          "match_note": "pattern; no census entry"
+        }
+      ],
+      "existing_links": [
+        {
+          "id": "melkite-arabic-christianity--melkite-greek-catholic-church",
+          "from": "melkite-arabic-christianity",
+          "to": "melkite-greek-catholic-church",
+          "type": "gave rise to",
+          "confidence": "Dominant Modern Reconstruction"
+        }
+      ],
+      "raw_ids_in_text": []
+    },
+    {
+      "id": "armenian-christianity-era-8",
+      "name": "Armenian Christianity — the Mekhitarists and the Catholic Patriarchate",
+      "dates": "c. 1700-1815",
+      "relationships": [
+        {
+          "field": "relationsSummary",
+          "sentence": "Inside the Ottoman millet system, tension grew between the Armenian Apostolic Church and Armenians in communion with Rome.",
+          "other": "Armenian Apostolic Church",
+          "other_id": null,
+          "claim": "argued against: tension grew between the Apostolic Church and Armenians in communion with Rome",
+          "match_note": "no census entry for the 18th-century Armenian Apostolic Church"
+        },
+        {
+          "field": "relationsSummary",
+          "sentence": "In 1742 Benedict XIV confirmed Abraham Petros I as Catholic patriarch of Cilicia, with a seat established at Bzommar in 1750.",
+          "other": "Benedict XIV (the papacy)",
+          "other_id": null,
+          "claim": "other: Benedict XIV confirmed a Catholic patriarch of Cilicia",
+          "match_note": "the papacy; no single census entry"
+        },
+        {
+          "field": "longDescription",
+          "sentence": "Driven out of Ottoman territory, he and his monks were given the small island of San Lazzaro in the Venetian lagoon in 1717, and turned it into one of the great centers of Armenian learning — a press, a library of thousands of manuscripts, and the dictionaries and translations that effectively created modern Armenian lexicography.",
+          "other": "Ottoman authorities",
+          "other_id": null,
+          "claim": "argued against: Mekhitar and his monks were driven out of Ottoman territory",
+          "match_note": "state; no census entry"
+        },
+        {
+          "field": "longDescription",
+          "sentence": "Driven out of Ottoman territory, he and his monks were given the small island of San Lazzaro in the Venetian lagoon in 1717, and turned it into one of the great centers of Armenian learning — a press, a library of thousands of manuscripts, and the dictionaries and translations that effectively created modern Armenian lexicography.",
+          "other": "Venetian Republic",
+          "other_id": null,
+          "claim": "other: the Venetian Republic gave the monks the island of San Lazzaro",
+          "match_note": "state; no census entry"
+        },
+        {
+          "field": "longDescription",
+          "sentence": "Meanwhile, inside the Ottoman capital, the growing number of Armenians in communion with Rome created a problem the millet system had no room for.",
+          "other": "Ottoman millet system",
+          "other_id": null,
+          "claim": "other: the millet system had no room for Catholic Armenians",
+          "match_note": "state system; no census entry"
+        },
+        {
+          "field": "longDescription",
+          "sentence": "In 1742 Benedict XIV confirmed Abraham Petros I as Catholic patriarch of Cilicia, with a seat established at Bzommar in Mount Lebanon in 1750.",
+          "other": "Benedict XIV (the papacy)",
+          "other_id": null,
+          "claim": "other: Benedict XIV confirmed Abraham Petros I as Catholic patriarch of Cilicia",
+          "match_note": "the papacy; no single census entry"
+        },
+        {
+          "field": "longDescription",
+          "sentence": "The Armenian Apostolic Church remained overwhelmingly the larger body, but from that point there were two Armenian churches, and the argument between them was fought out in the politics of Constantinople.",
+          "other": "Armenian Apostolic Church",
+          "other_id": null,
+          "claim": "other: the Apostolic Church remained the larger body",
+          "match_note": "no census entry for the 18th-century Armenian Apostolic Church"
+        },
+        {
+          "field": "why",
+          "sentence": "Meanwhile, inside the Ottoman capital, Armenians in communion with Rome grew numerous enough that Benedict XIV confirmed a separate Armenian Catholic patriarch in 1742, seated at Bzommar in Mount Lebanon from 1750.",
+          "other": "Benedict XIV (the papacy)",
+          "other_id": null,
+          "claim": "other: Benedict XIV confirmed a separate Armenian Catholic patriarch",
+          "match_note": "the papacy; no single census entry"
+        },
+        {
+          "field": "legacy",
+          "sentence": "The Mekhitarist monastery on San Lazzaro degli Armeni continues, with a library of some four and a half thousand Armenian manuscripts, and receives visitors by arrangement — Lord Byron rowed out to it in 1816 to learn Armenian and helped the monks with a grammar.",
+          "other": "Lord Byron",
+          "other_id": null,
+          "claim": "in contact with: rowed out to San Lazzaro in 1816 to learn Armenian",
+          "match_note": "person; no census entry"
+        },
+        {
+          "field": "legacy",
+          "sentence": "And the Mekhitarists' printing and philology laid much of the groundwork for the nineteenth-century Armenian cultural revival, the Zartonk.",
+          "other": "Zartonk (Armenian cultural revival)",
+          "other_id": "armenian-christianity-zartonk",
+          "claim": "influenced: the Mekhitarists' printing and philology laid the groundwork for the Zartonk"
+        }
+      ],
+      "existing_links": [],
+      "raw_ids_in_text": []
+    },
+    {
+      "id": "church-of-utrecht",
+      "name": "The Church of Utrecht",
+      "dates": "1723-1815",
+      "relationships": [
+        {
+          "field": "relationsSummary",
+          "sentence": "This church grew out of the Jansenist quarrel: the Utrecht cathedral chapter elected Cornelius Steenoven without Rome's approval in 1723, and Dominique Varlet consecrated him in 1724.",
+          "other": "Jansenist quarrel",
+          "other_id": "port-royal-jansenism",
+          "claim": "descent: grew out of the Jansenist quarrel",
+          "match_note": "approximate: Port-Royal entry is the core of the movement"
+        },
+        {
+          "field": "relationsSummary",
+          "sentence": "This church grew out of the Jansenist quarrel: the Utrecht cathedral chapter elected Cornelius Steenoven without Rome's approval in 1723, and Dominique Varlet consecrated him in 1724.",
+          "other": "Rome",
+          "other_id": null,
+          "claim": "broke with: elected an archbishop without Rome's approval",
+          "match_note": "the papacy; no single census entry"
+        },
+        {
+          "field": "relationsSummary",
+          "sentence": "This church grew out of the Jansenist quarrel: the Utrecht cathedral chapter elected Cornelius Steenoven without Rome's approval in 1723, and Dominique Varlet consecrated him in 1724.",
+          "other": "Dominique Varlet",
+          "other_id": null,
+          "claim": "other: a French missionary bishop consecrated him in 1724",
+          "match_note": "person; no census entry"
+        },
+        {
+          "field": "relationsSummary",
+          "sentence": "The small communion that resulted survived and became the root of the later Old Catholic Union of Utrecht.",
+          "other": "Old Catholic Union of Utrecht",
+          "other_id": "old-catholic-churches-union-of-utrecht",
+          "claim": "descent: became the root of the Old Catholic Union of Utrecht"
+        },
+        {
+          "field": "longDescription",
+          "sentence": "The Catholic Church in the Dutch Republic was a church without legal standing, tolerated in hidden chapels, and its clergy had absorbed a good deal of the Jansenist temper of the age.",
+          "other": "Jansenist temper",
+          "other_id": "port-royal-jansenism",
+          "claim": "influenced: the clergy had absorbed the Jansenist temper",
+          "match_note": "approximate: Port-Royal entry"
+        },
+        {
+          "field": "longDescription",
+          "sentence": "When Rome refused for years to confirm any archbishop for Utrecht, the cathedral chapter fell back on what it held to be its own ancient right and, in 1723, elected Cornelius Steenoven itself.",
+          "other": "Rome",
+          "other_id": null,
+          "claim": "argued against: Rome refused for years to confirm an archbishop",
+          "match_note": "the papacy; no single census entry"
+        },
+        {
+          "field": "longDescription",
+          "sentence": "A French missionary bishop, Dominique Marie Varlet — himself already in trouble with Rome — consecrated him in 1724, which gave the small church a valid succession and a permanent breach with the papacy in the same act.",
+          "other": "Dominique Marie Varlet",
+          "other_id": null,
+          "claim": "other: a French bishop consecrated Steenoven in 1724",
+          "match_note": "person; no census entry"
+        },
+        {
+          "field": "longDescription",
+          "sentence": "A French missionary bishop, Dominique Marie Varlet — himself already in trouble with Rome — consecrated him in 1724, which gave the small church a valid succession and a permanent breach with the papacy in the same act.",
+          "other": "the papacy",
+          "other_id": null,
+          "claim": "broke with: a permanent breach with the papacy",
+          "match_note": "the papacy; no single census entry"
+        },
+        {
+          "field": "why",
+          "sentence": "When Rome refused for years to confirm an archbishop for the tolerated but legally unrecognized Catholic church of the Dutch Republic, its cathedral chapter fell back on what it held to be its own ancient right and elected Cornelius Steenoven itself in 1723.",
+          "other": "Rome",
+          "other_id": null,
+          "claim": "argued against: Rome refused to confirm an archbishop",
+          "match_note": "the papacy; no single census entry"
+        },
+        {
+          "field": "why",
+          "sentence": "A French missionary bishop, Dominique Varlet — already in trouble with Rome himself — consecrated him the following year, giving the small church a valid succession and a permanent breach with the papacy in the same act, though it kept the Catholic faith in everything else.",
+          "other": "Dominique Varlet",
+          "other_id": null,
+          "claim": "other: a French bishop, already in trouble with Rome, consecrated him",
+          "match_note": "person; no census entry"
+        },
+        {
+          "field": "legacy",
+          "sentence": "When the First Vatican Council defined papal infallibility in 1870, Catholics in Germany, Switzerland and Austria who rejected the definition needed bishops, and Utrecht — the one Western church with an unquestioned Catholic succession outside Rome — supplied them.",
+          "other": "First Vatican Council",
+          "other_id": null,
+          "claim": "broke with: the Council's definition of papal infallibility prompted the split",
+          "match_note": "event; no census entry"
+        },
+        {
+          "field": "legacy",
+          "sentence": "When the First Vatican Council defined papal infallibility in 1870, Catholics in Germany, Switzerland and Austria who rejected the definition needed bishops, and Utrecht — the one Western church with an unquestioned Catholic succession outside Rome — supplied them.",
+          "other": "Old Catholic churches",
+          "other_id": "old-catholic-churches-union-of-utrecht",
+          "claim": "descent: Catholics who rejected the definition needed bishops from Utrecht"
+        },
+        {
+          "field": "legacy",
+          "sentence": "The resulting Old Catholic churches bound themselves together in the Declaration of Utrecht in 1889, and that Union of Utrecht continues today, in full communion with the Anglican churches since 1931.",
+          "other": "Old Catholic Union of Utrecht",
+          "other_id": "old-catholic-churches-union-of-utrecht",
+          "claim": "continued as: the Old Catholic churches bound themselves together in 1889"
+        },
+        {
+          "field": "legacy",
+          "sentence": "The resulting Old Catholic churches bound themselves together in the Declaration of Utrecht in 1889, and that Union of Utrecht continues today, in full communion with the Anglican churches since 1931.",
+          "other": "Anglican churches",
+          "other_id": "victorian-church-of-england",
+          "claim": "in contact with: in full communion with the Anglican churches since 1931",
+          "match_note": "approximate: generic Anglican communion; Victorian C of E is the nearest census entry"
+        }
+      ],
+      "existing_links": [],
+      "raw_ids_in_text": []
+    },
+    {
+      "id": "english-old-dissent",
+      "name": "English Old Dissent — Presbyterians and Congregationalists",
+      "dates": "1662-1815",
+      "relationships": [
+        {
+          "field": "relationsSummary",
+          "sentence": "The roughly two thousand ministers ejected from the Church of England in 1662 built a lasting tradition: the dissenting academies, Isaac Watts and the hymn revolution he began, and the 1719 Salters' Hall meeting, after which many Presbyterian congregations drifted toward Arian and then Unitarian belief while the Congregationalists stayed orthodox and were reinvigorated by the eighteenth-century revival.",
+          "other": "Church of England",
+          "other_id": "restoration-georgian-church-of-england",
+          "claim": "broke with: ejected from the Church of England in 1662"
+        },
+        {
+          "field": "relationsSummary",
+          "sentence": "The roughly two thousand ministers ejected from the Church of England in 1662 built a lasting tradition: the dissenting academies, Isaac Watts and the hymn revolution he began, and the 1719 Salters' Hall meeting, after which many Presbyterian congregations drifted toward Arian and then Unitarian belief while the Congregationalists stayed orthodox and were reinvigorated by the eighteenth-century revival.",
+          "other": "Arian belief",
+          "other_id": null,
+          "claim": "other: drifted toward Arian belief",
+          "match_note": "generic; no census entry for 18th-century Arianism"
+        },
+        {
+          "field": "relationsSummary",
+          "sentence": "The roughly two thousand ministers ejected from the Church of England in 1662 built a lasting tradition: the dissenting academies, Isaac Watts and the hymn revolution he began, and the 1719 Salters' Hall meeting, after which many Presbyterian congregations drifted toward Arian and then Unitarian belief while the Congregationalists stayed orthodox and were reinvigorated by the eighteenth-century revival.",
+          "other": "Unitarian belief",
+          "other_id": "early-american-unitarians-universalists",
+          "claim": "other: drifted toward Unitarian belief",
+          "match_note": "approximate: English Presbyterian Unitarianism is not the American body"
+        },
+        {
+          "field": "relationsSummary",
+          "sentence": "The roughly two thousand ministers ejected from the Church of England in 1662 built a lasting tradition: the dissenting academies, Isaac Watts and the hymn revolution he began, and the 1719 Salters' Hall meeting, after which many Presbyterian congregations drifted toward Arian and then Unitarian belief while the Congregationalists stayed orthodox and were reinvigorated by the eighteenth-century revival.",
+          "other": "eighteenth-century revival",
+          "other_id": null,
+          "claim": "influenced: the Congregationalists were reinvigorated by the eighteenth-century revival",
+          "match_note": "unspecified revival; not matched"
+        },
+        {
+          "field": "relationsSummary",
+          "sentence": "Together with the Quakers and the Baptists, this tradition makes up the wider family of English Dissent.",
+          "other": "Quakers",
+          "other_id": "the-quakers-religious-society-of-friends",
+          "claim": "in contact with: part of the wider family of English Dissent with the Quakers"
+        },
+        {
+          "field": "relationsSummary",
+          "sentence": "Together with the Quakers and the Baptists, this tradition makes up the wider family of English Dissent.",
+          "other": "Baptists",
+          "other_id": "the-baptists",
+          "claim": "in contact with: part of the wider family of English Dissent with the Baptists"
+        },
+        {
+          "field": "longDescription",
+          "sentence": "Isaac Watts, a Congregational minister, broke the convention that only the Psalms could be sung in worship and wrote hymns instead, which is why English-speaking Christians sing 'When I Survey the Wondrous Cross' and 'Joy to the World'.",
+          "other": "psalm-only singing convention",
+          "other_id": null,
+          "claim": "broke with: Watts broke the convention that only the Psalms could be sung",
+          "match_note": "practice; no census entry"
+        },
+        {
+          "field": "longDescription",
+          "sentence": "The tradition also had a fault line: at Salters' Hall in London in 1719 a majority of Dissenting ministers declined to require subscription to a trinitarian formula, and over the following century many English Presbyterian congregations moved toward Arian and then Unitarian belief, while the Congregationalists stayed orthodox and were reinvigorated by the revival.",
+          "other": "Arian belief",
+          "other_id": null,
+          "claim": "other: moved toward Arian belief",
+          "match_note": "generic; no census entry"
+        },
+        {
+          "field": "longDescription",
+          "sentence": "The tradition also had a fault line: at Salters' Hall in London in 1719 a majority of Dissenting ministers declined to require subscription to a trinitarian formula, and over the following century many English Presbyterian congregations moved toward Arian and then Unitarian belief, while the Congregationalists stayed orthodox and were reinvigorated by the revival.",
+          "other": "Unitarian belief",
+          "other_id": "early-american-unitarians-universalists",
+          "claim": "other: moved toward Unitarian belief",
+          "match_note": "approximate: English Presbyterian Unitarianism is not the American body"
+        },
+        {
+          "field": "why",
+          "sentence": "About two thousand ministers were put out of the Church of England on a single day in 1662, and the Presbyterian and Congregationalist traditions that grew from the ejection built their own dissenting academies, teaching mathematics and modern languages when Oxford and Cambridge largely didn't.",
+          "other": "Church of England",
+          "other_id": "restoration-georgian-church-of-england",
+          "claim": "broke with: ministers were put out of the Church of England"
+        },
+        {
+          "field": "why",
+          "sentence": "Isaac Watts, one of their ministers, broke the old rule that only the Psalms could be sung in worship and wrote hymns instead, while a 1719 meeting at Salters' Hall split the tradition quietly: many English Presbyterian congregations drifted over the following century toward Arian and then Unitarian belief, while the Congregationalists stayed orthodox.",
+          "other": "Arian belief",
+          "other_id": null,
+          "claim": "other: drifted toward Arian belief",
+          "match_note": "generic; no census entry"
+        },
+        {
+          "field": "why",
+          "sentence": "Isaac Watts, one of their ministers, broke the old rule that only the Psalms could be sung in worship and wrote hymns instead, while a 1719 meeting at Salters' Hall split the tradition quietly: many English Presbyterian congregations drifted over the following century toward Arian and then Unitarian belief, while the Congregationalists stayed orthodox.",
+          "other": "Unitarian belief",
+          "other_id": "early-american-unitarians-universalists",
+          "claim": "other: drifted toward Unitarian belief",
+          "match_note": "approximate: English Presbyterian Unitarianism is not the American body"
+        },
+        {
+          "field": "legacy",
+          "sentence": "English Congregationalism ran on into the United Reformed Church and the Congregational Federation, carrying the gathered-church principle into the modern world.",
+          "other": "United Reformed Church and Congregational Federation",
+          "other_id": null,
+          "claim": "continued as: English Congregationalism ran on into the URC and the Congregational Federation",
+          "match_note": "no census entry"
+        },
+        {
+          "field": "legacy",
+          "sentence": "The Presbyterian congregations that had moved toward Unitarianism became the core of British Unitarianism.",
+          "other": "British Unitarianism",
+          "other_id": null,
+          "claim": "continued as: the Unitarian-leaning congregations became the core of British Unitarianism",
+          "match_note": "no census entry; the American U&U entries are a different tradition"
+        }
+      ],
+      "existing_links": [],
+      "raw_ids_in_text": []
+    },
+    {
+      "id": "early-american-unitarians-universalists",
+      "name": "Early American Unitarians & Universalists",
+      "dates": "1770-1815",
+      "relationships": [
+        {
+          "field": "relationsSummary",
+          "sentence": "In 1785 King's Chapel in Boston revised its prayer book to remove the Trinity.",
+          "other": "King's Chapel (Boston)",
+          "other_id": null,
+          "claim": "other: King's Chapel revised its prayer book to remove the Trinity",
+          "match_note": "congregation; no census entry"
+        },
+        {
+          "field": "relationsSummary",
+          "sentence": "English Unitarian precedent came earlier still, with the opening of the Essex Street Chapel in London in 1774.",
+          "other": "English Unitarian precedent (Essex Street Chapel)",
+          "other_id": null,
+          "claim": "influenced: English Unitarian precedent came earlier, from Essex Street Chapel in London",
+          "match_note": "no census entry"
+        },
+        {
+          "field": "relationsSummary",
+          "sentence": "Both threads only became formal denominations later, with the American Unitarian Association founded in 1825.",
+          "other": "American Unitarian Association",
+          "other_id": "american-unitarianism-universalism-consolidations",
+          "claim": "continued as: the Unitarian thread became the American Unitarian Association in 1825"
+        },
+        {
+          "field": "longDescription",
+          "sentence": "The Unitarian thread came from inside New England Congregationalism and from English precedent — Theophilus Lindsey opened the Essex Street Chapel in London in 1774, and in 1785 King's Chapel in Boston, an Anglican congregation left leaderless by the Revolution, revised its Book of Common Prayer to remove the Trinity.",
+          "other": "New England Congregationalism",
+          "other_id": null,
+          "claim": "descent: the Unitarian thread came from inside New England Congregationalism",
+          "match_note": "no census entry; English Old Dissent covers English Congregationalists only"
+        },
+        {
+          "field": "longDescription",
+          "sentence": "The Unitarian thread came from inside New England Congregationalism and from English precedent — Theophilus Lindsey opened the Essex Street Chapel in London in 1774, and in 1785 King's Chapel in Boston, an Anglican congregation left leaderless by the Revolution, revised its Book of Common Prayer to remove the Trinity.",
+          "other": "Theophilus Lindsey (Essex Street Chapel)",
+          "other_id": null,
+          "claim": "influenced: English precedent: Lindsey opened the Essex Street Chapel in 1774",
+          "match_note": "person and chapel; no census entry"
+        },
+        {
+          "field": "longDescription",
+          "sentence": "The Unitarian thread came from inside New England Congregationalism and from English precedent — Theophilus Lindsey opened the Essex Street Chapel in London in 1774, and in 1785 King's Chapel in Boston, an Anglican congregation left leaderless by the Revolution, revised its Book of Common Prayer to remove the Trinity.",
+          "other": "Anglican congregation (King's Chapel)",
+          "other_id": "restoration-georgian-church-of-england",
+          "claim": "in contact with: an Anglican congregation revised its prayer book",
+          "match_note": "approximate: Georgian C of E entry is the Church of England of the period"
+        },
+        {
+          "field": "why",
+          "sentence": "John Murray, an English preacher who believed God would finally save everyone, gathered a Universalist congregation at Gloucester, Massachusetts in 1779, while in 1785 King's Chapel in Boston — an Anglican congregation left leaderless by the Revolution — revised its own prayer book to remove the Trinity, years before either movement had an actual denomination.",
+          "other": "Anglican congregation (King's Chapel)",
+          "other_id": "restoration-georgian-church-of-england",
+          "claim": "in contact with: an Anglican congregation revised its prayer book to remove the Trinity",
+          "match_note": "approximate: Georgian C of E entry"
+        },
+        {
+          "field": "legacy",
+          "sentence": "Both became denominations in the following decade — the American Unitarian Association in 1825, the Universalists consolidating their conventions.",
+          "other": "American Unitarian Association",
+          "other_id": "american-unitarianism-universalism-consolidations",
+          "claim": "continued as: both became denominations, the AUA in 1825"
+        },
+        {
+          "field": "legacy",
+          "sentence": "And in 1961 the two merged into the Unitarian Universalist Association, which continues.",
+          "other": "Unitarian Universalist Association",
+          "other_id": "american-unitarianism-universalism-consolidations",
+          "claim": "continued as: the two merged into the UUA in 1961",
+          "match_note": "approximate: consolidations entry (era 9) covers the American body"
+        },
+        {
+          "field": "legacy",
+          "sentence": "Harvard, the Transcendentalists, and a great deal of American reform work in education, prisons and abolition came out of this milieu.",
+          "other": "Transcendentalists",
+          "other_id": null,
+          "claim": "influenced: the Transcendentalists came out of this milieu",
+          "match_note": "no census entry"
+        },
+        {
+          "field": "legacy",
+          "sentence": "Harvard, the Transcendentalists, and a great deal of American reform work in education, prisons and abolition came out of this milieu.",
+          "other": "American reform work (education, prisons, abolition)",
+          "other_id": null,
+          "claim": "influenced: reform work came out of this milieu",
+          "match_note": "generic; no census entry"
+        },
+        {
+          "field": "legacy",
+          "sentence": "King's Chapel in Boston still uses a descendant of its 1785 prayer book.",
+          "other": "King's Chapel (Boston)",
+          "other_id": null,
+          "claim": "continued as: King's Chapel still uses a descendant of its 1785 prayer book",
+          "match_note": "congregation; no census entry"
+        }
+      ],
+      "existing_links": [],
+      "raw_ids_in_text": []
+    },
+    {
+      "id": "ruthenian-uniate-18th-century",
+      "name": "The Ruthenian Uniate Church — Zamość to the Partitions",
+      "dates": "1700-1815",
+      "relationships": [
+        {
+          "field": "relationsSummary",
+          "sentence": "The Synod of Zamość in 1720 consolidated the church, importing Latin devotional practices into its Byzantine rite, at what became its numerical peak.",
+          "other": "Latin (Roman) devotional practices",
+          "other_id": "the-tridentine-church",
+          "claim": "influenced: imported Latin devotional practices into the Byzantine rite",
+          "match_note": "approximate: generic Roman Catholic devotion; the Tridentine entry is the nearest"
+        },
+        {
+          "field": "relationsSummary",
+          "sentence": "The partitions of Poland between 1772 and 1795 placed most of its people under Catherine II's Russia, whose forced-reversion campaigns of 1794-96 stripped away most of its parishes within two years.",
+          "other": "Russia (Catherine II)",
+          "other_id": null,
+          "claim": "other: the partitions placed most of its people under Russia",
+          "match_note": "state; no census entry"
+        },
+        {
+          "field": "relationsSummary",
+          "sentence": "The partitions of Poland between 1772 and 1795 placed most of its people under Catherine II's Russia, whose forced-reversion campaigns of 1794-96 stripped away most of its parishes within two years.",
+          "other": "Russian forced-reversion campaigns",
+          "other_id": null,
+          "claim": "argued against: forced-reversion campaigns stripped away most of its parishes",
+          "match_note": "state campaign; no census entry"
+        },
+        {
+          "field": "relationsSummary",
+          "sentence": "Austrian Galicia became the church's real zone of survival.",
+          "other": "Austrian Galicia",
+          "other_id": "ruthenian-greek-catholic-polotsk-to-galicia",
+          "claim": "continued as: Austrian Galicia became the zone of survival",
+          "match_note": "approximate: census entry covers the Polotsk-to-Galicia period"
+        },
+        {
+          "field": "longDescription",
+          "sentence": "A century after the Union of Brest, the Greek Catholic church of the Ruthenian lands — today's Ukraine and Belarus — was at its numerical height, holding the loyalty of most of the peasantry of the eastern Polish-Lithuanian Commonwealth.",
+          "other": "Union of Brest",
+          "other_id": "the-union-of-brest-and-ruthenian-greek-catholic-",
+          "claim": "descent: a century after the Union of Brest, the church was at its peak"
+        },
+        {
+          "field": "longDescription",
+          "sentence": "The Synod of Zamość in 1720 consolidated it and also latinized it, importing Roman devotional practices into a Byzantine rite and settling its identity as something distinctly its own rather than a temporary arrangement.",
+          "other": "Roman devotional practices",
+          "other_id": "the-tridentine-church",
+          "claim": "influenced: imported Roman devotional practices into a Byzantine rite",
+          "match_note": "approximate: Tridentine entry"
+        },
+        {
+          "field": "longDescription",
+          "sentence": "Then the political ground vanished: the partitions of Poland between 1772 and 1795 handed most of the church's people to Catherine II's Russia, which regarded the union as an amputation to be reversed, and campaigns of forced reversion from 1794 stripped it of the great majority of its parishes within two years.",
+          "other": "Russia (Catherine II)",
+          "other_id": null,
+          "claim": "argued against: Russia regarded the union as an amputation to be reversed",
+          "match_note": "state; no census entry"
+        },
+        {
+          "field": "longDescription",
+          "sentence": "What survived did so in Austrian Galicia, where the Habsburgs raised the Greek Catholic clergy's status and paid for their education.",
+          "other": "Habsburg Austria",
+          "other_id": null,
+          "claim": "other: the Habsburgs raised the clergy's status and paid for their education",
+          "match_note": "state; no census entry"
+        },
+        {
+          "field": "why",
+          "sentence": "When the partitions of Poland handed most of its people to Catherine II's Russia, which treated the union as an amputation to be reversed, forced-reversion campaigns from 1794 stripped away the great majority of its parishes within two years — leaving Austrian Galicia, where the Habsburgs funded the clergy's education, as the church's real survival zone.",
+          "other": "Habsburg Austria",
+          "other_id": null,
+          "claim": "other: the Habsburgs funded the clergy's education in Galicia",
+          "match_note": "state; no census entry"
+        },
+        {
+          "field": "why",
+          "sentence": "When the partitions of Poland handed most of its people to Catherine II's Russia, which treated the union as an amputation to be reversed, forced-reversion campaigns from 1794 stripped away the great majority of its parishes within two years — leaving Austrian Galicia, where the Habsburgs funded the clergy's education, as the church's real survival zone.",
+          "other": "Russia (Catherine II)",
+          "other_id": null,
+          "claim": "argued against: Russia treated the union as an amputation to be reversed",
+          "match_note": "state; no census entry"
+        },
+        {
+          "field": "legacy",
+          "sentence": "The Ukrainian Greek Catholic Church carried Ukrainian language, schooling and national feeling through the nineteenth century, was suppressed outright by Stalin in 1946, survived underground for four decades as the largest banned church in the world, and came back into the open in 1989.",
+          "other": "Ukrainian Greek Catholic Church (19th c.)",
+          "other_id": "ruthenian-greek-catholic-polotsk-to-galicia",
+          "claim": "continued as: the Ukrainian Greek Catholic Church carried Ukrainian language and schooling",
+          "match_note": "approximate: census entry covers the 19th-century Galician church"
+        },
+        {
+          "field": "legacy",
+          "sentence": "The Ukrainian Greek Catholic Church carried Ukrainian language, schooling and national feeling through the nineteenth century, was suppressed outright by Stalin in 1946, survived underground for four decades as the largest banned church in the world, and came back into the open in 1989.",
+          "other": "Stalin (Soviet state)",
+          "other_id": null,
+          "claim": "argued against: suppressed outright by Stalin in 1946",
+          "match_note": "state; no census entry"
+        },
+        {
+          "field": "legacy",
+          "sentence": "The Ukrainian Greek Catholic Church carried Ukrainian language, schooling and national feeling through the nineteenth century, was suppressed outright by Stalin in 1946, survived underground for four decades as the largest banned church in the world, and came back into the open in 1989.",
+          "other": "Ukrainian Greek Catholic underground",
+          "other_id": "the-ukrainian-greek-catholic-underground",
+          "claim": "continued as: survived underground for four decades"
+        },
+        {
+          "field": "legacy",
+          "sentence": "The Belarusian and central Ukrainian branches, dissolved in this period and again in 1839, did not recover.",
+          "other": "Belarusian and central Ukrainian branches (1839)",
+          "other_id": "ruthenian-greek-catholic-polotsk-to-galicia",
+          "claim": "other: the Belarusian and central Ukrainian branches were dissolved, including in 1839",
+          "match_note": "approximate: census entry covers the 1839 Polotsk period"
+        }
+      ],
+      "existing_links": [],
+      "raw_ids_in_text": []
+    },
+    {
+      "id": "philippine-catholicism-era-8",
+      "name": "Philippine Catholicism — Era-8 Segment",
+      "dates": "1650-1815",
+      "relationships": [
+        {
+          "field": "relationsSummary",
+          "sentence": "This continues the story of Philippine Catholicism into the period when the friar-parish system matured.",
+          "other": "Philippine Catholicism (16th-17th c.)",
+          "other_id": "philippine-catholicism",
+          "claim": "continued as: continues the story of Philippine Catholicism"
+        },
+        {
+          "field": "relationsSummary",
+          "sentence": "It covers the British occupation of Manila in 1762-64, the ongoing dispute over whether bishops could inspect the friars' parishes, and the 1768 expulsion of the Jesuits.",
+          "other": "British occupation of Manila",
+          "other_id": null,
+          "claim": "other: the British occupied Manila in 1762-64",
+          "match_note": "state; no census entry"
+        },
+        {
+          "field": "relationsSummary",
+          "sentence": "It covers the British occupation of Manila in 1762-64, the ongoing dispute over whether bishops could inspect the friars' parishes, and the 1768 expulsion of the Jesuits.",
+          "other": "friars and bishops (parish inspection dispute)",
+          "other_id": null,
+          "claim": "argued against: the dispute over whether bishops could inspect the friars' parishes",
+          "match_note": "groups; no census entry"
+        },
+        {
+          "field": "relationsSummary",
+          "sentence": "It covers the British occupation of Manila in 1762-64, the ongoing dispute over whether bishops could inspect the friars' parishes, and the 1768 expulsion of the Jesuits.",
+          "other": "Jesuits",
+          "other_id": "the-society-of-jesus",
+          "claim": "other: the Jesuits were expelled in 1768"
+        },
+        {
+          "field": "relationsSummary",
+          "sentence": "The unresolved question of native Filipino clergy sharpened over this period, building toward the crisis of 1872.",
+          "other": "crisis of 1872 (Gomburza)",
+          "other_id": "philippine-catholicism-gomburza-to-aglipay",
+          "claim": "other: the native clergy question built toward the crisis of 1872",
+          "match_note": "approximate: census entry covers 1815-1906"
+        },
+        {
+          "field": "longDescription",
+          "sentence": "By the middle of the seventeenth century the Philippines were the one substantially Christian society in East or Southeast Asia, and its basic unit was the friar parish: a Spanish religious — Augustinian, Dominican, Franciscan, Recollect or Jesuit — often the only Spaniard in a town, holding both spiritual and civil authority over a population whose language he had learned and which he alone among the officials could preach in.",
+          "other": "Augustinian friars",
+          "other_id": null,
+          "claim": "other: a Spanish religious order in the Philippines",
+          "match_note": "religious order; no census entry"
+        },
+        {
+          "field": "longDescription",
+          "sentence": "By the middle of the seventeenth century the Philippines were the one substantially Christian society in East or Southeast Asia, and its basic unit was the friar parish: a Spanish religious — Augustinian, Dominican, Franciscan, Recollect or Jesuit — often the only Spaniard in a town, holding both spiritual and civil authority over a population whose language he had learned and which he alone among the officials could preach in.",
+          "other": "Dominican friars",
+          "other_id": "the-dominican-order",
+          "claim": "other: a Spanish religious order in the Philippines",
+          "match_note": "approximate: medieval Dominican entry"
+        },
+        {
+          "field": "longDescription",
+          "sentence": "By the middle of the seventeenth century the Philippines were the one substantially Christian society in East or Southeast Asia, and its basic unit was the friar parish: a Spanish religious — Augustinian, Dominican, Franciscan, Recollect or Jesuit — often the only Spaniard in a town, holding both spiritual and civil authority over a population whose language he had learned and which he alone among the officials could preach in.",
+          "other": "Franciscan friars",
+          "other_id": "the-franciscan-movement",
+          "claim": "other: a Spanish religious order in the Philippines",
+          "match_note": "approximate: Franciscan movement entry"
+        },
+        {
+          "field": "longDescription",
+          "sentence": "By the middle of the seventeenth century the Philippines were the one substantially Christian society in East or Southeast Asia, and its basic unit was the friar parish: a Spanish religious — Augustinian, Dominican, Franciscan, Recollect or Jesuit — often the only Spaniard in a town, holding both spiritual and civil authority over a population whose language he had learned and which he alone among the officials could preach in.",
+          "other": "Recollect friars",
+          "other_id": null,
+          "claim": "other: a Spanish religious order in the Philippines",
+          "match_note": "religious order; no census entry"
+        },
+        {
+          "field": "longDescription",
+          "sentence": "By the middle of the seventeenth century the Philippines were the one substantially Christian society in East or Southeast Asia, and its basic unit was the friar parish: a Spanish religious — Augustinian, Dominican, Franciscan, Recollect or Jesuit — often the only Spaniard in a town, holding both spiritual and civil authority over a population whose language he had learned and which he alone among the officials could preach in.",
+          "other": "Jesuits",
+          "other_id": "the-society-of-jesus",
+          "claim": "other: a Spanish religious order in the Philippines"
+        },
+        {
+          "field": "longDescription",
+          "sentence": "The century's strains were institutional: a long fight over whether bishops could inspect the friars' parishes, the British occupation of Manila in 1762-64, the expulsion of the Jesuits in 1768, and above all the question of whether Filipino secular priests could hold parishes at all.",
+          "other": "Jesuits",
+          "other_id": "the-society-of-jesus",
+          "claim": "other: the Jesuits were expelled in 1768"
+        },
+        {
+          "field": "longDescription",
+          "sentence": "The century's strains were institutional: a long fight over whether bishops could inspect the friars' parishes, the British occupation of Manila in 1762-64, the expulsion of the Jesuits in 1768, and above all the question of whether Filipino secular priests could hold parishes at all.",
+          "other": "Filipino secular priests",
+          "other_id": null,
+          "claim": "other: the question of whether Filipino priests could hold parishes",
+          "match_note": "group; no census entry"
+        },
+        {
+          "field": "why",
+          "sentence": "By the mid-seventeenth century the Philippines were the one substantially Christian society in East or Southeast Asia, built parish by parish around Spanish friars who were often the only European in town and the only one who could preach in the local language.",
+          "other": "Spanish friars",
+          "other_id": null,
+          "claim": "other: a parish system built around Spanish friars",
+          "match_note": "religious order; no census entry"
+        },
+        {
+          "field": "why",
+          "sentence": "Filipino Christianity found its own voice inside that arrangement in the pasyon, a long verse account of Christ's passion chanted by ordinary people through Holy Week in their own houses — the earliest surviving text dates to 1704 — even as the century's real strain built around whether Filipino priests, and not only Spanish friars, could ever hold parishes of their own.",
+          "other": "Filipino priests",
+          "other_id": null,
+          "claim": "other: the question of Filipino priests holding parishes",
+          "match_note": "group; no census entry"
+        },
+        {
+          "field": "legacy",
+          "sentence": "The unresolved question of the period, whether Filipino priests could run Filipino parishes, produced the executions of the three priests remembered as Gomburza in 1872 and fed directly into the national revolution and into the independent Philippine church that broke from Rome in 1902.",
+          "other": "Gomburza (1872)",
+          "other_id": "philippine-catholicism-gomburza-to-aglipay",
+          "claim": "influenced: the Gomburza executions fed into the revolution and church",
+          "match_note": "approximate: census entry covers the 1815-1906 period"
+        },
+        {
+          "field": "legacy",
+          "sentence": "The unresolved question of the period, whether Filipino priests could run Filipino parishes, produced the executions of the three priests remembered as Gomburza in 1872 and fed directly into the national revolution and into the independent Philippine church that broke from Rome in 1902.",
+          "other": "Philippine national revolution",
+          "other_id": null,
+          "claim": "influenced: the executions fed directly into the national revolution",
+          "match_note": "event; no census entry"
+        },
+        {
+          "field": "legacy",
+          "sentence": "The unresolved question of the period, whether Filipino priests could run Filipino parishes, produced the executions of the three priests remembered as Gomburza in 1872 and fed directly into the national revolution and into the independent Philippine church that broke from Rome in 1902.",
+          "other": "Philippine Independent Church (1902)",
+          "other_id": "philippine-catholicism-gomburza-to-aglipay",
+          "claim": "broke with: the independent Philippine church broke from Rome in 1902",
+          "match_note": "approximate: Aglipay-era census entry"
+        }
+      ],
+      "existing_links": [],
+      "raw_ids_in_text": []
+    }
+  ]
+}

@@ -18,8 +18,7 @@ confidence:
     heard, per the host record's own narrative-tier finding.
 sources:
 - source_id: gallic.source.sulpitius-dialogues-ii-iii
-  locus: "Dialogues III.15 (npnf211 div ii.iv.iii.xv, file lines 5305-5319): Brictio's onset on Martin,
-    Martin's placid restraint, and Brictio's tirade calling Martin's visions 'ridiculous fancies'"
+  locus: "Dialogues III.15 (cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml, lines 5305-5319; div ii.iv.iii.xv): Brictio's onset on Martin, Martin's placid restraint, and Brictio's tirade calling Martin's visions 'ridiculous fancies'"
   license: public-domain
 retrieval:
   tier: 3

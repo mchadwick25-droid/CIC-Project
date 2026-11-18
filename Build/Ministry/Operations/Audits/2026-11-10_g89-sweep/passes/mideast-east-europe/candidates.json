@@ -1,0 +1,750 @@
+{
+ "sweep": "P2-G89",
+ "date": "2026-11-10",
+ "verificationStates": {
+  "V": "opened in this run and detail read",
+  "V-s": "study's report of an unopened item",
+  "[S]": "snippet, summary, memory or unopened"
+ },
+ "candidates": [
+  {
+   "id": "ME-5",
+   "rank": 1,
+   "name": "The Old Believers in the nineteenth century: Nicholas I, the Belokrinitsa hierarchy and the toleration of 1905",
+   "kind": "church body",
+   "era": [
+    9
+   ],
+   "dates": "1815-1906",
+   "regions": [
+    "North Europe"
+   ],
+   "countries": [
+    "Russia",
+    "Ukraine",
+    "Romania"
+   ],
+   "lane": "3 Greek East & Orthodoxy",
+   "answersBreak": "Old Believers after 1815 (Open-Gaps 135, 142)",
+   "sectionA": "No floor question (pre-Nikonian Nicene Creed; assessed at VII.7)",
+   "tier": "1",
+   "evidence": [
+    {
+     "item": "Conybeare, Russian Dissenters (1921), cic/texts/conybeare_russian-dissenters_1921.txt",
+     "state": "V",
+     "detail": "1827 Irgiz; Ambrose at Belaya Krinitsa 12 Oct 1846; decree of 17 Apr 1905; synod of 25 Aug 1905"
+    },
+    {
+     "item": "Platon/Pinkerton, Present State of the Greek Church in Russia (1814), Library",
+     "state": "V",
+     "detail": "1814 list of Old Believer groups"
+    },
+    {
+     "item": "Denisov, Pomorskie otvety (1723; ed. 1911), Library",
+     "state": "V",
+     "detail": "held; era 8 own voice for continuity"
+    },
+    {
+     "item": "Russian histories of the Austrian hierarchy (Subbotin, Ivanovskii, Smirnov)",
+     "state": "[S]",
+     "detail": "wanted"
+    }
+   ],
+   "living": "yes; no dated item after 2010 read",
+   "overlap": [
+    "VII.7",
+    "VIII.31",
+    "ME-6"
+   ],
+   "recommendation": "enter",
+   "gate": {
+    "id": "G-ME5",
+    "options": {
+     "a": "era 9 row 1815-1906 continued from VII.7 (recommended)",
+     "b": "hold for a Russian own-voice text",
+     "c": "named line in VIII.31 (not recommended)"
+    },
+    "recommended": "a"
+   }
+  },
+  {
+   "id": "ME-2",
+   "rank": 2,
+   "name": "The Maronite Church: from Duwayhi and the Synod of Mount Lebanon to the Mutasarrifate",
+   "kind": "church body (Eastern Catholic)",
+   "era": [
+    8,
+    9
+   ],
+   "dates": "1650-1815; 1815-1906",
+   "regions": [
+    "Middle East"
+   ],
+   "countries": [
+    "Lebanon",
+    "Syria",
+    "Cyprus"
+   ],
+   "lane": "1 Syriac East & Asia",
+   "answersBreak": "Maronite church 1517-1900 (Open-Gaps 142); 1517-1650 flagged to era 7 owner",
+   "sectionA": "No floor question",
+   "tier": "1 (era 9), 2 (era 8)",
+   "evidence": [
+    {
+     "item": "Labourt, 'Maronites', Catholic Encyclopedia 9 (1910), newadvent.org/cathen/09683c.htm",
+     "state": "V",
+     "detail": "Duwayhi d. 1704; 1736 council under Assemani; congregations 1732/1740/1770; 1860 massacres; 1861 governor; Hoayek 1899"
+    },
+    {
+     "item": "Volney, Travels through Syria and Egypt v2 (1788), Library",
+     "state": "V",
+     "detail": "Maronite clergy elect a Batrak; Hindiyya's convent"
+    },
+    {
+     "item": "Churchill, The Druzes and the Maronites 1840-1860 (1862), archive.org druzesmaronitesu00churuoft",
+     "state": "V",
+     "detail": "title, date, contents (1841 Deir el-Qamar; 3 June 1860 Hasbaya)"
+    },
+    {
+     "item": "Duwayhi, Tarikh al-ta'ifa al-maruniyya (ed. 1890), Library",
+     "state": "V (held; OCR locator only)",
+     "detail": "no sentence may rest on it"
+    },
+    {
+     "item": "Acts of the 1736 Synod of Mount Lebanon (Mansi 38)",
+     "state": "[S]",
+     "detail": "wanted"
+    }
+   ],
+   "living": "yes",
+   "overlap": [
+    "IV.10",
+    "V.22",
+    "VII.23"
+   ],
+   "recommendation": "enter era 9; era 8 after the 1736 acts are opened",
+   "gate": {
+    "id": "G-ME2",
+    "options": {
+     "a": "one row per era (8 and 9); 1517-1650 to era 7 owner (recommended)",
+     "b": "one long row 1517-1900",
+     "c": "era 9 now; era 8 and 7 held"
+    },
+    "recommended": "a"
+   }
+  },
+  {
+   "id": "ME-10",
+   "rank": 3,
+   "name": "Polish and Lithuanian Catholicism under the partitions",
+   "kind": "church body",
+   "era": [
+    9
+   ],
+   "dates": "1815-1906 (roots 1772-1795)",
+   "regions": [
+    "North Europe"
+   ],
+   "countries": [
+    "Poland",
+    "Lithuania",
+    "Belarus",
+    "Ukraine"
+   ],
+   "lane": "5 Latin West & Catholicism",
+   "answersBreak": null,
+   "sectionA": "No floor question",
+   "tier": "1",
+   "evidence": [
+    {
+     "item": "Kolodziejczyk, 'Poland', Catholic Encyclopedia 12 (1911), newadvent.org/cathen/12181a.htm",
+     "state": "V",
+     "detail": "Russian measures after 1831 and 1863; 1864 order; 1867 St Petersburg commission; 1905 toleration; Prussian control"
+    },
+    {
+     "item": "Theiner, Vetera monumenta Poloniae et Lithuaniae v4 (1864), Library",
+     "state": "V (held; not read)",
+     "detail": ""
+    },
+    {
+     "item": "Lithuanian press ban and book-smugglers 1864-1904",
+     "state": "[S]",
+     "detail": ""
+    }
+   ],
+   "living": "yes (IX.70)",
+   "overlap": [
+    "VIII.38",
+    "IX.70",
+    "VII.19",
+    "VIII.29"
+   ],
+   "recommendation": "enter era 9 row; Commonwealth church 1650-1772 as named line in VII.19 or held era 8 row",
+   "gate": {
+    "id": "G-ME10",
+    "options": {
+     "a": "era 9 row 1815-1906, parent of IX.70 (recommended)",
+     "b": "also an era 8 row 1650-1815",
+     "c": "named lines in VIII.29 only"
+    },
+    "recommended": "a"
+   }
+  },
+  {
+   "id": "ME-8",
+   "rank": 4,
+   "name": "The Romanian Greek Catholic Church of Transylvania: the union of Alba Iulia to Blaj",
+   "kind": "church body (Eastern Catholic)",
+   "era": [
+    8,
+    9
+   ],
+   "dates": "1698-1906",
+   "regions": [
+    "North Europe"
+   ],
+   "countries": [
+    "Romania"
+   ],
+   "lane": "3<->5 bridge (Greek East / Latin West)",
+   "answersBreak": null,
+   "sectionA": "No floor question; dated own statement: union act 7 Oct 1698",
+   "tier": "1 (era 8), 2 (era 9)",
+   "evidence": [
+    {
+     "item": "Nilles, Symbolae ad illustrandam historiam ecclesiae orientalis in terris coronae S. Stephani (1885), archive.org symbolaeadillus00nillgoog",
+     "state": "V",
+     "detail": "Union act 'Datum Albae-Juliae anno Domini 1698 die 7. Octobris'; synod: union worked 'opera ac solertia Patrum S. J.'; Athanasius confirmed 1701"
+    },
+    {
+     "item": "Fortescue, 'Eastern Churches', Catholic Encyclopedia 5 (1909)",
+     "state": "V",
+     "detail": "about a million and a half Romanian Catholics"
+    },
+    {
+     "item": "Micu-Klein, Blaj, Transylvanian School, 1853 metropolitanate",
+     "state": "[S]",
+     "detail": ""
+    }
+   ],
+   "living": "yes (IX.73)",
+   "overlap": [
+    "IX.73",
+    "VII.19",
+    "VIII.28"
+   ],
+   "recommendation": "enter era 8 row; era 9 row or named line; Carpathian Ruthenian union as named line in VII.28/VIII.38",
+   "markTest": "Jesuits brokered the union (synod's own words) but the church is a separate living body; Jesuits are a named line, not the row",
+   "gate": {
+    "id": "G-ME8",
+    "options": {
+     "a": "era 8 row + era 9 row or named line, linked to IX.73 (recommended)",
+     "b": "composite Greek Catholics of the Hungarian crown row",
+     "c": "named line in VII.19 only"
+    },
+    "recommended": "a"
+   }
+  },
+  {
+   "id": "ME-4",
+   "rank": 5,
+   "name": "The two Melkite churches in the nineteenth century: Catholic emancipation and the Arab Orthodox patriarchate; and the Melkite held gap",
+   "kind": "church bodies",
+   "era": [
+    9,
+    8
+   ],
+   "dates": "1815-1906 (row); 1650-1724 (named line)",
+   "regions": [
+    "Middle East"
+   ],
+   "countries": [
+    "Syria",
+    "Lebanon"
+   ],
+   "lane": "3<->5 bridge (Greek East / Latin West)",
+   "answersBreak": "Melkites 1009-1724, held (Open-Gaps 135, 142): 1650-1724 portion; new finding: nothing after 1815",
+   "sectionA": "No floor question",
+   "tier": "1 (Catholic side), 2 (with Orthodox side)",
+   "evidence": [
+    {
+     "item": "Charon, Histoire des patriarcats melkites t. II-III (1910-1911), Library",
+     "state": "V",
+     "detail": "berat of 7 Jan 1848 'consacre l'emancipation civile definitive des Melkites catholiques'"
+    },
+    {
+     "item": "Fortescue, 'Melchites', Catholic Encyclopedia 10 (1911)",
+     "state": "V",
+     "detail": "Euthymius and Athanasius IV; 1722 warning letter; 1835 Ain-Traz synod; separate millet; Antioch's native patriarch Gregory IV after a schism"
+    },
+    {
+     "item": "Paul of Aleppo, Travels of Macarius v1 (1836), Library",
+     "state": "V (held)",
+     "detail": "1650s journey"
+    },
+    {
+     "item": "First Arab patriarch Meletios Doumani 1899",
+     "state": "[S]",
+     "detail": ""
+    }
+   ],
+   "living": "yes (both)",
+   "overlap": [
+    "III.2",
+    "VII.23",
+    "VII.18",
+    "VIII.28"
+   ],
+   "recommendation": "enter era 9 row for both churches; Macarius III/Euthymius named line in VII.23; 1009-1650 stays held",
+   "gate": {
+    "id": "G-ME4",
+    "options": {
+     "a": "one era 9 row for both churches (recommended)",
+     "b": "Catholic row now, Orthodox held",
+     "c": "extend VII.23 to 1906"
+    },
+    "recommended": "a"
+   }
+  },
+  {
+   "id": "ME-1",
+   "rank": 6,
+   "name": "The Church of the East: three patriarchates, from Diyarbakir to the Chaldean union",
+   "kind": "church body",
+   "era": [
+    8
+   ],
+   "dates": "1650-1815",
+   "regions": [
+    "Middle East"
+   ],
+   "countries": [
+    "Turkey",
+    "Iraq",
+    "Iran"
+   ],
+   "lane": "1 Syriac East & Asia",
+   "answersBreak": "Church of the East 1650-1815 (Open-Gaps 142)",
+   "sectionA": "No floor question; own statement: Yohannan Hormizd's autobiography (Badger's translation)",
+   "tier": "2",
+   "evidence": [
+    {
+     "item": "Badger, The Nestorians and their Rituals v1 (1852), Library",
+     "state": "V",
+     "detail": "Joseph I at Diarbekir 1681; Porte recognized the plains line; Hormizd's autobiography (uncle d. 29 Apr 1778; embraced Rome 30 Apr)"
+    },
+    {
+     "item": "Labourt, 'Chaldean Christians', Catholic Encyclopedia 3 (1908)",
+     "state": "V",
+     "detail": "Joseph withdrew 1672 on Capuchin advice; pallium 1681; Joseph II-V; John Hormizd 1830"
+    },
+    {
+     "item": "Malech, History of the Syrian Nation (1910), Library",
+     "state": "V",
+     "detail": "patriarch lists of both lines; residence moved to Qudshanis (OCR numbers unreliable)"
+    },
+    {
+     "item": "Assemani, Bibliotheca orientalis III (1725-28), Library",
+     "state": "[S] for this period",
+     "detail": "not searched"
+    },
+    {
+     "item": "Wigram, The Assyrians and their Neighbours (1929), Library",
+     "state": "[S]",
+     "detail": "not read"
+    }
+   ],
+   "living": "yes (Chaldean Catholic Church; Assyrian Church of the East)",
+   "overlap": [
+    "VI.30",
+    "VIII.40",
+    "IX.19"
+   ],
+   "recommendation": "enter era 8 row",
+   "markTest": "unique; middle of VI.30 -> VIII.40; Capuchin/Propaganda work a strand inside",
+   "gate": {
+    "id": "G-ME1",
+    "options": {
+     "a": "new era 8 row between VI.30 and VIII.40 (recommended)",
+     "b": "extend VIII.40 back to 1672/1681",
+     "c": "hold for Assemani III and Malech"
+    },
+    "recommended": "a"
+   }
+  },
+  {
+   "id": "ME-3",
+   "rank": 7,
+   "name": "The Georgian Church between Persia, the Ottomans and Russia, to the end of the catholicate; and the Exarchate",
+   "kind": "church body",
+   "era": [
+    8,
+    9
+   ],
+   "dates": "1650-1811; 1811-1906 (Exarchate to 1917)",
+   "regions": [
+    "Caucasus"
+   ],
+   "countries": [
+    "Georgia"
+   ],
+   "lane": "2 Caucasus",
+   "answersBreak": "Georgian church, none after 1245 (Open-Gaps 142); 1245-1650 flagged to era 6/7 owners",
+   "sectionA": "No floor question",
+   "tier": "2",
+   "evidence": [
+    {
+     "item": "Ioseliani, A Short History of the Georgian Church, tr. Malan (1866), archive.org MalanGeorgianChurch",
+     "state": "V",
+     "detail": "Antoni I left Georgia 1755; catholicos's title to 1811; Exarch of Georgia; Imereti exarchate 30 Aug 1814; single exarchy Dec 1818; sack of Tbilisi 1795"
+    },
+    {
+     "item": "Dowling, Sketches of Georgian Church History (1912), archive.org",
+     "state": "[S]",
+     "detail": "fetched, not read"
+    },
+    {
+     "item": "Brosset, Histoire de la Georgie pt 1 (1849), Library; modern volumes 1856-58 on archive.org",
+     "state": "[S]",
+     "detail": ""
+    }
+   ],
+   "living": "yes (IX.40)",
+   "overlap": [
+    "IV.15",
+    "IX.40",
+    "VIII.31"
+   ],
+   "recommendation": "enter era 8 row; Exarchate as named line in VIII.31 linked to IX.40",
+   "gate": {
+    "id": "G-ME3",
+    "options": {
+     "a": "era 8 row + Exarchate named line in VIII.31 (recommended)",
+     "b": "era 8 row + era 9 Exarchate row",
+     "c": "hold for a Georgian-language source"
+    },
+    "recommended": "a"
+   }
+  },
+  {
+   "id": "ME-9",
+   "rank": 8,
+   "name": "Hungarian and Transylvanian Protestantism: the decade of mourning to the Patent of Toleration and 1848",
+   "kind": "church bodies",
+   "era": [
+    8,
+    9
+   ],
+   "dates": "1650-1906",
+   "regions": [
+    "North Europe"
+   ],
+   "countries": [
+    "Hungary",
+    "Romania",
+    "Slovakia"
+   ],
+   "lane": "6 Protestant & Evangelical",
+   "answersBreak": null,
+   "sectionA": "No floor question",
+   "tier": "2",
+   "evidence": [
+    {
+     "item": "Bauhofer, History of the Protestant Church in Hungary, tr. Craig (1854), archive.org historyofprotest00bauh",
+     "state": "V",
+     "detail": "galley-slave preachers freed 11 Feb 1676; edict received 24 Oct 1781"
+    },
+    {
+     "item": "'Hungary', Catholic Encyclopedia 7 (1910)",
+     "state": "V",
+     "detail": "Diet of 1848 decreed equality of recognized confessions"
+    }
+   ],
+   "living": "yes [S]",
+   "overlap": [
+    "VI.14",
+    "VI.2",
+    "VIII.41"
+   ],
+   "recommendation": "enter era 8 row; era 9 named line or second row; flag to rivers pass",
+   "gate": {
+    "id": "G-ME9",
+    "options": {
+     "a": "era 8 row + era 9 row later (recommended)",
+     "b": "named lines in Reformed/Lutheran rows",
+     "c": "leave to rivers pass"
+    },
+    "recommended": "a"
+   }
+  },
+  {
+   "id": "ME-11",
+   "rank": 9,
+   "name": "The Arab Evangelical churches and the American mission in Syria and Lebanon",
+   "kind": "church body",
+   "era": [
+    9
+   ],
+   "dates": "1819/1823-1906",
+   "regions": [
+    "Middle East"
+   ],
+   "countries": [
+    "Lebanon",
+    "Syria"
+   ],
+   "lane": "6 Protestant & Evangelical",
+   "answersBreak": null,
+   "sectionA": "No floor question",
+   "tier": "2",
+   "evidence": [
+    {
+     "item": "Jessup, Fifty-three Years in Syria v1 (1910), archive.org fiftythreeyearsi011832mbp",
+     "state": "V",
+     "detail": "Fisk sailed 3 Nov 1819; Beirut 10 Jul 1823; native evangelical church 1848; Arabic Bible completed 10 Mar 1865"
+    },
+    {
+     "item": "Anderson, History of the ABCFM Missions to the Oriental Churches (1872)",
+     "state": "[S]",
+     "detail": "listing only"
+    }
+   ],
+   "living": "yes [S]",
+   "overlap": [
+    "VIII.32",
+    "VIII.40",
+    "VIII.7"
+   ],
+   "recommendation": "fifth wing in VIII.7",
+   "gate": {
+    "id": "G-ME11",
+    "options": {
+     "a": "wing in VIII.7 (recommended)",
+     "b": "new era 9 row",
+     "c": "cross-world row for American missions to the Oriental churches"
+    },
+    "recommended": "a"
+   }
+  },
+  {
+   "id": "ME-6",
+   "rank": 10,
+   "name": "The spiritual Christians of Russia: Dukhobors, Molokans and the mystic sects",
+   "kind": "family of dissenting bodies",
+   "era": [
+    8,
+    9
+   ],
+   "dates": "c. 1760s-1906",
+   "regions": [
+    "North Europe",
+    "Caucasus"
+   ],
+   "countries": [
+    "Russia",
+    "Ukraine",
+    "Georgia",
+    "Armenia"
+   ],
+   "lane": "8 Beyond the Floor or 6",
+   "answersBreak": null,
+   "sectionA": "Not yet assessable; floor question body by body (Dukhobors; Khlysty and Skoptsy likely outside)",
+   "tier": "2 (pending A)",
+   "fourMarks": {
+    "beginning": "1760s-1780s; name by 1788 (Pinkerton)",
+    "carriers": "communes and leaders",
+    "name": "spiritual Christians as group label [S]",
+    "recognition": "Conybeare 1921 Part II (V)"
+   },
+   "evidence": [
+    {
+     "item": "Platon/Pinkerton (1814), Library",
+     "state": "V",
+     "detail": "Dukhobor name 1788; settlements 1804; Molokans named"
+    },
+    {
+     "item": "Conybeare (1921), Library",
+     "state": "V",
+     "detail": "chapter structure; 1905 categories"
+    },
+    {
+     "item": "Elkinton, The Doukhobors (1903)",
+     "state": "[S]",
+     "detail": "listing only"
+    }
+   ],
+   "living": "yes [S]",
+   "overlap": [],
+   "recommendation": "hold for Section A; then enter what clears",
+   "gate": {
+    "id": "G-ME6",
+    "options": {
+     "a": "assess each body under Section A, then era 9 row (recommended)",
+     "b": "one lane 8 row for the family",
+     "c": "out of scope; note in VIII.51"
+    },
+    "recommended": "a"
+   }
+  },
+  {
+   "id": "ME-7",
+   "rank": 11,
+   "name": "The Syriac Orthodox Church and the Syriac Catholic split",
+   "kind": "church bodies",
+   "era": [
+    9
+   ],
+   "dates": "c. 1650-1906",
+   "regions": [
+    "Middle East"
+   ],
+   "countries": [
+    "Turkey",
+    "Iraq",
+    "Syria",
+    "Lebanon"
+   ],
+   "lane": "1 Syriac East & Asia",
+   "answersBreak": "Syriac Orthodox after 1300, held (Open-Gaps 135)",
+   "sectionA": "No floor question",
+   "tier": "2-3",
+   "evidence": [
+    {
+     "item": "Badger v1 (1852), Library, 'The Syrian Jacobites'",
+     "state": "V",
+     "detail": "hierarchy; patriarch Elias met 1844; Deir Zaafaran; churches seized by 'Syrian Romanists'"
+    },
+    {
+     "item": "Fortescue, 'Eastern Churches', CE 5 (1909) §5",
+     "state": "V",
+     "detail": "Catholic Syrian church from 1781 (Giarve); separate millet 1830"
+    },
+    {
+     "item": "Akhijan 1662",
+     "state": "[S]",
+     "detail": ""
+    }
+   ],
+   "living": "yes",
+   "overlap": [
+    "II.2",
+    "III.17",
+    "IV.21",
+    "IX.19",
+    "IX.39",
+    "VI.18"
+   ],
+   "recommendation": "hold for one in-region source, then era 9 row",
+   "gate": {
+    "id": "G-ME7",
+    "options": {
+     "a": "hold with named want, then era 9 row (recommended)",
+     "b": "era 9 row now on Badger and Fortescue",
+     "c": "named line in IX.19 only"
+    },
+    "recommended": "a"
+   }
+  }
+ ],
+ "namedLines": [
+  {
+   "id": "ME-12",
+   "name": "Jesuits in Russia 1773-1814",
+   "evidence": "Pius VII bull 1814 (Library) V",
+   "route": "named line in a Jesuit era 8 home (Mark's test) or VII.19"
+  },
+  {
+   "id": "ME-13",
+   "name": "Bulgarian revival from Paisii of Hilendar 1762",
+   "evidence": "Paisii 1762 (Library) V held",
+   "route": "named line in VII.18 -> VIII.28"
+  },
+  {
+   "id": "ME-14",
+   "name": "Armenian church in Russia, Polozhenie 1836",
+   "evidence": "Ormanian 1912 (Library) V",
+   "route": "named line in VIII.32"
+  },
+  {
+   "id": "ME-15",
+   "name": "Armenian Catholic schism and Reversurus 1867",
+   "evidence": "Labourt CE V",
+   "route": "named line in VIII.32"
+  },
+  {
+   "id": "ME-16",
+   "name": "Holy Places and Latin Patriarchate of Jerusalem 1847",
+   "evidence": "Fortescue CE 'Jerusalem (After 1291)' V",
+   "route": "gate note; named lines in VIII.28/VIII.29"
+  },
+  {
+   "id": "ME-17",
+   "name": "Karlovci, Montenegro, Sibiu",
+   "evidence": "Fortescue CE 'Eastern Churches' V",
+   "route": "named lines in VII.18 and VIII.28"
+  },
+  {
+   "id": "ME-18",
+   "name": "Russian missions inside the empire",
+   "evidence": "[S]",
+   "route": "named lines in VII.21 / VIII.31; Beijing to Asia pass"
+  },
+  {
+   "id": "ME-19",
+   "name": "Urmia: Assyrian evangelicals and Russian mission 1898",
+   "evidence": "[S]",
+   "route": "named line in VIII.40"
+  },
+  {
+   "id": "ME-20",
+   "name": "Tolstoyans",
+   "evidence": "[S]",
+   "route": "out under A1 unless lane 8"
+  },
+  {
+   "id": "ME-21",
+   "name": "Hebrew Christians of Kishinev 1884",
+   "evidence": "[S]",
+   "route": "hold"
+  },
+  {
+   "id": "ME-22",
+   "name": "Mennonites and Hutterites in Russia",
+   "evidence": "Hutterite chronicles V held",
+   "route": "rivers pass (Anabaptist)"
+  }
+ ],
+ "breaks": [
+  {
+   "break": "Church of the East 1650-1815",
+   "unique": true,
+   "answer": "ME-1 era 8 row"
+  },
+  {
+   "break": "Maronites 1517-1900",
+   "unique": true,
+   "answer": "ME-2 era 8 and 9 rows; 1517-1650 to era 7 owner"
+  },
+  {
+   "break": "Georgian church none after 1245",
+   "unique": true,
+   "answer": "ME-3 era 8 row; Exarchate named line in VIII.31; 1245-1650 to era 6/7 owners"
+  },
+  {
+   "break": "Melkites 1009-1724 (held)",
+   "unique": true,
+   "answer": "1650-1724 named line in VII.23; 1009-1650 held; new: ME-4 era 9 row"
+  },
+  {
+   "break": "Syriac Orthodox after 1300 (held)",
+   "unique": true,
+   "answer": "ME-7 still held"
+  },
+  {
+   "break": "Old Believers after 1815",
+   "unique": true,
+   "answer": "ME-5 era 9 row"
+  }
+ ],
+ "pass": "mideast-east-europe"
+}

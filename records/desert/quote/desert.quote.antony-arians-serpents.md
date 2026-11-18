@@ -14,7 +14,7 @@ confidence:
   divergence_note: "Contested for incident-level attribution, matching desert.story.antony-call's own basis for material from the same Vita - reported speech and action within Athanasius's own narrative, written by a bishop with his own anti-Arian, pro-episcopal purposes (Brakke's reading, desert.source.brakke-athanasius). The words themselves are quoted verbatim from the vendored text."
 sources:
 - source_id: desert.source.athanasius-vita-antonii
-  locus: "SS68 - Antony's own rejection of Melitian communion and, when Arians came to him, his response driving them away"
+  locus: "SS68 - Antony's own rejection of Melitian communion and, when Arians came to him, his response driving them away (cic/texts/npnf204_athanasius-select-works-letters.xml, lines 32917-32919)"
   license: public-domain
 text: "He drove them from the mountain, saying that their words were worse than the poison of serpents."
 modern_rendering: >-

@@ -1,0 +1,178 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "rzg.witness.one-thing-not-in-dispute"
+   ],
+   "sentence": "To us Jesus is what the whole church says he is, and that was never our own quarrel, not with Rome and not between our two cities."
+  },
+  {
+   "record_ids": [
+    "rzg.witness.what-we-have-of-christ"
+   ],
+   "sentence": "What we have of Christ is the text, not a living chain of memory, and we held the text to be enough on its own terms."
+  },
+  {
+   "record_ids": [
+    "rzg.witness.one-thing-not-in-dispute",
+    "rzg.witness.a-quieted-mind"
+   ],
+   "sentence": "Our confession called Christ the mirror in which we see whether we are chosen."
+  },
+  {
+   "record_ids": [
+    "rzg.witness.a-quieted-mind"
+   ],
+   "sentence": "So we turned a troubled mind outward toward Christ, once, and not inward toward the self, endlessly."
+  },
+  {
+   "record_ids": [
+    "rzg.term.the-lords-supper-spiritual-presence"
+   ],
+   "sentence": "At the Supper we held that Christ is truly given, by the Spirit, to whoever receives him believing."
+  },
+  {
+   "record_ids": [
+    "rzg.term.the-lords-supper-spiritual-presence"
+   ],
+   "sentence": "We refused two claims about it: that the Supper repeats his sacrifice, and that his body sits in the bread."
+  },
+  {
+   "record_ids": [
+    "rzg.term.sign-and-the-thing-signified"
+   ],
+   "sentence": "In 1549 Zurich and Geneva agreed words that tell the bread apart from the reality it points to, and never pull the two apart."
+  },
+  {
+   "record_ids": [
+    "rzg.witness.one-thing-not-in-dispute"
+   ],
+   "sentence": "What is distinctly ours is not a new picture of Christ, but what we were taught about who is chosen in him."
+  },
+  {
+   "record_ids": [
+    "rzg.limit.ordinary-daily-practice"
+   ],
+   "sentence": "How an ordinary believer felt before him at a service has not reached us in our words."
+  }
+ ],
+ "citations": [
+  "rzg.limit.ordinary-daily-practice",
+  "rzg.term.sign-and-the-thing-signified",
+  "rzg.term.the-lords-supper-spiritual-presence",
+  "rzg.witness.a-quieted-mind",
+  "rzg.witness.one-thing-not-in-dispute",
+  "rzg.witness.what-we-have-of-christ"
+ ],
+ "group": "A",
+ "id": "q002",
+ "net_sentences": [
+  {
+   "draft": "To us Jesus is what the whole church says he is, and that was never our own quarrel, not with Rome and not between our two cities [[rzg.witness.one-thing-not-in-dispute]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "To us Jesus is what the whole church says he is, and that was never our own quarrel, not with Rome and not between our two cities.",
+   "tags": [
+    "rzg.witness.one-thing-not-in-dispute"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "What we have of Christ is the text, not a living chain of memory, and we held the text to be enough on its own terms [[rzg.witness.what-we-have-of-christ]] [[as:paraphrase]].",
+   "sentence": "What we have of Christ is the text, not a living chain of memory, and we held the text to be enough on its own terms.",
+   "tags": [
+    "rzg.witness.what-we-have-of-christ"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Our confession called Christ the mirror in which we see whether we are chosen [[rzg.witness.one-thing-not-in-dispute]] [[rzg.witness.a-quieted-mind]] [[as:paraphrase]].",
+   "sentence": "Our confession called Christ the mirror in which we see whether we are chosen.",
+   "tags": [
+    "rzg.witness.one-thing-not-in-dispute",
+    "rzg.witness.a-quieted-mind"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "So we turned a troubled mind outward toward Christ, once, and not inward toward the self, endlessly [[rzg.witness.a-quieted-mind]] [[as:paraphrase]].",
+   "sentence": "So we turned a troubled mind outward toward Christ, once, and not inward toward the self, endlessly.",
+   "tags": [
+    "rzg.witness.a-quieted-mind"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "At the Supper we held that Christ is truly given, by the Spirit, to whoever receives him believing [[rzg.term.the-lords-supper-spiritual-presence]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "At the Supper we held that Christ is truly given, by the Spirit, to whoever receives him believing.",
+   "tags": [
+    "rzg.term.the-lords-supper-spiritual-presence"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "We refused two claims about it: that the Supper repeats his sacrifice, and that his body sits in the bread [[rzg.term.the-lords-supper-spiritual-presence]] [[as:paraphrase]].",
+   "ratio": 0.78,
+   "sentence": "We refused two claims about it: that the Supper repeats his sacrifice, and that his body sits in the bread.",
+   "tags": [
+    "rzg.term.the-lords-supper-spiritual-presence"
+   ],
+   "verdict": "ok",
+   "why": "grounded 78% in own tagged records"
+  },
+  {
+   "draft": "In 1549 Zurich and Geneva agreed words that tell the bread apart from the reality it points to, and never pull the two apart [[rzg.term.sign-and-the-thing-signified]] [[as:paraphrase]].",
+   "ratio": 0.83,
+   "sentence": "In 1549 Zurich and Geneva agreed words that tell the bread apart from the reality it points to, and never pull the two apart.",
+   "tags": [
+    "rzg.term.sign-and-the-thing-signified"
+   ],
+   "verdict": "ok",
+   "why": "grounded 83% in own tagged records"
+  },
+  {
+   "draft": "What is distinctly ours is not a new picture of Christ, but what we were taught about who is chosen in him [[rzg.witness.one-thing-not-in-dispute]] [[as:paraphrase]].",
+   "sentence": "What is distinctly ours is not a new picture of Christ, but what we were taught about who is chosen in him.",
+   "tags": [
+    "rzg.witness.one-thing-not-in-dispute"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "How an ordinary believer felt before him at a service has not reached us in our words [[rzg.limit.ordinary-daily-practice]] [[as:paraphrase]].",
+   "sentence": "How an ordinary believer felt before him at a service has not reached us in our words.",
+   "tags": [
+    "rzg.limit.ordinary-daily-practice"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  }
+ ],
+ "offered": [
+  "rzg.witness.one-thing-not-in-dispute",
+  "rzg.term.sign-and-the-thing-signified",
+  "rzg.gravity.consistorial-church-discipline",
+  "rzg.contested.sign-and-the-thing-signified",
+  "rzg.limit.ordinary-daily-practice",
+  "rzg.witness.a-quieted-mind",
+  "rzg.witness.not-a-death-he-sought"
+ ],
+ "raw_text": "To us Jesus is what the whole church says he is, and that was never our own quarrel, not with Rome and not between our two cities [[rzg.witness.one-thing-not-in-dispute]] [[as:paraphrase]].\nWhat we have of Christ is the text, not a living chain of memory, and we held the text to be enough on its own terms [[rzg.witness.what-we-have-of-christ]] [[as:paraphrase]].\nOur confession called Christ the mirror in which we see whether we are chosen [[rzg.witness.one-thing-not-in-dispute]] [[rzg.witness.a-quieted-mind]] [[as:paraphrase]].\nSo we turned a troubled mind outward toward Christ, once, and not inward toward the self, endlessly [[rzg.witness.a-quieted-mind]] [[as:paraphrase]].\nAt the Supper we held that Christ is truly given, by the Spirit, to whoever receives him believing [[rzg.term.the-lords-supper-spiritual-presence]] [[as:paraphrase]].\nWe refused two claims about it: that the Supper repeats his sacrifice, and that his body sits in the bread [[rzg.term.the-lords-supper-spiritual-presence]] [[as:paraphrase]].\nIn 1549 Zurich and Geneva agreed words that tell the bread apart from the reality it points to, and never pull the two apart [[rzg.term.sign-and-the-thing-signified]] [[as:paraphrase]].\nWhat is distinctly ours is not a new picture of Christ, but what we were taught about who is chosen in him [[rzg.witness.one-thing-not-in-dispute]] [[as:paraphrase]].\nHow an ordinary believer felt before him at a service has not reached us in our words [[rzg.limit.ordinary-daily-practice]] [[as:paraphrase]].\n",
+ "reply_shape": {
+  "placed": [],
+  "removed": [],
+  "repaired": []
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": "C1.S1",
+ "text": "To us Jesus is what the whole church says he is, and that was never our own quarrel, not with Rome and not between our two cities. What we have of Christ is the text, not a living chain of memory, and we held the text to be enough on its own terms. Our confession called Christ the mirror in which we see whether we are chosen. So we turned a troubled mind outward toward Christ, once, and not inward toward the self, endlessly. At the Supper we held that Christ is truly given, by the Spirit, to whoever receives him believing. We refused two claims about it: that the Supper repeats his sacrifice, and that his body sits in the bread. In 1549 Zurich and Geneva agreed words that tell the bread apart from the reality it points to, and never pull the two apart. What is distinctly ours is not a new picture of Christ, but what we were taught about who is chosen in him. How an ordinary believer felt before him at a service has not reached us in our words.",
+ "voice_set_aside": false
+}

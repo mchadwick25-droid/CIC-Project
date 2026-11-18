@@ -22,7 +22,7 @@ confidence:
     the exchange happened exactly so.
 sources:
 - source_id: gallic.source.sulpitius-vita-martini
-  locus: "Life of St. Martin ch. IV (npnf211 div ii.ii.v, file lines 827-842): the donative at the city of the Vaugiones and Martin's request for discharge"
+  locus: "Life of St. Martin ch. IV (cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml, lines 827-842; div ii.ii.v): the donative at the city of the Vaugiones and Martin's request for discharge"
   license: public-domain
 retrieval:
   tier: 2

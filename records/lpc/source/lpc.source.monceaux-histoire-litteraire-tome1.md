@@ -23,6 +23,7 @@ work: 'Histoire littéraire de l''Afrique chrétienne depuis les origines jusqu'
 edition: 'Paris: Ernest Leroux, 1901; vendored as cic/texts/monceaux_histoire-litteraire-afrique-chretienne-tome1_1901.txt'
 citation: 'Paul Monceaux, Histoire littéraire de l''Afrique chrétienne depuis les origines jusqu''à l''invasion arabe, vol. I: Tertullien et les origines (Paris: Ernest Leroux, 1901)'
 kind: vendored
+shelf_row: monceaux_histoire-litteraire-afrique-chretienne-tome1_1901--histoire-litteraire-de-l-afrique-chretienne-tome-premier
 rights_status: public-domain; vendored in cic/texts/, and the specific content this row licenses was directly
   read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify
   check (Source_Acquisition_Manifest.md SS1).

@@ -1,0 +1,190 @@
+{
+ "draft": "Our church gave, and our bishop taught giving: Cyprian wrote a whole treatise on almsgiving, and much of it speaks to believers who had money [[lpc.witness.almsgiving-quenches-sin]] [[as:paraphrase]]. Cyprian told them plainly that their wealth was for sharing their gains with Christ [[lpc.witness.almsgiving-quenches-sin]] [[as:paraphrase]]. Almsgiving was the ordinary remedy for the sin a person goes on committing after baptism [[lpc.witness.almsgiving-quenches-sin]] [[as:paraphrase]].\n\nIn the plague, Pontius says, Cyprian preached love of enemies, and help reached beyond believers [[lpc.story.the-plague-and-the-enemies]] [[as:paraphrase]].\n\nOur sayings tell of the ransom of our captive brethren: [[story:lpc.story.hundred-thousand-sesterces:medium]]\n",
+ "ending": "abstained_rewrite_failed_read",
+ "final": "We do not have that here.",
+ "group": "K",
+ "offered": [
+  "lpc.witness.almsgiving-quenches-sin",
+  "lpc.term.heresy",
+  "lpc.story.the-plague-and-the-enemies",
+  "lpc.story.hundred-thousand-sesterces",
+  "lpc.quote.a-hundred-thousand-sesterces",
+  "lpc.quote.it-becomes-us-to-answer-to-our-birth",
+  "lpc.force.confessors-claim-to-grant-peace",
+  "lpc.contested.compel-coercion-development",
+  "lpc.witness.baptism-as-new-birth",
+  "lpc.story.the-psalms-on-the-wall",
+  "lpc.quote.all-the-merit-or-demerit-is-acquired-in-this-life",
+  "lpc.quote.not-his-own-sins-but-the-sins-of-another",
+  "lpc.term.preaching",
+  "lpc.quote.love-and-do-what-thou-wilt",
+  "lpc.quote.dash-the-little-ones-against-the-rock"
+ ],
+ "placements": [
+  {
+   "decision": "drop",
+   "judgement": {
+    "fit": "partly",
+    "limit_stated": false,
+    "reason": "It shows the church paying to ransom captive members, not care for its own poor and widows."
+   },
+   "record_id": "lpc.story.hundred-thousand-sesterces"
+  }
+ ],
+ "question": "Did your church look after its own poor and widows? Give me an example.",
+ "question_id": "q105",
+ "read": {
+  "dropped": [
+   "lpc.story.hundred-thousand-sesterces"
+  ],
+  "status": "rewrite",
+  "unsupported": {}
+ },
+ "rewrite": [
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "lpc.witness.almsgiving-quenches-sin"
+   ],
+   "sentence": "Our church gave, and our bishop taught giving: Cyprian wrote a whole treatise on almsgiving, and much of it speaks to believers who had money.",
+   "tags": [
+    "lpc.witness.almsgiving-quenches-sin"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "lpc.witness.almsgiving-quenches-sin"
+   ],
+   "sentence": "Cyprian told believers who had money plainly that their wealth was for sharing their gains with Christ.",
+   "tags": [
+    "lpc.witness.almsgiving-quenches-sin"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "lpc.witness.almsgiving-quenches-sin"
+   ],
+   "sentence": "Almsgiving was the ordinary remedy for the sin a person goes on committing after baptism.",
+   "tags": [
+    "lpc.witness.almsgiving-quenches-sin"
+   ]
+  }
+ ],
+ "sentences": [
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 0,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Our church gave, and our bishop taught giving: Cyprian wrote a whole treatise on almsgiving, and much of it speaks to believers who had money.",
+   "tags": [
+    "lpc.witness.almsgiving-quenches-sin"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 1,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Cyprian told them plainly that their wealth was for sharing their gains with Christ.",
+   "tags": [
+    "lpc.witness.almsgiving-quenches-sin"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 2,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Almsgiving was the ordinary remedy for the sin a person goes on committing after baptism.",
+   "tags": [
+    "lpc.witness.almsgiving-quenches-sin"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": null,
+   "n": 3,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Our sayings tell of the ransom of our captive brethren:",
+   "tags": [
+    "lpc.story.hundred-thousand-sesterces"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": null,
+   "n": 4,
+   "placed": true,
+   "placed_id": "lpc.story.hundred-thousand-sesterces",
+   "reason": "placed by code",
+   "sentence": "Eight bishops wrote to Cyprian, who led our church, that barbarians had carried off our brothers and sisters, and he read their letter with tears.",
+   "tags": [
+    "lpc.story.hundred-thousand-sesterces"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": null,
+   "n": 5,
+   "placed": true,
+   "placed_id": "lpc.story.hundred-thousand-sesterces",
+   "reason": "placed by code",
+   "sentence": "He answered that we must pay to set them free, not only out of love but because our religion called us to it.",
+   "tags": [
+    "lpc.story.hundred-thousand-sesterces"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": null,
+   "n": 6,
+   "placed": true,
+   "placed_id": "lpc.story.hundred-thousand-sesterces",
+   "reason": "placed by code",
+   "sentence": "Paul says that everyone baptized into Christ has put on Christ, so we were to see Christ himself in our captive brothers and sisters.",
+   "tags": [
+    "lpc.story.hundred-thousand-sesterces"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": null,
+   "n": 7,
+   "placed": true,
+   "placed_id": "lpc.story.hundred-thousand-sesterces",
+   "reason": "placed by code",
+   "sentence": "Our clergy and people gave quickly and freely.",
+   "tags": [
+    "lpc.story.hundred-thousand-sesterces"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": null,
+   "n": 8,
+   "placed": true,
+   "placed_id": "lpc.story.hundred-thousand-sesterces",
+   "reason": "placed by code",
+   "sentence": "We sent the bishops one hundred thousand sesterces to use for the captives as carefully as they could.",
+   "tags": [
+    "lpc.story.hundred-thousand-sesterces"
+   ]
+  }
+ ],
+ "shipped_by_net": "Our church gave, and our bishop taught giving: Cyprian wrote a whole treatise on almsgiving, and much of it speaks to believers who had money. Cyprian told them plainly that their wealth was for sharing their gains with Christ. Almsgiving was the ordinary remedy for the sin a person goes on committing after baptism.\n\nOur sayings tell of the ransom of our captive brethren:\n\nEight bishops wrote to Cyprian, who led our church, that barbarians had carried off our brothers and sisters, and he read their letter with tears.\n\nHe answered that we must pay to set them free, not only out of love but because our religion called us to it. Paul says that everyone baptized into Christ has put on Christ, so we were to see Christ himself in our captive brothers and sisters.\n\nOur clergy and people gave quickly and freely. We sent the bishops one hundred thousand sesterces to use for the captives as carefully as they could.",
+ "sub_question": "C10.S4"
+}

@@ -1,0 +1,1238 @@
+{
+ "entries": [
+  {
+   "id": "polycarp-of-smyrna",
+   "atlasId": "TBD",
+   "era": 1,
+   "kind": "person",
+   "toldWithin": "post-apostolic-house-church",
+   "name": "Polycarp of Smyrna",
+   "shortName": "Polycarp",
+   "informalName": "Polycarp, bishop of Smyrna",
+   "dates": "c. 110-155",
+   "start": 110,
+   "end": 155,
+   "region": "Smyrna",
+   "placeLabel": "Smyrna",
+   "modernCountries": [
+    {
+     "country": "Turkey",
+     "countryId": "Q43",
+     "place": "Smyrna",
+     "placeId": "Q1379299",
+     "pleiadesId": "550771"
+    }
+   ],
+   "regions": [
+    "Asia Minor"
+   ],
+   "lane": "Origin (pre-lane)",
+   "laneLabel": "Origin — before the lanes divide",
+   "laneOrder": 0,
+   "beyondFloor": false,
+   "status": "Within Another World (A5)",
+   "chip": "exc",
+   "glyph": "a5",
+   "statusWord": "Named within another tradition's story",
+   "statusDescription": "Not counted as a candidate tradition of its own — its story is told plainly inside another tradition's, rather than standing alone.",
+   "living": false,
+   "overlayCurrent": false,
+   "c2": null,
+   "sourcing": "Thin on his own words, strong on his death. The Library holds one letter by him, to the church at Philippi. It also holds the Smyrna church's own account of his death. Irenaeus and Eusebius add what they knew of him.\n\nHis letter is accepted as his own, though some scholars argue that its thirteenth chapter was added later. The year of his death is argued. Most scholars now say about 155. Jerome and the Chronicle of Eusebius point to 167.",
+   "floorNote": "Not in question.",
+   "relationsSummary": "Told within Post-Apostolic Household-Church Christianity, which holds his letter. Two of its links give what Irenaeus says of him. They deal with Marcion and Valentinus.",
+   "why": "Polycarp was bishop of Smyrna in Asia. His letter to the church at Philippi survives. Irenaeus saw him in his early youth and called him a pupil of the apostles. Polycarp died at Smyrna for refusing to curse Christ.",
+   "entry": null,
+   "teaser": "Smyrna, c. 110 to 155 CE: an old bishop who told the proconsul he had served Christ eighty-six years, and would not curse him.",
+   "longDescription": "Irenaeus saw Polycarp in his early youth. He says apostles in Asia made Polycarp bishop there. He says Polycarp lived a very long time and taught what he had learned from the apostles. Irenaeus could still describe the place where Polycarp sat and taught.\n\nPolycarp wrote to the church at Philippi, in his own name and that of the presbyters with him. He had Ignatius's letters and sent them on to Philippi. In Rome, Irenaeus says, Polycarp turned many away from Marcion and Valentinus. He also met Marcion once. Marcion asked, “Dost thou know me?” Polycarp answered, “I do know thee, the first-born of Satan.” He and Anicetus, bishop of Rome, disagreed about the keeping of Easter. Neither could persuade the other, yet they kept communion.\n\nAt Smyrna the proconsul told him to swear and to reproach Christ. Polycarp answered, “Eighty and six years have I served Him, and He never did me any injury: how then can I blaspheme my King and my Saviour?” The church of Smyrna wrote that the fire could not consume his body, so an executioner pierced him with a dagger.",
+   "voices": [
+    "Polycarp of Smyrna — bishop, whose letter to the church at Philippi the Library holds",
+    "Irenaeus of Lyon — who saw Polycarp in his youth and wrote down what he remembered of him"
+   ],
+   "legacy": "Two later traditions name him. The church historians Socrates and Sozomen tell of his Easter dispute with the bishop of Rome. Sozomen says that bishop was Victor. The Library's note says it was Anicetus.\n\nThe Anabaptists' Martyrs' Mirror tells his death at length. It has him tell the governor, “I have now served my Lord Christ Jesus eighty-six years.”",
+   "reviewStatus": "AI-checked"
+  },
+  {
+   "id": "methodius-of-olympus",
+   "atlasId": "TBD",
+   "era": 1,
+   "kind": "person",
+   "toldWithin": "anatolian-church-third-century",
+   "name": "Methodius of Olympus",
+   "shortName": "Methodius",
+   "informalName": "Methodius, bishop of Olympus",
+   "dates": "c. 290-312",
+   "start": 290,
+   "end": 312,
+   "region": "Olympus in Lycia",
+   "placeLabel": "Olympus",
+   "modernCountries": [
+    {
+     "country": "Turkey",
+     "countryId": "Q43",
+     "place": "Olympus",
+     "placeId": "Q1380189",
+     "pleiadesId": "639017"
+    }
+   ],
+   "regions": [
+    "Asia Minor"
+   ],
+   "lane": "3 Greek East & Orthodoxy",
+   "laneLabel": "Greek East & Orthodoxy",
+   "laneOrder": 3,
+   "beyondFloor": false,
+   "status": "Within Another World (A5)",
+   "chip": "exc",
+   "glyph": "a5",
+   "statusWord": "Named within another tradition's story",
+   "statusDescription": "Not counted as a candidate tradition of its own — its story is told plainly inside another tradition's, rather than standing alone.",
+   "living": false,
+   "overlayCurrent": false,
+   "c2": null,
+   "sourcing": "Moderate. The Library holds the Banquet of the Ten Virgins, his fragments and a treatise On Free Will. Its introduction calls the Banquet the only complete work of his that survives. It says critics doubt that On Free Will is his.\n\nSome sayings later writers give him may not be his. The editors also flag one work that Nikon cites under his name.",
+   "floorNote": "Not in question.",
+   "relationsSummary": "Told within The Anatolian Church in the Third Century, whose Library shelf holds his works. Two links of that entry name him: his books against Origen, and Jerome's list of his works.",
+   "why": "Methodius was a bishop in Lycia. He wrote the Banquet of the Ten Virgins, a dialogue that praises virginity. Its frame comes from Plato's Symposium. He also wrote against Origen. He died a martyr about 312.",
+   "entry": null,
+   "teaser": "Olympus in Lycia, c. 290 to 312 CE: a bishop who had ten women speak on chastity, and who wrote against Origen.",
+   "longDescription": "The sources do not agree on his sees. Jerome says Methodius was bishop of Olympus in Lycia and afterwards of Tyre. The Library's introduction says he held Olympus and Patara together. It puts his martyrdom about the year 312, at the end of the last great persecution.\n\nHis best-known book is the Banquet of the Ten Virgins. Ten women meet for a feast. Arete, whose name means Virtue, asks each one to speak in praise of virginity. Marcella, the eldest, speaks first. The Library's introduction calls it a dialogue of considerable power and grace.\n\nMethodius also wrote against Origen. Jerome lists On the Resurrection and On Free Will as aimed at him. Photius, a later reader, says the first holds that the body is not the soul's fetter. Yet the Library's introduction says Origen's way of reading Scripture shaped him too.",
+   "voices": [
+    "Methodius of Olympus — bishop and author of the Banquet of the Ten Virgins, whose works the Library holds",
+    "Jerome — who lists his books in his catalog of Christian writers"
+   ],
+   "legacy": "Later churches quote him as an early witness. In the Russian church, Nikon's replies to Streshnev and Ligarides quote a gloss on Revelation that gives Methodius's words. They say the woman clothed with the sun is the Church.\n\nIn the Catholic Church of the old regime, Liguori's Glories of Mary quotes words he gives to “St. Methodius the martyr” in praise of Mary.\n\nJerome lists the Banquet by name in his catalog of Christian writers. Whether he drew on it is not shown.",
+   "reviewStatus": "AI-checked"
+  },
+  {
+   "id": "lactantius",
+   "atlasId": "TBD",
+   "era": 1,
+   "kind": "person",
+   "toldWithin": "latin-apologists",
+   "name": "Lactantius",
+   "shortName": "Lactantius",
+   "informalName": "Firmianus, called Lactantius",
+   "dates": "c. 303-325",
+   "start": 303,
+   "end": 325,
+   "region": "Nicomedia, Gaul",
+   "placeLabel": "Nicomedia · Gaul",
+   "modernCountries": [],
+   "regions": [
+    "Asia Minor",
+    "Mediterranean"
+   ],
+   "lane": "5 Latin West & Catholicism",
+   "laneLabel": "Latin West & Catholicism",
+   "laneOrder": 5,
+   "beyondFloor": false,
+   "status": "Within Another World (A5)",
+   "chip": "exc",
+   "glyph": "a5",
+   "statusWord": "Named within another tradition's story",
+   "statusDescription": "Not counted as a candidate tradition of its own — its story is told plainly inside another tradition's, rather than standing alone.",
+   "living": false,
+   "overlayCurrent": false,
+   "c2": null,
+   "sourcing": "Rich. The Library holds four works of his own on the shelf of the Latin Apologists: the Divine Institutes, On the Workmanship of God, A Treatise on the Anger of God, and fragments. They come in Latin and in English.",
+   "floorNote": "Not in question. Jerome admired his style more than his teaching. He wished Lactantius had been as ready to teach Christian doctrine as to pull down other men's.",
+   "relationsSummary": "Told within The Latin Apologists, the entry whose line of writers ends with him. Two of its links name him: one where he says Tertullian had already argued the same cause, and one where Jerome has him teach Constantine's son.",
+   "why": "Lactantius taught rhetoric. Jerome says he was called to Nicomedia in the reign of Diocletian. Pupils were few there, so he took up writing. He wrote in Latin to defend the faith. His Divine Institutes open with an address to Constantine.",
+   "entry": null,
+   "teaser": "Nicomedia and Gaul, c. 303 to 325 CE: a teacher of Latin rhetoric who turned to writing when his pupils were few, and addressed his defence of the faith to Constantine.",
+   "longDescription": "Jerome calls him Firmianus, known also as Lactantius, and a pupil of Arnobius. In the reign of Diocletian he was summoned to Nicomedia to teach rhetoric. It was a Greek city, so he had few pupils. He turned to writing.\n\nJerome lists his books. They include a Banquet written as a young man in Africa, a verse Itinerary of a journey from Africa to Nicomedia, and a book On the Anger of God. Another is the Divine Institutes, in seven books. It begins, “We undertake, therefore, to discuss religion and divine things.” It is addressed to Constantine, the first of the Roman princes, Lactantius says, to give up errors and honour the one true God. In it he says Tertullian had already argued the same cause in full.\n\nIn extreme old age, Jerome says, Lactantius taught Crispus, a son of Constantine, in Gaul. Constantine later put Crispus to death. An editor's note in the Library puts the death of Lactantius at 325.",
+   "voices": [
+    "Lactantius — teacher of rhetoric and Christian writer, whose Divine Institutes, treatises and fragments the Library holds",
+    "Jerome — who lists his books and says he taught the son of Constantine"
+   ],
+   "legacy": "Two later traditions name him. Jerome, in his letters, says Lactantius has “a flow of eloquence worthy of Tully”, meaning Cicero. He adds a wish that Lactantius had been as ready to teach Christian doctrines as to pull down those of others. His catalog of Christian writers lists his books.\n\nCalvin cites him too. In the Institutes he ends one argument “with Lactantius”, that no religion is genuine if it does not agree with truth. On images, he tells readers to read Lactantius and Eusebius. A letter in his collected letters calls Lactantius “an ancient doctor of the Church.”",
+   "reviewStatus": "AI-checked"
+  }
+ ],
+ "fact_table": [
+  {
+   "entry": "polycarp-of-smyrna",
+   "field": "sourcing",
+   "sentence": "The Library holds one letter by him, to the church at Philippi.",
+   "grade": "Documented",
+   "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
+   "lines": "3166",
+   "quote": "There is extant an Epistle of Polycarp written"
+  },
+  {
+   "entry": "polycarp-of-smyrna",
+   "field": "sourcing",
+   "sentence": "It also holds the Smyrna church's own account of his death.",
+   "grade": "Documented",
+   "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
+   "lines": "3745",
+   "quote": "Concerning the Martyrdom of the Holy Polycarp"
+  },
+  {
+   "entry": "polycarp-of-smyrna",
+   "field": "sourcing",
+   "sentence": "Irenaeus and Eusebius add what they knew of him.",
+   "grade": "Documented",
+   "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
+   "lines": "39860",
+   "quote": "whom I also saw in my early youth"
+  },
+  {
+   "entry": "polycarp-of-smyrna",
+   "field": "sourcing",
+   "sentence": "Irenaeus and Eusebius add what they knew of him (Eusebius).",
+   "grade": "Documented",
+   "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+   "lines": "22841",
+   "quote": "The Circumstances related of Polycarp, a Friend of the Apostles"
+  },
+  {
+   "entry": "polycarp-of-smyrna",
+   "field": "sourcing",
+   "sentence": "His letter is accepted as his own.",
+   "grade": "Documented",
+   "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
+   "lines": "3163-3164",
+   "quote": "can on no fair grounds be questioned"
+  },
+  {
+   "entry": "polycarp-of-smyrna",
+   "field": "sourcing",
+   "sentence": "Some scholars argue that its thirteenth chapter was added later.",
+   "grade": "Contested",
+   "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
+   "lines": "3195-3196",
+   "quote": "to prove chap. xiii. to be an interpolation"
+  },
+  {
+   "entry": "polycarp-of-smyrna",
+   "field": "sourcing",
+   "sentence": "Most scholars now say about 155.",
+   "grade": "Widely Accepted",
+   "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+   "lines": "23049",
+   "quote": "between 154 and 156 (probably in 155)"
+  },
+  {
+   "entry": "polycarp-of-smyrna",
+   "field": "sourcing",
+   "sentence": "Jerome and the Chronicle of Eusebius point to 167.",
+   "grade": "Contested",
+   "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+   "lines": "23057",
+   "quote": "(166–167"
+  },
+  {
+   "entry": "polycarp-of-smyrna",
+   "field": "relationsSummary",
+   "sentence": "Told within the house-church tradition, which holds his letter.",
+   "grade": "Documented",
+   "census": "Census post-apostolic-house-church: people row names Polycarp of Smyrna, held row epistle-to-the-philippians-polycarp; voices line 3."
+  },
+  {
+   "entry": "polycarp-of-smyrna",
+   "field": "relationsSummary",
+   "sentence": "Two of its links, on Marcion and on Valentinus, give what Irenaeus says of him.",
+   "grade": "Documented",
+   "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
+   "lines": "39871-39873",
+   "quote": "He it was who, coming to Rome in the time of Anicetus caused many to turn away from the aforesaid heretics to the Church of God,",
+   "census": "Census edges post-apostolic-house-church--marcion-marcionism and post-apostolic-house-church--valentinian-and-other-gnostic-christianities."
+  },
+  {
+   "entry": "polycarp-of-smyrna",
+   "field": "why",
+   "sentence": "Polycarp was bishop of Smyrna in Asia.",
+   "grade": "Documented",
+   "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
+   "lines": "39859",
+   "quote": "by apostles in Asia, appointed bishop of the Church"
+  },
+  {
+   "entry": "polycarp-of-smyrna",
+   "field": "why",
+   "sentence": "His letter to the church at Philippi survives.",
+   "grade": "Documented",
+   "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
+   "lines": "3166",
+   "quote": "There is extant an Epistle of Polycarp written"
+  },
+  {
+   "entry": "polycarp-of-smyrna",
+   "field": "why",
+   "sentence": "Irenaeus saw him in his early youth and called him a pupil of the apostles.",
+   "grade": "Documented",
+   "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
+   "lines": "39860",
+   "quote": "whom I also saw in my early youth"
+  },
+  {
+   "entry": "polycarp-of-smyrna",
+   "field": "why",
+   "sentence": "Irenaeus called him a pupil of the apostles.",
+   "grade": "Documented",
+   "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
+   "lines": "39858",
+   "quote": "not only instructed by apostles"
+  },
+  {
+   "entry": "polycarp-of-smyrna",
+   "field": "why",
+   "sentence": "Polycarp died at Smyrna for refusing to curse Christ.",
+   "grade": "Documented",
+   "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
+   "lines": "3989",
+   "quote": "Swear, and I will set thee at liberty, reproach Christ;"
+  },
+  {
+   "entry": "polycarp-of-smyrna",
+   "field": "why",
+   "sentence": "Polycarp died at Smyrna.",
+   "grade": "Documented",
+   "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+   "lines": "23041",
+   "quote": "Under Verus, Polycarp with Others suffered Martyrdom at Smyrna"
+  },
+  {
+   "entry": "polycarp-of-smyrna",
+   "field": "teaser",
+   "sentence": "Smyrna, c. 110 to 155 CE (110 is the census row year; 155 from the editor note).",
+   "grade": "Widely Accepted",
+   "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+   "lines": "23049",
+   "quote": "between 154 and 156 (probably in 155)",
+   "census": "Start year 110 carried over from the census people row of post-apostolic-house-church; the Library says the letter cannot be dated closer than the middle of the second century (anf01 lines 3200-3203)."
+  },
+  {
+   "entry": "polycarp-of-smyrna",
+   "field": "teaser",
+   "sentence": "An old bishop.",
+   "grade": "Documented",
+   "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
+   "lines": "39861",
+   "quote": "when a very old man"
+  },
+  {
+   "entry": "polycarp-of-smyrna",
+   "field": "teaser",
+   "sentence": "He told the proconsul he had served Christ eighty-six years.",
+   "grade": "Documented",
+   "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
+   "lines": "3990",
+   "quote": "Eighty and six years have I served Him"
+  },
+  {
+   "entry": "polycarp-of-smyrna",
+   "field": "longDescription",
+   "sentence": "Irenaeus saw Polycarp in his early youth.",
+   "grade": "Documented",
+   "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
+   "lines": "39860",
+   "quote": "whom I also saw in my early youth"
+  },
+  {
+   "entry": "polycarp-of-smyrna",
+   "field": "longDescription",
+   "sentence": "He says apostles in Asia made Polycarp bishop there.",
+   "grade": "Documented",
+   "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
+   "lines": "39859",
+   "quote": "by apostles in Asia, appointed bishop of the Church"
+  },
+  {
+   "entry": "polycarp-of-smyrna",
+   "field": "longDescription",
+   "sentence": "He says Polycarp lived a very long time and taught what he had learned from the apostles.",
+   "grade": "Documented",
+   "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
+   "lines": "39866",
+   "quote": "always taught the things which he had learned from the apostles"
+  },
+  {
+   "entry": "polycarp-of-smyrna",
+   "field": "longDescription",
+   "sentence": "Polycarp lived a very long time.",
+   "grade": "Documented",
+   "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
+   "lines": "39860-39861",
+   "quote": "he tarried [on earth] a very long time"
+  },
+  {
+   "entry": "polycarp-of-smyrna",
+   "field": "longDescription",
+   "sentence": "Irenaeus could still describe the place where Polycarp sat and taught.",
+   "grade": "Documented",
+   "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
+   "lines": "3129",
+   "quote": "could describe the very place in which the blessed Polycarp sat and"
+  },
+  {
+   "entry": "polycarp-of-smyrna",
+   "field": "longDescription",
+   "sentence": "Polycarp wrote to the church at Philippi, in his own name and that of the presbyters with him.",
+   "grade": "Documented",
+   "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
+   "lines": "3232",
+   "quote": ", and the presbyters"
+  },
+  {
+   "entry": "polycarp-of-smyrna",
+   "field": "longDescription",
+   "sentence": "He had Ignatius's letters and sent them on to Philippi.",
+   "grade": "Documented",
+   "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
+   "lines": "3616",
+   "quote": "we have sent to you, as you requested"
+  },
+  {
+   "entry": "polycarp-of-smyrna",
+   "field": "longDescription",
+   "sentence": "In Rome, Irenaeus says, Polycarp turned many away from Marcion and Valentinus.",
+   "grade": "Documented",
+   "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
+   "lines": "39872-39873",
+   "quote": "caused many to turn away from the aforesaid heretics to the Church of God,"
+  },
+  {
+   "entry": "polycarp-of-smyrna",
+   "field": "longDescription",
+   "sentence": "Marcion and Valentinus are the \"aforesaid heretics\".",
+   "grade": "Documented",
+   "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
+   "lines": "39871",
+   "quote": "Valentinus, and Marcion, and the rest of the heretics"
+  },
+  {
+   "entry": "polycarp-of-smyrna",
+   "field": "longDescription",
+   "sentence": "He met Marcion once; Marcion asked and Polycarp answered.",
+   "grade": "Documented",
+   "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
+   "lines": "39884",
+   "quote": "“I do know thee, the first-born of Satan.”"
+  },
+  {
+   "entry": "polycarp-of-smyrna",
+   "field": "longDescription",
+   "sentence": "Marcion asked \"Dost thou know me?\"",
+   "grade": "Documented",
+   "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
+   "lines": "39883",
+   "quote": "“Dost thou know me?”"
+  },
+  {
+   "entry": "polycarp-of-smyrna",
+   "field": "longDescription",
+   "sentence": "He and Anicetus, bishop of Rome, disagreed about the keeping of Easter.",
+   "grade": "Documented",
+   "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+   "lines": "31603",
+   "quote": "For neither could Anicetus persuade Polycarp not to"
+  },
+  {
+   "entry": "polycarp-of-smyrna",
+   "field": "longDescription",
+   "sentence": "The disagreement was over the keeping of Easter (Socrates).",
+   "grade": "Documented",
+   "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml",
+   "lines": "16242-16243",
+   "quote": "differed in their celebration of Easter"
+  },
+  {
+   "entry": "polycarp-of-smyrna",
+   "field": "longDescription",
+   "sentence": "Neither could persuade the other, yet they kept communion.",
+   "grade": "Documented",
+   "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+   "lines": "31610",
+   "quote": "they communed together, and Anicetus conceded the"
+  },
+  {
+   "entry": "polycarp-of-smyrna",
+   "field": "longDescription",
+   "sentence": "At Smyrna the proconsul told him to swear and to reproach Christ.",
+   "grade": "Documented",
+   "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
+   "lines": "3989",
+   "quote": "Swear, and I will set thee at liberty, reproach Christ;"
+  },
+  {
+   "entry": "polycarp-of-smyrna",
+   "field": "longDescription",
+   "sentence": "Polycarp answered \"Eighty and six years...\"",
+   "grade": "Documented",
+   "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
+   "lines": "3990",
+   "quote": "Eighty and six years have I served Him, and He"
+  },
+  {
+   "entry": "polycarp-of-smyrna",
+   "field": "longDescription",
+   "sentence": "The church of Smyrna wrote that the fire could not consume his body, so an executioner pierced him with a dagger.",
+   "grade": "Documented",
+   "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
+   "lines": "4158-4160",
+   "quote": "his body could not be consumed by the fire, they commanded an executioner to go near and pierce him through with a dagger."
+  },
+  {
+   "entry": "polycarp-of-smyrna",
+   "field": "voices",
+   "sentence": "Polycarp of Smyrna, bishop, whose letter the Library holds.",
+   "grade": "Documented",
+   "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
+   "lines": "3166",
+   "quote": "There is extant an Epistle of Polycarp written"
+  },
+  {
+   "entry": "polycarp-of-smyrna",
+   "field": "voices",
+   "sentence": "Irenaeus saw Polycarp in his youth and wrote what he remembered.",
+   "grade": "Documented",
+   "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
+   "lines": "39860",
+   "quote": "whom I also saw in my early youth"
+  },
+  {
+   "entry": "polycarp-of-smyrna",
+   "field": "legacy",
+   "sentence": "Socrates and Sozomen tell of his Easter dispute with the bishop of Rome.",
+   "grade": "Documented",
+   "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml",
+   "lines": "41769",
+   "quote": "It appears to me that Victor, bishop of Rome, and Polycarp, bishop of"
+  },
+  {
+   "entry": "polycarp-of-smyrna",
+   "field": "legacy",
+   "sentence": "Socrates names the dispute too.",
+   "grade": "Documented",
+   "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml",
+   "lines": "16242-16243",
+   "quote": "differed in their celebration of Easter"
+  },
+  {
+   "entry": "polycarp-of-smyrna",
+   "field": "legacy",
+   "sentence": "Sozomen says the bishop was Victor; the Library's note says it was Anicetus.",
+   "grade": "Documented",
+   "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml",
+   "lines": "41772-41773",
+   "quote": "Not Victor, but Anicetus"
+  },
+  {
+   "entry": "polycarp-of-smyrna",
+   "field": "legacy",
+   "sentence": "The Martyrs' Mirror tells his death at length and gives his reply to the governor.",
+   "grade": "Documented",
+   "file": "cic/texts/van-braght_martyrs-mirror_sohm1886.txt",
+   "lines": "14811-14812",
+   "quote": "Polycarp gave the following candid reply, \"I have now served my Lord Christ Jesus eighty-six years,"
+  },
+  {
+   "entry": "polycarp-of-smyrna",
+   "field": "legacy",
+   "sentence": "The governor is called Stadtholder in the Martyrs' Mirror.",
+   "grade": "Documented",
+   "file": "cic/texts/van-braght_martyrs-mirror_sohm1886.txt",
+   "lines": "14808",
+   "quote": "The Stadtholder admonished him to have com-"
+  },
+  {
+   "entry": "methodius-of-olympus",
+   "field": "sourcing",
+   "sentence": "The Library holds the Banquet, his fragments and a treatise On Free Will.",
+   "grade": "Documented",
+   "file": "cic/texts/anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml",
+   "lines": "29774-29775",
+   "quote": "The only complete work of this writer which has come down to us is his"
+  },
+  {
+   "entry": "methodius-of-olympus",
+   "field": "sourcing",
+   "sentence": "The Library holds On Free Will; critics doubt it is his.",
+   "grade": "Documented",
+   "file": "cic/texts/anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml",
+   "lines": "29780",
+   "quote": "is, according to recent critics, of doubtful"
+  },
+  {
+   "entry": "methodius-of-olympus",
+   "field": "sourcing",
+   "sentence": "The Library flags On Free Will as of doubtful authorship.",
+   "grade": "Documented",
+   "file": "cic/texts/anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml",
+   "lines": "29780",
+   "quote": "is, according to recent critics, of doubtful"
+  },
+  {
+   "entry": "methodius-of-olympus",
+   "field": "sourcing",
+   "sentence": "The editors flag one work Nikon cites under his name.",
+   "grade": "Contested",
+   "file": "cic/texts/nikon_replies-against-streshnev-and-ligarides_palmer1871.txt",
+   "lines": "34884",
+   "quote": "St. Methodius, quoted, but erroneously, as Methodius bishop"
+  },
+  {
+   "entry": "methodius-of-olympus",
+   "field": "relationsSummary",
+   "sentence": "Told within the Anatolian church, whose shelf holds his works.",
+   "grade": "Documented",
+   "census": "Census anatolian-church-third-century: people row names Methodius of Olympus, held row fragments-of-methodius; voices line 2."
+  },
+  {
+   "entry": "methodius-of-olympus",
+   "field": "relationsSummary",
+   "sentence": "Two links name him: books against Origen and Jerome's list.",
+   "grade": "Documented",
+   "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml",
+   "lines": "41096-41097",
+   "quote": "bishop of Olympus in Lycia and afterwards of Tyre, composed books",
+   "census": "Census edges anatolian-church-third-century--alexandria-catechetical and anatolian-church-third-century--hieronymian-ascetic-literary."
+  },
+  {
+   "entry": "methodius-of-olympus",
+   "field": "why",
+   "sentence": "Methodius was a bishop in Lycia.",
+   "grade": "Documented",
+   "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml",
+   "lines": "41096-41097",
+   "quote": "bishop of Olympus in Lycia and afterwards of Tyre, composed books"
+  },
+  {
+   "entry": "methodius-of-olympus",
+   "field": "why",
+   "sentence": "He wrote the Banquet of the Ten Virgins, in praise of virginity.",
+   "grade": "Documented",
+   "file": "cic/texts/anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml",
+   "lines": "29777",
+   "quote": "in praise of the virginal life"
+  },
+  {
+   "entry": "methodius-of-olympus",
+   "field": "why",
+   "sentence": "The Banquet's frame comes from Plato's Symposium.",
+   "grade": "Documented",
+   "file": "cic/texts/anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml",
+   "lines": "29827",
+   "quote": "The idea, and some of the ideas borrowed from the"
+  },
+  {
+   "entry": "methodius-of-olympus",
+   "field": "why",
+   "sentence": "He also wrote against Origen.",
+   "grade": "Documented",
+   "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml",
+   "lines": "41100",
+   "quote": "<i>On free will,</i> also against Origen."
+  },
+  {
+   "entry": "methodius-of-olympus",
+   "field": "why",
+   "sentence": "He died a martyr about 312.",
+   "grade": "Documented",
+   "file": "cic/texts/anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml",
+   "lines": "29763",
+   "quote": "about the year 312, he suffered martyrdom at Chalcis in Greece."
+  },
+  {
+   "entry": "methodius-of-olympus",
+   "field": "teaser",
+   "sentence": "Ten women speak on chastity in the Banquet.",
+   "grade": "Documented",
+   "file": "cic/texts/anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml",
+   "lines": "29973",
+   "quote": "each of you shall pronounce a discourse in"
+  },
+  {
+   "entry": "methodius-of-olympus",
+   "field": "teaser",
+   "sentence": "He wrote against Origen.",
+   "grade": "Documented",
+   "file": "cic/texts/anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml",
+   "lines": "29771",
+   "quote": "Methodius is known chiefly as the antagonist of"
+  },
+  {
+   "entry": "methodius-of-olympus",
+   "field": "teaser",
+   "sentence": "Start year 290 carried over from the census people row; end 312 from the Library introduction.",
+   "grade": "Documented",
+   "file": "cic/texts/anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml",
+   "lines": "29763",
+   "quote": "about the year 312, he suffered martyrdom at Chalcis in Greece.",
+   "census": "Start year 290 is the year of the census people row of anatolian-church-third-century; no vendored source gives his birth or the year he became bishop."
+  },
+  {
+   "entry": "methodius-of-olympus",
+   "field": "longDescription",
+   "sentence": "Jerome says Methodius was bishop of Olympus in Lycia and afterwards of Tyre.",
+   "grade": "Documented",
+   "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml",
+   "lines": "41096-41097",
+   "quote": "bishop of Olympus in Lycia and afterwards of Tyre, composed books"
+  },
+  {
+   "entry": "methodius-of-olympus",
+   "field": "longDescription",
+   "sentence": "The Library's introduction says he held Olympus and Patara together.",
+   "grade": "Documented",
+   "file": "cic/texts/anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml",
+   "lines": "29758",
+   "quote": "bishop, simultaneously of Olympus and Patara, in Lycia"
+  },
+  {
+   "entry": "methodius-of-olympus",
+   "field": "longDescription",
+   "sentence": "It puts his martyrdom about 312, at the end of the last great persecution.",
+   "grade": "Documented",
+   "file": "cic/texts/anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml",
+   "lines": "29762",
+   "quote": "and at the end of the latest of the great persecutions of the Church,"
+  },
+  {
+   "entry": "methodius-of-olympus",
+   "field": "longDescription",
+   "sentence": "Others, the Library says, placed his death under Decius and Valerian; it calls that incorrect.",
+   "grade": "Contested",
+   "file": "cic/texts/anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml",
+   "lines": "29767",
+   "quote": "Others affirm that he suffered under Decius and"
+  },
+  {
+   "entry": "methodius-of-olympus",
+   "field": "longDescription",
+   "sentence": "His best-known book is the Banquet of the Ten Virgins, a dialogue.",
+   "grade": "Documented",
+   "file": "cic/texts/anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml",
+   "lines": "29776",
+   "quote": "a dialogue of considerable power and"
+  },
+  {
+   "entry": "methodius-of-olympus",
+   "field": "longDescription",
+   "sentence": "Arete, whose name means Virtue, asks each to speak in praise of virginity.",
+   "grade": "Documented",
+   "file": "cic/texts/anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml",
+   "lines": "29973",
+   "quote": "That each of you shall pronounce a discourse in"
+  },
+  {
+   "entry": "methodius-of-olympus",
+   "field": "longDescription",
+   "sentence": "Arete means Virtue.",
+   "grade": "Documented",
+   "file": "cic/texts/anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml",
+   "lines": "29962",
+   "quote": "After this Arete,<note anchored=\"yes\" id=\"xi.iii.i-p28.2\" n=\"2502\" place=\"end\"><p class=\"endnote\" id=\"xi.iii.i-p29\" shownumber=\"no\"> [Virtue"
+  },
+  {
+   "entry": "methodius-of-olympus",
+   "field": "longDescription",
+   "sentence": "Marcella, the eldest, speaks first.",
+   "grade": "Documented",
+   "file": "cic/texts/anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml",
+   "lines": "29974",
+   "quote": "Let Marcella begin, since she sits in the"
+  },
+  {
+   "entry": "methodius-of-olympus",
+   "field": "longDescription",
+   "sentence": "The Library calls it a dialogue of considerable power and grace.",
+   "grade": "Documented",
+   "file": "cic/texts/anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml",
+   "lines": "29776",
+   "quote": "a dialogue of considerable power and"
+  },
+  {
+   "entry": "methodius-of-olympus",
+   "field": "longDescription",
+   "sentence": "Ten women meet for a feast.",
+   "grade": "Documented",
+   "file": "cic/texts/anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml",
+   "lines": "29960-29961",
+   "quote": "we had all kinds of food and a variety of festivities"
+  },
+  {
+   "entry": "methodius-of-olympus",
+   "field": "longDescription",
+   "sentence": "Jerome lists On the Resurrection and On Free Will as aimed at Origen.",
+   "grade": "Documented",
+   "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml",
+   "lines": "41099-41100",
+   "quote": "<i>On the resurrection,</i> against Origen and <i>On the Pythonissa</i> and"
+  },
+  {
+   "entry": "methodius-of-olympus",
+   "field": "longDescription",
+   "sentence": "Jerome lists On Free Will against Origen.",
+   "grade": "Documented",
+   "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml",
+   "lines": "41100",
+   "quote": "<i>On free will,</i> also against Origen."
+  },
+  {
+   "entry": "methodius-of-olympus",
+   "field": "longDescription",
+   "sentence": "Photius says the first holds that the body is not the soul's fetter.",
+   "grade": "Documented",
+   "file": "cic/texts/anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml",
+   "lines": "35866-35867",
+   "quote": "that the body is not the fetter of the soul, as Origen thought,"
+  },
+  {
+   "entry": "methodius-of-olympus",
+   "field": "longDescription",
+   "sentence": "The Library says Origen's method shaped him too.",
+   "grade": "Documented",
+   "file": "cic/texts/anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml",
+   "lines": "29772-29773",
+   "quote": "he was himself influenced in no small degree by the method of Origen"
+  },
+  {
+   "entry": "methodius-of-olympus",
+   "field": "voices",
+   "sentence": "Methodius of Olympus, author of the Banquet, whose works the Library holds.",
+   "grade": "Documented",
+   "file": "cic/texts/anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml",
+   "lines": "29774-29775",
+   "quote": "The only complete work of this writer which has come down to us is his"
+  },
+  {
+   "entry": "methodius-of-olympus",
+   "field": "voices",
+   "sentence": "Jerome lists his books in his catalog.",
+   "grade": "Documented",
+   "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml",
+   "lines": "41096-41097",
+   "quote": "bishop of Olympus in Lycia and afterwards of Tyre, composed books"
+  },
+  {
+   "entry": "methodius-of-olympus",
+   "field": "legacy",
+   "sentence": "Nikon's replies quote a gloss that gives Methodius's words on the woman clothed with the sun.",
+   "grade": "Documented",
+   "file": "cic/texts/nikon_replies-against-streshnev-and-ligarides_palmer1871.txt",
+   "lines": "21582-21583",
+   "quote": "It will be well to recite the very words of St. Methodius, which are these:"
+  },
+  {
+   "entry": "methodius-of-olympus",
+   "field": "legacy",
+   "sentence": "They say the woman clothed with the sun is the Church.",
+   "grade": "Documented",
+   "file": "cic/texts/nikon_replies-against-streshnev-and-ligarides_palmer1871.txt",
+   "lines": "21583",
+   "quote": "The woman clothed with the sun is the Church"
+  },
+  {
+   "entry": "methodius-of-olympus",
+   "field": "legacy",
+   "sentence": "The passage sits in a quoted gloss.",
+   "grade": "Documented",
+   "file": "cic/texts/nikon_replies-against-streshnev-and-ligarides_palmer1871.txt",
+   "lines": "21578-21579",
+   "quote": "But the great Methodius explains her to be the holy Church"
+  },
+  {
+   "entry": "methodius-of-olympus",
+   "field": "legacy",
+   "sentence": "Liguori quotes words he gives to St. Methodius the martyr in praise of Mary.",
+   "grade": "Documented",
+   "file": "cic/texts/liguori_glories-of-mary_1852.txt",
+   "lines": "4252-4253",
+   "quote": "Wherefore, St. Methodius the martyr exclaims: Rejoice, oh Mary,"
+  },
+  {
+   "entry": "methodius-of-olympus",
+   "field": "legacy",
+   "sentence": "Jerome lists the Banquet by name; whether he drew on it is not shown.",
+   "grade": "Documented",
+   "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml",
+   "lines": "41098",
+   "quote": "also a <i>Banquet of the ten virgins,</i> an",
+   "census": "Census edge anatolian-church-third-century--hieronymian-ascetic-literary note: \"whether he drew on it in his own writing is not shown.\""
+  },
+  {
+   "entry": "lactantius",
+   "field": "sourcing",
+   "sentence": "The Library holds the Divine Institutes, On the Workmanship of God, the Treatise on the Anger of God and fragments (own words).",
+   "grade": "Documented",
+   "file": "cic/texts/anf07_lactantius-apostolic-constitutions-didache-liturgies.xml",
+   "lines": "569",
+   "quote": "We undertake, therefore, to discuss religion and divine things.",
+   "census": "Later-worlds count row C046, own_words: four works on the latin-apologists shelf as role tradition."
+  },
+  {
+   "entry": "lactantius",
+   "field": "floorNote",
+   "sentence": "Jerome admired his style; he wished Lactantius had been as ready to teach Christian doctrines as to pull down others'.",
+   "grade": "Documented",
+   "file": "cic/texts/npnf206_jerome-principal-works.xml",
+   "lines": "14112-14114",
+   "quote": "Lactantius has a flow of eloquence worthy of Tully: would that he had been as ready to teach our doctrines as he was to pull down those of others!"
+  },
+  {
+   "entry": "lactantius",
+   "field": "relationsSummary",
+   "sentence": "Told within the Latin Apologists, whose line of writers ends with him.",
+   "grade": "Documented",
+   "census": "Census latin-apologists longDescription: \"at the end of the line stands Lactantius\"; people row names Lactantius, held row a-treatise-on-the-anger-of-god."
+  },
+  {
+   "entry": "lactantius",
+   "field": "relationsSummary",
+   "sentence": "Two links name him.",
+   "grade": "Documented",
+   "file": "cic/texts/lactantius_divinae-institutiones-lat_brandt1890-csel-tei.txt",
+   "lines": "23225",
+   "quote": "quamquam Tertullianus eandem causam plene perorauerit",
+   "census": "Census edges tertullian-s-voice--latin-apologists and latin-apologists--imperial-juridical-christianity."
+  },
+  {
+   "entry": "lactantius",
+   "field": "relationsSummary",
+   "sentence": "Jerome has him teach Constantine's son.",
+   "grade": "Documented",
+   "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml",
+   "lines": "41051-41053",
+   "quote": "In his extreme old age he was tutor to Crispus Cæsar a son of Constantine in Gaul"
+  },
+  {
+   "entry": "lactantius",
+   "field": "why",
+   "sentence": "Lactantius taught rhetoric.",
+   "grade": "Documented",
+   "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml",
+   "lines": "41037",
+   "quote": "taught rhetoric there and on account of his lack of pupils"
+  },
+  {
+   "entry": "lactantius",
+   "field": "why",
+   "sentence": "Jerome says he was called to Nicomedia in the reign of Diocletian.",
+   "grade": "Documented",
+   "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml",
+   "lines": "41035",
+   "quote": "during the reign of Diocletian summoned to Nicomedia"
+  },
+  {
+   "entry": "lactantius",
+   "field": "why",
+   "sentence": "Pupils were few there, so he took up writing.",
+   "grade": "Documented",
+   "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml",
+   "lines": "41037",
+   "quote": "on account of his lack of pupils"
+  },
+  {
+   "entry": "lactantius",
+   "field": "why",
+   "sentence": "He wrote in Latin to defend the faith.",
+   "grade": "Documented",
+   "census": "Census latin-apologists voices: \"the fullest of the Latin defenses\"; Jerome lists the work as Divine institutes against the nations."
+  },
+  {
+   "entry": "lactantius",
+   "field": "why",
+   "sentence": "The Divine Institutes are against the nations.",
+   "grade": "Documented",
+   "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml",
+   "lines": "41042-41043",
+   "quote": "<i>Divine institutes against the nations,</i>"
+  },
+  {
+   "entry": "lactantius",
+   "field": "why",
+   "sentence": "His Divine Institutes open with an address to Constantine.",
+   "grade": "Documented",
+   "file": "cic/texts/anf07_lactantius-apostolic-constitutions-didache-liturgies.xml",
+   "lines": "571",
+   "quote": "who were the first of the Roman princes to repudiate errors, and to acknowledge and honour the majesty of the one and only true God."
+  },
+  {
+   "entry": "lactantius",
+   "field": "teaser",
+   "sentence": "He turned to writing when his pupils were few.",
+   "grade": "Documented",
+   "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml",
+   "lines": "41037",
+   "quote": "on account of his lack of pupils"
+  },
+  {
+   "entry": "lactantius",
+   "field": "teaser",
+   "sentence": "He addressed the work to Constantine.",
+   "grade": "Documented",
+   "file": "cic/texts/anf07_lactantius-apostolic-constitutions-didache-liturgies.xml",
+   "lines": "571",
+   "quote": "who were the first of the Roman princes to repudiate errors, and to acknowledge and honour the majesty of the one and only true God."
+  },
+  {
+   "entry": "lactantius",
+   "field": "teaser",
+   "sentence": "Dates: died 325 (editor note); 303 from the census row.",
+   "grade": "Documented",
+   "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml",
+   "lines": "41033-41034",
+   "quote": "Died 325.",
+   "census": "Start year 303 carried over from the census people row of latin-apologists; the Brandt edition header gives c. 250 to c. 325."
+  },
+  {
+   "entry": "lactantius",
+   "field": "longDescription",
+   "sentence": "Jerome calls him Firmianus, known also as Lactantius, a pupil of Arnobius.",
+   "grade": "Documented",
+   "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml",
+   "lines": "41034",
+   "quote": "known also as Lactantius, a disciple of"
+  },
+  {
+   "entry": "lactantius",
+   "field": "longDescription",
+   "sentence": "In Diocletian's reign he was summoned to Nicomedia to teach rhetoric.",
+   "grade": "Documented",
+   "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml",
+   "lines": "41035",
+   "quote": "during the reign of Diocletian summoned to Nicomedia"
+  },
+  {
+   "entry": "lactantius",
+   "field": "longDescription",
+   "sentence": "It was a Greek city, so he had few pupils.",
+   "grade": "Documented",
+   "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml",
+   "lines": "41037-41038",
+   "quote": "(since it was a Greek city)"
+  },
+  {
+   "entry": "lactantius",
+   "field": "longDescription",
+   "sentence": "He turned to writing.",
+   "grade": "Documented",
+   "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml",
+   "lines": "41038",
+   "quote": "he betook himself to writing"
+  },
+  {
+   "entry": "lactantius",
+   "field": "longDescription",
+   "sentence": "Jerome lists a Banquet written as a young man in Africa.",
+   "grade": "Documented",
+   "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml",
+   "lines": "41039",
+   "quote": "which he wrote as a young man in Africa"
+  },
+  {
+   "entry": "lactantius",
+   "field": "longDescription",
+   "sentence": "A verse Itinerary of a journey from Africa to Nicomedia.",
+   "grade": "Documented",
+   "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml",
+   "lines": "41040",
+   "quote": "of a journey from Africa to Nicomedia written in"
+  },
+  {
+   "entry": "lactantius",
+   "field": "longDescription",
+   "sentence": "A book On the Anger of God.",
+   "grade": "Documented",
+   "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml",
+   "lines": "41042",
+   "quote": "a most beautiful one <i>On the wrath of God,</i>"
+  },
+  {
+   "entry": "lactantius",
+   "field": "longDescription",
+   "sentence": "The Divine Institutes, seven books.",
+   "grade": "Documented",
+   "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml",
+   "lines": "41043",
+   "quote": "seven books, and an <i>Epitome</i>"
+  },
+  {
+   "entry": "lactantius",
+   "field": "longDescription",
+   "sentence": "It begins \"We undertake, therefore, to discuss religion and divine things.\"",
+   "grade": "Documented",
+   "file": "cic/texts/anf07_lactantius-apostolic-constitutions-didache-liturgies.xml",
+   "lines": "569",
+   "quote": "We undertake, therefore, to discuss religion and divine things."
+  },
+  {
+   "entry": "lactantius",
+   "field": "longDescription",
+   "sentence": "It is addressed to Constantine, the first of the Roman princes to give up errors and honour the one true God.",
+   "grade": "Documented",
+   "file": "cic/texts/anf07_lactantius-apostolic-constitutions-didache-liturgies.xml",
+   "lines": "571",
+   "quote": "who were the first of the Roman princes to repudiate errors, and to acknowledge and honour the majesty of the one and only true God."
+  },
+  {
+   "entry": "lactantius",
+   "field": "longDescription",
+   "sentence": "In it he says Tertullian had already argued the same cause in full.",
+   "grade": "Documented",
+   "file": "cic/texts/lactantius_divinae-institutiones-lat_brandt1890-csel-tei.txt",
+   "lines": "23225",
+   "quote": "quamquam Tertullianus eandem causam plene perorauerit"
+  },
+  {
+   "entry": "lactantius",
+   "field": "longDescription",
+   "sentence": "In extreme old age he taught Crispus, a son of Constantine, in Gaul.",
+   "grade": "Documented",
+   "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml",
+   "lines": "41051-41053",
+   "quote": "In his extreme old age he was tutor to Crispus Cæsar a son of Constantine in Gaul"
+  },
+  {
+   "entry": "lactantius",
+   "field": "longDescription",
+   "sentence": "Constantine later put Crispus to death.",
+   "grade": "Documented",
+   "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml",
+   "lines": "41053",
+   "quote": "the same one who was afterwards put to death by his"
+  },
+  {
+   "entry": "lactantius",
+   "field": "longDescription",
+   "sentence": "An editor's note puts the death of Lactantius at 325.",
+   "grade": "Documented",
+   "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml",
+   "lines": "41033-41034",
+   "quote": "Died 325."
+  },
+  {
+   "entry": "lactantius",
+   "field": "voices",
+   "sentence": "Lactantius, whose Divine Institutes the Library holds.",
+   "grade": "Documented",
+   "file": "cic/texts/anf07_lactantius-apostolic-constitutions-didache-liturgies.xml",
+   "lines": "569",
+   "quote": "We undertake, therefore, to discuss religion and divine things."
+  },
+  {
+   "entry": "lactantius",
+   "field": "voices",
+   "sentence": "Jerome lists his books and says he taught Constantine's son.",
+   "grade": "Documented",
+   "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml",
+   "lines": "41051-41053",
+   "quote": "In his extreme old age he was tutor to Crispus Cæsar a son of Constantine in Gaul"
+  },
+  {
+   "entry": "lactantius",
+   "field": "legacy",
+   "sentence": "Jerome, in his letters: a flow of eloquence worthy of Tully; wished he had been as ready to teach our doctrines.",
+   "grade": "Documented",
+   "file": "cic/texts/npnf206_jerome-principal-works.xml",
+   "lines": "14112-14114",
+   "quote": "Lactantius has a flow of eloquence worthy of Tully: would that he had been as ready to teach our doctrines as he was to pull down those of others!"
+  },
+  {
+   "entry": "lactantius",
+   "field": "legacy",
+   "sentence": "His catalog of Christian writers lists his books.",
+   "grade": "Documented",
+   "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml",
+   "lines": "41034",
+   "quote": "known also as Lactantius, a disciple of"
+  },
+  {
+   "entry": "lactantius",
+   "field": "legacy",
+   "sentence": "Calvin ends one argument with Lactantius.",
+   "grade": "Documented",
+   "file": "cic/texts/calvin_institutes-christian-religion-vol1_beveridge1845.txt",
+   "lines": "7254",
+   "quote": "to conclude with Lactantius,"
+  },
+  {
+   "entry": "lactantius",
+   "field": "legacy",
+   "sentence": "No religion is genuine if it does not agree with truth.",
+   "grade": "Documented",
+   "file": "cic/texts/calvin_institutes-christian-religion-vol1_beveridge1845.txt",
+   "lines": "7255",
+   "quote": "\"No religion is genuine that is not in accordance with"
+  },
+  {
+   "entry": "lactantius",
+   "field": "legacy",
+   "sentence": "On images, Calvin tells readers to read Lactantius and Eusebius.",
+   "grade": "Documented",
+   "file": "cic/texts/calvin_institutes-christian-religion-vol1_beveridge1845.txt",
+   "lines": "10123",
+   "quote": "let Lactantius and Eusebius"
+  },
+  {
+   "entry": "lactantius",
+   "field": "legacy",
+   "sentence": "The images argument: all human attempts to give God a visible shape.",
+   "grade": "Documented",
+   "file": "cic/texts/calvin_institutes-christian-religion-vol1_beveridge1845.txt",
+   "lines": "10120-10121",
+   "quote": "all human attempts to give a visible shape to God are vanity and lies"
+  },
+  {
+   "entry": "lactantius",
+   "field": "legacy",
+   "sentence": "A letter in Calvin's collected letters calls him an ancient doctor of the Church.",
+   "grade": "Documented",
+   "file": "cic/texts/calvin_letters-vol1_bonnet1858.txt",
+   "lines": "16669-16670",
+   "quote": "Lactantius also, an ancient doctor of the Church,"
+  }
+ ],
+ "concerns": [
+  {
+   "link_id": "tertullian-s-voice--latin-apologists",
+   "concerns": "lactantius"
+  },
+  {
+   "link_id": "latin-apologists--imperial-juridical-christianity",
+   "concerns": "lactantius"
+  }
+ ],
+ "rows": [
+  {
+   "movement": "post-apostolic-house-church",
+   "replace_name": "Polycarp of Smyrna",
+   "person": "polycarp-of-smyrna"
+  },
+  {
+   "movement": "anatolian-church-third-century",
+   "replace_name": "Methodius of Olympus",
+   "person": "methodius-of-olympus"
+  },
+  {
+   "movement": "latin-apologists",
+   "replace_name": "Lactantius",
+   "person": "lactantius"
+  }
+ ],
+ "links": [],
+ "wants": [
+  "Nicomedia and Trier or Gaul place IDs (country, place, Pleiades) for Lactantius: no census entry names them, so his modernCountries is empty. Wanted: a place entry added by whoever owns the place table.",
+  "Lightfoot, The Apostolic Fathers (Polycarp volume), or another vendored edition giving the date of Polycarp's death and the case on chapter 13: the Library's own editors disagree (155 or 156 in the Eusebius notes; about 167 in the Irenaeus note).",
+  "A source for Methodius's birth and the years he was bishop; the Library gives only the death (about 311 or 312) and the dispute over his sees and the place of his death."
+ ],
+ "flags": [
+  "POLYCARP, concerns: both links in links_naming_person (post-apostolic-house-church--marcion-marcionism and post-apostolic-house-church--valentinian-and-other-gnostic-christianities) already carry concerns irenaeus-of-lyon. Their notes and quotes are about Polycarp's words and acts as much as Irenaeus's. Not overwritten; Mark or the coordinator may want to move them to polycarp-of-smyrna.",
+  "METHODIUS, concerns: anatolian-church-third-century--alexandria-catechetical (concerns origen) and anatolian-church-third-century--hieronymian-ascetic-literary (concerns jerome) already carry concerns and are not overwritten. The first is about Methodius's own books against Origen, the second about Jerome's list of Methodius's works. The other three links in the packet (cyrillo-methodian-slavic-christianity--kievan-rus-christianity, byzantine-imperial-church-heraclian-iconoclast--byzantine-imperial-church-macedonian, byzantine-imperial-church-macedonian--cyrillo-methodian-slavic-christianity) name a different Methodius (the missionary, and the patriarch of 843). I did not add concerns to them.",
+  "DATES AND START YEARS: start must keep each home people row in date order, so three start years are the census row years, with no better vendored source: Polycarp 110, Methodius 290, Lactantius 303. The Library says Polycarp's letter cannot be dated closer than the middle of the second century (anf01 lines 3200-3203); no vendored source gives Methodius's birth or Lactantius's start. End years are sourced: Polycarp 155 (the Eusebius editor, Widely Accepted, and the census), Methodius about 312, Lactantius 325 (editor note in the Library; the Brandt header gives c. 250 to c. 325).",
+  "POLYCARP, death year: the Library itself gives 155 or 156 (Eusebius editor), the heading a.d. 65-100-155 (Irenaeus introduction), and about 167 (Irenaeus editor note, at the Marcion passage). sourcing states the dispute. Polycarp's Socrates passage also says he died under Gordian, which the Library's note corrects.",
+  "POLYCARP, Easter dispute: the long dispute figures in two Library sources (Eusebius HE V.24 quoting Irenaeus; Socrates V.22). Eusebius's editor notes the meaning of Anicetus's 'conceding the eucharist' is disputed; the entry does not state it.",
+  "METHODIUS, sees and death: the Library gives Olympus and Patara (Library introduction, citing Jerome) while Jerome says Olympus and afterwards Tyre; it places his death at Chalcis, Greece or Syria, about 312, and says the claim of a death under Decius and Valerian is incorrect. The entry gives the first two and the date. The Library's 'about 312' and Jerome's editor's note 'died 311 or 312' agree with the census 'around 311'.",
+  "METHODIUS, later traditions: the Russian count rests on a quoted gloss on Revelation inside Nikon's replies, not Nikon's own sentences (the count's doubts). The legacy says exactly that. Palmer's note says one Methodius work Nikon cites is quoted erroneously; Liguori's sayings may include words now given to pseudo-Methodius. sourcing says 'some sayings later writers give him may not be his' and does not say which. The Nikon text is an OCR file; the quoted passage is taken verbatim from it.",
+  "LACTANTIUS, place: region 'Nicomedia, Gaul' (Jerome's words). modernCountries is empty because no census entry carries Nicomedia or Gaul and I do not type IDs from memory. regions is Asia Minor and Mediterranean, not the home's three.",
+  "LACTANTIUS, concerns: both links in links_naming_person had concerns null and are set to lactantius in the concerns list. In tertullian-s-voice--latin-apologists the person the sources quote is Lactantius (it is his sentence about Tertullian). The link's from end is tertullian-s-voice, but that does not change whose words the sources are.",
+  "LEGACY, Calvin letter: the Calvin letters line cited (calvin_letters-vol1_bonnet1858.txt, line 16669) is a 1543 letter in Calvin's collected letters; the OCR heading names the curate of Cernex as the recipient. The legacy says only 'a letter in his collected letters'.",
+  "NO NEW LINKS. Each entry's prose only names people and works already carried by existing links. 'Names him' and 'cites him' are the only claims about later writers.",
+  "TEXT USED FROM THE LIBRARY: the unnumbered notes inside the ANF volumes (translator's notices, editor brackets) are used as sources and are labelled as the Library's editors where the entry leans on them.",
+  "FLOOR NOTES: per the revision brief, floorNote carries only the doctrinal-floor note, as in origen. For Polycarp and Methodius the date and source caveats moved to sourcing (the Polycarp letter and death-year dispute; Methodius's doubtful sayings). Their fact rows moved with them (field sourcing)."
+ ]
+}

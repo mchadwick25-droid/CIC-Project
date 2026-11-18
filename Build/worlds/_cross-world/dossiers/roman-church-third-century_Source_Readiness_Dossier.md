@@ -7,7 +7,7 @@ See `Build/worlds/_cross-world/SOURCE-READINESS.md` for what this is.
 **Time window:** c. 200–268
 **Region(s):** Rome
 **Dossier author / date:** source-research thread, 2026-09-15
-**Corpus-map / `cic/texts/` state as of:** PR #182 (merged 2026-09-13)
+**Corpus-map / `cic/texts/` state as of:** PR #182 (merged September 2026)
 
 ## 1. Already assigned
 
@@ -35,7 +35,7 @@ No further cross-link candidates identified this pass.
 
 | title | author | translator | year | url | rights basis | verified by (method + date) |
 |---|---|---|---|---|---|---|
-| The Apostolic Tradition of Hippolytus | attrib. Hippolytus | Burton Scott Easton | 1934 | https://www.gutenberg.org/ebooks/61614 | pd-us-by-date | direct WebFetch verification, 2026-09-13 (Project Gutenberg's own "Public domain in the USA" tag, translator, and full-text downloadability confirmed against the host directly). Queued in `download-queue-seed.yaml`, status `not-yet-downloaded`. |
+| The Apostolic Tradition of Hippolytus | attrib. Hippolytus | Burton Scott Easton | 1934 | https://www.gutenberg.org/ebooks/61614 | pd-us-by-date | direct WebFetch verification, September 2026 (Project Gutenberg's own "Public domain in the USA" tag, translator, and full-text downloadability confirmed against the host directly). Queued in `download-queue-seed.yaml`, status `not-yet-downloaded`. |
 
 This is a genuine, unfilled gap, not a cross-linking oversight: ANF05's Hippolytus material (1885) predates the 1910s Schwartz/Connolly identification of the Apostolic Tradition as his own work, so it was never in scope for that volume and nothing else in the corpus carries it.
 

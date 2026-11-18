@@ -1,0 +1,184 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "syr.term.qyama"
+   ],
+   "sentence": "For the sons and daughters of the covenant, a day was lived in town among their own kin, serving the congregation by the fast, the watch, the vigil and the singing."
+  },
+  {
+   "record_ids": [
+    "syr.term.qyama"
+   ],
+   "sentence": "They promised a celibate life for good, yet they did not leave for the desert."
+  },
+  {
+   "record_ids": [
+    "syr.gravity.covenant-life"
+   ],
+   "sentence": "They were men and women vowed to lifelong celibacy and service inside the town congregation."
+  },
+  {
+   "record_ids": [
+    "syr.force.qyama-commitment"
+   ],
+   "sentence": "Aphrahat's Demonstration 6, from 337, treats the order as already set up, needing correction more than founding."
+  },
+  {
+   "record_ids": [
+    "syr.dw.adam-grace"
+   ],
+   "sentence": "Our sage taught that fasting, prayer, love, almsgiving and meekness were raised on faith, like a house on a foundation stone."
+  },
+  {
+   "record_ids": [
+    "syr.quote.aphrahat-stone-foundation"
+   ],
+   "sentence": "The Persian sage wrote in Demonstration I: “In the same way the true Stone, our Lord Jesus Christ, is the foundation of all our faith. On him, on this Stone, faith is laid; and resting on faith, the whole structure rises until it is complete.”"
+  },
+  {
+   "record_ids": [
+    "syr.limit.f5-women-own-words"
+   ],
+   "sentence": "Not one line written by a woman of the covenant was kept, and we can tell you only how men praised them."
+  },
+  {
+   "record_ids": [
+    "syr.limit.f5-enslaved"
+   ],
+   "sentence": "Of the days of enslaved people inside our churches, we can tell you nothing true."
+  }
+ ],
+ "citations": [
+  "syr.dw.adam-grace",
+  "syr.force.qyama-commitment",
+  "syr.gravity.covenant-life",
+  "syr.limit.f5-enslaved",
+  "syr.limit.f5-women-own-words",
+  "syr.quote.aphrahat-stone-foundation",
+  "syr.term.qyama"
+ ],
+ "group": "A",
+ "id": "q022",
+ "net_sentences": [
+  {
+   "draft": "For the sons and daughters of the covenant, a day was lived in town among their own kin, serving the congregation by the fast, the watch, the vigil and the singing [[syr.term.qyama]][[as:paraphrase]].",
+   "sentence": "For the sons and daughters of the covenant, a day was lived in town among their own kin, serving the congregation by the fast, the watch, the vigil and the singing.",
+   "tags": [
+    "syr.term.qyama"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "They promised a celibate life for good, yet they did not leave for the desert [[syr.term.qyama]][[as:paraphrase]].",
+   "sentence": "They promised a celibate life for good, yet they did not leave for the desert.",
+   "tags": [
+    "syr.term.qyama"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "They were men and women vowed to lifelong celibacy and service inside the town congregation [[syr.gravity.covenant-life]][[as:paraphrase]].",
+   "sentence": "They were men and women vowed to lifelong celibacy and service inside the town congregation.",
+   "tags": [
+    "syr.gravity.covenant-life"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Aphrahat's Demonstration 6, from 337, treats the order as already set up, needing correction more than founding [[syr.force.qyama-commitment]][[as:paraphrase]].",
+   "ratio": 0.8,
+   "sentence": "Aphrahat's Demonstration 6, from 337, treats the order as already set up, needing correction more than founding.",
+   "tags": [
+    "syr.force.qyama-commitment"
+   ],
+   "verdict": "ok",
+   "why": "grounded 80% in own tagged records"
+  },
+  {
+   "draft": "Our sage taught that fasting, prayer, love, almsgiving and meekness were raised on faith, like a house on a foundation stone [[syr.dw.adam-grace]][[as:paraphrase]].",
+   "ratio": 0.92,
+   "sentence": "Our sage taught that fasting, prayer, love, almsgiving and meekness were raised on faith, like a house on a foundation stone.",
+   "tags": [
+    "syr.dw.adam-grace"
+   ],
+   "verdict": "ok",
+   "why": "grounded 92% in own tagged records"
+  },
+  {
+   "draft": "The Persian sage wrote in Demonstration I: [[quote:syr.quote.aphrahat-stone-foundation]]",
+   "placed_quote": "syr.quote.aphrahat-stone-foundation",
+   "sentence": "The Persian sage wrote in Demonstration I: “In the same way the true Stone, our Lord Jesus Christ, is the foundation of all our faith. On him, on this Stone, faith is laid; and resting on faith, the whole structure rises until it is complete.”",
+   "tags": [
+    "syr.quote.aphrahat-stone-foundation"
+   ],
+   "verdict": "ok",
+   "why": "quote placed by code, verbatim to its record"
+  },
+  {
+   "draft": "Not one line written by a woman of the covenant was kept, and we can tell you only how men praised them [[syr.limit.f5-women-own-words]][[as:paraphrase]].",
+   "sentence": "Not one line written by a woman of the covenant was kept, and we can tell you only how men praised them.",
+   "tags": [
+    "syr.limit.f5-women-own-words"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Of the days of enslaved people inside our churches, we can tell you nothing true [[syr.limit.f5-enslaved]][[as:paraphrase]].",
+   "sentence": "Of the days of enslaved people inside our churches, we can tell you nothing true.",
+   "tags": [
+    "syr.limit.f5-enslaved"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  }
+ ],
+ "offered": [
+  "syr.limit.f5-enslaved",
+  "syr.limit.f5-women-own-words",
+  "syr.dw.apostolic",
+  "syr.term.qyama",
+  "syr.story.ephrem-famine-death",
+  "syr.quote.ephrem-keeper-of-strangers",
+  "syr.gravity.covenant-life",
+  "syr.force.frontier-plural-milieu",
+  "syr.limit.what-must-one-do",
+  "syr.dw.adam-grace",
+  "syr.story.abgar-addai-legend",
+  "syr.quote.aphrahat-stone-foundation"
+ ],
+ "raw_text": "For the sons and daughters of the covenant, a day was lived in town among their own kin, serving the congregation by the fast, the watch, the vigil and the singing [[syr.term.qyama]][[as:paraphrase]]. They promised a celibate life for good, yet they did not leave for the desert [[syr.term.qyama]][[as:paraphrase]]. They were men and women vowed to lifelong celibacy and service inside the town congregation [[syr.gravity.covenant-life]][[as:paraphrase]]. Aphrahat's Demonstration 6, from 337, treats the order as already set up, needing correction more than founding [[syr.force.qyama-commitment]][[as:paraphrase]]. Our sage taught that fasting, prayer, love, almsgiving and meekness were raised on faith, like a house on a foundation stone [[syr.dw.adam-grace]][[as:paraphrase]]. The Persian sage wrote in Demonstration I: [[quote:syr.quote.aphrahat-stone-foundation]]\nNot one line written by a woman of the covenant was kept, and we can tell you only how men praised them [[syr.limit.f5-women-own-words]][[as:paraphrase]]. Of the days of enslaved people inside our churches, we can tell you nothing true [[syr.limit.f5-enslaved]][[as:paraphrase]].\n",
+ "reply_shape": {
+  "leadin_support": {
+   "syr.quote.aphrahat-stone-foundation": [
+    {
+     "detail": "Demonstration",
+     "kind": "name",
+     "snippet": "the structure rises until it is completed. Aphrahat says in Demonstration I that Jesus Christ is the true Stone founding all faith, a",
+     "span": "record syr.quote.aphrahat-stone-foundation"
+    },
+    {
+     "detail": "wrote",
+     "kind": "genre",
+     "snippet": "the Persian sage whose dated letters survive where his life does not - a voice from inside the",
+     "span": "record syr.figure.aphrahat"
+    }
+   ]
+  },
+  "placed": [
+   "syr.quote.aphrahat-stone-foundation"
+  ],
+  "removed": [],
+  "repaired": []
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": "C12.S1",
+ "text": "For the sons and daughters of the covenant, a day was lived in town among their own kin, serving the congregation by the fast, the watch, the vigil and the singing. They promised a celibate life for good, yet they did not leave for the desert. They were men and women vowed to lifelong celibacy and service inside the town congregation. Aphrahat's Demonstration 6, from 337, treats the order as already set up, needing correction more than founding. Our sage taught that fasting, prayer, love, almsgiving and meekness were raised on faith, like a house on a foundation stone. The Persian sage wrote in Demonstration I: “In the same way the true Stone, our Lord Jesus Christ, is the foundation of all our faith. On him, on this Stone, faith is laid; and resting on faith, the whole structure rises until it is complete.”\n\nNot one line written by a woman of the covenant was kept, and we can tell you only how men praised them. Of the days of enslaved people inside our churches, we can tell you nothing true.",
+ "voice_set_aside": false
+}

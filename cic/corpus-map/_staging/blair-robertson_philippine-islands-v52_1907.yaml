@@ -1,0 +1,22 @@
+source_file: blair-robertson_philippine-islands-v52_1907.txt
+assignments:
+- row_id: blair-robertson_philippine-islands-v52_1907--the-philippine-islands-1493-1898-explorations-by-early
+  work: 'The Philippine Islands 1493-1898: Explorations by Early Navigators, Descriptions of the Islands and their'
+  author: blair-robertson
+  locus: editors' note 37 on the confraternity of San Jose and Apolinario de la Cruz at lines 3309-3381; the rest
+    not mapped
+  atlas_ids:
+  - philippine-catholicism-gomburza-to-aglipay
+  role: context
+  confidence: provisional
+  language: eng
+  date:
+    start: 1907
+    end: 1907
+    source: 'the printing''s own title page: line 92 of this file, on the title page'
+    formation_confidence: Documented
+  edition_date:
+    year: 1907
+    source: line 92 of this file, on the title page
+    formation_confidence: Documented
+  note: 'Era 9 row 281, Apolinario de la Cruz: a note on the Cofradia de San Jose.'

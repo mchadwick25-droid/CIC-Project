@@ -24,8 +24,7 @@ confidence:
   divergence_note: null
 sources:
 - source_id: lpc.source.cyprian-seventh-council-of-carthage
-  locus: the 256 Council preface; independently re-located and re-read this session at cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml,
-    line 56872
+  locus: the 256 Council preface; cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 56871-56884
   license: public-domain
 - source_id: lpc.source.augustine-on-baptism-against-the-donatists
   locus: Augustine's own three independent quotations of the identical proposition while arguing against
@@ -68,4 +67,4 @@ modern_rendering: None of us sets himself up as a bishop over other bishops, and
   who has the power both to place us in the government of His Church and to judge how we conduct ourselves
   there.
 ---
-Named directly in the Permanent Prompt's own 'what our own life actually gave us' paragraph (line 37, and quoted at greater length at line 29): 'Neither of us set himself up as a bishop of bishops.' The line is also the sole cited locus of the already-built lpc.term.bishop-of-bishops (records/lpc/term/, B-2/B-3, read but not touched this pass) -- this record supplies a quote-record name-bridge and a modern_rendering for the same already-established text, not a duplicate finding. Independently re-located and re-read this session at cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, line 56872, and independently corroborated at three further points in the same vendored file where Augustine quotes the identical proposition back at Cyprian's own successors while arguing against it (lines 11292, 11626, 12207) -- the strongest cross-attested single line in this world's whole corpus, matching don's own precedent of preferring a quote independently corroborated by a second, differently-motivated witness over one attested only once.
+This is the text the term lpc.term.bishop-of-bishops cites; this record gives it a quote record and a modern_rendering. The passage stands at cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 56871-56884; two translator's endnotes inside the span are not part of the quoted text. Augustine quotes the same proposition back while arguing against it, in cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml at lines 11292, 11626 and 12207.

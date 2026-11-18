@@ -934,3 +934,114 @@ per-world review-artifact citations under `Build/worlds/ijc/` baselined.
 **Context.** The pre-pilot systems review (`Build/Ministry/Operations/Audits/CiC_PrePilot_Systems_Review_2026-10-15.md`) found that a deploy crashing on start-up went unnoticed while Render kept the old build serving. The project lead chose a scheduled GitHub check as the alert.
 
 **Action.** Added `tools/live_watch.py`, run every 15 minutes by `.github/workflows/live-watch.yml`, with its tests in `tools/tests/test_live_watch.py`. It stays in root `tools/` because a workflow runs it. Root `README.md`'s Build-zone paragraph now counts six such scripts and names it.
+
+## 2026-10-30 — `canon/gold_set/` holds the stage 1 gold set
+
+**Context.** Stage 1 of Answering from the Sources needs a gold set whose held-out half is sealed before any judge is tuned (`Build/Ministry/Features/Answering-From-Sources/Stage1/Specialist_and_Gold_Set.md`).
+
+**Action.** Added `canon/gold_set/` (`calibration.jsonl`, `heldout.jsonl`, `seals.yaml`), written only by `Sandbox/Answering-From-Sources/goldset/split.py`. Root `README.md`'s `canon/` row names it.
+
+
+## 2026-11-03 — `CiC_Pipeline_Decision_Log.md` moves from `Build/reference/L2C-System-Status/` to `Build/Ministry/Operations/Standing/`
+
+**Context.** The file is a decision log. Decision logs belong under `Build/Ministry/`, not in a live reference surface, and the Live-Surface Cleanup program found 24 lines of provenance in it that could not be cleaned in place without rewriting the log itself.
+
+**Action.** Moved with `git mv`, so history follows the file. `tools/moved_paths.txt` maps the old path to the new one, so older documents that cite it still resolve. The two entries `tools/check_paths_baseline.txt` held for it are removed, because `tools/check_paths.py` skips decision logs under `Build/Ministry/`. The three hand-labelled sample lines in `tools/tests/test_check_live_commentary.py` that pointed at the old file, and eight others the CL1 to CL3 cleanup had cleaned, now point at current lines in `Build/worlds/` (nine provenance lines, two open-item lines). The root `README.md` does not name the file.
+
+## 2026-11-03 — Retired generators, a build ledger and two probe records leave `Build/worlds/`
+
+**Context.** The Live-Surface Cleanup program found process material in the live `Build/worlds/` surface that cannot be written as present-tense statements without changing what it records.
+
+**Action.** All moves use `git mv`, so history follows each file, and none of the files was edited. `tools/moved_paths.txt` maps every old path to its new one, so older documents that cite them still resolve.
+- `Build/worlds/cappadocian/CAPPADOCIAN_BUILD_LEDGER.md` moved to `Build/worlds/cappadocian/build/`, the folder that holds a world's build log. `tools/check_paths_baseline.txt` carries its accepted citations under the new path.
+- The eight don build generators (`wb_don_s21.py`, `wb_don_s22_s23.py`, `wb_don_s24.py`, `wb_don_s25.py`, `wb_don_s26.py`, `wb_don_s27.py`, `wb_don_s2x_doctrinal_witness.py`, `wb_don_s2y_canon_cells.py`) moved to `Archive/Retired-World-Build-Scripts/don/`, and `wb_witt_s25.py` to `Archive/Retired-World-Build-Scripts/witt/`. Nothing in CI, `tools/` or `engine/` runs or imports them; the only references are citations in documents, and the scripts' output already lives in `records/`.
+- `don_Rep_Phase5_Probe11_Retest_2026-09-10.json` and `..._Round2.json` moved from `Build/worlds/don/Representative/` to `Build/worlds/don/Review-Artifacts/`, beside the review files that cite them. They are probe-run records.
+- Two hand-labelled sample rows in `tools/tests/test_check_live_commentary.py` that pointed at the moved ledger and script are replaced.
+
+## 2026-11-03 — Seven don Representative build records and the cappadocian generator leave the live surface
+
+**Context.** The Live-Surface Cleanup program (CL5 and CL6) held these files: the seven documents record how the Donatism Representative was built, and their provenance (decision rounds as loci, attributed decisions, disclosed approval exceptions) is their content, so it cannot be rewritten as present-tense statements without changing what they say. The generator is superseded (cappadocian `Open_Gaps_Tracking.md` OG-7).
+
+**Action.** `git mv`, no content edited; `tools/moved_paths.txt` maps every old path to its new one.
+- `Build/worlds/don/Representative/` to `Build/worlds/don/Review-Artifacts/`: `don_Rep_Phase1_Ecology_Assessment.md`, `don_Rep_Phase2_Formation_Calibration.md`, `don_Rep_Phase4_Engagement_Architecture.md`, `don_Rep_Phase5_Probe11_Rerun_2026-09-15.md`, `don_Rep_Phase6_Facilitator_Coordination_Round1.md`, `don_Rep_Phase7_Encounter_Ecology_Mapping.md`, `don_Representative_Identity_Options.md`. `don_Rep_Phase3_Voice_Construction.md` and `don_Rep_Phase5_Boundary_Testing_Round1.md` stay (the scanner does not flag them).
+- `Build/worlds/cappadocian/scripts/wb_cappadocian_s21.py` to `Archive/Retired-World-Build-Scripts/cappadocian/`. Nothing in CI, `tools/` or `engine/` runs or imports it; the only references are citations in documents.
+
+## 2026-11-03 — Build records, dated findings and a superseded draft leave `Build/worlds/` (syr, alx, ijc)
+
+**Context.** The Live-Surface Cleanup program (CL6) found documents in the live `Build/worlds/` surface that record how something was built or found, so their dates, review rounds and attributions are their content. The delivery lead ruled on where each kind goes. All moves use `git mv`, no content edited; `tools/moved_paths.txt` maps every old path to its new one.
+
+**Action.**
+- Representative build records to the world's `Review-Artifacts/`, as for don: syr `Syriac_Phase1`, `Phase2`, `Phase3`, `Phase4`, `Phase5B`, `Phase6`, `Phase7` (all `_DRAFT.md`), `Doc_09_Validation_Layer_Section5_PROPOSED.md` and `SE2_RepetitionGuard_DesignNote.md`; alx `Representative/alex_Rep_Deployment_Salvage.md`, `alex_Rep_Phase1_Ecology_Assessment.md` and `alex_Representative_Identity_Options.md`; ijc `Step10_Phase1-2_Ecology_Assessment_and_Identity_Determination.md`. The alx and ijc records follow the same rule by analogy. Other Representative phase records of those worlds, which the scanner does not flag, stay where they are.
+- Dated findings and analysis reports to `Build/Ministry/Operations/Audits/World-Findings/<world>/`: alx `Analysis/Unused_Assigned_Corpus_Finding_2026-09-09.md`, `alex_v7_vs_current_comparison.md`, `CROSS_WORLD_FINDING_Work_Granularity_Coverage_Gap.md`, `portfolio_parity.md`, `v7_Gap_Closure_Tracker.md`; ijc `Post_Admission_Source_Finding_Philostorgius_OpusImperfectum_2026-09-09.md`. The items `v7_Gap_Closure_Tracker.md` still listed as open are filed as alx OG-43. The unflagged siblings in alx `Analysis/` (`CROSS_WORLD_FINDING_Lexicon_Confidence_Gap.md`, `Portfolio_Consistency_Audit_2026-07-19.md`) stay.
+- Superseded: syr `Archive/Step10_Phase1_Ecology_Assessment_DRAFT_SUPERSEDED.md` to `Archive/Superseded-World-Documents/syr/`.
+- Three sample rows in `tools/tests/test_check_live_commentary.py` that pointed at moved files are replaced.
+
+## 2026-11-03 — rzg and gallic retired generators leave `Build/worlds/`
+
+**Context.** The Live-Surface Cleanup program (CL7) found the retired build generators of rzg (nine) and gallic (one) in the live `Build/worlds/` surface. Nothing in CI, `tools/` or `engine/` runs or imports them; the only references are citations in documents and decision logs.
+
+**Action.** `git mv`, no edits. `Build/worlds/rzg/scripts/wb_rzg_s21.py`, `wb_rzg_s22_s23.py`, `wb_rzg_s24.py`, `wb_rzg_s25.py`, `wb_rzg_s26.py`, `wb_rzg_s27.py`, `wb_rzg_s2x_doctrinal_witness.py`, `wb_rzg_s2y_canon_cells.py`, `wb_rzg_s2z_canon_closure.py` to `Archive/Retired-World-Build-Scripts/rzg/`, and `Build/worlds/gallic/scripts/wb_gallic_s21.py` to `Archive/Retired-World-Build-Scripts/gallic/`. `tools/moved_paths.txt` maps each old path to its new one. The lpc `scripts/` folder stays: lpc is still being built and its review artifacts cite those scripts as current.
+
+## 2026-11-04 — A launch log, a pattern log and a flag investigation leave `Build/reference/`
+
+**Context.** The Live-Surface Cleanup program (CL10) found three dated narrative documents in the live `Build/reference/` surface. `Redesign-Spec/PHASE-1-LAUNCH.md` is the Phase 1 launch log; its own currency note says every stage is done and the single-branch deploy it describes was replaced by the two-branch promotion model. `Project-Reference/CiC_Cleaning_Pattern_Log.md` records contamination patterns as they were found, with dated worked examples. `method/Pass2-decisions/S6.2_fleet_level_flag_investigation_2026-07-28.md` is a dated investigation with its review rounds. A live reference states what is true now; each of these records how something was found or done.
+
+**Action.** `git mv`, no content edited, all three to `Build/Ministry/Operations/Standing/`. `tools/moved_paths.txt` maps each old path to its new one; the path-check baseline entries for these files carry the new paths (two of the investigation's entries resolve at the new home and are removed). The README map no longer lists them under `Build/reference/`. `CiC_V7_Upgrade_Reference.md` points to the log's new path. The five hand-labelled sample rows in `tools/tests/test_check_live_commentary.py` that pointed at the moved files are replaced by five `PROTECTED` rows from the witt source records. The many comments in `engine/`, `render.yaml` and the runbooks that cite `PHASE-1-LAUNCH.md` by file name still name the file correctly.
+
+## 2026-11-06 — `cft-website/` joins the root as the Church Family Tree's live folder
+
+**Context.** The Church Family Tree moves to its own domain, `www.churchfamilytree.com`, served by a
+second Cloudflare Worker from the same repository (Church Family Tree Decision Log, 2026-11-06,
+rulings 10 and 12, and the move-order entry of the same date, option A).
+
+**Action.**
+- New top-level live folder `cft-website/`: the tree's own site files. It starts with `_headers`
+  and `robots.txt`; the map, movement pages and narration move into it by pure rename in a later
+  step, once the new domain serves the tree.
+- New root config `wrangler.cft.jsonc` for the second Worker, reusing `cic-worker/worker.mjs`.
+- New script `tools/build_tree_site.mjs` assembles the served site into `.build/tree/`, which is
+  git-ignored, and checks every shared copy against its source. CI runs it in the `tree-site` job.
+- `wrangler.jsonc` loses its commentary, by the standing rule.
+- The root `README.md` map and the live-surface list in `CLAUDE.md` name the new folder;
+  `tools/check_live_commentary.py` and `tools/check_spelling.py` cover it.
+
+## 2026-11-07 — The Church Family Tree moves into `cft-website/`
+
+**Context.** Chunk P1c of the Church Family Tree build (`Build/Ministry/Features/Church-Family-Tree/Build-Plan.md`),
+after `www.churchfamilytree.com` was attached and verified.
+
+**Action.** `git mv`, no content edited, as its own commit: `cic-website/atlas-v3.html` to
+`cft-website/index.html`; `cic-website/tree/`, `cic-website/audio/tree/`, `cic-website/audio/docstories/`
+and `cic-website/audio/stories/` to the same names under `cft-website/`. The two old redirect pages,
+`cic-website/atlas.html` and `cic-website/world-atlas.html`, to `Archive/Superseded-Site-Pages/`; the
+old site's Worker now answers those addresses, and every old tree address, with a permanent redirect
+to the tree's domain. `tools/moved_paths.txt` maps each old path to its new one. The root
+`README.md` map follows.
+
+
+## 2026-11-15 — The live-commentary check covers the Library and Sandbox
+
+**Context.** Mark, 15 Nov: "Make sure notes and comments are not in library or program." CLAUDE.md lists
+`cic/texts/` and `Sandbox/` as live surfaces; `tools/check_live_commentary.py` did not scan either.
+
+**Action.** Two surfaces join the check: `cic-texts` (`cic/texts/`: each vendored edition's intake header
+only, never its source text; `REGISTRY.yaml` and the Markdown files, with the registry's free-text values
+and the three generated indexes reported as PROTECTED) and `sandbox` (`Sandbox/`). `cic/texts/_intake/`
+stays outside the check. Full account: `Build/Ministry/Operations/Audits/2026-11-15_live-surfaces-sweep/`.
+
+
+## 2026-11-16 — `cic/renderings/` joins the Library
+
+**Context.** Mark approved the Library's rendering proposal on 2026-11-16 ("New cic/renderings/ folder
+(Recommended)") and then the sample ("Renderings as is, shorter guides (Recommended)"), both as the
+coordinator passed his words on. The Library's design already calls a rendering "a layer keyed by anchor ...
+Never an edit to a vendored file" (`Build/Ministry/Features/Source-Library/Design.md`, section 8).
+
+**Action.** The root `README.md` map changed first: the `cic/` row now lists `renderings/`. Then the folder:
+`cic/renderings/guides/` (one finding guide per vendored text) and `cic/renderings/passages/` (passage
+renderings, one file per vendored text), with `cic/renderings/README.md`. `cic/engine/renderings.py --check`
+verifies each record against its file and runs in CI beside the other corpus checks.
+`tools/check_live_commentary.py` covers the folder as the surface `cic-renderings`. `CLAUDE.md`'s list of
+live surfaces names `cic/texts/` and `cic/corpus-map/` and does not yet name `cic/renderings/`; that line is
+Mark's to change.
+

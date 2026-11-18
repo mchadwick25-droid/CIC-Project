@@ -1,0 +1,1656 @@
+{
+ "about": "Quotations that are the narrator's modern English of an original in another language, an older stage of a language, or English printed before 1931, each checked against a second, independent rendering (second_reading) and mapped to its original's file and lines. The quotation check skips exactly these spans in these entries, and fails when a listed span no longer stands in its entry.",
+ "renderings": [
+  {
+   "id": "faustus-of-riez",
+   "quote": "We walk the middle way, then, with Christ as our guide,",
+   "original": {
+    "file": "cic/texts/faustus-riez_de-gratia-and-collected-works_engelbrecht1891.txt",
+    "lines": "11049-11051",
+    "language": "Latin"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-16_rendering-recheck/comparison.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "faustus-of-riez",
+   "quote": "After grace, without which we are nothing, we affirm the labor of dutiful service.",
+   "original": {
+    "file": "cic/texts/faustus-riez_de-gratia-and-collected-works_engelbrecht1891.txt",
+    "lines": "11049-11051",
+    "language": "Latin"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-16_rendering-recheck/comparison.md",
+    "verdict": "minor"
+   }
+  },
+  {
+   "id": "faustus-of-riez",
+   "quote": "We are owners without a home of our own, and rich without possessions.",
+   "original": {
+    "file": "cic/texts/faustus-riez_de-gratia-and-collected-works_engelbrecht1891.txt",
+    "lines": "13403-13404",
+    "language": "Latin"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-16_rendering-recheck/comparison.md",
+    "verdict": "minor"
+   }
+  },
+  {
+   "id": "constantius-of-lyon",
+   "quote": "And yet I call God, who knows what is hidden, to witness that I have left out many deeds of my lord Germanus that were known and proved.",
+   "original": {
+    "file": "cic/texts/constantius-lyon_vita-germani_levison1920.txt",
+    "lines": "4577-4579",
+    "language": "Latin"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-16_rendering-recheck/comparison.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "ruricius-of-limoges",
+   "quote": "Infirmity did this, not will.",
+   "original": {
+    "file": "cic/texts/faustus-riez_de-gratia-and-collected-works_engelbrecht1891.txt",
+    "lines": "23186",
+    "language": "Latin"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-16_rendering-recheck/comparison.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "ruricius-of-limoges",
+   "quote": "My soul has clung to you, outstanding teacher,",
+   "original": {
+    "file": "cic/texts/faustus-riez_de-gratia-and-collected-works_engelbrecht1891.txt",
+    "lines": "20044",
+    "language": "Latin"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-16_rendering-recheck/comparison.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "ruricius-of-limoges",
+   "quote": "It is far better and far more distinguished for a city to become known by its bishop than a bishop by his city.",
+   "original": {
+    "file": "cic/texts/faustus-riez_de-gratia-and-collected-works_engelbrecht1891.txt",
+    "lines": "23199-23201",
+    "language": "Latin"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-16_rendering-recheck/comparison.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "columbanus",
+   "quote": "Let Gaul, I pray, hold us together,",
+   "original": {
+    "file": "cic/texts/paulus-emeritanus-braulio-sisebut-pl80-lat_migne1863.txt",
+    "lines": "20763-20765",
+    "language": "Latin"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-16_rendering-recheck/comparison.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "columbanus",
+   "quote": "whom the kingdom of heaven will hold, if our merits are good.",
+   "original": {
+    "file": "cic/texts/paulus-emeritanus-braulio-sisebut-pl80-lat_migne1863.txt",
+    "lines": "20763-20765",
+    "language": "Latin"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-16_rendering-recheck/comparison.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "babai-the-great",
+   "quote": "We say: Christ died, the Son died, through the Son all was created and made,",
+   "original": {
+    "file": "cic/texts/labourt_le-christianisme-dans-l-empire-perse-sassanide-fra_1904.txt",
+    "lines": "15853-15854",
+    "language": "French"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-16_rendering-recheck/comparison.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "john-moschus",
+   "quote": "Truly, Abba John, let us study no more today,",
+   "original": {
+    "file": "cic/texts/john-moschus_pratum-spirituale-sophronius-opera-grc-lat_migne-pg87-3.txt",
+    "lines": "10094-10095",
+    "language": "Latin"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-16_rendering-recheck/comparison.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "john-moschus",
+   "quote": "We have been edified enough.",
+   "original": {
+    "file": "cic/texts/john-moschus_pratum-spirituale-sophronius-opera-grc-lat_migne-pg87-3.txt",
+    "lines": "10095",
+    "language": "Latin"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-16_rendering-recheck/comparison.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "john-moschus",
+   "quote": "I offer it to you, and through you to all,",
+   "original": {
+    "file": "cic/texts/john-moschus_pratum-spirituale-sophronius-opera-grc-lat_migne-pg87-3.txt",
+    "lines": "3785",
+    "language": "Latin"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-16_rendering-recheck/comparison.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "isidore-of-seville",
+   "quote": "Give back, give back what you owe,",
+   "original": {
+    "file": "cic/texts/paulus-emeritanus-braulio-sisebut-pl80-lat_migne1863.txt",
+    "lines": "52558",
+    "language": "Latin"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-16_rendering-recheck/comparison.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "origen",
+   "quote": "Be careful not to change your mind because of us.",
+   "original": {
+    "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+    "lines": "32562",
+    "language": "English"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-16_eight-standard-v1/renderings/eight/comparison.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "origen",
+   "quote": "the hardworking Origen",
+   "original": {
+    "file": "cic/texts/npnf204_athanasius-select-works-letters.xml",
+    "lines": "28650-28652",
+    "language": "English"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-16_eight-standard-v1/renderings/eight/comparison.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "athanasius-of-alexandria",
+   "quote": "He became human so that we might be made God.",
+   "original": {
+    "file": "cic/texts/npnf204_athanasius-select-works-letters.xml",
+    "lines": "18743-18744",
+    "language": "English"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-16_eight-standard-v1/renderings/eight/comparison.md",
+    "verdict": "minor"
+   }
+  },
+  {
+   "id": "athanasius-of-alexandria",
+   "quote": "our blessed Father Athanasius, praised by all.",
+   "original": {
+    "file": "cic/texts/cyril-alexandria_three-epistles-grc-eng_pusey1872.txt",
+    "lines": "5393-5394",
+    "language": "English"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-16_eight-standard-v1/renderings/eight/comparison.md",
+    "verdict": "minor"
+   }
+  },
+  {
+   "id": "ephrem-the-syrian",
+   "quote": "Look, on your behalf I appoint myself to run the shelter.",
+   "original": {
+    "file": "cic/texts/palladius_lausiac-history_clarke1918.txt",
+    "lines": "471",
+    "language": "English"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-16_eight-standard-v1/renderings/eight/comparison.md",
+    "verdict": "changes meaning"
+   }
+  },
+  {
+   "id": "gregory-of-nazianzus",
+   "quote": "Why should I fight over piglets and chickens, and ones that are not my own,",
+   "original": {
+    "file": "cic/texts/npnf207_cyril-jerusalem-gregory-nazianzen.xml",
+    "lines": "45783-45784",
+    "language": "English"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-16_eight-standard-v1/renderings/eight/comparison.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "gregory-of-nazianzus",
+   "quote": "as if I were fighting for souls and church canons?",
+   "original": {
+    "file": "cic/texts/npnf207_cyril-jerusalem-gregory-nazianzen.xml",
+    "lines": "45784-45785",
+    "language": "English"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-16_eight-standard-v1/renderings/eight/comparison.md",
+    "verdict": "minor"
+   }
+  },
+  {
+   "id": "gregory-of-nazianzus",
+   "quote": "equally far from the merging of Sabellius and from the division of Arius,",
+   "original": {
+    "file": "cic/texts/npnf207_cyril-jerusalem-gregory-nazianzen.xml",
+    "lines": "37407-37408",
+    "language": "English"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-16_eight-standard-v1/renderings/eight/comparison.md",
+    "verdict": "minor"
+   }
+  },
+  {
+   "id": "gregory-of-nazianzus",
+   "quote": "my teacher in the Scriptures.",
+   "original": {
+    "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml",
+    "lines": "41568",
+    "language": "English"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-16_eight-standard-v1/renderings/eight/comparison.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "gregory-of-nyssa",
+   "quote": "inherited the controversy with Eunomius.",
+   "original": {
+    "file": "cic/texts/npnf205_gregory-nyssa-dogmatic-treatises.txt",
+    "lines": "2788",
+    "language": "English"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-16_eight-standard-v1/renderings/eight/comparison.md",
+    "verdict": "minor"
+   }
+  },
+  {
+   "id": "gregory-of-tours",
+   "quote": "Alas for our times, because the study of literature has died out among us,",
+   "original": {
+    "file": "cic/texts/gregory-tours_history-of-the-franks-selections_brehaut1916.txt",
+    "lines": "850-851",
+    "language": "English"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-16_eight-standard-v1/renderings/gregory-benedict/comparison.md",
+    "verdict": "minor"
+   }
+  },
+  {
+   "id": "gregory-of-tours",
+   "quote": "so that anyone who reads may have no doubt that I hold the catholic faith,",
+   "original": {
+    "file": "cic/texts/gregory-tours_history-of-the-franks-v2_dalton1927.txt",
+    "lines": "339-340",
+    "language": "English"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-16_eight-standard-v1/renderings/gregory-benedict/comparison.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "gregory-of-tours",
+   "quote": "I want you and the other teachers of the churches to believe this.",
+   "original": {
+    "file": "cic/texts/gregory-tours_history-of-the-franks-v2_dalton1927.txt",
+    "lines": "10370-10371",
+    "language": "English"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-16_eight-standard-v1/renderings/gregory-benedict/comparison.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "gregory-of-tours",
+   "quote": "what Hilary and Eusebius taught.",
+   "original": {
+    "file": "cic/texts/gregory-tours_history-of-the-franks-v2_dalton1927.txt",
+    "lines": "10374-10375",
+    "language": "English"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-16_eight-standard-v1/renderings/gregory-benedict/comparison.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "gregory-of-tours",
+   "quote": "So the king gave up this plan,",
+   "original": {
+    "file": "cic/texts/gregory-tours_history-of-the-franks-v2_dalton1927.txt",
+    "lines": "10404-10405",
+    "language": "English"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-16_eight-standard-v1/renderings/gregory-benedict/comparison.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "gregory-of-tours",
+   "quote": "the books of that revered man Gregory, bishop of Tours.",
+   "original": {
+    "file": "cic/texts/paul-the-deacon_history-of-the-langobards_foulke1907.txt",
+    "lines": "5074-5075",
+    "language": "English"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-16_eight-standard-v1/renderings/gregory-benedict/comparison.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "marcion-of-pontus",
+   "quote": "I do know you: the firstborn of Satan.",
+   "original": {
+    "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
+    "lines": "39883-39884",
+    "language": "English"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-17_varied-batch-2/marcion-of-pontus/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "antony-the-great",
+   "quote": "the desert became a city of monks",
+   "original": {
+    "file": "cic/texts/athanasius_opera-omnia-pg26-grc-lat_migne1857.txt",
+    "lines": "70548-70549",
+    "language": "Greek"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-17_varied-batch/antony-the-great/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "macrina-the-younger",
+   "quote": "You, Lord,",
+   "original": {
+    "file": "cic/texts/gregory-nyssa_opera-omnia-pg46-grc-lat_migne1863.txt",
+    "lines": "71687-71690",
+    "language": "Greek"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-17_varied-batch/macrina-the-younger/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "macrina-the-younger",
+   "quote": "have set us free from the fear of death.",
+   "original": {
+    "file": "cic/texts/gregory-nyssa_opera-omnia-pg46-grc-lat_migne1863.txt",
+    "lines": "71687-71690",
+    "language": "Greek"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-17_varied-batch/macrina-the-younger/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "martin-of-tours",
+   "quote": "I am Christ's soldier. I am not allowed to fight.",
+   "original": {
+    "file": "cic/texts/sulpicius-severus_libri-qui-supersunt-chronica-vita-martini-lat_halm1866-csel1.txt",
+    "lines": "6335-6337",
+    "language": "Latin"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-17_varied-batch-2/martin-of-tours/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "council-of-nicaea-325",
+   "quote": "For I count civil strife in the church of God worse than any war or fierce battle.",
+   "original": {
+    "file": "cic/texts/eusebius_werke-bd1-vita-constantini-oratio-ad-sanctos-grc_heikel1902.txt",
+    "lines": "11167-11168",
+    "language": "Greek"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-17_varied-batch-2/council-of-nicaea-325/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "council-of-nicaea-325",
+   "quote": "of one being",
+   "original": {
+    "file": "cic/texts/npnf214_seven-ecumenical-councils.xml",
+    "lines": "2412-2413",
+    "language": "English"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-17_varied-batch-2/council-of-nicaea-325/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "council-of-nicaea-325",
+   "quote": "He won some over and shamed others with his words,",
+   "original": {
+    "file": "cic/texts/eusebius_werke-bd1-vita-constantini-oratio-ad-sanctos-grc_heikel1902.txt",
+    "lines": "11238",
+    "language": "Greek"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-17_varied-batch-2/council-of-nicaea-325/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "council-of-nicaea-325",
+   "quote": "about the faith they did not write, 'It seemed good.' They wrote, 'This is what the universal Church believes.'",
+   "original": {
+    "file": "cic/texts/athanasius_opera-omnia-pg26-grc-lat_migne1857.txt",
+    "lines": "57165-57169",
+    "language": "Greek"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-17_varied-batch-2/council-of-nicaea-325/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "benedict-of-nursia",
+   "quote": "So we must found a school for the Lord's service. In founding it, we hope to lay down nothing harsh and nothing heavy.",
+   "original": {
+    "file": "cic/texts/benedict_rule-of-st-benedict-lat-eng_hunter-blair1907.txt",
+    "lines": "1240-1245",
+    "language": "Latin"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-17_varied-batch-2/benedict-of-nursia/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "benedict-of-nursia",
+   "quote": "Let him so temper everything that the strong have something to long for, and the weak do not run away.",
+   "original": {
+    "file": "cic/texts/benedict_rule-of-st-benedict-lat-eng_hunter-blair1907.txt",
+    "lines": "9527-9528",
+    "language": "Latin"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-17_varied-batch-2/benedict-of-nursia/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "columba",
+   "quote": "Here I must stop, at the bottom of this page. Let Baithene write what comes next.",
+   "original": {
+    "file": "cic/texts/adomnan_life-of-saint-columba_huyshe1905.txt",
+    "lines": "10787-10789",
+    "language": "English"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-17_varied-batch/columba/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "columba",
+   "quote": "But whatever kind of man he was, this much about him we hold as certain. He left successors known for great self-control, for the love of God, and for life under a rule.",
+   "original": {
+    "file": "cic/texts/bede_opera-historica-v1-historia-abbatum-lat_plummer1896.txt",
+    "lines": "18882-18885",
+    "language": "Latin"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-17_varied-batch/columba/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "radegund",
+   "quote": "If you put off consecrating me, and fear a man more than God, then, shepherd, may the soul of your sheep be demanded from your hand.",
+   "original": {
+    "file": "cic/texts/fredegar-liber-historiae-francorum-vitae-mgh-srm-2-lat_krusch1888.txt",
+    "lines": "28806-28808",
+    "language": "Latin"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-17_varied-batch/radegund/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "radegund",
+   "quote": "Because I could not come in person,",
+   "original": {
+    "file": "cic/texts/gregory-tours_opera-mgh-srm-1-lat_arndt-krusch1885.txt",
+    "lines": "31516-31517",
+    "language": "Latin"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-17_varied-batch/radegund/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "radegund",
+   "quote": "I bow down through this letter in my place, as if fallen at your feet.",
+   "original": {
+    "file": "cic/texts/gregory-tours_opera-mgh-srm-1-lat_arndt-krusch1885.txt",
+    "lines": "31516-31517",
+    "language": "Latin"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-17_varied-batch/radegund/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "hild-of-whitby",
+   "quote": "Later we saw five bishops come from that same monastery. All of them were men of rare merit and holiness.",
+   "original": {
+    "file": "cic/texts/bede_opera-historica-v1-historia-abbatum-lat_plummer1896.txt",
+    "lines": "24946-24948",
+    "language": "Latin"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-17_varied-batch-2/hild-of-whitby/Second_Readings.md",
+    "verdict": "minor"
+   }
+  },
+  {
+   "id": "dhuoda",
+   "quote": "I see many people in this world who rejoice in their children with them. But I, Dhuoda, see myself kept far away from you, my son William.",
+   "original": {
+    "file": "cic/texts/dhuoda_liber-manualis_bondurand1887.txt",
+    "lines": "1893-1894",
+    "language": "English"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-17_varied-batch-2/dhuoda/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "thomas-a-kempis",
+   "quote": "I would rather feel sorrow for sin than know how to define it.",
+   "original": {
+    "file": "cic/texts/kempis_opera-omnia-sermones-de-compunctione-lat_pohl1902.txt",
+    "lines": "703-705",
+    "language": "Latin"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-17_batch-3/Second_Readings.md",
+    "verdict": "minor"
+   }
+  },
+  {
+   "id": "vardan-mamikonian",
+   "quote": "But I received this religion from God as a child. To abandon it, and change it out of fear of men, is not possible!",
+   "original": {
+    "file": "cic/texts/langlois_collection-historiens-armenie-tomes1-2-fra_1867-1869.txt",
+    "lines": "90623-90626",
+    "language": "French"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-17_batch-3/Second_Readings.md",
+    "verdict": "minor"
+   }
+  },
+  {
+   "id": "vardan-mamikonian",
+   "quote": "For a time we deceived that unjust prince. We took him in like a weak child, as if we had outwardly carried out his wicked orders. But the Lord is the hidden witness of our thoughts. He knows we held firm and never parted from him.",
+   "original": {
+    "file": "cic/texts/langlois_collection-historiens-armenie-tomes1-2-fra_1867-1869.txt",
+    "lines": "82667-82673",
+    "language": "French"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-17_batch-3/Second_Readings.md",
+    "verdict": "minor"
+   }
+  },
+  {
+   "id": "moses-the-black",
+   "quote": "If a man so great and powerful in robbery has feared God,",
+   "original": {
+    "file": "cic/texts/palladius_lausiac-history_clarke1918.txt",
+    "lines": "335",
+    "language": "English"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-17_batch-3/Second_Readings.md",
+    "verdict": "minor"
+   }
+  },
+  {
+   "id": "moses-the-black",
+   "quote": "why should we put off our salvation?",
+   "original": {
+    "file": "cic/texts/palladius_lausiac-history_clarke1918.txt",
+    "lines": "335",
+    "language": "English"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-17_batch-3/Second_Readings.md",
+    "verdict": "minor"
+   }
+  },
+  {
+   "id": "alopen",
+   "quote": "Watching the blue clouds, he carried the true sacred books. Watching the way the winds blew, he faced hardships and dangers.",
+   "original": {
+    "file": "cic/texts/malech_history-of-the-syrian-nation-and-old-evangelical-apostolic-church-of-the-east_1910.txt",
+    "lines": "13688-13689",
+    "language": "English"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-17_batch-3/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "narsai",
+   "quote": "Schools multiplied in the empire of the Persians. Edessa grew dark; Nisibis grew bright. The empire of the Romans filled with error, and that of the Persians with the knowledge of the fear of God.",
+   "original": {
+    "file": "cic/texts/barhadbeshabba_cause-de-la-fondation-des-ecoles-po4-syr-fra_scher1908.txt",
+    "lines": "20743-20746",
+    "language": "French"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-17_batch-3/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "narsai",
+   "quote": "In baptism he recast our image, as in a furnace. In place of our clay, he has made us spiritual gold.",
+   "original": {
+    "file": "cic/texts/narsai_liturgical-homilies_connolly1909.txt",
+    "lines": "6857-6858",
+    "language": "English"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-17_batch-3/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "baudonivia",
+   "quote": "Her eyes were closed, and ours were darkened.",
+   "original": {
+    "file": "cic/texts/fredegar-liber-historiae-francorum-vitae-mgh-srm-2-lat_krusch1888.txt",
+    "lines": "30522",
+    "language": "Latin"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-17_batch-3/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "arius",
+   "quote": "We are persecuted because we said: the Son has a beginning, but God has no beginning.",
+   "original": {
+    "file": "cic/texts/epiphanius_panarion-haer-48-69-corpus-haereseologicum-t2-pars-posterior-grc-lat_oehler1860.txt",
+    "lines": "45736-45738",
+    "language": "Greek"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-17_batch-3/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "arius",
+   "quote": "We have not been followers of Arius. For how could we, who are bishops, follow a priest?",
+   "original": {
+    "file": "cic/texts/socrates_historia-ecclesiastica-tomus1-grc-lat_hussey1853.txt",
+    "lines": "16658-16659",
+    "language": "Greek"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-17_batch-3/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "third-council-of-toledo-589",
+   "quote": "that came from Arius",
+   "original": {
+    "file": "cic/texts/collectio-canonum-ecclesiae-hispanae-toledo-iii-lat_1808.txt",
+    "lines": "36900-36904",
+    "language": "Latin"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-17_batch-3/Second_Readings_2.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "third-council-of-toledo-589",
+   "quote": "our people's new conversion",
+   "original": {
+    "file": "cic/texts/collectio-canonum-ecclesiae-hispanae-toledo-iii-lat_1808.txt",
+    "lines": "37255-37258",
+    "language": "Latin"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-17_batch-3/Second_Readings_2.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "council-of-chalcedon-451",
+   "quote": "I accept 'from two'. 'Two' I do not accept. I am forced to be shameless: my soul is at stake.",
+   "original": {
+    "file": "cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-6-441-451-lat_welter-facsimile1901.txt",
+    "lines": "65953-65956",
+    "language": "Latin"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-17_batch-3/Second_Readings_2.md",
+    "verdict": "minor"
+   }
+  },
+  {
+   "id": "council-of-chalcedon-451",
+   "quote": "One and the same Jesus Christ, Son, Lord, Only-begotten, is known in two natures: without confusion, without change, without division, without separation.",
+   "original": {
+    "file": "cic/texts/evagrius-scholasticus_historia-ecclesiastica-grc_bidez-parmentier1898.txt",
+    "lines": "5244-5246",
+    "language": "Greek"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-17_batch-3/Second_Readings_2.md",
+    "verdict": "minor"
+   }
+  },
+  {
+   "id": "council-of-chalcedon-451",
+   "quote": "That council tore into ten thousand pieces the whole robe of Christ, woven in one piece from the top.",
+   "original": {
+    "file": "cic/texts/michael-the-syrian_chronique-tome2-livres-viii-xi-fra_chabot1901.txt",
+    "lines": "2860-2861",
+    "language": "French"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-17_batch-3/Second_Readings_2.md",
+    "verdict": "minor"
+   }
+  },
+  {
+   "id": "pachomius",
+   "quote": "They are Christian people. They treat us this way out of love for the God of heaven.",
+   "original": {
+    "file": "cic/texts/amelineau_histoire-de-saint-pakhome-annales-guimet-17_leroux1889.txt",
+    "lines": "5145-5146",
+    "language": "French"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-17_batch-3/Second_Readings_2.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "pachomius",
+   "quote": "Take this blanket away from here at once. It is not right that I should be better off in anything than the other brothers.",
+   "original": {
+    "file": "cic/texts/acta-sanctorum_maii-tomus-3-lat-grc_palme1866.txt",
+    "lines": "86630-86633",
+    "language": "Latin"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-17_batch-3/Second_Readings_2.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "justin-martyr",
+   "quote": "the only philosophy that is sure and useful",
+   "original": {
+    "file": "cic/texts/justin-martyr_dialogue-with-trypho-grc_archambault1909.txt",
+    "lines": "429-435",
+    "language": "Greek"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-17_batch-3/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "justin-martyr",
+   "quote": "We have been taught that Christ is the firstborn of God. We have shown already that he is the Word, in whom every race of people has had a share. And those who lived with the Word are Christians, even if they were counted godless.",
+   "original": {
+    "file": "cic/texts/justin-martyr_first-apology-grc_rauschen1911.txt",
+    "lines": "1230-1234",
+    "language": "Greek"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-17_batch-3/Second_Readings_4.md",
+    "verdict": "minor"
+   }
+  },
+  {
+   "id": "justin-martyr",
+   "quote": "So you suppose that you will go up into the heavens, to receive some good rewards?",
+   "original": {
+    "file": "cic/texts/knopf_ausgewaehlte-maertyrerakten-lat-grc-deu_krueger1929.txt",
+    "lines": "1754-1756",
+    "language": "Greek"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-17_batch-3/Second_Readings_3.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "justin-martyr",
+   "quote": "I do not suppose it. I know it for certain, and I am fully sure of it.",
+   "original": {
+    "file": "cic/texts/knopf_ausgewaehlte-maertyrerakten-lat-grc-deu_krueger1929.txt",
+    "lines": "1756-1757",
+    "language": "Greek"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-17_batch-3/Second_Readings_3.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "vardan-mamikonian",
+   "quote": "Today let all your demands be granted to you forever, confirmed by our writing and our seal.",
+   "original": {
+    "file": "cic/texts/langlois_collection-historiens-armenie-tomes1-2-fra_1867-1869.txt",
+    "lines": "100503-100506",
+    "language": "French"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-17_batch-3/Second_Readings_3.md",
+    "verdict": "minor"
+   }
+  },
+  {
+   "id": "moses-the-black",
+   "quote": "I am not allowed to hurt anyone. So what do you tell me to do with these?",
+   "original": {
+    "file": "cic/texts/palladius_lausiac-history_clarke1918.txt",
+    "lines": "335",
+    "language": "English"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-17_batch-3/Second_Readings.md",
+    "verdict": "minor"
+   }
+  },
+  {
+   "id": "moses-the-black",
+   "quote": "Why does this Ethiopian come and go among us?",
+   "original": {
+    "file": "cic/texts/anan-isho_paradise-v2-sayings_budge1907.txt",
+    "lines": "164-166",
+    "language": "English"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-17_batch-3/Second_Readings_4.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "moses-the-black",
+   "quote": "They have treated you rightly, you whose skin is dark and black. You shall not go back in as if you were a man.",
+   "original": {
+    "file": "cic/texts/anan-isho_paradise-v2-sayings_budge1907.txt",
+    "lines": "1026-1030",
+    "language": "English"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-17_batch-3/Second_Readings_4.md",
+    "verdict": "minor"
+   }
+  },
+  {
+   "id": "alopen",
+   "quote": "It helps every creature, and it does people good. Let it spread freely through the empire.",
+   "original": {
+    "file": "cic/texts/legge_nestorian-monument-of-hsi-an-fu_trubner1888.txt",
+    "lines": "1252-1254",
+    "language": "English"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-17_batch-3/Second_Readings_3.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "third-council-of-toledo-589",
+   "quote": "Glory to the Father, through the Son, in the Holy Spirit.",
+   "original": {
+    "file": "cic/texts/collectio-canonum-ecclesiae-hispanae-toledo-iii-lat_1808.txt",
+    "lines": "36965-36971",
+    "language": "Latin"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-17_batch-3/Second_Readings_3.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "third-council-of-toledo-589",
+   "quote": "Glory and honor to the Father and the Son and the Holy Spirit.",
+   "original": {
+    "file": "cic/texts/collectio-canonum-ecclesiae-hispanae-toledo-iii-lat_1808.txt",
+    "lines": "36959-36961",
+    "language": "Latin"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-17_batch-3/Second_Readings_3.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "third-council-of-toledo-589",
+   "quote": "The Son is always less than the Father, because he does the Father's will. And it is not shown that the Father does his.",
+   "original": {
+    "file": "cic/texts/gregory-tours_opera-mgh-srm-1-lat_arndt-krusch1885.txt",
+    "lines": "18556-18558",
+    "language": "Latin"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-17_batch-3/Second_Readings_3.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "third-council-of-toledo-589",
+   "quote": "No one doubts that we and those before us went astray in the Arian heresy.",
+   "original": {
+    "file": "cic/texts/collectio-canonum-ecclesiae-hispanae-toledo-iii-lat_1808.txt",
+    "lines": "36981-36986",
+    "language": "Latin"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-17_batch-3/Second_Readings_2.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "third-council-of-toledo-589",
+   "quote": "cut out by the roots",
+   "original": {
+    "file": "cic/texts/chronica-minora-2_marcellinus-victor-tunnunensis-biclaro-isidore-mgh-aa-11-lat_mommsen1894.txt",
+    "lines": "20408-20410",
+    "language": "Latin"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-17_batch-3/Second_Readings_3.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "john-wyclif",
+   "quote": "So Christ and his apostles taught the people in the tongue the people knew best. Why should people not do the same now?",
+   "original": {
+    "file": "cic/texts/wyclif_english-works-hitherto-unprinted_matthew1880.txt",
+    "lines": "35791-35795",
+    "language": "Middle English"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-17_batch-3/Second_Readings_3.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "john-wyclif",
+   "quote": "And so the Gospel's pearl is scattered and trampled by pigs.",
+   "original": {
+    "file": "cic/texts/knighton_chronicon-v2-lat_lumby1895.txt",
+    "lines": "16968-16969",
+    "language": "Latin"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-17_batch-3/Second_Readings_3.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "john-wyclif",
+   "quote": "Yet in hope I would wish my soul to be where John Wyclif's soul is.",
+   "original": {
+    "file": "cic/texts/palacky_documenta-mag-joannis-hus-lat-ces_1869.txt",
+    "lines": "15246-15249",
+    "language": "Latin"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-17_batch-3/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "thomas-a-kempis",
+   "quote": "Whoever follows me does not walk in darkness,",
+   "original": {
+    "file": "cic/texts/kempis_opera-omnia-sermones-de-compunctione-lat_pohl1902.txt",
+    "lines": "677-678",
+    "language": "Latin"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-17_batch-3/Second_Readings_3.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "thomas-a-kempis",
+   "quote": "Learn to scorn outward things and to give yourself to inward things. And you will see the kingdom of God come within you.",
+   "original": {
+    "file": "cic/texts/kempis_opera-omnia-sermones-de-compunctione-lat_pohl1902.txt",
+    "lines": "2831-2833",
+    "language": "Latin"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-17_batch-3/Second_Readings_3.md",
+    "verdict": "minor"
+   }
+  },
+  {
+   "id": "thomas-a-kempis",
+   "quote": "royal way",
+   "original": {
+    "file": "cic/texts/kempis_opera-omnia-sermones-de-compunctione-lat_pohl1902.txt",
+    "lines": "3717",
+    "language": "Latin"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-17_batch-3/Second_Readings_3.md",
+    "verdict": "minor"
+   }
+  },
+  {
+   "id": "thomas-a-kempis",
+   "quote": "the little Gerson",
+   "original": {
+    "file": "cic/texts/ignatius-loyola_scripta-de-sancto-ignatio-tomus01-lat-spa-ita_1904.txt",
+    "lines": "9403-9406",
+    "language": "Spanish"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-17_batch-3/Second_Readings.md",
+    "verdict": "minor"
+   }
+  },
+  {
+   "id": "pachomius",
+   "quote": "When I first began to live as a monk, there was no community anywhere in which anyone cared or feared for the salvation of others. Once the persecution was over, each of the early monks trained himself in the monk's life on his own. Later, with God's help, your father did this great good.",
+   "original": {
+    "file": "cic/texts/acta-sanctorum_maii-tomus-3-lat-grc_palme1866.txt",
+    "lines": "86887-86893",
+    "language": "Latin"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-17_batch-3/Second_Readings_3.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "arius",
+   "quote": "alone unbegotten",
+   "original": {
+    "file": "cic/texts/auxentius-durostorum_epistula-de-fide-vita-obitu-wulfilae_kauffmann1899.txt",
+    "lines": "15310",
+    "language": "Latin"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-17_batch-3/Second_Readings_3.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "arius",
+   "quote": "subject and obedient in all things",
+   "original": {
+    "file": "cic/texts/auxentius-durostorum_epistula-de-fide-vita-obitu-wulfilae_kauffmann1899.txt",
+    "lines": "15323-15325",
+    "language": "Latin"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-17_batch-3/Second_Readings_3.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "arius",
+   "quote": "the faith and communion that came from Arius",
+   "original": {
+    "file": "cic/texts/collectio-canonum-ecclesiae-hispanae-toledo-iii-lat_1808.txt",
+    "lines": "36900-36904",
+    "language": "Latin"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-17_batch-3/Second_Readings_3.md",
+    "verdict": "minor"
+   }
+  },
+  {
+   "id": "baudonivia",
+   "quote": "I chose you, daughters. You are my light, my life, my rest and all my happiness. You are the new planting.",
+   "original": {
+    "file": "cic/texts/fredegar-liber-historiae-francorum-vitae-mgh-srm-2-lat_krusch1888.txt",
+    "lines": "29901-29903",
+    "language": "Latin"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-17_batch-3/Second_Readings_3.md",
+    "verdict": "minor"
+   }
+  },
+  {
+   "id": "baudonivia",
+   "quote": "What she did in the land of the East,",
+   "original": {
+    "file": "cic/texts/fredegar-liber-historiae-francorum-vitae-mgh-srm-2-lat_krusch1888.txt",
+    "lines": "30245",
+    "language": "Latin"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-17_batch-3/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "baudonivia",
+   "quote": "blessed Radegund did in Gaul.",
+   "original": {
+    "file": "cic/texts/fredegar-liber-historiae-francorum-vitae-mgh-srm-2-lat_krusch1888.txt",
+    "lines": "30245",
+    "language": "Latin"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-17_batch-3/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "antony-the-great",
+   "quote": "For I had heard this of Antony. He had come in by chance during the Gospel reading, and was urged on by it. It was as though the words read were spoken to him. 'Go, sell all that you have, give to the poor, and you will have treasure in heaven. And come, follow me.' By such a divine word he was at once turned to you.",
+   "original": {
+    "file": "cic/texts/augustine_confessiones-lat_knoll-csel33.txt",
+    "lines": "13470-13501",
+    "language": "Latin"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-18_batch-4/Second_Readings.md",
+    "verdict": "minor"
+   }
+  },
+  {
+   "id": "benedict-of-nursia",
+   "quote": "For the holy man could in no way teach otherwise than he lived.",
+   "original": {
+    "file": "cic/texts/acta-sanctorum_martii-tomus-3-lat-grc_palme1865.txt",
+    "lines": "80438-80440",
+    "language": "Latin"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-18_batch-4/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "clement-of-alexandria",
+   "quote": "bare faith alone,",
+   "original": {
+    "file": "cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml",
+    "lines": "28315",
+    "language": "English"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-18_batch-4/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "clement-of-alexandria",
+   "quote": "it was a guide to bring the Greek mind to Christ, as the Law brought the Hebrews.",
+   "original": {
+    "file": "cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml",
+    "lines": "27891-27893",
+    "language": "English"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-18_batch-4/Second_Readings.md",
+    "verdict": "minor"
+   }
+  },
+  {
+   "id": "clement-of-alexandria",
+   "quote": "whatever has been well said",
+   "original": {
+    "file": "cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml",
+    "lines": "28147-28148",
+    "language": "English"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-18_batch-4/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "clement-of-alexandria",
+   "quote": "in my judgment the most learned of men,",
+   "original": {
+    "file": "cic/texts/npnf206_jerome-principal-works.xml",
+    "lines": "16628-16629",
+    "language": "English"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-17_varied-batch/clement-of-alexandria/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "clement-of-alexandria",
+   "quote": "Is learning missing from these books? Or are they not rather drawn from the very heart of philosophy?",
+   "original": {
+    "file": "cic/texts/npnf206_jerome-principal-works.xml",
+    "lines": "16634-16636",
+    "language": "English"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-18_batch-4/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "clement-of-alexandria",
+   "quote": "I tracked him down where he was hidden in Egypt, and I found rest.",
+   "original": {
+    "file": "cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml",
+    "lines": "27489-27492",
+    "language": "English"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-17_varied-batch/clement-of-alexandria/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "clement-of-alexandria",
+   "quote": "found rest",
+   "original": {
+    "file": "cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml",
+    "lines": "27489-27492",
+    "language": "English"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-17_varied-batch/clement-of-alexandria/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "clement-of-alexandria",
+   "quote": "bare faith alone",
+   "original": {
+    "file": "cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml",
+    "lines": "28315",
+    "language": "English"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-18_batch-4/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "clement-of-alexandria",
+   "quote": "the most learned of men",
+   "original": {
+    "file": "cic/texts/npnf206_jerome-principal-works.xml",
+    "lines": "16628-16629",
+    "language": "English"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-17_varied-batch/clement-of-alexandria/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "columba",
+   "quote": "to make a pilgrimage for Christ",
+   "original": {
+    "file": "cic/texts/adomnan_life-of-saint-columba_huyshe1905.txt",
+    "lines": "2224-2225",
+    "language": "English"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-18_batch-4/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "columba",
+   "quote": "according to the example of their first teacher",
+   "original": {
+    "file": "cic/texts/bede_opera-historica-v1-historia-abbatum-lat_plummer1896.txt",
+    "lines": "18879",
+    "language": "Latin"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-18_batch-4/Second_Readings.md",
+    "verdict": "minor"
+   }
+  },
+  {
+   "id": "columba",
+   "quote": "our most reverend Father Columba and his successors",
+   "original": {
+    "file": "cic/texts/bede_ecclesiastical-history-english-people_giles1903.txt",
+    "lines": "8122-8123",
+    "language": "English"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-17_varied-batch/columba/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "columba",
+   "quote": "their error",
+   "original": {
+    "file": "cic/texts/bede_ecclesiastical-history-english-people_giles1903.txt",
+    "lines": "5884-5885",
+    "language": "English"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-18_batch-4/Second_Readings.md",
+    "verdict": "minor"
+   }
+  },
+  {
+   "id": "columba",
+   "quote": "with all his household",
+   "original": {
+    "file": "cic/texts/adomnan_life-of-saint-columba_huyshe1905.txt",
+    "lines": "7610-7613",
+    "language": "English"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-18_batch-4/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "council-of-nicaea-325",
+   "quote": "there was a time when he was not",
+   "original": {
+    "file": "cic/texts/npnf214_seven-ecumenical-councils.xml",
+    "lines": "2418-2421",
+    "language": "English"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-17_varied-batch-2/council-of-nicaea-325/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "council-of-nicaea-325",
+   "quote": "a creature",
+   "original": {
+    "file": "cic/texts/npnf214_seven-ecumenical-councils.xml",
+    "lines": "6346-6347",
+    "language": "English"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-18_batch-4/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "council-of-nicaea-325",
+   "quote": "begotten, not made",
+   "original": {
+    "file": "cic/texts/npnf214_seven-ecumenical-councils.xml",
+    "lines": "2411-2412",
+    "language": "English"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-17_varied-batch-2/council-of-nicaea-325/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "council-of-nicaea-325",
+   "quote": "from God",
+   "original": {
+    "file": "cic/texts/npnf204_athanasius-select-works-letters.xml",
+    "lines": "27877-27878",
+    "language": "English"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-17_varied-batch-2/council-of-nicaea-325/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "council-of-nicaea-325",
+   "quote": "whispering ... and winking",
+   "original": {
+    "file": "cic/texts/npnf204_athanasius-select-works-letters.xml",
+    "lines": "27991-27992",
+    "language": "English"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-18_batch-4/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "council-of-nicaea-325",
+   "quote": "in the sight of all",
+   "original": {
+    "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml",
+    "lines": "6395-6396",
+    "language": "English"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-18_batch-4/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "council-of-nicaea-325",
+   "quote": "shall not be set aside",
+   "original": {
+    "file": "cic/texts/npnf214_seven-ecumenical-councils.xml",
+    "lines": "13970-13972",
+    "language": "English"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-18_batch-4/Second_Readings.md",
+    "verdict": "minor"
+   }
+  },
+  {
+   "id": "council-of-nicaea-325",
+   "quote": "pre-eminent",
+   "original": {
+    "file": "cic/texts/npnf214_seven-ecumenical-councils.xml",
+    "lines": "20217-20220",
+    "language": "English"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-17_varied-batch-2/council-of-nicaea-325/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "dhuoda",
+   "quote": "mind and body, as in a picture in a mirror.",
+   "original": {
+    "file": "cic/texts/dhuoda_liber-manualis_bondurand1887.txt",
+    "lines": "3165-3167",
+    "language": "Latin"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-18_batch-4/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "dhuoda",
+   "quote": "but they will not teach on equal terms, with a heart burning in the breast, as I do, your mother.",
+   "original": {
+    "file": "cic/texts/dhuoda_liber-manualis_bondurand1887.txt",
+    "lines": "3169-3171",
+    "language": "Latin"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-18_batch-4/Second_Readings.md",
+    "verdict": "minor"
+   }
+  },
+  {
+   "id": "marcion-of-pontus",
+   "quote": "There is a certain Marcion, from Pontus. Even now he is still teaching the people he has won over. He teaches them to believe in some other god, greater than the Creator.",
+   "original": {
+    "file": "cic/texts/justin-martyr_first-apology-grc_rauschen1911.txt",
+    "lines": "729-731",
+    "language": "Greek"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-18_batch-4/Second_Readings.md",
+    "verdict": "minor"
+   }
+  },
+  {
+   "id": "marcion-of-pontus",
+   "quote": "Separating the law from the gospel is Marcion's own work, and his chief one,",
+   "original": {
+    "file": "cic/texts/tertullian_quae-supersunt-t2-polemica-lat_oehler1853.txt",
+    "lines": "4337-4338",
+    "language": "Latin"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-17_varied-batch-2/marcion-of-pontus/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "marcion-of-pontus",
+   "quote": "the defenders of Judaism",
+   "original": {
+    "file": "cic/texts/anf03_tertullian.xml",
+    "lines": "29252",
+    "language": "English"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-18_batch-4/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "marcion-of-pontus",
+   "quote": "in every race of people",
+   "original": {
+    "file": "cic/texts/justin-martyr_first-apology-grc_rauschen1911.txt",
+    "lines": "732",
+    "language": "Greek"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-18_batch-4/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "marcion-of-pontus",
+   "quote": "Do you know me?",
+   "original": {
+    "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
+    "lines": "39883",
+    "language": "English"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-17_varied-batch-2/marcion-of-pontus/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "martin-of-tours",
+   "quote": "It was a cruel wrong, never heard of before, for a judge of this world to try a case of the church.",
+   "original": {
+    "file": "cic/texts/sulpicius-severus_libri-qui-supersunt-chronica-vita-martini-lat_halm1866-csel1.txt",
+    "lines": "5905-5907",
+    "language": "Latin"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-17_varied-batch-2/martin-of-tours/Second_Readings.md",
+    "verdict": "minor"
+   }
+  },
+  {
+   "id": "radegund",
+   "quote": "I bow down through this letter in my place",
+   "original": {
+    "file": "cic/texts/gregory-tours_opera-mgh-srm-1-lat_arndt-krusch1885.txt",
+    "lines": "31516-31517",
+    "language": "Latin"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-17_varied-batch/radegund/Second_Readings.md",
+    "verdict": "same"
+   }
+  }
+ ]
+}

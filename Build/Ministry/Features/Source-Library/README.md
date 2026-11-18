@@ -22,6 +22,10 @@ pilot launches, starting with desert. Nothing here is built yet.
   were blocked from the research sandbox, so licence wording is to be re-read live before
   it enters policy.
 - **`Decision-Log.md`** — append-only, workstream-local. One entry per ruling and per PR.
+- **`CFT-Wants.md`** — the texts the Church Family Tree is waiting on, each with its state and the
+  held entry it unblocks; worked in batches by the Library thread (from 2026-11-10).
+- **`HANDOVER-batch4.md`** — how the Library thread runs a batch, and what is left, for the session
+  that takes up batch 4.
 
 The project-level record is the 2026-10-14 entry in
 `Build/Ministry/Technology/CiC_FrontEnd_Decision_Log.md`.

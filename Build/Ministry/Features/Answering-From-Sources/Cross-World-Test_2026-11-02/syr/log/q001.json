@@ -1,0 +1,188 @@
+{
+ "draft": "Our link to Jesus runs through our own founding story and through the hymns and letters we still hold [[syr.story.abgar-addai-legend]] [[syr.dw.remains]] [[syr.dw.jesus]] [[as:paraphrase]]. Our story tells of a king's letter to Jesus and of Addai's mission to Edessa [[syr.story.abgar-addai-legend]] [[as:paraphrase]]. We tell it as our story and not as history: no contemporary witness backs it [[syr.story.abgar-addai-legend]] [[as:paraphrase]]. The king's own coinage stayed pagan [[syr.story.abgar-addai-legend]] [[as:paraphrase]]. What the story shows is our conviction that our faith came from the apostles [[syr.story.abgar-addai-legend]] [[as:paraphrase]].\n\nOur word Ihidaya, the Single One, names both the vowed celibate and Christ the Only-Begotten [[syr.term.ihidaya]] [[as:paraphrase]]. So the one who lives single shares a name with Christ [[syr.term.ihidaya]] [[as:paraphrase]]. The covenant of vowed men and women stood at our heart early, and its first datable witness is Demonstration 6, from 337 [[syr.force.qyama-commitment]] [[as:paraphrase]]. No source says how much earlier the covenant began [[syr.force.qyama-commitment]] [[as:paraphrase]].\n\nAt Edessa the modern city sits on the ancient one, and the church the flood destroyed lives only in a chronicler's line [[syr.dw.remains]] [[as:paraphrase]]. Our hymns were copied by later hands into books that still exist [[syr.dw.remains]] [[as:paraphrase]]. Ephrem sang in his first Nativity hymn: [[quote:syr.quote.nativity-this-is-the-day]]\n",
+ "ending": "rewritten",
+ "final": "Our word Ihidaya, the Single One, names both the vowed celibate and Christ the Only-Begotten. So the one who lives single shares a name with Christ. No source says how much earlier the covenant began. At Edessa the modern city sits on the ancient one, and the church the flood destroyed lives only in a chronicler's line. Our hymns were copied by later hands into books that still exist.",
+ "group": "A",
+ "offered": [
+  "syr.dw.remains",
+  "syr.story.qyama-morning",
+  "syr.story.abgar-addai-legend",
+  "syr.quote.the-scribes-and-the-prefects-over-the-archives",
+  "syr.force.frontier-plural-milieu",
+  "syr.force.qyama-commitment",
+  "syr.dw.jesus",
+  "syr.term.ihidaya",
+  "syr.quote.nativity-this-is-the-day"
+ ],
+ "placements": [
+  {
+   "decision": "drop",
+   "judgement": {
+    "fit": "partly",
+    "limit_stated": false,
+    "reason": "It shows what Ephrem sang about Jesus's birth but does not say what sources or what path connected the community to Jesus."
+   },
+   "record_id": "syr.quote.nativity-this-is-the-day"
+  }
+ ],
+ "question": "What sources, if any, connected your community to Jesus, and by what path did they arrive?",
+ "question_id": "q001",
+ "read": {
+  "dropped": [
+   "syr.quote.nativity-this-is-the-day"
+  ],
+  "status": "rewrite",
+  "unsupported": {
+   "2": {
+    "problem": "added_detail",
+    "reason": "The bound record says the covenant order, not 'vowed men and women'; the gender detail is not in it.",
+    "supported": false
+   }
+  }
+ },
+ "rewrite": [
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "syr.term.ihidaya"
+   ],
+   "sentence": "Our word Ihidaya, the Single One, names both the vowed celibate and Christ the Only-Begotten.",
+   "tags": [
+    "syr.term.ihidaya"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "syr.term.ihidaya"
+   ],
+   "sentence": "So the one who lives single shares a name with Christ.",
+   "tags": [
+    "syr.term.ihidaya"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "syr.force.qyama-commitment"
+   ],
+   "sentence": "No source says how much earlier the covenant began.",
+   "tags": [
+    "syr.force.qyama-commitment"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "syr.dw.remains"
+   ],
+   "sentence": "At Edessa the modern city sits on the ancient one, and the church the flood destroyed lives only in a chronicler's line.",
+   "tags": [
+    "syr.dw.remains"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "syr.dw.remains"
+   ],
+   "sentence": "Our hymns were copied by later hands into books that still exist.",
+   "tags": [
+    "syr.dw.remains"
+   ]
+  }
+ ],
+ "sentences": [
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 0,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Our word Ihidaya, the Single One, names both the vowed celibate and Christ the Only-Begotten.",
+   "tags": [
+    "syr.term.ihidaya"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 1,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "So the one who lives single shares a name with Christ.",
+   "tags": [
+    "syr.term.ihidaya"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 2,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "The covenant of vowed men and women stood at our heart early, and its first datable witness is Demonstration 6, from 337.",
+   "tags": [
+    "syr.force.qyama-commitment"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 3,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "No source says how much earlier the covenant began.",
+   "tags": [
+    "syr.force.qyama-commitment"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 4,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "At Edessa the modern city sits on the ancient one, and the church the flood destroyed lives only in a chronicler's line.",
+   "tags": [
+    "syr.dw.remains"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 5,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Our hymns were copied by later hands into books that still exist.",
+   "tags": [
+    "syr.dw.remains"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": null,
+   "n": 6,
+   "placed": true,
+   "placed_id": "syr.quote.nativity-this-is-the-day",
+   "reason": "placed by code",
+   "sentence": "Ephrem sang in his first Nativity hymn: “This is the day that made the Prophets, the Kings, and the Priests glad. On this day their words came true - all of them. For on this day the Virgin gave birth to Immanuel in Bethlehem.”",
+   "tags": [
+    "syr.quote.nativity-this-is-the-day"
+   ]
+  }
+ ],
+ "shipped_by_net": "Our word Ihidaya, the Single One, names both the vowed celibate and Christ the Only-Begotten. So the one who lives single shares a name with Christ. The covenant of vowed men and women stood at our heart early, and its first datable witness is Demonstration 6, from 337. No source says how much earlier the covenant began.\n\nAt Edessa the modern city sits on the ancient one, and the church the flood destroyed lives only in a chronicler's line. Our hymns were copied by later hands into books that still exist. Ephrem sang in his first Nativity hymn: “This is the day that made the Prophets, the Kings, and the Priests glad. On this day their words came true - all of them. For on this day the Virgin gave birth to Immanuel in Bethlehem.”",
+ "sub_question": "C6.S9"
+}

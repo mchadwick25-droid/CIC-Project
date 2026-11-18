@@ -18,8 +18,7 @@ confidence:
     carried per gallic.force.barbarian-fiscal-ruin's own divergence_note; not resolved here.
 sources:
 - source_id: gallic.source.salvian-on-the-government-of-god
-  locus: "VII.12 (Sanford pp. 203-204): the barbarian sweep through Germany, the Belgae, Aquitaine,
-    and the whole of the Gallic provinces, read as the ever-present judgment of God"
+  locus: "VII.12 (Sanford pp. 203-204): the barbarian sweep through Germany, the Belgae, Aquitaine, and the whole of the Gallic provinces, read as the ever-present judgment of God (cic/texts/salvian_on-the-government-of-god_sanford1930.txt, lines 9144-9152)"
   license: public-domain
 retrieval:
   tier: 2

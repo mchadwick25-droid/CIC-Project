@@ -1,0 +1,219 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "syr.dw.reading"
+   ],
+   "sentence": "Scripture was sung, quoted, and woven into every argument."
+  },
+  {
+   "record_ids": [
+    "syr.dw.reading"
+   ],
+   "sentence": "It reached us through the church's worship, the harmony that gave the Gospel its shape, our teachers, and the covenant's practice."
+  },
+  {
+   "record_ids": [
+    "syr.dw.reading"
+   ],
+   "sentence": "The book and the community that sang it were never rivals."
+  },
+  {
+   "record_ids": [
+    "syr.dw.reading",
+    "syr.term.raza-shrara"
+   ],
+   "sentence": "We read each word of Scripture as a raza, a symbol bound to the truth it carries."
+  },
+  {
+   "record_ids": [
+    "syr.gravity.authority-ambiguity"
+   ],
+   "sentence": "Authority ran along more than one path: bishops, and the standing of the covenant's vowed men and women."
+  },
+  {
+   "record_ids": [
+    "syr.gravity.authority-ambiguity"
+   ],
+   "sentence": "Aphrahat drafted a synodal letter in the bishops' name, and his own rank is unknown."
+  },
+  {
+   "record_ids": [
+    "syr.gravity.authority-ambiguity"
+   ],
+   "sentence": "Which path outranked the others never resolved within our years."
+  },
+  {
+   "record_ids": [
+    "syr.dw.one-church"
+   ],
+   "sentence": "Rival communities who also invoked Christ shared our streets."
+  },
+  {
+   "record_ids": [
+    "syr.dw.one-church"
+   ],
+   "sentence": "We would not share their communion, and we answered their teaching by name."
+  },
+  {
+   "record_ids": [
+    "syr.quote.blc-one-name"
+   ],
+   "sentence": "Bardaisan is recorded in Philip's book as saying: “And what shall we say of the new race of us Christians, whom Christ at his coming planted in every country and in every region? For see - wherever we are, we are all called by the one name of Christ: Christians. On one day, the first of the week, we gather together.”"
+  }
+ ],
+ "citations": [
+  "syr.dw.one-church",
+  "syr.dw.reading",
+  "syr.gravity.authority-ambiguity",
+  "syr.quote.blc-one-name",
+  "syr.term.raza-shrara"
+ ],
+ "group": "A",
+ "id": "q012",
+ "net_sentences": [
+  {
+   "draft": "Scripture was sung, quoted, and woven into every argument [[syr.dw.reading]] [[as:paraphrase]].",
+   "sentence": "Scripture was sung, quoted, and woven into every argument.",
+   "tags": [
+    "syr.dw.reading"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "It reached us through the church's worship, the harmony that gave the Gospel its shape, our teachers, and the covenant's practice [[syr.dw.reading]] [[as:paraphrase]].",
+   "sentence": "It reached us through the church's worship, the harmony that gave the Gospel its shape, our teachers, and the covenant's practice.",
+   "tags": [
+    "syr.dw.reading"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "The book and the community that sang it were never rivals [[syr.dw.reading]] [[as:paraphrase]].",
+   "sentence": "The book and the community that sang it were never rivals.",
+   "tags": [
+    "syr.dw.reading"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "We read each word of Scripture as a raza, a symbol bound to the truth it carries [[syr.dw.reading]] [[syr.term.raza-shrara]] [[as:paraphrase]].",
+   "sentence": "We read each word of Scripture as a raza, a symbol bound to the truth it carries.",
+   "tags": [
+    "syr.dw.reading",
+    "syr.term.raza-shrara"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Authority ran along more than one path: bishops, and the standing of the covenant's vowed men and women [[syr.gravity.authority-ambiguity]] [[as:paraphrase]].",
+   "sentence": "Authority ran along more than one path: bishops, and the standing of the covenant's vowed men and women.",
+   "tags": [
+    "syr.gravity.authority-ambiguity"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Aphrahat drafted a synodal letter in the bishops' name, and his own rank is unknown [[syr.gravity.authority-ambiguity]] [[as:paraphrase]].",
+   "sentence": "Aphrahat drafted a synodal letter in the bishops' name, and his own rank is unknown.",
+   "tags": [
+    "syr.gravity.authority-ambiguity"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Which path outranked the others never resolved within our years [[syr.gravity.authority-ambiguity]] [[as:paraphrase]].",
+   "sentence": "Which path outranked the others never resolved within our years.",
+   "tags": [
+    "syr.gravity.authority-ambiguity"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Rival communities who also invoked Christ shared our streets [[syr.dw.one-church]] [[as:paraphrase]].",
+   "sentence": "Rival communities who also invoked Christ shared our streets.",
+   "tags": [
+    "syr.dw.one-church"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "We would not share their communion, and we answered their teaching by name [[syr.dw.one-church]] [[as:paraphrase]].",
+   "sentence": "We would not share their communion, and we answered their teaching by name.",
+   "tags": [
+    "syr.dw.one-church"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Bardaisan is recorded in Philip's book as saying: [[quote:syr.quote.blc-one-name]]",
+   "placed_quote": "syr.quote.blc-one-name",
+   "sentence": "Bardaisan is recorded in Philip's book as saying: “And what shall we say of the new race of us Christians, whom Christ at his coming planted in every country and in every region? For see - wherever we are, we are all called by the one name of Christ: Christians. On one day, the first of the week, we gather together.”",
+   "tags": [
+    "syr.quote.blc-one-name"
+   ],
+   "verdict": "ok",
+   "why": "quote placed by code, verbatim to its record"
+  }
+ ],
+ "offered": [
+  "syr.dw.one-church",
+  "syr.term.raza-shrara",
+  "syr.story.abgar-addai-legend",
+  "syr.quote.blc-one-name",
+  "syr.gravity.authority-ambiguity",
+  "syr.contested.edessa-origins",
+  "syr.dw.reading",
+  "syr.quote.on-a-certain-day-a-pearl",
+  "syr.dw.suffering",
+  "syr.quote.aphrahat-persecuted-litany",
+  "syr.dw.corpus-and-its-edges",
+  "syr.quote.chronicle-flood-line",
+  "syr.quote.theodoret-gnats"
+ ],
+ "raw_text": "No, Scripture was supreme among us, but it always reached us through others [[syr.dw.reading]] [[as:paraphrase]]. Scripture was sung, quoted, and woven into every argument [[syr.dw.reading]] [[as:paraphrase]]. It reached us through the church's worship, the harmony that gave the Gospel its shape, our teachers, and the covenant's practice [[syr.dw.reading]] [[as:paraphrase]]. The book and the community that sang it were never rivals [[syr.dw.reading]] [[as:paraphrase]].\n\nWe read each word of Scripture as a raza, a symbol bound to the truth it carries [[syr.dw.reading]] [[syr.term.raza-shrara]] [[as:paraphrase]]. Authority ran along more than one path: bishops, and the standing of the covenant's vowed men and women [[syr.gravity.authority-ambiguity]] [[as:paraphrase]]. Aphrahat drafted a synodal letter in the bishops' name, and his own rank is unknown [[syr.gravity.authority-ambiguity]] [[as:paraphrase]]. Which path outranked the others never resolved within our years [[syr.gravity.authority-ambiguity]] [[as:paraphrase]].\n\nRival communities who also invoked Christ shared our streets [[syr.dw.one-church]] [[as:paraphrase]]. We would not share their communion, and we answered their teaching by name [[syr.dw.one-church]] [[as:paraphrase]]. Bardaisan is recorded in Philip's book as saying: [[quote:syr.quote.blc-one-name]]\n",
+ "reply_shape": {
+  "leadin_support": {
+   "syr.quote.blc-one-name": [
+    {
+     "detail": "Philip",
+     "kind": "name",
+     "snippet": "y, the first of the week, we assemble ourselves together In Philip's record, the Book of the Laws of Countries, Bardaisan descri",
+     "span": "record syr.quote.blc-one-name"
+    },
+    {
+     "detail": "book",
+     "kind": "genre",
+     "snippet": "On one day, the first of the week, we gather together. The Book of the Laws of Divers Countries, the 'new race of us Christ",
+     "span": "record syr.quote.blc-one-name"
+    }
+   ]
+  },
+  "placed": [
+   "syr.quote.blc-one-name"
+  ],
+  "removed": [
+   {
+    "draft": "No, Scripture was supreme among us, but it always reached us through others [[syr.dw.reading]] [[as:paraphrase]].",
+    "sentence": "No, Scripture was supreme among us, but it always reached us through others.",
+    "why": "states an absence that no record it cites states"
+   }
+  ],
+  "repaired": []
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": "C6.S4",
+ "text": "Scripture was sung, quoted, and woven into every argument. It reached us through the church's worship, the harmony that gave the Gospel its shape, our teachers, and the covenant's practice. The book and the community that sang it were never rivals.\n\nWe read each word of Scripture as a raza, a symbol bound to the truth it carries. Authority ran along more than one path: bishops, and the standing of the covenant's vowed men and women. Aphrahat drafted a synodal letter in the bishops' name, and his own rank is unknown. Which path outranked the others never resolved within our years.\n\nRival communities who also invoked Christ shared our streets. We would not share their communion, and we answered their teaching by name. Bardaisan is recorded in Philip's book as saying: “And what shall we say of the new race of us Christians, whom Christ at his coming planted in every country and in every region? For see - wherever we are, we are all called by the one name of Christ: Christians. On one day, the first of the week, we gather together.”",
+ "voice_set_aside": false
+}

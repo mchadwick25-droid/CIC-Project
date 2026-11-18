@@ -105,6 +105,6 @@ text: We baptized infants, and we would not make a newborn wait. Cyprian and his
   On the Merits and Forgiveness of Sins he named the unbaptized. "Such infants as quit the body without
   being baptized," he wrote, "will be involved in the mildest condemnation of all." Whoever teaches that
   they will not be condemned, he said, "greatly deceives both himself and others." In the Enchiridion
-  he called it "the mildest punishment of all." Neither bishop tells us of any one child.
+  he called it "the mildest punishment of all."
 ---
 Grounded directly in Cyprian, Epistle LVIII to Fidus, sections 2 and 5 (ANF numbering; Oxford and Hartel 64), and Augustine, Enchiridion, chapters 43 and 93 -- verified against the vendored files at the lines above. The quoted phrases are the ANF and NPNF English word for word. An ANF editor's bracketed note with verses by George Canning sits inside section 5 after "according to Adam,"; it is not Cyprian's and is left out. The letter's first section gives the council's number, "sixty-six"; the sources give no date or place for it. On the Merits and Forgiveness of Sins I.21 is quoted from the NPNF English at the line given; the chapter title there, "Unbaptized Infants Damned, But Most Lightly," is the editor's. The Latin is OCR text with misreads. No year for the Enchiridion is stated here, and none is stated by the vendored sources for this world.

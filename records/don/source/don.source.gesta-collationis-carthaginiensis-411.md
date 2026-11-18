@@ -28,6 +28,7 @@ edition: 'The modern critical editions -- Serge Lancel (ed.), Actes de la Confer
   (Registry row 55).'
 citation: Gesta Collationis Carthaginiensis, the acts of the 411 Conference of Carthage, Patrologia Latina Tomus XI (Migne)
 kind: vendored
+shelf_row: pl11-zeno-optatus-collatio-carthaginiensis_migne--gesta-collationis-carthaginiensis-acts-of-the-411-conference
 rights_status: "in-copyright; confirmed unavailable in the public domain. Not vendored and not a vendoring candidate - committing it would be redistribution. Consultable through a library without being vendored"
 attribution_status: documentary -- an imperial court transcript, not an authored work. Its mediation is
   a notary's own choices about what to record, not an adversary's selection for the purpose of refutation

@@ -11,7 +11,7 @@ confidence:
   verification_state: verified-via-authority
   evidentiary_weight: contested
   formation_confidence: Documented
-  divergence_note: "The censures (Gangra) and the legislation (the Asketikon's ordering answers) are Documented; the radical side's own self-understanding is Inferential/Thin - it survives only in hostile catalogues, adversarially transmitted (AG/transmission flag at generation, Doc_04 §1). Doc_04 §3.2 names this divergence explicitly: an organizing counter-force whose far side is voiceless, and this functions as the ceiling on its classification - Tensional, never higher, whatever the tension's evident historical force."
+  divergence_note: "The censures (Gangra) and the legislation (the Asketikon's ordering answers) are Documented; the radical side's own self-understanding is Inferential/Thin - it survives only in hostile catalogs, adversarially transmitted (AG/transmission flag at generation, Doc_04 §1). Doc_04 §3.2 names this divergence explicitly: an organizing counter-force whose far side is voiceless, and this functions as the ceiling on its classification - Tensional, never higher, whatever the tension's evident historical force."
 sources:
 - source_id: cappadocian.source.gangra-canons
   locus: "the twenty censures - the era's best against-the-grain record of what the radicals actually did"

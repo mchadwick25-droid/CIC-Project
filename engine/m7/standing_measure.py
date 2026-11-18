@@ -27,7 +27,7 @@ from pathlib import Path
 from engine.m1.loader import load_world_records
 from engine.m7.turn_readability import score_turn
 from engine.m8.cost import estimate_cost
-from engine.m8.price_tables import SONNET_4_5_PRICE_TABLE
+from engine.m8.price_tables import SONNET_4_5_PRICE_TABLE, price_for_model
 from engine.prose import quote_aware_sentences
 from engine.provider.bedrock import NormalizedUsage
 
@@ -89,13 +89,16 @@ def _mean(values: list[float]) -> float:
 
 
 def _usd(usage: dict) -> float:
+    table = price_for_model(usage["model_id"]) if usage.get("model_id") else SONNET_4_5_PRICE_TABLE
+    if table is None:
+        raise ValueError(f"no approved price for model {usage['model_id']!r}")
     normalized = NormalizedUsage(
         input_tokens=usage.get("input_tokens", 0),
         output_tokens=usage.get("output_tokens", 0),
         cache_creation_input_tokens=usage.get("cache_creation_input_tokens", 0),
         cache_read_input_tokens=usage.get("cache_read_input_tokens", 0),
     )
-    return estimate_cost(normalized, SONNET_4_5_PRICE_TABLE).dollars
+    return estimate_cost(normalized, table).dollars
 
 
 def score_run(report: dict) -> dict:
@@ -115,25 +118,29 @@ def score_run(report: dict) -> dict:
     for probe in probes:
         transcript = probe["transcript"]
         answer = transcript.get("answer_text") or ""
-        tags = _TAG.findall(transcript.get("raw_text") or "")
+        final_draft = (transcript.get("drafts") or [transcript])[-1]
+        tags = _TAG.findall(final_draft.get("raw_text") or "")
         invented += sum(1 for tag in tags if tag not in record_ids)
         sentence_count += len(quote_aware_sentences(answer))
         resolvable = {tag for tag in tags if tag in record_ids}
         if resolvable:
             kept = set(transcript.get("citations") or [])
             withheld_rates.append(len(resolvable - kept) / len(resolvable))
-        if transcript.get("stop_reason") == "max_tokens":
+        if final_draft.get("stop_reason") == "max_tokens":
             cutoffs += 1
         graded = score_turn(answer)
         if graded.scored:
             fks.append(graded.fk)
             fres.append(graded.fre)
         words.append(len(answer.split()))
-        if transcript.get("seconds_to_first_text") is not None:
-            first_text.append(transcript["seconds_to_first_text"])
-        if transcript.get("seconds_total") is not None:
-            totals.append(transcript["seconds_total"])
-        costs.append(_usd(probe.get("usage") or {}))
+        drafts = transcript.get("drafts") or [transcript]
+        if drafts[0].get("seconds_to_first_text") is not None:
+            first_text.append(drafts[0]["seconds_to_first_text"])
+        if all(d.get("seconds_total") is not None for d in drafts):
+            totals.append(sum(d["seconds_total"] for d in drafts))
+        usage = transcript.get("usage") if "drafts" in transcript else probe.get("usage")
+        voice_usage = [r for r in usage if r["call_kind"] == "voice_generation"] if isinstance(usage, list) else [usage or {}]
+        costs.append(sum(_usd(record) for record in voice_usage))
         passed += bool(probe.get("passed"))
     count = len(probes)
     return {

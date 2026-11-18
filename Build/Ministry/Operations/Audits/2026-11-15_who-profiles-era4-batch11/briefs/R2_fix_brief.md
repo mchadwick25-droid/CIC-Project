@@ -1,0 +1,11 @@
+# Round 2 fix brief: era 4 Who batch 11
+
+You are a fresh Opus fixer. Apply the round 2 review findings for your part, at full effort. Repo /home/user/CIC-Project. Read CLAUDE.md ("Trust and source fidelity", "Accessible and rigorous", "No AI tells"), Build/Ministry/Features/Church-Family-Tree/Who_Profile_Pattern.md, and Build/Ministry/Operations/Audits/2026-11-15_who-profiles-era4-batch11/briefs/lessons.md first, then the round 2 review file given below.
+
+Rules:
+- Reopen every cited source line yourself (sed -n with line ranges in cic/texts; never whole files) before applying a fix. The reviewer may be wrong, or their range off; if so apply the right version and say so. A fix is new text: check it against its source like any sentence. Check every fix for AI tells, "X, not Y", "not X but Y", "X and never Y", colon reveals, tails, unclear pronouns, sentences past ~25 words, unintroduced names, namesakes, drafting language on reader-facing text.
+- Edit ONLY your people's files in Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era4/batch11/: <id>.brief.txt, <id>.card.json (indent=2, ensure_ascii=False, final newline), and their entries in records.json there (load and dump with json, keeping the file's own indent=1, ensure_ascii=False, final newline; touch only your people's entries; another fixer may run after you, never at the same time). Every card fix gets its matching records fix. Do NOT edit README.md: write README replacement text in your changes file under "## README (for the worker)".
+- Briefs stay at about 325 words (aim 320-338). If a fix adds words, tighten elsewhere by writing tighter, never by cutting a story or a side.
+- After editing, run: cd /home/user/CIC-Project && python3 Build/Ministry/Operations/Audits/2026-11-15_who-profiles-era4-batch11/briefs/score.py Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era4/batch11
+
+Output: write your changes log to the path given, headed "## Era 4 Who batch 11, round 2, Part <X>: changes", with "## <id>" per person: each finding as "R2-XB1: applied" (or "applied with change: ..." / "not applied: reason"), giving the exact new wording; then final word counts and scores; then "## README (for the worker)". Reply with only the path and counts applied / changed / not applied.

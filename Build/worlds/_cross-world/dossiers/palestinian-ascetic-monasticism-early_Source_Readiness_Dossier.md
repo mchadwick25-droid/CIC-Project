@@ -103,13 +103,13 @@ directory listing.**
 
 | title | author | translator | year | url | rights basis | verified by (method + date) |
 |---|---|---|---|---|---|---|
-| The Pilgrimage of Etheria | Egeria (Etheria) | M. L. McClure and C. L. Feltoe | 1919 | https://archive.org/details/pilgrimageofethe00mccliala | pd-us-by-date | Direct `WebFetch` against the archive.org details page, 2026-09-21 — page states `NOT_IN_COPYRIGHT`; corroborated by a separate archive.org item, a 2018 LibriVox recording of the same translation, independently carrying a Public Domain Mark 1.0 license. Already named once before — `records/hal/search_record/hal.search.egeria-pilgrimage.md` (2026-08-21) — but scoped there to Bethlehem context only for a different world; this pass re-verified it directly rather than trusting that prior citation, and the fit here is closer: Egeria's own 380s journey runs "the Sinai road" — this candidate's own `region` field, verbatim — through the Judean desert, describing monks and hermits she met along it. Added to `Build/worlds/_cross-world/download-queue-seed.yaml`; not yet vendored. |
+| The Pilgrimage of Etheria | Egeria (Etheria) | M. L. McClure and C. L. Feltoe | 1919 | https://archive.org/details/pilgrimageofethe00mccliala | pd-us-by-date | Direct `WebFetch` against the archive.org details page, September 2026 — page states `NOT_IN_COPYRIGHT`; corroborated by a separate archive.org item, a 2018 LibriVox recording of the same translation, independently carrying a Public Domain Mark 1.0 license. Already named in `records/hal/search_record/hal.search.egeria-pilgrimage.md` (August 2026), but scoped there to Bethlehem context only for a different world; it is re-verified here directly rather than trusting that citation, and the fit here is closer: Egeria's own 380s journey runs "the Sinai road" — this candidate's own `region` field, verbatim — through the Judean desert, describing monks and hermits she met along it. Added to `Build/worlds/_cross-world/download-queue-seed.yaml`; not yet vendored. |
 
 ## 4. Checked and closed
 
 | candidate | why it looked promising | why it's closed |
 |---|---|---|
-| Cyril of Scythopolis, *Lives of the Monks of Palestine* (Euthymius, Sabas, Chariton, and others) | The single most direct primary-source author for exactly this movement — a Judean-desert monk writing lives of its own founders, c. 555 | Checked against `archive.org` (title search, 2026-09-21): no public-domain English translation exists. What surfaces is unrelated (a 1993 archaeological study of Euthymius' monastery, still in copyright; a Greek-novelist Chariton, a different ancient author entirely). The standard modern English translation (R.M. Price, Cistercian Publications, 1991) is in copyright; no 19th- or early-20th-century translation was ever made, unlike Palladius or Jerome. A real and durable gap, not a research gap. |
+| Cyril of Scythopolis, *Lives of the Monks of Palestine* (Euthymius, Sabas, Chariton, and others) | The single most direct primary-source author for exactly this movement — a Judean-desert monk writing lives of its own founders, c. 555 | Checked against `archive.org` (title search, September 2026): no public-domain English translation exists. What surfaces is unrelated (a 1993 archaeological study of Euthymius' monastery, still in copyright; a Greek-novelist Chariton, a different ancient author entirely). The standard modern English translation (R.M. Price, Cistercian Publications, 1991) is in copyright; no 19th- or early-20th-century translation was ever made, unlike Palladius or Jerome. A real and durable gap, not a research gap. |
 
 ## 5. Open cross-world questions
 
@@ -122,8 +122,8 @@ directory listing.**
   consistent with either reading; nothing found this pass bears on it either
   way.
 - **The `role: tradition` vs. `role: context` judgment on the new Palladius
-  entry (§2)** is named there as `provisional` and carried here as the same
-  open item — an Egypt-centered author's own testimony about neighboring
+  entry (§2)** is named there as `provisional` and stays provisional here —
+  an Egypt-centered author's own testimony about neighboring
   monks, on the model of Jerome's participant-observer status or on a
   lighter, more external footing. A Doc_02 gravity pass, not this dossier,
   is positioned to weigh it.

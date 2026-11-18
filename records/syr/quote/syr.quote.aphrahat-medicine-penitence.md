@@ -15,7 +15,7 @@ confidence:
   divergence_note: null
 sources:
 - source_id: syr.source.aphrahat-demonstrations-hallock
-  locus: VII.2
+  locus: "VII.2 (cic/texts/aphrahat_demonstrations-2-7_hallock1932.txt, line 39)"
   license: public-domain
 text: For all diseases there are medicines, and there will be healing when a skilled physician shall have
   found them. And for those who have been smitten in our conflict there is the medicine of penitence,

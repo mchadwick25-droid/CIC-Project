@@ -1,0 +1,165 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "alx.term.katechesis",
+    "alx.term.baptism"
+   ],
+   "sentence": "Among us, a person joined through long, staged teaching that led to baptism, and baptism was a real crossing into the new life."
+  },
+  {
+   "record_ids": [
+    "alx.term.pistis"
+   ],
+   "sentence": "The first step was pistis, the soul's first real turn toward God, and not agreement with a list of claims."
+  },
+  {
+   "record_ids": [
+    "alx.term.katechesis"
+   ],
+   "sentence": "Then came the teaching itself, given step by step over a long time and tested along the way."
+  },
+  {
+   "record_ids": [
+    "alx.gravity.soul-transformation"
+   ],
+   "sentence": "Our teachers named the steps of formation as catechesis, purification, illumination, knowledge, and wisdom."
+  },
+  {
+   "record_ids": [
+    "alx.gravity.soul-transformation"
+   ],
+   "sentence": "The practice around those steps was contemplation, asceticism, prayer, and teaching for baptism."
+  },
+  {
+   "record_ids": [
+    "alx.term.baptism"
+   ],
+   "sentence": "Baptism was not a ceremony announcing a choice already made, but a crossing made in the body."
+  },
+  {
+   "record_ids": [
+    "alx.gravity.soul-transformation"
+   ],
+   "sentence": "Formation was active work, and it did not end at the water."
+  },
+  {
+   "record_ids": [
+    "alx.gravity.soul-transformation"
+   ],
+   "sentence": "This is the path our literate sources show, and whether it was the path for the whole community we leave open."
+  }
+ ],
+ "citations": [
+  "alx.gravity.soul-transformation",
+  "alx.term.baptism",
+  "alx.term.katechesis",
+  "alx.term.pistis"
+ ],
+ "group": "A",
+ "id": "q018",
+ "net_sentences": [
+  {
+   "draft": "Among us, a person joined through long, staged teaching that led to baptism, and baptism was a real crossing into the new life [[alx.term.katechesis]] [[alx.term.baptism]] [[as:paraphrase]].",
+   "sentence": "Among us, a person joined through long, staged teaching that led to baptism, and baptism was a real crossing into the new life.",
+   "tags": [
+    "alx.term.katechesis",
+    "alx.term.baptism"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "The first step was pistis, the soul's first real turn toward God, and not agreement with a list of claims [[alx.term.pistis]] [[as:paraphrase]].",
+   "sentence": "The first step was pistis, the soul's first real turn toward God, and not agreement with a list of claims.",
+   "tags": [
+    "alx.term.pistis"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Then came the teaching itself, given step by step over a long time and tested along the way [[alx.term.katechesis]] [[as:paraphrase]].",
+   "sentence": "Then came the teaching itself, given step by step over a long time and tested along the way.",
+   "tags": [
+    "alx.term.katechesis"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Our teachers named the steps of formation as catechesis, purification, illumination, knowledge, and wisdom [[alx.gravity.soul-transformation]] [[as:paraphrase]].",
+   "sentence": "Our teachers named the steps of formation as catechesis, purification, illumination, knowledge, and wisdom.",
+   "tags": [
+    "alx.gravity.soul-transformation"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "The practice around those steps was contemplation, asceticism, prayer, and teaching for baptism [[alx.gravity.soul-transformation]] [[as:paraphrase]].",
+   "sentence": "The practice around those steps was contemplation, asceticism, prayer, and teaching for baptism.",
+   "tags": [
+    "alx.gravity.soul-transformation"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Baptism was not a ceremony announcing a choice already made, but a crossing made in the body [[alx.term.baptism]] [[as:paraphrase]].",
+   "sentence": "Baptism was not a ceremony announcing a choice already made, but a crossing made in the body.",
+   "tags": [
+    "alx.term.baptism"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Formation was active work, and it did not end at the water [[alx.gravity.soul-transformation]] [[as:paraphrase]].",
+   "sentence": "Formation was active work, and it did not end at the water.",
+   "tags": [
+    "alx.gravity.soul-transformation"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "This is the path our literate sources show, and whether it was the path for the whole community we leave open [[alx.gravity.soul-transformation]] [[as:paraphrase]].",
+   "sentence": "This is the path our literate sources show, and whether it was the path for the whole community we leave open.",
+   "tags": [
+    "alx.gravity.soul-transformation"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  }
+ ],
+ "offered": [
+  "alx.dw.original-sin",
+  "alx.term.katechesis",
+  "alx.term.baptism",
+  "alx.story.didymus-meeting",
+  "alx.quote.a-doctrine-they-would-not-have-taught",
+  "alx.gravity.soul-transformation",
+  "alx.force.johannine-logos",
+  "alx.force.philonic-inheritance",
+  "alx.dw.apostolic",
+  "alx.term.mysterion",
+  "alx.quote.athanasius-fountains",
+  "alx.term.pistis",
+  "alx.quote.clement-instructor",
+  "alx.gravity.martyrdom-contemplative-tension",
+  "alx.gravity.speculative-doctrinal-tension"
+ ],
+ "raw_text": "Among us, a person joined through long, staged teaching that led to baptism, and baptism was a real crossing into the new life [[alx.term.katechesis]] [[alx.term.baptism]] [[as:paraphrase]].\nThe first step was pistis, the soul's first real turn toward God, and not agreement with a list of claims [[alx.term.pistis]] [[as:paraphrase]].\nThen came the teaching itself, given step by step over a long time and tested along the way [[alx.term.katechesis]] [[as:paraphrase]].\nOur teachers named the steps of formation as catechesis, purification, illumination, knowledge, and wisdom [[alx.gravity.soul-transformation]] [[as:paraphrase]].\nThe practice around those steps was contemplation, asceticism, prayer, and teaching for baptism [[alx.gravity.soul-transformation]] [[as:paraphrase]].\nBaptism was not a ceremony announcing a choice already made, but a crossing made in the body [[alx.term.baptism]] [[as:paraphrase]].\nFormation was active work, and it did not end at the water [[alx.gravity.soul-transformation]] [[as:paraphrase]].\nThis is the path our literate sources show, and whether it was the path for the whole community we leave open [[alx.gravity.soul-transformation]] [[as:paraphrase]].\n",
+ "reply_shape": {
+  "placed": [],
+  "removed": [],
+  "repaired": []
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": "C7.S1",
+ "text": "Among us, a person joined through long, staged teaching that led to baptism, and baptism was a real crossing into the new life. The first step was pistis, the soul's first real turn toward God, and not agreement with a list of claims. Then came the teaching itself, given step by step over a long time and tested along the way. Our teachers named the steps of formation as catechesis, purification, illumination, knowledge, and wisdom. The practice around those steps was contemplation, asceticism, prayer, and teaching for baptism. Baptism was not a ceremony announcing a choice already made, but a crossing made in the body. Formation was active work, and it did not end at the water. This is the path our literate sources show, and whether it was the path for the whole community we leave open.",
+ "voice_set_aside": false
+}

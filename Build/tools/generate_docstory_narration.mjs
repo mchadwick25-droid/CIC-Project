@@ -5,7 +5,7 @@
  * only - never the teaser or the caveat. Built worlds are excluded: their
  * stories live in compiled world data, a separate step.
  *
- * Output: cic-website/audio/docstories/<movement-id>-<n>.mp3 (n = 0-based
+ * Output: cft-website/audio/docstories/<movement-id>-<n>.mp3 (n = 0-based
  * position in the movement's documentedStories) and manifest.json, which
  * records a fingerprint of the text each file was made from, so a later text
  * edit shows which audio is stale. Idempotent: a story whose file exists and
@@ -32,12 +32,12 @@ import fs from 'fs';
 import path from 'path';
 import crypto from 'crypto';
 import { fileURLToPath } from 'url';
-import { defaultVoiceSettings, requireApprovedRun, requirePaidSettings, synthesizeWithCost, worldsDataDir } from './generate_tree_narration.mjs';
+import { defaultVoiceSettings, requireApprovedRun, requireVoiceAndModel, synthesizeWithCost, worldsDataDir } from './generate_tree_narration.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const rootDir = path.resolve(__dirname, '..', '..');
 const censusPath = path.join(rootDir, 'cic-website/data/world-census.json');
-export const docStoryAudioDir = path.join(rootDir, 'cic-website/audio/docstories');
+export const docStoryAudioDir = path.join(rootDir, 'cft-website/audio/docstories');
 export const manifestPath = path.join(docStoryAudioDir, 'manifest.json');
 
 export function parseArgs(argv) {
@@ -111,7 +111,7 @@ async function run() {
   if (opts.dryRun) { toGenerate.forEach((e) => console.log(`  would generate: ${e.key} (${e.text.length} chars)`)); return; }
   if (toGenerate.length === 0) { console.log('Nothing to do.'); return; }
 
-  requirePaidSettings(opts);
+  requireVoiceAndModel(opts);
   requireApprovedRun(opts, totalChars);
   if (!opts.outputFormat || opts.outputFormat.startsWith('--')) throw new Error('--output-format is required and is never read from the environment.');
   const apiKey = process.env.ELEVENLABS_API_KEY;

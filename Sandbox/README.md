@@ -18,8 +18,7 @@ a specific feature's own decision log, not this top-level Sandbox.
 
 `Sandbox/` holds only the actual system pieces being built toward a next
 version — code, configs, assets — clean, exactly like the Live zone. No
-design notes, decision logs, or process narrative live in here (decided
-2026-09-26).
+design notes, decision logs, or process narrative live in here.
 
 All support material for what's being built in `Sandbox/<project>/` lives in
 `Build/Ministry/Features/<project>/` instead — the same place Website-V2,

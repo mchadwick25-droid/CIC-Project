@@ -90,7 +90,7 @@ def ledger_path() -> str:
 @contextmanager
 def conversation_scope():
     """The conversation path in engine/api builds its client inside this. A
-    test conversation Mark runs goes through the live engine and needs no
+    test conversation the operator runs goes through the live engine and needs no
     flags; nothing outside engine/api opens this scope (a test enforces it).
     The scope exempts only a process running on Render: the same engine
     started anywhere else needs both flags, like any other command."""

@@ -18,8 +18,7 @@ confidence:
     poverty material by this authoring pass, disclosed rather than smoothed.
 sources:
 - source_id: witt.source.luther-large-catechism
-  locus: >-
-    the Seventh Commandment, on theft: 'when the poor man comes to you... beware... as of the devil himself'
+  locus: "the Seventh Commandment, on theft: 'when the poor man comes to you... beware... as of the devil himself' (cic/texts/luther_large-catechism_bente-dau1921.txt, lines 1946-1956)"
   license: public-domain
 retrieval:
   tier: 2

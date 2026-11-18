@@ -1,0 +1,154 @@
+{
+ "draft": "At Zurich the city council governed church and city together, while at Geneva a body of pastors and lay elders held the whole population's conduct answerable [[rzg.witness.one-conviction-two-enactments]] [[rzg.term.consistory]] [[rzg.gravity.consistorial-church-discipline]] [[as:paraphrase]].\n\nScripture alone, not church tradition or a pope's decree, settled how we governed our churches [[rzg.term.sola-scriptura]] [[as:paraphrase]].\n\nBullinger held the title of antistes, Zurich's chief pastor, after Zwingli died, and the office answered to the city council [[rzg.term.antistes]] [[as:paraphrase]].\n\nCalvin's 1541 recall to Geneva produced the Ecclesiastical Ordinances, which created a Consistory of pastors and lay elders with power of censure [[rzg.force.1541-ecclesiastical-ordinances-consistory-founding]] [[as:paraphrase]].\n\nJohn Calvin wrote: [[quote:rzg.quote.seniors-selected-from-the-people]]\n\nGeneva's Consistory fought for its independence from the council and only by 1555 substantially won it [[rzg.gravity.council-led-authority-vs-consistorial-independence]] [[as:paraphrase]].\n\nWe never agreed, between our two cities, who holds the final word over church discipline [[rzg.witness.what-we-have-not-agreed]] [[rzg.gravity.council-led-authority-vs-consistorial-independence]] [[as:paraphrase]].\n\nOne woman in our record stands out, Marie Dentiere, whom our record links to an anonymous 1539 work defending women's voice [[rzg.limit.dentiere-and-womens-voice]] [[as:paraphrase]].\n\nGeneva's authorities seized that work and prosecuted its printer, but what she actually argued has not reached us [[rzg.limit.dentiere-and-womens-voice]] [[as:paraphrase]].\n",
+ "ending": "clean",
+ "final": "At Zurich the city council governed church and city together, while at Geneva a body of pastors and lay elders held the whole population's conduct answerable.\n\nScripture alone, not church tradition or a pope's decree, settled how we governed our churches.\n\nBullinger held the title of antistes, Zurich's chief pastor, after Zwingli died, and the office answered to the city council.\n\nCalvin's 1541 recall to Geneva produced the Ecclesiastical Ordinances, which created a Consistory of pastors and lay elders with power of censure.\n\nJohn Calvin wrote: “By these governors I mean elders chosen from the people. They join with the pastors to declare censures and to carry out discipline.”\n\nGeneva's Consistory fought for its independence from the council and only by 1555 substantially won it.\n\nWe never agreed, between our two cities, who holds the final word over church discipline.\n\nOne woman in our record stands out, Marie Dentiere, whom our record links to an anonymous 1539 work defending women's voice.\n\nGeneva's authorities seized that work and prosecuted its printer, but what she actually argued has not reached us.",
+ "group": "A",
+ "offered": [
+  "rzg.witness.what-we-have-not-agreed",
+  "rzg.term.consistory",
+  "rzg.term.antistes",
+  "rzg.quote.seniors-selected-from-the-people",
+  "rzg.gravity.council-led-authority-vs-consistorial-independence",
+  "rzg.force.1541-ecclesiastical-ordinances-consistory-founding",
+  "rzg.force.anabaptist-schism",
+  "rzg.limit.dentiere-and-womens-voice",
+  "rzg.witness.one-conviction-two-enactments",
+  "rzg.term.sola-scriptura",
+  "rzg.gravity.consistorial-church-discipline",
+  "rzg.gravity.scripture-sole-authority-disputation-catechesis"
+ ],
+ "placements": [
+  {
+   "decision": "keep",
+   "judgement": {
+    "fit": "fits",
+    "limit_stated": false,
+    "reason": "It says how Geneva's elders were chosen and joined pastors in discipline."
+   },
+   "record_id": "rzg.quote.seniors-selected-from-the-people"
+  }
+ ],
+ "question": "Explain how leadership and authority were established within your community.",
+ "question_id": "q014",
+ "read": {
+  "dropped": [],
+  "status": "clean",
+  "unsupported": {}
+ },
+ "rewrite": null,
+ "sentences": [
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 0,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "At Zurich the city council governed church and city together, while at Geneva a body of pastors and lay elders held the whole population's conduct answerable.",
+   "tags": [
+    "rzg.witness.one-conviction-two-enactments",
+    "rzg.term.consistory",
+    "rzg.gravity.consistorial-church-discipline"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 1,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Scripture alone, not church tradition or a pope's decree, settled how we governed our churches.",
+   "tags": [
+    "rzg.term.sola-scriptura"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 2,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Bullinger held the title of antistes, Zurich's chief pastor, after Zwingli died, and the office answered to the city council.",
+   "tags": [
+    "rzg.term.antistes"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 3,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Calvin's 1541 recall to Geneva produced the Ecclesiastical Ordinances, which created a Consistory of pastors and lay elders with power of censure.",
+   "tags": [
+    "rzg.force.1541-ecclesiastical-ordinances-consistory-founding"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": null,
+   "n": 4,
+   "placed": true,
+   "placed_id": "rzg.quote.seniors-selected-from-the-people",
+   "reason": "placed by code",
+   "sentence": "John Calvin wrote: “By these governors I mean elders chosen from the people. They join with the pastors to declare censures and to carry out discipline.”",
+   "tags": [
+    "rzg.quote.seniors-selected-from-the-people"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 5,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Geneva's Consistory fought for its independence from the council and only by 1555 substantially won it.",
+   "tags": [
+    "rzg.gravity.council-led-authority-vs-consistorial-independence"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 6,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "We never agreed, between our two cities, who holds the final word over church discipline.",
+   "tags": [
+    "rzg.witness.what-we-have-not-agreed",
+    "rzg.gravity.council-led-authority-vs-consistorial-independence"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 7,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "One woman in our record stands out, Marie Dentiere, whom our record links to an anonymous 1539 work defending women's voice.",
+   "tags": [
+    "rzg.limit.dentiere-and-womens-voice"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 8,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Geneva's authorities seized that work and prosecuted its printer, but what she actually argued has not reached us.",
+   "tags": [
+    "rzg.limit.dentiere-and-womens-voice"
+   ]
+  }
+ ],
+ "shipped_by_net": "At Zurich the city council governed church and city together, while at Geneva a body of pastors and lay elders held the whole population's conduct answerable.\n\nScripture alone, not church tradition or a pope's decree, settled how we governed our churches.\n\nBullinger held the title of antistes, Zurich's chief pastor, after Zwingli died, and the office answered to the city council.\n\nCalvin's 1541 recall to Geneva produced the Ecclesiastical Ordinances, which created a Consistory of pastors and lay elders with power of censure.\n\nJohn Calvin wrote: “By these governors I mean elders chosen from the people. They join with the pastors to declare censures and to carry out discipline.”\n\nGeneva's Consistory fought for its independence from the council and only by 1555 substantially won it.\n\nWe never agreed, between our two cities, who holds the final word over church discipline.\n\nOne woman in our record stands out, Marie Dentiere, whom our record links to an anonymous 1539 work defending women's voice.\n\nGeneva's authorities seized that work and prosecuted its printer, but what she actually argued has not reached us.",
+ "sub_question": "C6.S1"
+}

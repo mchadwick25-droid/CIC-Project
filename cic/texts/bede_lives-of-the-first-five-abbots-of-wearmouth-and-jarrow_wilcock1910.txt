@@ -1,0 +1,4906 @@
+Title: Lives of the First Five Abbots of Wearmouth and Jarrow: Benedict, Ceolfrid, Eosterwine, Sigfrid, and Huetbert
+Creator: Bede; translated by Peter Wilcock (title page)
+Publisher: Sunderland: Hills and Company, 1910 (title page; the publishers' note says it reprints Garbutt's 1818 edition)
+Publication Date: 1910 (title page)
+Rights: Public Domain (pd-us-by-date: published 1910); the archive.org record is tagged NOT_IN_COPYRIGHT
+Language: eng
+Source: archive.org item livesoffirstfive00bederich, full text from the item's own djvu.txt. Fetched directly 2026-11-13 by the Library thread; the byte count of the downloaded file (176,451) equals the size archive.org lists for the djvu.txt.
+Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1910, out of US copyright by date. OCR quality: good. Line numbers cited in this header are lines of the host OCR; add 12 for this file's own line numbers.
+Content note: Wilcock's Life of Bede from about OCR line 212; Bede's Lives of the Abbots in English from about 2398.
+
+______________________________________________________________________
+
+IC-NRLF 
+
+
+SB    SS    11D 
+
+
+OF  THE 
+ABBOTS  OF 
+WEARMOUTH 
+AND  JARROW. 
+
+
+B 
+
+
+LIBRARY 
+
+OF  THE 
+
+UNIVERSITY  OF  CALIFORNIA. 
+
+Class 
+
+
+lejjpotial.  to  the 
+-in  Roker  CHI3 
+
+Erected  1904, 
+
+
+Bede 
+
+
+LIVES    OF 
+THE    FIRST    FIVE    ABBOTS    OF 
+
+WEARMOUTH    &    J ARROW: 
+
+BENEDICT,  CEOLFRID,   EOSTERWINE,   SIGFRID, 
+AND  HUETBERT. 
+
+TRANSLATED    FROM    THE    LATIN   OF 
+
+THE    VENERABLE    BEDE. 
+
+
+TO   WHICH    IS    PREFIXED 
+
+A    LIFE    OF    THE    AUTHOR. 
+
+BY   THE 
+
+REV.    PETER    WILCOCK. 
+
+
+WITH    APPENDICES. 
+
+
+SUNDERLAND: 
+
+HILLS    &    COMPANY,    19    FAWCETT   STREET. 
+1910. 
+
+
+PRINTED   BY   HILLS   AND   CO., 
+19   FAWCETT   STREET,    SUNDERLAND. 
+
+
+PUBLISHERS'   NOTE. 
+
+
+WITH  a  few  verbal  alterations  this  edition  is  a 
+literal  transcript  of  the  original,  which  was  printed 
+and  published  by  George  Garbutt,  of  Sunderland, 
+in  1818.  Facsimiles  are  given  of  the  original 
+engraved  title  page,  with  its  interesting  illustration 
+of  the  Church  of  Monkwearmouth  at  that  date, 
+and  also  of  the  old  monument  in  the  Galilee  Chapel 
+of  the  Cathedral  of  Durham. 
+
+In  addition  to  the  Appendix  by  the  Author,  other 
+Appendices  are  given  describing  the  Church  as  it 
+now  stands,  a  short  account  of  the  Bibles  written 
+at  the  sister  monasteries  under  the  direction  of 
+Ceolfrid,  an  equally  brief  account  of  the  Memo- 
+rial Cross,  erected  in  1904,  to  the  memory  of  the 
+Venerable  Bede,  and  some  brief  notes  on  the  life 
+of  the  Rev.  Peter  Wilcock.  For  the  last  four 
+Appendices  Mr.  James  Patterson  is  responsible. 
+
+
+217206 
+
+
+THX  &XYSS 
+
+oflhe 
+
+
+[FACSIMILE  OF  THE  ORIGINAL  TITLE.) 
+
+
+CONTENTS. 
+
+
+PAGE. 
+LIFE   OF   THE   VENERABLE    BEDE  -         I 
+
+LIVES     OF     THE     ABBOTS     CEOLFRID,     SIGFRID, 
+
+EOSTERWINE,     AND     HUETBERT       -  "45 
+
+APPENDIX    I. — LATER     HISTORY     OF     THE     MON- 
+ASTERIES   OF   WEARMOUTH    AND    JARROW      -      96 
+APPENDIX   II. — THE    CODEX   AMIATINUS       -  -      99 
+
+APPENDIX   III. — MONKWEARMOUTH    CHURCH    IN 
+
+1910        -  -    102 
+
+APPENDIX   IV. — THE   BEDE   MEMORIAL   CROSS     -    112 
+APPENDIX    V. — NOTES     ON     THE     LIFE     OF     THE 
+
+REV.     PETER     WILCOCK  -    114 
+
+
+ADDRESS. 
+
+
+THE  following  translation  was  originally  in- 
+tended for  private  use  ;  nor  was  it  undertaken 
+with  any  other  view  than  that  of  contributing 
+materials  towards  a  General  History  of  the 
+place,  where  the  celebrated  monastery  to  which 
+it  refers  formerly  flourished. 
+
+By  the  advice  of  friends,  the  translator  was, 
+however,  induced  to  present  it  respectfully  to 
+the  public,  as  a  valuable  monument  of  ancient 
+biography,  which  he  has  reason  to  think  was 
+either  never  before  published,  or  was  at  least 
+no  longer  extant  in  the  English  language. 
+
+The  subject,  he  trusts,  cannot  but  excite  an 
+interest  in  the  minds  of  such  as  delight  in  the 
+investigation  of  religious  affairs. 
+
+For  the  history  of  the  foundation,  and  of  the 
+various  transactions  of  one  of  the  first  and 
+principal  religious  communities  established  in 
+this  island,  presents  to  the  reader  many  faithful 
+
+
+11 
+
+testimonies  of  the  principles  revered  by  our 
+Saxon  ancestors.  It  displays,  also,  their  fer- 
+vent piety,  and  describes  the  original  design 
+and  discipline  of  the  monastic  institute  ;  and  is 
+one  of  those  instances,  to  use  the  words  of  a 
+Protestant  divine,*  which  may  serve  "  to  rescue 
+a  set  of  very  deserving  men  from  the  unjust 
+obloquy  with  which  they  have  been  pursued 
+for  ages." 
+
+With  respect  to  the  language  in  which  it  is 
+presented,  the  translator  has  aimed  at  nothing 
+further  than  expressing  in  as  easy  a  style  as  he 
+was  able,  the  import  of  the  original.  If  he 
+has  succeeded  in  this  point,  the  object  he 
+proposed  to  himself  is  accomplished.  In  some 
+passages  he  derived  considerable  advantage 
+from  a  manuscript  relating  to  the  Abbots  and 
+monastery  of  Wearmouth,  of  which  the  use 
+was  allowed  him  by  a  friend. 
+
+After  all,  though  he  has  done  his  best,  he 
+does  not  presume  to  flatter  himself  that  his 
+
+
+*  The  Rev.  John  Sharp,  translator  of  Malmsbury's  Book  of 
+Kings.  Pref.  p.  xvii.  The  frequent  citations  from  Malmsbury 
+in  the  following  work,  are  taken  from  his  translation. 
+
+
+Ill 
+
+production  is  void  of  faults.  But  on  this  head 
+he  hopes  for  some  indulgence  from  the  public  ; 
+and  in  justice  to  himself  he  ought  to  notice, 
+that  he  was  hurried  a  little  in  the  translation, 
+which  was  printed  in  the  summer  of  last  year, 
+with  the  numbers  of  the  history  for  which  it 
+was  prepared. 
+
+He  has  since  composed  the  life  of  Venerable 
+Bede,  and  would  have  presented  the  whole  to 
+the  public  some  time  ago,  but  for  unavoidable 
+interruptions.  This  apology  he  conceives  to  be 
+required,  as  several  persons  paid  their  subscrip- 
+tions last  year. 
+
+As  the  tower  of  Monkwearmouth  Church  is 
+an  undoubted  remnant  of  the  ancient  building, 
+an  engraved  title-page,  containing  a  plate  of  it, 
+has  been  given  by  the  advice  of  the  person 
+with  whom  the  idea  of  this  work  originated. 
+
+PETER   WILCOCK. 
+
+
+THE    LIFE    OF 
+
+
+VENERABLE    BEDE. 
+
+
+BY  way  of  introduction  to  this  little  work,  the 
+translator  has  deemed  it  advisable  to  prefix  to 
+it  the  subsequent  short  account  of  the  life  and 
+writings  of  its  venerable  author. 
+
+Beda,  or  Bede,*  the  faithful  biographer  of  the 
+eminent  abbots  whose  names  are  here  recorded, 
+
+
+*  In  the  vernacular  language  of  the  Anglo-Saxons,  his  name 
+appears  to  have  been  Bedan,  for  so  it  is  written  in  many  ancient 
+manuscripts. 
+
+Nearly  contemporary  with  him  two  other  priests  of  the  same 
+name,  but  of  far  less  note,  are  celebrated  for  their  sanctity.  The 
+first  of  these  is  honourably  mentioned  in  our  author's  life  of  St. 
+Cuthbert,  under  the  title  of  the  elder  Bede,  and  was  a  monk  of 
+Lindisfarne  ;  the  other  flourished  in  the  reign  of  Charlemagne. 
+
+The  period  which  intervened  between  the  eras  of  these  two 
+worthies  witnessed  the  more  illustrious  virtues  of  that  Bede,  the 
+circumstances  of  whose  life  we  have  endeavoured  to  collect,  or 
+more  properly  to  glean  from  the  scattered  fragments  and  inci- 
+dental remarks  of  ancient,  but  not  contemporary  writers. 
+
+
+and  the  light  of  the  age  in  which  he  lived, 
+merits  himself  a  distinguished  rank  in  their 
+history.  For  under  their  tuition  he  became 
+eminent  in  every  virtue  which  rendered  them 
+illustrious  ;  whilst  by  the  brilliancy  of  his  learn- 
+ing he  outshone  all  his  contemporaries,  and  even, 
+to  use  the  words  of  Malmsbury,  dazzled  the 
+whole  universe.  So  extraordinary,  in  short, 
+were  his  abilities,  and  so  wonderful  his  accom- 
+plishments, that,  if  we  consider  the  rude  and 
+barbarous  state  of  the  country  in  which  he  lived, 
+he  may  reasonably  be  thought  to  have  been 
+raised  by  Providence  for  the  specific  purpose  of 
+being  the  guide,  support,  and  ornament  of  the 
+Anglo-Saxon  church. 
+
+This  great  man  was  born  about  the  year  six- 
+hundred  and  seventy-three,  within  the  posses- 
+sions of  the  monastery  soon  after  founded  by 
+
+
+For  though  Bede  was  everywhere  extolled,  even  before  his 
+death,  by  panegyrists  and  admirers,  no  one  who  lived  in  the  same 
+age  ventured  to  publish  his  life  ;  either  because  they  despaired  of 
+doing  justice  to  his  memory,  or  because  the  life  of  one  who  had 
+spent  the  whole  of  his  days  in  tranquility  and  retirement,  offered 
+but  scanty  materials  to  the  pen  of  a  biographer. 
+
+All,  therefore,  that  can  now  be  gathered  concerning  the  Vener- 
+able Bede,  one  of  the  brightest  luminaries  of  antiquity,  is  rather 
+a  rude  and  imperfect  sketch,  drawn  from  a  few  modest  remarks 
+of  his  own,  the  brief  notices  of  posterior  writers,  and  the  account 
+given  of  his  last  illness  by  his  disciple  Cuthbert,  than  a  full  and 
+complete  delineation  of  his  life  and  character. 
+
+
+Benedict  Biscop  on  the  banks  of  the  river  Wear.* 
+Of  the  rank  and  condition  of  his  parents  in  so- 
+ciety, no  intelligence  has  been  transmitted  to  us  ; 
+but  whatever  they  may  have  been,  of  their  dis- 
+tinguished piety  a  doubt  is  not  to  be  entertained, 
+since  it  is  clearly  evinced  from  the  very  early 
+attention  which  they  paid  to  his  morals  and 
+education. 
+
+For  at  the  tender  age  of  seven,  preferring  the 
+welfare  of  their  child  to  the  gratification  of  pa- 
+rental fondness,  they  devoted  him  to  the  service 
+of  Heaven,  in  the  neighbouring  monastery  of 
+Wearmouth.  Here  he  was  initiated  in  the  first 
+rudiments  of  literature,  and  trained  up  to  the 
+austere  discipline  of  the  cloister  ;  in  the  strict 
+observance  of  which  his  whole  course  from  this 
+early  period  to  the  hour  of  his  death,  was  one 
+continued  model  of  perfection. 
+
+After  a  residence  at  Wearmouth  of  no  long 
+duration,   our   virtuous   youth   was  removed  to 
+the  establishment  at  Jarrow,  and  committed  to 
+the  care  and  direction   of   the   pious   Ceolfrid 
+Thus,   like  another  Samuel,   the  devout    Bede 
+
+
+*  The  name  of  the  village  honoured  by  the  birth  of  Bede  is  now 
+unknown.  Some  eminences,  however,  about  a  mile  distant  from 
+Gibside,  on  the  north  bank  of  the  Derwent,  bear  his  name,  being 
+called  Bede's  Hills  :  near  them,  it  is  probable  was  the  place  of 
+his  nativity. 
+
+[Scholars  are  now  generally  agreed  that  he  was  born  in  the 
+neighbourhood  of  Monkwearmouth.— ED.  present  Edition.] 
+
+
+was  consecrated  from  his  infancy  to  God  ;  and 
+sheltered  within  the  precincts  of  the  sanctuary 
+from  the  snares,  allurements,  and  contagion  of 
+vice,  he  grew  up  in  innocence  and  holiness  of 
+life,  daily  increasing  in  wisdom  and  favour  with 
+God  and  men. 
+
+How  diligently  his  hours  were  employed  in 
+this  religious  asylum,  and  how  intense  and  per- 
+severing his  application  must  have  been,  some 
+idea  may  be  formed  from  that  high  pre-eminence 
+of  celebrity  in  learning,  to  which  he  forced  his 
+way,  notwithstanding  the  heavy  load  of  conven- 
+tual duties  under  which  he  laboured,  and  the  ob- 
+stacles opposed  to  his  progress  by  the  barbar- 
+ism with  which  he  was  on  every  side  surrounded. 
+Nor  was  the  high  reputation  he  obtained  without 
+foundation.  No,  his  acquirements  were  real, 
+and  the  extent  of  his  erudition  truly  wonderful  : 
+hence,  both  friends  and  foes  have  combined  in 
+weaving  wreaths  of  laurel  to  grace  his  memory. 
+Even  Bale,  the  apostate  Carmelite  and  avowed 
+enemy  of  monks,  could  not  refuse  to  this  vener- 
+able monk,  the  well  earned  tribute  of  admiration. 
+He  surpassed,  Bale  owns,  in  eloquence  and  copi- 
+ousness of  style  even  Gregory  the  Great ;  and 
+would  have  been  a  competitor  had  he  been  a  con- 
+temporary with  Augustine,  Jerome,  or  Chrysos- 
+tom.  Hardly,  he  adds,  in  all  antiquity  is  there 
+
+
+anything  worthy  of  perusal  which  may  not  be 
+found  in  the  writings  of  Bede.  Dr.  John  Pitts 
+declares  that  Europe  scarce  ever  produced  a 
+greater  scholar ;  and  informs  us  that  his  works, 
+even  before  his  death,  were  by  a  council  ap- 
+pointed to  be  read  publicly  in  the  churches.* 
+It  is  amazing,  exclaims  Folchard,  the  learned 
+abbot  of  Thorney,  how  this  great  man  became 
+so  perfect  in  every  branch  of  science  to  which 
+he  turned  his  attention. 
+
+
+*  The  works  here  alluded  to  are  Bede's  Homilies  and  Sermons, 
+of  which  several  were  admitted  into  the  canonical  service  of  the 
+church  whilst  their  author  was  still  living. 
+
+From  this  circumstance,  Trithemius  has  endeavoured  to  account 
+for  his  being  usually  styled  Venerable,  and  not  St.  Bede.  As  he 
+says  a  living  author  could  not  in  strict  propriety  be  called  saint, 
+when  the  Homilies  were  publicly  read,  they  were  announced  as  the 
+writings  of  Venerable  Bede;  by  which  epithet  he  henceforth  con- 
+tinued to  be  designated  ;  though  enrolled  after  his  death  in  the 
+calendar  of  saints. 
+
+But  the  learned  Mabillon  has  proved  that  the  conjectures  of  Tri- 
+themius are  entirely  groundless. 
+
+In  the  first  place,  because  it  was  not  customary,  in  the  days  of 
+Bede,  to  announce  the  names  of  their  respective  authors  when 
+Homilies  were  recited  in  the  church.  For  the  first  instance  known 
+of  a  Book  of  Lessons,  bearing  the  names  of  their  authors  prefixed 
+to  them,  was  that  of  Paul  of  Warnefrid,  published  by  order  of 
+Charlemagne. 
+
+Secondly,  because  all  the  more  ancient  manuscripts  give  to  the 
+Homilies  in  question,  not  the  title  of  Venerable,  but  of  Presbyter 
+or  Dominus  Bede. 
+
+
+If,  in  confirmation  of  these  remarks,  more 
+authorities  were  requisite,  a  prolix  enumeration 
+of  further  testimonials  might  easily  be  adduced. 
+But  we  will  pass  them  over  in  silence  as  super- 
+fluous commendations.  For  the  numerous  and 
+learned  productions  of  Bede,  concerning  which 
+we  shall  soon  have  occasion  to  speak,  are  alone 
+sufficient  to  evince  his  uncommon  industry,  and 
+to  establish  his  reputation.  We  will  therefore 
+return  to  our  narrative. 
+
+At  the  age  of  nineteen  our  youth  was  presented 
+by  Ceolfrid,  his  abbot,  to  Deacon's  orders.  This 
+early  promotion  to  the  dignity  and  sacred  func- 
+tions of  the  ministry,  reflects  on  the  character  of 
+Bede  the  brightest  lustre.  For  in  the  rigid  dis- 
+cipline of  primitive  times,  nothing  but  the  most 
+evident  proofs  of  consummate  piety,  could  have 
+procured,  in  his  behalf,  such  a  deviation  from 
+Ecclesiastical  ordinances,  as  was  requisite  for  his 
+advancement  to  the  Hierarchy  at  so  early  a 
+period.  Nor  would  the  experienced  guides  by 
+
+
+Lastly,  because  the  writers  who  notice  him  prior  to  the  ninth 
+century,  style  him  saint.  Thus  he  was  styled  by  the  prelates  of 
+the  Franks  in  the  Council  of  Aix  la  Chapelle,  by  Hincmar,  Bishop 
+of  Rheims,  and  by  Notker  in  his  Martyrology. 
+
+The  title,  therefore,  of  Venerable  does  not  appear  to  have  been 
+generally  given  to  our  saint,  till  the  ninth  century,  and  then  to 
+have  been  adopted  by  Amularius,  Jonas,  Usuard,  and  others,  solely 
+for  the  purpose  of  expressing  a  peculiar  respect  to  his  memory. 
+
+
+whom  he  was  conducted,  have  ventured  to  con- 
+fer on  him  this  flattering  distinction  at  an  age  so 
+liable  to  be  injured  by  vanity,  had  not  his  virtues 
+been  truly  illustrious,  and  his  known  modesty  a 
+firm  protection  to  his  virtues. 
+
+In  pourtraying  the  excellent  characters  of  the 
+abbots  of  his  own  monastery,  Bede  has  observed, 
+"  that  neither  their  rank  in  the  world,  nor  their 
+promotion  in  the  order,  ever  infected  their  hearts 
+with  the  least  tincture  of  vanity  or  pride.  But 
+that  however  elevated  their  station,  they  continu- 
+ed to  be  the  same  humble  individuals,  affable  and 
+kind  to  their  inferiors,  and  on  every  convenient 
+occasion  ready  to  join  them  in  the  performance 
+even  of  the  most  servile  offices."  Of  this  ami- 
+able Christian  spirit,  and  of  these  edifying  labours, 
+for  which  his  directors  were  so  conspicuous,  we 
+can  have  no  doubt  but  our  youth,  who  enjoyed 
+their  fullest  approbation,  must  have  possessed  an 
+ample  portion.  Like  themselves,  he  must  have 
+been  a  perfect  model  of  charity,  industry,  pa- 
+tience and  obedience, 'or  no  abilities  would  have 
+secured  him  their  favour.  His  chief  employment, 
+however,  in  addition  to  assiduous  prayer  and 
+meditation,  appears  to  have  been  the  prosecution 
+of  his  studies,  and  the  copying  of  manuscripts, 
+till  he  attained  his  thirtieth  year,  at  which  period 
+he  was  raised  to  the  dignity  of  the  priesthood. 
+
+
+8 
+
+
+As  at  this  juncture  there  was  no  episcopal  See 
+at  Durham,  Bede  received  his  ordination  from 
+the  hands  of  John  of  Beverley,  Bishop  of  Hal- 
+gutstad,  or  Hexham,  within  the  limits  of  whose 
+district  J arrow  was  situated.  To  the  same  emi- 
+nent prelate  he  was  also  indebted,  according  to 
+several  ancient  writers,  for  a  part  of  his  educa- 
+tion. For  among  his  preceptors  they  number 
+the  learned  and  pious  John  of  Beverley.  This 
+assertion,  however,  seems  to  depend  rather  on 
+conjecture,  than  historical  evidence  ;  and  may, 
+indeed,  be  a  mistake  occasioned  by  the  circum- 
+stance of  Bede  having  studied  sacred  music 
+under  John,  Abbot  of  St.  Martin's.  That  his 
+thirst  for  knowledge  would  impel  the  eager  youth 
+to  consult  all  the  ablest  teachers  of  the  age,  to 
+whom  he  could  gain  access,  we  have  every  rea- 
+son to  suppose  :  and  that  in  his  theological  re- 
+searches he  enjoyed  the  aid  of  several  professors, 
+we  learn  from  himself.  For  in  his  Ecclesiastical 
+History,  he  names  as  one,  amongst  many,  who 
+instructed  him  in  the  Scriptures,  the  celebrated 
+Trumbert,  who  was  in  his  time  a  monk  of  Jarrow, 
+but  had  formerly  been  a  disciple  of  St.  Chad, 
+Bishop  of  Lichfield.  From  the  encomiums  he 
+bestows  in  the  same  work  on  Theodore,  Arch- 
+bishop of  Canterbury,  and  his  companion  the 
+Abbot  Adrian,  for  their  ability  in  teaching  the 
+
+
+learned  languages,  it  is  highly  probable  he  de- 
+rived either  from  them,  or  from  some  of  their 
+immediate  disciples,  his  knowledge  of  Greek  and 
+Latin,  together  with  a  taste  for  composition. 
+
+But  whoever  had  the  honour  of  assisting  our 
+youth  in  his  early  pursuits,  must  have  rejoiced 
+to  behold  the  success  which  crowned  their  la- 
+bours ;  and  could  not  but  experience  a  secret 
+delight,  in  devoting  their  hours  to  the  care  of  a 
+pupil,  whose  ardent  and  comprehensive  mind 
+readily  embraced  every  science  which  was  then 
+studied,  and  raised  him  to  a  high  pre-eminence 
+above  all  his  contemporaries. 
+
+Yet  notwithstanding  his  superior  endowments, 
+had  he  been  suffered  to  listen  to  the  dictates  of 
+his  own  modesty,  his  name  would  probably  have 
+been  lost  in  oblivion,  and  succeeding  ages  de- 
+prived of  his  labours.  But  urged  by  the  impor- 
+tunity of  Acca,  Bishop  of  Hexham,  and  the 
+injunctions  of  his  superiors,  he  was  compelled 
+soon  after  he  received  the  priesthood  to  display 
+his  talents  in  writing  for  the  public.  *  As  an 
+author  his  fame  was  soon  established,  and,  ac- 
+cording to  Malmsbury,  so  extensively  diffused, 
+that  the  majesty  of  Rome,  at  that  period  the 
+seat  of  learning,  solicited  his  assistance  in  solv- 
+
+
+10 
+
+
+ing  abstruse  questions.*     All  the  western  world, 
+the  same  historian  adds,  yielded  the  palm  to  his 
+
+
+*  Malmsbury  tells  us  it  was  currently  reported  in  his  time,  that 
+Bede  had  actually  gone  to  Rome  for  the  purpose  either  of  person- 
+ally asserting-  that  his  writings  were  consistent  with  the  doctrines 
+of  the  church,  or  if  found  erroneous,  of  correcting  them  by  apos- 
+tolical authority.  That  he  was  at  Rome,  I  do  not,  however,  adds 
+the  same  historian,  affirm  as  an  absolute  fact  ;  but  I  have  no  doubt 
+in  declaring  that  he  had  been  invited  thither,  and  that  the  See  of 
+Rome  so  highly  esteemed  him,  as  greatly  to  desire  his  presence. 
+In  proof  of  this  assertion  he  adduces  the  following  epistle,  sup- 
+posed to  have  been  written  by  the  Pontiff  Sergius. 
+
+"  Sergius  the  Bishop,  servant  of  the  servants  of  God,  to  Ceol- 
+frid,  the  holy  Abbot,  sendeth  greeting. 
+
+"  With  what  words,  and  in  what  manner,  can  we  declare  the 
+kindness  and  unspeakable  Providence  of  our  God,  and  return  fit 
+thanks  for  his  boundless  benefits,  who  leads  us  when  placed  in 
+darkness  and  the  shadow  of  death,  to  the  light  of  knowledge?" 
+And  below,  "  Know  that  we  received  the  favour  of  the  offering 
+which  your  devout  piety  hath  sent,  by  the  present  bearer,  with 
+the  same  joy  and  good-will  with  which  it  was  transmitted.  As- 
+senting, therefore,  to  the  timely  and  becoming  prayer  of  your 
+laudable  anxiety,  with  deepest  regard,  we  request  of  your  pious 
+goodness  so  acceptable  to  God  (that  since  there  have  occurred 
+certain  points  of  Ecclesiastical  Discipline,  not  to  be  promulgated 
+without  further  examination,  which  have  made  it  necessary  for 
+us  to  confer  with  persons  skilled  in  literature,  as  becomes  an  as- 
+sistant of  the  holy  universal  mother  church,  devoted  to  God),  not 
+to  delay  paying  ready  obedience  to  this  our  admonition,  but  to 
+send  without  any  loss  of  time  to  our  lowly  presence,  at  the  church 
+of  the  chief  apostles  Peter  and  Paul,  your  friends  and  protectors, 
+that  religious  servant  of  God,  Bede,  priest  of  your  venerable 
+monastery,  whom  (God  favouring  your  holy  prayers)  the  neces- 
+sary discussion  of  the  above  mentioned  points  being,  by  the  as- 
+sistance of  God,  solemnly  completed,  you  may  expect  shortly  to 
+return  prosperously  to  you  ;  for  whatever  may  be  added  to  the 
+
+
+II 
+
+faith  and  authority  ;  for,  indeed,  he  was  of  sound 
+faith,  and  of  artless,  yet  pleasing  eloquence,  in 
+all  elucidations  of  the  scriptures,  discussing  those 
+points  from  which  the  reader  might  imbibe  the 
+love  of  God  and  his  neighbour,  rather  than  those 
+which  might  charm  by  their  wit,  or  polish  a  rug- 
+ged style. 
+
+
+church  at  large  by  his  assistance,  will,  we  trust,  be  profitable  to 
+the  things  committed  to  your  immediate  care." 
+
+If  this  epistle  be  genuine,  for  some  reason  now  unknown,  Bede 
+must  have  declined  accepting  the  invitation  it  contains  ;  for  he 
+expressly  states  at  the  end  of  his  Ecclesiastical  History,  that  the 
+whole  time  from  his  childhood  to  the  fifty-ninth  year  of  his  age, 
+was  devoted  in  his  monastery  to  the  study  of  the  scripture,  the 
+observance  of  his  rule,  and  the  delightful  task  of  improving  him- 
+self and  others.  From  this  passage  it  is  manifest  that  Bede  had 
+then  performed  no  distant  journey.  But  whether  in  giving  an  ac- 
+count of  himself,  his  modesty  suppressed  the  honourable  circum- 
+stance of  receiving  an  invitation  to  visit  the  Holy  See,  or  the  epistle 
+itself  be  fictitious,  cannot  now  be  decided. 
+
+There  are  some  grounds  to  suspect  the  latter,  for  Sergius  died 
+in  seven  hundred  and  one,  and  Bede  was  not  raised  to  the  priest- 
+hood till  the  year  seven  hundred  and  two.  If  no  error  has  occur- 
+red in  these  dates  (and  by  the  learned  they  are  deemed  correct) 
+the  whole  story  would  appear  but  a  baseless  fabric.  If  the  dates 
+be  erroneous,  and  the  epistle  were  really  written,  the  departure 
+of  Bede  was  probably  prevented  by  the  death  of  Sergius,  which 
+must  have  occurred  either  before,  or  very  soon  after  the  arrival 
+of  his  letter  in  England.  Vide  Smith's  Bede,  p.  797,  and  799. 
+
+In  a  very  ancient  manuscript  of  this  epistle  in  the  Cottonian 
+Library,  written  in  Saxon  character,  the  title  of  Presbyter  is  not 
+given  to  Bede.  This,  if  the  epistle  be  genuine,  is  a  more  correct 
+copy  than  that  preserved  by  Malmsbury.  Usher, 
+
+
+12 
+
+These  commentaries,  with  an  extensive  variety 
+of  homilies  or  sermons,  comprise  the  theological 
+labours,  and  a  large  portion  of  Bede's  numerous 
+productions.  Had  his  fertile  pen  furnished  the 
+world  with  no  further  testimonies  of  his  industry, 
+these  alone  would  have  abundantly  sufficed,  to 
+immortalize  his  diligence.  For  there  is  scarce 
+a  book  in  either  the  old  or  the  new  Testament, 
+which  he  has  not  illustrated  with  elaborate  and 
+diffusive  comments.  But  a  scrupulous  and  com- 
+mendable regard  to  the  authority  of  the  most 
+ancient  Christian  writers,  restrained  him  in  his 
+scriptural  explanations  from  aiming  at  novelty, 
+or  aspiring  to  the  fame  of  original  discovery. 
+Content  to  shine  in  the  track  marked  out  by  his 
+predecessors  in  the  faith  once  delivered  to  the 
+saints,*  he  has  in  general  done  little  more  than 
+expiate  on  the  sentiments  of  prior  commentators. 
+This  he  notices  himself,  as  a  commendation  to 
+his  writings,  in  the  compendium  he  has  given  of 
+his  own  life,  at  the  close  of  his  Ecclesiastical 
+History. 
+
+"  From  the  time  of  receiving  the  priesthood, 
+till  the  fifty-ninth  year  of  my  age,  I  have  been 
+employed  for  the  benefit  of  myself  or  of  my 
+friends,  in  making  these  extracts  from  the  works 
+
+
+*  Ep.  St.  Jude  i.  3. 
+
+
+13 
+
+of  the  Venerable  Fathers,  or  in  making  addi- 
+tions according  to  their  sense  of  interpretation." 
+Then  enumerating  thirty-six  volumes  which  he 
+published  in  seventy-eight  books,  he  proceeds, 
+4 'And  I  pray  earnestly,  O  merciful  Jesus,  that 
+Thou  wouldst  grant  me,  to  whom  Thou  hast 
+given  the  knowledge  of  Thyself,  finally  to  come 
+to  Thee,  the  fountain  of  all  wisdom,  and  to  ap- 
+pear for  ever  in  Thy  presence. 
+
+Moreover,  I  humbly  entreat  all  persons  whe- 
+ther readers  or  hearers,  whom  my  works  shall 
+reach,  that  they  be  mindful  to  intercede  with  the 
+divine  clemency  for  my  infirmities  both  of  mind 
+and  body,  and  that  in  their  several  provinces 
+they  make  me  this  grateful  return,  that  I  who 
+have  laboured  to  record  whatever  seemed  wor- 
+thy of  preservation,  or  agreeable  to  the  Inhabit- 
+ants, may  receive  from  all  the  benefit  of  their 
+pious  intercessions." 
+
+Here,  exclaims  the  learned  Malmsbury,  who 
+has  recorded  in  his  Book  of  Kings  this  passage, 
+here  my  abilities  fail,  here  my  eloquence  falls 
+short ;  ignorant  which  to  praise  most,  the  num- 
+ber of  his  writings,  or  the  gravity  of  his  style. 
+No  doubt  he  had  imbibed  a  large  portion  of 
+
+
+'4 
+
+heavenly  wisdom,  to  compose  so  many  volumes 
+within  the  limits  of  so  short  a  life.* 
+
+Besides  commentaries  on  the  Scripture  and 
+sermons,  the  active  pen  of  Bede  supplied  a  great 
+variety  of  other  compositions,  both  in  poesy  and 
+prose.  These  with  the  exception  of  a  book  of 
+hymns  and  a  collection  of  epigrams,  are  for  the 
+most  part  still  extant,  and  consist  of  biographical 
+notices  of  the  Abbots  of  Wearmouth,  and  of  sev- 
+eral other  eminent  persons,  of  chronological 
+and  geographical  tracts,  and  of  elementary  in- 
+troductions to  the  numerous  topics,  which  form 
+the  circle  of  the  sciences. 
+
+To  discuss  with  accuracy  and  minuteness  the 
+nature  of  these  multifarious  productions,  would 
+far  exceed  the  limits  of  our  present  undertaking  ; 
+we  will  therefore  briefly  remark  on  the  'philo- 
+sophical works  of  our  venerable  author,  that  in 
+
+
+*  Ancient  authors  have  undoubtedly  spoken  in  higher  strains  of 
+Bede's  scriptural  expositions  and  theological  lucubrations,  than 
+was  to  be  expected  from  modern  writers.  His  merit,  however,  is 
+still  acknowledged  to  be  great,  and  his  praise  continues  even  to 
+the  present  day  to  be  re-echoed  by  critics  of  every  country,  inte- 
+rest, and  religion.  "The  learning  of  Bede,"  says  Turner,  in  his 
+Anglo-saxon  Antiquities,  page  432,  "  considered  with  respect  to 
+the  period  in  which  he  lived,  deserves  our  highest  admiration. 
+His  reading  was  multifarious,  and  whatever  he  read,  he  appro- 
+priated. His  commentaries  on  the  scripture  evince  much  reading 
+and  plain  sense." 
+
+
+developing  the  mysteries  of  nature,  his  industry 
+was  crowned  with  much  less  success,  than  has 
+rewarded  the  labours  of  many  since  his  day, 
+whose  abilities  and  application  were  incompar- 
+ably inferior  ;  but  who  were  assisted  in  their  re- 
+searches by  the  progressive  improvements  of 
+succeeding  years.  Hence  the  superiority  of 
+more  modern  naturalists,  ought  not  to  derogate 
+from  the  honours  due  to  Bede.  For  as  a  philos- 
+opher he  was  in  his  day  great,  and  would  have 
+been  proportionably  great,  had  he  lived  in  any 
+other.  "  Whoever,"  Mr.  Lingard  justly  ob- 
+serves, "reads  the  treatise  of  Bede,  de  ratione 
+temporum,  in  which  he  explains  the  nature  of 
+the  Egyptian,  Grecian,  Roman,  and  Saxon  years, 
+must  view  with  astonishment  the  deep  and  ex- 
+tensive erudition  of  a  monk,  who  had  never 
+passed  the  limits  of  his  native  province,  but 
+spent  the  whole  of  his  days  among  the  half 
+civilized  inhabitants  of  Northumbria." 
+
+In  biographical  and  historical  compositions 
+Bede's  labours  were  more  happily  employed  ; 
+for  in  each  of  these  he  has  left  monuments  of 
+unfading  excellence  and  value.  Of  the  former, 
+the  reader  may  collect  some  specimens  in  the 
+following  small  translation  ;  which  though  un- 
+equal to  the  original  in  simplicity  and  energy  of 
+style,  may  suffice  to  show  that  its  author  was  no 
+
+
+i6 
+
+mean  adept  either  in  discerning  and  delineating 
+with  a  delicate  pencil  the  nicest  shades  of  char- 
+acter, or  in  making  his  descriptions  glow  with 
+warm  and  pathetic  language.  These  happy 
+talents  for  biography  he  also  exercised  in  writ- 
+ing the  life  of  St.  Cuthbert,  which  he  composed 
+both  in  verse  and  prose,  and  in  translating  that 
+of  St.  Felix  into  prose  from  the  poems  of  Paul- 
+inus.  By  a  fate  which  ordinarily  pursues  writers 
+of  celebrity,  numerous  productions  of  the  same 
+kind,  but  which  derive  their  origin  from  the  pens 
+of  inferior  authors,  were  attributed  to  him,  and 
+are  now  published  in  his  works  :  such  are  the 
+lives  of  St.  Columba,  Attalus,  Eustatius,  Bert- 
+ulfus,  and  Fara,  originally  written  by  Jonas,  a 
+disciple  of  the  first  mentioned.  Such,  also,  is 
+the  life  of  Gregory  the  Great,  composed  by  Paul, 
+the  deacon  ;  to  which  may  be  added  those  of  St. 
+Patrick,  and  Vedastus  ;  the  former  of  which  was 
+the  work  of  Probus,  the  latter  of  an  anonymus 
+Frenchman. 
+
+/In  this  enumeration  we  ought  not  to  pass  over 
+without  distinguished  notice  the  Ecclesiastical 
+History  of  the  Anglo-Saxons.  For  of  the  many 
+literary  performances  which  immortalize  the 
+name  and  memory  of  Bede,  the  most  celebrat- 
+ed and  at  the  same  time  the  most  interesting, 
+is  his  faithful  history  of  the  Anglo-Saxon  church. 
+
+
+This  valuable  work  was  begun  at  the  sugges- 
+tion of  Albin,  a  learned  disciple  of  Archbishop 
+Theodore  and  Abbot  Adrian  ;  and  was  not  com- 
+pleted till  two  or  three  years  before  the  death  of 
+its  venerable  author.  Albin,  who  had  suggested 
+the  idea,  willingly  lent  him  every  assistance  he 
+could  afford  towards  the  execution  of  the  ardu- 
+ous undertaking.  With  patient  ardour  he  per- 
+used the  numerous  records  deposited  at  Canter- 
+bury, solicitously  enquired  for  information  of  the 
+neighbouring  elders,  and  dispatched  Nothelm  to 
+Rome  in  search  of  Saxon  memorials.  By  these 
+active  exertions,  Albin  had  the  good  fortune  to 
+procure  not  only  what  his  own  province  and  the 
+metropolitan  See  of  Britain  could  contribute  to 
+the  enlargement  and  authority  of  his  friend's 
+lucubrations,  but  also  a  variety  of  letters  from 
+the  archives  of  the  apostolic  See,  essentially  re- 
+quisite to  perfect  the  work,  which  he  had  pre- 
+vailed upon  him  to  undertake.  The  universal 
+esteem  and  admiration  in  which  Bede  was  held, 
+excited  in  his  favour  a  similar  ardour  through- 
+out the  other  provinces  of  the  kingdom.  From 
+every  quarter  communications  were  addressed 
+to  him  by  the  different  prelates,  containing  all 
+the  information  relative  to  the  subject  he  was 
+treating,  which  they  could  each  acquire  within 
+the  limits  of  their  respective  districts.  He  has 
+
+
+i8 
+
+gratefully  preserved  in  his  preface  the  names  of 
+the  persons  to  whom  he  was  thus  indebted,  for 
+the  copious  sources  from  which  he  drew  his  his- 
+tory. In  describing  the  first  establishment  and 
+early  progress  of  religion  in  the  northern  dis- 
+tricts, he  had  the  authority  of  numberless  vouch- 
+ers ;  the  latter  transactions  he  wrote  from  his 
+own  personal  knowledge  of  events.  With  these 
+advantages  he  also  possessed  that  first  and  most 
+essential  quality  of  an  historian,  an  ardent  love 
+of  truth. 
+
+Thus  provided  with  every  requisite,  Bede 
+enters  on  the  arduous  task  of  recording  the 
+Ecclesiastical  affairs  of  his  own  nation,  from 
+the  period  in  which  she  first  embraced  Christi- 
+anity, down  to  his  own  times.  For  several  years 
+he  laboured  in  this  useful  undertaking,  with  the 
+care  and  diligence  due  to  its  importance.  It  is 
+not  easy,  at  this  day,  to  form  an  adequate  idea 
+of  the  pains  it  must  have  cost,  to  compose  a 
+regular  and  well  supported  narrative  of  a  long 
+series  of  successive  and  intricate  events,  unaid- 
+ed by  any  preceding  historian,  and  with  no  other 
+guidance  to  direct  him,  but  the  crude  materials 
+which  an  uncultivated  age  would  present.  But 
+every  obstacle  yielded  to  the  assiduity  of  Bede. 
+In  seven  hundred  and  thirty-one  his  Ecclesias- 
+
+
+19 
+
+tical  History  was  published,  and  though  the 
+fame  of  its  venerable  author  had  excited  great 
+expectations,  it  surpassed  in  excellence  the  most 
+sanguine  hopes  of  his  admirers.  By  his  contem- 
+poraries, it  was  everywhere  received  with  ap- 
+plause ;  by  succeeding  generations  it  was  piously 
+preserved  as  a  memorial  of  the  virtue  of  their 
+ancestors  ;  and  by  Alfred  the  Great  it  was  trans- 
+lated into  Saxon,  for  the  instruction  of  his  more 
+illiterate  countrymen. 
+
+As  a  faithful  record  of  the  era  which  it  de- 
+scribes, its  worth  to  this  day  is  allowed  to  be 
+inestimable  ;  its  merit  also  as  a  literary  produc- 
+tion has  ever  been  deemed  considerable.  The 
+style  is  strong,  easy,  and  perspicuous ;  whilst  in 
+the  arrangement  of  facts  no  little  ingenuity  is 
+exercised.  That,  however,  it  falls  short  of  the 
+elegant  specimens  of  learning  produced  in  the 
+Augustan  age,  cannot  be  denied  ;  but  if  com- 
+pared with  writings  of  the  same  period,  it  will 
+be  found  entitled  to  almost  unlimited  praise. 
+To  insist  on  any  other  mode  of  comparison, 
+would  be  offering  an  injury  to  the  memory  of 
+its  author,  and  violating  the  rules  of  equitable 
+criticism.  If  to  some  critics  the  credulity  of 
+Bede,  with  respect  to  miracles,  of  which  he  has 
+deemed  several  worthy  of  historical  preserva- 
+tion, appear  a  blemish,  his  candour  at  least,  his 
+
+
+20 
+
+
+sincerity,  and  his  piety,  must  please  and  edify 
+every  reader.* 
+
+Approaching  to  the  conclusion  of  his  historical 
+labours,  Bede  gives  a  lively  and  interesting  de- 
+scription of  the  flourishing  condition  of  his 
+country.  It  enjoyed,  he  remarks,  at  that  mo- 
+
+
+*  Some  biographers  and  critics  have  censured  our  venerable 
+historian  for  not  being-  more  explicit  in  his  dates  and  details  of 
+civil  transactions  ;  others  arraign  him  of  partiality  to  his  own 
+nation  for  touching-  so  lig-htly  on  the  ecclesiastical  affairs  of  the 
+Britons,  whilst  he  is  so  prolix  in  his  narratives  concerning  the 
+Anglo-Saxon  church. 
+
+As  Bede  is  the  only  author  who  rescued  from  the  canker  of 
+oblivion  the  period  of  which  he  wrote,  it  is  indeed  to  be  wished 
+that  he  had  left  nothing  material  unrecorded.  But  to  blame  a 
+writer  who  did  so  much,  for  not  doing  everything,  is  shewing  but 
+little  justice  to  his  memory.  Neither  does  it  seem  equitable,  to 
+consider  the  deficiencies  complained  of,  as  omissions  in  the  work 
+of  Bede.  For  the  subjects  on  which  they  are  said  to  occur  came 
+not  within  the  range  of  his  plan.  He  did  not  undertake  to  com- 
+pose a  Civil,  but  an  Ecclesiastical  History,  and  that  not  of  the 
+Britons,  but  of  the  Anglo-Saxons. 
+
+The  best  editions  of  this  History  are  those  of  Abr.  Wheloc,  with 
+notes,  at  Cambridge,  in  1644;  of  Peter  Fran.  Chifflet,  with  notes, 
+at  Paris,  in  1681 ;  and  especially  of  Dr.  John  Smith,  at  Cambridge, 
+in  1722,  in  folio,  with  Bede's  other  historical  works,  viz.  his  Chron- 
+icle, or  a  Treatise  on  the  Six  Ages  of  the  World  ;  his  Lives  of  St. 
+Cuthbert  and  Felix ;  his  Letter  to  Archbishop  Egbert  ;  his  book 
+on  the  Holy  Places  ;  his  Martyrology  ;  and  his  Lives  of  the  Abbots 
+of  Wearmouth. 
+
+The  works  of  Bede  were  printed  at  Paris,  in  1499  an<*  *n  I545> 
+in  three  tomes  ;  at  Basle  in  1563,  in  eight ;  and  at  Cologne  in  1612 
+and  in  1688. 
+
+
+21 
+
+merit,  universal  tranquility  ;  was  supported  by 
+the  learning,  and  adorned  by  the  virtues  of  illus- 
+trious prelates.  The  Picts  had  not  only  con- 
+cluded a  treaty  of  alliance  with  the  Anglo-Saxons, 
+but  were  also  united  with  them  in  the  peace  of 
+the  universal  church.  The  Scots  had  ceased  to 
+molest  the  English,  and  lived  contented  within 
+the  boundaries  of  their  own  territory.  The 
+Britons,  indeed,  still  cherished  their  inveterate 
+hatred  to  the  Saxon  race,  and  with  respect  to 
+the  celebration  of  Easter,  resisted  the  ordinance 
+of  the  whole  church,  but  were  destitute  of  power 
+to  carry  into  effect  their  malevolent  designs. 
+
+In  the  centre,  however,  of  this  serene  and  joy- 
+ful prospect,  one  scene  arose  that  wore  a  less 
+gratifying  appearance,  and  created  some  disturb- 
+ance in  his  mind.  What  that  was  he  does  not 
+in  his  History  fully  express.  But  the  evil  con- 
+tinuing to  increase  till  it  assumed  a  most  alarm- 
+ing attitude,  he  disclosed  shortly  afterwards  the 
+grief  and  apprehensions  of  his  soul,  in  an  ani- 
+mated epistle  addressed  to  Egbert,  Archbishop 
+of  York.  This  was  the  last  of  our  venerable 
+author's  compositions,  in  the  order  of  time  ;  but 
+perhaps  the  first,  in  doing  credit  to  his  eloquence, 
+zeal,  penetration,  and  disinterested  virtue. 
+
+
+22 
+
+
+After  stating,  in  a  style  truly  apostolic,  the 
+sublime  virtues  to  which  all  who  are  raised  to 
+church  dignities  should  aspire,  and  the  vigilance 
+they  should  exert  in  repressing  disorders  and 
+watching  over  their  respective  flocks,  he  vents 
+his  indignation  in  the  bitterest  terms  on  the 
+abuses  which  had  impelled  him  to  draw  his  pen. 
+
+These,  we  find,  originated  in  the  admission 
+of  improper  subjects,  who,  instead  of  leading 
+exemplary  lives,  introduced  into  the  ancient  re- 
+ligious establishments  scandals  and  irregularities. 
+But  the  disorder  at  which  his  pious  invectives 
+are  principally  levelled,  was  the  following  ava- 
+ricious and  detestable  contrivance. 
+
+As  church  possessions  were  exempt  from 
+secular  burthens,  whilst  grants  to  laymen  were 
+encumbered  with  services  or  acknowledgments, 
+several  of  the  nobility  purely  from  a  love  of 
+ease,  and  a  fondness  for  lucre,  procured  licences 
+to  erect  monasteries,  which  they  supplied  with 
+their  own  guards  or  attendants,  with  monks  de- 
+coyed from  true  monasteries,  or  with  such  as 
+had  been  expelled  for  misdemeanours.  Here 
+they  indulged  their  indolence  and  luxury,  and 
+devoted  to  religion  in  nothing  but  in  name, 
+withdrew  their  possessions  from  the  necessary 
+support  of  the  State,  and  themselves  from  the 
+
+
+23 
+
+duties  of  martial  exercise.  Upwards  of  thirty 
+years  had  this  grievance  subsisted,  and  been 
+carried  to  an  alarming  extent.  On  the  other 
+hand,  the  difficulty  of  redress  was  much  in- 
+creased by  the  behaviour  of  some  spiritual  lords, 
+who  lent  their  signatures  and  approbation  to 
+these  nominal  and  heterogeneous  monasteries. 
+
+Bede,  however,  frankly  informs  the  Arch- 
+bishop, that  the  necessity  of  providing  a  remedy 
+is  manifest,  and  that  the  inveterate  distemper 
+requires  an  immediate  and  powerful  application. 
+He  exhorts  him  to  a  vigorous  exertion  of  his 
+episcopal  authority,  appeals  to  his  conscience, 
+and  reminds  him  of  the  obligation  he  is  under 
+of  obeying  God  rather  than  man.* 
+
+Whether  this  zealous  and  spirited  epistle 
+awakened  the  attention  of  his  countrymen  and 
+was  crowned  with  success,  or  the  abuses  con- 
+tinued till  swept  away  by  the  Danish  invasion, 
+is  now  uncertain.  But  whatever  may  have  been 
+the  effect  of  Bede's  admonitions,  the  highest 
+
+
+*  Several  modern  writers  in  describing  the  Saxon  monks,  have 
+consulted  this  invective  of  Bede,  but  without  discovering,  or  at 
+least  without  reporting  to  their  readers,  the  distinction  made  in 
+it  between  real  and  pretended  monasteries  ;  and  hence  all  the 
+vices  are  unjustly  ascribed  to  the  former,  with  which  Bede  re- 
+proaches only  the  latter.  Vide  Ling.  Anglo-Sax.  Church,  p.  134. 
+
+
+24 
+
+encomiums  were  due  to  the  charitable  and  intre- 
+pid zeal  with  which  he  struggled  to  uphold  the 
+declining  virtues  of  his  own  days,  and  to  avert 
+the  evils  which  his  penetrating  mind  perceived 
+impending  over  the  rising  generation  from  that 
+relaxation  of  morals,  to  which  his  thoughtless 
+countrymen,  enervated  by  the  sunshine  of  ease 
+and  prosperity,  were  rapidly  yielding. 
+
+This  eloquent  epistle  was  addressed  to  Egbert 
+on  his  elevation  to  the  See  of  York,  an  event 
+which  did  not  long  precede  the  death  of  its  ven- 
+erable author.  It  was  therefore  the  last  token 
+of  concern  and  advice  offered  to  his  country  by 
+a  dying  saint,  who  had  devoted  to  its  advance- 
+ment in  piety  and  knowledge,  the  whole  course 
+of  his  mortal  existence,  with  an  assiduity  never 
+perhaps  surpassed,  and  rarely,  if  ever  equalled. 
+
+To  the  justice  of  this  assertion,  the  numerous 
+treatises  of  science  and  instruction  already  speci- 
+fied, bear  ample  testimony.  For  such  a  series 
+of  elaborate  compositions  is  not  the  result  of  or- 
+dinary efforts,  even  in  writers  whom  an  unin- 
+terrupted leisure  exempts  from  every  other  occu- 
+pation but  the  labour  of  the  pen.  The  achieve- 
+ment therefore  of  so  many  admirable  monuments 
+of  literature,  under  the  circumstances  in  which 
+Bede  wrote,  must  ever  be  regarded  as  a  prodigy 
+
+
+25 
+
+of  human  exertion.  It  fully  justifies  the  follow- 
+ing observation  made  by  an  ancient  writer : 
+"  We  cannot  contemplate  the  numerous  works 
+of  Bede,  without  wondering  how  he  could  find 
+time  for  his  devotions  ;  nor  reflect  on  the  exer- 
+cises of  devotion  which  he  daily  practised,  with- 
+out being  equally  at  a  loss  to  comprehend  how 
+he  could  find  leisure  for  writing."  Nor  in  writing 
+only  did  Bede  exert  his  abilities  on  behalf  of 
+others.  His  high  reputation  drew  to  his  retreat 
+crowds  of  visitors  and  scholars,  to  whose  im- 
+provement he  cheerfully  paid  attention.  Amongst 
+others  Ceolwulph,  or  Celwulph,  king  of  North- 
+umbria,  ("a  man,"  says  Malmsbury,  "compe- 
+tent in  other  respects  to  bear  the  sceptre,  and 
+withal  possessed  of  a  depth  of  literature,")  owed 
+much  of  his  proficiency  in  letters  to  the  constant 
+and  familiar  intercourse  he  maintained  with 
+Bede.  His  royal  relative,  Egbert,  Archbishop 
+of  York,  whom  we  have  already  mentioned, 
+was  indebted  for  his  education  to  the  same  able 
+and  indefatigable  teacher. 
+
+In  his  own  monastery,  which  contained  six 
+hundred  members,  the  assiduous  Bede  gave 
+daily  lectures.  Here  crowds  must  have  listened 
+to  his  wisdom,  and  caught  the  sacred  love  of 
+science.  The  names  indeed  of  several  who  were 
+
+
+26 
+
+thus  favoured  have  deserved  to  reach  posterity. 
+Huetbert,  called  also  Eusebius,  the  successor  of 
+Ceolfrid  in  the  abbacy  of  Wearmouth,  Cuthbert, 
+who  after  him  was  raised  to  the  same  dignity, 
+and  Nothelm,  who  was  promoted,  after  worthily 
+discharging  the  functions  of  Presbyter  in  Lon- 
+don, to  the  metropolitan  See  of  Canterbury, 
+with  others  whose  names  we  pass  over  in  silence, 
+had  the  happiness  of  being  included  in  the  num- 
+ber of  Bede's  disciples. 
+
+To  the  multiplicity  of  his  labours  at  Jarrow, 
+this  unwearied  and  venerable  professor  appears 
+to  have  added  an  occasional  superintendence 
+over  the  seminary  at  York.  For  in  his  epistle 
+to  Egbert,  he  notices  the  circumstance  of  his 
+having  taught  there  some  time,  in  the  course  of 
+the  preceding  year ;  and  alleges  in  apology  for 
+not  returning  with  the  return  of  the  season,  his 
+decaying  health.  In  consequence,  we  presume, 
+of  this  annual  attendance,  and  because  the  estab- 
+lishment was  under  the  immediate  tuition  of  his 
+former  disciple  Egbert,  antiquity  has  enrolled  in 
+the  list  of  Bede's  pupils  several  literary  charac- 
+ters of  eminence,  who  took  their  degrees  in  that 
+flourishing  academy.  The  most  illustrious  of 
+these,  and  the  only  one  we  shall  here  notice, 
+was  Alcuin,  the  preceptor  of  Charlemagne.  Yes, 
+it  was  to  the  school  of  Bede  that  this  celebrated 
+
+
+a; 
+
+character  was  principally  indebted  for  his  ex- 
+tensive erudition.  For,  emulous  of  the  virtues 
+and  accomplishments  of  so  renowned  a  master, 
+Alcuin  soared  high  above  all  his  contemporaries 
+in  the  region  of  science  ;  and  pursuing  the  same 
+arduous  career  as  his  vigilant  instructor,  he  dis- 
+played as  great  vigour  and  perseverance  in  dif- 
+fusing, as  he  had  exhibited  in  acquiring  the 
+treasures  of  knowledge. 
+
+But  the  sphere  of  Alcuin's  activity  was  situ- 
+ated in  a  foreign  realm.  Exiled  from  his  native 
+land  by  the  disturbances  of  the  times,  or  allured 
+and  detained  abroad  by  the  importuning  solicita- 
+tions of  his  royal  pupil,  he  made  France  the  seat 
+of  his  residence,  and  the  theatre  of  his  labours. 
+Here,  walking  in  the  footsteps  of  the  immortal 
+Bede,  he  had  the  merit  of  propagating  a  love 
+of  letters  from  the  Gallic  Alps  to  the  banks  of 
+the  Loire,  the  Rhine,  and  the  Elbe. 
+
+But  the  prosperity  which  smiled  upon  his 
+labours,  and  excited  the  veneration  and  grati- 
+tude of  a  foreign  court,  could  not  obliterate  in 
+the  heart  of  Alcuin  the  remembrance  of  his 
+native  isle.  The  frequent  epistles  he  transmit- 
+ted from  abroad,  to  all  who  enjoyed  any  rank 
+at  home,  either  in  church  or  state,  are  honour- 
+able monuments  of  the  zeal  with  which  he 
+
+
+28 
+
+sought  to  promote  her  welfare,  as  well  as  of  the 
+grief  with  which  he  lamented  her  misfortunes. 
+In  one  of  his  letters  conveyed  to  Jarrow,  he 
+makes  an  allusion  to  the  venerable  man,  whose 
+actions  we  are  recording,  in  so  pathetic  and  ele- 
+gant a  strain,  that  we  trust  our  readers  will  not 
+find  the  whole  passage,  in  which  it  occurs,  either 
+tedious  or  unseasonably  introduced  in  conclud- 
+ing the  life  of  Bede. 
+
+"Think,"  he  says,  to  the  monks,  "on  the 
+worth  of  our  predecessors,  and  blush  at  your 
+own  inferiority.  View  the  treasures  of  your 
+library,  and  the  magnificence  of  your  monastery, 
+and  recall  to  mind  the  rigid  virtues  of  those  by 
+whom  they  were  formerly  possessed.  Among 
+you  was  educated  Bede,  the  most  illustrious 
+doctor  of  modern  times.  How  intense  was  his 
+application  to  study  !  How  great  in  return  his 
+reputation  among  men  !  How  much  greater 
+still  his  reward  with  God !  Let  his  example 
+rouse  you  from  your  torpor ;  listen  to  the  in- 
+structions of  your  teachers  ;  open  your  books 
+and  learn  to  understand  their  meaning.  Avoid 
+all  furtive  revellings,  and  leave  to  the  world  the 
+vain  ornaments  of  dress.  What  becomes  you 
+is  the  modesty  of  your  habit,  the  sanctity  of 
+your  life,  and  the  superiority  of  your  virtue." 
+
+
+29 
+
+Such  were  the  maxims  of  industry,  sound 
+piety,  and  religion  ever  taught,  and  constantly 
+practised,  during  the  whole  tenour  of  his  exist- 
+ence, by  the  venerable  subject  of  these  pages. 
+In  the  mind  of  Alcuin,  who  had  often  heard  his 
+instructions,  and  witnessed  the  splendour  of  his 
+example,  the  mere  name  of  Bede  was  deemed 
+a  pressing  exhortation  to  holiness  of  life.  With 
+the  recollection  of  him  was  associated  the  idea 
+of  every  perfection  placed  within  the  reach  of  a 
+human  being,  who  has  consecrated  all  the  powers 
+of  soul  and  body  to  the  cultivation  of  pure  and 
+exalted  virtue.  Nor  does  this  high  estimation 
+in  which  his  revered  character  was  held  by 
+Alcuin,  and  by  all  who  had  seen  his  excellence, 
+appear  to  surpass  the  tribute  due  to  so  holy  and 
+venerable  a  man.  For  his  life  was  blameless, 
+his  manners  holy,  his  labours  incessant,  his  piety 
+most  fervent,  his  abilities  rare,  and  his  modesty 
+still  rarer. 
+
+A  life,  such  as  we  have  here  had  to  describe, 
+wholly  devoted  to  the  prosecution  of  study  and 
+the  practice  of  virtue,  and  adorned,  in  every 
+stage  from  the  cradle  to  the  grave,  with  an  un- 
+spotted sanctity  and  holy  purity  of  heart,  could 
+not  fail  to  be  recompensed  with  a  happy  and 
+glorious  exit.  For  blessed  is  the  servant  who 
+hath  persevered  in  the  narrow  path  of  right- 
+P 
+
+
+30 
+
+eousness  to  the  hour  of  his  visitation,  and  who, 
+when  his  Lord  cometh,  is  found  vigilant  and 
+faithful  in  the  discharge  of  all  his  duties.  Far 
+from  dreading,  he  joyfully  hails  the  day  of  dis- 
+solution as  the  term  of  his  labours,  the  conclu- 
+sion of  his  conflict,  the  date  of  his  victory,  the 
+consummation  of  his  wishes,  the  end  of  mourn- 
+ing and  sorrow,  and  the  commencement  of 
+heavenly  repose  and  uninterrupted  enjoyment. 
+It  was  in  this  happy  manner  our  venerable  saint 
+closed  his  mortal  career.  Having  ever  lived  as 
+he  longed  to  die,  his  pure  soul  departed  hence 
+in  peace,  clothed  in  the  bright  robe  of  undefiled 
+integrity,  and  vigorous  under  the  pressure  of 
+corporeal  infirmities,  in  the  spiritual  exercises  of 
+gratitude  and  divine  praise. 
+
+The  particulars  of  his  holy  departure  were 
+accurately  noticed  by  his  disciple  Cuthbert,  who 
+attended  him  during  his  last  illness,  and  trans- 
+mitted an  account  of  his  death,  in  a  long  epistle 
+addressed  to  Cuthwin,  one  of  his  former  com- 
+panions. The  whole  of  this  faithful  portrait  of 
+a  dying  saint  would  be  too  large  for  insertion 
+in  this  work.  We  will  therefore  present  only 
+its  leading  outlines  to  the  reader. 
+
+About  a  fortnight  before  Easter,  the  holy  man 
+was  troubled  with  such  a  difficulty  of  breathing, 
+that  his  disorder,  though  void  of  pain,  confined 
+
+
+him  to  his  bed  ;  and  to  this  complaint  soon  suc- 
+ceeded such  an  excessive  debility  of  stomach, 
+that  he  nauseated  all  food.  Yet  he  neither 
+omitted  his  wonted  exercises  of  devotion,  nor 
+abandoned  his  literary  avocations.  On  the  con- 
+trary, in  the  same  proportion  as  his  strength  of 
+body  decayed,  his  mind  seemed  to  acquire  new 
+energy  and  vigour.  By  day  and  by  night,  he 
+every  hour  poured  forth  his  soul  in  acts  of  the 
+most  tender  piety  and  thanksgiving  to  the  Lord. 
+During  the  day  also,  in  addition  to  his  accus- 
+tomed tasks  of  psalmody,  he  gave  lectures  to 
+his  pupils,  striving  to  mitigate  and  forget  his 
+sufferings,  by  turning  his  whole  attention  to  the 
+investigation  of  truth.  And  no  sooner  had  his 
+disciples  withdrawn,  and  left  him  to  the  solitude 
+of  night,  than  his  soul  was  wholly  absorbed  in 
+heavenly  contemplation  and  canticles  of  divine 
+praise.  If  at  any  time  a  short  slumber  stole 
+upon  his  eyes,  immediately  awaking  and  repel- 
+ling it,  he  renewed,  with  uplifted  hands,  his  pious 
+accents  of  gratitude  to  heaven,  and  shewed  that 
+his  affections  were  ever  intent  on  God. 
+
+"  Never,  never,"  exclaims  his  astonished  dis- 
+ciple, "did  I  witness  such  ardent  and  uninter- 
+rupted ecstasies  of  sacred  rapture  and  joy.  O 
+happy  man !  who  could  in  death  repeat  with  a 
+
+
+32 
+
+quiet  conscience  that  awful  sentence  of  St.  Paul,* 
+'  It  is  a  dreadful  thing  to  fall  into  the  hands  of 
+the  living  God  ;'  or  with  an  expiring  Ambrose 
+could  say,  *  I  have  not  passed  my  life  among 
+you  so  as  to  be  ashamed  to  live,  neither  do  I 
+fear  to  die,  for  we  have  a  kind  master." 
+
+Frequently  too,  adds  Cuthbert,  he  would  warn 
+his  disciples  in  many  appropriate  citations  from 
+Scripture,  to  shake  off  all  torpor  of  spirit,  by 
+serious  reflections  on  the  certainty  of  death. 
+Occasionally  also,  as  his  memory  was  well  stored 
+with  English  poems,  he  would  exhort  us  in  our 
+own  language  vigilantly  to  guard  ourselves 
+against  a  sudden  and  unexpected  departure,  by 
+reciting  to  us  verses  of  the  following  import. 
+No  one  ever  too  cautiously  weighed,  before  the 
+hour  of  unavoidable  dissolution  arrived,  the 
+good  or  evil  he  had  done,  and  the  account  he 
+had  to  render,  when  placed  before  the  awful 
+tribunal  of  the  supreme  Judge  of  the  living  and 
+the  dead. 
+
+At  other  times  he  invited  the  grace  of  the 
+Holy  Spirit,  saying,  "  O  King  of  glory,  Lord 
+of  virtue,  Who  ascendest  this  day  triumphant 
+into  the  heavens,  leave  us  not  orphans,  but  send 
+upon  us  the  promise  of  the  Father,  the  Spirit 
+
+*  Heb.  x.  31. 
+
+
+33 
+
+of  Truth."  Floods  of  tears  often  accompanied 
+these  tender  ejaculations,  and  excited  the  sym- 
+pathy of  all  present  Upon  which  the  holy 
+man,  with  pious  resignation,  would  observe, 
+"That  the  Lord  chastiseth  those  whom  he  loves; 
+but  that  the  sufferings  of  the  present  time  are 
+not  worthy  to  be  compared  to  the  future  glory 
+that  shall  be  revealed  in  us."* 
+
+Thus  were  passed  the  fifty  days  preceding 
+the  festival  of  the  Ascension,  our  hours  being 
+divided  in  alternately  weeping,  and  alternately 
+reading  with  our  beloved  master.  In  the  mean- 
+while, he  himself,  besides  giving  daily  lectures, 
+and  performing  his  exercises  of  psalmody,  was 
+deeply  engaged  in  two  literary  productions, 
+highly  worthy  of  notice. 
+
+The  first  was  a  translation  of  the  Gospel  of 
+St.  John,  into  the  Anglo-Saxon  language.  In 
+this  work,  which  he  happily  carried  to  the  fol- 
+lowing sentence  of  the  sixth  chapter,  "  what  are 
+these  among  so  many,"  he  had  in  view  the 
+utility  of  the  Church  in  general ;  in  the  other, 
+which  consisted  of  annotations  on  some  extracts 
+from  Bishop  Isidore,  he  sought  the  advantage 
+of  his  disciples  in  particular  ;  anxious  that  they 
+should  not  labour  unprofitably  after  his  depart- 
+
+*  Hebrews,  xii.  6,  and  Rom.  viii.  12. 
+
+
+34 
+
+ure,    by    reading    what    had    been    incorrectly 
+written. 
+
+On  the  Tuesday  before  our  Lord's  Ascension, 
+his  disease  rapidly  increasing,  there  appeared  a 
+small  swelling  in  his  feet,  the  sure  and  certain 
+indication  of  approaching  death.  He  continued, 
+however,  the  whole  of  that  day  to  dictate  to  his 
+scholars,  with  his  wonted  alacrity  ;  and  not  un- 
+frequently  urging  them  to  write  with  speed, 
+amongst  other  things,  he  said,  "  Learn,  my  chil- 
+dren, while  I  am  with  you  ;  for  I  know  not  how 
+long  I  shall  continue,  and  whether  my  Maker 
+will  not  shortly  take  me  hence."  The  night  he 
+passed  awake  in  devout  acts  of  prayer  and 
+thanksgiving.  Early  on  Wednesday  morning, 
+he  again  pressed  us  to  write  with  haste,  and 
+complete  the  work  we  had  begun.  This  we 
+diligently  did,  till  the  hour  for  procession  :  after 
+which,  one  of  us  observed,  "  Dear  master,  there 
+is  still  a  chapter  wanting,  is  it  troublesome  to 
+you  to  answer  any  more  questions?"  "It  is,"  he 
+replied,  "no  trouble;  take  your  pens,  and  note 
+down  with  celerity  what  remains  unfinished." 
+
+About  three  o'clock  in  the  afternoon,  he  re- 
+quested us  to  invite  to  his  apartment,  without 
+delay,  all  the  priests  of  the  monastery.  As  soon 
+as  they  arrived,  he  distributed  amongst  them 
+
+
+35 
+
+several  small  presents,*  which  he  had  privately 
+reserved  for  the  occasion  ;  and  then  addressing 
+himself  to  each,  he  earnestly  conjured  them  to 
+celebrate  masses  for  him,  and  to  remember  him 
+in  their  prayers.  This  done,  he  informed  them, 
+that  in  this  life  they  would  never  behold  him 
+more  ;  at  which  words  the  whole  assembly  burst 
+into  tears.  But  their  minds  were  speedily  con- 
+soled by  the  pious  reflections  which  he  made. 
+
+"  It  is  now  time,"  he  said,  "  for  my  spirit  to  re- 
+turn to  Him,  who  out  of  nothing  gave  it  existence. 
+I  have  lived  long  ;  God  hath  rightly  appointed 
+the  portion  of  my  days.  I  desire  to  be  dissolved, 
+and  to  be  with  Christ.  Yes,  my  soul  pants  to 
+be  delivered  from  the  frail  prison  of  this  body, 
+and  to  behold  my  Saviour  face  to  face,  in  the 
+bright  realms  of  immortal  splendour  and  incor- 
+ruptible glory." 
+
+In  this  edifying  and  sublime  strain  he  con- 
+tinued to  discourse  till  evening.  One  of  his  dis- 
+ciples then  said,  "  Dear  master,  one  sentence  is 
+not  yet  written."  "Then  write  it  quickly,"  he 
+replied.  Soon  after  the  young  man  said  it  was 
+
+
+*  The  tokens  of  regard,  which  Bede  presented  to  his  col- 
+leagues, were  little  cloths,  or  handkerchiefs,  a  few  pepper-corns, 
+and  grains  of  frankincense  ;  articles  of  much  greater  rarity  and 
+value  in  that  age,  than  at  present. 
+
+
+36 
+
+finished.  "  Truly,"  exclaimed  the  dying  saint, 
+"it  is  finished.  Hold  my  head  in  thy  hands, 
+for  it  is  a  pleasure  to  me  to  sit  opposite  the  holy 
+place  in  which  I  have  been  accustomed  to  pray. 
+There  let  me  invoke  my  Father."  He  was 
+placed  on  the  pavement  of  his  cell,  repeated  the 
+Gloria  Patri>  and  expired.* 
+
+Thus  died,  or  rather  was  translated  into  the 
+joy  of  his  Lord,  the  devout  Bede,  the  pride  of 
+his  age,  the  glory  of  his  country,  and  the  most 
+brilliant  star  which  ever  arose  in  the  Anglo- 
+Saxon  church. 
+
+On  Wednesday  the  26th  of  May,  soon  after 
+the  first  Vespers  of  the  Ascension,  in  the  year  of 
+the  Lord  seven  hundred  and  thirty-five,  his  bles- 
+sed spirit  departed  hence,  to  the  eternal  peace 
+and  immortal  honours  of  the  righteous. f 
+
+
+*  Malmsbury,  in  his  description  of  Bede's  departure,  says  "That 
+on  the  Tuesday  before  our  Lord's  Ascension,  the  congregation 
+being  called  tog-ether,  he  was  annointed  and  received  the  sacra- 
+ment." The  same  circumstance,  probably  on  his  authority,  has 
+been  noticed  by  Ranulph  Higxien,  a  learned  antiquary  of  the  four- 
+teenth century. 
+
+t  According-  to  the  ordinary  system  of  computation,  Bede's 
+death  took  place  on  the  Vigil,  though  dated  by  all  ancient  writers 
+on  the  festival  of  the  Ascension,  because  he  did  not  expire  till  after 
+Evening-  Song  of  the  day  preceding-  that  solemnity.  This  was 
+styled  the  first  Vespers,  and  in  the  ecclesiastical  way  of  reckoning- 
+is  the  commencement  of  the  holy  day. 
+
+
+37 
+
+His  mortal  remains  were  interred  in  St.  Paul's 
+church  at  J arrow,  where  a  porch  on  the  north 
+side  bore  his  name.  In  the  year  1020  they  were 
+
+
+But  concerning  the  year  of  his  decease  and  his  age,  historians 
+differ.  Simeon  of  Durham,  speaking-  of  his  education,  places  his 
+birth  in  677  ;  and  Book  II.  Ch.  14,  de  Eclesia.  Dunelmensi,  the 
+same  writer  records  his  death  on  the  festival  of  the  Ascension,  the 
+26th  of  May,  in  the  year  735,  and  the  59th  of  his  age. 
+
+This  statement,  however,  though  given  by  a  writer  whose  autho- 
+rity is  great,  and  who  lived  nearest  the  times  of  Bede,  we  know, 
+on  the  testimony  of  Bede  himself,  cannot  be  strictly  accurate. 
+For  he  himself  tells  us,  that  he  had  reached  his  59th  year  when 
+he  completed  his  History  of  the  Anglo-Saxon  Church  ;  and  this 
+must  have  happened,  as  both  his  own  declaration  and  the  conclu- 
+sion of  the  work  itself  clearly  indicate,  in  the  year  731.  And  as 
+at  this  period  he  had  arrived  at  his  sgth  year,  he  must  have  been 
+born  in  673,  four  years  earlier  than  is  stated  by  Simeon  of  Durham. 
+
+That  he  lived  some  time  after  the  publication  of  his  History,  is 
+evinced  by  his  epistle  to  Archbishop  Egbert ;  which  was  written 
+two  years  later.  And  as  it  is  agreed  that  he  died  on  the  26th  of 
+May,  and  the  festival  of  the  Ascension,  we  may  without  fear  of 
+mistake  conclude,  that  our  venerable  saint  did  not  quit  this  mortal 
+state,  to  enjoy  the  fruits  of  his  labours,  till  the  year  735,  and  the 
+63rd  of  his  age  :  for  the  solemnity  so  often  above  mentioned,  fell 
+out  that  year  on  the  26th  of  May. 
+
+This  account,  which  appears  to  be  founded  on  correct  data, 
+shews  how  widely  authors  have  erred  on  this  more  curious  than 
+important  subject,  or  how  carelessly  copyists  have  transcribed 
+their  works,  who  run  up  the  age  of  Bede  to  ninety  or  a  hundred 
+years. 
+
+It  points  out  also  an  inaccuracy  of  dates  in  a  tablet,  formerly 
+suspended  on  the  wall  near  the  tomb  of  Bede  in  Durham  cathe- 
+dral ;  a  literal  translation  of  which  is  here  subjoined. 
+
+Vide  Smith's  Bede,  p.  715  &  804. 
+
+
+translated  to  Durham,  and,  enclosed  in  a  bag 
+and  wooden  trunk,  were  deposited  in  the  same 
+shrine  with  the  body  of  St.  Cuthbert.  In  1155, 
+they  were  removed  thence,  by  Bishop  Hugh,  to 
+a  separate  shrine  of  curious  workmanship,  and 
+richly  adorned,  in  the  chapel  of  the  Blessed 
+Virgin,  at  the  west  end  of  Durham  cathedral. 
+
+In  this  chapel  there  is  still  a  marble  monu- 
+ment, said  to  be  the  tomb  of  Bede.  Near  it 
+formerly  hung  a  tablet,  on  which  was  inscribed 
+in  Latin,  an  epitome  of  Bede's  life.  Dr.  Smith, 
+the  learned  editor  of  Bede's  Historical  Works, 
+has  published  at  the  end  of  the  volume  this  in- 
+scription, accompanied  with  an  engraving  of  the 
+monument  as  it  stood  in  his  time. 
+
+A  correct  copy  of  this  engraving,  taken  on  a 
+smaller  scale,  for  which  we  are  indebted  to  the 
+kindness  of  a  friend,  is  here  presented  to  the 
+reader,  together  with  a  translation  of  the  tablet. 
+
+
+>"   ] 
+
+
+I 
+
+i 
+
+science, 
+
+1 
+
+OJ 
+
+O 
+
+C 
+
+f 
+
+Abbot  Benedict, 
+
+at  the  said  monastery, 
+
+Scriptures. 
+
+3 
+43 
+0 
+
+(L) 
+
+,g 
+
+C 
+C 
+
+'So 
+c 
+
+*co 
+
+*o 
+
+2 
+
+V 
+
+"2 
+
+0 
+
+1 
+
+o 
+
+'o 
+a 
+
+0 
+43 
+
+i  < 
+
+CO 
+
+43 
+
+'6 
+
+"o 
+
+1 
+
+0 
+
+c 
+
+>*  > 
+
+,g 
+
+3 
+
+£ 
+
+CO 
+
+2 
+
+43 
+
+f  1 
+
+O 
+
+O 
+
+C 
+
+'o 
+u 
+
+(U 
+
+V 
+
+!2 
+
+'co 
+d) 
+
+O 
+
+i* 
+
+.1 
+
+*u 
+
+43 
+O\ 
+
+a 
+
+K^*          HS^ 
+
+CTj 
+
+cy 
+
+~^ 
+
+4D 
+
+u 
+
+*^> 
+
+^ 
+
+>^ 
+
+CO 
+
+*^ 
+
+*  a 
+
+o 
+
+4^ 
+
+T3       rt 
+
+o 
+
+O 
+
+C 
+
+3 
+
+43 
+
+-M 
+
+G 
+
+o 
+
+43 
+
+JT 
+
+"5?         ^ 
+
+•^      « 
+
+5 
+
+(^    ^ 
+
+^     8 
+
+BEDE, 
+
+Servant  and  Priest 
+
+O 
+
+c 
+
+oJ 
+
+CO 
+CO 
+
+43 
+2 
+
+<L>       C 
+^       g 
+
+$    6 
+
+C       fl^ 
+
+CO       *S 
+
+•  ^-l             ^—  ' 
+
+^      O 
+j_       C 
+
+^       •'•J 
+
+•*   s 
+
+O 
+
+n  years,  committed 
+
+rwards  to  Ceolfrid,  1 
+
+^co 
+
+43 
+
+*o 
+<u 
+
+'o 
+
+to 
+
+43 
+O 
+C 
+
+.2 
+c 
+
+cS 
+
+49 
+
+T3 
+C 
+
+ed 
+
+oT 
+
+c 
+
+is* 
+
+*o 
+
+-5 
+
+O 
+u 
+
+<L> 
+
+co 
+
+<L> 
+
+E 
+
+In 
+
+o 
+
+1 
+
+-4_> 
+
+o 
+
+1 
+
+C 
+
+<L> 
+
+0 
+S 
+
+<u 
+
+CQ 
+
+"o 
+
+c 
+
+43 
+O 
+
+*o 
+
+t  1 
+
+'< 
+
+C 
+
+1 
+
+D 
+> 
+<U 
+CO 
+
+5 
+
+rt 
+
+CD 
+
+43 
+
+hfi 
+
+S 
+
+£ 
+
+43 
+
+uT 
+ni 
+
+ew 
+
+'S 
+
+*5J 
+
+^ 
+
+c 
+
+t-^j 
+
+T3 
+
+43 
+
+S 
+
+"2 
+
+o 
+
+C 
+
+^3 
+
+^o 
+
+1 
+
+I 
+
+1 
+
+1 
+
+fG 
+
+O 
+
+§ 
+
+f 
+
+(U 
+
+x 
+
+i 
+
+0 
+
+c 
+c 
+
+o 
+
+43 
+
+CO 
+
+(U 
+
+43 
+
+4—  1 
+4-J 
+
+oj 
+
+o3 
+
+a 
+
+T3 
+CD 
+
+bserva 
+
+CO 
+
+43 
+
+C 
+
+4^ 
+O 
+
+_. 
+
+§ 
+
+™ 
+
+u 
+
+o 
+
+h-H 
+
+CQ 
+
+*£* 
+
+c 
+
+Q 
+
+^ 
+
+•Sk 
+
+(U 
+
+^tj 
+
+43 
+
+_ 
+
+E 
+
+^ 
+
+CJ 
+
+-M 
+
+•«>A 
+
+G 
+
+12 
+
+•^ 
+
+43 
+
+*g 
+
+H 
+
+OJ 
+
+C 
+
+en 
+
+'So 
+
+i 
+
+'t 
+
+C 
+
+u 
+
+1 
+
+*o 
+
+1 
+O 
+
+>< 
+
+Cuthbert 
+
+43* 
+
+15 
+
+.g 
+
+.£ 
+
+'5 
+
+** 
+
+4-> 
+
+en 
+S 
+
+0) 
+
+|_4 
+
+rt 
+C 
+
+(U 
+
+o 
+
+bjo 
+
+4-> 
+
+^3 
+
+c/5 
+
+.3 
+
+E 
+
+en 
+
+'a 
+
+Cu 
+
+T3 
+
+a 
+
+u 
+
+C/) 
+
+u 
+0 
+
+in 
+
+S 
+
+c 
+
+'5 
+
+1 
+
+g 
+
+15 
+
+*0 
+
+"H 
+
+0 
+
+o 
+
+u 
+
+rt 
+
+43 
+en 
+
+1 
+'•13 
+
+U-i 
+
+0 
+
+C 
+
+g 
+
+oJ 
+
+<D 
+43 
+
+4-J 
+
+*o 
+u 
+
+c 
+
+o 
+o 
+
+o 
+
+g 
+
+<U 
+
+(4 
+
+c 
+
+c 
+
+u 
+
+0 
+42 
+
+bfl 
+
+o 
+
+42 
+
+en 
+oJ 
+
+o 
+ol 
+
+To  excel  the  whole  world  by  his  extraordinary  talents  ; 
+
+trated  the  deep  mysteries  of  almost  all  the  sciences,  and  i 
+
+voluminous  writings  known  all  over  Christendom  amply 
+
+1 
+
+o 
+
+.52 
+15 
+
+*n 
+
+0 
+
+cj 
+
+-a 
+c 
+
+* 
+
+1 
+
+4-J 
+
+3 
+
+"at 
+
+So 
+
+O 
+
+G 
+
+3 
+
+T3 
+
+<U 
+
+<ri 
+
+<u 
+
+1 
+
+c 
+"> 
+
+en 
+
+4—) 
+
+15 
+
+.§ 
+
+'g 
+
+0 
+43 
+en 
+15 
+
+*0 
+
+And  publicly  recited  in  the  solemn  service  of  the  church, 
+
+.t  he  had  illustrious  disciples,  soon  afterwards  bright  lumi 
+
+n,  the  Preceptor  of  Charlemagne,  and  Claudius,  and  Cle 
+
+o 
+
+c 
+
+"8 
+
+1 
+
+(U 
+
+43 
+
+4-J 
+
+•s 
+
+en 
+
+C 
+
+c2 
+
+rt 
+en 
+
+Ui 
+
+4-J 
+
+43 
+bjQ 
+
+1 
+
+on  the  festival  of  the  ascension,  A.D.  DCCXXXIV.  JE 
+
+And  was  buried  in  the  monastery  of  Jarrow. 
+
+His  remains  were  afterwards  translated  to  Durham, 
+
+1 
+
+43 
+
+4-J 
+
+C 
+oj 
+
+13 
+
+en 
+
+0 
+
+b/) 
+c. 
+
+M-i 
+
+0 
+
+43 
+(U 
+.g 
+
+-s 
+
+'i 
+
+(U 
+
+4-J 
+
+1 
+
+cu 
+<u 
+
+were  next  removed  to  this  Monument,  erected  by  Bishop 
+
+EPITAPH. 
+
+In  this  tomb  are  the  remains  of  Venerable  Bede. 
+
+C 
+
+1 
+
+H 
+
+1 
+
+s 
+
+C 
+rt 
+
+g 
+
+ro 
+
+•S 
+
+a 
+
+^0 
+
+O 
+43 
+
+•73 
+
+1 
+
+43 
+
+*? 
+
+IS 
+
+8 
+
+* 
+
+"en 
+
+<u 
+
+H 
+
+r; 
+
+,-H 
+
+43 
+
+*™3 
+
+Ui 
+
+HH 
+
+4_> 
+
+'g 
+
+H 
+
+C 
+
+*« 
+
+*O 
+
+.52 
+
+O 
+
+c 
+
+H 
+
+C 
+
+THE    LIVES    OF 
+
+BENEDICT,  CEOLFRID,  EOSTERWINE, 
+SIGFRID,  &    HUETBERT. 
+
+
+THE  religious  servant  of  Christ,  Benedict,  or 
+Bennet,  surnamed  Biscop,*  founded  a  monas- 
+teryf  in  honour  of  Peter,  Prince  of  the  Apostles, 
+on  the  north  bank  and  at  the  mouth  of  the  River 
+Wear.  To  accomplish  this  undertaking  he  re- 
+ceived a  donation  of  land,  with  the  patronage 
+and  concurrence  of  the  pious  and  venerable 
+Egfrid,  King  of  the  Northumbrians.  Nor  were 
+the  zeal,  piety,  and  unceasing  diligence  of  this 
+incomparable  man,  more  conspicuous  in  found- 
+ing, than  in  afterwards  governing  the  said  mon- 
+astery. For  he  conducted  its  administration 
+sixteen  years,  notwithstanding  the  innumerable 
+troubles  which  during  that  period  he  encounter- 
+
+
+*  Eddius  Step,  in  his  Life  of  St.  Wilfrid,  to  Biscop  adds  Baduc- 
+ing-  as  the  surname  of  Benedict. 
+
+t  Wearmouth  and  Jarrow  monasteries  were  the  most  ancient  of 
+any  within  the  limits  of  the  County  of  Durham. 
+E 
+
+
+46 
+
+ed,  in  the  toil  and  hardships  of  long  and  fre- 
+quent journeys,  succeeded  by  the  heavy  afflic- 
+tions of  a  lingering  distemper.  With  justice, 
+therefore,  we  may  venture  to  assert  (borrowing 
+the  expression  applied  by  Gregory  the  Great* 
+to  another  abbot  of  the  same  name),  "that  our 
+founder  was  a  man  of  most  venerable  character, 
+and  Benedict,  or  '  blessed  by  grace '  as  well  as 
+name."  For  from  his  earliest  youth  he  posses- 
+sed the  prudent  sedateness  of  advanced  years ; 
+and  such  even  then  was  the  severity  of  his 
+morals,  that  his  heart  never  knew  the  gratifica- 
+tion of  worldly  pleasure. 
+
+This  excellent  youth  was  the  descendant  of 
+a  noble  family  of  Angles.  He  also  enjoyed 
+the  honour  of  being  minister  to  King  Oswy,  or 
+Oswiu  ;  and  by  the  bounty  of  his  royal  patron, 
+was  provided  with  estates  in  land  proportionate 
+to  the  dignity  of  his  rank.  At  the  age  of  twenty- 
+five,  however,  he  cheerfully  bade  adieu  to  tem- 
+poral, that  he  might  ensure  eternal  possessions  ; 
+and  joyfully  retired  from  the  flattering  prospects 
+presented  to  his  view  by  an  earthly  service,  of 
+which  the  highest  rewards  are  but  corruptible, 
+that  by  consecrating  himself  to  the  service  of 
+the  true  King,  he  might  inherit  in  the  regions 
+
+
+Lib,  2.  Dial,  cap,  i, 
+
+
+47 
+
+above  a  crown  of  incorruptible  felicity.  For 
+the  sake  of  Christ  Jesus  and  his  Holy  Gospel 
+Benedict  abandoned  his  home,  his  kindred,  and 
+his  country,  that,  according  to  divine  promise* 
+he  might  hereafter  receive  an  hundredfold  in 
+the  enjoyment  of  life  everlasting.  To  the  plea- 
+sures of  earthly  marriage  he  preferred  the 
+future  happiness  of  following  the  Lamb  of  un- 
+spotted virginity  in  the  kingdom  of  heaven  ;f 
+and  renounced  the  sensual  gratification  of  pro- 
+pagating a  mortal  posterity  in  this  world,  having 
+been  called  by  Christ  to  raise,  through  the  seed 
+of  his  divine  word,  an  immortal  progeny  to 
+celestial  bliss  in  the  world  to  come.  Such  were 
+the  pious  dispositions  of  soul  with  which  Bene- 
+dict was  inspired  when  he  repaired  to  Rome,§ 
+there  to  behold  and  venerate  in  person  the 
+sacred  remains  of  the  Apostles,  for  whose  me- 
+mory he  had  ever  cherished,  in  spirit,  a  most 
+ardent  affection.  He  soon  afterwards  returned 
+home,  and  never  ceased  to  love,  and  practise 
+himself,  nor  to  recommend  to  others,  the  various 
+institutes  of  ecclesiastical  discipline,  with  which 
+during  his  absence  he  had  enriched  his  mind. 
+
+
+*  Matth.  xix.  29        -\  Rev.  xiv.  4. 
+
+§  Benedict  was  accompanied  in  this  journey  by  Wilfrid,  after- 
+wards Bishop  of  York.  Bede  v.  19.  This  first  pilgrimage  ap- 
+pears to  have  been  made  about  the  year  653. 
+
+
+48 
+
+About  this  time  Alfrid,  the  son  of  King  Oswy 
+(whom  we  have  above  mentioned)  likewise 
+conceived  a  design  of  making  a  journey  of  de- 
+votion to  the  capital  of  the  Christian  world. 
+Full  of  this  project,  the  young  Prince  had 
+already  engaged  Bennet  to  be  the  companion 
+of  his  travels.  But  Oswy  discountenanced  his 
+son's  intention,  and  prohibited  his  departure  to 
+foreign  realms.  But  Benedict,  being  a  youth  of 
+noble  soul,  persevered  in  accomplishing  the  pro- 
+jected journey,  and  again  hastened  to  the  Vati- 
+can* in  the  time  of  the  Pontiff  Vitalian,  whose 
+name  occurs  in  a  preceding  work. 
+
+Having  in  this,  as  in  his  former  visit  to  the 
+seat  of  the  Apostles,  imbibed  a  strong  relish  for 
+the  science  of  salvation,  our  devout  youth,  after 
+a  few  months'  stay,  withdrew  to  the  Isle  of  Le- 
+rines,f  and  was  received  into  its  celebrated  mon- 
+astery. Here  he  took  the  clerical  tonsure,  was 
+admitted  to  his  vows,  and  practised  with  becom- 
+ing fervour  the  rigid  virtues,  and  austere  exer- 
+cises of  the  cloister.  With  the  sequestered  in- 
+habitants of  this  island  he  lived  in  residence 
+two  years,  during  which  he  acquired  a  compe- 
+
+
+*  A.  D.  664. 
+
+t  A  small  island  on  the  coast  of  Provence,  now  called  St. 
+Honore,  from  St.  Honoratus,  who  founded  a  monastery  there  to- 
+wards the  close  of  the  fourth  century. 
+
+
+49 
+
+tent  knowledge  of  the  monastic  institute.  At 
+the  expiration  of  this  period,  again  impelled  by 
+his  active  and  ever  glowing  veneration  for  bles- 
+sed Peter,  Prince  of  the  Apostles,  he  determined 
+to  undertake  a  third  pilgrimage  to  the  city 
+which  was  rendered  sacred  by  the  precious  re- 
+mains of  that  great  Apostle  reposing  within  its 
+walls.  Nor  was  it  long  before  the  arrival  of  a 
+trading  vessel  enabled  him  to  execute  his  design. 
+
+At  this  juncture,  Egbert,  King  of  Kent,  had 
+despatched  to  Rome  a  person  of  the  name  of 
+Wighard,  duly  instructed  at  Canterbury  by  the 
+disciples  of  St.  Gregory,  in  every  branch  of 
+ecclesiastical  knowledge,  and  recently  elected 
+to  fill  the  episcopal  chair.  This  man's  conse- 
+cration the  King  most  anxiously  desired,  that 
+himself  and  subjects,  having  a  Prelate  of  their 
+own  nation  and  language,  might  be  initiated 
+with  greater  ease  and  perfection  in  the  doc- 
+trines and  mysteries  of  faith.  For  by  the  hands 
+and  instructions  of  a  relative  and  countryman, 
+those  blessings  would  be  delivered  without  the 
+perplexity  ever  attendant  on  the  intervention 
+of  interpreters. 
+
+Wighard  succeeded  in  the  performance  of  his 
+journey  as  far  as  Rome,  but  during  his  residence 
+in  that  city  he  fell,  with  all  who  had  accom- 
+
+
+50 
+
+panied  him  from  Britain,  a  victim  to  the  plague 
+before  the  ceremony  of  his  consecration  was 
+administered.  That  the  faithful,  however,  might 
+not  suffer  by  this  accident,  nor  the  pious  object 
+of  the  legation  expire  with  the  expiring  legates, 
+Vitalian,  who  then  enjoyed  the  papal  dignity, 
+convened  a  council,  and  electing  one  of  his  own 
+prelates  sent  him  into  Britain,  vested  with  the 
+character  of  Archbishop,  to  supply  the  place  of 
+the  defunct  Wighard. 
+
+His  choice  fell  upon  Theodore,*  a  man  deeply 
+versed  in  both  sacred  and  profane  science,  and 
+
+
+*  Theodore  was  a  native  of  Tarsus,  in  Cilicia,  where  he  had 
+embraced  a  monastic  life.  To  the  severest  morals  he  added  a 
+perfect  knowledge  of  ecclesiastical  discipline.  He  took  posses- 
+sion of  the  See  of  Canterbury  in  the  second  year  after  his  conse- 
+cration, and  continued  in  it  twenty-one  years.  Bede  says  the 
+Church  of  England  received  greater  spiritual  advantage  from  his 
+episcopacy  than  it  ever  did  before  from  any  other  Prelate.  He 
+died  in  690,  at  the  very  advanced  age  of  88  years.  Bede's  Eccles. 
+Hist.,  Book  v.  8. 
+
+Of  the  prosperity  and  glory  of  those  days  Bede  speaks  in  a  style 
+of  rapture.  Both  he  (Theodore)  and  Adrian,  he  says,  were  very 
+learned,  as  well  in  sacred  as  in  secular  literature.  Besides  ex- 
+pounding the  Holy  Scriptures  they  taught  poetry,  arithmetic,  and 
+astronomy,  and  they  taught  assiduously  the  Greek  and  Latin  lang- 
+uages :  many  of  their  disciples  are  still  living  who  can  speak  both, 
+as  well  as  their  native  tongue.  There  never  was,  he  adds,  a  more 
+happy  time  than  this  since  the  English  came  to  Britain.  For  Eng- 
+land was  blessed  with  the  most  valiant  and  truly  Christian  Kings, 
+the  terror  of  whose  arms  was  felt  by  all  foreign  nations.  The 
+
+
+well  acquainted  with  the  languages  of  Greece 
+and  Rome.  To  him  was  associated,  in  quality 
+of  counsellor  and  colleague,  Abbot  Adrian,  in 
+whom  fortitude,  vigour  of  mind  and  prudence 
+were  most  signally  united.  And  as  Vitalian  was 
+well  persuaded  that  our  venerable  countryman 
+would  through  life  evince  industry,  wisdom,  zeal, 
+and  every  other  noble  qualification  of  soul,  he 
+recommended  the  recently  ordained  Bishop  with 
+his  whole  retinue  to  Benedict's  care,  enjoining 
+him  to  quit  the  peregrination  which  for  the  love 
+of  Christ  he  had  undertaken  ;  to  return,  for  the 
+purpose  of  promoting  more  advantageous  ob- 
+jects, to  his  native  country,  and  to  conduct 
+thither  a  teacher  of  divine  truth  whom  she  had 
+earnestly  solicited,  and  whom  it  would  be  in  his 
+power  to  serve  under  the  double  capacity  of  a 
+guide  in  his  travels,  and  of  an  interpreter  in  the 
+discharge  of  his  pastoral  functions.  The  in- 
+junctions of  the  Pontiff  are  obeyed.  They 
+arrive  at  Canterbury,  where  they  are  most 
+gratefully  received.  Theodore  takes  possession 
+of  his  See,  and  Bennet  assumes  the  government 
+of  St.  Peter's  Abbey.  This  dignity  he  resigned 
+two  years  afterwards  into  the  hands  of  Adrian, 
+
+
+minds  of  all  were  entirely  occupied  on  what  they  had  lately  heard 
+concerning"  the  joys  of  the  Kingdom  of  Heaven  ;  and  if  any  de- 
+sired to  be  instructed  in  reading-  the  Holy  Scriptures,  he  could 
+always  find  masters  ready  to  teach  him.  Bede,  ibid,  Book  iv.  2. 
+
+
+whom  we  have  above  noticed,  and  undertook  a 
+fourth  journey  to  Rome.*  He  was  accompani- 
+ed by  his  usual  prosperity,  and  returned  home 
+with  an  ample  collection  of  Jbooks  on  various 
+subjects  of  divine  literature  ;  this  collection  he 
+made  during  his  tour,  partly  by  purchase  and 
+partly  by  the  gratuitous  donations  of  his  ac- 
+quaintances. Many  of  his  purchases,  which  he 
+had  committed  to  the  care  of  friends,  were  safely 
+delivered  to  him  on  his  return  to  Vienna. 
+
+On  regaining  his  native  shore  Benedict  at 
+first  resolved  to  present  himself  to  Kenwalch, 
+King  of  the  West  Saxons,  numerous  proofs  of 
+whose  intimacy  and  benevolent  assistance  he 
+had  on  former  occasions  experienced.  But 
+learning  soon  after  he  landed  that  this  monarch 
+had  perished  by  a  premature  death,  he  turned 
+his  steps  to  the  realm  and  place  of  his  nativity. 
+On  his  arrival  there  he  addressed  himself  to 
+Egfrid,  King  of  Northumbria.  To  this  prince 
+he  unfolds  the  various  scenes  and  transactions 
+through  which  he  had  passed,  from  his  early 
+youth  when  he  first  left  his  native  realm  to  the 
+
+
+*  Bede  calls  this  journey  the  third,  as  it  was  only  the  third  time 
+Benedict  had  taken  his  departure  from  Britain.  But  as  on  the 
+second  occasion  he  went  twice  to  Rome,  once  from  Britain  and 
+once  from  Lerines,  it  was,  in  all,  his  fourth  pilgrimage  to  that  city. 
+— Mabillonius.  This  was  performed  about  the  year  671. 
+
+
+53 
+
+present  hour  ;  he  discovers  the  ardent  desire 
+with  which  his  bosom  had  ever  been  inflamed, 
+for  the  profession  of  a  religious  and  monastic 
+life;  he  recounts ,  the  innumerable  researches 
+which  he  had  made  and  the  infinite  pains  he 
+had  taken,  both  at  Rome  and  in  many  other 
+places,  to  perfect  himself  in  the  science  of  eccles- 
+iastical and  monastical  discipline  ;  finally,  he  de- 
+clares the  valuable  store  of  sacred  volumes  and 
+the  number  of  precious  relics  of  the  Apostles 
+and  martyrs  of  Christ,  which  in  his  remote  peri- 
+grinations  he  had  collected  and  now  conveyed 
+home.  Egfrid  listened  to  his  discourse  with  af- 
+fection and  veneration,  and  moved  by  the  holy 
+man's  pious  exertions,  assigned  him  seventy 
+hides*  of  the  royal  domain,  with  injunctions  to 
+
+*  A  hide,  plough,  or  family  of  land  appear  to  be  used  as  syn- 
+onymous terms,  importing-  as  much  land  as  one  plough  or  one 
+yoke  of  oxen  could  throw  up  in  a  year,  or  as  sufficed  for  the  main- 
+tenance of  one  family.  It  is  not  easy  to  ascertain  what  was  its 
+precise  extent.  Polydore  Virgil  rates  it  at  twenty,  others  at  thirty, 
+some  at  forty,  and  many  ancient  manuscripts  at  one  hundred  and 
+twenty  acres. 
+
+Of  the  lands  bestowed  on  the  monks,  it  may  here  be  observed 
+that  a  considerable  portion  was  originally  wild  and  uncultivated, 
+surrounded  by  marshes  or  covered  with  forests.  They  preferred 
+such  situations  for  the  advantage  of  retirement  and  contempla- 
+tion, and  as  they  were  of  less  value  they  were  more  freely  be- 
+stowed by  their  benefactors.  Several  monasteries  took  their 
+names  from  their  situations,  as  Atbearwe,  "in  the  forest." — Bede, 
+Eccles.  Hist.  p.  144.  Ondyrawda,  "in  the  wood  of  the  Deiri." — 
+Ibid,  p.  183.  Croyland,  "  boggy  land  ;"  Thorney,  "the  island  of 
+thorns;"  Jarrow  or  Girvum,  "a  fen."  —  Lingard's  Ang.-Sax. 
+Church,  p.  144. 
+
+
+54 
+
+found  thereon  a  monastery  dedicated  to  Peter, 
+the  chief  of  the  Apostles.  This  monastery,  as 
+we  stated  in  our  introduction,  was  accordingly 
+built  on  the  north  bank  and  at  the  mouth  of  the 
+River  Wear,  in  the  year  of  Our  Lord's  Incar- 
+nation six  hundred  and  seventy-four,  and  in  the 
+fourth  year  of  the  reign  of  King  Egfrid. 
+
+Scarce  had  twelve  months  elapsed  from  the 
+period  of  founding  this  monastery,  when  the 
+indefatigable  Benedict  again  crossed  the  ocean, 
+and  traversed  the  provinces  of  France  for  work- 
+men to  construct  for  its  use  after  the  Roman 
+manner,  which  he  highly  admired,  a  magnificent 
+church  of  stone.  These  he  found,  engaged, 
+and  conducted  to  Britain.  And  now  actuated 
+by  that  ardent  love  which  ever  burnt  within  his 
+heart  for  the  blessed  Apostle,  under  whose  pat- 
+ronage the  building  was  raised,  he  prosecuted 
+the  work  with  such  unremitting  diligence,  that 
+within  the  compass  of  a  year  after  the  founda- 
+tion had  been  laid,  the  spacious  edifice  was 
+roofed  and  mass  celebrated  within  its  walls. 
+
+Afterwards,  when  the  building  was  nearly 
+finished,  he  sent  to  France  for  artificers  skilled 
+in  making  glass,  an  art  to  which  the  inhabitants 
+of  Britain  were  at  that  time  strangers.  These 
+also  arrived,  and  not  only  executed  their  commis- 
+
+
+55 
+
+sion  (the  glazing  the  windows  of  the  porticos 
+and  principal  parts  of  the  church),  but  likewise 
+communicate  to  the  natives  the  mystery  of  their 
+trade,  by  which  lamps,  windows,  cups,  and  an 
+endless  variety  of  useful  and  ornamental  articles 
+are  formed,  with  wonderful  beauty  and  facility.* 
+Lastly,  Bennet  procured  by  purchase  from 
+abroad,  as  he  could  not  at  home,  plate,  vest- 
+ments, and  consecrated  vessels  for  the  service 
+of  the  church  and  the  ministry  of  the  altar. 
+
+Nor  did  the  enterprising  spirit  of  this  lover 
+and  promoter  of  the  beauty  of  God's  house  rest 
+satisfied  even  here.  For  as  various  particulars 
+highly  requisite  to  the  stability  and  protection, 
+or  to  the  due  embellishment  of  his  newly  erected 
+temple  were  still  deficient,  and  not  attainable 
+even  in  the  more  polished  regions  of  France, 
+our  unwearied  provider  determined,  after  form- 
+ing the  rules  and  establishing  the  discipline  of 
+
+
+*  From  the  circumstance  of  Benedict's  having-  to  procure 
+masons  and  glaziers  from  abroad,  it  may  be  decided  that  stone 
+buildings  and  glass  windows,  if  at  all  known,  were  very  rare  at 
+that  period  in  England.  It  appears,  however,  there  were  some 
+prior  to  his,  from  a  passage  in  William  of  Malmsbury's  History  of 
+the  Kings  of  England^  lately  translated  by  the  Rev.  J.  Sharp. 
+"  Very  rarely,"  he  says,  "  before  the  time  of  Benedict  were  build- 
+ings of  stone  seen  in  Britain,  or  did  the  solar  ray  cast  its  light 
+through  the  transparent  glass." — Book  I.  3.  Wilfrid  is  said  to 
+have  glazed  York  Cathedral  in  670,  for  which  the  glass  must  have 
+been  imported. 
+
+
+56 
+
+his  convent,  to  make  a  fifth  pilgrimage  to  Rome.* 
+This  determination  he  soon  carried  into  effect, 
+and  with  more  than  ordinary  advantage,  for  the 
+acquisitions  obtained  in  this  infinitely  surpassed 
+in  number  and  importance  all  the  collections 
+he  had  made  on  former  occasions. 
+
+In  the  first  place  he  now  imported  an  immense 
+library  of  books  on  every  branch  of  learning  ; 
+secondly,  a  copious  gift  of  relics  of  the  apostles 
+and  martyrs  of  Jesus,  designed  for  the  benefit 
+not  of  his  own  only,  but  of  several  other  British 
+churches.  The  third  advantage  derived  from 
+this  journey  was  the  institution  of  the  art  of 
+singing  by  notes,  of  the  order  of  psalmody,  and 
+of  the  Church  Service,  according  to  the  practice 
+of  the  Apostolic  See.f  For  our  considerate 
+
+
+*  Concerning-  the  date  of  this  journey  writers  disagree.  Some 
+place  it  in  the  year  676,  but  Bede  in  his  Eccl.  Hist.  Book  IV.  18, 
+expressly  mentions  that  Benedict,  on  this  occasion,  was  honour- 
+ably received  by  Agatho,  who  was  not  raised  to  the  Pontificate 
+till  678. 
+
+t  Concerning  the  introduction  of  Church  Service,  Bede,  in  the 
+fourth  Book,  p.  18,  of  his  Eccl.  Hist,  says,  "that  Abbot  John 
+taught  the  monks  the  proper  mode  of  singing  and  reading,  and 
+also  of  writing  what  was  to  be  observed  in  the  celebration  of 
+festivals  during-  the  whole  course  of  the  year.  His  instructions 
+were  transcribed  by  many  persons,  who  kept  copies  of  them  in 
+other  places  ;  for  he  not  only  taught  the  monks  of  this  monastery, 
+but  also  those  of  almost  all  the  monasteries  of  the  country,  who 
+either  came  to  hear  him  or  invited  him  to  go  to  them  for  that 
+purpose. 
+
+
+57 
+
+founder,  anxious  to  have  his  rising  community 
+well  grounded  in  all  the  rites  of  solemn  worship, 
+had  solicited  and  obtained  Agatho's  permission 
+to  bring  over  to  Britain  John,  Abbot  of  St. 
+Martin's  and  Precentor  of  St.  Peter's,  at  Rome. 
+Accordingly  the  good  Abbot  now  came,  and 
+most  diligently  performed  the  task  to  which  he 
+was  invited  ;  communicating  to  such  of  the 
+monks  as  applied  to  ecclesiastical  learning* 
+whatever  he  himself  had  acquired  at  Rome  re- 
+specting the  above-named  particulars,  not  only 
+by  verbal,  but  also  by  written  instructions.  For 
+he  committed  to  paper  and  left  in  manuscript 
+no  small  portion  of  his  knowledge  :  a  benefac- 
+
+
+*  In  some  monasteries  the  monks  were  very  numerous.  At  Win- 
+chelcomb  [or  Winchcamb]  they  amounted  to  three  hundred  (Monas. 
+Ang.  torn.  i.  p.  190) ;  at  Wearmouth  and  Jarrow,  as  will  be  noticed  in 
+the  sequel,  to  six  hundred  ;  and  in  the  houses  established  by  St. 
+Wilfrid  to  some  thousands.  It  were,  however,  inaccurate  to  sup- 
+pose that  all  these  were  withdrawn  from  the  occupations  of  social 
+life  to  attend  solely  to  pious  exercises.  In  the  most  popular  mon- 
+asteries a  very  small  proportion  of  the  members  were  permitted 
+to  study  the  sciences,  or  to  aspire  to  holy  orders,  the  greater  part 
+(five-sixths  according-  to  the  monk  of  Winchelcomb)  were  em- 
+ployed in  the  daily  occupations  of  husbandry  and  the  mechanic 
+arts,  in  which  they  acquired  a  much  greater  proficiency  than  any 
+of  their  contemporaries.  "  In  illo  mag-no  religiosorum  numero, 
+vix  fortassis  quadraginta  ant  circiter  in  sacerdotes  aut  clericos 
+ordinari  cerneres  :  reliqua  vero  multitude  heremitarum  et  laicorum 
+more,  diversis  artificiis,  et  aliis  manuum  laboribus  operam  dantes, 
+pro  his,  quae  in  necessariis  defuerunt,  prout  ab  antique  boni  fecere 
+monachi,  diligenter  prospiciebant."  Reg.  Winchel.  in  Monas. 
+Ang.  torn.  i.  p.  190. — Ling.  Notes  to  Ang.-Sax,  Chur, 
+
+
+58 
+
+tion  which  is  to  this  day  preserved  in  our  Library 
+as  a  memorial.  The  fourth  acquisition  convey- 
+ed on  this  occasion  was  a  deed  of  immunity  con- 
+ceded by  Agatho,  in  virtue  of  which  the  mon- 
+astery was  declared  exempt  from  all  external 
+interference,  usurpation,  and  oppression.  This 
+important  deed*  was  procured  from  the  reigning 
+Pontiff,  with  the  advice  and  consent,  and  even 
+at  the  express  orders  of  King  Egfrid.  The 
+fifth  and  last  of  Benedict's  present  supplies  was 
+an  extensive  and  valuable  assortment  of  holy 
+pictures  composed  of  the  following  pieces  : — A 
+representation  of  the  Blessed  Mary,  Mother  of 
+God,f  and  ever  virgin,  to  which  were  added 
+portraits  of  the  twelve  Apostles.  With  thesej 
+Benedict  adorns  the  main  roof  of  St.  Peter's 
+Church.  On  the  southern  wall  he  unfolds  to 
+view  a  series  of  historical  paintings  selected 
+
+
+*  This  charter  of  privilege  is  mentioned  likewise  in  Bede's 
+Ecclesiastical  History,  but  is  not,  it  is  believed,  now  extant. 
+Gervase  of  Canterbury  says  of  Benedict,  "that  returning-  to 
+Rome,  he  rendered  his  monastery  absolute  and  free  from  all  epis- 
+copal subjection.  Liberum  reddidit  et  absolutum  ab  omni  Episco- 
+pali  subjectione." 
+
+f  This  mode  of  expression  was  adopted  to  denote  and  profess 
+the  divinity  of  Christ,  of  whom  the  Virgin  Mary  was  mother. 
+
+J  The  text  has  in  this  place,  "ducto  a  pariete  ad  parietem  tab- 
+ulate," which  would  seem  to  imply  that  the  pictures  were  affixed 
+to  a  frame  of  wood  that  extended  from  wall  to  wall  across  the 
+church, 
+
+
+59 
+
+from  the  four  Gospels,  while  on  the  northern 
+he  displays  the  terrific  visions  described  by  St. 
+John  in  the  book  of  Revelation.  By  this 
+united  and  magnificent  exhibition  of  so  many 
+religious  subjects,  the  whole  interior  of  the 
+sacred  edifice  presents  to  the  eye  one  continued 
+scene  of  pious  instruction,  accommodated  to  the 
+capacities  of  all  who  enter,  even  of  the  humble 
+and  unlettered  multitude.  For  in  whatever  di- 
+rection they  turn  their  sight  it  is  instantly  struck 
+with  the  resemblance,  either  of  the  amiable 
+countenance  of  Jesus  or  of  some  of  His  chosen 
+friends.  Here  the  heart  of  the  spectator  learns 
+to  melt  with  gratitude  at  the  gracious  mystery 
+of  human  redemption  ;  there  his  soul  is  sum- 
+moned to  take  a  strict  survey  of  his  mode  of 
+life,  having  before  his  eyes  in  the  awful  spec- 
+tacle of  the  last  day,  the  rigorous  scrutiny  of 
+divine  justice. 
+
+So  highly  was  King  Egfrid  charmed  with 
+these  numerous  instances  of  Benedict's  pious 
+zeal  and  religious  industry,  and  at  the  same 
+time  so  struck  with  the  advantages  conferred 
+
+o 
+
+on  his  dominions  by  the  appropriation  he  had 
+bestowed  for  the  erection  of  a  monastery  with- 
+in them,  that  he  resolved  to  augment  his  original 
+grant  with  a  fresh  donation  of  forty  hides  of 
+ground.  This  addition  was  accordingly  made. 
+
+
+6o 
+
+The  year  following,  seventeen  monks,  with  the 
+holy  priest  Ceolfrid  at  their  head,  were  trans- 
+ferred from  the  congregation  at  Wearmouth  to 
+the  new  possession,  on  which  a  suitable  convent* 
+had  been  raised  for  their  reception  under  the 
+tutelary  patronage  of  the  great  Apostle  St.  Paul. 
+
+In  forming  this  new  establishment,  Benedict 
+complied,  not  so  properly  with  the  advice  as 
+with  the  commands  of  Egfrid,  his  royal  patron. 
+
+
+*  This  monastery  was  built  at  Girwy,  or  Girvy,  now  Jarrow,  on 
+the  summit  of  an  elevated  ridgre  about  half  a  mile  south  of  the 
+River  Tyne,  and  two  miles  from  South  Shields.  Benedict  began 
+in  682,  and  Ceolfrid  completed  in  684,  its  foundation.  This  is  as- 
+certained by  an  ancient  inscription  which  was  formerly  on  the 
+church  wall,  and  is  given  by  Dugdale  in  his  evidences  of  the  two 
+monasteries.  According  to  him  it  stood  thus  : — 
+
+"Dedicatio  Ecclesiae  S.  Pauli  VIII  Kalend.  Mali  anno  XV. 
+Egfridi  Regis,  Ceolfridi  Abbatis  ejusdem  Ecclesiae  Deo  auctore 
+conditoris  anno  iv." 
+
+But  Dr.  Pegge,  who  engraved  it  in  his  Sylloge  of  the  remain- 
+ing authentic  descriptions  relative  to  the  erection  of  our  English 
+churches,  gives  the  following  as  a  more  correct  transcript,  having 
+an  erasure  between  the  third  and  fourth  lines  : — 
+
+>|<     Dedicatio  Basilikae 
+Sei  Pauli  VIIII  kl  Mai 
+
+Anno  XV  Egfridi  Regis 
+
+*         *         *         *         * 
+
+Ceolcfridi  abb  ejusdem 
+Q  eccles.  Do  auctore 
+Conditorie  Anno  IV. 
+
+[This  inscription  is  interpreted  on  the  next  page.] 
+
+
+6i 
+
+And  that  a  separate  settlement*  might  give  rise 
+to  no  jealousy  or  disquiet,  but  that  an  uninter- 
+rupted peace  and  familiar  intercourse  might  ever 
+flourish  between  the  two  houses,  he  carefully 
+bound  them  together  by  the  closest  ties  of  friend- 
+ship and  mutual  dependence.  Such  indeed  was 
+the  intimate  connection  he  established  between 
+them,  that  in  their  union  they  resembled  the  in- 
+disoluble  compactness  of  the  human  frame.  As 
+in  this  the  body  cannot  bear  to  be  severed  from 
+the  head  through  which  it  breaths,  nor  the  head 
+neglect  the  body  without  which  it  cannot  itself 
+subsist,  so  these  two  monasteries  dedicated  to 
+the  two  chief  Apostles,  were  in  such  a  manner 
+
+
+The  dedication  of  the  church 
+
+Of  St.  Paul,  on  the  9th  of  the  Calends  of  May, 
+
+In  the  fifteenth  year  of  King1  Egfrid, 
+
+In  the  fourth  year  of  Ceolfrid, 
+By  the  help  of  God,  founder  and 
+Abbot  of  the  same  church. 
+
+The  initial  character  x|<  perhaps  stands  for  Propitietur  Christus 
+— may  Christ  be  propitious.  In  1783  the  church  of  Jarrow  was 
+rebuilt,  when  this  inscription  was  re-inserted  on  the  Northern 
+wall.  Vide  Hutchinson's  Hist.  Durham. 
+
+Leland,  Collect.  Ed.  1715,  vol.  I.  p.  102,  ascribes  the  foundation 
+of  Jarrow  entirely  to  Ceolfrid. 
+
+*  From  being-  so  singularly  connected   in   their  early  history, 
+these  two  monasteries  are  often  mentioned  by  writers  in  the  sing- 
+ular number,  under  the  title  of  the  monastery  of  St.  Peter  and 
+St.  Paul. 
+F 
+
+
+62 
+
+cemented  into  one,  that  all  opportunity  was  pre- 
+cluded of  severing  them  from  each  other,  or 
+disturbing  their  amicable  conjunction. 
+
+Ceolfrid,  who,  as  before  remarked,  was  ap- 
+pointed by  Benedict  to  direct  the  junior  com- 
+munity from  the  earliest  institution  of  the  senior 
+convent,  had  been  the  individual  companion  and 
+active  partaker  of  all  his  labours.  On  one  oc- 
+casion Ceolfrid  had  borne  him  company  to 
+Rome  to  satiate  the  longings  of  his  own  eager 
+devotion,  and  to  qualify  himself  in  the  degrees 
+of  learning  which  his  station  required.  About 
+the  time  of  Ceolfrid's  nomination  to  Jarrow, 
+Eosterwine,  Presbyter  of  St.  Peter's  monastery, 
+was  promoted  by  our  founder  to  the  dignity  of 
+Abbot,  and  associated  with  himself  in  the  charge 
+of  governing  the  community  at  Wearmouth. 
+This  he  did  that,  in  union  with  a  beloved  and 
+virtuous  fellow  labourer  he  might  be  enabled  to 
+support  a  burthen  which  overpowered,  whilst 
+alone,  his  utmost  strength.  Nor  let  the  reader 
+be  surprised  that  one  monastery  had  two  Abbots 
+at  the  same  time,  for  the  adoption  of  this  plan 
+became  indispensable  in  consequence  of  Bennet's 
+frequent  absence  from  home  to  transact  the  busi- 
+ness of  the  institution,  his  numerous  departures 
+across  the  ocean,  and  the  uncertainty  of  his  re- 
+turn. Neither  was  it  an  unprecedented  measure. 
+
+
+63 
+
+For  on  the  page  of  history  it  stands  recorded 
+that  the  holy  Apostle  Peter  united  to  himself  in 
+the  same  manner,  on  account  of  the  pressure  of 
+affairs,  two  episcopal  colleagues  and  coadjutors 
+in  carrying  on  the  administration  of  the  church. 
+And  further,  we  are  informed  by  St.  Gregory 
+that  Benedict  the  Great  appointed  over  his  dis- 
+ciples twelve  Abbots  at  once  ;  a  proceeding 
+which,  so  far  from  causing  any  diminution,  con- 
+tributed greatly  to  the  increase  of  charity 
+amongst  them. 
+
+In  pursuance  of  his  appointment  Eosterwine 
+immediately  assumed  the  government  of  St. 
+Peter's  Abbey,  in  the  ninth  year  after  its  found- 
+ation, and  continued  to  the  hour  of  his  death, 
+which  happened  four  years  after  his  election, 
+faithful  and  vigilant  in  the  discharge  of  his 
+stewardship. 
+
+This  amiable  man  was  born  of  noble  parent- 
+age, but  allowed  not  the  privilege  of  birth  to 
+infect  his  heart  with  the  ordinary  passions  of 
+the  great,  —  vanity,  ostentation,  pride,  and  a 
+spirit  of  disdain  for  inferiors.  On  the  contrary, 
+greatness  of  rank  as  becomes  a  servant  of  God, 
+tended  only  to  make  this  excellent  youth  the 
+more  ardently  aspire  to  real  and  solid  great- 
+ness of  soul.  Hence,  though  on  the  father's 
+
+
+64 
+
+side  he  had  the  honour  of  being  cousin-german 
+to  our  founder,  yet  such  was  the  dignity  of  their 
+sentiments,  and  such  the  mutual  contempt  in 
+which  they  both  held  all  worldly  dignity,  that 
+neither  the  one  on  his  entrance  ever  thought  of 
+claiming,  nor  the  other  on  his  reception  into  the 
+convent,  of  offering  the  slightest  token  of  dis- 
+tinction in  consideration  of  exalted  rank  or  prox- 
+imity of  kindred.  To  dwell  on  a  level  with  the 
+lowest,  and  to  emulate  the  highest  of  his  associ- 
+ates in  the  pursuit  of  virtue  and  the  strict 
+observance  of  religious  duties,  was  the  sole 
+ambition  which  now  fired  the  breast  of  the  noble 
+Eosterwine.  And  though,  to  the  obscurity  of  a 
+cloister  he  had  sacrificed  the  dazzling  honours 
+of  a  Court,*  though  for  the  humble  and  silent 
+virtues  of  spiritual  warfare  he  had  resigned  the 
+noisy  fame  of  the  world  and  the  splendour  of 
+military  renown,  yet  amidst  his  secluded  com- 
+panions such  was  his  unassuming  modesty,  that 
+he  would  often  cheerfully  join  them  in  perform- 
+ing the  most  menial  offices.  To  winnow  and 
+thrash  the  corn,  to  work  in  the  garden,  bake- 
+house, or  kitchen,  or  to  assist  in  any  other 
+humble  and  laborious  department,  was  his  de- 
+light, as  it  afforded  an  occasion  of  exercising 
+himself  in  the  habits  of  industry,  patience,  and 
+obedience. 
+
+*  King  Oswy's. 
+
+
+65 
+
+Nor  did  his  promotion  to  the  Abbacy  create 
+any  change  in  his  manners  or  dispositions.  In 
+power  he  was  the  same  modest  and  condescend- 
+ing individual  he  had  ever  been,  in  a  subordin- 
+ate station;  observing  to  the  letter  the  following 
+maxim  of  wisdom  prescribed  in  the  book  of 
+Ecclesiasticus,  "Have  they  made  thee  ruler? 
+Be  not  puffed  up,  but  be  amidst  thy  people  as 
+one  of  them,  mild,  affable,  and  courteous  alike 
+to  all."  Yet  he  would  have  recourse  to  correc- 
+tion, if  at  any  time  necessary,  for  the  preserva- 
+tion of  good  order.  But  his  chief  resource  on 
+such  occasions  was  expostulation  and  entreaty. 
+And  these  he  delivered  with  such  an  habitual 
+tenderness  and  natural  affection  as  impressed  on 
+all  who  heard  a  reluctance  to  do  wrong,  and 
+darken  with  clouds  of  uneasiness  at  their  mis- 
+conduct, that  serene  brightness  of  tranquility 
+which  beamed  upon  his  countenance. 
+
+Oftentimes  walking  out  to  manage  the  affairs 
+of  the  house,  he  would  join  the  brethren  where- 
+ever  he  found  them  at  work,  and  either  guide 
+the  plough,  beat  iron  with  a  mallet,  turn  the 
+winnowing-van,  or  assist  in  any  other  hard 
+labour ;  for  his  constitution  was  robust,  his  dis- 
+course engaging,  his  aspect  agreeable,  his  mind 
+cheerful,  and  his  hand  bountiful.  Though  Ab- 
+bot, he  ever  contented  himself  with  the  ordinary 
+
+
+66 
+
+fare  of  the  monastery,  always  took  his  meals  with 
+the  monks,  and  continued  to  lodge  in  the  same 
+narrow  cell  in  which  he  slept  previous  to  his 
+promotion.  Even  after  evident  symptoms  an- 
+nounced his  dissolution  to  approach,  he  remained 
+two  days  in  the  public  dormitory,  and  only  for 
+the  last  five  of  his  life  permitted  himself  to  be 
+removed  to  a  more  commodious  and  retired 
+apartment.  From  this  he  one  day  came  forth, 
+and  placed  in  the  open  air,  desired  that  all  the 
+congregation  might  assemble  around  him.  When 
+collected  he  gave  them  his  last  farewell,  and  with 
+that  affectionate  sensibility  which  nature  had 
+planted  and  grace  brought  to  maturity  in  his 
+heart,  he  imparted  to  each  the  kiss  of  peace 
+amidst  loud  and  general  sobs  and  cries,  at  the 
+loss  of  so  loving  a  father  and  so  worthy  a  pastor. 
+
+He  expired  whilst  the  monks  were  chaunting 
+lauds  soon  after  midnight  on  the  7th*  of  March. f 
+He  was  admitted  into  the  monastery  at  the  age 
+of  twenty-four,  where  he  abode  twelve  years  ; 
+during  seven  he  enjoyed  the  rank  of  priest  ; 
+and  to  this  for  the  last  four  of  his  life  was  added 
+the  dignity  of  Abbot.  He  closed  his  mortal 
+career,  and  putting  off  this  frail  and  corruptible 
+body,  ascended  to  the  regions  of  incorruptible 
+bliss. 
+
+[*  Giles  says  gth. — ED.  present  Edition.}       f  Obiit  anno  685. 
+
+
+67 
+
+Having  now  given  a  compendium  of  the  life 
+of  this  venerable  man,  we  will  return  to  our 
+principal  narrative. 
+
+Soon  after  the  appointment  of  Eosterwine  to 
+the  Abbacy  of  St.  Peter,  and  of  Ceolfrid  to 
+the  direction  of  St.  Paul,  Benedict  had  under- 
+taken, and  with  his  wonted  prosperity  accom- 
+plished his  sixth  and  last  journey  to  the  City  of 
+Rome.  Thence  he  now  returned  laden  as  form- 
+erly with  a  store  of  ecclesiastical  treasures. 
+These,  as  usual,  consisted  of  a  bountiful  pro- 
+vision of  sacred  writings  and  an  elegant  collec- 
+tion of  holy  pictures.  For  he  brought  home  on 
+this  occasion  the  life  of  our  Lord  Jesus  Christ 
+described  in  one  series  of  paintings,  with  which 
+he  beautified  the  whole  interior  of  the  church 
+annexed  to  the  greater  monastery,  in  honour  of 
+the  virgin  Mother  of  God.  For  the  decoration 
+also  of  St.  Paul's  church  and  abbey  he  had  pro- 
+cured another  set  in  which,  upon  an  admirable 
+system,  was  displayed  the  concordance  between 
+the  Old  and  New  Testaments.  Of  this  to  give 
+an  instance  :  Isaac  carrying  the  wood  whereon 
+he  was  ordered  to  be  immolated,  and  Jesus  bear- 
+ing the  cross  on  which  he  died  a  sacrifice  for  our 
+sins,  are  drawn  in  one  piece  and  exhibited  as 
+corresponding  subjects  ;  in  a  second  are  paired 
+together  the  Son  of  Man  hanging  on  the  cross, 
+
+
+68 
+
+
+and  the  brazen  serpent  raised  by  Moses  in  the 
+desert. 
+
+Among  a  great  variety  of  other  valuable  ac- 
+quisitions, Benedict  this  time  imported  two 
+cloaks  woven  entirely  of  silk  and  most  admir- 
+ably wrought.  In  exchange  for  these  he  ob- 
+tained of  King  Alfrid  and  his  Council  (for  Egfrid 
+during  his  absence  had  been  slain),  three  hides 
+of  land  near  the  mouth  and  on  the  south  bank 
+of  the  River  Wear. 
+
+But  the  joy  which  the  success  of  this  last  jour- 
+ney diffused,  received  a  powerful  check  from  the 
+melancholy  disasters  which  had  occurred  at 
+home  whilst  our  founder  was  prosecuting  his 
+pious  labours  abroad.  For  at  his  return  he 
+found  Eosterwine,  his  shepherd,  dead,  and  his 
+flock  severely  thinned  by  the  ravages  of  pestil- 
+ence. His  grief,  however,  at  these  heavy  cal- 
+amities was  considerably  abated  on  learning  the 
+judicious  choice  made  by  the  surviving  brethren, 
+with  the  concurrence  of  his  co-Abbot  Ceolfrid, 
+of  a  successor  to  the  deceased  Eosterwine.  For 
+in  his  place  they  had  elected  a  member  of  the 
+same  community  who  possessed  the  same  an- 
+gelic meekness  of  temper,  and  bore  amongst  his 
+brethren  the  same  high  respectability  of  charac- 
+ter. This  was  the  deacon  Sigfrid,  a  man  suf- 
+
+
+69 
+
+
+iciently  versed  in  Scriptural  knowledge,  of 
+excellent  morals,  and  of  admirable  temperance, 
+but  permitted  by  Providence,  for  the  preserva- 
+tion of  the  virtues  and  innocence  which  graced 
+his  soul,  to  labour  under  many  infirmities  of  the 
+body,  and  enfeebled  by  an  incurable  disorder  of 
+the  lungs. 
+
+Nor  was  it  long  before  our  venerable  founder 
+began  to  feel  the  oppressive  hand  of  distemper. 
+For  it  pleased  the  Lord  to  put  the  eminent  piety 
+of  these  two  holy  men  to  trial  by  suffering  them 
+both  to  be  cast  upon  the  bed  of  sickness,  for 
+the  beneficent  purpose  of  crowning  their  fidelity 
+with  the  additional  lustre  of  a  virtuous  resig- 
+nation to  his  appointments,  and  of  raising  them, 
+as  soon  as  their  lingering  afflictions  were  re- 
+moved by  death  from  this  land  of  pain  and 
+misery,  to  an  eternal  refreshment  in  the  light 
+and  peace  of  His  heavenly  glory. 
+
+Before  he  was  admitted  into  this  happiness 
+Sigfrid,  as  we  have  already  observed,  endured 
+a  slow  martyrdom  from  the  perpetual  gnawings 
+of  the  direful  disease  which  preyed  upon  his 
+lungs  and  intestines.  Nor  were  Bennet's  suf- 
+ferings less  grievous.  For  the  last  three  years 
+of  his  life  were  passed  under  the  pressure  of 
+continual  sickness.  To  such  a  degree  were  his 
+
+
+70 
+
+lower  limbs  paralysed  that  he  died  below  whilst 
+he  lived  above  ;  the  portion  of  animation  left 
+him  being  barely  sufficient  to  protract  a  sorrow- 
+ful existence,  and  ennoble  the  heroic  fortitude 
+and  pious  resignation  with  which  he  supported 
+his  afflictions. 
+
+For  under  their  accumulated  woes  these  two 
+favourites  of  heaven  ceased  not  to  pour  forth 
+their  souls  in  the  devoutest  acts  of  thanksgiving 
+to  the  Lord.  The  divine  praise,  or  the  exhort- 
+ations of  their  brethren,  were  the  sole  and  con- 
+tinual objects  of  their  thoughts.  Benedict 
+especially  was  attentive  whenever  the  monks, 
+whose  visits  were  very  frequent  approached 
+him,  to  press  them  with  all  his  eloquence  to  a 
+constant  and  scrupulous  observance  of  their 
+rules.  "Think  not,  my  beloved  children,"  he 
+would  often  say,  "  that  the  constitutions  which 
+I  have  delivered  you  are  the  offspring  of  my 
+own  untutored  invention.  No,  they  are  fruits 
+which  have  been  gathered  in  my  remote  and 
+numerous  peregrinations,  with  unceasing  re- 
+search and  indefatigable  diligence.  For  you  I 
+culled  with  unwearied  hands  every  excellence 
+that  presented  itself  to  the  eye  of  my  eager 
+scrutiny,  through  no  less  than  seventeen  cele- 
+brated monasteries.  To  you  I  have  committed, 
+and  to  your  pious  and  perpetual  observance 
+
+
+with  my  dying  breath,  I  recommend  the  whole 
+result  of  my  past  labours  and  enquiries." 
+
+He  would  then  warmly  conjure  them  to  pre- 
+serve for  ever  entire  the  extensive  and  magni- 
+ficent library,  which  at  various  periods  he  had 
+imported,  and  which  was  so  essentially  neces- 
+sary to  their  due  instruction,  warning  them  on 
+no  account  to  permit  the  precious  volumes  to  be 
+squandered  or  even  soiled  through  neglect  and 
+carelessness.  But  above  all,  he  implored  them 
+in  their  elections  of  Abbots  to  despise  the  vain 
+distinctions  of  rank  and  wealth,  and  to  regard  in 
+their  choice  virtue  alone  and  real  merit.  "  Be- 
+lieve me,"  he  added,  "of  the  two  evils,  should 
+it  ever  please  God  to  permit  either,  I  would 
+rather  see  this  very  spot  on  which  our  convent 
+stands  become,  and  for  ever  remain,  a  dreary 
+unfrequented  wild,  than  that  my  brother  ac- 
+cording to  the  flesh,  who  we  know  walketh 
+not  in  the  ways  of  godliness,  should  at  my  death 
+succeed  to  the  office  of  Abbot.  Wherefore,  in 
+your  nomination  of  a  future  father,  neither  let 
+your  suffrages  be  influenced  by  authority  and 
+affection,  nor  seek  your  shepherd  from  abroad  ; 
+but  select  from  the  midst  of  your  own  flock  ac- 
+cording to  the  rule  of  Benedict  the  Great  and 
+the  privileges  of  your  charter,  whomsoever  you 
+shall  with  common  agreement  judge  the  best 
+
+
+72 
+
+qualified  and  most  worthy  by  virtue  and  learn- 
+ing to  preside  over  you.  And  though  the  object 
+of  your  choice,  after  holding  an  unanimous  and 
+charitable  inquisition,  prove  to  be  the  youngest 
+and  most  ignoble  brother  in  the  monastery,  let 
+the  Bishop  be  invited  to  ratify  the  appointment 
+and  confirm  your  elect  in  office,  by  imparting  to 
+him  the  accustomed  Benediction.  For  (he  con- 
+cluded), as  they  who  propagate  by  carnal  gene- 
+ration a  line  of  earthly  successors,  are  governed 
+in  their  discrimination  of  inheritors  solely  by 
+earthly  and  carnal  views,  so  they  who,  by  the 
+spiritual  regeneration  of  the  divine  word  raise 
+up  children  to  God,  should  be  actuated  in  their 
+proceedings  purely  by  divine  and  spiritual  mo- 
+tives. Wherefore,  it  is  their  duty  to  confer  on 
+such  of  their  spiritual  offspring  as  possess  the 
+largest  portion  of  the  Spirit  their  chief  confi- 
+dence and  estimation,  in  the  same  manner 
+worldly  parents  confer  on  their  first  begotten 
+the  principal  honours  and  inheritance  of  their 
+families." 
+
+Neither  ought  we  to  pass  over  in  silence  the 
+religious  expedient  devised  by  our  afflicted 
+Abbot  to  relieve,  during  the  progress  of  his 
+severe  distemper,  the  tediousness  of  his  long 
+and  sleepless  nights.  For  that  his  soul  might 
+rise,  unsubdued  by  earthly  pains  and  sorrows 
+
+
+73 
+
+to  heavenly  desires  and  contemplations,  he  took 
+refuge  in  the  consolations  of  the  divine  word. 
+With  this  pious  view  he  ordinarily  engaged 
+some  of  the  brethren,  as  he  was  now  unable  to 
+read  himself,  to  spend  the  night  with  him  in 
+reading  aloud  either  the  edifying  narrative  of 
+the  sufferings  and  patience  of  Job,  or  some 
+other  select  and  appropriate  passage  of  the 
+Scripture.  When,  too,  his  feeble  limbs  could 
+no  longer  bear  him  to  the  choir  to  assist  at  the 
+usual  exercises  of  devotion,  and  his  tongue  and 
+voice  denied  their  office  in  singing  the  appoint- 
+ed courses  of  psalmody,  he  invited  to  his  apart- 
+ment at  every  canonical*  hour  of  day  and  night, 
+
+
+*  The  canonical  service  here  intimated  is  the  course  of  office 
+prescribed  in  the  Breviary.  Of  this  compilation  the  principal  part 
+is  selected  from  the  Psalms  of  David  and  the  writings  of  the  pro- 
+phets. To  relieve  the  fatigue  of  uniformity  a  competent  number 
+of  lessons  are  added  from  the  other  books  of  the  holy  Scriptures, 
+the  works  of  the  ancient  fathers  and  the  acts  of  the  most  cele- 
+brated martyrs.  The  different  portions  of  it  are  terminated  by 
+prayers  of  noble  and  affecting-  simplicity. 
+
+In  monasteries  a  considerable  share  of  the  night,  as  well  as  of 
+the  day,  was  devoted  to  the  singing  of  this  course.  It  was 
+divided  into  seven  parts  or  hours,  called  matins  and  lauds,  prime, 
+terce,  sext,  none,  vespers,  and  compline  ;  by  the  Saxons,  uht  or 
+morning-song,  prime-song,  under-song,  midday-song,  none-song, 
+even-song,  and  night-song.  Matins,  or  morning-song,  was  begun 
+immediately  after  midnight,  and  the  other  parts  at  the  hours  their 
+respective  names  imply.  At  each  of  these  the  clergy  were  sum- 
+moned to  the  church  to  sing,  in  imitation  of  the  royal  prophet, 
+the  praises  of  the  Creator.  The  layman  was  exhorted,  but  the 
+
+
+74 
+
+some  of  his  religious  associates.  These  he  di- 
+vided into  two  choirs,  and  as  far  as  his  imperfect 
+power  of  utterance  would  allow,  accompanied 
+them  himself  whilst  in  alternate  versicles  they 
+sung  the  Psalms.  Thus,  with  an  ingenuity  and 
+vigour  which  nothing  but  invincible  fervour  of 
+spirit  could  have  inspired,  did  this  model  of 
+suffering  piety  compensate,  by  employing  the 
+charitable  aid  of  others,  for  every  deficiency 
+caused  by  languor  of  body  in  himself. 
+
+The  two  infirm  Abbots  were  now  reduced  to 
+extremity,  and,  by  the  continual  and  excessive 
+decays  of  protracted  illness,  completely  ex- 
+hausted. They  felt  and  saw  themselves  placed 
+on  the  brink  of  the  grave,  and  destitute  of  all 
+hope  of  ever  again  being  competent  to  conduct 
+the  management  of  affairs.  Under  these  cir- 
+cumstances a  mutual  desire  one  day  seized  them 
+of  holding  an  interview,  for  the  purpose  of  once 
+more  conversing  with  each  other  before  they 
+were  taken  from  this  world  for  ever.  To  effect 
+
+
+ecclesiastic  was  commanded,  to  assist.  Of  this  difference  the 
+reason  is  obvious.  The  clergy  had  been  liberated  from  all  secular 
+employments  that  they  might  attend,  with  fewer  impediments,  to 
+their  spiritual  functions  ;  it  was  therefore  expected  that  by  their 
+assiduity  they  would  compensate  for  the  deficiencies  of  their  less 
+fervent  brethren,  and  by  their  daily  supplications  avert  the  anger, 
+and  call  down  the  blessings  of  the  Almighty. — Wilk.  pp.  97,  252, 
+and  Ling.  Ang.-Sax.  Ch.,  p.  198. 
+
+
+75 
+
+this  Sigfrid  was  carried  on  a  bier  from  his  own 
+to  Benedict's  apartment.  Here  by  the  aid  of 
+attendants  he  was  laid  on  the  same  bed,  so  that 
+both  their  heads  reclined  on  one  pillow.  But, 
+for  the  manifestation  of  the  power  of  Christ  in 
+restoring  his  servants,  such  was  their  present 
+state  of  debility,  that  though  now  placed  in  con- 
+tact they  were  unable,  with  every  effort  their 
+remains  of  strength  could  make,  to  impart  to 
+one  another  the  last  kiss  of  peace.  Melancholy 
+indeed  was  this  spectacle,  and  drew  floods  of 
+tears  from  the  surrounding  brethren,  who,  rais- 
+ing their  shattered  frames,  enabled  them  to  per- 
+form that  last  office  of  charity. 
+
+This  done,  Benedict,  in  conjunction  with  Sig- 
+frid and  all  the  congregation,  who  are  for  that 
+purpose  immediately  convened,  opens  a  council 
+to  deliberate  on  the  means  of  providing  for  the 
+future  welfare  of  the  institution.  With  the  ad- 
+vice and  concurrence  of  all  present  he  calls  for 
+Ceolfrid,  whom  he  had  formerly  appointed  to 
+the  Abbacy  of  St.  Paul,  a  man  ever  most  dear 
+to  him,  not  so  much  for  their  alliance  in  blood 
+as  for  their  union  and  similarity  in  virtue.  Him 
+he  constituted  Abbot  over  both  houses  and  com- 
+munities, with  the  unanimous  consent  and  ap- 
+plause of  the  assembly,  and  with  a  decided 
+conviction  on  his  part  that  the  peace,  unity,  and 
+
+
+76 
+
+concord  of  the  society  would  flourish  most  under 
+one  ruler  and  pastor.  In  proof  of  this  he  would 
+repeatedly  instance  the  kingdom  of  Israel,  ever 
+uninvaded  and  invincible  to  foreign  nations 
+whilst  united  under  the  banners  of  one  of  its 
+native  generals,  but  no  sooner  disunited,  in  pun- 
+ishment for  the  sins  of  its  inhabitants  by  domes- 
+tic broils  and  rival  contests,  than  it  was  shaken 
+to  its  foundation  and  speedily  fell  down  in  ruins. 
+To  this  also  he  would  often  add  the  known 
+warning  given  in  the  text  of  the  Gospel,  "Every 
+kingdom  divided  against  itself  shall  be  made 
+desolate."* 
+
+From  the  period  of  enacting  the  above  salut- 
+ary regulation,  scarce  had  two  months  revolved 
+their  course  when  Sigfrid,  having  now  passed 
+the  ordeal  of  temporal  affliction  and  patiently 
+struggled  through  the  bitter  waves  of  many  trib- 
+ulations, was  translated  to  the  mansions  of  eternal 
+rest.  His  happy  spirit  entered  the  house  of  the 
+Lord,  paying  Him  the  vows  which  his  undefiled 
+lips  had  assiduously  pronounced  in  burnt  offer- 
+ings of  perennial  thanksgiving  and  praise. 
+
+Nor  did  Benedict,  the  intrepid  foe  to  vice  and 
+strenuous  patron  of  virtue,  long  survive  the  de- 
+parture of  his  lamented  friend  ;  for  within  four 
+
+*  Matth.  xii.  25. 
+
+
+77 
+
+months    afterwards    he    too    closed    his    godly 
+career. 
+
+The  night  destined  for  his  exit  rushed  on 
+with  rude  and  wintry  blast,  speedily  to  be  trans- 
+formed into  the  serene  effulgence  of  an  eternal 
+day,  in  which  unbounded  felicity  and  inexting- 
+uishable splendour  shall  ever  reign.  The*  monks 
+throng  into  the  church  ;  sleep  is  banished  from 
+every  eye;  and  the  solemn  darkness  of  the  night 
+is  passed  in  watching,  psalmody,  and  prayer. 
+For  as  every  heart  is  torn  with  grief  at  the  near 
+prospect  of  for  ever  losing  so  excellent  a  father, 
+all  are  eager  in  striving  to  mitigate  the  inward 
+anguish  of  their  souls  by  raising  their  afflicted 
+thoughts  to  Heaven  in  canticles  of  praise. 
+Many  crowd  into  the  cell  where  the  dying  saint 
+is  laid,  languid  and  emaciated  in  body  but  vig- 
+orous and  robust  in  soul,  viewing  with  unshaken 
+intrepidity  the  uplifted  arm  of  death,  in  humble 
+expectation  of  a  new  and  better  life. 
+
+For  his  consolation  in  this  hour  of  trial  the 
+Gospel  is  read  aloud  by  one  of  the  priests,  as 
+had  been  done  on  previous  nights.  When  his 
+end  approaches  he  receives  the  Viaticum  of  the 
+sacred  body  and  blood  of  Our  Lord.  Soon 
+after  this  consoling  act  of  religion  his  happy 
+soul,  purified  from  all  earthly  dross  by  the  chast- 
+
+
+78 
+
+ening  flames  of  long  and  profitable  sufferings, 
+quits  the  confinement  of  this  mortal  frame  of 
+clay,  and  securely  wings  its  flight  to  the  ethereal 
+realms  of  endless  peace  and  immortality. 
+
+That  no  foul  sprite  or  infernal  foe  could  stop 
+or  retard  it  in  its  way,  the  spiritual  song  which 
+the  brethren  were  chaunting  at  the  moment  of 
+its  exit  from  the  body,  was  a  consoling  presage. 
+For  at  the  commencement  of  night  they  began 
+the  psalter,  and  continuing  to  sing  the  Psalms 
+in  regular  succession,  had  reached  and  were  in- 
+toning the  eighty-second  when  this  blessed  spirit 
+took  its  flight.  Now  of  this  Psalm  the  first 
+words  are,  "O  God,  who  is  like  unto  Thee?" 
+and  the  whole  tenour  of  it  implies  that  the  ene- 
+mies of  the  name  of  Christ,  whether  spiritual 
+or  incarnate,  are  ever  alike  busily  employed  in 
+plotting  to  subvert  His  church  or  to  supplant 
+His  faithful  servants.  But  that  agaist  His 
+spouse  and  elect  their  malignant  efforts  will 
+prove  vain,  whilst  on  themselves  they  shall  be 
+retorted  in  everlasting  woe,  confusion,  and  dis- 
+appointment. For  their  might  will  be  enerva- 
+ted by  the  Lord,  to  Whom  none  is  equal  or 
+similar,  and  Who  alone  rules  supreme  over  the 
+wide  extended  universe.  Wherefore  we  may 
+piously  conclude,  that  the  singing  of  this  Psalm 
+at  the  precise  moment  a  pure  spirit  ascended 
+
+
+79 
+
+from  the  earth,  over  which  Satan  and  his  con- 
+federate fiends  had  no  power,  was  a  coincidence 
+of  events  permitted  by  divine  appointment. 
+
+It  was  in  the  sixteenth  year  after  the  founda- 
+tion of  the  monastery,  and  on  the  twelfth*  day 
+of  January,  that  our  glorious  founder  rested  in 
+the  Lord.  He  was  interred  in  the  church  which 
+had  been  dedicated  by  himself  to  St.  Peter,  so 
+that  after  death  his  corpse  reposed  near  the 
+altar  and  relics  of  that  holy  Apostle  whom  with 
+such  pious  affection  and  veneration  he  had  ever 
+loved  during  life,  and  by  whom  he  was  admitted 
+into  the  gates  of  the  Kingdom  of  Heaven.  He 
+governed  his  monastery,  as  we  have  already 
+stated,  sixteen  years  :  eight  in  person,  without 
+the  help  of  any  coadjutors,  and  the  same  num- 
+ber chiefly  by  proxy.  For  the  venerable  men, 
+Eosterwine,  Sigfrid,  and  Ceolfrid,  each  in  their 
+turns  held  under  him  the  title,  and  exercised  the 
+authority  and  functions  of  Abbots.  The  first- 
+named  four,  the  second  three,  and  the  last  one 
+year. 
+
+This  last  (Ceolfrid)  was  himself  a  man  of 
+most  extraordinary  diligence  and  superior  quick- 
+ness of  apprehension  ;  prompt  in  carrying  into 
+effect  but  prudent  in  forming  designs,  and  un- 
+
+[*  Giles  says  i4th.—  ED.  present  Edition.} 
+
+
+8o 
+
+rivalled  in  piety.  It  was  he,  as  before  men- 
+tioned, who  by  the  orders  and  with  the  concur- 
+rence of  Benedict,  superintended  and  completed 
+the  foundation,  and  for  seven  years  directed  the 
+government  of  St.  Paul's  Abbey  at  Jarrow. 
+The  same  venerable  man  with  consummate 
+wisdom  afterwards  presided  eight  and  twenty 
+years  over  both  the  Abbeys,  or  what  may  be 
+more  properly  be  termed  one  Abbey  dedicated 
+to  the  two  chief  Apostles,  and  built  upon  two 
+sites. 
+
+During  this  long  administration  Ceolfrid 
+brought  to  a  happy  conclusion  all  the  admirable 
+plans  for  promoting  piety  which  his  distinguish- 
+ed predecessor  had  begun.  Time  also  suggested, 
+and  enabled  him  to  carry  into  execution,  nume- 
+rous improvements  of  his  own.  Amongst  a 
+great  variety  of  these  we  ought  particularly  to 
+notice  that  he  considerably  augmented  the  num- 
+ber of  private  oratories,  or  chapels  of  ease, 
+added  largely  to  the  plate  and  sacred  vestments 
+of  the  church,  and  with  an  ardour  which  equal- 
+led the  past  energy  of  Benedict  in  founding,  he 
+nearly  doubled  the  libraries  of  both  his  monas- 
+teries. Besides  innumerable  other  literary  ac- 
+quisitions he  procured  three  pandects  of  the 
+new,  added  to  one  he  had  formerly  brought 
+
+
+8i 
+
+from  Rome,  of  the  old  translation  of  the  Bible.* 
+In  his  latter  days,  departing  again  for  that  city, 
+he  took  with  him  as  a  donative  one  of  these 
+three  valued  volumes,  leaving  to  his  monasteries 
+the  other  two.  In  exchange  for  a  book  of  Cos- 
+mography of  admirable  execution,  purchased 
+by  Benedict  at  Rome,  he  obtained  of  King 
+Alfrid,  a  Prince  deeply  versed  in  literature, 
+eight  hides  of  land  on  the  bank  of  the  River 
+Fresca,  which  were  given  in  possession  to  the 
+monastery  of  J arrow.  This  contract  with  Alfrid 
+was  begun  in  the  life-time,  but  had  not  been 
+concluded  at  the  death,  of  our  founder.  In  the 
+succeeding  reign  Ceolfrid  exchanged  this  land 
+on  the  Fresca,  paying  the  just  difference  for 
+twenty  hides  lying  in  a  situation  nearer  and 
+more  commodious  to  the  convent,  at  a  place 
+called  in  the  vernacular  tongue  of  the  inhabit- 
+ants, Sambuce. 
+
+
+*  At  the  time  when  our  ancestors  were  converted,  different 
+Latin  versions  of  the  Scriptures  were  in  use  among:  the  western 
+Christians.  The  same  diversity  prevailed  in  the  Ang-lo -Saxon 
+Church  during-  its  infancy.  At  Lindisfarne  the  Psalms  were  sung- 
+according  to  a  translation  from  the  Greek,  corrected  by  St. 
+Jerome ;  at  Canterbury  according-  to  another  translation  from 
+the  Greek,  which  Eddius  calls  the  fifth  edition. 
+
+This  new  translation  procured  by  Ceolfrid  was  that  of  St. 
+Jerome.  It  quickly  superseded  the  old,  except  in  the  church 
+office  in  which  they  continued  to  sing  the  Psalms  and  a  few  other 
+parts  after  the  more  ancient  version. — Ling.  Notes  toAng.-Sax.  Ch. 
+
+[See  Appendix  II.  for  some  further  information  about  these 
+Bibles.] 
+
+
+82 
+
+Neither  was  the  attention  of  Ceolfrid  limited 
+to  improvements  at  home.  In  the  reign  of  the 
+Pontiff  Sergius  he  sent  to  Rome  a  deputation 
+of  his  brethren,  by  whom  he  requested  and  ob- 
+tained for  his  Abbeys  fresh  letters  of  immunity 
+similar  to  those  conceded  by  Agatho,  at  the 
+solicitation  of  Benedict.  These,  when  brought 
+to  England,  were  exhibited  before  a  synod  of 
+Bishops  holden  in  the  presence  of  King  Alfrid, 
+and  duly  ratified  by  both  royal  and  episcopal 
+sanction,  receiving  the  signatures  of  all  present 
+after  the  form  in  which  it  is  well  known  the 
+prior  grants  of  immunity  had  been  confirmed 
+by  the  then  reigning  Monarch  and  an  assembly 
+of  Prelates.  Before  the  close  of  Ceolfrid's  ad- 
+ministration Witmer,  a  most  devout  and  well- 
+disciplined  soldier  of  Christ  and  a  man  pro- 
+foundly versed  in  both  sacred  and  profane  lore, 
+consecrated  himself  to  religion  in  the  Abbey  of 
+St.  Peter.  At  the  same  time  he  surrendered  to 
+it  in  perpetual  right  an  estate  originally  granted 
+him  by  King  Alfrid  of  ten  hides  of  land,  situ- 
+ated near  the  town  of  Daldun. 
+
+After  a  long  series  of  years  spent  in  the 
+strictest  observance  of  those  pious  institutes 
+which  himself  and  Benedict,  with  equal  and 
+united  diligence,  had  collected  and  prescribed 
+on  the  authority  of  prior  establishments  ;  after 
+
+
+83 
+
+an  incomparable  perseverance  and  proficiency 
+in  the  science  of  prayer  and  the  art  of  psalmody, 
+to  which  he  had  so  long  been  inured  by  daily 
+exercise  ;  after  exhibiting  a  wonderful  spirit  of 
+firmness  and  rigour  in  restraining  the  vicious, 
+and  a  most  charitable  mildness  in  encouraging 
+the  good  ;  after  restricting  himself  to  a  parsi- 
+mony in  diet  and  apparel  almost  unprecedented 
+in  the  persons  of  Rectors,  Ceolfrid,  now  ad- 
+vanced in  years  and  full  of  days,  found  his 
+strength  unequal  to  the  burthen  of  office.  For, 
+depressed  by  the  infirmities  of  age,  he  was  no 
+longer  able  to  display  either  by  the  force  of  in- 
+struction or  of  personal  regularity,  a  due  model 
+of  spiritual  perfection. 
+
+This  unhappy  situation  for  some  time  kept 
+his  mind  in  a  wavering  perplexity  of  thought. 
+At  length,  however,  he  resolved  after  charging 
+his  monks,  according  to  the  privilege  of  their 
+order  and  the  rule  of  Benedict,  to  elect  the  most 
+worthy  member  of  their  own  community  Abbot 
+in  his  stead,  to  betake  himself  to  Rome,  which 
+city  he  had  once  before  visited  when  a  youth  in 
+the  company  of  our  founder.  To  this  resolu- 
+tion he  was  prompted  by  a  wish  to  allow  him- 
+self, before  death,  a  small  intermission  from  the 
+heat  and  burthen  of  the  day  under  which  he 
+had  so  long  toiled  for  the  benefit  of  others,  that 
+
+
+84 
+
+withdrawing  into  the  shade  of  tranquility  he 
+might  turn  all  his  care  and  attention  to  the  im- 
+
+o 
+
+provement  of  himself.  In  the  next  place  he 
+was  desirous  of  affording  his  brethren  an  oppor- 
+tunity of  living  under  the  direction  of  a  younger 
+Abbot,  that  the  example  of  a  more  active  leader 
+might  inspire  them  with  greater  ardour  in  the 
+pursuit  of  virtue. 
+
+Instigated  by  these  reflections  Ceolfrid  re- 
+sisted all  the  tears  and  pressing  entreaties  with 
+which  his  brethren  on  their  knees  laboured  to 
+detain  him,  and  persisting  in  his  design  prepared 
+with  such  alacrity  for  his  journey,  that  on  the 
+third  day  after  publicly  disclosing  his  resolution 
+all  things  were  ready  for  his  departure.  For  he 
+feared  (as  it  actually  happened)  that  death  would 
+overtake  him  before  it  would  be  in  his  power  to 
+arrive  at  the  end  of  his  journey.  He  was 
+anxious  also  to  prevent  his  intention  from 
+being  divulged  abroad  by  a  speedy  disappear- 
+ance, that  he  might  escape  by  flight  the  obstin- 
+ate opposition  he  would  otherwise  have  to 
+encounter  from  friends  and  persons  of  quality, 
+by  whom  he  was  universally  beloved  and  re- 
+spected. Finally,  he  dreaded  that  presents  of 
+money  might  come  in  for  which  he  would  have 
+no  opportunity  of  making  a  requital,  and  it  had 
+ever  been  with  him  a  principle  to  return,  either 
+
+
+85 
+
+immediately  or  on  some  seasonable  occasion,  an 
+equivalent  for  all  benefactions. 
+
+To  prevent  these  inconveniences,  early  in  the 
+morning  of  Thursday,  the  fourth  of  June,*  after 
+solemn  mass  had  been  sung  in  the  Church  of 
+the  Virgin,  and  also  in  St.  Peter's,  and  after  all 
+present  had  received  the  Holy  Communion,  our 
+Abbot  girds  himself  for  his  pilgrimage.  The 
+brethren  instantly  crowd  into  the  church  where 
+Ceolfricl,  after  kindling  the  incense  and  praying 
+before  the  altar  turns  to  the  west,  and  with  the 
+flaming  censer  in  his  hand  addresses  to  all 
+around  him  the  salutation  of  peace.  From  the 
+church  they  then  proceed,  mingling  all  the  way 
+loud  sobs  and  cries  with  the  responses  of  the 
+Litany,  into  the  oratory  of  the  blessed  martyr 
+St.  Lawrence,  which  stands  in  front  of  the  dor- 
+mitory. Here  Ceolfrid  pronounces  his  last 
+farewell,  bestows  his  blessing  upon  all  and 
+earnestly  exhorts  them  in  correcting  offences, 
+strictly  to  observe  the  maxims  prescribed  in  the 
+Gospel.  To  all  who  had  ever  incurred  his  dis- 
+pleasure, if  any  ever  had,  he  imparts  his  sin- 
+cerest  forgiveness  and  reconciliation,  begs  to  be 
+remembered  in  their  prayers,  and  craves  in  his 
+turn,  if  he  had  ever  treated  any  of  them  with 
+unjustifiable  rigour,  their  charitable  pardon. 
+
+[*  Giles  says  Wednesday  the  4th  of  May.— ED.  present  Edition.] 
+
+
+86 
+
+Having  delivered  this  moving  address  he  im- 
+mediately descends,  accompanied  by  the  whole 
+convent,  to  the  river's  strand  where,  after  re- 
+ceiving in  tears  the  last  kiss  of  peace,  all  kneel 
+whilst  he  pronounces  a  prayer  aloud,  and  em- 
+barks with  his  attendants.  The  deacons  pre- 
+cede him  bearing  a  golden  cross  and  lighted 
+tapers  in  their  hands.  The  skiff  glides  swiftly 
+across  the  Wear,  Ceolfrid  reverences  the  cross 
+and  mounting  on  his  steed,  disappears. 
+
+At  his  departure  there  was  left  in  both  the 
+Abbeys  a  congregation  composed  of  about  six 
+hundred  members. 
+
+Disconsolate  at  the  loss  of  their  shepherd,  the 
+brethren  in  mournful  silence  retrace  their  steps 
+to  the  church.  With  tears  and  fervent  suppli- 
+cations they  commit  themselves  and  all  their 
+concerns  to  the  care  and  protection  of  heaven. 
+After  a  short  pause  of  silent  grief  and  devotion 
+they  intone  the  Psalms  of  Terce.  This  done, 
+a  general  council  is  again  convened  to  deliberate 
+on  the  measures  proper  to  be  adopted  in  the 
+present  state  of  their  affairs.  An  unanimous 
+resolution  to  implore,  in  the  first  instance  with 
+fasting  and  prayer,  the  aid  and  light  of  heaven 
+to  hasten  and  guide  them  in  the  choice  of 
+another  pastor  speedily  terminates  the  consulta- 
+
+
+87 
+
+tion.  The  congregation  at  Jarrow,  by  a  depu- 
+tation formed  of  some  of  their  own  and  of 
+several  members  from  the  other  Abbey  who 
+had  been  present  at  their  councils,  transmit  a 
+statement  of  their  determinations  to  the  mother 
+convent.  These  are  no  sooner  heard  than  ap- 
+proved. All  are  of  one  mind  ;  all  elevate  their 
+hearts  ;  all  raise  their  voices  to  the  Lord. 
+
+On  Whitsunday,*  the  third  day  devoted  to 
+prayer  and  humiliation,  a  council  is  convoked 
+of  all  the  brethren  in  St.  Peter's  Abbey.  A 
+considerable  body  of  elders  from  St.  Paul's  like- 
+wise attend  the  meeting.  The  greatest  concord 
+and  unanimity  pervade  the  assembly,  and  Huet- 
+bert  is  by  all  invited  as  with  one  voice  to  assume 
+the  government  of  both  houses. 
+
+This  favourite  of  their  choice  had  been  re- 
+ceived into  the  monastery  in  his  tender  child- 
+hood. From  that  early  period  of  life  he  had 
+been  trained  under  their  own  vigilant  care  to 
+the  constant  observance  of  monastic  discipline. 
+With  unwearied  pains  he  had  perfected  himself, 
+and  afterwards  instructed  many  others  in  the 
+arts  of  reading,  writing,  f  and  church  music. 
+
+
+[*  Giles  says  Easter  Sunday. — ED.  present  Edition.} 
+
+t  As  at  this  period  the  art  of  printing  was  unknown,  great  at- 
+tention was  paid  in  monasteries  to  writing.     Every  great  Abbey 
+
+
+88 
+
+In  the  time  of  the  Pontiff  Sergius  he  had  also 
+visited  Rome,  and  during  a  long  residence  in 
+the  chief  seat  of  learning  (at  that  period)  he 
+had  carefully  studied,  transcribed,  and  on  his 
+return  brought  home  in  manuscript,  every  branch 
+of  knowledge  which  he  deemed  necessary  or 
+useful.  Lastly,  he  had  been  raised,  twelve  years 
+before  his  present  promotion,  to  the  dignity  of 
+Presbyter. 
+
+No  sooner  is  Huetbert  by  unanimous  suffrage 
+declared   Abbot   than,    selecting-    a    few   of   his 
+
+o 
+
+monks  to  bear  him  company  he  hastens  to  over- 
+take Ceolfrid.  They  find  him  still  on  the  coast 
+awaiting  the  arrival  of  a  vessel  to  transport  him 
+across  the  sea.  On  learning  the  election  which 
+had  taken  place  he  exclaimed,  "Thanks  be  to 
+God,"  gave  his  sanction  to  the  appointment,  and 
+received  from  the  hand  of  his  successor  a  com- 
+mendatory epistle  to  Pope  Gregory. 
+
+A  few  sentences  of  this  we  will  here  subjoin 
+as  a  memorial  : — 
+
+
+took  care  to  reserve  a  scriptorium,  or  an  apartment  for  the  trans- 
+cribing- of  books,  where  several  monks  were  assiduously  occupied 
+in  copying-  the  manuscripts  of  sacred  and  profane  literature. 
+This  commendable  employment  was  pursued  with  peculiar  dili- 
+gence at  Croyland.  A  book  of  the  Gospels  even  now  existing- 
+exhibits  a.  fine  specimen  of  Saxon  caligraphy.  To  render  the 
+office  more  firm  and  permanent  pensions  or  estate,  were  often 
+annexed  to  it. — Daniel's  EccL  Hist.  p.  264. 
+
+
+89 
+
+"To  the  most  holy  and  truly  loving  Lord 
+Gregory,  Pontiff  of  the  sacred  and  Apostolic 
+See,  Huetbert,  Abbot  of  the  monastery  founded 
+in  Saxony  under  the  patronage  of  Peter,  Prince 
+of  the  Apostles,  sendeth  perpetual  salutation  in 
+the  Lord. 
+
+"  We,  together  with  all  the  pious  brethren 
+who,  in  these  remote  confines  of  the  world  are, 
+under  our  care,  endeavouring  to  obtain  tran- 
+quility  of  soul  by  submitting  to  the  sweet  yoke 
+of  Jesus,  give  thanks  ever  to  Almighty  God  for 
+the  gracious  dispensation  of  His  providence  by 
+which  he  hath  in  our  days  raised  up  you,  as  a 
+glorious  vessel  of  election,  to  preside  over  the 
+administration  of  His  whole  church.  For  the 
+splendour  of  faith  and  truth,  which  through  you 
+He  is  pleased  to  diffuse,  sheddeth  as  a  brilliant 
+star,  the  divine  light  of  piety  on  every  part  of 
+his  flock. 
+
+"  To  your  holy  attention  and  kindness  most 
+beloved  Father  in  Christ,  we  beg  leave  to  re- 
+commend the  hoary  age  of  our  venerable  Abbot 
+Ceolfrid.  Long  hath  he  been  our  parent,  pro- 
+tector, and  guide  in  the  paths  of  spiritual  life 
+and  the  peaceful  virtues  of  our  retired  profes- 
+sion. But  as  neither  entreaties  nor  tears,  nor 
+every  other  demonstration  of  the  excess  of  our 
+
+
+90 
+
+grief  at  his  departure  could  prevail  on  him  to 
+remain  any  longer  at  the  head  of  our  society, 
+we  give  thanks  in  the  first  place  to  the  holy  and 
+undivided  Trinity,  that  by  withdrawing  from  us 
+he  himself  at  least  will  attain  that  saintly  repose 
+for  which  his  bosom  hath  so  long  and  earnestly 
+panted.  For  such  were  the  transports  of  joy 
+which  he  was  ever  wont  to  experience  at  the 
+bare  recollection  of  those  scenes  of  piety  he  had 
+witnessed,  and  of  the  tender  devotion  he  had 
+felt  in  his  youth,  that  though  now  consumed  with 
+age  he  is  determined  to  repeat  his  visit  to  the 
+residence  of  the  Apostles.  And  as  if,  after  forty 
+years  of  incessant  care  and  fatigue  in  the  vigil- 
+ant superintendance  over  his  monasteries  his 
+vigour  were  renewed,  and  heaven  had  sent  him 
+a  fresh  inspiration  to  holiness  of  life,  with  a  con- 
+stancy unparalleled  he  has  again  commenced 
+his  peregrinations  for  the  love  of  Christ,  though 
+he  is  now  broken  down  with  years  and  fast  ap- 
+proaching to  the  grave.  So  vehement  is  the  holy 
+man's  desire  to  consume  in  the  flames  of  fervent 
+devotion  every  grain  of  dross  which  his  soul 
+may  possibly  have  contracted  in  the  unavoidable 
+dissipation  of  secular  concerns. 
+
+"In  the  next  place,  we  humbly  beseech  your 
+paternity,  sedulously  to  perform  for  our  aged 
+father  those  last  offices  of  piety  which  it  has  not 
+
+
+fallen  to  our  happy  lot  to  administer.  For  the 
+rest,  we  are  well  assured  that  though  his  body 
+repose  with  you,  his  devout  spirit,  whether  in 
+the  body  or  delivered  from  the  prison  of  the 
+flesh,  will  ever  most  powerfully  intercede  with 
+the  Lord,  both  in  your  and  our  behalf,  for  the 
+remission  of  our  defects." 
+
+As  soon  as  Huetbert,  after  delivering  this 
+epistle  to  his  predecessor,  returned  to  the  con- 
+vent, Bishop  Acca,  at  the  solicitation  of  the 
+brethren,  confirmed  him,  with  the  accustomed 
+benediction,  in  the  office  of  Abbot.  His  sub- 
+sequent administration  was  signalized  by  the 
+skilful  and  manly  address  with  which  he  restored 
+to  the  Abbey  a  long  catalogue  of  her  rights 
+which  had  been  lost  or  invaded.  He  afforded 
+also  a  most  singular  satisfaction  to  his  whole 
+fraternity  by  translating  the  mortal  remains  of 
+Eosterwine,  and  Sigfrid  who  was  formerly  his 
+master.  The  first  he  removed  from  the  porch 
+at  the  entrance  of  St.  Peter's,  the  second  from 
+the  south  of  the  open  burial  ground.  He  placed 
+both  in  one  coffer  divided  by  a  partition  and 
+laid  them  near  the  relics  of  Benedict  within  the 
+body  of  the  church.  This  work  of  pious  affec- 
+tion to  the  dead  was  performed  on  Sigfrid's 
+birthday,  the  twenty-second*  of  August.  On 
+
+[*  Giles  says  23rd. — ED.  present  Edition.} 
+
+
+92 
+
+the  same  day  by  a  remarkable  dispensation  of 
+providence,  the  devout  servant  of  Christ,  Wit- 
+mer,  departed  this  life  and  was  interred  in  one 
+of  the  graves  left  vacant  by  the  translation  of 
+the  above-named  Abbots,  of  whose  virtues  he 
+had  ever  been  a  most  faithful  imitator. 
+
+In  the  meanwhile  Ceolfrid  as  already  stated, 
+was  pursuing  his  way  to  the  residence  of  the 
+Apostles  ;  but  overcome  by  age,  fatigue  and 
+infirmity  he  breathed  his  last  before  he  arrived 
+at  the  term  of  his  desires.  About  nine  in  the 
+morning  he  reached  Langres,  and  about  four  in 
+the  evening  of  the  same  day  he  ceased  from  all 
+his  labours  and  travels  by  rendering  up  his  pure 
+spirit  into  the  hands  of  his  Creator.  On  the 
+following  day  he  was  honourably  interred  in  the 
+Church  of  the  Three  Brother  Martyrs,  amidst 
+the  tears  and  lamentations,  not  of  the  English 
+only,  of  whom  more  than  eighty  had  accom- 
+panied him  from  home,  but  also  of  the  native 
+inhabitants  of  the  country  in  which  he  expired. 
+For  even  strangers  were  deeply  affected  at  the 
+disappointment  which  had  befallen  the  pious 
+wishes  of  so  venerable  a  man.  Nor,  indeed, 
+was  it  easy  to  witness  without  weeping  the  mel- 
+ancholy spectacle  before  their  eyes.  For  the 
+numerous  attendants  of  the  deceased  Abbot,  as 
+a  large  family  suddenly  bereft  of  a  loving  and 
+
+
+93 
+
+beloved  parent,  were  thrown  into  confusion,  op- 
+pressed with  sorrow,  and  dispersed.  Some  per- 
+sisted in  finishing  the  half  accomplished  journey, 
+in  others  grief  had  extinguished  all  desire  of 
+seeing  Rome,  and  they  were  returning  home  to 
+report  the  mournful  tidings  of  their  disaster  ; 
+whilst  the  rest,  unable  to  quit  the  tomb  of  one 
+whose  love  could  never  be  erased  from  their 
+hearts,  resolved  to  fix  their  residence  in  a  land 
+with  the  language  and  inhabitants  of  which  they 
+were  totally  unacquainted. 
+
+Ceolfrid  died  at  the  age  of  seventy-four.  To 
+the  priesthood  he  had  been  an  ornament  forty- 
+seven  years,  and  an  honour  to  the  character  of 
+Abbot  thirty-five,  or  rather  forty-three  years. 
+For  even  when  Benedict  founded  St.  Peter's 
+Ceolfrid  was  his  individual  companion,  fellow 
+labourer,  and  joint  teacher  of  monastic  discip- 
+line. In  the  strict  observance  of  this,  so  great 
+was  his  own  ardour  that  he  allowed  neither  age 
+nor  infirmity,  nor  even  the  inconveniences  of 
+travelling,  to  abate  his  pristine  fervour.  From 
+the  day  he  left  his  monastery  to  the  day  of  his 
+exit  out  of  this  world,  he  never  once  failed  daily 
+to  recite,  besides  the  course  of  the  Breviary,  the 
+whole  Psalter  in  regular  order  twice.*  And 
+
+
+*  Ceolfrid  left  his  monastery  on  the  fourth  of  June  and  died  on 
+on  the  twenty-fifth  of  September,  having  been  in  all  one  hundred 
+and  fourteen  days  on  his  journey. 
+H 
+
+
+94 
+
+even  when  so  reduced  that  unable  to  sit  on 
+horseback  he  was  borne  in  a  litter,  he  continued 
+daily  to  offer  the  holy  victim  of  salvation.  For 
+he  sung  mass  every  day  except  that  on  which 
+he  crossed  the  ocean,  and  the  last  three  of  his 
+life. 
+
+He  died,  as  we  have  above  stated,  a  little  past 
+four  in  the  afternoon  of  the  twenty-fifth  of  Sep- 
+tember, and  in  the  year  of  Christ  seven  hundred 
+and  sixteen.  His  death  happened  in  the  vicinity, 
+and  the  day  after  it  he  was  buried  about  one  mile 
+to  the  south  of  the  city  we  have  already  named, 
+in  the  Church  of  the  Three  Brother  Martyrs. 
+His  corpse  was  attended  to  the  grave,  and  the 
+Psalms  of  his  funeral  office  sung  by  a  large  con- 
+course formed  of  the  English  who  had  borne 
+him  company  from  home,  of  the  inhabitants  of 
+the  town,  and  of  the  monastery  in  which  he  was 
+interred. 
+
+The  martyrs  to  whom  this  monastery  is  dedi- 
+cated are  Speusippus,  Eleusippus,  and  Meleu- 
+sippus.  They  were  born  at  the  same  birth, 
+regenerated  in  the  same  faith  of  Christ,  and 
+suffered  in  the  same  place,  together  with  their 
+aunt  Leonilla,  a  glorious  martyrdom  for  His 
+sake. 
+
+
+95 
+
+May  they  now  exert  in  favour  of  our  un- 
+worthy selves  and  our  parent,  their  powerful 
+intercession  with  the  Lord. 
+
+
+APPENDIX    I. 
+
+
+FROM  the  abrupt  manner  in  which  the  narrative 
+concerning  Huetbert  stops  short,  it  is  obvious 
+that  the  relation  of  his  life  was  left  unfinished  ; 
+probably  because  he  survived  the  venerable 
+writer  who  began,  but,  as  the  subject  of  his 
+memoir  was  still  amongst  the  living,  could  not 
+bring  his  story  to  a  conclusion. 
+
+With  Bede  the  history  of  the  monasteries 
+likewise  may  be  said  to  have  ceased,  so  unsat- 
+isfactory is  the  account  given  of  them  from  his 
+time  by  posterior  writers.  The  conditions  of 
+this  work  do  not  indeed  allow  us  to  treat  this 
+portion  of  history  minutely  ;  but  as  the  reader, 
+who  has  seen  in  the  preceding  pages  the  begin- 
+ning and  the  flourishing  condition  of  these  estab- 
+lishments, may  be  desirous  of  knowing  the  fatal 
+catastrophes  which  brought  them  to  their  end, 
+we  will  briefly  state  them. 
+
+Wearmouth  is  said  to  have  suffered  severely 
+in  the  Danish  wars,  and  supposed  to  have  been 
+destroyed  in  the  irruption  of  Hinguar  and 
+Hubba.  It  was  however  restored,  but  by  whom 
+or  in  what  manner  history  does  not  acquaint 
+
+
+97 
+
+us  ;*  and  again  destroyed  in  the  inroad  made 
+by  Malcolm,  King  of  Scotland. 
+
+Jarrow  was  equally  unfortunate,  for  it  is  also 
+said  to  have  been  destroyed  in  the  first  instance 
+by  the  Danes,  about  the  year  793,  and  again  in 
+1069,  when  William  the  Conqueror  took  his 
+revenge  on  the  northern  part  of  England. 
+
+The  restoration  of  both  monasteries  under 
+the  influence  of  Walcher,  who  was  consecrated 
+Bishop  of  Durham  in  1072,  is  detailed  partly 
+by  Simeon  of  Durham,  and  partly  by  Dugdale, 
+in  his  account  of  St.  Mary's,  at  York. 
+
+Aldwine,  a  monk  at  Winchcomb,  with  two 
+associates  Elfwy  and  Renfrid,  was  first  placed 
+by  the  Bishop  at  Jarrow.  But  in  a  few  years 
+the  inhabitants  of  the  monastery  growing  too 
+numerous,  they  separated,  Aldwine,  taking  a 
+few  followers,  retired  to  Melrose,  in  Scotland  ; 
+Renfrid  removed  to  Whitby,  and  Elfwy  re- 
+mained with  the  first  settlers  at  Jarrow. 
+
+Aldwine  and  his  brethren,  after  suffering  much 
+in  their  new  habitation  from  Malcolm,  King  of 
+Scotland,  were  recalled  by  Bishop  Walcher,  who 
+
+
+*  Vide  Hutchinson's  History  and  Antiquities  of  the  County  Pal- 
+atinate of  Durham.     V.  II.  p.  503. 
+
+
+98 
+
+gave  them  for  a  residence  the  ruined  monastery 
+of  St.  Peter's,  at  Wearmouth. 
+
+But  in  1083  Bishop  William  de  Carilepho  re- 
+moved the  greater  part  of  the  monks  from  both 
+monasteries  to  Durham.  Wearmouth  and  Jar- 
+row  from  this  period  to  the  dissolution  of  re- 
+ligious houses  were  cells  only,  subordinate  to 
+the  monastery  of  Durham,  and  rarely  inhabited 
+by  more  than  three  or  four  monks  each. 
+
+At  the  Dissolution  Wearmouth  appears  to 
+have  been  valued,  according  to  Dugdale,  at 
+^"23  8s.  4d.,  and  Jarrow  at  ^40  75.  8d.  per 
+annum. 
+
+PETER    WILCOCK. 
+
+
+APPENDIX    II. 
+THE    CODEX    AMIATINUS. 
+
+
+IN  the  Church  Quarterly  Review  some  twenty- 
+five  years  ago,  there  appeared  a  most  interest- 
+ing article  on  the  Pandects  mentioned  on  page 
+8 1,  which  was  written  by  the  Rev.  John  Low 
+Low,  then  Vicar  of  Whittonstall.  This  was 
+reprinted  in  pamphlet  form  in  1903,  but  soon 
+went  out  of  print. 
+
+It  told  the  story  of  the  Codex  Amiatinus, 
+and  of  the  romantic  manner  in  which  various 
+scholars,  step  by  step,  proved  beyond  all  doubt 
+this  Codex  to  be  one  of  the  three  great  Pan- 
+dects written  in  the  time  of  Ceolfrid  at  Wear- 
+mouth  and  Jarrow. 
+
+These  Bibles  were  manuscript  copies  of  a 
+Latin  version  of  St.  Jerome,  commonly  called 
+the  Vulgate.  Three  copies  were  written  at  the 
+sister  monasteries,  one  being  for  use  in  each, 
+and  the  third  being  intended  for  a  gift  to  the 
+See  of  St.  Peter  at  Rome.  The  first  two 
+copies  were  undoubtedly  destroyed  when  the 
+Danes  sacked  and  burnt  everything  possible  in 
+
+
+100 
+
+the  County  of  Durham  in  the  ninth  or  at  the 
+close  of  the  eighth  century.  The  third  copy  was 
+taken  by  Ceolfrid  on  his  journey  to  Rome  at  the 
+advanced  age  of  74,  in  the  year  716.  But  he 
+never  reached  Rome,  as  he  died  at  Langres,  in 
+France,  and  his  large  retinue,  consisting  of  some 
+80  persons,  was  scattered,  some  returning  home, 
+others  settling  in  France,  and  possibly  a  few 
+continuing  their  journey  to  the  Holy  City. 
+
+We  have  no  account  of  what  became  of  the 
+Bible  ;  we  only  know  that  it  was  found  in  the 
+Convent  of  Monte  Amiata,  and  that  it  is  now 
+considered  the  greatest  treasure  in  the  Mediceo- 
+Laurentian  Library  in  Florence. 
+
+The  Bishop  of  Salisbury  says  : — "  The  great 
+Bible  of  Monte  Amiata,  now  one  of  the  most 
+prominent  ornaments  of  the  Mediceo-Laurentian 
+Library  at  Florence,  is  at  once  a  most  import- 
+ant specimen  of  palaeography  and  one  of  the 
+principal  foundations  of  the  text  of  any  critical 
+edition  of  the  version  of  St.  Jerome,  both  in 
+the  Old  and  New  Testaments.  ...  It  is 
+a  book  measuring  about  50  by  34  centim.  (197 
+by  13*4  inches)  in  length  and  breadth,  and  nearly 
+20  centim.  (7-9  inches)  in  thickness  without  the 
+binding;  containing  1,029  leaves  of  beautiful 
+vellum,  written  in  two  columns  to  a  page  with 
+43  or  44  lines  to  a  column,  in  short  lines  tech- 
+
+
+101 
+
+nically  called  cola  and  commata,  or  sometimes, 
+perhaps  less  correctly,  stichi,  which  represent 
+an  ancient  system  of  punctuation  perfectly  in- 
+telligible to  the  trained  eye." 
+
+This  Bible  had  been  long  known  and  highly 
+admired  and  greatly  esteemed  by  scholars.  The 
+story  of  how  it  was  identified  by  discovering 
+that  a  Latin  inscription  had  been  partially 
+erased,  and  how  the  original  one  was  discovered 
+and  reinstated  is  too  long  to  be  related  here. 
+We  must,  as  Canon  Low  says,  "rejoice  that 
+the  third  Pandect  of  St.  Ceolfrid  was  [at  the 
+time  when  our  monasteries  were  destroyed]  far 
+away  in  Italy,  safe  from  the  heathen  ravager, 
+and  that  it  has  remained  to  this  day  the  admir- 
+ation of  all  who  behold  it,  to  be  a  monument  of 
+the  pious  zeal  and  learning  of  the  monks  of 
+Wearmouth  and  Jarrow,  and  their  learned  and 
+holy  Abbot,  St.  Ceolfrid." 
+
+JAMES  PATTERSON. 
+
+
+APPENDIX    III. 
+MONKWEARMOUTH    CHURCH 
+
+IN     IQIO. 
+
+
+VERY  little  is  known  of  the  history  of  the  church 
+after  the  Dissolution.  To  a  great  extent  this 
+is  undoubtedly  owing  to  a  fire  which  took  place 
+in  the  Vicarage,  then  inhabited  by  the  Rev. 
+Jonathan  Ivison,  on  i3th  April,  1790.  This 
+house,  formerly  the  residence  of  the  Williamson 
+family,  is  supposed  to  have  been  part  of  the 
+monastery  and  attached  to  the  church  In 
+this  lamentable  fire  almost  all  the  Parish  Reg- 
+isters, which  were  of  great  antiquity,  perished. 
+To  remedy  this  loss  as  far  as  was  possible,  all 
+persons  were  desired  to  produce  copies  of  such 
+private  registers  as  they  might  be  in  possession 
+of,  and  these  were  sworn  to  before  the  magis- 
+trates. 
+
+The  church  was  restored  to  its  present  form 
+in  1875,  and  unfortunately  without  much  real 
+regard  or  reverence  for  the  original  work.  The 
+less  said  the  better  about  the  new  gable  end  and 
+its  conjunction  with  the  fine  old  grey  tower. 
+
+
+MONKWEARMOUTH     PARISH    CHURCH 
+
+BEFORE    THE    RESTORATION    IN    1875. 
+
+
+103 
+
+At  this  restoration  the  foundations,  which 
+were  uncovered,  showed  that  the  original  build- 
+ing had  been  68  feet  long  by  22  feet  8  inches 
+wide  ( outside  measurements ),  a  harmonious 
+arrangement,  the  length  being  three  times  that 
+of  the  width  ;  the  height  is  thought  by  some  to 
+have  been  half  the  length,  by  others  the  same 
+as  the  width.  This  comprised  the  nave,  but 
+we  know  from  Bede  that  there  was  a  porch  at 
+the  east  end  as  well  as  at  the  west ;  the  latter 
+he  calls  a  "porch  entrance."  This  still  stands, 
+but  no  trace  whatever  can  be  found  of  the  other. 
+It  was  in  this  eastern  porch  that  Abbots  Sigfrid 
+and  Eosterwine  were  buried,  near  the  body  of 
+Benedict  Biscop. 
+
+The  porch  now  remaining  originally  had 
+entrances  from  the  north  and  south  sides,  the 
+present  archway  leading  to  another  chamber, 
+probably  a  baptistry. 
+
+It  is  considered  very  doubtful  if  the  upper 
+part  of  the  tower  was  the  work  of  Biscop.  The 
+position  of  two  small  windows  high  up  in  the 
+western  wall  shows  conclusively  that  it  was  not 
+part  of  his  original  plan.  It  is,  of  course,  quite 
+possible  that  Biscop  may  have  added  it  himself 
+at  a  later  date,  but  it  is  generally  believed  to 
+belong  to  a  date  prior  to  the  Conquest. 
+
+
+104 
+
+At  the  entrance  to  the  tower  there  is  some 
+very  singular  stone  carving,  viz.,  two  very  curi- 
+ous snakes  with  beaks  strangely  intertwined, 
+which  most  unfortunately  are  rapidly  perishing 
+from  the  crumbling  of  the  stone  due  to  the 
+action  of  the  weather.  It  is  said  these  snakes 
+are  quite  unique,  there  being  nothing  like  this 
+work  in  any  other  church,  although  there  is  a 
+fragment  of  stone  containing  some  very  similar 
+interlacing  bands  in  the  church  at  Escomb,  one 
+of  the  oldest  churches  in  this  County. 
+
+On  the  outside  of  the  tower  there  is  a  string 
+course  consisting  of  a  band  of  stone  with  cable 
+mouldings,  with  similar  vertical  lines  to  divide 
+it  into  panels.  The  panels  are  filled  in  with 
+figures  of  animals  in  low  relief,  now  almost 
+illegible,  of  a  somewhat  grotesque  character  : 
+one  may  be  taken  for  a  hog  or  a  bear,  others 
+for  puppies  or  lambs. 
+
+In  former  times  carvings  in  churches,  or 
+figures  in  windows,  of  a  sheaf  of  corn,  a  pig, 
+and  a  lamb,  were  considered  emblematical  of 
+the  three  sources  from  which  the  clergy  derived 
+their  tithes.  If  this  were  so  it  may  explain  the 
+meaning  of  these  figures. 
+
+Above  the  carving  of  the  snakes  on  each  side 
+of  the  porch  are  twin  balusters.  Many  of  these 
+
+
+-• 
+
+
+'.<-.     IT-:"      -'.        '-"  .  '•'• 
+
+
+•  -  7 
+
+
+.  -  -.    --.-.i-.    ••:•-:    :  •'      '•-- 
+
+
+;.: 
+
+
+•-••?        ~---- 
+
+m 
+
+:•: 
+
+
+io6 
+
+body  the   Priest   Hereberecht,"  or   Herbert  as 
+we  would  now  say. 
+
+A  casual  examination  shows  that  it  has  not 
+been  all  done  by  the  same  artist.  The  first 
+lines  are  evidently  by  a  designer  of  a  superior 
+order,  and  the  stone  was  probably  done  "for 
+stock"  for  use  when  required,  and  so  when 
+Hereberecht  died  the  monks  had  to  employ  a 
+local  stonemason  to  complete  it,  which  he  did 
+in  a  very  inferior  manner.  Some  odd  letters  at 
+the  end  look  as  if  there  had  been  a  previous  in- 
+scription imperfectly  erased.  The  style  of  let- 
+tering and  the  wording  of  the  epitaph  point  to 
+an  early  date,  probably  about  the  time  of  Bis- 
+cop  himself. 
+
+
+Visitors  should  not  omit  to  carefully  examine 
+a  fragment  of  a  beautifully  carved  stone,  as  it 
+is  one  of  the  most  beautiful  of  its  kind.  It  is  a 
+small  corner  piece,  only  about  twelve  inches 
+each  way,  and  of  a  yellowish  tint.  The  great 
+interest  in  this  fragment  is  not  so  much  its 
+beauty,  great  as  that  is,  as  because  of  its  re- 
+semblance in  the  ornamentation  to  that  of  one 
+of  the  greatest  treasures  in  the  British  Museum 
+—  the  Lindisfarne  Gospels. 
+
+The  Bishop  of  Bristol  in  a  pamphlet  pub- 
+lished about  30  years  ago  says,  "No  one  can 
+
+
+turn  over  the  pages  of  that  marvellous  volume 
+in  its  home  in  the  British  Museum,  noting  the 
+stains  of  salt  water,  from  its  immersion  in  the 
+sea,  when  the  monks  fled  from  the  Danes  with 
+the  body  of  St.  Cuthbert,  without  feeling  a 
+special  thrill  when  he  comes  to  the  last  page 
+and  reads  the  record  of  the  names  of  those  who 
+wrote  it,  and  beautified  it,  and  made  a  case  for 
+it."*  It  is  not  too  much  to  say  that  there  is  no 
+stone  work  known  that  has  a  more  close  resem- 
+blance to  the  beautifully  illuminated  pages  of 
+these  Gospels  than  this  little  fragment  so  care- 
+fully preserved  in  the  vestry  of  Monkwearmouth 
+Parish  Church. 
+
+
+*  This  record  is  of  such  an  interesting-  nature  that  it  is  repro- 
+duced here.  The  following-  is  a  translation  : — "  Eadfrith,  Bishop 
+of  the  Lindisfarne  Church  [was]  he  [who]  at  the  first  wrote  this 
+book  in  honour  of  God  and  St.  Cuthbert,  and  all  the  saints  in 
+common  that  are  in  the  Island.  And  Ethilwald,  Bishop  of  the 
+people  of  the  Lindisfarne  Island,  made  it  firm  on  the  outside,  and 
+covered  it  as  well  as  he  could.  And  Billfrith,  the  anchorite,  he 
+wrought  in  smith's  work  the  ornaments  that  are  on  the  outside, 
+and  adorned  it  with  gold,  and  also  with  gems,  overlayed  with 
+silver,  unalloyed  metal.  And  Aldred,  an  unworthy  and  most 
+miserable  priest,  with  the  help  of  God  and  St.  Cuthbert,  glossed 
+it  above  in  English,  and  made  himself  familiar  with  the  three 
+parts  :  Matthew's  part  for  God  and  St.  Cuthbert ;  Mark's  part 
+for  the  Bishop  ;  and  Luke's  part  for  the  brotherhood,  and  eig-ht 
+oras  [ora  equals  sixteen  pence]  of  silver  for  his  admission  ;  and 
+St.  John's  part  for  himselt,  and  four  oras  of  silver  [deposited]  with 
+God  and  St.  Cuthbert ;  to  the  end  that  he  may,  through  God's 
+mercy,  gain  admittance  into  heaven,  and  on  earth  happiness  and 
+peace,  promotion  and  dignity,  wisdom  and  prudence,  through  St. 
+Cuthbert's  merits.  Eadfrith,  Ethilwald,  Billfrith  [and]  Aldred 
+made  and  adorned  this  gospel  book  for  God  and  St.  Cuthbert," 
+
+
+io8 
+
+By  studying  the  work  in  these  Gospels  an 
+expert  would  find  little  difficulty  in  completing 
+the  original  design  from  this  single  corner  piece. 
+It  will  be  noticed  that  the  border  is  made  up  of 
+complicated  interlacings  of  a  very  intricate  char- 
+acter ;  the  centre  would  most  probably  be  occu- 
+pied by  a  cross,  and  the  vacant  spaces  orna- 
+mented with  decorative  work  or  more  inter- 
+lacings. 
+
+Now  we  know  from  Bede  that  the  Lindisfarne 
+Gospels  were  designed  and  finished  some  25 
+years  after  the  building  of  this  church  was 
+begun,  and  not  long  after  the  death  of  Benedict 
+Biscop  which  took  place  A.  D.  690 ;  and  we 
+know  how  limited  would  be  the  number  of  those 
+competent  to  produce  such  artistic  work,  there- 
+fore it  is  not  at  all  unlikely  that  one  of  the 
+artists  who  designed  the  work  was  the  same  as 
+he  who  carved  this  stone. 
+
+Biscop  died  at  Wearmouth  and  was  buried 
+"hard  by  the  altar,"  and  is  it  not  probable  that 
+the  most  beautiful  ornamented  stone  possible 
+would  be  placed  over  his  grave,  over  the  re- 
+mains of  him  whom  the  monks  would  naturally 
+honour  above  all  others,  as  the  founder  and 
+builder  of  their  beloved  church?  So  perhaps 
+we  have  in  this  small  fragment  a  memorial  of 
+
+
+IOQ 
+
+the  founder,   not  merely   of  St.  Peter's  church 
+but  of  Sunderland  itself. 
+
+Of  the  church  as  it  now  stands,  the  nave 
+occupies  the  site  of  the  original  church  ;  the 
+west  wall  stands  still  as  built  by  Benedict  Biscop 
+more  than  twelve  centuries  ago  ;  the  south  wall 
+has  been  rebuilt  on  the  original  foundations  ;  no 
+trace  could  be  found  of  the  foundations  of  the 
+north  wall,  but  careful  measurements  place  it 
+where  the  pillars  now  stand.  The  north  aisle 
+and  the  transept,  which  is  dedicated  to  St. 
+Laurence,  are  of  much  later  date. 
+
+The  chancel  belongs  to  the  thirteenth  century. 
+About  1 790  it,  with  the  other  parts  of  the  church, 
+was  made  hideous  with  galleries  ;  the  chancel 
+window  was  blocked  up  or  cut  in  two  by  the 
+gallery.  It  was  restored  in  1875  by  the  skill 
+of  the  Rev.  J.  F.  Hodgson,  one  of  the  fore- 
+most archaeologists  in  the  North,  from  fragments 
+of  ancient  tracery  found  in  it. 
+
+The  stained  glass  windows  here  and  in  the 
+transept  are  of  more  than  ordinary  interest. 
+The  figures  in  the  noble  east  window  represent 
+entirely  local  Saints,  with  the  one  exception  of 
+the  patron  Saint,  St.  Peter,  who  occupies  the 
+centre  division.  Below  each  figure  is  a  beauti- 
+J 
+
+
+I  10 
+
+ful  picture  representing  some  important  event 
+in  the  life  of  the  Saint  above.  Thus  St.  Aidan 
+on  the  north  side  is  shewn  preaching  in  North- 
+umbria  ;  Benedict  Biscop  as  directing  the  build- 
+ing operations  of  this  church  ;  St.  Peter  is  seen 
+receiving  the  keys  of  heaven  ;  Paulinus,  the  first 
+Archbishop  of  York,  is  baptizing  King  Edwin  ; 
+and  the  Venerable  Bede  is  depicted  studying  in 
+his  cell  at  Jarrow. 
+
+The  south  windows  represent  St.  Cuthbert 
+with  St.  Oswald's  head  in  his  arms,  the  picture 
+below  pourtraying  his  consecration  ;  next  to 
+him  is  Oswald  himself,  with  the  battle  of 
+Heavenfield  below.  The  other  window  has 
+St.  Hilda,  of  Whitby,  giving  counsel,  and  King 
+Edwin  with  his  High  Priest  Coifi  destroying 
+the  heathen  gods. 
+
+An  effigy  of  one  of  the  Barons  of  Hilton 
+reposes  beneath  a  canopy  which  was  carved  for 
+the  tomb  of  another,  but  all  trace  of  whom  it 
+was  intended  for  is  lost.  It  stands  now  a  monu- 
+ment of  man's  transitory  nature.  The  mortal 
+to  whose  memory  an  elaborate  monument  was 
+carved  is  totally  forgotten,  and  the  effigy  be- 
+neath is  merely  known  to  be  that  of  one  of  the 
+Hiltons! 
+
+
+1 1 1 
+
+In  the  transept  the  windows  (which  like  those 
+in  the  chancel  are  the  work  of  Messrs.  Kemp) 
+are  dedicated  to  St.  Laurence,  St.  Paul,  St. 
+Stephen,  John  the  Baptist,  and  St.  Mary. 
+
+JAMES   PATTERSON. 
+
+
+APPENDIX    IV. 
+THE    BEDE    MEMORIAL    CROSS. 
+
+
+THE  Cross  in  Roker  Cliff  Park,  Sunderland,  to 
+the  memory  of  the  Venerable  Bede,  was  un- 
+veiled by  the  Archbishop  of  York  in  the  pre- 
+sence of  a  numerous  and  distinguished  body 
+of  spectators,  on  iith  October,  1904.  Mr. 
+Hodges,  of  Hexham,  was  the  architect,  and  he 
+was  aided  by  an  executive  committee  consist- 
+ing of  some  of  the  foremost  scholars.  It  con- 
+sists of  three  stones  only,  is  from  ground  level 
+to  top  23  feet  6  inches,  and  its  total  weight  is 
+estimated  at  1 1^  tons. 
+
+The  principal  front  faces  eastward  ;  the  five 
+panels  contain  bas-reliefs  of  scenes  in  Bede's 
+life,  the  interlacing  serpents  forming  them  are 
+adapted  from  those  on  the  jambs  of  the  porch 
+in  the  tower  of  Monkwearmouth  church  ;  the 
+ground-work  between  the  panels  is  taken  from 
+illuminations  of  the  time  of  Bede  or  stones  of 
+the  same  period.  On  the  base  are  nine  lines  in 
+English  of  Bede's  hymn,  commencing 
+
+"  Ere  a  man  goes  hence 
+Faring-  as  all  need  fare." 
+
+The  north  side,  perhaps  the  most  beautiful  of 
+
+
+all,  shows  heads  of  Bede's  teachers  and  friends: 
+Trumbercht,  Doctor  ;  Benedict  Biscop,  Abbot, 
+founder  ;  Ecgfrith,  King  of  Northumbria,  670 
+685  ;  John,  the  Arch  -  Chanter  ;  Eosterwine, 
+Abbot  ;  Sigfrith,  Abbot  ;  Ceolfrith,  Abbot  ; 
+Acca,  Bishop  ;  Hucetbercht,  Abbot  ;  Ceowulf, 
+King  ;  Ecgbercht,  Archbishop.  On  the  base 
+Bede's  hymn  is  given  in  runes. 
+
+The  west  side  bears  two  extracts  from  Bede's 
+writings,  the  upper  part  from  his  Life  of  St. 
+Cuthbert,  and  the  lower  from  the  preface  to  his 
+Ecclesiastical  History.  The  hymn  is  this 
+time  in  Latin. 
+
+On  the  south  side  the  hymn  is  in  minuscule 
+character,  and  the  shaft  is  occupied  by  a  con- 
+ventional scroll  adapted  from  those  on  the  Bew- 
+castle  and  Ruthwell  crosses. 
+
+This  short  description  is  abbreviated  from 
+Mr.  Hodges'  account  in  Canon  Rawnsley's  Life 
+and  Work  of  Bede*  to  which  the  reader  is  re- 
+ferred for  the  more  elaborate  and  more  com- 
+plete description  of  which  this  beautiful  memo- 
+rial is  so  worthy. 
+
+JAMES  PATTERSON. 
+
+*  The  Venerable  Bede :  his  Life  and  Work.  By  Rev.  Canon 
+Rawnsley.  With  an  Appendix,  giving1  some  account  of  Anglian 
+Art  in  Northern  Britain,  and  a  description  of  the  Bede  Memorial, 
+with  illustrations  and  folding  plates,  by  C.  C.  Hodges.  Paper 
+2s.  net  ;  cloth  35.  6d.  net. 
+
+
+APPENDIX    V. 
+
+NOTES    ON    THE    LIFE    OF    THE 
+REV.    PETER    WILCOCK. 
+
+
+PETER  WILCOCK,  born  28  October,  1777,  was 
+the  son  of  George  and  Ann  Wilcock,  of  Bolton ; 
+this  George  was  the  younger  son  of  James  and 
+Margery  Wilcock  of  Thorpe  Green,  Brindle, 
+Lancashire,  land  surveyor.  His  great  uncle 
+was  Dom.  Peter  Wilcock,  O.S.B.  ;  he  went  to 
+Simm  George  Bordley's  school  at  Ince  Blun- 
+dell ;  admitted  at  Lisbon,  in  the  Bordley  Fund, 
+10  October,  1792;  alumnus  8  December,  1801  ; 
+priest  25  December,  1802  ;  retained  as  a  Pro- 
+fessor; returned  to  England  28  December,  1808. 
+He  was  stationed  for  a  short  time  at  Lady  well, 
+Ferryhalgh,  in  the  County  of  Lancashire.  He 
+then  removed  to  Sunderland,  living  in  Dun- 
+ning Street,  and  succeeding  Rev.  Wm.  Fletcher 
+in  charge  of  that  Mission  in  1812  ;  it  was  here 
+in  1818  that  he  published  his  translation  of 
+Bede's  Lives  of  the  Abbots. 
+
+
+In  1825  he  removed  to  St.  Anthony's,  Liver- 
+pool, where  he  was  instrumental  in  erecting 
+new  church  schools  and  presbytery  in  1830;  in 
+1844  he  retired,  but  remained  in  Liverpool, 
+where  he  died  15  August,  1857,  aged  79  years. 
+
+JAMES   PATTERSON. 
+
+
+Hills  and  Co.'s   Publications. 
+
+
+Bede,  The  Venerable.  Lives  of  the  First  Five  Abbots 
+of  Wearmouth  :  Benedict,  Ceolfrid,  Easterwine, 
+Sigfrid,  and  Huetbert.  Translated  from  the  Latin 
+of  the  Venerable  Bede,  to  which  is  prefaced  a  Life 
+of  the  Author.  By  the^  Rev.  Peter  Wilcock.  Re- 
+printed from  Garbutt's  edition,  with  a  facsimile  of 
+the  original  engraved  title  page.  1910.  Demy 
+8vo.  5/-  net. 
+
+Blake,  W.  H.,  F.C.S.  Coal :  its  Origin,  Constitution, 
+Classification,  &c.  Crown  8vo.  i/-  net. 
+
+Brockie,  Wm.  Sunderland  Notables  :  Natives,  Resi- 
+dents, and  Visitors.  1894.  Demy  8vo.  3/6  net. 
+
+Memoirs  of  Arthur  Augustus  Rees,  Minister  of  the 
+
+Gospel  at  Sunderland.      1884.     6d.  net. 
+
+Chemical  Recipes,  A  Book  of.  By  the  Atlas  Chemical 
+Company.  1,000  Formulae  of  great  value  to 
+Manufacturers  of  and  Dealers  in  Chemicals, 
+Paints,  Inks,  Disinfectants,  Essences,  &c.  1896. 
+Originally  2i/-,  now  7/6.  Only  a  few  copies  left. 
+French  Edition  7/6.  German  Edition  5/- 
+
+Collingwood,  Rev.  C.  S.  Dr.  Cowan  and  The  Grange 
+School,  Sunderland,  with  Recollections  of  Old 
+Scholars.  1897.  Crown  8vo.  3/6  net. 
+
+"  Dunelmensis."  The  Village  of  Sandon  :  a  tale  of 
+Village  Parochial  Life.  1905.  i/-  net. 
+
+Middlemiss,  Rev.  J.  T.,  and  Hyslop,  Robert.     A 
+
+Short  History  of  Presbyterianism  in  Sunderland. 
+Illustrated.     6d 
+
+
+HILLS    &    CO.'S    PUBLICATIONS. 
+
+
+Patterson,  James.  A  Guide  to  Sunderland  and  Neigh- 
+bourhood, including  Roker,  Marsden,  Finchale 
+Priory,  &c.,  with  a  brief  account  of  the  Borough. 
+Illustrated.  1906.  Paper  6d.,  stiff  boards  i/- 
+net. 
+
+Randell,  G.  P.  P.  Bungalow  Ballads  :  Echoes  from 
+the  East.  1910.  Crown  8vo.  i/-  net. 
+
+Rawnsley,  Rev.  Canon.  The  Venerable  Bede  :  his 
+Life  and  Work  ;  a  Lecture,  with  an  Account  of 
+the  Bede  Memorial  in  Roker  Cliff  Park,  Sunder- 
+land. 4  full-page  Illustrations  and  2  Folding 
+Plans  by  the  Architect,  C.  C  Hodges.  1904. 
+Demy  8vo.  Paper  2/-  net. ,  cloth  3/6  net. 
+
+Sharp,  Sir  Cuthbert,  F.S.A.  The  Bishoprick  Garland: 
+or  a  Collection  of  Legends,  Songs,  Ballads,  &c. , 
+belonging  to  the  County  of  Durham.  A  fac- 
+simile reprint  of  the  original  1834  edition.  Illus- 
+trated. 1906.  Only  150  copies  printed.  Demy 
+8vo.  5/-  net.  A  small  number  left. 
+
+Surtees,  Robert,  F.S.A.  The  History  and  Antiquities 
+of  the  County  Palatine  of  Durham,  compiled 
+from  Original  Records  preserved  in  Public  Re- 
+positories and  Private  Collections.  A  reprint  of 
+the  magnificent  folios,  but  without  the  illustra- 
+tions. Very  considerable  corrections  and  addi- 
+tions have  been  made  to  the  Pedigrees  by  Mr. 
+Herbert  M.  Wood,  B.A.,  Hon.  Secretary  of  the 
+Durham  and  Northumberland  Parish  Register 
+Society,  and  also  copious  indices  containing  many 
+thousand  references  in  each  volume. 
+
+Now  ready,  Vol.  I.,  The  Sunderland  Sec- 
+tion (large  paper  copies  all  sold),  1908  ;  and 
+Vol.  II.,  The  Gateshead  and  South  Tyne  Section, 
+1909.  Demy  4to,  half  buckram,  I5/-  each,  net, 
+or  large  paper  edition  (crown  folio),  on  Van 
+Gelder's  hand-made  paper,  31/6. 
+
+"  We  are  glad  to  see  that  no  attempt  has  been  made  to 
+edit  Surtees.  Purchasers  of  this  work  will  have  before 
+them  the  original  text  and  pedigrees,  even  the  spelling, 
+punctuation,  and  capitals  of  the  author  having  been  pre- 
+served. In  one  respect  this  reprint  shows  a  marked  ad- 
+vance on  the  original  issue,  for  satisfactorily  full  indexes 
+of  names,  pedigrees,  and  places,  etc.,  have  been  supplied." 
+—  The  Antiquary. 
+
+
+HILLS    &    CO.'S    PUBLICATIONS. 
+
+SURTEES  (Continued). 
+
+"A  handsome  4to  volume,  excellently  printed  and  con- 
+taining full  pedigrees  and  indices." — Northern  Echo. 
+
+"The  reproduction  is  in  every  way  worthy  of  the 
+subject  which  has  come  to  be  regarded  as  a  classic  in  the 
+opinion  of  antiquaries,  historians,  and  others  well  qualified 
+to  judge  of  such  a  matter." — Newcastle  Daily  Journal. 
+
+In  the  Press.  Uniform  with  the  above,  Vol.  III., 
+The  Hartlepool  Section,  which  includes  the 
+District  south  of  Seaham  Harbour  to  Hartlepool, 
+comprising  the  Parishes  and  Townships  of 
+Dalton,  Hetton,  Eppleton,  Fitting-ton,  Warden, 
+Haswell,  Shotton,  Easington,  Castle  Eden, 
+Elwick,  Hartlepool,  Hart,  Hesledon,  Kelloe, 
+Wingate,  Trimdon,  Rainton,  etc. 
+
+Sparkes,  Wm.  E.,  F.R.A.S.  The  Peak  of  Teneriffe  : 
+a  record  of  a  climb  up  the  Peak  with  a  Telescope. 
+1908.  Crown  8vo.  8d.  net. 
+
+Tilston,  Rev.  Thos.  Dramatic,  Lyrical,  and  Idyllic 
+Poems.  Crown  8vo.  6/-  net. 
+
+Waters,  Rev.  R.  A.,  D.C.L.  Hendon  :  Past  and  Pre- 
+sent, and  a  brief  Memoir  of  Rev.  Canon  Mathie, 
+with  a  map  of  Northern  Hendon  and  adjacent 
+parts  of  Bishopwearmouth.  1900.  Crown  8vo. 
+i/-  net. 
+
+Woolacott,  D.,  D.Sc.  Geology  of  North-East  Dur- 
+ham :  a  popular  work.  1897.  Crown  8vo.  1/6 
+net. 
+
+
+HILLS    &    CO., 
+
+19    FAWCETT    ST.,    SUNDERLAND. 
+
+
+AUTODC 
+
+
+.  DD6 
+
+
+,  CA  94720 
+
+
+O.C.  BERKELEY  LIBRARIES 
+
+
+C03S3215143 
+
+
+' 
+
+

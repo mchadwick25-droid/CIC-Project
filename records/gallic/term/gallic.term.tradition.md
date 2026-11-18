@@ -77,7 +77,7 @@ plain_meaning: >-
   Vincent's second criterion of truth after Scripture, "the Tradition of the Catholic Church." Pope
   Stephen's rule, "nothing but what has been handed down." Cassian's "traditions of the Elders" by
   which thoughts are judged. And the "steady tradition ... from antiquity" without which Martin would
-  not honour a tomb.
+  not honor a tomb.
 world_word: tradition / "handed down"
 false_friend:
 - a rival authority to Scripture in a confessional debate
@@ -104,7 +104,7 @@ senses:
   personal: >-
     Tradition for us is not a body of doctrine but a handed-down way of judging - a thought, a fast, a
     garment, a grave. The same test Vincent applies to a doctrine and Cassian to a custom, Martin
-    applies to a tomb: nothing is honoured that was not handed down. Our most authoritative writers all
+    applies to a tomb: nothing is honored that was not handed down. Our most authoritative writers all
     insist that they are inventing nothing.
   translational: >-
     'Tradition versus Scripture - which did you put first?' - the question is not ours: Vincent needed

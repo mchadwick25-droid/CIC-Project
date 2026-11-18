@@ -1,0 +1,145 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "rzg.witness.what-we-have-of-christ"
+   ],
+   "sentence": "We do not claim a living line of witnesses back to the earliest followers."
+  },
+  {
+   "record_ids": [
+    "rzg.witness.what-we-have-of-christ"
+   ],
+   "sentence": "No one among us met anyone who met Christ, and fifteen hundred years stand between his life and ours."
+  },
+  {
+   "record_ids": [
+    "rzg.witness.what-we-have-of-christ"
+   ],
+   "sentence": "What we have is the text, and we hold that it is enough on its own terms."
+  },
+  {
+   "record_ids": [
+    "rzg.term.reformation"
+   ],
+   "sentence": "So we tested every inherited practice against Scripture, in public, and let go of what would not stand."
+  },
+  {
+   "record_ids": [
+    "rzg.gravity.scripture-sole-authority-disputation-catechesis"
+   ],
+   "sentence": "Whatever Scripture will not yield, we have no standing to require."
+  },
+  {
+   "record_ids": [
+    "rzg.witness.what-we-have-of-christ"
+   ],
+   "sentence": "Where we have not rightly understood the Scriptures, we will be taught better, but only from the Scriptures themselves, not from a chain of memory we do not possess."
+  },
+  {
+   "record_ids": [
+    "rzg.core.the-reformed-cities-zurich-and-geneva"
+   ],
+   "sentence": "Our record is rich in confession and doctrine, and thin on daily practice, where first-person voices are almost wholly missing."
+  }
+ ],
+ "citations": [
+  "rzg.core.the-reformed-cities-zurich-and-geneva",
+  "rzg.gravity.scripture-sole-authority-disputation-catechesis",
+  "rzg.term.reformation",
+  "rzg.witness.what-we-have-of-christ"
+ ],
+ "group": "A",
+ "id": "q017",
+ "net_sentences": [
+  {
+   "draft": "We do not claim a living line of witnesses back to the earliest followers [[rzg.witness.what-we-have-of-christ]] [[as:paraphrase]].",
+   "sentence": "We do not claim a living line of witnesses back to the earliest followers.",
+   "tags": [
+    "rzg.witness.what-we-have-of-christ"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "No one among us met anyone who met Christ, and fifteen hundred years stand between his life and ours [[rzg.witness.what-we-have-of-christ]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "No one among us met anyone who met Christ, and fifteen hundred years stand between his life and ours.",
+   "tags": [
+    "rzg.witness.what-we-have-of-christ"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "What we have is the text, and we hold that it is enough on its own terms [[rzg.witness.what-we-have-of-christ]] [[as:paraphrase]].",
+   "sentence": "What we have is the text, and we hold that it is enough on its own terms.",
+   "tags": [
+    "rzg.witness.what-we-have-of-christ"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "So we tested every inherited practice against Scripture, in public, and let go of what would not stand [[rzg.term.reformation]] [[as:paraphrase]].",
+   "sentence": "So we tested every inherited practice against Scripture, in public, and let go of what would not stand.",
+   "tags": [
+    "rzg.term.reformation"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Whatever Scripture will not yield, we have no standing to require [[rzg.gravity.scripture-sole-authority-disputation-catechesis]] [[as:paraphrase]].",
+   "sentence": "Whatever Scripture will not yield, we have no standing to require.",
+   "tags": [
+    "rzg.gravity.scripture-sole-authority-disputation-catechesis"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Where we have not rightly understood the Scriptures, we will be taught better, but only from the Scriptures themselves, not from a chain of memory we do not possess [[rzg.witness.what-we-have-of-christ]] [[as:paraphrase]].",
+   "sentence": "Where we have not rightly understood the Scriptures, we will be taught better, but only from the Scriptures themselves, not from a chain of memory we do not possess.",
+   "tags": [
+    "rzg.witness.what-we-have-of-christ"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Our record is rich in confession and doctrine, and thin on daily practice, where first-person voices are almost wholly missing [[rzg.core.the-reformed-cities-zurich-and-geneva]] [[as:paraphrase]].",
+   "sentence": "Our record is rich in confession and doctrine, and thin on daily practice, where first-person voices are almost wholly missing.",
+   "tags": [
+    "rzg.core.the-reformed-cities-zurich-and-geneva"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  }
+ ],
+ "offered": [
+  "rzg.witness.one-conviction-two-enactments",
+  "rzg.term.sola-scriptura",
+  "rzg.story.myconius-account-of-zwinglis-death",
+  "rzg.gravity.sovereignty-of-god-predestination-election",
+  "rzg.gravity.consistorial-church-discipline",
+  "rzg.force.augustinian-inheritance-predestination-grace",
+  "rzg.contested.anabaptist-schism-legitimacy",
+  "rzg.witness.a-quieted-mind",
+  "rzg.term.reformation",
+  "rzg.witness.what-we-have-of-christ",
+  "rzg.gravity.scripture-sole-authority-disputation-catechesis"
+ ],
+ "raw_text": "We do not claim a living line of witnesses back to the earliest followers [[rzg.witness.what-we-have-of-christ]] [[as:paraphrase]].\nNo one among us met anyone who met Christ, and fifteen hundred years stand between his life and ours [[rzg.witness.what-we-have-of-christ]] [[as:paraphrase]].\nWhat we have is the text, and we hold that it is enough on its own terms [[rzg.witness.what-we-have-of-christ]] [[as:paraphrase]].\nSo we tested every inherited practice against Scripture, in public, and let go of what would not stand [[rzg.term.reformation]] [[as:paraphrase]].\nWhatever Scripture will not yield, we have no standing to require [[rzg.gravity.scripture-sole-authority-disputation-catechesis]] [[as:paraphrase]].\nWhere we have not rightly understood the Scriptures, we will be taught better, but only from the Scriptures themselves, not from a chain of memory we do not possess [[rzg.witness.what-we-have-of-christ]] [[as:paraphrase]].\nOur record is rich in confession and doctrine, and thin on daily practice, where first-person voices are almost wholly missing [[rzg.core.the-reformed-cities-zurich-and-geneva]] [[as:paraphrase]].\n",
+ "reply_shape": {
+  "placed": [],
+  "removed": [],
+  "repaired": []
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": "C7.S8",
+ "text": "We do not claim a living line of witnesses back to the earliest followers. No one among us met anyone who met Christ, and fifteen hundred years stand between his life and ours. What we have is the text, and we hold that it is enough on its own terms. So we tested every inherited practice against Scripture, in public, and let go of what would not stand. Whatever Scripture will not yield, we have no standing to require. Where we have not rightly understood the Scriptures, we will be taught better, but only from the Scriptures themselves, not from a chain of memory we do not possess. Our record is rich in confession and doctrine, and thin on daily practice, where first-person voices are almost wholly missing.",
+ "voice_set_aside": false
+}

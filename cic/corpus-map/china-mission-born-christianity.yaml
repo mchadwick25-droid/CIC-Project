@@ -3,6 +3,15 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: china-mission-born-christianity
 works:
+- row_id: chinese-repository_v19-no3-march-1850-paul-su-apology--xu-guangqi-paul-su-memorial-to-the-wanli-emperor-in-defence-of-the-jesuits-in-english-chinese-repository-march-1850
+  work: Xu Guangqi (Paul Su), memorial to the Wanli emperor in defence of the Jesuits, in
+    English (Chinese Repository, March 1850)
+  author: chinese-repository
+  locus: about OCR lines 1293-1757; add 12 to OCR line numbers
+  role: tradition
+  confidence: provisional
+  note: A convert official's own memorial, in an unnamed translator's English of 1850.
+  source_file: chinese-repository_v19-no3-march-1850-paul-su-apology.txt
 - row_id: purchas_hakluytus-posthumus-pilgrimes-v12_1906--the-jesuit-china-mission-in-english-trigault-ricci-and-pantoja-chapters-v-viii
   work: 'The Jesuit China mission in English: Purchas''s 1625 abridgement of Trigault''s De
     Christiana expeditione (from Ricci) and Pantoja''s letter from Peking of 1602 (Chapters

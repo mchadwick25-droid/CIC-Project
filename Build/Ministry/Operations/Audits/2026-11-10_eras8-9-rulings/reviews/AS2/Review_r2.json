@@ -1,0 +1,40 @@
+{
+ "slice": "AS2",
+ "round": 2,
+ "verdict": "approve",
+ "blocking": [],
+ "substantial": [],
+ "minor": [
+  {
+   "id": "R2-M1",
+   "where": "protestant-churches-of-the-voc-world.modernCountries; catholics-of-dutch-ceylon.modernCountries; flags (IDS)",
+   "problem": "Coordinator rule: modernCountries IDs come from census rows only. Sri Lanka Q854, Jaffna Q215277 and Puttalam Q3088741 are in no census row (grep of world-census.json finds no Q854); they were taken from the 2026-11-07 place-labels file. The IDs are correct, so nothing is wrong for a reader: this is mechanical. The IDS flag is also stale (it still speaks of Timor and of AP5 having no Sri Lanka entry).",
+   "evidence": "grep Q854 cic-website/data/world-census.json: no match.",
+   "fix": "AP6 modernCountries [] ; AP5 keep Java only. Put Sri Lanka, Jaffna, Puttalam (and Vietnam) in the one Open-Gaps item for missing IDs. Rewrite the IDS flag to match."
+  },
+  {
+   "id": "R2-M2",
+   "where": "vietnamese-catholicism-to-1815.sources; protestant-churches-of-the-voc-world.sources",
+   "problem": "Sources list does not hold every source the text rests on. The era 8 Vietnam row now rests on Launay 1893 (Rhodes a Frenchman; the 1670 founding of the Lovers of the Cross) but lists only Launay 1894. AP5's legacy (Kam, from 1815) rests on Aritonang ch. 9, while the source says 'ch. 5'.",
+   "evidence": "fact_table rows 'Among the Jesuits was the French Jesuit Alexandre de Rhodes' (raw/launay1893.txt) and 'From 1815 Joseph Kam ...' (Aritonang ch. 9, 'Joseph Kam in Ambon (1815-1833)').",
+   "fix": "Add {work: 'Adrien Launay, Mgr Retord et le Tonkin catholique, 1831-1858 (Paris, 1893)', type: 'secondary', note: 'A history by a priest of the Paris mission. It names Rhodes as Tonkin\\'s first great converter and dates the Lovers of the Cross to 1670.'} to the era 8 row. AP5: change 'ch. 5' to 'chs. 5 and 9' and add 'and Joseph Kam\\'s renewal of the Moluccan church from 1815' to its note."
+  },
+  {
+   "id": "R2-M3",
+   "where": "vietnamese-catholicism-to-1815.sources[1].note (Dutton)",
+   "problem": "Leftover of S3: 'the quarrel between the Portuguese Jesuits and the vicars'.",
+   "evidence": "Dutton: 'Portuguese missionary project'.",
+   "fix": "'... the quarrel between the Jesuits of the Portuguese mission and the vicars.'"
+  },
+  {
+   "id": "R2-M4",
+   "where": "protestant-churches-of-the-voc-world.livingEvidence",
+   "problem": "descentConfidence is Dominant Modern Reconstruction, but the basis does not say what the grade rests on.",
+   "evidence": "P2-V brief: say in descentBasis/basis what the grade rests on.",
+   "fix": "Append to basis: 'The descent grade rests on a modern study (Aritonang and Steenbrink, ch. 9), which tells Joseph Kam renewing the same church from 1815; the line from there to today's Moluccan church is not yet read from a source.'"
+  }
+ ],
+ "quotes_checked": 154,
+ "quotes_failed": [],
+ "notes": "Targeted recheck of round 1 S1-S8 and M1-M13 against Changes_r1.md and the revised draft.\ncheck_draft.py on my own fetch (review/AS2/raw): 154 quotes, 0 misses; one READ-FAIL, VII.2 longDescription[0], frozen census text (VIII.27's is gone with the dropped change). New or changed quotes re-verified against my fetch: Launay 1893 'Le premier grand convertisseur du Tonkin fut un Français' and 'vicaire apostolique depuis i83i'; Dutton 1660 passage; Aritonang ch. 9 'Joseph Kam in Ambon (1815-1833)'; Chitty Caldeiro passage. Collectanea grant: the drafter is right and my round 1 line was wrong; 'R. Dentur Indulgentiae petitae' is line 13819 (verified with sed -n 13815,13820p).\nClosed: S1 (AP9 held, VIII.27 untouched, hold text as proposed); S2 ('That year' now follows the February 1670 synod); S3; S4 (both dates named; why fixed); S5 (Vaz late seventeenth century; 1743 after 1717); S6 ('probably', 'meant to visit'); S7 (link dropped, Kam sentence in legacy, hold for Mark); S8 (living true on all four, carrier and own grades as proposed; validator shape satisfied). M1-M11 closed; M12, M13 flagged as agreed.\nRemaining: four minor items, mechanical, none wrong, unsupported or misleading for a reader; the coordinator can apply them at merge without another round.\nCounts: 0 blocking, 0 substantial, 4 minor. Verdict: approve."
+}

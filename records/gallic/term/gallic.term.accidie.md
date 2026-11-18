@@ -30,7 +30,7 @@ retrieval:
   - participant uses "acedia," "sloth," "boredom," "depression," "listlessness," "burnout," or "restlessness"
   - Institutes X, the monk gazing at the sun, the pretext of visiting the sick, or the deserter "entangled in secular business"
   prefer_instead:
-  - the general cooling of fervour (retrieve lukewarmness)
+  - the general cooling of fervor (retrieve lukewarmness)
   - the list as a whole (retrieve the eight principal faults)
   - clinical depression as a modern category
 relations:
@@ -83,7 +83,7 @@ senses:
     "that religious woman, devoted to the service of God, who is deprived of all support of kindred" -
     "until little by little he is drawn away from his cell, and begins to forget the object of his
     profession ... and so the soldier of Christ becomes a runaway from His service, and a deserter."
-    The attack is twofold, sleep or flight; the remedy is the cell, held by labour.
+    The attack is twofold, sleep or flight; the remedy is the cell, held by labor.
   evidential: >-
     Cassian only (Institutes X.1-5), the elders' teaching by his framing. The lemma is the editor's
     supply; his Chaucer footnote is editorial and not used. Tours has no counterpart.
@@ -106,7 +106,7 @@ use_note:
   not_for:
     - "sloth as laziness, or depression and burnout as clinical conditions"
     - "a Gallic coinage, when Cassian gives the name and the midday demon as the teaching of Egypt's elders"
-    - "the general cooling of fervour, which sits in gallic.term.lukewarmness"
+    - "the general cooling of fervor, which sits in gallic.term.lukewarmness"
     - "the list of faults as a whole, which sits in gallic.term.eight-principal-faults"
   years: {from: 415, to: 426}
   status: reviewed

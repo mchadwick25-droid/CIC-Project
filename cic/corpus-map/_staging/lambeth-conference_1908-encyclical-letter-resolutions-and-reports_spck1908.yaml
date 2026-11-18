@@ -1,0 +1,11 @@
+source_file: lambeth-conference_1908-encyclical-letter-resolutions-and-reports_spck1908.txt
+assignments:
+- row_id: lambeth-conference_1908-encyclical-letter-resolutions-and-reports_spck1908--lambeth-conference-1908-encyclical-letter-resolutions-and
+  work: 'Lambeth Conference 1908: Encyclical Letter, Resolutions and Reports'
+  author: lambeth-conference
+  locus: 'the Encyclical Letter, lines 1577-2704; the Resolutions, lines 2710-3667'
+  atlas_ids:
+  - the-anglican-communion-twentieth-century
+  role: tradition
+  confidence: assigned
+  note: 'The conference''s own printed acts.'

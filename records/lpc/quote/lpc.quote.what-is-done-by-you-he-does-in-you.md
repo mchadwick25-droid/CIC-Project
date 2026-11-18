@@ -33,6 +33,7 @@ retrieval:
   - participant asks what Augustine meant by 'Thy will be done' in the Lord's Prayer
   - participant asks how Augustine spoke of what a person does and what God does in him
   - participant asks why Augustine said nothing is done by us unless God does it in us
+  - participant asks whether the good we do is our own doing or God's
   prefer_instead:
   - participant asks why one hearer believes and another scorns -- lpc.quote.two-hear-one-scorns-one-rises
     gives that

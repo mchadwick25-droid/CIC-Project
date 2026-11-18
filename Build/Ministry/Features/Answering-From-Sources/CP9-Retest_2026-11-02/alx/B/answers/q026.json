@@ -1,0 +1,207 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "alx.dw.church-failure",
+    "alx.force.origen-demetrius-conflict"
+   ],
+   "sentence": "What unsettles us is a wound within our own household: our greatest teacher was driven out by his own bishop, not by pagans."
+  },
+  {
+   "record_ids": [
+    "alx.force.origen-demetrius-conflict"
+   ],
+   "sentence": "Origen left for Caesarea, and Demetrius condemned the irregular ordination."
+  },
+  {
+   "record_ids": [
+    "alx.force.origen-demetrius-conflict"
+   ],
+   "sentence": "The school tradition's most fruitful period was broken, as teacher and office came into open conflict."
+  },
+  {
+   "record_ids": [
+    "alx.quote.demetrius-accused-him-bitterly"
+   ],
+   "sentence": "Eusebius of Caesarea reported in Church History VI.8: “But soon after, this same Demetrius saw that Origen was doing well and growing great and honored by all. Overcome by human weakness, he wrote to bishops all over the world and called Origen's deed most foolish. But the bishops of Caesarea and Jerusalem, the most notable and respected bishops in Palestine, judged Origen fully worthy of the honor. They ordained him a presbyter. After that his fame grew greatly and his name became known everywhere, and he won no small name for virtue and wisdom. But Demetrius had nothing else he could say against him except this deed of his boyhood. He accused him bitterly, and he even dared to include in these charges the men who had made him a presbyter.”"
+  },
+  {
+   "record_ids": [
+    "alx.force.origen-demetrius-conflict"
+   ],
+   "sentence": "The structure of the conflict is well attested, but its details rest on Eusebius."
+  },
+  {
+   "record_ids": [
+    "alx.dw.church-failure"
+   ],
+   "sentence": "The church remembered both men rather than erasing either."
+  },
+  {
+   "record_ids": [
+    "alx.gravity.speculative-doctrinal-tension"
+   ],
+   "sentence": "Our relation to Origen holds inheritance and unease together."
+  },
+  {
+   "record_ids": [
+    "alx.dw.church-failure"
+   ],
+   "sentence": "After Nicaea, the church itself learned to use exile and condemnation, and some of what was done with that power our own sources report without pride."
+  }
+ ],
+ "citations": [
+  "alx.dw.church-failure",
+  "alx.force.origen-demetrius-conflict",
+  "alx.gravity.speculative-doctrinal-tension",
+  "alx.quote.demetrius-accused-him-bitterly"
+ ],
+ "group": "A",
+ "id": "q026",
+ "net_sentences": [
+  {
+   "draft": "What unsettles us is a wound within our own household: our greatest teacher was driven out by his own bishop, not by pagans [[alx.dw.church-failure]] [[alx.force.origen-demetrius-conflict]] [[as:paraphrase]].",
+   "sentence": "What unsettles us is a wound within our own household: our greatest teacher was driven out by his own bishop, not by pagans.",
+   "tags": [
+    "alx.dw.church-failure",
+    "alx.force.origen-demetrius-conflict"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Origen left for Caesarea, and Demetrius condemned the irregular ordination [[alx.force.origen-demetrius-conflict]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "Origen left for Caesarea, and Demetrius condemned the irregular ordination.",
+   "tags": [
+    "alx.force.origen-demetrius-conflict"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "The school tradition's most fruitful period was broken, as teacher and office came into open conflict [[alx.force.origen-demetrius-conflict]] [[as:paraphrase]].",
+   "sentence": "The school tradition's most fruitful period was broken, as teacher and office came into open conflict.",
+   "tags": [
+    "alx.force.origen-demetrius-conflict"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Eusebius of Caesarea reported in Church History VI.8: [[quote:alx.quote.demetrius-accused-him-bitterly]]",
+   "placed_quote": "alx.quote.demetrius-accused-him-bitterly",
+   "sentence": "Eusebius of Caesarea reported in Church History VI.8: “But soon after, this same Demetrius saw that Origen was doing well and growing great and honored by all. Overcome by human weakness, he wrote to bishops all over the world and called Origen's deed most foolish. But the bishops of Caesarea and Jerusalem, the most notable and respected bishops in Palestine, judged Origen fully worthy of the honor. They ordained him a presbyter. After that his fame grew greatly and his name became known everywhere, and he won no small name for virtue and wisdom. But Demetrius had nothing else he could say against him except this deed of his boyhood. He accused him bitterly, and he even dared to include in these charges the men who had made him a presbyter.”",
+   "tags": [
+    "alx.quote.demetrius-accused-him-bitterly"
+   ],
+   "verdict": "ok",
+   "why": "quote placed by code, verbatim to its record"
+  },
+  {
+   "draft": "[[as:paraphrase]].",
+   "sentence": ".",
+   "tags": [],
+   "verdict": "ok",
+   "why": "no checkable claim - interpretive/connective framing"
+  },
+  {
+   "draft": "The structure of the conflict is well attested, but its details rest on Eusebius [[alx.force.origen-demetrius-conflict]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "The structure of the conflict is well attested, but its details rest on Eusebius.",
+   "tags": [
+    "alx.force.origen-demetrius-conflict"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "The church remembered both men rather than erasing either [[alx.dw.church-failure]] [[as:paraphrase]].",
+   "sentence": "The church remembered both men rather than erasing either.",
+   "tags": [
+    "alx.dw.church-failure"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Our relation to Origen holds inheritance and unease together [[alx.gravity.speculative-doctrinal-tension]] [[as:paraphrase]].",
+   "ratio": 0.67,
+   "sentence": "Our relation to Origen holds inheritance and unease together.",
+   "tags": [
+    "alx.gravity.speculative-doctrinal-tension"
+   ],
+   "verdict": "ok",
+   "why": "grounded 67% in own tagged records"
+  },
+  {
+   "draft": "After Nicaea, the church itself learned to use exile and condemnation, and some of what was done with that power our own sources report without pride [[alx.dw.church-failure]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "After Nicaea, the church itself learned to use exile and condemnation, and some of what was done with that power our own sources report without pride.",
+   "tags": [
+    "alx.dw.church-failure"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  }
+ ],
+ "offered": [
+  "alx.dw.church-failure",
+  "alx.term.arete",
+  "alx.term.baptism",
+  "alx.term.methexis",
+  "alx.story.gregory-formation",
+  "alx.story.john-young-robber",
+  "alx.quote.demetrius-accused-him-bitterly",
+  "alx.quote.clement-rash-martyrdom",
+  "alx.gravity.soul-transformation",
+  "alx.gravity.martyrdom-contemplative-tension",
+  "alx.force.apostolic-tradition",
+  "alx.contested.desert-attribution",
+  "alx.dw.god",
+  "alx.term.pneuma-hagion",
+  "alx.quote.clement-schoolmaster",
+  "alx.term.prayer",
+  "alx.quote.clement-instructor",
+  "alx.quote.gregory-spark",
+  "alx.term.episkopos",
+  "alx.term.ekklesia",
+  "alx.term.didaskalos",
+  "alx.story.leonides-martyrdom",
+  "alx.quote.clement-bee",
+  "alx.force.origen-demetrius-conflict",
+  "alx.contested.didaskaleion-institution",
+  "alx.gravity.learning-community-tension",
+  "alx.gravity.speculative-doctrinal-tension"
+ ],
+ "raw_text": "What unsettles us is a wound within our own household: our greatest teacher was driven out by his own bishop, not by pagans [[alx.dw.church-failure]] [[alx.force.origen-demetrius-conflict]] [[as:paraphrase]]. Origen left for Caesarea, and Demetrius condemned the irregular ordination [[alx.force.origen-demetrius-conflict]] [[as:paraphrase]]. The school tradition's most fruitful period was broken, as teacher and office came into open conflict [[alx.force.origen-demetrius-conflict]] [[as:paraphrase]]. Eusebius of Caesarea reported in Church History VI.8: [[quote:alx.quote.demetrius-accused-him-bitterly]] [[as:paraphrase]]. The structure of the conflict is well attested, but its details rest on Eusebius [[alx.force.origen-demetrius-conflict]] [[as:paraphrase]]. The church remembered both men rather than erasing either [[alx.dw.church-failure]] [[as:paraphrase]]. Our relation to Origen holds inheritance and unease together [[alx.gravity.speculative-doctrinal-tension]] [[as:paraphrase]]. After Nicaea, the church itself learned to use exile and condemnation, and some of what was done with that power our own sources report without pride [[alx.dw.church-failure]] [[as:paraphrase]].\n",
+ "reply_shape": {
+  "leadin_support": {
+   "alx.quote.demetrius-accused-him-bitterly": [
+    {
+     "detail": "History",
+     "kind": "name",
+     "snippet": "these charges the men who had made him a presbyter. Church History VI.8.4-5 (npnf201_eusebius-church-history-life-of-constanti",
+     "span": "record alx.quote.demetrius-accused-him-bitterly"
+    },
+    {
+     "detail": "VI",
+     "kind": "name",
+     "snippet": "harges the men who had made him a presbyter. Church History VI.8.4-5 (npnf201_eusebius-church-history-life-of-constantine.",
+     "span": "record alx.quote.demetrius-accused-him-bitterly"
+    }
+   ]
+  },
+  "placed": [
+   "alx.quote.demetrius-accused-him-bitterly"
+  ],
+  "removed": [],
+  "repaired": []
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": "C14.S5",
+ "text": "What unsettles us is a wound within our own household: our greatest teacher was driven out by his own bishop, not by pagans. Origen left for Caesarea, and Demetrius condemned the irregular ordination. The school tradition's most fruitful period was broken, as teacher and office came into open conflict. Eusebius of Caesarea reported in Church History VI.8: “But soon after, this same Demetrius saw that Origen was doing well and growing great and honored by all. Overcome by human weakness, he wrote to bishops all over the world and called Origen's deed most foolish. But the bishops of Caesarea and Jerusalem, the most notable and respected bishops in Palestine, judged Origen fully worthy of the honor. They ordained him a presbyter. After that his fame grew greatly and his name became known everywhere, and he won no small name for virtue and wisdom. But Demetrius had nothing else he could say against him except this deed of his boyhood. He accused him bitterly, and he even dared to include in these charges the men who had made him a presbyter.”. The structure of the conflict is well attested, but its details rest on Eusebius. The church remembered both men rather than erasing either. Our relation to Origen holds inheritance and unease together. After Nicaea, the church itself learned to use exile and condemnation, and some of what was done with that power our own sources report without pride.",
+ "voice_set_aside": false
+}

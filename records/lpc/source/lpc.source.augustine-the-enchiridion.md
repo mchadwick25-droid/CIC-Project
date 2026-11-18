@@ -20,6 +20,7 @@ edition: Nicene and Post-Nicene Fathers, Series I, vol. III, vendored as cic/tex
   the Latin original (Bruder's 1838 Maurist-text edition) is separately vendored as row 200
 citation: 'Augustine of Hippo, The Enchiridion (On Faith, Hope, and Love), Nicene and Post-Nicene Fathers, Series I, vol. III'
 kind: vendored
+shelf_row: npnf103_augustine-holy-trinity-doctrinal-moral-treatises--the-enchiridion-on-faith-hope-and-love
 rights_status: 'public-domain; vendored in cic/texts/ as part of the corpus map''s own pre-existing inventory
   (role: tradition, confidence: assigned), carried into this world''s construction without this row''s
   own specific locus being independently re-collated.'

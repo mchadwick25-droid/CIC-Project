@@ -16,8 +16,7 @@ confidence:
     character's direct speech inside the Dialogues, not an independent report about Postumianus.
 sources:
 - source_id: gallic.source.sulpitius-dialogues-ii-iii
-  locus: "Dialogues II.5 (npnf211 div ii.iv.ii.v, file lines 4100-4108): Postumianus conceding,
-    to Gallus, that Martin outdoes every hermit and anchorite of the East"
+  locus: "Dialogues II.5 (cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml, lines 4103-4107; div ii.iv.ii.v): Postumianus conceding, to Gallus, that Martin outdoes every hermit and anchorite of the East"
   license: public-domain
 retrieval:
   tier: 3
@@ -47,7 +46,7 @@ relations:
 use_note:
   means: "Postumianus, a speaker in Sulpitius's Dialogues, concedes to Gallus that Martin has outdone all the hermits and anchorites of the East."
   not_for:
-    - "an independent traveller's judgment, when the speech belongs to Sulpitius's literary dialogue"
+    - "an independent traveler's judgment, when the speech belongs to Sulpitius's literary dialogue"
     - "a measured comparison of Gaul and Egypt rather than partisan praise of Martin"
     - "the claim that Europe needs only Martin, which sits in gallic.quote.europe-will-not-yield-having-only-martin"
   years: {from: 404, to: 406}

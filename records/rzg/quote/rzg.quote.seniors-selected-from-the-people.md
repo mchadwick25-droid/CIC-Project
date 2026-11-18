@@ -15,7 +15,7 @@ confidence:
   divergence_note: null
 sources:
 - source_id: rzg.source.calvin-institutes-book4
-  locus: IV.3.8, lines 2830-2832
+  locus: "IV.3.8 (cic/texts/calvin_institutes-christian-religion-vol3_beveridge1845.txt, lines 2830-2832)"
   license: public-domain
 relations: []
 text: By these governors I understand seniors selected from the people to unite with the bishops in pronouncing

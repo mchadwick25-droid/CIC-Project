@@ -1,0 +1,35 @@
+source_file: christian-east_v9-no3-autumn-1928.txt
+assignments:
+- row_id: christian-east_v9-no3-autumn-1928--whole
+  work: 'The Christian East, volume IX, number 3 (Autumn, 1928)'
+  author: christian-east
+  locus: 'whole'
+  atlas_ids:
+  - the-anglican-communion-twentieth-century
+  role: tradition
+  confidence: assigned
+  language: eng
+  date: {start: 1928, end: 1928, source: "masthead: 'Autumn, 1928'", formation_confidence: Documented}
+  note: 'One number of the quarterly, by many writers. The Eastern documents it prints are in the journal''s English unless a row says otherwise.'
+- row_id: christian-east_v9-no3-autumn-1928--kartashev-the-influence-of-the-church-on-russian-culture-1928
+  work: 'A. Kartashev, ''The Influence of the Church on Russian Culture'' (1928), in The Christian East'
+  author: christian-east
+  locus: 'OCR lines 960-1502; add 12 to OCR line numbers'
+  atlas_ids:
+  - emigre-orthodoxy-and-the-paris-school
+  role: tradition
+  confidence: assigned
+  language: eng
+  date: {start: 1928, end: 1928, source: "printed in the number of Autumn, 1928", formation_confidence: Documented}
+  note: 'The footnote calls it the substance of a speech at the Sorbonne, ''Translated by L. Patterson, D.D.'' (OCR lines 1011-1012).'
+- row_id: christian-east_v9-no3-autumn-1928--bulgakov-the-papal-encyclical-and-the-lausanne-conference-1928
+  work: 'S. Bulgakov, ''The Papal Encyclical and the Lausanne Conference'' (1928), in The Christian East'
+  author: christian-east
+  locus: 'OCR lines 1505-2346; add 12 to OCR line numbers'
+  atlas_ids:
+  - emigre-orthodoxy-and-the-paris-school
+  role: tradition
+  confidence: assigned
+  language: eng
+  date: {start: 1928, end: 1928, source: "printed in the number of Autumn, 1928", formation_confidence: Documented}
+  note: 'His own article, in English with no translator named.'

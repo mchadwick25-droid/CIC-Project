@@ -18,8 +18,7 @@ confidence:
     exorcism, not independent corroboration that any given exorcism occurred.
 sources:
 - source_id: gallic.source.sulpitius-dialogues-ii-iii
-  locus: "Dialogues III.6 (npnf211 div ii.iv.iii.vi, file lines 4900-4909): Martin's manner of
-    exorcism - no touch, no rebuke, sackcloth, the doors bolted"
+  locus: "Dialogues III.6 (cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml, lines 4899-4907; div ii.iv.iii.vi): Martin's manner of exorcism - no touch, no rebuke, sackcloth, the doors bolted"
   license: public-domain
 retrieval:
   tier: 2

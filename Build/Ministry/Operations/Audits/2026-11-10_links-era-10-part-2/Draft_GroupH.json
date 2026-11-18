@@ -1,0 +1,1755 @@
+{
+ "group": "H",
+ "movements": [
+  "african-initiated-churches-harrist-aladura-zioni",
+  "the-ukrainian-greek-catholic-underground",
+  "the-liturgical-movement",
+  "emigre-orthodoxy-and-the-paris-school",
+  "african-diaspora-and-reverse-mission-churches-in",
+  "philippine-independent-church-twentieth-century",
+  "the-russian-new-martyrs-and-the-catacomb-church",
+  "the-coptic-monastic-and-sunday-school-revival"
+ ],
+ "dispositions": [
+  {
+   "movement": "african-initiated-churches-harrist-aladura-zioni",
+   "field": "relationsSummary",
+   "sentence": "Children of mission churches + Pentecostal currents + African initiative irreducible to either",
+   "other_id": "the-missionary-movement-s-native-churches-seramp",
+   "disposition": "link",
+   "link_id": "the-missionary-movement-s-native-churches-seramp--african-initiated-churches-harrist-aladura-zioni",
+   "prose_change": 0,
+   "reason": "Existing era 9 link kept. The new Methodist and Anglican links add two named mission churches. The code-style summary is rewritten as sentences."
+  },
+  {
+   "movement": "african-initiated-churches-harrist-aladura-zioni",
+   "field": "relationsSummary",
+   "sentence": "Children of mission churches + Pentecostal currents + African initiative irreducible to either",
+   "other_id": "azusa-street-and-early-pentecostalism",
+   "disposition": "link",
+   "link_id": "azusa-street-and-early-pentecostalism--african-initiated-churches-harrist-aladura-zioni",
+   "prose_change": 0,
+   "reason": "Inventory left this unmatched. The 'Pentecostal currents' are carried by the existing Contested Azusa link; the rewrite says scholars debate it."
+  },
+  {
+   "movement": "african-initiated-churches-harrist-aladura-zioni",
+   "field": "longDescription",
+   "sentence": "Nehemiah Tile left the Methodists to form the Thembu National Church in the 1880s, and in November 1892 Mangena Mokone founded the Ethiopian Church in South Africa.",
+   "other_id": "nineteenth-century-methodism",
+   "disposition": "link",
+   "link_id": "nineteenth-century-methodism--african-initiated-churches-harrist-aladura-zioni",
+   "prose_change": null,
+   "reason": "Tile's Wesleyan work and his 1884 church are in a modern biographical dictionary read online."
+  },
+  {
+   "movement": "african-initiated-churches-harrist-aladura-zioni",
+   "field": "longDescription",
+   "sentence": "Nehemiah Tile left the Methodists to form the Thembu National Church in the 1880s, and in November 1892 Mangena Mokone founded the Ethiopian Church in South Africa.",
+   "other_id": null,
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Missed by the inventory. Mokone's founding names no other movement; the clause stands on the census's own sourcing and does not say which church he left."
+  },
+  {
+   "movement": "african-initiated-churches-harrist-aladura-zioni",
+   "field": "longDescription",
+   "sentence": "In Uganda, Reuben Spartas Mukasa broke with the Anglicans in January 1929.",
+   "other_id": "the-anglican-communion-twentieth-century",
+   "disposition": "link",
+   "link_id": "the-anglican-communion-twentieth-century--african-initiated-churches-harrist-aladura-zioni",
+   "prose_change": null,
+   "reason": "Drawn as 'gave rise to' (no rupture record from either side); the sentence's date rests on Welbourn as the census traces it."
+  },
+  {
+   "movement": "african-initiated-churches-harrist-aladura-zioni",
+   "field": "longDescription",
+   "sentence": "In 1946 he visited Alexandria and was made the patriarch's trustee, and from then his church was linked to the Greek Orthodox Patriarchate there.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The Patriarchate of Alexandria has no movement of its own. Hayes's entry (quoted on the Anglican link) supports the 1946 visit and the trusteeship."
+  },
+  {
+   "movement": "african-initiated-churches-harrist-aladura-zioni",
+   "field": "longDescription",
+   "sentence": "In 1972 Martial Sinda studied Kimbanguism beside Matsouanism, the movement around André Matswa in Congo-Brazzaville.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Missed by the inventory. Matsouanism has no movement of its own; the sentence names a study (title and year verified in the census trace) and claims no tie."
+  },
+  {
+   "movement": "african-initiated-churches-harrist-aladura-zioni",
+   "field": "legacy",
+   "sentence": "The Zion Christian Church's pilgrimage to Moria was central to its life, and the Kimbanguist church was the first African-initiated church admitted to the World Council of Churches, in 1969.",
+   "other_id": "the-ecumenical-movement-and-the-wcc",
+   "disposition": "link",
+   "link_id": "african-initiated-churches-harrist-aladura-zioni--the-ecumenical-movement-and-the-wcc",
+   "prose_change": null,
+   "reason": "The council's own 1969 minutes record the admission: 'member of'. Christianity Today (1969) calls it the first indigenous African church to apply."
+  },
+  {
+   "movement": "african-initiated-churches-harrist-aladura-zioni",
+   "field": "legacy",
+   "sentence": "Their congregations traveled with African migration and were planted across Europe, a chapter this map tells in a separate entry.",
+   "other_id": "african-diaspora-and-reverse-mission-churches-in",
+   "disposition": "link",
+   "link_id": "african-initiated-churches-harrist-aladura-zioni--african-diaspora-and-reverse-mission-churches-in",
+   "prose_change": null,
+   "reason": "The Church of the Lord (Aladura)'s London branch of 1964, in a modern study read online."
+  },
+  {
+   "movement": "african-initiated-churches-harrist-aladura-zioni",
+   "field": "legacy",
+   "sentence": "They also changed the scholarship: Bengt Sundkler's Bantu Prophets in South Africa (1948) and J. D. Y. Peel's Aladura (1968) made these churches a standard subject rather than a footnote to mission history.",
+   "other_id": null,
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Missed by the inventory. Names two studies, both already cited on the Azusa link; no movement relationship."
+  },
+  {
+   "movement": "the-ukrainian-greek-catholic-underground",
+   "field": "relationsSummary",
+   "sentence": "The world's largest banned church - clandestine ordinations, bishops in the Gulag, emergence intact in 1989; a continuation of the Union of Brest.",
+   "other_id": "the-union-of-brest-and-ruthenian-greek-catholic-",
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Carried by the continued-as chain already on main: Union of Brest to the eighteenth-century church (Widely Accepted), to the Galician church (Documented), to the underground (Widely Accepted). A direct link would skip three eras."
+  },
+  {
+   "movement": "the-ukrainian-greek-catholic-underground",
+   "field": "relationsSummary",
+   "sentence": "The Romanian Greek Catholic Church, dissolved in 1948, has its own entry.",
+   "other_id": "the-romanian-greek-catholic-church-suppression-and-return",
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "A cross-reference to a parallel suppression. No meeting or exchange between the two churches is claimed, and parallel events alone do not make 'in contact with'. Group I's Romanian text names this entry the same way."
+  },
+  {
+   "movement": "the-ukrainian-greek-catholic-underground",
+   "field": "longDescription",
+   "sentence": "In March 1946 a synod was convened at Lviv that dissolved the Ukrainian Greek Catholic Church into the Russian Orthodox Church.",
+   "other_id": "the-russian-orthodox-church-council-patriarchate-and-reunion",
+   "disposition": "link",
+   "link_id": "the-russian-orthodox-church-council-patriarchate-and-reunion--the-ukrainian-greek-catholic-underground",
+   "prose_change": null,
+   "reason": "'argued against' from the Moscow church, on the Ukrainian church's own statement; judged minor (the synod's decisions are not quoted in a listed source)."
+  },
+  {
+   "movement": "the-ukrainian-greek-catholic-underground",
+   "field": "longDescription",
+   "sentence": "In communist Czechoslovakia the Greek Catholic Church was liquidated between 1948 and 1950.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The Slovak Greek Catholic Church has no movement of its own. The sentences rest on Coranič, JEH 72.3 (2021), as the census trace records."
+  },
+  {
+   "movement": "the-liturgical-movement",
+   "field": "relationsSummary",
+   "sentence": "It ran through Benedictine abbeys, journals and parishes, not through the Vatican.",
+   "other_id": "early-benedictine-italian-monasticism",
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The inventory's match to the sixth-century Benedictine entry is wrong: the sentence means the twentieth-century abbeys (Mont César, Saint John's). Mediator Dei, para. 4 (on the Pius X link), bears it out: the movement rose from private initiative and Benedictine houses."
+  },
+  {
+   "movement": "the-liturgical-movement",
+   "field": "relationsSummary",
+   "sentence": "The entry on the Catholic Church before the Council names it once.",
+   "other_id": "the-catholic-church-pius-x-to-the-council",
+   "disposition": "link",
+   "link_id": "the-liturgical-movement--the-catholic-church-pius-x-to-the-council",
+   "prose_change": null,
+   "reason": "Pius XII's Mediator Dei (1947) names and judges the movement."
+  },
+  {
+   "movement": "the-liturgical-movement",
+   "field": "relationsSummary",
+   "sentence": "The entry on the parish after the Council takes up what came of it.",
+   "other_id": "the-post-vatican-ii-parish-world",
+   "disposition": "link",
+   "link_id": "the-liturgical-movement--the-post-vatican-ii-parish-world",
+   "prose_change": null,
+   "reason": "Sacrosanctum Concilium (1963) took up its aims and changed the rite: judged major."
+  },
+  {
+   "movement": "the-liturgical-movement",
+   "field": "longDescription",
+   "sentence": "In England, Gabriel Hebert published Liturgy and Society in 1935.",
+   "other_id": "the-anglican-communion-twentieth-century",
+   "disposition": "link",
+   "link_id": "the-liturgical-movement--the-anglican-communion-twentieth-century",
+   "prose_change": null,
+   "reason": "The Anglican line, on Fenwick and Spinks; Hebert's own books could not be opened."
+  },
+  {
+   "movement": "the-liturgical-movement",
+   "field": "legacy",
+   "sentence": "John Fenwick and Bryan Spinks tell its story across many churches: Catholic, Anglican, Eastern and North American.",
+   "other_id": "the-anglican-communion-twentieth-century",
+   "disposition": "link",
+   "link_id": "the-liturgical-movement--the-anglican-communion-twentieth-century",
+   "prose_change": null,
+   "reason": "Same link. 'Eastern' and 'North American' name no single movement."
+  },
+  {
+   "movement": "emigre-orthodoxy-and-the-paris-school",
+   "field": "relationsSummary",
+   "sentence": "Its roots run through more than one strand of Russian religious life — the Optina monastic tradition and the religious-philosophical renaissance associated with Sergei Bulgakov and Nikolai Berdyaev both feed into it.",
+   "other_id": "the-optina-elders-and-russian-ascetic-renewal",
+   "disposition": "link",
+   "link_id": "the-optina-elders-and-russian-ascetic-renewal--emigre-orthodoxy-and-the-paris-school",
+   "prose_change": null,
+   "reason": "Existing link kept at Inferential-Thin."
+  },
+  {
+   "movement": "emigre-orthodoxy-and-the-paris-school",
+   "field": "relationsSummary",
+   "sentence": "Its roots run through more than one strand of Russian religious life — the Optina monastic tradition and the religious-philosophical renaissance associated with Sergei Bulgakov and Nikolai Berdyaev both feed into it.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Missed by the inventory. The Russian religious-philosophical renaissance has no movement of its own; Bulgakov's place in it is a person, told in the entry."
+  },
+  {
+   "movement": "emigre-orthodoxy-and-the-paris-school",
+   "field": "relationsSummary",
+   "sentence": "Much of English-speaking Orthodoxy in the twentieth century descended from this Paris generation.",
+   "other_id": "american-orthodoxy-autocephaly-and-the-convert-wave",
+   "disposition": "link",
+   "link_id": "emigre-orthodoxy-and-the-paris-school--american-orthodoxy-autocephaly-and-the-convert-wave",
+   "prose_change": null,
+   "reason": "The seminary's own history names the St Sergius teachers who came to St Vladimir's."
+  },
+  {
+   "movement": "emigre-orthodoxy-and-the-paris-school",
+   "field": "relationsSummary",
+   "sentence": "The church the émigrés left behind in Russia has its own entry, the Russian Orthodox Church.",
+   "other_id": "the-russian-orthodox-church-council-patriarchate-and-reunion",
+   "disposition": "link",
+   "link_id": "the-russian-orthodox-church-council-patriarchate-and-reunion--emigre-orthodoxy-and-the-paris-school",
+   "prose_change": null,
+   "reason": "The St Sergius Institute's own history: Russian Orthodox exiles of 1917 formed the communities."
+  },
+  {
+   "movement": "emigre-orthodoxy-and-the-paris-school",
+   "field": "legacy",
+   "sentence": "The Paris generation's own episode closed around 1970, with the handoff its institutions had been building toward: the Orthodox Church in America received autocephaly in 1970, and St Vladimir's Seminary in New York became the school this tradition had built in a second country.",
+   "other_id": "american-orthodoxy-autocephaly-and-the-convert-wave",
+   "disposition": "link",
+   "link_id": "emigre-orthodoxy-and-the-paris-school--american-orthodoxy-autocephaly-and-the-convert-wave",
+   "prose_change": null,
+   "reason": "Same link as the relationsSummary sentence."
+  },
+  {
+   "movement": "emigre-orthodoxy-and-the-paris-school",
+   "field": "longDescription",
+   "sentence": "Sergei Bulgakov's theology drew a controversy of its own between 1935 and 1937, argued in print on both sides;",
+   "other_id": null,
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Missed by the inventory. Names a controversy, not another movement as party. The Moscow decree of 1935 that would make it a link was not opened; it is in wants."
+  },
+  {
+   "movement": "emigre-orthodoxy-and-the-paris-school",
+   "field": "longDescription",
+   "sentence": "YMCA Press printed what they wrote.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Missed by the inventory. The YMCA Press has no movement of its own; it is the publisher named on the existing Optina link's source."
+  },
+  {
+   "movement": "the-coptic-monastic-and-sunday-school-revival",
+   "field": "relationsSummary",
+   "sentence": "Continuation of the map's longest unbroken lane - back to the Desert itself",
+   "other_id": "desert-monasticism",
+   "disposition": "link",
+   "link_id": "desert-monasticism--the-coptic-monastic-and-sunday-school-revival",
+   "prose_change": 1,
+   "reason": "The monastery of St Macarius's own history ties the 1969 revival to the desert fathers. The map-layout note is rewritten in words."
+  },
+  {
+   "movement": "the-coptic-monastic-and-sunday-school-revival",
+   "field": "longDescription",
+   "sentence": "Habib Girgis, born in 1876, taught and wrote from the 1890s and built a church-wide Sunday-school movement, organized around 1918, that trained a generation of lay teachers and then of bishops.",
+   "other_id": "coptic-revival-under-cyril-iv",
+   "disposition": "link",
+   "link_id": "coptic-revival-under-cyril-iv--the-coptic-monastic-and-sunday-school-revival",
+   "prose_change": null,
+   "reason": "Missed by the inventory as a relationship; it is the existing continued-as link from Cyril IV's revival, kept."
+  },
+  {
+   "movement": "the-russian-new-martyrs-and-the-catacomb-church",
+   "field": "relationsSummary",
+   "sentence": "The century's largest persecution of Christians - Solovki, Butovo, the catacomb communities, thousands of canonized new martyrs; the Optina tradition carried through catastrophe.",
+   "other_id": "the-optina-elders-and-russian-ascetic-renewal",
+   "disposition": "link",
+   "link_id": "the-optina-elders-and-russian-ascetic-renewal--the-russian-new-martyrs-and-the-catacomb-church",
+   "prose_change": null,
+   "reason": "Existing continued-as link kept at Inferential-Thin; it mirrors Optina's continuesAs field."
+  },
+  {
+   "movement": "the-russian-new-martyrs-and-the-catacomb-church",
+   "field": "relationsSummary",
+   "sentence": "The church's story as an institution has its own entry, the Russian Orthodox Church.",
+   "other_id": "the-russian-orthodox-church-council-patriarchate-and-reunion",
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "One church told in two entries of the same era; no descent or influence between them. The real relationship, the 1927 split, is the 'broke with' link."
+  },
+  {
+   "movement": "the-russian-new-martyrs-and-the-catacomb-church",
+   "field": "longDescription",
+   "sentence": "In 1927 Metropolitan Sergius issued a Declaration of loyalty to the Soviet state, and the church divided over it — those who refused went into the catacomb communities, following bishops like Joseph of Petrograd and refusing to commemorate Sergius in the liturgy.",
+   "other_id": "the-russian-orthodox-church-council-patriarchate-and-reunion",
+   "disposition": "link",
+   "link_id": "the-russian-new-martyrs-and-the-catacomb-church--the-russian-orthodox-church-council-patriarchate-and-reunion",
+   "prose_change": null,
+   "reason": "Missed by the inventory as a link. Joseph's own 1930 deposition and Sergius's 1929 letter (as the editor quotes it) record the break from both sides."
+  },
+  {
+   "movement": "the-russian-new-martyrs-and-the-catacomb-church",
+   "field": "longDescription",
+   "sentence": "In August 2000 the Moscow patriarchate canonized the new martyrs and confessors in their thousands.",
+   "other_id": "the-russian-orthodox-church-council-patriarchate-and-reunion",
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Missed by the inventory. An act of the same church toward its own dead, told in both entries; no separate link."
+  },
+  {
+   "movement": "the-russian-new-martyrs-and-the-catacomb-church",
+   "field": "legacy",
+   "sentence": "Its story as an institution has its own entry, the Russian Orthodox Church.",
+   "other_id": "the-russian-orthodox-church-council-patriarchate-and-reunion",
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Same cross-reference as the relationsSummary."
+  },
+  {
+   "movement": "african-diaspora-and-reverse-mission-churches-in",
+   "field": "longDescription",
+   "sentence": "Aladura and Kimbanguist congregations were meeting in European cities from the 1960s.",
+   "other_id": "african-initiated-churches-harrist-aladura-zioni",
+   "disposition": "link",
+   "link_id": "african-initiated-churches-harrist-aladura-zioni--african-diaspora-and-reverse-mission-churches-in",
+   "prose_change": null,
+   "reason": "The Aladura half is evidenced (London, 1964); the Kimbanguist half is not, and is flagged on the link."
+  },
+  {
+   "movement": "african-diaspora-and-reverse-mission-churches-in",
+   "field": "longDescription",
+   "sentence": "The Redeemed Christian Church of God, founded in Nigeria in 1952, opened British parishes from the 1980s and Jesus House in London in 1994.",
+   "other_id": "global-south-pentecostal-christianity",
+   "disposition": "link",
+   "link_id": "global-south-pentecostal-christianity--african-diaspora-and-reverse-mission-churches-in",
+   "prose_change": null,
+   "reason": "The RCCG has no movement of its own; it sits in the Global South entry, whose existing part 1 link carries it."
+  },
+  {
+   "movement": "african-diaspora-and-reverse-mission-churches-in",
+   "field": "longDescription",
+   "sentence": "Matthew Ashimolowo founded Kingsway International Christian Centre in London in 1992. Sunday Adelaja founded the Embassy of the Blessed Kingdom of God for All Nations in Kyiv in 1994.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "No movement of their own; the facts stand on the census's own sourcing and were not rechecked in this pass."
+  },
+  {
+   "movement": "african-diaspora-and-reverse-mission-churches-in",
+   "field": "relationsSummary",
+   "sentence": "It continued a pattern as old as Christianity itself — faith traveling with people who have been scattered from their homes.",
+   "other_id": null,
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "A general statement that names no movement."
+  },
+  {
+   "movement": "philippine-independent-church-twentieth-century",
+   "field": "relationsSummary",
+   "sentence": "Its birth in 1902 is told with Philippine Catholicism up to 1906.",
+   "other_id": "philippine-catholicism-gomburza-to-aglipay",
+   "disposition": "link",
+   "link_id": "philippine-catholicism-gomburza-to-aglipay--philippine-independent-church-twentieth-century",
+   "prose_change": null,
+   "reason": "The church's own 1947 Declaration and petition record its withdrawal from Rome in 1902."
+  },
+  {
+   "movement": "philippine-independent-church-twentieth-century",
+   "field": "relationsSummary",
+   "sentence": "The Catholic Church it left has its own entry for this century.",
+   "other_id": "philippine-catholicism-twentieth-century",
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "A cross-reference. The break of 1902 comes before the twentieth-century entry opens in 1906 and is carried by the link from the era 9 entry. Group J's text names this church the same way."
+  },
+  {
+   "movement": "philippine-independent-church-twentieth-century",
+   "field": "relationsSummary",
+   "sentence": "In 1961 it entered full communion with the Episcopal Church, one of the churches of the Anglican Communion.",
+   "other_id": "the-anglican-communion-twentieth-century",
+   "disposition": "link",
+   "link_id": "the-anglican-communion-twentieth-century--philippine-independent-church-twentieth-century",
+   "prose_change": null,
+   "reason": "Linked on the 1946-47 documents; the 1961 concordat itself was not opened and is in wants."
+  },
+  {
+   "movement": "philippine-independent-church-twentieth-century",
+   "field": "longDescription",
+   "sentence": "In October 1946 the church's Supreme Bishop, Isabelo de los Reyes Jr., met Binsted.",
+   "other_id": "the-anglican-communion-twentieth-century",
+   "disposition": "link",
+   "link_id": "the-anglican-communion-twentieth-century--philippine-independent-church-twentieth-century",
+   "prose_change": null,
+   "reason": "Same link; the 1947 correspondence is its source."
+  }
+ ],
+ "links": [
+  {
+   "id": "azusa-street-and-early-pentecostalism--african-initiated-churches-harrist-aladura-zioni",
+   "action": "keep",
+   "from": "azusa-street-and-early-pentecostalism",
+   "to": "african-initiated-churches-harrist-aladura-zioni",
+   "type": "influenced",
+   "confidence": "Contested",
+   "note": "Scholars do not agree on how much Africa's Zionist and prayer churches drew from Pentecostal teaching. Many of them were begun by African prophets and local leaders. They were not begun by missionaries. The debate goes on.",
+   "sources": [
+    {
+     "kind": "secondary",
+     "work": "Bengt Sundkler, Bantu Prophets in South Africa (1948; 2nd ed. 1961)"
+    },
+    {
+     "kind": "secondary",
+     "work": "J. D. Y. Peel, Aladura: A Religious Movement among the Yoruba (Oxford University Press for the International African Institute, 1968)"
+    },
+    {
+     "kind": "secondary",
+     "work": "Allan Anderson, African Reformation (2001)"
+    }
+   ],
+   "citation_specificity": "C",
+   "verification_state": "named-not-rechecked",
+   "named_in_text": [
+    "african-initiated-churches-harrist-aladura-zioni relationsSummary ('Pentecostal currents')"
+   ],
+   "wants": [],
+   "drafter_flags": [],
+   "change_reason": "Kept unchanged. The note states the scholarly disagreement plainly, and the three repo-cited studies are the two sides of it. No Zionist or Aladura text of the time is held or was found online."
+  },
+  {
+   "id": "the-missionary-movement-s-native-churches-seramp--african-initiated-churches-harrist-aladura-zioni",
+   "action": "keep",
+   "from": "the-missionary-movement-s-native-churches-seramp",
+   "to": "african-initiated-churches-harrist-aladura-zioni",
+   "type": "influenced",
+   "confidence": "Dominant Modern Reconstruction",
+   "note": "In 1890 his own mission society pushed Samuel Ajayi Crowther aside. He had been the first African Anglican bishop since 1864. Andrew Walls and Lamin Sanneh see that as a lesson African Christians did not forget. In their view it is one root of the churches Africans later founded for themselves.",
+   "sources": [
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Andrew F. Walls, 'Samuel Ajayi Crowther (1807-1891): Foremost African Christian of the Nineteenth Century', International Bulletin of Missionary Research 16 (1992)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Lamin Sanneh, Translating the Message (Orbis, 1989; 2nd ed. 2009)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Cambridge History of Christianity vol. 7, 'Christianity in Africa' (Sanneh)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    }
+   ],
+   "citation_specificity": "C",
+   "verification_state": "named-not-rechecked",
+   "named_in_text": [
+    "african-initiated-churches-harrist-aladura-zioni relationsSummary ('Children of mission churches')"
+   ],
+   "wants": [],
+   "drafter_flags": [],
+   "change_reason": "Kept unchanged. Drawn by the era 9 pass on the Crowther case; Walls and Sanneh carry the reading. The new Methodist and Anglican links name two specific mission churches that founders left."
+  },
+  {
+   "id": "african-initiated-churches-harrist-aladura-zioni--global-south-pentecostal-christianity",
+   "action": "keep",
+   "from": "african-initiated-churches-harrist-aladura-zioni",
+   "to": "global-south-pentecostal-christianity",
+   "type": "gave rise to",
+   "confidence": "Widely Accepted",
+   "note": "Josiah Akindayomi joined the Cherubim and Seraphim, one of Nigeria's prayer churches, in 1931. So says the church he went on to found. He left in 1952 and began the Redeemed Christian Church of God. Allan Anderson puts a second Nigerian church halfway between the prayer churches and the Pentecostals.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Redeemed Christian Church of God, 'Our History' (rccg.org, undated web page)",
+     "url": "https://www.rccg.org/our-history/",
+     "accessed": "2026-11-10",
+     "locus": "'Our History', founder's life",
+     "quote": "Still spiritually unfulfilled, he joined the Cherubim and Seraphim church in 1931.",
+     "license": "rights reserved; short quotation"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Redeemed Christian Church of God, 'Our History' (rccg.org, undated web page)",
+     "url": "https://www.rccg.org/our-history/",
+     "accessed": "2026-11-10",
+     "locus": "'Our History', founder's life",
+     "quote": "By 1952, he felt totally persuaded to leave the church.",
+     "license": "rights reserved; short quotation"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Allan Heaton Anderson, An Introduction to Pentecostalism: Global Charismatic Christianity, 2nd ed. (Cambridge University Press, 2013), ch. 'Sub-Saharan Africa', publisher's preview",
+     "url": "https://www.cambridge.org/core/books/an-introduction-to-pentecostalism/subsaharan-africa/0D92DE132F0A2EF53BBB78B60C252099",
+     "accessed": "2026-11-10",
+     "locus": "ch. 'Sub-Saharan Africa', opening section 'Defining African Pentecostalism'",
+     "quote": "One that is managing to do so is the Christ Apostolic Church (CAC), the biggest of Nigeria’s older Pentecostal churches, sitting somewhat half way between Aladura and classical Pentecostal churches."
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Ogbu Kalu, African Pentecostalism (Oxford University Press, 2008)",
+     "file": null,
+     "lines": null,
+     "quote": null
+    }
+   ],
+   "citation_specificity": "B",
+   "verification_state": "verified-online",
+   "named_in_text": [
+    "global-south-pentecostal-christianity text (part 1's)"
+   ],
+   "wants": [],
+   "drafter_flags": [],
+   "change_reason": "Kept: drawn and merged by part 1 (part 1 owns it; the Global South text names it). Not redrawn."
+  },
+  {
+   "id": "the-optina-elders-and-russian-ascetic-renewal--emigre-orthodoxy-and-the-paris-school",
+   "action": "keep",
+   "from": "the-optina-elders-and-russian-ascetic-renewal",
+   "to": "emigre-orthodoxy-and-the-paris-school",
+   "type": "influenced",
+   "confidence": "Inferential-Thin",
+   "note": "The Russian exiles took Optina's memory abroad, and in 1926 a press in Paris printed a book on its past by Sergii Chetverikov. Beyond that book the evidence is thin. The Paris thinkers had other roots too, such as Bulgakov.",
+   "sources": [
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Sergii Chetverikov, Optina Pustyn': istoricheskii ocherk (Paris: YMCA Press, 1926)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    }
+   ],
+   "citation_specificity": "C",
+   "verification_state": "named-not-rechecked",
+   "named_in_text": [
+    "emigre-orthodoxy-and-the-paris-school relationsSummary ('the Optina monastic tradition ... feed into it')",
+    "the-optina-elders-and-russian-ascetic-renewal relationsSummary"
+   ],
+   "wants": [],
+   "drafter_flags": [],
+   "change_reason": "Kept unchanged. Inferential-Thin is honest: the one source is Chetverikov's 1926 Paris book, named only, and the note says the evidence is thin."
+  },
+  {
+   "id": "ruthenian-greek-catholic-polotsk-to-galicia--the-ukrainian-greek-catholic-underground",
+   "action": "keep",
+   "from": "ruthenian-greek-catholic-polotsk-to-galicia",
+   "to": "the-ukrainian-greek-catholic-underground",
+   "type": "continued as",
+   "confidence": "Widely Accepted",
+   "note": "In 1880 Julian Pelesz, a Greek Catholic priest, wrote that only the part of his church under Austria had come through unharmed. That church in Galicia was dissolved by a staged synod at Lviv in 1946, and it lived on underground. Bohdan Bociurkiw's 1996 study tells that story.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Julian Pelesz, Geschichte der Union der ruthenischen Kirche mit Rom, vol. 2 (Vienna, 1880), closing pages",
+     "file": "cic/texts/pelesz_geschichte-der-union-bd2-deu_1880.txt",
+     "lines": "74262-74264",
+     "locus": "vol. 2, conclusion",
+     "quote": "Nur ein Theil davon, der unter das gnädige Scepter Oesterreichs gekommen ist, ist unversehrt geblieben, und die Union hat hier einen Haltpunkt gefunden",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Bohdan R. Bociurkiw, The Ukrainian Greek Catholic Church and the Soviet State (1939-1950) (CIUS, 1996)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": [
+    "the-ukrainian-greek-catholic-underground relationsSummary ('a continuation of the Union of Brest')"
+   ],
+   "wants": [],
+   "drafter_flags": [],
+   "change_reason": "Kept unchanged. It is the last step of the continued-as chain that carries 'a continuation of the Union of Brest'. Pelesz's quote re-checked verbatim at lines 74262-74264."
+  },
+  {
+   "id": "coptic-revival-under-cyril-iv--the-coptic-monastic-and-sunday-school-revival",
+   "action": "keep",
+   "from": "coptic-revival-under-cyril-iv",
+   "to": "the-coptic-monastic-and-sunday-school-revival",
+   "type": "continued as",
+   "confidence": "Dominant Modern Reconstruction",
+   "note": "The same Coptic church carried Cyril IV's work on into the next century. Historians trace its Sunday-school movement back to the schools of this time. Habib Girgis taught from the 1890s, and around 1918 he built the movement across the whole church.",
+   "sources": [
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Bishop Suriel, Habib Girgis: Coptic Orthodox Educator and a Light in the Darkness (SVS Press, 2017)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Magdi Guirguis and Nelly van Doorn-Harder, The Emergence of the Modern Coptic Papacy (AUC Press, 2011)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    }
+   ],
+   "citation_specificity": "C",
+   "verification_state": "named-not-rechecked",
+   "named_in_text": [
+    "the-coptic-monastic-and-sunday-school-revival longDescription (Habib Girgis from the 1890s)",
+    "coptic-revival-under-cyril-iv relationsSummary and legacy"
+   ],
+   "wants": [],
+   "drafter_flags": [],
+   "change_reason": "Kept unchanged. Drawn by era 9; Suriel and Guirguis and van Doorn-Harder carry the Sunday-school line."
+  },
+  {
+   "id": "the-optina-elders-and-russian-ascetic-renewal--the-russian-new-martyrs-and-the-catacomb-church",
+   "action": "keep",
+   "from": "the-optina-elders-and-russian-ascetic-renewal",
+   "to": "the-russian-new-martyrs-and-the-catacomb-church",
+   "type": "continued as",
+   "confidence": "Inferential-Thin",
+   "note": "Optina was a monastery of the Russian Church, and an Optina book of 1847 shows its elders guiding monks and lay visitors. That book stops long before 1917. It says nothing of the monastery under Soviet rule, so this line rests on a thin inference.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Zhitie i pisaniia moldavskago startsa Paisiia Velichkovskago, Russian publisher's preface (Moscow: Optina Pustyn edition, 1847)",
+     "file": "cic/texts/paisius-velichkovsky_zhitie-i-pisaniia-chu_optina1847.txt",
+     "lines": "329-332",
+     "locus": "preface, note on Leonid",
+     "quote": "въ 1829 году перешелъ на жительство въ оный скитъ, гдѣ, по благорасположенію Настоятеля, поручено ему имѣть духов¬ ное руководствованіе братій , жительствующихъ въ Обители.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Zhitie i pisaniia moldavskago startsa Paisiia Velichkovskago, Russian publisher's preface (Moscow: Optina Pustyn edition, 1847)",
+     "file": "cic/texts/paisius-velichkovsky_zhitie-i-pisaniia-chu_optina1847.txt",
+     "lines": "333-336",
+     "locus": "preface, note on Leonid",
+     "quote": "начали приходить къ нему изъ разныхъ городовъ и селеній разнаго званія люди, изъ дворянъ, купцовъ, мѣщанъ и просто- народія — обоего пола",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Irina Paert, Spiritual Elders: Charisma and Tradition in Russian Orthodoxy (DeKalb, IL, 2010), cited for the Optina eldership, not for its fate after 1917",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": [
+    "the-russian-new-martyrs-and-the-catacomb-church relationsSummary ('the Optina tradition carried through catastrophe')"
+   ],
+   "wants": [],
+   "drafter_flags": [],
+   "change_reason": "Kept unchanged. It mirrors the Optina entry's own continuesAs field. The note says plainly that the 1847 book stops long before 1917, so the grade stays Inferential-Thin."
+  },
+  {
+   "id": "global-south-pentecostal-christianity--african-diaspora-and-reverse-mission-churches-in",
+   "action": "keep",
+   "from": "global-south-pentecostal-christianity",
+   "to": "african-diaspora-and-reverse-mission-churches-in",
+   "type": "gave rise to",
+   "confidence": "Widely Accepted",
+   "note": "The Redeemed Christian Church of God was founded in Lagos in 1952. Its own history says the church has spread to England, Germany and France. Its parishes there are among the African-led churches planted in Europe.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Redeemed Christian Church of God, 'Our History' (rccg.org, undated web page)",
+     "url": "https://www.rccg.org/our-history/",
+     "accessed": "2026-11-10",
+     "locus": "'Our History', the church's spread",
+     "quote": "In Europe the church is spread in England, Germany, and France.",
+     "license": "rights reserved; short quotation"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Redeemed Christian Church of God, 'Our History' (rccg.org, undated web page)",
+     "url": "https://www.rccg.org/our-history/",
+     "accessed": "2026-11-10",
+     "locus": "'Our History', founder's life",
+     "quote": "By 1952, he felt totally persuaded to leave the church.",
+     "license": "rights reserved; short quotation"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Afe Adogame, The African Christian Diaspora (Bloomsbury, 2013)",
+     "file": null,
+     "lines": null,
+     "quote": null
+    }
+   ],
+   "citation_specificity": "B",
+   "verification_state": "verified-online",
+   "named_in_text": [
+    "african-diaspora-and-reverse-mission-churches-in longDescription and why (the Redeemed Christian Church of God, Jesus House)"
+   ],
+   "wants": [],
+   "drafter_flags": [],
+   "change_reason": "Kept: drawn and merged by part 1 (part 1 owns it). It carries the RCCG sentences of the diaspora entry."
+  },
+  {
+   "id": "african-initiated-churches-harrist-aladura-zioni--the-ecumenical-movement-and-the-wcc",
+   "action": "new",
+   "from": "african-initiated-churches-harrist-aladura-zioni",
+   "to": "the-ecumenical-movement-and-the-wcc",
+   "type": "member of",
+   "confidence": "Widely Accepted",
+   "note": "In August 1969 the World Council of Churches met at Canterbury. It voted to take in the Kimbanguist church as a member. The church's head, Joseph Diangienda, thanked the council.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "World Council of Churches, Central Committee, Minutes and Reports of the Twenty-Third Meeting, Canterbury, 12-22 August 1969 (WCC, 1969), digitized by the Internet Archive with WCC funding",
+     "url": "https://archive.org/details/twentythirdmeeti00unse",
+     "accessed": "2026-11-10",
+     "locus": "minute 8, Applications for Membership, resolution A",
+     "quote": "that the following Churches be accepted into membership of the World Council of Churches, in accordance with the Rules",
+     "license": "rights reserved; short quotation"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "World Council of Churches, Central Committee, Minutes and Reports of the Twenty-Third Meeting, Canterbury, 12-22 August 1969 (WCC, 1969), digitized by the Internet Archive with WCC funding",
+     "url": "https://archive.org/details/twentythirdmeeti00unse",
+     "accessed": "2026-11-10",
+     "locus": "minute 8, resolution A, item 3",
+     "quote": "Church of Christ on Earth by the Prophet Simon Kimbangua",
+     "license": "rights reserved; short quotation"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "World Council of Churches, Central Committee, Minutes and Reports of the Twenty-Third Meeting, Canterbury, 12-22 August 1969 (WCC, 1969), digitized by the Internet Archive with WCC funding",
+     "url": "https://archive.org/details/twentythirdmeeti00unse",
+     "accessed": "2026-11-10",
+     "locus": "minute 29, Welcome to Mr. Joseph Diangienda",
+     "quote": "Mr. Diangienda thanked the Chairman and members of the Committee for the manner in which he had been received and expressed pleasure, in the name of his Church, at the acceptance of its application for membership.",
+     "license": "rights reserved; short quotation"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "'Canterbury Canticle', Christianity Today, 12 September 1969 (report on the WCC Central Committee at Canterbury)",
+     "url": "https://www.christianitytoday.com/1969/09/canterbury-canticle/",
+     "accessed": "2026-11-10",
+     "locus": "report, paragraph on new member churches",
+     "quote": "the Church of Christ on Earth by the Prophet, Simon Kimbangu, Congo-Kinshasa"
+    }
+   ],
+   "citation_specificity": "B",
+   "verification_state": "verified-online",
+   "named_in_text": [
+    "african-initiated-churches-harrist-aladura-zioni legacy ('the Kimbanguist church was the first African-initiated church admitted to the World Council of Churches, in 1969')"
+   ],
+   "wants": [
+    "WCC Central Committee, Minutes and Reports of the Twenty-Third Meeting (Canterbury 1969), for the Library, so the membership can be checked there"
+   ],
+   "drafter_flags": [
+    "The member is one church inside a many-church entry; the note names the Kimbanguist church, not the whole family.",
+    "The minutes' OCR spells the name 'Kimbangua'; the quote keeps it. Christianity Today reports the vote as 'only two abstentions'; the minutes give 3 against and 3 abstentions. The note gives no count.",
+    "The council's own record carries the grade (Mark's ruling of 2026-11-10; the validator now accepts a 'member of' link on its primary alone). The Christianity Today report is kept as an independent, same-month account of the vote.",
+    "The council ended the church's membership in 2021 (search result only, not opened); that falls after 2010 and stays out of the note."
+   ],
+   "change_reason": "New: the WCC membership named in the legacy, drawn as 'member of' per the 2026-11-10 ruling."
+  },
+  {
+   "id": "nineteenth-century-methodism--african-initiated-churches-harrist-aladura-zioni",
+   "action": "new",
+   "from": "nineteenth-century-methodism",
+   "to": "african-initiated-churches-harrist-aladura-zioni",
+   "type": "gave rise to",
+   "confidence": "Dominant Modern Reconstruction",
+   "note": "Nehemiah Tile worked for the Methodist mission among the Thembu people from the early 1870s. He broke with his mission leaders. In 1884 he founded the Thembu National Church. Historians call it the first church in South Africa that Africans ran on their own.",
+   "sources": [
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Mark R. Lipschutz and R. Kent Rasmussen, 'Tile, Nehemiah', Dictionary of African Historical Biography, 2nd ed. (University of California Press, 1986), reprinted by the Dictionary of African Christian Biography",
+     "url": "https://dacb.org/stories/southafrica/tile-nehemiah/",
+     "accessed": "2026-11-10",
+     "locus": "entry on Tile",
+     "quote": "By the early 1870s he was working as an evangelist for the Wesleyan Methodist mission in the Thembu region of the present eastern Cape Province."
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Mark R. Lipschutz and R. Kent Rasmussen, 'Tile, Nehemiah', Dictionary of African Historical Biography, 2nd ed. (University of California Press, 1986), reprinted by the Dictionary of African Christian Biography",
+     "url": "https://dacb.org/stories/southafrica/tile-nehemiah/",
+     "accessed": "2026-11-10",
+     "locus": "entry on Tile",
+     "quote": "He broke with his mission supervisors because of their disapproval of his political activity."
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Mark R. Lipschutz and R. Kent Rasmussen, 'Tile, Nehemiah', Dictionary of African Historical Biography, 2nd ed. (University of California Press, 1986), reprinted by the Dictionary of African Christian Biography",
+     "url": "https://dacb.org/stories/southafrica/tile-nehemiah/",
+     "accessed": "2026-11-10",
+     "locus": "entry on Tile, heading",
+     "quote": "Founder of the first independent African church in South Africa."
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "C. C. Saunders, 'Tile and the Thembu Church', Journal of African History 11.4 (1970), 553-570",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    }
+   ],
+   "citation_specificity": "B",
+   "verification_state": "verified-online",
+   "named_in_text": [
+    "african-initiated-churches-harrist-aladura-zioni longDescription ('Nehemiah Tile left the Methodists to form the Thembu National Church in the 1880s')"
+   ],
+   "wants": [
+    "A Wesleyan Methodist Missionary Society report or South African conference minutes of 1883-84 on Tile's withdrawal",
+    "C. C. Saunders, 'Tile and the Thembu Church' (JAH 1970), read for the founding"
+   ],
+   "drafter_flags": [
+    "No primary was found: the link rests on a scholarly biographical dictionary (1986) read online, so Dominant Modern Reconstruction. Saunders 1970 is confirmed only by its title in that entry's bibliography and supports nothing beyond it.",
+    "Nineteenth-century Methodism's own text names Black Methodist churches in America, not this one, so era 9 did not own it.",
+    "The Wesleyan mission in the Cape is part of British Wesleyan Methodism, which is the era 9 entry's first sentence."
+   ],
+   "change_reason": "New: the Methodist parent named by 'Nehemiah Tile left the Methodists'."
+  },
+  {
+   "id": "the-anglican-communion-twentieth-century--african-initiated-churches-harrist-aladura-zioni",
+   "action": "new",
+   "from": "the-anglican-communion-twentieth-century",
+   "to": "african-initiated-churches-harrist-aladura-zioni",
+   "type": "gave rise to",
+   "confidence": "Dominant Modern Reconstruction",
+   "note": "Reuben Spartas Mukasa grew up in the Anglican church of Uganda. Later he turned to the African Orthodox Church. In 1946 he went to Alexandria, and the patriarch made him trustee of the church in Uganda.",
+   "sources": [
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Stephen Hayes, 'Spartas, Reuben Sebbanja Mukasa', Dictionary of African Christian Biography (from the Database of African Church Leaders)",
+     "url": "https://dacb.org/stories/uganda/spartas-reuben/",
+     "accessed": "2026-11-10",
+     "locus": "entry on Spartas",
+     "quote": "He was brought up as an Anglican, and became a protege of Archdeacon Daniel, of the seminary at Mukono."
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Stephen Hayes, 'Spartas, Reuben Sebbanja Mukasa', Dictionary of African Christian Biography (from the Database of African Church Leaders)",
+     "url": "https://dacb.org/stories/uganda/spartas-reuben/",
+     "accessed": "2026-11-10",
+     "locus": "entry on Spartas",
+     "quote": "in 1946, that Spartas was able to visit Alexandria and was appointed Patriarchal trustee of the Uganda Church."
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "F. B. Welbourn, East African Rebels: A Study of Some Independent Churches (London: SCM Press, 1961)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    }
+   ],
+   "citation_specificity": "B",
+   "verification_state": "verified-online",
+   "named_in_text": [
+    "african-initiated-churches-harrist-aladura-zioni longDescription ('Reuben Spartas Mukasa broke with the Anglicans in January 1929')"
+   ],
+   "wants": [
+    "Spartas's own letters or the African Greek Orthodox Church's records of 1929 and 1946",
+    "F. B. Welbourn, East African Rebels (1961), read for the January 1929 break"
+   ],
+   "drafter_flags": [
+    "The census text says 'broke with'. That type needs a rupture both sides recorded; neither side's record was found, so the link is drawn as 'gave rise to' (a church founded by a man raised Anglican).",
+    "Hayes's entry does not give the January 1929 date; that date rests on Welbourn as the census trace cites him. The note leaves it out.",
+    "Graded Dominant Modern Reconstruction: two modern secondary accounts, no primary opened."
+   ],
+   "change_reason": "New: the Anglican parent named by 'Reuben Spartas Mukasa broke with the Anglicans in January 1929'."
+  },
+  {
+   "id": "african-initiated-churches-harrist-aladura-zioni--african-diaspora-and-reverse-mission-churches-in",
+   "action": "new",
+   "from": "african-initiated-churches-harrist-aladura-zioni",
+   "to": "african-diaspora-and-reverse-mission-churches-in",
+   "type": "gave rise to",
+   "confidence": "Dominant Modern Reconstruction",
+   "note": "Emmanuel Adejobi led a Nigerian prayer church, the Church of the Lord. He opened its first branch outside Africa in London. A study of his life dates it to 12 April 1964. It calls it the first West African church in Europe.",
+   "sources": [
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Michael Adeleke Ogunewu, 'Adejobi, Emmanuel Owoade Adeleke', Dictionary of African Christian Biography",
+     "url": "https://dacb.org/stories/nigeria/adejobi-emmanuel2/",
+     "accessed": "2026-11-10",
+     "locus": "section on his years in Glasgow and Britain",
+     "quote": "He also conducted evangelistic missions and, in London, established the first branch of the Church of the Lord outside Africa."
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Michael Adeleke Ogunewu, 'Adejobi, Emmanuel Owoade Adeleke', Dictionary of African Christian Biography",
+     "url": "https://dacb.org/stories/nigeria/adejobi-emmanuel2/",
+     "accessed": "2026-11-10",
+     "locus": "section on his years in Glasgow and Britain",
+     "quote": "This was the first West African Church in Europe and it was inaugurated on April 12, 1964."
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Gerrie ter Haar, Halfway to Paradise: African Christians in Europe (1998)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Afe Adogame, The African Christian Diaspora (Bloomsbury, 2013)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    }
+   ],
+   "citation_specificity": "B",
+   "verification_state": "verified-online",
+   "named_in_text": [
+    "african-initiated-churches-harrist-aladura-zioni legacy ('Their congregations traveled with African migration and were planted across Europe')",
+    "african-diaspora-and-reverse-mission-churches-in longDescription and why ('Aladura and Kimbanguist congregations were meeting in European cities from the 1960s')"
+   ],
+   "wants": [
+    "The Church of the Lord (Aladura) Worldwide's own history ('Our History', aladura.net, cited by Ogunewu; the page no longer answers)",
+    "H. W. Turner, African Independent Church: The Church of the Lord (Aladura) (Clarendon, 1967), for the London branch",
+    "A Kimbanguist church's own record of its European parishes"
+   ],
+   "drafter_flags": [
+    "The church's own history page is gone, so the link rests on a modern biographical study read online, plus ter Haar and Adogame named only: Dominant Modern Reconstruction.",
+    "Only the Aladura half is evidenced. No source for Kimbanguist congregations in Europe in the 1960s was found; the diaspora entry's claim for them stands on its own census sourcing.",
+    "Both texts are in this group, so no ownership question."
+   ],
+   "change_reason": "New: the African-initiated parent named in both entries' texts."
+  },
+  {
+   "id": "philippine-catholicism-gomburza-to-aglipay--philippine-independent-church-twentieth-century",
+   "action": "new",
+   "from": "philippine-catholicism-gomburza-to-aglipay",
+   "to": "philippine-independent-church-twentieth-century",
+   "type": "gave rise to",
+   "confidence": "Widely Accepted",
+   "note": "In 1947 the Philippine Independent Church said that it had left the Roman Catholic Church. Its head bishop dated the break to 3 August 1902. A letter he approved says Gregorio Aglipay left with other priests and their flocks.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Correspondence and Other Papers Relating to the Petition of the Philippine Independent Church to the Protestant Episcopal Church in the U.S.A. for the Episcopal Consecration of Its Bishops (Supplement to the Diocesan Chronicle, 1947), transcribed by Project Canterbury",
+     "url": "https://anglicanhistory.org/asia/ph/correspondence1947.html",
+     "accessed": "2026-11-10",
+     "locus": "Declaration of Faith and Articles of Religion (5 August 1947), art. 17",
+     "quote": "When this Church withdrew from the Roman Catholic Church, it repudiated the authority of the Pope and such doctrines, customs and practices as were inconsistent with the Word of God, sound learning and a good conscience.",
+     "license": "rights reserved; short quotation"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Correspondence and Other Papers Relating to the Petition of the Philippine Independent Church to the Protestant Episcopal Church in the U.S.A. for the Episcopal Consecration of Its Bishops (Supplement to the Diocesan Chronicle, 1947), transcribed by Project Canterbury",
+     "url": "https://anglicanhistory.org/asia/ph/correspondence1947.html",
+     "accessed": "2026-11-10",
+     "locus": "Isabelo de los Reyes Jr., petition to the Presiding Bishop, 9 August 1947",
+     "quote": "as it has been consistently one of the highest aspirations of our Episcopate since August 3rd, 1902, when our Church emancipated itself from the Church of Rome.",
+     "license": "rights reserved; short quotation"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Correspondence and Other Papers Relating to the Petition of the Philippine Independent Church to the Protestant Episcopal Church in the U.S.A. for the Episcopal Consecration of Its Bishops (Supplement to the Diocesan Chronicle, 1947), transcribed by Project Canterbury",
+     "url": "https://anglicanhistory.org/asia/ph/correspondence1947.html",
+     "accessed": "2026-11-10",
+     "locus": "Binsted to Bishop Tucker, 29 October 1946, read and approved by the Supreme Bishop",
+     "quote": "when he and a number of other priests and congregations seceded from the Roman Catholic Church because they could no longer tolerate foreign domination of the Church in the Philippines",
+     "license": "rights reserved; short quotation"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Pedro S. de Achútegui and Miguel A. Bernad, Religious Revolution in the Philippines: The Life and Church of Gregorio Aglipay, 1860-1960 (Ateneo de Manila, vols. 1-2, 1960-66)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    }
+   ],
+   "citation_specificity": "B",
+   "verification_state": "verified-online",
+   "named_in_text": [
+    "philippine-independent-church-twentieth-century relationsSummary and longDescription ('Its birth in 1902 is told with Philippine Catholicism up to 1906')",
+    "philippine-catholicism-gomburza-to-aglipay relationsSummary and legacy"
+   ],
+   "wants": [
+    "The Iglesia Filipina Independiente's proclamation of 3 August 1902 and its Doctrine and Constitutional Rules of 28 October 1903",
+    "Rome's side of the 1902 rupture (the excommunication of Aglipay)"
+   ],
+   "drafter_flags": [
+    "Both texts name the pair; the era 10 text does, so it is this pass's, and no link was on main.",
+    "Achútegui and Bernad are Jesuit authors writing from the Catholic side; named, not read.",
+    "Binsted's letter is the Episcopal bishop's words, but it says the Supreme Bishop read and approved it.",
+    "'gave rise to' rather than 'broke with': only the Independent Church's side of the rupture was opened."
+   ],
+   "change_reason": "New: the parent named in 'Its birth in 1902 is told with Philippine Catholicism up to 1906'."
+  },
+  {
+   "id": "the-anglican-communion-twentieth-century--philippine-independent-church-twentieth-century",
+   "action": "new",
+   "from": "the-anglican-communion-twentieth-century",
+   "to": "philippine-independent-church-twentieth-century",
+   "type": "influenced",
+   "confidence": "Widely Accepted",
+   "note": "Norman Binsted was the Episcopal bishop in the Philippines. In 1946 and 1947 he met the church's leaders. On his advice they adopted a Declaration of Faith in 1947. Then they asked his church to consecrate their bishops.",
+   "outcome": "In August 1947 the church's bishops and its General Assembly adopted a new Declaration of Faith. They set aside the church's rules of 1903 where the two did not agree.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Correspondence and Other Papers Relating to the Petition of the Philippine Independent Church to the Protestant Episcopal Church in the U.S.A. for the Episcopal Consecration of Its Bishops (Supplement to the Diocesan Chronicle, 1947), transcribed by Project Canterbury",
+     "url": "https://anglicanhistory.org/asia/ph/correspondence1947.html",
+     "accessed": "2026-11-10",
+     "locus": "Binsted to Bishop Sherrill, 12 August 1947",
+     "quote": "1. That the Philippine Independent Church should adopt a \"Declaration of Faith,\" setting forth its belief in the Holy Trinity in unequivocal terms.",
+     "license": "rights reserved; short quotation"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Correspondence and Other Papers Relating to the Petition of the Philippine Independent Church to the Protestant Episcopal Church in the U.S.A. for the Episcopal Consecration of Its Bishops (Supplement to the Diocesan Chronicle, 1947), transcribed by Project Canterbury",
+     "url": "https://anglicanhistory.org/asia/ph/correspondence1947.html",
+     "accessed": "2026-11-10",
+     "locus": "Binsted to Bishop Sherrill, 12 August 1947",
+     "quote": "These suggestions were graciously accepted by the Supreme Bishop, his episcopal, clerical and lay advisers.",
+     "license": "rights reserved; short quotation"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Correspondence and Other Papers Relating to the Petition of the Philippine Independent Church to the Protestant Episcopal Church in the U.S.A. for the Episcopal Consecration of Its Bishops (Supplement to the Diocesan Chronicle, 1947), transcribed by Project Canterbury",
+     "url": "https://anglicanhistory.org/asia/ph/correspondence1947.html",
+     "accessed": "2026-11-10",
+     "locus": "Isabelo de los Reyes Jr., statement to the church, August 1947",
+     "quote": "the Supreme Council of Bishops and the General Assembly of the Iglesia Filipina Independiente have unanimously approved and confirmed at their special sessions of August 4th and 5th, 1947, respectively, a solemn Declaration of Faith",
+     "license": "rights reserved; short quotation"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Correspondence and Other Papers Relating to the Petition of the Philippine Independent Church to the Protestant Episcopal Church in the U.S.A. for the Episcopal Consecration of Its Bishops (Supplement to the Diocesan Chronicle, 1947), transcribed by Project Canterbury",
+     "url": "https://anglicanhistory.org/asia/ph/correspondence1947.html",
+     "accessed": "2026-11-10",
+     "locus": "Declaration of Faith and Articles of Religion (5 August 1947), art. 20",
+     "quote": "are henceforth not to be held as binding either upon the Clergy or Laity of this Church in matters of Doctrine, Discipline or Order",
+     "license": "rights reserved; short quotation"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Correspondence and Other Papers Relating to the Petition of the Philippine Independent Church to the Protestant Episcopal Church in the U.S.A. for the Episcopal Consecration of Its Bishops (Supplement to the Diocesan Chronicle, 1947), transcribed by Project Canterbury",
+     "url": "https://anglicanhistory.org/asia/ph/correspondence1947.html",
+     "accessed": "2026-11-10",
+     "locus": "Isabelo de los Reyes Jr., statement to the church, August 1947",
+     "quote": "the Supreme Council of Bishops and the General Assembly have unanimously resolved to petition the Episcopal Church of the United States of America, a branch of the Anglican Communion, for the gift of Apostolic Succession to our episcopate",
+     "license": "rights reserved; short quotation"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Pedro S. de Achútegui and Miguel A. Bernad, Religious Revolution in the Philippines: The Life and Church of Gregorio Aglipay, 1860-1960 (Ateneo de Manila, vols. 1-2, 1960-66)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    }
+   ],
+   "citation_specificity": "B",
+   "verification_state": "verified-online",
+   "major": {
+    "major": true,
+    "kind": "rule-changed",
+    "evidence": {
+     "url": "https://anglicanhistory.org/asia/ph/correspondence1947.html",
+     "locus": "Declaration of Faith and Articles of Religion, art. 20",
+     "text": "are henceforth not to be held as binding either upon the Clergy or Laity of this Church in matters of Doctrine, Discipline or Order"
+    },
+    "reason": "The church's supreme bodies formally adopted a new Declaration, Articles, Constitution and Canons on the Episcopal bishop's advice, and set aside the 1903 rules: a rule changed by an authority, not a text merely taken up."
+   },
+   "named_in_text": [
+    "philippine-independent-church-twentieth-century relationsSummary ('In 1961 it entered full communion with the Episcopal Church')",
+    "philippine-independent-church-twentieth-century longDescription and why (Binsted, the 1947 Declaration, the request for consecration)"
+   ],
+   "wants": [
+    "The Concordat of full communion between the Philippine Independent Church and the Episcopal Church (1961), from the Episcopal Church's General Convention journal; the Episcopal Church's pages for it returned 404",
+    "The record of the consecration of three IFI bishops by Episcopal bishops (1948)"
+   ],
+   "drafter_flags": [
+    "The 1961 concordat itself was not opened, so the note and outcome stop at 1947. The 1961 sentence in the census text rests on its own earlier sourcing; with the concordat in hand a second, 'in contact with' link or a note change could carry it.",
+    "Reviewer: judge whether the 1947 adoption is 'a rule changed by an authority' (my reading) or 'a text taken up by the other side'. The act is the Independent Church's own synod, done on the Episcopal bishop's advice.",
+    "The Anglican Communion entry is a part 1 movement, but its text does not name this church; the part 2 text alone names it, so it is this pass's.",
+    "Achútegui and Bernad named only."
+   ],
+   "change_reason": "New: the Episcopal (Anglican) tie named in the relationsSummary and longDescription."
+  },
+  {
+   "id": "the-liturgical-movement--the-catholic-church-pius-x-to-the-council",
+   "action": "new",
+   "from": "the-liturgical-movement",
+   "to": "the-catholic-church-pius-x-to-the-council",
+   "type": "influenced",
+   "confidence": "Widely Accepted",
+   "note": "In 1947 Pope Pius XII praised the revival of the liturgy in his letter Mediator Dei. He said it owed its rise to Benedictine monks. He also warned against excess, and told priests not to try out new ways on their own.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Pius XII, Mediator Dei, encyclical on the sacred liturgy (20 November 1947), English text on the Holy See's website",
+     "url": "https://www.vatican.va/content/pius-xii/en/encyclicals/documents/hf_p-xii_enc_20111947_mediator-dei.html",
+     "accessed": "2026-11-10",
+     "locus": "para. 4",
+     "quote": "The movement owed its rise to commendable private initiative and more particularly to the zealous and persistent labor of several monasteries within the distinguished Order of Saint Benedict.",
+     "license": "public text on the Holy See's website; short quotation"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Pius XII, Mediator Dei, encyclical on the sacred liturgy (20 November 1947), English text on the Holy See's website",
+     "url": "https://www.vatican.va/content/pius-xii/en/encyclicals/documents/hf_p-xii_enc_20111947_mediator-dei.html",
+     "accessed": "2026-11-10",
+     "locus": "para. 7",
+     "quote": "duty obliges Us to give serious attention to this \"revival\" as it is advocated in some quarters, and to take proper steps to preserve it at the outset from excess or outright perversion.",
+     "license": "public text on the Holy See's website; short quotation"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Pius XII, Mediator Dei, encyclical on the sacred liturgy (20 November 1947), English text on the Holy See's website",
+     "url": "https://www.vatican.va/content/pius-xii/en/encyclicals/documents/hf_p-xii_enc_20111947_mediator-dei.html",
+     "accessed": "2026-11-10",
+     "locus": "para. 109",
+     "quote": "Let everything be done with due order and dignity, and let no one, not even a priest, make use of the sacred edifices according to his whim to try out experiments.",
+     "license": "public text on the Holy See's website; short quotation"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Keith F. Pecklers, The Unread Vision: The Liturgical Movement in the United States of America, 1926-1955 (Liturgical Press, 1998)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "John R. K. Fenwick and Bryan D. Spinks, Worship in Transition: The Liturgical Movement in the Twentieth Century (New York: Continuum, 1995)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    }
+   ],
+   "citation_specificity": "B",
+   "verification_state": "verified-online",
+   "major": {
+    "major": false,
+    "kind": null,
+    "evidence": null,
+    "reason": "The encyclical praises and corrects the movement; it condemns no group and changes no rite. Para. 109 restates the existing rubrics and asks for advisory committees, which is guidance, not a settlement changed."
+   },
+   "named_in_text": [
+    "the-liturgical-movement relationsSummary ('The entry on the Catholic Church before the Council names it once')",
+    "the-catholic-church-pius-x-to-the-council legacy ('the liturgical movement')"
+   ],
+   "wants": [
+    "Lambert Beauduin's Malines address (1909) and La piété de l'Église (1914), for the Library",
+    "Orate Fratres, first volumes (1926-)"
+   ],
+   "drafter_flags": [
+    "The Catholic Church entry (group J) names the movement in its legacy; group J may draft the same pair. Resolve at merge.",
+    "Mediator Dei also bears out the movement text's 'not through the Vatican': it says the movement rose from private initiative and Benedictine houses."
+   ],
+   "change_reason": "New: the Catholic Church before the Council, named in the relationsSummary."
+  },
+  {
+   "id": "the-liturgical-movement--the-post-vatican-ii-parish-world",
+   "action": "new",
+   "from": "the-liturgical-movement",
+   "to": "the-post-vatican-ii-parish-world",
+   "type": "influenced",
+   "confidence": "Widely Accepted",
+   "note": "In December 1963 the Second Vatican Council took up the movement's aims in its text on worship. It said that zeal to renew the liturgy was a movement of the Holy Spirit in the Church.",
+   "outcome": "The council ordered the whole liturgy to be restored. It also let people use their own language more often in the Mass and the sacraments.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Second Vatican Council, Sacrosanctum Concilium, constitution on the sacred liturgy (4 December 1963), English text on the Holy See's website",
+     "url": "https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_const_19631204_sacrosanctum-concilium_en.html",
+     "accessed": "2026-11-10",
+     "locus": "art. 43",
+     "quote": "Zeal for the promotion and restoration of the liturgy is rightly held to be a sign of the providential dispositions of God in our time, as a movement of the Holy Spirit in His Church.",
+     "license": "public text on the Holy See's website; short quotation"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Second Vatican Council, Sacrosanctum Concilium, constitution on the sacred liturgy (4 December 1963), English text on the Holy See's website",
+     "url": "https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_const_19631204_sacrosanctum-concilium_en.html",
+     "accessed": "2026-11-10",
+     "locus": "art. 21",
+     "quote": "In order that the Christian people may more certainly derive an abundance of graces from the sacred liturgy, holy Mother Church desires to undertake with great care a general restoration of the liturgy itself.",
+     "license": "public text on the Holy See's website; short quotation"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Second Vatican Council, Sacrosanctum Concilium, constitution on the sacred liturgy (4 December 1963), English text on the Holy See's website",
+     "url": "https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_const_19631204_sacrosanctum-concilium_en.html",
+     "accessed": "2026-11-10",
+     "locus": "art. 36, 2",
+     "quote": "But since the use of the mother tongue, whether in the Mass, the administration of the sacraments, or other parts of the liturgy, frequently may be of great advantage to the people, the limits of its employment may be extended.",
+     "license": "public text on the Holy See's website; short quotation"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "John R. K. Fenwick and Bryan D. Spinks, Worship in Transition: The Liturgical Movement in the Twentieth Century (New York: Continuum, 1995)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Keith F. Pecklers, The Unread Vision: The Liturgical Movement in the United States of America, 1926-1955 (Liturgical Press, 1998)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    }
+   ],
+   "citation_specificity": "B",
+   "verification_state": "verified-online",
+   "major": {
+    "major": true,
+    "kind": "rule-changed",
+    "evidence": {
+     "url": "https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_const_19631204_sacrosanctum-concilium_en.html",
+     "locus": "art. 36, 2",
+     "text": "But since the use of the mother tongue, whether in the Mass, the administration of the sacraments, or other parts of the liturgy, frequently may be of great advantage to the people, the limits of its employment may be extended."
+    },
+    "reason": "A council changed the rule of worship: it ordered the rites restored and widened the use of the vernacular."
+   },
+   "named_in_text": [
+    "the-liturgical-movement relationsSummary ('The entry on the parish after the Council takes up what came of it')"
+   ],
+   "wants": [],
+   "drafter_flags": [
+    "Sacrosanctum Concilium does not name the liturgical movement by that phrase; art. 43 names 'zeal for the promotion and restoration of the liturgy' as 'a movement of the Holy Spirit'. The reading that this is the movement's influence is the consensus of Fenwick and Spinks and Pecklers, named only.",
+    "The post-council parish entry's text does not name the movement, so this is the movement entry's to draw."
+   ],
+   "change_reason": "New: the parish after the Council, named in the relationsSummary."
+  },
+  {
+   "id": "the-liturgical-movement--the-anglican-communion-twentieth-century",
+   "action": "new",
+   "from": "the-liturgical-movement",
+   "to": "the-anglican-communion-twentieth-century",
+   "type": "influenced",
+   "confidence": "Dominant Modern Reconstruction",
+   "note": "John Fenwick and Bryan Spinks tell the liturgical movement's history across several churches. In their 1995 study the Anglican churches have a part of their own. This line rests on that study alone.",
+   "sources": [
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "John R. K. Fenwick and Bryan D. Spinks, Worship in Transition: The Liturgical Movement in the Twentieth Century (New York: Continuum, 1995)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    }
+   ],
+   "citation_specificity": "C",
+   "verification_state": "named-not-rechecked",
+   "major": {
+    "major": false,
+    "kind": null,
+    "evidence": null,
+    "reason": "No listed source shows an act by an authority."
+   },
+   "named_in_text": [
+    "the-liturgical-movement longDescription (Gabriel Hebert, Liturgy and Society, the Parish Communion movement)",
+    "the-liturgical-movement legacy ('Catholic, Anglican, Eastern and North American')"
+   ],
+   "wants": [
+    "A. G. Hebert, Liturgy and Society (1935) and The Parish Communion (1937): on archive.org only as restricted lending copies; a movement writer's own dated text that could raise this link",
+    "The Lambeth Conference 1958 report on the Book of Common Prayer"
+   ],
+   "drafter_flags": [
+    "Hebert's books exist on archive.org but only as lending copies whose text could not be opened; the Church Times piece the census trace cites returned 403. Neither is used. The note therefore names no Anglican writer.",
+    "Fenwick and Spinks's table of contents (cited in the census trace) has an Anglican chapter; the book itself was not read. Dominant Modern Reconstruction on one modern study.",
+    "The Anglican Communion entry (part 1) does not name the movement, so the part 2 text alone names it."
+   ],
+   "change_reason": "New: the Anglican line named in the longDescription and legacy."
+  },
+  {
+   "id": "the-russian-orthodox-church-council-patriarchate-and-reunion--emigre-orthodoxy-and-the-paris-school",
+   "action": "new",
+   "from": "the-russian-orthodox-church-council-patriarchate-and-reunion",
+   "to": "emigre-orthodoxy-and-the-paris-school",
+   "type": "gave rise to",
+   "confidence": "Widely Accepted",
+   "note": "The Revolution of 1917 drove many Russian Orthodox believers out of their land, and some formed parishes in France. Their leader was Metropolitan Evlogy. He set up a school in Paris to train their priests. Its classes began on 30 April 1925.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Institut de théologie orthodoxe Saint-Serge, 'Les origines' (saint-serge.net, the Institute's own undated history page)",
+     "url": "https://saint-serge.net/linstitut/les-origines/",
+     "accessed": "2026-11-10",
+     "locus": "'Les origines', opening paragraph",
+     "quote": "alors que se constituaient en France des communautés orthodoxes, composées de fidèles russes chassés de leur patrie par la Révolution de 1917.",
+     "license": "rights reserved; short quotation"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Institut de théologie orthodoxe Saint-Serge, 'Les origines' (saint-serge.net, the Institute's own undated history page)",
+     "url": "https://saint-serge.net/linstitut/les-origines/",
+     "accessed": "2026-11-10",
+     "locus": "'Les origines', on the first teachers",
+     "quote": "Dès le lancement des cours le 30 avril 1925, le métropolite Euloge s’assura la collaboration d’une équipe de professeurs, théologiens et penseurs religieux de renom.",
+     "license": "rights reserved; short quotation"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Antoine Arjakovsky, The Way: Religious Thinkers of the Russian Emigration in Paris and Their Journal, 1925-1940, trans. Jerry Ryan (Notre Dame, 2013)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    }
+   ],
+   "citation_specificity": "B",
+   "verification_state": "verified-online",
+   "named_in_text": [
+    "emigre-orthodoxy-and-the-paris-school relationsSummary ('The church the émigrés left behind in Russia has its own entry')",
+    "the-russian-orthodox-church-council-patriarchate-and-reunion relationsSummary ('Emigre Orthodoxy and the Paris School tells the emigration')"
+   ],
+   "wants": [
+    "Patriarch Tikhon's decree no. 362 of 20 November 1920, which let dioceses cut off from Moscow govern themselves",
+    "Metropolitan Evlogy, Put' moei zhizni (Paris, YMCA Press, 1947)"
+   ],
+   "drafter_flags": [
+    "The Russian Orthodox Church entry (group J) names this one too; group J may draft the same pair. Resolve at merge.",
+    "The page is undated and the Institute's own; the French text names 'métropolite Euloge' as the exiles' 'chef spirituel'. Arjakovsky named only.",
+    "Note quotes the French; the note uses the English form Evlogy."
+   ],
+   "change_reason": "New: the church left behind, named in the relationsSummary."
+  },
+  {
+   "id": "emigre-orthodoxy-and-the-paris-school--american-orthodoxy-autocephaly-and-the-convert-wave",
+   "action": "new",
+   "from": "emigre-orthodoxy-and-the-paris-school",
+   "to": "american-orthodoxy-autocephaly-and-the-convert-wave",
+   "type": "influenced",
+   "confidence": "Widely Accepted",
+   "note": "Teachers from the St Sergius school in Paris came to St Vladimir's Seminary in New York. Georges Florovsky became its dean. Alexander Schmemann came in 1951, and John Meyendorff in 1959.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "St Vladimir's Orthodox Theological Seminary, 'Our History' (svots.edu, the seminary's own undated page)",
+     "url": "https://www.svots.edu/about/our-history",
+     "accessed": "2026-11-10",
+     "locus": "'Our History', the post-war years",
+     "quote": "The beginning of this new era coincided with the arrival from St. Sergius Institute in Paris of Fr. Georges Florovsky , who soon was to be appointed dean (1951–1955).",
+     "license": "rights reserved; short quotation"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "St Vladimir's Orthodox Theological Seminary, 'Our History' (svots.edu, the seminary's own undated page)",
+     "url": "https://www.svots.edu/about/our-history",
+     "accessed": "2026-11-10",
+     "locus": "'Our History', the post-war years",
+     "quote": "The seminary's future development was assured by the arrival of other younger theologians from St. Sergius: Fr. Alexander Schmemann (1951, +1983), Professor Serge S. Verhovskoy (1952, +1986), and later Fr. John Meyendorff (1959, +1992).",
+     "license": "rights reserved; short quotation"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Antoine Arjakovsky, The Way: Religious Thinkers of the Russian Emigration in Paris and Their Journal, 1925-1940, trans. Jerry Ryan (Notre Dame, 2013)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    }
+   ],
+   "citation_specificity": "B",
+   "verification_state": "verified-online",
+   "named_in_text": [
+    "emigre-orthodoxy-and-the-paris-school relationsSummary and legacy ('Much of English-speaking Orthodoxy ... descended from this Paris generation'; St Vladimir's Seminary)",
+    "emigre-orthodoxy-and-the-paris-school longDescription ('Alexander Schmemann, John Meyendorff — carried the work to America')",
+    "american-orthodoxy-autocephaly-and-the-convert-wave relationsSummary and legacy ('the institutional handoff from the Paris émigré generation')"
+   ],
+   "wants": [
+    "A modern study of St Vladimir's Seminary or of the Paris theologians in America, to stand beside the seminary's own history",
+    "Alexander Schmemann, The Journals of Father Alexander Schmemann, 1973-1983 (SVS Press, 2000)"
+   ],
+   "drafter_flags": [
+    "American Orthodoxy (group I) names this pair too; group I may draft it. Resolve at merge.",
+    "Type 'influenced', not 'gave rise to': the Orthodox Church in America came out of the Russian Metropolia, not out of Paris; the Paris teachers shaped its seminary.",
+    "Weakest point: Arjakovsky's study is named for the Paris thinkers, not read for their move to America. If the reviewer finds no study that carries the handoff, the grade should fall to Inferential-Thin.",
+    "The page quote keeps the page's stray space before the comma after 'Florovsky'."
+   ],
+   "change_reason": "New: the American handoff named in the legacy and in American Orthodoxy's text."
+  },
+  {
+   "id": "the-russian-new-martyrs-and-the-catacomb-church--the-russian-orthodox-church-council-patriarchate-and-reunion",
+   "action": "new",
+   "from": "the-russian-new-martyrs-and-the-catacomb-church",
+   "to": "the-russian-orthodox-church-council-patriarchate-and-reunion",
+   "type": "broke with",
+   "confidence": "Widely Accepted",
+   "note": "In 1927 Metropolitan Sergius said the church would be loyal to the Soviet state. Many priests and lay people then broke with him. In 1929 Sergius called them a new split. In 1930 Metropolitan Joseph wrote of the movement against Sergius while held by the secret police.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "A. V. Mazyrin (ed.), '«Я иду только за Христом...»: Митрополит Иосиф (Петровых), 1930 год', Богословский сборник 9 (2002), 376-424, on azbyka.ru: the 1930 depositions of Metropolitan Joseph from the OGPU file, with the editor's notes",
+     "url": "https://azbyka.ru/otechnik/Iosif_Petrovyh/ja-idu-tolko-za-hristom-mitropolit-iosif-petrovyh-1930-god/",
+     "accessed": "2026-11-10",
+     "locus": "document 4, Joseph's own handwritten deposition, 27 September 1930",
+     "quote": "Процесс, в котором я сейчас фигурирую, имеет целью видимо «разгром» так называемого «Иосифлянства» (правильнее «антиСергиянства»), организации якобы с антисоветскими тенденциями.",
+     "license": "published edition; short quotation"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "A. V. Mazyrin (ed.), '«Я иду только за Христом...»: Митрополит Иосиф (Петровых), 1930 год', Богословский сборник 9 (2002), 376-424, on azbyka.ru: the 1930 depositions of Metropolitan Joseph from the OGPU file, with the editor's notes",
+     "url": "https://azbyka.ru/otechnik/Iosif_Petrovyh/ja-idu-tolko-za-hristom-mitropolit-iosif-petrovyh-1930-god/",
+     "accessed": "2026-11-10",
+     "locus": "document 5, interrogation record signed by Joseph, 1930",
+     "quote": "недовольные Сергием решились прервать с ним общение как с администратором и управляться в своей общине самостоятельно",
+     "license": "published edition; short quotation"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "A. V. Mazyrin (ed.), '«Я иду только за Христом...»: Митрополит Иосиф (Петровых), 1930 год', Богословский сборник 9 (2002), 376-424, on azbyka.ru: the 1930 depositions of Metropolitan Joseph from the OGPU file, with the editor's notes",
+     "url": "https://azbyka.ru/otechnik/Iosif_Petrovyh/ja-idu-tolko-za-hristom-mitropolit-iosif-petrovyh-1930-god/",
+     "accessed": "2026-11-10",
+     "locus": "editor's note 23, quoting Sergius's letter to Metropolitan Kirill of 18 September 1929",
+     "quote": "Вы и теоретически единомысленны с нашим новым расколом, не совсем правильно называемым “иосифлянским”"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "A. V. Mazyrin (ed.), '«Я иду только за Христом...»: Митрополит Иосиф (Петровых), 1930 год', Богословский сборник 9 (2002), 376-424, on azbyka.ru: the 1930 depositions of Metropolitan Joseph from the OGPU file, with the editor's notes",
+     "url": "https://azbyka.ru/otechnik/Iosif_Petrovyh/ja-idu-tolko-za-hristom-mitropolit-iosif-petrovyh-1930-god/",
+     "accessed": "2026-11-10",
+     "locus": "editor's note 68, on Bishop Alexy (Bui)",
+     "quote": "22 января 1928 года отделился от митрополита Сергия"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Dimitry Pospielovsky, The Russian Church under the Soviet Regime, 1917-1982, 2 vols (St Vladimir's Seminary Press, 1984)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    }
+   ],
+   "citation_specificity": "B",
+   "verification_state": "verified-online",
+   "named_in_text": [
+    "the-russian-new-martyrs-and-the-catacomb-church longDescription and why ('In 1927 Metropolitan Sergius issued a Declaration ... and the church divided over it')",
+    "the-russian-new-martyrs-and-the-catacomb-church legacy ('an argument the church was still having with itself in 2010, about the 1927 Declaration')",
+    "the-russian-orthodox-church-council-patriarchate-and-reunion relationsSummary ('The Russian New Martyrs and the Catacomb Church tells its persecution')"
+   ],
+   "wants": [
+    "Metropolitan Sergius's Declaration of 16/29 July 1927 (in M. E. Gubonin, Akty Sviateishego Tikhona, 1994, 509-513; the booksite.ru copy is an image file)",
+    "The decrees of Sergius's Synod against Joseph of Petrograd and the 'non-commemorators' (1928)"
+   ],
+   "drafter_flags": [
+    "Both sides are present: Joseph's own words for the break, and Sergius's 1929 letter calling it 'our new schism', though the latter is read only as the editor quotes it in note 23 (so listed as secondary).",
+    "Document 5 is an interrogation record written by the investigator and signed by Joseph; the editor warns such records need care. Document 4 is in Joseph's own hand.",
+    "The Russian Orthodox Church entry (group J) names this entry; group J may draft the same pair. Resolve at merge.",
+    "The 'from' is the new-martyrs entry because it holds the catacomb communities; not every martyr in it broke with Sergius. The note says 'many', not all.",
+    "Russian quotes copied as the page has them, with its «» and “” quotation marks."
+   ],
+   "change_reason": "New: the 1927 division named in the longDescription and why."
+  },
+  {
+   "id": "the-russian-orthodox-church-council-patriarchate-and-reunion--the-ukrainian-greek-catholic-underground",
+   "action": "new",
+   "from": "the-russian-orthodox-church-council-patriarchate-and-reunion",
+   "to": "the-ukrainian-greek-catholic-underground",
+   "type": "argued against",
+   "confidence": "Widely Accepted",
+   "note": "In March 1946 a synod at Lviv folded the Ukrainian Greek Catholic Church into the Russian Orthodox Church. The Ukrainian church calls that meeting a false synod. It says the Moscow church was a tool of the attacks on it that came after.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Ukrainian Greek Catholic Church, 'A Word to the Orthodox Brothers and Sisters Who Signed the Statement on the 70th Anniversary of the So-Called \"Lviv Sobor of 1946\"' (Kyiv, 17 March 2016), signed by Sviatoslav Shevchuk and others, on the church's archive site",
+     "url": "https://archives.ugcc.ua/en/documents/a_word_to_the_orthodox_brothers_and_sisters_who_signed_the_statement_on_the_70th_anniversary_of_the_socalled_lviv_sobor_of_1946_76337.html",
+     "accessed": "2026-11-10",
+     "locus": "opening paragraph",
+     "quote": "We, Greco-Catholic bishops, clergy, and lay people, scholars and researchers from various countries, express our sincere gratitude and recognition for your letter in which you rightly call this gathering a “pseudo-synod.”",
+     "license": "rights reserved; short quotation"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Ukrainian Greek Catholic Church, 'A Word to the Orthodox Brothers and Sisters Who Signed the Statement on the 70th Anniversary of the So-Called \"Lviv Sobor of 1946\"' (Kyiv, 17 March 2016), signed by Sviatoslav Shevchuk and others, on the church's archive site",
+     "url": "https://archives.ugcc.ua/en/documents/a_word_to_the_orthodox_brothers_and_sisters_who_signed_the_statement_on_the_70th_anniversary_of_the_socalled_lviv_sobor_of_1946_76337.html",
+     "accessed": "2026-11-10",
+     "locus": "paragraph on the official position of the Moscow church",
+     "quote": "the official position of the Church that was an instrument of persecution of the Greco-Catholics in the hands of the godless totalitarian regime is still a position of overt reluctance to accept the facts and of denial regarding historical reality.",
+     "license": "rights reserved; short quotation"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Bohdan R. Bociurkiw, The Ukrainian Greek Catholic Church and the Soviet State (1939-1950) (CIUS, 1996)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    }
+   ],
+   "citation_specificity": "B",
+   "verification_state": "verified-online",
+   "major": {
+    "major": false,
+    "kind": null,
+    "evidence": null,
+    "reason": "The dissolution is the institutional act, but no listed source states what the 1946 gathering decided: the statement names only its 'tragic decisions'. Bociurkiw would carry it but is named, not read."
+   },
+   "named_in_text": [
+    "the-ukrainian-greek-catholic-underground longDescription and why ('a synod was convened at Lviv that dissolved the Ukrainian Greek Catholic Church into the Russian Orthodox Church')"
+   ],
+   "wants": [
+    "The acts of the Lviv sobor of 8-10 March 1946 (Diiannia Soboru Hreko-Katolyts'koi Tserkvy u L'vovi, Lviv 1946)",
+    "The Moscow Patriarchate's own account of the 1946 'reunion' (Zhurnal Moskovskoi Patriarkhii, 1946)",
+    "Bociurkiw (1996), read for the sobor; it would let the link be judged major"
+   ],
+   "drafter_flags": [
+    "The primary is dated 2016. It supports a 1946 fact; nothing after 2010 is in the note.",
+    "Only the Ukrainian side was opened. The Moscow Patriarchate counted 1946 as a reunion. If the reviewer reads this as a disputed relationship rather than a disputed framing, Contested is the alternative grade; the act itself (the 1946 synod) is not in dispute.",
+    "The note's first sentence repeats the census text's own fact (traced there to Bociurkiw); no listed source quotes the dissolution itself. That is why the major test is not met.",
+    "The Russian Orthodox Church entry (group J) does not name this church, so this is the underground entry's to draw."
+   ],
+   "change_reason": "New: the 1946 Lviv synod named in the longDescription and why."
+  },
+  {
+   "id": "desert-monasticism--the-coptic-monastic-and-sunday-school-revival",
+   "action": "new",
+   "from": "desert-monasticism",
+   "to": "the-coptic-monastic-and-sunday-school-revival",
+   "type": "influenced",
+   "confidence": "Widely Accepted",
+   "note": "In 1969 Patriarch Kyrillos VI sent Matthew the Poor and twelve monks to the Monastery of St Macarius at Scetis. The monastery's own history says they had lived in the spirit of the desert fathers. It dates its founding to 360.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Monastery of St Macarius the Great, 'History of the Monastery' (stmacariusmonastery.org, the monastery's older English site, undated, written about 1983)",
+     "url": "https://www.stmacariusmonastery.org/old/eabout.htm",
+     "accessed": "2026-11-10",
+     "locus": "'History of the Monastery'",
+     "quote": "It was founded in 360 A.D. by St. Macarius the Egyptian",
+     "license": "rights reserved; short quotation"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Monastery of St Macarius the Great, 'History of the Monastery' (stmacariusmonastery.org, the monastery's older English site, undated, written about 1983)",
+     "url": "https://www.stmacariusmonastery.org/old/eabout.htm",
+     "accessed": "2026-11-10",
+     "locus": "'History of the Monastery'",
+     "quote": "There they had lived the monastic life in the fullest sense, in the spirit of the desert fathers, with that same simplicity and the same total deprivation of all the goods and cares of this world",
+     "license": "rights reserved; short quotation"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Monastery of St Macarius the Great, 'History of the Monastery' (stmacariusmonastery.org, the monastery's older English site, undated, written about 1983)",
+     "url": "https://www.stmacariusmonastery.org/old/eabout.htm",
+     "accessed": "2026-11-10",
+     "locus": "'History of the Monastery'",
+     "quote": "It was the late Patriarch Cyril vi who in 1969 ordered this group of monks to leave Wadi el-Rayyan and go to the Monastery of St. Macarius to restore it.",
+     "license": "rights reserved; short quotation"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Otto Meinardus, Two Thousand Years of Coptic Christianity (AUC Press, 1999)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    }
+   ],
+   "citation_specificity": "B",
+   "verification_state": "verified-online",
+   "named_in_text": [
+    "the-coptic-monastic-and-sunday-school-revival relationsSummary ('back to the Desert itself')",
+    "the-coptic-monastic-and-sunday-school-revival legacy ('ran back, unbroken, to the desert fathers themselves')",
+    "the-coptic-monastic-and-sunday-school-revival longDescription (Matthew the Poor, of the monastery of St Macarius)"
+   ],
+   "wants": [
+    "Matthew the Poor, Coptic Monasticism in the Time of St Macarius (Arabic, Cairo 1972), cited by the monastery's page",
+    "Meinardus (1999), read for the repopulation of the desert monasteries"
+   ],
+   "drafter_flags": [
+    "'continued as' is ruled out (eras 2 and 10 are not adjacent); the Coptic line between them is carried by the existing continued-as chain. 'influenced' names what the source shows: monks taking up the desert fathers' way and repopulating a fourth-century house.",
+    "The page's 'about 1983' rests on its own words: 'after fourteen years of constant activity' since 1969. Matthew the Poor, whom the entry names, led the community whose page it is."
+   ],
+   "change_reason": "New: the desert parent named in the relationsSummary and legacy."
+  }
+ ],
+ "prose_changes": [
+  {
+   "n": 0,
+   "movement": "african-initiated-churches-harrist-aladura-zioni",
+   "field": "relationsSummary",
+   "old": "Children of mission churches + Pentecostal currents + African initiative irreducible to either",
+   "new": "Many of these churches began when African Christians left the mission churches. Scholars still debate how much they owed to Pentecostal teaching. African founders led them, and they were fully the work of neither.",
+   "reason": "Code-style summary with '+' signs rewritten as sentences. 'Pentecostal currents' is qualified to the debate the Contested Azusa link records; 'children of mission churches' is carried by the Methodist and Anglican links and the existing era 9 link."
+  },
+  {
+   "n": 1,
+   "movement": "the-coptic-monastic-and-sunday-school-revival",
+   "field": "relationsSummary",
+   "old": "Continuation of the map's longest unbroken lane - back to the Desert itself",
+   "new": "The same Coptic Orthodox Church carried both renewals. In 1969 monks went back to the Monastery of St Macarius in the desert, a house founded in the fourth century.",
+   "reason": "A map-layout note rewritten in words. The monastery's own history gives the 1969 return and the founding in 360; 'unbroken' is left to the existing continued-as chain rather than claimed here."
+  }
+ ],
+ "wants": [
+  "WCC Central Committee, Minutes and Reports of the Twenty-Third Meeting (Canterbury 1969), for the Library",
+  "A Wesleyan Methodist report of 1883-84 on Nehemiah Tile; C. C. Saunders, 'Tile and the Thembu Church' (JAH 1970)",
+  "Reuben Spartas's letters and the African Greek Orthodox Church's records, 1929-1946; F. B. Welbourn, East African Rebels (1961)",
+  "The Church of the Lord (Aladura) Worldwide's own history; H. W. Turner, African Independent Church (1967); a Kimbanguist record of European parishes",
+  "The Iglesia Filipina Independiente's proclamation of 3 August 1902 and its 1903 Doctrine and Constitutional Rules",
+  "The 1961 Concordat of full communion between the Philippine Independent Church and the Episcopal Church; the record of the 1948 consecrations",
+  "A. G. Hebert, Liturgy and Society (1935) and The Parish Communion (1937) (archive.org lending copies only)",
+  "Lambert Beauduin's Malines address (1909) and La piété de l'Église (1914); Orate Fratres, first volumes",
+  "Patriarch Tikhon's decree no. 362 (20 November 1920); Metropolitan Evlogy, Put' moei zhizni (1947)",
+  "A modern study of St Vladimir's Seminary and the Paris theologians in America; Schmemann's Journals (2000)",
+  "Metropolitan Sergius's Declaration of 1927 and his Synod's decrees of 1928 against the 'non-commemorators'",
+  "The acts of the Lviv sobor of March 1946; the Moscow Patriarchate's 1946 account; Bociurkiw (1996), read",
+  "The Moscow Patriarchate's 1935 decree on Bulgakov's sophiology",
+  "Matthew the Poor, Coptic Monasticism in the Time of St Macarius (1972); Meinardus (1999), read"
+ ],
+ "escalations": [
+  "None that changes a method rule. Two things for the merge:",
+  "1. Duplicates likely with group J (Catholic Church before the Council, Russian Orthodox Church) and group I (American Orthodoxy): the liturgical-movement--Pius X, Russian Orthodox--Paris, new-martyrs--Russian Orthodox and Paris--American Orthodoxy pairs are named in both groups' texts.",
+  "2. The Anglican-to-AIC link is drawn as 'gave rise to' although the census text says 'broke with'; the text is supported by Welbourn as traced, but no record from either side was found, so the type follows the evidence."
+ ]
+}

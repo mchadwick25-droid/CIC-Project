@@ -9,6 +9,9 @@ assignments:
       - latin-pastoral-congregational-christianity
     role: context
     confidence: provisional
+    locus_ids: [whole-file]
+    language: fra
+    date: {formation_confidence: unknown, checked: "hefele-leclercq_histoire-des-conciles-tome1-1-cyprien-novatiens-baptheme-slice-fra_1907.txt: the header title reads 'nouvelle traduction francaise faite sur la deuxieme edition allemande', printed 1907 (title page, item lines 52-56); this is a French translation of a German work whose year the file does not state, and no preface dateline was found"}
     note: >
       Modern French account of the councils under Cyprian and the baptism dispute. Registry
       row 248.

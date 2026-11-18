@@ -1,0 +1,3679 @@
+Title: The Russian Church since the Revolution
+Creator: G. P. Fedotoff; preface by Athelstan Riley
+Publisher: London: Society for Promoting Christian Knowledge; New York and Toronto: The Macmillan Co. (title page)
+Publication Date: 1928 ("First published 1928" on the verso of the title page, read on the page image, leaf 1; the OCR loses the year)
+Rights: Public Domain (pd-us-by-date: printed 1928; "First published 1928", read on the page image; the archive.org record carries no rights field)
+Source: archive.org item 1928-russian-church-since-the-revolution, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (174,932) equals the size archive.org lists for the djvu.txt.
+Provenance note: The item's own djvu.txt follows this header. No Google or Internet Archive notice was found to remove; nothing was stripped, normalized or corrected; library stamps and slips in the scan are left as they are. Rights basis: pd-us-by-date: printed 1928; "First published 1928", read on the page image; the archive.org record carries no rights field. OCR quality: fair. Line numbers in this header are this file's own line numbers.
+Content note: A short history. Its appendix sums up the events of 1927 and Metropolitan Sergius's letter; it does not print the letter in full. The upload is described by the host as a cleaned-up copy of another scan. Parts, by line (headings shortened): PREFACE at 64; CHAPTER I: THE REVOLUTION OF 1917 AND THE MOSCOW SOBOR at 166; CHAPTER II: SEPARATION OF CHURCH AND STATE at 606; CHAPTER III: THE PERSECUTION OF RELIGION at 1051; CHAPTER IV: THE 'RENOVATION' SCHISM at 1844; CHAPTER V: THE INNER LIFE OF THE ORTHODOX CHURCH at 3007; APPENDIX at 3563.
+
+______________________________________________________________________
+
+The  Russian  Church  since 
+the  T^olution 
+
+BY 
+
+G.  P.  FEDOTOFF 
+
+
+LONDON 
+
+SOCIETY  FOR  PROMOTING 
+CHRISTIAN  KNOWLEDGE 
+
+
+NEW  YORK  AND  TORONTO  ;  THE  MACMILLAN  CO. 
+
+
+First  fubhshtd 
+
+
+PRINTBD  IN  CRSAT  BRITAIN  BY 
+BILLING  AND  SONS,  LTD.*  GUILDFORD  AND  BBHSB 
+
+
+CONTENTS 
+
+
+f  AM 
+
+Preface  -  -  -  -  -  v 
+
+eiAfTBI 
+
+I.  The  Revolution  of  1917  and  the  Moscow 
+
+
+Sobor  -  -  -  -  9 
+
+II.  Separation  of  Church  and  State  -  -  20 
+
+III.  The  Persecution  of  Religion  -  -  32 
+
+IV.  The  “Renovation”  Schism  -  -  -  51 
+
+V.  The  Inner  Life  of  the  Orthodox  Church-  80 
+
+Appendix  -  -  -  -  94 
+
+
+iii 
+
+
+PREFACE 
+
+
+After  a  total  suspension  of  news  from  Russia  lasting 
+between  twenty-four  and  forty-eight  hours,  news 
+reached  England  of  the  Revolution  and  the  abdication 
+of  the  Tsar.  I  remember  going  to  my  club  and 
+witnessing  the  enthusiasm  of  the  members :  “  Have 
+you  heard  the  glorious  news  from  Russia?”  My  sug¬ 
+gestion  that  it  was  a  great  disaster  was  received  with 
+pitying  incredulity,  and  for  months  afterwards  the 
+censorship  imposed  upon  the  Press  the  obligation  of 
+“  writing  up  ”  the  Revolution. 
+
+Three  months  later,  in  a  postcript  to  Birkbeck  and 
+the  Russian  Church  (S.P.C.K.,  1917),  I  attempted  to 
+appraise  the  effect  on  the  Church  of  the  great  change 
+in  its  position.  But  neither  I  nor  any  other  individual 
+at  that  time  could  foresee  the  extent  of  the  catastrophe 
+or  could  believe  that  it  presaged  the  most  ferocious 
+attack  upon  Christianity  that  the  world  has  ever 
+seen. 
+
+The  surviving  Bishops  of  Russia  generally  speak 
+with  quiet  confidence  of  the  future — they  know  their 
+people,  and  the  failure  of  the  Bolsheviks  to  tear 
+Christianity  out  of  their  hearts  is  evident;  the  frontal 
+attack  on  the  Church  has  been  largely  abandoned. 
+The  methods  now  followed  are  more  sinister,  if  les9 
+direct.  In  the  first  place,  all  training  of  candidates  for 
+the  ministry  has  been  rendered  impossible;  what  will 
+happen  when  clergy  and  sacrament  alike  disappear? 
+
+
+PREFACE 
+
+
+Secondly,  every  effort  has  been  made  to  divide 
+Christians,  efforts  rendered  easy  by  the  paralyzing  of 
+the  episcopate :  when  the  Bishops  are  out  of  their 
+prisons  or  exile  their  administration  is  rendered  im¬ 
+possible.  The  Patriarch  Tikhon,  when  alive,  was  so 
+absolutely  in  the  hands  of  his  gaolers  that  nobody  out¬ 
+side,  or  even  inside,  Russia  knew  what  weight  to  give 
+to  his  utterances.  Hence,  not  only  the  schisms  pro¬ 
+voked  in  the  unhappy  country  itself,  but  the  divisions 
+amongst  the  emigres.  All  that  we  of  the  Anglican 
+Communion  can  do  is  to  show  our  impartial  sym¬ 
+pathy  for  all  who,  in  circumstances  of  unparalleled 
+difficulty,  are  working  for  the  salvation  of  Christianity 
+in  Russia;  it  would  be  presumptuous  of  us  to  judge 
+between  them.  With  the  Hierarchs  of  the  Eastern 
+Church  rests  a  greater  responsibility,  but  even  they 
+are  compelled  to  act  with  caution,  and  it  must  be 
+remembered  that  the  Treaty  of  Lausanne  has  placed 
+the  CEcumenical  Patriarch  himself  in  a  position  of 
+very  great  difficulty. 
+
+That  brings  me  to  the  final  consideration.  What  is 
+the  nature  or  the  force  which  is  making  this  relentless 
+attack,  not  only  on  Christianity,  but  against  the  very 
+idea  of  God,  in  widely  different  quarters  of  the  globe 
+— Russia,  Turkey,  Mexico?  In  what  other  countries 
+will  the  same  attack  appear  ?  That  it  is  in  a  very  real 
+sense  supernatural  is  abundantly  clear.  Is  it  the 
+coming  of  Antichrist?  And  if  so,  how  will  our 
+portion  of  the  Christian  family  sustain  the  attack? 
+Are  we  prepared,  like  our  Russian  brothers  and 
+sisters,  to  lay  down  our  lives,  if  need  be,  for  Him 
+Who  bought  us  with  His  precious  Blood? 
+
+Monsieur  Fedotoff  was  educated  in  the  University 
+
+
+PREFACE 
+
+of  Petrograd  and  was  subsequently  professor  of 
+Medieval  History  in  the  Universities  of  Saratoff  and 
+Petrograd.  He  remained  in  Russia  till  1925,  and 
+speaks,  therefore,  with  a  very  complete  knowledge  of 
+eight  years  of  the  great  persecution.  He  belongs  to 
+that  section  of  the  Russian  Church  in  exile  which  is 
+gathered  round  the  Metropolitan  Eulogie  in  Paris, 
+and  sees  things  from  that  point  of  view;  he  is  now 
+teaching  in  the  Russian  Theological  Institute  in  that 
+city.  He  may  be  regarded,  therefore,  as  a  competent 
+and  trustworthy  witness,  and  he  writes  with  modera¬ 
+tion  and  restraint.  I  trust  his  little  work  will  have  a 
+wide  circulation  in  this  country. 
+
+ATHELSTAN  RILEY. 
+
+Pints  cost,  1928. 
+
+
+VII 
+
+
+THE  RUSSIAN  CHURCH  SINCE 
+THE  REVOLUTION 
+
+
+CHAPTER  I 
+
+THE  REVOLUTION  OF  I917  AND  THE 
+MOSCOW  SOBOR 
+
+I 
+
+The  doctrine  and  the  ritual  of  the  Russian  Church 
+have  for  centuries  maintained  a  bond  between  the 
+Church  and  the  sovereign  power  in  the  State.  This 
+was  particularly  true  during  the  period  of  the  auto¬ 
+cratic  monarchy,  which  in  theory  and  practice  was  a 
+theocracy,  wherein  the  “  anointed  ”  Tsar  was  at  once 
+the  political  sovereign  and,  like  the  Byzantine 
+emperors,  the  ruler  of  the  spiritual  community,  the 
+Church.  When,  therefore,  the  Revolution  of  1917 
+deposed  the  Tsar,  a  great  breach  was  made  not  only 
+in  the  political  organization  of  the  State,  but  in  the 
+deeper  conceptions  of  the  Church  and  in  its  ritual, 
+for  no  longer  could  the  Emperor’s  name  be  re¬ 
+membered  at  the  appointed  places  in  the  service,  and 
+no  “Provisional  Government”  or  elected  council 
+could  possibly  be  considered  a  substitute  or  suc¬ 
+cessor  to  this  half-spiritual,  half-political  position. 
+There  is  all  the  more  reason  for  astonishment  that 
+the  Church  should  so  quickly  adapt  itself  to  new 
+conditions  and  so  loyally  accept  the  new  authority. 
+
+9 
+
+
+THE  RUSSIAN  CHURCH  SINCE  THE  REVOLUTION 
+
+In  explanation  of  this  fact  one  must  point  to  two 
+circumstances.  In  the  first  place,  the  Russian  Church, 
+notwithstanding  its  connection  with  the  Government, 
+or,  indeed,  because  of  this  connection,  was  non¬ 
+political.  There  was  no  clerical  party  in  the  political 
+arena.  Granting  “unto  Csesar  the  things  that  are 
+Csesar’s,”  the  Church  made  no  attempt  to  influence 
+political  policies,  but  rested  content  with  the  strength 
+afforded  by  State  protection.  An  exception  must 
+necessarily  be  made  of  a  few  individual  bishops  and 
+priests.  Under  the  last  Tsar,  a  few  bishops  en¬ 
+deavoured  to  save  the  regime  from  the  oncoming 
+revolution  by  lending  their  support  to  parties  of  the 
+extreme  right — the  Union  of  the  Russian  People, 
+and  others.  The  names  of  these,  hierarchs  were  known 
+to  all  Russia,  but  they  neither  represented  nor  had 
+had  great  influence  on  the  Church.  The  Russian 
+priest  retained  his  age-long  characteristics;  modest, 
+simple,  even  submissive,  he  occupied  himself  almost 
+exclusively  with  services  of  worship,  not  attempting 
+to  influence  social  or  political  life.  Hence  the  Russian 
+radical  intelligentzia,  though  largely  atheistic,  was 
+quite  without  hostility  to  the  Church,  and  even 
+looked  upon  the  clergy  and  ceremonies  with  tolera¬ 
+tion  and  a  certain  degree  of  reverence. 
+
+The  Second  reason  for  the  Church’s  undisturbedly 
+accepting  the  revolution  lay  in  the  fact  that  the  moral 
+breakdown  of  the  regime  during  the  last  few  years 
+had  touched  the  Church  in  its  weakest  place.  It  was 
+a  secret  to  no  one  that  the  appointment  of  bishops, 
+even  the  very  membership  of  the  Holy  Synod,  was 
+effected  by  tie  influence  of  Rasputin,  who  was  all- 
+powerful  at  Court.  Such  a  lowering  of  the  position 
+
+IO 
+
+
+REVOLUTION  OR  I917  AND  THE  MOSCOW  SOBOR 
+
+of  the  Church  was  unbearable  even  to  the  most 
+fanatical  defenders  of  the  autocracy  among  the 
+bishops,  such  as  Hermogen  and  Theophan. 
+
+Of  the  White  (married)  clergy,  about  a  hundred 
+belonged  to  a  small  democratic  group  which  en¬ 
+thusiastically  welcomed  the  revolution.  There  were 
+others  who  long  had  shared  the  liberating  aspirations 
+of  the  intelligentzia,  uniting  with  them  in  this 
+struggle  as  early  as  1 905,  and  meeting  with  them  for 
+a  number  of  years  in  the  liberal  “  Religious  Philo¬ 
+sophical  Society.”  Immediately  after  the  overthrow 
+of  the  old  regime,  there  was  organized  in  Petrograd 
+“  The  Union  of  Democratic  Clergy,”  which  conducted 
+Christian  propaganda  among  the  revolutionary  work¬ 
+men  in  the  suburbs,  and  wrote  on  their  banner  “A 
+free  Church  in  a  free  State.”  In  many  provincial  cities 
+the  old  antagonism  of  the  parish  dergy,  principally 
+village  priests,  to  the  monastic  episcopacy  came  out 
+into  the  open.  In  stormy  diocesan  conferences 
+deacons  and  readers  boldly  brought  up  the  offences 
+of  their  “  Lordships,”  who  but  yesterday  had  inspired 
+only  fear;  in  some  places  they  removed  their  superiors, 
+basing  their  action  on  the  right  of  the  communities 
+to  elect  their  own  bishops,  as  had  been  granted  by  the 
+revolution,  and  which,  in  principle,  was  entirely 
+canonical.  In  some  places  the  bishops  were  even 
+arrested.  The  Provisional  Government,  in  the  person 
+of  its  Ober-procuror  of  the  Synod,  V.  N.  Lvoff  (not 
+to  be  confused  with  the  head  of  the  Government, 
+Prince  G.  E.  Lvoff),  took  upon  itself  the  task  of 
+“deansing”  the  episcopacy  and  the  Holy  Synod  of 
+Rasputinites  and  extreme  monarchists.  It  is  more 
+than  doubtful  whether  the  Provisional  Government 
+
+ti 
+
+
+THE  RUSSIAN  CHURCH  SINCE  THE  REVOLUTION 
+
+had  canonical  authority  for  this.  The  Ober-procuror 
+of  the  old  regime  represented  in  the  Church  the  sacred 
+person  of  the  Tsar.  The  dependence  of  the  Church 
+upon  an  entirely  non-ecclesiastical,  liberal,  and  re¬ 
+publican  (becoming  more  and  more  socialistic) 
+government  was  a  paradox,  offensive  to  ecclesiastical 
+conceptions,  even  though  perhaps  politically  unavoid¬ 
+able.  These  events,  the  hard  hand  of  the  Ober-pro¬ 
+curor  and  the  appearance  of  class  antagonism  within 
+the  clergy,  seriously  dampened  the  joy  of  regained 
+freedom  for  the  Church,  which  so  many  Othodox 
+people  experienced  during  the  first  days  of  the 
+revolution. 
+
+This  movement,  just  mentioned  above,  contained 
+the  seed  of  the  future  Church  schism. 
+
+The  revolution  penetrated  the  life  of  the  nation, 
+taking  on  more  and  more  the  appearance  of  anarchy. 
+It  became  clear  that,  for  the  army,  the  chief  meaning 
+of  the  overthrow  lay  in  the  conclusion  of  peace,  re¬ 
+gardless  of  cost.  Peasants  seized  the  land  of  the 
+landlords,  in  some  places  killing  the  proprietors. 
+Workmen  demanded  the  nationalization  of  factories. 
+In  the  cities  mobs  of  deserters  in  soldiers’  uniforms 
+reigned;  murders,  robberies,  crimes  of  all  sort  were 
+committed  throughout  the  country  practically  without 
+punishment.  In  the  midst  of  the  general  breakdown, 
+the  Communist  Party,  headed  by  Lenin,  pressed 
+forward  for  the  seizure  of  authority,  promising  to  the 
+masses  peace,  land,  and  bread. 
+
+It  was  in  such  circumstances  that  the  elections  to  the 
+All  Russian  Church  “  Sobor  ”  (Council)  took  place. 
+The  Russian  Church  had  had  no  Sobor  during  the 
+whole  period  of  the  Empire,  the  last  Sobor  being  in 
+
+
+REVOLUTION  OF  I917  AND  THE  MOSCOW  SOBOR 
+
+1666.  The  restoration  of  the  conciliar  basis  in  the 
+Church  had  long  been  the  watchword  of  liberals  and 
+Slavophiles,  and  corresponded  with  the  deepest  concep¬ 
+tions  of  the  Church.  In  1905  the  Emperor,  making  a 
+concession  to  certain  Church  circles,  recognized  the 
+necessity  of  calling  a  general  Sobor  of  the  Russian 
+Church.  The  organizing  committee  worked  for  many 
+years,  but  before  long  it  became  clear  that  the  object 
+of  the  bureaucracy  was  to  bury  the  Sobor,  in  which  it 
+saw  dangers  of  liberalism.  As  a  matter  of  fact,  when 
+the  elections  to  the  Sobor  took  place,  in  the  summer 
+of  1917,  the  general  attitude  of  Orthodox  Russia  was 
+rather  conservative,  among  the  peasants  as  well  as  in 
+the  broad  mass  of  the  “bourgeoisie”  and  nationally 
+inclined  intelligentzia. 
+
+The  Sobor  opened  in  Moscow  on  August  15, 
+1917.  The  “left”  group  in  the  Church,  repre¬ 
+sented  by  priests  and  professors  of  the  Theological 
+Academies,  found  itself  greatly  in  the  minority.  The 
+balance  was  on  the  side  of  the  moderate  and  right. 
+It  would  be  wrong  to  assert  that  the  Sobor  was  con¬ 
+trolled  by  the  “right,”1  headed  by  the  well-known 
+Anthony  Khrapovitsky,  Archbishop  of  Kharkoff, 
+formerly  of  Volhynia.  The  influence  of  this  bishop, 
+one  of  the  most  learned  and  talented  in  the  Russian 
+Church,  was  of  course  great,  but  the  dominating  in¬ 
+fluence  unquestionably  belonged  to  the  centre,  led 
+by  a  group  of  devoted  laymen,  such  as  Professor 
+S.  N.  BulgakofF  (now  a  priest)  and  Professor  E.  N. 
+Trubetzkoy  (deceased),  well-known  philosophers  and 
+
+1  This  is  the  attitude  of  Professor  B.  V.  Titlinoff  in  his  book, 
+“The  Church  during  the  Revolution,”  pp.  68  and  91-92. 
+Petrograd,  19*4, 
+
+
+13 
+
+
+THE  RUSSIAN  CHURCH  SINCE  TH*  REVOLUTION 
+
+theologians  of  the  new  school.  As  regards  both 
+Church  and  politics,  they  must  be  placed  among  the 
+moderate  liberals,  near  to  the  Constitutional  Demo¬ 
+cratic  Party  (Cadet).  The  bishops  in  the  Sobor,  more 
+inclined  to  the  right,  found  support  in  the  peasants, 
+whose  representation  gave  democratic  character  to  the 
+Sobor.  Certainly  there  was  a  wide  gulf  between  the 
+conservative,  Orthodox  peasants  and  those  who  at 
+that  time  were  burning  the  estate  houses  of  the 
+gentry. 
+
+The  Sobor  sat  for  a  long  time,  adjourning  in  the 
+fall  of  1918,  in  the  midst  of  the  fighting  of  the  Civil 
+War,  with  its  work  unfinished.  However,  it  deline¬ 
+ated  and  in  part  effected  a  broad  programme  of  re¬ 
+form  in  Church  administration  which  reflects  a  spirit 
+of  moderate  liberalism.  The  principal  results  were  the 
+democratizing  of  the  parish  administrations,  the 
+drawing  of  laymen  into  active  participation  in  Church 
+life,  such  as  in  the  selection  of  their  pastors,  and  the 
+establishment  of  the  conciliar  basis  in  the  higher 
+Church  administration.  Many  of  these  ecclesiastical 
+reforms  failed  of  realization  because  of  the  beginning 
+of  Communist  persecution  of  the  Church. 
+
+But  the  principal  achievement  of  the  Sobor  was 
+unquestionably  the  restoration  of  the  Patriarchate. 
+The  Patriarchate  in  Russia,  it  will  be  remembered, 
+was  abandoned  by  Peter  the  Great,  and  replaced  by 
+the  Holy  Synod,  consisting  of  bishops  appointed  by 
+the  Tsar.  Before  the  revolution  the  idea  of  the 
+restoration  of  the  Patriarchate  was  supported  in  epis¬ 
+copal  circles  by  those  who  longed  for  Church  inde¬ 
+pendence.  This  movement  was  stimulated  largely  by 
+Metropolitan  Anthony  Khrapovitzky,  and  was  not 
+
+i+ 
+
+
+REVOLUTION  OF  1 9 1 7  AND  THE  MOSCOW  SOBOR 
+
+popular  among  the  liberals.  The  defenders  of  “  sobor- 
+nostj 55  (condlianty)  feared  that  in  the  person  of  the 
+Patriarch  there  would  be  a  despotic  head  for  the 
+Church.  But  in  the  fall  of  1917  the  situation  was 
+such  that  the  idea  of  a  Patriarch  united  practically 
+the  whole  of  Orthodox  Russia.  In  the  Government 
+there  was  little  authority,  and  the  Church  without 
+question  faced  a  bitter  cup  of  adversity.  In  a  year  of 
+
+Stieral  turmoil  it  was  necessary  to  put  the.  care  of 
+e  Church  in  strong  hands,  to  find  leaders  around 
+whom  it  would  be  possible  to  unite  persecuted 
+Orthodoxy. 
+
+The  October  (November)  Revolution  obliged  the 
+Sobor  to  hasten  the  election  of  the  Patriarch.  The 
+solemn  ceremony  of  election  took  place  to  the  thunder 
+of  cannon,  for  the  Bolsheviks  were  bombarding  the 
+Kremlin,  which  was  defended  by  a  band  of  junkers 
+remaining  loyal  to  the  Provisional  Government. 
+Three  candidates  were  chosen  by  ballot,  and  of  these 
+one  was  to  be  elected  by  lot.  The  Sobor  left  the  final 
+selection  to  the  will  of  God,  and  a  revered  staretz — 
+a  monk  honoured  by  the  whole  of  Moscow — drew 
+from  the  urn  the  name  of  Tikhon  (Belavin),  the 
+Metropolitan  of  Moscow.  Anthony,  who  was  the 
+favourite  candidate  for  the  Patriarchate,  and  who  even 
+received  a  majority  of  votes  in  the  ballot,  was  dis¬ 
+appointed  in  his  expectations. 
+
+The  one  on  whom  the  lot  fell  had  in  no  way  been 
+distinguished  among  the  bishops,  either  by  learning 
+or  by  oratory,  by  asceticism  or  by  political  influence. 
+Modest  and  unassuming,  he  conquered  everyone  who 
+knew  him  by  his  goodness  and  amiability.  Several 
+years  of  service  in  America  had  broadened  his  ad- 
+
+»s 
+
+
+THE  RUSSIAN  CHURCH  SINCE  THE  REVOLUTION 
+
+
+ministry tive  experience,  but  he  remained  above  all 
+a  humble  and  simple  pastor  of  the  humility-loving 
+Russian  Church.  It  would  have  been  difficult  for  the 
+Church  to  find  a  better  representative  of  her  real 
+spiritual  character.  Doubtless  this  accounts  for  the 
+extraordinary  love  of  the  people  for  the  Patriarch. 
+
+Having  elected  the  Patriarch,  the  Sobor  did  not 
+leave  him  complete  authority  over  the  Russian  Church. 
+He  was  obliged  to  administer  it  in  collaboration  with 
+a  Synod  and  a  Higher  Church  Council.  Furthermore, 
+every  two  years  a  National  Sobor  was  to  be  called, 
+which  might  even  impeach  the  Patriarch.  Finally, 
+before  adjourning,  the  Sobor  even  laid  down  the  main 
+lines  of  relationships  to  the  new  Bolshevik  Govern¬ 
+ment.  At  that  time  these  relationships  could  not  but 
+be  exceedingly  tense.  The  new  revolutionary  power, 
+as  distinguished  from  the  Provisional  Government, 
+from  the  very  beginning  maintained  an  inimical  atti¬ 
+tude  towards  the  Church.  Anticipating  the  general 
+constitutional  provision  regarding  the  separation  of 
+Church  and  State,  a  series  of  decrees  was  issued,  be- 
+
+f inning  in  December,  1917,  destroying  the  economic 
+asis  of  Church  existence :  the  decree  of  December  4 
+confiscating  all  Church  landed  properties  (along  with 
+all  private  domains),  of  December  1 1  withdrawing 
+all  schools  from  the  Church  (including  the  theological 
+professional  schools),  of  December  1 8  instituting  civil 
+marriage  and  turning  over  the  registry  books  to  the 
+Government.  In  January,  1918,  all  Government  sub¬ 
+sidies  for  the  support  of  the  Church  and  its  institu¬ 
+tions  were  discontinued. 
+
+However,  the  principal  factor  lay  not  in  these 
+decrees,  but  rather  in  the  general  atheistic  ideology 
+
+16 
+
+
+KB  VOLUTION  OF  I917  AND  THE  MOSCOW  SOBOR 
+
+of  the  new  Government  and  in  die  violent  character 
+of  its  dictatorship.  The  Provisional  Government  had 
+just  been  overthrown  by  the  soldiers  and  sailors  of 
+the  Petrograd  garrison.  In  the  beginning  of  January 
+the  Constituent  Assembly,  chosen  in  general  elections, 
+was  dispersed.  The  power  for  the  whole  country  was 
+seized  by  the  Soviets  of  Workers  and  Soldiers’ 
+Deputies— actually  bands  of  deserters  and  of  work¬ 
+men  “Red  guards.”  The  central  power,  the  Soviet  of 
+People’s  Commissars,  possessed  no  administrative 
+apparatus,  and  had  no  authority  in  the  provinces. 
+The  officials  and  intelligentzia  boycotted  it,  whereas 
+the  workers  and  soldiers  put  into  immediate  effect 
+the  dictatorship  of  the  proletariat,  working  up  class 
+hatred  towards  the  intelligentzia,  which  was  called 
+“bourgeois.”  No  one  seriously  believed  in  the  per¬ 
+manence  of  the  new  power,  which  held  out  to  the 
+people  what  appeared  to  be  the  most  Utopian  watch¬ 
+words  :  socialism  and  separate  peace.  There  is 
+nothing  astonishing  in  the  fact  that  the  October 
+Revolution  was  considered  by  practically  the  whole 
+of  the  intelligentzia  as  the  downfall  of  Russia,  as  the 
+last  convulsive  act  of  the  revolution  before  German 
+occupation.  And  it  was  natural  that  the  Moscow 
+Sobor  should  also  be  touched  by  this  political  attitude. 
+On  November  11  it  addressed  to  the  people  a  pro¬ 
+clamation  calling  for  repentance  and  a  return  to  the 
+way  of  Christ.  Referring  to  the  bombarding  of  the 
+Kremlin  as  a  "  blasphemous  crime  against  the  Ortho¬ 
+dox  faith  as  well  as  against  the  Orthodox  people  and 
+its  history,”  the  proclamation  pointed  to  the  “re¬ 
+sponsibility  of  the  seducers  and  leaders  who  were 
+poisoning  the  heart  of  the  people  by  teachings  deny- 
+
+17  B 
+
+
+TBS  BUS  SIAN  CHURCH  SINCE  THE  REVOLUTION 
+
+ing  faith  in  God,  planting  envy,  greed,  and  rapacious¬ 
+ness.”  “The  Russian  nation  is  being  destroyed  by 
+this  demoniacal  godlessness.” 
+
+On  November  17,  having  reference  to  the 
+Bolshevik  proposal  of  peace  to  Germany,  the  Sobor 
+accepted  another  proclamation  in  which  it  is  stated, 
+“  that  the  persons  speaking  in  the  name  of  the  Russian 
+nation  in  international  affairs  are  not  the  freely  elected 
+representatives  of  the  population,  nor  do  they  repre¬ 
+sent  the  mind  and  will  of  the  nation,  wherefore  they 
+cannot  be  considered  authorized  to  conduct  peace 
+negotiations.”  The  participation  of  the  Church  in 
+politics  was  entirely  unavoidable  at  that  moment. 
+One  can  say  without  question  that  this  proclamation 
+of  the  Sobor  represented  exactly  the  conviction  of 
+the  entire  Russian  nation,  if  one  means  by  nation  the 
+wide  range  of  the  educated  classes,  without  regard  to 
+political  parties.  It  is  true  that,  in  the  proclamation 
+which  has  been  quoted,  the  Sobor  spoke  in  the  name 
+of  “  one  hundred  million  Orthodox  people,”  and  this 
+was  a  mistake.  But  in  November,  1917,  in  Moscow 
+no  one  could  suspect  how  deeply  the  watchwords  of 
+the  Bolsheviks  had  penetrated,  thanks  to  the  de¬ 
+mobilizing  army,  into  the  very  depths  of  the  hundred 
+million  Orthodox  peasants. 
+
+And  it  was  not  a  personal  act,  nor  did  the  Patriarch 
+Tikhon  take  upon  himself  the  role  of  leader  of 
+counter-revolution  when,  entirely  in  the  spirit  of  this 
+proclamation  of  the  Sobor,  he  placed  an  anathema  on 
+the  Bolsheviks  for  “  persecuting  the  Truth  of  Christ, 
+for  daily  and  in  beastly  manner  destroying  entirely 
+innocent  people.”  Recounting  the  numerous  acts  of 
+violence  against  the  Church,  the  Patriarch  called  the 
+
+1* 
+
+
+REVOLUTION  OF  I9I7  AND  THE  MOSCOW  SOBOR 
+
+faithful  “  to  rise  up  in  defence ’of  the  insulted  and 
+oppressed  Church,  even  to  suffer  for  the  cause  of 
+Christ  if  necessary.” 
+
+This  famous  proclamation  of  the  Patriarch  is  dated 
+January  19,  1919.  In  order  correctly  to  assess  its 
+meaning,  it  is  necessary  to  take  into  consideration  the 
+fact  that  in  it  the  “Bolsheviks”  are  not  definitely 
+mentioned,  that  excommunication  from  the  Church 
+was  passed  not  upon  definite  individuals  or  groups  of 
+individuals,  but  upon  “  the  outcast  of  mankind.*’  Yet 
+it  was  not  difficult  to  surmise  whom  the  Patriarch 
+had  in  mind.  He  openly  spoke  of  the  power  which 
+“displayed  unrestrained  self-will  and  continuous 
+violence  against  everyone.”  This  indefinite  excom¬ 
+munication  could  not  have  strict  canonical  effect.  On 
+no  occasion  did  any  priest  refuse  the  sacraments  of  the 
+services  to  Communists  who  turned  to  the  Church  (and 
+there  were  such,  especially  among  the  soldiers).  The 
+“  anathema  ”  of  the  Patriarch  was  in  fact  only  the 
+energetic  expression  of  religious  and  moral  con¬ 
+demnation.  And  in  this  judgment  the  entire  Russian 
+Church  stood  behind  the  Patriarch. 
+
+In  1918,  however,  the  Church  no  longer  repre¬ 
+sented  the  whole  Russian  people.  Against  the  back¬ 
+ground  of  the  terrible  events  taking  place  in  the  Civil 
+War,  the  activities  of  the  Sobor  remained  compara¬ 
+tively  unnoticed  by  the  broad  masses  of  the  people. 
+Several  times  suspending  its  work  and  having  by  no 
+means  finished  it,  the  Sobor  adjourned  in  the  fall  of 
+1918,  placing  upon  the  Patriarch  Tikhon  the  heavy 
+burden  of  authority  in  the  Church,  at  the  moment  of 
+the  very  sharpest  revolutionary  crisis. 
+
+
+>9 
+
+
+CHAPTER  II 
+
+
+SEPARATION  OF  CHURCH  AND  STATE 
+
+The  decree  regarding  the  separation  of  Church  and 
+State  was  published  on  January  23,  1918.  It  con¬ 
+sisted  of  thirteen  articles,  the  major  part  of  which 
+only  defined  the  status  necessarily  consequent  upon 
+the  new  secularized  form  of  government.  In  principle 
+it  proclaimed  freedom  of  conscience  and  freedom  of 
+faith.  Article  2  stated :  “  Within  the  confines  of  the 
+Republic  it  is  forbidden  to  pass  any  local  laws,  or 
+issue  decrees,  which  may  hinder  or  limit  the  freedom 
+of  conscience.”  Article  3  stated :  “  Every  citizen  may 
+confess  any  religion  or  may  confess  no  religion;  every 
+loss  of  legal  rights  connected  with  the  confessing 
+of  any  faith  or  confessing  of  no  faith  is  abolished.” 
+Article  5  stated  :  “  The  free  practice  of  religious  cere¬ 
+monies  is  guaranteed  in  so  far  as  it  does  not  interfere 
+with  social  order.” 
+
+Nevertheless,  the  decree  did  not  consistently  sus¬ 
+tain  this  liberal  attitude.  Four  of  its  articles  en¬ 
+croached  upon  essential  rights  of  the  Church,  binding 
+its  activities  hand  and  foot.  Article  13  proclaimed  all 
+property  of  the  churches  and  of  church  societies  to 
+be  the  possession  of  the  people.  Article  11  forbade 
+“obligatory  collections  and  assessments  on  behalf  of 
+church  societies.”  And  Article  12  reads  No  church 
+or  religious  societies  have  the  right  to  possess 
+
+ao 
+
+
+SEPARATION  OP  CHURCH  AND  STATE 
+
+property.  They  do  not  have  the  right  of  juridical 
+persons.” 
+
+In  accordance  with  the  wording  of  the  last 
+article,  all  economic  activities  of  the  parishes  were  in 
+fact  rendered  impossible.  They  could  not  have  a 
+regular  budget,  could  not  prepare  estimates  ( e.g .,  for 
+repair  of  buildings),  did  not  have  even  the  right  of 
+assessing  themselves.  Article  13  appropriated  from 
+the  churches  even  church  buildings  and  church  vessels, 
+although  the  nationalization  procedure  was  circum¬ 
+scribed  by  the  following  limitation :  “  Buildings  and 
+objects  used  specifically  for  purposes  of  worship  shall 
+be  assigned  by  special  decree  of  the  local  or  central, 
+authorities  for  free  use  by  the  respective  religious 
+societies.”  The  indefinite  wording  of  this  article 
+threatened  even  the  conducting  of  Church  services, 
+and  made  men  fear  the  worst :  What  if  the  organs  of 
+Government  should  refuse  to  issue  the  necessary  de¬ 
+crees  of  assignment  ? 
+
+And,  finally,  the  greatest  anxiety  was  created  by 
+Article  9,  which  encroached  even  on  the  spiritual 
+activity  of  the  Church.  “The  school  is  separated 
+from  the  Church.  Religious  instruction  is  forbidden 
+in  all  government  and  public  schools,  as  well  as  in 
+private  schools  where  general  educational  subjects  are 
+taught.  Citizens  may  teach  and  be  taught  religion 
+privately.” 
+
+This  article  forbade  even  private,  voluntary  re¬ 
+ligious  instruction  in  the  school,  which  parents’  com¬ 
+mittees  everywhere  insisted  upon.  On  the  very  day 
+of  the  publishing  of  the  decree,  January  23,  the 
+Central  Committee  of  the  All-Russian  Unipn  of 
+Parents’  Organizations  proclaimed  the  prohibition  of 
+
+
+THE  RUSSIAN  CHURCH  SINCE  THE  REVOLUTION 
+
+religious  teaching  to  be  “  contrary  to  the  principle 
+of  the  autonomy  of  the  Russian  school  and  a  negation 
+of  the  true  freedom  of  conscience.” 
+
+The  decree  regarding  the  separation  of  Church  and 
+State  necessitated  the  issuing  of  explanatory  inter¬ 
+pretations,  which  appeared  only  several  months  later, 
+August  24,  1918,  and  January  3,  1919.  These  inter¬ 
+pretations  were  far  from  favourable  to  the  Church. 
+Religious  societies  were  permitted  to  finance  them¬ 
+selves  only  by  voluntary  collections.  The  changing  of 
+church  buildings  into  civil  institutions  was  provided 
+for  in  two  cases:  (1)  “if  there  should  not  be  found 
+those  desirous  of  accepting  the  Church  property” 
+( t.e .,  if  a  parish  should  not  be  organized),  and 
+(2)  “if  as  a  result  of  need  for  such  premises  for 
+generally  useful  purposes,  the  local  Sovdep,  respond¬ 
+ing  to  the  demand  of  the  working  masses  (preferably 
+in  plenary  session)  should  pass  the  necessary  resolu¬ 
+tion.”  And,  finally,  the  Government  forbade  religious 
+instruction  to  children  and  youths  under  eighteen 
+years  of  age,  except  private  instruction  in  groups  not 
+exceeding  three  persons.  In  this  manner  all  attempts 
+at  teaching  religion  in  the  churches  were  checked,  and 
+youth  was  given  over  to  the  mercy  of  the  Govern¬ 
+ment’s  atheistic  propaganda. 
+
+In  January,  1918,  however,  the  faithful  found  all 
+other  troubles  secondary  in  face  of  anxiety  for  the 
+fate  of  the  churches  and  of  religious  services.  Did  not 
+the  decree  regarding  the  separation  of  Church  and 
+State  actually  imply  the  closing  of  the  churches?  A 
+few  days  before  its  publication,  an  order  was  issued 
+for  the  requisition  of  the  Alexander-Nevsky  Lavra, 
+in  Petrograd,  the  principal  monastery  of  the  capital, 
+
+it 
+
+
+SEPARATION  OF  CHURCH  AND  STATE 
+
+the  residence  of  the  Metropolitan  and  seat  of  the  Theo¬ 
+logical  Academy.  The  premises  of  the  Lavra  were  to 
+be  turned  over  to  the  Commissariat  of  Social  Welfare. 
+Armed  parties  which  twice  endeavoured  to  take  over 
+the  Lavra  were  met  with  decisive  rebuffs  on  the  part 
+of  the  Church  authorities,  and  on  January  19  a  great 
+crowd,  which  gathered  at  the  sounding  of  the  alarm 
+bell,  refused  to  admit  the  soldiers.  On  January  21 
+there  was  a  great  sacred  procession  in  Pctrograd, 
+which  registered  the  protest  of  the  Orthodox  popula¬ 
+tion  against  the  seizure  of  its  sacred  things.  The 
+Government  submitted.  There  followed  an  explana¬ 
+tion  that  it  had  been  intended  not  to  close  the  monas¬ 
+tery  but  to  house  invalids  in  it.  However,  the  struggle 
+had  begun  throughout  the  whole  of  Russia.  In  the 
+proclamation  of  January  19,  already  referred  to,  the 
+Patriarch  Tikhon  mentioned,  in  addition  to  Alex-> 
+ander-Nevsky,  the  seizure  of  the  Pochaevskaja  Lavra, 
+one  of  the  greatest  monasteries  of  the  Ukraine  (in 
+Volhynia),  and  the  desecration  of  the  deeply  venerated 
+chapel  of  the  Saviour  in  Petrograd.  A  few  days  after 
+the  publication  of  the  decree,  the  Sobor  entered  on 
+its  minutes  :  (1)  “That  in  the  guise  of  law  providing 
+freedom  of  conscience,  there  was  a  malicious  attack 
+against  the  entire  structure  and  the  life  of  the  Ortho¬ 
+dox  Church,  and  an  act  of  open  persecution  against 
+it”;  and  (2)  “  that  any  participation  either  in  the  pub¬ 
+lication  of  this  legislation  hostile  to  the  Church,  or 
+attempts  to  effect  it,  is  incompatible  with  member¬ 
+ship  in  the  Orthodox  Church,  and  brings  upon  the 
+guilty  persons  of  Orthodox  faith  the  most  severe 
+punishment  of  the  Church,  even  to  the  extent  of  ex¬ 
+communication.”  Simultaneously  with  this  resolution 
+
+*3 
+
+
+THE  RUSSIAN  CHURCH  SINCE  THB  REVOLUTION 
+
+the  Sobor  addressed  a  proclamation  to  the  "Ortho¬ 
+dox  people  ” :  “  Unite  all  of  you,  men  and  women, 
+old  and  young  for  the  defence  of  our  inherited  Sacred 
+Things  ...  for  the  people’s  rulers  seek  to  despoil 
+the  people  of  this  heritage  of  God.  ...  It  is  better 
+to  shed  one’s  blood  and  to  become  worthy  of  a 
+martyr’s  crown  than  to  surrender  the  Orthodox  faith 
+to  the  enemy  for  his  abuse.”1 
+
+The  proclamation  of  the  Sobor  met  with  a  lively 
+response  among  the  people.  Everywhere  laymen 
+united  for  the  defence  of  the  churches.  In  Petrograd, 
+after  the  “  Brotherhood  for  the  Defence  of  the  Alex- 
+ander-Nevsky  Lavra,”  whose  members  vowed  to 
+defend  the  Lavra  “  even  to  death,”  had  been  formed, 
+unions  were  organized  in  each  parish,  numbering  up 
+to  60,000  members.  In  Moscow  similar  unions  were 
+united  in  a  general  council.  The  person  of  the 
+Patriarch  was  surrounded  by  a  guard  which  was 
+maintained  by  twenty-four  persons  in  turn.  The  move¬ 
+ment  found  response  even  in  the  provinces.  Every¬ 
+where  there  took  place  sacred  processions,  night 
+vigils,  and  meetings  of  protest.  The  crowds  were 
+unarmed,  but  in  some  places,  during  attempts  at  con¬ 
+fiscation  of  the  churches,  they  mauled  the  commissars. 
+In  a  number  of  places  the  Red  troops  fired,  and  there 
+were  many  killed  and  wounded — e.g.,  in  Tula,  Khar¬ 
+kov,  and  other  places.  Finally,  the  opposition  was 
+crushed.  The  Communist  power  made  the  decree  re¬ 
+garding  the  separation  of  Church  and  State  completely 
+effective  within  the  limits  which  it  considered  neces¬ 
+sary. 
+
+*  Tterkovnia  Vitdomosti,  No.  3-4,  1918.  Quoted  by  TitlinoS, 
+of.eit. 
+
+
+SEPARATION  OP  CHURCH  AND  STATE 
+
+In  what  actual  forms  did  this  separation  find  ex¬ 
+pression?  The  most  radical  was  the  inauguration  of 
+the  secularization  of  the  school.  The  teaching  of 
+religion  to  children  was  forbidden  not  only  in  the 
+school  but  in  the  churches.  The  clergy  were  left 
+practically  without  income,  and  nearly  everywhere 
+,  evicted  from  the  parish  houses,  which  had  now  been 
+nationalized.  Only  in  the  villages  the  clergy  retained 
+their  homes  and  land,  this  latter  greatly  diminished. 
+All  the  commercial  enterprises  belonging  to  the 
+Church,  such  as  candle-factories  and  printing-fchops, 
+were  confiscated.  Only  the  church  buildings  were  left, 
+and  these,  after  an  inventory,  were  turned  over  to 
+the  organized  parishes,  along  with  responsibility  for 
+maintaining  them  as  well  as  tor  guarding  all  the  valu¬ 
+able  ecclesiastical  objects  which  they  contained.  If  the 
+parish,  by  reason  of  poverty  or  because  of  fewness  of 
+people,  was  unable  to  maintain  the  church,  it  was 
+turned  over  to  the  local  Soviet,  which,  as  we  have 
+seen,  in  any  case  had  the  right  to  appropriate  the 
+building  for  any  purpose  it  might  decide  upon.  How 
+widely  did  the  Soviets  make  use  of  this  privilege? 
+In  the  first  place,  throughout  the  whole  Republic  and 
+without  exception,  private  churches  were  closed- — in 
+schools,  barracks,  government  institutions,  etc.,  alto¬ 
+gether  a  very  considerable  number.  These  were  con¬ 
+verted  into  dancing-halls,  clubs,  or  theatres.  Where 
+institutions  were  occupied  by  Red  soldiers,  desecrations 
+were  frequent.  Ikons  and  sacred  objects  were  often 
+destroyed  or  covered  with  blasphemous  scribblings. 
+A  great  number  of  facts  in  this  connection,  as  related 
+to  the  south  of  Russia,  and  based  upon  material 
+gathered  by  a  Commission  under  General  Denikin, 
+
+
+THE  RUSSIAN  CHURCH  SINCE  THE  REVOLUTION 
+
+is  contained  in  the  “  Black  Book,”  edited  by  A.  A. 
+Valentinoff.1 
+
+Cases  of  seizure  and  profanation  of  parish 
+churches,  especially  in  the  villages,  were  rather  infre¬ 
+quent.  In  this  regard  the  wave  of  religious  fervour 
+of  January,  1918,  did  not  pass  without  effect.  The 
+authorities  abandoned  their  encroachments  on  church 
+services,  considering-  them  an  ineradicable  spiritual 
+requirement  of  the  masses,  and  only  in  exceptional 
+circumstances  infringed  upon  them.  The  closing  of 
+churches  was  most  frequent  in  the  workers’  sections, 
+where  Marxist  propaganda  made  deep  inroads,  but  in 
+the  villages  generally  only  where  the  proximity  of  a 
+number  of  churches  rendered  it  difficult  for  the  im¬ 
+poverished  population  to  support  them.  Nevertheless, 
+even  in  the  villages  we  know  of  cases  of  wrecking  and 
+even  of  the  burning  of  churches.*  In  the  cities  a  great 
+number  of  shrines  were  closed  and  demolished;  in 
+Moscow  itself  a  number  of  churches  were  torn  down, 
+one  of  them,  incidentally,  in  order  to  clear  the  ground 
+in  front  of  the  statue  of  Vorovsky.  In  the  spring 
+of  1923,  information  came  from  widely  separated 
+localities  regarding  the  public  burning  of  ikons,*  a 
+result  of  the  campaign  openly  sponsored  by  the  Bol¬ 
+shevik  Pravda .* 
+
+Most  pitiful  of  all  was  the  fate  of  the  monasteries. 
+
+1  Published  in  Paris,  192$.  Also  an  English  edition,  1924, 
+bearing  the  title  “  The  Assault  of  Heaven,”  and  a  German 
+edition. 
+
+1  Ivutslia  Vzik  (Official  organ  of  the  Soviet  Government). 
+Moscow,  No.  78  (1815),  1923. 
+
+3  Ibid. 
+
+4  Pravda  [Official  organ  of  the  Russian  Communist  (Bolshevik) 
+Party],  Moscow,  No.  117,  May  30,  1923. 
+
+a 6 
+
+
+SEPARATION  OF  CHURCH  AND  STATE 
+
+Their  secularization  began,  as  we  have  seen,  even 
+before  the  publishing  of  the  decree.  In  the  decree 
+itself  and  in  the  instructions  related  to  it  we  find 
+nothing  regarding  the  monasteries.  In  response  to 
+inquiries  from  the  provinces,  the  Fifth  Section  of  the 
+Commissariat  of  Justice  explained  that  “the  fate  of 
+the  monasteries  rests  upon  the  judgment  of  the  local 
+Soviets,  depending  upon  the  purpose  to  which  they 
+consider  it  desirable  to  assign  them,  such  as  to  sana- 
+toriums,  farms,  schools,  asylums  for  invalid  soldiers, 
+or  for  transformation  into  some  sort  of  useful  hus¬ 
+bandry.”  As  a  result,  practically  all  of  the  monasteries 
+in  Russia  were  liquidated,  and  the  monks  scattered. 
+Regarding  the  success  of  the  secularization,  the  official 
+organ  supplies  the  following  figures :  up  to  the  fall  of 
+1920,  637  monasteries  had  been  liquidated;  by  1922, 
+49  more  had  been  added.  However,  in  the  interests 
+of  accuracy  it  should  be  noted  that  by  no  means  in  all 
+cases  did  complete  liquidation  take  place.  In  many 
+monasteries  some  of  the  old  monks  were  left  to  live 
+out  their  days,  in  the  capacity  of  watchmen  or  workers 
+attached  to  the  new  institutions.  In  places  where  his¬ 
+torical  monasteries  were  made  over  into  museums 
+(such  as  the  renowned  Troitzky-Sergievskaja  Lavra), 
+a  number  of  monks  remained  as  caretakers.  Finally, 
+in  some  places  small  domestic  dwellings  were  retained 
+under  the  form  of  legalized  agricultural  communes. 
+In  Moscow  itself  one  can  still  find  several  monasteries 
+with  regular  ascetic  life.  There  have  even  been  re¬ 
+tained  several  all-Russian  centres  of  pilgrimage  (at 
+the  relics  of  renowned  saints),  which  are  exploited  by 
+the  local  Soviets.  It  was  only  in  April,  1927,  that  the 
+authorities  closed  the  Sarov  monastery,  made  famous 
+
+*7 
+
+
+THE  RUSSIAN  CHURCH  SINCE  THE  REVOLUTION 
+
+by  Saint  Seraphim.  The  revenue  from  pilgrims  stop¬ 
+ping  at  the  monastery  hostels  has  saved  these  sacred 
+places  from  the  general  fate  of  being  closed  and 
+destroyed. 
+
+In  general,  the  Soviet  power  has  allowed  the  pre¬ 
+servation  of  religious  services  and  the  religious  organ¬ 
+ization  of  the  faithful,  although  it  has  displayed  an 
+evident  tendency  towards  limiting  them  as  much  as 
+possible.  But  what  about  the  decreed  “  freedom  of 
+conscience  ”  P  If  by  the  term  freedom  of  conscience  is 
+understood  not  only  the  freedom  of  religious  cere¬ 
+mony  but  also  the  freedom  to  confess  religion,  the 
+freedom  to  preach  and  evangelize,  then  one  cannot 
+speak  of  freedom  under  the  regime  of  the  Communist 
+dictatorship.  Local  Soviets  not  infrequently  pro¬ 
+hibited  even  preaching  in  the  churches,  or  demanded 
+the  previous  presentation  of  the  sermon  for  censor¬ 
+ship.  Tolerating  the  sermon  in  the  churches,  the 
+authorities  practically  have  forbidden  religious 
+addresses  in  public  meetings  outside  the  church, 
+especially  by  laymen.  Every  public  expression  of 
+religious  conviction  in  Communist  Russia  has  been 
+accompanied  by  risk — discharge  from  employment, 
+arrest,  exile,  and,  in  the  first  years,  even  execution. 
+During  the  expulsion  of  professors  from  the  univer¬ 
+sities,  which  took  on  a  mass  character  in  1922  and 
+1923,  their  attitude  towards  religion  was  the  main 
+factor.  In  1921  the  rector  of  Saratoff  University 
+(the  physicist  ZernofF)  was  arrested  and  discharged 
+simply  because  he  had  appeared  in  the  local  cathedral 
+to  give  addresses  on  religious-philosophical  subjects. 
+To  speak  in  defence  of  Christianity  in  Soviet  Russia 
+is  just  as  dangerous  as  to  speak  against  socialism  or 
+
+
+SEPARATION  OF  CHURCH  AND  STATE 
+
+the  dictatorship  of  the  party.’  'We'  shall  see  later  that 
+the  Communist  party  combines  in  its  ideology 
+struggle  against  capitalism  and  struggle  against  God. 
+
+By  a  certain  inconsistency,  the  authorities  tolerate 
+the  existence  of  a  few  theological  schools,  or,  rather, 
+courses  for  the  preparation  of  priests.  Up  to  1923  the 
+Theological  Institute  in  Petrograd,  the  successor  of 
+the  closed  Theological  Academy,  continued  to  work. 
+The  terror  of  1923,  however,  caused  it  to  close  its 
+doors.  Subsequently  modest  pastoral  courses  were 
+opened.  The  schismatic  “  Renovated  ”  Church  has 
+three  higher  schools,  in  Moscow,  Petrograd,  and  Kiev. 
+If  one  leaves  aside  the  Renovated  Church,  the 
+most  likely  explanation  for  the  existence  of  the  Petro¬ 
+grad  Courses  (incidentally,  with  very  few  students  and 
+limited  in  its  activities)  is  the  desire  of  the  authorities 
+to  control  the  attitude  of  the  church  intelligentzia. 
+
+There  is  little  need  to  say  that  printed  defence  of 
+the  faith  is  impossible.  Not  in  principle  but  in  prac¬ 
+tice  the  censor  forbids  the  issuing  of  any  books  of 
+religious  content.  Exceptions,  and  those  very  rare, 
+are  made  for  the  sectarians  and  Renovated  Church. 
+In  spite  of  numerous  applications,  the  Church  has  not 
+yet  been  permitted  even  to  print  Gospels,  prayer- 
+books,  or  indispensable  liturgical  books.  Printing  in 
+the  Church  Slavonic  language  is  altogether  prohibited. 
+Furthermore,  the  authorities  have  taken  every  pos¬ 
+sible  measure  for  the  destruction  of  the  old  religious 
+literature.  In  the  nationalized  bookshops  and  stock- 
+rooms  of  publishing  houses  great  quantities  of  such 
+literature  were  seized  and  sent  to  the  paper  factories 
+or  sold  by  weight  in  various  localities  for  use  as  wrap¬ 
+ping  paper  by  market  tradesmen.  In  the  course  of  this 
+
+29 
+
+
+THE  RUSSIAN  CHURCH  SINCE  THE  REVOLUTION 
+
+operation  a  large  number  of  scientifically  valuable 
+works  were  lost,  such  as  the  editions  of  the  “  Pales¬ 
+tine  Society  ”  and  of  the  theological  academies.  In  all 
+the  public  libraries,  except  for  the  universities  and  the 
+Central  Government  library,  books  on  religion  were 
+confiscated,  together  with  a  great  quantity  of  philo¬ 
+sophical,  historical,  sociological,  and  even  artistic 
+literature. 
+
+Typical  of  the  minutis  observed  in  the  persecution 
+of  religion  was  the  obligation  imposed  by  the  censor 
+to  print  the  word  “  God  ”  and  other  sacred  names  in 
+small  letters.  This  cavil  would  seem  to  be  a  minor 
+thing,  but  it  proved  very  important  for  those  with 
+sensitive  religious  conscience.  In  the  regime  of  per¬ 
+secution  of  the  Church,  many  authors  considered  that 
+for  them  to  submit  to  this  obligation  would  be  an  act 
+of  formal  apostasy.  We  know  of  a  case  when  the 
+purely  scientific,  historical-artistic  researches  concern¬ 
+ing  the  newly  restored  ikon  of  the  Vladimirsky  Virgin 
+(one  of  the  most  remarkable  productions  of  Byzantine 
+painting)  could  not  be  issued  because  this  condition  was 
+unacceptable  to  the  author.  But  the  easily  understood 
+sensitiveness  of  authors  was  many  times  magnified  in 
+the  touchiness  of  the  censor.  The  censor  forbade  not 
+only  purely  theological  or  evidendy  Christian  works, 
+but  even  books  on  the  history  of  the  Church  and  on 
+the  science  of  religion  in  general,  except  for  purely 
+propagandizing  atheistic  literature.  However,  this 
+will  not  seem  remarkable  to  those  who  know  that  this 
+sort  of  administrative  persecution  (even  exile)  was 
+directed  not  only  against  religion  but  against  every 
+sort  of  philosophical  or  historical  idealism.  The  exile 
+of  Russian  philosophers  to  foreign  countries  is  clear 
+
+30 
+
+
+SEPARATION  OF  CHURCH  AND  STATE 
+
+evidence  of  this.  It  may  bfe  ttofed  further  that  the 
+struggle  against  idealism,  in  the  mind  of  the  con¬ 
+vinced  Communist,  draws  from  the  same  source  as 
+his  struggle  against  religion:  idealism  is  potentially 
+religious,  very  refined,  but  a  no  less  dangerous  form 
+of  mystical  contagion. 
+
+
+CHAPTER  III 
+
+
+THE  PERSECUTION  OF  RELIGION 
+
+Analysis  of  the  decree  concerning  the  separation  of 
+Church  and  State,  and  the  circumstances  of  its  realiza¬ 
+tion,  provides  a  great  deal  of  material  with  which  to 
+answer  the  general  question  :  Does  Communism  con¬ 
+duct  open  persecution  against  the  Church  and  religion 
+in  general  ?  However,  this  material  is  not  sufficiently 
+explicit.  The  Commissariat  of  Justice,  which  has  con¬ 
+centrated  in  its  Fifth  Department  all  affairs  related 
+to  the  separation  of  Church  and  State,  is  essentially 
+the  bearer  and  guardian  of  revolutionary  legality — 
+an  idea  which  was  new  and  exceptional,  and  by  no 
+means  generally  obligatory  in  the  system  of  Soviet 
+administration,  especially  in  the  first  years  of  the 
+dictatorship.  In  its  instructions  to  local  authorities 
+the  Commissariat  frequently  restrained  the  fanatical 
+destroyers  of  churches,  reminding  them  of  the  pro¬ 
+clamation  providing  freedom  of  conscience.  It  is 
+characteristic,  however,  that  this  same  Commissariat 
+in  the  beginning  conducted  atheistic  propaganda.  It 
+is  clear  that  there  cannot  be  talk  of  the  neutrality  of 
+the  Government  in  matters  of  faith.  There  may  only 
+be  question  as  to  the  means  to  be  employed  in  the 
+struggle  with  religion.  In  fulfilling  its  task  the 
+Commissariat  of  Justice  followed  a  careful  course, 
+falling  back  upon  the  Government’s  monopoly  of 
+culture. 
+
+
+J* 
+
+
+THE  PERSECUTION  OF  RELIGION 
+
+But  there  were  other  organs  which  conducted  the 
+struggle  more  openly,  even  glaringly.  At  the  very 
+time  when  the  circulars  regarding  the  freedom  of  con¬ 
+science  were  being  distributed,  the  Tch6ka  through¬ 
+out  the  whole  of  Russia  were  shooting  priests  and 
+bishops.  The  archives  of  this  terrible  institution  are 
+inaccessible;  its  affairs  were  conducted  so  summarily, 
+with  such  a  minimum  of  paper  procedure,  that  it  is 
+questionable  whether  at  any  time  it  will  be  possible 
+to  establish  the  exact  number  of  victims  of  the  terror, 
+or  to  discover  motives  of  accusation.1  According  to 
+the  approximate  conclusion  of  General  Denikin’s 
+Commission,  published  in  The  Times  in  March, 
+1922,  28  bishops  and  1,215  priests  were  shot  during 
+the  years  1918-1919.*  According  to  official  data  or 
+the  All-Russian  Central  Executive  Committee,  20 
+bishops  and  1,414  priests  had  been  executed  up  to 
+1922.  When  the  “Renovated”  Bishop,  Nikolai 
+Kashinsky  (Solovejtchik),  came  from  Russia  (1926) 
+he  gave  the  following  figures : 
+
+White  clergy  (priests)  ...  ...  ...  2,691 
+
+Monks  ...  ...  ...  ...  ...  1,962 
+
+Nuns  and  other  ordained  ranks  ...  ...  3,447 
+
+8,100 
+
+None  of  these  figures  pretend  to  accuracy. 
+
+However,  the  undisputed  fact  that  mass  executions 
+of  the  clergy  took  place  does  not  exhaust  the  evidence 
+of  persecution  against  the  Church.  These  terrible 
+figures  do  not  constitute  the  largest  sums  in  the 
+
+1  Cf.  Melgunoff,  “The  Red  Terror  in  Russia.”  Berlin,  1924. 
+
+3  Taken  from  P.  N.  Miliukoff,  “  Russia  in  Transformation,” 
+I.,  p.  194.  Paris,  1927. 
+
+
+33 
+
+
+c 
+
+
+THE  RUSSIAN  CHURCH  SINCE  THE  REVOLUTION 
+
+bloody  totals.  According  to  approximate  data  of  the 
+Denikin  Commission  for  the  same  period,  there  were 
+6,775  professors  and  teachers,  8,800  doctors,  etc., 
+in  the  general  figure  of  1,716,118  (I)  killed.  The 
+bloody  machine  of  the  terror  was  not  instituted 
+against  the  Church  alone,  and  other  professions  from 
+among  the  intelligentzia  gave  even  larger  numbers  of 
+victims. 
+
+Another  evasion  of  the  charge  of  persecution  is 
+attempted  by  raising  the  question  of  political  motives 
+necessitating  the  terror — t.e .,  the  possibility  of 
+political  guilt  of  the  clergy. 
+
+Knowing  the  loyalty  of  the  clergy  to  the  Tsarist 
+regime,  it  was  easy  to  reach  the  conviction  that 
+ministers  of  the  Church  had  to  play  an  outstanding 
+part  in  the  “White”  counter-revolutionary  move¬ 
+ment.  However,  this  supposition  is  entirely  errone¬ 
+ous.  In  actual  fact,  in  the  territory  of  the  White 
+
+fovernments,  the  clergy,  especially  the  bishops, 
+lessed  and  inspired  the  troops,  but  these  representa¬ 
+tives  of  the  Church,  who  took  a  definite  side  in  the 
+Civil  War,  for  the  most  part  evacuated  Russia  along 
+with  the  defeated  White  troops  in  1920. 
+
+What  we  see  in  the  interior  of  Red  Russia  is  some¬ 
+thing  quite  different.  Here,  after  the  first  wrathful 
+gestures  of  the  Sobor  and  the  Patriarch  in  the  begin¬ 
+ning  of  1918,  a  change  set  in,  not,  however,  in  the 
+attitude  towards  the  anti-religious  revolution,  but  in 
+establishing  practical  relationships  with  it.  As  early  as 
+March,  1919,  the  representatives  of  the  Sobor  con¬ 
+ducted  negotiations  with  the  authorities  to  secure 
+possible  favourable  interpretation  of  the  decree  for 
+the  Church.  The  popular  movement  in  defence  of 
+
+3+ 
+
+
+THB.  PERSECUTION  OP  RELIGION 
+
+the  Church  was  not  so  powerful  as  the  leaders  of  the 
+Church  had  hoped.  Soon  they  understood  that  they 
+could  not  speak  in  the  name  of  one  hundred  million 
+Orthodox,  that  the  former  Orthodox  peasant  Russia 
+in  its  broad  masses  had  been  won  over  by  the  Com¬ 
+munist  Revolution.  The  leaders  of  the  Church  soon 
+understood  the  hopelessness  of  open  struggle  and  the 
+danger  of  bringing  the  Church  under  heavy  fire, 
+possibly  endangering  even  the  holding  of  services  of 
+worship.  According  to  Orthodox  conceptions,  the 
+cult  so  completely  embraces  the  public  service  of  the 
+Church,  that  for  its  preservation  the  leaders  were 
+ready  to  make  great  sacrifices.  We  shall  see  when  we 
+speak  of  the  internal  life  of  the  Church,  that  this  line 
+of  conduct  was  dictated  by  purely  religious,  mystico- 
+ascetic  conceptions — conceptions  inherent  to  Ortho¬ 
+doxy  renewed  by  the  regenerated  Church. 
+
+We  have  one  very  valuable  impression  of  the 
+political  attitude  of  the  Patriarch  in  the  summer  of 
+1918,  belonging  to  a  witness  who  unquestionably 
+commands  confidence,  Prince  G.  N.  Trubetzkoy,  the 
+former  Russian  minister  in  Serbia.  Five  years  after 
+this  date,  at  the  time  of  the  trial  of  the  Patriarch,  he 
+made  the  following  statement  to  the  Vienna  repre¬ 
+sentative  of  the  telegraph  agency  Russpress :  “  As  a 
+worker  in  the  White  Movement,  I  visited  the  Patri¬ 
+arch  Tikhon  and  asked  him  to  send  his  blessing  to 
+the  White  armies,  secretly  if  necessary.  I  was  ex¬ 
+pected  to  convey  his  blessing  to  the  Don,  and  I 
+guaranteed  that  this  secret  would  not  be  disclosed.  I 
+endeavoured  to  persuade  the  Patriarch  to  do  this,  for 
+the  reason  that  his  blessing  would  greatly  raise  the 
+morale  of  the  troops.  But  the  Patriarch  was  unmov- 
+
+35 
+
+
+THE  RUSSIAN  CHURCH  SINCE  THE  REVOLUTION 
+
+able,  and  even  in  this  decisive  moment  did  not  alter  his 
+conviction  that  the  clergy  must  stand  outside  politics 
+and  political  struggle.”  In  a  letter  to  the  editor  of  the 
+Russian  newspaper  Rul>  published  in  Berlin,  July  17, 
+1923,  the  Prince  inserted  into  this  interview  the 
+following  correction,  still  further  emphasizing  the 
+non-political  attitude  of  the  Patriarch :  “  I  did  not 
+ask  the  permission  of  the  Patriarch  to  give  his  bless¬ 
+ing  to  the  troops  of  the  Volunteer  Army.  ...  I  re¬ 
+quested  the  permission  of  His  Holiness  to  give  in  his 
+name  a  blessing  personally  to  one  of  the  outstanding 
+leaders  of  the  White  Movement,  under  condition  of 
+maintaining  absolute  secrecy.  However,  the  Patriarch 
+did  not  find  even  this  possible,  so  strongly  did  he  hold 
+himself  aloof  from  any  sort  of  politics.”1 
+
+On  the  first  anniversary  of  the  October  Revolution 
+(October  21,  1918),  the  Patriarch  addressed  a  long 
+communication  to  the  Soviet  of  People’s  Commissars. 
+Recounting  all  the  misdeeds  of  the  Bolsheviks  against 
+the  people  and  the  Church,  the  Patriarch  concluded 
+with  the  remarkable  words :  “  It  is  not  for  us  to  judge 
+earthly  powers;  all  authority  from  God  would  draw 
+unto  itself  our  blessing  if  it  were  in  truth  the  ‘  servant 
+of  God,’  for  ‘rulers  are  not  a  terror  to  good  works, 
+but  to  the  evil  ’  (Rom.  xiii.  3).  However,  to  you  who 
+use  your  power  for  the  persecution  and  the  destruc¬ 
+tion  of  the  innocent,  we  issue  our  word  of  admonition : 
+celebrate  the  anniversary  of  your  coming  to  power  by 
+the  release  of  the  imprisoned,  the  cessation  of  blood 
+letting,  of  violence,  of  ruination,  of  restraint  of 
+faith;  turn  not  to  destruction  but  to  the  construction 
+of  order  and  law ;  give  to  the  people  the  respite  from 
+
+1  Rul  (Berlin  Russian  daily).  No.  798.  July  17,  19*3. 
+
+36 
+
+
+THE  PERSECUTION  OF  RELIGION 
+
+civil  warfare  which  they  have  longed  for  and  de¬ 
+served.  For  .otherwise  the  blood  will  be  on  your  own 
+head.  ‘For  all  they  that  take  the  sword  shall 
+perish  with  the  sword  *  (Matt.  xxvi.  52).” 
+
+Despite  the  vigour  and  sharpness  of  this  remon¬ 
+strance,  it  is  easy  to  see  in  it  the  patriarch’s  recognition 
+of  the  Bolsheviks  as  de  jure  in  authority.  In  the 
+fifteenth  century  the  Metropolitan  Philip  of  Moscow 
+similarly  admonished  Ivan  the  Terrible,  yet  without 
+calling  for  revolt  against  him  as  Tsar.  It  was  the 
+admonition  of  a  pastor,  not  the  proclamation  of  a 
+political  enemy. 
+
+A  year  later,  in  1919,  in  an  encyclical  dated 
+September  25,  the  Patriarch  imposed  on  the  priest¬ 
+hood  responsibility  for  keeping  aloof  from  the  Civil 
+War.  “  I  remember  how  we,”  continued  Prince 
+Trubetzkoy,  “standing  at  that  time  close  to  the 
+Volunteer  Army  in  Southern  Russia,  were  distressed 
+over  the  epistle  of  the  Patriarch;  but,  subsequently, 
+I  could  not  help  but  admire  his  wise  restraint.  Where- 
+ever  bishops  and  priests  conducted  prayers  for  the 
+victorious  advance  of  the  Volunteer  Army,  the  clergy 
+shared  the  fate  of  this  army  and  were  obliged  hastily 
+to  abandon  their  parishes,  to  the  great  detriment  of 
+the  Church.” 
+
+This  brings  us  back  to  the  question  of  the  counter¬ 
+revolutionary  crimes  of  the  clergy.  So  far  as  records 
+are  available,  they  show  that  in  practically  every 
+instance  where  punishment  was  imposed  for  political 
+offence,  it  was  on  account  of  conducting  prayers  for 
+the  White  Guards.1  But  was  it  possible  for  a  simple 
+priest  to  refuse  the  passing  troops  their  natural  de- 
+
+1  Cf.  “  Th«  Assault  of  Heaven.” 
+
+37 
+
+
+THE  RUSSIAN  CHURCH  SINCE  THE  REVOLUTION 
+
+mand  to  dedicate  their  advance  with  prayers?  Not 
+all  the  priests  after  this  “crime”  abandoned  their 
+parishes  for  safety  with  the  retreating  White  Army. 
+Many  remained  for  torture  and  death.  As  for  the 
+Reds,  no  prayers  were  requested;  they  got  along  with¬ 
+out  the  blessing  of  the  Lord. 
+
+In  the  majority  of  cases  the  priests  were  arrested 
+and  shot  without  guilt  of  any  sort.  They  succumbed 
+along  with  the  “hostage”  bourgeoisie,  along  with 
+the  landowners,  merchants,  barristers,  and  other  repre¬ 
+sentatives  of  the  liberal  professions  and  political 
+parties.  The  terror  which  the  Communist  Party  con¬ 
+ducted  had  not  a  personal,  but  class  character,  in 
+accordance  with  the  spirit  of  Marxist  philosophy. 
+“We  are  exterminating  the  bourgeoisie  as  a  class,” 
+writes  Latzis,  one  of  the  leading  workers  in  the 
+Tch£ka,  in  the  “  Weekly  Gazette  ”  of  the  Extra¬ 
+ordinary  Commission.  “  In  drawing  up  evidence,  do 
+not  look  for  incriminating  material  to  prove  that  the 
+person  under  prosecution  acted  by  deed  or  word 
+against  the  Soviet  power.  The  first  question  which 
+you  unust  ask  him  is,  what  is  his  ancestry,  education, 
+or  profession.  These  questions  must  determine  the 
+fete  of  the  accused.  Therein  lies  the  meaning  and  the 
+essence  of  the  Red  terror.”1 
+
+The  priests  perished  as  representatives  of  the 
+“  bourgeoisie,”  a  category  corresponding  to  the 
+“  aristocracy  ”  of  the  French  Revolution.  Is  there 
+evidence  which  would  allow  us  to  say  that  the  keen 
+edge  of  the  Red  terror  was  directed  against  them  with 
+especial  hatred?  I  believe  that  one  may  answer  this 
+question  affirmatively.  The  evidence  regarding  Voro- 
+
+1  Quoted  from  Miliukoff,  op.  cit.,  pp.  187-188. 
+
+38 
+
+
+THE  PERSECUTION  OF  RELIGION 
+
+bieff,  President  of  the  Tchika  in  Perm,  may  be  applied 
+not  to  him  alone.  His  secretary  gave  evidence  in  a 
+deposition  to  the  French  Lieutenant,  Adrian  Souber- 
+biel  (February  io,  1919) :  “  Toward  the  clergy,  Voro- 
+bieff’s  attitude  was  that  of  hatred,  and  he  called  them 
+‘black  magpies.’  I  can  confirm  that  he  shot  many 
+priests  and  monks.”1 
+
+The  chronicle  of  the  Red  terror  allows  us  to 
+generalize  this  attitude.  From  among  a  great  number 
+of  instances  we  give  the  following:  “In  Poltava 
+Government  the  Red  Army  seized  the  Spasso-Preo- 
+brajensky  Monastery,  occupied  and  began  to  rob  and 
+desecrate  it.  After  a  short  time  their  officer  ordered 
+the  Superior,  the  Abbot  Ambrosius,  to  gather  all  the 
+monks  together.  Part  of  them  were  absent,  so  there 
+gathered  altogether  twenty-five  persons.  It  was 
+announced  that  they  were  under  arrest,  and  they  were 
+ordered  to  turn  over  the  keys  to  the  monks’  cells  and 
+to  all  the  other  quarters  of  the  monastery.  Then  the 
+monks  were  ordered  to  fetch  firewood,  with  the  ex¬ 
+planation  that  they  were  all  to  be  burned.  However, 
+the  approach  of  the  Volunteer  Army  broke  up  this  plan. 
+It  was  impossible  to  delay,  so  they  hurriedly  drove 
+all  the  arrested  monks  out  of  the  city  and  thence  to 
+the  railway  station.  Here,  in  the  darkness  of  the 
+night,  they  began  to  shoot  them  in  groups.  The 
+shooting  began  with  the  Superior  Ambrosius,  who 
+was  killed  by  the  Communist  officer  Bakai  with  his 
+revolver.  Afterwards  the  Red  soldiers  began  to  shoot 
+the  rest.  Seventeen  monks  were  killed,  the  remaining 
+seven,  being  only  wounded,  saved  their  lives  by  simu¬ 
+lating  death”  (August  6,  1919). 
+
+1  Quoted  from  “The  Aaaault  of  Heaven.” 
+
+39 
+
+
+THE  RUSSIAN  CHURCH  SINCE  THE  REVOLUTION 
+
+
+There  is  evidence  of  special  hatred  toward  the 
+Church  in  those  tortures  and  “  qualified  ”  executions 
+which  in  some  places  were  inflicted  on  the  clergy. 
+We  have  information  regarding  the  most  beastly 
+cruelty,  which  we  are  not  yet  in  a  position  to  confirm. 
+Nevertheless,  the  bodies  of  the  executed  which  were 
+exhumed  and  photographed  by  the  Whites  confirm 
+the  most  awful  rumours  and  testimonies.  We  are  told 
+of  a  case  of  impaling  in  Poltava,  as  in  Kherson  of  a 
+priest  who  was  hung  on  a  cross,  etc.  An  English 
+diplomatic  agent  reported  to  his  Government  that 
+Andronik,  Bishop  of  Perm,  was  buried  alive.1  There 
+is  no  need  to  say  more.  This  hatred  toward  the 
+clergy  on  the  pact  of  the  Tch6ka  officials  completely 
+harmonizes  with  confirmed  instances  of  the  most 
+cynical  sacrilege  in  the  churches,  especially  those  occu¬ 
+pied  by  the  Red  Army  during  the  Russian  Civil  War. 
+
+However,  the  question  of  persecution  of  the 
+Church  is  less  to  be  decided  by  various,  although 
+numerous,  cases  of  violence,  than  by  the  avowed  char¬ 
+acter  of  the  entire  system,  by  the  spirit  of  Bolshevism. 
+Russian  Communism  makes  the  struggle  with  religion 
+one  of  its  chief  objectives.  In  the  “  Programme  of  the 
+Communists,”  Bukharin  says :  “  Faith  in  God  is  a 
+reflection  of  the  most  abominable  of  earthly  relation¬ 
+ships — faith  in  slavery.”  Every  member  of  the  Party 
+is  required  to  conduct  anti-religious  propaganda.  For 
+observing  Church  ceremonies  (marriage,  baptizing  of 
+children)  he  may  be  excluded  from  the  Party.  The 
+same  objective  stands  before  the  Comsomol  (the 
+Communist  Youth  Association).  (Paragraph  5  of  the 
+Section  concerning  Political-Educational  Work  of  the 
+
+1  Melgunoff,  of.  cit. 
+
+40 
+
+
+THE  PERSECUTION.  OF.  RELIGION 
+
+Russian  Comsomol.)  The  programme  accepted  at  the 
+Third  Congress,  October  2,  1920,  reads  as  follows: 
+“Rearing  its  members  to  be  convinced  Communists, 
+the'  Russian  Comsomol  conducts  an  ideological 
+struggle  with  the  religious  plague  which  is  consum¬ 
+ing  the  young  generation  of  workers  and  aids  the 
+representatives  of  the  bourgeoisie  to  deceive  the 
+people.”1  The  reference  here  is  not  to  the  Church  as 
+connected  with  the  old  regime  and  not  to  one  or 
+another  religious  organization,  but  to  the  very  prin¬ 
+ciple  of  religious  faith,  which  is  so  hateful  to  Com¬ 
+munism. 
+
+“  We  must  act  so  that  every  blow  to  the  traditional 
+structure  of  the  church,  to  the  clergy,  etc.,  will  be 
+turned  into  a  blow  against  religion  in  general.” 
+“  Even  to  the  blind  it  is  dear  to  what  extent  a  decisive 
+struggle  is  necessary  against  the  priests,  whether  they 
+call  themselves  pastors,  abbots,  rabbis,  patriarchs, 
+mullahs,  or  the  pope;  and  similarly  it  is  inevitable  that 
+at  a  certain  stage  this  struggle  must  be  carried  on  as  a 
+struggle  against  God,  whether  He  is  called  Jehovah, 
+Jesus,  Buddha,  or  Allah.”  Thus  writes  one  of  the  in- 
+augurators  of  the  anti-religious  struggle,  the  old 
+Marxist,  L.  Stepanoff.*  To  be  sure,  this  attitude 
+toward  religion  is  no  novelty  in  Marxism.  The  re¬ 
+nowned  phrase,  “  Religion  is  opium  for  the  people,” 
+which  is  written  large  on  the  wall  of  the  City  Hall 
+opposite  the  shrine  of  the  Iversky  Virgin,  is  a  quota? 
+tion  from  Marx.  But  in  none  of  the  European  socialist 
+parties  or  groupings  has  the  struggle  against  religion 
+
+1  N.  Bukharin,  “  Programma  Kommunistoff,”  p.  51. 
+
+*  “  Purpose!  and  Methods  of  Anti-Religious  Propaganda,” 
+pp.  18-37.  Moscow,  19*3. 
+
+
+THE  RU3SIA.N  CHURCH  SINCE  THE  REVOLUTION 
+
+been  put  to  the  fore  as  in  Russian  Communism.  Out 
+of  atheism  they  have  made  a  new  creed,  preached 
+with  real  religious  fanaticism.  Communism  ha9  cast 
+out  of  its  programme  the  classical  watchword  of  social 
+democracy — “  Religion  is  a  private  matter.”  For 
+Communism,  religion  is  a  social  enemy  against  which 
+struggle  is  obligatory.  Many  Russian  church  people 
+believe  that  its  anti-Christian  motive  constitutes  the 
+jugular  vein  of  Bolshevism.  Perhaps  this  is  an  exag¬ 
+geration  :  neither  Lenin  nor  Trotzky  was  able  person¬ 
+ally  to  devote  time  to  anti-religious  propaganda.  The 
+Civil  War,  the  internal  social  struggle  (terror),  and  the 
+economic  problem  occupied  the  entire  attention  of 
+these  chief  leaders.  However,  this  propaganda 
+attracted  to  its  service  not  a  few  of  the  strong  Com¬ 
+munist  leaders,  ideologists,  and  theoreticians,  who 
+proved  unsuited  for  essentially  practical  or  economic 
+work.  We  name  Lunacharsky,  Jaroslavsky  (secretary 
+of  the  Central  Control  Commission  of  the  Party),  and 
+the  above-mentioned  Stepanoff.  Bukharin  also  de¬ 
+votes  no  little  attention  to  this  matter.  As  regards  the 
+form  of  the  struggle  and  the  organization  of  propa¬ 
+ganda,  it  is  necessary  to  make  a  distinction  between 
+two  periods — the  period  of  the  Civil  War  and  the 
+years  following  the  Civil  War.  The  dividing  line 
+comes  in  1922. 
+
+During  the  Civil  War  the  Bolsheviks  had  little 
+time  for  the  Church.  While  by  no  means  hiding  their 
+attitude  towards  it,  and  working  off  their  hatred  by 
+persecuting  individual  priests,  organizing  lectures 
+(Spitzberg,  Lunacharsky),  etc.,  they  did  not  under¬ 
+take  the  struggle  on  a  broad  programme.  Leaving 
+the  Patriarch  in  freedom,  they  even  seemed  to  forgive 
+
+4* 
+
+
+THE  PERSECUTION  OF  RELIGION 
+
+him  the  anathema  which  he  proclaimed  in  1918.  The 
+struggle  with  the  Church  was  concentrated,  as  we  have 
+seen,  in  the  Commissariat  of  Justice,  whence  local 
+Soviets  were  instructed,  anti-religious  agitators  were 
+sent  out  and  literature  distributed.  In  1919  special 
+success  accompanied  the  “  exhibit  method  ”  of 
+struggle  with  Orthodoxy — the  exposure  of  relics. 
+The  blow  seemed  to  be  extremely  well  aimed.  For  the 
+masses,  the  cult  of  the  saints  occupied  nearly  the 
+central  place  in  religion.  The  Russian  people  believed 
+in  the  miraculous  preservation  of  the  relics  of  the 
+saints;  their  splendid  shrines  constituted  centres  of 
+Worship,  attracting  thousands  of  pilgrims.  No  one 
+knew  exactly  what  lay  beneath  the  brocaded  coverings 
+in  these  gilded  coffins.  The  simple  people  and  even 
+a  large  part  of  the  clergy  were  convinced  that  the 
+bodies  of  the  saints  were  preserved  as  in  life.  Were 
+they  pious  legends  or  pious  frauds?  Learned  theo¬ 
+logians  and  bishops  who  conducted  investigations  in 
+regard  to  the  relics,  of  course,  knew  their  secrets.  In 
+reality  there  was  no  secret,  for  much  had  been  written 
+About  the  matter.  But  there  are  few  who  read  works 
+of  science  or  research.  The  legend  was  maintained  up 
+to  the  very  revolution,  and  the  Bolsheviks  decided 
+to  blast  it  and  so  to  strike  a  blow  at  the  very  heart  of 
+the  people’s  faith. 
+
+At  the  end  of  1918  there  began  a  move  of  exposing 
+relics,  carried  out  under  especially  imposing  circum¬ 
+stances,  for  the  sake  of  publicity.  Photographs,  even 
+cinema  films,  were  taken  of  the  certain  occasions, 
+where  exposure  was  made  by  priests  and  monks  for¬ 
+cibly  set  to  the  task.  In  the  majority  of  the  coffins 
+there  were  found  simply  bones  or  dummies  of  padding 
+
+43 
+
+
+THE  RUSSIAN  CHURCH  SINCE  THE  REVOLUTION 
+
+stuffed  in  canvas  to  resemble  a  human  body.  It 
+seemed  that  the  religious  deception  was  unmasked 
+in  plain  sight.  But  the  Bolsheviks  were  mistaken  in 
+their  reckonings.  Everywhere  the  desecration  of 
+coffins  brought  forth  an  explosion  of  religious  feeling. 
+There  was  no  open  opposition,  but  legends  of  new 
+miracles  were  born  and  spread  throughout  Russia. 
+They  told  of  Commissars  destroyed  by  heavenly 
+anger,  of  disturbed  saints  appearing  to  haunt  the  un¬ 
+godly,  of  real  relics  being  miraculously  hid,  so  as  not 
+to  be  given  up  to  the  enemy,  and  in  place  of  them¬ 
+selves  leaving  only  the  few  bones  which  the  investi¬ 
+gators  discovered.  Above  all,  in  some  places  the  relics 
+were  found  actually  to  be  in  the  condition  of  mummi¬ 
+fied  bodies.  Such  bodies  were  transferred  to  Moscow 
+to  the  Museum  of  Hygiene  (!),  apparently  for  the 
+purpose  of  rooting  out  the  superstition;  but  even 
+here  they  were  made  objects  of  reverence  on  the  part 
+of  Orthodox  visitors. 
+
+The  exposure  of  relics  was  the  sharpest  form  of 
+anti-religious  propaganda  during  the  first  period  of 
+the  revolution.  So  long  as  military  Communism  was 
+conducting  the  struggle  at  the  front  in  the  Civil  War, 
+cultural  life  in  Russia  remained  comparatively  free, 
+however  strange  this  may  seem  at  first  glance.  This 
+refers  to  the  Church,  to  the  universities,  to  the  Press, 
+etc.  It  is  true  that  there  was  no  political  Press  except 
+that  of  the  Government,  but  religious,  philosophical, 
+and  scientific  publications  were  not  suppressed  by  the 
+military  censorship,  which  was  the  only  one  that 
+existed  during  these  years.  “  N.E.P.”1  put  an  end  to 
+this,  however.  Partly  emancipating  the  peasantry  and 
+1  “  New  Economic  Policy.” 
+
+++ 
+
+
+THB  PERSECUTION  OF  RELIGION 
+
+small  industry  from  the  yoke  of  Communism,  the 
+“  N.E.P.”  marked  the  beginning  of  the  endeavour  to 
+crush  out  religious  freedom  in  Russia.  Beginning 
+approximately  with  1922,  the  Bolsheviks  threw  all  the 
+ideological  forces  at  their  disposal  into  the  devastating 
+of  bourgeois  culture.  The  exiling  from  Russia  of  a 
+number  of  Russian  philosophers  and  writers  was  a 
+sign  of  this  change.  Simultaneously  there  went  on 
+the  proletarization — i.e.}  the  tearing  down  of  the  uni¬ 
+versities,  the  penetration  of  the  Comsomol  into  the 
+schools,  the  establishment  of  the  “  Glavlit  ”  and  pro¬ 
+vincial  “  lits,”  a  censoring  apparatus  which  precluded 
+in  Russia  any  philosophical  or  social  literature  except 
+that  of  Marxist  character.  Now  the  struggle  with  the 
+Church  became  the  focus  of  internal  policies.  The 
+propaganda  of  godlessness  assumed  hitherto  unheard- 
+of  proportions.  On  March  31,  1922,  in  the  Moscow 
+Pravda  we  read :  “  The  inauguration  of  anti-religious 
+work  among  youth  was  approved  by  a  special  council 
+of  our  party  anti-religionists.  The  All-Russian 
+Council  or  Political  Education  (Politprosviet)  heartily 
+welcomes  this  initiative.”  This  programme  was 
+carried  out  unswervingly. 
+
+In  the  schools  they  demanded  that  the  teachers 
+actively  participate  in  the  propagation  of  godlessness. 
+On  the  great  holidays,  such  as  Easter  ana  Christmas, 
+special  lectures  were  given  to  explain  to  the  children 
+the  superstitious  and  pagan  sources  of  Christian  cere¬ 
+monies  and  beliefs.  T iny  children  being  brought  up  in 
+Government  “  children’s  homes  ”  were  instilled  with 
+atheism  as  the  official  symbol  of  faith.  Here  is  an 
+example  of  a  picture  from  life  printed  in  the  Pravda, 
+June  4,  1923  (No.  242),  regarding  an  incredible 
+
++5 
+
+
+THE  RUSSIAN  CHURCH  SINCE  THE  REVOLUTION 
+
+voting  which  took  place  in  the  children’s  home  in 
+Krementchug. 
+
+“  Who  believes  that  there  is  a  God,  raise  his  hand.” 
+
+Up  come  three,  four,  seven  .  .  .  two  are  dropped. 
+
+“  Who  is  against  God  ?” 
+
+Up  comes  a  forest  of  hands. 
+
+A  cheerful  cry :  “  Hurrah,  God  hast  lost.” 
+
+The  preaching  of  godlessness  was  combined  with 
+the  propaganda  of  proletarian  morality,  which  iriprac- 
+tice  was  immorality.  Incidentally,  while  the  question 
+of  the  school  and  or  children’s  immorality  only  slightly 
+pertains  to  our  subject,  it  is,  of  course,  related  to  it 
+for  the  reason  that  the  wearing  down  of  all  religious 
+feelings  could  not  but  affect  the  helpless  minds  of  the 
+children.  As  is  well  known,  children  in  Soviet  Russia 
+practically  from  infancy  must  pass  through  the  pre¬ 
+paratory  work  of  the  Communist  Party.  The  three 
+successive  age-group  organizations  are  called  :  “Octo¬ 
+brists,”  “Pioneers,”  and  “Comsomol.”  Religious 
+convictions  are  still  permitted  among  Octobrists  and 
+Pioneers,  although  the  propaganda  of  atheism  is 
+heartily  carried  forward.  But  the  Comsomol  (the  upper 
+classes  of  the  middle  school,  and  the  higher  school, 
+together  with  the  working  youth  and  part  of  the 
+peasant  youth)  consists  of  those  who  are  atheists  by 
+conviction,  who  are  obliged  by  their  constitution,  as 
+we  have  seen,  to  conduct  anti-religious  propaganda. 
+The  Comsomol  in  Russia  numbers  not  less  than  one 
+million  members. 
+
+It  was  at  Christmas,  1922,  that  the  Comsomol  first 
+brought  its  atheist  propaganda  out  on  the  street,  en¬ 
+deavouring,  with  its  sacrilegious  carnival,  to  insult  the 
+religious  reelings  of  Christians.  In  all  the  chief  cities 
+
+4* 
+
+
+THE  PERSECUTION  OF  RELIGION 
+
+of  Russia,  parades  were  organized  as  parodies  of  the 
+Orthodox  sacred  professions.  A  Soviet  semi-official 
+correspondent  picturesquely  describes  the  “  Comsomol 
+Christmas  ”  in  Moscow  in  the  following  manner : 1 
+
+“  The  God-fearing  Moscow  population  saw  a  rare 
+spectacle.  From  the  Sadowa  to  the  Place  of  the  Revo¬ 
+lution  there  stretched  an  unending  procession  of  gods 
+and  heathen  priests.  It  was  a  splendid  method  for 
+learning  about  this  thousand-year-old  fanaticism. 
+Here  was  a  yellow  Buddha  with  short  feet  and  hands 
+giving  the  blessing,  squinting  and  exhaustingly 
+roguish;  and  the  Babylonian  Marduk,  the  Orthodox 
+Virgin,  Chinese  bonzes,  and  Catholic  priests,  the 
+Roman  Pope  in  his  yellow  tiara,  giving  the  blessing 
+to  new  adepts;  a  Protestant  pastor  on  a  high  pole; 
+Russian  priests  in  typical  stoles,  offering  for  a  small 
+price  to  marry  anybody.  And  here  a  monk  sitting  on 
+a  black  coffin  with  exposed  relics.  He  is  praising  his 
+wares  for  possible  purchasers.  A  student  from  Sverd- 
+ioff  Communist  University  splendidly  acts  a  comedy 
+of  priestly  greediness. 
+
+We  need  no  rabbis ! 
+
+We  need  no  priests ! 
+
+Down  with  the  bourgeoisie! 
+
+Down  with  the  kulaks  !”* 
+
+Similar  mockery  took  place  all  over  Russia.  Here 
+•  and  there  the  celebration  was  concluded  by  burning 
+the  “gods,”  as  in  Tiflis,  where  the  day  was  made  the 
+occasion  for  turning  over  the  former  military  cathedral 
+to  the  Comsomol.  The  population,  and  not  only  the 
+faithful,  looked  upon  this  hideous  carnival  with  dumb 
+
+1  lavestia  Vrik.  January  io,  19*3.  ' 
+
+8  The  "  tight-fisted,”  the  popular  name  for  well-to-do  peasants, 
+
+47 
+
+
+THE  RUSSIAN  CHURCH  SINCE  THE  REVOLUTION 
+
+horror.  There  were  no  protests  from  the  silent  streets 
+— the  years  of  terror  had  done  their  work — but  nearly 
+everyone  tried  to  turn  off  the  road  when  it  met  this 
+shocking  procession,  I,  personally,  as  a  witness  of  the 
+Moscow  carnival,  may  certify  that  there  was  not  a 
+drop  of  popular  pleasure  in  it.  The  parade  moved 
+along  empty  streets  and  its  attempts  at  creating 
+laughter  or  provocation  were  met  with  dull  silence  on 
+the  part  of  the  occasional  witnesses. 
+
+That  evening  blasphemous  dramatic  presentations 
+took  place  in  most  0/  the  theatres,  concerning  whose 
+nature  one  may  judge  from  the  title  of  one  of  the 
+most  widely  distributed  anti-religious  plays,  “The 
+Immaculate  Conception.”  Following  the  “  Comsomol 
+Christmas”  came  the  “Easter”  pf  1923.  However, 
+the  failure  was  evident.  In  fact,  this  gross  insulting  of 
+religion  brought  to  life  a  corresponding  reaction  in 
+the  form  of  a  strengthening  of  religious  feelings,  and 
+a  protest  in  the  broad  masses  of  the  population.  Soon 
+the  carnivals  were  abandoned,  though  blasphemous 
+plays  and  “educational”  lectures  were  continued. 
+At  subsequent  great  holidays,  however,  the  Comsomol 
+members  have  not  been  able  to  abstain  from  the  satis¬ 
+faction  of  passing  by  the  churches  singing  their  char¬ 
+acteristic  songs,  and  even  creating  disturbances  in  the 
+churches  themselves.  But  the  hooligan  character  of 
+the  anti-religious  struggle  was  already  meeting  con¬ 
+demnation  on  the  part  of  the  leaders.  “  The  struggle 
+with  God  must  be  conducted  by  education,  by 
+scientific  organization.”  A  whole  series  of  books 
+(Stepanoff,  Pokrovsky,  and  others)  is  devoted  to  the 
+methodology  of  anti-religious  propaganda.  For  this 
+purpose  there  are  established  numerous  clubs  of  the 
+
+48 
+
+
+THE  PERSECUTION  OF  RELIGION 
+
+“godless”  (bezbojniki).  There  is  a  special  Govern¬ 
+ment  publishing  house  called  “Atheist.”  There  are 
+several  bookshops  in  the  capital  which  deal  only  in 
+this  propagandist  literature.  The  “natural  science” 
+point  of  view  on  religion  is  combined  with  the 
+Marxist  view,  that  religion  is  only  an  aspect  of  class 
+exploitation.  -Radical  historical  criticism  is  drawn 
+upon  to  provide  material  for  the  struggle,  especially 
+
+gjainst  Christianity.  The  book  by  Drews,  “The 
+hrist  Myth,”  and  the  works  of  other  authors  of  his 
+school,  furnish  powerful  weapons.  In  recent  years  the 
+theory  advanced  by  Drews  has  become  in  its  way  a 
+Communist  dogma.  In  contrast  to  Kautsky  and  to  the 
+old  Marxist  conception  of  Jesus  as  a  social  reformer, 
+they  demand  now  from  the  Communist  the  assertion : 
+Christ  never  existed.  I  know  of  a  case  when  an  ex¬ 
+perienced  propagandist  on  the  anti-religious  front,  a 
+professor  of  the  Leningrad  University,  lost  his  Com¬ 
+munist  career  because  his  scientific  training  would  not 
+allow  him  to  adjust  himself  to  the  new  dogma. 
+
+But  Drews  is  too  heavy  an  instrument  for  the 
+masses.  For  them,  and  especially  for  youth,  there  is 
+
+fmblished  a  “  comic  ”  magazine  “  Bezbojnik  (God- 
+ess).”  It  is  hard  to  conceive  of  anything  more 
+insipid  or  wretched  than  this  “  humour.”  The 
+talentless  pictures  with  unending  similarity  give 
+constantly  the  same  sort  of  caricatures  of  Jehovah, 
+Christ,  the  Virgin,  and  the  titles  constantly  emphasize 
+that  these  “  Gods  ”  are  in  the  service  of  the  bour¬ 
+geoisie.  A  crude  pornography  runs  through  this 
+impious  literature. 
+
+There  can  be  no  doubt  regarding  the  purpose  of 
+the  governing  power  in  Russia.  It  is  endeavouring  to 
+
+49  » 
+
+
+THE  RUSSIAN  CHURCH  SINCE  THB  REVOLUTION 
+
+destroy  all  religion.  And  in  view  of  this  purpose,  all 
+the  executing  and  exiling  of  the  clergy,  all  the  re¬ 
+straints  put  on  the  activity  of  the  Church,  cannot  but 
+be  looked  upon  as  real  persecution.  For  the  executions 
+and  the  exilings  they  always  find  pretences  whereby 
+they  can  continue  the  fiction  of  the  freedom  of  faith. 
+But  these  pretensions  deceive  no  one.  Russian  Bol¬ 
+shevism  has  cleverly  refused  to  close  all  the  churches 
+and  proclaim  all  priests  to  be  outlaws,  as  was  done  in 
+the  French  Revolution.  Nevertheless,  the  hatred  of 
+the  Communists  for  religion  is  sharper  and  more 
+radical  than  was  that  of  the  French  Jacobins.  They 
+fight  not  against  Christianity  only,  but  against  the 
+very  idea  of  religion  and  even  against  every  kind  of 
+idealistic  philosophy.  Not  only  the  Orthodox  and 
+Catholic  clergy  suffer  in  Russia :  rabbis  are  arrested, 
+synagogues  are  closed,  the  printing  of  books  in  ancient 
+Hebrew  is  forbidden.  Of  all  the  faiths  it  is  probable 
+that  Mohammedanism  has  the  greatest  freedom, 
+though  even  Islam  comes  under  the  general  ban.  Fear¬ 
+ing  the  fanaticism  of  the  Eastern  peoples,  and  in  view 
+of  the  general  political  stake  in  the  Mohammedan 
+East,  Communism  tolerates,  in  spite  of  its  decrees,  the 
+religious  schools  of  the  Mohammedans.  But  complete 
+freedom  from  persecution  obtains  only  among  the 
+semi-barbarian  heathen  peoples,  toward  whom  the  Bol¬ 
+sheviks  act  carefully,  as  towards  ethnographic  sur¬ 
+vivals.  As  a  result  of  this  strange  religious  policy, 
+paganism  in  the  form  of  religious  dualism,  conjurst, 
+and  similar  forms,  has  experienced  during  recent  years 
+an  unexpected  revival  in  far  corners  of  Russia,  even 
+in  the  parts  which  from  time  immemorial  have  been 
+Orthodox. 
+
+5® 
+
+
+CHAPTER  IV 
+
+THE  “RENOVATION”  SCHISM 
+
+The  new  religious  policy  of  the  Communist  power 
+has  not  been  limited  to  the  spread  of  atheistic  propa¬ 
+ganda.  As  regards  the  Orthodox  Church,  efforts  have 
+even  been  made  to  rupture  it  from  within — and  in  part 
+successfully.  In  the  spring  of  1922  a  schism  took 
+place  in  the  Church  which  even  up  to  the  present 
+divides  it  into  two,  although  unequal,  parts.  In  order 
+to  understand  this  so-called  “  Living  Church  ”  or 
+“  Renovated  Church  ”  schism  it  is  necessary  to  make 
+certain  explanations. 
+
+Up  to  the  present  time  the  minutes  of  the  councils 
+of  the  central  organs  of  the  Communist  Party  on 
+Church  questions  have  not  been  published,  so  we  do 
+not  know  who  is  principally  responsible  for  inspiring 
+the  religious  policy  of  the  Party.  But  so  far  as  the 
+views  of  the  leaders  find  expression  in  the  Party 
+Press,  we  note  two  points  of  view.  One,  which  we 
+may  call  doctrinaire,  struggles  with  religion  as  such, 
+with  every  sort  of  religion,  making  no  distinction  be¬ 
+tween  religious  forms.  For  Communists  of  this  type, 
+rationalistic  and  democratic  confessions  seem  the  most 
+dangerous,  because  they  are  more  deceptive  for  the 
+masses.  “No  compromise  with  religion”  is  their  watch¬ 
+word.  The  other  type  may  be  called  opportunists, 
+they  recognize  the  energy  alive  in  religious  “  preju¬ 
+dices,”  and  desire  to  root  them  out  step  by  step ;  for 
+
+5* 
+
+
+I 
+
+THE  RUSSIAN  CHURCH  SINCE  THB  REVOLUTION 
+
+these  the  change  from  Orthodox  conservative  forms 
+of  religion  to  more  free  or  sectarian  forms  is  con¬ 
+sidered  desirable.  They  maintain,  for  instance,  that 
+Protestantism  and  the  rationalistic  sects  are  stages  in 
+the  wearing  out  of  Christianity,  and  are  willing  to 
+grant  them  comparative  support.  The  Baptists  in 
+Russia  received  from  Lenin  himself  the  privilege  of 
+free  preaching,  and  even  special  Red  passports,  guaran¬ 
+teeing  them  this  privilege.  The  same  refers  to  certain 
+other  sects,  Seventh  Day  Adventists,  Pashkovites,  and 
+others. 
+
+But  the  granting  of  relatively  free  activity  to  these 
+sects  did  not  weaken  the  dominating  place  of  the  per¬ 
+secuted  Orthodox  Church.  A  group  of  Communists, 
+therefore,  got  the  idea  of  an  Orthodox  “Reforma¬ 
+tion,”  a  reformation  representing  principally  political 
+interests.  The  question  before  them  was  the  follow¬ 
+ing  :  Might  it  not  be  possible,  in  place  of  the  incorri¬ 
+gible,  fundamentally  counter-revolutionary  Tikhon 
+Church  to  create  a  democratic,  revolutionary  Church, 
+loyal  to  the  Soviet  power  ?  Although  the  “  sovietiza- 
+tion  ”  of  the  whole  Orthodox  Church  might  not  be 
+accomplished,  yet  it  should  be  possible  to  chip  off 
+from  it  a  revolutionary  minority,  and  with  its  help  to 
+establish  a  dictatorship  in  the  Church  similar  to  that 
+existing  in  the  universities  and  in  literature.  In  the 
+universities  there  had  just  been  made  the  successful 
+experiment  with  “Red  professors.”  Leaning  on  the 
+handful  of  professors  who  called  themselves  socialists, 
+and  on  the  Comsomol,  the  Party  was  able  to  master 
+the  higher  schools.  October  in  the  universities, 
+October  in  the  theatre,  why  not  October  in  the 
+Church  ? 
+
+S* 
+
+
+THE  <$  RENOVATION  n  SCHISM 
+
+Such,  approximately,  was  the  trend  of  thought 
+which,  in  1922,  led  the  Party  to  the  Staging  of  a 
+Church  revolution.  This  was  a  victory  of  the  oppor¬ 
+tunists  over  the  doctrinaires,  although  for  the  Church 
+it  brought  a  new  wave  of  terror.  It  is  not  without 
+reason  that  from  this  time  on,  Church  policy  is 
+directed  not  from  the  Commissariat  of  Justice  but 
+from  the  terrible  G.P.U.  (the  new  name  of  the 
+Tchika).  At  the  head  of  the  ecclesiastical  section  of 
+this  institution  there  was  placed  a  mysterious  person, 
+hitherto  unknown,  a  certain  Tutchkoff,  who  at  the 
+present  time  occupies  in  Russia  the  position  of  secret, 
+so  to  speak  underground  (similar  to  all  the  institu¬ 
+tions  of  the  G.P.U.),  Ober-procuror  of  the  Russian 
+Church. 
+
+But  neither  the  G.P.U.  nor  the  Party  was  able 
+openly  to  take  upon  itself  the  organizing  of  the 
+Church  revolution.  It  was  not  so  much  the  constitu¬ 
+tional  freedom  of  conscience  as  the  atheistic  ethics  of 
+the  Party  which  made  any  participation  in  the  re¬ 
+formation  of  the  Church  impossible  for  them.  For 
+this  they  found  other  people.  We  have  already 
+acquainted  ourselves  with  the  democratic  movement 
+in  the  clergy  and  with  its  failures  in  the  Moscow 
+Sobor.  Remaining  in  the  minority,  the  clerical  demo¬ 
+crats  did  not  leave  the  Church  but  worked  in  it,  with¬ 
+out  meeting  opposition,  in  spite  of  the  conservative 
+attitude  of  the  majority.  Those  siding  with  Com¬ 
+munist  social  principles  were  able  to  advance  their 
+ideas  from  church  pulpits,  especially  in  the  working¬ 
+men’s  sections.  Such  a  person  was  the  priest  Boyarsky 
+in  Petrograd.  His  Christian  Communism  did  not 
+hinder  him  from  being  a  professor  in  the  Theological 
+
+S3 
+
+
+THE  RUSSIAN  CHURCH  SINCE  THE  REVOLUTION 
+
+Institute,  which  in  the  first  years  of  the  revolution 
+succeeded  the  old  Theological  Academy.  Another 
+Petrograd  liberal  priest,  Alexander  Vvedensky, 
+brought  certain  reforms  into  the  Liturgy,  endeavour¬ 
+ing  to  harmonize  mystical  Christianity  and  modern 
+culture.  His  brilliant  sermons  made  him  one  of  the 
+most  popular  priests  in  the  former  capital ;  the  Metro¬ 
+politan  Benjamin,  valuing  his  zeal  and  talent,  main¬ 
+tained  toward  him  an  attitude  of  paternal  friendliness 
+and  took  him  as  companion  during  his  pastoral  visits. 
+A  third  representative  of  the  movement,  the  priest 
+Egoroff,  beginning  also  with  the  reform  of  the  cult 
+and  the  establishing  of  a  Communist  brotherhood,  did 
+not  remain  within  the  fold  of  the  Church,  but  died 
+as  the  head  of  the  small  community  of  sectarians,  con¬ 
+sisting  largely  of  intelligentzia.  Notwithstanding  the 
+tolerance  exercised  by  the  hierarchy  toward  such 
+radical  priests,  the  latter  were  unsatisfied.  They 
+thirsted  for  a  fundamental  rejuvenation  of  the 
+Church,  a  real  reformation,  and  in  this  they  found 
+themselves  in  agreement  with  desires  proceeding-from 
+the  headquarters  of  the  Communist  Party. 
+
+We  do  not  know  the  moment  of  formation  of  this 
+unnatural  union  of  Church  reformers  with  atheists 
+which  appeared  in  the  open  in  the  spring  of  1922. 
+Did  the  Communists  support  a  movement  spon¬ 
+taneously  arising  within  -the  Church,  or  did  they 
+themselves  project  it,  in  collaboration  with  revolu¬ 
+tionary  churchmen  ?  The  latter  seems  the  more  likely 
+(in  certain  particulars)  but,  as  I  must  repeat,  we  have 
+no  direct  evidence  or  this. 
+
+As  is  well  known,  the  occasion  for  the  schism  was 
+the  terrible  famine  of  1921-1922  and  the  related 
+
+5+ 
+
+
+THE  “RENOVATION”  SCHISM 
+
+question  of  the  confiscation  of  the  church  treasures. 
+In  August,  1 92 1 ,  the  Patriarch  called  upon  the  Church 
+to  make  collections  on  behalf  of  the  famine  sufferers, 
+creating  an  All-Russian  Church  Committee  for  the 
+Help  of  Famine  Sufferers,  but  this  organization  was 
+disbanded  by  the  Bolsheviks,  who  feared  any 
+organized  public  effort,  especially  of  the  Church, 
+and  the  sum  which  it  had  collected  was  taken  over 
+by  the  Government  Committee.  The  distrust  came 
+from  both  sides :  the  authorities  feared  the  initiative 
+of  the  Church;  the  Church,  like  all  the  intelligentzia, 
+distrusted  the  authorities,  fearing  that  the  money 
+collected  for  the  famine-stricken  Would  be  spent  fdr 
+other  purposes.  This  disintegrated  the  desire  to  meet 
+the  national  calamity  and  dampened  the  spirit  of  sacri¬ 
+fice.  In  February,  1922,  in  all  the  (Bolshevist)  papers 
+there  was  begun  a  campaign  for  the  confiscation  df 
+church  treasures,  in  which  fantastic  estimates  were 
+made  of  their  quantity  and  value.  The  Patriarch  gave 
+his  permission  (February  19)  for  the  transfer  to 
+Government  agents  of  objects  which  were  not  essential 
+for  the  cult,  but  insisted  on  the  transfer  being  volun¬ 
+tary.  The  Church  desired  to  contribute,  not  to  be 
+the  object  of  robbery. 
+
+It  must  be  noted  that  the  notion  of  private  property 
+had  by  no  means  died  out,  in  spite  of  the  abortive 
+attempt  of  Communism,  and  both  the  population 
+generally  and  the  authorities  felt  that  the  ikons 
+and  sacred  vessels,  as  heretofore,  belonged  td  the 
+Church.  On  February  21  a  resolution  was  passed  by 
+the  All-Russian  Central  Executive  Committee  td  pro¬ 
+ceed  with  the  confiscation  of  church  treasures  and  to 
+.  transfer  them  to  the  organs  of  the  Commissariat  of 
+
+55 
+
+
+THE  RUSSIAN  CHURCH  SINCE  THE  REVOLUTION 
+
+Finance  for  aiding  the  famine-stricken.  The  Patri¬ 
+arch  replied  to  this  decree  by  his  encyclical  of 
+February  28,  in  which  he  stated:  “We  call  upon 
+faithful  followers  of  the  Church  even  at  the  present 
+moment  to  make  such  contributions,  desiring  only 
+that  these  contributions  may  be  the  response  of  a 
+loving  heart  to  the  needs  of  a  neighbour,  only  that 
+they  may  actually  provide  real  help  to  our  suffering 
+brothers.  But  we  cannot  approve  the  withdrawal 
+from  the  churches,  even  though  it  be  by  voluntary 
+contribution,  of  the  sacred  objects,  whose  use  for 
+other  than  services  of  worship  is  forbidden  by  the 
+canons  of  the  (Ecumenical  Church,  and  is  punishable 
+as  sacrilege — laymen  by  excommunication,  ordained 
+persons  by  dismissal  from  Orders.” 
+
+This  epistle  clearly  forbade  the  clergy  to  turn  over 
+church  sacred  objects  to  agents  of  the  Government. 
+Evidently,  however,  the  authorities  consciously 
+sought  conflict,  desiring  to  discredit  the  Church  in 
+the  eyes  of  the  people.  The  conditions  laid  down  by 
+the  Patriarch,  in  the  absence  of  a  free  Press,  remained 
+unknown  to  the  broad  masses.  To  show  up  the 
+Church  as  the  enemy  of  the  suffering  and  dying  popu¬ 
+lation  was  more  advantageous  to  the  Communists 
+than,  in  agreement  with  the  Church,  to  receive  the 
+treasures  which  they  demanded.  The  confiscation  was 
+effected  throughout  Russia  (principally  by  tearing 
+off  the  precious  metals  and  jewels  from  ikons),  but  led 
+to  the  opposite  results.  For  the  first  time  since  the 
+events  of  early  1918,  the  masses  showed  readiness  to 
+defend  the  things  they  held  sacred.  The  people,  who 
+had  permitted  the  desecration  of  relics,  rose  in  defence 
+of  ikons.  Yet  there  was  no  general  revolt.  Crowds  of 
+
+56 
+
+
+THE  “RENOVATION”  SCHISM 
+
+people  surrounded  the  churches,  hindering  the  com¬ 
+missions  from  carrying  away  the  treasures,  in  some 
+places  making  use  of  fists  and  stones.  The  priest 
+Krasnitzky,  at  the  trial  of  the  Petrograd  Metropolitan 
+Benjamin,  stated  that  there  were  1,414  local  cases  of 
+sanguinary  excesses.1  The  decree  was  carried  out  in 
+full,  yet  the  robbing  of  the  churches  gave  the  People’s 
+Commissariat  of  Finance  altogether  only  23,997  puds 
+of  silver,  and  a  certain  quantity  of  gold  and  jewels3 — a 
+figure  which  the  official  organ  recognized  as  ridicu¬ 
+lously  small.3  The  wealth  of  the  Church  turned  out 
+to  be  a  myth. 
+
+But  the  “  sanguinary  excesses  ”  claimed  still  more 
+bloody  victims  than  fell  in  the  local  disturbances.  In 
+each  city  in  Russia  court  trials  were  begun.  Thou¬ 
+sands  of  priests,  bishops,  and  laymen  were  brought  to 
+trial  before  revolutionary  tribunals,  now  held  in 
+public  as  distinguished  from  the  trials  of  1918-1920. 
+Everywhere  death  sentences  were  passed.  Scores  of 
+executions  mark  this  fatal  summer  (1922)  for  the 
+Church.  In  the  Moscow  trial,  which  took  place  in 
+May  and  resulted  in  eleven  death  sentences,  the  Patri¬ 
+arch  gave  evidence  as  a  witness.  As  the  author  of  the 
+February  epistle,  he  asked  that  all  the  guilt  might  be 
+borne  by  himself.  As  a  result  he  was  deprived  of 
+liberty  (confined  in  a  monastery)  and  remanded  for 
+trial.  This  was  the  moment  which  the  revolutionary 
+group  in  the  clergy  used  for  revolt. 
+
+1  Premia,  No.  no,  1922.  Moscow. 
+
+*  The  figures  when  put  into  English  weight  equivalents  are, 
+approximately:  gold,  993  lbs.;  silver,  823,267  lbs.;  pearls, 
+10  lbs.;  platinum,  etc.,  2,971  lbs.;  diamonds,  etc.,  1,31,3  carats. 
+
+•  Isvestia  V«*.  December  19,  1922.  Moscow. 
+
+57 
+
+
+THB  RUSSIAN  CHURCH  SINCE  THE  REVOLUTION 
+
+From  the  very  beginning  of  the  campaign,  the 
+Petrograd  group  came  out  openly,  in  meetings  and  in 
+newspapers,  in  favour  of  the  confiscation  of  the 
+treasures  on  behalf  of  the  famine-stricken.  The  priest 
+Vvedensky  spoke  with  passionate  eloquence,  winning 
+over  a  great  many.  Certainly  the  conscience  of  many 
+of  the  faithful  was  torn  by  conflicting  claims.  They 
+wanted  to  contribute,  but  were  indignant  at  enforced 
+confiscation.  They  gladly  gave  up  the  “  treasures,” 
+but  wished  to  retain  the  “  holy  things  ” — even  though 
+it  be  by  providing  the  money  equivalent  of  them. 
+
+In  response  to  the  encyclical  of  the  Patriarch,  the 
+Petrograd  group  replied  by  a  sharp  letter  in  the  news¬ 
+papers,  heralding  the  beginning  of  the  schism.  After 
+the  arrest  of  the  Patriarch,  the  priests  Vvedensky  and 
+Bielkoff,  together  with  their  Moscow  fellow-worker, 
+Kalinovsky,  visited  the  Patriarch  (May  1 2)  in  prison, 
+with  the  permission  of  the  authorities.  They  referred 
+to  the  death  sentences  which  had  been  passed,  putting 
+responsibility  for  them  on  the  Patriarch,  and,  for  the 
+welfare  of  the  Church,  demanded  his  temporary 
+abdication  until  the  convening  of  a  Sobor.  The  Patri¬ 
+arch,  factually  deprived  of  the  possibility  of  ad¬ 
+ministering  the  affairs  of  the  Church  (being  in  prison), 
+signed  a  memorandum  turning  over  the  temporary 
+administration  of  the  Church  to  the  senior  Metro¬ 
+politan,  Agathangel  of  Jaroslavl.  The  actual  text  of 
+the  Patriarch’s  memorandum  in  reply  to  the  written 
+demand  of  the  delegation  reads  as  follows :  “  The 
+persons  named  above  (».£.,  the  priests  signing  the 
+request)  to  accept  and  transmit  to  His  Grace,  the 
+Metropolitan  Agathangel,  on  his  arrival  in  Moscow, 
+the  affairs  of  the  Synod,  with  the  participation  of  the 
+
+5® 
+
+
+THE  “RENOVATION”  SCHISM 
+
+
+secretary  Numeroff.”  This  clearly  states  that  this 
+group  of  opposition  priests  was  authorized  to  be  the 
+link  Detween  the  imprisoned  Patriarch  and  the  Metro¬ 
+politan  Agathangel.  Such  are  the  facts,  communicated 
+by  the  Patriarch  himself  after  his  release  (in  the 
+encyclical,  July  1 5, 1923),  and  recognized  even  by  the 
+official  historian  of  the  Renovated  Church.1 
+
+But  the  group  of  Church  revolutionaries,  distort¬ 
+ing  the  plain  meaning  of  the  memorandum,  built 
+upon  it  the  foundation  of  a  Church  revolution.  They 
+announced  that  the  Patriarch  had  abdicated  and  had 
+transferred  authority  to  them — i.e .,  to  the  new  Higher 
+Church  Administration.  They  proposed  to  Agath¬ 
+angel  of  Jaroslavl  that  he  enter  the  revolutionary 
+Higher  Church  Administration,  thus  legalizing  the 
+revolution.  After  his  refusal,  Agathangel  was  arrested 
+and  exiled  to  Narym,  a  most  unhealthy  region  of 
+Siberia.  In  compensation  for  this  refusal,  twOi 
+bishops  (Antonin  and  Leonid)  joined  the  priest- 
+revolutionaries,  and  the  new  Higher  Church  Ad¬ 
+ministration,  accepting  also  some  laymen  into  its 
+membership,  announced  itself  the  supreme  authority 
+in  the  Russian  Orthodox  Church.  On  May  14,  in 
+the  Izvestia  of  the  All-Russian  Central  Execu¬ 
+tive  Committee,  there  was  published  the  declaration 
+of  the  revolutionaries.  Beginning  by  extolling  the 
+Soviet  Government,  it  concluded  by  charging  the 
+Church  with  counter-revolutionary  activity,  even 
+with  attempts  to  “create  a  coup  d’ttat.” 
+
+The  Metropolitan  Agathangel  was  able,  before  his 
+exile,  to  issue  an  encyclical  prohibiting  relationships 
+
+1  Profewor  Titlinoff,  “The  New  Church,”  p.  55.  Petrograd, 
+19*3- 
+
+
+59 
+
+
+THE  RUSSIAN  CHURCH  SINCE  THE  REVOLUTION 
+
+with  the  new  Higher  Church  Administration,  and 
+the  priest  Vvedensky  was  excommunicated  by  the 
+Metropolitan  Benjamin  of  Petrograd.  The  response 
+to  this  action  came  in  the  form  of  a  fearful  explosion 
+of  the  terror.  The  Higher  Church  Administration 
+deprived  of  their  robes  all  bishops  and  priests  who 
+declined  to  recognize  its  authority,  and  the  G.P.U. 
+immediately  arrested  them.  These  two  institutions 
+worked  in  close  contact.  Practically  all  the  bishops 
+loyal  to  the  Patriarch  were  arrested  that  summer 
+(1922);  most'  of  them  were  exiled.  Beginning  with 
+this  period,  exiling  to  remote  places  in  Russia  or 
+Siberia  took  the  place  of  execution  (although  not 
+always)  in  the  practice  of  the  G.P.U.  It  must  not  be 
+forgotten  that  simultaneously  the  public  trials  of 
+those  who  had  hindered  the  confiscation  of  church 
+treasures  were  continued.  In  Petrograd,  after  a  sensa¬ 
+tional  trial,  the  Metropolitan  Benjamin  and  three 
+other  persons  were  shot.1  His  meekness,  his  readi¬ 
+ness  to  suffer  death  for  Christ,  his  great  modesty,  his 
+exceptional  thoughtfulness  for  others,  for  the  welfare 
+of  the  Church — made  an  ineradicable  impression  on 
+all  the  witnesses  of  this  great  trial,  even  in  the  ranks 
+of  the  Communists.  He  became  a  veritable  martyr 
+for  thp  Russian  Church.  The  Renovated  priests, 
+among  them  Krasnitzky,  who  gave  false  evidence  be¬ 
+fore  the  court,  immediately  became  traitors  in  the 
+eyes  of  the  people.  The  stone  thrown  by  an  old 
+woman  at  the  head  of  Vvedensky  was  an  expression 
+of  the  general  hatred  toward  him  which  had  taken 
+the  place  of  his  former  popularity. 
+
+1  Cf.  account  of  one  who  attended  the  trial,  published  in 
+“The  Assault  of  Heaven,” 
+
+
+60 
+
+
+THE  “RENOVATION”  SCHISM 
+
+
+Under  the  threat  of  imprisonment  and  possible 
+execution,  and  being  without  bishops,  the  larger  part 
+of  the  rank  and  file  of  the  priesthood  recognized,  un¬ 
+willingly,  the  authority  of  the  Higher  Church 
+Administration.  The  Government  recognized  only 
+the  H.C.A.  as  de  facto  at  the  head  of  the  Orthodox 
+Church  in  Russia;  the  Patriarch  and  all  who  followed 
+him  were  placed  in  a  half-outlaw  condition.  The 
+Patriarchal  Church  went  underground.  Services  of 
+worship  in  private  homes,  and  secret  bishops,  gave  it 
+a  “catacomb”  character.  It  seemed  as  though  the 
+Renovation  had  won  a  great  victory.  It  was  at  this 
+time  that  it  developed  a  programme  of  reform,  with 
+which  we  shall  become  acquainted. 
+
+It  must  be  noted,  however,  that  the  movement  was 
+not  unified.  It  immediately  broke  up  into  several 
+groups,  organized  along  the  line  of  parties.  Practic¬ 
+ally  each  one  of  the  leaders  had  his  own  personal 
+“Church” — i.e.,  a  group  of  priests  subordinated  to 
+the  general  Higher  Administration.  Krasnitzky 
+headed  the  “Living  Church,”  Antonin  “The  Union 
+of  Church  Regeneration,”  Vvedensky  the  “  Union  of 
+Parishes  of  the  Ancient-Apostolic  Church.”  The 
+Living  Church  at  first  was  the  strongest  of  these 
+organizations.  For  the  broad  masses  its  name  became 
+the  general  title  of  the  movement.  Under  this  name 
+( The  Living  Church)  a  journal  was  issued,  which  re¬ 
+flected  the  original  reforming  passion  of  the  move¬ 
+ment.  Some  of  these  groups  were  more  radical,  others 
+more  conservative,  but,  looking  at  them  as  a  whole, 
+one  is  astonished  to  see  how  insignificant  are  the 
+purely  religious  or  ecclesiastical  motives  of  their 
+reformation  and  how  preponderant  and  dispropor- 
+
+61 
+
+
+THE  RUSSIAN  CHURCH  SINCE  THE  REVOLUTION 
+
+donate  the  revolutionary  character  of  their  tactical 
+methods  and  phraseology. 
+
+First  of  all,  these  groups  endeavoured  to  remain 
+and  to  call  themselves  Orthodox.  They  did  not  en¬ 
+croach  upon  any  of  the  dogmas  or  Sacraments  of  the 
+Church.  They  had  no  particular  theological  idea  what¬ 
+ever  to  put  as  the  basis  of  the  new  reformation.  Their 
+ideas  were  such  as  had  been  commonplace  in  Ortho¬ 
+dox  liberalism,  proceeding  from  the  early  Slavophils, 
+from  Vladimir  Solovieff,  and  others.  One  can  say  with 
+certainty  that  these  ideas  are  shared  by  many  of  the 
+representatives  of  the  Tikhon  Church :  such  as  the 
+idea  of  the  legitimacy  of  development,  of  progress  in 
+Church  forms,  in  legislation,  in  the  cult,  in  theological 
+thought.  One  can  discover  only  a  general  spirit  of 
+rationalism,  only  the  absence  of  feeling  for  the 
+mystical  and  the  ascetic  side  of  religion.  There  were 
+certain  echoes  of  Protestantism  in  the  unsuccessful 
+attempt  to  abandon  the  cult  of  relics — a  question 
+which  was  presented  at  the  first  Reformed  Sobor, 
+but,  meeting  with  opposition,  remained  undecided. 
+
+The  entire  reformation  was  directed  along  the  line 
+of  the  cult  and  the  canonical  structure  of  the  Church. 
+For  some  the  reform  of  the  cult  found  expression  in 
+the  movement  toward  simplification,  towards  compre¬ 
+hensibility — hence  the  conducting  of  Liturgy  in  the 
+Russian  language  (as  against  the  usual  Church- 
+Slavonic).  Others  —  e.g.,  Vvedensky,  Antonin  — 
+wished  to  conduct  the  eucharistic  ceremony  openly 
+before  the  congregation,  though  in  the  Eastern 
+Church  it  has  always  been  mysteriously  celebrated 
+in  the  sanctuary,  behind  the  screen  of  the  “Royal 
+Doors.”  In  the  new  practice,  the  doors  were  not 
+
+6s 
+
+
+THE  “RENOVATION”  SCHISM 
+
+closed,  the  secret  eucharistic  prayers  were  recited  aloud 
+(Vvedensky),  finally,  the  sanctuary  lost  its  significance 
+and  the  altar  was  placed  in  the  middle  of  the  church 
+(Antonin). 
+
+The  general  programme  of  canonical  reforms  was 
+dictated  less  by  the  spirit  of  Protestantism  than  by  the 
+“  class  ”  claims  of  the  White  (married)  clergy,  turned 
+simultaneously  against  the  episcopacy  and  against  the 
+laity.  The  second  marriage  of  the  clergy — i.e.,  permis¬ 
+sion  for  widowed  priests  to  marry  a  second  time — and 
+the  appointing  of  bishops  from  the  White  (married) 
+clergy — these  were  the  two  chief  points  of  reform. 
+The  following  is  a  characterization  of  the  tendencies 
+of  the  first  Reformed  Congress  (August,  192a)  by 
+one  who  joined  the  movement  but  who  was  without 
+the  enthusiasm  of  the  first  period : 1  “  The  chief  atten¬ 
+tion  of  the  Congress  was  directed  towards  the  struggle 
+with  monasticism  and  monastic  influence,  and  toward 
+the  strengthening  of  the  leading  role  for  the  White 
+clergy.”  The  Congress  emphasized  the  dangerous  in¬ 
+fluence  of  monasticism  in  the  fate  of  the  Church  and 
+practically  made  an  end  to  the  monastic  institution. 
+It  demanded  the  closing  of  all  city-monasteries  (a  few 
+still  remained)  and  their  transformation  into  parish 
+churches,  for  the  reason  that  monks  have  no  place  in 
+ordinary  life.  The  village  monasteries  were  to  be 
+transformed  into  working  brotherhoods,  similar  to 
+Hie  usual  type  of  agricultural  communes  and  pro¬ 
+ducing  co-operatives;  otherwise  into  clinics,  asylums, 
+or  homes  for  the  aged,  with  the  requirement  that  the 
+monks  should  learn  the  requisite  occupations.  As  re¬ 
+gards  those  monks  holding  hierarchical  positions  who 
+
+1  Titlinoff,  “  The  New  Church,”  pp.  14  j f. 
+
+6j 
+
+
+THE  RUSSIAN  CHURCH  SINCE  THE  REVOLUTION 
+
+opposed  the  renovation  of  the  Church,  the  Congress 
+requested  the  new  Church  authority  to  depose  them 
+immediately,  and  to  deal  similarly  with  such  persons 
+in  future. 
+
+“  For  the  improvement  of  the  episcopacy,  the  Con¬ 
+gress  proposed  that  immediately,  without  awaiting 
+the  Sobor,  episcopal  appointments  be  opened  not  only 
+to  widowers  but  to  married  clergy.  In  order  to  crush 
+all  Church  counter-revolution,  the  Congress  recom¬ 
+mended  the  most  decisive  measures ,  up  to  deporta¬ 
+tion  of  the  guilty  from  their  dioceses.  Incidentally, 
+the  Congress  resolved  to  disband  immediately  those 
+parish  councils  which  opposed  the  Renovation  Move¬ 
+ment,  and  to  form  new  councils  consisting  of  persons 
+recommended  by  the  priest  and  made  responsible  to 
+him.  The  opponents  01  this  resolution  were  threatened 
+by  punishment,  even  up  to  excommunication.  Dis¬ 
+cussing  the  future  internal  construction  of  the  Church, 
+the  Congress  went  so  far  as  to  pass  a  resolution  re¬ 
+cognizing  as  fully  franchised  laymen  only  those  who 
+carry  out  in  life  the  principles  or  the  Living  Church.” 
+
+The  dictatorship  of  the  parish  priest  is  expressed 
+in  this  resolution  in  a  most  radical  form.  However, 
+“  deportation  from  the  diocese  ”  might  be  carried  out 
+only  by  the  Government  authorities — G.P.U.  The 
+resolution  thereby  recognizes  the  connection  between 
+the  Living  Church  ana  this  institution.  It, is  in  the 
+relation  of  the  Renovated  Church  to  the  State  that 
+one  finds  the  key  to  the  understanding  of  the  schism. 
+
+The  Living  Church  rising  against  the  Church 
+of  the  Patriarch  accused  the  latter  of  political  counter¬ 
+revolution.  In  the  avowal  of  the  political  sins  of  the 
+old  Church  (under  the  Tsar’s  regime)  lies  the  prin- 
+
+
+THE  “RENOVATION”  SCHISM 
+
+cipal  source  of  the  revolutionary  sentiment  of  the 
+Living  Church.  “  The  Church  must  be  essentially  the 
+expression  of  union  of  love  and  truth,  and  not  a 
+political  organization,  not  a  counter-revolutionary 
+party,”  proclaims  the  declaration  of  this  group  the  day 
+after  their  revolt.1  However,  it  did  not  even  attempt 
+to  maintain  a  non-political  position.  The  document 
+just  cited  begins  with  a  characterization  of  the  positive 
+achievements  of  the  Soviet  Government  and  expresses 
+regret  that  “the  Church  actually  remained  aloof  in 
+this  struggle  in  the  cause  of  truth  and  the  welfare  of 
+mankind.”  The  journal  The  Living  Church,  con¬ 
+ducted  a  campaign  in  defence  of  the  Christian  mean¬ 
+ing  of  the  Communist  revolution.  Although  not  all 
+the  groupings  of  the  Renovation  were  draped  to  the 
+same  extent  in  Red  bunting  yet  the  Sobor  of  1923 
+proclaimed  the  Communist  revolution  a  “Christian 
+creation.”  “The  sun  of  social  truth  shone  above  the 
+world  on  October  25,  1917  .  .  .  though  unbelieving, 
+the  Government  has  undertaken  the  task  which  we, 
+bdieving  Christians,  must  fulfil,”  stated  Vvedensky 
+in  his  speech  proposing  an  expression  of  thanks  to 
+Lenin  as  “  the  tribune  of  social  truth.”  The  resolu¬ 
+tion  of  the  Sobor  states :  “  Having  listened  to  the 
+report  of  the  Archpriest  Vvedensky,  the  All-Russian 
+Sobor  of  the  Orthodox  Church  proclaims  to  the 
+Church  and  to  all  mankind  that  at  the  present  moment 
+all  the  world  is  divided  into  two  classes :  the  capitalist- 
+exploiters  and  the  proletariat,  by  whose  labour  and 
+blood  the  capitalist  world  has  constructed  its  fortunate 
+state.  In  all  the  world  only  the  Soviet  Government  of 
+Russia  has  undertaken  the  struggle  with  this  social 
+1  Imtstia  Vsik,  No.  106,  May  14,  1912. 
+
+
+B 
+
+
+THE  RUSSIAN  CHURCH  SINCE  THE  REVOLUTION 
+
+
+evil.  Christians  cannot  be  passive  observers  in  this 
+straggle.  The  Sobor  proclaims  capitalism  a  deadly 
+sin,  and  struggle  with  it  the  sacred  duty  of  Christians. 
+The  Congress  calls  attention  to  the  fact  that  the 
+Soviet  power,  in  its  system  of  government,  alone 
+in  the  whole  world  is  realizing  the  ideals  of  the 
+Kingdom  of  God.  Consequently,  every  believing 
+churchman  must  not  only  be  a  loyal  citizen,  but  also 
+persistently  struggle  in  union  with  the  Soviet  power 
+for  the  realizing  of  the  ideals  of  the  Kingdom  of 
+
+
+God.” 
+
+The  Renovated  Sobor  in  January,  1925,  in  its  con¬ 
+gratulation  to  the  Government,  had  the  bad  taste  to 
+call  this  mixture  from  the  Gospels  and  Marxism 
+“religious  Leninism,”  forgetting.  Lenin’s  avowed 
+godlessness.  The  same  Sobor  requested  the  Govern¬ 
+ment’s  “  favourable  attention  ”  in  view  of  the  “  un¬ 
+questioned  value  of  its  work  for  the  State.”  “This 
+(the  Renovation  Movement)  must  unquestionably 
+promote  the  improvement  of  the  standing  of  the 
+Soviet  Government,  even  among  its  enemies  abroad, 
+and  the  final  strengthening  of  the  Soviet  regime 
+within.” 
+
+In  the  two  years  between  the  Sobor  of  1923  and 
+the  Sobor  of  1925,  the  revolutionary  sentiment  faded. 
+Instead  of  world  revolution  there  had  taken  place 
+only  the  strengthening  of  the  Soviet  regime  in  Russia. 
+This  evolution  partly  corresponds  to  the  evolution  of 
+Communistic  policy.  Only  one  thing  remains  clear, 
+the  continued  endeavour  of  the  Renovated  Church  to 
+remain  under  the  protection  of  the  Government. 
+Herein  lies  the  key  to  the  whole  movement.  The  idea 
+of  social  revolution,  it  is  true,  governed  the  Russian 
+
+
+THE  “RENOVATION**  SCHISM 
+
+masses  during  the  first  years  after  “  October,*’ 
+but  it  took  on  such  a  clearly  atheistic  character  that 
+it  remained  foreign  to  the  bosom  of  the  Church. 
+Sympathy  with  Communism  was  very  rarely  met  with 
+in  the  Church.  The  ordinary  parish  clergy,  entirely 
+unrelated  to  the  people  (cf.  the  resolution  of  the 
+August  Congress,  1922)  and  nurtured  throughout  the 
+centuries  in  the  spirit  of  bureaucratic  submission  to 
+the  State,  was  entirely  immune  to  infection  by  the 
+principles  of  the  revolution.  This  infection  was  in¬ 
+jected  by  a  few  priests-democrats :  Vvedensky,  Boyar¬ 
+sky.  Krasnitzky  was  a  doubtful  character.  He  had 
+always  been  known  as  an  extreme  monarchist,  a 
+member  of  the  “  Russian  Assembly,”  who,  while  a 
+student  in  the  Theological  Academy,  wrote  a  disserta¬ 
+tion  against  socialism  and,  at  the  time  of  the  famous 
+Beiliss  affair  in  1913,  made  a  speech  about  Jews  using 
+Christian  blood  in  their  cult.  Among  the  Living 
+Churchmen  there  were  a  great  number  of  former 
+monarchists — “  black  hundreds  **• — but  most  of  the 
+adherents  were  passive  or  indifferent. 
+
+It  is  characteristic  of  the  membership  of  the  move¬ 
+ment  that  there  participated  in  it  not  so  much  the 
+younger  as  the  older  groups  of  the  clergy,  “  respect¬ 
+able  -’*  priests,  etc.  For  this  group  the  thought  of  loss 
+of  Government  protection  was  unbearable.  Not  being 
+ready  to  suffer  martyrdom,  imprisonment,  or  exile,  it 
+sought  the  mercy  of  the  new  authority  withput  any 
+particularly  difficult  compromises  with  its  religious 
+conscience.  Hence  comes  the  peculiar,  combination  of 
+moderation  in  religious  programme  with  verbal 
+radicalism  in  politics.  The  Red  formulae  of  the  revo¬ 
+lution  were  simply  expressions  of  servility,  and  sub- 
+
+
+THE  RUSSIAN  CHURCH  SINCE  THE  REVOLUTION 
+
+mission  to  the  authorities  was  the  favourite  theme  in 
+Renovated  sermons. 
+
+In  this  manner  the  traditions  of  the  old  Synodical 
+Church  continue  to  live  in  the  Renovated  Church. 
+Only  the  phraseology  is  changed,  the  spirit  remains 
+the  same.  It  would  be  a  great  mistake  to  give  verbal 
+credence  to  the  Renovated  and  construe  the  opposition 
+between  them  and  the  Patriarchal  Church  to  be  the 
+opposition  between  revolution  and  counter-revolu¬ 
+tion.  Church  counter-revolution  certainly  exists — 
+outside  Russia,  in  the  emigration  (more  precisely,  in 
+certain  parts  of  the  emigration).  The  Patriarchal 
+Church  is  the  Church  cleansed  in  the  fire  of  the  revo¬ 
+lution,  internally  deeply  non-political.  The  Renovated 
+Church  is  the  old,  traditional  ecclesiastical  order  only 
+camouflaged  in  revolutionary  colour.  Neither  a  revo¬ 
+lutionary  Church  nor  even  a  revolutionary  sect  was 
+constituted  in  Russia,  for  there  was  no  place  for  it. 
+The  Russian  Revolution  was  anti-religious,  and 
+religion  was  not  revolutionary.  This  fact,  which  has 
+deeply  disappointed  many  who  longed  for  reformation, 
+must  be  borne  in  mind  in  order  to  understand  the 
+meaning  of  events  in  recent  Russian  Church  history. 
+
+The  professional  programme  of  the  Renovated 
+clergy  (as  distinct  from  the  reforming  programme  of 
+its  leaders)  was  realized  in  the  Sobor  of  May,  1923. 
+This  Congress,  which  the  Renovated  consider  the 
+Second  Sobor  of  the  Russian  Church  after  revolu¬ 
+tion,  was  in  point  of  fact  the  Sobor  of  a  separatist 
+fraction.  The  partisans  of  the  Patriarch  did  not  par¬ 
+ticipate  in  it.  At  this  Sobor,  monasticism  was  prac¬ 
+tically  liquidated.  Second  marriage  of  the  clergy  was 
+permitted,  and  the  “  .White  episcopacy  ”  was  estab- 
+
+
+THK  u RENOVATION3’  SCHISM 
+
+Hshed.  A  great  number  of  priests  received  mitres— 
+the  new  Church  had  practically  no  canonical  bishops. 
+Readers  and  lower  clergy  were  made  into  priests. 
+There  was  opened  a  wide  field  for  personal  ambition. 
+Vvedensky,  from  being  a  priest,  was  immediately 
+made  Metropolitan,  and  soon  thereafter,  in  recogni¬ 
+tion  of  his  service  as  preacher,  was  given  the  title  of 
+“  Apologist-Evangelist.” 
+
+The  Patriarch  remained  in  prison,  but  not  abdic¬ 
+ating  his  post,  as  the  Living  Churchmen  had  an¬ 
+nounced.  To  complete  the  revolution  there  remained 
+for  them  nothing  else  but  to  degrade  him.  They  con¬ 
+demned  the  Patriarch  in  absentia ,  though  he  declined 
+to  recognize  himself  as  under  the  jurisdiction  of  this 
+Sobor.  The  trial  consisted  of  listening  to  three  accusa¬ 
+tory  speeches  without  defence  or  witnesses.  Moreover, 
+consent  to  the  prosecution  of  the  Patriarch  was  one  of 
+the  points  in  the  questionnaire  which  had  to  be  filled 
+in  by  members  of  the  Sobor  before  it  began  its  work, 
+and,  consequently,  a  condition  for  participation  in  it. 
+The  judgment  on  the  Patriarch  was  included  in  the 
+political  resolution  from  which  we  have  already 
+quoted,  and  which  still  further  emphasized  the 
+political  character  of  this  action :  “  The  Holy  Sobor 
+of  the  Orthodox  Church  in  1923  condemns  the 
+counter-revolutionary  struggle  and  its  methods— 
+methods  of  hatred  of  mankind.  In  particular  the  Sobor 
+grieves  at  the  anathema  proclaimed  on  the  Soviet 
+Government  and  on  all  those  adhering  to  it.  The 
+Sobor  announces  that  this  anathema  has  no  validity. 
+On  the  basis  of  Church  canon  the  Sobor  hereby  pro¬ 
+claims  the  Patriarch  Tikhon  deprived  of  his  position 
+and  of  monastic  status  and  returned  to  his  former  lay 
+
+
+THE  RUSSIAN-  CHURCH  SINCE  THE  REVOLUTION 
+
+
+condition.  Hereafter  the  Patriarch  Tikhon  is  the  lay¬ 
+man  Vasily  Belavin.”  The  Sobor  proclaimed  the 
+Patriarchate  itself  to  be  a  counter-revolutionary  in¬ 
+stitution  and  abolished  it. 
+
+When  they  informed  the  Patriarch  Tikhon,  in  his 
+imprisonment,  of  the  resolution  of  the  Sobor,  he  wrote 
+on  it :  “  Not  valid.  The  humble  Tikhon,  Patriarch  of 
+Moscow  and  of  all  Russia.” 
+
+\  But  the  triumph  of  the  Renovated  was  imaginary 
+and  turned  out  to  be  short-lived.  They  were  able, 
+having  the  friendly  collaboration  of  the  G.P.U.,  to 
+seize  the  majority  of  the  churches  and  even  to  attract  a 
+large  portion  of  the  White  clergy.  But  their  influence 
+on  the  laymen  was  entirely  insignificant.  We  quote  the 
+words  of  the  moderate  Renovated  laymen,  cited  above, 
+summarizing  the  results  of  the  first  stage  of  the  move¬ 
+ment:  “The  first  sin  of  the  ecclesiastical-renovated 
+movement  lay  in  its  separating  from  the  Church 
+masses.  The  Living  Church  was  unable  to  attract  the 
+lay  elements  into  the  sphere  of  its  influence.”1  Yet  the 
+financial  basis  of  the  Church  lay  in  the  laity,  in  their 
+voluntary  contributions.  Very  soon  the  Renovated 
+were  obliged  to  feel  the  influence  of  this  powerful 
+factor.  Episcopal  mitres  constituted  poor  compensa¬ 
+tion  for  empty  Church  treasuries.  The  emptiness  of 
+the  churches  themselves  was  plain  evidence  of  the 
+attitude  of  the  people. 
+
+We  have  said  that  in  the  first  months  after  the 
+revolution  the  Church  was  prepared  even  to  accept 
+an  illegal  position,  “  to  enter  the  catacombs.”  In  this 
+condition  the  episcopate  found  itself.  For  the  parish 
+priesthood,  however,  there  remained  another  way  out, 
+
+1  Titlinoff,  “  The  New  Church,”  p.  20. 
+
+70 
+
+
+THE  “RENOVATION”  SCHISM 
+
+which  many  took  advantage  of.  Discontinuing  the 
+mention  of  the  Patriarch  in  the  cult,  they  nevertheless 
+declined  to  submit  to  the  new  Higher  Church 
+Administration,  announcing  themselves — i.e.,  their 
+parishes — to  be  Autocephalic.  This  condition  was 
+canonically  absurd,  but  legally  invulnerable  under  the 
+Soviet  Constitution,  The  Patriarchal  Church  was 
+broken  up  into  a  mass  of  separate  communes  with 
+secret  connection  between  them.  The  authorities  had 
+no  more  basis  for  persecuting  them  than  any  sectarians. 
+There  was  even  an  heroic  minority  which  made  no 
+compromise  and  continued  to  pray  for  the  Patriarch 
+unafraid  of  arrest.  After  the  period  of  the  sharpest 
+terror  (executions)  had  passed,  the  strength  of  these 
+confessors  was  triumphant  over  the  weakness  of  the 
+timid.  Priests  of  the  Renovated  began  a  mass  return 
+to  the  Patriarchal  Church.  They  were  gladly  received 
+on  condition  of  public  penitence. 
+
+One  may  well  ask  why  the  authorities  did  not  e^ert 
+their  entire  strength  in  order  to  destroy  the  Patriarchal 
+Church.  But  it  must  be  remembered  that  in  the  policy 
+of  the  Soviet  Government  toward  religion  there  has 
+never  been  complete  unanimity.  In  1923  we  see  in 
+its  Press  the  domination  of  the  tendency  which  we 
+have  called  doctrinaire.  The  Communists  cast  ridicule 
+upon  the  new  Church.  The  organization  of  the  Living 
+Church  is  called  by  the  lzvestia  an  ecclesiastical 
+N.E.P.  trust  (No.  220,  1922).  Particularly  character¬ 
+istic  is  the  speech  of  Bukharin,  delivered  after  the 
+closing  of  the  Living  Church  Sobor,  stating  that 
+the  Sobor  did  not  live  up  to  the  expectations  of  the 
+Government.  The  Living  Church  people  did  not 
+secure  the  confidence  or  esteem  of  the  mass  of  the 
+
+7* 
+
+
+THE  RUSSIAN  CHURCH  SINCE  THE  REVOLUTION 
+
+faithful,  who  saw  in  them  only  deserters  and  heretics. 
+Bukharin  is  in  favour  of  liquidating  the  present 
+Higher  Church  Administration,  looking  upon  the 
+activity  of  Antonin  and  his  collaborators  as  “  petit- 
+bourreois  habits.”  “The  churches  must  be  wiped  off 
+the  face  of  the  earth  as  the  breeding  ground  of 
+counter-revolution.  The  struggle  against  the  Church 
+should  be  entrusted  to  comrade  Dzerjinsky  (the  then 
+head  of  the  G.P.U.).  Citizen  Belavin  should  be 
+executed.” 
+
+However  Utopian  the  first  part  of  Bukharin’s  de¬ 
+mands  (regarding  the  Church)  may  have  been,  the 
+threat  was  very  real  as  concerned  the  Patriarch.  From 
+all  the  corners  of  Russia  there  were  received  (as  always, 
+inspired)  resolutions  of  workers’  and  peasants’  gather¬ 
+ings  demanding  the  death  sentence  for  the  Patriarch. 
+Equally  loud  was  the  expression  of  dissatisfaction  on 
+the  part  of  European  public  opinion.  One  can  believe 
+that  the  circumstances  of  international  politics  (par¬ 
+ticularly  the  English  attitude)  averted  the  fate  which 
+was  being  prepared  for  the  Patriarch.  The  trial  was 
+several  times  postponed,  showing  the  uncertainty  of 
+the  authorities.  In  the  last  analysis,  although  the 
+Bukharin  method  was  not  to  be  used  in  destroying 
+the  Church,  yet  the  struggle  against  all  religions  was 
+to  be  continued,  and,  consequently,  there  was  no 
+ground  for  supporting  the  Living  Church.  Yet  it 
+should  be  allowed  to  live,  for  the  existence  of  a  schism 
+wag  profitable  for  anti-religious  propaganda — much 
+more  useful,  indeed,  than  a  revolutionary  State 
+Church.  The  Living  Church  might  be  able  to  seduce 
+“those  little  ones.”  As  the  Izvestia  wrote,  “the 
+Revolution  and  the  Soviet  power  is  least  of  all  in  need 
+
+
+THE  “RENOVATION”  SCHISM 
+
+of  verbal  expressions  of  loyalty  on  the  part  of  the 
+Church.  For  us  it  is  sufficient  if  the  Church  seriously 
+and  finally  ceases  counter-revolutionary  activity.”  But 
+the  Bolsheviks  knew  very  well  that  the  Patriarch  was 
+not  guilty  of  counter-revolution.  We  have  seen  that 
+as  early  as  in  September,  1919,  he  addressed  to  the 
+clergy  an  encyclical  concerning  the  non-participation 
+of  the  Church  in  politics  and  advising  “  submission  to 
+the  instructions  of  the  Soviet  Government  when  they 
+are  not  contrary  to  faith  and  conscience.” 
+
+The  Patriarch  had  been  ready  to  sacrifice  personal 
+ambition  for  the  sake  of  the  Church  and  now  he  con¬ 
+firmed  his  position.  We  have  no  information  regard¬ 
+ing  the  negotiations  which  led  to  the  publication  of 
+the  well-known  letter  of  June  16,  1923,  but  it  is  clear 
+that  the  Patriarch  speaks  in  good  faith.  In  this  letter 
+he  recognizes  his  guilt  before  the  Soviet  Government 
+at  the  beginning  of  the  revolution,  he  promises  to 
+exhibit  loyalty  in  relation  to  the  Soviet  Government, 
+and  rejects  the  monarchist  movement  inside  Russia 
+as  well  as  in  the  emigrations.  (The  last  point  is  in 
+reference  to  the  Sobor  held  in  December,  1921,  in 
+Sremsky  Karlovtzi,  Jugoslavia,  at  which,  under  the 
+presidency  of  Antony  Khrapovitzky,  there  was  passed 
+a  resolution  concerning  the  necessity  of  restoring  the 
+Romanoff  dynasty  in  Russia.) 
+
+Judging  by  its  style  of  composition,  the  document 
+signed  by  the  Patriarch  could  not  have  been  composed 
+by  him.  He  signed  the  prepared  text,  sacrificing  its 
+form.  This  sacrifice  brought  him  comparative  free¬ 
+dom,  and  to  the  Church  its  head.  The  charge  against 
+him  was  dropped,  and  he  passed  the  last  year  and  a 
+half  of  his  life  in  the  Don  Monastery  (Moscow)  under 
+
+73 
+
+
+THE  RUSSIAN  CHURCEt  SINCE  THE  REVOLUTION 
+
+the  surveillance  of  agents,  but  able  to  receive  visitors 
+and  to  go  to  the  Moscow  churches  to  officiate  at 
+services.  Tutchkoff  did  not  let  him  out  of  sight. 
+The  meeting  of  the  Patriarch  with  the  bishops  was 
+made  difficult  in  the  extreme.  Nevertheless,  the  re¬ 
+turn  of  its  head  to  the  Church  had  a  great  moral 
+significance.  The  masses  met  their  “Father”  with 
+enthusiasm.  The  ranks  of  the  Renovated  melted 
+rapidly.  Churches,  together  with  penitent  priests, 
+were  turned  into  “  Tikhon  ”  churches.  Soon  the 
+number  of  the  Renovated  churches  in  the  cities  fell 
+to  about  one-third  of  the  total  number — a  proportion 
+which  is  maintained  up  to  the  present  time.  Accord¬ 
+ing  to  the  latest  information  received  from  Russia,  in 
+the  summer  of  1927,  the  number  of  the  Orthodox 
+Tikhon  parishes  is  35,000,  that  of  the  Renovated 
+17,000  (the  Ukrainian  Autocephalic  Church  3,000). 
+
+The  Patriarch  Tikhon  died  on  March  8,  1925. 
+His  death  made  a  tremendous  impression  on  the 
+whole  of  Orthodox  Russia.  Hundreds  of  thousands 
+crowded  to  his  funeral  in  the  Don  Monastery.  This 
+demonstration  of  popular  love  and  faithfulness  re¬ 
+minded  the  Moscow  population  of  the  great  funeral 
+of  Lenin.  Before  his  death  the  Patriarch  signed  a 
+document,  analogous  to  the  letter  of  1923,  in  which 
+he  bequeathed  to  his  successors  loyalty  to  the  Soviet 
+power,  and  once  again  condemned  the  Karlovtzi 
+bishops.  The  authenticity  of  this  “  testament  ”  was 
+questioned,  but  without  adequate  grounds.  The 
+Metropolitan  Peter,  one  of  the  three  candidates 
+named  by  the  Patriarch  for  the  post  of  locum  tenens , 
+certifies  to  its  authenticity.  The  election  of  a  new 
+Patriarch  was  impossible  for  the  reason  that  the 
+
+7+ 
+
+
+THE  “RENOVATION”  SCHISM 
+
+authorities  would  not  grant  the  old  Church  permis¬ 
+sion  to  hold  a  Sobor.  The  administration  of  the 
+Church  came  into  the  hands  of  a  “guardian  of  the 
+Patriarchal  throne.”  The  Metropolitan  Peter,  who 
+declined  the  Renovated  proposal  of  peace,  was  soon 
+arrested,  and  authority  actually  passed  into  the  hands 
+of  the  Metropolitan  Sergius  of  Nijni-Novgorod. 
+
+In  the  beginning  of  1926  this  bishop  had  made 
+efforts  to  conduct  the  election  of  a  Patriarch  by  means 
+of  a  circular  memorandum  vote  of  the  bishops,  and 
+this  was  made  the  occasion  for  the  new  devastation  of 
+the  Orthodox  hierarchy  in  1926.  Not  only  Sergius, 
+but  a  whole  series  of  “  successors  ”  were  arrested, 
+one  after  the  other.  Yet  the  name  of  the  locum 
+tettens  Peter  continued  to  be  used  in  the  ritual,  and 
+the  memory  of  the  Patriarch  Tikhon  was  stronger 
+than  any  hierarchical  force  in  holding  the  Church 
+together. 
+
+The  evolution  of  the  Renovated  movement  during 
+the  last  few  years  is  extraordinarily  characteristic.  It 
+has  endeavoured  more  and  more  with  each  year  to 
+smooth  over  the  traces  of  its  revolutionary  origin. 
+Already  in  the  autumn  of  1 923  it  announced  the  disr 
+charge  of  those  of  its  groups  whose  names  had  become 
+hateful  to  the  people.  Since  Krasnitzky  and  Bishop 
+Antonin  declined  to  submit  to  this  decision,  the 
+Living  Church  and  The  Union  of  Regeneration 
+drag  along  their  existence  as  little  sects,  each  defying 
+the  other.  The  Renovated  desire  no  other  title  than 
+Orthodox.  At  the  1923  Sobor,  the  Metropolitan 
+Alexander  Vvedensky,  who  continues  the  leader  of 
+the  movement,  announced:  “Renovation  is  Ortho¬ 
+doxy,  and  the  Renovated  are  Orthodox.”  Since  their 
+
+75 
+
+
+THE  RUSSIAN  CHURCH  SINCE  THE  REVOLUTION 
+
+Church  is  now  headed  not  by  the  Higher  Church 
+Administration  but  by  a  Synod  (here  also  a  return  to 
+tradition),  it  became  proper  to  call  it  the  “  Synodical 
+Church.”  In  order  to  present  greater  semblance  of 
+canonicity,  the  Synod  elected  as  its  chairman  the 
+Bishop  Eudokim,  whose  consecration  in  the  episco¬ 
+pacy  dated  from  long  before  the  schism. 
+
+At  the  *925  Sobor  the  extremes  of  the  first  years 
+of  the  movement  were  condemned.  It  was  resolved 
+to  avoid  appointing  married  bishops.  They  had  long 
+ago  given  up  the  new  calendar,  also  under  the 
+pressure  of  the  conservative  masses.  The  Patriarch 
+Basil  III.,  of  Constantinople,  sent  a  complimentary 
+epistle  to  the  Sobor  of  1925,  and  it  seems  that  certain 
+other  Eastern  Patriarchs  have  also  formally  or  in¬ 
+formally  recognized  the  Synodical  Church.  In 
+general  the  Orthodox  East,  deceived  by  the  name 
+“synodical,”  tends  to  see  in  it  a  direct  continuance  of 
+the  old  Synodical  Church.  From  the  canonical  point 
+of  .view  this  is  entirely  wrong.  The  old  Russian 
+Church  inheritance  lives  in  the  Patriarchal  Church. 
+But  if  one  speaks  of  the  spirit  of  the  old  Synodical 
+Church,  of  bureaucratic  subjection  to  the  State,  then 
+one  may  say  that  in  the  present  Synodical  Church 
+there  truly  lives  the  synodical  spirit,  not  “  renovated  ” 
+by  the  revolution.  Politics,  together  with  hatred  for 
+the  memory  of  the  Patriarch,  alone  distinguish  the 
+Synodical  Church  from  the  Patriarchal.  The  speech 
+of  the  Metropolitan  Vvedensky  in  opening  the  Sobor 
+of  1925  was  an  out  and  out  political  denunciation.1 
+
+1  Cf.  Viestnik  Sviatieshevo  Synoda  Rossieskoy  Pravoslavnoy 
+Tserkvi  (Organ  of  the  Renovated  Synodical  Church),  No.  i-z, 
+1916.  Moscow. 
+
+
+76 
+
+
+THB  “RENOVATION”  SCHISM 
+
+Realizing  the  failure  of  the  movement,  the 
+Renovated  several  times  endeavoured  to  make  peace 
+with  the  Tikhon  Church  on  the  basis  of  recognition 
+of  its  hierarchy.  Small  groups  of  Tikhon  priests  and 
+even  bishops  (winter  of  1925-1926)  were  prepared  to 
+enter  upon  such  an  agreement.  But  they  stumbled 
+on  the  protesting  conscience  of  the  Church  people, 
+who  could  not  forgive  the  Renovated  the  blood  which 
+they  had  shed  or  the  betrayal  of  their  brother  priests 
+to  the  anti-Christian  Government.  Arrests  of  bishops 
+and  priests  of  the  Patriarchal  Church,  exile  to  Siberia, 
+to  Solovki,  etc.,  were  almost  an  everyday  occurrence. 
+A  letter  from  Russia  printed  in  the  Russian  emigrant 
+Press  in  July,  1927,  gives  the  names  and  cathedra 
+of  1 17  bishops  who  were  in  exile  on  January  1,  1927. 
+The  letter  adds  that  this  list  is  not  complete;  regard¬ 
+ing  40  exiled  bishops  definite  information  is  lacking.1 
+And  on  every  occasion,  as  is  not  denied  by  the 
+G.P.U.,  the  grounds  for  condemnation  lay  in  de¬ 
+nunciation  by  some  one  of  the  Renovated  priests. 
+
+The  Synodicals  themselves  were  not  subject  to  re¬ 
+pression.  Notwithstanding  the  contempt  with  which 
+the  Communists  look  upon  them,  the  Government 
+organs  have  had  two  distinct  attitudes  towards  the 
+Church  groups.  Only  the  Synodicals  have  been  per¬ 
+mitted  to  issue  an  official  organ,  to  publish  brochures 
+(polemical);  certain  of  their  leaders  have  been  able 
+even  to  hold  public  lectures.  It  would  appear  that, 
+among  the  Orthodox,  the  Metropolitan  Vvedensky 
+enjoys  a  monopoly  of  public  religious  addresses  in 
+Russia.  He  travels  throughout  the  whole  of  Russia 
+with  lectures  on  various  religious  subjects,  even 
+
+1  Poslitdnia  Novosti.  Pari*  Russian  daily.  July  11,  19*7, 
+
+77 
+
+
+THE  RUSSIA,*  CHURCH  SINCE  THE  REVOLUTION 
+
+appearing  in  debates  against  the  Communists.  By 
+way  of  privilege,  he  is  permitted  publicly  to  defend 
+Christianity.  One  of  his  debates  with  Lunacharsky 
+created  a  strong  impression  on  Father  d’Herbigny, 
+who  notes  this  in  the  report  of  his  visit  to  Russia. 
+The  reverend  author  was  unable,  unfortunately,  to 
+secure  any  interviews  with  representatives  of  the 
+Patriarchal  Church  (meetings  with  foreigners  sub¬ 
+jected  them  to  dangers).  Consequently  he  condemned 
+the  old  Church  and  received  an  entirely  erroneous 
+impression  regarding  the  essentials  of  disagreement 
+(the  question  of  priests  shaving  their  beards,  and  the 
+struggle  for  the  calendar  seems  to  occupy  his  principal 
+,  attention).1 
+
+A  brief  summary  may  be  in  order.  We  do  not 
+deny  the  existence  of  disinterested  reformatory  en¬ 
+deavours  on  the  part  of  certain  leaders  of  the  schism, 
+nor  that  this  tendency  follows  the  line  of  the  old 
+liberal  movement  in  the  Russian  Church.  But  these 
+ideological  tendencies  from  the  very  beginning  were 
+ruined  by  the  crimes  of  political  intriguers  and  later 
+submerged  in  the  shadow  of  old  regime  opportunism. 
+The  miserable  failure  of  the  reformation  has  com¬ 
+promised  for  the  future  the  healthy  ideological  con¬ 
+tents  of  this  movement. 
+
+A  few  words  in  regard  to  the  Church  in  the 
+Ukraine.  Here  the  Church  schism  was  complicated 
+by  the  development  of  a  third,  so-called  Autocephalic 
+Ukrainian  Church.  Its  tendency  is  definitely 
+
+1  D’Herbigny,  “  L’ Aspect  Religieux  de  Moscou  en  Octobre, 
+1925.”  Cf.  also  the  objective  chronicle,  published  in  the  several 
+numben  of  the  Irenikon,  Catholic  monthly.  Amay-sur- Meuse, 
+Belgium. 
+
+
+78 
+
+
+THE  “RENOVATION”  SCHISM 
+
+nationalistic.  It  takes  its  source  from  unwillingness 
+to  submit  to  the  Moscow  Patriarch.  Not  finding  in 
+the  Ukraine  a  single  bishop  ready  to  become  head  of 
+their  Autocephalic  Church,  the  priests-nationalists  got 
+along  without  bishops.  Eventually  they  consecrated 
+bishops  for  themselves  by  a  ceremony  unheard  of  in 
+Orthodoxy,  and  broke  off  the  Apostolic  succession  of 
+the  hierarchy.  Hence  comes  their  popular  denomina¬ 
+tion  as  “  self-consecrated.”  They  conduct  services  in 
+the  Ukrainian  tongue  and  have  followers  not  so  much 
+in  the  villages  as  in  the  cities,  among  the  nationalistic 
+intelligentzia.  In  the  Ukraine,  therefore,  we  find 
+three  Church  organizations  struggling  between  them¬ 
+selves,  and  each  calling  itself  Orthodox.  Recently  the 
+self-consecrated  were  persecuted  by  the  authorities, 
+who  suspect  the  political-separatist  tendency  of  their 
+movement.  It  would  appear  that  the  persecution  has 
+considerably  weakened  their  Church.  Only  the 
+Synodical  Church  receives  the  comparative  protection 
+of  the  authorities  in  the  Ukraine. 
+
+
+79 
+
+
+CHAPTER  V 
+
+THE  INNER  LIFE  OF  THE  ORTHODOX  CHURCH 
+
+
+In  conclusion  we  should  like  to  lift  the  curtain  hiding 
+the  inner  spiritual  life  of  the  persecuted  but  un¬ 
+crushed  Russian  Church.  All  observers  are  in  agree¬ 
+ment  that  Russia,  in  spite  of  the  apparent  victory  of 
+Communism,  is  passing  through  a  religious  regenera¬ 
+tion.  But  foreign  observers  are  condemned  to  see 
+only  the  externals,  whereas  the  real  Christian  Russia 
+is  doomed  to  silence.  We  take  the  liberty,  therefore, 
+
+
+of  concluding  our  review  of  the  Church  since  the 
+revolution  with  a  rather  long  quotation  from  a  letter 
+from  Russia  printed  in  the  Paris  religious  journal 
+Pout.1 
+
+
+Now,  as  formerly,  the  Church  is  the  national 
+sanctuary.  Nowhere  but  in  the  Church  does  one  find 
+the  breaking  down  of  class  barriers,  the  liberating  joy 
+of  unity,  of  communion  between  many  people  other¬ 
+wise  held  far  apart  from  each  other.  But  the  wor¬ 
+shippers  are  not  the  same  as  ten  years  ago.  Ordinary, 
+simple  folk  no  longer  fill  the  churches.  Rather  one 
+sees  a  majority  of  the  intellectuals,  particularly  in  the 
+cities.  These  are  of  very  different  types  and  have 
+been  brought  to  the  Church  in  many  different  ways. 
+Some  find  in  her  arms  consolation  for  their  bereave- 
+
+1  Pout,  Russian  Religious-Philosophical  Quarterly,  No.  2, 
+pp.  3-12,  “A  Letter  from  Russi*.”  Parii. 
+
+80 
+
+
+THIS  INNER  LIFE  OF  THE  ORTHODOX  CHURCH 
+
+ment,  some  a  shelter  for  their  wounded  love  of 
+country.  Others,  the  young  and  hopeful,  are  not 
+driven  to  her  by  sorrow  and  suffering,  but  are 
+attracted  by  love  and  hope  and  by  the  youthful  en¬ 
+thusiasm  that  the  Church  awakens  in  them.  Many  of 
+our  clergymen  and  bishops  now  come  from  the  ranks 
+of  the  laymen.  It  would  be  an  exaggeration  to  say 
+that  the  intellectuals  outnumber  the  others,  but  they 
+are  a  very  considerable  fraction  of  our  congregations. 
+Many  workmen  attend  the  suburban  churches,  as  do 
+many  tradesmen.  The  latter  have  somewhat  resumed 
+their  place  in  society,  with  the  economic  regeneration 
+of  the  country,  and,  more  than  any  other  class,  retain 
+both  the  outward  appearance  and  the  conservative 
+traditions  of  the  old  Russia. 
+
+And  what  of  their  numbers  ?  They  are  very  large, 
+but  it  is  difficult  to  say  whether  they  form  a  minority 
+or  a  majority  of  the  nation.  We  have  nb  accurate 
+statistics,  and  can  judge  only  by"  the  size  of  our  con¬ 
+gregations..  Our  churches  are  filled,  but  not  to  over¬ 
+flowing.  When  we  consider  that  the  edifices  turned 
+over  to  the  Living  Church  are  practically  empty,  it 
+would  appear  that  the  total  attendance  is  smaller  than 
+before  the  revolution.  Neither  is  it  increasing  rapidly. 
+The  terrible  years  of  1 91 7-1 920  were  a  period  of 
+religious  revival.  Since  then  conversions  have  been 
+less  frequent.  That  part  of  the  intelligentzia  which 
+stood  aloof  from  the  Church  is  not  caught  up  in  the 
+present  stream  of  return  to  it,  it  is  deeply  rooted  in 
+the  old  trenches  of  positivism  or  absorbed  in  the 
+search  for  material  well-being.  Among  the  city  poor, 
+the  Baptists  and  different  sects  of  “Brethren”  find 
+many  new  adherents.  The  simplicity  of  their  moral 
+
+8l  F 
+
+
+THE  RUSSIAN  CHURCH  SINCE  THE  REVOLUTION 
+
+
+preaching  and  the  strictness  of  their  personal  lives 
+attract  many.  Among  the  cultured,  the  old  infatua¬ 
+tion  for  Tolstoi,  theosophy,  and  even  for  Roman 
+Catholicism  has  vanished.  The  Orthodox  Church  has 
+rallied  to  itself  practically  all  the  truly  religious- 
+minded  among  our  intellectuals.  One  consolation  is 
+that  we  have  no  more  “  dead  leaves,”  in  the  phrase  of 
+Tiutcheff.  None  among  us  attends  in  order  “  to  do 
+the  proper  thing,”  or  “to  stand  well  in  the  com¬ 
+munity.”  On  the  contrary,  some  are  prevented  from 
+attending  because  they  hold  official  positions.  Those 
+who  come  pray  here  as  perhaps  they  never  before 
+prayed. 
+
+In  the  villages  we  witness  a  different  picture — 
+although  our  knowledge  of  conditions  there  is  far  less 
+general.  We  can  judge  only  from  what  we  see  in 
+villages  near  a  railway,  and  consequently  more  or  less 
+influenced  by  city  manners.  Unquestionably  Russia 
+still  has  a  great  number  of  secluded  corners  where 
+conditions  remain  as  they  have  been  for  centuries, 
+almost  untouched  by  the  revolution.  But  can  there 
+be  many  such  corners,  after  the  tremendous  upheaval 
+which  rocked  the  very  foundations  of  the  nation  ? 
+
+The  first  thing  we  notice  in  the  villages  is  that  the 
+churches  are  nearly  empty.  As  a  rule,  only  women 
+and  old  men  attend  service.  The  youth  have  imbibed 
+the  teaching  of  atheism.  The  middle-aged  who  have 
+come  back  from  the  war,  after  travelling  far  and  wide 
+over  the  world,  have  brought  with  them  a  large  dose 
+of  scepticism,  or  at  least  religious  indifference.  Only 
+now  is  the  village  living  through  a  period  of  en¬ 
+lightenment,  two  hundred  years  behind  the  rest  of 
+Europe,  but  without  special  enthusiasm  at  that.  The 
+
+8i 
+
+
+THB  RUSSIAN  CHURCH.  SINCE  THE  REVOLUTION 
+
+
+the  influence  of  laymen  in  the  Church.  The  Bolshevist 
+law  separating  Church  and  State  turned  the  churches 
+over  to  parisn  committees  of  twenty  elected  repre¬ 
+sentatives.  They  keep  the  church  building  in  repair, 
+call  and  dismiss  pastors,  and  exercise  the  fullest  rights 
+of  congregational  autonomy.  Rarely  does  a  bishop 
+venture  to  interfere  in  a  parish  election.  Consequently 
+the  priest’s  hold  on  his  parish  is  entirely  dependent 
+on  his  moral  and  religious  authority.  Even  matters  of 
+church  policies  and  ritual  are  often  taken  out  of  his 
+hands  by  the  laymen.  The  parish  committee  deter¬ 
+mines  whether  the  building  is  to  belong  to  the  Living 
+or  to  the  Patriarchal  Church,  whether  the  general 
+policy  is  to  be  “extreme”  or  “moderate.”  As  a  rule,  the 
+laymen  are  conservative.  A  priest  passing  over  to  the 
+Living  Church  is  nearly  always  obliged  to  manoeuvre 
+so  as  to  abolish  the  old  committee  and  secure  the 
+election  of  a  new  one;  but  this  usually  results  in  an 
+empty  church  and  the  break-up  of  the  parish.  Fre¬ 
+quently  the  main  support  of  the  priest  in  the  parish 
+lies  in  the  “  brotherhoods,”  which  exist  both  for  men 
+and  women.  They  have  a  double  purpose.  They  take 
+care  of  the  church  building,  they  hold  frequent  (occa¬ 
+sionally  all  night)  prayer  services,  they  have  frequent 
+corporate  Communion;  all  this  makes  the  brother¬ 
+hood  into  a  religious  commune,  sometimes  living  a 
+very  intense  religious  life.  But  it  would  be  impossible 
+not  to  mention  here  the  darker  sides  of  the  brother¬ 
+hoods,  the  dominating  influence  of  the  individual  in 
+the  person  of  the  priest,  and  of  the  occasional  un¬ 
+healthy  exaltation  of  these  organizations,  which  con¬ 
+sist  principally  of  women.  During  the  period  of  the 
+schism  many  of  these  organizations  blindly  followed 
+
+84 
+
+
+THE  INNER  LIFE  OF  THE  ORTHODOX  CHURCH 
+
+
+sound  common  sense  of  our  peasants  makes  them 
+incurably  suspicious  of  all  kinds  of  theories,  which 
+have  so  much  attraction  for  our  city  labourers. 
+Nevertheless,  this  propaganda  undermines  the  old 
+faith.  So  the  peasant  is  preoccupied  just  now  with 
+what  he  considers  practical  things.  He  has  become 
+intensely  interested  in  the  cultivation  of  the  soil.  He 
+has  lost  the  feeling  of  mystery  that  formerly  sur¬ 
+rounded  his  conceptions  of  agriculture.  But  he  has  a 
+conservative  instinct  that  makes  him  want  to  keep  the 
+Church  as  a  ritualistic  institution.  Girls  rarely  consent 
+to  marry  without  a  religious  ceremony,  and  even 
+the  Communists  are  obliged  to  yield  to  this  “  super¬ 
+stition.”  Children  are  still  baptized;  the  burial  service 
+is  read;  the  traditional  Church  holidays  are  ob¬ 
+served.  There  is  a  peculiar  renaissance  of  ethno¬ 
+graphic  ceremonies,  practically  pagan,  and  recently 
+even  of  real  paganism  in  the  North  of  Russia,  result- 
+:ng  in  a  dual  faith.  But  alongside  you  find  new  ideas 
+which  are  penetrating  into  the  villages  by  means  of 
+Communist  newspapers,  the  cottage  library,  dramatic 
+presentations,  and  the  revolutionary  songs  of  the 
+youth. 
+
+As  a  rule,  the  village  clergy  have  not  passed 
+through  the  purifying  fire  of  persecution.  They  re¬ 
+main  timid  and  oppressed,  not  much  above  their 
+fellow  villagers  in  culture  and  education.  Materially 
+they  have  lost  some  of  their  revenues,  but  the  village 
+still  gives  them  enough  to  live  upon — in  any  case 
+more  than  the  school-teachers.  When  at  a  certain 
+period  the  schools  were  made  dependent  upon  local 
+support  one  after  the  other  was  closed.  The  Sobor  of 
+1917-1918  had  a  noticeable  effect  in  strengthening 
+
+
+THE  INNER  LIFE  OF  THE  ORTHODOX  CHURCH 
+
+
+their  priests  into  the  Living  Church  Movement,  and 
+these  circumstances  seem  to  have  cooled  the  en¬ 
+thusiasm  for  brotherhoods. 
+
+During  the  period  of  the  imprisonment  of  the 
+Patriarch,  the  exiling  of  bishops,  and  the  apparent 
+triumph  of  the  Living  Church,  together  with  the 
+defection  and  equivocation  of  many  of  the  pastors, 
+the  hierarchical  basis  of  the  Church  was  badly 
+shaken.  Each  Church  lived  its  own  life,  not  de¬ 
+pending  upon  the  authority  of  the  central  Church 
+administration,  frequently  even  developing  a  lack 
+of  faith  in  it.  The  faithful  gathered  around  the 
+few  priests  who  remained  firm,  and  occasionally  even, 
+figuratively,  descended  into  “catacombs”  or  gave 
+special  attention  to  the  voice  of  the  “startzy.”  One 
+can  still  note  the  traces  of  this  peculiarity  of  parish 
+life.  The  boundaries  of  episcopal  authority  remain 
+undefined.  A  bishop  who  has  shown  himself  to  be  a 
+true  confessor,  who  is  a  hierarch  of  strong  will  and 
+severe  life,  may  firmly  rule  the  Church  and  depend 
+upon  obedience.  But  as  a  general  rule  the  authority 
+of  the  episcopacy  is  now  weakened  at  the  expense  of 
+the  growing  influence  of  the  lower  clergy  and  laymen. 
+This  does  not  contradict  the  increased  longing  for 
+authority  and  a  canonical  basis  for  the  life  of  the 
+Church.  However,  spiritual  authority  frequently 
+outweighs  canonical  authority.  In  this  matter  also  the 
+present  moment  is  one  of  change.  It  is  necessary  to 
+review  and  to  make  over  many  things.  For  instance, 
+many  of  the  darker  aspects  of  parish  democracy  have 
+come  to  light.  There  are  well-founded  charges  that 
+the  exceptional  influence  of  laymen  in  the  parish  at 
+times  interferes  with  the  independence  of  the  priest. 
+
+
+THE  RUSSIAN  CHURCH  SINCE  THE  REVOLUTION 
+
+In  church  committees  the  voice  of  the  more  well-to- 
+do  part  of  the  community  has  greater  weight. 
+Attracted  by  the  beauty  of  the  ritual  and  by  financial 
+success,  it  is  sometimes  inclined  not  to  value  moral 
+purity  or  the  spiritual  zeal  of  the  pastor. 
+
+The  years  of  persecution  were,  for  the  Church,  a 
+period  of  weakening  of  its  outward  unity  and 
+solidarity.  There  were  actually  moments  when  it  was 
+without  the  administration  and  without  a  head  except 
+the  Holy  Spirit  living  in  it.  Perhaps  herein  is  to  be 
+found  the  great  miracle  of  its  redemption  and  its  in¬ 
+destructible  inner  solidarity.  One  should  not  over¬ 
+estimate  the  importance  of  various  acts  proceeding 
+from  even  very  highly  placed  hierarchical  authority. 
+Such  acts  were  accepted  or  declined,  according  to 
+the  degree  to  which  they  satisfied  the  hidden 
+mysterious  consciousness  of  the  Church.  The  Patri¬ 
+arch  was  the  living  heart  of  Russia,  in  him  was  con¬ 
+centrated  the  love  and  prayers  of  the  whole  Church; 
+as  a  result,  there  moved  in  the  Church  an  invisible, 
+blessed  power.  But  it  is  not  possible  to  measure  this 
+power  by  the  administrative  actions  of  the  Patriarch. 
+In  the  absence  of  freedom  of  speech  and  the  difficul¬ 
+ties  attending  personal  conversations,  these  actions 
+were  variously  construed,  troubling  some  and  con¬ 
+tradicted  by  others.  But  never  did  they  lead  to  a 
+crisis,  and  never  did  they  shake  the  reverence  for  him 
+who  was  looked  upon  as  the  vicarious  sufferer  for  the 
+whole  of  the  Russian  Church.  The  Patriarch  was  the 
+praying  protector  and  the  voluntary  sacrifice  for 
+the  whole  of  Russia,  rather  than  its  leader  and 
+'  administrator,  and  the  way  chosen  by  him,  in  spite  of 
+all  uncertainties  and  recognized  mistakes,  was  the 
+
+86 
+
+
+THE  INNER  LIFE  OF  THE  ORTHODOX  CHURCH 
+
+way  of  salvation.  In  this  it  is  impossible  not  to  see 
+the  special  outpouring  of  Grace,  which  has  not  de¬ 
+parted  from  Russia. 
+
+What  have  been  the  spiritual  fruits  plainly  pro¬ 
+duced  within  the  Russian  Church  ?  I  shall  begin  with 
+the  most  evident,  visible  to  all  observers.  We  have 
+witnessed  a  remarkable  adornment  of  Divine  service. 
+It  now  possesses  a  severe  beauty  that  could  not 
+formerly  be  found.  Never  before  has  it  been  per¬ 
+formed  in  so  solemn  and  spiritual  a  manner.  And 
+although  the  secret  of  this  new  revelation  of  spiritual 
+beauty  lies  principally  in  the  deep  faith  of  the  serving 
+priest,  yet  the  new  spirit  has  taken  hold  of  all  those 
+worshipping  in  the  churches,  giving  clarity  and  a  rich¬ 
+ness  of  impression  to  each  word  of  the  reader,  every 
+exclamation  of  the  deacon.  In  nearly  all,  even  in  the 
+smallest  /churches,  there  are  beautiful  choirs.  The 
+faithful  are  loath  to  quit  the  temple.  They  love  the 
+long  services,  sometimes  lasting  on  festival  days  for 
+five  hours. 
+
+The  reformation  of  the  ritual  proclaimed  by  the 
+Living  Church  followed  the  line  of  returning  to  old 
+forms  of  worship,  reviving  forgotten  ritualistic  tradi¬ 
+tions.  In  the  attempt  to  enrich  the  ritual,  the  North 
+borrowed  somewhat  from  the  Orthodox  Ukraine. 
+Such,  for  instance,  was  the  acceptance  of  the  Lenten 
+“  Passion  ”  and  the  service  of  burial  of  the  Virgin  at 
+the  all-night  vigil  service  before  Assumption.  In  a 
+few  cases,  though  this  is  with  great  circumspection, 
+new  prayers  have  been  introduced  into  the  ritual. 
+
+But  it  is  clear  to  all  that  the  living  meaning  of 
+the  ritual  is  revealed  in  the  eucharistic  service,  in  the 
+inner  attitude  of  the  faithful  toward  it,  For  many  it 
+
+8? 
+
+
+THE  RUSSIAN  CHURCH  SINCE  THE  REVOLUTION 
+
+has  again  become  a  true  mystery.  The  Cup  is  seldom 
+presented  in  vain;  many  take  Communion  and  all 
+share  in  their  joy.  They  speak  of  a  “Eucharistic 
+Movement  ”  in  the  Russian  Church,  which  may  be 
+considered  as  the  fruit  of  the  work  of  Father  John 
+of  Kronstadt,  though  there  is  yet  no  uniformity  in 
+practice.  This  is  a  question  of  greatest  importance, 
+and  it  is  decided  by  each  pastor  and  by  each  layman 
+in  his  own  way.  Some  urge  frequent  participation  in 
+the  Communion,  but  require  worthy  preparation; 
+others  demand  Communion  at  each  service  of  the 
+Liturgy.  There  are  some  believers,  though  not  many, 
+of  course,  who  take  Communion  every  day,  others 
+every  week,  but  principally  Communion  is  taken  at 
+the  great  feasts.  The  exceedingly  difficult  question 
+of  confession  which  is  connected  with  this  movement 
+is  also  variously  solved.  Some  practice  corporate  con¬ 
+fession;  others,  though  very  few,  separating  the  one 
+sacrament  from  the  other,  permit  participation  in  the 
+Eucharist  without  confession.  The  majority  retain 
+confession,  obligatory  and  secret.  Thus  we  see  that 
+even  in  this  central  question  of  Church  life  there 
+appears  considerable  freedom  and  the  absence  of 
+external  regulation. 
+
+From  the  Church,  from  the  ritual,  there  proceed 
+various  spiritual  streanls  which  feed  the  customary 
+and  family  life,  but  these  personal  and  family  fruits 
+of  the  Church  are  not  easily  measured.  Among  some 
+you  will  see  the  revival  of  Orthodox  customs,  else¬ 
+where  you  will  see  rooms  made  into  oratories  and 
+apartments  into  monasteries.  In  the  noise  of  the  great 
+cities,  along  with  monstrous  “godless”  demonstra¬ 
+tions,  there  is  blazing  the  fire  of  ascetic  and  spiritual 
+
+
+THE  INKER  LIFE  OF  THE  ORTHODOX  CHURCH 
+
+
+life.  Private  prayer,  sometimes  prayer  meetings,  com¬ 
+plement  worship  in  the  church. 
+
+As  is  well  known,  national  shrines  and  monasteries 
+throughout  the  whole  of  Russia  have  been  desecrated 
+and  destroyed.  But  it  is  probably  not  known  to  all 
+that  this  destruction  was  not  complete.  As  heretofore, 
+in  the  summer  time,  pilgrims  go  on  foot  to  the  shrine 
+of  St/  Seraphim,1  and  to  Kiev  for  Assumption.  Some¬ 
+times  there  appear  new  centres  of  pilgrimage,  as  in 
+Podolia,'  where  a  vision  of  the  Crucifixion  served  as 
+the  occasion  for  a  great  movement  of  pilgrims.  The 
+need  for  miracles,  the  thirst  for  visions  of  heavenly 
+mysteries,  is  still  strong  in  all  ranks  of  Church  people, 
+though  it  was  especially  marked  during  the  years  of 
+persecution  and  famine.  At  that  time  one  frequently 
+heard  of  visions,  prophecies,  or  miraculous  signs. 
+It  was  during  this  period  that  there  occurred  in 
+Southern  Russia  the  renovating  of  ikons  and  cupolas, 
+and  the  appearance  in  the  village  of  Kolomensk,  near 
+Moscow,  of  the  Ikon  of  the  Sovereign  Virgin,  sym¬ 
+bolically  receiving  the  crown  of  the  last  Russian  Tsar. 
+
+The  monastic  idea,  which  a  short  time  ago  seemed 
+to  belong  to  the  past  ages,  is  again  growing  popular. 
+Not  all  monasteries  have  been  closed.  Here  and  there 
+they  still  exist  under  the  name  of  “  labouring  com¬ 
+munities,”  some  even  in  the  capital  itself.  Others 
+have  been  converted  into  institutions  where  aged 
+cripples  and  invalids  are  allowed  to  pass  the  remainder 
+of  their  lives  as  custodians  and  keepers  of  sacred 
+objects  and  relics  that  have  been  declared  to  be  objects 
+of  art  worthy  of  preservation  by  the  existing  Govern- 
+
+*  In  April,  19*7,  the  monastery  at  Sarow  was  dosed,  and  the 
+relies  of  St.  Seraphim  removed  to  an  unknown  destination. 
+
+89 
+
+
+THE  RUSSIAN  CHURCH  SINCE  THE  REVOLUTION 
+
+
+ment.  In  some  places  young  novices  are  accepted  into 
+monastic  life  with  the  customary  ceremony,  but  taking 
+no  other  vows  than  to  be  prepared  to  suffer  and  to 
+be  crucified  for  the  world.  These  monasteries  attract 
+many,  but  monastic  life  is  to-day  possible  for  only  a 
+few.  So  the  ascetio  ideal  seeks  a  new  outlet,  which  is 
+found  by  uniting  in  lay  communities  while  still  living 
+the  life  of  the  world.  These  groups  keep  in  close 
+touch  with  the  Church,  but  are  not  in  the  same  degree 
+under  the  guidance  of  the  clergy. 
+
+Even  “  startchestvo  Ml  has  passed  beyond  the  con¬ 
+fines  of  monastic  walls.  Sometimes  a  parish  priest 
+famous  for  his  ascetic  life  and  deep  spiritual  insight 
+becomes  known  as  a  “staretz.”  Not  infrequently  he 
+is  a  priest  deprived  of  his  parish  by  the  Soviet  authori¬ 
+ties.  Such  men  wield  great  influence  over  large 
+numbers  of  people.  These  non-monastic  startzy 
+occupy  somewhat  the  place  of  father-confessors  to 
+their  followers.  Their  influence,  which  is  more  wide¬ 
+spread  than  formerly,  must  be  regarded  as  a  new 
+feature  of  Russian  life. 
+
+The  influence  of  father-confessors  is  not  limited  to 
+the  sacrament  of  confession,  but  occasionally,  direct¬ 
+ing  the  whole  of  life  in  all  its  daily  difficulties  and 
+trials,  the  father-confessor  becomes  the  director  of 
+conscience. 
+
+The  ascetic  and  mystical  strain  is  particularly 
+noticeable  in  modern  religious  tendencies.  It  is 
+evident,  for  instance,  in  the  attraction  which  laymen 
+
+1  Startchestvo :  the  institution  or  custom  of  turning  for 
+spiritual  guidance  to  aged  and  particularly  venerated  monks, 
+popularly  known  as  “  startzy,”  famous  for  saintliness  and  spiritual 
+gifts, 
+
+
+THE  INNER  LIFE  OF  THE  ORTHODOX  CHURCH 
+
+find  in  the  ascetic  literature  of  the  early  Church. 
+However,  this  tendency  is  not  the  only,  perhaps  not 
+the  dominating  one,  for  along  with  it  there  is  active, 
+practical  Christianity,  finding  various  forms.  Occa¬ 
+sionally  it  bears  the  character  of  Orthodox  “  evange¬ 
+lism,”  giving  primacy  to  active  love.  Under  present 
+conditions  such  evangelic  love  is  closely  related  to  the 
+regeneration  of  the  apostolic  ideal — preaching  the 
+Gospel.  You  meet  many  people,  touchingly  selfless, 
+who  give  themselves  entirely  over  to  the  task  of 
+saving  their  brothers,  sowing  the  Word  of  Life,  and 
+laying  up  nothing  for  the  morrow. 
+
+And,  finally,  among  the  Christian  intelligentzia, 
+there  is  particularly  strong  the  demand  for  the  incarna¬ 
+tion  of  Christianity  in  practice,  not  in  personal  life 
+so  much  as  in  general  cultural  work.  There  arise 
+questions,  certainly  not  new,  concerned  with  the 
+Christianizing  of  culture,  with  the  possibility  or 
+practicability  of  this  endeavour,  regarding  the  future 
+of  the  Church  and  the  fate  of  theocracy.  Here  we 
+find  the  continual  development  of  subjects  presented 
+by  Vladimir  Solovieff,  and  growing  out  of  his  theo¬ 
+logical  school.  Various  answers  are,  of  course,  given, 
+just  as  the  attitudes  towards  these  questions  are 
+various — from  the  apocalyptic  view,  expecting  a 
+cataclysmic  end  of  the  world  and  paradoxically  reject¬ 
+ing  all  problems  of  culture,  up  to  the  optimistic 
+acceptance  of  the  new  life  (in  Russia,  that  created  by 
+the  revolution)  as  the  foundation  on  which  to  build 
+a  new  Christian  society. 
+
+If,  on  the  one  hand,  there  is  a  lively  interest  in 
+
+?[uestions  of  social  and  national  life,  on  the  other, 
+or  the  mystically  inclined  intelligentzia  the  more 
+
+9i 
+
+
+THE  RUSSIAN  CHURCH  SINCE  THE  REVOLUTION 
+
+characteristic  questions  are  those  of  dogmatic  theology 
+(for  example,  the  dogma  of  redemption),  problems 
+connected  with  “  imyaslavchestvo,”1  which  though 
+not  disturbing  the  Church,  and  not  affecting  the 
+masses,  has  yet  attracted  many  followers  in  theo¬ 
+logically  authoritative  circles.  But  interests  are  inter¬ 
+woven.  Even  the  mystics  are  necessarily  obliged  to 
+determine  for  themselves — even  though  negatively — 
+their  attitude  towards  culture,  and  among  the  socially 
+active  there  is  a  great  attraction  in  ascetic  problems. 
+
+Christian  thought  suffers  more  than  Christian  life 
+from  severe  oppression.  The  Word  is  in  fetters, 
+intercourse  between  individuals  very  limited.  We 
+know  that  many  write  without  any  hope  that  they 
+will  see  their  books  published.  This  gives  an  exclu¬ 
+sive  importance  to  oral  teaching.  The  pulpit,  also 
+bound  by  official  fetters,  cannot  satisfy  the  great 
+thirst,  though  it  has  given  birth  to  many  remarkable 
+preachers.  Among  them  we  witness  the  tendencies  of 
+which  we  have  already  spoken  as  existing  in  the  whole 
+Church — ethical  questions  and  questions  regarding 
+apologetics  are  the  prevalent  ones.  The  vacancy  that 
+cannot  be  filled  by  public  speech  is  often  satisfied  by 
+private  intercourse.  At  the  present  moment  it  has 
+reached  in  Russia  a  very  high  degree  of  intensity.  It 
+often  manifests  itself  in  corporate  prayers;  the  absence 
+of  scientific  organization  is  supplemented  by  the  in¬ 
+tensity  of  religious  fervour.  In  such  an  atmosphere 
+even  abstract  differences  of  opinion  and  theoretical 
+disputes — very  hot  sometimes— do  not  generally  pro- 
+
+1  That  is,  mystical  realism,  renewing  the  theological  move¬ 
+ment  (St.  Gregory  Palama)  of  the  fourteenth  century  in  the 
+Byzantine  Church,  in  which  the  name  of  God  was  worshipped. 
+
+9*  \ 
+
+
+THE  INNER  LIFE  OF  THE  ORTHODOX  CHURCH 
+
+
+duce  any  ill-feeling,  any  inner  separation;  do  not 
+stand  in  the  way  of  a  brotherly  communion  between 
+people  of  very  different  points  of  view.  Life  in  the 
+midst  of  a  Church  that  is  persecuted,  life  in  the  midst 
+of  Christ’s  enemies,  face  to  face  with  schism,  constant 
+communion  in  the  same  divine  service  and  in  the 
+sacraments — all  this  produces  a  feeling  of  greht  unity 
+even  among  those  following  different  tendencies  and 
+
+possessing  different  religious  opinions. 
+
+1 
+
+With  this  voice  from  Russia  we  conclude  our 
+scattered  notes'.  The  time  for  objective  history  has 
+not  yet  come.  The  most  important  material  is  still 
+kept  in  archives.  No  one  of  our  contemporaries  has 
+yet  shared  his  personal  recollections.  Herein  lies  the 
+excuse  for  the  numerous  gaps  and  inaccuracies  of  the 
+present  work,  which  can  only  pretend  to  serve  as  an 
+outline  for  future  investigations. 
+
+
+95 
+
+
+APPENDIX 
+
+
+These  pages  had  already  been  written  when,  in  the 
+summer  of  1927,  there  took  place  events  which  may 
+mark  the  beginning  of  a  new  era  in  the  life  of  the 
+Church  in  Russia.  The  Metropolitan  Sergius,  tempo¬ 
+rary  locum  tenens,  being  released  from  prison  on 
+July  29,  addressed  an  encyclical  to  the  Church,  from 
+which  it  is  evident  that,  as  a  result  of  his  negotiations 
+with  the  Soviet  Government,  the  latter  has  agreed  to 
+register  a  new  “Tikhon”  Synod  attached  to  the 
+locum  tenens ,  thereby  giving  recognition  to  a  central 
+organization  for  the  Tikhon  Church.  Furthermore, 
+it  became  known  that  the  Metropolitan  Sergius  is 
+endeavouring  to  secure  legalization  for  the  diocesan 
+administrations,  the  Church  schools,  a  Church  Press, 
+and  permission  to  proceed  with  the  election  of  a  new 
+Patriarch  at  an  All-Russian  Sobor.  In  a  word,  some 
+sort  of  a  concordat  seems  to  be  in  formation  between 
+the  Church  and  the  Soviet  Government. 
+
+The  Metropolitan  Sergius  in  the  above-mentioned 
+encyclical,  which  is  countersigned  by  seven  bishops, 
+members  of  the  new  Patriarchal  (Tikhon)  Synod,  calls 
+upon  the  faithful,  especially  the  clergy,  to  show 
+loyalty  in  their  attitude  towards  the  U.S.S.R.  and  its 
+Government,  and  condemns  the  terroristic  acts  of 
+counter-revolutionaries.  Referring  particularly  to  the 
+representatives  of  the  Church  in  emigration,  the. 
+Metropolitan  Sergius  proposes  that  they  certify  to 
+
+9+ 
+
+
+APPENDIX 
+
+
+their  political  loyalty  (to  the  Soviet  Government)  or 
+drop  their  adherence  to  the  Moscow  Patriarchate. 
+
+•  Certain  expressions  in  this  epistle  have  created  con¬ 
+fusion  and  provided  occasion  for  saying,  especially 
+abroad,  that  the  Tikhon  Church  has  broken  up,  in  the 
+sense  of  capitulation  before  the  Bolsheviks.  At  pre¬ 
+sent  it  is  impossible  to  estimate  the  significance  and 
+the  consequences  of  this  important  action.  But  from 
+what  we  already  know,  it  is  clear  that  to  speak  of 
+capitulation  is  not  in  order.  The  Metropolitan 
+Sergius  more  than  a  year  ago  conducted  negotiations 
+with  the  authorities  regarding  the  legalization  of  the 
+Church,  following  out  the  testament  of  the  deceased 
+Patriarch.  In  the  course  of  these  negotiations  he  pre¬ 
+sented  the  authorities  with  various  projected  declara¬ 
+tions,  of  which  the  best  known  was  the  so-called 
+“Appeal  of  the  Orthodox  bishops  from  the  Solo- 
+vetzk  Islands  to  the  Government  of  the  U.S.S.R.” 
+In  this  appeal,  in  the  name  of  the  exiles,  the  un¬ 
+deserved  persecution  of  the  Church  was  denounced 
+and  the  nature  of  its  present  position  was  painted  in 
+clear  outline :  complete  loyalty  in  political  and  social 
+questions,  and  an  uncompromising  attitude  towards 
+the  materialistic  spirit  of  Communism.  It  is  beyond 
+question  that  this  declaration  best  of  all  expresses  the 
+real  attitude  of  the  Russian  Church  towards  the 
+Government.  The  unduly  sharp  political  expressions 
+in  the  final  redaction  of  the  encyclical  of  the  Metro¬ 
+politan  Sergius  evidently  represent  insertions  similar 
+to  the  same  kind  of  expressions  found  in  the  last 
+proclamation  of  the  Patriarch  Tikhon. 
+
+The  Russian  Church  is  making  great  sacrifices  in 
+questions  of  personal  and  political  dignity,  but  this 
+
+95 
+
+
+THB  RUSSIAN  CHURCH  SINCE  THE  REVOLUTION 
+
+does  not  make  it  the  servant  of  the  authorities.  A 
+
+¥eat  gulf  separates  the  “loyalty”  of  the  Patriarch 
+ikhon  and  the  Metropolitan  Sergius  from  the 
+servility  of  the  Renovated. 
+
+It  isf  another  question  as  to  how  far  this  step,  taken 
+by  the  Metropolitan  Sergius,  will  be  crowned  with 
+success — i.e.,  is  the  Government  willing  to  cease  the 
+regime  of  persecution  and  to  give  the  Church  a  peaoe- 
+ful  existence?  The  future  will  show  this.  But  even 
+in  case  of  failure  attending  the  step  taken  by  the 
+Metropolitan  Sergius,  it  will  retain  its  significance, 
+one  of  the  stages  on  the  way  to  a  concordat  between 
+the  Church  and  the  State. 
+
+Naturally  the  Russian  emigration  was  unable  to 
+present  a  united  answer  to  the  appeal  for  “  loyalty  ” 
+proceeding  from  the  Metropolitan  Sergius.  It  divided 
+on  this  question.  The  Metropolitan  Eulogius  (Paris), 
+appointed  by  the  Patriarch  Tikhon  as  the  head  of  the 
+Churches  in  Western  Europe,  gave  for  himself,  as 
+well  as  in  the  name  of  his  clergy,  the  signature  de¬ 
+manded  regarding  loyalty,  in  the  sense  of  not  par¬ 
+ticipating  in  political  affairs.  The  Balkan  bishops, 
+grouping  themselves  around  the  Metropolitan 
+Anthony  and  the  so-called  Karlovtzy  Synod  (Jugo¬ 
+slavia)  with  equal  decisiveness  cut  themselves  off 
+from  Metropolitan  Sergius.  Incidentally,  this  only 
+widened  the  schism  in  the  emigration  which  for  a 
+long  time  has  separated  the  Metropolitan  Eulogius 
+and  the  Metropolitan  Anthony  on  this  very  funda¬ 
+mental  question :  the  non-participation  in  politics  on 
+the  part  of  the  Church,  and  the  recognition  of  inner 
+unity  between  the  Church  in  the  emigration  and  the 
+Church  in  Russia. 
+
+

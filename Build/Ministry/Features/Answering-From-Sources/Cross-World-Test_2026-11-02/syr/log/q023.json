@@ -1,0 +1,181 @@
+{
+ "draft": "Belonging was weighed before baptism, in a warning given to each candidate [[syr.quote.warned-before-baptism]] [[as:paraphrase]].\n\nAphrahat wrote in Demonstration VII: [[quote:syr.quote.warned-before-baptism]]\n\nOur teachers called baptism a second birth, in which the believer receives the Holy Spirit [[syr.dw.born-again-endtimes]] [[as:paraphrase]].\n\nFor us, new birth was a public event in the church, celebrated in hymn, and not a private moment of conversion [[syr.dw.born-again-endtimes]] [[as:paraphrase]].\n\nEdessa, where the community took shape, had a truly mixed religious life, with pagans, a large Jewish community, and followers of Marcion and Bardaisan [[syr.force.frontier-plural-milieu]] [[as:paraphrase]].\n\nNo single orthodox identity had formed there yet [[syr.force.frontier-plural-milieu]] [[as:paraphrase]].\n",
+ "ending": "rewritten",
+ "final": "In today's English, Aphrahat says: “For this reason it is right for the preachers of the Church, who sound the trumpet, to warn everyone in God's covenant before baptism. They are also to warn those who choose for themselves virginity and holiness: the young men, the virgins, and those wishing to become holy. The preachers are to warn them and say this. If your heart is set on marriage, then marry before your baptism. Otherwise you may fall in the fight and be killed. And if you are afraid of this part of the fight, turn back now, so that you do not break your brothers' hearts along with your own. And if you love your possessions, turn back from the army too. Otherwise, when the battle goes against you, you may remember your possessions and turn back to them. For there is disgrace for the one who turns back from the fight.” Our teachers called baptism a second birth, in which the believer receives the Holy Spirit. For us, new birth was a public event in the church, celebrated in hymn, and not a private moment of conversion. Edessa, where the community took shape, had a truly mixed religious life, with pagans, a large Jewish community, and followers of Marcion and Bardaisan. No single orthodox identity had formed yet in Edessa.",
+ "group": "A",
+ "offered": [
+  "syr.dw.unsettled",
+  "syr.term.ewangeliyon-da-mhallete",
+  "syr.story.choirs-tradition",
+  "syr.story.edessa-flood-201",
+  "syr.story.ephrem-famine-death",
+  "syr.quote.a-man-called-wise-amongst-the-jews",
+  "syr.force.authority-ambiguity-condition",
+  "syr.dw.born-again-endtimes",
+  "syr.quote.death-knew-his-kingdom-was-to-be-made-void",
+  "syr.quote.warned-before-baptism",
+  "syr.force.frontier-plural-milieu"
+ ],
+ "placements": [
+  {
+   "decision": "keep",
+   "judgement": {
+    "fit": "fits",
+    "limit_stated": false,
+    "reason": "It names marriage and possessions as what candidates were warned they might have to give up."
+   },
+   "record_id": "syr.quote.warned-before-baptism"
+  }
+ ],
+ "question": "What, if anything, did people give up to belong to your community?",
+ "question_id": "q023",
+ "read": {
+  "dropped": [],
+  "status": "rewrite",
+  "unsupported": {
+   "0": {
+    "problem": "widened_scope",
+    "reason": "The quote is Aphrahat's exhortation that preachers should warn, not a report that each candidate was warned, and the record bars describing how every baptism was done.",
+    "supported": false
+   }
+  }
+ },
+ "rewrite": [
+  {
+   "decision": "keep",
+   "label": null,
+   "n": 1,
+   "placed": true,
+   "placed_id": "syr.quote.warned-before-baptism",
+   "question_id": "q023",
+   "reason": "placed by code",
+   "records": [
+    "syr.quote.warned-before-baptism"
+   ],
+   "sentence": "In today's English, Aphrahat says: “For this reason it is right for the preachers of the Church, who sound the trumpet, to warn everyone in God's covenant before baptism. They are also to warn those who choose for themselves virginity and holiness: the young men, the virgins, and those wishing to become holy. The preachers are to warn them and say this. If your heart is set on marriage, then marry before your baptism. Otherwise you may fall in the fight and be killed. And if you are afraid of this part of the fight, turn back now, so that you do not break your brothers' hearts along with your own. And if you love your possessions, turn back from the army too. Otherwise, when the battle goes against you, you may remember your possessions and turn back to them. For there is disgrace for the one who turns back from the fight.”",
+   "tags": [
+    "syr.quote.warned-before-baptism"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "syr.dw.born-again-endtimes"
+   ],
+   "sentence": "Our teachers called baptism a second birth, in which the believer receives the Holy Spirit.",
+   "tags": [
+    "syr.dw.born-again-endtimes"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "syr.dw.born-again-endtimes"
+   ],
+   "sentence": "For us, new birth was a public event in the church, celebrated in hymn, and not a private moment of conversion.",
+   "tags": [
+    "syr.dw.born-again-endtimes"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "syr.force.frontier-plural-milieu"
+   ],
+   "sentence": "Edessa, where the community took shape, had a truly mixed religious life, with pagans, a large Jewish community, and followers of Marcion and Bardaisan.",
+   "tags": [
+    "syr.force.frontier-plural-milieu"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "syr.force.frontier-plural-milieu"
+   ],
+   "sentence": "No single orthodox identity had formed yet in Edessa.",
+   "tags": [
+    "syr.force.frontier-plural-milieu"
+   ]
+  }
+ ],
+ "sentences": [
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 0,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Belonging was weighed before baptism, in a warning given to each candidate.",
+   "tags": [
+    "syr.quote.warned-before-baptism"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": null,
+   "n": 1,
+   "placed": true,
+   "placed_id": "syr.quote.warned-before-baptism",
+   "reason": "placed by code",
+   "sentence": "In today's English, Aphrahat says: “For this reason it is right for the preachers of the Church, who sound the trumpet, to warn everyone in God's covenant before baptism. They are also to warn those who choose for themselves virginity and holiness: the young men, the virgins, and those wishing to become holy. The preachers are to warn them and say this. If your heart is set on marriage, then marry before your baptism. Otherwise you may fall in the fight and be killed. And if you are afraid of this part of the fight, turn back now, so that you do not break your brothers' hearts along with your own. And if you love your possessions, turn back from the army too. Otherwise, when the battle goes against you, you may remember your possessions and turn back to them. For there is disgrace for the one who turns back from the fight.”",
+   "tags": [
+    "syr.quote.warned-before-baptism"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 2,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Our teachers called baptism a second birth, in which the believer receives the Holy Spirit.",
+   "tags": [
+    "syr.dw.born-again-endtimes"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 3,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "For us, new birth was a public event in the church, celebrated in hymn, and not a private moment of conversion.",
+   "tags": [
+    "syr.dw.born-again-endtimes"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 4,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Edessa, where the community took shape, had a truly mixed religious life, with pagans, a large Jewish community, and followers of Marcion and Bardaisan.",
+   "tags": [
+    "syr.force.frontier-plural-milieu"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 5,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "No single orthodox identity had formed there yet.",
+   "tags": [
+    "syr.force.frontier-plural-milieu"
+   ]
+  }
+ ],
+ "shipped_by_net": "Belonging was weighed before baptism, in a warning given to each candidate.\n\nIn today's English, Aphrahat says: “For this reason it is right for the preachers of the Church, who sound the trumpet, to warn everyone in God's covenant before baptism. They are also to warn those who choose for themselves virginity and holiness: the young men, the virgins, and those wishing to become holy. The preachers are to warn them and say this. If your heart is set on marriage, then marry before your baptism. Otherwise you may fall in the fight and be killed. And if you are afraid of this part of the fight, turn back now, so that you do not break your brothers' hearts along with your own. And if you love your possessions, turn back from the army too. Otherwise, when the battle goes against you, you may remember your possessions and turn back to them. For there is disgrace for the one who turns back from the fight.”\n\nOur teachers called baptism a second birth, in which the believer receives the Holy Spirit.\n\nFor us, new birth was a public event in the church, celebrated in hymn, and not a private moment of conversion.\n\nEdessa, where the community took shape, had a truly mixed religious life, with pagans, a large Jewish community, and followers of Marcion and Bardaisan.\n\nNo single orthodox identity had formed there yet.",
+ "sub_question": "C12.S6"
+}

@@ -1,0 +1,269 @@
+{
+ "draft": "To us Jesus is the Only-Begotten of God, the Ihidaya, our own name for him [[syr.dw.jesus]] [[syr.term.ihidaya]] [[as:paraphrase]]. The Only-Begotten left his place with God and made his home in the Virgin [[syr.dw.jesus]] [[as:paraphrase]]. By being born as we are born, the Only-Begotten became the brother of many [[syr.dw.jesus]] [[as:paraphrase]]. In him the words of the prophets, kings, and priests came true [[syr.dw.jesus]] [[as:paraphrase]].\n\nWe hold that his death and rising were one rescue [[syr.dw.jesus]] [[as:paraphrase]]. He went down into Sheol, the world of the dead that swallows everyone alike, and came out into the Kingdom [[syr.dw.jesus]] [[as:paraphrase]]. His own resurrection is the promise that he will bring us out after him [[syr.dw.jesus]] [[as:paraphrase]]. To those who followed him, he is the Physician, and his coming is medicine for a wounded people [[syr.dw.jesus]] [[as:paraphrase]].\n\nThe word Ihidaya also names our vowed celibate, so the one who lives single shares a name with Christ [[syr.term.ihidaya]] [[as:paraphrase]]. Ephrem sang in his first Nativity hymn: [[quote:syr.quote.nativity-this-is-the-day]]\n",
+ "ending": "rewritten",
+ "final": "To us Jesus is the Only-Begotten of God, the Ihidaya, our own name for him. The Only-Begotten left his place with God and made his home in the Virgin. By being born as we are born, the Only-Begotten became the brother of many. In Jesus the words of the prophets, kings, and priests came true. We hold that the death and rising of Jesus were one rescue. Jesus went down into Sheol, the world of the dead that swallows everyone alike, and came out into the Kingdom. The resurrection of Jesus is the promise that Jesus will bring us out after himself. To those who followed Jesus, Jesus is the Physician, and his coming is medicine for a wounded people. The word Ihidaya also names our vowed celibate, so the one who lives single shares a name with Christ.",
+ "group": "A",
+ "offered": [
+  "syr.dw.jesus",
+  "syr.term.ihidaya",
+  "syr.story.abgar-addai-legend",
+  "syr.quote.nativity-this-is-the-day",
+  "syr.quote.aphrahat-stone-foundation",
+  "syr.contested.edessa-origins",
+  "syr.limit.f5-enslaved",
+  "syr.limit.f5-women-own-words",
+  "syr.dw.corpus-and-its-edges",
+  "syr.quote.ephrem-keeper-of-strangers",
+  "syr.quote.palladius-hospitaller",
+  "syr.dw.was-jesus-god",
+  "syr.quote.aphrahat-sure-thing"
+ ],
+ "placements": [
+  {
+   "decision": "drop",
+   "judgement": {
+    "fit": "partly",
+    "limit_stated": false,
+    "reason": "It bears on Jesus's birth and the fulfilment of prophecy, only part of who Jesus was for the community."
+   },
+   "record_id": "syr.quote.nativity-this-is-the-day"
+  }
+ ],
+ "question": "In your own words, describe who Jesus was for your community.",
+ "question_id": "q002",
+ "read": {
+  "dropped": [
+   "syr.quote.nativity-this-is-the-day"
+  ],
+  "status": "rewrite",
+  "unsupported": {}
+ },
+ "rewrite": [
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "syr.dw.jesus",
+    "syr.term.ihidaya"
+   ],
+   "sentence": "To us Jesus is the Only-Begotten of God, the Ihidaya, our own name for him.",
+   "tags": [
+    "syr.dw.jesus",
+    "syr.term.ihidaya"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "syr.dw.jesus"
+   ],
+   "sentence": "The Only-Begotten left his place with God and made his home in the Virgin.",
+   "tags": [
+    "syr.dw.jesus"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "syr.dw.jesus"
+   ],
+   "sentence": "By being born as we are born, the Only-Begotten became the brother of many.",
+   "tags": [
+    "syr.dw.jesus"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "syr.dw.jesus"
+   ],
+   "sentence": "In Jesus the words of the prophets, kings, and priests came true.",
+   "tags": [
+    "syr.dw.jesus"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "syr.dw.jesus"
+   ],
+   "sentence": "We hold that the death and rising of Jesus were one rescue.",
+   "tags": [
+    "syr.dw.jesus"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "syr.dw.jesus"
+   ],
+   "sentence": "Jesus went down into Sheol, the world of the dead that swallows everyone alike, and came out into the Kingdom.",
+   "tags": [
+    "syr.dw.jesus"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "syr.dw.jesus"
+   ],
+   "sentence": "The resurrection of Jesus is the promise that Jesus will bring us out after himself.",
+   "tags": [
+    "syr.dw.jesus"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "syr.dw.jesus"
+   ],
+   "sentence": "To those who followed Jesus, Jesus is the Physician, and his coming is medicine for a wounded people.",
+   "tags": [
+    "syr.dw.jesus"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "syr.term.ihidaya"
+   ],
+   "sentence": "The word Ihidaya also names our vowed celibate, so the one who lives single shares a name with Christ.",
+   "tags": [
+    "syr.term.ihidaya"
+   ]
+  }
+ ],
+ "sentences": [
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 0,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "To us Jesus is the Only-Begotten of God, the Ihidaya, our own name for him.",
+   "tags": [
+    "syr.dw.jesus",
+    "syr.term.ihidaya"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 1,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "The Only-Begotten left his place with God and made his home in the Virgin.",
+   "tags": [
+    "syr.dw.jesus"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 2,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "By being born as we are born, the Only-Begotten became the brother of many.",
+   "tags": [
+    "syr.dw.jesus"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 3,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "In him the words of the prophets, kings, and priests came true.",
+   "tags": [
+    "syr.dw.jesus"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 4,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "We hold that his death and rising were one rescue.",
+   "tags": [
+    "syr.dw.jesus"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 5,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "He went down into Sheol, the world of the dead that swallows everyone alike, and came out into the Kingdom.",
+   "tags": [
+    "syr.dw.jesus"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 6,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "His own resurrection is the promise that he will bring us out after him.",
+   "tags": [
+    "syr.dw.jesus"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 7,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "To those who followed him, he is the Physician, and his coming is medicine for a wounded people.",
+   "tags": [
+    "syr.dw.jesus"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 8,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "The word Ihidaya also names our vowed celibate, so the one who lives single shares a name with Christ.",
+   "tags": [
+    "syr.term.ihidaya"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": null,
+   "n": 9,
+   "placed": true,
+   "placed_id": "syr.quote.nativity-this-is-the-day",
+   "reason": "placed by code",
+   "sentence": "Ephrem sang in his first Nativity hymn: “This is the day that made the Prophets, the Kings, and the Priests glad. On this day their words came true - all of them. For on this day the Virgin gave birth to Immanuel in Bethlehem.”",
+   "tags": [
+    "syr.quote.nativity-this-is-the-day"
+   ]
+  }
+ ],
+ "shipped_by_net": "To us Jesus is the Only-Begotten of God, the Ihidaya, our own name for him. The Only-Begotten left his place with God and made his home in the Virgin. By being born as we are born, the Only-Begotten became the brother of many. In him the words of the prophets, kings, and priests came true.\n\nWe hold that his death and rising were one rescue. He went down into Sheol, the world of the dead that swallows everyone alike, and came out into the Kingdom. His own resurrection is the promise that he will bring us out after him. To those who followed him, he is the Physician, and his coming is medicine for a wounded people.\n\nThe word Ihidaya also names our vowed celibate, so the one who lives single shares a name with Christ. Ephrem sang in his first Nativity hymn: “This is the day that made the Prophets, the Kings, and the Priests glad. On this day their words came true - all of them. For on this day the Virgin gave birth to Immanuel in Bethlehem.”",
+ "sub_question": "C1.S1"
+}

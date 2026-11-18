@@ -13,6 +13,11 @@ assignments:
       - the-reformed-cities-zurich-and-geneva
     role: tradition
     confidence: assigned
+    locus_ids: [whole-file]
+    language: eng
+    date: {checked: title page and front matter of this volume; no composition date is stated, formation_confidence: unknown}
+    translator: {formation_confidence: Documented, name: Rev. John King, source: 'calvin_commentaries-genesis-vol2_king1847.txt line 271: BY THE REV. JOHN KING, M.A'}
+    edition_date: {formation_confidence: Documented, source: 'calvin_commentaries-genesis-vol2_king1847.txt line 297: M.DCCC.L.', year: 1850}
     note: >
       Completes the two-volume Genesis commentary begun in
       calvin_commentaries-genesis-vol1_king1847.txt, same edition and

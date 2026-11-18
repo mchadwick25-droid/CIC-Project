@@ -1,0 +1,120 @@
+{
+  "name": "Jacob of Edessa",
+  "otherNames": [
+    "Jacques d'Édesse",
+    "Jacobus Edessenus",
+    "Jacob the Rhetor",
+    "the Interpreter of the Books"
+  ],
+  "knownFor": "Bishop of Edessa and scholar of the Syriac Orthodox church. He taught Greek, corrected the Old Testament in Syriac, and revised the Syriac of Severus of Antioch's sermons. He also wrote a chronicle carrying on the tables of Eusebius of Caesarea.",
+  "dates": "Bishop of Edessa under the patriarch Athanasius of Balad; Bar Hebraeus's editors place him about 685. Wrote his chronicle in the year 1003 of Alexander, Elias of Nisibis says, which E. W. Brooks gives as 692; J.-B. Chabot reaches 692 from the reigns it names. Revised Severus's sermons in 700 or 701, by a scribe's note. Died on 5 June, in 708 by Bar Hebraeus's year as his editors reckon it. Other witnesses give other years",
+  "place": "Born at 'Ayndaba, a village of the land of Gumah, in the country of Antioch. A monk of the monastery of Aphthonia, which Bar Hebraeus calls Kenneshre, and a student at Alexandria. Bishop of Edessa. Later at Kaisum, at the monastery of Eusebona, and at Tell 'Ada, where he died",
+  "tradition": "Syriac Orthodox Christianity under Islam",
+  "role": "Bishop of Edessa; monk, teacher of Greek, reviser of Scripture and of translations, chronicler",
+  "briefLength": "about 2 minutes 30 seconds",
+  "keyWorks": [
+    {
+      "title": "Chronicle",
+      "about": "a canon of years carrying the tables of Eusebius of Caesarea forward from the twentieth year of Constantine. Michael the Syrian keeps its preface and took his own tables from it. J.-B. Chabot reports that Michael would not accept Jacob's three-year correction to Eusebius. Its preface and fragments of the canon survive in a British Museum manuscript, which E. W. Brooks translated into Latin. The fragments reach only the year 631. The manuscript names the author Jacob Philoponus, whom Brooks takes to be Jacob of Edessa"
+    },
+    {
+      "title": "Correction of the Old Testament in Syriac",
+      "about": "made at the monastery of Tell 'Ada over nine years, Michael and Bar Hebraeus say. Bar Hebraeus's editors note that parts of it survive in manuscripts of the British Museum"
+    },
+    {
+      "title": "Revised Syriac version of Severus of Antioch's cathedral sermons",
+      "about": "made in 700 or 701, by the note of a Vatican manuscript that M.-A. Kugener and his student Triffaux cite. They print his version of sermon 77, with his note on the Greek and Syriac names of the days"
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "Elias of Nisibis gives Jacob's Canon of Years and his Chronography as sources for many of his own years. He also writes that Jacob showed Eusebius wrong in many places.",
+      "Joseph Assemani reports that Elias of Nisibis called Jacob the first to write a grammar in Syriac. Bar Hebraeus, Assemani adds, praises him in the preface to his own grammar in verse.",
+      "Elias of Nisibis lists a calendar of George, Jacob's disciple, among the reckonings in his book.",
+      "Assemani names Moses bar Kepha, Dionysius bar Salibi, Bar Hebraeus and the Maronite patriarch Stephen among the writers who praise him.",
+      "Bar Hebraeus's Nomocanon, his book of church law, quotes Jacob's canons under his name. One lets priests sell the flour left from the offering to fellow priests."
+    ],
+    "remembered": [
+      "Michael the Syrian writes that many miracles happen at his tomb.",
+      "Michael also tells how Jacob revised the Syriac Bible. He pretended to become a Jew, Michael says, so that the Jews would not hide the truth from him.",
+      "Assemani says the Syrians honor him as a saint, and that the Maronites, enemies of the Jacobites, celebrate him under that title."
+    ]
+  },
+  "uncertain": [
+    "The year of his death. Bar Hebraeus gives the year 1019 of the Greeks, which his editors make 708, and the fifth of June. Michael's manuscript has 1015 in his Life of Jacob and 1019 later, as J.-B. Chabot notes. Assemani gives 1021, or 710, citing a chronicle he credits to Dionysius of Tel Mahre. Elias of Nisibis records Jacob's death beside that of the patriarch Julian the Roman, though his line is broken. He sets it in the year of the Hijra that began in 1019 of the Greeks.",
+    "A note copied into Michael's chronicle observes that Jacob's tables run to the year 1021, though his death is set at 1019. Its writer supposes either that a disciple added two years, or that the year of death is wrong. E. W. Brooks gives this note to Michael. He adds that if Elias's year 692 is right, someone carried the work on for eighteen years.",
+    "When he became bishop. Michael and Bar Hebraeus say Athanasius of Balad made him bishop. Assemani gives the year 651, from the chronicle he credits to Dionysius.",
+    "His faith. In 1719 Assemani argued at length that Jacob was a Catholic writer, against Renaudot, who called him a Monophysite heretic. Bar Hebraeus's editors, J.-B. Abbeloos and T. J. Lamy, say that Bar Hebraeus and Jacob's own writings show he held to the Monophysite party. They add that Assemani later took back his view, with some hesitation.",
+    "His teaching years. Michael and Bar Hebraeus say he taught at Eusebona for eleven years. M.-A. Kugener and F. Cumont, in a book of 1912, say twelve, and place his Greek studies at Kenneshre.",
+    "The grammar. The claim that he wrote the first Syriac grammar comes here only through Assemani's report of Elias of Nisibis. The grammar itself is not among the sources used here."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "Preface to his Chronicle, in Michael the Syrian's Chronicle, book VII (tr. J.-B. Chabot)",
+        "author": "Jacob of Edessa",
+        "language": "French translation",
+        "file": "cic/texts/michael-the-syrian_chronique-tome1-livres-i-vii-fra_chabot1899.txt"
+      },
+      {
+        "title": "Chronicle: preface and fragments of the canon, in Chronica minora (tr. E. W. Brooks)",
+        "author": "Jacob of Edessa",
+        "language": "Latin translation",
+        "file": "cic/texts/chronica-minora-pars-prior-versio-lat_guidi1903.txt"
+      },
+      {
+        "title": "Severus of Antioch, cathedral sermon 77, in Jacob's Syriac version, with his note on the days of the week, in Patrologia Orientalis 16 (ed. M.-A. Kugener and Edg. Triffaux)",
+        "author": "Jacob of Edessa (reviser)",
+        "language": "Syriac, with French translation",
+        "file": "cic/texts/patrologia-orientalis-tomus16_synaxaire-arabe-jacobite-barmahat-bachons-synaxaire-armenien-tre-fra_graffin-nau1922.txt"
+      }
+    ],
+    "about": [
+      {
+        "title": "Chronicle, book XI, chapters XVI and XVII, on Jacob of Edessa, with the translator's notes (tr. J.-B. Chabot)",
+        "author": "Michael the Syrian",
+        "date": "1901",
+        "language": "French translation",
+        "file": "cic/texts/michael-the-syrian_chronique-tome2-livres-viii-xi-fra_chabot1901.txt"
+      },
+      {
+        "title": "Chronicle, prologue and book VII, with the translator's notes (tr. J.-B. Chabot)",
+        "author": "Michael the Syrian",
+        "date": "1899",
+        "language": "French translation",
+        "file": "cic/texts/michael-the-syrian_chronique-tome1-livres-i-vii-fra_chabot1899.txt"
+      },
+      {
+        "title": "Ecclesiastical Chronicle, volume 1, on Jacob of Edessa, with the editors' notes (ed. and tr. J.-B. Abbeloos and T. J. Lamy)",
+        "author": "Bar Hebraeus",
+        "language": "Latin translation",
+        "file": "cic/texts/barhebraeus_chronicon-ecclesiasticum-vol1-lat_abbeloos-lamy1872.txt"
+      },
+      {
+        "title": "Bibliotheca Orientalis, volume 1, chapter XL, Jacobus Edessenus",
+        "author": "Joseph Assemani",
+        "date": "1719",
+        "language": "Latin",
+        "file": "cic/texts/assemani_bibliotheca-orientalis-tomus1-de-scriptoribus-syris-orthodoxis-lat_1719.txt"
+      },
+      {
+        "title": "Opus chronologicum (tr. E. W. Brooks and J.-B. Chabot)",
+        "author": "Elias of Nisibis",
+        "language": "Latin translation",
+        "file": "cic/texts/elias-of-nisibis_opus-chronologicum-lat_brooks-chabot-csco1910.txt"
+      },
+      {
+        "title": "Introduction to Severus of Antioch's sermon 77, in Patrologia Orientalis 16",
+        "author": "M.-A. Kugener and Edg. Triffaux",
+        "language": "French",
+        "file": "cic/texts/patrologia-orientalis-tomus16_synaxaire-arabe-jacobite-barmahat-bachons-synaxaire-armenien-tre-fra_graffin-nau1922.txt"
+      },
+      {
+        "title": "Nomocanon of the Syrian church of Antioch (tr. Angelo Mai), in Scriptorum veterum nova collectio, volume 10",
+        "author": "Bar Hebraeus",
+        "language": "Latin translation",
+        "file": "cic/texts/mai_scriptorum-veterum-nova-collectio-tomus10-ebedjesu-synodus-timothei-lat_mai1838.txt"
+      }
+    ]
+  }
+}

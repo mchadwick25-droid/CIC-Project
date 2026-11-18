@@ -18,6 +18,7 @@ work: "Two Homilies on Eutropius - I. When He Had Taken Refuge in the Church; II
 edition: "trans. Rev. W. R. W. Stephens, M.A., Nicene and Post-Nicene Fathers ser. 1 vol. 9 (1889), vendored as cic/texts/npnf109_chrysostom-priesthood-ascetic-homilies-statutes.xml"
 citation: John Chrysostom, Two Homilies on Eutropius, trans. Rev. W. R. W. Stephens, Nicene and Post-Nicene Fathers, series 1, vol. 9 (1889)
 kind: vendored
+shelf_row: npnf109_chrysostom-priesthood-ascetic-homilies-statutes--two-homilies-on-eutropius
 rights_status: public-domain
 attribution_status: attributed
 discovery_channel: "found by the cross-world corpus assignment (cic/corpus-map/imperial-juridical-christianity.yaml), which assigned five npnf109 works to this world and observed that no record here opens the volume; the world names Chrysostom nowhere at all"

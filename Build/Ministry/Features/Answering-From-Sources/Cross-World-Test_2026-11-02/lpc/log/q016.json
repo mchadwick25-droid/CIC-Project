@@ -1,0 +1,153 @@
+{
+ "draft": "We do not know what comes after our years, and what we speak is our own life up to the siege of Hippo in 430 [[lpc.core.latin-pastoral-congregational-christianity]] [[as:paraphrase]]. We say nothing of any church that comes after us, and we judge no dispute that arises after our years [[lpc.core.latin-pastoral-congregational-christianity]] [[as:paraphrase]].\n\nWhat we held, we can tell you plainly. A bishop is given a people in one place, and he answers for them [[lpc.term.the-flock]] [[as:paraphrase]]. As we understand ourselves, a particular people placed in a particular man's care is the first thing that holds us together [[lpc.witness.answerability-as-ground]] [[as:paraphrase]].\n\nAugustine's church described itself as the same catholic communion that Cyprian had led [[lpc.core.latin-pastoral-congregational-christianity]] [[as:paraphrase]]. Our two bishops answered the question of a baptism given outside the church in opposite ways, a century and a half apart [[lpc.term.heresy]] [[as:paraphrase]]. Augustine judged the earlier answer wrong, but never put Cyprian outside our communion [[lpc.witness.answerability-as-ground]] [[as:paraphrase]].\n\nPreaching was the bishop's regular talk to the whole gathered church, the baptized and those still learning [[lpc.term.preaching]] [[as:paraphrase]]. Augustine traced our bishops' office back by naming the line of Rome's bishops from Peter to the man sitting then [[lpc.witness.apostolic-succession-of-bishops]] [[as:paraphrase]].\n",
+ "ending": "clean",
+ "final": "We do not know what comes after our years, and what we speak is our own life up to the siege of Hippo in 430. We say nothing of any church that comes after us, and we judge no dispute that arises after our years.\n\n A bishop is given a people in one place, and he answers for them. As we understand ourselves, a particular people placed in a particular man's care is the first thing that holds us together.\n\nAugustine's church described itself as the same catholic communion that Cyprian had led. Our two bishops answered the question of a baptism given outside the church in opposite ways, a century and a half apart. Augustine judged the earlier answer wrong, but never put Cyprian outside our communion.\n\nPreaching was the bishop's regular talk to the whole gathered church, the baptized and those still learning. Augustine traced our bishops' office back by naming the line of Rome's bishops from Peter to the man sitting then.",
+ "group": "A",
+ "offered": [
+  "lpc.limit.apostolic-origin-undefended",
+  "lpc.witness.apostolic-succession-of-bishops",
+  "lpc.term.heresy",
+  "lpc.term.the-flock",
+  "lpc.term.preaching",
+  "lpc.story.the-psalms-on-the-wall",
+  "lpc.story.celerinus-writes-to-lucian",
+  "lpc.quote.one-good-shepherd-not-many",
+  "lpc.force.confessors-claim-to-grant-peace",
+  "lpc.witness.answerability-as-ground",
+  "lpc.quote.let-it-be-the-office-of-love-to-feed-the-flock",
+  "lpc.quote.ancient-venom-against-my-episcopate",
+  "lpc.quote.judge-not-nor-despair-of-a-return",
+  "lpc.quote.the-sermon-and-the-readings-are-daily-bread"
+ ],
+ "placements": [],
+ "question": "Does any present-day church continue your community's exact tradition?",
+ "question_id": "q016",
+ "read": {
+  "dropped": [],
+  "status": "clean",
+  "unsupported": {}
+ },
+ "rewrite": null,
+ "sentences": [
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 0,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "We do not know what comes after our years, and what we speak is our own life up to the siege of Hippo in 430.",
+   "tags": [
+    "lpc.core.latin-pastoral-congregational-christianity"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 1,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "We say nothing of any church that comes after us, and we judge no dispute that arises after our years.",
+   "tags": [
+    "lpc.core.latin-pastoral-congregational-christianity"
+   ]
+  },
+  {
+   "decision": "withhold_unbound",
+   "label": null,
+   "n": 2,
+   "placed": false,
+   "placed_id": null,
+   "reason": "no valid binding",
+   "sentence": "What we held, we can tell you plainly.",
+   "tags": []
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 3,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "A bishop is given a people in one place, and he answers for them.",
+   "tags": [
+    "lpc.term.the-flock"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 4,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "As we understand ourselves, a particular people placed in a particular man's care is the first thing that holds us together.",
+   "tags": [
+    "lpc.witness.answerability-as-ground"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 5,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Augustine's church described itself as the same catholic communion that Cyprian had led.",
+   "tags": [
+    "lpc.core.latin-pastoral-congregational-christianity"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 6,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Our two bishops answered the question of a baptism given outside the church in opposite ways, a century and a half apart.",
+   "tags": [
+    "lpc.term.heresy"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 7,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Augustine judged the earlier answer wrong, but never put Cyprian outside our communion.",
+   "tags": [
+    "lpc.witness.answerability-as-ground"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 8,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Preaching was the bishop's regular talk to the whole gathered church, the baptized and those still learning.",
+   "tags": [
+    "lpc.term.preaching"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 9,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Augustine traced our bishops' office back by naming the line of Rome's bishops from Peter to the man sitting then.",
+   "tags": [
+    "lpc.witness.apostolic-succession-of-bishops"
+   ]
+  }
+ ],
+ "shipped_by_net": "We do not know what comes after our years, and what we speak is our own life up to the siege of Hippo in 430. We say nothing of any church that comes after us, and we judge no dispute that arises after our years.\n\nWhat we held, we can tell you plainly. A bishop is given a people in one place, and he answers for them. As we understand ourselves, a particular people placed in a particular man's care is the first thing that holds us together.\n\nAugustine's church described itself as the same catholic communion that Cyprian had led. Our two bishops answered the question of a baptism given outside the church in opposite ways, a century and a half apart. Augustine judged the earlier answer wrong, but never put Cyprian outside our communion.\n\nPreaching was the bishop's regular talk to the whole gathered church, the baptized and those still learning. Augustine traced our bishops' office back by naming the line of Rome's bishops from Peter to the man sitting then.",
+ "sub_question": "C6.S4"
+}

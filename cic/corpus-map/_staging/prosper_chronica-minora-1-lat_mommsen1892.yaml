@@ -15,6 +15,8 @@ assignments:
       - latin-pastoral-congregational-christianity
     role: context
     confidence: assigned
+    language: lat
+    date: {formation_confidence: unknown, checked: "prosper_chronica-minora-1-lat_mommsen1892.txt header and records/lpc/source prosper-epitoma-chronicon-mommsen1892: name the entries for 430 and 439 but not the chronicle's own composition window"}
     note: >
       A contemporary external chronicle, not this tradition's own voice --
       role context, not tradition. Directly attests this world's own

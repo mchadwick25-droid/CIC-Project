@@ -3,6 +3,65 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: the-stone-campbell-restoration-movement
 works:
+- row_id: baxter-w_life-of-elder-walter-scott_1874--life-of-elder-walter-scott-with-sketches-of-his-fellow
+  work: Life of Elder Walter Scott, with sketches of his fellow-laborers, William Hayden,
+    Adamson Bentley, John
+  author: baxter-w
+  locus: the whole volume; not mapped
+  role: context
+  confidence: provisional
+  language: eng
+  date:
+    start: 1874
+    end: 1874
+    source: 'the printing''s own title page: line 56, on the title page'
+    formation_confidence: Documented
+  edition_date:
+    year: 1874
+    source: line 56, on the title page
+    formation_confidence: Documented
+  note: 'Era 9 row 227, Walter Scott: a Life told by another.'
+  source_file: baxter-w_life-of-elder-walter-scott_1874.txt
+- row_id: campbell_christian-baptist-v5_bethany1828--the-christian-baptist-published-monthly-edited-by-alexander
+  work: The Christian Baptist, published monthly. Edited by Alexander Campbell. Vol. V. Bethany,
+    Brooke County, Va.
+  author: campbell
+  locus: the whole volume; not mapped
+  role: tradition
+  confidence: provisional
+  language: eng
+  date:
+    start: 1827
+    end: 1828
+    source: 'the printing''s own title page: read on the scan''s page image, leaf n9; the
+      OCR does not give it cleanly'
+    formation_confidence: Documented
+  edition_date:
+    year: 1828
+    source: read on the scan's page image, leaf n9; the OCR does not give it cleanly
+    formation_confidence: Documented
+  note: 'Era 9 row 164, Alexander Campbell: one volume of the Christian Baptist.'
+  source_file: campbell_christian-baptist-v5_bethany1828.txt
+- row_id: campbell-thomas_declaration-and-address-centennial-edition_1908--campbell-thomas-declaration-and-address-1809
+  work: Thomas Campbell, Declaration and Address of the Christian Association of Washington
+    (1809; Centennial reprint, 1908)
+  author: campbell-thomas
+  locus: the Declaration at OCR lines 174-312; the Address at 313-1276; the Appendix at 1277-2955;
+    the Postscript from 2956; add 12 to OCR line numbers
+  role: tradition
+  confidence: assigned
+  language: eng
+  date:
+    start: 1809
+    end: 1809
+    source: the reprinted title page's year stands at OCR line 152, garbled as 'I8OQ.'; the
+      preamble dates the meetings 17 August and 7 September 1809 (lines 155-172)
+    formation_confidence: Documented
+  note: The founding paper of the Campbell movement, read in a reprint that claims to follow
+    the first print letter for letter. The claim was not tested against a copy of 1809. The
+    introduction and the two Centennial pieces at the end belong to the reprint and are not
+    Campbell's.
+  source_file: campbell-thomas_declaration-and-address-centennial-edition_1908.txt
 - row_id: mcnemar_kentucky-revival-with-the-entrance-of-shakerism_1808--the-kentucky-revival-1808-3
   work: The Kentucky Revival (1808)
   author: mcnemar
@@ -12,3 +71,83 @@ works:
   note: McNemar's account prints the Springfield Presbytery documents, which name him with
     John Dunlavy and Barton W. Stone.
   source_file: mcnemar_kentucky-revival-with-the-entrance-of-shakerism_1808.txt
+- row_id: richardson_memoirs-of-alexander-campbell-v1_1868--memoirs-of-alexander-campbell-embracing-a-view-of-the-origin
+  work: Memoirs of Alexander Campbell, embracing a view of the origin, progress and principles
+    of the religious
+  author: richardson
+  locus: the whole volume; not mapped
+  role: context
+  confidence: provisional
+  language: eng
+  date:
+    start: 1868
+    end: 1868
+    source: 'the printing''s own title page: OCR line 102, on the title page'
+    formation_confidence: Documented
+  edition_date:
+    year: 1868
+    source: OCR line 102, on the title page
+    formation_confidence: Documented
+  note: 'Era 9 row 164, Alexander Campbell: a Life (Richardson, vol. 1).'
+  source_file: richardson_memoirs-of-alexander-campbell-v1_1868.txt
+- row_id: richardson_memoirs-of-alexander-campbell-v2_1870--memoirs-of-alexander-campbell-embracing-a-view-of-the-origin
+  work: Memoirs of Alexander Campbell, embracing a view of the origin, progress and principles
+    of the religious
+  author: richardson
+  locus: Chapter I, on the discussion with Mr. Walker, at OCR lines 492-1666; List of Mr.
+    Campbell's published works at OCR lines 27847-27876; add 12 to OCR line numbers; the rest
+    not mapped
+  role: context
+  confidence: provisional
+  language: eng
+  date:
+    start: 1870
+    end: 1870
+    source: 'the printing''s own title page: read on the scan''s page image, leaf n10; the
+      OCR does not give it cleanly'
+    formation_confidence: Documented
+  edition_date:
+    year: 1870
+    source: read on the scan's page image, leaf n10; the OCR does not give it cleanly
+    formation_confidence: Documented
+  note: 'Era 9 row 164, Alexander Campbell: a Life (Richardson, vol. 2).'
+  source_file: richardson_memoirs-of-alexander-campbell-v2_1870.txt
+- row_id: stone_biography-of-elder-barton-warren-stone_rogers1847--biography-of-eld-barton-warren-stone-written-by-himself-with
+  work: 'Biography of Eld. Barton Warren Stone, written by himself: with additions and reflections
+    by Elder John Rogers'
+  author: stone
+  locus: Stone's own narrative of his life, chapters I-X at OCR lines 441-4048; add 12 to
+    OCR line numbers; the rest not mapped
+  role: tradition
+  confidence: provisional
+  language: eng
+  date:
+    start: 1847
+    end: 1847
+    source: 'the printing''s own title page: OCR line 91, on the title page'
+    formation_confidence: Documented
+  edition_date:
+    year: 1847
+    source: OCR line 91, on the title page
+    formation_confidence: Documented
+  note: 'Era 9 row 163, Barton W. Stone: his own Biography.'
+  source_file: stone_biography-of-elder-barton-warren-stone_rogers1847.txt
+- row_id: williams-j-a_life-of-elder-john-smith_1870--life-of-elder-john-smith-with-some-account-of-the-rise-and
+  work: Life of Elder John Smith, with some account of the rise and progress of the current
+    reformation
+  author: williams-j-a
+  locus: the whole volume; not mapped
+  role: context
+  confidence: provisional
+  language: eng
+  date:
+    start: 1870
+    end: 1870
+    source: 'the printing''s own title page: line 58, on the title page'
+    formation_confidence: Documented
+  edition_date:
+    year: 1870
+    source: line 58, on the title page
+    formation_confidence: Documented
+  note: 'Era 9 row 228, ''Raccoon'' John Smith: a Life told by another.'
+  source_file: williams-j-a_life-of-elder-john-smith_1870.txt

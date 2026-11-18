@@ -1,0 +1,24 @@
+source_file: christian-east_v9-no4-winter-1928.txt
+assignments:
+- row_id: christian-east_v9-no4-winter-1928--whole
+  work: 'The Christian East, volume IX, number 4 (Winter, 1928)'
+  author: christian-east
+  locus: 'whole'
+  atlas_ids:
+  - the-anglican-communion-twentieth-century
+  role: tradition
+  confidence: assigned
+  language: eng
+  date: {start: 1928, end: 1928, source: "masthead: 'Winter, 1928'", formation_confidence: Documented}
+  note: 'One number of the quarterly, by many writers. The Eastern documents it prints are in the journal''s English unless a row says otherwise.'
+- row_id: christian-east_v9-no4-winter-1928--parenta-penance-1928
+  work: 'Milosh Parenta, ''Penance'' (1928), in The Christian East'
+  author: christian-east
+  locus: 'OCR lines 2160-2345; add 12 to OCR line numbers'
+  atlas_ids:
+  - orthodoxy-in-the-communist-balkans
+  role: tradition
+  confidence: assigned
+  language: eng
+  date: {start: 1928, end: 1928, source: "the heading: 'an article in Glasnik, October, 1928' (OCR line 2163)", formation_confidence: Documented}
+  note: 'The heading calls it ''the substance of an article'', translated by L. Patterson; a summary in translation, not the article whole.'

@@ -16,8 +16,7 @@ confidence:
     Contested for incident-level attribution, the standing bound on this Vita: reported narrative inside a bishop-author's own constructed exemplar, written for his own purposes. The wording is verbatim from the vendored file.
 sources:
 - source_id: desert.source.athanasius-vita-antonii
-  locus: >-
-    Vita Antonii SS46, during the persecution under Maximinus, 303-311 (npnf204_athanasius-select-works-letters.xml)
+  locus: "Vita Antonii SS46, during the persecution under Maximinus, 303-311 (cic/texts/npnf204_athanasius-select-works-letters.xml, lines 32370-32386)"
   license: public-domain
 text: >-
   And he longed to suffer martyrdom, but not being willing to give himself up, he ministered to the confessors in the mines and in the prisons. ... So all the rest thought it good to hide themselves that day, but Antony gave so little heed to the command that he washed his garment, and stood all next day on a raised place before them, and appeared in his best before the governor. ... For, as I said before, he prayed himself to be a martyr, wherefore he seemed as one grieved that he had not borne his witness.

@@ -1,0 +1,24 @@
+source_file: love-william-deloss_samson-occom-and-the-christian-indians-of-new-england_1899.txt
+assignments:
+- row_id: love-william-deloss_samson-occom-and-the-christian-indians-of-new-england_1899--love-samson-occom
+  work: 'Love, Samson Occom and the Christian Indians of New England (1899)'
+  author: love-william-deloss
+  locus: 'chapters I-XVII at OCR lines 425-14772; the appendix at 14773-16553; add 12 to OCR line numbers'
+  atlas_ids:
+  - the-evangelical-awakening-in-new-england
+  role: context
+  confidence: provisional
+  language: eng
+  date: {start: 1899, end: 1899, source: "copyright notice: 'Copyright, 1899' (OCR lines 70-71); preface dated October 1899", formation_confidence: Documented}
+  note: 'A history written at Hartford in 1899 from manuscripts, a century and more after the events. It runs on past this entry''s window to the Brothertown settlement.'
+- row_id: love-william-deloss_samson-occom-and-the-christian-indians-of-new-england_1899--occom-narrative-1768-extract-in-love
+  work: 'Samson Occom, autobiographical narrative of 17 September 1768: the opening, as Love prints it'
+  author: occom
+  locus: 'the extract at OCR lines 1328-1355; Love''s source note at 1338; add 12 to OCR line numbers'
+  atlas_ids:
+  - the-evangelical-awakening-in-new-england
+  role: tradition
+  confidence: provisional
+  language: eng
+  date: {start: 1768, end: 1768, source: "Love's footnote: 'Wheelock Papers, Dartmouth College, MS., Sept. 17, 1768' (OCR line 1338)", formation_confidence: Documented}
+  note: 'Occom''s own account of his upbringing and conversion, in about twelve printed lines; the rest of the range is Love''s footnotes and a page head. Love prints only this part; his text was not compared with the manuscript.'

@@ -1,0 +1,108 @@
+{
+ "draft": "The voices of ours that survive are vowed celibates, and they wrote of marriage mostly from the covenant's side, to those who had renounced it [[syr.limit.marriage]] [[as:paraphrase]].\n\nMost of our people married and raised children, and their weddings and their homes were real [[syr.limit.marriage]] [[as:paraphrase]].\n\nThe texts we kept praise the single life far more than they describe the married one [[syr.limit.marriage]] [[as:paraphrase]].\n\nAphrahat wrote in Demonstration VI.6: [[quote:syr.quote.the-wedding-feast-continues-for-but-seven-days]]\n\nThe covenant order stood at the heart of the community early on, and Demonstration 6, from 337, is its first datable witness [[syr.force.qyama-commitment]] [[as:paraphrase]].\n\nThe women's and the ordinary believers' own words on marriage were not kept [[syr.dw.corpus-and-its-edges]] [[as:paraphrase]].\n",
+ "ending": "clean",
+ "final": "The voices of ours that survive are vowed celibates, and they wrote of marriage mostly from the covenant's side, to those who had renounced it.\n\nMost of our people married and raised children, and their weddings and their homes were real.\n\nThe texts we kept praise the single life far more than they describe the married one.\n\nIn today's English, Aphrahat says: “And instead of the groans of the daughters of Eve, they sing the songs of the Bridegroom. The wedding feast of the daughters of Eve lasts only seven days; but these virgins have the Bridegroom who never goes away. The adornment of the daughters of Eve is wool that wears out and perishes; the garments of these do not wear out. Old age withers the beauty of the daughters of Eve; the beauty of these will be made new at the time of the Resurrection.”\n\nThe covenant order stood at the heart of the community early on, and Demonstration 6, from 337, is its first datable witness.\n\nThe women's and the ordinary believers' own words on marriage were not kept.",
+ "group": "A",
+ "offered": [
+  "syr.limit.marriage",
+  "syr.dw.corpus-and-its-edges",
+  "syr.quote.the-wedding-feast-continues-for-but-seven-days",
+  "syr.force.frontier-plural-milieu",
+  "syr.force.qyama-commitment"
+ ],
+ "placements": [
+  {
+   "decision": "keep",
+   "judgement": {
+    "fit": "partly",
+    "limit_stated": true,
+    "reason": "It gives the covenant's view of marriage as what the vowed forgo, not how the community understood and marked marriage generally."
+   },
+   "record_id": "syr.quote.the-wedding-feast-continues-for-but-seven-days"
+  }
+ ],
+ "question": "How did your community understand and mark marriage?",
+ "question_id": "q024",
+ "read": {
+  "dropped": [],
+  "status": "clean",
+  "unsupported": {}
+ },
+ "rewrite": null,
+ "sentences": [
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 0,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "The voices of ours that survive are vowed celibates, and they wrote of marriage mostly from the covenant's side, to those who had renounced it.",
+   "tags": [
+    "syr.limit.marriage"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 1,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Most of our people married and raised children, and their weddings and their homes were real.",
+   "tags": [
+    "syr.limit.marriage"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 2,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "The texts we kept praise the single life far more than they describe the married one.",
+   "tags": [
+    "syr.limit.marriage"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": null,
+   "n": 3,
+   "placed": true,
+   "placed_id": "syr.quote.the-wedding-feast-continues-for-but-seven-days",
+   "reason": "placed by code",
+   "sentence": "In today's English, Aphrahat says: “And instead of the groans of the daughters of Eve, they sing the songs of the Bridegroom. The wedding feast of the daughters of Eve lasts only seven days; but these virgins have the Bridegroom who never goes away. The adornment of the daughters of Eve is wool that wears out and perishes; the garments of these do not wear out. Old age withers the beauty of the daughters of Eve; the beauty of these will be made new at the time of the Resurrection.”",
+   "tags": [
+    "syr.quote.the-wedding-feast-continues-for-but-seven-days"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 4,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "The covenant order stood at the heart of the community early on, and Demonstration 6, from 337, is its first datable witness.",
+   "tags": [
+    "syr.force.qyama-commitment"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 5,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "The women's and the ordinary believers' own words on marriage were not kept.",
+   "tags": [
+    "syr.dw.corpus-and-its-edges"
+   ]
+  }
+ ],
+ "shipped_by_net": "The voices of ours that survive are vowed celibates, and they wrote of marriage mostly from the covenant's side, to those who had renounced it.\n\nMost of our people married and raised children, and their weddings and their homes were real.\n\nThe texts we kept praise the single life far more than they describe the married one.\n\nIn today's English, Aphrahat says: “And instead of the groans of the daughters of Eve, they sing the songs of the Bridegroom. The wedding feast of the daughters of Eve lasts only seven days; but these virgins have the Bridegroom who never goes away. The adornment of the daughters of Eve is wool that wears out and perishes; the garments of these do not wear out. Old age withers the beauty of the daughters of Eve; the beauty of these will be made new at the time of the Resurrection.”\n\nThe covenant order stood at the heart of the community early on, and Demonstration 6, from 337, is its first datable witness.\n\nThe women's and the ordinary believers' own words on marriage were not kept.",
+ "sub_question": "C8.S4"
+}

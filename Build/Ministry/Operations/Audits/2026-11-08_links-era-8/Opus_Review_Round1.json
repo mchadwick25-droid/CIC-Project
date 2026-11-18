@@ -1,0 +1,219 @@
+{
+ "round": 1,
+ "kind": "full",
+ "verdict": "revise",
+ "counts": {
+  "blocking": 0,
+  "substantial": 4,
+  "minor": 20
+ },
+ "findings": [
+  {
+   "id": "R1-01",
+   "target": "german-pietism-spener-francke-halle--the-methodist-revival",
+   "severity": "substantial",
+   "issue": "The note says Wesley 'called on the younger Francke' at Halle. The journal says only that he 'thought of sending in a note to Professor Francke', and the next page (wesley-j_journal-v2_curnock1909.txt line 1371) says 'He was not in town'. No meeting took place. Wesley toured the orphan house instead (lines 1371-1372). A reader will take 'called on' as a meeting.",
+   "fix": "Replace the first sentence: \"In July 1738 John Wesley went to Halle and toured its orphan house. He wrote that August Hermann Francke's 'name is indeed as precious ointment'. George Whitefield read Francke's account of the Halle orphan house and saw it as the pattern for his own orphan house in Georgia.\" (FRE 70.3, FK 7.3). Optionally add the line 1371-1373 quote ('However, we were at length admitted into the Orphan House'). The legacy prose (A1, 'in 1738 he went to Halle himself') is fine as it stands."
+  },
+  {
+   "id": "R1-02",
+   "target": "restoration-georgian-church-of-england--the-methodist-revival--2",
+   "severity": "substantial",
+   "issue": "The note says Wesley wrote that he had not left the Church of England 'though he had broken its rules'. The cited 1785 text does not say he broke its rules. In section 9 (methodist-conference_minutes lines 24837-24841) he says he took these steps 'not of choice, but necessity', and that 'the law of England does not call it so'. The note puts an admission in his mouth that he did not make. The 1795 sentence is also looser than the article: chapels could hold the Lord's Supper only where the trustees, the stewards and leaders, and the Conference agreed (lines 49535-49541).",
+   "fix": "\"In 1785 Wesley listed the steps he had taken, such as preaching in the fields when the churches were shut to him. If anyone called this separating from the Church, he wrote, 'he may'. In 1795 the Methodist Conference let its chapels hold the Lord's Supper where local leaders and the Conference agreed, a long step toward a separate church.\" (FRE 67.6, FK 8.6). The sources stay as they are."
+  },
+  {
+   "id": "R1-03",
+   "target": "orthodoxy-under-the-ottomans-1650-1821--orthodoxy-after-1821-balkan-autocephalies",
+   "severity": "substantial",
+   "issue": "The note's first sentence ('At Easter 1821 the Sultan's government hanged Patriarch Gregory V at his own gate') rests on no source on the link. Its only quote (Walsh v2, 16379-16380) says only that Eugenius was appointed after Gregory's execution. The fact is true, and the vendored companion volume shows it: walsh_residence-at-constantinople-v1_1836.txt lines 15062-15064 ('the 22d of April was Easter Sunday in both churches') and 15141-15143 ('The old man was then dragged under the gateway, where the cord was passed through the staple that fastened the folding doors,'). It is just not cited.",
+   "fix": "Add those two Walsh v1 passages as primary sources (verbatim at those lines; I checked them). The note can then stand. Or reword it to the cited source: \"At Easter 1821 the Sultan's men hanged Patriarch Gregory V at the gate of his own palace. Robert Walsh, chaplain to the British embassy, wrote that Eugenius was then put in his place. The same see carried on into the age of the national churches.\" (FRE 70.8, FK 7.0). This wording still needs the v1 sources."
+  },
+  {
+   "id": "R1-04",
+   "target": "english-old-dissent.relationsSummary and english-old-dissent.longDescription (prose changes B7, B8)",
+   "severity": "substantial",
+   "issue": "The change took out 'reinvigorated by the eighteenth-century revival' as a broad claim no source makes. It put an equally broad claim in its place: 'The Congregationalists kept the old faith and took up the new revival' (B7), and '... took up the revival of the 1730s and 1740s' (B8). The evidence is two individuals: Watts printing Edwards, and Doddridge receiving Wesley. The drafters' own source (Curnock's note, wesley-j_journal-v3 lines 12229-12231) says Doddridge was 'almost the only leading Dissenter who maintained friendly relations with Wesley'. So the new sentence says more than the evidence supports, and it runs against the drafters' own flag. This is the kind of fix-on-a-fix the rules forbid.",
+   "fix": "B7: \"The Congregationalists kept the old faith, and some of their leaders took up the new revival.\" (whole field FRE 61.9, FK 7.2). B8: \"The Congregationalists kept the old faith. Some of their leaders, like Watts and Doddridge, took up the revival of the 1730s and 1740s.\" (whole field FRE 63.9, FK 7.7)."
+  },
+  {
+   "id": "R1-05",
+   "target": "german-pietism-spener-francke-halle--radical-pietism-and-the-brethren-dunkers-ephrata",
+   "severity": "minor",
+   "issue": "'Petersen ... first heard hopes for the church's future at a meeting in Spener's house.' Petersen's Leben (577-585) says he often heard Lic. Schütz speak in the collegium pietatis held in Spener's house, talked with him, and learned much about the fata Ecclesiae from him. 'First' is not in the text. The 'hopes' were Schütz's, and the text speaks of the papacy rising and then falling. Separately: Brumbaugh, cited here twice as secondary, says outright that 'any of the founders were Pietists is not true' (921-924). The grade survives because Mack's own words outweigh him. But the note leans on Brumbaugh for Hochmann without saying he disputes the wider claim.",
+   "fix": "\"Johann Wilhelm Petersen, later a leading radical Pietist, often went to the prayer meeting in Spener's house. There he heard talk of the church's future. Alexander Mack, who founded the Brethren in 1708, wrote that they had once lived 'among the pietists'. A Brethren historian wrote in 1899 that Francke woke Ernst Christoph Hochmann to faith at Halle, and that Hochmann shaped Mack more than anyone.\" (FRE 66.3, FK 8.0). Optionally add: \"The same historian denied that the founders were Pietists.\""
+  },
+  {
+   "id": "R1-06",
+   "target": "the-baptists--the-missionary-movement-s-native-churches-seramp",
+   "severity": "minor",
+   "issue": "The last sentence ('appear only in later records we do not yet hold') is cataloguing language in a public note.",
+   "fix": "\"In 1792 Baptist ministers at Kettering formed a society to spread the gospel among the heathen. It sent William Carey and John Thomas to India, with a letter to Indian believers Thomas had known. These early records do not show the churches that grew from the mission, so the tie is thin.\" (FRE 65.2, FK 8.4)."
+  },
+  {
+   "id": "R1-07",
+   "target": "russian-church-nikon-to-holy-synod--alaskan-mission-herman-veniaminov",
+   "severity": "minor",
+   "issue": "The note opens with 'The sources here do not record ...'. That is process narration, and the note leads with what is missing rather than what is shown.",
+   "fix": "\"By 1842 the Russian church had a diocese of the Aleutian Islands, Kamchatka and Russian America. That shows the Alaskan church as part of the Russian church. No early record of the first mission of 1794 is cited, so the tie rests on thin evidence.\" (FRE 68.3, FK 7.3)."
+  },
+  {
+   "id": "R1-08",
+   "target": "the-methodist-revival--the-welsh-revival-tradition",
+   "severity": "minor",
+   "issue": "'The Welsh Methodists later wrote that God raised up Harris and Daniel Rowland ...'. The quoted words come from a 1746 diary (Joseph Williams of Kidderminster), which the 1834 History quotes (calvinistic-methodists-wales lines 584-595). The Welsh connexion did not write them. The drafter's own flag says so.",
+   "fix": "\"Howell Harris, a leader of the Welsh revival, first met George Whitefield at Cardiff in March 1739. A diary of 1746 is quoted in the Welsh Methodists' own history. It says God raised up Harris and Daniel Rowland at the same time as Whitefield and the Wesleys.\" (FRE 67.5, FK 7.6)."
+  },
+  {
+   "id": "R1-09",
+   "target": "the-methodist-revival--the-black-church-in-america (kept)",
+   "severity": "minor",
+   "issue": "This kept note scores FRE 17.1 and FK 14.5, well below the reading target. It is already published, but this pass carries it as an era-8 link.",
+   "fix": "\"Richard Allen joined a Methodist society in Delaware. Later he and other Black Methodists fell out with the white preachers and trustees of their church. In April 1816 they met with Black Methodists from Baltimore and other towns. Together they made one church of their own. They named it the African Methodist Episcopal Church.\" (FRE 62.0, FK 7.2). The sources are unchanged."
+  },
+  {
+   "id": "R1-10",
+   "target": "the-methodist-revival--the-holiness-movement (kept)",
+   "severity": "minor",
+   "issue": "This kept note scores FRE 54.0 and FK 10.5, below the target.",
+   "fix": "\"In his Large Minutes, Wesley told his preachers to urge all believers to 'go on to perfection'. He meant being saved from all sin, as love for God and neighbor fills the heart. Holiness writers of the 1800s took up this teaching and called it Wesley's own.\" (FRE 77.5, FK 6.3)."
+  },
+  {
+   "id": "R1-11",
+   "target": "catholic-church-ancien-regime--melkite-greek-catholic-church.outcome",
+   "severity": "minor",
+   "issue": "The outcome is two sentences. The rule asks for one.",
+   "fix": "\"In 1729 Rome said Cyril could be patriarch if he swore to change no Greek rites without its leave, and its envoy confirmed him in 1730.\" (26 words, FRE 73.2, FK 9.0)."
+  },
+  {
+   "id": "R1-12",
+   "target": "armenian-christianity-era-8--catholic-church-ancien-regime.outcome",
+   "severity": "minor",
+   "issue": "The outcome is two sentences. The rule asks for one.",
+   "fix": "\"In 1742 Pope Benedict XIV gave the Armenians in union with Rome a church of their own, with a patriarch placed under Rome.\" (23 words, FRE 69.1, FK 9.1)."
+  },
+  {
+   "id": "R1-13",
+   "target": "the-tridentine-church--ruthenian-uniate-18th-century.outcome",
+   "severity": "minor",
+   "issue": "'Made church laws that it said followed the Council of Trent' does not name what changed. As written, it reads like a teaching taken up, the very thing the rule excludes. The link's own sources show a concrete rule: the binding feast list that includes Corpus Christi (Mansi 35, 141783-141787 and 142049).",
+   "fix": "\"At Zamość in 1720 the Ruthenian synod made laws it said followed the Council of Trent, and its list of feasts took in Corpus Christi.\" (25 words, FRE 66.2, FK 10.0)."
+  },
+  {
+   "id": "R1-14",
+   "target": "kongo-christianity-afonso-to-1650--the-antonian-movement-in-kongo",
+   "severity": "minor",
+   "issue": "The middle sentence, the uncrowned Pedro IV in the ruined capital, is accurate, but the note never says why it matters. It is a non-sequitur for a reader. The first Zucchelli quote (11515-11517) stops mid-clause at 'bereden konnen'. That hides its point: the missionaries could never persuade the king to keep one wife instead of thirty-six concubines (11517-11522). It is a complaint, not a picture of a model Christian king, and the drafter's flag misreads it. Neither primary source shows the Antonian movement itself; that part rests only on Thornton, who was not rechecked. Widely Accepted is defensible on the brief, but only just.",
+   "fix": "Drop the truncated 11515-11517 quote, or extend it to a clause boundary and stop calling it positive in the flags. Note: \"The friar Antonio Zucchelli worked in Kongo until 1704. He tells of its king, Pedro IV, who could not yet be crowned in the ruined capital. John Thornton's standard study reads the movement of Beatriz Kimpa Vita as part of the faith of Kongo.\" (FRE 66.4, FK 7.6)."
+  },
+  {
+   "id": "R1-15",
+   "target": "russian-church-stoglav-to-nikon--the-old-believers",
+   "severity": "minor",
+   "issue": "'Ordained in the Moscow church' reads as the city of Moscow. Avvakum was ordained in the provinces. The point is the church of Muscovy before Nikon.",
+   "fix": "Change 'in the Moscow church' to 'in the Russian church'. The note then scores FRE 63.9, FK 7.5."
+  },
+  {
+   "id": "R1-16",
+   "target": "new-spain-and-andes-mission-born-christianity--colonial-latin-american-devotional-catholicism",
+   "severity": "minor",
+   "issue": "The note lists three facts but never says what the link claims, which is that the mission-age church carried on into the settled devotional one. Read alone, it does not stand.",
+   "fix": "Add a lead sentence: \"The church of Spanish America's mission age ran on into its settled devotion.\" Then keep the three existing sentences (whole note FRE 61.9, FK 8.7)."
+  },
+  {
+   "id": "R1-17",
+   "target": "notes: the-hesychast-revival-paisius-and-the-philokalia--the-optina-elders-and-russian-ascetic-renewal; the-union-of-brest-and-ruthenian-greek-catholic---ruthenian-uniate-18th-century; armenian-christianity-era-8--catholic-church-ancien-regime",
+   "severity": "minor",
+   "issue": "Each has one sentence over 25 words (27, 30 and 26).",
+   "fix": "Optina: \"Two monks, Theodore and Cleopas, lived for years in Paisius's monastery and took their vows from him. They went to Russia in 1801 and trained Leonid. In 1829 Leonid moved to the skete at Optina and took charge of the brothers' spiritual care. Optina printed this account in its 1847 edition of Paisius's Life.\" (FRE 69.5, FK 6.7). Brest: \"Pope Pius VII's bull of 1807 traces one line of church. It begins with the union agreed at a council in Brest by Michael, metropolitan of Kyiv, and the Ruthenian bishops. It runs on to their synod at Zamość in 1720. A Uniate plea of about 1772 claims rights both from Clement VIII, the pope of the union, and from 'its own' Zamość synod.\" (FRE 77.6, FK 6.2). Armenian: \"In the same year, says the Armenian church leader Malachia Ormanian, the pope gave the Armenians in union with Rome a church of their own.\" (whole note FRE 65.9, FK 8.1)."
+  },
+  {
+   "id": "R1-18",
+   "target": "primary quotes over 40 words",
+   "severity": "minor",
+   "issue": "Four quotes run past the brief's ~40-word limit: czech-churches-last-century--the-moravian-church-at-herrnhut (Spangenberg 3403-3407, 46 words), restoration-georgian-church-of-england--the-baptists (Bunyan 5668-5673, 46), restoration-georgian-church-of-england--early-american-unitarians-universalists (King's Chapel preface 165-170, 41), and philippine-catholicism--philippine-catholicism-era-8 (v36 3810-3814, 41). All four are verbatim.",
+   "fix": "Cut each at a clause boundary under 40 words. For example, Bunyan ends at '...to hear divine service,'. Then recheck the quotes."
+  },
+  {
+   "id": "R1-19",
+   "target": "philippine-catholicism-era-8.legacy (prose change F4)",
+   "severity": "minor",
+   "issue": "'Traced that quarrel to the execution of three priests in 1872' reads as if the executions caused the quarrel. The source says the quarrel ran on into the executions (Pardo de Tavera, v50 8412-8413 and 8441-8444). The two 'tied to' sentences after it are also stiff, and the devotions sentence runs 26 words.",
+   "fix": "\"Writing in 1899, a Filipino scholar linked that quarrel to the killing of three priests in 1872.\" (whole field FRE 62.8, FK 7.6). Optionally merge the two 'tied' sentences: \"It is also often tied to the national revolution and to the independent Philippine church that broke from Rome in 1902.\""
+  },
+  {
+   "id": "R1-20",
+   "target": "the-hesychast-revival-paisius-and-the-philokalia.legacy (prose change E3)",
+   "severity": "minor",
+   "issue": "'Whose own press printed Paisius's life and writings at Moscow in 1847' is not what the title page says. It reads 'Изданіе ... Оптиной пустыни': Optina published the book, and it was printed in Moscow. Optina's own press is not shown.",
+   "fix": "\"In Russia it fed the elders of Optina, who put out Paisius's life and writings at Moscow in 1847.\" (whole field FRE 64.6, FK 8.4)."
+  },
+  {
+   "id": "R1-21",
+   "target": "orthodoxy-under-the-ottomans-1650-1821.relationsSummary (prose change F0)",
+   "severity": "minor",
+   "issue": "The old text said only that Peć (1766) and Ohrid (1767) were abolished. The new text names an actor ('Constantinople did away with ...') that no source on the entry or its links names. The actor is broadly right, but it is added.",
+   "fix": "\"The Serbian patriarchate of Peć was done away with in 1766. A year later the same thing happened to the archbishopric of Ohrid.\" (whole field FRE 63.5, FK 7.6)."
+  },
+  {
+   "id": "R1-22",
+   "target": "the-hesychast-revival-paisius-and-the-philokalia.why (prose change E2)",
+   "severity": "minor",
+   "issue": "'Paisius's own disciples, back in Russia, trained ...'. The preface says they went out to Russia in 1801 ('вышли въ Россію'). 'Back' assumes something the text does not show.",
+   "fix": "Drop 'back': \"Paisius's own disciples, in Russia, trained the first of the Optina elders.\""
+  },
+  {
+   "id": "R1-23",
+   "target": "era-8 prose voice (A0, B0, B1, B3, B5, B9, B10)",
+   "severity": "minor",
+   "issue": "The same reason clause appears seven times across five entries: 'no text we hold (yet) shows/traces ...'. One use is fine (era 5 set the precedent). Seven in one era reads as a formula, an assistant-voice tic, and it points at the project's library rather than at the history.",
+   "fix": "Vary the wording, and name the actual gap where possible. For example: 'though the early records do not show it' (B1, B3, B5); 'but the line has not been traced in the sources' (B9, B10); 'no early Pietist writer names a Dutch source' (A0). Each changed field must be rescored."
+  },
+  {
+   "id": "R1-24",
+   "target": "restoration-georgian-church-of-england--the-baptists",
+   "severity": "minor",
+   "issue": "The note is passive about who acted. The listed sources show the restored Crown, its justices and Parliament acting, not the church as such. Whitley (10239-10241) even says that before 1664 'the Government' was busy with the Presbyterians and 'the Baptists escaped much notice'. The grade holds on Bunyan's indictment by name. The note should still not let the reader think the church passed the 1664 law.",
+   "fix": "\"At the Bedford court, John Bunyan was charged with staying away from the parish church and holding unlawful meetings. A law of 1664 banned any religious meeting of more than four people outside Church of England practice. A Baptist historian wrote in 1909 that for three years the General Baptists could hold no open assembly.\" (FRE 61.2, FK 9.1)."
+  }
+ ],
+ "major_links_view": {
+  "outcome_links": 14,
+  "over_called": [],
+  "borderline_kept": [
+   "restoration-georgian-church-of-england--the-baptists: the 1664 Conventicle Act is a state law, and the evidence is Whitley's 1909 summary. The rule names 'law' among institutional acts, and the Act excluded dissenting worship, Baptist worship among it. Keep major, but name the state in the note (R1-24).",
+   "russian-church-nikon-to-holy-synod--ruthenian-uniate-18th-century: Catherine II's 1795 ukases are a state act. It is still a law forcing a group out of its church, and it was carried out (Pelesz 41250-41254; Harasiewicz 38959-38967 shows priests sent with officials and soldiers). Keep.",
+   "russian-church-nikon-to-holy-synod--the-old-believers--3: Edinoverie was a settlement sanctioned by the Tsar after the Metropolitan's review. Keep under 'settlement changed by an authority'. The evidence is secondary only (Conybeare), which the rule allows.",
+   "orthodoxy-under-the-ottomans-1650-1821--russian-church-nikon-to-holy-synod and the-tridentine-church--ruthenian-uniate-18th-century: in each, the receiving side's own council or synod adopted a practice by binding law. That is more than a practice 'merely taken up'. Keep both. Zamość needs a concrete outcome (R1-13).",
+   "russian-church-nikon-to-holy-synod--the-kyiv-mohyla-orthodox-revival: a jurisdiction transfer typed 'in contact with'. The settlement was changed and carried out (Gideon installed, the patriarchs' letters). Keep as major. The type question is the drafters' method escalation, for Mark.",
+   "catholic-church-ancien-regime--melkite-greek-catholic-church: Propaganda's 1729 ruling set a binding condition and was carried out in 1730 (Mansi 46, 19417-19419). Keep.",
+   "armenian-christianity-era-8--catholic-church-ancien-regime: the 1742 Armenian Catholic patriarchate is a split into a separate body. The outcome rests on Ormanian (secondary, on the link), backed by Nurikhan. Keep."
+  ],
+  "clear": [
+   "catholic-church-ancien-regime--port-royal-jansenism (1653 and 1664)",
+   "catholic-church-ancien-regime--quietist-controversy-molinos-guyon (1687 and 1699)",
+   "catholic-church-ancien-regime--the-society-of-jesus (1773 suppression)",
+   "russian-church-nikon-to-holy-synod--the-old-believers--2 (1667 anathema)",
+   "orthodoxy-under-the-ottomans-1650-1821--the-reformed-cities-zurich-and-geneva (Synod of Jerusalem 1672)",
+   "church-of-the-desert-huguenots--camisard-prophetism (1715 synod rule, known from Court's memoir as quoted by Hugues; acceptable)"
+  ],
+  "under_called": [],
+  "comment": "Fourteen is more than 'a few'. But each one shows, in its own sources, an act on the rule's list, and every outcome's evidence sits inside a cited quote (distance 0; all 14 evidence texts verbatim). None is a mere taking-up, one bishop's ban, a reversed exile or an unexecuted letter. I found no minor link whose own sources show an institutional act. The Synod of Jerusalem's naming of Claude (orthodoxy--the-huguenots) is minor, rightly: its own cited line is the synod's account of Claude's claim, not the condemnation, which the Calvin link carries. Outcome sentences: all 14 are 30 words or fewer and end with a full stop, all score FRE 64.7 or higher and FK 9.8 or lower, and none has internal words. Two are two sentences long (R1-11, R1-12)."
+ },
+ "two_way_gaps": [
+  "No unlinked named relationship that the text still states as fact. A name scan of the 29 era-8 movements' four fields in census_test.json found 42 mentions of other census movements. 23 have a link. The other 19 are false matches on place names ('Georgia', 'Jerusalem', 'Nubia', 'Antioch', 'Lausanne', 'The Desert', 'Armenia'), classifications ('with the Quakers and the Baptists'; Radical Pietism 'alongside the Mennonites and the Quakers'; Port-Royal 'inside the Tridentine church'), or relationships now qualified ('the Black Church may owe it a debt'; the base communities; Brest and the Maronites as an earlier 'shape').",
+  "Consistency, not a gap: the dispositions for philippine-catholicism-era-8 say the Society of Jesus is 'not a party' to the 1768 expulsion because 'the Society's entry ends in 1650'. Groups C and D link the same Society entry for 1656 (Pascal) and 1773 (the suppression), as 'one continuous body'. The Philippine call stands on its other ground (a Crown act). Drop the window reason so the record does not argue both ways.",
+  "Reverse direction: all 83 links touching era-8 movements are in the record, and each names a sentence in its movements' current text. I checked the quoted phrases in named_in_text against census_test.json. Where the old wording was rewritten, the relationship is still named in the new prose (e.g. A0 'Pietism shaped the Moravian Church at Herrnhut'; D2 'The same line of popes carried it into the nineteenth century'; E1 'The synodal system lasted until 1917'). Several named_in_text fields quote pre-change wording. That is fine in the audit record, but the README two-way table should cite the current text.",
+  "the-methodist-revival relationsSummary still says Methodism is the parent 'through Holiness, of Pentecostalism'. It is out of scope here (dispositions: eras 9-10), and the Holiness link carries the first step. Keep it on the era-9/10 list."
+ ],
+ "escalations_view": "No escalation needs a stop for Mark before this pass can proceed. For Mark, log only, not blocking: (1) [F] Armenian lane structure (no Apostolic Church entry for 1650-1815). This is portfolio-level; register it in Open-Gaps with the drafters' options, recommendation (a). (2) [B] English Unitarian precedent (Essex Street) needs a ruling on which entry owns it. Log it; no link until then. (3) [E] No link type for a transfer of jurisdiction. That is a method question for Mark. 'In contact with' plus the stated outcome is a defensible interim, so log it. Log for the owner, no action this pass: [A] the Dutch Further Reformation and Czech-churches cross-era consistency (era-7 owner); [E] the Optina/Dostoevsky consistency (era-9/10 owners); [A] the Mack file header (Library thread); [D] the Swedenborgian '-' placeholder and the missing new-spain continuesAs field (census owner; the continuesAs fix is mechanical once the owner agrees); [F] the Philippine and Armenian fragments, and the public name 'Era-8 Segment' (cataloguing language in a public name; flag it to the census owner); [A] the Methodist 'fastest-growing' fragment; [F] the Athanasius III/IV numbering (nothing needed). One I would act on now rather than only log: [A] the Moravian longDescription/why comparison 'on a scale no other Protestant body approached for another two centuries'. This pass rightly fixed the matching wrong superlative in the same entry's summary (A4). Leaving its twin in the description lets the entry contradict itself. It is a one-clause cut ('from 1732' kept). If the owner rule stops that, at least register it in Open-Gaps. Nothing to do: [A]/[B]/[E] cross-group and cross-era merge notes (the set_aside list already resolves the four duplicates); [B] well-known unsourced facts (the existing Open-Gaps item covers them).",
+ "checked": {
+  "census_diff": "Scripted diff of census_test.json against main's world-census.json. Edges: main 321, test 399. 78 added, every one a 'new' link in the record. 0 removed, 0 changed. The 5 'keep' links are identical to main, and main's edge order is preserved as a prefix. Every record link matches its test edge on id, from, to, type, confidence, note and sources. 14 test edges carry 'outcome', matching the 14 major links. Movements: same 300 ids. Exactly 35 fields changed, all 35 logged prose_changes, with old and new matching byte for byte. No unlogged prose change. eras, statusMeta, retiredLinks and retiredMovements are unchanged. meta differs only in release.number (9 to 99, a test value; make sure the shipped census does not carry 99). tools/validate-census.mjs on census_test with --base main: 0 errors, 2 old shortName warnings. Atlas and tree not checked, since they are not yet rebuilt.",
+  "quotes": "Scripted: all 235 quotes on the 83 links (189 primary plus 46 secondary with a file) appear verbatim, whitespace-normalized, within their stated lines. 0 failures. All 14 outcome_evidence texts are verbatim at their lines and inside a cited quote's range. I read around the cited lines for most links in all six groups: Wesley v1/v2/v3/v5/v6, Petersen, Mack, Brumbaugh, Spangenberg, Penn, Methodist Minutes, Rippon, Dwight/Edwards, the Welsh History, Whitley (Baptist minutes), Pascal/M'Crie, Neale, Guyon, Francke's preface, Crump, Gummere, Bossuet, Hugues, Zucchelli, Faber, Griffiths, Subbotin I/II, Harasiewicz, Paisius 1847, Walsh v1/v2, Mansi 46, Guericke and Carey. The quotes show what the notes say, except where a finding says otherwise. 4 quotes exceed 40 words (R1-18).",
+  "readability": "Scored every note, outcome and new prose field with engine.m7.turn_readability.score_turn. All 78 new notes pass, the lowest at FRE 60.1. The two kept notes fail (R1-09, R1-10). All 14 outcomes pass. All 35 prose fields pass (lowest FRE 60.4, highest FK 8.8), and the scores logged in the record match mine exactly. Sentences over 25 words: 3 notes and 2 prose fields (B10, 27; F4, 26). Every replacement text in the findings was scored, and each figure is given beside it.",
+  "grades_and_types": "Checked each link's type and grade against the brief. No over-grade I would call substantial. Judgment calls I accept: puritanism--the-quakers 'gave rise to' as Documented (Nayler and the Nottinghamshire Baptists are named people from Independent and Baptist churches, in Fox's Journal); King's Chapel as the Documented 'gave rise to' for the Unitarian thread (the note is honest that it is one congregation); restoration--welsh 'broke with' Documented on the Welsh side only (dated ordinations of 1811); both Shaker links Documented on the Shakers' own late account (the notes say so plainly); czech--moravian Contested, with each side sourced; kongo--antonian Widely Accepted only just (R1-14).",
+  "prose_fidelity": "Read all 35 prose changes old against new, with their reasons. Most are faithful corrections: wrong facts fixed (D1 nonjurors, A4 'decades before any other', B6 Carey's 'opened the era', F0 'answer to Trent'), and unsupported influence claims qualified with the reason. Facts I spot-checked against the texts: Guericke on Francke choosing the Tranquebar missionaries; Carey naming Tranquebar and the Moravians; Wheatley and Occom vendored and in the entry's own sources; Ken on the nonjurors. Problems: B7/B8 (R1-04), F4 (R1-19), E3 (R1-20), F0 (R1-21), E2 (R1-22) and the repeated 'no text we hold' clause (R1-23). Voice is kept: each field keeps its imagery ('a wave that carried', 'the hidden-seed story', the gate at the Phanar).",
+  "symmetry_ids_licenses": "Every broke-with and in-contact-with link has from < to. Every from/to id exists. Every primary source is public-domain. No census or atlas IDs and no build words in any note, beyond R1-06 and R1-07. No British spellings in notes or outcomes.",
+  "settled_rulings": "No link touches the Philocalia of Origen. The ruling crediting it to Basil and Gregory of Nazianzus is undisturbed."
+ }
+}

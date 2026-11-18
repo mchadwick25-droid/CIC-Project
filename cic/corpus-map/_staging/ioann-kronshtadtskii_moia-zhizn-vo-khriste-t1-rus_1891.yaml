@@ -1,0 +1,21 @@
+source_file: ioann-kronshtadtskii_moia-zhizn-vo-khriste-t1-rus_1891.txt
+assignments:
+- row_id: ioann-kronshtadtskii_moia-zhizn-vo-khriste-t1-rus_1891--work
+  work: Моя жизнь во Христе, или минуты духовнаго трезвенія и созерцанія, благоговѣйнаго чувства, душевнаго
+  author: ioann-kronshtadtskii
+  locus: the whole volume; not mapped
+  atlas_ids:
+  - russian-church-synodal-century
+  role: tradition
+  confidence: provisional
+  language: rus
+  date:
+    start: 1891
+    end: 1891
+    source: 'the printing''s own title page: line 65 of this file, on the title page'
+    formation_confidence: Documented
+  edition_date:
+    year: 1891
+    source: line 65 of this file, on the title page
+    formation_confidence: Documented
+  note: 'Era 9 row 297, John of Kronstadt: extracts from his diary, in Russian, vol. 1.'

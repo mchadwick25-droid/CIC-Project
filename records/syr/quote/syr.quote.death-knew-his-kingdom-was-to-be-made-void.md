@@ -16,8 +16,7 @@ confidence:
     Documented as Aphrahat's own argument in the standard English of the NPNF volume, read directly at the section cited. Johnston's English after Parisot's Syriac; a fourth-century Persian text reaching us through a nineteenth-century Latin-mediated edition.
 sources:
 - source_id: syr.source.aphrahat-select-demonstrations
-  locus: >-
-    Demonstration XXII (Of Death and the Latter Times), sec. 5 (npnf213_gregory-great-ephraim-syrus-aphrahat.xml)
+  locus: "Demonstration XXII (Of Death and the Latter Times), sec. 5 (cic/texts/npnf213_gregory-great-ephraim-syrus-aphrahat.xml, lines 28079-28087)"
   license: public-domain
 text: >-
   Even as when a man has taken a poison in the food which is given for (the support of) life, when he perceives in himself that he has received poison in the food, then he casts up again from his belly the food in which poison was mingled; but the drug leaves its power in his limbs, so that by little and little the structure of his body is dissolved and corrupted. So Jesus dead was the bringer to nought of Death; for through Him life is made to reign, and through Him Death is abolished, to whom it is said:—O Death, where is thy victory?

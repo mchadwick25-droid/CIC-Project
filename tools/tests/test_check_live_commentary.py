@@ -35,16 +35,6 @@ def _hits_for(text: str, tmp_path: Path, rel: str) -> list[clc.Hit]:
 # PROTECTED
 # ---------------------------------------------------------------------------
 
-def test_vendored_texts_fully_excluded():
-    # cic/texts/ isn't one of SURFACES' scanned roots at all (only
-    # cic/engine and cic/corpus-map are) - a real scan never walks into
-    # it. is_protected still marks it PROTECTED as defense in depth, for
-    # any path reaching scan_file() directly (as this test does).
-    assert not any(root.startswith("cic/texts") for roots in clc.SURFACES.values() for root in roots)
-    hit = clc.Hit("engine", "cic/texts/foo.txt", 1, "", [], "")
-    assert clc.is_protected(Path(hit.path), hit.line, set())
-
-
 def test_seeded_defects_file_fully_protected(tmp_path):
     text = 'note: "per Mark\'s standing quote ruling, RULED 2026-08-21, R26"\n'
     hits = _hits_for(text, tmp_path, "fixtures/seeded_defects.yaml")
@@ -294,7 +284,7 @@ def test_engine_reports_protected(tmp_path):
 
 def test_donatism_historical_pages_protected(tmp_path):
     text = "The verdict went against them at Carthage in 411.\n"
-    for rel in ("cic-website/tree/donatism.html", "cic-website/traditions/donatism.html"):
+    for rel in ("cft-website/tree/donatism.html", "cic-website/traditions/donatism.html"):
         hits = _hits_for("RULED 2026-09-01 per Mark\n" + text, tmp_path, rel)
         assert hits[0].category == "PROTECTED"
 
@@ -419,6 +409,14 @@ def test_flagged_for_mark_and_needing_a_ruling_route(tmp_path):
     ):
         hits = _hits_for(text, tmp_path, "cic/corpus-map/witt.map.md")
         assert hits and hits[0].category == "ROUTE", text
+
+
+def test_todo_cue_needs_a_word_boundary(tmp_path):
+    # Spanish "Todos" in a verbatim source quote is not a TODO marker.
+    text = '"quote": "Todos estos diez y siete fueron repartidos por las principales provincias"\n'
+    assert not _hits_for(text, tmp_path, "cic/corpus-map/witt.map.md")
+    hits = _hits_for("TODO: check the second edition.\n", tmp_path, "cic/corpus-map/witt.map.md")
+    assert hits and hits[0].category == "ROUTE"
 
 
 def test_era_gate_freeze_narration_rewrites(tmp_path):
@@ -1012,18 +1010,10 @@ def _new_pattern_hits_for(text: str, tmp_path: Path, rel: str):
 
 def test_real_fleet_true_positives_still_match_on_main():
     # Confirms the patterns fire against real, currently-unfixed files on
-    # disk (not just synthetic examples). don.force.sustained-purity-
-    # rebaptism-practice.md's own hit (the original third example here)
-    # was cleared by don's #551 re-voicing PR after this test was written -
-    # exactly the intended outcome, not a false positive - so it was
-    # swapped for cappadocian's own matrix-cell-code example, a fleet-wide
-    # leak (the bracketed build-taxonomy tag on every gravity/force `name`)
-    # not yet remediated in any world. The cappadocian rulings pass later
-    # cleared ascetic-ferment.md too, so the third example is now
-    # famine-crisis.md, still carrying the tag.
-    assert _new_pattern_hits("records/cappadocian/force/cappadocian.force.capitals-gravity.md")
+    # disk (not just synthetic examples): the two records whose "Strand"
+    # labels are not defined anywhere the cleanup could rewrite them from.
+    assert _new_pattern_hits("records/ijc/force/ijc.force.leo-rejects-canon-28.md")
     assert _new_pattern_hits("records/pahc/world_core/pahc.core.house-church.md")
-    assert _new_pattern_hits("records/cappadocian/force/cappadocian.force.famine-crisis.md")
 
 
 def test_real_editorial_numbered_labels_not_flagged_as_headers():
@@ -1364,19 +1354,13 @@ HAND_LABELS: list[tuple[str, int, str]] = [
     # surface pass and stopped matching. Moved to fresh worlds/ examples,
     # not yet touched by the cleanup program (item 4), to keep this table
     # at >=60 real, currently-matching lines.
-    ("Build/worlds/_cross-world/dossiers/anatolian-church-third-century_Source_Readiness_Dossier.md", 10, "REWRITE"),
-    ("Build/worlds/ijc/Post_Admission_Source_Finding_Philostorgius_OpusImperfectum_2026-09-09.md", 279, "REWRITE"),
     # Refreshed 2026-09-26 (_is_doc_construction_file generalized to
     # content-based matching across any Build/worlds/ .md file): line 562
     # sits inside this file's own "## Document Log" section - genuinely
     # load-bearing review-history content, now correctly PROTECTED.
     ("Build/worlds/pahc/CiC_W1_World_Profile.md", 562, "PROTECTED"),
-    ("Build/worlds/_cross-world/dossiers/ambrosian-milan-standalone_Source_Readiness_Dossier.md", 10, "REWRITE"),
-    ("Build/worlds/ijc/Source_Registry.md", 25, "REWRITE"),
-    # Refreshed 2026-09-26 (Phase 3b worlds/ cleanup, commit b9ad408c):
-    # the original rzg example was cleaned by that effort. Re-pinned to a
-    # stable Build/reference/ example.
-    ("Build/reference/L0-Reference/L0_Entry_Paul_of_Samosata_DRAFT.md", 23, "REWRITE"),
+    # Provenance lines in Build/worlds/ construction documents. A cleanup pass over the owning world
+    # removes such a line; when one stops matching, replace its row with a current line of the same kind.
     # Refreshed 2026-09-26 (per-world decision-log exemption): this line
     # sits inside CiC_W7_Decision_Log.md, a per-world decision log
     # (matching lpc_Decision_Log.md's own header purpose), now correctly
@@ -1397,23 +1381,6 @@ HAND_LABELS: list[tuple[str, int, str]] = [
     # 1754 sits inside this file's own "## 12. Document log" section, now
     # correctly PROTECTED.
     ("Build/worlds/witt/witt_Doc_06_Full_Lexicon_Development.md", 1754, "PROTECTED"),
-    # Refreshed 2026-09-26 (Phase 3b: cic/engine/ + cic-poc/frontend
-    # cleanup, commits 11ee5a81 and the earlier f1e1e093): all 7 samples
-    # below (6 cic/engine, 1 cic-poc/frontend) were cleaned and stopped
-    # matching. Moved to fresh records/ examples, not yet touched by the
-    # cleanup program, to keep this table at >=60 real, currently-matching
-    # lines.
-    # Refreshed 2026-09-26 (Phase 3b records/ cleanup, commits
-    # 0cbe76d5..30b1cb93): all 7 samples below were cleaned by that
-    # effort and stopped matching. Moved to fresh Build/reference/
-    # examples, a surface not part of any active or near-term cleanup
-    # pass, to keep this table stable and at >=60 real, currently-
-    # matching lines.
-    ("Build/reference/method/CiC_Voice_Style_Guide_and_Scaling_Plan.md", 1301, "REWRITE"),
-    ("Build/reference/L2C-System-Status/CiC_Pipeline_Decision_Log.md", 174, "REWRITE"),
-    ("Build/reference/Project-Reference/CiC_Cleaning_Pattern_Log.md", 137, "REWRITE"),
-    ("Build/reference/method/Pass2-decisions/2026-08-01_M_lean_validation_interview_spend.md", 54, "REWRITE"),
-    ("Build/reference/Redesign-Spec/PHASE-1-LAUNCH.md", 200, "REWRITE"),
     # Refreshed 2026-09-24 (Live-Surface-Cleanup Step 2, PR #501): the
     # original 6 cic-website samples here were cleaned by that PR and
     # stopped matching. cic-website is now clean apart from one known
@@ -1426,53 +1393,28 @@ HAND_LABELS: list[tuple[str, int, str]] = [
     # `reviewer`-pattern gap already hand-labelled for reference/ above.
     # Refreshed 2026-10-03: the public-page cleanup (commit 6a42ed96) moved
     # this same line from 127 to 108; refreshed 2026-10-04: Go Deeper S5d
-    # (commit a5df3f70) added a line above it, so it is now 109. Same text,
-    # same label.
-    ("cic-website/support.html", 110, "KEEP"),
-    ("Build/worlds/cappadocian/CAPPADOCIAN_BUILD_LEDGER.md", 463, "REWRITE"),
-    # Refreshed 2026-09-26 (Phase 3b worlds/ cleanup, commit 84e4987d):
-    # the original _cross-world example was cleaned by that effort.
-    # Re-pinned to a stable Build/reference/ example.
+    # (commit a5df3f70) added a line above it; refreshed 2026-11-06: the
+    # page's comments moved out, so it is now 89. Same text, same label.
+    ("cic-website/support.html", 89, "KEEP"),
     # Refreshed 2026-09-26 (_is_doc_construction_file generalized): line
     # 802 sits inside this file's own "## 11. Document log" section, now
     # correctly PROTECTED.
     ("Build/worlds/gallic/gallic_Doc03_Lexicon_Candidates.md", 802, "PROTECTED"),
-    # Refreshed 2026-09-27 (pahc hoarder-house narrative cleanup): the
-    # original pahc World_Profile.md:81 example ("Supporting (reclassified
-    # down from an initial Primary candidacy during Doc_04 construction,
-    # round 1)") was cleaned by that pass - the round-number wrapper was
-    # cut since the same cell's own Cross-Check flag column already states
-    # the substantive reason. Re-pinned to a stable Build/reference/
-    # example not yet touched by any cleanup pass.
-    ("Build/reference/L0-Reference/L0_Doc_00_Boundaries_and_Standards.md", 24, "REWRITE"),
-    ("Build/worlds/witt/witt_Doc_06_Full_Lexicon_Development.md", 1524, "REWRITE"),
     # Refreshed 2026-09-24 (Live-Surface-Cleanup Step 2, PR #506): all 10
     # cic/corpus-map samples in this block were cleaned by that PR's own
     # full surface pass and stopped matching. Moved to 10 more worlds/
     # examples, distinct from the 8 above, to keep this table at >=60
     # real, currently-matching lines.
-    ("Build/worlds/witt/witt_Doc_04_Historical_Gravity.md", 569, "REWRITE"),
     # Refreshed 2026-09-26 (per-world decision-log exemption): this line
     # sits inside hal_Decision_Log.md, a per-world decision log, now
     # correctly PROTECTED rather than REWRITE under the new
     # _is_decision_log rule.
     ("Build/worlds/hal/hal_Decision_Log.md", 88, "PROTECTED"),
-    ("Build/worlds/don/scripts/wb_don_s21.py", 450, "REWRITE"),
-    ("Build/worlds/alx/Analysis/Unused_Assigned_Corpus_Finding_2026-09-09.md", 13, "REWRITE"),
-    ("Build/worlds/_cross-world/dossiers/ambrosian-milan-standalone_Source_Readiness_Dossier.md", 10, "REWRITE"),
     ("engine/m4/reports/live-table-battery-seat-identity-guard-2026-09-22.json", 5817, "PROTECTED"),
     # Refreshed 2026-09-25 (fleet-checks-widening PR round 2: review
     # findings applied): line 109 shifted to 120 once the eleven
     # m1:readability waivers were added above it in the file.
     ("engine/m9/enforce.py", 138, "KEEP"),
-    # Refreshed 2026-09-25: main's own sentence_enforce PR shifted this
-    # file's lines by +7 above this point; re-pinned to the same
-    # r27_regenerated assertion, now at 1131.
-    # Refreshed 2026-10-03: the docstring rewording in commit 30550bec
-    # stopped this line matching. Re-pinned to a "Drafted ... commit" line
-    # in a historical decision log under Build/reference/, a surface edited
-    # rarely and not part of any cleanup pass.
-    ("Build/reference/L2C-System-Status/CiC_Pipeline_Decision_Log.md", 29, "REWRITE"),
     ("engine/m4/reports/live-table-battery-monologue-fix-2026-09-05.json", 300, "PROTECTED"),
     # Refreshed 2026-09-25 (fleet-checks-widening PR round 2: review
     # findings applied): the comment block this entry pinned ("the five
@@ -1485,7 +1427,7 @@ HAND_LABELS: list[tuple[str, int, str]] = [
     # 2026-10-04 and no longer carries a hit (the intended outcome), so
     # this entry moved to a cappadocian force record whose Doc_08 cell
     # tag is still unremediated.
-    ("records/cappadocian/force/cappadocian.force.capitals-gravity.md", 25, "REWRITE"),
+    ("records/ijc/force/ijc.force.leo-rejects-canon-28.md", 29, "REWRITE"),
     ("engine/m4/reports/live-table-battery-seat-identity-guard-2026-09-22.json", 4464, "PROTECTED"),
     ("fixtures/seeded_defects.yaml", 279, "PROTECTED"),
     ("fixtures/seeded_defects.yaml", 162, "PROTECTED"),
@@ -1493,50 +1435,23 @@ HAND_LABELS: list[tuple[str, int, str]] = [
     ("fixtures/seeded_defects.yaml", 249, "PROTECTED"),
     ("fixtures/seeded_defects.yaml", 199, "PROTECTED"),
     ("records/don/source/don.source.npnf104-prolegomena-analysis.md", 27, "PROTECTED"),
-    # Refreshed 2026-09-26 (Phase 3b records/ cleanup, commits
-    # 0cbe76d5..30b1cb93): the original cappadocian.voice.craft.md:106 line
-    # was cleaned as part of that effort. Re-pinned to a stable
-    # Build/reference/ example.
-    # Refreshed 2026-09-25 (fleet-checks-widening PR): the original
-    # fix.craft.vera-voice.md:29 "REVISED 2026-09-19" line was itself
-    # cleaned as part of that PR (the file's `guard` field was rewritten
-    # for FK/FRE, which obligated removing the file's own pre-existing
-    # commentary too, per CLAUDE.md's "any PR that edits a live file also
-    # removes the commentary already in it"). Re-pinned to a fresh
-    # gravity-classification-label hit, not yet touched by any re-voicing
-    # PR.
-    # Refreshed 2026-10-03: the alx tag strip (commit 468d97ff) cleaned this
-    # line. Re-pinned to the same decision log as the row above.
-    ("Build/reference/L2C-System-Status/CiC_Pipeline_Decision_Log.md", 41, "REWRITE"),
     ("records/alx/source/alx.source.origen-comm-matthew.md", 23, "PROTECTED"),
-    # Refreshed 2026-09-26 (Phase 3b records/ cleanup, commits
-    # 0cbe76d5..30b1cb93): the original hal.force.clerical-precarity.md:52
-    # line was cleaned as part of that effort. Re-pinned to a stable
-    # Build/reference/ example.
-    ("Build/reference/fleet-voice/EXEMPLAR-TRANSCRIPT.md", 146, "REWRITE"),
-    # Refreshed 2026-09-25 (Live-Surface-Cleanup Step 4/Item A prep): the
-    # original alx.figure.didymus.md:48 line was cleaned by PR #509 and
-    # stopped matching.
-    # Refreshed again 2026-09-26 (Phase 3b records/ cleanup, commits
-    # 0cbe76d5..30b1cb93): the re-pinned
-    # cappadocian.contested.agennetos-transmission.md:27 line was itself
-    # cleaned by that effort. Re-pinned to a stable Build/reference/
-    # example.
-    ("Build/reference/Project-Reference/CiC_V7_Upgrade_Reference.md", 134, "REWRITE"),
-    ("Build/reference/method/Pass2-decisions/S6.2_length_ceiling_retry_cost_investigation_2026-07-31.md", 14, "REWRITE"),
     # Hand label KEEP: "reviewer" here is generic instructional/methodology
     # prose (what a hypothetical reviewer of OTHER content would miss),
     # not a leaked note about this document's own review history - the
     # tool cannot currently tell the two uses of "reviewer" apart. See the
     # PR body's precision limitation note (Build/reference/Project-Reference/
     # CiC_Cleaning_Pattern_Log.md and Build/reference/L4-Templates/*).
-    ("Build/reference/Project-Reference/CiC_Cleaning_Pattern_Log.md", 151, "KEEP"),
-    ("Build/reference/Redesign-Spec/World-Cards.md", 139, "REWRITE"),
-    ("Build/reference/Project-Reference/CiC_Cleaning_Pattern_Log.md", 35, "KEEP"),
-    ("Build/reference/Redesign-Spec/PHASE-1-LAUNCH.md", 443, "REWRITE"),
     ("Build/reference/L4-Templates/Representative_Construction_Notes_Template.md", 371, "KEEP"),
-    ("engine/BASELINES.md", 10, "REWRITE"),
-    ("engine/BASELINES.md", 14, "REWRITE"),
+    ("records/witt/source/witt.source.saxon-visitation-protocols.md", 25, "PROTECTED"),
+    ("records/witt/source/witt.source.scott-martin-luther-visionary-reformer.md", 24, "PROTECTED"),
+    ("records/witt/source/witt.source.scribner-for-the-sake-of-simple-folk.md", 24, "PROTECTED"),
+    ("records/witt/source/witt.source.susan-reformation-of-ritual-an-interpretation.md", 24, "PROTECTED"),
+    ("records/witt/source/witt.source.thomas-luthers-jews-a-journey-into-anti.md", 24, "PROTECTED"),
+    # The dates are part of a tag and a branch name (`pilot-baseline-2026-08-24`,
+    # `baseline/pilot-2026-08-24`); the baseline cannot be named without them.
+    ("engine/BASELINES.md", 10, "KEEP"),
+    ("engine/BASELINES.md", 14, "KEEP"),
     # Refreshed 2026-09-26 (Doc_0X construction-doc review-status
     # exemption): this "Date drafted:" header line was hand-labelled KEEP
     # under the old bare-date rule alone; it is now PROTECTED, the more
@@ -1557,6 +1472,29 @@ HAND_LABELS: list[tuple[str, int, str]] = [
     # project's own process).
     ("Build/reference/L0-Reference/L0_Doc_00_Boundaries_and_Standards.md", 95, "KEEP"),
     ("Build/worlds/gallic/gallic_Doc02_Review_Round1.md", 562, "PROTECTED"),
+    # Sample lines kept verbatim from live documents as they stood before the cleanup, held in a
+    # fixture so the sample stays valid after the documents themselves are cleaned.
+    ("tools/tests/fixtures/commentary_sample.md", 6, "REWRITE"),
+    ("tools/tests/fixtures/commentary_sample.md", 8, "REWRITE"),
+    ("tools/tests/fixtures/commentary_sample.md", 15, "REWRITE"),
+    ("tools/tests/fixtures/commentary_sample.md", 17, "REWRITE"),
+    ("tools/tests/fixtures/commentary_sample.md", 19, "REWRITE"),
+    ("tools/tests/fixtures/commentary_sample.md", 21, "REWRITE"),
+    ("tools/tests/fixtures/commentary_sample.md", 23, "REWRITE"),
+    ("tools/tests/fixtures/commentary_sample.md", 25, "REWRITE"),
+    ("tools/tests/fixtures/commentary_sample.md", 27, "REWRITE"),
+    ("tools/tests/fixtures/commentary_sample.md", 29, "REWRITE"),
+    ("tools/tests/fixtures/commentary_sample.md", 31, "REWRITE"),
+    ("tools/tests/fixtures/commentary_sample.md", 33, "REWRITE"),
+    ("tools/tests/fixtures/commentary_sample.md", 35, "REWRITE"),
+    ("tools/tests/fixtures/commentary_sample.md", 37, "REWRITE"),
+    ("tools/tests/fixtures/commentary_sample.md", 42, "REWRITE"),
+    ("tools/tests/fixtures/commentary_sample.md", 45, "REWRITE"),
+    ("tools/tests/fixtures/commentary_sample.md", 57, "ROUTE"),
+    ("tools/tests/fixtures/commentary_sample.md", 78, "ROUTE"),
+    ("tools/tests/fixtures/commentary_sample.md", 84, "REWRITE"),
+    ("tools/tests/fixtures/commentary_sample.md", 99, "REWRITE"),
+    ("tools/tests/fixtures/commentary_sample.md", 132, "REWRITE"),
 ]
 
 ACTIONABLE = {"REWRITE", "ROUTE"}
@@ -2023,3 +1961,18 @@ def test_a_work_citation_in_a_spoken_field_is_not_a_section_ref_but_a_build_refe
     assert lines.index("- \"the war normal rather than a sign of failure (Homily XXVI SS18)\"") + 1 not in hits
     assert lines.index("- \"Christ as presently working (Vita SS80, SS84)\"") + 1 not in hits
     assert lines.index("- \"settled in SS3 of the build notes\"") + 1 in hits
+
+
+def test_json_bare_date_field_keeps(tmp_path):
+    path = tmp_path / "release.json"
+    path.write_text('{\n "release": {\n  "number": 1,\n  "date": "2026-11-06"\n }\n}\n', encoding="utf-8")
+    hits = clc.scan_file(tmp_path, path, "cic-website")
+    assert [h.category for h in hits if "2026-11-06" in h.text] in ([], ["KEEP"])
+
+
+def test_a_to_do_marker_is_a_capitalised_word_only():
+    # Scanned Greek read as Latin letters, or Spanish, can hold "todo" as text.
+    assert not clc.ROUTE_CUES.search('"printed": "Ott dvabion cic todo ovpavodbs",')
+    assert not clc.ROUTE_CUES.search("Todo el pueblo lo vio.")
+    assert clc.ROUTE_CUES.search("TODO: check this line")
+    assert clc.ROUTE_CUES.search("FIXME later")

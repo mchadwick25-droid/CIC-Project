@@ -1,0 +1,1321 @@
+{
+ "group": "A",
+ "movements": [
+  "the-ecumenical-movement-and-the-wcc",
+  "the-social-gospel",
+  "the-east-african-revival-balokole",
+  "japanese-christianity-after-1906",
+  "the-third-wave-and-the-vineyard",
+  "seventh-day-adventist-church-twentieth-century"
+ ],
+ "dispositions": [
+  {
+   "movement": "the-ecumenical-movement-and-the-wcc",
+   "field": "relationsSummary",
+   "sentence": "The World Missionary Conference at Edinburgh in 1910 set three streams running: the International Missionary Council, founded in 1921; Life and Work, from 1925; and Faith and Order, from 1927.",
+   "other_id": "the-student-volunteer-movement-and-edinburgh-191",
+   "disposition": "link",
+   "link_id": "the-student-volunteer-movement-and-edinburgh-191--the-ecumenical-movement-and-the-wcc",
+   "prose_change": 0,
+   "reason": "Existing link regraded to Widely Accepted on the council's own history page and Marotta 2024, both read online. The sentence is split for reading level."
+  },
+  {
+   "movement": "the-ecumenical-movement-and-the-wcc",
+   "field": "relationsSummary",
+   "sentence": "These converged into the World Council of Churches, constituted at Amsterdam in 1948, with the missionary council merging in at New Delhi in 1961.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 0,
+   "reason": "The International Missionary Council, Life and Work and Faith and Order have no movement of their own. The 1961 merger is in the council's own history page (read online); the sentence is kept, split for reading level."
+  },
+  {
+   "movement": "the-ecumenical-movement-and-the-wcc",
+   "field": "relationsSummary",
+   "sentence": "Orthodox churches were members, while the Roman Catholic Church worked alongside it without joining.",
+   "other_id": "the-greek-church-and-the-ecumenical-patriarchate",
+   "disposition": "link",
+   "link_id": "the-greek-church-and-the-ecumenical-patriarchate--the-ecumenical-movement-and-the-wcc",
+   "prose_change": 0,
+   "reason": "The Greek church's text hands Orthodox membership to this entry. Drafted as an influence link on the 1920 encyclical, which the council names among its roots; the prose adds the 1920 call."
+  },
+  {
+   "movement": "the-ecumenical-movement-and-the-wcc",
+   "field": "relationsSummary",
+   "sentence": "Orthodox churches were members, while the Roman Catholic Church worked alongside it without joining.",
+   "other_id": "the-catholic-church-pius-x-to-the-council",
+   "disposition": "qualify",
+   "link_id": "the-catholic-church-pius-x-to-the-council--the-ecumenical-movement-and-the-wcc",
+   "prose_change": 0,
+   "reason": "'Worked alongside it' holds only after the Second Vatican Council (council's own history page). Before that, Pius XI's Mortalium Animos (1928) forbade Catholics to take part. Qualified, with a new 'argued against' link from the Catholic entry of 1906-1962."
+  },
+  {
+   "movement": "the-ecumenical-movement-and-the-wcc",
+   "field": "relationsSummary",
+   "sentence": "It stands as a counterpart to the Lausanne movement of 1974, the evangelical alternative answer to the same question of how divided churches should work together, and it grew out of the institutional world built by mainline liberal Protestantism and neo-orthodoxy.",
+   "other_id": "lausanne-era-global-evangelicalism",
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 0,
+   "reason": "A comparison, not a claim of contact or influence. No source for Lausanne answering the council was read: the Lausanne Covenant (1974) could not be opened as text in this run (in wants). Recast as the map's own comparison, as the legacy field already frames it. Group F owns the Lausanne text's matching sentence."
+  },
+  {
+   "movement": "the-ecumenical-movement-and-the-wcc",
+   "field": "relationsSummary",
+   "sentence": "It stands as a counterpart to the Lausanne movement of 1974, the evangelical alternative answer to the same question of how divided churches should work together, and it grew out of the institutional world built by mainline liberal Protestantism and neo-orthodoxy.",
+   "other_id": "the-mainline-century-liberal-and-neo-orthodox",
+   "disposition": "qualify",
+   "link_id": "the-mainline-century-liberal-and-neo-orthodox--the-ecumenical-movement-and-the-wcc",
+   "prose_change": 0,
+   "reason": "The read source says only that the first member churches were mostly Protestant and Western. Qualified to 'may have grown in part out of', with the reason; link at Inferential-Thin."
+  },
+  {
+   "movement": "the-ecumenical-movement-and-the-wcc",
+   "field": "relationsSummary",
+   "sentence": "In Africa, churches formed the All Africa Conference of Churches.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 0,
+   "reason": "The All Africa Conference of Churches has no movement of its own. Its dates rest on the conference's own history page, cited in the census and not reopened here; kept, split for reading level."
+  },
+  {
+   "movement": "the-ecumenical-movement-and-the-wcc",
+   "field": "relationsSummary",
+   "sentence": "In 1971 the Kenyan theologian John Gatu first called for a moratorium on missionaries.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "A person and an event; the census source notes the place of the call is disputed. Kept unchanged."
+  },
+  {
+   "movement": "the-ecumenical-movement-and-the-wcc",
+   "field": "longDescription",
+   "sentence": "The World Missionary Conference at Edinburgh in 1910 left three currents running, which came together over the following decades.",
+   "other_id": "the-student-volunteer-movement-and-edinburgh-191",
+   "disposition": "link",
+   "link_id": "the-student-volunteer-movement-and-edinburgh-191--the-ecumenical-movement-and-the-wcc",
+   "prose_change": 1,
+   "reason": "Existing link, regraded. Field rewritten for reading level (it scored FRE 50)."
+  },
+  {
+   "movement": "the-ecumenical-movement-and-the-wcc",
+   "field": "longDescription",
+   "sentence": "Orthodox churches were members.",
+   "other_id": "the-greek-church-and-the-ecumenical-patriarchate",
+   "disposition": "link",
+   "link_id": "the-greek-church-and-the-ecumenical-patriarchate--the-ecumenical-movement-and-the-wcc",
+   "prose_change": null,
+   "reason": "Carried by the new influence link; the sentence stands."
+  },
+  {
+   "movement": "the-ecumenical-movement-and-the-wcc",
+   "field": "longDescription",
+   "sentence": "The Roman Catholic Church was not, and worked with it in other ways.",
+   "other_id": "the-catholic-church-pius-x-to-the-council",
+   "disposition": "qualify",
+   "link_id": "the-catholic-church-pius-x-to-the-council--the-ecumenical-movement-and-the-wcc",
+   "prose_change": 1,
+   "reason": "Qualified to name the 1928 ruling and to date the working relationship after the Second Vatican Council."
+  },
+  {
+   "movement": "the-ecumenical-movement-and-the-wcc",
+   "field": "longDescription",
+   "sentence": "In the Middle East, the Middle East Council of Churches held its first assembly at Nicosia from 28 to 30 May 1974.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The Middle East Council of Churches has no movement of its own; its date rests on the council's own page cited in the census."
+  },
+  {
+   "movement": "the-ecumenical-movement-and-the-wcc",
+   "field": "why",
+   "sentence": "The World Missionary Conference at Edinburgh in 1910 left three currents running — the International Missionary Council, founded in 1921, and the Life and Work and Faith and Order movements of the 1920s — and they converged in the World Council of Churches, constituted at Amsterdam in 1948 with 147 member churches, with the missionary council joining at New Delhi in 1961.",
+   "other_id": "the-student-volunteer-movement-and-edinburgh-191",
+   "disposition": "link",
+   "link_id": "the-student-volunteer-movement-and-edinburgh-191--the-ecumenical-movement-and-the-wcc",
+   "prose_change": 2,
+   "reason": "Existing link, regraded. Field rewritten for reading level (it scored FRE 42; this sentence ran to 58 words)."
+  },
+  {
+   "movement": "the-ecumenical-movement-and-the-wcc",
+   "field": "why",
+   "sentence": "Orthodox churches belonged to it, while the Roman Catholic Church worked alongside it without joining.",
+   "other_id": "the-catholic-church-pius-x-to-the-council",
+   "disposition": "qualify",
+   "link_id": "the-catholic-church-pius-x-to-the-council--the-ecumenical-movement-and-the-wcc",
+   "prose_change": 2,
+   "reason": "Qualified as in the other fields."
+  },
+  {
+   "movement": "the-ecumenical-movement-and-the-wcc",
+   "field": "why",
+   "sentence": "Orthodox churches belonged to it, while the Roman Catholic Church worked alongside it without joining.",
+   "other_id": "the-greek-church-and-the-ecumenical-patriarchate",
+   "disposition": "link",
+   "link_id": "the-greek-church-and-the-ecumenical-patriarchate--the-ecumenical-movement-and-the-wcc",
+   "prose_change": 2,
+   "reason": "Carried by the new influence link."
+  },
+  {
+   "movement": "the-ecumenical-movement-and-the-wcc",
+   "field": "legacy",
+   "sentence": "This map draws it as the counter-pole to the Lausanne movement of 1974 — two different answers, from the same century, to the question of how churches that disagree should work together — and as the institutional home of the mainline century that built it.",
+   "other_id": "lausanne-era-global-evangelicalism",
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": 3,
+   "reason": "Framed openly as the map's comparison, not a historical tie; no link. Kept in substance, split for reading level."
+  },
+  {
+   "movement": "the-ecumenical-movement-and-the-wcc",
+   "field": "legacy",
+   "sentence": "This map draws it as the counter-pole to the Lausanne movement of 1974 — two different answers, from the same century, to the question of how churches that disagree should work together — and as the institutional home of the mainline century that built it.",
+   "other_id": "the-mainline-century-liberal-and-neo-orthodox",
+   "disposition": "qualify",
+   "link_id": "the-mainline-century-liberal-and-neo-orthodox--the-ecumenical-movement-and-the-wcc",
+   "prose_change": 3,
+   "reason": "'The mainline century that built it' qualified to 'which may have helped to build it'; see the Inferential-Thin link."
+  },
+  {
+   "movement": "the-social-gospel",
+   "field": "relationsSummary",
+   "sentence": "This was the social-reform wing of the same era, beginning with Washington Gladden in 1886, Rauschenbusch's pastorate in Hell's Kitchen from that same year, and Charles Sheldon's novel in 1896.",
+   "other_id": null,
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "People and books, not a movement relationship; the census lists the works as the movement's primaries. Rauschenbusch and Gladden are not vendored (in wants)."
+  },
+  {
+   "movement": "the-social-gospel",
+   "field": "relationsSummary",
+   "sentence": "The Federal Council of Churches' 1908 Social Creed anchors it to the mainline Protestant tradition that later absorbed its stream into its own social agencies.",
+   "other_id": "the-mainline-century-liberal-and-neo-orthodox",
+   "disposition": "link",
+   "link_id": "the-social-gospel--the-mainline-century-liberal-and-neo-orthodox",
+   "prose_change": null,
+   "reason": "New influence link on the Social Creed (read online on the National Council of Churches' page) and the repo-cited histories."
+  },
+  {
+   "movement": "the-social-gospel",
+   "field": "relationsSummary",
+   "sentence": "The Federal Council of Churches' 1908 Social Creed anchors it to the mainline Protestant tradition that later absorbed its stream into its own social agencies.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The Federal Council of Churches has no movement of its own. Its May 1908 founding and the creed's adoption are read on the National Council of Churches' pages."
+  },
+  {
+   "movement": "the-social-gospel",
+   "field": "relationsSummary",
+   "sentence": "Reinhold Niebuhr's 1932 critique challenged the movement's optimism from within that same broader current.",
+   "other_id": "the-mainline-century-liberal-and-neo-orthodox",
+   "disposition": "link",
+   "link_id": "the-mainline-century-liberal-and-neo-orthodox--the-social-gospel",
+   "prose_change": null,
+   "reason": "New 'argued against' link at Dominant Modern Reconstruction on Evans and Dorrien, both cited in the census."
+  },
+  {
+   "movement": "the-social-gospel",
+   "field": "longDescription",
+   "sentence": "In 1908 the newly formed Federal Council of Churches adopted the Social Creed of the Churches — the movement's clearest institutional mark, and the ancestor of the denominational social statements that came after it.",
+   "other_id": "the-mainline-century-liberal-and-neo-orthodox",
+   "disposition": "link",
+   "link_id": "the-social-gospel--the-mainline-century-liberal-and-neo-orthodox",
+   "prose_change": null,
+   "reason": "Carried by the influence link. The 'ancestor' clause rests on the census-cited histories; the National Council of Churches' history lists its later social policy statements."
+  },
+  {
+   "movement": "the-social-gospel",
+   "field": "longDescription",
+   "sentence": "He and others formed the Brotherhood of the Kingdom in 1892.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The Brotherhood of the Kingdom has no movement of its own; the date rests on the census's cited works."
+  },
+  {
+   "movement": "the-social-gospel",
+   "field": "why",
+   "sentence": "Charles Sheldon's 1896 novel In His Steps put the same impulse into a question anyone could ask before acting — what would Jesus do — while the Federal Council of Churches adopted the movement's own Social Creed in 1908.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The Federal Council has no movement of its own; the 1908 adoption is read online."
+  },
+  {
+   "movement": "the-social-gospel",
+   "field": "why",
+   "sentence": "Rauschenbusch's death in 1918 and the war's blow to reform-minded optimism effectively ended the movement, though its stream flowed on into the mainline denominations' own social agencies.",
+   "other_id": "the-mainline-century-liberal-and-neo-orthodox",
+   "disposition": "link",
+   "link_id": "the-social-gospel--the-mainline-century-liberal-and-neo-orthodox",
+   "prose_change": null,
+   "reason": "Carried by the influence link."
+  },
+  {
+   "movement": "the-social-gospel",
+   "field": "legacy",
+   "sentence": "Reinhold Niebuhr's Moral Man and Immoral Society (1932) later made the criticism stick.",
+   "other_id": "the-mainline-century-liberal-and-neo-orthodox",
+   "disposition": "link",
+   "link_id": "the-mainline-century-liberal-and-neo-orthodox--the-social-gospel",
+   "prose_change": 4,
+   "reason": "Carried by the new 'argued against' link. Field rewritten for reading level (it scored FRE 48)."
+  },
+  {
+   "movement": "the-social-gospel",
+   "field": "legacy",
+   "sentence": "But the stream did not stop — it was absorbed into the mainline denominations' own social agencies, and the mainline century that follows on this map is its named heir.",
+   "other_id": "the-mainline-century-liberal-and-neo-orthodox",
+   "disposition": "qualify",
+   "link_id": "the-social-gospel--the-mainline-century-liberal-and-neo-orthodox",
+   "prose_change": 4,
+   "reason": "'Its named heir' implies the same community carried on; the evidence supports influence. Recast as 'took up its cause'; the layout phrase 'on this map' goes."
+  },
+  {
+   "movement": "the-east-african-revival-balokole",
+   "field": "relationsSummary",
+   "sentence": "African-led within (and often against) mission Anglicanism; martyrs include Janani Luwum.",
+   "other_id": "the-anglican-communion-twentieth-century",
+   "disposition": "link",
+   "link_id": "the-east-african-revival-balokole--the-anglican-communion-twentieth-century",
+   "prose_change": null,
+   "reason": "New influence link on Kevin Ward's study (read online): the revival stayed inside the church, clashed with it, and by 1991 supplied most of its bishops and clergy."
+  },
+  {
+   "movement": "the-east-african-revival-balokole",
+   "field": "relationsSummary",
+   "sentence": "African-led within (and often against) mission Anglicanism; martyrs include Janani Luwum.",
+   "other_id": "east-african-christianity-uganda-martyrs",
+   "disposition": "link",
+   "link_id": "east-african-christianity-uganda-martyrs--the-east-african-revival-balokole",
+   "prose_change": null,
+   "reason": "The revival's origin in the mission church is carried by the existing link, rewritten with Ward's study."
+  },
+  {
+   "movement": "the-east-african-revival-balokole",
+   "field": "relationsSummary",
+   "sentence": "The entry on the Catholic Church in Africa tells of the churches and Rwanda's genocide of 1994.",
+   "other_id": "the-catholic-church-in-africa-twentieth-century",
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "A pointer to where another story is told; it claims no relationship between the movements. Part 2 owns the Catholic entry."
+  },
+  {
+   "movement": "the-east-african-revival-balokole",
+   "field": "longDescription",
+   "sentence": "It ran through Uganda, Kenya and Tanzania as well as Rwanda, and it was led by Africans inside the mission Anglicanism that had planted the church — often against it, since a movement that asked bishops and catechists alike to confess in public was not always welcome.",
+   "other_id": "the-anglican-communion-twentieth-century",
+   "disposition": "link",
+   "link_id": "the-east-african-revival-balokole--the-anglican-communion-twentieth-century",
+   "prose_change": null,
+   "reason": "Carried by the new influence link; Ward's account of the Mukono crisis shows the 'often against'."
+  },
+  {
+   "movement": "the-east-african-revival-balokole",
+   "field": "why",
+   "sentence": "Archbishop Janani Luwum, killed in 1977, became its best-known martyr.",
+   "other_id": null,
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "A person. Ward (read online) says Luwum 'became Archbishop in 1974 and died in 1977 as a Christian martyr'."
+  },
+  {
+   "movement": "the-east-african-revival-balokole",
+   "field": "legacy",
+   "sentence": "They lived on inside East African Anglicanism through 2010, with their meetings, their confession practice and their hymn intact.",
+   "other_id": "the-anglican-communion-twentieth-century",
+   "disposition": "qualify",
+   "link_id": "the-east-african-revival-balokole--the-anglican-communion-twentieth-century",
+   "prose_change": 5,
+   "reason": "'Through 2010' is not shown by any read source (Ward's chapter is of 1991; the census's own living evidence says the repo does not record the fellowships after 2010). The date is dropped; the field is rewritten for reading level (it scored FRE 42)."
+  },
+  {
+   "movement": "the-east-african-revival-balokole",
+   "field": "legacy",
+   "sentence": "It gave the East African churches a generation of African leadership formed outside missionary control, and it left a large body of testimony that historians were slow to work through.",
+   "other_id": "the-anglican-communion-twentieth-century",
+   "disposition": "link",
+   "link_id": "the-east-african-revival-balokole--the-anglican-communion-twentieth-century",
+   "prose_change": 5,
+   "reason": "Ward: 'The Archbishops, Bishops and the majority of the clergy come from the Balokole tradition.'"
+  },
+  {
+   "movement": "japanese-christianity-after-1906",
+   "field": "relationsSummary",
+   "sentence": "It carries on from the entry on the Hidden Christians and the Meiji church, which ends in 1906.",
+   "other_id": "japanese-christianity-hidden-emergence-meiji",
+   "disposition": "link",
+   "link_id": "japanese-christianity-hidden-emergence-meiji--japanese-christianity-after-1906",
+   "prose_change": null,
+   "reason": "New 'continued as' link on the Kyodan's own History (1956) and its 1967 Confession, read online, with Mullins cited in the census."
+  },
+  {
+   "movement": "japanese-christianity-after-1906",
+   "field": "relationsSummary",
+   "sentence": "That entry names Uchimura Kanzō's Non-Church movement, begun in 1901, and Nikolai's Orthodox mission, dated from 1861.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The Non-Church movement has no movement of its own. The sentence reports what the earlier entry's text says, which it does ('Uchimura Kanzo's Mukyōkai movement founded in 1901', 'Nikolai's Russian Orthodox mission dated from 1861')."
+  },
+  {
+   "movement": "japanese-christianity-after-1906",
+   "field": "relationsSummary",
+   "sentence": "That entry names Uchimura Kanzō's Non-Church movement, begun in 1901, and Nikolai's Orthodox mission, dated from 1861.",
+   "other_id": "russian-church-synodal-century",
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The 1861 mission is carried by the existing Russian Church to Meiji Japan link on main (era 9's); this sentence only points to it."
+  },
+  {
+   "movement": "japanese-christianity-after-1906",
+   "field": "relationsSummary",
+   "sentence": "Japan's Orthodox Church belongs to this entry's family, as its Catholics do.",
+   "other_id": null,
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "A statement of the entry's scope, not a relationship. Flagged: the entry's other fields tell only the Kyodan."
+  },
+  {
+   "movement": "japanese-christianity-after-1906",
+   "field": "longDescription",
+   "sentence": "In wartime, the Kyodan later wrote, the government demanded that religious bodies unite and cooperate with the war effort.",
+   "other_id": null,
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Supported by the Kyodan's 1967 Confession, read online: 'the government of our country ... demanded as a matter of national policy that religious bodies be consolidated and cooperate with the war effort'."
+  },
+  {
+   "movement": "japanese-christianity-after-1906",
+   "field": "longDescription",
+   "sentence": "Beside the Kyodan grew Japan's own Christian movements, which Mark Mullins studied in Christianity Made in Japan (1998).",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Japan's indigenous movements have no movement of their own; the claim names the study."
+  },
+  {
+   "movement": "the-third-wave-and-the-vineyard",
+   "field": "relationsSummary",
+   "sentence": "It follows the charismatic renewal and the Jesus movement.",
+   "other_id": "charismatic-renewal-and-the-jesus-movement",
+   "disposition": "link",
+   "link_id": "charismatic-renewal-and-the-jesus-movement--the-third-wave-and-the-vineyard",
+   "prose_change": null,
+   "reason": "New 'gave rise to' link on the Vineyard's own history: Wimber's church came out of Calvary Chapel in 1982."
+  },
+  {
+   "movement": "the-third-wave-and-the-vineyard",
+   "field": "relationsSummary",
+   "sentence": "That entry names the Vineyard of 1982 as the start of the third wave.",
+   "other_id": "charismatic-renewal-and-the-jesus-movement",
+   "disposition": "link",
+   "link_id": "charismatic-renewal-and-the-jesus-movement--the-third-wave-and-the-vineyard",
+   "prose_change": null,
+   "reason": "The charismatic entry's text does say so ('the Vineyard association (1982, the start of the third wave)')."
+  },
+  {
+   "movement": "the-third-wave-and-the-vineyard",
+   "field": "relationsSummary",
+   "sentence": "The Toronto Blessing of 1994 grew inside one of its churches.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The Toronto Blessing has no movement of its own; Chevreau and the Christianity Today report are cited in the census."
+  },
+  {
+   "movement": "the-third-wave-and-the-vineyard",
+   "field": "longDescription",
+   "sentence": "Yet they did not adopt Pentecostal or charismatic theology or worship styles.",
+   "other_id": null,
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 6,
+   "reason": "Stated as fact, this is Wagner's framing; the Vineyard's own history (2016, read online) says it blends 'the best of the Pentecostal and Charismatic traditions'. Attributed to Wagner. Field rewritten for reading level (it scored FRE 49)."
+  },
+  {
+   "movement": "the-third-wave-and-the-vineyard",
+   "field": "why",
+   "sentence": "But they did not take on Pentecostal or charismatic theology or worship styles.",
+   "other_id": null,
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 7,
+   "reason": "Attributed to Wagner, as in the longDescription."
+  },
+  {
+   "movement": "the-third-wave-and-the-vineyard",
+   "field": "legacy",
+   "sentence": "In 1997 Donald Miller studied the Vineyard beside two other new church networks.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Names a study; Miller is cited in the census."
+  },
+  {
+   "movement": "seventh-day-adventist-church-twentieth-century",
+   "field": "legacy",
+   "sentence": "On this map it does one specific job: the nineteenth-century Adventist entry left a question about this church's confession open by name, to be settled when the twentieth century could be looked at, and the 1931 and 1980 documents are where the church itself settled it, in its own words and on the record.",
+   "other_id": "restorationist-apocalyptic-ferment-and-adventism",
+   "disposition": "link",
+   "link_id": "restorationist-apocalyptic-ferment-and-adventism--seventh-day-adventist-church-twentieth-century",
+   "prose_change": null,
+   "reason": "Existing 'continued as' link regraded to Widely Accepted on the 1931 Year Book, read online. 'Settled' is flagged on the link, not rewritten."
+  },
+  {
+   "movement": "seventh-day-adventist-church-twentieth-century",
+   "field": "longDescription",
+   "sentence": "Ellen White died on 16 July 1915, and the movement she had helped found carried on without the person whose writings had shaped it — which is itself one of the plainest facts about it.",
+   "other_id": "restorationist-apocalyptic-ferment-and-adventism",
+   "disposition": "link",
+   "link_id": "restorationist-apocalyptic-ferment-and-adventism--seventh-day-adventist-church-twentieth-century",
+   "prose_change": null,
+   "reason": "Carried by the same link."
+  },
+  {
+   "movement": "seventh-day-adventist-church-twentieth-century",
+   "field": "longDescription",
+   "sentence": "In 1911 Ferdinand and Ana Stahl joined Manuel Camacho at Utawilaya, in Platería district, Puno province, on the Peruvian side of Lake Titicaca.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "People and a place; no movement named. The Protestantism in Latin America entry (group E) may tell the same mission; flagged for that group. The facts rest on Teel (1989), read in full per the census."
+  },
+  {
+   "movement": "seventh-day-adventist-church-twentieth-century",
+   "field": "relationsSummary",
+   "sentence": "It documented its own internal debates, including the controversy that followed the book Questions on Doctrine, as part of its public record.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "A book and a debate; no movement of its own."
+  }
+ ],
+ "links": [
+  {
+   "id": "the-student-volunteer-movement-and-edinburgh-191--the-ecumenical-movement-and-the-wcc",
+   "action": "regrade",
+   "from": "the-student-volunteer-movement-and-edinburgh-191",
+   "to": "the-ecumenical-movement-and-the-wcc",
+   "type": "gave rise to",
+   "confidence": "Widely Accepted",
+   "note": "In 1910 the World Missionary Conference met at Edinburgh. It moved one of those there, Charles Brent, to call a world meeting on the beliefs that split the churches. The World Council of Churches names Edinburgh as one of its roots.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "World Council of Churches, 'History' (oikoumene.org; the council's own account, an undated page written after 2013)",
+     "url": "https://www.oikoumene.org/about-the-wcc/history",
+     "accessed": "2026-11-10",
+     "locus": "History, first section",
+     "quote": "The historical roots of the World Council of Churches are found in student and lay movements of the 19th century, the 1910 Edinburgh world missionary conference, and a 1920 encyclical from the (Orthodox) Synod of Constantinople suggesting a \"fellowship of churches\" similar to the League of Nations.",
+     "license": "rights reserved; short quotation"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Saretta Marotta, 'The Holy See and the Question of Sending Observers to the World Conferences of the International Ecumenical Movement', Journal of Modern and Contemporary Christianity 3, no. 1 (Edizioni Ca' Foscari, 2024): 195-226 (open access)",
+     "url": "https://edizionicafoscari.it/media/pdf/article/journal-of-modern-and-contemporary-christianity/2024/1/art-10.30687-JoMaCC-2785-6046-2024-01-007.pdf",
+     "accessed": "2026-11-10",
+     "locus": "p. 196",
+     "quote": "It is true, however, that this event was the impetus that led some of the participants, notably the American Episcopalian Charles Brent, to convene another world conference of Christian confessions, this time to deal with the theological and ecclesiological issues that had not been addressed in Edinburgh.",
+     "license": "CC BY 4.0"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Brian Stanley, The World Missionary Conference, Edinburgh 1910 (Eerdmans, 2009)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "C. Howard Hopkins, John R. Mott, 1865-1955: A Biography (Grand Rapids, 1979)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Cambridge History of Christianity vol. 8, ch. 34 'Missions and empire, c.1873-1914' (Stanley)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    }
+   ],
+   "citation_specificity": "B",
+   "verification_state": "verified-online",
+   "named_in_text": [
+    "the-ecumenical-movement-and-the-wcc relationsSummary, longDescription and why ('The World Missionary Conference at Edinburgh in 1910 set three streams running')",
+    "the-student-volunteer-movement-and-edinburgh-191 relationsSummary and legacy ('the modern ecumenical movement'; 'In 1961 the council joined the World Council of Churches')"
+   ],
+   "wants": [
+    "World Missionary Conference, 1910: Report of Commission VIII, Co-operation and the Promotion of Unity (Edinburgh and New York, 1910); public domain, would raise the link to Documented once vendored",
+    "Minutes of the Lake Mohonk meeting founding the International Missionary Council (October 1921)"
+   ],
+   "drafter_flags": [
+    "Regraded on the WCC's own history page (read online) and Marotta 2024 (read online, open access). A source after 2010 supports earlier facts here; the note itself names nothing after 2010.",
+    "The old note's line on the 1921 International Missionary Council rested on Stanley, named but not read; it is dropped from the note, not contradicted. Marotta (p. 196) reports that recent historians do not treat Edinburgh 1910 as an ecumenical conference in the full sense, which fits 'gave rise to' (a source of people and impulse) rather than 'continued as'."
+   ],
+   "change_reason": "Regraded from Dominant Modern Reconstruction to Widely Accepted: the council's own account names Edinburgh 1910 among its roots, and a read study shows Brent's Faith and Order call coming out of it. Note rewritten to rest on what was read."
+  },
+  {
+   "id": "the-greek-church-and-the-ecumenical-patriarchate--the-ecumenical-movement-and-the-wcc",
+   "action": "new",
+   "from": "the-greek-church-and-the-ecumenical-patriarchate",
+   "to": "the-ecumenical-movement-and-the-wcc",
+   "type": "influenced",
+   "confidence": "Widely Accepted",
+   "note": "In January 1920 the Ecumenical Patriarchate sent a letter to all the churches. It said that their differences in belief need not keep them apart. The World Council of Churches names this letter as one of its roots.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Ecumenical Patriarchate of Constantinople, encyclical 'Unto the Churches of Christ Everywhere' (January 1920), English text as published by the World Council of Churches from M. Kinnamon (ed.), The Ecumenical Movement: An Anthology of Key Texts and Voices, 2nd ed. (WCC Publications, 2016), 73-74",
+     "url": "https://www.oikoumene.org/resources/documents/unto-the-churches-of-christ-everywhere-encyclical-of-the-ecumenical-patriarchate-1920",
+     "accessed": "2026-11-10",
+     "locus": "the encyclical's opening section",
+     "quote": "Our own church holds that rapprochement between the various Christian churches and fellowship between them is not excluded by the doctrinal differences which exist between them.",
+     "license": "rights reserved; short quotation"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "World Council of Churches, 'History' (oikoumene.org; the council's own account, an undated page written after 2013)",
+     "url": "https://www.oikoumene.org/about-the-wcc/history",
+     "accessed": "2026-11-10",
+     "locus": "History, first section",
+     "quote": "The historical roots of the World Council of Churches are found in student and lay movements of the 19th century, the 1910 Edinburgh world missionary conference, and a 1920 encyclical from the (Orthodox) Synod of Constantinople suggesting a \"fellowship of churches\" similar to the League of Nations.",
+     "license": "rights reserved; short quotation"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Bryn Geffert, 'Anglican Orders and Orthodox Politics', Journal of Ecclesiastical History 57, no. 2 (Cambridge University Press, 2006), from p. 270 (author's copy)",
+     "url": "https://rprt.northwestern.edu/people/research-scholars/anglican-orders-and-orthodox-politics.pdf",
+     "accessed": "2026-11-10",
+     "locus": "p. 272",
+     "quote": "In January of 1920 – the same year as The Christian East began publication – the Ecumenical Patriarchate issued possibly the most famous encyclical from Constantinople in the twentieth century, Unto all the Churches of Christ wheresoever they be.",
+     "license": "rights reserved; short quotation"
+    }
+   ],
+   "citation_specificity": "B",
+   "verification_state": "verified-online",
+   "named_in_text": [
+    "the-ecumenical-movement-and-the-wcc relationsSummary, longDescription and why ('Orthodox churches were members'); the new relationsSummary names the 1920 call",
+    "the-greek-church-and-the-ecumenical-patriarchate relationsSummary ('Orthodox membership of the World Council of Churches belongs to the entry on the ecumenical movement')"
+   ],
+   "major": {
+    "major": false,
+    "kind": null,
+    "evidence": null,
+    "reason": "A letter whose call the later body took up; no council, split or rule change in the sources."
+   },
+   "wants": [
+    "The 1920 encyclical in a public-domain printing, e.g. its first English translation in The Christian East 1 (1920), to let the link be checked in the Library",
+    "W. A. Visser 't Hooft (ed.), The First Assembly of the World Council of Churches (1949), for the Orthodox founding members at Amsterdam"
+   ],
+   "drafter_flags": [
+    "The council's text says only 'Orthodox churches were members'; the Greek church's own text hands that relationship to the council's entry, so it is drafted here (part 1 owns it: a part 1 text names it). The link rests on the 1920 encyclical, the best-evidenced Orthodox tie, not on membership, which no read source dates for the Patriarchate.",
+    "The WCC page attributes the encyclical to 'the (Orthodox) Synod of Constantinople'; the WCC's document page and Geffert say the Ecumenical Patriarchate. The two name the same see.",
+    "Geffert's article is read in an author's copy hosted at Northwestern University; the Cambridge citation is printed on it. Sources after 2010 support a 1920 fact.",
+    "The encyclical's date is 1 January 1920 on the WCC page and 'January of 1920' in Geffert; the note says January 1920."
+   ],
+   "change_reason": "New: names the Orthodox tie that the council's text and the Greek church's text both point to."
+  },
+  {
+   "id": "the-catholic-church-pius-x-to-the-council--the-ecumenical-movement-and-the-wcc",
+   "action": "new",
+   "from": "the-catholic-church-pius-x-to-the-council",
+   "to": "the-ecumenical-movement-and-the-wcc",
+   "type": "argued against",
+   "confidence": "Widely Accepted",
+   "note": "In 1928 Pope Pius XI wrote against the movement to unite the churches. He ruled that Rome would not join its meetings and that Catholics could not support it. A modern study says the letter seemed to settle whether Catholics could take part.",
+   "outcome": "In 1928 Pope Pius XI ruled that Rome would not take part in the movement's meetings and that Catholics could not lawfully support it.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Pius XI, Mortalium Animos, encyclical on religious unity (6 January 1928), English text on the Holy See's website",
+     "url": "https://www.vatican.va/content/pius-xi/en/encyclicals/documents/hf_p-xi_enc_19280106_mortalium-animos.html",
+     "accessed": "2026-11-10",
+     "locus": "section 8",
+     "quote": "This being so, it is clear that the Apostolic See cannot on any terms take part in their assemblies, nor is it anyway lawful for Catholics either to support or to work for such enterprises;",
+     "license": "copyright Libreria Editrice Vaticana; short quotation"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Pius XI, Mortalium Animos, encyclical on religious unity (6 January 1928), English text on the Holy See's website",
+     "url": "https://www.vatican.va/content/pius-xi/en/encyclicals/documents/hf_p-xi_enc_19280106_mortalium-animos.html",
+     "accessed": "2026-11-10",
+     "locus": "section 7",
+     "quote": "And here it seems opportune to expound and to refute a certain false opinion, on which this whole question, as well as that complex movement by which non-Catholics seek to bring about the union of the Christian churches depends.",
+     "license": "copyright Libreria Editrice Vaticana; short quotation"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Saretta Marotta, 'The Holy See and the Question of Sending Observers to the World Conferences of the International Ecumenical Movement', Journal of Modern and Contemporary Christianity 3, no. 1 (Edizioni Ca' Foscari, 2024): 195-226 (open access)",
+     "url": "https://edizionicafoscari.it/media/pdf/article/journal-of-modern-and-contemporary-christianity/2024/1/art-10.30687-JoMaCC-2785-6046-2024-01-007.pdf",
+     "accessed": "2026-11-10",
+     "locus": "p. 199",
+     "quote": "Despite the fact that Pius XI’s 1928 encyclical Mortalium animos seemed to have put a definitive end to the question of Catholic participation in movements for unity of Protestant origin",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "citation_specificity": "B",
+   "verification_state": "verified-online",
+   "named_in_text": [
+    "the-ecumenical-movement-and-the-wcc relationsSummary, longDescription and why: the Roman Catholic Church 'worked alongside it without joining', qualified in this pass to name the 1928 ruling"
+   ],
+   "major": {
+    "major": true,
+    "kind": "council-law",
+    "evidence": {
+     "url": "https://www.vatican.va/content/pius-xi/en/encyclicals/documents/hf_p-xi_enc_19280106_mortalium-animos.html",
+     "locus": "section 8",
+     "text": "This being so, it is clear that the Apostolic See cannot on any terms take part in their assemblies, nor is it anyway lawful for Catholics either to support or to work for such enterprises;"
+    },
+    "reason": "A papal encyclical binding on the whole Catholic Church forbids Catholics to support or work for the movement and rules out Rome's part in its meetings."
+   },
+   "wants": [
+    "Mortalium Animos in the Acta Apostolicae Sedis 20 (1928), and the Holy Office decree of 4 July 1919 on Catholic participation, if a public-domain printing can be vendored"
+   ],
+   "drafter_flags": [
+    "Major test: an encyclical is a papal teaching letter, not a council canon. It is judged major because its section 8 lays down a rule for all Catholics ('nor is it anyway lawful for Catholics either to support or to work for such enterprises'). Marotta (p. 198) shows the rule itself went back to a Holy Office decree of 1919, so 'rule-changed' was not used. Reviewer to confirm the kind.",
+    "The encyclical does not name Faith and Order or Life and Work; it names 'that complex movement by which non-Catholics seek to bring about the union of the Christian churches' (section 7), which is this movement. Marotta (p. 199) ties it to Catholic participation in Faith and Order.",
+    "The Catholic entry runs 1906-1962, the right years for 1928. Its own text does not name the ecumenical movement; the council's text alone names the Catholic relationship.",
+    "Marotta 2024 is after 2010; it supports a 1928 fact."
+   ],
+   "change_reason": "New: the council's text said Rome 'worked alongside it without joining', true only after the 1960s. The 1928 ruling is the documented relationship for the Catholic entry of these years."
+  },
+  {
+   "id": "the-mainline-century-liberal-and-neo-orthodox--the-ecumenical-movement-and-the-wcc",
+   "action": "new",
+   "from": "the-mainline-century-liberal-and-neo-orthodox",
+   "to": "the-ecumenical-movement-and-the-wcc",
+   "type": "gave rise to",
+   "confidence": "Inferential-Thin",
+   "note": "The World Council of Churches says it was mostly Protestant and Western in its first years. The mainline churches belonged to that world. But no study of the tie was read, so this link rests on thin evidence.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "World Council of Churches, 'History' (oikoumene.org; the council's own account, an undated page written after 2013)",
+     "url": "https://www.oikoumene.org/about-the-wcc/history",
+     "accessed": "2026-11-10",
+     "locus": "History, third section",
+     "quote": "Predominately Protestant and Western in its earliest years, the WCC's profile and identity evolved during the 1960s with the influx of many Orthodox churches from the East and newly autonomous churches from formerly colonial regions in the South.",
+     "license": "rights reserved; short quotation"
+    }
+   ],
+   "citation_specificity": "B",
+   "verification_state": "verified-online",
+   "named_in_text": [
+    "the-ecumenical-movement-and-the-wcc relationsSummary ('it grew out of the institutional world built by mainline liberal Protestantism and neo-orthodoxy') and legacy ('the institutional home of the mainline century that built it')",
+    "the-mainline-century-liberal-and-neo-orthodox relationsSummary and legacy ('The National Council of Churches ... and the World Council of Churches are this tradition's institutional and conciliar homes')"
+   ],
+   "wants": [
+    "W. A. Visser 't Hooft (ed.), The First Assembly of the World Council of Churches (1949), with its list of founding member churches",
+    "A history of the American churches in the founding of the WCC (none is cited in the repo)"
+   ],
+   "drafter_flags": [
+    "The council's text said it 'grew out of the institutional world built by mainline liberal Protestantism and neo-orthodoxy' and called the mainline 'the mainline century that built it'. The read source says only that its first members were mostly Protestant and Western, and names Orthodox and European roots too. The prose is qualified to 'may have grown in part out of'.",
+    "'The mainline churches belonged to that world' in the note is the inference itself, stated as thin. The Disciples of Christ text (group E) says the Disciples joined the council at its founding in 1948; not checked here.",
+    "Group C drafts the mainline text, which also names this pair; merge with its draft."
+   ],
+   "change_reason": "New: both texts name the pair; the evidence read online supports only a thin reading."
+  },
+  {
+   "id": "the-social-gospel--the-mainline-century-liberal-and-neo-orthodox",
+   "action": "new",
+   "from": "the-social-gospel",
+   "to": "the-mainline-century-liberal-and-neo-orthodox",
+   "type": "influenced",
+   "confidence": "Widely Accepted",
+   "note": "In May 1908, 32 church bodies formed the Federal Council of Churches. That December it adopted the Social Creed of the Churches. The creed made the Social Gospel's concern for working people a shared program. Historians of the movement trace its stream on into the mainline churches.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Federal Council of Churches, The Social Creed of the Churches (adopted 4 December 1908), as published by the National Council of Churches",
+     "url": "https://nationalcouncilofchurches.us/?p=3863",
+     "accessed": "2026-11-10",
+     "locus": "opening sentence",
+     "quote": "We deem it the duty of all Christian people to concern themselves directly with certain practical industrial problems.",
+     "license": "rights reserved; short quotation"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "National Council of Churches, 'History' (nationalcouncilofchurches.us; the council's own account, undated page)",
+     "url": "https://nationalcouncilofchurches.us/about-us/history/",
+     "accessed": "2026-11-10",
+     "locus": "History, opening section",
+     "quote": "In May 1908, 32 Christian communions met in Philadelphia to form the Federal Council of Churches.",
+     "license": "rights reserved; short quotation"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "National Council of Churches, 'History' (nationalcouncilofchurches.us; the council's own account, undated page)",
+     "url": "https://nationalcouncilofchurches.us/about-us/history/",
+     "accessed": "2026-11-10",
+     "locus": "History, opening section",
+     "quote": "in November 1950 the US churches that formed the Federal Council of Churches joined with additional ecumenical bodies to establish the National Council of Churches during a Constituting Convention held in Cleveland, Ohio.",
+     "license": "rights reserved; short quotation"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Christopher H. Evans, The Social Gospel in American Religion: A History (NYU Press, 2017)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Gary Dorrien, The Making of American Liberal Theology (Westminster John Knox, 3 vols., 2001, 2003, 2006)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    }
+   ],
+   "citation_specificity": "B",
+   "verification_state": "verified-online",
+   "named_in_text": [
+    "the-social-gospel relationsSummary ('The Federal Council of Churches' 1908 Social Creed anchors it to the mainline Protestant tradition'), why and legacy ('absorbed into the mainline denominations' own social agencies')",
+    "the-mainline-century-liberal-and-neo-orthodox relationsSummary and longDescription (its 'institutional shape with the Federal Council of Churches in 1908'); it does not name the Social Gospel"
+   ],
+   "major": {
+    "major": false,
+    "kind": null,
+    "evidence": null,
+    "reason": "The Federal Council took up the movement's program; a teaching taken up by the other side, not a ruling against anyone."
+   },
+   "wants": [
+    "Walter Rauschenbusch, Christianity and the Social Crisis (1907) and A Theology for the Social Gospel (1917), both public domain; vendoring them would let the movement's own voice be quoted",
+    "Federal Council of the Churches of Christ in America, Report of the First Meeting (Philadelphia, 1908), public domain, with the Social Creed as adopted"
+   ],
+   "drafter_flags": [
+    "The creed is read on the National Council of Churches' page, the Federal Council's successor; the page gives the adoption date as 4 December 1908. The 'Social Gospel' reading of the creed rests on Evans and Dorrien, both cited in the census, neither read here.",
+    "Type 'influenced', not 'gave rise to': the mainline churches existed before the movement and took up its program; the Social Gospel did not found them. The prose 'named heir' is softened to match."
+   ],
+   "change_reason": "New: the Social Gospel's text names the mainline as the stream's heir three times."
+  },
+  {
+   "id": "the-mainline-century-liberal-and-neo-orthodox--the-social-gospel",
+   "action": "new",
+   "from": "the-mainline-century-liberal-and-neo-orthodox",
+   "to": "the-social-gospel",
+   "type": "argued against",
+   "confidence": "Dominant Modern Reconstruction",
+   "note": "In 1932 Reinhold Niebuhr published Moral Man and Immoral Society. Historians read it as a sharp attack on the Social Gospel's hope that reform would bring in God's kingdom. This reading rests on modern histories, and the book itself is not held here.",
+   "sources": [
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Christopher H. Evans, The Social Gospel in American Religion: A History (NYU Press, 2017)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Gary Dorrien, The Making of American Liberal Theology (Westminster John Knox, 3 vols., 2001, 2003, 2006)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    }
+   ],
+   "citation_specificity": "C",
+   "verification_state": "named-not-rechecked",
+   "named_in_text": [
+    "the-social-gospel relationsSummary ('Reinhold Niebuhr's 1932 critique challenged the movement's optimism from within that same broader current') and legacy ('Moral Man and Immoral Society (1932) later made the criticism stick')"
+   ],
+   "major": {
+    "major": false,
+    "kind": null,
+    "evidence": null,
+    "reason": "A book's critique; no institutional act."
+   },
+   "wants": [
+    "Reinhold Niebuhr, Moral Man and Immoral Society (Scribner, 1932): in copyright; a publisher preview of its introduction, or a library copy, would show whether it names the Social Gospel"
+   ],
+   "drafter_flags": [
+    "Not verified that Niebuhr names the Social Gospel by name; 'argued against' needs a text directed at the other by name. If the book attacks liberal social idealism without naming the movement, the reviewer may prefer 'influenced' or a qualified note.",
+    "The mainline entry names Niebuhr as part of the neo-orthodox turn but does not name this critique; the Social Gospel text alone names it.",
+    "No source read online; the grade stays where the repo-cited works put it."
+   ],
+   "change_reason": "New: the Social Gospel's text names Niebuhr's critique twice."
+  },
+  {
+   "id": "japanese-christianity-hidden-emergence-meiji--japanese-christianity-after-1906",
+   "action": "new",
+   "from": "japanese-christianity-hidden-emergence-meiji",
+   "to": "japanese-christianity-after-1906",
+   "type": "continued as",
+   "confidence": "Widely Accepted",
+   "note": "Japan's Protestant churches go back to missionaries who came in 1859, and to a first church at Yokohama in 1872. In June 1941 more than thirty Protestant bodies joined to form one church, the Kyodan. The Kyodan's own history tells this story.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "United Church of Christ in Japan (Kyodan), History (enacted 26 October 1956; English version, 'Official Translation under consideration April 4, 1968')",
+     "url": "https://uccj.org/history",
+     "accessed": "2026-11-10",
+     "locus": "History, first paragraph",
+     "quote": "Protestant Christianity in our country originated from the work of foreign missionaries who came to Japan in 1859.",
+     "license": "rights reserved; short quotation"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "United Church of Christ in Japan (Kyodan), History (enacted 26 October 1956; English version, 'Official Translation under consideration April 4, 1968')",
+     "url": "https://uccj.org/history",
+     "accessed": "2026-11-10",
+     "locus": "History, first paragraph",
+     "quote": "On the basis of this declaration, over thirty Protestant denominations achieved unity at a Founding General Assembly held at the Fujimichio Church on June 24-25,1941.",
+     "license": "rights reserved; short quotation"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "United Church of Christ in Japan (Kyodan), Confession on the Responsibility of the United Church of Christ in Japan during World War II (Easter, 26 March 1967; revised English translation 20 January 1982)",
+     "url": "https://uccj.org/confession",
+     "accessed": "2026-11-10",
+     "locus": "fourth paragraph",
+     "quote": "From the opening of Christian mission early in the Meiji Era (1868-1912), most Japanese Protestants had long desired to dissolve the various denominations and to establish a single evangelical church in Japan.",
+     "license": "rights reserved; short quotation"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Mark R. Mullins, Christianity Made in Japan: A Study of Indigenous Movements (University of Hawai'i Press, 1998)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Mark R. Mullins, ed., Handbook of Christianity in Japan (Leiden, 2003)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    }
+   ],
+   "citation_specificity": "B",
+   "verification_state": "verified-online",
+   "named_in_text": [
+    "japanese-christianity-after-1906 relationsSummary ('It carries on from the entry on the Hidden Christians and the Meiji church, which ends in 1906')"
+   ],
+   "wants": [
+    "A public-domain history of the Meiji Protestant church, e.g. Otis Cary, A History of Christianity in Japan (1909), vol. 2, so the continuity can be checked in the Library"
+   ],
+   "drafter_flags": [
+    "The Kyodan's History is an enacted text (dated 26 October 1956 on the page) with an English version marked 'Official Translation under consideration April 4, 1968' and 'primarily for information'. Its first paragraph also says the 1872 Yokohama church 'belonged to none of the denominations found in foreign countries'.",
+    "Continuity is shown for the Protestant strand only. The later entry's text says Japan's Orthodox and Catholic Christians 'belong to this entry's family', but its other fields tell only the Kyodan; no source was read for the Orthodox or Catholic strands across 1906.",
+    "The quote keeps the page's spellings 'Fujimichio' and 'June 24-25,1941'. The Kyodan's History also says union was 'partly stimulated from abroad by the ecumenical movement'; no link is drafted for that, since neither text names it.",
+    "The note says 'Protestant bodies' for the page's 'Protestant denominations'."
+   ],
+   "change_reason": "New: the later entry's own text says it carries on from the Meiji entry; a period split, typed 'continued as'."
+  },
+  {
+   "id": "restorationist-apocalyptic-ferment-and-adventism--seventh-day-adventist-church-twentieth-century",
+   "action": "regrade",
+   "from": "restorationist-apocalyptic-ferment-and-adventism",
+   "to": "seventh-day-adventist-church-twentieth-century",
+   "type": "continued as",
+   "confidence": "Widely Accepted",
+   "note": "The Seventh-day Adventist Church grew from the Millerites who kept faith after 1844. Its 1931 yearbook still taught that a time named in Bible prophecy ran out in 1844. The same list of beliefs called God a Trinity. Earlier Adventists had argued over that teaching.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Year Book of the Seventh-day Adventist Denomination 1931 (Review and Herald Publishing Association, 1931), 'Fundamental Beliefs of Seventh-day Adventists', pp. 377-380; scan held by the General Conference archives",
+     "url": "https://documents.adventistarchives.org/Yearbooks/YB1931.pdf",
+     "accessed": "2026-11-10",
+     "locus": "p. 378, belief 13",
+     "quote": "the longest one, the 2300 days of Dan. 8:14, terminated in 1844, and brought us to an event called the cleansing of the sanctuary.",
+     "license": "rights reserved; short quotation"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Year Book of the Seventh-day Adventist Denomination 1931 (Review and Herald Publishing Association, 1931), 'Fundamental Beliefs of Seventh-day Adventists', pp. 377-380; scan held by the General Conference archives",
+     "url": "https://documents.adventistarchives.org/Yearbooks/YB1931.pdf",
+     "accessed": "2026-11-10",
+     "locus": "p. 377, belief 2",
+     "quote": "That the Godhead, or Trinity, consists of the Eternal Father, a personal, spiritual Being, omnipotent, omnipresent, omniscient, infinite in wisdom and love;",
+     "license": "rights reserved; short quotation"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "George R. Knight, A Search for Identity: The Development of Seventh-day Adventist Beliefs (Review and Herald, 2000)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    }
+   ],
+   "citation_specificity": "B",
+   "verification_state": "verified-online",
+   "named_in_text": [
+    "seventh-day-adventist-church-twentieth-century legacy ('the nineteenth-century Adventist entry left a question about this church's confession open by name') and longDescription ('the movement she had helped found carried on')",
+    "restorationist-apocalyptic-ferment-and-adventism longDescription, why and legacy ('most enduringly the Seventh-day Adventist Church')"
+   ],
+   "wants": [
+    "The 1931 Year Book is likely public domain in the US (published 1931); vendoring the scan's text would let the link be checked in the Library and raised to Documented",
+    "General Conference Session minutes of 1946 and 1980, on the standing of the 1931 statement and the Fundamental Beliefs"
+   ],
+   "drafter_flags": [
+    "Quotes are from the scan's text layer (OCR), checked by eye against nearby lines. One OCR slip ('Seventh-clay Adventists') sits in the statement's preamble; no quote uses it.",
+    "The old note said the 1931 statement 'settled' the Trinity debate. Knight (cited, not read) is generally read as saying it was not a voted statement and that debate went on; the note now says only what the yearbook shows. The movement's own legacy text also says the 1931 and 1980 documents 'settled' it; flagged, not rewritten, since the 1980 Fundamental Beliefs were not read.",
+    "'A teaching earlier Adventists had argued over' rests on Knight, as the old note did."
+   ],
+   "change_reason": "Regraded from Dominant Modern Reconstruction to Widely Accepted: the church's own 1931 yearbook, read online, carries the 1844 teaching of the Millerite remnant into the twentieth century. Note rewritten to say 'stated', not 'settled'."
+  },
+  {
+   "id": "charismatic-renewal-and-the-jesus-movement--the-third-wave-and-the-vineyard",
+   "action": "new",
+   "from": "charismatic-renewal-and-the-jesus-movement",
+   "to": "the-third-wave-and-the-vineyard",
+   "type": "gave rise to",
+   "confidence": "Widely Accepted",
+   "note": "In 1977 John Wimber planted a Calvary Chapel church at Yorba Linda. In 1982 it left Calvary Chapel, because some of its leaders did not share the church's stress on the Holy Spirit. It joined the Vineyard churches, which Wimber came to lead.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Vineyard USA, 'What Is The Vineyard? Our History' (vineyardusa.org, published 25 March 2016)",
+     "url": "https://vineyardusa.org/what-is-the-vineyard-our-history/",
+     "accessed": "2026-11-10",
+     "locus": "section 'John Wimber'",
+     "quote": "In 1977, John re-entered pastoral ministry to plant Calvary Chapel of Yorba Linda.",
+     "license": "rights reserved; short quotation"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Vineyard USA, 'What Is The Vineyard? Our History' (vineyardusa.org, published 25 March 2016)",
+     "url": "https://vineyardusa.org/what-is-the-vineyard-our-history/",
+     "accessed": "2026-11-10",
+     "locus": "section 'John Wimber'",
+     "quote": "Since it soon became clear that the church’s emphasis on the experience of the Holy Spirit was not shared by some leaders in the Calvary Chapel movement, John’s church left Calvary Chapel in 1982 and joined the Association of Vineyard Churches.",
+     "license": "rights reserved; short quotation"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Donald E. Miller, Reinventing American Protestantism: Christianity in the New Millennium (University of California Press, 1997)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    }
+   ],
+   "citation_specificity": "B",
+   "verification_state": "verified-online",
+   "named_in_text": [
+    "the-third-wave-and-the-vineyard relationsSummary ('It follows the charismatic renewal and the Jesus movement. That entry names the Vineyard of 1982 as the start of the third wave.')",
+    "charismatic-renewal-and-the-jesus-movement relationsSummary, longDescription, why and legacy ('the Vineyard association (1982, the start of the third wave)'; 'the wave handed on to the newly formed Vineyard association in 1982')"
+   ],
+   "wants": [
+    "Lewis B. Smedes (ed.), Ministry and the Miraculous (Fuller, 1987) and Christianity Today, 'What Does the Future Hold for Charismatic Renewal?' (May 1986), both cited in the census, for Wagner's own account of the 'third wave'"
+   ],
+   "drafter_flags": [
+    "The Vineyard page is dated 2016 and is the association's own history; it supports 1977 and 1982 facts. It also says Kenn Gulliksen asked Wimber to lead the Vineyard churches, recognized in 1982; the note's 'which Wimber came to lead' rests on that.",
+    "Miller is cited in the census (he studied the Vineyard beside two other new church networks); not read here.",
+    "Type: the Vineyard church at Anaheim came out of Calvary Chapel, which the charismatic entry covers; that is 'gave rise to'. The same page says the Vineyard blends 'the best of the Pentecostal and Charismatic traditions' with evangelical ones, which cuts against the Third Wave text's flat line that its people did not take on charismatic worship; that line is qualified to Wagner's view.",
+    "Group D drafts the charismatic text, which also names this pair; merge with its draft."
+   ],
+   "change_reason": "New: both texts name the hand-on from the charismatic renewal to the Vineyard in 1982."
+  },
+  {
+   "id": "east-african-christianity-uganda-martyrs--the-east-african-revival-balokole",
+   "action": "rewrite",
+   "from": "east-african-christianity-uganda-martyrs",
+   "to": "the-east-african-revival-balokole",
+   "type": "gave rise to",
+   "confidence": "Dominant Modern Reconstruction",
+   "note": "The revival broke out on a large scale at Gahini in Rwanda at the end of 1933. Gahini's mission hospital was an outpost of the Anglican church of Uganda. The historian Kevin Ward finds the revival's roots in that church, and most of all in Buganda.",
+   "sources": [
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Kevin Ward, '\"Tukutendereza Yesu\": The Balokole Revival in Uganda', in Zablon Nthamburi (ed.), From Mission to Church: A Handbook of Christianity in East Africa (Uzima Press, Nairobi, 1991); reprinted with permission by the Dictionary of African Christian Biography",
+     "url": "https://dacb.org/histories/uganda-tukutendereza-yesu",
+     "accessed": "2026-11-10",
+     "locus": "section 'Origins'",
+     "quote": "The origins of the Revival lie in the life of the Anglican Church of Uganda, and particularly the situation in Buganda.",
+     "license": "rights reserved; short quotation"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Kevin Ward, '\"Tukutendereza Yesu\": The Balokole Revival in Uganda', in Zablon Nthamburi (ed.), From Mission to Church: A Handbook of Christianity in East Africa (Uzima Press, Nairobi, 1991); reprinted with permission by the Dictionary of African Christian Biography",
+     "url": "https://dacb.org/histories/uganda-tukutendereza-yesu",
+     "accessed": "2026-11-10",
+     "locus": "section 'Origins'",
+     "quote": "The Church Missionary Society mission hospital at Gabini was an outpost of the Anglican diocese of Uganda, on the frontiers of the cultural and religious influence of the Ugandan Church.",
+     "license": "rights reserved; short quotation"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Kevin Ward and Emma Wild-Wood (eds.), The East African Revival: History and Legacies (Ashgate, 2012)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Derek R. Peterson, Ethnic Patriotism and the East African Revival: A History of Dissent, c. 1935-1972 (Cambridge University Press, 2012)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    }
+   ],
+   "citation_specificity": "B",
+   "verification_state": "verified-online",
+   "named_in_text": [
+    "east-african-christianity-uganda-martyrs relationsSummary and legacy ('grew out of this same soil')",
+    "the-east-african-revival-balokole longDescription ('led by Africans inside the mission Anglicanism that had planted the church')"
+   ],
+   "wants": [
+    "Joe Church, Quest for the Highest (1981), in copyright",
+    "Kabale convention reports (from 1935) or Church Missionary Society Ruanda Mission notes of the 1930s"
+   ],
+   "drafter_flags": [
+    "Ward's chapter (1991) is read online on the Dictionary of African Christian Biography, reprinted 'with permission'; it is a scholarly study, not an encyclopedia mirror. The page spells the station 'Gabini' once and 'Gahini' once; the note uses Gahini.",
+    "Ward dates the first large-scale outbreak to the end of 1933; the revival's own text says it 'began around 1930 at the mission station at Gahini'. Not a contradiction (Ward speaks of the large-scale outbreak), but the reviewer may want the movement's 'around 1930' checked.",
+    "Kept at Dominant Modern Reconstruction: the support is a modern study, read; no primary from the 1930s was opened."
+   ],
+   "change_reason": "Rewrite: Ward's study, read online, added with quotes; note rewritten on what it says. From, to, type and grade unchanged."
+  },
+  {
+   "id": "the-east-african-revival-balokole--the-anglican-communion-twentieth-century",
+   "action": "new",
+   "from": "the-east-african-revival-balokole",
+   "to": "the-anglican-communion-twentieth-century",
+   "type": "influenced",
+   "confidence": "Dominant Modern Reconstruction",
+   "note": "The revival stayed inside the Anglican Church of Uganda, though it often clashed with church leaders. In 1943 Bishop Stuart issued 'The New Way' to ease the conflict. By 1991, Kevin Ward wrote, most of its bishops and clergy came from the revival.",
+   "outcome": "In 1943 Bishop Stuart issued 'The New Way', a fourteen-point program for how the church and the revival should work together.",
+   "sources": [
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Kevin Ward, '\"Tukutendereza Yesu\": The Balokole Revival in Uganda', in Zablon Nthamburi (ed.), From Mission to Church: A Handbook of Christianity in East Africa (Uzima Press, Nairobi, 1991); reprinted with permission by the Dictionary of African Christian Biography",
+     "url": "https://dacb.org/histories/uganda-tukutendereza-yesu",
+     "accessed": "2026-11-10",
+     "locus": "section on the Mukono crisis and 'The New Way'",
+     "quote": "But the Bishop hoped to get beyond a repetition of these sterile conflicts and in 1943 he issued a compromise formula which he entitled The New Way,",
+     "license": "rights reserved; short quotation"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Kevin Ward, '\"Tukutendereza Yesu\": The Balokole Revival in Uganda', in Zablon Nthamburi (ed.), From Mission to Church: A Handbook of Christianity in East Africa (Uzima Press, Nairobi, 1991); reprinted with permission by the Dictionary of African Christian Biography",
+     "url": "https://dacb.org/histories/uganda-tukutendereza-yesu",
+     "accessed": "2026-11-10",
+     "locus": "section on the Mukono crisis and 'The New Way'",
+     "quote": "And even the Ugandan Balokole, suspicious as they were of any sell-out, had no real inclination to form schismatic Church.",
+     "license": "rights reserved; short quotation"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Kevin Ward, '\"Tukutendereza Yesu\": The Balokole Revival in Uganda', in Zablon Nthamburi (ed.), From Mission to Church: A Handbook of Christianity in East Africa (Uzima Press, Nairobi, 1991); reprinted with permission by the Dictionary of African Christian Biography",
+     "url": "https://dacb.org/histories/uganda-tukutendereza-yesu",
+     "accessed": "2026-11-10",
+     "locus": "section 'The Balokole and modern Uganda Society'",
+     "quote": "For the mainstream of the Balokole the years since Independence have seen increasing integration into the life of the Church. The Archbishops, Bishops and the majority of the clergy come from the Balokole tradition.",
+     "license": "rights reserved; short quotation"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Kevin Ward and Emma Wild-Wood (eds.), The East African Revival: History and Legacies (Ashgate, 2012)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    }
+   ],
+   "citation_specificity": "B",
+   "verification_state": "verified-online",
+   "named_in_text": [
+    "the-east-african-revival-balokole relationsSummary ('African-led within (and often against) mission Anglicanism'), longDescription and legacy ('lived on inside East African Anglicanism'; 'a generation of African leadership')",
+    "the-anglican-communion-twentieth-century relationsSummary ('Anglicans also appear inside other stories, such as the East African Revival')"
+   ],
+   "major": {
+    "major": true,
+    "kind": "rule-changed",
+    "evidence": {
+     "url": "https://dacb.org/histories/uganda-tukutendereza-yesu",
+     "locus": "section on the Mukono crisis and 'The New Way'",
+     "text": "a fourteen point program, or guidelines for a harmonious working relationship between the Church and the Balokole."
+    },
+    "reason": "The bishop of the church issued a fourteen-point settlement setting how church and revival would work together; Ward says he slowly won the revival's leaders to it."
+   },
+   "wants": [
+    "C. E. Stuart, The New Way (1943), the bishop's fourteen points",
+    "The 1943 Commission of Enquiry report on Bishop Tucker College, Mukono"
+   ],
+   "drafter_flags": [
+    "Grade: one read modern study (Ward 1991) plus the census-cited 2012 volume, named; no primary opened, so not Widely Accepted.",
+    "Major test: a bishop's settlement for his own church, which Ward says came slowly into effect ('Stuart was able, slowly and painfully to convince the Balokole'). Judged 'rule-changed'; the reviewer may judge one bishop's program too local. Ward calls him 'Bishop Stuart' only; the outcome does not add a first name or see.",
+    "'By 1991' dates Ward's chapter (published 1991), which says 'The Archbishops, Bishops and the majority of the clergy come from the Balokole tradition'; the note's 'most of its bishops and clergy' compresses that.",
+    "The 'often against' half of the revival's text is shown by Ward's account of the Mukono crisis and the 1943 settlement; no separate 'broke with' link, since Ward says the Balokole 'had no real inclination to form schismatic Church'.",
+    "Group C drafts the Anglican text, which also names the revival; merge with its draft."
+   ],
+   "change_reason": "New: the revival's text names mission Anglicanism three times; the Anglican text names the revival."
+  }
+ ],
+ "prose_changes": [
+  {
+   "n": 0,
+   "movement": "the-ecumenical-movement-and-the-wcc",
+   "field": "relationsSummary",
+   "old": "The World Missionary Conference at Edinburgh in 1910 set three streams running: the International Missionary Council, founded in 1921; Life and Work, from 1925; and Faith and Order, from 1927. These converged into the World Council of Churches, constituted at Amsterdam in 1948, with the missionary council merging in at New Delhi in 1961. Orthodox churches were members, while the Roman Catholic Church worked alongside it without joining. It stands as a counterpart to the Lausanne movement of 1974, the evangelical alternative answer to the same question of how divided churches should work together, and it grew out of the institutional world built by mainline liberal Protestantism and neo-orthodoxy. In Africa, churches formed the All Africa Conference of Churches. It was founded at its first assembly in Kampala on 20 April 1963, after a conference at Ibadan in 1958. In 1971 the Kenyan theologian John Gatu first called for a moratorium on missionaries. The conference's third assembly met at Lusaka in May 1974.",
+   "new": "The World Missionary Conference at Edinburgh in 1910 set three streams running. The International Missionary Council began in 1921, Life and Work in 1925, and Faith and Order in 1927. These came together in the World Council of Churches, formed at Amsterdam in 1948. The missionary council joined it at New Delhi in 1961. Orthodox churches were members. In 1920 the Ecumenical Patriarchate had called for a fellowship of churches. The Roman Catholic Church did not join. In 1928 Pope Pius XI ruled that Catholics could not take part. After the Second Vatican Council, Rome worked with it. In its first years most of its member churches were Protestant and Western. It may have grown in part out of the world of the mainline churches, but the evidence for that is thin. This map sets it beside the Lausanne movement of 1974, an evangelical answer to the same question: how should divided churches work together? In Africa, churches formed the All Africa Conference of Churches. It was founded at its first assembly in Kampala on 20 April 1963. A meeting at Ibadan in 1958 came first. In 1971 the Kenyan theologian John Gatu first called for a moratorium on missionaries. The conference's third assembly met at Lusaka in May 1974.",
+   "reason": "Catholic sentence qualified to name the 1928 ruling and date the later cooperation (council's own history; Mortalium Animos). The 1920 Orthodox call added for the new link. 'Grew out of the institutional world built by mainline liberal Protestantism' qualified to 'may have grown in part out of', with the reason. The Lausanne comparison recast as the map's own. Field rewritten for reading level (FRE 37.8 before); every other fact kept."
+  },
+  {
+   "n": 1,
+   "movement": "the-ecumenical-movement-and-the-wcc",
+   "field": "longDescription",
+   "old": "The World Missionary Conference at Edinburgh in 1910 left three currents running, which came together over the following decades. The International Missionary Council was founded in October 1921; Life and Work, concerned with the churches' common action in society, took shape in 1925; Faith and Order, concerned with the doctrinal questions that divided them, in 1927. The last two merged into the World Council of Churches, constituted at Amsterdam on 22 August 1948 with 147 member churches, and the International Missionary Council joined them at New Delhi in 1961. It was a council of churches, not a church. It had no authority over its members and no confession of its own, and each member body kept its own. Orthodox churches were members. The Roman Catholic Church was not, and worked with it in other ways. In the Middle East, the Middle East Council of Churches held its first assembly at Nicosia from 28 to 30 May 1974.",
+   "new": "The World Missionary Conference at Edinburgh in 1910 left three currents running, and over the next decades they came together. The International Missionary Council was founded in October 1921. Life and Work, which dealt with the churches' common action in society, took shape in 1925. Faith and Order, which dealt with the teachings that divided them, followed in 1927. The last two merged into the World Council of Churches. It was formed at Amsterdam on 22 August 1948 with 147 member churches, and the missionary council joined it at New Delhi in 1961. It was a council of churches, not a church. It had no power over its members and no creed of its own, and each member kept its own. Orthodox churches were members. The Roman Catholic Church was not. In 1928 Pope Pius XI ruled that Catholics could not take part. After the Second Vatican Council, Rome worked with the council in other ways. In the Middle East, the Middle East Council of Churches held its first assembly at Nicosia from 28 to 30 May 1974.",
+   "reason": "Catholic sentence qualified as in relationsSummary. Field rewritten for reading level (FRE 50.4 before); facts kept."
+  },
+  {
+   "n": 2,
+   "movement": "the-ecumenical-movement-and-the-wcc",
+   "field": "why",
+   "old": "The World Missionary Conference at Edinburgh in 1910 left three currents running — the International Missionary Council, founded in 1921, and the Life and Work and Faith and Order movements of the 1920s — and they converged in the World Council of Churches, constituted at Amsterdam in 1948 with 147 member churches, with the missionary council joining at New Delhi in 1961. It was a council of churches rather than a church itself. It had no authority over its members and no confession of its own. Orthodox churches belonged to it, while the Roman Catholic Church worked alongside it without joining.",
+   "new": "The World Missionary Conference at Edinburgh in 1910 left three currents running. One was the International Missionary Council, founded in 1921. The other two were the Life and Work and Faith and Order movements of the 1920s. They came together in the World Council of Churches, formed at Amsterdam in 1948 with 147 member churches. The missionary council joined at New Delhi in 1961. It was a council of churches, not a church. It had no power over its members and no creed of its own. Orthodox churches belonged to it. The Roman Catholic Church never joined. In 1928 Pius XI ruled that Catholics could not take part. After the Second Vatican Council, Rome worked alongside it.",
+   "reason": "Catholic sentence qualified. Field rewritten for reading level (FRE 41.7 before); facts kept."
+  },
+  {
+   "n": 3,
+   "movement": "the-ecumenical-movement-and-the-wcc",
+   "field": "legacy",
+   "old": "In 2010 it was a living institution, and it had been the century's principal experiment in getting separated churches to act and argue together in one room. Its assemblies and its Faith and Order work produced a large body of shared statements on questions that had divided churches for centuries, and its member churches used them. This map draws it as the counter-pole to the Lausanne movement of 1974 — two different answers, from the same century, to the question of how churches that disagree should work together — and as the institutional home of the mainline century that built it.",
+   "new": "In 2010 it was a living body. For a century it had been the main attempt to get divided churches to act and argue together in one room. Its assemblies and its Faith and Order work produced many shared statements. They dealt with questions that had split churches for centuries, and its member churches used them. This map draws it as the counter-pole to the Lausanne movement of 1974. They are two answers, from the same century, to one question: how should churches that disagree work together? It was also one home of the mainline century, which may have helped to build it.",
+   "reason": "'The mainline century that built it' qualified to 'may have helped to build it'. Field rewritten for reading level (FRE 39.0 before)."
+  },
+  {
+   "n": 4,
+   "movement": "the-social-gospel",
+   "field": "legacy",
+   "old": "The movement itself ended. Rauschenbusch died in 1918, and the war took the confidence out of a theology built on the expectation that the kingdom was arriving through reform; Reinhold Niebuhr's Moral Man and Immoral Society (1932) later made the criticism stick. But the stream did not stop — it was absorbed into the mainline denominations' own social agencies, and the mainline century that follows on this map is its named heir. The Social Creed of 1908 stands behind the denominational social statements that followed it. And In His Steps left something odder and more durable: the question 'what would Jesus do' was still in circulation a hundred years after the novel that put it there.",
+   "new": "The movement itself ended. Rauschenbusch died in 1918, and the war took the confidence out of a theology that expected the kingdom to arrive through reform. Reinhold Niebuhr's Moral Man and Immoral Society (1932) later made the criticism stick. But the stream did not stop. It was absorbed into the mainline churches' own social agencies, and the mainline century that followed took up its cause. The Social Creed of 1908 stands behind the church social statements that came after it. And In His Steps left something odder and longer-lasting. The question 'what would Jesus do' was still being asked a hundred years after the novel that put it there.",
+   "reason": "'Its named heir' recast as 'took up its cause', to match an influence link; 'on this map' dropped. Field rewritten for reading level (FRE 48.1 before)."
+  },
+  {
+   "n": 5,
+   "movement": "the-east-african-revival-balokole",
+   "field": "legacy",
+   "old": "The revival ran as a wave into the 1970s and the wave subsided; the fellowships did not. They lived on inside East African Anglicanism through 2010, with their meetings, their confession practice and their hymn intact. It gave the East African churches a generation of African leadership formed outside missionary control, and it left a large body of testimony that historians were slow to work through. Janani Luwum is commemorated among the twentieth-century martyrs on the west front of Westminster Abbey, unveiled in 1998.",
+   "new": "The revival came as a wave, and by the 1970s the wave had passed. The fellowships had not. They lived on inside the Anglican churches of East Africa. They kept their meetings, their practice of confession and their hymn. The revival gave those churches a generation of African leaders. They were formed outside the control of missions. It also left a large body of testimony, and historians were slow to read it. Janani Luwum is honored among the twentieth-century martyrs on the west front of Westminster Abbey, unveiled in 1998.",
+   "reason": "'Through 2010' dropped: no read source shows the fellowships to 2010. Field rewritten for reading level (FRE 42.1 before); facts kept."
+  },
+  {
+   "n": 6,
+   "movement": "the-third-wave-and-the-vineyard",
+   "field": "longDescription",
+   "old": "In 1982 John Wimber and C. Peter Wagner began teaching MC510, 'Signs and Wonders', at Fuller Theological Seminary in Pasadena. The course ran until 1985 and drew controversy. Fuller's faculty dropped it in early 1986 and published its own study, Ministry and the Miraculous, in 1987. Wagner called the stream 'the Third Wave'. Its people believed in the power and gifts of the Holy Spirit. Yet they did not adopt Pentecostal or charismatic theology or worship styles. Wimber set out his method in Power Evangelism in 1985. In 1994 a revival called the Toronto Blessing began at the Toronto Airport Vineyard. The Vineyard association cut its ties with that church in December 1995. Margaret Poloma published a study of the revival in 1997. Jon Bialecki later studied 'the Third Wave' by name, and the Vineyard as 'an American charismatic movement'.",
+   "new": "In 1982 John Wimber and C. Peter Wagner began a course called 'Signs and Wonders' at Fuller Theological Seminary in Pasadena. It was known as MC510. The course ran until 1985, and it drew sharp debate. Fuller's teachers dropped it in early 1986. In 1987 they put out their own study of it, Ministry and the Miraculous. Wagner called the stream 'the Third Wave'. Its people believed that the Holy Spirit still gave power and gifts. But in Wagner's view they did not take on Pentecostal or charismatic beliefs or ways of worship. Wimber set out his method in Power Evangelism in 1985. In 1994 a revival called the Toronto Blessing began at the Toronto Airport Vineyard. In December 1995 the Vineyard association cut its ties with that church. In 1997 Margaret Poloma wrote a study of the revival. Jon Bialecki later studied 'the Third Wave' by name, and the Vineyard as 'an American charismatic movement'.",
+   "reason": "The flat claim that Third Wave people did not adopt Pentecostal or charismatic theology or worship is attributed to Wagner, whose framing it is. Field rewritten for reading level (FRE 48.9 before); facts kept."
+  },
+  {
+   "n": 7,
+   "movement": "the-third-wave-and-the-vineyard",
+   "field": "why",
+   "old": "In 1982 John Wimber began teaching 'Signs and Wonders' at Fuller Seminary. C. Peter Wagner called the stream 'the Third Wave'. Its people sought the gifts of the Spirit. But they did not take on Pentecostal or charismatic theology or worship styles.",
+   "new": "In 1982 John Wimber began teaching 'Signs and Wonders' at Fuller Seminary. C. Peter Wagner called the stream 'the Third Wave'. Its people sought the gifts of the Spirit. But in Wagner's view they did not take on Pentecostal or charismatic beliefs or ways of worship.",
+   "reason": "Same attribution to Wagner."
+  }
+ ],
+ "wants": [
+  "A history of the American churches in the founding of the WCC (none is cited in the repo)",
+  "A public-domain history of the Meiji Protestant church, e.g. Otis Cary, A History of Christianity in Japan (1909), vol. 2, so the continuity can be checked in the Library",
+  "C. E. Stuart, The New Way (1943), the bishop's fourteen points",
+  "Federal Council of the Churches of Christ in America, Report of the First Meeting (Philadelphia, 1908), public domain, with the Social Creed as adopted",
+  "General Conference Session minutes of 1946 and 1980, on the standing of the 1931 statement and the Fundamental Beliefs",
+  "Joe Church, Quest for the Highest (1981), in copyright",
+  "Kabale convention reports (from 1935) or Church Missionary Society Ruanda Mission notes of the 1930s",
+  "Lewis B. Smedes (ed.), Ministry and the Miraculous (Fuller, 1987) and Christianity Today, 'What Does the Future Hold for Charismatic Renewal?' (May 1986), both cited in the census, for Wagner's own account of the 'third wave'",
+  "Minutes of the Lake Mohonk meeting founding the International Missionary Council (October 1921)",
+  "Mortalium Animos in the Acta Apostolicae Sedis 20 (1928), and the Holy Office decree of 4 July 1919 on Catholic participation, if a public-domain printing can be vendored",
+  "Reinhold Niebuhr, Moral Man and Immoral Society (Scribner, 1932): in copyright; a publisher preview of its introduction, or a library copy, would show whether it names the Social Gospel",
+  "The 1920 encyclical in a public-domain printing, e.g. its first English translation in The Christian East 1 (1920), to let the link be checked in the Library",
+  "The 1931 Year Book is likely public domain in the US (published 1931); vendoring the scan's text would let the link be checked in the Library and raised to Documented",
+  "The 1943 Commission of Enquiry report on Bishop Tucker College, Mukono",
+  "W. A. Visser 't Hooft (ed.), The First Assembly of the World Council of Churches (1949), for the Orthodox founding members at Amsterdam",
+  "W. A. Visser 't Hooft (ed.), The First Assembly of the World Council of Churches (1949), with its list of founding member churches",
+  "Walter Rauschenbusch, Christianity and the Social Crisis (1907) and A Theology for the Social Gospel (1917), both public domain; vendoring them would let the movement's own voice be quoted",
+  "World Missionary Conference, 1910: Report of Commission VIII, Co-operation and the Promotion of Unity (Edinburgh and New York, 1910); public domain, would raise the link to Documented once vendored",
+  "The Lausanne Covenant (1974), read as text on the Lausanne Movement's site: the page could not be opened as text in this run; it would test whether Lausanne set itself against the World Council",
+  "The Fundamental Beliefs adopted at the 1980 General Conference session (Dallas), in the church's own printing"
+ ],
+ "escalations": [
+  "None that change a method rule. Two judgment calls for the reviewer, not escalations: the major test on Mortalium Animos (a papal encyclical laying down a rule for all Catholics, judged 'council-law') and on Bishop Stuart's 1943 'New Way' (one bishop's settlement, judged 'rule-changed').",
+  "Not an escalation, but worth Mark's eye: the ecumenical movement's entry said it 'grew out of the institutional world built by mainline liberal Protestantism and neo-orthodoxy' and called the mainline 'the century that built it'. The council's own history names student movements, Edinburgh 1910 and the 1920 Orthodox encyclical as its roots, and says it was Protestant and Western at first. The fix fits in a clause ('may have grown in part out of'), so it is a prose change, not a rewrite."
+ ]
+}

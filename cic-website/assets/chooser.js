@@ -90,7 +90,6 @@ function init(mount, census) {
   mount.classList.add("chooser");
   mount.textContent = "";
 
-  // ---------- deck controls ----------
   var helpId = "chooser-help-" + mode;
   var q = el("input", { type: "search", id: "chooser-q-" + mode, placeholder: "Search traditions, topics, people", autocomplete: "off", "aria-describedby": helpId });
   var erasBox = el("div", { class: "chooser-eras", role: "group", "aria-label": "Narrow by era" });
@@ -124,7 +123,6 @@ function init(mount, census) {
     if (e) erasBox.appendChild(eraChip(n, e.no + ". " + e.name + ", " + e.dates, e.tint));
   });
 
-  // ---------- hand ----------
   var hand = el("div", { class: "chooser-hand", role: "group", "aria-roledescription": "hand of cards" });
   var posEl = el("span", { class: "pos", "aria-hidden": "true" });
   var prevBtn = el("button", { type: "button", class: "chooser-arrow prev", "aria-label": "Previous card" });
@@ -145,7 +143,6 @@ function init(mount, census) {
   ]);
   var deckRow = el("div", { class: "chooser-deckrow", hidden: true });
 
-  // ---------- tray ----------
   var seatsEl = el("ul", { class: "seats", "aria-label": "On your table" });
   var statusEl = el("span", { class: "status", "aria-live": "polite" });
   var goBtn = el("button", { type: "button", class: "cbtn primary go", text: "Go to the table" });
@@ -164,13 +161,11 @@ function init(mount, census) {
   mount.appendChild(hint);
   mount.appendChild(tray);
 
-  // ---------- links ----------
   function talkHref(ids, m, source) {
     return "talk.html?worlds=" + ids.join(",") + "&mode=" + m +
       "&from=" + encodeURIComponent(fromPage) + "&via=" + source;
   }
 
-  // ---------- cards ----------
   var ICON_TALK = '<svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4 5h16v11H10l-5 4v-4H4z"/></svg>';
   var ICON_SEAT = '<svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 5v8M8 9h8M6 21v-5h12v5"/></svg>';
   function icon(svg) { var s = el("span", { class: "ico" }); s.innerHTML = svg; return s; }
@@ -234,8 +229,6 @@ function init(mount, census) {
     return card;
   }
 
-  // Called only from the tap or key press that turns a card, so the browser
-  // counts it as the person's own start. A refusal leaves the Listen button as it was.
   function startNarration(card) {
     var player = card.querySelector(".face.back audio");
     if (!player) return;
@@ -323,7 +316,6 @@ function init(mount, census) {
     if (Math.abs(dx) > 40) setActive(active + (dx < 0 ? 1 : -1), false);
   });
 
-  // ---------- deck: filtering, dealing, search ----------
   function eraName(w) { var e = eras[w.era]; return e ? e.name : ""; }
   function haystack(w, withVoices) {
     var parts = [w.rep, w.world, w.name, w.informal, w.subtitle, w.place, w.tag, w.shaped, w.dates, eraName(w)]
@@ -469,7 +461,6 @@ function init(mount, census) {
     var c = hand.children[active]; if (c) c.querySelector(".cfront").focus({ preventScroll: true });
   }
 
-  // ---------- seats and tray ----------
   function toggleSeat(id) {
     var i = seated.indexOf(id);
     if (i >= 0) seated.splice(i, 1);
@@ -512,7 +503,6 @@ function init(mount, census) {
     window.location.href = talkHref(seated, "table", "table-tray");
   });
 
-  // ---------- list fallback ----------
   var narrowMq = matchMedia("(max-width: 699px)"), rmMq = matchMedia("(prefers-reduced-motion: reduce)");
   var VIEW_KEY = "cic-chooser-view", plain = false;
   try { plain = localStorage.getItem(VIEW_KEY) === "list"; } catch (e) {}

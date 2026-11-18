@@ -1,0 +1,1178 @@
+{
+ "group": "C",
+ "movements": [
+  "the-waldensians",
+  "cathars-albigensians",
+  "joachimite-current",
+  "balkan-bogomil-continuation"
+ ],
+ "dispositions": [
+  {
+   "movement": "the-waldensians",
+   "field": "relationsSummary",
+   "sentence": "The map's clearest 'dissent that survived' thread - joins the Reformed tradition in 1532",
+   "other_id": "the-waldensian-reformed-union",
+   "disposition": "link",
+   "link_id": "the-waldensians--waldensians-in-the-alps",
+   "prose_change": null,
+   "reason": "The 1532 joining belongs to the later entries: this movement continued as the Alpine Waldensians (Widely Accepted, kept), who continued as the Waldensian-Reformed Union (Contested, era 6's link). No direct link from the 1173-1300 movement to the 1532 union; the chain carries it. Inventory guessed the-reformed-cities-zurich-and-geneva; the 1532 union is its own era-7 entry."
+  },
+  {
+   "movement": "the-waldensians",
+   "field": "longDescription",
+   "sentence": "What he would not do was stop preaching without a license, and in 1184 the bull Ad abolendam condemned him and his followers for exactly that.",
+   "other_id": "latin-papal-church-gregorian",
+   "disposition": "link",
+   "link_id": "latin-papal-church-gregorian--the-waldensians",
+   "prose_change": null,
+   "reason": "Documented by the Gregory IX formula naming the 'Poor of Lyon' and Gui's account of the excommunication and condemnation; the 1184 date and the charge of preaching rest on Montet (1885). The bull's name is in no vendored text; it stands, listed in wants."
+  },
+  {
+   "movement": "the-waldensians",
+   "field": "longDescription",
+   "sentence": "Driven out of the cities, the movement survived in the Alpine valleys between France and Italy for three and a half centuries of intermittent persecution, with its own traveling ministers and its own books.",
+   "other_id": "waldensians-in-the-alps",
+   "disposition": "link",
+   "link_id": "the-waldensians--waldensians-in-the-alps",
+   "prose_change": null,
+   "reason": "Not listed by the inventory. Survival in the Alps is the existing continued-as link (Gui primary, Mollat, Cameron, Audisio)."
+  },
+  {
+   "movement": "the-waldensians",
+   "field": "longDescription",
+   "sentence": "In 1532 its representatives met the Reformers at Chanforan and threw in with the Reformed tradition.",
+   "other_id": "the-waldensian-reformed-union",
+   "disposition": "link",
+   "link_id": "the-waldensians--waldensians-in-the-alps",
+   "prose_change": null,
+   "reason": "Carried by the chain to the-waldensian-reformed-union (via waldensians-in-the-alps). A contact link between the 1532 union and the Reformed cities (Farel and the Genevan Reformers at Chanforan) belongs to era 7's pass, since both parties to that meeting are era-7 entries."
+  },
+  {
+   "movement": "the-waldensians",
+   "field": "longDescription",
+   "sentence": "Which is why a single line of protest can be followed from twelfth-century Lyon into the Reformation without a break.",
+   "other_id": "the-waldensian-reformed-union",
+   "disposition": "qualify",
+   "link_id": "the-waldensians--waldensians-in-the-alps",
+   "prose_change": 0,
+   "reason": "'Without a break' outruns the Contested Alps-to-1532 step and the census's own note of a 1300-1517 gap."
+  },
+  {
+   "movement": "the-waldensians",
+   "field": "why",
+   "sentence": "Around 1173 a rich merchant of Lyon named Valdes gave away his property, had Scripture translated into the language people actually spoke, and began preaching in the streets — his confession of faith was entirely orthodox, and he was condemned in 1184 only for preaching without a license.",
+   "other_id": "latin-papal-church-gregorian",
+   "disposition": "link",
+   "link_id": "latin-papal-church-gregorian--the-waldensians",
+   "prose_change": null,
+   "reason": "Same papal link. 'Only for preaching' matches Montet's reading that the church condemned the principle of lay preaching, not heresy as such."
+  },
+  {
+   "movement": "the-waldensians",
+   "field": "why",
+   "sentence": "Driven from the cities, the movement survived three and a half centuries of persecution in the Alpine valleys between France and Italy, with its own traveling ministers and its own books.",
+   "other_id": "waldensians-in-the-alps",
+   "disposition": "link",
+   "link_id": "the-waldensians--waldensians-in-the-alps",
+   "prose_change": null,
+   "reason": "Not listed by the inventory. Existing continued-as link."
+  },
+  {
+   "movement": "the-waldensians",
+   "field": "why",
+   "sentence": "In 1532 its representatives met the Reformers at Chanforan and joined the Reformed tradition, carrying a line of protest from twelfth-century Lyon straight into the Reformation.",
+   "other_id": "the-waldensian-reformed-union",
+   "disposition": "qualify",
+   "link_id": "the-waldensians--waldensians-in-the-alps",
+   "prose_change": 1,
+   "reason": "The joining is carried by the chain; 'straight into' claimed unbroken continuity and is qualified. The inventory's second row for this sentence ('the Reformation', no entry) is the same claim."
+  },
+  {
+   "movement": "the-waldensians",
+   "field": "legacy",
+   "sentence": "Having joined the Reformed tradition at Chanforan in 1532, it survives as the Waldensian Evangelical Church, based in the same Piedmontese valleys and now united with Italy's Methodists.",
+   "other_id": "the-waldensian-reformed-union",
+   "disposition": "link",
+   "link_id": "the-waldensians--waldensians-in-the-alps",
+   "prose_change": 2,
+   "reason": "The joining and survival are carried by the chain."
+  },
+  {
+   "movement": "the-waldensians",
+   "field": "legacy",
+   "sentence": "Having joined the Reformed tradition at Chanforan in 1532, it survives as the Waldensian Evangelical Church, based in the same Piedmontese valleys and now united with Italy's Methodists.",
+   "other_id": null,
+   "disposition": "remove",
+   "link_id": null,
+   "prose_change": 2,
+   "reason": "Italy's Methodists have no census entry, and no vendored or repo-cited source carries the union. The clause is removed (see the prose change)."
+  },
+  {
+   "movement": "the-waldensians",
+   "field": "legacy",
+   "sentence": "One of the very few medieval movements condemned by Rome that never disappeared and never had to be reconstructed out of its enemies' files.",
+   "other_id": "latin-papal-church-gregorian",
+   "disposition": "link",
+   "link_id": "latin-papal-church-gregorian--the-waldensians",
+   "prose_change": null,
+   "reason": "'Condemned by Rome' is the papal link. 'Never disappeared' rides on the continued-as chain. 'Never had to be reconstructed out of its enemies' files' is not a relationship claim, but it sits awkwardly beside the entry's own sourcing note ('Hostile-source problem early (inquisition registers)'); flagged for the entry owner, not changed."
+  },
+  {
+   "movement": "the-waldensians",
+   "field": "legacy",
+   "sentence": "Its long habit of vernacular Scripture and lay preaching anticipated, and then joined, the Reformation.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "'The Reformation' is not one census entry. 'Joined' is carried by the chain; 'anticipated' is a comparison, not a claim that the Waldensians shaped the Reformers, so no influence link is drawn. Stands."
+  },
+  {
+   "movement": "cathars-albigensians",
+   "field": "relationsSummary",
+   "sentence": "Target of crusade and inquisition - which the map names without softening",
+   "other_id": "latin-papal-church-gregorian",
+   "disposition": "link",
+   "link_id": "latin-papal-church-gregorian--cathars-albigensians",
+   "prose_change": null,
+   "reason": "Crusade and inquisition are the papacy's acts against the Cathars; one argued-against link carries both. The inquisition has no census entry (inventory row 2)."
+  },
+  {
+   "movement": "cathars-albigensians",
+   "field": "longDescription",
+   "sentence": "From the 1140s, church writers in the Rhineland and then in southern France describe communities with their own ministers, their own initiation rite, and a teaching that the visible material world was not the work of the good God.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Not listed by the inventory. The writers are unnamed and no single entry owns them. Checked: Rački prints Everwin of Steinfeld's letter to Bernard of Clairvaux (c. 1143) and Eckbert of Schönau against the Cathars (Rad VII, notes at lines 473 and 2223), so the claim is supported. No Cistercian link is drawn: Everwin was a Premonstratensian writing to Bernard, and neither text names the Cistercians against the Cathars."
+  },
+  {
+   "movement": "cathars-albigensians",
+   "field": "longDescription",
+   "sentence": "A dualism that placed them outside Christianity as the councils had defined it.",
+   "other_id": null,
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "A doctrinal placement against the creedal floor, not a relationship with a movement. Lateran IV's first chapter, which Denzinger heads 'Definitio contra Albigenses', bears it out."
+  },
+  {
+   "movement": "cathars-albigensians",
+   "field": "longDescription",
+   "sentence": "In Languedoc they had noble protection and something close to a parallel church, and in 1209 the papacy launched a crusade against them: two decades of war, then inquisition, then the siege of Montségur in 1244, where roughly two hundred of their ministers walked into a fire rather than recant.",
+   "other_id": "latin-papal-church-gregorian",
+   "disposition": "link",
+   "link_id": "latin-papal-church-gregorian--cathars-albigensians",
+   "prose_change": null,
+   "reason": "Papal link. The 1209 crusade rests on Perrin and Lea (secondary); Montségur's two hundred is in no vendored text (wants)."
+  },
+  {
+   "movement": "cathars-albigensians",
+   "field": "why",
+   "sentence": "In 1209 the papacy launched a crusade against them, and at the siege of Montségur in 1244 roughly two hundred of their ministers walked into a fire rather than recant; the last known Languedoc perfect, Guillaume Bélibaste, was burned in 1321.",
+   "other_id": "latin-papal-church-gregorian",
+   "disposition": "link",
+   "link_id": "latin-papal-church-gregorian--cathars-albigensians",
+   "prose_change": null,
+   "reason": "Papal link."
+  },
+  {
+   "movement": "cathars-albigensians",
+   "field": "why",
+   "sentence": "From the 1140s, communities in Languedoc with their own ministers and their own initiation rite taught that the visible material world was not the good God's making, a dualism that placed them outside the councils' Christianity.",
+   "other_id": null,
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Description and doctrinal placement, not a relationship with a movement."
+  },
+  {
+   "movement": "cathars-albigensians",
+   "field": "legacy",
+   "sentence": "The Albigensian Crusade attached Languedoc to the French crown, and the papal inquisition was built in the 1230s largely to deal with this problem and then became a permanent institution that long outlived its original target.",
+   "other_id": "latin-papal-church-gregorian",
+   "disposition": "link",
+   "link_id": "latin-papal-church-gregorian--cathars-albigensians",
+   "prose_change": null,
+   "reason": "The inquisition clause is the papal link's story (Lea; Biller via the census). The French crown is a polity with no census entry: the annexation is a standard political fact with no vendored source, and stands under the era-2 rule for such facts (Open-Gaps 24, awaiting Mark); listed in wants."
+  },
+  {
+   "movement": "cathars-albigensians",
+   "field": "longDescription",
+   "sentence": "Almost everything known about them comes from the people who destroyed them, and historians now argue seriously about how much of 'Catharism' was a coherent movement at all and how much was a category assembled by inquisitors out of scattered local dissent.",
+   "other_id": null,
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "A statement about the sources and the scholarly debate, not a relationship. It frames the Contested grade on the Balkan link."
+  },
+  {
+   "movement": "joachimite-current",
+   "field": "relationsSummary",
+   "sentence": "Where it became communal, it lives inside the Franciscan Spirituals' story",
+   "other_id": "franciscan-order-era-6",
+   "disposition": "link",
+   "link_id": "joachimite-current--franciscan-order-era-6",
+   "prose_change": null,
+   "reason": "Inventory's id is right. Documented from Clareno's Historia (fol. 42a), with Ehrle's reading. fraticelli-spiritual-franciscan-rigorists is the alternative target (flagged)."
+  },
+  {
+   "movement": "joachimite-current",
+   "field": "longDescription",
+   "sentence": "It was a way of reading the Bible and the calendar together, and it spread especially among Franciscans, who found in it a description of their own movement.",
+   "other_id": "the-franciscan-movement",
+   "disposition": "link",
+   "link_id": "joachimite-current--the-franciscan-movement",
+   "prose_change": null,
+   "reason": "Documented from Clareno on John of Parma's companion, with Lea and Denifle."
+  },
+  {
+   "movement": "joachimite-current",
+   "field": "longDescription",
+   "sentence": "In 1254 a young friar published an Introduction to the Eternal Gospel that made the claim explicit and scandalous, and it was condemned.",
+   "other_id": "latin-papal-church-gregorian",
+   "disposition": "link",
+   "link_id": "latin-papal-church-gregorian--joachimite-current",
+   "prose_change": null,
+   "reason": "Inventory left the authority unnamed. The condemning authority was papal (the Anagni commission of 1255, Lea). The friar's Franciscan identity also feeds joachimite-current--the-franciscan-movement. 'Young' is unsourced but not a relationship claim; flagged."
+  },
+  {
+   "movement": "joachimite-current",
+   "field": "longDescription",
+   "sentence": "In 1254 a young friar published an Introduction to the Eternal Gospel that made the claim explicit and scandalous, and it was condemned.",
+   "other_id": "the-franciscan-movement",
+   "disposition": "link",
+   "link_id": "joachimite-current--the-franciscan-movement",
+   "prose_change": null,
+   "reason": "Not listed by the inventory: the 1254 author was a Franciscan, Gerard of Borgo San Donnino (Denifle)."
+  },
+  {
+   "movement": "joachimite-current",
+   "field": "longDescription",
+   "sentence": "Some let it go, and some carried the expectation on into the bitter Franciscan quarrel over poverty, where it did most of its later work.",
+   "other_id": "franciscan-order-era-6",
+   "disposition": "link",
+   "link_id": "joachimite-current--franciscan-order-era-6",
+   "prose_change": null,
+   "reason": "The poverty quarrel's Joachite wing is the Spirituals (Clareno, Olivi's commentary). Same link."
+  },
+  {
+   "movement": "joachimite-current",
+   "field": "why",
+   "sentence": "The current his reading started spread especially among Franciscans, who saw their own movement described in it, until a 1254 book making the claim explicit was condemned and the current fixed on 1260 as the year the new age would open.",
+   "other_id": "the-franciscan-movement",
+   "disposition": "link",
+   "link_id": "joachimite-current--the-franciscan-movement",
+   "prose_change": null,
+   "reason": "Influence link."
+  },
+  {
+   "movement": "joachimite-current",
+   "field": "why",
+   "sentence": "The current his reading started spread especially among Franciscans, who saw their own movement described in it, until a 1254 book making the claim explicit was condemned and the current fixed on 1260 as the year the new age would open.",
+   "other_id": "latin-papal-church-gregorian",
+   "disposition": "link",
+   "link_id": "latin-papal-church-gregorian--joachimite-current",
+   "prose_change": null,
+   "reason": "Not listed by the inventory: the condemnation of the 1254 book. Papal link. The 1260 expectation is not a relationship claim (out of scope here; Salimbene wanted)."
+  },
+  {
+   "movement": "joachimite-current",
+   "field": "why",
+   "sentence": "When the year passed without incident, the expectation did not simply vanish — it fed into the bitter Franciscan quarrel over poverty that followed.",
+   "other_id": "franciscan-order-era-6",
+   "disposition": "link",
+   "link_id": "joachimite-current--franciscan-order-era-6",
+   "prose_change": null,
+   "reason": "Spirituals link."
+  },
+  {
+   "movement": "joachimite-current",
+   "field": "legacy",
+   "sentence": "No community descends from it, and the Florensian order Joachim founded was absorbed long ago.",
+   "other_id": null,
+   "disposition": "remove",
+   "link_id": null,
+   "prose_change": 3,
+   "reason": "The Florensians have no census entry, and their absorption is in no vendored or repo-cited source. Clause removed."
+  },
+  {
+   "movement": "joachimite-current",
+   "field": "legacy",
+   "sentence": "In Franciscan reform movements, in radical politics, and in the recurring modern language of a 'third age' or a new spiritual era.",
+   "other_id": "franciscan-order-era-6",
+   "disposition": "link",
+   "link_id": "joachimite-current--franciscan-order-era-6",
+   "prose_change": null,
+   "reason": "Generic. The Franciscan reform strand rides on the Spirituals link; inventory's fraticelli guess is the alternative target. No separate link drawn."
+  },
+  {
+   "movement": "joachimite-current",
+   "field": "legacy",
+   "sentence": "In Franciscan reform movements, in radical politics, and in the recurring modern language of a 'third age' or a new spiritual era.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "'Radical politics' and modern 'third age' language have no census entry. A history-of-ideas claim carried by Reeves (1969, census-cited) and not by any vendored text; it is not a claim about a movement and stands under the era-2 rule (Open-Gaps 24). The sentence is a fragment; left for the entry owner since it is not a relationship change."
+  },
+  {
+   "movement": "joachimite-current",
+   "field": "legacy",
+   "sentence": "Joachim himself stayed readable enough that Dante placed him in paradise.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Not listed by the inventory. Dante is a person with no entry. Paradiso 12 is not vendored (grep 'Giovacchino' finds no Dante file). A reception fact, not a movement relationship; stands under Open-Gaps 24, with the Commedia in wants."
+  },
+  {
+   "movement": "balkan-bogomil-continuation",
+   "field": "relationsSummary",
+   "sentence": "A continuation of an earlier Bogomil current: Basil burned in the Hippodrome under Alexios I, Zigabenos wrote against them, Tarnovo anathematized them in 1211; claimed parent of the Cathars - a claim, not an established line of descent.",
+   "other_id": "bogomils",
+   "disposition": "link",
+   "link_id": "bogomils--balkan-bogomil-continuation",
+   "prose_change": null,
+   "reason": "'A continuation of an earlier Bogomil current'. Cross-era: era 4."
+  },
+  {
+   "movement": "balkan-bogomil-continuation",
+   "field": "relationsSummary",
+   "sentence": "A continuation of an earlier Bogomil current: Basil burned in the Hippodrome under Alexios I, Zigabenos wrote against them, Tarnovo anathematized them in 1211; claimed parent of the Cathars - a claim, not an established line of descent.",
+   "other_id": "byzantine-church-after-1054",
+   "disposition": "link",
+   "link_id": "byzantine-church-after-1054--balkan-bogomil-continuation",
+   "prose_change": null,
+   "reason": "Not listed by the inventory: 'Basil burned in the Hippodrome under Alexios I, Zigabenos wrote against them' relates the Byzantine church to this movement through persons."
+  },
+  {
+   "movement": "balkan-bogomil-continuation",
+   "field": "relationsSummary",
+   "sentence": "A continuation of an earlier Bogomil current: Basil burned in the Hippodrome under Alexios I, Zigabenos wrote against them, Tarnovo anathematized them in 1211; claimed parent of the Cathars - a claim, not an established line of descent.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "'Tarnovo anathematized them in 1211': the Bulgarian church of the Second Empire has no census entry (serbian-and-bulgarian-medieval-monasticism is a monastic entry and does not own a tsar's synod). Checked: Rački (Rad VII) and Evans (1877) report Tsar Boril's Synodikon against the Bogomil heresy but date it 1210 and misname the tsar 'Boris'; the census's 1211 follows the modern dating. Stands; escalated as a missing entry."
+  },
+  {
+   "movement": "balkan-bogomil-continuation",
+   "field": "relationsSummary",
+   "sentence": "A continuation of an earlier Bogomil current: Basil burned in the Hippodrome under Alexios I, Zigabenos wrote against them, Tarnovo anathematized them in 1211; claimed parent of the Cathars - a claim, not an established line of descent.",
+   "other_id": "cathars-albigensians",
+   "disposition": "link",
+   "link_id": "balkan-bogomil-continuation--cathars-albigensians",
+   "prose_change": null,
+   "reason": "Contested influence link; the sentence already calls it a claim."
+  },
+  {
+   "movement": "balkan-bogomil-continuation",
+   "field": "longDescription",
+   "sentence": "The Bogomils began in tenth-century Bulgaria and were still there, and in Byzantine territory, throughout this period.",
+   "other_id": "bogomils",
+   "disposition": "link",
+   "link_id": "bogomils--balkan-bogomil-continuation",
+   "prose_change": null,
+   "reason": "Continued-as link."
+  },
+  {
+   "movement": "balkan-bogomil-continuation",
+   "field": "longDescription",
+   "sentence": "Around the turn of the twelfth century the emperor Alexios I had a Bogomil teacher called Basil brought to Constantinople, drew out his beliefs by pretending to be a convert, and had him burned in the Hippodrome.",
+   "other_id": "byzantine-church-after-1054",
+   "disposition": "link",
+   "link_id": "byzantine-church-after-1054--balkan-bogomil-continuation",
+   "prose_change": null,
+   "reason": "Not listed by the inventory. Byzantine link."
+  },
+  {
+   "movement": "balkan-bogomil-continuation",
+   "field": "longDescription",
+   "sentence": "The emperor's daughter Anna Komnene tells the story, and Alexios commissioned the theologian Euthymios Zigabenos to write the movement up for refutation.",
+   "other_id": "byzantine-church-after-1054",
+   "disposition": "link",
+   "link_id": "byzantine-church-after-1054--balkan-bogomil-continuation",
+   "prose_change": null,
+   "reason": "Not listed by the inventory. Byzantine link (Zigabenos's commission, Rački line 1809)."
+  },
+  {
+   "movement": "balkan-bogomil-continuation",
+   "field": "longDescription",
+   "sentence": "In 1211 a synod at Tarnovo anathematized them again.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "As in the summary: no entry for the Tarnovo church; Rački and Evans support a Bogomil anathema in Boril's Synodikon (dated 1210 there)."
+  },
+  {
+   "movement": "balkan-bogomil-continuation",
+   "field": "why",
+   "sentence": "By this period the Bogomils, who began in tenth-century Bulgaria, held no church buildings, no clergy in the ordinary sense and no sacraments as the wider church understood them, teaching that the material world and the visible church alike belonged to an evil power.",
+   "other_id": "bogomils",
+   "disposition": "link",
+   "link_id": "bogomils--balkan-bogomil-continuation",
+   "prose_change": null,
+   "reason": "Continued-as link."
+  },
+  {
+   "movement": "balkan-bogomil-continuation",
+   "field": "why",
+   "sentence": "By this period the Bogomils, who began in tenth-century Bulgaria, held no church buildings, no clergy in the ordinary sense and no sacraments as the wider church understood them, teaching that the material world and the visible church alike belonged to an evil power.",
+   "other_id": null,
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "'As the wider church understood them' is a doctrinal contrast, not a relationship with a movement."
+  },
+  {
+   "movement": "balkan-bogomil-continuation",
+   "field": "why",
+   "sentence": "Around 1100 the emperor Alexios I had a Bogomil teacher named Basil brought to Constantinople, drew out his beliefs by pretending to be a convert, and had him burned in the Hippodrome — a story his daughter Anna Komnene tells, and which the theologian Euthymios Zigabenos was commissioned to write up for refutation.",
+   "other_id": "byzantine-church-after-1054",
+   "disposition": "link",
+   "link_id": "byzantine-church-after-1054--balkan-bogomil-continuation",
+   "prose_change": null,
+   "reason": "Not listed by the inventory. Byzantine link."
+  },
+  {
+   "movement": "balkan-bogomil-continuation",
+   "field": "why",
+   "sentence": "A synod at Tarnovo anathematized them again in 1211, and not one line survives that a Bogomil wrote about themselves.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "No entry for the Tarnovo church; checked as above."
+  },
+  {
+   "movement": "balkan-bogomil-continuation",
+   "field": "legacy",
+   "sentence": "Medieval writers, and many modern ones, have treated the Bogomils as the source of the Western dualist movements, the Cathars especially, and the English word 'bugger' descends by way of 'Bulgar' from that association.",
+   "other_id": "cathars-albigensians",
+   "disposition": "link",
+   "link_id": "balkan-bogomil-continuation--cathars-albigensians",
+   "prose_change": null,
+   "reason": "Contested link (Sacconi, the Interrogatio colophon, Rački; Sennis for the doubt). The word history is not a relationship claim and has no vendored source; it stands."
+  },
+  {
+   "movement": "balkan-bogomil-continuation",
+   "field": "legacy",
+   "sentence": "Whether any actual line of transmission ran from the Balkans to Languedoc is disputed and probably unprovable.",
+   "other_id": "cathars-albigensians",
+   "disposition": "link",
+   "link_id": "balkan-bogomil-continuation--cathars-albigensians",
+   "prose_change": null,
+   "reason": "Not listed by the inventory. This sentence is the dispute the Contested grade states."
+  },
+  {
+   "movement": "balkan-bogomil-continuation",
+   "field": "legacy",
+   "sentence": "The Bosnian Church, often bundled in with them in older accounts, is now generally handled by scholars as a separate question.",
+   "other_id": "the-bosnian-church",
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The sentence denies a relationship rather than claiming one, so no link is drawn; a line on the map would assert what it denies. Checked: Rački (1869-70) and Evans (1877), both vendored, argue the old identification; the Bosnian dossier names the later scholarship that rejected it (Kniewald 1949, Fine, Šanjek, Lambert; in copyright, unread). The era-6 Bosnian entry states the same view."
+  }
+ ],
+ "links": [
+  {
+   "id": "the-waldensians--waldensians-in-the-alps",
+   "action": "keep",
+   "from": "the-waldensians",
+   "to": "waldensians-in-the-alps",
+   "type": "continued as",
+   "confidence": "Widely Accepted",
+   "named_in_text": "the-waldensians relationsSummary ('joins the Reformed tradition in 1532'), longDescription ('survived in the Alpine valleys ... for three and a half centuries'), why, legacy ('never disappeared'); continuesAs field",
+   "wants": [],
+   "drafter_flags": [
+    "Primary quote rechecked: Gui t1 lines 4984-4986 match after whitespace squash. Mollat's introduction quote (lines 2085-2088) also matches. The stored verification_state is named-not-rechecked; the reviewer may lift it to verified-direct, since the Gui quote was read in the file, though the continuity reading itself rests on the two secondaries."
+   ],
+   "change_reason": "Keep. Reviewed in the 2026-11-06 rigor pass; both quotes rechecked against the vendored Gui file and they match. It carries the first step of every 'joined the Reformed tradition in 1532' sentence in the Waldensian text; the second step is waldensians-in-the-alps--the-waldensian-reformed-union (Contested), which era 6's pass owns."
+  },
+  {
+   "id": "latin-papal-church-gregorian--the-waldensians",
+   "action": "new",
+   "from": "latin-papal-church-gregorian",
+   "to": "the-waldensians",
+   "type": "argued against",
+   "confidence": "Documented",
+   "note": "The inquisitor Bernard Gui, writing about 1320, tells the story. The archbishop of Lyon told Valdes's followers to stop preaching. They refused, so they were cut off from the church and driven from the city. Later a church council judged them heretics. A papal decree from the reign of Gregory IX names the 'Poor of Lyon' among the heretics it condemns.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Gregory IX, formula of anathema against heretics (c. 1229-1231), in Denzinger-Bannwart, Enchiridion symbolorum, 11th ed. (1911), no. 444",
+     "file": "cic/texts/denzinger_enchiridion-symbolorum-lat_bannwart1911.txt",
+     "lines": "14315-14317",
+     "locus": "Denzinger no. 444",
+     "quote": "Catharos , Patarenos , Pauperes de Lugduno, Passaginos, losepinos, Arnaldistas, Speronistas et alios, quibuscunque nominibus censeantur",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Bernard Gui, Manuel de l'inquisiteur, vol. 1 (ed. Mollat 1926), on the sect of the Waldensians, their origin",
+     "file": "cic/texts/bernard-gui_manuel-inquisiteur-t1-lat-fra_mollat1926.txt",
+     "lines": "4897-4899",
+     "locus": "Part V, 'De secta Valdensium', ch. 1",
+     "quote": "et, moniti ut desiste- rent, inobedientes et contumaces effecti sunt; et exinde excommunicati ab illa civitate et patria sunt expulsi.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Bernard Gui, Manuel de l'inquisiteur, vol. 1 (ed. Mollat 1926), on the sect of the Waldensians, their origin",
+     "file": "cic/texts/bernard-gui_manuel-inquisiteur-t1-lat-fra_mollat1926.txt",
+     "lines": "4900-4903",
+     "locus": "Part V, 'De secta Valdensium', ch. 1",
+     "quote": "Demum vero in quodam concilio, quod fuit Rome ante Lateranense concilium? celebratum, cum essent perti- naces, fuerunt scismatict judicati et deinde ut heretici condempnati.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Édouard Montet, Histoire littéraire des Vaudois du Piémont (Paris, 1885), ch. on the origins",
+     "file": "cic/texts/montet_histoire-litteraire-des-vaudois-du-piemont-fra_1885.txt",
+     "lines": "2230-2233",
+     "locus": "Montet 1885, on the 1184 and 1215 condemnations",
+     "quote": "le quatrième concile de Latran condamne irrévocablement Waldez comme hérétique et réitère l'ex- communication dont Lucius III a frappé ses partisans en 1184.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Édouard Montet, Histoire littéraire des Vaudois du Piémont (Paris, 1885), ch. on the origins",
+     "file": "cic/texts/montet_histoire-litteraire-des-vaudois-du-piemont-fra_1885.txt",
+     "lines": "2249-2250",
+     "locus": "Montet 1885, on the papal decrees against the Vaudois",
+     "quote": "« Ils s'arrogent le droit de prêcher, » avait dit Lucius III en 1184",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "the-waldensians longDescription ('in 1184 the bull Ad abolendam condemned him and his followers'), why ('condemned in 1184 only for preaching without a license'), legacy ('condemned by Rome')",
+   "wants": [
+    "The decretal Ad abolendam (Lucius III, Verona 1184; Liber Extra 5.7.9) in a vendored edition that prints the clause naming the 'Humiliati' and 'Poor of Lyon' (e.g. Friedberg, Corpus Iuris Canonici II, 1881). Denzinger's vendored excerpt (no. 402) prints only the sacramental clause and does not name the Waldensians.",
+    "Valdes's profession of faith (1180) in a vendored edition, to document the census's 'entirely orthodox' confession from Valdes's own side."
+   ],
+   "drafter_flags": [
+    "Gui places the condemning council 'at Rome before the Lateran council'; Mollat's note identifies the later council as Lateran IV (1215). The 1184 condemnation was at Verona. The note therefore says only 'a church council', and the 1184 date rests on Montet (secondary, 1885).",
+    "Denzinger dates the Gregory IX formula '20 Aug. 1229(?)'; the note avoids a year.",
+    "Two Gui quotes keep the file's OCR exactly ('concilium?', 'scismatict', line-end hyphens).",
+    "The name of the bull, 'Ad abolendam', is in no vendored text I found (grep 'abolend'); the census sentence keeps it as a standard fact (see wants). The fact of the 1184 papal excommunication for preaching is supported (Montet)."
+   ],
+   "change_reason": "New. The Waldensian text names the 1184 papal condemnation three times; Denzinger's Gregory IX formula names the 'Pauperes de Lugduno' directly, and Gui records excommunication and conciliar condemnation.",
+   "note_fre": 67.8,
+   "note_fk": 6.8
+  },
+  {
+   "id": "latin-papal-church-gregorian--cathars-albigensians",
+   "action": "new",
+   "from": "latin-papal-church-gregorian",
+   "to": "cathars-albigensians",
+   "type": "argued against",
+   "confidence": "Documented",
+   "note": "In 1179 a great church council at Rome condemned the heretics of Gascony and the lands around Albi and Toulouse, 'whom some call Cathars'. A later papal decree puts the Cathars first among the heretics it condemns. In 1209 the papacy went further and sent crusading armies against them.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Third Lateran Council (1179), canon 27, in Denzinger-Bannwart, Enchiridion symbolorum, 11th ed. (1911), no. 401",
+     "file": "cic/texts/denzinger_enchiridion-symbolorum-lat_bannwart1911.txt",
+     "lines": "13191-13195",
+     "locus": "Lateran III, canon 27 (Denzinger no. 401)",
+     "quote": "Eapropter, quia in Gas- conia, Albegesio et partibus Tolosanis et aliis locis ita haereticorum, quos aUi Catharos, aUi Patarenos, aUi PubUcanos, aUi aliis nominibus vocant, invaluit damnata perversitas",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Third Lateran Council (1179), canon 27, in Denzinger-Bannwart, Enchiridion symbolorum, 11th ed. (1911), no. 401",
+     "file": "cic/texts/denzinger_enchiridion-symbolorum-lat_bannwart1911.txt",
+     "lines": "13198-13199",
+     "locus": "Lateran III, canon 27 (Denzinger no. 401)",
+     "quote": "eos et defensores et receptatores eoruni anathemati decernimus subiacere",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Gregory IX, formula of anathema against heretics (c. 1229-1231), in Denzinger-Bannwart, Enchiridion symbolorum, 11th ed. (1911), no. 444",
+     "file": "cic/texts/denzinger_enchiridion-symbolorum-lat_bannwart1911.txt",
+     "lines": "14315-14317",
+     "locus": "Denzinger no. 444",
+     "quote": "Catharos , Patarenos , Pauperes de Lugduno, Passaginos, losepinos, Arnaldistas, Speronistas et alios, quibuscunque nominibus censeantur",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Jean-Paul Perrin, History of the Old Albigenses (1618; English translation 1624, Philadelphia 1847), Part II, Book I, ch. 3",
+     "file": "cic/texts/perrin_history-ancient-christians-valleys-alps_1847.txt",
+     "lines": "8363-8364",
+     "locus": "Part II, Book I, ch. 3",
+     "quote": "When pope Innocent had made ready his armies of crusaders, and dispersed them throughout the country of the Albigenses,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Jean-Paul Perrin, History of the Old Albigenses (1618; English translation 1624, Philadelphia 1847), Part II, Book I, ch. 3",
+     "file": "cic/texts/perrin_history-ancient-christians-valleys-alps_1847.txt",
+     "lines": "8443-8444",
+     "locus": "Part II, Book I, ch. 3",
+     "quote": "That levy of pilgrims waa made in the year 1209.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Henry Charles Lea, A History of the Inquisition of the Middle Ages, vol. 3 (1888)",
+     "file": "cic/texts/lea_history-of-the-inquisition-of-the-middle-ages-v3_1888.txt",
+     "lines": "1184-1186",
+     "locus": "vol. 3, ch. 1",
+     "quote": "In Provence and Lan- guedoc, especialljT-, his teachings found eager reception. Harried successively by the crusades and the Inquisition,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Antonio Sennis (ed.), Cathars in Question (York Medieval Press, 2016)",
+     "file": null,
+     "lines": null,
+     "quote": null
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Cambridge History of Christianity vol. 4, ch. 12 'Christians and heretics' (Biller)",
+     "file": null,
+     "lines": null,
+     "quote": null
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "cathars-albigensians relationsSummary ('Target of crusade and inquisition'), longDescription and why ('in 1209 the papacy launched a crusade against them ... then inquisition'), legacy ('the papal inquisition was built in the 1230s largely to deal with this problem')",
+   "wants": [
+    "A vendored text of the crusade's own sources: Innocent III's letters of 1208-1209 calling the crusade, or Peter of Vaux-de-Cernay's Historia Albigensis, to document 1209 from a primary side (Perrin, the only vendored narrative, is a seventeenth-century Protestant history).",
+    "Lea, A History of the Inquisition of the Middle Ages, vol. 1 (1888), which narrates the Albigensian crusade and the founding of the inquisition in the 1230s; only vol. 3 is vendored.",
+    "A vendored text on Montségur (1244) and Bélibaste (1321), e.g. the Fournier register; neither is in any vendored file I found beyond Lea's index."
+   ],
+   "drafter_flags": [
+    "The Documented grade rests on Lateran III and the Gregory IX formula, which name the Cathars as the object of condemnation. The 1209 crusade sentence rests only on Perrin (1618, a Protestant history that treats the Albigenses as Waldenses, a view not followed here) and Lea; I list both as secondary.",
+    "Lateran III quote keeps the OCR ('aUi', 'PubUcanos', 'eoruni', 'Gas- conia').",
+    "The legacy claim that the inquisition was 'built in the 1230s largely to deal with this problem' has no vendored source beyond Lea's 'harried successively by the crusades and the Inquisition'; the census cites Biller's CHC chapter for it. It stands as part of this link's story, not as a separate link (the inquisition has no census entry).",
+    "Not drafted, but the reviewer may want it checked: the Dominican and Cistercian texts are not part of this group. The Dominican text names Dominic's preaching against dissenters in Languedoc; that is the Dominicans' own claim, for their pass."
+   ],
+   "change_reason": "New. Every Cathar field names the papacy's crusade and inquisition. Lateran III (1179) anathematizes the heretics 'whom some call Cathars', and Gregory IX's formula names them first.",
+   "note_fre": 61.3,
+   "note_fk": 8.6
+  },
+  {
+   "id": "balkan-bogomil-continuation--cathars-albigensians",
+   "action": "new",
+   "from": "balkan-bogomil-continuation",
+   "to": "cathars-albigensians",
+   "type": "influenced",
+   "confidence": "Contested",
+   "note": "About 1250 Rainier Sacconi, an Italian inquisitor, wrote that all the Cathar churches came from two in the east. He named them as Bulgaria and Dugunthia. The Cathars of Concorezzo, in Italy, had a secret book. A note in one copy says their bishop Nazarius brought it from Bulgaria. Scholars still argue over whether such hostile reports show a real link.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Rainier Sacconi, Summa de Catharis et Pauperibus de Lugduno (c. 1250), on the sixteen Cathar churches, as printed in Franjo Rački, 'Bogomili i Patareni', Rad JAZU VII (1869)",
+     "file": "cic/texts/racki_bogomili-i-patareni-rad-vii-hrv_jazu1869.txt",
+     "lines": "4328-4330",
+     "locus": "Sacconi, 'Quot sunt ecclesiae Catharorum' (Rački, Rad VII, notes to the Cathar churches)",
+     "quote": "Ecclesia Burgariae (Bulgariae), Ecclesia Dugunthiae (Dugranicae). Et omnes habuerunt originem de duabus ultimis.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Colophon of the Interrogatio Iohannis (the 'Secret Supper'), Carcassonne inquisition manuscript, as printed in Franjo Rački, 'Bogomili i Patareni', part 2, Rad JAZU X (1870)",
+     "file": "cic/texts/racki_bogomili-i-patareni-rad-x-hrv_jazu1870.txt",
+     "lines": "4661-4663",
+     "locus": "Rački, Rad X, on the books of the Bogomils and Patarenes",
+     "quote": "hoc est secretum hereticorum de Concorezio, portatum de Bulgaria Nazario suo episcopo, plenum erroribus.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Everwin of Steinfeld, letter to Bernard of Clairvaux (c. 1143), as printed in Franjo Rački, 'Bogomili i Patareni', Rad JAZU VII (1869), note",
+     "file": "cic/texts/racki_bogomili-i-patareni-rad-vii-hrv_jazu1869.txt",
+     "lines": "474-476",
+     "locus": "Everwin, Ep. ad Bernardum (Mabillon, Vetera analecta III, 457), cited by Rački",
+     "quote": "Hane haeresim usque ad hac tempora occultatam fuisse a temporibus inartyrum, et pennansisse in Graecia et quibusdam aliis terris.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Franjo Rački, 'Bogomili i Patareni', Rad Jugoslavenske akademije VII (Zagreb, 1869)",
+     "file": "cic/texts/racki_bogomili-i-patareni-rad-vii-hrv_jazu1869.txt",
+     "lines": "2156-2157",
+     "locus": "Rad VII, on the Cathars and Patarenes to the end of the twelfth century",
+     "quote": "Zapadni je ogranak sekte ostao uviek u svezi sa svojim deblom.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Antonio Sennis (ed.), Cathars in Question (York Medieval Press, 2016)",
+     "file": null,
+     "lines": null,
+     "quote": null
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "balkan-bogomil-continuation relationsSummary ('claimed parent of the Cathars - a claim, not an established line of descent'), legacy ('treated the Bogomils as the source of the Western dualist movements, the Cathars especially ... disputed and probably unprovable'); not named in the Cathar text",
+   "wants": [
+    "Rainier Sacconi's Summa (1250) in a vendored edition (e.g. Dondaine, Un traité néo-manichéen, 1939, if public domain) or a public-domain translation, to quote him directly rather than through Rački.",
+    "The Interrogatio Iohannis in a vendored edition with the Carcassonne colophon (e.g. Benoist 1691, or Döllinger, Beiträge II, 1890).",
+    "The 'charter of Niquinta' (Saint-Félix council, 1167; Besse 1660, cited by Rački from Bouquet XIV, 448), for the Balkan bishop Niquinta among the Languedoc Cathars.",
+    "A repo-cited modern work on the Bogomil-Cathar question read and cited by page (e.g. the Stoyanov and Hamilton chapters of Sennis, ed., Cathars in Question, 2016), for both sides of the dispute."
+   ],
+   "drafter_flags": [
+    "Three primary quotes are medieval Latin printed inside Rački's 1869 Croatian article, not in an edition of their own; I mark them primary with the work line saying so. Rački's variants in parentheses are kept.",
+    "Type: the medieval claim is of origin ('originem'), which would be 'gave rise to'. I chose 'influenced', the weaker claim, because the census frames the question as whether any line of transmission ran at all, and even that is contested. A reviewer may prefer 'gave rise to' + Contested.",
+    "Contested: the claim side is Sacconi, the colophon and Rački; the doubt side is the coherence debate in Sennis (2016), which I have not read and cite only as the census does. The census's own legacy line ('disputed and probably unprovable') is the frame.",
+    "Everwin's 1143 letter says the heresy had persisted 'in Greece'; it supports an eastern origin claim but names neither Bulgaria nor the Bogomils.",
+    "Cross-era: era 4. The era-4 Bogomils entry also claims influence on the Cathars ('Parent-influence claimed for the Cathars'). If era 4 drafts bogomils--cathars-albigensians on the same evidence, one of the two should go: Sacconi's churches of 1250 are thirteenth-century and belong to this Balkan entry."
+   ],
+   "change_reason": "New. The Balkan text names the Cathar claim twice and calls it disputed; Sacconi and the Interrogatio colophon carry the claim, and the census frames the dispute.",
+   "note_fre": 60.7,
+   "note_fk": 7.8
+  },
+  {
+   "id": "bogomils--balkan-bogomil-continuation",
+   "action": "new",
+   "from": "bogomils",
+   "to": "balkan-bogomil-continuation",
+   "type": "continued as",
+   "confidence": "Dominant Modern Reconstruction",
+   "note": "The Bogomils began in Bulgaria in the 900s. The same movement lived on in the Balkans and in Byzantium after 1054. The Croatian historian Franjo Rački, writing in 1869 from Greek sources, found a Bogomil group in the Greek capital by the mid-1000s. Its leader Basil, tried under the emperor Alexios I, said he had led it for over forty years.",
+   "sources": [
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Franjo Rački, 'Bogomili i Patareni', Rad Jugoslavenske akademije VII (Zagreb, 1869)",
+     "file": "cic/texts/racki_bogomili-i-patareni-rad-vii-hrv_jazu1869.txt",
+     "lines": "514-517",
+     "locus": "Rad VII, on the Bogomils among the Greeks (citing Euthymios Zigabenos, Panoplia tit. 23)",
+     "quote": "da je dualistička sekta Bogomila imala u Carigradu svoju obćinu već polovicom XI stoljeća. Njezin naime starješina Vasilj, inače Petar, izpovjedio je oko god. 1111, da upravlja obćinom preko 40 godina, pa da je prije u njoj bio 15 godina.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Franjo Rački, 'Bogomili i Patareni', Rad Jugoslavenske akademije VII (Zagreb, 1869)",
+     "file": "cic/texts/racki_bogomili-i-patareni-rad-vii-hrv_jazu1869.txt",
+     "lines": "521",
+     "locus": "Rad VII, on the Bogomils among the Greeks",
+     "quote": "Ona je obstojala prije njega,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Arthur J. Evans, Through Bosnia and the Herzegovina on Foot (London, 1877), historical review",
+     "file": null,
+     "lines": null,
+     "quote": null
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "named-not-rechecked",
+   "named_in_text": "balkan-bogomil-continuation relationsSummary ('A continuation of an earlier Bogomil current'), longDescription and why ('The Bogomils began in tenth-century Bulgaria and were still there'); bogomils legacy ('its story runs on directly into the Bogomil communities of the twelfth and thirteenth centuries')",
+   "wants": [
+    "Anna Komnene, Alexiad, book 15 (e.g. Dawes's English translation, 1928), in a vendored edition: it would document Basil's community and its age from a primary side and could lift this to Widely Accepted.",
+    "Euthymios Zigabenos, Panoplia dogmatica, title 23 (PG 130), or Gieseler's Narratio de Bogomilis (1842), in a vendored edition."
+   ],
+   "drafter_flags": [
+    "Cross-era: era 4. The Bogomils entry's own legacy names this continuation; era 4's pass may draft the same pair.",
+    "Graded Dominant Modern Reconstruction only because no vendored primary carries the twelfth-century facts: Anna Komnene and Zigabenos are not vendored, and Rački's Greek quotations are unreadable OCR. The continuity itself is not disputed. With a vendored Alexiad 15 this would be Widely Accepted.",
+    "Rački's date 'about 1111' for Basil's trial is his; the census says 'around 1100'. The note gives no year.",
+    "Rački's quotes are Croatian scholarship. The Bosnian dossier warns that his Bosnian Bogomil thesis is rejected; that does not touch the Constantinople evidence used here.",
+    "verification_state named-not-rechecked: no primary quote; I read the Rački lines myself."
+   ],
+   "change_reason": "New. The Balkan entry calls itself 'a continuation of an earlier Bogomil current'; this is a period split of one movement, carried by Rački's reading of Zigabenos and Anna Komnene.",
+   "note_fre": 63.8,
+   "note_fk": 8.2
+  },
+  {
+   "id": "byzantine-church-after-1054--balkan-bogomil-continuation",
+   "action": "new",
+   "from": "byzantine-church-after-1054",
+   "to": "balkan-bogomil-continuation",
+   "type": "argued against",
+   "confidence": "Dominant Modern Reconstruction",
+   "note": "Around 1100 the emperor Alexios I and the patriarch Nicholas put the Bogomil teacher Basil on trial. Basil would not give up his faith, so the emperor had him burned in the Hippodrome. Alexios also told the monk Euthymios Zigabenos to write a book against the Bogomils. The emperor's daughter Anna Komnene tells the story. Here it comes as Franjo Rački told it in 1869.",
+   "sources": [
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Franjo Rački, 'Bogomili i Patareni', Rad Jugoslavenske akademije VII (Zagreb, 1869), retelling Anna Komnene, Alexiad 15",
+     "file": "cic/texts/racki_bogomili-i-patareni-rad-vii-hrv_jazu1869.txt",
+     "lines": "1800-1801",
+     "locus": "Rad VII, on Alexios I and the Bogomils",
+     "quote": "Taj posao preuzeše u svoje ruke same glave obiju vlasti : car Aleksij i pa tri jarak Nikola;",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Franjo Rački, 'Bogomili i Patareni', Rad Jugoslavenske akademije VII (Zagreb, 1869), retelling Anna Komnene, Alexiad 15",
+     "file": "cic/texts/racki_bogomili-i-patareni-rad-vii-hrv_jazu1869.txt",
+     "lines": "1735-1736",
+     "locus": "Rad VII, on Basil's burning",
+     "quote": "Ovo odobrivši napokon i sam Alexij poslije novih opomena naloži, da se lomača pripravi u trkalištu.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Franjo Rački, 'Bogomili i Patareni', Rad Jugoslavenske akademije VII (Zagreb, 1869)",
+     "file": "cic/texts/racki_bogomili-i-patareni-rad-vii-hrv_jazu1869.txt",
+     "lines": "1810",
+     "locus": "Rad VII, on Zigabenos's commission",
+     "quote": "I za nju se pravovjerni car pobrinuo, povjeriv Evthymiju,",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "named-not-rechecked",
+   "named_in_text": "balkan-bogomil-continuation relationsSummary ('Basil burned in the Hippodrome under Alexios I, Zigabenos wrote against them'), longDescription and why (the Alexios, Anna Komnene and Zigabenos sentences)",
+   "wants": [
+    "Anna Komnene, Alexiad, book 15 (e.g. Dawes's English translation, 1928), in a vendored edition, to make this Documented.",
+    "Euthymios Zigabenos, Panoplia dogmatica, title 23, 'Against the Bogomils' (PG 130), in a vendored edition."
+   ],
+   "drafter_flags": [
+    "Missed by the inventory: the Balkan text carries this relationship through persons (Alexios, Patriarch Nicholas, Zigabenos), not through a named movement.",
+    "Mapping: the act is the emperor's together with the patriarch and a synod of church and state (Rački, lines 1799-1802), so byzantine-church-after-1054 is the owning entry. athonite-and-comnenian-byzantine-monasticism was considered for Zigabenos, a monk, and rejected: he wrote on the emperor's commission.",
+    "Graded Dominant Modern Reconstruction only because the primary sources are not vendored; the events are not disputed. With a vendored Alexiad 15 this would be Documented.",
+    "The Rački quote 'pa tri jarak' is OCR for 'patrijarak' (patriarch), kept as the file prints it. 'trkalište' is Rački's word for the Hippodrome (racecourse)."
+   ],
+   "change_reason": "New. The Balkan entry names Basil's burning under Alexios and Zigabenos's refutation in all three of its fields; the inventory missed it because no movement is named.",
+   "note_fre": 60.3,
+   "note_fk": 8.0
+  },
+  {
+   "id": "joachimite-current--the-franciscan-movement",
+   "action": "new",
+   "from": "joachimite-current",
+   "to": "the-franciscan-movement",
+   "type": "influenced",
+   "confidence": "Documented",
+   "note": "Joachim's view of history spread among the Franciscan friars in the mid-1200s. The friar Angelo Clareno writes that a companion of John of Parma, head of the order from 1248, praised Joachim far beyond measure in a sermon. In 1254 another friar, Gerard of Borgo San Donnino, built a book on Joachim's three main works.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Angelo Clareno, Historia septem tribulationum ordinis minorum (c. 1320s), fifth tribulation, Latin text printed by Franz Ehrle in Archiv für Literatur- und Kirchengeschichte des Mittelalters 2 (1886)",
+     "file": "cic/texts/ehrle-denifle_archiv-literatur-kirchengeschichte-mittelalters-bd2-deu-lat_1886.txt",
+     "lines": "15462-15469",
+     "locus": "Historia, on the trial of John of Parma (Ehrle, Archiv 2, p. 276)",
+     "quote": "Fuit autem racio tercia | persecucionis duorum sermonum conscriptio faeta a duobus quibusdam fratris Johannis sociis b), quorum primus per excessum et, ut ita dicam, sine sale laudabat abbatis Joachim doctrinam pariter et personam,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Henry Charles Lea, A History of the Inquisition of the Middle Ages, vol. 3 (1888), ch. 1",
+     "file": "cic/texts/lea_history-of-the-inquisition-of-the-middle-ages-v3_1888.txt",
+     "lines": "1256-1258",
+     "locus": "vol. 3, ch. 1, 'The Spiritual Franciscans'",
+     "quote": "Prominent members of the Order had openly embraced the Joa- chitic doctrines, and his prophecies, genuine and spurious, were applied to all events as they occurred.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Henry Charles Lea, A History of the Inquisition of the Middle Ages, vol. 3 (1888), ch. 1",
+     "file": "cic/texts/lea_history-of-the-inquisition-of-the-middle-ages-v3_1888.txt",
+     "lines": "758-759",
+     "locus": "vol. 3, ch. 1",
+     "quote": "in 1248 was succeeded by Giovanni Borelli, better known as John of Parma,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Heinrich Denifle, 'Das Evangelium aeternum und die Commission zu Anagni', Archiv für Literatur- und Kirchengeschichte des Mittelalters 1 (1885)",
+     "file": "cic/texts/ehrle-denifle_archiv-literatur-kirchengeschichte-mittelalters-bd1-deu-lat_1885.txt",
+     "lines": "4073-4074",
+     "locus": "Denifle 1885, section 3",
+     "quote": "So betrachtete also Gerard die drei Hauptschriften Joachims als das Evangelium aetemum.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Heinrich Denifle, 'Das Evangelium aeternum und die Commission zu Anagni', Archiv für Literatur- und Kirchengeschichte des Mittelalters 1 (1885)",
+     "file": "cic/texts/ehrle-denifle_archiv-literatur-kirchengeschichte-mittelalters-bd1-deu-lat_1885.txt",
+     "lines": "3680-3682",
+     "locus": "Denifle 1885, section 2",
+     "quote": "Das Evangelium aetemum knüpft sich im Mittelalter nicht bloss an den Namen des Abtes Joachim, sondern auch an den des Franciscaners Gerard von Borge S. Donnino.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Marjorie Reeves, The Influence of Prophecy in the Later Middle Ages: A Study in Joachimism (Clarendon, 1969)",
+     "file": null,
+     "lines": null,
+     "quote": null
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "joachimite-current longDescription ('it spread especially among Franciscans, who found in it a description of their own movement'), why ('spread especially among Franciscans'); not named in the Franciscan text",
+   "wants": [
+    "Salimbene de Adam, Chronicle, in a vendored edition (Holder-Egger, MGH SS 32, 1905-13, or Parma 1857), for a Franciscan's own account of Joachite expectation in the friaries and of Gerard.",
+    "The surviving excerpts of Gerard's Introductorius outside the Protocol of Anagni, whose vendored OCR (Ehrle-Denifle Bd 1, from line 5719) is too corrupt to quote."
+   ],
+   "drafter_flags": [
+    "The Clareno quote keeps the file's '|' and 'b)' (a marginal bar and a footnote letter in Ehrle's print) and 'faeta' (OCR for 'facta'). If the reviewer prefers, it can be cut to start at 'quorum primus', at the cost of losing 'fratris Johannis sociis'.",
+    "Clareno names 'frater Johannes'; the identification with John of Parma is Ehrle's (line 14063, 'Gefährten des sel. Johanns von Parma') and Lea's. The note says 'a companion of John of Parma'.",
+    "The census sentence's 'young friar' for Gerard is not in any vendored text; Lea says he held a chair in theology at Paris. Not a relationship claim, so left for the entry owner."
+   ],
+   "change_reason": "New. The Joachimite text says twice that the current spread among Franciscans; Clareno documents a Franciscan sermon praising Joachim, and Denifle and Lea document Gerard's book and wider Franciscan Joachitism.",
+   "note_fre": 63.2,
+   "note_fk": 8.9
+  },
+  {
+   "id": "joachimite-current--franciscan-order-era-6",
+   "action": "new",
+   "from": "joachimite-current",
+   "to": "franciscan-order-era-6",
+   "type": "influenced",
+   "confidence": "Documented",
+   "note": "The strict friars known as the Spirituals saw their order's troubles in the light of Joachim's ages. Their own writer of history, Angelo Clareno, used a prophecy that Joachim had praised. He made it point to Peter John Olivi, the teacher they followed. In 1886 the scholar Franz Ehrle wrote that Clareno's whole plan of the order's trials rests on Joachim's ideas.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Angelo Clareno, Historia septem tribulationum ordinis minorum (c. 1320s), fol. 42a, quoted by Franz Ehrle in Archiv für Literatur- und Kirchengeschichte des Mittelalters 2 (1886)",
+     "file": "cic/texts/ehrle-denifle_archiv-literatur-kirchengeschichte-mittelalters-bd2-deu-lat_1886.txt",
+     "lines": "6185-6188",
+     "locus": "Historia, fol. 42a (Ehrle, Archiv 2, p. 115, note 2)",
+     "quote": "Denique tota prima pars prophecie sancti Cirilli, quam abbas Joachim immensis laudibus effert, fratrem Petrum Johannem principalissime tangit et sue nativitatis locum et ordinem.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Franz Ehrle, 'Die Spiritualen, ihr Verhältniss zum Franziskanerorden und zu den Fraticellen', Archiv für Literatur- und Kirchengeschichte des Mittelalters 2 (1886)",
+     "file": "cic/texts/ehrle-denifle_archiv-literatur-kirchengeschichte-mittelalters-bd2-deu-lat_1886.txt",
+     "lines": "6354-6357",
+     "locus": "Ehrle 1886, on the historia tribulationum",
+     "quote": "Die ganze Berechnung und Eintheilung der tribulationes des Ordens beruht auf dem in spiritualistischen Kreisen weit verbreiteten Joachimismus, in welchen sich auch Angelo voll- ständig hineingelebt hatte.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Franz Ehrle, 'Petrus Johannis Olivi, sein Leben und seine Schriften', Archiv für Literatur- und Kirchengeschichte des Mittelalters 3 (1887)",
+     "file": "cic/texts/ehrle-denifle_archiv-literatur-kirchengeschichte-mittelalters-bd3-deu-lat_1887.txt",
+     "lines": "27410-27411",
+     "locus": "Ehrle 1887, on Olivi's Apocalypse commentary",
+     "quote": "Es ist eben diese Postille die Apocalypse Joachims in ‘verbesserter’ spiritualistischer Auflage.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Georges Mollat (ed.), Bernard Gui, Manuel de l'inquisiteur, vol. 1 (1926), note on the Beguins' reading of Olivi",
+     "file": "cic/texts/bernard-gui_manuel-inquisiteur-t1-lat-fra_mollat1926.txt",
+     "lines": "10797-10799",
+     "locus": "Mollat's note to Gui, Part V, the Beguins' interrogatory",
+     "quote": "Ce commentaire combinait les rêveries apocalyptiques de Joachim de Flore, moine calabrais, mort au début du xrr1° siècle, avec les élucubrations d’un frère Mineur,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "David Burr, The Spiritual Franciscans: From Protest to Persecution in the Century after Saint Francis (Penn State, 2001)",
+     "file": null,
+     "lines": null,
+     "quote": null
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "joachimite-current relationsSummary ('Where it became communal, it lives inside the Franciscan Spirituals' story'), longDescription and why ('carried the expectation on into the bitter Franciscan quarrel over poverty'), legacy ('In Franciscan reform movements'); not named in the era-6 Franciscan text",
+   "wants": [
+    "Peter John Olivi, Lectura super Apocalypsim, in any vendored edition (the Franciscan dossiers found none), to document Olivi's use of Joachim from his own text rather than through Ehrle's extracts.",
+    "John XXII's condemnation of Olivi's Apocalypse commentary (1326), if vendored in the Bullarium Franciscanum v5, to show the papacy treating the Spirituals' Joachite reading as one."
+   ],
+   "drafter_flags": [
+    "Mapping: the relationsSummary names 'the Franciscan Spirituals'. I chose franciscan-order-era-6, whose summary covers 'the Spirituals crisis'. fraticelli-spiritual-franciscan-rigorists ('Spiritual Franciscan rigorists') is the other candidate; Clareno's own followers later shade into it. A reviewer may want the link there instead, or both.",
+    "The legacy's 'Franciscan reform movements' is generic; I let it ride on this link rather than draw a third Franciscan line.",
+    "Olivi died in 1298, inside the era-5 Franciscan entry's dates; the Spirituals' use of his commentary (Clareno, the Beguins) is fourteenth-century, which is why this link goes to era 6.",
+    "Ehrle 3 quote keeps the file's curly quotes around 'verbesserter'."
+   ],
+   "change_reason": "New. The Joachimite summary says the current 'lives inside the Franciscan Spirituals' story'; Clareno's Historia invokes Joachim for Olivi's prophesied role, and Ehrle states that Clareno's scheme is Joachite.",
+   "note_fre": 62.4,
+   "note_fk": 8.3
+  },
+  {
+   "id": "latin-papal-church-gregorian--joachimite-current",
+   "action": "new",
+   "from": "latin-papal-church-gregorian",
+   "to": "joachimite-current",
+   "type": "argued against",
+   "confidence": "Documented",
+   "note": "In 1215 a great church council at Rome condemned a small book Joachim had written against Peter Lombard's teaching on the Trinity. In 1254 a friar's book built on Joachim's works caused alarm in Paris. A papal panel met at Anagni in 1255 to judge it, and the book was condemned.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Fourth Lateran Council (1215), chapter 2, 'On the error of Abbot Joachim', in Denzinger-Bannwart, Enchiridion symbolorum, 11th ed. (1911), no. 431",
+     "file": "cic/texts/denzinger_enchiridion-symbolorum-lat_bannwart1911.txt",
+     "lines": "13944-13946",
+     "locus": "Lateran IV, ch. 2 (Denzinger no. 431)",
+     "quote": "Damnamus ergo et reprobamus libellum seu tractatum, 39 (358) quem Abbas loachim edidit contra Magistrum Petrum Lombardum, de unitate seu essentia Trinitatis,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Henry Charles Lea, A History of the Inquisition of the Middle Ages, vol. 3 (1888), ch. 1",
+     "file": "cic/texts/lea_history-of-the-inquisition-of-the-middle-ages-v3_1888.txt",
+     "lines": "1401-1403",
+     "locus": "vol. 3, ch. 1, 'The Everlasting Gospel'",
+     "quote": "The commission which sat at Anagni in July, 1255, for its condemnation had a task over which there could be no debate,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Heinrich Denifle, 'Das Evangelium aeternum und die Commission zu Anagni', Archiv für Literatur- und Kirchengeschichte des Mittelalters 1 (1885)",
+     "file": "cic/texts/ehrle-denifle_archiv-literatur-kirchengeschichte-mittelalters-bd1-deu-lat_1885.txt",
+     "lines": "3682-3684",
+     "locus": "Denifle 1885, section 2",
+     "quote": "Im Jahre 1254 veröffentlichte er eine Schrift unter dem Titel: Indrodu- ctorius in Evangelium aetemum.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Marjorie Reeves, The Influence of Prophecy in the Later Middle Ages: A Study in Joachimism (Clarendon, 1969)",
+     "file": null,
+     "lines": null,
+     "quote": null
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "joachimite-current longDescription ('In 1254 a young friar published an Introduction to the Eternal Gospel ... and it was condemned'), why ('a 1254 book making the claim explicit was condemned')",
+   "wants": [
+    "Alexander IV's letters of 1255 condemning the Introductorius (D'Argentré, Collectio judiciorum I, 163-166), in a vendored edition: the vendored Protocol of Anagni (Ehrle-Denifle Bd 1, from line 5719) records the commission's examination but not the verdict, and its OCR is too corrupt to quote."
+   ],
+   "drafter_flags": [
+    "Missed by the inventory (it left the condemning authority unnamed). The Documented grade rests on Lateran IV's condemnation of Joachim's own treatise, which names him; the 1255 condemnation the census text names rests on Lea and Denifle (secondary). If the reviewer holds that the link should grade only the 1255 act, it drops to Widely Accepted (no vendored primary for 1255 is quotable).",
+    "The Lateran IV quote keeps Denzinger's marginal numbers '39' and '(358)' and the OCR 'loachim', because they stand inside the quoted span in the file.",
+    "Lea notes that Denifle held the 1255 result to be a condemnation of Gerard's views, not of Joachim's works, apart from the Trinity tract. The note says 'the book was condemned', which both accept."
+   ],
+   "change_reason": "New. The Joachimite text names the condemnation of the 1254 book twice; Lateran IV condemned Joachim by name in 1215 and a papal commission sat on the 1254 book in 1255.",
+   "note_fre": 69.0,
+   "note_fk": 7.6
+  }
+ ],
+ "prose_changes": [
+  {
+   "n": 0,
+   "movement": "the-waldensians",
+   "field": "longDescription",
+   "old": "Around 1173 a rich merchant of Lyon named Valdes gave away his property, had parts of Scripture translated into the language people actually spoke, and began preaching in the streets. His confession of faith was entirely orthodox. What he would not do was stop preaching without a license, and in 1184 the bull Ad abolendam condemned him and his followers for exactly that. Driven out of the cities, the movement survived in the Alpine valleys between France and Italy for three and a half centuries of intermittent persecution, with its own traveling ministers and its own books. In 1532 its representatives met the Reformers at Chanforan and threw in with the Reformed tradition. Which is why a single line of protest can be followed from twelfth-century Lyon into the Reformation without a break.",
+   "new": "Around 1173 a rich merchant of Lyon named Valdes gave away his property. He had parts of Scripture put into the language people actually spoke, and he began preaching in the streets. His confession of faith was wholly orthodox. What he would not do was stop preaching without a license, and in 1184 the bull Ad abolendam condemned him and his followers for exactly that. Driven out of the cities, the movement held on in the Alpine valleys between France and Italy. It lasted through three and a half centuries of on-and-off persecution, with its own traveling ministers and its own books. In 1532 its leaders met the Reformers at Chanforan and threw in with the Reformed churches. So a single line of protest runs from twelfth-century Lyon into the Reformation, though scholars disagree about how unbroken it was.",
+   "reason": "'Without a break' claimed more than the sources carry. The step from the Alpine Waldensians to the 1532 union is graded Contested, and the census's own status note says the thread 'jumps a 1300-1517 gap'. The new sentence keeps the line and says plainly that its continuity is disputed. It also replaces a sentence fragment with a full sentence. The paragraph is rewritten whole for reading level (it scored below the target before), keeping every other supported fact and the movement's own wording where it reads clearly. Other wording: 'Reformed tradition' becomes 'Reformed churches', the union entry's own phrase; 'entirely' becomes 'wholly'; the closing fragment becomes a full sentence.",
+   "claim_old": "Which is why a single line of protest can be followed from twelfth-century Lyon into the Reformation without a break.",
+   "claim_new": "So a single line of protest can be followed from twelfth-century Lyon into the Reformation, though scholars disagree about how unbroken that line was.",
+   "fre_before": 46.5,
+   "fk_before": 12.2,
+   "fre_after": 60.8,
+   "fk_after": 9.1
+  },
+  {
+   "n": 1,
+   "movement": "the-waldensians",
+   "field": "why",
+   "old": "Around 1173 a rich merchant of Lyon named Valdes gave away his property, had Scripture translated into the language people actually spoke, and began preaching in the streets — his confession of faith was entirely orthodox, and he was condemned in 1184 only for preaching without a license. Driven from the cities, the movement survived three and a half centuries of persecution in the Alpine valleys between France and Italy, with its own traveling ministers and its own books. In 1532 its representatives met the Reformers at Chanforan and joined the Reformed tradition, carrying a line of protest from twelfth-century Lyon straight into the Reformation.",
+   "new": "Around 1173 a rich merchant of Lyon named Valdes gave away his property. He had parts of Scripture put into the language people actually spoke, and he began preaching in the streets. His confession of faith was wholly orthodox. He was condemned in 1184 only for preaching without a license. Driven from the cities, the movement held on in the Alpine valleys between France and Italy. It lived through three and a half centuries of persecution there, with its own traveling ministers and its own books. In 1532 its leaders met the Reformers at Chanforan and joined the Reformed churches. That carried a line of protest from twelfth-century Lyon into the Reformation. Scholars disagree, though, about how unbroken that line was.",
+   "reason": "'Straight into the Reformation' claimed unbroken continuity; the Alps-to-1532 step is Contested. The rewrite keeps the 1532 union and the line of protest, and states the dispute. The paragraph is rewritten whole for reading level (it scored below the target before), keeping every other supported fact and the movement's own wording where it reads clearly. Other wording: 'had Scripture translated' becomes 'had parts of Scripture put into', matching the long description and Gui (the Gospels and some other books); the long first sentence is split; 'Reformed tradition' becomes 'Reformed churches'.",
+   "claim_old": "In 1532 its representatives met the Reformers at Chanforan and joined the Reformed tradition, carrying a line of protest from twelfth-century Lyon straight into the Reformation.",
+   "claim_new": "In 1532 its representatives met the Reformers at Chanforan and joined the Reformed tradition. That carried a line of protest from twelfth-century Lyon into the Reformation, though scholars disagree about how unbroken the line was.",
+   "fre_before": 28.0,
+   "fk_before": 17.8,
+   "fre_after": 61.2,
+   "fk_after": 8.0
+  },
+  {
+   "n": 2,
+   "movement": "the-waldensians",
+   "field": "legacy",
+   "old": "The Waldensian church is still here. Having joined the Reformed tradition at Chanforan in 1532, it survives as the Waldensian Evangelical Church, based in the same Piedmontese valleys and now united with Italy's Methodists. One of the very few medieval movements condemned by Rome that never disappeared and never had to be reconstructed out of its enemies' files. Its long habit of vernacular Scripture and lay preaching anticipated, and then joined, the Reformation.",
+   "new": "The Waldensian church is still here. It joined the Reformed churches at Chanforan in 1532, and it lives on as the Waldensian Evangelical Church, based in the same valleys of Piedmont. It is one of the very few medieval movements condemned by Rome that never died out. It never had to be pieced together from its enemies' files. Its long habit of Scripture in the people's own tongue, and of preaching by lay people, came before the Reformation and then joined it.",
+   "reason": "The union with Italy's Methodists (1975-1979) is a relationship to a church with no census entry, and no vendored or repo-cited source carries it. It is taken out here, not qualified, because a 'may have' would misstate a modern fact. The era-7 entry the-waldensian-reformed-union states the same union; its pass can source it, and the clause can return here if Mark's ruling on well-known unsourced facts (Open-Gaps 24) lets such facts stand. The paragraph is rewritten whole for reading level (it scored below the target before), keeping every other supported fact and the movement's own wording where it reads clearly. Other wording: 'anticipated, and then joined' becomes 'came before the Reformation and then joined it'; the fragment 'One of the very few...' becomes a full sentence. 'Never had to be pieced together from its enemies' files' keeps the original claim, which is flagged for the entry owner, not changed.",
+   "claim_old": "Having joined the Reformed tradition at Chanforan in 1532, it survives as the Waldensian Evangelical Church, based in the same Piedmontese valleys and now united with Italy's Methodists.",
+   "claim_new": "Having joined the Reformed tradition at Chanforan in 1532, it survives as the Waldensian Evangelical Church, based in the same Piedmontese valleys.",
+   "fre_before": 33.5,
+   "fk_before": 13.1,
+   "fre_after": 60.9,
+   "fk_after": 8.8
+  },
+  {
+   "n": 3,
+   "movement": "joachimite-current",
+   "field": "legacy",
+   "old": "No community descends from it, and the Florensian order Joachim founded was absorbed long ago. What the current left behind is a habit of mind: the idea that history moves in ages toward a coming age of the Spirit kept resurfacing in Western thought long after anyone was reading Joachim directly. In Franciscan reform movements, in radical politics, and in the recurring modern language of a 'third age' or a new spiritual era. Joachim himself stayed readable enough that Dante placed him in paradise. His abbey at San Giovanni in Fiore still stands and still holds his remains.",
+   "new": "No community descends from it. What the current left behind is a habit of mind. The idea that history moves in ages, toward a coming age of the Spirit, kept coming back in Western thought long after anyone read Joachim himself. It came back in Franciscan reform movements, in radical politics, and in modern talk of a 'third age' or a new spiritual era. Joachim was still honored enough that Dante placed him in paradise. His abbey at San Giovanni in Fiore still stands and still holds his remains.",
+   "reason": "The absorption of Joachim's Florensian order (into the Cistercians, 1570) is in no vendored or repo-cited text. Lea (vol. 3) documents only the order's founding and its approval in 1196. The clause is taken out; the sourced claim that no community descends from the current stays. The paragraph is rewritten whole for reading level (it scored below the target before), keeping every other supported fact and the movement's own wording where it reads clearly. Other wording: the fragment 'In Franciscan reform movements...' becomes a full sentence; 'stayed readable enough' becomes 'was still honored enough'.",
+   "claim_old": "No community descends from it, and the Florensian order Joachim founded was absorbed long ago.",
+   "claim_new": "No community descends from it.",
+   "fre_before": 49.7,
+   "fk_before": 11.2,
+   "fre_after": 64.4,
+   "fk_after": 8.0
+  }
+ ],
+ "wants": [
+  "A repo-cited modern work on the Bogomil-Cathar question read and cited by page (e.g. the Stoyanov and Hamilton chapters of Sennis, ed., Cathars in Question, 2016), for both sides of the dispute.",
+  "A vendored text of the crusade's own sources: Innocent III's letters of 1208-1209 calling the crusade, or Peter of Vaux-de-Cernay's Historia Albigensis, to document 1209 from a primary side (Perrin, the only vendored narrative, is a seventeenth-century Protestant history).",
+  "A vendored text on Montségur (1244) and Bélibaste (1321), e.g. the Fournier register; neither is in any vendored file I found beyond Lea's index.",
+  "Alexander IV's letters of 1255 condemning the Introductorius (D'Argentré, Collectio judiciorum I, 163-166), in a vendored edition: the vendored Protocol of Anagni (Ehrle-Denifle Bd 1, from line 5719) records the commission's examination but not the verdict, and its OCR is too corrupt to quote.",
+  "Anna Komnene, Alexiad, book 15 (e.g. Dawes's English translation, 1928), in a vendored edition, to make this Documented.",
+  "Anna Komnene, Alexiad, book 15 (e.g. Dawes's English translation, 1928), in a vendored edition: it would document Basil's community and its age from a primary side and could lift this to Widely Accepted.",
+  "Euthymios Zigabenos, Panoplia dogmatica, title 23 (PG 130), or Gieseler's Narratio de Bogomilis (1842), in a vendored edition.",
+  "Euthymios Zigabenos, Panoplia dogmatica, title 23, 'Against the Bogomils' (PG 130), in a vendored edition.",
+  "John XXII's condemnation of Olivi's Apocalypse commentary (1326), if vendored in the Bullarium Franciscanum v5, to show the papacy treating the Spirituals' Joachite reading as one.",
+  "Lea, A History of the Inquisition of the Middle Ages, vol. 1 (1888), which narrates the Albigensian crusade and the founding of the inquisition in the 1230s; only vol. 3 is vendored.",
+  "Peter John Olivi, Lectura super Apocalypsim, in any vendored edition (the Franciscan dossiers found none), to document Olivi's use of Joachim from his own text rather than through Ehrle's extracts.",
+  "Rainier Sacconi's Summa (1250) in a vendored edition (e.g. Dondaine, Un traité néo-manichéen, 1939, if public domain) or a public-domain translation, to quote him directly rather than through Rački.",
+  "Salimbene de Adam, Chronicle, in a vendored edition (Holder-Egger, MGH SS 32, 1905-13, or Parma 1857), for a Franciscan's own account of Joachite expectation in the friaries and of Gerard.",
+  "The 'charter of Niquinta' (Saint-Félix council, 1167; Besse 1660, cited by Rački from Bouquet XIV, 448), for the Balkan bishop Niquinta among the Languedoc Cathars.",
+  "The Interrogatio Iohannis in a vendored edition with the Carcassonne colophon (e.g. Benoist 1691, or Döllinger, Beiträge II, 1890).",
+  "The decretal Ad abolendam (Lucius III, Verona 1184; Liber Extra 5.7.9) in a vendored edition that prints the clause naming the 'Humiliati' and 'Poor of Lyon' (e.g. Friedberg, Corpus Iuris Canonici II, 1881). Denzinger's vendored excerpt (no. 402) prints only the sacramental clause and does not name the Waldensians.",
+  "The surviving excerpts of Gerard's Introductorius outside the Protocol of Anagni, whose vendored OCR (Ehrle-Denifle Bd 1, from line 5719) is too corrupt to quote.",
+  "Valdes's profession of faith (1180) in a vendored edition, to document the census's 'entirely orthodox' confession from Valdes's own side.",
+  "Dante, Divina Commedia, Paradiso 12 (Joachim 'di spirito profetico dotato'), in a vendored edition",
+  "A source for the Waldensian Church's union with the Italian Methodists (1975-1979), if the clause is to return",
+  "A source for the Florensian order's merger into the Cistercians (1570), if the clause is to return",
+  "A vendored source for the Treaty of Paris (1229) or the crown's annexation of Languedoc, if the Cathar legacy's 'attached Languedoc to the French crown' is to be sourced",
+  "Tsar Boril's Synodikon (1211) in a vendored edition or translation, for the Tarnovo anathema"
+ ],
+ "escalations": [
+  "Cross-world / portfolio: the census has no entry for the Bulgarian church of the Second Empire (the Tarnovo archbishopric, patriarchate from 1235). The Balkan Bogomil text names its 1211 synod against the Bogomils twice. serbian-and-bulgarian-medieval-monasticism mentions the Tarnovo patriarchate but is a monastic entry and should not own a tsar's synod. No link drawn; sources would be Rački and Evans (secondary, dating the Synodikon 1210) unless Boril's Synodikon is vendored.",
+  "Method question, already open as Open-Gaps 24 (well-known facts with no vendored source): I removed one clause under the 'qualify or remove' rule that is a relationship with no census entry (the Waldensians' union with Italy's Methodists) and let stand three that are not movement relationships (Dante placing Joachim in paradise; the crown's annexation of Languedoc; the 'bugger' etymology). If Mark rules that well-known facts may stand unsourced, the Methodist clause can come back."
+ ]
+}

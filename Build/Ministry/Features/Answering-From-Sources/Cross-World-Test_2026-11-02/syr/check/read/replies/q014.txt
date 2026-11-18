@@ -1,0 +1,17 @@
+{"sentences": [
+{"n": 1, "supported": true, "problem": null, "reason": "Record authority-lived (9) states the three paths: made a bishop, taking the vow, found trustworthy over time."},
+{"n": 2, "supported": true, "problem": null, "reason": "Record says authority lay first with shepherds, meaning bishops."},
+{"n": 3, "supported": true, "problem": null, "reason": "Record (2) states Nisibis sang of Jacob, Babu and Valgash as the city's fathers who prayed for it."},
+{"n": 4, "supported": true, "problem": null, "reason": "Record (3) states the Persian church had enough bishops to quarrel over precedence."},
+{"n": 5, "supported": false, "problem": "added_detail", "reason": "The bound record names only 'the sage' as the writer, and does not name Aphrahat."},
+{"n": 6, "supported": true, "problem": null, "reason": "Record (5) says office was not the only path trust ran along, and the force record agrees."},
+{"n": 7, "supported": true, "problem": null, "reason": "Qyama record (2) says its members promised a celibate life for good."},
+{"n": 8, "supported": true, "problem": null, "reason": "Qyama record (4) states they stayed in town among kin and served in the fast, watch, vigil and singing."},
+{"n": 9, "supported": true, "problem": null, "reason": "Record (6) says the vowed men and women carried a standing of their own."},
+{"n": 10, "supported": true, "problem": null, "reason": "Record (7) says a teacher whose word held could write to bishops in a synod's name."},
+{"n": 11, "supported": true, "problem": null, "reason": "Records together state the sage did so and that his rank is unknown, and the gravity record names Aphrahat as drafting the synodal letter."},
+{"n": 12, "supported": true, "problem": null, "reason": "Record (10) says which path finally outranked the others was never settled in our own years."},
+{"n": 13, "supported": true, "problem": null, "reason": "Catholicos record states no one in our own years used the title, which is the later name for the Persian church's head."},
+{"n": 14, "supported": true, "problem": null, "reason": "Force record (2) and gravity record (2) say how the plurality was lived is not attested or is thin, a gap named."}
+],
+"placed": []}

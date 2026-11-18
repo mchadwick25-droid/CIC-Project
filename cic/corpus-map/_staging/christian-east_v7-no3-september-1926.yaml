@@ -1,0 +1,60 @@
+source_file: christian-east_v7-no3-september-1926.txt
+assignments:
+- row_id: christian-east_v7-no3-september-1926--whole
+  work: 'The Christian East, volume VII, number 3 (September, 1926)'
+  author: christian-east
+  locus: 'whole'
+  atlas_ids:
+  - the-anglican-communion-twentieth-century
+  role: tradition
+  confidence: assigned
+  language: eng
+  date: {start: 1926, end: 1926, source: "masthead: 'September, 1926'", formation_confidence: Documented}
+  note: 'One number of the quarterly, by many writers. The Eastern documents it prints are in the journal''s English unless a row says otherwise.'
+- row_id: christian-east_v7-no3-september-1926--peter-of-krutitz-act-naming-his-deputies-1925
+  work: 'Peter of Krutitz, locum tenens, act naming those who are to act for him (1925), in The Christian East'
+  author: christian-east
+  locus: 'OCR lines 2053-2078; add 12 to OCR line numbers'
+  atlas_ids:
+  - the-russian-orthodox-church-council-patriarchate-and-reunion
+  - the-russian-new-martyrs-and-the-catacomb-church
+  role: tradition
+  confidence: assigned
+  language: eng
+  date: {start: 1925, end: 1925, source: "dated 23 Nov./6 Dec., 1925 (OCR line 2077)", formation_confidence: Documented}
+  note: 'His own act, in English with no translator named.'
+- row_id: christian-east_v7-no3-september-1926--sergios-of-novgorod-letter-taking-up-the-locum-tenency-1925
+  work: 'Sergios, Metropolitan of Novgorod, letter taking up the duties of locum tenens (1925), in The Christian East'
+  author: christian-east
+  locus: 'OCR lines 2081-2120; add 12 to OCR line numbers'
+  atlas_ids:
+  - the-russian-orthodox-church-council-patriarchate-and-reunion
+  - the-russian-new-martyrs-and-the-catacomb-church
+  role: tradition
+  confidence: assigned
+  language: eng
+  date: {start: 1925, end: 1925, source: "dated 1/14 December, 1925 (OCR line 2081)", formation_confidence: Documented}
+  note: 'His own letter, in English with no translator named; signed at OCR lines 2102-2104, with a printing line, the address and an authentication at 2115-2120.'
+- row_id: christian-east_v7-no3-september-1926--sergios-of-novgorod-letter-to-gregory-of-ekaterinburg-1926
+  work: 'Sergios, Metropolitan of Novgorod, letter to Archbishop Gregory of Ekaterinburg (1926), in The Christian East'
+  author: christian-east
+  locus: 'OCR lines 2254-2336; add 12 to OCR line numbers'
+  atlas_ids:
+  - the-russian-orthodox-church-council-patriarchate-and-reunion
+  - the-russian-new-martyrs-and-the-catacomb-church
+  role: tradition
+  confidence: assigned
+  language: eng
+  date: {start: 1926, end: 1926, source: "dated 1/14 Jan., 1926 (OCR line 2332)", formation_confidence: Documented}
+  note: 'His own letter against the Temporary Supreme Council, in English with no translator named.'
+- row_id: christian-east_v7-no3-september-1926--temporary-supreme-church-council-constitution-1926
+  work: 'Constitution of the Temporary Supreme Council, signed by Gregorios of Ekaterinburg and nine other bishops, in The Christian East'
+  author: christian-east
+  locus: 'OCR lines 2152-2242; add 12 to OCR line numbers'
+  atlas_ids:
+  - the-russian-orthodox-church-council-patriarchate-and-reunion
+  role: tradition
+  confidence: assigned
+  language: eng
+  date: {start: 1926, end: 1926, source: "its first article speaks of 'the present year, 1926' (OCR line 2174)", formation_confidence: Documented}
+  note: 'The constitution of the council that Sergios''s letter of January 1926 writes against; the bishops who signed it are not those of the rows for Peter and Sergios.'

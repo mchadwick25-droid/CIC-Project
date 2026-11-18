@@ -1,0 +1,72 @@
+{
+  "name": "Agathias of Myrina",
+  "otherNames": [
+    "Agathias Scholasticus",
+    "Agathias the rhetorician (in Evagrius)"
+  ],
+  "label": "Outside witness",
+  "knownFor": "A lawyer, poet and historian at Constantinople whose five books carry on Procopius's history of Justinian's reign, and touch the church only in passing.",
+  "dates": "Back at Constantinople from his studies in Alexandria in 554, by B. G. Niebuhr's account; Niebuhr thinks he began his history after Justinian died in 565 and died himself before 582. The years his books cover, 552 to 558 in the margins of the Bonn edition, are its editors'",
+  "place": "Myrina in Asia, by his own word; studied at Alexandria; an advocate at Constantinople",
+  "tradition": "Outside the church",
+  "role": "Historian, poet and advocate",
+  "briefLength": "about 2 minutes",
+  "keyWorks": [
+    {
+      "title": "Histories (On the Reign of Justinian)",
+      "about": "five books carrying on Procopius, on the wars of Narses in Italy, the wars with Persia, and the earthquakes and plague at Constantinople"
+    },
+    {
+      "title": "Daphniaca, and a collection of epigrams",
+      "about": "love poems he wrote when young, which he names in his preface, and new epigrams by others that he gathered into seven books, Niebuhr says; neither is given here"
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "Evagrius Scholasticus names Agathias the rhetorician, with John of Epiphania, as the writers who carried on Procopius's history.",
+      "His account of Hagia Sophia's fallen dome, raised higher and made stronger by Justinian, is a witness of the rebuilding from his own time."
+    ],
+    "remembered": [
+      "Niebuhr finds his style poor and his sayings worn, but says he wrote free of attack and flattery alike, and was \"virum autem multo meliorem esse Procopio\", a much better man than Procopius.",
+      "John of Nikiu calls him \"one of the renowned scholars of the city of Constantinople\"."
+    ]
+  },
+  "uncertain": [
+    "His faith. G. J. Vossius thought him a pagan, because, among other signs, he tells the martyrdom of Stephen only as something people say. Niebuhr holds that an epigram he dedicated to the archangel shows he professed Christianity, but guesses he was born to a pagan father and joined the Christians to escape the laws, not from belief. He writes of the Franks keeping the feasts as \"we\" do. The Outside witness label marks a historian who reports on the church; it makes no claim about his faith.",
+    "His words. They are told here from the Latin version printed beside the Greek in the Bonn edition, a version Niebuhr says he would rather have thrown out.",
+    "His dates. Niebuhr reckons his birth in 536 or the next year, from his age when he came back from Alexandria, and his death before 582. Both are Niebuhr's inferences.",
+    "He gives no year for the fall and rebuilding of the dome. He tells it among the damage of the winter of the earthquake."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "Histories, Greek with a Latin version (Bonn edition, reprinted in Patrologia Graeca 88)",
+        "language": "Greek and Latin",
+        "file": "cic/texts/dorotheus-gaza_doctrinae-barsanuphius-climacus-agathias-grc-lat_migne-pg88.txt"
+      }
+    ],
+    "about": [
+      {
+        "title": "Preface and Life of Agathias (Bonn edition, 1828)",
+        "author": "B. G. Niebuhr",
+        "date": null,
+        "language": "Latin",
+        "file": "cic/texts/dorotheus-gaza_doctrinae-barsanuphius-climacus-agathias-grc-lat_migne-pg88.txt"
+      },
+      {
+        "title": "Ecclesiastical History (tr. E. Walford)",
+        "author": "Evagrius Scholasticus",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/evagrius-scholasticus_ecclesiastical-history_walford1846.txt"
+      },
+      {
+        "title": "Chronicle (tr. R. H. Charles)",
+        "author": "John of Nikiu",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/john-nikiu_chronicle_charles1916.txt"
+      }
+    ]
+  }
+}

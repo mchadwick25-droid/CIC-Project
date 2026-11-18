@@ -1,0 +1,80 @@
+{
+  "name": "Josephus",
+  "otherNames": [
+    "Flavius Josephus"
+  ],
+  "label": "Outside witness",
+  "knownFor": "A Jewish priest and historian at Rome, whose Antiquities of the Jews names Jesus and his brother James.",
+  "dates": "Born 37; died early in the second century",
+  "place": "Jerusalem, then Rome",
+  "tradition": "Outside the church",
+  "role": "Jewish historian",
+  "briefLength": "about 2 minutes 30 seconds",
+  "keyWorks": [
+    {
+      "title": "The Jewish War",
+      "about": "the rising against Rome, in which he commanded in Galilee"
+    },
+    {
+      "title": "Antiquities of the Jews",
+      "about": "the history of his people in twenty books, with the two passages that name Jesus"
+    },
+    {
+      "title": "Life",
+      "about": "his own account of himself, written to answer his accusers"
+    }
+  ],
+  "legacy": {
+    "remembered": [
+      "Origen, more than a century later, cites Josephus on James the brother of Jesus, and says Josephus did not accept Jesus as Christ.",
+      "Eusebius of Caesarea quotes the longer passage on Jesus in his Church History. Arthur McGiffert, who translated Eusebius, says he is the first writer known to do so."
+    ]
+  },
+  "uncertain": [
+    "How much of the longer passage on Jesus Josephus wrote was argued in McGiffert's day, in 1890, four ways. Some held it wholly genuine, which McGiffert thought could not stand. Hase, Keim and Schürer held it wholly added, and McGiffert agreed. Gieseler, Weizsäcker, Renan, Edersheim and Schaff held it partly genuine. Ewald held that a hostile Jewish passage was rewritten as praise.",
+    "William Whiston, who translated Josephus in the eighteenth century, defended the passage as genuine, while admitting it had \"of late been greatly questioned by many.\"",
+    "Origen says Josephus did not accept Jesus as Christ, which sits badly with the line \"He was the Christ.\" Whiston answers that Josephus did not mean the words as Christians do.",
+    "McGiffert notes that some critics doubted the whole phrase naming James as the brother of Jesus. Neander held it genuine, which McGiffert calls the common opinion of critics.",
+    "Origen also cites Josephus as saying the city fell because of what was done to James. That line is not in the Antiquities as we have it, and Whiston discusses why.",
+    "Josephus's prediction that Vespasian would rule is told by Josephus himself and also by the Roman writer Suetonius."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "The Works of Flavius Josephus: Antiquities, Jewish War and Life (tr. William Whiston)",
+        "file": "cic/texts/josephus_works-antiquities-wars-life_whiston1859.txt",
+        "language": "English"
+      }
+    ],
+    "about": [
+      {
+        "title": "Commentary on Matthew, Book 10",
+        "author": "Origen",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/anf09_gospel-of-peter-diatessaron-origen-commentaries.xml"
+      },
+      {
+        "title": "Church History, Book 1, chapter 11, with McGiffert's notes",
+        "author": "Eusebius of Caesarea",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml"
+      },
+      {
+        "title": "Dissertation I, on the testimonies of Josephus",
+        "author": "William Whiston",
+        "date": null,
+        "language": "English",
+        "file": "cic/texts/josephus_works-antiquities-wars-life_whiston1859.txt"
+      },
+      {
+        "title": "Lives of the Caesars, Vespasian 5",
+        "author": "Suetonius",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/suetonius_lives-of-the-twelve-caesars_thomson-forester1909.txt"
+      }
+    ]
+  }
+}

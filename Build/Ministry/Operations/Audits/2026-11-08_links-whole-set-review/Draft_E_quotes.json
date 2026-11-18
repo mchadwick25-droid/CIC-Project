@@ -1,0 +1,492 @@
+{
+ "theme": "QUO — primary quotes read in context",
+ "checked": "Sampled 44 links with a quoted primary source, 4-5 per era for eras 1-9 (era from the inventory's drafted_in; era-9 parts 1 and 2 merged as era 9, the Armenian Apostolic folder counted as era 8). Method: Python random.seed(1109); per era, links with at least one primary quote sorted by id and shuffled, then 3 Documented and 2 non-Documented taken, preferring a link type not yet picked in that era; one primary quote per link chosen with random.choice. 26 Documented, 18 other (10 Widely Accepted, 8 Inferential-Thin); all six types covered; lanes 1-8 and two bridges. Each quote read with at least 12-20 lines either side in the vendored file (more where the speaker or subject needed it), and where the sampled quote was only supporting I read the link's other primary sources too. Results: 41 clear, 3 findings from the sample (1 note clipping that reverses the source, 1 cross-era note/grade reasoning inconsistency, 1 period mismatch), plus 1 cross-era source-kind labelling inconsistency found while checking a sampled link (36 primary sources whose work field names an editor's note/introduction scanned; 4 are modern editors' own statements labelled primary). No cluster: the failures fall in eras 2, 7 and 9 and in different source files; the only other link using the Sotelo (Pagès) or Cocks file is the same link.",
+ "findings": [
+  {
+   "fid": "QUO-01",
+   "kind": "quote",
+   "severity": "substantial",
+   "links": [
+    "kirishitan-japan--japanese-christianity-hidden-emergence-meiji"
+   ],
+   "eras": [
+    7
+   ],
+   "finding": "The note clips Sotelo's sentence so it says the opposite of the source. It says the 1614 ban 'sent every missionary out of Japan'. Sotelo's very next words say most of them defied the edict and stayed hidden, and that their work kept the faith alive. That is the thread that matters for a link to the hidden Christians, and the note erases it.",
+   "evidence": "cic/texts/pages_histoire-religion-chretienne-japon-annexes-fra_1870.txt:6913-6922: 'religiosi quoque omnes generali Imperatoris edicto relegati; plerique tamen illorum, proprias vitas, contra Impera-' [page break] '-is edictum, coniemnentes, diversis in locis occultati remanse-[ru]nt : quorum labore, doctrina et exemplo fides in multis fidelibus egerrima conservatur'. Cocks (cocks_diary-v1_thompson1883.txt:2588-2590) records the edict only, which matches 'noted the ban'.",
+   "fix": {
+    "action": "edit",
+    "edits": [
+     {
+      "id": "kirishitan-japan--japanese-christianity-hidden-emergence-meiji",
+      "field": "note",
+      "new": "A Franciscan report of the 1620s says the ban of 1614 exiled every missionary from Japan. Yet most of them stayed on in hiding, it adds, and kept the faith alive. The English trader Richard Cocks noted the ban in 1615. The tie to the hidden Christians found in 1865 rests on modern studies alone, so it is thin."
+     },
+     {
+      "id": "kirishitan-japan--japanese-christianity-hidden-emergence-meiji",
+      "field": "sources",
+      "new": [
+       {
+        "kind": "primary",
+        "source_id": null,
+        "work": "Luis Sotelo, O.F.M., memorial (Latin, after 1622), in Léon Pagès, Histoire de la religion chrétienne au Japon, seconde partie: Annexes (1870)",
+        "file": "cic/texts/pages_histoire-religion-chretienne-japon-annexes-fra_1870.txt",
+        "lines": "6913-6914",
+        "locus": "annex, running head 'Mémorial Sotelo'",
+        "quote": "religiosi quoque omnes generali Imperatoris edicto relegati;",
+        "license": "public-domain"
+       },
+       {
+        "kind": "primary",
+        "source_id": null,
+        "work": "Luis Sotelo, O.F.M., memorial (Latin, after 1622), in Léon Pagès, Histoire de la religion chrétienne au Japon, seconde partie: Annexes (1870)",
+        "file": "cic/texts/pages_histoire-religion-chretienne-japon-annexes-fra_1870.txt",
+        "lines": "6921-6922",
+        "locus": "annex, running head 'Mémorial Sotelo'",
+        "quote": "quorum labore, doctrina et exemplo fides in multis fidelibus egerrima conservatur",
+        "license": "public-domain"
+       },
+       {
+        "kind": "primary",
+        "source_id": null,
+        "work": "Richard Cocks, Diary, 1615-1617, ed. Edward Maunde Thompson (Hakluyt Society, 1883), vol. I",
+        "file": "cic/texts/cocks_diary-v1_thompson1883.txt",
+        "lines": "2588-2590",
+        "locus": "Diary, August 1615",
+        "quote": "he hath formerly banished all Christians out of his dominions: I meane all fryres, monkes, jesuists, and pristes.",
+        "license": "public-domain"
+       },
+       {
+        "kind": "secondary",
+        "source_id": null,
+        "work": "Stephen Turnbull, The Kakure Kirishitan of Japan: A Study of Their Development, Beliefs and Rituals to the Present Day (Richmond, 1998)"
+       },
+       {
+        "kind": "secondary",
+        "source_id": null,
+        "work": "Christal Whelan, trans., The Beginning of Heaven and Earth: The Sacred Book of Japan's Hidden Christians (Honolulu, 1996), introduction"
+       }
+      ]
+     }
+    ],
+    "readability": [
+     {
+      "id or movement": "kirishitan-japan--japanese-christianity-hidden-emergence-meiji",
+      "fre": 74.8,
+      "fk": 6.3
+     }
+    ]
+   },
+   "doubts": "Grade stays Inferential-Thin: Sotelo shows hidden priests keeping the faith in the 1620s, not a line to 1865. The added quote is checked against the file with the validator's whitespace rule. The OCR splits 'remanserunt' across a page break, so I quoted the clause after it."
+  },
+  {
+   "fid": "QUO-02",
+   "kind": "type-grade-inconsistency",
+   "severity": "substantial",
+   "links": [
+    "palestinian-church-pre-constantinian--jerusalem-liturgical-pilgrimage-christianity",
+    "aksumite-christianity-conversion-era--aksumite-christianity"
+   ],
+   "eras": [
+    1,
+    2,
+    4
+   ],
+   "finding": "Two 'continued as' links with the same kind of evidence, a bishop named before the split and one after, got opposite reasoning. Aksum is Documented under the era-1 bar, 'the see shown on both sides', even with a 170-year gap (era-2 review R1-02, kept in round 2). Palestine is Inferential-Thin, and its note gives the reason that 'neither traces the bishops between them'. But the same vendored Eusebius does trace them. He names Zabdas as bishop of Jerusalem after Hymenaeus, then Hermon, and says the apostolic chair 'has been preserved there until the present time'. So the note's stated reason is wrong. The real difference from Aksum is that the Palestinian movement has no continuesAs and centres on Caesarea and Origen, so it is not a clean period split into the Jerusalem pilgrimage church. Proposed: keep Inferential-Thin, add the succession lines, and have the note give the true reason.",
+   "evidence": "npnf201_eusebius-church-history-life-of-constantine.xml:43142-43143 'received the episcopate of the church of Jerusalem after the bishop Hymenæus,'; 43152-43154 'the last before the persecution in our day, succeeded to the apostolic chair, which has been preserved there until the present time.' (HE VII.32.29). Census: palestinian-church-pre-constantinian continuesAs null; aksumite-christianity-conversion-era continuesAs aksumite-christianity. Era-2 Opus_Review_Round1.json R1-02; Revision_Round1.json R1-02.",
+   "fix": {
+    "action": "edit",
+    "edits": [
+     {
+      "id": "palestinian-church-pre-constantinian--jerusalem-liturgical-pilgrimage-christianity",
+      "field": "note",
+      "new": "In the library at Aelia, as Jerusalem was then called, Eusebius saw letters that Bishop Alexander had gathered. He names the next bishops of the city down to Hermon. He says their chair was kept there until his own time. Later, Constantine wrote to Macarius, its bishop, about building the Church of the Saviour. The see carried on, but that the new pilgrim church was the same community is only an inference."
+     },
+     {
+      "id": "palestinian-church-pre-constantinian--jerusalem-liturgical-pilgrimage-christianity",
+      "field": "sources",
+      "new": [
+       {
+        "kind": "primary",
+        "source_id": "ijc.source.eusebius-historia-ecclesiastica",
+        "work": "Eusebius, Church History, Book 6 ch. 20",
+        "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+        "lines": "35440-35441",
+        "locus": "HE 6.20",
+        "quote": "which was established by Alexander, who at that time presided over that church.",
+        "license": "public-domain"
+       },
+       {
+        "kind": "primary",
+        "source_id": "ijc.source.eusebius-historia-ecclesiastica",
+        "work": "Eusebius, Church History VII.32.29 (trans. McGiffert, NPNF 2.1, 1890)",
+        "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+        "lines": "43142-43143",
+        "locus": "HE VII.32.29",
+        "quote": "received the episcopate of the church of Jerusalem after the bishop Hymenæus,",
+        "license": "public-domain"
+       },
+       {
+        "kind": "primary",
+        "source_id": "ijc.source.eusebius-historia-ecclesiastica",
+        "work": "Eusebius, Church History VII.32.29 (trans. McGiffert, NPNF 2.1, 1890)",
+        "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+        "lines": "43152-43154",
+        "locus": "HE VII.32.29",
+        "quote": "the last before the persecution in our day, succeeded to the apostolic chair, which has been preserved there until the present time.",
+        "license": "public-domain"
+       },
+       {
+        "kind": "primary",
+        "source_id": "ijc.source.eusebius-vita-constantini",
+        "work": "Eusebius, Life of Constantine, Book 3 ch. 30 (heading in the NPNF edition)",
+        "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+        "lines": "64959-64960",
+        "locus": "VC 3.30",
+        "quote": "Constantine’s Letter to Macarius respecting the Building of the Church of our Saviour.",
+        "license": "public-domain"
+       }
+      ]
+     },
+     {
+      "id": "palestinian-church-pre-constantinian--jerusalem-liturgical-pilgrimage-christianity",
+      "field": "citation_specificity",
+      "new": "A"
+     }
+    ],
+    "readability": [
+     {
+      "id or movement": "palestinian-church-pre-constantinian--jerusalem-liturgical-pilgrimage-christianity",
+      "fre": 63.0,
+      "fk": 8.1
+     }
+    ]
+   },
+   "doubts": "Another fix is possible: under the era-1 bar the see continuity is now Documented, and the question becomes whether 'continued as' is even the right type for an entry with no continuesAs. That belongs to the continuesAs/chain theme. I did not regrade. Five sentences is over the brief's three, though era notes often run to four or five."
+  },
+  {
+   "fid": "QUO-03",
+   "kind": "quote",
+   "severity": "minor",
+   "links": [
+    "lutheran-wittenberg-and-its-congregations--confessional-lutheran-revival-emigrations"
+   ],
+   "eras": [
+    9
+   ],
+   "finding": "This Documented link rests on a single quote, from Jacobs's 1911 preface (lines 96-308 are the 1911 preface, not the first-edition one). The movement it points to is dated 1817-1906. Its text is about the Prussian Old Lutherans, the Saxon emigrants and Missouri, Erlangen and Löhe, and does not mention the General Council. So the speaker comes after the movement's end date and from a body its own text does not name. The era-9 review made this call on purpose ('the General Council belongs to the American confessional revival'), so I log it rather than overturn it.",
+   "evidence": "book-of-concord_symbolical-books-evangelical-lutheran-church_jacobs1911.txt:225-227; 'PREFACE' 96, dated 'Philadelphia, Pa., February 27, 1911' at 308; 'PREFACE TO THE FIRST EDITION' at 311. Era-9 part-1 Opus_Review_Round1.json line 120.",
+   "fix": {
+    "action": "none"
+   },
+   "doubts": "The relationship itself is not in doubt. No Walther, Löhe or Missouri Synod text is in cic/texts (filenames checked), so no better vendored quote exists. If Mark wants the grade to rest on a speaker inside the movement, it would drop to Widely Accepted with a repo-cited secondary. I found none for this link, so it would be a want."
+  },
+  {
+   "fid": "QUO-04",
+   "kind": "other",
+   "severity": "minor",
+   "links": [
+    "aksumite-christianity-conversion-era--aksumite-christianity",
+    "pelagianism--hieronymian-ascetic-literary",
+    "hieronymian-ascetic-literary--homoian-arian-christianity",
+    "catholic-church-long-nineteenth-century--old-catholic-churches-union-of-utrecht"
+   ],
+   "eras": [
+    2,
+    4,
+    9
+   ],
+   "finding": "The same kind of source is labelled differently across eras. A modern editor's own statement is 'secondary' in most eras: McGiffert's note in era 1, Fremantle's Rufinus introduction in era 2, Moberg's introduction in era 3, Gwynn in era 4. Four links label such statements 'primary'. Moberg's same introduction is primary on Aksum but secondary on aksumite-christianity--cyrilline. Fremantle's prolegomena and introduction are primary on two era-2 links, while his Rufinus introduction is secondary in the same era. Mirbt's 1911 note on Gul's 1892 election is labelled primary. None of the four grades rests on the relabelled source; each link keeps other true primaries.",
+   "evidence": "Aksum source 'Axel Moberg, introduction ... on the date of the work' (book-of-the-himyarites 3980-3982); pelagianism--hieronymian 'W. H. Fremantle, Prolegomena ... an editor's dating' (npnf206 1734-1736); hieronymian--homoian 'W. H. Fremantle, introduction to ... Luciferians' (npnf206 31412); old-catholic 'Mirbt ... editor's note on the election of Gerard Gul' (mirbt 27796-27798). Same-kind sources labelled secondary: alexandria-catechetical--ebionite (McGiffert), aquileian--hieronymian (Fremantle), aksumite-christianity--cyrilline (Moberg).",
+   "fix": {
+    "action": "edit",
+    "edits": [
+     {
+      "id": "aksumite-christianity-conversion-era--aksumite-christianity",
+      "field": "sources",
+      "new": [
+       {
+        "kind": "primary",
+        "source_id": null,
+        "work": "Athanasius, Defence before Constantius 31 (Letter of Constantius to the princes of Aksum)",
+        "file": "cic/texts/npnf204_athanasius-select-works-letters.xml",
+        "lines": "36108-36112",
+        "locus": "Apol. ad Const. 31",
+        "quote": "The following is the letter which was written to the Princes of Auxumis respecting Frumentius, Bishop of that place.",
+        "license": "public-domain"
+       },
+       {
+        "kind": "primary",
+        "source_id": null,
+        "work": "Athanasius, Defence before Constantius 31",
+        "file": "cic/texts/npnf204_athanasius-select-works-letters.xml",
+        "lines": "36111-36112",
+        "locus": "Apol. ad Const. 31",
+        "quote": "Constantius Victor Maximus Augustus, to Æzanes and Sazanes.",
+        "license": "public-domain"
+       },
+       {
+        "kind": "primary",
+        "source_id": null,
+        "work": "The Book of the Himyarites, list of chapters, ch. XXXIX (trans. Moberg, 1924)",
+        "file": "cic/texts/book-of-the-himyarites-syr-eng_moberg1924.txt",
+        "lines": "5827-5829",
+        "locus": "Book of the Himyarites, ch. XXXIX (heading)",
+        "quote": "Account telling how the freeborn Umayyah came to Abys- sinia out of zeal for God, and informed the holy Bishop Euprepios and Kaleb, the believing King of Abyssinia,",
+        "license": "public-domain"
+       },
+       {
+        "kind": "primary",
+        "source_id": null,
+        "work": "The Book of the Himyarites, ch. XLVIII, speech of King Kaleb (trans. Moberg, 1924)",
+        "file": "cic/texts/book-of-the-himyarites-syr-eng_moberg1924.txt",
+        "lines": "8076",
+        "locus": "Book of the Himyarites, ch. XLVIII",
+        "quote": "These things said now the holy Euprepios, our bishop,",
+        "license": "public-domain"
+       },
+       {
+        "kind": "secondary",
+        "source_id": null,
+        "work": "Axel Moberg, introduction to The Book of the Himyarites (1924), on the date of the work",
+        "file": "cic/texts/book-of-the-himyarites-syr-eng_moberg1924.txt",
+        "lines": "3980-3982",
+        "locus": "Moberg, Introduction",
+        "quote": "composed shortly after the second Abyssinian expedition, i. e., shortly after A. D. 525,",
+        "license": "public-domain"
+       },
+       {
+        "kind": "primary",
+        "source_id": null,
+        "work": "Procopius, History of the Wars I.20 (trans. Dewing)",
+        "file": "cic/texts/procopius_wars-1-2-persian_dewing1914.txt",
+        "lines": "2586-2588",
+        "locus": "Wars I.20",
+        "quote": "At about the time of this war Hellestheaeus, the king of the Aethiopians, who was a Christian and a most devoted adherent of this faith,",
+        "license": "public-domain"
+       },
+       {
+        "kind": "primary",
+        "source_id": null,
+        "work": "Cosmas Indicopleustes, Christian Topography, Book III (trans. McCrindle)",
+        "file": "cic/texts/cosmas-indicopleustes_christian-topography_mccrindle1897.txt",
+        "lines": "7265-7266",
+        "locus": "Top. Christ. III",
+        "quote": "So too in Ethiopia and Axom, and in all the country about it ;",
+        "license": "public-domain"
+       }
+      ]
+     },
+     {
+      "id": "pelagianism--hieronymian-ascetic-literary",
+      "field": "sources",
+      "new": [
+       {
+        "kind": "primary",
+        "source_id": null,
+        "work": "Augustine, On the Proceedings of Pelagius, chapter 66",
+        "file": "cic/texts/npnf105_augustine-anti-pelagian-writings.xml",
+        "lines": "10586",
+        "locus": "De gest. Pel. 66",
+        "quote": "Certain followers of Pelagius are said to have carried their support of his cause after these judicial proceedings to an incredible extent of perverseness and audacity.",
+        "license": "public-domain"
+       },
+       {
+        "kind": "primary",
+        "source_id": null,
+        "work": "Augustine, On the Proceedings of Pelagius, chapter 66",
+        "file": "cic/texts/npnf105_augustine-anti-pelagian-writings.xml",
+        "lines": "10590",
+        "locus": "De gest. Pel. 66",
+        "quote": "slain his deacon, and burnt his monastic houses;",
+        "license": "public-domain"
+       },
+       {
+        "kind": "primary",
+        "source_id": "hal.source.attack-letters-416",
+        "work": "Innocent I, Letter to John of Jerusalem (Jerome, Ep. 137)",
+        "file": "cic/texts/npnf206_jerome-principal-works.xml",
+        "lines": "28472-28474",
+        "locus": "Jerome, Ep. 137",
+        "quote": "with wonderful clemency and generosity they have left untold the name and motive of his human agent.",
+        "license": "public-domain"
+       },
+       {
+        "kind": "primary",
+        "source_id": "hal.source.attack-letters-416",
+        "work": "Innocent I, Letter to John of Jerusalem (Jerome, Ep. 137)",
+        "file": "cic/texts/npnf206_jerome-principal-works.xml",
+        "lines": "28474-28475",
+        "locus": "Jerome, Ep. 137",
+        "quote": "Now although there can be no doubt as to who is the guilty person;",
+        "license": "public-domain"
+       },
+       {
+        "kind": "secondary",
+        "source_id": null,
+        "work": "W. H. Fremantle, Prolegomena to Jerome, chronology of the Pelagian years (NPNF 2.6, 1893), an editor's dating",
+        "file": "cic/texts/npnf206_jerome-principal-works.xml",
+        "lines": "1734-1736",
+        "locus": "NPNF 2.6 Prolegomena",
+        "quote": "416–7. A crowd of Pelagian monks attacked the monasteries, slew some of their inmates, and burned or threw down the buildings,",
+        "license": "public-domain"
+       }
+      ]
+     },
+     {
+      "id": "hieronymian-ascetic-literary--homoian-arian-christianity",
+      "field": "sources",
+      "new": [
+       {
+        "kind": "primary",
+        "source_id": null,
+        "work": "Jerome, Dialogue against the Luciferians 19 (trans. Fremantle, NPNF 2.6)",
+        "file": "cic/texts/npnf206_jerome-principal-works.xml",
+        "lines": "32409-32411",
+        "locus": "Adv. Lucif. 19",
+        "quote": "began to wave their palms, and to say they had not denied that He was a creature, but that He was like other creatures.",
+        "license": "public-domain"
+       },
+       {
+        "kind": "primary",
+        "source_id": null,
+        "work": "Jerome, Dialogue against the Luciferians 19 (trans. Fremantle, NPNF 2.6)",
+        "file": "cic/texts/npnf206_jerome-principal-works.xml",
+        "lines": "32411-32413",
+        "locus": "Adv. Lucif. 19",
+        "quote": "At that moment the term <i>Usia</i> was abolished: the Nicene Faith stood condemned by acclamation. The whole world groaned, and was astonished to find itself Arian.",
+        "license": "public-domain"
+       },
+       {
+        "kind": "secondary",
+        "source_id": null,
+        "work": "W. H. Fremantle, introduction to Jerome's Dialogue against the Luciferians (NPNF 2.6)",
+        "file": "cic/texts/npnf206_jerome-principal-works.xml",
+        "lines": "31412",
+        "locus": "Introduction",
+        "quote": "This Dialogue was written about 379,",
+        "license": "public-domain"
+       }
+      ]
+     },
+     {
+      "id": "catholic-church-long-nineteenth-century--old-catholic-churches-union-of-utrecht",
+      "field": "sources",
+      "new": [
+       {
+        "kind": "primary",
+        "source_id": null,
+        "work": "Nuremberg Declaration, 26 August 1870, in Mirbt, Quellen zur Geschichte des Papsttums (3rd ed., 1911), no. 585",
+        "file": "cic/texts/mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt",
+        "lines": "30946-30970",
+        "locus": "Mirbt no. 585",
+        "quote": "Diese Sätze vermögen wir nicht als Aussprüche eines wahrhaft ökumenischen Konzils anzuerkennen",
+        "license": "public-domain"
+       },
+       {
+        "kind": "primary",
+        "source_id": null,
+        "work": "Declaration of Utrecht, 24 September 1889, in Mirbt, Quellen (1911), no. 588: heading and signatories",
+        "file": "cic/texts/mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt",
+        "lines": "31196-31199",
+        "locus": "Mirbt no. 588, heading",
+        "quote": "Unterzeichnet von den zu einer Konferenz in Utrecht versammelten altkath. Bischöfen:",
+        "license": "public-domain"
+       },
+       {
+        "kind": "primary",
+        "source_id": null,
+        "work": "Declaration of Utrecht, 24 September 1889, art. 2, in Mirbt, Quellen (1911), no. 588",
+        "file": "cic/texts/mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt",
+        "lines": "31208-31211",
+        "locus": "Mirbt no. 588, art. 2",
+        "quote": "Als mit dem Glauben der alten lürche in Widerspruch stehend und die kirchliche Verfassung zerstörend ver- werfen mr die vatikanischen Dekrete vom 18. Juli 1870 über die Unfehlbarkeit und den Universal-Episkopat oder die kirchliche Allgewalt des römischen Papstes.",
+        "license": "public-domain"
+       },
+       {
+        "kind": "secondary",
+        "source_id": null,
+        "work": "Mirbt, Quellen (1911), no. 533, editor's note on the election of Gerard Gul, 1892",
+        "file": "cic/texts/mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt",
+        "lines": "27796-27798",
+        "locus": "Mirbt no. 533",
+        "quote": "am 24. Febr. 1892 der Kanoniker Gerard Gul von dem Kapitel gewählt, am 11. Mai durch den Bischof Casper Kinkel konsekriert und durch folgendes Schreiben verflucht:",
+        "license": "public-domain"
+       },
+       {
+        "kind": "primary",
+        "source_id": null,
+        "work": "Leo XIII, letter Dolentes equidem animo, 28 February 1893, in Mirbt, Quellen (1911), no. 533",
+        "file": "cic/texts/mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt",
+        "lines": "27808-27810",
+        "locus": "Mirbt no. 533",
+        "quote": "eos onmes et singulos excommunicamus, ana- thematizamus, atque ab ecclesiae communione segregatos et prorsus schismaticos habendos et evitandos esse constituimus, edicimus, pronuntiamus.",
+        "license": "public-domain"
+       },
+       {
+        "kind": "secondary",
+        "source_id": null,
+        "work": "Thomas Albert Howard, The Pope and the Professor: Pius IX, Ignaz von Döllinger, and the Quandary of the Modern Age (Oxford, 2017)",
+        "file": null,
+        "lines": null,
+        "quote": null
+       },
+       {
+        "kind": "secondary",
+        "source_id": null,
+        "work": "C. B. Moss, The Old Catholic Movement: Its Origins and History (London, 1948)",
+        "file": null,
+        "lines": null,
+        "quote": null
+       }
+      ]
+     }
+    ]
+   },
+   "doubts": "I left primary the editor-held sources that quote a primary text (the Cursus Scottorum in Warren, Boniface in the MGH headnote, Matthew of Edessa in Dulaurier, Ephraim in Gwynn, Mariano's letter in Zimmerman). I also left near-contemporary witnesses writing about their own time (Badger 1852, Griffiths 1859, Youngs 1810, Budge on Ethiopia, Blackmore 1842). Each changed entry keeps its file, lines and quote; the validator does not check those fields on secondary sources."
+  }
+ ],
+ "checked_and_fine": [
+  "alexandria-catechetical--ebionite-nazoraean-current [era 1, argued against, Documented] cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml:36069 — Origen, De Principiis IV (anf04 34023-34026) names the Ebionites and mocks the name; sampled Eusebius HE VI.24.3 line only dates the work to Alexandria, a supporting role the note uses correctly.",
+  "greek-apologists-second-century--alexandria-catechetical [era 1, influenced, Documented] cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml:29726-29727 — Clement, Strom. I.21: 'discussed with accuracy by Tatian in his book To the Greeks' — Clement using and praising Tatian's work; right speaker, right direction.",
+  "anatolian-church-third-century--antiochene-church-third-century [era 1, in contact with, Documented] cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml:41859-41861 — Eusebius HE VII.27-28: pastors gather at Antioch against Paul; next chapter names 'the brothers Gregory and Athenodorus, pastors of the churches in Pontus' among them. A shared named event.",
+  "post-apostolic-house-church--roman-church-third-century [era 1, continued as, Widely Accepted] cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml:39849-39851 — Irenaeus AH III.3.3 bishop list to Eleutherius 'in the twelfth place from the apostles' — continuity of the Roman see; WA with Lampe as stated.",
+  "anomoean-eunomian-christianity--homoian-arian-christianity [era 2, broke with, Documented] cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml:34570-34571 — Sozomen IV.24: the 360 Constantinople council (Homoian) deposed Aetius; context adds 'they did not depose him willingly', which the note does not contradict. Rupture documented from the Homoian side; note names the Eunomian side.",
+  "imperial-juridical-christianity--anomoean-eunomian-christianity [era 2, argued against, Documented] cic/texts/npnf214_seven-ecumenical-councils.xml:13985-13987 — Canon 1 of Constantinople 381 (editor's Greek reading, labelled as such) names 'the Eunomians or Anomæans'. Direct naming; argued against holds.",
+  "antiochene-church-third-century--homoian-arian-christianity [era 2, gave rise to, Documented] cic/texts/philostorgius_ecclesiastical-history_walford1855.txt:138 — Philostorgius II.14 (Photius epitome) lists Lucian's disciples incl. Leontius 'afterwards bishop of Antioch' and Eudoxius; note hedges 'a Eudoxius' and says the report is from Arius's side. Named people passing.",
+  "aquileian-christianity--hieronymian-ascetic-literary [era 2, influenced, Widely Accepted] cic/texts/npnf206_jerome-principal-works.xml:4164-4166 — Jerome Ep. 7.1 to Chromatius, Jovinus and Eusebius of Aquileia, from the desert (374). Shows the tie; WA with Fremantle as cited.",
+  "byzantine-imperial-church-justinianic--chalcedonian-monasticism-judean-desert-and-gaza [era 3, in contact with, Documented] cic/texts/evagrius-scholasticus_ecclesiastical-history_walford1846.txt:9522-9524 — Evagrius HE IV.38: Eustochius sends Rufus (Theodosius) and Conon (Saba) to Constantinople; 'These, in the first instance, mooted the questions relating to Origen'. Matches the note.",
+  "syriac-edessa-nisibis--the-church-of-the-east-under-persia [era 3, influenced, Documented] cic/texts/barhadbeshabba_cause-de-la-fondation-des-ecoles-po4-syr-fra_scher1908.txt:20437-20438 — Barhadbeshabba: Ephrem moves to Edessa, opens school; at 20738-20744 Barsauma persuades Narsai to found the Nisibis school, which drew 'la plupart des frères qui étaient dans l'école d'Édesse' — supports note and outcome.",
+  "roman-church-gregorian--byzantine-imperial-church-justinianic [era 3, argued against, Documented] cic/texts/gregory-great_epistolae-selectae_turchi1907.txt:6909 — Gregory, Reg. V.37 to Maurice: 'Quis iste est qui contra statuta evangelica, contra canonum decreta novum sibi usurpare nomen praesumit?' — against John of Constantinople by name (6884-6888). 595 is inside 451-622.",
+  "syriac-edessa-nisibis--syriac-orthodox-west-syriac-christianity [era 3, gave rise to, Inferential-Thin] cic/texts/chronicle-of-edessa_cowper.txt:221 — Chronicle of Edessa 89-90: Paul refuses Chalcedon, removed; monks expelled. Graded Inferential-Thin, note says the descent is thin.",
+  "armenian-christianity-before-the-bagratids--georgian-christianity [era 3, broke with, Widely Accepted] cic/texts/zakaria_memoires-historiques-sur-les-sofis-fra_brosset1876.txt:22668 — Brosset's note 4 gives the P./Ac. reading of Samuel of Ani, 'Les Ibériens, ayant adopté l'hérésie de Chalcédoine, se séparèrent'; Brosset calls the date false and puts the secession at Dvin 596 — the note's 596-609 range covers it. Work field labels it accurately.",
+  "byzantine-imperial-church-heraclian-iconoclast--melkite-arabic-christianity [era 4, argued against, Documented] cic/texts/npnf214_seven-ecumenical-councils.xml:39468-39469 — Hieria 754 acclamations: 'Anathema to Mansur, who has an evil name and Saracen opinions!' with editor's gloss Mansur = John Damascene. Direct.",
+  "insular-irish-monastic-christianity--anglo-saxon-christianity [era 4, gave rise to, Documented] cic/texts/bede_ecclesiastical-history-english-people_giles1903.txt:5726-5729 — Bede III.3: Oswald asks the Scots for a bishop and receives Aidan (635). Named people passing; gave rise to holds.",
+  "aksumite-christianity-conversion-era--aksumite-christianity [era 4, continued as, Documented] cic/texts/procopius_wars-1-2-persian_dewing1914.txt:2586-2588 — Procopius Wars I.20 shows only a Christian king; the link's grade rests on Constantius-Frumentius plus Book of the Himyarites' Bishop Euprepios (see on both sides, reviewed at era-2 R1-02). Note states the gap plainly. Accepted; see QUO-02 for the cross-era comparison and QUO-04 for the Moberg label.",
+  "coptic-christianity-under-early-islam--makurian-nubian-christianity [era 4, influenced, Widely Accepted] cic/texts/chronicle-of-seert_histoire-nestorienne-premiere-partie-fasc2-patrologia-orientalis-5-ara-fra_scher-dib1910.txt:7181-7183 — History of the Patriarchs (Evetts, in the PO 5 file whose name says Chronicle of Seert; the running head confirms Hist. Patr. Pt I ch. XVIII Michael I): patriarch ordains Nubia's metropolitan. Speaker and subject correct. Filename is misleading but the work field is right.",
+  "church-of-the-east-under-the-abbasids--st-thomas-christians-of-india [era 4, in contact with, Widely Accepted] cic/texts/assemani_bibliotheca-orientalis-tomus3-pars2-de-syris-nestorianis-lat_1728.txt:34477-34478 — Theodosius's canon (via Assemani/Trigault): metropolitans of 'Cbina, India' to send letters of communion every sixth year. Matches note and outcome.",
+  "byzantine-imperial-church-macedonian--byzantine-church-after-1054 [era 5, continued as, Documented] cic/texts/mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt:9899 — Humbert's commemoratio names 'Michaelis Constantinopolitani episcopi' (only a name), but the link's continuity rests on Nikephoros Kallistos's patriarch list from Photius to Manuel's reign, which spans 1054. Sound.",
+  "latin-papal-church-gregorian--cathars-albigensians [era 5, argued against, Documented] cic/texts/denzinger_enchiridion-symbolorum-lat_bannwart1911.txt:13191-13195 — Lateran III c.27: heretics 'quos alii Catharos ... vocant' in Gascony, Albi, Toulouse; anathema on them and their defenders. Direct naming.",
+  "latin-papal-church-gregorian--the-carmelites [era 5, influenced, Documented] cic/texts/teresa-of-avila_book-of-foundations_lewis1913.txt:22014-22017 — Innocent IV confirms the explained, mitigated, corrected rule (Lewis 1913 appendix). Subject and date match the note.",
+  "latin-papal-church-gregorian--latin-church-of-outremer [era 5, gave rise to, Widely Accepted] cic/texts/mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt:11226-11227 — Clermont c.2 (Mirbt no. 256). WA gave rise to on events plus secondary; quote used for the decree only, as the note says.",
+  "byzantine-church-after-1054--latin-papal-church-gregorian--2 [era 5, in contact with, Widely Accepted] cic/texts/denzinger_enchiridion-symbolorum-lat_bannwart1911.txt:14629-14632 — Denzinger 466 (Michael VIII's profession, Lyon 1274): Roman primacy 'cum potestatis plenitudine'. Grammatical subject is the Roman church, inside the emperor's sworn profession; the note's 'the Greek side ... accepted the full primacy' is a fair reading and the note limits it ('does not show how the Greek church received the union').",
+  "latin-papal-church-avignon-to-lateran-v--the-hussite-and-bohemian-brethren-movement--2 [era 6, in contact with, Documented] cic/texts/palacky_urkundliche-beitraege-hussitenkrieg-v2-deu-lat_1873.txt:18635-18637 — Basel legates' letter, Eger, 28 Jan 1434: 'ad ecclesiasticam unitatem ... eos recepimus' and order to admit them to communion. Matches note and outcome.",
+  "franciscan-order-era-6--fraticelli-spiritual-franciscan-rigorists [era 6, broke with, Documented] cic/texts/ehrle-denifle_archiv-literatur-kirchengeschichte-mittelalters-bd3-deu-lat_1887.txt:1582-1583 — Franciscan Community dossier: Narbonne/Béziers friars 'ab ordinis unitate et suorum superiorum obedientia recesserunt' after Clement V's death. One side's record, and the note names Clareno for the other.",
+  "the-franciscan-movement--fraticelli-spiritual-franciscan-rigorists [era 6, gave rise to, Documented] cic/texts/ehrle-denifle_archiv-literatur-kirchengeschichte-mittelalters-bd4-deu-lat_1888.txt:3714-3717 — John XXII to Robert of Sicily, 1325: 'non contra fratrum minorum ordinem, sed contra nonnullos ex illis fratribus, qui se Spirituales nominant' — the rigorists come out of the order; gave rise to holds.",
+  "latin-papal-church-avignon-to-lateran-v--the-bosnian-church [era 6, argued against, Widely Accepted] cic/texts/theiner_vetera-monumenta-slavorum-meridionalium-v1-lat_1863.txt:32370 — Nicholas V 1451: 'Stephanus Comes in Regno Bosne, perfidus patarenus' and excommunication of his helpers. WA as graded.",
+  "carthusian-life--the-english-mystics-and-devout [era 6, influenced, Inferential-Thin] cic/texts/cloud-of-unknowing_cloud-and-other-treatises_mccann1924.txt:6426-6427 — Cloud ch. 35: 'written in another book by another man'; the note says the author names no one and the Guigo identification is the editor's. Inferential-Thin, honest.",
+  "orthodoxy-under-the-ottomans-parish-millet-and-n--the-union-of-brest-and-ruthenian-greek-catholic- [era 7, broke with, Documented] cic/texts/akty-zapadnoi-rossii_t4-1588-1652-rus_1851.txt:13931-13935 — Brest charter 1596: bishops submit to 'столицы Римской' and (13923-13925) ask to be freed from the patriarchs of Constantinople; Nikephoros's charter (15043-15046) gives the other side's sentence. Two-sided rupture documented.",
+  "the-hussite-and-bohemian-brethren-movement--lutheran-wittenberg-and-its-congregations [era 7, influenced, Documented] cic/texts/luther_works-v2-selected_jacobs-spaeth1916.txt:4335-4337 — Luther, Open Letter 1520 §24: has found no errors in Hus, his books 'unjustly condemned'; context ('I do not wish to make John Hus a saint') does not reverse it, and the note does not overstate.",
+  "puritanism--the-english-reformation-and-elizabethan-settleme [era 7, argued against, Documented] cic/texts/admonition-to-parliament_puritan-manifestoes_frere-douglas1907.txt:1874-1877 — Admonition 1572: 'we in England are so fare of, from having a church rightly reformed'. Puritan text directed at the settlement.",
+  "church-of-the-east-schism-of-1552--church-of-the-east-chaldean-consolidation [era 7, continued as, Widely Accepted] cic/texts/maclean-browne_catholicos-of-the-east-and-his-people_1892.txt:807-809 — Maclean & Browne 1892: 'A disputed succession to the patriarchate divided them into two parts in the sixteenth century', then names Mar Shimun and Mar Elia lines. WA as graded.",
+  "english-old-dissent--the-evangelical-awakening-in-new-england [era 8, influenced, Documented] cic/texts/edwards_works-v1-memoir-personal-narrative-resolutions-diary_dwight1830.txt:9324-9327 — Sarah Edwards's 1742 narrative: Mr. Buell reads 'a melting hymn of Dr. Watts' and she 'leaped unconsciously from my chair'. Watts (Old Dissent) used inside the New England revival. ('A friend' for Samuel Buell is loose but not wrong.)",
+  "russian-church-stoglav-to-nikon--russian-church-nikon-to-holy-synod [era 8, continued as, Documented] cic/texts/ligarides_history-of-the-condemnation-of-patriarch-nikon_palmer1873.txt:5414-5415 — Ligarides ch. V: on Joseph's death 'the man elected to succeed him was Nicon'. Same see, consecutive patriarchs.",
+  "the-methodist-revival--the-welsh-revival-tradition [era 8, in contact with, Documented] cic/texts/harris-howell_brief-account-of-the-life-with-letters_1791.txt:1205-1207 — Harris, Brief Account: met Whitefield at Cardiff, 'the first time I met him to converse face to face'; Whitefield's journal footnote confirms. Named meeting.",
+  "the-baptists--the-missionary-movement-s-native-churches-seramp [era 8, gave rise to, Inferential-Thin] cic/texts/rippon_baptist-annual-register-1790-1793_1793.txt:40627-40631 — Rippon 1793: the Society's letter to Ram Ram Boshoo and Parbotee. Inferential-Thin, note says so.",
+  "armenian-apostolic-church-era-8--armenian-christianity-era-8 [era 8, broke with, Widely Accepted] cic/texts/serpos_dissertazione-due-dubbi-armeni-cattolici-ita_1783.txt:375-379 — Serpos 1783: Catholic Armenians in Ottoman lands may not have separate churches. Note uses it only for that consequence; WA.",
+  "catholic-church-long-nineteenth-century--the-catholic-church-pius-x-to-the-council [era 9, continued as, Documented] cic/texts/anderson-frank-maloy_constitutions-and-documents-history-of-france_1908.txt:40413-40414 — Pius X, 11 Feb 1906: 'Our illustrious predecessor, Leo XIII ... expounded Catholic teaching' on church and state. Same see naming its predecessor.",
+  "catholic-church-long-nineteenth-century--church-of-the-east-chaldean-consolidation [era 9, in contact with, Documented] cic/texts/badger_nestorians-and-their-rituals-v1_1852.txt:8072-8074 — Badger 1852: sampled line is only the name note (Hormuzd = Hanna); the link's other Badger lines (8645-8650, 8749-8760) show Rome recognizing Mutran Hanna on the no-kin condition. Supported.",
+  "victorian-church-of-england--the-oxford-movement-and-anglo-catholic-revival [era 9, gave rise to, Widely Accepted] cic/texts/badger_nestorians-and-their-rituals-v2_1852.txt:21148-21149 — Publisher's lists (1846, 1852) name 'Puseyites' and 'Tractarianism' only, but the link is Widely Accepted on Nockles, so the quotes are not carrying a Documented grade. Note's claims ('Scottish book list of 1846', Dean of Bristol as critic) match the lines.",
+  "northeast-india-revivals-and-the-mar-thoma-refor--the-malankara-churches-orthodox-and-jacobite [era 9, broke with, Widely Accepted] cic/texts/whitehouse_lingerings-of-light-in-a-dark-land_1873.txt:11330-11334 — Whitehouse 1873: Mar Kurillos 'sent by the Jacobite Patriarch to check the reforming tendencies of Mar Athanasius'. Note matches. The 'to' movement starts 1912 and no 19th-century Malankara entry exists; the era-9 drafter noted the naming; structural, not a quote problem."
+ ]
+}

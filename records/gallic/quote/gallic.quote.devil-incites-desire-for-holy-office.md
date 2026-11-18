@@ -13,11 +13,11 @@ confidence:
   formation_confidence: Documented
   divergence_note: >-
     Documented as Abbot Moses's teaching within Cassian's First Conference (Conf. I.20), part of a
-    catalogue of the devil's disguises. The teaching is presented in Cassian's own text as Moses's
+    catalog of the devil's disguises. The teaching is presented in Cassian's own text as Moses's
     direct instruction to Cassian and Germanus.
 sources:
 - source_id: gallic.source.cassian-conferences-part-i
-  locus: "Conference I, ch. XX (npnf211 div iv.iv.ii.xx, file lines 26944-26947): Abbot Moses on the devil's disguised temptations, illustrated by a good money-changer"
+  locus: "Conference I, ch. XX (cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml, lines 26944-26947; div iv.iv.ii.xx): Abbot Moses on the devil's disguised temptations, illustrated by a good money-changer"
   license: public-domain
 retrieval:
   tier: 2

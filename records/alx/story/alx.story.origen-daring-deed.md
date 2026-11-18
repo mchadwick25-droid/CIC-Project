@@ -70,4 +70,26 @@ use_note:
     - "claiming Origen never revised his view of the verse"
   years: {from: 203, to: 231}
   status: reviewed
+reading_card:
+  setting: Eusebius, Church History VI.8, on Origen's early teaching in Alexandria.
+  source_says: Origen took Christ's saying about eunuchs literally and acted on it, partly to avoid scandal
+    teaching women. Demetrius admired it, later denounced it.
+  historians_conclude:
+    text: McGiffert reports scholars who doubted the act, though he accepts it; the construction record
+      leaves it open.
+    confidence: Contested
+  contributes: It shows one act read first as faith, later as grounds for attack.
+  whose_view: Only Eusebius reports it, an admirer calling it both immature and faithful.
+  open: Origen later argued against the literal reading. Whether, or how, it happened is disputed.
+  reads_differently_today: It can read as great devotion or dangerous self-harm. Eusebius already held
+    both readings, and Origen later judged the verse differently.
+  sources:
+    setting: alx.source.eusebius-historia-ecclesiastica, HE VI.8.1, npnf201 lines 33135-33142
+    source_says: alx.source.eusebius-historia-ecclesiastica, HE VI.8.1-5, npnf201 lines 33195-33233
+    historians_conclude: McGiffert's note to HE VI.8.1, npnf201 lines 33142-33150; alx.story.origen-daring-deed,
+      confidence.divergence_note
+    contributes: alx.gravity.teacher-bishop-tension; alx.force.origen-demetrius-conflict
+    whose_view: alx.story.origen-daring-deed, absent_detail; HE VI.8.1, npnf201 lines 33139-33142
+    open: alx.story.origen-daring-deed, absent_detail; McGiffert's note, npnf201 lines 33180-33190
+    reads_differently_today: alx.story.origen-daring-deed, modern_contrast
 ---

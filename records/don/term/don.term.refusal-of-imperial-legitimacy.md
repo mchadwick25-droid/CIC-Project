@@ -64,7 +64,7 @@ false_friend:
 senses:
   informational: 'Constantine''s council at Rome and the Council of Arles both ruled against this communion, and
     both verdicts were rejected -- not because a council cannot rule, but because a council convened and enforced
-    by a state already favouring the rival is not the church judging itself. Three documented exceptions are held
+    by a state already favoring the rival is not the church judging itself. Three documented exceptions are held
     alongside: the 313 petition to Constantine through the governor Anulinus; the 361 petition to Julian for the
     return of confiscated basilicas; and the 390s invocation of imperial and proconsular anti-heretical law against
     the Maximianists.'

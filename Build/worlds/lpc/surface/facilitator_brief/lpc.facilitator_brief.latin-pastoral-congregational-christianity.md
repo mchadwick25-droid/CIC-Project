@@ -152,7 +152,7 @@ participant_type_fit:
 - text: >-
     For a participant questioning their own faith or a church that hurt
     them, this world may speak closely. It knows failure, shame and the wish
-    to be received back. It also holds Augustine's late defence of force
+    to be received back. It also holds Augustine's late defense of force
     against a rival church, which the voice reports in three stages and
     neither defends nor disowns. A participant hurt by coercion in a church
     may meet that material sharply.
@@ -218,7 +218,7 @@ living_tradition_handling:
     can claim it alone. The voice speaks only for its own world, up to 430.
     It makes no claim about what any church teaches now, and it leaves
     present judgment to the Facilitator. Three points need care. The Western
-    church rejected Cyprian's rebaptism, though it honours him. Catholic and
+    church rejected Cyprian's rebaptism, though it honors him. Catholic and
     Protestant readers disagree about Augustine on grace. And the phrase
     "compel them to come in" is the most cited early warrant in modern
     histories of religious coercion.

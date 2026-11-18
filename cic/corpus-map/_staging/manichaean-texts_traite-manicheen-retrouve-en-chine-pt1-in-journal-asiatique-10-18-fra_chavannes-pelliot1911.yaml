@@ -1,0 +1,11 @@
+source_file: manichaean-texts_traite-manicheen-retrouve-en-chine-pt1-in-journal-asiatique-10-18-fra_chavannes-pelliot1911.txt
+assignments:
+- row_id: manichaean-texts_traite-manicheen-retrouve-en-chine-pt1-in-journal-asiatique-10-18-fra_chavannes-pelliot1911--chinese-manichaean-treatise-part-1-chavannes-pelliot-1911
+  work: 'A Manichaean treatise found in China, French translation, first part (Chavannes and Pelliot 1911)'
+  author: manichaean-texts
+  locus: 'the paper from about OCR line 25315; add 12 to OCR line numbers'
+  atlas_ids:
+  - manichaeism
+  role: tradition
+  confidence: assigned
+  note: "A Manichaean teaching text in Chinese, from Dunhuang, given in French. The manuscripts are of the 8th-10th centuries."

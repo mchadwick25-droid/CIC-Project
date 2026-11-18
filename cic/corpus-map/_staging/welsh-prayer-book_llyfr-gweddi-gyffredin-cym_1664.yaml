@@ -1,0 +1,12 @@
+source_file: welsh-prayer-book_llyfr-gweddi-gyffredin-cym_1664.txt
+assignments:
+- row_id: welsh-prayer-book_llyfr-gweddi-gyffredin-cym_1664--llyfr-gweddi-gyffredin-the-welsh-book-of-common-prayer-1664
+  work: Llyfr Gweddi Gyffredin, the Welsh Book of Common Prayer (1664)
+  author: welsh-prayer-book
+  locus: the whole book; add 12 to OCR line numbers for this file's own
+  atlas_ids:
+  - restoration-georgian-church-of-england
+  role: tradition
+  confidence: provisional
+  note: The Restoration church's own liturgy in Welsh. Within this entry's window (1660-1815). It also
+    answers the Welsh church after 1282 (Open-Gaps 158). Poor OCR; second witness only.

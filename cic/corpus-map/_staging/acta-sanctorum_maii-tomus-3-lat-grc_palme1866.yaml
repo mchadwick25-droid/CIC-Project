@@ -1,0 +1,44 @@
+source_file: acta-sanctorum_maii-tomus-3-lat-grc_palme1866.txt
+authors_ruled:
+  vita_prima_pachomii_cardon_latin:
+    kind: anonymous
+    evidence: >-
+      The Bollandists head it "Acta auctore suppari monacho ex MSS. Graecis, interprete Daniele Cardono Soc. Jesu" (about OCR line 16520 of the contents list, and the commentary at 78831): the Greek Life was written by an anonymous Tabennisi monk of about Pachomius's age, and the Latin here is Daniel Cardon's translation of it. A work, not a person.
+  bollandists:
+    kind: metadata-omission
+    evidence: >-
+      The file is plain text with no markup to hold a creator. The commentary, notes and the Appendix on Pachomius the Younger are by the Bollandist editors of this volume (title page: Henschen, Papebroch and others, edition of Carnandet, 1866). The slug is used only for their own apparatus, assigned as context.
+assignments:
+- row_id: acta-sanctorum_maii-tomus-3-lat-grc_palme1866--vita-prima-of-pachomius-in-cardon-s-latin
+  work: The Life of Pachomius (Vita prima), in Daniel Cardon's Latin translation of the Greek, Acta Sanctorum, 14 May
+  author: vita_prima_pachomii_cardon_latin
+  locus: about OCR lines 80678-88510 (Prologue from 80678; Chapter I from 80922); add 12 to OCR line numbers. Columns are run together in places.
+  atlas_ids:
+  - desert-monasticism
+  role: tradition
+  confidence: assigned
+  language: lat
+  note: >-
+    The Pachomian koinonia's earliest Life as Latin readers had it in 1866: Cardon's version of the Greek, made from manuscripts. NOT the Latin of Dionysius Exiguus, which this volume does not print (it is in Rosweyde's Vitae Patrum and Migne PL 73, not held). A second witness to the Greek, in Latin, with a fair OCR: quote only after a check against the scan, and cite as Cardon's Latin.
+- row_id: acta-sanctorum_maii-tomus-3-lat-grc_palme1866--paralipomena-on-pachomius-and-theodorus
+  work: Paralipomena on SS. Pachomius and Theodorus, in Latin, Acta Sanctorum, 14 May
+  author: vita_prima_pachomii_cardon_latin
+  locus: about OCR lines 88515-94018; add 12 to OCR line numbers
+  atlas_ids:
+  - desert-monasticism
+  role: tradition
+  confidence: provisional
+  language: lat
+  note: >-
+    The additional Pachomian material the Bollandists print after the Life (the Greek Paralipomena, in Latin), by the same hand as the Life or its continuator; the editors' own account of the attribution is at about OCR lines 78900-79300. Provisional until that attribution is checked.
+- row_id: acta-sanctorum_maii-tomus-3-lat-grc_palme1866--bollandist-commentary-and-appendix-on-pachomius
+  work: The Bollandists' commentary on SS. Pachomius and Theodorus, with the Appendix on Pachomius the Younger
+  author: bollandists
+  locus: commentary from about OCR line 78831; Appendix de Pachomio juniore about 94048-95390; add 12 to OCR line numbers
+  atlas_ids:
+  - desert-monasticism
+  role: context
+  confidence: provisional
+  language: lat
+  note: >-
+    Seventeenth-century Jesuit editorial apparatus: the sources of the Life, Sozomen on the rule, the dating of Pachomius. Not an ancient source; context for that reason.

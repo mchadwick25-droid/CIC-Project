@@ -11,17 +11,18 @@ confidence:
   verification_state: verified-direct
   evidentiary_weight: illustrative
   formation_confidence: Contested
-  divergence_note: "Contested at the level of authorship, and heavily. The vendored edition's own translator states that the ascription to Macarius the Egyptian 'rests upon no external evidence', the Internet Archive catalogues the volume under Pseudo-Macarius, and the corpus is generally treated as the work of a Syrian or Mesopotamian author of the late fourth or early fifth century whose doctrine was drawn on by the condemned Messalian current. These are homilies the tradition read and transmitted under a desert elder's name; they are not securely the words of a desert elder. Never voiced as 'one of us said' - see desert.source.macarian-homilies."
+  divergence_note: "Contested at the level of authorship, and heavily. The vendored edition's own translator states that the ascription to Macarius the Egyptian 'rests upon no external evidence', the Internet Archive catalogs the volume under Pseudo-Macarius, and the corpus is generally treated as the work of a Syrian or Mesopotamian author of the late fourth or early fifth century whose doctrine was drawn on by the condemned Messalian current. These are homilies the tradition read and transmitted under a desert elder's name; they are not securely the words of a desert elder. Never voiced as 'one of us said' - see desert.source.macarian-homilies."
 sources:
 - source_id: desert.source.macarian-homilies
-  locus: "Homily IV, in Mason's English"
+  locus: "Homily IV, in Mason's English (cic/texts/macarius_fifty-spiritual-homilies_mason1921.txt, lines 2336-2343)"
   license: public-domain
 text: "Only let a man strive to be a friend of His and well pleasing to Him, and in real experience and feeling he shall truly see the good things of heaven, and the inexpressible delights and infinite riches of Godhead... even the Spirit of the Lord, making Himself for worthy souls their rest, their rejoicing, their delight, and their eternal life."
 modern_rendering: >-
-  Only let a person strive to be God's friend, and to be pleasing to him. Then, in real experience
-  and feeling, that person will truly see the good things of heaven -- the delights too great for
-  words, and the infinite riches of the Godhead. ... The Spirit of the Lord himself becomes, for
-  souls that are worthy, their rest, their joy, their delight, and their eternal life.
+  Only let a person strive to be God's friend, and pleasing to him. Then, in real experience and
+  feeling, that person will truly see the good things of heaven. They will see delights too great
+  for words, and the infinite riches of the Godhead. ... All this is the Spirit of the Lord. For
+  souls that are worthy, he makes himself their rest, their rejoicing, their delight, and their
+  eternal life.
 speaker_or_author: "the Macarian Homilies, transmitted under the name of Macarius the Egyptian; author unknown"
 license: verbatim
 modern_lens_note: "'In real experience and feeling' is the phrase the Messalian charge fastened on: it claims grace is consciously perceived, not merely believed or inferred from sacraments. Whether that is devotion or error was the fourth-century argument, and this record does not settle it. The ellipsis drops a scriptural allusion (1 Cor. 2:9)."

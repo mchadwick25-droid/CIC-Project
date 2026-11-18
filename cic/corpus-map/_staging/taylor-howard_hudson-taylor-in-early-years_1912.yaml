@@ -1,0 +1,23 @@
+source_file: taylor-howard_hudson-taylor-in-early-years_1912.txt
+assignments:
+- row_id: taylor-howard_hudson-taylor-in-early-years_1912--hudson-taylor-in-early-years-the-growth-of-a-soul-by-dr-and
+  work: 'Hudson Taylor in Early Years: the growth of a soul. By Dr. and Mrs. Howard Taylor. With introduction by
+    Mr.'
+  author: taylor-howard
+  locus: the whole volume; not mapped
+  atlas_ids:
+  - the-missionary-movement-s-native-churches-seramp
+  role: context
+  confidence: assigned
+  language: eng
+  date:
+    start: 1912
+    end: 1912
+    source: 'the printing''s own title page: OCR line 60, on the title page'
+    formation_confidence: Documented
+  edition_date:
+    year: 1912
+    source: OCR line 60, on the title page
+    formation_confidence: Documented
+  note: 'Era 9 row 204, J. Hudson Taylor: a Life (the early years). A Life by another hand, printed in 1912, after
+    the entry''s window closes.'

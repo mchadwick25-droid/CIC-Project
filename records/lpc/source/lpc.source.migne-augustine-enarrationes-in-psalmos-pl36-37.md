@@ -27,6 +27,7 @@ work: Sancti Aurelii Augustini Enarrationes in Psalmos (complete, Psalms 1-150),
 edition: 'Parisiis: J.-P. Migne, 1861; vendored as cic/texts/augustine_enarrationes-in-psalmos-lat_migne-pl36-37.txt'
 citation: 'Augustine of Hippo, Enarrationes in Psalmos, Psalms 1-150, Maurist text, ed. Jacques-Paul Migne, Patrologia Latina 36-37 (Parisiis: J.-P. Migne, 1861)'
 kind: vendored
+shelf_row: augustine_enarrationes-in-psalmos-lat_migne-pl36-37--augustine-s-expositions-on-the-psalms-enarrationes-in
 rights_status: public-domain; vendored in cic/texts/, and the specific content this row licenses was directly
   read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify
   check (Source_Acquisition_Manifest.md SS1).

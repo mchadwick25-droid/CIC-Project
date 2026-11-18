@@ -1,0 +1,21 @@
+source_file: bunting-t-p_life-of-jabez-bunting-v1_1859.txt
+assignments:
+- row_id: bunting-t-p_life-of-jabez-bunting-v1_1859--the-life-of-jabez-bunting-d-d-with-notices-of-contemporary
+  work: The Life of Jabez Bunting, D.D., with notices of contemporary persons and events; by his son, Thomas Percival
+  author: bunting-t-p
+  locus: the whole volume; not mapped
+  atlas_ids:
+  - nineteenth-century-methodism
+  role: context
+  confidence: provisional
+  language: eng
+  date:
+    start: 1859
+    end: 1859
+    source: 'the printing''s own title page: line 63, on the title page'
+    formation_confidence: Documented
+  edition_date:
+    year: 1859
+    source: line 63, on the title page
+    formation_confidence: Documented
+  note: 'Era 9 row 237, Jabez Bunting: a Life told by his son (vol. 1).'

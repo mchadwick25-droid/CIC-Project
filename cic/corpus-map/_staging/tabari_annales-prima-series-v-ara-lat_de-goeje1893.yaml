@@ -1,0 +1,12 @@
+source_file: tabari_annales-prima-series-v-ara-lat_de-goeje1893.txt
+assignments:
+- row_id: tabari_annales-prima-series-v-ara-lat_de-goeje1893--al-tabari-annales-prima-series-v
+  work: 'al-Tabari, Annales, prima series V'
+  author: tabari
+  locus: 'the whole volume; add 12 to OCR line numbers'
+  atlas_ids:
+  - byzantine-imperial-church-heraclian-iconoclast
+  - the-church-of-the-east-on-the-silk-road
+  role: context
+  confidence: provisional
+  note: 'A Muslim historian (839-923, era 4 audit) on the conquests of Syria and Iraq, from the conquerors'' side; outside witness.'

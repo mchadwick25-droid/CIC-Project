@@ -17,8 +17,7 @@ confidence:
     aside that many of them went on to become bishops.
 sources:
 - source_id: gallic.source.sulpitius-vita-martini
-  locus: "ch. X (npnf211 div ii.ii.xi, file line 1153): the nobles who took up this humility, and
-    Sulpitius's own note that many of them were afterwards made bishops"
+  locus: "ch. X (cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml, lines 1153-1155; div ii.ii.xi): the nobles who took up this humility, and Sulpitius's own note that many of them were afterwards made bishops"
   license: public-domain
 retrieval:
   tier: 1

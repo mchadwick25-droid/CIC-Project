@@ -1,0 +1,3247 @@
+{
+ "era": 9,
+ "part": 2,
+ "lanes": "all era-9 lanes except Protestant & Evangelical and the Syriac East/Protestant bridge",
+ "date": "2026-11-08",
+ "movements": [
+  {
+   "id": "the-optina-elders-and-russian-ascetic-renewal",
+   "name": "The Optina Elders & Russian Ascetic Renewal",
+   "dates": "1821-1906",
+   "existing_links": [],
+   "relationships": [
+    {
+     "field": "relationsSummary",
+     "sentence": "Grew out of the Philokalia tradition of ascetic prayer and became the world Dostoevsky drew on for The Brothers Karamazov.",
+     "other": "Philokalia tradition of ascetic prayer",
+     "other_id": "the-hesychast-revival-paisius-and-the-philokalia",
+     "other_id_note": "Philokalia; census \"The Hesychast Revival - Paisius & the Philokalia\" (era 8)",
+     "other_era": 8,
+     "claim": "Optina grew out of the Philokalia tradition",
+     "other_names_it": true,
+     "other_sentence": "Revival of the Palamite line; direct source of the Optina tradition"
+    },
+    {
+     "field": "relationsSummary",
+     "sentence": "Grew out of the Philokalia tradition of ascetic prayer and became the world Dostoevsky drew on for The Brothers Karamazov.",
+     "other": "Dostoevsky (novelist)",
+     "other_id": null,
+     "other_id_note": "person; not a census movement",
+     "other_era": null,
+     "claim": "Optina was the world Dostoevsky drew on for The Brothers Karamazov",
+     "other_names_it": null,
+     "other_sentence": null
+    },
+    {
+     "field": "relationsSummary",
+     "sentence": "Its spirituality carried forward into twentieth-century émigré Orthodox theology, as a renewal movement within the wider Russian Orthodox Church of the same era.",
+     "other": "twentieth-century émigré Orthodox theology",
+     "other_id": "emigre-orthodoxy-and-the-paris-school",
+     "other_id_note": "census \"Emigre Orthodoxy & the Paris School\" (era 10)",
+     "other_era": 10,
+     "claim": "Optina spirituality carried forward into émigré Orthodox theology",
+     "other_names_it": true,
+     "other_sentence": "Its roots run through more than one strand of Russian religious life — the Optina monastic tradition and the religious-philosophical renaissance associated with Sergei Bulgakov and Nikolai Berdyaev both feed into it."
+    },
+    {
+     "field": "relationsSummary",
+     "sentence": "Its spirituality carried forward into twentieth-century émigré Orthodox theology, as a renewal movement within the wider Russian Orthodox Church of the same era.",
+     "other": "wider Russian Orthodox Church of the same era",
+     "other_id": "russian-church-synodal-century",
+     "other_id_note": "census \"The Russian Church — the Synodal Century\" (era 9, part 2)",
+     "other_era": 9,
+     "claim": "Optina renewal was a movement within the wider Russian Church",
+     "other_names_it": true,
+     "other_sentence": "The Optina elders' renewal movement grew within this church, and Alaska was one of its missions."
+    },
+    {
+     "field": "longDescription",
+     "sentence": "Dostoevsky came in 1878 after the death of his small son, and turned what he found there into the elder Zosima.",
+     "other": "Dostoevsky (novelist)",
+     "other_id": null,
+     "other_id_note": "person; not a census movement",
+     "other_era": null,
+     "claim": "Dostoevsky visited Optina and turned it into the elder Zosima",
+     "other_names_it": null,
+     "other_sentence": null
+    },
+    {
+     "field": "longDescription",
+     "sentence": "They were also publishers: from the 1840s, with the Slavophile thinker Ivan Kireevsky, Optina ran a press that put the Greek ascetic fathers into Russian and made a monastic literature available to laypeople for the first time.",
+     "other": "Ivan Kireevsky (Slavophile thinker)",
+     "other_id": null,
+     "other_id_note": "person",
+     "other_era": null,
+     "claim": "Optina ran its press with Kireevsky",
+     "other_names_it": null,
+     "other_sentence": null
+    },
+    {
+     "field": "longDescription",
+     "sentence": "They were also publishers: from the 1840s, with the Slavophile thinker Ivan Kireevsky, Optina ran a press that put the Greek ascetic fathers into Russian and made a monastic literature available to laypeople for the first time.",
+     "other": "Greek ascetic fathers (Philokalia tradition)",
+     "other_id": "the-hesychast-revival-paisius-and-the-philokalia",
+     "other_id_note": "Greek ascetic fathers matched to the Philokalia census entry (era 8)",
+     "other_era": 8,
+     "claim": "Optina press put the Greek ascetic fathers into Russian",
+     "other_names_it": false,
+     "other_sentence": null
+    },
+    {
+     "field": "legacy",
+     "sentence": "The Soviet state closed Optina in 1918 and killed or scattered its monks, but the monastery was returned to the church in 1987 and is active again, receiving thousands of pilgrims a year, with the elders now canonized.",
+     "other": "Soviet state",
+     "other_id": null,
+     "other_id_note": "state; not a census movement",
+     "other_era": null,
+     "claim": "Soviet state closed Optina and killed or scattered its monks",
+     "other_names_it": null,
+     "other_sentence": null
+    },
+    {
+     "field": "legacy",
+     "sentence": "The Philokalic spirituality it made available in Russian carried into the émigré theology of twentieth-century Paris and from there into English, and The Way of a Pilgrim, with its Jesus Prayer, became one of the very few Orthodox devotional books widely read in the West — J. D. Salinger built a novel around it in 1961.",
+     "other": "émigré theology of twentieth-century Paris",
+     "other_id": "emigre-orthodoxy-and-the-paris-school",
+     "other_id_note": "census \"Emigre Orthodoxy & the Paris School\" (era 10)",
+     "other_era": 10,
+     "claim": "Philokalic spirituality carried into émigré theology",
+     "other_names_it": true,
+     "other_sentence": "Its roots run through more than one strand of Russian religious life — the Optina monastic tradition and the religious-philosophical renaissance associated with Sergei Bulgakov and Nikolai Berdyaev both feed into it."
+    },
+    {
+     "field": "legacy",
+     "sentence": "The Philokalic spirituality it made available in Russian carried into the émigré theology of twentieth-century Paris and from there into English, and The Way of a Pilgrim, with its Jesus Prayer, became one of the very few Orthodox devotional books widely read in the West — J. D. Salinger built a novel around it in 1961.",
+     "other": "J. D. Salinger (novel Franny and Zooey)",
+     "other_id": null,
+     "other_id_note": "person and text; not a census movement",
+     "other_era": null,
+     "claim": "Salinger built a novel around The Way of a Pilgrim",
+     "other_names_it": null,
+     "other_sentence": null
+    }
+   ],
+   "hygiene": []
+  },
+  {
+   "id": "the-kollyvades-and-greek-renewal",
+   "name": "The Kollyvades & Greek Renewal",
+   "dates": "1750s-1860s",
+   "existing_links": [
+    {
+     "id": "desert-monasticism--the-kollyvades-and-greek-renewal",
+     "from": "desert-monasticism",
+     "to": "the-kollyvades-and-greek-renewal",
+     "type": "influenced",
+     "confidence": "Documented"
+    }
+   ],
+   "relationships": [
+    {
+     "field": "relationsSummary",
+     "sentence": "A sibling movement to the Paisian revival among Slavic Orthodox monks, part of the same broader eighteenth-century wave of ascetic renewal but a separate development within Greek Orthodoxy.",
+     "other": "the Paisian revival among Slavic Orthodox monks",
+     "other_id": "the-hesychast-revival-paisius-and-the-philokalia",
+     "other_id_note": "Paisian revival = census \"The Hesychast Revival - Paisius & the Philokalia\" (era 8)",
+     "other_era": 8,
+     "claim": "Kollyvades were a sibling movement to the Paisian revival",
+     "other_names_it": false,
+     "other_sentence": null
+    },
+    {
+     "field": "relationsSummary",
+     "sentence": "A sibling movement to the Paisian revival among Slavic Orthodox monks, part of the same broader eighteenth-century wave of ascetic renewal but a separate development within Greek Orthodoxy.",
+     "other": "Greek Orthodoxy",
+     "other_id": null,
+     "other_id_note": "generic church tradition; no single census movement",
+     "other_era": null,
+     "claim": "Kollyvades a separate development within Greek Orthodoxy",
+     "other_names_it": null,
+     "other_sentence": null
+    },
+    {
+     "field": "longDescription",
+     "sentence": "Its leaders argued for frequent communion against a general practice of receiving perhaps once or twice a year, and in 1782 published in Venice the Philokalia, an anthology of Greek ascetic writers on prayer that became one of the most influential books ever printed in Orthodoxy.",
+     "other": "the Philokalia (1782 Venice anthology)",
+     "other_id": "the-hesychast-revival-paisius-and-the-philokalia",
+     "other_id_note": "census era-8 Philokalia entry",
+     "other_era": 8,
+     "claim": "Kollyvades leaders published the Philokalia in 1782",
+     "other_names_it": true,
+     "other_sentence": "He gathered a community, moved with it to Moldavia, and at Neamț built a translation workshop where monks turned those fathers into Slavonic; meanwhile on Athos, Macarius of Corinth and Nicodemus the Hagiorite assembled the same material into an anthology printed at Venice in 1782 under the title Philokalia, 'the love of the beautiful'."
+    },
+    {
+     "field": "longDescription",
+     "sentence": "For their trouble the Kollyvades were driven off Athos and scattered through the islands.",
+     "other": "Mount Athos",
+     "other_id": null,
+     "other_id_note": "place; census athonite-and-comnenian-byzantine-monasticism (era 5, c. 963-1300) dates do not fit; not matched",
+     "other_era": null,
+     "claim": "Kollyvades were driven off Athos",
+     "other_names_it": null,
+     "other_sentence": null
+    },
+    {
+     "field": "longDescription",
+     "sentence": "Under Ottoman rule they also did something with few parallels anywhere in Christian history.",
+     "other": "Ottoman rule (state)",
+     "other_id": null,
+     "other_id_note": "state; not a census movement",
+     "other_era": null,
+     "claim": "Kollyvades prepared converts-refusers under Ottoman rule",
+     "other_names_it": null,
+     "other_sentence": null
+    },
+    {
+     "field": "why",
+     "sentence": "What they produced was serious: a 1782 anthology of Greek ascetic writing on prayer, the Philokalia, and an argument for frequent communion against a general practice of receiving only once or twice a year.",
+     "other": "the Philokalia (1782)",
+     "other_id": "the-hesychast-revival-paisius-and-the-philokalia",
+     "other_id_note": "census era-8 Philokalia entry",
+     "other_era": 8,
+     "claim": "Kollyvades produced the 1782 Philokalia",
+     "other_names_it": true,
+     "other_sentence": "He gathered a community, moved with it to Moldavia, and at Neamț built a translation workshop where monks turned those fathers into Slavonic; meanwhile on Athos, Macarius of Corinth and Nicodemus the Hagiorite assembled the same material into an anthology printed at Venice in 1782 under the title Philokalia, 'the love of the beautiful'."
+    },
+    {
+     "field": "why",
+     "sentence": "Under Ottoman rule they also prepared, deliberately and pastorally, people who expected to be executed for refusing to convert, and wrote up their deaths in a New Martyrologion in 1799.",
+     "other": "Ottoman rule (state)",
+     "other_id": null,
+     "other_id_note": "state; not a census movement",
+     "other_era": null,
+     "claim": "Kollyvades prepared converts-refusers under Ottoman rule",
+     "other_names_it": null,
+     "other_sentence": null
+    },
+    {
+     "field": "legacy",
+     "sentence": "Paisius Velichkovsky translated it into Slavonic in 1793, Theophan the Recluse into Russian later in the century, and English translations in the twentieth century put it into the hands of readers with no Orthodox background at all.",
+     "other": "Paisius Velichkovsky (Slavonic Philokalia, 1793)",
+     "other_id": "the-hesychast-revival-paisius-and-the-philokalia",
+     "other_id_note": "person; the Paisian revival is census era-8 entry",
+     "other_era": 8,
+     "claim": "Velichkovsky translated the Philokalia into Slavonic in 1793",
+     "other_names_it": true,
+     "other_sentence": "Paisius's Slavonic version, the Dobrotolubiye, was printed in Moscow in 1793, and the effect was enormous and largely unplanned: a body of monastic teaching on the Jesus Prayer and the watching of one's own heart, gathered for specialists, went into general circulation and reached ordinary lay readers."
+    },
+    {
+     "field": "legacy",
+     "sentence": "Paisius Velichkovsky translated it into Slavonic in 1793, Theophan the Recluse into Russian later in the century, and English translations in the twentieth century put it into the hands of readers with no Orthodox background at all.",
+     "other": "Theophan the Recluse (person)",
+     "other_id": null,
+     "other_id_note": "person; not a census movement",
+     "other_era": null,
+     "claim": "Theophan translated the Philokalia into Russian",
+     "other_names_it": null,
+     "other_sentence": null
+    },
+    {
+     "field": "legacy",
+     "sentence": "The movement is generally read as the seed of the modern Greek Orthodox revival, and its leading figures have since been canonized by the church that once expelled them.",
+     "other": "modern Greek Orthodox revival",
+     "other_id": null,
+     "other_id_note": "no census movement for the later Greek revival",
+     "other_era": null,
+     "claim": "Kollyvades are the seed of the modern Greek Orthodox revival",
+     "other_names_it": null,
+     "other_sentence": null
+    },
+    {
+     "field": "legacy",
+     "sentence": "The movement is generally read as the seed of the modern Greek Orthodox revival, and its leading figures have since been canonized by the church that once expelled them.",
+     "other": "the church that once expelled them (Greek Orthodox Church)",
+     "other_id": null,
+     "other_id_note": "institution; not a census entry",
+     "other_era": null,
+     "claim": "The church that expelled the Kollyvades later canonized their leaders",
+     "other_names_it": null,
+     "other_sentence": null
+    }
+   ],
+   "hygiene": []
+  },
+  {
+   "id": "coptic-revival-under-cyril-iv",
+   "name": "The Coptic Revival — Cyril IV and After",
+   "dates": "1854-1906",
+   "existing_links": [],
+   "relationships": [
+    {
+     "field": "relationsSummary",
+     "sentence": "Continuation of the long Egyptian lane; parent of the Sunday School revival",
+     "other": "long Egyptian lane",
+     "other_id": null,
+     "other_id_note": "no single census movement; Coptic entries span eras 2-5 and 10",
+     "other_era": null,
+     "claim": "Coptic revival continues the long Egyptian Coptic lane",
+     "other_names_it": null,
+     "other_sentence": null
+    },
+    {
+     "field": "relationsSummary",
+     "sentence": "Continuation of the long Egyptian lane; parent of the Sunday School revival",
+     "other": "Sunday School revival",
+     "other_id": "the-coptic-monastic-and-sunday-school-revival",
+     "other_id_note": "census \"The Coptic Monastic & Sunday-School Revival\" (era 10)",
+     "other_era": 10,
+     "claim": "Coptic revival is the parent of the Sunday School revival",
+     "other_names_it": false,
+     "other_sentence": null
+    },
+    {
+     "field": "longDescription",
+     "sentence": "An elected lay communal council from 1874, a Coptic press and newspapers from the 1870s, and the schools that would eventually produce the twentieth-century Sunday School movement out of which the modern Coptic renaissance came.",
+     "other": "twentieth-century Sunday School movement",
+     "other_id": "the-coptic-monastic-and-sunday-school-revival",
+     "other_id_note": "census era-10 Coptic Sunday-School entry",
+     "other_era": 10,
+     "claim": "Cyril's schools would produce the Sunday School movement",
+     "other_names_it": false,
+     "other_sentence": null
+    },
+    {
+     "field": "why",
+     "sentence": "He died suddenly in 1861, but what he started did not stop: an elected lay council from 1874 and a Coptic press from the 1870s laid the ground for the Sunday School movement that would later rebuild the church's monasteries and leadership.",
+     "other": "Sunday School movement",
+     "other_id": "the-coptic-monastic-and-sunday-school-revival",
+     "other_id_note": "census era-10 Coptic Sunday-School entry",
+     "other_era": 10,
+     "claim": "Cyril's council and press laid the ground for the Sunday School movement",
+     "other_names_it": false,
+     "other_sentence": null
+    },
+    {
+     "field": "legacy",
+     "sentence": "The Sunday School movement that grew out of Cyril's schools, formally organized from 1918, produced the generation of teachers, monks and bishops who repopulated the desert monasteries and led the church through the twentieth century, and the Coptic diaspora carried that renewal to Europe, North America and Australia.",
+     "other": "Sunday School movement",
+     "other_id": "the-coptic-monastic-and-sunday-school-revival",
+     "other_id_note": "census era-10 Coptic Sunday-School entry",
+     "other_era": 10,
+     "claim": "Sunday School movement grew out of Cyril's schools and was organized from 1918",
+     "other_names_it": false,
+     "other_sentence": null
+    },
+    {
+     "field": "legacy",
+     "sentence": "The Sunday School movement that grew out of Cyril's schools, formally organized from 1918, produced the generation of teachers, monks and bishops who repopulated the desert monasteries and led the church through the twentieth century, and the Coptic diaspora carried that renewal to Europe, North America and Australia.",
+     "other": "Coptic diaspora (Europe, North America, Australia)",
+     "other_id": null,
+     "other_id_note": "diaspora community; not a census movement",
+     "other_era": null,
+     "claim": "Coptic diaspora carried the renewal abroad",
+     "other_names_it": null,
+     "other_sentence": null
+    },
+    {
+     "field": "legacy",
+     "sentence": "The Sunday School movement that grew out of Cyril's schools, formally organized from 1918, produced the generation of teachers, monks and bishops who repopulated the desert monasteries and led the church through the twentieth century, and the Coptic diaspora carried that renewal to Europe, North America and Australia.",
+     "other": "Egyptian desert monasteries",
+     "other_id": null,
+     "other_id_note": "census desert-monasticism (era 2, c. 320-430) dates do not fit; not matched",
+     "other_era": null,
+     "claim": "Sunday School generation repopulated the desert monasteries",
+     "other_names_it": null,
+     "other_sentence": null
+    }
+   ],
+   "hygiene": [
+    "relationsSummary: \"Continuation of the long Egyptian lane; parent of the Sunday School revival\" (\"lane\" is census build terminology)"
+   ]
+  },
+  {
+   "id": "latter-day-saints-lds",
+   "name": "Latter-day Saints (LDS)",
+   "dates": "1830-1906",
+   "existing_links": [],
+   "relationships": [
+    {
+     "field": "longDescription",
+     "sentence": "Its members were driven out of Ohio, then Missouri, then Illinois, where a mob killed Smith in the Carthage jail in 1844.",
+     "other": "mobs and state authorities of Ohio, Missouri and Illinois",
+     "other_id": null,
+     "other_id_note": "states and mobs; not census",
+     "other_era": null,
+     "claim": "Neighboring states and mobs drove the church out; a mob killed Smith",
+     "other_names_it": null,
+     "other_sentence": null
+    },
+    {
+     "field": "longDescription",
+     "sentence": "The nineteenth-century church practiced plural marriage openly from 1852, which brought decades of federal prosecution before its president formally renounced the practice in 1890 and Utah entered the Union six years later.",
+     "other": "US federal government",
+     "other_id": null,
+     "other_id_note": "state; not census",
+     "other_era": null,
+     "claim": "Federal government prosecuted plural marriage",
+     "other_names_it": null,
+     "other_sentence": null
+    },
+    {
+     "field": "why",
+     "sentence": "Driven out of Ohio, Missouri, and Illinois, where a mob killed Smith in 1844, his followers crossed the plains under Brigham Young from 1847 and built the Salt Lake settlements largely from scratch.",
+     "other": "mobs and state authorities of Ohio, Missouri and Illinois",
+     "other_id": null,
+     "other_id_note": "states and mobs; not census",
+     "other_era": null,
+     "claim": "Driven out of Ohio, Missouri and Illinois; a mob killed Smith",
+     "other_names_it": null,
+     "other_sentence": null
+    }
+   ],
+   "hygiene": [
+    "relationsSummary is the placeholder \"-\" (empty, not public text)"
+   ]
+  },
+  {
+   "id": "jehovah-s-witnesses-bible-students",
+   "name": "Jehovah's Witnesses (Bible Students)",
+   "dates": "1870s-1906",
+   "existing_links": [],
+   "relationships": [
+    {
+     "field": "longDescription",
+     "sentence": "The name Jehovah's Witnesses, and the tightly centralized organization the movement is known for today, came later — after Russell's death in 1916, under his successor Joseph Franklin Rutherford.",
+     "other": "Joseph Franklin Rutherford (successor)",
+     "other_id": null,
+     "other_id_note": "person; not a census movement",
+     "other_era": null,
+     "claim": "Rutherford succeeded Russell and built the centralized organization",
+     "other_names_it": null,
+     "other_sentence": null
+    },
+    {
+     "field": "longDescription",
+     "sentence": "In the early 1870s a young Pittsburgh clothing merchant named Charles Taze Russell gathered a small circle to study the Bible without reference to inherited denominational teaching, and in 1879 began a magazine, Zion's Watch Tower and Herald of Christ's Presence.",
+     "other": "inherited denominational teaching",
+     "other_id": null,
+     "other_id_note": "generic; no census movement",
+     "other_era": null,
+     "claim": "Russell rejected inherited denominational teaching",
+     "other_names_it": null,
+     "other_sentence": null
+    },
+    {
+     "field": "why",
+     "sentence": "In the early 1870s, Pittsburgh clothing merchant Charles Taze Russell gathered a small circle to study the Bible apart from inherited denominational teaching, and in 1879 began the magazine that grew into an international network of Bible Students.",
+     "other": "inherited denominational teaching",
+     "other_id": null,
+     "other_id_note": "generic; no census movement",
+     "other_era": null,
+     "claim": "Russell gathered a circle apart from inherited denominational teaching",
+     "other_names_it": null,
+     "other_sentence": null
+    },
+    {
+     "field": "legacy",
+     "sentence": "Its members' refusals — of military service, of flag salutes, of blood transfusions — produced a long series of court cases, and some of the resulting judgments, particularly in the United States, became landmark free-speech and religious-liberty precedents that now protect everyone.",
+     "other": "US courts (free-speech and religious-liberty precedents)",
+     "other_id": null,
+     "other_id_note": "institution; not census",
+     "other_era": null,
+     "claim": "Refusals produced court cases and precedents",
+     "other_names_it": null,
+     "other_sentence": null
+    }
+   ],
+   "hygiene": [
+    "relationsSummary is the placeholder \"-\" (empty, not public text)"
+   ]
+  },
+  {
+   "id": "christian-science",
+   "name": "Christian Science",
+   "dates": "1875-1906",
+   "existing_links": [],
+   "relationships": [
+    {
+     "field": "legacy",
+     "sentence": "Its position on medical treatment has also been the subject of repeated legal and public debate over the years, particularly where children are concerned.",
+     "other": "legal and public debate on medical treatment (courts, public)",
+     "other_id": null,
+     "other_id_note": "institutions; not census",
+     "other_era": null,
+     "claim": "Church position on medical treatment contested in courts and in public",
+     "other_names_it": null,
+     "other_sentence": null
+    }
+   ],
+   "hygiene": [
+    "relationsSummary is the placeholder \"-\" (empty, not public text)"
+   ]
+  },
+  {
+   "id": "christadelphians",
+   "name": "Christadelphians",
+   "dates": "1848-1906",
+   "existing_links": [],
+   "relationships": [
+    {
+     "field": "longDescription",
+     "sentence": "He concluded that most of what the churches taught had been added long after the apostles, and set out the alternative in Elpis Israel in 1848.",
+     "other": "the churches (Christian churches generally)",
+     "other_id": null,
+     "other_id_note": "generic; no census movement",
+     "other_era": null,
+     "claim": "Thomas judged church teaching to be later additions",
+     "other_names_it": null,
+     "other_sentence": null
+    },
+    {
+     "field": "longDescription",
+     "sentence": "And in 1864 adopted the name Christadelphians, brothers of Christ, largely so they could claim conscientious-objector status in the American Civil War.",
+     "other": "American Civil War (state)",
+     "other_id": null,
+     "other_id_note": "state/war; not census",
+     "other_era": null,
+     "claim": "Name taken to claim conscientious-objector status in the Civil War",
+     "other_names_it": null,
+     "other_sentence": null
+    },
+    {
+     "field": "why",
+     "sentence": "His followers organized into small congregations called ecclesias, with no clergy and members teaching and presiding in turn, and in 1864 took the name Christadelphians largely so they could claim conscientious-objector status in the American Civil War.",
+     "other": "American Civil War (state)",
+     "other_id": null,
+     "other_id_note": "state/war; not census",
+     "other_era": null,
+     "claim": "Name taken to claim conscientious-objector status in the Civil War",
+     "other_names_it": null,
+     "other_sentence": null
+    },
+    {
+     "field": "why",
+     "sentence": "John Thomas, an English doctor who survived a shipwreck on his way to America in 1832, resolved to work out the Bible's teaching for himself rather than take it on any church's authority, and set it out in Elpis Israel in 1848.",
+     "other": "any church (church authority generally)",
+     "other_id": null,
+     "other_id_note": "generic; no census movement",
+     "other_era": null,
+     "claim": "Thomas rejected church authority for his own reading of the Bible",
+     "other_names_it": null,
+     "other_sentence": null
+    },
+    {
+     "field": "legacy",
+     "sentence": "Christadelphians were among the recognized objectors in both world wars, and their case files are part of the legal record of conscience in Britain and the United States.",
+     "other": "British and US states (conscientious-objector records)",
+     "other_id": null,
+     "other_id_note": "state; not census",
+     "other_era": null,
+     "claim": "Christadelphian objectors recorded in British and US legal records",
+     "other_names_it": null,
+     "other_sentence": null
+    }
+   ],
+   "hygiene": [
+    "relationsSummary is the placeholder \"-\" (empty, not public text)"
+   ]
+  },
+  {
+   "id": "oneida-community",
+   "name": "Oneida Community",
+   "dates": "1848-1881",
+   "existing_links": [],
+   "relationships": [
+    {
+     "field": "longDescription",
+     "sentence": "Outside campaigning and internal strain finished it.",
+     "other": "outside campaigning (public opposition)",
+     "other_id": null,
+     "other_id_note": "generic; not census",
+     "other_era": null,
+     "claim": "Outside campaigning helped end the community",
+     "other_names_it": null,
+     "other_sentence": null
+    },
+    {
+     "field": "why",
+     "sentence": "Under outside pressure Noyes left for Canada in 1879, and in 1881 the community voted itself out of existence and became a joint-stock company instead.",
+     "other": "outside pressure (public and government)",
+     "other_id": null,
+     "other_id_note": "generic; not census",
+     "other_era": null,
+     "claim": "Outside pressure drove Noyes away and the community to a company",
+     "other_names_it": null,
+     "other_sentence": null
+    },
+    {
+     "field": "legacy",
+     "sentence": "Oneida Limited became one of the best-known tableware manufacturers in the world, and its flatware sat on ordinary tables for generations without the faintest hint of where it came from.",
+     "other": "Oneida Limited (joint-stock company successor)",
+     "other_id": null,
+     "other_id_note": "company; not a census entry",
+     "other_era": null,
+     "claim": "Community continued as the company Oneida Limited",
+     "other_names_it": null,
+     "other_sentence": null
+    },
+    {
+     "field": "legacy",
+     "sentence": "As a religious body it left nothing — no successor community, no continuing church, no doctrinal descendants.",
+     "other": "successor communities, continuing church, doctrinal descendants (none)",
+     "other_id": null,
+     "other_id_note": "negative claim; no census entry",
+     "other_era": null,
+     "claim": "Oneida left no successor religious community or doctrinal descendants",
+     "other_names_it": null,
+     "other_sentence": null
+    }
+   ],
+   "hygiene": [
+    "relationsSummary is the placeholder \"-\" (empty, not public text)"
+   ]
+  },
+  {
+   "id": "spiritualism-new-thought",
+   "name": "Spiritualism / New Thought",
+   "dates": "1848-1906",
+   "existing_links": [],
+   "relationships": [
+    {
+     "field": "longDescription",
+     "sentence": "A family of teachers descended from the Maine healer Phineas Quimby who held that mind governs matter and that right thinking heals.",
+     "other": "Phineas Quimby (Maine healer)",
+     "other_id": null,
+     "other_id_note": "person; not a census movement",
+     "other_era": null,
+     "claim": "New Thought descended from Quimby",
+     "other_names_it": null,
+     "other_sentence": null
+    },
+    {
+     "field": "longDescription",
+     "sentence": "Both borrowed Christian vocabulary heavily and grew in the same nineteenth-century soil as the revivals, but neither is a Christian tradition; they are named here only because visitors reasonably ask where they fit.",
+     "other": "the revivals (generic)",
+     "other_id": null,
+     "other_id_note": "\"the revivals\" not named; census second-great-awakening entry not matched",
+     "other_era": null,
+     "claim": "Spiritualism and New Thought grew in the same soil as the revivals",
+     "other_names_it": null,
+     "other_sentence": null
+    },
+    {
+     "field": "longDescription",
+     "sentence": "Both borrowed Christian vocabulary heavily and grew in the same nineteenth-century soil as the revivals, but neither is a Christian tradition; they are named here only because visitors reasonably ask where they fit.",
+     "other": "Christian vocabulary (Christianity generally)",
+     "other_id": null,
+     "other_id_note": "generic; no census movement",
+     "other_era": null,
+     "claim": "Both borrowed heavily from Christian vocabulary",
+     "other_names_it": null,
+     "other_sentence": null
+    },
+    {
+     "field": "longDescription",
+     "sentence": "Spiritualism's public credibility took a heavy blow in 1888, when Margaret Fox declared before an audience in New York that she and her sister had produced the original raps by cracking their toe joints — a confession she withdrew a year later.",
+     "other": "Margaret Fox (medium)",
+     "other_id": null,
+     "other_id_note": "person; not a census movement",
+     "other_era": null,
+     "claim": "Fox confessed in 1888 to producing the raps by cracking toe joints",
+     "other_names_it": null,
+     "other_sentence": null
+    },
+    {
+     "field": "why",
+     "sentence": "Both movements borrowed heavily from Christian vocabulary but grew up alongside the churches rather than inside them, and neither teaches specifically Christian doctrine.",
+     "other": "the churches (generic)",
+     "other_id": null,
+     "other_id_note": "generic; no census movement",
+     "other_era": null,
+     "claim": "Both grew alongside the churches, not inside them",
+     "other_names_it": null,
+     "other_sentence": null
+    },
+    {
+     "field": "why",
+     "sentence": "Running alongside it was New Thought, a family of teachers descended from the Maine healer Phineas Quimby who held that right thinking heals.",
+     "other": "Phineas Quimby (Maine healer)",
+     "other_id": null,
+     "other_id_note": "person; not a census movement",
+     "other_era": null,
+     "claim": "New Thought descended from Quimby",
+     "other_names_it": null,
+     "other_sentence": null
+    },
+    {
+     "field": "legacy",
+     "sentence": "Spiritualist churches still exist in Britain and the United States, and the effort to test their claims scientifically produced the Society for Psychical Research in 1882 and, indirectly, a whole field of investigation.",
+     "other": "Society for Psychical Research (1882)",
+     "other_id": null,
+     "other_id_note": "institution; not a census entry",
+     "other_era": null,
+     "claim": "Testing the claims produced the Society for Psychical Research",
+     "other_names_it": null,
+     "other_sentence": null
+    },
+    {
+     "field": "legacy",
+     "sentence": "New Thought became ongoing denominations — Unity, Religious Science and their relatives — but its far larger legacy escaped religion altogether.",
+     "other": "Unity and Religious Science (denominations)",
+     "other_id": null,
+     "other_id_note": "not a census entry",
+     "other_era": null,
+     "claim": "New Thought became Unity, Religious Science and relatives",
+     "other_names_it": null,
+     "other_sentence": null
+    },
+    {
+     "field": "legacy",
+     "sentence": "Its language of mind over circumstance runs straight into twentieth-century positive-thinking, self-help and prosperity literature read by millions who have never heard of Quimby.",
+     "other": "positive-thinking, self-help and prosperity literature",
+     "other_id": null,
+     "other_id_note": "not a census entry",
+     "other_era": null,
+     "claim": "New Thought language runs into positive-thinking literature",
+     "other_names_it": null,
+     "other_sentence": null
+    }
+   ],
+   "hygiene": [
+    "relationsSummary is the placeholder \"-\" (empty, not public text)"
+   ]
+  },
+  {
+   "id": "korean-catholic-origins",
+   "name": "Korean Catholic Origins",
+   "dates": "1784-1886",
+   "existing_links": [],
+   "relationships": [
+    {
+     "field": "relationsSummary",
+     "sentence": "It stands as a precursor to the Protestant missions that later took root in Korea.",
+     "other": "Protestant missions in Korea",
+     "other_id": null,
+     "other_id_note": "Protestant lane excluded from this part; no census entry matched",
+     "other_era": null,
+     "claim": "Korean Catholic origins are a precursor to Protestant missions",
+     "other_names_it": null,
+     "other_sentence": null
+    },
+    {
+     "field": "longDescription",
+     "sentence": "In the late eighteenth century a circle of Confucian scholars near Seoul studied Chinese-language Catholic books, convinced themselves, and sent one of their number, Yi Sung-hun, to Beijing to be baptized in 1784.",
+     "other": "Yi Sung-hun and Beijing baptism",
+     "other_id": null,
+     "other_id_note": "person and place; not census",
+     "other_era": null,
+     "claim": "Yi was sent to Beijing to be baptized",
+     "other_names_it": null,
+     "other_sentence": null
+    },
+    {
+     "field": "longDescription",
+     "sentence": "The Choson state read it as treason against the Confucian order, and the church spent a century under persecution, with something on the order of ten thousand Korean Catholics killed in successive purges between 1801 and 1866, until a treaty with France in 1886 finally brought the killing to an end.",
+     "other": "Choson state",
+     "other_id": null,
+     "other_id_note": "state; not census",
+     "other_era": null,
+     "claim": "Choson state treated the church as treason and persecuted it",
+     "other_names_it": null,
+     "other_sentence": null
+    },
+    {
+     "field": "longDescription",
+     "sentence": "The Choson state read it as treason against the Confucian order, and the church spent a century under persecution, with something on the order of ten thousand Korean Catholics killed in successive purges between 1801 and 1866, until a treaty with France in 1886 finally brought the killing to an end.",
+     "other": "France (1886 treaty)",
+     "other_id": null,
+     "other_id_note": "state; not census",
+     "other_era": null,
+     "claim": "1886 treaty with France ended the killing",
+     "other_names_it": null,
+     "other_sentence": null
+    },
+    {
+     "field": "why",
+     "sentence": "The Choson state read it as treason against the Confucian order, and roughly ten thousand Korean Catholics were killed in successive purges between 1801 and 1866.",
+     "other": "Choson state",
+     "other_id": null,
+     "other_id_note": "state; not census",
+     "other_era": null,
+     "claim": "Choson state persecuted the church",
+     "other_names_it": null,
+     "other_sentence": null
+    },
+    {
+     "field": "legacy",
+     "sentence": "In 1984 Pope John Paul II canonized 103 of its martyrs in Seoul itself rather than in Rome, and further beatifications followed in 2014.",
+     "other": "Catholic Church (papacy)",
+     "other_id": null,
+     "other_id_note": "institution; census catholic-church-long-nineteenth-century (1815-1906) does not cover 1984",
+     "other_era": null,
+     "claim": "Papacy canonized martyrs in 1984",
+     "other_names_it": null,
+     "other_sentence": null
+    }
+   ],
+   "hygiene": []
+  },
+  {
+   "id": "orthodoxy-after-1821-balkan-autocephalies",
+   "name": "Orthodoxy after 1821 — the National Churches",
+   "dates": "1821-1906",
+   "existing_links": [],
+   "relationships": [
+    {
+     "field": "relationsSummary",
+     "sentence": "The hanging of Patriarch Gregory V in 1821 opened the break-up of a single Ottoman-era Orthodox community into national churches: Greek autocephaly (declared 1833, recognized by the Tomos of 1850), the Bulgarian Exarchate (1870), and recognition for Serbia (1879) and Romania (1885).",
+     "other": "single Ottoman-era Orthodox community",
+     "other_id": "orthodoxy-under-the-ottomans-1650-1821",
+     "other_id_note": "census \"Orthodoxy under the Ottomans — the Second Act\" (era 8, 1650-1821)",
+     "other_era": 8,
+     "claim": "The 1821 hanging opened the break-up of the single Ottoman-era Orthodox community",
+     "other_names_it": true,
+     "other_sentence": "It ended violently — when the Greek revolt broke out in 1821, Patriarch Gregory V was hanged in his vestments from the gate of his own patriarchate."
+    },
+    {
+     "field": "relationsSummary",
+     "sentence": "The hanging of Patriarch Gregory V in 1821 opened the break-up of a single Ottoman-era Orthodox community into national churches: Greek autocephaly (declared 1833, recognized by the Tomos of 1850), the Bulgarian Exarchate (1870), and recognition for Serbia (1879) and Romania (1885).",
+     "other": "Bulgarian Exarchate",
+     "other_id": null,
+     "other_id_note": "national church; not census",
+     "other_era": null,
+     "claim": "Bulgarian Exarchate created as a national church",
+     "other_names_it": null,
+     "other_sentence": null
+    },
+    {
+     "field": "relationsSummary",
+     "sentence": "The hanging of Patriarch Gregory V in 1821 opened the break-up of a single Ottoman-era Orthodox community into national churches: Greek autocephaly (declared 1833, recognized by the Tomos of 1850), the Bulgarian Exarchate (1870), and recognition for Serbia (1879) and Romania (1885).",
+     "other": "Church of Greece (Greek autocephaly)",
+     "other_id": null,
+     "other_id_note": "national church; not census",
+     "other_era": null,
+     "claim": "Greek church became autocephalous",
+     "other_names_it": null,
+     "other_sentence": null
+    },
+    {
+     "field": "relationsSummary",
+     "sentence": "The hanging of Patriarch Gregory V in 1821 opened the break-up of a single Ottoman-era Orthodox community into national churches: Greek autocephaly (declared 1833, recognized by the Tomos of 1850), the Bulgarian Exarchate (1870), and recognition for Serbia (1879) and Romania (1885).",
+     "other": "Serbian and Romanian national churches",
+     "other_id": null,
+     "other_id_note": "national churches; not census",
+     "other_era": null,
+     "claim": "Serbia and Romania recognized as national churches",
+     "other_names_it": null,
+     "other_sentence": null
+    },
+    {
+     "field": "relationsSummary",
+     "sentence": "A council in 1872 condemned phyletism, organizing churches by nationality rather than place, even as the practice went on spreading.",
+     "other": "council of 1872 (Constantinople)",
+     "other_id": null,
+     "other_id_note": "council; not census",
+     "other_era": null,
+     "claim": "The 1872 council condemned phyletism",
+     "other_names_it": null,
+     "other_sentence": null
+    },
+    {
+     "field": "longDescription",
+     "sentence": "Under Ottoman rule the Orthodox of the Balkans had been governed as a single religious community answering to the Patriarch of Constantinople.",
+     "other": "Patriarch of Constantinople; Ottoman rule",
+     "other_id": "orthodoxy-under-the-ottomans-1650-1821",
+     "other_id_note": "Ottoman-era Orthodox community; census era-8 entry",
+     "other_era": 8,
+     "claim": "Balkan Orthodox were governed as one community under the Patriarch of Constantinople",
+     "other_names_it": true,
+     "other_sentence": "For a century and a half after 1650 the Orthodox church of the Ottoman Empire was both a church and an arm of the state: the Ecumenical Patriarch in Constantinople answered to the Sultan for the obedience of all Orthodox subjects, collected their taxes and judged their marriages and inheritances."
+    },
+    {
+     "field": "longDescription",
+     "sentence": "The Greek revolt of 1821 — which opened with the hanging of Patriarch Gregory V at the gate of his own residence — broke that arrangement apart, and as each new nation won independence its church claimed self-government.",
+     "other": "Greek revolt of 1821",
+     "other_id": null,
+     "other_id_note": "event; not census",
+     "other_era": null,
+     "claim": "The Greek revolt broke the arrangement apart",
+     "other_names_it": null,
+     "other_sentence": null
+    },
+    {
+     "field": "longDescription",
+     "sentence": "Greece declared its church self-governing in 1833 and was formally recognized by Constantinople in 1850, Bulgaria won an imperial decree creating a national exarchate in 1870, Serbia was recognized in 1879 and Romania in 1885.",
+     "other": "Patriarchate of Constantinople",
+     "other_id": null,
+     "other_id_note": "institution; no census entry covers it for this period",
+     "other_era": null,
+     "claim": "Constantinople recognized the Greek church in 1850",
+     "other_names_it": null,
+     "other_sentence": null
+    },
+    {
+     "field": "longDescription",
+     "sentence": "In 1872 a council at Constantinople condemned phyletism — organizing the church by ethnic nation rather than by place — even as national churches went on multiplying anyway.",
+     "other": "council of 1872 (Constantinople)",
+     "other_id": null,
+     "other_id_note": "council; not census",
+     "other_era": null,
+     "claim": "The 1872 council condemned phyletism",
+     "other_names_it": null,
+     "other_sentence": null
+    },
+    {
+     "field": "why",
+     "sentence": "The Greek revolt of 1821 began with the hanging of the Patriarch of Constantinople at his own gate, and by the century's end Greece, Bulgaria, Serbia and Romania had each won their own self-governing church.",
+     "other": "Greek revolt of 1821",
+     "other_id": null,
+     "other_id_note": "event; not census",
+     "other_era": null,
+     "claim": "The 1821 revolt began with the Patriarch's hanging",
+     "other_names_it": null,
+     "other_sentence": null
+    },
+    {
+     "field": "why",
+     "sentence": "The Greek revolt of 1821 began with the hanging of the Patriarch of Constantinople at his own gate, and by the century's end Greece, Bulgaria, Serbia and Romania had each won their own self-governing church.",
+     "other": "Greece, Bulgaria, Serbia and Romania (national churches)",
+     "other_id": null,
+     "other_id_note": "national churches; not census",
+     "other_era": null,
+     "claim": "Four nations each won a self-governing church",
+     "other_names_it": null,
+     "other_sentence": null
+    },
+    {
+     "field": "why",
+     "sentence": "In 1872 a council at Constantinople condemned the practice of organizing churches by nationality rather than by place, even as it kept happening anyway.",
+     "other": "council of 1872 (Constantinople)",
+     "other_id": null,
+     "other_id_note": "council; not census",
+     "other_era": null,
+     "claim": "The 1872 council condemned organizing churches by nationality",
+     "other_names_it": null,
+     "other_sentence": null
+    },
+    {
+     "field": "legacy",
+     "sentence": "These are the churches that make up Orthodoxy today: the Church of Greece and the Bulgarian, Serbian and Romanian patriarchates all date their modern independence to this century, and the pattern they set — a self-governing church per nation — became the normal shape of the Orthodox world.",
+     "other": "Church of Greece; Bulgarian, Serbian and Romanian patriarchates",
+     "other_id": null,
+     "other_id_note": "national churches; not census",
+     "other_era": null,
+     "claim": "Modern national churches descend from this century",
+     "other_names_it": null,
+     "other_sentence": null
+    },
+    {
+     "field": "legacy",
+     "sentence": "Wherever Orthodox jurisdictions overlap on the same ground, as they do throughout the diaspora, the question of whether a church is defined by place or by people comes straight back.",
+     "other": "Orthodox diaspora jurisdictions",
+     "other_id": null,
+     "other_id_note": "generic; not census",
+     "other_era": null,
+     "claim": "Place-or-people question returns in the diaspora",
+     "other_names_it": null,
+     "other_sentence": null
+    }
+   ],
+   "hygiene": []
+  },
+  {
+   "id": "catholic-church-long-nineteenth-century",
+   "name": "The Catholic Church of the Long Nineteenth Century",
+   "dates": "1815-1906",
+   "existing_links": [],
+   "relationships": [
+    {
+     "field": "relationsSummary",
+     "sentence": "From Gregory XVI to Leo XIII, this era saw Pius IX define the Immaculate Conception in 1854, issue the Syllabus of Errors, and see the First Vatican Council define papal infallibility, followed by the end of the Papal States.",
+     "other": "First Vatican Council",
+     "other_id": null,
+     "other_id_note": "council; not census",
+     "other_era": null,
+     "claim": "Vatican I defined papal infallibility",
+     "other_names_it": null,
+     "other_sentence": null
+    },
+    {
+     "field": "relationsSummary",
+     "sentence": "Leo XIII faced the Kulturkampf in Germany and issued Rerum Novarum.",
+     "other": "Kulturkampf (German state)",
+     "other_id": null,
+     "other_id_note": "state; not census",
+     "other_era": null,
+     "claim": "Leo XIII faced the Kulturkampf in Germany",
+     "other_names_it": null,
+     "other_sentence": null
+    },
+    {
+     "field": "relationsSummary",
+     "sentence": "The century also saw the Marian apparitions at Lourdes and a broader wave of devotion to Rome, alongside the growth of missionary Catholicism, the Catholic immigrant church in the United States, and the restoration of the Catholic hierarchy in England in 1850.",
+     "other": "Catholic hierarchy in England",
+     "other_id": null,
+     "other_id_note": "not a census movement",
+     "other_era": null,
+     "claim": "Catholic hierarchy restored in England in 1850",
+     "other_names_it": null,
+     "other_sentence": null
+    },
+    {
+     "field": "relationsSummary",
+     "sentence": "The century also saw the Marian apparitions at Lourdes and a broader wave of devotion to Rome, alongside the growth of missionary Catholicism, the Catholic immigrant church in the United States, and the restoration of the Catholic hierarchy in England in 1850.",
+     "other": "Catholic immigrant church in the United States",
+     "other_id": null,
+     "other_id_note": "not a census movement",
+     "other_era": null,
+     "claim": "Catholic immigrant church grew in the United States",
+     "other_names_it": null,
+     "other_sentence": null
+    },
+    {
+     "field": "longDescription",
+     "sentence": "Weeks before Italian troops entered Rome and ended the Papal States.",
+     "other": "Kingdom of Italy (troops)",
+     "other_id": null,
+     "other_id_note": "state; not census",
+     "other_era": null,
+     "claim": "Italian troops ended the Papal States",
+     "other_names_it": null,
+     "other_sentence": null
+    },
+    {
+     "field": "legacy",
+     "sentence": "The century also left a fracture line, in the Catholics who could not accept 1870 and became the Old Catholics, and a set of questions the church would only take up again at the Second Vatican Council.",
+     "other": "Old Catholic Churches",
+     "other_id": "old-catholic-churches-union-of-utrecht",
+     "other_id_note": "census \"The Old Catholic Churches — Utrecht to the Union\" (era 9, part 2)",
+     "other_era": 9,
+     "claim": "Catholic fracture line produced the Old Catholics",
+     "other_names_it": true,
+     "other_sentence": "Formed when German, Swiss and Austrian Catholics rejected the First Vatican Council's definition of papal infallibility."
+    },
+    {
+     "field": "legacy",
+     "sentence": "The century also left a fracture line, in the Catholics who could not accept 1870 and became the Old Catholics, and a set of questions the church would only take up again at the Second Vatican Council.",
+     "other": "Second Vatican Council",
+     "other_id": null,
+     "other_id_note": "council; not census",
+     "other_era": null,
+     "claim": "Questions taken up again at Vatican II",
+     "other_names_it": null,
+     "other_sentence": null
+    }
+   ],
+   "hygiene": []
+  },
+  {
+   "id": "russian-church-synodal-century",
+   "name": "The Russian Church — the Synodal Century",
+   "dates": "1815-1906",
+   "existing_links": [],
+   "relationships": [
+    {
+     "field": "relationsSummary",
+     "sentence": "Governed under Metropolitan Filaret of Moscow and, later, the state-appointed ober-procurator Konstantin Pobedonostsev.",
+     "other": "Konstantin Pobedonostsev (ober-procurator)",
+     "other_id": null,
+     "other_id_note": "person; not a census movement",
+     "other_era": null,
+     "claim": "Pobedonostsev governed the church as ober-procurator",
+     "other_names_it": null,
+     "other_sentence": null
+    },
+    {
+     "field": "relationsSummary",
+     "sentence": "The Optina elders' renewal movement grew within this church, and Alaska was one of its missions.",
+     "other": "Optina elders' renewal movement",
+     "other_id": "the-optina-elders-and-russian-ascetic-renewal",
+     "other_id_note": "census \"The Optina Elders & Russian Ascetic Renewal\" (era 9, part 2)",
+     "other_era": 9,
+     "claim": "Optina renewal grew within the Russian Church",
+     "other_names_it": true,
+     "other_sentence": "Its spirituality carried forward into twentieth-century émigré Orthodox theology, as a renewal movement within the wider Russian Orthodox Church of the same era."
+    },
+    {
+     "field": "relationsSummary",
+     "sentence": "The Optina elders' renewal movement grew within this church, and Alaska was one of its missions.",
+     "other": "Alaska mission",
+     "other_id": "alaskan-mission-herman-veniaminov",
+     "other_id_note": "census \"The Alaskan Mission — Herman's Decades & Veniaminov\" (era 9, part 2)",
+     "other_era": 9,
+     "claim": "Alaska was a mission of the Russian Church",
+     "other_names_it": true,
+     "other_sentence": "Russian Orthodoxy reached Alaska with the fur trade, and two very different men made it stay."
+    },
+    {
+     "field": "relationsSummary",
+     "sentence": "Sent missions to the Altai peoples and to Japan (from 1861, under Nikolai), and reached the 1905 toleration edict that opened the way to the council that restored the patriarchate.",
+     "other": "Altai peoples",
+     "other_id": null,
+     "other_id_note": "people; not a census movement",
+     "other_era": null,
+     "claim": "Russian Church sent a mission to the Altai peoples",
+     "other_names_it": null,
+     "other_sentence": null
+    },
+    {
+     "field": "relationsSummary",
+     "sentence": "Sent missions to the Altai peoples and to Japan (from 1861, under Nikolai), and reached the 1905 toleration edict that opened the way to the council that restored the patriarchate.",
+     "other": "Japan (Nikolai's Russian mission)",
+     "other_id": "japanese-christianity-hidden-emergence-meiji",
+     "other_id_note": "census \"Japanese Christianity — the Hidden Christians’ Emergence & the Meiji Church\" (era 9, part 2)",
+     "other_era": 9,
+     "claim": "Russian Church sent a mission to Japan from 1861 under Nikolai",
+     "other_names_it": true,
+     "other_sentence": "Catholic parishes rebuilt around the emerging hidden communities, Protestant bands of samurai-class students at Yokohama, Kumamoto and Sapporo, and a Russian Orthodox mission that Nikolai of Japan had begun in 1861 and staffed largely with Japanese clergy."
+    },
+    {
+     "field": "relationsSummary",
+     "sentence": "It stood in tension with the separate Old Believer Belokrinitsa hierarchy, founded in 1846, and with the evangelical Stundist movement that broke from it.",
+     "other": "Old Believer Belokrinitsa hierarchy (1846)",
+     "other_id": null,
+     "other_id_note": "founded 1846; census the-old-believers (era 8) ends 1815; not matched",
+     "other_era": null,
+     "claim": "Russian Church stood in tension with the Belokrinitsa hierarchy",
+     "other_names_it": null,
+     "other_sentence": null
+    },
+    {
+     "field": "relationsSummary",
+     "sentence": "It stood in tension with the separate Old Believer Belokrinitsa hierarchy, founded in 1846, and with the evangelical Stundist movement that broke from it.",
+     "other": "Stundist movement (Russian Evangelicals)",
+     "other_id": "russian-evangelicals-stundists",
+     "other_id_note": "census \"Russian Evangelicals — Stundists to the Baptist Union\" (era 9, part 1)",
+     "other_era": 9,
+     "claim": "Russian Church stood in tension with the Stundists, who broke from it",
+     "other_names_it": true,
+     "other_sentence": "Persecuted under the ober-procurator Konstantin Pobedonostsev, and in tension with the Russian Orthodox Church of the same era."
+    },
+    {
+     "field": "longDescription",
+     "sentence": "Monasteries and their elders drew crowds, and a parish priest, John of Kronstadt, became the most sought-after confessor in the empire.",
+     "other": "Monasteries and their elders (Optina)",
+     "other_id": "the-optina-elders-and-russian-ascetic-renewal",
+     "other_id_note": "census \"The Optina Elders & Russian Ascetic Renewal\" (era 9, part 2)",
+     "other_era": 9,
+     "claim": "Monasteries and elders drew crowds within the Russian Church",
+     "other_names_it": true,
+     "other_sentence": "Peasants, students, landowners and novelists queued outside the cell of Father Ambrose, and the elders who could not see everyone answered by letter, leaving thousands of pages of spiritual direction addressed not to monks but to ordinary people trying to live ordinary lives."
+    },
+    {
+     "field": "longDescription",
+     "sentence": "Missions went out to the Altai peoples, to Alaska and to Japan.",
+     "other": "Alaska mission",
+     "other_id": "alaskan-mission-herman-veniaminov",
+     "other_id_note": "census \"The Alaskan Mission\" (era 9, part 2)",
+     "other_era": 9,
+     "claim": "Missions went out to Alaska",
+     "other_names_it": true,
+     "other_sentence": "Russian Orthodoxy reached Alaska with the fur trade, and two very different men made it stay."
+    },
+    {
+     "field": "longDescription",
+     "sentence": "Missions went out to the Altai peoples, to Alaska and to Japan.",
+     "other": "Japan (Nikolai's Russian mission)",
+     "other_id": "japanese-christianity-hidden-emergence-meiji",
+     "other_id_note": "census \"Japanese Christianity\" (era 9, part 2)",
+     "other_era": 9,
+     "claim": "Missions went out to Japan",
+     "other_names_it": true,
+     "other_sentence": "Catholic parishes rebuilt around the emerging hidden communities, Protestant bands of samurai-class students at Yokohama, Kumamoto and Sapporo, and a Russian Orthodox mission that Nikolai of Japan had begun in 1861 and staffed largely with Japanese clergy."
+    },
+    {
+     "field": "longDescription",
+     "sentence": "But under Konstantin Pobedonostsev, ober-procurator for a quarter-century, the church was also the instrument of a policy of religious uniformity that pressed hard on Old Believers, Eastern Catholics and evangelicals alike.",
+     "other": "Old Believers",
+     "other_id": null,
+     "other_id_note": "census the-old-believers (era 8) ends 1815; not matched",
+     "other_era": null,
+     "claim": "Uniformity policy pressed hard on Old Believers",
+     "other_names_it": null,
+     "other_sentence": null
+    },
+    {
+     "field": "longDescription",
+     "sentence": "But under Konstantin Pobedonostsev, ober-procurator for a quarter-century, the church was also the instrument of a policy of religious uniformity that pressed hard on Old Believers, Eastern Catholics and evangelicals alike.",
+     "other": "Eastern Catholics (Ruthenian Greek Catholic Church)",
+     "other_id": "ruthenian-greek-catholic-polotsk-to-galicia",
+     "other_id_note": "census \"The Ruthenian Greek Catholic Church — Polotsk to Galicia\" (era 9, part 2)",
+     "other_era": 9,
+     "claim": "Uniformity policy pressed hard on Eastern Catholics",
+     "other_names_it": true,
+     "other_sentence": "At the Synod of Polotsk in February 1839, bishops led by Joseph Semashko declared their church reunited with Russian Orthodoxy, and roughly a million and a half people were transferred with a stroke of the pen."
+    },
+    {
+     "field": "longDescription",
+     "sentence": "But under Konstantin Pobedonostsev, ober-procurator for a quarter-century, the church was also the instrument of a policy of religious uniformity that pressed hard on Old Believers, Eastern Catholics and evangelicals alike.",
+     "other": "evangelicals (generic)",
+     "other_id": null,
+     "other_id_note": "generic; the Stundists are matched separately in this entry",
+     "other_era": null,
+     "claim": "Uniformity policy pressed hard on evangelicals",
+     "other_names_it": null,
+     "other_sentence": null
+    },
+    {
+     "field": "longDescription",
+     "sentence": "When toleration was finally decreed in 1905, the church immediately began preparing the council that would give it back its own head.",
+     "other": "Moscow Council (1917-18)",
+     "other_id": null,
+     "other_id_note": "council; not census",
+     "other_era": null,
+     "claim": "Church prepared the council that restored its head",
+     "other_names_it": null,
+     "other_sentence": null
+    },
+    {
+     "field": "why",
+     "sentence": "Metropolitan Filaret spent decades pushing through a Russian-language Bible against long resistance, finished in 1876, while later the ober-procurator Konstantin Pobedonostsev used the same church to enforce religious uniformity on Old Believers, Eastern Catholics and evangelicals alike.",
+     "other": "Old Believers",
+     "other_id": null,
+     "other_id_note": "census the-old-believers (era 8) ends 1815; not matched",
+     "other_era": null,
+     "claim": "Uniformity policy enforced on Old Believers",
+     "other_names_it": null,
+     "other_sentence": null
+    },
+    {
+     "field": "why",
+     "sentence": "Metropolitan Filaret spent decades pushing through a Russian-language Bible against long resistance, finished in 1876, while later the ober-procurator Konstantin Pobedonostsev used the same church to enforce religious uniformity on Old Believers, Eastern Catholics and evangelicals alike.",
+     "other": "Eastern Catholics (Ruthenian Greek Catholic Church)",
+     "other_id": "ruthenian-greek-catholic-polotsk-to-galicia",
+     "other_id_note": "census era-9 part 2 entry",
+     "other_era": 9,
+     "claim": "Uniformity policy enforced on Eastern Catholics",
+     "other_names_it": true,
+     "other_sentence": "At the Synod of Polotsk in February 1839, bishops led by Joseph Semashko declared their church reunited with Russian Orthodoxy, and roughly a million and a half people were transferred with a stroke of the pen."
+    },
+    {
+     "field": "legacy",
+     "sentence": "The Bible Filaret fought for is still the Russian Orthodox Church's standard translation, and the missionary churches begun in this period — in Japan, in Alaska — are still there.",
+     "other": "Japan",
+     "other_id": "japanese-christianity-hidden-emergence-meiji",
+     "other_id_note": "census era-9 part 2 entry",
+     "other_era": 9,
+     "claim": "Japanese mission church still there",
+     "other_names_it": true,
+     "other_sentence": "Catholic parishes rebuilt around the emerging hidden communities, Protestant bands of samurai-class students at Yokohama, Kumamoto and Sapporo, and a Russian Orthodox mission that Nikolai of Japan had begun in 1861 and staffed largely with Japanese clergy."
+    },
+    {
+     "field": "legacy",
+     "sentence": "The Bible Filaret fought for is still the Russian Orthodox Church's standard translation, and the missionary churches begun in this period — in Japan, in Alaska — are still there.",
+     "other": "Alaska",
+     "other_id": "alaskan-mission-herman-veniaminov",
+     "other_id_note": "census era-9 part 2 entry",
+     "other_era": 9,
+     "claim": "Alaskan mission church still there",
+     "other_names_it": true,
+     "other_sentence": "Russian Orthodoxy reached Alaska with the fur trade, and two very different men made it stay."
+    },
+    {
+     "field": "legacy",
+     "sentence": "The preparatory work of 1905-06 became the Moscow Council of 1917-18, which restored the patriarchate just as the revolution arrived that would try to destroy it.",
+     "other": "Moscow Council (1917-18)",
+     "other_id": null,
+     "other_id_note": "council; not census",
+     "other_era": null,
+     "claim": "Preparatory work became the Moscow Council",
+     "other_names_it": null,
+     "other_sentence": null
+    }
+   ],
+   "hygiene": []
+  },
+  {
+   "id": "armenian-christianity-zartonk",
+   "name": "Armenian Christianity — the Zartonk Century",
+   "dates": "1815-1906",
+   "existing_links": [],
+   "relationships": [
+    {
+     "field": "relationsSummary",
+     "sentence": "Converts of American missionaries were expelled from the Apostolic Church and organized as the Armenian Evangelical Church in 1846, recognized by the Ottoman state as a separate Protestant community in 1850.",
+     "other": "American missionaries",
+     "other_id": null,
+     "other_id_note": "not a census entry",
+     "other_era": null,
+     "claim": "Converts of American missionaries were expelled from the Apostolic Church",
+     "other_names_it": null,
+     "other_sentence": null
+    },
+    {
+     "field": "relationsSummary",
+     "sentence": "Converts of American missionaries were expelled from the Apostolic Church and organized as the Armenian Evangelical Church in 1846, recognized by the Ottoman state as a separate Protestant community in 1850.",
+     "other": "Armenian Evangelical Church (1846)",
+     "other_id": null,
+     "other_id_note": "Protestant lane excluded; no census entry",
+     "other_era": null,
+     "claim": "Expelled converts organized the Armenian Evangelical Church",
+     "other_names_it": null,
+     "other_sentence": null
+    },
+    {
+     "field": "relationsSummary",
+     "sentence": "Converts of American missionaries were expelled from the Apostolic Church and organized as the Armenian Evangelical Church in 1846, recognized by the Ottoman state as a separate Protestant community in 1850.",
+     "other": "Ottoman state",
+     "other_id": null,
+     "other_id_note": "state; not census",
+     "other_era": null,
+     "claim": "Ottoman state recognized the Evangelical Church in 1850",
+     "other_names_it": null,
+     "other_sentence": null
+    },
+    {
+     "field": "relationsSummary",
+     "sentence": "The century ended in the Hamidian massacres of 1894-96.",
+     "other": "Hamidian massacres (Ottoman state)",
+     "other_id": null,
+     "other_id_note": "event; not census",
+     "other_era": null,
+     "claim": "The century ended in the Hamidian massacres",
+     "other_names_it": null,
+     "other_sentence": null
+    },
+    {
+     "field": "longDescription",
+     "sentence": "The century also divided the community: converts of American missionaries were expelled from the Apostolic Church and organized as the Armenian Evangelical Church in 1846, recognized by the Ottoman state as a separate Protestant community in 1850, while an Armenian Catholic patriarchate continued alongside.",
+     "other": "Armenian Catholic patriarchate",
+     "other_id": null,
+     "other_id_note": "census armenian-christianity-era-8 (c. 1700-1815) ends before this century; not matched",
+     "other_era": null,
+     "claim": "Armenian Catholic patriarchate continued alongside the Apostolic Church",
+     "other_names_it": null,
+     "other_sentence": null
+    },
+    {
+     "field": "longDescription",
+     "sentence": "Its central document is the Armenian National Constitution of 1863, which seated lay delegates in a national assembly and limited what the Patriarch of Constantinople could do alone, an unusual experiment in giving a laity formal power over its own hierarchy.",
+     "other": "Patriarch of Constantinople",
+     "other_id": null,
+     "other_id_note": "institution; not census",
+     "other_era": null,
+     "claim": "The 1863 Constitution limited the Patriarch",
+     "other_names_it": null,
+     "other_sentence": null
+    },
+    {
+     "field": "longDescription",
+     "sentence": "And it ended in blood — the Hamidian massacres of 1894-96 killed tens of thousands and emptied whole districts.",
+     "other": "Hamidian massacres (Ottoman state)",
+     "other_id": null,
+     "other_id_note": "event; not census",
+     "other_era": null,
+     "claim": "The century ended in the Hamidian massacres",
+     "other_names_it": null,
+     "other_sentence": null
+    },
+    {
+     "field": "legacy",
+     "sentence": "The Armenian Evangelical Church founded in 1846 and the Armenian Catholic Church are both still here, small and continuous.",
+     "other": "Armenian Evangelical Church",
+     "other_id": null,
+     "other_id_note": "Protestant lane excluded; not census",
+     "other_era": null,
+     "claim": "Armenian Evangelical Church continues",
+     "other_names_it": null,
+     "other_sentence": null
+    },
+    {
+     "field": "legacy",
+     "sentence": "The Armenian Evangelical Church founded in 1846 and the Armenian Catholic Church are both still here, small and continuous.",
+     "other": "Armenian Catholic Church",
+     "other_id": null,
+     "other_id_note": "census era-8 armenian-christianity-era-8 ends 1815; not matched",
+     "other_era": null,
+     "claim": "Armenian Catholic Church continues",
+     "other_names_it": null,
+     "other_sentence": null
+    },
+    {
+     "field": "legacy",
+     "sentence": "The habit of lay representation written into the 1863 constitution survived into the Apostolic Church's later governance.",
+     "other": "Armenian Apostolic Church (governance)",
+     "other_id": null,
+     "other_id_note": "institution; not census",
+     "other_era": null,
+     "claim": "Lay representation survived into Apostolic Church governance",
+     "other_names_it": null,
+     "other_sentence": null
+    },
+    {
+     "field": "legacy",
+     "sentence": "And the awakening's institutions — its schools, presses and newspapers — carried a national literature and a national self-understanding that the catastrophe of the following decade would scatter across the world but not extinguish.",
+     "other": "the catastrophe of the following decade (1915 genocide, inferred)",
+     "other_id": null,
+     "other_id_note": "text names no date; census the-armenian-church-after-the-genocide-medz-yegh (era 10) not matched; see doubts",
+     "other_era": null,
+     "claim": "The catastrophe scattered the national literature across the world",
+     "other_names_it": null,
+     "other_sentence": null
+    }
+   ],
+   "hygiene": []
+  },
+  {
+   "id": "old-catholic-churches-union-of-utrecht",
+   "name": "The Old Catholic Churches — Utrecht to the Union",
+   "dates": "1815-1906",
+   "existing_links": [],
+   "relationships": [
+    {
+     "field": "relationsSummary",
+     "sentence": "Formed when German, Swiss and Austrian Catholics rejected the First Vatican Council's definition of papal infallibility.",
+     "other": "Catholic Church",
+     "other_id": "catholic-church-long-nineteenth-century",
+     "other_id_note": "census \"The Catholic Church of the Long Nineteenth Century\" (era 9, part 2)",
+     "other_era": 9,
+     "claim": "Old Catholics formed by rupture from the Catholic Church",
+     "other_names_it": true,
+     "other_sentence": "The century also left a fracture line, in the Catholics who could not accept 1870 and became the Old Catholics, and a set of questions the church would only take up again at the Second Vatican Council."
+    },
+    {
+     "field": "relationsSummary",
+     "sentence": "Formed when German, Swiss and Austrian Catholics rejected the First Vatican Council's definition of papal infallibility.",
+     "other": "First Vatican Council",
+     "other_id": null,
+     "other_id_note": "council; not census",
+     "other_era": null,
+     "claim": "Old Catholics rejected Vatican I",
+     "other_names_it": null,
+     "other_sentence": null
+    },
+    {
+     "field": "relationsSummary",
+     "sentence": "Ignaz von Döllinger was excommunicated in 1871, and Utrecht consecrated Joseph Hubert Reinkens as the first bishop of the German Old Catholics in 1873.",
+     "other": "Catholic Church (excommunication)",
+     "other_id": "catholic-church-long-nineteenth-century",
+     "other_id_note": "census era-9 part 2 entry",
+     "other_era": 9,
+     "claim": "Döllinger excommunicated by the Catholic Church in 1871",
+     "other_names_it": false,
+     "other_sentence": null
+    },
+    {
+     "field": "relationsSummary",
+     "sentence": "Ignaz von Döllinger was excommunicated in 1871, and Utrecht consecrated Joseph Hubert Reinkens as the first bishop of the German Old Catholics in 1873.",
+     "other": "Utrecht (Church of Utrecht)",
+     "other_id": "church-of-utrecht",
+     "other_id_note": "census \"The Church of Utrecht\" (era 8, 1723-1815); the named Utrecht church, dates end before 1873",
+     "other_era": 8,
+     "claim": "Utrecht consecrated Reinkens as the first German Old Catholic bishop",
+     "other_names_it": true,
+     "other_sentence": "When the First Vatican Council defined papal infallibility in 1870, Catholics in Germany, Switzerland and Austria who rejected the definition needed bishops, and Utrecht — the one Western church with an unquestioned Catholic succession outside Rome — supplied them."
+    },
+    {
+     "field": "longDescription",
+     "sentence": "There had been a small church at Utrecht out of communion with Rome since an eighteenth-century quarrel over Jansenism left it electing its own archbishops.",
+     "other": "small church at Utrecht (Church of Utrecht)",
+     "other_id": "church-of-utrecht",
+     "other_id_note": "census \"The Church of Utrecht\" (era 8)",
+     "other_era": 8,
+     "claim": "Utrecht church was out of communion with Rome since the Jansenist quarrel",
+     "other_names_it": true,
+     "other_sentence": "This church grew out of the Jansenist quarrel: the Utrecht cathedral chapter elected Cornelius Steenoven without Rome's approval in 1723, and Dominique Varlet consecrated him in 1724."
+    },
+    {
+     "field": "longDescription",
+     "sentence": "There had been a small church at Utrecht out of communion with Rome since an eighteenth-century quarrel over Jansenism left it electing its own archbishops.",
+     "other": "Jansenism (quarrel)",
+     "other_id": null,
+     "other_id_note": "census port-royal-jansenism (era 8, 1640-1710) predates the 1723 quarrel; not matched",
+     "other_era": null,
+     "claim": "Utrecht church out of communion since Jansenist quarrel",
+     "other_names_it": null,
+     "other_sentence": null
+    },
+    {
+     "field": "longDescription",
+     "sentence": "It stayed a Dutch curiosity until 1870, when the First Vatican Council defined papal infallibility and a body of German, Swiss and Austrian Catholics — professors, priests and laypeople, with the church historian Ignaz von Dollinger at their head — refused to accept it.",
+     "other": "Catholic Church",
+     "other_id": "catholic-church-long-nineteenth-century",
+     "other_id_note": "census era-9 part 2 entry",
+     "other_era": 9,
+     "claim": "German, Swiss and Austrian Catholics broke with the Catholic Church over Vatican I",
+     "other_names_it": true,
+     "other_sentence": "The century also left a fracture line, in the Catholics who could not accept 1870 and became the Old Catholics, and a set of questions the church would only take up again at the Second Vatican Council."
+    },
+    {
+     "field": "longDescription",
+     "sentence": "Excommunicated, they needed bishops, and Utrecht had them: Joseph Hubert Reinkens was consecrated for the German Old Catholics in 1873 by a bishop of that line.",
+     "other": "Utrecht (Church of Utrecht)",
+     "other_id": "church-of-utrecht",
+     "other_id_note": "census era-8 Church of Utrecht entry",
+     "other_era": 8,
+     "claim": "Utrecht supplied bishops to the excommunicated Old Catholics",
+     "other_names_it": true,
+     "other_sentence": "When the First Vatican Council defined papal infallibility in 1870, Catholics in Germany, Switzerland and Austria who rejected the definition needed bishops, and Utrecht — the one Western church with an unquestioned Catholic succession outside Rome — supplied them."
+    },
+    {
+     "field": "longDescription",
+     "sentence": "In 1889 five bishops signed the Declaration of Utrecht, binding these churches into a union that professed the faith of the undivided church of the first thousand years and rejected the papal claims of 1870.",
+     "other": "undivided church of the first thousand years",
+     "other_id": null,
+     "other_id_note": "generic appeal; no census movement",
+     "other_era": null,
+     "claim": "Union professed the faith of the undivided church",
+     "other_names_it": null,
+     "other_sentence": null
+    },
+    {
+     "field": "why",
+     "sentence": "When German, Swiss and Austrian Catholics refused the pope's new claim to infallibility in 1870, an old Dutch church at Utrecht, out of communion with Rome since an eighteenth-century dispute but still holding valid bishops, consecrated one of their own.",
+     "other": "Utrecht (Church of Utrecht)",
+     "other_id": "church-of-utrecht",
+     "other_id_note": "census era-8 Church of Utrecht entry",
+     "other_era": 8,
+     "claim": "Utrecht church consecrated bishops for the Old Catholics",
+     "other_names_it": true,
+     "other_sentence": "When the First Vatican Council defined papal infallibility in 1870, Catholics in Germany, Switzerland and Austria who rejected the definition needed bishops, and Utrecht — the one Western church with an unquestioned Catholic succession outside Rome — supplied them."
+    },
+    {
+     "field": "why",
+     "sentence": "When German, Swiss and Austrian Catholics refused the pope's new claim to infallibility in 1870, an old Dutch church at Utrecht, out of communion with Rome since an eighteenth-century dispute but still holding valid bishops, consecrated one of their own.",
+     "other": "Catholic Church",
+     "other_id": "catholic-church-long-nineteenth-century",
+     "other_id_note": "census era-9 part 2 entry",
+     "other_era": 9,
+     "claim": "German, Swiss and Austrian Catholics refused Vatican I, breaking with Rome",
+     "other_names_it": true,
+     "other_sentence": "The century also left a fracture line, in the Catholics who could not accept 1870 and became the Old Catholics, and a set of questions the church would only take up again at the Second Vatican Council."
+    },
+    {
+     "field": "why",
+     "sentence": "The five bishops who signed the 1889 Declaration of Utrecht professed the faith of the undivided church of the first thousand years, then dropped required celibacy for priests and put the liturgy into the language of the people.",
+     "other": "undivided church of the first thousand years",
+     "other_id": null,
+     "other_id_note": "generic appeal; no census movement",
+     "other_era": null,
+     "claim": "Union professed the faith of the undivided church",
+     "other_names_it": null,
+     "other_sentence": null
+    },
+    {
+     "field": "legacy",
+     "sentence": "The Bonn conferences Dollinger convened in the 1870s were among the first modern meetings of Old Catholic, Anglican and Orthodox theologians at one table, and in 1931 the Old Catholics and the Church of England entered full communion by the Bonn Agreement — one of the earliest such agreements between separated Western churches, and a model for many since.",
+     "other": "Church of England",
+     "other_id": "victorian-church-of-england",
+     "other_id_note": "census \"The Victorian Church of England\" (era 9, part 1)",
+     "other_era": 9,
+     "claim": "Old Catholics and Church of England entered full communion by the 1931 Bonn Agreement",
+     "other_names_it": false,
+     "other_sentence": null
+    },
+    {
+     "field": "legacy",
+     "sentence": "The Bonn conferences Dollinger convened in the 1870s were among the first modern meetings of Old Catholic, Anglican and Orthodox theologians at one table, and in 1931 the Old Catholics and the Church of England entered full communion by the Bonn Agreement — one of the earliest such agreements between separated Western churches, and a model for many since.",
+     "other": "Orthodox theologians",
+     "other_id": null,
+     "other_id_note": "generic; no census movement",
+     "other_era": null,
+     "claim": "Bonn conferences brought Orthodox theologians to the table",
+     "other_names_it": null,
+     "other_sentence": null
+    }
+   ],
+   "hygiene": []
+  },
+  {
+   "id": "american-unitarianism-universalism-consolidations",
+   "name": "American Unitarianism & Universalism — the Consolidations",
+   "dates": "1819-1906",
+   "existing_links": [],
+   "relationships": [
+    {
+     "field": "relationsSummary",
+     "sentence": "The Universalists built their own conventions on a separate track.",
+     "other": "Universalists (same census entry)",
+     "other_id": "american-unitarianism-universalism-consolidations",
+     "other_id_note": "self-reference: the Universalist strand of this entry",
+     "other_era": 9,
+     "claim": "Universalists built their own conventions on a separate track",
+     "other_names_it": null,
+     "other_sentence": null
+    },
+    {
+     "field": "relationsSummary",
+     "sentence": "A third strain, the Transcendentalists, pushed past Christian doctrine altogether.",
+     "other": "Transcendentalists",
+     "other_id": null,
+     "other_id_note": "no census entry",
+     "other_era": null,
+     "claim": "Transcendentalists pushed past Christian doctrine",
+     "other_names_it": null,
+     "other_sentence": null
+    },
+    {
+     "field": "longDescription",
+     "sentence": "In 1819 William Ellery Channing preached an ordination sermon in Baltimore that gave liberal Congregationalists both a name and a platform, and in 1825 they founded the American Unitarian Association.",
+     "other": "liberal Congregationalists (American)",
+     "other_id": null,
+     "other_id_note": "no census entry; english-old-dissent is English",
+     "other_era": null,
+     "claim": "Channing gave liberal Congregationalists a name and a platform",
+     "other_names_it": null,
+     "other_sentence": null
+    },
+    {
+     "field": "longDescription",
+     "sentence": "Ralph Waldo Emerson left the ministry and told Harvard's divinity students in 1838 to look for religion in intuition and nature rather than historical revelation, and the Transcendentalists carried that further than most of their elders wanted to go.",
+     "other": "Ralph Waldo Emerson (Transcendentalist)",
+     "other_id": null,
+     "other_id_note": "person; not census",
+     "other_era": null,
+     "claim": "Emerson pushed the Unitarian side toward Transcendentalism",
+     "other_names_it": null,
+     "other_sentence": null
+    },
+    {
+     "field": "longDescription",
+     "sentence": "Ralph Waldo Emerson left the ministry and told Harvard's divinity students in 1838 to look for religion in intuition and nature rather than historical revelation, and the Transcendentalists carried that further than most of their elders wanted to go.",
+     "other": "Transcendentalists",
+     "other_id": null,
+     "other_id_note": "no census entry",
+     "other_era": null,
+     "claim": "Transcendentalists carried Emerson further",
+     "other_names_it": null,
+     "other_sentence": null
+    },
+    {
+     "field": "why",
+     "sentence": "The Universalists built their movement on a single conviction, that God would in the end save everyone, while the Unitarians organized around William Ellery Channing's 1819 sermon and an explicit rejection of the Trinity.",
+     "other": "Universalists (same census entry)",
+     "other_id": "american-unitarianism-universalism-consolidations",
+     "other_id_note": "self-reference: the Universalist strand of this entry",
+     "other_era": 9,
+     "claim": "Universalists built on universal salvation",
+     "other_names_it": null,
+     "other_sentence": null
+    },
+    {
+     "field": "why",
+     "sentence": "A generation later, Ralph Waldo Emerson pushed further still, leaving the pulpit to tell Harvard's divinity students in 1838 to seek religion in intuition and nature rather than historical revelation.",
+     "other": "Ralph Waldo Emerson",
+     "other_id": null,
+     "other_id_note": "person; not census",
+     "other_era": null,
+     "claim": "Emerson pushed further away from revelation",
+     "other_names_it": null,
+     "other_sentence": null
+    },
+    {
+     "field": "legacy",
+     "sentence": "Both bodies survived, and in 1961 merged into the Unitarian Universalist Association, still a functioning denomination in North America.",
+     "other": "Unitarian Universalist Association (1961 merger)",
+     "other_id": null,
+     "other_id_note": "merged denomination; not a separate census entry",
+     "other_era": null,
+     "claim": "Both bodies merged in 1961 into the UUA",
+     "other_names_it": null,
+     "other_sentence": null
+    }
+   ],
+   "hygiene": []
+  },
+  {
+   "id": "ruthenian-greek-catholic-polotsk-to-galicia",
+   "name": "The Ruthenian Greek Catholic Church — Polotsk to Galicia",
+   "dates": "1815-1906",
+   "existing_links": [],
+   "relationships": [
+    {
+     "field": "relationsSummary",
+     "sentence": "The Synod of Polotsk in 1839 dissolved the union with Rome across the Russian Empire, transferring roughly a million and a half people to Russian Orthodoxy; the Chełm eparchy followed in 1875.",
+     "other": "union with Rome (Union of Brest, 1596)",
+     "other_id": "the-union-of-brest-and-ruthenian-greek-catholic-",
+     "other_id_note": "census \"The Union of Brest & Ruthenian Greek Catholic Christianity\" (era 7; census id truncated at 48 characters)",
+     "other_era": 7,
+     "claim": "Polotsk synod dissolved the union with Rome",
+     "other_names_it": true,
+     "other_sentence": "Suppressed by the Russian Empire in the nineteenth century and again by the Soviet Union in 1946, the Ukrainian church survived underground and re-emerged in 1989 as the largest Eastern Catholic church anywhere."
+    },
+    {
+     "field": "relationsSummary",
+     "sentence": "The Synod of Polotsk in 1839 dissolved the union with Rome across the Russian Empire, transferring roughly a million and a half people to Russian Orthodoxy; the Chełm eparchy followed in 1875.",
+     "other": "Russian Orthodox Church",
+     "other_id": "russian-church-synodal-century",
+     "other_id_note": "census \"The Russian Church — the Synodal Century\" (era 9, part 2)",
+     "other_era": 9,
+     "claim": "About 1.5 million people were transferred to Russian Orthodoxy",
+     "other_names_it": false,
+     "other_sentence": null
+    },
+    {
+     "field": "relationsSummary",
+     "sentence": "The Synod of Polotsk in 1839 dissolved the union with Rome across the Russian Empire, transferring roughly a million and a half people to Russian Orthodoxy; the Chełm eparchy followed in 1875.",
+     "other": "Chełm eparchy",
+     "other_id": null,
+     "other_id_note": "no census entry",
+     "other_era": null,
+     "claim": "Chełm eparchy followed in 1875",
+     "other_names_it": null,
+     "other_sentence": null
+    },
+    {
+     "field": "relationsSummary",
+     "sentence": "The church survived only under Austrian rule in Galicia, where it became the institutional engine of Ukrainian national life, especially under Metropolitan Andrey Sheptytsky from 1900.",
+     "other": "Austrian rule (Galicia)",
+     "other_id": null,
+     "other_id_note": "state; not census",
+     "other_era": null,
+     "claim": "Church survived under Austrian rule in Galicia",
+     "other_names_it": null,
+     "other_sentence": null
+    },
+    {
+     "field": "relationsSummary",
+     "sentence": "It stood in natural tension with the Russian Orthodox Church, which absorbed the dissolved dioceses.",
+     "other": "Russian Orthodox Church",
+     "other_id": "russian-church-synodal-century",
+     "other_id_note": "census era-9 part 2 entry",
+     "other_era": 9,
+     "claim": "Natural tension with the Russian Orthodox Church",
+     "other_names_it": true,
+     "other_sentence": "But under Konstantin Pobedonostsev, ober-procurator for a quarter-century, the church was also the instrument of a policy of religious uniformity that pressed hard on Old Believers, Eastern Catholics and evangelicals alike."
+    },
+    {
+     "field": "longDescription",
+     "sentence": "Millions of Belarusians and Ukrainians worshipped in the Byzantine rite while in communion with Rome, an arrangement dating from a union of 1596.",
+     "other": "union of 1596 (Union of Brest)",
+     "other_id": "the-union-of-brest-and-ruthenian-greek-catholic-",
+     "other_id_note": "census era-7 Union of Brest entry (truncated id)",
+     "other_era": 7,
+     "claim": "Eastern-rite Catholics were in communion with Rome from the 1596 union",
+     "other_names_it": true,
+     "other_sentence": "Suppressed by the Russian Empire in the nineteenth century and again by the Soviet Union in 1946, the Ukrainian church survived underground and re-emerged in 1989 as the largest Eastern Catholic church anywhere."
+    },
+    {
+     "field": "longDescription",
+     "sentence": "In the Russian Empire it was abolished by decree.",
+     "other": "Russian Empire (state)",
+     "other_id": null,
+     "other_id_note": "state; not census",
+     "other_era": null,
+     "claim": "Russian Empire abolished the union by decree",
+     "other_names_it": null,
+     "other_sentence": null
+    },
+    {
+     "field": "longDescription",
+     "sentence": "At the Synod of Polotsk in February 1839, bishops led by Joseph Semashko declared their church reunited with Russian Orthodoxy, and roughly a million and a half people were transferred with a stroke of the pen.",
+     "other": "Russian Orthodoxy",
+     "other_id": "russian-church-synodal-century",
+     "other_id_note": "census era-9 part 2 entry",
+     "other_era": 9,
+     "claim": "Polotsk 1839 reunited the church with Russian Orthodoxy",
+     "other_names_it": false,
+     "other_sentence": null
+    },
+    {
+     "field": "longDescription",
+     "sentence": "The remaining eparchy of Chelm followed in 1875, with resistance in some villages broken by force.",
+     "other": "Chełm eparchy",
+     "other_id": null,
+     "other_id_note": "no census entry",
+     "other_era": null,
+     "claim": "Chełm eparchy followed in 1875 with force",
+     "other_names_it": null,
+     "other_sentence": null
+    },
+    {
+     "field": "longDescription",
+     "sentence": "What survived did so under Austrian rule in Galicia, where the Greek Catholic Church became not only a church but the institutional backbone of Ukrainian national life.",
+     "other": "Austrian rule (Galicia)",
+     "other_id": null,
+     "other_id_note": "state; not census",
+     "other_era": null,
+     "claim": "Church survived under Austrian rule",
+     "other_names_it": null,
+     "other_sentence": null
+    },
+    {
+     "field": "longDescription",
+     "sentence": "At the turn of the century Andrey Sheptytsky took the metropolitan see of Lviv and began the long tenure that would carry the church through everything the next fifty years brought.",
+     "other": "Andrey Sheptytsky (metropolitan)",
+     "other_id": null,
+     "other_id_note": "person; not census",
+     "other_era": null,
+     "claim": "Sheptytsky led the church from 1900",
+     "other_names_it": null,
+     "other_sentence": null
+    },
+    {
+     "field": "why",
+     "sentence": "At the Synod of Polotsk in 1839, bishops declared their church reunited with Russian Orthodoxy and roughly a million and a half Eastern-rite Catholics were transferred by decree; a further eparchy followed in 1875, some of it by force.",
+     "other": "Russian Orthodoxy",
+     "other_id": "russian-church-synodal-century",
+     "other_id_note": "census era-9 part 2 entry",
+     "other_era": 9,
+     "claim": "1839 synod reunited the church with Russian Orthodoxy",
+     "other_names_it": false,
+     "other_sentence": null
+    },
+    {
+     "field": "why",
+     "sentence": "At the Synod of Polotsk in 1839, bishops declared their church reunited with Russian Orthodoxy and roughly a million and a half Eastern-rite Catholics were transferred by decree; a further eparchy followed in 1875, some of it by force.",
+     "other": "Chełm eparchy",
+     "other_id": null,
+     "other_id_note": "no census entry",
+     "other_era": null,
+     "claim": "Further eparchy followed in 1875 by force",
+     "other_names_it": null,
+     "other_sentence": null
+    },
+    {
+     "field": "why",
+     "sentence": "Under Austrian rule in Galicia the church survived instead, its priests doubling as the schoolteachers, editors and cooperative organizers of a Ukrainian people who had almost no other leadership of their own.",
+     "other": "Austrian rule (Galicia)",
+     "other_id": null,
+     "other_id_note": "state; not census",
+     "other_era": null,
+     "claim": "Church survived under Austrian rule",
+     "other_names_it": null,
+     "other_sentence": null
+    },
+    {
+     "field": "legacy",
+     "sentence": "The Ukrainian Greek Catholic Church is the largest Eastern Catholic church in the world today, and everything it survived afterwards — Soviet liquidation in 1946, four decades underground, its re-emergence in 1989.",
+     "other": "Soviet Union (1946 liquidation)",
+     "other_id": null,
+     "other_id_note": "state; not census",
+     "other_era": null,
+     "claim": "Church survived Soviet liquidation",
+     "other_names_it": null,
+     "other_sentence": null
+    },
+    {
+     "field": "legacy",
+     "sentence": "The Ukrainian Greek Catholic Church is the largest Eastern Catholic church in the world today, and everything it survived afterwards — Soviet liquidation in 1946, four decades underground, its re-emergence in 1989.",
+     "other": "The Ukrainian Greek Catholic Underground",
+     "other_id": "the-ukrainian-greek-catholic-underground",
+     "other_id_note": "census \"The Ukrainian Greek Catholic Underground\" (era 10, 1946-1989)",
+     "other_era": 10,
+     "claim": "Ukrainian Greek Catholic Church survived underground and re-emerged in 1989",
+     "other_names_it": true,
+     "other_sentence": "In March 1946 a synod was convened at Lviv that dissolved the Ukrainian Greek Catholic Church into the Russian Orthodox Church."
+    },
+    {
+     "field": "legacy",
+     "sentence": "In the lands where the union was dissolved by decree, it never came back.",
+     "other": "union dissolved by decree (Union of Brest)",
+     "other_id": "the-union-of-brest-and-ruthenian-greek-catholic-",
+     "other_id_note": "census era-7 Union of Brest entry (truncated id)",
+     "other_era": 7,
+     "claim": "The union was dissolved and never came back in the Russian lands",
+     "other_names_it": true,
+     "other_sentence": "Suppressed by the Russian Empire in the nineteenth century and again by the Soviet Union in 1946, the Ukrainian church survived underground and re-emerged in 1989 as the largest Eastern Catholic church anywhere."
+    }
+   ],
+   "hygiene": []
+  },
+  {
+   "id": "philippine-catholicism-gomburza-to-aglipay",
+   "name": "Philippine Catholicism — Gomburza to the Aglipayan Schism",
+   "dates": "1815-1906",
+   "existing_links": [],
+   "relationships": [
+    {
+     "field": "relationsSummary",
+     "sentence": "Grew out of the secularization controversy and the 1872 Gomburza executions, which fed directly into the Philippine independence movement.",
+     "other": "secularization controversy",
+     "other_id": null,
+     "other_id_note": "not a census movement",
+     "other_era": null,
+     "claim": "Philippine Catholicism grew out of the secularization controversy",
+     "other_names_it": null,
+     "other_sentence": null
+    },
+    {
+     "field": "relationsSummary",
+     "sentence": "Grew out of the secularization controversy and the 1872 Gomburza executions, which fed directly into the Philippine independence movement.",
+     "other": "Philippine independence movement",
+     "other_id": null,
+     "other_id_note": "not a census movement",
+     "other_era": null,
+     "claim": "Gomburza executions fed the independence movement",
+     "other_names_it": null,
+     "other_sentence": null
+    },
+    {
+     "field": "relationsSummary",
+     "sentence": "The Iglesia Filipina Independiente was proclaimed in 1902 as the Spanish colonial-era church question came to a head, and it later adopted a trinitarian Declaration of Faith in 1947.",
+     "other": "Iglesia Filipina Independiente",
+     "other_id": null,
+     "other_id_note": "named in this entry's own title (self-reference); no separate census entry",
+     "other_era": null,
+     "claim": "Iglesia proclaimed in 1902",
+     "other_names_it": null,
+     "other_sentence": null
+    },
+    {
+     "field": "longDescription",
+     "sentence": "Spanish friars had run the Philippine church for three centuries, and the century's great church fight was over whether Filipinos could run their own parishes.",
+     "other": "Spanish friars (religious orders)",
+     "other_id": null,
+     "other_id_note": "religious orders; not a census entry",
+     "other_era": null,
+     "claim": "Spanish friars ran the Philippine church",
+     "other_names_it": null,
+     "other_sentence": null
+    },
+    {
+     "field": "longDescription",
+     "sentence": "The secularization campaign — transferring parishes from Spanish religious orders to diocesan clergy, most of them native-born — turned into a national grievance, and in 1872, after a mutiny at the Cavite arsenal, three priests who had championed it were garrotted: Mariano Gomez, Jose Burgos and Jacinto Zamora, remembered ever since by the single name Gomburza.",
+     "other": "Spanish religious orders",
+     "other_id": null,
+     "other_id_note": "religious orders; not a census entry",
+     "other_era": null,
+     "claim": "Secularization transferred parishes from Spanish orders",
+     "other_names_it": null,
+     "other_sentence": null
+    },
+    {
+     "field": "longDescription",
+     "sentence": "The secularization campaign — transferring parishes from Spanish religious orders to diocesan clergy, most of them native-born — turned into a national grievance, and in 1872, after a mutiny at the Cavite arsenal, three priests who had championed it were garrotted: Mariano Gomez, Jose Burgos and Jacinto Zamora, remembered ever since by the single name Gomburza.",
+     "other": "Gomburza priests (Gomez, Burgos, Zamora)",
+     "other_id": null,
+     "other_id_note": "persons; not a census movement",
+     "other_era": null,
+     "claim": "Gomburza priests championed secularization and were executed",
+     "other_names_it": null,
+     "other_sentence": null
+    },
+    {
+     "field": "longDescription",
+     "sentence": "Their execution did more for the independence movement than their campaign ever had; Jose Rizal dedicated his second novel to their memory.",
+     "other": "Jose Rizal (novelist)",
+     "other_id": null,
+     "other_id_note": "person; not census",
+     "other_era": null,
+     "claim": "Rizal dedicated his novel to Gomburza",
+     "other_names_it": null,
+     "other_sentence": null
+    },
+    {
+     "field": "longDescription",
+     "sentence": "When Spanish rule ended, part of the church went with it.",
+     "other": "Spanish rule (state)",
+     "other_id": null,
+     "other_id_note": "state; not census",
+     "other_era": null,
+     "claim": "Part of the church went with Spanish rule",
+     "other_names_it": null,
+     "other_sentence": null
+    },
+    {
+     "field": "longDescription",
+     "sentence": "In 1902 the labor organizer Isabelo de los Reyes proclaimed an Iglesia Filipina Independiente and named the former revolutionary chaplain Gregorio Aglipay its head, and for a few years a substantial minority of Filipino Catholics followed it.",
+     "other": "Iglesia Filipina Independiente",
+     "other_id": null,
+     "other_id_note": "self-reference; no separate census entry",
+     "other_era": null,
+     "claim": "Isabelo de los Reyes proclaimed the Iglesia",
+     "other_names_it": null,
+     "other_sentence": null
+    },
+    {
+     "field": "longDescription",
+     "sentence": "In 1902 the labor organizer Isabelo de los Reyes proclaimed an Iglesia Filipina Independiente and named the former revolutionary chaplain Gregorio Aglipay its head, and for a few years a substantial minority of Filipino Catholics followed it.",
+     "other": "Gregorio Aglipay (person)",
+     "other_id": null,
+     "other_id_note": "person; not census",
+     "other_era": null,
+     "claim": "Aglipay headed the Iglesia",
+     "other_names_it": null,
+     "other_sentence": null
+    },
+    {
+     "field": "legacy",
+     "sentence": "The Catholic Church it broke from remained the country's majority faith and, over the following decades, got what the secularization campaign had asked for: a Filipino hierarchy drawn from Filipino clergy.",
+     "other": "Catholic Church (Philippines)",
+     "other_id": "catholic-church-long-nineteenth-century",
+     "other_id_note": "census \"The Catholic Church of the Long Nineteenth Century\" (era 9, part 2)",
+     "other_era": 9,
+     "claim": "Iglesia broke from the Catholic Church",
+     "other_names_it": false,
+     "other_sentence": null
+    },
+    {
+     "field": "legacy",
+     "sentence": "The Iglesia Filipina Independiente is still a functioning church, and since 1961 has been in full communion with the Episcopal Church and the wider Anglican Communion.",
+     "other": "Episcopal Church and Anglican Communion",
+     "other_id": null,
+     "other_id_note": "not a census movement (the Church of England entry does not match)",
+     "other_era": null,
+     "claim": "Iglesia in full communion with the Episcopal Church since 1961",
+     "other_names_it": null,
+     "other_sentence": null
+    },
+    {
+     "field": "legacy",
+     "sentence": "The Catholic Church it broke from remained the country's majority faith and, over the following decades, got what the secularization campaign had asked for: a Filipino hierarchy drawn from Filipino clergy.",
+     "other": "Catholic Church (Philippines)",
+     "other_id": "catholic-church-long-nineteenth-century",
+     "other_id_note": "census era-9 part 2 entry",
+     "other_era": 9,
+     "claim": "Catholic Church later gave Filipinos the hierarchy they had asked for",
+     "other_names_it": false,
+     "other_sentence": null
+    },
+    {
+     "field": "why",
+     "sentence": "The 1872 garrotting of three priests, Mariano Gomez, Jose Burgos and Jacinto Zamora, remembered together as Gomburza, did more to fuel the independence movement than their campaign for Filipino-run parishes ever had; Jose Rizal dedicated his second novel to their memory.",
+     "other": "Gomburza priests (Gomez, Burgos, Zamora)",
+     "other_id": null,
+     "other_id_note": "persons; not census",
+     "other_era": null,
+     "claim": "Gomburza executions fuelled independence",
+     "other_names_it": null,
+     "other_sentence": null
+    },
+    {
+     "field": "why",
+     "sentence": "The 1872 garrotting of three priests, Mariano Gomez, Jose Burgos and Jacinto Zamora, remembered together as Gomburza, did more to fuel the independence movement than their campaign for Filipino-run parishes ever had; Jose Rizal dedicated his second novel to their memory.",
+     "other": "Jose Rizal (novelist)",
+     "other_id": null,
+     "other_id_note": "person; not census",
+     "other_era": null,
+     "claim": "Rizal dedicated his novel to Gomburza",
+     "other_names_it": null,
+     "other_sentence": null
+    },
+    {
+     "field": "why",
+     "sentence": "Three decades later a labor organizer, Isabelo de los Reyes, proclaimed an independent Philippine church and put the former revolutionary chaplain Gregorio Aglipay at its head.",
+     "other": "Iglesia Filipina Independiente",
+     "other_id": null,
+     "other_id_note": "self-reference; no separate census entry",
+     "other_era": null,
+     "claim": "Iglesia proclaimed with Aglipay at its head",
+     "other_names_it": null,
+     "other_sentence": null
+    }
+   ],
+   "hygiene": []
+  },
+  {
+   "id": "church-of-the-east-chaldean-consolidation",
+   "name": "The Church of the East & the Chaldean Consolidation",
+   "dates": "1815-1906",
+   "existing_links": [],
+   "relationships": [
+    {
+     "field": "relationsSummary",
+     "sentence": "John Hormizd was confirmed as Chaldean patriarch in 1830, consolidating the modern Chaldean Catholic Church as a single body in communion with Rome.",
+     "other": "Chaldean Catholic Church",
+     "other_id": null,
+     "other_id_note": "subject of this entry (self-reference)",
+     "other_era": null,
+     "claim": "Hormizd consolidated the Chaldean Catholic Church under Rome",
+     "other_names_it": null,
+     "other_sentence": null
+    },
+    {
+     "field": "relationsSummary",
+     "sentence": "The line that stayed independent kept its seat at Qudshanis and became known as the Assyrian Church of the East.",
+     "other": "Hakkari remnant (Church of the East in Hakkari)",
+     "other_id": "church-of-the-east-timur-to-hakkari",
+     "other_id_note": "census \"The Church of the East — Timur's Catastrophe and the Hakkari Remnant\" (era 6)",
+     "other_era": 6,
+     "claim": "The independent line in Hakkari is the Hakkari remnant",
+     "other_names_it": true,
+     "other_sentence": "What survived did so by geography: communities in the Hakkari mountains and around Lake Van and Urmia, where the patriarchate relocated and where, over the fifteenth century, the office became hereditary within a single family, passing from uncle to nephew."
+    },
+    {
+     "field": "longDescription",
+     "sentence": "In 1830 Rome confirmed John Hormizd as patriarch of Babylon, consolidating the Chaldean Catholic Church as a single body.",
+     "other": "Rome (papacy)",
+     "other_id": null,
+     "other_id_note": "institution; not census",
+     "other_era": null,
+     "claim": "Rome confirmed Hormizd in 1830",
+     "other_names_it": null,
+     "other_sentence": null
+    },
+    {
+     "field": "longDescription",
+     "sentence": "American Congregationalist missionaries settled at Urmia in the 1830s and gave the region a printing press and schools in the spoken Syriac of the day.",
+     "other": "American Congregationalist missionaries",
+     "other_id": null,
+     "other_id_note": "no census entry for this mission",
+     "other_era": null,
+     "claim": "American missionaries settled at Urmia and gave the region a press and schools",
+     "other_names_it": null,
+     "other_sentence": null
+    },
+    {
+     "field": "longDescription",
+     "sentence": "From 1886 the Archbishop of Canterbury sent a mission expressly instructed to strengthen the ancient church rather than convert its members.",
+     "other": "Church of England (Archbishop of Canterbury)",
+     "other_id": "victorian-church-of-england",
+     "other_id_note": "census \"The Victorian Church of England\" (era 9, part 1)",
+     "other_era": 9,
+     "claim": "Canterbury sent a mission to the Assyrian line in 1886",
+     "other_names_it": false,
+     "other_sentence": null
+    },
+    {
+     "field": "longDescription",
+     "sentence": "The line that stayed independent kept its seat in the mountain village of Qudshanis in Hakkari, its patriarchate passing from uncle to nephew, and its people came to be known as the Assyrian Church of the East.",
+     "other": "Hakkari remnant (Church of the East in Hakkari)",
+     "other_id": "church-of-the-east-timur-to-hakkari",
+     "other_id_note": "census era-6 Hakkari entry",
+     "other_era": 6,
+     "claim": "The independent line stayed in Hakkari",
+     "other_names_it": true,
+     "other_sentence": "Survivors held out in the Hakkari mountains — along with the community in India, the one province Timur's armies never reached."
+    },
+    {
+     "field": "why",
+     "sentence": "This was once a missionary church whose bishops reached from Baghdad as far as China; by the nineteenth century it had shrunk to a mountain village in Hakkari and a rival line recognized by Rome in 1830 as the Chaldean Catholic Church.",
+     "other": "rival line (Chaldean line)",
+     "other_id": null,
+     "other_id_note": "the rivalry is the 1552 schism (census era 7 \"the-church-of-the-east-schism-of-1552\"); not named in this text, not matched",
+     "other_era": null,
+     "claim": "A rival line recognized by Rome in 1830",
+     "other_names_it": null,
+     "other_sentence": null
+    },
+    {
+     "field": "why",
+     "sentence": "When the Archbishop of Canterbury sent a mission to the remaining Assyrian line in 1886, he instructed it to strengthen the ancient church rather than convert its people.",
+     "other": "Church of England (Archbishop of Canterbury)",
+     "other_id": "victorian-church-of-england",
+     "other_id_note": "census \"The Victorian Church of England\" (era 9, part 1)",
+     "other_era": 9,
+     "claim": "Canterbury sent a mission to the Assyrian line in 1886",
+     "other_names_it": false,
+     "other_sentence": null
+    },
+    {
+     "field": "legacy",
+     "sentence": "The Assyrian Church of the East, driven out of the Hakkari mountains during the First World War, spent most of the twentieth century with its patriarch abroad and only returned the seat to Erbil in 2015.",
+     "other": "Hakkari (driven out in the First World War)",
+     "other_id": null,
+     "other_id_note": "state/war; not census",
+     "other_era": null,
+     "claim": "The Assyrian Church of the East was driven out of Hakkari",
+     "other_names_it": null,
+     "other_sentence": null
+    },
+    {
+     "field": "legacy",
+     "sentence": "The Urmia press left a quieter legacy: printing Scripture and schoolbooks in the language people actually spoke helped make modern Aramaic a written literary language, which it has remained.",
+     "other": "Urmia press (American Congregationalist mission)",
+     "other_id": null,
+     "other_id_note": "no census entry for this mission",
+     "other_era": null,
+     "claim": "The Urmia press shaped modern Aramaic",
+     "other_names_it": null,
+     "other_sentence": null
+    }
+   ],
+   "hygiene": []
+  },
+  {
+   "id": "malagasy-christianity",
+   "name": "Malagasy Christianity — the Self-Carried Church",
+   "dates": "1818-1895",
+   "existing_links": [],
+   "relationships": [
+    {
+     "field": "relationsSummary",
+     "sentence": "The London Missionary Society arrived in 1818/1820, and the first baptisms took place in 1831.",
+     "other": "London Missionary Society",
+     "other_id": null,
+     "other_id_note": "mission society; no census entry",
+     "other_era": null,
+     "claim": "LMS arrived in Madagascar",
+     "other_names_it": null,
+     "other_sentence": null
+    },
+    {
+     "field": "relationsSummary",
+     "sentence": "Queen Ranavalona I banned Christianity in 1835, and Rasalama was martyred in 1837.",
+     "other": "Queen Ranavalona I (kingdom of Madagascar)",
+     "other_id": null,
+     "other_id_note": "state/monarch; not census",
+     "other_era": null,
+     "claim": "Ranavalona I banned Christianity and Rasalama was martyred",
+     "other_names_it": null,
+     "other_sentence": null
+    },
+    {
+     "field": "relationsSummary",
+     "sentence": "Ranavalona II converted in 1869, and the French conquest of 1895-96 ended the kingdom that housed the church.",
+     "other": "Ranavalona II (monarch)",
+     "other_id": null,
+     "other_id_note": "monarch; not census",
+     "other_era": null,
+     "claim": "Ranavalona II converted in 1869",
+     "other_names_it": null,
+     "other_sentence": null
+    },
+    {
+     "field": "relationsSummary",
+     "sentence": "Ranavalona II converted in 1869, and the French conquest of 1895-96 ended the kingdom that housed the church.",
+     "other": "French conquest (state)",
+     "other_id": null,
+     "other_id_note": "state; not census",
+     "other_era": null,
+     "claim": "French conquest ended the kingdom that housed the church",
+     "other_names_it": null,
+     "other_sentence": null
+    },
+    {
+     "field": "longDescription",
+     "sentence": "The London Missionary Society reached Madagascar in 1818, and its most consequential work turned out to be alphabetical.",
+     "other": "London Missionary Society",
+     "other_id": null,
+     "other_id_note": "mission society; no census entry",
+     "other_era": null,
+     "claim": "LMS reached Madagascar in 1818",
+     "other_names_it": null,
+     "other_sentence": null
+    },
+    {
+     "field": "longDescription",
+     "sentence": "Queen Ranavalona I banned Christianity in 1835 and expelled the missionaries.",
+     "other": "Queen Ranavalona I",
+     "other_id": null,
+     "other_id_note": "monarch; not census",
+     "other_era": null,
+     "claim": "Ranavalona I banned Christianity and expelled the missionaries",
+     "other_names_it": null,
+     "other_sentence": null
+    },
+    {
+     "field": "longDescription",
+     "sentence": "Ranavalona II was baptized in 1869 and burned the royal talismans, and the church became the establishment it had once been martyred by, until the French conquest of 1895 ended the kingdom that housed it.",
+     "other": "the establishment (Merina state)",
+     "other_id": null,
+     "other_id_note": "state; not census",
+     "other_era": null,
+     "claim": "The church became the establishment that had martyred it",
+     "other_names_it": null,
+     "other_sentence": null
+    },
+    {
+     "field": "why",
+     "sentence": "Missionaries gave Madagascar's language its first written form and, by 1835, a complete Bible, the same year Queen Ranavalona I banned Christianity outright and drove them out.",
+     "other": "missionaries (London Missionary Society)",
+     "other_id": null,
+     "other_id_note": "mission society; no census entry",
+     "other_era": null,
+     "claim": "Missionaries gave Malagasy its first written form and a Bible",
+     "other_names_it": null,
+     "other_sentence": null
+    },
+    {
+     "field": "why",
+     "sentence": "Missionaries gave Madagascar's language its first written form and, by 1835, a complete Bible, the same year Queen Ranavalona I banned Christianity outright and drove them out.",
+     "other": "Queen Ranavalona I",
+     "other_id": null,
+     "other_id_note": "monarch; not census",
+     "other_era": null,
+     "claim": "Ranavalona I banned Christianity and drove out the missionaries",
+     "other_names_it": null,
+     "other_sentence": null
+    },
+    {
+     "field": "legacy",
+     "sentence": "The Malagasy persecution became one of the most retold missionary narratives of the nineteenth century, a standard illustration in sermons and mission magazines wherever the question was whether a church could hold together with no clergy and no protection at all.",
+     "other": "mission magazines and sermons (missionary literature)",
+     "other_id": null,
+     "other_id_note": "not a census entry",
+     "other_era": null,
+     "claim": "Malagasy persecution became a standard missionary illustration",
+     "other_names_it": null,
+     "other_sentence": null
+    }
+   ],
+   "hygiene": []
+  },
+  {
+   "id": "east-african-christianity-uganda-martyrs",
+   "name": "East African Christianity & the Uganda Martyrs",
+   "dates": "1844-1906",
+   "existing_links": [],
+   "relationships": [
+    {
+     "field": "relationsSummary",
+     "sentence": "Johann Ludwig Krapf began mission work on the coast in 1844, and the Universities' Mission to Central Africa followed in 1857.",
+     "other": "Johann Ludwig Krapf (missionary)",
+     "other_id": null,
+     "other_id_note": "person; not census",
+     "other_era": null,
+     "claim": "Krapf began mission work on the coast",
+     "other_names_it": null,
+     "other_sentence": null
+    },
+    {
+     "field": "relationsSummary",
+     "sentence": "Johann Ludwig Krapf began mission work on the coast in 1844, and the Universities' Mission to Central Africa followed in 1857.",
+     "other": "Universities' Mission to Central Africa",
+     "other_id": null,
+     "other_id_note": "mission society; no census entry",
+     "other_era": null,
+     "claim": "UMCA followed in 1857",
+     "other_names_it": null,
+     "other_sentence": null
+    },
+    {
+     "field": "relationsSummary",
+     "sentence": "The Church Missionary Society and the Catholic White Fathers reached Buganda in 1877 and 1879.",
+     "other": "Church Missionary Society",
+     "other_id": null,
+     "other_id_note": "mission society; no census entry",
+     "other_era": null,
+     "claim": "CMS reached Buganda in 1877",
+     "other_names_it": null,
+     "other_sentence": null
+    },
+    {
+     "field": "relationsSummary",
+     "sentence": "The Church Missionary Society and the Catholic White Fathers reached Buganda in 1877 and 1879.",
+     "other": "White Fathers (Catholic)",
+     "other_id": null,
+     "other_id_note": "mission society; no census entry",
+     "other_era": null,
+     "claim": "White Fathers reached Buganda in 1879",
+     "other_names_it": null,
+     "other_sentence": null
+    },
+    {
+     "field": "relationsSummary",
+     "sentence": "Anglican and Catholic pages together became the Uganda Martyrs, executed between 1885 and 1887, with Charles Lwanga burned at Namugongo in 1886.",
+     "other": "Anglican and Catholic converts (Uganda Martyrs)",
+     "other_id": null,
+     "other_id_note": "no census entry for the martyrs as a group",
+     "other_era": null,
+     "claim": "Anglican and Catholic pages became the Uganda Martyrs",
+     "other_names_it": null,
+     "other_sentence": null
+    },
+    {
+     "field": "relationsSummary",
+     "sentence": "By the 1900 Agreement that settled Buganda's relations with Britain, it was a Christian kingdom.",
+     "other": "Britain (1900 Agreement)",
+     "other_id": null,
+     "other_id_note": "state; not census",
+     "other_era": null,
+     "claim": "Buganda became a Christian kingdom by the 1900 Agreement with Britain",
+     "other_names_it": null,
+     "other_sentence": null
+    },
+    {
+     "field": "relationsSummary",
+     "sentence": "The revival movement that swept the same churches decades later grew out of this same soil.",
+     "other": "the East African Revival (Balokole)",
+     "other_id": "the-east-african-revival-balokole",
+     "other_id_note": "census \"The East African Revival (Balokole)\" (era 10)",
+     "other_era": 10,
+     "claim": "The East African Revival grew out of the same soil",
+     "other_names_it": true,
+     "other_sentence": "It ran through Uganda, Kenya and Tanzania as well as Rwanda, and it was led by Africans inside the mission Anglicanism that had planted the church — often against it, since a movement that asked bishops and catechists alike to confess in public was not always welcome."
+    },
+    {
+     "field": "longDescription",
+     "sentence": "Christianity came back to East Africa along the coast first — Johann Ludwig Krapf landed at Mombasa in 1844 and began the language and mapping work later missions relied on — and then inland to the kingdom of Buganda, where Anglican missionaries arrived in 1877 and French Catholic White Fathers in 1879.",
+     "other": "Anglican missionaries (CMS)",
+     "other_id": null,
+     "other_id_note": "mission society; no census entry",
+     "other_era": null,
+     "claim": "Anglican missionaries arrived in Buganda in 1877",
+     "other_names_it": null,
+     "other_sentence": null
+    },
+    {
+     "field": "longDescription",
+     "sentence": "Christianity came back to East Africa along the coast first — Johann Ludwig Krapf landed at Mombasa in 1844 and began the language and mapping work later missions relied on — and then inland to the kingdom of Buganda, where Anglican missionaries arrived in 1877 and French Catholic White Fathers in 1879.",
+     "other": "White Fathers (Catholic)",
+     "other_id": null,
+     "other_id_note": "mission society; no census entry",
+     "other_era": null,
+     "claim": "White Fathers arrived in Buganda in 1879",
+     "other_names_it": null,
+     "other_sentence": null
+    },
+    {
+     "field": "longDescription",
+     "sentence": "Their converts were largely young men of the royal court, and when the kabaka Mwanga II turned on them between 1885 and 1887 he killed both kinds together: Anglican and Catholic pages executed side by side, the largest group burned alive at Namugongo on 3 June 1886 under the leadership of Charles Lwanga, who is said to have arranged his own pyre.",
+     "other": "kabaka Mwanga II (monarch)",
+     "other_id": null,
+     "other_id_note": "monarch; not census",
+     "other_era": null,
+     "claim": "Mwanga II persecuted the Anglican and Catholic converts",
+     "other_names_it": null,
+     "other_sentence": null
+    },
+    {
+     "field": "longDescription",
+     "sentence": "The church grew, and Baganda converts carried it outward as evangelists into the surrounding kingdoms faster than any mission society could have, so that by the agreement of 1900 that settled Buganda's relations with Britain, it was a Christian kingdom.",
+     "other": "surrounding kingdoms",
+     "other_id": null,
+     "other_id_note": "generic; not census",
+     "other_era": null,
+     "claim": "Baganda converts evangelized neighboring kingdoms",
+     "other_names_it": null,
+     "other_sentence": null
+    },
+    {
+     "field": "legacy",
+     "sentence": "Uganda became one of the most heavily Christian countries in Africa, and the martyrs are honored on both sides of the division that produced them — canonized by the Catholic Church in 1964, commemorated in the Anglican calendar, with shrines of both communions at Namugongo that draw enormous crowds every 3 June.",
+     "other": "Catholic Church (canonized 1964)",
+     "other_id": null,
+     "other_id_note": "institution; not census",
+     "other_era": null,
+     "claim": "Catholic Church canonized the martyrs in 1964",
+     "other_names_it": null,
+     "other_sentence": null
+    },
+    {
+     "field": "legacy",
+     "sentence": "Uganda became one of the most heavily Christian countries in Africa, and the martyrs are honored on both sides of the division that produced them — canonized by the Catholic Church in 1964, commemorated in the Anglican calendar, with shrines of both communions at Namugongo that draw enormous crowds every 3 June.",
+     "other": "Anglican calendar (Anglican Church)",
+     "other_id": null,
+     "other_id_note": "institution; not census",
+     "other_era": null,
+     "claim": "Anglican calendar commemorates the martyrs",
+     "other_names_it": null,
+     "other_sentence": null
+    },
+    {
+     "field": "legacy",
+     "sentence": "African Christians carrying the faith to neighboring peoples on their own initiative is how Christianity actually spread across this region, and the revival that swept these same churches from the 1930s grew out of the same soil.",
+     "other": "the East African Revival (Balokole)",
+     "other_id": "the-east-african-revival-balokole",
+     "other_id_note": "census era-10 entry",
+     "other_era": 10,
+     "claim": "The revival grew out of the same soil as the churches",
+     "other_names_it": true,
+     "other_sentence": "It ran through Uganda, Kenya and Tanzania as well as Rwanda, and it was led by Africans inside the mission Anglicanism that had planted the church — often against it, since a movement that asked bishops and catechists alike to confess in public was not always welcome."
+    }
+   ],
+   "hygiene": []
+  },
+  {
+   "id": "taiping-heavenly-kingdom",
+   "name": "The Taiping Heavenly Kingdom",
+   "dates": "1850-1864",
+   "existing_links": [],
+   "relationships": [
+    {
+     "field": "relationsSummary",
+     "sentence": "Hong Xiuquan founds the God Worshippers; the Heavenly Kingdom declared 1851, Nanjing taken 1853, falls 1864; roughly 20 million dead - the century's largest Christianity-adjacent movement and its largest catastrophe, a reference point for the later history of China's native churches.",
+     "other": "China's native churches",
+     "other_id": "the-chinese-church-indigenous-and-suffering",
+     "other_id_note": "census \"The Chinese Church - Indigenous & Suffering\" (era 10)",
+     "other_era": 10,
+     "claim": "Taiping is a reference point for later Chinese native churches",
+     "other_names_it": false,
+     "other_sentence": null
+    },
+    {
+     "field": "longDescription",
+     "sentence": "After one failure he collapsed into a delirium and saw visions he could not interpret until, years later, he reread a Christian tract handed to him in the street.",
+     "other": "Christian tract (unnamed)",
+     "other_id": null,
+     "other_id_note": "tract not named; not census",
+     "other_era": null,
+     "claim": "Hong drew his conclusions from a Christian tract",
+     "other_names_it": null,
+     "other_sentence": null
+    },
+    {
+     "field": "longDescription",
+     "sentence": "The war fought to destroy them was among the deadliest in human history, with estimates of the dead running to twenty million, and when Nanjing fell in 1864 Hong was already dead and the kingdom went with him.",
+     "other": "war against the Heavenly Kingdom (Qing forces, not named)",
+     "other_id": null,
+     "other_id_note": "war party not named; Qing named only in legacy",
+     "other_era": null,
+     "claim": "War to destroy the Heavenly Kingdom killed an estimated twenty million",
+     "other_names_it": null,
+     "other_sentence": null
+    },
+    {
+     "field": "legacy",
+     "sentence": "The Qing dynasty was permanently weakened by the war and by the regional armies raised to win it; the lower Yangtze countryside took generations to recover.",
+     "other": "Qing dynasty",
+     "other_id": null,
+     "other_id_note": "state; not census",
+     "other_era": null,
+     "claim": "Qing dynasty was weakened by the war",
+     "other_names_it": null,
+     "other_sentence": null
+    },
+    {
+     "field": "legacy",
+     "sentence": "And Chinese officials and villagers alike had been handed a reason to associate Christianity with rebellion and mass death, a suspicion that later missionaries met everywhere they went.",
+     "other": "Chinese officials and villagers; later missionaries",
+     "other_id": null,
+     "other_id_note": "generic; not census",
+     "other_era": null,
+     "claim": "Taiping gave Chinese officials a reason to associate Christianity with rebellion",
+     "other_names_it": null,
+     "other_sentence": null
+    },
+    {
+     "field": "legacy",
+     "sentence": "Later Chinese revolutionaries, Sun Yat-sen among them, looked back on the Taiping as forerunners, and the movement remains a fixture of Chinese historical memory and museum display.",
+     "other": "Sun Yat-sen (revolutionaries)",
+     "other_id": null,
+     "other_id_note": "person; not census",
+     "other_era": null,
+     "claim": "Later revolutionaries looked back on the Taiping as forerunners",
+     "other_names_it": null,
+     "other_sentence": null
+    }
+   ],
+   "hygiene": [
+    "relationsSummary: \"Hong Xiuquan founds the God Worshippers; the Heavenly Kingdom declared 1851, Nanjing taken 1853, falls 1864; roughly 20 million dead - the century's largest Christianity-adjacent movement and its largest catastrophe, a reference point for the later history of China's native churches.\" (telegraphic build-note style, not public prose)"
+   ]
+  },
+  {
+   "id": "japanese-christianity-hidden-emergence-meiji",
+   "name": "Japanese Christianity — the Hidden Christians’ Emergence & the Meiji Church",
+   "dates": "1865-1906",
+   "existing_links": [],
+   "relationships": [
+    {
+     "field": "relationsSummary",
+     "sentence": "Some, the Kakure, chose to stay separate from the visible church.",
+     "other": "Kakure",
+     "other_id": null,
+     "other_id_note": "group; not census",
+     "other_era": null,
+     "claim": "The Kakure stayed separate from the visible church",
+     "other_names_it": null,
+     "other_sentence": null
+    },
+    {
+     "field": "relationsSummary",
+     "sentence": "Protestant bands grew alongside, including Uchimura Kanzo's Mukyōkai movement founded in 1901, and Nikolai's Russian Orthodox mission dated from 1861.",
+     "other": "Mukyōkai movement (Uchimura Kanzo)",
+     "other_id": null,
+     "other_id_note": "Protestant lane excluded; no census entry",
+     "other_era": null,
+     "claim": "Mukyōkai grew alongside the Catholic church",
+     "other_names_it": null,
+     "other_sentence": null
+    },
+    {
+     "field": "relationsSummary",
+     "sentence": "Protestant bands grew alongside, including Uchimura Kanzo's Mukyōkai movement founded in 1901, and Nikolai's Russian Orthodox mission dated from 1861.",
+     "other": "Russian Orthodox mission (Nikolai)",
+     "other_id": "russian-church-synodal-century",
+     "other_id_note": "census \"The Russian Church — the Synodal Century\" (era 9, part 2)",
+     "other_era": 9,
+     "claim": "Russian Orthodox mission in Japan dated from 1861",
+     "other_names_it": true,
+     "other_sentence": "Sent missions to the Altai peoples and to Japan (from 1861, under Nikolai), and reached the 1905 toleration edict that opened the way to the council that restored the patriarchate."
+    },
+    {
+     "field": "relationsSummary",
+     "sentence": "On 17 March 1865, Urakami villagers revealed themselves at Ōura, and roughly 30,000 hidden believers came forward in the months that followed.",
+     "other": "hidden believers (descendants of Kirishitan Christians)",
+     "other_id": "kirishitan-japan",
+     "other_id_note": "census \"Kirishitan Japan\" (era 7, 1549-1650)",
+     "other_era": 7,
+     "claim": "Hidden believers who came forward were descendants of the Kirishitan",
+     "other_names_it": true,
+     "other_sentence": "Grew from the Jesuit mission of 1549; the prohibition of 1614 drove its communities underground, where hidden believers kept a transmitted faith for roughly two hundred and fifty years without a priest."
+    },
+    {
+     "field": "relationsSummary",
+     "sentence": "The Urakami community faced a final persecution until 1873.",
+     "other": "Japanese government (ban on Christianity)",
+     "other_id": null,
+     "other_id_note": "state; not census",
+     "other_era": null,
+     "claim": "The Urakami faced persecution until 1873",
+     "other_names_it": null,
+     "other_sentence": null
+    },
+    {
+     "field": "longDescription",
+     "sentence": "They were descendants of Christians driven underground in the 1600s, who had kept baptism, prayers and a liturgical calendar for over two hundred years without a single priest.",
+     "other": "Kirishitan (Christians driven underground)",
+     "other_id": "kirishitan-japan",
+     "other_id_note": "census \"Kirishitan Japan\" (era 7)",
+     "other_era": 7,
+     "claim": "Hidden Christians were descendants of Christians driven underground",
+     "other_names_it": true,
+     "other_sentence": "Grew from the Jesuit mission of 1549; the prohibition of 1614 drove its communities underground, where hidden believers kept a transmitted faith for roughly two hundred and fifty years without a priest."
+    },
+    {
+     "field": "longDescription",
+     "sentence": "The government's ban was still in force, and the Urakami villagers were deported and held until 1873.",
+     "other": "Japanese government (ban)",
+     "other_id": null,
+     "other_id_note": "state; not census",
+     "other_era": null,
+     "claim": "Government ban held the Urakami villagers until 1873",
+     "other_names_it": null,
+     "other_sentence": null
+    },
+    {
+     "field": "longDescription",
+     "sentence": "Catholic parishes rebuilt around the emerging hidden communities, Protestant bands of samurai-class students at Yokohama, Kumamoto and Sapporo, and a Russian Orthodox mission that Nikolai of Japan had begun in 1861 and staffed largely with Japanese clergy.",
+     "other": "Catholic parishes",
+     "other_id": null,
+     "other_id_note": "generic; no census entry for this period",
+     "other_era": null,
+     "claim": "Catholic parishes rebuilt around the hidden communities",
+     "other_names_it": null,
+     "other_sentence": null
+    },
+    {
+     "field": "longDescription",
+     "sentence": "Catholic parishes rebuilt around the emerging hidden communities, Protestant bands of samurai-class students at Yokohama, Kumamoto and Sapporo, and a Russian Orthodox mission that Nikolai of Japan had begun in 1861 and staffed largely with Japanese clergy.",
+     "other": "Protestant bands",
+     "other_id": null,
+     "other_id_note": "Protestant lane excluded; no census entry",
+     "other_era": null,
+     "claim": "Protestant bands grew in Meiji Japan",
+     "other_names_it": null,
+     "other_sentence": null
+    },
+    {
+     "field": "longDescription",
+     "sentence": "Catholic parishes rebuilt around the emerging hidden communities, Protestant bands of samurai-class students at Yokohama, Kumamoto and Sapporo, and a Russian Orthodox mission that Nikolai of Japan had begun in 1861 and staffed largely with Japanese clergy.",
+     "other": "Russian Orthodox mission (Nikolai)",
+     "other_id": "russian-church-synodal-century",
+     "other_id_note": "census \"The Russian Church — the Synodal Century\" (era 9, part 2)",
+     "other_era": 9,
+     "claim": "Russian Orthodox mission begun by Nikolai in 1861",
+     "other_names_it": true,
+     "other_sentence": "Sent missions to the Altai peoples and to Japan (from 1861, under Nikolai), and reached the 1905 toleration edict that opened the way to the council that restored the patriarchate."
+    },
+    {
+     "field": "longDescription",
+     "sentence": "Not all the hidden Christians rejoined: some, the Kakure, kept the tradition exactly as they had received it, and remain separate to this day.",
+     "other": "Kakure",
+     "other_id": null,
+     "other_id_note": "group; not census",
+     "other_era": null,
+     "claim": "Some hidden Christians, the Kakure, kept the tradition separate",
+     "other_names_it": null,
+     "other_sentence": null
+    },
+    {
+     "field": "longDescription",
+     "sentence": "On 17 March 1865, weeks after a French church opened in Nagasaki's foreign settlement, a group of villagers from nearby Urakami came in, and one woman quietly told the priest that the hearts of all present were the same as his, and asked where the statue of Mary was.",
+     "other": "French church (Catholic, Nagasaki)",
+     "other_id": null,
+     "other_id_note": "institution; not census",
+     "other_era": null,
+     "claim": "Villagers came in weeks after the French church opened",
+     "other_names_it": null,
+     "other_sentence": null
+    },
+    {
+     "field": "why",
+     "sentence": "On 17 March 1865 a group of villagers walked into a newly opened church in Nagasaki and quietly told the priest their hearts were the same as his, descendants of Christians driven underground more than two centuries earlier who had kept baptism, prayer and a liturgical calendar with no priest at all.",
+     "other": "Kirishitan (Christians driven underground)",
+     "other_id": "kirishitan-japan",
+     "other_id_note": "census \"Kirishitan Japan\" (era 7)",
+     "other_era": 7,
+     "claim": "Hidden believers were descendants of Christians driven underground",
+     "other_names_it": true,
+     "other_sentence": "Grew from the Jesuit mission of 1549; the prohibition of 1614 drove its communities underground, where hidden believers kept a transmitted faith for roughly two hundred and fifty years without a priest."
+    },
+    {
+     "field": "why",
+     "sentence": "Not everyone who surfaced rejoined the visible church; some, the Kakure, chose to keep the faith exactly as they had received it, and remain separate to this day.",
+     "other": "Kakure",
+     "other_id": null,
+     "other_id_note": "group; not census",
+     "other_era": null,
+     "claim": "Some hidden Christians, the Kakure, kept their faith separate",
+     "other_names_it": null,
+     "other_sentence": null
+    },
+    {
+     "field": "legacy",
+     "sentence": "Doshisha and other mission-founded universities, the Orthodox cathedral in Tokyo that Nikolai built, and a Catholic community around Nagasaki that is still the largest in the country.",
+     "other": "mission-founded universities (Doshisha)",
+     "other_id": null,
+     "other_id_note": "institutions; not census",
+     "other_era": null,
+     "claim": "Mission-founded universities endure",
+     "other_names_it": null,
+     "other_sentence": null
+    },
+    {
+     "field": "legacy",
+     "sentence": "Doshisha and other mission-founded universities, the Orthodox cathedral in Tokyo that Nikolai built, and a Catholic community around Nagasaki that is still the largest in the country.",
+     "other": "Russian Orthodox mission (Nikolai)",
+     "other_id": "russian-church-synodal-century",
+     "other_id_note": "census \"The Russian Church — the Synodal Century\" (era 9, part 2)",
+     "other_era": 9,
+     "claim": "Nikolai built the Orthodox cathedral in Tokyo",
+     "other_names_it": true,
+     "other_sentence": "Sent missions to the Altai peoples and to Japan (from 1861, under Nikolai), and reached the 1905 toleration edict that opened the way to the council that restored the patriarchate."
+    },
+    {
+     "field": "legacy",
+     "sentence": "Doshisha and other mission-founded universities, the Orthodox cathedral in Tokyo that Nikolai built, and a Catholic community around Nagasaki that is still the largest in the country.",
+     "other": "Catholic community (Nagasaki)",
+     "other_id": null,
+     "other_id_note": "no census entry for this period",
+     "other_era": null,
+     "claim": "Catholic community around Nagasaki is the largest",
+     "other_names_it": null,
+     "other_sentence": null
+    },
+    {
+     "field": "legacy",
+     "sentence": "The hidden Christians' story became the basis of a UNESCO World Heritage listing of Nagasaki-region sites in 2018, and it has had a long literary afterlife, most famously in Endo Shusaku's novel Silence.",
+     "other": "UNESCO (World Heritage listing)",
+     "other_id": null,
+     "other_id_note": "institution; not census",
+     "other_era": null,
+     "claim": "Hidden Christians story became a UNESCO listing",
+     "other_names_it": null,
+     "other_sentence": null
+    },
+    {
+     "field": "legacy",
+     "sentence": "The hidden Christians' story became the basis of a UNESCO World Heritage listing of Nagasaki-region sites in 2018, and it has had a long literary afterlife, most famously in Endo Shusaku's novel Silence.",
+     "other": "Endō Shūsaku (novel Silence)",
+     "other_id": null,
+     "other_id_note": "person and text; not census",
+     "other_era": null,
+     "claim": "Silence drew on the hidden Christians",
+     "other_names_it": null,
+     "other_sentence": null
+    }
+   ],
+   "hygiene": []
+  },
+  {
+   "id": "haitian-church-rupture-to-concordat",
+   "name": "The Haitian Church — Rupture to Concordat",
+   "dates": "1804-1860",
+   "existing_links": [],
+   "relationships": [
+    {
+     "field": "relationsSummary",
+     "sentence": "Schism from Rome across the whole post-independence period (verified — no Rome-trained clergy; the state runs the church; the Catholic-Vodou creole field forms in the vacuum); the Concordat signed 28 Mar 1860 (verified) — the story’s own resolution; start 1804 precedes the era once, disclosed (the story is indivisible)",
+     "other": "Rome (Holy See)",
+     "other_id": null,
+     "other_id_note": "institution; not census",
+     "other_era": null,
+     "claim": "Schism from Rome across the post-independence period",
+     "other_names_it": null,
+     "other_sentence": null
+    },
+    {
+     "field": "relationsSummary",
+     "sentence": "Schism from Rome across the whole post-independence period (verified — no Rome-trained clergy; the state runs the church; the Catholic-Vodou creole field forms in the vacuum); the Concordat signed 28 Mar 1860 (verified) — the story’s own resolution; start 1804 precedes the era once, disclosed (the story is indivisible)",
+     "other": "Haitian state",
+     "other_id": null,
+     "other_id_note": "state; not census",
+     "other_era": null,
+     "claim": "Haitian state ran the church",
+     "other_names_it": null,
+     "other_sentence": null
+    },
+    {
+     "field": "relationsSummary",
+     "sentence": "Schism from Rome across the whole post-independence period (verified — no Rome-trained clergy; the state runs the church; the Catholic-Vodou creole field forms in the vacuum); the Concordat signed 28 Mar 1860 (verified) — the story’s own resolution; start 1804 precedes the era once, disclosed (the story is indivisible)",
+     "other": "Vodou (West African-derived practice)",
+     "other_id": null,
+     "other_id_note": "practice; not a census movement",
+     "other_era": null,
+     "claim": "Creole field of Catholic and Vodou forms in the vacuum",
+     "other_names_it": null,
+     "other_sentence": null
+    },
+    {
+     "field": "relationsSummary",
+     "sentence": "Schism from Rome across the whole post-independence period (verified — no Rome-trained clergy; the state runs the church; the Catholic-Vodou creole field forms in the vacuum); the Concordat signed 28 Mar 1860 (verified) — the story’s own resolution; start 1804 precedes the era once, disclosed (the story is indivisible)",
+     "other": "Holy See (1860 Concordat)",
+     "other_id": null,
+     "other_id_note": "institution; not census",
+     "other_era": null,
+     "claim": "The 1860 Concordat ended the schism",
+     "other_names_it": null,
+     "other_sentence": null
+    },
+    {
+     "field": "longDescription",
+     "sentence": "Rome would not recognize the new state, the French clergy had fled or been killed, and for more than half a century no properly appointed bishop and almost no seminary-trained priest arrived.",
+     "other": "Rome (Holy See)",
+     "other_id": null,
+     "other_id_note": "institution; not census",
+     "other_era": null,
+     "claim": "Rome refused to recognize Haiti",
+     "other_names_it": null,
+     "other_sentence": null
+    },
+    {
+     "field": "longDescription",
+     "sentence": "Rome would not recognize the new state, the French clergy had fled or been killed, and for more than half a century no properly appointed bishop and almost no seminary-trained priest arrived.",
+     "other": "French clergy",
+     "other_id": null,
+     "other_id_note": "generic; not census",
+     "other_era": null,
+     "claim": "French clergy fled or were killed",
+     "other_names_it": null,
+     "other_sentence": null
+    },
+    {
+     "field": "longDescription",
+     "sentence": "The state filled the gap, appointing its own clergy, and the parishes were served by men of irregular standing.",
+     "other": "Haitian state",
+     "other_id": null,
+     "other_id_note": "state; not census",
+     "other_era": null,
+     "claim": "The state appointed its own clergy",
+     "other_names_it": null,
+     "other_sentence": null
+    },
+    {
+     "field": "longDescription",
+     "sentence": "In that long vacancy Haitian religious life took the shape it has largely kept: Catholic sacraments, feast days and saints woven together with Vodou practice inherited from West Africa, held by most Haitians as one thing rather than two.",
+     "other": "Vodou (West African-derived practice)",
+     "other_id": null,
+     "other_id_note": "practice; not census",
+     "other_era": null,
+     "claim": "Catholic sacraments were woven with Vodou practice",
+     "other_names_it": null,
+     "other_sentence": null
+    },
+    {
+     "field": "longDescription",
+     "sentence": "The rupture formally ended on 28 March 1860, when Haiti and the Holy See signed a concordat restoring a regular hierarchy.",
+     "other": "Holy See (1860 Concordat)",
+     "other_id": null,
+     "other_id_note": "institution; not census",
+     "other_era": null,
+     "claim": "Holy See signed the 1860 concordat with Haiti",
+     "other_names_it": null,
+     "other_sentence": null
+    },
+    {
+     "field": "why",
+     "sentence": "For fifty-six years after independence, Haiti's parishes were served by men of irregular standing, some genuine priests under suspension, some who had simply taken the title, since Rome refused to recognize the new republic at all.",
+     "other": "Rome (Holy See)",
+     "other_id": null,
+     "other_id_note": "institution; not census",
+     "other_era": null,
+     "claim": "Rome refused to recognize the republic",
+     "other_names_it": null,
+     "other_sentence": null
+    },
+    {
+     "field": "why",
+     "sentence": "In that long vacancy, Catholic sacraments and feast days wove together with Vodou practice inherited from West Africa into a religious life most Haitians have held as one thing rather than two.",
+     "other": "Vodou (West African-derived practice)",
+     "other_id": null,
+     "other_id_note": "practice; not census",
+     "other_era": null,
+     "claim": "Catholic sacraments wove together with Vodou",
+     "other_names_it": null,
+     "other_sentence": null
+    },
+    {
+     "field": "legacy",
+     "sentence": "The creole religious world formed during the schism is also still there, and the church's relationship to it — stretches of quiet accommodation alternating with campaigns to stamp it out, most violently the anti-superstition drives of the 1940s — has been one of the defining questions of Haitian religion ever since.",
+     "other": "anti-superstition drives of the 1940s (Catholic church campaigns)",
+     "other_id": null,
+     "other_id_note": "campaigns; not census",
+     "other_era": null,
+     "claim": "Church campaigned against creole practice in the 1940s",
+     "other_names_it": null,
+     "other_sentence": null
+    }
+   ],
+   "hygiene": [
+    "relationsSummary: \"(verified — no Rome-trained clergy; the state runs the church; ...) (verified) — the story's own resolution; start 1804 precedes the era once, disclosed (the story is indivisible)\" (internal build/verification language)"
+   ]
+  },
+  {
+   "id": "alaskan-mission-herman-veniaminov",
+   "name": "The Alaskan Mission — Herman’s Decades & Veniaminov",
+   "dates": "1824-1906",
+   "existing_links": [],
+   "relationships": [
+    {
+     "field": "relationsSummary",
+     "sentence": "After Russia sold Alaska in 1867, the church stayed on as a native church under its own Alaska Native clergy.",
+     "other": "Russia (state, sale of Alaska)",
+     "other_id": null,
+     "other_id_note": "state; not census",
+     "other_era": null,
+     "claim": "Russia sold Alaska in 1867",
+     "other_names_it": null,
+     "other_sentence": null
+    },
+    {
+     "field": "longDescription",
+     "sentence": "Herman, a lay monk who had come with the first mission in 1794, spent his last decades alone on Spruce Island near Kodiak, running a school and an orphanage for Alutiiq children and quarreling with the trading company over its treatment of them.",
+     "other": "first Russian mission to Alaska (1794)",
+     "other_id": null,
+     "other_id_note": "1794 predates census entry (1815-1906); not matched",
+     "other_era": null,
+     "claim": "Herman came with the first Russian mission",
+     "other_names_it": null,
+     "other_sentence": null
+    },
+    {
+     "field": "longDescription",
+     "sentence": "Herman, a lay monk who had come with the first mission in 1794, spent his last decades alone on Spruce Island near Kodiak, running a school and an orphanage for Alutiiq children and quarreling with the trading company over its treatment of them.",
+     "other": "Russian trading company (Russian-American Company)",
+     "other_id": null,
+     "other_id_note": "company; not census",
+     "other_era": null,
+     "claim": "Herman quarrelled with the trading company over Alutiiq children",
+     "other_names_it": null,
+     "other_sentence": null
+    },
+    {
+     "field": "longDescription",
+     "sentence": "Widowed, he became a monk, was made bishop in 1840 as Innocent, and rose eventually to be Metropolitan of Moscow.",
+     "other": "Russian Orthodox Church (Metropolitan of Moscow)",
+     "other_id": "russian-church-synodal-century",
+     "other_id_note": "census \"The Russian Church — the Synodal Century\" (era 9, part 2)",
+     "other_era": 9,
+     "claim": "Veniaminov rose to Metropolitan of Moscow",
+     "other_names_it": false,
+     "other_sentence": null
+    },
+    {
+     "field": "longDescription",
+     "sentence": "When Russia sold Alaska in 1867 and the Russians went home, the church stayed, in the hands of Alaska Native clergy and lay readers who kept the services going in their own languages.",
+     "other": "Russia (state)",
+     "other_id": null,
+     "other_id_note": "state; not census",
+     "other_era": null,
+     "claim": "Russia sold Alaska in 1867",
+     "other_names_it": null,
+     "other_sentence": null
+    },
+    {
+     "field": "why",
+     "sentence": "Herman, a hermit monk on Spruce Island, spent his last decades fighting the Russian trading company over its treatment of the Alutiiq children in the school and orphanage he ran for them.",
+     "other": "Russian trading company",
+     "other_id": null,
+     "other_id_note": "company; not census",
+     "other_era": null,
+     "claim": "Herman fought the trading company over Alutiiq children",
+     "other_names_it": null,
+     "other_sentence": null
+    },
+    {
+     "field": "why",
+     "sentence": "Ioann Veniaminov, arriving at nearby Unalaska in 1824, gave Aleut its first alphabet and translated Scripture into it, and when Russia sold Alaska in 1867 and went home, the church he helped build stayed on, kept alive by Alaska Native clergy in their own languages.",
+     "other": "Russia (state)",
+     "other_id": null,
+     "other_id_note": "state; not census",
+     "other_era": null,
+     "claim": "Russia sold Alaska in 1867",
+     "other_names_it": null,
+     "other_sentence": null
+    },
+    {
+     "field": "legacy",
+     "sentence": "The mission also became the root of Orthodoxy in North America as a whole.",
+     "other": "Orthodoxy in North America (American Orthodoxy)",
+     "other_id": "american-orthodoxy-autocephaly-and-the-convert-wave",
+     "other_id_note": "census \"American Orthodoxy — Autocephaly & the Convert Wave\" (era 10)",
+     "other_era": 10,
+     "claim": "The Alaska mission became the root of North American Orthodoxy",
+     "other_names_it": false,
+     "other_sentence": null
+    },
+    {
+     "field": "legacy",
+     "sentence": "The diocese Veniaminov founded moved its seat to San Francisco and then to New York, and is the ancestor of today's Orthodox Church in America.",
+     "other": "Orthodox Church in America",
+     "other_id": "american-orthodoxy-autocephaly-and-the-convert-wave",
+     "other_id_note": "census \"American Orthodoxy — Autocephaly & the Convert Wave\" (era 10)",
+     "other_era": 10,
+     "claim": "The Veniaminov diocese is the ancestor of the Orthodox Church in America",
+     "other_names_it": false,
+     "other_sentence": null
+    }
+   ],
+   "hygiene": []
+  },
+  {
+   "id": "nineteenth-century-latin-american-catholicism",
+   "name": "Nineteenth-Century Latin American Catholicism",
+   "dates": "1815-1906",
+   "existing_links": [],
+   "relationships": [
+    {
+     "field": "relationsSummary",
+     "sentence": "Independence brought the patronato fights and Rome's slow recognition of the new governments.",
+     "other": "Rome (Holy See)",
+     "other_id": null,
+     "other_id_note": "institution; not census",
+     "other_era": null,
+     "claim": "Rome slowly recognized the new governments after independence",
+     "other_names_it": null,
+     "other_sentence": null
+    },
+    {
+     "field": "relationsSummary",
+     "sentence": "Liberal and clerical factions clashed, most sharply in Mexico's Reforma.",
+     "other": "Liberal and clerical factions",
+     "other_id": null,
+     "other_id_note": "generic; not census",
+     "other_era": null,
+     "claim": "Liberal and clerical factions clashed",
+     "other_names_it": null,
+     "other_sentence": null
+    },
+    {
+     "field": "relationsSummary",
+     "sentence": "Liberal and clerical factions clashed, most sharply in Mexico's Reforma.",
+     "other": "Mexico's Reform laws (state)",
+     "other_id": null,
+     "other_id_note": "state; not census",
+     "other_era": null,
+     "claim": "Reform laws in Mexico stripped the church of property",
+     "other_names_it": null,
+     "other_sentence": null
+    },
+    {
+     "field": "relationsSummary",
+     "sentence": "Rome pursued the Romanization of the continent's church, culminating in the 1899 Latin American Plenary Council.",
+     "other": "Latin American Plenary Council (1899)",
+     "other_id": null,
+     "other_id_note": "council; not census",
+     "other_era": null,
+     "claim": "Rome culminated Romanization in the 1899 council",
+     "other_names_it": null,
+     "other_sentence": null
+    },
+    {
+     "field": "relationsSummary",
+     "sentence": "Brazil's imperial church faced its own conflicts with the state.",
+     "other": "Brazilian imperial state",
+     "other_id": null,
+     "other_id_note": "state; not census",
+     "other_era": null,
+     "claim": "Brazil's imperial church conflicted with the state",
+     "other_names_it": null,
+     "other_sentence": null
+    },
+    {
+     "field": "longDescription",
+     "sentence": "The Spanish crown had run the church in its American empire under a papal grant, appointing the bishops and collecting the tithes.",
+     "other": "Spanish crown",
+     "other_id": null,
+     "other_id_note": "state; not census",
+     "other_era": null,
+     "claim": "The Spanish crown ran the church in its American empire",
+     "other_names_it": null,
+     "other_sentence": null
+    },
+    {
+     "field": "longDescription",
+     "sentence": "When the colonies won independence the new republics claimed exactly the same right, and Rome — which had backed the crown — took decades to recognize either the governments or their nominees, leaving dioceses vacant and seminaries shut for a generation.",
+     "other": "Rome (Holy See)",
+     "other_id": null,
+     "other_id_note": "institution; not census",
+     "other_era": null,
+     "claim": "Rome backed the crown and took decades to recognize the new republics",
+     "other_names_it": null,
+     "other_sentence": null
+    },
+    {
+     "field": "longDescription",
+     "sentence": "Sharpest in Mexico, where the Reform laws of the 1850s stripped the church of its property and drove it out of public life, and loudest in Brazil, where two bishops were tried and imprisoned in the 1870s.",
+     "other": "Mexico Reform laws (state)",
+     "other_id": null,
+     "other_id_note": "state; not census",
+     "other_era": null,
+     "claim": "Mexico Reform laws stripped the church of property",
+     "other_names_it": null,
+     "other_sentence": null
+    },
+    {
+     "field": "longDescription",
+     "sentence": "Sharpest in Mexico, where the Reform laws of the 1850s stripped the church of its property and drove it out of public life, and loudest in Brazil, where two bishops were tried and imprisoned in the 1870s.",
+     "other": "Brazilian state (bishops tried)",
+     "other_id": null,
+     "other_id_note": "state; not census",
+     "other_era": null,
+     "claim": "Brazilian state tried and imprisoned two bishops",
+     "other_names_it": null,
+     "other_sentence": null
+    },
+    {
+     "field": "longDescription",
+     "sentence": "Rome answered by tightening its grip, importing European clergy and religious orders, rebuilding seminaries on Roman lines, and in 1899 summoning the bishops of the whole continent to Rome for a first Latin American Plenary Council.",
+     "other": "European clergy and religious orders",
+     "other_id": null,
+     "other_id_note": "generic; not census",
+     "other_era": null,
+     "claim": "Rome imported European clergy and religious orders",
+     "other_names_it": null,
+     "other_sentence": null
+    },
+    {
+     "field": "legacy",
+     "sentence": "The 1899 council was the first time the continent's bishops met as a single body, and the continental conferences that followed — Rio in 1955, Medellin in 1968 — grew from that precedent.",
+     "other": "Latin American Plenary Council and continental conferences (Rio 1955, Medellin 1968)",
+     "other_id": null,
+     "other_id_note": "councils; not census",
+     "other_era": null,
+     "claim": "The 1899 council led to the continental conferences",
+     "other_names_it": null,
+     "other_sentence": null
+    },
+    {
+     "field": "why",
+     "sentence": "Mexico's Reform laws stripped the church of its property in the 1850s and Brazil imprisoned two of its own bishops in the 1870s, while ordinary Catholics kept their confraternities, patronal feasts and household saints going with far fewer priests than Europe had.",
+     "other": "Mexico Reform laws (state)",
+     "other_id": null,
+     "other_id_note": "state; not census",
+     "other_era": null,
+     "claim": "Mexico Reform laws stripped the church of property",
+     "other_names_it": null,
+     "other_sentence": null
+    },
+    {
+     "field": "why",
+     "sentence": "Mexico's Reform laws stripped the church of its property in the 1850s and Brazil imprisoned two of its own bishops in the 1870s, while ordinary Catholics kept their confraternities, patronal feasts and household saints going with far fewer priests than Europe had.",
+     "other": "Brazilian state",
+     "other_id": null,
+     "other_id_note": "state; not census",
+     "other_era": null,
+     "claim": "Brazil imprisoned two bishops",
+     "other_names_it": null,
+     "other_sentence": null
+    },
+    {
+     "field": "why",
+     "sentence": "When Spanish America's new republics claimed the same right to appoint bishops the Spanish crown once held, Rome took a generation to recognize either the governments or their nominees, leaving dioceses vacant and seminaries shut.",
+     "other": "Spanish crown",
+     "other_id": null,
+     "other_id_note": "state; not census",
+     "other_era": null,
+     "claim": "Spanish crown held the right to appoint bishops",
+     "other_names_it": null,
+     "other_sentence": null
+    }
+   ],
+   "hygiene": []
+  },
+  {
+   "id": "ethiopian-christianity-tewodros-to-menelik",
+   "name": "Ethiopian Christianity — Tewodros to Menelik",
+   "dates": "1855-1900",
+   "existing_links": [],
+   "relationships": [
+    {
+     "field": "relationsSummary",
+     "sentence": "Menelik II won the decisive victory over Italy at Adwa in 1896.",
+     "other": "Italy (Italian army)",
+     "other_id": null,
+     "other_id_note": "state; not census",
+     "other_era": null,
+     "claim": "Menelik II defeated Italy at Adwa",
+     "other_names_it": null,
+     "other_sentence": null
+    },
+    {
+     "field": "longDescription",
+     "sentence": "And its church, whose lands he seized and whose clergy he tried to bring under his hand, until his quarrel with Britain ended with a redcoat army at Magdala and his suicide in 1868.",
+     "other": "Britain (British army)",
+     "other_id": null,
+     "other_id_note": "state; not census",
+     "other_era": null,
+     "claim": "Tewodros quarrelled with Britain; British army at Magdala",
+     "other_names_it": null,
+     "other_sentence": null
+    },
+    {
+     "field": "longDescription",
+     "sentence": "And Ethiopia entered the twentieth century as an ancient Christian state that had never been colonized, its church still receiving its head, the abun, from the Coptic patriarch in Egypt.",
+     "other": "Coptic patriarch (Coptic Church)",
+     "other_id": "coptic-revival-under-cyril-iv",
+     "other_id_note": "census \"The Coptic Revival — Cyril IV and After\" (era 9, part 2); dates 1854-1906 fit",
+     "other_era": 9,
+     "claim": "Ethiopian church received its head from the Coptic patriarch",
+     "other_names_it": false,
+     "other_sentence": null
+    },
+    {
+     "field": "longDescription",
+     "sentence": "Menelik II then did what no other African ruler managed in that century — at Adwa in 1896 he destroyed an invading Italian army and kept his country independent.",
+     "other": "Italian army",
+     "other_id": null,
+     "other_id_note": "state; not census",
+     "other_era": null,
+     "claim": "Menelik II destroyed an invading Italian army at Adwa",
+     "other_names_it": null,
+     "other_sentence": null
+    },
+    {
+     "field": "why",
+     "sentence": "Tewodros II seized church lands and tried to bring the clergy under his own control, a quarrel that ended with a British army at Magdala and his suicide in 1868.",
+     "other": "British army",
+     "other_id": null,
+     "other_id_note": "state; not census",
+     "other_era": null,
+     "claim": "Tewodros quarrel ended with a British army at Magdala",
+     "other_names_it": null,
+     "other_sentence": null
+    },
+    {
+     "field": "why",
+     "sentence": "A decade later Yohannes IV settled a two-century theological argument over how Christ's divinity and humanity are united at the Council of Boru Meda, even as the church that ruling bound together still had to receive its own head, the abun, from the Coptic patriarch in Egypt.",
+     "other": "Coptic patriarch (Coptic Church)",
+     "other_id": "coptic-revival-under-cyril-iv",
+     "other_id_note": "census era-9 part 2 entry",
+     "other_era": 9,
+     "claim": "Ethiopian church received its head from the Coptic patriarch",
+     "other_names_it": false,
+     "other_sentence": null
+    },
+    {
+     "field": "legacy",
+     "sentence": "The Ethiopian Orthodox Tewahedo Church is one of the largest of the ancient Oriental Orthodox churches, and both things this century settled are still in place: the Tewahedo doctrine ruled at Boru Meda, and the independence Adwa secured.",
+     "other": "Oriental Orthodox churches",
+     "other_id": null,
+     "other_id_note": "generic; not census",
+     "other_era": null,
+     "claim": "Ethiopian church belongs to the Oriental Orthodox family",
+     "other_names_it": null,
+     "other_sentence": null
+    },
+    {
+     "field": "legacy",
+     "sentence": "The one arrangement that did change came later — the church received its first Ethiopian bishops in 1929 and its own patriarch in 1959, ending sixteen centuries of taking its head from Alexandria.",
+     "other": "Alexandria (Coptic patriarchate)",
+     "other_id": "coptic-revival-under-cyril-iv",
+     "other_id_note": "census era-9 part 2 entry (Coptic patriarchate)",
+     "other_era": 9,
+     "claim": "Ethiopian church took its head from Alexandria until 1959",
+     "other_names_it": false,
+     "other_sentence": null
+    },
+    {
+     "field": "legacy",
+     "sentence": "Adwa itself became a byword far beyond Ethiopia, a rallying point for Pan-Africanism and, in the Caribbean and the Americas, for movements that looked to Ethiopia as the image of an Africa that had never been conquered.",
+     "other": "Pan-Africanism",
+     "other_id": null,
+     "other_id_note": "movement; not census",
+     "other_era": null,
+     "claim": "Adwa became a rallying point for Pan-Africanism",
+     "other_names_it": null,
+     "other_sentence": null
+    },
+    {
+     "field": "legacy",
+     "sentence": "Adwa itself became a byword far beyond Ethiopia, a rallying point for Pan-Africanism and, in the Caribbean and the Americas, for movements that looked to Ethiopia as the image of an Africa that had never been conquered.",
+     "other": "Caribbean and American movements looking to Ethiopia",
+     "other_id": null,
+     "other_id_note": "generic; not census",
+     "other_era": null,
+     "claim": "Caribbean and American movements looked to Ethiopia",
+     "other_names_it": null,
+     "other_sentence": null
+    }
+   ],
+   "hygiene": []
+  }
+ ]
+}

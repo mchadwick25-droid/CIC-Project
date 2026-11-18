@@ -1,0 +1,11 @@
+source_file: mansi_sacrorum-conciliorum-collectio-tomus-16-lat_welter-facsimile1902.txt
+assignments:
+- row_id: mansi_sacrorum-conciliorum-collectio-tomus-16-lat_welter-facsimile1902--mansi-xvi-constantinople-869-870
+  work: 'Mansi XVI: Constantinople 869-870'
+  author: mansi
+  locus: 'the whole volume'
+  atlas_ids:
+  - byzantine-imperial-church-macedonian
+  role: tradition
+  confidence: provisional
+  note: 'The council''s own acts, inside this window.'

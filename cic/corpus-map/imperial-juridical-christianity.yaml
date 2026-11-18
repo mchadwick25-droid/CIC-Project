@@ -87,8 +87,82 @@ works:
   work: Apology to the Emperor (Apologia ad Constantium)
   author: athanasius
   locus: div1 18 — Apologia ad Constantium (357)
+  locus_ids:
+  - xviii.i
+  - xviii.i/notes
+  - xviii.ii.i
+  - xviii.ii.i/notes
+  - xviii.ii.ii
+  - xviii.ii.ii/notes
+  - xviii.ii.iii
+  - xviii.ii.iii/notes
+  - xviii.ii.iv
+  - xviii.ii.iv/notes
+  - xviii.ii.v
+  - xviii.ii.v/notes
+  - xviii.ii.vi
+  - xviii.ii.vi/notes
+  - xviii.ii.vii
+  - xviii.ii.vii/notes
+  - xviii.ii.viii
+  - xviii.ii.viii/notes
+  - xviii.ii.ix
+  - xviii.ii.ix/notes
+  - xviii.ii.x
+  - xviii.ii.x/notes
+  - xviii.ii.xi
+  - xviii.ii.xi/notes
+  - xviii.ii.xii
+  - xviii.ii.xii/notes
+  - xviii.ii.xiii
+  - xviii.ii.xiii/notes
+  - xviii.ii.xiv
+  - xviii.ii.xiv/notes
+  - xviii.ii.xv
+  - xviii.ii.xv/notes
+  - xviii.ii.xvi
+  - xviii.ii.xvi/notes
+  - xviii.ii.xvii
+  - xviii.ii.xvii/notes
+  - xviii.ii.xviii
+  - xviii.ii.xviii/notes
+  - xviii.ii.xix
+  - xviii.ii.xix/notes
+  - xviii.ii.xx
+  - xviii.ii.xx/notes
+  - xviii.ii.xxi
+  - xviii.ii.xxi/notes
+  - xviii.ii.xxii
+  - xviii.ii.xxii/notes
+  - xviii.ii.xxiii
+  - xviii.ii.xxiii/notes
+  - xviii.ii.xxiv
+  - xviii.ii.xxiv/notes
+  - xviii.ii.xxv
+  - xviii.ii.xxv/notes
+  - xviii.ii.xxvi
+  - xviii.ii.xxvi/notes
+  - xviii.ii.xxvii
+  - xviii.ii.xxvii/notes
+  - xviii.ii.xxviii
+  - xviii.ii.xxviii/notes
+  - xviii.ii.xxix
+  - xviii.ii.xxix/notes
+  - xviii.ii.xxx
+  - xviii.ii.xxx/notes
+  - xviii.ii.xxxi
+  - xviii.ii.xxxi/notes
+  - xviii.ii.xxxii
+  - xviii.ii.xxxii/notes
+  - xviii.ii.xxxiii
+  - xviii.ii.xxxiii/notes
+  - xviii.ii.xxxiv
+  - xviii.ii.xxxiv/notes
+  - xviii.ii.xxxv
+  - xviii.ii.xxxv/notes
   role: tradition
   confidence: assigned
+  language: eng
   note: 'A bishop''s formal self-defence addressed to the emperor in person - prime evidence
     for how church and imperial court dealt with one another, hence the ijc assignment alongside
     the author''s own entry.
@@ -99,8 +173,74 @@ works:
   work: Arian History (Historia Arianorum ad Monachos)
   author: athanasius
   locus: div1 20 — Historia Arianorum (358)
+  locus_ids:
+  - xx.i
+  - xx.i/notes
+  - xx.ii.i
+  - xx.ii.i/notes
+  - xx.ii.ii
+  - xx.ii.ii/notes
+  - xx.ii.iii/line41417
+  - xx.ii.iii/notes
+  - xx.ii.iii/line41480
+  - xx.ii.iii/line41511
+  - xx.ii.iii/line41542
+  - xx.ii.iii/line41568
+  - xx.ii.iii/line41603
+  - xx.ii.iii/line41656
+  - xx.ii.iii/line41682
+  - xx.ii.iii/line41713
+  - xx.ii.iii/line41761
+  - xx.ii.iii/line41783
+  - xx.ii.iii/line41822
+  - xx.ii.iii/line41863
+  - xx.ii.iv
+  - xx.ii.iv/notes
+  - xx.ii.v
+  - xx.ii.v/notes
+  - xx.ii.vi
+  - xx.ii.vi/notes
+  - xx.ii.vii/line42664
+  - xx.ii.vii/line42700
+  - xx.ii.vii/notes
+  - xx.ii.vii/line42730
+  - xx.ii.vii/line42770
+  - xx.ii.vii/line42808
+  - xx.ii.vii/line42852
+  - xx.ii.vii/line42882
+  - xx.ii.vii/line42912
+  - xx.ii.vii/line42949
+  - xx.ii.vii/line42975
+  - xx.ii.vii/line43007
+  - xx.ii.vii/line43051
+  - xx.ii.vii/line43075
+  - xx.ii.vii/line43116
+  - xx.ii.vii/line43155
+  - xx.ii.vii/line43181
+  - xx.ii.viii/line43210
+  - xx.ii.viii/notes
+  - xx.ii.viii/line43242
+  - xx.ii.viii/line43274
+  - xx.ii.viii/line43317
+  - xx.ii.viii/line43355
+  - xx.ii.viii/line43388
+  - xx.ii.viii/line43411
+  - xx.ii.viii/line43446
+  - xx.ii.viii/line43486
+  - xx.ii.viii/line43535
+  - xx.ii.viii/line43557
+  - xx.ii.viii/line43598
+  - xx.ii.viii/line43628
+  - xx.ii.viii/line43671
+  - xx.ii.viii/line43709
+  - xx.ii.viii/line43755
+  - xx.ii.viii/line43808
+  - xx.ii.viii/line43841
+  - xx.ii.viii/line43891
+  - xx.ii.viii/line43925
   role: tradition
   confidence: assigned
+  language: eng
   note: 'The fiercest of the historical apologies: a narrative of the Arian ascendancy naming
     Constantius as antichrist''s forerunner. Assigned three ways - the author''s entry; the
     homoian entry it describes from outside; and ijc, because its central question (''what

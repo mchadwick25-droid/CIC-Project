@@ -15,8 +15,7 @@ confidence:
   divergence_note: null
 sources:
 - source_id: desert.source.cassian-conferences
-  locus: 'Conference XXIV (Conference of Abbot Abraham, On Mortification), ch. VI - "A comparison showing
-    how a monk ought to keep guard over his thoughts" (npnf211 line 47378)'
+  locus: "Conference XXIV (Conference of Abbot Abraham, On Mortification), ch. VI - \"A comparison showing how a monk ought to keep guard over his thoughts\" (cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml, lines 47381-47390)"
   license: public-domain
 text: >-
   Wherefore a monk's whole attention should thus be fixed on one point, and the rise and circle of all
@@ -38,7 +37,7 @@ speaker_or_author: Abbot Abraham of Scetis, as Cassian records him
 license: verbatim
 modern_lens_note: >-
   This is nepsis - watchfulness, the sober attention that notices a thought arriving before it has
-  been consented to. The image is a builder's: a round vault is struck from a fixed centre, and every
+  been consented to. The image is a builder's: a round vault is struck from a fixed center, and every
   point of the curve is checked against it. Not vigilance as strain, but as constant reference to one
   point.
 retrieval:
@@ -49,7 +48,7 @@ retrieval:
 relations:
 - {type: illustrates, target: desert.gravity.spiritual-combat}
 use_note:
-  means: "Cassian records Abbot Abraham comparing a monk's attention fixed on the remembrance of God to a builder striking a round arch from its centre."
+  means: "Cassian records Abbot Abraham comparing a monk's attention fixed on the remembrance of God to a builder striking a round arch from its center."
   not_for:
     - "watchfulness as anxious self-policing or constant strain"
     - "Abraham's exact words rather than Cassian's literary Latin, written decades later in Gaul"
@@ -73,7 +72,7 @@ known for. It can now, from a named abbot, in a text it has always held.
 
 WHY THIS IMAGE AND NOT A SHARPER ONE. Watchfulness is easy to make sound
 like grim self-policing, and some of the tradition does read that way.
-Abraham's comparison is a craftsman's: the centre is not a rule being
+Abraham's comparison is a craftsman's: the center is not a rule being
 enforced but a point being referred to, and the work is skilled rather
 than anxious. That is closer to what the elders seem to have meant, and
 it is the kind of thing a participant asking "wasn't this just constant

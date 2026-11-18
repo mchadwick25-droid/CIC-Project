@@ -1,0 +1,76 @@
+file: harnack_vita-cypriani-commentary-lat-deu_1913.txt
+scheme: 'Harnack 1913: his seven numbered sections I to VII; inside section II the Latin text of Pontius, Vita Cypriani, by its chapter numbers (printed as chapter,paragraph at the head of each chapter), and inside section VII Harnack''s German translation by the same chapter numbers; section IV by Harnack''s numbered paragraphs 1 to 5 and section V by his lettered parts a to g; the commentary and the index are not divided further'
+curator: Sonnet 5.5
+status: sampled-ok
+rules:
+  - id: vita-latin
+    pattern: '^(?P<c>\d{1,2})[,.]\s?[1iIl]'
+    lines: [[407, 407], [518, 518], [666, 666], [733, 733], [774, 774], [866, 866], [882, 882], [987, 987], [1043, 1043], [1100, 1100], [1149, 1149], [1260, 1260], [1356, 1356], [1448, 1448], [1503, 1503], [1563, 1563], [1659, 1659], [1703, 1703], [1762, 1762]]
+    locus: 'section2/lat-vita{c|int}'
+    number: c
+  - id: vita-german
+    pattern: '^(?P<c>\d{1,2})[,.]\s?1 '
+    lines: [[4513, 4513], [4559, 4559], [4617, 4617], [4672, 4672], [4691, 4691], [4733, 4733], [4754, 4754], [4811, 4811], [4839, 4839], [4883, 4883], [4914, 4914], [4971, 4971], [5027, 5027], [5089, 5089], [5121, 5121], [5164, 5164], [5197, 5197], [5223, 5223], [5257, 5257]]
+    locus: 'section7/de-vita{c|int}'
+    number: c
+    fixes:
+      - line: 4733
+        set: {c: '6'}
+  - id: section4-par
+    pattern: '^(?P<n>\d)\. '
+    lines: [[2816, 2816], [2857, 2857], [2917, 2917], [2934, 2934], [2964, 2964]]
+    locus: 'section4/par{n|int}'
+    number: n
+divisions:
+  - {start_line: 256, locus: 'section1'}
+  - {start_line: 403, locus: 'section2'}
+  - {start_line: 1816, locus: 'section3'}
+  - {start_line: 2345, locus: 'section4'}
+  - {start_line: 3147, locus: 'section5'}
+  - {start_line: 3179, locus: 'section5/a'}
+  - {start_line: 3199, locus: 'section5/b'}
+  - {start_line: 3375, locus: 'section5/c'}
+  - {start_line: 3522, locus: 'section5/d'}
+  - {start_line: 3718, locus: 'section5/e'}
+  - {start_line: 3870, locus: 'section5/f'}
+  - {start_line: 4012, locus: 'section5/g'}
+  - {start_line: 4154, locus: 'section6'}
+  - {start_line: 4509, locus: 'section7'}
+apparatus:
+  - lines: [11, 255]
+    kind: front
+    locus: front
+  - lines: [5284, 7032]
+    kind: index
+    locus: index
+evidence:
+  - line: 256
+    quote: 'I.'
+  - line: 354
+    quote: 'I. Die Überlieferung und die Abfassungszeifc der Schrift. 3'
+  - line: 1816
+    quote: 'III.'
+  - line: 3147
+    quote: 'Y.'
+  - line: 3221
+    quote: 'V. Das Christentam und die christliche Sprache des Pontius. 59'
+  - line: 4509
+    quote: 'YII. Übersetzung.'
+  - line: 4545
+    quote: 'VII. Übersetzung. 87'
+  - line: 407
+    quote: '1.1 Cyprianus religiosus'
+  - line: 1260
+    quote: '12,ilam nunc'
+  - line: 864
+    quote: 'II. Vita Cypriaui 0,1—7,2.'
+  - line: 4733
+    quote: '0,1 Wer ist imstande'
+  - line: 4559
+    quote: '2.1 Wo soll ich anfangen?'
+  - line: 2816
+    quote: '1. Obgleich der Verfasser'
+  - line: 3179
+    quote: 'a) Der Typus ist ein undogmatischer.'
+  - line: 4012
+    quote: 'g) Der Typus stellt'

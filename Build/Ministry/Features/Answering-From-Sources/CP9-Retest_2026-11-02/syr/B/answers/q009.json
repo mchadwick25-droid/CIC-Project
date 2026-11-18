@@ -1,0 +1,184 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "syr.dw.corpus-and-its-edges"
+   ],
+   "sentence": "Much of what we tell you can be checked, and the weak places are ones we name ourselves."
+  },
+  {
+   "record_ids": [
+    "syr.dw.corpus-and-its-edges"
+   ],
+   "sentence": "Our two great voices are solid: the sage's letters date themselves to the year, and the poet's hymns survive in ancient copies."
+  },
+  {
+   "record_ids": [
+    "syr.dw.corpus-and-its-edges"
+   ],
+   "sentence": "The flood line is the oldest dated word about us, though we cannot be sure it stood in the first record."
+  },
+  {
+   "record_ids": [
+    "syr.dw.corpus-and-its-edges"
+   ],
+   "sentence": "The story of the king who wrote to Jesus is a legend, written down generations later to give our church an apostolic beginning."
+  },
+  {
+   "record_ids": [
+    "syr.gravity.raza-shrara-method"
+   ],
+   "sentence": "Our way of teaching by symbol rests above all on Ephrem, and the sage's use of types is plainer."
+  },
+  {
+   "record_ids": [
+    "syr.force.qyama-commitment"
+   ],
+   "sentence": "The covenant's first datable witness is Demonstration 6, from 337, and no source says how much earlier the order began."
+  },
+  {
+   "record_ids": [
+    "syr.gravity.authority-ambiguity"
+   ],
+   "sentence": "Who held authority never resolves, and the sage may or may not have been a bishop."
+  },
+  {
+   "record_ids": [
+    "syr.dw.corpus-and-its-edges"
+   ],
+   "sentence": "The record is thinnest where it always is: ordinary believers, the women whose singing everyone heard, and the enslaved left no words that were kept."
+  },
+  {
+   "record_ids": [
+    "syr.dw.corpus-and-its-edges",
+    "syr.term.anti-jewish-polemic"
+   ],
+   "sentence": "The Jewish answers to our teachers were not kept at all."
+  }
+ ],
+ "citations": [
+  "syr.dw.corpus-and-its-edges",
+  "syr.force.qyama-commitment",
+  "syr.gravity.authority-ambiguity",
+  "syr.gravity.raza-shrara-method",
+  "syr.term.anti-jewish-polemic"
+ ],
+ "group": "A",
+ "id": "q009",
+ "net_sentences": [
+  {
+   "draft": "Much of what we tell you can be checked, and the weak places are ones we name ourselves [[syr.dw.corpus-and-its-edges]] [[as:paraphrase]].",
+   "sentence": "Much of what we tell you can be checked, and the weak places are ones we name ourselves.",
+   "tags": [
+    "syr.dw.corpus-and-its-edges"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Our two great voices are solid: the sage's letters date themselves to the year, and the poet's hymns survive in ancient copies [[syr.dw.corpus-and-its-edges]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "Our two great voices are solid: the sage's letters date themselves to the year, and the poet's hymns survive in ancient copies.",
+   "tags": [
+    "syr.dw.corpus-and-its-edges"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "The flood line is the oldest dated word about us, though we cannot be sure it stood in the first record [[syr.dw.corpus-and-its-edges]] [[as:paraphrase]].",
+   "sentence": "The flood line is the oldest dated word about us, though we cannot be sure it stood in the first record.",
+   "tags": [
+    "syr.dw.corpus-and-its-edges"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "The story of the king who wrote to Jesus is a legend, written down generations later to give our church an apostolic beginning [[syr.dw.corpus-and-its-edges]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "The story of the king who wrote to Jesus is a legend, written down generations later to give our church an apostolic beginning.",
+   "tags": [
+    "syr.dw.corpus-and-its-edges"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "Our way of teaching by symbol rests above all on Ephrem, and the sage's use of types is plainer [[syr.gravity.raza-shrara-method]] [[as:paraphrase]].",
+   "ratio": 0.8,
+   "sentence": "Our way of teaching by symbol rests above all on Ephrem, and the sage's use of types is plainer.",
+   "tags": [
+    "syr.gravity.raza-shrara-method"
+   ],
+   "verdict": "ok",
+   "why": "grounded 80% in own tagged records"
+  },
+  {
+   "draft": "The covenant's first datable witness is Demonstration 6, from 337, and no source says how much earlier the order began [[syr.force.qyama-commitment]] [[as:paraphrase]].",
+   "ratio": 0.91,
+   "sentence": "The covenant's first datable witness is Demonstration 6, from 337, and no source says how much earlier the order began.",
+   "tags": [
+    "syr.force.qyama-commitment"
+   ],
+   "verdict": "ok",
+   "why": "grounded 91% in own tagged records"
+  },
+  {
+   "draft": "Who held authority never resolves, and the sage may or may not have been a bishop [[syr.gravity.authority-ambiguity]] [[as:paraphrase]].",
+   "ratio": 0.71,
+   "sentence": "Who held authority never resolves, and the sage may or may not have been a bishop.",
+   "tags": [
+    "syr.gravity.authority-ambiguity"
+   ],
+   "verdict": "ok",
+   "why": "grounded 71% in own tagged records"
+  },
+  {
+   "draft": "The record is thinnest where it always is: ordinary believers, the women whose singing everyone heard, and the enslaved left no words that were kept [[syr.dw.corpus-and-its-edges]] [[as:paraphrase]].",
+   "sentence": "The record is thinnest where it always is: ordinary believers, the women whose singing everyone heard, and the enslaved left no words that were kept.",
+   "tags": [
+    "syr.dw.corpus-and-its-edges"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "The Jewish answers to our teachers were not kept at all [[syr.dw.corpus-and-its-edges]] [[syr.term.anti-jewish-polemic]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "The Jewish answers to our teachers were not kept at all.",
+   "tags": [
+    "syr.dw.corpus-and-its-edges",
+    "syr.term.anti-jewish-polemic"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  }
+ ],
+ "offered": [
+  "syr.dw.corpus-and-its-edges",
+  "syr.term.raza-shrara",
+  "syr.term.anti-jewish-polemic",
+  "syr.term.ewangeliyon-da-mhallete",
+  "syr.story.basil-legend",
+  "syr.quote.pearl-mysteries",
+  "syr.quote.tatian-barbaric-writings",
+  "syr.gravity.diatessaron-normative",
+  "syr.gravity.raza-shrara-method",
+  "syr.quote.a-pearl-upon-the-palm",
+  "syr.gravity.authority-ambiguity",
+  "syr.force.qyama-commitment"
+ ],
+ "raw_text": "Much of what we tell you can be checked, and the weak places are ones we name ourselves [[syr.dw.corpus-and-its-edges]] [[as:paraphrase]]. Our two great voices are solid: the sage's letters date themselves to the year, and the poet's hymns survive in ancient copies [[syr.dw.corpus-and-its-edges]] [[as:paraphrase]]. The flood line is the oldest dated word about us, though we cannot be sure it stood in the first record [[syr.dw.corpus-and-its-edges]] [[as:paraphrase]]. The story of the king who wrote to Jesus is a legend, written down generations later to give our church an apostolic beginning [[syr.dw.corpus-and-its-edges]] [[as:paraphrase]]. Our way of teaching by symbol rests above all on Ephrem, and the sage's use of types is plainer [[syr.gravity.raza-shrara-method]] [[as:paraphrase]]. The covenant's first datable witness is Demonstration 6, from 337, and no source says how much earlier the order began [[syr.force.qyama-commitment]] [[as:paraphrase]]. Who held authority never resolves, and the sage may or may not have been a bishop [[syr.gravity.authority-ambiguity]] [[as:paraphrase]]. The record is thinnest where it always is: ordinary believers, the women whose singing everyone heard, and the enslaved left no words that were kept [[syr.dw.corpus-and-its-edges]] [[as:paraphrase]]. The Jewish answers to our teachers were not kept at all [[syr.dw.corpus-and-its-edges]] [[syr.term.anti-jewish-polemic]] [[as:paraphrase]].\n",
+ "reply_shape": {
+  "placed": [],
+  "removed": [],
+  "repaired": []
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": "C16.S2",
+ "text": "Much of what we tell you can be checked, and the weak places are ones we name ourselves. Our two great voices are solid: the sage's letters date themselves to the year, and the poet's hymns survive in ancient copies. The flood line is the oldest dated word about us, though we cannot be sure it stood in the first record. The story of the king who wrote to Jesus is a legend, written down generations later to give our church an apostolic beginning. Our way of teaching by symbol rests above all on Ephrem, and the sage's use of types is plainer. The covenant's first datable witness is Demonstration 6, from 337, and no source says how much earlier the order began. Who held authority never resolves, and the sage may or may not have been a bishop. The record is thinnest where it always is: ordinary believers, the women whose singing everyone heard, and the enslaved left no words that were kept. The Jewish answers to our teachers were not kept at all.",
+ "voice_set_aside": false
+}

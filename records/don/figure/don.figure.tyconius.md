@@ -48,7 +48,7 @@ relations:
 ---
 THE SINGLE EXCEPTION TO THIS WORLD'S OWN THINNESS IN THEOLOGY, AND A
 BOUNDED ONE. This communion argues one question - sacramental validity -
-with real rigour and almost nothing else; speculative and hermeneutical
+with real rigor and almost nothing else; speculative and hermeneutical
 theology beyond Tyconius is a genuine disclosed absence, independently
 confirmed across four of this world's construction documents. His Book
 of Rules is the substantial exception, and even its own seven rules have

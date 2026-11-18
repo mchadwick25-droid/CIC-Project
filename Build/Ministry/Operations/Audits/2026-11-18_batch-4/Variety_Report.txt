@@ -1,0 +1,6 @@
+12 briefs; a move in more than 3 is marked
+ok    1  an unnamed opening, then the name revealed: martin-of-tours
+OVER  8  a setting slot (a time and a place stacked in one early sentence, or "in what is now" more than once): benedict-of-nursia, clement-of-alexandria, columba, council-of-nicaea-325, cyril-and-methodius, hild-of-whitby, macrina-the-younger, martin-of-tours
+OVER  8  the "Most of what we know" witness formula: antony-the-great, clement-of-alexandria, cyril-and-methodius, dhuoda, hild-of-whitby, macrina-the-younger, marcion-of-pontus, martin-of-tours
+ok    1  a sentence opening with "Yet": benedict-of-nursia
+OVER 10  an ending on a later writer or institution (a later time marker in the last two paragraphs): benedict-of-nursia, clement-of-alexandria, columba, council-of-nicaea-325, cyril-and-methodius, dhuoda, hild-of-whitby, macrina-the-younger, martin-of-tours, radegund

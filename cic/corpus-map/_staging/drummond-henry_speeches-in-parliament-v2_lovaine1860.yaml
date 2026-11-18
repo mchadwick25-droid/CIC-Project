@@ -1,0 +1,13 @@
+source_file: drummond-henry_speeches-in-parliament-v2_lovaine1860.txt
+assignments:
+- row_id: drummond-henry_speeches-in-parliament-v2_lovaine1860--drummond-pamphlets-v2
+  work: 'Drummond, Speeches in Parliament and Some Miscellaneous Pamphlets, vol. II: the pamphlets (ed. Lovaine, 1860)'
+  author: drummond-henry
+  locus: 'the pamphlets at OCR lines 98-17317; the church pamphlets of 1841-1843 at 8972-11364; add 12 to OCR line numbers'
+  atlas_ids:
+  - catholic-apostolic-church-irvingites
+  role: tradition
+  confidence: provisional
+  language: eng
+  date: {start: 1829, end: 1860, source: "the pamphlets' own leaves are dated from 1829 to 1853; title page 1860", formation_confidence: Documented}
+  note: 'Drummond''s own pamphlets on currency, reform and the churches, gathered after his death. None is titled as a statement of the Catholic Apostolic Church; the church pamphlets speak of its fourfold ministry in passing.'

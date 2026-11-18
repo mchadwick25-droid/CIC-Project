@@ -1,0 +1,220 @@
+{
+  "items_both_labelled": 80,
+  "verdict_agreement": 0.92,
+  "verdict_kappa": 0.7500000000000001,
+  "class_agreement": 0.9125,
+  "class_kappa": 0.78328173374613,
+  "disagreements": 7,
+  "queue": [
+    {
+      "item_id": "gs-232f3aa60d42",
+      "first": "unsupported",
+      "second": "supported",
+      "disagree": true,
+      "key_class": false,
+      "first_model": "claude-opus-5-5",
+      "second_model": "claude-fable-5-1",
+      "why": "disagreement"
+    },
+    {
+      "item_id": "gs-2a72bae99d85",
+      "first": "supported",
+      "second": "false_friend",
+      "disagree": true,
+      "key_class": true,
+      "first_model": "claude-opus-5-5",
+      "second_model": "claude-fable-5-1",
+      "why": "disagreement"
+    },
+    {
+      "item_id": "gs-3e9ffe22ae65",
+      "first": "supported",
+      "second": "unsupported",
+      "disagree": true,
+      "key_class": false,
+      "first_model": "claude-opus-5-5",
+      "second_model": "claude-fable-5-1",
+      "why": "disagreement"
+    },
+    {
+      "item_id": "gs-822ba27c3cb7",
+      "first": "unsupported",
+      "second": "unsupported",
+      "disagree": false,
+      "key_class": true,
+      "first_model": "claude-opus-5-5",
+      "second_model": "claude-fable-5-1",
+      "why": "key class"
+    },
+    {
+      "item_id": "gs-a1599b03d36d",
+      "first": "unsupported",
+      "second": "supported",
+      "disagree": true,
+      "key_class": false,
+      "first_model": "claude-opus-5-5",
+      "second_model": "claude-fable-5-1",
+      "why": "disagreement"
+    },
+    {
+      "item_id": "gs-a96fefb66174",
+      "first": "supported",
+      "second": "negation_modal_shift",
+      "disagree": true,
+      "key_class": true,
+      "first_model": "claude-opus-5-5",
+      "second_model": "claude-fable-5-1",
+      "why": "disagreement"
+    },
+    {
+      "item_id": "gs-b9769f315b8e",
+      "first": "negation_modal_shift",
+      "second": "negation_modal_shift",
+      "disagree": false,
+      "key_class": true,
+      "first_model": "claude-opus-5-5",
+      "second_model": "claude-fable-5-1",
+      "why": "key class"
+    },
+    {
+      "item_id": "gs-c7ed33cb0c25",
+      "first": "generalisation",
+      "second": "generalisation",
+      "disagree": false,
+      "key_class": true,
+      "first_model": "claude-opus-5-5",
+      "second_model": "claude-fable-5-1",
+      "why": "key class"
+    },
+    {
+      "item_id": "gs-db7c8bc9817f",
+      "first": "unsupported",
+      "second": "supported",
+      "disagree": true,
+      "key_class": false,
+      "first_model": "claude-opus-5-5",
+      "second_model": "claude-fable-5-1",
+      "why": "disagreement"
+    },
+    {
+      "item_id": "gs-ed056649d62d",
+      "first": "cannot_judge",
+      "second": "supported",
+      "disagree": true,
+      "key_class": false,
+      "first_model": "claude-opus-5-5",
+      "second_model": "claude-fable-5-1",
+      "why": "disagreement"
+    },
+    {
+      "item_id": "gs-f9722dfc2039",
+      "first": "unsupported",
+      "second": "unsupported",
+      "disagree": false,
+      "key_class": true,
+      "first_model": "claude-opus-5-5",
+      "second_model": "claude-fable-5-1",
+      "why": "key class"
+    },
+    {
+      "item_id": "gs-f3b692684119",
+      "first": "supported",
+      "second": "supported",
+      "disagree": false,
+      "key_class": false,
+      "first_model": "claude-opus-5-5",
+      "second_model": "claude-fable-5-1",
+      "why": "random sample of agreements"
+    },
+    {
+      "item_id": "gs-d158985f1252",
+      "first": "supported",
+      "second": "supported",
+      "disagree": false,
+      "key_class": false,
+      "first_model": "claude-opus-5-5",
+      "second_model": "claude-fable-5-1",
+      "why": "random sample of agreements"
+    },
+    {
+      "item_id": "gs-6e0b6edd46a0",
+      "first": "cannot_judge",
+      "second": "cannot_judge",
+      "disagree": false,
+      "key_class": false,
+      "first_model": "claude-opus-5-5",
+      "second_model": "claude-fable-5-1",
+      "why": "random sample of agreements"
+    },
+    {
+      "item_id": "gs-aa0ac81baba4",
+      "first": "supported",
+      "second": "supported",
+      "disagree": false,
+      "key_class": false,
+      "first_model": "claude-opus-5-5",
+      "second_model": "claude-fable-5-1",
+      "why": "random sample of agreements"
+    },
+    {
+      "item_id": "gs-d2eb75708983",
+      "first": "supported",
+      "second": "supported",
+      "disagree": false,
+      "key_class": false,
+      "first_model": "claude-opus-5-5",
+      "second_model": "claude-fable-5-1",
+      "why": "random sample of agreements"
+    },
+    {
+      "item_id": "gs-839af3695103",
+      "first": "supported",
+      "second": "supported",
+      "disagree": false,
+      "key_class": false,
+      "first_model": "claude-opus-5-5",
+      "second_model": "claude-fable-5-1",
+      "why": "random sample of agreements"
+    },
+    {
+      "item_id": "gs-35fdbaf0cc09",
+      "first": "supported",
+      "second": "supported",
+      "disagree": false,
+      "key_class": false,
+      "first_model": "claude-opus-5-5",
+      "second_model": "claude-fable-5-1",
+      "why": "random sample of agreements"
+    },
+    {
+      "item_id": "gs-b69d41e4e3ec",
+      "first": "supported",
+      "second": "supported",
+      "disagree": false,
+      "key_class": false,
+      "first_model": "claude-opus-5-5",
+      "second_model": "claude-fable-5-1",
+      "why": "random sample of agreements"
+    },
+    {
+      "item_id": "gs-9eacce47fc89",
+      "first": "supported",
+      "second": "supported",
+      "disagree": false,
+      "key_class": false,
+      "first_model": "claude-opus-5-5",
+      "second_model": "claude-fable-5-1",
+      "why": "random sample of agreements"
+    },
+    {
+      "item_id": "gs-74892c2321a1",
+      "first": "supported",
+      "second": "supported",
+      "disagree": false,
+      "key_class": false,
+      "first_model": "claude-opus-5-5",
+      "second_model": "claude-fable-5-1",
+      "why": "random sample of agreements"
+    }
+  ]
+}

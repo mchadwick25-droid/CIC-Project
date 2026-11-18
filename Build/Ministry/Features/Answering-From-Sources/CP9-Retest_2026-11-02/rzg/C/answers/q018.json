@@ -1,0 +1,170 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "rzg.witness.why-the-children-too"
+   ],
+   "sentence": "Among us, a person joined through baptism, and we baptised infants, children included from birth."
+  },
+  {
+   "record_ids": [
+    "rzg.witness.why-the-children-too"
+   ],
+   "sentence": "We held a whole believing city, infants included, to be the covenant shape Scripture itself describes."
+  },
+  {
+   "record_ids": [
+    "rzg.witness.why-the-children-too",
+    "rzg.force.anabaptist-schism"
+   ],
+   "sentence": "The Anabaptists answered that only a believer's own chosen profession makes a true member."
+  },
+  {
+   "record_ids": [
+    "rzg.passage.549ba3a328ed"
+   ],
+   "sentence": "Bullinger, in The Second Helvetic Confession (1566), writes that to be baptized in the name of Christ is to be enrolled, initiated, and received into the covenant."
+  },
+  {
+   "record_ids": [
+    "rzg.passage.549ba3a328ed"
+   ],
+   "sentence": "Bullinger, in The Second Helvetic Confession (1566), writes that there is only one baptism, and that it lasts for life."
+  },
+  {
+   "record_ids": [
+    "rzg.passage.0f37f4a6090b"
+   ],
+   "sentence": "For the order of the rite, the Kirk of Scotland, in The Book of Common Order (the Forme of Prayers of the English congregation at Geneva, 1556, as adopted in Scotland), writes that the sacraments are left to the congregation, not used in private corners."
+  },
+  {
+   "record_ids": [
+    "rzg.passage.0f37f4a6090b"
+   ],
+   "sentence": "The Kirk of Scotland, in the same book, writes that the infant is brought to the church on the day appointed for Common Prayer and Preaching, with the father and godfather."
+  },
+  {
+   "record_ids": [
+    "rzg.passage.0f37f4a6090b"
+   ],
+   "sentence": "The Kirk of Scotland, in the same book, writes that after the sermon the child is presented to the minister, who asks whether they present it desiring that it be ingrafted in the body of Christ."
+  }
+ ],
+ "citations": [
+  "rzg.force.anabaptist-schism",
+  "rzg.passage.0f37f4a6090b",
+  "rzg.passage.549ba3a328ed",
+  "rzg.witness.why-the-children-too"
+ ],
+ "group": "A",
+ "id": "q018",
+ "net_sentences": [
+  {
+   "draft": "Among us, a person joined through baptism, and we baptised infants, children included from birth [[rzg.witness.why-the-children-too]] [[as:paraphrase]].",
+   "sentence": "Among us, a person joined through baptism, and we baptised infants, children included from birth.",
+   "tags": [
+    "rzg.witness.why-the-children-too"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "We held a whole believing city, infants included, to be the covenant shape Scripture itself describes [[rzg.witness.why-the-children-too]] [[as:paraphrase]].",
+   "sentence": "We held a whole believing city, infants included, to be the covenant shape Scripture itself describes.",
+   "tags": [
+    "rzg.witness.why-the-children-too"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "The Anabaptists answered that only a believer's own chosen profession makes a true member [[rzg.witness.why-the-children-too]] [[rzg.force.anabaptist-schism]] [[as:paraphrase]].",
+   "ratio": 0.88,
+   "sentence": "The Anabaptists answered that only a believer's own chosen profession makes a true member.",
+   "tags": [
+    "rzg.witness.why-the-children-too",
+    "rzg.force.anabaptist-schism"
+   ],
+   "verdict": "ok",
+   "why": "grounded 88% in own tagged records"
+  },
+  {
+   "draft": "Bullinger, in The Second Helvetic Confession (1566), writes that to be baptized in the name of Christ is to be enrolled, initiated, and received into the covenant [[rzg.passage.549ba3a328ed]] [[as:paraphrase]].",
+   "ratio": 0.83,
+   "sentence": "Bullinger, in The Second Helvetic Confession (1566), writes that to be baptized in the name of Christ is to be enrolled, initiated, and received into the covenant.",
+   "tags": [
+    "rzg.passage.549ba3a328ed"
+   ],
+   "verdict": "ok",
+   "why": "grounded 83% in own tagged records"
+  },
+  {
+   "draft": "Bullinger, in The Second Helvetic Confession (1566), writes that there is only one baptism, and that it lasts for life [[rzg.passage.549ba3a328ed]] [[as:paraphrase]].",
+   "ratio": 0.88,
+   "sentence": "Bullinger, in The Second Helvetic Confession (1566), writes that there is only one baptism, and that it lasts for life.",
+   "tags": [
+    "rzg.passage.549ba3a328ed"
+   ],
+   "verdict": "ok",
+   "why": "grounded 88% in own tagged records"
+  },
+  {
+   "draft": "For the order of the rite, the Kirk of Scotland, in The Book of Common Order (the Forme of Prayers of the English congregation at Geneva, 1556, as adopted in Scotland), writes that the sacraments are left to the congregation, not used in private corners [[rzg.passage.0f37f4a6090b]] [[as:paraphrase]].",
+   "ratio": 0.89,
+   "sentence": "For the order of the rite, the Kirk of Scotland, in The Book of Common Order (the Forme of Prayers of the English congregation at Geneva, 1556, as adopted in Scotland), writes that the sacraments are left to the congregation, not used in private corners.",
+   "tags": [
+    "rzg.passage.0f37f4a6090b"
+   ],
+   "verdict": "ok",
+   "why": "grounded 89% in own tagged records"
+  },
+  {
+   "draft": "The Kirk of Scotland, in the same book, writes that the infant is brought to the church on the day appointed for Common Prayer and Preaching, with the father and godfather [[rzg.passage.0f37f4a6090b]] [[as:paraphrase]].",
+   "ratio": 0.93,
+   "sentence": "The Kirk of Scotland, in the same book, writes that the infant is brought to the church on the day appointed for Common Prayer and Preaching, with the father and godfather.",
+   "tags": [
+    "rzg.passage.0f37f4a6090b"
+   ],
+   "verdict": "ok",
+   "why": "grounded 93% in own tagged records"
+  },
+  {
+   "draft": "The Kirk of Scotland, in the same book, writes that after the sermon the child is presented to the minister, who asks whether they present it desiring that it be ingrafted in the body of Christ [[rzg.passage.0f37f4a6090b]] [[as:paraphrase]].",
+   "ratio": 0.75,
+   "sentence": "The Kirk of Scotland, in the same book, writes that after the sermon the child is presented to the minister, who asks whether they present it desiring that it be ingrafted in the body of Christ.",
+   "tags": [
+    "rzg.passage.0f37f4a6090b"
+   ],
+   "verdict": "ok",
+   "why": "grounded 75% in own tagged records"
+  }
+ ],
+ "offered": [
+  "rzg.witness.why-the-children-too",
+  "rzg.quote.christ-the-mirror-of-election",
+  "rzg.gravity.sovereignty-of-god-predestination-election",
+  "rzg.force.anabaptist-schism",
+  "rzg.force.selective-reception-four-descendant-traditions",
+  "rzg.witness.a-quieted-mind",
+  "rzg.term.disputation",
+  "rzg.quote.taught-better-from-scripture",
+  "rzg.limit.consistory-case-narrative",
+  "rzg.term.consistory",
+  "rzg.quote.seniors-selected-from-the-people",
+  "rzg.gravity.council-led-authority-vs-consistorial-independence",
+  "rzg.passage.0f37f4a6090b",
+  "rzg.passage.549ba3a328ed"
+ ],
+ "raw_text": "Among us, a person joined through baptism, and we baptised infants, children included from birth [[rzg.witness.why-the-children-too]] [[as:paraphrase]]. We held a whole believing city, infants included, to be the covenant shape Scripture itself describes [[rzg.witness.why-the-children-too]] [[as:paraphrase]]. The Anabaptists answered that only a believer's own chosen profession makes a true member [[rzg.witness.why-the-children-too]] [[rzg.force.anabaptist-schism]] [[as:paraphrase]]. Bullinger, in The Second Helvetic Confession (1566), writes that to be baptized in the name of Christ is to be enrolled, initiated, and received into the covenant [[rzg.passage.549ba3a328ed]] [[as:paraphrase]]. Bullinger, in The Second Helvetic Confession (1566), writes that there is only one baptism, and that it lasts for life [[rzg.passage.549ba3a328ed]] [[as:paraphrase]]. For the order of the rite, the Kirk of Scotland, in The Book of Common Order (the Forme of Prayers of the English congregation at Geneva, 1556, as adopted in Scotland), writes that the sacraments are left to the congregation, not used in private corners [[rzg.passage.0f37f4a6090b]] [[as:paraphrase]]. The Kirk of Scotland, in the same book, writes that the infant is brought to the church on the day appointed for Common Prayer and Preaching, with the father and godfather [[rzg.passage.0f37f4a6090b]] [[as:paraphrase]]. The Kirk of Scotland, in the same book, writes that after the sermon the child is presented to the minister, who asks whether they present it desiring that it be ingrafted in the body of Christ [[rzg.passage.0f37f4a6090b]] [[as:paraphrase]].\n",
+ "reply_shape": {
+  "placed": [],
+  "removed": [],
+  "repaired": []
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": "C7.S1",
+ "text": "Among us, a person joined through baptism, and we baptised infants, children included from birth. We held a whole believing city, infants included, to be the covenant shape Scripture itself describes. The Anabaptists answered that only a believer's own chosen profession makes a true member. Bullinger, in The Second Helvetic Confession (1566), writes that to be baptized in the name of Christ is to be enrolled, initiated, and received into the covenant. Bullinger, in The Second Helvetic Confession (1566), writes that there is only one baptism, and that it lasts for life. For the order of the rite, the Kirk of Scotland, in The Book of Common Order (the Forme of Prayers of the English congregation at Geneva, 1556, as adopted in Scotland), writes that the sacraments are left to the congregation, not used in private corners. The Kirk of Scotland, in the same book, writes that the infant is brought to the church on the day appointed for Common Prayer and Preaching, with the father and godfather. The Kirk of Scotland, in the same book, writes that after the sermon the child is presented to the minister, who asks whether they present it desiring that it be ingrafted in the body of Christ.",
+ "voice_set_aside": false
+}

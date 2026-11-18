@@ -64,7 +64,7 @@ modern_rendering: So even if some of these virgins killed themselves to escape s
   to escape another’s crime by a sin of their own. Whoever charges them with great wickedness for this
   is himself not free of the fault of folly. It is not lawful to take the law into our own hands and kill
   even a guilty person, whose death no public sentence has ordered. If so, then surely whoever kills himself
-  commits homicide. He is the guiltier of his own death, the more innocent he was of the offence for which
+  commits homicide. He is the guiltier of his own death, the more innocent he was of the offense for which
   he condemned himself to die.
 ---
 Augustine, City of God, Book I, chapter 17. English in the NPNF translation at cic/texts/npnf102_augustine-city-of-god-christian-doctrine.xml, lines 2431-2441. Latin (Hoffmann, CSEL 40) at cic/texts/augustine_civitate-dei-1-13-lat_hoffmann-csel40-1.txt, lines 2717-2725. The passage is the first three sentences of chapter 17. The words after it, on Judas, are at lpc.quote.no-place-for-a-healing-penitence and are meant to be read with it. 'These virgins' and 'such disgrace' look back to chapter 16, outside the passage, on the violation of virgins in captivity. In the Latin, quis humanus adfectus eis nolit ignosci is 'what human feeling would be unwilling that they be forgiven' and profecto etiam qui se ipsum occidit homicida est is 'surely he who kills himself is also a homicide'. This record is retrieved only for historical or teaching questions about what Augustine taught. The passage carries the witness lpc.witness.no-one-may-take-his-own-life.

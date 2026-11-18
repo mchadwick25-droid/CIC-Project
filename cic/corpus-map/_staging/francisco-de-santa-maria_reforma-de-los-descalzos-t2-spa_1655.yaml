@@ -1,0 +1,11 @@
+source_file: francisco-de-santa-maria_reforma-de-los-descalzos-t2-spa_1655.txt
+assignments:
+- row_id: francisco-de-santa-maria_reforma-de-los-descalzos-t2-spa_1655--reforma-de-los-descalzos-tomo-ii-1655
+  work: "Reforma de los Descalzos, tomo II (1655)"
+  author: francisco-de-santa-maria
+  locus: "the whole volume; add 12 to OCR line numbers for this file's own"
+  atlas_ids:
+  - catholic-church-ancien-regime
+  role: tradition
+  confidence: provisional
+  note: "The Discalced Carmelites' own history, written by the order's general historian and printed in 1655. Within this entry's window (1650-1815)."

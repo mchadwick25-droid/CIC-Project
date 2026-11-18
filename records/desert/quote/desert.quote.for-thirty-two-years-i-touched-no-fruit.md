@@ -16,8 +16,7 @@ confidence:
     Documented as Palladius's own report, gathered on visits he describes making. He names his informants where he has them, and marks what he heard from the man himself.
 sources:
 - source_id: desert.source.palladius-lausiac-history
-  locus: >-
-    Lausiac History ch. XLV (Philoromus), in Clarke's translation (palladius_lausiac-history_clarke1918.txt)
+  locus: "Lausiac History ch. XLV (Philoromus), in Clarke's translation (cic/texts/palladius_lausiac-history_clarke1918.txt, line 495)"
   license: public-domain
 text: >-
   He renounced the world in the days of Julian the infamous Emperor, and spoke to him with boldness. Julian ordered him to be shaved and buffeted by boys. He endured the ordeal patiently and expressed his thanks to Julian, as he told us himself. ... He told us this: "For thirty-two years I touched no fruit." Once when timidity attacked him, in order to get rid of it, he shut himself up in a tomb for six years.

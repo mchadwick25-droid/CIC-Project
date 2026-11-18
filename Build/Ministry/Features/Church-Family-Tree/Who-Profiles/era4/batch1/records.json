@@ -1,0 +1,1630 @@
+{
+ "bede-of-jarrow": {
+  "claims": [
+   {
+    "claim": "Deathbed, Cuthbert's letter in Plummer's English: 'Then the same boy, named Wilbert, said once more: \"There is still one sentence, dear master, which is not written down.\" And he said, \"Well, then, write it.\" And after a little space the boy said: \"Now it is finished.\" And he answered: \"Well, thou hast spoken truth; it is finished. Take my head in thy hands, for it much delights me to sit opposite my holy place where I used to pray, that so sitting I may call upon my Father.\" And thus upon the floor of his cell singing \"Glory be to the Father, and to the Son, and to the Holy Ghost\" and the rest, he breathed his latest breath.' Earlier the same day: 'There is still one chapter wanting of the book which thou hast been dictating'. Latin: 'praefatus puer, nomine Uuilberche ... accipe meum caput in manus tuas ... in pauimento suae casulae decantans: gloria Patri ...'",
+    "witness": "PLUMMER (bede_opera-historica-v1-historia-abbatum-lat_plummer1896.txt) l.5885-5895 (English), 5842-5843 (one chapter wanting); Latin l.11372-11415 (OCR 'Uuilberche', 'paui- mento') [OCR forms: 'Wilbert '', said' (footnote mark), 'Uuilberche']",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "The letter is from Cuthbert, Bede's pupil, to Cuthwin: 'DILECTISSIMO in Christo collectori Cuthwino Cuthbertus condiscipulus'; Plummer: 'an eye-witness, Cuthbert, afterwards Abbot of Wearmouth and Jarrow'; 'To Cuthwin, his dearest fellow-lector in Christ, Cuthbert, a co-disciple'. Plummer prints the Latin 'as given by M. & L. from a ninth-cent. MS. at St. Gallen'",
+    "witness": "PLUMMER (bede_opera-historica-v1-historia-abbatum-lat_plummer1896.txt) l.11214-11215 (OCR 'DiLECTissiMO'), 5504-5512, 5551-5556 [OCR forms: 'fellow-lector ' in Clirist, Cuth- bert'; 'ninth- cent. MS.']",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Year of death: Plummer, 'the traditional date is 735, and I am disposed to adhere to it'; '734 is the date of all MSS. of the Sax. Chron., of the Ann. Ult., W. M. ...'; 'the earliest northern authorities are in favour of 735'; 'I cannot attach much value to the argument of Messrs. Lumby and Mayor that he died in 742'; 'I hold that Bede died on a day which civilly was Wednesday, May 25, 735: though ecclesiastically it was Ascension Day, because he died after 6 p.m.' (OCR 'IholdthatBede', 'Wednesday,May25,735'). Foreign chronicles give 730, 731, 733, 736, 737",
+    "witness": "PLUMMER (bede_opera-historica-v1-historia-abbatum-lat_plummer1896.txt) l.5430-5432, 5466-5545, 5664-5672 [OCR forms: 'IholdthatBede', 'Wednesday,May25,735']",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Bede's own life: 'Bede, the servant of God, and priest of the monastery of the blessed apostles, Peter and Paul, which is at Wearmouth and Jarrow; who being born in the territory of that same monastery, was given, at seven years of age, to be educated by the most reverend Abbat Benedict, and afterwards by Ceolfrid ... I always took delight in learning, teaching, and writing. In the nineteenth year of my age, I received deacon's orders; in the thirtieth, those of the priesthood ... till the fifty-ninth year of my age'. Last annal: 'In the year 731, Archbishop Bertwald died'",
+    "witness": "GILES (bede_ecclesiastical-history-english-people_giles1903.txt) l.15415-15437, 15408 (OCR 'terri- tory', 'know- ledge')",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Benedict is Benedict Biscop: L. Cecil Jane, 'he was entrusted to the care of Benedict Biscop, the founder and first abbot of the same monastery'",
+    "witness": "GILES (bede_ecclesiastical-history-english-people_giles1903.txt) l.15601-15604",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Birth date: Plummer, 'as the Ecclesiastical History was written in 731, Bede's birth must be placed in 672 or 673' (OCR '7.]i', 'Becle's'); later chroniclers place it in 677 (Ann. Lindisf., S. D.), 674 (Stevenson) and 678 (Florence of Worcester). Jane: 'born about the year 673'. Williams ab Ithel: 'Bede was born in 674, and died 735'",
+    "witness": "PLUMMER (bede_opera-historica-v1-historia-abbatum-lat_plummer1896.txt) l.507-512, 540-562; GILES (bede_ecclesiastical-history-english-people_giles1903.txt) l.15600; ANNALES CAMBRIAE l.1227",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Northumbria and northern England: Jane's note, 'Ceolwulph. King of Northumbria (729-737)'; Plummer, 'Wearmouth and Jarrow ... in the diocese of Hexham'; 'the importance of Northumbria and the Northumbrian monasteries'. (Two houses meant as one: 'Though locally divided, they were intended to form but a single monastery', Plummer l.517-523; kept to card)",
+    "witness": "GILES (bede_ecclesiastical-history-english-people_giles1903.txt) l.15661; PLUMMER (bede_opera-historica-v1-historia-abbatum-lat_plummer1896.txt) l.483-485, 580-581 [OCR forms: 'Ceoivjlph. King of Northumbria (729-737)'; 'Thou2fh locally divided']",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Plague: anonymous History of the Abbots, Plummer's English, 'In the monastery over which Ceolfrid presided, all who could read or preach or recite the antiphons and responses were swept away, except the abbot himself and one little lad nourished and taught by him ... he decreed that the psalms, with their antiphons, should be restored ... by means of himself and the aforesaid boy ... until he could either train himself, or procure from elsewhere, men able to take part'. Plummer: 'The little boy here mentioned can hardly be any other than Bede himself; especially as Bede, who takes so much from the anonymous history, omits this striking incident altogether.' Date: Eosterwine 'was carried off by the plague in 686. It was during this visitation of the plague that the pathetic incident took place' (OCR 'ttian Bede').",
+    "witness": "PLUMMER (bede_opera-historica-v1-historia-abbatum-lat_plummer1896.txt) l.528-536, 606-640 (Plummer's identification l.632-636) [OCR forms: margin text interleaved: 'Bede's The little boy here mentioned can hardly be any other ... the services f^an Bede himself']",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "His list of works: commentaries from Genesis to Revelation 'out of the works of the venerable Fathers, and to interpret and explain according to their meaning'; lives of Felix, Anastasius, Cuthbert; 'The History of the Abbats'; 'The Martyrology'; 'A Book of Hymns'; 'Of the Nature of Things, and of the Times, one book of each'; 'Also, of the Times, one larger book'; orthography, art of poetry, tropes. No count of items is given here.",
+    "witness": "GILES (bede_ecclesiastical-history-english-people_giles1903.txt) l.15434-15560",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Heresy charge: Plummer, 'Epistola ad Plegwinum ... addressed to Plegwin, a monk of Hexham, in answer to an absurd charge of heresy which had been brought against Bede \"a lasciuientibus rusticis ... per pocula,\" in connexion with the De Temporibus'; 'This, then, is the date of the De Temporibus' (703); 'the Letter to Plegwin is fixed to 708'; also 'The publication of the former work was made the foundation of an absurd charge of heresy against Bede, which he indignantly refutes in an epistle to Plegwin.' The brief's 'rowdy peasants at their drink' tells Plummer's quotation of Bede's Latin in modern words; the Letter to Plegwin itself is not held (Plummer cites Opp. i. 144-154).",
+    "witness": "PLUMMER (bede_opera-historica-v1-historia-abbatum-lat_plummer1896.txt) l.10478-10506, 2879-2885",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Sources of the History, preface: 'My principal authority and aid in this work was the learned and reverend Abbot Albinus'; 'Nothelm, the pious priest of the Church of London'; 'The same Nothelm, afterwards going to Rome ... searched into the archives of the holy Roman Church, found there some epistles of the blessed Pope Gregory, and other popes'; Northumbria 'I received not from any particular author, but by the faithful [page break] testimony of innumerable witnesses'. 'blessed Pope Gregory' is Gregory the Great, the pope of the English mission ('the disciples of the blessed Pope Gregory').",
+    "witness": "GILES (bede_ecclesiastical-history-english-people_giles1903.txt) l.154-169, 225-232 (the quote 'the faithful testimony of innumerable witnesses' is split by the page header at l.229)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "L. Cecil Jane on the History: 'Its value cannot be over-estimated, since it is practically the only authority for the history of England from the Saxon invasion to the year 732.' Jane is the editor: 'edited by Mr. L. Cecil Jane, of University College, Oxford, who has carefully revised the text, supplied the Biographical Notice, and appended the Notes'; translation 'by Dr. Giles, being published in 1840'. The census card's 'unsigned editor' is L. Cecil Jane.",
+    "witness": "GILES (bede_ecclesiastical-history-english-people_giles1903.txt) l.15583-15588, 15634-15637, 15648-15650 [OCR forms: 'ivho has carefuUy revised'; 'unsigned editor' is the census card's wording, not a source]",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Closing prayer: 'And now, I beseech thee, good Jesus, that to whom thou hast graciously granted sweetly to partake of the words of thy wisdom and knowledge, thou wilt also vouchsafe that he may some time or other come to thee, the fountain of all wisdom, and always appear before thy face'",
+    "witness": "GILES (bede_ecclesiastical-history-english-people_giles1903.txt) l.15562-15568",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Card place: 'The preface to the Life of Cuthbert (written prior to 721) shows that he had been in Lindisfarne; while the letter to his pupil Egbert of York, written in Nov. 734, proves that in the previous year he had been with Egbert in his monastery at York'",
+    "witness": "PLUMMER (bede_opera-historica-v1-historia-abbatum-lat_plummer1896.txt) l.836-841 [OCR forms: 'Lindisfarne * ;']",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Card keyWorks: History addressed 'To the most glorious king Ceolwulph'; 'Ecclesiastical History of Britain, and more especially of the English nation'; 'The Ecclesiastical History of our Island and Nation in five books'; Life of Cuthbert 'first in heroic verse, and then in prose'; III.17 'as I have most manifestly proved in the book I have written, \"De Temporibus\"'; Cuthbert bishop of Lindisfarne (Breviary, lessons for Theodore: 'holy Cuthbert, Bishop of the Church of Lindisfarne')",
+    "witness": "GILES (bede_ecclesiastical-history-english-people_giles1903.txt) l.115, 15412-15413, 15530-15531, 15524-15526, 6985-6990; BREVIARY (roman-breviary_bute1908.txt) l.71052-71053 [OCR forms: III.17 '\"* De Temporibus \"']",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Alcuin's York poem: 'Presbyter eximius meritis, cognomine Beda'; 'Ut pote septennem quem fecit cura parentum / Arcta monasterii Girvensis claustra subire'; 'Et sic proficiens, est factus jure magister. / Plurima quapropter praeclarus opuscula doctor / Edidit, explanans obscura volumina sanctae / Scripturae, nec non Metrorum condidit artem; / De quoque Temporibus mira ratione volumen ... Scripsit et Historicos claro sermone libellos'. Relic healing: 'Aeger enim quidam ... Relliquiae, penitus peste est sanatus' (not used). Poem title 'Poema de Pontificibus et Sanctis Ecclesiae Eboracensis'. 'Girvensis' is Jarrow (Plummer: 'presbyter huius monasterii Gyruuensis', l.870)",
+    "witness": "ALCUIN (alcuin_opera-omnia-letters_migne-pl100-101_1863.txt) l.67059-67087 (OCR 'cognominc', 'przclarus'), 67114-67115, 498 [OCR forms: heading l.498 reads 'Poena de Pontificibus et Sanctis Eboracensis'; 'Ut pote septennem']",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Alcuin against Felix: 'beatus Beda presbyter in expositione Cantici canticorum'; 'beatus Beda presbyter in expositione apostolicae exhortationis ad episcopos Ephesiorum (Beda, in cap. xx Act. apost.)'",
+    "witness": "ALCUIN l.10320-10322, 13850-13852; heading 'Contra Felicem Urgellitanum episcopum libri septem' l.8987-8990 [OCR forms: 'apostolice exhortationis ad ep'scopos']",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Welsh annals: 'CCXCI. Annus. Beda presbyter dormit.' (OCR 'CCXCL', footnote mark between 'presbyter' and 'dormit'); Williams ab Ithel on MS C: 'the writer ... expressly assigns the compilation to the Saxon priest, A.D. 735, \"Beda presbyter moritur, qui hunc librum cronicum annuatim composuit.\"'",
+    "witness": "ANNALES CAMBRIAE (annales-cambriae-rolls-series-20-lat_williams-ab-ithel1860.txt) l.2893, 1520-1539 [OCR forms: 'CCXCL Annus. Beda presbyter ^^ dormit.']",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Jane: 'King Alfred paraphrased it into Anglo-Saxon. In 1643 it was first printed in England at Cambridge'; 'a tradition which makes him a professor at Cambridge has no foundation in fact'; 'at the age of sixty-two'; 'having just completed his translation of the Gospel according to St. John'",
+    "witness": "GILES (bede_ecclesiastical-history-english-people_giles1903.txt) l.15644-15646, 15609-15611, 15614-15617",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "Lollard Apology: 'pus seiþ Bede, and rehersiþ Gregor, þe tokunnis of miraclis, in þe beginning of þe kirk, were only necessary þat sche schuld growe to þe feiþ, norischid wiþ miraclis, as we watteren plantis til þey han ben rotid, and þan we cesser to watter' (OCR thorn as ']?' / '}?' / 'p')",
+    "witness": "LOLLARD (apology-for-lollard-doctrines_todd1842.txt) l.6031-6034 [OCR forms: 'pus sei}? Bede, and rehersi]? Gregor, pe tokunnis of miraclis, in ]?e beginning of ]?e kirk']",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Breviary: '27. Bede the Venerable, Confessor, and Doctor of the Church. Greater Double.'; lessons for Theodore: 'Hence the Venerable Bede saith that brighter times never shone upon England than those wherein Theodore administered her Church.' Missal: 'XXIX. VENERABLE BEDE' in the October masses (after the 28th October, before 'XXXI. The VIGIL of ALL SAINTS'); collect 'O God, who hast enlightened thy church by the learning of blessed Bede, thy Confessor and Doctor'",
+    "witness": "BREVIARY l.1935, 71002-71005; MISSAL (roman-missal_england1843.txt) l.34692, 34723-34733",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Venerable: Plummer's footnote, 'The name dates from the ninth century. It was a common designation of priests' (OCR 'Tlie', 'com- mon'); legend of the mockers and the angels, '\"Amen, very venerable Bede\"'; Fuller's version, '\"Hic sunt in fossa Bedae ... ossa\" ... an angel ... had filled up the chasm with \"uenerabilis\"'",
+    "witness": "PLUMMER (bede_opera-historica-v1-historia-abbatum-lat_plummer1896.txt) l.3466-3483, 3511-3512, 3528-3537 [OCR forms: 'Tlie name dates from the ninth century. It was a com- mon designation']",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Dante: 'It is interesting to find that Dante places Bede next to Isidore in Paradise: \"... D'Isidoro, di Beda.\" Parad. x. 130, 131' (OCR 'pkices')",
+    "witness": "PLUMMER (bede_opera-historica-v1-historia-abbatum-lat_plummer1896.txt) l.2898-2908 [OCR forms: 'Dante pkices']",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Translation of John: Cuthbert's letter (St. Gallen text) 'a capite sancti euangelii Iohannis usque ad eum locum in quo dicitur, \"sed haec quid sunt inter tantos?\" in nostram linguam ... conuertit'; Plummer's English, 'he translated into our language ... from the beginning of St. John's Gospel to the place where it is said: \"but what are they among so many?\"'; ordinary text 'euangelium scilicet sancti Ioh.'; Plummer, 'This insertion of the St. Gallen MS. seems inconsistent with what is said below about the \"one chapter,\" the \"one verse,\" needed to complete the work'",
+    "witness": "PLUMMER (bede_opera-historica-v1-historia-abbatum-lat_plummer1896.txt) l.11307-11312, 11337 (apparatus), 5760-5766, 5806-5811 [OCR forms: 'St. John's Gospel^ to the place'; 'euangelium scilicet sancti loh.'; 'Thia insertion of the St. Gallen MS.']",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Rome: Plummer, 'that he was ever at Rome, as has been often asserted, on the ground of a doubtful reading in a letter of Pope Sergius to Abbot Ceolfrid, is inconsistent, not only with Bede's words ... but with his total silence'",
+    "witness": "PLUMMER (bede_opera-historica-v1-historia-abbatum-lat_plummer1896.txt) l.841-858",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "Bede's side: III.17 'in no way commending or approving what he imperfectly understood in relation to the observance of Easter ... but, like an impartial historian, relating what was done by or with him'; Aidan's Easter 'not as some falsely imagine, on the fourteenth moon, like the Jews'; V.23 'The Britons, though they, for the most part, through innate hatred, are adverse to the English nation, and wrongfully ... oppose the appointed Easter'",
+    "witness": "GILES (bede_ecclesiastical-history-english-people_giles1903.txt) l.6985-6995, 7026-7029, 15174-15178",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Two Cuthberts: Cuthbert of Lindisfarne, 'the Holy Father Cuthbert, who was both monk and prelate' (Bede's Life), and Cuthbert, Bede's pupil, the letter's writer",
+    "witness": "GILES (bede_ecclesiastical-history-english-people_giles1903.txt) l.15524-15526; PLUMMER (bede_opera-historica-v1-historia-abbatum-lat_plummer1896.txt) l.5504-5507",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Bede's prose Life of Cuthbert is held: 'VITA Auctore Venerabili Beda Ex MSS. collatis cum Vita excusa PROLOGUS Du sancto ac beatissimo Patri Eadfrido Episcopo' (OCR 'Du' for 'Domino', 'a Eadfrido' with footnote letter)",
+    "witness": "AASS MAR 3 (acta-sanctorum_martii-tomus-3-lat-grc_palme1865.txt) l.33619-33626",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Wycliffite tract 'The Grete Sentence of Curs Expouned': priests who say Mass 'in pride, coveitise, lecherie' ... 'And Seynt Bede seiþ, We sellen Crist whanne we forsaken treuþe, and taken falsnesse and meyntene it'",
+    "witness": "ARNOLD3 (wyclif_select-english-works-v3_arnold1871.txt) l.16380-16382 (heading, OCR 'CRETE'), 17659-17674 [OCR forms: 'seij?', 'treufe', 'seij?' for seiþ]",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Alcuin's covering letter: 'EPISTOLA BEATI ALCUINI AD CAROLUM MAGNUM. (Anno 800.) Commendat regis examini et approbationi libros vii adversus Felicem Urgellitanum' (Migne's heading and summary)",
+    "witness": "ALCUIN l.9436-9442 [OCR forms: 'EPISTOLA »', 'libros vm']",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Breviary readings from Bede: headings 'Homily by the Venerable Bede' and 'Homily of the Venerable Bede' (e.g. l.30252, 40578, 44848); 'Fourth Lesson. (From the Venerable Bede's History, iii. 3.)' and '(From the Venerable Bede's History, i. 29, ii. 9, 14, 20, iii. 14.)'",
+    "witness": "BREVIARY l.30252, 40578, 44848, 61583-61584, 77302-77304 [OCR form: 'Bedels History']",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Birth-year witnesses: Ann. Lindisf. and S. D. 'place Bede's birth in 677'; 'Stevenson places his birth in 674, but on very precarious grounds. Church Historians'; Fl. Wig. 'whose dates, birth 678'",
+    "witness": "PLUMMER l.540-561 [OCR forms: 'Stcvenson']",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Two books De Temporibus: Plummer, 'Bede himself calls the longer work De Temporibus Liber Maior. H. E. v. 24'; III.17 names 'De Temporibus' without saying which",
+    "witness": "PLUMMER l.2736-2738; GILES l.6988-6990",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Heresy reply's subject: 'Epistola ad Plegwinum apologetica de Sex Aetatibus Saeculi'; the two books on time are where Bede 'lays down formally the doctrine ... of the six ages of the world'",
+    "witness": "PLUMMER l.10480-10481, 2856-2858 [OCR forms: 'Aeta- TIBUS SaECULI']",
+    "formation_confidence": "Documented"
+   }
+  ],
+  "contested_claims": [
+   {
+    "claim": "The year of Bede's death",
+    "sides": [
+     "735: Plummer, with the continuation of Bede, Simeon of Durham and the Lindisfarne annals, 'the earliest northern authorities' (PLUMMER (bede_opera-historica-v1-historia-abbatum-lat_plummer1896.txt) l.5430-5432, 5486-5527); Jane, Ascension Day 735 (GILES (bede_ecclesiastical-history-english-people_giles1903.txt) l.15614); Williams ab Ithel, 735 (ANNALES CAMBRIAE l.1227)",
+     "734: all MSS of the Saxon Chronicle, Annals of Ulster, William of Malmesbury and others, as Plummer reports (l.5479-5483)",
+     "742: Lumby and Mayor, as Plummer reports and rejects (l.5532-5534, 5655-5664)",
+     "730, 731, 733, 736, 737: foreign chronicles, as Plummer reports (l.5466-5545)"
+    ]
+   },
+   {
+    "claim": "How much of John's Gospel Bede translated",
+    "sides": [
+     "The whole Gospel just completed: L. Cecil Jane (GILES l.15616-15617); the ordinary text of the letter, 'euangelium scilicet sancti Ioh.', as Plummer's apparatus gives it (PLUMMER l.11337)",
+     "From the beginning to John 6:9, 'sed haec quid sunt inter tantos': the St. Gallen text Plummer prints (PLUMMER l.11307-11312), which Plummer himself finds hard to square with the 'one chapter' and 'one verse' left at the end (PLUMMER l.5806-5811)"
+    ]
+   },
+   {
+    "claim": "The date of the month of his death",
+    "sides": [
+     "VII Kal. Iun. (26 May): the ordinary text, as Plummer reports (l.5610-5613)",
+     "VII Id. Mai (9 May): the St. Gallen MS (l.11230-11231; Plummer's note l.5604-5606)",
+     "Plummer: civilly Wednesday 25 May 735, ecclesiastically Ascension Day (l.5664-5672)"
+    ]
+   },
+   {
+    "claim": "Whether the boy in the Jarrow plague was Bede",
+    "sides": [
+     "Plummer: 'can hardly be any other than Bede himself' (l.632-636)",
+     "The anonymous History of the Abbots names no one (l.616-620)"
+    ]
+   }
+  ],
+  "absent_details": [
+   {
+    "detail": "Bede's family",
+    "note": "No held source names his parents or kin. Plummer's translation reads 'by the care of my relations' (l.389, 433) and Alcuin 'cura parentum' (ALCUIN l.67064); Giles's English has no such phrase. Nothing further is said."
+   },
+   {
+    "detail": "Cuthbert's fuller account",
+    "note": "Cuthbert says he plans to write more of what he saw; Plummer: 'If this last sentence is genuine, the intention was either not carried out, or the letter has perished' (l.5957-5960)."
+   },
+   {
+    "detail": "The Letter to Plegwin and On the Times",
+    "note": "Neither is held; the heresy charge is known here only through Plummer's account and quotation (l.10478-10506, 2879-2885). A search of cic/texts for 'Plegwin', 'Pleguin' and 'De Temporibus' found no edition of either."
+   }
+  ]
+ },
+ "boniface-of-mainz": {
+  "claims": [
+   {
+    "claim": "Kylie: 'Boniface was born between the years 675 and 680.' (Kylie's own reckoning) | OCR text, boniface l.689-689: «Boniface was born between the years 675 and 680.»",
+    "witness": "Kylie, English Correspondence of Saint Boniface (boniface_english-correspondence_kylie1911 l.689)",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "Kylie: 'If tradition be correct in making Crediton in Somersetshire his birthplace' (tradition only; card gives Crediton without Kylie's county) | OCR text, boniface l.690-691: «If tradition be correct in making Crediton in Somersetshire his birthplace, his family must have formed the very end»",
+    "witness": "Kylie, English Correspondence of Saint Boniface (boniface_english-correspondence_kylie1911 l.690-691)",
+    "formation_confidence": "Inferential-Thin"
+   },
+   {
+    "claim": "Kylie: 'There can be little doubt, in any event, that the monastery at Exeter was his first school.' | OCR text, boniface l.694-695: «There can be little doubt, in any event, that the monastery at Exeter was his first school. From the wars which»",
+    "witness": "Kylie, English Correspondence of Saint Boniface (boniface_english-correspondence_kylie1911 l.694-695)",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "Kylie: 'upon joining the community at Nursling, near Winchester'; 'He set up as a lecturer on exegetics, and drew large audiences of the brethren and strangers alike' | OCR text, boniface l.702-703: «was only upon joining the community at Nursling, near Winchester, that Boniface experienced the full strength» ; boniface l.748-750: «for him and his contemporaries. He set up as a lecturer on exegetics, and drew large audiences of the brethren and strangers alike, while, by an early extension-scheme, his»",
+    "witness": "Kylie, English Correspondence of Saint Boniface (boniface_english-correspondence_kylie1911 l.702-703, 748-750)",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "Kylie: 'in departing for Friesland in 716 ... There, however, he met insuperable difficulties'; 'the natives were resisting to the death the arms and the faith of their neighbours, the Franks'; 'Before such opposition Boniface retired' (brief: 'A first mission to Frisia in 716 met resistance') | OCR text, boniface l.789-795: «Hewalds among the Saxons; so that in departing for Friesland in 716 Boniface was merely taking up the burden of his race. There, however, he met insuperable difficulties. The spirit of liberty already brooded over the waters and low-lying lands of modern Yolland, and the natives were resisting to the death the arms and the faith of their neighbours, the Franks. Their King, Rathbod,» ; boniface l.801-801: «ment. Before such opposition Boniface retired, On his»",
+    "witness": "Kylie, English Correspondence of Saint Boniface (boniface_english-correspondence_kylie1911 l.789-795, 801)",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "Kylie: 'ir the late autumn of 718, he begged at the tomb of the Apostles' (OCR 'ir'); 'Wypnfrith, his homely Saxon name, assumed a Latin guise' (OCR 'Wypnfrith'); 'he was probably advised to give special attention to those provinces' (east of the Rhine; Kylie's hedge, not used in the brief) | OCR text, boniface l.872-873: «ir the late autumn of 718, he begged at the tomb of the Apostles forgiveness for his sins.» ; boniface l.919-924: «the zealous English strange: might create a well-ordered Church and unite it closely with Rome. Hence, though the instructions given to Boniface were expressed in the most general terms, he was probably advised to give special attention to those provinces. Wypnfrith, his homely Saxon name, assumed a Latin guise. Another barbarian»",
+    "witness": "Kylie, English Correspondence of Saint Boniface (boniface_english-correspondence_kylie1911 l.872-873, 919-924)",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "Kylie: 'so Boniface felled at Geismar the oak sacred to Thor'; 'the crash of the sacred tree was the death-song of heathenism in Hesse'; 'from the ruins of the sacred oak, he built a chapel in honour of Saint Peter' (page break between 'chapel in' l.1010 and 'honour of Saint Peter' l.1016). Kylie alone among held sources. | OCR text, boniface l.990-998: «| at Walcheren, so Boniface felled at Geismar the oak sacred to Thor. The practical Englishman rightly valued deeds | above words, and the crash of the sacred tree was the» ; boniface l.1006-1016: «F testivals for Christian use, Boniface himself obeyed, when, from the ruins of the sacred oak, he built a chapel in 10 THE ENGLISH CORRESPONDENCE honour of Saint Peter. Like Paulinus on the memorable»",
+    "witness": "Kylie, English Correspondence of Saint Boniface (boniface_english-correspondence_kylie1911 l.990-998, 1006-1016)",
+    "formation_confidence": "Inferential-Thin"
+   },
+   {
+    "claim": "Kylie: 'English men and women, some of them formerly his pupils, came at his invitation'; 'No missionary before Boniface had called women to his aid.' (Kylie's judgment) | OCR text, boniface l.1114-1116: «from a younger eneration that Boniface demanded th most complete sacrifice, English men and women, som of them formerly his pupils, came at his invitation tc» ; boniface l.1197-1198: «No missionary before Boniface had called women to his aid. Lioba, mistress of a convent at Bischofsheim, her kins-»",
+    "witness": "Kylie, English Correspondence of Saint Boniface (boniface_english-correspondence_kylie1911 l.1114-1116, 1197-1198)",
+    "formation_confidence": "Inferential-Thin"
+   },
+   {
+    "claim": "Kylie: 'At the Papal invitation he visited Rome a second time in 722, and was there consecrated bishop'; 'The appointment of Boniface as archbishop in 732' (card dates) | OCR text, boniface l.1487-1489: «ments had been furnished him by the Head of the Church. At the Papal invitation he visited Rome a second time in 722, and was there consecrated bishop. He proved the» ; boniface l.1502-1503: «them more completely upon the support of Rome. The appointment of Boniface as archbishop in 732, his com-»",
+    "witness": "Kylie, English Correspondence of Saint Boniface (boniface_english-correspondence_kylie1911 l.1487-1489, 1502-1503)",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "Brief: 'He wrote to Lioba, Tecla and Cynehilda, \"I beseech, nay all but command you,\" and asked them to pray for him' (R1 C-M2: Kylie's form 'Cynehilda', l.486, 5873; 'Chunihilt' l.1200). Letter XXXVI (Kylie dates 742-746), heading 'Bon face urges Lioba, Tecla, Cynehilda and their sisters to pray for him' (OCR 'Bon face'); address 'Lioba and Tecla and Cynehiida' (OCR); 'I beseech, nay all but command you, my dear daughters, to implore God with incessant prayers' | OCR text, boniface l.5869-5883: «67 XXXVI Bon face urges Lioba, Tecla, Cynehilda and their sisters to pray for him. 742-746. To my beloved sisters worthy of ail honour and affection, Lioba and Tecla and Cynehiida, and all the dear sisters in Christ who live with you, greetings of undying love. I beseech, nay all but command you, my dear daughters, to implore God with incessant prayers, as [ trust that you»",
+    "witness": "Kylie, English Correspondence of Saint Boniface (boniface_english-correspondence_kylie1911 l.5869-5883)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Letter XLV (Kylie: 'About 737'): addressed to 'all God-fearing Catholics, sprung from the English race, Boniface, or Wynfrith, an offshoot of the same stock, legate in Germany of the universal Church'; asks prayer that God 'may turn to the Catholic faith the hearts of the pagan Saxons'; 'Have pity on them because even they themselves are wont to say “We are of one blood and one bone,”' (OCR '“¢ We are') | OCR text, boniface l.7488-7499: «Boniface urges all the English to pray for the conversion of the Saxons to the faith of Christ. About 737. To all the reverend bishops, venerable priests, deacons, canons, clerry, the abbots and abbesses, placed over the true flock of Christ, to the monks humble and submissive before God, to the virgins consecrated and devoted to God and all the consecrated handmaidens of Christ, and in general to all God-fearing Catholics, sprung from the English race, Boniface, or Wynfrith, an offshoot of the same stock, legate in Germany of the universal Church» ; boniface l.7520-7525: «come unto the knowledge of God,”! may turn to the Catholic faith the hearts of the pagan Saxons, and that they may escape from the snares of the devil, by which they are held bound, and be united with the sons of Mother Church. Have pity on them because even they themselves are wont to say “¢ We are of one blood and one bone,”’ remembering»",
+    "witness": "Kylie, English Correspondence of Saint Boniface (boniface_english-correspondence_kylie1911 l.7488-7499, 7520-7525)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Letter XLVI: Torhthelm, bishop of Leicester, replies, sends 'a gift, small indeed' and says Boniface is 'constantly remembered ir. holy masses and in daily prayers' (OCR 'ir.') | OCR text, boniface l.7548-7552: «Torhthelm, Bishop of Leicester, replies to boriface. He expresses pleasure at his efforts to have the Saxons brought to» ; boniface l.7573-7582: «across to you, a gift, small indeed, byt a pledge of great love, and assure you also that everything which you OF SAINT BONIFACE 197 deigned to ask of us we have very willingly undertaken ; that is to say, you are constantly remembered ir. holy masses and in daily prayers. So do we, cons-ious of our»",
+    "witness": "Kylie, English Correspondence of Saint Boniface (boniface_english-correspondence_kylie1911 l.7548-7552, 7573-7582)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Carloman's capitulary, 742: 'Ego Karlmanmis'', dux et princeps Francorum, anno ab incarnatione Christi septingentesimo quadragesimo secundo' (OCR); 'ordinavimus per civitates episcopos, et constituimus super eos arciiiepiscopum Bonifatium qui est missus sancti Petri' (OCR 'arciiiepiscopum'); 'Statuimus per annos singulos synodum congregare' | OCR text, capitulatio-de-partibus-saxoniae l.2222-2223: «In\" nomine domini nostri lesu Christi. Ego Karlmanmis'', dux et princeps Francorum, anno\" ab incarnatione Christi septingentesimo quadragesimo secundo, XI. -s» ; capitulatio-de-partibus-saxoniae l.2247-2250: «1. Et per consilium sacerdotum et optimatum meorum ordinavimus per civitates 5 episcopos, et constituimus super eos arciiiepiscopum Bonifatium qui est missus sancti Petri. Statuimus per annos singulos synodum congregare, ut nobis praesentibus cano-»",
+    "witness": "Capitularia regum Francorum 1, ed. Boretius (capitulatio-de-partibus-saxoniae_pertz1881 l.2222-2223, 2247-2250)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Brief renders the promise as 'to put right something of the church's order', keeping 'aliquid' (R1 C-B1). Boniface to Pope Zacharias, quoted in Boretius's headnote: 'Carlomannus dux Francorum me arcessitum ad se rogavit, ut ... synodum ccpere congregare. Et promisit, se de aeccle- siastica rclij:,ione, quae iam longo tempore id est non minus quam per sexaginta vel septuaginta annos calcata et dissipata fuit, aliquid conngerc ct emendare velle' (OCR 'ccpere', 'rclij:,ione', 'conngerc ct' for coepere, religione, corrigere et). Told in modern words in the brief, not quoted. | OCR text, capitulatio-de-partibus-saxoniae l.2201-2206: «Jtonifacms archiespiscopus in epistola ad Zachanam papam (Monnm. Mo(jtintina 5 ed. Jaffe, Bonif. eptst. 42J so-ibit haec: Notum siniiliter sit paternitati vestrae, quod Carlomannus dux Francorum me arcessitum ad se rogavit, ut in parte regni Franco- rura quae in sua est potestate, synodum ccpere congregare. Et promisit, se de aeccle- siastica rclij:,ione, quae iam longo tempore id est non minus quam per sexaginta vel septuaginta annos calcata et dissipata fuit, aliquid conngerc ct emendare velle. Cuius lo» ; capitulatio-de-partibus-saxoniae l.86-86: «ALIKEDVS BORETIVS.» ; capitulatio-de-partibus-saxoniae l.66-66: «MD(JCCLXXX11I.» ; capitulatio-de-partibus-saxoniae l.96-96: «MDCXJCLXXXllI.»",
+    "witness": "Capitularia regum Francorum 1, ed. Boretius (capitulatio-de-partibus-saxoniae_pertz1881 l.2201-2206); editor's name 'ALIKEDVS BORETIVS' (OCR) l.86, title page MDCCCLXXXIII (OCR) l.66, 96",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "The year 747 is Kylie's; Boretius holds that synod's year only as a conjecture: 'in alia quoque regni Fi-ancoi-um synodo anno 747 ut coniicere licet habita' (OCR; capitulatio l.2209-2210). Brief: 'After a synod Kylie dates to 747'. Letter XLII to Cuthbert (Kylie '747+'): 'we send you for correction and amendment the rules which the clergy here with us have drawn up'; profession of 'Catholic faith and unity, and submission to the Roman Church'; 'that we should call a synod together every year'; 'that the metropolitans would seek their palls from the Holy See'; each priest an account 'at Easter'; each bishop 'should go carefully through his diocese ... prohibit pagan practices'; heading: pilgrimage of women to Rome, monasteries 'ruled through laymen'. Kylie's intro: 'he sent the decrees of the synod of 747 to Cuthbert of Canterbury' | OCR text, boniface l.6866-6873: «Boniface thanks Cuthbert, Archbishop of Canterbury, for gifts and a letter. He indicates some matters which have been determined by him ia a synod. He urges zeal. He adds a proposal about checking the pilgrimage of women to Rome. He suggests that monasteries should not be ruled through laymen, and condemns extravagance in dress. 747+» ; boniface l.6930-6968: «we send you for correction and amendment the rules which the clergy here with us have drawn up. We decreed and acknowledged in our synod that we wished to preserve to the end of our lives the Catholic faith and unity, and submission to the Roman Church ; that we bowed to Saint Peter and to his vicar; that we should call a synod together every year; that the metro- politans would seek their palls from the Holy See; that we desired to follow in everything the precepts of Saint Peter, so as to be numbered among the sheep entrusted to him. To this profession we a»",
+    "witness": "Kylie, English Correspondence of Saint Boniface (boniface_english-correspondence_kylie1911 l.6866-6873, 6930-6968, 1637-1638)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Letter XLII: 'at the command of the Roman pontiff and the request of the rulers of the Franks and Gauls, I undertook to gather and exhort a synod in the hope of restoring the law of Christ' (card knownFor, told in modern words) | OCR text, boniface l.7039-7042: «Church. In it, at the command of the Roman pontiff and the request of the rulers of the Franks and Gauls, I undertook to gather and exhort a synod in the hope of restoring the law of Christ. I dug about it, I brought»",
+    "witness": "Kylie, English Correspondence of Saint Boniface (boniface_english-correspondence_kylie1911 l.7039-7042)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Letter XLII: 'my duty seems to be like that of a dog on the watch, who sees thieves and robbers breaking into and bursting through and pillaging his master's house, but because he has none to help him in the defence, only complains and grieves.' | OCR text, boniface l.7047-7051: «meat.”’2 But alas! my duty seems to be like that of a dog on the watch, who sees thieves and robbers break- ing into and bursting through and pillaging his master’s house, but because he has none to help him in the defence, only complains and grieves. But now, when, as seems»",
+    "witness": "Kylie, English Correspondence of Saint Boniface (boniface_english-correspondence_kylie1911 l.7047-7051)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Cuthbert of Canterbury ('Archbishop of Canterbury from 740 to 762', Kylie's note) to Lul, letter XLVII: 'in our general synod ... we determined to fix the day when he and the band with him suffered martyrdom, and to celebrate it with a solemn yearly feast, We seek him especially as our patron along with blessed Gregory and Augustine' (OCR comma for full stop) | OCR text, boniface l.7598-7612: «Cuthbert, Archbishop of canterbury,! writes to Lul and his companions of the death of Boniface. The day of the martyrdom will be observed in England. The writer recom- mends mutual prayers and imitation of Boniface. The end of 755+ To my reverend brother Lul, dear in the love or Christ, my fellow-bishop, and to the fellow-bishops working with thee and the priests of God, whose names should be written in the book of life, Cuthbert, servant» ; boniface l.7626-7626: «1 Archbishop of Canterbury from 740 to 762.» ; boniface l.7690-7700: «Accordingly, in our general synod—where we also con- ferred fully upon other things of which we can inform you only briefly—we determined to fix the day when he and the band with him suffered martyrdom, and to celebrate it with a solemn yearly feast, We seek him especially as OF SAINT BONIFACE 201 our patron along with blessed Gregory and Augustine ;»",
+    "witness": "Kylie, English Correspondence of Saint Boniface (boniface_english-correspondence_kylie1911 l.7598-7612, 7626, 7690-7700)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Milret, bishop of Worcester, to Lul, letter XLVIII: 'is now the glory and support! of all those sprung from this land' (OCR footnote mark '!' after 'support') | OCR text, boniface l.7880-7900: «blessed father had departed from, the prison-house of the flesh to the realms above, if it is right to call this a sad thing, that we have deserved to send before us to the kingdom of heaven such a patron, through whose holy intercession we trust, nay feel assured, that we are by God’s help supported. And though we have mourned 1 Bishop of Worcester from 743 to 775. 2 Cp, Aeneid 1. 204, OF SAINT BONIFACE 207 with many bitter tears the loss of this solace to our present life, rex the thovght of him, who, by shedding his blood, has een consecra'cd a martyr for Christ, and, his noble work <onsummat d by his holy agony, and his glorious end accomplisicd, is now the glory and support! of all those sprung from this land, soothes and calms our sorrow-»",
+    "witness": "Kylie, English Correspondence of Saint Boniface (boniface_english-correspondence_kylie1911 l.7880-7900)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Royal Frankish Annals, entry 750 (Kurze margin '751 Nov.'): 'Pippinus rex Francorum appeliatus est et ad huius dignita- tem honoris unctus Sacra unctione manu sanctae memoriae Boni- ... fatii(l archiepiscopi' (OCR 'appeliatus'; 'Bonefacii(l' at l.1426) | OCR text, annales-regni-francorum l.1420-1426: «DCCL. Hoc anno secundum Romani 3 pontificis sanction em Pippinus rex Francorum appeliatus est et ad huius dignita- tem4 honoris unctus Sacra unctione manu sanctae memoriae Boni- jETI. 2. S. (4. 5.) 6. 7.»",
+    "witness": "Royal Frankish Annals, ed. Kurze (annales-regni-francorum_kurze1895 l.1420-1426)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Royal Frankish Annals 754: 'Eodem anno Bonifatius archiepiscopus Mogontiacensis in Frisia verbum Dei praedicans a paganis interf ectus martyrio coro- natus est.' (OCR 'interf ectus') | OCR text, annales-regni-francorum l.1668-1670: «Eodem anno Bonifatius c ■ 1 archiepiscopus Mogontiacensis d in Frisia verbum Dei praedicans a paganis interf ectus martyrio coro-»",
+    "witness": "Royal Frankish Annals, ed. Kurze (annales-regni-francorum_kurze1895 l.1668-1670)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Revised annals ('Annales qui dicuntur Einhardi') 774: Saxons at 'Frideslard' tried to burn 'basilicam a beato Bonifatioe martyre dedicatam' and, 'inmisso sibi divinitus pavore subitaneo', fled home (OCR 'Bonifatioe', 'divin i t u s') | OCR text, annales-regni-francorum l.3322-3328: «lantur. Cumque1 in eo loco, qui nunc Frideslard ab incolis nominatur, basilicam a beato Bonifatioe martyre dedicatam incendere niolirentur atque hoc efficere casso labore conarentur , inmisso sibi divin i t u s pavore subitaneo , turpi»",
+    "witness": "Royal Frankish Annals, ed. Kurze (annales-regni-francorum_kurze1895 l.3322-3328)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Kylie gives no year for the departure; the brief dates only the death to 754 (R1 C-M1). Kylie on the last journey: 'for the last time took boat on the Rhine'; 'he bade Lul put a winding-sheet for his body in the chest with his books'; 'Lul was to follow him in Mainz, to complete the church in Fulda'; 'To Lioba he gave the command that she should remain at her task in Germany'; 'She was to be buried beside him'; 'he sailed down the river' | OCR text, boniface l.1749-1761: «So now he left the security and peace of Fulda, and for the last time took boat on the Rhine, which had so often borne him in his journeying. Believing that he would never return, he bade Lul put a winding-sheet for his body in the chest with his books. Lul was to follow him in Mainz, to complete the church in Fulda and the churches in Thuringia, and to guard the people from error. To Lioba he gave the command that she should remain at her task in Germany—his last testimony to the» ; boniface l.1776-1777: «doing for the German people. She was to be buried beside him; united by their service of Christ in this» ; boniface l.1786-1786: «his eyes. Following it, he sailed down the river out of»",
+    "witness": "Kylie, English Correspondence of Saint Boniface (boniface_english-correspondence_kylie1911 l.1749-1761, 1776-1777, 1786)",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "Kylie: 'At Docking, however, on June 5, 754, a day appointed for confirmation, instead of a body of the faithful who were expected, a heathen band surrounded his tents ... F orbidding his companions to resist' (OCR 'F orbidding'). Brief 'Dokkum': Kylie 'Docking'; Altfrid 'in pago Astrache, in loco qui Doceinga vocatur' (OCR, AS l.164012-164013); Bollandists' note 'Hzc nunc insigne oppidum est Dockum dictum' (AS l.164201-164203). | OCR text, boniface l.1814-1820: «ing a large Christian element. At Docking, however, on June 5, 754, a day appointed for confirmation, instead of a body of the faithful who were expected, a heathen band surrounded his tents, determined to exterminate the mission. F orbidding his companions to resist, and merely holding up his gospel-book to ward of the sword from his grey hairs, he met his death.»",
+    "witness": "Kylie, English Correspondence of Saint Boniface (boniface_english-correspondence_kylie1911 l.1814-1820); Acta Sanctorum, March 3 (acta-sanctorum_martii-tomus-3-lat-grc_palme1865)",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "Kylie: 'The crowds which accompanied the body of the martyr from Utrecht to Fulda'; 'his desire to found a model monastery in Fulda' | OCR text, boniface l.1822-1823: «The crowds which accompanied the body of the martyr from Utrecht to Fulda showed in what regard he was» ; boniface l.1652-1653: «understand his desire to found a model monastery in Fulda, and his habit when his synodal activity came to»",
+    "witness": "Kylie, English Correspondence of Saint Boniface (boniface_english-correspondence_kylie1911 l.1822-1823, 1652-1653)",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "Kylie: 'In his letter of greeting to Stephen the Third he besought the new Pope ... “If I have accomplished anything for the good of the Church during the thirty-six years of my Roman mission I still wish to complete and perfect it.' | OCR text, boniface l.1547-1553: «But his allegiziace never wavered. In his letter of greeting to Stephen the Third he besought the new Pope to accept from him the same loyal service which he had given to the two Gregorys and to Zacharias: «If I have accomplished anything for the good of the Church during the thirty-six years of my Roman mission I still wish to complete and perfect it. And anything unwise and unjust in act or»",
+    "witness": "Kylie, English Correspondence of Saint Boniface (boniface_english-correspondence_kylie1911 l.1547-1553)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Kylie on the see: 'He was elected Archbishop of Cologne ... But in the following year the Opposition prevailed upon the government to withdraw its consent ... Boniface, while still archbishop and legate, was left to administer the diocese of Mainz'; 'the first synod, where Boniface was chosen archbishop' | OCR text, boniface l.1426-1427: «ne did not attend the first synod, where Boniface was chosen ly archbishop. There is reason for believing that they» ; boniface l.1436-1454: «synod of 745. He was elected Archbishop of Cologne C2 OF SAINT BONIFACE 19 20 THE ENGLISH CORRESPONDENCE that he might star directly at the head of the hier- archical system in the North and occupy a command- ing position between the Church of the kingdom and the Church which he had created in the Eastern provinces, But in the following year the Opposition prevailed upon the government to withdraw its consent to this measure. Boniface, while still archbishop and legate, was left to administer the diocese of Mainz.»",
+    "witness": "Kylie, English Correspondence of Saint Boniface (boniface_english-correspondence_kylie1911 l.1426-1427, 1436-1454)",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "Kylie: 'he takes rank with those who uphold tradition and law and things established against those who question authority'; 'Clemens and Virgil both fell under his ban'; 'Clemens, the Scot' and 'In Bavaria the educated Celt, Virgil' | OCR text, boniface l.1855-1860: «history of religious thought he takes rank with those who. uphold tradition and law and things established against those who question authority and sow the seeds of change and revolution. With what might be described as modernism he had no sympathy whatsoever; Clemens and Virgil both fell under his ban. It follows, also, from the» ; boniface l.1465-1466: «people for worship to the groves and fountains. Clemens, the Scot, a man of greater intellect and integrity, questioned» ; boniface l.1471-1471: «the educated Celt, Virgil, laid some complaint against him»",
+    "witness": "Kylie, English Correspondence of Saint Boniface (boniface_english-correspondence_kylie1911 l.1855-1860, 1465-1466, 1471)",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "Kylie's text basis: 'The text upon which the translation is based is that given by Diimmler in Monumenta Germaniae Historica' (OCR 'Diimmler'); letters to Eadburga (XIV 'copy for him the Epistles of Saint Peter in letters of gold') and Egbert of York (XXX-XXXI, works of Bede) | OCR text, boniface l.2056-2057: «The text upon which the translation is based is that given by Diimmler in Monumenta Germaniae Historica,» ; boniface l.3908-3909: «Boniface asks Eadburga, Abbess of Thanet, to copy for him the Epistles of Saint Peter in letters of gold. 735.» ; boniface l.5405-5410: «Boniface thanks Egbert of York* for gifts. He ask; Egbert to pray for him and to send him the commentaries of Bede. He tells of adulterous priests. He sends wine. 746-754.»",
+    "witness": "Kylie, English Correspondence of Saint Boniface (boniface_english-correspondence_kylie1911 l.2056-2057, 3908-3909, 5405-5410)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Continuation of Bede: 'Anno DCCLIIII, Bonifacius, qui et Uinfridus, Francorum episcopus, cum quinquaginta tribus martyrio coronatur' | OCR text, bede l.30324-30325: «Anno DCCLIIII, Bonifacius, qui et Uinfridus, Francorum»",
+    "witness": "Baedae Continuatio, ed. Plummer (bede_opera-historica-v1-historia-abbatum-lat_plummer1896 l.30324-30325)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Altfrid, Life of Liudger: Liudger commended 'viro venerabili Gregorio, diseipulo et successori S. Bonifacii Martyris' and schooled 'in Trajecto monasterio' (OCR 'diseipulo') | OCR text, acta-sanctorum l.164259-164264: «Deum, videntes intentionem juvenis, commendave- runtque eum viro venerabili Gregorio, diseipulo et successori S. Bonifacii Martyris, Domino nutrien- dum : qui libenter eum suscepit; et comperta saga- citate pueri, studiose illum erudiebat. Crevit itaque Liudgerus proficiens in timore Domini ; et deposito»",
+    "witness": "Acta Sanctorum, March 3 (acta-sanctorum_martii-tomus-3-lat-grc_palme1865 l.164259-164264)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Alcuin's verses 'de ecclesia sancti Liutgeri': 'Hic Pater egregius meritis Bonifacius almis / Cum sociis pariter fundebat sanguinis undam'; note: 'de ecclesia S. Bonifacii a sancto Liudgero constructa. Hoc carmen recenset Altfridus'. Altfrid's text gives the same verses ('Versus Alchwini de ecclesia S. Liutgeri'), with the Bollandists' note 'in loco martyrii S. Bonifacii et sociorum ejus'. | OCR text, alcuin l.60643-60645: «* Versus Alcuini de ecclesia sancti Liutgeri. Hic Pater egregius meritis Bonifacius almis Cum sociis pariter fundebat sanguinis undam,» ; alcuin l.60683-60686: «* S. Liutgeri. ld est, de ecclesia S. Bonifacii a sancto Liudgero constructa. Hoc carmen recenset Altfridus scriptor Vite sancti Liudgeri episcopi Mi- migardefordensis apud Westphalos primi. MabiLL.» ; acta-sanctorum l.164743-164745: «18 Versus Alchwini de b ecclesia S. Liutgeri. b» ; acta-sanctorum l.164811-164812: «Adelger. — b Ea minimum quam in Ostergoa. exiruxerat, in loco martyrii S. Bonifacii et sociorum ejus — c Rhenus ad dex-»",
+    "witness": "Patrologia Latina 101 (alcuin_opera-omnia-letters_migne-pl100-101_1863 l.60643-60645, 60683-60686); Acta Sanctorum, March 3 (acta-sanctorum_martii-tomus-3-lat-grc_palme1865 l.164743-164745, 164811-164812)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Bollandists: 'Anno DCCLIV coronatus est martyrio S. Bonifacius Archiepiscopus in Frisia ... Et quamvis nonnulli id DCCLV factum velint, Eginhardus tamen in Annalibus ...' (OCR 'nocriv', 'pccLv', 'nccuiv') | OCR text, acta-sanctorum l.161062-161072: «meus, ab ineunte setate fuerat enutritus. Anno nocriv coronatus est martyrio S. Bonifacius Archiepiscopus in Frisia, ut habent Annales Francorum ex MS. Joan- nis Tilii, aliique ex MS. Loiselii. Et quamvis nonnulli id pccLv factum velint, Eginhardus tamen in. Annali- bus, cum anno nccuiv, retulisset, Pippinum et filios ejus Karolum. οἱ Karolomannum à Stephano Papa sacra unctione ad regice dignitatis honorem consecratos, ista subdidit: konEM ANNO Bonifacius Archiepiscopus Mo- guntiacensis, in Frisia verbum Dei przedicans, a pa- ganis interfectus, martyrio coronatus est. Contigit»",
+    "witness": "Acta Sanctorum, March 3 (acta-sanctorum_martii-tomus-3-lat-grc_palme1865 l.161062-161072)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Roman Breviary, Plymouth commemoration: 'O God, Who wast pleased to make the zeal of Thy Blessed Martyr and Bishop Boniface the mean whereby Thou didst cause many peoples to know Thy Name' (OCR 'OGOD') | OCR text, roman-breviary l.6529-6530: «In the Diocese of Plymouth the following commemoration of St. Boniface of Maintz is made before that of St. George :» ; roman-breviary l.6576-6578: «OGOD, Who wast pleased to make the zeal of Thy Blessed Martyr and Bishop Boniface the mean whereby Thou didst cause many peoples»",
+    "witness": "Roman Breviary, tr. Bute (roman-breviary_bute1908 l.6529-6530, 6576-6578)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Bollandists: 'Contigit illud Nonis Junii in loco Dockinge dicto' (card dates: the Nones of June, 5 June). They also quote Liudger's Life of Gregory: 'S. Bonifacius idem Archiepiscopus et Martyr, quem oculis meis ipse vidi candidum canitie et decrepitum senectute' (not used).",
+    "witness": "Acta Sanctorum, March 3 (acta-sanctorum_martii-tomus-3-lat-grc_palme1865 l.161055-161058, 161072-161073)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Card role: 'legate in Germany of the universal Church, as he called himself' — letter XLV: 'legate in Germany of the universal Church and servant of the Apostolic See' (R1 C-M6). Card trace: 'Gregory of Utrecht' for Altfrid's 'Gregorio ... in Trajecto monasterio' (R1 C-M7).",
+    "witness": "Kylie (boniface_english-correspondence_kylie1911 l.7498-7500); Acta Sanctorum March 3 (acta-sanctorum_martii-tomus-3-lat-grc_palme1865 l.164259-164264)",
+    "formation_confidence": "Documented"
+   }
+  ],
+  "contested_claims": [
+   {
+    "claim": "The year of his death",
+    "sides": [
+     "754: Royal Frankish Annals (annales-regni-francorum_kurze1895 l.1668-1670); Continuation of Bede (plummer1896 l.30324-30325); Kylie (l.1815)",
+     "755: 'nonnulli', reported and set aside by the Bollandists (acta-sanctorum_martii-tomus-3 l.161065-161066)"
+    ]
+   },
+   {
+    "claim": "When and how he became archbishop",
+    "sides": [
+     "Appointed in 732, Kylie (l.1502-1503)",
+     "'chosen archbishop' at the first Frankish synod, Kylie (l.1426-1427); Carloman's capitulary of 742 'constituimus super eos archiepiscopum Bonifatium' (capitulatio l.2248), which already calls him archbishop"
+    ]
+   }
+  ],
+  "absent_details": [
+   {
+    "detail": "Willibald's Life of Boniface",
+    "note": "Not held. Searched all cic/texts for Willibald/Willebald with Vita/Life, and for the Life itself. The Bollandists quote one phrase of a Life 'S. Willebaldo attributa' in a note (acta-sanctorum_martii-tomus-3 l.164194-164197); PL 103 cites it in a note (benedict-aniane...pl103 l.93231). The census source line 'Willibald, Life of Boniface, ch. 6' (the oak) and Talbot 1954 are not held. The oak at Geismar therefore rests on Kylie alone."
+   },
+   {
+    "detail": "His parents and family",
+    "note": "No held source names them. Kylie speaks only of 'his family' in the Crediton conjecture (l.690-693)."
+   },
+   {
+    "detail": "Fulda burial in an early source",
+    "note": "Among held sources only Kylie (l.1822-1823) says his body was carried from Utrecht to Fulda; Schmeidler's German note to Adam of Bremen says 'Bonifaz ist bekanntlich in Fulda begraben' (adam-bremen_gesta...schmeidler1917 l.4485), an editor's note. Not used in the brief."
+   },
+   {
+    "detail": "Tangl/Emerton numbering",
+    "note": "Kylie gives Dümmler's MGH numbers in the margin; the census source lines cite Tangl numbers (26, 29, 50, 68) and Emerton's translation, which are not held."
+   }
+  ]
+ },
+ "aidan-of-lindisfarne": {
+  "claims": [
+   {
+    "claim": "Council among the Scots' elders, told as report: 'It is reported, that when King Oswald had asked a bishop of the Scots ... there was first sent to him another man of more austere disposition, who, meeting with no success ... returned home, and in an assembly of the elders reported, that ... they were uncivilized men, and of a stubborn and barbarous disposition'; Aidan: 'I am of opinion, brother, that you were more severe to your unlearned hearers than you ought to have been, and did not at first, conformably to the apostolic rule, give them the milk of more easy doctrine'; 'presently concluded, that he deserved to be made a bishop ... and accordingly being ordained, they sent him to their friend, King Oswald'",
+    "witness": "Bede, HE III.5, GILES l.5965-5999 (OCR 'meet- ing'; Aidan's words at l.5979-5990); OCR 'friend. King Oswald'",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Oswald 'sent to the elders of the Scots, among whom himself and his followers, when in banishment, had received the sacrament of baptism, desiring they would send him a bishop'; 'sent him Bishop Aidan, a man of singular meekness, piety, and moderation'",
+    "witness": "Bede, HE III.3, GILES l.5735-5748",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "'Scots' = Irish: Bede 'the Scots which dwelt in the South of Ireland' (GILES l.5757-5758); Huyshe's notes: 'the people of the Picts and that of the Scots of Britain [the Irish colonists in what is now Scotland]' and 'Thus Bede calls Aedan \"King of the Scots,\" i.e. of the Irish who inhabit Britain'",
+    "witness": "GILES l.5757-5758; HUY l.9097-9099, 9172-9173",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "'Bishop Aidan was himself a monk of the island called Hii, whose monastery was for a long time the chief of almost all those of the northern Scots'; III.5 'From the aforesaid island, and college of monks, was Aidan sent ... having received the dignity of a bishop at the time when Segenius, abbat and priest, presided over that monastery'",
+    "witness": "Bede, HE III.3, GILES l.5794-5797; III.5, l.5914-5918 (OCR '\"P ROM the aforesaid island')",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Came to the English in the 630s: derived from Bede's death year 651 (V.24 annals, GILES l.15317-15318) and his 'seventeenth year of his episcopacy' (III.17, l.6939) / 'Aidan was bishop seventeen years' (III.26, l.8240); the Bollandists: 'Ecclesia Lindisfarnensis a Rege Nordanhymbrorum S. Oswaldo fundata est anno DCXXXV, et S. Aidano Sedes Episcopalis ibidem erecta' The 630s rests on Bede's counts; the 635 is the Bollandists' year (Dominant Modern Reconstruction, the Bollandists).",
+    "witness": "GILES l.6939, 8240, 15317-15318; AASS-Mar3 l.32778-32780 (OCR 'Lindis[arnensis', 'ncxxxv', 'KEpisco- palis')",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Lindisfarne: 'the king appointed him his episcopal see in the isle of Lindisfarne ... Which place, as the tide flows and ebbs twice a day, is enclosed by the waves of the sea like an island; and again, twice in the day, when the shore is left dry, becomes contiguous to the land'",
+    "witness": "Bede, HE III.3, GILES l.5763-5768",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "'when the bishop, who was not skilful in the English tongue, preached the gospel, it was most delightful to see the king himself interpreting the word of God to his commanders and ministers, for he had perfectly learned the language of the Scots during his long banishment'",
+    "witness": "Bede, HE III.3, GILES l.5772-5782",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Bede wrote c.731 from informants: 'This is for the present the state of all Britain; in the year since the coming of the English into Britain about 285, but in the 731st year of the incarnation of our Lord'; on Aidan: 'as near as I could be informed by those that knew him'. Some eighty years later is reckoned from 651 to 731.",
+    "witness": "Bede, HE V.23, GILES l.15189-15191; III.17, l.7003-7004",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "'it was the highest commendation of his doctrine, with all men, that he taught no otherwise than he and his followers had lived'; 'He was wont to traverse both town and country on foot, never on horseback, unless compelled by some urgent necessity; and wherever in his way he saw any ... he invited them, if infidels, to embrace the mystery of the faith; or if they were believers, to strengthen them in the faith, and to stir them up by words and actions to alms and good works'",
+    "witness": "Bede, HE III.5, GILES l.5919-5932",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "'whatsoever gifts of money he received from the rich, he either distributed them ... to the use of the poor, or bestowed them in ransoming such as had been wrongfully sold for slaves. Moreover, he afterwards made many of those he had ransomed his disciples, and after having taught and instructed them, advanced them to the order of priesthood'",
+    "witness": "Bede, HE III.5, GILES l.5956-5963",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "'Eata was one of Aidan's twelve boys of the English nation, whom he received when first made bishop there, to be instructed in Christ'; 'This is the same Eata, who, not long after, was made bishop of the same church of Lindisfarne'; Eata 'abbat of the monastery of Melrose'. Bede gives the request to Oswy as what 'they say'.",
+    "witness": "Bede, HE III.26, GILES l.8258-8268",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Oswin's horse: 'He had given an extraordinarily fine horse to Bishop Aidan ... a poor man meeting him, and asking alms, he immediately dismounted, and ordered the horse, with all his royal furniture, to be given to the beggar'; king: 'Why would you, my lord bishop, give the poor man that royal horse ...?'; 'What is it you say, O king? Is that foal of a mare more dear to you than the Son of God?'; the king 'fell down at the bishop's feet, beseeching him to forgive him'; the bishop 'grew so melancholy as to shed tears. His priest then asking him, in the language of his country ... why he wept, \"I know,\" said he, \"that the king will not live long; for I never before saw so humble a king\"'",
+    "witness": "Bede, HE III.14, GILES l.6761-6808 (OCR has a space before '?')",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Oswin of Deira: 'Oswin, of the race of King Edwin ... who governed the province of the Deiri seven years'; killed by Oswy's command 'on the 20th of August'",
+    "witness": "Bede, HE III.14, GILES l.6710-6714, 6738-6743",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Death: 'Not long after, the bishop's prediction was fulfilled by the king's death ... But Bishop Aidan himself was also taken out of this world, twelve days after the king he loved, on the 31st of August'; III.17 'He died in the seventeenth year of his episcopacy, the last day of the month of August'; annals: 'In the year 651, King Oswin was killed, and Bishop Aidan died'",
+    "witness": "Bede, HE III.14, GILES l.6812-6818 (OCR 'fulhlled'); III.17, l.6938-6940; V.24, l.15317-15318",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Place of death: 'AIDAN was in the king's country-house, not far from the city of which we have spoken above, at the time when death separated him from his body, after he had been bishop sixteen years'; 'he gave up the ghost, leaning against a post that was on the outside to strengthen the wall'; 'His body was thence translated to the isle of Lindisfarne'. The city is the royal city 'which has its name from Bebba, formerly its queen' (III.16); L. Cecil Jane's note: '\"The royal city\" — Bamborough'",
+    "witness": "Bede, HE III.17, GILES l.6922-6942; III.16, l.6883-6885; Jane's note 149, l.15916 (prefatory note naming Jane as the Notes' author, l.15582-15586); OCR 'A IDAN', and Jane's note reads \"' ' The royal city \" — Bamborough.\"",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Easter: 'he was wont to keep Easter Sunday according to the custom of his country ... from the fourteenth to the twentieth moon; the northern province of the Scots, and all the nation of the Picts, celebrating Easter then after that manner'; Bede: 'zealous in the cause of God, though not altogether according to knowledge'",
+    "witness": "Bede, HE III.3, GILES l.5746-5753",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Bede's side: 'in no way commending or approving what he imperfectly understood in relation to the observance of Easter; nay, very much detesting the same'; 'he always celebrated the same, not as some falsely imagine, on the fourteenth moon, like the Jews, whatsoever the day was, but on the Lord's day, from the fourteenth to the twentieth moon'",
+    "witness": "Bede, HE III.17, GILES l.6985-6988, 7026-7029",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Bede followed the Roman Easter: III.3 the southern Irish 'by the admonition of the bishop of the Apostolic See, learned to observe Easter according to the canonical custom'; V.21 the English 'formed their religion after the example of the holy Roman Apostolic Church'",
+    "witness": "GILES l.5757-5761; l.14328-14331",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "'This difference about the observance of Easter, whilst Aidan lived, was patiently tolerated by all men, as being sensible, that though he could not keep Easter contrary to the custom of those who had sent him, yet he industriously laboured to practise all works of faith, piety, and love ... and was held in veneration, not only by indifferent persons, but even by the bishops, Honorius of Canterbury, and Felix of the East Angles'",
+    "witness": "Bede, HE III.25, GILES l.7903-7914",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Charles Plummer: 'And yet we cannot help feeling that the question occupies a place in Bede's mind out of all proportion to its real importance. It is sad that he should think it necessary to pause in the middle of his beautiful sketch of the sweet and saintly character of Aidan to say that he \"much detests\" his mode of keeping Easter'",
+    "witness": "PLUM (Introduction) l.2804-2809",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Anonymous Life of Cuthbert: 'in adolescentia sua ... cum aliis Pastoribus pecora domini sui pascebat ... vidit ... Angelos ascendentes et descendentes ... et inter manus eorum animam sanctam, quasi in globo igneo ad coelum efferri ... prophetans quoque eis animam esse sanctissimi Episcopi aut alterius magnae personae ... etenim post paucas dies, celeberrimum obitum sancti Episcopi nostri Aegdani, eadem hora noctis, qua ille viderat visionem, longe lateque nuntiatum esse audierunt'",
+    "witness": "'Tertia Vita, Auctore monacho Lindisfarnensi coaevo', AASS-Mar3 l.38593-38596 (heading), l.38813-38832 (OCR 'ccelum', 'magnae perso- ns', 'celeherrimum', '4Egdani')",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Bollandists date the anonymous Life: 'Videtur autem haec Vita conscripta, aut saltem absoluta, circa annum DCC'; its writer 'monachus Lindisfarnensis' (the Bollandists' own view: 'Videtur')",
+    "witness": "AASS-Mar3 l.32846-32854 (OCR 'hxc', 'qut saltem.', 'pcc')",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Bede's prose Life of Cuthbert: 'agnovitque mane facto Antistitem Lindisfarnensis Ecclesiae Aidanum, magnae utique virtutis virum, per id temporis, quo viderat, raptum de corpore, coelestia regna petiisse'",
+    "witness": "AASS-Mar3 l.34343-34352 (OCR 'Ecclesiz d Aidanum,.', 'coelestia')",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Bede's closing praise: 'his love of peace and charity; his continence and humility; his mind superior to anger and avarice ... his authority becoming a priest in reproving the haughty and powerful, and at the same time his tenderness in comforting the afflicted, and relieving or defending the poor'; 'These things I much love and admire in the aforesaid bishop; because I do not doubt that they were pleasing to God'",
+    "witness": "Bede, HE III.17, GILES l.6994-7011 (OCR 'dihgence' in the same list)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Traces: 'From that time many of the Scots came daily into Britain, and with great devotion preached the word to those provinces of the English, over which King Oswald reigned ... Churches were built in several places ... money and lands were given of the king's bounty to build monasteries ... for most of them that came to preach were monks' (OCR 'EngHsh')",
+    "witness": "Bede, HE III.3, GILES l.5781-5794",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "'from ancient times, the bishop was wont to reside there with his clergy, and the abbat with his monks, who were likewise under the care of the bishop; because Aidan, who was the first bishop of the place, being himself a monk, brought monks thither, and settled the monastic institution there'",
+    "witness": "Bede, HE IV.27, GILES l.11650-11657",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "'many religious men and women, stirred up by his example, adopted the custom of fasting on Wednesdays and Fridays, till the ninth hour, throughout the year, except during the fifty days after Easter'",
+    "witness": "Bede, HE III.5, GILES l.5950-5954",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Chad: 'to travel about, not on horseback, but after the manner of the apostles, on foot, to preach the Gospel ... for he was one of the disciples of Aidan, and endeavoured to instruct his people, by the same actions and behaviour, according to his and his brother Cedd's example'",
+    "witness": "Bede, HE III.28, GILES l.8479-8487",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Hild (Hilda): 'Bishop Aidan being recalled home, he gave her the land of one family on the north side of the river Wear'; Heiu 'said to have been the first woman that in the province of the Northumbrians took upon her the habit and life of a nun, being consecrated by Bishop Aidan'; 'Bishop Aidan, and other religious men that knew her and loved her, frequently visited and diligently instructed her'. The Latin reads that Aidan called her home; Giles's English is ambiguous. Plummer's Latin: 'deinde ab Aidano episcopo patriam reuocata accepit locum unius familiae ad septentrionalem plagam Uiuri fluminis'.",
+    "witness": "Bede, HE IV.23, GILES l.10924-10946; PLUM l.24866-24868 (OCR 'Uiuri*'); OCR 'took, upon her'",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Wonders: oil and storm, told 'by Cynemund, a most faithful priest of our church, who declared that it was related to him by Utta, the priest, on and by whom the same was wrought'; the fire at the royal city, 'related by many such as were likely to have knowledge thereof', with Aidan 'reported' to have said 'Behold, Lord, how great mischief Penda does!'; the post that 'could not be consumed by the fire' when the church burned, and again 'the second time'",
+    "witness": "Bede, HE III.15, GILES l.6827-6870; III.16, l.6876-6908; III.17, l.6950-6982",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Card otherNames: 'Aedan' (Plummer's Latin: 'accepit namque pontificem Aedanum', 'Monachus ipse episcopus Aedan', 'missus est Aedan'); 'Aidanus' (Bollandists, e.g. 'Colitur S. Aidanus primus illius Ecclesiae Episcopus 31 Augusti. Mortuus anno Christi 651'); 'Edanus' (Alcuin's poem, 'Praesulis Edani', and the note printed with the poem in Migne's volume 'Legendum Aidani, seu Edani (quo nomine vocatur carmine seq.)')",
+    "witness": "PLUM l.18699, 18772, 18938; AASS-Mar3 l.34572-34573 (OCR 'Ecclesie'); ALC l.66242 (OCR 'Prxsulis'), 64740-64741",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Alcuin's York poem retells the right-hand blessing: 'Tempore nam quodam praesul sanctissimus [Aedan] Cum rege et populo Paschalia festa peregit ... Vidit ut hoc praesul, dextram comprehendit, et infit: Incorrupta, precor, maneat manus ista per aevum'",
+    "witness": "ALC l.64991-64995 (title 'POEMA [DE] PONTIFICIBUS ET SANCTIS ECCLESIAE EBORACENSIS'), l.65627, 65646, 65656-65657 (OCR 'przsul', '[/Edan ]', 'Ineorrupta', '2»ivum')",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Roman Breviary (Bute): calendar '31. Aidan, Bishop [of Lindisfarne,] Confessor. Double.'; martyrology: 'In England, [in the year 651,] holy Aidan, Bishop of Lindisfarne. Holy Cuthbert, who was then a shepherd lad, saw the soul of Aidan carried up into heaven, and he thereupon left his sheep and became a monk.'; Fourth Lesson 'From the Venerable Bede's History, iii. 3'",
+    "witness": "BREV l.2279, 61468-61475, 61587-61600",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Bede's own source for Bede: born in the territory of Wearmouth and Jarrow; writing 'till the fifty-ninth year of my age'",
+    "witness": "Bede, HE V.24, GILES l.15419-15435",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Charles Plummer edited Bede's Historia in 1896: title page 'Venerabilis Baedae Historiam ecclesiasticam gentis Anglorum ... CAROLUS PLUMMER, A.M.', Oxford, Clarendon Press, MDCCCXCVI",
+    "witness": "PLUM l.60 (title page); file header l.1-4 gives the same",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "David of Menevia: Rees's note on Saint David, brought up at 'Hen Meneu, and in Latin Vetus Menevia', died 'in the Monastery he had founded in Menevia'; his disciple 'Maidoc, qui et Aidanus ab infantia' and 'his disciple Saint Aidan'",
+    "witness": "REES l.17998-18003, 6518, 19291",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Aedan, king of the Scots in Britain: 'Hereupon, Aedan, king of the Scots that inhabit Britain'",
+    "witness": "Bede HE I.34, GILES l.3189-3190 (OCR '^dan')",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Brief P2 wording: 'the king appointed him his episcopal see in the isle of Lindisfarne, as he desired' (told as 'Oswald made Lindisfarne ... the seat of Aidan's bishopric'); Bede wrote in 731 (V.23), eighty years after the 651 death (V.24), 'as near as I could be informed by those that knew him'",
+    "witness": "GILES l.5763-5765, 15189-15191, 15317-15318, 7003-7004",
+    "formation_confidence": "Documented"
+   }
+  ],
+  "contested_claims": [
+   {
+    "claim": "Whether Aidan's Easter reckoning deserved Bede's censure",
+    "sides": [
+     "Bede: kept 'not altogether according to knowledge'; 'very much detesting the same', though always on the Lord's day (GILES l.5748, 6985-6988, 7026-7029)",
+     "Charles Plummer: the question 'occupies a place in Bede's mind out of all proportion to its real importance'; 'It is sad' that Bede pauses to say he detests it (PLUM l.2804-2809)"
+    ]
+   },
+   {
+    "claim": "When Cuthbert learned that the soul he saw was Aidan's",
+    "sides": [
+     "Anonymous monk of Lindisfarne: 'post paucas dies' the news came (AASS-Mar3 l.38829-38832)",
+     "Bede's prose Life: 'mane facto', the next morning (AASS-Mar3 l.34343-34352)"
+    ]
+   }
+  ],
+  "absent_details": [
+   {
+    "detail": "Birth year, birthplace, age and family",
+    "note": "No held source gives them. Bede says only that he was sent from Iona by the Scots and kept 'the custom of his country'. Nothing written by Aidan himself is held or known from these sources."
+   },
+   {
+    "detail": "The first, austere missionary",
+    "note": "Bede does not name him (GILES l.5967-5968)."
+   },
+   {
+    "detail": "Irish annals",
+    "note": "No early Irish annals are held (the only Four Masters volume held covers 1172-1378). The Annales Cambriae name Aidan son of Gabran and a later Aidan son of Blegywryd, never Aidan of Lindisfarne (AC l.2572, 4241, 12204-12209)."
+   },
+   {
+    "detail": "An independent Life of Aidan",
+    "note": "Plummer's introduction mentions 'lives of SS. Aidan, Eata' in a Durham manuscript (PLUM l.9461); no such Life is held. The Acta Sanctorum volume for 31 August is not held."
+   },
+   {
+    "detail": "Bamburgh as the modern name",
+    "note": "Bede never gives the modern name; L. Cecil Jane's note gives 'Bamborough' for the royal city (GILES l.15916), and Plummer's index has '[Bebbanburg], Bamborough' (PLUM l.34868)."
+   }
+  ]
+ },
+ "hild-of-whitby": {
+  "claims": [
+   {
+    "claim": "Caedmon, IV.24: 'There was in this abbess's monastery a certain brother'; at feasts 'when he saw the instrument come towards him, he rose up from table and returned home'; in sleep a person 'saluting him by his name, said, \"Caedmon, sing some song to me.\" He answered, \"I cannot sing\"'; '\"Sing the beginning of created beings,\" said the other. Hereupon he presently began to sing verses to the praise of God'; 'In the morning he came to the steward, his superior ... was conducted to the abbess, by whom he was ordered, in the presence of many learned men, to tell his dream, and repeat the verses'; 'the abbess ... instructed him to quit the secular habit, and take upon him the monastic life ... and ordered that he should be taught the whole series of sacred history'; 'Others after him attempted, in the English nation, to compose religious poems, but none could ever compare with him'. Latin 'In huius monasterio abbatissae fuit frater quidam' (PLUMMER l.25149, OCR 'monastcrio') ties him to Hild after IV.23. Giles OCR opens \"'T^HERE was in this abbess's monastery\".",
+    "witness": "GILES (bede_ecclesiastical-history-english-people_giles1903.txt) l.11137-11218 (OCR 'C^dmon', 'In the English'; page break inside 'their [276] turns') [OCR forms: '^'Caedmon', 'T^HERE was in this abbess's monastery']",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Whitby and its name: 'the monastery of Streaneshalch, which signifies the Bay of the Lighthouse, where the Abbess Hilda ... then presided'; Jane's note 'Streaneshalch = Whitby' (OCR \"'WWithy\"); Giles's bracket 'Streaneshalch [Whitby]'. Northumbria: she was 'the most religious servant of Christ' among 'the Northumbrians'; Paulinus 'the first bishop of the Northumbrians'",
+    "witness": "GILES (bede_ecclesiastical-history-english-people_giles1903.txt) l.7958-7961, 15953, 10952, 10902-10904 [OCR forms: \"Streaneshalch = 'WWithy\"]",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Bede is the main witness, writing in 731, fifty-one years after her death in 680 (computed from his last annal, 'In the year 731', l.15408, and l.10890-10896)",
+    "witness": "GILES (bede_ecclesiastical-history-english-people_giles1903.txt) l.15408, 10890-10896",
+    "formation_confidence": "Inferential-Thin"
+   },
+   {
+    "claim": "Birth and faith: 'she was nobly born, being the daughter of Hereric, nephew to King Edwin, with which king she also embraced the faith and mysteries of Christ, at the preaching of Paulinus'; Edwin baptized 'in the year of the incarnation of our Lord 627 ... at York, on the holy day of Easter, being the 12th of April'",
+    "witness": "GILES (bede_ecclesiastical-history-english-people_giles1903.txt) l.10899-10904, 4994-5002",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Death and age: 'passed from thence ... on the 17th of November, at the age of sixty-six years; the first thirty-three of which she spent living most nobly in the secular habit'. Latin: 'die XV. Kalendarum Decembrium, cum esset annorum LXVI'. Birth about 614 is reckoned from these figures, not stated by Bede.",
+    "witness": "GILES (bede_ecclesiastical-history-english-people_giles1903.txt) l.10890-10898; PLUMMER (bede_opera-historica-v1-historia-abbatum-lat_plummer1896.txt) l.24822-24830",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "East Angles and Cale: 'she withdrew into the province of the East Angles, for she was allied to the king; being desirous to pass over from thence into France ... in the monastery of Cale ... because her sister Hercsuid ... at that time living in the same monastery, under regular discipline'; 'she continued a whole year in the aforesaid province, with the design of going abroad'. Latin: 'soror ipsius Heresuid ... annum totum in praefata prouincia retenta est; deinde ab Aidano episcopo patriam reuocata accepit locum unius familiae ad septentrionalem plagam Uiuri fluminis'. Giles's English 'Bishop Aidan being recalled home, he gave her the land of one family' misrenders the Latin.",
+    "witness": "GILES (bede_ecclesiastical-history-english-people_giles1903.txt) l.10908-10928 (OCR 'Herc- suid'); PLUMMER (bede_opera-historica-v1-historia-abbatum-lat_plummer1896.txt) l.24861-24869",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Aidan of Lindisfarne: Oswald 'asking a bishop of the Scottish nation, had Aidan sent him, and granted him an episcopal see in the Isle of Lindisfarne'; 'Bishop Aidan was himself a monk of the island called Hii'",
+    "witness": "GILES (bede_ecclesiastical-history-english-people_giles1903.txt) l.5726-5729, 5794-5795",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Heruteu: 'she was made abbess in the monastery called Heruteu, which monastery had been founded, not long before, by ... Heiu'; 'Bishop Aidan, and other religious men that knew her and loved her, frequently visited and diligently instructed her'; III.24 'Heruteu, or, \"The island of the Hart,\"' (Latin 'id est insula cerui', OCR 'corui'); Jane's note '192. Heruteu = Hartlepool' (OCR '7/ifrtt/(fw = Hartlepool'; p.192 is the III.24 page with Heruteu)",
+    "witness": "GILES (bede_ecclesiastical-history-english-people_giles1903.txt) l.10931-10946, 7768-7770, 15949; PLUMMER (bede_opera-historica-v1-historia-abbatum-lat_plummer1896.txt) l.21153-21154 [OCR forms: 'id ost insula corui'; Jane note garbled '7/ifrtt/(fw = Hartlepool']",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "Whitby founded: IV.23 'she also undertook either to build or to arrange a monastery in the place called Streaneshalch'; III.24, after Oswy's victory [A.D. 655], his daughter Elfleda 'was put into the monastery, called Heruteu ... where, at that time, the Abbess Hilda presided, and, two years after, having acquired a possession of ten families, at the place called Streaneshalch, she built a monastery there'. Latin 'cui tunc Hild abbatissa praefuit. Quae post biennium ... ibi monasterium construxit' (OCR 'l)iennium', 'Ilild')",
+    "witness": "GILES (bede_ecclesiastical-history-english-people_giles1903.txt) l.10948-10953, 7703, 7754-7778; PLUMMER (bede_opera-historica-v1-historia-abbatum-lat_plummer1896.txt) l.21154-21157",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Men and women: Trumwine 'chose his own place of residence in the monastery, which we have so often mentioned, of men and women servants of God, at Streaneshalch'; IV.23 'the brothers came with news of her death'",
+    "witness": "GILES (bede_ecclesiastical-history-english-people_giles1903.txt) l.11515-11519, 11098-11099",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Her rule: 'taught there the strict observance of justice, piety, chastity, and other virtues, and particularly of peace and charity; so that, after the example of the primitive church, no person was there rich, and none poor'; 'not only indifferent persons, but even kings and princes, as occasion offered, asked and received her advice'; reading of Scripture so that 'many might be there found fit for ecclesiastical duties, and to serve at the altar'",
+    "witness": "GILES (bede_ecclesiastical-history-english-people_giles1903.txt) l.10954-10972",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Five bishops: 'we afterwards saw five bishops taken out of that monastery ... Bosa, Hedda, Oftfor, John, and Wilfrid'; John 'bishop of Hagulstad', Wilfrid 'of the church of York'; Latin 'Bosa, Aetla, Oftfor, Iohannes, et Uilfrid'; Hagulstad = Hexham (Jane's note, OCR 'Hagul- j;aa'= Hexham'); Oftfor studied 'in both the monasteries of Hilda', went to Theodore and Rome, bishop in 'the province of the Wiccii'; Tatfrid 'from the same abbess's monastery' died before ordination; V.6 John 'ordained Wilfrid, his priest, bishop of the church of York'",
+    "witness": "GILES (bede_ecclesiastical-history-english-people_giles1903.txt) l.10973-11013, 12539-12541, 15900-15902; PLUMMER (bede_opera-historica-v1-historia-abbatum-lat_plummer1896.txt) l.24946-24956 [OCR forms: 'Iohannes' as 'lohannes']",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Mother: 'Abbess Hilda, whom all that knew her called Mother, for her singular piety and grace'; Latin 'quam omnes, qui nouerant, ob insigne pietatis et gratiae matrem uocare consuerant'; and she 'afforded occasion of amendment and salvation to many who lived at a distance, to whom the fame was brought of her industry and virtue'",
+    "witness": "GILES (bede_ecclesiastical-history-english-people_giles1903.txt) l.11014-11020; PLUMMER (bede_opera-historica-v1-historia-abbatum-lat_plummer1896.txt) l.24994-24996 [OCR forms: 'ob msigne pietatis']",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Synod of 664: 'it was agreed, that a synod should be held in the monastery of Streaneshalch ... The kings, both father and son, came thither'; 'controversy ... concerning Easter, or the tonsure'; 'the Abbess Hilda and her followers were for the Scots'; Latin 'Hild abbatissa cum suis in parte Scottorum' (Plummer margin 'a. 664'); Colman 'who was also sent out of Scotland'; Wilfrid's side with Agilbert, Agilbert asks that 'the priest Wilfrid, may speak in my stead'; Alfrid had given Wilfrid 'a monastery of forty families, at a place called Rhypum' (Jane: 'Rhypum ... = Ripon'); Oswy: 'he is the door-keeper, whom I will not contradict' and the company conforms; year: 'In the year 664 ... Colman returned to the Scots'",
+    "witness": "GILES (bede_ecclesiastical-history-english-people_giles1903.txt) l.7955-7968, 7917, 7930-7941, 7996-7997, 8200-8218, 15326-15328, 15953; PLUMMER (bede_opera-historica-v1-historia-abbatum-lat_plummer1896.txt) l.21397-21413 [OCR forms: 'Hild abbatissa cum suis in paiie Scottorum']",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "The Scots as the people who sent Aidan: 'The same king Oswald, asking a bishop of the Scottish nation, had Aidan sent him'; Plummer, 'the Irish monks of Iona, by whom Northumbria was reconverted after the apostasy which followed the death of Edwin in 633' (card only)",
+    "witness": "GILES (bede_ecclesiastical-history-english-people_giles1903.txt) l.5726-5728; PLUMMER (bede_opera-historica-v1-historia-abbatum-lat_plummer1896.txt) l.987-990 [OCR forms: 'asking- a bishop'; 'the Irish monks of lona']",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Stephen's Life of Wilfrid, ch. 10: 'in coenobio quod Streuneshalgh dicitur, presente sanctimoniale matre piissima Hilde, presentibus quoque regibus, et duobus, Colmanno et Aegilberhto, episcopis, de Paschali ratione conquirebant' (OCR 'ganctimoniale', '/Egilberhto'; Raine margin '(Whitby)'). Raine calls him 'The first biographer of Wilfrid', who calls himself 'Stephanus presbyter'.",
+    "witness": "RAINE (byrhtferth_vita-s-oswaldi-in-historians-of-the-church-of-york-v1-lat_raine1879.txt) l.5067-5085, 1678-1697 [OCR forms: 'presente ... ganctimoniale matre piissima Hilde' with a margin note between]",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Pope John's letter in Stephen, ch. 54, to 'Athelredo regi Merciorum, et Alfrido regi Derorum et Berniciorum': 'Dudum enim sub Apostolicae memoriae praedecessore nostro Agathone pontifice, dum Wilfrithus episcopus ad hanc sedem Apostolicam veniens appellasset; et praesentibus ejus contrariis, qui a Theodoro venerandae memoriae archiepiscopo sanctae Cantuariorum ecclesiae ... et Hylde religiosae memoriae abbatissae, ad eum accusandum huc prius advenerant' (OCR 'excellentissinis', 'hamo sedem', 'Hylde*'; apparatus 'Hylda] Hilde, A.'). Bede's History has no such account: every Hilda/Hild line in Giles (l.7769-7772, 7960-7967, 10888-11120, 11519, 15363) was read.",
+    "witness": "RAINE (byrhtferth_vita-s-oswaldi-in-historians-of-the-church-of-york-v1-lat_raine1879.txt) l.9395-9428, 9440 [OCR forms: 'Hylda]) Hilde, A.']",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Illness and death: 'Falling into a fever ... afflicted with the same for six years continually; during all which time she never failed ... publicly and privately to instruct the flock'; 'having received the holy communion ... she admonished them to preserve evangelical peace among themselves, and with all others; and as she was making her speech, she joyfully saw death approaching'; V.24 'The same year also the Abbess Hilda died at Streaneshalch' (680)",
+    "witness": "GILES (bede_ecclesiastical-history-english-people_giles1903.txt) l.11045-11062, 15360-15363",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Mother's dream: 'the dream which her mother, Bregusuit, had, during her infancy ... she found a most precious jewel under her garment, which ... cast such a light as spread itself throughout all Britain; which dream was brought to pass in her daughter that we speak of, whose life was a bright example, not only to herself, but to all who desired to live well' (Latin 'in infantia eius')",
+    "witness": "GILES (bede_ecclesiastical-history-english-people_giles1903.txt) l.11021-11035; PLUMMER (bede_opera-historica-v1-historia-abbatum-lat_plummer1896.txt) l.24999-25000",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Visions at her death (card): Hackness 'which she had built that same year'; 'a certain nun called Begu'; 'she perceived that what she had seen was either in a dream or a vision'; 'It is also reported, that her death was, in a vision, made known the same night to one of the holy virgins ... in the same monastery'; Jane 'Hackness. Near Whitby'",
+    "witness": "GILES (bede_ecclesiastical-history-english-people_giles1903.txt) l.11063-11125, 16013",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Elfleda (card): Oswy 'gave his daughter Elfleda, who was scarce a year old'; 'the aforesaid king's daughter was first a learner, and afterwards a teacher of the monastic life'; 'she and her father, Oswy, her mother, Eanfleda, her mother's father, Edwin, and many other noble persons, are buried in the church of the holy Apostle Peter' (Giles 'being sixty years of age'; Latin 'undeLX', not used)",
+    "witness": "GILES (bede_ecclesiastical-history-english-people_giles1903.txt) l.7754-7783; PLUMMER (bede_opera-historica-v1-historia-abbatum-lat_plummer1896.txt) l.21157-21163",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Caedmon's songs (card): 'By his verses the minds of many were often excited to despise the world, and to aspire to heaven'",
+    "witness": "GILES (bede_ecclesiastical-history-english-people_giles1903.txt) l.11145-11147",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Plummer: 'there are no scenes in the whole of Bede's histories over which he lingers so lovingly, as the holy deathbeds ... of Benedict Biscop, Sigfrid, Boisil, Chad, Hild and Caedmon' (OCR 'Csedmon'); 'the cowherd of St. Hilda's monastery'",
+    "witness": "PLUMMER (bede_opera-historica-v1-historia-abbatum-lat_plummer1896.txt) l.5224-5228, 3149-3150",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Thomas of Ely, Life of Etheldreda I: 'Regina ... apud Gallias peregrina in monasterium Cale secessit ... Ad quam veniens et postea Hilda soror ipsius, relicta patria, ejus aemulata exemplum, in eodem monasterio peregrinam pro Domino vitam ducere volens; sed ab Aidano Episcopo post annum ad patriam revocata' (OCR 'Il.lda', 'ab d Aidano'); heading 'Auctore Thoma Monacho Elyensi'; Bollandists: 'cum ante finem seculi xii scripserit' (OCR 'scripse- rit')",
+    "witness": "AASS JUN 5 (acta-sanctorum_junii-tomus-5-lat_palme1867.txt) l.95476-95486, 93770, 93118-93127",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "York litany: '$ancta Hilda ora' (OCR '$' for S); Wordsworth: 'Cuthbert is addressed in the Sarum Prymer, but not Wilfrid, William, or Hilda, who appear in the York book'",
+    "witness": "YORK PRYMER (surtees-society_horae-eboracenses-prymer-of-york-use-lat-enm_wordsworth1920.txt) l.11647, 1501-1503 [OCR forms: '$ancta Hilda8 ora']",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Raine's preface: 'Whitby was the cradle of our national poetry.'",
+    "witness": "RAINE (byrhtferth_vita-s-oswaldi-in-historians-of-the-church-of-york-v1-lat_raine1879.txt) l.1611",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "The Scots from Ireland: 'Britain ... received a third nation, the Scots, who, migrating from Ireland under their leader, Reuda'",
+    "witness": "GILES l.379-382",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Colman of Lindisfarne: Eata 'abbat over the brethren that stayed in the church of Lindisfarne, when the Scots went away ... Colman, upon his departure'; Colman bishop after Finan",
+    "witness": "GILES l.8260-8269, 7916-7918",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Assent at Whitby: 'all present, both great and small, gave their assent'",
+    "witness": "GILES l.8215-8217",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Tatfrid before Bosel: 'Before the aforesaid man of God, Bosel, Tatfrid ... had been chosen bishop there, from the same abbess's monastery'; Latin 'ante praefatum uirum Dei Boselum'",
+    "witness": "GILES l.11007-11012; PLUMMER l.24986-24990",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Pope John's letter is later than the events: 'praedecessore nostro Agathone pontifice' and 'Hylde religiosae memoriae abbatissae'",
+    "witness": "RAINE l.9419-9425",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Begu's vision framed as God's act: 'it pleased Almighty God, by a manifest vision, to make known her death in another monastery'; the second as 'It is also reported'",
+    "witness": "GILES l.11064-11067, 11111",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Caedmon compared with later poets: 'Others after him attempted, in the English nation, to compose religious poems, but none could ever compare with him'",
+    "witness": "GILES l.11147-11150 [OCR form: 'In the English']",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Name forms (card otherNames): nominative 'Hild, abbatissa monasterii' in Bede's Latin and 'Hilda, abbess' in Giles's English; AASS 'S. Hilda, Abbatissa'. 'Hilde' and 'Hylde' in Stephen's Latin ('matre piissima Hilde', 'Hylde religiose memorie abbatisse') and the rubric 'uita Sce. Hilde' are oblique cases, not separate names, and are not given as other names.",
+    "witness": "PLUMMER l.24823; GILES l.10891-10892; AASS JUN 5 l.95275; RAINE l.5083, 9425; PLUMMER l.33990",
+    "formation_confidence": "Documented"
+   }
+  ],
+  "contested_claims": [
+   {
+    "claim": "Whether Hild reached Chelles before Aidan recalled her",
+    "sides": [
+     "Bede: she was kept a whole year in East Anglia with the plan of going abroad, then recalled (GILES (bede_ecclesiastical-history-english-people_giles1903.txt) l.10923-10926; PLUMMER (bede_opera-historica-v1-historia-abbatum-lat_plummer1896.txt) l.24865-24867)",
+     "Thomas of Ely, before the end of the twelfth century in the Bollandists' dating: she came to her sister in that monastery and was recalled after a year (AASS JUN 5 (acta-sanctorum_junii-tomus-5-lat_palme1867.txt) l.95482-95486)"
+    ]
+   },
+   {
+    "claim": "Hild's stance toward Wilfrid of Ripon",
+    "sides": [
+     "Pope John's letter, copied by Stephen: men sent by Theodore and by Hild came to Rome to accuse Wilfrid under Agatho (RAINE (byrhtferth_vita-s-oswaldi-in-historians-of-the-church-of-york-v1-lat_raine1879.txt) l.9418-9428)",
+     "Bede says nothing of it; he names among her bishops a later Wilfrid of York and praises her without reserve (GILES (bede_ecclesiastical-history-english-people_giles1903.txt) l.10973-11020)"
+    ]
+   }
+  ],
+  "absent_details": [
+   {
+    "detail": "Her own words",
+    "note": "No writing of Hild's is held, and no held source gives a saying of hers beyond Bede's report of her deathbed exhortation to keep evangelical peace (GILES l.11058-11060)."
+   },
+   {
+    "detail": "Her response to the Whitby ruling",
+    "note": "Bede says she held with the Scots (GILES l.7966-7967) and that 'all present, both great and small, gave their assent' to Oswy's ruling (l.8215-8217); he gives no word of hers."
+   },
+   {
+    "detail": "Caedmon's date",
+    "note": "Bede gives no year for Caedmon's call; the chapter heading's '[a.d. 680.]' is the year of his death chapter, not of the dream (GILES l.11137)."
+   },
+   {
+    "detail": "Other early witnesses",
+    "note": "Searched all cic/texts for Hild, Hilda, Hilde, Hylde, Streanaeshalch and variants, Heruteu, Hartlepool and Whitby. Held besides Bede: Stephen's Life of Wilfrid (Raine 1879), Thomas of Ely in Acta Sanctorum June 5, the York Prymer litany, and an Asser-edition annal 'Sancta Hilda abbatissa obiit apud Streanesheala' drawn from Bede (asser_life-of-king-alfred-lat_stevenson1904.txt l.12326-12327, not used). The Whitby Life of Gregory the Great and any Life of Hild are not held; Plummer's apparatus notes a manuscript rubric 'Hic incipit uita Sce. Hilde uirginis et abbatisse' at the head of IV.23 (PLUMMER l.33990), which is Bede's chapter, not a separate Life."
+   },
+   {
+    "detail": "Her feast",
+    "note": "The Bollandists' note in AASS Jun 5 l.95275-95276 reads 'S. Hilda, Abbatissa Streneashalae, colitur 15 Decemb.' against Bede's death day of 17 November; not used on the card, as no second held source gives a feast day."
+   }
+  ]
+ },
+ "adomnan-of-iona": {
+  "claims": [
+   {
+    "claim": "Ceolfrid's letter: 'many of them have been holy and worthy of God. Of which number is Adamnan, the abbat and renowned priest of Columba, who, when sent ambassador by his nation to King Alfrid, came to see our monastery, and discovering wonderful wisdom, humility, and religion in his words and behaviour'; question: 'why do you, contrary to the habit of your faith, wear on your head a crown that is terminated, or bounded? And if you aim at the society of St. Peter, why do you imitate the tonsure of him whom St. Peter anathematised?'; answer: 'Be assured, my dear brother, that though I have Simon's tonsure, according to the custom of my country, yet I utterly detest and abhor the Simoniacal wickedness'",
+    "witness": "Ceolfrid, letter to King Naitan, in Bede HE V.21, GILES l.14879-14901 (OCR 're- nowned', 'Simoniacal' at l.14901)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Aldfrith of Northumbria: Huyshe's note, 'Aldfrid, Aldfrith, or Ealdfrith, the Northumbrian Prince, who succeeded his brother Ecgfrith as king in 685, was at the time of Adamnan's accession to the Abbacy of Iona, 679, a refugee in Ireland'; intro: 'When, eventually, Aldfrith came to the throne of Northumbria, Adamnan visited his court ... and presented to him his book De Locis Sanctis'",
+    "witness": "HUY l.9176-9180, 1990-1994",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "The letter's writer and abbey: 'Naitan, king of the Picts ... sent messengers to the venerable Ceolfrid, abbat of the monastery of the blessed apostles, Peter and Paul, which stands at the mouth of the river Wear, and near the river Tyne, at the place called Jarrow'; Bede gives the letter in full",
+    "witness": "Bede HE V.21, GILES l.14316-14360",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Ceolfrid: 'This I then said to Adamnan, who indeed showed how much he had improved upon seeing the statutes of our churches, when, returning to Scotland, he afterwards by his preaching brought great numbers of that nation over to the catholic observance of the Paschal time; though he was not yet able to gain the consent of the monks that lived in the island of Hii, over whom he presided. He would also have been mindful to amend the tonsure, if his authority had extended so far.'",
+    "witness": "GILES l.14921-14930",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Huyshe: 'He was born in 624, twenty-seven years after the death of Columba, in south-western Donegal, descended from Sedna, an uncle of Columba, and was brought up in the monastic schools, and became a monk under his kinsman, Seghine, Abbot of Iona. In 679, in his fifty-fifth year, Adamnan succeeded to the chair of St. Columba, and to him there came as a refugee the English Prince Aldfrith, who was called the foster-son, or alumnus, of Adamnan.' No source is named in this passage.",
+    "witness": "Wentworth Huyshe, Introduction, HUY l.1979-1990 (line-break 'twenty- seven')",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Huyshe: 'Adamnan was in Ireland in 692, and again in 697, on ecclesiastical and political business ... It is thought that he wrote the Life of St. Columba between the two visits. Adamnan seems to have remained in Ireland until 704, in which year he returned to his monastery in Iona, and there, soon after, he died.'",
+    "witness": "HUY l.1995-2004",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "The Life's form: 'Adamnan's work is in three books ... The first book is upon the Saint's Prophetic Revelations, the Second upon his Miracles, the third, up to the twenty-third chapter, upon Angelic Visitations, and in the twenty-third chapter we have to the end one of the most exquisite pieces of pure biography'",
+    "witness": "HUY l.2039-2049",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Adomnán's preface: 'they should give credit to the facts therein recorded, and attend to the matter rather than to the words, which, as I think, seem uncultured and rude'",
+    "witness": "Adomnán, Life of Columba, first preface, HUY l.2082-2086",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Failbe and Oswald: 'My predecessor, our Abbot Failbeus, related this narrative to me, Adamnan, nothing doubting, and he declared that he had heard it from the mouth of King Oswald himself as he related this same vision to Seghine, the Abbot'; Oswald 'sees St. Columba in a vision' the day before he fought Cation; Huyshe's notes: 'Oswald King of Northumbria, 635-642'; 'Our Abbot Failbeus Eighth Abbot of Iona, 669-679'",
+    "witness": "Life of Columba I.1, HUY l.2374-2424; notes l.2521-2537",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Plague and Aldfrith: 'in Saxonia [England] also, on our visit to my friend, King Aldfrid, while the plague had not yet ceased and was devastating many villages up and down the country, the Lord, nevertheless, delivered us from danger ... so that not one of my own company died, nor was any one of them troubled by any disease'",
+    "witness": "Life of Columba II.46, HUY l.9120-9132 ('[England]' is Huyshe's gloss)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Cummene: 'Cuimine Ailbhe, surnamed also Fionn, or Albus, the Fair, seventh Abbot of Iona, 657-669. He wrote a book, \"De virtutibus Sancti Columbae\", which Adamnan has incorporated in this third book of his own work on the Saint.'",
+    "witness": "Huyshe's note, HUY l.9547-9552 (OCR 'Devirtatilus')",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Bede: 'Adamnan, priest and abbat of the monks that were in the isle of Hii, was sent ambassador by his nation to Alfrid, king of the English, where he made some stay, observing the canonical rites of the church, and was earnestly admonished by many, who were more learned than himself, not to presume to live contrary to the universal custom of the Church, either in relation to the observance of Easter, or any other decrees ... in consequence of this he changed his mind'",
+    "witness": "Bede HE V.15, GILES l.13551-13562; Latin 'Siquidem Adamnan, presbyter et abbas monachorum, qui erant in insula Hii', PLUM l.27823-27824",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "'For he was a good and wise man, and remarkably learned in Holy Scripture. Returning home, he endeavoured to bring his own people that were in the isle of Hii, or that were subject to that monastery, into the way of truth ... but in this he could not prevail. He then sailed over into Ireland ... he reduced many of them, and almost all that were not under the dominion of those of Hii, to the Catholic unity'",
+    "witness": "GILES l.13565-13581",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "'Returning to his island, after having celebrated the canonical Easter in Ireland ... it so happened that he departed this life before the next year came round, the Divine goodness so ordaining it, that as he was a great lover of peace and unity, he should be taken away to everlasting life before he should be obliged, on the return of the time of Easter, to quarrel still more seriously with those that would not follow him in the truth'",
+    "witness": "GILES l.13582-13592",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Holy Places: 'This same person wrote a book about the holy places, most useful to many readers; his authority ... was Arculf, a French bishop, who had gone to Jerusalem ... travelled to Damascus, Constantinople, Alexandria, and many islands, and returning home by sea, was by a violent storm forced upon the western coast of Britain ... he presently committed to writing all that Arculf said ... Adamnan presented this book to King Alfrid ... The writer thereof was also well rewarded by him'; 'I believe it will be acceptable to our readers if we collect some particulars from the same, and insert them in our History'",
+    "witness": "Bede HE V.15, GILES l.13594-13624",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "De Locis Sanctis preface: 'In nomine Patris ... texere librum de locis incipio sanctis. Arculfus sanctus episcopus, gente Gallus ... in Hierosolymitana civitate per menses novem hospitatus ... mihi Adamnano haec universa quae infra exaranda sunt experimenta diligentius perscrutanti, et primo in tabulas describenti, fideli et indubitabili narratione dictavit'",
+    "witness": "PL88 l.66253-66270, heading 'SANCTI ADAMNANI ABBATIS HIENSIS DE LOCIS SANCTIS EX RELATIONE ARCULFI EPISCOPI GALLI LIBRI TRES' (OCR heavy: 'librun» ile locis iiicipio', 'per menses novein', 'tabulas desciibenli', 'nibi Adaninano'); the same passage is quoted more legibly in the prefatory notice at l.62277-62287",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "De Locis Sanctis close: 'Obsecro itaque eos quicunque breves legerint libellos, ut pro eodem sancto sacerdote Arculfo divinam precentur clementiam ... Horum ergo lectorem admoneo experimentorum, ut pro me misello peccatore eorumdem craxatore [scriptore] Christum judicem saeculorum exorare non negligat'",
+    "witness": "PL88 l.68716-68738 (OCR 'legerinl', 'saiicto sacerdole Arculfodi-', 'craxaiore [scrlptore]'); 'Huc usque codex Vaticanus' follows",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "L. Cecil Jane's note: '334. Adamnan. 624-704. It is doubtful if he really wrote the book De Situ Terrae Sanctae here quoted by Bede.' Jane appended the Notes (prefatory note, l.15582-15586).",
+    "witness": "GILES l.16033-16035 (OCR ', ,,' before 'the book')",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Newport J. D. White: 'Both Aedh and Muirchu subscribed the Acts of the Synod held at Birr, by Adamnan, a.d. 695-697.'",
+    "witness": "WHITE l.3767-3770 (OCR '^dh', '-^dh')",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Lebar Brecc note in Stokes: Irish 'Ocus cain Adamnan cen mna do marbad'; Stokes's English: \"'Four Rules of Ireland, to wit, Patrick's rule, not to slay clerics. And Adamnan's rule, not to slay women. And Dari the marvellous nun's rule, not to slay oxen. And the rule of Sunday, in no wise to transgress upon it.'\"",
+    "witness": "STOKES-TRIP l.13852 (heading 'Notes from Lebar Brecc, p. 83, marg. sup.'), 13859-13867 (OCR 'Adamiian's')",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Huyshe: 'Columba himself, and Adamnan after him, brought about the emancipation of women from the obligation to fight alongside of their husbands and sons.'",
+    "witness": "HUY l.1586-1590",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Canones Adomnani: Wasserschleben's appendix 'INCIPIUNT CANONES ADDAMNANI VEL ADDOMINANI', c.1 'Marina animalia ad littora cadentia, quorum mortes nescimus, sumenda sunt sana fide, nisi sint putrida', c.2 'Pecora de rupe cadentia ...'; note: d'Achery printed these 'als Capitula Theodori ... obgleich der von ihm benutzte Cod. Sangerm. sie ausdrücklich als Canones Adomnani bezeichnet'; 'Adomnan war ein Abt der schottischen Insel Hy und starb im Jahre 704'. Wasserschleben names 'Theodor, Erzbischof von Canterbury' (l.1147) and 'Die d'Achery'schen Kapitel' (l.1767).",
+    "witness": "WASS l.6930-6945 (OCR 'ADDAMNARP) YEL ADD0MINAR1', 'aniinalia', 'qpuorum'), 6962-6970",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "PL 88 also prints 'CANONES ADAMNANI' from Mansi: 'Marina animalia ad litora delata ...'",
+    "witness": "PL88 l.68753-68762 (OCR 'ADAMNAISI', 'aninialia')",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Annales Cambriae: '704. CCLX. Annus. Alchfrid rex Saxonum obiit. Dormitatio Adomnan.' The AD year is the editor's, John Williams ab Ithel.",
+    "witness": "AC l.2801-2802",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Book of Leinster annals: 'Adomnanus captiuos duxit ad Hiberniam'; Stokes's English: '[693.] Adamnan brought the captives to Ireland.'",
+    "witness": "STOKES-TRIP l.14735 (heading 'Annals from the Book of Leinster'), 14840, 14912 (OCR 'Adamuau')",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Iona's later change: 'The monks of Hii, by the instruction of Egbert, adopted the catholic rites, under Abbat Dunchad'; Egbert came among them 'in the year after the incarnation of our Lord 716'; III.4 gives 'till the year of our Lord's incarnation 715. But then ... Egbert, of the English nation, who had long lived in banishment in Ireland ... came among them'",
+    "witness": "Bede HE V.22, GILES l.14990-15031; III.4, l.5877-5884",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Alcuin: 'Ad aram sanctorum Patricii et aliorum Scotorum. Patricius, Cheranus Scotorum gloria gentis, Atque Columbanus, Congallus, Adomnanus atque, Praeclari Patres, morum vitaeque magistri, Hic precibus pietas horum nos adjuvet omnes.'",
+    "witness": "ALC l.60492-60496 (OCR 'Pr:xelari', 'viteque')",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Huyshe on the Life's reputation: 'Dr. Reeves considers it one of the most important pieces of hagiology in existence'; 'as the Rev. George Cormack ... expresses it, Adamnan thought in Gaelic and wrote in Latin'; Reeves named in full as 'Dr. William Reeves' (l.209)",
+    "witness": "HUY l.2016-2018, 2034-2035, 209",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Card otherNames: 'Adamnan' (Huyshe; Giles); 'Adamnanus' (Bede V.15 in Latin as quoted in PL 88: 'Adamnanus presbyter et abbas monachorum qui erant in insula Hii'; Plummer's nominative 'Adamnanus' at l.25354 is the Coldingham namesake); 'Adomnanus' (Alcuin l.60494; Leinster annals l.14840); 'Adamanus' (Migne's heading 'S. ADAMANUS', 'SANCTI ADAMANI BENEDICTINI ABBATIS DE VITA S. COLUMBAE')",
+    "witness": "PL88 l.66004 (OCR 'pre-byter ... nionacliiiriiiii'); PLUM l.25354 (namesake); ALC l.60494; STOKES-TRIP l.14840; PL88 l.62118, 62416-62420",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Coldingham namesake: 'There was in that monastery a man of the Scottish race, called Adamnan, leading a life entirely devoted to God' (monastery 'of the city Coludi'); Plummer's index separates 'Adamnan, a monk of Coldingham' and 'Adamnan, abbot of Iona, v. 15'",
+    "witness": "GILES l.11301-11318; PLUM l.34216-34219 (OCR 'abbot of lona')",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Ceolfrid wrote as an advocate: Naitan asked him 'that he would write him a letter containing arguments, by the help of which he might the better confute those that presumed to keep Easter out of the due time; as also concerning the form and manner of tonsure'; Ceolfrid's question 'wear on your head a crown ... imitate the tonsure of him whom St. Peter anathematised'",
+    "witness": "GILES l.14338-14342, 14889-14894",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Adomnán returned to Iona before he died: 'Returning to his island, after having celebrated the canonical Easter in Ireland ... he departed this life before the next year came round'; Huyshe: 'returned to his monastery in Iona, and there, soon after, he died'",
+    "witness": "GILES l.13582-13587; HUY l.2001-2004",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Arculf went on from Jerusalem: 'travelled to Damascus, Constantinople, Alexandria, and many islands, and returning home by sea, was by a violent storm forced upon the western coast of Britain'",
+    "witness": "GILES l.13598-13602",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Newport J. D. White as translator: title page 'St. Patrick: His Writings and Life', 'Translations of Christian Literature', 'Newport J. D. White'; Muirchu as writer of a Life of Patrick: 'Introduction to Muirchu's Life of St. Patrick'",
+    "witness": "WHITE l.103-111 (title page, OCR '^NEWPORT JDWHITE;Dn'), 169-172",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Lebar Brecc as late medieval: Huyshe 'the fifteenth-century manuscript, the Leabhar Breac'; F. E. Warren's Antiphonary volume: 'compiled from ancient sources about the end of the fourteenth century' (the brief says 'late medieval' to cover both; the card names Huyshe)",
+    "witness": "HUY l.1684-1685; antiphonary-of-bangor-pt2 l.17717-17719",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Aedh of Sletty: 'his own intimate connexion with Aedh, bishop of Sleibte (Sletty)'; 'Both Aedh and Muirchu subscribed the Acts of the Synod held at Birr, by Adamnan, a.d. 695-697'",
+    "witness": "WHITE l.3763-3768 (OCR '^dh', '-^dh')",
+    "formation_confidence": "Documented"
+   }
+  ],
+  "contested_claims": [
+   {
+    "claim": "Whether Adomnán wrote the book on the holy places that Bede quotes",
+    "sides": [
+     "Bede credits it to him (GILES l.13594-13620); its preface names 'mihi Adamnano' as the one Arculf dictated to (PL88 l.66266-66270)",
+     "L. Cecil Jane: 'It is doubtful if he really wrote the book De Situ Terrae Sanctae here quoted by Bede' (GILES l.16033-16035)"
+    ]
+   },
+   {
+    "claim": "Whether the canons under his name are his",
+    "sides": [
+     "A Saint-Germain manuscript heads them Canones Adomnani, as Wasserschleben reports (WASS l.6962-6968); PL 88 prints them under his name (PL88 l.68753)",
+     "d'Achery printed them as Capitula Theodori (WASS l.6964-6967)"
+    ]
+   }
+  ],
+  "absent_details": [
+   {
+    "detail": "The text of Adomnán's rule (Cáin Adomnáin, the 'Law of Innocents')",
+    "note": "Not held. The only held statements are the Lebar Brecc note's 'Adamnan's rule, not to slay women' (STOKES-TRIP l.13859-13866) and Huyshe's general remark (HUY l.1586-1590). The name 'Law of Innocents' appears in no held file searched (patterns 'Lex Innocent', 'law of the innocents', 'Cain Adamn', 'Cáin Ad'). Stokes's index points to his vol. I introduction, pp. xxi-xxii, which is not in the held volume II."
+   },
+   {
+    "detail": "The acts of the synod of Birr",
+    "note": "Not held; White names only the subscribers (WHITE l.3767-3770). No held source ties the rule to Birr."
+   },
+   {
+    "detail": "Huyshe's sources for 624, Donegal, Sedna and Seghine",
+    "note": "His introduction names none at l.1979-2004. Huyshe's own note dates Seghine's abbacy 623-652 (HUY l.2538-2539)."
+   },
+   {
+    "detail": "Irish annals for Adomnán",
+    "note": "No early Irish annals held except the Book of Leinster extracts in Stokes; the Four Masters volume held covers 1172-1378."
+   },
+   {
+    "detail": "Whose captives Adomnán brought to Ireland",
+    "note": "The Book of Leinster entry and Stokes's English do not say (STOKES-TRIP l.14840, 14912)."
+   }
+  ]
+ },
+ "alcuin-of-york": {
+  "claims": [
+   {
+    "claim": "Liudger a deacon: 'Liudgerum Diaconem' (l.164339) and 'studiosus Levita' (l.164412); first stay 'anno uno', joining Alcuin at once: 'cui statim vir prudens Liudgerus sedulo jungebatur' (l.164393-164396), margin 'init notitiam cum Alcuino' (l.164349); the three years and six months are the second stay (R1 C-M10, C-M15). Altfrid: 'Alchuinus etiam illo in loco tunc Magister erat, qui postea temporis Caroli Junioris in Turonis et in Francia Magisterium exercuit'; Liudger asks Gregory 'licentiam redeundi ad Magistrum Alchuinum' and goes 'ad praefatum Magistrum Eboraicae civitatis Anglorum' (OCR 'redeundiad', 'Eboraiezm'); 'Magister Illustris Alchuinus eum magno suscepit gaudio' (OCR 'Alehuinus'); 'mansit ibi annis tribus et mensibus sex' | OCR text, acta-sanctorum l.164393-164421: «anno uno. e Alchuinus etiam illo in loco tunc Ma- gister erat, qui postea temporis Caroli f Junioris in Turonis et in Francia Magisterium exercuit; cui sta- tim vir prudens Liudgerus sedulo jungebatur, hau- riendo ab eo spiritalia dogmata. Post anni vero cir- culum revertentes, qui missi erant, Domino guber- nante pervenerunt ad Abbatem Gregorium; qui benigne suscepit eos, gavisus valde in adventu eo- rum; et mansit cum eo Alubertus collaborans in opere Domini. 10 Liudgerus igitur cupiens saturare se prelibati dulcedine favi, petiit ab Abbate Gregorio licentiam redeundiad Magistrum Alchuinum. Quod ille moleste suscipiens, fieri renuit. Noluit tamen contristare pe- tentem, sed blandis sermonibus ccepit compescere eum. Cumque se cerneret nullis objectionibus illum à sua intentione revocare posse, arcessito patre il- lius, postulavit ut conaretur revocare eum a cupito itinere. Sed studiosus»",
+    "witness": "Altfrid, Life of Liudger, Acta Sanctorum March 3 (acta-sanctorum_martii-tomus-3-lat-grc_palme1865 l.164393-164421)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Brief: 'suffer deadly harm' for 'quicquam pateretur lethalis mali' (R1 C-M12). Altfrid: 'contigit, ut per rixam interficeretur filius cujusdam Comitis ipsius provinciae a Fresone quodam negotiatore: et idcirco Fresones festinaverunt egredi de regione Anglorum, timentes iram propinquorum interfecti juvenis. Tunc Alchuinus necessitate compulsus direxit Liudgerum cum praefatis negotiatoribus ... dicebat enim potius se velle mori, quam ut filius suus dilectus illic quicquam pateretur lethalis mali' (OCR 'negotiaribus', '\"ut', 'illie'); 'pervenit ad patriam suam, bene instructus, habens secum copiam librorum' (OCR 'copiàm') | OCR text, acta-sanctorum l.164424-164439: «vibus illis ad bellum contra inimicos suos, contigit, ut per rixam interficeretur filius cujusdam Comitis ipsius provincie a Fresone quodam negotiatore: et idcirco Fresones festinaverunt egredi de regione An- glorum, timentes iram propinquorum interfecti ju- venis. Tunc Alchuinus necessitate compulsus direxit Liudgerum cum przfatis negotiaribus : misit etiam cum eo et Diaconem suum, nomine g Putul, timens ne amore discendi, aliam religionis illius civitatem adiret, et pro ultione przdicti juvenis aliquas pate- retur insidias : dicebat enim potius se velle mori, quam \"ut filius suus dilectus illie quicquam pateretur lethalis mali. Directus itaque Liudgerus prospero cursu, pervenit ad patriam suam, bene instructus, habens secum copiàm librorum : eratque Patri Gre- gorio et ceteris tanto tunc dignior et acceptior,»",
+    "witness": "Altfrid, Life of Liudger, Acta Sanctorum March 3 (acta-sanctorum_martii-tomus-3-lat-grc_palme1865 l.164424-164439)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Altfrid identified: 'Altfridum Monasteriensem Episcopum'; 'ab Altfrido Episcopo Mimigardevordensi scripta' (OCR 'Müimigardevordensi'); he learned Liudger's deeds 'non ea visu, sed auditu' from those 'qui ab infantia illum noverant'; alive 848 ('anno Incarnationis Dominicae DCCCXLVIII', OCR 'pcccxLvm'); 'Obiit Altfridus ... anno DCCCXLIX'. The Life is hagiography, written from hearsay of Liudger's kin and pupils. | OCR text, acta-sanctorum l.160460-160474: «grimum discipulum ejus, Altfridum Monasteriensem Episcopum , Uffingum ceonobitam Werthinensem. Earum Vitarum, qua ad. manus nostras pervenerunt, prima est ab Altfrido Episcopo Müimigardevordensi scripta. Quod ex prologo liquet, ubi ista. habet : Postu- lastis crebris precibus, ut de vita sancti Patris Liudgeri aliquid conseribere juberem, quatenus tam veneranda illius exempla multis ad cedificationeni proficerent, ac paucis interjectis, quia nefas putabam tanti viri latere virtutes. Dein fatetur, se exempla ejus el acta 'ideo plene comprehendere non posse, quia non ea visu, sed auditu didicerit : sed illis attestan- tibus, qui ab infantia illum noverant , atque ab eo eruditi fuerant : Hildigrimo scilicet Episcopo fratre ejus, et Gerfrido Episcopo nepote ejus. sed et sanc-» ; acta-sanctorum l.160510-160530: «ram. Vivebat adhuc Altfridus xx Julii, an. ncccxrviu ui fidem facit instrumentum. ex: veteri codice /P'erthi- nensi de»",
+    "witness": "Bollandists, Altfrid, Life of Liudger, Acta Sanctorum March 3 (acta-sanctorum_martii-tomus-3-lat-grc_palme1865 l.160460-160474, 160510-160530)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Mabillon: 'In provincia Eboracensi ortus est Alcuinus «ex nobili gentis Anglorum prosapia,» ut Vitae scriptor loquitur. Parentis utriusque nomina ignota.' (OCR 'v nobili', 'Vite scri- mor') | OCR text, alcuin l.112876-112878: «$. In provincia Eboracensi ortus est Alcuinus v nobili gentis Anglorum prosapia, » ut Vite scri- mor loquitur. Parentis utriusque nomina ignota.»",
+    "witness": "Mabillon, Elogium historicum, PL 101 (alcuin_opera-omnia-letters_migne-pl100-101_1863 l.112876-112878)",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "Mabillon: 'Eboraci educatus est a puero Alcuinus in monasterio primariae basilicae adjuncto', citing Alcuin's letter to the brethren of York: 'Vos fragiles infantiae meae annos materno fovistis affectu, et lascivum pueritiae tempus pia sustinuistis patientia' (OCR 'mo- masterio primarizx basilicze', 'infantie mex', 'pueritix'); 'Aelberto pontifice ... Alcuinus scholae Eboracensi praefectus est' (OCR 'JElberto', 'scholx Eboracens; pr:e- fectus') | OCR text, alcuin l.112899-112919: «4. Eboraci educatus est a puero Alcuinus in mo- masterio primarizx basilicze adjuncto, quod ipse fate- tur in epistola ad fratres Eboracensis ecclesie his verbis : « Vos fragiles infantie mex annos materno fovistis affectu, et lascivum pueritix tempus pia sus- tinuistis patientia, et paternz castigationis discipli- uis ad perfectam viri edocuistis etatem, et sacrarum eruditione diseiplirarum roborastis. » 5. Praceptores habuit, non Bedam, qui forsan ante se natum mortuus erat, sed Eglertutn et. /Ei- bertum, alterum post alterum :episcopos Eboracen- Ses. Testis de utroque Vite scriptor. Et quidem de Egberto res patet ex epistola ad Eanbaldum, cujus sis ecclesix: bibliothecam ipsi commendavit, « ut praeesset thesauris sapientis, » uti legitur in prze- citata epistola ad Eanbaldum. JElberto pontifice, qui Egberto successit, Alcuinus scholx Eboracens; pr:e- fectus est, ubi Ludgerum, Fridugis»",
+    "witness": "Mabillon, Elogium historicum, PL 101 (alcuin_opera-omnia-letters_migne-pl100-101_1863 l.112899-112919)",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "Mabillon's Elogium is in his Acta Sanctorum of the Benedictine order ('(Mabill., Act. SS. ord. S. Benedicti.)', l.112800); Krusch dates that work 'Parisiis 1668' (venantius-fortunatus_opera-mgh-aa-4-lat_leo-krusch1881 l.41806); Benson lists 'Mabillon, Jean' (benson_cyprian l.38911). Basis for 'seventeenth-century essay'. | OCR text, alcuin l.112776-112776: «ELOGIUM HISTORICUM BEATI ALCUINI,» ; alcuin l.112800-112800: «(Mabill., Àct. SS. ord, S. Benedicti.)»",
+    "witness": "Mabillon, Elogium historicum, PL 101 (alcuin_opera-omnia-letters_migne-pl100-101_1863 l.112776, 112800)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Mabillon: 'anno 780 cum mortuo Aelberto Eboracensi episcopo pro Eanbaldi successoris obtinendo pallio Romam missus inde rediret, Parma occurrit Carolo Magno, qui ipsum in Franciam invitavit, ut ex superiori Vita intelligimus' (OCR 'JElberto', 'allio Komam', 'occuriit', 'zarolo') | OCR text, alcuin l.113480-113484: «91. Nam anno 780 cum mortuo JElberto Ebora- censi episcopo pro Eanbaldi successoris obtinendo allio Komam missus inde rediret, Parma occuriit zarolo Magno, qui ipsum in Franciam invitavit, ut ex superiori Vita intelligimus. Huc referenda vide-»",
+    "witness": "Mabillon, Elogium historicum, PL 101 (alcuin_opera-omnia-letters_migne-pl100-101_1863 l.113480-113484)",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "Brief and card render 'virum undecunque doctissimum' as 'a man (most) learned in every field' (R1 C-M13). Einhard, quoted by Mabillon: Charles 'in caeteris disciplinis Albinum cognomento Alcuinum, item diaconem de Britannia, Saxonici generis hominem, virum undecunque doctissimum praeceptorem habuerit: apud quem et rhetoricae et dialecticae, praecipue tamen astronomiae ediscendae plurimum et temporis et laboris impertiit' (OCR 'teste Eginbardo', 'cxteris', 'Álcuinum', 'do- etissimum'). Einhard identified: 'Vita Karoli ab Einhardo conscripta' (Kurze, annales-regni-francorum l.277). | OCR text, alcuin l.113568-113576: «que facium est ut Carolus rex , qui « in discenda grammatica Petrum Pisanum diaconem senein audi- vit, » teste Eginbardo « in cxteris disciplinis Albinum cognomento Álcuinum, item diaconem de Britannia, Saxonici generis hominem , virum undecunque do- etissimum prseceptorem habuerit : apud quem et rhe- torice et dialectice, pracipue tamen astronomi:e ediscenie, plurimum et temporis et laboris imper- tiit. » Unde non immerito Carolus eum « charis-»",
+    "witness": "Mabillon, Elogium historicum, PL 101 (alcuin_opera-omnia-letters_migne-pl100-101_1863 l.113568-113576)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Brief: 'His teacher, he says, had charged him...' — 'meus mihi mandatum dederat magister' is Alcuin's own teacher, whom Mabillon names: 'Magister iste Alcuini est Albertus, ex Vitae num. 11' (OCR 'Vit»', l.113553) (R1 C-B2). Alcuin, Against Elipandus, preface: 'ad gloriosum et omni honore nominandum hujus regni principem et regem Carolum vocatus adveni, sicut mihi quidam sanctissimus vir, prophetiaeque spiritu praeditus, Dei esse voluntatem in mea praedixerat patria; etiam et ut vir venerabilis totusque Deo deditus meus mihi mandatum dederat magister, ut si alicubi novas audirem oriri sectas, et apostolicis contrarias doctrinis, mox totum me in catholicae defensione fidei dedissem' (OCR 'divinj', 'glorio- suu', 'weus', '«ubi', 'apestolicis'). Also quoted by Mabillon l.113541-113553. Brief tells it in modern words. | OCR text, alcuin l.17300-17310: «servire desiderans ; ad cujus servitii facultatem, di- vinj, ut credo , jubente dispensatione, ad glorio- suu et omni honore nominandum hujus regni prin- cipem et regem Carolum vocatus adveni, sicut mihi quidam sanctissimus vir, prophetizque spiritu prz- ditus, Dei esse voluntatem in mea przdixerat patria ; eliam et ut vir venerabilis totusque Deo deditus weus mihi mandatum dederat magister, ut si ali- «ubi novas audirem oriri sectas, et apestolicis con- trarias doctrinis, mox totum me in catholice de- fensione fidei dedissem. Quod quamvis ob imperi-»",
+    "witness": "Alcuin, PL 101 (alcuin_opera-omnia-letters_migne-pl100-101_1863 l.17300-17310)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Royal Frankish Annals 792: 'Orgeliis est civitas in Pyrinei montis iugo sita, cuius episcopus nomine Felix, natione Hispanus, ab Elipando Toleti episcopo per litteras consultus, quid de humanitate salvatoris ... sentire deberet, utrum secundum id, quod homo est, proprius an adoptivus Dei filius credendus esset ... adoptivum non solum pronuntiavit'; 'Heresis Feliciana primo ibi [Regensburg] condempnata est' (OCR). Kurze's note '1) Urgel'. | OCR text, annales-regni-francorum l.6363-6363: «ganesburg. Heresisb Feliciana primo ibi condempnata0» ; annales-regni-francorum l.6415-6430: «iugo 2 sita , cuius episcopus nomine Felix , natione Hi- spanus, ab Elipandoc Toleti episcopo per litteras con- sultus, quid de humanitate salvatoris dei et domini nostri lesu Christi sentire deberet, utrum secundum id, quod hoino est, proprius an adoptivus Dei filius cre- dendus esset ac dicendus, valde incaute atque inconsi- derate et contra antiquam catholicae ecclesiae doctrinam adoptivum non solum pronuntiavit, sed etiam scriptis» ; annales-regni-francorum l.6460-6460: «1) Urgel. 2) Cf. V. Karoli 9: in ipso Pyrinei iugo, et 15:»",
+    "witness": "Royal Frankish Annals, ed. Kurze (annales-regni-francorum_kurze1895 l.6363, 6415-6430, 6460)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Royal Frankish Annals 794: 'Pascha celebratum est in Franconofurt; ibique congregata est synodus magna ... Ibi tertio condempnata est heresis Feliciana' (OCR 'Francono- furta', 'tertio1'', 'condempnata*') | OCR text, annales-regni-francorum l.6580-6591: «Mart.23. BCCXCIIII. Pascha celebratum est in Francono- (iun.ij. furta ; ibique congregata est synodusb magna2 epi- scoporum Galliarum, Germanorum, Italorum0 in praesen- tia(l iamfati principis et missorum domni apostolici Adrianie, quorum nomina haec sunt, Theofilactus1 et Stephanus\" episcopi. Ibi tertio1' condempnata* est»",
+    "witness": "Royal Frankish Annals, ed. Kurze (annales-regni-francorum_kurze1895 l.6580-6591)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Synod of Frankfurt (794 mense iunio), c. 56, the last chapter: 'Commonuit etiam ut Alchuinum ipsa sancta synodus in suo consortio sive in orationibus recipere dignaretur, eo quod esset vir in ecclesiasticis doctrinis eruditus. Omnis namque synodus ... consensit' (OCR 'Ahquinum'; MS 2 'aquilinum'; 'doctiinis'); Boretius's note: 'Alcuinum qui huic synodo e Britannia legatus interfuit' (OCR 'Alcuinvm', 'qid', 'Britumda', 'interfait'). Mabillon calls the decree 'quod concilii postremum est' (l.113632). | OCR text, capitulatio-de-partibus-saxoniae l.5566-5568: «28. SYNODUS FRANCONOFURTENSIS. 794 mense JiidIo.» ; capitulatio-de-partibus-saxoniae l.5940-5950: «56. Commonuit etiam ut Ahquinum'^^ ipsa sancta synodus in suo consortio sive in orationibus recipere dignaretur, eo quod esset vir in ecclesiasticis doctiinis eru- 20 ditus. Omnis namque synodus secundum ammonitionem domni regis conscnsit et eum in eorum consortio sive in orationibus receperunt. y) confccta sacra mystcria 1. z) aquilinum2. 52) ihid.Al^conc.Gungr.c.l. 53) ihid.bO. 54^ ihid. bS ] decret. Innocent. 1 . bb) ihid.bi:. 56) ibid.bb\\ cfr. sujrra 6. 20. 57) Meltensem, mortuam «wmo791. 58) Coloniensem. 59) Alcuinvm 25 qid huic synodo e Britumda legatus interfait.»",
+    "witness": "Synod of Frankfurt, Capitularia 1, ed. Boretius (capitulatio-de-partibus-saxoniae_pertz1881 l.5566-5568, 5940-5950)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Alcuin, Against Elipandus I.16: 'Admones me ... gloriosum regem Carolum non corrumpere. Non ego illum corrumpere veni in Franciam, qui corrumpi non potest, sed adjuvare in fide catholica' (OCR 'gloriosun)', 'corrum- pere'). Brief: 'Alcuin answered that the king could not be corrupted, and that he had come to help him in the faith' (modern words). | OCR text, alcuin l.18628-18632: «XVI. Admones me non pio, ut videtur, animo, sed severa invectionis castigatione, gloriosun) regem Carolum non corrumpere. Non ego illum corrum- pere veni in Franciam, qui corrumpi non potest, sed adjuvare in fide catholica, in qua ille ab ineunte»",
+    "witness": "Alcuin, PL 101 (alcuin_opera-omnia-letters_migne-pl100-101_1863 l.18628-18632)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Alcuin: 'libello ejus septem nostrae devotionis libellis respondimus ... Qui etiam nostrae devotionis sermones lecti sunt et probati in praesentia domni regis et sacerdotum Christi' (OCR 'nestrz', 'libeHis', 'ia', 'el saeerdotum'); against Elipandus 'Quod opus in quatuor libris terminavimus' | OCR text, alcuin l.18655-18658: «libello ejus septem nestrz devotionis libeHis respon- dimus, omnes vestre pravitatis evacuans doctrinas. Qui etiam nostrz devotionis sermones lecti sunt et probati ia presentia domni regis el saeerdotum» ; alcuin l.17287-17288: «piam professionem collegi subjicere. Quod opus in quatuor libris terminavimus. Deinde epistolam illius»",
+    "witness": "Alcuin, PL 101 (alcuin_opera-omnia-letters_migne-pl100-101_1863 l.18655-18658, 17287-17288)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Alcuin: 'Sed et idem Felix anno praefati gloriosi principis tricesimo secundo advocatus voluntarie veniens ad Aquis Palatium, ibique in praesentia domni regis ... rationabiliter auditus, et veraciter convictus, atque Deo dans gloriam, veramque confessus fidem, in pacem catholicae unanimitatis reversus est' (OCR 'fidei', 'cathelic:e unanimitas'). Mabillon dates it 'anno 799' (l.113648). Brief: 'In Charlemagne's thirty-second year as king'. | OCR text, alcuin l.18659-18665: «Christi. Sed et idem Felix anno praefati gloriosi principis tricesimo secundo advocatus voluntarie veniens ad Aquis Palatium, ibique in presentia domni regis et op:imatum illius sive sacerdotum Dei rationabiliter auditus, et veraciter convictus, atque Deo dans gleriam, veramque confessus fidei, in pacem cathelic:e unanimitas reversus est cum suis»",
+    "witness": "Alcuin, PL 101 (alcuin_opera-omnia-letters_migne-pl100-101_1863 l.18659-18665)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Mabillon on Tours: Alcuin's letter 'Fere ante hoc quinquennium ... translatus sum in servitium sancti Martini', dated by Mabillon to 801, 'dicendum id contigisse anno 796'; 'Monachos quippe ... a solutiori vitae genere ad religiosum revocavit ... ac denique publicas in ea urbe scholas aperuit' (OCR 'seholas') | OCR text, alcuin l.113678-113694: «* Fere ante hoc quinquennium seculares occupa- tiones, Deum testor, non ficto corde declinare cogi- tavi, sed vestre pie providentiz consilio translatus sum in servitium sancti Martini. » Scripta est. cpi- stola bxc in reditu Caroli Magni ex Italia. In ea quippe Alcuinus ait se de Caroli ex Italia reditu an- xium fuisse ; tandemque, quamvis sero, vocem op'a- lam concurrentium insonuisse auribus suis : « Jain jimque veniet, jam Alpes transivit. » Quod io annum Christi octingentesimum primum referre oportet, quo Carolus imperator dietus, Roma huc regressus est. Neque enim id revocari potest in penultiinum ipsius ier trans Alpes, quod accidit anno 786, siquidem non nisi post concilium Francofurtense Aleuinüs ab- batiz Martinianz prelatus est. Cum ergo quinquen- nio ante annum Christi 801 id factum sit; dicendum id contigisse anno 796.» ; alcuin l.113717-113725: «gerrimus. Monachos quippe, quorum alii se canoni- cos, al»",
+    "witness": "Mabillon, Elogium historicum, PL 101 (alcuin_opera-omnia-letters_migne-pl100-101_1863 l.113678-113694, 113717-113725)",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "Card gives the day as 19 May from Mabillon's 'nimirum xiv Kal. Junii, ut constat ex Vita, Rabano, et Hariulfo monacho Centulensi' (l.115024-115027); the OCR 'xvi' at l.114740 is kept here only (R1 C-M14). Mabillon on the death: 'Alcuinum obiisse xvi [elsewhere xiv] Kalendas Junias anni 804 prodit Vitae scriptor, eumque secuti auctores posteriores. Diem retinendum esse constat: annum corrigendum argumenta tria persuadere videntur'; arguments from the verses on Saint Amand (809) and Rabanus's books on the Cross; 'Alcuinum pervenisse ad annum 81[3] aut certe annum 810 excessisse' (OCR '815 aut certo'); 'brevi chronico Turonico: Anno 804 sanctus Alcoinus' (OCR 'chrenico', 'Alcoi-'); 'nimirum xiv Kal. Junii, ut constat ex Vita, Rabano, et Hariulfo' (l.115024-115027); the Life's writer 'utpote fere aequalis' (l.114899-114900) | OCR text, alcuin l.114740-114740: «71. Aleuingm obiisse xvi Kalendas Junias anni» ; alcuin l.114788-114800: «804 prodit Vite scriptor, eumque secuti auctores po- C bandum est in ipsius Rabani Elogio : ac proinde Al- steriores. Diem retinendum esse constat : annum corrigendum argumenta tria persuadere videntur. 72. Primum argumentum petitur ex carmine 54 nuuc 29) quod de sancti Amandi corporis elevatione ut vocant) scripsit Alcuinus non ante annum 809, quo hxc elevato facta est. Istud argumentum qua ratione eludi possit non video. Neque enim dici po- lest carmen seu. epigramma istud non esse Alcuini :» ; alcuin l.114827-114832: «vero desumitur, quod Alcuinus Rbabano discipulo suo auctor fuit scribendi libros de Cruce duos, quos Rabanus in persona Alcuini , ctiam tum sine dubio viventis, sancto Martjno dedicavit. De perf(iciendo hoc opere exstat Alcuini epistola 59 (nunc 150) benc-» ; alcuin l.114895-114900: «ni fallor, Alcuinum pervenisse ad annum 815 aut certo annum 810 excessisse. Itaque corrigendum esse V»",
+    "witness": "Mabillon, Elogium historicum, PL 101 (alcuin_opera-omnia-letters_migne-pl100-101_1863 l.114740, 114788-114800, 114827-114832, 114895-114900, 114951, 115024-115027)",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Froben's monitum to On the Faith of the Trinity: 'Scripsit Alcuinus praesens opusculum in monasterio Turonensi, circa finem vitae suae' and reads the 'celeberrimus conventus' as 'de anno 802'; Thegan sent it to Hatto: 'quod sanctus Alcuinus summus scholasticus ex variis libris sancti Augustini congregavit in unum'; Aeneas of Paris 'plura ex hoc Alcuini scripto refert testimonia' (OCR 'przsens', 'vite sux') | OCR text, alcuin l.596-616: «DE FIDE SANCTE ET INDIVIDUJE TRINITATIS AD GLORIOSUM IMPERATOREM CAROLUM MAGNUM DEO DEVOTUM LIBRI TRES. 301-702 MONITUM PRJEVIUM. Scripsit Alcuinus przsens opusculum in mona- sterio Turonensi, circa finem vite sux,et eo quidem tempore, prout ipsemet in epistola sua dedicatoria ad Carolum imperatorem significat, « quo gentes, as prioribus bellicus labor temporibus sibi sub- lere non potuit, voluntaria subjectione » veniebant : et quo « celeberrimus conventus, quo sacerdotes Dei et populi przedicatores Christiani in unum imperiali r:eceplo conveniebant, » celebratus fuit : qu: intel- Tigenda esse existimo de anno 802. Annales enim» ; alcuin l.644-664: «brioribus probatum laudatumque fuit. Teganus siqui- dem, idem, credo, qui Ludovici Pii imperatoris Vitam scripsit, ad Hattonem, scu Hettonem Basileensem, ut videtur, episcopum hoc Alcuini opusculum dono misit, dignumquce censuit, «quoille episcopus sanctum suum jn»",
+    "witness": "Froben, PL 101 (alcuin_opera-omnia-letters_migne-pl100-101_1863 l.596-616, 644-664)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Mabillon quoting Alcuin's letter to Charles: 'aliis per tecta sancti Martini sanctarum mella Scripturarum ministrare satago; alios vetere antiquarum disciplinarum mero inebriare studeo; alios grammaticae subtilitatis enutrire pomis incipiam: quosdam stellarum ordine, ceu picto cujuslibet magnae domus culmine, illuminare gestio' (OCR interleaved with the next column: 'alios grammatice jeder', 'stel- latum', 'magnze. domus', 'culmipe'). Also printed in a note at l.67788-67790. Told in modern words in the brief. | OCR text, alcuin l.113983-113990: «epistola 4 (nnnc 43) ad Carolum, « secundum exhor- — Cum vero hzc aulp mora viro pis molesta esset, tationem eL honant voluntatem vestram, aliis per —mulloties Carolum rogavit ut ab ea absolveretur : tecta sancti Martini sanctarum. mella Scripturarum — quod tandem obtinuit, ut postea dicemus. Porro ministrare satago ; alios vetere antiquarum discipli- — post priorem adventum suum in Galliam, assidue in narum mero inebriare studeo; alios grammatice jeder versabatur, ut Carolum variis disciplinis im- subtilitatis enutrire pomis incipiam : quosdam stel- — bueret, smpra num. 27. I .. latum ordine, ceu picto cujuslibet. magnze. domus 51. Hec causa fuit cur Academize Parisiensis origo culmipe, illuminare gestio : plurima plurimis factus, — Alcuino auctori tribueretur. Cum enim Lutetiz Pa-»",
+    "witness": "Mabillon, Elogium historicum, PL 101 (alcuin_opera-omnia-letters_migne-pl100-101_1863 l.113983-113990)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Mabillon: 'Hec causa fuit cur Academiae Parisiensis origo Alcuino auctori tribueretur ... qui palatinis scholis praefectus erat' | OCR text, alcuin l.113989-113994: «latum ordine, ceu picto cujuslibet. magnze. domus 51. Hec causa fuit cur Academize Parisiensis origo culmipe, illuminare gestio : plurima plurimis factus, — Alcuino auctori tribueretur. Cum enim Lutetiz Pa- ut plurimos ad profectum sancte Dei Ecclesie et — risiorum esset aula frequens, in qua litteras docebat ad decorem imperialis regni vestri erudiam. » Hec — Alcuinus, factum est ut conditor Universitatis Pa- Alcuinus ad Davidem . quo nomine Carolum Ma- risiensis diceretur, qui palatinis scholis prefectus gnum appellare solet. . erat. Et certe Carolo hortator fuit, si non auctor, ut»",
+    "witness": "Mabillon, Elogium historicum, PL 101 (alcuin_opera-omnia-letters_migne-pl100-101_1863 l.113989-113994)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "York poem: 'Hoc duo discipuli templum, doctore jubente, / Aedificaverunt Eanbaldus et Alcuinus'; 'Tradidit Eanbaldo dilecto laetus alumno / Pontificale decus'; 'Tradidit ast alio charas super omnia gazas / Librorum nato'; 'Cujus si curas proprium cognoscere nomen / Fronte sua statim praesentia carmina prodent'; library list 'Quod Pater Hieronymus, quod sensit Hilarius ... Augustinus ... Beda magister ... Boetius ... Acer Aristoteles' (OCR); note: Eanbald 'Successit anno 778' | OCR text, alcuin l.67451-67452: «^ Eanbaldo, qui viventi et resignanti /Elberto Successit anno 778, mensis Sept. initio. Vid. infra»",
+    "witness": "Poema de pontificibus et sanctis ecclesiae Eboracensis, PL 101 (alcuin_opera-omnia-letters_migne-pl100-101_1863 l.67391-67440, 67451-67452)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "York poem authorship: 'Auctorem hujus poematis anonymum vocat celeberrimus Mabillonius'; 'sub nomine Flacci Alcuini edidit Oxoniae 1691 Thomas Gale'; 'opinionem Oudini, qui ... auctorem hujus carminis Fridegodum ... facit'; Rivet 'solide refutat'; note 'Hinc Oudinus conjicit Alcuinum non esse hujus poematis auctorem' | OCR text, alcuin l.67468-67468: «f Alcuinus. Hinc Oudinus conjicit Alcuinum non»",
+    "witness": "Monitum, PL 101 (alcuin_opera-omnia-letters_migne-pl100-101_1863 l.65005-65067, 67468)",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Mabillon: 'Fratrem habuit Aquilam Juvavensem seu Saltzburgensem episcopum, ut constat ex epistola 66 (nunc 102) Charissimo germano meo Aquilae antistiti inscripta ... nempe Aquilam esse Arnonem, non vero Joannem, contra quam existimavit Browerus' (OCR 'Charisstmo', 'Aquile'). Scan's lead confirmed as Mabillon's identification; 'germanus' rests on a letter heading. | OCR text, alcuin l.112881-112893: «Vite num. 12. Fratrem habuit Aquilam Juvavensem seu Saltzburgensem episcopum, ut constat ex epi- stola 66 (nunc 102) Charisstmo germano meo Aquile antistiti inscripta : ad quem item exstant alix dux Al- cuini epistole 78et 104 (nunc 92et56). At quis demum $it Aquila iste, quod nomen in catalogis archiepi- scoporum Saltzburgensium haud legitur, ostensum est supra ad annum 809, ubi de sancti Amandi ele- valioue actum est, nempe Aquilam esse Arnonem, nou vero Joannem, contra quam existimavit Bro- werus.»",
+    "witness": "Mabillon, Elogium historicum, PL 101 (alcuin_opera-omnia-letters_migne-pl100-101_1863 l.112881-112893)",
+    "formation_confidence": "Inferential-Thin"
+   },
+   {
+    "claim": "Mabillon: 'Quid de relaxandis decimis, quas a novitiis Christianis Saxonici populi exigere volebat Carolus, senserit vir pius, probant epistolae 7 et 41 (nunc 33 et 65)' (OCR 'de- Cimis', 'eus volebat'). The letters themselves are not held. | OCR text, alcuin l.114701-114703: «habeatur et custodiatur. » Quid de relaxandis de- Cimis, quas a novitiis Christianis Saxonici populi eus volebat Carolus, senserit vir pius, probant epi-»",
+    "witness": "Mabillon, Elogium historicum, PL 101 (alcuin_opera-omnia-letters_migne-pl100-101_1863 l.114701-114703)",
+    "formation_confidence": "Inferential-Thin"
+   },
+   {
+    "claim": "Lindisfarne poem: title 'De rerum humanarum vicissitudine et clade Lindisfarnensis monasterii'; 'Horrida non frangat vestras tentatio mentes, / Impia quam vobis gessit iniqua manus'; 'Qua pagana manus, veniens a finibus orbis, / Navigio subito littora nostra petit'; note: written 'ad Hi[gbaldum] episcopum et fratres' (OCR 'Hirbakdom') | OCR text, alcuin l.64370-64371: «b De rerum humanarum vicissitudine et clade Lindis- farnensis monasterii.» ; alcuin l.64385-64385: «textu elucescit, ad Hirbakdom episcopum et fratres» ; alcuin l.64601-64602: «Horrida non frangat vestras tentatio mentes, Impia quam vobis gessit iniqua manus.» ; alcuin l.64673-64674: «Qua pagana manus, veniens a finibus orbis, Navigio subito littora nostra petit ;»",
+    "witness": "Alcuin, PL 101 (alcuin_opera-omnia-letters_migne-pl100-101_1863 l.64370-64371, 64385, 64601-64602, 64673-64674)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Verses for Liudger's church at the place of Boniface's martyrdom: 'Hic Pater egregius meritis Bonifacius almis / Cum sociis pariter fundebat sanguinis undam'; note 'de ecclesia S. Bonifacii a sancto Liudgero constructa. Hoc carmen recenset Altfridus' | OCR text, alcuin l.60643-60645: «* Versus Alcuini de ecclesia sancti Liutgeri. Hic Pater egregius meritis Bonifacius almis Cum sociis pariter fundebat sanguinis undam,» ; alcuin l.60683-60686: «* S. Liutgeri. ld est, de ecclesia S. Bonifacii a sancto Liudgero constructa. Hoc carmen recenset Altfridus scriptor Vite sancti Liudgeri episcopi Mi- migardefordensis apud Westphalos primi. MabiLL.» ; acta-sanctorum l.164743-164745: «18 Versus Alchwini de b ecclesia S. Liutgeri. b»",
+    "witness": "Alcuin, PL 101 (alcuin_opera-omnia-letters_migne-pl100-101_1863 l.60643-60645, 60683-60686); Altfrid, Life of Liudger, Acta Sanctorum March 3 (acta-sanctorum_martii-tomus-3-lat-grc_palme1865 l.164743-164745)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Mabillon's 'remembered' witnesses: Rabanus 'sacris fastis inscripsit ... xiv Kal. Junii his verbis: Depositio domni Alcuini'; Ardo 'Alcoinum sapientia praeclarum, sanctitatis merito venerabilem'; 'in Annalibus Fuldensibus ad annum 794 ... Alcuinus, cognomento, id est alio nomine, Albinus, sanctitate et doctrina clarus habetur'; 'Nusquam tamen, quod sciam, Alcuini diem festum coluit Ecclesia, ne quidem Turonensis'; 'Alcuini corpus in ecclesia sancti Martini sepultum est, testante Vitae scriptore' | OCR text, alcuin l.114906-114907: «T1. Alcuini corpus in ecclesia sancti Martini se- pultum est, testante Vitze scriptore; non vero in» ; alcuin l.114934-114950: «Eumdem sacris fastis inscripsit Rabanus ipsius disci- pulus xivKal. Junii his verbis: Depositio domni Alcuini; etin epistola commentariis Reguin przfixa beate me- morie Albinum magistrum suum appellat. HHncma- rus veso in epistola ad Rabanum beatum Alcuinum, et in epistola de non trina Deitale sanctum et veneran- dum Alcwinum laudat ; etin epistola 1 ad Carolum eontra Gothescalcum, meminit Alcuini viri religiosi et docti, eumque recenset inter illos Patres, quorum [idem et doctrinam sedes Romana non solum benignis- sime acceptavit, verum et multis laudibus extulit. Ardo in libro de Vita Benedicti Anianz abbatis A[- coinum sapientia praeclarum, sanctitatis merito vene- rabilem dicit. Denique in Annalibus Fuldensibus ad annum 794 hoc elogio commendatur. His tempori- bus. Alcuinus, cognomento,»",
+    "witness": "Mabillon, Elogium historicum, PL 101 (alcuin_opera-omnia-letters_migne-pl100-101_1863 l.114906-114907, 114934-114950, 115027-115029)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Mabillon: 'si Elipando Toletano episcopo credimus, viginti millia servorum' and his answer that Alcuin held abbeys 'ut monachos ad laxiorem vitam prolapsos emendaret' | OCR text, alcuin l.115031-115040: «79. Erunt fortasse qui in Alcuine culpent, quod plures abbatias tenuerit; quod habuerit multos servos, id est, si Elipando Toletano episcopo: credi- mus, viginti millia servorum. Verum est quidem eum abbatias tenuisse plures in Gallia, Ferrarien- sem cum Cella saacti Judoci, Trecensem sancti Lupi, Turonicam sancti Martini cum Cella Coraia- ricehsi. At eas tenuit, non. ut ex iis locupletior fie- ret, sed ut monachos ad laxiorem vitam prolapsos einendaret. Et. servos habebat non alios, ut puto,»",
+    "witness": "Mabillon, Elogium historicum, PL 101 (alcuin_opera-omnia-letters_migne-pl100-101_1863 l.115031-115040)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Mabillon: 'Post aliquantam in palatio moram Alcuinus in patriam reversus est ... Id accidisse videtur anno 790'; 'Alcuinus dein post tres annos, accepta episcopi sui licentia ... revenit in Franciam, ut Elipandi et Felicis errori ... sese opponeret'; 'sub finem anni 792 aut anno insequenti' | OCR text, alcuin l.113516-113542: «98. Post aliquantam in palatio moram Alcuinus in patriam reversus est, ex Vite num. 13. Id accidisse videtur anno 790, quo epistola ad Colcum lectorem in Scoiia scripta est, ut. postea probabo num. 87. Reversus quippe ex Gallia, varia munera ecclesiis et monasteriis distribuit, tam pro se quam pro Carolo rege, a quo nuper récesserat. Significat vero disseg- sionem subortam inter Carelum et Offam reges, « ita ut utrinque navigatio interdicta esset. » Tum addit : « Sunt qui dicunt nos pro pace esse in illas partes mittendos. » Qu:e fuerit bujus simultatis cau- $3, discimus ex Chronici Fontanellensis cap. $5 in editis, ubi Carolus Magnus filio suo z:quivoco filiam Offe regis « in conjugium expostulasse » dicitur : sed illo non acquiescente, « nisi Berta filia Caroli Magni ejus filio nuptui traderetur, » Carolum inde commotum przcepisse, « uL nemo de Britannia insula ac gente Anglorum mercei»",
+    "witness": "Mabillon, Elogium historicum, PL 101 (alcuin_opera-omnia-letters_migne-pl100-101_1863 l.113516-113542, 113593-113594)",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "Mabillon on names: 'distinguendi sunt Albini quatuor'; Baronius thought the Canterbury abbot Albinus and Alcuin 'unum eumdemque'; 'dictus est Alchuin, appellatione Saxonica: dein ... Latino Albinus, cui additum praenomen Flaccus' (OCR 'Alciin', 'Saxo- ica') | OCR text, alcuin l.112813-112852: «1. Hoc in limine distinguendi sunt Albini qua- tuor, ne quis cum aliquibus viris doctis in errorem impingat. Primus fuit Albinus abbas monasterii Can- tuariensis, laudatus in Historie prologo venerabilis €t in lib. v, cap. 21, ad quem exstat Bedze epistola. Alter fuit Albinus seu Alcuinus, de quo hie agimus, longe junior primo illo Albino, qui eo tem- pore quo Beda Historiam suam scribere i Mera est, jam e vivis abierat, nt satis ex Bedz verbis in- telligitut, cum Alcuinus nondum natus erat. Et ta- men unum eumdemque fuisse putavit illustrissimus cardinalis Baronius, cujus auctoritas alios nonnullos traxit in errorem. Tertius fuit Albinus Leonis tertii cubicolarius, ex Eginhardi Annalibus ad an- 14117 APPENDIX IV. — ELOGIUM ALCUIM. 1418 num 799. Quartum addo Albuinum llersfeldensem A — 6. Anno 765 in morti proximus Eboracen- monachum seculo xi, quem Christophorus Browe- rus confundit cum»",
+    "witness": "Mabillon, Elogium historicum, PL 101 (alcuin_opera-omnia-letters_migne-pl100-101_1863 l.112813-112852)",
+    "formation_confidence": "Documented"
+   }
+  ],
+  "contested_claims": [
+   {
+    "claim": "The year of his death",
+    "sides": [
+     "804: the older Life as Mabillon reports it (l.114788), the short Tours chronicle (l.114951); Froben places On the Faith of the Trinity near the end of his life and dates it 802 (l.604-616)",
+     "After 810, perhaps to 813: Mabillon (l.114791-114900), from the verses on Saint Amand's elevation in 809 and Rabanus's books on the Cross"
+    ]
+   },
+   {
+    "claim": "The author of the poem on the bishops and saints of York",
+    "sides": [
+     "Alcuin: Thomas Gale (1691), Rivet, and the monitum in Froben's edition (l.65019-65022, 65061-65069)",
+     "Fridegod: Oudin (l.65065-65067); Mabillon had called the author anonymous (l.65005)"
+    ]
+   }
+  ],
+  "absent_details": [
+   {
+    "detail": "His letters (PL 100), including the 796 letters to Charlemagne, Megenfrid and Arn on the Saxons and tithes, and the line 'fides res est voluntaria'",
+    "note": "The file holds PL 101 only: its contents begin at Opera pars tertia (l.430-433). Searched the whole file for 'voluntaria', 'fides res', 'ex voluntate', 'decimas/decimarum', 'Megenfrid/Meginfrid', 'Saxon'. Only Mabillon's sentence (l.114701-114703) and Migne's index entries (l.117543-117545, for volume I) refer to them. Wanted: Dümmler's MGH Epistolae Karolini aevi II, or Allott's English."
+   },
+   {
+    "detail": "The prose letter to Bishop Higbald on the Lindisfarne raid",
+    "note": "Not held; the poem is held (l.64370 ff.), and its note refers to 'epist. 9 ad Lindisfarnenses' (l.64492), which is in PL 100. The poem's note gives a year read in the OCR as '795'; no year is used here."
+   },
+   {
+    "detail": "The anonymous older Life of Alcuin (Vita Alcuini)",
+    "note": "Not held as a text; known here only through Mabillon's citations ('Vitae scriptor', 'superiori Vita')."
+   },
+   {
+    "detail": "His birth year",
+    "note": "No held line gives it. The Library header's 'c. 735' is not a source and is not used."
+   },
+   {
+    "detail": "Einhard's Life of Charlemagne",
+    "note": "Not held as a text; Einhard is used only as Mabillon quotes him (l.113568-113576)."
+   }
+  ]
+ },
+ "dhuoda": {
+  "claims": [
+   {
+    "claim": "Begun on Saint Andrew's day, second year after Louis's death. Subscription (OCR as printed): 'Incoatio (I) liujus libcUi II (\"2) anno oJjiLus Ludovic! coydam imperatori[s] (3) , II kalendas (4j decembri[s], sancti Andreœ missa, incoante sanctum (5) Domini Ad- ventum (6)'. Bondurand: 'a donc été commencé le 30 novembre 841'",
+    "witness": "DHU l.12534-12537; l.13229-13230; intro l.1622-1629",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Opening of the book, Prolegomena §2 (OCR as printed): 'Cernens plurimos cum suis in sgeculo gaudere proies, et me Dodanam, ofili Willelme, a te elongatam conspiciens procuLobid quasi anxia, et utilitatis desiderio plena, hoc opusculum ex nomine meo scriptum in tuam specie tenus formam legendum dirigo'. Bondurand's French: 'La plupart des parents ont, dans ce monde, la joie de vivre avec leurs enfants'",
+    "witness": "DHU l.1893-1896; l.1884-1885",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Bondurand: 'curieux traité, écrit à Uzès, de 841 à 843, pour l'éducation de Guillaume, fils aîné de Bernard, duc de Septimanie'; edition 'EDOUARD BONDURAND ... PARIS ALPHONSE PICARD, ÉDITEUR ... 1887'",
+    "witness": "DHU l.216-219; title page l.153-165",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Marriage. Preface (OCR as printed): 'Anno féliciter, Christo propitio, XI, domino nostro Ludoico quondam fulgente in imperio (1), concurrente VIII Kalcndarum julii die (2), in Aquisgrani palatio, ad meum dominum tuumque genitorem B[ernardum] legalis in conjugio accessi uxor'; Bondurand's note: 'Cela fait le 24 juin 824.'. Delisle, quoted by Bondurand: 'avait épousé en 824, dans le palais d'Aix-la-Chapelle, Bernard, duc de Sep- timanie, fils du fameux Guillaume de Gellone'",
+    "witness": "DHU l.2220-2224, 2238; Delisle l.285-289",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Births. Preface (OCR as printed): 'in XIII anno-regni ejus, III Kalendarum decembrium (3), auxiliante, ut credo, Deo, tua ex me, desideratissime fili primogenite, in sseculo processit nativitas.'; 'Post mortem quoque ejus, in anno sequente, nativitas fratris tui, qui exmeopost te secundus egressus est utero, XI Kalendas aprilis (5) in Uzecia urbe' (Bondurand's notes: 'Cela fait le 29 novembre 826.'; 'Cela fait le 22 mars 841.')",
+    "witness": "DHU l.2224-2227, 2232-2234; notes l.2240, 2250",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "The baby sent to Bernard; Dhuoda kept at Uzès. Preface (OCR as printed): 'Etenim parvulum illum, ante- quam baptismatis accepisset gratiani, dominiis et genitor utri[us]que vestrum B [ ernardus ], imà cum Elefanto, prsedictae civitatis episcopo (1), et cum cseteris fidelibus suis, in Aquitanise partibus ad suam fecit adduci prsesen- tiam. Sed cùm diu, ob abseutiam prsesentiœ vestrse, sub jussioiie senioris mei, in pnedieta cum agone illius jam gaudens residerem ui'])e'",
+    "witness": "DHU l.2256-2262",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "William commended to King Charles. Continuation of preface (OCR as printed): 'Audivi enim quod genitor tuus B[ernardus] in manus domini te commendavit Karoli régis'",
+    "witness": "DHU l.2303-2304",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Nithard, Histories III.2 (OCR as printed): 'Nam Bernardus dux Septimaniae , quanquam a loco praedicti proelii plus miuus leuvas tres defuerit, ueutri in hoc negotio supplementum fuit; victoriam autem ut Karoli esse didicit, filium suum Willelmum ad illum 20 direxit et, si honores. quos idem iu Burgundia habuit, eidem donare vellet, ut se illi commendaret, praecepit.'. The battle is Fontanetum in Nithard's edition (index 'Fontaneum, Fontaneto, Fontenoy-'); Bondurand: 'Ce choc terrible eut lieu le 25 juin'; 'Les vain- queurs furent Chai'les le Chauve et Louis le Germani- que, etLothaire fut le vaincu.'",
+    "witness": "NITH l.2300-2305 (book III, 'LIBER III' header l.2287, ch. 2 l.2296); l.3990; DHU l.906, 910-912",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Dhuoda taught in writing. Title (OCR as printed): 'Incipit liber Dodana3 Manualis quem ad filiiim suiim direxit Willelmum.'. Delisle: 'un manuel de morale chrétienne, en soixante-treize chapitres'. Table: 'I. De diligendo Deum.'; 'II. De quserendo Deum.'. Bondurand: 'Les chap. xii h. xiv concernent le respect que Guil-'; 'Le chap. xv est relatif à la fidélité que Guillaume doit montrer à Charles le ChauNC, auprès de qui Ber- nard l'a placé.'",
+    "witness": "DHU l.1878-1879; l.290-292; l.2318, 2320; l.1068-1069, 1073-1075",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Teachers, and the brother. Ch. VII (OCR as printed): 'Fili, habebis doctores qui te plura et ampliora utilitatis doceant documenta, sed non jfiquali conditione, animo ardentis in pectore, sicut ego genitrix tua. Fili V[uillelme] primogenite, hœc verba a me tibi directa lege, intellige et opère comple, fratremque tuum parvulum, cujus modo inscia suni nominis, cùm bap- timatis in Oliristo acceperit gratiam, insinuare, nutrire, amare, ac de bono in melius provocare non pigeas, atque hune codicillum manualis a me comprehensum, et in tuo nomine conscriptum, cùm perfectum loquendi vel legendi acceperit tempus, illi ostende, et admone legendo.'",
+    "witness": "DHU l.3168-3178",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Prayer for Bernard. Ch. LVII (OCR as printed): 'Pro genitore tuo hortor et admoneo ut pro eo frequens et assidue orator sis, atque cseteros ecclesiasticorum gra- dus pro illo exorare facias, ut det illi Deus, tempore dum vivet, pacem et concordiam. si fieri potest, cum omnibus, animumque suum fortiter cum patientiis vigore(l) faciat superare in cunctis, etpost expletum vitse prsesentis, cum fructu pœnitentife et elemosinarum largitate, ad regnum, si jubet, faciat pervenire supernum. Amen.'",
+    "witness": "DHU l.10106-10112",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Debts. Ch. LXXI (OCR as printed): 'Pro (5) multis vero necessitatibus, non solum de chris- tianis, verum etiamdejudœis, multaex illorum rébus ma- nibus meis fréquenter recepi. In quantum valui reddidi, et in quantum potero semper reddam deinceps. Quod si, post meum discessum, aliquid remanserit ad solvendum, rogo et supplico ut tu ipse diligenter exquiras qui sint de- bitoresmei. Quicum reperti fuerint, non solum ex facul- tatibus meis, si remanserint, verum etiam de tuis que (6) habes, et adhuc, Dco adjuvante, juste adquisieris (7) cuncta in omni])usfaciaspersolvi.'. 'debitores' here means those she owes, as the repayment shows",
+    "witness": "DHU l.11756-11769 (her purpose, 'Pro utilitatibus domini et senioris mei B. (1) (Bernardi), ut meum erga illum, in Marchis (2) vel in multis locis, non vilesceret servitium', l.11756-11758)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Grave verses. Ch. LXXIII (OCR as printed): 'in loco in quo fuerim sepulta, super ipso tecto sepulchri quod meum(l) operuerit corpus, hos versiculos jubé tran(s)scri-'; 'Omnis œtas et sexus, vadensque et revertens hic (15), rogo, dicite ita'; 'Conjuro omnes ut orent'. Bondurand: 'l'acrostiche de DHVODANE.'",
+    "witness": "DHU l.11966-11969, 11999, 12048-12049; l.465-466",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Annals of Saint-Bertin s.a. 844 (OCR as printed): 'Bernardus comes marcae Hispanicae, iam dudum grandia molienss summisque inhians, maiestatis reus Francorum iudicio, iussuh Karoli in Aquitania capitalem sententiam subiit.'",
+    "witness": "BERT l.2046 (year), 2051-2053",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Annals of Saint-Bertin s.a. 850 (OCR as printed): 'Guilhelmus, Bernardi filius, in marca Hispanica Ale- dramnum et Isembardum comites dolo capit; sed ipse do- losius captus et aput Barcinonem interfectus est.'; s.a. 848: 'Guilhelmus, filius Bernardi, Impuriumb-2 et Barcinonam dolo magis quam vi capit.'",
+    "witness": "BERT l.2516-2520; l.2377 (year 848), 2416-2417",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Her death not dated; Bondurand's inference: 'Dhuoda, déjà brisée de corps et d'esprit pendant la [footnotes, page break] composition du Manuel, dut peu survivre à la rédaction de son ouvrage.'; 'Dhuoda mourut sans doute avant d'apprendre la mort tragique de son mari et de ses fils.'",
+    "witness": "DHU l.1772, 1783-1784; l.1053-1054",
+    "formation_confidence": "Inferential-Thin"
+   },
+   {
+    "claim": "Closing (OCR as printed): 'Ad istum tamen semper recurre libellum. Vale et vige, nobilis puer, semper in Christo.'",
+    "witness": "DHU l.12483-12484",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Card otherNames: Bondurand: 'La forme allongée est tantôt Dodanœ [Incipit liber Dodanœ), tantôt Dodanam {Et me Dodanam) (§§ 1 et 2 des Prolégomènes dans P), tantôt Dhuodane, dans l'acrostiche qui forme l'épita- phe de Dhuoda (N et P, chap. LXXIII), mot qui est pour Dhuodanœ, « à Dhuoda », tantôt enfin Duodane {Ora pro prescripta Duodane, dans la souscription de N), ou Duodanâ (Ora pro prescriptd Duodanâ'",
+    "witness": "DHU l.12596-12602; Histoire littéraire quoted l.13166-13168",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Card dates, completion: Bondurand: 'Il faut reporter au 2 février 843'; the earlier view: 'Le Manuel aurait donc élé achevé le 2 février 842, 64 jours .seu-'; ch. LXIX: 'quand tes seize ans viennent de s'accomplir'",
+    "witness": "DHU l.1467-1474, 13256-13262, 13268-13271; l.1456-1460",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Card keyWorks: Bondurand: 'la paraphrase d'un passage de Pline la Natu- raliste, des citations de Prudence, de Donat, d'Ammo- nius, et d'innombrables passages de la Bible.'; Dhuoda: 'Hos versiculos supra, infra et subtus , ad mentem corpusque tuum ipsa dictavi, cum cunctis.'; Delisle's acrostic: 'DHVODA DILECTO FILIO VVILHELMO SALVÏEM LEGE(l)' (OCR 'SALVÏEM'); ch. LXIX acrostic: 'VERSI AD VVILLELMVM F(ilium).'; ch. LXVIII: 'Elle y exhorte Guil- laume à lire assidûment le Manuel et à le faire lire plus tard à son jeune frère Bernard.'",
+    "witness": "DHU l.487-491; l.481-482; l.436-438; l.460-462; l.448-450; epitaph l.465-467",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Card traces: 'fait l'acquisition des papiers de feu M. E. Germer- Durand, membre non résident du Comité des Travaux historiques, et l'un des membres les plus distingués de l'Académie de Nimes. Parmi ces papiers, se sont trouvés des fragments d'un manuscrit carolingien du Manuel de Dhuoda.'; 'faite au xvn* siècle, dérivait d'un manuscrit ancien de l'abbaye de La Grasse'; Delisle: '1677 par Mabillon'; 'Bal'jze avait, de son côté, en 1688, fait im- primer la préface et la souscription finale'; Bondurand: 'je donne le texte de ces fragments, me bornant à faire connaître en note les variantes du ms. de Paris'; 'La publication complète du Manuel'",
+    "witness": "DHU l.208-213; l.221-223 (OCR 'xvn*'); l.296-301; l.279-281; l.1697",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Card remembered: Histoire littéraire, quoted: 'Un monument respectable de literature et de piété, qu'on a de la façon de cette Dame, lui mérite à juste titre une place dans notre histoire littéraire Jusqu'ici l'on n'a imprimé qu'une partie du Manuel de Dodane, quoiqu'en ces derniers siècles on ait fait l'hon- neur entier à beaucoup d'autres monuments qui ne le meritoient pas si bien.'; Bondurand: 'De tous les écrits dûs à des femmes nées sur le sol de la France, le Manuel de Dhuoda est le plus ancien qui nous soit parvenu.'; McHugh and Callan: 'From the ninth century on, there have come down to us numerous works of popular instruction composed in Latin and in the newly formed European tongues. Such, for example, were the Disputatio Puerorum per Interrogationes et Respon- Stones (9th cent.)'",
+    "witness": "DHU l.348-352; l.1854-1856; TRENT l.820-830 (translators' introduction; translators named l.3-4, 63, 69)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Card uncertain, family: Delisle: 'Dhuoda, dont l'origine est inconnue'; Bondurand: 'Dhuoda, dans son humilité, ne mentionne pas un seul de ses parents.'; 'de ta race, illustre des deux côtés.'; 'En l'absence de ces passages décisifs, et en nous en tenant à l'examen de son nom, nous aurions pu conclure que Dhuoda appartenait à la noblesse de Septimanie.'; Dadila's testament: 'de luctuosâ quondam filiœ meœ Dadayie.'; 'On voit encore le nom de Deda dans une donation faite en 814 au monastère d'Anianc par Aiglebert, qui s'exprime ainsi ; « Ego quidem Aiglabertus et uxor mea Deda. ... (1) » Deda est la même chose que Doda ou Dhuoda.'; 'Voilà tout ce que l'on sait sur l'origine de la femme'",
+    "witness": "DHU l.285; l.571-572; l.610-611; l.613-615; l.616-632; l.638-642; l.644-645",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Card uncertain, birth: ch. I (OCR as printed): 'quando magis ego, exigua et infimigeneris orta?'; Bondurand: 'il ne faut pas prendre à la lettre une expression qui peut parfaitement s'appliquer au limon de la terre dont l'homme, dans les croyances chrétien- nes, est formé.'",
+    "witness": "DHU l.2575-2576; l.578-584",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Card uncertain, Charlemagne's daughter: 'Ludovici quondam mei fralris.'; 'Ludovici aondam imperalori[s],'; 'Baluze, dom Vaissete et dom Rivet ont montré que cette opinion n'avait aucun fondement'; Delisle: 'Il faut donc renoncer formellement à l'idée de mettre Dhuoda au nombre des enfants de Charleraasne.'",
+    "witness": "DHU l.1672; l.1676; l.13197-13198; l.13219-13220; Mabille l.12654-12655",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Card uncertain, Bernard's death: Bondurand: 'L'imagination populaire entoura cette vengeance de Charles le Chauve de circonstances romanesques.'; 'La vieilla chronique d'Odon Héribert dit qu'après avoir fait ensemble une paix scellée par la communion, Charles le Chauve et le duc Bernard eurent une entrevue à Tou- louse, dans le monastère de Saint-Sernin.'",
+    "witness": "DHU l.1802-1807",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Test of the census caveat. A whitespace-tolerant search of every file in cic/texts for Dhuoda / Dodana / Duodana / Dodane finds her only in Bondurand's edition, one Bollandist note (Acta Sanctorum, May, vol. 6: 'Dodana, uxrr Bernardi', OCR damaged) and the 1923 Catechism introduction. Nithard and the Annals of Saint-Bertin name Bernard and William, but not her",
+    "witness": "ASM6 l.33161-33163; TRENT l.829; NITH l.2300-2305; BERT l.2051-2053, 2516-2520",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Delisle's post (brief P2): 'M. Léo- pold Delisle, membre de l'Institut et Administrateur général de la Bibliothèque Nationale.'. Nîmes copy (card traces 1): 'Le ms. carolingien de Nimes se compose de 32 feuil-'; 'ne représentent malheu- reusement qu'une faible partie du texte total'. Chapter 69 acrostic found from the Nîmes copy: 'Les autres pièces de poésie, révélées par le ms. de'. Poet Prudentius: 'dans l^rudence (Cathemerinon Liber, ix, Hyynnus omnis horœ).'. Louis, Charlemagne's son: 'succéda à son père Charlemagne le 28 janvier 814.'. Mabille: 'mais elle n'a pas été absolument abandonnée par M. Mabille'",
+    "witness": "DHU l.246-248; l.228-229, 236-238; l.440-441; l.1170-1171; l.2236-2237; l.13199-13201",
+    "formation_confidence": "Documented"
+   }
+  ],
+  "contested_claims": [
+   {
+    "claim": "When the Handbook was finished: 2 February 842 or 2 February 843",
+    "sides": [
+     "Earlier scholars, unnamed in Bondurand's note, who read the closing note's 'IIIP nonas (7) februarii' (OCR for IIII) as 2 February 842, 64 days after the start (DHU l.13256-13262)",
+     "Édouard Bondurand, who argues for 2 February 843 from the ch. LXIX date of 30 November 842 and a dotted gap he finds in the Nîmes copy's closing note (DHU l.1467-1474, 13244-13271)"
+    ]
+   },
+   {
+    "claim": "Whether Dhuoda was a daughter of Charlemagne and sister of Louis the Pious",
+    "sides": [
+     "Writers who followed the Paris copy's 'Ludovici quondam mei fralris' (OCR for fratris); Émile Mabille, who left it open (DHU l.1669-1673, 12654-12655, 13199-13202)",
+     "Baluze, Dom Vaissete, Dom Rivet, and Léopold Delisle from the Nîmes reading (DHU l.13196-13220)"
+    ]
+   }
+  ],
+  "absent_details": [
+   {
+    "detail": "Year of birth",
+    "note": "No held source gives it. The Library file header's 'c. 803' rests on no held line and is not used."
+   },
+   {
+    "detail": "Year and place of death",
+    "note": "No held source gives them. Bondurand's view that she died soon after finishing is his inference (DHU l.1782-1784)."
+   },
+   {
+    "detail": "Her own family",
+    "note": "Delisle and Bondurand say her origin is unknown; she names none of her own kin (DHU l.285, 571-572, 644)."
+   },
+   {
+    "detail": "Whether William received or read the book",
+    "note": "No held source says. Bondurand asks whether it reached its aim and answers that events did not allow it (DHU l.1785-1794)."
+   }
+  ]
+ },
+ "nennius": {
+  "claims": [
+   {
+    "claim": "Prologue, in J. A. Giles's translation ('Translated by J. A. Giles'): 'Nennius, the lowly minister and servant of the servants of God, by the grace of God, disciple of St. Elbotus'; 'I have presumed to deliver these things in the Latin tongue'",
+    "witness": "NEN l.34, 42-43, 50",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Apology: 'I, Nennius, disciple of St. Elbotus'; 'I have got together all that I could find as well from the annals of the Romans as from the chronicles of the sacred fathers, Hieronymus, Eusebius, Isidorus, Prosper, and from the annals of the Scots and Saxons, and from our ancient traditions'; 'like a chattering jay'",
+    "witness": "NEN l.110, 113-116, 120-121",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Heading: 'Here beginneth the history of the Britons, edited by Mark the anchorite, a holy bishop of that people.'",
+    "witness": "NEN l.170-171",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "The authorship is disputed (see contested_claims). Louis Duchesne, contents of a Vatican manuscript: 'Marci ana- choretae Historia Britonum (Pseudo-Nennius)'; 'rendue au Va- tican'; on the book: 'VHistoria Britonum du pseudo-Nennius (ix e siècle)'; he cites 'VHistoria Britonum attribuée à Nennius' and 'The Historia Britohum commonly attributed to Nennius'. James Raine: 'as the pseudo-Nennius calls him, not PREFACE. xxiii Paulinus, but Rum the son of Urien'",
+    "witness": "LP1 l.52064-52071, 52094-52098; l.27343-27344; RAINE l.1216-1218",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Hugh Williams: 'the Historia Britonum of Nennius may, however, be the book meant, since that work is in some MSS. attributed to Gildas, and Geoffrey of Mon- mouth quotes from it naming Gildas as author'; 'the work of Nennius was also current under the name of Gildas'",
+    "witness": "GILDAS l.966-968; l.23189-23190",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "W. H. Stevenson ('WILLIAM HENRY STEVENSON'): 'NenniuSy the only other Welsh writer of this century known to us, embodies in his work the undoubtedly Prankish table'; 'the compiler of the Historia Brittonum (Nennius)'",
+    "witness": "ASSER l.81; l.4290-4292 (OCR 'NenniuSy', 'Prankish'); l.13959-13960",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Prologue date: 'compiled from a wish to benefit my inferiors, not from envy of those who are superior to me, in the 858th year of our Lord's incarnation, and in the 24th year of Mervin, king of the Britons'",
+    "witness": "NEN l.93-95",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "List of years: 'from his incarnation, nine hundred and seventy-six: being the fifth year of Edmund, king of the Angles.'. Giles's note: 'The rest of this chronology is much contracted in several of the manuscripts, and hardly two of them contain it exactly the same.'",
+    "witness": "NEN l.142-143; l.145-148",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Card dates: 'the Saxons were received by Vortigern in the year of our Lord four hundred and forty-seven, and to the year in which we now write, five hundred and forty-seven'",
+    "witness": "NEN l.1202-1205",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "John Williams ab Ithel ('JOHN WILLIAMS AB ITHEL'): 'The first edition of Nennius appeared in 674'; 'But as the genealogies in whicli these particulars occur refer to a date as ]ate as 738, it foUows that the editor, when that portion of the work was added, was a very old man, upwards of ninety years of age. Probably the compiler of the genealogies was another and a younger man'; his note: 'This appears from the \" Histo- ^ Ib. c. 22. ria \" in the Vatican'",
+    "witness": "ANN l.263; l.1207; l.1217-1224 (OCR 'whicli', ']ate', 'foUows'); l.1263-1264 (two-column OCR)",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Giles's note on Elbotus: 'Or Elvod, bishop of Bangor, A.D. 755, who first adopted in the Cambrian church the new cycle for regulating Easter.'",
+    "witness": "NEN l.46-47",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Annales Cambriae, 768 (annus cccxxiv): 'Pasca commutatur' apud BrittoneS; ^ [super Dominicam diem,] emendante ^Elbodugo bomine' Dei.'; 809 (annus ccclxv): 'Elbodg archiepiscopus Gue- nedote regione migravit ad Dominum.'; variant note: 'Elbodu episcopus \"Wenedotia; obiit'",
+    "witness": "ANN l.2962 (768), 2986-2988; l.3102-3103, 3114 (809); l.3176-3177",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Contents: 'The first age of the world is from Adam to Noah'; 'Vortigern then reigned in Britain.'; 'At that time St. Germanus, distinguished for his numerous virtues, came to preach in Britain'; Patrick: 'In those days Saint Patrick was captive among the Scots.'; 'the bishop Germanus' (ch. 51, l.1227-1228); genealogies from 'THE GENEALOGY OF THE KINGS OF BERNICIA.'",
+    "witness": "NEN l.150, 629, 674-675, 1210, 1227-1228, 1321",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Arthur, this book's account: 'Then it was, that the magnanimous Arthur, with all the kings and military force of Britain, fought against the Saxons. And though there were many more noble than himself, yet he was twelve times chosen their commander'; 'when Arthur penetrated to the hill of Badon.(11) In this engagement, nine hundred and forty fell by his hand alone'",
+    "witness": "NEN l.1129-1131; l.1143-1145",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Closing: 'But I bore about with me an inward wound, and I was indignant, that the name of my own people, formerly famous and distinguished, should sink into oblivion, and like smoke be dissipated. But since, however, I had rather myself be the historian of the Britons than nobody'",
+    "witness": "NEN l.66-69",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Card place: 'Here begins the apology of Nennius, the historiographer of the Britons, of the race of the Britons.'",
+    "witness": "NEN l.107-108",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Card traces: Williams ab Ithel: 'A. is a manuscript in tlie Harleian Collection, No. 3,859, on venum, in octavo, of tlie iatter part of the tenth or beginning of the eleventli century, inserted witliout title or introduction in the body of a manu- script of Nennius.'; Hugh Williams: 'the entry in the Annales Cam- briae has all the appearance of an erroneous borrowing from Nennius, c. 56,'; Stevenson: 'The British name of the Isle of Thanet Ruint (c. 9, 4) may have been derived from Nennius.'; 'This is, no doubt, derived from the Historia Britonum (Nennius)'; Stokes ('edited by Whitley Stokes'): 'VI. EXTRACTS FROM NENNIUS' HISTORIC BRITOXVM. (Harleian, 3859.)'; Hugh Williams on Geoffrey of Monmouth (claim above)",
+    "witness": "ANN l.377-383; GILDAS l.3935-3937; ASSER l.3479-3481, 15428-15430; STOKES l.3-4, 13471-13472",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Card remembered: Williams ab Ithel: 'The author of the book of Nennius, who lived at a later period, represents the battle of Mount Badon as the twelfth which Arthur fought, and one in which 960 enemies fell in a singie attack by his own hand.'; note: 'Another ver- sion givc-s 840 as the number that fell on that occasiou.'; Stevenson: 'The object of this interpolation is plain. It was to prove that the University was in existence before Alfred's time, and that it had enjoyed usages sanctioned by St. German, Gildas, Nennius,'; 'and Kentigern. It was thus a powerful argument for the Oxford champions who maintained, with a credulity only equalled by that of their opponents, that their University was an older foundation than that of Cambridge.'; 'by William Camden'; 'he used eleven MSS. of Nennius'",
+    "witness": "ANN l.1101-1104 (OCR 'singie'), 1124-1130 (OCR 'givc-s', 'occasiou'); ASSER l.901-909, 914-915, 749, 1738",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Card uncertain: Giles's notes: 'For Arthur proceeded to Jerusalem, and there made a'; 'All this to the word 'Amen,' in other MSS. is placed after the legend of St. Patrick.'; 'This proves the tradition of Brutus to be older than Geoffrey or Tyssilio, unless these notices of Brutus have been interpolated in the original work of Nennius.'",
+    "witness": "NEN l.1172-1173; l.1126-1127; l.406-408",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Germanus of Auxerre, identifier at first mention: Hugh Williams: 'Germanus (Garmon) of Auxerre'; Stokes's Patrick documents: 'Germanus, abbot of the city named Altissiodorum' with the note 'Auxerre.'",
+    "witness": "GILDAS l.19277, 1643-1646; STOKES l.9490, 9512",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "Vortigern placed: 'Vortigern then reigned in Britain.'. Duchesne's Liber pontificalis, the lives of the popes (card source); Hugh Williams edits Gildas ('HUGH WILLIAMS'); Gildas the earlier writer: 'The author of the book of Nennius, who lived at a later period; Badon which is noticed by two contemporaries, Gildas and Taliesin.'",
+    "witness": "NEN l.629; GILDAS l.1-4, 76; ANN l.1084-1086, 1101",
+    "formation_confidence": "Documented"
+   }
+  ],
+  "contested_claims": [
+   {
+    "claim": "Who wrote the Historia Brittonum: Nennius, disciple of Elbotus, or another compiler",
+    "sides": [
+     "For Nennius: the work's own prologue and apology in J. A. Giles's text (NEN l.42-43, 107-110); Hugh Williams writes of 'the Historia Britonum of Nennius' (GILDAS l.966-967); W. H. Stevenson calls Nennius 'the only other Welsh writer of this century known to us' (ASSER l.4290-4291)",
+     "Against or doubting: the heading 'edited by Mark the anchorite' (NEN l.170); Louis Duchesne, a Vatican copy under Mark the anchorite's name, and 'pseudo-Nennius' (LP1 l.52070-52071, 27343-27344); James Raine, 'the pseudo-Nennius' (RAINE l.1216); copies that give the book to Gildas, and Geoffrey of Monmouth quoting it as Gildas's, as Hugh Williams reports (GILDAS l.966-968)"
+    ]
+   },
+   {
+    "claim": "When the book was written",
+    "sides": [
+     "The prologue: 858, the 24th year of Mervin (NEN l.93-95)",
+     "The list of years: 976, the fifth year of Edmund (NEN l.142-143)",
+     "The Saxon reckoning: 547 years after the coming in 447 (NEN l.1202-1205)",
+     "John Williams ab Ithel: a first edition in 674, from the Vatican text, with later additions (ANN l.1207-1224, 1263-1264)",
+     "Louis Duchesne: the ninth century (LP1 l.27344)"
+    ]
+   },
+   {
+    "claim": "Elbotus's see and dates",
+    "sides": [
+     "Giles's note: Elvod, bishop of Bangor, 755 (NEN l.46)",
+     "Annales Cambriae: Easter changed under Elbodug in the editor's 768; Elbodg, archbishop of Gwynedd, died in the editor's 809; a variant has 'episcopus' (ANN l.2986-2988, 3102-3103, 3176)"
+    ]
+   }
+  ],
+  "absent_details": [
+   {
+    "detail": "Nennius's birth, death, place and church office",
+    "note": "No held source gives them. His own words give only his name, his teacher Elbotus and his people (NEN l.42-43, 107-110)."
+   },
+   {
+    "detail": "Mark the anchorite",
+    "note": "No held source used here says more of him than the heading (NEN l.170) and Duchesne's manuscript listing (LP1 l.52070-52071)."
+   },
+   {
+    "detail": "The arguments of Heinrich Zimmer's Nennius Vindicatus (1893), William Gunn (1819) and Arthur de la Borderie (1883)",
+    "note": "Cited by title in Hugh Williams, Stevenson and Duchesne; the books are not held, so their positions on the authorship are not reported."
+   },
+   {
+    "detail": "The Library file header's 'active 796; c. 829'",
+    "note": "Rests on no held line and is not used. The held text's own dates are 858, 976, and 547 years after the Saxons' coming in 447."
+   }
+  ]
+ }
+}

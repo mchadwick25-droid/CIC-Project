@@ -1,0 +1,176 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "alx.dw.apostolic"
+   ],
+   "sentence": "Baptism, the bread and cup, and the scriptures read aloud were our general practice, and no one objected."
+  },
+  {
+   "record_ids": [
+    "alx.dw.apostolic"
+   ],
+   "sentence": "Our practice ran unbroken as far back as our own memory reached, and we agreed with the other churches we were in communion with."
+  },
+  {
+   "record_ids": [
+    "alx.dw.apostolic",
+    "alx.term.kanon-pisteos"
+   ],
+   "sentence": "Our rule of faith matched the apostolic writings we read."
+  },
+  {
+   "record_ids": [
+    "alx.dw.apostolic",
+    "alx.term.kanon-pisteos"
+   ],
+   "sentence": "Our teachers named the rule of faith outright as the apostles' deposit, handed down."
+  },
+  {
+   "record_ids": [
+    "alx.dw.apostolic"
+   ],
+   "sentence": "What we cannot show, and did not think to show, is documentary proof of unbroken practice for each rite."
+  },
+  {
+   "record_ids": [
+    "alx.dw.apostolic"
+   ],
+   "sentence": "Between the apostles and our first witnesses lies a gap our sources do not fill."
+  },
+  {
+   "record_ids": [
+    "alx.quote.ecclesiastical-and-apostolical-tradition"
+   ],
+   "sentence": "In today's English, Origen of Alexandria says: “So, there are many who think they hold the opinions of Christ, and some of them think differently from those who came before. Yet the teaching of the Church is still preserved. It has been handed down in orderly succession from the apostles, and it remains in the churches to this day. So only that is to be accepted as truth which differs in no respect from the tradition of the Church and the apostles.”"
+  }
+ ],
+ "citations": [
+  "alx.dw.apostolic",
+  "alx.quote.ecclesiastical-and-apostolical-tradition",
+  "alx.term.kanon-pisteos"
+ ],
+ "group": "A",
+ "id": "q017",
+ "net_sentences": [
+  {
+   "draft": "Baptism, the bread and cup, and the scriptures read aloud were our general practice, and no one objected [[alx.dw.apostolic]] [[as:paraphrase]].",
+   "sentence": "Baptism, the bread and cup, and the scriptures read aloud were our general practice, and no one objected.",
+   "tags": [
+    "alx.dw.apostolic"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Our practice ran unbroken as far back as our own memory reached, and we agreed with the other churches we were in communion with [[alx.dw.apostolic]] [[as:paraphrase]].",
+   "sentence": "Our practice ran unbroken as far back as our own memory reached, and we agreed with the other churches we were in communion with.",
+   "tags": [
+    "alx.dw.apostolic"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Our rule of faith matched the apostolic writings we read [[alx.dw.apostolic]] [[alx.term.kanon-pisteos]] [[as:paraphrase]].",
+   "sentence": "Our rule of faith matched the apostolic writings we read.",
+   "tags": [
+    "alx.dw.apostolic",
+    "alx.term.kanon-pisteos"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Our teachers named the rule of faith outright as the apostles' deposit, handed down [[alx.dw.apostolic]] [[alx.term.kanon-pisteos]] [[as:paraphrase]].",
+   "sentence": "Our teachers named the rule of faith outright as the apostles' deposit, handed down.",
+   "tags": [
+    "alx.dw.apostolic",
+    "alx.term.kanon-pisteos"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "What we cannot show, and did not think to show, is documentary proof of unbroken practice for each rite [[alx.dw.apostolic]] [[as:paraphrase]].",
+   "sentence": "What we cannot show, and did not think to show, is documentary proof of unbroken practice for each rite.",
+   "tags": [
+    "alx.dw.apostolic"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Between the apostles and our first witnesses lies a gap our sources do not fill [[alx.dw.apostolic]] [[as:paraphrase]].",
+   "sentence": "Between the apostles and our first witnesses lies a gap our sources do not fill.",
+   "tags": [
+    "alx.dw.apostolic"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Origen of Alexandria wrote in On First Principles, preface 2: [[quote:alx.quote.ecclesiastical-and-apostolical-tradition]]",
+   "placed_quote": "alx.quote.ecclesiastical-and-apostolical-tradition",
+   "sentence": "In today's English, Origen of Alexandria says: “So, there are many who think they hold the opinions of Christ, and some of them think differently from those who came before. Yet the teaching of the Church is still preserved. It has been handed down in orderly succession from the apostles, and it remains in the churches to this day. So only that is to be accepted as truth which differs in no respect from the tradition of the Church and the apostles.”",
+   "tags": [
+    "alx.quote.ecclesiastical-and-apostolical-tradition"
+   ],
+   "verdict": "ok",
+   "why": "quote placed by code, verbatim to its record"
+  }
+ ],
+ "offered": [
+  "alx.dw.apostolic",
+  "alx.term.kanon-pisteos",
+  "alx.story.arsinoite-conference",
+  "alx.story.john-young-robber",
+  "alx.quote.ecclesiastical-and-apostolical-tradition",
+  "alx.gravity.divine-pedagogy",
+  "alx.gravity.learning-community-tension",
+  "alx.force.philonic-inheritance",
+  "alx.contested.origen-positions",
+  "alx.dw.god",
+  "alx.term.incarnation",
+  "alx.quote.clement-schoolmaster",
+  "alx.dw.resurrection",
+  "alx.quote.a-doctrine-they-would-not-have-taught",
+  "alx.term.arete",
+  "alx.term.eucharistia",
+  "alx.term.lapsi",
+  "alx.story.gregory-formation",
+  "alx.quote.gregory-spark",
+  "alx.quote.clement-instructor",
+  "alx.gravity.soul-transformation",
+  "alx.gravity.learning-formation",
+  "alx.force.transmission-ongoing",
+  "alx.gravity.martyrdom-contemplative-tension",
+  "alx.gravity.speculative-doctrinal-tension"
+ ],
+ "raw_text": "Baptism, the bread and cup, and the scriptures read aloud were our general practice, and no one objected [[alx.dw.apostolic]] [[as:paraphrase]]. Our practice ran unbroken as far back as our own memory reached, and we agreed with the other churches we were in communion with [[alx.dw.apostolic]] [[as:paraphrase]]. Our rule of faith matched the apostolic writings we read [[alx.dw.apostolic]] [[alx.term.kanon-pisteos]] [[as:paraphrase]]. Our teachers named the rule of faith outright as the apostles' deposit, handed down [[alx.dw.apostolic]] [[alx.term.kanon-pisteos]] [[as:paraphrase]]. What we cannot show, and did not think to show, is documentary proof of unbroken practice for each rite [[alx.dw.apostolic]] [[as:paraphrase]]. Between the apostles and our first witnesses lies a gap our sources do not fill [[alx.dw.apostolic]] [[as:paraphrase]]. Origen of Alexandria wrote in On First Principles, preface 2: [[quote:alx.quote.ecclesiastical-and-apostolical-tradition]]\n",
+ "reply_shape": {
+  "placed": [
+   "alx.quote.ecclesiastical-and-apostolical-tradition"
+  ],
+  "removed": [],
+  "repaired": [
+   {
+    "draft": "Origen of Alexandria wrote in On First Principles, preface 2: [[quote:alx.quote.ecclesiastical-and-apostolical-tradition]]",
+    "lead_in": "In today's English, Origen of Alexandria says",
+    "unresolved": [
+     {
+      "detail": "wrote",
+      "kind": "genre"
+     }
+    ],
+    "why": "lead-in stated a detail no source document supports; replaced by code's"
+   }
+  ]
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": "C7.S8",
+ "text": "Baptism, the bread and cup, and the scriptures read aloud were our general practice, and no one objected. Our practice ran unbroken as far back as our own memory reached, and we agreed with the other churches we were in communion with. Our rule of faith matched the apostolic writings we read. Our teachers named the rule of faith outright as the apostles' deposit, handed down. What we cannot show, and did not think to show, is documentary proof of unbroken practice for each rite. Between the apostles and our first witnesses lies a gap our sources do not fill. In today's English, Origen of Alexandria says: “So, there are many who think they hold the opinions of Christ, and some of them think differently from those who came before. Yet the teaching of the Church is still preserved. It has been handed down in orderly succession from the apostles, and it remains in the churches to this day. So only that is to be accepted as truth which differs in no respect from the tradition of the Church and the apostles.”",
+ "voice_set_aside": false
+}

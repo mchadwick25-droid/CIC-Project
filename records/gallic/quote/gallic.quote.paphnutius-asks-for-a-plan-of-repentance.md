@@ -17,9 +17,7 @@ confidence:
     motive, offered by a narrator who was not present to it.
 sources:
 - source_id: gallic.source.cassian-conferences-part-iii
-  locus: "Conferences XVIII.15 (npnf211 div iv.vi.ii.xv, file lines 43040-43058): Paphnutius's own
-    silence though innocent, his stated fear of being called a liar, and his fortnight of penance at the
-    threshold of the Church"
+  locus: "Conferences XVIII.15 (cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml, lines 43040-43058; div iv.vi.ii.xv): Paphnutius's own silence though innocent, his stated fear of being called a liar, and his fortnight of penance at the threshold of the Church"
   license: public-domain
 retrieval:
   tier: 3

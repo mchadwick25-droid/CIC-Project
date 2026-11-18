@@ -36,7 +36,7 @@ This is why, when the fathers gathered again at Chalcedon, we asked only that th
 
 ## Plural-Voices Note
 
-This entry is written from Strand B's own voice specifically (Constantinople's own self-understanding) — the deliberate counterpart to *primatus*'s own Strand A voice, per Doc_01's three-strand finding. Neither entry speaks for the world as a whole; each speaks for its own strand's own contested claim. **This is a lexicon-organization device only — see the same caution recorded in the *primatus* entry and Doc_06 §5, Open Item 4: it does not pre-decide a Representative voice or identity question.**
+This entry is written from Strand B's own voice specifically (Constantinople's own self-understanding) — the deliberate counterpart to *primatus*'s own Strand A voice, per Doc_01's three-strand finding. Neither entry speaks for the world as a whole; each speaks for its own strand's own contested claim. **This is a lexicon-organization device only — see the same caution recorded in the *primatus* entry and Doc_06 §5, item 4: it does not pre-decide a Representative voice or identity question.**
 
 ---
 

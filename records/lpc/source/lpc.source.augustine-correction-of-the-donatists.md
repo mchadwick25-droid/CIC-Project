@@ -25,6 +25,7 @@ work: The Correction of the Donatists (Letter 185, c. 417), addressed to the tri
 edition: Nicene and Post-Nicene Fathers, Series I, vol. IV, vendored as cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml
 citation: 'Augustine of Hippo, The Correction of the Donatists (Letter 185, c. 417), Nicene and Post-Nicene Fathers, Series I, vol. IV'
 kind: vendored
+shelf_row: npnf104_augustine-anti-manichaean-anti-donatist--the-correction-of-the-donatists-de-correctione-donatistarum
 rights_status: public-domain; vendored in cic/texts/, and the specific content this row licenses was directly
   read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify
   check (Source_Acquisition_Manifest.md SS1).
@@ -34,4 +35,4 @@ discovery_channel: corpus map / cic/corpus-map/latin-pastoral-congregational-chr
 external_ids:
   lpc_source_registry_row: 12
 ---
-The imperial-coercion defence and the two-register argument (pastoral-corrective and imperial-duty); Doc_01's own central state-power finding (SS4, SS7, SS9). Also assigned to imperial-juridical-christianity's own corpus map, per that world's own double-placement.
+The imperial-coercion defense and the two-register argument (pastoral-corrective and imperial-duty); Doc_01's own central state-power finding (SS4, SS7, SS9). Also assigned to imperial-juridical-christianity's own corpus map, per that world's own double-placement.

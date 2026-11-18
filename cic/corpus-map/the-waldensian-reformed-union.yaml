@@ -148,6 +148,16 @@ works:
 
     '
   source_file: gilles_histoire-ecclesiastique-eglises-vaudoises-v1-fra_1881.txt
+- row_id: herminjard_correspondance-des-reformateurs-t2-1527-1532-fra-lat_1868--antoine-saunier-to-farel-5-november-1532-with-the-editor-s-notes-on-the-waldensian-assembly-herminjard-2
+  work: Antoine Saunier to Farel, 5 November 1532, with the editor's notes on the Waldensian
+    assembly (Herminjard 2)
+  author: herminjard
+  locus: about OCR lines 22205-22445; add 12 to OCR line numbers
+  role: context
+  confidence: needs-ruling
+  note: A letter from the valleys seven weeks after the assembly; the account of the assembly
+    itself is the editor's note, not a letter.
+  source_file: herminjard_correspondance-des-reformateurs-t2-1527-1532-fra-lat_1868.txt
 - row_id: leger_histoire-generale-eglises-vaudoises-livre1-fra_1669--histoire-generale-des-eglises-evangeliques-livre-premier
   work: 'Histoire générale des Églises Évangéliques des Vallées de Piémont ou Vaudoises, Livre
     premier (1669): the valleys'' doctrine and discipline, with the ancient documents and
@@ -229,6 +239,15 @@ works:
 
     '
   source_file: morland_history-evangelical-churches-piemont_1658.txt
+- row_id: muston_israel-of-the-alps-v1_montgomery1866--the-israel-of-the-alps-vol-1-muston-1866
+  work: Alexis Muston, The Israel of the Alps, vol. I, tr. Montgomery (London, 1866)
+  author: muston
+  locus: the whole volume; add 12 to OCR line numbers for this file's own
+  role: context
+  confidence: provisional
+  note: A Protestant pastor's history, written in 1850 after these entries' windows, about
+    them. It quotes Waldensian documents; Muston's own prose is a nineteenth-century historian's.
+  source_file: muston_israel-of-the-alps-v1_montgomery1866.txt
 - row_id: perrin_histoire-des-vaudois-fra_1619--histoire-des-vaudois-premiere-partie
   work: 'Histoire des Vaudois (1619), Part I: origin, belief and persecutions of the Waldenses,
     with the 1532 articles of the ministers'

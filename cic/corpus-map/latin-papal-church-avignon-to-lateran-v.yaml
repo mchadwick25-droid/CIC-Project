@@ -3,6 +3,16 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: latin-papal-church-avignon-to-lateran-v
 works:
+- row_id: acta-sanctorum_aprilis-tomus-3-lat_palme1866--raymond-of-capua-life-of-catherine-of-siena-legenda-maior
+  work: Raymond of Capua, Life of Catherine of Siena (Legenda maior), Acta Sanctorum April
+    III
+  author: acta-sanctorum
+  locus: from about OCR line 193213; add 12 to OCR line numbers
+  role: tradition
+  confidence: assigned
+  note: Her confessor's Life, the Dominican order's own account of her. Not read in depth.
+    Catherine of Siena's Who profile sits on this entry.
+  source_file: acta-sanctorum_aprilis-tomus-3-lat_palme1866.txt
 - row_id: baluze_vitae-paparum-avenionensium-v1-lat_mollat1921--vitae-paparum-avenionensium-baluze-mollat-s-new-edition-the
   work: Vitae paparum Avenionensium (Baluze; Mollat's new edition), the Latin Lives
   author: baluze
@@ -21,6 +31,26 @@ works:
   confidence: provisional
   note: The same texts from the Roman side of the union.
   source_file: bessarion_opera-omnia-pg161-grc-lat_migne1866.txt
+- row_id: birgitta_revelationes-libri-vi-viii-tomus-2-lat_duranti1628--birgitta-of-sweden-revelations-books-vi-viii-with-the-rule-and-the-sermo-angelicus-duranti-1628-vol-ii
+  work: Birgitta of Sweden, Revelations, Books VI-VIII, with the Rule and the Sermo angelicus
+    (Duranti 1628, vol. II)
+  author: birgitta
+  locus: OCR lines 113-44176; add 12 to OCR line numbers
+  role: tradition
+  confidence: provisional
+  note: The Latin of the printed canon, with a seventeenth-century bishop's notes between
+    the chapters. The prologue to Book VIII (about OCR lines 28565-30490) is headed as Alphonsus's,
+    not hers.
+  source_file: birgitta_revelationes-libri-vi-viii-tomus-2-lat_duranti1628.txt
+- row_id: birgitta_vita-auctoribus-petro-et-petro-in-scriptores-rerum-suecicarum-3-lat_annerstedt1876--life-of-birgitta-by-her-confessors-prior-peter-and-master-peter-scriptores-rerum-suecicarum-iii
+  work: Life of Birgitta by her confessors, Prior Peter and Master Peter (Scriptores rerum
+    Suecicarum III)
+  author: birgitta
+  locus: about OCR lines 47115-49160; add 12 to OCR line numbers
+  role: tradition
+  confidence: provisional
+  note: The two confessors' own account, given in for her canonization.
+  source_file: birgitta_vita-auctoribus-petro-et-petro-in-scriptores-rerum-suecicarum-3-lat_annerstedt1876.txt
 - row_id: birgitta_revelationes-lat_duranti1628--revelationes-s-brigittae-torquemada-recension-with-duranti-s
   work: Revelationes S. Brigittae (Torquemada recension with Duranti's notes, Latin)
   author: birgitta
@@ -80,6 +110,16 @@ works:
   note: 'Placed on content: the Avignon-Bavarian conflict from the Michaelist side. Whether
     the papal-church world wants it is for the project lead.'
   source_file: carlini_fra-michelino-e-la-sua-eresia-ita-lat_1912.txt
+- row_id: carmelite-general-chapters_acta-capitulorum-generalium-v1-1318-1593-lat_wessels1912--acta-capitulorum-generalium-o-carm-vol-i-the-chapters-of-1318-to-1513
+  work: 'Acta capitulorum generalium O.Carm., vol. I: the chapters of 1318 to 1513'
+  author: carmelite-general-chapters
+  locus: from the title page to about OCR line 18900 (1321 at about 795; 1492 at about 15043);
+    add 12 to OCR line numbers for this file's own
+  role: tradition
+  confidence: provisional
+  note: The order's own legislation in its general chapters before 1517. Within this entry's
+    window (1300-1517).
+  source_file: carmelite-general-chapters_acta-capitulorum-generalium-v1-1318-1593-lat_wessels1912.txt
 - row_id: catherine-of-siena_libro-della-divina-dottrina-ita_fiorilli1912--libro-della-divina-dottrina-dialogo-della-divina-provvidenza
   work: Libro della divina dottrina (Dialogo della divina provvidenza), Italian, Fiorilli's
     edition
@@ -152,6 +192,15 @@ works:
   note: The councils of the Avignon period in the Latin collection. Placed from the index;
     the census entry for the Latin papal church was not read for this placement.
   source_file: mansi_sacrorum-conciliorum-collectio-tomus-26-1344-1409-lat_welter-facsimile1901.txt
+- row_id: dominican-general-chapters_acta-capitulorum-generalium-v2-1304-1378-lat_reichert1899--acta-capitulorum-generalium-ordinis-praedicatorum-vol-ii-1304-1378
+  work: Acta capitulorum generalium Ordinis Praedicatorum, vol. II (1304-1378)
+  author: dominican-general-chapters
+  locus: the acts from about OCR line 341; add 12 to OCR line numbers for this file's own
+  role: tradition
+  confidence: provisional
+  note: The order's own legislation in its general chapters, 1304-1378. Within this entry's
+    window (1300-1517).
+  source_file: dominican-general-chapters_acta-capitulorum-generalium-v2-1304-1378-lat_reichert1899.txt
 - row_id: ehrle-denifle_archiv-literatur-kirchengeschichte-mittelalters-bd3-deu-lat_1887--ehrle-archiv-fur-literatur-und-kirchengeschichte-des
   work: 'Ehrle, Archiv für Literatur- und Kirchengeschichte des Mittelalters, Bd 3 (1887):
     Vienne and the Beghini of Provence'
@@ -199,6 +248,50 @@ works:
     witness for exact wording until checked against the page images (long s read as f). The
     core conciliarist voice on the shelf.
   source_file: gerson_opera-omnia-tomus-2-pars-1-tractatus-ad-schisma-lat_dupin1706.txt
+- row_id: guicciardini_la-storia-d-italia-v1-ita_gherardi1919--guicciardini-storia-d-italia-volume-1-gherardi
+  work: Guicciardini, Storia d'Italia, volume 1 (Gherardi)
+  author: guicciardini
+  locus: the whole volume; not mapped
+  role: context
+  confidence: assigned
+  note: His history of Italy in his own Italian; an outside witness. No census entry is Italy's
+    politics, so the work sits on these entries.
+  source_file: guicciardini_la-storia-d-italia-v1-ita_gherardi1919.txt
+- row_id: guicciardini_la-storia-d-italia-v2-ita_gherardi1919--guicciardini-storia-d-italia-volume-2-gherardi
+  work: Guicciardini, Storia d'Italia, volume 2 (Gherardi)
+  author: guicciardini
+  locus: the whole volume; not mapped
+  role: context
+  confidence: assigned
+  note: His history of Italy in his own Italian; an outside witness. No census entry is Italy's
+    politics, so the work sits on these entries.
+  source_file: guicciardini_la-storia-d-italia-v2-ita_gherardi1919.txt
+- row_id: guicciardini_la-storia-d-italia-v3-ita_gherardi1919--guicciardini-storia-d-italia-volume-3-gherardi
+  work: Guicciardini, Storia d'Italia, volume 3 (Gherardi)
+  author: guicciardini
+  locus: the whole volume; not mapped
+  role: context
+  confidence: assigned
+  note: His history of Italy in his own Italian; an outside witness. No census entry is Italy's
+    politics, so the work sits on these entries.
+  source_file: guicciardini_la-storia-d-italia-v3-ita_gherardi1919.txt
+- row_id: guicciardini_la-storia-d-italia-v4-ita_gherardi1919--guicciardini-storia-d-italia-volume-4-gherardi
+  work: Guicciardini, Storia d'Italia, volume 4 (Gherardi)
+  author: guicciardini
+  locus: the whole volume; not mapped
+  role: context
+  confidence: assigned
+  note: His history of Italy in his own Italian; an outside witness. No census entry is Italy's
+    politics, so the work sits on these entries.
+  source_file: guicciardini_la-storia-d-italia-v4-ita_gherardi1919.txt
+- row_id: hardt_magnum-oecumenicum-constantiense-concilium-t3-lat_1698--mauritius-of-prague-reply-to-jacobellus-on-the-chalice-von-der-hardt-iii
+  work: Mauritius of Prague, reply to Jacobellus on the chalice (von der Hardt III)
+  author: hardt
+  locus: from OCR line 52256; add 12 to OCR line numbers
+  role: context
+  confidence: provisional
+  note: The council party's answer to the Prague masters.
+  source_file: hardt_magnum-oecumenicum-constantiense-concilium-t3-lat_1698.txt
 - row_id: hofler_geschichtschreiber-husitischen-bewegung-v2-lat_1865--chronicon-taboritarum-part-ii-the-bohemians-hearing-at-the
   work: 'Chronicon Taboritarum, Part II: the Bohemians'' hearing at the Council of Basel (Höfler
     II)'
@@ -236,6 +329,58 @@ works:
     Fraticelli). Vol. II (the Free Spirit chapter) is the wanted volume. Already assigned
     to the Franciscan entries. Tier: same time-place.'
   source_file: lea_history-of-the-inquisition-of-the-middle-ages-v3_1888.txt
+- row_id: machiavelli_historical-political-and-diplomatic-writings-v1_detmold1882--machiavelli-writings-in-english-volume-1-detmold
+  work: Machiavelli, writings in English, volume 1 (Detmold)
+  author: machiavelli
+  locus: the whole volume; not mapped
+  role: context
+  confidence: assigned
+  note: His own writings in a translator's English; an outside witness. No census entry is
+    Italy's politics, so the work sits on these entries.
+  source_file: machiavelli_historical-political-and-diplomatic-writings-v1_detmold1882.txt
+- row_id: machiavelli_historical-political-and-diplomatic-writings-v2_detmold1882--machiavelli-writings-in-english-volume-2-detmold
+  work: Machiavelli, writings in English, volume 2 (Detmold)
+  author: machiavelli
+  locus: the whole volume; not mapped
+  role: context
+  confidence: assigned
+  note: His own writings in a translator's English; an outside witness. No census entry is
+    Italy's politics, so the work sits on these entries.
+  source_file: machiavelli_historical-political-and-diplomatic-writings-v2_detmold1882.txt
+- row_id: machiavelli_historical-political-and-diplomatic-writings-v3_detmold1882--machiavelli-writings-in-english-volume-3-detmold
+  work: Machiavelli, writings in English, volume 3 (Detmold)
+  author: machiavelli
+  locus: the whole volume; not mapped
+  role: context
+  confidence: assigned
+  note: His own writings in a translator's English; an outside witness. No census entry is
+    Italy's politics, so the work sits on these entries.
+  source_file: machiavelli_historical-political-and-diplomatic-writings-v3_detmold1882.txt
+- row_id: machiavelli_historical-political-and-diplomatic-writings-v4_detmold1882--machiavelli-writings-in-english-volume-4-detmold
+  work: Machiavelli, writings in English, volume 4 (Detmold)
+  author: machiavelli
+  locus: the whole volume; not mapped
+  role: context
+  confidence: assigned
+  note: His own writings in a translator's English; an outside witness. No census entry is
+    Italy's politics, so the work sits on these entries.
+  source_file: machiavelli_historical-political-and-diplomatic-writings-v4_detmold1882.txt
+- row_id: mansi_sacrorum-conciliorum-collectio-tomus-29-1431-1434-lat_welter-facsimile1904--council-of-basel-acts-and-appendices-mansi-29
+  work: Council of Basel, acts and appendices (Mansi 29)
+  author: mansi
+  locus: from about OCR line 1148; add 12 to OCR line numbers
+  role: tradition
+  confidence: provisional
+  note: The council's own acts and letters as Mansi gathered them in the eighteenth century.
+  source_file: mansi_sacrorum-conciliorum-collectio-tomus-29-1431-1434-lat_welter-facsimile1904.txt
+- row_id: mansi_sacrorum-conciliorum-collectio-tomus-30-1431-1439-lat_welter-facsimile1904--council-of-basel-documents-mansi-30
+  work: Council of Basel, documents (Mansi 30)
+  author: mansi
+  locus: from OCR line 5962; add 12 to OCR line numbers
+  role: tradition
+  confidence: provisional
+  note: The council's own acts and letters as Mansi gathered them in the eighteenth century.
+  source_file: mansi_sacrorum-conciliorum-collectio-tomus-30-1431-1439-lat_welter-facsimile1904.txt
 - row_id: mansi_sacrorum-conciliorum-collectio-tomus-35-1414-1724-lat_welter-facsimile1902--mansi-vol-35-the-supplements-to-constance-florence-and
   work: 'Mansi vol. 35: the supplements to Constance, Florence and Lateran V'
   author: mansi

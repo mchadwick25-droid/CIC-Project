@@ -1,0 +1,11 @@
+source_file: qalqashandi_geographie-und-verwaltung-von-aegypten-deu_wuestenfeld1879.txt
+assignments:
+- row_id: qalqashandi_geographie-und-verwaltung-von-aegypten-deu_wuestenfeld1879--al-qalqashandi-on-the-geography-and-government-of-egypt-wustenfeld-1879
+  work: 'al-Qalqashandi, on the geography and government of Egypt (Wustenfeld 1879)'
+  author: qalqashandi
+  locus: 'the whole volume; not mapped'
+  atlas_ids:
+  - coptic-christianity-fatimid-to-mamluk
+  role: context
+  confidence: assigned
+  note: "An outside witness. No census entry covers Mamluk Egypt and Syria or the Maghreb after 1300, so the work sits on this entry. Not read in depth for its passages on Christians."

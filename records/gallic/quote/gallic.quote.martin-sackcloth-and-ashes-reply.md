@@ -20,7 +20,7 @@ confidence:
     of the underlying event's own attestation.
 sources:
 - source_id: gallic.source.sulpitius-letters
-  locus: 'Letter III, To Bassula, His Mother-in-Law (npnf211 div ii.iii.iii, file lines 2464-2466): Martin refusing straw for his deathbed, replying to his disciples'' request'
+  locus: "Letter III, To Bassula, His Mother-in-Law (cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml, lines 2464-2466; div ii.iii.iii): Martin refusing straw for his deathbed, replying to his disciples' request"
   license: public-domain
 retrieval:
   tier: 1

@@ -1,0 +1,20 @@
+source_file: carmelite-general-chapters_acta-capitulorum-generalium-v1-1318-1593-lat_wessels1912.txt
+assignments:
+- row_id: carmelite-general-chapters_acta-capitulorum-generalium-v1-1318-1593-lat_wessels1912--acta-capitulorum-generalium-o-carm-vol-i-the-chapters-of-1318-to-1513
+  work: "Acta capitulorum generalium O.Carm., vol. I: the chapters of 1318 to 1513"
+  author: carmelite-general-chapters
+  locus: "from the title page to about OCR line 18900 (1321 at about 795; 1492 at about 15043); add 12 to OCR line numbers for this file's own"
+  atlas_ids:
+  - latin-papal-church-avignon-to-lateran-v
+  role: tradition
+  confidence: provisional
+  note: "The order's own legislation in its general chapters before 1517. Within this entry's window (1300-1517)."
+- row_id: carmelite-general-chapters_acta-capitulorum-generalium-v1-1318-1593-lat_wessels1912--acta-capitulorum-generalium-o-carm-vol-i-the-chapters-of-1524-to-1593
+  work: "Acta capitulorum generalium O.Carm., vol. I: the chapters of 1524 to 1593"
+  author: carmelite-general-chapters
+  locus: "from about OCR line 18900 to the end (the 1524 reform decree at about 18975-18995); add 12 to OCR line numbers for this file's own"
+  atlas_ids:
+  - the-tridentine-church
+  role: tradition
+  confidence: provisional
+  note: "The order's own legislation in its general chapters from 1524 to 1593. Within this entry's window (1517-1650)."

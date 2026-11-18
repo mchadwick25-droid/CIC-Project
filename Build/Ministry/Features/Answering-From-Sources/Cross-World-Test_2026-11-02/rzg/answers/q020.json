@@ -1,0 +1,123 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "rzg.witness.defending-the-anabaptist-suppression"
+   ],
+   "sentence": "What we held about belonging is that a church gathered only by a believer's own profession, apart from the whole city, unmade the unity our reform existed to strengthen."
+  },
+  {
+   "record_ids": [
+    "rzg.witness.defending-the-anabaptist-suppression"
+   ],
+   "sentence": "We refused that claim, and we will not call the refusal only argument."
+  },
+  {
+   "record_ids": [
+    "rzg.witness.defending-the-anabaptist-suppression"
+   ],
+   "sentence": "Our own council moved against the Anabaptist movement with civil force in the years after 1525, not only with our founder's written argument."
+  },
+  {
+   "record_ids": [
+    "rzg.witness.defending-the-anabaptist-suppression"
+   ],
+   "sentence": "The Anabaptists read Scripture, and we do not deny it; we held that they did not read it whole."
+  },
+  {
+   "record_ids": [
+    "rzg.limit.ordinary-daily-practice"
+   ],
+   "sentence": "No account of how an ordinary citizen of Zurich or Geneva lived or felt a day has reached us in our own words."
+  },
+  {
+   "record_ids": [
+    "rzg.limit.ordinary-daily-practice"
+   ],
+   "sentence": "What survives from our hand is confession, catechism, disputation record and confessional argument."
+  }
+ ],
+ "citations": [
+  "rzg.limit.ordinary-daily-practice",
+  "rzg.witness.defending-the-anabaptist-suppression"
+ ],
+ "group": "A",
+ "id": "q020",
+ "net_sentences": [
+  {
+   "draft": "What we held about belonging is that a church gathered only by a believer's own profession, apart from the whole city, unmade the unity our reform existed to strengthen [[rzg.witness.defending-the-anabaptist-suppression]] [[as:paraphrase]].",
+   "sentence": "What we held about belonging is that a church gathered only by a believer's own profession, apart from the whole city, unmade the unity our reform existed to strengthen.",
+   "tags": [
+    "rzg.witness.defending-the-anabaptist-suppression"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "We refused that claim, and we will not call the refusal only argument [[rzg.witness.defending-the-anabaptist-suppression]] [[as:paraphrase]].",
+   "sentence": "We refused that claim, and we will not call the refusal only argument.",
+   "tags": [
+    "rzg.witness.defending-the-anabaptist-suppression"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Our own council moved against the Anabaptist movement with civil force in the years after 1525, not only with our founder's written argument [[rzg.witness.defending-the-anabaptist-suppression]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "Our own council moved against the Anabaptist movement with civil force in the years after 1525, not only with our founder's written argument.",
+   "tags": [
+    "rzg.witness.defending-the-anabaptist-suppression"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "The Anabaptists read Scripture, and we do not deny it; we held that they did not read it whole [[rzg.witness.defending-the-anabaptist-suppression]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "The Anabaptists read Scripture, and we do not deny it; we held that they did not read it whole.",
+   "tags": [
+    "rzg.witness.defending-the-anabaptist-suppression"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "No account of how an ordinary citizen of Zurich or Geneva lived or felt a day has reached us in our own words [[rzg.limit.ordinary-daily-practice]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "No account of how an ordinary citizen of Zurich or Geneva lived or felt a day has reached us in our own words.",
+   "tags": [
+    "rzg.limit.ordinary-daily-practice"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "What survives from our hand is confession, catechism, disputation record and confessional argument [[rzg.limit.ordinary-daily-practice]] [[as:paraphrase]].",
+   "sentence": "What survives from our hand is confession, catechism, disputation record and confessional argument.",
+   "tags": [
+    "rzg.limit.ordinary-daily-practice"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  }
+ ],
+ "offered": [
+  "rzg.limit.ordinary-daily-practice",
+  "rzg.witness.defending-the-anabaptist-suppression",
+  "rzg.gravity.zwinglis-remembrance-reading-vs-negotiated-consensus",
+  "rzg.limit.dentiere-and-womens-voice"
+ ],
+ "raw_text": "What we held about belonging is that a church gathered only by a believer's own profession, apart from the whole city, unmade the unity our reform existed to strengthen [[rzg.witness.defending-the-anabaptist-suppression]] [[as:paraphrase]].\nWe refused that claim, and we will not call the refusal only argument [[rzg.witness.defending-the-anabaptist-suppression]] [[as:paraphrase]].\nOur own council moved against the Anabaptist movement with civil force in the years after 1525, not only with our founder's written argument [[rzg.witness.defending-the-anabaptist-suppression]] [[as:paraphrase]].\nThe Anabaptists read Scripture, and we do not deny it; we held that they did not read it whole [[rzg.witness.defending-the-anabaptist-suppression]] [[as:paraphrase]].\nNo account of how an ordinary citizen of Zurich or Geneva lived or felt a day has reached us in our own words [[rzg.limit.ordinary-daily-practice]] [[as:paraphrase]].\nWhat survives from our hand is confession, catechism, disputation record and confessional argument [[rzg.limit.ordinary-daily-practice]] [[as:paraphrase]].\n",
+ "reply_shape": {
+  "placed": [],
+  "removed": [],
+  "repaired": []
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": "C4.S5",
+ "text": "What we held about belonging is that a church gathered only by a believer's own profession, apart from the whole city, unmade the unity our reform existed to strengthen. We refused that claim, and we will not call the refusal only argument. Our own council moved against the Anabaptist movement with civil force in the years after 1525, not only with our founder's written argument. The Anabaptists read Scripture, and we do not deny it; we held that they did not read it whole. No account of how an ordinary citizen of Zurich or Geneva lived or felt a day has reached us in our own words. What survives from our hand is confession, catechism, disputation record and confessional argument.",
+ "voice_set_aside": false
+}

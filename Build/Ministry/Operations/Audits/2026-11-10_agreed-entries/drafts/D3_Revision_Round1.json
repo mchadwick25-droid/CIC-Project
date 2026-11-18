@@ -1,0 +1,50 @@
+[
+ {
+  "finding_id": "M17",
+  "action": "fixed",
+  "what": "The sourcing line now says Biddle's English life of Socinus (London, 1653) is in the Library. The longDescription sentence on Biddle now cites the vendored 1653 title page as well as Rees (1818).",
+  "reason": "Ruling M17. The 1653 title page gives the date and place but not the translator; Biddle's name rests on Rees and the host record, so that part stays Inferential-Thin."
+ },
+ {
+  "finding_id": "M18",
+  "action": "fixed",
+  "what": "Removed the Nye sentence from longDescription. The sourcing line now reads: 'Nye, named among the early English Unitarians, is not yet in the Library, so this entry says nothing of what he wrote.' No first name is given. The want no longer asserts 'Stephen' and says the title and first name need confirming.",
+  "reason": "Ruling M18."
+ },
+ {
+  "finding_id": "M19",
+  "action": "fixed",
+  "what": "statusWord changed to 'Creedal question — not yet resolved'. Lane 8, beyondFloor, the status and the glyph are unchanged (precedent). Added a flag listing this entry for Mark among the release's floor placements.",
+  "reason": "Ruling M19."
+ },
+ {
+  "finding_id": "M20",
+  "action": "fixed",
+  "what": "floorNote now ends: 'By their own account, they did not hold the Trinity. This is their own account, not a charge made by their opponents. Whether it places them outside the floor is not yet decided.'",
+  "reason": "Ruling M20: the evidence is stated and no verdict is given."
+ },
+ {
+  "finding_id": "M21",
+  "action": "fixed",
+  "what": "longDescription: 'He and his fellow tutors at a Dissenting academy, he wrote, \"were likewise all Arians\".' The link note now says he and the other tutors at his academy were all Arians. The fact rows and the link both cite the 'fellow tutors' line.",
+  "reason": "Ruling M21: Priestley was a tutor there, not a pupil."
+ },
+ {
+  "finding_id": "M22",
+  "action": "fixed",
+  "what": "Sentence qualified: 'A Baptist editor wrote in 1910 that some Baptist churches in the west of England turned Unitarian too.' No link to the-baptists was drawn.",
+  "reason": "It rests on one 1910 editor's note; a link would be Inferential-Thin on a side point. Qualifying the sentence passes the two-way check."
+ },
+ {
+  "finding_id": "M23",
+  "action": "fixed",
+  "what": "Kept 1786. sourcing now says: 'Acrelius's own account stops in 1756, when he went home. Only his editor's notes of 1874 carry the story on to 1786.' The flag still offers 1756 as the alternative.",
+  "reason": "Ruling M23."
+ },
+ {
+  "finding_id": "M24",
+  "action": "fixed (partly differently)",
+  "what": "Added: 'A French priest named Fléché baptized them, about a year before the first Jesuits came' (v1 register and Thwaites's note). 'First page of this record' became 'The first report in the Jesuit Relations collection is from that year.' Dropped 'hunter'; the sentence now says 'One evening a man named Negabamat came...', from the v14 line 'They both came to see us one evening'.",
+  "reason": "informalName kept as 'The Huron and Algonquin Christians', since it is the wording of Mark's ruling; the Acadian start is now told plainly in the prose. Flagged."
+ }
+]

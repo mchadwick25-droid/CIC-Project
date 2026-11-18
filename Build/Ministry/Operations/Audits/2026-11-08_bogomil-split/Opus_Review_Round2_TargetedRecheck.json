@@ -1,0 +1,18 @@
+{
+ "round": 2,
+ "verdict": "pass",
+ "counts": {"blocking": 0, "minor": 0, "total": 0, "resolved": 2},
+ "resolved": [
+  {"rid": "G1-01", "status": "resolved", "evidence": "bogomils.relationsSummary now matches required_fix exactly: 'Lives on after 1054 as Balkan Bogomilism. Some say it came from the Paulicians, but this is debated.' score_turn: FK 6.5, FRE 63.8, no failures. The Contested Paulician link is still not stated as fact."},
+  {"rid": "G1-02", "status": "resolved", "evidence": "bogomils.legacy now matches required_fix exactly. The trailing score note in the round 1 file was correctly left out. 'Historians trace' brings back the attribution that the Dominant Modern Reconstruction grade calls for. score_turn: FK 7.5, FRE 61.0, no failures."}
+ ],
+ "findings": [],
+ "checks": [
+  "git diff HEAD~1 -- cic-website/data/world-census.json: only the two lines above changed. The commit also changes cft-website/index.html (the same two lines) and adds the round 1 review file. Nothing else.",
+  "cft-website/index.html carries both new strings. The old strings ('Continued after 1054', 'So does the claim') are gone.",
+  "cft-website/tree/bogomils.html does not render legacy or relationsSummary (build_tree_site.mjs never reads either field), so it has no change to carry. It holds neither the old text nor the new.",
+  "validate-census --base release20: 301 movements, 579 edges, 10 eras, 0 errors, 2 warnings (both old shortName warnings).",
+  "build_tree_site: 0 mismatched. The working tree is clean after the build.",
+  "check_live_commentary --base origin/main --enforce: exit 0."
+ ]
+}

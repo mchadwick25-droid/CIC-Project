@@ -1,0 +1,276 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "lpc.witness.confessor-claim-vs-regulated-peace"
+   ],
+   "sentence": "What we hold is how we answered those who asked to be received back: a name set down, then examined before the whole congregation."
+  },
+  {
+   "record_ids": [
+    "lpc.term.confessor"
+   ],
+   "sentence": "The confessors, who had been questioned for the Name, did not deny it and lived, could rival a bishop in standing."
+  },
+  {
+   "record_ids": [
+    "lpc.witness.confessor-claim-vs-regulated-peace"
+   ],
+   "sentence": "Their suffering gave them a claim to ask peace for some who had failed, and we took that claim in earnest."
+  },
+  {
+   "record_ids": [
+    "lpc.quote.such-a-one-with-his-friends"
+   ],
+   "sentence": "Cyprian objected to a certificate that named one person and his friends: “For I hear that some certificates are given in a way that says, ‘Let so-and-so be received into communion along with his own people.’ The martyrs never did this in any case. Such a vague and blind request will soon heap blame on us. For it opens a wide door to say, ‘So-and-so with his own people.’ Then twenty or thirty or more may be brought to us. They may be said to be the relatives, in-laws, freedmen and household of the man who received the certificate. For this reason I beg you to name in the certificate those whom you yourselves see and have known. Name those whose repentance you see is very near to full satisfaction. Then send us letters that agree with faith and discipline.”"
+  },
+  {
+   "record_ids": [
+    "lpc.story.celerinus-writes-to-lucian"
+   ],
+   "sentence": "Our records tell of Celerinus, a confessor who asked another confessor, Lucian, to seek peace for his sister, Numeria and Candida:"
+  },
+  {
+   "record_ids": [
+    "lpc.story.celerinus-writes-to-lucian"
+   ],
+   "sentence": "Celerinus, who had confessed Christ, wrote to Lucian, another confessor, who was in prison."
+  },
+  {
+   "record_ids": [
+    "lpc.story.celerinus-writes-to-lucian"
+   ],
+   "sentence": "His sister had fallen away from Christ, and it seemed plain that she had sacrificed."
+  },
+  {
+   "record_ids": [
+    "lpc.story.celerinus-writes-to-lucian"
+   ],
+   "sentence": "He asked Lucian to grieve with him, for to him she was dead in spirit."
+  },
+  {
+   "record_ids": [
+    "lpc.story.celerinus-writes-to-lucian"
+   ],
+   "sentence": "He also asked the martyrs to win pardon for two women, Numeria and Candida, who had repented."
+  },
+  {
+   "record_ids": [
+    "lpc.story.celerinus-writes-to-lucian"
+   ],
+   "sentence": "Lucian granted that pardon, called peace, in the name of the martyr Paulus and the other martyrs."
+  },
+  {
+   "record_ids": [
+    "lpc.story.celerinus-writes-to-lucian"
+   ],
+   "sentence": "Each case was to be set before the bishop and confession made, and then the women would have peace."
+  },
+  {
+   "record_ids": [
+    "lpc.story.celerinus-writes-to-lucian"
+   ],
+   "sentence": "None of the three women speaks for herself anywhere in our record."
+  },
+  {
+   "record_ids": [
+    "lpc.witness.confessor-claim-vs-regulated-peace"
+   ],
+   "sentence": "We have never found the place where the confessors' claim and the church's process become one settled rule."
+  }
+ ],
+ "citations": [
+  "lpc.quote.such-a-one-with-his-friends",
+  "lpc.story.celerinus-writes-to-lucian",
+  "lpc.term.confessor",
+  "lpc.witness.confessor-claim-vs-regulated-peace"
+ ],
+ "group": "G",
+ "id": "q085",
+ "net_sentences": [
+  {
+   "draft": "What we hold is how we answered those who asked to be received back: a name set down, then examined before the whole congregation [[lpc.witness.confessor-claim-vs-regulated-peace]] [[as:paraphrase]].",
+   "sentence": "What we hold is how we answered those who asked to be received back: a name set down, then examined before the whole congregation.",
+   "tags": [
+    "lpc.witness.confessor-claim-vs-regulated-peace"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "The confessors, who had been questioned for the Name, did not deny it and lived, could rival a bishop in standing [[lpc.term.confessor]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "The confessors, who had been questioned for the Name, did not deny it and lived, could rival a bishop in standing.",
+   "tags": [
+    "lpc.term.confessor"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "Their suffering gave them a claim to ask peace for some who had failed, and we took that claim in earnest [[lpc.witness.confessor-claim-vs-regulated-peace]] [[as:paraphrase]].",
+   "sentence": "Their suffering gave them a claim to ask peace for some who had failed, and we took that claim in earnest.",
+   "tags": [
+    "lpc.witness.confessor-claim-vs-regulated-peace"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Cyprian objected to a certificate that named one person and his friends: [[quote:lpc.quote.such-a-one-with-his-friends]]",
+   "placed_quote": "lpc.quote.such-a-one-with-his-friends",
+   "sentence": "Cyprian objected to a certificate that named one person and his friends: “For I hear that some certificates are given in a way that says, ‘Let so-and-so be received into communion along with his own people.’ The martyrs never did this in any case. Such a vague and blind request will soon heap blame on us. For it opens a wide door to say, ‘So-and-so with his own people.’ Then twenty or thirty or more may be brought to us. They may be said to be the relatives, in-laws, freedmen and household of the man who received the certificate. For this reason I beg you to name in the certificate those whom you yourselves see and have known. Name those whose repentance you see is very near to full satisfaction. Then send us letters that agree with faith and discipline.”",
+   "tags": [
+    "lpc.quote.such-a-one-with-his-friends"
+   ],
+   "verdict": "ok",
+   "why": "quote placed by code, verbatim to its record"
+  },
+  {
+   "draft": "[[as:paraphrase]].",
+   "sentence": ".",
+   "tags": [],
+   "verdict": "ok",
+   "why": "no checkable claim - interpretive/connective framing"
+  },
+  {
+   "draft": "Our records tell of Celerinus, a confessor who asked another confessor, Lucian, to seek peace for his sister, Numeria and Candida: [[story:lpc.story.celerinus-writes-to-lucian:medium]]",
+   "ratio": 0.83,
+   "sentence": "Our records tell of Celerinus, a confessor who asked another confessor, Lucian, to seek peace for his sister, Numeria and Candida:",
+   "tags": [
+    "lpc.story.celerinus-writes-to-lucian"
+   ],
+   "verdict": "ok",
+   "why": "grounded 83% in own tagged records"
+  },
+  {
+   "draft": "Celerinus, who had confessed Christ, wrote to Lucian, another confessor, who was in prison [[lpc.story.celerinus-writes-to-lucian]].",
+   "placed_story": "lpc.story.celerinus-writes-to-lucian",
+   "sentence": "Celerinus, who had confessed Christ, wrote to Lucian, another confessor, who was in prison.",
+   "tags": [
+    "lpc.story.celerinus-writes-to-lucian"
+   ],
+   "verdict": "ok",
+   "why": "story placed by code, verbatim to its record"
+  },
+  {
+   "draft": "His sister had fallen away from Christ, and it seemed plain that she had sacrificed [[lpc.story.celerinus-writes-to-lucian]].",
+   "placed_story": "lpc.story.celerinus-writes-to-lucian",
+   "sentence": "His sister had fallen away from Christ, and it seemed plain that she had sacrificed.",
+   "tags": [
+    "lpc.story.celerinus-writes-to-lucian"
+   ],
+   "verdict": "ok",
+   "why": "story placed by code, verbatim to its record"
+  },
+  {
+   "draft": "He asked Lucian to grieve with him, for to him she was dead in spirit [[lpc.story.celerinus-writes-to-lucian]].",
+   "placed_story": "lpc.story.celerinus-writes-to-lucian",
+   "sentence": "He asked Lucian to grieve with him, for to him she was dead in spirit.",
+   "tags": [
+    "lpc.story.celerinus-writes-to-lucian"
+   ],
+   "verdict": "ok",
+   "why": "story placed by code, verbatim to its record"
+  },
+  {
+   "draft": "He also asked the martyrs to win pardon for two women, Numeria and Candida, who had repented [[lpc.story.celerinus-writes-to-lucian]].",
+   "placed_story": "lpc.story.celerinus-writes-to-lucian",
+   "sentence": "He also asked the martyrs to win pardon for two women, Numeria and Candida, who had repented.",
+   "tags": [
+    "lpc.story.celerinus-writes-to-lucian"
+   ],
+   "verdict": "ok",
+   "why": "story placed by code, verbatim to its record"
+  },
+  {
+   "draft": "Lucian granted that pardon, called peace, in the name of the martyr Paulus and the other martyrs [[lpc.story.celerinus-writes-to-lucian]].",
+   "placed_story": "lpc.story.celerinus-writes-to-lucian",
+   "sentence": "Lucian granted that pardon, called peace, in the name of the martyr Paulus and the other martyrs.",
+   "tags": [
+    "lpc.story.celerinus-writes-to-lucian"
+   ],
+   "verdict": "ok",
+   "why": "story placed by code, verbatim to its record"
+  },
+  {
+   "draft": "Each case was to be set before the bishop and confession made, and then the women would have peace [[lpc.story.celerinus-writes-to-lucian]].",
+   "placed_story": "lpc.story.celerinus-writes-to-lucian",
+   "sentence": "Each case was to be set before the bishop and confession made, and then the women would have peace.",
+   "tags": [
+    "lpc.story.celerinus-writes-to-lucian"
+   ],
+   "verdict": "ok",
+   "why": "story placed by code, verbatim to its record"
+  },
+  {
+   "draft": "[[as:paraphrase]].",
+   "sentence": ".",
+   "tags": [],
+   "verdict": "ok",
+   "why": "no checkable claim - interpretive/connective framing"
+  },
+  {
+   "draft": "None of the three women speaks for herself anywhere in our record [[lpc.story.celerinus-writes-to-lucian]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "None of the three women speaks for herself anywhere in our record.",
+   "tags": [
+    "lpc.story.celerinus-writes-to-lucian"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "We have never found the place where the confessors' claim and the church's process become one settled rule [[lpc.witness.confessor-claim-vs-regulated-peace]] [[as:paraphrase]].",
+   "sentence": "We have never found the place where the confessors' claim and the church's process become one settled rule.",
+   "tags": [
+    "lpc.witness.confessor-claim-vs-regulated-peace"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  }
+ ],
+ "offered": [
+  "lpc.witness.confessor-claim-vs-regulated-peace",
+  "lpc.term.confessor",
+  "lpc.story.celerinus-writes-to-lucian",
+  "lpc.quote.pardon-through-a-wicked-clergyman",
+  "lpc.quote.such-a-one-with-his-friends",
+  "lpc.force.confessors-claim-to-grant-peace",
+  "lpc.witness.answerability-as-ground",
+  "lpc.story.election-of-cyprian",
+  "lpc.story.the-psalms-on-the-wall",
+  "lpc.quote.all-sins-against-us-are-to-be-forgiven",
+  "lpc.quote.dash-the-little-ones-against-the-rock",
+  "lpc.force.inherited-latin-theological-vocabulary",
+  "lpc.passage.d4661a219238"
+ ],
+ "raw_text": "What we hold is how we answered those who asked to be received back: a name set down, then examined before the whole congregation [[lpc.witness.confessor-claim-vs-regulated-peace]] [[as:paraphrase]]. The confessors, who had been questioned for the Name, did not deny it and lived, could rival a bishop in standing [[lpc.term.confessor]] [[as:paraphrase]]. Their suffering gave them a claim to ask peace for some who had failed, and we took that claim in earnest [[lpc.witness.confessor-claim-vs-regulated-peace]] [[as:paraphrase]]. Cyprian objected to a certificate that named one person and his friends: [[quote:lpc.quote.such-a-one-with-his-friends]] [[as:paraphrase]]. Our records tell of Celerinus, a confessor who asked another confessor, Lucian, to seek peace for his sister, Numeria and Candida: [[story:lpc.story.celerinus-writes-to-lucian:medium]] [[as:paraphrase]]. None of the three women speaks for herself anywhere in our record [[lpc.story.celerinus-writes-to-lucian]] [[as:paraphrase]]. We have never found the place where the confessors' claim and the church's process become one settled rule [[lpc.witness.confessor-claim-vs-regulated-peace]] [[as:paraphrase]].\n",
+ "reply_shape": {
+  "leadin_support": {
+   "lpc.quote.such-a-one-with-his-friends": [
+    {
+     "detail": "friend",
+     "kind": "role",
+     "snippet": "id, “Let such a one be received to communion along with his friends,” which was never in any case done by the martyrs so that a",
+     "span": "record lpc.quote.such-a-one-with-his-friends"
+    }
+   ]
+  },
+  "placed": [
+   "lpc.story.celerinus-writes-to-lucian",
+   "lpc.quote.such-a-one-with-his-friends"
+  ],
+  "removed": [],
+  "repaired": [],
+  "story_lengths": {
+   "lpc.story.celerinus-writes-to-lucian": "short"
+  }
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": "C5.S8",
+ "text": "What we hold is how we answered those who asked to be received back: a name set down, then examined before the whole congregation. The confessors, who had been questioned for the Name, did not deny it and lived, could rival a bishop in standing. Their suffering gave them a claim to ask peace for some who had failed, and we took that claim in earnest. Cyprian objected to a certificate that named one person and his friends: “For I hear that some certificates are given in a way that says, ‘Let so-and-so be received into communion along with his own people.’ The martyrs never did this in any case. Such a vague and blind request will soon heap blame on us. For it opens a wide door to say, ‘So-and-so with his own people.’ Then twenty or thirty or more may be brought to us. They may be said to be the relatives, in-laws, freedmen and household of the man who received the certificate. For this reason I beg you to name in the certificate those whom you yourselves see and have known. Name those whose repentance you see is very near to full satisfaction. Then send us letters that agree with faith and discipline.”. Our records tell of Celerinus, a confessor who asked another confessor, Lucian, to seek peace for his sister, Numeria and Candida:\n\nCelerinus, who had confessed Christ, wrote to Lucian, another confessor, who was in prison. His sister had fallen away from Christ, and it seemed plain that she had sacrificed. He asked Lucian to grieve with him, for to him she was dead in spirit.\n\nHe also asked the martyrs to win pardon for two women, Numeria and Candida, who had repented.\n\nLucian granted that pardon, called peace, in the name of the martyr Paulus and the other martyrs. Each case was to be set before the bishop and confession made, and then the women would have peace.. None of the three women speaks for herself anywhere in our record. We have never found the place where the confessors' claim and the church's process become one settled rule.",
+ "voice_set_aside": false
+}

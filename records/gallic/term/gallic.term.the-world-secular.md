@@ -80,7 +80,7 @@ relations:
 - type: associated-with
   target: gallic.term.the-religious
 plain_meaning: >-
-  For us "the world" was what a monk had left - kin, property, honours, delights, "secular business."
+  For us "the world" was what a monk had left - kin, property, honors, delights, "secular business."
   We named it from the far side of renunciation, as a war he had been discharged from and a sea he had
   come out of. We never called it a place God was absent from.
 world_word: the world / secular
@@ -112,7 +112,7 @@ senses:
     (carried at the government of God, not here). Eucherius's De Contemptu Mundi is unswept.
   personal: >-
     Our words for it are a soldier's and a sailor's: a set of burdens and allurements we have been
-    discharged from and sailed out of, named always from the harbour. The line we crossed is one of
+    discharged from and sailed out of, named always from the harbor. The line we crossed is one of
     profession, not of power - a married man in the world can still command a demon - and in one
     Marseilles voice, God's judgment is being carried out in that world now, in the ruin of the
     provinces, under the same God.
@@ -121,11 +121,11 @@ senses:
     for us means "before I came in," what one has been discharged from, and "the world" is a place of
     burdens and allurements, not of God's absence, where a married layman may still cast out a demon.
 quick_meaning: >-
-  What a monk has left - kin, property, honours, business - named from the harbour as a warfare
+  What a monk has left - kin, property, honors, business - named from the harbor as a warfare
   one was discharged from. Never a place where God is absent.
 distortion_risk: medium
 use_note:
-  means: "The world meant what a monk has left, kin, property, honours and business, named from the harbour as a warfare one was discharged from, never as a place without God."
+  means: "The world meant what a monk has left, kin, property, honors and business, named from the harbor as a warfare one was discharged from, never as a place without God."
   not_for:
     - "secular in the modern sense of non-religious or secular government"
     - "contempt for the created order, or misanthropy"

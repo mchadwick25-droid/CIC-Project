@@ -8,6 +8,8 @@ assignments:
   - the-society-of-jesus
   role: tradition
   confidence: assigned
+  language: spa-lat-por-ita
+  date: {formation_confidence: unknown, checked: "title page (file lines 135-168 'TOMUS PRIMUS', Madrid 1904 imprint) and the prolegomena; a mixed volume, no single span of years is stated"}
   note: 'The earliest text of Ignatius''s Autobiography as Goncalves da Camara wrote it down from Ignatius''s
     own telling, in the Spanish and Italian of the manuscript, in a critical edition. It is the original
     for the vendored O''Conor English translation. The volume also holds Goncalves da Camara''s Memoriale,

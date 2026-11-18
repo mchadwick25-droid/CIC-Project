@@ -32,7 +32,7 @@ relations:
 - type: precondition-for
   target: witt.gravity.terrified-and-comforted-conscience
 name: A friar-professor's conviction that the church's practice rested on an authority Scripture does
-  not support [1B - initiating/internal]
+  not support
 kind: initiating
 matrix_cell: 1B
 description: 'This was a conviction "argued first over the specific, bounded question of indulgence sales, then rapidly

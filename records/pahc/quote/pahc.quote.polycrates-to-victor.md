@@ -15,8 +15,7 @@ confidence:
   divergence_note: null
 sources:
 - source_id: pahc.source.second-third-century-remains
-  locus: 'Polycrates of Ephesus, from his Epistle to Victor and the Roman Church (anf08 line 72521; the
-    passage at 72582), preserved in Eusebius HE V.24'
+  locus: "Polycrates of Ephesus, from his Epistle to Victor and the Roman Church, preserved in Eusebius HE V.24 (cic/texts/anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml, lines 72578-72623; the letter begins at line 72521)"
   license: public-domain
 text: As for us, then, we scrupulously observe the exact day, neither adding nor taking away. For in
   Asia great luminaries have gone to their rest, who shall rise again in the day of the coming of the
@@ -29,13 +28,13 @@ text: As for us, then, we scrupulously observe the exact day, neither adding nor
 modern_rendering: >-
   As for us, we keep the exact day with great care, adding nothing and
   taking nothing away. For in Asia great luminaries have gone to their
-  rest, and they will rise again on the day the Lord comes. And I too,
+  rest, and they will rise again on the day the Lord comes... And I too,
   Polycrates, the least of you all, follow the tradition of my
   relatives, some of whom I have succeeded. Seven of my relatives were
   bishops, and I am the eighth. My relatives always kept the day when
   the people put away the leaven. I myself, brothers, am sixty-five
   years old in the Lord. I have met the brothers in every part of the
-  world, and I have read through all of Holy Scripture. So I am not
+  world, and I have read through all of Holy Scripture. I am not
   frightened by the things people say to terrify us. For those greater
   than I have said: "We ought to obey God rather than men."
 speaker_or_author: Polycrates, bishop of Ephesus, writing to Victor of Rome
@@ -63,23 +62,20 @@ use_note:
   years: {from: 189, to: 199}
   status: reviewed
 ---
-Text is verified verbatim against the vendored file at anf08 line
-72582. DISCLOSED, two elisions, both at clause or sentence boundaries:
-after "coming of the Lord" the file continues "when He cometh with glory
-from heaven and shall raise again all the saints," followed by the roll
-of Asian dead - Philip and his daughters, John, Polycarp, Thraseas,
-Sagaris, Papirius, Melito - and the sentence "These all kept the
+Text is verified verbatim against the vendored file at
+`cic/texts/anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml`,
+lines 72578-72623. One elision, at a clause boundary, is marked with "..."
+in the text: after "coming of the Lord" the file continues "when He cometh
+with glory from heaven and shall raise again all the saints," followed by
+the roll of Asian dead - Philip and his daughters, John, Polycarp,
+Thraseas, Sagaris, Papirius, Melito - and the sentence "These all kept the
 passover on the fourteenth day of the month, in accordance with the
-Gospel"; and the ANF's interleaved Greek glosses and bracketed editorial
-notes are excluded throughout.
-
-Both disclosed elisions are marked in the `text` field itself, so the gap the paragraph above
-discloses is visible there too. The roll-of-the-dead elision is marked with a real "..." - it is
-long, heavily interrupted by the edition's own endnotes, and deliberately elided by this record's
-own reasoning, so an ellipsis is the honest marker, not a restoration. The second, shorter elision
-("and my relatives always observed the day when the people put away the leaven") is fully restored,
-once the edition's own endnote is stripped. The punctuation follows the source exactly: there is no
-dash after "I am the eighth"; the real dash sits at "leaven-I myself".
+Gospel". The ANF's interleaved Greek glosses, bracketed editorial notes and
+endnote markers are left out throughout. The clause "and my relatives
+always observed the day when the people put away the leaven" is given in
+full once its endnote marker is left out. The punctuation follows the
+source: there is no dash after "I am the eighth"; the dash sits at
+"leaven—I myself".
 
 THIS IS A PRIMARY GRAVITY'S HARDEST CASE AND IT WAS MISSING.
 pahc.gravity.translocal-network is about the letters that held scattered
@@ -93,6 +89,6 @@ dead, and a count of his own family's bishops, and a refusal.
 The modern rendering is a modern-English translation, not a summary; the original wording stays as text, shown at Level 3. It follows the project's approved register: short sentences, everyday words, translation fidelity kept.
 
 "Who am sixty-five years old... and have fallen in with the brethren... and have read through
-all Holy Scripture" is, in the source, the stated grounds for "am not frightened," not a
-separate list of facts. The rendering ties them with "So" before "I am not frightened," rather
-than as four disconnected sentences.
+all Holy Scripture" describes the speaker before "am not frightened." The rendering gives these
+clauses as their own sentences and adds no "so" or "therefore," because the edition states no
+cause.

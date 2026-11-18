@@ -21,7 +21,7 @@ confidence:
     Inferential-Thin, carried as the tradition's own claim, not this record's finding.
 sources:
 - source_id: gallic.source.sulpitius-vita-martini
-  locus: "Life of St. Martin ch. VII (npnf211 div ii.ii.viii, file lines 1007-1025): the catechumen becomes Martin's first witness, and the growth of Martin's reputation"
+  locus: "Life of St. Martin ch. VII (cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml, lines 1007-1025; div ii.ii.viii): the catechumen becomes Martin's first witness, and the growth of Martin's reputation"
   license: public-domain
 retrieval:
   tier: 2

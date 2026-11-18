@@ -1,0 +1,11 @@
+source_file: wolkan_die-hutterer-deu_1918.txt
+assignments:
+- row_id: wolkan_die-hutterer-deu_1918--die-hutterer-wolkan-1918
+  work: 'Rudolf Wolkan, Die Hutterer (Wien, 1918)'
+  author: wolkan
+  locus: 'the whole volume; the appendix of hymns at about OCR line 8848; add 12 to OCR line numbers for this file''s own'
+  atlas_ids:
+  - hutterite-brethren
+  role: context
+  confidence: provisional
+  note: 'An outsider''s history, written in 1918, after this entry''s end in 1785, about the Brethren from their beginnings to their American colonies. Its appendix prints Hutterite hymns of 1800 and 1849 from Russia, which fall after the window. The Fraktur OCR is poor: check the page images before quoting.'

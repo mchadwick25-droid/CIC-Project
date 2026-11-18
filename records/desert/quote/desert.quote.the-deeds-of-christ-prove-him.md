@@ -14,7 +14,7 @@ confidence:
   divergence_note: "Contested for incident-level attribution, the same basis desert.quote.antony-nicene-formula carries for material from this Vita: reported speech inside a bishop-author's own constructed narrative, written for his own purposes. The words themselves are quoted verbatim from the vendored file."
 sources:
 - source_id: desert.source.athanasius-vita-antonii
-  locus: "SS75 - the same disputation, on why the philosophers mock the Cross but pass over the resurrection and the healings"
+  locus: "SS75 - the same disputation, on why the philosophers mock the Cross but pass over the resurrection and the healings (cic/texts/npnf204_athanasius-select-works-letters.xml, lines 33068-33076)"
   license: public-domain
 text: "Or why when you make mention of the Cross are you silent about the dead who were raised, the blind who received their sight, the paralytics who were healed, the lepers who were cleansed, the walking upon the sea, and the rest of the signs and wonders, which shew that Christ is no longer a man but God? ... But read and see that the deeds of Christ prove Him to be God come upon earth for the salvation of men."
 modern_rendering: >-

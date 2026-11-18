@@ -48,7 +48,7 @@ senses:
     valid.
   evidential: Widely Accepted background rather than a checked citation in this build. The construction record
     develops it in a single line and does not quote a passage where either party uses the word of the other.
-  personal: The side the law recognised called us the schism. That was part of the ordinary experience of
+  personal: The side the law recognized called us the schism. That was part of the ordinary experience of
     belonging here, and part of why the counter-naming mattered so much.
   translational: '''The Donatist schism'' is the name the later church settled on, which already awards the argument
     to one party. From inside, the departure ran the other way.'

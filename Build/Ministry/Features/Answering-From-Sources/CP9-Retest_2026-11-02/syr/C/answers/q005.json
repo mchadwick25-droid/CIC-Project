@@ -1,0 +1,206 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "syr.dw.decides"
+   ],
+   "sentence": "No standing court settled disputed belief among us, because the right to decide was still being worked out."
+  },
+  {
+   "record_ids": [
+    "syr.dw.decides"
+   ],
+   "sentence": "Bishops, occasional synods and teachers whose word held each carried weight."
+  },
+  {
+   "record_ids": [
+    "syr.dw.decides"
+   ],
+   "sentence": "In practice, we met disputed belief with teaching, with answers in writing, and with our own boundary."
+  },
+  {
+   "record_ids": [
+    "syr.dw.decides"
+   ],
+   "sentence": "The sage himself drafted a letter in the name of assembled bishops and clergy."
+  },
+  {
+   "record_ids": [
+    "syr.dw.decides"
+   ],
+   "sentence": "The Persian bishops fought over their own chief's claim to first place."
+  },
+  {
+   "record_ids": [
+    "syr.dw.decides"
+   ],
+   "sentence": "The persecution left the chief seat empty for twenty years."
+  },
+  {
+   "record_ids": [
+    "syr.dw.decides"
+   ],
+   "sentence": "Only at the very end of our years did a synod under royal protection give the Persian church a settled order."
+  },
+  {
+   "record_ids": [
+    "syr.dw.remains"
+   ],
+   "sentence": "As for evidence, our letters date themselves to the year."
+  },
+  {
+   "record_ids": [
+    "syr.dw.remains"
+   ],
+   "sentence": "Our hymns were copied by later hands into books that still exist."
+  },
+  {
+   "record_ids": [
+    "syr.dw.remains"
+   ],
+   "sentence": "A short city chronicle was drawn out of real archives."
+  }
+ ],
+ "citations": [
+  "syr.dw.decides",
+  "syr.dw.remains"
+ ],
+ "group": "A",
+ "id": "q005",
+ "net_sentences": [
+  {
+   "draft": "No standing court settled disputed belief among us, because the right to decide was still being worked out [[syr.dw.decides]][[as:paraphrase]].",
+   "sentence": "No standing court settled disputed belief among us, because the right to decide was still being worked out.",
+   "tags": [
+    "syr.dw.decides"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Bishops, occasional synods and teachers whose word held each carried weight [[syr.dw.decides]][[as:paraphrase]].",
+   "sentence": "Bishops, occasional synods and teachers whose word held each carried weight.",
+   "tags": [
+    "syr.dw.decides"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "In practice, we met disputed belief with teaching, with answers in writing, and with our own boundary [[syr.dw.decides]][[as:paraphrase]].",
+   "sentence": "In practice, we met disputed belief with teaching, with answers in writing, and with our own boundary.",
+   "tags": [
+    "syr.dw.decides"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "The sage himself drafted a letter in the name of assembled bishops and clergy [[syr.dw.decides]][[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "The sage himself drafted a letter in the name of assembled bishops and clergy.",
+   "tags": [
+    "syr.dw.decides"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "The Persian bishops fought over their own chief's claim to first place [[syr.dw.decides]][[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "The Persian bishops fought over their own chief's claim to first place.",
+   "tags": [
+    "syr.dw.decides"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "The persecution left the chief seat empty for twenty years [[syr.dw.decides]][[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "The persecution left the chief seat empty for twenty years.",
+   "tags": [
+    "syr.dw.decides"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "Only at the very end of our years did a synod under royal protection give the Persian church a settled order [[syr.dw.decides]][[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "Only at the very end of our years did a synod under royal protection give the Persian church a settled order.",
+   "tags": [
+    "syr.dw.decides"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "As for evidence, our letters date themselves to the year [[syr.dw.remains]][[as:paraphrase]].",
+   "sentence": "As for evidence, our letters date themselves to the year.",
+   "tags": [
+    "syr.dw.remains"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Our hymns were copied by later hands into books that still exist [[syr.dw.remains]][[as:paraphrase]].",
+   "sentence": "Our hymns were copied by later hands into books that still exist.",
+   "tags": [
+    "syr.dw.remains"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "A short city chronicle was drawn out of real archives [[syr.dw.remains]][[as:paraphrase]].",
+   "sentence": "A short city chronicle was drawn out of real archives.",
+   "tags": [
+    "syr.dw.remains"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  }
+ ],
+ "offered": [
+  "syr.dw.decides",
+  "syr.term.madrasha",
+  "syr.term.ewangeliyon-da-mhallete",
+  "syr.story.jacob-nicaea",
+  "syr.quote.permitted-to-erect-churches",
+  "syr.gravity.persecution-endurance",
+  "syr.contested.bardaisan-nicene-floor",
+  "syr.dw.gospel-harmony",
+  "syr.quote.ephrem-resurrection-pledge",
+  "syr.dw.reading",
+  "syr.story.edessa-flood-201",
+  "syr.quote.on-a-certain-day-a-pearl",
+  "syr.dw.remains",
+  "syr.quote.the-scribes-and-the-prefects-over-the-archives",
+  "syr.quote.the-temple-of-the-church-of-the-christians"
+ ],
+ "raw_text": "No standing court settled disputed belief among us, because the right to decide was still being worked out [[syr.dw.decides]][[as:paraphrase]]. Bishops, occasional synods and teachers whose word held each carried weight [[syr.dw.decides]][[as:paraphrase]]. In practice, we met disputed belief with teaching, with answers in writing, and with our own boundary [[syr.dw.decides]][[as:paraphrase]]. Nisibis remembered its line of bishops with love, and our tradition remembers that one of them sat at the great council of Nicaea [[syr.dw.decides]][[syr.story.jacob-nicaea]][[as:paraphrase]]. The sage himself drafted a letter in the name of assembled bishops and clergy [[syr.dw.decides]][[as:paraphrase]]. The Persian bishops fought over their own chief's claim to first place [[syr.dw.decides]][[as:paraphrase]]. The persecution left the chief seat empty for twenty years [[syr.dw.decides]][[as:paraphrase]]. Only at the very end of our years did a synod under royal protection give the Persian church a settled order [[syr.dw.decides]][[as:paraphrase]]. As for evidence, our letters date themselves to the year [[syr.dw.remains]][[as:paraphrase]]. Our hymns were copied by later hands into books that still exist [[syr.dw.remains]][[as:paraphrase]]. A short city chronicle was drawn out of real archives [[syr.dw.remains]][[as:paraphrase]]. Our record here is teaching texts and a later chronicle, so we cannot give you a detailed account of how any one decision was made [[syr.dw.decides]][[as:paraphrase]].\n",
+ "reply_shape": {
+  "placed": [],
+  "removed": [
+   {
+    "draft": "Nisibis remembered its line of bishops with love, and our tradition remembers that one of them sat at the great council of Nicaea [[syr.dw.decides]][[syr.story.jacob-nicaea]][[as:paraphrase]].",
+    "sentence": "Nisibis remembered its line of bishops with love, and our tradition remembers that one of them sat at the great council of Nicaea.",
+    "why": "tells an offered story without placing it"
+   },
+   {
+    "draft": "Our record here is teaching texts and a later chronicle, so we cannot give you a detailed account of how any one decision was made [[syr.dw.decides]][[as:paraphrase]].",
+    "sentence": "Our record here is teaching texts and a later chronicle, so we cannot give you a detailed account of how any one decision was made.",
+    "why": "states an absence that no record it cites states"
+   }
+  ],
+  "repaired": []
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": "C6.S3",
+ "text": "No standing court settled disputed belief among us, because the right to decide was still being worked out. Bishops, occasional synods and teachers whose word held each carried weight. In practice, we met disputed belief with teaching, with answers in writing, and with our own boundary. The sage himself drafted a letter in the name of assembled bishops and clergy. The Persian bishops fought over their own chief's claim to first place. The persecution left the chief seat empty for twenty years. Only at the very end of our years did a synod under royal protection give the Persian church a settled order. As for evidence, our letters date themselves to the year. Our hymns were copied by later hands into books that still exist. A short city chronicle was drawn out of real archives.",
+ "voice_set_aside": false
+}

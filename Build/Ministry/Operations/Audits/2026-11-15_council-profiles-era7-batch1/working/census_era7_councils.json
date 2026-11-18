@@ -1,0 +1,527 @@
+[
+ {
+  "id": "antiochene-exegetical-christianity-chrysostom-ce",
+  "era": 2,
+  "hits": [
+   [
+    "legacy",
+    "\"Chrysostom's sermons never stopped being read. Reformation writers quoted him too. Calvin prized his saying that humility is 'the foundation of our philosophy'. But he thought Chrysostom gave the human will too much power. The Augsburg Confession of 1530 cited him on how the early church shared Communion. And the Communion liturgy that carries his name is still the normal Sunday rite of the Eastern Orthodox churches. The Antiochene way of reading held that a text means what it meant to those who first heard it. Later Western Bible scholars made a similar historical-grammatical method standard. How much they owed to Antioch directly is not clear. The school's own fate was harsher. Theodore of Mopsuestia was condemned at Constantinople in 553, more than a century after his death. Much of his work survives only in Syriac translation, kept safe by the Church of the East.\""
+   ]
+  ]
+ },
+ {
+  "id": "armenian-christianity-after-avarayr",
+  "era": 3,
+  "hits": [
+   [
+    "documentedStories",
+    "[{\"title\": \"The Priests Who Were Marched East\", \"when\": \"454\", \"tier\": \"2\", \"verification\": \"from reference summaries; primary text not yet read\", \"teaser\": \"After the battle, the Persian king has the Armenian clergy who blessed the rebellion taken to the far side of his empire and killed where no one will find the bodies.\", \"text\": \"The Armenian nobles lost at Avarayr in 451, but the Persian king Yazdgerd II did not get what he wanted, which was an Armenia that worshipped fire. In the years after the battle he had the surviving leaders — the nobles who had fought and the clergy who had preached the war as a covenant — brought to his court and then sent on, in chains, into the eastern provinces of the empire, toward Nishapur and beyond. Elishe, who says he was a witness to the war, devotes the last part of his History to what happened to the priests. Ghevond, the presbyter who had spoken for the church before the battle, the bishop Sahak of Rshtunik, the presbyters Mushe, Arshen, Samuel, Abraham and the rest were held for years, interrogated by the Magi, offered honors for apostasy, and finally, in the summer of 454, taken out to a remote place and executed at night. Elishe gives them long speeches; he also gives the detail that the king’s men chose the site so that the Armenians would never find the graves, and that a Persian officer, moved by what he saw, later told the Armenian hostages where it was. What the two accounts share is the claim that the Armenian church’s identity was made in a Persian prison as much as on a battlefield — by clergy who would not trade the faith for their lives, and by a people that decided to remember them rather than the defeat.\", \"caveat\": \"Elishe’s History is a literary and theological work of the later fifth century (its date is disputed) and its speeches are composed; Lazar corroborates the executions. The site and the sympathetic Persian officer are as the tradition told them.\", \"sources\": [{\"work\": \"Elishe, History of Vardan and the Armenian War, ch. 7–8\", \"type\": \"primary\", \"note\": \"The captivity and execution of the clergy; Thomson’s translation.\"}, {\"work\": \"Lazar P‘arpec‘i, History of the Armenians, §§56–58\", \"type\": \"primary\", \"note\": \"The parallel account (Bedrosian’s translation at Attalus).\"}, {\"work\": \"Robert W. Thomson, introduction to Elishe (Harvard, 1982)\", \"type\": \"reference\", \"note\": \"On the date, purpose and reliability of Elishe.\"}]}, {\"title\": \"Vasak Siwni, the Man the Tradition Needed to Blame\", \"when\": \"451–452\", \"tier\": \"2\", \"verification\": \"from reference summaries; primary text not yet read\", \"teaser\": \"The governor of Armenia who sided with Persia is remembered by his own nation as its Judas. The record shows a politician who lost.\", \"text\": \"Vasak, prince of Siwnik, was marzpan — the Persian-appointed governor — of Armenia when the nobles rose against the order to convert to Zoroastrianism. He had at first joined the resistance; when it became clear that Byzantium would send no help and that the revolt could not win, he went over to the Persian side, took hostages from the rebel families, and worked to bring the country back under the king’s authority without a general massacre. At Avarayr he was on the Persian side of the field. Elishe, writing the church’s account of the war, made him the villain of the whole story: an apostate who ‘loved the world more than God’, whose treachery caused the defeat, and whose punishment followed — summoned to the Persian court, accused by the very nobles he had betrayed, stripped of his honors before the king, and left to die in prison, his body eaten, Elishe says, by worms while he still lived. Lazar’s version is drier and lets the political calculation show. Modern historians have noted that Vasak’s policy of accommodation was the one Armenia actually adopted after 484, when Vahan Mamikonian negotiated the right to remain Christian under Persian rule, and that Vasak’s crime in the tradition’s eyes was less what he did than that he did it too soon and without a martyr’s death to redeem it. The Armenian church has kept him as its type of the traitor for fifteen centuries.\", \"caveat\": \"Both historians are partisans of the Mamikonian side and write Vasak as a moral lesson; his own account does not survive, and the manner of his death is Elishe’s narrative rather than a record. That he was marzpan, changed sides, and was later disgraced at court is accepted.\", \"sources\": [{\"work\": \"Elishe, History of Vardan and the Armenian War, ch. 3–6\", \"type\": \"primary\", \"note\": \"Vasak’s defection, the battle, his trial and death.\"}, {\"work\": \"Lazar P‘arpec‘i, History of the Armenians, §§26–45\", \"type\": \"primary\", \"note\": \"The more political account.\"}, {\"work\": \"Nina Garsoïan, ‘The Marzpanate (428–652)’, in The Armenian People from Ancient to Modern Times, vol. 1 (St Martin’s, 1997)\", \"type\": \"reference\", \"note\": \"On Vasak’s policy and the settlement of 484.\"}]}]"
+   ]
+  ]
+ },
+ {
+  "id": "cistercian-monasticism",
+  "era": 5,
+  "hits": [
+   [
+    "documentedStories",
+    "[{\"title\": \"Bernard Rides to the Rhineland to Stop Radulf\", \"when\": \"1146\", \"tier\": \"1\", \"verification\": \"from reference summaries; primary text not yet read\", \"teaser\": \"A Cistercian monk preaching the Second Crusade tells the crowds of Mainz and Cologne to begin with the Jews. The abbot of Clairvaux writes to forbid it, then comes in person.\", \"text\": \"Radulf was a monk of Bernard’s own order who left his monastery without leave in 1146 and began preaching the crusade along the Rhine, and, according to both Christian and Jewish witnesses, telling the crowds that the enemies of Christ were nearer than Jerusalem. Attacks on Jews followed at Cologne, Mainz, Worms and Speyer. Bernard wrote at once to the archbishop of Mainz and to the people of the Rhineland. The letter that survives is unambiguous: the Jews are not to be persecuted, killed or driven out; they are ‘living words’ of Scripture, witnesses to the passion, and God has scattered rather than destroyed them; whoever touches them, he says, is as one who touches the apple of the Lord’s eye. He then traveled to Mainz himself, confronted Radulf, and ordered him back to his cloister; Radulf went. The Jewish chronicler Ephraim of Bonn, writing within a generation, recorded it from the other side: Bernard, ‘a decent priest’, had said that whoever harmed a Jew laid hands on Jesus himself, and the killing largely stopped. Ephraim also recorded that the same Bernard preached the crusade that had made the killing likely, and Bernard’s letter itself contains the standard theology of Jewish subjection that made Radulf’s hearers ready to listen. The tradition that produced the most listened-to preacher of holy war in Europe also produced, in the same man and the same year, the intervention that saved the Jews of the Rhineland from a repeat of 1096.\", \"caveat\": \"Bernard’s letter and Ephraim of Bonn are independent contemporary witnesses who agree; Otto of Freising confirms the confrontation at Mainz. Bernard’s own theology of the Jews is protective and contemptuous at once, and the page says so.\", \"sources\": [{\"work\": \"Narrative and Legislative Texts from Early Citeaux (ed./trans. Chrysogonus Waddell, Studia et Documenta 9, 1999)\", \"type\": \"primary\", \"note\": \"Latin/English facing texts of Exordium Parvum, Exordium Cistercii, Carta Caritatis. The authenticity and dating of the founding narratives is contested — see Constance Berman's work below.\"}, {\"work\": \"Pauline Matarasso (trans.), The Cistercian World: Monastic Writings of the Twelfth Century (Penguin Classics, 1993)\", \"type\": \"primary\", \"note\": \"Bernard's letters, Song of Songs sermons, the Apologia, William of St Thierry, Vita Prima selections, exemplary stories - Bernard's voice plus communal texture in one in-print volume.\"}, {\"work\": \"Aelred of Rievaulx, Spiritual Friendship (trans. Braceland, Cistercian Fathers 5); with Walter Daniel, Life of Aelred\", \"type\": \"primary\", \"note\": \"The Life gives an abbot seen up close by his own monk.\"}, {\"work\": \"Chrysogonus Waddell (ed.), Cistercian Lay Brothers: Twelfth-Century Usages, with Related Texts (Studia et Documenta 10, 2000)\", \"type\": \"primary\", \"note\": \"The conversi's regulated world — the order's ordinary, manual-labor half, made concrete.\"}, {\"work\": \"Janet Burton & Julie Kerr, The Cistercians in the Middle Ages (Boydell, 2011)\", \"type\": \"secondary\", \"note\": \"Current standard survey. Read with Constance Berman, The Cistercian Evolution (2000), which argues the founding documents are later constructions.\"}, {\"work\": \"Cambridge History of Christianity vol. 4, ch. 4 'Monastic and religious orders, c.1100-c.1350' (B. P. McGuire)\", \"type\": \"reference\"}]}, {\"title\": \"The Lay Brothers of Schönau Refuse to Work\", \"when\": \"1168 and after\", \"tier\": \"1\", \"verification\": \"from reference summaries; primary text not yet read\", \"teaser\": \"The men who plowed the granges and never sang in choir enter the order’s records almost only when they rebel — and the general chapter’s statutes record the rebellions.\", \"text\": \"The Cistercian conversi took vows of obedience and celibacy, wore beards, lived in a separate range of the monastery, and did most of the farm labor that made the order rich; they could not become choir monks, could not learn to read, and had no voice in the chapter. The statutes of the annual general chapter, the order’s legislative record, mention them mostly when something went wrong. The earliest recorded revolt is at Schönau in the Rhineland in 1168, where the lay brothers rose against the abbot; the chapter ordered the ringleaders expelled and the rest put on bread and water. Over the following century the statutes record risings at more than twenty houses: at Eberbach in 1261 the conversi drove the abbot out; at Margam in Wales in 1206 they pursued the abbot on horseback and barricaded themselves in the dormitory; at Coggeshall they refused the bread ration; at several houses the grievance was beer — the chapter had ordered the lay brothers’ ale weakened. The penalties are recorded too: expulsion, imprisonment in the monastery’s cell, transfer to a distant house, loss of the daily wine. What the conversi thought is not recorded, because no one asked them; what they wanted can be read from the complaints. Both are Cistercian documents, and the tradition that preserved Bernard’s sermons on the Song of Songs also preserved the minutes of the men who kept the granges and rioted over the beer.\", \"caveat\": \"The statutes are the order’s own legislative record and give only the authorities’ view; the scale of each revolt is unknown. The Usus conversorum is the normative counterpart. Modern historians differ on whether the risings reflect class grievance or local mismanagement.\", \"sources\": [{\"work\": \"Statuta Capitulorum Generalium Ordinis Cisterciensis, ed. J.-M. Canivez (1933–41), s.a. 1168, 1206, 1261 and passim\", \"type\": \"primary\", \"note\": \"The general chapter’s record of lay-brother revolts; Latin only.\"}, {\"work\": \"Usus conversorum (Usages of the Lay Brothers), in Chrysogonus Waddell, Cistercian Lay Brothers: Twelfth-Century Usages (Cîteaux, 2000)\", \"type\": \"primary\", \"note\": \"The normative text with English translation.\"}, {\"work\": \"James S. Donnelly, The Decline of the Medieval Cistercian Laybrotherhood (Fordham, 1949)\", \"type\": \"reference\", \"note\": \"The classic catalog of the revolts.\"}, {\"work\": \"Brian Noell, ‘Expectation and Unrest among Cistercian Lay Brothers in the Twelfth and Thirteenth Centuries’, Journal of Medieval History 32 (2006)\", \"type\": \"reference\", \"note\": \"The current reassessment.\"}]}]"
+   ]
+  ]
+ },
+ {
+  "id": "the-waldensians",
+  "era": 5,
+  "hits": [
+   [
+    "why",
+    "\"Around 1173 a rich merchant of Lyon named Valdes gave away his property. He had parts of Scripture put into the language people actually spoke, and he began preaching in the streets. His confession of faith was wholly orthodox. He was condemned in 1184 only for preaching without a license. Driven from the cities, the movement held on in the Alpine valleys between France and Italy. It lived through three and a half centuries of persecution there, with its own traveling ministers and its own books. In 1532 its leaders met the Reformers at Chanforan and joined the Reformed churches. That carried a line of protest from twelfth-century Lyon into the Reformation. Scholars disagree, though, about how unbroken that line was.\""
+   ],
+   [
+    "longDescription",
+    "\"Around 1173 a rich merchant of Lyon named Valdes gave away his property. He had parts of Scripture put into the language people actually spoke, and he began preaching in the streets. His confession of faith was wholly orthodox. What he would not do was stop preaching without a license, and in 1184 the bull Ad abolendam condemned him and his followers for exactly that. Driven out of the cities, the movement held on in the Alpine valleys between France and Italy. It lasted through three and a half centuries of on-and-off persecution, with its own traveling ministers and its own books. In 1532 its leaders met the Reformers at Chanforan and threw in with the Reformed churches. So a single line of protest runs from twelfth-century Lyon into the Reformation, though scholars disagree about how unbroken it was.\""
+   ],
+   [
+    "legacy",
+    "\"The Waldensian church is still here. It joined the Reformed churches at Chanforan in 1532, and it lives on as the Waldensian Evangelical Church, based in the same valleys of Piedmont. It is one of the very few medieval movements condemned by Rome that never died out. It never had to be pieced together from its enemies' files. Its long habit of Scripture in the people's own tongue, and of preaching by lay people, came before the Reformation and then joined it.\""
+   ]
+  ]
+ },
+ {
+  "id": "latin-papal-church-gregorian",
+  "era": 5,
+  "hits": [
+   [
+    "documentedStories",
+    "[{\"title\": \"Gregory VII Explains Canossa to the German Princes\", \"when\": \"January 1077\", \"tier\": \"1\", \"teaser\": \"The pope who has just absolved the emperor after three days in the snow writes to the princes who wanted the emperor deposed, to explain why he could not refuse.\", \"text\": \"Henry IV had been excommunicated and declared deposed by Gregory VII in February 1076 for defying the pope over the appointment of bishops; the German princes had given him a year to be absolved or lose the crown, and had invited Gregory to Augsburg to judge him. Gregory was on his way north when Henry crossed the Alps in midwinter and came to the castle of Canossa, where the pope was staying with the Countess Matilda. Gregory’s own account is a letter to the German princes, written within days and entered in his register. Henry, he says, came ‘with a few followers’ and for three days stood before the gate ‘barefoot and in woollen garments’, weeping and asking for mercy, ‘until all who were present were moved to such pity that they interceded for him with prayers and tears’, and some accused the pope of ‘tyrannical cruelty’. But, he writes, ‘overcome at last by his persistent penitence and the entreaties of all present’, he absolved him and received him to communion — on written conditions, which he encloses, that Henry would submit to the pope’s judgment and not obstruct his journey. Henry went home absolved and the civil war went on; the princes elected a rival king; Gregory excommunicated Henry again in 1080, was driven from Rome, and died in exile at Salerno saying he had loved justice and hated iniquity. The famous scene is real, and the man at its center wrote it up as a defeat.\", \"caveat\": \"Gregory VII’s letter is contemporary and his own; Lampert of Hersfeld’s more dramatic account (the three days, the snow, Henry fasting) is a partisan chronicle. Henry’s own view survives in his later letters denouncing Gregory. The political reading — that Henry outmaneuvered the pope by forcing absolution — is the standard modern one.\", \"sources\": [{\"work\": \"Gregory VII, Register IV.12 (to the German princes, January 1077)\", \"type\": \"primary\", \"note\": \"Henderson’s translation at Fordham; complete Register in H. E. J. Cowdrey (Oxford, 2002).\"}, {\"work\": \"Lampert of Hersfeld, Annals, s.a. 1077\", \"type\": \"primary\", \"note\": \"The chronicle account; English in I. S. Robinson, The Annals of Lampert of Hersfeld (Manchester, 2015).\"}, {\"work\": \"Henry IV, Letter to Gregory VII (‘Hildebrand, not pope but false monk’, 1076)\", \"type\": \"primary\", \"note\": \"The emperor’s side of the quarrel.\"}, {\"work\": \"H. E. J. Cowdrey, Pope Gregory VII, 1073–1085 (Oxford, 1998)\", \"type\": \"reference\", \"note\": \"The standard biography.\"}], \"verification\": \"from reference summaries; primary text not yet read\"}, {\"title\": \"Lateran IV, Canon 68\", \"when\": \"November 1215\", \"tier\": \"1\", \"teaser\": \"The same council that defined transubstantiation and required annual confession also ordered that Jews and Muslims in every Christian land wear clothing that marked them out, so that Christians would not sleep with them by mistake.\", \"text\": \"The Fourth Lateran Council, summoned by Innocent III and attended by more than four hundred bishops and eight hundred abbots, legislated in seventy-one constitutions for the whole Latin church, and the four near the end concern the Jews. The sixty-eighth begins with a reason: in some provinces Jews and Saracens are distinguished from Christians by their dress, but in others there has arisen ‘such confusion that they cannot be distinguished by any difference’, so that Christians have ‘through error’ had relations with Jewish or Saracen women, and Jews and Saracens with Christian women. Therefore, ‘lest they be able to excuse themselves under the pretext of such error’, Jews and Saracens of both sexes in every Christian province are to be distinguished publicly from other people ‘by the character of their dress’ — the council notes that Moses had commanded this too. The same canon forbids Jews to appear in public during Holy Week, ‘since some of them, as we have heard, do not blush to go about in fine clothes on those days and mock the Christians’. The canons that follow bar Jews from public office, order converted Jews prevented from returning to Jewish practice, and regulate Jewish moneylending. Secular rulers applied canon 68 as they chose: the yellow badge in France and Italy, the pointed hat in Germany, the tabula in England. The council is remembered by the church for its sacramental theology; the same session, the same pen, produced the badge.\", \"caveat\": \"The constitutions are authentic and the text of canon 68 is as summarized; the stated motive (sexual confusion) is the council’s own. Enforcement varied widely and was often lax until the later Middle Ages.\", \"sources\": [{\"work\": \"Fourth Lateran Council (1215), Constitutions 67–70\", \"type\": \"primary\", \"note\": \"English translation of the constitutions (Fordham); critical text in Tanner, Decrees of the Ecumenical Councils (Georgetown, 1990).\"}, {\"work\": \"Solomon Grayzel, The Church and the Jews in the XIIIth Century, rev. ed. (Hermon, 1966)\", \"type\": \"reference\", \"note\": \"Texts and commentary on the papal legislation.\"}, {\"work\": \"Robert Chazan, Medieval Stereotypes and Modern Antisemitism (California, 1997)\", \"type\": \"reference\", \"note\": \"On Lateran IV and the badge.\"}], \"verification\": \"from reference summaries; primary text not yet read\"}]"
+   ]
+  ]
+ },
+ {
+  "id": "waldensians-in-the-alps",
+  "era": 6,
+  "hits": [
+   [
+    "relationsSummary",
+    "\"These were scattered communities. The barbes, lay preachers who went on foot, linked them together. They lived through Pope Innocent VIII's call to crusade in 1487, and the Cattaneo crusade that came after it. This thread leads to the Synod of Chanforan in 1532. There the Waldensians formally joined the Reformation.\""
+   ],
+   [
+    "legacy",
+    "\"They are one of the very few medieval dissenting movements still here. In 1532 the Waldensians of the Alps met at Chanforan in the Angrogna valley and joined the Protestant Reformation. The church that came out of it still exists as the Waldensian Evangelical Church. It is based in the same valleys. The valleys keep the memory alive in place names, in caves and hidden meeting places, and in museums the church runs.\""
+   ],
+   [
+    "documentedStories",
+    "[{\"title\": \"The Cave of the Val Louise\", \"when\": \"March 1488\", \"tier\": \"2\", \"verification\": \"from reference summaries; primary text not yet read\", \"teaser\": \"The papal commissioner’s army comes up the Dauphiné valleys under a crusading bull. The Waldensians of one valley climb to a cave high on the mountainside with their families and their goods, and the soldiers light fires at the mouth.\", \"text\": \"Innocent VIII’s bull of April 1487 called the faithful to take up arms against the Waldensians of the Alpine valleys, granting the indulgences of a crusade and the goods of the heretics to those who took them. The archdeacon Alberto Cattaneo was made commissioner, and in the spring of 1488 an army raised in Dauphiné under the royal lieutenant Hugues de la Palud moved up the valleys on the French side while a Savoyard force attacked the Piedmontese valleys of Angrogna and Pragelato from the east. According to the testimony gathered twenty years later, when the survivors’ heirs sued for the restoration of their confiscated property and the king’s commissioners took evidence from the valley, the inhabitants of Val Louise took their families, their animals and their stores up to a large cave on the mountainside — the Balme Chapelue, ‘the bearded cave’, above the hamlet of Aiguefreide — where they had sheltered from raids before. La Palud’s men reached the ledge and piled brushwood at the entrance. The testimony says that those who came out were killed and those who stayed inside suffocated; later accounts give the dead as a few hundred, including women and children. The inquiry of 1501–1509, conducted by the king’s own court at Grenoble, found the whole crusade in Dauphiné to have been irregular and ordered the property restored to the survivors; Cattaneo was censured. The Waldensians of the Piedmontese valleys, who had fought, were still there to meet the Reformers in 1532.\", \"caveat\": \"The Val Louise cave is documented mainly through the rehabilitation inquiry of 1501–1509 and later Waldensian and Protestant historians (Perrin, Léger), who may have inflated the numbers; the crusade, Cattaneo’s commission and the Grenoble judgment are securely documented. The cave itself is identified by local tradition.\", \"sources\": [{\"work\": \"Innocent VIII, Id nostri cordis (27 April 1487), the crusading bull against the Waldensians\", \"type\": \"primary\", \"note\": \"Latin in the Bullarium Romanum; English summary in Audisio.\"}, {\"work\": \"Procès de réhabilitation des Vaudois du Dauphiné (Grenoble, 1501–1509)\", \"type\": \"primary\", \"note\": \"The royal inquiry’s depositions; French in Jean Marx, L’Inquisition en Dauphiné (Paris, 1914), documents; discussed in Audisio and Cameron.\"}, {\"work\": \"Gabriel Audisio, The Waldensian Dissent: Persecution and Survival, c. 1170–c. 1570 (Cambridge, 1999), ch. 5\", \"type\": \"reference\", \"note\": \"On the crusade of 1488 and the Val Louise.\"}, {\"work\": \"Euan Cameron, The Reformation of the Heretics: The Waldenses of the Alps, 1480–1580 (Oxford, 1984), ch. 2\", \"type\": \"reference\", \"note\": \"The detailed modern account of the campaign and the rehabilitation.\"}]}]"
+   ]
+  ]
+ },
+ {
+  "id": "lutheran-wittenberg-and-its-congregations",
+  "era": 7,
+  "hits": [
+   [
+    "entry",
+    "{\"representativeId\": \"nikolaus\", \"representativeName\": \"Nikolaus\", \"worldName\": \"The Catechized Households of Wittenberg\", \"subtitle\": \"Lutheran Wittenberg & Its Congregations\", \"color\": \"#579C40\", \"tile\": \"In 1517, Martin Luther sent theses against the sale of indulgences to his archbishop. He was an Augustinian friar who taught theology at the university of Wittenberg. His theses opened a movement that challenged the old order in two ways. It set Scripture's own authority against an intervening hierarchy. And it held that a person stands before God by a gift received through faith, not earned by works. Princes and city councils carried the reform into their own territories, not bishops. Wittenberg's own theology faculty advised them, not a separate church government. The reform's most complete instrument was the household catechism. It had three parts, recited at rising, at table, and at night. A father or a schoolmaster examined each household every week. The commandments had terrified a conscience; a promise spoken from outside it made that conscience sure. German hymns were sung inside a Mass that was kept, not abolished. The story runs from the Ninety-Five Theses to a confession signed before the emperor at Augsburg in 1530. It closes with a fuller confessional book gathered by 1580. By then the movement's own founder had been dead some three decades.\", \"icon\": \"assets/portraits/nikolaus.jpg\", \"portrait\": \"assets/portraits/nikolaus.jpg\", \"topics\": [{\"word\": \"Baptism\", \"note\": \"Baptism is water joined to God's word, a daily drowning of the old self.\"}, {\"word\": \"Communion\", \"note\": \"Christ's body and blood are truly present in bread and wine, without explaining how.\"}, {\"word\": \"Prayer\", \"note\": \"God commands prayer and promises to hear it; the Lord's Prayer gives its form.\"}, {\"word\": \"Hymns and music\", \"note\": \"German hymns, sung at work, at burials and in church, teach ordinary people.\"}, {\"word\": \"The Bible and how to read it\", \"note\": \"Scripture outranks pope and councils; the Word itself does the work of reform.\"}, {\"word\": \"Saints and holy places\", \"note\": \"Christians remember and copy the saints but never pray to them; Christ alone mediates.\"}, {\"word\": \"Fasting and self-denial\", \"note\": \"Fasting is a free, useful discipline; no law may force foods on set days.\"}, {\"word\": \"Jesus\", \"note\": \"The catechism confesses Jesus as truly God and man, redeeming us by his blood.\"}, {\"word\": \"Salvation and grace\", \"note\": \"God puts sinners right with himself freely, for Christ's sake, through faith alone.\"}, {\"word\": \"Faith and works\", \"note\": \"Good works earn nothing; they are any task God commands, done in faith.\"}, {\"word\": \"Sin and forgiveness\", \"note\": \"The Law terrifies the conscience over sin; God's promise of forgiveness comforts it.\"}, {\"word\": \"Free will and predestination\", \"note\": \"The will is free for ordinary good but bound toward God.\"}, {\"word\": \"Heaven, hell and judgment\", \"note\": \"Christ will return, raise the dead, give the godly life and condemn the ungodly.\"}, {\"word\": \"Tradition and authority\", \"note\": \"Human traditions may stay, unless they claim to earn grace or force belief.\"}, {\"word\": \"Money and the poor\", \"note\": \"The catechism warns that harshness to a poor worker brings God's vengeance.\"}, {\"word\": \"Marriage and family\", \"note\": \"Marriage is the noblest way of life, set up at creation; pastors marry too.\"}, {\"word\": \"Suffering and death\", \"note\": \"Each person fights death alone, but faith calls it a sweet sleep.\"}, {\"word\": \"The devil and demons\", \"note\": \"The devil is a real enemy; Word, sacraments and catechism defend against him daily.\"}, {\"word\": \"Monks and nuns\", \"note\": \"Wittenberg rejects the monks' life as higher, and honors married households instead.\"}, {\"word\": \"Learning and education\", \"note\": \"Fathers must teach and test their households weekly; whether this worked is disputed.\"}, {\"word\": \"Church leaders\", \"note\": \"Every Christian is a priest by baptism; a pastor holds an office only.\"}, {\"word\": \"The emperor and the state\", \"note\": \"God gives rulers the sword; obey them, except when they command sin.\"}, {\"word\": \"Martyrs\", \"note\": \"Luther's ballad honors two young monks burned at Brussels in 1523 as true priests.\"}, {\"word\": \"Heresy and false teaching\", \"note\": \"Wittenberg rejects 'new spirits' who claim the Spirit apart from God's spoken Word.\"}, {\"word\": \"The pope and Rome\", \"note\": \"Sermons call the pope Antichrist; the formal confession speaks politely of Rome's Church.\"}], \"keywords\": [\"ninety-five theses\", \"small catechism\", \"lutheranism\", \"protestant\"], \"intro\": \"Nikolaus is a representative voice for the Christian tradition of Wittenberg (1517–1580). Luther wrote a Small Catechism for each household to teach at home.\", \"summary\": \"In 1517, Luther, an Augustinian friar who taught theology at Wittenberg, wrote to his archbishop against the sale of indulgences. It held that a person stands before God by a gift received through faith, apart from works. Princes and city councils took the reform into their lands in place of bishops. This Christian tradition's chief tool was the household catechism. It had three parts, to be said at rising, at table, and at night. The record is rich on the founding decade. It is thin on how any household or parish lived this.\", \"shaped\": [\"Luther\", \"Melanchthon\", \"Johann Walter\"], \"recordHolds\": \"Rich in Luther's catechisms and confessions. Thin on how any household or parish received them.\"}"
+   ],
+   [
+    "sources",
+    "[{\"work\": \"Luther's Works (American Edition, 55 vols + new series, Concordia/Fortress), incl. the Small and Large Catechisms (1529) and the hymns as used texts\", \"type\": \"primary\"}, {\"work\": \"The Saxon visitation records (from 1527-28, with Melanchthon's Instructions for the Visitors) and church ordinances in Sehling, Die evangelischen Kirchenordnungen des XVI. Jahrhunderts\", \"type\": \"primary\", \"note\": \"Shows what villagers actually knew. Mostly untranslated German archival material. Historians disagree on how to read it: Strauss's 'failure' reading (Luther's House of Learning, 1978) versus critics like Scribner and Kittelson; the debate is part of what the record means.\"}, {\"work\": \"Argula von Grumbach, A Woman's Voice in the Reformation (ed./trans. Matheson, T&T Clark, 1995); Katharina Schuetz Zell, Church Mother (ed./trans. McKee, Chicago, 2006)\", \"type\": \"primary\", \"note\": \"Women's voices in their own published words; Zell writes from Strasbourg, within the wider evangelical world.\"}, {\"work\": \"The confessional documents: Augsburg Confession (1530), Book of Concord (1580; ed. Kolb & Wengert, Fortress, 2000), read against parish registers the ordinances mandated\", \"type\": \"primary\"}, {\"work\": \"Susan Karant-Nunn, The Reformation of Ritual (Routledge, 1997), with Strauss (1978) as classic provocation\", \"type\": \"secondary\", \"note\": \"A lived-practice view of parish religion.\"}, {\"work\": \"Cambridge History of Christianity vol. 6, ch. 1 'Martin Luther, reformer' (Hendrix), with ch. 2 (Brady) and ch. 4 (Lehmann)\", \"type\": \"reference\"}]"
+   ],
+   [
+    "longDescription",
+    "\"Wittenberg was a small Saxon university town when one of its theology professors, an Augustinian friar named Martin Luther, wrote 95 theses against the sale of indulgences and sent them to the archbishop of Mainz on 31 October 1517. Tradition also holds that he nailed a copy to the door of the Castle Church, the university's usual notice board for an academic debate — but that detail comes only from an account written decades later, after Luther's death, and historians still disagree over whether it happened. Within a few years a movement had grown around him that reorganized worship, emptied monasteries, and put the Bible, a catechism and a hymnbook into ordinary German households. What that looked like from the pew is documented unusually well. From 1527-28 the Saxon churches sent visitors out to examine parish after parish, and their reports are frank about how little many villagers actually knew. The movement settled its own arguments in writing — the Augsburg Confession of 1530, then the Book of Concord of 1580. And the churches shaped by it spread north and east across Germany and Scandinavia, where they remain.\""
+   ],
+   [
+    "voices",
+    "[\"Martin Luther — Wittenberg theology professor whose 1517 protest began the movement, and whose catechisms and hymns shaped its ordinary worship\", \"Philipp Melanchthon — Luther's colleague, author of the Augsburg Confession (1530) and of the instructions that sent visitors out to inspect Saxon parishes\", \"Katharina von Bora — former nun who married Luther and ran the household that became the movement's most-watched model of a pastor's family\", \"Argula von Grumbach — Bavarian noblewoman who published pamphlets under her own name in the 1520s defending the evangelical cause\", \"Katharina Schütz Zell — Strasbourg pastor's wife who published devotional writing, hymn collections and open letters in her own name\"]"
+   ],
+   [
+    "people",
+    "[{\"person\": \"martin-luther\"}, {\"name\": \"Philipp Melanchthon\", \"year\": 1530, \"voice\": 1, \"author\": \"melanchthon\", \"held\": \"melanchthon_apology-augsburg-confession_bente-dau1921--the-apology-of-the-augsburg-confession\"}]"
+   ]
+  ]
+ },
+ {
+  "id": "the-waldensian-reformed-union",
+  "era": 7,
+  "hits": [
+   [
+    "sources",
+    "[{\"work\": \"The Synod of Chanforan decisions (1532) and the Olivetan Bible (1535) - the union's concrete deliverable, financed by the Waldensian communities\", \"type\": \"primary\", \"note\": \"The Chanforan decisions survive only through later copies and transcriptions, not an original protocol.\"}, {\"work\": \"The valleys' own historians: Lentolo's manuscript history (1560s), Gilles, Histoire ecclesiastique des eglises vaudoises (1644), Leger, Histoire generale (1669)\", \"type\": \"primary\", \"note\": \"Insider history carrying the medieval memory forward into Reformed identity. Léger wrote as an advocate after 1655 and included contested, possibly backdated 'ancient' documents — the act of memory-keeping is itself part of the evidence. Available only in French and Italian.\"}, {\"work\": \"Samuel Morland, The History of the Evangelical Churches of the Valleys of Piemont (1658) - the 1655 Piedmont Easter massacre dossier with survivor depositions\", \"type\": \"primary\", \"note\": \"Written by a sympathetic outsider — Cromwell's envoy — from a Protestant-international advocacy standpoint. Covers the massacre and its aftermath from 1655 onward.\"}, {\"work\": \"Euan Cameron, The Reformation of the Heretics: The Waldenses of the Alps 1480-1580 (Oxford, 1984), with Gabriel Audisio, The Waldensian Dissent (CUP, 1999)\", \"type\": \"secondary\", \"note\": \"Cameron's book covers exactly this transition into union with the Reformed churches.\"}, {\"work\": \"Cambridge History of Christianity vol. 6\", \"type\": \"reference\", \"note\": \"This volume has no chapter dedicated to the Waldensians; the closest are chapter 8 (Benedict) and chapter 15 (Gregory).\"}]"
+   ],
+   [
+    "longDescription",
+    "\"The Waldensians had already survived three centuries of suppression as an underground movement of lay preachers when, in 1532, their representatives met at Chanforan in the Alpine valleys of Piedmont and agreed to join the young Reformed churches. And to pay for a new French translation of the Bible, which appeared in 1535 as the Olivétan Bible. It was an unusual graft: an old dissenting tradition became a Reformed church with ministers, confessions and printed books, without letting go of its own memory of the centuries before. That memory was tested repeatedly, most brutally in the Piedmont massacre of Easter 1655, which drew protests from across Protestant Europe and a famous sonnet from John Milton.\""
+   ],
+   [
+    "voices",
+    "[\"Pierre Olivétan — the translator whose French Bible of 1535 the Waldensian communities paid for\", \"Guillaume Farel — Reformed preacher who pressed the union at the 1532 assembly at Chanforan\", \"Jean Léger — Waldensian pastor and historian who gathered survivors' accounts of the 1655 massacre\"]"
+   ]
+  ]
+ },
+ {
+  "id": "orthodoxy-under-the-ottomans-parish-millet-and-n",
+  "era": 7,
+  "hits": [
+   [
+    "sources",
+    "[{\"work\": \"The neomartyrologies: Nikodemos the Hagiorite, Neon Martyrologion (1799); English access via Vaporis, Witnesses for Christ: Orthodox Christian Neomartyrs of the Ottoman Period 1437-1860 (SVS, 2000); Ottoman execution records as the hostile-administrative layer\", \"type\": \"primary\", \"note\": \"Worth reading with genre in mind: the collection is itself a late-18th-century spiritual project. It documents a real pastoral texture — spiritual fathers preparing, and sometimes dissuading, would-be martyrs.\"}, {\"work\": \"The Jeremias II-Tuebingen correspondence: Augsburg and Constantinople (trans. Mastrantonis, Holy Cross, 1982)\", \"type\": \"primary\", \"note\": \"The patriarch's three Answers (1576-81) - captive Orthodoxy defining itself against the Reformation in its own measured voice.\"}, {\"work\": \"The Lucaris controversy, both sides: Cyril Lucaris's Confession (1629) and the condemnations - Synod of Constantinople (1638), Synod of Jerusalem with Dositheus's Confession (1672; trans. Robertson, 1899)\", \"type\": \"primary\", \"note\": \"An internal boundary contest under double outside pressure (Protestant embassies, Roman missions), with documents surviving from both sides of the dispute.\"}, {\"work\": \"Parish/millet texture: patriarchal berats (Ottoman appointment warrants), kadi-court records used by Christians, parish and monastic registers, Athonite archives\", \"type\": \"primary\", \"note\": \"Church life seen through the sultan's own bureaucracy — an outside, administrative pen, not the church's own voice.\"}, {\"work\": \"Steven Runciman, The Great Church in Captivity (1968), with Papademetriou, Render unto the Sultan (2015)\", \"type\": \"secondary\", \"note\": \"The classic account, dated in parts, paired with a current corrective.\"}, {\"work\": \"Cambridge History of Christianity vol. 5, ch. 7 'The Great Church in captivity 1453-1586' (Zachariadou), with ch. 6 'Mount Athos and the Ottomans' (Zachariadou)\", \"type\": \"reference\", \"note\": \"This period runs past where this particular volume ends; a related chapter (Kitromilides, \\\"Orthodoxy and the West\\\") may also be relevant but hasn't been directly confirmed.\"}]"
+   ],
+   [
+    "documentedStories",
+    "[{\"title\": \"Jeremias II Asks the Lutherans to Stop Writing\", \"when\": \"1573–1581\", \"tier\": \"1\", \"verification\": \"from reference summaries; primary text not yet read\", \"teaser\": \"The theologians of Tübingen send the patriarch of Constantinople a Greek translation of the Augsburg Confession, hoping for recognition. After three exchanges of long letters he tells them, courteously, to go their own way and write to him only as friends.\", \"text\": \"In 1573 the Lutheran chaplain of the imperial embassy at Constantinople, Stephan Gerlach, carried letters from Jakob Andreae and Martin Crusius of Tübingen to the patriarch Jeremias II, with a Greek version of the Augsburg Confession, asking for his judgment. The Lutherans hoped that the ancient church of the East, free of the pope, would recognize their teaching as its own. His First Answer of 1576 goes through the Confession article by article — accepting some, correcting others, and rejecting justification by faith alone, the denial of free will, the removal of the invocation of saints and the reduction of the sacraments — in the voice of a church that had not been asked its opinion for a century and meant to give it fully. The Tübingen theologians replied; he answered again in 1579, more shortly; they replied again; and in 1581 he wrote the Third Answer, which ends the correspondence: ‘We ask you not to trouble us further, nor to write to us on these matters. Go your own way; but write to us, if you wish, for friendship’s sake.’ The Lutherans printed the whole exchange in 1584 — with the patriarch’s refusals — and the Catholics reprinted it with glee. The letters are the first sustained encounter between the Reformation and Orthodoxy, and the Orthodox side is the voice of a captive church declining to be recruited by either western party: not Rome, not Wittenberg, and no further letters, please.\", \"caveat\": \"The correspondence is authentic and was printed by the Tübingen side in 1584 with both parties’ texts; Jeremias’ answers were drafted with the help of his synod’s theologians. The Orthodox church has treated the Answers as a confessional document, though they were letters.\", \"sources\": [{\"work\": \"The neomartyrologies: Nikodemos the Hagiorite, Neon Martyrologion (1799); English access via Vaporis, Witnesses for Christ: Orthodox Christian Neomartyrs of the Ottoman Period 1437-1860 (SVS, 2000); Ottoman execution records as the hostile-administrative layer\", \"type\": \"primary\", \"note\": \"Worth reading with genre in mind: the collection is itself a late-18th-century spiritual project. It documents a real pastoral texture — spiritual fathers preparing, and sometimes dissuading, would-be martyrs.\"}, {\"work\": \"The Jeremias II-Tuebingen correspondence: Augsburg and Constantinople (trans. Mastrantonis, Holy Cross, 1982)\", \"type\": \"primary\", \"note\": \"The patriarch's three Answers (1576-81) - captive Orthodoxy defining itself against the Reformation in its own measured voice.\"}, {\"work\": \"The Lucaris controversy, both sides: Cyril Lucaris's Confession (1629) and the condemnations - Synod of Constantinople (1638), Synod of Jerusalem with Dositheus's Confession (1672; trans. Robertson, 1899)\", \"type\": \"primary\", \"note\": \"An internal boundary contest under double outside pressure (Protestant embassies, Roman missions), with documents surviving from both sides of the dispute.\"}, {\"work\": \"Parish/millet texture: patriarchal berats (Ottoman appointment warrants), kadi-court records used by Christians, parish and monastic registers, Athonite archives\", \"type\": \"primary\", \"note\": \"Church life seen through the sultan's own bureaucracy — an outside, administrative pen, not the church's own voice.\"}, {\"work\": \"Steven Runciman, The Great Church in Captivity (1968), with Papademetriou, Render unto the Sultan (2015)\", \"type\": \"secondary\", \"note\": \"The classic account, dated in parts, paired with a current corrective.\"}, {\"work\": \"Cambridge History of Christianity vol. 5, ch. 7 'The Great Church in captivity 1453-1586' (Zachariadou), with ch. 6 'Mount Athos and the Ottomans' (Zachariadou)\", \"type\": \"reference\", \"note\": \"This period runs past where this particular volume ends; a related chapter (Kitromilides, \\\"Orthodoxy and the West\\\") may also be relevant but hasn't been directly confirmed.\"}]}, {\"title\": \"Cyril Lucaris Is Strangled on a Boat\", \"when\": \"27 June 1638\", \"tier\": \"1\", \"verification\": \"from reference summaries; primary text not yet read\", \"teaser\": \"The patriarch who has been deposed and restored five times, whose Confession reads like Geneva’s, and whom the Jesuits and the Dutch ambassador have fought over for twenty years, is taken from the patriarchate by janissaries on the sultan’s order and killed in the Bosporus.\", \"text\": \"Cyril Lucaris had been educated at Padua and Venice, had spent years in Poland fighting the Union of Brest, and as patriarch of Constantinople from 1620 had allied himself with the Protestant embassies — English and Dutch — against the French and Austrian ambassadors and the Jesuits, who worked to depose him. In 1629 a Confession of Faith appeared in Geneva under his name, in Latin, teaching predestination, justification by faith, two sacraments, and the authority of Scripture over the church; he never publicly repudiated it, and a Greek version with his signature exists. His enemies used it. Deposed and restored five times as the embassies bribed the Porte in turn, he was finally denounced to the sultan Murad IV in June 1638, as the army left for Baghdad, as having incited the Cossacks against the empire. On 27 June janissaries took him from the patriarchate to a boat, and — the Dutch ambassador’s and the Greek accounts agree — strangled him and threw the body into the Bosporus; it was recovered by fishermen and buried by his supporters. Within three months his successor, Cyril Kontaris, held a synod that anathematized him and the Confession by name; synods at Jassy in 1642 and Jerusalem in 1672 did it again. Kontaris was himself strangled by the Ottomans the following year. The Orthodox church has never agreed whether Lucaris wrote the Confession, and has kept the anathemas and, in some quarters, his memory as a martyr, at the same time.\", \"caveat\": \"The manner of death is reported by the Dutch resident Cornelis Haga and by Greek sources and is not disputed; the immediate cause of the denunciation is. Lucaris’ authorship of the Confession is contested by Orthodox historians and generally accepted by others; the page states the dispute.\", \"sources\": [{\"work\": \"Cyril Lucaris, Confession of Faith (Geneva, 1629; Greek 1633)\", \"type\": \"primary\", \"note\": \"English translation online; Latin and Greek in Kimmel, Monumenta fidei Ecclesiae Orientalis (1850).\"}, {\"work\": \"Thomas Smith, An Account of the Greek Church (1680), and the correspondence of Cornelis Haga (1638)\", \"type\": \"primary\", \"note\": \"The English and Dutch accounts of Lucaris’ career and death; discussed in Hering.\"}, {\"work\": \"Synod of Constantinople (September 1638), anathemas against Lucaris; Synod of Jerusalem (1672), Confession of Dositheus\", \"type\": \"primary\", \"note\": \"The condemnations; Robertson’s translation of Jerusalem 1672 online.\"}, {\"work\": \"Gunnar Hering, Ökumenisches Patriarchat und europäische Politik, 1620–1638 (Steiner, 1968)\", \"type\": \"reference\", \"note\": \"The standard study of Lucaris’ patriarchate.\"}]}]"
+   ]
+  ]
+ },
+ {
+  "id": "scandinavian-reformation-kingdoms",
+  "era": 7,
+  "hits": [
+   [
+    "relationsSummary",
+    "\"Two established national churches emerged: Denmark-Norway's decisive break in 1536/37, and Sweden's slower path from the 1527 Diet of Västerås to the 1593 Uppsala Synod, which committed the kingdom to the unaltered Augsburg Confession. Iceland's Reformation was complete by 1550.\""
+   ],
+   [
+    "why",
+    "\"Sweden's break began at the Diet of Västerås in 1527, when Gustav Vasa seized the church's property, and wasn't completed until the Uppsala Synod of 1593 committed the kingdom to the unaltered Augsburg Confession. Denmark-Norway moved faster and harder: Christian III arrested the bishops outright in 1536, and Icelandic resistance ended only in 1550, with the execution of the island's last Catholic bishop.\""
+   ],
+   [
+    "longDescription",
+    "\"In Scandinavia the Reformation arrived from the top down and stayed. Sweden's break began at the Diet of Västerås in 1527, when Gustav Vasa took the church's property and its independence, and was only completed at the Uppsala Synod of 1593, which committed the kingdom to the unaltered Augsburg Confession. In Denmark-Norway it came faster and harder. Christian III won a civil war, arrested the bishops outright in 1536, and the church ordinance drawn up with Luther's colleague Johannes Bugenhagen reorganized the churches of Denmark, Norway and Iceland at a stroke. Icelandic resistance ended in 1550 with the execution of the island's last Catholic bishop. What followed everywhere was the long, slow business of translating Bibles and hymnbooks and teaching a rural population its catechism.\""
+   ]
+  ]
+ },
+ {
+  "id": "the-haugean-awakening",
+  "era": 9,
+  "hits": [
+   [
+    "sources",
+    "[{\"work\": \"Hauge's own corpus: his 33 books and tracts (from Betragtning over Verdens Daarlighed, 1796), his letters to the friends' network, and his Testament to his Friends (1821)\", \"type\": \"primary\", \"note\": \"Hauge was a lay peasant preacher who ran his own itinerant press. Most editions are in Norwegian, with only limited material translated into English.\"}, {\"work\": \"The prosecution record: the 1804-14 case under the Conventicle Act - interrogation records, commission files, Hauge's prison writings\", \"type\": \"primary\", \"note\": \"This is hostile legal material: the founder documented at length by the state church that prosecuted and jailed him.\"}, {\"work\": \"The friends' societies' records: haugianere society minutes, correspondence and business networks, lay preachers' memoirs; Hauge's authorization of women itinerant speakers in his letters\", \"type\": \"primary\", \"note\": \"These records show the movement's own societies continuing to meet, correspond, and run businesses well beyond Hauge's own lifetime - evidence the movement outgrew its founder. Hauge's letters also document his authorization of women as itinerant speakers.\"}, {\"work\": \"Andreas Aarflot, Hans Nielsen Hauge: His Life and Message (Augsburg, 1979), with Joseph Shaw, Pulpit Under the Sky (1955)\", \"type\": \"secondary\"}, {\"work\": \"Cambridge History of Christianity vol. 8 (chapter assignment hedged): nearest Bebbington's voluntary-religion and Thompson's popular-religion chapters\", \"type\": \"reference\", \"note\": \"This reference volume has no dedicated Scandinavian or Nordic chapter; these are the nearest topical fits.\"}]"
+   ]
+  ]
+ },
+ {
+  "id": "john-chrysostom",
+  "era": 2,
+  "hits": [
+   [
+    "legacy",
+    "\"The Reformers read him closely. Calvin quoted him with delight: 'The foundation of our philosophy is humility.' Yet he said Chrysostom gave the human will too much power. In 1530 the Augsburg Confession named him as a witness to how the early church shared Communion.\""
+   ]
+  ]
+ },
+ {
+  "id": "william-tyndale",
+  "era": 7,
+  "hits": [
+   [
+    "region",
+    "\"England, then Cologne, Worms and Antwerp\""
+   ],
+   [
+    "teaser",
+    "\"Worms and Antwerp, 1525 to 1536. An English scholar in exile who wanted a ploughboy to know the Scriptures, and died at the stake for his books.\""
+   ],
+   [
+    "longDescription",
+    "\"Tyndale was born near the Welsh border and studied at Oxford, then at Cambridge. John Foxe tells of a quarrel with a learned priest. Tyndale said that, if God spared his life, he would make a boy who drives the plow know more of the Scripture than the priest did.\\n\\nHe went abroad to print his New Testament. It was in the press at Cologne in 1525, until an enemy of Luther found out the work. Tyndale moved to Worms and printed it there. A report of 1526 said six thousand copies had been printed.\\n\\nCopies were smuggled into England. In February 1526 Cardinal Wolsey watched baskets of books burn at St Paul's in London. Tyndale said copies of his own book were among them.\\n\\nHe kept writing in exile. The Obedience of a Christian Man came out in 1528, and in 1530 he printed his version of the five books of Moses. In 1535 an Englishman named Henry Philips won his trust at Antwerp. Philips pointed him out to the officers who seized him.\\n\\nHe was condemned under the emperor's decree. At Vilvoorde in 1536 he was strangled at the stake, and his body was burned. Foxe gives his last words: 'Lord, open the king of England's eyes.'\""
+   ]
+  ]
+ },
+ {
+  "id": "martin-luther",
+  "era": 7,
+  "hits": [
+   [
+    "longDescription",
+    "\"Luther was born at Eisleben in 1483. His father was a poor miner. He became an Augustinian friar and taught theology at Wittenberg.\\n\\nOn 31 October 1517 he wrote to the archbishop of Mainz about the indulgences sold under the archbishop's name. His theses of the same day said the indulgence preachers were in error. A later story says he also nailed the theses to the castle church door. It comes from an account written after his death, and historians still disagree about it.\\n\\nIn June 1520 a papal bull condemned his teaching. In April 1521 he stood before the emperor Charles V at the Diet of Worms. He refused to take anything back unless Scripture showed him he was wrong. Then he was hidden at the Wartburg castle. There he began what an 1885 historian called the great work of his life, a German Bible from the original text.\\n\\nHe went on writing for twenty-five years more: sermons, hymns, letters, and in 1529 a Small and a Large Catechism. He died on 18 February 1546.\""
+   ]
+  ]
+ },
+ {
+  "edge": {
+   "id": "lutheran-wittenberg-and-its-congregations--the-anabaptist-movements",
+   "from": "lutheran-wittenberg-and-its-congregations",
+   "to": "the-anabaptist-movements",
+   "type": "argued against",
+   "confidence": "Documented",
+   "note": "In 1530 the Lutheran side named and condemned the Anabaptists in the Augsburg Confession. It rejects their view that children should not be baptized. It also rejects their rule that a Christian may not serve as a judge or ruler.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": "witt.source.melanchthon-augsburg-confession",
+     "work": "Philipp Melanchthon, The Augsburg Confession (1530), English",
+     "file": "cic/texts/melanchthon_augsburg-confession_anon-pg275.txt",
+     "lines": "314-315",
+     "locus": "Art. IX, Of Baptism",
+     "quote": "They condemn the Anabaptists, who reject the baptism of children, and say that children are saved without Baptism.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": "witt.source.melanchthon-augsburg-confession",
+     "work": "Philipp Melanchthon, The Augsburg Confession (1530), English",
+     "file": "cic/texts/melanchthon_augsburg-confession_anon-pg275.txt",
+     "lines": "418-419",
+     "locus": "Art. XVI, Of Civil Affairs",
+     "quote": "They condemn the Anabaptists who forbid these civil offices to Christians.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct"
+  }
+ },
+ {
+  "edge": {
+   "id": "lutheran-wittenberg-and-its-congregations--the-reformed-cities-zurich-and-geneva",
+   "from": "lutheran-wittenberg-and-its-congregations",
+   "to": "the-reformed-cities-zurich-and-geneva",
+   "type": "in contact with",
+   "confidence": "Documented",
+   "note": "Zwingli made the long journey to Marburg to meet Luther and Melanchthon and talk about the Lord's Supper. Two Zurich writers tell of it: Zwingli himself, who in 1530 recalled the sermon he preached there, and his friend Myconius.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": "rzg.source.zwingli-latin-works-vol1",
+     "work": "Oswald Myconius, Life of Huldreich Zwingli (written in Latin, 1532), in Zwingli, Latin Works and Correspondence, vol. 1",
+     "file": "cic/texts/zwingli_latin-works-correspondence-vol1_jackson1912.txt",
+     "lines": "1343-1345",
+     "locus": "Myconius, Life of Zwingli, ch. XI",
+     "quote": "He made also the long journey to Marburg, to the colloquy with Luther and Melanchthon upon the Lord's Supper.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Zwingli, On the Providence of God, dedicatory letter to Philip of Hesse (1530)",
+     "file": "cic/texts/zwingli_latin-works-correspondence-vol2_hinke1922.txt",
+     "lines": "6753-6754",
+     "locus": "Dedicatory letter to Philip of Hesse",
+     "quote": "the sermon that I delivered in your castle at Marburg.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "concerns": "martin-luther"
+  }
+ },
+ {
+  "edge": {
+   "id": "lutheran-wittenberg-and-its-congregations--the-reformed-cities-zurich-and-geneva--2",
+   "from": "lutheran-wittenberg-and-its-congregations",
+   "to": "the-reformed-cities-zurich-and-geneva",
+   "type": "argued against",
+   "confidence": "Documented",
+   "note": "The Lutheran Formula of Concord of 1577 has a chapter on the Lord's Supper. It names the 'Zwinglian teachers' and says they broke away when the Augsburg Confession was first read out. The chapter then condemns the 'Sacramentarians'.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": "witt.source.book-of-concord",
+     "work": "Formula of Concord, Epitome, chapter VII (Of the Lord's Supper), in The Book of Concord (Jacobs, 1911)",
+     "file": "cic/texts/book-of-concord_symbolical-books-evangelical-lutheran-church_jacobs1911.txt",
+     "lines": "26604-26607",
+     "locus": "Epitome VII, opening paragraph",
+     "quote": "Although the Zwinglian teachers are not to be reckoned i among the theologians who acknowledge and profess the Augs- burg Confession, as they separated from them when this Con- fession was presented",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct"
+  }
+ },
+ {
+  "edge": {
+   "id": "antiochene-exegetical-christianity-chrysostom-ce--lutheran-wittenberg-and-its-congregations",
+   "from": "antiochene-exegetical-christianity-chrysostom-ce",
+   "to": "lutheran-wittenberg-and-its-congregations",
+   "type": "influenced",
+   "confidence": "Documented",
+   "note": "The Augsburg Confession of 1530 calls on Chrysostom as a witness to how the early church shared Communion. Melanchthon wrote a defense of the Confession, known as the Apology. In it he quotes a saying of Chrysostom. It runs: contrition in the heart, confession in the mouth, humility in the work.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": "witt.source.melanchthon-augsburg-confession",
+     "work": "Augsburg Confession, Article XXIV (Of the Mass) (Project Gutenberg English text)",
+     "file": "cic/texts/melanchthon_augsburg-confession_anon-pg275.txt",
+     "lines": "880-881",
+     "locus": "CA XXIV",
+     "quote": "Chrysostom says that the priest stands daily at the altar, inviting some to the Communion and keeping back others.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": "witt.source.melanchthon-apology-of-the-augsburg-confession",
+     "work": "Philip Melanchthon, Apology of the Augsburg Confession, Article XII (trans. Bente and Dau, 1921)",
+     "file": "cic/texts/melanchthon_apology-augsburg-confession_bente-dau1921.txt",
+     "lines": "6319-6320",
+     "locus": "Apol. XII",
+     "quote": "Likewise Chrysostom says: In the heart, contrition; in the mouth, confession; in the work, entire humility.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "concerns": "john-chrysostom"
+  }
+ },
+ {
+  "edge": {
+   "id": "lutheran-wittenberg-and-its-congregations--scandinavian-reformation-kingdoms",
+   "from": "lutheran-wittenberg-and-its-congregations",
+   "to": "scandinavian-reformation-kingdoms",
+   "type": "influenced",
+   "confidence": "Documented",
+   "note": "King Christian III's church law of 1537 says he sent its draft to Martin Luther, and the Wittenberg teachers approved it. In 1593 a church council met at Uppsala. It bound Sweden to the old, true and unchanged Augsburg Confession of 1530.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Ordinatio ecclesiastica Regnorum Daniae et Norvegiae (Copenhagen, 1537)",
+     "file": "cic/texts/danske-folkekirke_ordinatio-ecclesiastica-lat_vinitor1537.txt",
+     "lines": "109-112",
+     "locus": "king's preface",
+     "quote": "Danc acceptam miſimus ad Reuerendʒ patrem Doctorem Martinum Lutherũ /",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Ordinatio ecclesiastica Regnorum Daniae et Norvegiae (Copenhagen, 1537)",
+     "file": "cic/texts/danske-folkekirke_ordinatio-ecclesiastica-lat_vinitor1537.txt",
+     "lines": "118-122",
+     "locus": "king's preface",
+     "quote": "Is cum alite qui Wittenbergæ ſũt Theolo gis eam appꝛo⸗ bauit.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Ordinatio ecclesiastica Regnorum Daniae et Norvegiae (Copenhagen, 1537)",
+     "file": "cic/texts/danske-folkekirke_ordinatio-ecclesiastica-lat_vinitor1537.txt",
+     "lines": "102-106",
+     "locus": "king's preface",
+     "quote": "Conuocatis igitur Doctoꝛibus et pꝛœ dicatoꝛibus GEccleſiarum ex Dante Regno z Ducatibus noſtris mandaui⸗ mus vt ordinationẽ aliquã ſacram nobis conſcriberent.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Decision of the Uppsala Synod (Upsala mötes beslut, 1593), in Oscar Bensow, Svenska kyrkans bekännelseskrifter (1912)",
+     "file": "cic/texts/bensow_svenska-kyrkans-bekannelseskrifter-swe_bensow1912.txt",
+     "lines": "31003-31004",
+     "locus": "Uppsala mötes beslut (1593), preamble",
+     "quote": "efter Christi börd 1593 på söndagen Esto mihi, som var then 25 februari!, här i Upsala till at göra en förening",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Decision of the Uppsala Synod (Upsala mötes beslut, 1593), in Oscar Bensow, Svenska kyrkans bekännelseskrifter (1912)",
+     "file": "cic/texts/bensow_svenska-kyrkans-bekannelseskrifter-swe_bensow1912.txt",
+     "lines": "31032-31034",
+     "locus": "Uppsala mötes beslut (1593), second article",
+     "quote": "Thernäst bejake och vederkännes [bekänna] vi oss alldeles vele hölle vidh the Apostoliske, Niceniske och Athanasii symbola, såsom och vidh then äldste, rätte och oförrandrede Ausburgiske confession,",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "concerns": "martin-luther"
+  }
+ },
+ {
+  "edge": {
+   "id": "lutheran-wittenberg-and-its-congregations--schwenckfelders--2",
+   "from": "lutheran-wittenberg-and-its-congregations",
+   "to": "schwenckfelders",
+   "type": "argued against",
+   "confidence": "Documented",
+   "note": "The Lutheran Formula of Concord of 1577 lists the 'Erroneous Articles of the Schwenckfeldians'. It rejects their teaching that Christ's glorified flesh took on all divine properties. It also rejects their view that the water of baptism is not a means by which God works new birth.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": "witt.source.book-of-concord",
+     "work": "Formula of Concord (1577), Epitome XII, in The Book of Concord (Jacobs, 1911)",
+     "file": "cic/texts/book-of-concord_symbolical-books-evangelical-lutheran-church_jacobs1911.txt",
+     "lines": "27704-27708",
+     "locus": "Formula of Concord, Epitome XII, heading",
+     "quote": "CHAPTER XII. 558 Of Other Factions [Heresies] and Sects, which NEVER Embraced the Augsburg Confession.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": "witt.source.book-of-concord",
+     "work": "Formula of Concord (1577), Epitome XII, in The Book of Concord (Jacobs, 1911)",
+     "file": "cic/texts/book-of-concord_symbolical-books-evangelical-lutheran-church_jacobs1911.txt",
+     "lines": "27839",
+     "locus": "Formula of Concord, Epitome XII",
+     "quote": "Erroneous Articles op the Schwenckfeldians.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": "witt.source.book-of-concord",
+     "work": "Formula of Concord (1577), Epitome XII, in The Book of Concord (Jacobs, 1911)",
+     "file": "cic/texts/book-of-concord_symbolical-books-evangelical-lutheran-church_jacobs1911.txt",
+     "lines": "27845-27847",
+     "locus": "Formula of Concord, Epitome XII, Schwenckfeldian error 2",
+     "quote": "That, by his exaltation, the flesh of Christ has so assumed n all divine properties that Christ as man is in might, power, majesty and glory equal to the Father and to the Word,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": "witt.source.book-of-concord",
+     "work": "Formula of Concord (1577), Epitome XII, in The Book of Concord (Jacobs, 1911)",
+     "file": "cic/texts/book-of-concord_symbolical-books-evangelical-lutheran-church_jacobs1911.txt",
+     "lines": "27859-27860",
+     "locus": "Formula of Concord, Epitome XII, Schwenckfeldian error 4",
+     "quote": "That the water of baptism is not a means whereby God 23 the Lord seals adoption and works regeneration.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct"
+  }
+ },
+ {
+  "edge": {
+   "id": "the-reformed-cities-zurich-and-geneva--the-waldensian-reformed-union",
+   "from": "the-reformed-cities-zurich-and-geneva",
+   "to": "the-waldensian-reformed-union",
+   "type": "influenced",
+   "confidence": "Documented",
+   "note": "A man of Angrogne, caught standing guard, said the ministers met at Chanforan included a red-bearded 'M. Farel'. The pastor Pierre Gilles, writing in 1644, calls them pastors who kept coming from Switzerland. In 1535 the valleys paid to print a French Bible.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Pierre Gilles, Histoire ecclesiastique des Eglises Vaudoises (Geneva 1644; Pignerol 1881), vol. 1",
+     "file": "cic/texts/gilles_histoire-ecclesiastique-eglises-vaudoises-v1-fra_1881.txt",
+     "lines": "2445-2447",
+     "locus": "year 1535, depositions taken by Bersour",
+     "quote": "bourgade des Chanforans au milieu d'Angrogne, et dit qu'entre les autres il y en avoit un qui s'appe- loit M. Farel. qui avoit la barbe rouge",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Pierre Gilles, Histoire ecclesiastique des Eglises Vaudoises (Geneva 1644; Pignerol 1881), vol. 1",
+     "file": "cic/texts/gilles_histoire-ecclesiastique-eglises-vaudoises-v1-fra_1881.txt",
+     "lines": "2450-2452",
+     "locus": "year 1535, depositions taken by Bersour",
+     "quote": "C'estoyent des Pasteurs qui continuoyent de venir des quartiers de Suisse",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Jean-Paul Perrin, History of the Old Waldenses anterior to the Reformation (English translation, 1624; Philadelphia 1847)",
+     "file": "cic/texts/perrin_history-ancient-christians-valleys-alps_1847.txt",
+     "lines": "16865",
+     "locus": "Part I, on the French Bible of 1535",
+     "quote": "to be printed at their own charge, in the year 1535",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct"
+  }
+ },
+ {
+  "edge": {
+   "id": "german-pietism-spener-francke-halle--the-haugean-awakening",
+   "from": "german-pietism-spener-francke-halle",
+   "to": "the-haugean-awakening",
+   "type": "influenced",
+   "confidence": "Dominant Modern Reconstruction",
+   "note": "Hans Nielsen Hauge began preaching in Norway in 1796, inside the Lutheran state church. His modern biographers place his revival in the line of Lutheran Pietism. This rests on their books.",
+   "sources": [
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Andreas Aarflot, Hans Nielsen Hauge: His Life and Message (Augsburg, 1979)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Joseph Shaw, Pulpit Under the Sky (1955)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    }
+   ],
+   "citation_specificity": "C",
+   "verification_state": "named-not-rechecked"
+  }
+ }
+]

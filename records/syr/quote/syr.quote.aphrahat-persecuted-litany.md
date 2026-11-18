@@ -15,7 +15,7 @@ confidence:
   divergence_note: null
 sources:
 - source_id: syr.source.aphrahat-select-demonstrations
-  locus: XXI.22
+  locus: "XXI.22 (cic/texts/npnf213_gregory-great-ephraim-syrus-aphrahat.xml, lines 27954-27958)"
   license: public-domain
 retrieval:
   tier: 2

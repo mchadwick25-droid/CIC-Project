@@ -15,7 +15,7 @@ confidence:
   divergence_note: null
 sources:
 - source_id: hal.source.augustine-letters
-  locus: Ep. 71 (Augustine's numbering), ch. 3, sec. 5
+  locus: "Ep. 71 (Augustine's numbering), ch. 3, sec. 5 (cic/texts/npnf101_augustine-confessions-letters.xml, lines 32546-32550)"
   license: public-domain
 text: 'Thereupon arose such a tumult in the congregation, especially among the Greeks,
   correcting what had been read, and denouncing the translation as false, that the

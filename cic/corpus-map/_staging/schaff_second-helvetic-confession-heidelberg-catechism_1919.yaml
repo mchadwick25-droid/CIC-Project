@@ -32,6 +32,11 @@ assignments:
       - the-reformed-cities-zurich-and-geneva
     role: tradition
     confidence: assigned
+    locus_ids: [front, line80, line186, line204, line269, line283, line374/line374, line374/line392, line374/line418, line374/line450, line374/line469, line374/line490, line374/line510, line374/line540, line374/line558, line374/line581, line374/line601, line374/line630, line374/line648, line374/line667, line374/line689, line374/line709, line728, line970, line1018, line1115, line1206/line1206, line1206/line1225, line1206/line1246, line1206/line1268, line1206/line1284, line1206/line1314, line1206/line1334, line1206/line1351, line1206/line1377, line1206/line1395, line1206/line1418, line1206/line1442, line1206/line1464, line1206/line1482, line1502]
+    language: eng
+    date: {end: 1564, formation_confidence: Widely Accepted, source: 'schaff_second-helvetic-confession-heidelberg-catechism_1919.txt line 193: Bullinger composed the Second Helvetic Confession in 1562; schaff_second-helvetic-confession-heidelberg-catechism_1919.txt line 197: 1562). Two years afterwards he elaborated it more fully', start: 1562}
+    translator: {formation_confidence: Documented, name: Philip Schaff (editor/compiler), source: 'schaff_second-helvetic-confession-heidelberg-catechism_1919.txt line 11: Philip Schaff (Editor/compiler of the volume'}
+    edition_date: {checked: 'the file prints only "1919 printing (orig. 1877)" in its library header, which is a printing year; no title page or preface year for the text itself', formation_confidence: unknown}
     note: >
       Heinrich Bullinger's mature confessional statement - Zwingli's real
       successor at Zurich, and per this world's own Step 0 draft (§A1)
@@ -47,6 +52,11 @@ assignments:
       - the-reformed-cities-zurich-and-geneva
     role: tradition
     confidence: assigned
+    locus_ids: [line1595, line1663, line1741, line1751, line1843, line1927, line1934, line1973, line2000, line2021, line2327, line2357, line2395, line2466, line2604, line2848, line2850]
+    language: eng
+    date: {end: 1563, formation_confidence: Widely Accepted, source: 'schaff_second-helvetic-confession-heidelberg-catechism_1919.txt line 1949: In December, 1562, Frederick submitted the work to a general synod; schaff_second-helvetic-confession-heidelberg-catechism_1919.txt line 1954: Preface of the Elector, dated Tuesday, January 19, 1563', start: 1562}
+    translator: {formation_confidence: Documented, name: Philip Schaff (editor/compiler), source: 'schaff_second-helvetic-confession-heidelberg-catechism_1919.txt line 11: Philip Schaff (Editor/compiler of the volume'}
+    edition_date: {checked: 'the file prints only "1919 printing (orig. 1877)" in its library header, which is a printing year; no title page or preface year for the text itself', formation_confidence: unknown}
     note: >
       Zacharias Ursinus and Caspar Olevianus's Palatinate catechism -
       named directly in this world's own Step 0 draft as doctrinally

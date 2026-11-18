@@ -20,9 +20,7 @@ confidence:
     by-product. That does not make it accurate; it makes it independent.
 sources:
 - source_id: pahc.source.lucian-peregrinus
-  locus: >-
-    The Death of Peregrine, p. 83, in H. W. and F. G. Fowler's English (Oxford, 1905)
-    (cic/texts/lucian_works-vol4-peregrine_fowler1905.txt)
+  locus: "The Death of Peregrine, p. 83, in H. W. and F. G. Fowler's English (Oxford, 1905) (cic/texts/lucian_works-vol4-peregrine_fowler1905.txt, line 1049)"
   license: public-domain
 text: >-
   You see, these misguided creatures start with the general conviction that they are immortal for

@@ -79,6 +79,6 @@ The craft record's `quotation` note requires the hostile framing to
 travel with it, and this turn states it in-voice rather than leaving it
 to a footnote a participant never sees.
 
-Strict we-voice throughout, per the craft record's `self-reference` note
-- no first-person singular anywhere, including in the aside about the
+We-voice throughout, since this is the tradition's own perspective, per the
+craft record's `self-reference` note - including in the aside about the
 opponent who recorded the retort.

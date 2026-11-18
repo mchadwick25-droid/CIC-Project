@@ -72,6 +72,24 @@ Entries record what was claimed, what was wrong with it, and which review round 
 
 **2.15 `lpc` described as "nine-round-reviewed."** Withdrawn: Round 2, matching Step 0 §1.9 above — imprecise for Doc_04 specifically (eleven rounds, never cleared).
 
+**2.16 A Socrates II.44 quotation joined across a sentence boundary and cited for an agreement in faith after 381 among "both claimants" (Doc_01 §5).** Withdrawn: the cap-ruling review (N1) found the ellipsis joined the subject of one sentence to the predicate of the next, and that the passage (`npnf202` `ii.v.xliv-p3`) describes about 360 to 361, before Paulinus was consecrated. Restated as what Socrates says, with the whole sentences quoted.
+
+**2.17 John of Antioch's letter to Nestorius (`npnf203` `iv.x.cl`) described as "independently verified present in the vendored file" (Doc_01 §4).** Withdrawn: the cap-ruling review (N2) found only the letter's title, one sentence and an editor's note in the file (lines 36058 to 36075), not the letter. The example is now Theodoret's Letter CL to John of Antioch (`iv.x.cli`), and the title-only status of `iv.x.cl` is stated.
+
+**2.18 The Counter-statements "confirmed condemned material ... by name" at Constantinople II, with the Letters "not named" (Doc_01 §4).** Withdrawn: the cap-ruling review (N3) found canon XIII (`npnf214` `xii.vii-p36`) names no work by title and condemns by description, a description that also reaches Theodoret's letters against Ephesus 431 and in defence of Nestorius (`iv.x.clxiii`, `iv.x.clxxiii`). The disclosure now covers those letters.
+
+**2.19 The §4 boundary finding limited to Theodoret's four works (Doc_01 §4, §6).** Withdrawn: the cap-ruling review (N4) found the corpus-map bucket carries Antiochene-party works as `tradition` that the finding did not weigh. §4 now places Nestorius's *Bazaar* and the Nau translation, Loofs's *Nestoriana*, the *Conciliabulum Ephesinum* and the *Synodicon*, work by work.
+
+**2.20 The exact word counts 3,339,085, 3,357,623 and 3,035,294 (Doc_01 §1).** Withdrawn: the cap-ruling review (N5) re-ran them after the CCEL header clean-up changed the files; the figures are now 3,332,586, 3,351,124 and 3,032,271, with the method stated.
+
+**2.21 Theodoret's letter to Nestorius (`npnf203` `iv.x.clxxiii`) placed in a "430-431" run and held as a live edge case (Doc_01 §4, §7).** Withdrawn: the second cap-ruling review (R2-N1). The letter's text refers to Nestorius's deposition, and the Mansi editor's note (file lines 88713 to 88724) dates it after the union of 433. It is out of the window in `npnf203` and in the *Synodicon* copy, by the project lead's scope-boundary rule of 2026-10-29. The first cap-ruling review (N3) had also placed it in the run.
+
+**2.22 The *Synodicon*'s letters of 431 to 435 said to "fall wholly after the window" (Doc_01 §4).** Withdrawn: the second cap-ruling review (R2-N1). The span includes 431. The *Synodicon* is out of the window as a collection, by the compiler's later frame and the span of its letters, and each letter is dated by its own text or its editor's note.
+
+**2.23 Nestorius's letters to the governor of the Thebaid credited to "a Syriac account quoted in Nau's introduction" (Doc_01 §4).** Withdrawn: the second cap-ruling review (R2-N2). Nau's passage (file lines 899 to 943) is his summary of the historian Evagrius; footnote 2 (line 960) confirms it.
+
+**2.24 Canons XI to XIII said to condemn writings "never by title"; canon XI cited to `xii.vii-p26`; the *Bazaar* said to be written "by about twenty years" after the window (Doc_01 §4).** Withdrawn: the second cap-ruling review (R2-N3 to R2-N5). Canon XII names Theodore's *Commentary on the Acts of the Apostles*; canon XI's text is `xii.vii-p27`; the gap is about ten to twenty-two years across the three dating statements.
+
 ---
 
 ## 3. Doc_02 + Source Registry
@@ -107,3 +125,27 @@ Entries record what was claimed, what was wrong with it, and which review round 
 **3.15 Registry row 11b's boundary framed as "deliberately drawn to close (430) before the Eutychian controversy."** Withdrawn: Round 3 — the same "drawn to avoid" framing already withdrawn for the Nestorian controversy at Step 0 §1.1 above. The boundary simply closes at 430, per the census.
 
 **3.16 The corpus-map bucket's own row count given as "46" (Doc_02, Registry header, row 1, row 13).** Withdrawn: corrected to 47 throughout — see §1.6 and §3.12 above.
+
+**3.17 The corpus-map bucket held "50" work-rows, and every one was covered by a Registry row (Doc_02 §1, Registry header, `Open_Gaps_Tracking.md` entry 15).** Withdrawn: the cap-ruling review (D1) found 66 rows by YAML parse and by `grep -c '^- row_id:'`, with 16 uncovered. Registry rows 22 to 33 (with 25a) now cover them.
+
+**3.18 Holdings figures "431 vendored files: 2 by design, 103 in scope but unread, 42 out of window and 284 with no coverage entry," every in-scope file individually dispositioned, and "84" Table D rows (Doc_02 §8, §9 item 6, `Open_Gaps_Tracking.md` entry 11(d)).** Withdrawn: the cap-ruling review (D2) re-ran the tool (1,522 / 2 / 113 / 51 / 1,356), found eleven in-scope files with no disposition, and counted 83 Table D rows by two methods. Table D now has 94 rows.
+
+**3.19 John of Antioch's letter to Nestorius called "independently verified present in the vendored file" (Doc_02 §1, Registry row 11a).** Withdrawn: see §2.17. Only its title is in `npnf203` `iv.x.cl`.
+
+**3.20 The condemned-content disclosure limited to the Counter-statements (Doc_02 §1, §6, Registry row 11a).** Withdrawn: see §2.18. Canon XIII condemns by description.
+
+**3.21 Lausiac History line loci 547, 419, 579 and 473 (Doc_02 §6, Registry row 21).** Withdrawn: the cap-ruling review (D5) found these were the chapter headings. The quoted words are at lines 549, 427, 583 and 477.
+
+**3.22 Theodoret's material described as "out-of-window by date" (Doc_02 §2).** Withdrawn: the cap-ruling review (D8). The ground is subject, as in Doc_01 §4.
+
+**3.23 A corpus-map confidence-tag revisit said to be "carried in §9" when it was not (Doc_02 §1).** Withdrawn: the cap-ruling review (D7). It is now §9 item 11.
+
+**3.24 The Registry word counts and the Living-document protocol pointer to "`Doc_02_Source_Ecology.md` §9" (Source Registry header, protocol).** Withdrawn: the cap-ruling review (D6, D9). The counts are re-run, and the pointer names §9 item 3.
+
+**3.25 Registry row 11a and Doc_02 §1 listing `iv.x.clxxiii` in the 430-431 run; row 23 and Doc_02 §1 calling the *Synodicon* out of the window "by subject and date" with its letters "wholly after the window".** Withdrawn: the second cap-ruling review (R2-D1); see §2.21 and §2.22.
+
+**3.26 Registry row 25a crediting "a Syriac account quoted in Nau's introduction" with the letters to the governor of the Thebaid.** Withdrawn: the second cap-ruling review (R2-D2); see §2.23.
+
+**3.27 Registry row 24: canon XI cited to `xii.vii-p26`; the *Bazaar* "composed about twenty years after the window closed".** Withdrawn: the second cap-ruling review (R2-D3, R2-D6); see §2.24.
+
+**3.28 Table D's "Assigned elsewhere" column complete for all 94 files; Registry row 26 saying all its Greek works have English covered by rows 5, 6, 6a and 9.** Withdrawn: the second cap-ruling review (R2-D4, R2-D5). Four Table D rows omitted current buckets, and *On compunction* and the PG 52 homily on the exile of Saturninus and Aurelian have no `npnf109` division.

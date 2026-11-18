@@ -95,7 +95,7 @@ positions:
   man, rather than as a rule for everyone
 tensions:
 - whether our rural strength amounted to a movement of the poor is the most contested single argument
-  made about us, and we decline to settle it in our own favour
+  made about us, and we decline to settle it in our own favor
 - nothing whatever survives about marriage among us - not a rite, not a rule, not a description
 - our money record is a record of scandal, so it shows what money did among us and not what we taught
   about it

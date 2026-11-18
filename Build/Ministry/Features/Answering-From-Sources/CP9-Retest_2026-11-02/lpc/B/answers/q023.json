@@ -1,0 +1,221 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "lpc.witness.almsgiving-quenches-sin",
+    "lpc.witness.confessor-claim-vs-regulated-peace"
+   ],
+   "sentence": "Among us, belonging asked a share of what a person owned, and for some it asked suffering."
+  },
+  {
+   "record_ids": [
+    "lpc.witness.almsgiving-quenches-sin"
+   ],
+   "sentence": "Cyprian wrote a whole treatise on almsgiving, much of it aimed at believers who had money."
+  },
+  {
+   "record_ids": [
+    "lpc.witness.almsgiving-quenches-sin"
+   ],
+   "sentence": "He told them their wealth was for sharing with Christ, and he called almsgiving the ordinary remedy for sin after baptism."
+  },
+  {
+   "record_ids": [
+    "lpc.witness.confessor-claim-vs-regulated-peace",
+    "lpc.term.confessor"
+   ],
+   "sentence": "Those who confessed Christ under questioning and suffered for it held that their suffering gave them standing to ask peace for others."
+  },
+  {
+   "record_ids": [
+    "lpc.story.the-plague-and-the-enemies"
+   ],
+   "sentence": "Our sayings tell of our bishop Cyprian and his people in hard times:"
+  },
+  {
+   "record_ids": [
+    "lpc.story.the-plague-and-the-enemies"
+   ],
+   "sentence": "A dreadful plague broke out and killed countless people every day."
+  },
+  {
+   "record_ids": [
+    "lpc.story.the-plague-and-the-enemies"
+   ],
+   "sentence": "Everyone fled the infection, and they even put their own dying friends out of their homes."
+  },
+  {
+   "record_ids": [
+    "lpc.story.the-plague-and-the-enemies"
+   ],
+   "sentence": "When we gathered, our bishop told us that there was nothing special about caring only for our own people."
+  },
+  {
+   "record_ids": [
+    "lpc.story.the-plague-and-the-enemies"
+   ],
+   "sentence": "We had to love even our enemies and pray for those who persecute us."
+  },
+  {
+   "record_ids": [
+    "lpc.story.the-plague-and-the-enemies"
+   ],
+   "sentence": "So good was done to everyone, not only to our own people."
+  },
+  {
+   "record_ids": [
+    "lpc.story.the-plague-and-the-enemies"
+   ],
+   "sentence": "Our deacon Pontius judged that more was done here than in the story of Tobias, who had gathered the dead of his own people only."
+  }
+ ],
+ "citations": [
+  "lpc.story.the-plague-and-the-enemies",
+  "lpc.term.confessor",
+  "lpc.witness.almsgiving-quenches-sin",
+  "lpc.witness.confessor-claim-vs-regulated-peace"
+ ],
+ "group": "A",
+ "id": "q023",
+ "net_sentences": [
+  {
+   "draft": "Among us, belonging asked a share of what a person owned, and for some it asked suffering [[lpc.witness.almsgiving-quenches-sin]][[lpc.witness.confessor-claim-vs-regulated-peace]][[as:paraphrase]].",
+   "sentence": "Among us, belonging asked a share of what a person owned, and for some it asked suffering.",
+   "tags": [
+    "lpc.witness.almsgiving-quenches-sin",
+    "lpc.witness.confessor-claim-vs-regulated-peace"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Cyprian wrote a whole treatise on almsgiving, much of it aimed at believers who had money [[lpc.witness.almsgiving-quenches-sin]][[as:paraphrase]].",
+   "sentence": "Cyprian wrote a whole treatise on almsgiving, much of it aimed at believers who had money.",
+   "tags": [
+    "lpc.witness.almsgiving-quenches-sin"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "He told them their wealth was for sharing with Christ, and he called almsgiving the ordinary remedy for sin after baptism [[lpc.witness.almsgiving-quenches-sin]][[as:paraphrase]].",
+   "sentence": "He told them their wealth was for sharing with Christ, and he called almsgiving the ordinary remedy for sin after baptism.",
+   "tags": [
+    "lpc.witness.almsgiving-quenches-sin"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Those who confessed Christ under questioning and suffered for it held that their suffering gave them standing to ask peace for others [[lpc.witness.confessor-claim-vs-regulated-peace]][[lpc.term.confessor]][[as:paraphrase]].",
+   "sentence": "Those who confessed Christ under questioning and suffered for it held that their suffering gave them standing to ask peace for others.",
+   "tags": [
+    "lpc.witness.confessor-claim-vs-regulated-peace",
+    "lpc.term.confessor"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Our sayings tell of our bishop Cyprian and his people in hard times: [[story:lpc.story.the-plague-and-the-enemies:medium]]",
+   "ratio": 0.43,
+   "sentence": "Our sayings tell of our bishop Cyprian and his people in hard times:",
+   "tags": [
+    "lpc.story.the-plague-and-the-enemies"
+   ],
+   "verdict": "ok",
+   "why": "grounded 43% in own tagged records"
+  },
+  {
+   "draft": "A dreadful plague broke out and killed countless people every day [[lpc.story.the-plague-and-the-enemies]].",
+   "placed_story": "lpc.story.the-plague-and-the-enemies",
+   "sentence": "A dreadful plague broke out and killed countless people every day.",
+   "tags": [
+    "lpc.story.the-plague-and-the-enemies"
+   ],
+   "verdict": "ok",
+   "why": "story placed by code, verbatim to its record"
+  },
+  {
+   "draft": "Everyone fled the infection, and they even put their own dying friends out of their homes [[lpc.story.the-plague-and-the-enemies]].",
+   "placed_story": "lpc.story.the-plague-and-the-enemies",
+   "sentence": "Everyone fled the infection, and they even put their own dying friends out of their homes.",
+   "tags": [
+    "lpc.story.the-plague-and-the-enemies"
+   ],
+   "verdict": "ok",
+   "why": "story placed by code, verbatim to its record"
+  },
+  {
+   "draft": "When we gathered, our bishop told us that there was nothing special about caring only for our own people [[lpc.story.the-plague-and-the-enemies]].",
+   "placed_story": "lpc.story.the-plague-and-the-enemies",
+   "sentence": "When we gathered, our bishop told us that there was nothing special about caring only for our own people.",
+   "tags": [
+    "lpc.story.the-plague-and-the-enemies"
+   ],
+   "verdict": "ok",
+   "why": "story placed by code, verbatim to its record"
+  },
+  {
+   "draft": "We had to love even our enemies and pray for those who persecute us [[lpc.story.the-plague-and-the-enemies]].",
+   "placed_story": "lpc.story.the-plague-and-the-enemies",
+   "sentence": "We had to love even our enemies and pray for those who persecute us.",
+   "tags": [
+    "lpc.story.the-plague-and-the-enemies"
+   ],
+   "verdict": "ok",
+   "why": "story placed by code, verbatim to its record"
+  },
+  {
+   "draft": "So good was done to everyone, not only to our own people [[lpc.story.the-plague-and-the-enemies]].",
+   "placed_story": "lpc.story.the-plague-and-the-enemies",
+   "sentence": "So good was done to everyone, not only to our own people.",
+   "tags": [
+    "lpc.story.the-plague-and-the-enemies"
+   ],
+   "verdict": "ok",
+   "why": "story placed by code, verbatim to its record"
+  },
+  {
+   "draft": "Our deacon Pontius judged that more was done here than in the story of Tobias, who had gathered the dead of his own people only [[lpc.story.the-plague-and-the-enemies]].",
+   "placed_story": "lpc.story.the-plague-and-the-enemies",
+   "sentence": "Our deacon Pontius judged that more was done here than in the story of Tobias, who had gathered the dead of his own people only.",
+   "tags": [
+    "lpc.story.the-plague-and-the-enemies"
+   ],
+   "verdict": "ok",
+   "why": "story placed by code, verbatim to its record"
+  }
+ ],
+ "offered": [
+  "lpc.witness.confessor-claim-vs-regulated-peace",
+  "lpc.term.confessor",
+  "lpc.quote.pardon-through-a-wicked-clergyman",
+  "lpc.quote.thousands-of-certificates-daily",
+  "lpc.force.confessors-claim-to-grant-peace",
+  "lpc.witness.baptism-as-new-birth",
+  "lpc.story.the-plague-and-the-enemies",
+  "lpc.story.hundred-thousand-sesterces",
+  "lpc.story.the-psalms-on-the-wall",
+  "lpc.quote.thank-offerings-for-the-very-good",
+  "lpc.quote.not-his-own-sins-but-the-sins-of-another",
+  "lpc.force.decian-persecution-libelli-system"
+ ],
+ "raw_text": "Among us, belonging asked a share of what a person owned, and for some it asked suffering [[lpc.witness.almsgiving-quenches-sin]][[lpc.witness.confessor-claim-vs-regulated-peace]][[as:paraphrase]]. Cyprian wrote a whole treatise on almsgiving, much of it aimed at believers who had money [[lpc.witness.almsgiving-quenches-sin]][[as:paraphrase]]. He told them their wealth was for sharing with Christ, and he called almsgiving the ordinary remedy for sin after baptism [[lpc.witness.almsgiving-quenches-sin]][[as:paraphrase]]. Those who confessed Christ under questioning and suffered for it held that their suffering gave them standing to ask peace for others [[lpc.witness.confessor-claim-vs-regulated-peace]][[lpc.term.confessor]][[as:paraphrase]]. Our sayings tell of our bishop Cyprian and his people in hard times: [[story:lpc.story.the-plague-and-the-enemies:medium]]\n",
+ "reply_shape": {
+  "placed": [
+   "lpc.story.the-plague-and-the-enemies"
+  ],
+  "removed": [],
+  "repaired": [],
+  "story_lengths": {
+   "lpc.story.the-plague-and-the-enemies": "short"
+  }
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": "C12.S6",
+ "text": "Among us, belonging asked a share of what a person owned, and for some it asked suffering. Cyprian wrote a whole treatise on almsgiving, much of it aimed at believers who had money. He told them their wealth was for sharing with Christ, and he called almsgiving the ordinary remedy for sin after baptism. Those who confessed Christ under questioning and suffered for it held that their suffering gave them standing to ask peace for others. Our sayings tell of our bishop Cyprian and his people in hard times:\n\nA dreadful plague broke out and killed countless people every day. Everyone fled the infection, and they even put their own dying friends out of their homes.\n\nWhen we gathered, our bishop told us that there was nothing special about caring only for our own people. We had to love even our enemies and pray for those who persecute us.\n\nSo good was done to everyone, not only to our own people. Our deacon Pontius judged that more was done here than in the story of Tobias, who had gathered the dead of his own people only.",
+ "voice_set_aside": false
+}

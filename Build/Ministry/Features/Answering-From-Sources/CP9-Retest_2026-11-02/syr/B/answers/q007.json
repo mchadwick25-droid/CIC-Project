@@ -1,0 +1,219 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "syr.dw.doubt"
+   ],
+   "sentence": "Yes, there was room, because we taught that faith is a building that rises piece by piece, and not a certainty held from the first day."
+  },
+  {
+   "record_ids": [
+    "syr.dw.doubt"
+   ],
+   "sentence": "It rests on one foundation stone, and fasting, prayer, and love are added like courses of stone."
+  },
+  {
+   "record_ids": [
+    "syr.dw.doubt"
+   ],
+   "sentence": "What we distrusted was not the struggling believer, but the prying scrutinizer who would take the Godhead apart like a problem to be solved."
+  },
+  {
+   "record_ids": [
+    "syr.dw.doubt"
+   ],
+   "sentence": "Our own poet sang against that scrutiny while asking questions of his own, hymn after hymn."
+  },
+  {
+   "record_ids": [
+    "syr.quote.as-a-stonecutter-i-have-brought-stones"
+   ],
+   "sentence": "Aphrahat closed his tenth Demonstration with these words: “These things are not enough by themselves. Hear them from me without quarreling, and ask about them among brothers who are open to persuasion. Whatever you hear that truly builds up, receive. Whatever builds up strange teachings, overthrow and demolish completely. For quarreling cannot build anything up. But I, my beloved, like a stonecutter have brought stones for the building. Let wise architects carve them out and set them in the building. Everyone who labors on the building will receive a reward from the Lord of the house.”"
+  },
+  {
+   "record_ids": [
+    "syr.dw.doubt"
+   ],
+   "sentence": "Hard challenges were not run from either."
+  },
+  {
+   "record_ids": [
+    "syr.dw.doubt"
+   ],
+   "sentence": "A debater once taunted our sage that his prayers had not stopped the persecution, and the sage says the taunt troubled him, and he answered it from Scripture."
+  },
+  {
+   "record_ids": [
+    "syr.dw.penitence-prayer"
+   ],
+   "sentence": "For the wounded believer, our teachers talked like field surgeons: the only fatal mistake is hiding the wound until it gets worse."
+  },
+  {
+   "record_ids": [
+    "syr.dw.penitence-prayer"
+   ],
+   "sentence": "They said to confess to one who can help, and that the physician must not turn you away or tell others what you show him."
+  },
+  {
+   "record_ids": [
+    "syr.dw.penitence-prayer"
+   ],
+   "sentence": "As for prayer that goes unanswered, we knew that silence at its harshest, and we endured inside it."
+  },
+  {
+   "record_ids": [
+    "syr.dw.doubt"
+   ],
+   "sentence": "A private inner crisis of doubt is not something we wrote about."
+  }
+ ],
+ "citations": [
+  "syr.dw.doubt",
+  "syr.dw.penitence-prayer",
+  "syr.quote.as-a-stonecutter-i-have-brought-stones"
+ ],
+ "group": "A",
+ "id": "q007",
+ "net_sentences": [
+  {
+   "draft": "Yes, there was room, because we taught that faith is a building that rises piece by piece, and not a certainty held from the first day [[syr.dw.doubt]] [[as:paraphrase]].",
+   "sentence": "Yes, there was room, because we taught that faith is a building that rises piece by piece, and not a certainty held from the first day.",
+   "tags": [
+    "syr.dw.doubt"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "It rests on one foundation stone, and fasting, prayer, and love are added like courses of stone [[syr.dw.doubt]] [[as:paraphrase]].",
+   "sentence": "It rests on one foundation stone, and fasting, prayer, and love are added like courses of stone.",
+   "tags": [
+    "syr.dw.doubt"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "What we distrusted was not the struggling believer, but the prying scrutinizer who would take the Godhead apart like a problem to be solved [[syr.dw.doubt]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "What we distrusted was not the struggling believer, but the prying scrutinizer who would take the Godhead apart like a problem to be solved.",
+   "tags": [
+    "syr.dw.doubt"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "Our own poet sang against that scrutiny while asking questions of his own, hymn after hymn [[syr.dw.doubt]] [[as:paraphrase]].",
+   "sentence": "Our own poet sang against that scrutiny while asking questions of his own, hymn after hymn.",
+   "tags": [
+    "syr.dw.doubt"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Aphrahat closed his tenth Demonstration with these words: [[quote:syr.quote.as-a-stonecutter-i-have-brought-stones]]",
+   "placed_quote": "syr.quote.as-a-stonecutter-i-have-brought-stones",
+   "sentence": "Aphrahat closed his tenth Demonstration with these words: “These things are not enough by themselves. Hear them from me without quarreling, and ask about them among brothers who are open to persuasion. Whatever you hear that truly builds up, receive. Whatever builds up strange teachings, overthrow and demolish completely. For quarreling cannot build anything up. But I, my beloved, like a stonecutter have brought stones for the building. Let wise architects carve them out and set them in the building. Everyone who labors on the building will receive a reward from the Lord of the house.”",
+   "tags": [
+    "syr.quote.as-a-stonecutter-i-have-brought-stones"
+   ],
+   "verdict": "ok",
+   "why": "quote placed by code, verbatim to its record"
+  },
+  {
+   "draft": "Hard challenges were not run from either [[syr.dw.doubt]] [[as:paraphrase]].",
+   "sentence": "Hard challenges were not run from either.",
+   "tags": [
+    "syr.dw.doubt"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "A debater once taunted our sage that his prayers had not stopped the persecution, and the sage says the taunt troubled him, and he answered it from Scripture [[syr.dw.doubt]] [[as:paraphrase]].",
+   "ratio": 0.75,
+   "sentence": "A debater once taunted our sage that his prayers had not stopped the persecution, and the sage says the taunt troubled him, and he answered it from Scripture.",
+   "tags": [
+    "syr.dw.doubt"
+   ],
+   "verdict": "ok",
+   "why": "grounded 75% in own tagged records"
+  },
+  {
+   "draft": "For the wounded believer, our teachers talked like field surgeons: the only fatal mistake is hiding the wound until it gets worse [[syr.dw.penitence-prayer]] [[as:paraphrase]].",
+   "sentence": "For the wounded believer, our teachers talked like field surgeons: the only fatal mistake is hiding the wound until it gets worse.",
+   "tags": [
+    "syr.dw.penitence-prayer"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "They said to confess to one who can help, and that the physician must not turn you away or tell others what you show him [[syr.dw.penitence-prayer]] [[as:paraphrase]].",
+   "sentence": "They said to confess to one who can help, and that the physician must not turn you away or tell others what you show him.",
+   "tags": [
+    "syr.dw.penitence-prayer"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "As for prayer that goes unanswered, we knew that silence at its harshest, and we endured inside it [[syr.dw.penitence-prayer]] [[as:paraphrase]].",
+   "sentence": "As for prayer that goes unanswered, we knew that silence at its harshest, and we endured inside it.",
+   "tags": [
+    "syr.dw.penitence-prayer"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "A private inner crisis of doubt is not something we wrote about [[syr.dw.doubt]] [[as:paraphrase]].",
+   "sentence": "A private inner crisis of doubt is not something we wrote about.",
+   "tags": [
+    "syr.dw.doubt"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  }
+ ],
+ "offered": [
+  "syr.dw.doubt",
+  "syr.story.ephrem-roll-and-vine",
+  "syr.quote.as-a-stonecutter-i-have-brought-stones",
+  "syr.force.frontier-plural-milieu",
+  "syr.dw.penitence-prayer",
+  "syr.quote.aphrahat-medicine-penitence",
+  "syr.limit.ritual-sequence",
+  "syr.dw.adam-grace",
+  "syr.term.qyama",
+  "syr.term.ihidaya",
+  "syr.quote.dem6-visit-the-sick",
+  "syr.force.qyama-commitment"
+ ],
+ "raw_text": "Yes, there was room, because we taught that faith is a building that rises piece by piece, and not a certainty held from the first day [[syr.dw.doubt]] [[as:paraphrase]].\nIt rests on one foundation stone, and fasting, prayer, and love are added like courses of stone [[syr.dw.doubt]] [[as:paraphrase]].\nWhat we distrusted was not the struggling believer, but the prying scrutinizer who would take the Godhead apart like a problem to be solved [[syr.dw.doubt]] [[as:paraphrase]].\nOur own poet sang against that scrutiny while asking questions of his own, hymn after hymn [[syr.dw.doubt]] [[as:paraphrase]].\nAphrahat closed his tenth Demonstration with these words: [[quote:syr.quote.as-a-stonecutter-i-have-brought-stones]]\nHard challenges were not run from either [[syr.dw.doubt]] [[as:paraphrase]].\nA debater once taunted our sage that his prayers had not stopped the persecution, and the sage says the taunt troubled him, and he answered it from Scripture [[syr.dw.doubt]] [[as:paraphrase]].\nFor the wounded believer, our teachers talked like field surgeons: the only fatal mistake is hiding the wound until it gets worse [[syr.dw.penitence-prayer]] [[as:paraphrase]].\nThey said to confess to one who can help, and that the physician must not turn you away or tell others what you show him [[syr.dw.penitence-prayer]] [[as:paraphrase]].\nAs for prayer that goes unanswered, we knew that silence at its harshest, and we endured inside it [[syr.dw.penitence-prayer]] [[as:paraphrase]].\nA private inner crisis of doubt is not something we wrote about [[syr.dw.doubt]] [[as:paraphrase]].\n",
+ "reply_shape": {
+  "leadin_support": {
+   "syr.quote.as-a-stonecutter-i-have-brought-stones": [
+    {
+     "detail": "Demonstration",
+     "kind": "name",
+     "snippet": "building will receive a reward from the Lord of the house. Demonstration X (Of Pastors), sec. 9, in the NPNF translation (npnf213_gr",
+     "span": "record syr.quote.as-a-stonecutter-i-have-brought-stones"
+    }
+   ]
+  },
+  "placed": [
+   "syr.quote.as-a-stonecutter-i-have-brought-stones"
+  ],
+  "removed": [],
+  "repaired": []
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": "C14.S4",
+ "text": "Yes, there was room, because we taught that faith is a building that rises piece by piece, and not a certainty held from the first day. It rests on one foundation stone, and fasting, prayer, and love are added like courses of stone. What we distrusted was not the struggling believer, but the prying scrutinizer who would take the Godhead apart like a problem to be solved. Our own poet sang against that scrutiny while asking questions of his own, hymn after hymn. Aphrahat closed his tenth Demonstration with these words: “These things are not enough by themselves. Hear them from me without quarreling, and ask about them among brothers who are open to persuasion. Whatever you hear that truly builds up, receive. Whatever builds up strange teachings, overthrow and demolish completely. For quarreling cannot build anything up. But I, my beloved, like a stonecutter have brought stones for the building. Let wise architects carve them out and set them in the building. Everyone who labors on the building will receive a reward from the Lord of the house.”\n\nHard challenges were not run from either. A debater once taunted our sage that his prayers had not stopped the persecution, and the sage says the taunt troubled him, and he answered it from Scripture. For the wounded believer, our teachers talked like field surgeons: the only fatal mistake is hiding the wound until it gets worse. They said to confess to one who can help, and that the physician must not turn you away or tell others what you show him. As for prayer that goes unanswered, we knew that silence at its harshest, and we endured inside it. A private inner crisis of doubt is not something we wrote about.",
+ "voice_set_aside": false
+}

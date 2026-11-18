@@ -1,0 +1,14 @@
+{
+ "abstained_rewrite_failed_read": 2,
+ "answers": 28,
+ "clean": 15,
+ "placements_dropped": 6,
+ "problems": {
+  "added_detail": 6,
+  "other": 2,
+  "stronger_force": 1,
+  "widened_scope": 2
+ },
+ "rewritten": 11,
+ "unsupported_sentences": 11
+}

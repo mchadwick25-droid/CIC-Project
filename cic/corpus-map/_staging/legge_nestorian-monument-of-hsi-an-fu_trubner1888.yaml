@@ -1,0 +1,33 @@
+source_file: legge_nestorian-monument-of-hsi-an-fu_trubner1888.txt
+authors_ruled:
+  xian_stele_inscription_781:
+    kind: anonymous
+    evidence: >-
+      The inscription of 781 is composed, by its own text, by "Ching-tsing, a priest of the Ta Ts'in Monastery" (Legge's heading at about OCR line 347; Adam the chorepiscopos is named with him) and is a community document set up on a stone, not a work of one author whose name is ruled here. Treated as a work, a document of the Church of the East in Tang China.
+  legge:
+    kind: metadata-omission
+    evidence: >-
+      The file is plain text with no markup to hold a creator. The translator and lecturer is named on the title page: James Legge, Professor of Chinese at Oxford, 1888. The slug is used only for his notes and lecture.
+assignments:
+- row_id: legge_nestorian-monument-of-hsi-an-fu_trubner1888--xi-an-stele-in-legge-s-english
+  work: The Xi'an stele of 781 (the Nestorian Monument), in Legge's English translation with his notes (1888)
+  author: xian_stele_inscription_781
+  locus: about OCR lines 342-3550; add 11 to OCR line numbers. The Chinese characters are not in the OCR.
+  atlas_ids:
+  - the-church-of-the-east-on-the-silk-road
+  role: tradition
+  confidence: assigned
+  language: eng
+  note: >-
+    The stele that tells of Alopen (Legge writes Olopun) reaching the Tang capital, in a translation made independently of Wylie's and Pauthier's, with Legge's footnotes. Legge's English of 1888 is a translation; the Chinese is not readable from this OCR. Quote it as Legge's English; the project's own rendering from the Chinese is a separate step (INTAKE.md). The Syriac names on the stone's sides are not transcribed in this OCR.
+- row_id: legge_nestorian-monument-of-hsi-an-fu_trubner1888--legge-s-lecture-on-the-monument
+  work: Legge's lecture on the Nestorian Monument, with his sketch of later Christian missions in China (1888)
+  author: legge
+  locus: about OCR lines 3556-end; add 11 to OCR line numbers
+  atlas_ids:
+  - the-church-of-the-east-on-the-silk-road
+  role: context
+  confidence: provisional
+  language: eng
+  note: >-
+    A Victorian missionary scholar's account of the monument and of the later Catholic and Protestant missions in China; the voice of 1888, not of the stele. Context for the Silk Road entry; the later-missions half could serve entries on Catholic and Protestant China, not assigned here.

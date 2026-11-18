@@ -1,0 +1,18 @@
+source_file: cox-george-w_life-of-john-william-colenso-v1_1888.txt
+assignments:
+- row_id: cox-george-w_life-of-john-william-colenso-v1_1888--cox-life-of-colenso-v1
+  work: 'Cox, The Life of John William Colenso, vol. I (1888)'
+  author: cox-george-w
+  locus: 'chapters I-XII at OCR lines 715-30173; add 12 to OCR line numbers'
+  atlas_ids:
+  - victorian-church-of-england
+  - southern-african-mission-churches
+  role: context
+  confidence: provisional
+  language: eng
+  date: {start: 1888, end: 1888, source: "title page: 1888 (page image); preface dated 10 December 1887", formation_confidence: Documented}
+  note: 'A friend''s Life, written to defend the bishop, with many of his letters. The letters are first-hand; the argument is Cox''s.'
+authors_ruled:
+  cox-george-w:
+    kind: metadata-omission
+    evidence: "The title page reads 'by the Rev. Sir George W. Cox, Bart., M.A.' (file lines 275-277)."

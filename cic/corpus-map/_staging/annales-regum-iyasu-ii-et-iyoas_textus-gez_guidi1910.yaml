@@ -1,0 +1,17 @@
+source_file: annales-regum-iyasu-ii-et-iyoas_textus-gez_guidi1910.txt
+assignments:
+- row_id: annales-regum-iyasu-ii-et-iyoas_textus-gez_guidi1910--annals-of-iyasu-ii-and-iyoas-geez-guidi-1910
+  work: 'Annals of Iyasu II and of Iyo''as, Ge''ez text (Guidi 1910)'
+  author: ethiopian-royal-chronicles
+  locus: 'Iyasu II at OCR lines 272-11282; Iyo''as at 11283 to about 16975; add 12 to OCR line numbers'
+  atlas_ids:
+  - ethiopian-christianity-gondar-to-the-zemene-mesafint
+  role: tradition
+  confidence: provisional
+  language: gez
+  date: {formation_confidence: unknown, checked: "the title page (OCR lines 121-165) and the headings at 272 and 11283 give no year of writing; the Latin preface (177-250) was not read through"}
+  note: 'The two chronicles in Ge''ez. A second witness beside the French until the OCR is checked against the print.'
+authors_ruled:
+  ethiopian-royal-chronicles:
+    kind: anonymous
+    evidence: "The title page (file lines 133-177) names the kings whose annals these are and Ignazio Guidi as editor; it names no author."

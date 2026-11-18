@@ -1,0 +1,1484 @@
+{
+ "round": 1,
+ "links": [
+  {
+   "old_index": null,
+   "id": "desert-monasticism--cyrilline-miaphysite-egyptian-christianity",
+   "action": "new",
+   "from": "desert-monasticism",
+   "to": "cyrilline-miaphysite-egyptian-christianity",
+   "type": "influenced",
+   "confidence": "Documented",
+   "note": "The Egyptian church's History of the Patriarchs, compiled centuries later, ties its Miaphysite patriarchs to the desert monasteries. It says Patriarch Peter's letters were kept at the Monastery of Macarius. It says Patriarch Benjamin, in flight, passed through the monasteries of Wadi Habib before hiding in Upper Egypt.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Severus ibn al-Muqaffa (attrib.), History of the Patriarchs of the Coptic Church of Alexandria (Evetts, PO 1), Peter (Peter Mongus, 477-490)",
+     "file": "cic/texts/severus-al-muqaffa_history-patriarchs-coptic-church-v1_evetts1904.txt",
+     "lines": "35554-35555",
+     "locus": "History of the Patriarchs, Pt. I, Peter Mongus",
+     "quote": "All his epistles are preserved in the Monastery of Father Macarius",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Severus ibn al-Muqaffa (attrib.), History of the Patriarchs of the Coptic Church of Alexandria (Evetts, PO 1), Benjamin I",
+     "file": "cic/texts/severus-al-muqaffa_history-patriarchs-coptic-church-v1_evetts1904.txt",
+     "lines": "43445-43447",
+     "locus": "History of the Patriarchs, Pt. I, Ch. XIV (Benjamin I)",
+     "quote": "Then Benjamin went forth from the monasteries in Wadi Habib, and departed to Lpper Egypt; and he remained hidden there in a small monastery in the wilderness",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "cyrilline-miaphysite-egyptian-christianity relationsSummary ('Continues ... Desert') and longDescription ('carried by the monasteries of the Egyptian desert'); the desert-monasticism text does not name this church (era2_names_it false).",
+   "wants": [
+    "A text from inside 451-642 (e.g. a Life of a Scetis abbot, or Zachariah Rhetor on the Egyptian monks' refusal of Chalcedon, read for the purpose) naming the desert monasteries as the anti-Chalcedonian party's base."
+   ],
+   "drafter_flags": [
+    "Type is a judgment. The monasteries of Scetis (Wadi Habib, Wadi al-Natrun) are the desert world's own foundations carried on into this church; 'influenced' is the nearest of the six types. 'continued as' would claim the whole desert world became this church, which nothing shows.",
+    "The History of the Patriarchs is a tenth-century compilation of earlier lives. It is this church's own record, used the same way in the existing desert-monasticism--coptic-christianity-under-early-islam and coptic--alexandria links. 'Lpper' is the file's OCR for 'Upper'.",
+    "The note no longer says 'Scetis' or 'old': neither word is in the quoted lines. 'Wadi Habib' is the History's own name for the monastic district."
+   ],
+   "change_reason": "New: the Miaphysite text names the desert monasteries as its carriers, and no link existed.",
+   "group": "A",
+   "revision_round1": [
+    "R1-01: Note corrected: Benjamin went to Wadi Habib, found few monks, then left and hid in Upper Egypt (lines 43442-43447); 'old' and 'Scetis' removed; Benjamin quote extended to show the hiding place."
+   ]
+  },
+  {
+   "old_index": null,
+   "id": "cyrilline-miaphysite-egyptian-christianity--nubian-christianity",
+   "action": "new",
+   "from": "cyrilline-miaphysite-egyptian-christianity",
+   "to": "nubian-christianity",
+   "type": "gave rise to",
+   "confidence": "Documented",
+   "note": "John of Ephesus says the priest Julian, backed by the empress Theodora, converted the king of the Nobadae. Julian was one of the clergy of Theodosius, the exiled patriarch of Alexandria. He told them to 'walk in the ways of pope Theodosius', and they were placed under Theodosius as patriarch.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "John of Ephesus, Ecclesiastical History, Part III, IV.6 (Payne Smith, 1860)",
+     "file": "cic/texts/john-ephesus_ecclesiastical-history-part3_paynesmith1860.txt",
+     "lines": "10926-10928",
+     "locus": "HE III, IV.6",
+     "quote": "was a presbyter named Julianus, an old man of great worth, who conceived an earnest spi ritual desire to christianize the wandering people",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "John of Ephesus, Ecclesiastical History, Part III, IV.7 (Payne Smith, 1860)",
+     "file": "cic/texts/john-ephesus_ecclesiastical-history-part3_paynesmith1860.txt",
+     "lines": "11051-11053",
+     "locus": "HE III, IV.7",
+     "quote": "her majesty has sent us to you, that ye also may walk in the ways of pope Theodosius, and stand in his faith, and imitate his constancy.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "John of Ephesus, Ecclesiastical History, Part III, IV.8 (Payne Smith, 1860)",
+     "file": "cic/texts/john-ephesus_ecclesiastical-history-part3_paynesmith1860.txt",
+     "lines": "11118-11120",
+     "locus": "HE III, IV.8",
+     "quote": "The chief charge of the new converts was vested in Theodosius, as being patriarch of Alex andria",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "nubian-christianity relationsSummary ('Child of Egypt'), longDescription ('a Miaphysite priest named Julian sent with the empress Theodora's backing'), why ('rival missions ... one Miaphysite').",
+   "wants": [],
+   "drafter_flags": [
+    "John of Ephesus is the only narrative source and wrote for the Miaphysite side; the note names him. Julian set out from Theodosius's household in Constantinople, not from Egypt; the link runs from the Egyptian church because Julian was its patriarch's priest and the converts were placed under that patriarch.",
+    "The OCR splits 'spi ritual' and 'Alex andria'; the quotes keep the file's form. The note no longer gives 'the 540s', which John's text here does not state; 'backed by the empress Theodora' rests on 'the late queen Theodora' and 'her majesty has sent us' (lines 10935-10937, 11051)."
+   ],
+   "change_reason": "New: the Nubian text names Egypt's Miaphysite mission as its origin, and no link existed.",
+   "group": "A",
+   "revision_round1": [
+    "R1-15: 26-word first sentence split; undated decade replaced by what the text says (Theodora)."
+   ]
+  },
+  {
+   "id": "byzantine-imperial-church-justinianic--byzantine-imperial-church-heraclian-iconoclast",
+   "old_index": null,
+   "action": "new",
+   "from": "byzantine-imperial-church-justinianic",
+   "to": "byzantine-imperial-church-heraclian-iconoclast",
+   "type": "continued as",
+   "confidence": "Documented",
+   "note": "The patriarchate of Constantinople ran on through the reign of Heraclius. Sergius was its patriarch when Heraclius was crowned in 610. The council of 681 names Sergius, and after him Pyrrhus, Paul and Peter, 'who died bishops of this God-preserved city'.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Third Council of Constantinople (681), Session XIII, Sentence against the Monothelites (NPNF 2.14)",
+     "file": "cic/texts/npnf214_seven-ecumenical-councils.xml",
+     "lines": "25694-25697",
+     "locus": "Const. III, sess. XIII",
+     "quote": "the doctrinal letters of Sergius, at one time patriarch of this royal god-protected city to Cyrus, who was then bishop of Phasis and to Honorius some time Pope of Old Rome,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Third Council of Constantinople (681), Session XIII, Sentence against the Monothelites (NPNF 2.14)",
+     "file": "cic/texts/npnf214_seven-ecumenical-councils.xml",
+     "lines": "25704-25705",
+     "locus": "Const. III, sess. XIII",
+     "quote": "Sergius some time bishop of this God-preserved royal city who was the first to write on this impious doctrine;",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Third Council of Constantinople (681), Session XIII, Sentence against the Monothelites (NPNF 2.14)",
+     "file": "cic/texts/npnf214_seven-ecumenical-councils.xml",
+     "lines": "25706-25707",
+     "locus": "Const. III, sess. XIII",
+     "quote": "of Pyrrhus, Paul, and Peter, who died bishops of this God-preserved city",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Frédéric Macler, trans., Histoire d'Héraclius par l'évêque Sebêos (Paris, 1904), translator's note dating Heraclius's coronation by the patriarch Sergius to 6 October 610 (vendored: cic/texts/sebeos_histoire-d-heraclius-fra_macler1904.txt, note at file line 4565)",
+     "file": null,
+     "lines": null,
+     "quote": null
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "byzantine-imperial-church-justinianic legacy ('The same institution continued unbroken into the Byzantine centuries that followed'); byzantine-imperial-church-heraclian-iconoclast longDescription ('the same institution ... kept running')",
+   "wants": [
+    "A vendored primary text placing Sergius in office both before and after 622 (e.g. the Chronicon Paschale on the coronation of 610, or Theophanes), which would let this be Documented."
+   ],
+   "drafter_flags": [
+    "Documented on the council of 681, which names Sergius and then Pyrrhus, Paul and Peter as bishops of the same city: continuity of the same see. The 610 coronation date is Macler's note to Sebeos (file line 4565), kept as the secondary.",
+    "The earlier note's 'formula of Heraclius's later reign' is dropped; it rested only on the Heraclian movement's own text. The reviewer's suggested clause on Sergius writing to Honorius 'from 625' is not used: no vendored text read here dates Honorius."
+   ],
+   "change_reason": "New: the Byzantine legacy names the continuation and no link carried it.",
+   "group": "B",
+   "revision_round1": [
+    "R1-07: Regraded Documented on the 681 council (lines 25694-25707); added the Pyrrhus/Paul/Peter quote; unsourced clause removed."
+   ]
+  },
+  {
+   "id": "the-church-of-the-east-under-persia--the-church-of-the-east-on-the-silk-road",
+   "old_index": null,
+   "action": "new",
+   "from": "the-church-of-the-east-under-persia",
+   "to": "the-church-of-the-east-on-the-silk-road",
+   "type": "continued as",
+   "confidence": "Documented",
+   "note": "The acts of the Church of the East keep its synods in one series, before and after the Arab conquest of Persia. Gregory held one as patriarch in 605, and George another as catholicos in 676. No source from the time ties the China mission of 635 to the catholicos directly.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Synodicon Orientale, Synod of Gregory (605), heading (ed. and trans. Chabot, 1902)",
+     "file": "cic/texts/synodicon-orientale_recueil-de-synodes-nestoriens-syr-fra_chabot1902.txt",
+     "lines": "31396",
+     "locus": "Syn. Or., Synod of Gregory, A.D. 605",
+     "quote": "CANONS SYNODAUX ÉTABLIS PAR GRIGÔR, PATRIARCHE,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Synodicon Orientale, Synod of George I (676), heading (ed. and trans. Chabot, 1902)",
+     "file": "cic/texts/synodicon-orientale_recueil-de-synodes-nestoriens-syr-fra_chabot1902.txt",
+     "lines": "32005",
+     "locus": "Syn. Or., Synod of George I, A.D. 676",
+     "quote": "SYNODE DE NOTRE PÈRE SAINT ET BÉNI, LE BIENHEUREUX MAR GUIWARGUIS",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Synodicon Orientale, Synod of George I (676), closing line (ed. and trans. Chabot, 1902)",
+     "file": "cic/texts/synodicon-orientale_recueil-de-synodes-nestoriens-syr-fra_chabot1902.txt",
+     "lines": "32694",
+     "locus": "Syn. Or., Synod of George I",
+     "quote": "FIN DU SYNODE DE MAR GUIWARGUIS, CATHOLICOS.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "the-church-of-the-east-under-persia legacy ('The same institution continued without a break ... its missions reaching Central Asia and China') and longDescription ('the church carried straight on under new rulers'); the-church-of-the-east-on-the-silk-road relationsSummary ('A continuation of the Syriac Church of the East')",
+   "wants": [
+    "The Xi'an stele of 781 in a reliable translation of its Syriac lines, which name the catholicos; the vendored copy (Malech 1910, after Kircher) renders the name as 'John Joshua'.",
+    "Ishoyahb III's letters (ed. Duval, CSCO), for the catholicate across the conquest in his own words."
+   ],
+   "drafter_flags": [
+    "The years 605 and 676 are Chabot's headings ('[A. D. 605.]', file line 31393; 'A. D. 676.', line 32002), from the synods' own dating.",
+    "Chabot's note (lines 32034-32041) says George was ordained by the catholicos Ishoyahb III, who lived through the conquest; that is the editor, not the acts."
+   ],
+   "change_reason": "New: the legacy text names the continuation and no link carried it.",
+   "group": "B",
+   "revision_round1": [
+    "R1-14: 'No text we hold' replaced."
+   ]
+  },
+  {
+   "id": "the-church-of-the-east-under-persia--st-thomas-christians-of-india",
+   "old_index": null,
+   "action": "new",
+   "from": "the-church-of-the-east-under-persia",
+   "to": "st-thomas-christians-of-india",
+   "type": "influenced",
+   "confidence": "Inferential-Thin",
+   "note": "Cosmas, an Alexandrian traveler writing around 550, reported a church on India's pepper coast and a bishop at Kalyan appointed from Persia. He does not say the pepper-coast church was under Persia. No source from his time ties it to the Kerala church of the 800s, so the evidence is slight.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Cosmas Indicopleustes, Christian Topography III (trans. McCrindle, 1897)",
+     "file": "cic/texts/cosmas-indicopleustes_christian-topography_mccrindle1897.txt",
+     "lines": "7208-7209",
+     "locus": "Top. Christ. III",
+     "quote": "In the country called Male,1 where the pepper grows, there is also a church,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Cosmas Indicopleustes, Christian Topography III (trans. McCrindle, 1897)",
+     "file": "cic/texts/cosmas-indicopleustes_christian-topography_mccrindle1897.txt",
+     "lines": "7210-7211",
+     "locus": "Top. Christ. III",
+     "quote": "and at another place called Calliana2 there is moreover a bishop, who is appointed from Persia.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "the-church-of-the-east-under-persia relationsSummary, longDescription and why ('the St Thomas Christians of India belonged to its communion'), all rewritten in prose changes 3-5 to what Cosmas says; legacy ('Its Indian branch'); st-thomas-christians-of-india relationsSummary ('Daughter/partner of the Church of the East')",
+   "wants": [
+    "A vendored text tying the Kerala Christians of 849-1054 to the Persian church before 651 (e.g. Ishoyahb III's letter on the metropolitan of Rev-Ardashir and India, or the Chronicle of Seert on bishops sent to India)."
+   ],
+   "drafter_flags": [
+    "McCrindle's notes identify Male with Malabar and Calliana with Kalyan near Bombay (file lines 7222 and 18802). The digits in the quotes are his footnote marks, printed inline.",
+    "Type 'influenced' (clergy and order passed on) rather than 'gave rise to': the Indian church traces itself to the apostle Thomas, and Cosmas does not show it emerging from the Persian church.",
+    "The era-4 group for the St Thomas Christians will likely link them to the later Church of the East; this link covers only the earlier period the era-3 text names."
+   ],
+   "change_reason": "New: the Church of the East text names the St Thomas Christians three times; the one vendored witness for this period is thin, so the link is graded thin and the prose is brought down to it.",
+   "group": "B",
+   "revision_round1": [
+    "R1-14/R1-17: 'found' to 'reported' (the passage reports, lines 7208-7211); internal wording removed."
+   ]
+  },
+  {
+   "old_index": null,
+   "action": "new",
+   "citation_specificity": "A",
+   "verification_state": "named-not-rechecked",
+   "wants": [
+    "Giorgi Merchule, Life of Grigol of Khandzta, in a public-domain edition (e.g. Marr 1911), to show the revival from inside the Georgian church",
+    "Kartlis Tskhovreba for the seventh and eighth centuries in a readable vendored translation",
+    "Stephen H. Rapp Jr., The Sasanian World through Georgian Eyes (2014), read for the 609-780 gap"
+   ],
+   "drafter_flags": [
+    "Widely Accepted: Sebeos (primary) for the Georgian catholicate after the break; Brosset 1849 (secondary, read at file lines 2553-2593) for its continuity: 'l'interruption apparente du catholicat', a Samoel 'vers l'an 790' and a Samoel 'au milieu du VIIe siècle', and 'ce qui force à douter que ... le catholicat se soit éteint'.",
+    "Sebeos's 'le catholicos de Géorgie et d'Albanie' may be one man styled for both sees; the note says only that a catholicos of Georgia appears.",
+    "Verification 'named-not-rechecked': the quoted primary shows the catholicate, not the continuity itself, which rests on Brosset.",
+    "The 'monastic revival that began around 782' is dropped: it came only from the target movement's own text."
+   ],
+   "from": "georgian-christianity",
+   "to": "georgian-revival-tao-klarjeti",
+   "type": "continued as",
+   "confidence": "Widely Accepted",
+   "note": "After its break with Armenia around 600, a catholicos of Georgia still appears in the Armenian historian Sebeos. The historian Marie-Félicité Brosset names Georgian catholicoi in the mid-600s and around 790. He doubted that the see ever lapsed, though the sources for these years are thin.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Sebeos, History (Histoire d'Héraclius), ch. XXXIII (French trans. Macler, 1904)",
+     "file": "cic/texts/sebeos_histoire-d-heraclius-fra_macler1904.txt",
+     "lines": "7441-7443",
+     "locus": "ch. XXXIII, the debate on the councils before Khosrow II",
+     "quote": "Tenaient le parti de Chalcldoine le catholicos de G^orgie et d'Albanie avec beaucoup d'6v6ques de la region grecque",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Marie-Félicité Brosset, Histoire de la Géorgie, première partie (1849), introduction, on the apparent break in the Georgian catholicate (vendored: cic/texts/brosset_histoire-de-la-georgie-pt1-fra_1849.txt)",
+     "file": null,
+     "lines": null,
+     "quote": null
+    }
+   ],
+   "named_in_text": "georgian-christianity legacy ('the same institution continued through the medieval revival centuries into the present') and its continuesAs field.",
+   "change_reason": "New: the legacy and continuesAs name the succession; graded thin because the 609-780 gap has no vendored text.",
+   "group": "C",
+   "id": "georgian-christianity--georgian-revival-tao-klarjeti",
+   "revision_round1": [
+    "R1-08/R1-25: Regraded Widely Accepted on Sebeos + Brosset; unsourced revival date removed; break dated around 600 to match the other Georgian and Armenian texts."
+   ]
+  },
+  {
+   "old_index": null,
+   "action": "new",
+   "citation_specificity": "B",
+   "verification_state": "named-not-rechecked",
+   "wants": [
+    "The Book of Letters (Girk' T'łt'oc'), the acts and letters of the council of Dvin of 554, in a readable translation (Garsoian 1999 translates the key documents; in copyright)"
+   ],
+   "drafter_flags": [
+    "Ormanian, file lines 2549-2556: the decision on Chalcedon 'was confirmed under the patriarchate of Nerses II ... at the synod of Douine (554), at which the faith, as decreed at Ephesus, was emphatically proclaimed in opposition to Nestorian errors and Chalcedonian claims'. Sarkissian and Garsoian are cited in the census, not read.",
+    "The John of Ephesus episode (HE III, II.23) is about the catholicos's party in Constantinople in the early 570s, which falls in the next Armenian period (554-884). It is removed here; it could become a separate link from that period if a text names it.",
+    "'Its acts survive in the Armenian Book of Letters' is removed: no listed source states it. The reviewer's replacement 'survive only in Armenian' is not used either, for the same reason.",
+    "Whether 506 already rejected Chalcedon or only Nestorianism is a known scholarly question (Garsoian); the note says 'confirmed', as Ormanian does."
+   ],
+   "from": "armenian-christianity-after-avarayr",
+   "to": "byzantine-imperial-church-justinianic",
+   "type": "argued against",
+   "confidence": "Dominant Modern Reconstruction",
+   "note": "In 554 a council at Dvin, under the catholicos Nerses II, confirmed the Armenian church's rejection of the Council of Chalcedon. It proclaimed the faith of Ephesus against the claims of Chalcedon. This rests on modern histories of the Armenian church, chiefly Malachia Ormanian's.",
+   "sources": [
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Malachia Ormanian, The Church of Armenia (trans. G. Marcar Gregory, 1912), pp. 35-36 (the synods of Douine, 506 and 554) and p. 40 (Nerses II at Douine, 554) (vendored: cic/texts/ormanian_church-of-armenia_gregory1912.txt)",
+     "file": null,
+     "lines": null,
+     "quote": null
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Karekin Sarkissian, The Council of Chalcedon and the Armenian Church (1965)",
+     "file": null,
+     "lines": null,
+     "quote": null
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Nina Garsoian, L'Église arménienne et le grand schisme d'Orient (CSCO 574, 1999)",
+     "file": null,
+     "lines": null,
+     "quote": null
+    }
+   ],
+   "named_in_text": "armenian-christianity-after-avarayr relationsSummary ('rejects Chalcedon at Dvin'), longDescription ('at the second council of Dvin in 554 the church formally set itself outside Chalcedon') and why (the same).",
+   "change_reason": "New: three sentences of the after-Avarayr text name the rejection of Chalcedon; no link existed.",
+   "group": "C",
+   "id": "armenian-christianity-after-avarayr--byzantine-imperial-church-justinianic",
+   "revision_round1": [
+    "R1-05: Regraded Dominant Modern Reconstruction; John of Ephesus sources removed (wrong period); unsourced Book of Letters sentence removed."
+   ]
+  },
+  {
+   "old_index": null,
+   "action": "new",
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "wants": [
+    "The Book of Letters (Girk' T'łt'oc'), for the acts and signatures of the council of Dvin of 506"
+   ],
+   "drafter_flags": [
+    "The inventory mapped 'Armenian lines' to pre-Bagratid Armenia (554-884); the shared council (506) and the shared catholicos (c. 555) fall in the after-Avarayr window, so this link uses that movement. The later break (c. 600) is the separate broke-with link.",
+    "Reading Zachariah: the five peoples, their 24 bishops and their catholicos at Dvin are named first, and Gurzan and Arran follow in the list. That the catholicos at Dvin was Georgia's too is the natural reading but an interpretation; Ormanian states the shared synod and sees outright.",
+    "The earlier Armenian line into Georgia (Mesrop's teaching in Georgia, Koriun) belongs to the conversion-era Armenian church (era 2) and is not drafted here.",
+    "Type: a shared synod and a shared catholicos are more than contact, but no other type fits; 'in contact with' claims no influence."
+   ],
+   "from": "armenian-christianity-after-avarayr",
+   "to": "georgian-christianity",
+   "type": "in contact with",
+   "confidence": "Widely Accepted",
+   "note": "Georgian, Armenian and Albanian bishops met together at a council in Dvin in 506, says the Armenian historian Malachia Ormanian. A Syriac chronicle of about 555 gives the northern Christian peoples one catholicos, at Dvin. It then describes Georgia as a land with a Christian prince, subject to Persia.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Zachariah of Mitylene (Pseudo-Zachariah), Chronicle XII.7 (trans. Hamilton and Brooks, 1899)",
+     "file": "cic/texts/zachariah-rhetor_chronicle_hamiltonbrooks1899.txt",
+     "lines": "16315-16317",
+     "locus": "Book XII ch. 7, the northern peoples (written in Justinian's 28th year, c. 554/5)",
+     "quote": "And besides these there are also in this northern region five believing peoples, and their bishops are twenty-four, and their Catholic lives at D'win, the chief city of Persian Armenia.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Zachariah of Mitylene (Pseudo-Zachariah), Chronicle XII.7 (trans. Hamilton and Brooks, 1899)",
+     "file": "cic/texts/zachariah-rhetor_chronicle_hamiltonbrooks1899.txt",
+     "lines": "16341-16343",
+     "locus": "Book XII ch. 7, Gurzan (Georgia)",
+     "quote": "Further Gurzan,! a country in Armenia, and its language is like Greek ; and they have a Christian prince, who is subject to the king of Persia.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Malachia Ormanian, The Church of Armenia (trans. G. Marcar Gregory, 1912), p. 35 (the synod of Armenian, Georgian and Caspio-Albanian bishops at Douine, 506) and p. 132 (the catholicos once combined the sees of Georgia and Caspian Albania) (vendored: cic/texts/ormanian_church-of-armenia_gregory1912.txt)",
+     "file": null,
+     "lines": null,
+     "quote": null
+    }
+   ],
+   "named_in_text": "georgian-christianity relationsSummary ('Jerusalem and Armenian lines'); the Shushanik sentences (an Armenian princess married into Kartli).",
+   "change_reason": "New: the Georgian summary names an Armenian line; no link existed.",
+   "group": "C",
+   "id": "armenian-christianity-after-avarayr--georgian-christianity",
+   "revision_round1": [
+    "R1-16: Matched to the text: 'they have a Christian prince, who is subject to the king of Persia'."
+   ]
+  },
+  {
+   "old_index": null,
+   "action": "new",
+   "citation_specificity": "C",
+   "verification_state": "named-not-rechecked",
+   "wants": [
+    "Kekelidze's 1912 Russian edition of the Georgian Jerusalem lectionary (public domain by date), or any public-domain edition, vendored",
+    "A repo-cited secondary work on the Georgian lectionary and Jerusalem worship (none found in the repo)"
+   ],
+   "drafter_flags": [
+    "Tarchnischvili is an edition of the primary witness, not a secondary study; it is listed as 'secondary' only because it is not vendored (in copyright) and the source shape needs a file for a primary. It is named in the census and the Georgian source dossier.",
+    "No repo-cited secondary work supports the consensus reading, so Widely Accepted is out of reach; the claim is standard in liturgical scholarship.",
+    "Window mismatch: the Jerusalem movement ends c. 450, while the lectionary reflects Jerusalem worship to the eighth century, later than that movement. A reviewer may prefer to leave the link out until era 3's Jerusalem coverage is settled."
+   ],
+   "from": "jerusalem-liturgical-pilgrimage-christianity",
+   "to": "georgian-christianity",
+   "type": "influenced",
+   "confidence": "Inferential-Thin",
+   "note": "Georgian manuscripts keep a lectionary, the yearly order of Bible readings, that follows the worship of Jerusalem in the fifth to eighth centuries. Michel Tarchnischvili edited it in 1959–60. This rests on that one edition.",
+   "sources": [
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Michel Tarchnischvili, ed. and Latin trans., Le grand lectionnaire de l'Église de Jérusalem (Ve-VIIIe siècle), CSCO 188-189, 204-205 (1959-60)",
+     "file": null,
+     "lines": null,
+     "quote": null
+    }
+   ],
+   "named_in_text": "georgian-christianity relationsSummary ('Jerusalem ... lines'), longDescription ('Georgian manuscripts preserve the worship of fifth- to eighth-century Jerusalem') and legacy ('Georgian scribes translated and kept Jerusalem's liturgical books').",
+   "change_reason": "New: three Georgian sentences name the Jerusalem line; era-2 Jerusalem text does not name Georgia, so the relationship is this era's.",
+   "group": "C",
+   "id": "jerusalem-liturgical-pilgrimage-christianity--georgian-christianity",
+   "revision_round1": [
+    "R1-14: 'This link' removed."
+   ]
+  },
+  {
+   "old_index": null,
+   "id": "early-benedictine-italian-monasticism--cluniac-reform-monasticism",
+   "action": "new",
+   "from": "early-benedictine-italian-monasticism",
+   "to": "cluniac-reform-monasticism",
+   "type": "influenced",
+   "confidence": "Dominant Modern Reconstruction",
+   "note": "Two Benedictine editors of the Rule, Oswald Hunter Blair in 1907 and Cardinal Gasquet, explain its practice from Cluny's later customs. Gasquet calls it practically the only monastic rule of the West from the ninth to the twelfth century. The case rests on these two editors, not on Cluny's own texts.",
+   "sources": [
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "D. Oswald Hunter Blair, explanatory notes to The Rule of St. Benedict (Sands, 1907)",
+     "file": null,
+     "lines": null,
+     "quote": null
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Francis Aidan Gasquet, introduction to The Rule of Saint Benedict (Chatto and Windus edition, 1925)",
+     "file": null,
+     "lines": null,
+     "quote": null
+    }
+   ],
+   "citation_specificity": "C",
+   "verification_state": "named-not-rechecked",
+   "named_in_text": "early-benedictine legacy ('it stands behind the Cluniacs')",
+   "wants": [
+    "Cluny's foundation charter of 909/910, which places the house under the Rule of Saint Benedict (Bruel, Recueil des chartes de l'abbaye de Cluny I, 1876, public domain)",
+    "Bernard's or Ulrich's customary of Cluny (Ordo Cluniacensis), which Hunter Blair cites"
+   ],
+   "drafter_flags": [
+    "Grade reflects what is vendored, not doubt in the scholarship: Cluny's Benedictine observance is not in question, but no Cluniac text is vendored, so this can rise no higher than the editors who read Cluny's customs as Benedictine practice.",
+    "Secondary loci, for the reviewer only (secondaries carry no quote): Hunter Blair 1907 notes at benedict_rule-of-st-benedict-lat-eng_hunter-blair1907.txt lines 10525 ('the Ordo Cluniacensis'), 10868-10869 ('continued by the Congregation of Cluny'); Gasquet 1925 introduction at benedict_rule-of-saint-benedict_gasquet1925.txt lines 580-581 ('practically the only monastic Rule of the West').",
+    "The Cluny movement's own text says Cluny 'grew out of the Carolingian reform tradition'; this direct link and the Carolingian one may read as a chain. Both are named in the Benedictine text."
+   ],
+   "change_reason": "New: the Benedictine legacy names the Cluniacs; graded on the only repo evidence, two editors of the Rule.",
+   "group": "D",
+   "revision_round1": [
+    "R1-14: 'No text we hold' removed; the dependence on the two editors stated plainly."
+   ]
+  },
+  {
+   "old_index": null,
+   "id": "roman-church-gregorian--late-anglo-saxon-christianity",
+   "action": "new",
+   "from": "roman-church-gregorian",
+   "to": "late-anglo-saxon-christianity",
+   "type": "influenced",
+   "confidence": "Dominant Modern Reconstruction",
+   "note": "King Alfred had Gregory's Pastoral Rule turned into West Saxon English, meaning, he said, to send a copy to every bishop in his kingdom. We have this from Gregory's translator James Barmby, writing in 1895.",
+   "sources": [
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "James Barmby, introduction to the Book of Pastoral Rule, Nicene and Post-Nicene Fathers, second series, vol. 12 (1895)",
+     "file": null,
+     "lines": null,
+     "quote": null
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Henry Sweet (ed.), King Alfred's West-Saxon Version of Gregory's Pastoral Care (Early English Text Society, 1871)",
+     "file": null,
+     "lines": null,
+     "quote": null
+    }
+   ],
+   "citation_specificity": "C",
+   "verification_state": "named-not-rechecked",
+   "named_in_text": "roman-church-gregorian legacy ('Alfred translated it into English'); late-anglo-saxon text also names 'Gregory the Great's Pastoral Care'",
+   "wants": [
+    "Alfred's prose preface to the Pastoral Care, in Sweet's EETS edition (1871, public domain), which would make this Documented"
+   ],
+   "drafter_flags": [
+    "Grade reflects what is vendored, not doubt: Alfred's translation is not contested. No primary is vendored, so this cannot be Widely Accepted under the method.",
+    "Barmby's sentence is at npnf212_leo-great-gregory-great.xml lines 24031-24035; Sweet's edition is named in Barmby's endnote and in the EETS lists bound into several vendored files (e.g. birgitta_revelations-enm_cumming1929.txt line 10695). Sweet's edition itself is not vendored or read.",
+    "The late-anglo-saxon text also names this; its era-4 drafters may reach the same pair."
+   ],
+   "change_reason": "New: the Gregory legacy names Alfred's translation, and no link carried it.",
+   "group": "D",
+   "revision_round1": [
+    "R1-14: Last sentence (internal) dropped."
+   ]
+  },
+  {
+   "old_index": null,
+   "id": "merovingian-gallic-christianity--carolingian-reform-christianity",
+   "action": "new",
+   "from": "merovingian-gallic-christianity",
+   "to": "carolingian-reform-christianity",
+   "type": "continued as",
+   "confidence": "Widely Accepted",
+   "note": "In 742 Boniface wrote that Carloman wanted a synod to repair the Frankish church, trampled for sixty or seventy years. In 751 the bishops of Gaul anointed Pippin king. Historians treat it as the same Frankish church, reformed rather than replaced under the new dynasty.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Boniface, Letter to Pope Zacharias (742), as quoted in the editor's headnote to Karlmann's capitulary (MGH Capitularia regum Francorum I, no. 10)",
+     "file": "cic/texts/capitulatio-de-partibus-saxoniae_pertz1881.txt",
+     "lines": "2204-2206",
+     "locus": "Bonif. ep. 42 (Jaffé), in Capit. I, no. 10, headnote",
+     "quote": "Et promisit, se de aeccle- siastica rclij:,ione, quae iam longo tempore id est non minus quam per sexaginta vel septuaginta annos calcata et dissipata fuit, aliquid conngerc ct emendare velle.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Continuations of Fredegar, c. 33 (MGH SRM 2, Krusch 1888)",
+     "file": "cic/texts/fredegar-liber-historiae-francorum-vitae-mgh-srm-2-lat_krusch1888.txt",
+     "lines": "13469-13470",
+     "locus": "Fredegar cont. 33",
+     "quote": "praecelsus Pippinus electione totius Francorum'' in sedem regni cum consecratione episcoporum et subiectione principum",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Clausula de unctione Pippini, as quoted in Krusch's note to Fredegar cont. 33 (MGH SRM 2)",
+     "file": "cic/texts/fredegar-liber-historiae-francorum-vitae-mgh-srm-2-lat_krusch1888.txt",
+     "lines": "13513-13516",
+     "locus": "Clausula de unctione Pippini",
+     "quote": "Pippinus rex pius per auctoritatem et imperium sanctae recordationis domni Zacbariae papae et unctionem saucti chrismatis per manus beatorum sacerdotum Galliarum et electionem omnium Franchorum in regni solio sublimatus est.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "work": "Rosamond McKitterick, The Frankish Church and the Carolingian Reforms, 789-895 (Royal Historical Society, 1977)",
+     "file": null,
+     "lines": null,
+     "quote": null
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "named-not-rechecked",
+   "named_in_text": "merovingian relationsSummary ('parent of Carolingian Christianity') and legacy ('The same institution continued directly into Carolingian Christianity'); the census continuesAs field already names it",
+   "wants": [
+    "Boniface's letter to Zacharias in a full vendored edition (Tangl 1916, or Emerton's English), rather than through the capitulary headnote",
+    "The Clausula de unctione Pippini in full (MGH SRM 1, p. 465)"
+   ],
+   "drafter_flags": [
+    "Both Boniface and the Clausula reach us here as quotations inside modern editors' apparatus, not as separately vendored texts. The OCR is raw ('rclij:,ione' for 'religione', 'conngerc ct' for 'corrigere et').",
+    "Widely Accepted: the primaries show the events (Boniface's report of the reform synod; the bishops of Gaul anointing Pippin); 'the same church' is the consensus reading, carried by McKitterick 1977, already cited in the census for the Carolingian movement. McKitterick was not read here.",
+    "The relationsSummary called this 'parent'; it is changed to 'continues into' to match the type (prose change 8)."
+   ],
+   "change_reason": "New: the Merovingian text names its continuation into the Carolingian church, and no link carried it.",
+   "group": "D",
+   "revision_round1": [
+    "R1-06: Regraded Widely Accepted with McKitterick; unsourced continuity sentence restated as the historians' reading; 27-word sentence split."
+   ]
+  },
+  {
+   "old_index": null,
+   "id": "merovingian-gallic-christianity--gothic-and-vandal-homoian-christianity",
+   "action": "new",
+   "from": "merovingian-gallic-christianity",
+   "to": "gothic-and-vandal-homoian-christianity",
+   "type": "argued against",
+   "confidence": "Documented",
+   "note": "One Easter an envoy of Leuvigild, king of Spain, reached Tours. Gregory of Tours questioned him on his faith, argued with him over the Trinity and called him a heretic. Gregory also reports that Clovis said he took it hard that 'these Arians' held part of Gaul.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Gregory of Tours, History of the Franks VI.40 (Dalton 1927)",
+     "file": "cic/texts/gregory-tours_history-of-the-franks-v2_dalton1927.txt",
+     "lines": "12913-12914",
+     "locus": "HF VI.40",
+     "quote": "This envoy arriving at Tours for the holy day of Easter, I questioned him, whether he was of our faith.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Gregory of Tours, History of the Franks VI.40 (Dalton 1927)",
+     "file": "cic/texts/gregory-tours_history-of-the-franks-v2_dalton1927.txt",
+     "lines": "12972-12973",
+     "locus": "HF VI.40",
+     "quote": "But now what wouldst thou, O heretic ?",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Gregory of Tours, History of the Franks II.37 (Brehaut 1916)",
+     "file": "cic/texts/gregory-tours_history-of-the-franks-selections_brehaut1916.txt",
+     "lines": "2604-2605",
+     "locus": "HF II.37",
+     "quote": "Now Clovis the king said to his people: \"I take it very hard that these Arians hold part of the Gauls.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "merovingian longDescription ('he brought his people into the same church as the Gallo-Roman bishops rather than into the Homoian one most other barbarian kings held')",
+   "wants": [],
+   "drafter_flags": [
+    "The envoy, Oppila, came from Leuvigild, king of Spain; the passage does not say 'Arian' of the king, but Oppila's refusal of communion and Gregory's 'O heretic' make the Homoian side plain.",
+    "Clovis's words are Gregory of Tours's report, written about ninety years after 507, not a contemporary record.",
+    "Gregory of Tours also records Clovis's sister Lanthechild leaving 'the heresy of the Arians' at his baptism (Brehaut, lines 2450-2453), which supports the prose sentence but is a conversion, not an argument."
+   ],
+   "change_reason": "New: the Merovingian text sets Clovis's church against the Homoian one, and no link carried it.",
+   "group": "D",
+   "revision_round1": [
+    "R1-15: 31-word sentence split; 'Arian Visigothic king' replaced by the text's own 'Leuvigild, king of Spain' (Dalton, lines 12906-12907)."
+   ]
+  },
+  {
+   "old_index": null,
+   "action": "new",
+   "from": "insular-irish-monastic-christianity",
+   "to": "roman-church-gregorian",
+   "type": "argued against",
+   "confidence": "Documented",
+   "note": "Around 600 the Irish monk Columbanus wrote from Luxeuil to Pope Gregory, defending the Irish date of Easter. He asked Gregory why he kept a dark Easter, and said Irish scholars had never accepted the Easter tables of Victorius. No reply from Gregory survives.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Columbanus, Letter to Pope Gregory (Gregory, Register, Ep. IX.127 in Barmby's numbering), NPNF II.13",
+     "file": "cic/texts/npnf213_gregory-great-ephraim-syrus-aphrahat.xml",
+     "lines": "4390-4393",
+     "locus": "Ep. CXXVII",
+     "quote": "Why then dost thou, who art so wise, the brilliant lights indeed of whose sacred genius are diffused, as in ancient times, through the world,—why dost thou keep a dark Easter?",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Columbanus, Letter to Pope Gregory, NPNF II.13",
+     "file": "cic/texts/npnf213_gregory-great-ephraim-syrus-aphrahat.xml",
+     "lines": "4423-4426",
+     "locus": "Ep. CXXVII",
+     "quote": "For know thou that by our masters and the Irish ancients, who were philosophers and most wise computists in constructing calculations, Victorius was not received, but held rather worthy of ridicule or of excuse than as carrying authority.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "work": "James Barmby, note to Columbanus's letter to Gregory, NPNF II.13 (1898)",
+     "file": null,
+     "lines": null,
+     "quote": null
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "insular-irish-monastic-christianity longDescription ('Its own way of calculating Easter and its distinctive tonsure eventually collided with Roman practice'); the Gregorian entry's text does not name Columbanus",
+   "wants": [
+    "Columbanus, Letter II to the Gallic synod and Letter V to Boniface IV (Latin, MGH Epp. III, Gundlach), not located; the letter to the Gallic bishops is the fuller record of the Easter dispute in Gaul"
+   ],
+   "drafter_flags": [
+    "The Irish sentence's main subject is Whitby (664), which has no Roman party in the census; this link carries the earlier, documented collision with Rome that the same sentence describes in general terms. A reviewer may judge the sentence too far from the letter to count as naming it.",
+    "The date 598-9 is the Benedictine editors' (lines 4179-4181); 'around 600' in the note.",
+    "The same letter calls the Gallic custom 'this error of Gaul' (line 4393): a possible argued-against link to merovingian-gallic-christianity, not drafted because neither text names it.",
+    "Barmby's note ('There is no extant reply from Gregory to the letter. Probably none was sent.', npnf213 lines 4205-4207) is an editor's judgement, so it is listed as secondary; the grade rests on the two letter quotes."
+   ],
+   "change_reason": "New: the letter is addressed to Gregory by name and argues against Rome's Easter reckoning.",
+   "group": "E",
+   "id": "insular-irish-monastic-christianity--roman-church-gregorian",
+   "revision_round1": [
+    "R1-28: Barmby note moved from primary to secondary."
+   ]
+  },
+  {
+   "old_index": null,
+   "action": "new",
+   "from": "insular-irish-monastic-christianity",
+   "to": "ecumenical-community-worlds-taize-and-iona",
+   "type": "influenced",
+   "confidence": "Inferential-Thin",
+   "note": "Bede, writing in the eighth century, says Columba's successors still held the island of Iona. In 1938 George MacLeod founded the Iona Community there and set about rebuilding its abbey. No source shows what it drew from Columba's monks, so this rests on place alone.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Bede, Ecclesiastical History of the English Nation (Giles/Jane 1903), III.4",
+     "file": "cic/texts/bede_ecclesiastical-history-english-people_giles1903.txt",
+     "lines": "5841-5846",
+     "locus": "III.4",
+     "quote": "whereupon he also received of them the aforesaid island for a monastery, for it is not very large, but contains about five families, according to the English computation. His successors hold the island to this day",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Ron Ferguson, Chasing the Wild Goose: The Story of the Iona Community (1988)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    }
+   ],
+   "citation_specificity": "C",
+   "verification_state": "named-not-rechecked",
+   "named_in_text": "insular-irish-monastic-christianity legacy ('Iona has a working religious community again'); ecumenical-community-worlds-taize-and-iona relationsSummary ('Iona literally on Columba's island')",
+   "wants": [
+    "George MacLeod's own writings on the founding of the Iona Community, or Ferguson 1988, vendored or verified, to show what the community claimed from Columba"
+   ],
+   "drafter_flags": [
+    "The inventory marked this 'no census entry'; the era-10 movement ecumenical-community-worlds-taize-and-iona exists and its own text names Iona and Columba.",
+    "Ferguson 1988 is cited in the repo only in Build/Ministry/Features/Atlas-World-Map/Design/StepZero-Eras/CiC_Step0_Era10_Sources_Research_E.md, marked [S], 'none individually verified'. The 1938 date and MacLeod's name rest on it and on the era-10 text. Weakest sourcing in this file; the reviewer may prefer to leave the link to era 10."
+   ],
+   "change_reason": "New: the Irish legacy names the modern Iona community, which has a census movement.",
+   "group": "E",
+   "id": "insular-irish-monastic-christianity--ecumenical-community-worlds-taize-and-iona",
+   "revision_round1": [
+    "R1-14: 'No text we hold' replaced."
+   ]
+  },
+  {
+   "old_index": null,
+   "id": "anglo-saxon-christianity--insular-irish-monastic-christianity",
+   "action": "new",
+   "group": "E",
+   "from": "anglo-saxon-christianity",
+   "to": "insular-irish-monastic-christianity",
+   "type": "argued against",
+   "confidence": "Documented",
+   "note": "At Whitby in 664, Bede says, the English priest Wilfrid argued against the Easter kept by Bishop Colman and his Irish clergy. He said Rome, Italy, Gaul, Africa, Asia and Egypt kept the Roman date, and he called the other side obstinate. King Oswy then chose to follow Peter, who held the keys of heaven.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Bede, Ecclesiastical History of the English Nation III.25 (Giles/Jane 1903)",
+     "file": "cic/texts/bede_ecclesiastical-history-english-people_giles1903.txt",
+     "lines": "7963-7966",
+     "locus": "HE III.25",
+     "quote": "Bishop Colman with his Scottish clerks, and Agilbert with the priests Agatho and Wilfrid, James and Romanus were on their side",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Bede, Ecclesiastical History of the English Nation III.25 (Giles/Jane 1903)",
+     "file": "cic/texts/bede_ecclesiastical-history-english-people_giles1903.txt",
+     "lines": "8003-8005",
+     "locus": "HE III.25",
+     "quote": "Then Wilfrid, being ordered by the king to speak, delivered himself thus : — \" The Easter which we observe, we saw celebrated by all at Rome",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Bede, Ecclesiastical History of the English Nation III.25 (Giles/Jane 1903)",
+     "file": "cic/texts/bede_ecclesiastical-history-english-people_giles1903.txt",
+     "lines": "8017-8021",
+     "locus": "HE III.25",
+     "quote": "except only these and their accomplices in obstinacy, I mean the Picts and the Britons, who foolishly, in these two remote islands ot the world, and only in part even of them, oppose all the rest of the universe.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Bede, Ecclesiastical History of the English Nation III.25 (Giles/Jane 1903)",
+     "file": "cic/texts/bede_ecclesiastical-history-english-people_giles1903.txt",
+     "lines": "8136-8137",
+     "locus": "HE III.25",
+     "quote": "but what have you to do with him, since you do not observe his decrees ?",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Bede, Ecclesiastical History of the English Nation III.25 (Giles/Jane 1903)",
+     "file": "cic/texts/bede_ecclesiastical-history-english-people_giles1903.txt",
+     "lines": "8204-8207",
+     "locus": "HE III.25",
+     "quote": "he is the door-keeper, whom I will not contradict, but will, as far as I know and am able, in all things obey his decrees",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "insular-irish-monastic-christianity longDescription ('at Whitby in 664 the Northumbrian king ruled against the Irish reckoning'); anglo-saxon-christianity longDescription ('at the Synod of Whitby in 664 the two traditions had to settle publicly which calendar and which customs the English church would keep').",
+   "wants": [],
+   "drafter_flags": [
+    "Bede calls Colman's party 'Scottish' (Scotti), meaning the Irish and Iona tradition; the note says 'Irish'. Giles's 'France' (line 8008) is rendered 'Gaul'. The Whitby name and the year 664 are Bede's: 'Streaneshalch [Whitby]' (line 10952) and 'the year of our Lord's incarnation 664' (line 8237).",
+    "Wilfrid argues for Agilbert's party at the king's order (lines 7996-8001), so the act is the English church's. Hilda and Cedd sided with the Irish (lines 7966-7968); the link claims Wilfrid's argument, not a split along national lines.",
+    "Wilfrid's 'accomplices in obstinacy' names the Picts and the Britons too; the English argument against the Britons is the separate link anglo-saxon-christianity--british-welsh-christianity--2."
+   ],
+   "change_reason": "New (review R1-13): both movements' texts name Whitby, and Bede III.25 gives Wilfrid's argument against Colman's Easter by name.",
+   "revision_round1": [
+    "R1-13: new link drafted from Bede III.25."
+   ]
+  }
+ ],
+ "drop_links": [
+  "gothic-and-vandal-homoian-christianity--nicene-visigothic-iberia",
+  "latin-africa-under-byzantium--gothic-and-vandal-homoian-christianity",
+  "gothic-and-vandal-homoian-christianity--latin-africa-under-byzantium"
+ ],
+ "prose_changes": [
+  {
+   "group": "A",
+   "n": 3,
+   "movement": "nubian-christianity",
+   "field": "relationsSummary",
+   "new": "Two rival missions sent from Constantinople brought the faith here in the 540s. Nobadia took the faith of the Miaphysite patriarch of Alexandria, then in exile. It turned down the faith that Justinian's envoys brought. A chronicle written on the other side of the split says that Makuria too became Christian, around 569.",
+   "fre_after": [
+    61.9
+   ],
+   "fk_after": [
+    7.9
+   ],
+   "finding": "R1-11",
+   "reason": "'Child of Egypt - both rival communions' missions at once' is a note, not a sentence. John of Ephesus (HE III, IV.6-8) shows both missions sent from Constantinople: Julian from the exiled Theodosius's clergy there (lines 10925-10928), the emperor's envoys with letters for the duke of the Thebaid (10966-10971); the Miaphysite one won Nobadia. John of Biclarum (s.a. 569) records Makuria's conversion."
+  },
+  {
+   "group": "A",
+   "n": 4,
+   "movement": "nubian-christianity",
+   "field": "longDescription",
+   "new": "Christianity reached the Nubian kingdoms south of Egypt in the 540s, through two competing missions. A Miaphysite priest named Julian went with the empress Theodora's backing, and a Chalcedonian effort went with Justinian's. The story of that race survives only because a Syrian bishop, John of Ephesus, wrote it down from the winning side. What Nubia itself left is not stories but walls. Built a few generations later, the cathedral at Faras lay buried in sand until it was rescued before the Aswan dam flooded the region. It gave up a list of its bishops and more than a hundred painted figures: Nubian bishops, kings and queens, and saints. Some have dark faces and some pale, in a style nobody had seen before. When Arab armies pushed south after taking Egypt, Nubian archers held them at Dongola. In 652 the two sides signed the Baqt, a treaty of exchange rather than of conquest, and it left Christian Nubia standing on its own terms.",
+   "fre_after": [
+    60.6
+   ],
+   "fk_after": [
+    9.3
+   ],
+   "reason": "Double comma fixed; long sentences split and two fragments made whole; no fact changed.",
+   "finding": "R1-24"
+  },
+  {
+   "group": "A",
+   "n": 6,
+   "movement": "aksumite-christianity",
+   "field": "longDescription",
+   "new": "Aksum had been Christian since the fourth century. After Chalcedon it was a serious Red Sea power, with its own coinage and its own script, and its Bible was being translated into Ge'ez. Tradition credits the spread of monasticism and much of that translation work to the Nine Saints. They are said to have been monks from the Roman east, arriving around the turn of the sixth century. In 523 the Jewish king of Himyar, across the water in Yemen, massacred the Christians of Najran. The Aksumite king Kaleb crossed the Red Sea in about 525, killed him, and set up a Christian king who paid Aksum tribute. Not long after, the Aksumite soldiers who had stayed behind set up another king, Abramus, and Aksum could not remove him. A Miaphysite historian of the time counted the Aksumite king as a fellow believer. No text from inside these years shows where its church stood on Chalcedon. Evidence from these years is thin: inscriptions, a few very early gospel books, archaeology. Muslim tradition remembers that around 615 Muhammad sent his first followers to its king for protection.",
+   "fre_after": [
+    62.8
+   ],
+   "fk_after": [
+    8.6
+   ],
+   "finding": "R1-20"
+  },
+  {
+   "group": "A",
+   "n": 11,
+   "movement": "latin-africa-under-byzantium",
+   "field": "legacy",
+   "new": "This church left no successor. Latin Christianity in North Africa dwindled after the conquest and had all but disappeared by the later Middle Ages. It is the only major region of the ancient Christian world to vanish so completely. But it handed on its refusal. Its bishops wrote to the emperor to defend three sets of writings that they believed the council of Chalcedon had cleared. They would not condemn them. In 646 its councils wrote to Rome against the teaching of a single will in Christ. Their letters were read out at the Roman synod of 649, and the council of 680-681 later condemned that teaching. Its earlier centuries had already given the Latin church Tertullian, Cyprian and Augustine. What this last century added was proof that a church in the provinces could tell an empire no. The ruins of Carthage and of dozens of African basilicas remain.",
+   "fre_after": [
+    63.0
+   ],
+   "fk_after": [
+    7.8
+   ],
+   "finding": "R1-09",
+   "reason": "Two reception claims qualified. (1) 'Hardened a Western conviction that an emperor could not settle doctrine by decree': no vendored text shows that reception; restated as what Facundus (preface, to Justinian) and Victor of Tunnuna (s.a. 550) show. (2) 'Fed straight into the council of 680-681 that closed it': the vendored chain is the 646 letters read at the Lateran synod of 649 (Mansi X, lines 93425-93430) and Constantinople III's two-wills definition (NPNF 2.14, line 24884); restated as that sequence without the causal 'straight into'. Long sentences split; every other fact kept. The Three Chapters sentence says what the defenders believed, not that Chalcedon accepted all three: Theodoret and Ibas had been received there, Theodore had not (npnf214 22945-22946; Facundus, PL 67, 41877-41881)."
+  },
+  {
+   "group": "B",
+   "n": 2,
+   "movement": "syriac-orthodox-west-syriac-christianity",
+   "field": "why",
+   "new": "Under Justinian, this church had no legal right to exist. Jacob Baradaeus was made its bishop when the Ghassanid Arab king Harith asked, and the empress Theodora backed it. For decades he crossed Syria and Mesopotamia, ordaining priests and bishops one step ahead of the bishops hunting him. When Byzantine power fell at Yarmouk in 636, its clergy stood on their own. They had never stopped their work, though for long years they had no legal standing at all.",
+   "fre_after": [
+    61.9
+   ],
+   "fk_after": [
+    8.5
+   ],
+   "finding": "R1-22"
+  },
+  {
+   "group": "B",
+   "n": 3,
+   "movement": "the-church-of-the-east-under-persia",
+   "field": "relationsSummary",
+   "new": "This church is a direct heir of the Syriac Christian tradition. By the 550s a bishop appointed from Persia served at Kalyan, in western India. A traveler also reported a church on the pepper coast further south.",
+   "fre_after": [
+    64.0
+   ],
+   "fk_after": [
+    7.4
+   ],
+   "finding": "R1-17"
+  },
+  {
+   "group": "B",
+   "n": 4,
+   "movement": "the-church-of-the-east-under-persia",
+   "field": "longDescription",
+   "new": "In 424 the bishops of the Persian Empire ruled that their catholicos at Seleucia-Ctesiphon answered to no bishop beyond their own frontier. This church lived under a Zoroastrian shah. It had taken the Nicene creed as its own in 410, but it would answer to no Roman bishop. Its answer to the question of Christ was not Chalcedon's, nor the Miaphysites'. It stood in the line of Theodore of Mopsuestia and held firmly that his divinity and his humanity were distinct. Its opponents fixed the name \"Nestorian\" on it. Its center of learning was the School of Nisibis. Written statutes there set out the students' day, their lodging and their discipline. Almost nothing else this early has left formation documents like them. Its communion reached far beyond Mesopotamia. In the 550s a traveler named Cosmas reported a bishop appointed from Persia at Kalyan, in western India. He also reported a church on the pepper coast further south. When the Sasanian empire fell to Arab armies by 651, the church carried straight on under new rulers and kept spreading east.",
+   "fre_after": [
+    61.1
+   ],
+   "fk_after": [
+    8.1
+   ],
+   "finding": "R1-17"
+  },
+  {
+   "group": "B",
+   "n": 8,
+   "movement": "chalcedonian-monasticism-judean-desert-and-gaza",
+   "field": "longDescription",
+   "new": "In the century after Chalcedon, monks settled in the ravines between Jerusalem and the Dead Sea, and in the villages around Gaza. They became almost a second population. In the laurae, hermits lived apart through the week and gathered on Sundays. Shared houses held hundreds. This tradition stands out clearly because its own papers survive. Cyril of Scythopolis wrote carefully dated lives of Euthymius, Sabas and the men who came after them. Two recluses near Gaza, Barsanuphius and John, left roughly 850 letters. They answered monks, married couples, sick people and local officials, one question at a time. Most of the Judean houses came to back Chalcedon. Euthymius took the council's side. His biographer says nearly all the desert monks would have followed him, had a rival monk named Theodosius not turned many of them against it. Near Gaza, Peter the Iberian became bishop for those who rejected the council. The empire pulled the monks hard into its fights over doctrine. One was the purge of teaching drawn from Origen in the 550s, which split their own houses. In 614 the Persian army sacked Jerusalem and tore through the desert houses. Those who lived wrote down what was lost.",
+   "fre_after": [
+    60.8
+   ],
+   "fk_after": [
+    7.8
+   ],
+   "finding": "R1-23"
+  },
+  {
+   "group": "C",
+   "n": 3,
+   "movement": "georgian-christianity",
+   "field": "relationsSummary",
+   "new": "Jerusalem and Armenian lines; takes the Chalcedonian side (c. 600)",
+   "fre_after": [
+    null
+   ],
+   "fk_after": [
+    null
+   ],
+   "finding": "R1-25",
+   "reason": "The year of the break is disputed (Brosset 596; Ormanian 609; the census status line 607 against 609-10). The break is dated around 600 here, as in the Armenian texts and the broke-with link, whose note gives the 596-609 spread (Brosset 1876: 596; Ormanian: 609)."
+  },
+  {
+   "group": "C",
+   "n": 4,
+   "movement": "georgian-christianity",
+   "field": "longDescription",
+   "new": "The kingdom of Kartli, in what is now eastern Georgia, became Christian in the fourth century. It came through the preaching of a woman the tradition calls Nino. Kartli then held on to that faith for three centuries, on a frontier where Persia had every reason to prise it loose. Its oldest surviving book, written in the 470s or 480s, tells the story of Shushanik. She was an Armenian princess married to the local ruler. He left Christianity for Zoroastrianism, and when she would not follow him, he locked her up and beat her until she died. Georgia built its own alphabet, its own monasteries, and an unusually rich life of worship. Georgian manuscripts keep the worship of fifth- to eighth-century Jerusalem more fully than any Greek source does. Around 600, at the third council of Dvin, its church broke with Armenia and took the Chalcedonian side. That is why the two neighboring churches of the Caucasus have belonged to different communions ever since.",
+   "fre_after": [
+    62.8
+   ],
+   "fk_after": [
+    8.6
+   ],
+   "finding": "R1-25",
+   "reason": "The year of the break is disputed (596 to 609); 'In 609' becomes 'Around 600'. The break is dated around 600 here, as in the Armenian texts and the broke-with link, whose note gives the 596-609 spread (Brosset 1876: 596; Ormanian: 609). Two sentence fragments are made whole ('An Armenian princess...' and 'Which is why...') without changing a fact."
+  },
+  {
+   "group": "C",
+   "n": 5,
+   "movement": "georgian-christianity",
+   "field": "why",
+   "new": "The kingdom of Kartli turned Christian in the fourth century through the preaching of a woman its tradition calls Nino. It then held on to its faith for centuries on a contested Persian frontier. Its oldest surviving book tells of Queen Shushanik, beaten to death in the 470s because she would not follow her husband out of the faith. Around 600 its church broke from Armenia to take the Chalcedonian side.",
+   "fre_after": [
+    65.8
+   ],
+   "fk_after": [
+    8.4
+   ],
+   "finding": "R1-25",
+   "reason": "The year of the break is disputed (596 to 609). The break is dated around 600 here, as in the Armenian texts and the broke-with link, whose note gives the 596-609 spread (Brosset 1876: 596; Ormanian: 609). The 37-word closing sentence is split in two."
+  },
+  {
+   "group": "C",
+   "n": 6,
+   "movement": "georgian-christianity",
+   "field": "legacy",
+   "new": "The Georgian Orthodox Church that came out of this is still the church of Georgia. The same body has carried on through the centuries of medieval revival to the present. Its choice around 600 set it for good in the Eastern Orthodox family, and not with its Armenian neighbor. Its greatest gift to everyone else came almost by accident. Georgian scribes translated and kept the books of worship used in Jerusalem. So scholars can now work out how the holy city really worshipped in late antiquity, and they do it largely from Georgian manuscripts. And churches built at the very end of this period, like Jvari above Mtskheta, still stand almost as they were.",
+   "fre_after": [
+    62.4
+   ],
+   "fk_after": [
+    8.6
+   ],
+   "finding": "R1-25",
+   "reason": "The year of the break is disputed (596 to 609). The break is dated around 600 here, as in the Armenian texts and the broke-with link, whose note gives the 596-609 spread (Brosset 1876: 596; Ormanian: 609)."
+  },
+  {
+   "group": "C",
+   "n": 7,
+   "movement": "church-of-caucasian-albania",
+   "field": "relationsSummary",
+   "new": "The Caucasus had a third church, beside Armenia and Georgia. From the early 700s its head, the catholicos, had to answer to the Armenian church.",
+   "fre_after": [
+    65.6
+   ],
+   "fk_after": [
+    7.2
+   ],
+   "finding": "R1-12",
+   "reason": "'Absorbed' overstates it: the Albanian see survived inside the Armenian church, with a catholicos installed around 1701 (Hasan-Jalaliants' notice, Brosset 1876, lines 10702-10708), until abolished early in the nineteenth century (Ormanian 1912, p. 132, lines 6147-6155). No vendored or repo-cited source gives the year 705; Ormanian places the act under the Armenian catholicos Elias of Ardjesch (703-717), so the text says 'the early 700s' (ormanian 2901-2907)."
+  },
+  {
+   "group": "C",
+   "n": 8,
+   "movement": "church-of-caucasian-albania",
+   "field": "longDescription",
+   "new": "Beside Armenia and Georgia there was a third Christian kingdom in the Caucasus. This was Albania, in what is now Azerbaijan and the south of Dagestan. It had its own royal line, its own bishops and its own alphabet. In the late fifth century it held a council at Aghuen. The council made rules for the clergy and for marriage, and set out what the nobles owed the church. Albania also produced a history, put together from older material by a writer known as Movses Daskhurantsi. That is very nearly all the story it left. It was pressed between Persian, Byzantine and then Arab power, and between the rival loyalties of its Armenian and Georgian neighbors. In the early 700s it lost its independent standing, when its catholicos was placed under the Armenian church. Its written language was all but lost for more than a thousand years. Then, in 1996, palimpsests at Saint Catherine's Monastery on Sinai were found to hold Caucasian Albanian scripture. The pages had been scraped and written over with later Georgian text.",
+   "fre_after": [
+    60.5
+   ],
+   "fk_after": [
+    8.4
+   ],
+   "finding": "R1-12",
+   "reason": "The palimpsests' date: the claim checked against no vendored text; Gippert and others (2008), named in the Albania source dossier, is the authority. The wording 'were found in 1996 to preserve' is true whether 1996 is the year of discovery or of identification (the drafter believes the manuscripts are among the 1975 'New Finds' and the script was recognized in 1996; not verified in the repo). The fragment 'Albania, in what is now...' is made a whole sentence. No vendored or repo-cited source gives the year 705; Ormanian places the act under the Armenian catholicos Elias of Ardjesch (703-717), so the text says 'the early 700s' (ormanian 2901-2907)."
+  },
+  {
+   "group": "C",
+   "n": 9,
+   "movement": "church-of-caucasian-albania",
+   "field": "why",
+   "new": "Beside Armenia and Georgia stood a third Christian kingdom in the Caucasus, Albania. It kept its own royal line, its own bishops and its own alphabet. Its council at Aghuen made rules for the clergy and for marriage. In the early 700s its catholicos came under the authority of the Armenian church. For over a thousand years no one could read its written language. Then, in 1996, palimpsests at Saint Catherine's Monastery on Sinai were found to hold its scripture.",
+   "fre_after": [
+    63.9
+   ],
+   "fk_after": [
+    7.6
+   ],
+   "finding": "R1-12",
+   "reason": "'Absorbed' overstates it (the see lived on inside the Armenian church until the early nineteenth century: Ormanian p. 132; Hasan-Jalaliants' notice). The palimpsest wording as in the longDescription change. The 37-word opening sentence is split; no fact changed. No vendored or repo-cited source gives the year 705; Ormanian places the act under the Armenian catholicos Elias of Ardjesch (703-717), so the text says 'the early 700s' (ormanian 2901-2907)."
+  },
+  {
+   "group": "C",
+   "n": 10,
+   "movement": "church-of-caucasian-albania",
+   "field": "legacy",
+   "new": "No church carries on under this name. From the early 700s its catholicos had to answer to the Armenian church. But the see itself lived on inside that church, and a new catholicos of Albania took office around 1701. Over time its people merged with the Armenians, and the see was done away with early in the nineteenth century. The Udi people of Azerbaijan are generally seen as descended from its Christians. Its most striking survival stayed hidden until recently. In 1996, palimpsests at Sinai were found to keep its alphabet and its scripture. With them, scholars have begun to rebuild its way of worship and a language nobody could read for over a thousand years.",
+   "fre_after": [
+    61.0
+   ],
+   "fk_after": [
+    8.3
+   ],
+   "finding": "R1-12/R1-21",
+   "reason": "The old text said its structures were 'absorbed' after 705 and its identity 'dissolved'. Vendored sources show the see lasted: Hasan-Jalaliants was installed as the 92nd catholicos of Aghovanie in 1701/2 and given investiture by the Armenian catholicos (Brosset 1876, lines 10702-10708); Ormanian (p. 132, lines 6147-6155) says the see was abolished early in the nineteenth century 'on account of the fusion of the Caspio-Albanian or Aghouanian nationality with the Armenian'. The palimpsest wording as above. No vendored or repo-cited source gives the year 705; Ormanian places the act under the Armenian catholicos Elias of Ardjesch (703-717), so the text says 'the early 700s' (ormanian 2901-2907). The last two sentences are joined so that 'them' cannot be read as the palimpsests."
+  },
+  {
+   "group": "D",
+   "n": 5,
+   "movement": "roman-church-gregorian",
+   "field": "relationsSummary",
+   "new": "Gregory was a monk and wrote the only life of Benedict there is. But his own work was a bishop's: the Pastoral Rule is a manual for bishops, and the Register is the paperwork of a government. His letters also tell us about the early English church, the Frankish church of Gaul and the imperial church at Constantinople.",
+   "fre_after": [
+    60.3
+   ],
+   "fk_after": [
+    9.7
+   ],
+   "finding": "R1-18",
+   "reason": "Open-Gaps item 20: the field printed four raw movement IDs. Rewritten in words; every claim kept, and each now has a link (Benedictines, English church, Gaul, Constantinople). The opening sentence on how two movements' dates overlap is cut: it explained the catalogue, not the church."
+  },
+  {
+   "group": "D",
+   "n": 7,
+   "movement": "roman-church-gregorian",
+   "field": "legacy",
+   "new": "The Pastoral Rule became the standard book on the bishop's office in the West, and it stayed in use for a thousand years. Carolingian councils told all bishops to study it. Hincmar of Rheims reports that new bishops were handed a copy at their consecration. Alfred had it translated into English, meaning, he said, to send a copy to every bishop in his kingdom. The mission to Kent is why there is an English church in communion with Rome at all. It is also why the early English church has a Roman half. Then there is the working model of the bishop of Rome as the practical government of central Italy. He fed the city from church estates, dealt with invaders and paid troops. That is where the temporal power of the papacy really begins, whatever later documents claimed for it.",
+   "fre_after": [
+    64.9
+   ],
+   "fk_after": [
+    8.1
+   ],
+   "finding": "R1-19",
+   "reason": "Open-Gaps item 20: the field printed a raw movement ID ('anglo-saxon-christianity'), now in words. The long first sentence is split. The Alfred clause is reworded to what the repo supports: Barmby (npnf212 lines 24031-24035) says Alfred meant to send a copy to every bishop; the 'most needful' phrase comes from Alfred's own preface, which is not vendored. The Carolingian sentence now matches Barmby (npnf212 24040-24058): councils of 813 and 836 enjoined study of the book; handing a copy to new bishops was a custom Hincmar reports, not a council ruling."
+  },
+  {
+   "group": "E",
+   "n": 3,
+   "movement": "british-welsh-christianity",
+   "field": "relationsSummary",
+   "new": "The older church of Roman Britain, pushed west when the Anglo-Saxons invaded. Like the Irish church, it kept its own customs, which the Roman mission in Kent called errors. The Irish monk Columbanus cited its writer Gildas. It met Augustine's mission around 603 and refused to submit to him, and it kept its own Easter long after Whitby (664).",
+   "fre_after": [
+    60.8
+   ],
+   "fk_after": [
+    8.4
+   ],
+   "finding": "R1-10",
+   "reason": "'Distinct from Irish Christianity' is a cataloguing statement. Bede II.4 shows the opposite of a separation: Augustine's successor Laurentius found that 'the Scots in no way differ from the Britons in their behaviour' and spoke of 'the errors of the Britons' (bede 3849-3857); Columbanus cites Gildas (npnf213 4535-4536). 'Did not conform at Whitby' implied the British were present; Bede's list shows they were not, and Bede V.22 and the Annales Cambriae show their Easter kept until 768. 'Gregorian mission' becomes 'Augustine's mission', which the link places with the English church."
+  },
+  {
+   "group": "R",
+   "n": 1,
+   "movement": "the-church-of-the-east-under-persia",
+   "field": "legacy",
+   "old": "The same institution continued without a break into the following centuries, when it became the most geographically extended Christian body in the world — its missions reaching Central Asia and China along the Silk Road. Its Indian branch, the St Thomas Christians of Kerala, is the ancestor of several churches worshipping there today, and its heirs survive as the Assyrian Church of the East and the Chaldean Catholic Church. Along the way its scholars translated Greek medicine, philosophy and logic into Syriac, work later carried on into Arabic — one of the routes by which Greek learning reached the wider medieval world.",
+   "new": "The same church carried on without a break into the following centuries. It became the most widely spread Christian body in the world, and its missions reached Central Asia and China along the Silk Road. In later centuries the St Thomas Christians of Kerala belonged to its communion. Several churches that worship there today come from them. Its heirs also live on as the Assyrian Church of the East and the Chaldean Catholic Church. Along the way its scholars put Greek medicine, philosophy and logic into Syriac. That work was later carried on into Arabic. It was one of the roads by which Greek learning reached the wider medieval world.",
+   "reason": "'Its Indian branch, the St Thomas Christians of Kerala' stated flatly what the link for this period grades Inferential-Thin (Cosmas, c. 550, only reports a church and a Persian-appointed bishop). The later tie is shown by Geddes 1694 on bishops from the 'Patriarch of Babylon' (geddes lines 826, 977), so the sentence now says 'in later centuries'. Long sentences split; no other fact changed.",
+   "fre_after": [
+    62.1
+   ],
+   "fk_after": [
+    8.0
+   ],
+   "finding": "R1-26"
+  }
+ ],
+ "disposition_changes": [
+  {
+   "movement": "latin-africa-under-byzantium",
+   "field": "relationsSummary",
+   "sentence": "The Nicene church of Roman Africa, restored after a century of Vandal persecution, was heir to the earlier African Christian tradition of Tertullian, Cyprian and Augustine, and became one of the principal voices resisting Justinian's condemnation of the Three Chapters.",
+   "other_id": "gothic-and-vandal-homoian-christianity",
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "reason": "Supported by Procopius, Wars III.21 (2234-2237) and Justinian, Nov. 37 (52506-52520). The imperial act against the Arians is the link byzantine-imperial-church-justinianic--gothic-and-vandal-homoian-christianity. The wording change in prose change A-8 still applies.",
+   "finding": "R1-03"
+  },
+  {
+   "movement": "latin-africa-under-byzantium",
+   "field": "longDescription",
+   "sentence": "When Belisarius destroyed the Vandal kingdom in 533, the Nicene church of Roman Africa came out of a century of persecution and was restored to its buildings and its bishoprics.",
+   "other_id": "gothic-and-vandal-homoian-christianity",
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "reason": "Supported by Procopius, Wars III.21 (2234-2237) and Justinian, Nov. 37 (52506-52520). The imperial act against the Arians is the link byzantine-imperial-church-justinianic--gothic-and-vandal-homoian-christianity. The wording change in prose change A-9 still applies.",
+   "finding": "R1-03"
+  },
+  {
+   "movement": "latin-africa-under-byzantium",
+   "field": "why",
+   "sentence": "When Belisarius destroyed the Vandal kingdom in 533, the Nicene church of Roman Africa was restored to its buildings after a century of persecution, and within twenty years it was refusing Justinian's own doctrinal compromise over the Three Chapters.",
+   "other_id": "gothic-and-vandal-homoian-christianity",
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "reason": "Supported by Procopius, Wars III.21 (2234-2237) and Justinian, Nov. 37 (52506-52520). The imperial act against the Arians is the link byzantine-imperial-church-justinianic--gothic-and-vandal-homoian-christianity. The wording change in prose change A-10 still applies.",
+   "finding": "R1-03"
+  },
+  {
+   "movement": "latin-africa-under-byzantium",
+   "field": "relationsSummary",
+   "sentence": "The Nicene church of Roman Africa, restored after a century of Vandal persecution, was heir to the earlier African Christian tradition of Tertullian, Cyprian and Augustine, and became one of the principal voices resisting Justinian's condemnation of the Three Chapters.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "reason": "The Vandal-era persecution was the Homoian church acting against the Nicene church of Africa under Vandal rule (439-533), which has no census movement; the restored church of 533 is a different party. Supported by Victor of Vita II.39 (3132-3134) and Procopius, Wars III.8 (915-917).",
+   "finding": "two-way gap 3",
+   "new_row": true
+  },
+  {
+   "movement": "latin-africa-under-byzantium",
+   "field": "longDescription",
+   "sentence": "When Belisarius destroyed the Vandal kingdom in 533, the Nicene church of Roman Africa came out of a century of persecution and was restored to its buildings and its bishoprics.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "reason": "The Vandal-era persecution was the Homoian church acting against the Nicene church of Africa under Vandal rule (439-533), which has no census movement; the restored church of 533 is a different party. Supported by Victor of Vita II.39 (3132-3134) and Procopius, Wars III.8 (915-917).",
+   "finding": "two-way gap 3",
+   "new_row": true
+  },
+  {
+   "movement": "latin-africa-under-byzantium",
+   "field": "why",
+   "sentence": "When Belisarius destroyed the Vandal kingdom in 533, the Nicene church of Roman Africa was restored to its buildings after a century of persecution, and within twenty years it was refusing Justinian's own doctrinal compromise over the Three Chapters.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "reason": "The Vandal-era persecution was the Homoian church acting against the Nicene church of Africa under Vandal rule (439-533), which has no census movement; the restored church of 533 is a different party. Supported by Victor of Vita II.39 (3132-3134) and Procopius, Wars III.8 (915-917).",
+   "finding": "two-way gap 3",
+   "new_row": true
+  },
+  {
+   "movement": "gothic-and-vandal-homoian-christianity",
+   "field": "longDescription",
+   "sentence": "In Vandal Africa it was the persecuting party, exiling and maiming Nicene bishops in a campaign its victims documented in detail.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "reason": "The Nicene church of Africa under Vandal rule (439-533) has no census movement; latin-africa-under-byzantium begins in 533. Supported by Victor of Vita II.39 (3132-3134) and Procopius, Wars III.8 (915-917). The prose stands unchanged.",
+   "finding": "R1-04"
+  },
+  {
+   "movement": "gothic-and-vandal-homoian-christianity",
+   "field": "why",
+   "sentence": "In Vandal Africa this church exiled and maimed Nicene bishops; in Ostrogothic Italy it worshipped alongside them in separate buildings, until conquest and conversion ended it in Spain and among the Lombards by the seventh century.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "reason": "As the longDescription sentence: the Vandal-era Nicene church (439-533) has no census movement. Supported by Victor of Vita II.39 (3132-3134) and Procopius, Wars III.8 (915-917).",
+   "finding": "R1-04"
+  },
+  {
+   "movement": "gothic-and-vandal-homoian-christianity",
+   "field": "longDescription",
+   "sentence": "In Spain and among the Lombards it ended by conversion.",
+   "other_id": "nicene-visigothic-iberia",
+   "disposition": "link",
+   "link_id": "nicene-visigothic-iberia--gothic-and-vandal-homoian-christianity",
+   "reason": "Toledo III (589): the Gothic bishops condemn the faith they had held and sign as men 'coming into the catholic church' (collectio 36900-36904, 37118-37122). They joined an existing church; it did not emerge from them, so the link is argued-against, not gave-rise-to.",
+   "finding": "R1-02"
+  },
+  {
+   "movement": "gothic-and-vandal-homoian-christianity",
+   "field": "longDescription",
+   "sentence": "The Visigothic king Reccared brought his kingdom over at the third council of Toledo in 589, and the last Arian Lombard kings gave way in the seventh century.",
+   "other_id": "nicene-visigothic-iberia",
+   "disposition": "link",
+   "link_id": "nicene-visigothic-iberia--gothic-and-vandal-homoian-christianity",
+   "reason": "Same Toledo III link.",
+   "finding": "R1-02"
+  },
+  {
+   "movement": "gothic-and-vandal-homoian-christianity",
+   "field": "why",
+   "sentence": "In Vandal Africa this church exiled and maimed Nicene bishops; in Ostrogothic Italy it worshipped alongside them in separate buildings, until conquest and conversion ended it in Spain and among the Lombards by the seventh century.",
+   "other_id": "nicene-visigothic-iberia",
+   "disposition": "link",
+   "link_id": "nicene-visigothic-iberia--gothic-and-vandal-homoian-christianity",
+   "reason": "Same Toledo III link.",
+   "finding": "R1-02"
+  },
+  {
+   "movement": "gothic-and-vandal-homoian-christianity",
+   "field": "legacy",
+   "sentence": "And the crossing of Visigothic Spain at Toledo in 589 set the shape of Iberian Christianity for the next century.",
+   "other_id": "nicene-visigothic-iberia",
+   "disposition": "link",
+   "link_id": "nicene-visigothic-iberia--gothic-and-vandal-homoian-christianity",
+   "reason": "Same Toledo III link.",
+   "finding": "R1-02"
+  },
+  {
+   "movement": "insular-irish-monastic-christianity",
+   "field": "longDescription",
+   "sentence": "Its own way of calculating Easter and its distinctive tonsure eventually collided with Roman practice, and at Whitby in 664 the Northumbrian king ruled against the Irish reckoning.",
+   "other_id": "anglo-saxon-christianity",
+   "disposition": "link",
+   "link_id": "anglo-saxon-christianity--insular-irish-monastic-christianity",
+   "reason": "The Roman side at Whitby was the English church's own party: Bede III.25 has Wilfrid argue against Colman's Easter by name (bede 8003-8021, 8136-8137). New argued-against link.",
+   "finding": "R1-13"
+  },
+  {
+   "movement": "british-welsh-christianity",
+   "field": "relationsSummary",
+   "sentence": "The church the Anglo-Saxon invasions displaced - distinct from Irish Christianity, older than the Gregorian mission it later met; rejected Augustine's authority (603) and did not conform at Whitby (664)",
+   "other_id": "insular-irish-monastic-christianity",
+   "disposition": "qualify",
+   "link_id": "british-welsh-christianity--insular-irish-monastic-christianity",
+   "reason": "'Distinct from' is a cataloguing statement no link type expresses. Bede II.4 shows likeness, not separation: Laurentius found that 'the Scots in no way differ from the Britons in their behaviour' (bede 3849-3857). Documented contact: Columbanus cites Gildas (npnf213 4535-4536). Rewritten to say both, with the influenced link.",
+   "finding": "R1-10"
+  },
+  {
+   "movement": "the-church-of-the-east-under-persia",
+   "field": "legacy",
+   "sentence": "Its Indian branch, the St Thomas Christians of Kerala, is the ancestor of several churches worshipping there today, and its heirs survive as the Assyrian Church of the East and the Chaldean Catholic Church.",
+   "other_id": "st-thomas-christians-of-india",
+   "disposition": "qualify",
+   "link_id": "the-church-of-the-east-under-persia--st-thomas-christians-of-india",
+   "reason": "The link for this period is Inferential-Thin (Cosmas only reports a church and a Persian-appointed bishop). The later tie is shown by Geddes 1694 (bishops from the 'Patriarch of Babylon', lines 826, 977), so the sentence now says 'in later centuries'. Prose change R-1.",
+   "finding": "R1-26"
+  }
+ ],
+ "fixes": [
+  {
+   "finding": "R1-01",
+   "done": "Note rewritten: the History ties the patriarchs to the desert monasteries; Peter's letters kept at the Monastery of Macarius; Benjamin passed through Wadi Habib and hid in Upper Egypt. 'Old' and 'Scetis' removed; Benjamin quote extended to 43445-43447.",
+   "agree": true
+  },
+  {
+   "finding": "R1-02",
+   "done": "Dropped gothic-and-vandal-homoian-christianity--nicene-visigothic-iberia. Re-pointed the four Gothic dispositions (longDescription x2, why, legacy) to nicene-visigothic-iberia--gothic-and-vandal-homoian-christianity. The Nicene relationsSummary and why dispositions already cited that link.",
+   "agree": true
+  },
+  {
+   "finding": "R1-03",
+   "done": "Dropped latin-africa-under-byzantium--gothic-and-vandal-homoian-christianity; its three dispositions set to kept-as-is with the reviewer's reason. Checked Nov. 37 52506-52520: the petition names no Arians; 'vel Arianos' is in Justinian's own order.",
+   "agree": true
+  },
+  {
+   "finding": "R1-04",
+   "done": "Dropped gothic-and-vandal-homoian-christianity--latin-africa-under-byzantium; the Gothic longDescription and why sentences set to no-entry. Prose unchanged.",
+   "agree": true
+  },
+  {
+   "finding": "R1-05",
+   "done": "Regraded Dominant Modern Reconstruction, specificity B, named-not-rechecked; John of Ephesus sources removed; note rewritten on Ormanian (2549-2556). Book of Letters kept in wants.",
+   "agree": true,
+   "evidence": "Partly: I did not use the reviewer's sentence 'The council's own acts survive only in Armenian'. No listed or vendored source states it, the same fault as the drafted 'Book of Letters' sentence. The note ends instead on what it rests on."
+  },
+  {
+   "finding": "R1-06",
+   "done": "Regraded Widely Accepted, added McKitterick 1977 (census line 12950) as secondary, third sentence restated as the historians' reading, 27-word sentence split. Verification set to named-not-rechecked, since no quote shows the continuity itself.",
+   "agree": true
+  },
+  {
+   "finding": "R1-07",
+   "done": "Regraded Documented, verified-direct; added the 681 quote at 25706-25707 ('of Pyrrhus, Paul, and Peter, who died bishops of this God-preserved city'); kept Macler for 610; removed the unsourced 'formula' clause.",
+   "agree": true,
+   "evidence": "Partly: I left out 'he still held it when he wrote to Pope Honorius'. It depends on Honorius's accession in 625, and no vendored text I read gives that date. The succession named in the council is enough for continuity of the see."
+  },
+  {
+   "finding": "R1-08",
+   "done": "Regraded Widely Accepted (Sebeos primary, Brosset 1849 secondary, read at 2553-2593), specificity A; the unsourced 782 revival date is removed; the break is dated around 600. Brosset is given as doubting the see lapsed, which is his wording ('force à douter'), not as judging that it never did. The note says only that 'a catholicos of Georgia' appears in Sebeos, because his 'catholicos de Géorgie et d'Albanie' may be one man.",
+   "agree": true
+  },
+  {
+   "finding": "R1-09",
+   "done": "Latin Africa legacy: the bishops defended 'three sets of writings that they believed the council of Chalcedon had cleared'. Split in two sentences for length.",
+   "agree": true
+  },
+  {
+   "finding": "R1-10",
+   "done": "British relationsSummary: 'Like the Irish church, it kept its own customs, which the Roman mission in Kent called errors. The Irish monk Columbanus cited its writer Gildas.' Disposition reason now cites Bede II.4 for the likeness.",
+   "agree": true
+  },
+  {
+   "finding": "R1-11",
+   "done": "Nubian relationsSummary: both missions sent from Constantinople; Nobadia took the exiled Miaphysite patriarch's faith; Makuria c. 569 from a chronicle on the Chalcedonian side.",
+   "agree": true
+  },
+  {
+   "finding": "R1-12",
+   "done": "'705' replaced by 'the early 700s' in the Albanian relationsSummary, longDescription, why and legacy; reasons cite Ormanian 2901-2907 (Elias, 703-717). The census end date of 705 is left (open item).",
+   "agree": true
+  },
+  {
+   "finding": "R1-13",
+   "done": "New link anglo-saxon-christianity--insular-irish-monastic-christianity, argued against, Documented, five Bede III.25 quotes, all checked (7963-7966, 8003-8005, 8017-8021, 8136-8137, 8204-8207). Disposition for the Irish Whitby sentence now cites it.",
+   "agree": true
+  },
+  {
+   "finding": "R1-14",
+   "done": "Internal language removed from notes 22, 24, 36, 42, 50, 61.",
+   "agree": true
+  },
+  {
+   "finding": "R1-15",
+   "done": "Link 52 split ('One Easter an envoy of Leuvigild, king of Spain, reached Tours. ...'); link 2 split into three sentences. In link 2, 'in the 540s', which John's text here does not give, is replaced by 'backed by the empress Theodora', which it does (10935-10937, 11051). In link 52, 'Arian Visigothic king' is replaced by the text's 'Leuvigild, king of Spain'.",
+   "agree": true
+  },
+  {
+   "finding": "R1-16",
+   "done": "Link 32 note: 'a land with a Christian prince, subject to Persia'.",
+   "agree": true
+  },
+  {
+   "finding": "R1-17",
+   "done": "'found' to 'reported' in link 24's note and in Church of the East prose changes B-3 and B-4. B-3's 26-word sentence split.",
+   "agree": true
+  },
+  {
+   "finding": "R1-18",
+   "done": "Gregory relationsSummary replaced with the reviewer's text (overlap sentence cut).",
+   "agree": true
+  },
+  {
+   "finding": "R1-19",
+   "done": "Gregory legacy: 'Carolingian councils told all bishops to study it. Hincmar of Rheims reports that new bishops were handed a copy at their consecration.' (npnf212 24040-24058).",
+   "agree": true
+  },
+  {
+   "finding": "R1-20",
+   "done": "Aksum longDescription: 'Evidence from these years is thin'.",
+   "agree": true
+  },
+  {
+   "finding": "R1-21",
+   "done": "Albanian legacy: 'With them, scholars have begun to rebuild its way of worship and a language nobody could read for over a thousand years.' (kept under 25 words).",
+   "agree": true
+  },
+  {
+   "finding": "R1-22",
+   "done": "Syriac Orthodox why: 'When Byzantine power fell at Yarmouk in 636, its clergy stood on their own. They had never stopped their work, though for long years they had no legal standing at all.' ('Clergy' for 'hierarchy' to hold Reading Ease above 60.)",
+   "agree": true
+  },
+  {
+   "finding": "R1-23",
+   "done": "Judean desert longDescription: reviewer's wording applied; checked against Cyril, Vita Euthymii (Cotelier) 36062-36074.",
+   "agree": true
+  },
+  {
+   "finding": "R1-24",
+   "done": "Nubian longDescription reason corrected; text unchanged.",
+   "agree": true
+  },
+  {
+   "finding": "R1-25",
+   "done": "Georgian relationsSummary '(c. 600)'; longDescription, why and legacy 'around 600'; link 29 'around 600'. Link 31 keeps the 596-609 spread.",
+   "agree": true
+  },
+  {
+   "finding": "R1-26",
+   "done": "New prose change R-1 on the Church of the East legacy: 'In later centuries the St Thomas Christians of Kerala belonged to its communion', on Geddes 1694. Whole field re-split for readability; disposition set to qualify.",
+   "agree": true
+  },
+  {
+   "finding": "R1-27",
+   "done": "Not applied: census data fields are out of scope for this revision. Listed under open_items.",
+   "agree": true
+  },
+  {
+   "finding": "R1-28",
+   "done": "Barmby's note in link 60 changed to a secondary source (file, lines and quote null); the reason is kept in drafter_flags.",
+   "agree": true
+  },
+  {
+   "finding": "two-way gaps",
+   "done": "Gap 1 = R1-13. Gap 2 = the R1-02, R1-03 and R1-04 disposition changes. Gap 3: added no-entry rows for the Latin Africa relationsSummary, longDescription and why (the Vandal-era Nicene church has no movement). Gap 4: none required. Gap 5: open item.",
+   "agree": true
+  }
+ ],
+ "open_items": [
+  "R1-27 (data fields, not changed here): armenian-christianity-after-avarayr.continuesAs names bagratid-armenian-christianity and should name armenian-christianity-before-the-bagratids. armenian-christianity-before-the-bagratids has no continuesAs (should be bagratid-armenian-christianity) and its relationsSummary is empty. british-welsh-christianity has no continuesAs, although the continued-as link to medieval-welsh-christianity is drafted. The empty relationsSummary goes in Open_Gaps_Tracking.",
+  "For Mark, A3: two Egyptian Miaphysite movements for the same years (cyrilline-miaphysite-egyptian-tradition, era 2, and cyrilline-miaphysite-egyptian-christianity, era 3). This is a portfolio and census-structure question, already marked needs-ruling in the corpus-map dossier.",
+  "For Mark, A4: none of the six link types means 'in communion with'. The Aksum-Alexandria and Egypt-Syriac Orthodox cases show the need. Until he rules, they are held as 'in contact with' at the grade their evidence supports.",
+  "For Mark, B1 and D1, as one ruling: present-day and monument facts with no vendored text are left standing. They are the Lenten reading of the Ladder, Dorotheus as standard reading, Mar Saba and Saint Catherine's still inhabited, Monte Cassino bombed in 1944, and the Ravenna buildings. The question is whether the qualify rule covers them.",
+  "For Mark, C1: Caucasian Albania's end date (705) and the Bagratid summary ('absorbs ... after 705'). The year 705 is now gone from the Albanian prose (R1-12), but the dates field still reads 705.",
+  "Open_Gaps_Tracking, era 2: no link joins homoian-arian-christianity to gothic-and-vandal-homoian-christianity, although both texts say the second descends from the first (D2).",
+  "Open_Gaps_Tracking, era 4: no continued-as link from insular-irish-monastic-christianity to medieval-irish-christianity (E2).",
+  "Open_Gaps_Tracking: Sebeos's 'catholicos de Géorgie et d'Albanie' on Chalcedon's side c. 614 (C3). Wants: Thomson's Sebeos (1999).",
+  "The anglo-saxon-christianity longDescription also names Whitby. That movement has no rows in this era's inventory, so whoever owns it should cite the new Whitby link in its disposition.",
+  "Wants carried forward: the Book of Letters (Dvin 554); Alfred's preface to the Pastoral Care in Sweet's EETS edition; a Cluniac customary or Cluny's foundation charter (D3). These go through the source-research thread."
+ ]
+}

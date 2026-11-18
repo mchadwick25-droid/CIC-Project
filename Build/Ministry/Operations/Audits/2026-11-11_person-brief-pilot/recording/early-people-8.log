@@ -1,0 +1,32 @@
+=== Tree narration  ===
+396 movements total
+8 skipped - no longDescription to narrate
+12 skipped - built world with its own orientation.story, recorded in its Representative's voice
+337 skipped - not a person row (person run)
+0 already narrated and current (use --force to regenerate)
+0 stale - recorded from text that has since changed, re-voiced this run
+8 to generate this run, 14313 characters total
+=== PAID RUN, settings as actually used ===
+approved run     : CFT early-church people 8, 2026-11-11   char cap: 15000
+person voice id  : fxnZk29PIJ3WKEC9MDEo   (kind "person", every item)
+output format    : mp3_44100_64
+model            : eleven_multilingual_v2
+settings         : {"stability":0.45,"similarity_boost":0.75,"style":0.3,"use_speaker_boost":true}
+items            : 8   characters: 14313
+===========================================
+  ok: origen voice=fxnZk29PIJ3WKEC9MDEo model=eleven_multilingual_v2 settings={"stability":0.45,"similarity_boost":0.75,"style":0.3,"use_speaker_boost":true} chars=2143 cost=1039
+  ok: athanasius-of-alexandria voice=fxnZk29PIJ3WKEC9MDEo model=eleven_multilingual_v2 settings={"stability":0.45,"similarity_boost":0.75,"style":0.3,"use_speaker_boost":true} chars=1836 cost=890
+  ok: gregory-of-nyssa voice=fxnZk29PIJ3WKEC9MDEo model=eleven_multilingual_v2 settings={"stability":0.45,"similarity_boost":0.75,"style":0.3,"use_speaker_boost":true} chars=1913 cost=928
+  ok: ephrem-the-syrian voice=fxnZk29PIJ3WKEC9MDEo model=eleven_multilingual_v2 settings={"stability":0.45,"similarity_boost":0.75,"style":0.3,"use_speaker_boost":true} chars=1539 cost=746
+  ok: john-chrysostom voice=fxnZk29PIJ3WKEC9MDEo model=eleven_multilingual_v2 settings={"stability":0.45,"similarity_boost":0.75,"style":0.3,"use_speaker_boost":true} chars=2104 cost=1020
+  ok: methodius-of-olympus voice=fxnZk29PIJ3WKEC9MDEo model=eleven_multilingual_v2 settings={"stability":0.45,"similarity_boost":0.75,"style":0.3,"use_speaker_boost":true} chars=1254 cost=608
+  ok: constantine-the-great voice=fxnZk29PIJ3WKEC9MDEo model=eleven_multilingual_v2 settings={"stability":0.45,"similarity_boost":0.75,"style":0.3,"use_speaker_boost":true} chars=1774 cost=860
+  ok: gregory-of-nazianzus voice=fxnZk29PIJ3WKEC9MDEo model=eleven_multilingual_v2 settings={"stability":0.45,"similarity_boost":0.75,"style":0.3,"use_speaker_boost":true} chars=1750 cost=848
+
+8/8 generated. credits charged (character-cost headers): 6939
+
+Balance (characters used of 600,000): 219,478 before, 226,417 after: 6,939.
+GET /v1/history since the run started: 8 requests, all David Baker, eleven_multilingual_v2,
+stability 0.45, similarity 0.75, style 0.3; credits 6,939; text lengths match the characters sent; no duplicate.
+Durations (s): origen 150.1, athanasius 133.7, chrysostom 146.1, nyssa 132.1, nazianzus 125.9,
+constantine 118.0, ephrem 108.7, methodius 87.9.

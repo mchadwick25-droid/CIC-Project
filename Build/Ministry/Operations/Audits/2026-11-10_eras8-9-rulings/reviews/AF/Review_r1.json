@@ -1,0 +1,174 @@
+{
+ "slice": "AF",
+ "round": 1,
+ "verdict": "revise",
+ "blocking": [],
+ "substantial": [
+  {
+   "id": "AF-R1-S1",
+   "where": "the-dutch-reformed-church-at-the-cape.living; southern-african-mission-churches.living",
+   "problem": "AF-4 and AF-5 are set living:false, but the churches they describe have no recorded end. The draft also treats them differently from AF-3, which is marked living with grade none and no dated item. Under P2-V's rule, a church with no recorded end and no dated source stays living, graded none, with the source wanted. As drafted, the tree would show the Dutch Reformed Church as not living, while AF-4's own legacy says it 'exists today'.",
+   "evidence": "Record §3 AF-4 'Living today: yes ... grade is none (no dated item after 2010)'; AF-5 'Living today: yes ... Grade: none'. Decision-Log 2026-11-10 'What living means': 'A living flag with no recorded end and no dated source stays living, graded none, with the source wanted' (round 1, CO-3); method page: 'Where we hold no dated source yet, the record says so, and the missing source is listed as wanted.' P2-V outcome counts 4 'none' own grades in eras 1-9. AF-4 legacy: 'The Dutch Reformed Church exists today.'",
+   "fix": "Set living:true on both. AF-4 livingEvidence: {\"group\": \"own\", \"grade\": \"none (no dated item after 2010 found)\", \"basis\": \"The Dutch Reformed Church has no recorded end. No dated present-day record of it was read here, and one is wanted.\"}. AF-5 livingEvidence: {\"group\": \"own\", \"grade\": \"none (no dated item after 2010 found)\", \"basis\": \"The mission churches this entry follows have no recorded end. No dated present-day record of them was read here, and one is wanted.\"}. Add both to wants: 'A dated present-day statement of the Dutch Reformed Church (NG Kerk) and of the Southern African mission churches (Moravian, Presbyterian, Methodist, Lesotho Evangelical), for the living marks of AF-4 and AF-5.' Change the LIVING/NOT LIVING flags to match. If the coordinator reads Review_Brief's 'R2 to R4 evidence' strictly instead, then AF-3 must go to false as well. Either way the three rows must be treated alike."
+  },
+  {
+   "id": "AF-R1-S2",
+   "where": "kongo-christianity-afonso-to-1650 (neighbor change).livingEvidence.basis; kongo-christianity-after-1650.livingEvidence.basis; wants",
+   "problem": "It is right that AF-3 takes VI.13a's mark. That is P2-V's own transfer pattern ('the tree has no Kongo entry after 1650' is closed by AF-3), and the record marks AF-3 living by VI.13a's reasoning. The wording is the problem. VI.13a's new basis says AF-3 'holds the evidence', but AF-3 holds none, only a grade of none. AF-3's own basis, 'Its last entry ends in 1881', reads as if the tradition ended. It also never names the gap or the wanted source, which G-5 (a) and CO-3 require.",
+   "evidence": "Draft VI.13a basis: '... Kongo Christianity after 1650, which holds the evidence.' AF-3 livingEvidence: grade 'none (no dated item after 2010 found)', no evidence field. AF-3 legacy: 'This entry holds no recent evidence about Kongo's Christians today.' The wants list has no present-day Kongo item. HANDOVER Living step 2 names this exact transfer. The validator accepts a 'none' carrier (validate-census.mjs 207-217; VI.13 already names a grade-none carrier).",
+   "fix": "VI.13a basis: \"The Kongo church of this entry carries on in the entry on Kongo Christianity after 1650, which now holds its living mark. No dated present-day record ties a church today to the kingdom's church. One is wanted.\" AF-3 basis: \"The Catholic Church in the lands of the old kingdom has no recorded end. The tree has no Kongo entry after 1881. No dated present-day record ties a church today to the kingdom's church, and one is wanted.\" Add to wants: 'A dated present-day statement of the Catholic Church in northern Angola and the lower Congo (for example the dioceses of M'banza-Kongo), for AF-3's living mark.' Keep VI.13's carrier swap (see minor AF-R1-M11). Do not re-route the mark to IX.59 instead: P2-V's approved reading of VI.13a declined that tie, and IX.59 is placed in Uganda and Rwanda."
+  },
+  {
+   "id": "AF-R1-S3",
+   "where": "southern-african-mission-churches (links); relationsSummary 'This entry follows Schmidt's Moravian mission of 1737'",
+   "problem": "Two-way check. AF-5's prose names its tie to the Moravian Church: Schmidt's mission, the Moravians' own 1771 account, and the three Germans who renewed the work. No link to VII.4 (the-moravian-church-at-herrnhut) or to RV-5 (moravian-church-after-1815) is drafted, in AF or in RV-B. RV-B's VII.4 line and RV-5 text tell the same Cape mission, so the relation stands on both sides with no link.",
+   "evidence": "AF-5 longDescription para 1-3 (McCarter; La Trobe 1771, cic/texts/latrobe-benjamin_succinct-view-of-the-missions_1771.txt 916-919). RV-B neighbor change on VII.4: 'The Brethren tried the Cape early. George Schmidt landed there on 9 July 1737 ...'; RV-5: 'At the Cape the Moravian mission began again in 1792 ... Genadendal'. Scan of every scratch draft: no link touches southern-african-mission-churches. The drafter's flag admits the gap.",
+   "fix": "Draft one link, once, agreed with RV-B so it is not drafted twice: the-moravian-church-at-herrnhut -> southern-african-mission-churches, 'gave rise to'. Quote La Trobe 916-919 ('Our Brethren lived five years among them, begun a fchool with the children, and baptized alio feven adult Hottentots.'), a Library primary, verified-direct. Grade it Widely Accepted with McCarter as the second witness and Elphick and Davenport named, or Documented on La Trobe alone if the coordinator reads the quote as showing the relationship itself. Note: 'The Moravians' own account of 1771 says their Brethren lived five years among the Khoikhoi at the Cape and baptized seven adults. Their mission was the first Protestant church work in South Africa.' For the work after 1815, either add an 'in contact with' link from moravian-church-after-1815 to this row, quoting Hamilton's Cape lines that RV-B already holds, or put a qualified sentence in AF-5 ('The Moravian mission after 1815 is told in the entry on the Moravian Church after 1815.')."
+  },
+  {
+   "id": "AF-R1-S4",
+   "where": "ethiopian-christianity-gondar-to-the-zemene-mesafint.longDescription para 5",
+   "problem": "'The Catholic Encyclopedia tells of more stonings' presents the article's 1752 stoning as a second event. Both accounts give three Catholic missionaries stoned at Gondar, and nothing read separates them. The well-known stoning of three Franciscans at Gondar falls under Dawit (David), which is the one Bruce tells. The article's date counts 'more than a century' from 1638, and no other source read here confirms a stoning in 1752. The framing as 'more' stonings is unsupported, and it may double one event.",
+   "evidence": "Fresh fetch of newadvent.org/cathen/01075e.htm, tags stripped: '... Agathange of Vendome and Cassianus of Nantes were ignominiously hanged (1638). More than a century later (1752), three other were stoned to death in a public square of Gondar.' Bruce vol. 2 (fresh fetch): three 'Romifh priefts' with their interpreter, under David, the cry 'Stone them', 'behind the church of Abbo'.",
+   "fix": "Replace para 5 with: \"The Catholic Encyclopedia of 1907 also tells of three missionaries stoned in a public square at Gondar. It dates this to 1752. No other source read here gives that date.\" Or cut the paragraph and use the article only for the 1846 vicariate. Add a flag that the two accounts may be one event."
+  },
+  {
+   "id": "AF-R1-S5",
+   "where": "ethiopian-christianity-gondar-to-the-zemene-mesafint.longDescription para 3 last sentence; voices[1]",
+   "problem": "'Bruce was a hostile witness, and scholars debate how far to trust him' rests on an [S] item, and [S] carries nothing. 'Hostile' is the drafter's own word. The record calls Bruce an 'outside witness'. The voices line repeats 'whose reliability is debated'.",
+   "evidence": "Fact table row 8 cites '§3 AF-1 ev1 (V)', but its note says 'the record says Bruce's reliability is itself debated [S]'. Record ev1: 'Outside witness; Bruce's reliability is itself debated [S].' Record ev2: 'Outside witness, decades later.'",
+   "fix": "Para 3: \"Bruce was an outside witness. He wrote decades after some of the events he tells.\" voices[1]: \"James Bruce — a Scottish traveler at Gondar in the early 1770s, an outside witness\". Move 'reliability debated' to wants (a modern study of Bruce's reliability)."
+  },
+  {
+   "id": "AF-R1-S6",
+   "where": "ethiopian-christianity-gondar-to-the-zemene-mesafint.longDescription last para",
+   "problem": "The draft puts the Zemene Mesafint sentence in holds and also keeps it in the row. Its only support is the record's [S] description. A held item should not carry a sentence. The tree's own reviewed text, VIII.49's frozen first paragraph, does support the substance and can be cited as the next entry's account.",
+   "evidence": "Fact table row 27: '§3 AF-1 What it holds — the record names the Zemene Mesafint from 1769 [S]'. Holds: 'AF-1: the Zemene Mesafint ... the sentence in the row rests on the record's own account.' VIII.49 (census): 'For a century Ethiopia's emperors had been figureheads while regional lords ruled.'",
+   "fix": "Replace the last paragraph with: \"The next entry says that for a century before 1855 the emperors were only figureheads, while regional lords ruled. No source read for this entry tells of those years.\" (FRE 63, FK 8.0). Keep the row's name, which is the record's candidate title, and keep the hold."
+  },
+  {
+   "id": "AF-R1-S7",
+   "where": "kongo-christianity-after-1650.longDescription para 5",
+   "problem": "'Many Kongolese Christians then had few or no priests, on the usual account' rests on an [S] item. The fact table itself says it is 'not asserted from a source here'. The phrase 'on the usual account' hedges a claim that has no support.",
+   "evidence": "Fact table row 92: '§3 AF-3 What it holds — life without priests after c. 1835 [S]; not asserted from a source here'. The record's 'c. 1835' is [S].",
+   "fix": "Para 5: \"Almost nothing was read for the years from about 1720 to 1879. How the church lived then waits on sources not yet read.\""
+  },
+  {
+   "id": "AF-R1-S8",
+   "where": "the-dutch-reformed-church-at-the-cape.statusDescription",
+   "problem": "'South Africa has no other entry before 1960' is false once this release lands. AF-5 (1737-1906) enters beside it, and IX.4's Ethiopian Church (1892) is already on the tree. The record itself makes the IX.4 exception.",
+   "evidence": "Record §3 AF-4: 'The only South African body on the roster before 1960 is IX.4's Ethiopian Church (1892).' G89-5 enters AF-4 and AF-5 together.",
+   "fix": "\"Tiered Strong (Tier 1). It is the first entry for the settlers' church in South Africa. Its window runs from the settlers' landing in 1652 to 1906. Not yet reviewed.\""
+  },
+  {
+   "id": "AF-R1-S9",
+   "where": "the-dutch-reformed-church-at-the-cape.why last sentence",
+   "problem": "'It grew through the Trek and the Burgers case in the civil court' is overstated. McCarter shows the Trek taking people out of the colony and the Transvaal split into three parties. The Burgers case was a conflict between the church and the civil court. Neither source shows the church growing.",
+   "evidence": "McCarter (fresh fetch): 'a general determination was formed to leave the land of their fathers'; 'In the Transvaal no less than three religious parties exist'; the Supreme Court case of 26 May 1865, under the heading 'COLLISION WITH THE CIVIL COURTS'.",
+   "fix": "\"It was tested by the Trek and by the Burgers case in the civil court.\""
+  },
+  {
+   "id": "AF-R1-S10",
+   "where": "southern-african-mission-churches.longDescription para 5",
+   "problem": "'He says the other stations of his London mission grew out of Bethelsdorp' cuts Philip's sentence at a comma, and the cut changes its meaning. Philip says the other stations grew out of Bethelsdorp or were made up of the remnants of the Khoikhoi. The pronoun 'He' in para 4 is also unclear: it could be Philip or Vanderkemp.",
+   "evidence": "Philip 1828 (fresh fetch, 10432272bsb): '... the other missionary stations of the London Missionary Society within the colony, sprang out of Bethelsdorp, or were composed of the small remnants of the Hottentots who had been still left in their native state.'",
+   "fix": "Paras 4-5: \"John Philip wrote in 1828 about Dr Vanderkemp. Philip says Vanderkemp began his work among people who had risen against the farmers.\" / \"He says the other London mission stations in the colony grew out of Bethelsdorp. Others, he says, were formed from the last Khoikhoi still living in their old way.\" (FRE 73). Extend the fact-table quote to the full clause."
+  },
+  {
+   "id": "AF-R1-S11",
+   "where": "holds",
+   "problem": "A ruled item is missing. G89-8's recommendation logs the Coptic 1300-1517 years 'as their own break for the era 6 owner'. AF's holds, which feed Open-Gaps, do not list it. Open-Gaps 103 records the gap only as 1300-1854, and AF-2 now closes 1517-1854.",
+   "evidence": "§8 G89-8: 'With 1300-1517 logged as its own break for the era 6 owner.' Open-Gaps.md 592-596 (entry 103, 2026-11-08). Draft holds: seven items, none for 1300-1517. Drafter flag: 'The 1300-1517 years are logged for the era 6 owner' (they are not, in any file read).",
+   "fix": "Add hold: {\"item\": \"The Coptic church c. 1300-1517 (the Mamluk years), between coptic-christianity-fatimid-to-mamluk and the-coptic-church-under-the-ottomans\", \"g89\": \"G89-8 a\", \"reason\": \"Outside this sweep's eras. AF-2 starts at 1517 by Mark's leave; the years before it are logged as their own break, as the ruling says.\", \"waits_for\": \"The era 6 owner.\"} The new Open-Gaps entry should cite Open-Gaps 'Coptic and Ethiopian map gaps (2026-11-08)' by subject and date, and say that AF-1 and AF-2 close the rest of it."
+  }
+ ],
+ "minor": [
+  {
+   "id": "AF-R1-M1",
+   "where": "ethiopian-christianity-gondar-to-the-zemene-mesafint.longDescription para 6",
+   "problem": "The prose gives the Lazarist's name as 'de Jacobus', which is the article's misspelling. His name is de Jacobis, and the record and holds use that form.",
+   "evidence": "Drafter's own flag: 'it spells de Jacobis \"de Jacobus\"'.",
+   "fix": "\"It says one of them, Justin de Jacobis, stirred the jealousy of the clergy.\" Keep the article's spelling inside the quote only."
+  },
+  {
+   "id": "AF-R1-M2",
+   "where": "ethiopian-christianity-gondar-to-the-zemene-mesafint.longDescription para 4; voices[0]",
+   "problem": "Two different men named Abba Gregorius appear in one entry: Ludolf's informant of the 1650s, and the interpreter stoned under David. A reader will take them for the same man.",
+   "evidence": "voices[0]: '... from the words of an Ethiopian, Abba Gregorius'. Para 4: 'their Ethiopian interpreter, Abba Gregorius' (Bruce vol. 2: 'their interpreter, whofe name was Abba Gregorius').",
+   "fix": "Para 4: \"... their Ethiopian interpreter, also named Abba Gregorius.\""
+  },
+  {
+   "id": "AF-R1-M3",
+   "where": "AF-1.why; AF-4.longDescription last para",
+   "problem": "Two spelling issues. 'quarrelled' is British; tools/check_spelling.py reports it. 'coloured' is also flagged. In South Africa 'Coloured' is a proper community name, so the sentence needs care rather than a mechanical change to 'colored'.",
+   "evidence": "check_spelling.py on the extracted prose: 'quarrelled -> quarreled', 'coloured -> colored'.",
+   "fix": "AF-1 why: \"Its monks quarreled, and in troubled times their chiefs held more weight than the abun did.\" This also mends 'often', since Bruce says 'in troublesome times'. AF-4: \"This entry does not yet tell how the church came to hold separate churches by race. That story waits on sources not yet read.\""
+  },
+  {
+   "id": "AF-R1-M4",
+   "where": "ethiopian-christianity-gondar-to-the-zemene-mesafint.sourcing",
+   "problem": "The sourcing field leaves out the added Catholic Encyclopedia article (1907), although three of the row's paragraphs rest on it. The source itself is acceptable: it is public domain, it was opened raw, it is flagged, its stance is named in the prose, and a fresh fetch confirms every quote.",
+   "evidence": "Sourcing: 'Ludolf wrote in 1682, Bruce in 1790 and Gobat in 1834.'",
+   "fix": "\"Almost every text read here is an outsider's. Ludolf wrote in 1682, Bruce in 1790 and Gobat in 1834. A Catholic encyclopedia of 1907 adds the missions' side.\""
+  },
+  {
+   "id": "AF-R1-M5",
+   "where": "the-coptic-church-under-the-ottomans.why",
+   "problem": "'They paid for churches and monasteries' generalizes from one man, al-Jawhari, to the notables as a class.",
+   "evidence": "Butcher footnote: 'he gave a great deal of land and money for the support of the National Church'.",
+   "fix": "\"One of them, Ibrahim al-Jawhari, gave land and money to restore churches and monasteries.\""
+  },
+  {
+   "id": "AF-R1-M6",
+   "where": "southern-african-mission-churches.why, voices, longDescription",
+   "problem": "Three small problems. (1) 'Xhosa and Sotho Christians such as Ntsikana and Tiyo Soga' names two Xhosa men and no Sotho Christian. (2) Voices states 'the first ordained Xhosa minister' as a fact, where Chalmers says 'the first ordained preacher of his race'. (3) The name is spelled 'Georg' in some places and 'George' in others.",
+   "evidence": "Chalmers (fresh fetch): 'the first ordained preacher of his race'. Casalis shows Moshoeshoe, not a Sotho convert.",
+   "fix": "why: \"Xhosa Christians such as Ntsikana and Tiyo Soga then took their place beside the missionaries, and the Paris mission came to the Sotho.\" voices: \"Tiyo Soga — whom Chalmers calls the first ordained preacher of his race; his letter of 1861 survives in Chalmers's book\". Use 'Georg Schmidt' in prose throughout, keeping 'George' inside McCarter's quotes."
+  },
+  {
+   "id": "AF-R1-M7",
+   "where": "kongo-christianity-after-1650, the-dutch-reformed-church-at-the-cape, southern-african-mission-churches .modernCountries",
+   "problem": "These lists are empty, so the atlas cannot place three rows whose countries are known. The drafter followed the rule: the validator rejects a country without a Wikidata ID, no census row carries these places, and IDs may not be typed from memory. VI.13a and VII.11 are also empty, so there is precedent.",
+   "evidence": "validate-census.mjs 352-355. No Angola, DR Congo, South Africa, Lesotho or Botswana in any census row.",
+   "fix": "At apply, add the IDs through decisions.json field_overrides, after the coordinator looks each one up on Wikidata (Angola, DR Congo for AF-3; South Africa for AF-4; South Africa and Lesotho for AF-5). Log the lookup in the Decision-Log as a sourcing step. Otherwise hold them in Open-Gaps."
+  },
+  {
+   "id": "AF-R1-M8",
+   "where": "AF-1, AF-2 livingEvidence.descentConfidence",
+   "problem": "AF-1 and AF-2 add a descent grade, but VI.25, VIII.49, IV.26 and VIII.13 on the same lines carry none. AF-1's line is unbroken, so no grade is needed there. The carrier choices themselves are right. IX.20 and IX.10 are living, hold their own evidence, and are not carried. These are the same carriers P2-V gave the neighbors on each line, and the simulated merge passes the validator.",
+   "evidence": "Census: VI.25, VIII.49 carrier modern-ethiopian-and-eritrean-christianity, no descentConfidence; IV.26, VIII.13 carrier the-coptic-monastic-and-sunday-school-revival, no descentConfidence.",
+   "fix": "Drop descentConfidence from AF-1 for consistency. For AF-2, keep it only if the coordinator wants the 1300-1517 break graded, and then grade IV.26 the same way. Otherwise drop it."
+  },
+  {
+   "id": "AF-R1-M9",
+   "where": "retire_links; link kongo-christianity-afonso-to-1650--the-antonian-movement-in-kongo (existing)",
+   "problem": "(1) The retired IV.26 -> VIII.13 link's replacedBy names only the first of its two replacements. (2) The existing VI.13a -> VII.11 'gave rise to' link (Inferential-Thin) now runs past AF-3, which also draws AF-3 -> VII.11. The record's §4 note says AF-3 'would give that edge a home'. The ruling does not name a retirement, so the existing link stays in this release.",
+   "evidence": "retire_links[0].replacedBy; census edge kongo-christianity-afonso-to-1650--the-antonian-movement-in-kongo.",
+   "fix": "(1) Name both replacements in the reason text, as it already does, and leave the field as it is if the schema takes one id. (2) Register the duplicate edge in Open-Gaps for the census owner. Do not retire it under this ruling."
+  },
+  {
+   "id": "AF-R1-M10",
+   "where": "kongo-christianity-after-1650.informalName",
+   "problem": "'The Capuchin Century and the Kongolese Lay Church' promises a lay church the text cannot show, because that part is held.",
+   "evidence": "Holds: 'AF-3: the years from about 1720 to 1879 (the lay church, ...)'.",
+   "fix": "\"The Capuchin Century in Kongo\"."
+  },
+  {
+   "id": "AF-R1-M11",
+   "where": "neighbor_changes: mission-born-christianities-kirishitan-japan-kon (VI.13); kongo-christianity-afonso-to-1650 (VI.13a)",
+   "problem": "Frozen-row changes beyond the ruled lines. The VI.13 carrier swap is outside AF's edit list, and VI.13a's livingEvidence change comes from the P2-V living pass, not from a G89 recommendation. Both are needed: after VI.13a becomes carried, the validator refuses VI.13 naming it ('carried by another entry'). Both are the smallest changes that work, and nothing else in either row changes. VI.13a's continuesAs to AF-3 is also a frozen-field change, which the ruling implies but does not spell out. No other frozen text changed: VIII.49's first paragraph is byte-identical to the census.",
+   "evidence": "validate-census.mjs 217. The simulated AF-only merge validates with 0 data errors (only the release-number and statusCounts meta errors, which a simulation without apply always gives).",
+   "fix": "Name all three as their own items in the G89-6 (a) change-order register and the Decision-Log entry: 'VI.13a continuesAs (G89-9 a)', 'VI.13a living carried by AF-3 (P2-V, HANDOVER Living step 2)', 'VI.13 carrier repointed from VI.13a to AF-3 (consequence, validator)'."
+  },
+  {
+   "id": "AF-R1-M12",
+   "where": "link ethiopian-christianity-gondar-to-the-zemene-mesafint--ethiopian-christianity-tewodros-to-menelik.note; the-dutch-reformed-church-at-the-cape.longDescription para 4",
+   "problem": "The note's 'covers the years in between' is loose: Crummey covers 1830-1868, not the gap from the 1770s to 1898. In AF-4, 'now number at least 200,000' leaves out McCarter's date.",
+   "evidence": "Crummey title, V-s. McCarter 1869.",
+   "fix": "Note: \"... A study of the missions covers 1830 to 1868.\" AF-4: \"He says that by 1869 their descendants numbered at least 200,000.\""
+  }
+ ],
+ "quotes_checked": 172,
+ "quotes_failed": [],
+ "notes": "Independent check. I re-fetched all 12 raw texts from SOURCES.json with curl into review/AF/raw. The 11 archive.org files are byte-identical to the drafter's copies. For newadvent 01075e I stripped the tags and unescaped the entities myself. check_draft.py run against my own fetch: 172 quotes, 97 paragraphs, 0 lines printed (no QUOTE-MISS, no READ-FAIL). That covers every fact-table quote and every link quote, including the Library quotes (Alvares, Budge 1898 and 1928, Lopes, Carli, Cavazzi, Ludolf, La Trobe) at their lines. The voices fields hold no quotes. Beyond string matching, I read about 20 quotes in context to check that the sentence built on them is fair: Bruce vol. 2 on the council and the stoning; Gobat on 1826, 26 Feb 1830, and the Coptic patriarch's decision accepted by Guebra Messih, which 'settled the question'; Butcher on Hassan Pasha, al-Jawhari and Athanasius; McCarter on van Arckel, the 1824 synod, 1835, the Synodical Commission and Andrew Murray jun.; Chalmers on Ntsikana, the Glasgow Society and Soga's 1861 letter; Philip; the Catholic Encyclopedia on 1752, 1846 and 1889. Only Philip (S10) and the 1752 framing (S4) failed this reading. A simulated AF-only merge into a scratch census passes tools/validate-census.mjs (0 data errors).\n\nRulings on the HANDOVER flags:\n(1) AF-1 and AF-2 living by carrier: right. They are on 'continued as' lines whose neighbors P2-V already carries by the same entries, IX.20 and IX.10. Both carriers hold their own CR evidence and are not carried, so the validator passes. Only the descent grades are inconsistent (M8).\n(2) AF-3 living with grade none, VI.13a repointed, and VI.13's carrier swap. Under P2-V as ruled (G-5 a; CO-3: no recorded end and no dated source stays living, graded none, source wanted), AF-3 is rightly living. It does not meet R2-R3 on dated evidence, and neither did VI.13a, whose mark P2-V reviewed and approved. AF-3 ending in the 1880s does not matter: the mark belongs to the tradition, not to the entry's dates. Moving the mark to the latest entry is P2-V's own pattern, and the VI.13 swap is the smallest change the validator allows. Do not re-route the mark through IX.59. What needs fixing is the basis wording and the wanted source (S2), and treating AF-4 and AF-5 the same way (S1). If the coordinator instead reads Review_Brief's line strictly ('only with R2 to R4 evidence'), then AF-3 goes to false, VI.13a keeps its own grade, VI.13 is left alone, and VI.13a's basis is changed to name the gap after 1881. That would contradict P2-V's approved handling of VI.13a, so I do not recommend it.\n(3) The added Catholic Encyclopedia 'Abyssinia' source is acceptable. It is public domain, opened raw, flagged, and its stance is stated in the prose ('These accounts are Catholic'; 'a Catholic account, not the church's own'). Fixes needed: the 1752 framing (S4), the de Jacobis spelling (M1) and the sourcing line (M4).\n(4) Empty modernCountries for AF-3 to AF-5: correct under the rules. Fill the IDs at apply after a Wikidata lookup (M7).\n(5) AF-2 in era 8 with start 1517: approve. Mark's leave covers the start. G89-6 sub-question 2 (i) lets a new row cross an era line. Most of the row's span lies in era 8 (133 years in era 7, 165 in era 8, 39 in era 9). Era 7 would break the validator's adjacent-era rule for continuesAs to VIII.13. The statusDescription says plainly that the row begins in the era before. The VII.32 precedent fits.\n(6) The DMR grades on IV.26 -> AF-2 and AF-2 -> VIII.13: approve. Both rest on Budge's 1928 compiled list (a secondary in the Library, verified-direct), with Meinardus 1999 and Guirguis 2011 as the modern studies the repo cites, which is the DMR definition in the lineage brief. They match the grade of the retired link. AF-2 -> VIII.13 could reach Widely Accepted if Lane's primary were attached; that would be stronger, but the present grade is not wrong. Retiring IV.26 -> VIII.13 is exactly what G89-8 and G89-6 name.\n(7) The AF-1 <-> AF-2 'in contact with' link, major by its outcome: approve. The outcome rests on an institutional act shown in the link's own quotes: the Coptic patriarch's decision was brought to Tigray and the dispute was adjusted. Gobat's context, read fresh, says the credentials were 'accepted by the latter, settled the question'. Widely Accepted with verified-online is within the cap. There is precedent in IV.26 <-> Zagwe (the abun outcome).\n(8) Frozen rows changed beyond the ruled lines: only the consequential living changes on VI.13a and VI.13 and VI.13a's continuesAs (M11). VIII.49's frozen paragraph is unchanged, and VI.25 gets only the ruled continuesAs.\n(9) RV-B's AF-2 -> VII.4 link (the-coptic-church-under-the-ottomans--the-moravian-church-at-herrnhut). AF-2's own text does not support it: AF-2 never names the Moravians, Hooker or Cairo's Brethren, and AF's raw texts do not include Watson. The link does not need AF-2's text, though. The two-way check runs from prose to link, and the link rests on its own quotes (La Trobe 1771, a Library primary; Watson online) and on VII.4's new Cairo line. Its endpoint is right: 1752 falls inside AF-2 (1517-1854) and before VIII.13 starts. Widely Accepted with verified-online is within the cap. Keep it in RV-B only; AF drafts no copy, and none was found. If the coordinator wants the relation visible from the Coptic side, RV-B could add one sourced sentence to AF-2's relationsSummary, but that is optional.\n\nProse: readable, attributed sentence by sentence, with each source's stance named (Volney hostile, McCarter friendly, the Catholic Encyclopedia Catholic, Bentley partisan). I found no AI tells. The 'X says ... He adds' chains are the cost of honest attribution, not filler. The period slur stays in the fact-table quotes only, as the record directs. Round 2 should be a targeted recheck of S1 to S11 and any new links (S3)."
+}

@@ -1,0 +1,115 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "lpc.witness.punishment-without-end"
+   ],
+   "sentence": "Augustine, our bishop at Hippo, taught that the punishment of the lost has no end."
+  },
+  {
+   "record_ids": [
+    "lpc.witness.punishment-without-end"
+   ],
+   "sentence": "Augustine let the doubters suppose, if the thought gave them pleasure, that the pains of the damned are at times eased."
+  },
+  {
+   "record_ids": [
+    "lpc.witness.punishment-without-end"
+   ],
+   "sentence": "Augustine would not let them say the punishment ends."
+  }
+ ],
+ "citations": [
+  "lpc.witness.punishment-without-end"
+ ],
+ "group": "B",
+ "id": "q029",
+ "net_sentences": [
+  {
+   "draft": "Augustine writes that Origen believed even the devil and his angels would be delivered from their torments [[cic:npnf102_augustine-city-of-god-christian-doctrine.xml:iv.XXI.17#01]] [[as:paraphrase]].",
+   "sentence": "Augustine writes that Origen believed even the devil and his angels would be delivered from their torments [[cic:npnf102_augustine-city-of-god-christian-doctrine.xml:iv.XXI.17#01]].",
+   "tags": [],
+   "verdict": "withhold",
+   "why": "specific claim (proper-noun:['origen', 'xxi'], number) with no citation tag"
+  },
+  {
+   "draft": "Augustine writes that the Church, not without reason, condemned Origen for this and other errors [[cic:npnf102_augustine-city-of-god-christian-doctrine.xml:iv.XXI.17#01]] [[as:paraphrase]].",
+   "sentence": "Augustine writes that the Church, not without reason, condemned Origen for this and other errors [[cic:npnf102_augustine-city-of-god-christian-doctrine.xml:iv.XXI.17#01]].",
+   "tags": [],
+   "verdict": "withhold",
+   "why": "specific claim (proper-noun:['origen', 'xxi'], number) with no citation tag"
+  },
+  {
+   "draft": "Among those errors Augustine names Origen's theory of a ceaseless alternation of happiness and misery at fixed periods of ages [[cic:npnf102_augustine-city-of-god-christian-doctrine.xml:iv.XXI.17#01]] [[as:paraphrase]].",
+   "sentence": "Among those errors Augustine names Origen's theory of a ceaseless alternation of happiness and misery at fixed periods of ages [[cic:npnf102_augustine-city-of-god-christian-doctrine.xml:iv.XXI.17#01]].",
+   "tags": [],
+   "verdict": "withhold",
+   "why": "specific claim (proper-noun:['augustine', \"origen's\", 'xxi'], number) with no citation tag"
+  },
+  {
+   "draft": "Augustine says Origen was even more indulgent than the tender-hearted Christians who suppose the lost will be delivered after a fixed term of punishment [[cic:npnf102_augustine-city-of-god-christian-doctrine.xml:iv.XXI.17#01]] [[as:paraphrase]].",
+   "sentence": "Augustine says Origen was even more indulgent than the tender-hearted Christians who suppose the lost will be delivered after a fixed term of punishment [[cic:npnf102_augustine-city-of-god-christian-doctrine.xml:iv.XXI.17#01]].",
+   "tags": [],
+   "verdict": "withhold",
+   "why": "specific claim (proper-noun:['origen', 'xxi'], number) with no citation tag"
+  },
+  {
+   "draft": "Augustine, our bishop at Hippo, taught that the punishment of the lost has no end [[lpc.witness.punishment-without-end]] [[as:paraphrase]].",
+   "ratio": 0.71,
+   "sentence": "Augustine, our bishop at Hippo, taught that the punishment of the lost has no end.",
+   "tags": [
+    "lpc.witness.punishment-without-end"
+   ],
+   "verdict": "ok",
+   "why": "grounded 71% in own tagged records"
+  },
+  {
+   "draft": "Augustine let the doubters suppose, if the thought gave them pleasure, that the pains of the damned are at times eased [[lpc.witness.punishment-without-end]] [[as:paraphrase]].",
+   "sentence": "Augustine let the doubters suppose, if the thought gave them pleasure, that the pains of the damned are at times eased.",
+   "tags": [
+    "lpc.witness.punishment-without-end"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Augustine would not let them say the punishment ends [[lpc.witness.punishment-without-end]] [[as:paraphrase]].",
+   "sentence": "Augustine would not let them say the punishment ends.",
+   "tags": [
+    "lpc.witness.punishment-without-end"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  }
+ ],
+ "offered": [
+  "lpc.witness.punishment-without-end",
+  "lpc.term.reconciliation-penitential-discipline",
+  "lpc.term.catechesis",
+  "lpc.term.libellatici-sacrificati",
+  "lpc.story.hundred-thousand-sesterces",
+  "lpc.story.election-of-cyprian",
+  "lpc.quote.an-ever-burning-gehenna",
+  "lpc.quote.the-life-and-the-death-shall-both-be-without-end",
+  "lpc.witness.infants-and-the-sin-of-another",
+  "lpc.quote.the-mildest-condemnation-of-all",
+  "lpc.quote.the-mildest-punishment-of-all",
+  "lpc.witness.no-salvation-outside-the-church",
+  "lpc.quote.no-salvation-out-of-the-church",
+  "lpc.quote.left-doubtful-a-kind-of-purgatorial-fire",
+  "lpc.force.recurring-contest-failed-member",
+  "cic:npnf102_augustine-city-of-god-christian-doctrine.xml:iv.XXI.17#01"
+ ],
+ "raw_text": "Augustine writes that Origen believed even the devil and his angels would be delivered from their torments [[cic:npnf102_augustine-city-of-god-christian-doctrine.xml:iv.XXI.17#01]] [[as:paraphrase]]. Augustine writes that the Church, not without reason, condemned Origen for this and other errors [[cic:npnf102_augustine-city-of-god-christian-doctrine.xml:iv.XXI.17#01]] [[as:paraphrase]]. Among those errors Augustine names Origen's theory of a ceaseless alternation of happiness and misery at fixed periods of ages [[cic:npnf102_augustine-city-of-god-christian-doctrine.xml:iv.XXI.17#01]] [[as:paraphrase]]. Augustine says Origen was even more indulgent than the tender-hearted Christians who suppose the lost will be delivered after a fixed term of punishment [[cic:npnf102_augustine-city-of-god-christian-doctrine.xml:iv.XXI.17#01]] [[as:paraphrase]]. Augustine, our bishop at Hippo, taught that the punishment of the lost has no end [[lpc.witness.punishment-without-end]] [[as:paraphrase]]. Augustine let the doubters suppose, if the thought gave them pleasure, that the pains of the damned are at times eased [[lpc.witness.punishment-without-end]] [[as:paraphrase]]. Augustine would not let them say the punishment ends [[lpc.witness.punishment-without-end]] [[as:paraphrase]].\n",
+ "reply_shape": {
+  "placed": [],
+  "removed": [],
+  "repaired": []
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": "C3.S3",
+ "text": "Augustine writes that Origen believed even the devil and his angels would be delivered from their torments [[cic:npnf102_augustine-city-of-god-christian-doctrine.xml:iv.XXI.17#01]]. Augustine writes that the Church, not without reason, condemned Origen for this and other errors [[cic:npnf102_augustine-city-of-god-christian-doctrine.xml:iv.XXI.17#01]]. Among those errors Augustine names Origen's theory of a ceaseless alternation of happiness and misery at fixed periods of ages [[cic:npnf102_augustine-city-of-god-christian-doctrine.xml:iv.XXI.17#01]]. Augustine says Origen was even more indulgent than the tender-hearted Christians who suppose the lost will be delivered after a fixed term of punishment [[cic:npnf102_augustine-city-of-god-christian-doctrine.xml:iv.XXI.17#01]]. Augustine, our bishop at Hippo, taught that the punishment of the lost has no end. Augustine let the doubters suppose, if the thought gave them pleasure, that the pains of the damned are at times eased. Augustine would not let them say the punishment ends.",
+ "voice_set_aside": false
+}

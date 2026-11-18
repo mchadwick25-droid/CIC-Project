@@ -11,14 +11,20 @@ confidence:
   verification_state: verified-via-authority
   evidentiary_weight: load-bearing
   formation_confidence: Documented
-  divergence_note: "Documented as to the 400 synod and expulsion themselves, well-attested events. Contested as to Theophilus's own motives for his 399-to-400 reversal, a genuine scholarly dispute this record carries forward at full strength rather than adjudicating. The Festal Letter of 399 and the specific year/council detail are Doc_01 SS2.3's own account, cited there rather than to a registered source record; desert.source.socrates-historia-ecclesiastica's own registered locus below covers the anthropomorphite dispute, the Tall Monks by name, and their flight to Constantinople, but that source's own screen for institutional claims (an outside, later, Constantinopolitan witness) applies and it does not itself name a Festal Letter or a council at Alexandria."
+  divergence_note: "Documented as to the 400 synod and expulsion themselves, well-attested events. Contested as to Theophilus's own motives for his 399-to-400 reversal, a genuine scholarly dispute this record carries forward at full strength rather than adjudicating. The festal letters against the Anthropomorphites are in Cassian, Conference X.2 (cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml, lines 35963-35999); the year 399 is the translator's note there. The council that condemned Origen's books appears in the NPNF summary of Theophilus's synodal letter, Jerome's Letter XCII (cic/texts/npnf206_jerome-principal-works.xml, from line 19795; the letter itself is not printed there); \"at Alexandria\" and the year 400 come from the editor's heading. Socrates VI.10 also reports that Theophilus assembled many bishops who condemned Origen's writings, without naming the place (cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml, lines 17895-17898). desert.source.socrates-historia-ecclesiastica's locus below covers the anthropomorphite dispute, the Tall Monks by name, and their flight to Constantinople. It is an outside, later, Constantinopolitan witness, so its screen for institutional claims applies; it names no festal letter and does not place the council at Alexandria."
 sources:
 - source_id: desert.source.socrates-historia-ecclesiastica
   locus: "the Book VI Theophilus sequence - the anthropomorphite affair, the Tall Brothers, and the Origenist expulsion reaching Constantinople"
   license: public-domain
-name: "Episcopal and conciliar intervention in the First Origenist Controversy (399-400), scattering Strand C's intellectual leadership [3A - ending/external]"
+- source_id: desert.source.cassian-conferences
+  locus: "Conference X, ch. II (npnf211 file lines 35963-35999): the festal letters of Theophilus against the Anthropomorphites arriving at Scete"
+  license: public-domain
+name: "Episcopal and conciliar intervention in the First Origenist Controversy (399-400), scattering the semi-anchoritic strand's intellectual leadership"
 kind: ending
-description: "Theophilus of Alexandria's Festal Letter of 399 initially attacked anthropomorphite literalism, then reversed course into an anti-Origenist campaign; a council at Alexandria in 400 condemned Origen and his monastic followers, and the Tall Brothers and other Origenist ascetics were expelled from Egypt that year. No first-person account survives of how Strand C's own participants experienced this rupture - Evagrius himself died in January 399, before the controversy fully broke, meaning the systematizer of this force's own target vocabulary never directly witnessed the controversy that would later scatter his intellectual circle."
+description: |-
+  Theophilus was bishop of Alexandria. In his Festal Letter of 399 he first attacked the reading of God as having a human form. It was held by monks called anthropomorphites. Then he turned the other way and began a campaign against those who followed Origen. In 400 a council at Alexandria condemned Origen and his monk followers. That same year the Tall Brothers and other Origenist monks were driven out of Egypt.
+
+  No first-hand account survives from anyone in the semi-anchoritic strand of how they lived through this break. Evagrius himself died in January 399, before the fight fully broke out. He was the one who had set in order the words this force struck at. So he never saw the fight that later scattered his circle of thinkers.
 matrix_cell: 3A
 manifestations:
 - "Theophilus's own 399-to-400 reversal, from an anti-anthropomorphite to an anti-Origenist campaign"
@@ -76,12 +82,13 @@ dateable half of that synthesis; desert.force.authority-tension-vulnerability's
 own body carries the synthesis in full.
 
 The description's Festal Letter of 399, the year 400, and "a council at
-Alexandria" are not in Socrates Book VI (VI.7-9 carry the
-anthropomorphite dispute, the Tall Monks by name, and their flight, but
-no Festal Letter and no named council); those specifics are Doc_01
-SS2.3's, cited there in divergence_note rather than attributed to the
-registered Socrates locus, matching the discipline desert.force.martyrdom-unavailable
-applies to its own background history. The Cross-Cell Connection
+Alexandria" are not all in Socrates Book VI. VI.7-9 carry the
+anthropomorphite dispute, the Tall Monks by name, and their flight, and
+VI.10 reports a council Theophilus assembled to condemn Origen's writings,
+without naming its place. The festal letters come from Cassian's
+Conference X.2, cited in sources[]; the place and year of the council come
+from the NPNF heading to Theophilus's synodal letter (Jerome, Letter XCII),
+cited in divergence_note. The Cross-Cell Connection
 paragraph above explains the relation to authority-tension-vulnerability.
 
 desert.story.sarapion-anthropomorphite narrates this force's own

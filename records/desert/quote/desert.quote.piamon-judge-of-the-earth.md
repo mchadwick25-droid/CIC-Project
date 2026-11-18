@@ -21,9 +21,7 @@ confidence:
     as desert.quote.taor-not-compelled-to-market.
 sources:
 - source_id: desert.source.palladius-paradise-syriac
-  locus: >-
-    Book I, ch. xxxv, Of Piamon the Virgin, in Budge's English
-    (cic/texts/palladius_paradise-v1-syriac_budge1907.txt)
+  locus: "Book I, ch. xxxv, Of Piamon the Virgin, in Budge's English (cic/texts/palladius_paradise-v1-syriac_budge1907.txt, line 1125)"
   license: public-domain
 text: >-
   Now the elders of the village were afraid, and they fell down at her feet and made supplication
@@ -36,13 +34,13 @@ text: >-
   handmaiden prayeth and her supplication reach Thee, let Thy power transfix [the enemy] in the
   spot wherein they are"...
 modern_rendering: >-
-  The elders of the village were afraid. They fell at her feet and begged her: 'We do not dare
-  go out to meet them. We know how wretched and arrogant they are. But if you want to spare the
-  village and your own house, go out and meet them yourself.' The virgin would not go out.
-  Instead she climbed to the roof and stood there in prayer the whole night, never once kneeling
-  down, bowing and pleading with God: 'Lord, Judge of the earth, you take no pleasure in
-  anything unjust. My Lord, when the prayer and pleading of your servant reach you, let your
-  power pin the enemy to the spot where they stand'...
+  The elders of the village were afraid. They fell down at her feet and begged her, saying, "We do
+  not dare to go out to meet them. We know their wretched nature and their arrogance well. But if
+  you wish to spare the village and your own house, go out and meet them yourself." The virgin would
+  not agree to go out. Instead she went up onto the roof. She stood there in prayer the whole night
+  long, without once kneeling down. She bowed again and again and pleaded with God, saying, "O Lord,
+  Judge of the earth, you take no pleasure in anything unjust. O my Lord, when your handmaid's
+  prayer and plea reach you, let your power pin [the enemy] to the spot where they are"...
 speaker_or_author: the elders of Piamon's village, and Piamon of Upper Egypt, as Palladius reports them
 license: verbatim
 modern_lens_note: >-

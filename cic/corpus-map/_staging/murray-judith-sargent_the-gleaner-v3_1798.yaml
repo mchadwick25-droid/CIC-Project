@@ -1,0 +1,28 @@
+source_file: murray-judith-sargent_the-gleaner-v3_1798.txt
+assignments:
+- row_id: murray-judith-sargent_the-gleaner-v3_1798--gleaner-v3-essays
+  work: 'Judith Sargent Murray (''Constantia''), The Gleaner, vol. III: essays LXIX-C (1798)'
+  author: murray-judith-sargent
+  locus: 'the essays at OCR lines 176-16224; add 12 to OCR line numbers'
+  atlas_ids:
+  - early-american-unitarians-universalists
+  role: tradition
+  confidence: provisional
+  language: eng
+  date: {start: 1796, end: 1798, source: "title page: 'Feb. 1798'; No. LXXXVII is headed as written December 1796 (contents, OCR lines 116-118)", formation_confidence: Documented}
+  note: 'Essays, with two plays, printed under the name Constantia. Her life appears in them only indirectly.'
+- row_id: murray-judith-sargent_the-gleaner-v3_1798--gleaner-v3-observations-on-female-abilities
+  work: 'Judith Sargent Murray (''Constantia''), The Gleaner, Nos. LXXXVIII-XCI: Observations on Female Abilities (1798)'
+  author: murray-judith-sargent
+  locus: 'Nos. LXXXVIII-XCI at OCR lines 9969-12185; add 12 to OCR line numbers'
+  atlas_ids:
+  - early-american-unitarians-universalists
+  role: tradition
+  confidence: provisional
+  language: eng
+  date: {start: 1798, end: 1798, source: "title page: 'Feb. 1798'; the four essays carry no date of writing", formation_confidence: Documented}
+  note: 'Her four essays on women''s abilities.'
+authors_ruled:
+  murray-judith-sargent:
+    kind: pseudonymous
+    evidence: "The title page reads 'By Constantia'. The archive.org record names Judith Sargent Murray; in the conclusion of vol. III, 'The Gleaner Unmasked', the author drops the mask (vol. III file lines 16048-16236)."

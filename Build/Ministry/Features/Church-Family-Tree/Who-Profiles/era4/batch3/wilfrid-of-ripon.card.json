@@ -1,0 +1,108 @@
+{
+  "name": "Wilfrid of Ripon",
+  "otherNames": [
+    "Wilfred",
+    "Wilfridus",
+    "Wilfrithus"
+  ],
+  "knownFor": "Bishop of York, who spoke for the Roman Easter at Whitby in 664 and built churches at Ripon and Hexham. Driven from his see more than once, he appealed to Rome and was upheld. Bede says he also preached to the South Saxons.",
+  "dates": "Bede puts his death in 709, after forty-five years as bishop. Stephen, his biographer, says he died in his seventy-sixth year after forty-six years as bishop. Eadmer, writing in the twelfth century, gives his birth as 634",
+  "place": "Northumbria, in northern England: Lindisfarne, Ripon, York and Hexham. Lyon and Rome in his youth. In exile among the South Saxons and the Mercians. Died at Oundle and buried at Ripon",
+  "tradition": "Anglo-Saxon Christianity",
+  "role": "Abbot of Ripon; bishop of York; missionary to the South Saxons; appellant to Rome",
+  "briefLength": "about 2 minutes",
+  "keyWorks": [
+    {
+      "title": "Petitions to Pope Agatho and Pope John VI",
+      "about": "his two appeals to Rome against his removal, as Stephen gives them in Latin. In the first he says he did not dare accuse Archbishop Theodore of Canterbury, who had been sent from Rome. In the second he leaves York to the pope and asks back only Ripon and Hexham"
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "Bede calls him the first of the English bishops who taught the English churches the Catholic way of life. He says Wilfrid brought Eddi, called Stephen, from Kent as singing-master.",
+      "Stephen describes his stone church at Ripon, his church at Hexham and his repair of York minster, with glass in its windows.",
+      "Bede says the South Saxons were starving when he came, and that he taught them to fish with nets. Bede adds that King Ethelwalch gave him land at Selsey.",
+      "Stephen says Willibrord, raised at Ripon, built on the faith Wilfrid had first planted in Frisia.",
+      "Wilfrid signed the letter of Pope Agatho's synod in Rome. Mansi prints his subscription among the acts of the third council of Constantinople."
+    ],
+    "remembered": [
+      "His epitaph at Ripon, which Bede gives, says he brought monks into those parts and strictly taught their founder's rules.",
+      "James Raine, who edited Stephen in 1879, calls him the greatest person in Northumbria for forty years after Whitby. \"To describe him in one word, he was a reformer,\" Raine writes, and \"Wilfrid never gave way.\"",
+      "Raine calls Stephen \"an enthusiastic partizan\" who sees no fault in his hero.",
+      "The Roman Breviary, in the Marquess of Bute's English, keeps his feast on 12 October, with lessons from Bede. The York Prymer calls on him in its litany."
+    ]
+  },
+  "uncertain": [
+    "Stephen, a priest of Wilfrid's circle, wrote the fullest Life, and James Raine calls him a partisan. Bede of Jarrow tells the story more briefly.",
+    "What Bede leaves out. Stephen tells of Queen Iurmenburg's envy, the nine months in prison and the synod at Austerfield, and Bede tells none of them. The later Lives by Fridegod and Eadmer, which draw on Stephen, repeat them. Charles Plummer says he cannot tell whether Bede kept silent out of regard for Wilfrid or for the kings.",
+    "The removal of 678. Bede says King Egfrid drove him out and new bishops were made. Stephen says the queen's envy moved the king, and that Archbishop Theodore was won over with gifts.",
+    "Whitby. In Bede, Wilfrid argues from what the whole church does, and Hild's party holds with the Scots. In Stephen he argues from the council of Nicaea and the practice of Rome and nearly the whole world. Stephen names Hild only as present.",
+    "Pope John's letter, which Stephen copies, says men sent by Theodore and by Abbess Hild of Whitby had come to Rome to accuse him. Bede does not mention it.",
+    "The day of his death. J. A. Giles's English Bede gives 12 October, but Charles Plummer's Latin has no day. Mabillon, in Migne's Eadmer, says the words were slipped into Bede. He takes 12 October for the day of a later moving of the relics.",
+    "His years. Bede gives forty-five years as bishop and Stephen forty-six. Stephen puts his death in his seventy-sixth year. The birth year 634 is Eadmer's.",
+    "Ripon. Bede gives the monastery as thirty families in one place and forty in another.",
+    "His relics. Odo, archbishop of Canterbury, says he received them and placed them in his church. The anonymous Life of Oswald, archbishop of York, which Raine calls the earliest, has Oswald find a bishop's remains at Ripon. Raine takes them for Wilfrid's."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "Petitions to Pope Agatho and Pope John VI and speeches, in Stephen's Life of Wilfrid, chapters 30 and 51 (Raine's numbering)",
+        "author": "Wilfrid, as Stephen gives him; James Raine (ed.)",
+        "date": "1879",
+        "language": "Latin",
+        "file": "cic/texts/byrhtferth_vita-s-oswaldi-in-historians-of-the-church-of-york-v1-lat_raine1879.txt"
+      },
+      {
+        "title": "Subscription to Pope Agatho's synodal letter, in the acts of the third council of Constantinople, Sacrorum conciliorum collectio XI",
+        "author": "Wilfrid; Mansi (ed.)",
+        "date": "1901",
+        "language": "Latin and Greek",
+        "file": "cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-11-lat_welter-facsimile1901.txt"
+      }
+    ],
+    "about": [
+      {
+        "title": "Life of Wilfrid, with Raine's preface, in The Historians of the Church of York, volume 1",
+        "author": "Stephen (Eddius Stephanus); James Raine (ed.)",
+        "date": "1879",
+        "language": "Latin, with English preface",
+        "file": "cic/texts/byrhtferth_vita-s-oswaldi-in-historians-of-the-church-of-york-v1-lat_raine1879.txt"
+      },
+      {
+        "title": "Ecclesiastical History III.25, III.28, IV.2, IV.13, V.19 and V.24 (tr. J. A. Giles, ed. L. Cecil Jane)",
+        "author": "Bede",
+        "date": "1903",
+        "language": "English translation",
+        "file": "cic/texts/bede_ecclesiastical-history-english-people_giles1903.txt"
+      },
+      {
+        "title": "Historia ecclesiastica V.19, in Venerabilis Baedae Opera historica, volume 1, with Plummer's Introduction",
+        "author": "Bede; Charles Plummer (ed.)",
+        "date": "1896",
+        "language": "Latin, with English introduction",
+        "file": "cic/texts/bede_opera-historica-v1-historia-abbatum-lat_plummer1896.txt"
+      },
+      {
+        "title": "Life of Wilfrid, with Mabillon's preliminary notes, in Patrologia Latina 159",
+        "author": "Eadmer",
+        "date": "1903",
+        "language": "Latin",
+        "file": "cic/texts/anselm-canterbury_opera-with-eadmer-historia-novorum-pl159-lat_migne1903.txt"
+      },
+      {
+        "title": "The Roman Breviary, autumn volume: the office of 12 October",
+        "author": "tr. John, Marquess of Bute",
+        "date": "1908",
+        "language": "English translation",
+        "file": "cic/texts/roman-breviary_bute1908.txt"
+      },
+      {
+        "title": "Horae Eboracenses: the Prymer of the York Use, litany",
+        "author": "Canon Wordsworth (ed.)",
+        "date": "1920",
+        "language": "Latin and English",
+        "file": "cic/texts/surtees-society_horae-eboracenses-prymer-of-york-use-lat-enm_wordsworth1920.txt"
+      }
+    ]
+  }
+}

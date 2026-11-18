@@ -30,7 +30,7 @@ relations:
 narrative_tier: 1
 narrative_tier_justification: 'Tier 1 (documented historical narrative): the bishop who was present
   preached it aloud at the time, in the building where it happened, and both homilies survive in his
-  own words - including his defence against his own congregation and the second homily preached after
+  own words - including his defense against his own congregation and the second homily preached after
   the sanctuary had failed. Not a later life, not a miracle account.'
 tellable_as: the day the man who abolished sanctuary had to use it - and the bishop who let him
 modern_contrast: >-
@@ -70,7 +70,7 @@ use_note:
 Verified directly against the vendored file every element
 above at a named line: the office and the consulship in the section's
 own title and introduction (npnf109 div1 at 17363); the exordium at
-17591; the defence of admitting him at 17704; the right-of-refuge
+17591; the defense of admitting him at 17704; the right-of-refuge
 sentence at 17739; the emperor speaking against the soldiers who
 "demanded him to be given up for execution" at 17808; the second
 homily, "After Eutropius having been found outside the Church had been

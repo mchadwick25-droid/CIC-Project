@@ -15,6 +15,79 @@ works:
     against the scan. The English Fioretti (Heywood, 1906) is vendored beside it; there is
     no public-domain English of the Actus itself.
   source_file: actus-beati-francisci_actus-beati-francisci-et-sociorum-eius-lat_sabatier1902.txt
+- row_id: agnes-prague_some-new-sources-for-the-life-of-blessed-agnes-of-bohemia_seton1915--blessed-agnes-of-bohemia-the-latin-legend-and-german-texts-seton
+  work: Blessed Agnes of Bohemia, the Latin Legend and German texts (Seton 1915)
+  author: agnes-prague
+  locus: the Latin Legend from about OCR line 3396; add 12 to OCR line numbers
+  role: context
+  confidence: assigned
+  note: The Legend's own heading gives no date. Seton dates its composition 1282-1328 and
+    the copy he prints to the fourteenth century.
+  source_file: agnes-prague_some-new-sources-for-the-life-of-blessed-agnes-of-bohemia_seton1915.txt
+- row_id: bonaventure_tria-opuscula-breviloquium-itinerarium-de-reductione-lat_quaracchi1911--tria-opuscula
+  work: Bonaventure, Breviloquium, Itinerarium mentis in Deum and De reductione artium ad
+    theologiam, Latin (Quaracchi 1911)
+  author: bonaventure
+  locus: the three works after the preface; the Itinerarium at OCR lines 12226-14809; De reductione
+    from 15363; add 12 for this file's own line numbers
+  role: tradition
+  confidence: assigned
+  note: 'Three works of the Franciscan Minister General''s own, in the Quaracchi critical
+    text: a summary of theology, the mind''s journey into God written on La Verna (1259),
+    and a short treatise on learning. Primary original-language voice; readable Latin, quote
+    after checking the page image.
+
+    '
+  source_file: bonaventure_tria-opuscula-breviloquium-itinerarium-de-reductione-lat_quaracchi1911.txt
+- row_id: bonaventure_life-of-saint-francis-legenda-maior_salter1904--legenda-maior
+  work: Bonaventure, Legenda maior (The Life of Saint Francis), English (Salter 1904)
+  author: bonaventure
+  locus: the Prologue from OCR line 266 to the end of the Miracles, before the translator's
+    note at 9880; add 11 for this file's own line numbers
+  role: tradition
+  confidence: assigned
+  note: 'The order''s official Life of its founder, written by its Minister General (1260-1263)
+    and made the only approved Life in 1266. Bonaventure''s own writing and the order''s own
+    account of Francis. Clean English OCR.
+
+    '
+  source_file: bonaventure_life-of-saint-francis-legenda-maior_salter1904.txt
+- row_id: acta-sanctorum_martii-tomus-1-lat_palme1865--clare-of-assisi-the-four-letters-to-agnes-of-prague-in
+  work: Clare of Assisi, the four letters to Agnes of Prague, in Tanner's Latin (Acta Sanctorum
+    March I)
+  author: clare-assisi
+  locus: about OCR lines 136330-136900; add 12 to OCR line numbers
+  role: tradition
+  confidence: assigned
+  translator:
+    name: Joannes Tannerus (Latin version of Clare's four letters to Agnes)
+    source: 'acta-sanctorum_martii-tomus-1-lat_palme1865.txt line 135866: quas a se Latine
+      redditas transmisit Joannes Tannerus'
+    formation_confidence: Documented
+  note: 'Clare''s letters as the Bollandists printed them, in a Latin version made by Joannes
+    Tannerus. A translation: the wording is the translator''s, not hers, so no phrase is quoted
+    as Clare''s own Latin.'
+  source_file: acta-sanctorum_martii-tomus-1-lat_palme1865.txt
+- row_id: clare-assisi_life-of-saint-clare-ascribed-to-thomas-of-celano_robinson1910--the-life-of-saint-clare-ascribed-to-thomas-of-celano-with-her-ru
+  work: The Life of Saint Clare ascribed to Thomas of Celano, with her Rule (Robinson 1910)
+  author: clare-assisi
+  locus: the whole volume
+  role: tradition
+  confidence: provisional
+  note: The Legend of Clare, dated by the title to 1255-1261, with her Rule in an appendix.
+    Her Letters to Agnes survive here only in the German version printed in the Seton volume
+    (row 78); the Testament and the Process were not found in public-domain print.
+  source_file: clare-assisi_life-of-saint-clare-ascribed-to-thomas-of-celano_robinson1910.txt
+- row_id: clare-assisi_processo-di-canonizzazione-in-archivum-franciscanum-historicum-13-ita-lat_lazzeri1920--the-process-of-canonization-of-clare-of-assisi-italian
+  work: The process of canonization of Clare of Assisi, Italian version (Lazzeri, AFH 13,
+    1920)
+  author: clare-assisi
+  locus: about OCR lines 30711-38400; add 12 to OCR line numbers
+  role: tradition
+  confidence: provisional
+  note: The sworn words of the sisters of San Damiano and others, taken for the canonization.
+    They survive in an Italian version, not the Latin record, so the wording is a translator's.
+  source_file: clare-assisi_processo-di-canonizzazione-in-archivum-franciscanum-historicum-13-ita-lat_lazzeri1920.txt
 - row_id: fioretti_little-flowers-of-st-francis_heywood1906--the-little-flowers-of-st-francis-fioretti-english-by
   work: The Little Flowers of St. Francis (Fioretti), English by William Heywood (1906)
   author: fioretti
@@ -27,6 +100,34 @@ works:
     of a fourteenth-century Italian work; the March of Ancona friars of its second part are
     the Spirituals' region. Clean OCR. The Latin Actus is vendored beside it.
   source_file: fioretti_little-flowers-of-st-francis_heywood1906.txt
+- row_id: francis-assisi_opuscula-lat_quaracchi1904--opuscula
+  work: Francis of Assisi, Opuscula, Latin (Quaracchi 1904)
+  author: francis-assisi
+  locus: the Admonitiones from OCR line 495 to the Officium Passionis; the Testamentum from
+    2826; add 12 for this file's own line numbers
+  role: tradition
+  confidence: assigned
+  note: 'Primary original-language voice of the founder: the Latin critical text of his Rules,
+    Testament, letters and praises edited by the Quaracchi Fathers. The Italian Canticle is
+    not printed here. Readable Latin; quote after checking the page image.
+
+    '
+  source_file: francis-assisi_opuscula-lat_quaracchi1904.txt
+- row_id: francis-assisi_writings-of-saint-francis_robinson1906--writings
+  work: 'Francis of Assisi, Writings: Admonitions, Rules, Testament, letters, praises and
+    the Canticle of Brother Sun (Robinson''s English, 1906)'
+  author: francis-assisi
+  locus: the writings from OCR line 1685 (Admonitions) to the index at about 11676; the Testament
+    at 5355, the Canticle at 8581; add 11 for this file's own line numbers
+  role: tradition
+  confidence: assigned
+  note: 'The founder''s own words in a 1906 English translation: the Rule, the Testament dictated
+    near his death, the letters and the Canticle of Brother Sun. Robinson''s introduction
+    and notes are his own, and his appendix gathers works of doubtful authorship, which are
+    not Francis''s by this row. Clean English OCR.
+
+    '
+  source_file: francis-assisi_writings-of-saint-francis_robinson1906.txt
 - row_id: jacopone-da-todi_laude-ita_ferri1915--le-laude-of-jacopone-da-todi-edited-by-giovanni-ferri-1915
   work: Le Laude of Jacopone da Todi, edited by Giovanni Ferri (1915)
   author: jacopone-da-todi
@@ -39,18 +140,59 @@ works:
     Movement world and the Spirituals worlds is for the project lead. A selection in English
     verse (Beck, 1919) is vendored beside it in the Underhill volume.
   source_file: jacopone-da-todi_laude-ita_ferri1915.txt
+- row_id: leo-assisi_scripta-fratris-leonis-lat_lemmens1901--scripta-fratris-leonis-socii-s-p-francisci-lemmens-1901
+  work: Scripta fratris Leonis socii S. P. Francisci (Lemmens 1901)
+  author: leo-assisi
+  locus: the whole volume
+  role: tradition
+  confidence: assigned
+  note: The writings attributed to Francis's companion Leo. Their date, and their attribution
+    to Leo, are contested.
+  source_file: leo-assisi_scripta-fratris-leonis-lat_lemmens1901.txt
+- row_id: salimbene_from-st-francis-to-dante_coulton1907--salimbene-extracts-from-the-chronicle-english-coulton-1907
+  work: Salimbene, extracts from the Chronicle, English (Coulton 1907)
+  author: salimbene
+  locus: the translated extracts; much of the volume is Coulton's own notes and other medieval
+    sources around them
+  role: tradition
+  confidence: provisional
+  note: Extracts from the friar's first-person chronicle, written inside this window.
+  source_file: salimbene_from-st-francis-to-dante_coulton1907.txt
+- row_id: speculum-perfectionis_speculum-perfectionis-lat_sabatier1898--speculum-perfectionis-latin-sabatier-1898
+  work: Speculum perfectionis, Latin (Sabatier 1898)
+  author: speculum-perfectionis
+  locus: the Latin text from about OCR line 12409; add 12 to OCR line numbers
+  role: tradition
+  confidence: assigned
+  note: The Latin of the Speculum perfectionis. Its date of writing and its attribution to
+    Leo are contested.
+  source_file: speculum-perfectionis_speculum-perfectionis-lat_sabatier1898.txt
 - row_id: speculum-perfectionis_mirror-of-perfection_evans1899--the-mirror-of-perfection-speculum-perfectionis-english-by
   work: The Mirror of Perfection (Speculum perfectionis), English by Sebastian Evans (1899)
   author: speculum-perfectionis
   locus: Whole file
   role: tradition
-  confidence: needs-ruling
-  note: Placed needs-ruling because the text is contested in date or attribution and sits
-    between the Franciscan Movement world (to 1300) and the Spirituals worlds. The English
-    of Sabatier's 1898 Latin edition. Sabatier's attribution to Leo and his early date are
-    contested; the text is read as a Spiritual-circle witness to Francis's poverty. Clean
-    OCR. Sabatier's Latin is not vendored (garbled OCR).
+  confidence: assigned
+  note: The English of Sabatier's 1898 Latin edition. Sabatier's attribution to Leo and his
+    early date are contested; the text is read as a Spiritual-circle witness to Francis's
+    poverty. Clean OCR. Sabatier's Latin is held separately.
   source_file: speculum-perfectionis_mirror-of-perfection_evans1899.txt
+- row_id: thomas-celano_vita-et-miracula-sancti-francisci-lat_d-alencon1906--thomas-of-celano-vita-prima-vita-secunda-and-tractatus-de-miracu
+  work: Thomas of Celano, Vita prima, Vita secunda and Tractatus de miraculis (d'Alençon 1906)
+  author: thomas-celano
+  locus: the whole volume
+  role: tradition
+  confidence: provisional
+  note: The first Lives of Francis by his friar, written inside this window.
+  source_file: thomas-celano_vita-et-miracula-sancti-francisci-lat_d-alencon1906.txt
+- row_id: thomas-celano_lives-of-st-francis_howell1908--thomas-of-celano-the-first-and-second-lives-of-st-francis-englis
+  work: Thomas of Celano, the First and Second Lives of St Francis, English (Howell 1908)
+  author: thomas-celano
+  locus: the whole volume; the translation has no Tractatus de miraculis
+  role: tradition
+  confidence: provisional
+  note: An English translation of the first two Lives.
+  source_file: thomas-celano_lives-of-st-francis_howell1908.txt
 - row_id: underhill_jacopone-da-todi-poet-and-mystic_beck1919--jacopone-da-todi-poet-and-mystic-underhill-1919-with-a
   work: Jacopone da Todi, Poet and Mystic (Underhill, 1919), with a selection of the laude
     in English verse by Mrs. Theodore Beck

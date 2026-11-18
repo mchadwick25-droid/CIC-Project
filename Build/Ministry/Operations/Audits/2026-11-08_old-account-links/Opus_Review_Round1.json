@@ -1,0 +1,101 @@
+{
+ "round": 1,
+ "verdict": "revise",
+ "counts": {
+  "high": 2,
+  "medium": 3,
+  "low": 2,
+  "total": 7,
+  "links_reviewed": 8,
+  "cleared_items": 10
+ },
+ "findings": [
+  {
+   "rid": "C1-01",
+   "severity": "high",
+   "links": [
+    "all eight changed links"
+   ],
+   "finding": "The public site was not rebuilt from release 20. The map's embedded census in cft-website/index.html still carries the release-19 grades and notes. The committed tree pages do too, and cft-website/data.html still shows release 19. Merged as it stands, the served site would show six links as Dominant Modern Reconstruction with their old notes, which contradicts its own data file. The same finding was raised and fixed in P2-L11b (release 18 to 19), and release 17 also rebuilt its pages in the same pull request.",
+   "evidence": "cft-website/index.html still contains 'The case rests on these two editors, not on Cluny's own texts.' with '\"confidence\": \"Dominant Modern Reconstruction\"'. cft-website/tree/roman-church-gregorian.html and late-anglo-saxon-christianity.html still contain 'We have this from James Barmby'. Running 'node Build/tools/generate_tree_pages.mjs --out <scratch>' gives 12 differing files under cft-website: data.html, plus tree pages cluniac-reform-monasticism, cyrillo-methodian-slavic-christianity, early-benedictine-italian-monasticism, kievan-rus-christianity, late-anglo-saxon-christianity, latin-papal-church-gregorian, roman-church-gregorian, russian-church-nikon-to-holy-synod, the-humiliati, the-kyiv-mohyla-orthodox-revival and the-old-believers. The validator passes because its --atlas and --tree checks only test place labels and anchors, not note text.",
+   "required_fix": "Once the data fixes below are made, rebuild the map's embedded census (the atlas-sync step P2-L11b used), run node Build/tools/generate_tree_pages.mjs and node tools/build_tree_site.mjs, and commit the regenerated cft-website/index.html, cft-website/tree/*.html and cft-website/data.html in this pull request. Check that a scratch regeneration then shows no differences."
+  },
+  {
+   "rid": "C1-02",
+   "severity": "high",
+   "links": [
+    "early-benedictine-italian-monasticism--cluniac-reform-monasticism"
+   ],
+   "finding": "The note says both editors draw on Cluny's customs, and the new sentence says the link 'rests on these two early twentieth-century editors'. Both works are vendored. Hunter Blair's 1907 notes do cite the Ordo Cluniacensis. Gasquet's text never names Cluny. His only line that bears on the link is that the Rule was 'practically the only monastic Rule of the West' from the ninth to the twelfth century. So the Cluny claim rests on Hunter Blair alone, and the note implies both carry it. The brief says such a note must not imply both accounts carry a fact that rests on only one. This was already wrong in release 19; the rewrite repeats it and adds a sentence that makes it stronger.",
+   "evidence": "grep -i 'clu[gn]|cluni|ordo|customar|consuetud' cic/texts/benedict_rule-of-saint-benedict_gasquet1925.txt finds no match (4,949 lines). The Gasquet line is at lines 580-581: 'ninth to the twelfth century, when it was practically / the only monastic Rule of the West'. cic/texts/benedict_rule-of-st-benedict-lat-eng_hunter-blair1907.txt lines 10525-10527: 'the Ordo Cluniacensis , of the 11th century, lays down fixed rules and times for conversation in the cloister'; Cluny is also named at lines 10805, 10869, 10940, 11036, 11053 and 11061. The Gasquet header says 'Gasquet's introduction is scholarship of 1909', so 'early twentieth-century' is right for both editors.",
+   "required_fix": "note = \"Oswald Hunter Blair was a Benedictine editor of the Rule. In 1907 he drew on the later customs of Cluny to show how it was lived. Cardinal Gasquet, another Benedictine editor, calls the Rule practically the only rule for monks in the West from the ninth to the twelfth century. He does not name Cluny. This rests on these two editors, not on Cluny's own texts. It has not yet been checked against a modern study.\" (score_turn: FRE 66.7, FK 7.1; longest sentence 24 words, which is the existing Gasquet sentence). Optional, since ruling 3 allows it: both works are vendored, so the two sources could carry file, lines and quote, for example Hunter Blair lines 10525-10527 'the Ordo Cluniacensis , of the 11th century, lays down fixed rules and times for conversation in the cloister' and Gasquet lines 580-581 'when it was practically the only monastic Rule of the West'. Validator-checked quotes would then make the link verified-direct / A."
+  },
+  {
+   "rid": "C1-03",
+   "severity": "medium",
+   "links": [
+    "roman-church-gregorian--late-anglo-saxon-christianity"
+   ],
+   "finding": "The new note says the link 'rests on two older works: an 1871 edition of Alfred's English text, and James Barmby'. Sweet's edition is not vendored and no one in the project has read it. It reaches the link only through Barmby's footnote. Barmby's 1895 introduction is vendored (NPNF 2nd series vol. 12), and it carries both facts in the note. So the note presents a work known only from a citation as a second support. The older wording, 'We have this from James Barmby', was accurate.",
+   "evidence": "cic/texts/npnf212_leo-great-gregory-great.xml lines 24031-24038: 'This is asserted by Alfred the Great, who, nearly three hundred years afterwards, with the assistance of his divines, made a translation, or rather paraphrase, of it in the West Saxon tongue, intending, as he says, to send a copy to every bishop in his Kingdom' with note 1261: 'Edited, with an English version, by Henry Sweet of Balliol College, and published for the Early English Text Society, 1871, Part I., p. 7.' No Sweet or EETS file is in cic/texts/.",
+   "required_fix": "note = \"King Alfred had Gregory's Pastoral Rule put into West Saxon English. He said he meant to send a copy to each bishop in his kingdom. We have this from James Barmby, Gregory's translator, writing in 1895. He points to an 1871 edition of Alfred's English text. It has not yet been checked against a modern study.\" (FRE 69.0, FK 6.3). Optional, under ruling 3: the Barmby source could carry file cic/texts/npnf212_leo-great-gregory-great.xml, lines 24033-24035 and quote 'made a translation, or rather paraphrase, of it in the West Saxon tongue, intending, as he says, to send a copy to every bishop in his Kingdom'. The validator would check it, and the link would then be verified-direct / A."
+  },
+  {
+   "rid": "C1-04",
+   "severity": "medium",
+   "links": [
+    "russian-church-nikon-to-holy-synod--the-old-believers--3"
+   ],
+   "finding": "The note says 'This rests on two older accounts, from 1842 and 1921.' Every fact in the note comes from Conybeare (1921). The 1842 source is Blackmore's note on the dissenters' monasteries in 1830. It says only that three or four have returned to the Church, and it carries none of the note's facts: not 1799, not Plato, not the sixteen terms, not Paul I, not the old books, not the name Edinoverie. The drafter's doubt is correct.",
+   "evidence": "conybeare_russian-dissenters_1921.txt lines 5522-5540 carry the 1799 request for priests and chrism, the sixteen conditions examined by Plato and sanctioned by Paul I on 27 October 1800, and 'permission to use the old books'. Line 5861 has 'Iedinovierie, as it is called'. mouravieff_history-of-the-church-of-russia_blackmore1842.txt lines 19636-19641 are about the twenty-six dissenters' monasteries: 'Only three or four have in the course of the last century returned into the bosom of the Church.'",
+   "required_fix": "note = \"In 1799 Old Believers in Moscow asked the official church for priests and holy oil. Metropolitan Plato looked over their sixteen terms, and in 1800 Tsar Paul I approved them. The terms let them keep the old books under priests of the church. The arrangement came to be called Edinoverie. This rests on one older account, by F. C. Conybeare in 1921. It has not yet been checked against a modern study.\" (FRE 73.0, FK 5.2)"
+  },
+  {
+   "rid": "C1-05",
+   "severity": "medium",
+   "links": [
+    "coptic-christianity-under-early-islam--makurian-nubian-christianity"
+   ],
+   "finding": "One link of the class was missed, in era 4. It is graded Dominant Modern Reconstruction, and its only support is one pre-1930 secondary account: F. Ll. Griffith (1913), quoted twice. That is exactly ruling 1 of 'Whole-set rulings', which P2-L11b should have applied. It is not in P2-L11b's ruling1 or ruling1_other_links lists, and P2-L11c did not catch it either. The only modern study on the Makurian movement is Welsby (2002). The census cites it as 'the standard accessible synthesis' and, at ch. 3, 'On Kyriakos and Makurian–Egyptian relations'. It is not cited for the Coptic alphabet or for Coptic monks and books. P2-L11b's own test did not count a general survey of that kind (it ruled the same way on Franklin and Shepard, 'the standard English history'). So no repo-cited modern study supports this reading. This applies a ruling already made, not a new decision.",
+   "evidence": "Census edge coptic-christianity-under-early-islam--makurian-nubian-christianity: confidence 'Dominant Modern Reconstruction'. Both sources are 'F. Ll. Griffith, The Nubian Texts of the Christian Period (Berlin, 1913), introduction', file cic/texts/griffith_nubian-texts-of-the-christian-period_griffith1913.txt, lines 4441-4442 and 4431-4433. Welsby is in the makurian-nubian-christianity movement sources and on the Kyriakos story only. Build/Ministry/Operations/Audits/2026-11-08_whole-set-rulings/Draft_Rulings_1_4.json: no entry for this id. A scan of every Dominant edge for a source year of 1930 or later finds only this link left after P2-L11c.",
+   "required_fix": "confidence = \"Inferential-Thin\"; note = \"Old Nubian was written in the Coptic alphabet, with a few extra letters for Nubian sounds. After the Arab conquest of Egypt, says the scholar F. Ll. Griffith, Coptic monks and Coptic books abounded in Nubia. This rests on Griffith's one account, from 1913.\" (FRE 72.2, FK 5.3). List its wanted study: a modern study of Coptic influence on the Makurian church, its script, monks and books, seventh to twelfth centuries. If the team instead judges that Welsby (2002) supports this reading, record that judgment and its citation in the audit, and add Welsby to the link's sources."
+  },
+  {
+   "rid": "C1-06",
+   "severity": "low",
+   "links": [
+    "early-benedictine-italian-monasticism--cluniac-reform-monasticism",
+    "roman-church-gregorian--late-anglo-saxon-christianity",
+    "cyrillo-methodian-slavic-christianity--kievan-rus-christianity",
+    "latin-papal-church-gregorian--the-humiliati--2",
+    "russian-church-nikon-to-holy-synod--the-old-believers--3",
+    "russian-church-nikon-to-holy-synod--the-kyiv-mohyla-orthodox-revival"
+   ],
+   "finding": "'No modern study is at hand' can read as 'no modern study exists'. For three of the six, the repo itself names a modern study of the very subject. Andrews, The Early Humiliati (1999), covers the Humiliati, though it is cited for their decline. Rosenwein, Rhinoceros Bound (1982), covers Cluny. Franklin and Shepard (1996) and Vlasto (1970) cover the Rus' and Slavic movements. None of these is cited for these readings, and none has been read. What is true is that none has been checked for this reading. That is the drafter's Humiliati doubt, and it applies to all six. Change the wording in every note, so the six read alike.",
+   "evidence": "cic-website/data/world-census.json: 'Frances Andrews, The Early Humiliati (Cambridge, 1999), epilogue', note 'On the order’s decline and suppression.'; 'Barbara H. Rosenwein, Rhinoceros Bound: Cluny in the Tenth Century (Penn, 1982)'; 'Simon Franklin and Jonathan Shepard, The Emergence of Rus 750–1200 (Longman, 1996)'; 'A. P. Vlasto, The Entry of the Slavs into Christendom (Cambridge, 1970)'.",
+   "required_fix": "In each of the six notes, replace 'No modern study is at hand.' with 'It has not yet been checked against a modern study.' (The C1-02, C1-03 and C1-04 texts already include this. Re-scored: Humiliati FRE 69.8 / FK 6.0, Kievan Rus' 71.5 / 6.4, Kyiv 68.1 / 6.7.)"
+  },
+  {
+   "rid": "C1-07",
+   "severity": "low",
+   "links": [
+    "the six links made Inferential-Thin"
+   ],
+   "finding": "The ruling says the six links' 'wanted studies are listed'. In the branch they are listed only in the drafter's scratch record, not in the repo. The earlier passes put wanted texts in the audit README (P2-L11, 'audit README with merged wanted texts'). The scratch entries are accurate as drafted: Rosenwein '(Penn, 1982)' and Andrews '(Cambridge, 1999)' match the census forms, and Andrews is rightly described as cited 'for the order's decline and suppression'.",
+   "evidence": "git show --stat for c3a9c12c and 8d35f82c: only world-census.json and the Decision-Log changed. grep for the wanted-study texts finds nothing under Build/Ministry/Operations/Audits/. The census edges have no wants field.",
+   "required_fix": "Add the audit folder for P2-L11c (for example Build/Ministry/Operations/Audits/2026-11-08_old-account-links/README.md). Give it a 'Wanted studies' section that lists the six wanted_study texts from Draft_Followup.json, each with its link id, plus the C1-05 link's wanted study if it is regraded."
+  }
+ ],
+ "cleared": [
+  "Six Thin links fit (check 1): none has a primary source that shows the relationship. Greps of records/, Build/ and cic/ (and the census) for Cowdrey, Iogna-Prat, Rosenwein, Keynes, Lapidge, Pratt, Franklin, Vlasto, Fennell, Andrews, Bolton, Paert, Robson, Crummey, Michels, Plokhy, Ševčenko, Charipova and Kohut find none cited for these readings. Edinoverie: the obel world's Doc_01 names it with no study, and the Old Believers dossier says nothing in the Library covers it.",
+  "No other link of the eight's class (two or three pre-1930 secondaries, no modern study) remains in eras 1-9. The one-account case missed by ruling 1 is C1-05.",
+  "Notes for Kievan Rus', Humiliati and Kyiv keep every fact and add none. Their 'rests on' sentences are accurate: Mouravieff header 'St. Petersburgh, 1838' (trans. 1842); Pelesz 1880; Pinkerton 1814; Herberstein 1549; Giussano 1884 v1, lines 12165-12180, carries the Innocent III approval and 220 houses; the Catholic Encyclopedia is 1910. No Thin note claims consensus.",
+  "Skinner and Frazee are cited exactly as the repo gives them. Skinner's short form, '(DeKalb, IL, 2009)', is on 'The Ukase of 1794', for the 1794-1796 reunion campaign that Sadkowski led, which is the same events as the link. Frazee's long form, '...1453–1923 (Cambridge, 1983)', is on 'The Priest Gomidas at Parmakkapı', for 'the Avedik affair', the same event. Both stories are marked 'from reference summaries; primary text not yet read'. The brief's rule asks only that a work be repo-cited, and Mark's ruling named both, so keeping Dominant is supported. Neither note claims a modern consensus, so neither needs to say more.",
+  "verification_state and citation_specificity are consistent with what each source carries under ruling 2. Cluny, Alfred and Humiliati have no quote, so they are named-not-rechecked / C. Kievan Rus', Edinoverie, Kyiv, Ruthenian and Armenian are verified-direct / A, with validator-checked quotes. The Skinner and Frazee entries carry no file, which is right because neither is vendored.",
+  "node tools/validate-census.mjs --base base_release19.json: 301 movements, 579 edges, 0 errors, 2 warnings (pre-existing shortName). The same with --atlas and --tree also gives 0 errors. tools/check_spelling.py on the census: 0 British spellings.",
+  "Readability of the six committed notes: score_turn FRE 65.6-72.5 and FK 5.7-7.4. Longest sentence is 21 words. No internal language and no AI tells.",
+  "Census diff against release 19: only the eight edges and meta.release (19 to 20) changed. Movements and retired lists are identical.",
+  "Weighed the drafter's doubts. Humiliati: taken up in C1-06. Cluny: the 'calls the Rule' change is right, but the doubt missed that Gasquet never names Cluny (C1-02). Alfred: C1-03. Kievan Rus' (Herberstein 1549, flat first sentence): acceptable, matching the ruling-1 Thin notes. Edinoverie: confirmed (C1-04). Skinner and Frazee: acceptable. verification_state: consistent.",
+  "Observed and not counted as a finding, since it predates this pass and the field is unchanged: the Humiliati outcome says 'In 1200 ... 220 houses', while the note says 'around 1200' and 'more than two hundred'. Giussano gives 1200 and 220."
+ ]
+}

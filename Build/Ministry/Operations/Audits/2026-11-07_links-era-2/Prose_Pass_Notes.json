@@ -1,0 +1,490 @@
+{
+ "changes": [
+  {
+   "id": "aksumite-christianity-conversion-era--aksumite-christianity",
+   "old": "In the 350s the emperor Constantius wrote to Ezana, ruler of Aksum, about its bishop, Frumentius. Two sixth-century writers still find a Christian kingdom there. Procopius calls the king of the Ethiopians a devoted Christian, and Cosmas lists Axum among the lands with churches.",
+   "new": "In the 350s the emperor Constantius wrote to Ezana, ruler of Aksum, about its bishop, Frumentius. Two writers of the sixth century still find a Christian kingdom there. Procopius calls the king of the Ethiopians a devoted Christian. Cosmas lists Axum as one of the lands that have churches.",
+   "fre_before": 54.4,
+   "fre_after": 63.2,
+   "fk_after": 7.5,
+   "notes": ""
+  },
+  {
+   "id": "cyrilline-miaphysite-egyptian-tradition--cyrilline-miaphysite-egyptian-christianity",
+   "old": "After Chalcedon, Egypt's clergy, monks and people broke communion with the new bishop, Proterius, and honored the deposed Dioscorus. When the emperor Marcian died in 457, the same party chose Timothy, a man 'of the same faith as Dioscorus', as their own bishop.",
+   "new": "After Chalcedon, the clergy, monks and people of Egypt broke communion with the new bishop, Proterius. They held to Dioscorus, who had been deposed. When the emperor Marcian died in 457, the same party chose their own bishop. He was Timothy, a man 'of the same faith as Dioscorus'.",
+   "fre_before": 48.5,
+   "fre_after": 67.8,
+   "fk_after": 6.8,
+   "notes": ""
+  },
+  {
+   "id": "cyrilline-miaphysite-egyptian-tradition--imperial-juridical-christianity",
+   "old": "On 13 October 451 the Council of Chalcedon told Dioscorus of Alexandria he had been deposed. From the Egyptian side, a sixth-century chronicle records clergy, monks and people withdrawing to their monasteries and breaking communion with the bishop put in his place.",
+   "new": "On 13 October 451 the Council of Chalcedon told Dioscorus of Alexandria that he had been deposed. A chronicle from the Egyptian side, written in the sixth century, tells what came next. Clergy, monks and people went off to their monasteries. They broke communion with the bishop put in his place.",
+   "fre_before": 39.5,
+   "fre_after": 63.2,
+   "fk_after": 7.5,
+   "notes": ""
+  },
+  {
+   "id": "desert-monasticism--cyrilline-miaphysite-egyptian-tradition",
+   "old": "In 457 Alexandria's anti-Chalcedonian party consulted 'the whole order of the monks' and chose Timothy as bishop. He was an ascetic once brought from the desert to Cyril and ordained by him. A much later Coptic history says the letters of a later patriarch, Peter, were kept at the Monastery of Macarius.",
+   "new": "In 457 the party in Alexandria that rejected Chalcedon took counsel with 'the whole order of the monks'. They chose Timothy as bishop. He was an ascetic who had once been brought from the desert to Cyril, and Cyril ordained him. A much later Coptic history says the letters of a later head of the church, Peter, were kept at the Monastery of Macarius.",
+   "fre_before": 49.3,
+   "fre_after": 61.9,
+   "fk_after": 8.5,
+   "notes": "'head of the church' renders 'patriarch'."
+  },
+  {
+   "id": "desert-monasticism--roman-church-gregorian",
+   "old": "Cassian heard Abbot Serapion of Scetis list eight principal faults, ending with pride. Gregory the Great later made pride 'the queen of sins' and set seven principal sins beneath her. Gregory names no source, so the link rests on the likeness of the two lists.",
+   "new": "Cassian heard Abbot Serapion of Scetis list eight principal faults, ending with pride. Gregory the Great later made pride 'the queen of sins' and set seven principal sins beneath her. Gregory names no source, so the link rests on the likeness of the two lists.",
+   "fre_before": 69.4,
+   "fre_after": 69.4,
+   "fk_after": 7.3,
+   "notes": "Already passed; unchanged."
+  },
+  {
+   "id": "imperial-juridical-christianity--jerusalem-liturgical-pilgrimage-christianity",
+   "old": "Eusebius copies a letter from Constantine to Macarius, bishop of Jerusalem, about building a church at the site of Christ's tomb. The emperor writes that he has no greater care than to adorn that spot with a splendid building.",
+   "new": "Eusebius copies a letter from Constantine to Macarius, bishop of Jerusalem. It is about building a church at the site of Christ's tomb. The emperor writes that he has no greater care than to adorn that spot with a splendid building.",
+   "fre_before": 56.9,
+   "fre_after": 65.0,
+   "fk_after": 7.6,
+   "notes": ""
+  },
+  {
+   "id": "hieronymian-ascetic-literary--jerusalem-liturgical-pilgrimage-christianity",
+   "old": "Jerome describes Paula, his patron, worshipping at the tomb of the Resurrection in Jerusalem. Yet he told a friend that heaven was as easy to reach from Britain as from Jerusalem.",
+   "new": "Jerome tells how Paula, his patron, worshipped at the tomb of the Resurrection in Jerusalem. Yet he told a friend that heaven was as easy to reach from Britain as from Jerusalem.",
+   "fre_before": 54.7,
+   "fre_after": 61.1,
+   "fk_after": 8.7,
+   "notes": ""
+  },
+  {
+   "id": "jerusalem-liturgical-pilgrimage-christianity--palestinian-ascetic-monasticism-early",
+   "old": "Jerome says Hilarion, Palestine's first monk, visited Jerusalem for a single day so as not to neglect the holy places. In the 380s the pilgrim Egeria saw monks and virgins come to the tomb church before dawn for the daily office.",
+   "new": "Jerome says Hilarion, the first monk of Palestine, went to Jerusalem for just one day, so as not to neglect the holy places. In the 380s the pilgrim Egeria watched monks and virgins come to the tomb church before dawn. They came for the daily round of prayer.",
+   "fre_before": 56.0,
+   "fre_after": 74.3,
+   "fk_after": 6.9,
+   "notes": ""
+  },
+  {
+   "id": "palestinian-ascetic-monasticism-early--hieronymian-ascetic-literary",
+   "old": "Writing at Bethlehem around 390, Jerome made Hilarion of Gaza the subject of a Life. He says Epiphanius of Salamis, who knew Hilarion well, had already praised him in a letter. Jerome presents his book as taking up that work.",
+   "new": "Jerome wrote a Life of Hilarion of Gaza at Bethlehem around 390. He says Epiphanius of Salamis knew Hilarion well and had already praised him in a letter. Jerome presents his own book as taking up that work.",
+   "fre_before": 59.1,
+   "fre_after": 61.7,
+   "fk_after": 7.7,
+   "notes": ""
+  },
+  {
+   "id": "cappadocian-nicene-pastoral-monastic-tradition--apollinarian-christianity",
+   "old": "Gregory of Nazianzus wrote two letters to the priest Cledonius against Apollinarius. In the first, he says Christ took on all of human nature, because what He has not assumed He has not healed. He also warned Nectarius, bishop of Constantinople, about a pamphlet by Apollinarius.",
+   "new": "Gregory of Nazianzus wrote two letters to a priest, Cledonius, against the views of Apollinarius. In the first, he says Christ took on all of human nature. What He has not taken on, Gregory says, He has not healed. He also wrote to Nectarius, bishop of Constantinople, to warn him about a tract by Apollinarius.",
+   "fre_before": 46.0,
+   "fre_after": 60.6,
+   "fk_after": 8.2,
+   "notes": ""
+  },
+  {
+   "id": "imperial-juridical-christianity--pneumatomachian-current",
+   "old": "Canon 1 of the Council of Constantinople (381) anathematized the Semi-Arians, called Pneumatomachi, by name. A law of 383 also banned assemblies of Eunomians, Arians, Macedonians and Pneumatomachi. In 451 the Council of Chalcedon said the creed of 381 set out the faith on the Holy Spirit against those who denied his sovereignty.",
+   "new": "In 381 the Council of Constantinople, in its first canon, cursed by name the Semi-Arians, who were also called Pneumatomachi. A law of 383 banned their meetings too, as well as those of Eunomians, Arians and Macedonians. In 451 the Council of Chalcedon said the creed of 381 set out the faith on the Holy Spirit. It stood against those who denied his sovereignty.",
+   "fre_before": 33.1,
+   "fre_after": 61.0,
+   "fk_after": 8.5,
+   "notes": "'cursed by name' renders 'anathematized'; check this plain gloss is acceptable."
+  },
+  {
+   "id": "cappadocian-nicene-pastoral-monastic-tradition--imperial-juridical-christianity",
+   "old": "Sozomen says Theodosius gave Gregory of Nazianzus charge of the churches of Constantinople. In July 381 an imperial law named Helladius of Caesarea and Gregory of Nyssa among the bishops whose communion marked a Catholic church. Socrates says the council of 381 gave the two men charge of the diocese of Pontus.",
+   "new": "Sozomen says Theodosius put Gregory of Nazianzus in charge of the churches of Constantinople. In July 381 the emperor made a law. It named the bishops whose communion marked a Catholic church. Helladius of Caesarea and Gregory of Nyssa were two of them. Socrates says the council of 381 gave these two men charge of the church in Pontus.",
+   "fre_before": 44.4,
+   "fre_after": 60.2,
+   "fk_after": 7.7,
+   "notes": ""
+  },
+  {
+   "id": "homoian-arian-christianity--cappadocian-nicene-pastoral-monastic-tradition",
+   "old": "Around 375 the imperial vicar of Pontus ordered Gregory of Nyssa to stand trial on charges of mishandling church money. Basil then wrote that his opponents 'have expelled my brother from Nyssa' and installed a rival. That those opponents were Valens's anti-Nicene party is the reading of the 1894 editors of Gregory of Nazianzus's letters.",
+   "new": "Around 375 the emperor's vicar in Pontus ordered Gregory of Nyssa to stand trial. The charge was that he had mishandled church money. Basil then wrote that his foes 'have expelled my brother from Nyssa' and put a rival in his place. The editors of Gregory of Nazianzus's letters, in 1894, read those foes as the party of Valens, which opposed Nicaea.",
+   "fre_before": 44.4,
+   "fre_after": 63.3,
+   "fk_after": 8.2,
+   "notes": "The 1894 editors' reading is kept as their reading, not stated as fact."
+  },
+  {
+   "id": "hieronymian-ascetic-literary--imperial-juridical-christianity",
+   "old": "Writing from the East to Damasus of Rome, Jerome said he kept communion only with 'the chair of Peter'. He later recalled helping Damasus with his church letters, answering questions sent by councils of East and West.",
+   "new": "Writing from the East to Damasus of Rome, Jerome said he kept communion only with 'the chair of Peter'. He later recalled helping Damasus with his church letters, answering questions sent by councils of East and West.",
+   "fre_before": 60.0,
+   "fre_after": 60.0,
+   "fk_after": 9.5,
+   "notes": "Already passed; unchanged."
+  },
+  {
+   "id": "ambrosian-milan-standalone--imperial-juridical-christianity",
+   "old": "In 388 Ambrose wrote to Theodosius against his order that a bishop rebuild a burned synagogue at Callinicum. He would not go to the altar until the emperor promised to drop the case. In 390, after the massacre at Thessalonica, he wrote that he dared not offer the sacrifice with Theodosius present.",
+   "new": "In 388 Theodosius ordered a bishop to rebuild a burned synagogue at Callinicum. Ambrose wrote to him against it. He would not go up to the altar until the emperor promised to drop the case. In 390 came the massacre at Thessalonica. Ambrose then wrote that he dared not offer the sacrifice with Theodosius there.",
+   "fre_before": 51.2,
+   "fre_after": 60.4,
+   "fk_after": 7.5,
+   "notes": ""
+  },
+  {
+   "id": "syriac-edessa-nisibis--armenian-christianity-conversion-era",
+   "old": "Koriun, who worked among Mesrop Mashtots's translators, says King Vramshapuh sent Mashtots to Syrian Mesopotamia in search of an alphabet. Sahak and Mashtots later sent two pupils to Edessa to translate the Scriptures into Armenian from the Syriac.",
+   "new": "Koriun was one of the translators who worked with Mesrop Mashtots. He says King Vramshapuh sent Mashtots to Syrian Mesopotamia to look for an alphabet. Later Sahak and Mashtots sent two of their pupils to Edessa. There the two were to put the Scriptures into Armenian from the Syriac.",
+   "fre_before": 36.2,
+   "fre_after": 61.5,
+   "fk_after": 7.7,
+   "notes": ""
+  },
+  {
+   "id": "cappadocian-nicene-pastoral-monastic-tradition--armenian-christianity-conversion-era",
+   "old": "Moses of Khoren says the young Nerses, later head of the Armenian church, was then studying at Caesarea in Cappadocia. He also notes that a later head was installed without the archbishop of Caesarea, which implies that earlier heads had been. Moses's own date is disputed, between the fifth and the eighth century.",
+   "new": "Moses of Khoren says the young Nerses, later head of the Armenian church, was then a student at Caesarea in Cappadocia. He also notes that a later head was put in place without the archbishop of Caesarea. That implies earlier heads had been. When Moses himself wrote is disputed, with dates from the fifth to the eighth century.",
+   "fre_before": 56.4,
+   "fre_after": 65.2,
+   "fk_after": 7.8,
+   "notes": "Moses's disputed date kept as disputed."
+  },
+  {
+   "id": "armenian-christianity-conversion-era--armenian-christianity-after-avarayr",
+   "old": "Elishe names Joseph, bishop of Ararat, first among the bishops who answered the Persian court's letter before Avarayr. After the battle, Joseph appears among the clergy the Persians held in chains. His 1830 translator notes that Joseph, a disciple of Sahak and Mashtots, had led the church since 441.",
+   "new": "Elishe names Joseph, bishop of Ararat, first among the bishops who answered the letter from the Persian court before Avarayr. After the battle, Joseph is one of the clergy the Persians held in chains. His translator of 1830 notes that Joseph had been a pupil of Sahak and Mashtots. He adds that Joseph had led the church since 441.",
+   "fre_before": 52.3,
+   "fre_after": 66.2,
+   "fk_after": 7.6,
+   "notes": ""
+  },
+  {
+   "id": "persian-church-of-the-east-early--the-church-of-the-east-under-persia",
+   "old": "In 424 the Persian bishops met under the catholicos Dadisho. Its acts call Isaac and Yahbalaha, the catholicoi who led the synods of 410 and 420, 'our masters and fathers'. The same synod ruled that Eastern bishops could not appeal over their head to the Western patriarchs.",
+   "new": "In 424 the Persian bishops met under their catholicos, Dadisho. The acts of the synod call Isaac and Yahbalaha 'our masters and fathers'. These two catholicoi had led the synods of 410 and 420. The same synod ruled that Eastern bishops could not go over their head to the Western patriarchs.",
+   "fre_before": 57.4,
+   "fre_after": 64.2,
+   "fk_after": 7.3,
+   "notes": ""
+  },
+  {
+   "id": "antiochene-exegetical-christianity-chrysostom-ce--alexandria-catechetical",
+   "old": "Facundus of Hermiane, a sixth-century defender of Theodore, names a book On Allegory and History that Theodore wrote against Origen. The book itself is lost. Socrates and Sozomen say Theodore's teacher Diodore kept to the literal sense of Scripture and avoided allegory.",
+   "new": "Facundus of Hermiane took up the defense of Theodore in the sixth century. He names a book that Theodore wrote against Origen, called On Allegory and History. The book itself is lost. Socrates and Sozomen say that Diodore, who taught Theodore, kept to the literal sense of Scripture. He steered clear of allegory.",
+   "fre_before": 38.8,
+   "fre_after": 60.4,
+   "fk_after": 7.5,
+   "notes": ""
+  },
+  {
+   "id": "antiochene-exegetical-christianity-chrysostom-ce--imperial-juridical-christianity",
+   "old": "Socrates says the imperial court chose John Chrysostom as bishop of Constantinople. The chamberlain Eutropius made Theophilus of Alexandria consecrate him or face trial. An imperial law of 381 had already named Diodore of Tarsus among the bishops whose communion marked a Catholic church.",
+   "new": "John Chrysostom was made bishop of Constantinople. Socrates says it was the emperor's court that chose him. The chamberlain Eutropius told Theophilus of Alexandria to consecrate John or face trial. Back in 381 the emperor had made a law. It named the bishops whose communion marked a Catholic church, and Diodore of Tarsus was one of them.",
+   "fre_before": 36.9,
+   "fre_after": 61.0,
+   "fk_after": 7.5,
+   "notes": ""
+  },
+  {
+   "id": "imperial-juridical-christianity--antiochene-exegetical-christianity-chrysostom-ce",
+   "old": "After two synods condemned John Chrysostom, the emperor barred him from his church. Two months later, Socrates writes, 'a decree of the emperor sent him into exile'.",
+   "new": "Two synods condemned John Chrysostom. Then the emperor barred him from his own church. Two months later, as Socrates writes, 'a decree of the emperor sent him into exile'.",
+   "fre_before": 52.1,
+   "fre_after": 62.8,
+   "fk_after": 6.9,
+   "notes": ""
+  },
+  {
+   "id": "byzantine-imperial-church-justinianic--antiochene-exegetical-christianity-chrysostom-ce",
+   "old": "The Council of Constantinople in 553 condemned Theodore of Mopsuestia by name, more than a century after his death. Its twelfth canon anathematizes anyone who defends him or calls his exegesis orthodox.",
+   "new": "In 553 a council at Constantinople condemned Theodore of Mopsuestia by name. He had been dead for more than a hundred years. Its twelfth canon curses anyone who defends him or says his reading of Scripture is orthodox.",
+   "fre_before": 35.5,
+   "fre_after": 66.3,
+   "fk_after": 7.1,
+   "notes": "'curses' renders 'anathematizes'; 'reading of Scripture' renders 'exegesis'."
+  },
+  {
+   "id": "antiochene-exegetical-christianity-chrysostom-ce--the-church-of-the-east-under-persia",
+   "old": "Barhadbeshabba, writing about 600, says Theodore's commentaries were translated into Syriac at Edessa, where future Persian bishops studied them. In 585 a synod of the Church of the East defended 'the books and the teaching of saint Theodore' against his critics.",
+   "new": "Barhadbeshabba wrote about the year 600. He says Theodore's commentaries were put into Syriac at Edessa, where future Persian bishops studied them. In 585 a synod of the Church of the East spoke up for 'the books and the teaching of saint Theodore' against those who attacked him.",
+   "fre_before": 41.7,
+   "fre_after": 62.5,
+   "fk_after": 8.3,
+   "notes": ""
+  },
+  {
+   "id": "antiochene-exegetical-christianity-chrysostom-ce--the-reformed-cities-zurich-and-geneva",
+   "old": "Calvin's Institutes quote Chrysostom with delight: 'The foundation of our philosophy is humility.' Calvin also faults him and the other Greek Fathers for giving the human will too much power.",
+   "new": "Calvin's Institutes quote Chrysostom with delight: 'The foundation of our philosophy is humility.' Yet Calvin also faults him and the other Greek Fathers. He says they gave the human will too much power.",
+   "fre_before": 49.2,
+   "fre_after": 61.0,
+   "fk_after": 7.6,
+   "notes": ""
+  },
+  {
+   "id": "antiochene-exegetical-christianity-chrysostom-ce--lutheran-wittenberg-and-its-congregations",
+   "old": "The Augsburg Confession of 1530 cites Chrysostom as a witness to the early church's shared Communion. Melanchthon's Apology of the Confession quotes his saying: contrition in the heart, confession in the mouth, humility in the work.",
+   "new": "The Augsburg Confession of 1530 calls on Chrysostom as a witness to how the early church shared Communion. Melanchthon wrote a defense of the Confession, known as the Apology. In it he quotes a saying of Chrysostom. It runs: contrition in the heart, confession in the mouth, humility in the work.",
+   "fre_before": 41.6,
+   "fre_after": 62.2,
+   "fk_after": 7.7,
+   "notes": ""
+  },
+  {
+   "id": "aquileian-christianity--hieronymian-ascetic-literary--2",
+   "old": "Jerome and Rufinus, once close friends, broke for good around 400 over Rufinus's Latin translation of Origen. Each wrote a defense against the other. Rufinus said their friendship had been restored only with difficulty, and Jerome complained that an old friend he had made peace with now attacked him.",
+   "new": "Jerome and Rufinus had once been close friends. Around 400 they broke for good over Rufinus's Latin translation of Origen. Each wrote a defense against the other. Rufinus said their friendship had been mended only with difficulty. Jerome complained that an old friend he had made peace with now attacked him.",
+   "fre_before": 54.9,
+   "fre_after": 64.7,
+   "fk_after": 6.7,
+   "notes": ""
+  },
+  {
+   "id": "aquileian-christianity--homoian-arian-christianity",
+   "old": "At the Council of Aquileia in 381, the city's own bishop, Valerian, spoke against the Homoian bishop Palladius. He said that whoever defends Arius is an Arian. Whoever will not condemn his blasphemies, he added, is a blasphemer too. The council condemned Palladius and Secundianus.",
+   "new": "The Council of Aquileia met in 381. There the city's own bishop, Valerian, spoke out against Palladius, who was a Homoian bishop. He said that whoever defends Arius is an Arian. And whoever will not condemn the blasphemies of Arius, he added, is a blasphemer as well. The council condemned both Palladius and Secundianus.",
+   "fre_before": 51.5,
+   "fre_after": 60.4,
+   "fk_after": 7.5,
+   "notes": ""
+  },
+  {
+   "id": "ambrosian-milan-standalone--homoian-arian-christianity",
+   "old": "At Aquileia in 381, Ambrose led the questioning of the Homoian bishop Palladius. Because Palladius would not condemn a letter of Arius, Ambrose had it read aloud. In Milan in 386 he preached against a Homoian rival bishop, Auxentius, and declared him cast out.",
+   "new": "At Aquileia in 381, Ambrose led the questioning of Palladius, a Homoian bishop. Palladius would not condemn a letter of Arius, so Ambrose had it read out. In Milan in 386 he preached against Auxentius, a rival bishop who was also Homoian. He declared him cast out.",
+   "fre_before": 53.6,
+   "fre_after": 61.9,
+   "fk_after": 7.4,
+   "notes": ""
+  },
+  {
+   "id": "ambrosian-milan-standalone--latin-pastoral-congregational-christianity",
+   "old": "Augustine says in his Confessions that he was led to Ambrose at Milan so that Ambrose might lead him to God. Before his baptism in 387 he wrote to Ambrose about his past errors and asked what he should read.",
+   "new": "Augustine says in his Confessions that he was led to Ambrose at Milan so that Ambrose might lead him to God. Before his baptism in 387 he wrote to Ambrose about his past errors and asked what he should read.",
+   "fre_before": 74.2,
+   "fre_after": 74.2,
+   "fk_after": 7.7,
+   "notes": "Already passed; unchanged."
+  },
+  {
+   "id": "hieronymian-ascetic-literary--latin-pastoral-congregational-christianity",
+   "old": "Jerome and Augustine wrote to each other across the sea for years. Augustine told Jerome of a bishop whose congregation rose up over the new wording of a line in Jonah. Jerome later wrote that he was resolved to love and respect Augustine and to defend his opinions as his own.",
+   "new": "Jerome and Augustine wrote to each other across the sea for years. Augustine told Jerome of a bishop whose congregation rose up over the new wording of a line in Jonah. Jerome later wrote that he was resolved to love and respect Augustine and to defend his opinions as his own.",
+   "fre_before": 63.5,
+   "fre_after": 63.5,
+   "fk_after": 8.6,
+   "notes": "Already passed; unchanged."
+  },
+  {
+   "id": "latin-pastoral-congregational-christianity--hieronymian-ascetic-literary",
+   "old": "Augustine urged Jerome to translate the Greek Septuagint, not the Hebrew. He feared the Latin and Greek churches would end up reading different Bibles. After Jerome's death, he still held that no translator should be preferred to the Seventy.",
+   "new": "Augustine urged Jerome to translate from the Greek Septuagint, not from the Hebrew. He feared the Latin and Greek churches would end up reading different Bibles. Even after Jerome died, he still held that no translator should be put above the Seventy.",
+   "fre_before": 57.0,
+   "fre_after": 61.7,
+   "fk_after": 8.1,
+   "notes": ""
+  },
+  {
+   "id": "pelagianism--hieronymian-ascetic-literary",
+   "old": "In 416 the monasteries of Jerome's community at Bethlehem were attacked and burned, and his deacon was killed. Augustine reports that followers of Pelagius were said to have done it. Pope Innocent, writing on the women's own report, noted that they had not named the man behind it.",
+   "new": "In 416 the monasteries of Jerome's community at Bethlehem were attacked and burned, and his deacon was killed. Augustine reports that people said the followers of Pelagius had done it. Pope Innocent wrote on what the women there told him. He noted that they had not named the man behind it.",
+   "fre_before": 52.3,
+   "fre_after": 60.5,
+   "fk_after": 7.9,
+   "notes": ""
+  },
+  {
+   "id": "hieronymian-ascetic-literary--the-tridentine-church",
+   "old": "In 1546 the Council of Trent declared the old Latin Vulgate authentic for public reading and preaching. Its 1848 English translator says the council chose the Vulgate as Jerome's version. Augustine had described Jerome's work as a translation from the Hebrew.",
+   "new": "In 1546 the Council of Trent ruled that the old Latin Vulgate was authentic. It was to be the text for public reading and preaching. Its English translator of 1848 says the council chose the Vulgate as Jerome's version. Augustine had said Jerome's work was a translation from the Hebrew.",
+   "fre_before": 50.5,
+   "fre_after": 67.8,
+   "fk_after": 6.8,
+   "notes": "'authentic' kept as Trent's own term; sentence split around it."
+  },
+  {
+   "id": "palestinian-church-pre-constantinian--aquileian-christianity",
+   "old": "Chromatius, bishop of Aquileia, asked Rufinus to put the Church History of Eusebius of Caesarea into Latin. Rufinus did so around 401, cut the tenth book down, and added two books of his own.",
+   "new": "Chromatius, bishop of Aquileia, asked Rufinus to put the Church History of Eusebius of Caesarea into Latin. Rufinus did so around 401. He cut the tenth book down and added two books of his own.",
+   "fre_before": 54.2,
+   "fre_after": 61.0,
+   "fk_after": 7.6,
+   "notes": ""
+  },
+  {
+   "id": "cappadocian-nicene-pastoral-monastic-tradition--aquileian-christianity",
+   "old": "Gennadius of Marseilles wrote about Rufinus around 480. He calls him a priest of the church at Aquileia who opened much Greek writing to Latin readers. Among his translations he lists works of Basil of Caesarea and Gregory of Nazianzus.",
+   "new": "Gennadius of Marseilles wrote about Rufinus around 480. He calls him a priest of the church at Aquileia. Rufinus, he says, opened up much Greek writing to Latin readers. Among the works that Rufinus put into Latin, he lists books by Basil of Caesarea and by Gregory of Nazianzus as well.",
+   "fre_before": 54.8,
+   "fre_after": 60.5,
+   "fk_after": 7.9,
+   "notes": ""
+  },
+  {
+   "id": "apocryphal-and-pseudepigraphal-literature--aquileian-christianity",
+   "old": "Rufinus translated the Recognitions, a Greek work then read as by Clement of Rome, into Latin. In his preface he says the task had been laid on him to put Clement into 'our language'. Gennadius later lists it among Rufinus's translations.",
+   "new": "Rufinus translated the Recognitions, a Greek work then read as by Clement of Rome, into Latin. In his preface he says the task had been laid on him to put Clement into 'our language'. Gennadius later lists it among Rufinus's translations.",
+   "fre_before": 63.0,
+   "fre_after": 63.0,
+   "fk_after": 7.9,
+   "notes": "Already passed; unchanged."
+  },
+  {
+   "id": "gallic-nicene-episcopate--latin-pastoral-congregational-christianity",
+   "old": "Augustine quotes Hilary in his own book On the Trinity. He gives Hilary's short formula for the three persons and names Hilary's book as its source. He calls Hilary a man of real authority on Scripture and the faith.",
+   "new": "Augustine quotes Hilary in his own book On the Trinity. He gives Hilary's short formula for the three persons and names Hilary's book as its source. He calls Hilary a man of real authority on Scripture and the faith.",
+   "fre_before": 61.3,
+   "fre_after": 61.3,
+   "fk_after": 7.9,
+   "notes": "Already passed; unchanged."
+  },
+  {
+   "id": "gallic-nicene-episcopate--merovingian-gallic-christianity",
+   "old": "Gregory of Tours, writing in the late sixth century, tells how a light from Hilary's church at Poitiers shone over King Clovis as he marched against the Arian Visigoths. Gregory read it as Hilary's help against 'those heretics' he had fought. He calls Hilary a defender of the Trinity, exiled for its sake.",
+   "new": "Gregory of Tours wrote in the late sixth century. He tells how a light from Hilary's church at Poitiers shone over King Clovis as he marched against the Arian Visigoths. Gregory saw it as Hilary's help against 'those heretics' he had once fought. He calls Hilary a defender of the Trinity who was sent into exile for its sake.",
+   "fre_before": 56.4,
+   "fre_after": 64.2,
+   "fk_after": 8.0,
+   "notes": ""
+  },
+  {
+   "id": "donatism--latin-pastoral-congregational-christianity--2",
+   "old": "Optatus of Milevis, a Catholic bishop, says the schism began when a rival party consecrated Majorinus at Carthage, though Caecilian was already bishop. The Donatist bishops' own petition to Constantine, which Optatus copies, says disputes had arisen between them and the other bishops of Africa.",
+   "new": "Optatus of Milevis was a Catholic bishop. He says the split began when a rival party made Majorinus bishop at Carthage. Yet Caecilian was bishop there by then. Optatus also copies a plea that the Donatist bishops sent to Constantine. In it they say that disputes had come up between them and the rest of the bishops of Africa.",
+   "fre_before": 22.3,
+   "fre_after": 62.9,
+   "fk_after": 7.4,
+   "notes": "'the split' renders 'the schism'; 'plea' renders 'petition'."
+  },
+  {
+   "id": "donatism--latin-pastoral-congregational-christianity--3",
+   "old": "Tyconius was a Donatist writer of about 380. In On Christian Doctrine, Augustine calls him a Donatist and sets out the seven rules of his Book of Rules. He says they give real help in opening the hidden sense of Scripture.",
+   "new": "Tyconius was a Donatist writer of about 380. In On Christian Doctrine, Augustine calls him a Donatist and sets out the seven rules of his Book of Rules. He says they give real help in opening the hidden sense of Scripture.",
+   "fre_before": 68.5,
+   "fre_after": 68.5,
+   "fk_after": 7.0,
+   "notes": "Already passed; unchanged."
+  },
+  {
+   "id": "byzantine-imperial-church-justinianic--donatism",
+   "old": "In 535 Emperor Justinian's law for reconquered Africa named the Donatists alongside Arians, Jews and pagans, and barred them from holding services. In the 590s Pope Gregory the Great wrote to Emperor Maurice, praising his orders against the Donatists.",
+   "new": "In 535 the emperor Justinian made a law for Africa, which his armies had won back. It named the Donatists along with Arians, Jews and pagans, and barred them from holding services. In the 590s Pope Gregory the Great wrote to the emperor Maurice. He praised the orders Maurice had given against the Donatists.",
+   "fre_before": 36.2,
+   "fre_after": 62.5,
+   "fk_after": 7.8,
+   "notes": ""
+  },
+  {
+   "id": "roman-church-gregorian--donatism",
+   "old": "Pope Gregory the Great wrote to Columbus, a Numidian bishop, in the early 590s. He had heard that the Donatists were spreading and baptizing many people a second time. He ordered a council of bishops to look into it.",
+   "new": "Pope Gregory the Great wrote to Columbus, a Numidian bishop, in the early 590s. He had heard that the Donatists were spreading and baptizing many people a second time. He ordered a council of bishops to look into it.",
+   "fre_before": 63.5,
+   "fre_after": 63.5,
+   "fk_after": 7.6,
+   "notes": "Already passed; unchanged."
+  },
+  {
+   "id": "gallic-monastic-ascetic-christianity--latin-pastoral-congregational-christianity",
+   "old": "Around 428 Prosper of Aquitaine wrote to Augustine from Gaul. He reported that many servants of Christ at Marseilles thought Augustine's writing on election ran against the Fathers and the church's mind.",
+   "new": "Around 428 Prosper of Aquitaine wrote to Augustine from Gaul. He reported that many servants of Christ at Marseilles thought Augustine's writing on election ran against the Fathers. They thought it ran against the mind of the church as well.",
+   "fre_before": 51.9,
+   "fre_after": 63.5,
+   "fk_after": 7.6,
+   "notes": ""
+  },
+  {
+   "id": "latin-pastoral-congregational-christianity--gallic-monastic-ascetic-christianity",
+   "old": "Prosper said the objectors lived at Marseilles. Augustine answered in On the Predestination of the Saints, written in 428 or 429 to Prosper and Hilary for the brethren they were worried about. Prosper adds that Augustine's earlier book On Rebuke and Grace had answered similar doubts in Africa.",
+   "new": "Prosper said the men who raised doubts lived at Marseilles. Augustine answered them in On the Predestination of the Saints. He wrote it in 428 or 429 to Prosper and Hilary, for the brothers they were worried about. Prosper adds that Augustine's earlier book On Rebuke and Grace had met like doubts in Africa.",
+   "fre_before": 46.0,
+   "fre_after": 65.1,
+   "fk_after": 7.4,
+   "notes": ""
+  },
+  {
+   "id": "pelagianism--latin-pastoral-congregational-christianity",
+   "old": "Julian of Eclanum wrote letters that named Augustine and called the Catholic party Manichaeans. Augustine says the Pope sent them on to him, and he answered in four books. He also says Pelagius at Rome could not bear his prayer, 'Give what Thou commandest.'",
+   "new": "Julian of Eclanum wrote letters that named Augustine and called the Catholic party Manichaeans. Augustine says the Pope sent them on to him, and he answered in four books. He also says Pelagius at Rome could not bear his prayer, 'Give what Thou commandest.'",
+   "fre_before": 71.3,
+   "fre_after": 71.3,
+   "fk_after": 6.1,
+   "notes": "Already passed; unchanged."
+  },
+  {
+   "id": "imperial-juridical-christianity--priscillianist-asceticism",
+   "old": "Sulpicius Severus says Spanish bishops won a rescript from Emperor Gratian that drove the heretics out. Later the usurping emperor Maximus heard the case at Trier. He decreed that Priscillian and his friends be put to death.",
+   "new": "Sulpicius Severus says Spanish bishops got an order from the emperor Gratian that drove the heretics out. Later Maximus, who had seized the throne, heard the case at Trier. He decreed that Priscillian and his friends be put to death.",
+   "fre_before": 59.4,
+   "fre_after": 68.5,
+   "fk_after": 7.0,
+   "notes": "'an order' renders 'a rescript'; 'Maximus, who had seized the throne' renders 'the usurping emperor Maximus'."
+  },
+  {
+   "id": "ambrosian-milan-standalone--priscillianist-asceticism",
+   "old": "Sulpicius Severus says Priscillian and two bishops went to Rome and Milan, around 382, to clear themselves. Damasus of Rome would not receive them, and at Milan they found Ambrose equally opposed.",
+   "new": "Sulpicius Severus says Priscillian and two bishops went to Rome and Milan around 382 to clear their names. Damasus of Rome would not see them. At Milan they found Ambrose just as opposed.",
+   "fre_before": 51.9,
+   "fre_after": 69.1,
+   "fk_after": 6.3,
+   "notes": ""
+  },
+  {
+   "id": "gallic-monastic-ascetic-christianity--imperial-juridical-christianity",
+   "old": "Martin of Tours was at the emperor Maximus's court at Trier during the Priscillian affair. Sulpicius Severus says he begged Maximus not to shed the blood of the accused. He called it an unheard-of outrage for a secular ruler to judge a church case.",
+   "new": "Martin of Tours was at the emperor Maximus's court at Trier during the Priscillian affair. Sulpicius Severus says he begged Maximus not to shed the blood of the accused. He called it an unheard-of outrage for a secular ruler to judge a church case.",
+   "fre_before": 61.9,
+   "fre_after": 61.9,
+   "fk_after": 8.4,
+   "notes": "Already passed; unchanged."
+  },
+  {
+   "id": "anomoean-eunomian-christianity--homoian-arian-christianity",
+   "old": "In 360 a Homoian council at Constantinople deposed Aetius, and its letter says he was expelled from the church. Theodoret says Eunomius later separated from Eudoxius and set up a community of his own. Socrates and Philostorgius, the second writing from the Eunomian side, place the final break under Valens.",
+   "new": "In 360 a Homoian council at Constantinople deposed Aetius. Its letter says he was cast out of the church. Theodoret says Eunomius later split from Eudoxius and set up a group of his own. Socrates and Philostorgius place the final break under Valens. Philostorgius wrote from the side of Eunomius.",
+   "fre_before": 41.8,
+   "fre_after": 60.5,
+   "fk_after": 7.3,
+   "notes": ""
+  },
+  {
+   "id": "homoian-arian-christianity--gothic-and-vandal-homoian-christianity",
+   "old": "Ulfila, bishop of the Goths, took part in the council at Constantinople in 360 that confirmed the Homoian creed. In 427 or 428 the Homoian bishop Maximinus came to Africa with the Goths and named the creed of Ariminum as his faith. In the fifth century the historian Socrates wrote that many Goths still held it.",
+   "new": "Ulfila, bishop of the Goths, took part in the council at Constantinople in 360 that confirmed the Homoian creed. In 427 or 428 the Homoian bishop Maximinus came to Africa with the Goths. He named the creed of Ariminum as his faith. In the fifth century the historian Socrates wrote that many Goths still held it.",
+   "fre_before": 58.0,
+   "fre_after": 62.5,
+   "fk_after": 7.8,
+   "notes": ""
+  },
+  {
+   "id": "imperial-juridical-christianity--homoian-arian-christianity--2",
+   "old": "The emperor Constantius II called the bishops to two councils in 359, hoping to bring them all to one creed. A council at Constantinople in 360 confirmed the creed read at Ariminum, and Ulfila of the Goths signed it. In 427 or 428 the Homoian bishop Maximinus still named that creed as his faith.",
+   "new": "The emperor Constantius II called the bishops to two councils in 359. He hoped to bring them all to one creed. A council at Constantinople in 360 confirmed the creed read at Ariminum, and Ulfila of the Goths signed it. In 427 or 428 the Homoian bishop Maximinus still named that creed as his faith.",
+   "fre_before": 59.6,
+   "fre_after": 64.5,
+   "fk_after": 7.4,
+   "notes": ""
+  },
+  {
+   "id": "hieronymian-ascetic-literary--homoian-arian-christianity",
+   "old": "In his Dialogue against the Luciferians, written about 379, Jerome blames the Homoian leaders Valens and Ursacius for the council of Ariminum. There, he says, the Nicene faith was condemned, and the whole world groaned to find itself Arian.",
+   "new": "Jerome wrote his Dialogue against the Luciferians in about 379. In it he blames the Homoian leaders Valens and Ursacius for what was done at the council of Ariminum. There, he says, the Nicene faith was condemned, and the whole world groaned to find itself Arian.",
+   "fre_before": 47.3,
+   "fre_after": 61.9,
+   "fk_after": 8.4,
+   "notes": ""
+  },
+  {
+   "id": "antiochene-exegetical-christianity-chrysostom-ce--anomoean-eunomian-christianity",
+   "old": "Theodoret, writing in the fifth century, says Bishop Leontius of Antioch made Aetius a deacon. Two ascetics of the city, Flavian and Diodore, protested in public that this disgraced the church. Leontius then suspended Aetius.",
+   "new": "Theodoret, who wrote in the fifth century, says Bishop Leontius of Antioch made Aetius a deacon. Two ascetics of the city, Flavian and Diodore, protested in public that this brought shame on the church. Leontius then suspended Aetius.",
+   "fre_before": 52.4,
+   "fre_after": 62.6,
+   "fk_after": 7.7,
+   "notes": ""
+  }
+ ]
+}

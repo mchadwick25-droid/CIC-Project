@@ -1,0 +1,36 @@
+source_file: christian-east_v1-no2-june-1920.txt
+assignments:
+- row_id: christian-east_v1-no2-june-1920--whole
+  work: 'The Christian East, volume I, number 2 (June, 1920)'
+  author: christian-east
+  locus: 'whole'
+  atlas_ids:
+  - the-anglican-communion-twentieth-century
+  role: tradition
+  confidence: assigned
+  language: eng
+  date: {start: 1920, end: 1920, source: "masthead: 'June, 1920'", formation_confidence: Documented}
+  note: 'One number of the quarterly, by many writers. The Eastern documents it prints are in the journal''s English unless a row says otherwise.'
+- row_id: christian-east_v1-no2-june-1920--ecumenical-patriarchate-encyclical-unto-all-the-churches-of-christ-1920
+  work: 'The Ecumenical Patriarchate, encyclical ''Unto all the Churches of Christ wheresoever they be'' (January 1920), in The Christian East'
+  author: christian-east
+  locus: 'OCR lines 155-462; add 12 to OCR line numbers'
+  atlas_ids:
+  - the-greek-church-and-the-ecumenical-patriarchate
+  role: tradition
+  confidence: assigned
+  language: eng
+  date: {start: 1920, end: 1920, source: "dated 'in the month of January, in the year of Grace one thousand nine hundred and twenty' (OCR lines 440-443)", formation_confidence: Documented}
+  note: 'The synod''s own encyclical, signed by the locum tenens Dorotheus and the metropolitans of the synod (the OCR keeps nine names after his), in English; the print names no translator.'
+- row_id: christian-east_v1-no2-june-1920--patriarch-tikhon-a-letter-to-the-russian-rulers-1918
+  work: 'Patriarch Tikhon, ''A Letter to the Russian Rulers, 1918'', in The Christian East'
+  author: christian-east
+  locus: 'OCR lines 3867-4109; add 12 to OCR line numbers'
+  atlas_ids:
+  - the-russian-orthodox-church-council-patriarchate-and-reunion
+  - the-russian-new-martyrs-and-the-catacomb-church
+  role: tradition
+  confidence: assigned
+  language: eng
+  date: {start: 1918, end: 1918, source: "the heading gives 1918", formation_confidence: Documented}
+  note: 'His own words in the journal''s English; the print names no translator. Junk lines from a plate leaf break the text at OCR lines 4073-4084, and the OCR of the heading is damaged.'

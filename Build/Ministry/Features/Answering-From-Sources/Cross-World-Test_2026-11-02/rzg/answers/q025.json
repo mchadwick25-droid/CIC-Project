@@ -1,0 +1,114 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "rzg.witness.what-a-stranger-would-notice"
+   ],
+   "sentence": "What we hold of our worship is reasoned from our doctrine, and no source in our record describes the rooms directly."
+  },
+  {
+   "record_ids": [
+    "rzg.witness.what-a-stranger-would-notice",
+    "rzg.ambient.emptied-worship-space"
+   ],
+   "sentence": "We reason from what we held about the Mass: no image to bow to, and a table in place of an altar built for sacrifice."
+  },
+  {
+   "record_ids": [
+    "rzg.ambient.emptied-worship-space"
+   ],
+   "sentence": "Article XVIII refused the sacrificial character of the Mass, and our picture of the plain table rests there."
+  },
+  {
+   "record_ids": [
+    "rzg.ambient.emptied-worship-space",
+    "rzg.witness.what-a-stranger-would-notice"
+   ],
+   "sentence": "By most accounts the organ at the Zurich Grossmunster fell silent in the mid-1520s."
+  }
+ ],
+ "citations": [
+  "rzg.ambient.emptied-worship-space",
+  "rzg.witness.what-a-stranger-would-notice"
+ ],
+ "group": "A",
+ "id": "q025",
+ "net_sentences": [
+  {
+   "draft": "What we hold of our worship is reasoned from our doctrine, and no source in our record describes the rooms directly [[rzg.witness.what-a-stranger-would-notice]] [[as:paraphrase]].",
+   "sentence": "What we hold of our worship is reasoned from our doctrine, and no source in our record describes the rooms directly.",
+   "tags": [
+    "rzg.witness.what-a-stranger-would-notice"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "We reason from what we held about the Mass: no image to bow to, and a table in place of an altar built for sacrifice [[rzg.witness.what-a-stranger-would-notice]] [[rzg.ambient.emptied-worship-space]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "We reason from what we held about the Mass: no image to bow to, and a table in place of an altar built for sacrifice.",
+   "tags": [
+    "rzg.witness.what-a-stranger-would-notice",
+    "rzg.ambient.emptied-worship-space"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "Article XVIII refused the sacrificial character of the Mass, and our picture of the plain table rests there [[rzg.ambient.emptied-worship-space]] [[as:paraphrase]].",
+   "ratio": 0.5,
+   "sentence": "Article XVIII refused the sacrificial character of the Mass, and our picture of the plain table rests there.",
+   "tags": [
+    "rzg.ambient.emptied-worship-space"
+   ],
+   "verdict": "ok",
+   "why": "grounded 50% in own tagged records"
+  },
+  {
+   "draft": "By most accounts the organ at the Zurich Grossmunster fell silent in the mid-1520s [[rzg.ambient.emptied-worship-space]] [[rzg.witness.what-a-stranger-would-notice]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "By most accounts the organ at the Zurich Grossmunster fell silent in the mid-1520s.",
+   "tags": [
+    "rzg.ambient.emptied-worship-space",
+    "rzg.witness.what-a-stranger-would-notice"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  }
+ ],
+ "offered": [
+  "rzg.witness.what-a-stranger-would-notice",
+  "rzg.term.consistory",
+  "rzg.term.sign-and-the-thing-signified",
+  "rzg.term.the-lords-supper-spiritual-presence",
+  "rzg.story.calvins-journey-to-zurich",
+  "rzg.quote.mass-not-a-sacrifice",
+  "rzg.gravity.zwinglis-remembrance-reading-vs-negotiated-consensus",
+  "rzg.gravity.scripture-sole-authority-disputation-catechesis",
+  "rzg.force.counter-reformation-sustained-pressure",
+  "rzg.ambient.emptied-worship-space",
+  "rzg.contested.anabaptist-schism-legitimacy",
+  "rzg.limit.dentiere-and-womens-voice",
+  "rzg.gravity.consistorial-church-discipline",
+  "rzg.gravity.council-led-authority-vs-consistorial-independence",
+  "rzg.gravity.spiritual-presence-rejection-of-corporeal-sacrificial-mediation"
+ ],
+ "raw_text": "What we hold of our worship is reasoned from our doctrine, and no source in our record describes the rooms directly [[rzg.witness.what-a-stranger-would-notice]] [[as:paraphrase]].\nWe reason from what we held about the Mass: no image to bow to, and a table in place of an altar built for sacrifice [[rzg.witness.what-a-stranger-would-notice]] [[rzg.ambient.emptied-worship-space]] [[as:paraphrase]].\nArticle XVIII refused the sacrificial character of the Mass, and our picture of the plain table rests there [[rzg.ambient.emptied-worship-space]] [[as:paraphrase]].\nBy most accounts the organ at the Zurich Grossmunster fell silent in the mid-1520s [[rzg.ambient.emptied-worship-space]] [[rzg.witness.what-a-stranger-would-notice]] [[as:paraphrase]].\nOf the Consistory's weekly work at Geneva we hold the general doctrine, while the case-by-case discipline rests on the 1541 Ordinances we have not acquired [[rzg.gravity.consistorial-church-discipline]] [[as:paraphrase]].\n",
+ "reply_shape": {
+  "placed": [],
+  "removed": [
+   {
+    "draft": "Of the Consistory's weekly work at Geneva we hold the general doctrine, while the case-by-case discipline rests on the 1541 Ordinances we have not acquired [[rzg.gravity.consistorial-church-discipline]] [[as:paraphrase]].",
+    "sentence": "Of the Consistory's weekly work at Geneva we hold the general doctrine, while the case-by-case discipline rests on the 1541 Ordinances we have not acquired.",
+    "why": "states an absence that no record it cites states"
+   }
+  ],
+  "repaired": []
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": "C16.S4",
+ "text": "What we hold of our worship is reasoned from our doctrine, and no source in our record describes the rooms directly. We reason from what we held about the Mass: no image to bow to, and a table in place of an altar built for sacrifice. Article XVIII refused the sacrificial character of the Mass, and our picture of the plain table rests there. By most accounts the organ at the Zurich Grossmunster fell silent in the mid-1520s.",
+ "voice_set_aside": false
+}

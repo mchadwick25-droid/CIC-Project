@@ -49,9 +49,11 @@ confidence:
     not speak anywhere in our record.'
 sources:
 - source_id: lpc.source.cyprian-epistles
-  locus: the Epistles carry the process in operation, including Epistles XX-XXI; Epistle IX 2 -- 'do penance
-    for a set time, and according to the rules of discipline come to public confession, and by imposition
-    of the hand of the bishop and clergy receive the right of communion'
+  locus: the Epistles carry the process in operation, including Epistles XX-XXI; Epistle IX 2 -- 'do
+    penance for a set time, and according to the rules of discipline come to public confession, and
+    by imposition of the hand of the bishop and clergy receive the right of communion'; verified directly
+    against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 29767-29778; Latin at cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt,
+    lines 2566-2569
   license: public-domain
 - source_id: lpc.source.cyprian-de-lapsis
   locus: De Lapsis carries the argument for episcopal control of the process
@@ -82,7 +84,7 @@ senses:
     The visibility is not cruelty. A failure that happened in public cannot be undone in private, because
     the people who watched the failure are the same people who must receive the person afterwards. And
     the bishop holds it -- not because he is more forgiving than anyone else, but because peace granted
-    by whoever feels moved to grant it is a favour, not the church''s own peace. This is the operative
+    by whoever feels moved to grant it is a favor, not the church''s own peace. This is the operative
     half of our second founding gravity, the working end of the flock: what a shepherd actually does with
     a sheep that has failed. It presupposes the lapsed as its subject, and it generates our tension with
     the confessors, whose own claim to grant peace directly is what forced this whole process into existence.'
@@ -97,6 +99,12 @@ senses:
     and neither is primarily about feeling for us. This is a public, staged, community-witnessed process
     with an examined entry, a real duration, and a formal act of readmission at the end, controlled by
     one office. What it restores is standing, and the whole community can see it being restored.
+  heard_today: A modern listener may hear either a brief private confession behind a screen, or a therapeutic
+    notion of reconciliation -- repair achieved once both parties feel differently.
+  meant_here: It is not private, and for us it is not primarily about feeling. This is a public, staged,
+    community-witnessed process with an examined entry, a real duration, and a formal act of readmission
+    at the end, controlled by one office. What it restores is standing, and the whole community can
+    see it being restored.
 quick_meaning: For us, reconciliation is not a quiet, private pardon. It is a public road that a failed
   member walks, in stages, back into the community.
 ---

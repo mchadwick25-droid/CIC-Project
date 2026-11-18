@@ -1,0 +1,506 @@
+[
+ {
+  "id": "q028-B",
+  "answers_question": "no",
+  "depth": "thin",
+  "plain": "yes",
+  "community_voice": "no",
+  "accuracy": "tier3",
+  "note": "Never addresses the fate of outsiders; drifts to free will and Origen's rule"
+ },
+ {
+  "id": "q001-A",
+  "answers_question": "partly",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Gives the teacher line but never names the scriptures or apostolic writings as the path"
+ },
+ {
+  "id": "q013-B",
+  "answers_question": "no",
+  "depth": "thin",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "tier3",
+  "note": "Off-target: describes authority shifts, never answers the underground question"
+ },
+ {
+  "id": "q024-B",
+  "answers_question": "partly",
+  "depth": "thin",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "tier3",
+  "note": "Honest about the Latin gap but thin, and the last Valentinian sentence dangles"
+ },
+ {
+  "id": "q011-A",
+  "answers_question": "yes",
+  "depth": "adequate",
+  "plain": "no",
+  "community_voice": "no",
+  "accuracy": "tier3",
+  "note": "Content is sound, but it ends in record jargon ('literate-attested ecology') and choppy assembled sentences"
+ },
+ {
+  "id": "q002-B",
+  "answers_question": "yes",
+  "depth": "rich",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Vivid, well-grounded Logos and physician picture in the community's voice"
+ },
+ {
+  "id": "q016-B",
+  "answers_question": "yes",
+  "depth": "rich",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Honest refusal to name an heir, with clear self-description"
+ },
+ {
+  "id": "q019-A",
+  "answers_question": "no",
+  "depth": "flat",
+  "plain": "yes",
+  "community_voice": "no",
+  "accuracy": "tier3",
+  "note": "Bare refusal although the records hold rich material on doubt"
+ },
+ {
+  "id": "q020-A",
+  "answers_question": "no",
+  "depth": "flat",
+  "plain": "yes",
+  "community_voice": "no",
+  "accuracy": "tier3",
+  "note": "Bare refusal although the photismos and baptism records cover new birth"
+ },
+ {
+  "id": "q019-B",
+  "answers_question": "yes",
+  "depth": "rich",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Warm and grounded; names the rule-of-faith limits and the post-Nicene cost"
+ },
+ {
+  "id": "q022-A",
+  "answers_question": "no",
+  "depth": "thin",
+  "plain": "no",
+  "community_voice": "no",
+  "accuracy": "tier3",
+  "note": "Abstract formation statements; no daily life and no clear limit statement"
+ },
+ {
+  "id": "q027-B",
+  "answers_question": "yes",
+  "depth": "rich",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "tier3",
+  "note": "Good, but it slips into 'I' and 'I am a representative of Alexandrian Christianity', breaking frame"
+ },
+ {
+  "id": "q002-A",
+  "answers_question": "yes",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "tier3",
+  "note": "Accurate, but it ends on a meta attestation line and a tacked-on quote"
+ },
+ {
+  "id": "q023-B",
+  "answers_question": "no",
+  "depth": "flat",
+  "plain": "yes",
+  "community_voice": "no",
+  "accuracy": "tier3",
+  "note": "Bare refusal although the records cover cost and lapse"
+ },
+ {
+  "id": "q016-A",
+  "answers_question": "yes",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Clear and accurate, though list-like"
+ },
+ {
+  "id": "q004-A",
+  "answers_question": "yes",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Accurate Nicene arc, slightly repetitive on homoousios"
+ },
+ {
+  "id": "q009-B",
+  "answers_question": "yes",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "tier3",
+  "note": "Solid, but the logikos cosmology line is vague to a hearer"
+ },
+ {
+  "id": "q012-A",
+  "answers_question": "yes",
+  "depth": "rich",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "tier3",
+  "note": "Four anchors well drawn; the bee quote is missing its closing punctuation"
+ },
+ {
+  "id": "q006-A",
+  "answers_question": "yes",
+  "depth": "rich",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Quote verified against its record; tone is balanced"
+ },
+ {
+  "id": "q014-B",
+  "answers_question": "no",
+  "depth": "thin",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "tier3",
+  "note": "Answers about persecution, not leadership"
+ },
+ {
+  "id": "q010-B",
+  "answers_question": "yes",
+  "depth": "rich",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "tier3",
+  "note": "Strong, but it opens with a dangling 'That is the center' and an unpunctuated quote"
+ },
+ {
+  "id": "q007-A",
+  "answers_question": "yes",
+  "depth": "rich",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "tier3",
+  "note": "Good, but the Gregory quote lacks punctuation and 'We could not make that happen' dangles"
+ },
+ {
+  "id": "q018-B",
+  "answers_question": "partly",
+  "depth": "thin",
+  "plain": "no",
+  "community_voice": "no",
+  "accuracy": "tier3",
+  "note": "Lists stage names without walking the process; report tone"
+ },
+ {
+  "id": "q026-B",
+  "answers_question": "yes",
+  "depth": "rich",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Origen and Demetrius rupture told honestly in voice"
+ },
+ {
+  "id": "q017-A",
+  "answers_question": "yes",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Names what can and cannot be shown; quote matches its record"
+ },
+ {
+  "id": "q008-B",
+  "answers_question": "yes",
+  "depth": "rich",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "tier3",
+  "note": "Sound content; Clement line missing punctuation, with a baptism tag-on"
+ },
+ {
+  "id": "q007-B",
+  "answers_question": "yes",
+  "depth": "rich",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Gregory story faithful to its record, with an honest limit at the end"
+ },
+ {
+  "id": "q024-A",
+  "answers_question": "yes",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Honest about rite gaps without inventing one"
+ },
+ {
+  "id": "q001-B",
+  "answers_question": "yes",
+  "depth": "rich",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "tier3",
+  "note": "Good path-of-transmission answer; the bee quote has no closing punctuation"
+ },
+ {
+  "id": "q003-B",
+  "answers_question": "no",
+  "depth": "flat",
+  "plain": "yes",
+  "community_voice": "no",
+  "accuracy": "tier3",
+  "note": "Bare refusal on a question the records cover well"
+ },
+ {
+  "id": "q022-B",
+  "answers_question": "yes",
+  "depth": "rich",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "tier2",
+  "note": "Mostly honest limits, but 'The teacher rose early' is an invented detail"
+ },
+ {
+  "id": "q018-A",
+  "answers_question": "yes",
+  "depth": "rich",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "tier2",
+  "note": "Vivid, but the 'hearer' stage and the life being watched go beyond the alx records"
+ },
+ {
+  "id": "q009-A",
+  "answers_question": "yes",
+  "depth": "rich",
+  "plain": "no",
+  "community_voice": "no",
+  "accuracy": "tier2",
+  "note": "Very long and meta ('honest service to the participant', 'we should flag'); breaks the world boundary"
+ },
+ {
+  "id": "q013-A",
+  "answers_question": "yes",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "tier2",
+  "note": "Right answer, but 'Our meeting places were known' goes beyond the material-remains limit"
+ },
+ {
+  "id": "q025-A",
+  "answers_question": "yes",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Handles the outside premise honestly and shows its source-honesty"
+ },
+ {
+  "id": "q025-B",
+  "answers_question": "no",
+  "depth": "flat",
+  "plain": "yes",
+  "community_voice": "no",
+  "accuracy": "tier3",
+  "note": "Disconnected fragments; does not address the torture-source question"
+ },
+ {
+  "id": "q010-A",
+  "answers_question": "partly",
+  "depth": "thin",
+  "plain": "yes",
+  "community_voice": "no",
+  "accuracy": "tier3",
+  "note": "Generic school-of-God statements and a meta attestation line; little on reading practice"
+ },
+ {
+  "id": "q015-A",
+  "answers_question": "yes",
+  "depth": "rich",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Lapsed-restoration and Origen rupture told clearly"
+ },
+ {
+  "id": "q005-A",
+  "answers_question": "yes",
+  "depth": "rich",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "tier3",
+  "note": "Good teacher, bishop, council arc with evidence; 'That rule' has no referent"
+ },
+ {
+  "id": "q011-B",
+  "answers_question": "yes",
+  "depth": "rich",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "tier3",
+  "note": "Vivid, but the Origen line is missing punctuation"
+ },
+ {
+  "id": "q023-A",
+  "answers_question": "yes",
+  "depth": "rich",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "tier2",
+  "note": "Guilds, processions, meals and friends are not in the records; the opener is awkward"
+ },
+ {
+  "id": "q017-B",
+  "answers_question": "yes",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Clear account of the transmission channels"
+ },
+ {
+  "id": "q012-B",
+  "answers_question": "yes",
+  "depth": "adequate",
+  "plain": "no",
+  "community_voice": "no",
+  "accuracy": "tier3",
+  "note": "Assembled fact list with a long quote and stray off-topic lines"
+ },
+ {
+  "id": "q004-B",
+  "answers_question": "yes",
+  "depth": "rich",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "tier3",
+  "note": "Truncated: 'one sentence:' is followed by no sentence; ordering is jumbled"
+ },
+ {
+  "id": "q028-A",
+  "answers_question": "yes",
+  "depth": "rich",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "tier3",
+  "note": "Careful on apokatastasis; the Athanasius line is missing punctuation and some lines are padding"
+ },
+ {
+  "id": "q008-A",
+  "answers_question": "yes",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Concise and faithful to the record"
+ },
+ {
+  "id": "q003-A",
+  "answers_question": "yes",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "tier3",
+  "note": "Warm, but 'It was love for the Holy Word...' dangles with no Gregory setup"
+ },
+ {
+  "id": "q020-B",
+  "answers_question": "yes",
+  "depth": "rich",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "tier2",
+  "note": "Origen-on-John 'born again from above' and Paschal-night baptism are not in the records"
+ },
+ {
+  "id": "q005-B",
+  "answers_question": "yes",
+  "depth": "rich",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Arsinoite story told faithfully with its source limit"
+ },
+ {
+  "id": "q026-A",
+  "answers_question": "yes",
+  "depth": "adequate",
+  "plain": "no",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Long Eusebius quote (verified) weighs on the ending"
+ },
+ {
+  "id": "q021-A",
+  "answers_question": "yes",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "tier3",
+  "note": "The 'word to the wealthy' sentence dangles with no referent"
+ },
+ {
+  "id": "q014-A",
+  "answers_question": "yes",
+  "depth": "rich",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Clear arc, with the Arsinoe example and the post-Nicene edge"
+ },
+ {
+  "id": "q021-B",
+  "answers_question": "yes",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Faithful to the material-remains limit"
+ },
+ {
+  "id": "q015-B",
+  "answers_question": "yes",
+  "depth": "adequate",
+  "plain": "no",
+  "community_voice": "yes",
+  "accuracy": "tier3",
+  "note": "Opening is out of order and 'those who gave way' repeats clumsily"
+ },
+ {
+  "id": "q006-B",
+  "answers_question": "yes",
+  "depth": "rich",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Clear and vivid account of God as teacher and physician"
+ },
+ {
+  "id": "q027-A",
+  "answers_question": "partly",
+  "depth": "adequate",
+  "plain": "no",
+  "community_voice": "no",
+  "accuracy": "tier3",
+  "note": "Jargon ('breadth-formation') and a stack of record statements"
+ }
+]

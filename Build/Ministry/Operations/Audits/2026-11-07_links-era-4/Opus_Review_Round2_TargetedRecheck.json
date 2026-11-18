@@ -1,0 +1,138 @@
+{
+ "round": 2,
+ "kind": "targeted recheck",
+ "verdict": "pass",
+ "counts": {
+  "blocking": 0,
+  "substantial": 0,
+  "minor": 3,
+  "fabrication": 0
+ },
+ "findings_rechecked": [
+  {
+   "finding": "R1-01",
+   "status": "fixed",
+   "note": "anglo-saxon-christianity.relationsSummary now reads 'Its churchmen later helped lead the Carolingian reform.' The legacy now reads '...its missionaries in Germany, Boniface above all, helped the Carolingian kings reform the Frankish church.' Neither claims descent, so both match the 'influenced' link and the Carolingian side. Both are in the census and the old wording is gone."
+  },
+  {
+   "finding": "R1-02",
+   "status": "fixed",
+   "note": "Both Kievan links are now Dominant Modern Reconstruction and named-not-rechecked. Herberstein is now a secondary, described as a 1549 retelling; his misplacing (Bulgaria, [898]) and his misdating (6469 (961)) are stated in the work field. Checked herberstein 7870-7878 and 8282-8288, mouravieff 903-907, 1494-1498 and 1538-1566. Each note says no more than these lines: Ilarion's cave 'the germ of the future Lavra, and of all the religious houses of Russia'; the 1051 margin date; 'since which time Russia has continued in the faith of Christ'. The four links now follow one rule. It still has to be written into the era-4 README (R2-03)."
+  },
+  {
+   "finding": "R1-03",
+   "status": "fixed differently, accepted",
+   "note": "Right departure. My proposed Malabar chronicle was written after 1580: it narrates Mar Abraham's arrival in 1580 (mingana 2255-2258), so under the R1-02 rule it cannot carry ninth-century facts. Theodosius's canon fits better. See 'theodosius_canon' below for the primary question. The note now says 'rests on place, name and office', which is honest. Widely Accepted stands: there is a primary on each side (the canon of the 850s; the 1301 colophon and Marignolli), plus Mingana as the secondary."
+  },
+  {
+   "finding": "R1-04",
+   "status": "fixed",
+   "note": "The link is gone from the census edges. It was never published: it is absent from the origin/main (e1ad4ebc) census and from cft-website, so no retiredLinks entry is needed, and retiredLinks is empty. The late-anglo-saxon-christianity.relationsSummary is qualified from 'Then the bishops ... rebuilt its monasteries on the Benedictine rule' to 'The bishops Dunstan, Aethelwold and Oswald are known for rebuilding its monasteries on the Rule of Benedict.' Its why and longDescription still state the refounding outright. They are correctly held under the standard-history escalation."
+  },
+  {
+   "finding": "R1-05",
+   "status": "fixed",
+   "note": "The Contested note now states both sides and settles neither. Obolensky (1948) and Stoyanov (2000) are cited in the repo: they are in the census sources of bogomils (world-census.json, and Stoyanov again at lines 9669, 9727 and 20238), as well as in cic/texts/README.md and REGISTRY.yaml. Both are marked 'not read', which is honest. The note does not name them. It says only 'Older historians, and some modern ones, built a line', and the census descriptions support that: Obolensky's 'Neo-Manichaean' framing, and Stoyanov's 'modern synthesis of the dualist line'. 'The Armenian sources show no dualism' is the census's own Garsoian note. Rački 816-822 (868) and Evans 1099-1104 (870) support 'around 870' and the plan to send preachers to Bulgaria. The note claims nothing beyond this."
+  },
+  {
+   "finding": "R1-06",
+   "status": "fixed",
+   "note": "The Constantine V sentence is dropped and Evans is removed. The note rests on Rački 856-857: 'Nastala proti njim progonstva za cara Mihajla (811 — 13) ... niesu jih mogla izkorieniti'. That supports 'a persecution ... from 811 to 813' and 'it failed to root them out'. Michael I's reign falls inside the source entry, which ends in 843. Dixon is listed as an unread repo-cited secondary. The note's 'This rests on his history alone' is honest about that."
+  },
+  {
+   "finding": "R1-07",
+   "status": "fixed (structure question remains with Mark)",
+   "note": "The rewrite meets my holding option. It rests on Skara for Sweden: anjou 992-994 for its origin under Sigfrid; 11660-11661 and 11667-11672 for Sven, provost then elected bishop, with the comment 'By these elections the church of Sweden again broke with the Roman'. Lund is dropped. The note states the Danish break: 14087-14088 (bishops imprisoned in 1536) and 14168-14169 (superintendents 'put in the places of the bishops'), with the 1537 Ordinatio at 3408-3409 ('conſeruatores in ſingulis diqceſibus ſinguli ſint'). It ends by saying plainly that the line is thin. The legacy is qualified and no longer says 'existed continuously ever since'. Every quote checks. One word is wrong: R2-01."
+  },
+  {
+   "finding": "R1-08",
+   "status": "fixed",
+   "note": "The note now reads 'names them in order. It runs from Photius in the ninth century to the patriarchs who served under the emperor Manuel in the twelfth.' That no longer claims what the OCR gap cannot show. Checked pg147 20806-20808, 20962-20964 and 20970-20971, and mirbt 9899."
+  },
+  {
+   "finding": "R1-09",
+   "status": "fixed",
+   "note": "The note now reads 'wrote that at the council of 787 the iconoclasts were defeated'. This matches photius 2239-2241."
+  },
+  {
+   "finding": "R1-10",
+   "status": "fixed",
+   "note": "Lines 4943-4945 are added verbatim. The note gains 'When Peter held that office, Matthew adds, it had rich lands given by the Armenian kings.' This fairly renders 'le riche patrimoine donné par nos souverains aux catholicos'. The note gives no date for Peter, so nothing rests on years that are not quoted."
+  },
+  {
+   "finding": "R1-11",
+   "status": "fixed differently, accepted",
+   "note": "Right departure on both counts. The chronicle is post-1580. And Mingana dates the Kollam deed 'about the year 824' (3856-3857), so my 'about 849' had no vendored support, and the note rightly gives no date. With Theodosius, the tie now falls in the 850s, inside both entries' windows (abbasids 845-1220; St Thomas 849-1054)."
+  },
+  {
+   "finding": "R1-12",
+   "status": "fixed",
+   "note": "The note now reads 'Later historians write that the emperor then pressed the monks to obey. Many fled, they say, and some were killed.' The Documented core is the curse of 754 (npnf214 39454, 39464-39465, 39469-39471), checked."
+  },
+  {
+   "finding": "R1-13",
+   "status": "fixed",
+   "note": "'Its liturgy, though, outlasted most of the people who had kept it.' This no longer contradicts the Toledo sentence."
+  },
+  {
+   "finding": "R1-14",
+   "status": "fixed differently, accepted",
+   "note": "Dropping the evidence remark is better than my wording, which still had the project talking about its own holdings. 'Cluny kept the Rule of Benedict. The Carolingian reform had pressed that Rule on Frankish monks.' claims only what the Inferential-Thin link carries. The Cistercian 'may have' is correctly held under the standard-history escalation."
+  },
+  {
+   "finding": "R1-15",
+   "status": "fixed",
+   "note": "Both stubs are rewritten without internal words. 'Anglo-Norman invasion' is more accurate than my 'English invasion' for 1169."
+  },
+  {
+   "finding": "R1-16",
+   "status": "fixed",
+   "note": "The paulicians, Macedonian and Heraclian summaries are recast as sentences, and the cataloguing fragments are gone. The Bagratid summary is correctly held for escalation 14. One sentence in the Heraclian recast tightens a claim: R2-02."
+  },
+  {
+   "finding": "R1-17",
+   "status": "fixed",
+   "note": "The new legacy opens 'Historians trace the movement on into the Bogomils of the Balkans in the 1100s and 1200s.' It also drops the parallel 'continued in the Balkans for centuries'. The other sentences are reworded only, and no fact changes."
+  },
+  {
+   "finding": "R1-18",
+   "status": "fixed",
+   "note": "The Iviron note gives both datings and attributes 976 to Brosset (2896-2898). As flagged, the 980-983 dating has no vendored source; it is the Georgian entry's own prose, offered as another dating. That is acceptable. The iconophile-Athonite note now reads 'No source shows Athos's founders taking up the Stoudite way, so this line is thin.'"
+  }
+ ],
+ "theodosius_canon": "This is a fair primary for the facts leg of Widely Accepted, and the quotes show it. At Assemani BO III.2, lines 34466-34485, Trigault quotes the Summa canonum synodalium (II.6.19, 'decimo nono' in the OCR as 'decimo tiono') under the heading 'Canon Theodosii Patriarchae in haec verba'. The canon names six sees that attend the patriarch every fourth year. It then says that 'reliqui Metropolitae Chinae, Indiae, Persidis ... qui longissime absunt' must send 'literas consensionis (id est, communionis)' to the patriarch 'semel sexto quoque anno'. That is a metropolitan of India under the patriarch in the 850s. The note's 'write to him every six years' renders that fairly. This differs from Herberstein in kind. The text claims to give the canon 'in haec verba', not to retell events, and a canon kept in Abdisho's collection is how East Syriac synodal law survives. The chain also passes through a Latin translation (Trigault, quoted by Assemani), which is why it is right that it carries only Widely Accepted, not Documented. Mingana 1694-1696 independently has Theodosius naming 'the Archbishops of Samarkand, India, and China'. One small point: Mingana's OCR gives his years as 'A.D. 832-858' (probably 852), while the work field says 853-858. The note says only 'in the 850s', which both support, so this is not a finding.",
+ "new_findings": [
+  {
+   "id": "R2-01",
+   "target": "scandinavian-conversion-christianity--scandinavian-reformation-kingdoms (note, third sentence)",
+   "severity": "minor",
+   "issue": "The note says 'a church council at Uppsala backed him in 1530'. Anjou says only 'the council, which, in 1530, sat at Upsala'. Elsewhere he shows that this same council of Uppsala in 1530 resolved to take the second-largest bell of every church to pay the foreign debt. That is a meeting of the realm, not a church council. The word 'church' is not in the source.",
+   "evidence": "cic/texts/anjou_history-of-the-reformation-in-sweden_mason1859.txt 11667-11670 ('the recognition of the council, which, in 1530, sat at Upsala'); 11349-11351 ('At the council of Upsala, in 1530, it was resolved that, for the payment of the foreign debt, the second largest bell of every church ... should be taken').",
+   "proposed_exact_fix": "In the note, replace 'and a church council at Uppsala backed him in 1530.' with 'and the council that met at Uppsala in 1530 backed him.' (Rescored: FRE 65.4, FK 7.7.)"
+  },
+  {
+   "id": "R2-02",
+   "target": "byzantine-imperial-church-heraclian-iconoclast.relationsSummary (second sentence)",
+   "severity": "minor",
+   "issue": "The recast sentence 'his compromise on the will of Christ failed against the stand of Maximus the Confessor' makes Maximus the cause of the compromise's failure. The old summary listed them side by side ('the monothelete compromise and its collapse, Maximus the Confessor's resistance'), and the revision says it added no fact. The compromise was given up at the council of 680-681, years after Maximus's death. His resistance mattered, but 'failed against' says more than the old text did.",
+   "evidence": "Revision_Round1.json prose_changes, byzantine-imperial-church-heraclian-iconoclast relationsSummary, old against new text, and the reason 'Every fact is the old summary's or the movement's own why'.",
+   "proposed_exact_fix": "Replace 'Heraclius fought his wars, and his compromise on the will of Christ failed against the stand of Maximus the Confessor.' with 'Heraclius fought his wars and sought a compromise on the will of Christ. Maximus the Confessor stood against it, and it later collapsed.' (Rescored summary: FRE 64.0, FK 6.7.)"
+  },
+  {
+   "id": "R2-03",
+   "target": "era-4 README (not yet written)",
+   "severity": "minor",
+   "issue": "R1-02 asked that the Herberstein rule be recorded in the README. The revision states the rule: 'a sixteenth- or seventeenth-century retelling (Herberstein 1549, Kyiv Synopsis 1674) is not a primary for ninth- or tenth-century events'. It now decides six links: the two Kievan ones, the two Macedonian ones, and the two Indian ones, where it excluded the post-1580 Malabar chronicle. Its partner distinction is used for both Theodosius links: a canon's own text, kept in its collection, counts as a primary. Neither is written down yet, and the era-4 folder has no README so far. That is expected before the data release, but the rule should not live only in this revision file.",
+   "evidence": "Revision_Round1.json fixes R1-02 and R1-03, and escalation 4; Build/Ministry/Operations/Audits/2026-11-07_links-era-4/ (no README.md).",
+   "proposed_exact_fix": "When the era-4 README is written, add under method rulings: 'A later retelling (for example Herberstein 1549, the Kyiv Synopsis 1674, the post-1580 Malabar chronicle) is not a primary for ninth- or tenth-century events; it may stand as a secondary. A canon or document given in its own words in a later collection (for example the canon of Theodosius, 853-858, in Abdisho's collection as printed by Assemani) is a primary, graded no higher than Widely Accepted when it reaches us only in translation.' Mark it as open to Mark's ruling (escalation 4)."
+  }
+ ],
+ "escalations_view": [
+  "1 (standard history with no vendored text): needs Mark; still the same open rule as era-2 escalation 3. The holding forms are sound: 'are known for' at late Anglo-Saxon, the Cistercian 'may have', and the removed Benedictine link listed in wants.",
+  "2 (Dominant Modern Reconstruction on old secondaries): needs Mark (method). After R1-02 the four Slavic links are consistent with one another, which was the substantial point. Whether the label fits 1814-1838 retellers is the open question I raised in round 1.",
+  "3 (Scandinavian structure): needs Mark. As rewritten, the link is honest Inferential-Thin: it names Skara on both sides, states the Danish break, and admits the four-century gap. It can stand in the meantime, once R2-01 is applied.",
+  "4 (East Syriac canon transmission): my view is that the distinction holds. See 'theodosius_canon'. Mark may still rule on it, but neither Theodosius link needs to fall to Dominant Modern Reconstruction pending that ruling.",
+  "5 (Bagratid and Albania): holding is correct; the ruling belongs to escalation 14."
+ ],
+ "checked": "Revision_Round1.json (18 fixes, 14 links, 12 prose changes, 5 escalations) against Opus_Review_Round1.json R1-01 to R1-18. In cic-website/data/world-census.json, all 13 kept or rewritten links match the revision exactly in type, confidence, note, sources, citation_specificity and verification_state. The removed link is absent from the census, from origin/main and from cft-website. All 12 prose changes match the census field exactly, and each old text is gone. I checked every primary and quoted secondary quote against its file and lines, with whitespace joined: 44 quotes, all verbatim (scratchpad review2/chk.py). I opened the context of each new or changed citation: assemani 34440-34500; mingana 1680-1700, 2210-2262, 3525-3536, 3850-3900; cathay 11050-11065; anjou 985-1000, 11345-11355, 11650-11675, 14075-14092, 14160-14172; ordinatio 3395-3415; racki 810-860; evans 1096-1106; herberstein 7868-7880, 8280-8290; mouravieff 900-909, 1494-1500, 1538-1568; brosset 2963-2970. I confirmed the repo citations of Obolensky and Stoyanov (bogomils sources in the census). I checked movement windows for the date-sensitive links (St Thomas 849-1054 and 1300-1517; Abbasids 845-1220; Scandinavian 826-1104 and 1527-1650). I scored all 13 notes with engine.m7.turn_readability.score_turn: FRE 60.9-68.6, FK 6.8-8.3, all passing. `node tools/validate-census.mjs` gives 300 movements, 266 edges, 0 errors and 2 warnings (shortName length, era 1-2). Not run: --tree, since the tree pages have not been regenerated."
+}

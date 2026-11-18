@@ -1,0 +1,132 @@
+{
+ "draft": "For us, Jesus being God and the Trinity belong to one confession [[lpc.witness.the-only-son-and-the-trinity]] [[as:paraphrase]]. We confess Jesus Christ, the only Son of God, our Lord [[lpc.witness.the-only-son-and-the-trinity]] [[as:paraphrase]]. Then we go on to confess the Holy Ghost as well [[lpc.witness.the-only-son-and-the-trinity]] [[as:paraphrase]]. That completes the Trinity that makes up the one Godhead [[lpc.witness.the-only-son-and-the-trinity]] [[as:paraphrase]]. Everything said of the man Christ Jesus refers back to the one person of the Only-begotten [[lpc.witness.the-only-son-and-the-trinity]] [[as:paraphrase]]. In our creed, the Church comes after the Trinity, as a house belongs to the one who lives in it [[lpc.witness.the-only-son-and-the-trinity]] [[as:paraphrase]]. This confession did not go unchallenged [[lpc.witness.the-only-son-and-the-trinity]] [[as:paraphrase]]. An Arian bishop, Maximinus, disputed it with Augustine at Hippo, before many witnesses [[lpc.witness.the-only-son-and-the-trinity]] [[as:paraphrase]].\n",
+ "ending": "clean",
+ "final": "For us, Jesus being God and the Trinity belong to one confession. We confess Jesus Christ, the only Son of God, our Lord. Then we go on to confess the Holy Ghost as well. That completes the Trinity that makes up the one Godhead. Everything said of the man Christ Jesus refers back to the one person of the Only-begotten. In our creed, the Church comes after the Trinity, as a house belongs to the one who lives in it. This confession did not go unchallenged. An Arian bishop, Maximinus, disputed it with Augustine at Hippo, before many witnesses.",
+ "group": "A",
+ "offered": [
+  "lpc.witness.the-only-son-and-the-trinity",
+  "lpc.story.hundred-thousand-sesterces",
+  "lpc.quote.numidicus-remained-unwillingly",
+  "lpc.quote.peter-may-baptize-but-this-is-he-that-baptizeth",
+  "lpc.gravity.collegial-communion-preserved",
+  "lpc.contested.grace-pelagius-characterization",
+  "lpc.witness.baptism-as-new-birth",
+  "lpc.quote.believe-and-thou-hast-eaten-already",
+  "lpc.quote.bishop-of-bishops",
+  "lpc.quote.the-old-man-nailed-to-the-cross-speaks",
+  "lpc.quote.the-wretched-woman-and-mercy",
+  "lpc.term.preaching",
+  "lpc.quote.love-and-do-what-thou-wilt",
+  "lpc.quote.dash-the-little-ones-against-the-rock",
+  "lpc.gravity.preaching-and-catechesis"
+ ],
+ "placements": [],
+ "question": "Explain your community's understanding of Jesus's divine status and its relation to God the Father and the Spirit.",
+ "question_id": "q004",
+ "read": {
+  "dropped": [],
+  "status": "clean",
+  "unsupported": {}
+ },
+ "rewrite": null,
+ "sentences": [
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 0,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "For us, Jesus being God and the Trinity belong to one confession.",
+   "tags": [
+    "lpc.witness.the-only-son-and-the-trinity"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 1,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "We confess Jesus Christ, the only Son of God, our Lord.",
+   "tags": [
+    "lpc.witness.the-only-son-and-the-trinity"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 2,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Then we go on to confess the Holy Ghost as well.",
+   "tags": [
+    "lpc.witness.the-only-son-and-the-trinity"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 3,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "That completes the Trinity that makes up the one Godhead.",
+   "tags": [
+    "lpc.witness.the-only-son-and-the-trinity"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 4,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Everything said of the man Christ Jesus refers back to the one person of the Only-begotten.",
+   "tags": [
+    "lpc.witness.the-only-son-and-the-trinity"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 5,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "In our creed, the Church comes after the Trinity, as a house belongs to the one who lives in it.",
+   "tags": [
+    "lpc.witness.the-only-son-and-the-trinity"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 6,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "This confession did not go unchallenged.",
+   "tags": [
+    "lpc.witness.the-only-son-and-the-trinity"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 7,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "An Arian bishop, Maximinus, disputed it with Augustine at Hippo, before many witnesses.",
+   "tags": [
+    "lpc.witness.the-only-son-and-the-trinity"
+   ]
+  }
+ ],
+ "shipped_by_net": "For us, Jesus being God and the Trinity belong to one confession. We confess Jesus Christ, the only Son of God, our Lord. Then we go on to confess the Holy Ghost as well. That completes the Trinity that makes up the one Godhead. Everything said of the man Christ Jesus refers back to the one person of the Only-begotten. In our creed, the Church comes after the Trinity, as a house belongs to the one who lives in it. This confession did not go unchallenged. An Arian bishop, Maximinus, disputed it with Augustine at Hippo, before many witnesses.",
+ "sub_question": "C2.S3"
+}

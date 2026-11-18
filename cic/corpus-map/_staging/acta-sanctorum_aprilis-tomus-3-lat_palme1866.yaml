@@ -1,0 +1,20 @@
+source_file: acta-sanctorum_aprilis-tomus-3-lat_palme1866.txt
+assignments:
+- row_id: acta-sanctorum_aprilis-tomus-3-lat_palme1866--life-of-robert-of-molesme-acta-sanctorum-april-iii
+  work: 'Life of Robert of Molesme, Acta Sanctorum April III'
+  author: robert-molesme
+  locus: 'about OCR lines 152877-155900; add 12 to OCR line numbers'
+  atlas_ids:
+  - cistercian-monasticism
+  role: tradition
+  confidence: assigned
+  note: "The same Life as in PL 157, in the Bollandists' printing; that copy reads more cleanly. It is Molesme's telling, not Cîteaux's, and later than Robert."
+- row_id: acta-sanctorum_aprilis-tomus-3-lat_palme1866--raymond-of-capua-life-of-catherine-of-siena-legenda-maior
+  work: 'Raymond of Capua, Life of Catherine of Siena (Legenda maior), Acta Sanctorum April III'
+  author: acta-sanctorum
+  locus: 'from about OCR line 193213; add 12 to OCR line numbers'
+  atlas_ids:
+  - latin-papal-church-avignon-to-lateran-v
+  role: tradition
+  confidence: assigned
+  note: "Her confessor's Life, the Dominican order's own account of her. Not read in depth. Catherine of Siena's Who profile sits on this entry."

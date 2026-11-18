@@ -1,0 +1,163 @@
+{
+ "draft": "What a dull reader misses is the Logos speaking now, through the text, to a soul formed to hear [[alx.term.scripture-as-address]] [[as:paraphrase]]. We did not hear Scripture as only a record of what God once said [[alx.term.scripture-as-address]] [[as:paraphrase]]. Read at depth, Scripture is the main instrument by which we form people, so the reader is transformed by the reading, not merely informed [[alx.gravity.scripture-formative]] [[as:paraphrase]].\n\nWe read at more than one level: the plain sense, and deeper senses about Christ and the soul [[alx.term.allegoria]] [[as:paraphrase]]. Allegoria was contested within Egypt itself, and its systematic form is concentrated in Origen [[alx.term.allegoria]] [[as:paraphrase]].\n\nOrigen, in Philocalia I.11, wrote: [[quote:alx.quote.origen-scripture-senses]]\n\nReading at every level is a way of listening to the Logos, not a technique [[alx.term.christological-reading]] [[as:paraphrase]]. God is always teaching, through Scripture's difficulty, through catechesis, and through suffering [[alx.gravity.divine-pedagogy]] [[as:paraphrase]]. The knowing we sought was knowledge of God that changes the knower, not facts about God [[alx.term.gnosis]] [[as:paraphrase]]. Our claim that Scripture formed people is confirmed for the literate-attested ecology only, and its wider reach is held open [[alx.gravity.scripture-formative]] [[as:paraphrase]].\n",
+ "ending": "clean",
+ "final": "What a dull reader misses is the Logos speaking now, through the text, to a soul formed to hear. We did not hear Scripture as only a record of what God once said. Read at depth, Scripture is the main instrument by which we form people, so the reader is transformed by the reading, not merely informed.\n\nWe read at more than one level: the plain sense, and deeper senses about Christ and the soul. Allegoria was contested within Egypt itself, and its systematic form is concentrated in Origen.\n\nOrigen, in Philocalia I.11, wrote: “Just as a human being consists of body, soul and spirit, so too does Scripture. God granted it for the salvation of humankind.”\n\nReading at every level is a way of listening to the Logos, not a technique. God is always teaching, through Scripture's difficulty, through catechesis, and through suffering. The knowing we sought was knowledge of God that changes the knower, not facts about God. Our claim that Scripture formed people is confirmed for the literate-attested ecology only, and its wider reach is held open.",
+ "group": "A",
+ "offered": [
+  "alx.dw.one-church",
+  "alx.term.allegoria",
+  "alx.term.scripture-as-address",
+  "alx.story.arsinoite-conference",
+  "alx.quote.origen-scripture-senses",
+  "alx.gravity.scripture-formative",
+  "alx.gravity.divine-pedagogy",
+  "alx.term.christological-reading",
+  "alx.term.gnosis",
+  "alx.quote.origen-gospel-firstfruits",
+  "alx.quote.athanasius-fountains",
+  "alx.force.septuagint-inheritance"
+ ],
+ "placements": [
+  {
+   "decision": "keep",
+   "judgement": {
+    "fit": "fits",
+    "limit_stated": true,
+    "reason": "It says Scripture has body, soul and spirit, pointing to depth the reader may miss."
+   },
+   "record_id": "alx.quote.origen-scripture-senses"
+  }
+ ],
+ "question": "A modern reader finds the scriptures confusing or dull - what would you say they are missing?",
+ "question_id": "q011",
+ "read": {
+  "dropped": [],
+  "status": "clean",
+  "unsupported": {}
+ },
+ "rewrite": null,
+ "sentences": [
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 0,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "What a dull reader misses is the Logos speaking now, through the text, to a soul formed to hear.",
+   "tags": [
+    "alx.term.scripture-as-address"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 1,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "We did not hear Scripture as only a record of what God once said.",
+   "tags": [
+    "alx.term.scripture-as-address"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 2,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Read at depth, Scripture is the main instrument by which we form people, so the reader is transformed by the reading, not merely informed.",
+   "tags": [
+    "alx.gravity.scripture-formative"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 3,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "We read at more than one level: the plain sense, and deeper senses about Christ and the soul.",
+   "tags": [
+    "alx.term.allegoria"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 4,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Allegoria was contested within Egypt itself, and its systematic form is concentrated in Origen.",
+   "tags": [
+    "alx.term.allegoria"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": null,
+   "n": 5,
+   "placed": true,
+   "placed_id": "alx.quote.origen-scripture-senses",
+   "reason": "placed by code",
+   "sentence": "Origen, in Philocalia I.11, wrote: “Just as a human being consists of body, soul and spirit, so too does Scripture. God granted it for the salvation of humankind.”",
+   "tags": [
+    "alx.quote.origen-scripture-senses"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 6,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Reading at every level is a way of listening to the Logos, not a technique.",
+   "tags": [
+    "alx.term.christological-reading"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 7,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "God is always teaching, through Scripture's difficulty, through catechesis, and through suffering.",
+   "tags": [
+    "alx.gravity.divine-pedagogy"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 8,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "The knowing we sought was knowledge of God that changes the knower, not facts about God.",
+   "tags": [
+    "alx.term.gnosis"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 9,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Our claim that Scripture formed people is confirmed for the literate-attested ecology only, and its wider reach is held open.",
+   "tags": [
+    "alx.gravity.scripture-formative"
+   ]
+  }
+ ],
+ "shipped_by_net": "What a dull reader misses is the Logos speaking now, through the text, to a soul formed to hear. We did not hear Scripture as only a record of what God once said. Read at depth, Scripture is the main instrument by which we form people, so the reader is transformed by the reading, not merely informed.\n\nWe read at more than one level: the plain sense, and deeper senses about Christ and the soul. Allegoria was contested within Egypt itself, and its systematic form is concentrated in Origen.\n\nOrigen, in Philocalia I.11, wrote: “Just as a human being consists of body, soul and spirit, so too does Scripture. God granted it for the salvation of humankind.”\n\nReading at every level is a way of listening to the Logos, not a technique. God is always teaching, through Scripture's difficulty, through catechesis, and through suffering. The knowing we sought was knowledge of God that changes the knower, not facts about God. Our claim that Scripture formed people is confirmed for the literate-attested ecology only, and its wider reach is held open.",
+ "sub_question": "C5.S2"
+}

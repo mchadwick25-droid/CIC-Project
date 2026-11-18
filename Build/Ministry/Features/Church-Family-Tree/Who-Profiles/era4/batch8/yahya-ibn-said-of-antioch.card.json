@@ -1,0 +1,73 @@
+{
+  "name": "Yahya ibn Said of Antioch",
+  "otherNames": [
+    "Yahya, son of Sa'id, of Antioch",
+    "Yahya al-Antaki (his editors)",
+    "Yahia (Gustave Schlumberger, as Frédéric Macler quotes him)"
+  ],
+  "knownFor": "An Arab Christian historian who carried on the history of Sa'id ibn Bitriq, patriarch of Alexandria, from 937. His history follows the patriarchs, caliphs and emperors of his time.",
+  "dates": "Eleventh century, in his editors' words. He moved to Antioch in the Arab year 405, which his editors give as 1014 to 1015. No source used here gives his birth or death",
+  "place": "Antioch, from 1014 or 1015. No source used here says where he lived before",
+  "tradition": "Melkite Arabic Christianity",
+  "role": "Historian; continuer of the history of Sa'id ibn Bitriq",
+  "briefLength": "about 2 minutes 15 seconds",
+  "keyWorks": [
+    {
+      "title": "History, a sequel to the history of Sa'id ibn Bitriq",
+      "about": "in Arabic. It runs from 937, where Sa'id stops, and names the patriarchs of Alexandria, Jerusalem, Antioch and Constantinople. The part used here runs to about 970, in the French of I. Kratchkovsky and A. Vasiliev"
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "His preface says he revised the history twice, the second time after moving to Antioch. He set this down so that readers would know why copies differ.",
+      "His editors list three main manuscripts, in a long, a short and a mixed version.",
+      "He records the death of the patriarch John of Jerusalem in 966, and the burning of the Church of the Resurrection."
+    ],
+    "remembered": [
+      "Frédéric Macler quotes Gustave Schlumberger's history of Byzantium in the tenth century. Schlumberger says eastern historians such as Yahya were almost always very exactly informed about Asia.",
+      "Schlumberger says Yahya's chronicle has only lately shown that one campaign of the emperor Basil II in Bulgaria lasted four whole years. It ran from about 991 to 995.",
+      "A. Vasiliev notes that K. Krumbacher's history of Byzantine literature gives Yahya of Antioch a place, among the Arab Christian chroniclers."
+    ]
+  },
+  "uncertain": [
+    "His preface is all the sources used here give of his life. None gives his birth or his death. Of his family, only his father's name, Sa'id, is in his title.",
+    "Where he lived before Antioch. His preface says only that he moved to Antioch in the Arab year 405.",
+    "Whom he wrote for. He says he wrote for someone who asked him to, and does not give the name.",
+    "The text used here. It runs to about 970. The rest of his history is not among the sources used here.",
+    "His Arabic. The Arabic in this scan cannot be read, so his words are read in his editors' French."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "Histoire de Yahya-ibn-Sa'id d'Antioche, continuateur de Sa'id-ibn-Bitriq (Patrologia Orientalis 18), preface and history",
+        "author": "Yahya ibn Said; I. Kratchkovsky and A. Vasiliev (ed. and tr.)",
+        "date": "1924",
+        "language": "Arabic, with French translation",
+        "file": "cic/texts/po18_patrologia-orientalis-t18-yahya-ibn-said-histoire-ara-fra_kratchkovsky-vasiliev1924.txt"
+      }
+    ],
+    "about": [
+      {
+        "title": "Avant-propos to the same edition",
+        "author": "I. Kratchkovsky and A. Vasiliev",
+        "date": "1924",
+        "language": "French",
+        "file": "cic/texts/po18_patrologia-orientalis-t18-yahya-ibn-said-histoire-ara-fra_kratchkovsky-vasiliev1924.txt"
+      },
+      {
+        "title": "Histoire universelle par Étienne Asolik de Tarôn, notes",
+        "author": "Frédéric Macler (tr.), quoting Gustave Schlumberger",
+        "date": "1917",
+        "language": "French",
+        "file": "cic/texts/stepanos-taron_histoire-universelle-deuxieme-partie-fra_macler1917.txt"
+      },
+      {
+        "title": "Agapius of Manbij, Kitab al-Unvan, introduction (Patrologia Orientalis 5)",
+        "author": "A. Vasiliev",
+        "date": "1910",
+        "language": "French",
+        "file": "cic/texts/chronicle-of-seert_histoire-nestorienne-premiere-partie-fasc2-patrologia-orientalis-5-ara-fra_scher-dib1910.txt"
+      }
+    ]
+  }
+}

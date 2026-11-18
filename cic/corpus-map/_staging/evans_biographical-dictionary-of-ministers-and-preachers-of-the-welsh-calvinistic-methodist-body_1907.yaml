@@ -1,0 +1,21 @@
+source_file: evans_biographical-dictionary-of-ministers-and-preachers-of-the-welsh-calvinistic-methodist-body_1907.txt
+assignments:
+- row_id: evans_biographical-dictionary-of-ministers-and-preachers-of-the-welsh-calvinistic-methodist-body_1907--biographical-dictionary-of-ministers-and-preachers-of-the
+  work: Biographical Dictionary of Ministers and Preachers of the Welsh Calvinistic Methodist Body or Presbyterians
+  author: evans
+  locus: entry for Jones, Rev Thomas, Khassia, at lines 19884-19971; the rest not mapped
+  atlas_ids:
+  - northeast-india-revivals-and-the-mar-thoma-refor
+  role: context
+  confidence: provisional
+  language: eng
+  date:
+    start: 1907
+    end: 1907
+    source: 'the printing''s own title page: read on the scan''s page image, leaf n9; the OCR does not give it cleanly'
+    formation_confidence: Documented
+  edition_date:
+    year: 1907
+    source: read on the scan's page image, leaf n9; the OCR does not give it cleanly
+    formation_confidence: Documented
+  note: 'Era 9 row 303, Thomas Jones: an entry in a Welsh biographical dictionary.'

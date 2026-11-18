@@ -1,0 +1,100 @@
+{
+ "round": 1,
+ "applies": "Opus_Review_Round1.json",
+ "changes": [
+  {
+   "rid": "R1-01",
+   "applied": "reviewer note as written"
+  },
+  {
+   "rid": "R1-02",
+   "applied": "added russian-church-stoglav-to-nikon--the-old-believers--2 (gave rise to, Documented) with the four sources, specificity and verification state of era 8 Final.json, and the reviewer's note (John Neronov). The Old Believers summary is left to its owner."
+  },
+  {
+   "rid": "R1-03",
+   "applied": "reviewer note as written"
+  },
+  {
+   "rid": "R1-04",
+   "applied": "reviewer sentence and widened Frere-Douglas lines 1100-1104 as written"
+  },
+  {
+   "rid": "R1-05",
+   "applied": "Pollen lines 15387-15388 added as written"
+  },
+  {
+   "rid": "R1-06",
+   "applied": "Sotelo lines 6914 and 6920 added as written"
+  },
+  {
+   "rid": "R1-07",
+   "applied": "reviewer sentence as written"
+  },
+  {
+   "rid": "R1-08",
+   "applied": "presbyter -> priest as written"
+  },
+  {
+   "rid": "R1-09",
+   "applied": "cursed -> condemned as written"
+  },
+  {
+   "rid": "R1-10",
+   "applied": "Rainier -> Rainerius. The plain swap scored FRE 59.3, so the opening was split: \"Rainerius Sacconi was an Italian inquisitor. About 1250 he wrote that all the Cathar churches came from two in the east. He named them as Bulgaria and Dugunthia.\" Facts unchanged."
+  },
+  {
+   "rid": "R1-11",
+   "applied": "Blackmore 1842 source on the Alaskan link relabeled secondary"
+  }
+ ],
+ "readability": [
+  {
+   "id": "palestinian-church-pre-constantinian--jerusalem-liturgical-pilgrimage-christianity",
+   "field": "note",
+   "fre": 62.8,
+   "fk": 7.7
+  },
+  {
+   "id": "russian-church-stoglav-to-nikon--the-old-believers--2",
+   "added": true,
+   "fre": 65.6,
+   "fk": 7.2
+  },
+  {
+   "id": "bardaisanite-current--syriac-edessa-nisibis",
+   "field": "note",
+   "fre": 60.3,
+   "fk": 7.2
+  },
+  {
+   "id": "the-reformed-cities-zurich-and-geneva--the-english-reformation-and-elizabethan-settleme",
+   "field": "note",
+   "fre": 63.2,
+   "fk": 8.9
+  },
+  {
+   "id": "byzantine-church-after-1054--balkan-bogomil-continuation",
+   "field": "note",
+   "fre": 61.7,
+   "fk": 7.8
+  },
+  {
+   "id": "antiochene-church-third-century--antiochene-exegetical-christianity-chrysostom-ce",
+   "field": "note",
+   "fre": 67.7,
+   "fk": 7.3
+  },
+  {
+   "id": "imperial-juridical-christianity--apollinarian-christianity",
+   "field": "note",
+   "fre": 68.0,
+   "fk": 6.4
+  },
+  {
+   "id": "balkan-bogomil-continuation--cathars-albigensians",
+   "field": "note",
+   "fre": 62.6,
+   "fk": 7.1
+  }
+ ]
+}

@@ -1,0 +1,398 @@
+{
+ "round": 2,
+ "fixes": [
+  {
+   "finding": "R2-01",
+   "what": "Era-6 pair link dropped and held for P2-L6; new Documented link the-franciscan-movement influenced observant-reform-and-popular-preaching; Franciscan summary sentence replaced.",
+   "agreed_with_reviewer": true
+  },
+  {
+   "finding": "R2-02",
+   "what": "All 17 places applied as written (16; item 7 lapses with the dropped era-6 link).",
+   "agreed_with_reviewer": true
+  },
+  {
+   "finding": "R2-03",
+   "what": "Waldensian summary replaced as written.",
+   "agreed_with_reviewer": true
+  },
+  {
+   "finding": "R2-04",
+   "what": "The disposition item is not carried into Open-Gaps.",
+   "agreed_with_reviewer": true
+  }
+ ],
+ "links": [
+  {
+   "id": "the-dominican-order--the-carmelites",
+   "from": "the-dominican-order",
+   "to": "the-carmelites",
+   "type": "influenced",
+   "confidence": "Inferential-Thin",
+   "note": "In 1247 the pope sent two men to revise the Carmelite rule. They were Hugh, a cardinal, and William, bishop of Tortosa. The editor of Teresa's Foundations says both were Dominicans. Their letter calls the Carmelites friars, while the pope's own letter still calls them hermits. Neither letter says that the Dominicans shaped the order. So this tie is thin.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Hugh of Saint-Cher and William of Tortosa, letter to the Carmelites with the revised Rule (1247), in Innocent IV's confirmation, trans. Lewis (1913)",
+     "file": "cic/texts/teresa-of-avila_book-of-foundations_lewis1913.txt",
+     "lines": "22021-22023",
+     "locus": "the delegates' letter, salutation",
+     "quote": "Friar Hugh, by the Divine compassion cardinal priest of Santa Sabina, and friar William, by the same compas- sion bishop of Tortosa,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "same letter",
+     "file": "cic/texts/teresa-of-avila_book-of-foundations_lewis1913.txt",
+     "lines": "22024-22026",
+     "locus": "the delegates' letter, salutation",
+     "quote": "the prior-general and the definitors of the general chapter of the order of the friars of blessed Mary of Mount Carmel,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Innocent IV, letter of confirmation of the revised Carmelite Rule (1247), salutation, trans. Lewis (1913)",
+     "file": "cic/texts/teresa-of-avila_book-of-foundations_lewis1913.txt",
+     "lines": "21980-21983",
+     "locus": "Innocent IV's confirmation, salutation",
+     "quote": "Innocent, bishop, servant of the servants of God, to His beloved children the prior and brethren, hermits of blessed Mary of Mount Carmel, health and the apostolic blessing.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "work": "Benedict Zimmerman, note to the Rule, in The Book of the Foundations (1913)"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "action": "rewrite",
+   "change_reason": "R2-02: internal wording (\"we hold\") replaced; Reading Ease 63.5"
+  },
+  {
+   "id": "byzantine-church-after-1054--latin-papal-church-gregorian--2",
+   "from": "byzantine-church-after-1054",
+   "to": "latin-papal-church-gregorian",
+   "type": "in contact with",
+   "confidence": "Widely Accepted",
+   "note": "At the Second Council of Lyon in 1274, the Greek side made a profession of faith. In it they accepted the full primacy of the Roman church. Its 1911 editor says Pope Clement IV first put the text to Emperor Michael VIII in 1267. Michael then offered it to Pope Gregory X at Lyon. The profession does not show how the Greek church received the union.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Profession of faith of Michael VIII Palaiologos (1274), in Denzinger, Enchiridion symbolorum, ed. Bannwart (1911), on the Roman primacy",
+     "file": "cic/texts/denzinger_enchiridion-symbolorum-lat_bannwart1911.txt",
+     "lines": "14629-14632",
+     "locus": "Denzinger no. 466",
+     "quote": "quem se ab ipso Domino in beato PETRO Apostolorum principe sive vertice, cuius Romanus Pontifex est successor, cum potestatis plenitudine recepisse veraciter et humiliter recognoscit.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "First Vatican Council, Pastor aeternus, ch. 4 (1870), on the Greeks' profession at Lyon, in Schaff, The Creeds of Christendom, vol. 2 (1878), English",
+     "file": "cic/texts/schaff_creeds-of-christendom-v2-greek-latin-creeds_1878.txt",
+     "lines": "23524-23530",
+     "locus": "Pastor aeternus, ch. 4",
+     "quote": "with the approval of the Second Council of Lyons, the Greeks professed that the holy Roman Church enjoys su- preme and full primacy and pre- eminence over the whole Catholic Church,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "work": "Clemens Bannwart (ed.), Denzinger, Enchiridion symbolorum, 11th ed. (1911), heading and note to nos. 461-466 (the profession of Michael VIII)"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "action": "rewrite",
+   "change_reason": "R2-02: internal wording (\"we hold\") replaced; Reading Ease 75.9"
+  },
+  {
+   "id": "athonite-and-comnenian-byzantine-monasticism--kievan-rus-christianity-1054-1240",
+   "from": "athonite-and-comnenian-byzantine-monasticism",
+   "to": "kievan-rus-christianity-1054-1240",
+   "type": "influenced",
+   "confidence": "Dominant Modern Reconstruction",
+   "note": "A. N. Mouravieff's history of the Russian church, published in 1838, says Anthony took his vows on Mount Athos. He then came home and began the Caves Monastery at Kyiv. The same history says the house's rule came from the Stoudios monastery in Constantinople. It names no earlier witness for the story.",
+   "sources": [
+    {
+     "kind": "secondary",
+     "work": "A. N. Mouravieff, A History of the Church of Russia (1838; English trans. Blackmore, 1842), ch. 1"
+    },
+    {
+     "kind": "secondary",
+     "work": "A. N. Mouravieff, A History of the Church of Russia (1838; English trans. Blackmore, 1842), ch. 1"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "action": "rewrite",
+   "change_reason": "R2-02: internal wording (\"we hold\") replaced; Reading Ease 62.2"
+  },
+  {
+   "id": "latin-church-of-outremer--maronite-christianity",
+   "from": "latin-church-of-outremer",
+   "to": "maronite-christianity",
+   "type": "in contact with",
+   "confidence": "Dominant Modern Reconstruction",
+   "note": "William of Tyre was archbishop of Tyre in the crusader kingdom. He wrote that the Maronites joined the Latin church around 1182. This rests on modern historians of the Maronites, not on his own text.",
+   "sources": [
+    {
+     "kind": "secondary",
+     "work": "Matti Moosa, The Maronites in History (Syracuse University Press, 1986; repr. Gorgias 2005)"
+    },
+    {
+     "kind": "secondary",
+     "work": "Kamal Salibi, Maronite Historians of Mediaeval Lebanon (Beirut, 1959)"
+    }
+   ],
+   "citation_specificity": "C",
+   "verification_state": "named-not-rechecked",
+   "action": "rewrite",
+   "change_reason": "R2-02: internal wording (\"we hold\") replaced; Reading Ease 65.9"
+  },
+  {
+   "id": "early-benedictine-italian-monasticism--cistercian-monasticism",
+   "from": "early-benedictine-italian-monasticism",
+   "to": "cistercian-monasticism",
+   "type": "influenced",
+   "confidence": "Inferential-Thin",
+   "note": "The monks of Cîteaux set out to keep the Rule of St Benedict more plainly. No early Cistercian text quoted here says so in their own words. A 1907 editor of the Rule notes only that early Cistercian statutes, like the Rule, set times when monks might talk.",
+   "sources": [
+    {
+     "kind": "secondary",
+     "work": "D. Oswald Hunter Blair, note on the Rule's provisions for silence, in The Rule of St. Benedict (1907)"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "action": "rewrite",
+   "change_reason": "R2-02: internal wording (\"we hold\") replaced; Reading Ease 70.7"
+  },
+  {
+   "id": "iconophile-byzantine-monasticism--athonite-and-comnenian-byzantine-monasticism",
+   "from": "iconophile-byzantine-monasticism",
+   "to": "athonite-and-comnenian-byzantine-monasticism",
+   "type": "influenced",
+   "confidence": "Inferential-Thin",
+   "note": "The Philokalia calls Nicetas Stethatos a priest of the Stoudios monastery in Constantinople, the house of Theodore the Studite. It makes him the closest pupil of Symeon the New Theologian, around 1030. That ties Stoudios to Symeon's circle. But no source quoted here shows the monks of Athos drawing on the monks who fought for icons.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Philokalia ton hieron neptikon, vol. 2 (Athens, 1893), preface to Nicetas Stethatos",
+     "file": "cic/texts/philokalia_ton-ieron-neptikon-v2-grc_tzelatis1893.txt",
+     "lines": "23139-23144",
+     "locus": "vol. 2, life of Nicetas Stethatos",
+     "quote": "Ἰχήτας ὁ Ὁσιώτατος Πρεσόύτε-- ρος τῆς Στουδίων Μονῆς, ὁ хо! Στηθᾶτος ἐπιχαλούμενος, Ἦν ἐν ἔτει ἀπὸ Χριστοῦ χιλιοστῷ τρια- χοστῷ, μαθητὴς χρηματίσας Συ - μεὼν τοῦ νέου Θεολόγου",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "action": "rewrite",
+   "change_reason": "R2-02: internal wording (\"we hold\") replaced; Reading Ease 60.6"
+  },
+  {
+   "id": "byzantine-imperial-church-macedonian--athonite-and-comnenian-byzantine-monasticism",
+   "from": "byzantine-imperial-church-macedonian",
+   "to": "athonite-and-comnenian-byzantine-monasticism",
+   "type": "influenced",
+   "confidence": "Inferential-Thin",
+   "note": "Robert Curzon, an English visitor to Athos in the 1830s, cites an account from 1701: the Great Lavra 'was founded by Nicephorus Phocas', the emperor. This rests on that one late report. It is secondhand.",
+   "sources": [
+    {
+     "kind": "secondary",
+     "work": "Robert Curzon, Visits to Monasteries in the Levant (1849), chapter on the Great Lavra"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "action": "rewrite",
+   "change_reason": "R2-02: internal wording (\"we hold\") replaced; Reading Ease 63.5"
+  },
+  {
+   "id": "cistercian-monasticism--military-religious-orders-templars-hospitallers",
+   "from": "cistercian-monasticism",
+   "to": "military-religious-orders-templars-hospitallers",
+   "type": "influenced",
+   "confidence": "Dominant Modern Reconstruction",
+   "note": "Bernard of Clairvaux, the Cistercians' best-known abbot, wrote In Praise of the New Knighthood in defense of the Templars. He argued that a knight who killed in this cause was killing evil, not a man. This rests on the modern history of the order, not on Bernard's own text.",
+   "sources": [
+    {
+     "kind": "secondary",
+     "work": "Malcolm Barber, The New Knighthood: A History of the Order of the Temple (Cambridge University Press, 1994)"
+    }
+   ],
+   "citation_specificity": "C",
+   "verification_state": "named-not-rechecked",
+   "action": "rewrite",
+   "change_reason": "R2-02: internal wording (\"we hold\") replaced; Reading Ease 76.6"
+  },
+  {
+   "id": "latin-papal-church-gregorian--maronite-christianity",
+   "from": "latin-papal-church-gregorian",
+   "to": "maronite-christianity",
+   "type": "in contact with",
+   "confidence": "Dominant Modern Reconstruction",
+   "note": "In 1215 the Maronite patriarch Jeremiah al-Amshitti went to Rome for the Fourth Lateran Council. A papal bull then set out the terms of the union. This rests on modern historians of the Maronites, not on the bull or the council's acts.",
+   "sources": [
+    {
+     "kind": "secondary",
+     "work": "Matti Moosa, The Maronites in History (Syracuse University Press, 1986; repr. Gorgias 2005)"
+    },
+    {
+     "kind": "secondary",
+     "work": "Kamal Salibi, Maronite Historians of Mediaeval Lebanon (Beirut, 1959)"
+    }
+   ],
+   "citation_specificity": "C",
+   "verification_state": "named-not-rechecked",
+   "action": "rewrite",
+   "change_reason": "R2-02: internal wording (\"we hold\") replaced; Reading Ease 69.8"
+  },
+  {
+   "id": "iconophile-byzantine-monasticism--kievan-rus-christianity-1054-1240",
+   "from": "iconophile-byzantine-monasticism",
+   "to": "kievan-rus-christianity-1054-1240",
+   "type": "influenced",
+   "confidence": "Dominant Modern Reconstruction",
+   "note": "Theodosius, abbot of the Caves Monastery at Kyiv, gave his monks the rule of the Stoudios monastery in Constantinople. A Russian church history of 1838 says a monk who came with the new metropolitan, George, brought the rule from that city. The Kyiv texts it draws on are not quoted here.",
+   "sources": [
+    {
+     "kind": "secondary",
+     "work": "A. N. Mouravieff, A History of the Church of Russia (1838; trans. R. W. Blackmore, Oxford, 1842)"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "action": "rewrite",
+   "change_reason": "R2-02: internal wording (\"we hold\") replaced; Reading Ease 61.3"
+  },
+  {
+   "id": "kievan-rus-christianity--kievan-rus-christianity-1054-1240",
+   "from": "kievan-rus-christianity",
+   "to": "kievan-rus-christianity-1054-1240",
+   "type": "continued as",
+   "confidence": "Dominant Modern Reconstruction",
+   "note": "The Caves Monastery at Kyiv spans the year 1054. A Russian church history of 1838 says that the priest Hilarion, later the city's chief bishop, first prayed in a cave there. The hermit Anthony then settled in Hilarion's empty cave, and Theodosius later gave the growing community its rule. It draws on a Kyivan chronicle not quoted here.",
+   "sources": [
+    {
+     "kind": "secondary",
+     "work": "A. N. Mouravieff, A History of the Church of Russia (1838; trans. R. W. Blackmore, Oxford, 1842)"
+    },
+    {
+     "kind": "secondary",
+     "work": "A. N. Mouravieff, A History of the Church of Russia (1838; trans. R. W. Blackmore, Oxford, 1842)"
+    },
+    {
+     "kind": "secondary",
+     "work": "A. N. Mouravieff, A History of the Church of Russia (1838; trans. R. W. Blackmore, Oxford, 1842)"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "action": "rewrite",
+   "change_reason": "R2-02: internal wording (\"we hold\") replaced; Reading Ease 61.2"
+  },
+  {
+   "id": "the-franciscan-movement--observant-reform-and-popular-preaching",
+   "action": "new",
+   "from": "the-franciscan-movement",
+   "to": "observant-reform-and-popular-preaching",
+   "type": "influenced",
+   "confidence": "Documented",
+   "note": "In 1440 Pope Eugenius IV wrote of a hermitage in Spain where Franciscan friars lived. He said they lived under the observance of the Rule of blessed Francis. In 1438 he had confirmed Bernardino of Siena as head of the order's Observant houses in Italy. That letter says the houses were set up 'under the holy name of observance'.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Eugenius IV, letter to the abbot of Santa María de Carracedo, Florence, 28 August 1440, on the hermitage at Caboca de Alva, in Bullarium Franciscanum, Nova Series I, ed. Huntemann (1929), no. 485",
+     "file": "cic/texts/bullarium-franciscanum_nova-series-v1-lat_huntemann1929.txt",
+     "lines": "42614-42616",
+     "locus": "no. 485",
+     "quote": "in quo plures ex fratribus Minoribus sub observan- tia regulae beati Francisci degunt pro praesenti,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Eugenius IV, Ad futuram rei memoriam, Ferrara, 1 September 1438, confirming William of Casale's letter that made Bernardino of Siena vicar of the Observant houses, in Bullarium Franciscanum, Nova Series I, ed. Huntemann (1929), no. 385",
+     "file": "cic/texts/bullarium-franciscanum_nova-series-v1-lat_huntemann1929.txt",
+     "lines": "34650-34653",
+     "locus": "no. 385",
+     "quote": "Bernardinum de Senis, eiusdem ordinis profes- sorem, omnium et singularum domorum et con- ventuum Italiae dicti ordinis sub sacro observan- tiae nomine constitutarum ipsius vicarium fecit,",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "change_reason": "R2-01: replaces the era-6 pair link (out of scope); carries the era-5 Franciscan summary sentence on the Observants."
+  },
+  {
+   "id": "franciscan-order-era-6--observant-reform-and-popular-preaching",
+   "action": "drop",
+   "change_reason": "R2-01: both ends are era-6 movements, outside this pass; held for P2-L6 (logged in Open-Gaps)."
+  }
+ ],
+ "prose_changes": [
+  {
+   "n": 0,
+   "movement": "serbian-and-bulgarian-medieval-monasticism",
+   "field": "relationsSummary",
+   "old": "but no text we hold yet shows it.",
+   "new": "but no source here shows it.",
+   "reason": "R2-02: internal wording (\"we hold\") replaced"
+  },
+  {
+   "n": 1,
+   "movement": "coptic-christianity-fatimid-to-mamluk",
+   "field": "legacy",
+   "old": "may owe a debt to al-Safi's canons. No text we hold yet shows that line.",
+   "new": "may owe a debt to al-Safi's canons. No source quoted here shows that line.",
+   "reason": "R2-02: internal wording (\"we hold\") replaced"
+  },
+  {
+   "n": 2,
+   "movement": "serbian-and-bulgarian-medieval-monasticism",
+   "field": "longDescription",
+   "old": "No text we hold yet traces that road.",
+   "new": "No source quoted here traces that road.",
+   "reason": "R2-02: internal wording (\"we hold\") replaced"
+  },
+  {
+   "n": 3,
+   "movement": "serbian-and-bulgarian-medieval-monasticism",
+   "field": "why",
+   "old": "though no text we hold yet shows it.",
+   "new": "though no source quoted here shows it.",
+   "reason": "R2-02: internal wording (\"we hold\") replaced"
+  },
+  {
+   "n": 4,
+   "movement": "serbian-and-bulgarian-medieval-monasticism",
+   "field": "legacy",
+   "old": "No text we hold yet traces the route.",
+   "new": "No source quoted here shows the way it went.",
+   "reason": "R2-02: internal wording (\"we hold\") replaced"
+  },
+  {
+   "n": 5,
+   "movement": "the-franciscan-movement",
+   "field": "relationsSummary",
+   "old": "The Observants grew up later inside the same order.",
+   "new": "Later the Observants kept its rule to the letter.",
+   "reason": "R2-01"
+  },
+  {
+   "n": 6,
+   "movement": "the-waldensians",
+   "field": "relationsSummary",
+   "old": "Dissenters condemned in 1184. They held on in the Alpine valleys, and in 1532 they joined the Reformed churches.",
+   "new": "Dissenters condemned in 1184. They held on in the Alpine valleys. In 1532 the Waldensians there joined the Reformed churches. Scholars disagree about how far it was one unbroken line.",
+   "reason": "R2-03: the summary no longer states as unbroken a line its link holds Contested."
+  }
+ ]
+}

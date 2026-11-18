@@ -1,0 +1,22 @@
+source_file: elaw_memoirs-of-mrs-zilpha-elaw_1846.txt
+assignments:
+- row_id: elaw_memoirs-of-mrs-zilpha-elaw_1846--memoirs-of-the-life-religious-experience-ministerial-travels
+  work: Memoirs of the Life, Religious Experience, Ministerial Travels and Labours of Mrs. Zilpha Elaw, an American
+  author: elaw
+  locus: the whole volume; not mapped
+  atlas_ids:
+  - the-black-church-in-america
+  role: tradition
+  confidence: provisional
+  language: eng
+  date:
+    start: 1846
+    end: 1846
+    source: 'the printing''s own title page: read on the scan''s page image, leaf n1 (the title page prints 1846;
+      the OCR does not give it)'
+    formation_confidence: Documented
+  edition_date:
+    year: 1846
+    source: read on the scan's page image, leaf n1 (the title page prints 1846; the OCR does not give it)
+    formation_confidence: Documented
+  note: 'Era 9 row 231, Zilpha Elaw: her Memoirs.'

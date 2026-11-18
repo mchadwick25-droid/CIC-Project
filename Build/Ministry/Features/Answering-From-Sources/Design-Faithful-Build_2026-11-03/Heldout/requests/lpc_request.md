@@ -1,0 +1,220 @@
+# Request: 44 visitor questions for Latin Pastoral-Congregational Christianity
+
+You are writing questions a curious adult visitor would ask a voice from this tradition. You know only what is below. Do not look at any other file in the repository.
+
+## The tradition
+- Name: Latin Pastoral-Congregational Christianity
+- Era: 246-430
+- Region: Roman North Africa (Carthage and Hippo)
+
+This is the ordinary Christian life of Latin-speaking North Africa, seen through two bishops. Cyprian led the church of Carthage in the middle of the third century, through a state persecution, a plague and a split among believers. Augustine served the church of Hippo from the 390s until his death in 430. Their people were ordinary congregations, new converts, and members who had failed and wanted to return. What held them together was a bishop's care for his own flock: preaching, teaching new believers, baptism, the Eucharist, and discipline. The world closes in 430, when Augustine died as Vandal armies besieged Hippo.
+
+## The library behind the voice (titles and authors only)
+The voice answers from these works. The visitor does not know this list. Do not copy titles into questions, and do not ask about a work by name.
+- acta-cypriani: Acta S. Cypriani episcopi et martyris
+- anonymous-against-novatian: Anonymous Treatise Against the Heretic Novatian
+- anonymous-on-rebaptism: Anonymous Treatise on Re-baptism
+- audollent: Audollent
+- audollent: Carthage romaine
+- augustine: A Treatise on Faith and the Creed
+- augustine: Acts or Disputation Against Fortunatus the Manichaean
+- augustine: Against Lying
+- augustine: Against Two Letters of the Pelagians
+- augustine: Against the Epistle of Manichaeus
+- augustine: Answer to the Letters of Petilian
+- augustine: Augustine
+- augustine: Augustine on the Donatists
+- augustine: Augustine's City of God
+- augustine: Augustine's Confessions
+- augustine: Augustine's Epistolae
+- augustine: Augustine's Epistulae 1-123
+- augustine: Augustine's Epistulae 124-184A
+- augustine: Augustine's Expositions on the Psalms
+- augustine: Augustine's Retractationum Libri Duo
+- augustine: Augustine's Sermones 1-340
+- augustine: Augustine's Sermones 341-396
+- augustine: Augustine's Sermones post Maurinos reperti
+- augustine: Augustine's opera minora
+- augustine: Augustine's short pastoral and disciplinary works
+- augustine: Augustinus-Postille
+- augustine: Breviculus Collationis cum Donatistis
+- augustine: Christopher
+- augustine: City of God
+- augustine: Concerning Faith of Things Not Seen
+- augustine: Concerning the Nature of Good
+- augustine: Contra Cresconium
+- augustine: Contra Epistulam Parmeniani
+- augustine: Contra Gaudentium Donatistarum Episcopum
+- augustine: Contra Litteras Petiliani
+- augustine: Contra Mendacium
+- augustine: Contra Partem Donati post Gesta
+- augustine: De Adulterinis Coniugiis
+- augustine: De Agone Christiano
+- augustine: De Baptismo
+- augustine: De Bono Coniugali
+- augustine: De Bono Viduitatis
+- augustine: De Continentia
+- augustine: De Cura pro Mortuis Gerenda
+- augustine: De Divinatione Daemonum
+- augustine: De Fide et Operibus
+- augustine: De Fide et Symbolo
+- augustine: De Mendacio
+- augustine: De Opere Monachorum
+- augustine: De Patientia
+- augustine: De Sancta Virginitate
+- augustine: De Unico Baptismo contra Petilianum
+- augustine: Epistula ad Catholicos de Secta Donatistarum
+- augustine: Expositions on the Book of Psalms
+- augustine: Gesta cum Emerito Donatista
+- augustine: In Epistolam Ioannis ad Parthos Tractatus X
+- augustine: Letters of St. Augustin
+- augustine: Of Holy Virginity
+- augustine: Of the Work of Monks
+- augustine: On Baptism
+- augustine: On Care to Be Had for the Dead
+- augustine: On Christian Doctrine
+- augustine: On Continence
+- augustine: On Faith and Works
+- augustine: On Grace and Free Will
+- augustine: On Lying
+- augustine: On Man's Perfection in Righteousness
+- augustine: On Marriage and Concupiscence
+- augustine: On Nature and Grace
+- augustine: On Patience
+- augustine: On Rebuke and Grace
+- augustine: On Two Souls
+- augustine: On the Catechising of the Uninstructed
+- augustine: On the Christian Combat
+- augustine: On the Creed
+- augustine: On the Gift of Perseverance
+- augustine: On the Good of Marriage
+- augustine: On the Good of Widowhood
+- augustine: On the Grace of Christ
+- augustine: On the Holy Trinity
+- augustine: On the Merits and Forgiveness of Sins
+- augustine: On the Morals of the Catholic Church
+- augustine: On the Morals of the Manichaeans
+- augustine: On the Predestination of the Saints
+- augustine: On the Proceedings of Pelagius
+- augustine: On the Profit of Believing
+- augustine: On the Soul and its Origin
+- augustine: On the Spirit and the Letter
+- augustine: Our Lord's Sermon on the Mount
+- augustine: Reply to Faustus the Manichaean
+- augustine: S. Aureli Augustini Epistulae
+- augustine: Sermo ad Caesariensis Ecclesiae Plebem
+- augustine: Sermones Guelferbytani
+- augustine: Sermones ad populum
+- augustine: Sermones dubii
+- augustine: Sermones inediti
+- augustine: Sermons on Selected Lessons of the New Testament
+- augustine: Soliloquies
+- augustine: Ten Homilies on the First Epistle of John
+- augustine: The Confessions
+- augustine: The Correction of the Donatists
+- augustine: The Enchiridion
+- augustine: The Harmony of the Gospels
+- augustine: Tractates on the Gospel of John
+- augustine: Tractatus in Ioannis Evangelium CXXIV
+- bardenhewer: Bardenhewer
+- benson: Benson
+- collatio-carthaginiensis: Gesta Collationis Carthaginiensis
+- council-of-arles-314: Council of Arles
+- council-of-carthage-419: Codex canonum Ecclesiae Africanae
+- council-of-carthage-419: The Code of Canons of the African Church
+- council-of-carthage-aurelius: Aurelius's Carthage synod
+- council-of-carthage-i: Carthage I sub Grato
+- council-of-carthage-under-cyprian: The Acts of the Council of Carthage under Cyprian
+- council-of-hippo: Council of Hippo II
+- council-of-hippo: Hippo-Regiense council
+- cyprian: Acta Proconsularia Sancti Cypriani
+- cyprian: Acta Proconsularia of Cyprian
+- cyprian: Ad Demetrianum
+- cyprian: Ad Donatum
+- cyprian: Ad Fortunatum
+- cyprian: Ad Quirinum
+- cyprian: An Address to Demetrianus
+- cyprian: Cyprian
+- cyprian: Cyprian's Opera Spuria
+- cyprian: De Bono Patientiae
+- cyprian: De Dominica Oratione
+- cyprian: De Habitu Virginum
+- cyprian: De Lapsis
+- cyprian: De Mortalitate
+- cyprian: De Opere et Eleemosynis
+- cyprian: De Unitate Ecclesiae Catholicae
+- cyprian: De Zelo et Livore
+- cyprian: Epistulae
+- cyprian: Exhortation to Martyrdom
+- cyprian: On Jealousy and Envy
+- cyprian: On Works and Alms
+- cyprian: On the Advantage of Patience
+- cyprian: On the Dress of Virgins
+- cyprian: On the Lapsed
+- cyprian: On the Lord's Prayer
+- cyprian: On the Mortality
+- cyprian: On the Unity of the Church
+- cyprian: On the Vanity of Idols
+- cyprian: Quod Idola Dii Non Sint
+- cyprian: S. Thasci Caecili Cypriani Opera omnia
+- cyprian: Sententiae Episcoporum numero LXXXVII de haereticis baptizandis
+- cyprian: The Epistles of Cyprian
+- cyprian: The Seventh Council of Carthage under Cyprian
+- cyprian: Three Books of Testimonies Against the Jews
+- cyprian: Treatises attributed to Cyprian on questionable authority
+- dales: La Theologie de saint Cyprien
+- delehaye: Les Passions des martyrs et les genres litteraires
+- duchesne: Duchesne
+- gesta-collationis-carthaginensis: Gesta Collationis Carthaginensis
+- gsell: Gsell
+- guelferbytanus-tractatus-novem: Tractatus novem
+- harnack: Das Leben Cyprians von Pontius
+- harnack: Harnack
+- hefele-leclercq: Hefele and Leclercq
+- koch: Cathedra Petri
+- koch: Cyprian und der roemische Primat
+- koch: Koch
+- lauchert: Lauchert
+- mesnage: L'Afrique chretienne
+- mesnage: Mesnage
+- monceaux: Histoire litteraire de l'Afrique chretienne
+- monceaux: Histoire littéraire de l'Afrique chrétienne
+- optatus: Against the Donatists
+- passio-mariani-et-iacobi: Passio SS. Mariani et Iacobi
+- passio-montani-et-lucii: Passio SS. Montani et Lucii
+- passion-of-marianus-and-jacobus: Passio of Marianus and Jacobus
+- passion-of-montanus-and-lucius: Passio of Montanus and Lucius
+- passion-of-scillitan-martyrs: The Passion of the Scillitan Martyrs
+- pontius: The Life and Passion of Cyprian
+- pontius: Vita Caecilii Cypriani
+- poschmann: Die abendlaendische Kirchenbusse im Ausgang des christlichen Altertums
+- possidius: Sancti Augustini Vita
+- prosper: Prosper of Aquitaine's Epitoma Chronicon
+- ribbeck: Ribbeck
+- theodosian-code-compilers: Codex Theodosianus
+- toulotte: Geographie de l'Afrique chretienne
+- turner: Turner
+- vonsoden: Der Streit zwischen Rom und Karthago ueber die Ketzertaufe
+- vonsoden: Die Prosopographie des afrikanischen Episkopats zur Zeit Cyprians
+- vonsoden: Die cyprianische Briefsammlung
+- vonsoden: von Soden
+
+## What to write
+Exactly 44 questions, in the visitor's own plain words.
+- Cover the whole range: belief, practice, people, events, conflicts, daily life, what the tradition would say about a modern concern, and a few questions the tradition may not be able to answer (the visitor does not know what the library holds).
+- Give each question one theme tag from: belief, practice, people, events, conflicts, daily_life, modern_concern, unanswerable.
+- No more than 11 questions on any one theme. At least 2 modern_concern and at least 2 unanswerable.
+- Vary the length: at least a fifth short (6 to 10 words) and at least a fifth long (20 to 35 words).
+- Plain wording a non-native reader can follow. No leading questions: do not build the answer, a judgment or a disputed claim into the question. No quoting or paraphrasing a line from any text. No question that names a specific document, letter, sermon or passage, or hints at one.
+- Ask the tradition as a whole ("your church", "your people"). Never address the voice as one named person, and never ask what "you" did on a certain date.
+- Use a name, date or place only if the tradition paragraph above gives it, and only when you are sure it applies to the whole tradition.
+- Modern-concern and unanswerable questions must grow out of this tradition's own subject. Avoid the stock ones: faith and science, far-off countries, rich and poor in general, predictions of the future, how many members there were.
+- No questions about personal crisis, self-harm, abuse or distress.
+- No two questions about the same subject, even in different words.
+
+## Output
+Write one YAML file to /home/user/CIC-Project/Build/Ministry/Features/Answering-From-Sources/Design-Faithful-Build_2026-11-03/Heldout/drafts/lpc_draft.yaml as a list:
+- theme: <tag>
+  text: <the question>
+
+Write only that file.

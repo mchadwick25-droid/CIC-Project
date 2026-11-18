@@ -1,0 +1,63 @@
+{
+  "name": "Moses the Black",
+  "otherNames": [
+    "Moses the Ethiopian",
+    "Moses the Robber",
+    "Abba Moses"
+  ],
+  "knownFor": "A house-servant driven out for robbery who became a monk at Scete in Egypt, a priest and a teacher of seventy disciples.",
+  "dates": "Died at Scete aged seventy-five, by Palladius of Helenopolis. No source used here gives a year of his birth or death; Palladius wrote his history, by W. K. Lowther Clarke's note, in 419 or 420",
+  "place": "Egypt; Scete",
+  "tradition": "Desert Monasticism",
+  "role": "Monk and priest",
+  "briefLength": "about 2 minutes",
+  "legacy": {
+    "traces": [
+      "Palladius of Helenopolis says he left seventy disciples.",
+      "Sayings of an Abba Moses, some of them naming him the Ethiopian, are kept in the Syriac book of the desert fathers translated by Wallis Budge."
+    ],
+    "remembered": [
+      "Palladius of Helenopolis: \"This was the manner of life of Moses the Ethiopian\".",
+      "Sozomen: \"he died at the age of seventy-five, leaving behind him numerous eminent disciples.\""
+    ]
+  },
+  "uncertain": [
+    "The murders he was said to have done, and his leading a robber band, come to Palladius of Helenopolis as report (\"they used to say\"). The Lausiac History is a book of holy lives and tells of demons and wonders.",
+    "Sozomen tells much the same story in much the same order, so he likely depends on Palladius and is no separate witness. He calls Moses \"an Egyptian\", where Palladius says \"an Ethiopian by race and black\".",
+    "There were several monks named Moses. W. K. Lowther Clarke notes that Cuthbert Butler tells them apart, and takes the robber for the Moses of the sayings, but many sayings name only Abba Moses. John Cassian's Abbot Moses spent his boyhood in the Thebaid near Antony, and Edgar Gibson, Cassian's translator, suggests he may be Moses the Libyan.",
+    "A saying tells that barbarians came to Scete and killed Abba Moses and the brothers who stayed with him. It does not name him the Ethiopian. Palladius says only that he died at Scete at seventy-five.",
+    "No source used here names his master, his family, or the bishop who made him a priest."
+  ],
+  "sources": {
+    "about": [
+      {
+        "title": "The Lausiac History 19 (tr. W. K. Lowther Clarke)",
+        "author": "Palladius of Helenopolis",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/palladius_lausiac-history_clarke1918.txt"
+      },
+      {
+        "title": "Church History VI.29",
+        "author": "Sozomen",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml"
+      },
+      {
+        "title": "The Paradise of the Holy Fathers, vol. II, the sayings (tr. E. A. Wallis Budge)",
+        "author": "Compiled by 'Anan-Isho' of Beth 'Abhe",
+        "date": "1907",
+        "language": "English translation",
+        "file": "cic/texts/anan-isho_paradise-v2-sayings_budge1907.txt"
+      },
+      {
+        "title": "Institutes and Conferences (tr. Edgar Gibson)",
+        "author": "John Cassian",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml"
+      }
+    ]
+  }
+}

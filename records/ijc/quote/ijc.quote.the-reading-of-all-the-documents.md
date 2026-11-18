@@ -16,8 +16,7 @@ confidence:
     Documented as the Chalcedon session acts, printed as an embedded document inside the NPNF Theodoret volume's own introduction to Theodoret, and read directly there. The acts reach us through the conciliar collections; what a shouting room sounded like is preserved because a notary was writing it down.
 sources:
 - source_id: ijc.source.theodoret-he
-  locus: >-
-    Chalcedon, the acts as printed in the volume's prolegomena on Theodoret, section 'Theodoret and Chalcedon' (npnf203 lines 3288-3292)
+  locus: "Chalcedon, the acts as printed in the volume's prolegomena on Theodoret, section 'Theodoret and Chalcedon' (cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml, lines 3288-3292)"
   license: public-domain
 text: >-
   The most illustrious Presidents and the most honourable Assessors said: ‘The vulgar cries are not worthy of bishops, nor will they assist either side. Suffer, therefore, the reading of all the documents.’

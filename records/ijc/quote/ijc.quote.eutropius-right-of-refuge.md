@@ -15,7 +15,7 @@ confidence:
   divergence_note: null
 sources:
 - source_id: ijc.source.chrysostom-eutropius
-  locus: 'Homily I (npnf109, sentence at line 17739; the sanctuary defence at 17704)'
+  locus: "Homily I (cic/texts/npnf109_chrysostom-priesthood-ascetic-homilies-statutes.xml, lines 17737-17746; the sanctuary defense at line 17704)"
   license: public-domain
 text: We are the servants of the crucified one who said "Forgive them for they know not what they do."
   But, you say, he cut off the right of refuge here by his ordinances and divers kinds of laws. Yes!

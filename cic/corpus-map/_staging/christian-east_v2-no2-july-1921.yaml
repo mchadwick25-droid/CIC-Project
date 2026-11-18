@@ -1,0 +1,20 @@
+source_file: christian-east_v2-no2-july-1921.txt
+assignments:
+- row_id: christian-east_v2-no2-july-1921--the-christian-east-volume-ii-number-2-july-1921
+  work: 'The Christian East, volume II, number 2 (July, 1921)'
+  author: christian-east
+  locus: 'whole'
+  atlas_ids:
+  - the-anglican-communion-twentieth-century
+  role: tradition
+  confidence: assigned
+  note: 'An Anglican quarterly on the Eastern churches; many writers, and the documents it prints are in translation.'
+- row_id: christian-east_v2-no2-july-1921--the-christian-east-volume-ii-number-2-july-1921-on-the
+  work: 'The Christian East, volume II, number 2 (July, 1921): on the Russian church'
+  author: christian-east
+  locus: 'whole'
+  atlas_ids:
+  - the-russian-orthodox-church-council-patriarchate-and-reunion
+  role: context
+  confidence: assigned
+  note: 'An Anglican journal''s reports on the Russian church; an outside witness.'

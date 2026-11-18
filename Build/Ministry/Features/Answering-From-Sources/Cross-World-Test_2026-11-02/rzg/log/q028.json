@@ -1,0 +1,173 @@
+{
+ "draft": "We held that Christ is truly given, by the Spirit, to whoever receives him believing [[rzg.term.the-lords-supper-spiritual-presence]] [[rzg.gravity.spiritual-presence-rejection-of-corporeal-sacrificial-mediation]] [[as:paraphrase]].\nWe refused Rome's claim that the Mass repeats Christ's own sacrifice [[rzg.gravity.spiritual-presence-rejection-of-corporeal-sacrificial-mediation]] [[as:paraphrase]].\nWe also refused Wittenberg's claim that Christ's body sits locally in the bread [[rzg.gravity.spiritual-presence-rejection-of-corporeal-sacrificial-mediation]] [[as:paraphrase]].\nZurich's refusal of the Mass in 1523 matured at Marburg in 1529 into a further refusal of corporeal presence, aimed at Wittenberg [[rzg.gravity.spiritual-presence-rejection-of-corporeal-sacrificial-mediation]] [[as:paraphrase]].\nIn 1549 the two cities stated together what we affirm [[rzg.term.the-lords-supper-spiritual-presence]] [[as:paraphrase]].\nThe Ministers of the Church of Zurich and John Calvin, Minister of the Church of Geneva, wrote jointly: [[quote:rzg.quote.signs-and-things-signified]]\n",
+ "ending": "rewritten",
+ "final": "We held that Christ is truly given, by the Spirit, to whoever receives him believing. We refused Rome's claim that the Mass repeats Christ's own sacrifice. We also refused Wittenberg's claim that Christ's body sits locally in the bread. Zurich's refusal of the Mass in 1523 matured at Marburg in 1529 into a further refusal of corporeal presence, aimed at Wittenberg. In 1549 the two cities stated together what we affirm.",
+ "group": "A",
+ "offered": [
+  "rzg.witness.one-supper-two-poles",
+  "rzg.term.sign-and-the-thing-signified",
+  "rzg.term.the-lords-supper-spiritual-presence",
+  "rzg.story.calvins-journey-to-zurich",
+  "rzg.quote.signs-and-things-signified",
+  "rzg.quote.mass-not-a-sacrifice",
+  "rzg.gravity.zwinglis-remembrance-reading-vs-negotiated-consensus",
+  "rzg.contested.zwinglis-remembrance-vs-negotiated-consensus",
+  "rzg.gravity.spiritual-presence-rejection-of-corporeal-sacrificial-mediation"
+ ],
+ "placements": [
+  {
+   "decision": "drop",
+   "judgement": {
+    "fit": "off_point",
+    "limit_stated": false,
+    "reason": "It is a sacramental formula and says nothing about the eternal fate of those outside the community."
+   },
+   "record_id": "rzg.quote.signs-and-things-signified"
+  }
+ ],
+ "question": "What did your community hold about the eternal fate of those outside it?",
+ "question_id": "q028",
+ "read": {
+  "dropped": [
+   "rzg.quote.signs-and-things-signified"
+  ],
+  "status": "rewrite",
+  "unsupported": {}
+ },
+ "rewrite": [
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "rzg.term.the-lords-supper-spiritual-presence",
+    "rzg.gravity.spiritual-presence-rejection-of-corporeal-sacrificial-mediation"
+   ],
+   "sentence": "We held that Christ is truly given, by the Spirit, to whoever receives him believing.",
+   "tags": [
+    "rzg.term.the-lords-supper-spiritual-presence",
+    "rzg.gravity.spiritual-presence-rejection-of-corporeal-sacrificial-mediation"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "rzg.gravity.spiritual-presence-rejection-of-corporeal-sacrificial-mediation"
+   ],
+   "sentence": "We refused Rome's claim that the Mass repeats Christ's own sacrifice.",
+   "tags": [
+    "rzg.gravity.spiritual-presence-rejection-of-corporeal-sacrificial-mediation"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "rzg.gravity.spiritual-presence-rejection-of-corporeal-sacrificial-mediation"
+   ],
+   "sentence": "We also refused Wittenberg's claim that Christ's body sits locally in the bread.",
+   "tags": [
+    "rzg.gravity.spiritual-presence-rejection-of-corporeal-sacrificial-mediation"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "rzg.gravity.spiritual-presence-rejection-of-corporeal-sacrificial-mediation"
+   ],
+   "sentence": "Zurich's refusal of the Mass in 1523 matured at Marburg in 1529 into a further refusal of corporeal presence, aimed at Wittenberg.",
+   "tags": [
+    "rzg.gravity.spiritual-presence-rejection-of-corporeal-sacrificial-mediation"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "rzg.term.the-lords-supper-spiritual-presence"
+   ],
+   "sentence": "In 1549 the two cities stated together what we affirm.",
+   "tags": [
+    "rzg.term.the-lords-supper-spiritual-presence"
+   ]
+  }
+ ],
+ "sentences": [
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 0,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "We held that Christ is truly given, by the Spirit, to whoever receives him believing.",
+   "tags": [
+    "rzg.term.the-lords-supper-spiritual-presence",
+    "rzg.gravity.spiritual-presence-rejection-of-corporeal-sacrificial-mediation"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 1,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "We refused Rome's claim that the Mass repeats Christ's own sacrifice.",
+   "tags": [
+    "rzg.gravity.spiritual-presence-rejection-of-corporeal-sacrificial-mediation"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 2,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "We also refused Wittenberg's claim that Christ's body sits locally in the bread.",
+   "tags": [
+    "rzg.gravity.spiritual-presence-rejection-of-corporeal-sacrificial-mediation"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 3,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Zurich's refusal of the Mass in 1523 matured at Marburg in 1529 into a further refusal of corporeal presence, aimed at Wittenberg.",
+   "tags": [
+    "rzg.gravity.spiritual-presence-rejection-of-corporeal-sacrificial-mediation"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 4,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "In 1549 the two cities stated together what we affirm.",
+   "tags": [
+    "rzg.term.the-lords-supper-spiritual-presence"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": null,
+   "n": 5,
+   "placed": true,
+   "placed_id": "rzg.quote.signs-and-things-signified",
+   "reason": "placed by code",
+   "sentence": "In today's English, the Ministers of the Church of Zurich and John Calvin says: “Therefore, though we distinguish signs from the things signified, as we ought, we do not separate the thing itself from the signs...”",
+   "tags": [
+    "rzg.quote.signs-and-things-signified"
+   ]
+  }
+ ],
+ "shipped_by_net": "We held that Christ is truly given, by the Spirit, to whoever receives him believing. We refused Rome's claim that the Mass repeats Christ's own sacrifice. We also refused Wittenberg's claim that Christ's body sits locally in the bread. Zurich's refusal of the Mass in 1523 matured at Marburg in 1529 into a further refusal of corporeal presence, aimed at Wittenberg. In 1549 the two cities stated together what we affirm. In today's English, the Ministers of the Church of Zurich and John Calvin says: “Therefore, though we distinguish signs from the things signified, as we ought, we do not separate the thing itself from the signs...”",
+ "sub_question": "C3.S7"
+}

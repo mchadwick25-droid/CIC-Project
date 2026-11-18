@@ -1,0 +1,2 @@
+{"at": "2026-10-29T18:17:09.260+00:00", "live_test": "specialist-tryout-1", "cap_usd": 5.0, "event": "hold", "model_id": "us.openai.gpt-6.1-sol", "hold_usd": 0.1416, "spent_usd": 0.0}
+{"at": "2026-10-29T18:17:09.707+00:00", "live_test": "specialist-tryout-1", "cap_usd": 5.0, "event": "settle", "spent_usd": 0.1416, "model_id": "us.openai.gpt-6.1-sol", "priced_dollars": 0.14160025, "usage": null, "failed": true}

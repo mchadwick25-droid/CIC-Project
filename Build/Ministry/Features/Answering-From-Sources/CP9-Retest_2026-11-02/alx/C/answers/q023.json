@@ -1,0 +1,177 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "alx.dw.empire"
+   ],
+   "sentence": "Across three centuries of on-and-off danger, property was seized, teachers' fathers were beheaded, and bishops fled."
+  },
+  {
+   "record_ids": [
+    "alx.dw.empire"
+   ],
+   "sentence": "In those years the church's whole authority was persuasion."
+  },
+  {
+   "record_ids": [
+    "alx.quote.clement-possessions"
+   ],
+   "sentence": "On wealth, Clement spoke to the rich in his sermon on who can be saved: “Consider someone who holds possessions - gold, silver, houses - as gifts of God. From them he serves the God who gives them, for the salvation of others. He knows he owns them more for the sake of his fellow believers than for his own. He is master of what he owns, not a slave to the things he owns. He does not carry them around in his soul. He does not bind his life within them or fence it in. Instead, he is always at work on some good and divine task. One day he may be forced to lose them. Even then, he can bear their loss with a cheerful mind, just as he bears their abundance. This is the one the Lord blesses, the one called poor in spirit. He is a fit heir of the kingdom of heaven, not one who could not live rich.”"
+  },
+  {
+   "record_ids": [
+    "alx.dw.empire"
+   ],
+   "sentence": "After 325 the emperor called the council and the confession was enforced."
+  },
+  {
+   "record_ids": [
+    "alx.dw.church-failure"
+   ],
+   "sentence": "The church itself learned to use exile and condemnation, and some of what was done with that power our own sources report without pride."
+  },
+  {
+   "record_ids": [
+    "alx.dw.doubt"
+   ],
+   "sentence": "Still, what the apostles delivered plainly stood fixed, and everything else was open ground."
+  },
+  {
+   "record_ids": [
+    "alx.dw.doubt"
+   ],
+   "sentence": "On that ground, asking, testing and correcting was how a soul grew."
+  }
+ ],
+ "citations": [
+  "alx.dw.church-failure",
+  "alx.dw.doubt",
+  "alx.dw.empire",
+  "alx.quote.clement-possessions"
+ ],
+ "group": "A",
+ "id": "q023",
+ "net_sentences": [
+  {
+   "draft": "Before 325, belonging to us could cost property, safety and even life [[alx.dw.empire]] [[as:paraphrase]].",
+   "ratio": 0.2,
+   "sentence": "Before 325, belonging to us could cost property, safety and even life.",
+   "tags": [
+    "alx.dw.empire"
+   ],
+   "verdict": "withhold",
+   "why": "specific claim (number) only 20% grounded in its own tags"
+  },
+  {
+   "draft": "Across three centuries of on-and-off danger, property was seized, teachers' fathers were beheaded, and bishops fled [[alx.dw.empire]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "Across three centuries of on-and-off danger, property was seized, teachers' fathers were beheaded, and bishops fled.",
+   "tags": [
+    "alx.dw.empire"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "In those years the church's whole authority was persuasion [[alx.dw.empire]] [[as:paraphrase]].",
+   "sentence": "In those years the church's whole authority was persuasion.",
+   "tags": [
+    "alx.dw.empire"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "On wealth, Clement spoke to the rich in his sermon on who can be saved: [[quote:alx.quote.clement-possessions]]",
+   "placed_quote": "alx.quote.clement-possessions",
+   "sentence": "On wealth, Clement spoke to the rich in his sermon on who can be saved: “Consider someone who holds possessions - gold, silver, houses - as gifts of God. From them he serves the God who gives them, for the salvation of others. He knows he owns them more for the sake of his fellow believers than for his own. He is master of what he owns, not a slave to the things he owns. He does not carry them around in his soul. He does not bind his life within them or fence it in. Instead, he is always at work on some good and divine task. One day he may be forced to lose them. Even then, he can bear their loss with a cheerful mind, just as he bears their abundance. This is the one the Lord blesses, the one called poor in spirit. He is a fit heir of the kingdom of heaven, not one who could not live rich.”",
+   "tags": [
+    "alx.quote.clement-possessions"
+   ],
+   "verdict": "ok",
+   "why": "quote placed by code, verbatim to its record"
+  },
+  {
+   "draft": "[[as:paraphrase]].",
+   "sentence": ".",
+   "tags": [],
+   "verdict": "ok",
+   "why": "no checkable claim - interpretive/connective framing"
+  },
+  {
+   "draft": "After 325 the emperor called the council and the confession was enforced [[alx.dw.empire]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "After 325 the emperor called the council and the confession was enforced.",
+   "tags": [
+    "alx.dw.empire"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "The church itself learned to use exile and condemnation, and some of what was done with that power our own sources report without pride [[alx.dw.church-failure]] [[as:paraphrase]].",
+   "sentence": "The church itself learned to use exile and condemnation, and some of what was done with that power our own sources report without pride.",
+   "tags": [
+    "alx.dw.church-failure"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Still, what the apostles delivered plainly stood fixed, and everything else was open ground [[alx.dw.doubt]] [[as:paraphrase]].",
+   "sentence": "Still, what the apostles delivered plainly stood fixed, and everything else was open ground.",
+   "tags": [
+    "alx.dw.doubt"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "On that ground, asking, testing and correcting was how a soul grew [[alx.dw.doubt]] [[as:paraphrase]].",
+   "sentence": "On that ground, asking, testing and correcting was how a soul grew.",
+   "tags": [
+    "alx.dw.doubt"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  }
+ ],
+ "offered": [
+  "alx.dw.church-failure",
+  "alx.term.episkopos",
+  "alx.story.arsinoite-conference",
+  "alx.story.origen-daring-deed",
+  "alx.story.origen-demetrius",
+  "alx.quote.dionysius-nepos",
+  "alx.force.post-nicene-authority-shift",
+  "alx.contested.allegory-from-within",
+  "alx.term.photismos",
+  "alx.quote.clement-possessions",
+  "alx.force.apostolic-tradition",
+  "alx.contested.desert-attribution"
+ ],
+ "raw_text": "Before 325, belonging to us could cost property, safety and even life [[alx.dw.empire]] [[as:paraphrase]]. Across three centuries of on-and-off danger, property was seized, teachers' fathers were beheaded, and bishops fled [[alx.dw.empire]] [[as:paraphrase]]. In those years the church's whole authority was persuasion [[alx.dw.empire]] [[as:paraphrase]]. On wealth, Clement spoke to the rich in his sermon on who can be saved: [[quote:alx.quote.clement-possessions]] [[as:paraphrase]]. After 325 the emperor called the council and the confession was enforced [[alx.dw.empire]] [[as:paraphrase]]. The church itself learned to use exile and condemnation, and some of what was done with that power our own sources report without pride [[alx.dw.church-failure]] [[as:paraphrase]]. Still, what the apostles delivered plainly stood fixed, and everything else was open ground [[alx.dw.doubt]] [[as:paraphrase]]. On that ground, asking, testing and correcting was how a soul grew [[alx.dw.doubt]] [[as:paraphrase]].\n",
+ "reply_shape": {
+  "leadin_support": {
+   "alx.quote.clement-possessions": [
+    {
+     "detail": "sermon",
+     "kind": "genre",
+     "snippet": "; and knows that he possesses them more for the sake of the brethren than his own; and is superior to the possession of them, no",
+     "span": "record alx.quote.clement-possessions"
+    }
+   ]
+  },
+  "placed": [
+   "alx.quote.clement-possessions"
+  ],
+  "removed": [],
+  "repaired": []
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": "C12.S6",
+ "text": "Before 325, belonging to us could cost property, safety and even life. Across three centuries of on-and-off danger, property was seized, teachers' fathers were beheaded, and bishops fled. In those years the church's whole authority was persuasion. On wealth, Clement spoke to the rich in his sermon on who can be saved: “Consider someone who holds possessions - gold, silver, houses - as gifts of God. From them he serves the God who gives them, for the salvation of others. He knows he owns them more for the sake of his fellow believers than for his own. He is master of what he owns, not a slave to the things he owns. He does not carry them around in his soul. He does not bind his life within them or fence it in. Instead, he is always at work on some good and divine task. One day he may be forced to lose them. Even then, he can bear their loss with a cheerful mind, just as he bears their abundance. This is the one the Lord blesses, the one called poor in spirit. He is a fit heir of the kingdom of heaven, not one who could not live rich.”. After 325 the emperor called the council and the confession was enforced. The church itself learned to use exile and condemnation, and some of what was done with that power our own sources report without pride. Still, what the apostles delivered plainly stood fixed, and everything else was open ground. On that ground, asking, testing and correcting was how a soul grew.",
+ "voice_set_aside": false
+}

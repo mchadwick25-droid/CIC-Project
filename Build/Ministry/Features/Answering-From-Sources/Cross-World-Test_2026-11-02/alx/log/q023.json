@@ -1,0 +1,104 @@
+{
+ "draft": "After Nicaea, the church itself learned to use exile and condemnation [[alx.dw.church-failure]] [[as:paraphrase]]. The bishop of Alexandria became the enforcer of the drawn confession across Egypt, with exile, letter-networks, and synods as his tools [[alx.force.post-nicene-authority-shift]] [[as:paraphrase]]. Dionysius answered Nepos's book in the Arsinoite villages with three days of open argument, until Coracion was persuaded [[alx.story.arsinoite-conference]] [[as:paraphrase]]. Origen was ordained in Palestine without Demetrius's consent, and Demetrius condemned him [[alx.story.origen-demetrius]] [[as:paraphrase]]. Origen then left Alexandria for Caesarea [[alx.story.origen-demetrius]] [[as:paraphrase]]. Clement wrote in Quis Dives Salvetur 16: [[quote:alx.quote.clement-possessions]]\n",
+ "ending": "abstained_rewrite_failed_read",
+ "final": "We do not have that here.",
+ "group": "A",
+ "offered": [
+  "alx.dw.church-failure",
+  "alx.term.episkopos",
+  "alx.story.arsinoite-conference",
+  "alx.story.origen-daring-deed",
+  "alx.story.origen-demetrius",
+  "alx.quote.dionysius-nepos",
+  "alx.force.post-nicene-authority-shift",
+  "alx.contested.allegory-from-within",
+  "alx.term.photismos",
+  "alx.quote.clement-possessions",
+  "alx.force.apostolic-tradition",
+  "alx.contested.desert-attribution"
+ ],
+ "placements": [
+  {
+   "decision": "drop",
+   "judgement": {
+    "fit": "partly",
+    "limit_stated": false,
+    "reason": "It speaks of holding wealth lightly, one teacher's sermon, not of what people gave up to belong."
+   },
+   "record_id": "alx.quote.clement-possessions"
+  }
+ ],
+ "question": "What, if anything, did people give up to belong to your community?",
+ "question_id": "q023",
+ "read": {
+  "dropped": [
+   "alx.quote.clement-possessions"
+  ],
+  "status": "rewrite",
+  "unsupported": {}
+ },
+ "rewrite": [
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "alx.dw.church-failure"
+   ],
+   "sentence": "After Nicaea, the church itself learned to use exile and condemnation.",
+   "tags": [
+    "alx.dw.church-failure"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "alx.force.post-nicene-authority-shift"
+   ],
+   "sentence": "The bishop of Alexandria became the enforcer of the drawn confession across Egypt, with exile, letter-networks, and synods as his tools.",
+   "tags": [
+    "alx.force.post-nicene-authority-shift"
+   ]
+  }
+ ],
+ "sentences": [
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 0,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "After Nicaea, the church itself learned to use exile and condemnation.",
+   "tags": [
+    "alx.dw.church-failure"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 1,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "The bishop of Alexandria became the enforcer of the drawn confession across Egypt, with exile, letter-networks, and synods as his tools.",
+   "tags": [
+    "alx.force.post-nicene-authority-shift"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": null,
+   "n": 2,
+   "placed": true,
+   "placed_id": "alx.quote.clement-possessions",
+   "reason": "placed by code",
+   "sentence": "Clement wrote in Quis Dives Salvetur 16: “Consider someone who holds possessions - gold, silver, houses - as gifts of God. From them he serves the God who gives them, for the salvation of others. He knows he owns them more for the sake of his fellow believers than for his own. He is master of what he owns, not a slave to the things he owns. He does not carry them around in his soul. He does not bind his life within them or fence it in. Instead, he is always at work on some good and divine task. One day he may be forced to lose them. Even then, he can bear their loss with a cheerful mind, just as he bears their abundance. This is the one the Lord blesses, the one called poor in spirit. He is a fit heir of the kingdom of heaven, not one who could not live rich.”",
+   "tags": [
+    "alx.quote.clement-possessions"
+   ]
+  }
+ ],
+ "shipped_by_net": "After Nicaea, the church itself learned to use exile and condemnation. The bishop of Alexandria became the enforcer of the drawn confession across Egypt, with exile, letter-networks, and synods as his tools. Clement wrote in Quis Dives Salvetur 16: “Consider someone who holds possessions - gold, silver, houses - as gifts of God. From them he serves the God who gives them, for the salvation of others. He knows he owns them more for the sake of his fellow believers than for his own. He is master of what he owns, not a slave to the things he owns. He does not carry them around in his soul. He does not bind his life within them or fence it in. Instead, he is always at work on some good and divine task. One day he may be forced to lose them. Even then, he can bear their loss with a cheerful mind, just as he bears their abundance. This is the one the Lord blesses, the one called poor in spirit. He is a fit heir of the kingdom of heaven, not one who could not live rich.”",
+ "sub_question": "C12.S6"
+}

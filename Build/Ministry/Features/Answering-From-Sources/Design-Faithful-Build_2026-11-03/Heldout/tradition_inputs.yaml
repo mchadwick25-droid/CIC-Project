@@ -1,0 +1,128 @@
+lpc:
+  name: Latin Pastoral-Congregational Christianity
+  era: 246-430
+  region: Roman North Africa (Carthage and Hippo)
+  paragraph: 'This is the ordinary Christian life of Latin-speaking North Africa, seen through two bishops.
+    Cyprian led the church of Carthage in the middle of the third century, through a state persecution,
+    a plague and a split among believers. Augustine served the church of Hippo from the 390s until his
+    death in 430. Their people were ordinary congregations, new converts, and members who had failed and
+    wanted to return. What held them together was a bishop''s care for his own flock: preaching, teaching
+    new believers, baptism, the Eucharist, and discipline. The world closes in 430, when Augustine died
+    as Vandal armies besieged Hippo.'
+ijc:
+  name: Imperial and Juridical Christianity
+  era: 312-451
+  region: Rome, Constantinople and Milan
+  paragraph: 'This tradition tells how Christianity became tied to the power of the Roman state. It begins
+    in 312, when Constantine won a battle and then favored the church, and it ends at the Council of Chalcedon
+    in 451. Its people were emperors, court officials and bishops in Rome, Constantinople and Milan, not
+    ordinary church members. They argued over who had the last word in the church: the emperor, a council
+    of bishops, or the bishop of Rome. Rome claimed authority from Peter, Constantinople from nearness
+    to the emperor, and Ambrose of Milan from a bishop''s spiritual power over rulers.'
+cappadocian:
+  name: Cappadocian Christianity
+  era: 325-394
+  region: Cappadocia and Pontus, highlands of Anatolia
+  paragraph: This is the Christianity of Cappadocia and Pontus, highlands of Anatolia, from about 325
+    to 394. Its people held the faith of the Council of Nicaea about the Trinity. They were landowning
+    families, village congregations, the poor who came to the church for help, and monks and nuns. Basil,
+    his brother Gregory of Nyssa and their friend Gregory of Nazianzus are its main voices. Shared worship,
+    household life, care for the poor and the fight over the Trinity held it together. Its tension broke
+    in 381, when the empire made the Nicene faith law; the last great witness fell silent about 394.
+alx:
+  name: Alexandrian Christianity
+  era: 150-400
+  region: Alexandria and Egypt
+  paragraph: 'This is Christianity in Alexandria and the Egyptian lands around it, from about 150 to 400.
+    It was known for learned teaching: teachers such as Clement and Origen read Scripture for deeper meaning
+    and used Greek philosophy to explain the faith. Its best-recorded people were Greek-speaking city
+    dwellers; Coptic-speaking villagers and early monks appear far less in the records. Bishops held growing
+    authority, and teaching, worship and deep reading of Scripture shaped its believers. The account stops
+    about 400, before the Council of Chalcedon in 451 split Egyptian Christians into separate communities.'
+pahc:
+  name: Post-Apostolic House-Church Christianity
+  era: 70-200
+  region: Antioch/Syria, western Asia Minor, and Rome
+  paragraph: This is the Greek-speaking Christianity of the generation after the apostles, from about
+    70 to 200 CE. It lived in Antioch, western Asia Minor, and Rome, all inside the Roman Empire. Its
+    people met in private homes, and the household was the basic unit of church life. With no central
+    office, letters and travelling messengers held far-apart groups together. Members were formed through
+    baptism, a shared meal, and a simple teaching about two ways of living. Leadership moved unevenly
+    from groups of elders toward a single bishop. The tradition is bounded around 200, when bishops had
+    become the norm and writers like Irenaeus and Tertullian began building systematic arguments.
+don:
+  name: Donatism
+  era: 311-439
+  region: Roman North Africa, centered on Carthage and Numidia
+  paragraph: Donatism was a rival church in Roman North Africa. It began around 311 to 312, when Carthage's
+    new bishop, Caecilian, was accused of being consecrated by a man who had handed over scripture during
+    the Diocletian persecution. Strict Christians rejected him and set up their own bishops, creating
+    a parallel church in town after town. They held the same basic beliefs as their rivals but insisted
+    that only a pure clergy could give valid sacraments, so they rebaptized newcomers. They honored martyrs
+    and saw themselves as the true church. This study ends at the Vandal capture of Carthage in 439, though
+    the movement lingered for centuries.
+rzg:
+  name: 'The Reformed Cities: Zurich and Geneva'
+  era: 1519-1650
+  region: Zurich and Geneva, in Switzerland
+  paragraph: This is the Swiss branch of the Protestant Reformation, from 1519 to 1650. It began when
+    Ulrich Zwingli started preaching reform in Zurich, and Heinrich Bullinger led the city after him.
+    John Calvin joined in Geneva in 1536, and the two cities agreed on the Lord's Supper in 1549. City
+    councils, not princes or bishops, remade church life. Geneva added a Consistory of pastors and lay
+    elders who oversaw everyday conduct. Its people held that God's sovereignty reaches to predestination
+    and that Christ is present in the Supper in spirit, not in the bread. The end date is an administrative
+    cutoff, since the Reformed tradition lives on in later churches.
+syr:
+  name: Syriac Christianity
+  era: 200-410
+  region: Edessa and Nisibis, on the Roman-Persian frontier in upper Mesopotamia
+  paragraph: Syriac Christianity grew in Edessa and Nisibis, in upper Mesopotamia, from about 200 to 410.
+    Its people spoke Syriac, a form of Aramaic, and lived along the frontier between the Roman and Persian
+    empires. They read the gospel as one continuous story, in a harmony made by Tatian. Their theology
+    came through hymns and symbols, most famously in Ephrem, who died in 373. Celibate men and women called
+    sons and daughters of the covenant shaped community life. The tradition defined itself against rivals
+    such as Marcion, Bardaisan, and Mani. It is bounded in 410, when a synod organized the Persian churches
+    into one formal church structure.
+desert:
+  name: Desert Monasticism
+  era: 320-430
+  region: Egypt (Nile valley and desert edge)
+  paragraph: Desert monasticism was a Christian movement in Egypt, running from about 320 to about 430.
+    Men and women left village life to live on the desert edge, alone, in small groups, or in organized
+    communities under a written rule. Most were Coptic-speaking villagers who wove rope and baskets to
+    support themselves. Teaching passed by word of mouth, from an elder to a disciple, in short sayings.
+    Weekly shared prayer and meals, and the struggle against demons, held them together. The movement's
+    boundary is set around 430, when its teaching was being written down and exported, and bishops had
+    begun settling its disputes. That end date is the least certain part.
+hal:
+  name: Hieronymian Ascetic-Literary Christianity
+  era: 382-420
+  region: Rome and Bethlehem
+  paragraph: This tradition joined a scholar and a circle of wealthy Roman women in a shared life of discipline
+    and study. It ran from about 382 to 420, between Rome and Bethlehem. Jerome, a priest with no high
+    office, translated the Bible and wrote many letters. Paula, her daughter Eustochium, Marcella and
+    Fabiola were noble women who gave up their wealth, founded communities, and, in Marcella's case, advised
+    clergy on Scripture. Patronage, letters and shared study held it together. It ended around 420, when
+    its last leaders had died. Nearly everything we know about the women comes through Jerome's own writing.
+witt:
+  name: Lutheran Wittenberg and Its Congregations
+  era: 1517-1580
+  region: Wittenberg in Saxony, then northern Europe
+  paragraph: This is the Lutheran movement. It began in 1517, when Martin Luther, a monk and university
+    professor in Wittenberg, protested the sale of indulgences. It grew in Saxony and spread into other
+    German lands and northern Europe. Its people included Luther, his colleague Philip Melanchthon, the
+    princes who ruled the new churches, and ordinary households taught by catechism and hymns. Belief
+    in salvation by faith, and in the authority of Scripture over church hierarchy, held it together.
+    After 1555 the empire recognized each prince's right to set his land's faith. The window closes in
+    1580, when its confessions were gathered in the Book of Concord.
+gallic:
+  name: Gallic Monastic-Ascetic Christianity
+  era: 360-450
+  region: Roman Gaul (Tours, Lérins, Marseilles)
+  paragraph: This was a monastic movement in Roman Gaul, now France, from about 360 to 450. It began with
+    Martin, who founded communities near Tours. It continued on the island of Lérins and at Marseilles,
+    where Cassian founded houses for men and women. Its people were monks, abbots and future bishops writing
+    in Latin. They adapted Egyptian desert teaching to Gaul. They argued over grace and human effort,
+    and Vincent set out a test for judging church teaching. Whether the northern and southern groups form
+    one tradition is unsettled. The year 450 is a working limit; the real shift came in the 470s, when
+    bishops took over the debate.

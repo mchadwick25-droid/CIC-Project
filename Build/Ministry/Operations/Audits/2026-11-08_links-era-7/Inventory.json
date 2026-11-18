@@ -1,0 +1,2420 @@
+{
+ "era": 7,
+ "date": "2026-11-08",
+ "movements": [
+  {
+   "id": "lutheran-wittenberg-and-its-congregations",
+   "name": "Lutheran Wittenberg & Its Congregations",
+   "relationships": [
+    {
+     "field": "relationsSummary",
+     "sentence": "Grew out of late-medieval piety and its protest against Rome, becoming a rival to Rome and a sibling rival to the Reformed churches.",
+     "other": "late-medieval Catholic piety",
+     "other_id": "late-medieval-lay-parish-piety",
+     "other_era": 6,
+     "claim": "descends from"
+    },
+    {
+     "field": "relationsSummary",
+     "sentence": "Grew out of late-medieval piety and its protest against Rome, becoming a rival to Rome and a sibling rival to the Reformed churches.",
+     "other": "Rome (late-medieval papal church)",
+     "other_id": "latin-papal-church-avignon-to-lateran-v",
+     "other_era": 6,
+     "claim": "argued against"
+    },
+    {
+     "field": "relationsSummary",
+     "sentence": "Grew out of late-medieval piety and its protest against Rome, becoming a rival to Rome and a sibling rival to the Reformed churches.",
+     "other": "Rome (Catholic church of the Reformation era)",
+     "other_id": "the-tridentine-church",
+     "other_era": 7,
+     "claim": "argued against"
+    },
+    {
+     "field": "relationsSummary",
+     "sentence": "Grew out of late-medieval piety and its protest against Rome, becoming a rival to Rome and a sibling rival to the Reformed churches.",
+     "other": "Reformed churches",
+     "other_id": "the-reformed-cities-zurich-and-geneva",
+     "other_era": 7,
+     "claim": "argued against"
+    },
+    {
+     "field": "relationsSummary",
+     "sentence": "The Augustinian Hermits, Luther's own religious order, were its seedbed: the order's houses in Lutheran lands were absorbed into the new movement, while its Catholic houses continued within the Catholic Church.",
+     "other": "Augustinian Hermits (Luther's own order)",
+     "other_id": null,
+     "other_era": null,
+     "claim": "descends from"
+    },
+    {
+     "field": "relationsSummary",
+     "sentence": "The Augustinian Hermits, Luther's own religious order, were its seedbed: the order's houses in Lutheran lands were absorbed into the new movement, while its Catholic houses continued within the Catholic Church.",
+     "other": "Catholic Church (Augustinian Hermits' Catholic houses)",
+     "other_id": "the-tridentine-church",
+     "other_era": 7,
+     "claim": "other"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "And the churches shaped by it spread north and east across Germany and Scandinavia, where they remain.",
+     "other": "Scandinavian churches",
+     "other_id": "scandinavian-reformation-kingdoms",
+     "other_era": 7,
+     "claim": "influenced"
+    }
+   ],
+   "existing_links": [
+    {
+     "id": "lutheran-wittenberg-and-its-congregations--the-anabaptist-movements",
+     "type": "argued against",
+     "confidence": "Documented"
+    },
+    {
+     "id": "the-anabaptist-movements--lutheran-wittenberg-and-its-congregations",
+     "type": "argued against",
+     "confidence": "Documented"
+    },
+    {
+     "id": "lutheran-wittenberg-and-its-congregations--the-reformed-cities-zurich-and-geneva",
+     "type": "in contact with",
+     "confidence": "Documented"
+    },
+    {
+     "id": "lutheran-wittenberg-and-its-congregations--the-reformed-cities-zurich-and-geneva--2",
+     "type": "argued against",
+     "confidence": "Documented"
+    },
+    {
+     "id": "antiochene-exegetical-christianity-chrysostom-ce--lutheran-wittenberg-and-its-congregations",
+     "type": "influenced",
+     "confidence": "Documented"
+    }
+   ]
+  },
+  {
+   "id": "the-reformed-cities-zurich-and-geneva",
+   "name": "The Reformed Cities - Zurich & Geneva",
+   "relationships": [
+    {
+     "field": "relationsSummary",
+     "sentence": "Parent of the Scottish, Huguenot, Dutch, and Puritan traditions",
+     "other": "Scottish Kirk",
+     "other_id": "the-scottish-reformation-and-kirk",
+     "other_era": 7,
+     "claim": "other"
+    },
+    {
+     "field": "relationsSummary",
+     "sentence": "Parent of the Scottish, Huguenot, Dutch, and Puritan traditions",
+     "other": "Huguenots",
+     "other_id": "the-huguenots",
+     "other_era": 7,
+     "claim": "other"
+    },
+    {
+     "field": "relationsSummary",
+     "sentence": "Parent of the Scottish, Huguenot, Dutch, and Puritan traditions",
+     "other": "Dutch Reformed (Dutch Further Reformation)",
+     "other_id": "dutch-further-reformation-and-refuge-culture",
+     "other_era": 7,
+     "claim": "other"
+    },
+    {
+     "field": "relationsSummary",
+     "sentence": "Parent of the Scottish, Huguenot, Dutch, and Puritan traditions",
+     "other": "English Puritanism",
+     "other_id": "puritanism",
+     "other_era": 7,
+     "claim": "other"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "From these two cities the Reformed pattern traveled: Scotland, France, the Netherlands and English Puritanism all trace back here.",
+     "other": "Scottish Kirk",
+     "other_id": "the-scottish-reformation-and-kirk",
+     "other_era": 7,
+     "claim": "other"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "From these two cities the Reformed pattern traveled: Scotland, France, the Netherlands and English Puritanism all trace back here.",
+     "other": "Huguenots",
+     "other_id": "the-huguenots",
+     "other_era": 7,
+     "claim": "other"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "From these two cities the Reformed pattern traveled: Scotland, France, the Netherlands and English Puritanism all trace back here.",
+     "other": "Dutch Reformed (Dutch Further Reformation)",
+     "other_id": "dutch-further-reformation-and-refuge-culture",
+     "other_era": 7,
+     "claim": "other"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "From these two cities the Reformed pattern traveled: Scotland, France, the Netherlands and English Puritanism all trace back here.",
+     "other": "English Puritanism",
+     "other_id": "puritanism",
+     "other_era": 7,
+     "claim": "other"
+    },
+    {
+     "field": "legacy",
+     "sentence": "Reformed and Presbyterian churches worldwide descend from these two cities, and so do four traditions this map carries separately.",
+     "other": "Reformed and Presbyterian churches worldwide",
+     "other_id": null,
+     "other_era": null,
+     "claim": "other"
+    },
+    {
+     "field": "legacy",
+     "sentence": "The Scottish Kirk, the Huguenots, the Dutch Reformed and English Puritanism.",
+     "other": "Scottish Kirk",
+     "other_id": "the-scottish-reformation-and-kirk",
+     "other_era": 7,
+     "claim": "other"
+    },
+    {
+     "field": "legacy",
+     "sentence": "The Scottish Kirk, the Huguenots, the Dutch Reformed and English Puritanism.",
+     "other": "Huguenots",
+     "other_id": "the-huguenots",
+     "other_era": 7,
+     "claim": "other"
+    },
+    {
+     "field": "legacy",
+     "sentence": "The Scottish Kirk, the Huguenots, the Dutch Reformed and English Puritanism.",
+     "other": "Dutch Reformed (Dutch Further Reformation)",
+     "other_id": "dutch-further-reformation-and-refuge-culture",
+     "other_era": 7,
+     "claim": "other"
+    },
+    {
+     "field": "legacy",
+     "sentence": "The Scottish Kirk, the Huguenots, the Dutch Reformed and English Puritanism.",
+     "other": "English Puritanism",
+     "other_id": "puritanism",
+     "other_era": 7,
+     "claim": "other"
+    }
+   ],
+   "existing_links": [
+    {
+     "id": "latin-pastoral-congregational-christianity--the-reformed-cities-zurich-and-geneva",
+     "type": "influenced",
+     "confidence": "Documented"
+    },
+    {
+     "id": "lutheran-wittenberg-and-its-congregations--the-reformed-cities-zurich-and-geneva",
+     "type": "in contact with",
+     "confidence": "Documented"
+    },
+    {
+     "id": "lutheran-wittenberg-and-its-congregations--the-reformed-cities-zurich-and-geneva--2",
+     "type": "argued against",
+     "confidence": "Documented"
+    },
+    {
+     "id": "the-reformed-cities-zurich-and-geneva--the-anabaptist-movements",
+     "type": "gave rise to",
+     "confidence": "Documented"
+    },
+    {
+     "id": "the-reformed-cities-zurich-and-geneva--the-anabaptist-movements--2",
+     "type": "argued against",
+     "confidence": "Documented"
+    },
+    {
+     "id": "antiochene-exegetical-christianity-chrysostom-ce--the-reformed-cities-zurich-and-geneva",
+     "type": "influenced",
+     "confidence": "Documented"
+    },
+    {
+     "id": "the-reformed-cities-zurich-and-geneva--latin-papal-church-gregorian",
+     "type": "argued against",
+     "confidence": "Documented"
+    }
+   ]
+  },
+  {
+   "id": "the-anabaptist-movements",
+   "name": "The Anabaptist Movements",
+   "relationships": [
+    {
+     "field": "relationsSummary",
+     "sentence": "Persecuted by Lutheran, Reformed, and Catholic traditions alike - a loud tension in the sources; parent of the free-church line",
+     "other": "Lutheran traditions",
+     "other_id": "lutheran-wittenberg-and-its-congregations",
+     "other_era": 7,
+     "claim": "condemned by"
+    },
+    {
+     "field": "relationsSummary",
+     "sentence": "Persecuted by Lutheran, Reformed, and Catholic traditions alike - a loud tension in the sources; parent of the free-church line",
+     "other": "Reformed traditions",
+     "other_id": "the-reformed-cities-zurich-and-geneva",
+     "other_era": 7,
+     "claim": "condemned by"
+    },
+    {
+     "field": "relationsSummary",
+     "sentence": "Persecuted by Lutheran, Reformed, and Catholic traditions alike - a loud tension in the sources; parent of the free-church line",
+     "other": "Catholic traditions",
+     "other_id": "the-tridentine-church",
+     "other_era": 7,
+     "claim": "condemned by"
+    },
+    {
+     "field": "relationsSummary",
+     "sentence": "Persecuted by Lutheran, Reformed, and Catholic traditions alike - a loud tension in the sources; parent of the free-church line",
+     "other": "free-church line (Baptists and later free churches)",
+     "other_id": "the-baptists",
+     "other_era": 8,
+     "claim": "other"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "In January 1525 a handful of men in Zurich, impatient with how slowly their own city's reform was moving, baptized one another as adults — and were hunted for it.",
+     "other": "Zurich reform (Reformed Zurich)",
+     "other_id": "the-reformed-cities-zurich-and-geneva",
+     "other_era": 7,
+     "claim": "broke with"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "Catholic, Lutheran and Reformed authorities alike treated this as sedition and executed them by the hundreds.",
+     "other": "Catholic authorities",
+     "other_id": "the-tridentine-church",
+     "other_era": 7,
+     "claim": "condemned by"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "Catholic, Lutheran and Reformed authorities alike treated this as sedition and executed them by the hundreds.",
+     "other": "Lutheran authorities",
+     "other_id": "lutheran-wittenberg-and-its-congregations",
+     "other_era": 7,
+     "claim": "condemned by"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "Catholic, Lutheran and Reformed authorities alike treated this as sedition and executed them by the hundreds.",
+     "other": "Reformed authorities",
+     "other_id": "the-reformed-cities-zurich-and-geneva",
+     "other_era": 7,
+     "claim": "condemned by"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "The survivors regrouped: Hutterite communities holding goods in common in Moravia, and in the Low Countries the congregations gathered by a former priest, Menno Simons, whose name their descendants still carry.",
+     "other": "Hutterite communities (Moravia)",
+     "other_id": null,
+     "other_era": null,
+     "claim": "other"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "The survivors regrouped: Hutterite communities holding goods in common in Moravia, and in the Low Countries the congregations gathered by a former priest, Menno Simons, whose name their descendants still carry.",
+     "other": "Mennonite congregations (Low Countries)",
+     "other_id": null,
+     "other_era": null,
+     "claim": "other"
+    },
+    {
+     "field": "why",
+     "sentence": "In January 1525, a small group in Zurich baptized one another as adults, and Lutheran, Reformed and Catholic authorities alike hunted them down for it.",
+     "other": "Lutheran authorities",
+     "other_id": "lutheran-wittenberg-and-its-congregations",
+     "other_era": 7,
+     "claim": "condemned by"
+    },
+    {
+     "field": "why",
+     "sentence": "In January 1525, a small group in Zurich baptized one another as adults, and Lutheran, Reformed and Catholic authorities alike hunted them down for it.",
+     "other": "Reformed authorities",
+     "other_id": "the-reformed-cities-zurich-and-geneva",
+     "other_era": 7,
+     "claim": "condemned by"
+    },
+    {
+     "field": "why",
+     "sentence": "In January 1525, a small group in Zurich baptized one another as adults, and Lutheran, Reformed and Catholic authorities alike hunted them down for it.",
+     "other": "Catholic authorities",
+     "other_id": "the-tridentine-church",
+     "other_era": 7,
+     "claim": "condemned by"
+    },
+    {
+     "field": "legacy",
+     "sentence": "The movement survives directly: Mennonites, Amish, Hutterites and Brethren all descend from it, and the wider free-church principle — that membership is a voluntary adult commitment and that the church should not be an arm of the state — became one of the most widely adopted Protestant ideas in the world.",
+     "other": "Mennonites, Amish, Hutterites and Brethren",
+     "other_id": null,
+     "other_era": null,
+     "claim": "other"
+    }
+   ],
+   "existing_links": [
+    {
+     "id": "lutheran-wittenberg-and-its-congregations--the-anabaptist-movements",
+     "type": "argued against",
+     "confidence": "Documented"
+    },
+    {
+     "id": "the-anabaptist-movements--lutheran-wittenberg-and-its-congregations",
+     "type": "argued against",
+     "confidence": "Documented"
+    },
+    {
+     "id": "the-reformed-cities-zurich-and-geneva--the-anabaptist-movements",
+     "type": "gave rise to",
+     "confidence": "Documented"
+    },
+    {
+     "id": "the-reformed-cities-zurich-and-geneva--the-anabaptist-movements--2",
+     "type": "argued against",
+     "confidence": "Documented"
+    }
+   ]
+  },
+  {
+   "id": "the-english-reformation-and-elizabethan-settleme",
+   "name": "The English Reformation & Elizabethan Settlement",
+   "relationships": [
+    {
+     "field": "relationsSummary",
+     "sentence": "Shaped by Lutheran and Reformed influences taking root in England, and the parent of both the Anglican tradition and the dissenting Protestant churches that broke from it.",
+     "other": "Lutheran influences (Lutheran Wittenberg)",
+     "other_id": "lutheran-wittenberg-and-its-congregations",
+     "other_era": 7,
+     "claim": "influenced"
+    },
+    {
+     "field": "relationsSummary",
+     "sentence": "Shaped by Lutheran and Reformed influences taking root in England, and the parent of both the Anglican tradition and the dissenting Protestant churches that broke from it.",
+     "other": "Reformed influences (Reformed Zurich and Geneva)",
+     "other_id": "the-reformed-cities-zurich-and-geneva",
+     "other_era": 7,
+     "claim": "influenced"
+    },
+    {
+     "field": "relationsSummary",
+     "sentence": "Shaped by Lutheran and Reformed influences taking root in England, and the parent of both the Anglican tradition and the dissenting Protestant churches that broke from it.",
+     "other": "Anglican tradition (Church of England)",
+     "other_id": "victorian-church-of-england",
+     "other_era": 9,
+     "claim": "other"
+    },
+    {
+     "field": "relationsSummary",
+     "sentence": "Shaped by Lutheran and Reformed influences taking root in England, and the parent of both the Anglican tradition and the dissenting Protestant churches that broke from it.",
+     "other": "dissenting Protestant churches",
+     "other_id": "english-old-dissent",
+     "other_era": 8,
+     "claim": "other"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "And only afterwards became a change in what people believed, swinging hard toward Protestantism under Edward VI, back to Rome under Mary I, and settling under Elizabeth I into a church that kept bishops and cathedrals while preaching a Protestant gospel.",
+     "other": "Rome (under Mary I)",
+     "other_id": "the-tridentine-church",
+     "other_era": 7,
+     "claim": "other"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "England's Reformation began as a king's quarrel — Henry VIII's break with Rome in the 1530s.",
+     "other": "Rome",
+     "other_id": "the-tridentine-church",
+     "other_era": 7,
+     "claim": "broke with"
+    },
+    {
+     "field": "legacy",
+     "sentence": "The dissenting traditions that later broke away from it, Puritan, Congregational and Baptist, are equally its children.",
+     "other": "Puritan tradition",
+     "other_id": "puritanism",
+     "other_era": 7,
+     "claim": "other"
+    },
+    {
+     "field": "legacy",
+     "sentence": "The dissenting traditions that later broke away from it, Puritan, Congregational and Baptist, are equally its children.",
+     "other": "Congregational dissent",
+     "other_id": "english-old-dissent",
+     "other_era": 8,
+     "claim": "other"
+    },
+    {
+     "field": "legacy",
+     "sentence": "The dissenting traditions that later broke away from it, Puritan, Congregational and Baptist, are equally its children.",
+     "other": "Baptist tradition",
+     "other_id": "the-baptists",
+     "other_era": 8,
+     "claim": "other"
+    }
+   ],
+   "existing_links": []
+  },
+  {
+   "id": "the-scottish-reformation-and-kirk",
+   "name": "The Scottish Reformation & Kirk",
+   "relationships": [
+    {
+     "field": "relationsSummary",
+     "sentence": "Child of Geneva; distinct national-covenantal formation logic (a real uniqueness test)",
+     "other": "Geneva (Reformed Zurich and Geneva)",
+     "other_id": "the-reformed-cities-zurich-and-geneva",
+     "other_era": 7,
+     "claim": "descends from"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "In 1560 the Scottish Parliament abolished papal authority and adopted a Reformed confession of faith, and the church that followed set out to remake a whole nation rather than a single city: a minister and a school in every parish, and in each parish a kirk session of elders meeting to deal with quarrels, drunkenness, broken promises and sexual misconduct.",
+     "other": "papal authority (Rome)",
+     "other_id": "the-tridentine-church",
+     "other_era": 7,
+     "claim": "broke with"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "In 1560 the Scottish Parliament abolished papal authority and adopted a Reformed confession of faith, and the church that followed set out to remake a whole nation rather than a single city: a minister and a school in every parish, and in each parish a kirk session of elders meeting to deal with quarrels, drunkenness, broken promises and sexual misconduct.",
+     "other": "Reformed confession (Geneva tradition)",
+     "other_id": "the-reformed-cities-zurich-and-geneva",
+     "other_era": 7,
+     "claim": "influenced"
+    },
+    {
+     "field": "why",
+     "sentence": "Scotland's kirk sessions kept records even denser than Geneva's, mostly over small quarrels between neighbors who then had to keep living side by side.",
+     "other": "Geneva consistory (Reformed Zurich and Geneva)",
+     "other_id": "the-reformed-cities-zurich-and-geneva",
+     "other_era": 7,
+     "claim": "other"
+    },
+    {
+     "field": "legacy",
+     "sentence": "It became the Church of Scotland, and through emigration and mission the worldwide Presbyterian family.",
+     "other": "worldwide Presbyterian family",
+     "other_id": null,
+     "other_era": null,
+     "claim": "other"
+    }
+   ],
+   "existing_links": []
+  },
+  {
+   "id": "the-huguenots",
+   "name": "The Huguenots",
+   "relationships": [
+    {
+     "field": "relationsSummary",
+     "sentence": "Grew directly out of Calvin's Geneva, and became one of history's clearest examples of a persecuted community scattering into exile across an entire continent.",
+     "other": "Calvin's Geneva (Reformed Zurich and Geneva)",
+     "other_id": "the-reformed-cities-zurich-and-geneva",
+     "other_era": 7,
+     "claim": "descends from"
+    },
+    {
+     "field": "relationsSummary",
+     "sentence": "Grew directly out of Calvin's Geneva, and became one of history's clearest examples of a persecuted community scattering into exile across an entire continent.",
+     "other": "French Catholic state",
+     "other_id": null,
+     "other_era": null,
+     "claim": "condemned by"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "In 1559 delegates met secretly in Paris to adopt a confession of faith and a book of discipline, creating a national church inside a Catholic kingdom.",
+     "other": "Catholic kingdom of France",
+     "other_id": null,
+     "other_era": null,
+     "claim": "other"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "What followed was nearly a century of civil war and precarious tolerance — the St Bartholomew's Day massacres of August 1572, the Edict of Nantes in 1598 that gave them legal existence and fortified towns, then the slow erosion of that edict until Louis XIV revoked it in 1685.",
+     "other": "Catholic crowds and crown (St Bartholomew's Day massacres)",
+     "other_id": null,
+     "other_era": null,
+     "claim": "condemned by"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "What followed was nearly a century of civil war and precarious tolerance — the St Bartholomew's Day massacres of August 1572, the Edict of Nantes in 1598 that gave them legal existence and fortified towns, then the slow erosion of that edict until Louis XIV revoked it in 1685.",
+     "other": "Louis XIV's crown (revocation of the Edict of Nantes)",
+     "other_id": null,
+     "other_era": null,
+     "claim": "condemned by"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "Rather than convert, several hundred thousand left, carrying their trades, their psalters and their memory of what it was to flee into England, the Dutch Republic, Prussia, Switzerland, South Africa and the American colonies.",
+     "other": "England",
+     "other_id": null,
+     "other_era": null,
+     "claim": "contact"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "Rather than convert, several hundred thousand left, carrying their trades, their psalters and their memory of what it was to flee into England, the Dutch Republic, Prussia, Switzerland, South Africa and the American colonies.",
+     "other": "Dutch Republic (refuge culture)",
+     "other_id": "dutch-further-reformation-and-refuge-culture",
+     "other_era": 7,
+     "claim": "contact"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "Rather than convert, several hundred thousand left, carrying their trades, their psalters and their memory of what it was to flee into England, the Dutch Republic, Prussia, Switzerland, South Africa and the American colonies.",
+     "other": "Prussia, Switzerland, South Africa and the American colonies",
+     "other_id": null,
+     "other_era": null,
+     "claim": "contact"
+    },
+    {
+     "field": "legacy",
+     "sentence": "Huguenot surnames, silk-weaving and watchmaking trades, and congregations founded in London, Berlin, Amsterdam, Cape Town and Charleston.",
+     "other": "Huguenot congregations in London, Berlin, Amsterdam, Cape Town and Charleston",
+     "other_id": null,
+     "other_era": null,
+     "claim": "other"
+    }
+   ],
+   "existing_links": []
+  },
+  {
+   "id": "recusant-english-catholicism",
+   "name": "Recusant English Catholicism",
+   "relationships": [
+    {
+     "field": "relationsSummary",
+     "sentence": "A household-based church forced underground by persecution, echoing how the earliest Christians met and organized in private homes centuries before institutional churches existed.",
+     "other": "earliest Christians (house churches)",
+     "other_id": "post-apostolic-house-church",
+     "other_era": 1,
+     "claim": "other"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "After Elizabeth I's settlement of 1559, English Catholics who would not attend their parish church were fined as recusants — refusers.",
+     "other": "Elizabethan parish church (Church of England)",
+     "other_id": "the-english-reformation-and-elizabethan-settleme",
+     "other_era": 7,
+     "claim": "condemned by"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "And from 1585 it was treason for a priest ordained abroad even to set foot in the country.",
+     "other": "Elizabethan state (penal laws)",
+     "other_id": "the-english-reformation-and-elizabethan-settleme",
+     "other_era": 7,
+     "claim": "condemned by"
+    }
+   ],
+   "existing_links": []
+  },
+  {
+   "id": "puritanism",
+   "name": "Puritanism",
+   "relationships": [
+    {
+     "field": "relationsSummary",
+     "sentence": "Child of Geneva + the English settlement's tensions; parent of the evangelical line",
+     "other": "Geneva (Reformed Zurich and Geneva)",
+     "other_id": "the-reformed-cities-zurich-and-geneva",
+     "other_era": 7,
+     "claim": "descends from"
+    },
+    {
+     "field": "relationsSummary",
+     "sentence": "Child of Geneva + the English settlement's tensions; parent of the evangelical line",
+     "other": "English Reformation (Elizabethan settlement)",
+     "other_id": "the-english-reformation-and-elizabethan-settleme",
+     "other_era": 7,
+     "claim": "descends from"
+    },
+    {
+     "field": "relationsSummary",
+     "sentence": "Child of Geneva + the English settlement's tensions; parent of the evangelical line",
+     "other": "evangelical line (evangelical awakening in New England)",
+     "other_id": "the-evangelical-awakening-in-new-england",
+     "other_era": 8,
+     "claim": "other"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "Puritans were the English Protestants who thought the Elizabethan settlement had stopped halfway.",
+     "other": "English Reformation (Elizabethan settlement)",
+     "other_id": "the-english-reformation-and-elizabethan-settleme",
+     "other_era": 7,
+     "claim": "argued against"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "Pressed at home, thousands sailed for New England from 1630.",
+     "other": "New England colonies",
+     "other_id": null,
+     "other_era": null,
+     "claim": "contact"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "Those who stayed came to dominate the Long Parliament and the Westminster Assembly, and after the Restoration of 1660 were ejected from the Church of England altogether.",
+     "other": "Long Parliament and Westminster Assembly",
+     "other_id": null,
+     "other_era": null,
+     "claim": "other"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "Those who stayed came to dominate the Long Parliament and the Westminster Assembly, and after the Restoration of 1660 were ejected from the Church of England altogether.",
+     "other": "Church of England after the Restoration",
+     "other_id": "restoration-georgian-church-of-england",
+     "other_era": 8,
+     "claim": "condemned by"
+    },
+    {
+     "field": "why",
+     "sentence": "Puritans thought the English Reformation had stopped halfway, and their sharpest distinctiveness was interior: they kept diaries examining their own hearts and told conversion narratives — an account of how God had brought them to faith — aloud before the whole congregation.",
+     "other": "English Reformation",
+     "other_id": "the-english-reformation-and-elizabethan-settleme",
+     "other_era": 7,
+     "claim": "argued against"
+    },
+    {
+     "field": "why",
+     "sentence": "Pressed at home, thousands carried that habit across the Atlantic to New England from 1630.",
+     "other": "New England colonies",
+     "other_id": null,
+     "other_era": null,
+     "claim": "contact"
+    },
+    {
+     "field": "legacy",
+     "sentence": "English Congregationalism, Presbyterianism and much of the Baptist tradition come straight out of it, and so does the culture of early New England, including Harvard, founded in 1636 to train its ministers.",
+     "other": "English Congregationalism and Presbyterianism",
+     "other_id": "english-old-dissent",
+     "other_era": 8,
+     "claim": "other"
+    },
+    {
+     "field": "legacy",
+     "sentence": "English Congregationalism, Presbyterianism and much of the Baptist tradition come straight out of it, and so does the culture of early New England, including Harvard, founded in 1636 to train its ministers.",
+     "other": "Baptist tradition",
+     "other_id": "the-baptists",
+     "other_era": 8,
+     "claim": "other"
+    },
+    {
+     "field": "legacy",
+     "sentence": "English Congregationalism, Presbyterianism and much of the Baptist tradition come straight out of it, and so does the culture of early New England, including Harvard, founded in 1636 to train its ministers.",
+     "other": "early New England culture (Harvard)",
+     "other_id": null,
+     "other_era": null,
+     "claim": "other"
+    },
+    {
+     "field": "legacy",
+     "sentence": "And its insistence on personal conversion runs directly into the evangelical revivals of the following century.",
+     "other": "evangelical revivals of the following century",
+     "other_id": "the-evangelical-awakening-in-new-england",
+     "other_era": 8,
+     "claim": "influenced"
+    }
+   ],
+   "existing_links": []
+  },
+  {
+   "id": "dutch-further-reformation-and-refuge-culture",
+   "name": "Dutch Further Reformation & Refuge Culture",
+   "relationships": [
+    {
+     "field": "relationsSummary",
+     "sentence": "Its practical piety later fed into German Pietism and, through the Dutch Reformed diaspora, reached South Africa and North America.",
+     "other": "German Pietism",
+     "other_id": "german-pietism-spener-francke-halle",
+     "other_era": 8,
+     "claim": "influenced"
+    },
+    {
+     "field": "relationsSummary",
+     "sentence": "Its practical piety later fed into German Pietism and, through the Dutch Reformed diaspora, reached South Africa and North America.",
+     "other": "South Africa and North America (Dutch Reformed diaspora)",
+     "other_id": null,
+     "other_era": null,
+     "claim": "contact"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "English separatists, French and Flemish refugees, Jews expelled from Iberia, and books that could be published nowhere else.",
+     "other": "English separatists",
+     "other_id": null,
+     "other_era": null,
+     "claim": "contact"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "English separatists, French and Flemish refugees, Jews expelled from Iberia, and books that could be published nowhere else.",
+     "other": "French refugees (Huguenots)",
+     "other_id": "the-huguenots",
+     "other_era": 7,
+     "claim": "contact"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "English separatists, French and Flemish refugees, Jews expelled from Iberia, and books that could be published nowhere else.",
+     "other": "Jews expelled from Iberia",
+     "other_id": null,
+     "other_era": null,
+     "claim": "contact"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "Inside the Reformed church itself a movement of preachers pressed for something beyond correct doctrine, urging precise, examined, daily godliness on their congregations; contemporaries called it the Nadere Reformatie, the further or closer Reformation.",
+     "other": "Reformed church (Reformed Zurich and Geneva)",
+     "other_id": "the-reformed-cities-zurich-and-geneva",
+     "other_era": 7,
+     "claim": "descends from"
+    },
+    {
+     "field": "legacy",
+     "sentence": "Translated into German, this Dutch practical divinity fed directly into German Pietism, and through the Dutch Reformed diaspora it reached South Africa and North America.",
+     "other": "German Pietism",
+     "other_id": "german-pietism-spener-francke-halle",
+     "other_era": 8,
+     "claim": "influenced"
+    }
+   ],
+   "existing_links": []
+  },
+  {
+   "id": "the-waldensian-reformed-union",
+   "name": "The Waldensian-Reformed Union",
+   "relationships": [
+    {
+     "field": "relationsSummary",
+     "sentence": "Medieval dissent grafted into Reformed Protestantism without losing its own memory.",
+     "other": "medieval Waldensian dissent",
+     "other_id": "the-waldensians",
+     "other_era": 5,
+     "claim": "descends from"
+    },
+    {
+     "field": "relationsSummary",
+     "sentence": "Medieval dissent grafted into Reformed Protestantism without losing its own memory.",
+     "other": "Reformed Protestantism",
+     "other_id": "the-reformed-cities-zurich-and-geneva",
+     "other_era": 7,
+     "claim": "influenced"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "The Waldensians had already survived three centuries of suppression as an underground movement of lay preachers when, in 1532, their representatives met at Chanforan in the Alpine valleys of Piedmont and agreed to join the young Reformed churches.",
+     "other": "Waldensians in the Alps (earlier stage)",
+     "other_id": "waldensians-in-the-alps",
+     "other_era": 6,
+     "claim": "descends from"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "The Waldensians had already survived three centuries of suppression as an underground movement of lay preachers when, in 1532, their representatives met at Chanforan in the Alpine valleys of Piedmont and agreed to join the young Reformed churches.",
+     "other": "young Reformed churches",
+     "other_id": "the-reformed-cities-zurich-and-geneva",
+     "other_era": 7,
+     "claim": "influenced"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "That memory was tested repeatedly, most brutally in the Piedmont massacre of Easter 1655, which drew protests from across Protestant Europe and a famous sonnet from John Milton.",
+     "other": "Protestant Europe (protests over the 1655 massacre)",
+     "other_id": null,
+     "other_era": null,
+     "claim": "contact"
+    },
+    {
+     "field": "why",
+     "sentence": "Their communities were massacred at Easter 1655, an atrocity that drew protests across Protestant Europe and a sonnet from John Milton.",
+     "other": "Protestant Europe (protests over the 1655 massacre)",
+     "other_id": null,
+     "other_era": null,
+     "claim": "contact"
+    },
+    {
+     "field": "legacy",
+     "sentence": "The Waldensian Church still exists — since the nineteenth century out of the valleys and across Italy, with a sister church in Argentina and Uruguay, and since 1979 in union with Italian Methodists.",
+     "other": "Italian Methodists",
+     "other_id": "nineteenth-century-methodism",
+     "other_era": 9,
+     "claim": "other"
+    },
+    {
+     "field": "legacy",
+     "sentence": "The Waldensian Church still exists — since the nineteenth century out of the valleys and across Italy, with a sister church in Argentina and Uruguay, and since 1979 in union with Italian Methodists.",
+     "other": "Waldensian sister church in Argentina and Uruguay",
+     "other_id": null,
+     "other_era": null,
+     "claim": "other"
+    }
+   ],
+   "existing_links": [
+    {
+     "id": "waldensians-in-the-alps--the-waldensian-reformed-union",
+     "type": "continued as",
+     "confidence": "Contested"
+    }
+   ]
+  },
+  {
+   "id": "the-society-of-jesus",
+   "name": "The Society of Jesus",
+   "relationships": [
+    {
+     "field": "relationsSummary",
+     "sentence": "Spearhead of Catholic reform; parent of the mission-born traditions",
+     "other": "Catholic reform (Tridentine Church)",
+     "other_id": "the-tridentine-church",
+     "other_era": 7,
+     "claim": "influenced"
+    },
+    {
+     "field": "relationsSummary",
+     "sentence": "Spearhead of Catholic reform; parent of the mission-born traditions",
+     "other": "mission-born Christianities",
+     "other_id": "mission-born-christianities-kirishitan-japan-kon",
+     "other_era": 7,
+     "claim": "other"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "Not as a monastic order in a cloister but as a mobile body of preachers, confessors, schoolmasters and missionaries, running dozens of colleges across Europe within a generation, and some two hundred and fifty by 1600, and sending men to India, Japan, China, Brazil and Canada.",
+     "other": "Japan mission (Kirishitan Japan)",
+     "other_id": "kirishitan-japan",
+     "other_era": 7,
+     "claim": "other"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "Not as a monastic order in a cloister but as a mobile body of preachers, confessors, schoolmasters and missionaries, running dozens of colleges across Europe within a generation, and some two hundred and fifty by 1600, and sending men to India, Japan, China, Brazil and Canada.",
+     "other": "China mission (Ming China)",
+     "other_id": "china-mission-born-christianity",
+     "other_era": 7,
+     "claim": "other"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "Not as a monastic order in a cloister but as a mobile body of preachers, confessors, schoolmasters and missionaries, running dozens of colleges across Europe within a generation, and some two hundred and fifty by 1600, and sending men to India, Japan, China, Brazil and Canada.",
+     "other": "missions in India, Brazil and Canada",
+     "other_id": null,
+     "other_era": null,
+     "claim": "other"
+    },
+    {
+     "field": "legacy",
+     "sentence": "And its lasting spiritual one is the Spiritual Exercises, still made as eight-day and thirty-day retreats by Catholics and, increasingly, by Protestants.",
+     "other": "Protestants (making the Spiritual Exercises)",
+     "other_id": null,
+     "other_era": null,
+     "claim": "influenced"
+    }
+   ],
+   "existing_links": []
+  },
+  {
+   "id": "tridentine-parish-renewal-borromean-milan",
+   "name": "Tridentine Parish Renewal - Borromean Milan",
+   "relationships": [
+    {
+     "field": "relationsSummary",
+     "sentence": "The Catholic mirror of Wittenberg's parish question",
+     "other": "Lutheran Wittenberg (parish question)",
+     "other_id": "lutheran-wittenberg-and-its-congregations",
+     "other_era": 7,
+     "claim": "other"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "The Council of Trent decided what Catholic reform ought to mean; Milan under Archbishop Charles Borromeo showed what it looked like in a parish.",
+     "other": "Council of Trent (Tridentine Church)",
+     "other_id": "the-tridentine-church",
+     "other_era": 7,
+     "claim": "descends from"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "He also mobilized the laity, through Schools of Christian Doctrine in which ordinary men and women taught catechism to children and through confraternities that organized charity.",
+     "other": "confraternities (lay charity groups)",
+     "other_id": null,
+     "other_era": null,
+     "claim": "other"
+    },
+    {
+     "field": "legacy",
+     "sentence": "Charles Borromeo remains one of Catholicism's most widely invoked patrons of bishops and seminarians, and his diocese still keeps the Ambrosian rite that long predates him.",
+     "other": "Ambrosian rite (Ambrosian Milan)",
+     "other_id": "ambrosian-milan-standalone",
+     "other_era": 2,
+     "claim": "continues"
+    }
+   ],
+   "existing_links": []
+  },
+  {
+   "id": "mission-born-christianities-kirishitan-japan-kon",
+   "name": "Mission-Born Christianities (Kirishitan Japan; Kongo; China; New Spain/Andes)",
+   "relationships": [
+    {
+     "field": "relationsSummary",
+     "sentence": "Grew out of the Jesuit missions and the wider Catholic Reformation, and became the root of Christianity's spread as a truly global religion in the centuries that followed.",
+     "other": "Jesuit missions",
+     "other_id": "the-society-of-jesus",
+     "other_era": 7,
+     "claim": "descends from"
+    },
+    {
+     "field": "relationsSummary",
+     "sentence": "Grew out of the Jesuit missions and the wider Catholic Reformation, and became the root of Christianity's spread as a truly global religion in the centuries that followed.",
+     "other": "Catholic Reformation (Tridentine Church)",
+     "other_id": "the-tridentine-church",
+     "other_era": 7,
+     "claim": "descends from"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "The kingdom of Kongo, whose ruler Afonso I adopted the faith and whose letters survive in his own voice.",
+     "other": "Kongo Christianity",
+     "other_id": "kongo-christianity-afonso-to-1650",
+     "other_era": 7,
+     "claim": "other"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "Japan, where a Jesuit mission from 1549 gathered a large Christian population before a savage prohibition drove the survivors underground.",
+     "other": "Jesuit mission in Japan",
+     "other_id": "the-society-of-jesus",
+     "other_era": 7,
+     "claim": "descends from"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "Japan, where a Jesuit mission from 1549 gathered a large Christian population before a savage prohibition drove the survivors underground.",
+     "other": "Japanese prohibition (1614 onward)",
+     "other_id": null,
+     "other_era": null,
+     "claim": "condemned by"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "China, where Jesuits and Chinese converts argued out how the Christian God could be spoken of in a Confucian idiom.",
+     "other": "Jesuits in China",
+     "other_id": "the-society-of-jesus",
+     "other_era": 7,
+     "claim": "contact"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "And Spanish America, where conquest and mission arrived together and Andean and Nahua Christians made something of their own out of what they were given.",
+     "other": "New Spain and Andes mission Christianity",
+     "other_id": "new-spain-and-andes-mission-born-christianity",
+     "other_era": 7,
+     "claim": "other"
+    },
+    {
+     "field": "legacy",
+     "sentence": "The hidden Christians of Japan kept a transmitted faith for roughly two hundred and fifty years without priests, and their villages are now a UNESCO World Heritage site.",
+     "other": "hidden Christians of Japan (later emergence)",
+     "other_id": "japanese-christianity-hidden-emergence-meiji",
+     "other_era": 9,
+     "claim": "other"
+    },
+    {
+     "field": "legacy",
+     "sentence": "Latin American and Philippine Catholicism, with their processions, confraternities and local devotions, grew directly out of this period, and Kongolese Christianity shaped religion on both sides of the Atlantic, including among enslaved Africans in the Americas.",
+     "other": "Philippine Catholicism",
+     "other_id": "philippine-catholicism",
+     "other_era": 7,
+     "claim": "other"
+    },
+    {
+     "field": "legacy",
+     "sentence": "Latin American and Philippine Catholicism, with their processions, confraternities and local devotions, grew directly out of this period, and Kongolese Christianity shaped religion on both sides of the Atlantic, including among enslaved Africans in the Americas.",
+     "other": "Latin American devotional Catholicism",
+     "other_id": "colonial-latin-american-devotional-catholicism",
+     "other_era": 8,
+     "claim": "other"
+    },
+    {
+     "field": "legacy",
+     "sentence": "Latin American and Philippine Catholicism, with their processions, confraternities and local devotions, grew directly out of this period, and Kongolese Christianity shaped religion on both sides of the Atlantic, including among enslaved Africans in the Americas.",
+     "other": "enslaved Africans in the Americas",
+     "other_id": null,
+     "other_era": null,
+     "claim": "influenced"
+    }
+   ],
+   "existing_links": []
+  },
+  {
+   "id": "kongo-christianity-afonso-to-1650",
+   "name": "Kongo Christianity, Afonso I to 1650",
+   "relationships": [
+    {
+     "field": "relationsSummary",
+     "sentence": "Grew from the Portuguese mission of 1491 and the Jesuit missions of the Catholic Reformation; the later prophetic movement of Dona Beatriz (1704) is its own entry.",
+     "other": "Portuguese mission of 1491",
+     "other_id": null,
+     "other_era": null,
+     "claim": "descends from"
+    },
+    {
+     "field": "relationsSummary",
+     "sentence": "Grew from the Portuguese mission of 1491 and the Jesuit missions of the Catholic Reformation; the later prophetic movement of Dona Beatriz (1704) is its own entry.",
+     "other": "Jesuit missions",
+     "other_id": "the-society-of-jesus",
+     "other_era": 7,
+     "claim": "descends from"
+    },
+    {
+     "field": "relationsSummary",
+     "sentence": "Grew from the Portuguese mission of 1491 and the Jesuit missions of the Catholic Reformation; the later prophetic movement of Dona Beatriz (1704) is its own entry.",
+     "other": "Antonian movement (Dona Beatriz, 1704)",
+     "other_id": "the-antonian-movement-in-kongo",
+     "other_era": 8,
+     "claim": "other"
+    },
+    {
+     "field": "why",
+     "sentence": "In Kongo, King Afonso I adopted the faith, built churches, sent his sons to Lisbon, asked for priests, and left letters in his own voice that argue with Portugal about the slave trade and about his church.",
+     "other": "Lisbon (Portuguese court and church)",
+     "other_id": null,
+     "other_era": null,
+     "claim": "contact"
+    },
+    {
+     "field": "why",
+     "sentence": "In Kongo, King Afonso I adopted the faith, built churches, sent his sons to Lisbon, asked for priests, and left letters in his own voice that argue with Portugal about the slave trade and about his church.",
+     "other": "Portugal",
+     "other_id": null,
+     "other_era": null,
+     "claim": "argued against"
+    }
+   ],
+   "existing_links": []
+  },
+  {
+   "id": "kirishitan-japan",
+   "name": "Kirishitan Japan",
+   "relationships": [
+    {
+     "field": "relationsSummary",
+     "sentence": "Grew from the Jesuit mission of 1549; the prohibition of 1614 drove its communities underground, where hidden believers kept a transmitted faith for roughly two hundred and fifty years without a priest.",
+     "other": "Jesuit mission",
+     "other_id": "the-society-of-jesus",
+     "other_era": 7,
+     "claim": "descends from"
+    },
+    {
+     "field": "relationsSummary",
+     "sentence": "Grew from the Jesuit mission of 1549; the prohibition of 1614 drove its communities underground, where hidden believers kept a transmitted faith for roughly two hundred and fifty years without a priest.",
+     "other": "Japanese prohibition of 1614",
+     "other_id": null,
+     "other_era": null,
+     "claim": "condemned by"
+    },
+    {
+     "field": "relationsSummary",
+     "sentence": "Grew from the Jesuit mission of 1549; the prohibition of 1614 drove its communities underground, where hidden believers kept a transmitted faith for roughly two hundred and fifty years without a priest.",
+     "other": "hidden believers (later Japanese Christianity)",
+     "other_id": "japanese-christianity-hidden-emergence-meiji",
+     "other_era": 9,
+     "claim": "other"
+    },
+    {
+     "field": "why",
+     "sentence": "In Japan, a Jesuit mission from 1549 gathered a large Christian population before a savage prohibition drove the survivors underground.",
+     "other": "Japanese prohibition",
+     "other_id": null,
+     "other_era": null,
+     "claim": "condemned by"
+    },
+    {
+     "field": "why",
+     "sentence": "Hidden believers kept a transmitted faith alive for roughly two hundred and fifty years without a single priest, and their villages are now a World Heritage site.",
+     "other": "hidden believers (later Japanese Christianity)",
+     "other_id": "japanese-christianity-hidden-emergence-meiji",
+     "other_era": 9,
+     "claim": "other"
+    }
+   ],
+   "existing_links": []
+  },
+  {
+   "id": "china-mission-born-christianity",
+   "name": "Mission-Born Christianity in Ming China",
+   "relationships": [
+    {
+     "field": "relationsSummary",
+     "sentence": "Grew from Matteo Ricci's entry in 1583 and the Jesuit China mission; the rites controversy that followed belongs to the Society of Jesus and to later entries.",
+     "other": "Jesuit China mission",
+     "other_id": "the-society-of-jesus",
+     "other_era": 7,
+     "claim": "descends from"
+    },
+    {
+     "field": "relationsSummary",
+     "sentence": "Grew from Matteo Ricci's entry in 1583 and the Jesuit China mission; the rites controversy that followed belongs to the Society of Jesus and to later entries.",
+     "other": "rites controversy (Jesuits and later entries)",
+     "other_id": "the-society-of-jesus",
+     "other_era": 7,
+     "claim": "other"
+    },
+    {
+     "field": "why",
+     "sentence": "In China, Jesuits and Chinese converts argued out how the Christian God could be spoken of in a Confucian idiom.",
+     "other": "Jesuits",
+     "other_id": "the-society-of-jesus",
+     "other_era": 7,
+     "claim": "contact"
+    }
+   ],
+   "existing_links": []
+  },
+  {
+   "id": "new-spain-and-andes-mission-born-christianity",
+   "name": "Mission-Born Christianity in New Spain and the Andes",
+   "relationships": [
+    {
+     "field": "relationsSummary",
+     "sentence": "Grew from the Franciscan mission of 1524 and the Spanish conquest; colonial Latin American devotional Catholicism continues it.",
+     "other": "Franciscan mission",
+     "other_id": "the-franciscan-movement",
+     "other_era": 5,
+     "claim": "descends from"
+    },
+    {
+     "field": "relationsSummary",
+     "sentence": "Grew from the Franciscan mission of 1524 and the Spanish conquest; colonial Latin American devotional Catholicism continues it.",
+     "other": "Spanish conquest",
+     "other_id": null,
+     "other_era": null,
+     "claim": "descends from"
+    },
+    {
+     "field": "relationsSummary",
+     "sentence": "Grew from the Franciscan mission of 1524 and the Spanish conquest; colonial Latin American devotional Catholicism continues it.",
+     "other": "colonial Latin American devotional Catholicism",
+     "other_id": "colonial-latin-american-devotional-catholicism",
+     "other_era": 8,
+     "claim": "other"
+    },
+    {
+     "field": "why",
+     "sentence": "Guaman Poma's vast illustrated letter to the king protests what colonial Christianity had become; the Huarochiri manuscript exists only because an extirpator of idolatry commissioned it.",
+     "other": "colonial Spanish Christianity",
+     "other_id": null,
+     "other_era": null,
+     "claim": "argued against"
+    },
+    {
+     "field": "why",
+     "sentence": "Guaman Poma's vast illustrated letter to the king protests what colonial Christianity had become; the Huarochiri manuscript exists only because an extirpator of idolatry commissioned it.",
+     "other": "extirpators of idolatry (colonial church officials)",
+     "other_id": null,
+     "other_era": null,
+     "claim": "condemned by"
+    }
+   ],
+   "existing_links": []
+  },
+  {
+   "id": "anti-trinitarian-currents-servetus-polish-brethr",
+   "name": "Anti-Trinitarian Currents (Servetus; Polish Brethren/Socinians; Transylvanian Unitarians)",
+   "relationships": [
+    {
+     "field": "relationsSummary",
+     "sentence": "Michael Servetus was burned by Geneva's own council in 1553, and the Polish Brethren were expelled from Poland in 1658.",
+     "other": "Geneva city council (Reformed Zurich and Geneva)",
+     "other_id": "the-reformed-cities-zurich-and-geneva",
+     "other_era": 7,
+     "claim": "condemned by"
+    },
+    {
+     "field": "relationsSummary",
+     "sentence": "Michael Servetus was burned by Geneva's own council in 1553, and the Polish Brethren were expelled from Poland in 1658.",
+     "other": "Poland (expulsion)",
+     "other_id": null,
+     "other_era": null,
+     "claim": "condemned by"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "Michael Servetus published against it in 1531 and was burned at Geneva in 1553 with the city council's approval and Calvin's agreement.",
+     "other": "Geneva city council and Calvin",
+     "other_id": "the-reformed-cities-zurich-and-geneva",
+     "other_era": 7,
+     "claim": "condemned by"
+    },
+    {
+     "field": "legacy",
+     "sentence": "The Polish Brethren, expelled in 1658, scattered into the Netherlands and beyond, where their writings fed into Dutch and English rational theology and, at some distance, into later Unitarianism.",
+     "other": "Dutch rational theology (Dutch Further Reformation)",
+     "other_id": "dutch-further-reformation-and-refuge-culture",
+     "other_era": 7,
+     "claim": "influenced"
+    },
+    {
+     "field": "legacy",
+     "sentence": "The Polish Brethren, expelled in 1658, scattered into the Netherlands and beyond, where their writings fed into Dutch and English rational theology and, at some distance, into later Unitarianism.",
+     "other": "English rational theology",
+     "other_id": null,
+     "other_era": null,
+     "claim": "influenced"
+    },
+    {
+     "field": "legacy",
+     "sentence": "The Polish Brethren, expelled in 1658, scattered into the Netherlands and beyond, where their writings fed into Dutch and English rational theology and, at some distance, into later Unitarianism.",
+     "other": "later Unitarianism",
+     "other_id": "early-american-unitarians-universalists",
+     "other_era": 8,
+     "claim": "influenced"
+    }
+   ],
+   "existing_links": []
+  },
+  {
+   "id": "schwenckfelders",
+   "name": "Schwenckfelders",
+   "relationships": [
+    {
+     "field": "relationsSummary",
+     "sentence": "Spiritualist wing of the Reformation",
+     "other": "other spiritualists (Family of Love)",
+     "other_id": "family-of-love-and-spiritualists-franck-niclaes",
+     "other_era": 7,
+     "claim": "other"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "Caspar Schwenckfeld was a Silesian nobleman who welcomed Luther's reform and then broke with it, concluding that outward means — preaching, sacraments, church order — could not do what only the inward work of Christ could do.",
+     "other": "Lutheran Wittenberg (Luther's reform)",
+     "other_id": "lutheran-wittenberg-and-its-congregations",
+     "other_era": 7,
+     "claim": "broke with"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "In 1526 he urged that the Lord's Supper be suspended until Christians could agree what it was, a 'standing still' his followers kept for generations, and he taught a distinctive doctrine of the glorified, heavenly flesh of Christ that Lutherans and Reformed alike condemned.",
+     "other": "Lutherans",
+     "other_id": "lutheran-wittenberg-and-its-congregations",
+     "other_era": 7,
+     "claim": "condemned by"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "In 1526 he urged that the Lord's Supper be suspended until Christians could agree what it was, a 'standing still' his followers kept for generations, and he taught a distinctive doctrine of the glorified, heavenly flesh of Christ that Lutherans and Reformed alike condemned.",
+     "other": "Reformed churches",
+     "other_id": "the-reformed-cities-zurich-and-geneva",
+     "other_era": 7,
+     "claim": "condemned by"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "They met in houses, copied his writings out by hand, and were harried in Silesia for two centuries until a remnant emigrated to Pennsylvania in the 1730s.",
+     "other": "Silesian authorities",
+     "other_id": null,
+     "other_era": null,
+     "claim": "condemned by"
+    },
+    {
+     "field": "why",
+     "sentence": "Caspar Schwenckfeld broke with Luther over a conviction that outward things — preaching, sacraments, church order — could never do what only Christ's inward work could accomplish.",
+     "other": "Luther (Lutheran Wittenberg)",
+     "other_id": "lutheran-wittenberg-and-its-congregations",
+     "other_era": 7,
+     "claim": "broke with"
+    }
+   ],
+   "existing_links": []
+  },
+  {
+   "id": "family-of-love-and-spiritualists-franck-niclaes",
+   "name": "Family of Love & Spiritualists (Franck, Niclaes)",
+   "relationships": [
+    {
+     "field": "relationsSummary",
+     "sentence": "Quiet influence on later dissent",
+     "other": "later dissent",
+     "other_id": null,
+     "other_era": null,
+     "claim": "influenced"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "Familists were hunted by royal proclamation in England in 1580.",
+     "other": "English crown (1580 proclamation)",
+     "other_id": "the-english-reformation-and-elizabethan-settleme",
+     "other_era": 7,
+     "claim": "condemned by"
+    },
+    {
+     "field": "legacy",
+     "sentence": "Franck's writings, though, were read and reprinted for centuries by people looking for a Christianity without an institution, and reached the later mystical and spiritualist strands of Protestantism.",
+     "other": "later mystical and spiritualist Protestant strands",
+     "other_id": null,
+     "other_era": null,
+     "claim": "influenced"
+    },
+    {
+     "field": "legacy",
+     "sentence": "The Familists' habit of outward conformity makes their influence almost impossible to trace — which is exactly what they intended — but their books circulated among Dutch printers and English readers, and the arguments for toleration made in the following century drew on that Christian tradition.",
+     "other": "Dutch printers and readers",
+     "other_id": "dutch-further-reformation-and-refuge-culture",
+     "other_era": 7,
+     "claim": "contact"
+    },
+    {
+     "field": "legacy",
+     "sentence": "The Familists' habit of outward conformity makes their influence almost impossible to trace — which is exactly what they intended — but their books circulated among Dutch printers and English readers, and the arguments for toleration made in the following century drew on that Christian tradition.",
+     "other": "English readers",
+     "other_id": null,
+     "other_era": null,
+     "claim": "contact"
+    }
+   ],
+   "existing_links": []
+  },
+  {
+   "id": "orthodoxy-under-the-ottomans-parish-millet-and-n",
+   "name": "Orthodoxy under the Ottomans - Parish, Millet & Neomartyrs",
+   "relationships": [
+    {
+     "field": "relationsSummary",
+     "sentence": "A continuation of Byzantine Orthodoxy after Constantinople fell in 1453, following on from the earlier fall of Tarnovo, when the patriarch Euthymius went into exile and the Balkan despotate's church carried on.",
+     "other": "Byzantine Orthodoxy",
+     "other_id": "byzantine-church-palaiologan",
+     "other_era": 6,
+     "claim": "continues"
+    },
+    {
+     "field": "relationsSummary",
+     "sentence": "A continuation of Byzantine Orthodoxy after Constantinople fell in 1453, following on from the earlier fall of Tarnovo, when the patriarch Euthymius went into exile and the Balkan despotate's church carried on.",
+     "other": "Tarnovo church (Bulgarian)",
+     "other_id": null,
+     "other_era": null,
+     "claim": "continues"
+    },
+    {
+     "field": "relationsSummary",
+     "sentence": "The Patriarchate of Peć was restored in 1557.",
+     "other": "Serbian Patriarchate of Peć",
+     "other_id": null,
+     "other_era": null,
+     "claim": "other"
+    },
+    {
+     "field": "relationsSummary",
+     "sentence": "The controversy around Patriarch Cyril Lucaris — his Greek College ties, his Calvinist-sounding Confession of 1629, his death in 1638, and the church councils that later repudiated his teaching — belongs to the church's own story, not just to the man.",
+     "other": "Greek College in Rome",
+     "other_id": "the-tridentine-church",
+     "other_era": 7,
+     "claim": "other"
+    },
+    {
+     "field": "relationsSummary",
+     "sentence": "The controversy around Patriarch Cyril Lucaris — his Greek College ties, his Calvinist-sounding Confession of 1629, his death in 1638, and the church councils that later repudiated his teaching — belongs to the church's own story, not just to the man.",
+     "other": "Calvinism (Reformed Zurich and Geneva)",
+     "other_id": "the-reformed-cities-zurich-and-geneva",
+     "other_era": 7,
+     "claim": "influenced"
+    },
+    {
+     "field": "relationsSummary",
+     "sentence": "The controversy around Patriarch Cyril Lucaris — his Greek College ties, his Calvinist-sounding Confession of 1629, his death in 1638, and the church councils that later repudiated his teaching — belongs to the church's own story, not just to the man.",
+     "other": "church councils that repudiated Lucaris",
+     "other_id": null,
+     "other_era": null,
+     "claim": "condemned by"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "The sultan recognized the Ecumenical Patriarch as head of the empire's Orthodox Christians — a civil as well as a religious office, taxing, judging and appointing.",
+     "other": "Ottoman sultan (state)",
+     "other_id": null,
+     "other_era": null,
+     "claim": "other"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "The period also produced the strangest episode in Orthodox history, the patriarch Cyril Lucaris, whose Calvinist-sounding Confession of 1629 was repudiated by a succession of church councils after his death in 1638.",
+     "other": "church councils",
+     "other_id": null,
+     "other_era": null,
+     "claim": "condemned by"
+    },
+    {
+     "field": "legacy",
+     "sentence": "The Ecumenical Patriarchate is still at the Phanar in Istanbul, and the Orthodox churches of Greece, Bulgaria, Serbia and Romania all passed through these centuries.",
+     "other": "Orthodox churches of Greece, Bulgaria, Serbia and Romania",
+     "other_id": null,
+     "other_era": null,
+     "claim": "other"
+    },
+    {
+     "field": "legacy",
+     "sentence": "The millet arrangement, under which a religious community handled much of its own law and taxation, also shaped the way Balkan national identities later formed around their churches.",
+     "other": "Balkan Orthodox national churches",
+     "other_id": "orthodoxy-after-1821-balkan-autocephalies",
+     "other_era": 9,
+     "claim": "other"
+    }
+   ],
+   "existing_links": []
+  },
+  {
+   "id": "st-thomas-christians-under-portuguese-pressure-d",
+   "name": "St. Thomas Christians under Portuguese Pressure - Diamper & the Coonan Cross",
+   "relationships": [
+    {
+     "field": "relationsSummary",
+     "sentence": "A continuation of the earlier Thomas Christian tradition; the 1653 oath's lines become today's Kerala churches, and the modern Kerala and Northeast India churches descend from it.",
+     "other": "earlier Thomas Christian tradition",
+     "other_id": "st-thomas-christians-1300-1517",
+     "other_era": 6,
+     "claim": "continues"
+    },
+    {
+     "field": "relationsSummary",
+     "sentence": "A continuation of the earlier Thomas Christian tradition; the 1653 oath's lines become today's Kerala churches, and the modern Kerala and Northeast India churches descend from it.",
+     "other": "Kerala churches (1653 oath)",
+     "other_id": null,
+     "other_era": null,
+     "claim": "other"
+    },
+    {
+     "field": "relationsSummary",
+     "sentence": "A continuation of the earlier Thomas Christian tradition; the 1653 oath's lines become today's Kerala churches, and the modern Kerala and Northeast India churches descend from it.",
+     "other": "Northeast India churches (Mar Thoma reform)",
+     "other_id": "northeast-india-revivals-and-the-mar-thoma-refor",
+     "other_era": 9,
+     "claim": "other"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "The Christians of the Malabar coast traced their church to the apostle Thomas and had for centuries received their bishops from the Church of the East, worshipping in Syriac.",
+     "other": "Church of the East",
+     "other_id": "church-of-the-east-timur-to-hakkari",
+     "other_era": 6,
+     "claim": "descends from"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "The Portuguese found this puzzling and then intolerable, and in 1599 Archbishop Aleixo de Menezes convened a synod at Diamper that placed the community under Latin jurisdiction, revised its liturgy, and ordered its Syriac books corrected or burned.",
+     "other": "Latin (Roman) jurisdiction, Portuguese-backed",
+     "other_id": "the-tridentine-church",
+     "other_era": 7,
+     "claim": "condemned by"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "Half a century of resentment came to a head on 3 January 1653, when a crowd gathered at a stone cross in Mattancherry, tied ropes to it and swore they would no longer obey the Jesuits.",
+     "other": "Jesuits",
+     "other_id": "the-society-of-jesus",
+     "other_era": 7,
+     "claim": "broke with"
+    },
+    {
+     "field": "legacy",
+     "sentence": "Those who returned to Rome became the Syro-Malabar Catholic Church, now one of the largest Eastern Catholic churches in the world.",
+     "other": "Syro-Malabar Catholic Church",
+     "other_id": null,
+     "other_era": null,
+     "claim": "other"
+    },
+    {
+     "field": "legacy",
+     "sentence": "Those who did not are the ancestors of the Malankara Orthodox, Jacobite, Mar Thoma and related churches.",
+     "other": "Malankara Orthodox and Jacobite churches",
+     "other_id": "the-malankara-churches-orthodox-and-jacobite",
+     "other_era": 10,
+     "claim": "other"
+    },
+    {
+     "field": "legacy",
+     "sentence": "Those who did not are the ancestors of the Malankara Orthodox, Jacobite, Mar Thoma and related churches.",
+     "other": "Mar Thoma churches",
+     "other_id": "northeast-india-revivals-and-the-mar-thoma-refor",
+     "other_era": 9,
+     "claim": "other"
+    }
+   ],
+   "existing_links": []
+  },
+  {
+   "id": "philippine-catholicism",
+   "name": "Philippine Catholicism",
+   "relationships": [
+    {
+     "field": "relationsSummary",
+     "sentence": "Grew directly out of Spanish colonial Catholicism, brought by friars following the start of Spanish rule in 1565.",
+     "other": "Spanish colonial Catholicism",
+     "other_id": "new-spain-and-andes-mission-born-christianity",
+     "other_era": 7,
+     "claim": "descends from"
+    },
+    {
+     "field": "relationsSummary",
+     "sentence": "Grew directly out of Spanish colonial Catholicism, brought by friars following the start of Spanish rule in 1565.",
+     "other": "friars",
+     "other_id": null,
+     "other_era": null,
+     "claim": "descends from"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "Spanish rule in the Philippines began in 1565, and with it came friars — Augustinians first, then Franciscans, Jesuits, Dominicans and Recollects.",
+     "other": "Augustinian friars",
+     "other_id": null,
+     "other_era": null,
+     "claim": "descends from"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "Spanish rule in the Philippines began in 1565, and with it came friars — Augustinians first, then Franciscans, Jesuits, Dominicans and Recollects.",
+     "other": "Franciscan friars",
+     "other_id": "the-franciscan-movement",
+     "other_era": 5,
+     "claim": "descends from"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "Spanish rule in the Philippines began in 1565, and with it came friars — Augustinians first, then Franciscans, Jesuits, Dominicans and Recollects.",
+     "other": "Jesuits",
+     "other_id": "the-society-of-jesus",
+     "other_era": 7,
+     "claim": "descends from"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "Spanish rule in the Philippines began in 1565, and with it came friars — Augustinians first, then Franciscans, Jesuits, Dominicans and Recollects.",
+     "other": "Dominican friars",
+     "other_id": "the-dominican-order",
+     "other_era": 5,
+     "claim": "descends from"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "Spanish rule in the Philippines began in 1565, and with it came friars — Augustinians first, then Franciscans, Jesuits, Dominicans and Recollects.",
+     "other": "Recollect friars",
+     "other_id": null,
+     "other_era": null,
+     "claim": "descends from"
+    }
+   ],
+   "existing_links": []
+  },
+  {
+   "id": "the-union-of-brest-and-ruthenian-greek-catholic-",
+   "name": "The Union of Brest & Ruthenian Greek Catholic Christianity",
+   "relationships": [
+    {
+     "field": "relationsSummary",
+     "sentence": "A communion born inside an argument - East-and-West identity tension as daily formation; sibling-rival of the Kyiv-Mohyla Orthodox revival; parent of the twentieth-century Lviv underground church.",
+     "other": "Kyiv-Mohyla Orthodox revival",
+     "other_id": "the-kyiv-mohyla-orthodox-revival",
+     "other_era": 7,
+     "claim": "argued against"
+    },
+    {
+     "field": "relationsSummary",
+     "sentence": "A communion born inside an argument - East-and-West identity tension as daily formation; sibling-rival of the Kyiv-Mohyla Orthodox revival; parent of the twentieth-century Lviv underground church.",
+     "other": "Lviv underground church (Ukrainian Greek Catholic underground)",
+     "other_id": "the-ukrainian-greek-catholic-underground",
+     "other_era": 10,
+     "claim": "other"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "In 1596 most of the Orthodox bishops of the Polish-Lithuanian Commonwealth met at Brest and accepted communion with Rome while keeping their Byzantine liturgy, their Church Slavonic, their calendar and their married clergy.",
+     "other": "Rome",
+     "other_id": "the-tridentine-church",
+     "other_era": 7,
+     "claim": "contact"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "Their opponents met in the same town at the same time and rejected it outright, so what the union produced was not one church but two rival hierarchies claiming the same people and arguing in print for a century.",
+     "other": "Orthodox opponents of the union",
+     "other_id": null,
+     "other_era": null,
+     "claim": "argued against"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "The new church had to explain itself constantly — to Rome, to the Orthodox it had left, and to Latin bishops who never quite treated it as an equal.",
+     "other": "Orthodox church the union left",
+     "other_id": null,
+     "other_era": null,
+     "claim": "other"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "The new church had to explain itself constantly — to Rome, to the Orthodox it had left, and to Latin bishops who never quite treated it as an equal.",
+     "other": "Latin bishops",
+     "other_id": "the-tridentine-church",
+     "other_era": 7,
+     "claim": "other"
+    },
+    {
+     "field": "legacy",
+     "sentence": "It survives as the Ukrainian Greek Catholic Church and the Belarusian Greek Catholic Church, and it became the model for the Byzantine-rite unions that followed, one branch of the wider family of Eastern Catholic churches — Eastern in worship, in communion with Rome — that now exists around the world.",
+     "other": "Byzantine-rite unions that followed",
+     "other_id": null,
+     "other_era": null,
+     "claim": "influenced"
+    },
+    {
+     "field": "legacy",
+     "sentence": "Suppressed by the Russian Empire in the nineteenth century and again by the Soviet Union in 1946, the Ukrainian church survived underground and re-emerged in 1989 as the largest Eastern Catholic church anywhere.",
+     "other": "Russian Empire",
+     "other_id": null,
+     "other_era": null,
+     "claim": "condemned by"
+    },
+    {
+     "field": "legacy",
+     "sentence": "Suppressed by the Russian Empire in the nineteenth century and again by the Soviet Union in 1946, the Ukrainian church survived underground and re-emerged in 1989 as the largest Eastern Catholic church anywhere.",
+     "other": "Soviet Union (communist-era persecution)",
+     "other_id": "persecuted-church-worlds-of-the-communist-era-in",
+     "other_era": 10,
+     "claim": "condemned by"
+    },
+    {
+     "field": "legacy",
+     "sentence": "It survives as the Ukrainian Greek Catholic Church and the Belarusian Greek Catholic Church, and it became the model for the Byzantine-rite unions that followed, one branch of the wider family of Eastern Catholic churches — Eastern in worship, in communion with Rome — that now exists around the world.",
+     "other": "wider family of Eastern Catholic churches",
+     "other_id": null,
+     "other_era": null,
+     "claim": "other"
+    }
+   ],
+   "existing_links": []
+  },
+  {
+   "id": "the-kyiv-mohyla-orthodox-revival",
+   "name": "The Kyiv-Mohyla Orthodox Revival",
+   "relationships": [
+    {
+     "field": "relationsSummary",
+     "sentence": "Orthodoxy answering Reformation/Counter-Reformation pressure with its own confessional formation; the response to the Union of Brest.",
+     "other": "Union of Brest",
+     "other_id": "the-union-of-brest-and-ruthenian-greek-catholic-",
+     "other_era": 7,
+     "claim": "argued against"
+    },
+    {
+     "field": "relationsSummary",
+     "sentence": "Orthodoxy answering Reformation/Counter-Reformation pressure with its own confessional formation; the response to the Union of Brest.",
+     "other": "Counter-Reformation (Tridentine Church)",
+     "other_id": "the-tridentine-church",
+     "other_era": 7,
+     "claim": "argued against"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "Orthodox Kyiv answered the Union of Brest not with a lament but with a school.",
+     "other": "Union of Brest",
+     "other_id": "the-union-of-brest-and-ruthenian-greek-catholic-",
+     "other_era": 7,
+     "claim": "argued against"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "A lay brotherhood founded one in 1615, and Petro Mohyla, metropolitan from 1633, turned it into a college on the Jesuit model — Latin, rhetoric, philosophy, theology.",
+     "other": "Jesuit model (Jesuit college)",
+     "other_id": "the-society-of-jesus",
+     "other_era": 7,
+     "claim": "influenced"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "An Orthodox Confession of faith, approved in revised form by a council at Iaşi in 1642, a short catechism, and a great service book, the Trebnyk of 1646, which regularized how priests were actually to celebrate the sacraments.",
+     "other": "council at Iaşi (1642)",
+     "other_id": null,
+     "other_era": null,
+     "claim": "other"
+    },
+    {
+     "field": "legacy",
+     "sentence": "The Kyiv Mohyla Academy became the leading school of the Orthodox Slavic world and supplied Russia with its educated clergy for a century.",
+     "other": "Russian church (Peter the Great reforms)",
+     "other_id": "russian-church-nikon-to-holy-synod",
+     "other_era": 8,
+     "claim": "influenced"
+    },
+    {
+     "field": "legacy",
+     "sentence": "One reason Peter the Great's church reforms have a distinctly Kyivan accent.",
+     "other": "Peter the Great church reforms",
+     "other_id": "russian-church-nikon-to-holy-synod",
+     "other_era": 8,
+     "claim": "influenced"
+    },
+    {
+     "field": "legacy",
+     "sentence": "Mohyla's Confession was accepted well beyond Ukraine and remained a standard Orthodox reference text into modern times.",
+     "other": "Orthodox churches beyond Ukraine",
+     "other_id": null,
+     "other_era": null,
+     "claim": "influenced"
+    }
+   ],
+   "existing_links": []
+  },
+  {
+   "id": "the-tridentine-church",
+   "name": "The Tridentine Church",
+   "relationships": [
+    {
+     "field": "relationsSummary",
+     "sentence": "The Catholic Church's answer to the Reformation: the Council of Trent's three periods between 1545 and 1563, the resulting Roman Catechism and Tridentine Missal, Pope Sixtus V's reorganized curia, and the missionary office Propaganda Fide founded in 1622.",
+     "other": "Protestant Reformation (Lutheran Wittenberg)",
+     "other_id": "lutheran-wittenberg-and-its-congregations",
+     "other_era": 7,
+     "claim": "argued against"
+    },
+    {
+     "field": "relationsSummary",
+     "sentence": "Its story also includes the Index of Forbidden Books and the Roman Inquisition, new active orders such as the Capuchins, a wider generation of lay devotion, the Greek College in Rome, and the Catholic remainder of the Augustinian Hermits after the Reformation split the order.",
+     "other": "Augustinian Hermits (Catholic remainder)",
+     "other_id": null,
+     "other_era": null,
+     "claim": "other"
+    },
+    {
+     "field": "relationsSummary",
+     "sentence": "Its story also includes the Index of Forbidden Books and the Roman Inquisition, new active orders such as the Capuchins, a wider generation of lay devotion, the Greek College in Rome, and the Catholic remainder of the Augustinian Hermits after the Reformation split the order.",
+     "other": "Capuchins",
+     "other_id": null,
+     "other_era": null,
+     "claim": "other"
+    },
+    {
+     "field": "relationsSummary",
+     "sentence": "Its story also includes the Index of Forbidden Books and the Roman Inquisition, new active orders such as the Capuchins, a wider generation of lay devotion, the Greek College in Rome, and the Catholic remainder of the Augustinian Hermits after the Reformation split the order.",
+     "other": "Greek College in Rome",
+     "other_id": null,
+     "other_era": null,
+     "claim": "other"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "The same period produced the Roman Inquisition and the Index of Forbidden Books, and a wave of new active orders — Capuchins, Ursulines, Oratorians — doing work the older monastic rules had never been designed for.",
+     "other": "Capuchins, Ursulines and Oratorians",
+     "other_id": null,
+     "other_era": null,
+     "claim": "other"
+    },
+    {
+     "field": "legacy",
+     "sentence": "That framework governed Catholic life until the Second Vatican Council of 1962-65 revised it — and the older Mass is still celebrated today by communities that have kept it.",
+     "other": "Second Vatican Council (1962-65)",
+     "other_id": "the-post-vatican-ii-parish-world",
+     "other_era": 10,
+     "claim": "other"
+    },
+    {
+     "field": "legacy",
+     "sentence": "That framework governed Catholic life until the Second Vatican Council of 1962-65 revised it — and the older Mass is still celebrated today by communities that have kept it.",
+     "other": "communities keeping the older Mass",
+     "other_id": null,
+     "other_era": null,
+     "claim": "other"
+    }
+   ],
+   "existing_links": [
+    {
+     "id": "hieronymian-ascetic-literary--the-tridentine-church",
+     "type": "influenced",
+     "confidence": "Widely Accepted"
+    },
+    {
+     "id": "the-tridentine-church--the-humiliati",
+     "type": "argued against",
+     "confidence": "Documented"
+    }
+   ]
+  },
+  {
+   "id": "russian-church-stoglav-to-nikon",
+   "name": "The Russian Church, Stoglav to the Eve of Nikon",
+   "relationships": [
+    {
+     "field": "relationsSummary",
+     "sentence": "Moscow became a patriarchate in 1589, when the visiting Ecumenical Patriarch Jeremiah II consecrated Job as the first Patriarch of Moscow.",
+     "other": "Ecumenical Patriarchate",
+     "other_id": "orthodoxy-under-the-ottomans-parish-millet-and-n",
+     "other_era": 7,
+     "claim": "contact"
+    },
+    {
+     "field": "relationsSummary",
+     "sentence": "What followed — Patriarch Nikon's liturgical reforms of the 1650s and the resulting schism — belongs to the next chapter of this story.",
+     "other": "Old Believers (schism)",
+     "other_id": "the-old-believers",
+     "other_era": 8,
+     "claim": "other"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "All of this stands immediately before the liturgical corrections of the 1650s that would tear the church apart.",
+     "other": "Old Believers",
+     "other_id": "the-old-believers",
+     "other_era": 8,
+     "claim": "other"
+    },
+    {
+     "field": "legacy",
+     "sentence": "When Patriarch Nikon corrected the service books against Greek originals in the 1650s, many refused, and the Old Believers who broke away over it remain a distinct communion today.",
+     "other": "Old Believers",
+     "other_id": "the-old-believers",
+     "other_era": 8,
+     "claim": "other"
+    },
+    {
+     "field": "legacy",
+     "sentence": "When Patriarch Nikon corrected the service books against Greek originals in the 1650s, many refused, and the Old Believers who broke away over it remain a distinct communion today.",
+     "other": "Greek originals (Greek Orthodoxy)",
+     "other_id": "orthodoxy-under-the-ottomans-parish-millet-and-n",
+     "other_era": 7,
+     "claim": "influenced"
+    }
+   ],
+   "existing_links": []
+  },
+  {
+   "id": "czech-churches-last-century",
+   "name": "The Czech Churches' Last Century (Utraquists and Unitas)",
+   "relationships": [
+    {
+     "field": "relationsSummary",
+     "sentence": "A non-Roman national church in its last century of survival: the 1609 Letter of Majesty guaranteed its religious freedom, the Bohemian revolt followed, and the 1620 Battle of White Mountain led to the 1627-28 suppression, when Comenius led the Unity of the Brethren into exile.",
+     "other": "Roman Catholic Church",
+     "other_id": "the-tridentine-church",
+     "other_era": 7,
+     "claim": "other"
+    },
+    {
+     "field": "relationsSummary",
+     "sentence": "A non-Roman national church in its last century of survival: the 1609 Letter of Majesty guaranteed its religious freedom, the Bohemian revolt followed, and the 1620 Battle of White Mountain led to the 1627-28 suppression, when Comenius led the Unity of the Brethren into exile.",
+     "other": "Habsburg rulers (suppression)",
+     "other_id": null,
+     "other_era": null,
+     "claim": "condemned by"
+    },
+    {
+     "field": "relationsSummary",
+     "sentence": "A remnant survived underground and later became the seed of the Moravian Church at Herrnhut.",
+     "other": "Moravian Church at Herrnhut",
+     "other_id": "the-moravian-church-at-herrnhut",
+     "other_era": 8,
+     "claim": "other"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "A century before Martin Luther, Bohemia already had its own reform-minded national church — the Utraquists, who insisted that the laity receive both bread and wine at communion, and the Unity of the Brethren who grew alongside them.",
+     "other": "Lutheran reform (Martin Luther)",
+     "other_id": "lutheran-wittenberg-and-its-congregations",
+     "other_era": 7,
+     "claim": "other"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "A century before Martin Luther, Bohemia already had its own reform-minded national church — the Utraquists, who insisted that the laity receive both bread and wine at communion, and the Unity of the Brethren who grew alongside them.",
+     "other": "Hussite tradition (Utraquists)",
+     "other_id": "the-hussite-and-bohemian-brethren-movement",
+     "other_era": 6,
+     "claim": "descends from"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "A century before Martin Luther, Bohemia already had its own reform-minded national church — the Utraquists, who insisted that the laity receive both bread and wine at communion, and the Unity of the Brethren who grew alongside them.",
+     "other": "Unity of the Brethren",
+     "other_id": "the-hussite-and-bohemian-brethren-movement",
+     "other_era": 6,
+     "claim": "descends from"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "Surviving as a tolerated, functioning body long after the Hussite wars that gave it birth.",
+     "other": "Hussite wars",
+     "other_id": "the-hussite-and-bohemian-brethren-movement",
+     "other_era": 6,
+     "claim": "descends from"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "Its final century opens with real legal standing, the 1609 Letter of Majesty guaranteeing religious freedom, and closes in catastrophe: the 1620 Battle of White Mountain crushed Bohemian Protestant resistance, and by 1627-28 the Habsburgs had outlawed the church outright, forcing its bishop, the scholar and educator Jan Amos Comenius, into permanent exile along with much of his flock.",
+     "other": "Habsburg rulers",
+     "other_id": null,
+     "other_era": null,
+     "claim": "condemned by"
+    },
+    {
+     "field": "legacy",
+     "sentence": "A remnant of the Unity of the Brethren survived underground for nearly a century in Bohemia and Moravia, and in 1722 their descendants found refuge on a German nobleman's estate at Herrnhut — becoming the seed of the modern Moravian Church, one of Protestantism's most influential missionary movements.",
+     "other": "Herrnhut (Moravian Church)",
+     "other_id": "the-moravian-church-at-herrnhut",
+     "other_era": 8,
+     "claim": "other"
+    }
+   ],
+   "existing_links": []
+  },
+  {
+   "id": "ethiopian-christianity-gragn-to-fasilides",
+   "name": "Ethiopian Christianity — Gragn to Fasilides",
+   "relationships": [
+    {
+     "field": "relationsSummary",
+     "sentence": "Ahmad Gragn's jihad devastates the church (1529-43); Wayna Daga (1543) saves it; the Jesuit interlude ends in Susenyos's Catholicism (1622), popular revolt, and Fasilides's restoration and expulsion of the Jesuits (1632) - the era's inversion: the Counter-Reformation as outside pressure on an ancient church",
+     "other": "Ahmad Gragn (Adal forces)",
+     "other_id": null,
+     "other_era": null,
+     "claim": "other"
+    },
+    {
+     "field": "relationsSummary",
+     "sentence": "Ahmad Gragn's jihad devastates the church (1529-43); Wayna Daga (1543) saves it; the Jesuit interlude ends in Susenyos's Catholicism (1622), popular revolt, and Fasilides's restoration and expulsion of the Jesuits (1632) - the era's inversion: the Counter-Reformation as outside pressure on an ancient church",
+     "other": "Jesuits (Catholic interlude)",
+     "other_id": "the-society-of-jesus",
+     "other_era": 7,
+     "claim": "other"
+    },
+    {
+     "field": "relationsSummary",
+     "sentence": "Ahmad Gragn's jihad devastates the church (1529-43); Wayna Daga (1543) saves it; the Jesuit interlude ends in Susenyos's Catholicism (1622), popular revolt, and Fasilides's restoration and expulsion of the Jesuits (1632) - the era's inversion: the Counter-Reformation as outside pressure on an ancient church",
+     "other": "Counter-Reformation (Tridentine Church)",
+     "other_id": "the-tridentine-church",
+     "other_era": 7,
+     "claim": "other"
+    },
+    {
+     "field": "relationsSummary",
+     "sentence": "Ahmad Gragn's jihad devastates the church (1529-43); Wayna Daga (1543) saves it; the Jesuit interlude ends in Susenyos's Catholicism (1622), popular revolt, and Fasilides's restoration and expulsion of the Jesuits (1632) - the era's inversion: the Counter-Reformation as outside pressure on an ancient church",
+     "other": "Jesuits",
+     "other_id": "the-society-of-jesus",
+     "other_era": 7,
+     "claim": "condemned by"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "The invasion was broken only at the battle of Wayna Daga in 1543, with Portuguese help.",
+     "other": "Portuguese forces",
+     "other_id": null,
+     "other_era": null,
+     "claim": "contact"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "That help brought Jesuits, and after decades of argument Emperor Susenyos converted to Catholicism and tried to impose it, provoking a revolt so fierce that he abdicated in 1632.",
+     "other": "Jesuits",
+     "other_id": "the-society-of-jesus",
+     "other_era": 7,
+     "claim": "contact"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "That help brought Jesuits, and after decades of argument Emperor Susenyos converted to Catholicism and tried to impose it, provoking a revolt so fierce that he abdicated in 1632.",
+     "other": "Catholicism (Roman church)",
+     "other_id": "the-tridentine-church",
+     "other_era": 7,
+     "claim": "other"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "His son Fasilides expelled the Jesuits, restored the ancient church, and built a new capital at Gondar.",
+     "other": "Jesuits",
+     "other_id": "the-society-of-jesus",
+     "other_era": 7,
+     "claim": "condemned by"
+    },
+    {
+     "field": "legacy",
+     "sentence": "The Ethiopian Orthodox Tewahedo Church survives as one of the largest of the Oriental Orthodox churches, with tens of millions of members, still keeping its own calendar, its Ge'ez liturgy, its long fasts and the tabot at the center of every church.",
+     "other": "Oriental Orthodox churches",
+     "other_id": null,
+     "other_era": null,
+     "claim": "other"
+    }
+   ],
+   "existing_links": []
+  },
+  {
+   "id": "the-remonstrants-and-dort",
+   "name": "The Remonstrants and Dort",
+   "relationships": [
+    {
+     "field": "relationsSummary",
+     "sentence": "The sharpest internal contest inside Reformed Protestantism in this era: the Five Articles of 1610, judged and condemned by the Synod of Dort in 1618-19, about two hundred ministers deposed, and the Remonstrant Brotherhood driven into exile until toleration returned in the 1630s.",
+     "other": "Reformed Protestantism (Reformed Zurich and Geneva)",
+     "other_id": "the-reformed-cities-zurich-and-geneva",
+     "other_era": 7,
+     "claim": "other"
+    },
+    {
+     "field": "relationsSummary",
+     "sentence": "The sharpest internal contest inside Reformed Protestantism in this era: the Five Articles of 1610, judged and condemned by the Synod of Dort in 1618-19, about two hundred ministers deposed, and the Remonstrant Brotherhood driven into exile until toleration returned in the 1630s.",
+     "other": "Synod of Dort",
+     "other_id": null,
+     "other_era": null,
+     "claim": "condemned by"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "The Dutch Reformed minister Jacobus Arminius had doubts about how strictly predestination should be taught, and after his death in 1609 his supporters set them out in five articles — the Remonstrance of 1610.",
+     "other": "Dutch Reformed church",
+     "other_id": "dutch-further-reformation-and-refuge-culture",
+     "other_era": 7,
+     "claim": "other"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "The Synod of Dort, meeting through the winter of 1618-19 with delegates from Reformed churches across Europe, condemned the Remonstrance and answered it with five canons of its own.",
+     "other": "Reformed churches across Europe",
+     "other_id": "the-reformed-cities-zurich-and-geneva",
+     "other_era": 7,
+     "claim": "other"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "The Synod of Dort, meeting through the winter of 1618-19 with delegates from Reformed churches across Europe, condemned the Remonstrance and answered it with five canons of its own.",
+     "other": "Synod of Dort",
+     "other_id": null,
+     "other_era": null,
+     "claim": "condemned by"
+    },
+    {
+     "field": "legacy",
+     "sentence": "The Canons of Dort became one of the three confessional standards of the Dutch Reformed tradition worldwide, and the five points they answer are still taught in Reformed churches as the shorthand summary of Calvinism.",
+     "other": "Dutch Reformed tradition",
+     "other_id": "dutch-further-reformation-and-refuge-culture",
+     "other_era": 7,
+     "claim": "other"
+    },
+    {
+     "field": "legacy",
+     "sentence": "The Canons of Dort became one of the three confessional standards of the Dutch Reformed tradition worldwide, and the five points they answer are still taught in Reformed churches as the shorthand summary of Calvinism.",
+     "other": "Reformed churches (Calvinism)",
+     "other_id": "the-reformed-cities-zurich-and-geneva",
+     "other_era": 7,
+     "claim": "other"
+    },
+    {
+     "field": "legacy",
+     "sentence": "'Arminian', meanwhile, became a permanent label in English-language theology, taken up a century later by John Wesley and through him by the whole Methodist family.",
+     "other": "Methodist family (John Wesley)",
+     "other_id": "the-methodist-revival",
+     "other_era": 8,
+     "claim": "influenced"
+    }
+   ],
+   "existing_links": []
+  },
+  {
+   "id": "scandinavian-reformation-kingdoms",
+   "name": "The Scandinavian Reformation Kingdoms",
+   "relationships": [
+    {
+     "field": "relationsSummary",
+     "sentence": "Two established national churches emerged: Denmark-Norway's decisive break in 1536/37, and Sweden's slower path from the 1527 Diet of Västerås to the 1593 Uppsala Synod, which committed the kingdom to the unaltered Augsburg Confession.",
+     "other": "Augsburg Confession (Lutheran Wittenberg)",
+     "other_id": "lutheran-wittenberg-and-its-congregations",
+     "other_era": 7,
+     "claim": "descends from"
+    },
+    {
+     "field": "relationsSummary",
+     "sentence": "Two established national churches emerged: Denmark-Norway's decisive break in 1536/37, and Sweden's slower path from the 1527 Diet of Västerås to the 1593 Uppsala Synod, which committed the kingdom to the unaltered Augsburg Confession.",
+     "other": "Rome (Catholic Church)",
+     "other_id": "the-tridentine-church",
+     "other_era": 7,
+     "claim": "broke with"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "Sweden's break began at the Diet of Västerås in 1527, when Gustav Vasa took the church's property and its independence, and was only completed at the Uppsala Synod of 1593, which committed the kingdom to the unaltered Augsburg Confession.",
+     "other": "Catholic Church (Rome)",
+     "other_id": "the-tridentine-church",
+     "other_era": 7,
+     "claim": "broke with"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "Christian III won a civil war, arrested the bishops outright in 1536, and the church ordinance drawn up with Luther's colleague Johannes Bugenhagen reorganized the churches of Denmark, Norway and Iceland at a stroke.",
+     "other": "Luther (Lutheran Wittenberg)",
+     "other_id": "lutheran-wittenberg-and-its-congregations",
+     "other_era": 7,
+     "claim": "influenced"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "Icelandic resistance ended in 1550 with the execution of the island's last Catholic bishop.",
+     "other": "Catholic bishop of Iceland (Catholic Church)",
+     "other_id": "the-tridentine-church",
+     "other_era": 7,
+     "claim": "other"
+    },
+    {
+     "field": "legacy",
+     "sentence": "These became the Lutheran churches of Denmark, Norway, Sweden, Finland and Iceland — still the largest churches in their countries, and in several cases still formally established or closely tied to the state.",
+     "other": "Lutheran churches (Lutheran Wittenberg)",
+     "other_id": "lutheran-wittenberg-and-its-congregations",
+     "other_era": 7,
+     "claim": "descends from"
+    }
+   ],
+   "existing_links": [
+    {
+     "id": "scandinavian-conversion-christianity--scandinavian-reformation-kingdoms",
+     "type": "continued as",
+     "confidence": "Inferential-Thin"
+    }
+   ]
+  },
+  {
+   "id": "armenian-christianity-new-julfa",
+   "name": "Armenian Christianity — Etchmiadzin and New Julfa",
+   "relationships": [
+    {
+     "field": "relationsSummary",
+     "sentence": "Shah Abbas deports about 300,000 Armenians (1604-05, the Great Migration); New Julfa rises at Isfahan from 1605 - churches within years, and the merchant network that funds the church; Etchmiadzin's catholicoi continue under Safavid rule.",
+     "other": "Safavid Persia (Shah Abbas)",
+     "other_id": null,
+     "other_era": null,
+     "claim": "other"
+    },
+    {
+     "field": "relationsSummary",
+     "sentence": "Shah Abbas deports about 300,000 Armenians (1604-05, the Great Migration); New Julfa rises at Isfahan from 1605 - churches within years, and the merchant network that funds the church; Etchmiadzin's catholicoi continue under Safavid rule.",
+     "other": "Etchmiadzin catholicate (earlier)",
+     "other_id": "bagratid-armenian-christianity",
+     "other_era": 4,
+     "claim": "continues"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "Caught between the Ottoman and Safavid empires, Armenians lived through one of the great forced migrations of their history: in 1604-05 Shah Abbas I, pursuing a scorched-earth strategy against the Ottomans, deported the population of Julfa and much of eastern Armenia into Persia, and many died on the road.",
+     "other": "Ottoman Empire",
+     "other_id": null,
+     "other_era": null,
+     "claim": "other"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "Caught between the Ottoman and Safavid empires, Armenians lived through one of the great forced migrations of their history: in 1604-05 Shah Abbas I, pursuing a scorched-earth strategy against the Ottomans, deported the population of Julfa and much of eastern Armenia into Persia, and many died on the road.",
+     "other": "Safavid Persia",
+     "other_id": null,
+     "other_era": null,
+     "claim": "other"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "Meanwhile the mother see at Etchmiadzin, now under Safavid rule, worked to rebuild itself as the center of Armenian church life.",
+     "other": "Etchmiadzin catholicate (earlier)",
+     "other_id": "bagratid-armenian-christianity",
+     "other_era": 4,
+     "claim": "continues"
+    },
+    {
+     "field": "legacy",
+     "sentence": "The merchant network built in this period seeded Armenian communities and churches from India to the Mediterranean, and the memory of forced displacement became part of how the Armenian church tells its own story.",
+     "other": "Armenian communities and churches from India to the Mediterranean",
+     "other_id": null,
+     "other_era": null,
+     "claim": "influenced"
+    }
+   ],
+   "existing_links": []
+  },
+  {
+   "id": "carmelite-reform-and-spanish-mystics",
+   "name": "The Carmelite Reform and the Spanish Mystics",
+   "relationships": [
+    {
+     "field": "relationsSummary",
+     "sentence": "Teresa founds San Jose (1562); John joins (1568); the Discalced province is recognized (1580-93); Teresa dies 1582, canonized 1622; connects to the medieval Carmelite order and lives inside the wider Tridentine Catholic reform while speaking in its own unmistakable voice.",
+     "other": "medieval Carmelite order",
+     "other_id": "the-carmelites",
+     "other_era": 5,
+     "claim": "descends from"
+    },
+    {
+     "field": "relationsSummary",
+     "sentence": "Teresa founds San Jose (1562); John joins (1568); the Discalced province is recognized (1580-93); Teresa dies 1582, canonized 1622; connects to the medieval Carmelite order and lives inside the wider Tridentine Catholic reform while speaking in its own unmistakable voice.",
+     "other": "Tridentine Catholic reform",
+     "other_id": "the-tridentine-church",
+     "other_era": 7,
+     "claim": "other"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "Teresa of Ávila had spent more than twenty years as a Carmelite nun in a large, comfortable, sociable convent when she concluded that the life she had promised was not the life she was living.",
+     "other": "Carmelite order (convent life)",
+     "other_id": "the-carmelites",
+     "other_era": 5,
+     "claim": "descends from"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "Both were watched by the Inquisition and opposed from inside their own order, and John spent nine months imprisoned by his own brethren.",
+     "other": "Inquisition (Tridentine Church)",
+     "other_id": "the-tridentine-church",
+     "other_era": 7,
+     "claim": "condemned by"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "Both were watched by the Inquisition and opposed from inside their own order, and John spent nine months imprisoned by his own brethren.",
+     "other": "their own Carmelite order",
+     "other_id": "the-carmelites",
+     "other_era": 5,
+     "claim": "condemned by"
+    },
+    {
+     "field": "legacy",
+     "sentence": "The Discalced Carmelites are still a worldwide order of friars and nuns.",
+     "other": "medieval Carmelite order",
+     "other_id": "the-carmelites",
+     "other_era": 5,
+     "claim": "continues"
+    },
+    {
+     "field": "legacy",
+     "sentence": "Teresa's and John's writings became permanent classics of Christian spiritual literature far beyond Catholicism, read by Protestants, by poets and by psychologists, and both were later declared Doctors of the Church — Teresa in 1970, the first woman ever so named.",
+     "other": "Protestants",
+     "other_id": null,
+     "other_era": null,
+     "claim": "influenced"
+    }
+   ],
+   "existing_links": [
+    {
+     "id": "the-carmelites--carmelite-reform-and-spanish-mystics",
+     "type": "influenced",
+     "confidence": "Documented"
+    }
+   ]
+  },
+  {
+   "id": "church-of-the-east-schism-of-1552",
+   "name": "The Church of the East — the Schism of 1552",
+   "relationships": [
+    {
+     "field": "relationsSummary",
+     "sentence": "Opponents of hereditary succession elect Yohannan Sulaqa; he professes at Rome (1553), is consecrated in St Peter's, and is martyred (1555) - the Chaldean line begins and the communion carries two rival patriarchates ever after; kin story: the Coonan Cross Oath in Malabar is the same communion's other seventeenth-century ordeal.",
+     "other": "Rome (Catholic Church)",
+     "other_id": "the-tridentine-church",
+     "other_era": 7,
+     "claim": "contact"
+    },
+    {
+     "field": "relationsSummary",
+     "sentence": "Opponents of hereditary succession elect Yohannan Sulaqa; he professes at Rome (1553), is consecrated in St Peter's, and is martyred (1555) - the Chaldean line begins and the communion carries two rival patriarchates ever after; kin story: the Coonan Cross Oath in Malabar is the same communion's other seventeenth-century ordeal.",
+     "other": "Chaldean Catholic line",
+     "other_id": "church-of-the-east-chaldean-consolidation",
+     "other_era": 9,
+     "claim": "other"
+    },
+    {
+     "field": "relationsSummary",
+     "sentence": "Opponents of hereditary succession elect Yohannan Sulaqa; he professes at Rome (1553), is consecrated in St Peter's, and is martyred (1555) - the Chaldean line begins and the communion carries two rival patriarchates ever after; kin story: the Coonan Cross Oath in Malabar is the same communion's other seventeenth-century ordeal.",
+     "other": "Coonan Cross Oath (St Thomas Christians)",
+     "other_id": "st-thomas-christians-under-portuguese-pressure-d",
+     "other_era": 7,
+     "claim": "other"
+    },
+    {
+     "field": "relationsSummary",
+     "sentence": "Told within the Church of the East, Timur to Hakkari, with the Chaldean consolidation as the continuation.",
+     "other": "Church of the East, Timur to Hakkari",
+     "other_id": "church-of-the-east-timur-to-hakkari",
+     "other_era": 6,
+     "claim": "descends from"
+    },
+    {
+     "field": "relationsSummary",
+     "sentence": "Told within the Church of the East, Timur to Hakkari, with the Chaldean consolidation as the continuation.",
+     "other": "Chaldean consolidation",
+     "other_id": "church-of-the-east-chaldean-consolidation",
+     "other_era": 9,
+     "claim": "other"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "By the sixteenth century the patriarchate of the Church of the East — once a communion that had reached as far as China — had contracted to the mountains and plains of Mesopotamia, and its highest office had become hereditary, passing from uncle to nephew inside a single family.",
+     "other": "Church of the East on the Silk Road",
+     "other_id": "the-church-of-the-east-on-the-silk-road",
+     "other_era": 4,
+     "claim": "other"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "In 1552 a party opposed to that arrangement elected a monastery superior, Yohannan Sulaqa, and sent him to Rome.",
+     "other": "Rome (Catholic Church)",
+     "other_id": "the-tridentine-church",
+     "other_era": 7,
+     "claim": "contact"
+    },
+    {
+     "field": "longDescription",
+     "sentence": "The line he had begun continued anyway, and from that point the ancient communion has carried two rival patriarchates — a division that has never fully healed.",
+     "other": "Chaldean patriarchate",
+     "other_id": "church-of-the-east-chaldean-consolidation",
+     "other_era": 9,
+     "claim": "other"
+    },
+    {
+     "field": "legacy",
+     "sentence": "The line Sulaqa began eventually drifted back out of communion with Rome and continued as the Assyrian Church of the East, now largely a diaspora church with its patriarchate at Erbil, while the older line he had challenged entered communion with Rome in the nineteenth century and became the Chaldean Catholic Church, today the largest Christian body in Iraq.",
+     "other": "Rome (Catholic Church)",
+     "other_id": "the-tridentine-church",
+     "other_era": 7,
+     "claim": "broke with"
+    },
+    {
+     "field": "legacy",
+     "sentence": "The line Sulaqa began eventually drifted back out of communion with Rome and continued as the Assyrian Church of the East, now largely a diaspora church with its patriarchate at Erbil, while the older line he had challenged entered communion with Rome in the nineteenth century and became the Chaldean Catholic Church, today the largest Christian body in Iraq.",
+     "other": "Assyrian Church of the East",
+     "other_id": null,
+     "other_era": null,
+     "claim": "other"
+    },
+    {
+     "field": "legacy",
+     "sentence": "The line Sulaqa began eventually drifted back out of communion with Rome and continued as the Assyrian Church of the East, now largely a diaspora church with its patriarchate at Erbil, while the older line he had challenged entered communion with Rome in the nineteenth century and became the Chaldean Catholic Church, today the largest Christian body in Iraq.",
+     "other": "Roman Catholic Church (19th century)",
+     "other_id": "catholic-church-long-nineteenth-century",
+     "other_era": 9,
+     "claim": "contact"
+    },
+    {
+     "field": "legacy",
+     "sentence": "The line Sulaqa began eventually drifted back out of communion with Rome and continued as the Assyrian Church of the East, now largely a diaspora church with its patriarchate at Erbil, while the older line he had challenged entered communion with Rome in the nineteenth century and became the Chaldean Catholic Church, today the largest Christian body in Iraq.",
+     "other": "Chaldean Catholic Church",
+     "other_id": "church-of-the-east-chaldean-consolidation",
+     "other_era": 9,
+     "claim": "other"
+    },
+    {
+     "field": "legacy",
+     "sentence": "Both still use the East Syriac liturgy, including the ancient Anaphora of Addai and Mari, and the two churches have been in formal dialogue since the 1990s.",
+     "other": "Assyrian Church of the East (dialogue)",
+     "other_id": null,
+     "other_era": null,
+     "claim": "contact"
+    }
+   ],
+   "existing_links": []
+  }
+ ]
+}

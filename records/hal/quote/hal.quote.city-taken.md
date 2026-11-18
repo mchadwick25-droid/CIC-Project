@@ -15,7 +15,7 @@ confidence:
   divergence_note: null
 sources:
 - source_id: hal.source.jerome-ep127
-  locus: sec. 12
+  locus: "sec. 12 (cic/texts/npnf206_jerome-principal-works.xml, lines 26320-26325)"
   license: public-domain
 text: 'My voice sticks in my throat; and, as I dictate, sobs choke my utterance. The City
   which had taken the whole world was itself taken; nay more famine was beforehand with

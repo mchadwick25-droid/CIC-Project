@@ -1,0 +1,132 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "syr.quote.chronicle-flood-line"
+   ],
+   "sentence": "The Chronicle of Edessa records for the year 513 of the Greeks: “And they destroyed the temple of the church of the Christians.”"
+  },
+  {
+   "record_ids": [
+    "syr.quote.chronicle-flood-line",
+    "syr.dw.corpus-and-its-edges"
+   ],
+   "sentence": "A dispute exists over whether that church-destruction entry is original or was added later."
+  },
+  {
+   "record_ids": [
+    "syr.dw.corpus-and-its-edges"
+   ],
+   "sentence": "Still, that line is the oldest dated word about us, drawn from real archives."
+  }
+ ],
+ "citations": [
+  "syr.dw.corpus-and-its-edges",
+  "syr.quote.chronicle-flood-line"
+ ],
+ "group": "A",
+ "id": "q025",
+ "net_sentences": [
+  {
+   "draft": "The Chronicle of Edessa records for the year 513 of the Greeks: [[quote:syr.quote.chronicle-flood-line]]",
+   "placed_quote": "syr.quote.chronicle-flood-line",
+   "sentence": "The Chronicle of Edessa records for the year 513 of the Greeks: “And they destroyed the temple of the church of the Christians.”",
+   "tags": [
+    "syr.quote.chronicle-flood-line"
+   ],
+   "verdict": "ok",
+   "why": "quote placed by code, verbatim to its record"
+  },
+  {
+   "draft": "[[as:paraphrase]].",
+   "sentence": ".",
+   "tags": [],
+   "verdict": "ok",
+   "why": "no checkable claim - interpretive/connective framing"
+  },
+  {
+   "draft": "A dispute exists over whether that church-destruction entry is original or was added later [[syr.quote.chronicle-flood-line]] [[syr.dw.corpus-and-its-edges]] [[as:paraphrase]].",
+   "sentence": "A dispute exists over whether that church-destruction entry is original or was added later.",
+   "tags": [
+    "syr.quote.chronicle-flood-line",
+    "syr.dw.corpus-and-its-edges"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Still, that line is the oldest dated word about us, drawn from real archives [[syr.dw.corpus-and-its-edges]] [[as:paraphrase]].",
+   "sentence": "Still, that line is the oldest dated word about us, drawn from real archives.",
+   "tags": [
+    "syr.dw.corpus-and-its-edges"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  }
+ ],
+ "offered": [
+  "syr.limit.f5-enslaved",
+  "syr.limit.f5-women-own-words",
+  "syr.quote.ephrem-keeper-of-strangers",
+  "syr.quote.palladius-hospitaller",
+  "syr.dw.corpus-and-its-edges",
+  "syr.quote.chronicle-flood-line",
+  "syr.quote.theodoret-gnats",
+  "syr.dw.remains",
+  "syr.story.simeon-martyrdom",
+  "syr.story.ephrem-roll-and-vine",
+  "syr.quote.the-temple-of-the-church-of-the-christians",
+  "syr.quote.the-scribes-and-the-prefects-over-the-archives"
+ ],
+ "raw_text": "We can speak only to the outside records we hold: the city chronicle's flood line and Theodoret's tale of Jacob's prayer, and neither tells of our worship [[syr.quote.chronicle-flood-line]] [[syr.quote.theodoret-gnats]] [[as:paraphrase]]. The Chronicle of Edessa is a sixth-century compilation from the city archives, not an eyewitness record [[syr.quote.chronicle-flood-line]] [[as:paraphrase]]. The Chronicle of Edessa records for the year 513 of the Greeks: [[quote:syr.quote.chronicle-flood-line]] [[as:paraphrase]]. A dispute exists over whether that church-destruction entry is original or was added later [[syr.quote.chronicle-flood-line]] [[syr.dw.corpus-and-its-edges]] [[as:paraphrase]]. Still, that line is the oldest dated word about us, drawn from real archives [[syr.dw.corpus-and-its-edges]] [[as:paraphrase]]. Theodoret, writing about a century later, tells that Jacob of Nisibis called down only mosquitoes and gnats on the besieging Persians [[syr.quote.theodoret-gnats]] [[as:paraphrase]]. That is hagiographic legend, not a verified event, and the siege year may be 338, 346, or 350 [[syr.quote.theodoret-gnats]] [[as:paraphrase]].\n",
+ "reply_shape": {
+  "leadin_support": {
+   "syr.quote.chronicle-flood-line": [
+    {
+     "detail": "Greeks",
+     "kind": "name",
+     "snippet": "ns. The Chronicle of Edessa's entry for the year 513 of the Greeks records that the flood destroyed the temple of the church o",
+     "span": "record syr.quote.chronicle-flood-line"
+    },
+    {
+     "detail": "513",
+     "kind": "number",
+     "snippet": "troyed the temple of the church of the Christians. the year-513 entry And they destroyed the temple of the church of the Ch",
+     "span": "record syr.quote.chronicle-flood-line"
+    }
+   ]
+  },
+  "placed": [
+   "syr.quote.chronicle-flood-line"
+  ],
+  "removed": [
+   {
+    "draft": "We can speak only to the outside records we hold: the city chronicle's flood line and Theodoret's tale of Jacob's prayer, and neither tells of our worship [[syr.quote.chronicle-flood-line]] [[syr.quote.theodoret-gnats]] [[as:paraphrase]].",
+    "sentence": "We can speak only to the outside records we hold: the city chronicle's flood line and Theodoret's tale of Jacob's prayer, and neither tells of our worship.",
+    "why": "tagged to a quote record that has not been placed"
+   },
+   {
+    "draft": "The Chronicle of Edessa is a sixth-century compilation from the city archives, not an eyewitness record [[syr.quote.chronicle-flood-line]] [[as:paraphrase]].",
+    "sentence": "The Chronicle of Edessa is a sixth-century compilation from the city archives, not an eyewitness record.",
+    "why": "quote record's speaker named without its placed quote"
+   },
+   {
+    "draft": "Theodoret, writing about a century later, tells that Jacob of Nisibis called down only mosquitoes and gnats on the besieging Persians [[syr.quote.theodoret-gnats]] [[as:paraphrase]].",
+    "sentence": "Theodoret, writing about a century later, tells that Jacob of Nisibis called down only mosquitoes and gnats on the besieging Persians.",
+    "why": "tagged to a quote record that has not been placed"
+   },
+   {
+    "draft": "That is hagiographic legend, not a verified event, and the siege year may be 338, 346, or 350 [[syr.quote.theodoret-gnats]] [[as:paraphrase]].",
+    "sentence": "That is hagiographic legend, not a verified event, and the siege year may be 338, 346, or 350.",
+    "why": "tagged to a quote record that has not been placed"
+   }
+  ],
+  "repaired": []
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": "C16.S1",
+ "text": "The Chronicle of Edessa records for the year 513 of the Greeks: “And they destroyed the temple of the church of the Christians.”. A dispute exists over whether that church-destruction entry is original or was added later. Still, that line is the oldest dated word about us, drawn from real archives.",
+ "voice_set_aside": false
+}

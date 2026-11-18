@@ -17,8 +17,7 @@ confidence:
     speech, not a direct quotation of Archebius's own words.
 sources:
 - source_id: gallic.source.cassian-conferences-part-ii
-  locus: "XI.2 (npnf211 div iv.v.ii.ii, file lines 36807-36823): Cassian's own narration of
-    Archebius's election as Bishop of Panephysis and how he himself spoke of it"
+  locus: "XI.2 (cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml, lines 36820-36825; div iv.v.ii.ii): Cassian's own narration of Archebius's election as Bishop of Panephysis and how he himself spoke of it"
   license: public-domain
 retrieval:
   tier: 2

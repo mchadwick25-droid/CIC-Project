@@ -21,6 +21,7 @@ work: "Commentary on the Apocalypse of the Blessed John - the earliest Latin com
 edition: "Ante-Nicene Fathers vol. 7 (1886), vendored as cic/texts/anf07_lactantius-apostolic-constitutions-didache-liturgies.xml (div2 6.2)"
 citation: Victorinus of Pettau, Commentary on the Apocalypse of the Blessed John, in the recension of Jerome, Ante-Nicene Fathers vol. 7 (1886)
 kind: vendored
+shelf_row: anf07_lactantius-apostolic-constitutions-didache-liturgies--commentary-on-the-apocalypse-of-the-blessed-john-2
 rights_status: public-domain
 attribution_status: "Victorinus' work, edited by Jerome; the seam between them is disputed"
 discovery_channel: "the corpus map carries this work with role `transmission` on this entry, added 2026-08-27 when danubian-latin-christianity was minted to hold Victorinus' own voice"
@@ -43,7 +44,7 @@ corrupted. Rufinus said he had done it to Origen and Jerome attacked him
 for it. Jerome did it to Victorinus. Holding both documents lets the
 question be put to this world in its own terms rather than as a modern
 complaint: the practice was general, the standards were unsettled, and
-the man who prosecuted it most fiercely also practised it.
+the man who prosecuted it most fiercely also practiced it.
 
 CARRIED AS `corroborating` and with the divergence note above, because
 nothing here separates the two hands line by line and this record does

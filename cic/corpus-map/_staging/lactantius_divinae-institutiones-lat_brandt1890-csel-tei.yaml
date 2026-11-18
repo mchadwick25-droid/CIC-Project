@@ -21,4 +21,16 @@ assignments:
       is rendered from it, with the vendored English as a cross-check. CC BY-SA 4.0, so
       attribution and share-alike travel with any quotation. Mirrors the English twin's role and
       confidence exactly.
+    locus_ids:
+    - CTS urn:cts:latinLit:stoa0171.stoa009.opp-lat1
+    - 'textpart subtype=book: n=1..7 (7 divisions)'
+    - 'textpart subtype=chapter: n=1..30 (177 divisions)'
+    - 'textpart subtype=section: n=1..71 (3274 divisions)'
+    - 'textpart subtype=MSS: no n attribute (1 divisions)'
+    language: lat
+    date:
+      start: 304
+      end: 311
+      source: Harnack 1904 (begun 304, finished before April 311); Monceaux 1901 III (307-311)
+      formation_confidence: Widely Accepted
 

@@ -1,0 +1,13 @@
+source_file: launay_histoire-generale-de-la-societe-des-missions-etrangeres-t3-fra_1894.txt
+assignments:
+- row_id: launay_histoire-generale-de-la-societe-des-missions-etrangeres-t3-fra_1894--launay-histoire-generale-missions-etrangeres-tome-3-1836-1892
+  work: 'Launay, Histoire générale de la Société des Missions-Étrangères, tome III: 1836-1892'
+  author: launay
+  locus: 'chapters I-X at OCR lines 193-47599; add 12 to OCR line numbers'
+  atlas_ids:
+  - chinese-catholicism-1650-1906
+  role: context
+  confidence: provisional
+  language: fra
+  date: {start: 1894, end: 1894, source: "title page: 1894", formation_confidence: Documented}
+  note: 'The Society''s history from 1836 to 1892, by one of its priests. A later account from the mission''s side, covering Vietnam, Korea, Japan and India as well as China.'

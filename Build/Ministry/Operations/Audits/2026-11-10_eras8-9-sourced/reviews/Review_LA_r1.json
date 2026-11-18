@@ -1,0 +1,69 @@
+{
+ "slice": "G89c-LA (Saint-Domingue and the Bethlemites in VII.17; Holly in VIII.1; Cuba held)",
+ "round": 1,
+ "verdict": "revise",
+ "blocking": [],
+ "substantial": [
+  {
+   "id": "LA-S1",
+   "where": "neighbor_changes colonial-latin-american-devotional-catholicism, longDescription, para 3, sentence 1",
+   "problem": "'Saint-Domingue ... left one long witness to its church before 1804' states as a fact about the historical record what is only a fact about the Library's holdings (fact_table row 0 says so: 'the Library catalog'). The colony left other long witnesses (the Jesuit letters, Labat, Charlevoix); the sentence reads as 'only one'. Unsupported and overstated.",
+   "evidence": "fact_table[0].note: 'That the Library holds one long witness is the Library catalog'. No source says the colony left a single witness.",
+   "fix": "Replace the first two sentences of the paragraph with: 'Saint-Domingue, the French colony that became Haiti, is seen here through one long witness. It is the Description of Moreau de Saint-Méry, printed in Philadelphia in 1797.'"
+  },
+  {
+   "id": "LA-S2",
+   "where": "neighbor_changes the-black-church-in-america, longDescription, para 2 sentence 1 and para 5",
+   "problem": "Two sentences rest on the sweep record's [S] items, not on the issue. (a) 'The same world reached Haiti' says Holly belongs to the world of VIII.1 (the Black church in America). The issue never says Holly was American-born, African American, or from any Black church; fact_table[55] itself concedes 'The source itself ties Holly to Haiti and to the American church only'. That tie is the [S] 'led African American emigrants to Haiti in 1861'. (b) 'It does not tell of his emigration either' presupposes an emigration that nothing in the source or the prose establishes, which slips the [S] 1861 emigration in by presupposition. The whole last paragraph is also source-process narration ('The issue does not say ...') in participant-facing prose; an absent detail belongs in holds and Open-Gaps, not in the entry.",
+   "evidence": "Spirit of Missions Dec. 1874, lines 3069-3150 and 3927-3929: Holly is named only as Dean, as 'Rev. Dr. Holly' chosen first Bishop in Haiti, and as sailing from New York 'for Port-au-Prince'. The only race words are in the Board's resolution (lines 3090-3092). Sweep record LA8-6 marks the emigration and its African American emigrants [S].",
+   "fix": "Replace 'The same world reached Haiti.' with: 'In 1874 a church in the United States made a bishop for Haiti, and its mission board asked that he be of the African race.' (lines 3090-3092, 3147-3150). Delete the final paragraph ('The issue does not say where Holly was born ... It does not tell of his emigration either.') and its fact_table rows 68-69; the hold for the 1861 emigration already records the gap."
+  },
+  {
+   "id": "LA-S3",
+   "where": "neighbor_changes colonial-latin-american-devotional-catholicism, longDescription, para 8 sentence 1",
+   "problem": "'Two books tell his story from the order's side' is unsupported for Montalvo. His title page makes him a canon of the Order of St Anthony of Vienne, and the book is dedicated to the Queen Mother, Mariana of Austria. Nothing in the lines read says he wrote for the Bethlemites. Only García is shown (by the file header) as writing for the order's procurator general. fact_table[31] supports only 'hagiography', from the titles.",
+   "evidence": "Montalvo file lines 57-77 (title page: 'Del Orden de S. Antonio de Viena, Y DEDICADA A LA REAL MAGESTAD DE LA REYNA MADRE'); García file header 'for the Bethlemite procurator general Fr. Miguel de la Concepcion'.",
+   "fix": "'Two books tell his story, and both are hagiography, written to honor him. One is a Life printed at Rome in 1683, by Francisco Antonio de Montalvo. The other is the order's own history of 1723, by Joseph García de la Concepción, a Discalced Franciscan who wrote it for the order.'"
+  }
+ ],
+ "minor": [
+  {
+   "id": "LA-m1",
+   "where": "VII.17 para 10 ('Montalvo himself says he offers such things only as human report')",
+   "problem": "Montalvo's disclaimer is about one event: 'La ilustración sobrenatural, que parece se incluyó en este suceso' (his aunt's foresight of his voyage). The prose widens it to 'such things'. The page image (Montalvo p. 5, archive.org bub_gb_L_RJmewk6jMC leaf n28) confirms the wording.",
+   "evidence": "Montalvo lines 680-688.",
+   "fix": "'Of one such wonder Montalvo says he offers it only as human report, because the Sacred Congregation of Rites is the body that weighs miracles.'"
+  },
+  {
+   "id": "LA-m2",
+   "where": "VII.17 para 5 ('Black people born in the colony, proud of their baptism, mocked them as \"horses\"'); fact_table[15] rendering",
+   "problem": "Moreau's 'les Africains qu'on apostrophe en les appellant Chevaux' is impersonal ('whom one taunts'). He names the Creoles only as claiming superiority by baptism and as calling the newly baptized 'baptisés debout'. The rendering 'whom they taunt' and the prose add the Creoles as the speakers of 'horses'.",
+   "evidence": "Moreau t. I lines 2606-2615.",
+   "fix": "'Yet he reports that new arrivals from Africa pressed to be baptized. Black people born in the colony claimed to stand far above them because of their baptism, and the newcomers were taunted as \"horses\".' Rendering: '\"the Africans, whom people taunt by calling them Horses, are very eager to be baptized\"'."
+  },
+  {
+   "id": "LA-m3",
+   "where": "holds (LA8-9) and wants[0]; flags[1]; VII.17 last paragraph",
+   "problem": "A hold the source carries. The year of Innocent XI's bull, read 'i62y' in the OCR, is clear on the page image: 'Dado en Roma en Santa MARIA la Mayor debaxo de el Anillo de el Pescador el dia 26 de Marzo de 1687, el año 11 de nuestro Pontificado.' This also matches the sweep record's 1687.",
+   "evidence": "archive.org historiabethlehe00guat, page/n456.jpg (Libro II), left column foot; OCR lines 40979-40983.",
+   "fix": "Optional: 'It closes with the date 26 March 1687, in the eleventh year of that pope's reign.' Cite lines 40979-40983 with a note 'year read from the page image, leaf n456; OCR reads i62y'. Drop wants[0]."
+  },
+  {
+   "id": "LA-m4",
+   "where": "holds: the two LA8-8 Cuba entries; flags[1]",
+   "problem": "The cut is right on the gate's line: nothing in Claret's Apuntes carries a church under the crown's patronage, Puerto Rico's church, or 1898. But the stated reason is partly wrong: the book does name Cuban places in its body. The prologue says he was 'ocupado en mi diócesis de Santiago de Cuba' when the Queen called him to be her confessor and 'el Capitán General puso un buque á mi disposición' (lines 172-175). A note tells his 25,000 duros for a charity house at Puerto Príncipe (3338-3339). The appendix lists Havana and Puerto Rico as suffragans of Santiago (5709-5733). The source carries a thin partial line, although the gate's subject is not in it. There are also two Cuba holds for one item, and flags[1] still glosses Claret's OCR though nothing from Claret is drafted.",
+   "evidence": "claret_apuntes-regimen-de-la-diocesis-santiago-de-cuba-spa_1863.txt lines 172-175, 3332-3339, 5709-5733.",
+   "fix": "Merge the two Cuba holds into one. Reason: 'Claret's Apuntes (1863) is a rule for governing a diocese. It shows him as archbishop of Santiago de Cuba, called to Madrid by the Queen, with Havana and Puerto Rico as suffragans, but says nothing of the church under the crown's patronage or of its end in 1898, the line the gate names. A partial line on Claret alone is possible but is not the gate's line; held for the coordinator.' Drop the Claret gloss from flags[1]."
+  },
+  {
+   "id": "LA-m5",
+   "where": "fact_table rows 20, 58-59, 68-69",
+   "problem": "Row 20's quote stops at 'la meffe des.', and flags[0] says nègres 'falls after a gap'. In fact 'nègres' stands alone at line 18658, two lines on (and the page image, Moreau p. 540 for Boutin and the Le Cap passage, reads 'La messe, appelée des nègres'). Rows 58-59 carry the sentence 'It is signed by James Theodore Holly ...', but the prose says 'J. Theodore Holly'. 'James' is the sweep record's [S] and must not sit in the fact table's sentence. Rows 68-69 do not match the prose (and go with LA-S2).",
+   "evidence": "Moreau t. I lines 18656-18658; Draft prose para 2 of VIII.1.",
+   "fix": "Row 20: lines '18656-18658', quote 'appelée la meffe des. nègres'. Rows 58-59: sentence text as in the prose ('J. Theodore Holly'). Delete rows 68-69 with the paragraph."
+  }
+ ],
+ "quotes_checked": 58,
+ "quotes_failed": [],
+ "notes": "All 58 Library quotes were re-opened at their file lines and found verbatim (whitespace-normalized). The context of each was read for support: Moreau t. I 2595-2620, 6885-6897, 18650-18662, 18694-18702, 20688-20694, 28770-28796; t. II 19722-19736; Montalvo 543-550, 645-714, 2036-2042, 2556-2565, 2994-3000, 5160-5167, 5402-5436, 8895-8905; García 27365-27405, 38950-38990, 40970-40986, 41036-41052; Spirit of Missions 2975-2995, 3030-3152, 3920-3932, 4370-4378. Page images checked on archive.org for the quotes that carry dates and names: Moreau p. 107 (1704, 'la fin de 1763', 1768: OCR 'T763' confirmed as 1763); Moreau p. 540 (Boutin, 'Arrivé au Cap en 1705', the adult baptisms, 'La messe, appelée des nègres'); Montalvo pp. 4-5 (1650, 1651, the Congregation of Rites disclaimer); Montalvo p. 230 (the 1667 notebook, April); García Libro II leaf n456 (26 March 1687, year 11); Spirit of Missions pp. 768-769 ('J. THEODORE HOLLY, Dean', Port-au-Prince, 30 June 1874; consecration 8 November 1874; that page also shows the narrative is 'extracts from the Report of the Foreign Committee to the Board of Missions', which fits 'the board's'). Not checked on images: the Moreau title page (18 October 1789), the 1783 and 1788 passages, and the Tenerife line. Renderings were checked clause by clause; apart from LA-m2 they carry every clause and add nothing. The rendering at row 46 is labelled as running past the quote's line break, which is acceptable. Ruling fidelity: VII.17 and VIII.1 keep their earlier paragraphs and sources unchanged (checked against world-census.json: each new longDescription starts with the old one, and the old sources list is an unchanged prefix). Only the ruled lines are added. Homes are as confirmed by the coordinator. [S] items checked: no Code Noir, no Bois Caïman, no 'first order founded in the Americas', no 1687 approval, no 1820 end, no 'James', no 1861 in the prose. The [S] leaks are the two in LA-S2. The shelf rule holds (1683, 1723, 1797 in a row to 1810; 1874 in a row to 1906). check_draft.py prints READ-FAIL only for the two carried frozen first paragraphs; every new paragraph passes. Prose reads in the project's plain register with no AI tells. The Holly paragraphs lean on source narration ('Holly's own part is a table ...'); that is the same convention as VII.17's Vieira lines and is not a finding. The Cuba cut (LA8-8) is upheld on the gate's line; see LA-m4 for the reason text."
+}

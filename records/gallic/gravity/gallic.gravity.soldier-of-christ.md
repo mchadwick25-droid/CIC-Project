@@ -114,7 +114,7 @@ description: >-
   entered (Comm. ch. 1).
 
   This idiom runs evenly across both houses and both registers of this world's literature. It shapes
-  the Institutes' structure - dress read as armour, faults as combats - and the Vita's turning
+  the Institutes' structure - dress read as armor, faults as combats - and the Vita's turning
   point. It gives both houses a shared vocabulary for a novice's first step: an oath sworn, a
   service entered.
 
@@ -125,11 +125,11 @@ description: >-
   primary one. Nothing in this world's literature contradicts it or shifts it under pressure.
 manifestations:
 - "Martin's discharge: 'I am the soldier of Christ: it is not lawful for me to fight,' facing the enemy 'protected by the sign of the cross, and not by shield or helmet' (Vita IV)"
-- "Book I, ch. 1's second sentence: 'A monk, then, as a soldier of Christ ever ready for battle, ought always to walk with his loins girded' (I.1) - dress read as armour"
+- "Book I, ch. 1's second sentence: 'A monk, then, as a soldier of Christ ever ready for battle, ought always to walk with his loins girded' (I.1) - dress read as armor"
 - "The faults as combats in sequence - 'our first struggle' (Inst. V.3), 'Our sixth combat' (X.1); the monk of accidie 'a runaway from His service, and a deserter' (X.3)"
 - "'Young soldiers who had just taken the oath of allegiance to Christ' walking in Martin's funeral procession (Ep. III); the soldier-monk of Dial. II.11"
 - "Job 'His well tried athlete, when the devil had challenged him to single combat' (Conf. XIII.14) - the idiom of the grace defense"
-- "Vincent's harbour reached out of 'the manifold and deplorable tempests of secular warfare' (Comm. ch. 1 [2]) - the antonym"
+- "Vincent's harbor reached out of 'the manifold and deplorable tempests of secular warfare' (Comm. ch. 1 [2]) - the antonym"
 use_note:
   means: "The monk's life is military service and combat against the devil and the faults, literal in the north and figurative in the south."
   not_for:

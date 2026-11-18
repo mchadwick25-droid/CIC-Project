@@ -30,7 +30,7 @@ sources:
 retrieval:
   tier: 2
   retrieve_when:
-  - participant asks whether we believed outsiders were going to hell
+  - participant asks what Cyprian told a pagan who heard the faith and would not believe
   - participant asks whether it was ever too late to repent
   prefer_instead:
   - participant asks what Cyprian said awaits those who would not believe -- lpc.quote.an-ever-burning-gehenna

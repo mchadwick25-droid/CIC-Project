@@ -1,0 +1,73 @@
+{
+  "name": "Hild of Whitby",
+  "otherNames": [
+    "Hilda"
+  ],
+  "knownFor": "Abbess of Hartlepool and then of Whitby, in Northumbria, who ruled a monastery of men and women. Bede says kings and princes sought her advice, five bishops came from her house, and she received the poet Caedmon into it. The synod of 664 on the date of Easter met at Whitby, where she held with the side Bede calls the Scots.",
+  "dates": "Died 17 November 680, aged sixty-six, Bede says; by that count she was born about 614. She took the faith with King Edwin of Northumbria, whose baptism Bede dates to 627. She was abbess of Heruteu when King Oswy gave his daughter there after his victory of 655. Two years later she built a monastery at Whitby, in Bede's account",
+  "place": "Northumbria. Heruteu, which Bede calls the island of the hart and L. Cecil Jane gives as Hartlepool. Streaneshalch, which Bede says means the Bay of the Lighthouse, and which Jane gives as Whitby. Hackness, a house she founded in her last year, near Whitby in Jane's note. Before that, the East Angles, and a small holding on the north bank of the Wear",
+  "tradition": "Anglo-Saxon Christianity",
+  "role": "Abbess and founder; head of a monastery of men and women; teacher and adviser to kings",
+  "briefLength": "about 2 minutes 30 seconds",
+  "legacy": {
+    "traces": [
+      "Bede names the five bishops who came from her house: Bosa, Hedda, Oftfor, John and Wilfrid. John became bishop of Hexham, and this Wilfrid bishop of York. Bede tells later that John ordained his priest Wilfrid to York, a different man from Wilfrid of Ripon. Plummer's Latin text gives the second name as Aetla.",
+      "Oftfor studied the Scriptures in both her monasteries, Bede says, before going on to Archbishop Theodore of Tarsus in Kent and to Rome. He became bishop among the Wiccii. Tatfrid, from her house too, had been chosen bishop there before Bosel, Oftfor's predecessor, and died before he could be ordained.",
+      "Caedmon became a monk of her house at her order, and Bede says his songs turned many to despise the world.",
+      "Elfleda, King Oswy's daughter, came to her as an infant at Heruteu. Bede says she was first a learner and then a teacher of the monastic life at Whitby. Oswy, his queen Eanfleda and King Edwin were buried there."
+    ],
+    "remembered": [
+      "Bede says all who knew her called her Mother. The fame of her industry and virtue, he adds, brought many who lived far away to amend their lives.",
+      "Bede tells that on the night she died, a nun named Begu at Hackness saw her soul carried to heaven by angels. Bede presents this as a manifest vision by which God made her death known. He adds, as a report, that a nun at Whitby saw the same that night.",
+      "Charles Plummer counts her deathbed among the holy deaths over which Bede lingers most lovingly, with Caedmon's.",
+      "The litany of the York Prymer, which Canon Wordsworth prints in his Horae Eboracenses, calls on Saint Hilda.",
+      "James Raine, in his preface to The Historians of the Church of York, writes that Whitby was the cradle of English national poetry."
+    ]
+  },
+  "uncertain": [
+    "Most of what is known of her comes from Bede, writing about fifty years after her death. He tells her life in one chapter. Three more tell of her houses, the synod at Whitby and Caedmon, and his summary of years notes her death. Her dates come from his reckoning.",
+    "Her part against Wilfrid of Ripon. Stephen, Wilfrid's biographer, copies a letter of Pope John to two kings, Ethelred of the Mercians and Alfrid of the Deiri and Bernicians. Wilfrid had appealed to Rome under Pope Agatho. The letter says that men sent by Archbishop Theodore of Tarsus and by the abbess Hild had come there first to accuse him. Bede, who praises her, does not mention it.",
+    "Her stay abroad. Bede says she spent a whole year among the East Angles, meaning to go to her sister at the monastery of Cale in Gaul. Then Aidan of Lindisfarne called her home. Thomas, a monk of Ely, wrote a Life of Etheldreda, abbess of Ely. He has Hild join her sister in that monastery before Aidan recalled her after a year. The Bollandists, who print that Life, say Thomas wrote before the end of the twelfth century.",
+    "Whitby's beginning. Bede says she undertook either to build or to set in order a monastery there, and elsewhere that she acquired the land and built it. He does not say whether a house stood there before her.",
+    "The synod. Bede says Hild and her followers held with the Scots, and that King Oswy ruled for the Roman Easter. Bede says the Scots came into Britain from Ireland. Charles Plummer writes of the Irish monks of Iona, by whom Northumbria was won back to the faith. Bede says all present assented to the ruling, and gives no word of hers. Stephen also places the meeting at her monastery and in her presence.",
+    "Her name. Plummer's Latin text of Bede spells her Hild; Giles's English, Hilda. She is a different woman from Heiu, who founded Heruteu before her, and from Begu, the nun of Hackness."
+  ],
+  "sources": {
+    "about": [
+      {
+        "title": "Ecclesiastical History III.24-25, IV.23-24 and 26, and V.24 (tr. J. A. Giles, ed. L. Cecil Jane, with his notes)",
+        "author": "Bede",
+        "date": "1903",
+        "language": "English translation",
+        "file": "cic/texts/bede_ecclesiastical-history-english-people_giles1903.txt"
+      },
+      {
+        "title": "Historia ecclesiastica gentis Anglorum III.24-25 and IV.23, in Venerabilis Baedae Opera historica, volume 1, with Plummer's Introduction",
+        "author": "Bede; Charles Plummer (ed.)",
+        "date": "1896",
+        "language": "Latin, with English introduction",
+        "file": "cic/texts/bede_opera-historica-v1-historia-abbatum-lat_plummer1896.txt"
+      },
+      {
+        "title": "Life of Wilfrid, chapters 10 and 54, with the letter of Pope John, in The Historians of the Church of York, volume 1",
+        "author": "Stephen (Eddius Stephanus); James Raine (ed.)",
+        "date": "1879",
+        "language": "Latin",
+        "file": "cic/texts/byrhtferth_vita-s-oswaldi-in-historians-of-the-church-of-york-v1-lat_raine1879.txt"
+      },
+      {
+        "title": "Life of Saint Etheldreda, book I, with the Bollandists' commentary, in Acta Sanctorum, June, volume 5",
+        "author": "Thomas, monk of Ely",
+        "language": "Latin",
+        "file": "cic/texts/acta-sanctorum_junii-tomus-5-lat_palme1867.txt"
+      },
+      {
+        "title": "Horae Eboracenses: the Prymer of the York Use, with its litany",
+        "author": "Canon Wordsworth (ed.)",
+        "date": "1920",
+        "language": "Latin and English",
+        "file": "cic/texts/surtees-society_horae-eboracenses-prymer-of-york-use-lat-enm_wordsworth1920.txt"
+      }
+    ]
+  }
+}

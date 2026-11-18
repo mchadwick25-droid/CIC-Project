@@ -11,7 +11,7 @@ confidence:
   verification_state: verified-direct
   evidentiary_weight: load-bearing
   formation_confidence: Documented
-  divergence_note: 'A real bibliographic finding, carried rather than summarised away: the scan''s only
+  divergence_note: 'A real bibliographic finding, carried rather than summarized away: the scan''s only
     surviving title page identifies itself as ''Pars I'' (CSEL 51), but the text runs past that title
     page''s own stated three-item contents into further works confirmed by their own Explicit/Incipit
     markers, with no second title page captured. The volume''s consolidated errata resolves it -- it corrects

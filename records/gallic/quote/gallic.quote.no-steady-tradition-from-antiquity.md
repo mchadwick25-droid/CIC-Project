@@ -17,8 +17,7 @@ confidence:
     than independent corroboration.
 sources:
 - source_id: gallic.source.sulpitius-vita-martini
-  locus: "Life of St. Martin ch. XI (npnf211 div ii.ii.xii, file lines 1170-1178): Martin's own
-    reason, as Sulpitius reports it, for questioning a local martyr cult"
+  locus: "Life of St. Martin ch. XI (cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml, lines 1176-1178; div ii.ii.xii): Martin's own reason, as Sulpitius reports it, for questioning a local martyr cult"
   license: public-domain
 retrieval:
   tier: 3

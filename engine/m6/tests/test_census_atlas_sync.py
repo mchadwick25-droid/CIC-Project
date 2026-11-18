@@ -1,4 +1,4 @@
-from engine.m6.census_atlas_sync import LIVE_STATUS, sync_atlas
+from engine.m6.census_atlas_sync import LIVE_STATUS, eras_out_of_sync, sync_atlas, sync_roster
 
 
 def _census():
@@ -135,3 +135,75 @@ def test_structural_fields_sync_for_a_built_world_too():
     assert m["sources"] == [{"work": "Built World Source", "type": "primary"}]
     # why (a NON_BUILT_WORLD_FIELDS-only field) still stays untouched
     assert m["why"] == "Built-world why - Atlas doesn't carry this field, must stay untouched."
+
+
+def test_kind_is_a_structural_field():
+    census = {"movements": [{"id": "a", "status": LIVE_STATUS, "kind": "cross-church movement"}]}
+    new_movements, changes = sync_atlas(census, [{"id": "a", "status": LIVE_STATUS}])
+    assert new_movements[0]["kind"] == "cross-church movement"
+    assert changes == [{"id": "a", "field": "kind", "old": None, "new": "cross-church movement"}]
+
+
+def test_roster_adds_census_rows_in_census_order_and_drops_the_rest():
+    new_movements, added, removed = sync_roster(_census(), _atlas_movements())
+    assert [m["id"] for m in new_movements] == ["non-built-a", "built-a", "no-atlas-counterpart"]
+    assert added == ["no-atlas-counterpart"]
+    assert removed == ["atlas-only-movement"]
+    assert new_movements[0] == _atlas_movements()[0]
+
+
+def test_an_added_row_leaves_out_census_only_fields():
+    census = {"movements": [{"id": "a", "status": "Pre-Survey Candidate", "why": "Why.", "livingEvidence": {"x": 1}}]}
+    new_movements, added, _ = sync_roster(census, [])
+    assert new_movements == [{"id": "a", "status": "Pre-Survey Candidate", "why": "Why."}]
+    assert added == ["a"]
+
+
+def test_an_added_built_world_leaves_out_the_prose_it_fetches():
+    census = {"movements": [{"id": "b", "status": LIVE_STATUS, "why": "Why.", "sources": ["S"], "entry": {"x": 1}}]}
+    new_movements, _, _ = sync_roster(census, [])
+    assert new_movements == [{"id": "b", "status": LIVE_STATUS, "sources": ["S"], "entry": {"x": 1}}]
+
+
+def test_roster_in_sync_is_a_no_op():
+    census = _census()
+    first, _, _ = sync_roster(census, _atlas_movements())
+    again, added, removed = sync_roster(census, first)
+    assert again == first and added == [] and removed == []
+
+
+def test_eras_out_of_sync():
+    census = {"eras": [{"num": 10, "dates": "1906-c. 2010"}]}
+    assert eras_out_of_sync(census, [{"num": 10, "dates": "1906-present"}]) is True
+    assert eras_out_of_sync(census, [{"num": 10, "dates": "1906-c. 2010"}]) is False
+
+
+def test_people_fields_mirror_for_built_and_non_built_worlds():
+    census = {
+        "movements": [
+            {"id": "built-b", "status": LIVE_STATUS, "people": [{"person": "p"}], "peopleNote": None},
+            {"id": "plain-b", "status": "Pre-Survey Candidate", "people": [], "peopleNote": "No one is named."},
+            {"id": "p", "status": "Within Another World (A5)", "kind": "person", "toldWithin": "built-b", "card": {"role": "Bishop"}},
+        ]
+    }
+    atlas = [{"id": "built-b", "status": LIVE_STATUS}, {"id": "plain-b"}, {"id": "p"}]
+    new, _ = sync_atlas(census, atlas)
+    by_id = {m["id"]: m for m in new}
+    assert by_id["built-b"]["people"] == [{"person": "p"}]
+    assert by_id["plain-b"]["peopleNote"] == "No one is named."
+    assert by_id["p"]["toldWithin"] == "built-b"
+    assert by_id["p"]["card"] == {"role": "Bishop"}
+
+
+def test_a_people_field_the_census_dropped_is_taken_out_of_the_atlas():
+    census = {"movements": [{"id": "a", "status": LIVE_STATUS, "people": [{"person": "p"}]}]}
+    atlas = [{"id": "a", "status": LIVE_STATUS, "people": [{"person": "p"}], "peopleNote": "No one is shown."}]
+    new_movements, changes = sync_atlas(census, atlas)
+    assert "peopleNote" not in new_movements[0]
+    assert changes == [{"id": "a", "field": "peopleNote", "old": "No one is shown.", "new": None, "removed": True}]
+
+
+def test_council_is_a_people_field():
+    census = {"movements": [{"id": "c", "status": "Major council", "council": {"knownFor": "A meeting."}}]}
+    new_movements, changes = sync_atlas(census, [{"id": "c", "status": "Major council"}])
+    assert new_movements[0]["council"] == {"knownFor": "A meeting."}

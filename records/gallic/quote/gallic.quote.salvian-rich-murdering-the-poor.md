@@ -19,7 +19,7 @@ confidence:
     how literally to take it.
 sources:
 - source_id: gallic.source.salvian-on-the-government-of-god
-  locus: "IV.6 (Sanford p. 110): tax relief that enriches the rich and further burdens the poor"
+  locus: "IV.6 (Sanford p. 110): tax relief that enriches the rich and further burdens the poor (cic/texts/salvian_on-the-government-of-god_sanford1930.txt, lines 5063-5066)"
   license: public-domain
 retrieval:
   tier: 2

@@ -22,6 +22,8 @@ assignments:
   - the-society-of-jesus
   role: tradition
   confidence: provisional
+  language: lat
+  date: {formation_confidence: unknown, checked: "file header and Beccari's preface (1908 imprint dates the edition only); the composition date of Mendes's account is not stated in the lines read"}
   note: >-
     The Jesuit patriarch's own account of the mission. Placed on window and subject without reading the
     whole volume.

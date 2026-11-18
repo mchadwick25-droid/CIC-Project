@@ -1,0 +1,151 @@
+{
+ "draft": "We held that God does not compel the soul, and that the soul has real power to turn toward him or away [[alx.term.autexousia]] [[as:paraphrase]]. Formation worked through the soul's own turning, never around it [[alx.term.autexousia]] [[as:paraphrase]]. Origen's rule was plain: what the apostles delivered plainly is fixed, and everything else is open ground [[alx.dw.doubt]] [[as:paraphrase]]. Whether Origen held that all things will be restored, as settled doctrine, is contested [[alx.contested.origen-positions]] [[as:paraphrase]]. Clement wrote in Stromateis I.5: [[quote:alx.quote.clement-schoolmaster]]\n",
+ "ending": "rewritten",
+ "final": "We held that God does not compel the soul, and that the soul has real power to turn toward God or away. Formation worked through the soul's own turning, never around it. Origen's rule was plain: what the apostles delivered plainly is fixed, and everything else is open ground. Whether Origen held that all things will be restored, as settled doctrine, is contested.",
+ "group": "A",
+ "offered": [
+  "alx.dw.church-failure",
+  "alx.dw.doubt",
+  "alx.term.autexousia",
+  "alx.term.episkopos",
+  "alx.quote.clement-schoolmaster",
+  "alx.gravity.learning-community-tension",
+  "alx.contested.origen-positions",
+  "alx.limit.faith-alone-later-frame",
+  "alx.term.mysterion",
+  "alx.quote.athanasius-death-trampled-down",
+  "alx.gravity.learning-formation",
+  "alx.gravity.martyrdom-contemplative-tension",
+  "alx.gravity.speculative-doctrinal-tension"
+ ],
+ "placements": [
+  {
+   "decision": "drop",
+   "judgement": {
+    "fit": "partly",
+    "limit_stated": false,
+    "reason": "It speaks of philosophy as preparation for the Greeks, a nearby question, not the eternal fate of outsiders."
+   },
+   "record_id": "alx.quote.clement-schoolmaster"
+  }
+ ],
+ "question": "What did your community hold about the eternal fate of those outside it?",
+ "question_id": "q028",
+ "read": {
+  "dropped": [
+   "alx.quote.clement-schoolmaster"
+  ],
+  "status": "rewrite",
+  "unsupported": {}
+ },
+ "rewrite": [
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "alx.term.autexousia"
+   ],
+   "sentence": "We held that God does not compel the soul, and that the soul has real power to turn toward God or away.",
+   "tags": [
+    "alx.term.autexousia"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "alx.term.autexousia"
+   ],
+   "sentence": "Formation worked through the soul's own turning, never around it.",
+   "tags": [
+    "alx.term.autexousia"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "alx.dw.doubt"
+   ],
+   "sentence": "Origen's rule was plain: what the apostles delivered plainly is fixed, and everything else is open ground.",
+   "tags": [
+    "alx.dw.doubt"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "alx.contested.origen-positions"
+   ],
+   "sentence": "Whether Origen held that all things will be restored, as settled doctrine, is contested.",
+   "tags": [
+    "alx.contested.origen-positions"
+   ]
+  }
+ ],
+ "sentences": [
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 0,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "We held that God does not compel the soul, and that the soul has real power to turn toward him or away.",
+   "tags": [
+    "alx.term.autexousia"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 1,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Formation worked through the soul's own turning, never around it.",
+   "tags": [
+    "alx.term.autexousia"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 2,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Origen's rule was plain: what the apostles delivered plainly is fixed, and everything else is open ground.",
+   "tags": [
+    "alx.dw.doubt"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 3,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Whether Origen held that all things will be restored, as settled doctrine, is contested.",
+   "tags": [
+    "alx.contested.origen-positions"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": null,
+   "n": 4,
+   "placed": true,
+   "placed_id": "alx.quote.clement-schoolmaster",
+   "reason": "placed by code",
+   "sentence": "Clement wrote in Stromateis I.5: “Perhaps, too, philosophy was given to the Greeks directly and in the first place, until the Lord should call the Greeks. For philosophy was a guardian to bring the Greek mind to Christ, as the law was for the Hebrews. So philosophy was a preparation. It paved the way for the one who is made perfect in Christ.”",
+   "tags": [
+    "alx.quote.clement-schoolmaster"
+   ]
+  }
+ ],
+ "shipped_by_net": "We held that God does not compel the soul, and that the soul has real power to turn toward him or away. Formation worked through the soul's own turning, never around it. Origen's rule was plain: what the apostles delivered plainly is fixed, and everything else is open ground. Whether Origen held that all things will be restored, as settled doctrine, is contested. Clement wrote in Stromateis I.5: “Perhaps, too, philosophy was given to the Greeks directly and in the first place, until the Lord should call the Greeks. For philosophy was a guardian to bring the Greek mind to Christ, as the law was for the Hebrews. So philosophy was a preparation. It paved the way for the one who is made perfect in Christ.”",
+ "sub_question": "C11.S5"
+}

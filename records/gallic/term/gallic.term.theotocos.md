@@ -68,17 +68,17 @@ senses:
     For us it is one dated proof-case of the antiquity-and-consent test succeeding, not a matter
     our formation writing otherwise dwells on.
   translational: >-
-    Not a later Marian devotion, and not a centre of our own life: a doctrinal example Vincent
+    Not a later Marian devotion, and not a center of our own life: a doctrinal example Vincent
     uses to show his method working - a new name refused because it was new.
 quick_meaning: >-
   Vincent's example against Nestorius: two substances in Christ, one Person, so Mary is truly the
-  mother of God. A proof-case for his rule, not a centre of our own life.
+  mother of God. A proof-case for his rule, not a center of our own life.
 distortion_risk: low
 use_note:
   means: "Theotocos appears as Vincent's example against Nestorius: two substances and one Person in Christ, so that Mary is truly the mother of God, a proof-case for his rule."
   not_for:
     - "the title as belonging to later Marian devotion"
-    - "a centre of this world's own formation life, when Christology is peripheral to it"
+    - "a center of this world's own formation life, when Christology is peripheral to it"
     - "the content of Cassian's seven books on the Incarnation, which sit in unread gallic.source.cassian-de-incarnatione"
     - "the rule the example tests, which sits in gallic.term.the-rule"
   years: {from: 434, to: 434}

@@ -85,12 +85,12 @@ text: >-
   them, were known by the name of monks. They had received that way of life from the Evangelist Mark.
   They kept the pattern of the first believers in Jerusalem: one heart and one soul, all things held
   in common. They withdrew outside the cities to a life of such abstinence that even unbelievers
-  marvelled. At that time the primitive Church's perfection still stood whole, and the few who held
+  marveled. At that time the primitive Church's perfection still stood whole, and the few who held
   the faith had not yet grown lukewarm by being spread thin among the many. So the elder fathers met,
   with careful concern for those who would come after them, to settle a plan for the daily worship of
   the whole community.
 
-  They feared what might happen if the daily services were left to each man's own fervour. A dispute
+  They feared what might happen if the daily services were left to each man's own fervor. A dispute
   might grow into something worse: a root of error, jealousy, or schism among those who came later.
   And that is what began to happen: each father, weighing only his own strength and not the weakness
   of others, proposed the number that suited him. Some argued for fifty psalms, some for sixty, and
@@ -113,14 +113,14 @@ absent_detail: >-
   Nothing in our record says what the brethren at Tours sang or at what hours - Martin's monastery has
   only "the place of prayer" - and this Egyptian origin-story must not be used to fill that silence.
   What is Gaul's own is that it kept the twelve, added a Gloria "we have never heard anywhere
-  throughout the East," and, by Cassian's own complaint, could not keep the fathers' rigour "even for a
+  throughout the East," and, by Cassian's own complaint, could not keep the fathers' rigor "even for a
   year."
 modern_contrast: >-
   A modern reader assumes a community's rule of prayer is something its founders decided, and that a
   rule is authoritative because someone with authority made it. The fathers of Egypt, as this story
   remembers them, could not decide - and the number that held is the one nobody chose. The office's
   authority is precisely that it is not anyone's; and the reason given for having a rule at all is to
-  guard "the weakness of others" against the fervour of the few, the angel's twelve against the
+  guard "the weakness of others" against the fervor of the few, the angel's twelve against the
   zealots' sixty.
 use_note:
   means: "Cassian relays the Egyptian fathers' founding tale that an angel fixed the evening and night psalms at twelve by singing the twelfth with Alleluia and vanishing."

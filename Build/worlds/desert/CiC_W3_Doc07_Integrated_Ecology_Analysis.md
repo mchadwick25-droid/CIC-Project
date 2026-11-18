@@ -78,7 +78,7 @@ What this world was responding to, what pressed from outside, and what fractured
 
 - **Responding to:** martyrdom's unavailability (Doc_01 §7), and the practical problem of formation-at-scale that generated gravity 6 (Doc_04 §4).
 - **Pressed from outside:** episcopal/conciliar authority, most visibly in the 399–400 Origenist controversy (Doc_01 §2.3) — this document does not re-litigate Doc_04's corrected finding that this event bears on gravity 9's later transmission history rather than on this document's own Doc_04-level classifications, and explicitly defers its full six-cell treatment to Doc_08.
-- **Fractured from within:** the person-vs-office authority tension (gravity 10) never resolves within this world's own span and is the clearest candidate for an internally-generated, rather than externally-imposed, pressure toward this world's eventual closing (Doc_04 §8, open item 5) — though this document, consistent with that same open item, does not resolve whether the closing was primarily internally or externally driven, and flags this explicitly as Doc_08's own question to take up.
+- **Fractured from within:** the person-vs-office authority tension (gravity 10) never resolves within this world's own span and is the clearest candidate for an internally-generated, rather than externally-imposed, pressure toward this world's eventual closing (Doc_04 §8, item 5) — though this document, consistent with that same item, does not resolve whether the closing was primarily internally or externally driven, and flags this explicitly as Doc_08's own question to take up.
 
 ---
 

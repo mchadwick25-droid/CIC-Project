@@ -70,7 +70,7 @@ description: >-
   clergy back, they did not repeat the rebaptism this world otherwise insists on.
 
   The record states this plainly. It does so in the same texts that state the doctrine at its most
-  absolute. And it does not treat the two facts as cancelling each other out.
+  absolute. And it does not treat the two facts as canceling each other out.
 
   This affair is the direct engine of one of this world's central tensions. On one side stands
   strict purity. On the other stands receiving people back into the institution. Of every internal

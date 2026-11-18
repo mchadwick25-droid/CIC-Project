@@ -1,0 +1,105 @@
+{
+ "draft": "For our bishop Cyprian, baptism was a regeneration, a birth [[lpc.witness.baptism-as-new-birth]] [[as:paraphrase]]. Cyprian wrote to Jubaianus about people who come to the church from heresy [[lpc.witness.baptism-as-new-birth]] [[as:paraphrase]]. Those people ought to be baptized, Cyprian said, in the lawful, true and only baptism of the holy Church [[lpc.witness.baptism-as-new-birth]] [[as:paraphrase]]. By divine regeneration they are prepared for the kingdom of God, and may be born of both sacraments [[lpc.witness.baptism-as-new-birth]] [[as:paraphrase]].\n\nCyprian gave his reason from Scripture, from John chapter three, verse five, which speaks of being born of water and of the Spirit [[lpc.witness.baptism-as-new-birth]] [[as:paraphrase]].\n\nWhat an ordinary believer felt standing at the font is not ours to give you [[lpc.limit.ordinary-interior-life]] [[as:paraphrase]]. We can tell you what was decided about a person, how carefully, and by whom [[lpc.limit.ordinary-interior-life]] [[as:paraphrase]].\n",
+ "ending": "clean",
+ "final": "For our bishop Cyprian, baptism was a regeneration, a birth. Cyprian wrote to Jubaianus about people who come to the church from heresy. By divine regeneration they are prepared for the kingdom of God, and may be born of both sacraments.\n\nCyprian gave his reason from Scripture, from John chapter three, verse five, which speaks of being born of water and of the Spirit.\n\nWhat an ordinary believer felt standing at the font is not ours to give you. We can tell you what was decided about a person, how carefully, and by whom.",
+ "group": "A",
+ "offered": [
+  "lpc.witness.baptism-as-new-birth",
+  "lpc.term.reconciliation-penitential-discipline",
+  "lpc.story.the-plague-and-the-enemies",
+  "lpc.quote.let-your-creed-be-a-mirror",
+  "lpc.quote.o-blessed-people-of-the-church",
+  "lpc.gravity.confessor-authority-vs-episcopal-peace",
+  "lpc.contested.compel-coercion-development",
+  "lpc.limit.ordinary-interior-life",
+  "lpc.quote.a-dreadful-plague-broke-out",
+  "lpc.quote.he-slept-with-his-fathers",
+  "lpc.limit.womens-own-voice",
+  "lpc.witness.answerability-as-ground"
+ ],
+ "placements": [],
+ "question": "Would your community describe conversion using language like being 'born again'?",
+ "question_id": "q020",
+ "read": {
+  "dropped": [],
+  "status": "clean",
+  "unsupported": {}
+ },
+ "rewrite": null,
+ "sentences": [
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 0,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "For our bishop Cyprian, baptism was a regeneration, a birth.",
+   "tags": [
+    "lpc.witness.baptism-as-new-birth"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 1,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Cyprian wrote to Jubaianus about people who come to the church from heresy.",
+   "tags": [
+    "lpc.witness.baptism-as-new-birth"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 2,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "By divine regeneration they are prepared for the kingdom of God, and may be born of both sacraments.",
+   "tags": [
+    "lpc.witness.baptism-as-new-birth"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 3,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Cyprian gave his reason from Scripture, from John chapter three, verse five, which speaks of being born of water and of the Spirit.",
+   "tags": [
+    "lpc.witness.baptism-as-new-birth"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 4,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "What an ordinary believer felt standing at the font is not ours to give you.",
+   "tags": [
+    "lpc.limit.ordinary-interior-life"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 5,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "We can tell you what was decided about a person, how carefully, and by whom.",
+   "tags": [
+    "lpc.limit.ordinary-interior-life"
+   ]
+  }
+ ],
+ "shipped_by_net": "For our bishop Cyprian, baptism was a regeneration, a birth. Cyprian wrote to Jubaianus about people who come to the church from heresy. By divine regeneration they are prepared for the kingdom of God, and may be born of both sacraments.\n\nCyprian gave his reason from Scripture, from John chapter three, verse five, which speaks of being born of water and of the Spirit.\n\nWhat an ordinary believer felt standing at the font is not ours to give you. We can tell you what was decided about a person, how carefully, and by whom.",
+ "sub_question": "C4.S5"
+}

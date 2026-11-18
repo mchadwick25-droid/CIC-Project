@@ -1,0 +1,11 @@
+source_file: te-karere_v24-mri_1930.txt
+assignments:
+- row_id: te-karere_v24-mri_1930--te-karere-1930-a-letter-on-the-covenant-at-ratana-pa
+  work: 'Te Karere 1930: a letter on the covenant at Ratana Pa'
+  author: te-karere
+  locus: 'lines 141-210; a notice at lines 6674-6690'
+  atlas_ids:
+  - ratana-church-and-pacific-adjustment-movements
+  role: context
+  confidence: assigned
+  note: 'Another church''s Māori paper; an outside voice on the movement in 1930. Broken OCR.'

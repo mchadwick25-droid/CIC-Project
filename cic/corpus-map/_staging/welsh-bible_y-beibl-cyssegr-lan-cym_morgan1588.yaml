@@ -1,0 +1,14 @@
+source_file: welsh-bible_y-beibl-cyssegr-lan-cym_morgan1588.txt
+assignments:
+- row_id: welsh-bible_y-beibl-cyssegr-lan-cym_morgan1588--william-morgan-s-welsh-bible-1588-with-his-dedication-to-elizabeth-i
+  work: William Morgan's Welsh Bible (1588), with his dedication to Elizabeth I
+  author: welsh-bible
+  locus: the dedicatory epistle at about OCR lines 386-540; the Bible text after it; add 12 to OCR line
+    numbers for this file's own
+  atlas_ids:
+  - the-english-reformation-and-elizabethan-settleme
+  role: tradition
+  confidence: provisional
+  note: The Elizabethan church's Bible for Wales, translated by William Morgan; the Welsh church's own
+    Bible from 1588. Within this entry's window (1530s-1650). It also answers the Welsh church after 1282
+    (Open-Gaps 158). Poor OCR; second witness only.

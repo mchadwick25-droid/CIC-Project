@@ -1,0 +1,29 @@
+source_file: akty-istoricheskie_t1-1334-1598-rus_arkheograficheskaia-kommissiia1841.txt
+assignments:
+- row_id: akty-istoricheskie_t1-1334-1598-rus_arkheograficheskaia-kommissiia1841--kirill-of-beloozero-letters-to-the-princes-and-testament-akty-istoricheskie-i-nos-12-16-27-and-the-testament-of-1427
+  work: 'Kirill of Beloozero, letters to the princes and testament (Akty istoricheskie I, nos. 12, 16, 27 and the testament of 1427)'
+  author: akty-istoricheskie
+  locus: 'about OCR lines 2720, 3154, 6486 and 7243; add 12 to OCR line numbers'
+  atlas_ids:
+  - muscovite-monastic-christianity
+  role: tradition
+  confidence: provisional
+  note: 'Kirill''s own letters and will, in old Russian; no Life of him is held.'
+- row_id: akty-istoricheskie_t1-1334-1598-rus_arkheograficheskaia-kommissiia1841--moscow-s-letters-on-isidore-and-the-council-of-florence-akty-istoricheskie-i
+  work: 'Moscow''s letters on Isidore and the Council of Florence (Akty istoricheskie I)'
+  author: akty-istoricheskie
+  locus: 'about OCR lines 8370-8780, 9620-9860 and 12570-13700; add 12 to OCR line numbers'
+  atlas_ids:
+  - muscovite-monastic-christianity
+  role: tradition
+  confidence: provisional
+  note: 'The grand prince''s and Metropolitan Jonah''s own letters, with bishops'' sworn statements: the Moscow side of the rejection of the union. The document numbers were not all read.'
+- row_id: akty-istoricheskie_t1-1334-1598-rus_arkheograficheskaia-kommissiia1841--moscow-s-letters-on-isidore-and-the-council-of-florence-akty-istoricheskie-i-as-an-outside-report
+  work: 'Moscow''s letters on Isidore and the Council of Florence (Akty istoricheskie I), as an outside report'
+  author: akty-istoricheskie
+  locus: 'about OCR lines 8370-8780; add 12 to OCR line numbers'
+  atlas_ids:
+  - byzantine-church-palaiologan
+  role: context
+  confidence: provisional
+  note: 'A letter from Moscow to the patriarch of Constantinople about the union.'

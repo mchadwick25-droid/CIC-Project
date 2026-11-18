@@ -1,0 +1,74 @@
+{
+ "known_for": "Bishop, preacher and poet whose sermons on the Trinity and letters on Christ's full humanity became standards for the later church.",
+ "role": "Bishop, preacher and poet",
+ "key_works": [
+  {
+   "title": "The Five Theological Orations",
+   "about": "Sermons defending the Trinity, preached in Constantinople."
+  },
+  {
+   "title": "Two Letters to Cledonius",
+   "about": "Letters against Apollinarius on whether Christ had a human mind."
+  },
+  {
+   "title": "Funeral Oration on Basil",
+   "about": "His speech on his friend, with the story of their student days."
+  }
+ ],
+ "legacy_traces": [
+  "Gennadius, calling Gregory that most eloquent man, reports that Rufinus put his works into Latin along with Basil's.",
+  "With Basil he gathered the Philocalia, a book of choice passages from Origen. About Easter in 382 he sent a copy to a friend as a book useful to students of literature.",
+  "In 553 the emperor Justinian's letter to the council at Constantinople named Gregory the Theologian among the holy Fathers it followed."
+ ],
+ "legacy_remembered": [
+  "Theodoret remembered him among the great teachers of the imperial city, as Gregory, shining friend and supporter of the truth.",
+  "Jerome called him a most eloquent man and his instructor in the Scriptures, and counted thirty thousand lines of his writing. He remembered asking Gregory about a hard verse, and Gregory teasing that he would explain it in church, where the applause would force Jerome to understand."
+ ],
+ "uncertain": [
+  "Whether he ever took up Sasima is unclear. It seems he did not, with a rival bishop's troops holding the village and his father pleading with him to stay. His own letters pull two ways. In one he says he was appointed to Sasima, though for a short time he governed Nazianzus out of respect for his father. In another he says he was originally appointed to Nazianzus, \"and not to Sasima as some would falsely persuade you\"."
+ ],
+ "written_about": [
+  {
+   "title": "Prolegomena to Gregory of Nazianzus (Nicene and Post-Nicene Fathers, series 2, vol. 7)",
+   "author": "Charles Gordon Browne and James Edward Swallow",
+   "date": null,
+   "language": "English",
+   "file": "cic/texts/npnf207_cyril-jerusalem-gregory-nazianzen.xml"
+  },
+  {
+   "title": "Lives of Illustrious Men, chapter 117",
+   "author": "Jerome",
+   "date": "392",
+   "language": "English translation",
+   "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml"
+  },
+  {
+   "title": "Lives of Illustrious Men, on Rufinus",
+   "author": "Gennadius",
+   "date": null,
+   "language": "English translation",
+   "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml"
+  },
+  {
+   "title": "Letters, the principal works (Nicene and Post-Nicene Fathers, series 2, vol. 6)",
+   "author": "Jerome",
+   "date": null,
+   "language": "English translation",
+   "file": "cic/texts/npnf206_jerome-principal-works.xml"
+  },
+  {
+   "title": "Ecclesiastical History, on the teachers of Constantinople",
+   "author": "Theodoret",
+   "date": null,
+   "language": "English translation",
+   "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml"
+  },
+  {
+   "title": "Acts of the council of 553",
+   "author": "The council",
+   "date": null,
+   "language": "English translation",
+   "file": "cic/texts/npnf214_seven-ecumenical-councils.xml"
+  }
+ ]
+}

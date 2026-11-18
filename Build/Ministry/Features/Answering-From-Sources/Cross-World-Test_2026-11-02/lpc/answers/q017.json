@@ -1,0 +1,233 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "lpc.witness.baptism-traced-to-the-apostles"
+   ],
+   "sentence": "Augustine traced two of our practices back to the apostles, though none of the apostles wrote either one down."
+  },
+  {
+   "record_ids": [
+    "lpc.witness.baptism-traced-to-the-apostles"
+   ],
+   "sentence": "The two are baptizing infants and refusing to rebaptize someone already baptized among heretics."
+  },
+  {
+   "record_ids": [
+    "lpc.witness.baptism-traced-to-the-apostles"
+   ],
+   "sentence": "For the refusal to rebaptize, Augustine said no one could find a later age that had invented the custom."
+  },
+  {
+   "record_ids": [
+    "lpc.witness.baptism-traced-to-the-apostles"
+   ],
+   "sentence": "Baptizing infants, Augustine said, was held everywhere and instituted by no council."
+  },
+  {
+   "record_ids": [
+    "lpc.witness.baptism-traced-to-the-apostles"
+   ],
+   "sentence": "A custom this old and this universal, with no other explanation for its origin, is rightly believed to come from the apostles."
+  },
+  {
+   "record_ids": [
+    "lpc.limit.apostolic-origin-undefended"
+   ],
+   "sentence": "Augustine names the line of Roman bishops from Peter down to the man sitting then, and Cyprian states the principle that carries that line forward."
+  },
+  {
+   "record_ids": [
+    "lpc.limit.apostolic-origin-undefended"
+   ],
+   "sentence": "Neither Augustine nor Cyprian traces catechesis, the road back, or the teaching before the water to the apostles by name."
+  },
+  {
+   "record_ids": [
+    "lpc.limit.apostolic-origin-undefended"
+   ],
+   "sentence": "We also hold that the office of bishop is one, and each bishop holds his part of it for the whole."
+  },
+  {
+   "record_ids": [
+    "lpc.limit.apostolic-origin-undefended"
+   ],
+   "sentence": "Cyprian argues that from what the Lord said to Peter, as an argument from scripture and not as a second named succession."
+  },
+  {
+   "record_ids": [
+    "lpc.quote.not-his-own-sins-but-the-sins-of-another"
+   ],
+   "sentence": "For the practice of baptizing infants in Cyprian's own time, Cyprian wrote with his council: “Even the greatest sinners, who had sinned much against God, are granted forgiveness of sins when they later believe. No one is kept from baptism and grace. How much more, then, should we shrink from keeping back an infant! Being newly born, he has not sinned, except in one way. Born in the flesh as Adam’s child, he caught the infection of the ancient death at his very first birth. For this very reason he comes the more easily to receive the forgiveness of sins. What is forgiven him is not his own sins, but the sins of another.”"
+  }
+ ],
+ "citations": [
+  "lpc.limit.apostolic-origin-undefended",
+  "lpc.quote.not-his-own-sins-but-the-sins-of-another",
+  "lpc.witness.baptism-traced-to-the-apostles"
+ ],
+ "group": "A",
+ "id": "q017",
+ "net_sentences": [
+  {
+   "draft": "Augustine traced two of our practices back to the apostles, though none of the apostles wrote either one down [[lpc.witness.baptism-traced-to-the-apostles]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "Augustine traced two of our practices back to the apostles, though none of the apostles wrote either one down.",
+   "tags": [
+    "lpc.witness.baptism-traced-to-the-apostles"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "The two are baptizing infants and refusing to rebaptize someone already baptized among heretics [[lpc.witness.baptism-traced-to-the-apostles]] [[as:paraphrase]].",
+   "ratio": 0.89,
+   "sentence": "The two are baptizing infants and refusing to rebaptize someone already baptized among heretics.",
+   "tags": [
+    "lpc.witness.baptism-traced-to-the-apostles"
+   ],
+   "verdict": "ok",
+   "why": "grounded 89% in own tagged records"
+  },
+  {
+   "draft": "For the refusal to rebaptize, Augustine said no one could find a later age that had invented the custom [[lpc.witness.baptism-traced-to-the-apostles]] [[as:paraphrase]].",
+   "ratio": 0.89,
+   "sentence": "For the refusal to rebaptize, Augustine said no one could find a later age that had invented the custom.",
+   "tags": [
+    "lpc.witness.baptism-traced-to-the-apostles"
+   ],
+   "verdict": "ok",
+   "why": "grounded 89% in own tagged records"
+  },
+  {
+   "draft": "Baptizing infants, Augustine said, was held everywhere and instituted by no council [[lpc.witness.baptism-traced-to-the-apostles]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "Baptizing infants, Augustine said, was held everywhere and instituted by no council.",
+   "tags": [
+    "lpc.witness.baptism-traced-to-the-apostles"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "His reasoning was plain.",
+   "sentence": "His reasoning was plain.",
+   "tags": [],
+   "verdict": "ok",
+   "why": "no checkable claim - interpretive/connective framing"
+  },
+  {
+   "draft": "A custom this old and this universal, with no other explanation for its origin, is rightly believed to come from the apostles [[lpc.witness.baptism-traced-to-the-apostles]] [[as:paraphrase]].",
+   "sentence": "A custom this old and this universal, with no other explanation for its origin, is rightly believed to come from the apostles.",
+   "tags": [
+    "lpc.witness.baptism-traced-to-the-apostles"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "The office of bishop is traced too.",
+   "sentence": "The office of bishop is traced too.",
+   "tags": [],
+   "verdict": "withhold",
+   "why": "specific claim (figure-name:['bishop']) with no citation tag"
+  },
+  {
+   "draft": "Augustine names the line of Roman bishops from Peter down to the man sitting then, and Cyprian states the principle that carries that line forward [[lpc.limit.apostolic-origin-undefended]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "Augustine names the line of Roman bishops from Peter down to the man sitting then, and Cyprian states the principle that carries that line forward.",
+   "tags": [
+    "lpc.limit.apostolic-origin-undefended"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "Neither Augustine nor Cyprian traces catechesis, the road back, or the teaching before the water to the apostles by name [[lpc.limit.apostolic-origin-undefended]] [[as:paraphrase]].",
+   "ratio": 0.91,
+   "sentence": "Neither Augustine nor Cyprian traces catechesis, the road back, or the teaching before the water to the apostles by name.",
+   "tags": [
+    "lpc.limit.apostolic-origin-undefended"
+   ],
+   "verdict": "ok",
+   "why": "grounded 91% in own tagged records"
+  },
+  {
+   "draft": "That gap is real.",
+   "sentence": "That gap is real.",
+   "tags": [],
+   "verdict": "ok",
+   "why": "no checkable claim - interpretive/connective framing"
+  },
+  {
+   "draft": "We also hold that the office of bishop is one, and each bishop holds his part of it for the whole [[lpc.limit.apostolic-origin-undefended]] [[as:paraphrase]].",
+   "ratio": 0.83,
+   "sentence": "We also hold that the office of bishop is one, and each bishop holds his part of it for the whole.",
+   "tags": [
+    "lpc.limit.apostolic-origin-undefended"
+   ],
+   "verdict": "ok",
+   "why": "grounded 83% in own tagged records"
+  },
+  {
+   "draft": "Cyprian argues that from what the Lord said to Peter, as an argument from scripture and not as a second named succession [[lpc.limit.apostolic-origin-undefended]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "Cyprian argues that from what the Lord said to Peter, as an argument from scripture and not as a second named succession.",
+   "tags": [
+    "lpc.limit.apostolic-origin-undefended"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "For the practice of baptizing infants in Cyprian's own time, Cyprian wrote with his council: [[quote:lpc.quote.not-his-own-sins-but-the-sins-of-another]]",
+   "placed_quote": "lpc.quote.not-his-own-sins-but-the-sins-of-another",
+   "sentence": "For the practice of baptizing infants in Cyprian's own time, Cyprian wrote with his council: “Even the greatest sinners, who had sinned much against God, are granted forgiveness of sins when they later believe. No one is kept from baptism and grace. How much more, then, should we shrink from keeping back an infant! Being newly born, he has not sinned, except in one way. Born in the flesh as Adam’s child, he caught the infection of the ancient death at his very first birth. For this very reason he comes the more easily to receive the forgiveness of sins. What is forgiven him is not his own sins, but the sins of another.”",
+   "tags": [
+    "lpc.quote.not-his-own-sins-but-the-sins-of-another"
+   ],
+   "verdict": "ok",
+   "why": "quote placed by code, verbatim to its record"
+  }
+ ],
+ "offered": [
+  "lpc.limit.apostolic-origin-undefended",
+  "lpc.witness.baptism-traced-to-the-apostles",
+  "lpc.term.plenary-council",
+  "lpc.story.election-of-cyprian",
+  "lpc.story.numidicus",
+  "lpc.quote.not-his-own-sins-but-the-sins-of-another",
+  "lpc.quote.earlier-councils-corrected-by-later",
+  "lpc.force.congregational-acclamation-overriding-preference"
+ ],
+ "raw_text": "Augustine traced two of our practices back to the apostles, though none of the apostles wrote either one down [[lpc.witness.baptism-traced-to-the-apostles]] [[as:paraphrase]]. The two are baptizing infants and refusing to rebaptize someone already baptized among heretics [[lpc.witness.baptism-traced-to-the-apostles]] [[as:paraphrase]].\n\nFor the refusal to rebaptize, Augustine said no one could find a later age that had invented the custom [[lpc.witness.baptism-traced-to-the-apostles]] [[as:paraphrase]]. Baptizing infants, Augustine said, was held everywhere and instituted by no council [[lpc.witness.baptism-traced-to-the-apostles]] [[as:paraphrase]]. His reasoning was plain. A custom this old and this universal, with no other explanation for its origin, is rightly believed to come from the apostles [[lpc.witness.baptism-traced-to-the-apostles]] [[as:paraphrase]].\n\nThe office of bishop is traced too. Augustine names the line of Roman bishops from Peter down to the man sitting then, and Cyprian states the principle that carries that line forward [[lpc.limit.apostolic-origin-undefended]] [[as:paraphrase]].\n\nNeither Augustine nor Cyprian traces catechesis, the road back, or the teaching before the water to the apostles by name [[lpc.limit.apostolic-origin-undefended]] [[as:paraphrase]]. That gap is real. We also hold that the office of bishop is one, and each bishop holds his part of it for the whole [[lpc.limit.apostolic-origin-undefended]] [[as:paraphrase]]. Cyprian argues that from what the Lord said to Peter, as an argument from scripture and not as a second named succession [[lpc.limit.apostolic-origin-undefended]] [[as:paraphrase]].\n\nFor the practice of baptizing infants in Cyprian's own time, Cyprian wrote with his council: [[quote:lpc.quote.not-his-own-sins-but-the-sins-of-another]]\n",
+ "reply_shape": {
+  "leadin_support": {
+   "lpc.quote.not-his-own-sins-but-the-sins-of-another": [
+    {
+     "detail": "council",
+     "kind": "occasion",
+     "snippet": "itted, not his own sins, but the sins of another. Cyprian's council says a newborn has no sins of his own, just the old death's",
+     "span": "record lpc.quote.not-his-own-sins-but-the-sins-of-another"
+    },
+    {
+     "detail": "wrote",
+     "kind": "genre",
+     "snippet": "forgiven him is not his own sins, but the sins of another. Epistle LVIII, to Fidus, section 5 (Epistle LXIV in the Oxford numb",
+     "span": "record lpc.quote.not-his-own-sins-but-the-sins-of-another"
+    }
+   ]
+  },
+  "placed": [
+   "lpc.quote.not-his-own-sins-but-the-sins-of-another"
+  ],
+  "removed": [],
+  "repaired": []
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": "C7.S8",
+ "text": "Augustine traced two of our practices back to the apostles, though none of the apostles wrote either one down. The two are baptizing infants and refusing to rebaptize someone already baptized among heretics.\n\nFor the refusal to rebaptize, Augustine said no one could find a later age that had invented the custom. Baptizing infants, Augustine said, was held everywhere and instituted by no council. His reasoning was plain. A custom this old and this universal, with no other explanation for its origin, is rightly believed to come from the apostles.\n\nThe office of bishop is traced too. Augustine names the line of Roman bishops from Peter down to the man sitting then, and Cyprian states the principle that carries that line forward.\n\nNeither Augustine nor Cyprian traces catechesis, the road back, or the teaching before the water to the apostles by name. That gap is real. We also hold that the office of bishop is one, and each bishop holds his part of it for the whole. Cyprian argues that from what the Lord said to Peter, as an argument from scripture and not as a second named succession.\n\nFor the practice of baptizing infants in Cyprian's own time, Cyprian wrote with his council: “Even the greatest sinners, who had sinned much against God, are granted forgiveness of sins when they later believe. No one is kept from baptism and grace. How much more, then, should we shrink from keeping back an infant! Being newly born, he has not sinned, except in one way. Born in the flesh as Adam’s child, he caught the infection of the ancient death at his very first birth. For this very reason he comes the more easily to receive the forgiveness of sins. What is forgiven him is not his own sins, but the sins of another.”",
+ "voice_set_aside": false
+}

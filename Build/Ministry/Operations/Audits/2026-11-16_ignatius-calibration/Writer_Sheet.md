@@ -1,0 +1,353 @@
+# Source sheet: Ignatius of Antioch (writer's copy)
+
+## 1. Setting
+
+S1. **His name.** Every letter opens "Ignatius, who is also called Theophorus" (Eph, ANF 4668–4669; Rom, ANF 6863–6864; Pol, ANF 8534–8535; the same in Magn, Trall, Philad, Smyrn). OWN. Documented. The letters never explain the second name (see D10). The census names him "Ignatius of Antioch" and lists "Theophorus" as another name (CEN 86402, 86446).
+S2. **His church.** He calls himself "the bishop of Syria" (Rom 2, ANF 6961–6962). He asks prayer for "the Church which is in Syria" (Eph 21, ANF 5584; Magn 14, ANF 6200–6201; Trall 13, ANF 6820) and names it "the Church which is at Antioch in Syria" (Philad 10, ANF 7858; Smyrn 11, ANF 8409; Pol 7, ANF 8806–8807). OWN. Documented. The shorter letters never call him "bishop of Antioch" in those words; the longer recension's address to Polycarp does ("Ignatius, bishop of Antioch", ANF 8539–8540). Origen, Eusebius and every later witness call him bishop of Antioch (M28, M29). Widely Accepted.
+S3. **His situation when he wrote.** He was a condemned prisoner, travelling under guard from Syria to Rome, where he expected to face wild beasts: "I came bound from Syria for the common name and hope, trusting through your prayers to be permitted to fight with beasts at Rome" (Eph 1, ANF 4702–4704); "From Syria even unto Rome I fight with beasts ... being bound to ten leopards, I mean a band of soldiers" (Rom 5, ANF 7083–7087). OWN. Documented.
+S4. **The road.** He wrote four letters from Smyrna (Eph 21, ANF 5581–5582; Magn 15, ANF 6221; Trall 12, ANF 6786; Rom 10, ANF 7309) and three from Troas (Philad 11, ANF 7894–7895; Smyrn 12, ANF 8467–8471; Pol 8, ANF 8854–8855). From Troas he "must suddenly sail ... to Neapolis" (Pol 8, ANF 8855). He had been at Philadelphia and spoken there (Philad 7, ANF 7717–7718). Eusebius gives the same two groups (III.36.5–10, EUS 19961–20035). Ephesus, Magnesia, Tralles, Philadelphia and Smyrna are each called a city "in Asia" or near the Maeander (ANF 4669, 5619, 6247, 7335, 7938), meaning the Roman province of Asia. OWN; LATER. Documented.
+S5. **The churches he wrote to.** Each had a bishop, presbyters (elders) and deacons, and he names some: at Ephesus the bishop Onesimus and the deacon Burrhus (Eph 1–2, ANF 4708–4710, 4746); at Magnesia the bishop Damas, the presbyters Bassus and Apollonius, the deacon Sotio (Magn 2, ANF 5675–5677); at Tralles the bishop Polybius (Trall 1, ANF 6279–6280); at Smyrna the bishop Polycarp (Pol address, ANF 8534–8535). His letter to Rome names no bishop there (the only "bishop" in Rom is himself, ANF 6961–6962). OWN. Documented.
+S6. **Households and letters.** He greets "the families of my brethren, with their wives and children, and the virgins who are called widows", and "the house of Tavias" (Smyrn 13, ANF 8503–8508), and "the wife of Epitropus, with all her house and children" (Pol 8, ANF 8869). Letters went by hand: Rom "by the Ephesians" (ANF 7309–7310); Philad and Smyrn "by Burrhus" (ANF 7895, 8471). Churches sent people to meet him (Eph 1, Eph 21, Magn 15, Trall 1; ANF 4707–4710, 5581, 6221–6222, 6280). OWN. Documented.
+S7. **What he was arguing against.** Some taught that Christ "only seemed to suffer" (Trall 10, ANF 6672; Smyrn 2, ANF 8007–8008). Some urged living "according to the Jewish law" (Magn 8, ANF 5929–5930; Philad 6, ANF 7630). Some met or acted apart from the bishop (Magn 4, ANF 5792–5795; Smyrn 7–8, ANF 8221, 8277). OWN. Documented as his account of them; the record holds no word from the other side.
+S8. **Tradition.** The census name is **Post-Apostolic Household-Church Christianity**, informally "The Scattered Households" (CEN 31792, 31794). This name is for the card. (a) Plain spoken forms a narrator may say. They tell the tradition through his own church and city, not through a description of the age: (1) "the church at Antioch in Syria". Support: his own words, "the Church which is at Antioch in Syria" (Philad 10, ANF 7858; Smyrn 11, ANF 8409; Pol 7, ANF 8806–8807). (2) "Ignatius, bishop of Antioch, in Syria". Support: he calls himself "the bishop of Syria" (Rom 2, ANF 6961–6962). Origen names him "episcopum Antiochiae", bishop of Antioch (ORI 7169–7170), and Eusebius says he "was chosen bishop of Antioch" (EUS 19741). (3) "the church in Syria, as he called it", when telling his prayers for home. Support: "Pray ye for the Church which is in Syria, whence I am led bound to Rome" (Eph 21, ANF 5584–5585; also Magn 14, ANF 6200–6201; Trall 13, ANF 6820). (4) For Antioch keeping his memory later, Chrysostom's own words: "this blessed and noble martyr Ignatius" who "presided over the Church among us" and was "entrusted with our own native city" (CHR 9955, 9992–9993, 10189–10190). The households and hand-carried letters may be told only as his own acts, from S6: he greets "the house of Tavias" (ANF 8507–8508), and his letters went "by the Ephesians" and "by Burrhus" (ANF 7309–7310, 7895, 8471). (b) Do not say: "the church that came after the apostles" (it can sound like a church that replaced them; the census anchors the phrase to the apostles' deaths, CEN 31834, 31926). Do not say "Post-Apostolic" aloud. Do not use "Catholic Church" in its modern sense: the census notes that Ignatius's phrase means "the whole church everywhere, not the later denomination" (CEN 31906–31908). Do not say or imply that every church was then led by one bishop: the census says "Some communities were guided by a single bishop alongside elders and deacons, others by a circle of elders alone—both forms were real, and neither was settled" (CEN 31926), and "Ignatius's letters urged one bishop with elders beside him. At Rome, early letters show a council of elders leading" (CEN 31918). His letters show what he urged and what he found in the churches of Asia, not how all churches were run. Do not give any general description of the age: no sentence on how Christians "gathered in households", that "letters carried by hand held them together", or that "no central body ruled them" (CEN 31918). That is the census era framing, not his record. If households or letters are wanted, tell them as his own greetings and couriers (the sentence after form 4, S6).
+S9. **Century.** The letters name no emperor and give no year. (The "[of the emperor]" in Pol 8, ANF 8858, is the translator's bracket; the note offers "the soldiers, or perhaps ... God Himself", ANF 8856–8857.) The later witnesses place him by reign. (a) Eusebius puts him in Trajan's reign: after "Nerva had reigned a little more than a year he was succeeded by Trajan" (III.21.1, EUS 16977), "At this time Ignatius was known as the second bishop of Antioch" (III.22, EUS 17006–17009); and Ignatius's chapter (III.36) follows Trajan's persecution and his reply to Pliny (III.33, EUS 19446–19451). LATER (about 200 years). (b) Jerome: "condemned to the wild beasts during the persecution of Trajan" and "put to death the eleventh year of Trajan" (Lives 16, NP3 39788–39789, 39829–39830). LATER (about 280 years). (c) Polycarp's letter counts him among those already "in their due place in the presence of the Lord" (Phil 9, ANF 3487–3492), so he died before Polycarp wrote. CONTEMP. (d) The census: "died under Trajan, or later" (CEN 86403). The witnesses' placing under Trajan: Documented as their placing, Contested as to the year (D2). That Trajan's reign falls in the **second century AD** comes from modern standard chronology, not from any held source: Widely Accepted. Plain ways to say it that the sheet supports: "early in the second century"; "in the reign of the emperor Trajan, as later writers tell it". The sheet does not support any exact year, nor "about a hundred years after Jesus" (no held source counts the years).
+S10. **The danger Christians faced.** Ignatius was condemned "for the common name and hope" (Eph 1, ANF 4703). Eusebius sets his story in a time when "So great a persecution was at that time opened against us in many places" that the governor Pliny wrote to the emperor about it (III.33.1, EUS 19446–19451). LATER. The cause of his own arrest is not in the record (N2).
+
+
+## 2. Recorded moments
+
+M1. **"I came bound from Syria."** He was a prisoner on the way to Rome, hoping "to fight with beasts at Rome, that so by martyrdom I may indeed become the disciple of Him" who gave himself for us (Eph 1, ANF 4702–4706). Note: the bracketed "[ye hastened to see me]" that ends this sentence "is wanting in the Greek" (ANF note at 4707); the Greek sentence breaks off. OWN. Documented.
+M2. **"Being bound to ten leopards."** The soldiers guarding him, "who, even when they receive benefits, show themselves all the worse" (Rom 5, ANF 7083–7090). The ANF note guesses the "benefits" were gifts from Christians (card only). Eusebius and Jerome quote the passage (EUS 19994–20002; NP3 39808–39812). OWN. Documented.
+M3. **"Whence also I write to you": Smyrna.** At Smyrna he wrote to Ephesus, Magnesia, Tralles and Rome (S4). He thanks those Ephesus sent "to Smyrna", and writes "loving Polycarp even as I do you" (Eph 21, ANF 5579–5583). From Smyrna he sends greetings "along with Polycarp, the bishop of the Smyrnæans" (Magn 15, ANF 6221–6223). OWN. Documented.
+M4. **"I received ... your whole multitude ... through Onesimus."** Churches sent their leaders to meet him. Ephesus sent its bishop Onesimus with Burrhus, Crocus, Euplus and Fronto, "by means of whom, I have, as to love, beheld all of you" (Eph 1–2, ANF 4708–4710, 4746–4757). Magnesia sent Damas, Bassus, Apollonius and Sotio (Magn 2, ANF 5675–5677). Polybius of Tralles "has come to Smyrna" (Trall 1, ANF 6279–6282). OWN. Documented.
+M5. **"Thy blameless face."** He met Polycarp at Smyrna: "I have been thought worthy [to behold] thy blameless face" (Pol 1, ANF 8550–8553). OWN. Documented. Eusebius: "when he came to Smyrna, where Polycarp was" (III.36.5, EUS 19961–19962). LATER.
+M6. **"I write to the Churches": the letter to Rome.** He begged the Christians at Rome not to save him: "I beseech of you not to show an unseasonable good-will towards me" (Rom 4, ANF 7036–7038); "if you show your love to my flesh, I shall again have to run my race" (Rom 2, ANF 6957–6958). See Q1–Q8. OWN. Documented. Eusebius: "entreating them not to secure his release from martyrdom, and thus rob him of his earnest hope" (III.36.6, EUS 19989–19990). LATER.
+M7. **"Those who have gone before me from Syria to Rome."** Others from Syria had gone ahead of him to Rome "for the glory of God"; he asks Rome to tell them "that I am at hand" (Rom 10, ANF 7312–7314). The record does not say who they were. OWN. Documented.
+M8. **"The day before the ninth of the Kalends of September."** He dated the letter to Rome (Rom 10, ANF 7316–7319). The words "(that is, on the twenty-third day of August)" that follow are, says the ANF note, "an explanatory gloss which has crept into the text" (card only). No year is given. OWN. Documented.
+M9. **"I cried, I spoke with a loud voice": Philadelphia.** While he was at Philadelphia he cried out, "Give heed to the bishop, and to the presbytery and deacons." Some suspected he knew of a division in advance. He says, "He is my witness ... that I got no intelligence from any man. But the Spirit proclaimed these words" (Philad 7, ANF 7714–7731). OWN. Documented as his account. WONDER claim, told by himself: that the Spirit, not any human report, gave him these words.
+M10. **"That remains to be proved."** At Philadelphia he argued with some who said, "If I do not find it in the ancient Scriptures, I will not believe the Gospel". When he said "It is written", they answered, "That remains to be proved" (Philad 8, ANF 7763–7769). The ANF note calls the meaning of "ancient" "very doubtful": the shorter Greek reads ἀρχαίοις (ancient), the longer ἀρχείοις (archives, records) (card only). OWN. Documented.
+M11. **"Those that dishonoured them."** Two who followed him from Syria, Philo the deacon from Cilicia and Rheus Agathopus, were received well at Philadelphia and Smyrna, but some "dishonoured them"; he asks that these be forgiven (Philad 11, ANF 7888–7894; Smyrn 10, ANF 8380–8384). OWN. Documented.
+M12. **"The love of the brethren at Troas salutes you."** At Troas he wrote to the Philadelphians, the Smyrnaeans and Polycarp, sending the first two "by Burrhus", whom Ephesus and Smyrna had sent with him (Philad 11, ANF 7894–7897; Smyrn 12, ANF 8467–8472). OWN. Documented.
+M13. **"The Church which is at Antioch in Syria possesses peace."** At Troas news came that the church at Antioch was at peace. He asked the Philadelphians, the Smyrnaeans and Polycarp each to send a messenger to Syria to rejoice with them (Philad 10, ANF 7856–7867; Smyrn 11, ANF 8408–8433; Pol 7, ANF 8806–8819). He notes that "the nearest Churches have sent, in some cases bishops, and in others presbyters and deacons" (ANF 7865–7867). OWN. Documented. Note: the ANF chapter heading speaks of "the close of the persecution" (ANF 7854); that is the editor's heading. The letter says only that the church "possesses peace".
+M14. **"I must suddenly sail from Troas to Neapolis."** He could not write to all the churches, so he asked Polycarp to write to them (Pol 8, ANF 8854–8868). OWN. Documented.
+M15. **"Stand firm, as does an anvil which is beaten."** His counsel to Polycarp: keep unity, bear with all, pray without ceasing, heal different wounds differently (Pol 1–3, ANF 8550–8566, 8596–8620, 8647–8656). Let widows not be neglected; do not despise slaves, nor let them seek to be freed at the church's expense (Pol 4, ANF 8681–8699); let marriages be made "with the approval of the bishop" (Pol 5, ANF 8734–8736). OWN. Documented. The slavery counsel is a hard part of the record; it is his own instruction.
+M16. **"He only seemed to suffer."** He warned the churches against those who said Christ "only seemed to suffer", and answered with his own chains (Trall 9–10, ANF 6613–6681; Smyrn 1–5, ANF 7956–8147). He would not write their names, "inasmuch as they are unbelievers" (Smyrn 5, ANF 8143–8145). He charged that they had "no care for the widow, or the orphan, or the oppressed" (Smyrn 6, ANF 8182–8186), and "abstain from the Eucharist and from prayer, because they confess not the Eucharist to be the flesh of our Saviour Jesus Christ" (Smyrn 7, ANF 8220–8225). OWN. Documented as his charge; the other side is not heard.
+M17. **"Do nothing without the bishop."** His most repeated counsel: "so neither do ye anything without the bishop and presbyters" (Magn 7, ANF 5896–5898); "without the bishop ye should do nothing" (Trall 2, ANF 6308–6309); "Let no man do anything connected with the Church without the bishop" (Smyrn 8, ANF 8277–8278); "Take ye heed, then, to have but one Eucharist ... one altar; as there is one bishop" (Philad 4, ANF 7497–7501). OWN. Documented as what he urged (see S8b).
+M18. **"On account of his youth."** He told the Magnesians not to treat their bishop "too familiarly on account of his youth" (Magn 3, ANF 5706–5707). OWN. Documented.
+M19. **"No longer observing the Sabbath, but living in the observance of the Lord's Day."** He wrote that those "brought up in the ancient order of things" had come to a new hope, keeping the Lord's Day (Magn 9, ANF 5964–5970). He also wrote, "It is absurd to profess Christ Jesus, and to Judaize" (Magn 10, ANF 6037–6038), and "if any one preach the Jewish law unto you, listen not to him" (Philad 6, ANF 7630). OWN. Documented. This is hard language about the Jewish law; if told, tell it as his own.
+M20. **"Which now has God for its shepherd, instead of me."** He asked Rome to pray for the church in Syria, now without him (Rom 9, ANF 7273–7275). He wrote that churches not on his road "have gone before me, city by city" (ANF 7282–7287). OWN. Documented. See Q9.
+M21. **"The blessed Ignatius."** Polycarp, writing to Philippi, held up the endurance "ye have seen [set] before your eyes, not only in the case of the blessed Ignatius, and Zosimus, and Rufus", and counted them among those "in their due place in the presence of the Lord, with whom also they suffered" (Phil 9, ANF 3484–3492). CONTEMP. Documented. Polycarp says the Philippians saw this endurance "before your eyes"; the record says nothing more of Ignatius at Philippi. The Philippians had asked Polycarp for Ignatius's letters ("as you requested", Phil 13, ANF 3616).
+M22. **"The Epistles of Ignatius ... we have sent to you."** Polycarp sent the Philippians Ignatius's letters to Smyrna "and all the rest [of his Epistles] which we have by us", and asked for "more certain information ... respecting both Ignatius himself, and those that were with him" (Phil 13, ANF 3608–3630). CONTEMP. Documented. See D7 on whether Polycarp yet knew of his death.
+M23. **"Condemned to the wild beasts."** Irenaeus quotes Rom 4 from "a certain man of ours ... when he was condemned to the wild beasts because of his testimony with respect to God" (Against Heresies V.28.4, ANF 53556–53560). He does not name Ignatius. LATER (about 70 years). Documented as Irenaeus's report.
+M24. **"Who fought with beasts in the persecution at Rome."** Origen names him: "Ignatium dico, episcopum Antiochiae post Petrum secundum, qui in persecutione Romae pugnavit ad bestias" (Homilies on Luke 6, ORI 7169–7171, Jerome's Latin; Greek fragment ORI 7191–7195). LATER (about 120 years). See Q19.
+M25. **"Report says that he was sent from Syria to Rome, and became food for wild beasts."** Eusebius gives his death as a report (III.36.3, EUS 19935–19936). LATER (about 200 years). Widely Accepted (see D3, D4).
+M26. **"He fortified the parishes."** Eusebius says that on the road he "fortified the parishes in the various cities where he stopped by oral homilies and exhortations" (III.36.4, EUS 19952–19959). LATER. This is Eusebius's reading of the letters; he names no other source. Inferential-Thin as fact beyond the letters; Documented as Eusebius's account.
+M27. **"The remains of his body lie in Antioch outside the Daphnitic gate."** Jerome: put to death "the eleventh year of Trajan and the remains of his body lie in Antioch outside the Daphnitic gate in the cemetery" (Lives 16, NP3 39829–39831). LATER (about 280 years). Documented as Jerome's report; the year is Contested (D2).
+M28. **"Ye sent forth a Bishop, and received a martyr."** John Chrysostom, preaching at Antioch on Ignatius's feast ("this blessed and noble martyr Ignatius has succeeded to her feast", CHR 9955–9956), says the cities on the road carried his remains "upon their shoulders as far as this city" (CHR 10343–10376). He says Ignatius died "in the midst of the theatre, while the whole city was seated above him ... wild beasts being let loose upon him" (CHR 10316–10321). LATER (about 280 years). Documented as Chrysostom's preaching.
+M29. **"The translation of the divine Ignatius."** Evagrius: his "more solid bones ... were conveyed to Antioch" and lay long in the cemetery. Under the emperor Theodosius they were carried "on a car through the city" to the Tycheum, a former temple of Fortune, and a yearly public festival followed (Church History I.16, EVA 2258–2285). Evagrius takes this from "John the rhetorician" (EVA 2260). LATER (about 480 years). Documented as Evagrius's report.
+M30. **WONDER, told by Socrates: "saw a vision of angels hymning in alternate chants."** Socrates says Ignatius saw angels singing to the Holy Trinity in alternate chants and brought that way of singing into the church at Antioch, "whence it was transmitted by tradition to all the other churches" (Church History VI.8, SOC 17775–17781). LATER (about 330 years). One witness. Inferential-Thin. The NPNF editor reports that Valesius doubts it (SOC note at 17765–17771, card only).
+M31. **Malalas: martyred at Antioch.** John Malalas, a sixth-century chronicler, says Peter appointed Ignatius at Antioch after Evodius died (MAL 18366–18369; Latin 18412–18415), and that Ignatius was martyred at Antioch under Trajan, while Trajan was in the city at the time of the earthquake, "for he was angry with him, because he reproached him" (MAL 19869–19872; my English from the Greek; Latin 19897–19899). LATER (about 450 years). One witness. Inferential-Thin. See D3.
+M32. **LATE-LEGEND: the *Martyrdom of Ignatius*.** This account says he went before Trajan at Antioch "in the ninth year of his reign", was sentenced to be "carried to the great [city] Rome, there to be devoured by the beasts" (ch. 2, ANF 11466–11518); sailed from Seleucia to Smyrna to see Polycarp, "[formerly] his fellow-disciple" under John (ch. 3, ANF 11539–11544); was thrown to the beasts at Rome on "the twentieth of December, Sura and Senecio being then the consuls of the Romans for the second time" (ch. 6–7, ANF 11655–11688); and that "only the harder portions of his holy remains were left, which were conveyed to Antioch" (ANF 11672–11674). WONDER, told only here: after his death some companions saw him in dreams "standing by us and embracing us", "praying for us", and "dropping with sweat, as if he had just come from his great labour" (ch. 7, ANF 11695–11699). Not for the story except as a named late legend.
+
+
+## 3. Quotes (final readings)
+
+Each quote is in our modern English, settled from two independent renderings. Use the final reading exactly. Where a quote carries a warning, the warning says how it may be used.
+
+**Q1. Rom 4: the wheat**
+- Source: ANF 7040–7042 (shorter recension).
+- Final reading: "I am God's wheat. Let me be ground by the teeth of the wild beasts, so that I may be found to be Christ's pure bread."
+- Use: USABLE.
+
+**Q2. Rom 4: "I shall willingly die for God"**
+- Source: ANF 7036–7040.
+- Final reading: "I am writing to the churches, and I make it clear to them all that I will die for God willingly, unless you stop me. I beg you, do not show me kindness at the wrong time. Let me become food for the wild beasts. Through them I will be allowed to reach God."
+- Use: USABLE.
+
+**Q3. Rom 4: "They were apostles; I am but a condemned man"**
+- Source: ANF 7047–7053.
+- Final reading: "I do not give you orders, as Peter and Paul did. They were apostles; I am a condemned man. They were free; I am still a slave, even now. But when I suffer, I will be the freed slave of Jesus, and I will rise again free in him. And now, as a prisoner, I am learning to want nothing worldly or empty."
+- Use: USABLE.
+
+**Q4. Rom 5: ten leopards**
+- Source: ANF 7083–7090; Eusebius EUS 19994–20000.
+- Final reading: "From Syria all the way to Rome I am fighting wild beasts, on land and sea, by night and by day. I am chained to ten leopards, I mean a squad of soldiers. Even when they are treated kindly, they only get worse."
+- Use: USABLE.
+
+**Q5. Rom 5: "May I enjoy the wild beasts"**
+- Source: ANF 7093–7097.
+- Final reading: "May I have joy of the wild beasts made ready for me. I pray they will be found eager to rush at me. I will even coax them to devour me quickly. Let them not treat me as they have treated some, whom they were afraid to touch. If they will not attack me, I will force them to."
+- Use: USABLE.
+
+**Q6. Rom 5: "Only let me attain to Jesus Christ"**
+- Source: ANF 7097–7112.
+- Final reading: "Forgive me. I know what is good for me. Now I am beginning to be a disciple. Let nothing, seen or unseen, begrudge me reaching Jesus Christ. Let fire and the cross come, and packs of wild beasts. Let bones be torn, broken and wrenched apart. Let limbs be cut off and the whole body crushed. Let all the evil tortures of the devil come upon me. Only let me reach Jesus Christ."
+- Use: USE WITH WARNING: the editor says "envy" (here "begrudge") is "by no means certain", and some think "tearings, breakings" spurious.
+
+**Q7. Rom 2: "The bishop of Syria ... from the east unto the west"**
+- Source: ANF 6958–6964.
+- Final reading: "So do not try to do me any greater favour than this: let me be offered to God while the altar is still ready. Then, gathered in love, you may sing praise to the Father through Christ Jesus. You may praise him that God has counted me, the bishop of Syria, worthy to be found and sent for, from the east to the west. It is good to set, from the world to God, so that I may rise again to him."
+- Use: USABLE.
+
+**Q8. Rom 6: "Better ... to die"**
+- Source: ANF 7146–7149.
+- Final reading: "All the pleasures of the world and all the kingdoms of this age will do me no good. It is better for me to die for Jesus Christ than to rule over all the ends of the earth."
+- Use: USABLE.
+
+**Q9. Rom 7: "My love has been crucified"**
+- Source: ANF 7194–7213; Syriac ANF 9456–9459.
+- Final reading: "I am alive as I write to you, but I long to die. My love has been crucified. There is no fire in me that longs for fuel. But there is living water in me that speaks. It says to me within, 'Come to the Father.' I take no delight in food that decays, nor in the pleasures of this life. I want the bread of God, the bread of heaven, the bread of life. It is the flesh of Jesus Christ, the Son of God, who later came from the line of David and Abraham. And I want God's drink, his blood, which is love that never decays and eternal life."
+- Use: USE WITH WARNING: the editor says the "water" clause is doubtful in text and meaning, and that "my love" may mean Christ or the heart's natural desires; the Syriac lacks the water clause.
+
+**Q10. Rom 9: the church in Syria**
+- Source: ANF 7273–7287.
+- Final reading: "Remember in your prayers the church in Syria. It now has God for its shepherd instead of me. Jesus Christ alone will watch over it, and so will your love. As for me, I am ashamed to be counted one of them. I am not worthy, for I am the very last of them, one born out of due time. But I have been shown mercy to be someone, if I reach God. My spirit greets you. So does the love of the churches that welcomed me in the name of Jesus Christ, not as a mere passer-by. Even churches that were not on my road, I mean my bodily road, went ahead of me, city by city."
+- Use: USABLE.
+
+**Q11. Rom 10: the date**
+- Source: ANF 7316–7319.
+- Final reading: "I have written this to you on the day before the ninth day before the Kalends of September."
+- Use: USE WITH WARNING: "23 August" is a later gloss, not his words; the letter gives no year.
+
+**Q12. Rom 3: "Not merely be called a Christian"**
+- Source: ANF 6994–6996.
+- Final reading: "Only ask for strength for me, within and without, so that I may not only speak but also will it. Ask that I may not merely be called a Christian, but really be found to be one."
+- Use: USABLE.
+
+**Q13. Eph 21: "Loving Polycarp"**
+- Source: ANF 5579–5586.
+- Final reading: "May my life be offered for you, and for those you sent to Smyrna for the honour of God. I am writing to you from there. I give thanks to the Lord, and I love Polycarp as I love you. Remember me, as Jesus Christ remembered you. Pray for the church in Syria. From there I am being led to Rome in chains, the last of the believers there."
+- Use: USE WITH WARNING: the editor gives another reading of the first clause, "May I, in my turn, be the means of refreshing you".
+
+**Q14. Trall 10: "Then why am I in bonds?"**
+- Source: ANF 6671–6681.
+- Final reading: "Some who are without God, that is, unbelievers, say that he only seemed to suffer. It is they who only seem to exist. But if they are right, why am I in chains? Why do I long to fight the wild beasts? Do I die for nothing, then? Am I not lying about the Lord?"
+- Use: USABLE.
+
+**Q15. Smyrn 4: "Only in appearance bound"**
+- Source: ANF 8102–8109.
+- Final reading: "If our Lord did these things only in appearance, then I too am in chains only in appearance. And why have I given myself up to death, to fire, to the sword, to the wild beasts? But whoever is near the sword is near God. Whoever is among the wild beasts is in God's company, if only it is in the name of Jesus Christ. I endure all this to suffer with him. He who became a complete human being gives me strength within."
+- Use: USABLE.
+
+**Q16. Smyrn 3: "Handle Me"**
+- Source: ANF 8040–8049; Eusebius EUS 20060–20065.
+- Final reading: "I know that he was in the flesh even after his resurrection, and I believe he is so now. When he came to Peter and those with him, he said to them, 'Take hold of me, touch me, and see that I am not a ghost without a body.' At once they touched him and believed. They were convinced by both his flesh and his spirit."
+- Use: USE WITH WARNING: the saying he quotes is not in this form in the Gospels; Jerome placed it in the Gospel of the Nazarenes (ANF note), and its source is disputed (D9).
+
+**Q17. Smyrn 8: "Wherever Jesus Christ is, there is the Catholic Church"**
+- Source: ANF 8274–8289.
+- Final reading: "All of you, follow the bishop, as Jesus Christ follows the Father. Follow the elders as you would the apostles. Honour the deacons as God's command. Let no one do anything that concerns the church without the bishop. Count that Eucharist sound which is held by the bishop, or by someone he has entrusted with it. Wherever the bishop appears, let the congregation be there too, just as wherever Jesus Christ is, there is the universal church. Without the bishop it is not lawful to baptize or to hold a love-feast."
+- Use: USABLE.
+
+**Q18. Philad 7: "I cried, I spoke with a loud voice"**
+- Source: ANF 7717–7731.
+- Final reading: "When I was among you, I cried out. I spoke with a loud voice: 'Pay attention to the bishop, to the elders and to the deacons.' Some suspected that I said this because I knew in advance about the split some had caused among you. But he for whose sake I am in chains is my witness: I learned it from no human being. It was the Spirit who proclaimed these words: 'Do nothing without the bishop. Keep your bodies as temples of God. Love unity. Avoid divisions. Follow Jesus Christ, as he follows his Father.'"
+- Use: USABLE.
+
+**Q19. Eph 19: Mary's virginity hidden from the prince of this world**
+- Source: ANF 5485–5489; Origen, *Homilies on Luke* 6, Latin ORI 7168–7172, Greek fragment ORI 7191–7196; Syriac ANF 9286–9288.
+- Final reading (Ignatius): "The virginity of Mary escaped the notice of the ruler of this age. So did her giving birth, and the death of the Lord. These are three mysteries to be cried aloud, which were done in the silence of God."
+- Final reading (Origen): "It is well written in one of the letters of a certain martyr. I mean Ignatius, the second bishop of Antioch after the blessed Peter, who fought with beasts at Rome in the persecution: 'And the virginity of Mary escaped the notice of the ruler of this age.'"
+- Use: USE WITH WARNING: only the first clause survives in Greek (through Origen); the rest is from the printed English, and the Syriac editor calls the passage "confused and obscure".
+
+**Q20. Eph 7: "There is one Physician"**
+- Source: ANF 4973–4978; Athanasius, *De Synodis* 47, Greek ATHG 64275–64280, English ATH 59204–59210.
+- Final reading (from Athanasius's Greek): "There is one physician, of flesh and of spirit. He came into being and did not come into being. He is God in a human being, true life in death, both from Mary and from God."
+- Use: USE WITH WARNING: the ending differs between witnesses; "first able to suffer, then beyond suffering" is only in the Latin, and Lightfoot reads "begotten and unbegotten" (C7).
+
+**Q21. Eph 20: "The medicine of immortality"**
+- Source: ANF 5544–5550.
+- Final reading (from "so that ye obey"): "...so that you obey the bishop and the elders with an undivided mind, breaking one and the same bread. This bread is the medicine of immortality. It is the antidote so that we do not die, but live for ever in Jesus Christ."
+- Use: USABLE.
+
+**Q22. Philad 8: "Jesus Christ is in the place of all that is ancient"**
+- Source: ANF 7763–7772.
+- Final reading: "I heard some say, 'If I do not find it in the ancient records, I will not believe the gospel.' When I told them, 'It is written,' they answered, 'That has to be proved.' But for me, Jesus Christ takes the place of all that is ancient. His cross, his death, his resurrection and the faith that comes through him are the untouched ancient records. By these, through your prayers, I want to be made right with God."
+- Use: USE WITH WARNING: the editor calls the meaning "very doubtful"; the key word may be "ancient things" or "archives".
+
+**Q23. Eph 10: "To their blasphemies return your prayers"**
+- Source: ANF 5130–5137.
+- Final reading: "Be mild in the face of their anger, humble in the face of their boasting. To their insults, your prayers. Against their error, stand firm in the faith. For their cruelty, show your gentleness. Let us take care not to copy them, and be found their brothers in all true kindness. Let us seek to follow the Lord. Who was ever more wronged, more stripped of everything, more condemned?"
+- Use: USABLE.
+
+**Q24. Pol 3: the anvil**
+- Source: ANF 8649–8652.
+- Final reading: "Stand firm, like an anvil under the hammer. It is the mark of a great athlete to be wounded and still win. Above all, we should bear everything for God's sake, so that he too may bear with us."
+- Use: USABLE.
+
+**Q25. Pol 7: "A Christian has not power over himself"**
+- Source: ANF 8813–8821.
+- Final reading: "Polycarp, most blessed in God, it is right to call a council worthy of God. Choose someone you love very much and know to be energetic, who can be called God's runner. Give him the honour of going to Syria, to bring glory to your tireless love, to the praise of Christ. A Christian has no power over himself. He is always free for God's service."
+- Use: USABLE.
+
+**Q26. Polycarp, Phil 9: "The blessed Ignatius"**
+- Source: ANF 3484–3494; Eusebius EUS 20076–20085.
+- Final reading: "So I urge you all to obey the word of righteousness and to practise all endurance. You have seen it before your eyes, not only in the blessed Ignatius, Zosimus and Rufus. You have seen it also in others among you, and in Paul himself and the other apostles. Be sure that none of these ran in vain. They ran in faith and righteousness, and they are in their rightful place with the Lord, with whom they also suffered. For they did not love this present world. They loved him who died for us and was raised by God from the dead for our sake."
+- Use: USABLE.
+
+**Q27. Polycarp, Phil 13: the letters sent on**
+- Source: ANF 3608–3630.
+- Final reading: "Both you and Ignatius wrote to me that if anyone goes to Syria, he should carry your letter with him. I will do this if I find a good opportunity, either myself or through someone acting for me, so that your wish may be met. As you asked, we have sent you the letters Ignatius wrote to us, and all the others we have. They are added to this letter, and you will gain much from them. They deal with faith and endurance, and everything that builds us up in our Lord. If you have learned anything more certain about Ignatius himself and those who were with him, please let us know."
+- Use: USE WITH WARNING: the last sentence survives only in Latin, which reads "are with him"; the translator changed it to "were".
+
+**Q28. Irenaeus, Against Heresies V.28.4: "As a certain man of ours said"**
+- Source: ANF 53553–53560; Eusebius EUS 20068–20071.
+- Final reading: "That is why suffering is necessary for those who are saved. In a way they are broken up and ground fine. They are sprinkled with the patience of the Word of God and set on the fire. So they are made ready for the royal banquet. As one of ours said, when he was condemned to the wild beasts for his witness to God: 'I am the wheat of Christ, and I am ground by the teeth of the wild beasts, so that I may be found the pure bread of God.'"
+- Use: USE WITH WARNING: Irenaeus does not name Ignatius, and this English follows Irenaeus's Latin ("wheat of Christ"), not Ignatius's Greek.
+
+**Q29. Eusebius, Church History III.36.3–4: his journey and death, as report**
+- Source: EUS 19935–19959.
+- Final reading: "It is reported that he was sent from Syria to Rome, and became food for wild beasts because of his witness to Christ. He made the journey through Asia under the strictest military guard. In each city where he stopped, he strengthened the churches with spoken sermons and appeals. Above all, he warned them to guard against the heresies then beginning to spread. He urged them to hold fast to the tradition of the apostles. He also thought it necessary to set that tradition down in writing, and give it a fixed form, to keep it safer."
+- Use: USE WITH WARNING: Eusebius gives the death at Rome as report, not his own knowledge (about two centuries later).
+
+**Q30. Eusebius, Church History III.36.2 and III.22: "second in succession to Peter"**
+- Source: EUS 19740–19742; EUS 17006–17009.
+- Final reading: "...as did Ignatius too. He was chosen bishop of Antioch, second in succession after Peter, and many still celebrate his fame." / "At this time Ignatius was known as the second bishop of Antioch. Evodius had been the first."
+- Use: USABLE.
+
+**Q31. Eusebius, Church History III.37.4–38.1: writings still extant**
+- Source: EUS 20170–20175, 20183–20184.
+- Final reading: "We have recorded, as was right, only the names of those who have handed the apostles' teaching down to us in writings that still survive. ... Ignatius has done this in the letters we have mentioned."
+- Use: USABLE.
+
+**Q32. Jerome, Lives of Illustrious Men 16: his death and grave**
+- Source: NP3 39826–39831.
+- Final reading: "He had been condemned to the wild beasts. When he heard the lions roaring, eager for martyrdom, he said, 'I am Christ's grain. I am ground by the teeth of the wild beasts, so that I may be found the bread of the world.' He was put to death in the eleventh year of Trajan. The remains of his body lie at Antioch, outside the Daphne Gate, in the cemetery."
+- Use: USE WITH WARNING: late report (about three centuries after); Jerome's wording of the saying and the roaring lions appear in no earlier held witness.
+
+**Q33. Chrysostom, Homily on Saint Ignatius: "Ye sent forth a Bishop, and received a martyr"**
+- Source: CHR 10355–10357; CHR 10365–10367.
+- Final reading: "You sent out a bishop, and you received a martyr. You sent him off with prayers, and you received him with crowns. And not only you, but every city in between." / "So the cities, one after another, received the saint from Rome and carried him on their shoulders all the way to this city. They escorted the crowned one with praises and celebrated the champion in song."
+- Use: USE WITH WARNING: a preacher's account, late fourth century, of the return of his remains; not an eyewitness.
+
+**Q34. Chrysostom: "to a greater degree knit the Churches together"**
+- Source: CHR 10249–10257 (subject named at CHR 10242).
+- Final reading: "The Devil called him away from our city to Rome, making the road twice as long. He expected the length of the way and the number of days to crush his spirit. He did not know that Ignatius had Jesus with him, as a fellow traveller and fellow exile on so long a journey. So Ignatius grew stronger instead. He gave more proof of the power that was with him, and bound the churches more closely together. The cities along the road ran together from every side. They encouraged the athlete and sent him on his way with many supplies. They shared his struggle by their prayers and pleas."
+- Use: USE WITH WARNING: a preacher's telling, late fourth century; the Devil's plan is his reading.
+
+**Q35. Socrates, Church History VI.8: the antiphonal hymns**
+- Source: SOC 17765–17781.
+- Final reading: "Ignatius, third bishop of Antioch in Syria from the apostle Peter, who had also spent time with the apostles themselves, saw a vision of angels. They were singing hymns to the Holy Trinity in alternating choirs. So he brought the way of singing he had seen in the vision into the church at Antioch. From there it passed by tradition to all the other churches. That is the account of these answering hymns."
+- Use: USE WITH WARNING: late tradition (fifth century), found nowhere earlier; the editor notes that Valesius doubts it.
+
+**Q36. Evagrius, Church History I.16: the relics moved**
+- Source: EVA 2258–2285.
+- Final reading: "At the same time came the transfer of the remains of the divine Ignatius, as John the rhetorician records among other things. Ignatius had found a tomb in the bellies of the wild beasts in the arena at Rome, as he himself wished. Still, his harder bones were kept and carried to Antioch. There they lay for a long time in what is called the cemetery. Then the good God moved Theodosius to give greater honour to the bearer of the name Theophorus. Theodosius dedicated to the victorious martyr a temple long given over to the demons, which the people there called the Tycheum. So the old shrine of Fortune became a sanctuary and holy place for Ignatius. His sacred remains were placed there, carried on a cart through the city in solemn procession. From this came a public festival, with rejoicing by the whole people, which has lasted to our own day."
+- Use: USE WITH WARNING: a later report (late sixth century) of a fifth-century event, through John the rhetorician; not about his life.
+
+**Q37. Athanasius, De Synodis 47: his words used in the Arian dispute**
+- Source: ATH 59229–59232.
+- Final reading: "We are sure the blessed Ignatius was right to write that Christ came into being because of the flesh, for he became flesh. Yet he did not come into being, because he is not one of the things that were made and came into being. He is Son from Father."
+- Use: USABLE.
+
+**Q38. Theodoret: "the far-famed Ignatius"**
+- Source: NP3 36775–36780.
+- Final reading: "This is the teaching the divine prophets handed to us. This is the teaching of the company of the holy apostles, and of the great saints of East and West. It is the teaching of the famous Ignatius, who received his office of bishop from the right hand of the great Peter. For confessing Christ, he was devoured by savage beasts."
+- Use: USE WITH WARNING: later claim (fifth century) that Peter ordained him; Eusebius makes Evodius the first bishop (Q30).
+
+**Q39. Gregory the Great, Letters V.39: "not only yours, but also ours"**
+- Source: GRG 41660–41666.
+- Final reading: "As you see, I include these words, taken from what you wrote, in my own letters. I want Your Blessedness to see that Saint Ignatius is not only yours but ours as well. We share his teacher, the prince of the apostles. So none of us should keep the disciple of that same prince to himself alone."
+- Use: USE WITH WARNING: later (about 490 years); the editor says the expression Anastasius used is from the spurious letters, not the genuine ones.
+
+**Q40. LATE-LEGEND, Martyrdom of Ignatius 2: "He who has Christ within his breast"**
+- Source: ANF 11494–11495.
+- Final reading: "Trajan answered, 'And who is Theophorus?' Ignatius replied, 'The one who carries Christ in his heart.'"
+- Use: USE WITH WARNING: late legend of unknown date, not traced in the first six centuries (ANF 11366–11368); tell only as legend, if at all.
+
+
+## 4. Impact as the record gives it
+
+Ranked heaviest first. Weight is what later witnesses carried on and used, not what is easiest to tell. [DEFENDED] marks what he defended.
+
+I1. **"The Epistles of Ignatius ... we have sent to you."** His letters were gathered, sent on and read. Polycarp collected those he had and sent them to Philippi as soon as he was asked: "by them ye may be greatly profited" (Phil 13, ANF 3613–3618). Irenaeus quotes the letter to Rome (ANF 53556–53560). Origen quotes Ephesians by name (ORI 7168–7172). Eusebius names all seven, says where each was written, quotes them, and counts Ignatius among those "who have transmitted the apostolic doctrine to us in writings still extant" (III.36.5–11, III.37.4–38.1; EUS 19961–20065, 20170–20184). Jerome lists the same seven (NP3 39790–39795). CONTEMP; LATER. — Rank 1. Everything later writers knew of him came through these letters (McGiffert says so, card only, EUS note at 19780–19790); the chain from Polycarp to Eusebius and Jerome is in the record. Carrying quote: Q27 (Rendering 1).
+I2. **"I know that after His resurrection also He was still possessed of flesh."** [DEFENDED] He defended the real flesh of Christ, his birth, suffering and resurrection, against those who said he "only seemed to suffer", and staked his own chains on it (Trall 9–10, ANF 6613–6681; Smyrn 1–7, ANF 7956–8240). Later writers used his words as testimony that Christ truly came in the flesh. Each used him for this: Origen, on why Mary was betrothed: her virginity was hidden from the devil, so that he would not know of the incarnation (Eph 19; ORI 7160–7180, Q19). Eusebius, quoting his words "concerning Christ", that he was in the flesh after the resurrection (Smyrn 3; EUS 20038–20065). Jerome, quoting the same passage "in respect of the person of Christ" (NP3 39798–39803). Athanasius, in the dispute over the Son, that "Christ was originate on account of the flesh (for He became flesh), yet unoriginate" (Eph 7; ATH 59204–59232, Q20, Q37). Theodoret, three times. In Dialogue I, on "the assumed nature", he cites Smyrn 1: Christ "truly descended from David according to the flesh ... crucified for our sake in the flesh" (NP3 20249–20251, 20268–20290). In Dialogue II, on the distinction of the natures, he cites Smyrn 3, the risen Christ "existent in the flesh" (NP3 23240–23255). In Dialogue III, "The Impassible", he cites Smyrn 7, the Eucharist as the "flesh of our Saviour Jesus Christ which suffered for our sins" (NP3 27122–27131). Only this last use is about the suffering. Theodoret also names him among the teachers of the true faith (NP3 32087–32089, 35178–35181, 36775–36780). OWN; LATER. — Rank 2. Five later writers, across three centuries, used his words in live disputes, all as testimony that Christ truly came in the flesh; one of the five (Theodoret, Dialogue III) used them for Christ's suffering. Carrying quote: Q16 (use its final reading in section 3), the passage Eusebius, Jerome and Theodoret all quote.
+I3. **"I am the wheat of God."** His words as a condemned man were carried as the model of a martyr's readiness. Irenaeus uses them to show that "tribulation is necessary for those who are saved" (Q28). Eusebius quotes both Rom 5 and Irenaeus's quotation (EUS 19994–20022, 20067–20071). Jerome quotes Rom 5 and the wheat saying (NP3 39808–39829). Chrysostom builds his sermon on "may I have joy ... of these wild beasts" (CHR 10326–10343). OWN; LATER. — Rank 3. Quoted by four later writers, each using it to show how a martyr faces death. Carrying quote: Q1 (Rendering 1).
+I4. **"The blessed Ignatius."** He was held up as an example of endurance at once. Polycarp sets "the blessed Ignatius" before the Philippians as endurance they had seen with their own eyes (Q26). Chrysostom calls his willing death a proof of the resurrection: "not only Peter and Paul, but even Ignatius, who had not even seen him ... showing such earnestness as to lay down life itself for his sake" (CHR 10305–10311). CONTEMP; LATER. — Rank 4. The earliest witness's own use of him. Carrying quote: Q26 (Rendering 1).
+I5. **"Ye sent forth a Bishop, and received a martyr."** Antioch kept his memory. His remains were brought back to Antioch (Chrysostom, CHR 10343–10376; Jerome, NP3 39830–39831). Antioch kept his feast (CHR 9955–9956). Under Theodosius his bones were moved into the former temple of Fortune, with "a public festival ... which has continued to our times" (Evagrius, EVA 2258–2285). Chrysostom urges the sick and sorrowing to come to his tomb (CHR 10378–10397). LATER (from about 280 to 480 years). — Rank 5. A line of witnesses across two centuries shows a remembered grave, feast and shrine. Carrying quote: Q33 (Rendering 1).
+I6. **"Do nothing without the bishop."** [DEFENDED] He defended the unity of each church around one bishop, with the elders and deacons, and one Eucharist (M17, M9; Q17, Q18, Q21). Eusebius sums up his counsel as warning against heresies and holding "fast to the tradition of the apostles" (EUS 19955–19957). Chrysostom praises his rule as bishop at length (CHR 10020–10215). OWN; LATER. — Rank 6. His own most repeated counsel. No held ancient witness quotes his bishop sayings directly; the weight here is his own. Carrying quote: Q18 (Rendering 1).
+I7. **"He fortified the parishes."** On the road he strengthened the churches, and they gathered round him. His own words: churches not on his road "have gone before me, city by city" (Q10). Eusebius: he "fortified the parishes in the various cities where he stopped" (Q29). Chrysostom: he "to a greater degree knit the Churches together" (Q34). OWN; LATER. — Rank 7. Carrying quote: Q34 (Rendering 1).
+I8. **"Second in succession to Peter."** He was remembered as Antioch's bishop in a line from Peter, and that line was claimed later. Origen (Q19), Eusebius (Q30), Jerome (NP3 39787–39788), Socrates (Q35), Theodoret (Q38) and Chrysostom (CHR 10203–10211) all place him after Peter, though they differ (D5). Gregory the Great, bishop of Rome, writing to the bishop of Antioch, says Ignatius "is not only yours, but also ours", because both sees share Peter (Q39). LATER. — Rank 8. Carrying quote: Q39 (Rendering 1).
+I9. **"The Church which is at Antioch in Syria possesses peace."** He organised care for his own church from prison: he asked Philadelphia, Smyrna and Polycarp to send messengers, and Polycarp to write to the other churches (M13, M14; Q25). Polycarp promises to carry the Philippians' letter to Syria (Phil 13, Q27). Eusebius: "he commended to him, like a true and good shepherd, the flock at Antioch" (EUS 20033–20035); Jerome the same (NP3 39794–39795). OWN; CONTEMP; LATER. — Rank 9. Carrying quote: Q25 (Rendering 1).
+I10. **"Transmitted by tradition to all the other churches."** Socrates credits him with the church's antiphonal singing, after a vision (Q35). LATER (about 330 years); one witness; a wonder story. — Rank 10. If told, name Socrates and the late date.
+I11. **"Theophorus."** His second name was carried on and explained in different ways (D10). Evagrius calls him "the bearer of the name Theophorus" (EVA 2273–2274). LATER. — Rank 11.
+
+**Card only, not for the story**
+
+I12. **"The Catholic Church."** Editors note Smyrn 8 as the first use of the phrase in church writings (Coxe, ANF 4469–4471; see C4 and F4). That is a modern editor's claim, and the census's own note on the phrase (CEN 31906–31908) is about its meaning, not its firstness.
+I13. **"Christianity."** He uses the word (Magn 10, ANF 6032–6039, note "Literally, 'according to Christianity'"; Rom 3, ANF 7008–7009). Any claim that he coined it or used it first is not in the held ancient sources.
+I14. **The pseudo-Ignatian letters.** Eight more letters were later written in his name, and the seven were expanded into the longer recension (ANF 4490–4505; C1). His name drew later writing; Jerome even quotes a line from Barnabas as Ignatius's (NPNF 206, `npnf206_jerome-principal-works.xml` 45253–45256, with the editor's note). The NPNF note to Gregory says Anastasius's phrase came from the spurious letters (GRG 41662–41664).
+
+
+## 5. Disputes and unclear points
+
+D1. **Are the letters his, and in which form?** Three forms exist: the shorter Greek recension of seven letters, the longer Greek recension of the same seven expanded plus eight more letters, and a Syriac version of three letters, shorter still (ANF intro, 4490–4497, 4507–4511, 4570–4590). The ancient witnesses: Polycarp knew and sent on letters of Ignatius (Phil 13); Irenaeus quotes Rom 4 (V.28.4); Origen quotes Eph 19 by name (ORI 7168–7172); Eusebius names seven letters, the same seven the shorter recension holds (III.36.5–10); Jerome names the same seven (Lives 16). The eight further letters are not named by Eusebius or Jerome (ANF 4502–4503). Modern editors have argued all sides: some held the letters forged, some the longer form, some the Syriac, most the shorter (ANF 4529–4568, 4586–4619; McGiffert, EUS note at 19822–19887; card only). The census calls authorship and dating "a genuine, unresolved scholarly dispute", with "rival readings" placing them "decades later, even as later composition" (CEN 31831). formation_confidence: that the seven letters existed under his name by Eusebius's day: Documented. That letters of his were circulating in Polycarp's day: Documented (Phil 13). That the shorter seven are his own words: Contested (the project's census ruling). In the story: tell the letters as "his letters" or "the letters that bear his name", and say once, plainly, that some have doubted they are all his.
+D2. **When did he die?** No held source from before the fourth century gives a reign or year. Eusebius sets him in Trajan's reign without a year (S9). Jerome: "the eleventh year of Trajan" (NP3 39830). The *Martyrdom of Ignatius*: the "ninth" year of Trajan and the consuls Sura and Senecio, on 20 December (ANF 11466–11467, 11684–11688); LATE-LEGEND. Rom 10 gives a day in late August but no year (Q11). Modern dates (107 from Eusebius's *Chronicle*, not held; 116; a date under Hadrian) are card only (EUS notes at 19795–19815, 19849–19882; ANF 4639–4654, 11334–11339). The census: "died under Trajan, or later" (CEN 86403). Tell only: early in the second century, in the reign of Trajan as later writers tell it, and say the exact year is not known.
+D3. **Where did he die?** Rome: his own letters show only that he expected to die there (Rom 2, 4, 5). Origen: "fought with beasts in the persecution at Rome" (Q19). Eusebius: "Report says" (Q29). Chrysostom: "in the midst of the theatre" at Rome (CHR 10316–10321). Jerome and Theodoret assume Rome. Evagrius: "the amphitheatre of Rome" (EVA 2262). Antioch: Malalas, in the sixth century, says he was martyred at Antioch while Trajan was there (M31). McGiffert reports that Zahn refuted Malalas (EUS note at 19943–19951, card only). Rome is Widely Accepted; Antioch is one late witness.
+D4. **Did he die by the beasts?** Polycarp says only that he suffered and is with the Lord, and asks for news (Phil 9, 13). Irenaeus says he was "condemned to the wild beasts", not that he died by them (Q28). From Origen on, every held witness says he did. Widely Accepted from the third century.
+D5. **Second or third bishop; who appointed him?** Second after Peter, with Evodius first: Origen (Q19), Eusebius (Q30). Third after Peter: Jerome (NP3 39787–39788), Socrates (Q35). Appointed by Peter: Theodoret (NP3 20251–20253, 36778–36779), Malalas (MAL 18366–18369). "By Paul": the *Apostolic Constitutions*: "Of Antioch, Euodius, ordained by me Peter; and Ignatius by Paul" (AC 16510). "The hands of the blessed apostles touched his sacred head": Chrysostom (CHR 10025–10026), who also says he "succeeded to the office after" Peter (CHR 10204–10205). "Appointed Bishop in Antioch after the Apostles": Athanasius (ATH 59204–59205). Ignatius himself names no predecessor and does not say who appointed him. Tell only "bishop of Antioch" (or "of Syria", in his words); the succession is Contested.
+D6. **Did he know the apostles?** He makes no such claim; he sets himself apart from them: "They were apostles; I am but a condemned man" (Q3). Chrysostom says "He held true converse with the apostles" (CHR 10001–10002) yet also that he "had not even seen" Christ (CHR 10309). Socrates: he "had held intercourse with the apostles themselves" (Q35). The *Martyrdom of Ignatius* makes him John's disciple with Polycarp (ANF 11438–11439, 11543–11544; LATE-LEGEND). Inferential-Thin. Leave it out, or tell it as a later claim.
+D7. **Was Ignatius known to be dead when Polycarp wrote?** Phil 9 counts him among those "in their due place in the presence of the Lord" (ANF 3487–3492). Phil 13 asks for "more certain information ... respecting both Ignatius himself, and those that were with him", and the Latin reads "are with him", which the translator changed to "were" (ANF 3619–3622 and note). The ANF editor's view that Polycarp "was aware of the death ... but was as yet apparently ignorant of the circumstances" is card only (note at 3624–3629). The census says Polycarp "speaks of him as already dead, though it admits not knowing the details" (CEN 31928). Do not resolve it beyond that.
+D8. **The wording of the wheat saying.** Shorter: "wheat of God ... pure bread of Christ" (ANF 7040–7042). Longer: "am ground ... pure bread of God" (7059–7061). Syriac: "I shall be ground ... pure bread of God" (9389–9391). Irenaeus in Latin: "wheat of Christ ... pure bread of God" (53558–53560). Irenaeus as Eusebius quotes him: "God's wheat ... pure bread" (20069–20071). Jerome: "the grain of Christ ... the bread of the world", said on hearing "the lions roaring" (NP3 39826–39829). Follow the shorter recension; Jerome's setting is his own.
+D9. **Where does "handle Me" come from?** Eusebius: "taken I know not whence" (EUS 20039–20040). Jerome: from "the Gospel which I have recently translated" (NP3 39798), and he places the quotation in the letter "To Polycarp" ("In this last"), though it stands in Smyrnaeans (the NPNF note flags this, NP3 note at 39796–39797). Origen, without naming Ignatius, says the phrase "incorporeal demon" comes from "The Doctrine of Peter", a work he rejects (De Principiis, preface 8, ANF4 22563–22567, 22580–22585). The ANF note says it is from "the Gospel of the Nazarenes" according to Jerome (note at 8044). Not needed for the story; if used, say "a saying of Jesus not found in our Gospels".
+D10. **What "Theophorus" means.** He uses the name in every letter but does not explain it (S1). The *Martyrdom of Ignatius*: "He who has Christ within his breast" (Q40; LATE-LEGEND). A later legend made him the child Jesus took in his arms, reading the name as "carried by God" (ANF translators, ANF 11379–11398; NPNF note at SOC 17708–17719; ANF intro 4362–4365; all card only). If told, say "God-bearer" and that the name is his own; give no explanation as fact.
+D11. **Antiphonal singing.** Only Socrates (Q35). The NPNF editor reports Valesius's doubt (SOC 17765–17771); Lightfoot's view that such singing needed no vision is quoted in a Theodoret note (NP3 10478–10490). Both card only. Inferential-Thin.
+D12. **His remains.** He wanted the beasts to "leave nothing of my body" (Rom 4, ANF 7042–7043). Later witnesses say bones were kept and taken to Antioch: Chrysostom (CHR 10343–10367), Jerome (NP3 39830–39831), Evagrius (EVA 2265–2271), the *Martyrdom of Ignatius* (ANF 11672–11674). No held witness says who carried them or when, before Chrysostom. Documented as fourth-century report.
+D13. **The Ephesians 7 clause and wording.** ANF's "first possible and then impossible" is not in the Greek (ANF note at 4976–4978). Athanasius's Greek has "God in man" where ANF has "God existing in flesh" (Q20). Use Athanasius's Greek where the two differ.
+D14. **"Bishop of Syria" or "of Antioch".** Shorter Rom 2: "the bishop of Syria" (ANF 6962). Longer Pol address: "Ignatius, bishop of Antioch" (ANF 8539–8540). Shorter Eph 21: "the Church which is in Syria"; longer: "the Church of Antioch which is in Syria" (ANF 5584, 5596). The shorter letters name Antioch only as the church at peace (S2).
+
+
+## 6. What the record does not tell us
+
+N1. Nothing in the Library gives his birth, birthplace, family, age, or how he became a Christian. The legend that he was the child Jesus held is late and card only (D10).
+N2. The record does not say why he was arrested, who condemned him, or where. His letters say only that he was bound "for the common name and hope" (Eph 1, ANF 4703). Irenaeus and Eusebius say "because of his testimony" (Q28, Q29). Only the late *Martyrdom* (Trajan at Antioch) and Malalas (he reproached Trajan) say more (M31, M32).
+N3. The record does not give the year he became bishop, or how long he served. The ANF and Jerome editors' "a.d. 30–107" and "Bishop about 70, died about 107" are modern (ANF 4362; NP3 note at 39787; card only).
+N4. No held source before the late *Martyrdom* describes his death itself. Origen and Eusebius give only the fact, as they had it (D3, D4).
+N5. The record does not say who the others were who had "gone before me from Syria to Rome" (Rom 10), or who Zosimus and Rufus were, whom Polycarp names with him (Phil 9).
+N6. The record does not say whether Philadelphia, Smyrna or Polycarp sent the messenger to Antioch, or what came of it (Pol 7–8; Phil 13 promises only "if I find a fitting opportunity").
+N7. The record does not say how his letters were first gathered into a set, beyond Polycarp sending "all the rest ... which we have by us" (Phil 13). That Polycarp made the collection later known is plausible but unstated.
+N8. The names and teachings of his opponents are not recorded; he refused to write their names (Smyrn 5, ANF 8143–8145). Their side is not heard.
+N9. The letter to Rome names no bishop at Rome and says nothing of how the Roman church was led (S5). The record does not say why.
+N10. "Theophorus": the record does not say when or why he took the name (D10).
+N11. The record does not say how his bones reached Antioch, or who brought them (D12).
+N12. The "second little work" he promised Ephesus (Eph 20, ANF 5534–5537) is not in the record; nothing says whether he wrote it.
+
+
+## 7. Card only
+
+C1. ANF "Introductory Note to the Epistles of Ignatius" (ANF 4353–4656), by Coxe and the original translators: the fifteen letters, the history of the controversy (Usher, Vossius, Daillé, Pearson, Whiston, Lardner, Cureton, Bunsen, Hefele), and the editors' itinerary and dates (107 or 116). Coxe's remarks on Romans and the "Catholic Church" (ANF 4458–4472).
+C2. ANF "Introductory Note to the Syriac Version" (ANF 8903–8957): Cureton's three manuscripts and their dates.
+C3. ANF "Introductory Note to the Martyrdom of Ignatius" (ANF 11325–11405): its silence for six centuries, the case for and against it, Pearson and Usher on its date, and the child legend.
+C4. Coxe's claim that Ignatius's letter is where "we first find the use of the phrase 'Catholic Church' in patristic writings" (ANF 4469–4470). It is an editor's claim about firstness; the census card repeats it, crediting Coxe (CEN 86459, 86468). See F4.
+C5. McGiffert's notes in EUS III.22 and III.36: the oldest tradition makes Evodius first bishop; the Acts of the Martyrdom are "utterly unreliable"; Eusebius's *Chronicle* dates (69–72 and 107, not held); Zahn, Lightfoot and Harnack on the date; the three recensions; the route through Philadelphia and Sardis; "leopards" as an argument against authenticity; the Gospel of the Hebrews question; Schaff's character sketch (EUS 17007–17023, 19740–19934, 19937–19951, 19963–19979, 19996–19999, 20026–20060, 20102–20110).
+C6. ANF notes on the letters cited in section 3: literal senses, variant readings, and the Greek words given in notes.
+C7. NPNF notes: on Theophorus and the child legend (SOC 17708–17719); on Valesius and antiphonal singing (SOC 17765–17771); Lightfoot on antiphonal singing (NP3 10478–10490); on Jerome's error over the letter "To Polycarp" and Lightfoot's view that Jerome "had never seen the Epistles" (NP3 39795–39797); on Theodoret's quotation sources (NP3 23255–23270); on Gregory's phrase from the spurious letters (GRG 41662–41664); on Jerome's Barnabas quotation (NPNF 206, 45253–45255); Lightfoot's view, printed in NPNF 214, that "Ignatius wrote γεννητός καὶ ἀγέννητος, though his editors frequently alter it into γενητὸς καὶ ἀγένητος" (`npnf214_seven-ecumenical-councils.xml` 2567–2727).
+C8. The ruaeus preface in ORI (ORI 915–1090): the old dispute over whether the *Homilies on Luke* are Origen's, argued because Homily 6 names Ignatius; Larroque's dating "post Ignatii martyrium CV" (ORI 984).
+C9. The Chrysostom homily's introduction (CHR 9796–9930) and the Latin editor's note on his feast days (`john-chrysostom_homily-martyr-lucian-grc-lat_migne-pg50.txt` 24801).
+C10. The pseudo-Ignatian letters (ANF 9509–11323) and the longer recension throughout. Not used: later writings in his name.
+C11. Witness date estimates (Irenaeus about 70 years later, Origen about 120, Eusebius about 200, Athanasius about 250, Chrysostom and Jerome about 280, Socrates about 330, Theodoret about 340, Malalas about 450, Evagrius about 480, Gregory about 490). Mine, from the usual modern dates of the writers and a death early in the second century.
+C12. The reign of Trajan as "second century" and any AD date for Ignatius come from modern chronology (S9).
+C13. "John the rhetorician" in Evagrius is usually taken to be John Malalas; that identification is modern and not stated in EVA.
+
+
+## 8. References
+
+R1. Ignatius of Antioch, *Epistles* to the Ephesians, Magnesians, Trallians, Romans, Philadelphians, Smyrnaeans and Polycarp, shorter and longer Greek recensions. *The Apostolic Fathers with Justin Martyr and Irenaeus*, Ante-Nicene Fathers vol. 1, ed. Alexander Roberts, James Donaldson and A. Cleveland Coxe (CCEL ThML), div2 v.ii–v.viii, lines 4658–8901. File: `cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml`.
+R2. Ignatius, *Epistles* to Polycarp, the Ephesians and the Romans, Syriac version (tr. from Cureton). Same volume, div2 v.x–v.xii, lines 8959–9507.
+R3. *The Martyrdom of Ignatius*. Same volume, div2 v.xxv, lines 11423–11712. Late, date unknown.
+R4. Polycarp, *Epistle to the Philippians* 9 and 13. Same volume, lines 3482–3494, 3605–3630.
+R5. Irenaeus, *Against Heresies* V.28.4. Same volume, lines 53548–53560.
+R6. Origen, *Homilies on Luke* 6, Latin tr. Jerome, with Greek fragment. *Origenis Opera Omnia*, tomus 5, ed. De la Rue, rev. Lommatzsch (Berlin, 1835), lines 7058–7200. File: `cic/texts/origen_commentarii-in-evangelium-matthaei-tomus5-lat_lommatzsch1835.txt`.
+R7. Origen, *De Principiis*, preface 8. Ante-Nicene Fathers vol. 4, lines 22553–22595. File: `cic/texts/anf04_tertullian4-minucius-felix-commodian-origen1-2.xml`.
+R8. Eusebius, *Church History* III.21–22 (lines 16973–17030), III.33.1 (19442–19451), III.36 (19675–20111), III.37.4–38.1 (20170–20184), V.8.9 (28287–28302). Tr. Arthur Cushman McGiffert, Nicene and Post-Nicene Fathers series 2 vol. 1. File: `cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml`.
+R9. Athanasius, *De Synodis* 47. English: NPNF series 2 vol. 4, lines 59204–59235, file `cic/texts/npnf204_athanasius-select-works-letters.xml`. Greek: Migne, PG 26 (1857), lines 64275–64286, file `cic/texts/athanasius_opera-omnia-pg26-grc-lat_migne1857.txt`.
+R10. John Chrysostom, *Homily on Saint Ignatius*. NPNF series 1 vol. 9, lines 9930–10400. File: `cic/texts/npnf109_chrysostom-priesthood-ascetic-homilies-statutes.xml`.
+R11. Jerome, *Lives of Illustrious Men* 16. NPNF series 2 vol. 3, lines 39783–39831. File: `cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml`.
+R12. Theodoret, *Dialogues* I–III (lines 20245–20275, 23240–23255, 27119–27131) and *Letters* LXXXIX, CXLV and the Address to the Monks (32087–32089, 35172–35181, 36775–36780). Same file as R11.
+R13. Socrates Scholasticus, *Church History* VI.8. NPNF series 2 vol. 2, lines 17704–17781. File: `cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml`. Greek and Latin: Hussey (Oxford, 1853), vol. 2, file `cic/texts/socrates_historia-ecclesiastica-tomus2-grc-lat_hussey1853.txt`.
+R14. *Apostolic Constitutions* VII.46. Ante-Nicene Fathers vol. 7, line 16510. File: `cic/texts/anf07_lactantius-apostolic-constitutions-didache-liturgies.xml`.
+R15. Evagrius Scholasticus, *Church History* I.16, tr. E. Walford (London: Bagster, 1846), lines 2255–2285. File: `cic/texts/evagrius-scholasticus_ecclesiastical-history_walford1846.txt`.
+R16. John Malalas, *Chronographia*, ed. L. Dindorf (Bonn, 1831), lines 18366–18369, 18412–18415, 19869–19872, 19897–19899. File: `cic/texts/john-malalas_chronographia-grc-lat_dindorf1831.txt`.
+R17. Gregory the Great, *Letters* V.39, to Anastasius of Antioch. NPNF series 2 vol. 12, lines 41593–41666. File: `cic/texts/npnf212_leo-great-gregory-great.xml`.
+R18. Jerome, *Against Helvidius* and *Dialogue against the Pelagians* (mentions only). NPNF series 2 vol. 6, lines 33687–33690, 45253–45256. File: `cic/texts/npnf206_jerome-principal-works.xml`.
+

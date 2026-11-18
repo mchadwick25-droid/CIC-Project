@@ -1,0 +1,11 @@
+source_file: trappists_constitutions-and-usages-of-the-reformed-cistercians-of-la-trappe-eng-lat_1894.txt
+assignments:
+- row_id: trappists_constitutions-and-usages-of-the-reformed-cistercians-of-la-trappe-eng-lat_1894--constitutions-and-usages-of-the-reformed-cistercians-of-la-trappe-1894
+  work: "Constitutions and Usages of the Reformed Cistercians of La Trappe (1894)"
+  author: trappists
+  locus: "the whole volume; add 12 to OCR line numbers for this file's own"
+  atlas_ids:
+  - catholic-church-long-nineteenth-century
+  role: tradition
+  confidence: provisional
+  note: "The Trappists' own law, issued by their general chapter in 1894. Within this entry's window (1815-1906)."

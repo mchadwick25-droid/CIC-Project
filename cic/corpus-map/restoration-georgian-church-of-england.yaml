@@ -85,6 +85,22 @@ works:
   note: Published by the SPCK's printer Downing for an English readership; the Halle model
     as the English voluntary societies received it. Provisional placement.
   source_file: francke_pietas-hallensis_1705.txt
+- row_id: gregory-alfred_robert-raikes-journalist-and-philanthropist_1877--gregory-robert-raikes
+  work: 'Gregory, Robert Raikes: Journalist and Philanthropist (1877)'
+  author: gregory-alfred
+  locus: the whole book at OCR lines 202-6120; Raikes's letters at 1614-1673 and 1675-1748,
+    his newspaper notice at 2273-2300; add 12 to OCR line numbers
+  role: context
+  confidence: provisional
+  language: eng
+  date:
+    start: 1877
+    end: 1877
+    source: 'title page: 1877'
+    formation_confidence: Documented
+  note: A Life of Raikes written in 1877, long after the first schools. It prints Raikes's
+    letters of 1783 and 1785 as extracts; quote them as Gregory's printing, not as the originals.
+  source_file: gregory-alfred_robert-raikes-journalist-and-philanthropist_1877.txt
 - row_id: humphreys_historical-account-of-the-spg_1730--an-historical-account-of-the-incorporated-society-for-the
   work: An Historical Account of the Incorporated Society for the Propagation of the Gospel
     in Foreign Parts (1730)
@@ -133,6 +149,20 @@ works:
   note: High Church nonjuring devotion in its own voice; the church's inner seriousness against
     its reputation for comfort.
   source_file: law_serious-call-to-a-devout-and-holy-life_1729.txt
+- row_id: marsden_life-and-work-of-samuel-marsden_jb-marsden1913--marsden-s-letters-and-journals-before-1815
+  work: J. B. Marsden, Life and Work of Samuel Marsden (1913), with Marsden's letters
+  author: marsden
+  locus: Marsden's letters and journals dated before 1815, for example his letter from Parramatta
+    of 26 October 1810 at about OCR line 2564, his letter of 7 October 1814 at about 3434,
+    and his account of Christmas Day 1814 at about 3703; add 11 to OCR line numbers for this
+    file's own
+  role: tradition
+  confidence: provisional
+  note: Marsden's own letters and journals written before 1815, as chaplain of New South Wales
+    and on the first voyage of the New Zealand mission, inside a biography of 1913. They were
+    written inside this entry's window. Two of their dates (7 October and 25 December 1814)
+    are the biographer's.
+  source_file: marsden_life-and-work-of-samuel-marsden_jb-marsden1913.txt
 - row_id: moravian-church_acta-fratrum-unitatis-in-anglia_1749--acta-fratrum-unitatis-in-anglia-1749-3
   work: Acta Fratrum Unitatis in Anglia (1749)
   author: moravian-church
@@ -160,6 +190,70 @@ works:
     it held, printed with the sermon; the author slug follows the file, the abstract is the
     Society's.
   source_file: moss_sermon-before-the-spg-1772_1772.txt
+- row_id: pascoe_two-hundred-years-of-the-spg-v1_1901--pascoe-spg-west-africa-thompson-and-quaque
+  work: 'Pascoe, Two Hundred Years of the S.P.G., vol. I: West Africa (Thompson and Philip
+    Quaque)'
+  author: pascoe
+  locus: chapter XXXV at OCR lines 25566-26626; Quaque at about 25620-25860; add 12 to OCR
+    line numbers
+  role: context
+  confidence: provisional
+  language: eng
+  date:
+    start: 1901
+    end: 1901
+    source: 'title page: 1901'
+    formation_confidence: Documented
+  note: The Society's own digest of its records on the West African mission from 1751. Written
+    in 1901; Quaque's words appear only as the digest quotes them.
+  source_file: pascoe_two-hundred-years-of-the-spg-v1_1901.txt
+- row_id: pascoe_two-hundred-years-of-the-spg-v1_1901--pascoe-spg-north-american-colonies
+  work: 'Pascoe, Two Hundred Years of the S.P.G., vol. I: the older North American colonies'
+  author: pascoe
+  locus: chapters II-XII at OCR lines 5444-10688; add 12 to OCR line numbers
+  role: context
+  confidence: provisional
+  language: eng
+  date:
+    start: 1901
+    end: 1901
+    source: 'title page: 1901'
+    formation_confidence: Documented
+  note: The Society's digest of its colonial missions, colony by colony. A later summary by
+    the Society's assistant secretary.
+  source_file: pascoe_two-hundred-years-of-the-spg-v1_1901.txt
+- row_id: pascoe_two-hundred-years-of-the-spg-v2_1901--pascoe-spg-v2-home-work-and-roll
+  work: 'Pascoe, Two Hundred Years of the S.P.G., vol. II: the episcopate, education, translations,
+    funds and the roll of missionaries'
+  author: pascoe
+  locus: OCR lines 22505-61667; add 12 to OCR line numbers
+  role: context
+  confidence: provisional
+  language: eng
+  date:
+    start: 1901
+    end: 1901
+    source: 'title page: 1901'
+    formation_confidence: Documented
+  note: Reference chapters and the roll of every missionary from 1701 to 1900, with places
+    and years. Useful for checking a name or a date.
+  source_file: pascoe_two-hundred-years-of-the-spg-v2_1901.txt
+- row_id: pascoe_two-hundred-years-of-the-spg-v2_1901--pascoe-spg-v2-charter-of-1701
+  work: Society for the Propagation of the Gospel, Charter of 1701 and Supplemental Charter
+    of 1882, with notes (in Pascoe, vol. II)
+  author: pascoe
+  locus: the charters and notes at OCR lines 61668-62963; add 12 to OCR line numbers
+  role: context
+  confidence: provisional
+  language: eng
+  date:
+    start: 1701
+    end: 1901
+    source: the Charter is of 1701; printed with notes in 1901
+    formation_confidence: Documented
+  note: The Society's founding charter as its own historian prints it, with later marginal
+    notes. Not compared with an earlier printing.
+  source_file: pascoe_two-hundred-years-of-the-spg-v2_1901.txt
 - row_id: rimius_candid-narrative-of-the-herrnhuters_1753--a-candid-narrative-of-the-rise-and-progress-of-the-2
   work: A Candid Narrative of the Rise and Progress of the Herrnhuters (1753)
   author: rimius
@@ -169,6 +263,23 @@ works:
   note: An appeal to the established church against a newly recognised rival; the Georgian
     church's anti-Moravian moment. Provisional.
   source_file: rimius_candid-narrative-of-the-herrnhuters_1753.txt
+- row_id: roberts-william_memoirs-of-hannah-more-v1_3rd-ed1835--roberts-memoirs-of-hannah-more-v1
+  work: 'Roberts, Memoirs of the Life and Correspondence of Mrs. Hannah More, vol. I: 1745-1785
+    (third edition, 1835)'
+  author: roberts-william
+  locus: Part I at OCR lines 2908-9687; Part II at 9688-19356; add 12 to OCR line numbers
+  role: context
+  confidence: provisional
+  language: eng
+  date:
+    start: 1835
+    end: 1835
+    source: 'title page: ''MDCCCXXXV.'', third edition'
+    formation_confidence: Documented
+  note: A Life built from her letters. Her own letters are a first-hand voice of the years
+    to 1785; the frame, and the choice and cutting of the letters, are Roberts's. Letters
+    to her stand among them.
+  source_file: roberts-william_memoirs-of-hannah-more-v1_3rd-ed1835.txt
 - row_id: secker_eight-charges-to-the-clergy_porteus-stinton1790--eight-charges-delivered-to-the-clergy-of-the-dioceses-of
   work: Eight Charges delivered to the Clergy of the Dioceses of Oxford and Canterbury (1738-1766)
   author: secker
@@ -178,6 +289,53 @@ works:
   note: The bishop's voice in governance, setting the standard of parish duty the diaries
     show being kept or missed.
   source_file: secker_eight-charges-to-the-clergy_porteus-stinton1790.txt
+- row_id: todd-henry-john_publick-spirit-life-and-designs-of-thomas-bray_2nd-ed1808--bray-associates-designs-and-proceedings-1807
+  work: Dr. Bray's Associates, Designs and Proceedings for the year 1807, with Todd's introduction
+    (1808)
+  author: todd-henry-john
+  locus: Todd's introduction at OCR lines 207-500; the Designs and Proceedings at 2679-6880;
+    add 12 to OCR line numbers
+  role: tradition
+  confidence: provisional
+  language: eng
+  date:
+    start: 1807
+    end: 1808
+    source: the Proceedings are for the year 1807; the introduction is signed 25 January 1808
+      (OCR lines 498-500)
+    formation_confidence: Documented
+  note: The Associates' own report, accounts, clergy's letters of thanks and book lists, edited
+    by Todd. Several hands, all inside the institution.
+  source_file: todd-henry-john_publick-spirit-life-and-designs-of-thomas-bray_2nd-ed1808.txt
+- row_id: todd-henry-john_publick-spirit-life-and-designs-of-thomas-bray_2nd-ed1808--life-and-designs-of-thomas-bray
+  work: 'Publick Spirit Illustrated in the Life and Designs of Thomas Bray (1746; second edition,
+    ed. Todd, 1808): the Life'
+  author: todd-henry-john
+  locus: the Life at OCR lines 578-2367; Todd's lettered additions at about 2375-2678; add
+    12 to OCR line numbers
+  role: tradition
+  confidence: provisional
+  language: eng
+  date:
+    start: 1746
+    end: 1808
+    source: Todd's introduction dates the first printing to 1746 (about OCR lines 275-295);
+      this edition's title page reads 1808
+    formation_confidence: Documented
+  note: A Life of Bray and of the designs he began, from inside the Church of England. Unsigned;
+    Todd reports the attribution to Samuel Smith and does not prove it. The lettered notes
+    are Todd's.
+  source_file: todd-henry-john_publick-spirit-life-and-designs-of-thomas-bray_2nd-ed1808.txt
+- row_id: welsh-prayer-book_llyfr-gweddi-gyffredin-cym_1664--llyfr-gweddi-gyffredin-the-welsh-book-of-common-prayer-1664
+  work: Llyfr Gweddi Gyffredin, the Welsh Book of Common Prayer (1664)
+  author: welsh-prayer-book
+  locus: the whole book; add 12 to OCR line numbers for this file's own
+  role: tradition
+  confidence: provisional
+  note: The Restoration church's own liturgy in Welsh. Within this entry's window (1660-1815).
+    It also answers the Welsh church after 1282 (Open-Gaps 158). Poor OCR; second witness
+    only.
+  source_file: welsh-prayer-book_llyfr-gweddi-gyffredin-cym_1664.txt
 - row_id: wilberforce_practical-view-of-the-prevailing-religious-system_dublin1797--a-practical-view-of-the-prevailing-religious-system-of
   work: A Practical View of the Prevailing Religious System of Professed Christians (1797)
   author: wilberforce
@@ -187,6 +345,22 @@ works:
   note: An evangelical layman inside the established church, judging its comfortable Christianity
     from within.
   source_file: wilberforce_practical-view-of-the-prevailing-religious-system_dublin1797.txt
+- row_id: wilberforce-robert-and-samuel_life-of-william-wilberforce-v1_1838--wilberforce-sons-life-v1
+  work: 'R. I. and S. Wilberforce, The Life of William Wilberforce, vol. I: 1759-1792 (1838)'
+  author: wilberforce-robert-and-samuel
+  locus: chapters I-IX at OCR lines 407-14841; appendix at 14842-15584, where the scan stops;
+    add 12 to OCR line numbers
+  role: context
+  confidence: provisional
+  language: eng
+  date:
+    start: 1838
+    end: 1838
+    source: 'title page: ''MDCCCXXXVIII'''
+    formation_confidence: Documented
+  note: His sons' Life. His diary and letters are first-hand for the years to 1792; the sons
+    chose and cut them, and the narrative is theirs.
+  source_file: wilberforce-robert-and-samuel_life-of-william-wilberforce-v1_1838.txt
 - row_id: woodforde_diary-of-a-country-parson-v1_beresford1926--the-diary-of-a-country-parson-vol-i-1758-1781
   work: The Diary of a Country Parson, vol. I, 1758-1781
   author: woodforde

@@ -1,25 +1,3 @@
-/**
- * Shared renderer: world_front-compiled JSON (engine.m2.site_compiler's
- * output, cic-website/data/worlds/<census_id>.json) -> participant-facing
- * HTML fragments.
- *
- * Website V2 world_front design, approved to proceed, site cutover
- * stage. This is the ONE place the Orientation-tier content
- * (story/documented_stories/voices/floor_note/legacy/relations_summary/
- * sourcing/read_first) and the Narrative-tier content (who_speaks/quiet/
- * questions/glossary/pull_quotes) turn into HTML, so the Atlas panel
- * (cic-website/atlas-v3.html, fetched at runtime for the 8 built worlds)
- * and each static tradition page (cic-website/traditions/<slug>.html,
- * generated once by Build/tools/generate_tradition_pages.py, which runs this
- * same file through Node) can never quietly drift apart into two
- * independently-maintained templates - the exact anti-pattern this
- * design exists to retire.
- *
- * Plain ES module, no build step: runs unmodified in a browser via
- * `<script type="module">` and in Node via `import`/`node --input-type=module`.
- * No DOM access anywhere in this file - every function returns an HTML
- * string, so it works the same in both environments.
- */
 
 export function escapeHtml(s) {
   if (s === null || s === undefined) return "";
@@ -49,11 +27,6 @@ function sourceHost(url) {
 
 const HIGHLIGHT_KIND_LABEL = { person: "Person", term: "Term", council: "Council", place: "Place" };
 
-// A world's orientation.highlights, applied to one stretch of reading (the
-// story, or one documented story's telling): each phrase is marked at its
-// first appearance in that stretch only, longest phrase first, never inside
-// another mark. The note shows on hover, on keyboard focus, and on tap
-// (a tap focuses the mark), with no script.
 function highlighter(compiled) {
   const entries = ((compiled.orientation && compiled.orientation.highlights) || [])
     .filter((h) => h && h.phrase && h.note)
@@ -91,9 +64,6 @@ function highlighter(compiled) {
   };
 }
 
-// A figure's own in-world name (falls back to the first name entry, then
-// the record id) - never the parenthetical scholarly form, which belongs
-// in a hover/detail context, not as a figure's headline name here.
 function figureName(figure) {
   if (!figure) return "";
   const names = figure.names || [];
@@ -112,10 +82,7 @@ function figureDateSpan(figure) {
   return "";
 }
 
-// ---- Orientation tier (shared between the Atlas panel and a tradition page) ----
 
-// A narration player for one clip. `url` is null/absent when no audio exists
-// for the piece, in which case nothing is drawn.
 function narrationPlayer(url) {
   if (!url) return "";
   return [
@@ -125,8 +92,6 @@ function narrationPlayer(url) {
   ].join("");
 }
 
-// opts.narration = { story: url, legacy: url, documented: { [story_id]: url } },
-// built by the caller from cic-website/audio/worlds/manifest.json.
 export function renderStory(compiled, opts) {
   const story = (compiled.orientation && compiled.orientation.story) || [];
   const player = narrationPlayer(opts && opts.narration && opts.narration.story);
@@ -156,15 +121,6 @@ export function renderVoices(compiled, opts) {
   return ['<div class="orient-voices">', ...blocks, "</div>"].join("\n");
 }
 
-// title/when/teaser are always visible - only the story's own telling
-// (its tellable_as where it has no telling yet) sits behind the
-// disclosure. Reuses atlas-v3.html's own docstory-item/docstory naming convention for visual consistency,
-// but not its exact hide/show split: the Atlas panel's own pre-existing
-// pattern puts the teaser behind a hover tooltip on the collapsed
-// summary, while this shared renderer (used by both surfaces, so they
-// can't drift apart) keeps the teaser always in view per this content
-// design's own explicit rule - a deeper click is for the full account,
-// not for the one-line hook that gets a reader there.
 export function renderDocumentedStories(compiled, opts) {
   const idPrefix = (opts && opts.idPrefix) || "ds";
   const stories = (compiled.orientation && compiled.orientation.documented_stories) || [];
@@ -226,7 +182,6 @@ export function renderSourcing(compiled) {
   return parts.join("\n");
 }
 
-// ---- Narrative tier (tradition-page-only sections) ----
 
 export function renderWhoSpeaks(compiled) {
   const ws = (compiled.narrative && compiled.narrative.who_speaks) || {};
@@ -240,25 +195,6 @@ export function renderQuiet(compiled) {
   return paragraphs(quiet.statement);
 }
 
-// A `cite` entry resolves to a full record's own content field (a
-// doctrinal_witness's `text`, an honest_limit's `statement`, etc - see
-// engine/m2/site_compiler.py's own _CITE_TEXT_FIELD_BY_TYPE), not a short
-// bibliographic locus, so there is no citation string in the compiled data
-// to reproduce verbatim here. Rendered instead as a short, honestly-
-// labeled excerpt of the record that actually grounds the question -
-// never invented, never a fabricated citation form. The cut favors a
-// sentence boundary within `maxLen` over an arbitrary word-boundary
-// chop, so the excerpt reads as a complete thought rather than trailing
-// off mid-clause; only when no sentence end falls in range does it fall
-// back to the nearest word boundary. See this generator's own report for
-// this judgment call.
-// Most record_type values already read fine to a participant once
-// underscores become spaces ("contested_claim" -> "contested claim").
-// "gravity" is this project's own internal term (Doc_04 Gravity
-// Discovery - a world's core theological conviction) and reads as
-// jargon on its own, so it gets an explicit participant-facing label
-// here rather than a hand-edited copy of the citation text, which
-// would only need doing again on every recompile.
 const RECORD_TYPE_LABELS = { gravity: "core conviction" };
 function citeExcerpt(cite, maxLen) {
   if (!cite || !cite.text) return "";
@@ -310,10 +246,6 @@ export function renderGlossary(compiled) {
   return ['<dl class="orient-glossary">', ...items, "</dl>"].join("\n");
 }
 
-// A quote's own `speaker_or_author` arrives already resolved to a
-// readable name - engine/m2/site_compiler.py's _resolve_quote() runs it
-// through citation_cards.py's own figure-label lookup at compile time, so
-// there is nothing left for this renderer to unwrap.
 export function renderPullQuotes(compiled) {
   const quotes = (compiled.narrative && compiled.narrative.pull_quotes) || [];
   if (!quotes.length) return "";
@@ -326,8 +258,6 @@ export function renderPullQuotes(compiled) {
   return ['<div class="orient-pull-quotes">', ...blocks, "</div>"].join("\n");
 }
 
-// The narration URLs for one world, from its entry in audio/worlds/manifest.json;
-// `base` is the path from the calling page to audio/worlds/ (with trailing slash).
 export function narrationUrls(entry, base) {
   if (!entry) return null;
   const url = (k) => (entry[k] ? base + entry[k].file : null);
@@ -339,10 +269,6 @@ export function narrationUrls(entry, base) {
   return { story: url("story"), legacy: url("legacy"), documented };
 }
 
-// Every render function this module exports, keyed by name - the single
-// list a Node CLI wrapper (Build/tools/render_orientation_cli.mjs) and the Atlas
-// panel's own runtime import both iterate/select from, so a new section
-// added here needs no separate registration anywhere else.
 export const RENDERERS = {
   story: renderStory,
   voices: renderVoices,

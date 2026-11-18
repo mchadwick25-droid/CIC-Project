@@ -1,0 +1,1867 @@
+{
+ "entries": [
+  {
+   "id": "hutterite-brethren",
+   "atlasId": "TBD",
+   "era": 7,
+   "name": "The Hutterite Brethren",
+   "shortName": "Hutterites",
+   "informalName": "The Hutterian Brethren",
+   "dates": "1528-1785",
+   "start": 1528,
+   "end": 1785,
+   "region": "Moravia, Upper Hungary, Transylvania",
+   "placeLabel": "Moravia · Transylvania and beyond",
+   "modernCountries": [
+    {
+     "country": "Czech Republic",
+     "countryId": "Q213",
+     "place": "Moravia",
+     "placeId": "Q43266"
+    },
+    {
+     "country": "Romania",
+     "countryId": "Q218",
+     "place": "Transylvania",
+     "placeId": "Q39473"
+    }
+   ],
+   "regions": [
+    "North Europe"
+   ],
+   "lane": "6 Protestant & Evangelical",
+   "laneLabel": "Protestant & Evangelical",
+   "laneOrder": 6,
+   "beyondFloor": false,
+   "status": "Pre-Survey Candidate",
+   "chip": "psc",
+   "glyph": "psc",
+   "statusWord": "Researched — strong candidate",
+   "statusDescription": "Proposed for a future survey; not yet reviewed.",
+   "living": true,
+   "overlayCurrent": false,
+   "c2": null,
+   "sourcing": "Rich in inside voice. The Brethren's own chronicle runs to 1665. It is printed in Wolkan's edition of 1923. Beck's edition of 1883 adds their later records and the state's orders against them, up to 1785. Both are in German, and no public-domain English version exists.",
+   "floorNote": "No question",
+   "relationsSummary": "The Hutterites grew out of the Anabaptist church at Nikolsburg in 1528. Habsburg rulers hunted them. They burned Jakob Hutter in 1536. In 1622 they drove the Brethren out of Moravia. From 1757 the government in Hungary broke up the last of their homes. A few families kept the faith and moved on to Russia.",
+   "why": "In 1528 a band of Anabaptists left Nikolsburg in Moravia. On the road their leaders spread a cloak on the ground. Everyone laid down their goods on it, freely and unforced. From that act came a church that held all its goods in common. It took its name from Jakob Hutter, burned in 1536. Its own chronicle tells the story from the inside.",
+   "entry": null,
+   "streams": [
+    "anabaptist-believers-church"
+   ],
+   "longDescription": "In 1528 Jakob Widman led his followers out of Nikolsburg in Moravia. They were some two hundred people, not counting the children. They had parted from the Anabaptists there who kept the sword. In a deserted village on the road, their leaders spread a cloak on the ground. Everyone laid down their goods on it, freely and unforced. They pointed to the prophets and the apostles.\n\nJakob Hutter led the community for more than two years. In 1535 he was betrayed and seized at Klausen, and taken to King Ferdinand's government at Innsbruck. He was tortured and then burned alive early in 1536. The Brethren took his name, and their chronicle says they were not ashamed of it.\n\nThe communities spread across Moravia. By 1622, the Brethren said, they had lived there more than eighty years and served many lords well. That October the emperor Ferdinand drove them out of all Moravia. They left twenty-four households behind, with their grain, wine and herds. They went into Hungary with almost nothing, as winter set in.\n\nIn Hungary and Transylvania they lived on for some decades more, growing fewer. From 1757 the government broke up the last communities, and most members became Catholics. A few families would not give up their fathers' faith. They moved to Wischenka in Russia, and in 1784 others fled to join them.",
+   "teaser": "Moravia, Hungary and Transylvania, 1528 to 1785 — Anabaptists who laid their goods on one cloak. They held all things in common, and their chronicle tells what it cost them.",
+   "voices": [
+    "Jakob Hutter — leader of the community, seized at Klausen in 1535 and burned in 1536, whose letters survive and whose name the Brethren took",
+    "Peter Riedemann — a minister of the community, jailed at Nuremberg from 1533, author of its account of its faith, the Rechenschaft"
+   ],
+   "legacy": "The Brethren never let their chronicle go. Beck found their families in Russia, near the Sea of Azov, by 1852. In 1874 the Brethren moved from Russia to America and took the book with them. In 1923 the Hutterian Brethren in Canada published it, as a house book for every member.",
+   "continuesAs": null,
+   "livingEvidence": {
+    "basis": "A living tradition whose own chronicle travels with it. Beck (1883) traces the families from Hungary to Russia, and to a colony near the Sea of Azov from 1852. Wolkan's preface (1923) says the Brethren who left Russia for America in 1874 still held the chronicle, and their colony in Alberta published it. Nothing later is in the Library.",
+    "descentConfidence": "Documented"
+   },
+   "documentedStories": [],
+   "people": [],
+   "reviewStatus": "AI-checked"
+  },
+  {
+   "id": "mennonites-and-amish-after-1650",
+   "atlasId": "TBD",
+   "era": 8,
+   "name": "The Mennonites and the Amish",
+   "shortName": "Mennonites & Amish",
+   "informalName": "The Defenseless Christians",
+   "dates": "1650-1890",
+   "start": 1650,
+   "end": 1890,
+   "region": "Netherlands, Pennsylvania, Indiana",
+   "placeLabel": "Netherlands · Pennsylvania and beyond",
+   "modernCountries": [
+    {
+     "country": "Netherlands",
+     "countryId": "Q55",
+     "place": "Netherlands",
+     "placeId": "Q55"
+    },
+    {
+     "country": "United States",
+     "countryId": "Q30",
+     "place": "Pennsylvania",
+     "placeId": "Q1400"
+    }
+   ],
+   "regions": [
+    "North Europe",
+    "North America"
+   ],
+   "lane": "6 Protestant & Evangelical",
+   "laneLabel": "Protestant & Evangelical",
+   "laneOrder": 6,
+   "beyondFloor": false,
+   "status": "Pre-Survey Candidate",
+   "chip": "psc",
+   "glyph": "psc",
+   "statusWord": "Researched — deferred, richer window later",
+   "statusDescription": "Proposed for a future survey, carrying forward part of an earlier entry; not yet reviewed.",
+   "living": true,
+   "overlayCurrent": false,
+   "c2": null,
+   "sourcing": "Thin for this period. The shelf holds later printings of older texts. The Martyrs Mirror of 1660 is here in an English edition of 1886. The Ausbund hymnal is here in Pennsylvania printings of 1846 and 1856. The Dordrecht Confession of 1632 is here in an Indiana manual of 1890. Their prefaces speak for the later church. From the 1700s, only the Ephrata chronicle tells of them, and it speaks from outside.",
+   "floorNote": "No question. Their Dordrecht Confession says that the Word became \"flesh and man\", born of the Virgin Mary.",
+   "relationsSummary": "These churches were heirs of the Swiss and Dutch Anabaptists. The Mennonites of Pennsylvania asked the Ephrata Brethren to print their book of martyrs in German. A church manual of 1890 tells of Amish churches too.",
+   "why": "After 1650 the heirs of the Anabaptists became settled churches. In 1660 Thieleman van Braght of Dordrecht gathered their martyrs into one great book, the Martyrs Mirror. He longed to be like \"my slain fellow brethren and sisters\". The book crossed the sea with his people. In Pennsylvania the Ephrata Brethren printed it in German, and in 1886 an English edition came out.",
+   "entry": null,
+   "streams": [
+    "anabaptist-believers-church"
+   ],
+   "longDescription": "After 1650 the heirs of the Swiss and Dutch Anabaptists lived on as settled churches. Many were called Mennonites, after Menno Simons. Their Dordrecht Confession of 1632 stayed their rule of faith. In 1660 Thieleman van Braght of Dordrecht published the Martyrs Mirror. It told of those \"Who Baptized Only Upon Confession of Faith\". In a prayer dated at Dort in 1659, he asked to be like \"my slain fellow brethren and sisters\".\n\nIn Pennsylvania the Mennonites wanted their great martyr book in German, not Dutch. The Ephrata community in Lancaster County did the work. Fifteen of its brothers were set to it, and the job took three years. The edition ran to 1300 copies.\n\nThe old hymn book of the Swiss Brethren, the Ausbund, was printed again and again in Pennsylvania. Its songs, the title says, were written in the prison at Passau. A Lancaster printing of 1856 calls itself the seventh in Pennsylvania. In 1886 Mennonite publishers brought out the Martyrs Mirror in English. English was spreading \"year by year\" among \"our Mennonite people\", its preface says.\n\nIn 1890 a manual from Elkhart set out the church's forms. A minister was chosen by lot. A slip with a verse from Proverbs went into one of several like books. The man whose book held it was ordained. Some congregations, \"especially among the Amish and Russian Mennonites\", chose by the members' vote instead.",
+   "teaser": "The Netherlands, Pennsylvania and Indiana, 1650 to 1890 — heirs of the Anabaptists. They carried a book of their martyrs across the sea and kept printing it.",
+   "voices": [
+    "Thieleman J. van Braght — compiler of the Martyrs Mirror (1660), whose prefaces and prayer are dated at Dort in 1659",
+    "The publishers of the English edition of 1886 — Mennonites who called the martyrs \"especially precious to us\""
+   ],
+   "legacy": "The martyr book still speaks for these churches. In 1886 its publishers called the martyrs \"especially precious to us, as Mennonites\". Through them, they wrote, God handed down what \"we hold and practice at the present day\". The churches live on, but the Library does not yet hold their story after 1890.",
+   "continuesAs": null,
+   "livingEvidence": {
+    "basis": "The church's own prefaces claim the martyrs as its forebears, from van Braght (1659) to the English edition of 1886. The grade Documented covers the Mennonite line. The Amish descent is shown only by one mention, in the Elkhart manual of 1890, pending the source pass. The Amish division of the 1690s is not yet in the Library, and no inside text after 1890 is.",
+    "descentConfidence": "Documented"
+   },
+   "documentedStories": [],
+   "people": [],
+   "reviewStatus": "AI-checked"
+  },
+  {
+   "id": "melkite-greek-catholic-church-after-1815",
+   "atlasId": "TBD",
+   "era": 9,
+   "name": "The Melkite Greek Catholic Church after 1815",
+   "shortName": "Melkites after 1815",
+   "informalName": "The Greek-Melkite See of Antioch",
+   "dates": "1815-1911",
+   "start": 1815,
+   "end": 1911,
+   "region": "Damascus, Mount Lebanon, Aleppo",
+   "placeLabel": "Damascus · Mount Lebanon and beyond",
+   "modernCountries": [
+    {
+     "country": "Syria",
+     "countryId": "Q858",
+     "place": "Damascus",
+     "placeId": "Q3766",
+     "pleiadesId": "678106"
+    },
+    {
+     "country": "Lebanon",
+     "countryId": "Q822",
+     "place": "Mount Lebanon",
+     "placeId": "Q333711",
+     "pleiadesId": "678267"
+    }
+   ],
+   "regions": [
+    "Middle East"
+   ],
+   "lane": "3<->5 bridge (Greek East / Latin West)",
+   "laneLabel": "Greek East / Latin West — bridge",
+   "laneOrder": 3.5,
+   "beyondFloor": false,
+   "status": "Pre-Survey Candidate",
+   "chip": "psc",
+   "glyph": "psc",
+   "statusWord": "Researched — deferred, richer window later",
+   "statusDescription": "Proposed for a future survey; not yet reviewed.",
+   "living": true,
+   "overlayCurrent": false,
+   "c2": null,
+   "sourcing": "Moderate, and mostly the record of its offices and councils. The church's synods from 1816 to 1902 survive in Latin and Italian, printed in 1911. A French history of 1910 and 1911 covers the rule of Maximos Mazloum and the church's later life. No Arabic sermon, letter or chronicle of the period is yet in the Library.",
+   "floorNote": "No question",
+   "relationsSummary": "This is the church of the 1724 split at Antioch, carried on by the same line of patriarchs. It stayed in communion with Rome. In 1831 Rome's mission office called its bishops together in synod. In 1848 a decree of the sultan gave it a civil standing of its own.",
+   "why": "In the nineteenth century the Melkite Catholics won a place of their own. Their bishops met again and again in synod to choose patriarchs. Maximos III Mazloum, patriarch from 1833 to 1855, won a decree from the sultan in 1848. From then on, Cyril Charon wrote in 1910, the Melkite Catholics were fully free in civil matters.",
+   "entry": null,
+   "streams": [
+    "eastern-catholic-uniate"
+   ],
+   "longDescription": "Patriarch Macarius Tauil died on 15 December 1815. Only four bishops were left. In June 1816 they met at the monastery of Saint Anthony on Mount Lebanon. There they chose the priest Moses Qattan as patriarch.\n\nUnder Qattan the church's affairs went from bad to worse. So Rome's mission office, the Propaganda, told its delegate to gather all the bishops. They met late in 1831 at the Annunciation monastery at Zuq Mikhail.\n\nMaximos III Mazloum was elected patriarch in 1833. He wrote to the pope at once to ask for confirmation. In 1835 he held a national council at Ain Traz. From 1843 to 1848 he worked in Constantinople. There he won the sultan's decree of 7 January 1848. It gave the Melkite Catholics full civil standing of their own.\n\nIn 1849 Maximos presided over a council of his church at Jerusalem. He died at Alexandria in August 1855, and the bishops chose Clement Bahus. In 1858 Clement asked all his people to keep the Gregorian calendar. Four of his bishops rose against him. In 1859 they met at Zahle and declared him stripped of all authority.\n\nThe synods went on choosing patriarchs. Peter Geraigiri was elected at the monastery of Sarba in 1898. After his death, Cyril VIII Geha was elected on 27 June 1902. Rome confirmed him a year later, and he still led the church in 1911.",
+   "teaser": "Damascus and Mount Lebanon, 1815 to 1911 — the Melkite Catholic patriarchs and their synods. In this century the church won a civil standing of its own.",
+   "voices": [
+    "Maximos III Mazloum — patriarch from 1833 to 1855, who won the sultan's decree of 1848",
+    "Agapios Riachi — metropolitan of Beirut, one of four bishops whose 1859 letter from Zahle against their patriarch survives in the French they sent to Rome"
+   ],
+   "legacy": "The civil standing won in 1848 lasted. Writing in 1910, Charon says it still held in his day. Through these years the bishops chose each patriarch in synod, and Rome then confirmed him. The church lives on, but the Library does not yet hold its story after 1911.",
+   "continuesAs": null,
+   "livingEvidence": {
+    "basis": "The same see and the same line of patriarchs. The synod of 1816 chose a successor to Macarius Tauil. Charon (1910-1911) names Cyril VIII Geha, elected in 1902, as the patriarch of his own day. Nothing after 1911 is in the Library.",
+    "descentConfidence": "Documented"
+   },
+   "documentedStories": [],
+   "people": [],
+   "reviewStatus": "AI-checked"
+  }
+ ],
+ "fact_table": [
+  {
+   "entry": "hutterite-brethren",
+   "field": "statusWord",
+   "sentence": "Researched — strong candidate / Proposed for a future survey; not yet reviewed.",
+   "file": null,
+   "lines": null,
+   "quote": null,
+   "grade": "n/a",
+   "note": "Copied from the five census movements carrying this pair (for example byzantine-church-palaiologan uses the word). The P2-G1 sweep rated the Hutterite sources \"strong\" (candidates.json item 56): the community's own chronicle in two scans plus Beck."
+  },
+  {
+   "entry": "hutterite-brethren",
+   "field": "dates",
+   "sentence": "1528-1785",
+   "file": "cic/texts/hutterite-brethren_geschicht-buch-deu_wolkan1923.txt",
+   "lines": "356-357",
+   "quote": "Jakob Widman und die Seinen, deren bei 200 waren ohn die Kinder, gingen aus zu Nikolsburg, von den Spittelmairschen oder Schwertlern.",
+   "grade": "Documented",
+   "note": "Start: the chronicle dates the departure from Nikolsburg and the first community of goods to 1528 (its table of contents, line 339, opens the year 1528). End: Beck's title, VON 1526 BIS 1785 (lines 101-104), the span of the chronicles as printed. Past 1785 the Library holds only Beck's and Wolkan's notes, so the later story is a named gap (P3)."
+  },
+  {
+   "entry": "hutterite-brethren",
+   "field": "dates",
+   "sentence": "1528-1785",
+   "file": "cic/texts/hutterite-brethren_geschichts-buecher-oesterreich-ungarn-deu_beck1883.txt",
+   "lines": "104",
+   "quote": "VON  1526  BIS  1785.",
+   "grade": "Documented"
+  },
+  {
+   "entry": "hutterite-brethren",
+   "field": "sourcing",
+   "sentence": "The Brethren's own chronicle runs to 1665.",
+   "file": "cic/texts/hutterite-brethren_geschicht-buch-deu_wolkan1923.txt",
+   "lines": "44636",
+   "quote": "Anno 1665, den 4. Januar, Abends um 6 Uhr, ließ sich wieder ein",
+   "grade": "Documented"
+  },
+  {
+   "entry": "hutterite-brethren",
+   "field": "sourcing",
+   "sentence": "Beck's edition of 1883 adds their later records and the state's orders against them, up to 1785.",
+   "file": "cic/texts/hutterite-brethren_geschichts-buecher-oesterreich-ungarn-deu_beck1883.txt",
+   "lines": "36265",
+   "quote": "Statth.  Erlass  vom  18./7.  1785:",
+   "grade": "Documented",
+   "note": "The Statthalterei decree of 1785 is one of the state orders Beck prints; the Brethren's own year entries in Beck run to the 1720s (line 32162, \"Anno 1722 bin ich, Johannes Mayer\")."
+  },
+  {
+   "entry": "hutterite-brethren",
+   "field": "sourcing",
+   "sentence": "Both are in German, and no public-domain English version exists.",
+   "file": "cic/texts/hutterite-brethren_geschichts-buecher-oesterreich-ungarn-deu_beck1883.txt",
+   "lines": "9",
+   "quote": "No public-domain English translation exists; the only English Hutterite Chronicle (Plough, 1987) is in copyright.",
+   "grade": "Documented",
+   "note": "From the Library header (content note)."
+  },
+  {
+   "entry": "hutterite-brethren",
+   "field": "relationsSummary",
+   "sentence": "The Hutterites grew out of the Anabaptist church at Nikolsburg in 1528.",
+   "file": "cic/texts/hutterite-brethren_geschicht-buch-deu_wolkan1923.txt",
+   "lines": "356-357",
+   "quote": "Jakob Widman und die Seinen, deren bei 200 waren ohn die Kinder, gingen aus zu Nikolsburg, von den Spittelmairschen oder Schwertlern.",
+   "grade": "Documented"
+  },
+  {
+   "entry": "hutterite-brethren",
+   "field": "relationsSummary",
+   "sentence": "They burned Jakob Hutter in 1536.",
+   "file": "cic/texts/hutterite-brethren_geschicht-buch-deu_wolkan1923.txt",
+   "lines": "10682",
+   "quote": "Freitag vor der ersten Fastwochen des 36. Jahrs.",
+   "grade": "Documented"
+  },
+  {
+   "entry": "hutterite-brethren",
+   "field": "relationsSummary",
+   "sentence": "In 1622 they drove the Brethren out of Moravia.",
+   "file": "cic/texts/hutterite-brethren_geschicht-buch-deu_wolkan1923.txt",
+   "lines": "38766-38768",
+   "quote": "Also wurden wir (wie obgemeldt) im Monat Oktober dies 1622. Jahrs aus Gebot des Kaisers Ferdinand",
+   "grade": "Documented"
+  },
+  {
+   "entry": "hutterite-brethren",
+   "field": "relationsSummary",
+   "sentence": "From 1757 the government in Hungary broke up the last of their homes.",
+   "file": "cic/texts/hutterite-brethren_geschichts-buecher-oesterreich-ungarn-deu_beck1883.txt",
+   "lines": "961-964",
+   "quote": "sie  in  Ungarn  und  Siebenbürgen  noch  einige  Decennien  lang ihr  Leben,  immer  mehr  und  mehr  zusammenschrumpfend,  bis sie  endlich  anno  1757",
+   "grade": "Documented",
+   "note": "Beck's own preface (1883); the end year prints as '17*32' (OCR), so the prose gives only the start year."
+  },
+  {
+   "entry": "hutterite-brethren",
+   "field": "relationsSummary",
+   "sentence": "A few families kept the faith and moved on to Russia.",
+   "file": "cic/texts/hutterite-brethren_geschichts-buecher-oesterreich-ungarn-deu_beck1883.txt",
+   "lines": "971-972",
+   "quote": "Einzelne  Familien ,  die  den  Glauben  ihrer  Väter  nicht aufgeben  wollten ,  zogen  nach  Wischenka  in  Kussland.",
+   "grade": "Documented"
+  },
+  {
+   "entry": "hutterite-brethren",
+   "field": "why",
+   "sentence": "On the road their leaders spread a cloak on the ground.",
+   "file": "cic/texts/hutterite-brethren_geschicht-buch-deu_wolkan1923.txt",
+   "lines": "7198",
+   "quote": "Zu der Zeit haben diese Männer ein Mantel vor dem Volk nieder-",
+   "grade": "Documented",
+   "note": "The marginal gloss \"Sie tegen das\" on the same OCR line is left out of the quote."
+  },
+  {
+   "entry": "hutterite-brethren",
+   "field": "why",
+   "sentence": "Everyone laid down their goods on it, freely and unforced.",
+   "file": "cic/texts/hutterite-brethren_geschicht-buch-deu_wolkan1923.txt",
+   "lines": "7199-7200",
+   "quote": "gebreit und Jederman hat fein Vermögen dargelegt, mit willigem Gemüt,",
+   "grade": "Documented"
+  },
+  {
+   "entry": "hutterite-brethren",
+   "field": "why",
+   "sentence": "Everyone laid down their goods on it, freely and unforced.",
+   "file": "cic/texts/hutterite-brethren_geschicht-buch-deu_wolkan1923.txt",
+   "lines": "7200",
+   "quote": "ungezwungen, zur Unterhaltung der Notdürftigen nach der Lehr der",
+   "grade": "Documented"
+  },
+  {
+   "entry": "hutterite-brethren",
+   "field": "why",
+   "sentence": "From that act came a church that held all its goods in common.",
+   "file": "cic/texts/hutterite-brethren_geschicht-buch-deu_wolkan1923.txt",
+   "lines": "359-360",
+   "quote": "Jakob Widman und die Seinen ordnen Diener der Notdurft und legen das Ihre freiwillig in Gemeinschaft, ziehen gen Austerlitz",
+   "grade": "Documented"
+  },
+  {
+   "entry": "hutterite-brethren",
+   "field": "why",
+   "sentence": "It took its name from Jakob Hutter, burned in 1536.",
+   "file": "cic/texts/hutterite-brethren_geschicht-buch-deu_wolkan1923.txt",
+   "lines": "10686-10687",
+   "quote": "Jakob Hutter hat die Gemein den Hutterischen Namen geerbt, daß man dn e Jade sie die Hutterischen Brüder genennt hat,",
+   "grade": "Documented"
+  },
+  {
+   "entry": "hutterite-brethren",
+   "field": "longDescription",
+   "sentence": "They had parted from the Anabaptists there who kept the sword.",
+   "file": "cic/texts/hutterite-brethren_geschicht-buch-deu_wolkan1923.txt",
+   "lines": "7159",
+   "quote": "Schwertler heißen die zu Nikolsburg behielten das Schwert,",
+   "grade": "Documented"
+  },
+  {
+   "entry": "hutterite-brethren",
+   "field": "longDescription",
+   "sentence": "In a deserted village on the road ...",
+   "file": "cic/texts/hutterite-brethren_geschicht-buch-deu_wolkan1923.txt",
+   "lines": "7172",
+   "quote": "aufgemacht, hin zwischen Tannewitz und Muschau in eim öden Dorf?",
+   "grade": "Documented"
+  },
+  {
+   "entry": "hutterite-brethren",
+   "field": "longDescription",
+   "sentence": "They pointed to the prophets and the apostles.",
+   "file": "cic/texts/hutterite-brethren_geschicht-buch-deu_wolkan1923.txt",
+   "lines": "7201",
+   "quote": "Propheten und Aposteln. Esai. 23, Actor. 2, 4 und 5.",
+   "grade": "Documented"
+  },
+  {
+   "entry": "hutterite-brethren",
+   "field": "longDescription",
+   "sentence": "Jakob Hutter led the community for more than two years.",
+   "file": "cic/texts/hutterite-brethren_geschicht-buch-deu_wolkan1923.txt",
+   "lines": "10684",
+   "quote": "Er hat die Gemein Gottes in das dritte Jahr geregiert",
+   "grade": "Documented"
+  },
+  {
+   "entry": "hutterite-brethren",
+   "field": "longDescription",
+   "sentence": "In 1535 he was betrayed and seized at Klausen ...",
+   "file": "cic/texts/hutterite-brethren_geschicht-buch-deu_wolkan1923.txt",
+   "lines": "10625-10627",
+   "quote": "Nicht lang darnach begab es sich im gemeldten 1535. Jahr, daß der lieb Bruder Jakob Hutter zu Klausen am Eisack, gelegen im Etschland, durch Betrug und Verräterei aus Gottes Verhängnis gefangen ward",
+   "grade": "Documented"
+  },
+  {
+   "entry": "hutterite-brethren",
+   "field": "longDescription",
+   "sentence": "... and taken to King Ferdinand's government at Innsbruck.",
+   "file": "cic/texts/hutterite-brethren_geschicht-buch-deu_wolkan1923.txt",
+   "lines": "10629",
+   "quote": "Knebel ins Maul und führten ihn gen Innsbruck zu des Königs Ferdi—",
+   "grade": "Documented"
+  },
+  {
+   "entry": "hutterite-brethren",
+   "field": "longDescription",
+   "sentence": "He was tortured and then burned alive early in 1536.",
+   "file": "cic/texts/hutterite-brethren_geschicht-buch-deu_wolkan1923.txt",
+   "lines": "10679",
+   "quote": "Scheiterhaufen getan und verbrennt.",
+   "grade": "Documented",
+   "note": "Lines 10630-10641 tell the torture; 10682 dates the burning to the Friday before the first week of Lent, 1536."
+  },
+  {
+   "entry": "hutterite-brethren",
+   "field": "longDescription",
+   "sentence": "The Brethren took his name, and their chronicle says they were not ashamed of it.",
+   "file": "cic/texts/hutterite-brethren_geschicht-buch-deu_wolkan1923.txt",
+   "lines": "10687-10688",
+   "quote": "sie die Hutterischen Brüder genennt hat, deß sie sich bis auf den heutigen e Tag nicht schamt,",
+   "grade": "Documented"
+  },
+  {
+   "entry": "hutterite-brethren",
+   "field": "longDescription",
+   "sentence": "By 1622, the Brethren said, they had lived there more than eighty years and served many lords well.",
+   "file": "cic/texts/hutterite-brethren_geschicht-buch-deu_wolkan1923.txt",
+   "lines": "38679-38680",
+   "quote": "in Mähren vergunnen und das ansehen wölle, daß wir nun über die 80 Jahr in Mähren gewohnt und viel Herren wohl und treulich gedient.",
+   "grade": "Documented",
+   "note": "Their plea to the cardinal, as the chronicle records it."
+  },
+  {
+   "entry": "hutterite-brethren",
+   "field": "longDescription",
+   "sentence": "That October the emperor Ferdinand drove them out of all Moravia.",
+   "file": "cic/texts/hutterite-brethren_geschicht-buch-deu_wolkan1923.txt",
+   "lines": "38766-38768",
+   "quote": "im Monat Oktober dies 1622. Jahrs aus Gebot des Kaisers Ferdinand (durch Trieb und Anregen des Kar— dinalen von Dietrichstein) aus ganz Mähren verfolgt und vertrieben",
+   "grade": "Documented"
+  },
+  {
+   "entry": "hutterite-brethren",
+   "field": "longDescription",
+   "sentence": "They left twenty-four households behind, with their grain, wine and herds.",
+   "file": "cic/texts/hutterite-brethren_geschicht-buch-deu_wolkan1923.txt",
+   "lines": "38770-38771",
+   "quote": "in den 24 Haushaben, so man dieser Zeit in Mähren bewohnt, dahinten, viel Getreid und Wein,",
+   "grade": "Documented",
+   "note": "Lines 38778-38780 list the cattle, horses and pigs left behind."
+  },
+  {
+   "entry": "hutterite-brethren",
+   "field": "longDescription",
+   "sentence": "They went into Hungary with almost nothing, as winter set in.",
+   "file": "cic/texts/hutterite-brethren_geschicht-buch-deu_wolkan1923.txt",
+   "lines": "38796-38797",
+   "quote": "Wir aber mußten also gleichsam mit leeren Händen aus Mähren Aussog in Ungarn ziehen in angehender winterlicher, teurer und böser Zeit,",
+   "grade": "Documented"
+  },
+  {
+   "entry": "hutterite-brethren",
+   "field": "longDescription",
+   "sentence": "In Hungary and Transylvania they lived on for some decades more, growing fewer.",
+   "file": "cic/texts/hutterite-brethren_geschichts-buecher-oesterreich-ungarn-deu_beck1883.txt",
+   "lines": "961-962",
+   "quote": "sie  in  Ungarn  und  Siebenbürgen  noch  einige  Decennien  lang ihr  Leben,  immer  mehr  und  mehr  zusammenschrumpfend,",
+   "grade": "Documented"
+  },
+  {
+   "entry": "hutterite-brethren",
+   "field": "longDescription",
+   "sentence": "From 1757 the government broke up the last communities, and most members became Catholics.",
+   "file": "cic/texts/hutterite-brethren_geschichts-buecher-oesterreich-ungarn-deu_beck1883.txt",
+   "lines": "963-965",
+   "quote": "anno  1757  bis  17*32  der  Energie  der  Regierung gegenüber  auscinanderfiel  und  in  der  katholischen  Kirche aufging.",
+   "grade": "Documented"
+  },
+  {
+   "entry": "hutterite-brethren",
+   "field": "longDescription",
+   "sentence": "A few families would not give up their fathers' faith. They moved to Wischenka in Russia, and in 1784 others fled to join them.",
+   "file": "cic/texts/hutterite-brethren_geschichts-buecher-oesterreich-ungarn-deu_beck1883.txt",
+   "lines": "971-973",
+   "quote": "Einzelne  Familien ,  die  den  Glauben  ihrer  Väter  nicht aufgeben  wollten ,  zogen  nach  Wischenka  in  Kussland.  Zu diesen  floh  1784  ein  Theil  der  Neubekehrten,",
+   "grade": "Documented"
+  },
+  {
+   "entry": "hutterite-brethren",
+   "field": "teaser",
+   "sentence": "They held all things in common, and their chronicle tells what it cost them.",
+   "file": "cic/texts/hutterite-brethren_geschicht-buch-deu_wolkan1923.txt",
+   "lines": "38774-38776",
+   "quote": "ist doch ein Teil solches großen Schadens den Nachkommenden zu eim Bericht hieher ver— zeichnet und geschrieben wurden.",
+   "grade": "Documented"
+  },
+  {
+   "entry": "hutterite-brethren",
+   "field": "voices",
+   "sentence": "Jakob Hutter — ... whose letters survive",
+   "file": "cic/texts/hutterite-brethren_geschicht-buch-deu_wolkan1923.txt",
+   "lines": "10591-10592",
+   "quote": "Hutter in seinem letzten Briefe an die mährische Gemeinde, der offenbar der Dar— stellung des „Geschicht-Buches“ zugrunde lag;",
+   "grade": "Documented"
+  },
+  {
+   "entry": "hutterite-brethren",
+   "field": "voices",
+   "sentence": "Peter Riedemann — a minister of the community, jailed at Nuremberg from 1533",
+   "file": "cic/texts/hutterite-brethren_geschicht-buch-deu_wolkan1923.txt",
+   "lines": "7940-7943",
+   "quote": "Anno 1533 war der Bruder Peter Ridemann, ein Diener des Herrn, von der Gemein ins Frankenland geschickt,",
+   "grade": "Documented"
+  },
+  {
+   "entry": "hutterite-brethren",
+   "field": "voices",
+   "sentence": "... author of its account of its faith, the Rechenschaft",
+   "file": "cic/texts/riedemann_rechenschaft-deu_berne1902.txt",
+   "lines": "1-2",
+   "quote": "Title: Rechenschaft unsrer Religion, Lehre und Glaubens. Von den Brüdern, die man die Huterischen nennt Creator: Peter Riedemann (1506-1556)",
+   "grade": "Widely Accepted",
+   "note": "Rests on the Library header of the 1902 Berne, Indiana reprint; the Fraktur OCR of the title page is garbled, so the authorship is not read from the scan itself."
+  },
+  {
+   "entry": "hutterite-brethren",
+   "field": "legacy",
+   "sentence": "Beck found their families in Russia, near the Sea of Azov, by 1852.",
+   "file": "cic/texts/hutterite-brethren_geschichts-buecher-oesterreich-ungarn-deu_beck1883.txt",
+   "lines": "36333-36336",
+   "quote": "südliehe  Rus<dand,  in  die  Nähe  des  Asow'schcn  Meeres,",
+   "grade": "Documented"
+  },
+  {
+   "entry": "hutterite-brethren",
+   "field": "legacy",
+   "sentence": "Beck found their families in Russia, near the Sea of Azov, by 1852.",
+   "file": "cic/texts/hutterite-brethren_geschichts-buecher-oesterreich-ungarn-deu_beck1883.txt",
+   "lines": "36336",
+   "quote": "Daselbst  wolinon  sie  seit  1852,",
+   "grade": "Documented"
+  },
+  {
+   "entry": "hutterite-brethren",
+   "field": "legacy",
+   "sentence": "In 1874 the Brethren moved from Russia to America and took the book with them.",
+   "file": "cic/texts/hutterite-brethren_geschichtbuch_wolkan1923-deu.txt",
+   "lines": "502-503",
+   "quote": "befindet  sich  noch  heute  im  Besitze  der  1874  aus  Rußland  nach Amerika  ausgewanderten  Brüder,",
+   "grade": "Documented",
+   "note": "Wolkan's preface, 1923."
+  },
+  {
+   "entry": "hutterite-brethren",
+   "field": "legacy",
+   "sentence": "In 1923 the Hutterian Brethren in Canada published it ...",
+   "file": "cic/texts/hutterite-brethren_geschicht-buch-deu_wolkan1923.txt",
+   "lines": "68-69",
+   "quote": "Herausgegeben von den Hutterischen Brüdern in Amerika, Canada",
+   "grade": "Documented"
+  },
+  {
+   "entry": "hutterite-brethren",
+   "field": "legacy",
+   "sentence": "... as a house book for every member.",
+   "file": "cic/texts/hutterite-brethren_geschichtbuch_wolkan1923-deu.txt",
+   "lines": "508-509",
+   "quote": "Hausbuche  werden,  also  rein  praktische  Zwecke  erfüllen.",
+   "grade": "Documented",
+   "note": "Line 507-508: \"um es allen Mitgliedern der Gemeinde zugänglich su machen\"."
+  },
+  {
+   "entry": "hutterite-brethren",
+   "field": "region",
+   "sentence": "Moravia, Upper Hungary, Transylvania",
+   "file": "cic/texts/hutterite-brethren_geschichts-buecher-oesterreich-ungarn-deu_beck1883.txt",
+   "lines": "961",
+   "quote": "sie  in  Ungarn  und  Siebenbürgen",
+   "grade": "Documented",
+   "note": "Modern country IDs copied from the-anabaptist-movements (Moravia) and the-romanian-greek-catholic-church-suppression-and-return (Transylvania). No census entry carries Upper Hungary (Slovakia), so no ID is given for it."
+  },
+  {
+   "entry": "mennonites-and-amish-after-1650",
+   "field": "statusWord",
+   "sentence": "Researched — deferred, richer window later / Proposed for a future survey, carrying forward part of an earlier entry; not yet reviewed.",
+   "file": null,
+   "lines": null,
+   "quote": null,
+   "grade": "n/a",
+   "note": "Copied from armenian-cilicia-after-the-kingdom, which carries forward part of an earlier entry, as this one carries the Swiss and Dutch wings of the-anabaptist-movements. \"Deferred, richer window later\" matches the ruling: the shelf is later printings and a source pass is wanted."
+  },
+  {
+   "entry": "mennonites-and-amish-after-1650",
+   "field": "dates",
+   "sentence": "1650-1890",
+   "file": "cic/texts/dordrecht-confession_ministers-manual_elkhart1890.txt",
+   "lines": "113-114",
+   "quote": "Entered  according  to  act  of  Congress  in  the  year  1890, By  MENNONITE  PUBLISHING  CO.,  ELKHART,  IND.,",
+   "grade": "Documented",
+   "note": "Start: the end of the-anabaptist-movements (1650), which this entry continues. End: the newest dated text on the shelf from inside the church, the Elkhart manual of 1890 (P1). Later years are a named gap until the source pass."
+  },
+  {
+   "entry": "mennonites-and-amish-after-1650",
+   "field": "sourcing",
+   "sentence": "The Martyrs Mirror of 1660 is here in an English edition of 1886.",
+   "file": "cic/texts/van-braght_martyrs-mirror_sohm1886.txt",
+   "lines": "51",
+   "quote": "Translated from the Original Dutch or Holland Language from the Edition of 1660 by",
+   "grade": "Documented",
+   "note": "Line 68: the preface heading dates the English edition 1886."
+  },
+  {
+   "entry": "mennonites-and-amish-after-1650",
+   "field": "sourcing",
+   "sentence": "The Ausbund hymnal is here in Pennsylvania printings of 1846 and 1856.",
+   "file": "cic/texts/ausbund_etliche-schoene-christliche-lieder-deu_baer1856.txt",
+   "lines": "3",
+   "quote": "Publisher: Lancaster, Pennsylvania: gedruckt bey Johann Bär und Söhnen, \"zum siebentenmal aufgelegt in Pennsylvanien\", 1856",
+   "grade": "Documented",
+   "note": "The 1846 printing: ausbund_lancaster1846-deu.txt, header line 6 (Lancaster, PA: Johann Baer, 1846)."
+  },
+  {
+   "entry": "mennonites-and-amish-after-1650",
+   "field": "sourcing",
+   "sentence": "The Dordrecht Confession of 1632 is here in an Indiana manual of 1890.",
+   "file": "cic/texts/dordrecht-confession_ministers-manual_elkhart1890.txt",
+   "lines": "179-180",
+   "quote": "Written  and  adopted  at  a  Peace  Convention  held  at Dortrecht,  on  the  2ist  day  of  April,  1632,",
+   "grade": "Documented"
+  },
+  {
+   "entry": "mennonites-and-amish-after-1650",
+   "field": "sourcing",
+   "sentence": "From the 1700s, only the Ephrata chronicle tells of them, and it speaks from outside.",
+   "file": "cic/texts/lamech-agrippa_chronicon-ephratense_hark1889.txt",
+   "lines": "9608-9611",
+   "quote": "the  Mennonites  in Pennsylvania  agreed  that  their  great  Book  of  Martyrs,  which was  printed  in  the  Dutch  language,  should  be  translated and  printed  in  German.",
+   "grade": "Documented",
+   "note": "The Chronicon Ephratense (1786) was written by and for the Ephrata community, not the Mennonites."
+  },
+  {
+   "entry": "mennonites-and-amish-after-1650",
+   "field": "floorNote",
+   "sentence": "Their Dordrecht Confession says that the Word became \"flesh and man\", born of the Virgin Mary.",
+   "file": "cic/texts/dordrecht-confession_ministers-manual_elkhart1890.txt",
+   "lines": "335-337",
+   "quote": "so  that  the word  itself  thus  became  flesh  and  man;  and  that he  was  conceived  by  the  Virgin  Mary",
+   "grade": "Documented"
+  },
+  {
+   "entry": "mennonites-and-amish-after-1650",
+   "field": "relationsSummary",
+   "sentence": "These churches were heirs of the Swiss and Dutch Anabaptists.",
+   "file": "cic/texts/van-braght_martyrs-mirror_sohm1886.txt",
+   "lines": "78-80",
+   "quote": "they are especially precious to us, as Mennonites, because through these people it pleased God to hand down to us the living exemplification of the pecu- liar tenets and doctrines which we hold and practice at the present day.",
+   "grade": "Documented"
+  },
+  {
+   "entry": "mennonites-and-amish-after-1650",
+   "field": "relationsSummary",
+   "sentence": "These churches were heirs of the Swiss and Dutch Anabaptists.",
+   "file": "cic/texts/ausbund_etliche-schoene-christliche-lieder-deu_baer1856.txt",
+   "lines": "63",
+   "quote": "von den Schweizer-Brüdern und von andern",
+   "grade": "Documented",
+   "note": "The Swiss Brethren hymnal reprinted in Pennsylvania (title page)."
+  },
+  {
+   "entry": "mennonites-and-amish-after-1650",
+   "field": "relationsSummary",
+   "sentence": "The Mennonites of Pennsylvania asked the Ephrata Brethren to print their book of martyrs in German.",
+   "file": "cic/texts/lamech-agrippa_chronicon-ephratense_hark1889.txt",
+   "lines": "9608-9611",
+   "quote": "the  Mennonites  in Pennsylvania  agreed  that  their  great  Book  of  Martyrs,  which was  printed  in  the  Dutch  language,  should  be  translated and  printed  in  German.",
+   "grade": "Documented"
+  },
+  {
+   "entry": "mennonites-and-amish-after-1650",
+   "field": "relationsSummary",
+   "sentence": "A church manual of 1890 tells of Amish churches too.",
+   "file": "cic/texts/dordrecht-confession_ministers-manual_elkhart1890.txt",
+   "lines": "2409-2410",
+   "quote": "There  are  a  number  of  congregations,  especially among  the  Amish  and  Russian  Mennonites,",
+   "grade": "Documented"
+  },
+  {
+   "entry": "mennonites-and-amish-after-1650",
+   "field": "why",
+   "sentence": "In 1660 Thieleman van Braght of Dordrecht gathered their martyrs into one great book, the Martyrs Mirror.",
+   "file": "cic/texts/van-braght_martyrs-mirror_sohm1886.txt",
+   "lines": "49",
+   "quote": "Thieleman J. van Braght",
+   "grade": "Documented",
+   "note": "Title page (lines 38-51): to the year 1660, compiled by van Braght; his prefaces are signed \"Dort\", for example line 578."
+  },
+  {
+   "entry": "mennonites-and-amish-after-1650",
+   "field": "why",
+   "sentence": "He longed to be like \"my slain fellow brethren and sisters\".",
+   "file": "cic/texts/van-braght_martyrs-mirror_sohm1886.txt",
+   "lines": "564-566",
+   "quote": "so that I may become like unto Thy dearest friends, my slain fellow brethren and sisters,",
+   "grade": "Documented"
+  },
+  {
+   "entry": "mennonites-and-amish-after-1650",
+   "field": "why",
+   "sentence": "In Pennsylvania the Ephrata Brethren printed it in German ...",
+   "file": "cic/texts/lamech-agrippa_chronicon-ephratense_hark1889.txt",
+   "lines": "9608-9611",
+   "quote": "the  Mennonites  in Pennsylvania  agreed  that  their  great  Book  of  Martyrs,  which was  printed  in  the  Dutch  language,  should  be  translated and  printed  in  German.",
+   "grade": "Documented",
+   "note": "Lines 9775-9787: the Brethren printed it, 1300 copies."
+  },
+  {
+   "entry": "mennonites-and-amish-after-1650",
+   "field": "why",
+   "sentence": "... and in 1886 an English edition came out.",
+   "file": "cic/texts/van-braght_martyrs-mirror_sohm1886.txt",
+   "lines": "68",
+   "quote": "Publisher's Preface to English Edition, 1886",
+   "grade": "Documented",
+   "note": "The 1886 preface's own heading (public domain); not the modern front matter."
+  },
+  {
+   "entry": "mennonites-and-amish-after-1650",
+   "field": "longDescription",
+   "sentence": "Many were called Mennonites, after Menno Simons.",
+   "file": "cic/texts/van-braght_martyrs-mirror_sohm1886.txt",
+   "lines": "52350-52351",
+   "quote": "and practiced, by those called Mennonites,",
+   "grade": "Documented"
+  },
+  {
+   "entry": "mennonites-and-amish-after-1650",
+   "field": "longDescription",
+   "sentence": "Their Dordrecht Confession of 1632 stayed their rule of faith.",
+   "file": "cic/texts/dordrecht-confession_ministers-manual_elkhart1890.txt",
+   "lines": "129-131",
+   "quote": "The  Confession  of  Faith  is  the  same  that  has been  in  use  among  our  people  for  over  two hundred  and  fifty  years.",
+   "grade": "Documented"
+  },
+  {
+   "entry": "mennonites-and-amish-after-1650",
+   "field": "longDescription",
+   "sentence": "It told of those \"Who Baptized Only Upon Confession of Faith\".",
+   "file": "cic/texts/van-braght_martyrs-mirror_sohm1886.txt",
+   "lines": "43",
+   "quote": "Who Baptized Only Upon Confession of Faith,",
+   "grade": "Documented"
+  },
+  {
+   "entry": "mennonites-and-amish-after-1650",
+   "field": "longDescription",
+   "sentence": "In a prayer dated at Dort in 1659 ...",
+   "file": "cic/texts/van-braght_martyrs-mirror_sohm1886.txt",
+   "lines": "578",
+   "quote": "Dort, July the 23rd, 1659.",
+   "grade": "Documented"
+  },
+  {
+   "entry": "mennonites-and-amish-after-1650",
+   "field": "longDescription",
+   "sentence": "In Pennsylvania the Mennonites wanted their great martyr book in German, not Dutch.",
+   "file": "cic/texts/lamech-agrippa_chronicon-ephratense_hark1889.txt",
+   "lines": "9608-9611",
+   "quote": "the  Mennonites  in Pennsylvania  agreed  that  their  great  Book  of  Martyrs,  which was  printed  in  the  Dutch  language,  should  be  translated and  printed  in  German.",
+   "grade": "Documented"
+  },
+  {
+   "entry": "mennonites-and-amish-after-1650",
+   "field": "longDescription",
+   "sentence": "The Ephrata community in Lancaster County did the work.",
+   "file": "cic/texts/lamech-agrippa_chronicon-ephratense_hark1889.txt",
+   "lines": "9611-9613",
+   "quote": "No  one  in  the  whole  country  was considered  better  able  to  do  this  than  the  Brotherhood  in Ephrata,",
+   "grade": "Documented"
+  },
+  {
+   "entry": "mennonites-and-amish-after-1650",
+   "field": "longDescription",
+   "sentence": "The Ephrata community in Lancaster County did the work.",
+   "file": "cic/texts/lamech-agrippa_chronicon-ephratense_hark1889.txt",
+   "lines": "1",
+   "quote": "Title: Chronicon Ephratense: A History of the Community of Seventh Day Baptists at Ephrata, Lancaster County, Penn'a",
+   "grade": "Documented"
+  },
+  {
+   "entry": "mennonites-and-amish-after-1650",
+   "field": "longDescription",
+   "sentence": "Fifteen of its brothers were set to it, and the job took three years.",
+   "file": "cic/texts/lamech-agrippa_chronicon-ephratense_hark1889.txt",
+   "lines": "9775-9776",
+   "quote": "of  the  Book  of  Martyrs  was  taken  in  hand,  to  which  import- ant  work  fifteen  Brethren  were  detailed,",
+   "grade": "Documented"
+  },
+  {
+   "entry": "mennonites-and-amish-after-1650",
+   "field": "longDescription",
+   "sentence": "Fifteen of its brothers were set to it, and the job took three years.",
+   "file": "cic/texts/lamech-agrippa_chronicon-ephratense_hark1889.txt",
+   "lines": "9780",
+   "quote": "Three  years  were  spent  on  this  book,",
+   "grade": "Documented"
+  },
+  {
+   "entry": "mennonites-and-amish-after-1650",
+   "field": "longDescription",
+   "sentence": "The edition ran to 1300 copies.",
+   "file": "cic/texts/lamech-agrippa_chronicon-ephratense_hark1889.txt",
+   "lines": "9786-9787",
+   "quote": "the  edition  consisted of  1300  copies.",
+   "grade": "Documented"
+  },
+  {
+   "entry": "mennonites-and-amish-after-1650",
+   "field": "longDescription",
+   "sentence": "The old hymn book of the Swiss Brethren, the Ausbund, was printed again and again in Pennsylvania. ... A Lancaster printing of 1856 calls itself the seventh in Pennsylvania.",
+   "file": "cic/texts/ausbund_etliche-schoene-christliche-lieder-deu_baer1856.txt",
+   "lines": "77",
+   "quote": "Zum firbentenmal aufgelegt in Pennsylvanien.",
+   "grade": "Documented",
+   "note": "OCR \"firbentenmal\" for \"siebentenmal\"; the header (line 3) reads the title page as \"zum siebentenmal aufgelegt in Pennsylvanien\"."
+  },
+  {
+   "entry": "mennonites-and-amish-after-1650",
+   "field": "longDescription",
+   "sentence": "Its songs, the title says, were written in the prison at Passau.",
+   "file": "cic/texts/ausbund_etliche-schoene-christliche-lieder-deu_baer1856.txt",
+   "lines": "62-65",
+   "quote": "Wie sie in dem Gefängniß zu Bassau i in dem Schloß von den Schweizer-Brüdern und von andern rechtglaubigen Ehriften hin und ber gedichtet worben.",
+   "grade": "Documented"
+  },
+  {
+   "entry": "mennonites-and-amish-after-1650",
+   "field": "longDescription",
+   "sentence": "In 1886 Mennonite publishers brought out the Martyrs Mirror in English.",
+   "file": "cic/texts/van-braght_martyrs-mirror_sohm1886.txt",
+   "lines": "68",
+   "quote": "Publisher's Preface to English Edition, 1886",
+   "grade": "Documented",
+   "note": "Line 94: \"the publishers of this edition, have ... undertaken the publication\"."
+  },
+  {
+   "entry": "mennonites-and-amish-after-1650",
+   "field": "longDescription",
+   "sentence": "English was spreading \"year by year\" among \"our Mennonite people\", its preface says.",
+   "file": "cic/texts/van-braght_martyrs-mirror_sohm1886.txt",
+   "lines": "70",
+   "quote": "As THE English language, year by year, becomes more prevalent among our Mennonite people,",
+   "grade": "Documented"
+  },
+  {
+   "entry": "mennonites-and-amish-after-1650",
+   "field": "longDescription",
+   "sentence": "In 1890 a manual from Elkhart set out the church's forms.",
+   "file": "cic/texts/dordrecht-confession_ministers-manual_elkhart1890.txt",
+   "lines": "1-4",
+   "quote": "Title: Confession of Faith and Minister's Manual: containing the Confession of Faith adopted at Dortrecht in 1632, the shorter catechism, forms for baptism, the Lord's Supper, marriage,",
+   "grade": "Documented"
+  },
+  {
+   "entry": "mennonites-and-amish-after-1650",
+   "field": "longDescription",
+   "sentence": "A minister was chosen by lot.",
+   "file": "cic/texts/dordrecht-confession_ministers-manual_elkhart1890.txt",
+   "lines": "2422",
+   "quote": "A  day  is  then  appointed  to  choose  by  lot  one",
+   "grade": "Documented"
+  },
+  {
+   "entry": "mennonites-and-amish-after-1650",
+   "field": "longDescription",
+   "sentence": "A slip with a verse from Proverbs went into one of several like books.",
+   "file": "cic/texts/dordrecht-confession_ministers-manual_elkhart1890.txt",
+   "lines": "2433-2437",
+   "quote": "the  deacons  take  as many  books,  of  the  same  kind  (as  nearly  alike as  possible),",
+   "grade": "Documented"
+  },
+  {
+   "entry": "mennonites-and-amish-after-1650",
+   "field": "longDescription",
+   "sentence": "A slip with a verse from Proverbs went into one of several like books.",
+   "file": "cic/texts/dordrecht-confession_ministers-manual_elkhart1890.txt",
+   "lines": "2448-2450",
+   "quote": "per  on  which  is  written,  \"The  lot  is  east  into the  lap;  but  the  whole  disposing  thereof  is  of the  Lord.\"  Prov.  16:33,",
+   "grade": "Documented"
+  },
+  {
+   "entry": "mennonites-and-amish-after-1650",
+   "field": "longDescription",
+   "sentence": "The man whose book held it was ordained.",
+   "file": "cic/texts/dordrecht-confession_ministers-manual_elkhart1890.txt",
+   "lines": "2463-2466",
+   "quote": "The  one  in  whose  book  it  is  found  is  con sidered  chosen,",
+   "grade": "Documented"
+  },
+  {
+   "entry": "mennonites-and-amish-after-1650",
+   "field": "longDescription",
+   "sentence": "Some congregations, \"especially among the Amish and Russian Mennonites\", chose by the members' vote instead.",
+   "file": "cic/texts/dordrecht-confession_ministers-manual_elkhart1890.txt",
+   "lines": "2409-2411",
+   "quote": "especially among  the  Amish  and  Russian  Mennonites,  which choose  their  ministers  by  the  voice  of  the  members,",
+   "grade": "Documented"
+  },
+  {
+   "entry": "mennonites-and-amish-after-1650",
+   "field": "voices",
+   "sentence": "The publishers of the English edition of 1886 — Mennonites who called the martyrs \"especially precious to us\"",
+   "file": "cic/texts/van-braght_martyrs-mirror_sohm1886.txt",
+   "lines": "78-79",
+   "quote": "they are especially precious to us, as Mennonites,",
+   "grade": "Documented",
+   "note": "Heading line 68 dates the preface 1886."
+  },
+  {
+   "entry": "mennonites-and-amish-after-1650",
+   "field": "legacy",
+   "sentence": "In 1886 its publishers called the martyrs \"especially precious to us, as Mennonites\".",
+   "file": "cic/texts/van-braght_martyrs-mirror_sohm1886.txt",
+   "lines": "78-79",
+   "quote": "they are especially precious to us, as Mennonites,",
+   "grade": "Documented",
+   "note": "Heading line 68 dates the preface 1886."
+  },
+  {
+   "entry": "mennonites-and-amish-after-1650",
+   "field": "legacy",
+   "sentence": "Through them, they wrote, God handed down what \"we hold and practice at the present day\".",
+   "file": "cic/texts/van-braght_martyrs-mirror_sohm1886.txt",
+   "lines": "79-80",
+   "quote": "it pleased God to hand down to us the living exemplification of the pecu- liar tenets and doctrines which we hold and practice at the present day.",
+   "grade": "Documented"
+  },
+  {
+   "entry": "mennonites-and-amish-after-1650",
+   "field": "region",
+   "sentence": "Netherlands, Pennsylvania, Indiana",
+   "file": null,
+   "lines": null,
+   "quote": null,
+   "grade": "n/a",
+   "note": "IDs copied: Netherlands from dutch-further-reformation-and-refuge-culture; Pennsylvania from radical-pietism-and-the-brethren-dunkers-ephrata. No census entry carries Indiana, so it is named in region only."
+  },
+  {
+   "entry": "melkite-greek-catholic-church-after-1815",
+   "field": "statusWord",
+   "sentence": "Researched — deferred, richer window later / Proposed for a future survey; not yet reviewed.",
+   "file": null,
+   "lines": null,
+   "quote": null,
+   "grade": "n/a",
+   "note": "Copied from melkite-greek-catholic-church, the entry this one continues; its dossier finds the same kind of shelf (institutional, no Arabic voice)."
+  },
+  {
+   "entry": "melkite-greek-catholic-church-after-1815",
+   "field": "dates",
+   "sentence": "1815-1911",
+   "file": "cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-46-synodi-melchitarum-lat_petit1911.txt",
+   "lines": "90268",
+   "quote": "supremum diem obiisset die 3/15 decembris 1815,",
+   "grade": "Documented",
+   "note": "Start: the death of Macarius Tauil, 15 December 1815, which opens the first synod of the period. End: Charon's tome III (1911), which names the patriarch of his day; the Library holds nothing later (P1, P3)."
+  },
+  {
+   "entry": "melkite-greek-catholic-church-after-1815",
+   "field": "dates",
+   "sentence": "1815-1911",
+   "file": "cic/texts/charon_histoire-des-patriarcats-melkites-t2-t3-fra_1911.txt",
+   "lines": "5721",
+   "quote": "Le patriarche actuel, Mer Cyrille VIIT Géhà, est d’origine",
+   "grade": "Documented"
+  },
+  {
+   "entry": "melkite-greek-catholic-church-after-1815",
+   "field": "sourcing",
+   "sentence": "The church's synods from 1816 to 1902 survive in Latin and Italian, printed in 1911.",
+   "file": "cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-46-synodi-melchitarum-lat_petit1911.txt",
+   "lines": "90254-90258",
+   "quote": "HABITA IN MONASTERIO SANCTI ANTONII IN MONTE LIBANO",
+   "grade": "Documented",
+   "note": "Header line 1: \"Synodi Melchitarum, 1716-1902\"; the last pieces are the 1902 election (lines 114315-114334)."
+  },
+  {
+   "entry": "melkite-greek-catholic-church-after-1815",
+   "field": "sourcing",
+   "sentence": "A French history of 1910 and 1911 covers the rule of Maximos Mazloum and the church's later life.",
+   "file": "cic/texts/charon_histoire-des-patriarcats-melkites-t2-t3-fra_1911.txt",
+   "lines": "1",
+   "quote": "Tome II, La periode moderne, premiere partie (1833-1855); Tome III, Les institutions:",
+   "grade": "Documented"
+  },
+  {
+   "entry": "melkite-greek-catholic-church-after-1815",
+   "field": "sourcing",
+   "sentence": "No Arabic sermon, letter or chronicle of the period is yet in the Library.",
+   "file": null,
+   "lines": null,
+   "quote": null,
+   "grade": "n/a",
+   "note": "Build/worlds/_cross-world/dossiers/melkite-greek-catholic-church_Source_Readiness_Dossier.md, sections 3-4: Mazloum's own Arabic history (1907) and Thomas Mazloum's documents (1926) are leads, not vendored."
+  },
+  {
+   "entry": "melkite-greek-catholic-church-after-1815",
+   "field": "relationsSummary",
+   "sentence": "This is the church of the 1724 split at Antioch, carried on by the same line of patriarchs.",
+   "file": "cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-46-synodi-melchitarum-lat_petit1911.txt",
+   "lines": "90663-90670",
+   "quote": "episcopi nationis graeco- melchitarum, qui ad quatuor tantum supererant, cum post septem fere menses die 28 iunii anni 1816 in monasterium Saneti Antonii convenissent,",
+   "grade": "Documented"
+  },
+  {
+   "entry": "melkite-greek-catholic-church-after-1815",
+   "field": "relationsSummary",
+   "sentence": "In 1831 Rome's mission office called its bishops together in synod.",
+   "file": "cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-46-synodi-melchitarum-lat_petit1911.txt",
+   "lines": "90782-90785",
+   "quote": "sacra congregatio de Propaganda fide, datis ad Aloisium Gandolfi dele- gatum apostolicum litteris, iusserat totius provinciae antistites in unum convenire,",
+   "grade": "Documented"
+  },
+  {
+   "entry": "melkite-greek-catholic-church-after-1815",
+   "field": "relationsSummary",
+   "sentence": "In 1848 a decree of the sultan gave it a civil standing of its own.",
+   "file": "cic/texts/charon_histoire-des-patriarcats-melkites-t2-t3-fra_1911.txt",
+   "lines": "10365-10368",
+   "quote": "le nouveau bérat qui lui fut délivré est daté de la fin de mohar- ram 1264 (7 janvier 1848):",
+   "grade": "Documented"
+  },
+  {
+   "entry": "melkite-greek-catholic-church-after-1815",
+   "field": "why",
+   "sentence": "Maximos III Mazloum, patriarch from 1833 to 1855 ...",
+   "file": "cic/texts/charon_histoire-des-patriarcats-melkites-t2-t3-fra_1911.txt",
+   "lines": "35242",
+   "quote": "Après l’élection de Maxime III Mazloüm, en 1833,",
+   "grade": "Documented"
+  },
+  {
+   "entry": "melkite-greek-catholic-church-after-1815",
+   "field": "why",
+   "sentence": "From then on, Cyril Charon wrote in 1910, the Melkite Catholics were fully free in civil matters.",
+   "file": "cic/texts/charon_histoire-des-patriarcats-melkites-t2-t3-fra_1911.txt",
+   "lines": "10662-10663",
+   "quote": "depuis 1848, les catholiques melkites étaient complète- ment émancipés au civil et ils le sont restés depuis.",
+   "grade": "Documented",
+   "note": "Tome II is dated 1910 (header line 4)."
+  },
+  {
+   "entry": "melkite-greek-catholic-church-after-1815",
+   "field": "longDescription",
+   "sentence": "Patriarch Macarius Tauil died on 15 December 1815.",
+   "file": "cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-46-synodi-melchitarum-lat_petit1911.txt",
+   "lines": "90261-90268",
+   "quote": "Cum Macarius Tauil patriarcha Antiochenus",
+   "grade": "Documented"
+  },
+  {
+   "entry": "melkite-greek-catholic-church-after-1815",
+   "field": "longDescription",
+   "sentence": "Only four bishops were left. In June 1816 they met at the monastery of Saint Anthony on Mount Lebanon.",
+   "file": "cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-46-synodi-melchitarum-lat_petit1911.txt",
+   "lines": "90665-90668",
+   "quote": "qui ad quatuor tantum supererant, cum post septem fere menses die 28 iunii anni 1816 in monasterium Saneti Antonii convenissent,",
+   "grade": "Documented"
+  },
+  {
+   "entry": "melkite-greek-catholic-church-after-1815",
+   "field": "longDescription",
+   "sentence": "There they chose the priest Moses Qattan as patriarch.",
+   "file": "cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-46-synodi-melchitarum-lat_petit1911.txt",
+   "lines": "90670",
+   "quote": "patriareham elegerunt presbyterum Moysen Chattan.",
+   "grade": "Documented"
+  },
+  {
+   "entry": "melkite-greek-catholic-church-after-1815",
+   "field": "longDescription",
+   "sentence": "Under Qattan the church's affairs went from bad to worse.",
+   "file": "cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-46-synodi-melchitarum-lat_petit1911.txt",
+   "lines": "90780-90782",
+   "quote": "Antiocheni in peius abirent ob pravam Moisis Cattan patriarchae gubernationem,",
+   "grade": "Documented"
+  },
+  {
+   "entry": "melkite-greek-catholic-church-after-1815",
+   "field": "longDescription",
+   "sentence": "They met late in 1831 at the Annunciation monastery at Zuq Mikhail.",
+   "file": "cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-46-synodi-melchitarum-lat_petit1911.txt",
+   "lines": "90771-90775",
+   "quote": "SYNODUS MELCHITARUM IN MONASTERIO ANNUNTIATIONIS APUD ZUCH MICHAIL IN MONTE LIBANO CELEBRATA",
+   "grade": "Documented"
+  },
+  {
+   "entry": "melkite-greek-catholic-church-after-1815",
+   "field": "longDescription",
+   "sentence": "He wrote to the pope at once to ask for confirmation.",
+   "file": "cic/texts/charon_histoire-des-patriarcats-melkites-t2-t3-fra_1911.txt",
+   "lines": "2788-2790",
+   "quote": "lettres que l’élu écrivit quelques jours après tant au Saint-Père qu'au préfet de la Propagande, pour demander sa confirmation",
+   "grade": "Documented"
+  },
+  {
+   "entry": "melkite-greek-catholic-church-after-1815",
+   "field": "longDescription",
+   "sentence": "In 1835 he held a national council at Ain Traz.",
+   "file": "cic/texts/charon_histoire-des-patriarcats-melkites-t2-t3-fra_1911.txt",
+   "lines": "1068",
+   "quote": "de ‘Aîn-Träz, et comment il y réunit un Concile national pour",
+   "grade": "Documented",
+   "note": "The year: table of contents, line 175, \"Concile de ‘Aîn-Trâz (1835).\""
+  },
+  {
+   "entry": "melkite-greek-catholic-church-after-1815",
+   "field": "longDescription",
+   "sentence": "From 1843 to 1848 he worked in Constantinople.",
+   "file": "cic/texts/charon_histoire-des-patriarcats-melkites-t2-t3-fra_1911.txt",
+   "lines": "9779",
+   "quote": "VII. — Mazcoum À CoNSTANTINOPLE (1843-1848): ÉMANCIPA-",
+   "grade": "Documented"
+  },
+  {
+   "entry": "melkite-greek-catholic-church-after-1815",
+   "field": "longDescription",
+   "sentence": "There he won the sultan's decree of 7 January 1848. It gave the Melkite Catholics full civil standing of their own.",
+   "file": "cic/texts/charon_histoire-des-patriarcats-melkites-t2-t3-fra_1911.txt",
+   "lines": "10366-10368",
+   "quote": "ram 1264 (7 janvier 1848): il est à peu près identique à celui de l’année 1253 (1837). Cependant, comme ce document consacre l’émancipation civile définitive des Melkites catholiques,",
+   "grade": "Documented"
+  },
+  {
+   "entry": "melkite-greek-catholic-church-after-1815",
+   "field": "longDescription",
+   "sentence": "In 1849 Maximos presided over a council of his church at Jerusalem.",
+   "file": "cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-46-synodi-melchitarum-lat_petit1911.txt",
+   "lines": "96616-96621",
+   "quote": "CONCILIUM PATRIARCHALE HIEROSOLYMITANUM A MELCHITIS CELEBRATUM PRAESIDENTE IN EO MAXIMO MAZLUM PATRIARCHA 1849 maii 12/24-iunii 15/27.",
+   "grade": "Documented"
+  },
+  {
+   "entry": "melkite-greek-catholic-church-after-1815",
+   "field": "longDescription",
+   "sentence": "He died at Alexandria in August 1855, and the bishops chose Clement Bahus.",
+   "file": "cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-46-synodi-melchitarum-lat_petit1911.txt",
+   "lines": "110630-110640",
+   "quote": "tum die 22 augusii 1855 in urbe Alexandria,",
+   "grade": "Documented"
+  },
+  {
+   "entry": "melkite-greek-catholic-church-after-1815",
+   "field": "longDescription",
+   "sentence": "He died at Alexandria in August 1855, and the bishops chose Clement Bahus.",
+   "file": "cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-46-synodi-melchitarum-lat_petit1911.txt",
+   "lines": "110639-110640",
+   "quote": "in patriarcham elegerunt Clemen- tem Bahus episcopum Ptolemaidensem,",
+   "grade": "Documented"
+  },
+  {
+   "entry": "melkite-greek-catholic-church-after-1815",
+   "field": "longDescription",
+   "sentence": "In 1858 Clement asked all his people to keep the Gregorian calendar.",
+   "file": "cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-46-synodi-melchitarum-lat_petit1911.txt",
+   "lines": "111766-111769",
+   "quote": "Olemens Bahus patriarcha cum per decretum Damasci publicatum die 6 ianuarii 1858 kalendarii gregoriani observantiam universis suis subditis pro- posuisset,",
+   "grade": "Documented"
+  },
+  {
+   "entry": "melkite-greek-catholic-church-after-1815",
+   "field": "longDescription",
+   "sentence": "Four of his bishops rose against him. In 1859 they met at Zahle and declared him stripped of all authority.",
+   "file": "cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-46-synodi-melchitarum-lat_petit1911.txt",
+   "lines": "111779-111780",
+   "quote": "civitate Zahlensi conciliabulo legitimum patriarcham quavis iurisdietione destitutum declararent.",
+   "grade": "Documented",
+   "note": "Date: line 111763, \"1859 augusti. 12/24.\"; the four bishops are named at lines 111771-111774."
+  },
+  {
+   "entry": "melkite-greek-catholic-church-after-1815",
+   "field": "longDescription",
+   "sentence": "Peter Geraigiri was elected at the monastery of Sarba in 1898.",
+   "file": "cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-46-synodi-melchitarum-lat_petit1911.txt",
+   "lines": "113504-113511",
+   "quote": "IN MONASTERIO SARBA NUNCUPATO CELEBRATA",
+   "grade": "Documented",
+   "note": "Line 113508: \"1898 februarii 10-24.\"; line 113511 names Petrus Geraigiri."
+  },
+  {
+   "entry": "melkite-greek-catholic-church-after-1815",
+   "field": "longDescription",
+   "sentence": "After his death, Cyril VIII Geha was elected on 27 June 1902. Rome confirmed him a year later ...",
+   "file": "cic/texts/charon_histoire-des-patriarcats-melkites-t2-t3-fra_1911.txt",
+   "lines": "36869-36871",
+   "quote": "Pierre IV Géraîgirÿ; élu patriarche d’Antioche le 27 juin 1902; confirmé par le St-Siège le 22 juin 1903.",
+   "grade": "Documented"
+  },
+  {
+   "entry": "melkite-greek-catholic-church-after-1815",
+   "field": "longDescription",
+   "sentence": "... and he still led the church in 1911.",
+   "file": "cic/texts/charon_histoire-des-patriarcats-melkites-t2-t3-fra_1911.txt",
+   "lines": "5721",
+   "quote": "Le patriarche actuel, Mer Cyrille VIIT Géhà,",
+   "grade": "Documented"
+  },
+  {
+   "entry": "melkite-greek-catholic-church-after-1815",
+   "field": "voices",
+   "sentence": "Agapios Riachi — metropolitan of Beirut, one of four bishops whose 1859 letter from Zahle ... survives in the French they sent to Rome",
+   "file": "cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-46-synodi-melchitarum-lat_petit1911.txt",
+   "lines": "111784-111788",
+   "quote": "in ea ipsa translatione gallica quam ipsi Romam deferri curarunt.",
+   "grade": "Documented",
+   "note": "Line 111771: \"imprimis quatuor episcoporum, scilicet Agapii Riak\" (OCR) \"Beritensis\"."
+  },
+  {
+   "entry": "melkite-greek-catholic-church-after-1815",
+   "field": "legacy",
+   "sentence": "Through these years the bishops chose each patriarch in synod, and Rome then confirmed him.",
+   "file": "cic/texts/charon_histoire-des-patriarcats-melkites-t2-t3-fra_1911.txt",
+   "lines": "36871",
+   "quote": "confirmé par le St-Siège le 22 juin 1903.",
+   "grade": "Documented"
+  },
+  {
+   "entry": "melkite-greek-catholic-church-after-1815",
+   "field": "region",
+   "sentence": "Damascus, Mount Lebanon, Aleppo",
+   "file": null,
+   "lines": null,
+   "quote": null,
+   "grade": "n/a",
+   "note": "IDs copied: Damascus from melkite-greek-catholic-church; Mount Lebanon from maronite-christianity."
+  },
+  {
+   "entry": "hutterite-brethren",
+   "field": "relationsSummary",
+   "sentence": "Habsburg rulers hunted them.",
+   "file": "cic/texts/hutterite-brethren_geschicht-buch-deu_wolkan1923.txt",
+   "lines": "10629",
+   "quote": "Knebel ins Maul und führten ihn gen Innsbruck zu des Königs Ferdi—",
+   "grade": "Documented",
+   "note": "King Ferdinand (Hutter, 1535) and the emperor Ferdinand (Moravia, 1622; row for the 1622 sentence) were of the house of Habsburg; that name is the standard identification, not in the quote."
+  },
+  {
+   "entry": "hutterite-brethren",
+   "field": "why",
+   "sentence": "In 1528 a band of Anabaptists left Nikolsburg in Moravia.",
+   "file": "cic/texts/hutterite-brethren_geschicht-buch-deu_wolkan1923.txt",
+   "lines": "356-357",
+   "quote": "Jakob Widman und die Seinen, deren bei 200 waren ohn die Kinder, gingen aus zu Nikolsburg, von den Spittelmairschen oder Schwertlern.",
+   "grade": "Documented"
+  },
+  {
+   "entry": "hutterite-brethren",
+   "field": "why",
+   "sentence": "Its own chronicle tells the story from the inside.",
+   "file": "cic/texts/hutterite-brethren_geschicht-buch-deu_wolkan1923.txt",
+   "lines": "44636",
+   "quote": "Anno 1665, den 4. Januar, Abends um 6 Uhr, ließ sich wieder ein",
+   "grade": "Documented",
+   "note": "The chronicle is the Brethren's own (header line 2: begun by Kaspar Braitmichel and continued by later Brethren to 1665)."
+  },
+  {
+   "entry": "hutterite-brethren",
+   "field": "teaser",
+   "sentence": "Moravia, Hungary and Transylvania, 1528 to 1785 — Anabaptists who laid their goods on one cloak.",
+   "file": "cic/texts/hutterite-brethren_geschicht-buch-deu_wolkan1923.txt",
+   "lines": "7199-7200",
+   "quote": "gebreit und Jederman hat fein Vermögen dargelegt, mit willigem Gemüt,",
+   "grade": "Documented",
+   "note": "Places and dates as in the dates and region rows."
+  },
+  {
+   "entry": "hutterite-brethren",
+   "field": "longDescription",
+   "sentence": "In 1528 Jakob Widman led his followers out of Nikolsburg in Moravia.",
+   "file": "cic/texts/hutterite-brethren_geschicht-buch-deu_wolkan1923.txt",
+   "lines": "356-357",
+   "quote": "Jakob Widman und die Seinen, deren bei 200 waren ohn die Kinder, gingen aus zu Nikolsburg, von den Spittelmairschen oder Schwertlern.",
+   "grade": "Documented"
+  },
+  {
+   "entry": "hutterite-brethren",
+   "field": "longDescription",
+   "sentence": "They were some two hundred people, not counting the children.",
+   "file": "cic/texts/hutterite-brethren_geschicht-buch-deu_wolkan1923.txt",
+   "lines": "356-357",
+   "quote": "Jakob Widman und die Seinen, deren bei 200 waren ohn die Kinder, gingen aus zu Nikolsburg, von den Spittelmairschen oder Schwertlern.",
+   "grade": "Documented"
+  },
+  {
+   "entry": "hutterite-brethren",
+   "field": "longDescription",
+   "sentence": "Everyone laid down their goods on it, freely and unforced.",
+   "file": "cic/texts/hutterite-brethren_geschicht-buch-deu_wolkan1923.txt",
+   "lines": "7199-7200",
+   "quote": "gebreit und Jederman hat fein Vermögen dargelegt, mit willigem Gemüt,",
+   "grade": "Documented"
+  },
+  {
+   "entry": "hutterite-brethren",
+   "field": "longDescription",
+   "sentence": "The communities spread across Moravia.",
+   "file": "cic/texts/hutterite-brethren_geschicht-buch-deu_wolkan1923.txt",
+   "lines": "38770-38771",
+   "quote": "in den 24 Haushaben, so man dieser Zeit in Mähren bewohnt, dahinten, viel Getreid und Wein,",
+   "grade": "Documented",
+   "note": "By 1622 they held 24 households in Moravia; the chronicle's year entries name many places there."
+  },
+  {
+   "entry": "hutterite-brethren",
+   "field": "legacy",
+   "sentence": "The Brethren never let their chronicle go.",
+   "file": "cic/texts/hutterite-brethren_geschichtbuch_wolkan1923-deu.txt",
+   "lines": "502-503",
+   "quote": "befindet  sich  noch  heute  im  Besitze  der  1874  aus  Rußland  nach Amerika  ausgewanderten  Brüder,",
+   "grade": "Documented",
+   "note": "Wolkan's preface, 1923."
+  },
+  {
+   "entry": "hutterite-brethren",
+   "field": "sourcing",
+   "sentence": "Rich in inside voice.",
+   "file": null,
+   "lines": null,
+   "quote": null,
+   "grade": "n/a",
+   "note": "A rating, not a fact: the Brethren's own chronicle (Wolkan 1923) and Beck's edition of their records (1883) are both on the shelf."
+  },
+  {
+   "entry": "hutterite-brethren",
+   "field": "sourcing",
+   "sentence": "It is printed in Wolkan's edition of 1923.",
+   "file": "cic/texts/hutterite-brethren_geschicht-buch-deu_wolkan1923.txt",
+   "lines": "49",
+   "quote": "Prof. Dr. Rudolf Wolkan",
+   "grade": "Documented",
+   "note": "Header line 4: publication date 1923."
+  },
+  {
+   "entry": "hutterite-brethren",
+   "field": "floorNote",
+   "sentence": "No question",
+   "file": null,
+   "lines": null,
+   "quote": null,
+   "grade": "n/a",
+   "note": "Floor judgment, following the-anabaptist-movements (its mainstream held the historic creeds' teaching about God and Christ); the Hutterites came from that mainstream, not from the anti-Trinitarian groups. Not checked against Riedemann's garbled scan."
+  },
+  {
+   "entry": "mennonites-and-amish-after-1650",
+   "field": "why",
+   "sentence": "After 1650 the heirs of the Anabaptists became settled churches.",
+   "file": "cic/texts/van-braght_martyrs-mirror_sohm1886.txt",
+   "lines": "52350-52351",
+   "quote": "and practiced, by those called Mennonites,",
+   "grade": "Documented"
+  },
+  {
+   "entry": "mennonites-and-amish-after-1650",
+   "field": "why",
+   "sentence": "The book crossed the sea with his people.",
+   "file": "cic/texts/lamech-agrippa_chronicon-ephratense_hark1889.txt",
+   "lines": "9608-9611",
+   "quote": "the  Mennonites  in Pennsylvania  agreed  that  their  great  Book  of  Martyrs,  which was  printed  in  the  Dutch  language,  should  be  translated and  printed  in  German.",
+   "grade": "Documented",
+   "note": "Lines 9775-9787: the Brethren printed it, 1300 copies."
+  },
+  {
+   "entry": "mennonites-and-amish-after-1650",
+   "field": "teaser",
+   "sentence": "The Netherlands, Pennsylvania and Indiana, 1650 to 1890 — heirs of the Anabaptists.",
+   "file": "cic/texts/van-braght_martyrs-mirror_sohm1886.txt",
+   "lines": "78-80",
+   "quote": "they are especially precious to us, as Mennonites, because through these people it pleased God to hand down to us the living exemplification of the pecu- liar tenets and doctrines which we hold and practice at the present day.",
+   "grade": "Documented",
+   "note": "Places and dates as in the dates and region rows."
+  },
+  {
+   "entry": "mennonites-and-amish-after-1650",
+   "field": "teaser",
+   "sentence": "They carried a book of their martyrs across the sea and kept printing it.",
+   "file": "cic/texts/lamech-agrippa_chronicon-ephratense_hark1889.txt",
+   "lines": "9608-9611",
+   "quote": "the  Mennonites  in Pennsylvania  agreed  that  their  great  Book  of  Martyrs,  which was  printed  in  the  Dutch  language,  should  be  translated and  printed  in  German.",
+   "grade": "Documented",
+   "note": "Later printings: the Ephrata German edition and the English edition of 1886 (rows for why)."
+  },
+  {
+   "entry": "mennonites-and-amish-after-1650",
+   "field": "longDescription",
+   "sentence": "After 1650 the heirs of the Swiss and Dutch Anabaptists lived on as settled churches.",
+   "file": "cic/texts/van-braght_martyrs-mirror_sohm1886.txt",
+   "lines": "52350-52351",
+   "quote": "and practiced, by those called Mennonites,",
+   "grade": "Documented"
+  },
+  {
+   "entry": "mennonites-and-amish-after-1650",
+   "field": "longDescription",
+   "sentence": "In 1660 Thieleman van Braght of Dordrecht published the Martyrs Mirror.",
+   "file": "cic/texts/van-braght_martyrs-mirror_sohm1886.txt",
+   "lines": "49",
+   "quote": "Thieleman J. van Braght",
+   "grade": "Documented",
+   "note": "Title page (lines 38-51): to the year 1660, compiled by van Braght; his prefaces are signed \"Dort\", for example line 578."
+  },
+  {
+   "entry": "mennonites-and-amish-after-1650",
+   "field": "legacy",
+   "sentence": "The martyr book still speaks for these churches.",
+   "file": "cic/texts/van-braght_martyrs-mirror_sohm1886.txt",
+   "lines": "78-79",
+   "quote": "they are especially precious to us, as Mennonites,",
+   "grade": "Documented",
+   "note": "Heading line 68 dates the preface 1886."
+  },
+  {
+   "entry": "mennonites-and-amish-after-1650",
+   "field": "legacy",
+   "sentence": "The churches live on, but the Library does not yet hold their story after 1890.",
+   "file": null,
+   "lines": null,
+   "quote": null,
+   "grade": "n/a",
+   "note": "Living per livingEvidence; the newest inside text on the shelf is the 1890 manual. The modern reprint front matter of the vendored Martyrs Mirror scan is not used (rights). The gap is on wants."
+  },
+  {
+   "entry": "mennonites-and-amish-after-1650",
+   "field": "sourcing",
+   "sentence": "Thin for this period.",
+   "file": null,
+   "lines": null,
+   "quote": null,
+   "grade": "n/a",
+   "note": "A rating, not a fact: no Mennonite or Amish text written 1650-1850 is on the shelf except a few quoted lines (see wants)."
+  },
+  {
+   "entry": "mennonites-and-amish-after-1650",
+   "field": "sourcing",
+   "sentence": "The shelf holds later printings of older texts.",
+   "file": "cic/texts/van-braght_martyrs-mirror_sohm1886.txt",
+   "lines": "51",
+   "quote": "Translated from the Original Dutch or Holland Language from the Edition of 1660 by",
+   "grade": "Documented",
+   "note": "The Martyrs Mirror (1660) in 1886 English; the Ausbund in 1846 and 1856 printings; the Dordrecht Confession (1632) in the 1890 manual (rows for the next sentences)."
+  },
+  {
+   "entry": "mennonites-and-amish-after-1650",
+   "field": "sourcing",
+   "sentence": "Their prefaces speak for the later church.",
+   "file": "cic/texts/van-braght_martyrs-mirror_sohm1886.txt",
+   "lines": "70",
+   "quote": "As THE English language, year by year, becomes more prevalent among our Mennonite people,",
+   "grade": "Documented"
+  },
+  {
+   "entry": "mennonites-and-amish-after-1650",
+   "field": "floorNote",
+   "sentence": "No question.",
+   "file": "cic/texts/dordrecht-confession_ministers-manual_elkhart1890.txt",
+   "lines": "335-337",
+   "quote": "so  that  the word  itself  thus  became  flesh  and  man;  and  that he  was  conceived  by  the  Virgin  Mary",
+   "grade": "Documented",
+   "note": "Floor judgment rests on the Dordrecht article quoted."
+  },
+  {
+   "entry": "melkite-greek-catholic-church-after-1815",
+   "field": "relationsSummary",
+   "sentence": "It stayed in communion with Rome.",
+   "file": "cic/texts/charon_histoire-des-patriarcats-melkites-t2-t3-fra_1911.txt",
+   "lines": "36869-36871",
+   "quote": "Pierre IV Géraîgirÿ; élu patriarche d’Antioche le 27 juin 1902; confirmé par le St-Siège le 22 juin 1903.",
+   "grade": "Documented",
+   "note": "Rome confirmed each patriarch; this row shows the 1903 confirmation."
+  },
+  {
+   "entry": "melkite-greek-catholic-church-after-1815",
+   "field": "why",
+   "sentence": "In the nineteenth century the Melkite Catholics won a place of their own.",
+   "file": "cic/texts/charon_histoire-des-patriarcats-melkites-t2-t3-fra_1911.txt",
+   "lines": "10366-10368",
+   "quote": "ram 1264 (7 janvier 1848): il est à peu près identique à celui de l’année 1253 (1837). Cependant, comme ce document consacre l’émancipation civile définitive des Melkites catholiques,",
+   "grade": "Documented"
+  },
+  {
+   "entry": "melkite-greek-catholic-church-after-1815",
+   "field": "why",
+   "sentence": "Their bishops met again and again in synod to choose patriarchs.",
+   "file": "cic/texts/charon_histoire-des-patriarcats-melkites-t2-t3-fra_1911.txt",
+   "lines": "36871",
+   "quote": "confirmé par le St-Siège le 22 juin 1903.",
+   "grade": "Documented",
+   "note": "Synods of election on the shelf: 1816 (Saint Anthony), 1833, 1855, 1898 (Sarba), 1902 (Mansi 46)."
+  },
+  {
+   "entry": "melkite-greek-catholic-church-after-1815",
+   "field": "teaser",
+   "sentence": "Damascus and Mount Lebanon, 1815 to 1911 — the Melkite Catholic patriarchs and their synods.",
+   "file": "cic/texts/charon_histoire-des-patriarcats-melkites-t2-t3-fra_1911.txt",
+   "lines": "36871",
+   "quote": "confirmé par le St-Siège le 22 juin 1903.",
+   "grade": "Documented",
+   "note": "Places and dates as in the dates and region rows."
+  },
+  {
+   "entry": "melkite-greek-catholic-church-after-1815",
+   "field": "teaser",
+   "sentence": "In this century the church won a civil standing of its own.",
+   "file": "cic/texts/charon_histoire-des-patriarcats-melkites-t2-t3-fra_1911.txt",
+   "lines": "10366-10368",
+   "quote": "ram 1264 (7 janvier 1848): il est à peu près identique à celui de l’année 1253 (1837). Cependant, comme ce document consacre l’émancipation civile définitive des Melkites catholiques,",
+   "grade": "Documented"
+  },
+  {
+   "entry": "melkite-greek-catholic-church-after-1815",
+   "field": "longDescription",
+   "sentence": "So Rome's mission office, the Propaganda, told its delegate to gather all the bishops.",
+   "file": "cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-46-synodi-melchitarum-lat_petit1911.txt",
+   "lines": "90782-90785",
+   "quote": "sacra congregatio de Propaganda fide, datis ad Aloisium Gandolfi dele- gatum apostolicum litteris, iusserat totius provinciae antistites in unum convenire,",
+   "grade": "Documented"
+  },
+  {
+   "entry": "melkite-greek-catholic-church-after-1815",
+   "field": "longDescription",
+   "sentence": "Maximos III Mazloum was elected patriarch in 1833.",
+   "file": "cic/texts/charon_histoire-des-patriarcats-melkites-t2-t3-fra_1911.txt",
+   "lines": "35242",
+   "quote": "Après l’élection de Maxime III Mazloüm, en 1833,",
+   "grade": "Documented"
+  },
+  {
+   "entry": "melkite-greek-catholic-church-after-1815",
+   "field": "longDescription",
+   "sentence": "The synods went on choosing patriarchs.",
+   "file": "cic/texts/charon_histoire-des-patriarcats-melkites-t2-t3-fra_1911.txt",
+   "lines": "36871",
+   "quote": "confirmé par le St-Siège le 22 juin 1903.",
+   "grade": "Documented"
+  },
+  {
+   "entry": "melkite-greek-catholic-church-after-1815",
+   "field": "legacy",
+   "sentence": "The civil standing won in 1848 lasted.",
+   "file": "cic/texts/charon_histoire-des-patriarcats-melkites-t2-t3-fra_1911.txt",
+   "lines": "10662-10663",
+   "quote": "depuis 1848, les catholiques melkites étaient complète- ment émancipés au civil et ils le sont restés depuis.",
+   "grade": "Documented",
+   "note": "Tome II is dated 1910 (header line 4)."
+  },
+  {
+   "entry": "melkite-greek-catholic-church-after-1815",
+   "field": "legacy",
+   "sentence": "Writing in 1910, Charon says it still held in his day.",
+   "file": "cic/texts/charon_histoire-des-patriarcats-melkites-t2-t3-fra_1911.txt",
+   "lines": "10662-10663",
+   "quote": "depuis 1848, les catholiques melkites étaient complète- ment émancipés au civil et ils le sont restés depuis.",
+   "grade": "Documented",
+   "note": "Tome II is dated 1910 (header line 4)."
+  },
+  {
+   "entry": "melkite-greek-catholic-church-after-1815",
+   "field": "legacy",
+   "sentence": "The church lives on, but the Library does not yet hold its story after 1911.",
+   "file": null,
+   "lines": null,
+   "quote": null,
+   "grade": "n/a",
+   "note": "Living per livingEvidence (Charon names the patriarch of his day); the gap after 1911 is on wants."
+  },
+  {
+   "entry": "melkite-greek-catholic-church-after-1815",
+   "field": "sourcing",
+   "sentence": "Moderate, and mostly the record of its offices and councils.",
+   "file": null,
+   "lines": null,
+   "quote": null,
+   "grade": "n/a",
+   "note": "A rating, not a fact: synods (Mansi 46) and an institutional history (Charon); no Arabic inside voice."
+  },
+  {
+   "entry": "melkite-greek-catholic-church-after-1815",
+   "field": "floorNote",
+   "sentence": "No question",
+   "file": null,
+   "lines": null,
+   "quote": null,
+   "grade": "n/a",
+   "note": "Floor judgment, as on melkite-greek-catholic-church: a church in communion with Rome keeping the Byzantine rite."
+  }
+ ],
+ "neighbor_changes": [
+  {
+   "id": "the-anabaptist-movements",
+   "set": {
+    "continuesAs": "mennonites-and-amish-after-1650",
+    "longDescription": "In January 1525 a handful of men in Zurich baptized one another as adults. They were impatient with how slowly their own city's reform was moving, and they were hunted for it. Anabaptists held that baptism belonged to those who could confess faith for themselves. The church, they said, was a free body of believers, not a whole society. Most of them also held that a Christian could neither swear oaths nor take up the sword. Catholic, Lutheran and Reformed rulers alike saw them as a threat to order. By one early count more than two thousand were put to death, above all in Catholic lands. The survivors regrouped. In Moravia, a band that pooled its goods in 1528 grew into the Hutterite Brethren. In the Low Countries, a former priest named Menno Simons gathered congregations, and their descendants still carry his name."
+   },
+   "reason": "The Hutterites now have their own entry, which tells their communal life. The Anabaptist text keeps one sentence naming where they came from, so the two do not tell the same story twice. continuesAs: the Swiss and Dutch wings carry on as the new Mennonite and Amish entry (era 7 to 8, adjacent); the Hutterites leave by a 'gave rise to' link instead."
+  },
+  {
+   "id": "melkite-greek-catholic-church",
+   "set": {
+    "continuesAs": "melkite-greek-catholic-church-after-1815"
+   },
+   "reason": "It was null only because no Melkite entry after 1815 existed (the Armenian change order of 2026-11-08 cites it as the pattern for an Eastern Catholic strand with no successor). The 1816 synod at Saint Anthony elected the successor of Macarius Tauil (d. 15 December 1815), so the same see and church continue (era 8 to 9, adjacent)."
+  }
+ ],
+ "links": [
+  {
+   "id": "the-anabaptist-movements--hutterite-brethren",
+   "action": "new",
+   "from": "the-anabaptist-movements",
+   "to": "hutterite-brethren",
+   "type": "gave rise to",
+   "confidence": "Documented",
+   "note": "In 1528 Jakob Widman led some two hundred people out of the Anabaptist church at Nikolsburg. They put all their goods together and moved on to Austerlitz. The Hutterite chronicle tells this as the start of the community.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Geschicht-Buch der Hutterischen Brüder (the Hutterite chronicle), ed. Rudolf Wolkan (Standoff Colony, Alberta, 1923)",
+     "file": "cic/texts/hutterite-brethren_geschicht-buch-deu_wolkan1923.txt",
+     "lines": "356-357",
+     "locus": "table of contents, year 1528",
+     "quote": "Jakob Widman und die Seinen, deren bei 200 waren ohn die Kinder, gingen aus zu Nikolsburg, von den Spittelmairschen oder Schwertlern.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Geschicht-Buch der Hutterischen Brüder (the Hutterite chronicle), ed. Rudolf Wolkan (Standoff Colony, Alberta, 1923)",
+     "file": "cic/texts/hutterite-brethren_geschicht-buch-deu_wolkan1923.txt",
+     "lines": "359-360",
+     "locus": "table of contents, year 1528",
+     "quote": "Jakob Widman und die Seinen ordnen Diener der Notdurft und legen das Ihre freiwillig in Gemeinschaft, ziehen gen Austerlitz",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Geschicht-Buch der Hutterischen Brüder (the Hutterite chronicle), ed. Rudolf Wolkan (Standoff Colony, Alberta, 1923)",
+     "file": "cic/texts/hutterite-brethren_geschicht-buch-deu_wolkan1923.txt",
+     "lines": "7159",
+     "locus": "the parting at Nikolsburg",
+     "quote": "Schwertler heißen die zu Nikolsburg behielten das Schwert,",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "hutterite-brethren.relationsSummary, .longDescription; the-anabaptist-movements.longDescription (as changed), .legacy",
+   "wants": [],
+   "drafter_flags": [
+    "The chronicle is the community's own, written later in the century from its records; the departure itself is not disputed."
+   ],
+   "change_reason": "New: the Hutterite Brethren now have their own entry (ruling, item 56)."
+  },
+  {
+   "id": "the-anabaptist-movements--mennonites-and-amish-after-1650",
+   "action": "new",
+   "from": "the-anabaptist-movements",
+   "to": "mennonites-and-amish-after-1650",
+   "type": "continued as",
+   "confidence": "Documented",
+   "note": "The Dutch and Swiss Anabaptist churches carried on after 1650, many of them under the name of Menno Simons. At Dort in 1659 Thieleman van Braght called the martyrs \"my slain fellow brethren and sisters\". A Mennonite manual of 1890 still used the Dordrecht Confession of 1632.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Thieleman J. van Braght, The Bloody Theater or Martyrs Mirror (1660), tr. Joseph F. Sohm (1886)",
+     "file": "cic/texts/van-braght_martyrs-mirror_sohm1886.txt",
+     "lines": "564-566",
+     "locus": "van Braght's dedicatory prayer, dated Dort, 23 July 1659",
+     "quote": "so that I may become like unto Thy dearest friends, my slain fellow brethren and sisters,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Thieleman J. van Braght, The Bloody Theater or Martyrs Mirror (1660), tr. Joseph F. Sohm (1886)",
+     "file": "cic/texts/van-braght_martyrs-mirror_sohm1886.txt",
+     "lines": "52350-52351",
+     "locus": "A.D. 1600, the confession \"believed, taught, and practiced, by those called Mennonites\"",
+     "quote": "and practiced, by those called Mennonites,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Confession of Faith and Minister's Manual (Elkhart, Indiana: Mennonite Publishing Co., 1890)",
+     "file": "cic/texts/dordrecht-confession_ministers-manual_elkhart1890.txt",
+     "lines": "129-131",
+     "locus": "Preface",
+     "quote": "The  Confession  of  Faith  is  the  same  that  has been  in  use  among  our  people  for  over  two hundred  and  fifty  years.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "the-anabaptist-movements.longDescription ('their descendants still carry his name'), .legacy; mennonites-and-amish-after-1650.relationsSummary, .longDescription",
+   "wants": [
+    "A Swiss Brethren or Amish text of 1650-1720 (for example the letters of the Amish division of the 1690s), so the Swiss line is documented from inside, not only through the reprinted Ausbund."
+   ],
+   "drafter_flags": [
+    "The quotes document the Dutch Mennonite line directly; the Swiss line rests on the Ausbund's Pennsylvania reprints and the 1890 manual's mention of Amish congregations.",
+    "This link also sets the-anabaptist-movements.continuesAs (era 7 to era 8, adjacent). The Hutterites leave by 'gave rise to', not 'continued as'."
+   ],
+   "change_reason": "New: the successor entry for Mennonites and Amish after 1650 (ruling, item 8)."
+  },
+  {
+   "id": "melkite-greek-catholic-church--melkite-greek-catholic-church-after-1815",
+   "action": "new",
+   "from": "melkite-greek-catholic-church",
+   "to": "melkite-greek-catholic-church-after-1815",
+   "type": "continued as",
+   "confidence": "Documented",
+   "note": "Patriarch Macarius Tauil died on 15 December 1815. In June 1816 the four bishops left met at the monastery of Saint Anthony on Mount Lebanon and chose Moses Qattan to succeed him. The same line of patriarchs ran on.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Mansi, Sacrorum conciliorum collectio, tome 46: Synodi Melchitarum 1716-1902, ed. Martin and Petit (Paris, 1911)",
+     "file": "cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-46-synodi-melchitarum-lat_petit1911.txt",
+     "lines": "90261-90268",
+     "locus": "Synod at Saint Anthony, Mount Lebanon, 28 June / 10 July 1816, preface",
+     "quote": "supremum diem obiisset die 3/15 decembris 1815,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Mansi, Sacrorum conciliorum collectio, tome 46: Synodi Melchitarum 1716-1902, ed. Martin and Petit (Paris, 1911)",
+     "file": "cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-46-synodi-melchitarum-lat_petit1911.txt",
+     "lines": "90665-90670",
+     "locus": "Synod at Saint Anthony, 1816, papal letter",
+     "quote": "qui ad quatuor tantum supererant, cum post septem fere menses die 28 iunii anni 1816 in monasterium Saneti Antonii convenissent, communi eonsensu, canonicis servatis legibus, novum patriareham elegerunt presbyterum Moysen Chattan.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "melkite-greek-catholic-church-after-1815.relationsSummary, .longDescription; melkite-greek-catholic-church.legacy ('Both churches are alive')",
+   "wants": [],
+   "drafter_flags": [
+    "Sets melkite-greek-catholic-church.continuesAs (era 8 to era 9, adjacent)."
+   ],
+   "change_reason": "New: the successor entry for the Melkite Greek Catholic Church after 1815 (ruling, item 9)."
+  },
+  {
+   "id": "mennonites-and-amish-after-1650--radical-pietism-and-the-brethren-dunkers-ephrata",
+   "action": "new",
+   "from": "mennonites-and-amish-after-1650",
+   "to": "radical-pietism-and-the-brethren-dunkers-ephrata",
+   "type": "in contact with",
+   "confidence": "Documented",
+   "note": "The Mennonites of Pennsylvania agreed that the Ephrata Brethren should put their Dutch martyr book into German and print it. The Brethren spent three years on it and printed 1300 copies. A council with the Mennonites set the price.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Lamech and Agrippa, Chronicon Ephratense (Ephrata, 1786), tr. J. Max Hark (Lancaster, 1889)",
+     "file": "cic/texts/lamech-agrippa_chronicon-ephratense_hark1889.txt",
+     "lines": "9608-9611",
+     "locus": "the Book of Martyrs printed for the Mennonites",
+     "quote": "the  Mennonites  in Pennsylvania  agreed  that  their  great  Book  of  Martyrs,  which was  printed  in  the  Dutch  language,  should  be  translated and  printed  in  German.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Lamech and Agrippa, Chronicon Ephratense (Ephrata, 1786), tr. J. Max Hark (Lancaster, 1889)",
+     "file": "cic/texts/lamech-agrippa_chronicon-ephratense_hark1889.txt",
+     "lines": "9786-9788",
+     "locus": "the printing of the Book of Martyrs",
+     "quote": "the  edition  consisted of  1300  copies.  At  a  council  with  the  Mennonites,  the  price of  one  copy  was  fixed  at  twenty  shillings,",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "mennonites-and-amish-after-1650.relationsSummary, .longDescription",
+   "wants": [],
+   "drafter_flags": [
+    "Judged minor: a contract for printing, no institutional act (step 4b)."
+   ],
+   "change_reason": "New: the Ephrata printing of the Martyrs Mirror, named in the new entry's text."
+  },
+  {
+   "id": "catholic-church-long-nineteenth-century--melkite-greek-catholic-church-after-1815",
+   "action": "new",
+   "from": "catholic-church-long-nineteenth-century",
+   "to": "melkite-greek-catholic-church-after-1815",
+   "type": "in contact with",
+   "confidence": "Documented",
+   "note": "In 1831 Rome told its envoy, Aloisio Gandolfi, to call all the Melkite bishops to a synod. They met that year at Zuq Mikhail, on Mount Lebanon. In 1903 Rome confirmed the patriarch elected in 1902.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Mansi, Sacrorum conciliorum collectio, tome 46: Synodi Melchitarum 1716-1902, ed. Martin and Petit (Paris, 1911)",
+     "file": "cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-46-synodi-melchitarum-lat_petit1911.txt",
+     "lines": "90782-90785",
+     "locus": "Synod of Zuq Mikhail, 1831, preface",
+     "quote": "sacra congregatio de Propaganda fide, datis ad Aloisium Gandolfi dele- gatum apostolicum litteris, iusserat totius provinciae antistites in unum convenire,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Mansi, Sacrorum conciliorum collectio, tome 46: Synodi Melchitarum 1716-1902, ed. Martin and Petit (Paris, 1911)",
+     "file": "cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-46-synodi-melchitarum-lat_petit1911.txt",
+     "lines": "90771-90775",
+     "locus": "Synod of Zuq Mikhail, 25 November / 7 December 1831",
+     "quote": "APUD ZUCH MICHAIL IN MONTE LIBANO CELEBRATA",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Cyrille Charon, Histoire des patriarcats melkites, tomes II-III (Rome, 1910-1911)",
+     "file": "cic/texts/charon_histoire-des-patriarcats-melkites-t2-t3-fra_1911.txt",
+     "lines": "36869-36871",
+     "locus": "tome III, hierarchy: Cyril VIII Geha",
+     "quote": "élu patriarche d’Antioche le 27 juin 1902; confirmé par le St-Siège le 22 juin 1903.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "melkite-greek-catholic-church-after-1815.relationsSummary, .longDescription, .legacy",
+   "wants": [],
+   "drafter_flags": [
+    "Judged minor: Rome called a synod and confirmed an election; no condemnation, deposition, split or changed rule (step 4b). Communion with Rome is shown as 'in contact with', as on the era 8 Melkite link to the Catholic Church."
+   ],
+   "change_reason": "New: Rome's part in the Melkite synods, named in the new entry's text."
+  }
+ ],
+ "retire_links": [],
+ "wants": [
+  "Mennonites and Amish, source pass (ruling, item 8): Mennonite and Amish texts written 1650-1850, for example the Skippack ministers' letters of 1742 and 1745 in their own words, the documents of the Amish division of the 1690s (Jakob Ammann's letters), and an Amish or Mennonite church order or hymnal of the 1700s. Today the shelf has only later printings of older texts.",
+  "Mennonites: a public-domain printing of the 1748 Ephrata German Martyrs Mirror (Der blutige Schau-Platz) with its own preface, which would speak for the 1740s community directly.",
+  "Mennonites: a pre-1931 printing of the Martyrs Mirror (Sohm, Elkhart 1886, original printing). The vendored scan is a modern Herald Press printing carrying a 1938 copyright notice (see flags).",
+  "Hutterites: the Brethren's later chronicle of the years in Wallachia and Russia (after 1767), and any public-domain record of the 1874 emigration, so the story after 1785 can be told from inside. Today it is a named gap.",
+  "Hutterites: a cleaner public-domain scan of Riedemann's Rechenschaft; the 1902 Berne reprint's Fraktur OCR is garbled.",
+  "Melkites after 1815: Arabic voices of the period. The dossier's leads are Maximos III Mazloum's own history from 1837 (1907) and Thomas Mazloum's documents on Maximos III (1926), and al-Machriq articles. Also any public-domain record of the church after 1911."
+ ],
+ "flags": [
+  "Melkite span: the task said 1815 to the present. I set 1815-1911 by evidence (P1, P3): the Library's own record ends with Mansi 46 (to the 1902 election) and Charon (1910-1911, naming the patriarch of his day). The years after 1911 are a named gap with wants queued. If the coordinator prefers a present-day end, livingEvidence would need a modern source; none is in the Library.",
+  "Mennonite span: 1650-1890, by the newest dated inside text on the shelf (the Elkhart manual of 1890). After revision round 1 nothing in the entry rests on the scan's modern front matter; the living mark rests on the 1886 and 1890 prefaces, and the years after 1890 are a named gap.",
+  "Hutterite span: 1528-1785 from the chronicles as printed (Wolkan to 1665; Beck to 1785). Living is true; the later story is a named gap.",
+  "RIGHTS: cic/texts/van-braght_martyrs-mirror_sohm1886.txt is not the 1886 printing. Its lines 103-124 are a modern Herald Press preface and imprint: 'thirty-third printing, 2012' and 'Copyright © 1 938 by Mennonite Publishing House'. The header calls it PD by an 1886 date. The 1886 translation itself is PD, but the second preface (c. 1998) is not. The Library thread should check this file. After revision round 1 the draft quotes nothing from lines 103-128 (the 1742/1745 letters, the 1748 date, the 1837 and Elkhart edition details and the 2012 printing were dropped or re-sourced). Please log the file's rights question for the Library thread in Open_Gaps_Tracking (reviewer M26); I cannot edit the repo.",
+  "Mennonite descentConfidence is 'Documented' for the Mennonite line; the basis now says the Amish descent rests only on one 1890 mention, pending the source pass (M27).",
+  "Hutterite descentConfidence 'Documented' rests on Wolkan's 1923 preface (the 1874 emigrants hold the chronicle) and Beck's 1883 note on Huttersthal; nothing later is in the Library.",
+  "Library shelves (corpus-map) are not mine to edit: the three Hutterite chronicle files and riedemann_rechenschaft-deu_berne1902.txt sit on the-anabaptist-movements; the two Ausbund files, van Braght and the Dordrecht manual sit there too; Mansi 46's synods after 1815 and Charon tome II are 'provisional transmission' on melkite-greek-catholic-church. Each should gain a row (or move) on the new entries. lamech-agrippa_chronicon-ephratense_hark1889.txt (lines 9604-9636, 9772-9790) could gain a context row on the Mennonite entry.",
+  "Possible later links, not drafted (prose kept clear of them): the Hutterites and the Polish Brethren (anti-trinitarian-currents-servetus-polish-brethr) in 1569, wolkan clean scan lines 24715-24733, where the Brethren sent four men to Poland; and the Catholic Church's part in the forced conversions in Hungary, 1757-1762 (Beck, lines 2722, 2760-2770; Jesuit missions). I named only 'the government' and 'the emperor' as actors, as the sources do.",
+  "Hutterite modernCountries: no census entry carries Upper Hungary (today Slovakia), where most went in 1622; it is named in region only. Mennonite: Indiana likewise.",
+  "The Riedemann voice line (author of the Rechenschaft) rests on the Library header of the 1902 reprint, not on a quote from its garbled scan.",
+  "the-anabaptist-movements: its statusDescription and sourcing still name the Hutterite Chronicle as part of its base. That is correct (the chronicle tells the 1525 beginnings too), so I left them."
+ ]
+}

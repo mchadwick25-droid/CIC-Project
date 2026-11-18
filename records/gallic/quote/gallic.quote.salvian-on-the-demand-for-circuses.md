@@ -21,7 +21,7 @@ confidence:
     Salvian's own framing, carried as his.
 sources:
 - source_id: gallic.source.salvian-on-the-government-of-god
-  locus: "On the Government of God, Book VI.15 (Sanford 1930, pp. 183-184; file lines 8263-8306): the petition for circuses and Salvian's direct rebuke of the citizens of Trier"
+  locus: "On the Government of God, Book VI.15 (Sanford 1930, pp. 183-184; cic/texts/salvian_on-the-government-of-god_sanford1930.txt, lines 8264-8306): the petition for circuses and Salvian's direct rebuke of the citizens of Trier"
   license: public-domain
 retrieval:
   tier: 2

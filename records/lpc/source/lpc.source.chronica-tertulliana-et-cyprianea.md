@@ -12,7 +12,7 @@ confidence:
   evidentiary_weight: corroborating
   formation_confidence: Widely Accepted
   divergence_note: Flagged for priority second-opinion review before it supports any specific claim. A
-    standing, recurring verification channel, distinct in kind from this Registry's static reference catalogues
+    standing, recurring verification channel, distinct in kind from this Registry's static reference catalogs
     (CPL, row 57; BHL, row 100).
 sources: []
 relations: []

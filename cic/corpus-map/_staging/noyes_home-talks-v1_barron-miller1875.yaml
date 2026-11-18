@@ -1,0 +1,22 @@
+source_file: noyes_home-talks-v1_barron-miller1875.txt
+assignments:
+- row_id: noyes_home-talks-v1_barron-miller1875--home-talks-by-john-humphrey-noyes-edited-by-alfred-barron
+  work: 'Home-Talks by John Humphrey Noyes. Edited by Alfred Barron and George Noyes Miller. Vol. I. Oneida: published'
+  author: noyes
+  locus: Editors' preface at OCR lines 263-345; add 12 to OCR line numbers; the rest not mapped
+  atlas_ids:
+  - oneida-community
+  role: tradition
+  confidence: provisional
+  language: eng
+  date:
+    start: 1875
+    end: 1875
+    source: 'the printing''s own title page: read on the scan''s page image, leaf n8; the OCR at line 165 reads
+      ''l87S'''
+    formation_confidence: Documented
+  edition_date:
+    year: 1875
+    source: read on the scan's page image, leaf n8; the OCR at line 165 reads 'l87S'
+    formation_confidence: Documented
+  note: 'Era 9 row 180, John Humphrey Noyes: his talks to the community.'

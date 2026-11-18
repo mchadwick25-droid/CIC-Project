@@ -16,8 +16,7 @@ confidence:
     explanation of why a novice's worldly clothes are kept rather than disposed of.
 sources:
 - source_id: gallic.source.cassian-institutes
-  locus: "IV.6 (npnf211 div iv.iii.iv.vi, file lines 18678-18682): the steward keeping a novice's
-    worldly clothes until his progress is proven"
+  locus: "IV.6 (cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml, lines 18678-18681; div iv.iii.iv.vi): the steward keeping a novice's worldly clothes until his progress is proven"
   license: public-domain
 retrieval:
   tier: 2
@@ -25,7 +24,7 @@ retrieval:
   - "participant asks what happens to a novice's own clothes when he joins the monastery"
   - "participant wants Cassian's own reason the clothes are kept, not disposed of at once"
   prefer_instead:
-  - "participant wants the idiom of dress read as armour instead - retrieve gallic.quote.institutes-opening-soldier-of-christ"
+  - "participant wants the idiom of dress read as armor instead - retrieve gallic.quote.institutes-opening-soldier-of-christ"
 text: >-
   But those clothes, which he laid aside, are consigned to the care of
   the steward and kept until by different sorts of temptations and

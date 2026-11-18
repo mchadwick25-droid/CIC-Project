@@ -1,0 +1,197 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "lpc.term.bishop-of-bishops",
+    "lpc.witness.communion-over-separation"
+   ],
+   "sentence": "Among us no single seat settled it, for Cyprian opened the council of 256 by saying that no bishop sets himself up as a bishop of bishops, and that each bishop has his own right of judgment."
+  },
+  {
+   "record_ids": [
+    "lpc.term.plenary-council"
+   ],
+   "sentence": "A century and a half later, Augustine held that small councils yield to wider ones, and that even the widest can be corrected later."
+  },
+  {
+   "record_ids": [
+    "lpc.witness.scripture-above-councils"
+   ],
+   "sentence": "Scripture stood above all of them, yet our bishops and councils still held real authority over real disputes."
+  },
+  {
+   "record_ids": [
+    "lpc.quote.earlier-councils-corrected-by-later"
+   ],
+   "sentence": "In today's English, Augustine says: “But who does not know this? The holy canon of Scripture, both Old and New Testament, is held within its own limits. It stands far above all later letters of bishops. So no one may doubt or dispute whether what is clearly in it is right and true. But bishops' letters, written since the canon was closed or still being written, may be shown wrong if anything in them strays from the truth. This may come through the word of someone wiser in the matter. It may come through the weightier authority and greater learning of other bishops, or through councils. Councils held in single regions or provinces must, beyond all doubt, yield to the authority of plenary councils, drawn from the whole Christian world. And even among plenary councils, the earlier are often corrected by the later. This happens when some experience of events brings to light what was hidden, and what lay concealed becomes known. It happens without any storm of sacrilegious pride, and without any neck puffed up with arrogance. It happens without any quarrel of envy and hatred. It happens simply with holy humility, catholic peace and Christian love.”"
+  },
+  {
+   "record_ids": [
+    "lpc.witness.communion-over-separation"
+   ],
+   "sentence": "The evidence that we worked this way is in what the bishops did with each other."
+  },
+  {
+   "record_ids": [
+    "lpc.witness.communion-over-separation"
+   ],
+   "sentence": "At that council Cyprian said we judge no one, and reject no one from communion, for thinking differently."
+  },
+  {
+   "record_ids": [
+    "lpc.witness.communion-over-separation"
+   ],
+   "sentence": "Augustine then argued at book length that the ruling made that day was wrong, and never put the man who made it outside our communion."
+  },
+  {
+   "record_ids": [
+    "lpc.term.heresy"
+   ],
+   "sentence": "The font shows how far that went, since Cyprian's council said a baptism given outside the church does not count, and Augustine said it was given, though it did no good there."
+  }
+ ],
+ "citations": [
+  "lpc.quote.earlier-councils-corrected-by-later",
+  "lpc.term.bishop-of-bishops",
+  "lpc.term.heresy",
+  "lpc.term.plenary-council",
+  "lpc.witness.communion-over-separation",
+  "lpc.witness.scripture-above-councils"
+ ],
+ "group": "A",
+ "id": "q005",
+ "net_sentences": [
+  {
+   "draft": "Among us no single seat settled it, for Cyprian opened the council of 256 by saying that no bishop sets himself up as a bishop of bishops, and that each bishop has his own right of judgment [[lpc.term.bishop-of-bishops]] [[lpc.witness.communion-over-separation]] [[as:paraphrase]].",
+   "ratio": 0.77,
+   "sentence": "Among us no single seat settled it, for Cyprian opened the council of 256 by saying that no bishop sets himself up as a bishop of bishops, and that each bishop has his own right of judgment.",
+   "tags": [
+    "lpc.term.bishop-of-bishops",
+    "lpc.witness.communion-over-separation"
+   ],
+   "verdict": "ok",
+   "why": "grounded 77% in own tagged records"
+  },
+  {
+   "draft": "A century and a half later, Augustine held that small councils yield to wider ones, and that even the widest can be corrected later [[lpc.term.plenary-council]] [[as:paraphrase]].",
+   "ratio": 0.83,
+   "sentence": "A century and a half later, Augustine held that small councils yield to wider ones, and that even the widest can be corrected later.",
+   "tags": [
+    "lpc.term.plenary-council"
+   ],
+   "verdict": "ok",
+   "why": "grounded 83% in own tagged records"
+  },
+  {
+   "draft": "Scripture stood above all of them, yet our bishops and councils still held real authority over real disputes [[lpc.witness.scripture-above-councils]] [[as:paraphrase]].",
+   "sentence": "Scripture stood above all of them, yet our bishops and councils still held real authority over real disputes.",
+   "tags": [
+    "lpc.witness.scripture-above-councils"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Augustine wrote of earlier councils and later ones: [[quote:lpc.quote.earlier-councils-corrected-by-later]]",
+   "placed_quote": "lpc.quote.earlier-councils-corrected-by-later",
+   "sentence": "In today's English, Augustine says: “But who does not know this? The holy canon of Scripture, both Old and New Testament, is held within its own limits. It stands far above all later letters of bishops. So no one may doubt or dispute whether what is clearly in it is right and true. But bishops' letters, written since the canon was closed or still being written, may be shown wrong if anything in them strays from the truth. This may come through the word of someone wiser in the matter. It may come through the weightier authority and greater learning of other bishops, or through councils. Councils held in single regions or provinces must, beyond all doubt, yield to the authority of plenary councils, drawn from the whole Christian world. And even among plenary councils, the earlier are often corrected by the later. This happens when some experience of events brings to light what was hidden, and what lay concealed becomes known. It happens without any storm of sacrilegious pride, and without any neck puffed up with arrogance. It happens without any quarrel of envy and hatred. It happens simply with holy humility, catholic peace and Christian love.”",
+   "tags": [
+    "lpc.quote.earlier-councils-corrected-by-later"
+   ],
+   "verdict": "ok",
+   "why": "quote placed by code, verbatim to its record"
+  },
+  {
+   "draft": "[[as:paraphrase]].",
+   "sentence": ".",
+   "tags": [],
+   "verdict": "ok",
+   "why": "no checkable claim - interpretive/connective framing"
+  },
+  {
+   "draft": "The evidence that we worked this way is in what the bishops did with each other [[lpc.witness.communion-over-separation]] [[as:paraphrase]].",
+   "sentence": "The evidence that we worked this way is in what the bishops did with each other.",
+   "tags": [
+    "lpc.witness.communion-over-separation"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "At that council Cyprian said we judge no one, and reject no one from communion, for thinking differently [[lpc.witness.communion-over-separation]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "At that council Cyprian said we judge no one, and reject no one from communion, for thinking differently.",
+   "tags": [
+    "lpc.witness.communion-over-separation"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "Augustine then argued at book length that the ruling made that day was wrong, and never put the man who made it outside our communion [[lpc.witness.communion-over-separation]] [[as:paraphrase]].",
+   "sentence": "Augustine then argued at book length that the ruling made that day was wrong, and never put the man who made it outside our communion.",
+   "tags": [
+    "lpc.witness.communion-over-separation"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "The font shows how far that went, since Cyprian's council said a baptism given outside the church does not count, and Augustine said it was given, though it did no good there [[lpc.term.heresy]] [[as:paraphrase]].",
+   "ratio": 0.69,
+   "sentence": "The font shows how far that went, since Cyprian's council said a baptism given outside the church does not count, and Augustine said it was given, though it did no good there.",
+   "tags": [
+    "lpc.term.heresy"
+   ],
+   "verdict": "ok",
+   "why": "grounded 69% in own tagged records"
+  }
+ ],
+ "offered": [
+  "lpc.witness.communion-over-separation",
+  "lpc.witness.scripture-above-councils",
+  "lpc.term.bishop-of-bishops",
+  "lpc.term.plenary-council",
+  "lpc.story.election-of-cyprian",
+  "lpc.quote.bishop-of-bishops",
+  "lpc.quote.earlier-councils-corrected-by-later",
+  "lpc.contested.compel-coercion-development",
+  "lpc.limit.no-chain-of-witnesses",
+  "lpc.witness.confessor-claim-vs-regulated-peace",
+  "lpc.quote.all-the-merit-or-demerit-is-acquired-in-this-life",
+  "lpc.quote.apart-in-heart-united-in-body",
+  "lpc.witness.days-before-the-sun",
+  "lpc.term.heresy",
+  "lpc.quote.believe-and-thou-hast-eaten-already"
+ ],
+ "raw_text": "Among us no single seat settled it, for Cyprian opened the council of 256 by saying that no bishop sets himself up as a bishop of bishops, and that each bishop has his own right of judgment [[lpc.term.bishop-of-bishops]] [[lpc.witness.communion-over-separation]] [[as:paraphrase]]. A century and a half later, Augustine held that small councils yield to wider ones, and that even the widest can be corrected later [[lpc.term.plenary-council]] [[as:paraphrase]]. Scripture stood above all of them, yet our bishops and councils still held real authority over real disputes [[lpc.witness.scripture-above-councils]] [[as:paraphrase]]. Augustine wrote of earlier councils and later ones: [[quote:lpc.quote.earlier-councils-corrected-by-later]] [[as:paraphrase]]. The evidence that we worked this way is in what the bishops did with each other [[lpc.witness.communion-over-separation]] [[as:paraphrase]]. At that council Cyprian said we judge no one, and reject no one from communion, for thinking differently [[lpc.witness.communion-over-separation]] [[as:paraphrase]]. Augustine then argued at book length that the ruling made that day was wrong, and never put the man who made it outside our communion [[lpc.witness.communion-over-separation]] [[as:paraphrase]]. The font shows how far that went, since Cyprian's council said a baptism given outside the church does not count, and Augustine said it was given, though it did no good there [[lpc.term.heresy]] [[as:paraphrase]].\n",
+ "reply_shape": {
+  "placed": [
+   "lpc.quote.earlier-councils-corrected-by-later"
+  ],
+  "removed": [],
+  "repaired": [
+   {
+    "draft": "Augustine wrote of earlier councils and later ones: [[quote:lpc.quote.earlier-councils-corrected-by-later]]",
+    "lead_in": "In today's English, Augustine says",
+    "unresolved": [
+     {
+      "detail": "earlier",
+      "kind": "time"
+     },
+     {
+      "detail": "later",
+      "kind": "time"
+     }
+    ],
+    "why": "lead-in stated a detail no source document supports; replaced by code's"
+   }
+  ]
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": "C6.S3",
+ "text": "Among us no single seat settled it, for Cyprian opened the council of 256 by saying that no bishop sets himself up as a bishop of bishops, and that each bishop has his own right of judgment. A century and a half later, Augustine held that small councils yield to wider ones, and that even the widest can be corrected later. Scripture stood above all of them, yet our bishops and councils still held real authority over real disputes. In today's English, Augustine says: “But who does not know this? The holy canon of Scripture, both Old and New Testament, is held within its own limits. It stands far above all later letters of bishops. So no one may doubt or dispute whether what is clearly in it is right and true. But bishops' letters, written since the canon was closed or still being written, may be shown wrong if anything in them strays from the truth. This may come through the word of someone wiser in the matter. It may come through the weightier authority and greater learning of other bishops, or through councils. Councils held in single regions or provinces must, beyond all doubt, yield to the authority of plenary councils, drawn from the whole Christian world. And even among plenary councils, the earlier are often corrected by the later. This happens when some experience of events brings to light what was hidden, and what lay concealed becomes known. It happens without any storm of sacrilegious pride, and without any neck puffed up with arrogance. It happens without any quarrel of envy and hatred. It happens simply with holy humility, catholic peace and Christian love.”. The evidence that we worked this way is in what the bishops did with each other. At that council Cyprian said we judge no one, and reject no one from communion, for thinking differently. Augustine then argued at book length that the ruling made that day was wrong, and never put the man who made it outside our communion. The font shows how far that went, since Cyprian's council said a baptism given outside the church does not count, and Augustine said it was given, though it did no good there.",
+ "voice_set_aside": false
+}

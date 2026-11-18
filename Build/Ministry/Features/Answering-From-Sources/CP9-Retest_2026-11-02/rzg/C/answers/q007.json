@@ -1,0 +1,124 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "rzg.witness.a-quieted-mind"
+   ],
+   "sentence": "Yes: to someone who could not quiet their own mind, we offered no method for searching harder within, and turned that mind toward Christ instead."
+  },
+  {
+   "record_ids": [
+    "rzg.witness.a-quieted-mind"
+   ],
+   "sentence": "Our confession rejected asking whether one is chosen apart from Christ, and named Christ as the mirror in which we see our election."
+  },
+  {
+   "record_ids": [
+    "rzg.witness.a-quieted-mind"
+   ],
+   "sentence": "A mind turned only on itself finds more of itself, and no bottom to it."
+  },
+  {
+   "record_ids": [
+    "rzg.limit.doubt-and-assurance"
+   ],
+   "sentence": "Whether an ordinary believer at Zurich or Geneva actually felt that comfort, or felt anxious instead, our record does not say."
+  },
+  {
+   "record_ids": [
+    "rzg.quote.christ-the-mirror-of-election"
+   ],
+   "sentence": "Heinrich Bullinger gave this word in his confession: “We reject those who try to find out, apart from Christ, whether they are chosen. ... Let ... Christ be the mirror in which we look at our predestination.”"
+  }
+ ],
+ "citations": [
+  "rzg.limit.doubt-and-assurance",
+  "rzg.quote.christ-the-mirror-of-election",
+  "rzg.witness.a-quieted-mind"
+ ],
+ "group": "A",
+ "id": "q007",
+ "net_sentences": [
+  {
+   "draft": "Yes: to someone who could not quiet their own mind, we offered no method for searching harder within, and turned that mind toward Christ instead [[rzg.witness.a-quieted-mind]] [[as:paraphrase]].",
+   "sentence": "Yes: to someone who could not quiet their own mind, we offered no method for searching harder within, and turned that mind toward Christ instead.",
+   "tags": [
+    "rzg.witness.a-quieted-mind"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Our confession rejected asking whether one is chosen apart from Christ, and named Christ as the mirror in which we see our election [[rzg.witness.a-quieted-mind]] [[as:paraphrase]].",
+   "sentence": "Our confession rejected asking whether one is chosen apart from Christ, and named Christ as the mirror in which we see our election.",
+   "tags": [
+    "rzg.witness.a-quieted-mind"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "A mind turned only on itself finds more of itself, and no bottom to it [[rzg.witness.a-quieted-mind]] [[as:paraphrase]].",
+   "sentence": "A mind turned only on itself finds more of itself, and no bottom to it.",
+   "tags": [
+    "rzg.witness.a-quieted-mind"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Whether an ordinary believer at Zurich or Geneva actually felt that comfort, or felt anxious instead, our record does not say [[rzg.limit.doubt-and-assurance]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "Whether an ordinary believer at Zurich or Geneva actually felt that comfort, or felt anxious instead, our record does not say.",
+   "tags": [
+    "rzg.limit.doubt-and-assurance"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "Heinrich Bullinger gave this word in his confession: [[quote:rzg.quote.christ-the-mirror-of-election]]",
+   "placed_quote": "rzg.quote.christ-the-mirror-of-election",
+   "sentence": "Heinrich Bullinger gave this word in his confession: “We reject those who try to find out, apart from Christ, whether they are chosen. ... Let ... Christ be the mirror in which we look at our predestination.”",
+   "tags": [
+    "rzg.quote.christ-the-mirror-of-election"
+   ],
+   "verdict": "ok",
+   "why": "quote placed by code, verbatim to its record"
+  },
+  {
+   "draft": "[[as:paraphrase]].",
+   "sentence": ".",
+   "tags": [],
+   "verdict": "ok",
+   "why": "no checkable claim - interpretive/connective framing"
+  }
+ ],
+ "offered": [
+  "rzg.limit.doubt-and-assurance",
+  "rzg.witness.a-quieted-mind",
+  "rzg.quote.christ-the-mirror-of-election",
+  "rzg.force.anabaptist-schism",
+  "rzg.limit.consistory-case-narrative",
+  "rzg.term.consistory",
+  "rzg.term.excommunication",
+  "rzg.quote.seniors-selected-from-the-people",
+  "rzg.gravity.consistorial-church-discipline",
+  "rzg.force.1541-ecclesiastical-ordinances-consistory-founding",
+  "rzg.gravity.council-led-authority-vs-consistorial-independence"
+ ],
+ "raw_text": "Yes: to someone who could not quiet their own mind, we offered no method for searching harder within, and turned that mind toward Christ instead [[rzg.witness.a-quieted-mind]] [[as:paraphrase]]. Our confession rejected asking whether one is chosen apart from Christ, and named Christ as the mirror in which we see our election [[rzg.witness.a-quieted-mind]] [[as:paraphrase]]. A mind turned only on itself finds more of itself, and no bottom to it [[rzg.witness.a-quieted-mind]] [[as:paraphrase]]. Whether an ordinary believer at Zurich or Geneva actually felt that comfort, or felt anxious instead, our record does not say [[rzg.limit.doubt-and-assurance]] [[as:paraphrase]]. Heinrich Bullinger gave this word in his confession: [[quote:rzg.quote.christ-the-mirror-of-election]] [[as:paraphrase]].\n",
+ "reply_shape": {
+  "placed": [
+   "rzg.quote.christ-the-mirror-of-election"
+  ],
+  "removed": [],
+  "repaired": []
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": "C14.S4",
+ "text": "Yes: to someone who could not quiet their own mind, we offered no method for searching harder within, and turned that mind toward Christ instead. Our confession rejected asking whether one is chosen apart from Christ, and named Christ as the mirror in which we see our election. A mind turned only on itself finds more of itself, and no bottom to it. Whether an ordinary believer at Zurich or Geneva actually felt that comfort, or felt anxious instead, our record does not say. Heinrich Bullinger gave this word in his confession: “We reject those who try to find out, apart from Christ, whether they are chosen. ... Let ... Christ be the mirror in which we look at our predestination.”.",
+ "voice_set_aside": false
+}

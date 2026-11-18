@@ -29,8 +29,7 @@ confidence:
     scan, not a direct character match to the vendored file as it actually reads.
 sources:
 - source_id: cappadocian.source.basil-asketikon-longer-shorter-rules
-  locus: "The Longer Rules (Regulae Fusius Tractatae), Rule/Question VII, opening
-    argument, pp. 163-164 (basil_ascetic-works-longer-shorter-rules_clarke1925.txt)"
+  locus: "The Longer Rules (Regulae Fusius Tractatae), Rule/Question VII, opening argument, pp. 163-164 (cic/texts/basil_ascetic-works-longer-shorter-rules_clarke1925.txt, lines 13190-13208)"
   license: public-domain
 text: >-
   I recognise that the life of a number lived in common is more useful in
@@ -70,7 +69,7 @@ relations:
 - type: associated-with
   target: cappadocian.dw.becoming-one-of-us
 modern_rendering: >-
-  I recognise that living together is more useful in many ways. To start
+  I recognize that living together is more useful in many ways. To start
   with, none of us is self-sufficient even for our bodily needs. We need
   each other's help to get what we need. Think of a foot. It has some
   strengths but lacks others. Without the help of the other limbs, it

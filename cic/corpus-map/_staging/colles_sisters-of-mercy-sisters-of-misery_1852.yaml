@@ -1,0 +1,21 @@
+source_file: colles_sisters-of-mercy-sisters-of-misery_1852.txt
+assignments:
+- row_id: colles_sisters-of-mercy-sisters-of-misery_1852--sisters-of-mercy-sisters-of-misery-or-miss-sellon-in-the
+  work: 'Sisters of Mercy, Sisters of Misery: or, Miss Sellon in the Family'
+  author: colles
+  locus: the whole volume; not mapped
+  atlas_ids:
+  - the-oxford-movement-and-anglo-catholic-revival
+  role: context
+  confidence: provisional
+  language: eng
+  date:
+    start: 1852
+    end: 1852
+    source: 'the printing''s own title page: line 66, on the title page'
+    formation_confidence: Documented
+  edition_date:
+    year: 1852
+    source: line 66, on the title page
+    formation_confidence: Documented
+  note: 'Era 9 row 268, Priscilla Lydia Sellon: a critic''s pamphlet of 1852.'

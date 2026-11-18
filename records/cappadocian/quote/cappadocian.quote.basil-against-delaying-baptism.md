@@ -33,10 +33,7 @@ confidence:
     verified-via-authority."
 sources:
 - source_id: cappadocian.source.basil-antiphonal-psalmody-baptismal-letters
-  locus: "Homily XIII, On Holy Baptism, §5 (per endnote 646) - quoted within the Prolegomena's own 'Works:
-    Homiletical' survey, para id vi.ii.v-p130 (npnf208_basil-letters-select-works.xml, lines 7017-7024);
-    this is the 'baptismal protreptic to delay-prone catechumens' half of this source record's own `work`
-    field, not yet pinned to an exact locus before this record"
+  locus: "Homily XIII, On Holy Baptism, §5 (per endnote 646) - quoted within the Prolegomena's own 'Works: Homiletical' survey, para id vi.ii.v-p130 (cic/texts/npnf208_basil-letters-select-works.xml, lines 7018-7024); this is the 'baptismal protreptic to delay-prone catechumens' half of this source record's own `work` field, not yet pinned to an exact locus before this record"
   license: public-domain
 text: >-
   Art thou a young man? Secure thy youth by the bridle of baptism. Has thy
@@ -60,15 +57,15 @@ retrieval:
   tier: 2
   retrieve_when:
   - "participant asks whether this world would call what happened to them being born again"
-  - "participant asks whether this world baptised babies or only adults who chose it for themselves"
+  - "participant asks whether this world baptized babies or only adults who chose it for themselves"
 relations:
 - type: associated-with
   target: cappadocian.dw.baptism-and-new-birth
 modern_rendering: >-
-  Are you young? Guard your youth with baptism's bridle. Has your prime passed by? Do not
-  go without your viaticum. Do not lose your safeguard. Do not treat the eleventh hour as
-  if it were the first. Even at the beginning of life, it is fitting that we already have
-  the end in view.
+  Are you young? Guard your youth with the bridle of baptism. Has your prime passed by?
+  Do not be left without your provision for the journey. Do not lose your safeguard. Do
+  not treat the eleventh hour as if it were the first. Even at the beginning of life, it
+  is fitting that we keep the end in view.
 use_note:
   means: "Basil's Homily on Holy Baptism, known here only through an excerpt quoted in the NPNF Prolegomena, urges young and old alike not to postpone baptism."
   not_for:

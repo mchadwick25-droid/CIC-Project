@@ -1,0 +1,70 @@
+{
+  "name": "Columba",
+  "otherNames": [
+    "Colum Cille",
+    "Columb-Kille",
+    "Columkille"
+  ],
+  "knownFor": "Irish monk who sailed to Britain on pilgrimage for Christ, founded the monastery on Iona, and in Bede's account turned the northern Picts to the faith.",
+  "dates": "Sailed to Britain in his forty-second year, two years after the battle of Cooldrevny, in Adomnán's words: 563 in Wentworth Huyshe's reckoning, 565 in Bede's. Huyshe gives his years as 521 to 597; Bede says he died at seventy-seven",
+  "place": "Ireland by birth; Iona, from which he went among the Picts",
+  "tradition": "Insular / Irish Monastic Christianity",
+  "role": "Monk; founder and abbot of Iona",
+  "briefLength": "about 2 minutes 30 seconds",
+  "legacy": {
+    "traces": [
+      "Bede says many monasteries in Britain and Ireland had their beginning through his disciples from Iona and from the house he built in Ireland, the Field of Oaks, and that the Iona house was the chief of them all.",
+      "Bede says the abbot of Iona, a priest, ruled the whole province, even its bishops, after the example of Columba, who was a priest and monk and not a bishop."
+    ],
+    "remembered": [
+      "Bede calls him a famous priest and abbot, a monk by habit and life, and says he left successors known for their love of God and their keeping of the monastic rule.",
+      "Adomnán says his name reached beyond Ireland and Britain to Spain, Gaul, Italy and Rome itself.",
+      "At the synod Bede places at Streaneshalch, Whitby, the Irish party called him their most reverend Father Columba; Wilfrid, the priest who spoke for the Roman side, granted he might be a holy man and asked whether he could be preferred to Peter."
+    ]
+  },
+  "uncertain": [
+    "His life comes from Adomnán, abbot of Iona, whose Life Wentworth Huyshe places between 679 and 704; Huyshe says Adomnán was born twenty-seven years after Columba died. Adomnán says he wrote from older writings and from what faithful old men told him. The Life is a book of prophecies, wonders and visions, and his sayings in it are Adomnán's report.",
+    "The year he came to Britain. Adomnán gives his forty-second year, two years after the battle of Cooldrevny; Huyshe dates the battle to 561 and the voyage to 563. Bede gives 565, in the ninth year of Bridius, king of the Picts. The Welsh annals, the Annales Cambriae, put his going to Britain in their year 118, which their editor, John Williams ab Ithel, sets at 562.",
+    "His years and age. Huyshe gives 521 to 597. Bede says he died at seventy-seven, about thirty-two years after he came to Britain. The Middle Irish Life in the Book of Lismore gives seventy-seven years and forty-five in Scotland. An Old Irish Life that Huyshe quotes says he was forty-two when he went and thirty-four years in Alba. Whitley Stokes reports that the birthday the Book of Lismore Life gives, a Thursday, 7 December, points to 517 or 523, but Bishop William Reeves thinks 521 most likely. The Annales Cambriae record his birth and death in years their editor sets at 521 and 595.",
+    "Why he left Ireland. Huyshe's note says the battle of Cooldrevny was the cause of his exile. His introduction gives the battle as the cause \"according to tradition\", and calls the tradition that it had something to do with his leaving a constant one. It counts the tales around his exile, the penance among them, as legends. It calls the Old Irish Life's account of a pilgrimage long resolved \"perfectly simple and probable\". Adomnán names the battle only to date the voyage. He does tell of a synod at Teltown that excommunicated Columba, wrongly as it later proved. William Reeves, as Huyshe reports him, thinks it possibly met in 561, over the battle.",
+    "Who gave him Iona. Bede says the Picts gave him the island. Huyshe says the Irish annals name Conall, son of Comgill, king of the Irish of Dalriada in Britain; the Irish annals Huyshe cites are not among the sources used here.",
+    "The day of his death. Adomnán puts it in the night after a Saturday, soon after a day in May when he blessed the island. The Book of Lismore Life says the night of Pentecost Sunday. Huyshe gives his feast as 9 June.",
+    "Later tradition credits him with poems and hymns. For the Latin hymn Altus Prosator, Huyshe reports the Marquess of Bute's view that the ascription rests on an apparently unbroken tradition and seems open to no serious doubt. The sources used here give only Huyshe's English of some stanzas and poems."
+  ],
+  "sources": {
+    "about": [
+      {
+        "title": "The Life of Saint Columba (English tr. Wentworth Huyshe, 1905)",
+        "author": "Adomnán of Iona",
+        "language": "English translation",
+        "file": "cic/texts/adomnan_life-of-saint-columba_huyshe1905.txt"
+      },
+      {
+        "title": "Ecclesiastical History of the English People, Books III.4 and III.25 (English tr. J. A. Giles, rev. L. C. Jane)",
+        "author": "Bede",
+        "language": "English translation",
+        "file": "cic/texts/bede_ecclesiastical-history-english-people_giles1903.txt"
+      },
+      {
+        "title": "Life of Colomb Cille, in Lives of Saints from the Book of Lismore (tr. Whitley Stokes)",
+        "author": "Anonymous",
+        "language": "Middle Irish with English translation",
+        "file": "cic/texts/stokes_lives-of-saints-from-the-book-of-lismore-iri-eng_1890.txt"
+      },
+      {
+        "title": "Introduction and notes to the Life of Saint Columba",
+        "author": "Wentworth Huyshe",
+        "date": "1905",
+        "language": "English",
+        "file": "cic/texts/adomnan_life-of-saint-columba_huyshe1905.txt"
+      },
+      {
+        "title": "Annales Cambriae (ed. John Williams ab Ithel)",
+        "author": "Anonymous Welsh annalists",
+        "date": "1860",
+        "language": "Latin",
+        "file": "cic/texts/annales-cambriae-rolls-series-20-lat_williams-ab-ithel1860.txt"
+      }
+    ]
+  }
+}

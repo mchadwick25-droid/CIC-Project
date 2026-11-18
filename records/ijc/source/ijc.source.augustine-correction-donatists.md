@@ -35,7 +35,7 @@ ijc.gravity.orthodoxy-enforcement carries citation_specificity B and a
 divergence note saying that the mechanism is Documented while the
 content "rests more heavily on modern reconstruction (Hanson) than on
 surviving self-testimony." Its three sources are two church historians
-and a collection of creeds. It had no first-person defence of the
+and a collection of creeds. It had no first-person defense of the
 mechanism by anyone who actually used it. This is that document: the
 most influential theologian of the Latin church arguing, in his own
 voice, that the church may use the state's coercive power against

@@ -1,0 +1,235 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "syr.dw.doubt"
+   ],
+   "sentence": "Yes, there was space, because our word for the life of belief was faith, not certainty."
+  },
+  {
+   "record_ids": [
+    "syr.dw.doubt"
+   ],
+   "sentence": "Our sage taught that faith is a building resting on one foundation stone and rising piece by piece."
+  },
+  {
+   "record_ids": [
+    "syr.dw.doubt"
+   ],
+   "sentence": "A building is not finished in a day."
+  },
+  {
+   "record_ids": [
+    "syr.dw.doubt"
+   ],
+   "sentence": "What we distrusted was not the struggling believer but the prying scrutinizer, who would take the Godhead apart like a problem to be solved."
+  },
+  {
+   "record_ids": [
+    "syr.dw.doubt"
+   ],
+   "sentence": "Our own poet sang against that scrutiny while asking questions of his own, hymn after hymn."
+  },
+  {
+   "record_ids": [
+    "syr.dw.doubt"
+   ],
+   "sentence": "We did not run from hard challenges."
+  },
+  {
+   "record_ids": [
+    "syr.dw.doubt"
+   ],
+   "sentence": "A debater taunted our sage that his prayers had not stopped the persecution, and the sage said the taunt troubled him and answered it from Scripture."
+  },
+  {
+   "record_ids": [
+    "syr.quote.as-a-stonecutter-i-have-brought-stones"
+   ],
+   "sentence": "Aphrahat wrote: “These things are not enough by themselves. Hear them from me without quarreling, and ask about them among brothers who are open to persuasion. Whatever you hear that truly builds up, receive. Whatever builds up strange teachings, overthrow and demolish completely. For quarreling cannot build anything up. But I, my beloved, like a stonecutter have brought stones for the building. Let wise architects carve them out and set them in the building. Everyone who labors on the building will receive a reward from the Lord of the house.”"
+  },
+  {
+   "record_ids": [
+    "syr.dw.penitence-prayer"
+   ],
+   "sentence": "For the one who falls, our teachers talked like field surgeons: the only fatal mistake is hiding the wound until it gets worse."
+  },
+  {
+   "record_ids": [
+    "syr.dw.penitence-prayer"
+   ],
+   "sentence": "The physician must not turn you away, or tell others what you show him."
+  },
+  {
+   "record_ids": [
+    "syr.dw.penitence-prayer"
+   ],
+   "sentence": "We kept praying into silence, and we did not pretend the silence away."
+  },
+  {
+   "record_ids": [
+    "syr.dw.doubt"
+   ],
+   "sentence": "A private inner crisis of doubt is not something we wrote about."
+  }
+ ],
+ "citations": [
+  "syr.dw.doubt",
+  "syr.dw.penitence-prayer",
+  "syr.quote.as-a-stonecutter-i-have-brought-stones"
+ ],
+ "group": "A",
+ "id": "q007",
+ "net_sentences": [
+  {
+   "draft": "Yes, there was space, because our word for the life of belief was faith, not certainty [[syr.dw.doubt]][[as:paraphrase]].",
+   "sentence": "Yes, there was space, because our word for the life of belief was faith, not certainty.",
+   "tags": [
+    "syr.dw.doubt"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Our sage taught that faith is a building resting on one foundation stone and rising piece by piece [[syr.dw.doubt]][[as:paraphrase]].",
+   "ratio": 0.89,
+   "sentence": "Our sage taught that faith is a building resting on one foundation stone and rising piece by piece.",
+   "tags": [
+    "syr.dw.doubt"
+   ],
+   "verdict": "ok",
+   "why": "grounded 89% in own tagged records"
+  },
+  {
+   "draft": "A building is not finished in a day [[syr.dw.doubt]][[as:paraphrase]].",
+   "sentence": "A building is not finished in a day.",
+   "tags": [
+    "syr.dw.doubt"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "What we distrusted was not the struggling believer but the prying scrutinizer, who would take the Godhead apart like a problem to be solved [[syr.dw.doubt]][[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "What we distrusted was not the struggling believer but the prying scrutinizer, who would take the Godhead apart like a problem to be solved.",
+   "tags": [
+    "syr.dw.doubt"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "Our own poet sang against that scrutiny while asking questions of his own, hymn after hymn [[syr.dw.doubt]][[as:paraphrase]].",
+   "sentence": "Our own poet sang against that scrutiny while asking questions of his own, hymn after hymn.",
+   "tags": [
+    "syr.dw.doubt"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "We did not run from hard challenges [[syr.dw.doubt]][[as:paraphrase]].",
+   "sentence": "We did not run from hard challenges.",
+   "tags": [
+    "syr.dw.doubt"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "A debater taunted our sage that his prayers had not stopped the persecution, and the sage said the taunt troubled him and answered it from Scripture [[syr.dw.doubt]][[as:paraphrase]].",
+   "ratio": 0.73,
+   "sentence": "A debater taunted our sage that his prayers had not stopped the persecution, and the sage said the taunt troubled him and answered it from Scripture.",
+   "tags": [
+    "syr.dw.doubt"
+   ],
+   "verdict": "ok",
+   "why": "grounded 73% in own tagged records"
+  },
+  {
+   "draft": "Aphrahat wrote: [[quote:syr.quote.as-a-stonecutter-i-have-brought-stones]]",
+   "placed_quote": "syr.quote.as-a-stonecutter-i-have-brought-stones",
+   "sentence": "Aphrahat wrote: “These things are not enough by themselves. Hear them from me without quarreling, and ask about them among brothers who are open to persuasion. Whatever you hear that truly builds up, receive. Whatever builds up strange teachings, overthrow and demolish completely. For quarreling cannot build anything up. But I, my beloved, like a stonecutter have brought stones for the building. Let wise architects carve them out and set them in the building. Everyone who labors on the building will receive a reward from the Lord of the house.”",
+   "tags": [
+    "syr.quote.as-a-stonecutter-i-have-brought-stones"
+   ],
+   "verdict": "ok",
+   "why": "quote placed by code, verbatim to its record"
+  },
+  {
+   "draft": "For the one who falls, our teachers talked like field surgeons: the only fatal mistake is hiding the wound until it gets worse [[syr.dw.penitence-prayer]][[as:paraphrase]].",
+   "sentence": "For the one who falls, our teachers talked like field surgeons: the only fatal mistake is hiding the wound until it gets worse.",
+   "tags": [
+    "syr.dw.penitence-prayer"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "The physician must not turn you away, or tell others what you show him [[syr.dw.penitence-prayer]][[as:paraphrase]].",
+   "sentence": "The physician must not turn you away, or tell others what you show him.",
+   "tags": [
+    "syr.dw.penitence-prayer"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "We kept praying into silence, and we did not pretend the silence away [[syr.dw.penitence-prayer]][[as:paraphrase]].",
+   "sentence": "We kept praying into silence, and we did not pretend the silence away.",
+   "tags": [
+    "syr.dw.penitence-prayer"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "A private inner crisis of doubt is not something we wrote about [[syr.dw.doubt]][[as:paraphrase]].",
+   "sentence": "A private inner crisis of doubt is not something we wrote about.",
+   "tags": [
+    "syr.dw.doubt"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  }
+ ],
+ "offered": [
+  "syr.dw.doubt",
+  "syr.story.ephrem-roll-and-vine",
+  "syr.quote.as-a-stonecutter-i-have-brought-stones",
+  "syr.force.frontier-plural-milieu",
+  "syr.dw.penitence-prayer",
+  "syr.quote.aphrahat-medicine-penitence",
+  "syr.limit.ritual-sequence",
+  "syr.dw.adam-grace",
+  "syr.term.qyama",
+  "syr.term.ihidaya",
+  "syr.quote.dem6-visit-the-sick",
+  "syr.force.qyama-commitment"
+ ],
+ "raw_text": "Yes, there was space, because our word for the life of belief was faith, not certainty [[syr.dw.doubt]][[as:paraphrase]]. Our sage taught that faith is a building resting on one foundation stone and rising piece by piece [[syr.dw.doubt]][[as:paraphrase]]. A building is not finished in a day [[syr.dw.doubt]][[as:paraphrase]]. What we distrusted was not the struggling believer but the prying scrutinizer, who would take the Godhead apart like a problem to be solved [[syr.dw.doubt]][[as:paraphrase]]. Our own poet sang against that scrutiny while asking questions of his own, hymn after hymn [[syr.dw.doubt]][[as:paraphrase]]. We did not run from hard challenges [[syr.dw.doubt]][[as:paraphrase]]. A debater taunted our sage that his prayers had not stopped the persecution, and the sage said the taunt troubled him and answered it from Scripture [[syr.dw.doubt]][[as:paraphrase]]. Aphrahat wrote: [[quote:syr.quote.as-a-stonecutter-i-have-brought-stones]]\nFor the one who falls, our teachers talked like field surgeons: the only fatal mistake is hiding the wound until it gets worse [[syr.dw.penitence-prayer]][[as:paraphrase]]. The physician must not turn you away, or tell others what you show him [[syr.dw.penitence-prayer]][[as:paraphrase]]. We kept praying into silence, and we did not pretend the silence away [[syr.dw.penitence-prayer]][[as:paraphrase]]. A private inner crisis of doubt is not something we wrote about [[syr.dw.doubt]][[as:paraphrase]].\n",
+ "reply_shape": {
+  "leadin_support": {
+   "syr.quote.as-a-stonecutter-i-have-brought-stones": [
+    {
+     "detail": "wrote",
+     "kind": "genre",
+     "snippet": "Aphrahat closes Demonstration X, the last of his first ten, written in 337 in Persian territory, by urging enquiry without wran",
+     "span": "record syr.quote.as-a-stonecutter-i-have-brought-stones"
+    }
+   ]
+  },
+  "placed": [
+   "syr.quote.as-a-stonecutter-i-have-brought-stones"
+  ],
+  "removed": [],
+  "repaired": []
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": "C14.S4",
+ "text": "Yes, there was space, because our word for the life of belief was faith, not certainty. Our sage taught that faith is a building resting on one foundation stone and rising piece by piece. A building is not finished in a day. What we distrusted was not the struggling believer but the prying scrutinizer, who would take the Godhead apart like a problem to be solved. Our own poet sang against that scrutiny while asking questions of his own, hymn after hymn. We did not run from hard challenges. A debater taunted our sage that his prayers had not stopped the persecution, and the sage said the taunt troubled him and answered it from Scripture. Aphrahat wrote: “These things are not enough by themselves. Hear them from me without quarreling, and ask about them among brothers who are open to persuasion. Whatever you hear that truly builds up, receive. Whatever builds up strange teachings, overthrow and demolish completely. For quarreling cannot build anything up. But I, my beloved, like a stonecutter have brought stones for the building. Let wise architects carve them out and set them in the building. Everyone who labors on the building will receive a reward from the Lord of the house.”\n\nFor the one who falls, our teachers talked like field surgeons: the only fatal mistake is hiding the wound until it gets worse. The physician must not turn you away, or tell others what you show him. We kept praying into silence, and we did not pretend the silence away. A private inner crisis of doubt is not something we wrote about.",
+ "voice_set_aside": false
+}

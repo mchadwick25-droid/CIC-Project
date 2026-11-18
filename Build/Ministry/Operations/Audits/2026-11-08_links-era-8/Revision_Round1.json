@@ -1,0 +1,1912 @@
+{
+ "round": 1,
+ "findings": [
+  {
+   "id": "R1-01",
+   "action": "fixed",
+   "what": "Note now says Wesley went to Halle and toured the orphan house; the 'He was not in town. However, we were at length admitted into the Orphan House,' quote (lines 1371-1372) is added.",
+   "why": "Checked: line 1371 'He was not in town'. No meeting took place."
+  },
+  {
+   "id": "R1-02",
+   "action": "fixed-differently",
+   "what": "Note quotes Wesley's own words: he had 'varied' from the Church's discipline, not its doctrines, 'by constraint' (new quote, lines 24774-24776), plus 'he may'. The 1795 sentence now gives the terms (trustees, leaders and Conference must agree), with two new quotes from article I.1 (49535-49537, 49539-49541).",
+   "why": "The reviewer is right that 'broken its rules' is not in the text. But sect. 3 does admit a departure, from discipline 'by constraint', so the fix quotes that admission exactly rather than dropping it. Section 9's 'the law of England does not call it so' is still conveyed by 'he may'."
+  },
+  {
+   "id": "R1-03",
+   "action": "fixed-differently",
+   "what": "Added three Walsh vol. 1 passages as primary sources: Easter on 22 April (15063-15064), the seizure ('they rudely seized the Patriarch', 15131-15132) and the hanging at the gateway (15141-15143). Note reworded to them: 'Ottoman officers' (Walsh's 'chouashes', line 15127), not 'the Sultan's men'.",
+   "why": "Both of the reviewer's options were combined. Lines checked: the Easter words sit on 15063-15064. The seizure passage was added because the note names who acted. Walsh does not say he saw the hanging, so the note says 'wrote', not that he witnessed it."
+  },
+  {
+   "id": "R1-04",
+   "action": "fixed",
+   "what": "B7: 'and some of their leaders took up the new revival'. B8: 'Some of their leaders, like Watts and Doddridge, took up the revival of the 1730s and 1740s.'",
+   "why": "As the reviewer says, the evidence is two men, and Curnock calls Doddridge 'almost the only' friendly Dissenter."
+  },
+  {
+   "id": "R1-05",
+   "action": "fixed",
+   "what": "Petersen: 'often went to the prayer meeting in Spener's house. There he heard talk of the church's future.' Brumbaugh's denial is now in the note ('The same historian denied that the founders were Pietists themselves') and cited as a secondary quote (922-924).",
+   "why": "Petersen 577-585: 'offtmahls reden hörete', from Lic. Schütz; 'first' is not there. The grade stays on Mack's own words."
+  },
+  {
+   "id": "R1-06",
+   "action": "fixed",
+   "what": "Last sentence: 'No record from those first years shows the churches that grew from the mission, so the tie is thin.'",
+   "why": "Build language removed. 'Those first years' fits Rippon's Register (1790-1793)."
+  },
+  {
+   "id": "R1-07",
+   "action": "fixed",
+   "what": "Note leads with the 1842 diocese, then: 'But this list of 1842 says nothing of the first mission of 1794, or of Herman, so the tie is thin.'",
+   "why": "The reviewer's 'No early record ... is cited' is still build language; the new wording says what the source does and does not show."
+  },
+  {
+   "id": "R1-08",
+   "action": "fixed-differently",
+   "what": "Note: an English visitor at the Welsh leaders' meeting in 1746 wrote in his diary what they told him: God had raised up Harris and Rowland at the same time as Whitefield and the Wesleys. Quote extended back to 'I learned from them' (591-595, 37 words); locus names Joseph Williams and Trevecca.",
+   "why": "The reviewer's wording ('A diary of 1746 ... says') fixes the attribution, but the diary reports what the Welsh leaders told Williams ('I learned from them', line 591). So the claim is the Welsh leaders' own, at second hand. The note now says that."
+  },
+  {
+   "id": "R1-09",
+   "action": "fixed-differently",
+   "what": "Kept link rewritten (action now 'rewrite'): Allen's Delaware society; the Philadelphia church at odds with the white elders sent to lead it; Baltimore's 'white preachers and trustees'; the April 1816 meeting; the AME Church. FRE 63.2, FK 7.0. Sources unchanged.",
+   "why": "The reviewer's text ('fell out with the white preachers and trustees of their church') merges the two towns. Allen gives the Philadelphia quarrel with elders and the Baltimore one with 'white preachers and trustees' (lines 960-980). The new note keeps them apart."
+  },
+  {
+   "id": "R1-10",
+   "action": "fixed",
+   "what": "Kept link rewritten (action now 'rewrite') with the reviewer's text, single quotes for the quoted phrase. FRE 77.5, FK 6.3.",
+   "why": "Reading level only; sources unchanged."
+  },
+  {
+   "id": "R1-11",
+   "action": "fixed",
+   "what": "Outcome: 'In 1729 Rome said Cyril could be patriarch if he swore to change no Greek rites without its leave, and its envoy confirmed him in 1730.' (26 words, FRE 73.2, FK 9.0)",
+   "why": "One sentence; both facts are in the cited Mansi 46 quotes."
+  },
+  {
+   "id": "R1-12",
+   "action": "fixed",
+   "what": "Outcome: 'In 1742 Pope Benedict XIV gave the Armenians in union with Rome a church of their own, with a patriarch placed under Rome.' (23 words, FRE 69.1, FK 9.1)",
+   "why": "One sentence."
+  },
+  {
+   "id": "R1-13",
+   "action": "fixed",
+   "what": "Outcome: 'At Zamość in 1720 the Ruthenian synod made laws it said followed the Council of Trent, and its list of feasts took in Corpus Christi.' (25 words, FRE 66.2, FK 10.0). Evidence unchanged (137965-137967); the feast rule and Corpus Christi are cited quotes on the link (141783-141787, 142049).",
+   "why": "Names the concrete rule changed."
+  },
+  {
+   "id": "R1-14",
+   "action": "fixed-differently",
+   "what": "The truncated 11515-11517 quote is dropped, and the flag that misread it is corrected. In its place is a quote naming the king, 'Don Pietro Aqua Roſata' (17794-17795, 'erhaben oder vielmehr eingeſchoben'). Note: Zucchelli worked in Kongo until 1704; its king, Pedro IV, still could not be crowned in the ruined capital; Thornton reads Beatriz Kimpa Vita's movement as part of the faith of that broken kingdom.",
+   "why": "Read to its clause end (11517-11522), the old quote is a complaint about the king's thirty-six concubines, so it was dropped rather than extended. But the note names Pedro IV, and with that quote gone no source named him. So the 17794-17795 naming line was added. The note now ties the ruin to the movement ('that broken kingdom'). The grade stays Widely Accepted; the flag says the movement itself rests on Thornton, not rechecked."
+  },
+  {
+   "id": "R1-15",
+   "action": "fixed",
+   "what": "'in the Moscow church' to 'in the Russian church'.",
+   "why": "As the reviewer says."
+  },
+  {
+   "id": "R1-16",
+   "action": "fixed-differently",
+   "what": "Lead sentence: 'The faith of the mission age in Spanish America lived on in the settled church that followed.' Whole note FRE 63.4, FK 8.8.",
+   "why": "Same claim as the reviewer's sentence, but plainer ('settled devotion' reads oddly) and it scores a little higher."
+  },
+  {
+   "id": "R1-17",
+   "action": "fixed",
+   "what": "Optina, Brest and Armenian notes rewritten with the reviewer's splits. Optina also says 'put out' rather than 'printed', to match R1-20. Every sentence is 25 words or fewer.",
+   "why": "As the reviewer says."
+  },
+  {
+   "id": "R1-18",
+   "action": "fixed-differently",
+   "what": "Spangenberg cut to '... Luther's evangelical doctrines,' (3403-3406, 33 words). King's Chapel cut to 'and adopted into the Book of Common Prayer, is not in this Liturgy.' (168-170; locus names the Gloria Patri). Recollect quote cut to '... in América in the beginning' (3810-3813, 38 words). Bunyan split into two quotes: 'That John Bunyan of the town of Bedford, labourer,' (5668-5669) and 'he hath (since such a time) ... unlawful meetings and conventicles' (5670-5673, 27 words).",
+   "why": "The reviewer's Bunyan cut ('...to hear divine service,') would drop the 'unlawful meetings' charge the note states, so the indictment is split at its clause boundary instead. All quotes rechecked by script."
+  },
+  {
+   "id": "R1-19",
+   "action": "fixed",
+   "what": "F4: 'linked that quarrel to the killing of three priests in 1872'. The two 'tied' sentences are merged. The devotions sentence is split into two.",
+   "why": "As the reviewer says. Whole field FRE 63.8, FK 7.5, longest sentence 21 words."
+  },
+  {
+   "id": "R1-20",
+   "action": "fixed",
+   "what": "E3: 'who put out Paisius's life and writings at Moscow in 1847'.",
+   "why": "Title page 'Изданіе ... Оптиной пустыни': Optina published the book; its own press is not shown."
+  },
+  {
+   "id": "R1-21",
+   "action": "fixed",
+   "what": "F0: 'The Serbian patriarchate of Peć was done away with in 1766. A year later the same thing happened to the archbishopric of Ohrid.'",
+   "why": "The actor is not named in any source on the entry; the old passive is restored."
+  },
+  {
+   "id": "R1-22",
+   "action": "fixed",
+   "what": "E2: 'Paisius's own disciples, in Russia, trained the first of the Optina elders.'",
+   "why": "'вышли въ Россію' (went out to Russia) does not show a return."
+  },
+  {
+   "id": "R1-23",
+   "action": "fixed-differently",
+   "what": "Seven uses of 'no text we hold (yet)' are replaced with varied plain statements of what is uncertain. A0 'but how much is not clear'. B0 'But no direct tie has been traced'. B1 'but how many is unclear'. B3 'though that is hard to measure'. B5 'though the numbers are not known'. B9 'but that line has not been traced'. B10 'That is a likely link, not a proven one.'",
+   "why": "The reviewer's examples would claim more than was checked. 'No early Pietist writer names a Dutch source' is a claim about every writer, and Spener's debts to Dutch and Labadist piety are argued in the literature. 'The early records do not show it' is a claim about records not read. So the new wording states the uncertainty itself. Every changed field rescored (lowest FRE 60.5, B0)."
+  },
+  {
+   "id": "R1-24",
+   "action": "fixed-differently",
+   "what": "Note names who acted: 'John Bunyan of Bedford was charged before the justices ... An Act of Parliament in 1664 banned ...'. The 1909 historian is credited for the three years. FRE 63.8, FK 8.0. Major status kept; outcome unchanged.",
+   "why": "The reviewer's text still has no actor for the 1664 law ('A law of 1664'). Whitley's own context (10238-10241) names 'the Government' and the 'Cavalier Parliament', so the note says Parliament."
+  },
+  {
+   "id": "T-01",
+   "action": "fixed",
+   "what": "Moravian longDescription, why and teaser rewritten whole (new prose changes R1-1, R1-2, R1-3). Each superlative ('on a scale nothing else in Protestantism came near ... two centuries', 'no other Protestant body approached', 'no other Protestant church came near') is replaced. In the longDescription: 'They were not the first, for Lutherans trained at Halle had reached India in 1706.' In the why: 'Others had gone before them ... But this was a village of a few hundred people.' The teaser simply drops it.",
+   "why": "The superlative contradicts A4 and Carey's Enquiry (Tranquebar, 1706). The teaser carried the same superlative, so it was fixed too, or the entry would still contradict itself. Fields score 62.5/8.0, 63.4/7.8 and 75.5/7.1."
+  },
+  {
+   "id": "T-02",
+   "action": "fixed",
+   "what": "Build language ('we hold', 'the sources here', 'records we do not yet hold') removed from every era-8 public text: the seven prose fields (R1-23) and the Serampore and Alaska notes (R1-06, R1-07). A scripted scan of the applied census finds none left in any era-8 field or link.",
+   "why": "Five older public texts from other eras still carry it, unchanged by this pass. They are flagged for their owners in open_items and not touched here."
+  },
+  {
+   "id": "T-03",
+   "action": "fixed",
+   "what": "The three Philippine dispositions on the Society of Jesus and the Port-Royal legacy disposition no longer rest on the Society entry's window. All three Jesuit links (port-royal 1656 both ways; the 1773 suppression) carry one uniform flag: the target entry's dates (1540-1650) end before the event, and those dates are era 7's to settle.",
+   "why": "The Philippine call stands on its own ground: the Jesuits there were members of this church, and 1768 was a Crown act. The Port-Royal qualification stands on the missing source. The Jesuit entry itself is not changed."
+  }
+ ],
+ "links": [
+  {
+   "id": "german-pietism-spener-francke-halle--the-methodist-revival",
+   "action": "new",
+   "from": "german-pietism-spener-francke-halle",
+   "to": "the-methodist-revival",
+   "type": "influenced",
+   "confidence": "Documented",
+   "note": "In July 1738 John Wesley went to Halle and toured its orphan house. He wrote that August Hermann Francke's 'name is indeed as precious ointment'. George Whitefield read Francke's account of the Halle orphan house and saw it as the pattern for his own orphan house in Georgia.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "John Wesley, Journal, ed. Nehemiah Curnock, vol. 2 (1909)",
+     "file": "cic/texts/wesley-j_journal-v2_curnock1909.txt",
+     "lines": "1328-1331",
+     "locus": "Journal, July 1738 (journey to Herrnhut)",
+     "quote": "I then thought of sending in a note to Professor Francke, the son of that August Hermann Francke whose name is indeed as precious ointment.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "John Wesley, Journal, ed. Nehemiah Curnock, vol. 2 (1909)",
+     "file": "cic/texts/wesley-j_journal-v2_curnock1909.txt",
+     "lines": "1331",
+     "locus": "Journal, July 1738",
+     "quote": "Oh may I follow him, as he did Christ,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "John Wesley, Journal, ed. Nehemiah Curnock, vol. 2 (1909)",
+     "file": "cic/texts/wesley-j_journal-v2_curnock1909.txt",
+     "lines": "1371-1372",
+     "locus": "Journal, July 1738, at Halle",
+     "quote": "He was not in town. However, we were at length admitted into the Orphan House,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "George Whitefield, A Continuation of the Reverend Mr. Whitefield's Journal, in The Two First Parts of His Life, with His Journals (1756)",
+     "file": "cic/texts/whitefield_two-first-parts-of-his-life-with-journals_1756.txt",
+     "lines": "11272-11275",
+     "locus": "Journal, on the planned Georgia orphan house",
+     "quote": "Profeflbr Frank's Account of the Orphan-HoufS at Hall, near Glaucha. — It fecms, in many Cir- cumftances, to be fo exactly parallel to my pre- sent Undertaking for the Poor of Georgia,",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "german-pietism-spener-francke-halle legacy ('John Wesley learned from the Moravians, and in 1738 he went to Halle himself. George Whitefield took Francke's orphan house as the model', after prose change 1); the old legacy read 'and through them John Wesley'",
+   "major": false,
+   "minor_reason": "Reading and a visit; no institutional act.",
+   "wants": [],
+   "drafter_flags": [
+    "Whitefield's quote keeps the 1756 OCR exactly ('Profeflbr', 'HoufS', 'fecms', long s read as f), including the dash.",
+    "The old legacy said Pietism reached Wesley only 'through' the Moravians. Wesley's own visit to Halle and Whitefield's use of Francke show a direct tie too, so the legacy now says both.",
+    "Round 1: Wesley did not meet the younger Francke ('He was not in town', line 1371); he toured the orphan house. The note now says so."
+   ],
+   "change_reason": "New. Documents the Wesley clause of the legacy, with Whitefield's orphan house added from his own journal. Round 1: note corrected (no meeting with Francke); orphan-house quote added (R1-01).",
+   "group": "A"
+  },
+  {
+   "id": "restoration-georgian-church-of-england--the-methodist-revival--2",
+   "action": "new",
+   "from": "restoration-georgian-church-of-england",
+   "to": "the-methodist-revival",
+   "type": "broke with",
+   "confidence": "Widely Accepted",
+   "note": "In 1785 Wesley wrote that he had varied from the Church of England's discipline, though not from its doctrines, and only 'by constraint'. He had preached in the fields because the churches were shut to him. If anyone called this separating from the Church, he wrote, 'he may'. In 1795 the Methodist Conference let a chapel hold the Lord's Supper if its trustees, its leaders and the Conference agreed. It was a long step toward a separate church.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Minutes of the Methodist Conferences, vol. 1, 1744-1798 (1862)",
+     "file": "cic/texts/methodist-conference_minutes-v1-1744-1798_1862.txt",
+     "lines": "24774-24776",
+     "locus": "Wesley, 'Of Separation from the Church', 1785, sect. 3",
+     "quote": "I have in some respects varied, though not from the doctrines, yet from the discipline of the Church of England; although not willingly, but by constraint.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Minutes of the Methodist Conferences, vol. 1, 1744-1798 (1862)",
+     "file": "cic/texts/methodist-conference_minutes-v1-1744-1798_1862.txt",
+     "lines": "24777-24779",
+     "locus": "Wesley, 'Of Separation from the Church', 1785, sect. 3",
+     "quote": "Above forty years ago, I began preaching in the fields ; and that for two reasons : First, I was not suffered to preach in the churches.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Minutes of the Methodist Conferences, vol. 1, 1744-1798 (1862)",
+     "file": "cic/texts/methodist-conference_minutes-v1-1744-1798_1862.txt",
+     "lines": "24838-24839",
+     "locus": "Wesley, 'Of Separation from the Church', 1785, sect. 9",
+     "quote": "If anyone is pleased to call this separating from the Church, he may.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Minutes of the Methodist Conferences, vol. 1, 1744-1798 (1862)",
+     "file": "cic/texts/methodist-conference_minutes-v1-1744-1798_1862.txt",
+     "lines": "24869-24870",
+     "locus": "Wesley, note of 1786",
+     "quote": "\" But, for all this, is it not possible there may be such a sepa- ration after you are dead ? \" Undoubtedly it is.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Minutes of the Methodist Conferences, vol. 1, 1744-1798 (1862)",
+     "file": "cic/texts/methodist-conference_minutes-v1-1744-1798_1862.txt",
+     "lines": "49532",
+     "locus": "Minutes, 1795, Plan of Pacification",
+     "quote": "ARTICLES OF AGREEMENT FOR GENERAL PACIFICATION.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Minutes of the Methodist Conferences, vol. 1, 1744-1798 (1862)",
+     "file": "cic/texts/methodist-conference_minutes-v1-1744-1798_1862.txt",
+     "lines": "49535-49537",
+     "locus": "Minutes, 1795, Plan of Pacification, I.1",
+     "quote": "The Sacrament of the Lord's Supper shall not be adminis- tered in any chapel, except the majority of the Trustees of that chapel on the one hand,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Minutes of the Methodist Conferences, vol. 1, 1744-1798 (1862)",
+     "file": "cic/texts/methodist-conference_minutes-v1-1744-1798_1862.txt",
+     "lines": "49539-49541",
+     "locus": "Minutes, 1795, Plan of Pacification, I.1",
+     "quote": "Never- theless, in all cases, the consent of the Conference shall bo obtained before the Lord's Supper be administered.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Minutes of the Methodist Conferences, vol. 1, 1744-1798 (1862)",
+     "file": "cic/texts/methodist-conference_minutes-v1-1744-1798_1862.txt",
+     "lines": "49549-49552",
+     "locus": "Minutes, 1795, Plan of Pacification, I.3",
+     "quote": "Provided, nevertheless, that in Mount-Pleasant chapel in Liverpool, and in all other chapels where the Lord's Supper has been already peaceably administered, the administration of it shall be continued in future.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Henry Rack, Reasonable Enthusiasm: John Wesley and the Rise of Methodism (1989; 3rd ed. 2002)",
+     "file": null,
+     "lines": null,
+     "quote": null
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "David Hempton, Methodism: Empire of the Spirit (Yale, 2005)",
+     "file": null,
+     "lines": null,
+     "quote": null
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "named-not-rechecked",
+   "named_in_text": "the-methodist-revival longDescription ('After his death in 1791 the connexion became a separate church anyway') and legacy ('The British connexion separated from the Church of England after Wesley's death')",
+   "wants": [
+    "A Church of England record of the separation (a bishop's charge or visitation return on the Methodists, 1790s), so the rupture is shown from both sides as the Documented test asks"
+   ],
+   "drafter_flags": [
+    "Graded Widely Accepted, not Documented: every primary here is Methodist, and the separation came by steps, with no single dated break. The secondary works (census-cited, named-not-rechecked) carry the reading that 1795 was the decisive step.",
+    "The id takes '--2' because the gave-rise-to link on the same pair holds the base id; both are new in this draft, so the merger may assign them either way.",
+    "Major by type.",
+    "Round 1: Wesley's own words are that he 'varied' from the Church's discipline 'by constraint' (sect. 3), not that he broke its rules; the note now quotes him. The 1795 terms (trustees, stewards and leaders, and the Conference must agree) are now quoted; 'shall bo' is the file's OCR."
+   ],
+   "change_reason": "New. The separation both Methodist fields name, graded honestly for one-sided evidence. Round 1: note held to Wesley's own wording and to the 1795 terms; two quotes added (R1-02).",
+   "group": "A"
+  },
+  {
+   "id": "orthodoxy-under-the-ottomans-1650-1821--orthodoxy-after-1821-balkan-autocephalies",
+   "action": "new",
+   "from": "orthodoxy-under-the-ottomans-1650-1821",
+   "to": "orthodoxy-after-1821-balkan-autocephalies",
+   "type": "continued as",
+   "confidence": "Documented",
+   "note": "On Easter Sunday 1821, Ottoman officers seized Patriarch Gregory V in his own church at Constantinople. Robert Walsh, chaplain to the British embassy, wrote that they hanged the old man at the gate. He adds that Eugenius was then put in his place. The same see carried on into the age of the national churches.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Robert Walsh, A Residence at Constantinople, vol. 1 (London, 1836)",
+     "file": "cic/texts/walsh_residence-at-constantinople-v1_1836.txt",
+     "lines": "15063-15064",
+     "locus": "On Easter 1821 at the Patriarchate",
+     "quote": "the 22d of April was Easter Sunday in both churches.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Robert Walsh, A Residence at Constantinople, vol. 1 (London, 1836)",
+     "file": "cic/texts/walsh_residence-at-constantinople-v1_1836.txt",
+     "lines": "15131-15132",
+     "locus": "On Easter 1821 at the Patriarchate",
+     "quote": "they rudely seized the Patriarch, who had just given his benediction to the people,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Robert Walsh, A Residence at Constantinople, vol. 1 (London, 1836)",
+     "file": "cic/texts/walsh_residence-at-constantinople-v1_1836.txt",
+     "lines": "15141-15143",
+     "locus": "On Easter 1821 at the Patriarchate",
+     "quote": "The old man was then dragged under the gateway, where the cord was passed through the staple that fastened the folding doors,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Robert Walsh, A Residence at Constantinople, vol. 2 (London, 1836)",
+     "file": "cic/texts/walsh_residence-at-constantinople-v2_1836.txt",
+     "lines": "16379-16380",
+     "locus": "On the patriarchs",
+     "quote": "On the execution of Gregory, Eugenius was appointed in his place,",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "orthodoxy-under-the-ottomans-1650-1821 legacy ('each took its own church with it', after prose change 1); relationsSummary (Gregory V's hanging)",
+   "wants": [],
+   "drafter_flags": [
+    "cross-era: era 9. The era-9 drafter may draft the same pair; merge.",
+    "Walsh shows the see continuing past 1821, which is what 'continued as' claims. He does not describe the later national churches; the note keeps that to one plain clause, which the era-9 entry itself states.",
+    "Round 1: the hanging now rests on Walsh's own account in vol. 1. Those who seized him are 'chouashes' (Ottoman officers, line 15127). The year 1821 is from the file's content note and vol. 2's 'execution of Gregory'; the Easter passage itself gives only 22 April."
+   ],
+   "change_reason": "New. The entry's continuation into the era-9 national churches had no link. Round 1: Walsh vol. 1 passages added for the hanging; note reworded to them (R1-03).",
+   "group": "F"
+  },
+  {
+   "id": "german-pietism-spener-francke-halle--radical-pietism-and-the-brethren-dunkers-ephrata",
+   "action": "new",
+   "from": "german-pietism-spener-francke-halle",
+   "to": "radical-pietism-and-the-brethren-dunkers-ephrata",
+   "type": "gave rise to",
+   "confidence": "Widely Accepted",
+   "note": "Johann Wilhelm Petersen, later a leading radical Pietist, often went to the prayer meeting in Spener's house. There he heard talk of the church's future. Alexander Mack, who founded the Brethren in 1708, wrote that they had once lived 'among the pietists'. A Brethren historian wrote in 1899 that Francke woke Ernst Christoph Hochmann to faith at Halle, and that Hochmann shaped Mack more than anyone. The same historian denied that the founders were Pietists themselves.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Johann Wilhelm Petersen, Das Leben Jo. Wilhelmi Petersen, von ihm selbst beschrieben (1717)",
+     "file": "cic/texts/petersen-jw_leben-deu_1717.txt",
+     "lines": "577-579",
+     "locus": "Leben, on Spener's collegium pietatis",
+     "quote": "welchen ich in dem Collegio pietatis, welches der Herr D. Spener in ſeinemHau⸗ fe angeſtellet hatte, offtmahls reden hörete,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Alexander Mack, answers to Eberhard Ludwig Gruber's questions to the New Baptists, in A Short and Plain View of the Outward, yet Sacred Rights and Ordinances (Philadelphia, 1810)",
+     "file": "cic/texts/mack-alexander_rights-and-ordinances_1810.txt",
+     "lines": "4802-4804",
+     "locus": "answer to Question 36",
+     "quote": "we readily acknowledge it to have been the case as long as we were among the pietists.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Martin Grove Brumbaugh, A History of the German Baptist Brethren in Europe and America (1899)",
+     "file": "cic/texts/brumbaugh_history-german-baptist-brethren_1899.txt",
+     "lines": "1345-1347",
+     "locus": "chapter with running head 'The Pietistic Pathfinders', on Hochmann",
+     "quote": "At Halle Hochmann was \"awakened\" by August Hermann Francke, a pupil of Spener.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Martin Grove Brumbaugh, A History of the German Baptist Brethren in Europe and America (1899)",
+     "file": "cic/texts/brumbaugh_history-german-baptist-brethren_1899.txt",
+     "lines": "1284-1287",
+     "locus": "chapter with running head 'The Pietistic Pathfinders', on Hochmann and Mack",
+     "quote": "More than all others combined did Ernst Christoph Hochmann influence the mind and conduct of the founder of the Church of the German Baptist Breth- ren.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Martin Grove Brumbaugh, A History of the German Baptist Brethren in Europe and America (1899)",
+     "file": "cic/texts/brumbaugh_history-german-baptist-brethren_1899.txt",
+     "lines": "922-924",
+     "locus": "chapter on the Pietists and the founders",
+     "quote": "That any of the founders were Pietists is not true.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Douglas Shantz, An Introduction to German Pietism (Johns Hopkins, 2013)",
+     "file": null,
+     "lines": null,
+     "quote": null
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "radical-pietism-and-the-brethren-dunkers-ephrata longDescription ('Where mainstream Pietism stayed inside the Lutheran church, a radical wing walked out of it') and relationsSummary ('Radical Pietism grew out of German Pietism', after prose change 2)",
+   "wants": [
+    "Hochmann von Hochenau's own Confession of Faith (1702) is only in Brumbaugh's garbled German facsimile and English translation; a clean edition would let Hochmann's Halle awakening rest on his own words",
+    "Gottfried Arnold, Unparteiische Kirchen- und Ketzer-Historie (1699-1700), the radical Pietists' manifesto, named in the census sources but not vendored"
+   ],
+   "drafter_flags": [
+    "Graded Widely Accepted, not Documented: Petersen and Mack are primary, but the clearest person-carried tie (Francke awakening Hochmann at Halle) is in Brumbaugh, a secondary historian citing Goebel.",
+    "Brumbaugh also wrote (lines 921-924): 'That any of the founders were Pietists is not true.' Mack's own words ('as long as we were among the pietists') say otherwise. The note follows Mack and does not repeat Brumbaugh's denial; the reviewer may want it named.",
+    "Shantz is cited in the census sources for the Pietism entry; named-not-rechecked, no page.",
+    "Petersen's quote keeps the Fraktur OCR exactly: long s, 'ſeinemHau⸗ fe' with the double hyphen and the 'f' for long s.",
+    "The Mack 'Question 36' answer sits in the 1810 volume under 'Eberhard Ludwig Gruber's Enquiries ... with plain answers ... by one of their members'. The file header says the 1810 volume lacks the Ground-Searching Questions; the text shows these answers are in it. The header may need a look (not my thread).",
+    "Round 1: Petersen heard Lic. Schütz speak 'offtmahls' at Spener's collegium pietatis and learned of the 'fata Ecclesiae' (577-585); 'first' is gone. Brumbaugh's denial (921-924) is now named in the note and cited. The grade stays Widely Accepted on Mack's own words."
+   ],
+   "change_reason": "New. The radical wing's descent from Pietism, named in the entry's description. Round 1: Petersen sentence held to the text; Brumbaugh's denial named and cited (R1-05).",
+   "group": "A"
+  },
+  {
+   "id": "the-baptists--the-missionary-movement-s-native-churches-seramp",
+   "action": "new",
+   "from": "the-baptists",
+   "to": "the-missionary-movement-s-native-churches-seramp",
+   "type": "gave rise to",
+   "confidence": "Inferential-Thin",
+   "note": "In 1792 Baptist ministers at Kettering formed a society to spread the gospel among the heathen. It sent William Carey and John Thomas to India, with a letter to Indian believers Thomas had known. No record from those first years shows the churches that grew from the mission, so the tie is thin.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "John Rippon, The Baptist Annual Register for 1790-1793",
+     "file": "cic/texts/rippon_baptist-annual-register-1790-1793_1793.txt",
+     "lines": "29336-29339",
+     "locus": "Register, founding of the Baptist mission society",
+     "quote": "Refolutions at a meeting of Minifters of the Particular Baptift denomination, held at Kettering , in Northampton /hire > Oct. 2, 1792.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "John Rippon, The Baptist Annual Register for 1790-1793, letter of the society at Leicester",
+     "file": "cic/texts/rippon_baptist-annual-register-1790-1793_1793.txt",
+     "lines": "40627-40631",
+     "locus": "Register, letter 'to Ram Ram Boshoo, Parbotee'",
+     "quote": "The Society for propagating the Gofpel among the Heathen, to Ram Ram Bojhoo , Parbotee , and all in India , who call upon the Name of Jefus Chritt :our Lord, both their’s and our’s.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "John Rippon, The Baptist Annual Register for 1790-1793, letter of the society at Leicester",
+     "file": "cic/texts/rippon_baptist-annual-register-1790-1793_1793.txt",
+     "lines": "40660-40662",
+     "locus": "Register, letter 'to Ram Ram Boshoo, Parbotee'",
+     "quote": "For thefe puroofes we recommend to you our much efteemed brethren Thomas and Carey",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "the-baptists relationsSummary ('From the Baptists came William Carey's missionary movement'), longDescription and why (Carey's society and his sailing for India); the Serampore entry is the nearest match for Carey's mission",
+   "wants": [
+    "Periodical Accounts relative to the Baptist Missionary Society (from 1800), for the first Serampore baptisms (Krishna Pal, 1800) and the Serampore church",
+    "Carey's and Ward's Serampore letters and journals in a public-domain edition"
+   ],
+   "drafter_flags": [
+    "cross-era: era 9",
+    "Graded Inferential-Thin, not higher: the Register shows the society founded and sending Carey and Thomas to India with a letter to Indian believers, but nothing vendored shows the Serampore churches themselves, and no repo-cited secondary work covers them.",
+    "The receiving entry's own text names Pietist, Moravian, Methodist and Catholic lines, not the Baptists. The Baptist tie comes from the Baptist entry's text only.",
+    "The quotes keep the file's OCR exactly ('Chritt :our', 'puroofes', spaced commas)."
+   ],
+   "change_reason": "New. Carries the Carey clause at the level the vendored evidence allows. Round 1: last sentence rewritten without build language (R1-06).",
+   "group": "B"
+  },
+  {
+   "id": "russian-church-nikon-to-holy-synod--alaskan-mission-herman-veniaminov",
+   "action": "new",
+   "from": "russian-church-nikon-to-holy-synod",
+   "to": "alaskan-mission-herman-veniaminov",
+   "type": "gave rise to",
+   "confidence": "Inferential-Thin",
+   "note": "By 1842 the Russian church had a diocese of the Aleutian Islands, Kamchatka and Russian America. That shows the Alaskan church as part of the Russian church. But this list of 1842 says nothing of the first mission of 1794, or of Herman, so the tie is thin.",
+   "sources": [
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Translator's bracketed note to A. N. Mouravieff, A History of the Church of Russia, trans. R. W. Blackmore (1842)",
+     "file": "cic/texts/mouravieff_history-of-the-church-of-russia_blackmore1842.txt",
+     "lines": "19193",
+     "locus": "Notes, list of dioceses",
+     "quote": "The Aleoutine Islands, Kamschatka, and Russian America ;",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "unverified",
+   "named_in_text": "russian-church-nikon-to-holy-synod relationsSummary ('In 1794 it sent the Valaam mission to Alaska, including Herman of Kodiak'), longDescription, why and legacy ('Its Alaskan mission planted an Orthodox Christianity')",
+   "wants": [
+    "A primary account of the Kodiak mission of 1794 (for example the mission's letters, or Valaam's own history of the American mission), to support the 1794 date, the Valaam origin and Herman's place in it"
+   ],
+   "drafter_flags": [
+    "cross-era: era 9",
+    "The prose facts (1794, Valaam, Herman) have no source in the library. I left them as written, as the other eras did with well-known unsourced facts (Open-Gaps item 'Well-known facts with no vendored source').",
+    "The quote shows a diocese created after 1830, so it falls in the era-9 church, not this one; it supports only that the Alaskan church belonged to the Russian church."
+   ],
+   "change_reason": "New. The Alaskan mission named four times in the Synodal entry, graded as thin as the library allows. Round 1: note leads with what the source shows; build language removed (R1-07).",
+   "group": "E"
+  },
+  {
+   "id": "the-methodist-revival--the-welsh-revival-tradition",
+   "action": "new",
+   "from": "the-methodist-revival",
+   "to": "the-welsh-revival-tradition",
+   "type": "in contact with",
+   "confidence": "Documented",
+   "note": "Howell Harris, a leader of the Welsh revival, first met George Whitefield at Cardiff in March 1739. In 1746 an English visitor sat in on a meeting of the Welsh leaders. He wrote in his diary what they told him. God had raised up Harris and Daniel Rowland, they said, at the same time as Whitefield and the Wesleys.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Howell Harris, A Brief Account of the Life of Howell Harris (Trevecka, 1791)",
+     "file": "cic/texts/harris-howell_brief-account-of-the-life-with-letters_1791.txt",
+     "lines": "1205-1207",
+     "locus": "Brief Account, the journey through South Wales to Cardiff",
+     "quote": "where I was much refreflied by the fight of Mr^ Whitefield — this was th? firft time I met him to con« Vjerfe face to face",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "The History, Constitution, Rules of Discipline, and Confession of Faith of the Calvinistic Methodists in Wales (2nd ed., 1834)",
+     "file": "cic/texts/calvinistic-methodists-wales_history-constitution-rules-confession_1834.txt",
+     "lines": "591-595",
+     "locus": "History, quoting the diary of Joseph Williams of Kidderminster, June 1746, on the Association at Trevecca",
+     "quote": "I learned from them how the Lord had, in an extraordinary manner raised up the Rev. Daniel Rowlands, in Cardiganshire, and Mr. Howel Harris, in Brecknockshire, at the same time as Whitefield and the Wesleys appeared in England",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "the-welsh-revival-tradition relationsSummary ('Sibling of Methodism'); longDescription ('began independently of England')",
+   "major": false,
+   "minor_reason": "A meeting of leaders; no institutional act in these sources.",
+   "wants": [
+    "Whitefield's Journal for March 1739 (Cardiff), already listed among the Methodist dossier's leads, for Whitefield's own side of the meeting Harris footnotes"
+   ],
+   "drafter_flags": [
+    "Harris's footnote (lines 1208-1215) quotes Whitefield's journal for Cardiff, 'March 7, and 8, 1739'; the date in the note comes from there. OCR kept exactly.",
+    "The 1834 History's sentence is a diary entry of Joseph Williams of Kidderminster (1746) quoted by the Welsh connexion; listed as secondary. It supports 'began at the same time', the sibling claim, not influence either way.",
+    "Possible duplicate: the era-8 group drafting the Methodist revival may draft the same pair from its own text.",
+    "Round 1: the words are Joseph Williams's diary of 1746, reporting what the Welsh leaders told him at the Trevecca Association (lines 570-595); the note now says so. Quote extended back to 'I learned from them' (37 words)."
+   ],
+   "change_reason": "New. Documents the 'sibling' claim as contact between parallel movements. Round 1: note credits the 1746 diary, not the Welsh connexion (R1-08).",
+   "group": "B"
+  },
+  {
+   "id": "the-methodist-revival--the-black-church-in-america",
+   "from": "the-methodist-revival",
+   "to": "the-black-church-in-america",
+   "type": "gave rise to",
+   "confidence": "Documented",
+   "note": "Richard Allen joined a Methodist society in Delaware. Later his Black church in Philadelphia fell out with the white elders sent to lead it. In Baltimore, too, white preachers and trustees drove many Black members away. In April 1816 Black delegates from both towns and others met. They agreed to form one body of their own. They named it the African Methodist Episcopal Church.",
+   "sources": [
+    {
+     "kind": "primary",
+     "work": "Richard Allen, The Life, Experience, and Gospel Labors of the Rt. Rev. Richard Allen (1880 reprint of 1833)",
+     "file": "cic/texts/allen-richard_life-experience-and-gospel-labors_1880.txt",
+     "lines": "190-192",
+     "locus": "Life Experience, early life",
+     "quote": "I  joined  the  Methodist society  and  met  in  class  at  Benjamin  Wells's,  in  the forest,  Delaware  state.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "work": "Richard Allen, The Life, Experience, and Gospel Labors of the Rt. Rev. Richard Allen (1880 reprint of 1833)",
+     "file": "cic/texts/allen-richard_life-experience-and-gospel-labors_1880.txt",
+     "lines": "986-987",
+     "locus": "Rise and Progress of the AME Church",
+     "quote": "which  induced  us,  in  April  1816,  to  call  a  gen- eral meeting,  by  way  of  Conference.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "work": "Richard Allen, The Life, Experience, and Gospel Labors of the Rt. Rev. Richard Allen (1880 reprint of 1833)",
+     "file": "cic/texts/allen-richard_life-experience-and-gospel-labors_1880.txt",
+     "lines": "992-994",
+     "locus": "Rise and Progress of the AME Church",
+     "quote": "That  the  people  of  Philadelphia,  Baltimore,  &c,  &c, should  become  one  body,  under  the  name  of  the  Af- rican Methodist  Episcopal  Church.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "action": "rewrite",
+   "named_in_text": "the-methodist-revival relationsSummary and legacy",
+   "wants": [],
+   "drafter_flags": [
+    "cross-era: era 9",
+    "Round 1: kept note rewritten to the reading target only (old FRE 17.1). Every fact is in Allen, lines 960-994: the Philadelphia elders, the Baltimore 'white preachers and trustees', the April 1816 meeting."
+   ],
+   "change_reason": "Checked: all three Allen quotes are verbatim at their lines and show a named person passing from a Methodist society to the founding of the AME Church in 1816. Documented is right. Round 1: rewritten for reading level; sources unchanged (R1-09).",
+   "group": "A"
+  },
+  {
+   "id": "the-methodist-revival--the-holiness-movement",
+   "from": "the-methodist-revival",
+   "to": "the-holiness-movement",
+   "type": "influenced",
+   "confidence": "Widely Accepted",
+   "note": "In his Large Minutes, Wesley told his preachers to urge all believers to 'go on to perfection'. He meant being saved from all sin, as love for God and neighbor fills the heart. Holiness writers of the 1800s took up this teaching and called it Wesley's own.",
+   "sources": [
+    {
+     "kind": "primary",
+     "work": "John Wesley, Minutes of Several Conversations (the Large Minutes)",
+     "file": "cic/texts/wesley-j_large-minutes_1850.txt",
+     "lines": "1106-1109",
+     "locus": "Large Minutes, on Christian perfection",
+     "quote": "Strongly  and  explicitly  exhort  all  believers  to  go  on to  perfection.  We  all  agree  to  defend  this  doctrine ; meaning  thereby,  salvation  from  all  sin,  by  the  love of  God  and  man  filling  the  heart.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "work": "Melvin Dieter, The Holiness Revival of the Nineteenth Century (1980; 2nd ed. 1996)"
+    },
+    {
+     "kind": "secondary",
+     "work": "Vinson Synan, The Holiness-Pentecostal Tradition (Eerdmans, 2nd ed. 1997)"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "named-not-rechecked",
+   "action": "rewrite",
+   "named_in_text": "the-methodist-revival relationsSummary and legacy",
+   "wants": [],
+   "drafter_flags": [
+    "cross-era: era 9",
+    "The summary calls Methodism the 'parent' of the Holiness movement. The Holiness movement grew among nineteenth-century Methodists; from this entry the tie is the perfection teaching, which this link carries. Left as is.",
+    "Phoebe Palmer's Way of Holiness (1843), named in the Holiness census sources, is not vendored; it would show a Holiness writer citing Wesley and could lift this to Documented.",
+    "Round 1: kept note rewritten to the reading target only (old FRE 54.0)."
+   ],
+   "change_reason": "Checked: the Large Minutes quote is verbatim at lines 1106-1109; 'influenced' at Widely Accepted is right, since no Holiness text is vendored and the reading rests on Dieter and Synan (census-cited). Round 1: rewritten for reading level; sources unchanged (R1-10).",
+   "major": false,
+   "minor_reason": "A teaching taken up by later writers; no institutional act.",
+   "group": "A"
+  },
+  {
+   "id": "catholic-church-ancien-regime--melkite-greek-catholic-church",
+   "action": "new",
+   "from": "catholic-church-ancien-regime",
+   "to": "melkite-greek-catholic-church",
+   "type": "in contact with",
+   "confidence": "Documented",
+   "note": "In 1729 Rome's mission council ruled that nothing stood in the way of Cyril's consecration as Greek patriarch of Antioch. It set a condition: he must swear to change none of the Greek rites without Rome's consent. In 1730 the pope's envoy, the Capuchin Dorotheus, confirmed him.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Mansi, Sacrorum Conciliorum collectio, t. 46: Synodi Melchitarum, ed. Martin and Petit (Paris, 1911)",
+     "file": "cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-46-synodi-melchitarum-lat_petit1911.txt",
+     "lines": "10444-10445",
+     "locus": "Decree of the particular congregation of Propaganda, 1729",
+     "quote": "„Nihil obstare validae et licitae consecrationi Cyrilli in patriarcham Antiochenum Graecorum;",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Mansi, Sacrorum Conciliorum collectio, t. 46: Synodi Melchitarum, ed. Martin and Petit (Paris, 1911)",
+     "file": "cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-46-synodi-melchitarum-lat_petit1911.txt",
+     "lines": "10451-10455",
+     "locus": "Decree of the particular congregation of Propaganda, 1729",
+     "quote": "ita tamen, ut delegatus dictam confirmationem nomine sanctae sedis minime impertiatur, nisi post- quam praefatus Cyrillus emiserit coram ipso, sive coram eius subdelegato, professionem fidei catholi- cae ac iuramentum non immutandi in se suisque",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Mansi, Sacrorum Conciliorum collectio, t. 46: Synodi Melchitarum, ed. Martin and Petit (Paris, 1911)",
+     "file": "cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-46-synodi-melchitarum-lat_petit1911.txt",
+     "lines": "19417-19419",
+     "locus": "Acts of the national synod of 25 April 1730",
+     "quote": "His habitis, delegatus apostolicus eundem Cyrillum confirmavit in patriarcham Graecorum Antiochenum sub tali declaratione et clausulis:",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "melkite-greek-catholic-church longDescription ('recognized by the pope in 1729') and why ('Rome recognized Cyril's line in 1729')",
+   "major": true,
+   "outcome": "In 1729 Rome said Cyril could be patriarch if he swore to change no Greek rites without its leave, and its envoy confirmed him in 1730.",
+   "outcome_kind": "rule-changed",
+   "outcome_evidence": {
+    "file": "cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-46-synodi-melchitarum-lat_petit1911.txt",
+    "lines": "10444-10455",
+    "text": "„Nihil obstare validae et licitae consecrationi Cyrilli in patriarcham Antiochenum Graecorum; proindeque concedendam esse eidem, si sanctissimo placuerit, petitam confirmationem in forma commis- saria per litteras apostolicas in forma brevis diri- gendas"
+   },
+   "wants": [],
+   "drafter_flags": [
+    "Type: 'in contact with' because Rome did not found the Melkite Catholic body; it ruled on and confirmed a patriarch the Damascus party had already elected. A reviewer could argue for 'influenced' (the oath on rites); I kept the weaker type.",
+    "Major judgment: the congregation's ruling set a binding condition (no change to Greek rites without Rome) and was carried out in 1730 (line 19417). I chose 'rule-changed' as the nearest kind; 'split' is arguable. Reviewer to confirm.",
+    "Census pair: the era's Catholic Church entry is the nearest party for Rome; its own text does not mention the Melkites."
+   ],
+   "change_reason": "New. 'Recognized by the pope in 1729' named Rome's act but had no link; the inventory left it as 'no single census entry'. Round 1: outcome made one sentence (R1-11, R1-12).",
+   "group": "F"
+  },
+  {
+   "id": "armenian-christianity-era-8--catholic-church-ancien-regime",
+   "action": "new",
+   "from": "armenian-christianity-era-8",
+   "to": "catholic-church-ancien-regime",
+   "type": "in contact with",
+   "confidence": "Documented",
+   "note": "In 1742 Pope Benedict XIV wrote to Abbot Mekhitar in Venice to thank him for a printed Armenian Bible. In the same year, says the Armenian church leader Malachia Ormanian, the pope gave the Armenians in union with Rome a church of their own. Its patriarch was placed under Rome.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Benedict XIV to Mekhitar, 22 September 1742, as printed in Minas Nurikhan, The Life and Times of Abbot Mechitar, tr. John McQuillan (Venice, 1915)",
+     "file": "cic/texts/nurikhan_life-and-times-of-abbot-mechitar_mcquillan1915.txt",
+     "lines": "14772-14775",
+     "locus": "Documents: papal letter of 22 September 1742",
+     "quote": "We received yesterday from the hands of the Secre- tary of Propaganda the worthy present, so welcomed by Us, of the Armenian Bible, and We return you heartfelt thanks .",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Malachia Ormanian, The Church of Armenia, tr. G. Marcar Gregory (London, 1912)",
+     "file": "cic/texts/ormanian_church-of-armenia_gregory1912.txt",
+     "lines": "4533-4536",
+     "locus": "ch. on the eighteenth century, pp. 86-87",
+     "quote": "Accordingly he gave his sanction to the establishment of an Armeho- Catholic patriarchate which was officially subject to the Roman Curia (1742).",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Minas Nurikhan, The Life and Times of Abbot Mechitar, tr. John McQuillan (Venice, 1915)",
+     "file": "cic/texts/nurikhan_life-and-times-of-abbot-mechitar_mcquillan1915.txt",
+     "lines": "1664-1667",
+     "locus": "Introduction",
+     "quote": "This Catholic movement gave rise to the . insti- tution of the Armenian-Catholic Patriarchate of Ci- licia by the Sovereign Pontiff, Benedict XIV, in 1742, with many privileges.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "armenian-christianity-era-8 relationsSummary, longDescription, why ('Benedict XIV confirmed Abraham Petros I as Catholic patriarch of Cilicia')",
+   "major": true,
+   "outcome": "In 1742 Pope Benedict XIV gave the Armenians in union with Rome a church of their own, with a patriarch placed under Rome.",
+   "outcome_kind": "split",
+   "outcome_evidence": {
+    "file": "cic/texts/ormanian_church-of-armenia_gregory1912.txt",
+    "lines": "4533-4536",
+    "text": "Accordingly he gave his sanction to the establishment of an Armeho- Catholic patriarchate which was officially subject to the Roman Curia (1742)."
+   },
+   "wants": [
+    "Benedict XIV's own act of 1742 confirming Abraham Ardzivian (Abraham Petros I) as Catholic patriarch of Cilicia, in a vendored Bullarium or collection, so the founding act rests on its own text rather than on Ormanian and Nurikhan"
+   ],
+   "drafter_flags": [
+    "The primary (the 1742 letter) documents contact; the patriarchate itself rests on two secondary works from opposite sides (Ormanian, an Apostolic patriarch; Nurikhan, a Mekhitarist), which agree. The outcome rests on Ormanian, a source on the link.",
+    "Ormanian names the first patriarch 'Abraham Ardzivian (1740)'; the entry calls him Abraham Petros I. Same man; the note avoids both names to stay short.",
+    "'Armeho-' is the file's OCR for 'Armeno-'; kept exactly.",
+    "The letter's year: Nurikhan prints it dated 22 September 1742, after a Bible printed 1733-35. Kept as printed."
+   ],
+   "change_reason": "New. Benedict XIV's 1742 act, named in three fields, had no link; the inventory left it as 'no single census entry'. Round 1: outcome made one sentence (R1-11, R1-12). Round 1: long sentence reworded (R1-17).",
+   "group": "F"
+  },
+  {
+   "id": "the-tridentine-church--ruthenian-uniate-18th-century",
+   "action": "new",
+   "from": "the-tridentine-church",
+   "to": "ruthenian-uniate-18th-century",
+   "type": "influenced",
+   "confidence": "Documented",
+   "note": "The Ruthenian synod at Zamość in 1720 wrote that it followed in the footsteps of the fathers of the Council of Trent. Those present professed that they received the Council of Trent. The synod barred parish priests from keeping feasts outside its list, and that list included Corpus Christi, a feast of the Latin church.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Synodus provincialis Ruthenorum habita in civitate Zamosciae anno 1720, in Mansi, Sacrorum conciliorum collectio, vol. 35 (1902 facsimile)",
+     "file": "cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-35-1414-1724-lat_welter-facsimile1902.txt",
+     "lines": "133984-133985",
+     "locus": "Papal confirmation",
+     "quote": "fynodum provincialem Ruthénam in Civitate Zamofcie Anno MDCCXX. celebravit,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Synodus provincialis Ruthenorum habita in civitate Zamosciae anno 1720, in Mansi, Sacrorum conciliorum collectio, vol. 35 (1902 facsimile)",
+     "file": "cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-35-1414-1724-lat_welter-facsimile1902.txt",
+     "lines": "137965-137967",
+     "locus": "Decrees, on books",
+     "quote": "prefens fynodus veltigiis patrum facri concilii Tridentini inherens, ftatuit primo ,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Synodus provincialis Ruthenorum habita in civitate Zamosciae anno 1720, in Mansi, Sacrorum conciliorum collectio, vol. 35 (1902 facsimile)",
+     "file": "cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-35-1414-1724-lat_welter-facsimile1902.txt",
+     "lines": "135553",
+     "locus": "Professions of faith",
+     "quote": "Pariter veneror, & fufcipio Tridentinam",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Synodus provincialis Ruthenorum habita in civitate Zamosciae anno 1720, in Mansi, Sacrorum conciliorum collectio, vol. 35 (1902 facsimile)",
+     "file": "cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-35-1414-1724-lat_welter-facsimile1902.txt",
+     "lines": "141783-141787",
+     "locus": "Decrees, on feasts",
+     "quote": "prohibet fynodus parochis {ub graviflima poena arbitrio ordinarii, ne preter diem  Dominicam, alia fefta ce lebrent » aut populo denuncient, quam ca, que fequuntur.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Synodus provincialis Ruthenorum habita in civitate Zamosciae anno 1720, in Mansi, Sacrorum conciliorum collectio, vol. 35 (1902 facsimile)",
+     "file": "cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-35-1414-1724-lat_welter-facsimile1902.txt",
+     "lines": "142049",
+     "locus": "Decrees, the movable feasts",
+     "quote": "Feftum Corporis, Chrifti Domini.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "ruthenian-uniate-18th-century relationsSummary ('importing Latin devotional practices into its Byzantine rite') and longDescription and why ('importing Roman devotional practices into a Byzantine rite')",
+   "major": true,
+   "outcome": "At Zamość in 1720 the Ruthenian synod made laws it said followed the Council of Trent, and its list of feasts took in Corpus Christi.",
+   "outcome_kind": "rule-changed",
+   "outcome_evidence": {
+    "file": "cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-35-1414-1724-lat_welter-facsimile1902.txt",
+    "lines": "137965-137967",
+    "text": "prefens fynodus veltigiis patrum facri concilii Tridentini inherens, ftatuit primo ,"
+   },
+   "drafter_flags": [
+    "cross-era: era 7",
+    "The Tridentine entry ends in 1650. The tie is the synod's own appeal to Trent, not contact with the church of 1517-1650. The Roman authorities of 1720 (the nuncio Grimaldi presided; Benedict XIII confirmed in 1724) belong to the era-8 Catholic ancien-régime entry; I did not draft that pair, since the four fields do not name Rome as an actor.",
+    "The professions quote is 'Tridentinam' with the noun 'synodum' on the next, garbled line; the note's wording follows the sense.",
+    "That Corpus Christi is a Latin feast is general knowledge, not shown in the quoted lines.",
+    "Major judgment: a synod's own law following Trent, counted as a rule changed by an authority. A reviewer may judge it a practice merely taken up.",
+    "Long s read as f throughout the Mansi OCR ('fynodus', 'Feftum'), kept exactly."
+   ],
+   "change_reason": "New. Grounds 'importing Latin devotional practices' in the synod's own decrees. Round 1: outcome names the binding feast list (R1-13).",
+   "group": "E"
+  },
+  {
+   "id": "kongo-christianity-afonso-to-1650--the-antonian-movement-in-kongo",
+   "action": "new",
+   "from": "kongo-christianity-afonso-to-1650",
+   "to": "the-antonian-movement-in-kongo",
+   "type": "gave rise to",
+   "confidence": "Widely Accepted",
+   "note": "The friar Antonio Zucchelli worked in Kongo until 1704. He writes that its king, Pedro IV, still could not be crowned in the ruined capital. John Thornton's standard study reads the movement of Beatriz Kimpa Vita as part of the faith of that broken kingdom.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Antonio Zucchelli da Gradisca, Merckwürdige Missions- und Reise-Beschreibung nach Congo (German, 1715; Italian 1712)",
+     "file": "cic/texts/zucchelli_missions-und-reise-beschreibung-nach-congo-deu_1715.txt",
+     "lines": "17794-17795",
+     "locus": "on the present king of Kongo",
+     "quote": "iſt vor vielen Jahren zur Koͤniglichen Hoheit in Congo erhaben oder vielmehr eingeſchoben worden, Don Pietro Aqua Roſata;",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Antonio Zucchelli da Gradisca, Merckwürdige Missions- und Reise-Beschreibung nach Congo (German, 1715; Italian 1712)",
+     "file": "cic/texts/zucchelli_missions-und-reise-beschreibung-nach-congo-deu_1715.txt",
+     "lines": "17797-17803",
+     "locus": "Relation on the war for the throne",
+     "quote": "noch ſich in der Haupt⸗Stadt dieſes Königreichs, welches Sanct Salvator iſt konnen kroͤhnen laſſen, welche dahero verwuͤ⸗ get, und einer Wulſteney ähnlicher ſiehet als einer Stadt.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "John K. Thornton, The Kongolese Saint Anthony: Dona Beatriz Kimpa Vita and the Antonian Movement, 1684-1706 (Cambridge, 1998)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "named-not-rechecked",
+   "named_in_text": "the-antonian-movement-in-kongo relationsSummary ('Christianity already two centuries African producing its own prophetess'), longDescription and why ('By 1700 the Kingdom of Kongo had been Christian for two centuries'); kongo-christianity-afonso-to-1650 relationsSummary ('the later prophetic movement of Dona Beatriz (1704) is its own entry')",
+   "wants": [
+    "Bernardo da Gallo's relation to Propaganda Fide on Dona Beatriz and her trial (1710), and Lorenzo da Lucca's relations (1706-1707), in any public-domain edition; the only contemporary record of the movement. Would let this link be Documented."
+   ],
+   "drafter_flags": [
+    "cross-era: era 7. The Kongo entry ends in 1650; the movement is 1704-1706. The link bridges half a century on the ground that the same kingdom's Christianity continued; Zucchelli (1698-1704) shows it still there.",
+    "Thornton is cited in the repo (Build/Ministry/Features/Atlas-World-Map/Design/river-prototype.html, as 'The standard study'); I have not read it. The note's 'reads ... within this Kongolese Christianity' is the repo's description of its thesis, not a checked passage. Hence named-not-rechecked.",
+    "Zucchelli's German OCR keeps 'Aqua Roſata', 'Koͤniglichen' and 'verwuͤ⸗ get' (for 'verwüstet', laid waste); the quotes are verbatim. They name the king ('Don Pietro Aqua Roſata', Pedro IV, raised 'or rather pushed in' as king) and show the capital uncrowned and waste. Round 1: the earlier quote at 11515-11517 was dropped. Read to its clause end (11517-11522) it is a complaint that the missionaries could never persuade the king to give up his thirty-six concubines, not a picture of a Christian king. Neither primary source shows the Antonian movement itself; that part rests on Thornton, not rechecked."
+   ],
+   "change_reason": "New. The entry's first relationship, its rise inside Kongo's two-century-old Christianity, had no link. Round 1: truncated quote dropped; note says why the ruined capital matters (R1-14).",
+   "group": "D"
+  },
+  {
+   "id": "russian-church-stoglav-to-nikon--the-old-believers",
+   "action": "new",
+   "from": "russian-church-stoglav-to-nikon",
+   "to": "the-old-believers",
+   "type": "gave rise to",
+   "confidence": "Documented",
+   "note": "Archpriest Avvakum, the great voice of the Old Believers, was ordained in the Russian church before Nikon's reforms. He writes that he became a deacon at twenty and a priest two years later. His translators date this to about 1644. His spiritual father was Ivan Neronov of St Basil's in Moscow.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Avvakum, The Life of the Archpriest Avvakum by Himself, trans. Jane Harrison and Hope Mirrlees (1924)",
+     "file": "cic/texts/avvakum_life-of-archpriest-avvakum_harrison-mirrlees1924.txt",
+     "lines": "1710-1711",
+     "locus": "Life, opening narrative",
+     "quote": "at the age of twenty I was ordained deacon and, after two years, priest.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Jane Harrison and Hope Mirrlees, 'Life and Times of Avvakum' (chronological table), in The Life of the Archpriest Avvakum by Himself (1924)",
+     "file": "cic/texts/avvakum_life-of-archpriest-avvakum_harrison-mirrlees1924.txt",
+     "lines": "1138",
+     "locus": "Chronological table",
+     "quote": "c. 1644. Avvakum ordained priest.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Avvakum, The Life of the Archpriest Avvakum by Himself, trans. Jane Harrison and Hope Mirrlees (1924)",
+     "file": "cic/texts/avvakum_life-of-archpriest-avvakum_harrison-mirrlees1924.txt",
+     "lines": "2107-2109",
+     "locus": "Life, Nikon's Lenten letter",
+     "quote": "In Lent he sent a pastoral letter to St. Basil’s Minster, to John Neronov. Now he was my ghostly father",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "A. N. Mouravieff, A History of the Church of Russia, trans. R. W. Blackmore (1842)",
+     "file": "cic/texts/mouravieff_history-of-the-church-of-russia_blackmore1842.txt",
+     "lines": "10527-10529",
+     "locus": "ch. XII, Joasaph II",
+     "quote": "The acts themselves of the Council of the Hundred Chapters, which had been the foundation of the vain subtleties in question, were annulled",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "the-old-believers relationsSummary ('The Old Believers grew out of Muscovite Christianity')",
+   "wants": [
+    "The acts of the Moscow council of 1666-67 (printed in Dopolneniia k Aktam istoricheskim, vol. V, which Subbotin cites), for the council's own revocation of the Stoglav"
+   ],
+   "drafter_flags": [
+    "cross-era: era 7",
+    "'c. 1644' is the 1924 translators' chronology, not Avvakum's words; Avvakum gives only his age. The Muscovite entry ends in 1650, so the ordination falls inside it.",
+    "Mouravieff (an official of the Holy Synod, 1838) is the establishment's view that the Stoglav was the ground of the old-rite case; listed as secondary.",
+    "'ghostly father' is the 1924 English; the note says 'spiritual father'."
+   ],
+   "change_reason": "New. Documents 'grew out of Muscovite Christianity' through a named priest of the pre-reform church. Round 1: 'Moscow church' to 'Russian church' (R1-15).",
+   "group": "E"
+  },
+  {
+   "id": "new-spain-and-andes-mission-born-christianity--colonial-latin-american-devotional-catholicism",
+   "action": "new",
+   "from": "new-spain-and-andes-mission-born-christianity",
+   "to": "colonial-latin-american-devotional-catholicism",
+   "type": "continued as",
+   "confidence": "Documented",
+   "note": "The faith of the mission age in Spanish America lived on in the settled church that followed. Turibius, archbishop of Lima, urged the young Rose of Lima to enter a convent of St Clare. Her English life of 1855 says she lived in a New World 'where the faith was only just beginning to spring up.' In 1688 the Jesuit Francisco de Florencia traced the Guadalupe devotion in Mexico back to 1531.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "The Life of Saint Rose of Lima, ed. F. W. Faber (1847; American edition, Philadelphia, 1855)",
+     "file": "cic/texts/faber-fw_life-of-saint-rose-of-lima_1855.txt",
+     "lines": "1411-1413",
+     "locus": "on her choice of a religious life",
+     "quote": "Turibius, the archbishop of Lima, requested her to enter a convent of S. Clare,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "The Life of Saint Rose of Lima, ed. F. W. Faber (1847; American edition, Philadelphia, 1855)",
+     "file": "cic/texts/faber-fw_life-of-saint-rose-of-lima_1855.txt",
+     "lines": "7945-7948",
+     "locus": "on her miracles",
+     "quote": "S. Rose, a nun of the third order of S. Dominic, in the New World, where the faith was only just beginning to spring up",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Francisco de Florencia, La Estrella del Norte de México (written 1688; Guadalajara edition of 1895), author's prologue",
+     "file": "cic/texts/florencia_estrella-del-norte-de-mexico-spa_rosa1895.txt",
+     "lines": "281-283",
+     "locus": "Prólogo del autor",
+     "quote": "y en ella aclara- da su constante tradición, desde el año de 1531 hasta el presente de 1688",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "colonial-latin-american-devotional-catholicism relationsSummary ('This continues the earlier missionary Catholicism of Spanish America into its settled, everyday form'); longDescription ('Once the first missionary generation had passed'); new-spain-and-andes-mission-born-christianity relationsSummary ('colonial Latin American devotional Catholicism continues it')",
+   "wants": [],
+   "drafter_flags": [
+    "cross-era: era 7.",
+    "Data note for the merge: both entries call this a continuation, but new-spain-and-andes-mission-born-christianity has no continuesAs field set. Setting continuesAs to colonial-latin-american-devotional-catholicism would make the record agree with both texts; that is a movement-field change outside this draft.",
+    "Turibius's own dates (archbishop 1581-1606) are not in the quoted lines, so the note does not give them. Villagómez's 1662 beatification digest for him is vendored but its OCR is too garbled to quote cleanly.",
+    "Florencia's claim of an unbroken tradition from 1531 is his own; the note reports it as his. The apparition's early documentation is debated, which is why the note says 'traced' and does not state it as fact."
+   ],
+   "change_reason": "New. Both entries name the continuation, and no link carried it. Round 1: lead sentence states the claim (R1-16).",
+   "group": "D"
+  },
+  {
+   "id": "the-hesychast-revival-paisius-and-the-philokalia--the-optina-elders-and-russian-ascetic-renewal",
+   "action": "new",
+   "from": "the-hesychast-revival-paisius-and-the-philokalia",
+   "to": "the-optina-elders-and-russian-ascetic-renewal",
+   "type": "gave rise to",
+   "confidence": "Documented",
+   "note": "Two monks, Theodore and Cleopas, lived for years in Paisius's monastery and took their vows from him. They went to Russia in 1801 and trained Leonid. In 1829 Leonid moved to the skete at Optina and took charge of the brothers' spiritual care. Optina put out this account in its 1847 edition of Paisius's Life.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Optina's preface ('From the Russian publisher') to the Life and Writings of Paisius Velichkovsky (Moscow, 1847)",
+     "file": "cic/texts/paisius-velichkovsky_zhitie-i-pisaniia-chu_optina1847.txt",
+     "lines": "262-264",
+     "locus": "Preface, Paisius's disciples in Russia",
+     "quote": "пожившіе много лѣтъ въ обители Старца Паѵсія и принявшіе отъ него постриженіе въ монашескій образъ,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Optina's preface ('From the Russian publisher') to the Life and Writings of Paisius Velichkovsky (Moscow, 1847)",
+     "file": "cic/texts/paisius-velichkovsky_zhitie-i-pisaniia-chu_optina1847.txt",
+     "lines": "265-266",
+     "locus": "Preface, Paisius's disciples in Russia",
+     "quote": "вышли въ Рос¬ сію въ 1801 году.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Optina's preface ('From the Russian publisher') to the Life and Writings of Paisius Velichkovsky (Moscow, 1847)",
+     "file": "cic/texts/paisius-velichkovsky_zhitie-i-pisaniia-chu_optina1847.txt",
+     "lines": "277-279",
+     "locus": "Preface, Paisius's disciples in Russia",
+     "quote": "Отъ нихъ получили образованіе въ прохожденіи духовныхъ по¬ двиговъ и умнаго дѣланія: Іеромонахъ Леонидъ (**),",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Optina's preface ('From the Russian publisher') to the Life and Writings of Paisius Velichkovsky (Moscow, 1847)",
+     "file": "cic/texts/paisius-velichkovsky_zhitie-i-pisaniia-chu_optina1847.txt",
+     "lines": "329-332",
+     "locus": "Preface, note on Leonid",
+     "quote": "въ 1829 году перешелъ на жительство въ оный скитъ, гдѣ, по благорасположенію Настоятеля, поручено ему имѣть духов¬ ное руководствованіе братій , жительствующихъ въ Обители.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Life and Writings of Paisius Velichkovsky (Moscow, 1847), title page",
+     "file": "cic/texts/paisius-velichkovsky_zhitie-i-pisaniia-chu_optina1847.txt",
+     "lines": "29-32",
+     "locus": "Title page",
+     "quote": "Изданіе Козельской Иведепскоіі ОПТННОЙ ПУСТЫНИ.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "the-hesychast-revival-paisius-and-the-philokalia relationsSummary ('direct source of the Optina tradition'), why and legacy (after prose changes 2 and 3)",
+   "drafter_flags": [
+    "cross-era: era 9",
+    "Type: the inventory proposed 'influenced'. The preface names people passing from Paisius's house to Optina, which is the 'gave rise to' test; the Optina printing of Paisius is the influence, and it is carried here as a source rather than a second link.",
+    "The era-9 Optina entry ('Grew out of the Philokalia tradition') names the same pair; the era-9 drafters may draft it too. Merge by id.",
+    "The title page OCR reads 'Иведепскоіі ОПТННОЙ' for 'Введенской Оптиной'; the quote keeps the OCR."
+   ],
+   "change_reason": "New. The documented teacher-to-pupil chain from Neamț to Optina. Round 1: long sentence split; 'printed' to 'put out', as in the legacy (R1-17, R1-20).",
+   "group": "E"
+  },
+  {
+   "id": "the-union-of-brest-and-ruthenian-greek-catholic---ruthenian-uniate-18th-century",
+   "action": "new",
+   "from": "the-union-of-brest-and-ruthenian-greek-catholic-",
+   "to": "ruthenian-uniate-18th-century",
+   "type": "continued as",
+   "confidence": "Documented",
+   "note": "Pope Pius VII's bull of 1807 traces one line of church. It begins with the union agreed at a council in Brest by Michael, metropolitan of Kyiv, and the Ruthenian bishops. It runs on to their synod at Zamość in 1720. A Uniate plea of about 1772 claims rights both from Clement VIII, the pope of the union, and from 'its own' Zamość synod.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Pius VII, bull 'In universalis Ecclesiae regimine' (1807) restoring the metropolia of Halych, printed in M. Harasiewicz, Annales Ecclesiae Ruthenae (Lviv, 1862)",
+     "file": "cic/texts/harasiewicz_annales-ecclesiae-ruthenae-lat_1862.txt",
+     "lines": "37073-37074",
+     "locus": "Bull, narrative",
+     "quote": "cum Miehael Tertius Kioviensis Metropolita assentientibus alis Episcopis Ruthenis concilio eoaecto in civitate Brestiae,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Pius VII, bull 'In universalis Ecclesiae regimine' (1807) restoring the metropolia of Halych, printed in M. Harasiewicz, Annales Ecclesiae Ruthenae (Lviv, 1862)",
+     "file": "cic/texts/harasiewicz_annales-ecclesiae-ruthenae-lat_1862.txt",
+     "lines": "37095-37097",
+     "locus": "Bull, narrative",
+     "quote": "de speciali assensu felicis recordationis Clementis Papae un- decimi Predecessoris Nostri coaeta in civitate Zamosciae Synodo Nationali Ruthena",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Metropolitan's statement citing the bull, in M. Harasiewicz, Annales Ecclesiae Ruthenae (Lviv, 1862)",
+     "file": "cic/texts/harasiewicz_annales-ecclesiae-ruthenae-lat_1862.txt",
+     "lines": "41140-41141",
+     "locus": "Annales, after 1808",
+     "quote": "Juxta Literas apostolieas Papae Pii VII, quae incipiunt ,ln universalis Ecclesiae regimine^ an. incarn. Dnicae 1807",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Apollogia, że Rusi Unitom nie godzi się odstępować od swojego Obrządku ([1772])",
+     "file": "cic/texts/anonymous-uniate_apollogia-rusi-unitom-obrzadek-pol_1772.txt",
+     "lines": "2295-2299",
+     "locus": "Apollogia, on the Uniates' rights",
+     "quote": "ź Konftytucyi Apoftolfkich Jnnocente- go IV. Klemensa VIII. Pawła V. Ur- bana VIII. Benedykta XIII. y XIV. iuż to z Synodu fwoiego Zamoyfkie- go od S. Stolicy approbowanego ,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Bull of Benedict XIII confirming the synod of Zamość, in Mansi, Sacrorum conciliorum collectio, vol. 35 (1902 facsimile)",
+     "file": "cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-35-1414-1724-lat_welter-facsimile1902.txt",
+     "lines": "133978-133980",
+     "locus": "Synodus provincialis Ruthenorum, papal confirmation",
+     "quote": "Exponi_ fiquidem nobis nuper fecit venerabilis Fra- ter modernus metropolita Ruffie, quod ipfe una cum venerabilibus Fratribus epifcopis Ruthenis unitis",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "ruthenian-uniate-18th-century longDescription and why ('A century after the Union of Brest, the Greek Catholic church of the Ruthenian lands')",
+   "drafter_flags": [
+    "cross-era: era 7",
+    "Inventory said 'descent'; the census types have no 'descent'. The sources show the same hierarchy and see across the period split, which is the 'continued as' test.",
+    "OCR kept exactly: 'Miehael' (Michael), 'alis' (aliis), 'eoaecto' (coacto); Polish long s read as f in the Apollogia ('Konftytucyi', 'fwoiego').",
+    "The bull is a Roman document; the Apollogia is the Uniates' own voice. That Clement VIII was the pope of the union comes from the bull (lines 37062-37082)."
+   ],
+   "change_reason": "New. The period split between the Brest and eighteenth-century entries. Round 1: long sentence split (R1-17).",
+   "group": "E"
+  },
+  {
+   "id": "czech-churches-last-century--the-moravian-church-at-herrnhut",
+   "action": "new",
+   "from": "czech-churches-last-century",
+   "to": "the-moravian-church-at-herrnhut",
+   "type": "continued as",
+   "confidence": "Contested",
+   "note": "The Moravians' own history, by David Cranz, says a hidden 'seed of the Brethren' lived on near Fulnek in Moravia. In 1735 the old Unity's senior bishop, Daniel Ernst Jablonski, made David Nitschmann a bishop. Yet Zinzendorf first meant Herrnhut to renew the Lutheran church. So how far it was the old Unity reborn is open to question.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "David Cranz, The Ancient and Modern History of the Brethren, trans. and ed. Benjamin La Trobe (1780)",
+     "file": "cic/texts/cranz_ancient-and-modern-history-of-the-brethren_latrobe1780.txt",
+     "lines": "4784-4786",
+     "locus": "Modern History, Part I, section 2",
+     "quote": "In Fulnek , formerly the cure of Comenius, the laft Bo- hemian-Moravian bifhop, and in the circumjacent vil¬ lages, a numerous feed of the Brethren ftill lay hid;",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "David Cranz, The Ancient and Modern History of the Brethren, trans. and ed. Benjamin La Trobe (1780)",
+     "file": "cic/texts/cranz_ancient-and-modern-history-of-the-brethren_latrobe1780.txt",
+     "lines": "9365-9368",
+     "locus": "Modern History, on the 1735 consecration",
+     "quote": "The count had already carried on a correfpondence with Dr. JablonJky, then the eldeft bilhop, or fenior, of the Brethren’s Unity, about the renewal of the epifcopal ordination.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "David Cranz, The Ancient and Modern History of the Brethren, trans. and ed. Benjamin La Trobe (1780)",
+     "file": "cic/texts/cranz_ancient-and-modern-history-of-the-brethren_latrobe1780.txt",
+     "lines": "4362-4365",
+     "locus": "Ancient History, Part IV, list of bishops, no. 67",
+     "quote": "David Nitfchmann , confecrated in 1735 by Ja’blonfky at Berlin, bifhop of the Moravian Brethren, &c.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "August Gottlieb Spangenberg, The Life of Nicholas Lewis Count Zinzendorf, abridged trans. Samuel Jackson (1838)",
+     "file": "cic/texts/spangenberg_life-of-zinzendorf_jackson1838.txt",
+     "lines": "3379-3381",
+     "locus": "page headed 'Religious Efforts', quoting Zinzendorf",
+     "quote": "That which first gave rise to the institutions in Upper Lusatia, was Spener's idea of planting little churches in the great church,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "August Gottlieb Spangenberg, The Life of Nicholas Lewis Count Zinzendorf, abridged trans. Samuel Jackson (1838)",
+     "file": "cic/texts/spangenberg_life-of-zinzendorf_jackson1838.txt",
+     "lines": "3403-3406",
+     "locus": "page headed 'Religious Efforts'",
+     "quote": "The Count having in view Spener's idea of a reformation of the church, took it for granted, that its accomplishment was to be by means of a faithful repetition and promulgation of Luther's evangelical doctrines,",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "the-moravian-church-at-herrnhut relationsSummary ('saw itself as the old Bohemian Unity of the Brethren made new', after prose change 4), longDescription and why ('the remnant of the Unity of the Brethren'), legacy ('the hidden-seed story, as the Moravians tell it', after prose change 5)",
+   "wants": [
+    "The Brotherly Agreement and Statutes of Herrnhut (1727) and the 13 August 1727 account, in a public-domain edition",
+    "A modern account of the Herrnhut refugees' origins (e.g. Atwood, Community of the Cross, cited in the census sources) checked in the repo before any higher grade"
+   ],
+   "drafter_flags": [
+    "cross-era: era 7. The census continuesAs field already pairs these two; this is its link.",
+    "Cranz is the Unity's own official history, so it speaks for one side. Spangenberg, also a Moravian, supplies the other: Zinzendorf's own aim was Spener's 'little churches in the great church' and Luther's doctrine. I did not cite a modern scholar for the disagreement because I found none in the repo that I could check; the note words it as 'open to question', grounded in those two texts.",
+    "Cranz quotes keep the OCR exactly ('Fulnek ,', 'bifhop', 'vil¬ lages', 'JablonJky', 'Ja’blonfky')."
+   ],
+   "change_reason": "New. The continuity the census already asserts, graded at the level its own sources allow. Round 1: Spangenberg quote cut at a clause boundary to 33 words (R1-18).",
+   "group": "A"
+  },
+  {
+   "id": "restoration-georgian-church-of-england--early-american-unitarians-universalists",
+   "action": "new",
+   "from": "restoration-georgian-church-of-england",
+   "to": "early-american-unitarians-universalists",
+   "type": "gave rise to",
+   "confidence": "Documented",
+   "note": "King's Chapel in Boston was a Church of England congregation. In 1785, 'torn from that King and Church', it printed its own prayer book. It took most of the text from the Book of Common Prayer. But it left out the Gloria Patri, the old praise of Father, Son and Spirit, and it prayed to God the Father alone, through Christ.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "A Liturgy, collected principally from the Book of Common Prayer, for the use of the First Episcopal Church in Boston (1785)",
+     "file": "cic/texts/kings-chapel_liturgy-collected-principally-from-the-book-of-common-prayer_1785.txt",
+     "lines": "98-101",
+     "locus": "Preface",
+     "quote": "Being torn from that King and Church, the Society for whofe ufe this Liturgy is publilhed, think themfelves at liberty, and well juftified even by the declarations of the Church of England",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "A Liturgy, collected principally from the Book of Common Prayer, for the use of the First Episcopal Church in Boston (1785)",
+     "file": "cic/texts/kings-chapel_liturgy-collected-principally-from-the-book-of-common-prayer_1785.txt",
+     "lines": "168-170",
+     "locus": "Preface, on the Gloria Patri",
+     "quote": "and adopted into the Book of Common Prayer, is not in this Liturgy.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "early-american-unitarians-universalists relationsSummary ('King's Chapel in Boston revised its prayer book to remove the Trinity'), longDescription and why ('an Anglican congregation left leaderless by the Revolution')",
+   "wants": [
+    "The Episcopal side: Bishop Seabury's and Bishop Provoost's refusal to ordain James Freeman (1787), and the congregation's own ordination of him, so the departure is shown from both sides"
+   ],
+   "drafter_flags": [
+    "Graded on one congregation: the first Unitarian church in America came out of a Church of England parish, by its own record. The movement's other root, inside New England Congregationalism, has no census entry and is not claimed here.",
+    "The note glosses the Gloria Patri as 'the old praise of Father, Son and Spirit'; that is what the hymn says, not something the preface states.",
+    "Belsham's American Unitarianism (1815, vendored) prints Freeman's letters on King's Chapel to Theophilus Lindsey; that bears on the 'English precedent' clause, which has no census entry yet (see escalations)."
+   ],
+   "change_reason": "New. Documents the King's Chapel sentence as descent from the Church of England. Round 1: King's Chapel quote cut to its main clause (R1-18).",
+   "group": "B"
+  },
+  {
+   "id": "philippine-catholicism--philippine-catholicism-era-8",
+   "action": "new",
+   "from": "philippine-catholicism",
+   "to": "philippine-catholicism-era-8",
+   "type": "continued as",
+   "confidence": "Documented",
+   "note": "A Recollect chronicle printed in 1743 tells how bishops first tried, in 1654-56, to inspect the friars who served as parish priests. It calls the friars' way of running their parishes the practice 'always followed' in the islands. The same orders and parishes carried on.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Diego de Santa Theresa, Historia general de los religiosos descalzos de San Agustín, part III (Barcelona, 1743), tr. in Blair and Robertson, The Philippine Islands, vol. 36 (1906)",
+     "file": "cic/texts/blair-robertson_philippine-islands-v36_1906.txt",
+     "lines": "3800-3801",
+     "locus": "Decade VII, book II, ch. II, year 1656 (editors' bracketed summary)",
+     "quote": "[In 1654 the first mutterings of the storm caused by the visitation of the regulars by the bishops break in the Philippines.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Diego de Santa Theresa, Historia general de los religiosos descalzos de San Agustín, part III (Barcelona, 1743), tr. in Blair and Robertson, The Philippine Islands, vol. 36 (1906)",
+     "file": "cic/texts/blair-robertson_philippine-islands-v36_1906.txt",
+     "lines": "3810-3813",
+     "locus": "Decade VII, book II, ch. II, § I, no. 719",
+     "quote": "The system that they have always followed in the spiritual administration of the missions and villages which they have formed at the cost of their sweat is the same as that observed in América in the beginning",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "philippine-catholicism-era-8 relationsSummary ('This continues the story of Philippine Catholicism')",
+   "wants": [],
+   "drafter_flags": [
+    "cross-era: era 7. The era-7 drafter may draft the same pair; merge.",
+    "Line 3800-3801 is Blair and Robertson's bracketed summary of the chronicle, not the chronicle's words; the chronicle's own words are the second quote. The phrase 'always followed' in the note is from the chapter heading (line 3792), 'Relation of the practice that has always been followed in the spiritual administration of the islands'.",
+    "The quote is in English translation (Robertson's), not Santa Theresa's Spanish."
+   ],
+   "change_reason": "New. The entry says it continues the earlier Philippine entry; no link joined them. Round 1: Recollect quote cut to 38 words (R1-18).",
+   "group": "F"
+  },
+  {
+   "id": "restoration-georgian-church-of-england--the-baptists",
+   "action": "new",
+   "from": "restoration-georgian-church-of-england",
+   "to": "the-baptists",
+   "type": "argued against",
+   "confidence": "Documented",
+   "note": "John Bunyan of Bedford was charged before the justices. They said he stayed away from the parish church and held unlawful meetings. An Act of Parliament in 1664 banned any religious meeting of more than four people outside Church of England ways. A Baptist historian wrote in 1909 that for three years the General Baptists could hold no open assembly.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "John Bunyan, A Relation of the Imprisonment of Mr. John Bunyan (written 1660s; printed 1765), ed. John Brown (1907)",
+     "file": "cic/texts/bunyan_grace-abounding-relation-of-imprisonment-pilgrims-progress_brown1907.txt",
+     "lines": "5668-5669",
+     "locus": "Relation of Imprisonment, the bill of indictment at the Bedford quarter-sessions",
+     "quote": "That John Bunyan of the town of Bedford, labourer,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "John Bunyan, A Relation of the Imprisonment of Mr. John Bunyan (written 1660s; printed 1765), ed. John Brown (1907)",
+     "file": "cic/texts/bunyan_grace-abounding-relation-of-imprisonment-pilgrims-progress_brown1907.txt",
+     "lines": "5670-5673",
+     "locus": "Relation of Imprisonment, the bill of indictment at the Bedford quarter-sessions",
+     "quote": "he hath (since such a time) devilishly and perniciously abstained from coming to church to hear divine service, and is a common upholder of several unlawful meetings and conventicles",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "W. T. Whitley, editor's note in Minutes of the General Assembly of the General Baptist Churches, vol. I (1909)",
+     "file": "cic/texts/general-baptist-assembly_minutes-v1-1654-1728_whitley1909.txt",
+     "lines": "10246-10249",
+     "locus": "Notes on the Standard Confession and the assemblies of the 1660s",
+     "quote": "in 1664 a new Conventicle Act was passed, strengthening the Act of Elizabeth, and rendering all religious meetings of more than four people illegal, unless they were in accordance with the practice of the Church of England.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "W. T. Whitley, editor's note in Minutes of the General Assembly of the General Baptist Churches, vol. I (1909)",
+     "file": "cic/texts/general-baptist-assembly_minutes-v1-1654-1728_whitley1909.txt",
+     "lines": "10249-10250",
+     "locus": "Notes on the Standard Confession and the assemblies of the 1660s",
+     "quote": "During the three years for which it was passed, no Assembly could meet openly, so probably none was held till 1668.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "the-baptists longDescription ('They were persecuted hard under the Restoration — John Bunyan spent twelve years in Bedford gaol')",
+   "major": true,
+   "outcome": "A law of 1664 banned any religious meeting of more than four people that did not follow the ways of the Church of England.",
+   "outcome_kind": "council-law",
+   "outcome_evidence": {
+    "file": "cic/texts/general-baptist-assembly_minutes-v1-1654-1728_whitley1909.txt",
+    "lines": "10246-10249",
+    "text": "in 1664 a new Conventicle Act was passed, strengthening the Act of Elizabeth, and rendering all religious meetings of more than four people illegal, unless they were in accordance with the practice of the Church of England."
+   },
+   "wants": [
+    "The Conventicle Act of 1664 (16 Car. II c. 4) and the Act of 1670, from Statutes of the Realm vol. V, to replace Whitley's summary with the statute's own words",
+    "The Bedford church book (Bunyan Meeting), in a public-domain edition, for the congregation's own record of the persecution"
+   ],
+   "drafter_flags": [
+    "The acts against Bunyan and the 1664 Act were the restored state's, enforcing the restored church's worship. The link treats them as the Restoration church's act, as that entry's own text does for the Act of Uniformity. A reviewer may prefer to say this is the church-state settlement, not the church alone.",
+    "Bunyan's own place among the Baptists is debated (his Bedford church did not make baptism a test of membership); the census counts him a Baptist and the corpus map places Grace Abounding with them. Whitley's note on the General Baptists carries the Baptist side independently of Bunyan.",
+    "The outcome evidence is Whitley's 1909 editorial summary of the Act, not the statute. It is printed in a vendored file and is a source on this link, but it is secondary; flagged for the reviewer's judgment on 'major'.",
+    "Round 1: the note now names who acted: the justices charged Bunyan, and Parliament passed the 1664 Act (Whitley: 'the Government', 'the Cavalier Parliament', lines 10238-10241). The 46-word indictment quote is split at its clause boundary into two quotes (7 and 27 words), keeping both charges."
+   ],
+   "change_reason": "New. Documents the persecution the Baptist text names. Round 1: note names the state actors; long quote split (R1-18, R1-24).",
+   "group": "B"
+  },
+  {
+   "id": "port-royal-jansenism--the-society-of-jesus",
+   "action": "new",
+   "from": "port-royal-jansenism",
+   "to": "the-society-of-jesus",
+   "type": "argued against",
+   "confidence": "Documented",
+   "note": "In 1656 Blaise Pascal addressed several of his Provincial Letters to the Jesuits by name. He knew the Port-Royal recluses well, and Arnauld and Nicole revised his drafts. His sixteenth letter defended the Port-Royal nuns against a Jesuit book.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Blaise Pascal, Provincial Letters, Letter XVI (4 December 1656), tr. Thomas M'Crie (1856)",
+     "file": "cic/texts/pascal_provincial-letters_mcrie1856.txt",
+     "lines": "11794",
+     "locus": "Letter XVI, heading",
+     "quote": "TO THE REVEREND FATHERS, THE JESUITS.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Blaise Pascal, Provincial Letters, Letter XVI (4 December 1656), tr. Thomas M'Crie (1856)",
+     "file": "cic/texts/pascal_provincial-letters_mcrie1856.txt",
+     "lines": "11896-11899",
+     "locus": "Letter XVI",
+     "quote": "to publish in Paris such a scandalous book, with the name of your Father Meynier on its front, and under this infamous title, “Port-Royal and Geneva in concert against the most holy Sacrament of the Altar,”",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Blaise Pascal, Provincial Letters, Letter XVI (4 December 1656), tr. Thomas M'Crie (1856)",
+     "file": "cic/texts/pascal_provincial-letters_mcrie1856.txt",
+     "lines": "11875-11876",
+     "locus": "Letter XVI",
+     "quote": "I do know some of them, and honor the virtue of them all.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Thomas M'Crie, historical introduction to The Provincial Letters (1856)",
+     "file": "cic/texts/pascal_provincial-letters_mcrie1856.txt",
+     "lines": "1269-1271",
+     "quote": "As Pascal proceeded, he transmitted his manuscripts to Port-Royal des Champs, where they were carefully revised and corrected by Arnauld and Nicole.",
+     "locus": "Introduction",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "John Mason Neale, A History of the So-called Jansenist Church of Holland (1858)",
+     "file": "cic/texts/neale_history-so-called-jansenist-church-of-holland_1858.txt",
+     "lines": "1285-1289",
+     "quote": "Blaise Pascal was at this time in the thirty-fourth year of his age, and intimately connected, not only with Arnauld, but with Nicole, Lemaistre, Le Maistre de Sacy, and the rest of the recluses at Port-Royal-des- Champs.",
+     "locus": "ch. on the Provincial Letters",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "port-royal-jansenism longDescription and why ('Provincial Letters mocked Jesuit moral reasoning'; 'read Augustine on grace harder than the Jesuits ... could tolerate')",
+   "major": false,
+   "minor_reason": "Polemical letters; no council, split or authority's ruling on the link's own sources.",
+   "wants": [],
+   "drafter_flags": [
+    "cross-era: era 7. The Society of Jesus entry runs 1540-1650; Pascal wrote in 1656. No later Jesuit entry exists, and the order is one continuous body, so the link goes to it. Reviewer may want this window question settled fleet-wide.",
+    "Pascal denies in the same letter that he belongs to Port-Royal (lines 11866-11868); the note says he knew the recluses, not that he was one. The census text's 'in its orbit' fits this.",
+    "M'Crie and Neale are 19th-century historians, kept as secondary.",
+    "The Society of Jesus entry's dates (1540-1650) end before this event (Pascal's letters of 1656). The link goes to it because the order is one continuous body and has no later entry. The target entry's dates belong to era 7; they are not changed here."
+   ],
+   "change_reason": "New. Documents the attack on the Jesuits the entry names. Round 1: date flag on the Jesuit entry added, made uniform across the three links.",
+   "group": "C"
+  },
+  {
+   "id": "the-society-of-jesus--port-royal-jansenism",
+   "action": "new",
+   "from": "the-society-of-jesus",
+   "to": "port-royal-jansenism",
+   "type": "argued against",
+   "confidence": "Documented",
+   "note": "In 1643 Mother Angélique Arnauld wrote that Jesuit preachers were attacking Jansen from the pulpit. They called him a Calvin warmed over. In 1656 Pascal answered a Jesuit book by Father Meynier. Its title tied Port-Royal to Geneva in a plot against the Mass.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Mère Marie Angélique Arnauld, Lettres, tome I (1742), letter CXXXII (1643)",
+     "file": "cic/texts/arnauld-angelique_lettres-t1-fra_1742.txt",
+     "lines": "11252-11255",
+     "locus": "Lettre CXXXII",
+     "quote": "Les Pères Jefuites crient en chaire d'une manière étrange contre M. d'Ypres, juf- 3u'à l'appeller un Calvin rebouilli",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Blaise Pascal, Provincial Letters, Letter XVI (4 December 1656), tr. Thomas M'Crie (1856)",
+     "file": "cic/texts/pascal_provincial-letters_mcrie1856.txt",
+     "lines": "11896-11899",
+     "locus": "Letter XVI",
+     "quote": "to publish in Paris such a scandalous book, with the name of your Father Meynier on its front, and under this infamous title, “Port-Royal and Geneva in concert against the most holy Sacrament of the Altar,”",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "port-royal-jansenism longDescription and why ('harder than the Jesuits ... could tolerate')",
+   "major": false,
+   "minor_reason": "Sermons and a pamphlet; no institutional act on the link's sources.",
+   "wants": [
+    "Father Bernard Meynier, Le Port-Royal et Genève d'intelligence contre le très-Saint Sacrement de l'autel (1656), to show the Jesuit side in its own words rather than through Pascal"
+   ],
+   "drafter_flags": [
+    "cross-era: era 7.",
+    "Angélique's letter is OCR of the 1742 edition: '3u'à' is the file's reading of 'jusqu'à' broken across the line ('juf- 3u'à'). Quote kept exactly. 'M. d'Ypres' is Jansen, bishop of Ypres. The letter's year, 1643, is the edition's marginal date (line 11244).",
+    "The 1643 letter falls inside the Jesuit entry's 1540-1650 window; the 1656 book falls after it (see the reverse link).",
+    "The Society of Jesus entry's dates (1540-1650) end before this event (Meynier's book of 1656; the 1643 letter falls inside them). The link goes to it because the order is one continuous body and has no later entry. The target entry's dates belong to era 7; they are not changed here."
+   ],
+   "change_reason": "New. The Jesuit side of the quarrel, from Port-Royal's abbess and from Pascal's report of a named Jesuit book. Round 1: date flag on the Jesuit entry added, made uniform across the three links.",
+   "group": "C"
+  },
+  {
+   "id": "catholic-church-ancien-regime--the-society-of-jesus",
+   "action": "new",
+   "from": "catholic-church-ancien-regime",
+   "to": "the-society-of-jesus",
+   "type": "argued against",
+   "confidence": "Documented",
+   "note": "In 1773 Pope Clement XIV shut down the Society of Jesus by his own power as pope. His order says the kings of France, Spain, Portugal and Sicily had already thrown it out. In 1814 Pius VII brought the order back.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Clement XIV, brief Dominus ac Redemptor (21 July 1773), English from the London Chronicle, in The Bulls of Popes Clement XIV. and Pius VII. (London, 1814)",
+     "file": "cic/texts/clement-xiv_bulls-suppression-and-restoration-of-the-jesuits-lat-eng_1814.txt",
+     "lines": "1273-1276",
+     "locus": "Dominus ac Redemptor, narrative of the expulsions",
+     "quote": "the Kings of France, Spain, Portugal, \" and Sicily, found themselves reduced to the necessity of expel- \" line; and driving from their states, kingdoms, and provinces, these \" very companions of Jesus",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Clement XIV, brief Dominus ac Redemptor (21 July 1773), English from the London Chronicle, in The Bulls of Popes Clement XIV. and Pius VII. (London, 1814)",
+     "file": "cic/texts/clement-xiv_bulls-suppression-and-restoration-of-the-jesuits-lat-eng_1814.txt",
+     "lines": "1362-1366",
+     "locus": "Dominus ac Redemptor, the suppression clause",
+     "quote": "After a mature deliberation, we do, out of \" our certain knowledge, and the fulness of our apostolical power, \" suppress and aeolish the said company",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Pius VII, bull Sollicitudo omnium ecclesiarum (7 August 1814), English from the Orthodox Journal, in The Bulls of Popes Clement XIV. and Pius VII. (London, 1814)",
+     "file": "cic/texts/clement-xiv_bulls-suppression-and-restoration-of-the-jesuits-lat-eng_1814.txt",
+     "lines": "145-146",
+     "locus": "Sollicitudo omnium ecclesiarum",
+     "quote": "had been members of the Company of Jesus, suppressed by \" Clement XIV. of happy memory",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Pius VII, bull Sollicitudo omnium ecclesiarum (7 August 1814), English from the Orthodox Journal, in The Bulls of Popes Clement XIV. and Pius VII. (London, 1814)",
+     "file": "cic/texts/clement-xiv_bulls-suppression-and-restoration-of-the-jesuits-lat-eng_1814.txt",
+     "lines": "450-452",
+     "locus": "Sollicitudo omnium ecclesiarum, the restoring clause",
+     "quote": "in order that the said States may freely and lawfully receive all \" those who shall wish to be admitted into the regular order of \" the Company of Jesus",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "catholic-church-ancien-regime relationsSummary ('the expulsion and suppression of the Jesuits between 1759 and 1773'; 'the Jesuits restored in 1814'), longDescription, why and legacy",
+   "major": true,
+   "outcome": "In 1773 Pope Clement XIV shut down the Society of Jesus, after the kings of France, Spain, Portugal and Sicily had thrown it out.",
+   "outcome_kind": "council-law",
+   "outcome_evidence": {
+    "file": "cic/texts/clement-xiv_bulls-suppression-and-restoration-of-the-jesuits-lat-eng_1814.txt",
+    "lines": "1362-1366",
+    "text": "After a mature deliberation, we do, out of \" our certain knowledge, and the fulness of our apostolical power, \" suppress and aeolish the said company"
+   },
+   "wants": [],
+   "drafter_flags": [
+    "cross-era: era 7. The Society's own entry ends in 1650; the suppression is the act of the later Roman see on the same order.",
+    "The inventory read 'the Jesuits restored in 1814' as 'continued as'. It is not: the restored Society is the same order and has no later entry of its own. The restoration is carried in this note instead.",
+    "The English of the 1773 brief is a newspaper translation of 1773 reprinted in 1814; the OCR reads 'aeolish' for 'abolish', and the editor's quotation marks open every line. Quotes keep both.",
+    "The year 1773 is in the work field (the brief's date), from the file's own header and the editor's note.",
+    "The Society of Jesus entry's dates (1540-1650) end before this event (the suppression of 1773 and the restoration of 1814). The link goes to it because the order is one continuous body and has no later entry. The target entry's dates belong to era 7; they are not changed here."
+   ],
+   "change_reason": "New. The entry names the expulsion, suppression and restoration of the Jesuits four times and had no link. Round 1: date flag on the Jesuit entry added, made uniform across the three links.",
+   "group": "D"
+  }
+ ],
+ "prose_changes": [
+  {
+   "n": "A0",
+   "movement": "german-pietism-spener-francke-halle",
+   "field": "relationsSummary",
+   "old": "Pietism grew out of Lutheran devotion together with the influence of Dutch Reformed precisianism, and gave rise in turn to the Moravian Church and the wider Protestant missionary movement. Württemberg Pietism, associated with Johann Albrecht Bengel, belongs within this same movement.",
+   "new": "Pietism grew out of Lutheran devotion. Spener's Pia Desideria first came out as a preface to a book of sermons by Johann Arndt. Pietism may also owe something to the strict Dutch Reformed piety called precisianism, but how much is not clear. Pietism shaped the Moravian Church at Herrnhut. It also sent some of the first Protestant missions out of Europe. Pietism in Württemberg, linked with Johann Albrecht Bengel, belongs to this same movement.",
+   "reason": "'Gave rise in turn to the Moravian Church' overstates: the Herrnhut refugees came from the old Unity, and Pietism reached them through Zinzendorf (now the influenced link). 'The influence of Dutch Reformed precisianism' is stated as fact, but no vendored Pietist text names a Dutch source, so it is qualified with the reason. 'Gave rise to the wider Protestant missionary movement' becomes 'sent some of the first Protestant missions out of Europe', the entry's own claim and supported by Guericke on Tranquebar. The Lutheran root is kept and now shown: Pia Desideria began as a preface to Arndt's postil. Old field scored FRE 27; whole field rewritten. Round 1: R1-23: 'no early Pietist text we hold names a Dutch source' was build language; now states the uncertainty plainly. Long sentence split.",
+   "fre_after": 62.2,
+   "fk_after": 7.7,
+   "group": "A"
+  },
+  {
+   "n": "B0",
+   "movement": "the-evangelical-awakening-in-new-england",
+   "field": "relationsSummary",
+   "old": "The awakening grew out of New England Puritanism and became a parent of later American revival culture and the missionary movement. It also reached into the middle and southern colonies, through preachers like the Tennents and the revival at Hanover, Virginia — though historians are divided on whether that counts as part of the same movement or a separate one. Through the Black and Native Christian writing it produced, it stands among the parent traditions of the Black Church in America.",
+   "new": "The awakening grew out of New England's Puritan churches. Jonathan Edwards built on their books. George Whitefield, the English Methodist preacher, made it normal to preach from town to town. It also reached the middle and southern colonies, through preachers like the Tennents and the revival at Hanover, Virginia. Historians do not agree whether that was the same movement or another one. William Carey, who began the Baptist mission to India, held up its missionary David Brainerd as a model. Later American revivals and the Black Church may owe it a debt too. But no direct tie has been traced.",
+   "reason": "Three claims corrected. 'Parent of later American revival culture' and 'among the parent traditions of the Black Church' have no vendored support and are now said plainly as possibilities. 'Parent of the missionary movement' is made concrete (Carey and Brainerd, documented). Whitefield's role (documented through Chauncy) is added because the text's own description names it. Puritan descent is kept as 'grew out of New England's Puritan churches'. The Tennents and Hanover sentence and its open question are kept. Rewritten whole for reading level. Round 1: R1-23: build language removed; the debt stays qualified.",
+   "fre_after": 60.5,
+   "fk_after": 7.9,
+   "group": "B"
+  },
+  {
+   "n": "B1",
+   "movement": "the-evangelical-awakening-in-new-england",
+   "field": "longDescription",
+   "old": "It began in the winter of 1734-35 in Northampton, Massachusetts, where the town's minister, Jonathan Edwards, watched an ordinary Connecticut Valley congregation come apart and remake itself in a wave of conversions. And then did something unusual: he wrote down what had happened, case by case, including a young woman the town had thought beyond hope and a four-year-old girl. When the English preacher George Whitefield toured the colonies from 1739, scattered local revivals became a general one, with itinerants crossing parish lines and crowds gathering in the open air. It split New England's churches: the New Lights defended the awakening, the Old Lights — Charles Chauncy of Boston foremost among them — attacked it as enthusiasm and disorder, and hundreds of Separate congregations broke away, a great many of them becoming Baptist. It also produced the first substantial body of Christian writing by Black and Native people in the colonies.",
+   "new": "It began in the winter of 1734-35 in Northampton, Massachusetts. There the town's minister, Jonathan Edwards, watched an ordinary church in the Connecticut Valley come apart and remake itself in a wave of conversions. Then he did something unusual: he wrote down what had happened, case by case. His cases included a young woman the town had thought beyond hope and a four-year-old girl. The English preacher George Whitefield toured the colonies from 1739, and scattered local revivals became a general one. Preachers crossed parish lines, and crowds met in the open air. The awakening split New England's churches. The New Lights defended it. The Old Lights, led by Charles Chauncy of Boston, attacked it as 'enthusiasm', false claims to the Spirit, and disorder. Hundreds of Separate congregations broke away. Many of them may later have become Baptist, but how many is unclear. Black and Native Christians of its world also began to write. Among them were the poet Phillis Wheatley and the preacher Samson Occom.",
+   "reason": "Two claims qualified. 'A great many of them becoming Baptist' has no vendored or repo-cited source and is now a stated possibility. 'The first substantial body of Christian writing by Black and Native people in the colonies' is a superlative no source in hand states, and the published works (Occom 1772, Wheatley 1773) fall after the window; it now says Black and Native Christians of its world began to write, naming Wheatley and Occom. The sentence fragment 'And then did something unusual' is repaired. 'Enthusiasm' kept and glossed. Rewritten whole for reading level; every other fact kept. Round 1: R1-23: build language removed; the Baptist outcome stays qualified.",
+   "fre_after": 60.9,
+   "fk_after": 7.9,
+   "group": "B"
+  },
+  {
+   "n": "B3",
+   "movement": "the-evangelical-awakening-in-new-england",
+   "field": "legacy",
+   "old": "It left no church of its own — the awakening ran through existing Congregational parishes and broke some of them — but it reshaped American religion permanently. It made the revival meeting and the itinerant preacher normal instruments, filled the Baptist churches with Separate converts, and produced in Edwards the most substantial theologian America has yet made, still argued over three centuries later. It seeded the first generation of Black and Native Christian writing in North America. And the missionary societies of the following century traced their impulse back to it, often explicitly, through Edwards's Life of David Brainerd.",
+   "new": "It left no church of its own. The awakening ran through the old parish churches and broke some of them. But it reshaped American religion for good. It made the revival meeting and the traveling preacher normal tools of church life. The Separate congregations it threw off may have filled many Baptist churches, though that is hard to measure. In Edwards it gave America its most substantial theologian, still argued over three centuries later. Black and Native Christians of its world began to write. And the missionary movement looked back to it. In 1792 William Carey, pleading for a Baptist mission, held up David Brainerd as a model. Edwards had written Brainerd's life from his diary.",
+   "reason": "Three claims corrected. 'Filled the Baptist churches with Separate converts' is now a stated possibility. 'The missionary societies of the following century traced their impulse back to it, often explicitly' is reduced to the documented case: Carey in 1792 holding up Brainerd. 'Seeded the first generation of Black and Native Christian writing' is reduced to 'began to write'. Rewritten whole for reading level; every other fact kept. Round 1: R1-23: build language removed, wording varied.",
+   "fre_after": 64.2,
+   "fk_after": 7.2,
+   "group": "B"
+  },
+  {
+   "n": "B5",
+   "movement": "the-baptists",
+   "field": "longDescription",
+   "old": "In 1609 an exiled English congregation in Amsterdam concluded that baptism belonged to believers who could profess faith for themselves, and its pastor John Smyth baptized himself and then the rest — the beginning of the English Baptists. Two streams developed, General Baptists holding that Christ died for all and Particular Baptists holding to a Calvinist election, and both organized as gathered churches. Bodies of ordinary people who covenanted together, chose their own ministers, disciplined their own members and wrote it all down in minute books, week after week. They were persecuted hard under the Restoration — John Bunyan spent twelve years in Bedford gaol for preaching without a license and wrote Grace Abounding there. And they became one of the strongest voices in English for liberty of conscience. In America they grew explosively out of the awakening, and the movement's outward turn came in 1792, when a Northamptonshire shoemaker named William Carey persuaded a small association of ministers to found a missionary society and then sailed for India himself.",
+   "new": "In 1609 an exiled English congregation in Amsterdam decided that baptism belonged to believers who could profess faith for themselves. Its pastor, John Smyth, baptized himself and then the rest. That was the start of the English Baptists. Two streams grew up. General Baptists held that Christ died for all. Particular Baptists held, with Calvin, that God had chosen who would be saved. Both formed gathered churches: bodies of ordinary people who made a covenant together and chose their own ministers. They disciplined their own members and wrote it all down in minute books, week after week. They were persecuted hard under the Restoration. John Bunyan spent twelve years in Bedford jail for preaching without a license and wrote Grace Abounding there. They became one of the strongest voices in English for freedom of conscience. In America they grew fast late in the eighteenth century. The awakening may have fed them many converts, though the numbers are not known. The movement turned outward in 1792. That year a shoemaker named William Carey persuaded a small group of ministers to found a mission society. Then he sailed for India himself.",
+   "reason": "'In America they grew explosively out of the awakening' has no vendored source for the tie to the awakening (Rippon shows the growth, not its origin); qualified with the reason. Rewritten whole for reading level (it scored below the floor); every other fact kept. 'Gaol' given its American spelling. Round 1: R1-23: build language removed, wording varied.",
+   "fre_after": 62.4,
+   "fk_after": 7.5,
+   "group": "B"
+  },
+  {
+   "n": "B7",
+   "movement": "english-old-dissent",
+   "field": "relationsSummary",
+   "old": "The roughly two thousand ministers ejected from the Church of England in 1662 built a lasting tradition: the dissenting academies, Isaac Watts and the hymn revolution he began, and the 1719 Salters' Hall meeting, after which many Presbyterian congregations drifted toward Arian and then Unitarian belief while the Congregationalists stayed orthodox and were reinvigorated by the eighteenth-century revival. Together with the Quakers and the Baptists, this tradition makes up the wider family of English Dissent.",
+   "new": "About two thousand ministers were put out of the Church of England in 1662. They built a lasting tradition. It gave England its own schools, the dissenting academies. It also gave Isaac Watts, who changed how English churches sang. In 1719 its ministers met at Salters' Hall in London. After that, many Presbyterian churches drifted away from the Trinity. They moved first toward Arian and then toward Unitarian views. The Congregationalists kept the old faith, and some of their leaders took up the new revival. Watts helped print Jonathan Edwards's story of the awakening in New England. Philip Doddridge asked John Wesley to teach his students. With the Quakers and the Baptists, it makes up the wider family of English Dissent. Baptist ministers sat at Salters' Hall too.",
+   "reason": "'Reinvigorated by the eighteenth-century revival' is a broad claim no source in hand makes; Curnock even notes Doddridge was almost the only leading Dissenter friendly to Wesley. Rewritten to the documented contacts (Watts and Edwards's narrative; Doddridge and Wesley) and the Baptist presence at Salters' Hall. Rewritten whole for reading level; every other fact kept. Round 1: R1-04: 'took up the new revival' said more than two individuals show; now 'some of their leaders'.",
+   "fre_after": 61.9,
+   "fk_after": 7.2,
+   "group": "B"
+  },
+  {
+   "n": "B8",
+   "movement": "english-old-dissent",
+   "field": "longDescription",
+   "old": "On St Bartholomew's Day 1662 about two thousand ministers who could not accept the restored Prayer Book and episcopal ordination were put out of the Church of England, and English Presbyterianism and Congregationalism became permanently separate traditions rather than parties inside one church. Barred from the universities, they built their own: the dissenting academies, which taught mathematics, science and modern languages when Oxford and Cambridge largely did not, and educated a striking share of the country's scientists, manufacturers and reformers. Their other great contribution was sung. Isaac Watts, a Congregational minister, broke the convention that only the Psalms could be sung in worship and wrote hymns instead, which is why English-speaking Christians sing 'When I Survey the Wondrous Cross' and 'Joy to the World'. The tradition also had a fault line: at Salters' Hall in London in 1719 a majority of Dissenting ministers declined to require subscription to a trinitarian formula, and over the following century many English Presbyterian congregations moved toward Arian and then Unitarian belief, while the Congregationalists stayed orthodox and were reinvigorated by the revival.",
+   "new": "On St Bartholomew's Day 1662, about two thousand ministers were put out of the Church of England. They could not accept the restored Prayer Book, or the rule that only bishops could ordain. From then on, Presbyterians and Congregationalists were churches of their own, not parties inside one church. Barred from the universities, they built their own schools. These dissenting academies taught math, science and modern languages when Oxford and Cambridge mostly did not. They trained a striking share of the nation's scientists, factory owners and reformers. Their other great gift was sung. Isaac Watts, a Congregational minister, broke the rule that only the Psalms could be sung in worship, and wrote hymns instead. That is why English-speaking Christians sing 'When I Survey the Wondrous Cross' and 'Joy to the World'. The tradition also had a fault line. At Salters' Hall in London in 1719, most of the ministers would not make others sign a statement on the Trinity. Over the next century many Presbyterian churches moved away from the Trinity. They went first toward Arian and then toward Unitarian views. The Congregationalists kept the old faith. Some of their leaders, like Watts and Doddridge, took up the revival of the 1730s and 1740s.",
+   "reason": "Same 'reinvigorated' correction as the summary, as 'took up the revival of the 1730s and 1740s'. Rewritten whole for reading level; every other fact kept. Round 1: R1-04: as B7, naming Watts and Doddridge.",
+   "fre_after": 63.9,
+   "fk_after": 7.7,
+   "group": "B"
+  },
+  {
+   "n": "B9",
+   "movement": "the-welsh-revival-tradition",
+   "field": "relationsSummary",
+   "old": "Sibling of Methodism with its own language-tradition; parent of the 1904 revival",
+   "new": "A sister movement to English Methodism. It began at the same time, kept in touch with its leaders, and ran in its own language. Its hymns and habits of revival may lie behind the Welsh revival of 1904-05, but that line has not been traced.",
+   "reason": "'Sibling of Methodism' kept as 'a sister movement', now with what the texts show (parallel beginnings, contact between leaders). 'Parent of the 1904 revival' has no vendored support, and the 1904 entry's own text stresses independent beginnings; qualified with the reason. The old text was a fragment list; now full sentences. Round 1: R1-23: build language removed.",
+   "fre_after": 76.6,
+   "fk_after": 6.2,
+   "group": "B"
+  },
+  {
+   "n": "B10",
+   "movement": "the-welsh-revival-tradition",
+   "field": "legacy",
+   "old": "It became a church: the Calvinistic Methodists ordained their own ministers in 1811 and are now the Presbyterian Church of Wales, and the revival's wider effect made Nonconformity rather than the established church the ordinary religion of Wales for a century and a half. Its Sunday schools taught a great part of the nation to read Welsh, which is one reason the language came through industrialization alive. And the singing tradition it created runs straight on to the revival of 1904-05 and, less obviously but just as really, into Welsh choral culture generally.",
+   "new": "It became a church. The Calvinistic Methodists ordained their own ministers in 1811 and are now the Presbyterian Church of Wales. The revival's wider effect made Nonconformity the ordinary religion of Wales for a century and a half. That meant the religion of the chapels, not of the established church. Its Sunday schools taught a great part of the nation to read Welsh. That is one reason the language came through the age of mines and mills alive. The singing it created may run on to the revival of 1904-05 and into Welsh choral music. That is a likely link, not a proven one.",
+   "reason": "'The singing tradition it created runs straight on to the revival of 1904-05 and, less obviously but just as really, into Welsh choral culture' asserted ties no source shows; qualified with the reason. Rewritten whole for reading level; every other fact kept. Round 1: R1-23: build language removed; 27-word sentence split.",
+   "fre_after": 66.2,
+   "fk_after": 7.2,
+   "group": "B"
+  },
+  {
+   "n": "E2",
+   "movement": "the-hesychast-revival-paisius-and-the-philokalia",
+   "field": "why",
+   "old": "In 1746 a young monk named Paisius Velichkovsky went looking through the monastery libraries of Mount Athos for old Greek teaching on inward prayer that almost nobody read anymore, and set his community to translating it into Slavonic at Neamț in Moldavia. Printed as the Philokalia at Venice in 1782 and in Paisius's own Slavonic version at Moscow in 1793, that anthology carried a monk's teaching on the Jesus Prayer out to ordinary readers, and fed directly into the elders of Optina and the anonymous classic The Way of a Pilgrim.",
+   "new": "In 1746 a young monk named Paisius Velichkovsky searched the libraries of the monasteries on Mount Athos. He was looking for old Greek teaching on inward prayer that almost nobody read anymore. At Neamț in Moldavia he set his monks to putting it into Slavonic. The Greek texts were printed as the Philokalia at Venice in 1782. Paisius's own Slavonic version came out at Moscow in 1793. The book carried a monk's teaching on the Jesus Prayer out to ordinary readers. Paisius's own disciples, in Russia, trained the first of the Optina elders.",
+   "reason": "'Fed directly into ... The Way of a Pilgrim' has no source in the library and is cut (wants). 'Fed directly into the elders of Optina' is kept and made exact: Optina's 1847 preface shows Paisius's disciples Theodore and Cleopas training Leonid (link to the Optina elders). Long sentences split for reading level. Round 1: R1-22: 'back in Russia' assumed more than 'вышли въ Россію' shows.",
+   "fre_after": 61.2,
+   "fk_after": 7.9,
+   "group": "E"
+  },
+  {
+   "n": "E3",
+   "movement": "the-hesychast-revival-paisius-and-the-philokalia",
+   "field": "legacy",
+   "old": "This is one of the clearest cases anywhere of a book changing a church. The Philokalia is still in print and still read — the standard English translation has been appearing volume by volume since 1979. And the Russian tradition it fed produced the elders of Optina, the anonymous nineteenth-century classic The Way of a Pilgrim, and, through both, the spiritual world of Dostoevsky's novels. Twentieth-century Orthodox theology in the West drew on it heavily, and the Jesus Prayer is now practiced far outside the monasteries the texts were written in. Neamț Monastery still stands and still functions, with Paisius's relics in it; he was canonized in 1988.",
+   "new": "This is one of the clearest cases anywhere of a book changing a church. The Philokalia is still in print and still read — the standard English translation has been appearing volume by volume since 1979. In Russia it fed the elders of Optina, who put out Paisius's life and writings at Moscow in 1847. The Jesus Prayer is now practiced far outside the monasteries the texts were written in. Neamț Monastery still stands and still functions, with Paisius's relics in it; he was canonized in 1988.",
+   "reason": "Cut, for want of any source in the library: The Way of a Pilgrim, 'the spiritual world of Dostoevsky's novels', and 'Twentieth-century Orthodox theology in the West drew on it heavily' (all in wants). The Optina claim is kept and grounded in the 1847 Optina edition (title page, line 29-38). Other facts kept as written. Round 1: R1-20: the title page shows Optina published the book, printed at Moscow, not Optina's own press.",
+   "fre_after": 64.6,
+   "fk_after": 8.4,
+   "group": "E"
+  },
+  {
+   "n": "F0",
+   "movement": "orthodoxy-under-the-ottomans-1650-1821",
+   "field": "relationsSummary",
+   "old": "This covers Ottoman Orthodoxy's second act: the Synod of Jerusalem under Dositheus in 1672, the East's own answer to the Council of Trent; the century that produced the largest number of neomartyrs; the rise of Phanariot influence; and the abolition of the Serbian patriarchate of Peć in 1766 and the archbishopric of Ohrid in 1767. The Serbian Great Migration of 1690 placed the Karlovci church outside the Ottoman millet system from that date. The story ends with Patriarch Gregory V hanged at the Patriarchate's gate at Easter 1821.",
+   "new": "This is the second act of Orthodoxy under Ottoman rule. In 1672 the Synod of Jerusalem, led by Patriarch Dositheus, answered French Calvinists. They had claimed that the Eastern Church shared their faith. Its confession was the East's own statement of faith, to set beside those of the West. This century also saw the most neomartyrs, and the rise of the Phanariot families. The Serbian patriarchate of Peć was done away with in 1766. A year later the same thing happened to the archbishopric of Ohrid. After the Great Migration of the Serbs in 1690, their church at Karlovci lay outside the Ottoman millet system. The story ends at Easter 1821, when Patriarch Gregory V was hanged at his own gate.",
+   "reason": "'The East's own answer to the Council of Trent' misstated what the synod answered: its acts say it met 'against the Calvinists', prompted by French Calvinists' claims (Dositheus, Robertson 1899, lines 332-338, 457-460). It never addresses Trent. The comparison with Western confessions is kept, as the longDescription already makes it. 'Second act' now reads in plain words. Every other fact kept. Whole field rewritten. Round 1: R1-21: no source names Constantinople as the actor in 1766-67; the old text's passive kept.",
+   "fre_after": 63.5,
+   "fk_after": 7.6,
+   "group": "F"
+  },
+  {
+   "n": "F4",
+   "movement": "philippine-catholicism-era-8",
+   "field": "legacy",
+   "old": "This is a living church and a very large one. The Philippines has one of the largest Catholic populations in the world, and the devotional culture of these centuries is still recognizably what is practiced — the pasyon chanted through Holy Week, the town fiesta for the patron saint, the processions. The unresolved question of the period, whether Filipino priests could run Filipino parishes, produced the executions of the three priests remembered as Gomburza in 1872 and fed directly into the national revolution and into the independent Philippine church that broke from Rome in 1902. The friar churches themselves survive: four of them, San Agustín in Manila among them, are UNESCO World Heritage Sites.",
+   "new": "This is a living church and a very large one. The Philippines has one of the largest Catholic populations in the world. Its devotions are still much as they were in these centuries. The pasyon is chanted through Holy Week, each town keeps a fiesta for its patron saint, and the processions go on. The period left one question open: could Filipino priests run Filipino parishes? Writing in 1899, a Filipino scholar linked that quarrel to the killing of three priests in 1872. They are remembered as Gomburza. It is also often tied to the national revolution and to the independent Philippine church that broke from Rome in 1902. The friar churches still stand. Four of them, San Agustín in Manila among them, are UNESCO World Heritage Sites.",
+   "reason": "The tie from the clergy question to Gomburza now rests on Pardo de Tavera's 1899 notes (Blair and Robertson v50, lines 8412-8413, 8441-8444). 'Fed directly into the national revolution and into the independent Philippine church' has no vendored source and is qualified as a common reading. Every other fact kept. Whole field rewritten. Round 1: R1-19: 'traced ... to' read as cause; now 'linked'. Devotions sentence split; the two 'tied' sentences merged.",
+   "fre_after": 63.8,
+   "fk_after": 7.5,
+   "group": "F"
+  },
+  {
+   "n": "R1-1",
+   "movement": "the-moravian-church-at-herrnhut",
+   "field": "longDescription",
+   "old": "In 1722 a handful of families slipped over the Bohemian border into Saxony. The remnant of the Unity of the Brethren, which had survived underground for nearly a century after the Habsburgs outlawed the Czech reform church. Count Nikolaus von Zinzendorf let them settle on his estate, the village they built was called Herrnhut, and after years of quarreling among the refugees and the other seekers who joined them, a communion service on 13 August 1727 became the moment the community always afterwards dated its renewal from. What followed was extraordinary for a settlement of a few hundred people. A prayer watch kept in shifts around the clock, a congregation organized into 'choirs' by age and situation, a diary written up every single day, and thousands of ordinary members setting down their own life stories. From 1732 they began sending missionaries — to the enslaved people of St Thomas, to Greenland, to Suriname, to the Native congregations of Pennsylvania and New York. On a scale nothing else in Protestantism came near: a village of a few hundred people sending out more missionaries in twenty years than the whole of Protestant Europe had sent in two centuries.",
+   "new": "In 1722 a handful of families slipped over the Bohemian border into Saxony. They were the remnant of the Unity of the Brethren, the Czech reform church. It had survived in hiding for nearly a century after the Habsburgs outlawed it. Count Nikolaus von Zinzendorf let them settle on his estate, and they built a village called Herrnhut. Years of quarreling followed, among the refugees and the other seekers who joined them. Then on 13 August 1727 they shared the Lord's Supper, and they always dated their renewal from that day. What followed was remarkable for a settlement of a few hundred people. They kept a prayer watch in shifts around the clock. They sorted the church into 'choirs' by age and state of life. They wrote up a diary every single day, and thousands of ordinary members set down their own life stories. From 1732 they sent missionaries to the enslaved people of St Thomas, and to Greenland and Suriname. Others went to the Native congregations of Pennsylvania and New York. They were not the first, for Lutherans trained at Halle had reached India in 1706.",
+   "reason": "The closing comparison ('more missionaries in twenty years than the whole of Protestant Europe had sent in two centuries') contradicts the corrected summary: Halle-trained Lutherans reached Tranquebar in 1706 (Carey's Enquiry and Guericke, as in A4). Replaced by one plain sentence. Rewritten whole to the reading target (old field has a sentence fragment and 40-word sentences); every other fact kept.",
+   "fre_after": 62.5,
+   "fk_after": 8.0,
+   "group": "A"
+  },
+  {
+   "n": "R1-2",
+   "movement": "the-moravian-church-at-herrnhut",
+   "field": "why",
+   "old": "In 1722 a handful of refugee families slipped out of Bohemia, remnants of a reformed church that had survived underground for nearly a century, and built the village of Herrnhut on a Saxon nobleman's land. The community kept prayer running in shifts around the clock, wrote up its life in a diary every single day, and from 1732 sent out missionaries — to the enslaved of St Thomas, to Greenland, to Suriname — on a scale no other Protestant body approached for another two centuries.",
+   "new": "In 1722 a handful of refugee families slipped out of Bohemia. They were remnants of a reformed church that had survived underground for nearly a century. On a Saxon nobleman's land they built the village of Herrnhut. The community kept prayer running in shifts around the clock, and wrote up its life in a diary every single day. From 1732 it sent out missionaries, to the enslaved of St Thomas, to Greenland and to Suriname. Others had gone before them, for Lutherans trained at Halle reached India in 1706. But this was a village of a few hundred people.",
+   "reason": "'On a scale no other Protestant body approached for another two centuries' contradicts the corrected summary (Tranquebar, 1706). Replaced by one sentence. Rewritten whole to the reading target; every other fact kept.",
+   "fre_after": 63.4,
+   "fk_after": 7.8,
+   "group": "A"
+  },
+  {
+   "n": "R1-3",
+   "movement": "the-moravian-church-at-herrnhut",
+   "field": "teaser",
+   "old": "Saxony and then the world, 1722 to 1815 — a refugee village of a few hundred that wrote down every day of its life, prayed in shifts around the clock, and sent out missionaries on a scale no other Protestant church came near.",
+   "new": "Saxony and then the world, 1722 to 1815 — a refugee village of a few hundred. It wrote down every day of its life, prayed in shifts around the clock, and from 1732 sent missionaries far across the sea.",
+   "reason": "Same superlative as the longDescription and why ('on a scale no other Protestant church came near'); cut so the entry does not contradict itself. Kept to the teaser form (place, dates, dash).",
+   "fre_after": 75.5,
+   "fk_after": 7.1,
+   "group": "A"
+  }
+ ],
+ "dispositions_changed": [
+  {
+   "movement": "philippine-catholicism-era-8",
+   "field": "relationsSummary",
+   "sentence": "It covers the British occupation of Manila in 1762-64, the ongoing dispute over whether bishops could inspect the friars' parishes, and the 1768 expulsion of the Jesuits.",
+   "other_id": "the-society-of-jesus",
+   "disposition": "not-a-relationship",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The Jesuits in the Philippines were one of this church's own parish orders, and the 1768 expulsion was a Spanish Crown act carried out on them inside this church. It is not an act of one movement on another, so it gets no link. (The Society of Jesus entry's dates, 1540-1650, are not the ground: links for 1656 and 1773 go to it.)",
+   "group": "F"
+  },
+  {
+   "movement": "philippine-catholicism-era-8",
+   "field": "longDescription",
+   "sentence": "By the middle of the seventeenth century the Philippines were the one substantially Christian society in East or Southeast Asia, and its basic unit was the friar parish: a Spanish religious — Augustinian, Dominican, Franciscan, Recollect or Jesuit — often the only Spaniard in a town, holding both spiritual and civil authority over a population whose language he had learned and which he alone among the officials could preach in.",
+   "other_id": "the-society-of-jesus",
+   "disposition": "not-a-relationship",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The Jesuits in the Philippines were one of this church's own parish orders, listed here as members, like the other friars. Membership is not a relationship between two movements.",
+   "group": "F"
+  },
+  {
+   "movement": "philippine-catholicism-era-8",
+   "field": "longDescription",
+   "sentence": "The century's strains were institutional: a long fight over whether bishops could inspect the friars' parishes, the British occupation of Manila in 1762-64, the expulsion of the Jesuits in 1768, and above all the question of whether Filipino secular priests could hold parishes at all.",
+   "other_id": "the-society-of-jesus",
+   "disposition": "not-a-relationship",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The Jesuits in the Philippines were one of this church's own parish orders; the 1768 expulsion was a Spanish Crown act carried out on them inside this church, not an act of one movement on another.",
+   "group": "F"
+  },
+  {
+   "movement": "port-royal-jansenism",
+   "field": "legacy",
+   "sentence": "The quarrel outlived the abbey too: Jansenism became a political force in eighteenth-century France and fed the campaign that suppressed the Jesuits, and it produced one lasting institution.",
+   "other_id": "the-society-of-jesus",
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": "C2",
+   "reason": "No vendored text ties Jansenism to the Jesuit suppression; the repo-cited Van Kley (1975) is the standard account. Qualified to 'historians hold'. Not linked, for want of a source showing the tie (the dates of the two entries are not the ground: the 1773 suppression is linked to the Society entry from the Ancien Régime church).",
+   "group": "C"
+  }
+ ],
+ "two_way": "Reviewer gap 1 (no unlinked relationship stated as fact): confirmed for the changed text. Round-1 changes add no new relationship. The Moravian fields now name Halle's 1706 mission only as a date, and the Pietism-to-Moravian influence link already joins the two. The Bunyan note names Parliament, which has no entry. Reviewer gap 2 (the Philippine Jesuit call argued both ways): fixed (T-03); the Port-Royal legacy disposition had the same window argument and is fixed too. Reviewer gap 3 (named_in_text quoting pre-change wording): left in the audit record as the reviewer allows; logged for the README table (open_items). Reviewer gap 4 (Methodist to Pentecostalism): stays on the era-9/10 list (open_items). Reverse direction: every changed link still names a sentence in its movements' current text. Kept links rewritten here (Black Church, Holiness) are named in the-methodist-revival relationsSummary and legacy, unchanged.",
+ "open_items": [
+  "Society of Jesus entry dates (1540-1650) end before linked events of 1656 and 1773 (era-7 owner). Raised by the era-8 links pass, 2026-11-08: extend the entry's end date, or add a later Jesuit entry; until then the era-8 links carry a flag.",
+  "Build language in older public text (other eras' owners, flagged, not touched). Raised by the era-8 links pass, 2026-11-08. Notes: desert-monasticism--iconophile-byzantine-monasticism ('no text we hold'), palestinian-ascetic-monasticism-early--chalcedonian-monasticism-judean-desert-and-gaza ('No text we hold'), antiochene-church-third-century--antiochene-exegetical-christianity-chrysostom-ce ('No source we hold'). Fields: the-franciscan-movement statusDescription ('sources here'), greek-apologists-second-century sourcing ('in hand ... traditions here').",
+  "the-methodist-revival relationsSummary: 'through Holiness, of Pentecostalism' stays on the era-9/10 list (reviewer's two-way note, era-8 links pass, 2026-11-08).",
+  "Merge note for the README two-way table: cite the current wording of each named_in_text, not the pre-change wording (reviewer's note, era-8 links pass, 2026-11-08).",
+  "Release number: census_test.json carried a test release 99. The shipped census must take main's next number (11 at this writing) (reviewer's check, era-8 links pass, 2026-11-08).",
+  "Moravian Church at Herrnhut: is the 13 August 1727 communion and the 'choirs' description sourced? Kept as written in the round-1 rewrite. Covered by the existing Open-Gaps item 'Well-known facts with no vendored source' (era-8 links pass, 2026-11-08)."
+ ]
+}

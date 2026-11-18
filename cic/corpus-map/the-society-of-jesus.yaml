@@ -10,6 +10,11 @@ works:
   locus: whole volume
   role: context
   confidence: assigned
+  language: eng
+  date:
+    formation_confidence: unknown
+    checked: title page, file lines 35-39, dates Grimston's English translation (1604) and
+      the editing; the file never states the year Acosta wrote the work
   note: 'A first-generation Jesuit''s own published work on the American missions (Acosta
     was provincial of Peru and later wrote the Society''s mission manual De procuranda). Context
     here because it is a translated English edition, not the Society''s own text.
@@ -22,6 +27,14 @@ works:
   locus: file lines 682 to 7530; the Campion chapter 682 to 2682
   role: context
   confidence: provisional
+  language: eng
+  date:
+    start: 1582
+    end: 1582
+    source: 'Pollen''s introduction, file lines 147-148 and 186-188: Allen''s letters of 7
+      July and 3 September 1582 on writing and sending the book (''I now send you the complete
+      book about the Martyrs'', 3 September 1582)'
+    formation_confidence: Documented
   note: 'The first account of Campion''s death, by the secular priest who ran the seminary
     and had sent him: an ally''s account from outside the Society, not the Society''s own
     voice. Walpole''s verses on Campion (by a future Jesuit, then a layman) are printed here.
@@ -35,6 +48,11 @@ works:
   locus: Livro V from file line 710; Livro VIII from about 22961
   role: tradition
   confidence: provisional
+  language: por-lat
+  date:
+    formation_confidence: unknown
+    checked: file header and Beccari's Latin preface (1907 imprint dates the edition only);
+      the preface does not give a composition date for the books
   note: 'The Ethiopian mission in the Society''s own historian''s words, from the patriarch''s
     arrival to the expulsion. Placed on window and subject without reading the whole volume;
     role tradition because the author is a Jesuit narrating a Jesuit mission, for the Jesuit
@@ -52,6 +70,13 @@ works:
     in group IV'
   role: tradition
   confidence: provisional
+  language: eng-lat
+  date:
+    start: 1597
+    end: 1601
+    source: contents headings, file line 94 ("THE QUARREL WITH THE JESUITS, 1597-1598") and
+      line 176 ("RENEWAL OF THE CONFLICT, JUNE, 1599-JUNE, 1601")
+    formation_confidence: Documented
   note: 'The other side of the same quarrel in its own words: Garnet and Parsons defending
     the Society''s conduct of the mission, Blackwell asserting his authority, Holtby''s long
     letter from the North. Tradition for the recusant world (the Jesuit party was part of
@@ -68,6 +93,13 @@ works:
   locus: group II from about file line 3149 to the letters at about 8064
   role: tradition
   confidence: provisional
+  language: eng-lat-ita-spa
+  date:
+    start: 1597
+    end: 1602
+    source: contents, file line 124 (item 21, Parsons' letter, "March 1597") and file line
+      81 (item 6, "Aug. 12, 1602")
+    formation_confidence: Documented
   note: 'Both parties stating their case to Rome in Latin and Italian: the seculars'' account
     of the mission since 1587 and their plea for a bishop and for liberty of conscience, Parsons''
     answers, the Inquisition''s sentence. Original-language primary documents with Law''s
@@ -82,6 +114,11 @@ works:
   locus: whole text
   role: context
   confidence: provisional
+  language: eng
+  date:
+    formation_confidence: unknown
+    checked: file header, title page and preface (the preface is undated, file lines 88-207);
+      the 1873 imprint is that of the vendored copy and no first-edition statement is made
   note: 'Giuseppe Boero''s biography of Peter Faber, trans. Henry James Coleridge, S.J. (1873)
     - role context, not tradition, since this is Boero''s own narrative account rather than
     a translation of Faber''s own Memoriale (spiritual diary). Provisional: how much of the
@@ -97,6 +134,12 @@ works:
   locus: whole volume - Tomus III, 1539-1565
   role: tradition
   confidence: assigned
+  language: spa-lat-ita
+  date:
+    start: 1539
+    end: 1565
+    source: 'title page of Tomus III, file line 58: "1539-1565"'
+    formation_confidence: Documented
   note: 'Borgia''s letters and the monuments about him for 1539-1565, in the languages written
     (the Borgian monuments to his election as General on 2 July 1565). It lets the third General
     speak for himself, from 1565 to his death in 1572. Primary original evidence for the movement,
@@ -111,6 +154,12 @@ works:
   locus: whole volume - Tomus IV, 1565-1568
   role: tradition
   confidence: assigned
+  language: spa-lat-ita
+  date:
+    start: 1565
+    end: 1568
+    source: 'title page of Tomus IV, file line 85: "1565-1568"'
+    formation_confidence: Documented
   note: 'Borgia''s letters and the monuments about him for 1565-1568, in the languages written
     (his letters as General). It lets the third General speak for himself, from 1565 to his
     death in 1572. Primary original evidence for the movement, quotable once each wording
@@ -125,6 +174,12 @@ works:
   locus: whole volume - Tomus V, 1569-1572
   role: tradition
   confidence: assigned
+  language: spa-lat-ita
+  date:
+    start: 1569
+    end: 1572
+    source: 'title page of Tomus V, file line 53: "1569-1572"'
+    formation_confidence: Documented
   note: 'Borgia''s letters and the monuments about him for 1569-1572, in the languages written
     (his letters as General and other historical monuments about him). It lets the third General
     speak for himself, from 1565 to his death in 1572. Primary original evidence for the movement,
@@ -139,6 +194,11 @@ works:
   locus: whole volume; four writers
   role: tradition
   confidence: assigned
+  language: spa-lat-ita-por
+  date:
+    formation_confidence: unknown
+    checked: file header and the editors' preface; the letters of four writers are not given
+      one span of years on the title page
   note: 'The letters of four of Ignatius''s first companions, in the languages written, from
     the founding years. The volume holds the letters of Le Jay, Codure and Rodrigues as well
     as Broet''s. Primary original evidence for the movement, quotable once each wording is
@@ -155,6 +215,13 @@ works:
     from 351'
   role: tradition
   confidence: assigned
+  language: lat-eng
+  date:
+    start: 1581
+    end: 1581
+    source: 'Pollen''s introduction, file line 602: the book "was finished and sent up to
+      Persons in March, 1581"'
+    formation_confidence: Widely Accepted
   note: 'Campion''s own voice as a Jesuit of the first English mission; the Challenge states
     the Society''s rule against meddling in matters of state in his own words (article iv).
 
@@ -166,6 +233,11 @@ works:
   locus: whole text
   role: tradition
   confidence: assigned
+  language: eng
+  date:
+    formation_confidence: unknown
+    checked: file header and the opening text; the 1622 English printing is not the date the
+      Latin Summa was composed, and the file does not state that date
   note: 'Peter Canisius''s own catechism, in a 1622 English translation (translator not named
     in this edition) - the first primary source identified for Canisius, a major first-generation
     Jesuit, in this corpus. This closes a real prior gap: no Canisius material had ever been
@@ -179,6 +251,12 @@ works:
   locus: whole text
   role: tradition
   confidence: assigned
+  language: lat
+  date:
+    formation_confidence: unknown
+    checked: file header and title page (file line 96, 'M. D. LXV'); the 1565 year is that
+      of this printing, and the file does not give the year the Summa was first composed or
+      printed
   note: 'Canisius''s Latin catechism, in a sixteenth-century printing, the Latin original
     for the vendored 1622 English translation. The book prints its marginal scripture and
     patristic citations in the outer margins. Second witness for now, not yet quotable: a
@@ -192,6 +270,13 @@ works:
   locus: whole text
   role: tradition
   confidence: assigned
+  language: lat
+  date:
+    formation_confidence: unknown
+    checked: Canisius's own dedication to the Duke of Bavaria for this enlarged text is dated
+      'Dilingae ... Kalendas Februarij ... M. D. LXXI' (file lines 640-644); the file does
+      not give a single composition year for the Summa, and the 1573 year is that of this
+      printing
   note: 'Canisius''s Latin catechism, in a sixteenth-century printing, the Latin original
     for the vendored 1622 English translation. The book prints its marginal scripture and
     patristic citations in the outer margins. Second witness for now, not yet quotable: a
@@ -207,6 +292,13 @@ works:
     LXXIII, Walpole, Contents line 701)
   role: tradition
   confidence: provisional
+  language: eng-lat
+  date:
+    start: 1584
+    end: 1603
+    source: the volume's title page, file line 171 ('Vol. I, 1584-1603'); the contents list
+      items from 1580 (line 376) too, so the span is the title-page span only
+    formation_confidence: Documented
   note: 'Letters of the Society''s English missioners to their superiors and to the English
     College, printed from the Jesuit archives. Placed on the headings; not read document by
     document this pass.
@@ -219,6 +311,13 @@ works:
   locus: whole volume; the Jesuit entries are marked 'S.J.' in the running heads and entries
   role: context
   confidence: provisional
+  language: eng
+  date:
+    start: 1741
+    end: 1742
+    source: 'Pollen''s introduction, file line 474: ''the first volume appeared in 1741, the
+      second in 1742'''
+    formation_confidence: Documented
   note: 'A secular vicar apostolic''s martyrology that covers the Society''s English martyrs
     (Campion, Southwell, Walpole, Garnet and others) from outside the Society. Placed on that
     coverage, not read for its treatment of the Society as such.
@@ -233,6 +332,12 @@ works:
     chapters is at the end of the file
   role: tradition
   confidence: assigned
+  language: spa
+  date:
+    start: 1604
+    end: 1604
+    source: 'the reprint reproduces the first-edition imprint, file line 236: "Roma Año MDCIV"'
+    formation_confidence: Documented
   note: The Society's own first account of its Philippine mission, in the Spanish written.
   source_file: chirino_relacion-islas-filipinas-spa_manila1890.txt
 - row_id: blair-robertson_philippine-islands-v12_1904--chirino-relacion-part-1-2
@@ -243,6 +348,13 @@ works:
     of 1601-1602 from 555 and of 1603 from 1946 (Sangley insurrection, Benavides, Acuna)
   role: tradition
   confidence: assigned
+  language: eng
+  date:
+    start: 1604
+    end: 1604
+    source: 'the editors'' text, file lines 95 and 119: Chirino''s Relacion "was published
+      in 1604" (Roma, 1604)'
+    formation_confidence: Documented
   note: Chirino was the Society's own procurator and first Jesuit voice in the islands; his
     Relacion is the Society's account of its Philippine mission to 1604.
   source_file: blair-robertson_philippine-islands-v12_1904.txt
@@ -255,6 +367,12 @@ works:
     of 1605 from 6718 (Augustinian friars' letters 7284); Bibliographical Data at 7879
   role: tradition
   confidence: assigned
+  language: eng
+  date:
+    start: 1604
+    end: 1604
+    source: 'the contents, file line 46: Chirino''s Relacion, "Roma, 1604"'
+    formation_confidence: Documented
   note: Second half of the Society's own account of its first Philippine decades, and Chirino's
     grant for the Jesuit seminary at Cebu.
   source_file: blair-robertson_philippine-islands-v13_1904.txt
@@ -264,6 +382,15 @@ works:
   locus: the lines naming Jesuits and padres (about 35 lines, from 609 onward)
   role: context
   confidence: provisional
+  language: eng
+  date:
+    start: 1615
+    end: 1617
+    source: the journal begun 'le 1th day of June, 1615' (file line 1363); the entry 'January
+      1, 1616-7' (line 9208); the last entry of the volume, '_December 31._' (line 13653),
+      is the third December 31 in the sequence, so 1617 by inference from the sequence of
+      printed dates, not a printed year
+    formation_confidence: Widely Accepted
   note: The Society seen by a hostile English merchant in Japan, 1615-1617; placed on a word
     count only.
   source_file: cocks_diary-v1_thompson1883.txt
@@ -276,6 +403,15 @@ works:
     fills roughly lines 1491 to 54305
   role: tradition
   confidence: assigned
+  language: spa
+  date:
+    start: 1660
+    end: 1660
+    source: the memorial to the king presenting the work is dated 'En Madrid, y Febrero 12.
+      de 1660' (file line 206; the memorial is signed Magino Sola, line 209, not Colin) and
+      Pastells's introduction gives Colin's death on 6 May 1660 (line 55883); the 1663 on
+      the title line is the edition header only
+    formation_confidence: Widely Accepted
   note: The Society's own history of its Philippine province, by its provincial, in the Spanish
     written.
   source_file: colin_labor-evangelica-t1-spa_pastells1900.txt
@@ -285,6 +421,13 @@ works:
   locus: whole text
   role: context
   confidence: assigned
+  language: eng
+  date:
+    start: 1545
+    end: 1563
+    source: 'session headings: the council opened on 13 December 1545 (file line 3490) and
+      the last session in the volume is dated 1563 (file line 9819)'
+    formation_confidence: Documented
   note: 'Trent''s own official canons and decrees, trans. Rev. J. Waterworth (preface 1848)
     - this world''s own doctrinal anchor implemented by the Jesuits as one of Trent''s most
     vigorous executors - role context here, not tradition, since this is not the Society''s
@@ -299,6 +442,15 @@ works:
   locus: whole volume
   role: tradition
   confidence: assigned
+  language: lat
+  date:
+    start: 1542
+    end: 1546
+    source: Memoriale entries run from 'Anno 1542, in octava Corporis Christi' (file line
+      523) to 'ANNO 1543, MENSE JULIO' (line 11526); the editor's rubric to the Epilogus (lines
+      11592-11593) reads 'ab anno 1543 usque ad vitae finem anno 1546'; the Appendix of letters
+      from line 12746 is outside this span
+    formation_confidence: Widely Accepted
   note: 'Faber''s own spiritual diary - genuine primary Faber material, not a biography quoting
     him. This world''s corpus previously held only the Boero secondary biography for Faber.
     Per the Library''s non-English-primary-evidence rule (Build/worlds/_cross-world/LIBRARY-DECISION-LOG.md),
@@ -314,6 +466,12 @@ works:
   locus: whole volume; Xavier's letters with Valignano's Life placed first
   role: tradition
   confidence: assigned
+  language: spa-por-lat
+  date:
+    formation_confidence: unknown
+    checked: title page (file line 93 'TOMUS PRIMUS', Madrid 1899-1900 imprint) and the front
+      matter; no span of years is stated, and the volume joins Xavier's letters to a later
+      Life by Valignano
   note: 'Xavier''s own letters and writings in the Spanish, Portuguese and Latin he wrote,
     in a critical edition. It is the original-language source for the vendored Coleridge English
     Life and Letters (whose letters were translated from earlier printings). Primary original
@@ -328,6 +486,11 @@ works:
   locus: whole volume
   role: context
   confidence: assigned
+  language: spa-lat-por
+  date:
+    formation_confidence: unknown
+    checked: title page (file line 76 'TOMUS SECUNDUS', Madrid 1912 imprint) and the front
+      matter; the volume mixes writings of different years and states no span
   note: 'Testimony about Xavier by his companions and early biographers, in the original languages.
     It is witness to Xavier and not Xavier''s own voice. Primary original evidence for the
     movement, quotable once each wording is checked against the page image: the scan is legible
@@ -341,6 +504,12 @@ works:
   locus: whole text - university years through the Malacca/Moluccas mission, 1541-1548
   role: tradition
   confidence: assigned
+  language: eng
+  date:
+    start: 1872
+    end: 1872
+    source: preface signed 'London, Feast of St. Antony Abbot, 1872' (file line 481)
+    formation_confidence: Documented
   note: 'Compiled by Henry James Coleridge, S.J. (1872), embedding extensive Xavier-Ignatius
     correspondence and Xavier''s own letters from the India/Fishery Coast and Malacca/Moluccas
     mission. Companion to Vol. II (Japan/China years).
@@ -353,6 +522,12 @@ works:
   locus: whole text - Japan and China missions, Xavier's death 1552
   role: tradition
   confidence: assigned
+  language: eng
+  date:
+    start: 1872
+    end: 1872
+    source: preface signed 'London, Eve of St. Thomas the Apostle, 1872' (file line 181)
+    formation_confidence: Documented
   note: 'Compiled by Henry James Coleridge, S.J. (1872) - Xavier''s later years, the Japan
     and China missions, and his death in 1552. Companion to Vol. I (university years, India/Fishery
     Coast, Malacca/Moluccas, 1541-1548).
@@ -366,6 +541,13 @@ works:
     at lines 8483 and 8539'
   role: context
   confidence: provisional
+  language: eng
+  date:
+    start: 1693
+    end: 1694
+    source: the licence dated "Feb. 12, 1693" (file lines 95-97) and the imprint "Prince's-Arms
+      ... 1694" (file line 142)
+    formation_confidence: Documented
   note: Anglican polemic against Jesuit and Roman method in Malabar; second-hand for the Society,
     read as an outside witness.
   source_file: geddes_history-of-the-church-of-malabar-synod-of-diamper_1694.txt
@@ -377,6 +559,14 @@ works:
     18198
   role: tradition
   confidence: assigned
+  language: eng
+  date:
+    start: 1606
+    end: 1606
+    source: 'Morris, file lines 8474-8481: the Narrative was written before the creation of
+      baronets in 1611, and as Gerard escaped from England in May 1606 ''it would seem to
+      have been written in the latter part of that year'''
+    formation_confidence: Widely Accepted
   note: 'Gerard is a Jesuit writing to clear the Society (Garnet, Oldcorne, Gerard himself)
     of complicity in the Plot; chapters IX-XV are the Society''s own defence of its English
     superior. The English mission''s voice inside the Society''s world.
@@ -391,6 +581,13 @@ works:
     contents list (file line about 249) onward
   role: context
   confidence: provisional
+  language: por
+  date:
+    start: 1606
+    end: 1606
+    source: licence dated Coimbra, February 1606 (file line 98), and the 1606 title page named
+      in the file header
+    formation_confidence: Documented
   note: 'An Augustinian''s account of a campaign in which the Jesuit college and the Jesuit
     bishop of the Serra were the instruments. Placed on subject; not read for the Jesuit entry.
 
@@ -402,6 +599,12 @@ works:
   locus: file lines 5017 to 10653
   role: tradition
   confidence: provisional
+  language: eng
+  date:
+    formation_confidence: unknown
+    checked: Morris's introduction (file lines 5476-5483) dates only the second of Holtby's
+      two narratives, to 1593 ('This year, 1593'); this row spans both narratives and the
+      Commission's acts (lines 5017 to 10653), for which no single window is stated
   note: 'A Jesuit missioner''s report to a Jesuit superior; placed on that fact, the report''s
     own Jesuit framing not read closely this pass.
 
@@ -413,6 +616,11 @@ works:
   locus: Book V from line 10383
   role: context
   confidence: provisional
+  language: eng
+  date:
+    formation_confidence: unknown
+    checked: file header and title page ('MDCCCXXXIX'); no dated preface or first-edition
+      statement is made, so the title-page year is not taken as a window
   note: Placed on window and place; Hough's account of the Jesuit prelates of Malabar is hostile
     to the Society and was not checked line by line.
   source_file: hough_history-of-christianity-in-india-v2_1839.txt
@@ -423,6 +631,11 @@ works:
   locus: whole volume; the Acta open the volume (item 1, from the volume's own index)
   role: tradition
   confidence: assigned
+  language: spa-lat-por-ita
+  date:
+    formation_confidence: unknown
+    checked: title page (file lines 135-168 'TOMUS PRIMUS', Madrid 1904 imprint) and the prolegomena;
+      a mixed volume, no single span of years is stated
   note: 'The earliest text of Ignatius''s Autobiography as Goncalves da Camara wrote it down
     from Ignatius''s own telling, in the Spanish and Italian of the manuscript, in a critical
     edition. It is the original for the vendored O''Conor English translation. The volume
@@ -440,6 +653,11 @@ works:
   locus: whole volume; Spanish text of the Exercises alongside the Latin versions
   role: tradition
   confidence: assigned
+  language: lat-spa
+  date:
+    formation_confidence: unknown
+    checked: title page and front matter (Madrid 1919 imprint dates the edition only); the
+      Exercises and the Directories are of different dates and no single window is stated
   note: 'Ignatius''s Exercises in the Spanish he wrote, printed beside the earliest Latin
     version and the Vulgata, with the early Directories. The Spanish text follows the autograph
     as the editors read it; the volume is a critical edition, so the Spanish is the editors''
@@ -456,6 +674,12 @@ works:
   locus: whole text, a selection of 24 letters
   role: tradition
   confidence: assigned
+  language: eng
+  date:
+    start: 1524
+    end: 1547
+    source: the volume heading 'VOL. I. 1524-1547' (file line 99)
+    formation_confidence: Documented
   note: 'A selection of Ignatius''s own letters (1524-1547), trans. D.F. O''Leary, ed. A.
     Goodier, S.J. (1914) - not the full ~7,000-letter corpus. A companion Vol. 2 was searched
     for and not conclusively found.
@@ -470,6 +694,13 @@ works:
     chiefly as summaries
   role: tradition
   confidence: assigned
+  language: spa-lat-ita
+  date:
+    start: 1548
+    end: 1550
+    source: 'dated letter headings: the first letter is "5 Martii 1548" (file line 384), the
+      last heading found is "29 Martii 1550" (file line 38575)'
+    formation_confidence: Documented
   note: 'Ignatius''s letters and instructions as General, in the languages written (the letters
     and instructions of 1548 to 1549, chiefly as summaries). Many are dictated to secretaries
     and sent in Ignatius''s name, so the voice is the General''s office speaking for him.
@@ -487,6 +718,13 @@ works:
     chiefly as summaries
   role: tradition
   confidence: assigned
+  language: spa-lat-ita
+  date:
+    start: 1550
+    end: 1551
+    source: 'dated letter headings: the first letter is "12 Aprilis 1550" (file line 353),
+      the last heading found is "17 Octobris 1551" (file line 22898)'
+    formation_confidence: Documented
   note: 'Ignatius''s letters and instructions as General, in the languages written (the letters
     and instructions of 1550 to 1551, chiefly as summaries). Many are dictated to secretaries
     and sent in Ignatius''s name, so the voice is the General''s office speaking for him.
@@ -503,6 +741,13 @@ works:
   locus: whole volume - Tomus 5 of Series I; the letters and instructions of 1553
   role: tradition
   confidence: assigned
+  language: spa-ita-lat
+  date:
+    start: 1553
+    end: 1553
+    source: 'dated letter headings: from "3 et 10 Aprilis 1553" (file line 245) to "28 Novembris
+      1553" (file line 39925)'
+    formation_confidence: Documented
   note: 'Ignatius''s letters and instructions as General, in the languages written (the letters
     and instructions of 1553). Many are dictated to secretaries and sent in Ignatius''s name,
     so the voice is the General''s office speaking for him. It extends the vendored Tomus
@@ -519,6 +764,13 @@ works:
   locus: whole volume - Tomus 6 of Series I; the letters and instructions of 1554
   role: tradition
   confidence: assigned
+  language: spa-ita-lat
+  date:
+    start: 1553
+    end: 1554
+    source: 'dated letter headings: the first letter is "2 Decembris 1553" (file line 259),
+      the last heading found is "15 Maji 1554" (file line 38225)'
+    formation_confidence: Documented
   note: 'Ignatius''s letters and instructions as General, in the languages written (the letters
     and instructions of 1554). Many are dictated to secretaries and sent in Ignatius''s name,
     so the voice is the General''s office speaking for him. It extends the vendored Tomus
@@ -535,6 +787,12 @@ works:
     22 of the MHSI series'
   role: tradition
   confidence: assigned
+  language: spa-lat-ita
+  date:
+    formation_confidence: unknown
+    checked: title page (file line 58 'TOMUS PRIMUS', Madrid 1903 imprint) and the preface;
+      the span of the letters is not stated on the title page, and the 1903 imprint dates
+      the edition only
   note: 'One volume of the full 12-vol. MHSI critical edition of Ignatius''s ~7,000 letters,
     dwarfing the already-vendored ~24-letter O''Leary/Goodier English selection. Per the Library''s
     non-English-primary-evidence rule (Build/worlds/_cross-world/LIBRARY-DECISION-LOG.md),
@@ -548,8 +806,18 @@ works:
   work: The Autobiography of St. Ignatius
   author: ignatius-loyola
   locus: whole text
+  locus_ids:
+  - whole-file
   role: tradition
   confidence: assigned
+  language: eng
+  date:
+    start: 1553
+    end: 1555
+    source: 'Da Camara''s notes: dictation began in 1553 (file line 192), was interrupted
+      from September 1553 to October 1554 (lines 239-240), and resumed "the 9th of March,
+      1555" (line 254)'
+    formation_confidence: Documented
   note: 'Ignatius''s own account, dictated to Luis Gonzalez da Camara (1553-1555), ed. J.F.X.
     O''Conor, S.J. (1900) - direct first-person narrative of his own conversion and early
     years.
@@ -562,6 +830,11 @@ works:
   locus: whole text
   role: tradition
   confidence: assigned
+  language: eng
+  date:
+    formation_confidence: unknown
+    checked: file header, title page and front matter; Mullan's 1914 translation is dated
+      only by a copyright line, and the Exercises' own composition date is not stated
   note: 'Ignatius of Loyola''s own foundational spiritual text, trans. Elder Mullan, S.J.
     (1914) - the structured month of prayer that shaped every Jesuit the order trained.
 
@@ -574,6 +847,13 @@ works:
     pages
   role: tradition
   confidence: assigned
+  language: fra-eng
+  date:
+    start: 1636
+    end: 1636
+    source: 'the volume''s own title page, file line 133: the volume is headed with the year
+      1636'
+    formation_confidence: Documented
   note: The Society's missionary voice in New France, in the French the Jesuit superiors and
     missionaries wrote, printed by Thwaites with a facing English translation. Primary original
     evidence for the movement once a quotation is checked against the page image. The English
@@ -589,6 +869,13 @@ works:
     pages
   role: tradition
   confidence: assigned
+  language: fra-lat-eng
+  date:
+    start: 1636
+    end: 1637
+    source: 'the volume''s own title page, file line 81: the volume is headed with the years
+      1636-1637'
+    formation_confidence: Documented
   note: The Society's missionary voice in New France, in the French the Jesuit superiors and
     missionaries wrote, printed by Thwaites with a facing English translation. Primary original
     evidence for the movement once a quotation is checked against the page image. The English
@@ -603,6 +890,13 @@ works:
     pages
   role: tradition
   confidence: assigned
+  language: fra-eng
+  date:
+    start: 1637
+    end: 1637
+    source: 'the volume''s own title page, file line 138: the volume is headed with the year
+      1637'
+    formation_confidence: Documented
   note: The Society's missionary voice in New France, in the French the Jesuit superiors and
     missionaries wrote, printed by Thwaites with a facing English translation. Primary original
     evidence for the movement once a quotation is checked against the page image. The English
@@ -617,6 +911,13 @@ works:
     pages
   role: tradition
   confidence: assigned
+  language: fra-eng
+  date:
+    start: 1637
+    end: 1637
+    source: 'the volume''s own title page, file line 96: the volume is headed with the year
+      1637'
+    formation_confidence: Documented
   note: The Society's missionary voice in New France, in the French the Jesuit superiors and
     missionaries wrote, printed by Thwaites with a facing English translation. Primary original
     evidence for the movement once a quotation is checked against the page image. The English
@@ -632,6 +933,13 @@ works:
     pages
   role: tradition
   confidence: assigned
+  language: fra-eng
+  date:
+    start: 1637
+    end: 1638
+    source: 'the volume''s own title page, file line 127: the volume is headed with the years
+      1637-1638'
+    formation_confidence: Documented
   note: The Society's missionary voice in New France, in the French the Jesuit superiors and
     missionaries wrote, printed by Thwaites with a facing English translation. Primary original
     evidence for the movement once a quotation is checked against the page image. The English
@@ -647,6 +955,13 @@ works:
     pages
   role: tradition
   confidence: assigned
+  language: fra-eng
+  date:
+    start: 1638
+    end: 1639
+    source: 'the volume''s own title page, file line 82: the volume is headed with the years
+      1638-1639'
+    formation_confidence: Documented
   note: The Society's missionary voice in New France, in the French the Jesuit superiors and
     missionaries wrote, printed by Thwaites with a facing English translation. Primary original
     evidence for the movement once a quotation is checked against the page image. The English
@@ -661,6 +976,13 @@ works:
     pages
   role: tradition
   confidence: assigned
+  language: fra-eng
+  date:
+    start: 1639
+    end: 1639
+    source: 'the volume''s own title page, file line 129: the volume is headed with the year
+      1639'
+    formation_confidence: Documented
   note: The Society's missionary voice in New France, in the French the Jesuit superiors and
     missionaries wrote, printed by Thwaites with a facing English translation. Primary original
     evidence for the movement once a quotation is checked against the page image. The English
@@ -676,6 +998,13 @@ works:
     pages
   role: tradition
   confidence: assigned
+  language: fra-lat-eng
+  date:
+    start: 1639
+    end: 1640
+    source: 'the volume''s own title page, file line 237: the volume is headed with the years
+      1639-1640'
+    formation_confidence: Documented
   note: The Society's missionary voice in New France, in the French the Jesuit superiors and
     missionaries wrote, printed by Thwaites with a facing English translation. Primary original
     evidence for the movement once a quotation is checked against the page image. The English
@@ -690,6 +1019,13 @@ works:
     pages
   role: tradition
   confidence: assigned
+  language: fra-eng
+  date:
+    start: 1640
+    end: 1640
+    source: 'the volume''s own title page, file line 84: the volume is headed with the year
+      1640'
+    formation_confidence: Documented
   note: The Society's missionary voice in New France, in the French the Jesuit superiors and
     missionaries wrote, printed by Thwaites with a facing English translation. Primary original
     evidence for the movement once a quotation is checked against the page image. The English
@@ -705,6 +1041,13 @@ works:
     pages
   role: tradition
   confidence: assigned
+  language: fra-eng
+  date:
+    start: 1640
+    end: 1640
+    source: 'the volume''s own title page, file line 79: the volume is headed with the year
+      1640'
+    formation_confidence: Documented
   note: The Society's missionary voice in New France, in the French the Jesuit superiors and
     missionaries wrote, printed by Thwaites with a facing English translation. Primary original
     evidence for the movement once a quotation is checked against the page image. The English
@@ -719,6 +1062,13 @@ works:
     pages
   role: tradition
   confidence: assigned
+  language: fra-eng
+  date:
+    start: 1610
+    end: 1613
+    source: 'the volume''s own title page, file line 197: the volume is headed with the years
+      1610-1613'
+    formation_confidence: Documented
   note: The Society's missionary voice in New France, in the French the Jesuit superiors and
     missionaries wrote, printed by Thwaites with a facing English translation. Primary original
     evidence for the movement once a quotation is checked against the page image. The English
@@ -733,6 +1083,13 @@ works:
     pages
   role: tradition
   confidence: assigned
+  language: fra-lat-eng
+  date:
+    start: 1612
+    end: 1614
+    source: 'the volume''s own title page, file line 117: the volume is headed with the years
+      1612-1614'
+    formation_confidence: Documented
   note: The Society's missionary voice in New France, in the French the Jesuit superiors and
     missionaries wrote, printed by Thwaites with a facing English translation. Primary original
     evidence for the movement once a quotation is checked against the page image. The English
@@ -748,6 +1105,13 @@ works:
     pages
   role: tradition
   confidence: assigned
+  language: fra-eng
+  date:
+    start: 1640
+    end: 1641
+    source: 'the volume''s own title page, file line 155: the volume is headed with the years
+      1640-1641'
+    formation_confidence: Documented
   note: The Society's missionary voice in New France, in the French the Jesuit superiors and
     missionaries wrote, printed by Thwaites with a facing English translation. Primary original
     evidence for the movement once a quotation is checked against the page image. The English
@@ -763,6 +1127,13 @@ works:
     pages
   role: tradition
   confidence: assigned
+  language: fra-eng
+  date:
+    start: 1641
+    end: 1642
+    source: 'the volume''s own title page, file line 248: the volume is headed with the years
+      1641-1642'
+    formation_confidence: Documented
   note: The Society's missionary voice in New France, in the French the Jesuit superiors and
     missionaries wrote, printed by Thwaites with a facing English translation. Primary original
     evidence for the movement once a quotation is checked against the page image. The English
@@ -778,6 +1149,13 @@ works:
     pages
   role: tradition
   confidence: assigned
+  language: fra-eng
+  date:
+    start: 1642
+    end: 1642
+    source: 'the volume''s own title page, file line 139: the volume is headed with the year
+      1642'
+    formation_confidence: Documented
   note: The Society's missionary voice in New France, in the French the Jesuit superiors and
     missionaries wrote, printed by Thwaites with a facing English translation. Primary original
     evidence for the movement once a quotation is checked against the page image. The English
@@ -793,6 +1171,13 @@ works:
     pages
   role: tradition
   confidence: assigned
+  language: fra-lat-eng
+  date:
+    start: 1642
+    end: 1643
+    source: 'the volume''s own title page, file line 351: the volume is headed with the years
+      1642-1643'
+    formation_confidence: Documented
   note: The Society's missionary voice in New France, in the French the Jesuit superiors and
     missionaries wrote, printed by Thwaites with a facing English translation. Primary original
     evidence for the movement once a quotation is checked against the page image. The English
@@ -808,6 +1193,13 @@ works:
     pages
   role: tradition
   confidence: assigned
+  language: fra-eng
+  date:
+    start: 1642
+    end: 1643
+    source: 'the volume''s own title page, file line 85: the volume is headed with the years
+      1642-1643'
+    formation_confidence: Documented
   note: The Society's missionary voice in New France, in the French the Jesuit superiors and
     missionaries wrote, printed by Thwaites with a facing English translation. Primary original
     evidence for the movement once a quotation is checked against the page image. The English
@@ -823,6 +1215,13 @@ works:
     pages
   role: tradition
   confidence: assigned
+  language: fra-lat-eng
+  date:
+    start: 1642
+    end: 1644
+    source: 'the volume''s own title page, file line 104: the volume is headed with the years
+      1642-1644'
+    formation_confidence: Documented
   note: The Society's missionary voice in New France, in the French the Jesuit superiors and
     missionaries wrote, printed by Thwaites with a facing English translation. Primary original
     evidence for the movement once a quotation is checked against the page image. The English
@@ -837,6 +1236,13 @@ works:
     pages
   role: tradition
   confidence: assigned
+  language: fra-eng
+  date:
+    start: 1642
+    end: 1644
+    source: 'the volume''s own title page, file line 72: the volume is headed with the years
+      1642-1644'
+    formation_confidence: Documented
   note: The Society's missionary voice in New France, in the French the Jesuit superiors and
     missionaries wrote, printed by Thwaites with a facing English translation. Primary original
     evidence for the movement once a quotation is checked against the page image. The English
@@ -852,6 +1258,13 @@ works:
     pages
   role: tradition
   confidence: assigned
+  language: fra-eng
+  date:
+    start: 1642
+    end: 1645
+    source: 'the volume''s own title page, file line 201: the volume is headed with the years
+      1642-1645'
+    formation_confidence: Documented
   note: The Society's missionary voice in New France, in the French the Jesuit superiors and
     missionaries wrote, printed by Thwaites with a facing English translation. Primary original
     evidence for the movement once a quotation is checked against the page image. The English
@@ -867,6 +1280,13 @@ works:
     pages
   role: tradition
   confidence: assigned
+  language: fra-eng
+  date:
+    start: 1645
+    end: 1646
+    source: 'the volume''s own title page, file line 74: the volume is headed with the years
+      1645-1646'
+    formation_confidence: Documented
   note: The Society's missionary voice in New France, in the French the Jesuit superiors and
     missionaries wrote, printed by Thwaites with a facing English translation. Primary original
     evidence for the movement once a quotation is checked against the page image. The English
@@ -881,6 +1301,14 @@ works:
     pages
   role: tradition
   confidence: assigned
+  language: fra-eng
+  date:
+    start: 1646
+    end: 1646
+    source: the volume's one document (Relation of 1645 and 1646), signed Quebec 28 October
+      1646 and Huron country 1 May 1646 (file lines 513-514, 529-531), and the text's own
+      'present year 1646' (line 748); the title-page year at line 469 is garbled in the OCR
+    formation_confidence: Documented
   note: The Society's missionary voice in New France, in the French the Jesuit superiors and
     missionaries wrote, printed by Thwaites with a facing English translation. Primary original
     evidence for the movement once a quotation is checked against the page image. The English
@@ -895,6 +1323,13 @@ works:
     pages
   role: tradition
   confidence: assigned
+  language: fra-lat-eng
+  date:
+    start: 1611
+    end: 1616
+    source: 'the volume''s own title page, file line 84: the volume is headed with the years
+      1611-1616'
+    formation_confidence: Documented
   note: The Society's missionary voice in New France, in the French the Jesuit superiors and
     missionaries wrote, printed by Thwaites with a facing English translation. Primary original
     evidence for the movement once a quotation is checked against the page image. The English
@@ -909,6 +1344,13 @@ works:
     pages
   role: tradition
   confidence: assigned
+  language: fra-eng
+  date:
+    start: 1646
+    end: 1647
+    source: 'the volume''s own title page, file line 104: the volume is headed with the years
+      1646-1647'
+    formation_confidence: Documented
   note: The Society's missionary voice in New France, in the French the Jesuit superiors and
     missionaries wrote, printed by Thwaites with a facing English translation. Primary original
     evidence for the movement once a quotation is checked against the page image. The English
@@ -924,6 +1366,13 @@ works:
     pages
   role: tradition
   confidence: assigned
+  language: fra-eng
+  date:
+    start: 1647
+    end: 1647
+    source: 'the volume''s own title page, file line 141: the volume is headed with the year
+      1647'
+    formation_confidence: Documented
   note: The Society's missionary voice in New France, in the French the Jesuit superiors and
     missionaries wrote, printed by Thwaites with a facing English translation. Primary original
     evidence for the movement once a quotation is checked against the page image. The English
@@ -939,6 +1388,13 @@ works:
     pages
   role: tradition
   confidence: assigned
+  language: fra-lat-eng
+  date:
+    start: 1647
+    end: 1648
+    source: 'the volume''s own title page, file line 119: the volume is headed with the years
+      1647-1648'
+    formation_confidence: Documented
   note: The Society's missionary voice in New France, in the French the Jesuit superiors and
     missionaries wrote, printed by Thwaites with a facing English translation. Primary original
     evidence for the movement once a quotation is checked against the page image. The English
@@ -954,6 +1410,13 @@ works:
     pages
   role: tradition
   confidence: assigned
+  language: fra-lat-eng
+  date:
+    start: 1648
+    end: 1649
+    source: 'the volume''s own title page, file line 88: the volume is headed with the years
+      1648-1649'
+    formation_confidence: Documented
   note: The Society's missionary voice in New France, in the French the Jesuit superiors and
     missionaries wrote, printed by Thwaites with a facing English translation. Primary original
     evidence for the movement once a quotation is checked against the page image. The English
@@ -969,6 +1432,13 @@ works:
     pages
   role: tradition
   confidence: assigned
+  language: fra-eng
+  date:
+    start: 1649
+    end: 1649
+    source: 'the volume''s own title page, file line 90: the volume is headed with the year
+      1649'
+    formation_confidence: Documented
   note: The Society's missionary voice in New France, in the French the Jesuit superiors and
     missionaries wrote, printed by Thwaites with a facing English translation. Primary original
     evidence for the movement once a quotation is checked against the page image. The English
@@ -984,6 +1454,13 @@ works:
     pages
   role: tradition
   confidence: assigned
+  language: fra-lat-eng
+  date:
+    start: 1650
+    end: 1650
+    source: 'the volume''s own title page, file line 162: the volume is headed with the year
+      1650'
+    formation_confidence: Documented
   note: The Society's missionary voice in New France, in the French the Jesuit superiors and
     missionaries wrote, printed by Thwaites with a facing English translation. Primary original
     evidence for the movement once a quotation is checked against the page image. The English
@@ -999,6 +1476,13 @@ works:
     pages
   role: tradition
   confidence: assigned
+  language: fra-lat-eng
+  date:
+    start: 1616
+    end: 1629
+    source: 'the volume''s own title page, file line 88: the volume is headed with the years
+      1616-1629'
+    formation_confidence: Documented
   note: The Society's missionary voice in New France, in the French the Jesuit superiors and
     missionaries wrote, printed by Thwaites with a facing English translation. Primary original
     evidence for the movement once a quotation is checked against the page image. The English
@@ -1013,6 +1497,13 @@ works:
     pages
   role: tradition
   confidence: assigned
+  language: fra-eng
+  date:
+    start: 1632
+    end: 1633
+    source: 'the volume''s own title page, file line 432: the volume is headed with the years
+      1632-1633'
+    formation_confidence: Documented
   note: The Society's missionary voice in New France, in the French the Jesuit superiors and
     missionaries wrote, printed by Thwaites with a facing English translation. Primary original
     evidence for the movement once a quotation is checked against the page image. The English
@@ -1027,6 +1518,13 @@ works:
     pages
   role: tradition
   confidence: assigned
+  language: fra-eng
+  date:
+    start: 1633
+    end: 1634
+    source: 'the volume''s own title page, file line 95: the volume is headed with the years
+      1633-1634'
+    formation_confidence: Documented
   note: The Society's missionary voice in New France, in the French the Jesuit superiors and
     missionaries wrote, printed by Thwaites with a facing English translation. Primary original
     evidence for the movement once a quotation is checked against the page image. The English
@@ -1041,6 +1539,13 @@ works:
     pages
   role: tradition
   confidence: assigned
+  language: fra-eng
+  date:
+    start: 1634
+    end: 1635
+    source: 'the volume''s own title page, file line 120: the volume is headed with the years
+      1634-1635'
+    formation_confidence: Documented
   note: The Society's missionary voice in New France, in the French the Jesuit superiors and
     missionaries wrote, printed by Thwaites with a facing English translation. Primary original
     evidence for the movement once a quotation is checked against the page image. The English
@@ -1056,6 +1561,13 @@ works:
     pages
   role: tradition
   confidence: assigned
+  language: fra-eng
+  date:
+    start: 1634
+    end: 1636
+    source: 'the volume''s own title page, file line 90: the volume is headed with the years
+      1634-1636'
+    formation_confidence: Documented
   note: The Society's missionary voice in New France, in the French the Jesuit superiors and
     missionaries wrote, printed by Thwaites with a facing English translation. Primary original
     evidence for the movement once a quotation is checked against the page image. The English
@@ -1070,6 +1582,13 @@ works:
     pages
   role: tradition
   confidence: assigned
+  language: fra-eng
+  date:
+    start: 1636
+    end: 1636
+    source: 'the volume''s own title page, file line 82: the volume is headed with the year
+      1636'
+    formation_confidence: Documented
   note: The Society's missionary voice in New France, in the French the Jesuit superiors and
     missionaries wrote, printed by Thwaites with a facing English translation. Primary original
     evidence for the movement once a quotation is checked against the page image. The English
@@ -1084,6 +1603,12 @@ works:
     ends before Lainez''s own generalate'
   role: tradition
   confidence: assigned
+  language: spa-ita-lat
+  date:
+    start: 1536
+    end: 1556
+    source: 'title page of Tomus Primus, file line 81: "1536-1556"'
+    formation_confidence: Documented
   note: 'Lainez''s own letters and acts (Lainez was the 2nd Superior General; this first tomus
     covers 1536-1556, before his own generalate began in 1558). This Latin primary material
     is PD and available. Per the Library''s non-English-primary-evidence rule (Build/worlds/_cross-world/LIBRARY-DECISION-LOG.md),
@@ -1099,6 +1624,12 @@ works:
   locus: whole volume - Tomus 2, 1557
   role: tradition
   confidence: assigned
+  language: spa-lat-ita
+  date:
+    start: 1557
+    end: 1557
+    source: 'title page of Tomus Secundus, file line 67: "1557"'
+    formation_confidence: Documented
   note: 'Lainez''s own letters and acts as second General of the Society, 1557, printed from
     the originals and registers. The letters are in Latin, Spanish and Italian as written,
     and the Society''s General speaks here for himself and not only through register copies.
@@ -1114,6 +1645,12 @@ works:
   locus: whole volume - Tomus 3, 1558
   role: tradition
   confidence: assigned
+  language: spa-ita-lat
+  date:
+    start: 1558
+    end: 1558
+    source: 'title page of Tomus Tertius, file line 81: "1558"'
+    formation_confidence: Documented
   note: 'Lainez''s own letters and acts as second General of the Society, 1558, printed from
     the originals and registers. The letters are in Latin, Spanish and Italian as written,
     and the Society''s General speaks here for himself and not only through register copies.
@@ -1129,6 +1666,12 @@ works:
   locus: whole volume - Tomus 4, 1558-1560
   role: tradition
   confidence: assigned
+  language: spa-lat-ita
+  date:
+    start: 1558
+    end: 1560
+    source: 'title page of Tomus Quartus, file line 69: "1558-1560"'
+    formation_confidence: Documented
   note: 'Lainez''s own letters and acts as second General of the Society, 1558-1560, printed
     from the originals and registers. The letters are in Latin, Spanish and Italian as written,
     and the Society''s General speaks here for himself and not only through register copies.
@@ -1144,6 +1687,12 @@ works:
   locus: whole volume - Tomus 5, 1560-1561
   role: tradition
   confidence: assigned
+  language: spa-ita-lat
+  date:
+    start: 1560
+    end: 1561
+    source: 'title page of Tomus Quintus, file line 58: "1560-1561"'
+    formation_confidence: Documented
   note: 'Lainez''s own letters and acts as second General of the Society, 1560-1561, printed
     from the originals and registers. The letters are in Latin, Spanish and Italian as written,
     and the Society''s General speaks here for himself and not only through register copies.
@@ -1159,6 +1708,12 @@ works:
   locus: whole volume - Tomus 6, 1561-1563
   role: tradition
   confidence: assigned
+  language: spa-ita-lat
+  date:
+    start: 1561
+    end: 1563
+    source: 'title page of Tomus Sextus, file line 59: "1561-1563"'
+    formation_confidence: Documented
   note: 'Lainez''s own letters and acts as second General of the Society, 1561-1563, printed
     from the originals and registers. The letters are in Latin, Spanish and Italian as written,
     and the Society''s General speaks here for himself and not only through register copies.
@@ -1174,6 +1729,12 @@ works:
   locus: whole volume - Tomus 7, 1563-1564
   role: tradition
   confidence: assigned
+  language: spa-ita-lat
+  date:
+    start: 1563
+    end: 1564
+    source: 'title page of Tomus Septimus, file line 60: "1563-1564"'
+    formation_confidence: Documented
   note: 'Lainez''s own letters and acts as second General of the Society, 1563-1564, printed
     from the originals and registers. The letters are in Latin, Spanish and Italian as written,
     and the Society''s General speaks here for himself and not only through register copies.
@@ -1189,6 +1750,12 @@ works:
   locus: whole volume - Tomus 8, 1564-1565
   role: tradition
   confidence: assigned
+  language: spa-lat-ita
+  date:
+    start: 1564
+    end: 1565
+    source: 'title page of Tomus Octavus, file line 60: "1564-1565"'
+    formation_confidence: Documented
   note: 'Lainez''s own letters and acts as second General of the Society, 1564-1565, printed
     from the originals and registers. The letters are in Latin, Spanish and Italian as written,
     and the Society''s General speaks here for himself and not only through register copies.
@@ -1204,6 +1771,11 @@ works:
   locus: Whole work
   role: context
   confidence: provisional
+  language: eng
+  date:
+    formation_confidence: unknown
+    checked: 'file header: the transcription is from an 1887 edition of Johnson''s translation;
+      no composition year for Lobo''s voyage is stated in the lines read'
   note: A Jesuit's own account of the Ethiopian mission in the last years before the expulsion.
     Placed on window and subject; the Jesuit world's builders will weigh it.
   source_file: lobo_voyage-to-abyssinia_johnson1735.txt
@@ -1214,6 +1786,11 @@ works:
   locus: Book II contents from file line 445; Book III from 14092
   role: context
   confidence: provisional
+  language: eng
+  date:
+    formation_confidence: unknown
+    checked: 'title page and header: 1682 is the English translation by J. P.; the Latin original
+      (Frankfurt, 1681) appears only in the library header note, not in the printed text'
   note: 'A Protestant scholar''s account of the Jesuit mission''s failure, written against
     the Jesuit histories it draws on. Placed on subject without a close read; for the Jesuit
     world''s builders to weigh.
@@ -1226,6 +1803,11 @@ works:
   locus: Liber primus from file line 4165, Liber secundus from 9305
   role: tradition
   confidence: provisional
+  language: lat
+  date:
+    formation_confidence: unknown
+    checked: file header and Beccari's preface (1908 imprint dates the edition only); the
+      composition date of Mendes's account is not stated in the lines read
   note: The Jesuit patriarch's own account of the mission. Placed on window and subject without
     reading the whole volume.
   source_file: mendes_expeditio-aethiopica-liber-1-2-lat_beccari1908.txt
@@ -1236,6 +1818,14 @@ works:
   locus: file line 92 to line 9102
   role: tradition
   confidence: assigned
+  language: eng
+  date:
+    start: 1609
+    end: 1609
+    source: 'Morris, file line 8497: ''The Autobiography was composed in 1609'', from its
+      mention of Robert Drury''s martyrdom two years before; this dates the Autobiography
+      whose extracts the row''s text is, not Morris''s 1871 framing'
+    formation_confidence: Widely Accepted
   note: 'The autobiography of a Jesuit of the English mission, as translated and framed by
     a later Jesuit; same caveat as the recusant row (Gerard''s words only where marked).
 
@@ -1248,6 +1838,11 @@ works:
   locus: file lines 7036 to 8805 (Tesimond) and 8809 to 10280 (Blount and Scotney)
   role: tradition
   confidence: provisional
+  language: eng
+  date:
+    formation_confidence: unknown
+    checked: Morris's preface (dated 31 July 1872, file line 306) dates the edition, not the
+      papers; the documents are of different dates and no span is stated
   note: 'Narratives of two Jesuits of the English mission: the fragment of Oswald Tesimond''s
     own autobiography (Morris''s introduction, file line 7036) and the Scotney Castle papers
     on Richard Blount''s escape. Placed on the papers'' own subjects; the narrating voice
@@ -1259,8 +1854,16 @@ works:
   work: Adnotationes et Meditationes in Evangelia
   author: nadal
   locus: whole text
+  locus_ids:
+  - whole-file
   role: tradition
   confidence: assigned
+  language: lat
+  date:
+    formation_confidence: unknown
+    checked: 'printed title: Antwerp, Martinus Nutius, 1594 (file line 167); the Imagines
+      title page, Antwerp 1593 (line 186); papal privilege dated 14 August 1593 (line 359);
+      the file does not state when Nadal composed the work'
   note: 'Jeronimo Nadal''s own Gospel annotations and meditations, Latin original (1595) -
     a major first-generation Jesuit theological voice. This 1595 print is flagged as garbled
     under the Library''s own OCR-quality rule (Build/worlds/_cross-world/LIBRARY-DECISION-LOG.md).
@@ -1275,6 +1878,12 @@ works:
   locus: 'whole volume - Tomus I, covering 1546-1562 (title page: TOMUS PRIMUS (1546-1562))'
   role: tradition
   confidence: assigned
+  language: spa-lat-ita
+  date:
+    start: 1546
+    end: 1562
+    source: 'title page of Tomus Primus, file line 92: "(1546-1562)"'
+    formation_confidence: Documented
   note: 'Nadal''s own letters, distinct from the already-vendored Adnotationes et Meditationes.
     Per the Library''s non-English-primary-evidence rule (Build/worlds/_cross-world/LIBRARY-DECISION-LOG.md),
     this Latin text is primary evidence directly, verified against the vendored file, since
@@ -1289,6 +1898,12 @@ works:
   locus: whole volume - Tomus II, 1562-1565
   role: tradition
   confidence: assigned
+  language: spa-lat-ita
+  date:
+    start: 1562
+    end: 1565
+    source: 'title page of Tomus Secundus, file line 88: "(1562-1565)"'
+    formation_confidence: Documented
   note: 'Nadal''s own letters, 1562-1565, in the languages written, from the years of his
     visitations of the Society. It carries Nadal''s voice on from the vendored Tomus I, which
     stops in 1562. Primary original evidence for the movement, quotable once each wording
@@ -1303,6 +1918,12 @@ works:
   locus: whole volume - Tomus III, 1566-1577
   role: tradition
   confidence: assigned
+  language: ita-spa-lat
+  date:
+    start: 1566
+    end: 1577
+    source: 'title page of Tomus Tertius, file line 75: "(1566-1577)"'
+    formation_confidence: Documented
   note: 'Nadal''s own letters, 1566-1577, in the languages written, from the years of his
     visitations of the Society. It carries Nadal''s voice on from the vendored Tomus I, which
     stops in 1562. Primary original evidence for the movement, quotable once each wording
@@ -1317,6 +1938,11 @@ works:
   locus: whole volume - Tomus IV
   role: tradition
   confidence: assigned
+  language: lat-spa-ita
+  date:
+    formation_confidence: unknown
+    checked: title page (file line 89 'TOMUS QUARTUS') and the preface; no span of years is
+      stated for this volume of instructions and other monuments
   note: 'Nadal''s own instructions and writings, printed as the complement of his letters.
     They give his Latin voice on the Society''s government and practice. The volume omits
     the Adnotationes and the Scholia, which are vendored in other files. Primary original
@@ -1329,8 +1955,16 @@ works:
   work: Scholia in Constitutiones
   author: nadal
   locus: whole volume
+  locus_ids:
+  - whole-file
   role: tradition
   confidence: assigned
+  language: lat
+  date:
+    start: 1560
+    end: 1560
+    source: 'file line 12451: ''Nam anno 1560 quo haec scribuntur'''
+    formation_confidence: Widely Accepted
   note: 'Nadal''s own commentary explaining the Jesuit Constitutions to the provinces. Per
     the Library''s non-English-primary-evidence rule (Build/worlds/_cross-world/LIBRARY-DECISION-LOG.md),
     this Latin text is primary evidence directly, verified against the vendored file, since
@@ -1345,6 +1979,12 @@ works:
   locus: Livro III from file line 766, Livro IV from 13917
   role: tradition
   confidence: provisional
+  language: por-lat
+  date:
+    formation_confidence: unknown
+    checked: Beccari's Latin preface, file lines 283-288, says Paez carried the history to
+      March 1622 and lived until mid-1622; the books are not dated as one span and the 1906
+      imprint dates the edition only
   note: The Jesuit mission to Ethiopia in the mission's own historian's words. Placed on window
     and subject without reading the whole volume; role tradition because the author is a Jesuit
     narrating a Jesuit mission, for the Jesuit world's builders to confirm.
@@ -1357,6 +1997,11 @@ works:
     to Acquaviva at file line 3284)
   role: context
   confidence: provisional
+  language: fra-lat
+  date:
+    formation_confidence: unknown
+    checked: file header and opening pages; a 1870 editorial collection of documents of many
+      dates, no single span stated
   note: 'The Society''s Japan province writing home during the persecution, in French translation;
     placed on the Jesuit letters the volume holds, not on a reading for that entry.
 
@@ -1366,8 +2011,16 @@ works:
   work: Chronicon Societatis Iesu (Polanco), Tomus 2 (1550-1552)
   author: polanco
   locus: whole volume - Tomus 2, 1550-1552
+  locus_ids:
+  - whole-file
   role: tradition
   confidence: assigned
+  language: lat
+  date:
+    formation_confidence: unknown
+    checked: 'title page (file lines 142-144: ''TOMUS SECUNDUS (1550-1552)''); the title page
+      names the years the chronicle narrates, not when it was written, and no composition
+      date is stated'
   note: 'Polanco''s year-by-year chronicle of the Society, 1550-1552, in Latin with the editors''
     notes. It is the Society''s own account of its houses, colleges and missions, written
     by Ignatius''s secretary, and covers other years than the vendored Tomus 5 (polanco_chronicon-v1-lat_1894.txt,
@@ -1383,6 +2036,11 @@ works:
   locus: whole volume - Tomus 4, 1554
   role: tradition
   confidence: assigned
+  language: lat-spa-ita
+  date:
+    formation_confidence: unknown
+    checked: 'title page (file line 61: ''(1554)''); the title page names the year the chronicle
+      narrates, not when it was written, and no composition date is stated'
   note: 'Polanco''s year-by-year chronicle of the Society, 1554, in Latin with the editors''
     notes. It is the Society''s own account of its houses, colleges and missions, written
     by Ignatius''s secretary, and covers other years than the vendored Tomus 5 (polanco_chronicon-v1-lat_1894.txt,
@@ -1398,6 +2056,11 @@ works:
   locus: whole volume - Tomus 5, 1555
   role: tradition
   confidence: assigned
+  language: lat-spa-ita
+  date:
+    formation_confidence: unknown
+    checked: title page (file line 65 'TOMUS QUINTUS'); the title page names the year the
+      chronicle narrates, not when it was written, and no composition date is stated
   note: 'Polanco''s year-by-year chronicle of the Society, 1555, in Latin with the editors''
     notes. It is the Society''s own account of its houses, colleges and missions, written
     by Ignatius''s secretary, and is a second scan of the vendored Tomus 5 (1555). Primary
@@ -1413,6 +2076,11 @@ works:
   locus: whole volume - Tomus 6, 1556
   role: tradition
   confidence: assigned
+  language: lat-spa
+  date:
+    formation_confidence: unknown
+    checked: 'title page (file line 110: ''(1556)''); the title page names the year the chronicle
+      narrates, not when it was written, and no composition date is stated'
   note: 'Polanco''s year-by-year chronicle of the Society, 1556, in Latin with the editors''
     notes. It is the Society''s own account of its houses, colleges and missions, written
     by Ignatius''s secretary, and covers other years than the vendored Tomus 5 (polanco_chronicon-v1-lat_1894.txt,
@@ -1430,6 +2098,12 @@ works:
     item title suggest
   role: context
   confidence: assigned
+  language: lat-spa-ita
+  date:
+    formation_confidence: unknown
+    checked: 'title page (file lines 113-116: ''TOMUS QUINTUS (1555)''); the title page names
+      the year the chronicle narrates, not when it was written, and no composition date is
+      stated'
   note: 'Ignatius''s own secretary''s historical chronicle. This volume opens "TOMUS QUINTUS
     (1555)" in its own body text - it covers only 1555, not the order''s founding period a
     "Vol. I" label would suggest. Per the Library''s non-English-primary-evidence rule (Build/worlds/_cross-world/LIBRARY-DECISION-LOG.md),
@@ -1447,6 +2121,11 @@ works:
   locus: Chapters V to VIII, file lines 13995 to the end of Chap. VIII
   role: context
   confidence: assigned
+  language: eng
+  date:
+    formation_confidence: unknown
+    checked: file header and chapter headings; Purchas's 1625 compilation is not dated in
+      the lines read, and the 1906 reprint date dates the edition only
   note: 'The Society''s own account of its China mission as English readers of 1625 received
     it, through Purchas''s abridgement and commentary. Context, not tradition, because the
     words on the page are Purchas''s edited English and not the Society''s own text.
@@ -1457,8 +2136,16 @@ works:
   work: Vita Ignatii Loiolae, Societatis Iesu Fundatoris
   author: ribadeneira
   locus: whole volume
+  locus_ids:
+  - whole-file
   role: context
   confidence: assigned
+  language: lat
+  date:
+    formation_confidence: unknown
+    checked: title page, file line 56 ('NEAPOLI M. D. LXXII'), and the colophon at line 17164
+      date this printing (1572); the file never says whether it is the first edition or when
+      the Life was composed
   note: 'Ribadeneira''s original Latin life of Ignatius, commissioned by the 3rd Superior
     General - an early, primary-adjacent biography by someone who knew Ignatius personally.
     Per the Library''s scan-quality rule (Build/worlds/_cross-world/LIBRARY-DECISION-LOG.md),
@@ -1475,6 +2162,12 @@ works:
     archive.org item title suggest
   role: tradition
   confidence: assigned
+  language: spa-ita-lat
+  date:
+    start: 1536
+    end: 1565
+    source: 'title page of Tomus Primus, file line 131: "1536-1565"'
+    formation_confidence: Documented
   note: 'Salmeron''s own letters, previously wholly unassessed for this world. The file''s
     own title page reads "TOMUS PRIMUS 1536-1565". Per the Library''s non-English-primary-evidence
     rule (Build/worlds/_cross-world/LIBRARY-DECISION-LOG.md), this Latin text is primary evidence
@@ -1490,6 +2183,12 @@ works:
   locus: whole volume - Tomus Secundus, covering 1565-1585; not Vol. III as the filename suggests
   role: tradition
   confidence: assigned
+  language: spa-lat-ita
+  date:
+    start: 1565
+    end: 1585
+    source: 'title page of Tomus Secundus, file line 166: "1565-1585"'
+    formation_confidence: Documented
   note: 'Salmeron''s own letters, continuing the Tomus Primus volume (vendored alongside this
     file) - together spanning 1536-1585 in full. The file''s own title page reads "TOMUS SECUNDUS
     1565-1585". Per the Library''s non-English-primary-evidence rule (Build/worlds/_cross-world/LIBRARY-DECISION-LOG.md),
@@ -1507,6 +2206,14 @@ works:
     footnotes); item V, the new articles of 1590, ends at 35639
   role: context
   confidence: provisional
+  language: pol-rus
+  date:
+    start: 1577
+    end: 1590
+    source: 'editors'' preface, file lines 155-160: the 1577 book is the first edition and
+      the second edition, 1590, appeared with changes; contents list the 1577 text (line 269)
+      and the 1590 additions (line 275)'
+    formation_confidence: Documented
   note: 'Skarga was a Jesuit and wrote this for the Ostroh prince, with the Society''s argument
     for the primacy of Rome. Provisional: the Jesuit world is 1540-1650 and may not want a
     Ruthenian-language edition.'
@@ -1519,6 +2226,11 @@ works:
   locus: same as the Brest row
   role: context
   confidence: provisional
+  language: pol
+  date:
+    formation_confidence: unknown
+    checked: Rzepecki's preface (signed 5 March 1874, file lines 66-69) dates the 1874 edition,
+      not the 1596-1597 text; the file does not date the text itself in the lines read
   note: A Jesuit's defence of a union the Society helped to make, mirroring the provisional
     Society of Jesus row already on Skarga's 1577 treatise in RIB vol. 7. The Jesuit thread
     decides.
@@ -1527,8 +2239,17 @@ works:
   work: Constitutiones Societatis Iesu, cum earum Declarationibus
   author: society-of-jesus
   locus: whole text, including the Primum ac generale examen
+  locus_ids:
+  - whole-file
   role: tradition
   confidence: assigned
+  language: lat
+  date:
+    formation_confidence: unknown
+    checked: 'printed text: papal confirmations are dated Kal. Feb. MDLXXXII (file line 61),
+      Gregory XIV, 4 Kal. July MDXCI (line 66) and Paul V, pridie Nonas Septembris, 1606 (line
+      70); the file does not say which date is the composition, and the year of a later edition
+      printing is not the composition year'
   note: 'The Society''s own governing document, Latin original (1606 Rome printing). This
     1606 print is flagged as garbled under the Library''s own OCR-quality rule (Build/worlds/_cross-world/LIBRARY-DECISION-LOG.md).
     It stays second witness for that reason until a cleaner edition is vendored. It closes
@@ -1543,6 +2264,11 @@ works:
   locus: whole volume - volume 1 of 3
   role: tradition
   confidence: assigned
+  language: lat
+  date:
+    formation_confidence: unknown
+    checked: title page and front matter (1892 imprint dates the edition only); a collection
+      of bulls and briefs of many dates, no single span stated
   note: 'The Society''s own collected Latin text of the papal bulls and briefs for the Society,
     the perpetual calendar and the compendium of privileges. The 1540 and 1550 charters and
     the later bulls are printed here in the Society''s own text. Society-authored and corporate;
@@ -1559,6 +2285,11 @@ works:
   locus: whole volume - volume 2 of 3
   role: tradition
   confidence: assigned
+  language: lat
+  date:
+    formation_confidence: unknown
+    checked: title page and front matter (1893 imprint dates the edition only); a collection
+      of documents of many dates, no single span stated
   note: 'The Society''s own collected Latin text of the Examen, the Constitutions with the
     Declarations, and the decrees of the general congregations. The Latin Constitutions and
     Declarations are printed here in a clean scan, which serves as the clean witness beside
@@ -1576,6 +2307,11 @@ works:
   locus: whole volume - volume 3 of 3
   role: tradition
   confidence: assigned
+  language: lat
+  date:
+    formation_confidence: unknown
+    checked: title page and front matter (1893 imprint dates the edition only); rules and
+      regulations of many dates, no single span stated
   note: 'The Society''s own collected Latin text of the Rules, the Ratio Studiorum, the ordinances
     and instructions, the Exercises and the Directory. The Ratio Studiorum is printed here
     with the Society''s rules and instructions. Society-authored and corporate; no single
@@ -1591,6 +2327,11 @@ works:
   locus: whole volume
   role: tradition
   confidence: assigned
+  language: lat-spa-ita
+  date:
+    formation_confidence: unknown
+    checked: title page and front matter (1901 imprint dates the edition only); the documents
+      run to 1586 per the file header, but no span is stated on the title page itself
   note: 'The Society''s own school documents from 1540 to 1586, in the languages they were
     written in. It gives the drafts and rules behind the Ratio Studiorum, whose final text
     is in Institutum Societatis Iesu, Vol. 3. Primary original evidence for the movement,
@@ -1605,6 +2346,11 @@ works:
   locus: file line 5364 to the end
   role: tradition
   confidence: assigned
+  language: eng
+  date:
+    formation_confidence: unknown
+    checked: file header and Walter's 1822 edition front matter; the year the Epistle of Comfort
+      was composed is not stated in the lines read
   note: 'A Jesuit of the English mission writing to prisoners for the faith; the Society''s
     own pastoral voice in England.
 
@@ -1618,6 +2364,13 @@ works:
     from 18817'
   role: context
   confidence: provisional
+  language: lat
+  date:
+    start: 1599
+    end: 1599
+    source: 'title page, file line 53: "Auguftinenft An. Dni mdxcix" (the synod held under
+      Menezes in 1599; the book itself is Rome 1745, line 62)'
+    formation_confidence: Documented
   note: Same text as the main row; the Jesuit share of the synod is in Raulin's history and
     notes. Placed on window and place.
   source_file: raulin_historia-ecclesiae-malabaricae-cum-diamperitana-synodo-lat_1745.txt
@@ -1629,6 +2382,13 @@ works:
     Decrees
   role: context
   confidence: provisional
+  language: eng
+  date:
+    start: 1599
+    end: 1599
+    source: 'title page, file line 124: "Celebrated in the Year of our Lord 1599" (the synod;
+      Geddes''s English translation is of 1694)'
+    formation_confidence: Documented
   note: Placed on window and place without a close read of the relevant part. The synod was
     run by the Jesuit-advised archbishop of Goa; the Society's part is in Hough and Whitehouse
     as well.
@@ -1639,6 +2399,11 @@ works:
   locus: Whole work
   role: context
   confidence: provisional
+  language: eng
+  date:
+    formation_confidence: unknown
+    checked: file header (1710 is the catalogue year of this English printing) and the opening
+      text; the date of Telles's Portuguese original is not stated in the lines read
   note: The same account, read as the Jesuits' own mission narrative in Ethiopia. Placed on
     window and subject without reading the whole; a mission history written about Jesuit work
     and attributed to a Jesuit author.
@@ -1650,6 +2415,14 @@ works:
     and 7528
   role: context
   confidence: provisional
+  language: eng
+  date:
+    start: 1573
+    end: 1582
+    source: 'introduction, file lines 1157-1169: in 1573 Teresa began the history of the Foundations
+      at Salamanca on 24 August; the foundation list ends with Burgos, 22 April 1582 (line
+      977)'
+    formation_confidence: Widely Accepted
   note: Jesuit fathers appear as helpers and counsellors in the foundation stories. Placed
     on word searches only, so provisional.
   source_file: teresa-of-avila_book-of-foundations_lewis1913.txt
@@ -1661,6 +2434,14 @@ works:
     of Alcantara (19 hits)
   role: context
   confidence: provisional
+  language: eng
+  date:
+    start: 1561
+    end: 1565
+    source: 'Zimmerman''s introduction, file lines 897-908: the biographers hold a first writing
+      in 1561 and the following year (finished at Toledo in June) and a second between 1563
+      and 1565; the closing letter is concluded to date from 1565'
+    formation_confidence: Contested
   note: The Society seen from outside by a woman who consulted its fathers; the editor's note
     at line 1850 says she told everything to St Francis de Borja, who changed one point of
     her direction. Placed on word counts and that note, so provisional.
@@ -1671,6 +2452,14 @@ works:
   locus: whole text, five books
   role: tradition
   confidence: assigned
+  language: lat
+  date:
+    start: 1615
+    end: 1615
+    source: 'printed text: the dedication ''Romae 14 Kalendas Februarias, Anno Salutis 1615''
+      (file line 220, OCR ''i6i$''), the preface dated 14 Kalendas Februarias, 1615 (line
+      430, ''c I D 1 3 c XV''), and the approval ''Anno 1615'' (line 452, OCR ''i6i$'')'
+    formation_confidence: Documented
   note: 'The Jesuit account of Ricci''s China mission, in the Latin Trigault published in
     1615 from Ricci''s own commentaries. Trigault edited and reordered Ricci''s text, so it
     is the mission''s printed public voice and not a copy of Ricci''s own Italian. Second
@@ -1687,6 +2476,11 @@ works:
   locus: file line 559 to line 13394
   role: tradition
   confidence: assigned
+  language: eng
+  date:
+    formation_confidence: unknown
+    checked: file header and Morris's preface (no dated preface found); the Life of Weston
+      is of a different date and no span is stated
   note: 'The autobiography of the Society''s superior in England 1584-1586, with Chapter II
     (''The English Jesuit Mission'') and Chapter XVI (''College life in prison'', the Wisbech
     stirs seen from the Jesuit side). Same translation caveat as the recusant row.
@@ -1699,6 +2493,10 @@ works:
   locus: Chapter X from line 9262, XI 10369
   role: context
   confidence: provisional
+  language: eng
+  date:
+    formation_confidence: unknown
+    checked: file header and title page; no dated preface or first-edition statement is made
   note: Hostile outside account of the Jesuit colleges and prelates; placed on subject, not
     read through.
   source_file: whitehouse_lingerings-of-light-in-a-dark-land_1873.txt

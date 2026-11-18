@@ -15,7 +15,7 @@ confidence:
     archive.org item lespassionsdesm00dele; title page, the Préface (dated 'fête de la Toussaint, 1920'),
     all six chapters, and the closing Table des Matières directly verified, confirming the volume is not
     truncated. The Manifest's own 'Subsidia Hagiographica 13b' series designation is flagged as unverifiable
-    from this scan -- no such statement appears anywhere in this item's own OCR text or catalogue metadata,
+    from this scan -- no such statement appears anywhere in this item's own OCR text or catalog metadata,
     nor in a second copy independently checked; carried as an open, disclosed gap rather than asserted
     with false confidence. Consultation-only content per cic/texts/INTAKE.md.
 sources: []
@@ -25,6 +25,7 @@ work: Les Passions des martyrs et les genres littéraires
 edition: 'Bruxelles: Société des Bollandistes, 1921; vendored as cic/texts/delehaye_passions-martyrs-genres-litteraires-fra_1921.txt'
 citation: 'Hippolyte Delehaye, S.J., Les Passions des martyrs et les genres littéraires (Bruxelles: Société des Bollandistes, 1921)'
 kind: vendored
+shelf_row: delehaye_passions-martyrs-genres-litteraires-fra_1921--les-passions-des-martyrs-et-les-genres-litteraires
 rights_status: public-domain; vendored in cic/texts/, and the specific content this row licenses was directly
   read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify
   check (Source_Acquisition_Manifest.md SS1).

@@ -1,0 +1,67 @@
+[
+ {
+  "id": "R1",
+  "action": "no change",
+  "what": "Pamphilus is held; the finding is on Pamphilus and is ignored. p2 has no Pamphilus content."
+ },
+ {
+  "id": "R2",
+  "action": "fixed",
+  "what": "Paula sourcing and voices[0] use the review's text exactly. Fact row 0 replaced by npnf206 8732 (Letter XLVI heading) with added rows for 'written from Bethlehem' (8740) and 'urging her to leave Rome' (8736-8737). The own-words flag is replaced by a ruling B note."
+ },
+ {
+  "id": "R3",
+  "action": "no change",
+  "what": "Pamphilus finding; ignored."
+ },
+ {
+  "id": "R4",
+  "action": "fixed",
+  "what": "Removed the concerns entry desert-monasticism--hieronymian-ascetic-literary for Paula; the link stays null and the flag now records that it names Paula but is about the circle."
+ },
+ {
+  "id": "R5",
+  "action": "no change",
+  "what": "Pamphilus finding; ignored."
+ },
+ {
+  "id": "R6",
+  "action": "fixed",
+  "what": "Basil longDescription para 1 and para 3 now name Gregory the Wonder-worker, as given. Fact rows updated and a new row added on npnf208 14637-14638."
+ },
+ {
+  "id": "R7",
+  "action": "fixed",
+  "what": "Paula legacy para 2 uses the given Opus rendering ('Sor Juana says that she, a nun and \"daughter of a St. Jerome and of a Santa Paula\", would fall short of such learned parents if she stayed ignorant.'). Rows added for 'Moja' (6675) and 'degenerar' (6677)."
+ },
+ {
+  "id": "R8",
+  "action": "fixed",
+  "what": "Basil legacy para 1 uses the given rendering: 'Mark of Ephesus cites what Basil the Great says in his own prayers, which were said each year at Pentecost.' Fact row sentence updated."
+ },
+ {
+  "id": "R9",
+  "action": "no change",
+  "what": "Lactantius is in p1, not p2."
+ },
+ {
+  "id": "R10",
+  "action": "no change",
+  "what": "Polycarp is in p1, not p2."
+ },
+ {
+  "id": "R11",
+  "action": "no change",
+  "what": "Methodius is in p1, not p2."
+ },
+ {
+  "id": "R12",
+  "action": "fixed",
+  "what": "Constantine longDescription para 1 opens 'In 312 Constantine began to tolerate the church. Later he and Licinius met at Milan.' New row rests on the home record's why field. To keep Reading Ease at 60, the next two sentences were shortened: 'Together they gave Christians and all others the freedom to follow the religion they chose. Eusebius copies it whole.' (fact row updated)."
+ },
+ {
+  "id": "floorNote (brief)",
+  "action": "fixed",
+  "what": "Paula and Basil floorNotes reduced to the faith note; source caveats moved to sourcing with their rows."
+ }
+]

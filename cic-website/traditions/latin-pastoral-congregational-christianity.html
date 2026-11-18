@@ -39,22 +39,11 @@ p{margin:0 0 1rem}
 .eyebrow{font-family:var(--sans);font-size:.8125rem;letter-spacing:.13em;text-transform:uppercase;color:var(--action);font-weight:600;margin:0 0 .6rem}
 .sans{font-family:var(--sans)}
 .muted{color:var(--muted)}
-/* Logo, wordmark, the three feature buttons, and the site nav all in one
-   row: the nav collapses into a "Menu" dropdown since all four don't fit
-   alongside the rest in one row at this header's own 1024px width. */
 .site-header{background:var(--surface);border-bottom:1px solid var(--rule)}
 .site-header .row{max-width:var(--wide);margin:0 auto;padding:.6rem 1.25rem;display:flex;flex-wrap:wrap;align-items:center;gap:.5rem 1rem}
 .wordmark{font-family:var(--serif);font-weight:700;font-size:1.2rem;letter-spacing:.01em;color:var(--text);text-decoration:none;white-space:nowrap;padding:.5rem 0;display:inline-block}
 .wordmark em{font-style:italic;font-weight:400}
 .menu{position:relative;margin-left:auto}
-/* Centered in the space actually available between the logo and the menu
-   button, not naive full-row-width centering (that ignores the wordmark's
-   and menu button's own widths and can visually collide with the
-   wordmark). Grid's max-content/1fr/max-content sizes the outer two
-   columns to the wordmark's and menu's own content exactly, so the
-   middle column is whatever's genuinely left, with no risk of
-   overlapping either side -- only turned on above the width where the
-   whole row fits unwrapped. */
 @media (min-width:1000px){
   .site-header .row{display:grid;grid-template-columns:max-content 1fr max-content;column-gap:1rem}
   .menu{margin-left:0}
@@ -64,11 +53,6 @@ p{margin:0 0 1rem}
 .menu-toggle:hover,.menu-toggle:focus-visible,.menu-toggle[aria-expanded="true"]{border-color:var(--action);color:var(--action)}
 .menu-caret{width:.65rem;height:.65rem;flex:0 0 auto;transition:transform .15s ease}
 .menu-toggle[aria-expanded="true"] .menu-caret{transform:rotate(180deg)}
-/* top:100% with zero gap to the button, not top:calc(100% + Xrem) -- any
-   real gap is a dead zone the pointer crosses with no element under it,
-   which drops :hover before the pointer reaches the menu. The ::before
-   bridges the .5rem visual gap so :hover survives the
-   crossing while keeping the breathing room. */
 .site-nav{font-family:var(--sans);font-size:.9rem;position:absolute;right:0;top:100%;margin-top:.5rem;display:none;flex-direction:column;gap:.1rem;background:var(--surface);border:1px solid var(--rule);border-radius:8px;padding:.4rem;min-width:170px;box-shadow:0 12px 28px rgba(0,0,0,.4);z-index:30}
 .site-nav::before{content:"";position:absolute;left:0;right:0;bottom:100%;height:.5rem}
 .menu:hover .site-nav,.menu.open .site-nav{display:flex}
@@ -177,7 +161,6 @@ details.docstory-item[open] summary::before{transform:rotate(90deg)}
 .hl:hover .hl-note,.hl:focus .hl-note{display:block}
 @media (hover:none){.hl{cursor:pointer}}
 @media (max-width:600px){.hl-note{position:fixed;left:max(16px,env(safe-area-inset-left,0px));right:max(16px,env(safe-area-inset-right,0px));top:auto;bottom:calc(16px + env(safe-area-inset-bottom,0px));width:auto}}
-/* Wide layout: the page is about the tradition and fills the screen. */
 :root{--gold:#D9B35C}
 .site-header .row,.site-footer .row{max-width:none;padding-left:max(clamp(16px,3vw,56px),env(safe-area-inset-left,0px));padding-right:max(clamp(16px,3vw,56px),env(safe-area-inset-right,0px))}
 .door{padding-left:max(clamp(16px,3vw,56px),env(safe-area-inset-left,0px));padding-right:max(clamp(16px,3vw,56px),env(safe-area-inset-right,0px))}
@@ -238,7 +221,7 @@ main .page{max-width:none;padding-left:max(clamp(16px,3vw,56px),env(safe-area-in
   <div class="row">
     <a class="wordmark" href="../index.html">Church <em>in</em> Conversation</a>
     <nav class="feature-bar" aria-label="Main features">
-      <a class="feature-btn" href="../atlas-v3.html">Church Family Tree</a>
+      <a class="feature-btn" href="https://www.churchfamilytree.com/">Church Family Tree</a>
       <a class="feature-btn" href="../index.html#who">Conversation with One</a>
     </nav>
     <button type="button" class="feedback-toggle" id="feedback-toggle" aria-haspopup="dialog" aria-expanded="false">Tell us what you think</button>
@@ -284,10 +267,10 @@ main .page{max-width:none;padding-left:max(clamp(16px,3vw,56px),env(safe-area-in
           <div><dt>Era</dt><dd>I. The Early Church</dd></div>
           <div><dt>Shaped by</dt><dd>Cyprian, Augustine, Possidius</dd></div>
           </dl>
-          <a class="tree" href="../tree/latin-pastoral-congregational-christianity.html">See it on the Church Family Tree &rarr;</a>
+          <a class="tree" href="https://www.churchfamilytree.com/tree/latin-pastoral-congregational-christianity">See it on the Church Family Tree &rarr;</a>
         </aside>
         <div class="meet" role="group" aria-label="Meet Datus">
-          <img src="../assets/portraits/datus.jpg" alt="Datus: a bearded man in his forties with dark greying hair, in a hooded coarse wool cloak over an ochre tunic, holding a small leather purse in both hands, painted against a warm neutral ground." width="573" height="573">
+          <img src="../assets/portraits/datus.jpg" alt="Datus: a bearded man in his forties with dark graying hair, in a hooded coarse wool cloak over an ochre tunic, holding a small leather purse in both hands, painted against a warm neutral ground." width="573" height="573">
           <p class="meet-name">Datus</p>
           <div class="acts">
             <a class="act primary" id="seat-begin" href="../talk.html?worlds=latin-pastoral-congregational-christianity&amp;mode=interview&amp;from=traditions%2Flatin-pastoral-congregational-christianity.html" data-ask aria-label="Talk with Datus"><span class="disc"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4 5h16v11H10l-5 4v-4H4z"/></svg></span>Talk</a>
@@ -361,13 +344,13 @@ main .page{max-width:none;padding-left:max(clamp(16px,3vw,56px),env(safe-area-in
       <div class="docstory-entry">
       <h4>Chosen While Still New to the Faith</h4>
       <p class="meta">between about July 248 and April 249</p>
-      <p class="teaser">Carthage makes a man its bishop while he is still new to the faith. Five of the clergy object. His deacon calls it God&#39;s judgment, shown in the people&#39;s favour.</p>
+      <p class="teaser">Carthage makes a man its bishop while he is still new to the faith. Five of the clergy object. His deacon calls it God&#39;s judgment, shown in the people&#39;s favor.</p>
       <details class="docstory-item" id="latin-pastoral-congregational-christianity-story-0">
       <summary><span class="docstory-title">Read the full account</span></summary>
       <div class="docstory"><p>Our deacon <span class="hl" tabindex="0">Pontius<span class="hl-note" role="tooltip"><b>Pontius</b>Cyprian&#39;s deacon. He went with him into exile and later wrote the story of his life and death.<small>Person</small></span></span> wrote the life of Cyprian after his bishop had been put to death. He said it would take too long to tell all that Cyprian did, and that one fact was proof enough of his good works.</p>
       <p>&quot;By the judgment of God and the favour of the people, he was chosen for the sacred office and the rank of bishop. He was still newly baptized and, as people thought, a beginner.&quot; Pontius did not soften this. He pressed it, describing Cyprian as still in the untaught season of his spiritual life.</p>
       <p>Cyprian did not reach for the office. When the whole people leapt forward in love for him, Pontius says, he humbly stepped back. He gave way to older men and thought himself unworthy. A crowd of the brothers besieged the doors of his house.</p>
-      <p>For Pontius, God&#39;s judgment and the people&#39;s favour were not two claims pulling against each other. The people&#39;s favour was how God&#39;s judgment became visible to us. Pontius does not say how the people made their favour known.</p>
+      <p>For Pontius, God&#39;s judgment and the people&#39;s favor were not two claims pulling against each other. The people&#39;s favor was how God&#39;s judgment became visible to us. Pontius does not say how the people made their favor known.</p>
       <p>Years later, rivals who had never accepted him renewed their attack. Cyprian answered them in a letter to us. They still carried, he wrote, &quot;that old venom against my office as bishop, which means against your suffrage and against God&#39;s judgment.&quot;</p>
       <p>Only Pontius says that Cyprian was newly baptized when he was chosen, and no other witness of ours confirms or corrects it. Pontius was also writing in praise of his own bishop.</p></div>
       </details>
@@ -428,7 +411,7 @@ main .page{max-width:none;padding-left:max(clamp(16px,3vw,56px),env(safe-area-in
       <p>&quot;Everyone shuddered and fled, and shunned the contagion. They wickedly put out their own people.&quot; All over the city, Pontius says, there lay &quot;no longer bodies but the corpses of many.&quot;</p>
       <p>Our bishop gathered us in one place and preached. He began with the good that mercy does, and then went further. There was nothing remarkable, he said, in caring only for our own.</p>
       <p>To be perfect, we must do more than the tax collector or the pagan. We must love even our enemies, and pray for those who persecute us. God makes His sun rise and sends rain to feed the seed. He shows these kindnesses not only to His own people. &quot;It is right for us,&quot; Cyprian said, &quot;to live up to our birth.&quot;</p>
-      <p>Then, Pontius says, good was done to all people, not only to those of the household of faith. Many who were too poor to give money gave their own labour instead.</p>
+      <p>Then, Pontius says, good was done to all people, not only to those of the household of faith. Many who were too poor to give money gave their own labor instead.</p>
       <p>Tobias, Pontius says, gathered the bodies of those the king had killed, but only those of his own race. More was done here.</p>
       <p>Pontius does not say whether those who persecuted us were among the people helped. No one outside his account describes the relief, and no pagan of <span class="hl" tabindex="0">Carthage<span class="hl-note" role="tooltip"><b>Carthage</b>The chief city of its province and Cyprian&#39;s see. Its ruins lie in today&#39;s Tunis, in Tunisia.<small>Place · pleiades.stoa.org</small></span></span> left a word about it.</p></div>
       </details>
@@ -513,7 +496,7 @@ main .page{max-width:none;padding-left:max(clamp(16px,3vw,56px),env(safe-area-in
 
 <footer class="site-footer">
   <div class="row">
-    <span>&copy; 2026 Church in Conversation, part of Faithways Studio, Inc. Creating safe spaces to explore faith and the story of Jesus.</span>
+    <span>&copy; 2026 Faithways Studio, Inc., a Colorado public benefit corporation &middot; <a href="../license.html">License</a> &middot; <a href="../terms.html">Terms</a>. Creating safe spaces to explore faith and the story of Jesus.</span>
     <nav aria-label="Footer">
       <a href="../about.html">About</a>
       <a href="../privacy.html">Privacy</a>

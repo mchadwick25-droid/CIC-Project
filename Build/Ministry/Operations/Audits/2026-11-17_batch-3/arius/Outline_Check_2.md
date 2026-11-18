@@ -1,0 +1,43 @@
+# Outline check, round 2: Arius
+
+## The checker's heart of his life (written before opening Outline.md)
+
+Arius was a presbyter of Alexandria, in charge of a city church and of teaching the Scriptures, who around 318-319 openly taught that the Son of God had a beginning: God alone is unbegotten and without beginning, and the Son, though "perfect God" and made before all ages, "before he was begotten ... was not" and is "a perfect creature of God, but not as one of the creatures" (his own letters to Eusebius of Nicomedia and to Alexander; E7, E8, N1). His reason was to keep God the one source without beginning: a Son co-eternal with the Father would make "two ingenerate beginnings" (N1). He spread this in sermons, letters and the verse Thalia (E9-E12). The teaching split the church of Alexandria and then the East (N2); his bishop's council deposed him (E6), and the Council of Nicaea in 325 condemned his opinions, answered them in its creed ("begotten, not made", "of one substance") and cursed his circle's own phrases (E13, E14, N3, I1). What came of him: the creed of Nicaea itself, shaped against him; a quarrel that outlived him (I8) in which his name became the label for a whole movement whose bishops refused it (I2-I4), the Homoian creeds and the Gothic churches that held the Father alone unbegotten (N4-N11) until Toledo 589; and a record kept almost entirely by his opponents (I6).
+
+## The outline's heart, compared
+
+The outline's heart (what he taught and why, why it divided, Nicaea's answer, what became of his teaching, what the sources will not hold) matches the account above in substance and leaves out no major contribution. Its reason for the teaching (two beings without beginning; a Son as part of the Father makes the bodiless God divisible) holds at npnf204 57166-57190 (De Synodis 16: "introducing two ingenerate beginnings"; "compounded and divisible and alterable and material ... Who is the Incorporeal God"). Beats 1-3 plus the one forward sentence carry the heart in the first minute (about 150 words); the rest deepens it. No finding here.
+
+## Verdict: FIX
+
+One blocking finding; the rest are minor.
+
+## Findings
+
+### BLOCKING
+
+**B1. "What came of them" item 2 credits doctrine to witnesses whose cited lines do not hold it.** It says: "For two and a half centuries churches held, in their own words, that the Father alone is unbegotten and the Son is less than him and subject to him: the bishops of 341 (I2), the creed of 360 (N4), Ulfila and the Goths (N6-N9) ...". The 341 letter as cited (npnf204 57418-57423; Hussey 16658-16659) says only that they did not follow Arius and received him after examining his faith. The creed of 360 as cited (npnf202 9540-9574) says the Son is "God of God", "like to the Father who begat him, according to the Scriptures", and drops "ousia"; it does not say "the Father alone is unbegotten" or that the Son is "subject" or "less". "Less than him" is in no Homoian line held (N12 says the same of "not eternal"). A writer following this line would put an unsupported creed in the mouths of the 341 bishops and of the 360 council. Correction: rewrite as "For two and a half centuries churches held a faith their opponents called Arian: the bishops of 341, who said they did not follow him (I2); the creed of 360, which dropped 'substance' and called the Son 'like the Father' according to the Scriptures (N4); and Ulfila, whose own creed calls the Father 'alone unbegotten' and the Son 'subject and obedient in all things' to him (N8), with his pupil Auxentius's 'difference between the godhead of the Father and of the Son' (N9); until the Gothic church of Spain gave it up in 589 (N11)." Add to Do not say: "The bishops of 341 / the creed of 360 taught the Son was less than the Father or subject to him" → "the 341 bishops refused his name; the 360 creed said 'like the Father'; 'subject and obedient' is Ulfila's own creed (N8)."
+
+### MINOR
+
+**M1. "The faith the emperors backed" (heart, bullet 4; Connection: "for a time the emperors' church") cites N5-N7, which name or imply only Valens.** Jerome (npnf206 32399-32401) says only that "the Emperor and all good men" wanted East and West "knit together"; he does not say the emperor backed the creed. Valens is held (Jordanes 1648-1653: he "had closed all the churches of our party" and sent preachers of his sect; Socrates npnf202 14444-14446). Correction: either "under the emperor Valens, the faith the emperor backed" (N6, N7), or add a held line for Constantius at Ariminum and Constantinople: Socrates II.41's opening (npnf202 9490-9503, "the emperor returned ...") or Sulpicius Severus, Chronica II.41 (`sulpicius-severus_libri-qui-supersunt-chronica-vita-martini-lat_halm1866-csel1.txt` 5388-5395, the council at Ariminum summoned and fed by the emperor), and cite it.
+
+**M2. Beat 5's "His opponents called everyone who rejected Nicaea 'Arian'" has no cited line.** The held line is Athanasius calling the Antioch bishops heretics in "lasting odium for their heresy" (npnf204 57413-57414). Correction: "Athanasius and his side called these bishops Arians" (I2), or cite a held line for the general claim.
+
+**M3. Beat 3 cites Epiphanius (46220-46224) for Constantine calling the council.** That passage gives "CCCXVIII episcoporum" and sits in the account that puts Arius's death before Nicaea, which the sheet itself rejects (Where sources disagree). Correction: cite Socrates, npnf202 (Church History 1.8, the convening of the synod) or the synodal letter E13 instead.
+
+**M4. Beat 4 and "What he defended": "a creed in Scripture's words."** The creed (npnf202 4859-4903) omits the disputed phrases and says it holds what "the whole Catholic Church and the holy Scriptures teach"; it is not shown to be in Scripture's own words. Correction: "a creed without the disputed phrases, which they said held to the Scriptures" (E16). Same fix in the Do not say line "Arius recanted → he and Euzoius gave a creed in Scripture's words."
+
+**M5. Connection: "his own creed keeps Arius's core."** This puts the opponents' reading (that it was his teaching) in the narrator's voice, against the outline's own "Contested whether it was his teaching". What is held is a textual parallel: Ulfila's "solum ingenitum" (Kauffmann 15308-15309) and Arius's "alone Ingenerate" (npnf204 57100). Correction: "his own creed uses Arius's own words for the Father, 'alone unbegotten', and calls the Son subject to him in all things (N8)."
+
+**M6. Setting's spoken "a few years after the persecutions ended" has no supporting line.** Correction: cite a held line (e.g. Robertson's prolegomena or Eusebius's Church History on the end of the persecution) or drop it and keep "the early three-hundreds".
+
+**M7. Library sweep misses held later witnesses in the bucket.** Rufinus's Church History X-XI (`eusebius_werke-bd2-2-historia-ecclesiastica-vi-x-rufinus-x-xi-grc-lat_schwartz-mommsen1908.txt`, Arius at 26518ff., his death at 26405), Sulpicius Severus's Chronica (on Ariminum, line 5388ff.), Hilary's Collectanea antiariana (CSEL 65) and Phoebadius are in `homoian-arian-christianity.yaml` or hold Arius, but the sweep names them neither as used nor set aside. No claim in the outline depends on them, so nothing rests on an editor in their place. Correction: add each to the sweep as used or set aside, with the reason (Rufinus, c. 402, repeats the Nicaea and death accounts; Sulpicius can carry M1).
+
+## Checked and holding
+
+- Q1: own rendering of Epiphanius 45736-45738, "We are persecuted because we said: the Son has a beginning, but God is without beginning", matches the outline's (only "has no beginning" for "ἄναρχός ἐστι", sound). Theodoret 6045-6046 agrees.
+- Q3: own rendering of Hussey 16658-16659, "We have not become followers of Arius; for how shall we, being bishops, follow a presbyter?", matches the outline's; "priest" for presbyter is glossed in the outline. npnf204 57418-57419 agrees.
+- Creed (npnf214 2408-2429): "begotten, not made", "of one substance", "very God of very God", and the curses on "before he was begotten he was not" and "of things that were not", which repeat his letter (npnf203 6043-6048). Holds.
+- Constantine 324 (npnf201 63899-63902), the death (npnf204 70075-70106: the bishop's refusal, the conditional prayer, Athanasius not present), Socrates IV.33 and Jordanes on the Goths, Ulfila's creed (Kauffmann 15304-15325), Toledo anathema 1 (36900-36904) and Ugnas's subscription (37118-37122): all hold as the outline states them.
+- Shape (Teacher or thinker), length (about 3 minutes, 430 words, reason given), spoken tradition name ("the churches their opponents called Arian") and the Leave out list: sound. The Do not say list is thorough apart from the additions in B1.

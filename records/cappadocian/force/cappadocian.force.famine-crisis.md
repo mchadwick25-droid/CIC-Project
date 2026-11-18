@@ -27,16 +27,12 @@ relations:
 name: "Famine and subsistence crisis [2A - ongoing/external]"
 kind: ongoing
 matrix_cell: 2A
-description: >-
-  The famine of c. 368/9 (drought, failed harvest, hoarding and speculation) strikes the region; Basil's
-  famine homilies respond and organize relief; the poorhouse-hospital complex follows as permanent
-  institution (Doc_08 Cell 2A, Force 2A-2). WORLD'S OWN EXPERIENCE (Layer 2): the sky was bronze and the
-  rich were waiting on the price, and the preacher stood up and said the bread in your cupboard belongs to
-  the hungry. The world experienced the famine as a trial in which God watched what the baptized did with
-  their barns - and afterward, the poorhouse outside the city stood as the trial's verdict made permanent.
-  FORMATION IMPACT (Layer 3): converted the wealth-critique from moral commonplace to famine-year accusation
-  (pleonexia - Doc_06 §24); produced Primary 2/Gravity 2's civic edge (the poorhouse complex); fixed
-  philoptōchia as the formation test; enlarged the bishop's patronal role (Supporting 7/Gravity 7).
+description: |-
+  The famine of about 368/9 struck the region: drought, a failed harvest, and hoarding and speculation. Basil's famine sermons answered it and organized relief. The poorhouse-hospital complex followed as a lasting institution.
+
+  In the world's own experience, the sky was bronze and the rich were waiting on the price. Then the preacher stood up and said the bread in your cupboard belongs to the hungry. The world lived the famine as a trial in which God watched what the baptized did with their barns. Afterward the poorhouse outside the city stood as the trial's verdict, made permanent.
+
+  For formation, the famine turned the critique of wealth from a moral commonplace into a famine-year charge of greed (pleonexia). It gave the ascetic reordering of life its civic edge, the poorhouse complex. It fixed love of the poor (philoptōchia) as the test of formation. And it enlarged the bishop's role as public patron.
 manifestations:
 - the famine of c. 368/9 - drought, failed harvest, hoarding and speculation
 - Basil's famine homilies, organizing relief and naming hoarding for what it is

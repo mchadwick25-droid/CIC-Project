@@ -5925,3 +5925,11 @@ fallback: buttons, cards that fit 320 px, no auto-motion, a list under reduced m
 
 A build thread works `Build-Plan.md` in the feature folder, data first, then the component,
 then the card words under their own review.
+
+## 2026-11-06 — Church Family Tree becomes its own product (pointer)
+
+Mark converged the plan for the Church Family Tree to stand alone on
+`https://www.churchfamilytree.com` as Faithways Studio's second product, serving the same
+audience as Church in Conversation and opening a door into it for each world open to the
+public. The full record, rulings and next action are in
+`Build/Ministry/Features/Church-Family-Tree/Decision-Log.md`; this entry does not repeat them.

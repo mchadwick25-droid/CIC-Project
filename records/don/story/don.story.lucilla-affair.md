@@ -15,7 +15,7 @@ confidence:
   divergence_note: 'Documented for the sequence of events - the rebuke, the treasury entrusted and mishandled,
     the two passed-over candidates, the contested election, the public assembly, the rival consecration.
     NOT documented, and not adopted here, is the motive Optatus assigns: that personal spite on Lucilla''s
-    part was the schism''s true cause. That is a hostile characterisation of a named woman''s intentions
+    part was the schism''s true cause. That is a hostile characterization of a named woman''s intentions
     by the party she is blamed for splitting, written roughly five decades after the events, and it is
     treated throughout as his framing rather than as a finding. No account of these events by anyone on
     our own side survives to set beside it.'

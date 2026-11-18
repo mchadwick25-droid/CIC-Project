@@ -1,0 +1,196 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "rzg.limit.consistory-case-narrative",
+    "rzg.term.consistory"
+   ],
+   "sentence": "At Geneva, when someone wronged the community, our Consistory of pastors and lay elders held the standing power of censure."
+  },
+  {
+   "record_ids": [
+    "rzg.limit.consistory-case-narrative"
+   ],
+   "sentence": "Its harshest step was excommunication, which meant exclusion from the Supper and from the visible church."
+  },
+  {
+   "record_ids": [
+    "rzg.limit.consistory-case-narrative"
+   ],
+   "sentence": "Readmission stayed open to genuine repentance."
+  },
+  {
+   "record_ids": [
+    "rzg.quote.seniors-selected-from-the-people"
+   ],
+   "sentence": "John Calvin wrote: “By these governors I mean elders chosen from the people. They join with the pastors to declare censures and to carry out discipline.”"
+  },
+  {
+   "record_ids": [
+    "rzg.term.consistory"
+   ],
+   "sentence": "At Zurich our record shows no such body, and the council ruled church and city directly."
+  },
+  {
+   "record_ids": [
+    "rzg.gravity.council-led-authority-vs-consistorial-independence"
+   ],
+   "sentence": "We never agreed, between our two cities, who holds the final word over church discipline."
+  },
+  {
+   "record_ids": [
+    "rzg.limit.consistory-case-narrative"
+   ],
+   "sentence": "We cannot give you a single real case: a named person, a real hearing, or what became of them afterward."
+  },
+  {
+   "record_ids": [
+    "rzg.limit.consistory-case-narrative"
+   ],
+   "sentence": "That record exists in Geneva's consistory registers, but it has not reached us."
+  },
+  {
+   "record_ids": [
+    "rzg.witness.a-narrow-true-church"
+   ],
+   "sentence": "And we do not pretend our refusals cost nothing, or that they were always settled by argument alone."
+  }
+ ],
+ "citations": [
+  "rzg.gravity.council-led-authority-vs-consistorial-independence",
+  "rzg.limit.consistory-case-narrative",
+  "rzg.quote.seniors-selected-from-the-people",
+  "rzg.term.consistory",
+  "rzg.witness.a-narrow-true-church"
+ ],
+ "group": "A",
+ "id": "q015",
+ "net_sentences": [
+  {
+   "draft": "At Geneva, when someone wronged the community, our Consistory of pastors and lay elders held the standing power of censure [[rzg.limit.consistory-case-narrative]][[rzg.term.consistory]][[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "At Geneva, when someone wronged the community, our Consistory of pastors and lay elders held the standing power of censure.",
+   "tags": [
+    "rzg.limit.consistory-case-narrative",
+    "rzg.term.consistory"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "Its harshest step was excommunication, which meant exclusion from the Supper and from the visible church [[rzg.limit.consistory-case-narrative]][[as:paraphrase]].",
+   "ratio": 0.89,
+   "sentence": "Its harshest step was excommunication, which meant exclusion from the Supper and from the visible church.",
+   "tags": [
+    "rzg.limit.consistory-case-narrative"
+   ],
+   "verdict": "ok",
+   "why": "grounded 89% in own tagged records"
+  },
+  {
+   "draft": "Readmission stayed open to genuine repentance [[rzg.limit.consistory-case-narrative]][[as:paraphrase]].",
+   "sentence": "Readmission stayed open to genuine repentance.",
+   "tags": [
+    "rzg.limit.consistory-case-narrative"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "John Calvin wrote: [[quote:rzg.quote.seniors-selected-from-the-people]]",
+   "placed_quote": "rzg.quote.seniors-selected-from-the-people",
+   "sentence": "John Calvin wrote: “By these governors I mean elders chosen from the people. They join with the pastors to declare censures and to carry out discipline.”",
+   "tags": [
+    "rzg.quote.seniors-selected-from-the-people"
+   ],
+   "verdict": "ok",
+   "why": "quote placed by code, verbatim to its record"
+  },
+  {
+   "draft": "At Zurich our record shows no such body, and the council ruled church and city directly [[rzg.term.consistory]][[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "At Zurich our record shows no such body, and the council ruled church and city directly.",
+   "tags": [
+    "rzg.term.consistory"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "We never agreed, between our two cities, who holds the final word over church discipline [[rzg.gravity.council-led-authority-vs-consistorial-independence]][[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "We never agreed, between our two cities, who holds the final word over church discipline.",
+   "tags": [
+    "rzg.gravity.council-led-authority-vs-consistorial-independence"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "We cannot give you a single real case: a named person, a real hearing, or what became of them afterward [[rzg.limit.consistory-case-narrative]][[as:paraphrase]].",
+   "sentence": "We cannot give you a single real case: a named person, a real hearing, or what became of them afterward.",
+   "tags": [
+    "rzg.limit.consistory-case-narrative"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "That record exists in Geneva's consistory registers, but it has not reached us [[rzg.limit.consistory-case-narrative]][[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "That record exists in Geneva's consistory registers, but it has not reached us.",
+   "tags": [
+    "rzg.limit.consistory-case-narrative"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "And we do not pretend our refusals cost nothing, or that they were always settled by argument alone [[rzg.witness.a-narrow-true-church]][[as:paraphrase]].",
+   "sentence": "And we do not pretend our refusals cost nothing, or that they were always settled by argument alone.",
+   "tags": [
+    "rzg.witness.a-narrow-true-church"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  }
+ ],
+ "offered": [
+  "rzg.limit.consistory-case-narrative",
+  "rzg.witness.a-narrow-true-church",
+  "rzg.term.consistory",
+  "rzg.story.calvins-journey-to-zurich",
+  "rzg.story.first-zurich-disputation",
+  "rzg.story.myconius-account-of-zwinglis-death",
+  "rzg.quote.seniors-selected-from-the-people",
+  "rzg.limit.ordinary-daily-practice",
+  "rzg.term.reformation",
+  "rzg.force.anabaptist-schism",
+  "rzg.gravity.consistorial-church-discipline",
+  "rzg.gravity.council-led-authority-vs-consistorial-independence"
+ ],
+ "raw_text": "At Geneva, when someone wronged the community, our Consistory of pastors and lay elders held the standing power of censure [[rzg.limit.consistory-case-narrative]][[rzg.term.consistory]][[as:paraphrase]]. Its harshest step was excommunication, which meant exclusion from the Supper and from the visible church [[rzg.limit.consistory-case-narrative]][[as:paraphrase]]. Readmission stayed open to genuine repentance [[rzg.limit.consistory-case-narrative]][[as:paraphrase]]. John Calvin wrote: [[quote:rzg.quote.seniors-selected-from-the-people]]\nAt Zurich our record shows no such body, and the council ruled church and city directly [[rzg.term.consistory]][[as:paraphrase]]. We never agreed, between our two cities, who holds the final word over church discipline [[rzg.gravity.council-led-authority-vs-consistorial-independence]][[as:paraphrase]]. We cannot give you a single real case: a named person, a real hearing, or what became of them afterward [[rzg.limit.consistory-case-narrative]][[as:paraphrase]]. That record exists in Geneva's consistory registers, but it has not reached us [[rzg.limit.consistory-case-narrative]][[as:paraphrase]]. And we do not pretend our refusals cost nothing, or that they were always settled by argument alone [[rzg.witness.a-narrow-true-church]][[as:paraphrase]].\n",
+ "reply_shape": {
+  "leadin_support": {
+   "rzg.quote.seniors-selected-from-the-people": [
+    {
+     "detail": "wrote",
+     "kind": "genre",
+     "snippet": "n Calvin John Calvin, Institutes of the Christian Religion, Book IV (Of the External Means or Helps by Which God Invites Us",
+     "span": "record rzg.source.calvin-institutes-book4"
+    }
+   ]
+  },
+  "placed": [
+   "rzg.quote.seniors-selected-from-the-people"
+  ],
+  "removed": [],
+  "repaired": []
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": "C6.S8",
+ "text": "At Geneva, when someone wronged the community, our Consistory of pastors and lay elders held the standing power of censure. Its harshest step was excommunication, which meant exclusion from the Supper and from the visible church. Readmission stayed open to genuine repentance. John Calvin wrote: “By these governors I mean elders chosen from the people. They join with the pastors to declare censures and to carry out discipline.”\n\nAt Zurich our record shows no such body, and the council ruled church and city directly. We never agreed, between our two cities, who holds the final word over church discipline. We cannot give you a single real case: a named person, a real hearing, or what became of them afterward. That record exists in Geneva's consistory registers, but it has not reached us. And we do not pretend our refusals cost nothing, or that they were always settled by argument alone.",
+ "voice_set_aside": false
+}

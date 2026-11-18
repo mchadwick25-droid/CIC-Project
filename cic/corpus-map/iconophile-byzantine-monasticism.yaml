@@ -3,6 +3,40 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: iconophile-byzantine-monasticism
 works:
+- row_id: mansi_sacrorum-conciliorum-collectio-tomus-12-lat_welter-facsimile1901--mansi-xii-the-second-council-of-nicaea-787-sessions-i-iii
+  work: Mansi XII, the Second Council of Nicaea (787), sessions I-III
+  author: council-of-nicaea-787
+  locus: about OCR line 99123 to the end of the volume; add 12 to OCR line numbers
+  role: tradition
+  confidence: provisional
+  note: The council's acts in the old Latin version with the Greek beside it. Only the Latin
+    can be read in this OCR. The rest of the volume (councils of 687-787) is not placed.
+  source_file: mansi_sacrorum-conciliorum-collectio-tomus-12-lat_welter-facsimile1901.txt
+- row_id: mansi_sacrorum-conciliorum-collectio-tomus-13-lat_welter-facsimile1902--mansi-xiii-the-second-council-of-nicaea-787-sessions-iv-viii
+  work: Mansi XIII, the Second Council of Nicaea (787), sessions IV-VIII, definition and canons
+  author: council-of-nicaea-787
+  locus: about OCR lines 744-83064; add 12 to OCR line numbers
+  role: tradition
+  confidence: provisional
+  note: The second half of the council's acts, with its definition and canons. Only the Latin
+    can be read in this OCR. The later councils in the volume are not placed.
+  source_file: mansi_sacrorum-conciliorum-collectio-tomus-13-lat_welter-facsimile1902.txt
+- row_id: mendham_seventh-general-council-second-of-nicaea_1850--second-council-of-nicaea-acts-english-mendham-1850
+  work: The Second Council of Nicaea (787), acts in English (Mendham 1850)
+  author: council-of-nicaea-787
+  locus: the acts at about OCR lines 5971-30890; Mendham's introduction at about 499-4169;
+    add 12 to OCR line numbers
+  role: tradition
+  confidence: provisional
+  language: eng
+  date:
+    start: 787
+    end: 787
+    source: 'title page: ''held A.D. 787'''
+    formation_confidence: Documented
+  note: The council's acts in English. The translator's introduction and notes are his own
+    and stand on the same pages.
+  source_file: mendham_seventh-general-council-second-of-nicaea_1850.txt
 - row_id: npnf214_seven-ecumenical-councils--the-second-council-of-nicaea-787-extracts-from-the-acts
   work: 'The Second Council of Nicaea (787): Extracts from the Acts, Decree, Canons'
   author: council-of-nicaea-787
@@ -19,3 +53,70 @@ works:
 
     '
   source_file: npnf214_seven-ecumenical-councils.xml
+- row_id: john-damascus_on-holy-images-with-three-sermons-on-the-assumption_allies1898--john-of-damascus-on-holy-images-english-allies-1898
+  work: John of Damascus, On Holy Images, English (Allies 1898)
+  author: john-damascus
+  locus: Parts I-III at about OCR lines 197-4773; add 12 to OCR line numbers
+  role: tradition
+  confidence: provisional
+  language: eng
+  date:
+    formation_confidence: unknown
+    checked: the title page and the opening of the translator's preface (OCR lines 17-60)
+      give no year for the treatises
+  note: The three treatises against those who attack the holy images, in English. The Greek
+    is held in PG 94.
+  source_file: john-damascus_on-holy-images-with-three-sermons-on-the-assumption_allies1898.txt
+- row_id: john-damascus_opera-omnia-t1-with-vita-pg94-grc-lat_migne1860--john-of-damascus-works-pg-94
+  work: John of Damascus, works (PG 94)
+  author: john-damascus
+  locus: the whole volume except the Vita
+  role: tradition
+  confidence: provisional
+  note: John of Damascus's own works, written in these entries' windows by the era 4 audit's
+    dating of him (c.675-749).
+  source_file: john-damascus_opera-omnia-t1-with-vita-pg94-grc-lat_migne1860.txt
+- row_id: nikephoros-cp_opera-with-vita-stephani-iunioris-pg100-grc-lat_migne1860--nikephoros-of-constantinople-breviarium-antirrhetici
+  work: Nikephoros of Constantinople, Breviarium, Antirrhetici, Apologeticus (PG 100)
+  author: nikephoros-cp
+  locus: the whole volume except the Life of Stephen
+  role: tradition
+  confidence: provisional
+  note: The patriarch's own writings, inside these windows by the era 4 audit's dating of
+    him (c.758-828).
+  source_file: nikephoros-cp_opera-with-vita-stephani-iunioris-pg100-grc-lat_migne1860.txt
+- row_id: nikephoros-cp_opera-with-vita-stephani-iunioris-pg100-grc-lat_migne1860--stephen-the-deacon-life-of-stephen-the-younger-pg-100
+  work: Stephen the Deacon, Life of Stephen the Younger (PG 100)
+  author: nikephoros-cp
+  locus: from about OCR line 88621; add 12 to OCR line numbers
+  role: tradition
+  confidence: assigned
+  note: The hagiographer's Life of the monk killed in 765 (era 4 audit). The volume gives
+    no date of writing.
+  source_file: nikephoros-cp_opera-with-vita-stephani-iunioris-pg100-grc-lat_migne1860.txt
+- row_id: theodore-studite_opera-omnia-pg99-grc-lat_migne1860--michael-the-monk-life-of-theodore-the-studite-pg-99-col-233
+  work: Michael the Monk, Life of Theodore the Studite (PG 99, col. 233)
+  author: theodore-studite
+  locus: from about OCR line 18804; add 12 to OCR line numbers
+  role: tradition
+  confidence: assigned
+  note: The hagiographer's Life. The volume gives no date of writing.
+  source_file: theodore-studite_opera-omnia-pg99-grc-lat_migne1860.txt
+- row_id: theodore-studite_opera-omnia-pg99-grc-lat_migne1860--theodore-the-studite-antirrhetici-letters-and-other-works-pg
+  work: Theodore the Studite, Antirrhetici, Letters and other works (PG 99)
+  author: theodore-studite
+  locus: the whole volume except the Vita
+  role: tradition
+  confidence: provisional
+  note: His own writings, inside these windows by the era 4 audit's dating of him (759-826).
+  source_file: theodore-studite_opera-omnia-pg99-grc-lat_migne1860.txt
+- row_id: theodore-studite_epistolae-et-fragmenta-in-nova-patrum-bibliotheca-t8-lat_cozza1871--theodore-the-studite-letters-mai-and-cozza-nova-patrum
+  work: Theodore the Studite, letters (Mai and Cozza, Nova Patrum Bibliotheca VIII), Latin
+  author: theodore-studite
+  locus: part I, from about OCR line 1055; letters 140 and 205 at about 14902 and 20685; add
+    12 to OCR line numbers
+  role: tradition
+  confidence: provisional
+  note: His own letters, here in Latin translation only. The two letters to Theophanes the
+    Confessor are among them.
+  source_file: theodore-studite_epistolae-et-fragmenta-in-nova-patrum-bibliotheca-t8-lat_cozza1871.txt

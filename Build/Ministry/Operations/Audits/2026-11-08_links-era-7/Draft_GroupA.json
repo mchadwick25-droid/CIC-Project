@@ -1,0 +1,1743 @@
+{
+ "group": "A",
+ "movements": [
+  "lutheran-wittenberg-and-its-congregations",
+  "the-reformed-cities-zurich-and-geneva",
+  "the-anabaptist-movements",
+  "schwenckfelders",
+  "family-of-love-and-spiritualists-franck-niclaes"
+ ],
+ "dispositions": [
+  {
+   "movement": "lutheran-wittenberg-and-its-congregations",
+   "field": "relationsSummary",
+   "sentence": "Grew out of late-medieval piety and its protest against Rome, becoming a rival to Rome and a sibling rival to the Reformed churches.",
+   "other_id": "late-medieval-lay-parish-piety",
+   "disposition": "remove",
+   "link_id": null,
+   "prose_change": 0,
+   "reason": "The inventory tied 'late-medieval piety' to Late-Medieval Lay Parish Piety, which is English parish religion; no source ties Wittenberg to it. The vague clause is replaced by the documented Theologia Deutsch reception."
+  },
+  {
+   "movement": "lutheran-wittenberg-and-its-congregations",
+   "field": "relationsSummary",
+   "sentence": "Grew out of late-medieval piety and its protest against Rome, becoming a rival to Rome and a sibling rival to the Reformed churches.",
+   "other_id": "rhineland-mysticism-and-the-friends-of-god",
+   "disposition": "link",
+   "link_id": "rhineland-mysticism-and-the-friends-of-god--lutheran-wittenberg-and-its-congregations",
+   "prose_change": 0,
+   "reason": "'Grew out of late-medieval piety' made specific: Luther printed and praised the Theologia Deutsch (his own preface). Era-6 movement; the Rhineland text also names this."
+  },
+  {
+   "movement": "lutheran-wittenberg-and-its-congregations",
+   "field": "relationsSummary",
+   "sentence": "Grew out of late-medieval piety and its protest against Rome, becoming a rival to Rome and a sibling rival to the Reformed churches.",
+   "other_id": "latin-papal-church-avignon-to-lateran-v",
+   "disposition": "link",
+   "link_id": "lutheran-wittenberg-and-its-congregations--latin-papal-church-avignon-to-lateran-v",
+   "prose_change": 0,
+   "reason": "'Its protest against Rome': Luther's letter to Albrecht and the theses of 31 October 1517, against the indulgence campaign of the late-medieval papacy."
+  },
+  {
+   "movement": "lutheran-wittenberg-and-its-congregations",
+   "field": "relationsSummary",
+   "sentence": "Grew out of late-medieval piety and its protest against Rome, becoming a rival to Rome and a sibling rival to the Reformed churches.",
+   "other_id": "the-tridentine-church",
+   "disposition": "link",
+   "link_id": "lutheran-wittenberg-and-its-congregations--the-tridentine-church",
+   "prose_change": 0,
+   "reason": "'A rival to Rome' from the Lutheran side: the Smalcald Articles (1537) against the pope."
+  },
+  {
+   "movement": "lutheran-wittenberg-and-its-congregations",
+   "field": "relationsSummary",
+   "sentence": "Grew out of late-medieval piety and its protest against Rome, becoming a rival to Rome and a sibling rival to the Reformed churches.",
+   "other_id": "the-tridentine-church",
+   "disposition": "link",
+   "link_id": "the-tridentine-church--lutheran-wittenberg-and-its-congregations",
+   "prose_change": 0,
+   "reason": "'A rival to Rome' from the Catholic side: the bull Exsurge Domine (1520). Likely also drafted by the Tridentine group."
+  },
+  {
+   "movement": "lutheran-wittenberg-and-its-congregations",
+   "field": "relationsSummary",
+   "sentence": "Grew out of late-medieval piety and its protest against Rome, becoming a rival to Rome and a sibling rival to the Reformed churches.",
+   "other_id": "the-reformed-cities-zurich-and-geneva",
+   "disposition": "link",
+   "link_id": "lutheran-wittenberg-and-its-congregations--the-reformed-cities-zurich-and-geneva",
+   "prose_change": 0,
+   "reason": "'A sibling rival to the Reformed churches': the Marburg colloquy (published link, kept)."
+  },
+  {
+   "movement": "lutheran-wittenberg-and-its-congregations",
+   "field": "relationsSummary",
+   "sentence": "Grew out of late-medieval piety and its protest against Rome, becoming a rival to Rome and a sibling rival to the Reformed churches.",
+   "other_id": "the-reformed-cities-zurich-and-geneva",
+   "disposition": "link",
+   "link_id": "lutheran-wittenberg-and-its-congregations--the-reformed-cities-zurich-and-geneva--2",
+   "prose_change": 0,
+   "reason": "Same phrase: the Formula of Concord against the 'Zwinglian teachers' (published link, kept)."
+  },
+  {
+   "movement": "lutheran-wittenberg-and-its-congregations",
+   "field": "relationsSummary",
+   "sentence": "The Augustinian Hermits, Luther's own religious order, were its seedbed: the order's houses in Lutheran lands were absorbed into the new movement, while its Catholic houses continued within the Catholic Church.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 0,
+   "reason": "The Augustinian Hermits have no census movement. A 1931 editor's note in the vendored Luther works (vol. 4, lines 8541-8543) says Luther's teachings 'won adherents especially among his Augustinian brethren'; no vendored text shows the order's houses being 'absorbed'. Qualified to 'many of Luther's fellow Augustinian friars were among his first followers'."
+  },
+  {
+   "movement": "lutheran-wittenberg-and-its-congregations",
+   "field": "relationsSummary",
+   "sentence": "The Augustinian Hermits, Luther's own religious order, were its seedbed: the order's houses in Lutheran lands were absorbed into the new movement, while its Catholic houses continued within the Catholic Church.",
+   "other_id": "the-tridentine-church",
+   "disposition": "remove",
+   "link_id": null,
+   "prose_change": 0,
+   "reason": "'Its Catholic houses continued within the Catholic Church': no vendored text shows the order's split house by house. Removed from this field; the Tridentine movement's own summary still carries 'the Catholic remainder of the Augustinian Hermits', which that group should check."
+  },
+  {
+   "movement": "lutheran-wittenberg-and-its-congregations",
+   "field": "longDescription",
+   "sentence": "And the churches shaped by it spread north and east across Germany and Scandinavia, where they remain.",
+   "other_id": "scandinavian-reformation-kingdoms",
+   "disposition": "link",
+   "link_id": "lutheran-wittenberg-and-its-congregations--scandinavian-reformation-kingdoms",
+   "prose_change": null,
+   "reason": "Uppsala 1593 binds Sweden to the unaltered Augsburg Confession; Olaus Petri studied at Wittenberg. Sentence unchanged."
+  },
+  {
+   "movement": "lutheran-wittenberg-and-its-congregations",
+   "field": "longDescription",
+   "sentence": "an Augustinian friar named Martin Luther, wrote 95 theses against the sale of indulgences and sent them to the archbishop of Mainz on 31 October 1517.",
+   "other_id": "latin-papal-church-avignon-to-lateran-v",
+   "disposition": "link",
+   "link_id": "lutheran-wittenberg-and-its-congregations--latin-papal-church-avignon-to-lateran-v",
+   "prose_change": null,
+   "reason": "Person-carried (the archbishop of Mainz, the indulgence campaign). Carried by the 1517 link; the letter's heading and date are quoted. Sentence unchanged."
+  },
+  {
+   "movement": "lutheran-wittenberg-and-its-congregations",
+   "field": "why",
+   "sentence": "The same decades also produced women publishing under their own names, like Argula von Grumbach and Katharina Schütz Zell, defending the evangelical cause in print.",
+   "other_id": null,
+   "disposition": "not-a-relationship",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Names writers inside the movement; no tie to another movement is claimed."
+  },
+  {
+   "movement": "lutheran-wittenberg-and-its-congregations",
+   "field": "legacy",
+   "sentence": "It became the Lutheran churches — an ongoing communion of tens of millions across Germany, Scandinavia, the Baltic and North America, and, through later missions, Africa and Asia.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "No later census movement continues the Lutheran churches as such (German Pietism is a separate movement and is not named here). Scandinavia is carried by the Uppsala link. Unchanged."
+  },
+  {
+   "movement": "lutheran-wittenberg-and-its-congregations",
+   "field": "legacy",
+   "sentence": "a tradition of church music that runs from Luther's own tunes through to Bach.",
+   "other_id": null,
+   "disposition": "not-a-relationship",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "A cultural legacy within the tradition; no census movement named."
+  },
+  {
+   "movement": "the-reformed-cities-zurich-and-geneva",
+   "field": "relationsSummary",
+   "sentence": "Parent of the Scottish, Huguenot, Dutch, and Puritan traditions",
+   "other_id": "the-scottish-reformation-and-kirk",
+   "disposition": "qualify",
+   "link_id": "the-reformed-cities-zurich-and-geneva--the-scottish-reformation-and-kirk",
+   "prose_change": 1,
+   "reason": "'Parent of' claims descent; the sources show Geneva's pattern taken up (typed 'influenced'). Field now reads 'shaped'. Also named in the-scottish-reformation-and-kirk."
+  },
+  {
+   "movement": "the-reformed-cities-zurich-and-geneva",
+   "field": "longDescription",
+   "sentence": "From these two cities the Reformed pattern traveled: Scotland, France, the Netherlands and English Puritanism all trace back here.",
+   "other_id": "the-scottish-reformation-and-kirk",
+   "disposition": "link",
+   "link_id": "the-reformed-cities-zurich-and-geneva--the-scottish-reformation-and-kirk",
+   "prose_change": null,
+   "reason": "'The Reformed pattern ... trace back here' is a claim about the pattern travelling, which the 'influenced' link carries. Sentence unchanged."
+  },
+  {
+   "movement": "the-reformed-cities-zurich-and-geneva",
+   "field": "legacy",
+   "sentence": "Reformed and Presbyterian churches worldwide descend from these two cities, and so do four traditions this map carries separately. The Scottish Kirk, the Huguenots, the Dutch Reformed and English Puritanism.",
+   "other_id": "the-scottish-reformation-and-kirk",
+   "disposition": "qualify",
+   "link_id": "the-reformed-cities-zurich-and-geneva--the-scottish-reformation-and-kirk",
+   "prose_change": 2,
+   "reason": "'Descend from' for the four traditions outruns the sources; now 'took their pattern from them'. Whole field rewritten for reading level."
+  },
+  {
+   "movement": "the-reformed-cities-zurich-and-geneva",
+   "field": "relationsSummary",
+   "sentence": "Parent of the Scottish, Huguenot, Dutch, and Puritan traditions",
+   "other_id": "the-huguenots",
+   "disposition": "qualify",
+   "link_id": "the-reformed-cities-zurich-and-geneva--the-huguenots",
+   "prose_change": 1,
+   "reason": "'Parent of' claims descent; the sources show Geneva's pattern taken up (typed 'influenced'). Field now reads 'shaped'. Also named in the-huguenots."
+  },
+  {
+   "movement": "the-reformed-cities-zurich-and-geneva",
+   "field": "longDescription",
+   "sentence": "From these two cities the Reformed pattern traveled: Scotland, France, the Netherlands and English Puritanism all trace back here.",
+   "other_id": "the-huguenots",
+   "disposition": "link",
+   "link_id": "the-reformed-cities-zurich-and-geneva--the-huguenots",
+   "prose_change": null,
+   "reason": "'The Reformed pattern ... trace back here' is a claim about the pattern travelling, which the 'influenced' link carries. Sentence unchanged."
+  },
+  {
+   "movement": "the-reformed-cities-zurich-and-geneva",
+   "field": "legacy",
+   "sentence": "Reformed and Presbyterian churches worldwide descend from these two cities, and so do four traditions this map carries separately. The Scottish Kirk, the Huguenots, the Dutch Reformed and English Puritanism.",
+   "other_id": "the-huguenots",
+   "disposition": "qualify",
+   "link_id": "the-reformed-cities-zurich-and-geneva--the-huguenots",
+   "prose_change": 2,
+   "reason": "'Descend from' for the four traditions outruns the sources; now 'took their pattern from them'. Whole field rewritten for reading level."
+  },
+  {
+   "movement": "the-reformed-cities-zurich-and-geneva",
+   "field": "relationsSummary",
+   "sentence": "Parent of the Scottish, Huguenot, Dutch, and Puritan traditions",
+   "other_id": "dutch-further-reformation-and-refuge-culture",
+   "disposition": "qualify",
+   "link_id": "the-reformed-cities-zurich-and-geneva--dutch-further-reformation-and-refuge-culture",
+   "prose_change": 1,
+   "reason": "'Parent of' claims descent; the sources show Geneva's pattern taken up (typed 'influenced'). Field now reads 'shaped'. Also named in dutch-further-reformation-and-refuge-culture."
+  },
+  {
+   "movement": "the-reformed-cities-zurich-and-geneva",
+   "field": "longDescription",
+   "sentence": "From these two cities the Reformed pattern traveled: Scotland, France, the Netherlands and English Puritanism all trace back here.",
+   "other_id": "dutch-further-reformation-and-refuge-culture",
+   "disposition": "link",
+   "link_id": "the-reformed-cities-zurich-and-geneva--dutch-further-reformation-and-refuge-culture",
+   "prose_change": null,
+   "reason": "'The Reformed pattern ... trace back here' is a claim about the pattern travelling, which the 'influenced' link carries. Sentence unchanged."
+  },
+  {
+   "movement": "the-reformed-cities-zurich-and-geneva",
+   "field": "legacy",
+   "sentence": "Reformed and Presbyterian churches worldwide descend from these two cities, and so do four traditions this map carries separately. The Scottish Kirk, the Huguenots, the Dutch Reformed and English Puritanism.",
+   "other_id": "dutch-further-reformation-and-refuge-culture",
+   "disposition": "qualify",
+   "link_id": "the-reformed-cities-zurich-and-geneva--dutch-further-reformation-and-refuge-culture",
+   "prose_change": 2,
+   "reason": "'Descend from' for the four traditions outruns the sources; now 'took their pattern from them'. Whole field rewritten for reading level."
+  },
+  {
+   "movement": "the-reformed-cities-zurich-and-geneva",
+   "field": "relationsSummary",
+   "sentence": "Parent of the Scottish, Huguenot, Dutch, and Puritan traditions",
+   "other_id": "puritanism",
+   "disposition": "qualify",
+   "link_id": "the-reformed-cities-zurich-and-geneva--puritanism",
+   "prose_change": 1,
+   "reason": "'Parent of' claims descent; the sources show Geneva's pattern taken up (typed 'influenced'). Field now reads 'shaped'. Also named in puritanism."
+  },
+  {
+   "movement": "the-reformed-cities-zurich-and-geneva",
+   "field": "longDescription",
+   "sentence": "From these two cities the Reformed pattern traveled: Scotland, France, the Netherlands and English Puritanism all trace back here.",
+   "other_id": "puritanism",
+   "disposition": "link",
+   "link_id": "the-reformed-cities-zurich-and-geneva--puritanism",
+   "prose_change": null,
+   "reason": "'The Reformed pattern ... trace back here' is a claim about the pattern travelling, which the 'influenced' link carries. Sentence unchanged."
+  },
+  {
+   "movement": "the-reformed-cities-zurich-and-geneva",
+   "field": "legacy",
+   "sentence": "Reformed and Presbyterian churches worldwide descend from these two cities, and so do four traditions this map carries separately. The Scottish Kirk, the Huguenots, the Dutch Reformed and English Puritanism.",
+   "other_id": "puritanism",
+   "disposition": "qualify",
+   "link_id": "the-reformed-cities-zurich-and-geneva--puritanism",
+   "prose_change": 2,
+   "reason": "'Descend from' for the four traditions outruns the sources; now 'took their pattern from them'. Whole field rewritten for reading level."
+  },
+  {
+   "movement": "the-reformed-cities-zurich-and-geneva",
+   "field": "legacy",
+   "sentence": "Reformed and Presbyterian churches worldwide descend from these two cities",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 2,
+   "reason": "No single census movement; the general claim is the standard one and is carried in part by the Scottish link (the Kirk's 1562 act). Kept in the rewrite."
+  },
+  {
+   "movement": "the-reformed-cities-zurich-and-geneva",
+   "field": "why",
+   "sentence": "Zwingli tested every inherited church practice at Zurich through public disputation before the whole city; five years later and without ever meeting him, Calvin built the same conviction at Geneva through catechesis and a Consistory that held ordinary conduct to account.",
+   "other_id": null,
+   "disposition": "not-a-relationship",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Both men belong to this movement. Flag for the reviewer: 'five years later' fits only Zwingli's death (1531) against Calvin's arrival (1536), not the disputations of 1523; not changed here."
+  },
+  {
+   "movement": "the-anabaptist-movements",
+   "field": "relationsSummary",
+   "sentence": "Persecuted by Lutheran, Reformed, and Catholic traditions alike - a loud tension in the sources; parent of the free-church line",
+   "other_id": "lutheran-wittenberg-and-its-congregations",
+   "disposition": "qualify",
+   "link_id": "lutheran-wittenberg-and-its-congregations--the-anabaptist-movements",
+   "prose_change": 3,
+   "reason": "Lutheran condemnation is documented (Augsburg Confession IX, XVI); Lutheran persecution on the scale implied is not shown in any vendored text. Now 'condemned them'."
+  },
+  {
+   "movement": "the-anabaptist-movements",
+   "field": "relationsSummary",
+   "sentence": "Persecuted by Lutheran, Reformed, and Catholic traditions alike - a loud tension in the sources; parent of the free-church line",
+   "other_id": "the-reformed-cities-zurich-and-geneva",
+   "disposition": "link",
+   "link_id": "the-reformed-cities-zurich-and-geneva--the-anabaptist-movements--2",
+   "prose_change": 3,
+   "reason": "Zurich's mandate and the drowning of Manz (rewritten link)."
+  },
+  {
+   "movement": "the-anabaptist-movements",
+   "field": "relationsSummary",
+   "sentence": "Persecuted by Lutheran, Reformed, and Catholic traditions alike - a loud tension in the sources; parent of the free-church line",
+   "other_id": "the-tridentine-church",
+   "disposition": "link",
+   "link_id": "the-tridentine-church--the-anabaptist-movements",
+   "prose_change": 3,
+   "reason": "Trent's canon on rebaptism; the Martyrs Mirror on persecution 'first especially in popedom'."
+  },
+  {
+   "movement": "the-anabaptist-movements",
+   "field": "relationsSummary",
+   "sentence": "Persecuted by Lutheran, Reformed, and Catholic traditions alike - a loud tension in the sources; parent of the free-church line",
+   "other_id": "the-baptists",
+   "disposition": "qualify",
+   "link_id": "the-anabaptist-movements--the-baptists",
+   "prose_change": 3,
+   "reason": "'Parent of the free-church line' claims descent; the Baptists' own text says historians are divided. Contested link; now 'they led the way for the free churches that came later, such as the Baptists' (McGlothlin's 'forerunners')."
+  },
+  {
+   "movement": "the-anabaptist-movements",
+   "field": "longDescription",
+   "sentence": "In January 1525 a handful of men in Zurich, impatient with how slowly their own city's reform was moving, baptized one another as adults — and were hunted for it.",
+   "other_id": "the-reformed-cities-zurich-and-geneva",
+   "disposition": "link",
+   "link_id": "the-reformed-cities-zurich-and-geneva--the-anabaptist-movements",
+   "prose_change": 4,
+   "reason": "Published gave-rise-to link (kept) and the rewritten argued-against link. The inventory's 'broke with' is not drafted (see the kept link's reason). Sentence kept, split for reading level."
+  },
+  {
+   "movement": "the-anabaptist-movements",
+   "field": "longDescription",
+   "sentence": "Catholic, Lutheran and Reformed authorities alike treated this as sedition and executed them by the hundreds.",
+   "other_id": "the-tridentine-church",
+   "disposition": "link",
+   "link_id": "the-tridentine-church--the-anabaptist-movements",
+   "prose_change": 4,
+   "reason": "Catholic courts: Ensisheim, Sattler. Now 'By one early count more than two thousand were put to death, above all in Catholic lands' (Martyrs Mirror, citing Franck)."
+  },
+  {
+   "movement": "the-anabaptist-movements",
+   "field": "longDescription",
+   "sentence": "Catholic, Lutheran and Reformed authorities alike treated this as sedition and executed them by the hundreds.",
+   "other_id": "lutheran-wittenberg-and-its-congregations",
+   "disposition": "qualify",
+   "link_id": "lutheran-wittenberg-and-its-congregations--the-anabaptist-movements",
+   "prose_change": 4,
+   "reason": "No vendored text shows Lutheran authorities executing Anabaptists. Lutheran confessions do treat their teaching as a danger to government (Formula of Concord XII, 'Articles that cannot be tolerated in the Government'), so 'saw them as a threat to order' stands for all three; the executions are now tied to Catholic lands."
+  },
+  {
+   "movement": "the-anabaptist-movements",
+   "field": "longDescription",
+   "sentence": "Catholic, Lutheran and Reformed authorities alike treated this as sedition and executed them by the hundreds.",
+   "other_id": "the-reformed-cities-zurich-and-geneva",
+   "disposition": "link",
+   "link_id": "the-reformed-cities-zurich-and-geneva--the-anabaptist-movements--2",
+   "prose_change": 4,
+   "reason": "Zurich's 1527 sentence on Manz carries Reformed executions."
+  },
+  {
+   "movement": "the-anabaptist-movements",
+   "field": "longDescription",
+   "sentence": "The survivors regrouped: Hutterite communities holding goods in common in Moravia, and in the Low Countries the congregations gathered by a former priest, Menno Simons, whose name their descendants still carry.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 4,
+   "reason": "Hutterites and Mennonites are inside this movement (no separate census movements). The Hutterite chronicle and Menno's works are vendored. Kept, split for reading level."
+  },
+  {
+   "movement": "the-anabaptist-movements",
+   "field": "why",
+   "sentence": "In January 1525, a small group in Zurich baptized one another as adults, and Lutheran, Reformed and Catholic authorities alike hunted them down for it.",
+   "other_id": "lutheran-wittenberg-and-its-congregations",
+   "disposition": "qualify",
+   "link_id": "lutheran-wittenberg-and-its-congregations--the-anabaptist-movements",
+   "prose_change": 5,
+   "reason": "'Hunted them down' is not shown for Lutheran authorities. Now 'condemned them for it', which all three links support."
+  },
+  {
+   "movement": "the-anabaptist-movements",
+   "field": "why",
+   "sentence": "In January 1525, a small group in Zurich baptized one another as adults, and Lutheran, Reformed and Catholic authorities alike hunted them down for it.",
+   "other_id": "the-reformed-cities-zurich-and-geneva",
+   "disposition": "link",
+   "link_id": "the-reformed-cities-zurich-and-geneva--the-anabaptist-movements--2",
+   "prose_change": 5,
+   "reason": "As above."
+  },
+  {
+   "movement": "the-anabaptist-movements",
+   "field": "why",
+   "sentence": "In January 1525, a small group in Zurich baptized one another as adults, and Lutheran, Reformed and Catholic authorities alike hunted them down for it.",
+   "other_id": "the-tridentine-church",
+   "disposition": "link",
+   "link_id": "the-tridentine-church--the-anabaptist-movements",
+   "prose_change": 5,
+   "reason": "As above."
+  },
+  {
+   "movement": "the-anabaptist-movements",
+   "field": "legacy",
+   "sentence": "The movement survives directly: Mennonites, Amish, Hutterites and Brethren all descend from it",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 6,
+   "reason": "Mennonites, Amish and Hutterites have no separate census movements; their descent is the standard account (Menno Simons and the Hutterite chronicle are vendored). Kept."
+  },
+  {
+   "movement": "the-anabaptist-movements",
+   "field": "legacy",
+   "sentence": "The movement survives directly: Mennonites, Amish, Hutterites and Brethren all descend from it",
+   "other_id": "radical-pietism-and-the-brethren-dunkers-ephrata",
+   "disposition": "qualify",
+   "link_id": "the-anabaptist-movements--radical-pietism-and-the-brethren-dunkers-ephrata",
+   "prose_change": 6,
+   "reason": "The Brethren are the era-8 Radical Pietism movement. Brumbaugh rejects 'a branch of the Mennonites'; the Ephrata chronicle shows Mennonite-descended members and the martyr book printed. Now 'the later Brethren drew on its beliefs'."
+  },
+  {
+   "movement": "the-anabaptist-movements",
+   "field": "legacy",
+   "sentence": "the wider free-church principle — that membership is a voluntary adult commitment and that the church should not be an arm of the state — became one of the most widely adopted Protestant ideas in the world.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 6,
+   "reason": "A broad reception claim with no single census movement; the Baptist link carries the documented part. Kept in the rewrite."
+  },
+  {
+   "movement": "schwenckfelders",
+   "field": "relationsSummary",
+   "sentence": "Spiritualist wing of the Reformation",
+   "other_id": "family-of-love-and-spiritualists-franck-niclaes",
+   "disposition": "not-a-relationship",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "A classification, not a tie to the Family of Love; the inventory's reading is not drafted."
+  },
+  {
+   "movement": "schwenckfelders",
+   "field": "longDescription",
+   "sentence": "Caspar Schwenckfeld was a Silesian nobleman who welcomed Luther's reform and then broke with it",
+   "other_id": "lutheran-wittenberg-and-its-congregations",
+   "disposition": "link",
+   "link_id": "lutheran-wittenberg-and-its-congregations--schwenckfelders",
+   "prose_change": null,
+   "reason": "Schwenckfeld's own account of the Wittenberg visit and Luther's letter; Kriebel on his early welcome of the reform. Unchanged."
+  },
+  {
+   "movement": "schwenckfelders",
+   "field": "longDescription",
+   "sentence": "a distinctive doctrine of the glorified, heavenly flesh of Christ that Lutherans and Reformed alike condemned.",
+   "other_id": "lutheran-wittenberg-and-its-congregations",
+   "disposition": "link",
+   "link_id": "lutheran-wittenberg-and-its-congregations--schwenckfelders--2",
+   "prose_change": null,
+   "reason": "Formula of Concord, Epitome XII, 'Erroneous Articles of the Schwenckfeldians'. Unchanged."
+  },
+  {
+   "movement": "schwenckfelders",
+   "field": "longDescription",
+   "sentence": "a distinctive doctrine of the glorified, heavenly flesh of Christ that Lutherans and Reformed alike condemned.",
+   "other_id": "the-reformed-cities-zurich-and-geneva",
+   "disposition": "link",
+   "link_id": "the-reformed-cities-zurich-and-geneva--schwenckfelders",
+   "prose_change": null,
+   "reason": "Second Helvetic Confession, ch. XI, names Schwenckfeld. Unchanged."
+  },
+  {
+   "movement": "schwenckfelders",
+   "field": "longDescription",
+   "sentence": "They met in houses, copied his writings out by hand, and were harried in Silesia for two centuries until a remnant emigrated to Pennsylvania in the 1730s.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Silesian authorities have no census movement. Kriebel (1904, vendored, lines 578-582) supports two centuries of persecution and the refuge found in 1734. Unchanged."
+  },
+  {
+   "movement": "schwenckfelders",
+   "field": "why",
+   "sentence": "Caspar Schwenckfeld broke with Luther over a conviction that outward things — preaching, sacraments, church order — could never do what only Christ's inward work could accomplish.",
+   "other_id": "lutheran-wittenberg-and-its-congregations",
+   "disposition": "link",
+   "link_id": "lutheran-wittenberg-and-its-congregations--schwenckfelders",
+   "prose_change": null,
+   "reason": "As in the long description. Unchanged."
+  },
+  {
+   "movement": "family-of-love-and-spiritualists-franck-niclaes",
+   "field": "relationsSummary",
+   "sentence": "Quiet influence on later dissent",
+   "other_id": null,
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 7,
+   "reason": "No census movement is named and no vendored source traces a line from the Familists or Franck to later dissent. William Penn says some Seekers were called 'the Family of Love' by others, which is a name, not a lineage. Now 'Perhaps', with the reason."
+  },
+  {
+   "movement": "family-of-love-and-spiritualists-franck-niclaes",
+   "field": "longDescription",
+   "sentence": "Familists were hunted by royal proclamation in England in 1580.",
+   "other_id": "the-english-reformation-and-elizabethan-settleme",
+   "disposition": "link",
+   "link_id": "the-english-reformation-and-elizabethan-settleme--family-of-love-and-spiritualists-franck-niclaes",
+   "prose_change": null,
+   "reason": "Knewstub's licensed Confutation (1579), the Norwich imprisonments (Strype) and the 1606 tract's mention of proclamations. The 1580 date rests on Fuller's editor's footnote (repo-cited, named-not-rechecked); sentence kept, proclamation in wants."
+  },
+  {
+   "movement": "family-of-love-and-spiritualists-franck-niclaes",
+   "field": "why",
+   "sentence": "so well hidden that England hunted them by royal proclamation in 1580.",
+   "other_id": "the-english-reformation-and-elizabethan-settleme",
+   "disposition": "link",
+   "link_id": "the-english-reformation-and-elizabethan-settleme--family-of-love-and-spiritualists-franck-niclaes",
+   "prose_change": null,
+   "reason": "As in the long description. Unchanged."
+  },
+  {
+   "movement": "family-of-love-and-spiritualists-franck-niclaes",
+   "field": "legacy",
+   "sentence": "Franck's writings, though, were read and reprinted for centuries by people looking for a Christianity without an institution, and reached the later mystical and spiritualist strands of Protestantism.",
+   "other_id": null,
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 8,
+   "reason": "No census movement named. Vendored prints show reprinting (the Paradoxa, 1559; an English treatise, 1640) and the Martyrs Mirror citing his chronicle, but no later spiritualist text naming him was found. 'Reached' is now 'may have reached', with the reason."
+  },
+  {
+   "movement": "family-of-love-and-spiritualists-franck-niclaes",
+   "field": "legacy",
+   "sentence": "but their books circulated among Dutch printers and English readers",
+   "other_id": "dutch-further-reformation-and-refuge-culture",
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 8,
+   "reason": "No vendored text shows Dutch printers; the one printer the host names is at Cologne, and the Dutch Further Reformation movement is unrelated. English readers are shown (Knewstub quotes the Evangelium Regni in English; a London reprint of 1652). Now 'printed abroad in English for English readers'."
+  },
+  {
+   "movement": "family-of-love-and-spiritualists-franck-niclaes",
+   "field": "legacy",
+   "sentence": "and the arguments for toleration made in the following century drew on that Christian tradition.",
+   "other_id": null,
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 8,
+   "reason": "No vendored or repo-cited source traces the toleration arguments to the Familists. Now stated as unproven."
+  }
+ ],
+ "links": [
+  {
+   "id": "rhineland-mysticism-and-the-friends-of-god--lutheran-wittenberg-and-its-congregations",
+   "action": "new",
+   "from": "rhineland-mysticism-and-the-friends-of-god",
+   "to": "lutheran-wittenberg-and-its-congregations",
+   "type": "influenced",
+   "confidence": "Documented",
+   "note": "Martin Luther printed the Theologia Deutsch, an anonymous German book from the circle of the Friends of God. In his preface he wrote that, after the Bible and Augustine, no book had taught him more. It taught him, he said, what God, Christ and humankind are.",
+   "outcome_considered": "A book printed and praised by the other side is a text taken up, which the outcome test excludes. No listed source shows a council, law or rule following from it.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Martin Luther, preface to the Theologia Germanica, in Susanna Winkworth's English translation (1893 printing)",
+     "file": "cic/texts/theologia-germanica_theologia-germanica_winkworth1893.txt",
+     "lines": "452-458",
+     "locus": "Luther's preface to the Theologia Germanica",
+     "quote": "that next to the Bible and St. Augustine, no book hath ever come into my hands, whence I have learnt, or would wish to learn more of what God, and Christ, and man and all things are;",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Martin Luther, preface to the Theologia Germanica, in Susanna Winkworth's English translation (1893 printing)",
+     "file": "cic/texts/theologia-germanica_theologia-germanica_winkworth1893.txt",
+     "lines": "496-498",
+     "locus": "Luther's preface, signature",
+     "quote": "Dr. Martin Luther, Augustinian of Wittemberg.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Susanna Winkworth, Historical Introduction to the Theologia Germanica (1854; 1893 printing)",
+     "file": "cic/texts/theologia-germanica_theologia-germanica_winkworth1893.txt",
+     "lines": "1391-1393",
+     "quote": "writings of the “Friends of God” in England",
+     "locus": "Historical Introduction"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in": "lutheran-wittenberg-and-its-congregations relationsSummary, after prose change 0 ('drew on an old German mystical book, the Theologia Deutsch'), replacing 'grew out of late-medieval piety'; also named in rhineland-mysticism-and-the-friends-of-god legacy and relationsSummary",
+   "drafter_flags": [
+    "cross-era: era 6",
+    "also named in rhineland-mysticism-and-the-friends-of-god (era 6), whose summary and legacy name Luther and the Theologia Deutsch; the era-6 draft may duplicate this link",
+    "The opening quote keeps Winkworth's curly quotation marks as the file prints them in the Friends of God line; the preface quote starts mid-sentence at a clause boundary ('that next to the Bible').",
+    "The book's place among the Friends of God rests on Winkworth's 1854 introduction (secondary, in the same vendored file) and on the era-6 movement's own text; the preface does not name the Friends of God."
+   ],
+   "change_reason": "New. Replaces the vague 'grew out of late-medieval piety' (which the inventory tied to an England-only parish movement) with one documented reception.",
+   "fre": 75.4,
+   "fk": 6.6
+  },
+  {
+   "id": "lutheran-wittenberg-and-its-congregations--latin-papal-church-avignon-to-lateran-v",
+   "action": "new",
+   "from": "lutheran-wittenberg-and-its-congregations",
+   "to": "latin-papal-church-avignon-to-lateran-v",
+   "type": "argued against",
+   "confidence": "Documented",
+   "note": "On 31 October 1517 Martin Luther wrote to the archbishop of Mainz about papal indulgences being sold under his name. Luther's theses of the same day said the indulgence preachers were in error. The indulgences, he wrote, were nets that now 'fish for the riches of men.'",
+   "outcome_considered": "The listed sources show Luther's letter and theses only; the papal condemnation that followed is a separate act of the later papacy, drafted on its own link.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Martin Luther, Letter to Archbishop Albrecht of Mainz (31 October 1517), in Works of Martin Luther, vol. 1 (Philadelphia, 1915)",
+     "file": "cic/texts/luther_works-v1-selected_jacobs-spaeth1915.txt",
+     "lines": "990-992",
+     "locus": "Letter to Archbishop Albrecht, heading",
+     "quote": "LETTER TO THE ARCHBISHOP ALBRECHT OF MAINZ OCTOBER 31, 1517",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Martin Luther, Letter to Archbishop Albrecht of Mainz (31 October 1517), in Works of Martin Luther, vol. 1 (Philadelphia, 1915)",
+     "file": "cic/texts/luther_works-v1-selected_jacobs-spaeth1915.txt",
+     "lines": "1014-1015",
+     "locus": "Letter to Archbishop Albrecht",
+     "quote": "Papal indulgences for the building of St. Peter's are circulating under your most distinguished name,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Martin Luther, Disputation on the Power and Efficacy of Indulgences (the Ninety-five Theses, 31 October 1517), in Works of Martin Luther, vol. 1 (1915)",
+     "file": "cic/texts/luther_works-v1-selected_jacobs-spaeth1915.txt",
+     "lines": "1230-1232",
+     "locus": "Ninety-five Theses, thesis 21",
+     "quote": "21. Therefore those preachers of indulgences are in error, who say that by the pope's indulgences a man is freed from every penalty, and saved;",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Martin Luther, Disputation on the Power and Efficacy of Indulgences (the Ninety-five Theses, 31 October 1517), in Works of Martin Luther, vol. 1 (1915)",
+     "file": "cic/texts/luther_works-v1-selected_jacobs-spaeth1915.txt",
+     "lines": "1399-1400",
+     "locus": "Ninety-five Theses, thesis 66",
+     "quote": "66. The treasures of the indulgences are nets with which they now fish for the riches of men.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in": "lutheran-wittenberg-and-its-congregations relationsSummary ('its protest against Rome'; after prose change 0, 'one friar spoke out against the sale of indulgences') and longDescription ('95 theses against the sale of indulgences ... the archbishop of Mainz')",
+   "drafter_flags": [
+    "cross-era: era 6",
+    "The theses fall in 1517, the last year of this era-6 movement (1300-1517) and the first of the-tridentine-church (1517-1650). The indulgence campaign belongs to the Renaissance papacy this movement describes; the 1520 bull and the 1537 Smalcald Articles are drafted against the-tridentine-church instead.",
+    "'Sold' in the note: the letter's own word is 'circulating', but the theses (e.g. thesis 66, 'fish for the riches of men') make the money plain. A reviewer may prefer 'preached'."
+   ],
+   "change_reason": "New. Carries the movement's 'protest against Rome' with Luther's own letter and theses.",
+   "fre": 71.9,
+   "fk": 6.1
+  },
+  {
+   "id": "lutheran-wittenberg-and-its-congregations--the-tridentine-church",
+   "action": "new",
+   "from": "lutheran-wittenberg-and-its-congregations",
+   "to": "the-tridentine-church",
+   "type": "argued against",
+   "confidence": "Documented",
+   "note": "In 1537 Luther drew up the Smalcald Articles for the council that Pope Paul III had called. They set out how far his side could yield to 'the Papists'. In them Luther called the pope 'the very Antichrist', who had set himself above Christ.",
+   "outcome_considered": "The Smalcald Articles are a statement of position. None of the listed lines shows a council, law or split that followed from them.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": "witt.source.book-of-concord",
+     "work": "Martin Luther, The Smalcald Articles (1537), preface, in The Book of Concord (Jacobs, 1911)",
+     "file": "cic/texts/book-of-concord_symbolical-books-evangelical-lutheran-church_jacobs1911.txt",
+     "lines": "15772-15773",
+     "locus": "Smalcald Articles, Luther's preface",
+     "quote": "When Pope Paul III. convoked a Council last yeai to as- 1 semble at Mantua about Whitsuntide,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": "witt.source.book-of-concord",
+     "work": "Martin Luther, The Smalcald Articles (1537), preface, in The Book of Concord (Jacobs, 1911)",
+     "file": "cic/texts/book-of-concord_symbolical-books-evangelical-lutheran-church_jacobs1911.txt",
+     "lines": "15777-15779",
+     "locus": "Smalcald Articles, Luther's preface",
+     "quote": "I was directed to compose and collect the articles of our doctrine, in case there should be any deliberation as to what and how far we could yield to the Papists,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": "witt.source.book-of-concord",
+     "work": "Martin Luther, The Smalcald Articles (1537), Part II, Art. IV, in The Book of Concord (Jacobs, 1911)",
+     "file": "cic/texts/book-of-concord_symbolical-books-evangelical-lutheran-church_jacobs1911.txt",
+     "lines": "16418-16420",
+     "locus": "Smalcald Articles, Part II, Art. IV (Of the Papacy)",
+     "quote": "This article clearly shows that the Pope is the very lo Antichrist, who has exalted and opposed himself against Christ,",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in": "lutheran-wittenberg-and-its-congregations relationsSummary ('becoming a rival to Rome')",
+   "drafter_flags": [
+    "Two OCR artifacts are kept verbatim: 'yeai' for 'year' plus the margin paragraph number '1' (lines 15772-15773), and the margin number 'lo' (10) inside 'the very lo Antichrist' (line 16418).",
+    "The year 1537 is the date the file prints under the preface heading ('MDXXXVIL', line 15767, OCR for MDXXXVII).",
+    "The reverse direction (the papacy against Luther, 1520) is a separate link below; both are likely also drafted from the-tridentine-church's own text."
+   ],
+   "change_reason": "New. Carries 'a rival to Rome' from the Lutheran side.",
+   "fre": 80.1,
+   "fk": 5.6
+  },
+  {
+   "id": "the-tridentine-church--lutheran-wittenberg-and-its-congregations",
+   "action": "new",
+   "from": "the-tridentine-church",
+   "to": "lutheran-wittenberg-and-its-congregations",
+   "type": "argued against",
+   "confidence": "Documented",
+   "note": "In June 1520 a papal bull, Exsurge Domine, listed forty-one statements taken from Martin Luther. It condemned them all. Each one, it said, was heretical, scandalous or false.",
+   "outcome": "The bull also condemned Luther's books and ordered them burned. If he and his followers did not take back their views within sixty days, they would be punished.",
+   "outcome_locus": "Mirbt, Quellen (1911), lines 15502-15512: the bull's own condemning clause (§ 3) and Mirbt's German summary of the clauses that follow it (condemnation and burning of Luther's writings; penalties unless recantation within 60 days).",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Leo X, bull Exsurge Domine (15 June 1520), in Carl Mirbt, Quellen zur Geschichte des Papsttums, 3rd ed. (1911)",
+     "file": "cic/texts/mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt",
+     "lines": "15391-15393",
+     "locus": "Mirbt no. 339, heading",
+     "quote": "3. Die Bannandrohung gegen Luther (1520). Bulle „Exsurge domine\", 15. Juni 1520:",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Leo X, bull Exsurge Domine (15 June 1520), in Carl Mirbt, Quellen zur Geschichte des Papsttums, 3rd ed. (1911)",
+     "file": "cic/texts/mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt",
+     "lines": "15502-15506",
+     "locus": "Exsurge Domine, § 3",
+     "quote": "Praefatos omnes et singulos articulos seu errores tamquam, ut praemittitiir, respective haereticos aut scandalosos aut falsos aut piarum aurium offensives vel simpli- cium mentium seductivos et veritati catholicae obviantes damnamus, reprobamus atque omnino reiicimus.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Errors of Martin Luther condemned in the bull Exsurge Domine (1520), in Denzinger-Bannwart, Enchiridion Symbolorum (1911)",
+     "file": "cic/texts/denzinger_enchiridion-symbolorum-lat_bannwart1911.txt",
+     "lines": "17513-17515",
+     "locus": "Denzinger nos. 741-781, heading",
+     "quote": "Errores Martini Luther^ [Damnati in Bulla «E.xsurge Domine», 15. lunii 1520.]",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in": "lutheran-wittenberg-and-its-congregations relationsSummary ('becoming a rival to Rome')",
+   "drafter_flags": [
+    "also likely named in the-tridentine-church; the merge should keep one draft.",
+    "The bull of 1520 falls before Trent but inside the-tridentine-church's dates (1517-1650). The pope's name is not quoted; the note says 'the papal bull' for that reason.",
+    "Quotes keep the OCR as printed: 'praemittitiir', 'offensives', the hyphen in 'simpli- cium', Mirbt's „ opening quote mark, Denzinger's 'Luther^', 'E.xsurge' and 'lunii'. The number forty-one is the bull's own article count (articles 1-41 in Mirbt, lines 15408-15499).",
+    "The outcome's burning order and sixty-day term come from Mirbt's German summary of the bull's later clauses (editor's text inside the same source), not from the Latin he prints."
+   ],
+   "change_reason": "New. The Catholic side of the rivalry: the 1520 condemnation.",
+   "fre": 61.4,
+   "fk": 7.0
+  },
+  {
+   "id": "lutheran-wittenberg-and-its-congregations--scandinavian-reformation-kingdoms",
+   "action": "new",
+   "from": "lutheran-wittenberg-and-its-congregations",
+   "to": "scandinavian-reformation-kingdoms",
+   "type": "influenced",
+   "confidence": "Documented",
+   "note": "The Swedish reformer Olaus Petri studied at Wittenberg. He was there when Luther posted his theses in 1517. In 1593 a church council met at Uppsala. It bound Sweden to the old, true and unchanged Augsburg Confession of 1530.",
+   "outcome": "In 1593 a church council at Uppsala made the Augsburg Confession of 1530 the binding creed of the church in Sweden.",
+   "outcome_locus": "Bensow (1912), lines 31003-31004 (the council meets at Uppsala, 25 February 1593, to agree the church's teaching) and 31032-31040 (its decision to hold to the unaltered Augsburg Confession presented at Augsburg in 1530).",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Decision of the Uppsala Synod (Upsala mötes beslut, 1593), in Oscar Bensow, Svenska kyrkans bekännelseskrifter (1912)",
+     "file": "cic/texts/bensow_svenska-kyrkans-bekannelseskrifter-swe_bensow1912.txt",
+     "lines": "31003-31004",
+     "locus": "Uppsala mötes beslut (1593), preamble",
+     "quote": "efter Christi börd 1593 på söndagen Esto mihi, som var then 25 februari!, här i Upsala till at göra en förening",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Decision of the Uppsala Synod (Upsala mötes beslut, 1593), in Oscar Bensow, Svenska kyrkans bekännelseskrifter (1912)",
+     "file": "cic/texts/bensow_svenska-kyrkans-bekannelseskrifter-swe_bensow1912.txt",
+     "lines": "31032-31034",
+     "locus": "Uppsala mötes beslut (1593), second article",
+     "quote": "Thernäst bejake och vederkännes [bekänna] vi oss alldeles vele hölle vidh the Apostoliske, Niceniske och Athanasii symbola, såsom och vidh then äldste, rätte och oförrandrede Ausburgiske confession,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "L. A. Anjou, The History of the Reformation in Sweden, trans. Henry M. Mason (1859)",
+     "file": "cic/texts/anjou_history-of-the-reformation-in-sweden_mason1859.txt",
+     "lines": "2931-2945",
+     "quote": "Olof came to Wittenberg, and was matriculated at the university, in 1516.",
+     "locus": "Book I (Olaus Petri at Wittenberg)"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in": "lutheran-wittenberg-and-its-congregations longDescription ('the churches shaped by it spread north and east across Germany and Scandinavia') and legacy ('Lutheran churches ... across ... Scandinavia')",
+   "drafter_flags": [
+    "also named in scandinavian-reformation-kingdoms (its summary and description name the unaltered Augsburg Confession and Luther's colleague Bugenhagen); the merge should keep one draft.",
+    "The bracketed gloss '[bekänna]' is Bensow's modern gloss, kept because it is inside the printed line; 'februari!' is the file's OCR. The note's English of the quoted phrase is my own rendering of 'then äldste, rätte och oförrandrede Ausburgiske confession'.",
+    "Olaus Petri at Wittenberg rests on Anjou (a 19th-century historian, secondary, in a vendored file; Anjou also says, lines 2944-2945, that Petri 'was present in Wittenberg when Luther posted up his ninety-five theses'). The Danish ordinance drawn up with Bugenhagen is not vendored; see wants.",
+    "Outcome test: a council's binding act adopting the confession, not a text merely read; flagged for the reviewer because the stricter test excludes texts 'merely taken up'."
+   ],
+   "change_reason": "New. Carries the spread into Scandinavia with the Uppsala decision itself.",
+   "fre": 66.1,
+   "fk": 6.3
+  },
+  {
+   "id": "lutheran-wittenberg-and-its-congregations--schwenckfelders",
+   "action": "new",
+   "from": "lutheran-wittenberg-and-its-congregations",
+   "to": "schwenckfelders",
+   "type": "broke with",
+   "confidence": "Documented",
+   "note": "In 1525 Caspar Schwenckfeld rode to Wittenberg to lay his view of the Lord's Supper before Luther. About two months later, Schwenckfeld recalled, Luther sent his books back with a sharp letter. It ended: either you or we must be the devil's own.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "[Christopher Schultz and the Schwenkfelder emigrants], Erläuterung für Herrn Caspar Schwenckfeld (1771; 2nd ed., Sumneytown, 1830)",
+     "file": "cic/texts/schultz-christopher_erlaeuterung-fuer-caspar-schwenckfeld-deu_benner1830.txt",
+     "lines": "1074",
+     "locus": "Erläuterung, ch. on Schwenckfeld's person (Schwenckfeld's own account quoted)",
+     "quote": "ritte nach Wittenberg, legte es D. M. Luthero vor,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "[Christopher Schultz and the Schwenkfelder emigrants], Erläuterung für Herrn Caspar Schwenckfeld (1771; 2nd ed., Sumneytown, 1830)",
+     "file": "cic/texts/schultz-christopher_erlaeuterung-fuer-caspar-schwenckfeld-deu_benner1830.txt",
+     "lines": "1080-1081",
+     "locus": "Erläuterung (Schwenckfeld's own account quoted)",
+     "quote": "über zwey Monat schickte er mir unfere Büchlein wieder, mit einem scharfen hißigen Schreiben:",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "[Christopher Schultz and the Schwenkfelder emigrants], Erläuterung für Herrn Caspar Schwenckfeld (1771; 2nd ed., Sumneytown, 1830)",
+     "file": "cic/texts/schultz-christopher_erlaeuterung-fuer-caspar-schwenckfeld-deu_benner1830.txt",
+     "lines": "1084-1086",
+     "locus": "Erläuterung (Luther's letter as Schwenckfeld quoted it)",
+     "quote": "Kurzum, entweder ihr, oder wir, müffen des Zeufels leibeigen seyn, weil wir und beyderseits GOttes Worts rüh- men.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "[Christopher Schultz and the Schwenkfelder emigrants], Erläuterung für Herrn Caspar Schwenckfeld (1771; 2nd ed., Sumneytown, 1830)",
+     "file": "cic/texts/schultz-christopher_erlaeuterung-fuer-caspar-schwenckfeld-deu_benner1830.txt",
+     "lines": "1117-1118",
+     "locus": "Erläuterung, § 6",
+     "quote": "Folgends hin, hat Lutherus vom Schwenffeld nichts mehr hören und annehmen wollen,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Howard Wiegner Kriebel, The Schwenkfelders in Pennsylvania (1904)",
+     "file": "cic/texts/kriebel_schwenkfelders-in-pennsylvania_1904.txt",
+     "lines": "563-566",
+     "quote": "The want of harmony between the theories of Luther and Schwenkfeld, recognizable in the two letters written by the latter in 1524, became an open and endless discord between the parties themselves a year later.",
+     "locus": "ch. I, 'Schwenkfeld versus Luther'"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in": "schwenckfelders longDescription ('welcomed Luther's reform and then broke with it') and why ('broke with Luther')",
+   "drafter_flags": [
+    "Luther's side of the rupture survives here only as Schwenckfeld quoted Luther's letter, in the community's own apologia (first printed 1771; the vendored file is the 1830 second edition). The Lutheran side's own later record is the Formula of Concord, drafted as the separate 'argued against' link. No Luther edition with the letter is vendored (see wants).",
+    "The year 1525 comes from Kriebel's 'a year later' after the letters of 1524 (secondary, vendored).",
+    "Quotes keep the file's OCR: 'unfere' (unsere), 'hißigen' (hitzigen), 'müffen', 'Zeufels' (Teufels), 'Schwenffeld', and the hyphen in 'rüh- men'.",
+    "The note's 'the devil's own' renders 'des Teufels leibeigen'."
+   ],
+   "change_reason": "New. 'Broke with' is major by type; no outcome field.",
+   "fre": 73.8,
+   "fk": 6.4
+  },
+  {
+   "id": "lutheran-wittenberg-and-its-congregations--schwenckfelders--2",
+   "action": "new",
+   "from": "lutheran-wittenberg-and-its-congregations",
+   "to": "schwenckfelders",
+   "type": "argued against",
+   "confidence": "Documented",
+   "note": "The Lutheran Formula of Concord of 1577 lists the 'Erroneous Articles of the Schwenckfeldians'. It rejects their teaching that Christ's glorified flesh took on all divine properties. It also rejects their view that the water of baptism is not a means by which God works new birth.",
+   "outcome_considered": "The Formula is a confession of faith. None of the listed lines shows a council, law or ruler's act enforcing it against the Schwenckfelders.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": "witt.source.book-of-concord",
+     "work": "Formula of Concord (1577), Epitome XII, in The Book of Concord (Jacobs, 1911)",
+     "file": "cic/texts/book-of-concord_symbolical-books-evangelical-lutheran-church_jacobs1911.txt",
+     "lines": "27704-27708",
+     "locus": "Formula of Concord, Epitome XII, heading",
+     "quote": "CHAPTER XII. 558 Of Other Factions [Heresies] and Sects, which NEVER Embraced the Augsburg Confession.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": "witt.source.book-of-concord",
+     "work": "Formula of Concord (1577), Epitome XII, in The Book of Concord (Jacobs, 1911)",
+     "file": "cic/texts/book-of-concord_symbolical-books-evangelical-lutheran-church_jacobs1911.txt",
+     "lines": "27839",
+     "locus": "Formula of Concord, Epitome XII",
+     "quote": "Erroneous Articles op the Schwenckfeldians.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": "witt.source.book-of-concord",
+     "work": "Formula of Concord (1577), Epitome XII, in The Book of Concord (Jacobs, 1911)",
+     "file": "cic/texts/book-of-concord_symbolical-books-evangelical-lutheran-church_jacobs1911.txt",
+     "lines": "27845-27847",
+     "locus": "Formula of Concord, Epitome XII, Schwenckfeldian error 2",
+     "quote": "That, by his exaltation, the flesh of Christ has so assumed n all divine properties that Christ as man is in might, power, majesty and glory equal to the Father and to the Word,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": "witt.source.book-of-concord",
+     "work": "Formula of Concord (1577), Epitome XII, in The Book of Concord (Jacobs, 1911)",
+     "file": "cic/texts/book-of-concord_symbolical-books-evangelical-lutheran-church_jacobs1911.txt",
+     "lines": "27859-27860",
+     "locus": "Formula of Concord, Epitome XII, Schwenckfeldian error 4",
+     "quote": "That the water of baptism is not a means whereby God 23 the Lord seals adoption and works regeneration.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in": "schwenckfelders longDescription ('a distinctive doctrine of the glorified, heavenly flesh of Christ that Lutherans and Reformed alike condemned')",
+   "drafter_flags": [
+    "Kept separate from the 'broke with' link on the same pair: the break is the 1525-26 rupture, this is the confession's later condemnation by name. Each is evidenced on its own.",
+    "Quotes keep the OCR: 'op' for 'of' in the heading, and the margin numbers '558', 'n' (21) and '23' inside the lines."
+   ],
+   "change_reason": "New.",
+   "fre": 66.2,
+   "fk": 7.8
+  },
+  {
+   "id": "the-reformed-cities-zurich-and-geneva--schwenckfelders",
+   "action": "new",
+   "from": "the-reformed-cities-zurich-and-geneva",
+   "to": "schwenckfelders",
+   "type": "argued against",
+   "confidence": "Documented",
+   "note": "Heinrich Bullinger wrote the Second Helvetic Confession in 1566. It rejects the subtle arguments of Schwenckfeld by name. Its Latin adds, \"we are not Schwenckfeldians.\" It also denies that Christ's body was made divine and lost in God.",
+   "outcome_considered": "A confession of faith; the listed lines do not show a council, law or ruler acting on it against the Schwenckfelders.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Confessio Helvetica posterior (Second Helvetic Confession, 1566), ch. XI, Latin, in H. A. Niemeyer, Collectio confessionum in ecclesiis reformatis publicatarum (1840)",
+     "file": "cic/texts/niemeyer_collectio-confessionum-lat_niemeyer1840.txt",
+     "lines": "31721-31724",
+     "locus": "Confessio Helvetica posterior, ch. XI (De Iesu Christo)",
+     "quote": "Bt proiode Schuenkfeldij similiomqoe leptologomm Oeetat. ifgotas afgotias,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Confessio Helvetica posterior (Second Helvetic Confession, 1566), ch. XI, Latin, in H. A. Niemeyer, Collectio confessionum (1840)",
+     "file": "cic/texts/niemeyer_collectio-confessionum-lat_niemeyer1840.txt",
+     "lines": "31724",
+     "locus": "Confessio Helvetica posterior, ch. XI",
+     "quote": "neque Scboeokfeldiani sumus",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Heinrich Bullinger, The Second Helvetic Confession (1566), ch. XI, in Philip Schaff, The Creeds of Christendom, vol. III (1919 printing)",
+     "file": "cic/texts/schaff_second-helvetic-confession-heidelberg-catechism_1919.txt",
+     "lines": "749-751",
+     "locus": "Second Helvetic Confession, ch. XI (English)",
+     "quote": "The true body of Christ was not deified so as to put off its properties and to be absorbed hito the divine substance.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in": "schwenckfelders longDescription ('that Lutherans and Reformed alike condemned')",
+   "drafter_flags": [
+    "The Latin OCR is badly garbled. I read lines 31721-31724 as 'Et proinde Schwenkfeldii similiumque leptologorum ... argutias ... haudquaquam probamus aut recipimus, neque Schwenkfeldiani sumus'. The quotes copy the OCR exactly. Schaff's English (1919) omits this sentence, so the name rests on the garbled Latin alone; a clean Latin or German text is in wants.",
+    "Bullinger as author: from the Schaff file's header (creator line). Bullinger led Zurich's church, which ties the confession to this movement; the Swiss adoption itself is not shown in the listed lines."
+   ],
+   "change_reason": "New.",
+   "fre": 67.1,
+   "fk": 6.2
+  },
+  {
+   "id": "the-reformed-cities-zurich-and-geneva--the-scottish-reformation-and-kirk",
+   "action": "new",
+   "from": "the-reformed-cities-zurich-and-geneva",
+   "to": "the-scottish-reformation-and-kirk",
+   "type": "influenced",
+   "confidence": "Documented",
+   "note": "John Knox studied in Geneva and went to preach to the English exiles at Frankfurt at John Calvin's command. He then went back to Geneva, and from there, by way of Dieppe, to Scotland.",
+   "outcome": "In December 1562 the Kirk's General Assembly ruled that its churches use one form for baptism, communion, weddings and funerals. That form was to follow \"the Kirk of Geneva.\"",
+   "outcome_locus": "Booke of the Universall Kirk, lines 1201-1211 (Session Fifth, last of December 1562).",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "John Knox, The History of the Reformation in Scotland, Book I, in The Works of John Knox, vol. 1, ed. David Laing",
+     "file": "cic/texts/knox_works-v1_laing1895.txt",
+     "lines": "6571-6575",
+     "locus": "Knox, History of the Reformation, Book I",
+     "quote": "When he left England, then he passed to Geneva, and thare remaned at his privat study,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "John Knox, The History of the Reformation in Scotland, Book I, in The Works of John Knox, vol. 1, ed. David Laing",
+     "file": "cic/texts/knox_works-v1_laing1895.txt",
+     "lines": "6574-6575",
+     "locus": "Knox, History of the Reformation, Book I",
+     "quote": "at the commandiment of that notable servand of God, JOHNE CALVYNE.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "John Knox, The History of the Reformation in Scotland, Book I, in The Works of John Knox, vol. 1, ed. David Laing",
+     "file": "cic/texts/knox_works-v1_laing1895.txt",
+     "lines": "6588",
+     "locus": "Knox, History of the Reformation, Book I",
+     "quote": "returned to Geneva, from thense to Deape, and thairafter to Scotland,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Acts of the General Assembly of the Church of Scotland, in The Booke of the Universall Kirk of Scotland, 1560-1602, ed. Alexander Peterkin (1839)",
+     "file": "cic/texts/kirk-of-scotland_booke-of-the-universall-kirk-1560-1602_peterkin1839.txt",
+     "lines": "1201-1211",
+     "locus": "General Assembly, Session Fifth, December 1562",
+     "quote": "It is concluded, That ane uniforme order sail be taken or keeped in ministration of the Sacraments, and solemnization of Mariages and Buriall of the Dead, according to the Kirk of Geneva.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "G. W. Sprott and Thomas Leishman (eds.), The Book of Common Order of the Church of Scotland ... and the Directory (1868), introduction",
+     "file": "cic/texts/kirk-of-scotland_book-of-common-order-and-westminster-directory_sprott-leishman1868.txt",
+     "lines": "604-606",
+     "quote": "The Book of Geneva thus remodelled is known as Knox's Liturgy, or ' Book of Common Order,' and it embodied the law of the Church as to worship from 1564 till 1645.",
+     "locus": "Introduction"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in": "the-reformed-cities-zurich-and-geneva relationsSummary ('Parent of the Scottish ... traditions'; after prose change 1, 'shaped'), longDescription ('Scotland ... all trace back here') and legacy ('the Scottish Kirk', after prose change 2)",
+   "drafter_flags": [
+    "also named in the-scottish-reformation-and-kirk ('Child of Geneva'); the merge should keep one draft.",
+    "Typed 'influenced', not 'gave rise to'. Knox's passage from Geneva to Scotland is a named person moving, but the Scottish Reformation of 1560 also had roots of its own; the sources show Geneva's pattern taken up, not a church emerging out of Geneva's people. A reviewer may judge 'gave rise to' defensible.",
+    "'sail' is the OCR for 'sall' (shall); kept. Knox's History is written of himself in the third person.",
+    "Outcome test: a General Assembly act changing the Kirk's rule of worship. Flagged because the stricter test excludes practices 'merely taken up'; this one is an ordinance."
+   ],
+   "change_reason": "New.",
+   "fre": 75.1,
+   "fk": 7.0
+  },
+  {
+   "id": "the-reformed-cities-zurich-and-geneva--the-huguenots",
+   "action": "new",
+   "from": "the-reformed-cities-zurich-and-geneva",
+   "to": "the-huguenots",
+   "type": "influenced",
+   "confidence": "Documented",
+   "note": "Calvin wrote from Geneva in May 1559, just before the French churches met in synod at Paris. His letter names the ministers Geneva was sending to help them. Among them were Arnold and Peter Gilbert.",
+   "outcome": "A synod at Paris in 1559 approved the French Confession of Faith. Calvin and his pupil De Chandieu had drawn it up.",
+   "outcome_locus": "Schaff, Gallican Confession extract, lines 14-15 (Schaff's headnote: 'prepared by Calvin and his pnpil, De Cuandiett, revised and approved by a synod at Paris, 1559').",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "John Calvin, letter DXXXIV (Geneva, 17 May 1559), in Letters of John Calvin, ed. Jules Bonnet, vol. IV (1858)",
+     "file": "cic/texts/calvin_letters-vol4_bonnet1858.txt",
+     "lines": "1939-1942",
+     "locus": "Letter DXXXIV, heading",
+     "quote": "DXXXIV.— To M. DE CoLONGES. Preliminaries of the Synod of Paris — Sending of several ministers. Geneva, 17th 3Iay, 1559.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "John Calvin, letter DXXXIV (Geneva, 17 May 1559), in Letters of John Calvin, ed. Jules Bonnet, vol. IV (1858)",
+     "file": "cic/texts/calvin_letters-vol4_bonnet1858.txt",
+     "lines": "1979-1982",
+     "locus": "Letter DXXXIV",
+     "quote": "I fear that we shall send you fresh assistance to no purpose. Respecting Vesener we have come to another decision. Arnold is substituted in his place,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Philip Schaff, headnote to the Confessio Fidei Gallicana, in The Creeds of Christendom, vol. III (1877)",
+     "file": "cic/texts/schaff_gallican-confession-fra-eng_1877.txt",
+     "lines": "14-15",
+     "quote": "This Confession was prepared by Calvin and his pnpil, De Cuandiett, revised and approved by a synod at Paris, 1559,",
+     "locus": "headnote"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in": "the-reformed-cities-zurich-and-geneva relationsSummary ('Parent of the ... Huguenot ... traditions'; after prose change 1), longDescription ('France ... trace back here') and legacy ('the Huguenots', after prose change 2)",
+   "drafter_flags": [
+    "also named in the-huguenots ('Grew directly out of Calvin's Geneva'); the merge should keep one draft.",
+    "Typed 'influenced'. Calvin's letter shows named ministers sent from Geneva, which could meet the 'gave rise to' test; but French evangelical congregations existed before Geneva's help, and the Huguenot text itself has them organize 'before any ruler told them to'. A reviewer may judge otherwise.",
+    "'3Iay' is the OCR for 'May'; 'CoLONGES' as printed. The synod's approval rests on Schaff's headnote (editor's text, secondary, in the vendored file); the outcome uses only that line. Flagged under the stricter test: a synod's approval is an institutional act, not a text merely read."
+   ],
+   "change_reason": "New.",
+   "fre": 65.9,
+   "fk": 6.9
+  },
+  {
+   "id": "the-reformed-cities-zurich-and-geneva--dutch-further-reformation-and-refuge-culture",
+   "action": "new",
+   "from": "the-reformed-cities-zurich-and-geneva",
+   "to": "dutch-further-reformation-and-refuge-culture",
+   "type": "influenced",
+   "confidence": "Documented",
+   "note": "Dutch Reformed refugees met in synod at Emden in 1571. To show their unity with the churches of France, they agreed to sign the French confession of faith.",
+   "outcome": "At Emden in 1571 the synod ruled on which catechism each church should use. French-speaking churches were to follow Geneva's, and Dutch-speaking ones the Heidelberg.",
+   "outcome_locus": "Rutgers, Acta (1889), lines 3018-3020 (Emden 1571, art. 5).",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Acts of the Synod of Emden (1571), in F. L. Rutgers (ed.), Acta van de Nederlandsche synoden der zestiende eeuw (1889)",
+     "file": "cic/texts/dutch-reformed-synods_acta-1568-1586-nld_rutgers1889.txt",
+     "lines": "2964-2968",
+     "locus": "Acts of the Synod of Emden (1571), Dutch text",
+     "quote": "heeft het den Broede- ren goet ghedocht de belijdinghe des Gheloofs der Neder- landtsbhe Kercken te onderschrijven, insgelijcx oock de belijdinghe der Kercken in Yranckrijck te onderteeckenen,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Acts of the Synod of Emden (1571), in F. L. Rutgers (ed.), Acta van de Nederlandsche synoden der zestiende eeuw (1889)",
+     "file": "cic/texts/dutch-reformed-synods_acta-1568-1586-nld_rutgers1889.txt",
+     "lines": "3018-3020",
+     "locus": "Acts of the Synod of Emden (1571), art. 5 (Latin)",
+     "quote": "5. CalecfUsmi formulam in Ecclesiis quidem Gallicanis Genevensem^ in Teutanicis vero Heydelbergensem sequen- dam duxerunt fratres^",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in": "the-reformed-cities-zurich-and-geneva relationsSummary ('Parent of the ... Dutch ... traditions'; after prose change 1), longDescription ('the Netherlands ... trace back here') and legacy ('the Dutch Reformed', after prose change 2)",
+   "drafter_flags": [
+    "The census movement is 'Dutch Further Reformation & Refuge Culture' (c. 1570-1650). The Emden synod of exile churches fits its refuge side and its start date; the later Nadere Reformatie piety is not what the sources show. Its own text does not name Geneva.",
+    "The year 1571 is the running head 'DE ACTA DER EICDENSCHE SYNODE VAN 1571' (line 2988, OCR for EMDENSCHE). Quotes keep the OCR ('landtsbhe', 'Yranckrijck', 'CalecfUsmi' for Catechismi, 'Teutanicis', the carets).",
+    "Outcome test: a synod rule on which catechism the churches use. Flagged because the stricter test excludes texts 'merely taken up'; this one is a synod's ruling."
+   ],
+   "change_reason": "New.",
+   "fre": 70.9,
+   "fk": 6.7
+  },
+  {
+   "id": "the-reformed-cities-zurich-and-geneva--puritanism",
+   "action": "new",
+   "from": "the-reformed-cities-zurich-and-geneva",
+   "to": "puritanism",
+   "type": "influenced",
+   "confidence": "Documented",
+   "note": "In 1572 the Puritans sent their Admonition to Parliament. At its end they printed two letters from leading Protestants abroad. One came from Theodore Beza, who signed himself \"minister of the word in the Church of Geneve.\"",
+   "outcome_considered": "Printing a Genevan letter is a text taken up. The listed sources show no rule, law or split that followed from it.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Theodore Beza, letter (Geneva, 1566), appended to An Admonition to the Parliament (1572), in W. H. Frere and C. E. Douglas (eds.), Puritan Manifestoes (1907)",
+     "file": "cic/texts/admonition-to-parliament_puritan-manifestoes_frere-douglas1907.txt",
+     "lines": "4181-4182",
+     "locus": "Beza's letter, appended to the Admonition (1566 letter, printed 1572)",
+     "quote": "Yours most assured in the Lord Theodore Beza minister of the word in the Church of Geneve.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "W. H. Frere and C. E. Douglas, introduction to Puritan Manifestoes (1907)",
+     "file": "cic/texts/admonition-to-parliament_puritan-manifestoes_frere-douglas1907.txt",
+     "lines": "1095-1100",
+     "quote": "The two letters which were added by way of appendix con- tribute but little to the value of the document",
+     "locus": "Introduction"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in": "the-reformed-cities-zurich-and-geneva relationsSummary ('Parent of the ... Puritan traditions'; after prose change 1), longDescription ('English Puritanism ... trace back here') and legacy ('English Puritanism', after prose change 2)",
+   "drafter_flags": [
+    "also named in puritanism ('Child of Geneva'); the merge should keep one draft.",
+    "That the letters were appended to the Admonition of 1572 rests on Frere and Douglas's introduction (lines 1095-1100, which name 'Gualter and Beza'); Beza's own signature is the primary line. Beza's letter itself is dated 'Geneue v. Cal. Jul. m.d. lxvi' (line 4179).",
+    "The Geneva Bible and the Marian exiles in Geneva are not used: no vendored text located them cleanly in the time I had (the Second Admonition's line 5383 mentions 'the Geneva translation and notes of the Bible')."
+   ],
+   "change_reason": "New.",
+   "fre": 66.1,
+   "fk": 6.3
+  },
+  {
+   "id": "the-reformed-cities-zurich-and-geneva--the-anabaptist-movements--2",
+   "action": "rewrite",
+   "from": "the-reformed-cities-zurich-and-geneva",
+   "to": "the-anabaptist-movements",
+   "type": "argued against",
+   "confidence": "Documented",
+   "note": "In January 1525 Zurich's council told Conrad Grebel and Felix Manz to stop arguing about baptism. Two years later it sentenced Manz to be drowned for baptizing adults again. That same year Zwingli wrote that the Baptists had split and betrayed the church.",
+   "outcome": "Zurich's council made a second baptism a crime punished by drowning. On 5 January 1527 it sentenced Felix Manz to die that way.",
+   "outcome_locus": "Egli, Actensammlung, Nr. 1109 (5 Jan. 1527), lines 33679-33706 (the verdict on Manz, which quotes the council's mandate that rebaptizers 'ertränket werden sollten') and 33748-33752 (the sentence of drowning).",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Zurich council records, 1525, in Egli, Actensammlung zur Geschichte der Zürcher Reformation (1879)",
+     "file": "cic/texts/zurich-council_actensammlung-zuercher-reformation-deu_egli1879.txt",
+     "lines": "17846-17847",
+     "locus": "Nr. 624 (21 Jan. 1525)",
+     "quote": "besonders Konrad Grebel und (Felix) Manz sollen von ihrem « disputieren und fürnemen » abstehen",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Zurich council records, 1527, in Egli, Actensammlung zur Geschichte der Zürcher Reformation (1879)",
+     "file": "cic/texts/zurich-council_actensammlung-zuercher-reformation-deu_egli1879.txt",
+     "lines": "33679-33680",
+     "locus": "Nr. 1109 (5 Jan. 1527), verdict on Felix Manz",
+     "quote": "1109. Jan. 5 (Samstag v. h. Dreikönigen). Matth ys Wyss, Reichs- vogt, BM. Röist, RR. und B. Urtheil. «Als dann Felix Manz",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Zurich council records, 1527, in Egli, Actensammlung zur Geschichte der Zürcher Reformation (1879)",
+     "file": "cic/texts/zurich-council_actensammlung-zuercher-reformation-deu_egli1879.txt",
+     "lines": "33703-33706",
+     "locus": "Nr. 1109, the council's mandate quoted in the verdict",
+     "quote": "welicher sich hinfür solichs widertoufs underzüchen, gepruchen und anhangen, ouch davon leren und nachfolgen wurde, dass der- oder dieselben personen, es syen frowen oder mannen, jung oder alt, an(e) alle gnad ertränket werden sollten",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Zurich council records, 1527, in Egli, Actensammlung zur Geschichte der Zürcher Reformation (1879)",
+     "file": "cic/texts/zurich-council_actensammlung-zuercher-reformation-deu_egli1879.txt",
+     "lines": "33751-33752",
+     "locus": "Nr. 1109, sentence",
+     "quote": "und in also gebunden in das wasser werfen und in dem wasser ster- ben und verderben lassen,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": "rzg.source.zwingli-selected-works",
+     "work": "Zwingli, Refutation of the Tricks of the Catabaptists (1527), in Selected Works",
+     "file": "cic/texts/zwingli_selected-works_jackson1901.txt",
+     "lines": "5626-5627",
+     "locus": "Refutation of the Tricks of the Catabaptists, closing section",
+     "quote": "So much about their division and betrayal of the church.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in": "the-anabaptist-movements relationsSummary ('Persecuted by ... Reformed ... traditions'), longDescription ('Reformed authorities ... executed them') and why ('Reformed ... authorities ... hunted them down'), the last two after prose changes 4 and 5",
+   "drafter_flags": [
+    "Rewrite of a published link: two sources and one sentence added, the earlier two sources kept unchanged. The new lines carry the movement's claim that Reformed authorities put Anabaptists to death.",
+    "The year of the Refutation (31 July 1527) is in the existing gave-rise-to link's locus; 'That year' in the note rests on it.",
+    "Egli's German summaries are the editor's; the quoted lines in guillemets are the council's own words. 'Matth ys' and the hyphens are the OCR."
+   ],
+   "change_reason": "Rewrite: adds the 1527 verdict and mandate against Manz, which carry the persecution the Anabaptist texts name, and the outcome they show.",
+   "fre": 65.7,
+   "fk": 7.6
+  },
+  {
+   "id": "the-tridentine-church--the-anabaptist-movements",
+   "action": "new",
+   "from": "the-tridentine-church",
+   "to": "the-anabaptist-movements",
+   "type": "argued against",
+   "confidence": "Documented",
+   "note": "In March 1547 the Council of Trent condemned anyone who said that those baptized as babies must be baptized again as adults. The canon does not name the Anabaptists. But a Mennonite martyr book says they were hunted \"first especially in popedom.\" It says about six hundred died at Ensisheim alone.",
+   "outcome": "In March 1547 the Council of Trent condemned all who taught that a child baptized at birth must be baptized again.",
+   "outcome_locus": "Waterworth, Canons and Decrees of Trent, lines 14055-14057 (Session VII, 3 March 1547) and 14242-14248 (canon XIII on baptism).",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Council of Trent, Session VII (3 March 1547), in The Canons and Decrees of the Council of Trent, trans. J. Waterworth (1848)",
+     "file": "cic/texts/council-of-trent_canons-and-decrees_waterworth1848.txt",
+     "lines": "14055-14057",
+     "locus": "Session VII, heading",
+     "quote": "SESSION THE SEVENTH, Celebrated on the third day of the month of March, MDXLVII.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Council of Trent, Session VII (3 March 1547), in The Canons and Decrees of the Council of Trent, trans. J. Waterworth (1848)",
+     "file": "cic/texts/council-of-trent_canons-and-decrees_waterworth1848.txt",
+     "lines": "14242-14246",
+     "locus": "Session VII, Canons on Baptism, canon XIII",
+     "quote": "If anyone saith that little children, for that they have not actual faith,* are not, after having received bap tism, to be reckoned amongst the faithful ; and that, for this cause, they are to be rebaptised when they have attained to years of discretion ;",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Thieleman J. van Braght, The Bloody Theater, or Martyrs Mirror (1660), trans. Joseph F. Sohm (1886)",
+     "file": "cic/texts/van-braght_martyrs-mirror_sohm1886.txt",
+     "lines": "60490-60491",
+     "locus": "Martyrs Mirror, note after the account of the early martyrs",
+     "quote": "were persecuted with great tyranny; first especially in popedom.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Thieleman J. van Braght, The Bloody Theater, or Martyrs Mirror (1660), trans. Joseph F. Sohm (1886)",
+     "file": "cic/texts/van-braght_martyrs-mirror_sohm1886.txt",
+     "lines": "60497-60499",
+     "locus": "Martyrs Mirror, same note",
+     "quote": "They were put to death in many places ; at Ensis- heim alone about six hundred were slain,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Thieleman J. van Braght, The Bloody Theater, or Martyrs Mirror (1660), trans. Joseph F. Sohm (1886)",
+     "file": "cic/texts/van-braght_martyrs-mirror_sohm1886.txt",
+     "lines": "58939-58942",
+     "locus": "Martyrs Mirror, Michael Sattler (1527), the sentence",
+     "quote": "In the case of the Governor of his Imperial Majesty versus Michael Sattler, judgment is passed, that Michael Sattler shall be delivered to the executioner,",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in": "the-anabaptist-movements relationsSummary ('Persecuted by ... Catholic traditions'), longDescription ('Catholic ... authorities ... executed them by the hundreds') and why ('Catholic authorities ... hunted them down'), all after prose changes 3-5",
+   "drafter_flags": [
+    "also likely named in the-tridentine-church's group; the merge should keep one draft.",
+    "Grading: Trent's canon does not name the Anabaptists, and the courts that killed them (Ensisheim, Sattler's Rottenburg trial) were Habsburg civil courts, not the Church itself. I graded Documented because the canon condemns their defining teaching word for word and the martyr book names them as the persecuted. A reviewer could reasonably take this to Widely Accepted; no repo-cited secondary for that reading has been read, so I did not.",
+    "The Ensisheim figure is the Martyrs Mirror's report of Sebastian Franck's chronicle (1660 compilation), not a court record. Sattler's sentence is the compilation's text of the 1527 account.",
+    "'bap tism' (line break without hyphen) and 'Ensis- heim' are kept as the file prints them."
+   ],
+   "change_reason": "New. Carries the Catholic side of the persecution the Anabaptist texts name.",
+   "fre": 60.5,
+   "fk": 7.9
+  },
+  {
+   "id": "the-anabaptist-movements--the-baptists",
+   "action": "new",
+   "from": "the-anabaptist-movements",
+   "to": "the-baptists",
+   "type": "influenced",
+   "confidence": "Contested",
+   "note": "Scholars disagree about how much the English Baptists owed the Anabaptists. John Smyth's church in exile baptized its own members anew in Amsterdam. Then Smyth asked to join the Mennonite church there. He called his own new baptism an error. Thomas Helwys and his party kept theirs.",
+   "outcome": "The question split Smyth's church in Amsterdam in about 1609. His party sought to join the Mennonites. Helwys's party kept apart and later founded the General Baptists.",
+   "outcome_locus": "McGlothlin, Baptist Confessions of Faith (1911), lines 2775-2790.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "John Smyth and others, application for union with the Waterlander church in Amsterdam (c. 1610), in The Works of John Smyth, vol. 2, ed. W. T. Whitley (1915)",
+     "file": "cic/texts/smyth_works-v2_whitley1915.txt",
+     "lines": "18431-18436",
+     "locus": "Application for union with the Waterlander church in Amsterdam",
+     "quote": "WATERLANDER CHURCH IN AMSTERDAM] Nomina Anglorum qui hunc errorem suum agnoscunt, ejusque penitentiam agunt, viz: quod inceperint seipsos baptisare, contra ordinem a Christo constitutum:",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "W. J. McGlothlin, Baptist Confessions of Faith (1911)",
+     "file": "cic/texts/mcglothlin_baptist-confessions-of-faith_1911.txt",
+     "lines": "406-407",
+     "quote": "who were in many respects the forerunners of the Baptists.",
+     "locus": "Introduction"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "W. J. McGlothlin, Baptist Confessions of Faith (1911)",
+     "file": "cic/texts/mcglothlin_baptist-confessions-of-faith_1911.txt",
+     "lines": "2745-2748",
+     "quote": "But there were im- portant differences about such questions as the oath, war, civil magistracy, and other things, and consequently these Englishmen began baptism anew.",
+     "locus": "Part II, The English Baptists"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "W. J. McGlothlin, Baptist Confessions of Faith (1911)",
+     "file": "cic/texts/mcglothlin_baptist-confessions-of-faith_1911.txt",
+     "lines": "2775-2779",
+     "quote": "He and some others, therefore, applied to the Mennonites for admission to their communion.^ Helwys, Morton, and other members of his church disagreed with their pastor on this point, and the church was disrupted about 1609.",
+     "locus": "Part II, The English Baptists"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in": "the-anabaptist-movements relationsSummary ('parent of the free-church line'; after prose change 3, 'they led the way for the free churches that came later, such as the Baptists')",
+   "drafter_flags": [
+    "cross-era: era 8 (the-baptists, 1609-1815); no era-8 pass is drafting in parallel as far as I know.",
+    "Contested: the two sides are (a) the Baptists as heirs of the Anabaptists (McGlothlin's 'forerunners'; Smyth's own application to the Mennonites) and (b) an independent English start ('began baptism anew'; Helwys's party keeping its own baptism). The Baptists' own text already says 'historians are divided'. Both sides here rest on one 1911 author plus Smyth; no modern secondary has been read.",
+    "The application's date is not printed in the quoted lines; McGlothlin dates the split 'about 1609'. The note gives no year for the application for that reason.",
+    "Outcome: a split into separate bodies, shown by McGlothlin (secondary, listed). Flagged for the reviewer."
+   ],
+   "change_reason": "New.",
+   "fre": 65.9,
+   "fk": 6.4
+  },
+  {
+   "id": "the-anabaptist-movements--radical-pietism-and-the-brethren-dunkers-ephrata",
+   "action": "new",
+   "from": "the-anabaptist-movements",
+   "to": "radical-pietism-and-the-brethren-dunkers-ephrata",
+   "type": "influenced",
+   "confidence": "Documented",
+   "note": "The Ephrata chronicle says its first members were \"mostly descended from the Mennonites.\" They kept the plain Mennonite way of life. In 1748 Ephrata printed the Mennonite book of martyrs in German. But the Brethren writer Martin Brumbaugh said his church was not a branch of the Mennonites.",
+   "outcome_considered": "Printing the Martyrs Mirror under contract is a text taken up, and shared plain ways are a practice taken up; neither is an institutional act.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Brother Lamech and Agrippa, Chronicon Ephratense (1786), trans. J. Max Hark (1889)",
+     "file": "cic/texts/lamech-agrippa_chronicon-ephratense_hark1889.txt",
+     "lines": "2863-2866",
+     "locus": "Chronicon Ephratense, early chapters",
+     "quote": "these same good people, who were mostly descended from the Mennonites, had, after the manner of that people, a certain simplicity and lowliness of life;",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Brother Lamech and Agrippa, Chronicon Ephratense (1786), trans. J. Max Hark (1889)",
+     "file": "cic/texts/lamech-agrippa_chronicon-ephratense_hark1889.txt",
+     "lines": "9608-9613",
+     "locus": "Chronicon Ephratense, the Book of Martyrs printed",
+     "quote": "the Mennonites in Pennsylvania agreed that their great Book of Martyrs, which was printed in the Dutch language, should be translated and printed in German. No one in the whole country was considered better able to do this than the Brotherhood in Ephrata,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Martin Grove Brumbaugh, A History of the German Baptist Brethren in Europe and America (1899)",
+     "file": "cic/texts/brumbaugh_history-german-baptist-brethren_1899.txt",
+     "lines": "16313-16315",
+     "quote": "Braght's Bbitigc Schau-Platz, the Mennonites' Martyr book, was published here in 1748/'^",
+     "locus": "ch. on the Ephrata Society"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Martin Grove Brumbaugh, A History of the German Baptist Brethren in Europe and America (1899)",
+     "file": "cic/texts/brumbaugh_history-german-baptist-brethren_1899.txt",
+     "lines": "1300-1306",
+     "quote": "authority as Dr. Benjamin Rush, who asserts that the Tunkers are a branch of the Mennonites.^')",
+     "locus": "ch. 'The Pietistic Pathfinders'"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in": "the-anabaptist-movements legacy ('Mennonites, Amish, Hutterites and Brethren all descend from it'; after prose change 6, 'the later Brethren drew on its beliefs')",
+   "drafter_flags": [
+    "cross-era: era 8 (radical-pietism-and-the-brethren-dunkers-ephrata, 1690s-1815). Its own summary reads 'Between Pietism and Anabaptism'.",
+    "The evidence is about Ephrata, the community that grew out of the Brethren, not the 1708 Schwarzenau founders. The Documented grade is for influence (descent from Mennonite families, the martyr book printed); the legacy's 'descend from' for the Brethren is what Brumbaugh rejects, so prose change 6 drops it.",
+    "Quotes keep Brumbaugh's OCR ('Bbitigc Schau-Platz' for Blutige Schau-Platz, the footnote marks)."
+   ],
+   "change_reason": "New. Replaces 'Brethren ... descend from it' with what the sources show.",
+   "fre": 61.7,
+   "fk": 7.6
+  },
+  {
+   "id": "the-english-reformation-and-elizabethan-settleme--family-of-love-and-spiritualists-franck-niclaes",
+   "action": "new",
+   "from": "the-english-reformation-and-elizabethan-settleme",
+   "to": "family-of-love-and-spiritualists-franck-niclaes",
+   "type": "argued against",
+   "confidence": "Documented",
+   "note": "In 1579 the English preacher John Knewstub printed an attack on the Family of Love. That same year, John Strype later wrote, the bishop of Norwich hunted Familists and put some in prison. A 1606 reply to the Familists notes royal orders issued against their founder.",
+   "outcome_considered": "The listed lines show a confutation, one bishop's imprisonments and a passing mention of proclamations. The text of the 1580 proclamation is not among them, and one bishop's acts do not meet the test.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "John Knewstub, A Confutation of monstrous and horrible Heresies, taught by H. N. and embraced of a number, who call themselves the Familie of Loue (London, 1579)",
+     "file": "cic/texts/knewstub-john_confutation-of-monstrous-heresies-familie-of-loue_dawson1579.txt",
+     "lines": "1066-1068",
+     "locus": "Knewstub, Confutation, opening",
+     "quote": "Ofthis sort are the ynlouely companie of them that call themselues the Familie of loue,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "A Supplication of the Family of Love ... examined and confuted (1606)",
+     "file": "cic/texts/family-of-love_supplication-examined-and-confuted_1606.txt",
+     "lines": "1373-1375",
+     "locus": "Supplication examined, 'The Examination' of one section",
+     "quote": ". Proclamations hauecomeourexprelly against H. N.and his scandalous inventions;",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "John Strype, Annals of the Reformation, vol. II, part II (1824 Oxford ed.)",
+     "file": "cic/texts/strype_annals-of-the-reformation-v2-pt2_1824.txt",
+     "lines": "14914-14918",
+     "quote": "The sect called the family of love appeared",
+     "locus": "Book II, ch. XVII, anno 1579"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Thomas Fuller, The Church History of Britain, vol. IV, ed. J. S. Brewer (1845), editor's footnote citing the proclamation of 1580 (Wilkins, Concilia IV.297)",
+     "file": null,
+     "lines": null,
+     "quote": null,
+     "locus": "cited in Build/worlds/_cross-world/dossiers/family-of-love-and-spiritualists-franck-niclaes_Source_Readiness_Dossier.md, line 63"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in": "family-of-love-and-spiritualists-franck-niclaes longDescription ('Familists were hunted by royal proclamation in England in 1580') and why ('England hunted them by royal proclamation in 1580')",
+   "drafter_flags": [
+    "The 1580 proclamation itself is not vendored. The Family of Love's sentence on it rests on Fuller's 1845 editor's footnote (repo-cited in the readiness dossier; named-not-rechecked, cannot raise the grade) and on the 1606 tract's mention of proclamations against H. N. (no year given). The sentence is kept; the proclamation is in wants.",
+    "The 1606 quote is badly garbled OCR, copied exactly ('hauecomeourexprelly' = haue come out expressly).",
+    "Knewstub's print is licensed 'according to the Queenes Maiesties Iniunctions' (file lines 41-42, garbled), which ties it to the established church; not quoted.",
+    "Possibly also named in the-english-reformation-and-elizabethan-settleme's own text (not checked)."
+   ],
+   "change_reason": "New.",
+   "fre": 65.0,
+   "fk": 7.8
+  },
+  {
+   "id": "lutheran-wittenberg-and-its-congregations--the-anabaptist-movements",
+   "action": "keep",
+   "named_in": "the-anabaptist-movements relationsSummary ('Persecuted by Lutheran ... traditions'), longDescription and why (all after prose changes 3-5)",
+   "change_reason": "Quotes re-checked verbatim (Augsburg Confession IX and XVI). The Confession condemns the Anabaptists by name, which is what the type needs. Kept unchanged.",
+   "outcome_considered": "The Augsburg Confession is a statement of faith presented at a diet; the listed lines show no council, law or ruler's act against the Anabaptists."
+  },
+  {
+   "id": "the-anabaptist-movements--lutheran-wittenberg-and-its-congregations",
+   "action": "keep",
+   "named_in": "the-anabaptist-movements relationsSummary (the 'loud tension in the sources'; the Hutterite chronicle's charge against Luther and Zwingli). Not named in the Lutheran texts.",
+   "change_reason": "Quote re-checked verbatim. The note already says it is one Anabaptist group's view. Kept unchanged.",
+   "outcome_considered": "A chronicle's judgment; no institutional act follows from it in the listed source."
+  },
+  {
+   "id": "lutheran-wittenberg-and-its-congregations--the-reformed-cities-zurich-and-geneva",
+   "action": "keep",
+   "named_in": "lutheran-wittenberg-and-its-congregations relationsSummary ('a sibling rival to the Reformed churches')",
+   "change_reason": "Both quotes re-checked verbatim; Marburg 1529 is a named meeting. Kept unchanged.",
+   "outcome_considered": "The listed sources show the colloquy took place, not any agreement, rule or split that came out of it."
+  },
+  {
+   "id": "lutheran-wittenberg-and-its-congregations--the-reformed-cities-zurich-and-geneva--2",
+   "action": "keep",
+   "named_in": "lutheran-wittenberg-and-its-congregations relationsSummary ('a sibling rival to the Reformed churches')",
+   "change_reason": "Quote re-checked verbatim (Formula of Concord, Epitome VII). Kept unchanged.",
+   "outcome_considered": "The Formula is a confession of faith; its line that the Zwinglians 'separated' is a claim about the past, not an institutional act shown in the listed source."
+  },
+  {
+   "id": "latin-pastoral-congregational-christianity--the-reformed-cities-zurich-and-geneva",
+   "action": "keep",
+   "named_in": "Not named in the four fields of the-reformed-cities-zurich-and-geneva; published link reviewed because it touches this movement.",
+   "change_reason": "Both Institutes quotes re-checked verbatim. Calvin names Augustine as his authority, which meets the 'influenced' test. Kept unchanged.",
+   "outcome_considered": "A teaching taken up by a later writer, which the outcome test excludes."
+  },
+  {
+   "id": "antiochene-exegetical-christianity-chrysostom-ce--the-reformed-cities-zurich-and-geneva",
+   "action": "keep",
+   "named_in": "Not named in the four fields of the-reformed-cities-zurich-and-geneva; published link reviewed because it touches this movement.",
+   "change_reason": "Both quotes re-checked verbatim. The note keeps Calvin's criticism of Chrysostom too, which is fair. Kept unchanged.",
+   "outcome_considered": "A writer quoted by a later writer; excluded by the test."
+  },
+  {
+   "id": "antiochene-exegetical-christianity-chrysostom-ce--lutheran-wittenberg-and-its-congregations",
+   "action": "keep",
+   "named_in": "Not named in the four fields of lutheran-wittenberg-and-its-congregations; published link reviewed because it touches this movement.",
+   "change_reason": "Both quotes re-checked verbatim (CA XXIV; Apology XII). Kept unchanged.",
+   "outcome_considered": "A writer quoted by later confessions; excluded by the test."
+  },
+  {
+   "id": "the-reformed-cities-zurich-and-geneva--latin-papal-church-gregorian",
+   "action": "keep",
+   "named_in": "Not named in the four fields of the-reformed-cities-zurich-and-geneva; published link reviewed because it touches this movement.",
+   "change_reason": "All three quotes re-checked verbatim (Institutes IV.11). Calvin writes against Gregory VII by name. Kept unchanged; its 'hoAvever' OCR is as printed.",
+   "outcome_considered": "A polemic against a long-dead pope; no institutional act follows in the listed source."
+  },
+  {
+   "id": "the-reformed-cities-zurich-and-geneva--the-anabaptist-movements",
+   "action": "keep",
+   "named_in": "the-anabaptist-movements longDescription ('In January 1525 a handful of men in Zurich ... baptized one another as adults') and why",
+   "change_reason": "All four primary quotes re-checked verbatim. The note already limits the claim to the Swiss branch. Kept unchanged. The inventory's 'broke with' reading of the same sentence is not drafted: the Zurich side records the Anabaptists going out from it, but no Anabaptist text recording the rupture from their side has been located in the corpus (Grebel's letters are not vendored; see wants)."
+  }
+ ],
+ "prose_changes": [
+  {
+   "n": 0,
+   "movement": "lutheran-wittenberg-and-its-congregations",
+   "field": "relationsSummary",
+   "old": "Grew out of late-medieval piety and its protest against Rome, becoming a rival to Rome and a sibling rival to the Reformed churches. The Augustinian Hermits, Luther's own religious order, were its seedbed: the order's houses in Lutheran lands were absorbed into the new movement, while its Catholic houses continued within the Catholic Church.",
+   "new": "It began in 1517, when one friar spoke out against the sale of indulgences. Luther also drew on an old German mystical book, the Theologia Deutsch. The movement became a rival to Rome, and a sibling rival to the Reformed churches. Many friars of Luther's own order were among his first followers.",
+   "reason": "'Grew out of late-medieval piety' was vague and the inventory tied it to an English parish movement; replaced by the documented Theologia Deutsch reception. The Augustinian houses' being 'absorbed' or 'continued' is not in any vendored text; qualified to what the 1931 editor's note in the Luther works shows. Whole field rewritten for reading level.",
+   "fre_after": 62.8,
+   "fk_after": 7.7
+  },
+  {
+   "n": 1,
+   "movement": "the-reformed-cities-zurich-and-geneva",
+   "field": "relationsSummary",
+   "old": "Parent of the Scottish, Huguenot, Dutch, and Puritan traditions",
+   "new": "Zurich and Geneva shaped the Scottish, Huguenot, Dutch and Puritan traditions.",
+   "reason": "'Parent of' claims descent; the four links are 'influenced'. One sentence of 11 words, under the scorer's word floor, so it returns no score.",
+   "fre_after": null,
+   "fk_after": null
+  },
+  {
+   "n": 2,
+   "movement": "the-reformed-cities-zurich-and-geneva",
+   "field": "legacy",
+   "old": "Reformed and Presbyterian churches worldwide descend from these two cities, and so do four traditions this map carries separately. The Scottish Kirk, the Huguenots, the Dutch Reformed and English Puritanism. Beyond doctrine the everyday inheritance is a style: plain whitewashed interiors with the pulpit at the center, congregational psalm-singing in the language people spoke, and church government by elected elders rather than by bishops.",
+   "new": "Reformed and Presbyterian churches around the world descend from these two cities. Four traditions shown on their own on this map took their pattern from them. They are the Scottish Kirk, the Huguenots, the Dutch Reformed and English Puritanism. Beyond belief, the everyday heritage is a style. The churches are plain and whitewashed, with the pulpit in the middle. Whole congregations sing the psalms in their own tongue. And elected elders lead the church, not bishops.",
+   "reason": "'So do four traditions' (descent) qualified to 'took their pattern from them', matching the links. The stray sentence fragment is joined. Whole field rewritten for reading level, keeping its images.",
+   "fre_after": 64.5,
+   "fk_after": 7.0
+  },
+  {
+   "n": 3,
+   "movement": "the-anabaptist-movements",
+   "field": "relationsSummary",
+   "old": "Persecuted by Lutheran, Reformed, and Catholic traditions alike - a loud tension in the sources; parent of the free-church line",
+   "new": "Lutheran, Reformed and Catholic churches all condemned them. Catholic lands hunted them hardest. They led the way for the free churches that came later, such as the Baptists.",
+   "reason": "'Persecuted by Lutheran ... alike' outruns the sources for the Lutheran side; 'a loud tension in the sources' was build commentary; 'parent' of the free churches is contested (the Baptists' own text says so).",
+   "fre_after": 64.4,
+   "fk_after": 6.6
+  },
+  {
+   "n": 4,
+   "movement": "the-anabaptist-movements",
+   "field": "longDescription",
+   "old": "In January 1525 a handful of men in Zurich, impatient with how slowly their own city's reform was moving, baptized one another as adults — and were hunted for it. Anabaptists held that baptism belonged to those who could confess faith for themselves, that the church was a voluntary body rather than a whole society, and, for most of them, that a Christian could neither swear oaths nor take up the sword. Catholic, Lutheran and Reformed authorities alike treated this as sedition and executed them by the hundreds. The survivors regrouped: Hutterite communities holding goods in common in Moravia, and in the Low Countries the congregations gathered by a former priest, Menno Simons, whose name their descendants still carry.",
+   "new": "In January 1525 a handful of men in Zurich baptized one another as adults. They were impatient with how slowly their own city's reform was moving, and they were hunted for it. Anabaptists held that baptism belonged to those who could confess faith for themselves. The church, they said, was a free body of believers, not a whole society. Most of them also held that a Christian could neither swear oaths nor take up the sword. Catholic, Lutheran and Reformed rulers alike saw them as a threat to order. By one early count more than two thousand were put to death, above all in Catholic lands. The survivors regrouped. In Moravia, Hutterite communities held their goods in common. In the Low Countries, a former priest named Menno Simons gathered congregations, and their descendants still carry his name.",
+   "reason": "'Executed them by the hundreds' laid on all three alike; no vendored text shows Lutheran executions. Now the Martyrs Mirror's count (citing Franck), tied to Catholic lands; Zurich's executions are carried by the rewritten link. Whole field rewritten for reading level.",
+   "fre_after": 63.0,
+   "fk_after": 7.8
+  },
+  {
+   "n": 5,
+   "movement": "the-anabaptist-movements",
+   "field": "why",
+   "old": "In January 1525, a small group in Zurich baptized one another as adults, and Lutheran, Reformed and Catholic authorities alike hunted them down for it. What survives from inside the movement is unusually direct: court testimony, prison hymns and a martyr book, the Martyrs Mirror, still read aloud in Amish and Mennonite homes today.",
+   "new": "In January 1525, a small group in Zurich baptized one another as adults. Lutheran, Reformed and Catholic leaders alike condemned them for it. What survives from inside the movement is rare and direct. Trial papers survive, and so do prison hymns and a book of martyrs. That book, the Martyrs Mirror, is still read aloud in Amish and Mennonite homes.",
+   "reason": "'Hunted them down' is not shown for the Lutheran side; now 'condemned them'. Whole field rewritten for reading level.",
+   "fre_after": 60.1,
+   "fk_after": 7.8
+  },
+  {
+   "n": 6,
+   "movement": "the-anabaptist-movements",
+   "field": "legacy",
+   "old": "The movement survives directly: Mennonites, Amish, Hutterites and Brethren all descend from it, and the wider free-church principle — that membership is a voluntary adult commitment and that the church should not be an arm of the state — became one of the most widely adopted Protestant ideas in the world. Its martyr book, the Martyrs Mirror of 1660, is still printed and still read aloud in Amish and Mennonite homes.",
+   "new": "The movement survives directly. Mennonites, Amish and Hutterites descend from it, and the later Brethren drew on its beliefs. Its free-church idea also spread far beyond it. Joining a church is a free choice made as an adult, and the church should not be an arm of the state. That became one of the most widely shared Protestant ideas in the world. Its martyr book, the Martyrs Mirror of 1660, is still printed and still read aloud in Amish and Mennonite homes.",
+   "reason": "'Brethren ... descend from it' is what the Brethren historian Brumbaugh rejects; now 'drew on its convictions', matching the link. Whole field rewritten for reading level.",
+   "fre_after": 70.2,
+   "fk_after": 6.9
+  },
+  {
+   "n": 7,
+   "movement": "family-of-love-and-spiritualists-franck-niclaes",
+   "field": "relationsSummary",
+   "old": "Quiet influence on later dissent",
+   "new": "Perhaps a quiet influence on later dissent, though their secrecy hides the trail.",
+   "reason": "No source traces the influence; stated as uncertain, with the reason the movement's own text gives.",
+   "fre_after": 63.5,
+   "fk_after": 7.6
+  },
+  {
+   "n": 8,
+   "movement": "family-of-love-and-spiritualists-franck-niclaes",
+   "field": "legacy",
+   "old": "Neither group survived as an institution. Franck's writings, though, were read and reprinted for centuries by people looking for a Christianity without an institution, and reached the later mystical and spiritualist strands of Protestantism. The Familists' habit of outward conformity makes their influence almost impossible to trace — which is exactly what they intended — but their books circulated among Dutch printers and English readers, and the arguments for toleration made in the following century drew on that Christian tradition.",
+   "new": "Neither group lasted as an institution. Franck's writings, though, were reprinted long after his death. They found readers who wanted a Christian faith without a church to house it. His Paradoxa came out again in 1559, and an English version of another of his books in 1640. They may have reached later mystics and spiritualists, but that path is hard to trace. The Familists' habit of outward conformity hides their influence almost completely. That is exactly what they wanted. Their books were printed abroad in English for English readers, and one was reprinted in London as late as 1652. Whether they fed the next century's case for toleration cannot be shown.",
+   "reason": "Three claims outran the sources: Franck's writings 'reached' later spiritualists, 'Dutch printers', and the toleration arguments 'drew on' the tradition. Each is now stated as far as the vendored prints go. Whole field rewritten for reading level.",
+   "fre_after": 64.6,
+   "fk_after": 7.2
+  }
+ ],
+ "wants": [
+  "The royal proclamation of 3 October 1580 against the Family of Love (text in Wilkins, Concilia IV.297, or Steele's Tudor and Stuart Proclamations calendar, 1910), to document the 'royal proclamation in 1580' sentence directly",
+  "Thomas Fuller, The Church History of Britain, vol. IV (Brewer ed., 1845), the Familist passage and its footnote on the 1580 proclamation (named in the readiness dossier, not vendored)",
+  "Luther's letter to Schwenckfeld of 1526 and his 1543 reply to Schwenckfeld's messenger, in a vendored Luther edition (Weimar Briefwechsel or an English selection), for Luther's own side of the break",
+  "Corpus Schwenckfeldianorum vols. II-III (Schwenckfeld's letters and tracts, 1524-1530), for his own account of the 1525 Wittenberg visit and the 1526 'standing still'",
+  "A clean Latin or German text of the Second Helvetic Confession, ch. XI (e.g. Müller, Bekenntnisschriften der reformierten Kirche, 1903), to replace the garbled Niemeyer OCR naming Schwenckfeld",
+  "Court records or opinions of Lutheran authorities punishing Anabaptists (e.g. the Saxon trials of 1530; Melanchthon's opinions on the death penalty), to test the Lutheran part of 'persecuted ... alike'",
+  "Conrad Grebel's letters (1524-1525), for the Anabaptists' own record of their break with Zwingli's Zurich",
+  "The Danish Church Ordinance of 1537/1539 drawn up with Bugenhagen, for the Danish-Norwegian side of the Scandinavian link",
+  "A source on the Augustinian Hermits' German (Saxon) congregation in the 1520s, for what happened to its houses in Lutheran lands",
+  "Evidence on the printers of Hendrik Niclaes's books (e.g. Plantin's correspondence or a bibliography of Familist imprints), to test 'Dutch printers'",
+  "The Geneva Bible (1560) prefatory matter or the Livre des Anglois of the English congregation at Geneva, for a direct Geneva-to-Puritan line"
+ ],
+ "escalations": []
+}

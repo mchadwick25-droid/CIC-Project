@@ -1,0 +1,12 @@
+Build/Ministry/Operations/Audits/2026-11-17_batch-3/justin-martyr/justin-martyr.brief.txt  +  justin-martyr.card.json
+Build/Ministry/Operations/Audits/2026-11-17_batch-3/vardan-mamikonian/vardan-mamikonian.brief.txt  +  vardan-mamikonian.card.json
+Build/Ministry/Operations/Audits/2026-11-17_batch-3/moses-the-black/moses-the-black.brief.txt  +  moses-the-black.card.json
+Build/Ministry/Operations/Audits/2026-11-17_batch-3/alopen/alopen.brief.txt  +  alopen.card.json
+Build/Ministry/Operations/Audits/2026-11-17_batch-3/council-of-chalcedon-451/council-of-chalcedon-451.brief.txt  +  council-of-chalcedon-451.card.json
+Build/Ministry/Operations/Audits/2026-11-17_batch-3/third-council-of-toledo-589/third-council-of-toledo-589.brief.txt  +  third-council-of-toledo-589.card.json
+Build/Ministry/Operations/Audits/2026-11-17_batch-3/john-wyclif/john-wyclif.brief.txt  +  john-wyclif.card.json
+Build/Ministry/Operations/Audits/2026-11-17_batch-3/thomas-a-kempis/thomas-a-kempis.brief.txt  +  thomas-a-kempis.card.json
+Build/Ministry/Operations/Audits/2026-11-17_batch-3/narsai/narsai.brief.txt  +  narsai.card.json
+Build/Ministry/Operations/Audits/2026-11-17_batch-3/pachomius/pachomius.brief.txt  +  pachomius.card.json
+Build/Ministry/Operations/Audits/2026-11-17_batch-3/arius/arius.brief.txt  +  arius.card.json
+Build/Ministry/Operations/Audits/2026-11-17_batch-3/baudonivia/baudonivia.brief.txt  +  baudonivia.card.json

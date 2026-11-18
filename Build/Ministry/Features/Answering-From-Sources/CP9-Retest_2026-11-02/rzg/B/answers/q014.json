@@ -1,0 +1,186 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "rzg.witness.what-we-have-not-agreed",
+    "rzg.gravity.council-led-authority-vs-consistorial-independence"
+   ],
+   "sentence": "Authority ran differently in our two cities, and we never agreed between them who holds the final word over church discipline."
+  },
+  {
+   "record_ids": [
+    "rzg.gravity.council-led-authority-vs-consistorial-independence"
+   ],
+   "sentence": "At Zurich the council governed church and city together, from our first days."
+  },
+  {
+   "record_ids": [
+    "rzg.term.antistes"
+   ],
+   "sentence": "Zurich's own title for its chief pastor was antistes, which Bullinger held after Zwingli, and the antistes answered to the city council."
+  },
+  {
+   "record_ids": [
+    "rzg.term.consistory"
+   ],
+   "sentence": "At Geneva, the Consistory was a body of pastors and lay elders that held the whole population's daily conduct to account."
+  },
+  {
+   "record_ids": [
+    "rzg.force.1541-ecclesiastical-ordinances-consistory-founding"
+   ],
+   "sentence": "Calvin's recall in 1541 produced the Ecclesiastical Ordinances, which created that Consistory with the power of censure."
+  },
+  {
+   "record_ids": [
+    "rzg.gravity.consistorial-church-discipline"
+   ],
+   "sentence": "Geneva's Consistory fought for its independence from the magistrate, and only by 1555 substantially won it."
+  },
+  {
+   "record_ids": [
+    "rzg.quote.seniors-selected-from-the-people"
+   ],
+   "sentence": "John Calvin wrote on this point: “By these governors I mean elders chosen from the people. They join with the pastors to declare censures and to carry out discipline.”"
+  }
+ ],
+ "citations": [
+  "rzg.force.1541-ecclesiastical-ordinances-consistory-founding",
+  "rzg.gravity.consistorial-church-discipline",
+  "rzg.gravity.council-led-authority-vs-consistorial-independence",
+  "rzg.quote.seniors-selected-from-the-people",
+  "rzg.term.antistes",
+  "rzg.term.consistory",
+  "rzg.witness.what-we-have-not-agreed"
+ ],
+ "group": "A",
+ "id": "q014",
+ "net_sentences": [
+  {
+   "draft": "Authority ran differently in our two cities, and we never agreed between them who holds the final word over church discipline [[rzg.witness.what-we-have-not-agreed]] [[rzg.gravity.council-led-authority-vs-consistorial-independence]] [[as:paraphrase]].",
+   "ratio": 0.83,
+   "sentence": "Authority ran differently in our two cities, and we never agreed between them who holds the final word over church discipline.",
+   "tags": [
+    "rzg.witness.what-we-have-not-agreed",
+    "rzg.gravity.council-led-authority-vs-consistorial-independence"
+   ],
+   "verdict": "ok",
+   "why": "grounded 83% in own tagged records"
+  },
+  {
+   "draft": "At Zurich the council governed church and city together, from our first days [[rzg.gravity.council-led-authority-vs-consistorial-independence]] [[as:paraphrase]].",
+   "ratio": 0.88,
+   "sentence": "At Zurich the council governed church and city together, from our first days.",
+   "tags": [
+    "rzg.gravity.council-led-authority-vs-consistorial-independence"
+   ],
+   "verdict": "ok",
+   "why": "grounded 88% in own tagged records"
+  },
+  {
+   "draft": "Zurich's own title for its chief pastor was antistes, which Bullinger held after Zwingli, and the antistes answered to the city council [[rzg.term.antistes]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "Zurich's own title for its chief pastor was antistes, which Bullinger held after Zwingli, and the antistes answered to the city council.",
+   "tags": [
+    "rzg.term.antistes"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "At Geneva, the Consistory was a body of pastors and lay elders that held the whole population's daily conduct to account [[rzg.term.consistory]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "At Geneva, the Consistory was a body of pastors and lay elders that held the whole population's daily conduct to account.",
+   "tags": [
+    "rzg.term.consistory"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "Calvin's recall in 1541 produced the Ecclesiastical Ordinances, which created that Consistory with the power of censure [[rzg.force.1541-ecclesiastical-ordinances-consistory-founding]] [[as:paraphrase]].",
+   "ratio": 0.7,
+   "sentence": "Calvin's recall in 1541 produced the Ecclesiastical Ordinances, which created that Consistory with the power of censure.",
+   "tags": [
+    "rzg.force.1541-ecclesiastical-ordinances-consistory-founding"
+   ],
+   "verdict": "ok",
+   "why": "grounded 70% in own tagged records"
+  },
+  {
+   "draft": "Geneva's Consistory fought for its independence from the magistrate, and only by 1555 substantially won it [[rzg.gravity.consistorial-church-discipline]] [[as:paraphrase]].",
+   "ratio": 0.86,
+   "sentence": "Geneva's Consistory fought for its independence from the magistrate, and only by 1555 substantially won it.",
+   "tags": [
+    "rzg.gravity.consistorial-church-discipline"
+   ],
+   "verdict": "ok",
+   "why": "grounded 86% in own tagged records"
+  },
+  {
+   "draft": "John Calvin wrote on this point: [[quote:rzg.quote.seniors-selected-from-the-people]]",
+   "placed_quote": "rzg.quote.seniors-selected-from-the-people",
+   "sentence": "John Calvin wrote on this point: “By these governors I mean elders chosen from the people. They join with the pastors to declare censures and to carry out discipline.”",
+   "tags": [
+    "rzg.quote.seniors-selected-from-the-people"
+   ],
+   "verdict": "ok",
+   "why": "quote placed by code, verbatim to its record"
+  },
+  {
+   "draft": "[[as:paraphrase]].",
+   "sentence": ".",
+   "tags": [],
+   "verdict": "ok",
+   "why": "no checkable claim - interpretive/connective framing"
+  },
+  {
+   "draft": "What the Consistory did week by week, case by case, our sources cannot yet show [[rzg.gravity.consistorial-church-discipline]] [[as:paraphrase]].",
+   "ratio": 0.33,
+   "sentence": "What the Consistory did week by week, case by case, our sources cannot yet show.",
+   "tags": [
+    "rzg.gravity.consistorial-church-discipline"
+   ],
+   "verdict": "withhold",
+   "why": "specific claim (proper-noun:['consistory']) only 33% grounded in its own tags"
+  }
+ ],
+ "offered": [
+  "rzg.witness.what-we-have-not-agreed",
+  "rzg.term.consistory",
+  "rzg.term.antistes",
+  "rzg.quote.seniors-selected-from-the-people",
+  "rzg.gravity.council-led-authority-vs-consistorial-independence",
+  "rzg.force.1541-ecclesiastical-ordinances-consistory-founding",
+  "rzg.force.anabaptist-schism",
+  "rzg.limit.dentiere-and-womens-voice",
+  "rzg.witness.one-conviction-two-enactments",
+  "rzg.term.sola-scriptura",
+  "rzg.gravity.consistorial-church-discipline",
+  "rzg.gravity.scripture-sole-authority-disputation-catechesis"
+ ],
+ "raw_text": "Authority ran differently in our two cities, and we never agreed between them who holds the final word over church discipline [[rzg.witness.what-we-have-not-agreed]] [[rzg.gravity.council-led-authority-vs-consistorial-independence]] [[as:paraphrase]]. At Zurich the council governed church and city together, from our first days [[rzg.gravity.council-led-authority-vs-consistorial-independence]] [[as:paraphrase]]. Zurich's own title for its chief pastor was antistes, which Bullinger held after Zwingli, and the antistes answered to the city council [[rzg.term.antistes]] [[as:paraphrase]]. At Geneva, the Consistory was a body of pastors and lay elders that held the whole population's daily conduct to account [[rzg.term.consistory]] [[as:paraphrase]]. Calvin's recall in 1541 produced the Ecclesiastical Ordinances, which created that Consistory with the power of censure [[rzg.force.1541-ecclesiastical-ordinances-consistory-founding]] [[as:paraphrase]]. Geneva's Consistory fought for its independence from the magistrate, and only by 1555 substantially won it [[rzg.gravity.consistorial-church-discipline]] [[as:paraphrase]]. John Calvin wrote on this point: [[quote:rzg.quote.seniors-selected-from-the-people]] [[as:paraphrase]]. What the Consistory did week by week, case by case, our sources cannot yet show [[rzg.gravity.consistorial-church-discipline]] [[as:paraphrase]].\n",
+ "reply_shape": {
+  "leadin_support": {
+   "rzg.quote.seniors-selected-from-the-people": [
+    {
+     "detail": "wrote",
+     "kind": "genre",
+     "snippet": "n Calvin John Calvin, Institutes of the Christian Religion, Book IV (Of the External Means or Helps by Which God Invites Us",
+     "span": "record rzg.source.calvin-institutes-book4"
+    }
+   ]
+  },
+  "placed": [
+   "rzg.quote.seniors-selected-from-the-people"
+  ],
+  "removed": [],
+  "repaired": []
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": "C6.S1",
+ "text": "Authority ran differently in our two cities, and we never agreed between them who holds the final word over church discipline. At Zurich the council governed church and city together, from our first days. Zurich's own title for its chief pastor was antistes, which Bullinger held after Zwingli, and the antistes answered to the city council. At Geneva, the Consistory was a body of pastors and lay elders that held the whole population's daily conduct to account. Calvin's recall in 1541 produced the Ecclesiastical Ordinances, which created that Consistory with the power of censure. Geneva's Consistory fought for its independence from the magistrate, and only by 1555 substantially won it. John Calvin wrote on this point: “By these governors I mean elders chosen from the people. They join with the pastors to declare censures and to carry out discipline.”. What the Consistory did week by week, case by case, our sources cannot yet show.",
+ "voice_set_aside": false
+}

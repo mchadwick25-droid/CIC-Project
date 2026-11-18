@@ -1,0 +1,11 @@
+source_file: tillich_religioese-lage-der-gegenwart-deu_1926.txt
+assignments:
+- row_id: tillich_religioese-lage-der-gegenwart-deu_1926--tillich-die-religioese-lage-der-gegenwart-1926
+  work: 'Tillich, Die religioese Lage der Gegenwart (1926)'
+  author: tillich
+  locus: 'whole'
+  atlas_ids:
+  - the-mainline-century-liberal-and-neo-orthodox
+  role: tradition
+  confidence: assigned
+  note: 'His own book in German. Poor OCR: a second witness until checked against the page images.'

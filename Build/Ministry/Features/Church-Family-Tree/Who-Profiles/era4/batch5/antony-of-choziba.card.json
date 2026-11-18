@@ -1,0 +1,63 @@
+{
+  "name": "Antony of Choziba",
+  "knownFor": "Monk of Choziba and disciple of George of Choziba, whose Life he wrote in Greek. It tells of the Persian attack on the holy city and of monastic life at Choziba. The Bollandist heading also gives him the Miracles of the Mother of God at Choziba.",
+  "dates": "Seventh century. He lived through the Persian invasion and wrote after George's death. No source used here gives a year for his birth, his arrival at Choziba or his death",
+  "place": "His father's house, which he does not name; the monastery of Choziba; the guesthouse at Jericho, where he was cellarer after the invasion; the holy city, where George then lived",
+  "tradition": "Chalcedonian Monasticism - Judean Desert & Gaza",
+  "role": "Monk and cellarer; recorder of his teacher George and of the monastery of Choziba",
+  "briefLength": "about 2 minutes",
+  "keyWorks": [
+    {
+      "title": "Life of George of Choziba",
+      "about": "the life of his teacher, told in large part from what he saw and from what George told him. In Greek, edited by the Bollandists in 1888, with a Latin translation"
+    },
+    {
+      "title": "Miracles of the Mother of God at Choziba",
+      "about": "stories of the monastery's church, which the Bollandist heading gives to Antony as author. Printed after the Life in the same volume"
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "His Life is the one full held account of George of Choziba; Nikodemos the Hagiorite's Synaxaristes gives George a short notice. It is also one of the held accounts of the Persian invasion as the desert monks lived it."
+    ],
+    "remembered": [
+      "The Bollandist editors find that the Life plainly bears the marks of sincerity, and note the Graeco-barbarous words in Antony's writing.",
+      "Antony himself closes the Life by asking the fathers to pray for him, a sinner and the least of them."
+    ]
+  },
+  "uncertain": [
+    "Everything the held sources say of him comes from the Life and from the Miracles printed under his name. No other held source names him.",
+    "His name appears in the Life where George speaks to him, and in the Bollandist headings.",
+    "The Miracles of the Mother of God at Choziba are his by the Bollandist heading.",
+    "When he came to Choziba. He set out while Saracens were raiding the roads, and after the Persian invasion he was cellarer at Jericho. The held text does not fix whether he arrived before or after the invasion.",
+    "Whether he saw the Persians in the ravine himself. He tells that part of George.",
+    "The Greek of the held copy is badly damaged. Some passages are clear only in the Latin translation printed with it."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "Life of George of Choziba and Miracles of the Mother of God at Choziba, in Analecta Bollandiana 7",
+        "author": "Antony of Choziba; the Bollandists (ed.)",
+        "date": "1888",
+        "language": "Greek, with Latin translation",
+        "file": "cic/texts/antony-of-choziba_vita-georgii-chozibitae-analecta-bollandiana-7-grc_1888.txt"
+      }
+    ],
+    "about": [
+      {
+        "title": "Preface to the Life of George of Choziba, in Analecta Bollandiana 7",
+        "author": "Société des Bollandistes",
+        "date": "1888",
+        "language": "Latin",
+        "file": "cic/texts/antony-of-choziba_vita-georgii-chozibitae-analecta-bollandiana-7-grc_1888.txt"
+      },
+      {
+        "title": "Synaxaristes, volume 1 (September to February)",
+        "author": "Nikodemos the Hagiorite",
+        "date": "1900",
+        "language": "Greek",
+        "file": "cic/texts/nikodemos-hagiorite_synaxaristes-vol1-sep-feb-grc_1900.txt"
+      }
+    ]
+  }
+}

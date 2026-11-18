@@ -48,7 +48,7 @@ tensions:
 use_note:
   means: "This witness holds that hard questioning of teachers, like Marcella's, was honored, and that grief shaking faith was met with consolation, while grief without limit was rebuked as unbelief."
   not_for:
-    - "a claim that this world wrote any defence of unbelieving doubt"
+    - "a claim that this world wrote any defense of unbelieving doubt"
     - "a claim about the doubts of ordinary people, which left no trace"
   years: {from: 382, to: 412}
   status: reviewed

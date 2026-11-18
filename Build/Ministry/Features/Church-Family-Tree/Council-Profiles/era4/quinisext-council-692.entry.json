@@ -1,0 +1,309 @@
+{
+  "id": "quinisext-council-692",
+  "kind": "major-council",
+  "kindLabel": "Major council",
+  "era": 4,
+  "name": "Quinisext Council",
+  "shortName": "Trullo 691-692",
+  "informalName": "The Council in Trullo",
+  "dates": "691-692",
+  "start": 691,
+  "end": 692,
+  "region": "Constantinople, in the domed hall of the imperial palace called the Trullus",
+  "placeLabel": "Constantinople",
+  "modernCountries": [
+    {
+      "country": "Turkey",
+      "countryId": "Q43",
+      "place": "Constantinople",
+      "placeId": "Q16869",
+      "pleiadesId": "520998"
+    }
+  ],
+  "rivers": [
+    "Greek East",
+    "Latin West",
+    "Caucasus"
+  ],
+  "teaser": "Constantinople, 691-692. Bishops called by the emperor Justinian II issued 102 canons, some against Roman and Armenian customs; Pope Sergius I refused to sign them.",
+  "knownFor": "The council in the palace dome that wrote canons for the fifth and sixth councils, which the Greek church received as canon law, and Rome refused.",
+  "datesNote": "691-692. Canon 3 dates its cut-off to 15 January of the past fourth indiction; Charles Joseph Hefele, as Henry Percival quotes him, reads this as January 691 and puts the council between 1 September 691 and 1 September 692. Claude Fleury and Louis Duchesne give 692, and the Pedalion, the Greek canon-law collection, 691. Theophanes puts the issue of the canons in the second year of Justinian's restored reign, in the 700s; his editor Jacques Goar holds that he errs. No source we draw on gives a month",
+  "issue": [
+    "The bishops told the emperor that the fifth and sixth councils, under Justinian I and Constantine IV, had set out the faith but made no canons, and that they had met at his command to write them (the bishops' address, Mansi tomus 11; Fleury, in Percival).",
+    "Canon 3 says the emperor asked the council to provide for the purity of the clergy, and contrasts the strict rule of the Roman church on clerical marriage with the milder rule of Constantinople.",
+    "Several canons name the customs of other churches: the Roman rule that deacons and priests promise to stop living with their wives (canon 13) and the Roman fast on the Saturdays of Lent (canon 55); in Armenia, wine offered without water (canon 32), clergy chosen by priestly descent (canon 33), eggs and cheese in Lent (canon 56) and meat cooked in the sanctuary (canon 99).",
+    "Against the canons stood Rome. The Book of the Popes says some chapters had been added that were outside church custom. The Armenian practice of wine without water is told in its own words only for a later Armenian synod, by Stephen of Taron. No Armenian answer from the time survives in our sources; the first is Giovanni de Serpos's of 1783, who calls the council a false synod and says its canons rebuke the Armenians without cursing them."
+  ],
+  "calledBy": "The emperor Justinian II. The bishops' address says they met at his command, canon 3 that he had addressed the council, and the Book of the Popes that he ordered a council held in the imperial city. His signature heads the list",
+  "attended": [
+    "The signatures are printed in Mansi. The emperor signs first; a place is left blank for the pope of Rome; then Paul of Constantinople, Peter of Alexandria, Anastasius of Jerusalem and George of Antioch. The Book of the Popes names only three patriarchs, of Constantinople, Alexandria and Antioch.",
+    "Henry Percival, after Hefele, counts the signers as 211, \"bishops or representatives of bishops\". Claude Fleury, a French church historian quoted by Percival, gives 211 bishops. The Pedalion gives 227 after the Greek canonists Balsamon and Zonaras, of the 1100s, and 240 after a Greek list of synods, the Synodicon, which Mansi prints. The editors' preface in Mansi, describing the list, names eight leading signers and then the signatures of 205 bishops.",
+    "Blank places were left for the bishops of Thessalonica, Sardinia, Ravenna and Corinth, Percival says; the editors' preface in Mansi names Heraclea in the first place. Basil of Gortyna in Crete signed as holding the place of the church of Rome in every synod; Percival says there is no information whether Rome had sent him.",
+    "Whether Rome was represented is disputed: the Book of the Popes says the pope's envoys came and, deceived, signed; Louis Duchesne, its editor, holds that they did and were disowned; Percival says the West was not really represented at all."
+  ],
+  "decided": [
+    "Canon 1 confirms the faith of the six councils and says the council's decrees add nothing to them and take nothing away.",
+    "Canon 2 receives the eighty-five Apostolic Canons and a list of earlier councils and fathers, and rejects the Apostolic Constitutions.",
+    "Canon 13 keeps the marriages of deacons and priests \"valid and firm\", as the Ancient Epitome puts it, against the Roman rule, and deposes anyone who would part a cleric from his lawful wife.",
+    "Canon 32 deposes any bishop or priest who will not offer the sacrifice \"with wine mixed with water\", naming Armenia.",
+    "Canon 36 gives Constantinople \"equal privileges with the see of Old Rome\", second after it, then Alexandria, Antioch and Jerusalem.",
+    "Canon 55 applies to Rome the old canon against fasting on Saturdays, with deposition for clerics; canon 56 forbids eggs and cheese in Lent, naming Armenia; canon 82 orders Christ painted in human form in place of the lamb.",
+    "The bishops asked the emperor to seal the canons with his signature, and he signed first (the address; the signatures)."
+  ],
+  "outcome": [
+    "The canons were sent to Rome in six volumes for Pope Sergius I to sign. The Book of the Popes says he would not receive them or let them be opened and read, and rejected them as invalid, choosing to die rather than consent to errors of novelty.",
+    "Justinian II had John, bishop of Porto, and Boniface, a counselor of the apostolic see, taken to Constantinople, then sent his officer Zacharias to bring the pope himself. The soldiers of Ravenna and the Pentapolis would not allow it; Zacharias hid under the pope's bed and was driven from Rome (the Book of the Popes; Paul the Deacon, History of the Lombards VI.11).",
+    "Later popes, as the Book of the Popes tells it: the emperor sent John VII the volumes again, and he returned them uncorrected, \"humana fragilitate timidus\", fearful in human weakness; Constantine went to the emperor and was received with honor, though his life does not name the canons. Percival says a middle course seems to have been taken under Constantine; Duchesne calls the John VII episode otherwise unknown.",
+    "At the Second Council of Nicaea in 787, Tarasius of Constantinople said the canons were set forth under Justinian by the same fathers as the Sixth Council, \"And let no one doubt concerning them\"; that council's first canon confirms the canons of the six councils. Percival says the fathers were not the same.",
+    "In 1054 Niketas Stethatos cited canon 13 as a canon of the sixth synod against the Latins; the reply printed under Humbert's name answered that the apostolic see had never accepted those chapters and did not keep them.",
+    "No Armenian answer from the time survives in our sources; Giovanni de Serpos, an Armenian Catholic, answered it in 1783. Stephen of Taron tells of a synod at Manazkert, which Malachia Ormanian dates to 726, that required the sacrament without leaven and without water."
+  ],
+  "record": [
+    {
+      "witness": "The acts: the bishops' address to Justinian II, the 102 canons and the signatures (Mansi, tomus 11, Greek and Latin)",
+      "kind": "acts",
+      "note": "The council's own record; no minutes of debate. The canons and signatures survive in Greek, printed with a Latin translation. Mansi's editors' preface and Severinus Binius's notes, which call it a false council, come from the Roman side."
+    },
+    {
+      "witness": "The 102 canons in English, with Henry Percival's introduction and notes (Nicene and Post-Nicene Fathers, series 2, vol. 14)",
+      "kind": "acts",
+      "note": "Translated from Labbe and Cossart, with the Ancient Epitome and the notes of Balsamon, Zonaras, Van Espen and Fleury."
+    },
+    {
+      "witness": "Justinian II's signature",
+      "kind": "participant",
+      "note": "The emperor who called the council; partisan for it."
+    },
+    {
+      "witness": "The Book of the Popes, lives of Sergius I, John VII and Constantine (Duchesne's Latin)",
+      "kind": "later narrative",
+      "note": "Papal biographies, from Rome's side, hostile to the council."
+    },
+    {
+      "witness": "Paul the Deacon, History of the Lombards VI.11 (Foulke's English)",
+      "kind": "later narrative",
+      "note": "Latin side, eighth century; on Zacharias and the soldiers of Ravenna."
+    },
+    {
+      "witness": "Theophanes the Confessor, Chronographia (Migne's Latin)",
+      "kind": "later narrative",
+      "note": "Greek, early ninth century; puts the issue of the canons in Justinian's second reign."
+    },
+    {
+      "witness": "Tarasius of Constantinople at the Second Council of Nicaea (787), Session IV",
+      "kind": "later narrative",
+      "note": "Greek reception; claims the canons for the Sixth Council's fathers."
+    },
+    {
+      "witness": "Niketas Stethatos and the reply printed under Humbert's name (Cornelius Will's edition, 1054)",
+      "kind": "later narrative",
+      "note": "Both sides of 1054 on canon 13."
+    },
+    {
+      "witness": "Stephen of Taron, Universal History (Gelzer and Burckhardt's German)",
+      "kind": "later narrative",
+      "note": "Armenian, writing around the year 1000; the synod of Manazkert's rule of wine without water. He does not name the Trullan council."
+    },
+    {
+      "witness": "Giovanni de Serpos, Dissertazione (1783)",
+      "kind": "later narrative",
+      "note": "An Armenian Catholic in Venice; calls the council a false synod gathered without the pope, and argues that its canons rebuke the Armenians without anathematizing the nation."
+    },
+    {
+      "witness": "The Pedalion (Agapios and Nikodemos)",
+      "kind": "modern reconstruction",
+      "note": "The Orthodox canon-law collection; holds the council ecumenical and gives the counts of Balsamon, Zonaras and the Synodicon."
+    },
+    {
+      "witness": "Charles Joseph Hefele, as quoted by Henry Percival",
+      "kind": "modern reconstruction",
+      "note": "The dating from the indiction, and the count of 211; Hefele's own volume for this council is not among our sources."
+    },
+    {
+      "witness": "Louis Duchesne, commentary on the Book of the Popes",
+      "kind": "modern reconstruction",
+      "note": "Gives 692, and holds that Rome's envoys signed and were later disowned."
+    },
+    {
+      "witness": "Malachia Ormanian, The Church of Armenia (1912)",
+      "kind": "modern reconstruction",
+      "note": "A former Armenian patriarch of Constantinople; dates the synod of Manazkert to 726."
+    }
+  ],
+  "traditions": [
+    {
+      "id": "byzantine-imperial-church-heraclian-iconoclast",
+      "name": "The Byzantine Imperial Church (Heraclian & Iconoclast Eras)",
+      "part": "Gathered",
+      "note": "Justinian II called the council and signed first, followed by Paul of Constantinople and the bishops of Alexandria, Jerusalem and Antioch; canon 36 set Constantinople second after Old Rome."
+    },
+    {
+      "id": "armenian-christianity-before-the-bagratids",
+      "name": "Armenian Christianity before the Bagratids",
+      "part": "Condemned",
+      "note": "Canon 32 deposes priests who, \"in the region of Armenia\", offer wine without water. Canons 33, 56 and 99 name other Armenian customs; none names an Armenian teacher. Stephen of Taron tells of the later synod of Manazkert keeping the sacrament without water."
+    }
+  ],
+  "people": [
+    {
+      "name": "Justinian II",
+      "verdict": "NOT SCORED",
+      "part": "Emperor; called the council and signed first; tried to force Pope Sergius I to sign"
+    },
+    {
+      "name": "Sergius I of Rome",
+      "verdict": "NOT SCORED",
+      "part": "Not present; refused to receive or sign the canons"
+    },
+    {
+      "name": "Paul of Constantinople (bishop in 692)",
+      "verdict": "NOT SCORED",
+      "part": "Bishop of Constantinople; signed first after the emperor's blank place for the pope"
+    },
+    {
+      "name": "Peter of Alexandria (bishop in 692)",
+      "verdict": "NOT SCORED",
+      "part": "Signed after Paul"
+    },
+    {
+      "name": "Anastasius of Jerusalem",
+      "verdict": "NOT SCORED",
+      "part": "Signed; not named among the patriarchs by the Book of the Popes"
+    },
+    {
+      "name": "George of Antioch",
+      "verdict": "NOT SCORED",
+      "part": "Signed"
+    },
+    {
+      "name": "Basil of Gortyna",
+      "verdict": "NOT SCORED",
+      "part": "Bishop in Crete; signed as holding the place of the church of Rome"
+    },
+    {
+      "name": "Zacharias the protospatharius",
+      "verdict": "NOT SCORED",
+      "part": "The emperor's officer sent to bring Sergius to Constantinople; driven from Rome"
+    },
+    {
+      "name": "John of Porto",
+      "verdict": "NOT SCORED",
+      "part": "Bishop; carried off to Constantinople by the emperor's order, in contempt of the pope"
+    },
+    {
+      "name": "Boniface, counselor of the apostolic see",
+      "verdict": "NOT SCORED",
+      "part": "Carried off to Constantinople with John of Porto by the emperor's order"
+    },
+    {
+      "name": "John VII of Rome",
+      "verdict": "NOT SCORED",
+      "part": "Pope; the emperor sent him the volumes again, and he returned them uncorrected"
+    },
+    {
+      "name": "Constantine of Rome",
+      "verdict": "NOT SCORED",
+      "part": "Pope; went to the emperor; his life does not name the canons"
+    },
+    {
+      "name": "Tarasius of Constantinople",
+      "verdict": "LISTED",
+      "part": "Not present; at Nicaea in 787 defended the canons as the Sixth Council's"
+    },
+    {
+      "name": "Niketas Stethatos",
+      "id": "niketas-stethatos",
+      "verdict": "WHO",
+      "part": "Not present; in 1054 cited canon 13 against the Latins"
+    },
+    {
+      "name": "Humbert of Silva Candida",
+      "id": "humbert-of-silva-candida",
+      "verdict": "WHO",
+      "part": "Not present; the 1054 reply printed under his name says Rome never accepted the canons"
+    }
+  ],
+  "briefLength": "about 2 minutes 30 seconds",
+  "uncertain": [
+    "The record is the council's own address, canons and signatures; there are no minutes, so no one's argument in the hall is known.",
+    "The year: Hefele, as Percival quotes him, puts the council between September 691 and September 692; Fleury and Duchesne give 692, the Pedalion 691; Theophanes puts the canons years later, in Justinian's second reign, which Goar, his editor, takes to be an error.",
+    "The count: Percival and Fleury give 211; Balsamon and Zonaras 227, by the Pedalion's report; the Synodicon 240.",
+    "Whether Rome was represented: the Book of the Popes says the pope's envoys signed, deceived, and Duchesne believes it; Percival says the West was not really represented; Basil of Gortyna signed as holding Rome's place, and Percival says nothing shows whether Rome had sent him.",
+    "How many patriarchs signed: the signatures give four; the Book of the Popes names three.",
+    "Whether later popes accepted the canons: John VII sent them back uncorrected; under Constantine, Percival says, a middle course seems to have been taken. The lives do not say what was agreed.",
+    "Whether the bishops were the Sixth Council's: Tarasius said so in 787; Percival says they were not.",
+    "The Armenian side: no Armenian answer from the time survives in our sources, and the first, Serpos's of 1783, is late; the Armenian practice is told in its own words only for the later synod of Manazkert."
+  ],
+  "sources": {
+    "fromTheCouncil": [
+      {
+        "title": "Concilium Trullanum: the address to the emperor, the canons and the subscriptions",
+        "author": "Quinisext Council, in Giovanni Domenico Mansi, Sacrorum conciliorum collectio, tomus 11",
+        "language": "Greek and Latin",
+        "file": "cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-11-lat_welter-facsimile1901.txt"
+      },
+      {
+        "title": "The Canons of the Council in Trullo, with the Introductory Note",
+        "author": "Quinisext Council, ed. Henry R. Percival",
+        "language": "English translation",
+        "file": "cic/texts/npnf214_seven-ecumenical-councils.xml"
+      }
+    ],
+    "writtenLater": [
+      {
+        "title": "Le Liber Pontificalis, tome 1: lives of Sergius I, John VII and Constantine",
+        "author": "ed. Louis Duchesne",
+        "language": "Latin and French",
+        "file": "cic/texts/liber-pontificalis_texte-introduction-commentaire-t1-lat-fra_duchesne1886.txt"
+      },
+      {
+        "title": "History of the Langobards, Book VI",
+        "author": "Paul the Deacon, trans. William Dudley Foulke",
+        "language": "English translation",
+        "file": "cic/texts/paul-the-deacon_history-of-the-langobards_foulke1907.txt"
+      },
+      {
+        "title": "Chronographia",
+        "author": "Theophanes the Confessor",
+        "language": "Greek and Latin",
+        "file": "cic/texts/theophanes-confessor_chronographia-pg108-grc-lat_migne1863.txt"
+      },
+      {
+        "title": "The Seventh Ecumenical Council, Session IV and canon 1",
+        "author": "Second Council of Nicaea, ed. Henry R. Percival",
+        "language": "English translation",
+        "file": "cic/texts/npnf214_seven-ecumenical-councils.xml"
+      },
+      {
+        "title": "Acta et scripta de controversiis ecclesiae Graecae et Latinae saeculo XI",
+        "author": "ed. Cornelius Will",
+        "language": "Latin and Greek",
+        "file": "cic/texts/will_acta-et-scripta-de-controversiis-ecclesiae-graecae-et-latinae-saec-xi-grc-lat_1861.txt"
+      },
+      {
+        "title": "Armenische Geschichte",
+        "author": "Stephen of Taron, trans. Heinrich Gelzer and August Burckhardt",
+        "language": "German translation",
+        "file": "cic/texts/stepanos-taron_armenische-geschichte-deu_gelzer-burckhardt1907.txt"
+      },
+      {
+        "title": "Pedalion",
+        "author": "Agapios and Nikodemos the Hagiorite",
+        "language": "Greek",
+        "file": "cic/texts/nikodemos-hagiorite_pedalion-canons-grc_1886.txt"
+      },
+      {
+        "title": "The Church of Armenia",
+        "author": "Malachia Ormanian",
+        "language": "English translation",
+        "file": "cic/texts/ormanian_church-of-armenia_gregory1912.txt"
+      },
+      {
+        "title": "Dissertazione sopra due dubbj",
+        "author": "Giovanni de Serpos",
+        "language": "Italian",
+        "file": "cic/texts/serpos_dissertazione-due-dubbi-armeni-cattolici-ita_1783.txt"
+      }
+    ]
+  }
+}

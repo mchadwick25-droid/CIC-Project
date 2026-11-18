@@ -1,0 +1,177 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "rzg.witness.what-a-stranger-would-notice"
+   ],
+   "sentence": "No source in our record describes our worship rooms directly, so we cannot rate that outside record for you."
+  },
+  {
+   "record_ids": [
+    "rzg.witness.what-a-stranger-would-notice"
+   ],
+   "sentence": "What we hold is reasoned from our doctrine, and not read off a witness who stood there."
+  },
+  {
+   "record_ids": [
+    "rzg.witness.what-a-stranger-would-notice"
+   ],
+   "sentence": "From what we held about the Mass, we reason that a stranger would have found no image to bow to and no altar built for a sacrifice."
+  },
+  {
+   "record_ids": [
+    "rzg.ambient.emptied-worship-space"
+   ],
+   "sentence": "A plain table stood in its place."
+  },
+  {
+   "record_ids": [
+    "rzg.ambient.emptied-worship-space"
+   ],
+   "sentence": "By most accounts the organ at the Zurich Grossmunster fell silent in the mid-1520s."
+  },
+  {
+   "record_ids": [
+    "rzg.quote.mass-not-a-sacrifice"
+   ],
+   "sentence": "Huldrych Zwingli held in 1523: “Christ sacrificed himself once. He is forever a sure and valid sacrifice for the sins of all the faithful. From this it follows that the mass is not a sacrifice. It is a remembrance of the sacrifice and an assurance of the salvation which Christ has given us.”"
+  },
+  {
+   "record_ids": [
+    "rzg.term.the-lords-supper-spiritual-presence"
+   ],
+   "sentence": "We refused two claims about the Supper, a repeated sacrifice and Christ's body sitting in the bread."
+  }
+ ],
+ "citations": [
+  "rzg.ambient.emptied-worship-space",
+  "rzg.quote.mass-not-a-sacrifice",
+  "rzg.term.the-lords-supper-spiritual-presence",
+  "rzg.witness.what-a-stranger-would-notice"
+ ],
+ "group": "A",
+ "id": "q025",
+ "net_sentences": [
+  {
+   "draft": "No source in our record describes our worship rooms directly, so we cannot rate that outside record for you [[rzg.witness.what-a-stranger-would-notice]] [[as:paraphrase]].",
+   "sentence": "No source in our record describes our worship rooms directly, so we cannot rate that outside record for you.",
+   "tags": [
+    "rzg.witness.what-a-stranger-would-notice"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "What we hold is reasoned from our doctrine, and not read off a witness who stood there [[rzg.witness.what-a-stranger-would-notice]] [[as:paraphrase]].",
+   "sentence": "What we hold is reasoned from our doctrine, and not read off a witness who stood there.",
+   "tags": [
+    "rzg.witness.what-a-stranger-would-notice"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "From what we held about the Mass, we reason that a stranger would have found no image to bow to and no altar built for a sacrifice [[rzg.witness.what-a-stranger-would-notice]] [[as:paraphrase]].",
+   "ratio": 0.9,
+   "sentence": "From what we held about the Mass, we reason that a stranger would have found no image to bow to and no altar built for a sacrifice.",
+   "tags": [
+    "rzg.witness.what-a-stranger-would-notice"
+   ],
+   "verdict": "ok",
+   "why": "grounded 90% in own tagged records"
+  },
+  {
+   "draft": "A plain table stood in its place [[rzg.ambient.emptied-worship-space]] [[as:paraphrase]].",
+   "sentence": "A plain table stood in its place.",
+   "tags": [
+    "rzg.ambient.emptied-worship-space"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "By most accounts the organ at the Zurich Grossmunster fell silent in the mid-1520s [[rzg.ambient.emptied-worship-space]] [[as:paraphrase]].",
+   "ratio": 0.88,
+   "sentence": "By most accounts the organ at the Zurich Grossmunster fell silent in the mid-1520s.",
+   "tags": [
+    "rzg.ambient.emptied-worship-space"
+   ],
+   "verdict": "ok",
+   "why": "grounded 88% in own tagged records"
+  },
+  {
+   "draft": "Huldrych Zwingli held in 1523: [[quote:rzg.quote.mass-not-a-sacrifice]]",
+   "placed_quote": "rzg.quote.mass-not-a-sacrifice",
+   "sentence": "Huldrych Zwingli held in 1523: “Christ sacrificed himself once. He is forever a sure and valid sacrifice for the sins of all the faithful. From this it follows that the mass is not a sacrifice. It is a remembrance of the sacrifice and an assurance of the salvation which Christ has given us.”",
+   "tags": [
+    "rzg.quote.mass-not-a-sacrifice"
+   ],
+   "verdict": "ok",
+   "why": "quote placed by code, verbatim to its record"
+  },
+  {
+   "draft": "[[as:paraphrase]].",
+   "sentence": ".",
+   "tags": [],
+   "verdict": "ok",
+   "why": "no checkable claim - interpretive/connective framing"
+  },
+  {
+   "draft": "We refused two claims about the Supper, a repeated sacrifice and Christ's body sitting in the bread [[rzg.term.the-lords-supper-spiritual-presence]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "We refused two claims about the Supper, a repeated sacrifice and Christ's body sitting in the bread.",
+   "tags": [
+    "rzg.term.the-lords-supper-spiritual-presence"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  }
+ ],
+ "offered": [
+  "rzg.witness.what-a-stranger-would-notice",
+  "rzg.term.consistory",
+  "rzg.term.sign-and-the-thing-signified",
+  "rzg.term.the-lords-supper-spiritual-presence",
+  "rzg.story.calvins-journey-to-zurich",
+  "rzg.quote.mass-not-a-sacrifice",
+  "rzg.gravity.zwinglis-remembrance-reading-vs-negotiated-consensus",
+  "rzg.gravity.scripture-sole-authority-disputation-catechesis",
+  "rzg.force.counter-reformation-sustained-pressure",
+  "rzg.ambient.emptied-worship-space",
+  "rzg.contested.anabaptist-schism-legitimacy",
+  "rzg.limit.dentiere-and-womens-voice",
+  "rzg.gravity.consistorial-church-discipline",
+  "rzg.gravity.council-led-authority-vs-consistorial-independence",
+  "rzg.gravity.spiritual-presence-rejection-of-corporeal-sacrificial-mediation"
+ ],
+ "raw_text": "No source in our record describes our worship rooms directly, so we cannot rate that outside record for you [[rzg.witness.what-a-stranger-would-notice]] [[as:paraphrase]]. What we hold is reasoned from our doctrine, and not read off a witness who stood there [[rzg.witness.what-a-stranger-would-notice]] [[as:paraphrase]]. From what we held about the Mass, we reason that a stranger would have found no image to bow to and no altar built for a sacrifice [[rzg.witness.what-a-stranger-would-notice]] [[as:paraphrase]]. A plain table stood in its place [[rzg.ambient.emptied-worship-space]] [[as:paraphrase]]. By most accounts the organ at the Zurich Grossmunster fell silent in the mid-1520s [[rzg.ambient.emptied-worship-space]] [[as:paraphrase]]. Our doctrine is better attested than our daily practice, and no account survives of an ordinary Sunday or an ordinary citizen's life [[rzg.gravity.consistorial-church-discipline]] [[as:paraphrase]]. Huldrych Zwingli held in 1523: [[quote:rzg.quote.mass-not-a-sacrifice]] [[as:paraphrase]]. We refused two claims about the Supper, a repeated sacrifice and Christ's body sitting in the bread [[rzg.term.the-lords-supper-spiritual-presence]] [[as:paraphrase]].\n",
+ "reply_shape": {
+  "leadin_support": {
+   "rzg.quote.mass-not-a-sacrifice": [
+    {
+     "detail": "1523",
+     "kind": "number",
+     "snippet": "uldrych Zwingli Huldrych Zwingli, The Sixty-Seven Articles (1523), in the collective volume Selected Works (Jackson 1901) Wi",
+     "span": "record rzg.source.zwingli-sixty-seven-articles"
+    }
+   ]
+  },
+  "placed": [
+   "rzg.quote.mass-not-a-sacrifice"
+  ],
+  "removed": [
+   {
+    "draft": "Our doctrine is better attested than our daily practice, and no account survives of an ordinary Sunday or an ordinary citizen's life [[rzg.gravity.consistorial-church-discipline]] [[as:paraphrase]].",
+    "sentence": "Our doctrine is better attested than our daily practice, and no account survives of an ordinary Sunday or an ordinary citizen's life.",
+    "why": "states an absence that no record it cites states"
+   }
+  ],
+  "repaired": []
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": "C16.S4",
+ "text": "No source in our record describes our worship rooms directly, so we cannot rate that outside record for you. What we hold is reasoned from our doctrine, and not read off a witness who stood there. From what we held about the Mass, we reason that a stranger would have found no image to bow to and no altar built for a sacrifice. A plain table stood in its place. By most accounts the organ at the Zurich Grossmunster fell silent in the mid-1520s. Huldrych Zwingli held in 1523: “Christ sacrificed himself once. He is forever a sure and valid sacrifice for the sins of all the faithful. From this it follows that the mass is not a sacrifice. It is a remembrance of the sacrifice and an assurance of the salvation which Christ has given us.”. We refused two claims about the Supper, a repeated sacrifice and Christ's body sitting in the bread.",
+ "voice_set_aside": false
+}

@@ -20,9 +20,9 @@ Provenance note: Body text unaltered including its own OCR errors
   contemporary hostile Lollard-trial material, the Latin text of the
   Twelve Conclusions of the Lollards (1395) under the heading
   'Conclusiones Lollardorum porrectae pleno parliamento', confirmed
-  by direct full-text search before vendoring. Per this project's
-  own INTAKE.md rule, Latin text is a second witness, never primary
-  evidence for a Representative.
+  by direct full-text search before vendoring. A clean public-domain original can
+  be primary evidence; scan quality
+  decides quotability, not language (cic/texts/INTAKE.md).
 
 '  LIBRARY 
 

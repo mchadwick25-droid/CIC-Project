@@ -30,4 +30,4 @@ discovery_channel: corpus map / cic/corpus-map/donatism.yaml / 2026-09-01. Regis
 external_ids:
   don_source_registry_row: 5
 ---
-Augustine's after-the-fact defence of imperial coercion against this world, and one of Doc_01 SS2's named Historical Catalysts. Licensed for the imperial-coercion defence and the World #6 boundary discussion (Doc_01 SS6). Read against this world's own refusal-of-imperial-legitimacy gravity, this is the opposing case stated by the party that won it.
+Augustine's after-the-fact defense of imperial coercion against this world, and one of Doc_01 SS2's named Historical Catalysts. Licensed for the imperial-coercion defense and the World #6 boundary discussion (Doc_01 SS6). Read against this world's own refusal-of-imperial-legitimacy gravity, this is the opposing case stated by the party that won it.

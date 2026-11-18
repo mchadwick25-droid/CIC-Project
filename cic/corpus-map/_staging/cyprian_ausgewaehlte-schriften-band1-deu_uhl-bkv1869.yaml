@@ -9,6 +9,9 @@ assignments:
       - latin-pastoral-congregational-christianity
     role: context
     confidence: provisional
+    locus_ids: [whole-file]
+    language: deu
+    date: {formation_confidence: unknown, checked: "compilation of several works with different dates; each member work is dated in its own row, and no repo text gives one window for the whole"}
     note: >
       A German translation of Cyprian's treatises and two letters, not the original. Context,
       not tradition: the Latin (Hartel) is the tradition entry. Fraktur OCR is poor. Registry

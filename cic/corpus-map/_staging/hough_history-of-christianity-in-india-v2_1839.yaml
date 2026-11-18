@@ -54,6 +54,8 @@ assignments:
   - the-society-of-jesus
   role: context
   confidence: provisional
+  language: eng
+  date: {formation_confidence: unknown, checked: "file header and title page ('MDCCCXXXIX'); no dated preface or first-edition statement is made, so the title-page year is not taken as a window"}
   note: >-
     Placed on window and place; Hough's account of the Jesuit prelates of Malabar is hostile to the Society
     and was not checked line by line.
