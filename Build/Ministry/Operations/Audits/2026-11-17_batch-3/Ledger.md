@@ -184,3 +184,4 @@ One row per agent pass. Tokens are the subagent's own count as the harness repor
 | pachomius | outline check 2 | Opus | 144,316 | FIX: 1 blocking (who asked for the Latin), 7 minor |
 | third-council-of-toledo-589 | write (fresh, heart first) | Opus | 95,365 | 429 words, grade 8.0, pass; force canons left out |
 | pachomius | outline fixes from check 2 (researcher) | Opus | — | blocking and 7 minor applied |
+| john-wyclif | outline check 2 | Opus | 160,394 | FIX: 1 blocking (Tyndale as an outcome), 5 minor |
