@@ -222,3 +222,5 @@ One row per agent pass. Tokens are the subagent's own count as the harness repor
 | thomas-a-kempis | recheck 2 | Opus, medium | 111,994 | PASS; minor 1 applied by coordinator as worded |
 | pachomius | recheck 2 | Opus, medium | 114,509 | FAIL: new birth-date slip; 2 minors partly |
 | pachomius | fixes from recheck 2 (writer) | Opus | — | 448 words, grade 7.8; birth line corrected |
+| justin-martyr | recheck 2 | Opus, medium | 107,838 | FAIL on one phrase (On that day); fix and 2 minors applied by coordinator as worded |
+| john-wyclif | recheck 2 | Opus, medium | 113,669 | FAIL on one phrase (In his words); fix and 2 minors applied by coordinator as worded |
