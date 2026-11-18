@@ -6506,12 +6506,28 @@
       "status": "Built & Live",
       "works": [
         {
+          "work": "Amélineau's introduction to the Monuments (1889)",
+          "author": "amelineau",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "amelineau_histoire-de-saint-pakhome-annales-guimet-17_leroux1889.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1889); the archive.org record carries no rights field and no licence, so the imprint date is the basis. The scan carries no notice against reproduction."
+        },
+        {
           "work": "The Paradise of the Holy Fathers, Volume II - the Sayings of the Fathers of Egypt",
           "author": "anan-isho",
           "role": "tradition",
           "confidence": "assigned",
           "source_file": "anan-isho_paradise-v2-sayings_budge1907.txt",
           "rights": "Public Domain"
+        },
+        {
+          "work": "The Arabic Life of Pachomius, with Amélineau's French translation (1889)",
+          "author": "arabic_life_of_pachomius",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "amelineau_histoire-de-saint-pakhome-annales-guimet-17_leroux1889.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1889); the archive.org record carries no rights field and no licence, so the imprint date is the basis. The scan carries no notice against reproduction."
         },
         {
           "work": "Festal Letter XXXIX (367) - the canon list and the books appointed to be read",
@@ -6552,6 +6568,22 @@
           "confidence": "provisional",
           "source_file": "bell_jews-christians-egypt-meletian-papyri_1924.txt",
           "rights": "Public Domain (in the United States, by publication"
+        },
+        {
+          "work": "The Life of Pachomius in the Bohairic dialect, with Amélineau's French translation (1889)",
+          "author": "bohairic_life_of_pachomius",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "amelineau_histoire-de-saint-pakhome-annales-guimet-17_leroux1889.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1889); the archive.org record carries no rights field and no licence, so the imprint date is the basis. The scan carries no notice against reproduction."
+        },
+        {
+          "work": "The Bollandists' commentary on SS. Pachomius and Theodorus, with the Appendix on Pachomius the Younger",
+          "author": "bollandists",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "acta-sanctorum_maii-tomus-3-lat-grc_palme1866.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1866); the archive.org record carries no rights field, so the imprint date is the basis. The scan carries no notice against reproduction."
         },
         {
           "work": "Budge's Preface and Introduction to the Paradise (1907)",
@@ -6618,6 +6650,14 @@
           "rights": "Public Domain"
         },
         {
+          "work": "Jerome's preface to his translation of the Rule of Pachomius",
+          "author": "jerome",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "jerome_opera-pl23-part1-with-regula-pachomii-lat_migne1883.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1883); the archive.org record carries no rights field, so the imprint date is the basis. The scan carries no notice against reproduction. Only part I (tomus secundus, which prints the year 1883) is taken; part II (tomus tertius), bound with it in the same scan, prints no year on its title page and is not taken."
+        },
+        {
           "work": "Letter XXII (To Eustochium, on virginity)",
           "author": "jerome",
           "role": "tradition",
@@ -6640,6 +6680,22 @@
           "confidence": "assigned",
           "source_file": "npnf206_jerome-principal-works.xml",
           "rights": "Public Domain"
+        },
+        {
+          "work": "Étude sur le cénobitisme pakhomien pendant le IVe siècle et la première moitié du Ve (1898)",
+          "author": "ladeuze",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "ladeuze_etude-sur-le-cenobitisme-pakhomien-fra_1898.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1898); the archive.org record gives possible-copyright-status NOT_IN_COPYRIGHT and no licence."
+        },
+        {
+          "work": "The Life of Theodorus, disciple of Pachomius, with Sahidic fragments, in Amélineau's French (1889)",
+          "author": "life_of_theodorus_disciple_of_pachomius",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "amelineau_histoire-de-saint-pakhome-annales-guimet-17_leroux1889.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1889); the archive.org record carries no rights field and no licence, so the imprint date is the basis. The scan carries no notice against reproduction."
         },
         {
           "work": "Fifty Spiritual Homilies of St. Macarius the Egyptian",
@@ -6672,6 +6728,14 @@
           "confidence": "assigned",
           "source_file": "origen_philocalia_lewis1911.txt",
           "rights": "Public Domain"
+        },
+        {
+          "work": "The Rule of Pachomius (Praecepta, Instituta, Judicia, Monita and the letters of Theodorus), Jerome's Latin translation, PL 23",
+          "author": "pachomian_rule_latin_jerome",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "jerome_opera-pl23-part1-with-regula-pachomii-lat_migne1883.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1883); the archive.org record carries no rights field, so the imprint date is the basis. The scan carries no notice against reproduction. Only part I (tomus secundus, which prints the year 1883) is taken; part II (tomus tertius), bound with it in the same scan, prints no year on its title page and is not taken."
         },
         {
           "work": "The Rules of Pachomius in their Ethiopic (Ge'ez) version",
@@ -6752,6 +6816,22 @@
           "confidence": "assigned",
           "source_file": "npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
           "rights": "Public Domain"
+        },
+        {
+          "work": "Paralipomena on SS. Pachomius and Theodorus, in Latin, Acta Sanctorum, 14 May",
+          "author": "vita_prima_pachomii_cardon_latin",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "acta-sanctorum_maii-tomus-3-lat-grc_palme1866.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1866); the archive.org record carries no rights field, so the imprint date is the basis. The scan carries no notice against reproduction."
+        },
+        {
+          "work": "The Life of Pachomius (Vita prima), in Daniel Cardon's Latin translation of the Greek, Acta Sanctorum, 14 May",
+          "author": "vita_prima_pachomii_cardon_latin",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "acta-sanctorum_maii-tomus-3-lat-grc_palme1866.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1866); the archive.org record carries no rights field, so the imprint date is the basis. The scan carries no notice against reproduction."
         }
       ]
     },
@@ -14001,6 +14081,14 @@
           "rights": "Public Domain (pd-us-by-date: published 1905); the archive.org record carries the Public Domain Mark"
         },
         {
+          "work": "Legge's lecture on the Nestorian Monument, with his sketch of later Christian missions in China (1888)",
+          "author": "legge",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "legge_nestorian-monument-of-hsi-an-fu_trubner1888.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1888); the archive.org record carries no rights field, so the imprint date is the basis. The scan carries no notice against reproduction."
+        },
+        {
           "work": "Synodicon Orientale: appendix, the synods of Timothy I (late eighth century)",
           "author": "synodicon-orientale",
           "role": "tradition",
@@ -14031,6 +14119,14 @@
           "confidence": "provisional",
           "source_file": "thomas-of-marga_book-of-governors-v2-english_budge1893.txt",
           "rights": "Public Domain"
+        },
+        {
+          "work": "The Xi'an stele of 781 (the Nestorian Monument), in Legge's English translation with his notes (1888)",
+          "author": "xian_stele_inscription_781",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "legge_nestorian-monument-of-hsi-an-fu_trubner1888.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1888); the archive.org record carries no rights field, so the imprint date is the basis. The scan carries no notice against reproduction."
         }
       ]
     },
