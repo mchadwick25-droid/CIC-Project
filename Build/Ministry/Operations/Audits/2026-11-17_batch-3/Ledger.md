@@ -201,3 +201,4 @@ One row per agent pass. Tokens are the subagent's own count as the harness repor
 | thomas-a-kempis | review 2 | Opus | 117,570 | REVISE: Thomas and his own work not in the first minute; Deventer schooling misread |
 | john-wyclif | write (fresh, heart first) | Opus | 97,010 | 446 words, grade 8.0, pass |
 | thomas-a-kempis | outline amended from review 2 (researcher) | Opus | — | Thomas and his own work in the first 150 words; 4 Do not say lines |
+| vardan-mamikonian | review 2 | Opus | 116,466 | PASS, 5 minor |
