@@ -103,21 +103,24 @@
       "printed": "vestrn* rae oratione iuvari'* peto, quae sum minus docta, plus devota.",
       "work": "Baudonivia, Life of Radegund, Book II, prologue, ed. Bruno Krusch",
       "file": "cic/texts/fredegar-liber-historiae-francorum-vitae-mgh-srm-2-lat_krusch1888.txt",
-      "lines": "29492-29493"
+      "lines": "29492-29493",
+      "secondReading": "same"
     },
     {
       "modern": "What she did in the land of the East, blessed Radegund did in Gaul.",
       "printed": "Quod fecit illa in orientali patria, hoc fecit beata\"i Kadegundis in GalHa.",
       "work": "Baudonivia, Life of Radegund, Book II, ch. 16, ed. Bruno Krusch",
       "file": "cic/texts/fredegar-liber-historiae-francorum-vitae-mgh-srm-2-lat_krusch1888.txt",
-      "lines": "30245"
+      "lines": "30245",
+      "secondReading": "same"
     },
     {
       "modern": "Her eyes were closed, and ours were darkened.",
       "printed": "clausi sunt eius\" ocuU, et obscurati sunt nostri.",
       "work": "Baudonivia, Life of Radegund, Book II, ch. 21, ed. Bruno Krusch",
       "file": "cic/texts/fredegar-liber-historiae-francorum-vitae-mgh-srm-2-lat_krusch1888.txt",
-      "lines": "30522"
+      "lines": "30522",
+      "secondReading": "same"
     }
   ]
 }

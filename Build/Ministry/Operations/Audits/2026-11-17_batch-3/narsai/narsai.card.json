@@ -102,7 +102,8 @@
       "work": "Barhadbeshabba, Cause of the Foundation of the Schools, tr. Addai Scher (PO 4)",
       "file": "cic/texts/barhadbeshabba_cause-de-la-fondation-des-ecoles-po4-syr-fra_scher1908.txt",
       "lines": "20743-20746",
-      "uncertain": "Rendered from Scher's French; the Syriac OCR is unreadable. The printed wording joins Scher's line-break hyphen in \"Ro- mains\"."
+      "uncertain": "Rendered from Scher's French; the Syriac OCR is unreadable. The printed wording joins Scher's line-break hyphen in \"Ro- mains\".",
+      "secondReading": "same"
     },
     {
       "modern": "In baptism he recast our image, as in a furnace. In place of our clay, he has made us spiritual gold.",
@@ -110,7 +111,8 @@
       "work": "Narsai, Homily XXII (On Baptism), tr. R. H. Connolly",
       "file": "cic/texts/narsai_liturgical-homilies_connolly1909.txt",
       "lines": "6857-6858",
-      "uncertain": "Rendered from Connolly's English; the Syriac is not held. \"He\" is God."
+      "uncertain": "Rendered from Connolly's English; the Syriac is not held. \"He\" is God.",
+      "secondReading": "same"
     }
   ]
 }

@@ -63,7 +63,8 @@
       "work": "Lazar of Pharp, History of Armenia, tr. Samuel Ghesarian, in Langlois, Collection, tome II",
       "file": "cic/texts/langlois_collection-historiens-armenie-tomes1-2-fra_1867-1869.txt",
       "lines": "91072-91076",
-      "uncertain": "OCR fault kept: parini = parmi. \"Them\" is the Persian king and his nobles (L12 91068-91071). Rendered from the French; the Armenian is not held."
+      "uncertain": "OCR fault kept: parini = parmi. \"Them\" is the Persian king and his nobles (L12 91068-91071). Rendered from the French; the Armenian is not held.",
+      "secondReading": "same"
     },
     {
       "modern": "But I received this religion from God as a child. To abandon it, and change it out of fear of men, is not possible!",
@@ -71,7 +72,8 @@
       "work": "Lazar of Pharp, History of Armenia, tr. Samuel Ghesarian, in Langlois, Collection, tome II",
       "file": "cic/texts/langlois_collection-historiens-armenie-tomes1-2-fra_1867-1869.txt",
       "lines": "90623-90626",
-      "uncertain": "Rendered from the French; the Armenian is not held."
+      "uncertain": "Rendered from the French; the Armenian is not held.",
+      "secondReading": "minor"
     },
     {
       "modern": "For a time we deceived that unjust prince. We took him in like a weak child, as if we had outwardly carried out his wicked orders. But the Lord is the hidden witness of our thoughts. He knows we held firm and never parted from him.",
@@ -79,7 +81,8 @@
       "work": "Elishe, History of Vartan, French tr. in Langlois, Collection, tome II",
       "file": "cic/texts/langlois_collection-historiens-armenie-tomes1-2-fra_1867-1869.txt",
       "lines": "82667-82673",
-      "uncertain": "OCR faults kept: ua = un, nous.le = nous le, ordresiniques = ordres iniques, estle = est le. Neumann's English differs: \"how we accommodated ourselves to his impious will by seeming apostacy, though in secret we were true to God, as he himself will testify\" (cic/texts/eghishe_history-of-vartan-and-the-armenian-war_neumann1830.txt 3930-3933). Rendered from the French; the Armenian is not held."
+      "uncertain": "OCR faults kept: ua = un, nous.le = nous le, ordresiniques = ordres iniques, estle = est le. Neumann's English differs: \"how we accommodated ourselves to his impious will by seeming apostacy, though in secret we were true to God, as he himself will testify\" (cic/texts/eghishe_history-of-vartan-and-the-armenian-war_neumann1830.txt 3930-3933). Rendered from the French; the Armenian is not held.",
+      "secondReading": "minor"
     }
   ],
   "briefReferences": [

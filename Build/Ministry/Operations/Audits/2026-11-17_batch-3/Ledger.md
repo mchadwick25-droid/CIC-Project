@@ -116,5 +116,6 @@ One row per agent pass. Tokens are the subagent's own count as the harness repor
 | moses-the-black | card | Opus | 137,017 | additions only (briefLength, a source, 9 references, 3 quotation originals); self-assigned secondReading verdicts to be replaced by the blind readings |
 | (9 cards) | script check | script | — | every original field unchanged and in order, except the fields each Card_Edits.md lists |
 | (9 pieces) | second-reading requests | Sonnet | 161,175 | 25 quotations located, 5 ranges corrected; requests file holds no English rendering, key kept apart |
-| (9 pieces) | blind second reading | Opus | 108,371 | 24 of 25 rendered blind; no key opened |
+| (9 pieces) | blind second reading | Opus | 108,371 | all 25 rendered blind (the reader miscounted 24); no key opened |
 | (9 cards) | card check | Opus | 224,793 | 7 PASS, 2 FIX (Justin: key name and a missing source; Arius: OCR'd Greek must stand as scanned); both fixed by the coordinator to the checker's exact corrections; Arius's not-found claim kept and to Open-Gaps |
+| (9 pieces) | second-reading comparison | Opus | 114,789 | 13 same, 11 minor, 1 changes meaning (arius Q2 "as atheists" → "as godless men", applied to brief and card); verdicts set on all nine cards |

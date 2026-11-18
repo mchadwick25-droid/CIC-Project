@@ -102,7 +102,8 @@
       "work": "Dialogue with Trypho 8.1–2, Greek, ed. Georges Archambault",
       "file": "cic/texts/justin-martyr_dialogue-with-trypho-grc_archambault1909.txt",
       "lines": "429-435",
-      "uncertain": "\"ἀσφαλῆ\" is rendered \"sure\"; the ANF English (cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml 17853-17857) prints \"safe and profitable\"."
+      "uncertain": "\"ἀσφαλῆ\" is rendered \"sure\"; the ANF English (cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml 17853-17857) prints \"safe and profitable\".",
+      "secondReading": "same"
     },
     {
       "modern": "So you suppose that you will go up into the heavens, to receive some reward?",
@@ -110,7 +111,8 @@
       "work": "Martyrdom of Justin V.3 (Rusticus), Greek, ed. Oscar von Gebhardt",
       "file": "cic/texts/acta-martyrum-selecta_gebhardt1902.txt",
       "lines": "1410-1411",
-      "uncertain": "The file is OCR: \"ἀναβή on eis\" stands for ἀναβήσῃ εἰς. The English of Dods (cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml 29371-29373) reads \"Do you suppose, then, that you will ascend into heaven to receive some recompense?\""
+      "uncertain": "The file is OCR: \"ἀναβή on eis\" stands for ἀναβήσῃ εἰς. The English of Dods (cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml 29371-29373) reads \"Do you suppose, then, that you will ascend into heaven to receive some recompense?\"",
+      "secondReading": "minor"
     },
     {
       "modern": "I do not suppose it. I know it, and I am fully sure of it.",
@@ -118,7 +120,8 @@
       "work": "Martyrdom of Justin V.3 (Justin), Greek, ed. Oscar von Gebhardt",
       "file": "cic/texts/acta-martyrum-selecta_gebhardt1902.txt",
       "lines": "1420-1421",
-      "uncertain": "The English of Dods (cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml 29373-29374) reads \"I do not suppose it, but I know and am fully persuaded of it.\""
+      "uncertain": "The English of Dods (cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml 29373-29374) reads \"I do not suppose it, but I know and am fully persuaded of it.\"",
+      "secondReading": "same"
     }
   ]
 }

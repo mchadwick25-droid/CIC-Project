@@ -108,7 +108,7 @@
     ]
   },
   "briefReferences": [
-    "Arius, Letter to Eusebius of Nicomedia, in Epiphanius, Panarion 69.6 (Greek) and Theodoret, Church History 1.4 (English): \"We are persecuted because we said: the Son has a beginning, but God has no beginning\"; driven out \"as atheists\"; the Son before time as perfect God, and before he was begotten he was not; \"of things that were not\".",
+    "Arius, Letter to Eusebius of Nicomedia, in Epiphanius, Panarion 69.6 (Greek) and Theodoret, Church History 1.4 (English): \"We are persecuted because we said: the Son has a beginning, but God has no beginning\"; driven out \"as godless men\"; the Son before time as perfect God, and before he was begotten he was not; \"of things that were not\".",
     "Arius and his fellow clergy, Letter to Alexander, in Athanasius, De Synodis 16, and Epiphanius, Panarion 69: God alone without beginning; a Son eternal beside him would make two without beginning.",
     "Socrates, Church History 1.5, and Robertson's prolegomena to Athanasius: a presbyter of Alexandria under Bishop Alexander; the dispute begins about 318 or 319.",
     "Alexander of Alexandria, encyclical (Depositio Arii), in Athanasius: Arius and his party deposed, \"enemies of Christ\".",
@@ -128,7 +128,8 @@
       "work": "Arius, Letter to Eusebius of Nicomedia, in Epiphanius, Panarion 69.6, ed. Franz Oehler; checked against Theodoret, Church History 1.4, in Nicene and Post-Nicene Fathers, second series, vol. 3 (lines 6045-6046)",
       "file": "cic/texts/epiphanius_panarion-haer-48-69-corpus-haereseologicum-t2-pars-posterior-grc-lat_oehler1860.txt",
       "lines": "45736-45738",
-      "uncertain": "The file is OCR, kept as it stands: ᾿Δρχὴν reads Ἀρχὴν, ἀναρχός reads ἄναρχός, and ϑ is the scan's θ; line 45737, inside the span, is scanned apparatus. \"We said\" follows the Greek aorist εἴπομεν; the English of Theodoret reads \"we say\"."
+      "uncertain": "The file is OCR, kept as it stands: ᾿Δρχὴν reads Ἀρχὴν, ἀναρχός reads ἄναρχός, and ϑ is the scan's θ; line 45737, inside the span, is scanned apparatus. \"We said\" follows the Greek aorist εἴπομεν; the English of Theodoret reads \"we say\".",
+      "secondReading": "same"
     },
     {
       "modern": "I have walked in their footsteps, sharing their belief. I am the famous one, who has suffered much for the glory of God. Taught by God, I have come to know wisdom and knowledge.",
@@ -136,7 +137,8 @@
       "work": "Arius, Thalia, quoted by Athanasius, Against the Arians 1.5, in Nicene and Post-Nicene Fathers, second series, vol. 4",
       "file": "cic/texts/npnf204_athanasius-select-works-letters.xml",
       "lines": "41472-41479",
-      "uncertain": "Compared with the Greek of Migne, PG 26 (athanasius_opera-omnia-pg26-grc-lat_migne1857.txt, lines 1192 and 1221-1225), an OCR text its own header calls a second witness, not checked against the page image."
+      "uncertain": "Compared with the Greek of Migne, PG 26 (athanasius_opera-omnia-pg26-grc-lat_migne1857.txt, lines 1192 and 1221-1225), an OCR text its own header calls a second witness, not checked against the page image.",
+      "secondReading": "minor"
     },
     {
       "modern": "We have not been followers of Arius. For how could we, who are bishops, follow a priest?",
@@ -144,35 +146,41 @@
       "work": "The eastern bishops at Antioch, 341, in Socrates, Church History 2.10, ed. Robert Hussey; checked against Athanasius, De Synodis 22, in Nicene and Post-Nicene Fathers, second series, vol. 4 (npnf204, lines 57418-57419)",
       "file": "cic/texts/socrates_historia-ecclesiastica-tomus1-grc-lat_hussey1853.txt",
       "lines": "16658-16659",
-      "uncertain": "The file is OCR, kept as it stands: ' Apelov reads Ἀρείου, and ἀκολουθήσομενν reads ἀκολουθήσομεν. \"A priest\" renders πρεσβυτέρῳ, a presbyter."
+      "uncertain": "The file is OCR, kept as it stands: ' Apelov reads Ἀρείου, and ἀκολουθήσομενν reads ἀκολουθήσομεν. \"A priest\" renders πρεσβυτέρῳ, a presbyter.",
+      "secondReading": "same"
     },
     {
-      "modern": "as atheists",
+      "modern": "as godless men",
       "printed": "as atheists",
       "work": "Arius, Letter to Eusebius of Nicomedia, in Theodoret, Church History 1.4, in Nicene and Post-Nicene Fathers, second series, vol. 3",
       "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml",
-      "lines": "6026"
+      "lines": "6026",
+      "uncertain": "Second reading (blind): the Greek means godless, charged with impiety, not one who denies that any god exists; rendered \"as godless men\" in the second reader's words. The printed English stays as Theodoret's translator has it.",
+      "secondReading": "same"
     },
     {
       "modern": "enemies of Christ",
       "printed": "enemies of Christ",
       "work": "Alexander of Alexandria, encyclical on the deposition of Arius, in Nicene and Post-Nicene Fathers, second series, vol. 4",
       "file": "cic/texts/npnf204_athanasius-select-works-letters.xml",
-      "lines": "19018"
+      "lines": "19018",
+      "secondReading": "minor"
     },
     {
       "modern": "before he was begotten he was not",
       "printed": "before he was begotten he was not",
       "work": "The Creed of Nicaea, in Nicene and Post-Nicene Fathers, second series, vol. 14",
       "file": "cic/texts/npnf214_seven-ecumenical-councils.xml",
-      "lines": "2422"
+      "lines": "2422",
+      "secondReading": "same"
     },
     {
       "modern": "of things that were not",
       "printed": "of things that were not",
       "work": "The Creed of Nicaea, in Nicene and Post-Nicene Fathers, second series, vol. 14",
       "file": "cic/texts/npnf214_seven-ecumenical-councils.xml",
-      "lines": "2422-2423"
+      "lines": "2422-2423",
+      "secondReading": "minor"
     }
   ]
 }

@@ -69,3 +69,8 @@ Also:
 
 - arius Q5 and Q6: line 6768 is accent noise. The words run from 6767 to 6769, and Q6's words are on 6769.
 - thomas-a-kempis Q1: "Opto" is on 703; the rest is on 704-705.
+
+## Applied (2026-11-18)
+
+- **arius Q2** re-rendered in the second reader's words, "as godless men", in the brief (`arius.brief.txt`; the text before it is `arius.brief.v3.txt`) and on the card, whose note gives the reason. The printed English stays as Theodoret's translator has it. As at release 50 (Columba, Dhuoda), the re-rendered quotation is recorded `secondReading: "same"`.
+- Every other card quotation carries the verdict in the table above. The two verdicts the Moses and Wyclif card writers had filled in themselves are replaced by these.

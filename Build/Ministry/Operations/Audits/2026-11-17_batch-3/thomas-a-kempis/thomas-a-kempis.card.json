@@ -208,7 +208,8 @@
       "work": "The Imitation of Christ, book I, chapter 1, Latin, ed. Michael Joseph Pohl, Opera omnia II",
       "file": "cic/texts/kempis_opera-omnia-sermones-de-compunctione-lat_pohl1902.txt",
       "lines": "704-706",
-      "uncertain": "\"compunctio\" is the heart pierced with sorrow for sin, not the modern mild twinge; Benham has \"contrition\". The book is credited to Thomas; its authorship is disputed."
+      "uncertain": "\"compunctio\" is the heart pierced with sorrow for sin, not the modern mild twinge; Benham has \"contrition\". The book is credited to Thomas; its authorship is disputed.",
+      "secondReading": "minor"
     },
     {
       "modern": "At Manresa he had first seen the little Gerson. After that he never wanted to read any other book of devotion. He commended it to everyone he dealt with. He read one chapter a day, in order.",
@@ -216,7 +217,8 @@
       "work": "Luis Gonçalves da Câmara, Memoriale, no. 97, 1555, from what Ignatius of Loyola told him, Spanish, in Scripta de Sancto Ignatio I",
       "file": "cic/texts/ignatius-loyola_scripta-de-sancto-ignatio-tomus01-lat-spa-ita_1904.txt",
       "lines": "9403-9406",
-      "uncertain": "OCR as the file has it, with the line-break hyphen in \"deuo-ción\" joined and the footnote mark after \"Ger^onzito\" left out: read Gerçonzito, más, á, deuoción. The editors' note at line 9431 identifies the book as the Imitation, ascribed to John Gerson."
+      "uncertain": "OCR as the file has it, with the line-break hyphen in \"deuo-ción\" joined and the footnote mark after \"Ger^onzito\" left out: read Gerçonzito, más, á, deuoción. The editors' note at line 9431 identifies the book as the Imitation, ascribed to John Gerson.",
+      "secondReading": "minor"
     }
   ]
 }
