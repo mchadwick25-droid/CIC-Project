@@ -100,3 +100,23 @@ So the choice goes to Mark. The real options:
 - **C. Cloak and beat 4, about 590 words (about 3:55).** Everything in the outline. Longest: about 130 words past the person ceiling of about 460.
 
 My recommendation is B: the cloak carries the baptism the story now lacks, and a short version of the refusal's cost ("Julian called it cowardice, and Martin was put back in prison") can stay in about 12 words, which brings B to about 570 words (about 3:50).
+
+## Mark's ruling: the cloak goes back in (2026-11-18)
+
+Mark: "Craft above time." The 460-word ceiling is a guide, not a cut line, and the cloak at Amiens is restored. This replaces options A and B above; nothing is cut to make room. The padding list above (about 10 to 12 words) stands as the only cuts. With findings 1, 2, 5 and 6 fixed and the cloak back, expect about 590 to 600 words, about 4:00.
+
+**Where it goes.** Between paragraph 3 (born to pagans, chained and sworn in at fifteen) and paragraph 4 (the cost at Worms). That is its place in the record (Life 3 to 5 come between the enlistment and Worms), it stays outside the first minute so the heart is not delayed, and the "nearly two more years" leads straight back into Worms. Two joins to adjust:
+- Paragraph 4 now opens "Years later, at Worms". After the two years, drop the time word: "At Worms, Julian called his refusal cowardice." Sulpicius gives no gap between the two years and the donative, so do not add one.
+- Finding 6 (catechumen at ten) should go just before it, in paragraph 3, so the dream's "still only a catechumen" lands as something the listener already knows.
+
+**The outline material (Outline.md line 21, beat 3; sheet M3, M4, M5).**
+- At the gate of Amiens, in a winter so cold it was killing people ("the extreme cold was proving fatal to many", NP11 767–773), he cut his cloak in two with his sword and gave half to a man with no clothes (NP11 777–782). He had already given away the rest of his clothes (NP11 777–779).
+- Some onlookers laughed at him, half-dressed; others groaned because they had done nothing like it (NP11 782–785).
+- The wonder, in Sulpicius's voice: the next night Martin saw Christ in a dream, wearing the half he had given, and heard him say that Martin, still a catechumen, had clothed him (NP11 788–795; HALM 6285–6288, "Martinus adhuc catechumenus hac me ueste contexit").
+- He was baptised at about twenty, but stayed nearly two more years in the army, because his tribune promised to leave the world with him when his term was done (NP11 805–816).
+
+**Rules from the outline's Do not say list that govern it:** "Sulpicius says that the next night Martin saw Christ in a dream" (never "Christ appeared to him"); he was already a catechumen, so the vision did not convert him; he did not leave the army at baptism; no beggar's words, no thoughts of Martin's at the gate; "a winter so cold it was killing people" is allowed.
+
+**One caution on quoting.** The outline puts "still but a catechumen" in quotation marks at line 21, but that is Roberts's English, not a rendering of the Latin like Q1 to Q3, and "but" is old wording. Tell it as reported speech without quotation marks ("heard Christ say that Martin, still only a catechumen, had clothed him"). That keeps the wonder in Sulpicius's voice and stays inside the outline's quotes.
+
+**Craft.** The beat earns its place: it is the one wonder the shape allows, it shows the turn before the refusal, and it gives the listener the baptism that "I am Christ's soldier" now lacks. Keep it to the scene and the dream. The laughing and groaning onlookers are optional if the paragraph runs long.
