@@ -120,3 +120,4 @@ One row per agent pass. Tokens are the subagent's own count as the harness repor
 | (9 cards) | card check | Opus | 224,793 | 7 PASS, 2 FIX (Justin: key name and a missing source; Arius: OCR'd Greek must stand as scanned); both fixed by the coordinator to the checker's exact corrections; Arius's not-found claim kept and to Open-Gaps |
 | (9 pieces) | second-reading comparison | Opus | 114,789 | 13 same, 11 minor, 1 changes meaning (arius Q2 "as atheists" → "as godless men", applied to brief and card); verdicts set on all nine cards |
 | (9 outlines) | Do-not-say lines from the reviews | Haiku | 117,292 | 13 lines added to 9 outlines, additions only |
+| third-council-of-toledo-589 | second revision (change order) | Opus, fresh writer | (count) | written again from the outline; 488 words against 430; every must-tell item in; variety clear |
