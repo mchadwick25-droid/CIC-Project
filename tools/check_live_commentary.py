@@ -178,8 +178,9 @@ PATTERNS: dict[str, re.Pattern[str]] = {
     "review-finding": re.compile(r"\b(?:Critic|Review)\s+Finding\s+\d+\b"),
     # A change order named as provenance ("under the accounts change order",
     # "added by change order CO-P2-10(c)"). The governing method files use
-    # "change order" as process vocabulary (see _METHOD_VOCAB).
-    "change-order": re.compile(r"\b[Cc]hange[- ][Oo]rders?\b|\bCO-P\d+-\d+"),
+    # "change order" as process vocabulary (see _METHOD_VOCAB). "Change Orders
+    # Register" is the name of a document, cited as a pointer, not provenance.
+    "change-order": re.compile(r"\b[Cc]hange[- ][Oo]rders?\b(?! [Rr]egister)|\bCO-P\d+-\d+"),
     # A pull-request or issue number as provenance ("#440's own fix",
     # "(#419, #420)", "PR #13", "by #413"). A bare "#333" is a CSS colour and
     # "#6400" a Project Gutenberg book number, so a number alone never
@@ -485,6 +486,36 @@ def _source_registry_date_lines(raw_lines: list[str]) -> tuple[set[int], set[int
     return out, with_header
 
 
+# The Source Registry Template defines the `Added` column as "Date and
+# who/what added it", so a builder named there ("2026-09-25, this build
+# thread") is the cell's own data, as in a Library intake header's Source
+# field. Rows whose every builder-thread phrase sits in an `Added` cell of a
+# headed table; the phrase anywhere else in the row still counts.
+_ADDED_COLUMN_HEADER = re.compile(r"^added$", re.IGNORECASE)
+
+
+def _source_registry_added_by_lines(raw_lines: list[str]) -> set[int]:
+    out: set[int] = set()
+    header: list[bool] | None = None
+    for i, line in enumerate(raw_lines, start=1):
+        if not line.lstrip().startswith("|"):
+            header = None
+            continue
+        nxt = raw_lines[i] if i < len(raw_lines) else ""
+        if header is None:
+            header = []
+            if _TABLE_SEPARATOR.match(nxt):
+                header = [bool(_ADDED_COLUMN_HEADER.match(re.sub(r"[*`_]", "", c).strip())) for c in _table_cells(line)]
+            continue
+        if _TABLE_SEPARATOR.match(line) or not header:
+            continue
+        cells = _table_cells(line)
+        named = [n for n, cell in enumerate(cells) if PATTERNS["builder-thread"].search(cell)]
+        if named and all(n < len(header) and header[n] for n in named):
+            out.add(i)
+    return out
+
+
 # A markdown table row (2+ `|` cells) whose every ISO-date occurrence sits
 # inside its own cell that is otherwise just a short provenance fragment -
 # a bare date, or a short channel/label phrase plus a date ("web search,
@@ -544,6 +575,18 @@ def _iso_date_only_in_filenames(line: str) -> bool:
     prose."""
     line = _CODE_SPAN_WITH_DATE.sub("", line)
     return not re.search(r"20\d\d-\d\d-\d\d", _FILENAME_WITH_DATE.sub("", line))
+
+
+# On a line of Python code (not a comment or docstring), a string literal
+# that is one unbroken token holding a date ("2026-10-29",
+# "cue-draw-2026-10-29") is a working value: a random-draw salt, a label, or
+# a date passed to the code under test. Changing it changes behavior. A date
+# inside a literal with spaces is prose and still counts.
+_DATE_VALUE_LITERAL = re.compile(r"""(?P<q>["'])[\w.:/-]*20\d\d-\d\d-\d\d[\w.:/-]*(?P=q)""")
+
+
+def _iso_date_only_in_value_literals(line: str) -> bool:
+    return not re.search(r"20\d\d-\d\d-\d\d", _DATE_VALUE_LITERAL.sub("", line))
 
 
 def _iso_date_is_bare_table_provenance(line: str, in_source_registry_file: bool) -> bool:
@@ -1511,6 +1554,7 @@ def classify_line(
     in_source_registry_file: bool = False,
     date_in_provenance_cell: bool = False,
     table_has_header: bool = False,
+    date_is_code_value: bool = False,
 ) -> str:
     if _route_cue(line, in_source_registry_file):
         return "ROUTE"
@@ -1529,6 +1573,7 @@ def classify_line(
                 _BARE_DATE_LINE.match(line)
                 or _BARE_DATE_HEADER_LINE.match(line)
                 or _STRUCTURED_DATE_KWARG.search(line)
+                or date_is_code_value
                 or date_in_provenance_cell
                 or _iso_date_only_in_filenames(line)
                 or _VERIFIED_BY_FIELD.match(line)
@@ -1943,6 +1988,7 @@ def scan_file(repo: Path, path: Path, surface: str) -> list[Hit]:
 
     in_source_registry_file = bool(_SOURCE_REGISTRY_FILENAME.search(rel.name))
     provenance_date_lines, headed_table_lines = _source_registry_date_lines(raw_lines) if in_source_registry_file else (set(), set())
+    added_by_lines = _source_registry_added_by_lines(raw_lines) if in_source_registry_file else set()
     protected_field_lines: set[int] = set()
     spoken_field_lines: set[int] = set()
     locus_lines: set[int] = set()
@@ -1994,6 +2040,8 @@ def scan_file(repo: Path, path: Path, surface: str) -> list[Hit]:
         matched = [name for name, pat in PATTERNS.items() if pat.search(line)]
         if i in code_lines:
             matched = [name for name in matched if name != "ruling-identifier"]
+        if i in added_by_lines:
+            matched = [name for name in matched if name != "builder-thread"]
         if i in fenced_lines:
             matched = [name for name in matched if name != "iso-date"]
         if i in spoken_field_lines:
@@ -2015,7 +2063,8 @@ def scan_file(repo: Path, path: Path, surface: str) -> list[Hit]:
         if is_protected(rel, i, protected_field_lines):
             category = "PROTECTED"
         else:
-            category = classify_line(line, matched, i in source_record_body_lines, in_source_registry_file, i in provenance_date_lines, i in headed_table_lines)
+            category = classify_line(line, matched, i in source_record_body_lines, in_source_registry_file, i in provenance_date_lines, i in headed_table_lines,
+                                     i in code_lines and _iso_date_only_in_value_literals(line))
             category = _gate_vocabulary_category(rel, line, matched, category, code_lines, i)
             category = _method_vocabulary_category(rel, line, matched, category)
             category = _placeholder_category(matched, category, i in code_lines or i in template_lines)

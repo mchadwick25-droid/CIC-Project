@@ -3,7 +3,7 @@
 
 **Scope of this run:** construction steps Doc_01–Doc_10 including Representative Emergence, deployment outputs, two simulated Critic checkpoints, status documents. Run conditions and methodology versions are in `Cappadocian_Build_Record.md`.
 
-**Read this first — the two sentences that govern everything below.** (1) Nothing in this build was verified against editions, databases, or external scholarship during the run: every citation is genuine-and-identifiable to the best of the builder's knowledge, and none is checked — verification is the mandatory precondition for any use beyond this experiment. (2) Every document is a disciplined kernel, not full production depth: structure is complete; depth is deliberately bounded (Critic Finding 18).
+**Read this first — the two sentences that govern everything below.** (1) Nothing in this build was verified against editions, databases, or external scholarship during the run: every citation is genuine-and-identifiable to the best of the builder's knowledge, and none is checked — verification is the mandatory precondition for any use beyond this experiment. (2) Every document is a disciplined kernel, not full production depth: structure is complete; depth is deliberately bounded.
 
 **Git state:** all work on branch `CiC-Fable-Cappadocian` (forked from `CiC-Fable-Experiment`), built in an isolated worktree; committed incrementally (one commit per major document or group); `main` and `CiC-Fable-Experiment` untouched. The world folder `worlds/Nicene-Cappadocian/` contains the complete package (~30 files incl. DOCX conversions).
 
@@ -27,7 +27,7 @@
 
 **Doc_08 — Forces Document.** Six-cell matrix, 17 forces, all at three layers; transmission as named force in 2B and 3B (the family-archive and the canonization-sieve); seven cross-cell connections; the matrix-level pattern named (**pressure converted into institution**: persecution→cult, hostility→portable doxology, ferment→hearth, famine→poorhouse, bereavement→literature); all 11 gravities connected; Gravity 3's full life-cycle (created 1A, exercised 2A, dissolved-by-victory 3A) as the situational-classification evidence; two named substantive gaps deferred with reasons (post-381 conduct; brotherhood economics).
 
-**Doc_09 — Story Inventory.** 18 entries, Tiers 1–4, no Tier 5; the Valens/Modestus split entry (documented core vs. encomium scene); Sasima carried as power-politics *and* wound; the anti-slaveholding homily fenced (Critic Finding 5); six named absent-story categories; two fully element-sourced Tier 4 composites.
+**Doc_09 — Story Inventory.** 18 entries, Tiers 1–4, no Tier 5; the Valens/Modestus split entry (documented core vs. encomium scene); Sasima carried as power-politics *and* wound; the anti-slaveholding homily fenced; six named absent-story categories; two fully element-sourced Tier 4 composites.
 
 **World Profile.** All 11 sections; every Tier 1 term designated YES/NO for always-presence; tensions held incl. the victory-question counter-ledger; **honestly stated: INCOMPLETE** — Living Tradition Status Confirmation PENDING (project lead, Article 29), External Scholarly Review not occurred (Article 31), all runtime testing untested. The world is **not freeze-eligible**.
 

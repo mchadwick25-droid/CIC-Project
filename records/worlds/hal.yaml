@@ -20,8 +20,8 @@ state: admitted
 census_id: "hieronymian-ascetic-literary"
 public_open: true
 package:
-  manifest_hash: "sha256:0c893d4831e9eb2e58baabbce0eeabccbd7723fc2948e657924b1577fb61a0f0"
-  location: "packages/hal/2026-11-04T01-51-57Z"
+  manifest_hash: "sha256:6891c79b322fa260cf6d90c8637f8f8d5b7ba34949518412e90dc1a6928cc14d"
+  location: "packages/hal/2026-11-18T23-04-12Z"
 thinness_statement: "Richest in Jerome's own letters, translation prefaces, and the remembered lives of the Roman women who sustained the work; thinner on the women's own words (none survive), ordinary monastery residents, and daily-life detail beyond one letter."
 living_tradition_flag: false
 story_placement: false

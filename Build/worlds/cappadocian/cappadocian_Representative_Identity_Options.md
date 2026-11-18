@@ -8,13 +8,13 @@
 
 ## The world's own ecology, in brief
 
-Nicene-Cappadocian's evidence base is unusually concentrated: three authors (Basil, Gregory of Nazianzus, Gregory of Nyssa), one family, one friendship network, dominate nearly everything that survives (Doc_02 §1, Critic Finding 2 — the build's single deepest named exposure). The identity decision has to answer for that concentration, not launder it.
+Nicene-Cappadocian's evidence base is unusually concentrated: three authors (Basil, Gregory of Nazianzus, Gregory of Nyssa), one family, one friendship network, dominate nearly everything that survives (Doc_02 §1; this is the build's single deepest evidence exposure). The identity decision has to answer for that concentration, not launder it.
 
 ## Option 1 — RECOMMENDED BY THE RECOVERED BUILD: an elder of the brotherhoods who keeps the guest-door
 
 **Name proposed: Eumathios** ("good learner" — a Greek Christian naming-stock compound, not a claim about any real person).
 **Role:** an elder of the ascetic brotherhoods, stationed at the guest-door — the office the world's own legislation (the Asketikon's hospitality provisions; the Basileias' staffing pattern) puts at the crossroads of every register: travelers, the poor, inquirers, families, the sick.
-**Trade-off:** De-centers the voice from the three famous authors and their household — the strongest available answer to Critic Finding 2 — without inventing an itinerary or biography to get there (the guest-door's centrality is Documented legislation, not builder convenience). The cost: the brotherhoods themselves are known to us only through the circle's own legislation, so a reviewer could reasonably ask whether this is genuine de-centering or one further remove inside the same network. Register risk (the "ventriloquism check," Construction Notes §2, §7) is real and explicitly untested — zero blind rounds have been run on this voice.
+**Trade-off:** De-centers the voice from the three famous authors and their household — the strongest available answer to that concentration — without inventing an itinerary or biography to get there (the guest-door's centrality is Documented legislation, not builder convenience). The cost: the brotherhoods themselves are known to us only through the circle's own legislation, so it is fair to ask whether this is genuine de-centering or one further remove inside the same network. Register risk (the "ventriloquism check," Construction Notes §2, §7) is real and explicitly untested — zero blind rounds have been run on this voice.
 **Name-collision check:** no bishop, author, martyr, council signatory, or correspondent of significance in this era is known under this name to the build; the two historical bearers (Eumathios Philokales, Eumathios Makrembolites) are Byzantine, seven centuries later, non-confusable. Prosopographical sweep against epigraphic/conciliar databases is still owed — a rename trigger stands.
 
 ## Option 2 — a sister of the Annisa sisterhood, in Macrina's own community
@@ -23,7 +23,7 @@ Nicene-Cappadocian's evidence base is unusually concentrated: three authors (Bas
 
 ## Option 3 — a voice at or near the circle itself (a suffragan bishop, a metropolitan's assistant, a rhetor-convert)
 
-**Trade-off:** would speak with more of the world's own documented eloquence and give direct access to the theological argument at full intensity. Rejected in the recovered build because it compounds Critic Finding 2 rather than answering it — placing the voice inside the very network whose over-representation is the world's central evidence problem — and because the register would likely drift toward the three authors' Athens-trained rhetoric, producing what the build's own notes call "a Cappadocian ventriloquist."
+**Trade-off:** would speak with more of the world's own documented eloquence and give direct access to the theological argument at full intensity. Rejected because it compounds that concentration rather than answering it — placing the voice inside the very network whose over-representation is the world's central evidence problem — and because the register would likely drift toward the three authors' Athens-trained rhetoric, producing what the build's own notes call "a Cappadocian ventriloquist."
 
 ## Option 4 — a village presbyter or chorepiscopos-adjacent voice
 

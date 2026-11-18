@@ -183,6 +183,6 @@ def render_card(
         "- Embeddings are a separate metered class (proposal decision 2c) that Mark has not decided. The pipeline has only an interface for one "
         "(`index/embeddings.py`) and makes no embedder call.",
         "- Batch path: needs a guard extension (the guarded client exposes only `messages.create` and `messages.stream`), which is a change to "
-        "`engine/provider/guard.py` and its own change order.",
+        "`engine/provider/guard.py`.",
     ]
     return "\n".join(lines) + "\n"
