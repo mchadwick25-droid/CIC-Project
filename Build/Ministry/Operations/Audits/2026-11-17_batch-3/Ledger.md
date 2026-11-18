@@ -256,3 +256,4 @@ One row per agent pass. Tokens are the subagent's own count as the harness repor
 | john-wyclif | card 2 | Opus | 156,925 | 3 entries; Tyndale kept to his own words |
 | arius, justin, moses | blind second readings (4) | Opus, medium | 82,012 | done |
 | arius, justin, moses | compare second readings (4) | Opus, medium | 98,380 | 2 same, 2 minor; Arius and Justin cards take their verdicts (coordinator) |
+| alopen | outline: stone image restored as quote 3 (researcher, Mark's ruling) | Opus | — | beat 2; plain sense given |
