@@ -149,3 +149,5 @@ One row per agent pass. Tokens are the subagent's own count as the harness repor
 | council-of-chalcedon-451 | evaluation fix | Opus, fresh writer | 134,311 | stake in plain words; names 15 → 10; owners clear; ends in Dioscorus's own time; 586 words (~4:17 in Daniel's voice) against Mark's 560: for Mark |
 | moses-the-black | blind second reading (new quote) | Opus, low effort | 78,120 | MINOR |
 | council-of-chalcedon-451 | evaluation-fix check | Opus | 109,453 | PASS on content; 586 words, cuts listed |
+| toledo/moses/wyclif/alopen | evaluation-fix check | Opus | 116,745 | 3 PASS; Wyclif FAIL fixed (secular power, Palacky) |
+| council-of-chalcedon-451 | four no-cost cuts from the check (coordinator) | — | — | 586 → 569 words; Eutyches merge fixes check note 2 |
