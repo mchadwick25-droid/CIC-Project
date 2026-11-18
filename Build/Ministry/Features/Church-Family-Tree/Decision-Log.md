@@ -4658,3 +4658,14 @@ Each keeps its approved essence. One independent check follows, then the census,
 **Decided (Mark, 2026-11-18).**
 - A plain click on empty map closes the card. A drag to move the map never does. A click on a place, person, story, council or connection still opens that card in its place. The Who list stays open.
 - A recorded brief starts by itself and runs two to four minutes, so the first rule ("the card stays open while the brief plays") would have made the click do nothing on most recorded cards. Mark chose instead: the card closes and the brief keeps playing ("Close, keep listening"). A small bar at the bottom shows "Listening:" and the card's name, with Pause or Play, "Open the card", and a close button that stops the brief. Opening the card again brings it back as it was, with the brief still playing. Opening a different card stops the old brief and hides the bar. The × on a card still closes it and stops the brief.
+
+## 2026-11-18 — Two first-visit tours: Getting started and Connections
+
+**Why.** Mark asked for "a click demonstration for those new to the site" to show its features. A research pass on comparable sites (history timelines and maps, data tools, Nielsen Norman Group and Material guidance) found that short tours that people choose are the ones they finish, and that a tour on a map works best when it shows the real move. The research page and the approved plan were reviewed as artifacts in the session.
+
+**Decided (Mark, 2026-11-18).**
+- Offered on the first visit, never forced ("Offered on first visit"). Not offered on a shared link to one tradition.
+- Each step highlights one thing, says it in one or two sentences, then does the real click; the visitor steps with Back, Next and Stop ("Shows each click, you step").
+- Getting started has five steps: the map, a tradition (Scattered Households), who was there (People of the First Churches, then Josephus), the era (the Early Church Era card), and the bar and Key ("ok for an initial intro").
+- A second tour of three steps for connections ("can we add a second one for when they open the connections"): what a line means, how sure the record is, and reading one. It is offered the first time connections are turned on, from the menu or from a card ("First use, either way in").
+- The captions and behaviours in the plan were approved as written ("they look right"): the brief never starts by itself during a tour; Stop, Escape or Done returns the map to the visitor's view; each offer is shown once, remembered in the visitor's browser; both tours can be taken again from "Take a tour" in the Key and in the phone Menu.

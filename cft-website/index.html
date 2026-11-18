@@ -383,6 +383,24 @@ svg.strip-on #era-labels{display:none}
 #listenBar button:hover{border-color:var(--gold-leaf);color:var(--gold-leaf)}
 #listenBar button:focus-visible{outline:2px solid var(--madder);outline-offset:2px}
 @media (max-width:640px){#listenBar .lb-wide{display:none}}
+#tourBox{position:fixed;z-index:72;left:50%;transform:translateX(-50%);bottom:calc(var(--tour-lift,0px) + 1rem + env(safe-area-inset-bottom,0px));width:min(27rem,calc(100vw - 1.5rem));box-sizing:border-box;background:var(--vellum);color:var(--iron-gall);border:1px solid var(--gold-leaf);border-radius:12px;box-shadow:0 8px 28px rgba(0,0,0,.45);padding:.85rem 3rem .9rem 1.1rem;font-family:"Alegreya Sans",sans-serif}
+#tourBox[hidden]{display:none}
+#tourBox .tb-count{margin:0;font:700 .78rem "Alegreya Sans",sans-serif;letter-spacing:.09em;text-transform:uppercase;color:var(--gold-leaf)}
+#tourBox.is-offer .tb-count,#tourBox.is-offer #tourText{display:none}
+#tourBox h2{font:700 1.2rem/1.25 "Alegreya",serif;margin:.15rem 0 .3rem;outline:none}
+#tourBox p#tourText{margin:0 0 .7rem;font-size:1.02rem;line-height:1.45}
+#tourBox.is-offer h2{margin:.1rem 0 .7rem}
+#tourBox .tb-btns{display:flex;gap:.5rem;justify-content:flex-end;flex-wrap:wrap}
+#tourBox .tb-btns button[hidden]{display:none}
+#tourBox button{min-height:44px;padding:0 1rem;border:1px solid var(--rule);border-radius:999px;background:none;color:var(--iron-gall);font:700 .98rem "Alegreya Sans",sans-serif;cursor:pointer}
+#tourBox .tb-next{border-color:var(--gold-leaf);background:var(--tyrian-wash);color:var(--gold-leaf)}
+#tourBox button:hover{border-color:var(--gold-leaf)}
+#tourBox button:focus-visible{outline:2px solid var(--madder);outline-offset:2px}
+#tourBox .tb-stop{position:absolute;top:.35rem;right:.35rem;min-width:44px;padding:0;border:0;font-size:1.4rem;line-height:1;color:var(--ink-faded)}
+#tourRing{position:fixed;z-index:71;pointer-events:none;border:2px solid var(--gold-leaf);border-radius:10px;box-shadow:0 0 0 4px rgba(216,178,90,.28);transition:left .25s,top .25s,width .25s,height .25s}
+#tourRing[hidden]{display:none}
+.edge-hit.tour-glow{stroke:var(--gold-leaf)!important;stroke-opacity:.65;stroke-width:calc(9px / var(--zoom-scale,1))!important;display:inline!important}
+@media (prefers-reduced-motion:reduce){#tourRing{transition:none}}
 #listenBar .lb-stop{border:0;font-size:1.4rem;line-height:1;padding:0;color:var(--ink-faded)}
 #zoomHint{transition:opacity .4s}
 #zoomHint.gone{opacity:0;pointer-events:none}
@@ -509,6 +527,9 @@ svg.strip-on #era-labels{display:none}
   <a href="https://churchinconversation.com/">Church in Conversation</a>
   <a href="support.html">Help us grow</a>
   <button type="button" data-act="feedback">Tell us what you think</button>
+  <p class="tag">Take a tour</p>
+  <button type="button" data-tour="intro">Getting started</button>
+  <button type="button" data-tour="conn">Connections</button>
 </nav>
 <div class="feature-bar switches" id="switchbar" role="toolbar" aria-label="Show or hide parts of the map"></div>
 <div id="mapStatus" class="sr-only" role="status" aria-live="polite"></div>
@@ -534,6 +555,8 @@ svg.strip-on #era-labels{display:none}
 </aside>
 <div id="connChip" hidden><button type="button" class="cc-x"><span class="cc-t"></span><span aria-hidden="true">&times;</span></button><ul class="cc-key"><li><i style="background:var(--link-grow)"></i>Grew out of, continued as</li><li><i style="background:var(--link-influence)"></i>Influenced</li><li><i style="background:var(--link-conflict)"></i>Argued against, broke with</li><li><i style="background:var(--link-contact)"></i>In contact with, member of</li></ul></div>
 <div id="barToast" aria-hidden="true"></div>
+<div id="tourRing" hidden></div>
+<div id="tourBox" role="dialog" aria-modal="false" aria-labelledby="tourCount tourTitle" aria-describedby="tourText" hidden><p class="tb-count" id="tourCount"></p><h2 id="tourTitle" tabindex="-1"></h2><p id="tourText"></p><div class="tb-btns"><button type="button" class="tb-back">Back</button><button type="button" class="tb-next">Next</button></div><button type="button" class="tb-stop" aria-label="Stop the tour">&times;</button></div>
 <div id="listenBar" role="region" aria-label="Narration" hidden><button type="button" class="lb-play">Pause</button><span class="lb-text"><span class="lb-wide">Listening: </span><span class="lb-name"></span></span><button type="button" class="lb-open" aria-label="Open the card">Open<span class="lb-wide"> the card</span></button><button type="button" class="lb-stop" aria-label="Stop listening">&times;</button></div>
 <div id="zoomHint">Scroll to move &middot; Ctrl + scroll to zoom</div>
 
@@ -123507,7 +123530,7 @@ function mainNarration(){
   return [...panelBody.querySelectorAll('audio')].find(a=>!a.closest('details.docstory-item'));
 }
 function startNarration(a){
-  if(!a||!narrAuto())return;
+  if(!a||!narrAuto()||tour.on)return;
   const p=a.play();
   if(p&&p.catch)p.catch(()=>{});
 }
@@ -124088,6 +124111,7 @@ function buildLegend(){
   ];
   let key=`<dl class="key-list">${keyRows.map(r=>`<div class="key-row">${r[0]}<div><dt>${r[1]}</dt><dd>${r[2]}</dd></div></div>`).join('')}</dl>`;
   key+=`<p class="note">Zoom in to see more: first the major traditions, then every tradition and story, then places and people.</p><p class="note">Places are given with the country they lie in today.</p>`;
+  key+=`<span class="cap">Take a tour</span><button type="button" class="row tour-row" data-tour="intro"><span class="sw-name">Getting started</span></button><button type="button" class="row tour-row" data-tour="conn"><span class="sw-name">Connections</span></button>`;
   key+=`<div class="foot">&copy; 2026 Faithways Studio, Inc., a Colorado public benefit corporation &middot; <a href="license.html">License</a>. The same team makes <a href="https://churchinconversation.com/">Church in Conversation</a>.<br><a href="about.html">About</a> · <a href="method.html">Method</a> · <a href="data.html">Data and citation</a> · <a href="privacy.html">Privacy</a> · <a href="https://churchinconversation.com/license">License</a> · <a href="terms.html">Terms</a> · <a href="support.html">Help us grow</a></div>`;
   const group=(id,icon,label,body,extra)=>`<div class="chip-group grp-${id}"><button type="button" class="chip has-ico" aria-expanded="false" aria-controls="sw-${id}"${extra||''}>${barIcon(icon)}<span class="sw-name">${label}<span class="dn" aria-hidden="true"> &#9662;</span></span></button><div class="chip-panel" id="sw-${id}" hidden>${body}</div></div>`;
   const layer=(id,label)=>`<button type="button" class="chip has-ico" data-toggle="${id}" aria-pressed="true">${barIcon(id)}<span class="sw-name">${label}</span><span class="sw" aria-hidden="true"></span></button>`;
@@ -124142,7 +124166,8 @@ function buildLegend(){
     else{announce(`${label(b)} ${on?'showing':'hidden'}.`);toast(`${label(b)}: ${on?'on':'off'}`);}
   }));
   wrap.querySelectorAll('.conn-seg [data-mode]').forEach(b=>b.addEventListener('click',ev=>{
-    ev.stopPropagation(); linkMode=b.dataset.mode; save(); applyToggles();
+    ev.stopPropagation(); const was=linkMode; linkMode=b.dataset.mode; save(); applyToggles();
+    if(was==='off'&&linkMode!=='off')tourOfferConn();
     const shown=gEdges.querySelectorAll('.edge-line:not(.is-off)').length;
     announce(linkMode==='off'?'Connections hidden.':`${shown} ${linkMode==='major'?'major ':''}${shown===1?'connection':'connections'} showing.`);
   }));
@@ -124210,6 +124235,7 @@ function showConnections(m){
   connChip.querySelector('.cc-x').setAttribute('aria-label',`Connections: ${name}, ${n}. Clear ${n===1?'it':'them'} from the map.`);
   connChip.hidden=false; announce(`${n} ${cn} of ${name} showing.`);
   connChip.querySelector('.cc-x').focus();
+  tourOfferConn();
 }
 connChip.querySelector('.cc-x').addEventListener('click',clearConnections);
 document.addEventListener('keydown',ev=>{if(ev.key==='Escape'&&!ev.defaultPrevented&&connFocus&&!panel.classList.contains('open'))clearConnections();});
@@ -124735,6 +124761,223 @@ function positionFeatureBar(){
 }
 positionFeatureBar();
 window.addEventListener('resize',()=>{positionFeatureBar();applyTransform();if(whoScope&&!panel.classList.contains('open'))zoomToWho();});
+const TOUR_STORE={intro:'cft-tour-intro',conn:'cft-tour-conn'};
+const tourSeen=k=>{try{return localStorage.getItem(TOUR_STORE[k])==='seen';}catch(e){return false;}};
+const tourMark=k=>{try{localStorage.setItem(TOUR_STORE[k],'seen');}catch(e){}};
+const tourBox=document.getElementById('tourBox'), tourRing=document.getElementById('tourRing');
+const tour={on:null,offer:null,i:0,tok:0,saved:null,ownConn:false,opener:null,ring:null,raf:0,moveRaf:0};
+const TOUR_TRAD='post-apostolic-house-church';
+const tourWait=ms=>new Promise(r=>setTimeout(r,ms));
+function tourFree(){
+  const narrow=narrowScreen(), boxH=tourBox.hidden?0:tourBox.offsetHeight+24;
+  const left=!narrow&&!tray.hidden?tray.offsetWidth:0;
+  const right=window.innerWidth-(!narrow&&panel.classList.contains('open')?panel.offsetWidth:0);
+  const top=topInset(), bottom=window.innerHeight-barHeight()-(narrow&&!tray.hidden?tray.offsetHeight:0)-boxH;
+  return {x:left,y:top,w:Math.max(80,right-left),h:Math.max(80,bottom-top)};
+}
+function tourMoveTo(x,y,s){
+  stopGlide(); if(tour.moveRaf)cancelAnimationFrame(tour.moveRaf);
+  const r=tourFree(), to=[r.x+r.w/2-x*s,r.y+r.h/2-y*s,s];
+  if(reduceMotion.matches){[tx,ty,scale]=to;applyTransform();applyDetail();return Promise.resolve();}
+  const from=[tx,ty,scale], t0=performance.now(), D=650;
+  return new Promise(res=>{
+    const f=now=>{
+      const k=Math.min(1,(now-t0)/D), e=k<.5?2*k*k:1-Math.pow(-2*k+2,2)/2;
+      tx=from[0]+(to[0]-from[0])*e; ty=from[1]+(to[1]-from[1])*e; scale=from[2]+(to[2]-from[2])*e;
+      applyTransform();
+      if(k<1)tour.moveRaf=requestAnimationFrame(f); else{tour.moveRaf=0;applyDetail();res();}
+    };
+    tour.moveRaf=requestAnimationFrame(f);
+  });
+}
+function tourFrameEra(){const m=byId[TOUR_TRAD];return tourMoveTo(m._x+120,m._y+90,Z_READ);}
+function tourPoint(target){tour.ring=target||null;tourRing.hidden=!target;tourTrack();}
+function tourTrack(){
+  if(!tour.on&&!tour.offer){tour.raf=0;return;}
+  placeTourBox();
+  const t=tour.ring, els=typeof t==='function'?t():t?(Array.isArray(t)?t:[t]):[];
+  const card=panel.classList.contains('open')?panel.getBoundingClientRect():null;
+  const rs=els.filter(e=>e&&e.isConnected).map(e=>[e,e.getBoundingClientRect()]).filter(([e,r])=>(r.width||r.height)&&!(card&&!panel.contains(e)&&r.right>card.left&&r.left<card.right)).map(([e,r])=>r);
+  if(rs.length){
+    const x0=Math.min(...rs.map(r=>r.left)),y0=Math.min(...rs.map(r=>r.top)),x1=Math.max(...rs.map(r=>r.right)),y1=Math.max(...rs.map(r=>r.bottom)),p=6;
+    Object.assign(tourRing.style,{left:x0-p+'px',top:y0-p+'px',width:x1-x0+2*p+'px',height:y1-y0+2*p+'px'});
+    tourRing.hidden=false;
+    tourClearBox(x0-p,y0-p,x1+p,y1+p);
+  } else tourRing.hidden=true;
+  tour.raf=requestAnimationFrame(tourTrack);
+}
+function placeTourBox(){
+  const narrow=narrowScreen();
+  const lift=narrow?barHeight()+(tray.hidden||panel.classList.contains('open')?0:tray.offsetHeight):0;
+  tourBox.style.setProperty('--tour-lift',lift+'px');
+  if(narrow){tourBox.style.left='';return;}
+  const left=tray.hidden?0:tray.offsetWidth, right=window.innerWidth-(panel.classList.contains('open')?panel.offsetWidth:0);
+  tourBox.style.left=(left+right)/2+'px';
+}
+function tourClearBox(x0,y0,x1,y1){
+  if(narrowScreen())return;
+  const b=tourBox.getBoundingClientRect(), w=b.width, gap=16;
+  if(b.right<x0||b.left>x1||b.bottom<y0||b.top>y1)return;
+  if(x0-gap-w>=8)tourBox.style.left=x0-gap-w/2+'px';
+  else if(x1+gap+w<=window.innerWidth-8)tourBox.style.left=x1+gap+w/2+'px';
+}
+function tourClick(el){if(el)el.dispatchEvent(new MouseEvent('click',{bubbles:true}));}
+function tourCloseMenus(){document.body.click();}
+function tourGlow(els){document.querySelectorAll('.tour-glow').forEach(e=>e.classList.remove('tour-glow'));(els||[]).forEach(e=>e&&e.classList.add('tour-glow'));}
+function tourBase(){
+  if(panel.classList.contains('open')){lastFocused=null;closePanel();}
+  if(whoScope)clearWho();
+  tourCloseMenus(); tourGlow(null); tourPoint(null);
+}
+function tourVisibleHits(){
+  const r=tourFree();
+  return [...gEdges.querySelectorAll(connFocus?'.edge-hit.conn-lit':'.edge-hit:not(.is-off)')].filter(h=>getComputedStyle(h).display!=='none').filter(h=>{
+    const b=h.getBoundingClientRect(); return b.right>r.x&&b.left<r.x+r.w&&b.bottom>r.y&&b.top<r.y+r.h;});
+}
+function tourLines(){
+  const hits=tourVisibleHits();
+  const solid=hits.find(h=>h.dataset.conf==='Documented');
+  const broken=hits.find(h=>h.dataset.conf==='Contested'||h.dataset.conf==='Inferential-Thin')||hits.find(h=>h.dataset.conf&&h.dataset.conf!=='Documented');
+  return {solid,broken,any:hits[0]};
+}
+const linksChip=()=>document.querySelector('.grp-links .chip');
+function tourOpenLinks(){const c=linksChip();if(c&&!narrowScreen()&&document.getElementById(c.getAttribute('aria-controls')).hidden)tourClick(c);}
+const TOURS={
+  intro:[
+    {title:'The map',text:'Each colored river is a family of churches. Read down the map through ten eras, from the first house-churches to about 2010.',
+     enter:async ok=>{tourBase();await tourFrameEra();}},
+    {title:'A tradition',text:'Each small house is one tradition. Open it to read its story, or press play to hear it.',
+     enter:async ok=>{tourBase();await tourFrameEra();if(!ok())return;
+       const n=gNodes.querySelector(`.node[data-id="${TOUR_TRAD}"]`);tourPoint(n);await tourWait(700);if(!ok())return;tourClick(n);}},
+    {title:'Who was there',text:'A figure on a river stands for its people in that era. Open it to see who they were.',
+     enter:async ok=>{tourBase();await tourFrameEra();if(!ok())return;
+       const pill=gWhoPills.querySelector('.river-pill[data-who="r:0:0"]');tourPoint(pill);await tourWait(700);if(!ok())return;tourClick(pill);
+       await tourWait(500);if(!ok())return;
+       const a=whoPick&&whoPick.all.find(a=>(a.P.entry?a.P.entry.name:a.P.name)==='Josephus');
+       const row=a&&tray.querySelector(`.tray-row[data-key="${CSS.escape(a.P.key)}"]`);
+       tourPoint(row);await tourWait(700);if(!ok())return;if(row)row.click();}},
+    {title:'The era',text:'Each band is an era. Its title opens a card about what was happening across the whole church.',
+     enter:async ok=>{tourBase();await tourFrameEra();if(!ok())return;
+       const t=eraStrip.hidden?gLabels.querySelector('.era-label'):document.getElementById('eraStripBtn');tourPoint(t);await tourWait(700);if(!ok())return;
+       if(t&&t.tagName==='BUTTON')t.click();else tourClick(t);}},
+    {title:'Your view',text:'Use this bar to show or hide people, stories and councils. The Key explains every mark on the map.',
+     enter:async ok=>{tourBase();tourPoint(document.querySelector('.feature-bar'));await tourWait(1800);if(!ok())return;
+       tourPoint(document.querySelector('.grp-key .chip'));}}
+  ],
+  conn:[
+    {title:'What a line means',text:'A line joins two traditions where the sources record a link. Its color and the mark at its end show the kind of link.',
+     enter:async ok=>{tourBase();
+       if(narrowScreen()){tourPoint(connChip.hidden?null:connChip);return;}
+       tourOpenLinks();const rows=[...document.querySelectorAll('#sw-links [data-kind]')];
+       if(rows.length)rows[rows.length-1].scrollIntoView({block:'nearest'});tourPoint(()=>rows);}},
+    {title:'How sure the record is',text:'The pattern shows how sure the record is. A solid line is documented. The more broken the line, the thinner the evidence.',
+     enter:async ok=>{tourBase();const L=tourLines();
+       if(!L.solid&&!L.broken){if(!narrowScreen()){tourOpenLinks();const rows=[...document.querySelectorAll('#sw-links div.row')];
+         if(rows.length)rows[rows.length-1].scrollIntoView({block:'nearest'});tourPoint(()=>rows);}return;}
+       tourGlow([L.solid||L.broken]);if(!L.solid||!L.broken)return;
+       await tourWait(1600);if(!ok())return;tourGlow([L.broken]);}},
+    {title:'Read one',text:'Click any line to read what the sources say about it.',
+     enter:async ok=>{tourBase();const L=tourLines(),h=L.solid||L.any;if(!h)return;
+       tourGlow([h]);await tourWait(800);if(!ok())return;tourClick(h);}}
+  ]
+};
+function tourRender(){
+  const steps=TOURS[tour.on], s=steps[tour.i];
+  tourBox.classList.remove('is-offer');
+  document.getElementById('tourCount').textContent=`Step ${tour.i+1} of ${steps.length}`;
+  document.getElementById('tourTitle').textContent=s.title;
+  document.getElementById('tourText').textContent=s.text;
+  const back=tourBox.querySelector('.tb-back'), next=tourBox.querySelector('.tb-next');
+  back.textContent='Back'; back.hidden=tour.i===0;
+  next.textContent=tour.i===steps.length-1?'Done':'Next';
+  tourBox.querySelector('.tb-stop').setAttribute('aria-label','Stop the tour');
+}
+async function tourGo(i){
+  tour.i=i; const tok=++tour.tok, ok=()=>tour.tok===tok&&!!tour.on;
+  tourRender(); tourBox.hidden=false;
+  document.getElementById('tourTitle').focus();
+  await TOURS[tour.on][i].enter(ok);
+  if(ok()&&!tourBox.contains(document.activeElement))document.getElementById('tourTitle').focus();
+}
+function startTour(kind){
+  tourHideOffer(false);
+  if(tour.on)endTour();
+  stopNarration(); hideListenBar();
+  tour.opener=document.activeElement;
+  tour.saved={tx,ty,scale,who:whoScope,conn:connFocus};
+  tour.on=kind; tour.ownConn=false;
+  if(kind==='conn'&&effectiveLinkMode()==='off'&&!connFocus){tour.ownConn=true;showConnections(byId[TOUR_TRAD]);}
+  if(!tour.raf)tour.raf=requestAnimationFrame(tourTrack);
+  tourGo(0);
+}
+function endTour(){
+  if(!tour.on)return;
+  const sv=tour.saved, kind=tour.on, own=tour.ownConn;
+  tour.on=null; tour.tok++; tourBox.hidden=true; tourRing.hidden=true; tour.ring=null;
+  if(tour.moveRaf){cancelAnimationFrame(tour.moveRaf);tour.moveRaf=0;}
+  if(panel.classList.contains('open')){lastFocused=null;closePanel();}
+  if(whoScope)clearWho();
+  tourCloseMenus(); tourGlow(null);
+  if(kind==='conn'&&own)clearConnections();
+  if(sv){
+    if(sv.who&&!sv.conn)setWho(sv.who,{on:true});
+    if(sv.conn&&!(kind==='conn'&&own)&&connFocus!==sv.conn)showConnections(sv.conn);
+    tx=sv.tx;ty=sv.ty;scale=sv.scale;applyTransform();applyDetail();
+  }
+  const back=tour.opener; tour.opener=null;
+  if(back&&back.isConnected&&!back.closest('[inert],#tourBox,.chip-panel,#siteMenu')&&back!==document.body)back.focus(); else stage.focus({preventScroll:true});
+}
+const TOUR_OFFERS={
+  intro:{text:'New here? Take a one-minute tour of the map.',no:'Explore on my own'},
+  conn:{text:'New to connections? Take a 30-second tour.',no:'No thanks'}
+};
+function tourOffer(kind){
+  if(tour.on||tourSeen(kind))return;
+  const o=TOUR_OFFERS[kind];
+  tour.offer=kind;
+  tourBox.classList.add('is-offer');
+  document.getElementById('tourCount').textContent='';
+  document.getElementById('tourTitle').textContent=o.text;
+  document.getElementById('tourText').textContent='';
+  const back=tourBox.querySelector('.tb-back'), next=tourBox.querySelector('.tb-next');
+  back.hidden=false; back.textContent=o.no; next.textContent='Show me';
+  tourBox.querySelector('.tb-stop').setAttribute('aria-label',o.no);
+  tourBox.hidden=false;
+  if(!tour.raf)tour.raf=requestAnimationFrame(tourTrack);
+}
+function tourHideOffer(answered){
+  if(!tour.offer)return;
+  if(answered)tourMark(tour.offer);
+  tour.offer=null;
+  if(!tour.on)tourBox.hidden=true;
+}
+function tourOfferConn(){if(!tour.on&&!tourSeen('conn'))tourOffer('conn');}
+tourBox.addEventListener('click',ev=>{
+  ev.stopPropagation();
+  const b=ev.target.closest('button'); if(!b)return;
+  if(tour.offer){
+    const kind=tour.offer;
+    if(b.classList.contains('tb-next')){tourHideOffer(true);startTour(kind);}
+    else tourHideOffer(true);
+    return;
+  }
+  if(!tour.on)return;
+  const n=TOURS[tour.on].length;
+  if(b.classList.contains('tb-next')){if(tour.i<n-1)tourGo(tour.i+1);else endTour();}
+  else if(b.classList.contains('tb-back')){if(tour.i>0)tourGo(tour.i-1);}
+  else if(b.classList.contains('tb-stop'))endTour();
+});
+['pointerdown','wheel','touchstart'].forEach(t=>tourBox.addEventListener(t,ev=>ev.stopPropagation(),{passive:true}));
+document.addEventListener('keydown',ev=>{
+  if(ev.key!=='Escape')return;
+  if(tour.on){ev.preventDefault();ev.stopPropagation();endTour();}
+  else if(tour.offer){ev.preventDefault();ev.stopPropagation();tourHideOffer(true);}
+},true);
+document.addEventListener('click',ev=>{
+  const b=ev.target.closest&&ev.target.closest('[data-tour]'); if(!b)return;
+  ev.preventDefault(); ev.stopPropagation(); tourCloseMenus(); startTour(b.dataset.tour);
+},true);
+if(!location.search)setTimeout(()=>{if(!panel.classList.contains('open')&&!whoScope)tourOffer('intro');},1200);
 
 render();
 buildLegend();
