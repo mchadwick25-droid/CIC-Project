@@ -158,3 +158,4 @@ One row per agent pass. Tokens are the subagent's own count as the harness repor
 | alopen | re-outline (heart of their life) | Opus | 142,596 | heart: first recorded mission; opening on the 1625 finding |
 | baudonivia | re-outline (heart of their life) | Opus | 142,395 | heart: what her Life of Radegund tells |
 | thomas-a-kempis | re-outline (heart of their life) | Opus | 138,882 | heart: what the Imitation teaches |
+| third-council-of-toledo-589 | re-outline (heart of their life) | Opus | 166,348 | heart: the Goths' faith given up; and the Son |
