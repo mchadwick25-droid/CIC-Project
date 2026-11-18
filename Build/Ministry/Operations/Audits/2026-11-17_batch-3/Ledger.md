@@ -133,4 +133,5 @@ One row per agent pass. Tokens are the subagent's own count as the harness repor
 | pachomius | card | Opus | 155,215 | briefLength; 7 sources (his Lives among them); 16 references; 3 quotation originals; 1 correction ("reach us through Palladius" → "through his Coptic and Greek Lives, through Palladius"); datesNote's credited "died 348" left for the checker |
 | council-of-chalcedon-451 | final check | Opus, low effort | 93,131 | PASS; minor: Armenia's credit to Ormanian restored by the coordinator, two filler words dropped to stay at 560 |
 | (3 pieces) | second-reading requests | Sonnet | 155,048 | 26 quotations located (Toledo 8, Chalcedon 14, Pachomius 4); originals pointed to where held |
-| council-of-chalcedon-451 | card | Sonnet | (count) | additions only (briefLength, 15 references, 13 quotation originals, 4 sources); 2 claims left in place and flagged |
+| council-of-chalcedon-451 | card | Sonnet | 170,160 | additions only (briefLength, 15 references, 13 quotation originals, 4 sources); 2 claims left in place and flagged |
+| (3 cards) | script check | script | — | original fields unchanged and in order except those listed |
