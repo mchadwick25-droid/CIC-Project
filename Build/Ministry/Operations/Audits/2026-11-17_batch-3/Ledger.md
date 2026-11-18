@@ -196,3 +196,4 @@ One row per agent pass. Tokens are the subagent's own count as the harness repor
 | council-of-chalcedon-451 | write (fresh, heart first) | Opus | 104,996 | 565 words, grade 9.1, pass |
 | pachomius | write (fresh, heart first) | Opus | 99,272 | 470 words, grade 8.3, pass |
 | baudonivia | review 2 minors applied (writer) | Opus | — | 346 words, grade 6.9 |
+| third-council-of-toledo-589 | outline amended from review 2 (researcher) | Opus | — | heart's second half in first 130 words; force must-tell; ceiling 420 |
