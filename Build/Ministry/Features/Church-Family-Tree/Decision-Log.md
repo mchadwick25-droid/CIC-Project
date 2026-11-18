@@ -4640,3 +4640,13 @@ Heard lengths: the people run from 2:07 (Baudonivia) to 3:12 (Arius). Toledo run
 - Radegund: her strongest moments earlier, and "Chlothar", as in Baudonivia's recorded piece.
 
 Each keeps its approved essence. One independent check follows, then the census, then the scripts go back to Mark. This is a change order on finished texts, because the faults are one-hearing faults, not polish. The kit changes for batch 5 come after.
+
+## 2026-11-18 — The Who list says who each person was; the Origin river is renamed
+
+**Why.** Mark: clicking a Who figure gave "a menu … with names but not clear understanding who they are". The list showed names and dates only. Its heading, "Who: Origin, era 1", used the builder's name for the trunk river and an era number.
+
+**Decided (Mark, 2026-11-18).**
+- The list stays on the left and the person card on the right, so both are seen together ("seeing them together … makes more sense"; "Keep today's sides").
+- Each row shows the person's role line from their card, under the name ("Tacitus · Roman historian"). The tradition panel's Who list shows it too. The 27 people with no card yet show name and dates only. They fill in when the Who profile rewrite gives them cards; no role line is written for them here.
+- The heading reads "People of …" ("A"), with the era's own one-line description under it ("and a brief description"), then the era title, the count and the dates. A tradition's list reads "People of" its name.
+- The Origin river is renamed "The First Churches" everywhere ("B"). Each river carries the phrase its Who heading uses (`of` in the river list): a region reads "the Greek East", a bridge river "the Greek and Latin river", Across families "many families". The census validator's council river name changes to match; no council names the river yet.

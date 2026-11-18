@@ -327,6 +327,7 @@ svg.strip-on #era-labels{display:none}
 #whoTray .tray-title{flex:1;min-width:0}
 #whoTray h2{font-family:"Alegreya",serif;font-size:1.2rem;line-height:1.2;margin:0}
 #whoTray .tray-sub{font-size:.9rem;color:var(--ink-faded);margin:.15rem 0 0}
+#whoTray .tray-tag{font-family:"Alegreya",serif;font-style:italic;font-size:.98rem;line-height:1.3;margin:.2rem 0 0}
 #whoTray .tray-btn{flex:none;min-width:44px;min-height:44px;background:none;border:0;color:var(--ink-faded);font:inherit;font-size:1.4rem;line-height:1;cursor:pointer;border-radius:4px}
 #whoTray .tray-btn:hover{color:var(--gold-leaf)}
 #whoTray button:focus-visible{outline:2px solid var(--madder);outline-offset:-2px}
@@ -344,8 +345,9 @@ svg.strip-on #era-labels{display:none}
 #whoTray .tray-row:hover{background:var(--tyrian-wash)}
 #whoTray .nm{font-family:"Alegreya",serif;font-size:1.06rem;line-height:1.25}
 #whoTray .tray-row.on-map .nm{font-weight:700}
+#whoTray .rl{grid-column:1;font-size:.92rem;line-height:1.3}
 #whoTray .dt{grid-column:1;font-size:.85rem;color:var(--ink-faded);line-height:1.3}
-#whoTray .mk{grid-row:1/span 2;grid-column:2;font:700 .75rem "Alegreya Sans",sans-serif;letter-spacing:.05em;color:var(--gold-leaf);white-space:nowrap}
+#whoTray .mk{grid-row:1/span 3;grid-column:2;font:700 .75rem "Alegreya Sans",sans-serif;letter-spacing:.05em;color:var(--gold-leaf);white-space:nowrap}
 #connChip{position:fixed;z-index:22;left:.6rem;top:calc(var(--map-top,8rem) + var(--strip-h,0px) + .6rem);max-width:calc(100vw - 5rem);background:var(--vellum);border:1px solid var(--gold-leaf);border-radius:8px;box-shadow:var(--shadow);padding:.2rem .5rem .4rem}
 #connChip[hidden]{display:none}
 #connChip .cc-x{display:flex;align-items:center;gap:.6rem;min-height:44px;background:none;border:0;color:var(--gold-leaf);font:700 1rem "Alegreya Sans",sans-serif;cursor:pointer;padding:0 .2rem}
@@ -516,7 +518,7 @@ svg.strip-on #era-labels{display:none}
 </div>
 <aside id="whoTray" hidden aria-labelledby="trayTitle">
   <div class="tray-head"><button type="button" class="tray-btn tray-grip" aria-expanded="true" aria-label="Make the list smaller">&#9662;</button>
-  <div class="tray-title"><h2 id="trayTitle"></h2><p class="tray-sub"></p></div>
+  <div class="tray-title"><h2 id="trayTitle"></h2><p class="tray-tag" hidden></p><p class="tray-sub"></p></div>
   <button type="button" class="tray-btn tray-close" aria-label="Close the Who list and clear the names from the map">&times;</button></div>
   <div class="tray-sort" role="group" aria-label="Order of the list"><button type="button" data-sort="date" aria-pressed="true">By date</button><button type="button" data-sort="trad" aria-pressed="false">By tradition</button></div>
   <div class="tray-body"></div>
@@ -121671,21 +121673,21 @@ const DATA = {
 ;
 
 const FAM=[
- {k:0,  name:"Origin", common:"The first churches", col:"#e86155"},
- {k:1,  name:"Syriac East", common:"Church of the East and other Syriac churches", col:"#95455c"},
- {k:1.5,name:"Syriac and Protestant", common:"Mar Thoma and churches of northeast India", col:"#ac9000"},
- {k:2,  name:"Caucasus", common:"Armenian and Georgian", col:"#357339"},
- {k:3,  name:"Greek East", common:"Orthodox", col:"#4255c4"},
- {k:3.4,name:"Church and Empire", common:"The church of the Roman Empire", col:"#de6e29"},
- {k:3.5,name:"Greek and Latin", common:"", col:"#a27adf"},
- {k:4,  name:"Africa", common:"Coptic, Ethiopian and other African churches", col:"#12a5b1"},
- {k:4.5,name:"Africa and Latin", common:"Catholics in Africa", col:"#65a30d"},
- {k:5,  name:"Latin West", common:"Catholic", col:"#8b5500"},
- {k:5.5,name:"Latin and Protestant", common:"", col:"#7d43a7"},
- {k:6,  name:"Protestant & Evangelical", common:"", col:"#2c93ff"},
- {k:7,  name:"Global Revival & Pentecostal", common:"", col:"#e257a4"},
- {k:50, name:"Across families", common:"", col:"#798224"},
- {k:80, name:"Non-Nicene", common:"Outside the Nicene Creed", col:"#6c72bc"}
+ {k:0,  name:"The First Churches", common:"", of:"the First Churches", col:"#e86155"},
+ {k:1,  name:"Syriac East", of:"the Syriac East", common:"Church of the East and other Syriac churches", col:"#95455c"},
+ {k:1.5,name:"Syriac and Protestant", of:"the Syriac and Protestant river", common:"Mar Thoma and churches of northeast India", col:"#ac9000"},
+ {k:2,  name:"Caucasus", of:"the Caucasus", common:"Armenian and Georgian", col:"#357339"},
+ {k:3,  name:"Greek East", of:"the Greek East", common:"Orthodox", col:"#4255c4"},
+ {k:3.4,name:"Church and Empire", of:"the Church and Empire river", common:"The church of the Roman Empire", col:"#de6e29"},
+ {k:3.5,name:"Greek and Latin", of:"the Greek and Latin river", common:"", col:"#a27adf"},
+ {k:4,  name:"Africa", of:"Africa", common:"Coptic, Ethiopian and other African churches", col:"#12a5b1"},
+ {k:4.5,name:"Africa and Latin", of:"the Africa and Latin river", common:"Catholics in Africa", col:"#65a30d"},
+ {k:5,  name:"Latin West", of:"the Latin West", common:"Catholic", col:"#8b5500"},
+ {k:5.5,name:"Latin and Protestant", of:"the Latin and Protestant river", common:"", col:"#7d43a7"},
+ {k:6,  name:"Protestant & Evangelical", of:"the Protestant & Evangelical river", common:"", col:"#2c93ff"},
+ {k:7,  name:"Global Revival & Pentecostal", of:"the Global Revival & Pentecostal river", common:"", col:"#e257a4"},
+ {k:50, name:"Across families", of:"many families", common:"", col:"#798224"},
+ {k:80, name:"Non-Nicene", of:"the Non-Nicene river", common:"Outside the Nicene Creed", col:"#6c72bc"}
 ];
 function famOf(laneOrder){let best=FAM[0],bd=1e9;FAM.forEach(f=>{const d=Math.abs(f.k-laneOrder);if(d<bd){bd=d;best=f;}});return best;}
 const famColor=f=>f.col;
@@ -122537,9 +122539,10 @@ function scopePeople(sc){
 
 let whoScope=null, whoPick=null;
 function whoScopeLabel(scope){
-  if(scope.type==='trad')return scope.m.shortName||scope.m.name;
-  return `${famOf(scope.lane).name}, era ${eras[scope.era].num}`;
+  if(scope.type==='trad'){const t=scope.m.shortName||scope.m.name;return `People of ${t.replace(/^The /,'the ')}`;}
+  return `People of ${famOf(scope.lane).of}`;
 }
+const whoPillTitle=(k,i)=>`${whoScopeLabel({type:'river',lane:k,era:i})} · ${eras[i].title}`;
 function whoScopeKey(scope){return scope?(scope.type==='trad'?`t:${scope.m.id}`:`r:${scope.lane}:${scope.era}`):'';}
 function whoNameRow(P,x,y,col,fu,line,withDates){
   const U=markU();
@@ -122721,7 +122724,7 @@ function syncWhoControls(){
   const chip=document.getElementById('who-chip');
   if(chip){
     chip.hidden=!whoScope;
-    if(whoScope){chip.querySelector('.who-chip-label').textContent=`Who: ${whoScopeLabel(whoScope)}`;chip.setAttribute('aria-label',`Who: ${whoScopeLabel(whoScope)}. Clear the names from the map.`);}
+    if(whoScope){chip.querySelector('.who-chip-label').textContent=whoScopeLabel(whoScope);chip.setAttribute('aria-label',`${whoScopeLabel(whoScope)}. Clear the names from the map.`);}
     fitFeatureBar();
   }
   document.querySelectorAll('[data-who]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.who===key)));
@@ -122734,16 +122737,16 @@ function whoTipParts(scope){
 }
 function whoTipHTML(title,scope){
   const {names,more}=whoTipParts(scope);
-  return `<div class="n">Who: ${esc(title)}</div>`+names.map(n=>`<div class="m">${esc(n)}</div>`).join('')+(more?`<div class="m">+${more} more</div>`:'');
+  return `<div class="n">${esc(title)}</div>`+names.map(n=>`<div class="m">${esc(n)}</div>`).join('')+(more?`<div class="m">+${more} more</div>`:'');
 }
 function whoAriaLabel(title,scope,n){
   const {names,more}=whoTipParts(scope);
-  return `Who: ${title}, ${n} ${n===1?'person':'people'}: ${names.join(', ')}${more?`, and ${more} more`:''}`;
+  return `${title}, ${n} ${n===1?'person':'people'}: ${names.join(', ')}${more?`, and ${more} more`:''}`;
 }
 function renderWhoPills(){
   riverWho.forEach((list,key)=>{
     const [k,i]=key.split(':').map(Number), n=list.length, col=famColor(famOf(k)), scope={type:'river',lane:k,era:i};
-    const label=whoAriaLabel(`${famOf(k).name}, era ${eras[i].num}`,scope,n);
+    const label=whoAriaLabel(whoPillTitle(k,i),scope,n);
     const g=el('g',{class:'who-pill river-pill','data-lane':k,'data-era':i,'data-who':whoScopeKey(scope),tabindex:'0',role:'button','aria-pressed':'false','aria-label':label});
     g.appendChild(el('circle',{class:'who-hit',r:0}));
     g.appendChild(el('rect',{class:'who-cap',stroke:col}));
@@ -122754,7 +122757,7 @@ function renderWhoPills(){
     const go=()=>setWho(scope);
     g.addEventListener('click',ev=>{ev.stopPropagation();go();});
     g.addEventListener('keydown',ev=>{if(ev.key==='Enter'||ev.key===' '){ev.preventDefault();ev.stopPropagation();go();}});
-    g.addEventListener('mouseenter',ev=>showTip(ev,whoTipHTML(`${famOf(k).name}, era ${eras[i].num}`,scope)));
+    g.addEventListener('mouseenter',ev=>showTip(ev,whoTipHTML(whoPillTitle(k,i),scope)));
     g.addEventListener('mousemove',ev=>positionTip(ev));
     g.addEventListener('mouseleave',hideTip);
     gWhoPills.appendChild(g);
@@ -122895,7 +122898,8 @@ function syncTrayGrip(){
 function trayRowHTML(a,withTrad){
   const onMap=whoPick.shown.includes(a), P=a.P;
   const sub=[personDates(P),withTrad&&!a.m.gap&&(a.m.shortName||a.m.name)].filter(Boolean).join(' · ');
-  return `<li><button type="button" class="tray-row${onMap?' on-map':''}" data-key="${esc(P.key)}"><span class="nm">${esc(P.entry?P.entry.name:P.name)}</span><span class="dt">${esc(sub)}</span>${onMap?'<span class="mk">On the map</span>':''}</button></li>`;
+  const role=P.entry&&P.entry.card&&P.entry.card.role;
+  return `<li><button type="button" class="tray-row${onMap?' on-map':''}" data-key="${esc(P.key)}"><span class="nm">${esc(P.entry?P.entry.name:P.name)}</span>${role?`<span class="rl">${esc(role)}</span>`:''}<span class="dt">${esc(sub)}</span>${onMap?'<span class="mk">On the map</span>':''}</button></li>`;
 }
 function renderTray(){
   document.body.classList.toggle('tray-open',!!whoScope);
@@ -122903,8 +122907,9 @@ function renderTray(){
   applyTransform();
   if(!whoScope)return;
   const n=whoPick.all.length, sc=whoScope, era=sc.type==='river'?eras[sc.era]:null;
-  tray.querySelector('h2').textContent=`Who: ${whoScopeLabel(sc)}`;
-  tray.querySelector('.tray-sub').textContent=`${n} ${n===1?'person':'people'}${era?' · '+plainDates(era.dates):''}`;
+  tray.querySelector('h2').textContent=whoScopeLabel(sc);
+  const tag=tray.querySelector('.tray-tag'); tag.textContent=era?era.tag:''; tag.hidden=!era;
+  tray.querySelector('.tray-sub').textContent=[era&&era.title,`${n} ${n===1?'person':'people'}`,era&&plainDates(era.dates)].filter(Boolean).join(' · ');
   tray.querySelector('.tray-sort').hidden=sc.type==='trad'||whoPick.trads.filter(m=>!m.gap).length<2;
   tray.querySelectorAll('.tray-sort button').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.sort===traySort)));
   let h='';
@@ -122945,7 +122950,7 @@ function peopleHTML(m){
   const list=(peopleOf[m.id]||[]).length?scopePeople({type:'trad',m}).all.map(a=>a.P):[];
   if(!list.length)return !(m.people||[]).length&&m.peopleNote?`<h3 id="people-section">Who</h3><p class="people-note">${esc(m.peopleNote)}</p>`:'';
   return `<h3 id="people-section" tabindex="-1">Who</h3><ul class="people-list">${list.map(P=>
-    `<li><button type="button" class="panel-link" data-person="${esc(P.key)}">${esc(P.entry?P.entry.name:P.name)}</button> · ${esc(personDates(P))}</li>`).join('')}</ul>`;
+    `<li><button type="button" class="panel-link" data-person="${esc(P.key)}">${esc(P.entry?P.entry.name:P.name)}</button> · ${P.entry&&P.entry.card&&P.entry.card.role?esc(P.entry.card.role)+' · ':''}${esc(personDates(P))}</li>`).join('')}</ul>`;
 }
 function briefLength(seconds){
   if(seconds<90)return 'about a minute';
