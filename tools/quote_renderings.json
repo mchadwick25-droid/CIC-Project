@@ -860,84 +860,6 @@
    }
   },
   {
-   "id": "thomas-a-kempis",
-   "quote": "At Manresa he had first seen the little Gerson. After that he never wanted to read any other book of devotion. He commended it to everyone he dealt with. He read one chapter a day, in order.",
-   "original": {
-    "file": "cic/texts/ignatius-loyola_scripta-de-sancto-ignatio-tomus01-lat-spa-ita_1904.txt",
-    "lines": "9403-9406",
-    "language": "Spanish"
-   },
-   "second_reading": {
-    "record": "Build/Ministry/Operations/Audits/2026-11-17_batch-3/Second_Readings.md",
-    "verdict": "minor"
-   }
-  },
-  {
-   "id": "john-wyclif",
-   "quote": "I do not know where John Wyclif's soul is. I hope that he is saved, and I fear that he may be damned. Yet in hope I would wish my soul to be where John Wyclif's soul is.",
-   "original": {
-    "file": "cic/texts/palacky_documenta-mag-joannis-hus-lat-ces_1869.txt",
-    "lines": "15246-15249",
-    "language": "Latin"
-   },
-   "second_reading": {
-    "record": "Build/Ministry/Operations/Audits/2026-11-17_batch-3/Second_Readings.md",
-    "verdict": "same"
-   }
-  },
-  {
-   "id": "justin-martyr",
-   "quote": "At once a fire was lit in my soul. A love took hold of me for the prophets, and for those men who are friends of Christ. As I turned his words over in my mind, I found this to be the only philosophy that is sure and useful. That is how, and why, I am a philosopher.",
-   "original": {
-    "file": "cic/texts/justin-martyr_dialogue-with-trypho-grc_archambault1909.txt",
-    "lines": "429-435",
-    "language": "Greek"
-   },
-   "second_reading": {
-    "record": "Build/Ministry/Operations/Audits/2026-11-17_batch-3/Second_Readings.md",
-    "verdict": "same"
-   }
-  },
-  {
-   "id": "justin-martyr",
-   "quote": "So you suppose that you will go up into the heavens, to receive some reward?",
-   "original": {
-    "file": "cic/texts/acta-martyrum-selecta_gebhardt1902.txt",
-    "lines": "1410-1411",
-    "language": "Greek"
-   },
-   "second_reading": {
-    "record": "Build/Ministry/Operations/Audits/2026-11-17_batch-3/Second_Readings.md",
-    "verdict": "minor"
-   }
-  },
-  {
-   "id": "justin-martyr",
-   "quote": "I do not suppose it. I know it, and I am fully sure of it.",
-   "original": {
-    "file": "cic/texts/acta-martyrum-selecta_gebhardt1902.txt",
-    "lines": "1420-1421",
-    "language": "Greek"
-   },
-   "second_reading": {
-    "record": "Build/Ministry/Operations/Audits/2026-11-17_batch-3/Second_Readings.md",
-    "verdict": "same"
-   }
-  },
-  {
-   "id": "vardan-mamikonian",
-   "quote": "But God took from them the promise that Vardan, general of the Armenians, had given: to make his name famous. For God gave him the title of martyr, which would last forever among all nations.",
-   "original": {
-    "file": "cic/texts/langlois_collection-historiens-armenie-tomes1-2-fra_1867-1869.txt",
-    "lines": "91072-91076",
-    "language": "French"
-   },
-   "second_reading": {
-    "record": "Build/Ministry/Operations/Audits/2026-11-17_batch-3/Second_Readings.md",
-    "verdict": "same"
-   }
-  },
-  {
    "id": "vardan-mamikonian",
    "quote": "But I received this religion from God as a child. To abandon it, and change it out of fear of men, is not possible!",
    "original": {
@@ -957,19 +879,6 @@
     "file": "cic/texts/langlois_collection-historiens-armenie-tomes1-2-fra_1867-1869.txt",
     "lines": "82667-82673",
     "language": "French"
-   },
-   "second_reading": {
-    "record": "Build/Ministry/Operations/Audits/2026-11-17_batch-3/Second_Readings.md",
-    "verdict": "minor"
-   }
-  },
-  {
-   "id": "moses-the-black",
-   "quote": "So what do you tell me to do with these?",
-   "original": {
-    "file": "cic/texts/palladius_lausiac-history_clarke1918.txt",
-    "lines": "335",
-    "language": "English"
    },
    "second_reading": {
     "record": "Build/Ministry/Operations/Audits/2026-11-17_batch-3/Second_Readings.md",
@@ -1043,32 +952,6 @@
   },
   {
    "id": "baudonivia",
-   "quote": "I ask your prayer to help me. I am less learned, more devoted.",
-   "original": {
-    "file": "cic/texts/fredegar-liber-historiae-francorum-vitae-mgh-srm-2-lat_krusch1888.txt",
-    "lines": "29492-29493",
-    "language": "Latin"
-   },
-   "second_reading": {
-    "record": "Build/Ministry/Operations/Audits/2026-11-17_batch-3/Second_Readings.md",
-    "verdict": "same"
-   }
-  },
-  {
-   "id": "baudonivia",
-   "quote": "What she did in the land of the East, blessed Radegund did in Gaul.",
-   "original": {
-    "file": "cic/texts/fredegar-liber-historiae-francorum-vitae-mgh-srm-2-lat_krusch1888.txt",
-    "lines": "30245",
-    "language": "Latin"
-   },
-   "second_reading": {
-    "record": "Build/Ministry/Operations/Audits/2026-11-17_batch-3/Second_Readings.md",
-    "verdict": "same"
-   }
-  },
-  {
-   "id": "baudonivia",
    "quote": "Her eyes were closed, and ours were darkened.",
    "original": {
     "file": "cic/texts/fredegar-liber-historiae-francorum-vitae-mgh-srm-2-lat_krusch1888.txt",
@@ -1095,32 +978,6 @@
   },
   {
    "id": "arius",
-   "quote": "as godless men",
-   "original": {
-    "file": "cic/texts/epiphanius_panarion-haer-48-69-corpus-haereseologicum-t2-pars-posterior-grc-lat_oehler1860.txt",
-    "lines": "45607",
-    "language": "Greek"
-   },
-   "second_reading": {
-    "record": "Build/Ministry/Operations/Audits/2026-11-17_batch-3/Second_Readings.md",
-    "verdict": "same"
-   }
-  },
-  {
-   "id": "arius",
-   "quote": "I have walked in their footsteps, sharing their belief. I am the famous one, who has suffered much for the glory of God. Taught by God, I have come to know wisdom and knowledge.",
-   "original": {
-    "file": "cic/texts/athanasius_opera-omnia-pg26-grc-lat_migne1857.txt",
-    "lines": "1194-1225",
-    "language": "Greek"
-   },
-   "second_reading": {
-    "record": "Build/Ministry/Operations/Audits/2026-11-17_batch-3/Second_Readings.md",
-    "verdict": "minor"
-   }
-  },
-  {
-   "id": "arius",
    "quote": "We have not been followers of Arius. For how could we, who are bishops, follow a priest?",
    "original": {
     "file": "cic/texts/socrates_historia-ecclesiastica-tomus1-grc-lat_hussey1853.txt",
@@ -1134,75 +991,10 @@
   },
   {
    "id": "third-council-of-toledo-589",
-   "quote": "by reason rather than command",
-   "original": {
-    "file": "cic/texts/chronica-minora-2_marcellinus-victor-tunnunensis-biclaro-isidore-mgh-aa-11-lat_mommsen1894.txt",
-    "lines": "20314-20316",
-    "language": "Latin"
-   },
-   "second_reading": {
-    "record": "Build/Ministry/Operations/Audits/2026-11-17_batch-3/Second_Readings_2.md",
-    "verdict": "same"
-   }
-  },
-  {
-   "id": "third-council-of-toledo-589",
-   "quote": "I will most gladly die for the religion I have held from my youth until now,",
-   "original": {
-    "file": "cic/texts/paulus-emeritanus-braulio-sisebut-pl80-lat_migne1863.txt",
-    "lines": "12068-12070",
-    "language": "Latin"
-   },
-   "second_reading": {
-    "record": "Build/Ministry/Operations/Audits/2026-11-17_batch-3/Second_Readings_2.md",
-    "verdict": "minor"
-   }
-  },
-  {
-   "id": "third-council-of-toledo-589",
    "quote": "that came from Arius",
    "original": {
     "file": "cic/texts/collectio-canonum-ecclesiae-hispanae-toledo-iii-lat_1808.txt",
     "lines": "36900-36904",
-    "language": "Latin"
-   },
-   "second_reading": {
-    "record": "Build/Ministry/Operations/Audits/2026-11-17_batch-3/Second_Readings_2.md",
-    "verdict": "same"
-   }
-  },
-  {
-   "id": "third-council-of-toledo-589",
-   "quote": "No one doubts that we and those before us went astray in the Arian heresy. We have now learned the faith of the Gospel and the apostles, within the Catholic church.",
-   "original": {
-    "file": "cic/texts/collectio-canonum-ecclesiae-hispanae-toledo-iii-lat_1808.txt",
-    "lines": "36981-36986",
-    "language": "Latin"
-   },
-   "second_reading": {
-    "record": "Build/Ministry/Operations/Audits/2026-11-17_batch-3/Second_Readings_2.md",
-    "verdict": "same"
-   }
-  },
-  {
-   "id": "third-council-of-toledo-589",
-   "quote": "after long killings of Catholics and slaughter of the innocent",
-   "original": {
-    "file": "cic/texts/chronica-minora-2_marcellinus-victor-tunnunensis-biclaro-isidore-mgh-aa-11-lat_mommsen1894.txt",
-    "lines": "20408-20409",
-    "language": "Latin"
-   },
-   "second_reading": {
-    "record": "Build/Ministry/Operations/Audits/2026-11-17_batch-3/Second_Readings_2.md",
-    "verdict": "same"
-   }
-  },
-  {
-   "id": "third-council-of-toledo-589",
-   "quote": "through almost all Spain and Gaul",
-   "original": {
-    "file": "cic/texts/collectio-canonum-ecclesiae-hispanae-toledo-iii-lat_1808.txt",
-    "lines": "37680-37681",
     "language": "Latin"
    },
    "second_reading": {
@@ -1277,19 +1069,6 @@
   },
   {
    "id": "pachomius",
-   "quote": "Pachomius, Pachomius, the will of God is that you serve the human race and unite them to Him.",
-   "original": {
-    "file": "cic/texts/amelineau_histoire-de-saint-pakhome-annales-guimet-17_leroux1889.txt",
-    "lines": "6247-6248",
-    "language": "French"
-   },
-   "second_reading": {
-    "record": "Build/Ministry/Operations/Audits/2026-11-17_batch-3/Second_Readings_2.md",
-    "verdict": "minor"
-   }
-  },
-  {
-   "id": "pachomius",
    "quote": "Take this blanket away from here at once. It is not right that I should be better off in anything than the other brothers.",
    "original": {
     "file": "cic/texts/acta-sanctorum_maii-tomus-3-lat-grc_palme1866.txt",
@@ -1298,6 +1077,370 @@
    },
    "second_reading": {
     "record": "Build/Ministry/Operations/Audits/2026-11-17_batch-3/Second_Readings_2.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "justin-martyr",
+   "quote": "the only philosophy that is sure and useful",
+   "original": {
+    "file": "cic/texts/justin-martyr_dialogue-with-trypho-grc_archambault1909.txt",
+    "lines": "429-435",
+    "language": "Greek"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-17_batch-3/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "justin-martyr",
+   "quote": "We have been taught that Christ is the firstborn of God. We have shown already that he is the Word, in whom every race of people has had a share. And those who lived with the Word are Christians, even if they were counted godless.",
+   "original": {
+    "file": "cic/texts/justin-martyr_first-apology-grc_rauschen1911.txt",
+    "lines": "1230-1234",
+    "language": "Greek"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-17_batch-3/Second_Readings_4.md",
+    "verdict": "minor"
+   }
+  },
+  {
+   "id": "justin-martyr",
+   "quote": "So you suppose that you will go up into the heavens, to receive some good rewards?",
+   "original": {
+    "file": "cic/texts/knopf_ausgewaehlte-maertyrerakten-lat-grc-deu_krueger1929.txt",
+    "lines": "1754-1756",
+    "language": "Greek"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-17_batch-3/Second_Readings_3.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "justin-martyr",
+   "quote": "I do not suppose it. I know it for certain, and I am fully sure of it.",
+   "original": {
+    "file": "cic/texts/knopf_ausgewaehlte-maertyrerakten-lat-grc-deu_krueger1929.txt",
+    "lines": "1756-1757",
+    "language": "Greek"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-17_batch-3/Second_Readings_3.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "vardan-mamikonian",
+   "quote": "Today let all your demands be granted to you forever, confirmed by our writing and our seal.",
+   "original": {
+    "file": "cic/texts/langlois_collection-historiens-armenie-tomes1-2-fra_1867-1869.txt",
+    "lines": "100503-100506",
+    "language": "French"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-17_batch-3/Second_Readings_3.md",
+    "verdict": "minor"
+   }
+  },
+  {
+   "id": "moses-the-black",
+   "quote": "I am not allowed to hurt anyone. So what do you tell me to do with these?",
+   "original": {
+    "file": "cic/texts/palladius_lausiac-history_clarke1918.txt",
+    "lines": "335",
+    "language": "English"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-17_batch-3/Second_Readings.md",
+    "verdict": "minor"
+   }
+  },
+  {
+   "id": "moses-the-black",
+   "quote": "Why does this Ethiopian come and go among us?",
+   "original": {
+    "file": "cic/texts/anan-isho_paradise-v2-sayings_budge1907.txt",
+    "lines": "164-166",
+    "language": "English"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-17_batch-3/Second_Readings_4.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "moses-the-black",
+   "quote": "They have treated you rightly, you whose skin is dark and black. You shall not go back in as if you were a man.",
+   "original": {
+    "file": "cic/texts/anan-isho_paradise-v2-sayings_budge1907.txt",
+    "lines": "1026-1030",
+    "language": "English"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-17_batch-3/Second_Readings_4.md",
+    "verdict": "minor"
+   }
+  },
+  {
+   "id": "alopen",
+   "quote": "It helps every creature, and it does people good. Let it spread freely through the empire.",
+   "original": {
+    "file": "cic/texts/legge_nestorian-monument-of-hsi-an-fu_trubner1888.txt",
+    "lines": "1252-1254",
+    "language": "English"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-17_batch-3/Second_Readings_3.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "third-council-of-toledo-589",
+   "quote": "Glory to the Father, through the Son, in the Holy Spirit.",
+   "original": {
+    "file": "cic/texts/collectio-canonum-ecclesiae-hispanae-toledo-iii-lat_1808.txt",
+    "lines": "36965-36971",
+    "language": "Latin"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-17_batch-3/Second_Readings_3.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "third-council-of-toledo-589",
+   "quote": "Glory and honour to the Father and the Son and the Holy Spirit.",
+   "original": {
+    "file": "cic/texts/collectio-canonum-ecclesiae-hispanae-toledo-iii-lat_1808.txt",
+    "lines": "36959-36961",
+    "language": "Latin"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-17_batch-3/Second_Readings_3.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "third-council-of-toledo-589",
+   "quote": "The Son is always less than the Father, because he does the Father's will. And it is not shown that the Father does his.",
+   "original": {
+    "file": "cic/texts/gregory-tours_opera-mgh-srm-1-lat_arndt-krusch1885.txt",
+    "lines": "18556-18558",
+    "language": "Latin"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-17_batch-3/Second_Readings_3.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "third-council-of-toledo-589",
+   "quote": "No one doubts that we and those before us went astray in the Arian heresy.",
+   "original": {
+    "file": "cic/texts/collectio-canonum-ecclesiae-hispanae-toledo-iii-lat_1808.txt",
+    "lines": "36981-36986",
+    "language": "Latin"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-17_batch-3/Second_Readings_2.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "third-council-of-toledo-589",
+   "quote": "cut out by the roots",
+   "original": {
+    "file": "cic/texts/chronica-minora-2_marcellinus-victor-tunnunensis-biclaro-isidore-mgh-aa-11-lat_mommsen1894.txt",
+    "lines": "20408-20410",
+    "language": "Latin"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-17_batch-3/Second_Readings_3.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "john-wyclif",
+   "quote": "So Christ and his apostles taught the people in the tongue the people knew best. Why should people not do the same now?",
+   "original": {
+    "file": "cic/texts/wyclif_english-works-hitherto-unprinted_matthew1880.txt",
+    "lines": "35791-35795",
+    "language": "Middle English"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-17_batch-3/Second_Readings_3.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "john-wyclif",
+   "quote": "And so the Gospel's pearl is scattered and trampled by pigs.",
+   "original": {
+    "file": "cic/texts/knighton_chronicon-v2-lat_lumby1895.txt",
+    "lines": "16968-16969",
+    "language": "Latin"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-17_batch-3/Second_Readings_3.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "john-wyclif",
+   "quote": "Yet in hope I would wish my soul to be where John Wyclif's soul is.",
+   "original": {
+    "file": "cic/texts/palacky_documenta-mag-joannis-hus-lat-ces_1869.txt",
+    "lines": "15246-15249",
+    "language": "Latin"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-17_batch-3/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "thomas-a-kempis",
+   "quote": "Whoever follows me does not walk in darkness,",
+   "original": {
+    "file": "cic/texts/kempis_opera-omnia-sermones-de-compunctione-lat_pohl1902.txt",
+    "lines": "677-678",
+    "language": "Latin"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-17_batch-3/Second_Readings_3.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "thomas-a-kempis",
+   "quote": "Learn to scorn outward things and to give yourself to inward things. And you will see the kingdom of God come within you.",
+   "original": {
+    "file": "cic/texts/kempis_opera-omnia-sermones-de-compunctione-lat_pohl1902.txt",
+    "lines": "2831-2833",
+    "language": "Latin"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-17_batch-3/Second_Readings_3.md",
+    "verdict": "minor"
+   }
+  },
+  {
+   "id": "thomas-a-kempis",
+   "quote": "royal way",
+   "original": {
+    "file": "cic/texts/kempis_opera-omnia-sermones-de-compunctione-lat_pohl1902.txt",
+    "lines": "3717",
+    "language": "Latin"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-17_batch-3/Second_Readings_3.md",
+    "verdict": "minor"
+   }
+  },
+  {
+   "id": "thomas-a-kempis",
+   "quote": "the little Gerson",
+   "original": {
+    "file": "cic/texts/ignatius-loyola_scripta-de-sancto-ignatio-tomus01-lat-spa-ita_1904.txt",
+    "lines": "9403-9406",
+    "language": "Spanish"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-17_batch-3/Second_Readings.md",
+    "verdict": "minor"
+   }
+  },
+  {
+   "id": "pachomius",
+   "quote": "When I first began to live as a monk, there was no community anywhere in which anyone cared or feared for the salvation of others. Once the persecution was over, each of the early monks trained himself in the monk's life on his own. Later, with God's help, your father did this great good.",
+   "original": {
+    "file": "cic/texts/acta-sanctorum_maii-tomus-3-lat-grc_palme1866.txt",
+    "lines": "86887-86893",
+    "language": "Latin"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-17_batch-3/Second_Readings_3.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "arius",
+   "quote": "alone unbegotten",
+   "original": {
+    "file": "cic/texts/auxentius-durostorum_epistula-de-fide-vita-obitu-wulfilae_kauffmann1899.txt",
+    "lines": "15310",
+    "language": "Latin"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-17_batch-3/Second_Readings_3.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "arius",
+   "quote": "subject and obedient in all things",
+   "original": {
+    "file": "cic/texts/auxentius-durostorum_epistula-de-fide-vita-obitu-wulfilae_kauffmann1899.txt",
+    "lines": "15323-15325",
+    "language": "Latin"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-17_batch-3/Second_Readings_3.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "arius",
+   "quote": "the faith and communion that came from Arius",
+   "original": {
+    "file": "cic/texts/collectio-canonum-ecclesiae-hispanae-toledo-iii-lat_1808.txt",
+    "lines": "36900-36904",
+    "language": "Latin"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-17_batch-3/Second_Readings_3.md",
+    "verdict": "minor"
+   }
+  },
+  {
+   "id": "baudonivia",
+   "quote": "I chose you, daughters. You are my light, my life, my rest and all my happiness. You are the new planting.",
+   "original": {
+    "file": "cic/texts/fredegar-liber-historiae-francorum-vitae-mgh-srm-2-lat_krusch1888.txt",
+    "lines": "29901-29903",
+    "language": "Latin"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-17_batch-3/Second_Readings_3.md",
+    "verdict": "minor"
+   }
+  },
+  {
+   "id": "baudonivia",
+   "quote": "What she did in the land of the East,",
+   "original": {
+    "file": "cic/texts/fredegar-liber-historiae-francorum-vitae-mgh-srm-2-lat_krusch1888.txt",
+    "lines": "30245",
+    "language": "Latin"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-17_batch-3/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "baudonivia",
+   "quote": "blessed Radegund did in Gaul.",
+   "original": {
+    "file": "cic/texts/fredegar-liber-historiae-francorum-vitae-mgh-srm-2-lat_krusch1888.txt",
+    "lines": "30245",
+    "language": "Latin"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-17_batch-3/Second_Readings.md",
     "verdict": "same"
    }
   }
