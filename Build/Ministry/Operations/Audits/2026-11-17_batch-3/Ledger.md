@@ -132,3 +132,4 @@ One row per agent pass. Tokens are the subagent's own count as the harness repor
 | council-of-chalcedon-451 | fixes and cut to 560 (Mark's ruling) | Opus (same writer, resumed) | 159,711 cumulative | both content fixes; a new last line from Dioscorus's exile letter; 558 words; v4 kept |
 | pachomius | card | Opus | 155,215 | briefLength; 7 sources (his Lives among them); 16 references; 3 quotation originals; 1 correction ("reach us through Palladius" → "through his Coptic and Greek Lives, through Palladius"); datesNote's credited "died 348" left for the checker |
 | council-of-chalcedon-451 | final check | Opus, low effort | 93,131 | PASS; minor: Armenia's credit to Ormanian restored by the coordinator, two filler words dropped to stay at 560 |
+| (3 pieces) | second-reading requests | Sonnet | (count) | 26 quotations located (Toledo 8, Chalcedon 14, Pachomius 4); originals pointed to where held |
