@@ -155,6 +155,8 @@ Sheet references (S, E, I, L, D, G) point to `Source_Sheet.md` in this folder, w
   - Do not say the Donatists were heretics in the narrator's voice; it is Augustine's word (Q2). Gloss them plainly (Words to explain).
   - Do not name his "own town" as Hippo; the letter says "ciuitas mea", "my own town" (EPL 31546–31547), and does not name it. Say "his own town"; keep "home town" out unless it is tagged as the editors' reading.
   - Do not reuse any Carthage 411 quote ("the one which suffers persecution...", Emeritus's words).
+  - Do not hold back the two books (the Confessions, the City of God) or the Western churches carrying on his teaching until after the first minute. Both are part of the essence (Mark, 2026-11-18) and are told, briefly, by about word 150.
+  - Do not say Possidius closed or ended his Life with the poet's epitaph. It comes near the end, before his own closing prayer (POS 5004–5060). Say 'near the end of his account'.
 
 - **Leave out:**
   - His partner and his son, the theft of pears, Monica's death and the vision at Ostia: true to the Confessions, but not this story's job. Monica stays to one clause in the garden beat.
