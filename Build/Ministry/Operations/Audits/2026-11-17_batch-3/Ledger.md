@@ -209,3 +209,4 @@ One row per agent pass. Tokens are the subagent's own count as the harness repor
 | justin-martyr | write (fresh, heart first) | Opus | 112,407 | 511 words, grade 7.9, pass; over length |
 | pachomius | outline amended from review 2 (researcher) | Opus | — | Palladius dating; Esneh complete |
 | arius | review 2 | Opus | 120,086 | PASS, 4 minor |
+| third-council-of-toledo-589 | revision (fresh writer, from amended outline) | Opus | 111,289 | 420 words, grade 8.4; heart half 2 at word 79; force paragraph |
