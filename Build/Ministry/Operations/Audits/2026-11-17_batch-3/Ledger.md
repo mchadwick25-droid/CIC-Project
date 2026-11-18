@@ -225,4 +225,5 @@ One row per agent pass. Tokens are the subagent's own count as the harness repor
 | justin-martyr | recheck 2 | Opus, medium | 107,838 | FAIL on one phrase (On that day); fix and 2 minors applied by coordinator as worded |
 | john-wyclif | recheck 2 | Opus, medium | 113,669 | FAIL on one phrase (In his words); fix and 2 minors applied by coordinator as worded |
 | pachomius | fix check | Opus, low | 97,562 | PASS |
-| narsai | heart test | Opus, medium | (count) | FIX: the founding of Nisibis at word 203; joins the rework |
+| narsai | heart test | Opus, medium | 98,671 | FIX: the founding of Nisibis at word 203; joins the rework |
+| moses-the-black | heart test | Opus, medium | 94,562 | FIX: Scete, priest, disciples late; joins the rework |
