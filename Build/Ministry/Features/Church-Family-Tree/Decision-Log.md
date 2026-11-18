@@ -4480,3 +4480,12 @@ Four kit lines put those moves in the same place every time. The options are at 
 - A named change order for this batch only. The kit is not changed: `Process.md` step 5 still allows one revision, and the model rules still give councils to Sonnet.
 - Each of the three is written again by a fresh writer on Opus, from its passed outline (with the reviews' Do-not-say lines added), not from any failed draft. One recheck follows. A piece that still fails comes back to Mark.
 - If all three pass, the batch is finished and goes to recording and release together.
+
+## 2026-11-18 — Batch 3: the second rechecks' fixes applied; Chalcedon allowed to 560 words (Mark, 2026-11-18)
+
+**Why.** After the second revision (entry above), each of the three held pieces failed its second recheck on narrow points: one sentence each in Toledo III (the Seville clause) and Pachomius (Benedict of Aniane's Concordia), and in Chalcedon two content points and a length the outline's must-tell list cannot meet (the recheck's tightest honest version is about 540 to 560 words). The report: https://claude.ai/artifact/FM7qUy1E74Exyti3oHr1W3.
+
+**Decided (Mark, 2026-11-18): "yes, apply the fixes and allow Chalcedon to 560".**
+- Toledo III and Pachomius take their rechecks' named fixes. The coordinator applied each recheck's wording; for Pachomius, "In the ninth century" was left out of it to keep the ending free of a later date. Two small factual minors were taken with them: Toledo's edict penalties put in the conditional, and Pachomius's books "that had come from Alexandria".
+- Chalcedon takes its two content fixes and may run to 560 words (about 3:45), for this council only. The outline's own cap is not changed.
+- A targeted final check on each closes the batch's authoring.
