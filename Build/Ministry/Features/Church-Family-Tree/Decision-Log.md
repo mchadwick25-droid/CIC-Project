@@ -4495,3 +4495,16 @@ Four kit lines put those moves in the same place every time. The options are at 
 **Why.** Mark: "Before recording, can you run a comparison with the first batch to test drift". The comparison (`Build/Ministry/Operations/Audits/2026-11-17_batch-3/Drift_Comparison.md`) found batch 3 far less repetitive than the first twelve. One move survived under the variety check, though: an ending on a later writer, record or institution, in 5 of 12 by hand (Justin, Pachomius, Wyclif, Baudonivia, Alopen), and 0 by the detector, whose test is a later date and can be passed by leaving the date out.
 
 **Decided (Mark, 2026-11-18): "1"**, the report's option 1: recast two endings, Baudonivia and Alopen, so the move stands at 3 of 12. Each gets one targeted check, and then the batch goes to recording. The detector's weakness comes to Mark as a kit change for batch 4.
+
+## 2026-11-18 — Batch 3: four-reader evaluation; five pieces fixed before recording; series shape is not an AI fault (Mark, 2026-11-18)
+
+**Why.** Mark: "Next run the same review of user experience accedemic, pastor etc including ai sceptic". The four readers' reports are in `Build/Ministry/Operations/Audits/2026-11-17_batch-3/Evaluation/`, and the summary at https://claude.ai/artifact/3YBs18VrBNAzJE2iGunE66. None found an invented fact, and the re-assessing reader called the batch very trustworthy on force and coercion. Five pieces carried a must-fix:
+- Toledo III: Sunna's exile followed a discovered plot (PL 80 12040–12071).
+- Moses the Black: his killing is in an early saying (PAR2 1464), not only a later tradition.
+- Wyclif: the council's burning of Hus, and of his English followers, is missing.
+- Alopen: out of time order, from the drift recast.
+- Chalcedon: not followable on one hearing.
+
+**Decided (Mark, 2026-11-18).**
+- On the AI sceptic's structural findings: "For same pattern that isn't necessarily an ai pattern, most bulk briefs would follow a pattern even if hand written". A shared series shape is not an AI fault and is not chased. Word-level tells still are, including "not X but Y" in the narrator's voice, along with any move that repeats as the same wording.
+- On the five: "Fix", the evaluation's option 1. Each gets a targeted correction from its outline and the readers' findings, by a fresh Opus writer, with one independent check. Then come the census fixes, and the recording comes back to Mark. Chalcedon's length in Daniel's voice (about 137 words a minute) comes back to Mark with its correction.
