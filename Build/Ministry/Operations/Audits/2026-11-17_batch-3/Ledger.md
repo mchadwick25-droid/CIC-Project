@@ -136,4 +136,5 @@ One row per agent pass. Tokens are the subagent's own count as the harness repor
 | council-of-chalcedon-451 | card | Sonnet | 170,160 | additions only (briefLength, 15 references, 13 quotation originals, 4 sources); 2 claims left in place and flagged |
 | (3 cards) | script check | script | — | original fields unchanged and in order except those listed |
 | (3 pieces) | blind second reading | Opus | 103,258 | all 26 rendered blind; Chalcedon Q7's Latin breaks off in the file |
-| (3 pieces) | second-reading comparison | Opus | (count) | 19 same, 7 minor, 0 changes meaning |
+| (3 pieces) | second-reading comparison | Opus | 121,198 | 19 same, 7 minor, 0 changes meaning |
+| (3 cards) | card check | Opus | (count) | all 3 FIX, mechanical: Toledo a dropped OCR mark; Chalcedon a split quotation, a missing entry, two term entries; Pachomius a missing entry and datesNote 346/348; all claims left in place upheld |
