@@ -233,4 +233,5 @@ One row per agent pass. Tokens are the subagent's own count as the harness repor
 | ten reworked | blind second readings (27) | Opus | 97,783 | 5 flags |
 | moses-the-black | outline check 2 | Opus | 120,050 | PASS, 4 minor |
 | moses-the-black | outline minors from check 2 (researcher) | Opus | — | 4 applied |
-| narsai | outline check 2 | Opus | (count) | FIX: 1 blocking (47 printed, not survive), 4 minor |
+| narsai | outline check 2 | Opus | 134,971 | FIX: 1 blocking (47 printed, not survive), 4 minor |
+| ten reworked | compare second readings (27) | Opus | 107,471 | 19 same, 8 minor, 0 meaning; 4 line corrections |
