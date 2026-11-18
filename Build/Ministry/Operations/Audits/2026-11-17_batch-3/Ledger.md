@@ -202,3 +202,5 @@ One row per agent pass. Tokens are the subagent's own count as the harness repor
 | john-wyclif | write (fresh, heart first) | Opus | 97,010 | 446 words, grade 8.0, pass |
 | thomas-a-kempis | outline amended from review 2 (researcher) | Opus | — | Thomas and his own work in the first 150 words; 4 Do not say lines |
 | vardan-mamikonian | review 2 | Opus | 116,466 | PASS, 5 minor |
+| pachomius | review 2 | Opus | 113,288 | REVISE: Palladius dating; Esneh fragment |
+| council-of-chalcedon-451 | review 2 | Opus | 115,045 | PASS, 3 minor |
