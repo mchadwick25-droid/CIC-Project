@@ -168,3 +168,4 @@ One row per agent pass. Tokens are the subagent's own count as the harness repor
 | alopen | outline check 2 | Opus | 134,441 | FIX: 1 blocking (a quote sentence), minors |
 | baudonivia | outline check 2 | Opus | 141,767 | FIX: 1 blocking (Hildebert's reason halved), 5 minor |
 | alopen | outline fixes from check 2 (researcher) | Opus | — | B1 and 5 minor applied |
+| baudonivia | outline fixes from check 2 (researcher) | Opus | — | blocking and 5 minor applied |
