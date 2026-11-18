@@ -4650,3 +4650,11 @@ Each keeps its approved essence. One independent check follows, then the census,
 - Each row shows the person's role line from their card, under the name ("Tacitus · Roman historian"). The tradition panel's Who list shows it too. The 27 people with no card yet show name and dates only. They fill in when the Who profile rewrite gives them cards; no role line is written for them here.
 - The heading reads "People of …" ("A"), with the era's own one-line description under it ("and a brief description"), then the era title, the count and the dates. A tradition's list reads "People of" its name.
 - The Origin river is renamed "The First Churches" everywhere ("B"). Each river carries the phrase its Who heading uses (`of` in the river list): a region reads "the Greek East", a bridge river "the Greek and Latin river", Across families "many families". The census validator's council river name changes to match; no council names the river yet.
+
+## 2026-11-18 — A click on the empty map closes the card; the brief keeps playing
+
+**Why.** Mark: a card "stays open until the x is clicked … should we also close it if the user clicks on the map to go back to it".
+
+**Decided (Mark, 2026-11-18).**
+- A plain click on empty map closes the card. A drag to move the map never does. A click on a place, person, story, council or connection still opens that card in its place. The Who list stays open.
+- A recorded brief starts by itself and runs two to four minutes, so the first rule ("the card stays open while the brief plays") would have made the click do nothing on most recorded cards. Mark chose instead: the card closes and the brief keeps playing ("Close, keep listening"). A small bar at the bottom shows "Listening:" and the card's name, with Pause or Play, "Open the card", and a close button that stops the brief. Opening the card again brings it back as it was, with the brief still playing. Opening a different card stops the old brief and hides the bar. The × on a card still closes it and stops the brief.

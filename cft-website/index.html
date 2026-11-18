@@ -375,6 +375,15 @@ svg.strip-on #era-labels{display:none}
 #barToast{position:fixed;z-index:60;left:50%;transform:translateX(-50%);bottom:calc(var(--bar-h,0px) + 1rem + env(safe-area-inset-bottom,0px));background:var(--iron-gall);color:var(--parchment);font:700 1rem "Alegreya Sans",sans-serif;padding:.45rem .9rem;border-radius:999px;opacity:0;transition:opacity .2s;pointer-events:none}
 #barToast.on{opacity:1}
 @media (prefers-reduced-motion:reduce){#barToast{transition:none}}
+#listenBar{position:fixed;z-index:30;left:50%;transform:translateX(-50%);bottom:calc(var(--listen-lift,0px) + 1rem + env(safe-area-inset-bottom,0px));display:flex;align-items:center;gap:.3rem;max-width:calc(100vw - 1rem);padding:.25rem .3rem .25rem .4rem;background:var(--vellum);color:var(--iron-gall);border:1px solid var(--gold-leaf);border-radius:999px;box-shadow:0 4px 16px rgba(0,0,0,.35);font:1rem "Alegreya Sans",sans-serif}
+#listenBar[hidden]{display:none}
+#listenBar .lb-text{min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;padding:0 .3rem}
+#listenBar .lb-name{font-family:"Alegreya",serif;font-weight:700}
+#listenBar button{flex:none;min-height:44px;min-width:44px;padding:0 .8rem;border:1px solid var(--rule);border-radius:999px;background:none;color:inherit;font:700 .95rem "Alegreya Sans",sans-serif;cursor:pointer}
+#listenBar button:hover{border-color:var(--gold-leaf);color:var(--gold-leaf)}
+#listenBar button:focus-visible{outline:2px solid var(--madder);outline-offset:2px}
+@media (max-width:640px){#listenBar .lb-wide{display:none}}
+#listenBar .lb-stop{border:0;font-size:1.4rem;line-height:1;padding:0;color:var(--ink-faded)}
 #zoomHint{transition:opacity .4s}
 #zoomHint.gone{opacity:0;pointer-events:none}
 #zoomHint b{color:var(--iron-gall)}
@@ -525,6 +534,7 @@ svg.strip-on #era-labels{display:none}
 </aside>
 <div id="connChip" hidden><button type="button" class="cc-x"><span class="cc-t"></span><span aria-hidden="true">&times;</span></button><ul class="cc-key"><li><i style="background:var(--link-grow)"></i>Grew out of, continued as</li><li><i style="background:var(--link-influence)"></i>Influenced</li><li><i style="background:var(--link-conflict)"></i>Argued against, broke with</li><li><i style="background:var(--link-contact)"></i>In contact with, member of</li></ul></div>
 <div id="barToast" aria-hidden="true"></div>
+<div id="listenBar" role="region" aria-label="Narration" hidden><button type="button" class="lb-play">Pause</button><span class="lb-text"><span class="lb-wide">Listening: </span><span class="lb-name"></span></span><button type="button" class="lb-open" aria-label="Open the card">Open<span class="lb-wide"> the card</span></button><button type="button" class="lb-stop" aria-label="Stop listening">&times;</button></div>
 <div id="zoomHint">Scroll to move &middot; Ctrl + scroll to zoom</div>
 
 <script src="assets/place-line.js"></script>
@@ -123938,6 +123948,7 @@ function connButtonHTML(m){
 }
 let lastFocused=null;
 function showPanel(page){
+  hideListenBar();
   hideTip();
   lastFocused=document.activeElement;
   if(window.PageFeedback)window.PageFeedback.mount(panelBody,page);
@@ -123945,15 +123956,58 @@ function showPanel(page){
   panel.removeAttribute('inert');
   document.getElementById('panelClose').focus();
 }
-function closePanel(){
-  stopNarration();
+function closePanel(keepListening){
+  const playing=keepListening===true&&[...panelBody.querySelectorAll('audio')].find(a=>!a.paused);
+  if(playing){listen.pin=pinnedMovement;listen.world=new URLSearchParams(location.search).get('world');}
+  else stopNarration();
   pinMovement(null);
   panel.classList.remove('open');
   panel.setAttribute('inert','');
   if(lastFocused&&document.contains(lastFocused))lastFocused.focus();
   lastFocused=null;
   syncWorldURL(null);
+  if(playing)showListenBar(playing);
 }
+const listenBar=document.getElementById('listenBar');
+const listen={audio:null,stop:null,pin:null,world:null};
+function placeListenBar(){
+  if(listenBar.hidden)return;
+  const bar=parseFloat(getComputedStyle(document.documentElement).getPropertyValue('--bar-h'))||0;
+  const lift=narrowScreen()?bar+(tray.hidden?0:tray.offsetHeight):0;
+  listenBar.style.setProperty('--listen-lift',lift+'px');
+}
+function syncListenPlay(){
+  const b=listenBar.querySelector('.lb-play'); b.textContent=listen.audio&&!listen.audio.paused?'Pause':'Play';
+}
+function showListenBar(a){
+  hideListenBar();
+  listen.audio=a; listen.stop=new AbortController();
+  const t=document.getElementById('panelTitle');
+  listenBar.querySelector('.lb-name').textContent=t?t.textContent:'';
+  ['play','pause'].forEach(e=>a.addEventListener(e,syncListenPlay,{signal:listen.stop.signal}));
+  a.addEventListener('ended',hideListenBar,{signal:listen.stop.signal});
+  listenBar.hidden=false; syncListenPlay(); placeListenBar();
+}
+function hideListenBar(){
+  if(listen.stop)listen.stop.abort();
+  listen.audio=null; listen.stop=null; listenBar.hidden=true;
+}
+function reopenListenCard(){
+  const pin=listen.pin, world=listen.world;
+  hideListenBar();
+  pinMovement(pin); syncWorldURL(world);
+  panel.classList.add('open'); panel.removeAttribute('inert');
+  document.getElementById('panelClose').focus();
+}
+listenBar.addEventListener('click',ev=>{
+  const a=listen.audio;
+  if(ev.target.closest('.lb-play')&&a){if(a.paused){const p=a.play();if(p&&p.catch)p.catch(()=>{});}else a.pause();}
+  else if(ev.target.closest('.lb-open'))reopenListenCard();
+  else if(ev.target.closest('.lb-stop')){stopNarration();hideListenBar();}
+});
+['pointerdown','wheel','touchstart'].forEach(t=>listenBar.addEventListener(t,ev=>ev.stopPropagation(),{passive:true}));
+new ResizeObserver(placeListenBar).observe(tray);
+window.addEventListener('resize',placeListenBar);
 function syncWorldURL(id){
   const p=new URLSearchParams(location.search);
   if(id)p.set('world',id); else p.delete('world');
@@ -123966,7 +124020,7 @@ function focusWorld(m){
   ty=window.innerHeight/2-m._y*scale;
   applyTransform(); applyDetail();
 }
-document.getElementById('panelClose').addEventListener('click',closePanel);
+document.getElementById('panelClose').addEventListener('click',()=>closePanel());
 panel.addEventListener('keydown',(ev)=>{
   if(!panel.classList.contains('open'))return;
   if(ev.key==='Escape'){ev.preventDefault();closePanel();return;}
@@ -124403,8 +124457,9 @@ stage.addEventListener('wheel',(ev)=>{
 },{passive:false});
 
 const DRAG_THRESHOLD=4;
-let dragArmedId=null, dragging=false, downX=0, downY=0, lastX=0, lastY=0;
+let dragArmedId=null, dragging=false, justDragged=false, downX=0, downY=0, lastX=0, lastY=0;
 stage.addEventListener('pointerdown',(ev)=>{
+  justDragged=false;
   if(ev.pointerType==='touch')return;
   dragArmedId=ev.pointerId; downX=lastX=ev.clientX; downY=lastY=ev.clientY;
 });
@@ -124418,10 +124473,16 @@ stage.addEventListener('pointermove',(ev)=>{
 });
 function endDrag(ev){
   if(ev.pointerType==='touch')return;
-  dragArmedId=null; dragging=false; stage.classList.remove('grabbing');
+  justDragged=dragging; dragArmedId=null; dragging=false; stage.classList.remove('grabbing');
 }
 stage.addEventListener('pointerup',endDrag);
 stage.addEventListener('pointercancel',endDrag);
+stage.addEventListener('click',(ev)=>{
+  if(justDragged){justDragged=false;return;}
+  if(!panel.classList.contains('open'))return;
+  if(ev.target.closest&&ev.target.closest('[role="button"],[tabindex="0"],a,.edge-hit,.edge-line,.continues'))return;
+  lastFocused=null; closePanel(true);
+});
 
 function announce(msg){
   const box=document.getElementById('mapStatus');
