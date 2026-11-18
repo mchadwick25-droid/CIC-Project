@@ -207,3 +207,4 @@ One row per agent pass. Tokens are the subagent's own count as the harness repor
 | vardan-mamikonian | review 2 minors applied (writer) | Opus | — | 441 words, grade 8.4; heart by word 153 |
 | council-of-chalcedon-451 | review 2 minors applied (writer) | Opus | — | 567 words, grade 9.1 |
 | justin-martyr | write (fresh, heart first) | Opus | 112,407 | 511 words, grade 7.9, pass; over length |
+| pachomius | outline amended from review 2 (researcher) | Opus | — | Palladius dating; Esneh complete |
