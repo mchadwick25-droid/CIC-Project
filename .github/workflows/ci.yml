@@ -229,6 +229,8 @@ jobs:
               - 'tools/tests/test_check_standard_lock.py'
               - 'tools/check_brief_variety.py'
               - 'tools/tests/test_check_brief_variety.py'
+              - 'tools/list_second_readings.py'
+              - 'tools/tests/test_list_second_readings.py'
               - '.github/workflows/**'
             tree:
               - 'cic-website/**'
@@ -514,12 +516,14 @@ jobs:
           sparse-checkout: |
             /tools/
             /Build/Ministry/Operations/Audits/2026-11-17_varied-batch*/*/*.r50.brief.txt
+            /Build/Ministry/Operations/Audits/2026-11-17_batch-3/*/*.brief.txt
+            /Build/Ministry/Operations/Audits/2026-11-17_batch-3/*/*.card.json
           sparse-checkout-cone-mode: false
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
       - run: pip install pytest
-      - run: python -m pytest tools/tests/test_check_standard_lock.py tools/tests/test_check_brief_variety.py -q
+      - run: python -m pytest tools/tests/test_check_standard_lock.py tools/tests/test_check_brief_variety.py tools/tests/test_list_second_readings.py -q
       - run: python tools/check_standard_lock.py --base "origin/${{ github.base_ref }}"
 
   profile-readability:

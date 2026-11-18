@@ -15,7 +15,7 @@ A story that lets an interested non-specialist meet one person, council or event
 ## Rigor
 
 - Tell only what the outline holds, transitions included: a "so" or "because" that implies motive or cause must be in the sources. Add no feeling or detail for effect. Honour the outline's Do not say list.
-- Use only the outline's quotes, word for word, and only where their particular words do something the narrator's cannot. The narrator carries the story.
+- Use only the outline's quotes, word for word, and only where their particular words do something the narrator's cannot. A quote whose wording is unclear in English by itself, such as an image or older wording, may stand when the narrator gives its plain sense alongside. The narrator carries the story.
 - We are a witness, not a judge. Name a witness only when the listener needs to know who is speaking: praise or blame, a wonder, a much later source, a hostile view, or a link on the tree. A wonder stays in its witness's voice. A hostile view is told openly and credited to its source; the narrator never carries any side's view forward, and never softens the record by leaving out its force or conflict.
 - Say plainly what is uncertain. Do not present it as settled, and do not bury it in hedging.
 

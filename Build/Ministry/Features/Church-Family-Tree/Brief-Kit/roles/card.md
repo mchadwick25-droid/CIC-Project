@@ -7,4 +7,6 @@ You update the card for **{NAME}** to go with its finished brief. The existing c
 
 Do not reword, reorder, expand or shorten anything else. Leave connections to other entries out for now.
 
+The card goes into the census, so it must pass `tools/validate-census.mjs`. Use only the keys it allows, and no `briefLength`. Give `quotationOriginals` one entry for each quoted span in the brief, and none for a span the brief no longer quotes. Copy each `secondReading` from the batch's records, never inventing one. In `briefReferences`, use no quotation marks unless the words stand verbatim in the brief. The card is a live surface: name no audit file, review or ruling in it. Use American spelling, except in printed wording quoted verbatim.
+
 Read the brief `{FOLDER}/{SLUG}.brief.txt`, `{FOLDER}/Outline.md` and `{FOLDER}/Source_Sheet.md`. Write the card to `{FOLDER}/{SLUG}.card.json`, and list every edit in `{FOLDER}/Card_Edits.md`: the old words, the new words, and the evidence (file and lines, or the brief's sentence). Do not edit the census, the existing card or the brief, and do not commit. Reply in under 120 words: each edit in one line, and any claim not found.
