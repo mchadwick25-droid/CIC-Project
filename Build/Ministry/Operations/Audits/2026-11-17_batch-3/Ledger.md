@@ -188,3 +188,5 @@ One row per agent pass. Tokens are the subagent's own count as the harness repor
 | alopen | review 2 | Opus | 107,331 | PASS; minor 1 applied by coordinator (order implied), minor 2 kept: the last line is sourced (Yule, "disclosed their forgotten existence") |
 | thomas-a-kempis | write (fresh, heart first) | Opus | 97,662 | 404 words, grade 8.3, pass |
 | arius | outline fixes from check 2 (researcher) | Opus | — | blocking and 7 minor applied |
+| justin-martyr | outline fixes from check 2 (researcher) | Opus | — | blocking and 7 minor applied; two Acts witnesses added |
+| john-wyclif | outline fixes from check 2 (researcher) | Opus | — | blocking and 5 minor applied; Tyndale as the same task done again |
