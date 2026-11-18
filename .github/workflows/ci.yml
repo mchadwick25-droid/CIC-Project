@@ -223,12 +223,12 @@ jobs:
             # The Church Family Tree writing standard is locked: a change needs a
             # new Decision-Log entry with Mark's words (Mark, 2026-11-16).
             standard:
-              - 'Build/Ministry/Features/Church-Family-Tree/Who_Profile_Pattern.md'
-              - 'Build/Ministry/Features/Church-Family-Tree/Council_Profile_Pattern.md'
-              - 'Build/Ministry/Features/Church-Family-Tree/Worker_Brief_Template.md'
+              - 'Build/Ministry/Features/Church-Family-Tree/Brief-Kit/**'
               - 'Build/Ministry/Features/Church-Family-Tree/Who-Profiles/bar/**'
               - 'tools/check_standard_lock.py'
               - 'tools/tests/test_check_standard_lock.py'
+              - 'tools/check_brief_variety.py'
+              - 'tools/tests/test_check_brief_variety.py'
               - '.github/workflows/**'
             tree:
               - 'cic-website/**'
@@ -301,7 +301,9 @@ jobs:
     if: needs.changes.outputs.census == 'true'
     name: Validate world-census.json
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    # The census tests rerun the full quotation check against the held texts
+    # several times; with release 51 that alone runs past ten minutes.
+    timeout-minutes: 25
     steps:
       - uses: actions/checkout@v4
         with:
@@ -382,7 +384,9 @@ jobs:
         with:
           node-version: "20"
       - name: Restore the narration manifests the page generator reads
-        run: git show HEAD:cft-website/audio/tree/manifest.json > cft-website/audio/tree/manifest.json
+        run: |
+          git show HEAD:cft-website/audio/tree/manifest.json > cft-website/audio/tree/manifest.json
+          git show HEAD:cft-website/audio/docstories/manifest.json > cft-website/audio/docstories/manifest.json
       - run: node tools/build_tree_site.mjs
       - run: node --test cic-worker/worker.test.mjs Build/tools/generate_tree_pages.test.mjs
 
@@ -488,13 +492,13 @@ jobs:
       - run: pip install pyyaml
       - run: python tools/check_spelling.py --base "origin/${{ github.base_ref }}" --enforce
 
-  # Who and council profile briefs a PR adds or edits are graded: grade 8.0 to
-  # 10.0 on the full text, reading ease 60 or above with proper names left out
-  # (Who_Profile_Pattern.md, "The readability method"). A brief the PR does
+  # Who and council profile briefs a PR adds or edits are graded: grade 10.0
+  # at most on the full text, reading ease 60 or above with proper names left
+  # out (Brief-Kit/Standard.md). A brief the PR does
   # not touch, or only moves, is not read, so the briefs written before the
   # check do not fail a PR that leaves their words alone.
-  # A PR that changes the Church Family Tree writing standard (the Who and
-  # council patterns, the worker brief template, Who-Profiles/bar/) fails
+  # A PR that changes the Church Family Tree writing standard (Brief-Kit/,
+  # Who-Profiles/bar/) fails
   # unless it adds a Decision-Log entry that names Mark and quotes him.
   standard-lock:
     needs: changes
@@ -507,13 +511,15 @@ jobs:
         with:
           fetch-depth: 0
           filter: blob:none
-          sparse-checkout: /tools/
+          sparse-checkout: |
+            /tools/
+            /Build/Ministry/Operations/Audits/2026-11-17_varied-batch*/*/*.r50.brief.txt
           sparse-checkout-cone-mode: false
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
       - run: pip install pytest
-      - run: python -m pytest tools/tests/test_check_standard_lock.py -q
+      - run: python -m pytest tools/tests/test_check_standard_lock.py tools/tests/test_check_brief_variety.py -q
       - run: python tools/check_standard_lock.py --base "origin/${{ github.base_ref }}"
 
   profile-readability:

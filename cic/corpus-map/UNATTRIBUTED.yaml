@@ -178,6 +178,12 @@ authors:
 
       '
     from_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
+  amelineau:
+    kind: metadata-omission
+    evidence: 'The file is plain text with no markup to hold a creator. The editor and translator
+      is named on the title page of the volume (Annales du Musée Guimet, tome XVII, 1889):
+      E. Amélineau. The slug is used only for his introduction, assigned as context.'
+    from_file: amelineau_histoire-de-saint-pakhome-annales-guimet-17_leroux1889.txt
   amphilochius:
     kind: metadata-omission
     evidence: div2 title 'From the Iambics of St. Amphilochius the Bishop to Seleucus'; npnf214
@@ -364,6 +370,12 @@ authors:
     kind: anonymous
     evidence: div2 7.11; compilation transmitted without an author.
     from_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
+  arabic_life_of_pachomius:
+    kind: anonymous
+    evidence: The section from about OCR line 20362 is headed "Texte arabe et traduction",
+      "Vie de Pakhôme", and prints no author; it closes "Et ce livre béni est fini, lequel
+      est la vie du père saint Pakhôme" (about OCR line 38690).
+    from_file: amelineau_histoire-de-saint-pakhome-annales-guimet-17_leroux1889.txt
   aristides:
     kind: metadata-omission
     evidence: 'div1 13 "The Apology of Aristides the Philosopher" names the author (Athens,
@@ -579,6 +591,20 @@ authors:
 
       '
     from_file: boethius_theological-tractates-consolation_stewart-rand1918.txt
+  bohairic_life_of_pachomius:
+    kind: anonymous
+    evidence: The Vatican Coptic codex 69 text printed from OCR line 4877 carries no author
+      in the volume; Amélineau calls it the Life of Pakhôme in the "memphitic" (Bohairic)
+      dialect, and the Greek Life of Pachomius in the Acta Sanctorum names only an anonymous
+      monk "of about the same age" (aetate suppar). A work, not a person.
+    from_file: amelineau_histoire-de-saint-pakhome-annales-guimet-17_leroux1889.txt
+  bollandists:
+    kind: metadata-omission
+    evidence: 'The file is plain text with no markup to hold a creator. The commentary, notes
+      and the Appendix on Pachomius the Younger are by the Bollandist editors of this volume
+      (title page: Henschen, Papebroch and others, edition of Carnandet, 1866). The slug is
+      used only for their own apparatus, assigned as context.'
+    from_file: acta-sanctorum_maii-tomus-3-lat-grc_palme1866.txt
   book-of-the-himyarites:
     kind: anonymous
     evidence: 'Moberg''s title page calls it a hitherto unknown Syriac work and names no author;
@@ -2179,6 +2205,12 @@ authors:
 
       '
     from_file: misson_cry-from-the-desart_lacy1707.txt
+  ladeuze:
+    kind: metadata-omission
+    evidence: 'The file is plain text with no markup to hold a creator. The author is named
+      on the title page (read on the page image): Paulin Ladeuze, licencié en théologie, Louvain,
+      1898.'
+    from_file: ladeuze_etude-sur-le-cenobitisme-pakhomien-fra_1898.txt
   latrobe-benjamin:
     kind: anonymous
     evidence: 'The title page names no author (''in a letter to a friend''); the host''s metadata
@@ -2219,6 +2251,12 @@ authors:
     evidence: The title page (file lines 81-109) reads 'A Brief History of the Church of Abyssinia,
       by the Rev. Professor Lee, D.D.'; the history stands at file lines 675-2834.
     from_file: gobat_journal-of-a-three-years-residence-in-abyssinia_1834.txt
+  legge:
+    kind: metadata-omission
+    evidence: 'The file is plain text with no markup to hold a creator. The translator and
+      lecturer is named on the title page: James Legge, Professor of Chinese at Oxford, 1888.
+      The slug is used only for his notes and lecture.'
+    from_file: legge_nestorian-monument-of-hsi-an-fu_trubner1888.txt
   leonard-of-chios:
     kind: metadata-omission
     evidence: The title page of tomus CLIX names 'Leonardi Chiensis Mitylenaei archiepiscopi';
@@ -2283,6 +2321,11 @@ authors:
 
       '
     from_file: rippon_baptist-annual-register-1790-1793_1793.txt
+  life_of_theodorus_disciple_of_pachomius:
+    kind: anonymous
+    evidence: Amélineau titles the section "Vie de Théodore, disciple de Pakhôme" (about OCR
+      line 14793) and prints no author for it.
+    from_file: amelineau_histoire-de-saint-pakhome-annales-guimet-17_leroux1889.txt
   ligarides:
     kind: metadata-omission
     evidence: The title page names 'the Answers of the Metropolitan of Gaza Paisius Ligarides';
@@ -2903,6 +2946,13 @@ authors:
 
       '
     from_file: morris-john_troubles-of-our-catholic-forefathers-ser3_1877.txt
+  pachomian_rule_latin_jerome:
+    kind: anonymous
+    evidence: The Latin Rule is "Regula patris nostri Pachomii hominis Dei" in Jerome's translation
+      (Jerome's own preface says it renders the precepts of Pachomius, Theodorus and Orsiesius
+      from Greek into Latin); Vallarsi's admonition notes the Rule was extended by Theodorus
+      and Orsiesius. Shared Pachomian legislation, not one man's words.
+    from_file: jerome_opera-pl23-part1-with-regula-pachomii-lat_migne1883.txt
   pacific-garden-mission:
     kind: anonymous
     evidence: A corporate report; the cover names the mission and no author (file lines 15-42).
@@ -3791,6 +3841,13 @@ authors:
 
       '
     from_file: samson-of-dol_life-of-st-samson_taylor1925.txt
+  vita_prima_pachomii_cardon_latin:
+    kind: anonymous
+    evidence: 'The Bollandists head it "Acta auctore suppari monacho ex MSS. Graecis, interprete
+      Daniele Cardono Soc. Jesu" (about OCR line 16520 of the contents list, and the commentary
+      at 78831): the Greek Life was written by an anonymous Tabennisi monk of about Pachomius''s
+      age, and the Latin here is Daniel Cardon''s translation of it. A work, not a person.'
+    from_file: acta-sanctorum_maii-tomus-3-lat-grc_palme1866.txt
   voprosy-i-otvety-1603:
     kind: anonymous
     evidence: The manuscript 'Вопросы и отвѣты православному зъ папежникомъ' (1603) is printed
@@ -3914,6 +3971,14 @@ authors:
       'CALLISTI ET IGNATII XANTHOPULORUM' from file line 29438); the file's leading slug is
       nicephorus-callistus.
     from_file: nicephorus-callistus_historia-ecclesiastica-with-hesychast-tracts-pg147-grc-lat_migne1865.txt
+  xian_stele_inscription_781:
+    kind: anonymous
+    evidence: The inscription of 781 is composed, by its own text, by "Ching-tsing, a priest
+      of the Ta Ts'in Monastery" (Legge's heading at about OCR line 347; Adam the chorepiscopos
+      is named with him) and is a community document set up on a stone, not a work of one
+      author whose name is ruled here. Treated as a work, a document of the Church of the
+      East in Tang China.
+    from_file: legge_nestorian-monument-of-hsi-an-fu_trubner1888.txt
   yorkshire-recusant:
     kind: anonymous
     evidence: 'Paper II is headed "A Yorkshire Recusant''s Relation" (file line 3266); the

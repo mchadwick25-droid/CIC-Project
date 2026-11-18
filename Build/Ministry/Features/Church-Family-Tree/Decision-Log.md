@@ -4207,3 +4207,373 @@ Every setting is passed on the command and printed before the first request. Thi
 The narration voices are now:
 - Daniel: tradition briefs and council briefs;
 - Neo: Who briefs and stories.
+
+## 2026-11-17 — A new way to make briefs: the outline, the shapes, two checks, and a varied first batch (Mark, 2026-11-17)
+
+**Why.** Mark: "the process is unsustainable for 500 and when we try to do more the quality drops significantly". The Polycarp clean write took about twelve drafts before approval. Ignatius and Justin, written from the Polycarp model, copied its arc (arrest, trial, death, then legacy) and its rhythm, and an outside review Mark shared found the death scenes taking over and the impact thin. The writer's sheet was mostly verbatim quotes, so the easiest brief to write strung quotes together. The three successful briefs scored grade 5.4 to 6.3, under the base Mark now wants. The options and reasoning are on the coordinator's page (https://claude.ai/artifact/NCH7F6APrVPvkA6KdNzdhA); the kit's drafts are at https://claude.ai/artifact/8sT98NfErJwebNhnNgHwDN.
+
+**Decided (Mark, 2026-11-17).**
+- Length: "1 to 3 minutes, but we want the story the source material from the time supports, this is about getting quality first", then "the target is 2 minutes with streatch to tell well and majors". No fixed tiers. The target is 2 minutes; a brief stretches toward 3 for a major figure or a story that needs the room; a thin record may run to 1 minute and is never padded. This replaces the 2026-11-16 length line ("about two and a half minutes ... three and a half the most") for briefs written to the new kit.
+- The writer works from an outline, not the source sheet: "yes, go with the outline ... the outline with key infomraiton from the sources is what i would expect". The researcher builds the full source sheet, then a one-page outline (`Outline_Template.md`). The writer gets the outline, the shapes and the standard only. The sheet stays as evidence for the checks and the card.
+- Shapes, not model briefs: "yes, go with 1". The writer gets a few lines per shape (`Shapes.md`) and no example prose. Approved briefs, Polycarp first, go to the reviewer as the quality bar.
+- Two checks, then stop: "yes, go with 1". The outline is checked against the source texts. The brief gets one review, read once as a listener and then traced line by line to the outline, scored on craft, rigor and accessibility with the reading score as a guard. One revision; a brief that still fails comes to Mark with the reason. Mark hears every brief in the first batch, then about one in ten.
+- First batch: "3 ... we need to see variety so eras 1 - 4 that the libraries are built out", then "yes, go with those six": Clement of Alexandria, Antony the Great, Macrina the Younger, Radegund, Columba, and Cyril and Methodius. None is a martyr; they cover four eras and six shapes.
+- The kit: "yes, they're ready, run the six".
+
+**Where it stands.** The kit is `Build/Ministry/Operations/Audits/2026-11-17_varied-batch/kit/` (`Outline_Template.md`, `Shapes.md`, `Standard.md`); each person's sheet, outline, checks and brief are in the same batch folder. The standard's grade line follows Mark's 17 November aim of grade 8 to 9 with 10 and reading ease 60 as limits; a lower grade is judged by ear, as ruled 2026-11-16. `Who_Profile_Pattern.md`, `Council_Profile_Pattern.md`, `Worker_Brief_Template.md` and `Writing_from_Polycarp.md` stay as written until Mark rules on what the kit replaces once this batch is read. The approved Polycarp brief is not changed.
+
+## 2026-11-17 — The first batch read as a children's book: the standard is rebalanced for an adult voice (Mark, 2026-11-17)
+
+**Why.** Mark read the six briefs of the varied first batch: "yes it reads as a kids book". The rigor held; the voice failed. Four lines of the standard pulled the voice down ("one thought per sentence", "plain modern words", "heard once, in a second language", "give the reason in the same sentence") and none pulled it up. Definitions were tacked on after a comma, each outline beat became one sentence, and events were told without what was at stake. The reviewers' bar, the approved Polycarp brief, itself scores grade 6.1 at 14.1 words a sentence, the same range as the six (6.2 to 8.1), and the listener test asked only whether a listener could follow it. The six used 0.5 to 1.1 joining words per 100. The diagnosis and options are on the results page (https://claude.ai/artifact/J3m7sEyTxHLXr6EgHY54gw).
+
+**Decided (Mark, 2026-11-17): "yes, go with 1".** The standard is rebalanced for voice and the six are rewritten from the same outlines; the outlines and their checks stand.
+- `kit/Standard.md` gains a Voice section (an adult documentary narrator, in the register of a BBC or National Geographic documentary, never talking down) and a Craft line on what was at stake. "Vary the sentences" is replaced by a line on linking ideas by cause, contrast and time. "Give the reason ... in the same sentence" is replaced by working meaning into the sentence, never a definition tacked on. "One thought per sentence" becomes "one main idea per sentence", with the clauses around it carrying reasons and results. A grade under 8 becomes a warning to check for a list of short acts. "Before it is done" adds: would an educated adult feel talked down to? The first version is kept as `kit/Standard_v1.md`.
+- The reviewer scores voice as a fourth measure, marks any children's-book stretch as BLOCKING, and judges against the written standard alone, not against an earlier brief. Whether the approved Polycarp brief also reads too young, and so what bar a reviewer holds next, is open for Mark.
+- Fresh writers rewrite all six. The first-round briefs and reviews are kept as `<slug>.v1.brief.txt` and `Review_v1.md` in each folder. The Cyril and Methodius sentence held for Mark (Open-Gaps 313) belongs to the first-round brief and falls with it.
+
+## 2026-11-17 — The review bar: academic soundness, not perfection (Mark, 2026-11-17)
+
+**Decided (Mark, 2026-11-17): "lets not get to perfectionist, we want accedemic appreciation, not perfection."** A brief's recheck passes unless something is wrong, unsupported or misquoted, past a hard limit (grade 10, reading ease 60), or reads as a children's book. New style or length points raised at a recheck do not fail it, and "could be stronger" is not a finding. This applies the project's existing review-cap rule ("the bar is acceptable scholarly rigor, not perfection") to the brief's own review. It was given to the round-two rechecks of the varied batch while they ran.
+
+**Round two, carried out.** All six briefs were rewritten from the same outlines under the rebalanced standard, reviewed, revised once and rechecked; all six passed. Grades 7.8 to 9.2 (round one 6.2 to 8.1), 347 to 456 words. Every first review found a BLOCKING fault; three of them repeated an error round one had already fixed (Columba's gates told in the narrator's voice, Clement's "long" search, Radegund's revolt outcome) and one dropped what the person defended (Antony). The kit's `Standard.md` does not say the impact must tell what the person defended; the line was in the 16 November standard and was left out of the kit. Both are open for Mark (Open-Gaps, "What round two showed", 2026-11-17).
+
+## 2026-11-17 — Round two read "better": two kit fixes, and the second varied batch (Mark, 2026-11-17)
+
+**Decided (Mark, 2026-11-17): "better, make both fixes and run the next batch".**
+- `kit/Standard.md`, impact line: "About a third of the story is what came of them: what they left the church and what they defended." The "what they defended" clause of the 16 November standard is restored; it had been left out of the kit.
+- `kit/Outline_Template.md` gains a **Do not say** field: the wordings a writer could easily get wrong from the outline, each with the right wording, and any writer's error a later check or review finds that the outline left room for. The outline checker checks the field; a reviewer gives a Do not say entry for every BLOCKING error the outline left room for. The six outlines of the first batch take the entries their round-two reviews found.
+- The second batch, chosen by the coordinator for variety across eras 1 to 4, a council, a rejected teacher, women and a writer in her own voice, all with their main sources held: Marcion of Pontus (era 1), Martin of Tours (era 2), the Council of Nicaea of 325 (era 2), Benedict of Nursia (era 3), Hild of Whitby (era 4) and Dhuoda (era 4). It runs the same process as round two, held to the review bar of 2026-11-17. The work is in `Build/Ministry/Operations/Audits/2026-11-17_varied-batch-2/`; the kit stays in the first batch's folder.
+
+## 2026-11-17 — Hostile sources: witnessed, not carried forward (Mark, 2026-11-17)
+
+**Why.** The batch-two outlines for Marcion of Pontus (known only through his opponents) and the Council of Nicaea (Constantine's Easter letter is openly hostile to the Jews) raised how a brief tells a source's hostility.
+
+**Decided (Mark, 2026-11-17): "we are transparent and don't hide anything, but we witness their perspecive, not carry it forward".** `kit/Standard.md`, Rigor, gains: "When a source is hostile, to the person, a group or a people, be open about what it says and credit it to that source. We witness its view; the narrator never carries it forward or adopts its words as the story's own." It applies from the batch-two writers on.
+
+## 2026-11-17 — The test a brief is written to: one hearing, three things (Mark, 2026-11-17)
+
+**Decided (Mark, 2026-11-17):** "An interested non-specialist can understand who this was, what happened, and why the connection matters after one hearing. i know we have been setting the floor at 8 and i don't want simpler, this is the standard we are really shooting for."
+- `kit/Standard.md` opens with it as **The test**, followed by "Meet it without making the story simpler: the depth stays, and the telling carries it." It becomes the first question of "Before it is done".
+- The grade line stays (aim 8 to 9; 10 and reading ease 60 the limits) and adds: "The grade is a guard on the test above, never the goal: do not simplify to move it."
+- The reviewer's listener read now opens by answering the test in three lines from one hearing: who was this, what happened, why does the connection matter. A blank or wrong line is BLOCKING.
+- Applies from the next brief written or reviewed. The twelve briefs already through (both varied batches) were not reviewed against it as written.
+
+## 2026-11-17 — The story-outline process kept; the connection moves upstream; audio review next (Mark, 2026-11-17)
+
+**Mark's brief for the next batch (2026-11-17), in substance.** "The story-outline process is producing the right kind of work. Keep it." No return to quote briefs, and no imitating Polycarp's structure or statistics. Write "a well-sourced story for an interested non-specialist—not quotations linked by commentary"; the narrator carries events and explanations; quotations only where the particular words contribute something important; every factual claim, "including transitions that imply motive or causation", stays within the approved sources. Keep the layered format: the audio tells the story, the card carries references, fuller qualifications and uncertainties. The acceptance test (who or what, what happened, why the connection matters) stands, and "Preserve the separate source check. A clear story can still contain a factual error." Revision discipline: fix the recurring connection gap "upstream in the outline, not through wholesale rewriting afterward"; targeted corrections; scores and counts are "warnings—not quotas"; block only for unsupported claims, misleading implications, missing essential material or genuine comprehension failures; "Do not reopen finished briefs for optional polishing." Current batch: "Move to audio review rather than another general rewrite. Hear Dhuoda, Macrina, Nicaea, and Hild first ...; use Benedict as a straightforward comparison." One source question: Antony's opening "grammatically dates his youthful church visit to Constantine and his sons".
+
+**Carried out.**
+- `kit/Outline_Template.md` gains **Connection to carry into the story**, in Mark's terms: what specifically passed to whom or what, its supporting passage, and what the listener needs to understand, carried through source-supported action rather than an appended moral.
+- `kit/Standard.md`: the Voice section opens with the well-sourced-story line; the Rigor line on adding nothing now covers transitions that imply motive or cause; the card line names the layered format.
+- `kit/Process.md` (new): the five steps, the acceptance test, the separate source check, and the revision discipline as Mark gave it.
+- Antony: the source sheet (S4; VA §81; Jerome) places Constantine and his sons late in Antony's life, after the Maximinus persecution (§46), so the opening's attachment to his youth was wrong. The opening now reads "In Egypt, a young man walked to church ...", and the first paragraph ends "... and he lived on into the time of the emperor Constantine and his sons." The outline checker confirmed it (Outline_Check.md, "Chronology check": PASS). The outline's Do not say list carries the guard.
+- Audio review: the census-driven narration tool cannot voice draft briefs, so a one-off review recorder in the coordinator's scratchpad uses the tool's own request building (pronunciations, pause tag, cost line, approved-run cap). Settings as ruled: Neo for people (`onegjDE2z0mQtp1g0HK7`, `eleven_v4`), Daniel for the council (`onwK4e9ZLuTAKqWW03F9`, `eleven_multilingual_v2`), both `mp3_44100_64` with the story settings. Dry run: five items, 11,803 characters. One sample (Dhuoda) is recorded first for Mark's ear before the other four.
+
+**Audio review recorded (Mark, 2026-11-17).** Mark on the Dhuoda sample: "sounds great", then "yes record the other 4". The run printed its settings before the first request: Neo (`onegjDE2z0mQtp1g0HK7`, `eleven_v4`) for Macrina, Hild and Benedict, 3 items, 6,810 characters, cap 7,000, charged 1,063, 1,195 and 1,044; Daniel (`onwK4e9ZLuTAKqWW03F9`, `eleven_multilingual_v2`) for Nicaea, 1 item, 2,653 characters, cap 2,800, charged 1,286; all `mp3_44100_64` with `{"stability":0.95,"similarity_boost":0.68,"style":0,"use_speaker_boost":true}`. With the sample (1,135), the review cost 5,723 credits. The five files are distinct (checked by hash). They are review recordings in the coordinator's scratchpad, not live audio. Heard lengths: Dhuoda about 2:38, Macrina 2:27, Hild 2:43, Benedict 2:27, Nicaea about 3:27, past the 3-minute limit in Daniel's slower reading although its text is 449 words.
+
+**Nicaea re-recorded; the pause tag (Mark, 2026-11-17).** Mark: "let nicaea run long in daniel's voice but remove the pause words, they are being read". The paragraph pause in `Build/tools/tree-narration-pronunciations.json` is the audio tag `[pause]`. Neo's `eleven_v4` treats it as a pause; Daniel's `eleven_multilingual_v2` does not read audio tags and speaks the word. Nicaea was re-recorded in Daniel's voice with paragraph breaks only: 1 item, 2,581 characters, cap 2,700, charged 1,251, about 3:19. The tagged take is kept as `council-of-nicaea-325.with-pause-tags.mp3` in the scratchpad. Nicaea runs long by Mark's ruling. Review audio now totals 6,974 credits.
+
+## 2026-11-17 — Nicaea re-threaded; the council shape gets its order (Mark, 2026-11-17)
+
+**Why.** Mark heard the Nicaea review recording: "it does well to tell the story of arianism and the struggle, but that was not the whole of the counsil." The outline's Thread named only the creed and its division; Easter, Melitius and the canons were held as secondary or "leave out", so the writer told one dispute.
+
+**Decided (Mark, 2026-11-17): "yes, go with 1 and follow the outcomes, what called it, what was the major issue and story, what else, decisions, impact etc."**
+- `kit/Shapes.md`, Council: "Told in this order: what called it, the major issue and the story of it, what else it did, its decisions, and its impact." The major issue is the way in, not the whole council; the trap now names one dispute swallowing the council.
+- The Nicaea outline is re-threaded to that order and rechecked; a fresh writer rewrites the brief, it is reviewed and tested, and it is recorded again in Daniel's voice without the pause tag. Mark has ruled that Nicaea may run long in Daniel's voice.
+- Corrected the same day (Mark): "those were ideas, not a final order, what should be included and not". The Council line now reads "It should include what called it, the major issue and the story of it, what else it did, its decisions, and its impact, in whatever order tells it best." The record determines the order.
+
+**Nicaea re-threaded, reviewed and recorded (2026-11-17).** The re-threaded outline passed its check (Outline_Check.md, "Re-thread check"). A fresh writer wrote the brief; its review passed (rigor 5; voice, craft and accessibility 4) and judged that it tells the whole council, with the Arian story about a third. One targeted revision gave Athanasius's charge credited to him, hedged Arius's recall as Socrates does, and split the Melitius sentence; the recheck passed, including Mark's one-hearing test. The coordinator added "the council of" before Chalcedon so a listener knows what it was. Final text: 532 words, grade 8.2. Recorded in Daniel's voice with no pause tag: 1 item, 3,012 characters, cap 3,400, charged 1,460, about 3:49. The earlier take is kept as `council-of-nicaea-325.arius-only.mp3` in the scratchpad; the earlier draft as `council-of-nicaea-325.v2.brief.txt`. Review audio now totals 8,434 credits.
+
+**Nicaea: the spine (Mark, 2026-11-17).** Mark on the re-threaded recording: "much better, but it wanders and skips around, was easter the major argument or jesus". The major argument was about Jesus (the Son "of one being with the Father" against Arius's "the Son has a beginning"); the brief opened on Easter and followed the council letter's mixed order, so Easter sounded like the main issue. The outline now sets the spine: the argument about Jesus first and throughout, then the council's other business (Melitius, Easter, the canons) as what it also settled, then the impact. The brief is reordered from its checked sentences, not rewritten afresh. `kit/Shapes.md`'s Council line already says the major issue "is the way in"; the order lesson is noted for the next council.
+
+**Nicaea reordered and recorded (2026-11-17).** The writer reordered the brief around the argument about Jesus from its checked sentences. The reviewer's reorder recheck failed three sentences ("came before" heard as time; Easter dropped as one of Eusebius's two causes; four short sentences in a row) and gave their wording; the coordinator applied it, kept "the council of Chalcedon", and split one 35-word sentence. The confirming recheck passed. Final: 546 words, grade 8.7. Recorded in Daniel's voice with no pause tag: 1 item, 3,113 characters, cap 3,500, charged 1,509, about 4:00. The previous take is `council-of-nicaea-325.wandering.mp3` in the scratchpad. Review audio now totals 9,943 credits.
+
+**Nicaea: how the council worked (Mark, 2026-11-17).** Mark: "keep it, the length is fine, this is very good", and asked whether the sources say "how decisions were made, how long it lasted". The researcher found sixteen items (Source_Sheet.md, "How the council worked", H1–H16): eyewitness accounts of the emperor's part, the testing of "one in essence", the two forms of decision ("It seemed good" for Easter, "Thus believes the Catholic Church" for the faith), the signing and the closing banquet; later historians on Arius's questioning, the avoided vote and Paphnutius; and gaps (no minutes, vote count, named president or settled dates). Mark ruled: "1 and 3 on the card". So the Nicaea card gains a "How the council worked" section (`Card_How.md`), and a separate short story, "How Nicaea decided", goes through the usual process from its own outline (`How_Story_Outline.md`), recorded in Neo's voice as a story. The approved brief is not changed.
+
+**How Nicaea decided, and the card section (2026-11-17).** `Card_How.md` (177 words) passed its check as written. The story outline passed after one correction ("until, Eusebius says, each signed; a few would not accept all of it"), with both Greek quotes confirmed at their lines. A fresh writer wrote `how-nicaea-decided.brief.txt`; its review returned one blocking error ("only from men who were there"; later historians also describe it) and minor points; one revision fixed it and the attribution of the few who held back to "other records"; the recheck passed, including Mark's one-hearing test. Final: 238 words, grade 8.2. Recorded in Neo's voice (`onegjDE2z0mQtp1g0HK7`, `eleven_v4`, with the pause tag, which this model reads as a pause): 1 item, 1,455 characters, cap 1,600, charged 705, about 1:35. Review audio now totals 10,648 credits.
+
+## 2026-11-17 — The brief kit consolidated, reconciled and given its permanent home (Mark, 2026-11-17)
+
+**Why.** Mark asked whether the kit was "a clean process now or rule on rule that will drift". It was drifting: `Standard.md` had grown from 422 to 773 words in a day, with the test, the quote rule and "don't simplify" each stated two or three times, and the role prompts lived outside the repository. Mark: "yes, draft the consolidation". A reconciliation review Mark shared then asked that rules from earlier decisions be labelled as such, that the one-third proportion and the council line not harden into quotas, and that the four prompts be shown in full. The reconciled draft and its provenance table are on the coordinator's page (https://claude.ai/artifact/N6p2XfoYko6BBfDvECeqa2).
+
+**Decided (Mark, 2026-11-17): "keep them hard, approved, go ahead".**
+- `Standard.md` is rewritten to one page (499 words), each rule once, under the test and Craft, Rigor, Accessibility. Rules carried from earlier decisions are kept as such: the BBC or National Geographic register and the second-language audience (CLAUDE.md, "Accessible and rigorous"); about 30 words a sentence (2026-11-16); grade 10 and reading ease 60 as hard limits, kept hard by this ruling, with scores below them a warning for the listening review.
+- The one-third proportion (2026-11-16) is replaced: "Give the outline's connection enough room to become understandable, carried through what people did."
+- `Shapes.md`, Council: "lead with the major issue and keep it as the spine. Include other essential business from the outline so that one dispute does not misleadingly stand for the whole council."
+- `Process.md` carries the five steps, the bar and the rule against growth: "A new ruling rewrites the line it touches. A line is added only when no existing line covers it. `Standard.md` stays one page." The fresh hand at each step (2026-11-16, "three separate hands") and one revision then to Mark (2026-11-17) are existing decisions kept as operational choices.
+- The four role prompts are kit files in `roles/` (researcher, checker, writer, reviewer); each points to the kit rather than repeating it.
+- The kit moves to `Build/Ministry/Features/Church-Family-Tree/Brief-Kit/`. `Who_Profile_Pattern.md`, `Council_Profile_Pattern.md` and `Worker_Brief_Template.md` are superseded by it and move, recoverable, to `Archive/Superseded-Method/Church-Family-Tree-Patterns-2026-11-17/`, with the first kit standard as `Standard_v1.md`. This is the ruling the 2026-11-16 "story process" entry left for the end of calibration. `Writing_from_Polycarp.md` stays where it is, in the Ignatius calibration audit, as audit trail.
+- The writing-standard lock (`tools/check_standard_lock.py`, its test and the `standard` path filter in CI) now protects `Brief-Kit/` and `Who-Profiles/bar/`. References are updated: the scorer's docstring, the census validator's council comment, the council and batch READMEs (to the archived path), and `Who-Profiles/bar/README.md`, which now says a reviewer judges against the written standard. Dated logs, audits and launch prompts keep their wording as history.
+
+## 2026-11-17 — Who and council cards gain typed connections (Mark, 2026-11-17)
+
+**Why.** Mark asked whether the twelve briefs' Who cards were updated "so they are a complete package, this includes a link to the tradition and any other briefs they are connected to". They were not. The cards still carry the earlier briefs' text, and some of it now disagrees with the new source checks; ten of the eleven people link their tradition through `toldWithin`, Cyril and Methodius have no person entry (only the tradition `cyrillo-methodian-slavic-christianity`), the Nicaea council entry lists its people but no tradition, and the census holds no person-to-person links (its 736 edges are almost all between traditions).
+
+**Decided (Mark, 2026-11-17): "yes, go with 1, typed connections with links to the tradtion, person, counsil or story that already exist."**
+- Each Who and council card gains a Connections list: the kind of tie in a short phrase, linked to an existing tradition, person, council or documented story. The card's own tradition shows as a linked connection. Nothing links to an entry that does not exist.
+- The schema, validator, both renderers and tests are built first with one pilot card (Macrina the Younger), for Mark to see as a complete package before the other cards are refreshed to their new briefs, each refresh checked against its source sheet.
+- Cyril and Methodius's missing person entry is a separate decision for Mark.
+
+**Cards: reuse, then links later (Mark, 2026-11-17).** Mark: "over 200 have cards, use what is good, modify to meet the new standard. be efficiant. we can do the actual links later when all the who and counsils are done." The connections build was stopped before it changed any file; the connections ruling above stands and is carried out once every Who and council brief is written. `Brief-Kit/Process.md` gains step 6, the card, and `Brief-Kit/roles/card.md` is its prompt: start from the existing card, keep what is good, change only what the finished brief and its source sheet require, and check every changed claim and quote. The twelve cards of the two varied batches are refreshed this way, four at a time.
+
+## 2026-11-17 — Cards: flag a claim you cannot find, don't delete it (Mark, 2026-11-17)
+
+**Why.** In the twelve-card refresh, two card writers took a failed search as proof a claim was unsupported and deleted it: Columba's birth-year claim (held in Stokes's Lismore file, lines 24009–24012) and three Cyril and Methodius claims (held in Ginzel, GZ 3245–3249, 6170–6173, 1817–1820). The checkers found them and they were restored. A deletion of approved text is silent unless someone compares the old card with the new.
+
+**Decided (Mark, 2026-11-17): "yes, make that change".**
+- `Brief-Kit/roles/card.md`, rule 1, is rewritten: correct any claim the source sheet contradicts; "If you cannot find support for a claim, leave it in place and list it in your reply as not found; the checker decides whether it stays." The reply now names the claims not found, not the claims removed.
+- `Brief-Kit/Process.md`, step 6: the checker "rules on each claim the writer flagged as not found".
+
+## 2026-11-17 — Researchers sweep the Library and record it (Mark, 2026-11-17)
+
+**Why.** Mark: "make sure we are using the library fully and not just notes". A count of the twelve source sheets found every sheet quoting primary texts at their lines, but each started from the old card's source list (as the researcher role said) and added one to eight files; none recorded what was searched. Ninety-four held files mention Clement of Alexandria and his sheet cites six; his tradition's corpus-map bucket lists thirty-eight works and the sheet uses four. Several claims rest on editors' notes.
+
+**Decided (Mark, 2026-11-17): "make sure we are using the library fully and not just notes".**
+- `Brief-Kit/roles/researcher.md`: the line on sources is rewritten. The card's `sources` field is a starting list only; the researcher sweeps every corpus-map bucket for the subject's traditions with `WORKS.yaml`, `AUTHOR-IDS.yaml` and `RETRIEVAL-HINTS.md`, and searches `cic/texts/` for every name form, above all for later witnesses. A primary text is preferred to an editor's note, and an editor-only claim is marked as the editor's. The sheet ends with a **Library sweep**: what was searched, how many files mention the subject, which were used, and why the main ones left aside were set aside.
+- `Brief-Kit/roles/checker.md` gains the matching check: the sweep is real, and no held primary text or major later witness is missing.
+- This governs new outlines. It does not reopen the existing cards, which Mark notes "have been written and checked multiple times from the library".
+
+## 2026-11-17 — Cards: back to the originals; only new or clearly wrong edits (Mark, 2026-11-17)
+
+**Why.** Mark: "the current cards have been written and checked multiple times from the library, i don't want to loose quality just because the reviewers are not as indepth as the previous library builds and card builds". A sentence count of the twelve refreshed cards found the refresh had removed or reworded a large share of each original (Martin 26 of 41 sentences, Columba 34 of 53, Cyril and Methodius 35 of 55, Benedict 48 of 94, Clement 16 of 24) and doubled or tripled their length: far more than "use what is good". The checks had tested what changed, not whether it should have.
+
+**Decided (Mark, 2026-11-17): "go back to the original and make any edits that are new or clearly wrong on the card".**
+- Each of the twelve cards is rebuilt from its original, word for word. The new brief's checked `quotationOriginals`, `briefReferences` and `briefLength` (and, for Nicaea, `howItWorked` and `stories`) are carried over unchanged from the refresh. The refreshed versions are kept beside them as `*.refresh1.card.json` / `*.refresh1.entry.json` for reference only.
+- Only clearly wrong statements are then corrected, each listed in `Card_Edits.md` with its evidence; a claim not found stays and is flagged.
+- `Brief-Kit/roles/card.md` is rewritten to this rule, and `Brief-Kit/Process.md` step 6 with it.
+
+**The card tweaks (2026-11-17).** Mark: "they should be tweeks not rewrites". Rebuilt from their originals, the twelve cards needed six tweaks in all, each listed with its evidence in that card's `Card_Edits.md`:
+- Clement, place: "later with Alexander of Jerusalem" becomes "later with the imprisoned bishop Alexander" (the prison letter names no place, EUS 33615).
+- Marcion, uncertain: "the money returned" becomes "the money cast out with him" (Tertullian, T 29239–29243).
+- Radegund, legacy: Fortunatus "stayed at Poitiers because of her" becomes "stayed near her by her wish" (VF 16035 names no place).
+- Columba, uncertain: the Life "between 679 and 704" (Adomnán's abbacy) becomes "between 692 and 697" (Huyshe).
+- Hild, knownFor: kings and princes "sometimes" sought her advice (Bede's "nonnumquam", HEL 24936–24939).
+- Dhuoda, keyWorks: "Chapter 68 tells William to read the book" becomes "She tells William to read the book" (DH 3175–3178).
+Antony, Macrina, Martin, Benedict, Cyril and Methodius and Nicaea needed none. Most faults the earlier refresh had "corrected" were not in the originals (Marcion's "shipowner", 144 and "ten letters" are on the census card, not his Who card; Macrina's card already credits Annesi to Clarke; Radegund's already gives the Cross's gold to Baudonivia). The census-card faults stay with Open-Gaps 316 and 317 for the release.
+
+## 2026-11-17 — Data release 50: eleven of the twelve briefs and cards, with their recordings (Mark, 2026-11-17)
+
+**Decided (Mark, 2026-11-17): "yes, go ahead with the eleven".** This followed the plan put to him: release eleven of the twelve, record six in Neo's voice capped at 7,500 credits, and bring Cyril and Methodius back separately because they have no census entry.
+
+**What goes live.** Clement of Alexandria, Antony the Great, Macrina the Younger, Radegund, Columba, Marcion of Pontus, Martin of Tours, Benedict of Nursia, Hild of Whitby, Dhuoda and the Council of Nicaea.
+- Each brief becomes the entry's `longDescription`.
+- Each person keeps its live card word for word. Only the six tweaks are applied ("Cards: back to the originals", 2026-11-17), each one checked by script to differ from the live card by exactly the listed words. The card also gains the brief's quotations and references.
+- Nicaea's council gains `howItWorked`, its quotations and references, and its story "How Nicaea decided" as a documented story.
+
+**Second readings.** Every quotation was rendered a second time, blind, from its source (`Second_Readings.md` in each folder; 48 quotations). 44 matched and 2 had minor differences. Two changed the meaning, and both were re-rendered in the second reader's words before recording:
+- Columba: "they that seek the Lord shall not want any good thing" became "those who seek the Lord will lack no good thing". The old wording can be heard today as "will not desire".
+- Dhuoda: "a respectable monument of literature and piety" became "a monument of literature and piety worthy of respect". Today the old wording sounds like faint praise.
+- 37 quotations are renderings and are listed in `tools/quote_renderings.json` with their records. The five Benedict renderings of release 48 are removed, because his new brief no longer quotes them.
+
+**Made to pass the census check.**
+- The editions the quotations cite are added to each card's sources.
+- Three lists of lines are written as ranges, and two ranges are corrected.
+- Fifteen scan faults inside quoted wording are listed in `tools/quote_scan_readings.json`.
+- Three reference lines that quoted a paraphrase or a label are told as plain notes.
+- Benedict's brief puts Paul the Deacon's words in quotation marks.
+- Each change is listed in that card's `Card_Edits.md`, "At release 50".
+
+**Code.**
+- The census check now covers a council's quotations, references and how-it-worked lines, and a documented story's quotations. It accepts the original beside a translation (and a printed English beside an original), and each wording must stand at its lines. One entry may cover a quotation the brief breaks around "he says".
+- The map's council card and the council's tree page show the brief's recording, the Quotations and references section, How the council worked, and the story with its recording (Open-Gaps 321).
+- The narration tool sends audio tags only to a model that reads them (Open-Gaps 320). Tree runs never send tags, so no live Daniel recording carries the spoken word.
+
+**Recordings.**
+- *The paid run:* Neo (`onegjDE2z0mQtp1g0HK7`, `eleven_v4`, `mp3_44100_64`, `{"stability":0.95,"similarity_boost":0.68,"style":0,"use_speaker_boost":true}`), recording Marcion first to confirm the rate and then Clement, Antony, Martin, Columba and Radegund. The six were charged 1,089, 1,013, 1,203, 1,236, 1,119 and 1,029, a total of 6,689 credits against the cap of 7,500. The account balance moved from 280,548 to 287,237, exactly that amount (`2026-11-17_varied-batch-2/recording/release50-run1.log`, `-run2.log`).
+- *Review recordings reused:* these were made with the same settings from the final text (Decision-Log, "Audio review recorded", 2026-11-17). Macrina, Hild and Benedict are in Neo's voice, and Nicaea is in Daniel's (`onwK4e9ZLuTAKqWW03F9`, `eleven_multilingual_v2`) with no pause tag. "How Nicaea decided" is in Neo's voice, in `audio/docstories/`. Since its take, Benedict's text has changed only by a pair of quotation marks.
+- *Not recorded:* Dhuoda's brief changed after its review take, so it goes live as text until it is recorded again (about 1,150 credits, beyond the approved cap; for Mark).
+
+## 2026-11-17 — No softening: a witness, not a judge; release 50 held for the must-fix and should-fix lists (Mark, 2026-11-17)
+
+**Why.** Four independent readers evaluated the twelve: a historian and a university teacher; a pastor, a general seeker and someone re-assessing their faith; a listener sceptical of AI; and a check of consistency and production readiness. The results are at https://claude.ai/artifact/MhbuqEzrLQwQ7PbrsKm6G5. They found one factual error: Columba "left Ireland for good", although the source sheet (E11) has him at Druim Cett in Ireland in 574. They also found a pattern of softening by omission. Each item below sat in its own outline and was left out of the brief:
+- Martin's destruction of temples;
+- Benedict's Apollo temple;
+- the 879 ban on the Slavonic liturgy;
+- King Lothar's backing of Radegund's house.
+
+Some narrator sentences also took one side's framing: Dhuoda's ending on Luther, and Marcion's "the church".
+
+**Decided (Mark, 2026-11-17): "yes no softening, we are a witness not a judge, that is a significant omission and error. that is why we review multiple so that is a kit change in the next round, for this round 1 but also the should fixes too".**
+- **The kit** gains one Rigor line in `Standard.md` ("We are a witness, not a judge…"), a Must keep field in `Outline_Template.md`, and a check in `roles/reviewer.md` that every Must keep fact is told and that no linking sentence takes a side's framing. Either fault is BLOCKING. No existing line covered this, so these are additions rather than rewrites.
+- **Release 50 is held.** Every piece gets its must-fix and should-fix items from the evaluation page, each corrected from its own outline and source sheet. Each piece is then rechecked, and any changed or new quotation gets a second reading. The changed briefs are recorded again under a cap that Mark approves before the paid run. Cyril and Methodius are fixed the same way and still wait for a census entry.
+
+## 2026-11-17 — No softening, folded into the kit's existing lines (Mark, 2026-11-17)
+
+**Decided (Mark, 2026-11-17): "the must keep and should keep are for this batch not the kit. don't add on rules make sure it is a part of the cohesive kit".** The three additions of the entry above ("No softening: a witness, not a judge…") are undone: the new Rigor line, the Must keep field in the outline, and the reviewer's added check. In their place, two existing lines carry the principle:
+- `Standard.md`, the witness line, now opens "We are a witness, not a judge." It ends: the narrator "never carries any side's view forward, and never softens the record by leaving out its force or conflict".
+- `Outline_Template.md`, Leave out, adds: "Never the record's force, coercion or conflict: those are told as plainly as its virtues."
+
+The reviewer already judges against the standard, so `roles/reviewer.md` is as it was. This round's specific must-fix and should-fix items stay in the batch fix list, not in the kit.
+
+## 2026-11-17 — Release 50 fixes made, rechecked and recorded again (Mark, 2026-11-17)
+
+**What was done.**
+- **Revisions.** Every must-fix and should-fix item on the evaluation page was made by fresh writers, each from the piece's own outline and source sheet. So were Mark's items 5 to 7 ("yes, add 5 to 7"):
+  - Antony's plain words for the Gospel and Paul's letters;
+  - a sourced sentence on the people taking sides at Nicaea (Socrates I.6);
+  - a story ending that does not give the winning side the last word.
+
+  Each folder's `Fixes_R50.md` lists every change with its source. The released text is kept as `*.r50.brief.txt`.
+- **Rechecks.** Independent rechecks (`Recheck_R50.md`) ran the one-hearing test and a targeted source check. Every piece passed after three corrections:
+  - Martin's Paris sentence: the bishops feared the queen's fury, not the king's (Brehaut 5794–5795);
+  - Macrina: three of her brothers became bishops, not two;
+  - Radegund: she set up her house, and King Lothar founded and enriched it.
+- **Second readings.** New and changed quotations and paraphrases were second-read blind (`Second_Readings.md`, "Release 50 fixes"). None changed the meaning. Cyril and Methodius's quotations were all second-read for the first time.
+- **Census.** The census now carries the revised text. Its quotation entries, references and renderings follow the text, and new scan faults are listed. The census check passes with no errors.
+
+**Recording (Mark, 2026-11-17: "Approved", cap 14,500 credits).**
+- Neo (`onegjDE2z0mQtp1g0HK7`, `eleven_v4`, `mp3_44100_64`, the story settings) recorded the ten people. Marcion went first to confirm the rate (1,112 credits), then the other nine (10,448).
+- Daniel (`onwK4e9ZLuTAKqWW03F9`, `eleven_multilingual_v2`, no tags) recorded Nicaea (1,452).
+- Neo recorded "How Nicaea decided" (746).
+- In all: 13,758 credits, and the balance moved from 287,237 to 300,995, exactly that amount. The logs are in `2026-11-17_varied-batch-2/recording/release50-fix-run1.log` to `-run4.log`.
+
+**A tool fault fixed on the way.** The story tool stopped before its request, so nothing was charged. It had borrowed the tree tool's settings check, which allows an output format only with `--people`. That check also fails main's six paid-run gate tests. The story and site tools now share `requireVoiceAndModel`, and keep their own output-format checks; all 76 narration tests pass.
+
+**Lengths.** Martin runs about 3:12 (526 words) now that the temples are restored. Nicaea runs about 3:50 in Daniel's voice, as Mark allowed. Cyril and Methodius, still unreleased, is 498 words.
+
+## 2026-11-17 — Record only a finished batch, one batch at a time (Mark, 2026-11-17)
+
+**Decided (Mark, 2026-11-17): "We do no recording until a batch completes all authoring and revisions one batch at a time."** The first line of `Brief-Kit/Process.md` now carries it: "A batch is worked one at a time, and is recorded only once every brief and card in it has finished every step, revisions included." It is folded into that existing line, not added as a separate rule.
+
+**Why.** This batch was recorded before its revisions were finished:
+- review takes were made mid-review;
+- six release recordings (6,689 credits) were made before the four-reader evaluation;
+- the evaluation sent every piece back for revision, and all twelve were then recorded again (13,758 credits).
+
+Under this ruling, only the final recording would have been paid for.
+
+## 2026-11-17 — Variety of story: four kit lines loosened, and a batch variety check against drift (Mark, 2026-11-17)
+
+**Why.** Across the first twelve, the AI-sceptic reader and the consistency reader counted the same moves repeating:
+- an unnamed opening, then the name revealed (8 of 12);
+- a stacked setting line (10);
+- the "Most of what we know" witness formula (6);
+- "Yet" at the turn (7);
+- an ending on a later writer or institution (12).
+
+Four kit lines put those moves in the same place every time. The options are at https://claude.ai/artifact/YMoiikcHmAKwGkEuTArbHW.
+
+**Decided (Mark, 2026-11-17): "yes, go with 1my concern is if weloosen we will have the same drift problem", then "yes, go with those and test the check".**
+- **`Standard.md`, the opening.** "Within the first few sentences, give the time, the place and the tradition in the outline's spoken words" becomes "Let the time, the place and the tradition reach the listener early, each in whatever form the story gives it, never as a list."
+- **`Standard.md`, the ending.** "End there, on an event or in the record's own words" becomes "Tell it where it is strongest. Once it has landed, the story may end on it, or on a scene, the person's own words or their death."
+- **`Outline_Template.md`.** The Setting field gives facts for the writer, "not a sentence to paste". Who tells it gives "what the listener must know about the witness, for the writer to place where the listener needs it".
+- **The guard against drift.** `tools/check_brief_variety.py` counts the five moves across a batch. Process.md step 4 runs it first, folded into the existing review step. A move in more than a quarter of the batch goes back to those pieces' writers, and the counts are kept with each batch.
+
+**The check, tested.** On the twelve as released (`*.r50.brief.txt`) it counts 7, 9, 6, 7 and 12 against the readers' 8, 10, 6, 7 and 12. `tools/tests/test_check_brief_variety.py` holds it within one of each, and CI runs it with the standard lock. On the revised twelve the witness formula and "Yet" are at 0, but three moves are still over: the reveal (6), the setting slot (9) and the later ending (12). These briefs were written under the old lines (Open-Gaps, "What the variety check finds in the first twelve", 2026-11-17).
+
+## 2026-11-17 — Batch 3: the confirming twelve, on a frozen kit (Mark, 2026-11-17)
+
+**Why.** The four-reader evaluation of the first twelve found them "not ready for 500; ready for one confirming batch on a frozen kit". It asked for twelve pieces run cold, covering what the first twelve did not.
+
+**Decided (Mark, 2026-11-17): "fill the Pachomius gaps, keep him in the batch", then "converged, auto mode".**
+- The twelve are Justin Martyr, Vardan Mamikonian, Moses the Black, Alopen, the Council of Chalcedon, the Third Council of Toledo, John Wyclif, Thomas à Kempis, Narsai, Pachomius, Arius and Baudonivia. The slate and its Library check are at https://claude.ai/artifact/1nrEJQohzTnbKoxP8mpwYL.
+- Eras 5 and 7 are not in it. Their census people have no card, so the era 5 to 7 slots go to Wyclif and Kempis, whose cards were built in era 6 batch 1.
+- Before research, the Library fills Pachomius's own Lives (Amélineau's Coptic Lives, the Latin Life in Acta Sanctorum, Jerome's Latin Rule), and Legge's translation of the Xi'an stele for Alopen.
+- The kit is frozen for the batch at git tree `49e3fb2f`. Any change is a named change order with Mark's words.
+- The audit trail, exit criteria and ledger are in `Build/Ministry/Operations/Audits/2026-11-17_batch-3/`.
+
+## 2026-11-18 — Batch 3: the three held pieces get a second revision, on Opus (change order) (Mark, 2026-11-18)
+
+**Why.** Toledo III, Chalcedon and Pachomius failed their recheck after their one revision (`Process.md` step 5). The report is at https://claude.ai/artifact/FM7qUy1E74Exyti3oHr1W3. Both councils were drafted on Sonnet under the model rules, and both cut the outline's must-tell force in the first draft and again in revision.
+
+**Decided (Mark, 2026-11-18): "1"**, the report's option 1: "One more revision each, by a fresh writer on Opus, then one recheck."
+- A named change order for this batch only. The kit is not changed: `Process.md` step 5 still allows one revision, and the model rules still give councils to Sonnet.
+- Each of the three is written again by a fresh writer on Opus, from its passed outline (with the reviews' Do-not-say lines added), not from any failed draft. One recheck follows. A piece that still fails comes back to Mark.
+- If all three pass, the batch is finished and goes to recording and release together.
+
+## 2026-11-18 — Batch 3: the second rechecks' fixes applied; Chalcedon allowed to 560 words (Mark, 2026-11-18)
+
+**Why.** After the second revision (entry above), each of the three held pieces failed its second recheck on narrow points: one sentence each in Toledo III (the Seville clause) and Pachomius (Benedict of Aniane's Concordia), and in Chalcedon two content points and a length the outline's must-tell list cannot meet (the recheck's tightest honest version is about 540 to 560 words). The report: https://claude.ai/artifact/FM7qUy1E74Exyti3oHr1W3.
+
+**Decided (Mark, 2026-11-18): "yes, apply the fixes and allow Chalcedon to 560".**
+- Toledo III and Pachomius take their rechecks' named fixes. The coordinator applied each recheck's wording; for Pachomius, "In the ninth century" was left out of it to keep the ending free of a later date. Two small factual minors were taken with them: Toledo's edict penalties put in the conditional, and Pachomius's books "that had come from Alexandria".
+- Chalcedon takes its two content fixes and may run to 560 words (about 3:45), for this council only. The outline's own cap is not changed.
+- A targeted final check on each closes the batch's authoring.
+
+## 2026-11-18 — Batch 3: drift tested against the first twelve; two endings recast (Mark, 2026-11-18)
+
+**Why.** Mark: "Before recording, can you run a comparison with the first batch to test drift". The comparison (`Build/Ministry/Operations/Audits/2026-11-17_batch-3/Drift_Comparison.md`) found batch 3 far less repetitive than the first twelve. One move survived under the variety check, though: an ending on a later writer, record or institution, in 5 of 12 by hand (Justin, Pachomius, Wyclif, Baudonivia, Alopen), and 0 by the detector, whose test is a later date and can be passed by leaving the date out.
+
+**Decided (Mark, 2026-11-18): "1"**, the report's option 1: recast two endings, Baudonivia and Alopen, so the move stands at 3 of 12. Each gets one targeted check, and then the batch goes to recording. The detector's weakness comes to Mark as a kit change for batch 4.
+
+## 2026-11-18 — Batch 3: four-reader evaluation; five pieces fixed before recording; series shape is not an AI fault (Mark, 2026-11-18)
+
+**Why.** Mark: "Next run the same review of user experience accedemic, pastor etc including ai sceptic". The four readers' reports are in `Build/Ministry/Operations/Audits/2026-11-17_batch-3/Evaluation/`, and the summary at https://claude.ai/artifact/3YBs18VrBNAzJE2iGunE66. None found an invented fact, and the re-assessing reader called the batch very trustworthy on force and coercion. Five pieces carried a must-fix:
+- Toledo III: Sunna's exile followed a discovered plot (PL 80 12040–12071).
+- Moses the Black: his killing is in an early saying (PAR2 1464), not only a later tradition.
+- Wyclif: the council's burning of Hus, and of his English followers, is missing.
+- Alopen: out of time order, from the drift recast.
+- Chalcedon: not followable on one hearing.
+
+**Decided (Mark, 2026-11-18).**
+- On the AI sceptic's structural findings: "For same pattern that isn't necessarily an ai pattern, most bulk briefs would follow a pattern even if hand written". A shared series shape is not an AI fault and is not chased. Word-level tells still are, including "not X but Y" in the narrator's voice, along with any move that repeats as the same wording.
+- On the five: "Fix", the evaluation's option 1. Each gets a targeted correction from its outline and the readers' findings, by a fresh Opus writer, with one independent check. Then come the census fixes, and the recording comes back to Mark. Chalcedon's length in Daniel's voice (about 137 words a minute) comes back to Mark with its correction.
+
+## 2026-11-18 — Batch 3: the recording approved; Chalcedon stays at 569 words
+
+**Ruling (Mark, 2026-11-18: "I approve", on the recording page's recommended option).** The batch 3 recording run is approved at a cap of 15,500 credits. Chalcedon is recorded as it stands, at 569 words, about 4:09 in Daniel's voice. That is 9 words over the 560 allowed on 2026-11-18. The 560 had been worked out at 150 words a minute, and Daniel reads at about 137. The independent check listed what could be cut. Four cuts cost nothing and were made, taking the brief from 586 to 569 words. The next cut would have taken Leo's "robbers" line, the brief's only answer to the historian's point about the violence of 449.
+
+**The run.** Neo (`onegjDE2z0mQtp1g0HK7`, `eleven_v4`) for the ten people and Daniel (`onwK4e9ZLuTAKqWW03F9`, `eleven_multilingual_v2`, no tags) for the two councils, both `mp3_44100_64` with the story settings. The estimate is 29,113 characters, about 14,100 credits, at release 50's measured rate. The order: a dry run and a balance read, Alopen alone, Toledo alone, then the other ten. Afterwards the balance is checked against the charges. The run starts once the census holds the twelve texts and its check passes with 0 errors. The twelve then go to Mark to hear before release 51.
+
+**Recorded (2026-11-18).** The census took the twelve texts first. Its check passes with 0 errors, and the CI census tests pass. One test was fixed: its made-up-quotation case used Arius, whose card now carries quotation entries, so the check also correctly reports the missing entry. The run printed its settings before each request. Logs are in `Build/Ministry/Operations/Audits/2026-11-17_batch-3/recording/batch3-run1.log` to `-run4.log`.
+- Alopen alone, in Neo's voice: 1,147 characters sent, 556 credits (0.485 a character, as release 50).
+- Toledo alone, in Daniel's voice: 2,970 characters, 1,440 credits.
+- Chalcedon, in Daniel's voice: 3,450 characters, 1,673 credits.
+- The other nine people, in Neo's voice: 22,100 characters sent, 10,715 credits.
+- In all: 14,384 credits against the 15,500 cap. The balance moved from 300,995 to 315,379, exactly that amount. A first reading straight after the run showed 954 less, which is Baudonivia's charge. It had not yet been counted, and the second reading matched.
+
+**Heard lengths are longer than the estimates.** They are measured from the files and include the pauses between paragraphs. Chalcedon runs 4:27 and Toledo 3:45, so Daniel reads these at about 128 words a minute, not 137. The people run from 1:22 (Alopen) to 3:16 (Vardan). Justin (3:05), Pachomius (3:04) and Vardan (3:16) are past the Standard's "up to three" minutes. That goes to Mark with the listen, and the per-voice rates go into the batch 4 length proposal.
+
+## 2026-11-18 — Batch 3: a substance read before release 51; Wyclif's Bible told as his cause
+
+**What Mark heard.** On the recordings, Mark: "i am a little concerned we are not telling the meat and content of the impact". Baudonivia tells the writing of her book but not what was in it, or why she is on the tree. Alopen opens on the stone's imagery, which doesn't make sense heard. Wyclif hardly tells the English Bible, "that is his legecy". No check in the kit asks whether a newcomer learns what the person did, what it changed and why they belong on the tree. The four evaluation readers did not flag it either.
+
+**The sources on Wyclif's Bible.** Mark held that Wyclif translated major parts, and that Tyndale used his translation as a base. The held witnesses disagree on the first point. Knighton, a hostile contemporary, says he translated the Gospel. Forshall and Madden (1850) say the New Testament was "probably" his own work. Pollard (1903) finds "substantially no evidence" and thinks his students did it at his wish. So who held the pen stays Contested. On Tyndale, Tyndale's own 1526 epistle says he "had no man to counterfeit, neither was helped with English of any that had interpreted the same" (Walter 1848, 25534). His editor says Wyclif's version came from the Vulgate and Tyndale's from the Greek, so the brief does not claim dependence. What holds is the cause: "Wicliffe had done this a hundred and fifty years before" (Walter 673).
+
+**Decided (Mark, 2026-11-18: "yes, and run the substance read on all twelve").**
+- Wyclif's Bible paragraph becomes the centre of the piece, in the wording put to Mark. It covers his conviction, the circle's Bible, the three witnesses on whose hand it was, the scarce hand-copied book and the trials for owning it, and Tyndale taking up the same work from the Greek. Room comes from the Hus section. The trials line is to be found in the trial records themselves where held (Foxe). The fix gets an independent source check and a blind second reading of any new quotation.
+- A substance read of all twelve by a fresh Opus reader. For each piece: what did this person do, what did it change, why are they on the tree, and is that clear on one hearing? Pieces that fail get a targeted fix from their outlines. Where the outline aimed wrong, as Baudonivia's "connection" did, the outline is corrected first. Each fix gets an independent check, and only changed pieces are re-recorded, with the count and cap put to Mark first.
+- The same test becomes the first kit change proposed for batch 4.
+
+## 2026-11-18 — Change order: the heart of their life, told in the first minute (batch 3 and after)
+
+**Why.** The substance read failed nine of the twelve. It also passed Baudonivia and missed Wyclif's Bible, both of which Mark had heard as failures. That reader judged each piece against its own outline, so an outline that aimed wrong passed. Mark: "something is wrong with the evaluation it still didn't get wycliffe and translation or baudonivia's what the book was about and its impact as core to the story. what is important has to be mentioned in the first minute". Then: "i do think the issue is in the outline not the writing". The template built the fault in. Its beats run in time order with impact last. Its opening was chosen to draw a listener in, not to say who this is. Its one-sentence Thread was never checked against what the person is known for. Its witness notes had no limit on their room.
+
+**Decided (Mark, 2026-11-18: "not a headline, it is the core or heart of the persons life. the major contributions, the essense of their work", then "yes, converged, auto mode").**
+- `Outline_Template.md`: a new first item, **the heart of their life**. It gives the major contributions and the essence of their work, told as substance: what they did and made, what it held, and what it changed. The researcher sets it from the census and what the person is known for, and checks every claim against the Library. Where the sources will not hold a claim, it says what they do hold. It replaces the Thread. The beats are arranged so the heart is told in the first minute, stepping out of time order where needed. The opening leads into the heart and makes plain sense heard once. How-we-know gets a sentence or two unless the doubt is the story. Word counts follow the voice as heard: about 150 a minute for Neo, 130 for Daniel. These were measured from the batch 3 recordings, pauses included.
+- `roles/checker.md`: the checker writes its own account of the heart before reading the outline. A difference in substance, or a missing major contribution, is BLOCKING.
+- `roles/researcher.md`, `roles/writer.md`, `roles/reviewer.md` and `Standard.md` follow. The reviewer writes the heart from the census and what the person is known for, and fails a story that does not tell it in its first minute with its due weight.
+- A variety recast may never cut or delay the heart.
+- **Batch 3 under it.** The ten pieces go back to the outline stage: Justin, Vardan, Alopen, Chalcedon, Toledo, Wyclif, Kempis, Pachomius, Arius and Baudonivia. Kempis's outline needs research on what the Imitation teaches. Wyclif's carries the Bible wording Mark approved on 2026-11-18. Each outline is checked under the new checker role and written fresh on Opus, the councils included. Each story is then reviewed under the new reviewer role, with blind second readings of new quotations, card updates, the census, and the re-record count and cap put to Mark. Moses and Narsai are held to the same first-minute test by the reviewer. If either fails, it joins the ten.
+
+**Guidance (Mark, 2026-11-18, during the rework): "its ok to quote something if there is a modern english explanation".** A quotation in its own older or figurative wording may stand in a brief when the narrator gives its plain modern sense with it, so a listener understands it on one hearing. Examples are a stone's imagery, Middle English, or a phrase like "royal way". It does not lift the rule that the meaning must be plain heard once. It goes into the kit proposals for batch 4.
+Mark then clarified: "something that by it self is not clear in english like the cloudes and winds image". The guidance covers a quotation whose wording is unclear in English by itself, such as the Alopen stone's "watching the blue clouds… watching the way the winds blew". It may be quoted when the narrator gives its plain sense alongside.
+**Ruling (Mark, 2026-11-18: "1. yes").** Under that guidance, Alopen's clouds-and-winds image from the stone goes back into the brief. It goes mid-story, after his arrival, not as the opening, and the narrator gives its plain sense. It is taken from the outline's earlier rendering and its blind second reading, with one targeted check.
+
+## 2026-11-18 — Batch 3: the re-record approved
+
+**Ruling (Mark, 2026-11-18: "I approve", on the re-record page's recommended option).** All twelve reworked texts are recorded again, at a cap of 15,500 credits. The settings are the same as the morning run: Neo for the ten people and Daniel for the two councils. The estimate is about 29,500 characters and about 14,300 credits. The run starts once the census holds the twelve texts and its check passes with 0 errors. It runs a dry run and a balance read, then Alopen alone, Toledo alone, then the other ten, and the balance is checked against the charges at the end. The morning recordings, made from the texts before the rework, are replaced.
+
+**Re-recorded (2026-11-18).** The census took the twelve reworked texts first, and its check passes with 0 errors. Logs: `Build/Ministry/Operations/Audits/2026-11-17_batch-3/recording/batch3-rerecord-run1.log` to `-run5.log`.
+- Alopen alone, in Neo's voice: 2,111 characters sent, 1,024 credits (0.485 a character).
+- Toledo alone, in Daniel's voice: 2,398 characters, 1,163 credits.
+- Chalcedon, in Daniel's voice: 1,620 credits.
+- Eight people in Neo's voice: 18,949 characters sent, 9,187 credits.
+- Wyclif came last. It was held back while Mark asked whether Wyclif was martyred (he was not: he died after a stroke in 1384, and his bones were later ordered dug up and burned). Mark: "im good with wycliffe". 1,277 credits.
+- In all: 14,271 credits against the 15,500 cap. The balance moved from 315,379 to 329,650, exactly that amount.
+
+Heard lengths: the people run from 2:07 (Baudonivia) to 3:12 (Arius). Toledo runs 3:02 and Chalcedon 4:19.
+
+## 2026-11-18 — Baudonivia stays a person on the tree, linked to Radegund
+
+**Why.** Mark asked why Baudonivia, not Radegund, is the person, with Baudonivia as biographer ("i am not suggesting a change in the story, just who its about"). Radegund already has her own entry and story. Baudonivia was chosen for the slot "a woman in her own voice". The heart-first rework pulled her story toward Radegund, because the only record of Baudonivia is her book.
+
+**Decided (Mark, 2026-11-18: "1, keep both and link them").** Both stay as person entries, and their stories are unchanged. The typed connection "wrote her life" goes in with the connections build (Open-Gaps, "Batch 3 after the rework", 2026-11-18). Until then, each card names the other.
+
+**Passed by ear (Mark, 2026-11-18: "they all pass, finish release 51").** All twelve re-recorded pieces pass. Release 51 goes ahead: the census, map and tree pages already hold the twelve texts, cards and recordings. Promotion to live stays Mark's call, through the promotion runbook.
+
+## 2026-11-18 — Release 51: American spelling, the recordings kept
+
+**Why.** The pull request's spelling check found 17 British spellings in what it edits: favour, favoured, licence, honour, metre and dreamt. The Standard asks for American spelling outside quotations from editions. Five of them sit in recorded texts: Alopen, Arius, Baudonivia, Narsai, and Toledo, in our own English of the Latin creed line. A page plays a recording only while its stored text fingerprint matches the text.
+
+**Decided (Mark, 2026-11-18: "1").** The spellings are corrected everywhere they are ours: the five briefs, the cards, the census, the renderings list and the pages. Verbatim printed wording keeps its own spelling. The five recordings are kept, not re-recorded. Each changed word sounds the same in both spellings, so the audio already speaks the corrected text. In `cft-website/audio/tree/manifest.json`, each of the five entries' `text_sha256` and `chars` now describe the corrected text, worked out with the narration tool's own `narrationFingerprint`. The voice, model, settings, `charsSent` and request id are unchanged. No paid call was made.

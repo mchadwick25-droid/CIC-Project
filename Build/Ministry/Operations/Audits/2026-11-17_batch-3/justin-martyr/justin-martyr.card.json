@@ -1,0 +1,179 @@
+{
+  "knownFor": "A philosopher who became a Christian teacher at Rome, defended Christians to the emperor, and was beheaded for refusing to sacrifice.",
+  "datesNote": "Died about 165",
+  "placeNote": "Flavia Neapolis in Palestine, then Rome",
+  "role": "Teacher and apologist",
+  "keyWorks": [
+    {
+      "title": "First Apology",
+      "about": "addressed to Antoninus Pius, with the Word shared by every race and a Sunday service"
+    },
+    {
+      "title": "Second Apology",
+      "about": "a shorter defense, in which he names Crescens"
+    },
+    {
+      "title": "Dialogue with Trypho",
+      "about": "his conversion story, and an argument with a Jew that the prophets spoke of Jesus"
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "Tatian, who wrote the Address to the Greeks, was his hearer, Irenaeus of Lyon says."
+    ],
+    "remembered": [
+      "The account of his trial before Rusticus was kept as the Martyrdom of Justin.",
+      "Eusebius of Caesarea calls him \"a genuine lover of the true philosophy.\""
+    ]
+  },
+  "uncertain": [
+    "Eusebius says a plot by Crescens the Cynic brought about his death. Arthur McGiffert, who translated Eusebius, notes that Crescens is known only from Justin and Tatian, Crescens's enemies, and that the trial account does not name him.",
+    "One tradition dates his death under Antoninus Pius, another under Marcus Aurelius. McGiffert favors the later one, since Rusticus became prefect of Rome in 163.",
+    "The trial account is of unknown date and author. Dods, who translated it, says it is generally reckoned among the most trustworthy martyr accounts. Some copies add that Justin died by hemlock, which Dods calls an absurd addition."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "First and Second Apology; Dialogue with Trypho",
+        "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
+        "language": "English"
+      },
+      {
+        "title": "First Apology (Greek)",
+        "file": "cic/texts/justin-martyr_first-apology-grc_rauschen1911.txt",
+        "language": "Greek"
+      },
+      {
+        "title": "Second Apology (Greek)",
+        "file": "cic/texts/justin-martyr_second-apology-grc_rauschen1911.txt",
+        "language": "Greek"
+      },
+      {
+        "title": "Dialogue with Trypho (Greek)",
+        "file": "cic/texts/justin-martyr_dialogue-with-trypho-grc_archambault1909.txt",
+        "language": "Greek"
+      }
+    ],
+    "about": [
+      {
+        "title": "The Martyrdom of the Holy Martyrs Justin, Chariton and others",
+        "author": "Unknown",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml"
+      },
+      {
+        "title": "Church History, Book 4, chapters 16 to 18",
+        "author": "Eusebius of Caesarea",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml"
+      },
+      {
+        "title": "The Martyrdom of Justin and his companions, Greek, in Acta martyrum selecta (ed. Oscar von Gebhardt)",
+        "author": "Unknown",
+        "date": "1902",
+        "language": "Greek",
+        "file": "cic/texts/acta-martyrum-selecta_gebhardt1902.txt"
+      },
+      {
+        "title": "The Martyrdom of Justin and his companions, Greek, Franchi de' Cavalieri's text, in Ausgewählte Märtyrerakten (ed. Rudolf Knopf and Gustav Krüger)",
+        "author": "Unknown",
+        "date": "1929",
+        "language": "Greek",
+        "file": "cic/texts/knopf_ausgewaehlte-maertyrerakten-lat-grc-deu_krueger1929.txt"
+      }
+    ]
+  },
+  "briefReferences": [
+    "First Apology 1 (Greek, Rauschen, cic/texts/justin-martyr_first-apology-grc_rauschen1911.txt 68-75; English, cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml 13965-13969): Justin, son of Priscus, of Flavia Neapolis, writes to Antoninus Pius, his sons and the Senate on behalf of people of every race unjustly hated and abused, himself one of them.",
+    "Arthur McGiffert's note to Eusebius (cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml 22420-22422): Flavia Neapolis, a Roman town near the ruins of Sychem, in Samaria.",
+    "Martyrdom of Justin (Greek, Gebhardt, cic/texts/acta-martyrum-selecta_gebhardt1902.txt 1347-1354): he lodged above a bath-house in Rome and shared the words of truth with anyone who came to him.",
+    "Second Apology 2 (Greek, Rauschen, cic/texts/justin-martyr_second-apology-grc_rauschen1911.txt 136-158): Ptolemaeus asked only whether he was a Christian. First Apology 4 (cic/texts/justin-martyr_first-apology-grc_rauschen1911.txt 124-126): a name is judged neither good nor bad apart from the deeds behind it.",
+    "First Apology 46 (cic/texts/justin-martyr_first-apology-grc_rauschen1911.txt 1230-1234; English, cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml 15684-15692, with the note on μετὰ λόγου, with reason or the Word): Christ the firstborn of God and the Word, shared by every race; those who lived with the Word are Christians though counted godless, Socrates and Heraclitus among them.",
+    "First Apology 61 and 67 (cic/texts/justin-martyr_first-apology-grc_rauschen1911.txt 1577-1579, 1759-1785; English, cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml 16502-16534): so as not to leave it out, what Christians did when they met on Sunday: the memoirs of the apostles or the prophets read, prayer, bread and wine, and gifts for orphans, widows, the sick, prisoners and strangers.",
+    "Dialogue with Trypho 2 (Greek, Archambault, cic/texts/justin-martyr_dialogue-with-trypho-grc_archambault1909.txt 139-169): the Stoic, the Peripatetic, the Pythagorean and the Platonist. Dialogue 3 and 7 (same file 175-180, 399-428): the old man near the sea, and the prophets, older than all the philosophers. Dialogue 8.1-2 (same file 429-435): the fire in his soul, the only sure and useful philosophy, and why he is a philosopher.",
+    "Dialogue 1 (cic/texts/justin-martyr_dialogue-with-trypho-grc_archambault1909.txt 87-89): Trypho, a Hebrew who fled the recent war. Dialogue 16 (same file 788-791): the Jews' present sufferings justly suffered. Dialogue 142 (same file 6589-6607): the parting as friends, each praying for the other.",
+    "Martyrdom of Justin V.3 (Greek, Franchi's text, cic/texts/knopf_ausgewaehlte-maertyrerakten-lat-grc-deu_krueger1929.txt 1754-1757; Otto's text, cic/texts/acta-martyrum-selecta_gebhardt1902.txt 1300-1441; English tr. Dods, cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml 29266-29406): the six companions before Rusticus, prefect of Rome, Rusticus's question and Justin's answer, the refusal to sacrifice, the scourging and beheading. Dods (same English file 29216-29218): nothing known of its date or author.",
+    "Eusebius, Church History IV.16, with McGiffert's note (cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml 23775-23780): the death about 165, Rusticus prefect of Rome from 163.",
+    "Irenaeus, Against Heresies IV.6.2 (cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml 44907-44918): Justin's book against Marcion, for the one God who made us. First Apology 26 (cic/texts/justin-martyr_first-apology-grc_rauschen1911.txt 729-731): Marcion's other, greater God.",
+    "Irenaeus, Against Heresies I.28.1 (cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml 33663-33672): Tatian a hearer of Justin, who after his martyrdom separated from the Church. Hippolytus, Refutation VIII (cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml 13004-13006): Tatian a disciple of Justin.",
+    "Tatian, Address to the Greeks 42 (English, cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml 7460-7464): born in the land of the Assyrians. Address 18-19 (Greek, Otto, cic/texts/tatian_oratio-ad-graecos-grc-lat_otto1851.txt 7956-7960, 8105-8111; English, the same ANF file 6526-6533, 6550-6556): the most admirable Justin, the so-called gods as robbers who hold people for ransom, and the philosophers as cheats.",
+    "Eusebius, Church History IV.29 (cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml 26424-26426, 26433): Tatian's combination of the Gospels, the Diatessaron. Doctrine of Addai (cic/texts/addai_doctrine-of-addai.txt 65): the people of Edessa came to the reading of the Old and New Testament, of the Diatessaron.",
+    "Tertullian, Against the Valentinians 5 (cic/texts/anf03_tertullian.xml 43161-43163): Justin, philosopher and martyr."
+  ],
+  "quotationOriginals": [
+    {
+      "modern": "word",
+      "printed": "λόγον ὄντα",
+      "work": "First Apology 46, Greek, ed. Gerhard Rauschen",
+      "file": "cic/texts/justin-martyr_first-apology-grc_rauschen1911.txt",
+      "lines": "1231",
+      "englishPrinted": "He is the Word",
+      "englishFile": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
+      "englishLines": "15685",
+      "uncertain": "A gloss of the Greek word λόγος, not a quoted sentence. The ANF English note to μετὰ λόγου (cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml 15686-15688) gives both senses, with reason, or the Word. The second reading judged the brief's word and reason together.",
+      "secondReading": "same"
+    },
+    {
+      "modern": "reason",
+      "printed": "μετὰ λόγου",
+      "work": "First Apology 46, Greek, ed. Gerhard Rauschen",
+      "file": "cic/texts/justin-martyr_first-apology-grc_rauschen1911.txt",
+      "lines": "1232",
+      "englishPrinted": "“with reason,” or “the Word.”",
+      "englishFile": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
+      "englishLines": "15687-15688",
+      "uncertain": "A gloss of the Greek word λόγος, not a quoted sentence; the English is the ANF translator's note to μετὰ λόγου.",
+      "secondReading": "same"
+    },
+    {
+      "modern": "We have been taught that Christ is the firstborn of God. We have shown already that he is the Word, in whom every race of people has had a share. And those who lived with the Word are Christians, even if they were counted godless.",
+      "printed": "Τὸν Χριστὸν πρωτότοκον τοῦ θεοῦ εἶναι ἐδιδάχθημεν καὶ προεμηνύσαμεν λόγον ὄντα, οἷ πᾶν γένος ἀνθρώπων μετέσχε. Καὶ οἱ μετὰ λόγου βιώσαντες Χριστιανοί εἰσι, κἂν ἄθεοι ἐνομίσθησαν",
+      "work": "First Apology 46, Greek, ed. Gerhard Rauschen",
+      "file": "cic/texts/justin-martyr_first-apology-grc_rauschen1911.txt",
+      "lines": "1230-1233",
+      "englishPrinted": "We have been taught that Christ is the first-born of God, and we have declared above that He is the Word of whom every race of men were partakers; and those who lived reasonably are Christians, even though they have been thought atheists",
+      "englishFile": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
+      "englishLines": "15684-15692",
+      "uncertain": "The file prints οἷ for οὗ (of whom). \"Lived with the Word\" renders μετὰ λόγου, which the ANF English prints as \"lived reasonably\", with a note giving with reason, or the Word; \"godless\" renders ἄθεοι, where the ANF English prints \"atheists\". The whole passage was second-read blind: minor.",
+      "secondReading": "minor"
+    },
+    {
+      "modern": "the only philosophy that is sure and useful",
+      "printed": "ταύτην μόνην εὕρισκον φιλοσοφίαν ἀσφαλῆ τε καὶ σύμφορον",
+      "work": "Dialogue with Trypho 8.1, Greek, ed. Georges Archambault",
+      "file": "cic/texts/justin-martyr_dialogue-with-trypho-grc_archambault1909.txt",
+      "lines": "431-432",
+      "englishPrinted": "I found this philosophy alone to be safe and profitable",
+      "englishFile": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
+      "englishLines": "17856",
+      "uncertain": "\"ἀσφαλῆ\" is rendered \"sure\"; the ANF English prints \"safe and profitable\". The phrase was second-read blind as part of its full passage.",
+      "secondReading": "same"
+    },
+    {
+      "modern": "So you suppose that you will go up into the heavens, to receive some good rewards?",
+      "printed": "Toto oby inovoeic, Ott dvabion cic todo ovpavodbs, Gpoibds twas yonoTtas anolnpouevoc;",
+      "work": "Martyrdom of Justin V.3 (Rusticus), Greek, Franchi de' Cavalieri's text, ed. Rudolf Knopf and Gustav Krüger",
+      "file": "cic/texts/knopf_ausgewaehlte-maertyrerakten-lat-grc-deu_krueger1929.txt",
+      "lines": "1754-1756",
+      "englishPrinted": "Do you suppose, then, that you will ascend into heaven to receive some recompense?",
+      "englishFile": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
+      "englishLines": "29371-29372",
+      "uncertain": "The file is OCR with Greek letters read as Latin; it stands for Σὺ οὖν ὑπονοεῖς ὅτι ἀναβήσῃ εἰς τοὺς οὐρανούς, ἀμοιβάς τινας χρηστὰς ἀπολημψόμενος. \"good\" renders χρηστάς, which Otto's text (cic/texts/acta-martyrum-selecta_gebhardt1902.txt 1410-1411) and Dods's English lack.",
+      "secondReading": "same"
+    },
+    {
+      "modern": "I do not suppose it. I know it for certain, and I am fully sure of it.",
+      "printed": "Oby imov0d, ahd axoibG> éniotapar nal wendnoopoonua.",
+      "work": "Martyrdom of Justin V.3 (Justin), Greek, Franchi de' Cavalieri's text, ed. Rudolf Knopf and Gustav Krüger",
+      "file": "cic/texts/knopf_ausgewaehlte-maertyrerakten-lat-grc-deu_krueger1929.txt",
+      "lines": "1756-1757",
+      "englishPrinted": "I do not suppose it, but I know and am fully persuaded of it.",
+      "englishFile": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
+      "englishLines": "29373-29374",
+      "uncertain": "The file is OCR with Greek letters read as Latin; it stands for Οὐχ ὑπονοῶ, ἀλλ᾽ ἀκριβῶς ἐπίσταμαι καὶ πεπληροφόρημαι. \"for certain\" renders ἀκριβῶς, which Otto's text (cic/texts/acta-martyrum-selecta_gebhardt1902.txt 1420-1421) and Dods's English lack.",
+      "secondReading": "same"
+    }
+  ]
+}

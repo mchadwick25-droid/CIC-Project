@@ -197,6 +197,147 @@
    "scan": "shall  becomc",
    "reads": "shall  become",
    "kind": "OCR misread"
+  },
+  {
+   "file": "cic/texts/sulpicius-severus_libri-qui-supersunt-chronica-vita-martini-lat_halm1866-csel1.txt",
+   "lines": "6337",
+   "scan": "4miles snm",
+   "reads": "miles sum",
+   "kind": "OCR misread, with a line number run into the word"
+  },
+  {
+   "file": "cic/texts/sulpicius-severus_libri-qui-supersunt-chronica-vita-martini-lat_halm1866-csel1.txt",
+   "lines": "5905",
+   "scan": "saeunm esse et inauditum nefas, nt cansam",
+   "reads": "saeuum esse et inauditum nefas, ut causam",
+   "kind": "OCR misread"
+  },
+  {
+   "file": "cic/texts/sulpicius-severus_libri-qui-supersunt-chronica-vita-martini-lat_halm1866-csel1.txt",
+   "lines": "5907",
+   "scan": "aosiae iudex",
+   "reads": "siae iudex",
+   "kind": "OCR misread"
+  },
+  {
+   "file": "cic/texts/benedict_rule-of-st-benedict-lat-eng_hunter-blair1907.txt",
+   "lines": "1240",
+   "scan": "Dominici 7jan.",
+   "reads": "Dominici",
+   "kind": "margin date run into the line"
+  },
+  {
+   "file": "cic/texts/benedict_rule-of-st-benedict-lat-eng_hunter-blair1907.txt",
+   "lines": "1242",
+   "scan": ". , .... ... .... 8 Maii",
+   "drop": true,
+   "kind": "margin dates",
+   "lines_held": [
+    ". , .... ... .... 8 Maii"
+   ]
+  },
+  {
+   "file": "cic/texts/benedict_rule-of-st-benedict-lat-eng_hunter-blair1907.txt",
+   "lines": "1244",
+   "scan": "schola servitu; in qua institutione nihil 7Sept.",
+   "reads": "schola servitii; in qua institutione nihil",
+   "kind": "OCR misread, with a margin date run into the line"
+  },
+  {
+   "file": "cic/texts/gregory-tours_opera-mgh-srm-1-lat_arndt-krusch1885.txt",
+   "lines": "31516",
+   "scan": "Ef^ quia praesens non valui, quasi'^",
+   "reads": "Et quia praesens non valui, quasi",
+   "kind": "OCR misread, with footnote marks"
+  },
+  {
+   "file": "cic/texts/gregory-tours_opera-mgh-srm-1-lat_arndt-krusch1885.txt",
+   "lines": "31517",
+   "scan": "vestigiis^ , epistidaey vicarietate'^ prosternor",
+   "reads": "vestigiis, epistulae vicarietate prosternor",
+   "kind": "OCR misread, with footnote marks"
+  },
+  {
+   "file": "cic/texts/bede_opera-historica-v1-historia-abbatum-lat_plummer1896.txt",
+   "lines": "24948",
+   "scan": "underher.  uiros",
+   "reads": "uiros",
+   "kind": "margin text run into the line"
+  },
+  {
+   "file": "cic/texts/fredegar-liber-historiae-francorum-vitae-mgh-srm-2-lat_krusch1888.txt",
+   "lines": "28808",
+   "scan": "cf. Gen. 9, .5. timueris",
+   "reads": "timueris",
+   "kind": "margin note run into the line"
+  },
+  {
+   "file": "cic/texts/augustine_confessiones-lat_knoll-csel33.txt",
+   "lines": "13470",
+   "scan": "euangelica 20",
+   "reads": "euangelica",
+   "kind": "line number run into the line"
+  },
+  {
+   "file": "cic/texts/augustine_confessiones-lat_knoll-csel33.txt",
+   "lines": "13474-13500",
+   "scan": "5] cf. Ps. 50, 19. 6] Ps. 6, 4. 7] Ps. 78, 5 et 8. 22] Matth.",
+   "drop": true,
+   "kind": "footnotes, apparatus, running head and page number",
+   "lines_held": [
+    "5] cf. Ps. 50, 19. 6] Ps. 6, 4. 7] Ps. 78, 5 et 8. 22] Matth.",
+    "19, 21.",
+    "1 grauidius M 3 faci P1 arbore* (m ras .) V staui W 4 habe-",
+    "nas] aduenas F lacrimas FW coculorum F 5 acceptabilem F",
+    "6 hanc G, hec V sententiam FG 7 usquequo om. V1 8 iniquita-",
+    "tem C1 9 eis me] ab eis me BPQ, me ab eis b iactabam] i. enim",
+    "BPQ, et i. b meserabiles M1, mirabiles BCW 10 quamdiu ovi. PQ",
+    "hec W ora IIV 12 dicibam F amarissime O2 13 pr. et ovi. V",
+    "diuina S: uicina BCGHMOPQVW edd., uicino F domu V 14 re-",
+    "petentes W lege] tolle F 15 tolle lege om. M 16 tale om. F ,",
+    "tole M1 17 audiuisse V edd. quempiam BPQV 18 interpraetans",
+    "PS diuinitus] nisi d. HVmo 19 nisi om. HVmo capud W, capi-",
+    "tulu add. Q 2 s. I. 20 audio V ex ovi. M uangelica V 21 fuerat W",
+    "22 legebatur] dicebatur H 23 da] et da BFGHMOV edd. et ueni",
+    "s. me et habebis th. in caelis M",
+    "confessionum lib. VIII, c. 12.",
+    "195"
+   ]
+  },
+  {
+   "file": "cic/texts/gregory-nyssa_opera-omnia-pg46-grc-lat_migne1863.txt",
+   "lines": "71690",
+   "scan": "Ἀθδίογβίϑι!, Τὰ οἰϊδοῖβι!, οἱ μυ)ιβοδ᾽ νἱι25 Ππίβ, γθγα ᾧ φόθον",
+   "reads": "φόβον",
+   "kind": "OCR misread, after garbled Latin column text"
+  },
+  {
+   "file": "cic/texts/benedict_rule-of-saint-benedict_gasquet1925.txt",
+   "lines": "3113",
+   "scan": "IpnLENEss",
+   "reads": "Idleness",
+   "kind": "OCR misread of a drop capital"
+  },
+  {
+   "file": "cic/texts/dhuoda_liber-manualis_bondurand1887.txt",
+   "lines": "2262",
+   "scan": "jussioiie",
+   "reads": "jussione",
+   "kind": "OCR misread"
+  },
+  {
+   "file": "cic/texts/tertullian_quae-supersunt-t2-polemica-lat_oehler1853.txt",
+   "lines": "8490",
+   "scan": "vespae',  faciunt  ecclesias  et  Marcionitac",
+   "reads": "vespae,  faciunt  ecclesias  et  Marcionitae",
+   "kind": "OCR misread"
+  },
+  {
+   "file": "cic/texts/fasciculi-zizaniorum_shirley1858.txt",
+   "lines": "2857",
+   "scan": "tlie",
+   "reads": "the",
+   "kind": "OCR misread"
   }
  ]
 }

@@ -1,0 +1,6 @@
+12 briefs; a move in more than 3 goes back to its writers
+ok    3  an unnamed opening, then the name revealed: justin-martyr, moses-the-black, third-council-of-toledo-589
+ok    1  a setting slot (a time and a place stacked in one early sentence, or "in what is now" more than once): john-wyclif
+ok    0  the "Most of what we know" witness formula: -
+ok    1  a sentence opening with "Yet": john-wyclif
+ok    0  an ending on a later writer or institution (a later time marker in the last two paragraphs): -

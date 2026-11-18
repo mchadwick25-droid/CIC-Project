@@ -78,6 +78,6 @@ test("the new card keys pass, and a bad label or list fails", () => {
 
 test("a made-up quotation fails the check against the cited files", () => {
   const errs = errorsFor((c, m) => { m(PERSON).longDescription += '\n\nHe said "this sentence is in no held book anywhere at all."'; }, []);
-  assert.equal(errs.length, 1);
-  assert.match(errs[0], /quotation not found verbatim/);
+  assert.equal(errs.filter(e => /quotation not found verbatim/.test(e)).length, 1);
+  assert.ok(errs.every(e => e.includes("this sentence is in no held book")), errs.join("\n"));
 });

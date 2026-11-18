@@ -1,8 +1,8 @@
 """Fail a pull request that changes the Church Family Tree writing standard
 without Mark's words in a new Decision-Log entry.
 
-Locked: Who_Profile_Pattern.md, Council_Profile_Pattern.md,
-Worker_Brief_Template.md and everything under Who-Profiles/bar/, all in
+Locked: everything under Brief-Kit/ (the standard, shapes, outline template,
+process and role prompts) and everything under Who-Profiles/bar/, both in
 Build/Ministry/Features/Church-Family-Tree/. A change to any of them passes
 only when the same pull request adds an entry to that folder's
 Decision-Log.md whose heading or "Decided" line names Mark and which has a
@@ -17,12 +17,7 @@ import subprocess
 import sys
 
 FOLDER = "Build/Ministry/Features/Church-Family-Tree/"
-LOCKED_FILES = {
-    FOLDER + "Who_Profile_Pattern.md",
-    FOLDER + "Council_Profile_Pattern.md",
-    FOLDER + "Worker_Brief_Template.md",
-}
-LOCKED_DIR = FOLDER + "Who-Profiles/bar/"
+LOCKED_DIRS = (FOLDER + "Brief-Kit/", FOLDER + "Who-Profiles/bar/")
 DECISION_LOG = FOLDER + "Decision-Log.md"
 
 QUOTATION = re.compile(r"“[^”]*\S[^”]*”|\"[^\"]*\S[^\"]*\"")
@@ -30,7 +25,7 @@ DECIDED = re.compile(r"^\*\*Decided\b")
 
 
 def locked(paths):
-    return sorted(p for p in paths if p in LOCKED_FILES or p.startswith(LOCKED_DIR))
+    return sorted(p for p in paths if p.startswith(LOCKED_DIRS))
 
 
 def added_entries(diff_text):

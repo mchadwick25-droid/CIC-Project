@@ -1,0 +1,20 @@
+=== Tree narration  ===
+619 movements total
+8 skipped - no longDescription to narrate
+12 skipped - built world with its own orientation.story, recorded in its Representative's voice
+349 skipped - not a person row (person run)
+0 already narrated and current (use --force to regenerate)
+1 stale - recorded from text that has since changed, re-voiced this run
+1 to generate this run, 2075 characters total
+=== PAID RUN, settings as actually used ===
+approved run     : Batch 3 re-record: the twelve reworked (Mark, 2026-11-18, 'I approve', cap 15,500 credits)   char cap: 2200
+person voice id  : onegjDE2z0mQtp1g0HK7   (kind "person", every item)
+output format    : mp3_44100_64
+model            : eleven_v4
+settings         : {"stability":0.95,"similarity_boost":0.68,"style":0,"use_speaker_boost":true}
+audio tags       : open (none), before the last sentence (none), between paragraphs [pause], 7 respellings
+items            : 1   characters: 2075 text, 2111 sent
+===========================================
+  ok: alopen voice=onegjDE2z0mQtp1g0HK7 model=eleven_v4 format=mp3_44100_64 settings={"stability":0.95,"similarity_boost":0.68,"style":0,"use_speaker_boost":true} chars=2075 sent=2111 cost=1024 request-id=JLSoStOxtR1i5GnPC4XW
+
+1/1 generated. credits charged (character-cost headers): 1024

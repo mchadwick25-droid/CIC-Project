@@ -2,7 +2,7 @@
 
 Eight profiles, one id each: `stepanos-of-taron`, `eulogius-of-cordoba`, `paulus-alvarus`, `theodore-abu-qurrah`, `stephen-of-mar-saba`, `ishoyahb-iii`, `al-tabari`, `ibn-ishaq`.
 
-This is the re-score's batch 11, "Christians under Islam, and the outside witnesses": `Build/Ministry/Operations/Audits/2026-11-14_who-rescore-eras4-5/Rescore.md` (PR #1662), line 102. The four Georgian entries split off from batch 10 are not in it; they get their own batch after batch 12. None of the eight was written before, and none is a census person entry. Several are named in live census text and in earlier profiles (below). al-Tabari and Ibn Ishaq are outside witnesses. Opus drafted every profile to `Who_Profile_Pattern.md`.
+This is the re-score's batch 11, "Christians under Islam, and the outside witnesses": `Build/Ministry/Operations/Audits/2026-11-14_who-rescore-eras4-5/Rescore.md` (PR #1662), line 102. The four Georgian entries split off from batch 10 are not in it; they get their own batch after batch 12. None of the eight was written before, and none is a census person entry. Several are named in live census text and in earlier profiles (below). al-Tabari and Ibn Ishaq are outside witnesses. Opus drafted every profile to `Archive/Superseded-Method/Church-Family-Tree-Patterns-2026-11-17/Who_Profile_Pattern.md`.
 
 ## Majors and lengths
 

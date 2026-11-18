@@ -203,37 +203,55 @@ function shelfAuthor(movementId, rowId) {
 }
 // A person card: one-line summary, role, up to three key works, legacy, open questions and the sources behind it.
 const CARD_KEYS = ["otherNames", "label", "knownFor", "datesNote", "placeNote", "role", "keyWorks", "legacy", "uncertain", "sources", "briefReferences", "quotationOriginals"];
-// The printed wording behind each quotation the brief gives in our modern English: the modern words as the brief
-// quotes them, the printed words, the work they come from, the file the card cites and the lines that hold them, and the verdict of the second
-// reading, with a note where the two readings differ. Every quotation in the brief has one, and each printed wording
-// stands in its lines.
-const QUOTATION_ORIGINAL_KEYS = ["modern", "printed", "work", "file", "lines", "secondReading", "uncertain"];
-function checkQuotationOriginals(m, at) {
-  const list = m.card.quotationOriginals;
-  if (!Array.isArray(list) || !list.length) { errs.push(`${at("quotationOriginals")} must be a non-empty list`); return; }
-  const cited = Object.values(isObj(m.card.sources) ? m.card.sources : {}).flat().map(s => s?.file).filter(Boolean);
-  const quoted = [...String(m.longDescription ?? "").matchAll(/"([^"]+)"/g)].map(q => fold(q[1]));
+// The printed wording behind each quotation a brief or story gives in our modern English: the modern words as it
+// quotes them, the printed words, the work they come from, the file the entry cites and the lines that hold them, and the verdict of the second
+// reading, with a note where the two readings differ. Where the printed wording is a translation, the original may be
+// given beside it (original, originalFile, originalLines); where it is the original, a printed English may be
+// (englishPrinted, englishFile, englishLines). Every quotation in the text has one, and each wording stands in its lines.
+const QUOTATION_ORIGINAL_KEYS = ["modern", "printed", "work", "file", "lines", "secondReading", "uncertain", "original", "originalFile", "originalLines", "englishPrinted", "englishFile", "englishLines"];
+const QUOTATION_COMPANIONS = [["original", "originalFile", "originalLines"], ["englishPrinted", "englishFile", "englishLines"]];
+// A wording stands in a cited file at its lines (tags, notes, line-end hyphens and listed scan faults aside); the fault, or null.
+function wordingFault(words, file, lines, cited) {
+  if (!(file.startsWith("cic/texts/") && existsSync(file))) return `${file} must be an existing file under cic/texts/`;
+  if (!cited.includes(file)) return `${file} is not among the files the entry cites`;
+  const r = /^(\d+)(?:-(\d+))?$/.exec(String(lines ?? ""));
+  const first = r ? Number(r[1]) : 0, last = r ? Number(r[2] ?? r[1]) : 0;
+  if (!r || first < 1 || last < first || last > lineCount(file)) return `lines ${lines} must be a line or range inside ${file}`;
+  const seg = withReadings(file, readFileSync(file, "utf8")).split("\n").slice(first - 1, last).join("\n");
+  const held = [seg.replace(/<[^>]+>/g, " "), seg.replace(/<[^>]+>/g, ""), seg.replace(/<note[\s\S]*?<\/note>/g, " ").replace(/<[^>]+>/g, " "), seg.replace(/-[ \t]*\r?\n\s*/g, "")].map(fold);
+  return held.some(h => h.includes(fold(words))) ? null : `"${words.slice(0, 40)}" does not stand in ${file} lines ${lines}`;
+}
+function checkQuotationOriginals(m, list, text, sources, at, where = "quotationOriginals") {
+  if (!Array.isArray(list) || !list.length) { errs.push(`${at(where)} must be a non-empty list`); return; }
+  const cited = Object.values(isObj(sources) ? sources : {}).flat().map(s => s?.file).filter(Boolean);
+  // A quotation the text breaks around "he says" or an ellipsis is one entry: its modern words are the spans, in order.
+  const spans = [...String(text ?? "").matchAll(/"([^"]+)"/g)].map(q => fold(q[1]));
+  const quoted = spans.flatMap((_, i) => [1, 2, 3, 4].map(k => spans.slice(i, i + k)).filter(r => r.length).map(r => r.join(" ")));
+  const covered = new Set();
+  const runs = spans.flatMap((_, i) => [1, 2, 3, 4].filter(k => i + k <= spans.length).map(k => ({ i, k, f: spans.slice(i, i + k).join(" ") })));
   list.forEach((e, i) => {
-    const p = `quotationOriginals[${i}]`;
+    const p = `${where}[${i}]`;
     if (!isObj(e)) { errs.push(`${at(p)} must be an object`); return; }
     Object.keys(e).filter(k => !QUOTATION_ORIGINAL_KEYS.includes(k)).forEach(k => errs.push(`${at(`${p}.${k}`)} is not allowed (allowed: ${QUOTATION_ORIGINAL_KEYS.join(", ")})`));
     ["modern", "printed", "work", "file", "lines"].forEach(k => { if (!plain(e[k])) errs.push(`${at(`${p}.${k}`)} must be a non-empty string`); });
     if (e.uncertain !== undefined && !plain(e.uncertain)) errs.push(`${at(`${p}.uncertain`)} must be a non-empty string`);
     if (!SECOND_READING_VERDICTS.has(e.secondReading)) errs.push(`${at(`${p}.secondReading`)} must be "same", "minor" or "changes meaning"`);
     if (plain(e.modern) && !quoted.includes(fold(e.modern))) errs.push(`${at(`${p}.modern`)} "${e.modern.slice(0, 40)}" is not a quotation in the brief`);
-    if (!plain(e.file)) return;
-    if (!(e.file.startsWith("cic/texts/") && existsSync(e.file))) { errs.push(`${at(`${p}.file`)} ${e.file} must be an existing file under cic/texts/`); return; }
-    if (!cited.includes(e.file)) errs.push(`${at(`${p}.file`)} ${e.file} is not among the files the card cites`);
-    const r = /^(\d+)(?:-(\d+))?$/.exec(String(e.lines ?? ""));
-    const first = r ? Number(r[1]) : 0, last = r ? Number(r[2] ?? r[1]) : 0;
-    if (!r || first < 1 || last < first || last > lineCount(e.file)) { errs.push(`${at(`${p}.lines`)} ${e.lines} must be a line or range inside ${e.file}`); return; }
-    if (!plain(e.printed)) return;
-    const seg = readFileSync(e.file, "utf8").split("\n").slice(first - 1, last).join("\n");
-    const held = [seg.replace(/<[^>]+>/g, " "), seg.replace(/<[^>]+>/g, ""), seg.replace(/<note[\s\S]*?<\/note>/g, " ").replace(/<[^>]+>/g, " "), seg.replace(/-[ \t]*\r?\n\s*/g, "")].map(fold);
-    if (!held.some(h => h.includes(fold(e.printed)))) errs.push(`${at(`${p}.printed`)} "${e.printed.slice(0, 40)}" does not stand in ${e.file} lines ${e.lines}`);
+    for (const [w, f, l] of QUOTATION_COMPANIONS) {
+      const given = [w, f, l].filter(k => e[k] !== undefined);
+      if (!given.length) continue;
+      if (given.length < 3 || ![w, f, l].every(k => plain(e[k]))) { errs.push(`${at(p)}: ${w}, ${f} and ${l} go together, each a non-empty string`); continue; }
+      const fault = wordingFault(e[w], e[f], e[l], cited);
+      if (fault) errs.push(`${at(`${p}.${w}`)} ${fault}`);
+    }
+    if (!plain(e.file) || !plain(e.printed)) return;
+    const fault = wordingFault(e.printed, e.file, e.lines, cited);
+    if (fault) errs.push(`${at(`${p}.printed`)} ${fault}`);
   });
-  for (const q of String(m.longDescription ?? "").matchAll(/"([^"]+)"/g))
-    if (!list.some(e => plain(e?.modern) && fold(e.modern) === fold(q[1]))) errs.push(`${m.id}: the brief's quotation "${q[1].slice(0, 40)}" has no entry in card.quotationOriginals`);
+  for (const e of list) if (plain(e?.modern)) runs.filter(r => r.f === fold(e.modern)).forEach(r => { for (let j = r.i; j < r.i + r.k; j++) covered.add(j); });
+  [...String(text ?? "").matchAll(/"([^"]+)"/g)].forEach((q, j) => {
+    if (!covered.has(j)) errs.push(`${at(where)}: the quotation "${q[1].slice(0, 40)}" has no entry`);
+  });
 }
 const CARD_LABELS = new Set(["Outside witness"]);
 const plain = x => typeof x === "string" && x.trim() !== "";
@@ -276,7 +294,7 @@ function checkCard(m) {
   }
   if (card.uncertain !== undefined) strings(card.uncertain, "uncertain");
   if (card.briefReferences !== undefined) strings(card.briefReferences, "briefReferences");
-  if (card.quotationOriginals !== undefined) checkQuotationOriginals(m, at);
+  if (card.quotationOriginals !== undefined) checkQuotationOriginals(m, card.quotationOriginals, m.longDescription, card.sources, at);
   if (card.sources !== undefined) {
     if (!isObj(card.sources)) { errs.push(`${at("sources")} must be an object with ownWords and about`); return; }
     only(card.sources, ["ownWords", "about"], "sources");
@@ -300,7 +318,7 @@ function checkCard(m) {
     listing("about", ["title", "author", "language", "file"], ["date"]);
   }
 }
-// --- major councils (Decision-Log 2026-11-14, "Major councils, eras 1 and 2"; Council_Profile_Pattern.md) ---
+// --- major councils (Decision-Log 2026-11-14, "Major councils, eras 1 and 2"; Brief-Kit/Shapes.md) ---
 const COUNCIL_RIVERS = { "Origin": 0, "Syriac East": 1, "Caucasus": 2, "Greek East": 3, "Africa": 4, "Latin West": 5, "Non-Nicene": 80 };
 const WITNESS_KINDS = new Set(["acts", "participant", "later narrative", "modern reconstruction"]);
 const COUNCIL_PARTS = new Set(["Gathered", "Condemned", "Refused", "Affected"]);
@@ -310,7 +328,7 @@ function checkCouncil(m) {
   const c = m.council;
   if (!isCouncil(m)) { errs.push(`${m.id}: council is only for a major council`); return; }
   if (!isObj(c)) { errs.push(`${m.id}: council must be an object`); return; }
-  const allowed = ["rivers", "knownFor", "datesNote", "issue", "calledBy", "attended", "decided", "outcome", "record", "traditions", "uncertain", "sources"];
+  const allowed = ["rivers", "knownFor", "datesNote", "issue", "calledBy", "attended", "decided", "outcome", "record", "traditions", "uncertain", "sources", "howItWorked", "briefReferences", "quotationOriginals"];
   Object.keys(c).filter(k => !allowed.includes(k)).forEach(k => errs.push(`${at(k)} is not allowed (allowed: ${allowed.join(", ")})`));
   const text = (key, required) => { if (c[key] === undefined) { if (required) errs.push(`${at(key)} is required`); } else if (!plain(c[key])) errs.push(`${at(key)} must be a non-empty string`); };
   const list = (key, required) => {
@@ -319,7 +337,11 @@ function checkCouncil(m) {
     c[key].forEach((x, i) => { if (!plain(x)) errs.push(`${at(`${key}[${i}]`)} must be a non-empty string`); });
   };
   text("knownFor", true); text("datesNote", false); text("calledBy", false);
-  list("issue", true); list("decided", true); list("outcome", true); list("attended", false); list("uncertain", false);
+  list("issue", true); list("decided", true); list("outcome", true); list("attended", false); list("uncertain", false); list("howItWorked", false); list("briefReferences", false);
+  if (c.quotationOriginals !== undefined) checkQuotationOriginals(m, c.quotationOriginals, m.longDescription, c.sources, at);
+  (m.documentedStories ?? []).forEach((s, i) => {
+    if (s?.quotationOriginals !== undefined) checkQuotationOriginals(m, s.quotationOriginals, s.text, c.sources, p => `${m.id}: documentedStories[${i}].${p}`);
+  });
   if (!Array.isArray(c.rivers) || !c.rivers.length) errs.push(`${at("rivers")} must name at least one river`);
   else c.rivers.forEach(r => { if (!(r in COUNCIL_RIVERS)) errs.push(`${at("rivers")} "${r}" is not a river (${Object.keys(COUNCIL_RIVERS).join(", ")})`); });
   if (Array.isArray(c.rivers) && c.rivers[0] in COUNCIL_RIVERS && COUNCIL_RIVERS[c.rivers[0]] !== m.laneOrder) errs.push(`${m.id}: laneOrder ${m.laneOrder} is not the lane of its first river, ${c.rivers[0]}`);
@@ -429,7 +451,7 @@ function checkQuotes(m) {
   const groups = (m.card ?? m.council)?.sources ?? {};
   const files = [...new Set(Object.values(groups).flat().map(s => s.file).filter(Boolean))];
   if (!files.length) return;
-  const prose = [m.longDescription, ...proseOf(m.card ?? {}), ...proseOf({ ...(m.council ?? {}), sources: undefined }), ...(m.people ?? []).map(p => p.part)].filter(x => typeof x === "string");
+  const prose = [m.longDescription, ...proseOf(m.card ?? {}), ...proseOf({ ...(m.council ?? {}), sources: undefined }), ...(m.people ?? []).map(p => p.part), ...(m.documentedStories ?? []).filter(s => s?.quotationOriginals).map(s => s.text)].filter(x => typeof x === "string");
   const pending = [];
   for (const para of prose.flatMap(t => t.split("\n"))) {
     if ((para.match(/"/g) ?? []).length % 2) { errs.push(`${m.id}: unbalanced quotation marks in "${para.slice(0, 60)}"`); continue; }

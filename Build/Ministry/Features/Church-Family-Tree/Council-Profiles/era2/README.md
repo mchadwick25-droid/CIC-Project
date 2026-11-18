@@ -1,6 +1,6 @@
 # Council profiles: era 2
 
-Eight major councils, written to `../../Council_Profile_Pattern.md`: `council-of-arles-314`, `council-of-nicaea-325`, `council-of-sardica-343`, `councils-of-ariminum-and-seleucia-359`, `first-council-of-constantinople-381`, `conference-of-carthage-411`, `council-of-ephesus-431`, `council-of-chalcedon-451`.
+Eight major councils, written to `Archive/Superseded-Method/Church-Family-Tree-Patterns-2026-11-17/Council_Profile_Pattern.md` (since archived; the kit is `Build/Ministry/Features/Church-Family-Tree/Brief-Kit/`): `council-of-arles-314`, `council-of-nicaea-325`, `council-of-sardica-343`, `councils-of-ariminum-and-seleucia-359`, `first-council-of-constantinople-381`, `conference-of-carthage-411`, `council-of-ephesus-431`, `council-of-chalcedon-451`.
 
 | File | Holds |
 |---|---|

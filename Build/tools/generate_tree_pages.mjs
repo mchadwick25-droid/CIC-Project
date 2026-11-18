@@ -20,6 +20,7 @@ import path from 'path';
 import { fileURLToPath } from 'url';
 import { createRequire } from 'module';
 import { narrationTextFor, recordingMatchesText } from './generate_tree_narration.mjs';
+import { fingerprint as docStoryFingerprint } from './generate_docstory_narration.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const rootDir = path.resolve(__dirname, '..', '..');
@@ -31,6 +32,8 @@ const { formatPlace } = globalThis.CFTPlace;
 const treeDir = path.join(outRoot, 'cft-website/tree');
 const websiteDir = path.join(outRoot, 'cic-website');
 const audioDir = argAt('--audio') || path.join(rootDir, 'cft-website/audio/tree');
+const docStoryManifestPath = path.join(path.dirname(audioDir), 'docstories', 'manifest.json');
+const docStoryManifest = fs.existsSync(docStoryManifestPath) ? JSON.parse(fs.readFileSync(docStoryManifestPath, 'utf-8')) : {};
 
 // Read census data
 const census = JSON.parse(fs.readFileSync(censusPath, 'utf-8'));
@@ -498,10 +501,25 @@ function councilSectionsHtml(movement) {
   const sources = sourceGroups(co.sources, [['fromTheCouncil', 'From the council'], ['fromThoseThere', 'From those who were there'], ['writtenLater', 'Written later']]);
   return {
     facts,
-    before: block('Why They Met', co.issue) + block('Who Came', co.attended) + block('What They Decided', co.decided) + block('What Came of It', co.outcome) + traditions,
+    before: block('Why They Met', co.issue) + block('Who Came', co.attended) + block('How the Council Worked', co.howItWorked) + block('What They Decided', co.decided) + block('What Came of It', co.outcome) + storiesHtml(movement) + traditions,
     after: record + block('What Is Uncertain', co.uncertain),
     sources,
+    quotes: quotesHtml(co),
   };
+}
+
+// A council's documented stories, each told in full with the printed wording of its quotations, and its recording
+// when the docstory manifest holds one made from this text.
+function storiesHtml(movement) {
+  const stories = movement.documentedStories || [];
+  return stories.map((st, i) => {
+    const key = `${movement.id}-${i}`;
+    const rec = docStoryManifest[key];
+    const audio = rec && rec.hash === docStoryFingerprint(st.text)
+      ? `<div class="narration"><audio controls preload="none" src="../audio/docstories/${key}.mp3"></audio><p class="narration-disclosure">Synthesized voice — not a recording.</p></div>` : '';
+    const text = st.text.split('\n').map(p => p.trim()).filter(p => p).map(p => `<p>${escapeHtml(p)}</p>`).join('');
+    return `<section><h2>${escapeHtml(st.title)}</h2>${audio}<div class="reading">${text}</div>${quotesHtml(st)}</section>`;
+  }).join('');
 }
 
 // A movement's kind, as the reader sees it. A movement with no kind is a church body and carries no label.
@@ -580,7 +598,7 @@ ${siteHeader('../')}
       <p class="narration-disclosure">Synthesized voice — not a recording.</p>
     </div>
     ` : ''}
-    ${movement.longDescription ? `<div class="reading">${escapeHtml(movement.longDescription).split('\n').map(p => p.trim()).filter(p => p).map(p => `<p>${p}</p>`).join('')}</div>` : (movement.sourcing ? `<p>${escapeHtml(movement.sourcing)}</p>` : '<p>No detailed description available.</p>')}${personCard.quotes}
+    ${movement.longDescription ? `<div class="reading">${escapeHtml(movement.longDescription).split('\n').map(p => p.trim()).filter(p => p).map(p => `<p>${p}</p>`).join('')}</div>` : (movement.sourcing ? `<p>${escapeHtml(movement.sourcing)}</p>` : '<p>No detailed description available.</p>')}${isCouncil ? councilParts.quotes : personCard.quotes}
   </section>
 
   ${isCouncil ? councilParts.before : ''}

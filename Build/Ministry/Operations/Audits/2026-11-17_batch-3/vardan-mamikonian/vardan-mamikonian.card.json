@@ -1,0 +1,114 @@
+{
+  "otherNames": [
+    "Vartan the Mamigonian",
+    "Vartan the Great, by a note in Victor Langlois's edition of Lazar of Pharp"
+  ],
+  "knownFor": "General of the Armenians who, after yielding in outward show at the Persian court, led the Armenian rising against the Persian king's religion and fell at Avarayr in 451, remembered by the Armenian church as a martyr.",
+  "datesNote": "Fell at Avarayr, by Elishe and Lazar of Pharp, who give no year. Malachia Ormanian gives the day as 26 May 451; Charles Neumann's margin and a note in Lazar's French edition give 2 June 451. No source used here gives his birth",
+  "placeNote": "Armenia; the Persian court; Avarayr, on the plain of the Deghmut",
+  "role": "General of the Armenians and lord of the Mamikonian house",
+  "legacy": {
+    "traces": [
+      "Elishe's History is the History of Vartan and of the battle of the Armenians, written, its dedication says, at the request of the priest David of the Mamikonian house.",
+      "Elishe and Lazar of Pharp count one thousand and thirty-six Armenians who fell with him."
+    ],
+    "remembered": [
+      "Lazar of Pharp: God gave him \"le titre de martyr, qui devait durer éternellement parmi toutes les nations\".",
+      "Malachia Ormanian: the Armenian calendar commemorates the martyrs of Avarayr \"on Shrove-Thursday\", and lists \"Vardan and his thousand and thirty-five companions\" among the saints."
+    ]
+  },
+  "uncertain": [
+    "His words, the refusal at court and the speech before Avarayr, come only as Elishe and Lazar of Pharp wrote them. Both write for the Armenian side and tell the fallen as martyrs.",
+    "The day of Avarayr is given two ways. Malachia Ormanian, a former Armenian patriarch of Constantinople writing in the twentieth century, gives 26 May 451. Charles Neumann's margin, and a note in the French edition of Lazar, give 2 June 451.",
+    "That he gave way at the Persian court in outward show, and why, is Lazar of Pharp's account, told at length. Elishe says that some of the princes, on a royal councilor's advice, sent word that they would conform.",
+    "That Sahak the Great was his grandfather and teacher rests on Lazar of Pharp and on Charles Neumann's preface to Elishe."
+  ],
+  "sources": {
+    "about": [
+      {
+        "title": "History of Vartan and of the Battle of the Armenians (tr. Charles F. Neumann)",
+        "author": "Elishe",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/eghishe_history-of-vartan-and-the-armenian-war_neumann1830.txt"
+      },
+      {
+        "title": "History of Armenia (tr. Samuel Ghesarian), with the editors' notes",
+        "author": "Lazar of Pharp",
+        "date": null,
+        "language": "French translation",
+        "file": "cic/texts/langlois_collection-historiens-armenie-tome2-fra_1869.txt"
+      },
+      {
+        "title": "The Church of Armenia (tr. G. Marcar Gregory)",
+        "author": "Malachia Ormanian",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/ormanian_church-of-armenia_gregory1912.txt"
+      },
+      {
+        "title": "Collection des historiens anciens et modernes de l'Arménie, tome II (ed. Victor Langlois): Elishe's History of Vartan in French, and Lazar of Pharp's History (tr. Samuel Ghesarian), with the editors' notes",
+        "author": "Elishe; Lazar of Pharp",
+        "date": null,
+        "language": "French translation",
+        "file": "cic/texts/langlois_collection-historiens-armenie-tomes1-2-fra_1867-1869.txt"
+      }
+    ]
+  },
+  "quotationOriginals": [
+    {
+      "modern": "But I received this religion from God as a child. To abandon it, and change it out of fear of men, is not possible!",
+      "printed": "Mais abandonner une religion que j'ai reçue de Dieu dès mon enfance , et la changer par crainte des hommes, cela n'est pas possible!",
+      "work": "Lazar of Pharp, History of Armenia, tr. Samuel Ghesarian, in Langlois, Collection, tome II",
+      "file": "cic/texts/langlois_collection-historiens-armenie-tomes1-2-fra_1867-1869.txt",
+      "lines": "90623-90626",
+      "uncertain": "Rendered from the French; the Armenian is not held.",
+      "secondReading": "minor"
+    },
+    {
+      "modern": "For a time we deceived that unjust prince. We took him in like a weak child, as if we had outwardly carried out his wicked orders. But the Lord is the hidden witness of our thoughts. He knows we held firm and never parted from him.",
+      "printed": "pendant ua certain temps, nous trompâmes ce prince injuste et nous.le surprimes comme un faible enfant, comme si, en apparence, nous avions exécuté des ordresiniques. Le Seigneur cependant estle témoin caché de nos pensées; [il sait] que nous avons persévéré sans nous séparer de lui.",
+      "work": "Elishe, History of Vartan, French tr. in Langlois, Collection, tome II",
+      "file": "cic/texts/langlois_collection-historiens-armenie-tomes1-2-fra_1867-1869.txt",
+      "lines": "82667-82673",
+      "uncertain": "OCR faults kept: ua = un, nous.le = nous le, ordresiniques = ordres iniques, estle = est le. Neumann's English differs: \"how we accommodated ourselves to his impious will by seeming apostacy, though in secret we were true to God, as he himself will testify\" (cic/texts/eghishe_history-of-vartan-and-the-armenian-war_neumann1830.txt 3930-3933). Rendered from the French; the Armenian is not held.",
+      "secondReading": "minor"
+    },
+    {
+      "modern": "Today let all your demands be granted to you forever, confirmed by our writing and our seal.",
+      "printed": "Qu’aujourd'hui toutes vos demandes vous soient accordées éternellement, confirmées par notre écrit et par notre sceau",
+      "work": "Lazar of Pharp, History of Armenia, tr. Samuel Ghesarian, in Langlois, Collection, tome II",
+      "file": "cic/texts/langlois_collection-historiens-armenie-tomes1-2-fra_1867-1869.txt",
+      "lines": "100503-100506",
+      "uncertain": "Printed across a line break: Qu’aujour- d'hui. The words are King Vagharsh's, to Vahan and the Armenian princes, as Lazar gives them (L12 100500-100503). Rendered from the French; the Armenian is not held.",
+      "secondReading": "minor"
+    }
+  ],
+  "briefReferences": [
+    "Elishe, History of Vartan, tr. Charles F. Neumann, lines 1470-1473: the king's order to every people to worship the sun, feed the holy fire and keep the laws of the Magi; the order in 450, Neumann's margin and lines 1477, 2242.",
+    "Elishe, tr. Neumann, 1120-1122: Armenia ruled by the kings of Persia after its own kings had fallen.",
+    "Elishe, tr. Neumann, 2204-2206, 2242: the princes summoned to court, Vartan among them. Lazar of Pharp, History, tr. Samuel Ghesarian (Langlois, tome II), 90515: Vardan, general of the Armenians.",
+    "Lazar, Langlois tome II, 90612-90626: Vardan's answer at court, his strength, life and goods offered to the king, his faith refused.",
+    "Elishe, tr. Neumann, 1117-1118: Elishe's own claim to have seen these events. Lazar, Langlois tome II, 87726-87729: he writes at the order of Vahan, lord of the Mamikonians.",
+    "Elishe, tr. Neumann, 2957-2961, and Lazar, Langlois tome II, 91622-91625: the rising. Elishe, tr. Neumann, 4165-4166, 4175: Vardan falls at Avarayr, in spring.",
+    "Lazar, Langlois tome II, 91072-91076: God gave him the title of martyr. Malachia Ormanian, The Church of Armenia, 2263-2265: the martyrs of Avarayr in the Armenian calendar.",
+    "Elishe, tr. Neumann, 2372-2383: the king's threats of chains, an army with elephants, and the banishment of wives and children.",
+    "Elishe, tr. Neumann, 2444-2446, and Lazar, Langlois tome II, 90969-90971: the princes feign acceptance of the king's religion.",
+    "Lazar, Langlois tome II, 90692-90698, 90796-90799, 90960-90966: the princes' plea for the countless deported who would be forced to worship; Vardan's angry refusal; his tears and consent.",
+    "Elishe, tr. Neumann, 2648-2659: the chief Magus and troops at the church door, and the priest Leont leading the people in stoning them.",
+    "Elishe, tr. Neumann, 2891-2893, 2957-2961: the prince stoned on the spot; the fire-temples burned and Magi killed.",
+    "Elishe, tr. Neumann, 3956-3960, and Elishe, French tr. (Langlois tome II), 82808-82813: Vardan reads the army the Maccabees.",
+    "Elishe, French tr. (Langlois tome II), 82667-82673: Vardan's speech before Avarayr. Neumann's English, 3930-3933.",
+    "Ormanian, 2259-2261: Armenians on both sides at Avarayr.",
+    "Elishe, tr. Neumann, 4165-4166: Vardan killed near the elephants. Elishe, French tr. (Langlois tome II), 83402-83411: the survivors scattered to the strongholds. Elishe, tr. Neumann, 4227-4229, and Lazar, Langlois tome II, 92386-92391: one thousand and thirty-six Armenian dead.",
+    "Lazar, Langlois tome II, 92401-92414, 92424-92437, and Elishe, French tr. (Langlois tome II), 83883-83886, 83909-83920: the Persian side orders Christians left free to worship; the year 452 from the editor's notes, 83858-83860, 92428-92430.",
+    "Elishe, French tr. (Langlois tome II), 83873-83877: the governor perhaps feared the princes who held the fortresses. Neumann's English, 4570-4575.",
+    "Elishe, French tr. (Langlois tome II), 83850-83856: the priests already in chains. Ormanian, 2273-2276: the patriarch and priests killed in Persia, 454.",
+    "Lazar, Langlois tome II, 95201-95205, 95330-95334: the martyrs' wives raise their sons; Vahan, son of Vardan's brother Hmayeak.",
+    "Lazar, Langlois tome II, 95786-95789: Vahan, after his forebears' example, bore the name of apostate in appearance and not in reality, and had no peace.",
+    "Lazar, Langlois tome II, 99485-99498: Vahan's first demand, that no Armenian be made a Magus and Christians worship freely.",
+    "Lazar, Langlois tome II, 100500-100506: King Vagharsh's grant, forever, under writing and seal.",
+    "Ormanian, 2291-2295: the grant about 484. Langlois's notes, 99215 and 87287-87289: the editors' dates for Vagharsh and for the end of Lazar's history.",
+    "World census, Armenian Christianity after Avarayr: his tradition."
+  ]
+}

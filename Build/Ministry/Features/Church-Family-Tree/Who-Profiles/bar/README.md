@@ -1,6 +1,6 @@
 # The bar: the eight early-church briefs
 
-The model every Who brief is written and reviewed against (`Who_Profile_Pattern.md`, "The bar: the eight early-church briefs"; Mark, 2026-11-15: "Restore the eight, fix their small flaws").
+The eight early-church briefs that were the model every Who brief was written and reviewed against under the earlier pattern (`Archive/Superseded-Method/Church-Family-Tree-Patterns-2026-11-17/Who_Profile_Pattern.md`, "The bar: the eight early-church briefs"; Mark, 2026-11-15: "Restore the eight, fix their small flaws"). Under the brief kit (`Build/Ministry/Features/Church-Family-Tree/Brief-Kit/`, Mark, 2026-11-17), a reviewer judges against the written standard, not against an earlier brief.
 
 One file each: `origen`, `methodius-of-olympus`, `constantine-the-great`, `athanasius-of-alexandria`, `ephrem-the-syrian`, `gregory-of-nazianzus`, `gregory-of-nyssa`, `john-chrysostom`, as `<id>.brief.txt`.
 
