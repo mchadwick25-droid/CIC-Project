@@ -6,7 +6,6 @@
   "datesNote": "Born about 292, died 348 (George Schodde; Ernest Cushing Richardson's note to Gennadius) or 346 (Archibald Robertson)",
   "placeNote": "Tabennisi, in the Thebaid of Upper Egypt",
   "role": "Monk and founder of communal monasticism",
-  "briefLength": "about 3 minutes 10 seconds",
   "keyWorks": [
     {
       "title": "The Rule of Pachomius",
@@ -111,24 +110,29 @@
     ]
   },
   "briefReferences": [
-    "Bohairic Life, tr. Émile Amélineau: after the persecution ended, Constantine's call for recruits; Pachomius taken at twenty (5093-5101); the recruits jailed at Esneh and fed by men of the town, \"par amour pour le Dieu du ciel\" (5139-5146); his vow in the night to serve people all the days of his life (5147-5148, 5182-5183). His parents \"hellénisants\" (4954-4957).",
-    "Greek Life, in Daniel Cardon's Latin (Acta Sanctorum, May, vol. 3): \"Cum finem deinde accepisset persecutio\", Constantine, and the recruits at about twenty, fed by Christians (80977-80992); his vow (81009-81013); born of pagan parents (86417).",
-    "Bohairic Life: released, baptized (5240-5241); he nurses villagers through an epidemic (5283-5291); the hermit Palamon's rule \"telle que nous l'ont apprise ceux qui nous ont précédés\": half the night awake, manual work, fasting every day until evening in summer (5424-5434).",
-    "Bohairic Life: Tabennisi, \"un village désert, (situé) sur les bords du fleuve\", and the voice: build, for multitudes will come (6013-6021); the angel \"par trois fois\", with the charge to serve the human race (6246-6248), and Amélineau's note that the manuscript writes the name twice (6260). Greek Life: the voice (81345-81349) and the charge (81972-81974).",
-    "The tablet: Palladius, Lausiac History 32, tr. W. K. Lowther Clarke, the angel's brass tablet (399), with Clarke's date for Palladius of 419-420; the Bohairic Life has the angel but no tablet; the Greek Life has it only in bracketed passages its editors judged taken from Palladius (82214-82217).",
-    "Bohairic Life: his first three brothers; he does all the work and nurses them, \"des plantes nouvelles\" (6252-6299); then rules, with the same clothes and food for all (6299-6300, 6333-6336); a steward over each house (6436-6442).",
-    "Bohairic Life: no clergy in his monasteries \"à cause de l'envie et de la vaine gloire\" (6385-6391); the bishop of Denderah asks Athanasius to ordain him, and he hides (6670-6674). Greek Life: he hides \"inter Fratres\" (82514-82520).",
-    "Bohairic Life: his sister Mary comes; he sends word by the doorkeeper and does not see her (6523-6528); the brothers build her a cell \"dans le village\"; women join her; the old monk Peter is set over them, and the brothers' rules are sent to them in a book (6570-6581). Palladius 33: \"the women are on the far side of the river\" (409).",
-    "Greek Life: at the church of Latopolis (Esneh), monks and bishops question him over reading hidden things (86393-86400); a man with a sword bursts in to kill him, \"sed auxilio presentium salvavit eum Dominus\" (86463-86466).",
-    "Greek Life: after Easter a plague, \"in omnibus monasteriis centum ac plures\" dead (86510-86512, 86572-86574); the blanket (86619-86633); Petronius dies within days, and Horsiesius takes his place (86659-86672). The years: 348 by the Bollandists (86728, 86730), 346 by Archibald Robertson (npnf204 5643-5644).",
-    "Gennadius, On Illustrious Men 8: Theodore, successor to the headship, urges in his letters the return of those who broke the unity \"after the death of the Abbot\" (npnf203 42276-42286).",
-    "Palladius, Lausiac History 32: \"amounting to 7000 men\" under the rule (405).",
-    "Cassian, Institutes 4.1: \"some from that of the monks of Tabenna\" (npnf211 18521-18531).",
-    "Jerome, preface to the Rule of Pachomius (PL 23): books sent by the priest Silvanus, which had come \"Alexandria missos\"; Latins in the Thebaid houses and at Metanoia who knew neither Egyptian nor Greek; dictated in Latin from the Greek version (4335-4354); for Eustochium's sisters and his own brothers (4384-4388).",
-    "Ardo, Life of Benedict of Aniane (PL 103): the Concordia regularum, made to show \"suam ex aliorum fultam esse Regulam\", with Benedict's sentence first and the agreeing rules after (30903-30911); the Concordia's own sections \"Ex Regula sancti Pachomii\", e.g. 66976.",
-    "World census, desert monasticism: \"the monks of Egypt\"."
+    "Greek Life, in Daniel Cardon's Latin (Acta Sanctorum, May, vol. 3): headed as by a nearly contemporary monk (80681), and by Archibald Robertson's note written late in the fourth century by one who had known Pachomius (npnf204 30455-30456); Antony, mourning with Pachomius's monks after his death, is praised as the light of the world whose fame reached the emperors, and answers that no community existed when he began (86876-86893).",
+    "Before him: Greek Life, he goes to the hermit Palamon to live the solitary life with him (81103-81107); Bohairic Life, tr. Émile Amélineau, he resolves to take up the hermit's life (5330-5331) and Palamon's rule handed down from those before (5424-5427); George Schodde, each monk served God by his own way (pachomius_rules-ethiopic_schodde1885.txt 138).",
+    "The shared life: Bohairic Life, the first brothers given rules, the same clothes and food for all (6299-6300, 6333-6336); a steward over each house (6436-6442); the wall, the small church and the houses of the second monastery, with heads and seconds (8175-8178). Jerome's preface to the Rule (PL 23): heads of houses (4388-4397), all eat together (4453), brothers of one trade in one house (4458-4459). Greek Life: nine monasteries in all (86424-86425).",
+    "Bohairic Life: his parents pagan (4954-4957); after the persecution, Constantine's call for recruits, and he is taken at twenty (5093-5101); the recruits locked up and fed by men of the town, and the answer to his question (5139-5146); his vow in the night to serve people all the days of his life (5147-5148, 5182-5183); baptized (5240-5241). Greek Life: the persecution over, Constantine, the recruits at about twenty (80977-80992); his vow (81009-81013); born of pagan parents (86417).",
+    "Tabennisi, a deserted village by the river, where a voice tells him to build: Bohairic Life 6013-6021; Greek Life 81341-81349.",
+    "Bohairic Life: no clergy in his monasteries, for envy and vainglory (6385-6391); the bishop of Denderah asks Athanasius to ordain him, and he hides (6670-6674). Greek Life: he hides among the brothers until Athanasius has passed (82514-82520).",
+    "Greek Life: at the church of Latopolis (Esneh), monks and bishops question him over the claim that he reads hidden things (86393-86400); as he finishes, a man driven by an evil spirit bursts in armed with a sword to kill him, and the Lord saves him with the help of those present (86463-86466).",
+    "Greek Life: after Easter a plague in all the monasteries (86510-86512, 86572-86574); ill for forty days, he asks for a lighter blanket, is brought one of the best and lightest, and sends it back (86619-86633). The years: 348 by the Bollandists (86728, 86730), 346 by Archibald Robertson (npnf204 5643-5644).",
+    "Gennadius, On Illustrious Men 8: Theodore's letters urge back into unity those who broke it after the abbot's death (npnf203 42276-42286).",
+    "Palladius, Lausiac History 32, tr. W. K. Lowther Clarke: about seven thousand men under the rule (405), with Clarke's date for the work, 419-420 (657).",
+    "Jerome's preface to the Rule of Pachomius (PL 23): the books sent from Alexandria by the priest Silvanus, the Latins in the Thebaid houses and at Metanoia who knew neither Egyptian nor Greek, Leontinus and the brothers pressing him, and the Latin dictated from the Greek version (4335-4354); made also for Eustochium's sisters and his own brothers (4384-4388); dated by its editor to the end of 404 or to 405, after Paula's death (4300-4306).",
+    "Ardo, Life of Benedict of Aniane (PL 103): the Concordia regularum, with Benedict's Rule first and the agreeing rules after, to show that his rule rested on the others (30903-30911); the Concordia's sections from the Rule of Pachomius, e.g. 66976; Benedict died in 821 (28836)."
   ],
   "quotationOriginals": [
+    {
+      "modern": "When I first began to live as a monk, there was no community anywhere in which anyone cared or feared for the salvation of others. Once the persecution was over, each of the early monks trained himself in the monk's life on his own. Later, with God's help, your father did this great good.",
+      "printed": "Etenim quo ego primum tempore Monachum copi agere, nullum uspiam extabat ecenobium, in quo de aliorum salute cura aut metus cuiquam erat ; sed quisque antiquorum Monachorum, persecutione jam finita, privatim in vita sese monastica exercebat, Postea vero Pater vester tantum bonum, Deo adjuvante, effecit.",
+      "work": "Greek Life of Pachomius, in Daniel Cardon's Latin, Acta Sanctorum, May, vol. 3",
+      "file": "cic/texts/acta-sanctorum_maii-tomus-3-lat-grc_palme1866.txt",
+      "lines": "86887-86893",
+      "uncertain": "Antony's words as the Greek Life reports them, spoken to Pachomius's monks after his death; \"your father\" is Pachomius. The file is OCR, kept as it stands: \"copi\" is coepi, \"ecenobium\" is coenobium; words broken across lines (salu-te, anti-quorum, pri-vatim) are joined. \"Etenim\" (For) is left out of the rendering. Rendered from Cardon's Latin; the Greek is not held legibly.",
+      "secondReading": "same"
+    },
     {
       "modern": "They are Christian people. They treat us this way out of love for the God of heaven.",
       "printed": "Ce sont des gens chrétiens : ils agissent ainsi avec nous, par amour pour le Dieu du ciel.",
@@ -139,15 +143,6 @@
       "secondReading": "same"
     },
     {
-      "modern": "Pachomius, Pachomius, the will of God is that you serve the human race and unite them to Him.",
-      "printed": "Pakliôme, Pakhôme, Pakhôme, la volonté de Dieu est que lu serves la race humaine et que Iules unisses àLui.",
-      "work": "Bohairic Life of Pachomius, tr. Émile Amélineau, Histoire de saint Pakhôme (Annales du Musée Guimet 17)",
-      "file": "cic/texts/amelineau_histoire-de-saint-pakhome-annales-guimet-17_leroux1889.txt",
-      "lines": "6247-6248",
-      "uncertain": "The file is OCR, kept as it stands: \"Pakliôme\" is Pakhôme, \"lu\" is tu, \"Iules\" is tu les, \"àLui\" is à Lui. The Life says the angel spoke \"par trois fois\", but the manuscript writes the name twice; the third \"Pakhôme\" is Amélineau's, by his note e (6260), and the modern rendering gives the name twice. Rendered from the French; the Coptic OCR cannot be read. The Greek Life's Latin gives the same charge without the name (81972-81974).",
-      "secondReading": "minor"
-    },
-    {
       "modern": "Take this blanket away from here at once. It is not right that I should be better off in anything than the other brothers.",
       "printed": "Istud, inquit, straguli absque mora hine aufer; non enim iequum est ut in re quapiam melius mihi sit quam Fratribus ceteris.",
       "work": "Greek Life of Pachomius, in Daniel Cardon's Latin, Acta Sanctorum, May, vol. 3",
@@ -155,14 +150,6 @@
       "lines": "86630-86633",
       "uncertain": "The file is OCR, kept as it stands: \"hine\" is hinc, \"iequum\" is aequum. \"inquit\" (he said) is the narrator's, not his words. Rendered from Cardon's Latin; the Greek is not held legibly.",
       "secondReading": "same"
-    },
-    {
-      "modern": "the monks of Tabenna",
-      "printed": "some from that of the monks of Tabenna,",
-      "work": "John Cassian, Institutes IV.1, tr. Edgar C. S. Gibson",
-      "file": "cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
-      "lines": "18531",
-      "secondReading": "minor"
     }
   ]
 }

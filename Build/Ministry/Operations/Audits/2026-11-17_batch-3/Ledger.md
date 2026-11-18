@@ -248,3 +248,5 @@ One row per agent pass. Tokens are the subagent's own count as the harness repor
 | moses-the-black | recheck 2 | Opus, medium | 97,584 | PASS; heart by word 82; grade 5.7 not flat |
 | vardan-mamikonian | card 2 | Opus | 122,725 | 1 quote out, grant in; renderings list to follow at census |
 | council-of-chalcedon-451 | claim check (Eutyches condemned by all three) | Opus, low | 94,946 | HELD all three; Coptic via Timothy of Alexandria, Zachariah 4093-4097, to add to the card's references |
+| third-council-of-toledo-589 | card 2 | Sonnet | 126,495 | 5 added, 4 removed, 1 trimmed; damaged-places claim still not found |
+| pachomius | card 2 | Opus | 140,501 | Antony quote added; 2 removed |
