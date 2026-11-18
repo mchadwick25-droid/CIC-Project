@@ -199,3 +199,4 @@ One row per agent pass. Tokens are the subagent's own count as the harness repor
 | third-council-of-toledo-589 | outline amended from review 2 (researcher) | Opus | — | heart's second half in first 130 words; force must-tell; ceiling 420 |
 | arius | write (fresh, heart first) | Opus | 100,055 | 450 words, grade 8.6, pass |
 | thomas-a-kempis | review 2 | Opus | 117,570 | REVISE: Thomas and his own work not in the first minute; Deventer schooling misread |
+| john-wyclif | write (fresh, heart first) | Opus | 97,010 | 446 words, grade 8.0, pass |
