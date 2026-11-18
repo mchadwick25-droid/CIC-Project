@@ -6,7 +6,7 @@ Each folder holds `Source_Sheet.md` and `Outline.md` from the researcher, and `C
 
 ## Steps
 0. Slate: set by Mark. Siblings inside the batch: Nestorius before Cyril of Alexandria; Barsauma before Babai; Luther before Tyndale. The later one is researched after the earlier outline is done.
-1. Research (`Researcher_Prompt.md`). Then the hearts go to Mark (`Hearts.md`).
+1. Research (`Researcher_Prompt.md`). Then the hearts go to Mark (`Hearts.md`; shown to him on one page with seven questions, 2026-11-18).
 2. Outline check.
 3. Write.
 4. Review, after `tools/check_brief_variety.py` and `tools/check_tree_overlap.py`.
