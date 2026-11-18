@@ -4553,3 +4553,13 @@ Mark then clarified: "something that by it self is not clear in english like the
 ## 2026-11-18 — Batch 3: the re-record approved
 
 **Ruling (Mark, 2026-11-18: "I approve", on the re-record page's recommended option).** All twelve reworked texts are recorded again, at a cap of 15,500 credits. The settings are the same as the morning run: Neo for the ten people and Daniel for the two councils. The estimate is about 29,500 characters and about 14,300 credits. The run starts once the census holds the twelve texts and its check passes with 0 errors. It runs a dry run and a balance read, then Alopen alone, Toledo alone, then the other ten, and the balance is checked against the charges at the end. The morning recordings, made from the texts before the rework, are replaced.
+
+**Re-recorded (2026-11-18).** The census took the twelve reworked texts first, and its check passes with 0 errors. Logs: `Build/Ministry/Operations/Audits/2026-11-17_batch-3/recording/batch3-rerecord-run1.log` to `-run5.log`.
+- Alopen alone, in Neo's voice: 2,111 characters sent, 1,024 credits (0.485 a character).
+- Toledo alone, in Daniel's voice: 2,398 characters, 1,163 credits.
+- Chalcedon, in Daniel's voice: 1,620 credits.
+- Eight people in Neo's voice: 18,949 characters sent, 9,187 credits.
+- Wyclif came last. It was held back while Mark asked whether Wyclif was martyred (he was not: he died after a stroke in 1384, and his bones were later ordered dug up and burned). Mark: "im good with wycliffe". 1,277 credits.
+- In all: 14,271 credits against the 15,500 cap. The balance moved from 315,379 to 329,650, exactly that amount.
+
+Heard lengths: the people run from 2:07 (Baudonivia) to 3:12 (Arius). Toledo runs 3:02 and Chalcedon 4:19.

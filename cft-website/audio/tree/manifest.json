@@ -3194,9 +3194,9 @@
  },
  "alopen": {
   "file": "alopen.mp3",
-  "bytes": 662299,
-  "chars": 1120,
-  "text_sha256": "1d80923b93fb85e3024ff108d11a8ff7b722ddf9452fb6f519d365e55f237698",
+  "bytes": 1176180,
+  "chars": 2075,
+  "text_sha256": "af1ae68529dcfd52cb3a7013b1fc84ae664387f208eeeb8ec3d254a56876612a",
   "voiceId": "onegjDE2z0mQtp1g0HK7",
   "model": "eleven_v4",
   "outputFormat": "mp3_44100_64",
@@ -3206,16 +3206,16 @@
    "style": 0,
    "use_speaker_boost": true
   },
-  "charsSent": 1147,
+  "charsSent": 2111,
   "openTag": null,
   "closingTag": null,
-  "requestId": "xCQmYYWekVxnRqZpi0vH"
+  "requestId": "JLSoStOxtR1i5GnPC4XW"
  },
  "third-council-of-toledo-589": {
   "file": "third-council-of-toledo-589.mp3",
-  "bytes": 1802492,
-  "chars": 2970,
-  "text_sha256": "43df9fad58914e7d4030aed45ef16169d955551be1bf23df215435a9ca1761dc",
+  "bytes": 1456630,
+  "chars": 2398,
+  "text_sha256": "8671a56959235834f663ac2b27c2d674923feaf297600dc60526292cf558feeb",
   "voiceId": "onwK4e9ZLuTAKqWW03F9",
   "model": "eleven_multilingual_v2",
   "outputFormat": "mp3_44100_64",
@@ -3228,9 +3228,9 @@
  },
  "council-of-chalcedon-451": {
   "file": "council-of-chalcedon-451.mp3",
-  "bytes": 2140829,
-  "chars": 3450,
-  "text_sha256": "f18207aa24f2ed6efa66246de89433eff48633f85895fc5cb518afb84817969a",
+  "bytes": 2073956,
+  "chars": 3341,
+  "text_sha256": "3e63cf81a5e1e08dc148665a357a70370e7e2435251bffb2fcf23c51c7f936e9",
   "voiceId": "onwK4e9ZLuTAKqWW03F9",
   "model": "eleven_multilingual_v2",
   "outputFormat": "mp3_44100_64",
@@ -3243,9 +3243,9 @@
  },
  "thomas-a-kempis": {
   "file": "thomas-a-kempis.mp3",
-  "bytes": 1277953,
-  "chars": 2214,
-  "text_sha256": "950f4c132a8831b4a4774da58804a2be4391f1cbd6ad117af05f06083de0b873",
+  "bytes": 1259980,
+  "chars": 2356,
+  "text_sha256": "5cb9c640de7ded736a9383a32b18bb6727a3710a5428ee4ea6307f71e944afac",
   "voiceId": "onegjDE2z0mQtp1g0HK7",
   "model": "eleven_v4",
   "outputFormat": "mp3_44100_64",
@@ -3255,16 +3255,16 @@
    "style": 0,
    "use_speaker_boost": true
   },
-  "charsSent": 2277,
+  "charsSent": 2401,
   "openTag": null,
   "closingTag": null,
-  "requestId": "BrC89iCChNC7g1gEcKmo"
+  "requestId": "vfO6vVEF8Cuul7MakFAM"
  },
  "john-wyclif": {
   "file": "john-wyclif.mp3",
-  "bytes": 1371994,
-  "chars": 2498,
-  "text_sha256": "fcaa6b93f3819a5cd255f433071afa8f06b535d930c4de68cbef5acd489765f3",
+  "bytes": 1445136,
+  "chars": 2570,
+  "text_sha256": "14b69a05648c752c676dbcfd8d631415ffbae71a080cbb6b900519a6e1abb222",
   "voiceId": "onegjDE2z0mQtp1g0HK7",
   "model": "eleven_v4",
   "outputFormat": "mp3_44100_64",
@@ -3274,16 +3274,16 @@
    "style": 0,
    "use_speaker_boost": true
   },
-  "charsSent": 2561,
+  "charsSent": 2633,
   "openTag": null,
   "closingTag": null,
-  "requestId": "rZ3JLv3UVuzk9AAkwplr"
+  "requestId": "DmXpGzGC8fgCsilhPEnK"
  },
  "justin-martyr": {
   "file": "justin-martyr.mp3",
-  "bytes": 1483380,
-  "chars": 2577,
-  "text_sha256": "bd8daa520cd5d93bd29fc5e7818b610072da8948588ac46dddf54a926a1896a6",
+  "bytes": 1400833,
+  "chars": 2523,
+  "text_sha256": "8005780730bc95967ad32aa85cdd32434d3b46898329ce60eb184c6487281db1",
   "voiceId": "onegjDE2z0mQtp1g0HK7",
   "model": "eleven_v4",
   "outputFormat": "mp3_44100_64",
@@ -3293,16 +3293,16 @@
    "style": 0,
    "use_speaker_boost": true
   },
-  "charsSent": 2640,
+  "charsSent": 2610,
   "openTag": null,
   "closingTag": null,
-  "requestId": "CgTJaJcdOfFjFGaMgBHi"
+  "requestId": "2p7DAA3BYg8Wn47Cr2r8"
  },
  "pachomius": {
   "file": "pachomius.mp3",
-  "bytes": 1473767,
-  "chars": 2683,
-  "text_sha256": "dd31757139ce5f3583c0930b72a55c57e7e076b67777abc9dcfc8e9b7285e515",
+  "bytes": 1375964,
+  "chars": 2498,
+  "text_sha256": "337bd5fdd8aee6c0d27725818d9c1e167df9262f236a87fb9a4000d7f15aa0ae",
   "voiceId": "onegjDE2z0mQtp1g0HK7",
   "model": "eleven_v4",
   "outputFormat": "mp3_44100_64",
@@ -3312,16 +3312,16 @@
    "style": 0,
    "use_speaker_boost": true
   },
-  "charsSent": 2764,
+  "charsSent": 2543,
   "openTag": null,
   "closingTag": null,
-  "requestId": "BnjtipIJM219FJmcXBAD"
+  "requestId": "RVdlSj4VcrAehxoEJ1Uh"
  },
  "arius": {
   "file": "arius.mp3",
-  "bytes": 1442420,
-  "chars": 2605,
-  "text_sha256": "987e73ef1df31f996d4c0d92b0494d3cc3a7a8d93327307209dbc1d7aa9ae61f",
+  "bytes": 1537923,
+  "chars": 2636,
+  "text_sha256": "350e5bf48fab8143090c58055eee1d95fa0cc8cffc6601bcca9b107e50a33df0",
   "voiceId": "onegjDE2z0mQtp1g0HK7",
   "model": "eleven_v4",
   "outputFormat": "mp3_44100_64",
@@ -3331,16 +3331,16 @@
    "style": 0,
    "use_speaker_boost": true
   },
-  "charsSent": 2680,
+  "charsSent": 2699,
   "openTag": null,
   "closingTag": null,
-  "requestId": "k2ljieqPHsYlM7VWO8y0"
+  "requestId": "iI26Rq2Rzc0C1Hmiudzt"
  },
  "moses-the-black": {
   "file": "moses-the-black.mp3",
-  "bytes": 1063540,
-  "chars": 1910,
-  "text_sha256": "62d004d23ffff1072ee7beb7eb57aa87680a53fe025c20f4715cf9cb9ce6f22b",
+  "bytes": 1034074,
+  "chars": 1887,
+  "text_sha256": "ae945d7e2f6a7952d6630d37e09fcc8ef24accb2eee4a1b751d5d82b43f6019f",
   "voiceId": "onegjDE2z0mQtp1g0HK7",
   "model": "eleven_v4",
   "outputFormat": "mp3_44100_64",
@@ -3350,16 +3350,16 @@
    "style": 0,
    "use_speaker_boost": true
   },
-  "charsSent": 1955,
+  "charsSent": 1932,
   "openTag": null,
   "closingTag": null,
-  "requestId": "mB6hOPSRrTfz1bB7cKiX"
+  "requestId": "EdLbdFc0X0OvlI6Aznmm"
  },
  "vardan-mamikonian": {
   "file": "vardan-mamikonian.mp3",
-  "bytes": 1571151,
-  "chars": 2803,
-  "text_sha256": "12faf38e37310049b6865794c4a32e28c1b0d6018d7af585999164d8e06b45b6",
+  "bytes": 1379099,
+  "chars": 2472,
+  "text_sha256": "fe6d518bf626cd900cfc142f8f9ee4f33e8bf32eb3bb3001980557d8e2e72b73",
   "voiceId": "onegjDE2z0mQtp1g0HK7",
   "model": "eleven_v4",
   "outputFormat": "mp3_44100_64",
@@ -3369,16 +3369,16 @@
    "style": 0,
    "use_speaker_boost": true
   },
-  "charsSent": 2857,
+  "charsSent": 2535,
   "openTag": null,
   "closingTag": null,
-  "requestId": "6R7UX493wXeKLwJS8xnF"
+  "requestId": "Wt9OaR0yXVO0OKrWINZx"
  },
  "narsai": {
   "file": "narsai.mp3",
-  "bytes": 1336885,
-  "chars": 2345,
-  "text_sha256": "87b147a353154c857b3d1cc0d74b80342b73c4cba7d7cb538de872c419045df7",
+  "bytes": 1272937,
+  "chars": 2273,
+  "text_sha256": "3c2999445d9cec11abe94fb96dc14b51f0750e7152e4360dcd692721574bfb2f",
   "voiceId": "onegjDE2z0mQtp1g0HK7",
   "model": "eleven_v4",
   "outputFormat": "mp3_44100_64",
@@ -3388,16 +3388,16 @@
    "style": 0,
    "use_speaker_boost": true
   },
-  "charsSent": 2399,
+  "charsSent": 2327,
   "openTag": null,
   "closingTag": null,
-  "requestId": "UyGjjfHGTxPMa1uVwBq3"
+  "requestId": "leGik45oUmrJXDtOErFi"
  },
  "baudonivia": {
   "file": "baudonivia.mp3",
-  "bytes": 1075034,
-  "chars": 1922,
-  "text_sha256": "d3547ca8e6270a550a9877554c9af157e28bf60d22fcd32168cb4f049eed8b99",
+  "bytes": 1023207,
+  "chars": 1866,
+  "text_sha256": "06cc6a8cbf3548985646cf09b46c3c09ee7f37dd8a8f665308b1f918ddb55f93",
   "voiceId": "onegjDE2z0mQtp1g0HK7",
   "model": "eleven_v4",
   "outputFormat": "mp3_44100_64",
@@ -3407,9 +3407,9 @@
    "style": 0,
    "use_speaker_boost": true
   },
-  "charsSent": 1967,
+  "charsSent": 1902,
   "openTag": null,
   "closingTag": null,
-  "requestId": "IUQyG6w3zaOC3f2iad1M"
+  "requestId": "twPuqFj0DZfoEO4RZO5s"
  }
 }

@@ -262,3 +262,4 @@ One row per agent pass. Tokens are the subagent's own count as the harness repor
 | moses-the-black | card 2 | Opus | 117,472 | 2 sayings added, 2 removed; knownFor partial (fix at census) |
 | alopen | recheck 2 (stone image) | Opus, medium | 97,459 | PASS; M3 and Review_2 M1 applied by coordinator as worded; outline Where line updated |
 | all twelve | census step (rework) | Sonnet | 132,521 | 0 errors; renderings 17 out, 28 in; Kempis teaser and Moses knownFor/teaser fixed |
+| all twelve | re-record (paid) | — | — | 14,271 credits; balance matched |
