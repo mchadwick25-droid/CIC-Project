@@ -124808,7 +124808,8 @@ function tourTrack(){
 }
 function placeTourBox(){
   const narrow=narrowScreen();
-  const lift=narrow?barHeight()+(tray.hidden||panel.classList.contains('open')?0:tray.offsetHeight):0;
+  const listening=listenBar.hidden?0:listenBar.offsetHeight+8;
+  const lift=(narrow?barHeight()+(tray.hidden||panel.classList.contains('open')?0:tray.offsetHeight):0)+listening;
   tourBox.style.setProperty('--tour-lift',lift+'px');
   if(narrow){tourBox.style.left='';return;}
   const left=tray.hidden?0:tray.offsetWidth, right=window.innerWidth-(panel.classList.contains('open')?panel.offsetWidth:0);
