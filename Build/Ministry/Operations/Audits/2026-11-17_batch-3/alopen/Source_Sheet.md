@@ -160,6 +160,44 @@ Yule: "the  Emperor  Wu-Tsung / issued  an  edict,  still  extant,  against  the
 
 **D8. "First Christian in China."** Brine: "the first Christian / that planted his foot in China" (brine 2243–2244). Williams gives grounds for earlier sees, "as early as A. D. 505" (MAL 14202–14207). Neither is solid; do not claim "first".
 
+
+## 6. Added for the heart of his life (2026-11-18)
+
+Lines added for the revised outline. All re-read in their files.
+
+**H1. The stone's own title is about the faith's coming.** YULE 2932–2933. Yule's English of the stone's heading (19th c. scholar reading the stele). Documented (that the heading says so).
+> constituting  the  heading,  which  runs : / "  Monument  commemorating  the  introduction  and  propagation  of  the  noble  Law  of'Yz.  T'sin  in  the
+
+(OCR "of'Yz. T'sin" = "of Ta T'sin".) Wylie: "Tablet Eulogizing the Propagation of the Illustrious Religion in / China" (MAL 13565–13566); Legge: "THE DIFFUSION OF THE IL¬ / LUSTRIOUS RELIGION IN THE MIDDLE KINGDOM" (LEGGE 360–361).
+
+**H2. Alopen as the first mission the record tells.** The stone's account of the faith in China begins with his coming (MAL 13680–13689; LEGGE 1008–1012): Documented as the stele's narrative. Scholars read it as the first entrance:
+- LEGGE 3876–3877 (Legge, 1888): "the  second  part  tells  us  of  its  first  entrance / into  China,  and  of  the  patronage  extended  to  it  for  the / most  part  for  nearly  150  years  by  various  emperors"
+- LEGGE 3815–3817 (Gibbon, quoted by Legge): "The  inscription  of  Si-gan-ffi,  which  describes / the  fortunes  of  the  Nestorian  Church  from  the  first  mission, / A.  D.  636,  to  the  current  year  781,"
+- YULE 2938–2939 (Yule): "An  account  of  the  arrival  of  the  missionary / Oi.opAn"
+Widely Accepted that his is the earliest Christian mission to China the record describes. Contested whether Christians reached China before him: Williams's grounds for sees "as early as A. D. 505" (MAL 14202–14207, D8) name no mission and no person.
+
+**H3. The finding, 1625: what the stone told, and the stir.** LEGGE 3662–3679. Legge's lecture (1888), from the 17th-century Jesuit accounts. Widely Accepted.
+> a  doubt  that  it  was,  in  781  ;  but  our  knowledge  of  it  does / not  go  nearly  so  far  back,  and  dates  only  from  1625.  In / that  year  some  workmen,  digging  the  ground  in  a  suburb / of  Ch'ang-an,  for  a  grave  or  for  some  other  purpose  (for / there  are  different  accounts  of  the  matter),  came  on  a  stone / monument  of  large  size,  and  with  a  remarkable  inscription / on  it,  written  mostly  in  Chinese  characters,  but  having / others  entirely  different,  and  evidently  belonging  to  some / other  language,  interspersed  with  them.  And  how  stiange / the  things  which  it  told !  It  said  it  was  844  years  old,  and / that  so  long  back  there  had  been  many  strangers  there / from  other  countries,  preaching  and  teaching  things  not  to / be  found  in  Confucius,  or  Lao-tsze,  or  in  all  the  books  of / Buddhism  ;  yea,  preaching  and  teaching  those  things  with / the  sanction  and  encouragement  of  the  most  famous / monarchs  of  the  great  T'ang  dynasty  which  was  but  a / memory  of  the  past.  How  could  it  be?  The  stone  was / taken  out  entire,  and  the  discovery  excited  a  great  deal  of / curiosity.
+
+("844 years old" is Legge's own count, 1625 less 781.) The cross at its top: "The  cross,  which  is  engraved  at  p.  30,  is  incised  at  the  top  of  the / slab" (YULE 2931–2932).
+
+**H4. The copy sent to the Jesuits, who spread it as proof.** LEGGE 3685–3710. Legge (1888), citing Semedo (who saw the stone in 1628, LEGGE 3712–3714) and Kircher. Widely Accepted.
+> A  small / mandarin,  however,  in  the  city,  a  convert,  thinking  it  would / '  interest  the  fathers,  had  a  copy  taken  of  it  (I  suppose  of / the  Chinese  portion  only),  and  sent  it  to  a  company  of / them  who  were  in  hiding  from  persecution  in  Hang-chau / Fu  of  Cheh-chiang.  Among  them  was  Alvarez  Semedo, … he  tells  us  that  the  news  from  their  friend  in  Ch'ang-an / was  received  by  them  with  'a  spiritual  jubilee and  accord¬ / ing  to  Athanasius  Kircher  … they  forthwith  published  and  circulated  copies / … throughout  the  empire,  as  supplying  a  most  important / proof  of  the  early  introduction  of  Christianity  into  it,  and / being  admirably  calculated  to  aid  them  in  prosecuting  their / own  labours.
+
+**H5. The silence between: the church fades from view.** LEGGE 4252–4256. Legge (1888). Widely Accepted.
+> Very  slight  indications  of  its  presence  in  China  are  found / subsequently  in  Chinese  history,  and  the  cuitain  drops / on  the  monument  till  it  is  dug  up  from  under  the  earth, / after  844  years,  in  1635.  This  long  silence  about  it  has / often  been  used  as  an  argument  against  its  genuineness.
+
+("1635" here is a slip; Legge gives 1625 at 3663, and so does Yule, 2930.) How or when it came to be under the earth is not recorded; the 845 burial is Pauthier's and Legge's guess (I4).
+
+**H6. What the stone sets out as the faith's teaching** (the church of 781, not Alopen's own words). MAL 13574–13575, 13609, 13623. Stele via Wylie. Documented (stele's words).
+> This is our eternal true / lord God, triune and mysterious in substance.
+
+> a virgin gave birth to the Holy One in Syria;
+
+> Twenty-seven sacred books have been left,
+
+(OCR footnote mark after "books" dropped.) Legge's summary: "His  crucifixion,  death,  burial,  and / resurrection  are  not  mentioned  ;  but  He  leaves  behind  Him / twenty-seven  standard-books, — The  books,  no  doubt,  of  our / New  Testament." (LEGGE 3919–3922). Card material; light use only.
+
 ---
 
 ## Library sweep
@@ -180,5 +218,6 @@ Yule: "the  Emperor  Wu-Tsung / issued  an  edict,  still  extant,  against  the
 - Saeki's own book and Nicolini-Zani (named in the census) are not held; Saeki is used only via Budge's paraphrase.
 - Wigram (D7): garbled and late.
 - IRM 1916 (Olopen and the Buddhist teacher Zendo "There is no reason why the two should not have met", 38830): the writer's speculation; no record of any meeting.
+- For the revision (2026-11-18): Legge's lecture re-read for the finding (3640–3720), the stone's contents (3870–3935) and the silence after 781 (4240–4275); Yule's note re-read for the heading (2929–2940). Nothing new in the other held files on the finding.
 - Chavannes–Pelliot 1913, Cathay vol. 3, Lindley, National Christian Conference 1922: mention the stele or Si-ngan only in passing, nothing new on Alopen.
 - Census tradition text for the Church of the East on the Silk Road was seen in passing while reading the census entry for the tradition's spoken name; nothing here is taken from it — every line above is from the primary files.
