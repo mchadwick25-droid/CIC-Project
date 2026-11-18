@@ -1,14 +1,11 @@
 {
-  "name": "Cyril and Methodius",
   "otherNames": [
     "Constantine the Philosopher, Cyril's name until he took the name Cyril in Rome, by the Italian Legend"
   ],
   "knownFor": "Two brothers of Thessalonica who taught the Slavs of Moravia the faith in their own language. Pope John VIII praised the Slavonic letters found by Constantine and, in 880, allowed the Mass to be sung in Slavonic, with the Gospel read first in Latin.",
-  "dates": "Ninth century. No source used here gives either brother's year of birth. Johann Ginzel reckons their arrival in Moravia to 863. Cyril died in Rome on 14 February, by the Italian Legend; Ginzel accepts 868 for the year, and Ernst Dümmler and S. H. Cross give 869. Methodius died on 6 April, in the year 6393 from the creation, by the Life of Methodius; Ginzel works this out as 885",
-  "place": "Thessalonica, their home; Cherson, where the Italian Legend says Constantine found the relics of Clement of Rome; Moravia, their mission; Rome, where Cyril died and was buried in the basilica of Saint Clement; Pannonia, the see Methodius was made bishop for, by the Life of Methodius",
-  "tradition": "Cyrillo-Methodian Slavic Christianity",
+  "datesNote": "Ninth century. No source used here gives either brother's year of birth. Johann Ginzel reckons their arrival in Moravia to 863. Cyril died in Rome on 14 February, by the Italian Legend; Ginzel accepts 868 for the year, and Ernst Dümmler and S. H. Cross give 869. Methodius died on 6 April, in the year 6393 from the creation, by the Life of Methodius; Ginzel works this out as 885",
+  "placeNote": "Thessalonica, their home; Cherson, where the Italian Legend says Constantine found the relics of Clement of Rome; Moravia, their mission; Rome, where Cyril died and was buried in the basilica of Saint Clement; Pannonia, the see Methodius was made bishop for, by the Life of Methodius",
   "role": "Brothers and missionaries: Constantine (Cyril), priest, scholar and finder of the Slavonic letters; Methodius, monk, then bishop and archbishop for the Slavs",
-  "briefLength": "about 3 minutes",
   "keyWorks": [
     {
       "title": "The Slavonic letters",
@@ -70,9 +67,41 @@
         "date": "1920",
         "language": "English",
         "file": "cic/texts/lutzow_bohemia-historical-sketch_1920.txt"
+      },
+      {
+        "title": "Die Legende vom heiligen Cyrillus: the Slavonic Life of Constantine, Latin tr. Ernst Dümmler and Franz Miklosich, with Dümmler's introduction",
+        "author": "Ernst Dümmler and Franz Miklosich (ed. and tr.)",
+        "date": "1870",
+        "language": "Latin and German",
+        "file": "cic/texts/vita-constantini_die-legende-vom-heiligen-cyrillus-in-denkschriften-wien-19-chu-lat-deu_duemmler-miklosich1870.txt"
+      },
+      {
+        "title": "Patrologia Graeca 126: the Life of Clement of Ohrid, with its Latin translation and the editor's note on its author",
+        "author": "J.-P. Migne (ed.)",
+        "date": "1864",
+        "language": "Greek and Latin",
+        "file": "cic/texts/theophylact-ohrid_opera-t4-with-vita-clementis-pg126-grc-lat_migne1864.txt"
       }
     ]
   },
+  "briefReferences": [
+    "Life of Constantine, lines 20217–20233: Moravia asks for a teacher in its own language; the emperor sends the tired philosopher; \"if they have letters for their language\"; \"who can write words on water\"; the letters made after prayer.",
+    "Life of Methodius, lines 12201–12219: Rastislav's embassy, with teachers from Italy, Greece and Germany; the emperor's word that all Thessalonians speak pure Slavonic; the letters made.",
+    "Life of Constantine, lines 20256–20268: the services turned into Slavic; the Latin clergy who said God chose only three languages.",
+    "Life of Constantine, lines 20292–20314: Venice, the Latin bishops, priests and monks, and his answer.",
+    "Life of Constantine, lines 20379–20445: Rome, the pope comes out to meet them with Clement's relics; his illness; the monk's name Cyril; his death on 14 February, aged 42.",
+    "Life of Methodius, lines 12249–12365: his last words to Methodius, and his plea not to give up his teaching for the mountain; Methodius bishop for Pannonia; held two and a half years in Swabia.",
+    "Salzburg Conversio: the \"Greek\" with \"newly invented Slavic letters\" who partly cheapened the Latin Masses and Gospels.",
+    "Pope John VIII, letter of 879 to Methodius: the earlier ban on Slavonic Mass repeated, with preaching in Slavonic still allowed.",
+    "Pope John VIII, letter of 880 to Svatopluk: the Slavonic letters found by Constantine, Slavonic Mass allowed, the Gospel read first in Latin, and the three chief languages.",
+    "Life of Methodius, lines 12540–12551; his death on 6 April; the funeral in Latin, Greek and Slavonic, with crowds rich and poor, free and slave; Lützow for 885. Life of Clement (Latin extract in Ginzel): Wiching set up, the disciples driven out.",
+    "Life of Clement, PG 126: the younger priests and deacons sold, the teachers chained, then stripped and driven out; Clement, Naum and Angelarius to Bulgaria; Boris thanks God; Clement \"the first bishop of the Bulgarian tongue\"; the plain sermons.",
+    "Editor's note to the Life of Clement, PG 126: its author says he lived with Clement and was Bulgarian, though the work carries Theophylact's name.",
+    "Lützow, Bohemia: Rostislav's mission to Constantinople in 862, for the 860s.",
+    "Russian Primary Chronicle, tr. Cross: the writing first made for the Moravians, found in Rus and among the Danube Bulgarians; Cross's introduction for 869 and the dating.",
+    "Dümmler's introduction to the Life of Constantine and Ginzel on the Life of Methodius: the Lives written by followers, kept in late copies.",
+    "World census, Cyrillo-Methodian Slavic Christianity: their tradition, and the Czech Republic for Moravia."
+  ],
   "quotationOriginals": [
     {
       "modern": "if they have letters for their language.",
@@ -89,11 +118,11 @@
       "lines": "20227-20228"
     },
     {
-      "modern": "Does God's rain not fall on all alike? Does the sun not shine the same on everyone? Do we not all breathe the air alike? Then how are you not ashamed to fix on three languages only? You would order every other people and tribe to be blind and deaf.",
-      "printed": "nonne pluvia a deo aequaliter super omnes cadit? et sol nonne eodem modo lucet omnibus (Matth. 5. 45)? nonne aerem omnes aequaliter spiramus ? quomodo igitur vos non pudet tres tantum linguas statuere, reliquos populos et Stirpes caecos et surdos esse iubentes ?",
+      "modern": "Does God's rain not fall on all alike?",
+      "printed": "nonne pluvia a deo aequaliter super omnes cadit?",
       "work": "Life of Constantine, Latin tr. Dümmler and Miklosich",
       "file": "cic/texts/vita-constantini_die-legende-vom-heiligen-cyrillus-in-denkschriften-wien-19-chu-lat-deu_duemmler-miklosich1870.txt",
-      "lines": "20307-20310"
+      "lines": "20307-20308"
     },
     {
       "modern": "Look, brother, we were partners ploughing a single furrow. And I fall in the field, having finished my day.",
@@ -103,15 +132,15 @@
       "lines": "12251-12253"
     },
     {
-      "modern": "\"Greek\", with his \"newly invented Slavic letters\", had partly cheapened the Latin Masses in the people's eyes",
-      "printed": "quidam graecus, methodms nomine, noviter inventis sclavinis Hlieris, linguam latinam doctrinamque romanam aique liieras auctorales lalinas philosophice superducens , vilescerc fecil cunclo populo ex parte missas et evangelia ecclesiasticumque officium illorum, qui hoc latine celebraverunt.",
+      "modern": "Greek ... newly invented Slavic letters",
+      "printed": "quidam graecus, methodms nomine, noviter inventis sclavinis Hlieris,",
       "work": "Conversio Bagoariorum et Carantanorum (the Salzburg account), in Ginzel",
       "file": "cic/texts/ginzel_geschichte-der-slawenapostel-cyrill-und-method-deu-lat_1861.txt",
-      "lines": "13641-13643, 13662-13663",
-      "uncertain": "OCR spellings kept as printed (methodms = Methodius, Hlieris = litteris, vilescerc fecil cunclo = vilescere fecit cuncto). The brief quotes only \"Greek\" and \"newly invented Slavic letters\"; the rest is paraphrase, keeping \"partly\" (ex parte)."
+      "lines": "13641-13642",
+      "uncertain": "OCR spellings kept as printed (methodms = Methodius, Hlieris = litteris). The brief quotes only \"Greek\" and \"newly invented Slavic letters\"; the rest is paraphrase of the same sentence, which ends after a page of notes at lines 13662-13663, \"vilescerc fecil cunclo populo ex parte missas et evangelia\" (vilescere fecit cuncto), keeping \"partly\" (ex parte)."
     },
     {
-      "modern": "he who made the three chief languages, Hebrew, Greek and Latin, also himself created all the others, for his praise and glory.",
+      "modern": "For he who made the three chief languages, Hebrew, Greek and Latin, also himself created all the others, for his praise and glory.",
       "printed": "qüoniam qui fecit tres linguas principales, bebream scilicet, grecam et latinam, ipse creavit et alias omnes ad laudem et gloriam suam.",
       "work": "Pope John VIII, letter to Svatopluk, 880, in Ginzel",
       "file": "cic/texts/ginzel_geschichte-der-slawenapostel-cyrill-und-method-deu-lat_1861.txt",
@@ -126,20 +155,5 @@
       "lines": "99371-99372",
       "uncertain": "\"Bulgariez lingue\" is the OCR's reading of \"Bulgariae linguae\"."
     }
-  ],
-  "briefReferences": [
-    "Life of Constantine, lines 20217–20233: Moravia asks for a teacher in its own language; the emperor sends the tired philosopher; \"if they have letters for their language\"; \"who can write words on water\"; the letters made after prayer.",
-    "Life of Methodius, lines 12201–12219: Rastislav's embassy; \"you are Thessalonians, and all Thessalonians speak pure Slavonic\"; the letters made.",
-    "Life of Constantine, lines 20256–20268: the services turned into Slavic; the Latin clergy who said God chose only three languages.",
-    "Life of Constantine, lines 20292–20314: Venice, the Latin bishops, priests and monks, and his answer.",
-    "Life of Constantine, lines 20379–20445: Rome, the pope comes out to meet them with Clement's relics; the monk's name Cyril; his death on 14 February, aged 42.",
-    "Life of Methodius, lines 12249–12365: his last words to Methodius; Methodius bishop for Pannonia; held two and a half years in Swabia.",
-    "Salzburg Conversio: the \"Greek\" with \"newly invented Slavic letters\" who partly cheapened the Latin Masses.",
-    "Pope John VIII, letter of 880 to Svatopluk: the Slavonic letters found by Constantine, Slavonic Mass allowed, the Gospel read first in Latin, and the three chief languages.",
-    "Life of Methodius, lines 12540–12551; his death on 6 April; Lützow for 885. Life of Clement (Latin extract in Ginzel): Wiching set up, the disciples driven out.",
-    "Life of Clement, PG 126: Clement, Naum and Angelarius to Bulgaria; Boris thanks God; Clement \"the first bishop of the Bulgarian tongue\"; the plain sermons.",
-    "Russian Primary Chronicle, tr. Cross: the writing first made for the Moravians, found in Rus and among the Danube Bulgarians; Cross's introduction for 869 and the dating.",
-    "Dümmler's introduction to the Life of Constantine and Ginzel on the Life of Methodius: the Lives written by followers, kept in late copies.",
-    "World census, Cyrillo-Methodian Slavic Christianity: their tradition, and the Czech Republic for Moravia."
   ]
 }
