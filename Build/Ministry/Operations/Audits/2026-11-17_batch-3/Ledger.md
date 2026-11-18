@@ -165,3 +165,4 @@ One row per agent pass. Tokens are the subagent's own count as the harness repor
 | arius | re-outline (heart of their life) | Opus | 164,337 | heart: the Son not eternal; Nicaea's answer; the churches named for him |
 | pachomius | re-outline (heart of their life) | Opus | 179,184 | heart: one shared life under one rule |
 | john-wyclif | re-outline (heart of their life) | Opus | 156,176 | heart: God's law in English; the Bible of his circle |
+| alopen | outline check 2 | Opus | 134,441 | FIX: 1 blocking (a quote sentence), minors |
