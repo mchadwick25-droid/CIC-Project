@@ -1,0 +1,146 @@
+{
+  "otherNames": [
+    "Hychins",
+    "Hotchens"
+  ],
+  "knownFor": "English priest and scholar who put the New Testament into English from the Greek and printed it abroad, at Worms in 1526, so that merchants could smuggle it into England, where the bishop of London ordered every copy handed in and the king ordered the books burned. He also put the first five books of the Bible into English from the Hebrew, and he offered the king his life if the Bible's bare text went out among the people. He was betrayed at Antwerp in 1535 and, by John Foxe's account, strangled at the stake and burned at Vilvoorde in 1536.",
+  "datesNote": "No source held here gives a sure year of birth; his 1848 editor, Henry Walter, says only that the probability is 1484. The editor puts his leaving England for Hamburg in 1524. Cochlaeus, an enemy of Luther writing in 1549, places the stopped press at Cologne in 1525; the Testament was printed at Worms in 1526 and the first five books of the Bible at Marburg in 1530. Foxe gives his death at Vilvoorde in 1536, and his calendar the day, 6 October",
+  "placeNote": "Born near the Welsh border, by Foxe; Oxford and Cambridge; a manor in Gloucestershire as tutor; London, 1523 to 1524; Cologne; Worms; Marburg; Antwerp; the castle of Vilvoorde, near Brussels",
+  "role": "Priest and scholar; translator of the Bible into English; writer in exile",
+  "keyWorks": [
+    {
+      "title": "The New Testament in English",
+      "about": "put into English from the Greek, printed at Worms in 1526 and revised against the Greek again in 1534; the printed 1535 title says it was diligently corrected and compared with the Greek. The Library holds his prefaces and prologues to it, not the Testament itself"
+    },
+    {
+      "title": "The Five Books of Moses",
+      "about": "the first five books of the Bible put into English from the Hebrew; the first book, Genesis, was printed at Marburg in Hesse in 1530, with a preface in which he gives his reason for translating"
+    },
+    {
+      "title": "The Obedience of a Christian Man",
+      "about": "a book of 1528 on obedience: it teaches that God makes the king judge over all, with no judge over him but God, and that to resist the king is to resist God. In John Foxe's story, told through a later historian, the king praised it"
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "In October 1526 the bishop of London ordered every copy of the English New Testament handed in within thirty days, under pain of excommunication. King Henry VIII, in his reply to Luther that year, wrote that the translations were to be burned, with punishment for those who kept or read them.",
+      "Foxe tells of readers: Richard Bayfield, a monk given Tyndale's Testament, who was whipped, gagged and put in the stocks; James Bainham, who said in 1531 that the people should have the English Testament as it is; and John Maundrel, a Wiltshire farmer who could not read, who had others read it to him and knew most of it by heart, and who was burned at Salisbury in 1556 under Queen Mary.",
+      "In 1537 Thomas Cranmer, archbishop of Canterbury, sent the king's minister an English Bible, saying he liked it better than any translation made before, and asked a licence for it to be sold and read; he then thanked the minister for obtaining the king's permission to have it bought and read in the realm. It bore the name Thomas Matthew; Henry Walter finds that it began with a reprint of Tyndale's first five books, closed with a reprint of his New Testament, and held his translation of the historical books to the end of Second Chronicles.",
+      "Walter says that before the end of 1536 the king's own printer issued Tyndale's New Testament in England, with his name on the title page."
+    ],
+    "remembered": [
+      "Foxe says he may be worthily called an apostle of England, and in the story of Maundrel calls him the faithful apostle of England.",
+      "Thomas Poyntz, the merchant who lodged him, wrote to his brother in August 1535 that the king had no truer-hearted subject and that the death of this man would be a great hindrance to the gospel.",
+      "In 1533 Tyndale wrote to John Frith in the Tower that he had never altered one syllable of God's word against his conscience, and would not for all the pleasure, honor or riches on earth."
+    ]
+  },
+  "uncertain": [
+    "The Cologne press. The account of the stopped press and the flight up the Rhine comes from Cochlaeus, an enemy of Luther, writing in 1549 about 1525, held here only in Walter's English. His three thousand copies and the six thousand printed at Worms, which a diary of August 1526 gives as hearsay, are both reports, not counts.",
+    "Luther. The charges of 1528 against Tyndale's London host, Foxe and Cochlaeus say he went to Luther; Walter says Tyndale denied any confederacy, and nothing held shows they met. His enemies called the Testament Luther's. Contested.",
+    "His reason and his offer. The reason he gives for translating is in his own 1530 preface. His offer to give up writing and suffer any death comes through the king's envoy, Stephen Vaughan, who wrote to please the king and whom Walter suspects of adding the praise of the king that follows it. John Frith made the same offer in print in 1533.",
+    "The king and his books. That the king praised the Obedience is Foxe's story, through a later historian. The Practice of Prelates is not held; what Tyndale told the envoy is that it only warned the king against his clergy and his cardinal. That it opposed the king's plan to end his marriage is the 1848 editor's view only.",
+    "The betrayal. Foxe tells it from the merchant Poyntz: Henry Phillips befriended him, borrowed forty shillings and pointed him out to officers in a narrow entry. Who sent Phillips is not known; Poyntz thought it was arranged from England without the king's knowledge, and Crespin says some thought the bishops did. Contested.",
+    "The death. Foxe says he was condemned under the emperor's decree, tied to the stake, strangled and then burned; the French martyrologist Crespin says only that he was taken to Vilvoorde to be burned. The last words, Lord, open the king of England's eyes, rest on Foxe alone, decades later. The ploughboy saying rests on him alone as well.",
+    "The Bible of 1537. That most of it was Tyndale's work, printed under another name, is the editors' finding, not the archbishop's claim. Widely Accepted.",
+    "Foxe's own life of Tyndale is not held; it is held only as Walter quotes it. Walter, a warm admirer, writes in providential language that is his own, not the record's."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "Doctrinal Treatises and Introductions to Different Portions of the Holy Scriptures: his prefaces, prologues and The Obedience of a Christian Man, with his letters as Walter prints them (spelling modernized by the editor)",
+        "language": "English",
+        "file": "cic/texts/tyndale_doctrinal-treatises_walter1848.txt",
+        "date": "1848"
+      }
+    ],
+    "about": [
+      {
+        "title": "Biographical Notice of Tyndale, with the letters, petitions, diary entries and passages of Foxe it prints",
+        "author": "Henry Walter",
+        "language": "English",
+        "file": "cic/texts/tyndale_doctrinal-treatises_walter1848.txt",
+        "date": "1848"
+      },
+      {
+        "title": "Acts and Monuments, vol. 4: the bishop of London's order of 1526 and the readers' accounts",
+        "author": "John Foxe",
+        "language": "English, ed. Cattley and Townsend",
+        "file": "cic/texts/foxe_acts-and-monuments-v4_cattley-townsend1837.txt",
+        "date": "1837"
+      },
+      {
+        "title": "Acts and Monuments, vol. 8: John Maundrel and the Salisbury martyrs",
+        "author": "John Foxe",
+        "language": "English, ed. Cattley and Townsend",
+        "file": "cic/texts/foxe_acts-and-monuments-v8_cattley-townsend1837.txt",
+        "date": "1837"
+      },
+      {
+        "title": "Letters to Thomas Cromwell on the English Bible, 1537, in Miscellaneous Writings and Letters",
+        "author": "Thomas Cranmer",
+        "language": "English, ed. Cox",
+        "file": "cic/texts/cranmer_miscellaneous-writings-and-letters_cox1846.txt",
+        "date": "1846"
+      },
+      {
+        "title": "Histoire des martyrs, vol. 1: the account of Tyndale",
+        "author": "Jean Crespin",
+        "language": "French, 1619 text, ed. Benoit and Lelievre",
+        "file": "cic/texts/crespin_histoire-des-martyrs-t1-fra_benoit-lelievre1885.txt",
+        "date": "1885"
+      }
+    ]
+  },
+  "briefReferences": [
+    "Walter's Biographical Notice, from Cochlaeus (1549): Cologne, 1525, the printers boasting over their wine, the city council stopping the press, two Englishmen fleeing up the Rhine with the printed sheets.",
+    "Walter's Biographical Notice, from Foxe: born near the Welsh border, brought up at Oxford, then Cambridge. The 1528 petition of his London host calls him a priest. Tyndale's 1530 preface to the Five Books of Moses: the reason he gives for translating, and the finding of no place to do it in all England, which the brief quotes.",
+    "Walter's Biographical Notice: his leaving England for Germany in 1524, by the editor's date. The Greek, not the Latin: his 1534 preface says he compared the Testament with the Greek again and weeded out faults.",
+    "Walter's Biographical Notice and Tonstal's order of 23 October 1526 in Foxe, vol. 4: the books printed at Worms, merchants carrying them in, the bishop of London giving thirty days to hand in every copy under pain of excommunication, and his naming the work of Luther's sect, which the brief quotes. Henry VIII's reply to Luther, quoted by Walter: the untrue translations to be burned, which the brief quotes.",
+    "The Obedience of a Christian Man, 1528: the king judge over all, with no judge over him. The Practice of Prelates is not held; Tyndale's own words on it are in the report of the king's envoy, Stephen Vaughan, 1531. The story of the king's praise is Foxe's, through a later historian, as Walter prints it. In 1530 he printed the first five books of the Bible from the Hebrew. His 1530 preface calls the clergy who fought the translation hypocrites.",
+    "Vaughan's letters to Henry VIII, April and May 1531, in Walter: the meeting outside Antwerp, the king's minister's verdict on the book and his line of mercy, and Tyndale's offer, which the brief quotes in two spans with a cut between them. No answer to it is held. In March 1532 the king's envoy was ordered to seize him.",
+    "Walter's Biographical Notice: the Testament of 1534 and its 1534 preface, which asks readers to refuse it wherever the word of God disallows it.",
+    "Foxe from Poyntz, in Walter: the arrest by Henry Phillips at Antwerp in 1535, the castle of Vilvoorde, near Brussels. Foxe in Walter: condemned under the law of the emperor, tied to the stake, strangled, and his body burned, and the last cry the brief quotes.",
+    "Foxe, vol. 4, and Foxe, vol. 8: the readers whipped, jailed and questioned for the book; John Maundrel, a Wiltshire farmer who could not read, burned at Salisbury in 1556 under Queen Mary. Heresy as the church's name for teaching it condemned as false.",
+    "Cranmer to Cromwell, August 1537: the English Bible allowed to be bought and read. Walter and the editors: that most of it was Tyndale's.",
+    "Tyndale to John Frith in the Tower, 1533, in Walter: that he never altered one syllable of God's word against his conscience.",
+    "World census, The English Reformation and Elizabethan Settlement: the tradition within which he is told."
+  ],
+  "quotationOriginals": [
+    {
+      "modern": "no place to do it in all England",
+      "printed": "no place to do it in all England",
+      "work": "Tyndale, Preface to the Five Books of Moses, 1530, in Walter's modernized text",
+      "file": "cic/texts/tyndale_doctrinal-treatises_walter1848.txt",
+      "lines": "25837-25838"
+    },
+    {
+      "modern": "Luther's sect",
+      "printed": "Luther's sect",
+      "work": "Cuthbert Tonstal, bishop of London, order of 23 October 1526, in Foxe, Acts and Monuments, vol. 4",
+      "file": "cic/texts/foxe_acts-and-monuments-v4_cattley-townsend1837.txt",
+      "lines": "51045"
+    },
+    {
+      "modern": "untrue translations",
+      "printed": "untrue translations",
+      "work": "Henry VIII, reply to Luther, 1526, quoted in Walter's Biographical Notice",
+      "file": "cic/texts/tyndale_doctrinal-treatises_walter1848.txt",
+      "lines": "1250"
+    },
+    {
+      "modern": "Suppose the king, of his grace, grants his people only the bare text of the Scripture, in the translation of anyone he pleases. Then I will at once make a faithful promise never to write again. … I offer my body to suffer whatever pain or torture, yes, whatever death the king wills, if only this is granted.",
+      "printed": "if it would stand with the king's most gracious pleasure to grant only a bare text of the scripture to be put forth among his people, like as is put forth among the subjects of the emperor in these parts, and of other Christian princes, be it of the translation of what person soever shall please his majesty, I shall immediately make faithful promise never to write more, nor abide two days in these parts after the same; but immediately repair into his realm, and there most humbly submit myself at the feet of his royal majesty, offering my body to suffer what pain or torture, yea, what death his grace will, so that this be obtained.",
+      "work": "Stephen Vaughan to Henry VIII, May 1531, reporting Tyndale's answer, in Walter's Biographical Notice",
+      "file": "cic/texts/tyndale_doctrinal-treatises_walter1848.txt",
+      "lines": "2091-2101",
+      "uncertain": "The brief leaves out two stretches of the printed wording: that the bare text goes out among the people as it does among the emperor's subjects and other Christian princes, and his promise to leave within two days and kneel before the king."
+    },
+    {
+      "modern": "Lord, open the king of England's eyes.",
+      "printed": "Lord, open the king of England's eyes",
+      "work": "John Foxe, quoted in Walter's Biographical Notice",
+      "file": "cic/texts/tyndale_doctrinal-treatises_walter1848.txt",
+      "lines": "3332-3333"
+    }
+  ]
+}
