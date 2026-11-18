@@ -135,4 +135,5 @@ One row per agent pass. Tokens are the subagent's own count as the harness repor
 | (3 pieces) | second-reading requests | Sonnet | 155,048 | 26 quotations located (Toledo 8, Chalcedon 14, Pachomius 4); originals pointed to where held |
 | council-of-chalcedon-451 | card | Sonnet | 170,160 | additions only (briefLength, 15 references, 13 quotation originals, 4 sources); 2 claims left in place and flagged |
 | (3 cards) | script check | script | — | original fields unchanged and in order except those listed |
-| (3 pieces) | blind second reading | Opus | (count) | all 26 rendered blind; Chalcedon Q7's Latin breaks off in the file |
+| (3 pieces) | blind second reading | Opus | 103,258 | all 26 rendered blind; Chalcedon Q7's Latin breaks off in the file |
+| (3 pieces) | second-reading comparison | Opus | (count) | 19 same, 7 minor, 0 changes meaning |
