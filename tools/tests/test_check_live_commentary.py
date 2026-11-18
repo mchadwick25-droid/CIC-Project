@@ -1968,3 +1968,11 @@ def test_json_bare_date_field_keeps(tmp_path):
     path.write_text('{\n "release": {\n  "number": 1,\n  "date": "2026-11-06"\n }\n}\n', encoding="utf-8")
     hits = clc.scan_file(tmp_path, path, "cic-website")
     assert [h.category for h in hits if "2026-11-06" in h.text] in ([], ["KEEP"])
+
+
+def test_a_to_do_marker_is_a_capitalised_word_only():
+    # Scanned Greek read as Latin letters, or Spanish, can hold "todo" as text.
+    assert not clc.ROUTE_CUES.search('"printed": "Ott dvabion cic todo ovpavodbs",')
+    assert not clc.ROUTE_CUES.search("Todo el pueblo lo vio.")
+    assert clc.ROUTE_CUES.search("TODO: check this line")
+    assert clc.ROUTE_CUES.search("FIXME later")

@@ -572,7 +572,9 @@ def _iso_date_is_bare_table_provenance(line: str, in_source_registry_file: bool)
 # "still open" are also code terms in engine/. Each is a cue only with a qualifier that
 # marks the author's own scope or timing ("unresolved here", "open question for now").
 ROUTE_CUES = re.compile(
-    r"\b((?:TODO|FIXME)\b|open question (here|for now|pending|on purpose|until|for (Mark|the project lead))|"
+    # A to-do marker is written in capitals. Lower-case "todo" is ordinary
+    # text in held sources (Spanish "todo", scanned Greek read as Latin letters).
+    r"\b((?-i:TODO|FIXME)\b|open question (here|for now|pending|on purpose|until|for (Mark|the project lead))|"
     r"open gap|open item|not yet (resolved|fixed|answered|acquired|vendored)|flagged for a future round|"
     r"unresolved (here|for now|pending|on purpose|until)|"
     r"still pending|still open (here|for now|pending|until|for (Mark|the project lead))|"
