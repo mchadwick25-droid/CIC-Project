@@ -1,0 +1,131 @@
+{
+  "name": "Marcion of Pontus",
+  "otherNames": [
+    "Marcion of Sinope, in Epiphanius of Salamis"
+  ],
+  "knownFor": "A teacher at Rome who held that the God of the law was not the Father of Jesus, and whose own churches spread widely.",
+  "dates": "Taught at Rome in the middle of the second century",
+  "place": "Pontus, then Rome",
+  "tradition": "Marcionism",
+  "role": "Founder of the Marcionite churches",
+  "briefLength": "about 2 minutes 30 seconds",
+  "keyWorks": [
+    {
+      "title": "Antitheses",
+      "about": "set the law against the gospel. It is lost and known through Tertullian of Carthage's answer"
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "Justin Martyr says many \"of every nation\" followed him. Tertullian of Carthage says the Marcionites built churches of their own."
+    ],
+    "remembered": [
+      "Irenaeus of Lyon tells that Polycarp of Smyrna called him \"the first-born of Satan.\"",
+      "Tertullian wrote five books Against Marcion, arguing from Marcion's own Gospel and Antitheses."
+    ]
+  },
+  "uncertain": [
+    "Almost everything known of him comes from his opponents: Justin Martyr, Irenaeus of Lyon, Tertullian of Carthage and Epiphanius of Salamis. None of his own books survives.",
+    "The teaching rests on more than one of them. Justin, writing while Marcion lived, and Tertullian, who read Marcion's own books, agree that he set another god above the Creator.",
+    "Several life details rest on Tertullian alone: the shipmaster, the money cast out with him, and the late offer to repent.",
+    "Tertullian places Marcion at Rome under Bishop Eleutherus. Irenaeus has him flourish under Anicetus, an earlier bishop.",
+    "That he was a bishop's son put out for violating a young woman is told by the book Against All Heresies printed with Tertullian's works, and at more length by Epiphanius. Karl Holl, who edited Epiphanius's Greek, thought Tertullian's silence spoke against the story.",
+    "Justin Martyr and Irenaeus of Lyon say he came from Pontus. Only Epiphanius, two centuries later, names the city of Sinope; Holl notes that the one other early writer to name it copied him."
+  ],
+  "sources": {
+    "about": [
+      {
+        "title": "First Apology, chapters 26 and 58",
+        "author": "Justin Martyr",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml"
+      },
+      {
+        "title": "Against Heresies, Book 1 chapter 27; Book 3 chapters 3 and 4",
+        "author": "Irenaeus of Lyon",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml"
+      },
+      {
+        "title": "Prescription against Heretics 30; Against Marcion, Books 1 to 5",
+        "author": "Tertullian of Carthage",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/anf03_tertullian.xml"
+      },
+      {
+        "title": "Against All Heresies 6 (printed with Tertullian's works)",
+        "author": "Unknown",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/anf03_tertullian.xml"
+      },
+      {
+        "title": "Panarion 42 (Greek)",
+        "author": "Epiphanius of Salamis",
+        "date": null,
+        "language": "Greek",
+        "file": "cic/texts/epiphanius_panarion-haer-34-64-gcs-bd2-grc_holl1922.txt"
+      }
+    ]
+  },
+  "quotationOriginals": [
+    {
+      "modern": "Do you know me?",
+      "printed": "Dost thou know me?",
+      "work": "Irenaeus, Against Heresies III.3.4, ANF English (the Greek and Latin are not held)",
+      "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
+      "lines": "39883"
+    },
+    {
+      "modern": "I do know you: the firstborn of Satan.",
+      "printed": "I do know thee, the first-born of Satan.",
+      "work": "Irenaeus, Against Heresies III.3.4, ANF English (the Greek and Latin are not held)",
+      "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
+      "lines": "39883-39884",
+      "uncertain": "The words are Polycarp's, as Irenaeus tells it; the narrator does not adopt the charge."
+    },
+    {
+      "modern": "Even now he is still teaching the people he has won over. He teaches them to believe in some other god, greater than the Creator.",
+      "printed": "ὃς καὶ νῦν ἔτι ἐστὶ διδάσκων τοὺς πειθομένους, ἄλλον τινὰ νομίζειν μείζονα τοῦ δημιουργοῦ θεόν",
+      "work": "Justin, First Apology 26, Greek, ed. Rauschen",
+      "file": "cic/texts/justin-martyr_first-apology-grc_rauschen1911.txt",
+      "lines": "730-731",
+      "uncertain": "The ANF English (anf01, lines 14943-14945) reads \"who is even at this day alive, and teaching his disciples to believe in some other god greater than the Creator.\""
+    },
+    {
+      "modern": "Separating the law from the gospel is Marcion's own work, and his chief one.",
+      "printed": "Separatio legis et evangelii proprium et principale opus est Marcionis",
+      "work": "Tertullian, Against Marcion I.19, Latin, ed. Oehler",
+      "file": "cic/texts/tertullian_quae-supersunt-t2-polemica-lat_oehler1853.txt",
+      "lines": "4337-4338",
+      "uncertain": "The ANF English (anf03, lines 23734-23735) reads \"Marcion's special and principal work is the separation of the law and the gospel\"."
+    },
+    {
+      "modern": "Even wasps make combs; so also these Marcionites make churches.",
+      "printed": "Even wasps make combs; so also these Marcionites make churches.",
+      "work": "Tertullian, Against Marcion IV.5, ANF English, tr. Peter Holmes",
+      "file": "cic/texts/anf03_tertullian.xml",
+      "lines": "29328-29330",
+      "original": "Faciunt favos et vespae, faciunt ecclesias et Marcionitae",
+      "originalFile": "cic/texts/tertullian_quae-supersunt-t2-polemica-lat_oehler1853.txt",
+      "originalLines": "8490",
+      "uncertain": "\"These\" is the translator's, not in the Latin. The line is Tertullian's sneer, credited to him in the brief."
+    }
+  ],
+  "briefReferences": [
+    "Irenaeus, Against Heresies III.3.4 (anf01, lines 39860, 39871-39886): Polycarp and Marcion, \"the first-born of Satan\"; Irenaeus saw Polycarp in his early youth; Polycarp turned many back at Rome.",
+    "Justin, First Apology 26 (anf01, lines 13961-13962, 14943-14946): addressed to the emperor Antoninus Pius; \"Marcion, a man of Pontus\", still alive and teaching, with many of every nation following him.",
+    "Tertullian, Prescription against Heretics 30 (anf03, lines 21331-21341): \"that shipmaster of Pontus\"; at first a believer in the church of Rome; expelled more than once, with Valentinus.",
+    "Tertullian, Against Marcion (anf03, lines 29239-29243; Latin, Oehler, lines 8454-8455): the money given \"in the first warmth of faith\", rejected along with him.",
+    "Tertullian, Against Marcion (anf03, lines 22613-22639): the good tree and the bad, and \"I am He that createth evil\", as Tertullian reconstructs his reasoning.",
+    "Tertullian, Against Marcion I.19 (anf03, lines 23734-23741): the separation of the law and the gospel, and the Antitheses.",
+    "Irenaeus (anf01, lines 33581-33590) and Tertullian (anf03, lines 29097-29103): Luke's Gospel and Paul's letters shortened, in his opponents' account. Tertullian (anf03, lines 29249-29255): his claim that the defenders of Judaism had added to the Gospel.",
+    "Irenaeus (anf01, lines 41120, 41142-41150): the Gospel is fourfold, against Marcion. Tertullian (anf03, lines 22509-22512): Against Marcion, his third attempt, in five books.",
+    "Tertullian (anf03, lines 29323-29330): \"Even wasps make combs; so also these Marcionites make churches.\"",
+    "Eusebius, Church History (npnf201, lines 29928-29930, 23680-23681, 40473-40474): the Marcionites' claimed martyrs, as reported.",
+    "Epiphanius, Panarion 42 (Holl, lines 7464-7473): the Marcionites still found in his day, from Rome to Persia."
+  ]
+}

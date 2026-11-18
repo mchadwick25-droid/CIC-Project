@@ -4592,3 +4592,13 @@ Heard lengths: the people run from 2:07 (Baudonivia) to 3:12 (Arius). Toledo run
 7. "1": overlaps are flagged at the slate. Each candidate is checked against the people and stories already in the census, with a line on how they would differ, and Mark decides keep, swap or link before research (Process.md, step 0).
 
 **Codified with them.** Mark's quoting guidance from batch 3 ("its ok to quote something if there is a modern english explanation"; "something that by it self is not clear in english like the cloudes and winds image") goes into the Standard's quote line. The card role now carries the census rules the batch 3 cards broke: only the validator's keys, no `briefLength`, one `quotationOriginals` entry for each quoted span, no quotation marks in `briefReferences` unless verbatim, no audit or ruling references, and American spelling.
+
+## 2026-11-18 — Heart checks on batches 1 and 2; batch 4 is their rework
+
+**Why.** The heart rule came in with batch 3. Mark asked whether batches 1 and 2 needed the same check ("Do we need to do heart checks on batch one and two").
+
+**Decided (Mark, 2026-11-18: "1").** Heart checks first on the twelve pieces of batches 1 and 2: the eleven released, plus Cyril and Methodius, which is finished but not released. The older person briefs are decided from what those twelve show.
+
+**Checked (2026-11-18).** One fresh reader for each piece wrote the heart from the census card and the source sheet, then heard the story once. The reader did not see the earlier reviews or one-hearing tests. Tests: `Build/Ministry/Operations/Audits/2026-11-18_heart-backcheck/`. Each reader's word count matches its story's, so each heard the right text. All twelve came back FIX, and none FIX-OUTLINE. Every outline's thread line names the heart, but each story opens on a scene and a witness, and the heart first arrives between about words 136 and 212. About 1.3 million tokens.
+
+**Decided (Mark, 2026-11-18: "1").** Batch 4 is the rework of these twelve on the new kit, with no new people this round. Each outline is reset to the current template with the heart first, from its checked source sheet. The hearts come to Mark before the outline check. Then come fresh writers, review, card, second readings and Mark's ear. Re-recording comes to Mark first. Cyril and Methodius waits for its census entry. New people move to batch 5. Folder: `Build/Ministry/Operations/Audits/2026-11-18_batch-4/`.
