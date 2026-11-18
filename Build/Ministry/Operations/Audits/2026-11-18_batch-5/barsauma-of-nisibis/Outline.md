@@ -125,6 +125,9 @@ None of the three is used in another story on the tree (all census `longDescript
 - On his marriage, do not choose a side. Not "he married a nun" or "he kept a concubine" as fact: "Mari says", "Bar Hebraeus says". Not "he changed the rule to suit himself", "conveniently" or "secretly", unless credited to the hostile chronicle that says so. Not "the king forced him", "he married for love" or "a chaste marriage" as fact; Mari's chaste-marriage line is only "it is said" (MARI 14210). Not "Mamoe" as settled: use "Mammaea", Mari's form in Gismondi's Latin. Not "the nuns killed him because of it": no source links the two.
 - Do not date the marriage beyond "after Babowai's death", Mari's placing.
 - Each word under "Words to explain" used without its plain sense the first time it is heard.
+- Do not tell the 486 synod as a marriage ruling only. Tell its confession of Christ fully God and fully human, the two never mixed, and its order on the wandering men in black, with the marriage rule (E11).
+- Do not drop the hostile chronicle's charge that he made the marriage rule so he would not be blamed for his woman. Tell it, credited to that chronicle alone (MS 33595–33597).
+- Do not leave 'set the Persian church apart' without the clause that it had governed itself since 424. What his synods set apart was its teaching and rules (S4, Connection).
 
 **Leave out**
 
