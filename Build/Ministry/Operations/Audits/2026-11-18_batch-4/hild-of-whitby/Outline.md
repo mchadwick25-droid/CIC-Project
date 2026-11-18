@@ -11,7 +11,7 @@ Sheet references (S, M, I, L, D, N) point to `Source_Sheet.md` in this folder, w
 - **Shape:** Founder or leader.
 
 - **Openings** (each leads straight into the house she ran):
-  1. **Chosen.** A man at a feast who leaves the table whenever the harp comes near him, because he cannot sing. That night, Bede says, someone stood by him in his sleep and told him to sing the beginning of created things (M17). In the morning he is brought to the abbess, Hild; her learned men judge the gift to be God's grace, and she makes him a monk (M18). The scene is resolved inside the opening, in her act, and turns at once to the kind of house it was. About 50 words.
+  1. **Chosen.** A man at a feast who leaves the table whenever the harp comes near him, because he cannot sing. That night, Bede says, someone stood by him in his sleep and told him to sing the beginning of created things (M17). In the morning he is brought to the abbess, Hild; learned men judge the gift to be God's grace, and she makes him a monk (M18). The scene is resolved inside the opening, in her act, and turns at once to the kind of house it was. About 50 words.
   2. Bede's count: "Later we saw five bishops come from that same monastery" (Quote 1), then the question what kind of house that was. If this opening is used, the closing goes to Mother (Quote 3) or the York litany, not to Quote 1 again.
 
 - **Story beats** (beats 1 and 2 and the first clause of 5 fall in the first minute; the rest follow in time order):
@@ -25,7 +25,7 @@ Sheet references (S, M, I, L, D, N) point to `Source_Sheet.md` in this folder, w
 - **What came of them** (about a third of the story; items 1 and 2 are pulled forward into the first minute in short form, and told fully here):
   1. **A school of bishops.** Bede says he saw five bishops come from her monastery (Quote 1). One of them, Oftfor, studied the Scriptures in both her houses, went on to Archbishop Theodore in Kent, and then to Rome, and was later chosen a bishop. A sixth, Tatfrid, was chosen but died before he could be made bishop. Bede follows another, John, to Hexham and then York. I1. Documented.
   2. **Song in English.** Bede says Caedmon's verses often turned many minds from the world toward heaven, and that others after him tried religious poems in English, but none could match him. I2. Documented.
-  3. **Her house went on.** The king's daughter she raised became a teacher and later a head of Whitby. King Oswy, his queen and King Edwin were buried there. I3. Documented.
+  3. **Her house went on.** The king's daughter, who learned the monastic life in her house, became a teacher there and later one of its heads. King Oswy, his queen and King Edwin were buried there. I3. Documented.
   4. **Her name.** All who knew her called her Mother (Quote 3); the fame of her work and goodness reached many far away and turned them to better lives. Eight centuries later, York prayers still asked "Saint Hild" to pray for them. I4, I5. Documented.
   5. **DEFENDED:** at Whitby she held with the Easter of her Irish teachers, and the king ruled against it. I6. Documented.
   End on an event or the record's words: Bede's five bishops (Quote 1), if Opening 1 is used; otherwise Mother or the York litany.
