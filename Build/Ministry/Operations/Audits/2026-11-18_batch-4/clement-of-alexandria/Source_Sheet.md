@@ -92,7 +92,7 @@ I6. **Not everyone approved (contested reception).** Photius, about 650 years la
 - **Alexander, bishop (later of Jerusalem)** — met him; Clement carried his letter (M7); Clement dedicated a book to him (I3; also NP3 40259–40261). CONTEMP. Documented. "Taught him" is a modern inference (M9): Dominant Modern Reconstruction.
 - **Asclepiades, bishop of Antioch** — the letter Clement carried rejoiced at his appointment (M7).
 - **Eusebius of Caesarea** — kept his books, quoted his books, defended him (I2).
-- **Jerome** — wrote his life (*Lives* 38), praised and quoted his example (I4).
+- **Jerome** — wrote his life (*Lives* 38), praised and quoted his example (I4). Also his Latin *Chronicle* (`cic/texts/jerome_eusebii-chronici-canones-lat_fotheringham1923.txt`): "Clemens Alexandrinae ecclesiae presbyter et Pantaenus stoicus philosophus in disputatione dogmatis nostri disertissimi habentur" (lines 43374–43380; OCR "ecdesiae" = ecclesiae; words split across lines joined), and "Clemens multa et uaria conscribit" (line 43462). LATER. A corroborating witness for the card step; it adds no new claim to the story.
 - **Photius** — read and judged his books (I6).
 - **Irenaeus, Melito, Tatian** — he quoted their books (I5).
 - **Clement of Rome** — same name only, not the same man (S1).

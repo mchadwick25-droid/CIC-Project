@@ -78,7 +78,7 @@ L9. **Didymus the Blind — met.** Socrates (SZ 13840–13847) and Jerome, Lette
 L10. **Hilarion — visited and learned from him** (Jerome, I3c). **Isaac and Pelusianus** — "the former of whom had been one of Antony's attendants" (NP6 30750–30751).
 L11. **Paul of Thebes — Jerome's *Life of Paul* has Antony visit and bury him** (NP6 29741–30040). LATER; D3. Not for the story.
 L12. **Amathas and Macarius — disciples; Amathas "laid his master in the grave"** (Jerome, NP6 29750–29752). LATER.
-L13. **Paul the Simple — disciple** (Sozomen, SZ 27402–27419). LATER.
+L13. **Paul the Simple — disciple** (Sozomen, SZ 27402–27419; Palladius, *Lausiac History* XXII, PAL 353–357, see A2). LATER.
 L14. **Evagrius of Antioch — translated his *Life* into Latin** (I1c).
 L15. **Augustine of Hippo, Alypius, Pontitianus — heard of him / read his *Life*** (I2).
 L16. **Jerome — wrote of him** (NP3 41177; NP6 as above).
@@ -105,3 +105,4 @@ G4. The *Index to the Festal Letters* gives the 337–8 Alexandria visit, but it
 ## Added for batch 4
 
 A1. **Gregory of Nazianzus on the *Life* as the law of monks, told as a story.** Gregory, *Oration* 21 (*On the Great Athanasius*), §5, in `npnf207_cyril-jerusalem-gregory-nazianzen.xml` (**NP7**), lines 29544–29554: "a history which it has been the object of my desires to commit to writing for the pleasure and instruction of posterity, as he himself wrote the life of the divine Antony, and set forth, in the form of a narrative, the laws of the monastic life." (endnote 3275, between "Antony," and "and set forth", left out). LATER (~25 years; the year 380 is Robertson's dating, NP4 30559–30560, an editor's). Documented as Gregory's own words, in English translation; his Greek is held only as Robertson quotes it (I1d, NP4 30553–30559). This is the earliest outside witness held that names Athanasius as the *Life*'s writer and calls the book a rule for monks. Endnote 3275's "the founder of asceticism" and "certainly genuine" are the editor's (citing Newman), not Gregory's: card only, never told as the source's view.
+A2. **Palladius, *Lausiac History*.** `palladius_lausiac-history_clarke1918.txt` (**PAL**, tr. W. K. Lowther Clarke, 1918). LATER (~65 years). It has Antony as the teacher of Paul the Simple (ch. XXII, PAL 355–357; L13), Cronius's and Eulogius's stories (ch. XXI, PAL 345–351), and "The blessed Athanasius the bishop in his life of Antony" (PAL 233). It changes no outline claim; Gregory (A1) remains the earliest outside witness held to Athanasius as the writer. Card only.
