@@ -4592,3 +4592,51 @@ Heard lengths: the people run from 2:07 (Baudonivia) to 3:12 (Arius). Toledo run
 7. "1": overlaps are flagged at the slate. Each candidate is checked against the people and stories already in the census, with a line on how they would differ, and Mark decides keep, swap or link before research (Process.md, step 0).
 
 **Codified with them.** Mark's quoting guidance from batch 3 ("its ok to quote something if there is a modern english explanation"; "something that by it self is not clear in english like the cloudes and winds image") goes into the Standard's quote line. The card role now carries the census rules the batch 3 cards broke: only the validator's keys, no `briefLength`, one `quotationOriginals` entry for each quoted span, no quotation marks in `briefReferences` unless verbatim, no audit or ruling references, and American spelling.
+
+## 2026-11-18 — Heart checks on batches 1 and 2; batch 4 is their rework
+
+**Why.** The heart rule came in with batch 3. Mark asked whether batches 1 and 2 needed the same check ("Do we need to do heart checks on batch one and two").
+
+**Decided (Mark, 2026-11-18: "1").** Heart checks first on the twelve pieces of batches 1 and 2: the eleven released, plus Cyril and Methodius, which is finished but not released. The older person briefs are decided from what those twelve show.
+
+**Checked (2026-11-18).** One fresh reader for each piece wrote the heart from the census card and the source sheet, then heard the story once. The reader did not see the earlier reviews or one-hearing tests. Tests: `Build/Ministry/Operations/Audits/2026-11-18_heart-backcheck/`. Each reader's word count matches its story's, so each heard the right text. All twelve came back FIX, and none FIX-OUTLINE. Every outline's thread line names the heart, but each story opens on a scene and a witness, and the heart first arrives between about words 136 and 212. About 1.3 million tokens.
+
+**Decided (Mark, 2026-11-18: "1").** Batch 4 is the rework of these twelve on the new kit, with no new people this round. Each outline is reset to the current template with the heart first, from its checked source sheet. The hearts come to Mark before the outline check. Then come fresh writers, review, card, second readings and Mark's ear. Re-recording comes to Mark first. Cyril and Methodius waits for its census entry. New people move to batch 5. Folder: `Build/Ministry/Operations/Audits/2026-11-18_batch-4/`.
+
+**The hearts (Mark, 2026-11-18: "Looks good, they will still Have the other pieces right").** All twelve hearts are approved as set (`Build/Ministry/Operations/Audits/2026-11-18_batch-4/Hearts.md`). Each story keeps the rest of what its old outline had right, told after the heart. The outline check compares each new outline with the old one (`Outline.r50.md`) and blocks any piece of the life or the record that was wrongly lost.
+
+**Length (Mark, 2026-11-18: "1").** Ten of the twelve batch 4 drafts ran longer than their outline's target, mostly by 10 to 20 percent. The outlines had set a length first and a must-keep list after, and both did not fit. Length now follows what must stay in: up to about 3 minutes for a person (about 460 words) and about 4 minutes 15 for a council. Reviewers cut only real padding, never a must-keep item to reach a number. Martin of Tours (512 words, and the cloak at Amiens already cut) comes back to Mark if the reviewer cannot find the room: restore the cloak at about 3:40, or leave it out. The outline template's Length line now sets the length last, after the beats and the lists. The variety report for the batch is kept as a report (`Variety_Report.txt`); nothing is recast because of it.
+
+**Craft above time (Mark, 2026-11-18: "Craft above time").** The length ceilings above are guides, not cut lines. Where a scene or image carries a story's craft, it stays even past the ceiling. Reviewers still cut real padding. Martin of Tours: the cloak at Amiens is restored.
+
+## 2026-11-18 — Hook, essence, ending: the kit changed from batch 4's reviews
+
+**Why.** Batch 4's reviews read each approved heart as a checklist, so every clause had to land by word 150. Ten of twelve were sent back, some for detail such as Dhuoda's "honor priests". Mark asked what great short biographies do ("What do great biography briefs do, heart, context/setting, hook"). The answer was a short hook, then a one-or-two-sentence statement of why the person matters (what journalists call the nut graf), with the setting woven in and the ending back on the person. The drafts showed the gaps: hooks of 50 to 90 words, a stacked setting sentence in 8 of 12, and an ending on a later writer in 10 of 12.
+
+**Decided (Mark, 2026-11-18: "yes, write the proposed change"; then "1", adopting all of it).**
+- `Standard.md`: the opening is a hook of about three sentences, leading straight into the essence: what the person did, what it changed, and why they are on the tree, all within the first minute. The setting comes in a clause at a time. The ending closes on the person, and ends on a later writer only when that is the story's point. The length line matches the rulings above ("craft comes before time").
+- `Outline_Template.md`: the heart splits into **The essence** (one or two sentences, timed to the first minute) and **Also told** (the rest, told with its weight, not timed). Openings are held to about three sentences, and the setting line asks for weaving. There is a new **Ending** field.
+- `roles/reviewer.md`: only the essence is timed. A late "also told" part is never blocking, and the ending is checked.
+- `roles/researcher.md`, `checker.md`, `writer.md` and `Process.md` (the hearts page) are updated to match.
+
+**For batch 4.** The essence is marked in each of the twelve approved hearts and goes to Mark to confirm. Then each piece gets one revision under the new lines, with its review's real errors, and one recheck. Benedict and Nicaea get the setting and ending lines in the same pass.
+
+**The essences (Mark, 2026-11-18: "All yes").** All twelve essences are approved as drafted from the approved hearts (`Build/Ministry/Operations/Audits/2026-11-18_batch-4/Essences.md`). Two were corrected before Mark read them, so that a contested claim is not stated as settled: Columba's Picts claim is credited to Bede, and Martin's Life "as a model" is a modern historian's judgment.
+
+**Correction (2026-11-18).** In crediting Columba's Picts claim to Bede, the essence page said "Bede says it [Iona] turned the northern Picts". Bede says Columba did, as Mark's approved heart had it ("Bede says he turned the northern Picts to the faith"). `Essences.md` is corrected to "he". Separately, the reviser prompt asked for each review's Do not say lines to be added to the outline word for word. Some of those lines carry the old rule that every part of the heart is timed to the first minute. Mark's ruling on hook, essence and ending replaced that rule, so those timing lines are superseded and removed from the outlines.
+
+**Martin's length (Mark, 2026-11-18: "1").** With the cloak restored, Martin of Tours ran 678 words, about 4:30. It is trimmed to about 3:45 (about 560 words). The cloak, the Milan expulsion, Trier and the funeral stay. The first quote is cut to its core, and the tomb, Gregory and Clovis paragraph is cut to one sentence. One targeted check follows.
+
+## 2026-11-18 — Change order: six batch 4 stories adjusted before recording
+
+**Why.** Mark asked for an analysis of whether the twenty-four new stories meet the Church Family Tree's needs ("this is not to see if things are wrong or getting perfect, it is do they successfully meet the needs of church family tree?"). Four fresh listeners read them: a newcomer, a churchgoer, a teacher, and a product reader judging how each story sits on its page. They gave 52 "meets", 43 "mostly" and 1 "misses" of 96 verdicts (`Build/Ministry/Operations/Audits/2026-11-18_cft-needs-read/`). The collection serves the tree. The faults they named are about how a story is built for one hearing: told out of order or told twice, too many names, sibling pieces overlapping, and the subject slipping. Batch 3 is recorded already; batch 4 is not.
+
+**Decided (Mark, 2026-11-18: "hold the audio"; then "1").** The audio is held. Six unrecorded batch 4 stories get only the fault the readers named:
+- Hild: the synod and the five bishops told once; Hild the subject after the hook.
+- Martin: Worms told once.
+- Benedict: Carloman and Charlemagne told once; one line through the life.
+- Nicaea: an opening not shared with Arius's piece, without Jerome's "the world groaned", and with fewer names.
+- Clement: an ending on him.
+- Radegund: her strongest moments earlier, and "Chlothar", as in Baudonivia's recorded piece.
+
+Each keeps its approved essence. One independent check follows, then the census, then the scripts go back to Mark. This is a change order on finished texts, because the faults are one-hearing faults, not polish. The kit changes for batch 5 come after.

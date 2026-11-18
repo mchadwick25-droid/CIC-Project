@@ -87315,7 +87315,7 @@
    "c2": null,
    "entry": null,
    "teaser": "A teacher at Rome who held that the God of the law was not the Father of Jesus, and whose own churches spread widely.",
-   "longDescription": "Once, Marcion met Polycarp, the bishop of Smyrna, and asked him, \"Do you know me?\" Polycarp answered, \"I do know you: the firstborn of Satan.\" Irenaeus, who had seen Polycarp in his early youth, tells the story.\n\nIn the middle of the second century, a shipmaster from Pontus, on the Black Sea, gave money to the church at Rome in the warmth of new faith. No word of Marcion's own survives; his story comes to us only from the men who wrote against him.\n\nTertullian says Marcion first believed as the Roman church did, until he began to brood over where evil comes from. Jesus taught that a good tree cannot bear bad fruit, yet in Isaiah God says he creates evil. So, in Tertullian's account, Marcion judged the Creator a bad tree and found another, good God in Christ, although his real reasons remain uncertain.\n\nJustin, writing to the emperor while Marcion lived, said: \"Even now he is still teaching the people he has won over. He teaches them to believe in some other god, greater than the Creator.\"\n\nHis lost book, the Antitheses, set the gospel against the law of Moses. In Tertullian's words, \"Separating the law from the gospel is Marcion's own work, and his chief one.\" His opponents say he shortened Luke's Gospel and Paul's letters. Marcion claimed the opposite, Tertullian reports: the defenders of Judaism had added to the Gospel, and he was restoring it.\n\nTertullian says Rome expelled Marcion more than once, together with another teacher, Valentinus. The money Marcion had given in his first faith was cast out with him.\n\nWriters who opposed him answered in book after book, arguing that one God made the world and sent Jesus. Justin wrote against him in his lifetime, Irenaeus defended four Gospels against him, and Tertullian wrote five books. Polycarp, Irenaeus says, turned many back at Rome.\n\nEven in Marcion's lifetime, Justin saw people of every nation follow him, and Marcion founded churches of his own, the churches of the Marcionites. Those churches claimed martyrs of their own. Two centuries later, Epiphanius still found Marcionites in Rome and Italy, in Egypt, Syria and Cyprus, and as far away as Persia. Tertullian had mocked them: \"Even wasps make combs; so also these Marcionites make churches.\"",
+   "longDescription": "\"There is a certain Marcion, from Pontus. Even now he is still teaching the people he has won over. He teaches them to believe in some other god, greater than the Creator.\" Justin, a Christian opponent, wrote this to the emperor while Marcion lived, in the middle of the second century.\n\nAt Rome, Marcion taught that the God of the law of Moses and the prophets, who made the world, was not the Father of Jesus. He kept a Scripture of his own, one Gospel and Paul's letters, and he founded churches of his own, which spread far. Against him, writer after writer argued that the God who made the world is the Father of Jesus. Everything we know of him comes from the men who opposed him.\n\n\"Separating the law from the gospel is Marcion's own work, and his chief one,\" Tertullian writes of his book, the Antitheses, now lost. His opponents say he cut his Scripture down from Luke's Gospel and Paul's letters. He claimed, Tertullian reports, that \"the defenders of Judaism\" had added to the Gospel and he was restoring it.\n\nTertullian calls him a shipmaster from Pontus, on the Black Sea. At first, he says, Marcion believed as the church at Rome did, and gave it money, two hundred sesterces, in the first warmth of his faith. Then Rome expelled him more than once, Tertullian says, for a restless curiosity that spread to others. He says this of Valentinus too, who taught at Rome with him. Marcion's gift, Tertullian says, was cast out with him.\n\nStill his churches spread. Justin says that, with the demons' help, he had led many \"in every race of people\". Tertullian says with scorn that the Marcionites make churches as wasps make combs. Two centuries later, Epiphanius still found them from Rome and Italy through Egypt, Syria and Cyprus, and even in Persia.\n\nThe answers kept coming, from Justin in Marcion's lifetime to Tertullian some sixty years later. In a book that Irenaeus quotes, Justin said he would not have believed the Lord Himself if He had announced any God but our maker. Tertullian's own Against Marcion ran to five books. Irenaeus argued that the Gospel is fourfold, told in four books, and he named Marcion among those who make it fewer.\n\nIrenaeus tells, too, of a single meeting between Marcion and Polycarp, the bishop of Smyrna. Marcion asked, \"Do you know me?\" Polycarp answered, \"I do know you: the firstborn of Satan.\"\n",
    "reviewStatus": "AI-checked",
    "card": {
     "otherNames": [
@@ -87402,17 +87402,20 @@
      ]
     },
     "briefReferences": [
-     "Irenaeus, Against Heresies III.3.4 (anf01, lines 39860, 39871-39886): Polycarp and Marcion, \"the first-born of Satan\"; Irenaeus saw Polycarp in his early youth; Polycarp turned many back at Rome.",
-     "Justin, First Apology 26 (anf01, lines 13961-13962, 14943-14946): addressed to the emperor Antoninus Pius; \"Marcion, a man of Pontus\", still alive and teaching, with many of every nation following him.",
-     "Tertullian, Prescription against Heretics 30 (anf03, lines 21331-21341): \"that shipmaster of Pontus\"; at first a believer in the church of Rome; expelled more than once, with Valentinus.",
-     "Tertullian, Against Marcion (anf03, lines 29239-29243; Latin, Oehler, lines 8454-8455): the money given \"in the first warmth of faith\", rejected along with him.",
-     "Tertullian, Against Marcion (anf03, lines 22613-22639): the good tree and the bad, and \"I am He that createth evil\", as Tertullian reconstructs his reasoning.",
+     "Irenaeus, Against Heresies III.3.4 (anf01, lines 39882-39884): Polycarp and Marcion, the first-born of Satan.",
+     "Justin, First Apology 26 (anf01, lines 13961-13962, 14943-14946): addressed to the emperor Antoninus Pius; Marcion, a man of Pontus, still alive and teaching, with many of every nation following him.",
+     "Tertullian, Prescription against Heretics 30 (anf03, lines 21331-21341): that shipmaster of Pontus; at first a believer in the church of Rome; expelled more than once, with Valentinus.",
+     "Tertullian, Against Marcion (anf03, lines 29239-29243; Latin, Oehler, lines 8454-8455): the money given in the first warmth of faith, rejected along with him.",
      "Tertullian, Against Marcion I.19 (anf03, lines 23734-23741): the separation of the law and the gospel, and the Antitheses.",
      "Irenaeus (anf01, lines 33581-33590) and Tertullian (anf03, lines 29097-29103): Luke's Gospel and Paul's letters shortened, in his opponents' account. Tertullian (anf03, lines 29249-29255): his claim that the defenders of Judaism had added to the Gospel.",
-     "Irenaeus (anf01, lines 41120, 41142-41150): the Gospel is fourfold, against Marcion. Tertullian (anf03, lines 22509-22512): Against Marcion, his third attempt, in five books.",
-     "Tertullian (anf03, lines 29323-29330): \"Even wasps make combs; so also these Marcionites make churches.\"",
-     "Eusebius, Church History (npnf201, lines 29928-29930, 23680-23681, 40473-40474): the Marcionites' claimed martyrs, as reported.",
-     "Epiphanius, Panarion 42 (Holl, lines 7464-7473): the Marcionites still found in his day, from Rome to Persia."
+     "Irenaeus (anf01, lines 41120, 41142-41150): the Gospel is fourfold, against Marcion. Tertullian (anf03, line 22298): Against Marcion, in five books.",
+     "Tertullian (anf03, lines 29323-29330): the Marcionites make churches as wasps make combs.",
+     "Epiphanius, Panarion 42 (Holl, lines 7464-7473): the Marcionites still found in his day, from Rome to Persia.",
+     "Justin, First Apology 26, Greek (Rauschen, lines 729-734): the opening words, and the many he had led in every race of people, with the demons' help, as Justin tells it.",
+     "Irenaeus, Against Heresies I.27.2 (anf01, lines 33572-33582): in Irenaeus's report, Marcion taught that the God of the law and the prophets, who made the world, is not the Father of Jesus.",
+     "Tertullian, Prescription against Heretics 30 (anf03, lines 21337-21341): the restless curiosity behind the expulsions, and the two hundred sesterces.",
+     "Irenaeus, Against Heresies IV.6.2 (anf01, lines 44907-44917): Justin's book against Marcion, quoted: he would not have believed the Lord Himself if He had announced any God but our maker.",
+     "Tertullian, Against Marcion I, editor's note (anf03, lines 22488-22489): the first book dated A.D. 207, some sixty years after Marcion."
     ],
     "quotationOriginals": [
      {
@@ -87433,13 +87436,13 @@
       "uncertain": "The words are Polycarp's, as Irenaeus tells it; the narrator does not adopt the charge."
      },
      {
-      "modern": "Even now he is still teaching the people he has won over. He teaches them to believe in some other god, greater than the Creator.",
-      "printed": "\u1f43\u03c2 \u03ba\u03b1\u1f76 \u03bd\u1fe6\u03bd \u1f14\u03c4\u03b9 \u1f10\u03c3\u03c4\u1f76 \u03b4\u03b9\u03b4\u03ac\u03c3\u03ba\u03c9\u03bd \u03c4\u03bf\u1f7a\u03c2 \u03c0\u03b5\u03b9\u03b8\u03bf\u03bc\u03ad\u03bd\u03bf\u03c5\u03c2, \u1f04\u03bb\u03bb\u03bf\u03bd \u03c4\u03b9\u03bd\u1f70 \u03bd\u03bf\u03bc\u03af\u03b6\u03b5\u03b9\u03bd \u03bc\u03b5\u03af\u03b6\u03bf\u03bd\u03b1 \u03c4\u03bf\u1fe6 \u03b4\u03b7\u03bc\u03b9\u03bf\u03c5\u03c1\u03b3\u03bf\u1fe6 \u03b8\u03b5\u03cc\u03bd",
+      "modern": "There is a certain Marcion, from Pontus. Even now he is still teaching the people he has won over. He teaches them to believe in some other god, greater than the Creator.",
+      "printed": "\u039c\u03b1\u03c1\u03ba\u03af\u03c9\u03bd\u03b1 \u03b4\u03ad \u03c4\u03b9\u03bd\u03b1 \u03a0\u03bf\u03bd\u03c4\u03b9\u03ba\u03cc\u03bd, \u1f43\u03c2 \u03ba\u03b1\u1f76 \u03bd\u1fe6\u03bd \u1f14\u03c4\u03b9 \u1f10\u03c3\u03c4\u1f76 \u03b4\u03b9\u03b4\u03ac\u03c3\u03ba\u03c9\u03bd \u03c4\u03bf\u1f7a\u03c2 \u03c0\u03b5\u03b9\u03b8\u03bf\u03bc\u03ad\u03bd\u03bf\u03c5\u03c2, \u1f04\u03bb\u03bb\u03bf\u03bd \u03c4\u03b9\u03bd\u1f70 \u03bd\u03bf\u03bc\u03af\u03b6\u03b5\u03b9\u03bd \u03bc\u03b5\u03af\u03b6\u03bf\u03bd\u03b1 \u03c4\u03bf\u1fe6 \u03b4\u03b7\u03bc\u03b9\u03bf\u03c5\u03c1\u03b3\u03bf\u1fe6 \u03b8\u03b5\u03cc\u03bd",
       "work": "Justin, First Apology 26, Greek, ed. Rauschen",
       "file": "cic/texts/justin-martyr_first-apology-grc_rauschen1911.txt",
-      "lines": "730-731",
-      "secondReading": "same",
-      "uncertain": "The ANF English (anf01, lines 14943-14945) reads \"who is even at this day alive, and teaching his disciples to believe in some other god greater than the Creator.\""
+      "lines": "729-731",
+      "uncertain": "The ANF English (anf01, lines 14943-14945) reads \"And there is Marcion, a man of Pontus, who is even at this day alive, and teaching his disciples to believe in some other god greater than the Creator.\"",
+      "secondReading": "minor"
      },
      {
       "modern": "Separating the law from the gospel is Marcion's own work, and his chief one.",
@@ -87451,16 +87454,21 @@
       "uncertain": "The ANF English (anf03, lines 23734-23735) reads \"Marcion's special and principal work is the separation of the law and the gospel\"."
      },
      {
-      "modern": "Even wasps make combs; so also these Marcionites make churches.",
-      "printed": "Even wasps make combs; so also these Marcionites make churches.",
-      "work": "Tertullian, Against Marcion IV.5, ANF English, tr. Peter Holmes",
+      "modern": "the defenders of Judaism",
+      "printed": "the defenders of Judaism",
+      "work": "Tertullian, Against Marcion IV.4, ANF English, tr. Peter Holmes",
       "file": "cic/texts/anf03_tertullian.xml",
-      "lines": "29328-29330",
-      "original": "Faciunt favos et vespae, faciunt ecclesias et Marcionitae",
-      "originalFile": "cic/texts/tertullian_quae-supersunt-t2-polemica-lat_oehler1853.txt",
-      "originalLines": "8490",
-      "secondReading": "same",
-      "uncertain": "\"These\" is the translator's, not in the Latin. The line is Tertullian's sneer, credited to him in the brief."
+      "lines": "29252",
+      "secondReading": "same"
+     },
+     {
+      "modern": "in every race of people",
+      "printed": "\u03ba\u03b1\u03c4\u1f70 \u03c0\u1fb6\u03bd \u03b3\u03ad\u03bd\u03bf\u03c2 \u1f00\u03bd\u03b8\u03c1\u03ce\u03c0\u03c9\u03bd",
+      "work": "Justin, First Apology 26, Greek, ed. Rauschen",
+      "file": "cic/texts/justin-martyr_first-apology-grc_rauschen1911.txt",
+      "lines": "732",
+      "uncertain": "The ANF English (anf01, lines 14945-14946) reads \"many of every nation\".",
+      "secondReading": "same"
      }
     ]
    }
@@ -87988,7 +87996,7 @@
    "c2": null,
    "entry": null,
    "teaser": "Presbyter and teacher at Alexandria, who held that Greek philosophy prepared the way for Christ and taught Origen.",
-   "longDescription": "Around the year 200, in the Egyptian city of Alexandria, a Christian teacher named Clement looked back on his search for a teacher. He had gone from one to another, in Greece, southern Italy and the East, until he reached the last. \"I tracked him down where he was hidden in Egypt,\" he wrote, \"and I found rest.\"\n\nEusebius, a church historian writing a century later, names that teacher as Pantaenus. Clement wrote down what he had heard so that he would not forget it in old age, and he called the patched-together notes Miscellanies.\n\nClement was one of the elders who led the church at Alexandria beside its bishop, and he taught there. Many Christians, he wrote, feared Greek philosophy the way children fear masks, and some wanted bare faith alone. Clement answered that this was like wanting grapes without tending the vine.\n\nPerhaps, he suggested, God gave philosophy to the Greeks to lead them, the way a household servant walked a child to his teacher. \"For it was a guide to bring the Greek mind to Christ,\" he wrote, \"as the Law brought the Hebrews.\" So he took no single school of philosophy whole, but kept whatever had been well said.\n\nClement wrote that every day he saw martyrs, people who died rather than deny Christ, burnt, impaled and beheaded. Alexander, a bishop held in prison, trusted him to carry a letter to Antioch that praised him as a man who had strengthened and built up the church. In a later letter, Alexander counted Clement among the blessed men who had already died.\n\nEusebius listed his books, quoted them, and trusted him as a witness to the earliest church. By Eusebius's and Jerome's account, Origen had been Clement's pupil as a boy. He followed his teacher's example with ten books of Miscellanies of his own, setting Christian views beside those of the philosophers.\n\nTwo centuries on, a critic asked Jerome why he quoted pagan books. For his answer, Jerome pointed to Clement, \"in my judgment,\" he wrote, \"the most learned of men\", whose books were drawn \"from the very heart of philosophy\".",
+   "longDescription": "Many Christians, Clement wrote, were frightened of Greek philosophy, the way children are frightened of masks. Some wanted \"bare faith alone,\" which to him was like wanting grapes without tending the vine. This is his account; their own words have not come down to us.\n\nClement was a presbyter, an elder of the church, and he taught in Alexandria, in Egypt. Around the year 200, he answered those Christians in his longest book, which he called Miscellanies. Perhaps, he suggested, God gave philosophy to the Greeks as he gave the Law to the Hebrews. In his words, \"it was a guide to bring the Greek mind to Christ, as the Law brought the Hebrews.\" The word Clement borrowed from Paul meant the household servant who walked a child to his teacher.\n\nEusebius tells us that Origen was among his pupils, and Jerome says so too. By Jerome's account, Origen followed Clement's example and wrote his own Miscellanies, setting the views of Christians and of philosophers side by side.\n\nClement took no one school whole. He kept \"whatever has been well said\" by each school, but would never call divine what men had falsified. Two centuries on, a critic charged Jerome with defiling the church by quoting pagan books. Jerome pointed to Clement, \"in my judgment the most learned of men,\" and named his books. Then he asked, \"Is learning missing from these books? Or are they not rather drawn from the very heart of philosophy?\"\n\nIn his own time, Clement wrote, martyrs, people who died rather than deny Christ, were burned, impaled and beheaded in plain sight every day. Yet he taught that no one should hand himself over to the judge.\n\nThe last we hear of Clement alive comes from a bishop named Alexander. Held in prison, Alexander sent a letter to the church at Antioch by Clement's hand, praising him as a man who had built up the church. In a later letter, Alexander counted Clement among the blessed men who had gone on ahead of him. By then, Clement had died.\n\nMost of what we know of Clement's life comes from Eusebius, a church historian writing about a hundred years later. In Clement's own words, he went from teacher to teacher, in Greece, in southern Italy and in the East. Eusebius thought the last teacher Clement found was Pantaenus. Here Clement gives him no name: \"I tracked him down where he was hidden in Egypt, and I found rest.\"\n",
    "reviewStatus": "AI-checked",
    "card": {
     "otherNames": [
@@ -88061,19 +88069,22 @@
      ]
     },
     "briefReferences": [
-     "Stromata I.1: his search for teachers in Greece, southern Italy and the East; the last, hidden in Egypt, where he \"found rest\"; his notes stored up against old age.",
+     "Stromata I.1: his search for teachers in Greece, southern Italy and the East; the last, hidden in Egypt, where he \"found rest\".",
      "Eusebius, Church History V.11: Pantaenus named as his teacher.",
-     "Stromata IV.2: the Miscellanies \"patched together\".",
+     "Stromata IV.2: the Miscellanies.",
      "Jerome, Lives 38, and Alexander's letter: a presbyter of the church at Alexandria.",
-     "World census, Alexandrian Christianity: Alexandria as a city of libraries and lecture halls.",
-     "Stromata VI.10: Christians afraid of Greek philosophy \"as children are at masks\". Stromata I.9: \"bare faith alone\", and the grapes without the vine.",
+     "Stromata VI.10: Christians afraid of Greek philosophy as children are at masks. Stromata I.9: \"bare faith alone\", and the grapes without the vine.",
      "Stromata I.5: philosophy a guide to Christ, as the Law was to the Hebrews; Wilson's note on the p\u00e6dagogus, who leads the child to his teacher (Instructor I.1).",
      "Stromata I.7: not one school, but \"whatever has been well said\".",
-     "Stromata II.20: martyrs \"burnt, impaled, beheaded\" every day.",
+     "Stromata II.20: martyrs burned, impaled, beheaded every day.",
      "Eusebius, Church History VI.11: Alexander's prison letter to Antioch, carried by Clement. VI.14: Alexander counts him among the blessed who had gone before.",
-     "Eusebius, Church History III.23 and VI.13\u201314: his books listed and used as a witness.",
-     "Jerome, Letter 70.2 and 70.4: the critic's question, and Clement as \"the most learned of men\"; Origen's ten books of Miscellanies.",
-     "Eusebius, Church History VI.6, and Jerome, Lives 38: Origen his pupil."
+     "Jerome, Letter 70.2 and 70.4: the critic's question, and Clement as \"the most learned of men\"; Origen's Miscellanies.",
+     "Eusebius, Church History VI.6, and Jerome, Lives 38: Origen his pupil.",
+     "Stromata I.21, and Eusebius, Church History VI.6: written around the year 200.",
+     "Stromata I.5, with Wilson's note: the word for the guide echoes Paul, Galatians 3:24.",
+     "Stromata I.7: what men had cut away and falsified he would never call divine.",
+     "Stromata IV.10: no one should hand himself over to the judge.",
+     "Eusebius, Church History V.11 and VI.6\u201314: most of what is known of his life, written about a century later."
     ],
     "quotationOriginals": [
      {
@@ -88085,13 +88096,13 @@
       "secondReading": "same"
      },
      {
-      "modern": "For it was a guide to bring the Greek mind to Christ, as the Law brought the Hebrews.",
-      "printed": "For this was a schoolmaster to bring \u201cthe Hellenic mind,\u201d as the law, the Hebrews, \u201cto Christ.\u201d",
+      "modern": "it was a guide to bring the Greek mind to Christ, as the Law brought the Hebrews.",
+      "printed": "this was a schoolmaster to bring \u201cthe Hellenic mind,\u201d as the law, the Hebrews, \u201cto Christ.\u201d",
       "work": "Clement, Stromata I.5, tr. William Wilson (no Greek held)",
       "file": "cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml",
       "lines": "27891-27893",
-      "secondReading": "same",
-      "uncertain": "\"Schoolmaster\" stands for Paul's word in Galatians 3:24, the household servant who led a child to his teacher (Wilson's note, lines 18697-18699); \"guide\" avoids the modern sense of a man who runs a school."
+      "uncertain": "\"Schoolmaster\" stands for Paul's word in Galatians 3:24, the household servant who led a child to his teacher (Wilson's note, lines 18697-18699); \"guide\" avoids the modern sense of a man who runs a school.",
+      "secondReading": "minor"
      },
      {
       "modern": "in my judgment the most learned of men",
@@ -88102,11 +88113,27 @@
       "secondReading": "same"
      },
      {
-      "modern": "from the very heart of philosophy",
-      "printed": "drawn from the very heart of philosophy?",
+      "modern": "Is learning missing from these books? Or are they not rather drawn from the very heart of philosophy?",
+      "printed": "Is there any want of learning in these, or are they not rather drawn from the very heart of philosophy?",
       "work": "Jerome, Letter 70.4, to Magnus, tr. W. H. Fremantle (no Latin held)",
       "file": "cic/texts/npnf206_jerome-principal-works.xml",
-      "lines": "16635-16636",
+      "lines": "16634-16636",
+      "secondReading": "same"
+     },
+     {
+      "modern": "bare faith alone",
+      "printed": "bare faith alone",
+      "work": "Clement, Stromata I.9, tr. William Wilson (no Greek held)",
+      "file": "cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml",
+      "lines": "28315",
+      "secondReading": "same"
+     },
+     {
+      "modern": "whatever has been well said",
+      "printed": "whatever has been well said",
+      "work": "Clement, Stromata I.7, tr. William Wilson (no Greek held)",
+      "file": "cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml",
+      "lines": "28147-28148",
       "secondReading": "same"
      }
     ]
@@ -89094,7 +89121,7 @@
    "c2": null,
    "entry": null,
    "teaser": "The Egyptian hermit whose withdrawal to the desert, and the Life written of him, drew monks after him and spread monasticism east and west.",
-   "longDescription": "In Egypt, a young man walked to church thinking about the apostles, who had left everything to follow Jesus. Inside, he heard a reading from the Gospels, the accounts of Jesus's life. It called on him to sell what he had and give to the poor, and Antony took it as spoken to him. That choice took him into the desert. He was still there when the emperor Constantine and his sons wrote him letters.\n\nHis wealthy Christian parents had died months before, when he was about eighteen or twenty, leaving him the farm. After giving the fields to the villagers and selling the rest for the poor, he learned from nearby hermits, working with his hands and eating bread and salt once a day.\n\nHis story is told in one book, a Life written soon after his death, which the church has long credited to Athanasius, bishop of Alexandria. Demons fill much of it. In a tomb outside the village, it says, they beat him one night, and the next day a friend found him lying as though dead. Then he went further, to a deserted fort across the river, where he walled up the door, and bread was let down to him twice a year. After about twenty years, because many wanted to live as he did, people who knew him forced the door. He came out, it says, the same as before, and so many followed him that \"the desert became a city of monks.\"\n\nCrowds seeking healing drove him three days into the desert, to a mountain with a spring. The Life says the Arians, who taught that the Son of God was created, lied that he agreed with them. Then, it says, the bishops summoned him, and he came down to Alexandria to teach that the Son was not created. Near a hundred and five, he asked to be buried in secret, so that no one could keep his body in a house, as Egyptians kept their holy dead.\n\nWritten for monks abroad as a pattern to follow, the Life was soon read in Latin. It asks how a man hidden on a mountain came to be heard of in Spain, Gaul, Rome and Africa. At Trier, two court officials read it in a monks' cottage and left the court that day to serve God.\n\nA generation after Antony died, in Milan, an official who had been at Trier told Augustine what happened there. Soon after, weeping in a garden, Augustine remembered Antony and that same Gospel reading. In his Confessions, he recalled: \"For I had heard this of Antony. He had come in by chance during the Gospel reading, and was urged on by it. It was as though the words read were spoken to him.\"\n\nThere in the garden, Augustine opened the letters of the apostle Paul and read, and his doubt was gone.",
+   "longDescription": "A young man named Antony, in a village in Egypt, walked into church thinking of the apostles who left everything to follow Jesus. Inside, he heard the Gospel tell a man to sell what he had and give to the poor, and he took it as spoken to him. He gave his family's fields to the villagers and sold the rest for the poor.\n\nHe went ever further into the Egyptian desert to live by prayer, work with his hands, and fasting. At last he walled himself into a ruined fort for nearly twenty years. When many wanted to live as he did, his friends forced the door. He persuaded many to take up that life and directed them as a father, until the desert became a city of monks.\n\nOne book carried that life far from Egypt. Most of what we know comes from it, a Life written soon after his death, which the church has long credited to Athanasius, bishop of Alexandria. It was written for monks in other lands, as a pattern for their own life, and it was soon put into Latin. Preaching later in the same century, Gregory of Nazianzus called it the laws of the monastic life, set out as a story.\n\nThe Life tells how crowds came to him for healing, and how he moved three days further into the desert, to a mountain. There he lived on into the time of the emperor Constantine and his sons, who wrote to him. The Arians taught that the Son of God was created. When they claimed he agreed with them, he came down to Alexandria and taught that the Son was not created.\n\nA historian writing nearly a century later says his disciples flourished in Egypt, Libya, Palestine, Syria and Arabia. And in Augustine's own account, two officials of the emperor's court at Trier found the Life in a monks' cottage and read it. That very hour they resolved to leave the court and serve God. Pontitianus, a fellow official who was there that day, told the story to Augustine in Milan. Augustine never met Antony, but in a garden there, in tears, he remembered him. Then Augustine opened Paul's letters and read, and his doubt was gone. Later he wrote of it in a book addressed to God.\n\n\"For I had heard this of Antony. He had come in by chance during the Gospel reading, and was urged on by it. It was as though the words read were spoken to him. 'Go, sell all that you have, give to the poor, and you will have treasure in heaven. And come, follow me.' By such a divine word he was at once turned to you.\"\n",
    "reviewStatus": "AI-checked",
    "card": {
     "otherNames": [
@@ -89170,40 +89197,39 @@
        "date": "1896",
        "language": "Latin",
        "file": "cic/texts/augustine_confessiones-lat_knoll-csel33.txt"
+      },
+      {
+       "title": "Oration 21, On the Great Athanasius, \u00a75 (the Life as the laws of the monastic life)",
+       "author": "Gregory of Nazianzus",
+       "date": null,
+       "language": "English translation",
+       "file": "cic/texts/npnf207_cyril-jerusalem-gregory-nazianzen.xml"
       }
      ]
     },
     "briefReferences": [
-     "Life of Antony \u00a71\u20132: his Christian parents of good family and wealth; their death when he was about eighteen or twenty; the Gospel reading, the fields given to the villagers, the rest sold for the poor.",
-     "Life \u00a73\u20134, \u00a77: the hermits near the villages, the old man of the next village, work with his hands, bread and salt once a day.",
+     "Life of Antony \u00a71\u20132: the apostles who left all; the Gospel reading, the fields given to the villagers, the rest sold for the poor.",
+     "Life \u00a73, \u00a77: work with his hands, prayer, fasting.",
      "Life, prologue, and Robertson's introduction: the authorship long credited to Athanasius, and the date, 356\u2013362.",
-     "Life \u00a712, \u00a714: the deserted fort across the river, the walled door, bread twice a year; the door forced after nearly twenty years; \"the desert became a city of monks\" (Greek, PG 26).",
-     "Life \u00a749\u201350: crowds and healings; three days into the desert to the mountain with a spring.",
+     "Life \u00a712, \u00a714\u201315: the deserted fort, the walled door; the door forced after nearly twenty years, when many wished to live as he did; he persuaded many and directed them as a father; \"the desert became a city of monks\" (Greek, PG 26).",
+     "Life \u00a749\u201350: crowds and healings; three days into the desert to the mountain.",
      "Life \u00a769: against the Arians in Alexandria; the Son of God not created.",
-     "Life \u00a789\u201391: near a hundred and five; burial in secret, against the Egyptian custom of keeping the holy dead in houses.",
-     "Life, prologue and \u00a793: a pattern for monks abroad; heard of in Spain, Gaul, Rome and Africa.",
-     "Robertson's introduction: the Latin translation by Evagrius of Antioch.",
+     "Life, prologue: a pattern for monks abroad.",
+     "Robertson's introduction: the Latin translation.",
      "Life \u00a781: Constantine and his sons wrote to him.",
-     "Augustine, Confessions VIII.6.14\u201315: Pontitianus, the two officials at Trier. VIII.12.29: the garden at Milan, Antony and the Gospel reading, the letters of Paul."
+     "Augustine, Confessions VIII.6.14\u201315: Pontitianus, the two officials at Trier. VIII.12.29: the garden at Milan, Antony and the Gospel reading, the letters of Paul.",
+     "Gregory of Nazianzus, Oration 21 \u00a75: the Life sets out the laws of the monastic life as a story.",
+     "Sozomen, Ecclesiastical History I.13: his disciples in Egypt, Libya, Palestine, Syria and Arabia."
     ],
     "quotationOriginals": [
      {
-      "modern": "the desert became a city of monks.",
-      "printed": "\u03ba\u03b1\u1f76 \u1f21 \u1f14\u03c1\u03b7\u03bc\u03bf\u03c2 \u1f10\u03c0\u03bf\u03bb\u03af\u03c3\u03b8\u03b7 \u1f51\u03c0\u1f78 \u03bc\u03bf\u03bd\u03b1\u03c7\u1ff6\u03bd",
-      "work": "Life of Antony \u00a714, Greek, Migne, PG 26",
-      "file": "cic/texts/athanasius_opera-omnia-pg26-grc-lat_migne1857.txt",
-      "lines": "70548-70549",
-      "secondReading": "same",
-      "uncertain": "The OCR prints a note marker \"(38)\" inside the phrase. The 1892 English (npnf204, line 31625) reads \"the desert was colonised by monks\"; \"colonised\" now suggests conquest."
-     },
-     {
-      "modern": "For I had heard this of Antony. He had come in by chance during the Gospel reading, and was urged on by it. It was as though the words read were spoken to him.",
-      "printed": "audieram enim de Antonio, quod ex euangelica lectione, cui forte superuenerat, admonitus fuerit, tamquam sibi diceretur quod legebatur",
+      "modern": "For I had heard this of Antony. He had come in by chance during the Gospel reading, and was urged on by it. It was as though the words read were spoken to him. 'Go, sell all that you have, give to the poor, and you will have treasure in heaven. And come, follow me.' By such a divine word he was at once turned to you.",
+      "printed": "audieram enim de Antonio, quod ex euangelica lectione, cui forte superuenerat, admonitus fuerit, tamquam sibi diceretur quod legebatur: uade, uende omnia, quae habes, da pauperibus et habebis thesaurum in caelis; et ueni, sequere me, et tali oraculo confestim ad te esse conuersum.",
       "work": "Augustine, Confessions VIII.12.29, Latin, CSEL 33",
       "file": "cic/texts/augustine_confessiones-lat_knoll-csel33.txt",
-      "lines": "13470-13472",
-      "secondReading": "minor",
-      "uncertain": "\"Urged on\" renders admonitus, which means warned or prompted. The Pilkington English (npnf101, lines 13117-13121) reads \"he received the admonition as if what was read were addressed to him\"."
+      "lines": "13470-13501",
+      "uncertain": "\"Urged on\" renders admonitus, which means warned or prompted. The Pilkington English (npnf101, lines 13117-13124) reads \"he received the admonition as if what was read were addressed to him\". \"Divine word\" renders oraculum, which Pilkington gives as \"oracle\"; \"you\" is God, to whom the Confessions are addressed. The footnotes and page head between lines 13473 and 13501 are left out.",
+      "secondReading": "minor"
      }
     ]
    }
@@ -93181,7 +93207,7 @@
    "c2": null,
    "entry": null,
    "teaser": "Eldest child of the family of Basil of Caesarea and Gregory of Nyssa, who led her household into a life of prayer and shared work, and whose deathbed teaching Gregory wrote down.",
-   "longDescription": "When Gregory reached his sister after eight years apart, she was lying on the floor, on a sack spread over a board. She lifted herself on one elbow, but she could not rise to meet him.\n\nHis sister was Macrina, the eldest of their family. Her brothers included two famous bishops: Basil, of the great church of Caesarea, and Gregory himself, of Nyssa. She lived in the fourth century in Pontus, a region on the Black Sea coast of what is now Turkey. Gregory, who sat with her as she died and wrote her life a few years later, is nearly our only witness.\n\nWhen she was twelve, the young man her father had chosen for her died before the wedding. She refused every other offer, because she believed her promised husband was not dead but only away, in the hope of rising again. After her father died, she led her mother to live as an equal with the slave women of the house. Mistress and slaves ate the same food, slept on the same kind of bed and prayed together by night and day.\n\nSo the family house became a community of prayer and shared work. Macrina raised her baby brother Peter, who later led its men's side, and during a famine she picked up babies left by the roadside to die, and raised them.\n\nOn the evening she died, in 379 as scholars date it, she prayed. \"You, Lord,\" she said, \"have set us free from the fear of death.\" Afterwards the deaconess Lampadia described all that Macrina had owned. \"Here is the cloak, here is the head-covering, and the worn-out shoes on her feet. This is her wealth.\"\n\nAs she lay dying, she had talked with Gregory about the soul, death and rising again. From that talk he wrote a dialogue in which Macrina, as the Teacher, defends the soul's life after death and the body's rising. The words are Gregory's, so how much is hers is not known. More than a thousand years later, in 1438, Latin and Greek church leaders met at Ferrara to try to heal the split between their churches. Arguing there over what happens to souls after death, the Latin side quoted Macrina's part in the dialogue. The Greeks objected that Gregory was a man and could be mistaken, but the Latins answered that he was the brother of Basil the Great and of blessed Macrina.",
+   "longDescription": "After eight years apart, Gregory came to his sister's house and was led to her. She lay on a sack spread over a board, and she lifted herself on one elbow but could not rise.\n\nThe house, in Pontus, in what is now Turkey, was the making of Macrina, the eldest of the family of Basil of Caesarea and Gregory of Nyssa. She had led her mother to live as an equal with the slave women, eating the same food, sleeping on the same kind of bed, and praying night and day. For them, Gregory says, this prayer was their work, and what others call work was rest.\n\nOn her deathbed she taught Gregory about the soul, death and rising again, and he wrote her teaching down as a conversation, with her as the Teacher. Almost all we know of her comes from her brother Gregory, who sat with her as she died, and how much of the teaching is hers, no one can say.\n\nMore than a thousand years later, her words were still being quoted. At Ferrara in 1438, Latin and Greek church leaders argued over what happens to souls after death, and the Latins quoted Macrina from Gregory's book. When the Greeks replied that Gregory was a man and could err, the Latins answered with his family: he was the brother of Basil the Great and of blessed Macrina.\n\nHer life had turned on a refusal. When the man her father chose for her died before the wedding, she would take no other. He was not dead, she said, but only away, because of the hope of rising again.\n\nShe would not leave her mother. Over the years their house grew into one community, the women under her and the men under Peter, the brother she had raised. In a famine she took in babies left to die, and a young widow came to live under her care.\n\nIn 379, as scholars date it, she lay dying, and at evening she prayed. \"You, Lord,\" she said, \"have set us free from the fear of death.\" When her voice failed in the evening thanksgiving, she finished it in her heart, and her life and her prayer ended together.\n",
    "reviewStatus": "AI-checked",
    "card": {
     "otherNames": [
@@ -93241,41 +93267,42 @@
        "date": "1863",
        "language": "Greek",
        "file": "cic/texts/gregory-nyssa_opera-omnia-pg46-grc-lat_migne1863.txt"
+      },
+      {
+       "title": "Documents relatifs au concile de Florence, I: La question du purgatoire \u00e0 Ferrare, in Patrologia Orientalis 15",
+       "author": "Louis Petit, editor",
+       "date": "1927",
+       "language": "Greek and Latin, with French translation",
+       "file": "cic/texts/patrologia-orientalis-tomus15_petit-documents-concile-de-florence-purgatoire-grc-fra_graffin-nau1927.txt"
       }
      ]
     },
     "briefReferences": [
-     "Life of Macrina (Clarke, lines 184, 192): Gregory arrives after eight years apart; she lies on the floor on a sack spread over a board, and lifts herself on her elbow.",
+     "Life of Macrina (Clarke, lines 184, 192): Gregory arrives after eight years apart; she lies on a sack spread over a board, and lifts herself on her elbow.",
      "World census, Cappadocian Christianity: the family of Basil of Caesarea and Gregory of Nyssa; Pontus, in what is now Turkey.",
-     "Life (Clarke, lines 64, 108, 402): written a few years after her death, as Clarke dates it.",
-     "Life (Clarke, lines 124, 128): betrothed at twelve; the young man died; her promised husband absent, not dead, in the hope of the resurrection.",
+     "Life (Clarke, lines 124, 128): the match her father planned; the young man died; her promised husband absent, not dead, in the hope of the resurrection.",
+     "Life (Clarke, line 132): her resolve not to be separated from her mother.",
      "Life (Clarke, lines 138, 158): her mother living as an equal with the maids, the same food and the same kind of bed, prayer by night and day.",
+     "Life (Clarke, line 158): to them this round of prayer meant work, and work so called was rest.",
      "Life (Clarke, lines 164, 264, 356): she raised Peter, who led the men's side; the foundlings picked up by the roadside in the famine.",
-     "Clarke's introduction (line 52): Basil's death and Gregory's visit in 379.",
+     "Life (Clarke, line 160): the life of the house grew with the lapse of time.",
+     "Life (Clarke, lines 274, 276): Vestiana, widowed while still young, chose Macrina as guardian of her widowhood.",
+     "Clarke's introduction (line 52): Gregory's visit in 379.",
      "Life (Clarke, line 230; Greek, PG 46): her dying prayer.",
-     "Life (Clarke, lines 278, 284; Greek, PG 46): Lampadia, the deaconess, on her wealth.",
-     "Clarke's introduction (line 84): the Life as a light on how such a community was run.",
+     "Life (Clarke, lines 232, 234): her voice failed, she finished the evening thanksgiving in her heart, and closed her life and her prayer together.",
      "Life (Clarke, line 196) and On the Soul and the Resurrection (Moore and Wilson): the deathbed talk, and the dialogue with her as the Teacher.",
+     "Life (Clarke, lines 184-234): Gregory's own account of her last days and death, the witness for almost all we know of her; Clarke's note (line 412): in the dialogue Gregory purports to reproduce their talk.",
      "Ferrara, 1438 (Petit, lines 2304-2306, 8681-8688, 10731-10734, 10758-10760): the Latin citation of Macrina speaking, the Greek reply that Gregory was a man and could err, and the Latin rejoinder."
     ],
     "quotationOriginals": [
      {
       "modern": "You, Lord, have set us free from the fear of death.",
-      "printed": "\u00ab\u03a3\u1f7a,\u00bb \u03c6\u03b7\u03c3\u1f76\u03bd, \u00ab\u1f14\u03bb\u03c5\u03c3\u03b1\u03c2 \u1f21\u03bc\u1fd6\u03bd, \u039a\u03cd\u03c1\u03b9\u03b5, \u03c4\u03bf\u1fe6 \u03b8\u03b1\u03bd\u03ac\u03c4\u03bf\u03c5 \u03c4\u1f78\u03bd \u03c6\u03cc\u03b2\u03bf\u03bd.",
+      "printed": "\u00ab\u03a3\u1f7a,\u00bb \u03c6\u03b7\u03c3\u1f76\u03bd, \u00ab\u1f14\u03bb\u03c5\u03c3\u03b1\u03c2 \u1f21\u03bc\u1fd6\u03bd, \u039a\u03cd\u03c1\u03b9\u03b5, \u03c4\u03bf\u1fe6 \u03b8\u03b1\u03bd\u03ac\u03c4\u03bf\u03c5 \u03c4\u1f78\u03bd \u03c6\u03cc\u03b8\u03bf\u03bd.",
       "work": "Gregory of Nyssa, Life of Macrina, Greek, Migne, PG 46",
       "file": "cic/texts/gregory-nyssa_opera-omnia-pg46-grc-lat_migne1863.txt",
       "lines": "71687-71690",
       "secondReading": "same",
       "uncertain": "The OCR prints \u03c6\u03cc\u03b8\u03bf\u03bd for \u03c6\u03cc\u03b2\u03bf\u03bd, after a run of garbled Latin on line 71690. Clarke's English (line 230) reads \"Thou, O Lord, hast freed us from the fear of death.\""
-     },
-     {
-      "modern": "Here is the cloak, here is the head-covering, and the worn-out shoes on her feet. This is her wealth.",
-      "printed": "\u1f30\u03b4\u03bf\u1f7a \u03c4\u1f78 \u1f31\u03bc\u03ac\u03c4\u03b9\u03bf\u03bd, \u1f30\u03b4\u03bf\u1f7a \u03c4\u1fc6\u03c2 \u03ba\u03b5\u03c6\u03b1\u03bb\u1fc6\u03c2 \u1f21 \u03ba\u03b1\u03bb\u03cd\u03c0\u03c4\u03c1\u03b1, \u03c4\u1f70 \u03c4\u03b5\u03c4\u03c1\u03b9\u03bc\u03bc\u03ad\u03bd\u03b1 \u03c4\u1ff6\u03bd \u03c0\u03bf\u03b4\u1ff6\u03bd \u1f51\u03c0\u03bf\u03b4\u03ae\u03bc\u03b1\u03c4\u03b1\u00b7 \u03bf\u1f57\u03c4\u03bf\u03c2 \u1f41 \u03c0\u03bb\u03bf\u1fe6\u03c4\u03bf\u03c2\u00b7",
-      "work": "Gregory of Nyssa, Life of Macrina, Greek, Migne, PG 46 (Lampadia's words)",
-      "file": "cic/texts/gregory-nyssa_opera-omnia-pg46-grc-lat_migne1863.txt",
-      "lines": "72083-72085",
-      "secondReading": "minor",
-      "uncertain": "The OCR prints \u03c7\u03b5\u03c6\u03b1\u03bb\u1fc6\u03c2, \u03ba\u03c7\u03b1\u03bb\u03cd\u03c0\u03c4\u03c1\u03b1 and \u03c4\u03b5\u03c4\u03c1\u03c5\u03bc\u03bc\u03ad\u03bd\u03b1. Clarke's English (line 284) reads \"There is the cloak, there is the head-covering, there the well-worn shoes on the feet. This is all her wealth, these are her riches.\""
      }
     ]
    }
@@ -94132,13 +94159,13 @@
    "c2": null,
    "entry": null,
    "teaser": "A Roman soldier who became a monk and then bishop of Tours, and who pleaded at Trier that Priscillian's case was not for an emperor to judge.",
-   "longDescription": "At the gate of Amiens, in a killing winter, a soldier met a naked beggar. He cut his cloak in two and gave the beggar half, while some onlookers laughed and others groaned, because they had done nothing.\n\nThe soldier was Martin, in Roman Gaul in the fourth century. His story comes to us almost entirely from one admirer, Sulpicius Severus, who met him late in life and wrote it while Martin still lived.\n\nBorn to pagans in Pannonia, in what is now Hungary, Martin asked at ten to be prepared for baptism, but his father had him forced into the army. Sulpicius says that after Amiens, Martin saw Christ in a dream, wearing the half-cloak. He was baptized, but stayed in the army nearly two more years.\n\nWhen the Roman commander Julian handed out money to his troops before a battle, Martin asked for his discharge. \"I am Christ's soldier. I am not allowed to fight.\" Julian called it cowardice, so Martin offered to stand unarmed before the battle line. He was jailed, but the next day the enemy surrendered, a peace Sulpicius saw as Martin's victory.\n\nOut of the army, he founded a monastery near Poitiers, where Hilary was bishop. Later a citizen of Tours lured him out with a story of a sick wife, and crowds brought him in under a kind of guard. As bishop he still lived as a monk, in a wooden cell by the Loire where eighty disciples joined him.\n\nThrough the villages, Sulpicius tells, he tore down temples and built churches or monasteries in their place. When he set about cutting down a pine held sacred, the local people rose against him. Elsewhere a crowd drove him off and hurt him. Often too, he says, his preaching moved people to pull down their own temples.\n\nAt the emperor Maximus's court in Trier, bishops were prosecuting Priscillian for heresy. Martin did not defend his teaching, but begged that no blood be shed. He said that \"it was a cruel wrong, never heard of before, for a judge of this world to try a case of the church.\" After Martin left, Priscillian and his followers were put to death. To save other lives, he shared communion for one day with the bishops behind those deaths. They pressed him to confirm it in writing, and he refused.\n\nSulpicius, who was not there, heard that almost two thousand monks gathered at his funeral. Many of his monks became bishops, and Sulpicius claims the Life he wrote was read in Rome, Carthage and Egypt.\n\nA later bishop built a great church over his grave, and even the Frankish king Clovis ordered his army to take only grass and water from Martin's lands.\n\nAt a council in Paris, where King Chilperic had put a bishop on trial, the other bishops sat silent, fearing the queen's fury. Gregory, bishop of Tours almost two hundred years later, warned them that the judgment of the eternal King had pursued Maximus until he lost his throne and his life. Maximus had forced Martin to yield, he said, and Martin gave way to free the condemned from death.",
+   "longDescription": "In the fourth century, before a battle at Worms, the Caesar Julian was paying each of his soldiers a gift of money. A young soldier named Martin asked for his discharge instead. As his friend Sulpicius Severus reports it, he said: \"I am Christ's soldier. I am not allowed to fight.\"\n\nWhen Julian called it cowardice, Martin offered to stand unarmed before the battle line, and was put back in prison. The next day the enemy surrendered before any battle, and Sulpicius credits Martin with that peace.\n\nFrom the army Martin went to Hilary, bishop of Poitiers, in Roman Gaul, in what is now France, and later set up a monastery nearby. Years after that, the people of Tours made him bishop, yet he lived on as a monk, in a wooden cell with eighty disciples who held everything in common. Sulpicius wrote his life while he still lived, a book a modern historian calls a model for later lives of saints.\n\nCities wanted their priests from Martin's monastery, and Sulpicius saw many of his monks made bishops. Almost all we know comes from that one admirer, who met him late in life. Martin's tomb made Tours a place kings and bishops honored, as Gregory, bishop of Tours almost two hundred years later, tells it.\n\nMartin was born to pagans in what is now Hungary. At ten, against their wish, he asked to be taught for baptism. He was fifteen when his father informed on him, and he was chained and sworn into the army.\n\nOne winter, at the gate of Amiens, the cold was killing people. Martin had already given away the rest of his clothes, so with his sword he cut his cloak in two and gave half to a man with no clothes. Sulpicius says the next night Martin saw Christ in a dream, wearing the half he had given, and heard him say Martin, still only a catechumen, had clothed him. He was baptized at about twenty, but stayed nearly two more years in the army, because his tribune promised to leave the world with him.\n\nAfter the army, Arian opponents had him beaten in public and driven from a city, and expelled him from a monastery he had set up at Milan. At his election, some bishops scorned his poor looks, clothes and hair, yet as bishop he kept that plain dress. He tore down pagan temples and built churches where they had stood. Sometimes his preaching moved people to pull down their own, but once a crowd drove him off and he was hurt.\n\nAt Trier, bishops were prosecuting Priscillian and his followers for heresy before the emperor Maximus. Martin did not defend their teaching, but he begged that their blood not be shed. In Sulpicius's report he said: \"It was a cruel wrong, never heard of before, for a judge of this world to try a case of the church.\" The trial waited while he was there, but after he left, Priscillian and his companions were put to death. On a later visit, Martin won the lives of men already condemned by sharing communion for one day with the bishops behind the deaths. He refused to sign his name, grieved over it, and never again went to a gathering of bishops.\n\nOld, and knowing his end was near, he went to Candes, a village of his diocese, to make peace among quarreling clergy. He died there, and at his funeral, it was said, almost two thousand monks gathered.\n",
    "reviewStatus": "AI-checked",
    "card": {
     "otherNames": [
      "Martinus (the Latin of Sulpicius Severus)"
     ],
-    "knownFor": "A Roman soldier who became a monk and then bishop of Tours, and who pleaded at Trier that Priscillian's case was not for an emperor to judge.",
+    "knownFor": "A Roman soldier who became a monk and then bishop of Tours, and who pleaded at Trier that Priscillian's case was not for a judge of this world.",
     "datesNote": "Died in 397, in Ernest Brehaut's note to Gregory of Tours; Gregory says he was born in the eleventh year of Constantine and died in the eighty-first year of his life",
     "placeNote": "Born at Sabaria in Pannonia; raised at Ticinum in Italy; bishop at Tours, in Gaul",
     "role": "Monk and bishop of Tours",
@@ -94202,18 +94229,19 @@
     },
     "briefReferences": [
      "Sulpicius, Life 2, tr. Alexander Roberts: born at Sabaria in Pannonia to heathen parents; a catechumen at ten; seized, chained and sworn in at fifteen on his father's information.",
-     "Life 3: the cloak at the gate of Amiens in a winter fatal to many; the onlookers who laughed and those who groaned. The dream of Christ in the half-cloak, told as a vision in sleep.",
+     "Life 3: the cloak at the gate of Amiens in a winter fatal to many. The dream of Christ in the half-cloak, told as a vision in sleep.",
      "Life 3: baptized at twenty; nearly two more years in the army for his tribune's sake.",
-     "Life 4: the donative of the Caesar Julian, the request for discharge, the charge of cowardice, the offer to stand unarmed, prison, the enemy's surrender, and Sulpicius's \"who can doubt that this victory was due to the saintly man?\"",
+     "Life 4: the donative of the Caesar Julian, the request for discharge, the charge of cowardice, the offer to stand unarmed, prison, the enemy's surrender, and Sulpicius's credit to Martin for the peace.",
      "Life 5 and 7: to Hilary, bishop of Poitiers; the monastery not far from the town.",
-     "Life 9: Ruricius and the pretended sick wife; the crowds and \"a kind of guard\".",
-     "Life 10: a bishop who kept a monk's life; the wooden cell two miles outside Tours, by the Loire; eighty disciples. Life 10 also: many of his monks made bishops.",
+     "Life 6: publicly scourged by the Arians and driven from a city; expelled from his monastery at Milan.",
+     "Life 9: the bishops who scorned his looks, clothes and hair.",
+     "Life 10: a bishop who kept a monk's life and plain dress; the wooden cell two miles outside Tours, by the Loire; eighty disciples, who held everything in common. Life 10 also: many of his monks made bishops, and cities that wanted their priests from his monastery.",
+     "Life 13\u201315: temples torn down and churches built where they had stood; the crowd at Leprosum that drove him off hurt; the pagans his preaching moved to pull down their own temples.",
      "Life 25: Sulpicius's journey to see and question him.",
      "Chronicle II.50 (Latin, ed. Karl Halm, and Roberts's English): Martin at Trier, his plea for the condemned and against a secular judge; the trial delayed while he was there; the deaths after he left.",
      "Dialogue III.11\u201313: the later visit; communion shared for one day to save lives; his refusal to sign.",
-     "Epistle III: almost two thousand monks at his funeral, as it was said.",
-     "Dialogue I (Postumianus): the Life sold in Rome and read in Carthage, Alexandria and Egypt, as Sulpicius claims.",
-     "Gregory of Tours, History of the Franks, tr. Ernest Brehaut: Perpetuus's great church over the tomb; Clovis's edict on Martin's lands; Gregory's words at the council in Paris on Maximus and Martin.",
+     "Epistle III: his last journey, to make peace among quarreling clergy, knowing his end was near; almost two thousand monks at his funeral, as it was said.",
+     "Gregory of Tours, History of the Franks, tr. Ernest Brehaut: Perpetuus's great church over the tomb; Clovis's edict on Martin's lands; his death at Candes, a village of his diocese. Brehaut's note: the Life a model for saints' lives.",
      "World census, Gallic Monastic-Ascetic Christianity (The Monk-Bishops of Gaul): his setting and tradition."
     ],
     "quotationOriginals": [
@@ -94230,7 +94258,7 @@
       "uncertain": "Rendered from Halm's Latin, not Roberts's English. The OCR reads \"miles snm\" for \"miles sum\"."
      },
      {
-      "modern": "it was a cruel wrong, never heard of before, for a judge of this world to try a case of the church.",
+      "modern": "It was a cruel wrong, never heard of before, for a judge of this world to try a case of the church.",
       "printed": "it was, besides, a foul and unheard-of indignity, that a secular ruler should be judge in an ecclesiastical cause.",
       "work": "Sulpicius Severus, Chronicle II.50, Martin's words as Sulpicius reports them; English tr. Alexander Roberts, Latin ed. Karl Halm",
       "file": "cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
@@ -96423,7 +96451,7 @@
    "c2": null,
    "entry": null,
    "teaser": "Nicaea, 325. The emperor Constantine called bishops from across the empire. They condemned Arius and set out a creed calling the Son of one being with the Father.",
-   "longDescription": "In Alexandria, when his bishop, Alexander, drove him out, a priest named Arius protested: \"We are persecuted because we said, 'The Son has a beginning, but God has no beginning.'\" At stake was whether the Son is eternal like the Father. In 325 that question came before bishops from across the Roman Empire, who met at Nicaea, in today's Turkey, at the emperor Constantine's call.\n\nEusebius of Caesarea, a bishop who was there and wrote in praise of the emperor, says bishops in Egypt clashed with bishops in every city. A historian writing a century later adds that the people took sides too, and the faith was mocked even in the theaters. When Constantine's letter to Alexandria failed, he summoned bishops from Syria to Spain. As Eusebius reports it, the emperor told them: \"For I count civil strife in the church of God worse than any war or fierce battle.\"\n\nTwo men who were there tell the debate differently. Eusebius says the emperor approved his church's creed but asked for one word to be added: homoousios, \"of one being\". Athanasius, who was there as a deacon and later wrote in the creed's defense, says the bishops first chose words from Scripture, such as \"from God\". But Arius's friends read them as true of every creature too, so the bishops wrote again, more plainly.\n\nThe creed called the Son \"God of God, Light of Light\", \"begotten, not made\", of one being with the Father. It laid a curse on anyone who said \"there was a time when he was not\". All but a few signed, while Arius and two bishops were condemned. Historians writing a century later say the emperor ordered exile for anyone who resisted the verdict, and his edict sent Arius into exile.\n\nThen, as their letter to Egypt reports, the bishops turned to other business. Melitius, who had ordained clergy of his own, kept his title but lost the power to ordain. Easter, the second trouble Eusebius names, had some Christians fasting while others feasted; now it would fall on one day everywhere, as at Rome and Alexandria. Twenty rules set the order of church life, down to the last communion, never refused to the dying.\n\nThe settlement did not hold at once. Arius, it seems, was recalled from exile, and a later council at Antioch had to enforce the single Easter. For decades the word \"of one being\" divided the church. Of a council at Rimini in 359, Jerome wrote that \"the whole world groaned, and was astonished to find itself Arian.\"\n\nIn 381 a council at Constantinople, called over new disputes, ruled that the faith of the \"318 fathers\", as it named the bishops of Nicaea, \"shall not be set aside\". The longer creed said in churches today is tied to that later council; Nicaea's own was shorter and ended with its curses. At Chalcedon, in 451, bishops called Nicaea's creed \"pre-eminent\".\n\nCaecilian of Carthage, who sat at Nicaea, carried home the creed and canons. About ninety years later, African bishops read that copy aloud as law, and when a disputed rule was missing, they wrote east for exact copies.",
+   "longDescription": "\"There was a time when he was not.\" That, the council's own letter said, was what Arius, a priest of Alexandria, taught about the Son. It charged him with more: that the Son came from nothing, and that he is \"a creature\". At stake was whether the Son is God as the Father is, or a being with a beginning.\n\nIn 325 the emperor Constantine called bishops to Nicaea. They answered with a creed that calls the Son \"begotten, not made\", of one being with the Father, and curses anyone who says there was a time when he was not. Arius and two bishops were condemned. Later councils set this creed first, yet for decades it divided the church.\n\nTwo troubles had reached the emperor. Eusebius, a bishop who was there and admired the emperor, writes that in Egypt bishops clashed with bishops in every city, and the churches kept Easter on different days. When his letter to Alexandria failed, Constantine called the bishops to Nicaea, in today's Turkey, and let them travel by the imperial post, with horses. More than 250 came by Eusebius's count, though other witnesses gave higher numbers. The emperor told them, as Eusebius reports it: \"For I count civil strife in the church of God worse than any war or fierce battle.\"\n\nThree men who were there tell the debate, each differently. Eusebius says the emperor asked for one word to be added: homoousios, \"of one being\". Athanasius, who was there as a deacon and later wrote in the council's defense, says Arius's friends read the bishops' words, like \"from God\", as true of every creature too. They were caught \"whispering ... and winking\". A third, who also opposed Arius, says a written statement was torn up \"in the sight of all\".\n\nAll but a few signed the creed, and the emperor backed its sentence with force. He sent Arius into exile, a historian a century later says. Constantine's own letter made hiding a book by Arius, rather than burning it, a crime punished by death.\n\nIt also settled other business. In Egypt, a leader who had ordained clergy of his own kept his title but could ordain no one. Easter would fall on one day everywhere. And twenty rules, called canons, set the order of the church. They ran from how a bishop is made to mercy for those who had fallen away without being forced.\n\nIn 381 a council at Constantinople, meeting over newer heresies, ruled that the faith of the 318 fathers, its name for Nicaea, \"shall not be set aside\". In 451 Chalcedon called it \"pre-eminent\". But it did not hold at once. Arius was recalled, and the word \"of one being\" divided those who held it from those who would not.\n\nThe rules traveled as written law, and a Persian synod, a modern scholar reports, swore to accept them. About ninety years after Nicaea, the bishops of Africa, meeting at Carthage, found a disputed rule missing from their copy, and wrote east for exact copies. Their own copy held the creed and the twenty rules, and they read it aloud as law. One of their own bishops had sat at Nicaea and carried it home.\n",
    "people": [
     {
      "person": "constantine-the-great",
@@ -96718,32 +96746,25 @@
      "The council ended with a banquet for Constantine's twentieth year as emperor, gifts to each bishop by rank, and a farewell speech urging peace, Eusebius says. He claims the agreement held; the decades that followed show it did not."
     ],
     "briefReferences": [
-     "Arius, Letter to Eusebius of Nicomedia, in Theodoret I.4 (Greek, PG 82; English, npnf203): driven out by Alexander; the Son has a beginning.",
+     "Synodal letter to Egypt (npnf214, 6343-6347): the council's charge, that the Son is from things that are not, that \"there was a time when he was not\", and that he is \"a creature\".",
      "Eusebius of Caesarea, Life of Constantine III.4-7: strife of bishops in Egypt (npnf201, 64218-64223); the Easter quarrel, some fasting while others feasted; the letter to Alexandria failed; bishops called from all quarters, from Syria to Spain.",
-     "Socrates I.6 (npnf202, 2391-2396): the people divided, some siding with one party and some with the other; Christianity ridiculed even in the theaters.",
+     "Life of Constantine III.6-8 (npnf201, 64282-64288, 64360-64361): the public post and horses for the bishops; more than 250 bishops. Eustathius, in Theodoret I.8 (npnf203, 6387-6389), and Athanasius (npnf204, 26762-26763) give about 270 and about 300.",
      "Life of Constantine III.12 (Greek, ed. Heikel; English, npnf201): Constantine's speech on civil strife in the church.",
-     "Eusebius of Caesarea, Letter to his church (in Athanasius, npnf204, and Socrates, Greek ed. Hussey): his creed read, the emperor's approval, \"one in essence\" added.",
-     "Athanasius, De decretis 19-20 (npnf204, 27875-27889, 28015-28018): \"from God\" chosen from Scripture and read as true of all creatures; the words written more distinctly.",
-     "The creed of Nicaea, the synodal letter and the twenty canons (npnf214): \"God of God, Light of Light\", \"begotten, not made\", \"of one substance\"; the anathema; Arius, Theonas and Secundus condemned; Melitius kept his title but could not ordain; one Easter, as at Rome and Alexandria; canon 13, the last communion for the dying.",
+     "Eusebius of Caesarea, Letter to his church (in Athanasius, npnf204, and Socrates, Greek ed. Hussey): the emperor's advice to add \"of one being\".",
+     "Athanasius, De decretis 19-20 (npnf204, 27875-27889): \"from God\" chosen from Scripture and read as true of all creatures.",
+     "Athanasius, De decretis 20 (npnf204, 27989-27995): Eusebius and his fellows caught \"whispering ... and winking\" over the bishops' words.",
+     "Eustathius of Antioch, in Theodoret I.8 (npnf203, 6390-6396): the formulary of Eusebius torn up \"in the sight of all\".",
+     "Life of Constantine III.14 (npnf201, 64525-64527) and Socrates I.8 (npnf202, 2950-2954): the signatures, and a few who would not receive the creed.",
+     "The creed of Nicaea, the synodal letter and the twenty canons (npnf214): \"begotten, not made\", \"of one being\"; the anathema; Arius, Theonas and Secundus condemned; Melitius kept his title but could not ordain; one Easter.",
      "Socrates I.8 (npnf202, 2962-2966) and Sozomen I.20 (npnf202, 27956-27960): the emperor orders banishment for anyone who resists, and his edict exiles Arius; I.14: Eusebius of Nicomedia and Theognis recalled, and Arius, it appears, before them.",
-     "Council of Constantinople (381), canon 1, and Council of Chalcedon (451), definition (npnf214): the faith of the 318 fathers \"shall not be set aside\" and \"pre-eminent\"; Chalcedon recites the creeds of Nicaea and of Constantinople apart (20225-20230).",
-     "Jerome, Dialogue against the Luciferians (npnf206): Rimini, 359.",
-     "Council of Antioch, canon 1 (npnf214): the Easter decree of Nicaea enforced.",
+     "Constantine's letter against Arius, in Socrates I.9 (npnf202, 3382-3384): death for anyone who hid a book by Arius and did not burn it.",
+     "Canons 4 and 11 (npnf214, 3115-3118, 4124-4128): how a bishop is appointed; mercy for those who fell under Licinius without compulsion.",
+     "Council of Constantinople (381), canon 1, and Council of Chalcedon (451), definition (npnf214): the faith of the 318 fathers \"shall not be set aside\" and \"pre-eminent\".",
+     "Council of Constantinople (381), canon 1 (npnf214, 13972-13977): every heresy anathematized, the newer ones by name.",
+     "Oscar Braun, introduction to the Syriac Nicene texts (Braun 1898, 857-866): at a Persian synod under Isaac, Marutha reads the volume of the canons, and all the bishops declare under an anathema that they will accept them.",
      "African code, Carthage 419 (npnf214): Caecilian's copy read aloud; letters east for exact copies."
     ],
     "quotationOriginals": [
-     {
-      "modern": "We are persecuted because we said, 'The Son has a beginning, but God has no beginning.'",
-      "printed": "\u0394\u03b9\u03c9\u03c7\u03cc\u03bc\u03b5\u03b8\u03b1 \u1f45\u03c4\u03b9 \u03b5\u1f34\u03c0\u03b1\u03bc\u03b5\u03bd \u1fbf\u0391\u03c1\u03c7\u1f74\u03bd \u1f14\u03c7\u03b5\u03b9 \u1f41 \u03a5\u1f31\u1f78\u03c2, \u1f41 \u03b4\u1f72 \u0398\u03b5\u1f78\u03c2 \u1f04\u03bd\u03b1\u03c1\u03c7\u03cc\u03c2 \u1f10\u03c3\u03c4\u03b9.",
-      "work": "Arius, Letter to Eusebius of Nicomedia, in Theodoret, Church History I.4, Greek, PG 82",
-      "file": "cic/texts/theodoret_opera-omnia-t3-historia-religiosa-pg82-grc-lat_migne1864.txt",
-      "lines": "70615-70616",
-      "englishPrinted": "We are persecuted, because we say that the Son has a beginning, but that God is without beginning.",
-      "englishFile": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml",
-      "englishLines": "6045-6046",
-      "secondReading": "same",
-      "uncertain": "\u0394\u03b9\u03c9\u03c7\u03cc\u03bc\u03b5\u03b8\u03b1 is the OCR's reading of \u0394\u03b9\u03c9\u03ba\u03cc\u03bc\u03b5\u03b8\u03b1; footnote markers left out. The Greek \u03b5\u1f34\u03c0\u03b1\u03bc\u03b5\u03bd is past, \"we said\"; the English has \"we say\"."
-     },
      {
       "modern": "For I count civil strife in the church of God worse than any war or fierce battle.",
       "printed": "\u1f61\u03c2 \u1f14\u03bc\u03bf\u03b9\u03b3\u03b5 \u03c0\u03b1\u03bd\u03c4\u1f78\u03c2 \u03c0\u03bf\u03bb\u03ad\u03bc\u03bf\u03c5 xcl \u03bc\u03ac\u03c7\u03b7\u03c2 \u03b4\u03b5\u03b9\u03bd\u1fc6\u03c2 \u03ba\u03b1\u1f76 \u03c7\u03b1\u03bb\u03b5\u03c0\u03c9\u03c4\u03ad\u03c1\u03b1 \u1f21 \u03c4\u1fc6\u03c2 \u1f10\u03c7\u03ba\u03c7\u03bb\u03b7\u03c3\u03af\u03b1\u03c2 \u03c4\u03bf\u1fe6 \u03d1\u03b5\u03bf\u1fe6 \u1f10\u03bc\u03c6\u03cd\u03bb\u03b9\u03bf\u03c2 \u03bd\u03b5\u03bd\u03cc\u03bc\u03b9\u03c3\u03c4\u03b1\u03b9 \u03c3\u03c4\u03ac\u03c3\u03b9\u03c2",
@@ -96775,11 +96796,19 @@
       "uncertain": "English only: the Greek of De decretis is held (athanasius_opera-omnia-pg25-grc-lat_migne1857.txt) but the passage was not found in the OCR."
      },
      {
-      "modern": "God of God, Light of Light",
-      "printed": "God of God, Light of Light, very God of very God,",
-      "work": "The creed of Nicaea, tr. Percival",
-      "file": "cic/texts/npnf214_seven-ecumenical-councils.xml",
-      "lines": "2411",
+      "modern": "whispering ... and winking",
+      "printed": "they were caught whispering to each other and winking with their eyes,",
+      "work": "Athanasius of Alexandria, Defence of the Nicene Definition (De decretis) 20, tr. Archibald Robertson",
+      "file": "cic/texts/npnf204_athanasius-select-works-letters.xml",
+      "lines": "27991-27992",
+      "secondReading": "same"
+     },
+     {
+      "modern": "in the sight of all",
+      "printed": "the impious writing had been torn up in the sight of all,",
+      "work": "Eustathius of Antioch, in Theodoret, Church History I.8, npnf203",
+      "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml",
+      "lines": "6395-6396",
       "secondReading": "same"
      },
      {
@@ -96799,12 +96828,20 @@
       "secondReading": "same"
      },
      {
-      "modern": "318 fathers ... shall not be set aside",
+      "modern": "a creature",
+      "printed": "saying also that he is a creature.",
+      "work": "The synodal letter of Nicaea to the church of Alexandria, tr. Percival",
+      "file": "cic/texts/npnf214_seven-ecumenical-councils.xml",
+      "lines": "6346-6347",
+      "secondReading": "same"
+     },
+     {
+      "modern": "shall not be set aside",
       "printed": "The Faith of the Three Hundred and Eighteen Fathers assembled at Nice in Bithynia shall not be set aside, but shall remain firm.",
       "work": "Council of Constantinople (381), canon 1, tr. Percival",
       "file": "cic/texts/npnf214_seven-ecumenical-councils.xml",
       "lines": "13970-13972",
-      "secondReading": "same"
+      "secondReading": "minor"
      },
      {
       "modern": "pre-eminent",
@@ -96812,14 +96849,6 @@
       "work": "Council of Chalcedon (451), definition of faith, tr. Percival",
       "file": "cic/texts/npnf214_seven-ecumenical-councils.xml",
       "lines": "20217-20220",
-      "secondReading": "same"
-     },
-     {
-      "modern": "the whole world groaned, and was astonished to find itself Arian.",
-      "printed": "The whole world groaned, and was astonished to find itself Arian.",
-      "work": "Jerome, Dialogue against the Luciferians",
-      "file": "cic/texts/npnf206_jerome-principal-works.xml",
-      "lines": "32412-32413",
       "secondReading": "same"
      }
     ]
@@ -100930,7 +100959,7 @@
    "c2": null,
    "entry": null,
    "teaser": "Founder of the monasteries of Subiaco and Monte Cassino, and author of the Rule for monks that the Benedictines take their name from, known through Gregory the Great's Dialogues.",
-   "longDescription": "Near Subiaco, almost forty miles from Rome, a monk named Romanus lowered bread on a long rope down a rock face. A little bell was tied on, so that the young man in the cave below would know his food had come. He was Benedict, and this was Italy, around the year 500, when Gothic kings ruled it.\n\nHis life was written down by Pope Gregory the Great, about fifty years after his death, from the memories of four of his monks. Benedict was born in Nursia, in central Italy, and sent to Rome to study. When he saw many students fall into loose living, he gave up his books and his father's house to serve God alone.\n\nFor three years he lived in that cave, known only to Romanus, until others came to him for teaching. Monks of a nearby monastery begged him to be their abbot. He warned that their ways and his would never agree, but at last he gave in. When he held them to their rule, some put poison in his wine, but Gregory says the glass shattered as he made the sign of the cross over it.\n\nHe built twelve monasteries at Subiaco, and later, around 529 as modern editors date it, he moved to Monte Cassino. Gregory says country people there still worshipped Apollo at an old temple, with sacred woods around it. Benedict, he says, smashed the idol, overturned the altar and burned the woods, and built chapels in their place.\n\nHe wrote a rule for his monks: \"So we must found a school for the Lord's service. In founding it, we hope to lay down nothing harsh and nothing heavy.\" The Rule calls idleness an enemy of the soul, so it sets times for work, and other set hours for holy reading. The community chooses its abbot, who must keep a balance: \"Let him so temper everything that the strong have something to long for, and the weak do not run away.\"\n\nIn 742 a council of Carloman, ruler of the Franks, ordered the monasteries of his lands to live by the rule of Saint Benedict. In 802, Charlemagne gathered the abbots and monks who were at Aachen, where they read the Rule together. He ordered that whatever had been done in the monasteries against it be put right by it.\n\nLong before those councils, Gregory reports, the Lombards plundered Monte Cassino by night, yet not one monk was taken. Paul the Deacon, writing in the eighth century, adds that the monks fled to Rome \"carrying with them the manuscript of the Holy Rule\".",
+   "longDescription": "Pope Gregory the Great filled his life of Benedict with wonders, and then pointed his readers somewhere else, to the rule Benedict wrote for monks. \"For the holy man could in no way teach otherwise than he lived.\"\n\nBenedict lived around the year 500, and founded houses of monks in Italy, twelve at Subiaco, then one at Monte Cassino. For monks living together under an abbot they choose, he wrote a rule. \"So we must found a school for the Lord's service. In founding it, we hope to lay down nothing harsh and nothing heavy.\" Yet the promise binds for life: a monk vows to stay in one community, to turn his whole way of life to God, and to obey. About two centuries later, Frankish rulers ordered the monasteries of their lands to live by it.\n\nGregory records that in his own lifetime the Lombards sacked Monte Cassino. Paul the Deacon later wrote that the monks fled to Rome with the manuscript of the Rule. In 742, Carloman's council bound the monks and nuns of his lands to the rule of Saint Benedict. And in 802, at Aachen, Charlemagne gathered the abbots and monks who were there, and they read it together. Then he ordered that whatever in the monasteries went against it be put right by it.\n\nBecause the Rule calls idleness an enemy of the soul, it sets times for work with the hands and other hours for holy reading. Even the last monk to join may be chosen as abbot. Of the abbot, the Rule says: \"Let him so temper everything that the strong have something to long for, and the weak do not run away.\" Every guest is received as Christ. Benedict called it a little rule for beginners.\n\nBenedict's life was written down by Gregory, about fifty years after his death, from the memories of four of his monks. Gregory says that in Rome, Benedict saw many students fall into loose living. So he left his books and his father's house to serve God alone, and spent three years in a cave near Subiaco.\n\nLater, monks of a nearby house begged him to lead them. He held them to its regular life, and some of them put poison in his wine. Gregory says the glass shattered when Benedict made the sign of the cross over it.\n\nGregory says that at Monte Cassino, where country people still worshipped Apollo, Benedict smashed the idol, overturned the altar, burned the sacred woods and built chapels. He tells too how Totila, king of the Goths, threw himself to the ground before Benedict, who raised him and told him to stop his evil. From then on, Gregory says, the king was less cruel.\n\nAt the end, Gregory says, Benedict died standing in the chapel, held up by his disciples, his hands raised to heaven.\n",
    "reviewStatus": "AI-checked",
    "card": {
     "otherNames": [
@@ -101033,20 +101062,35 @@
      ]
     },
     "briefReferences": [
-     "Dialogues II, prologue, tr. 1608, ed. Edmund G. Gardner: born in the province of Nursia, sent to Rome to study, students falling into loose living; his four disciples as Gregory's sources. Book II is the only early Life of Benedict, and Gregory tells it to show the miracles of a holy man.",
-     "Dialogues II.1: Subiaco, almost forty miles from Rome; Romanus, the cave for three years, the bread on a rope with a little bell; others coming to him for teaching.",
+     "Dialogues II.36, tr. 1608, and in Latin, Acta Sanctorum, March, vol. 3: Gregory points his readers to the Rule; the holy man could not teach otherwise than he lived.",
+     "Dialogues II, prologue, tr. 1608, ed. Edmund G. Gardner: sent to Rome to study, students falling into loose living; his four disciples as Gregory's sources. Gregory tells Book II to show the miracles of a holy man.",
+     "Dialogues II.1: Subiaco; the cave for three years.",
      "Dialogues II.3: the nearby monastery that made him abbot, the poisoned wine and the shattered glass; the twelve monasteries near Subiaco.",
-     "Dialogues II.8: the move to Cassino. Gardner: about 528 or 529.",
-     "Dialogues II.14: \"in the time of the Goths\".",
+     "Dialogues II.8: the move to Cassino; the idol of Apollo smashed, the altar overturned, the sacred woods burned, and chapels built.",
+     "Dialogues II.15: Totila, king of the Goths, throws himself to the ground; Benedict raises him and rebukes him, and from then on the king is less cruel.",
+     "Dialogues II.37: he dies standing in the chapel, held up by his disciples, his hands raised to heaven.",
      "Rule, Prologue (Latin, ed. Oswald Hunter Blair; English, tr. Francis Aidan Gasquet): a school for the Lord's service, nothing harsh, nothing heavy.",
-     "Rule, ch. 48: \"Idleness is an enemy of the soul\"; set times for manual labor and holy reading. Ch. 64: the abbot chosen by the community, who tempers all things.",
-     "Dialogues II.17: the Lombards plunder Monte Cassino by night, and no monk is taken.",
+     "Rule, ch. 48: Idleness is an enemy of the soul; set times for manual labor and holy reading. Ch. 64: the abbot chosen by the community, who tempers all things.",
+     "Rule, ch. 53: every guest received as Christ. Ch. 58: the promise of stability, of turning the whole way of life to God, and of obedience, binding for life. Ch. 73: a little rule for beginners.",
+     "Dialogues II.17: the Lombards plunder Monte Cassino.",
      "Paul the Deacon, History of the Langobards IV.17, tr. Foulke: the monks flee to Rome with the manuscript of the Rule.",
      "MGH Capitularia I, no. 10: Carloman, duke of the Franks, and his council of 742; the Rule for monks and nuns in the lands he ruled.",
      "MGH Capitularia I, the Aachen synod of 802, from the annals of Lorsch: the Rule read, and the monasteries put right by it.",
      "World census, Early Benedictine / Italian Monasticism: his tradition."
     ],
     "quotationOriginals": [
+     {
+      "modern": "For the holy man could in no way teach otherwise than he lived.",
+      "printed": "for the holy man could not otherwise teach, than himself lived.",
+      "work": "Gregory the Great, Dialogues II.36; English of 1608, ed. Edmund G. Gardner; Latin in Acta Sanctorum, March, vol. 3",
+      "file": "cic/texts/gregory-great_dialogues_gardner1911.txt",
+      "lines": "5571-5572",
+      "original": "quia sanctus vir nullo modo potuit aliter docere quam vixit.",
+      "originalFile": "cic/texts/acta-sanctorum_martii-tomus-3-lat-grc_palme1865.txt",
+      "originalLines": "80438-80440",
+      "uncertain": "Rendered from the Latin. \"nullo modo\" is read as \"in no way\"; the 1608 English has \"could not otherwise teach\".",
+      "secondReading": "same"
+     },
      {
       "modern": "So we must found a school for the Lord's service. In founding it, we hope to lay down nothing harsh and nothing heavy.",
       "printed": "We are therefore now about to institute a school for the service of God, in which we hope nothing harsh nor burdensome will be ordained.",
@@ -101070,15 +101114,6 @@
       "originalLines": "9527-9528",
       "secondReading": "same",
       "uncertain": "Rendered from the Latin. \"refugiant\" is read as the weak fleeing of themselves; Gasquet's \"be not scared\" is looser."
-     },
-     {
-      "modern": "carrying with them the manuscript of the Holy Rule",
-      "printed": "carrying with them the manuscript of the Holy Rule (of the order) which the aforesaid father had composed",
-      "work": "Paul the Deacon, History of the Langobards IV.17, tr. William Dudley Foulke",
-      "file": "cic/texts/paul-the-deacon_history-of-the-langobards_foulke1907.txt",
-      "lines": "7832-7835",
-      "secondReading": "same",
-      "uncertain": "\"(of the order)\" is the translator's addition."
      }
     ]
    }
@@ -103463,7 +103498,7 @@
    "c2": null,
    "entry": null,
    "teaser": "Irish monk who sailed to Britain on pilgrimage for Christ, founded the monastery on Iona, and in Bede's account turned the northern Picts to the faith.",
-   "longDescription": "On his last day, an old abbot sat copying the Psalms. When he reached the line \"those who seek the Lord will lack no good thing,\" he said, \"Here I must stop, at the bottom of this page. Let Baithene write what comes next.\"\n\nThat abbot was Columba of Iona, a small island off northern Britain, in what is now Scotland. He came from sixth-century Ireland.\n\nBorn to a noble Irish family, he had already founded a monastery at Durrow. Then, in about 563, he left Ireland for Britain with twelve disciples. Adomn\u00e1n, abbot of Iona a century later and our fullest witness, calls this a pilgrimage for Christ. On Iona, Columba founded a monastery where, Adomn\u00e1n says, he never let an hour pass without prayer, reading, writing or work.\n\nAdomn\u00e1n tells how Brude, the proud king of the Picts, kept his gates shut against Columba until they opened \"of their own accord\", and then honored him for life. Bede, writing in England over a century later, says Columba turned the northern Picts to the faith, although Adomn\u00e1n never says the king was baptized.\n\nOn his last night, in June 597 by the usual reckoning, only his attendant Diormit heard his charge to the monks. \"My sons, I entrust these last words to you. Love one another without pretense, and live in peace.\" At the midnight bell he ran into the church and knelt at the altar. There Diormit found him and raised his hand, so that Columba could bless his monks before he died.\n\nBaithene succeeded him, and many houses in Britain and Ireland grew from his monasteries, with Iona, Bede says, the chief of them all. In 635 the king of Northumbria asked Iona for a bishop and was sent Aidan, who carried its faith to the English.\n\nIona's way of reckoning Easter differed from Rome's. At the synod of Whitby in 664, a bishop of Iona's line defended it in the name of \"our most reverend Father Columba and his successors\". The king ruled for Rome, but Iona kept the old custom until about 716.\n\nBede, a critic of that custom, still gave this verdict: \"But whatever kind of man he was, this much about him we hold as certain. He left successors known for great self-control, for the love of God, and for life under a rule.\"",
+   "longDescription": "\"But whatever kind of man he was, this much about him we hold as certain. He left successors known for great self-control, for the love of God, and for life under a rule.\" So wrote Bede, an English monk, more than a century after Columba died.\n\nBorn to a noble family in Ireland early in the sixth century, Columba founded a monastery at Durrow. In about 563 he sailed to Britain with twelve disciples \"to make a pilgrimage for Christ\", leaving home for good. On Iona, a small island off what is now Scotland, he founded a monastery.\n\nFrom those two houses, Bede says, his disciples founded many more in Britain and Ireland, and Iona held first place among them. Bede adds that Columba turned the northern Picts to the faith. In 635, about forty years after his death, Iona sent its monk Aidan to the English. Their king, Oswald of Northumbria, had asked the Irish for a bishop, and Aidan set up on the tidal island of Lindisfarne. Irish monks who followed him taught the English the monks' rule of life.\n\nIn Bede's day, Iona's abbot was a priest, yet even the bishops were under him. This was \"according to the example of their first teacher\", Columba, a priest and monk, not a bishop.\n\nHis heirs kept Easter by an older Irish table of dates, so it could fall on a different Sunday from Rome's. At the synod of Whitby in 664, Colman, a bishop from Iona's line, defended \"our most reverend Father Columba and his successors\". The king ruled for Rome, and Colman went back to the Irish with those who would not change. Iona held out until about 716, when the English monk Egbert brought it to the Roman date, correcting what Bede calls \"their error\".\n\nOur fullest account of the man himself comes from Adomn\u00e1n, abbot of Iona about a hundred years later, who wrote to honor him. His picture of the Picts is smaller than Bede's. Columba preached to them through an interpreter, and Adomn\u00e1n tells of a countryman baptized \"with all his household\". Brude, their king, first kept his gates shut against Columba and then honored him for life. But Adomn\u00e1n never says the king was baptized.\n\nOn a Saturday in 597, by the usual reckoning, the old and weary abbot was copying the Psalms. He stopped at a verse promising that those who seek the Lord will lack no good thing, and handed what came next to Baithene, the disciple who would succeed him. \"Here I must stop, at the bottom of this page. Let Baithene write what comes next.\" That night he knelt at the altar, and when his attendant Diormit raised his right hand, Columba moved it as far as he could to bless his monks, and died.\n",
    "reviewStatus": "AI-checked",
    "card": {
     "otherNames": [
@@ -103542,61 +103577,18 @@
      ]
     },
     "briefReferences": [
-     "Adomn\u00e1n, Life of Saint Columba, Book III, tr. Wentworth Huyshe: his last day, the Psalter, \"they that seek the Lord shall not want any good thing\", and Baithene to write what follows; his last words, heard by Diormit alone; the midnight bell, the altar, and the hand raised to bless.",
-     "Adomn\u00e1n, second preface: born of noble parentage; the voyage in his forty-second year, two years after the battle, \"to make a pilgrimage for Christ\"; never an hour without prayer, reading, writing or work.",
+     "Adomn\u00e1n, Life of Saint Columba, Book III, tr. Wentworth Huyshe: his last day, a Saturday, the old man weary with age; the Psalter, the verse on those who seek the Lord, and Baithene to write what follows; Baithene his successor; the altar, and the hand raised to bless.",
+     "Adomn\u00e1n, second preface: born of noble parentage; the voyage \"to make a pilgrimage for Christ\".",
      "Adomn\u00e1n, Book III: twelve disciples sailed with him.",
-     "Adomn\u00e1n, Book II: King Brude's gates opening \"of their own accord\", and the king's lasting honor.",
-     "Bede, Ecclesiastical History III.4: Durrow before the voyage; he turned the northern Picts to the faith; Iona the chief of his houses; the abbot over bishops; \"whatsoever he was himself\".",
-     "Bede III.3: Aidan, a monk of Iona, sent to Oswald in 635.",
-     "Bede III.25: the synod at Whitby, 664; Colman's defense of \"our most reverend Father Columba and his successors\"; the king's ruling.",
-     "Bede III.4 and V.22: Iona kept its custom until 715 or 716.",
+     "Adomn\u00e1n, Book II: King Brude's gates, shut against him, and the king's lasting honor; preaching through an interpreter, and a countryman baptized \"with all his household\".",
+     "Bede, Ecclesiastical History III.4: Durrow before the voyage; he turned the northern Picts to the faith; Iona the chief of his houses; the abbot over bishops, \"according to the example of their first teacher\"; his successors' self-control, love of God and life under a rule; Egbert, who corrected \"their error\".",
+     "Bede III.3: Aidan, a monk of Iona, sent to Oswald in 635, at the king's request for a bishop; his see on Lindisfarne; the English taught the monks' rule by Irish monks; Aidan's Easter by the custom of his country.",
+     "Bede III.25: the synod at Whitby, 664; Colman's defense of \"our most reverend Father Columba and his successors\"; the king's ruling; Colman's return to the Irish with those who would not change.",
+     "Bede III.4 and V.22: Iona kept its custom until 715 or 716, when Egbert brought it to the Roman Easter.",
      "Annals of Ulster and Annales Cambriae: 562 for the voyage; Huyshe: about 563, and 597 for the death.",
-     "World census, Insular / Irish Monastic Christianity: his setting; a church led by abbots rather than city bishops."
+     "World census, Insular / Irish Monastic Christianity: his setting; a church led by abbots rather than city bishops; pilgrimage as leaving home for good."
     ],
     "quotationOriginals": [
-     {
-      "modern": "those who seek the Lord will lack no good thing",
-      "printed": "But they that seek the Lord shall not want any good thing",
-      "work": "Adomn\u00e1n, Life of Saint Columba, Book III, quoting Psalm 33 (34) in the Vulgate, tr. Wentworth Huyshe",
-      "file": "cic/texts/adomnan_life-of-saint-columba_huyshe1905.txt",
-      "lines": "10785-10787",
-      "secondReading": "same"
-     },
-     {
-      "modern": "Here I must stop, at the bottom of this page. Let Baithene write what comes next.",
-      "printed": "\"Here\", he says, \" I must stop at the foot of this page, and what follows let Baithene write.\"",
-      "work": "Adomn\u00e1n, Life of Saint Columba, Book III, tr. Wentworth Huyshe",
-      "file": "cic/texts/adomnan_life-of-saint-columba_huyshe1905.txt",
-      "lines": "10787-10789",
-      "secondReading": "same",
-      "uncertain": "Adomn\u00e1n's Latin is not held; rendered from Huyshe's English."
-     },
-     {
-      "modern": "of their own accord",
-      "printed": "the doors open in all haste of their own accord",
-      "work": "Adomn\u00e1n, Life of Saint Columba, Book II, tr. Wentworth Huyshe",
-      "file": "cic/texts/adomnan_life-of-saint-columba_huyshe1905.txt",
-      "lines": "7888",
-      "secondReading": "same",
-      "uncertain": "A wonder, told in Adomn\u00e1n's voice."
-     },
-     {
-      "modern": "My sons, I entrust these last words to you. Love one another without pretense, and live in peace.",
-      "printed": "These my last words I commend to you, O my sons, that ye have mutual and unfeigned charity among yourselves, with peace",
-      "work": "Adomn\u00e1n, Life of Saint Columba, Book III, tr. Wentworth Huyshe",
-      "file": "cic/texts/adomnan_life-of-saint-columba_huyshe1905.txt",
-      "lines": "10815-10817",
-      "secondReading": "same",
-      "uncertain": "Adomn\u00e1n's Latin is not held; rendered from Huyshe's English. \"Charity\" is rendered \"love\", since its modern sense misleads. The sentence goes on with a promise, cut here."
-     },
-     {
-      "modern": "our most reverend Father Columba and his successors",
-      "printed": "our most reverend Father Columba and his successors",
-      "work": "Bede, Ecclesiastical History III.25, Colman at Whitby, tr. J. A. Giles, rev. L. C. Jane",
-      "file": "cic/texts/bede_ecclesiastical-history-english-people_giles1903.txt",
-      "lines": "8122-8123",
-      "secondReading": "same"
-     },
      {
       "modern": "But whatever kind of man he was, this much about him we hold as certain. He left successors known for great self-control, for the love of God, and for life under a rule.",
       "printed": "But whatsoever he was himself, this we know for certain, that he left successors renowned for their continency, their love of God, and observance of monastic rules.",
@@ -103608,6 +103600,62 @@
       "originalLines": "18882-18885",
       "secondReading": "same",
       "uncertain": "Rendered from Bede's Latin. An OCR mark after \"continentia\" is left out."
+     },
+     {
+      "modern": "to make a pilgrimage for Christ",
+      "printed": "wishing to make a pilgrimage for Christ from Ireland to Britain, he sailed forth",
+      "work": "Adomn\u00e1n, Life of Saint Columba, second preface, tr. Wentworth Huyshe",
+      "file": "cic/texts/adomnan_life-of-saint-columba_huyshe1905.txt",
+      "lines": "2224-2225",
+      "uncertain": "Adomn\u00e1n's Latin is not held; quoted from Huyshe's English.",
+      "secondReading": "same"
+     },
+     {
+      "modern": "according to the example of their first teacher",
+      "printed": "according to the example of\" their first teacher",
+      "work": "Bede, Ecclesiastical History III.4; English tr. J. A. Giles, rev. L. C. Jane, Latin ed. Charles Plummer",
+      "file": "cic/texts/bede_ecclesiastical-history-english-people_giles1903.txt",
+      "lines": "5863",
+      "original": "iuxta exemplum primi doctoris illius",
+      "originalFile": "cic/texts/bede_opera-historica-v1-historia-abbatum-lat_plummer1896.txt",
+      "originalLines": "18879",
+      "uncertain": "The quotation mark after \"of\" in the printed English is an OCR mark, left out.",
+      "secondReading": "minor"
+     },
+     {
+      "modern": "our most reverend Father Columba and his successors",
+      "printed": "our most reverend Father Columba and his successors",
+      "work": "Bede, Ecclesiastical History III.25, Colman at Whitby, tr. J. A. Giles, rev. L. C. Jane",
+      "file": "cic/texts/bede_ecclesiastical-history-english-people_giles1903.txt",
+      "lines": "8122-8123",
+      "secondReading": "same"
+     },
+     {
+      "modern": "their error",
+      "printed": "came among them, corrected their error",
+      "work": "Bede, Ecclesiastical History III.4, of Egbert, tr. J. A. Giles, rev. L. C. Jane",
+      "file": "cic/texts/bede_ecclesiastical-history-english-people_giles1903.txt",
+      "lines": "5884-5885",
+      "uncertain": "\"Error\" is Bede's word, written for the side that won.",
+      "secondReading": "minor"
+     },
+     {
+      "modern": "with all his household",
+      "printed": "a certain countryman, with all his household, hearing the word of life through an interpreter when the holy man preached, believed, and, believing, was baptized",
+      "work": "Adomn\u00e1n, Life of Saint Columba, Book II, tr. Wentworth Huyshe",
+      "file": "cic/texts/adomnan_life-of-saint-columba_huyshe1905.txt",
+      "lines": "7610-7613",
+      "uncertain": "Adomn\u00e1n's Latin is not held; quoted from Huyshe's English.",
+      "secondReading": "same"
+     },
+     {
+      "modern": "Here I must stop, at the bottom of this page. Let Baithene write what comes next.",
+      "printed": "\"Here\", he says, \" I must stop at the foot of this page, and what follows let Baithene write.\"",
+      "work": "Adomn\u00e1n, Life of Saint Columba, Book III, tr. Wentworth Huyshe",
+      "file": "cic/texts/adomnan_life-of-saint-columba_huyshe1905.txt",
+      "lines": "10787-10789",
+      "secondReading": "same",
+      "uncertain": "Adomn\u00e1n's Latin is not held; rendered from Huyshe's English."
      }
     ]
    }
@@ -108422,8 +108470,8 @@
    "overlayCurrent": false,
    "c2": null,
    "entry": null,
-   "teaser": "A Thuringian princess taken captive and married by the Frankish king Lothar, who left him to become a nun and founded the monastery of Holy Cross at Poitiers.",
-   "longDescription": "At Noyon, the king's nobles dragged a bishop back from his altar. A queen then put on a nun's dress herself and walked out to face the bishop.\n\nThis was the sixth-century kingdom of the Franks, in what is now France. Radegund was a Thuringian princess, taken as spoil when the Franks destroyed her people's kingdom. King Lothar carried her off as his captive and made her his wife.\n\nAs queen she tended poor women's sores herself, but when Lothar had her brother killed, she left the court and begged Medard, bishop of Noyon, to consecrate her. When he hesitated because she was married, and the nobles pulled him away, she charged him in words her friend the poet Fortunatus gives her. \"If you put off consecrating me, and fear a man more than God, then, shepherd, may the soul of your sheep be demanded from your hand.\" He laid his hand on her and made her a deaconess.\n\nHer own letter says she set up her monastery for women at Poitiers, founded and enriched by King Lothar. She gave it all the property the king had given her. Its written Rule, from Caesarius of Arles, kept each nun inside its walls for life.\n\nShe also sent to the emperor in the East for wood of the Cross, which came set in gold. Her writers compared her to Helena, Constantine's mother, who was said to have found the Cross. Gregory of Tours, a bishop who knew her, wrote that he saw a lamp before her Cross overflow with oil. From then on, he says, he preached the power of the holy Cross.\n\nTo guard the house after her death, she asked the bishops to stop anyone, even the city's own bishop, who tried to break the Rule or replace the abbess. \"Because I could not come in person,\" she wrote, \"I bow down through this letter in my place, as if fallen at your feet.\"\n\nShe died in 587, with about two hundred women in her house, and Gregory buried her. Soon afterwards forty or more of her nuns walked out in revolt, led by Clotild, who called herself a king's daughter and said they were insulted and humiliated there. The abbess read Radegund's letter aloud and sent copies to nearby bishops, and Gregory copied the whole letter into his History. At the bishops' hearing the abbess defended the house's ways as \"the custom of the lady Radegund\".",
+   "teaser": "A Thuringian princess taken captive and married by the Frankish king Chlothar, who left him to become a nun and founded the monastery of Holy Cross at Poitiers.",
+   "longDescription": "In the sixth century, a queen who had become a nun wrote to the bishops of Gaul about the years after her death. \"Because I could not come in person,\" wrote Radegund, \"I bow down through this letter in my place, as if fallen at your feet.\"\n\nRadegund had come to the Franks as a captive. By the end of her life she had founded a house for women at Poitiers, in what is now France. She gave it a written Rule and a relic of the Cross, and wrote this letter to guard it after she was gone.\n\nShe had been born a princess of the Thuringians. When the Franks destroyed her people's kingdom, she was taken as spoil and married to Chlothar, who later had her brother killed. She left the court for Medard, bishop of Noyon, and begged him to consecrate her to God.\n\nHer friend the poet Fortunatus tells what followed. Medard hesitated because she was a married woman, and the king's nobles dragged him from the altar. She put on a nun's dress and charged him. \"If you put off consecrating me, and fear a man more than God, then, shepherd, may the soul of your sheep be demanded from your hand.\" Medard consecrated her a deaconess.\n\nHer letter tells what she built. With King Chlothar's backing, she founded the monastery and gave it everything the king had given her. The Rule was one that Caesarius, bishop of Arles, had made for his sister's convent, and under it a nun stayed inside the walls for life. Women came from the bishops' own dioceses to live by it.\n\nWith the letters of King Sigibert, she sent to the emperor in the East for a piece of the wood of the Cross. The house came to be called Holy Cross. Gregory, a bishop who knew her, says the bishop of Poitiers would not receive the relic. So Sigibert sent the bishop of Tours, who brought it in with psalms, candles and incense.\n\nHer letter asked the bishops to guard her sisters from any tyrant. It made a second request as well: if anyone, even the city's own bishop, tried after her death to break the Rule or replace the abbess, they must stop him. Gregory later copied the whole letter into his History, which is how we still have it.\n\nWhen she died in 587, Gregory buried her, and about two hundred nuns stood around her body.\n\nSoon after, forty or more nuns walked out in revolt. The abbess read Radegund's letter aloud and sent copies to the bishops nearby. Before the bishops, the abbess said she had brought in no new custom, only what was done under the lady Radegund.\n",
    "reviewStatus": "AI-checked",
    "card": {
     "otherNames": [
@@ -108431,7 +108479,7 @@
      "Radegunde",
      "Saint Radegund of Poitiers"
     ],
-    "knownFor": "A Thuringian princess taken captive and married by the Frankish king Lothar, who left him to become a nun and founded the monastery of Holy Cross at Poitiers.",
+    "knownFor": "A Thuringian princess taken captive and married by the Frankish king Chlothar, who left him to become a nun and founded the monastery of Holy Cross at Poitiers.",
     "datesNote": "Died in the twelfth year of King Childebert, on the thirteenth of August by Baudonivia's Life, a year the editors give as 587",
     "placeNote": "Born a princess of the Thuringians; queen of the Franks; consecrated at Noyon; founded her monastery at Poitiers, where she died",
     "role": "Queen; nun and founder of the monastery of Holy Cross at Poitiers",
@@ -108506,14 +108554,13 @@
      ]
     },
     "briefReferences": [
-     "Gregory of Tours, History III.7, tr. O. M. Dalton: Lothar took Radegund captive, married her, and later had her brother killed.",
-     "Fortunatus, Life of Radegund I (Latin, ed. Krusch): the kings' quarrel over the captive; her care for poor women at Athies; her plea to Medard at Noyon; the nobles dragging him from the altar; her nun's dress and her charge; her consecration as a deaconess.",
-     "Radegund's letter, History IX.42: the monastery at Poitiers founded with the king's backing and endowed with all she had; the Rule of Caesarius and Caesaria; her request that the bishops stop anyone, even the bishop of the city, who would break the Rule or replace the abbess; \"I make prostration vicariously through this letter\".",
-     "History IX.39, the bishops' letter to her: a nun who enters may never leave.",
-     "History IX.40: the wood of the Cross from the East, with King Sigibert's letters. Baudonivia, Life II: the Cross set in gold and gems. Gregory, Glory of the Martyrs 5, and Baudonivia: the comparison with Helena.",
-     "History IX.2: her death and burial, Gregory present. Glory of the Confessors 104: about two hundred nuns at the bier; the bishop of Poitiers away. Editors: the year 587.",
-     "History IX.39 and IX.42: forty or more nuns walk out; the abbess reads Radegund's letter aloud and sends copies to the neighboring bishops. History X.16: \"the custom of the lady Radegund\".",
-     "Gregory, Glory of the Martyrs 5: the lamp before the Cross that overflowed, after which, he says, he preached the power of the holy Cross from then on.",
+     "Gregory of Tours, History III.7, tr. O. M. Dalton: Chlothar took Radegund captive, married her, and later had her brother killed.",
+     "Fortunatus, Life of Radegund I (Latin, ed. Krusch): the royal captive taken as spoil; her plea to Medard at Noyon; the nobles dragging him from the altar; her nun's dress and her charge; her consecration as a deaconess.",
+     "Radegund's letter, History IX.42: the monastery at Poitiers founded with the king's backing and endowed with all she had; the Rule of Caesarius and Caesaria; her request that the bishops guard the sisters from any tyrant, and stop anyone, even the bishop of the city, who would break the Rule or replace the abbess; \"I bow down through this letter in my place\".",
+     "History IX.39, the bishops' letter to her: a nun who enters may never leave; virgins flock from their dioceses to take up her Rule.",
+     "History IX.40: the wood of the Cross from the East, with King Sigibert's letters; the bishop of Poitiers will not receive it, and King Sigibert sends the bishop of Tours, who brings it in with psalms, candles and incense. Baudonivia, Life II: the request to the emperor. Krusch: the name Holy Cross.",
+     "History IX.2: her death and burial, Gregory present. Glory of the Confessors 104: about two hundred nuns at the bier. Editors: the year 587.",
+     "History IX.39 and IX.42: forty or more nuns walk out; the abbess reads Radegund's letter aloud and sends copies to the neighboring bishops, and Gregory copies the whole letter. History X.16: the abbess's answer that she brought in no new custom, only what was done under the lady Radegund.",
      "World census, Merovingian Gallic Christianity: her setting and tradition."
     ],
     "quotationOriginals": [
@@ -108537,14 +108584,6 @@
       "originalLines": "31516-31517",
       "secondReading": "same",
       "uncertain": "Rendered from the Latin, not Dalton's English. The OCR reads \"Ef quia\" for \"Et quia\" and \"epistidae\" for \"epistulae\". The sentence runs on, \"coniurans per Patrem...\", and is cut here."
-     },
-     {
-      "modern": "the custom of the lady Radegund",
-      "printed": "she had not introduced any new usage, but had continued the custom of the lady Radegund",
-      "work": "Gregory of Tours, History of the Franks X.16, the abbess's answer at the bishops' hearing, tr. O. M. Dalton",
-      "file": "cic/texts/gregory-tours_history-of-the-franks-v2_dalton1927.txt",
-      "lines": "21416-21418",
-      "secondReading": "same"
      }
     ]
    }
@@ -110743,7 +110782,7 @@
    "c2": null,
    "entry": null,
    "teaser": "Abbess of Hartlepool and then of Whitby, in Northumbria, who ruled a monastery of men and women. Bede says kings and princes sought her advice, five bishops came from her house, and she received the poet Caedmon into it. The synod of 664 on the date of Easter met at Whitby, where she held with the side Bede calls the Scots.",
-   "longDescription": "A man at a feast used to leave the table whenever the harp came near him, because he could not sing. One night, Bede says, someone stood by him in his sleep and told him to sing the beginning of created things, and next morning he was brought to the abbess, Hild.\n\nThis was the seventh century, in Northumbria, the kingdom of the English north of the River Humber. Its people had received the faith within living memory, from two missions: one from Rome, and one from the Irish monks of Iona, whom Bede calls the Scots. Her story comes to us almost entirely from Bede, a monk in the same kingdom, who wrote about fifty years after she died.\n\nThe daughter of King Edwin's nephew, she took the faith with Edwin at the preaching of Paulinus, the first bishop of the Northumbrians. At thirty-three she chose the monastic life, intending to live in Gaul as an exile for the Lord's sake, until Bishop Aidan called her home.\n\nShe ruled a house at Hartlepool, then gained land at Whitby, where she built, or set in order, a monastery for men and women. No one there was rich and no one poor, and she made her people study the Scriptures so closely that many became fit to be priests. Bede writes: \"All who knew her used to call her Mother, for her outstanding devotion and grace.\"\n\nIn 664 the kings met in her monastery, because the Irish-trained clergy and those who followed Rome kept Easter on different dates. Hild held with the Scots, the side of her teacher Aidan, but King Oswy ruled for the Easter of Rome, and Bede says all present agreed.\n\nWhen the steward brought the man to her, she had him repeat his verses before learned men. Because they judged his gift a grace from God, she made Caedmon a monk and had him taught sacred history, which he turned into English song. Bede says Caedmon's verses turned many minds to heaven, and that others after him attempted religious poems in English, but none could match him.\n\nAlthough a fever held her for six years, she kept teaching. She died at cockcrow in 680, after calling the women of her house together and urging them to keep the peace of the Gospel among themselves and with all others.\n\nOne man of her house, Oftfor, studied the Scriptures in both her monasteries, then went to Archbishop Theodore in Kent, and on to Rome, and later became a bishop. Bede saw what her house gave the young English church: \"Later we saw five bishops come from that same monastery. All of them were men of rare merit and holiness.\"",
+   "longDescription": "Caedmon, a man of Hild's house and no longer young, would leave the feast whenever the harp came near, because he could not sing. One night, Bede says, someone stood by him in his sleep and told him to sing the beginning of created things. In the morning he was brought to the abbess, Hild. Learned men judged the gift a grace from God, and she made him a monk and had him taught sacred history, which he turned into English song.\n\nHild ruled a monastery of men and women at Whitby, in Northumbria, and ran it on peace and charity. After the example of the earliest church, all goods were shared, so that no one there was rich and no one poor. She made her people study the Scriptures, so that many were fit to be priests.\n\nOf her house Bede wrote, \"Later we saw five bishops come from that same monastery. All of them were men of rare merit and holiness.\" In those days a bishop led the church of a whole region, and the English church was still young. Ordinary people, Bede writes, and sometimes even kings and princes, sought her advice.\n\nAlmost all we know of her comes from Bede, a monk in the same kingdom, who wrote about fifty years after she died. She was the daughter of King Edwin's nephew, and took the faith with King Edwin at the preaching of Paulinus. After thirty-three years of ordinary life she chose the monastic life, and after Bishop Aidan called her home from the East Angles, she ruled first Hartlepool, then Whitby.\n\nThe newly converted English had their faith from Rome and from the Irish monks of Iona, whom Bede calls the Scots, and the two kept Easter on different dates. In 664 the kings met in her house to settle the date of Easter. Bishop Colman led the Scots' side, and Hild and her people held with it, while the priest Wilfrid argued for Rome. King Oswy ruled for Rome's side, for Peter, keeper of heaven's keys, and Bede says all present agreed. Colman, his teaching rejected, went home with those who would not accept it, but Bede does not say how Hild took the ruling.\n\nA fever held Hild for six years, and she never stopped teaching her people. In the seventh year, in 680, she called the women together at cockcrow and urged them to keep the peace of the Gospel among themselves and with all others. All who knew her called her Mother.\n",
    "reviewStatus": "AI-checked",
    "card": {
     "otherNames": [
@@ -110779,14 +110818,14 @@
     "sources": {
      "about": [
       {
-       "title": "Ecclesiastical History III.24-25, IV.23-24 and 26, and V.24 (tr. J. A. Giles, ed. L. Cecil Jane, with his notes)",
+       "title": "Ecclesiastical History III.21, III.24-25, IV.5, IV.12, IV.23-24 and 26, and V.24 (tr. J. A. Giles, ed. L. Cecil Jane, with his notes)",
        "author": "Bede",
        "date": "1903",
        "language": "English translation",
        "file": "cic/texts/bede_ecclesiastical-history-english-people_giles1903.txt"
       },
       {
-       "title": "Historia ecclesiastica gentis Anglorum III.24-25 and IV.23, in Venerabilis Baedae Opera historica, volume 1, with Plummer's Introduction",
+       "title": "Historia ecclesiastica gentis Anglorum III.21, III.24-25, IV.5, IV.12 and IV.23, in Venerabilis Baedae Opera historica, volume 1, with Plummer's Introduction",
        "author": "Bede; Charles Plummer (ed.)",
        "date": "1896",
        "language": "Latin, with English introduction",
@@ -110816,27 +110855,15 @@
      ]
     },
     "briefReferences": [
-     "Ecclesiastical History IV.23 (Giles, ed. Jane; Plummer's Latin): her birth as daughter of Edwin's nephew; the faith with Edwin at the preaching of Paulinus; thirty-three years in the world; the plan to live in Gaul for the Lord's sake; Aidan calls her home; Hartlepool; Whitby, built or set in order; no one rich and no one poor; Scripture study and fitness for the altar; five bishops, among them Oftfor, who studied in both her monasteries, then went to Theodore in Kent and to Rome, and was later chosen bishop (Giles 10980-10990, 11002-11003); called Mother; six years of fever; her death at cockcrow, urging the peace of the Gospel.",
-     "Ecclesiastical History III.24: Oswy's daughter given to God in 655, Heruteu, and Whitby two years later.",
-     "Ecclesiastical History III.25: the synod of 664 at her monastery; Hild with the Scots; Oswy's ruling and all present assenting.",
-     "Ecclesiastical History IV.24: Caedmon at the feast, the one who stood by him in his sleep, the steward, the learned men, his making a monk and his songs of sacred history; others after him attempted religious poems in English.",
+     "Ecclesiastical History IV.23 (Giles, ed. Jane; Plummer's Latin): her birth as daughter of Edwin's nephew; the faith with Edwin at the preaching of Paulinus; thirty-three years in the world; Aidan calls her home from the East Angles; Hartlepool; Whitby; peace and charity, and all goods shared after the example of the earliest church; no one rich and no one poor; Scripture study and fitness for the altar; ordinary people, and sometimes kings and princes, seeking her advice; five bishops; called Mother; six years of fever; her death at cockcrow, urging the peace of the Gospel.",
+     "Ecclesiastical History III.25: the two Easters; the synod of 664 at her monastery; Colman leading the Scots' side and Wilfrid arguing for Rome; Hild with the Scots; Oswy's ruling for Peter, keeper of heaven's keys, and all present assenting; Colman going home with those who would not accept it; no word of how Hild took the ruling.",
+     "Ecclesiastical History IV.24: Caedmon at the feast, the one who stood by him in his sleep, the learned men, his making a monk and his songs of sacred history; his verses turning many minds toward heaven; others after him attempted religious poems in English, but none could match him.",
      "Ecclesiastical History V.24 and the end of the work: Bede finished in 731, about fifty years after her death.",
-     "Bede on the Northumbrians north of the Humber, and on the Scots from Ireland and Aidan from Iona (Hii).",
+     "Bede on the Scots from Ireland and Iona (Hii).",
+     "Ecclesiastical History III.21, IV.5 and IV.12 (Giles 7426-7431, 9358-9360, 9874-9880; Plummer's Latin 20711-20714, 23031-23033, 23690-23696): one bishop set over the Midland Angles and the Mercians for want of priests; the synod of Hertford putting off the making of more bishops as believers increased; Bosa, one of her five, set over the nation of the Deiri.",
      "World census, Anglo-Saxon Christianity: her tradition, converted within living memory by two missions."
     ],
     "quotationOriginals": [
-     {
-      "modern": "All who knew her used to call her Mother, for her outstanding devotion and grace.",
-      "printed": "quam omnes, qui nouerant, ob msigne pietatis et gratiae matrem uocare consuerant",
-      "work": "Bede, Historia ecclesiastica IV.23, ed. Charles Plummer",
-      "file": "cic/texts/bede_opera-historica-v1-historia-abbatum-lat_plummer1896.txt",
-      "lines": "24994-24995",
-      "englishPrinted": "whom all that knew her called Mother, for her singular piety and grace",
-      "englishFile": "cic/texts/bede_ecclesiastical-history-english-people_giles1903.txt",
-      "englishLines": "11014-11016",
-      "secondReading": "same",
-      "uncertain": "\"msigne\" is the OCR's reading of \"insigne\". Rendered from Bede's Latin; \"used to\" renders \"consuerant\"."
-     },
      {
       "modern": "Later we saw five bishops come from that same monastery. All of them were men of rare merit and holiness.",
       "printed": "Denique V ex eodem monasterio postea episcopos uidimus, et hos omnes singularis meriti ac sanctitatis uiros",
@@ -116024,7 +116051,7 @@
    "c2": null,
    "entry": null,
    "teaser": "Frankish noblewoman who wrote at Uz\u00e8s, from 841, a handbook of Christian conduct for her elder son William. It holds her own verses and her epitaph.",
-   "longDescription": "\"I see many people in this world who rejoice in their children with them. But I, Dhuoda, see myself kept far away from you, my son William.\" So begins a book written in the 840s at Uz\u00e8s, a town in the south of France that was then part of the Frankish empire Charlemagne had built.\n\nDhuoda was the wife of Bernard, a great lord of the south. Her kingdom and homeland were, in her words, \"in discord\", because after Charlemagne's son Louis died in 840, his sons fought over the empire. In 841 she bore a second son at Uz\u00e8s. Before the child was baptized, Bernard had him taken from her and brought to him in Aquitaine, with the bishop of Uz\u00e8s. When she wrote, she did not yet know the baby's name. She stayed on at Uz\u00e8s \"at my lord's command\", while William was sent to King Charles, to commend himself as his sworn man.\n\nThat November she began a handbook for William. She dictated it and had it written out and sent to him, and she asked him to read it as often as one looks in a mirror. It asks him to pray in short, pure words, to love God first and then his father, and to serve Charles faithfully and help widows and orphans. Nearly every voice that survives from the church of Charlemagne's heirs belongs to one of the clergy. Hers belongs to a noblewoman, and she claims her place as his teacher. \"My son, you will have teachers who will teach you more lessons, and greater ones, for your good. But they will not teach on equal terms, with a heart burning in the breast, as I do, your mother.\"\n\nShe worked on it for more than a year. In 844 the Franks judged Bernard guilty of treason, and on Charles's order he was put to death, while in 850 William was killed at Barcelona. The chronicles of her day name her husband and her son, but not her, and no record tells when or where she died.\n\nThe book was copied and kept. An early copy survives in fragments, and a later one agrees with it, so her editors could show the text is hers. In 1923, two translators of the Catholic catechism set out to answer the claim that the catechism began with Luther. Among their examples of Christian instruction from the ninth century on, they named \"the manual of Dhuoda\".",
+   "longDescription": "\"I see many people in this world who rejoice in their children with them. But I, Dhuoda, see myself kept far away from you, my son William.\" So begins the handbook of faith that a Frankish noblewoman, living at Uz\u00e8s in the south of France, dictated for her elder son. She began it in November 841, when William had just turned fifteen and had been sent to serve King Charles. That March she had borne a second son, and before he was baptized, her husband Bernard had the baby brought to him, with the bishop of Uz\u00e8s.\n\nShe meant the book to stand in her place. Reading it and praying, she wrote, William could see her, \"mind and body, as in a picture in a mirror.\" She was a noblewoman, not one of the clergy. Other teachers would teach him more, \"but they will not teach on equal terms, with a heart burning in the breast, as I do, your mother.\" And she told William to show the book to his little brother when the boy could read.\n\nShe worked on it for more than a year, and in seventy-three chapters she set out a Christian life for a young man at court. He must love God first and then his father, and pray in short, pure words. He must serve Charles faithfully and honor priests, help the poor, widows, orphans and pilgrims, and judge without taking gifts. And he must pray for the Church, for kings and for the dead.\n\nWhen the emperor Louis, Charlemagne's son, died in 840, his sons, Charles among them, went to war over the empire. Bernard, duke of Septimania, was in Aquitaine, and Dhuoda stayed on at Uz\u00e8s, as she says, at her lord's command.\n\nIn 844 the Franks judged Bernard guilty of treason, and on Charles's order he was put to death. In 848 William seized Ampurias and Barcelona by trickery, and in 850 he was captured by greater trickery and killed at Barcelona.\n\nHer book outlived the family. It was copied and kept, and printed in part in 1677 and whole in 1887. Its editor called it the oldest writing by a woman born in France to reach us. In 1923 two translators of the Catholic catechism named her manual among early works of Christian instruction, to answer the claim that the catechism began with Luther.\n\nAlmost all we know of her comes from her own book. The chronicles of her day name her husband and her son, but not her. In the book she writes her own epitaph and asks William to have it written on her grave, so that passers-by will pray for her. No record tells when or where Dhuoda died.\n",
    "reviewStatus": "AI-checked",
    "card": {
     "otherNames": [
@@ -116113,15 +116140,18 @@
      ]
     },
     "briefReferences": [
-     "Liber manualis, prologue (Paris copy only): \"Cernens plurimos ...\", why she writes, kept far from William.",
-     "Liber manualis, opening verses: the kingdom and homeland \"in discord\"; the acrostic to William, read by Delisle.",
-     "Liber manualis, preface: married at Aachen, 824; William born 826; Louis's death; the second son born at Uz\u00e8s in 841 and brought to Bernard in Aquitaine with Elefantus, bishop of Uz\u00e8s, before baptism; she stays at Uz\u00e8s \"sub jussione senioris mei\"; she dictated the book and had it written out and sent; a mirror and a board game.",
+     "Liber manualis, prologue (Paris copy only): Cernens plurimos ..., why she writes, kept far from William.",
+     "Liber manualis, preface: William born 826; Louis's death; the second son born at Uz\u00e8s in 841 and brought to Bernard in Aquitaine with Elefantus, bishop of Uz\u00e8s, before baptism; she stays at Uz\u00e8s sub jussione senioris mei; she dictated the book and had it written out and sent; a mirror.",
      "Liber manualis, book I and following: no teacher like a mother; short, pure prayer; love of God and then of his father; loyalty to Charles; widows, orphans and pilgrims (ch. 69).",
+     "Liber manualis, end of chapter VII (Paris copy only): the book as a mirror in which William sees her, mind and body; he is to show it to his little brother when the boy can read.",
+     "Liber manualis, table of chapters: seventy-three headings, among them prayer for every rank of the Church, for kings and for all the faithful dead.",
+     "Liber manualis, ch. 69: be a just judge and take no gifts.",
+     "Liber manualis, ch. 73: her epitaph, which she asks William to have written on her tomb so that passers-by pray for her.",
      "Liber manualis, closing note: begun on Saint Andrew's day, 30 November 841; finished on 2 February, the year missing.",
      "Nithard, Histories III.2: Bernard sends William to Charles to commend himself.",
-     "Annals of Saint-Bertin, 844: Bernard judged guilty of treason by the Franks and put to death on Charles's order; 850: William killed at Barcelona.",
-     "Bondurand's introduction, quoting Delisle and the Histoire litt\u00e9raire: the N\u00eemes and Paris copies agree; \"un monument respectable de literature et de pi\u00e9t\u00e9\"; the oldest writing by a woman born in France.",
-     "McHugh and Callan, translators' introduction to the Roman Catechism (1923): \"the manual of Dhuoda\" and the claim that the catechism began with Luther.",
+     "Annals of Saint-Bertin, 844: Bernard judged guilty of treason by the Franks and put to death on Charles's order; 848: William takes Ampurias and Barcelona by trickery; 850: William killed at Barcelona.",
+     "Bondurand's introduction, quoting Delisle: the N\u00eemes and Paris copies agree; the oldest writing by a woman born in France.",
+     "McHugh and Callan, translators' introduction to the Roman Catechism (1923): the manual of Dhuoda and the claim that the catechism began with Luther.",
      "World census, Carolingian Reform Christianity: her tradition and the setting in Charlemagne's empire; one of very few lay voices."
     ],
     "quotationOriginals": [
@@ -116135,39 +116165,22 @@
       "uncertain": "OCR faults kept: sgeculo = saeculo, proies = proles, ofili = o fili. Paris copy only."
      },
      {
-      "modern": "in discord",
-      "printed": "Licet sit discors regni et patrise.",
-      "work": "Dhuoda, Liber manualis, opening verses, ed. Bondurand",
+      "modern": "mind and body, as in a picture in a mirror.",
+      "printed": "ut quasi in picturam speculi, me mente et corpore legendo et Deum deprecando intueri possis",
+      "work": "Dhuoda, Liber manualis, end of chapter VII, ed. Bondurand",
       "file": "cic/texts/dhuoda_liber-manualis_bondurand1887.txt",
-      "lines": "2078",
-      "secondReading": "same",
-      "uncertain": "patrise = patriae: \"though kingdom and homeland are in discord\"."
+      "lines": "3165-3167",
+      "uncertain": "Paris copy only.",
+      "secondReading": "same"
      },
      {
-      "modern": "at my lord's command",
-      "printed": "sub jussione senioris mei",
-      "work": "Dhuoda, Liber manualis, preface, ed. Bondurand",
-      "file": "cic/texts/dhuoda_liber-manualis_bondurand1887.txt",
-      "lines": "2261-2262",
-      "secondReading": "minor",
-      "uncertain": "The scan reads jussioiie for jussione."
-     },
-     {
-      "modern": "My son, you will have teachers who will teach you more lessons, and greater ones, for your good. But they will not teach on equal terms, with a heart burning in the breast, as I do, your mother.",
-      "printed": "Fili, habebis doctores qui te plura et ampliora utilitatis doceant documenta, sed non jfiquali conditione, animo ardentis in pectore, sicut ego genitrix tua.",
+      "modern": "but they will not teach on equal terms, with a heart burning in the breast, as I do, your mother.",
+      "printed": "sed non jfiquali conditione, animo ardentis in pectore, sicut ego genitrix tua.",
       "work": "Dhuoda, Liber manualis, ed. Bondurand",
       "file": "cic/texts/dhuoda_liber-manualis_bondurand1887.txt",
-      "lines": "3168-3171",
-      "secondReading": "same",
-      "uncertain": "jfiquali = aequali. Paris copy only."
-     },
-     {
-      "modern": "the manual of Dhuoda",
-      "printed": "the manual of Dhuoda to his son, explaining Christian faith and morality (9th cent.)",
-      "work": "John A. McHugh and Charles J. Callan, introduction to the Catechism of the Council of Trent, 1923",
-      "file": "cic/texts/council-of-trent_roman-catechism_mchugh-callan1923.txt",
-      "lines": "829-830",
-      "secondReading": "same"
+      "lines": "3169-3171",
+      "uncertain": "jfiquali = aequali. Paris copy only.",
+      "secondReading": "minor"
      }
     ]
    }

@@ -3876,3 +3876,34 @@ They are not rewritten now. Each is recorded, and a rewrite would mean recording
     - **A claim outside this batch:** the Devotio Moderna movement's teaser says it "produced the most copied book of the Middle Ages after the Bible". The only held claim is J. M. Neale's "probably". Kempis's own teaser was corrected in release 51. The movement's teaser is for its entry's owner.
     - **Detector and length, for the batch 4 kit:** the variety detector can be beaten by dropping dates, and a recast once cut the heart of a piece (Alopen's 1625 finding). Lengths are now set per voice, from measured rates (Neo about 150 words a minute, Daniel about 128). Councils still run long: Chalcedon 4:19, Toledo 3:02.
     - **Partial second readings carried:** Kempis's "the little Gerson", Justin's "the only philosophy that is sure and useful" and Wyclif's one-sentence Hus line each carry the verdict of an earlier blind reading of the whole passage that holds them. No separate reading was made.
+
+328. **The heart back-check of batches 1 and 2: what is open (2026-11-18).** Source: `Build/Ministry/Operations/Audits/2026-11-18_heart-backcheck/` (one `Heart_Test.md` for each piece); Decision-Log, "Heart checks on batches 1 and 2; batch 4 is their rework" (2026-11-18).
+    - All twelve miss the heart in the first minute. They are reworked as batch 4. Owner: the coordinator.
+    - The older person briefs, about 238 of the census's 250, were written before the heart rule, to the same habit of a scene and a witness first. Whether to screen them, and how, is for Mark once batch 4 shows what the new kit does. Owner: Mark.
+    - The readers' notes beyond the heart, for the batch 4 outlines' Do not say lists:
+      - *Dhuoda.* "had him taken from her" leans toward the outline's forbidden "snatched from her"; the outline asks for "had him brought to him".
+      - *Macrina.* The outline's beat on Basil (contested) is not in the story.
+      - *Radegund.* The nuns' revolt detail ("insulted and humiliated") goes past the outline, though Gregory supports it.
+      - *Cyril and Methodius.* The outline's beats never name the brothers' translation of the Gospel, Apostle and Psalter (source sheet M20, Widely Accepted).
+      - *Antony.* His guiding of the monks as a father (source sheet E9) is not in the outline.
+      - *Hild.* The kings and princes who sought her advice (census `knownFor`, outline quote 2) are never used.
+
+329. **Batch 4, the rework of batches 1 and 2: what is open at the end of authoring (2026-11-18).** Source: `Build/Ministry/Operations/Audits/2026-11-18_batch-4/` (README, each folder's Review, Revision, Card_Edits and Card_Check, Second_Readings.md, Adjustment_Check.md); `Build/Ministry/Operations/Audits/2026-11-18_cft-needs-read/`; the Decision-Log entries of 2026-11-18. This updates the 2026-11-18 entry "The heart back-check of batches 1 and 2: what is open". That entry's first point, the twelve reworked as batch 4, is done; they are authored and in the census, and only the recording is left.
+    - **For Mark:**
+      - Cyril and Methodius has no census person entry, so its finished story and card are not released.
+      - Benedict's card keeps `uncertain[5]`, the note on the Totila rendering. The card check would remove it, but Open-Gaps 322 left it for him.
+      - Whether to screen the other person briefs, about 226 of the census's 250 now that 24 have the new kit, against the heart and the one-hearing rules.
+    - **Recording.** ElevenLabs reported a partial outage from about 15:40 UTC, and its API did not answer. Recording waits on it. Mark's go-ahead is "record and finish the batches" (2026-11-18). Owner: the coordinator.
+    - **Batch 3's recorded pieces with the faults the listeners named.** Justin, Vardan, Narsai and Arius are told out of order or twice. Chalcedon and Toledo have too many names. Arius and Nicaea shared material until Nicaea was adjusted. Baudonivia's story is mostly Radegund's. They are recorded, so changing them means recording them again. For Mark, after the batch 5 kit.
+    - **For the batch 5 kit** (`2026-11-18_cft-needs-read/`):
+      - one line through the life, nothing told twice;
+      - a names budget;
+      - sibling pieces briefed together, with one spelling for each name;
+      - the stock "almost all we know" line;
+      - an optional line about today.
+    - **For the site:** person pages link only to their tradition. A "named in this story" list, like the council pages have, would carry the links. Owner: a site build.
+    - **For the slate:** no piece yet tells how the Church of the East came to stand apart, and Protestant figures are few so far.
+    - **Readings with a stated limit:**
+      - B4-17, Cyril and Methodius, "the first bishop of the Bulgarian tongue": the Greek is unreadable OCR, so the verdict rests on the Latin.
+      - B4-16, "who wants to be called a heretic?": the held Latin is itself a translation of the Slavonic Life.
+      - Hild's "a bishop led the church of a whole region" is the narrator's summary of three Bede passages (source sheet B1), not Bede's words.
