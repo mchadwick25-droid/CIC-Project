@@ -242,6 +242,6 @@ A3. **The change came gradually, and the women were treated "as if" sisters.** C
 A4. **She led the women's side.** CONTEMP, eyewitness. Documented. Gregory's own word for her is τὴν καθηγουμένην, "the woman who led them", from the same verb the soldier uses for Peter on the men's side (A1). Clarke renders it "the abbess". Lampadia, a deaconess, was "leader of the band of sisters" (LIFE 278; M17).
 > LIFE 192: But the band of virgins on the women's side modestly waited in the church for us to arrive. But when the prayers and the blessing were over, and the women, after reverently inclining their head for the blessing, retired to their own apartments, none of them were left with us. I guessed the explanation, that the abbess was not with them.
 
-Greek (PG46 71147-71149): εἰκάσας ὅπερ ἦ[η]ν, μὴ ἐν ἐκ[χ]είναις εἶναι τὴν κ[χ]αθηγουμένην,
+Greek (PG46 71147-71148): εἰκάσας ὅπερ ἦ[η]ν, μὴ ἐν ἐκ[χ]είναις εἶναι τὴν κ[χ]αθηγουμένην,
 
 A5. **One widow is named as living there; the record does not give "widows" in number.** The *Life* names Vestiana, widowed young, who chose Macrina as guardian of her widowhood (LIFE 274, 276; C2). Say "a young widow", not "widows".
