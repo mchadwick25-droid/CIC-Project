@@ -6,7 +6,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 import check_standard_lock as lock  # noqa: E402
 
-PATTERN = lock.FOLDER + "Brief-Kit/Standard.md"
+PATTERN = lock.FOLDER + "Brief-Kit/Kit.md"
 
 
 def run(repo, *args):

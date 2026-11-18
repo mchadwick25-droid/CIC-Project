@@ -231,6 +231,8 @@ jobs:
               - 'tools/tests/test_check_brief_variety.py'
               - 'tools/list_second_readings.py'
               - 'tools/tests/test_list_second_readings.py'
+              - 'tools/check_tree_overlap.py'
+              - 'tools/tests/test_check_tree_overlap.py'
               - '.github/workflows/**'
             tree:
               - 'cic-website/**'
@@ -496,7 +498,7 @@ jobs:
 
   # Who and council profile briefs a PR adds or edits are graded: grade 10.0
   # at most on the full text, reading ease 60 or above with proper names left
-  # out (Brief-Kit/Standard.md). A brief the PR does
+  # out (Brief-Kit/Kit.md, Part 1). A brief the PR does
   # not touch, or only moves, is not read, so the briefs written before the
   # check do not fail a PR that leaves their words alone.
   # A PR that changes the Church Family Tree writing standard (Brief-Kit/,
@@ -523,7 +525,7 @@ jobs:
         with:
           python-version: "3.11"
       - run: pip install pytest
-      - run: python -m pytest tools/tests/test_check_standard_lock.py tools/tests/test_check_brief_variety.py tools/tests/test_list_second_readings.py -q
+      - run: python -m pytest tools/tests/test_check_standard_lock.py tools/tests/test_check_brief_variety.py tools/tests/test_list_second_readings.py tools/tests/test_check_tree_overlap.py -q
       - run: python tools/check_standard_lock.py --base "origin/${{ github.base_ref }}"
 
   profile-readability:

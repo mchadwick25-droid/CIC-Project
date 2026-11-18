@@ -4640,3 +4640,23 @@ Heard lengths: the people run from 2:07 (Baudonivia) to 3:12 (Arius). Toledo run
 - Radegund: her strongest moments earlier, and "Chlothar", as in Baudonivia's recorded piece.
 
 Each keeps its approved essence. One independent check follows, then the census, then the scripts go back to Mark. This is a change order on finished texts, because the faults are one-hearing faults, not polish. The kit changes for batch 5 come after.
+
+## 2026-11-18 — The brief kit for batch 5, as one document (Mark)
+
+**Why.** Four fresh listeners read the twenty-four new-kit stories and found the collection serves the tree (`Build/Ministry/Operations/Audits/2026-11-18_cft-needs-read/`). What they named was how a story is built for one hearing. Mark asked for "a cohesive kit that doesn't loose the quality we have achieved but helps narrow it in on the brief quality and content we need", decided one question at a time.
+
+**Decided (Mark, 2026-11-18).**
+1. **One line through the life** ("1"). After the hook and the essence, the beats follow the life once, in order: never the same event twice, never the ending and then back. A repeat or a jump back is blocking.
+2. **Every name earns its place** ("1 but the warning is 6 not 8 but not a cap"). A person is named only when they act in the story or are a link on the tree; anyone else is given by role; each source is named once. Past about six names, ask whether each is needed: a warning, not a cap. A new Names field in the outline. A name heard once that neither acts nor links is minor, and blocking only where the listener is lost.
+3. **How-we-know beside the claim** ("1"). Each witness is credited where their claim is told. A life resting on one witness is said once, inside a sentence about that witness. Where the doubt is the story, it becomes a scene. No stock how-we-know sentence.
+4. **Sibling stories briefed together** ("1"). At the slate, stories that share an event or a text each get their own job, and the later researcher reads the sibling first. No quote already used on the tree, unless Mark says so. One spelling across the tree. A new script, `tools/check_tree_overlap.py`, lists shared quotes and close spellings.
+5. **A line about today** ("make it optional and allowed"). One clause on who keeps this person, text or practice today, only where a held source or the tree's own sourced tradition entry says it. It sits with what came of them, never as the closing line, never as a moral.
+6. **One document** ("1", adopting the draft). `Standard.md`, `Shapes.md`, `Outline_Template.md` and `Process.md` become the four parts of `Brief-Kit/Kit.md`; the four files move to `Archive/Superseded-Method/Church-Family-Tree-Brief-Kit-2026-11-18/`. The role prompts point to its parts. Three British spellings in the old text become American.
+
+**Scope (Mark, 2026-11-18: "this is for work going forward, nothing that is complete").** The kit governs batch 5 onward. No finished story is reopened because of it.
+
+## 2026-11-18 — Batch 5: the slate and each story's job (Mark)
+
+**Why.** All 250 people on the tree have a story, but 226 were written before the new kit. The listeners' read named two gaps on the slate: nothing yet tells how the Church of the East came to stand apart, and Protestant figures are few (Open-Gaps 329).
+
+**Decided (Mark, 2026-11-18: "1"; then "i approve in a new thread").** Batch 5 rewrites twelve on the kit: Nestorius, Cyril of Alexandria, Barsauma of Nisibis, Babai the Great and Timothy I of Baghdad; Martin Luther, William Tyndale, John Calvin and John Wesley; Augustine of Hippo, Patrick of Ireland and Athanasius of Alexandria. Each story's job, and the live stories it must not repeat, are as written in `Launch-Prompts/CFT_Batch5_Launch_2026-11-18.md`. The ten older stories already recorded become batch 6. Batch 5 runs in a new session.
