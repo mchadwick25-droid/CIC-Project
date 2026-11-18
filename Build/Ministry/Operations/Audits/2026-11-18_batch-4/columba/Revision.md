@@ -53,3 +53,4 @@ The Essence line in `Essences.md` says "Bede says it turned the northern Picts".
 
 - Old: Not 3: no word of his own and no witness from his lifetime is held, so nothing more should be built.
   New: No word of his own and no witness from his lifetime is held. Up to about 3 minutes for a person (about 460 words), about 4 minutes 15 for a council (about 550); craft comes before time (Mark, 2026-11-18).
+- Recheck fix applied verbatim, 2026-11-18: "His picture is smaller than Bede's." → "His picture of the Picts is smaller than Bede's."
