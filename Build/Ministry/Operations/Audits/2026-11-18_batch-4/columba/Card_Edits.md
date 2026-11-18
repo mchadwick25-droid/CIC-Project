@@ -69,3 +69,4 @@ None.
 - secondReading "minor" set from Second_Readings.md B4-09, 2026-11-18.
 
 - secondReading "same" set from Second_Readings.md B4-10, 2026-11-18.
+- Bede line 5862 → 5863 (the quoted words are on 5863), matching the census, 2026-11-18.
