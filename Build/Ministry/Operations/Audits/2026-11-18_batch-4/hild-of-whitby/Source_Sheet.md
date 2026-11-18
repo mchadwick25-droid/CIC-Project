@@ -154,3 +154,7 @@ N4. The date of Caedmon's coming: not given.
 N5. Anything Hild said at the synod, or her reasons for her side: nothing.
 N6. Whitby's buildings, cliff, library or school as such: nothing. Bede names reading of Scripture and works of justice (M11) and "many learned men" there (HE 11199).
 N7. Who succeeded her as abbess: Bede names Elfleda and Eanfled as heads "then" in 685 (I3), not the handover.
+
+## Added for batch 4 (card check, 2026-11-18)
+
+B1. **A bishop over a whole people, in a young church.** This is the brief's "In those days a bishop led the church of a whole region, and the English church was still young". Bede never states it as a general rule. It is a fair summary of three held passages: Diuma set "over two nations" for want of priests (III.21; Giles 7426–7431, Plummer 20711–20714); Bosa, one of Hild's five bishops, set over the nation of the Deiri (IV.12; Giles 9874–9880, Plummer 23690–23696); and the Hertford council putting off the making of more bishops (IV.5, canon IX; Giles 9358–9360, Plummer 23031–23033). LATER (Bede). Widely Accepted as a summary; the narrator's gloss, not Bede's words.
