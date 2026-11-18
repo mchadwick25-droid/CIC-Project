@@ -129,4 +129,5 @@ One row per agent pass. Tokens are the subagent's own count as the harness repor
 | toledo, pachomius | fixes applied (Mark's ruling) | coordinator | — | each recheck's named sentence; two factual minors; scorer and variety pass; v4 kept |
 | toledo, pachomius | final check | Opus, low effort | 86,430 | both PASS: each blocking finding resolved against its source lines; nothing else changed |
 | third-council-of-toledo-589 | card | Sonnet | 134,161 | additions only (briefLength, 8 quotation originals, 9 references, a source); 2 claims left in place and flagged (the emended reading; "two places damaged") |
-| council-of-chalcedon-451 | fixes and cut to 560 (Mark's ruling) | Opus (same writer, resumed) | (count) | both content fixes; a new last line from Dioscorus's exile letter; 558 words; v4 kept |
+| council-of-chalcedon-451 | fixes and cut to 560 (Mark's ruling) | Opus (same writer, resumed) | 159,711 cumulative | both content fixes; a new last line from Dioscorus's exile letter; 558 words; v4 kept |
+| pachomius | card | Opus | 155,215 | briefLength; 7 sources (his Lives among them); 16 references; 3 quotation originals; 1 correction ("reach us through Palladius" → "through his Coptic and Greek Lives, through Palladius"); datesNote's credited "died 348" left for the checker |
