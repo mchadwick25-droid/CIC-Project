@@ -139,3 +139,5 @@ One row per agent pass. Tokens are the subagent's own count as the harness repor
 | (3 pieces) | second-reading comparison | Opus | 121,198 | 19 same, 7 minor, 0 changes meaning |
 | (3 cards) | card check | Opus | 167,076 | all 3 FIX, mechanical: Toledo a dropped OCR mark; Chalcedon a split quotation, a missing entry, two term entries; Pachomius a missing entry and datesNote 346/348; all claims left in place upheld |
 | (3 cards) | card-check corrections | Haiku | 107,335 | applied word for word; printed wordings verified by script against their lines (two flagged by the script: XML markup and an apparatus line, both as the checker's precedent allows) |
+| chalcedon terms | blind second reading | Opus, low effort | 74,896 | "from two" and "in two natures": same |
+| (batch) | authoring finished | — | — | all twelve briefs and cards through every step, second readings on all 52 quotations (1 changed meaning, re-rendered) |

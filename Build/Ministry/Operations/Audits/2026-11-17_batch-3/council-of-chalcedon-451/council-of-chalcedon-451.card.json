@@ -261,21 +261,24 @@
       "work": "Dioscorus of Alexandria, Session I of Chalcedon, as the acts minute it, tr. Henry Percival",
       "file": "cic/texts/npnf214_seven-ecumenical-councils.xml",
       "lines": "19254-19260",
-      "uncertain": "The words are minuted by the side that won. The brief's \"shameless\" is the Greek's sense of Percival's \"impudent\", and \"my soul is at stake\" renders \"touches my soul\"; Mansi's Latin has \"Cogor mihi res est impudenter agere: de anima est mihi sermo\" (tomus 6, 65950-65956, with the margin note at 65905), and its Greek column is garbled."
+      "uncertain": "The words are minuted by the side that won. The brief's \"shameless\" is the Greek's sense of Percival's \"impudent\", and \"my soul is at stake\" renders \"touches my soul\"; Mansi's Latin has \"Cogor mihi res est impudenter agere: de anima est mihi sermo\" (tomus 6, 65950-65956, with the margin note at 65905), and its Greek column is garbled.",
+      "secondReading": "minor"
     },
     {
       "modern": "Peter has spoken thus through Leo",
       "printed": "Peter has spoken thus through Leo.",
       "work": "The bishops' cry after the Tome was read, Session II, tr. Percival",
       "file": "cic/texts/npnf214_seven-ecumenical-councils.xml",
-      "lines": "20000"
+      "lines": "20000",
+      "secondReading": "same"
     },
     {
       "modern": "Leo and Cyril taught the same thing",
       "printed": "Leo and Cyril taught the same thing, anathema to him who does not so believe.",
       "work": "The bishops' cry after the Tome was read, Session II, tr. Percival",
       "file": "cic/texts/npnf214_seven-ecumenical-councils.xml",
-      "lines": "20002-20003"
+      "lines": "20002-20003",
+      "secondReading": "same"
     },
     {
       "modern": "not for the faith",
@@ -283,28 +286,32 @@
       "work": "Anatolius of Constantinople on Dioscorus's sentence, Session V, in the acts, Latin column, Mansi tomus 7",
       "file": "cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-7-451-492-lat_welter-facsimile1901.txt",
       "lines": "9807",
-      "uncertain": "Latin column, OCR as printed (long s read as f: \"eff\" for est). The speaker line is \"Anatolius reverendi(fimus archiepifcopus Con-\" (9802) and \"ftantinopolis dixit: *\" (9807). The sentence runs on across 9808-9819, each line shared with the garbled Greek column: \"damnatus Diofcorus , fed quia excommuni-\", \"cationem fecit domino archiepifcopo Leoni,\", \"& tertio vocatus ett, & noh venit, & ideo\", \"damnatus eft.\" (\"fed\" for sed, \"ett\" for est, \"noh\" for non). The brief's \"not for the faith\" renders \"Propter fidem non ... damnatus\". The refusers' chronicle quotes the same saying: \"Not for the faith is Dioscorus deposed\" (Zachariah III.1, tr. Hamilton and Brooks, cic/texts/zachariah-rhetor_chronicle_hamiltonbrooks1899.txt, 2321-2324)."
+      "uncertain": "Latin column, OCR as printed (long s read as f: \"eff\" for est). The speaker line is \"Anatolius reverendi(fimus archiepifcopus Con-\" (9802) and \"ftantinopolis dixit: *\" (9807). The sentence runs on across 9808-9819, each line shared with the garbled Greek column: \"damnatus Diofcorus , fed quia excommuni-\", \"cationem fecit domino archiepifcopo Leoni,\", \"& tertio vocatus ett, & noh venit, & ideo\", \"damnatus eft.\" (\"fed\" for sed, \"ett\" for est, \"noh\" for non). The brief's \"not for the faith\" renders \"Propter fidem non ... damnatus\". The refusers' chronicle quotes the same saying: \"Not for the faith is Dioscorus deposed\" (Zachariah III.1, tr. Hamilton and Brooks, cic/texts/zachariah-rhetor_chronicle_hamiltonbrooks1899.txt, 2321-2324).",
+      "secondReading": "same"
     },
     {
       "modern": "The most holy Leo or Dioscorus?",
       "printed": "Which would you follow, the most holy Leo or Dioscorus?",
       "work": "The imperial judges to the bishops, Session V, tr. Percival",
       "file": "cic/texts/npnf214_seven-ecumenical-councils.xml",
-      "lines": "20170-20171"
+      "lines": "20170-20171",
+      "secondReading": "same"
     },
     {
       "modern": "We believe as Leo",
       "printed": "We believe as Leo.",
       "work": "The bishops' answer, Session V, tr. Percival",
       "file": "cic/texts/npnf214_seven-ecumenical-councils.xml",
-      "lines": "20172-20173"
+      "lines": "20172-20173",
+      "secondReading": "same"
     },
     {
       "modern": "two natures",
       "printed": "Add then to the definition, according to the judgment of our most holy father Leo, that there are two natures in Christ united unchangeably, inseparably, unconfusedly.",
       "work": "The imperial judges to the bishops, Session V, tr. Percival",
       "file": "cic/texts/npnf214_seven-ecumenical-councils.xml",
-      "lines": "20175-20178"
+      "lines": "20175-20178",
+      "secondReading": "minor"
     },
     {
       "modern": "from two",
@@ -312,7 +319,8 @@
       "work": "The imperial judges, Session V, tr. Percival",
       "file": "cic/texts/npnf214_seven-ecumenical-councils.xml",
       "lines": "20166-20167",
-      "uncertain": "A term, not a saying: the brief's \"from two\" is the formula ἐκ δύο (19256), which Percival gives as \"of two\"."
+      "uncertain": "A term, not a saying: the brief's \"from two\" is the formula ἐκ δύο (19256), which Percival gives as \"of two\".",
+      "secondReading": "same"
     },
     {
       "modern": "in two natures",
@@ -323,7 +331,8 @@
       "englishPrinted": "must be confessed to be in two natures,",
       "englishFile": "cic/texts/npnf214_seven-ecumenical-councils.xml",
       "englishLines": "20288-20289",
-      "uncertain": "A term, not a saying: the Definition's formula. On the Greek of the acts, which reads ἐκ δύο, see the Definition's entry and Hefele (npnf214, 20361-20370)."
+      "uncertain": "A term, not a saying: the Definition's formula. On the Greek of the acts, which reads ἐκ δύο, see the Definition's entry and Hefele (npnf214, 20361-20370).",
+      "secondReading": "same"
     },
     {
       "modern": "One and the same Jesus Christ, Son, Lord, Only-begotten, is known in two natures: without confusion, without change, without division, without separation.",
@@ -334,7 +343,8 @@
       "englishPrinted": "This one and the same Jesus Christ, the only-begotten Son [of God] must be confessed to be in two natures, unconfusedly, immutably, indivisibly, inseparably [united],",
       "englishFile": "cic/texts/npnf214_seven-ecumenical-councils.xml",
       "englishLines": "20286-20292",
-      "uncertain": "Percival's English has \"must be confessed to be\" where the Greek has \"is known\" (γνωριζόμενον). Evagrius's Greek reads ἐν δύο (\"in two\"); Hefele, as Percival prints him, says the Greek text now in the acts reads ἐκ δύο (\"of two\") and the old Latin \"in duabus naturis\" (npnf214, 20361-20370)."
+      "uncertain": "Percival's English has \"must be confessed to be\" where the Greek has \"is known\" (γνωριζόμενον). Evagrius's Greek reads ἐν δύο (\"in two\"); Hefele, as Percival prints him, says the Greek text now in the acts reads ἐκ δύο (\"of two\") and the old Latin \"in duabus naturis\" (npnf214, 20361-20370).",
+      "secondReading": "minor"
     },
     {
       "modern": "the wives and daughters of the Alexandrians",
@@ -345,7 +355,8 @@
       "englishPrinted": "the soldiery towards the wives and daughters of the Alexandrians",
       "englishFile": "cic/texts/evagrius-scholasticus_ecclesiastical-history_walford1846.txt",
       "englishLines": "3394-3395",
-      "uncertain": "The Greek phrase is split across lines: \"ἔς τε τὰς γαμετὰς καὶ θυγα-\" at 5396 and \"τέρας τῶν ᾿Αλεξανδρέων\" at 5398, with an OCR-noise line between (5397), left out."
+      "uncertain": "The Greek phrase is split across lines: \"ἔς τε τὰς γαμετὰς καὶ θυγα-\" at 5396 and \"τέρας τῶν ᾿Αλεξανδρέων\" at 5398, with an OCR-noise line between (5397), left out.",
+      "secondReading": "same"
     },
     {
       "modern": "for the orthodox faith",
@@ -353,7 +364,8 @@
       "work": "History of the Patriarchs of Alexandria, life of Dioscorus I, tr. B. Evetts",
       "file": "cic/texts/severus-al-muqaffa_history-patriarchs-coptic-church-v1_evetts1904.txt",
       "lines": "34869-34870",
-      "uncertain": "A tenth-century compilation, the Coptic Church's own memory. OCR slips in the file (\"lie\" for He, \"us wife\" for his wife) are outside the quoted words."
+      "uncertain": "A tenth-century compilation, the Coptic Church's own memory. OCR slips in the file (\"lie\" for He, \"us wife\" for his wife) are outside the quoted words.",
+      "secondReading": "same"
     },
     {
       "modern": "the crown of martyrdom",
@@ -361,7 +373,8 @@
       "work": "History of the Patriarchs of Alexandria, life of Dioscorus I, tr. B. Evetts",
       "file": "cic/texts/severus-al-muqaffa_history-patriarchs-coptic-church-v1_evetts1904.txt",
       "lines": "35109-35110",
-      "uncertain": "\"ol\" is the OCR's reading of \"of\"."
+      "uncertain": "\"ol\" is the OCR's reading of \"of\".",
+      "secondReading": "same"
     },
     {
       "modern": "an opposite infection",
@@ -369,7 +382,8 @@
       "work": "Severus of Antioch, Letter I.1, Select Letters Book VI, tr. E. W. Brooks",
       "file": "cic/texts/severus-of-antioch_select-letters-book6-part1_brooks1903.txt",
       "lines": "720-722",
-      "uncertain": "Severus speaks some sixty years after the council. The file's own bracket marks the words he recalls saying to an inquirer."
+      "uncertain": "Severus speaks some sixty years after the council. The file's own bracket marks the words he recalls saying to an inquirer.",
+      "secondReading": "same"
     },
     {
       "modern": "That council tore into ten thousand pieces the whole robe of Christ, woven in one piece from the top.",
@@ -377,7 +391,8 @@
       "work": "Chronicle known as Zachariah's, Book III, tr. F. J. Hamilton and E. W. Brooks",
       "file": "cic/texts/zachariah-rhetor_chronicle_hamiltonbrooks1899.txt",
       "lines": "2181-2183",
-      "uncertain": "The brief's rendering also follows Michael the Syrian, who repeats the saying some seven hundred years later: \"déchira en dix mille morceaux la tunique intègre du Christ tissée d'une seule pièce\" (cic/texts/michael-the-syrian_chronique-tome2-livres-viii-xi-fra_chabot1901.txt, 2859-2860). The Syriac itself is not held."
+      "uncertain": "The brief's rendering also follows Michael the Syrian, who repeats the saying some seven hundred years later: \"déchira en dix mille morceaux la tunique intègre du Christ tissée d'une seule pièce\" (cic/texts/michael-the-syrian_chronique-tome2-livres-viii-xi-fra_chabot1901.txt, 2859-2860). The Syriac itself is not held.",
+      "secondReading": "minor"
     },
     {
       "modern": "foreign from our body",
@@ -385,7 +400,8 @@
       "work": "Dioscorus's letter from exile, as the chronicle known as Zachariah's preserves it, tr. Hamilton and Brooks",
       "file": "cic/texts/zachariah-rhetor_chronicle_hamiltonbrooks1899.txt",
       "lines": "2375-2376",
-      "uncertain": "The letter is held at second hand, in the refusers' chronicle."
+      "uncertain": "The letter is held at second hand, in the refusers' chronicle.",
+      "secondReading": "same"
     }
   ],
   "briefLength": "about 3 minutes 45 seconds",

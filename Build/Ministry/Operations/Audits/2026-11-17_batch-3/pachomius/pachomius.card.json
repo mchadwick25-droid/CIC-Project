@@ -135,7 +135,8 @@
       "work": "Bohairic Life of Pachomius, tr. Émile Amélineau, Histoire de saint Pakhôme (Annales du Musée Guimet 17)",
       "file": "cic/texts/amelineau_histoire-de-saint-pakhome-annales-guimet-17_leroux1889.txt",
       "lines": "5145-5146",
-      "uncertain": "Rendered from Amélineau's French; the Coptic is in the file but its OCR cannot be read. The Greek Life has no speech here (80985-80992)."
+      "uncertain": "Rendered from Amélineau's French; the Coptic is in the file but its OCR cannot be read. The Greek Life has no speech here (80985-80992).",
+      "secondReading": "same"
     },
     {
       "modern": "Pachomius, Pachomius, the will of God is that you serve the human race and unite them to Him.",
@@ -143,7 +144,8 @@
       "work": "Bohairic Life of Pachomius, tr. Émile Amélineau, Histoire de saint Pakhôme (Annales du Musée Guimet 17)",
       "file": "cic/texts/amelineau_histoire-de-saint-pakhome-annales-guimet-17_leroux1889.txt",
       "lines": "6247-6248",
-      "uncertain": "The file is OCR, kept as it stands: \"Pakliôme\" is Pakhôme, \"lu\" is tu, \"Iules\" is tu les, \"àLui\" is à Lui. The Life says the angel spoke \"par trois fois\", but the manuscript writes the name twice; the third \"Pakhôme\" is Amélineau's, by his note e (6260), and the modern rendering gives the name twice. Rendered from the French; the Coptic OCR cannot be read. The Greek Life's Latin gives the same charge without the name (81972-81974)."
+      "uncertain": "The file is OCR, kept as it stands: \"Pakliôme\" is Pakhôme, \"lu\" is tu, \"Iules\" is tu les, \"àLui\" is à Lui. The Life says the angel spoke \"par trois fois\", but the manuscript writes the name twice; the third \"Pakhôme\" is Amélineau's, by his note e (6260), and the modern rendering gives the name twice. Rendered from the French; the Coptic OCR cannot be read. The Greek Life's Latin gives the same charge without the name (81972-81974).",
+      "secondReading": "minor"
     },
     {
       "modern": "Take this blanket away from here at once. It is not right that I should be better off in anything than the other brothers.",
@@ -151,14 +153,16 @@
       "work": "Greek Life of Pachomius, in Daniel Cardon's Latin, Acta Sanctorum, May, vol. 3",
       "file": "cic/texts/acta-sanctorum_maii-tomus-3-lat-grc_palme1866.txt",
       "lines": "86630-86633",
-      "uncertain": "The file is OCR, kept as it stands: \"hine\" is hinc, \"iequum\" is aequum. \"inquit\" (he said) is the narrator's, not his words. Rendered from Cardon's Latin; the Greek is not held legibly."
+      "uncertain": "The file is OCR, kept as it stands: \"hine\" is hinc, \"iequum\" is aequum. \"inquit\" (he said) is the narrator's, not his words. Rendered from Cardon's Latin; the Greek is not held legibly.",
+      "secondReading": "same"
     },
     {
       "modern": "the monks of Tabenna",
       "printed": "some from that of the monks of Tabenna,",
       "work": "John Cassian, Institutes IV.1, tr. Edgar C. S. Gibson",
       "file": "cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
-      "lines": "18531"
+      "lines": "18531",
+      "secondReading": "minor"
     }
   ]
 }

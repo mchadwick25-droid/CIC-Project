@@ -207,7 +207,8 @@
       "work": "Acts of the Third Council of Toledo, Latin, Hispana collection (Madrid, 1808): the king's book of faith",
       "file": "cic/texts/collectio-canonum-ecclesiae-hispanae-toledo-iii-lat_1808.txt",
       "lines": "36661-36662",
-      "uncertain": "Line-end hyphen kept as the file has it: Fi- lio = Filio."
+      "uncertain": "Line-end hyphen kept as the file has it: Fi- lio = Filio.",
+      "secondReading": "same"
     },
     {
       "modern": "by reason rather than command",
@@ -215,7 +216,8 @@
       "work": "John of Biclaro, Chronicle, Latin, ed. Mommsen",
       "file": "cic/texts/chronica-minora-2_marcellinus-victor-tunnunensis-biclaro-isidore-mgh-aa-11-lat_mommsen1894.txt",
       "lines": "20314-20316",
-      "uncertain": "OCR: impcrio = imperio; con- verti = converti."
+      "uncertain": "OCR: impcrio = imperio; con- verti = converti.",
+      "secondReading": "same"
     },
     {
       "modern": "I will most gladly die for the religion I have held from my youth until now",
@@ -223,7 +225,8 @@
       "work": "Paul of Mérida, Lives of the Fathers of Mérida, Latin, Migne PL 80",
       "file": "cic/texts/paulus-emeritanus-braulio-sisebut-pl80-lat_migne1863.txt",
       "lines": "12068-12070",
-      "uncertain": "OCR: :tate = aetate; permarsi = permansi. Sunna's reply as Paul, a hostile witness, reports it."
+      "uncertain": "OCR: :tate = aetate; permarsi = permansi. Sunna's reply as Paul, a hostile witness, reports it.",
+      "secondReading": "minor"
     },
     {
       "modern": "that came from Arius",
@@ -231,7 +234,8 @@
       "work": "Acts of the Third Council of Toledo, Latin, Hispana collection (Madrid, 1808): the first anathema",
       "file": "cic/texts/collectio-canonum-ecclesiae-hispanae-toledo-iii-lat_1808.txt",
       "lines": "36900-36901",
-      "uncertain": "Line-end hyphen kept as the file has it: communio- nem = communionem."
+      "uncertain": "Line-end hyphen kept as the file has it: communio- nem = communionem.",
+      "secondReading": "same"
     },
     {
       "modern": "No one doubts that we and those before us went astray in the Arian heresy. We have now learned the faith of the Gospel and the apostles, within the Catholic church.",
@@ -239,7 +243,8 @@
       "work": "Acts of the Third Council of Toledo, Latin, Hispana collection (Madrid, 1808): the eighteenth anathema",
       "file": "cic/texts/collectio-canonum-ecclesiae-hispanae-toledo-iii-lat_1808.txt",
       "lines": "36981-36986",
-      "uncertain": "OCR: fi: dem = fidem; haerese is the file's spelling."
+      "uncertain": "OCR: fi: dem = fidem; haerese is the file's spelling.",
+      "secondReading": "same"
     },
     {
       "modern": "after long killings of Catholics and slaughter of the innocent",
@@ -247,14 +252,16 @@
       "work": "John of Biclaro, Chronicle, Latin, ed. Mommsen",
       "file": "cic/texts/chronica-minora-2_marcellinus-victor-tunnunensis-biclaro-isidore-mgh-aa-11-lat_mommsen1894.txt",
       "lines": "20408-20409",
-      "uncertain": "OCR: catholicoruni = catholicorum; neccs = necis."
+      "uncertain": "OCR: catholicoruni = catholicorum; neccs = necis.",
+      "secondReading": "same"
     },
     {
       "modern": "through almost all Spain and Gaul",
       "printed": "Quoniam pené per omnem Hispaniam sive Galliam idolatriae sacrilegium inolevit,",
       "work": "Acts of the Third Council of Toledo, Latin, Hispana collection (Madrid, 1808): canon XVI",
       "file": "cic/texts/collectio-canonum-ecclesiae-hispanae-toledo-iii-lat_1808.txt",
-      "lines": "37680-37681"
+      "lines": "37680-37681",
+      "secondReading": "same"
     },
     {
       "modern": "our people's new conversion",
@@ -262,7 +269,8 @@
       "work": "Acts of the Third Council of Toledo, Latin, Hispana collection (Madrid, 1808): the king's reason for the creed before the Lord's Prayer (canon II)",
       "file": "cic/texts/collectio-canonum-ecclesiae-hispanae-toledo-iii-lat_1808.txt",
       "lines": "37255-37258",
-      "uncertain": "The \"- \" at the start of line 37258 is a scan mark, not in the print."
+      "uncertain": "The \"- \" at the start of line 37258 is a scan mark, not in the print.",
+      "secondReading": "same"
     }
   ]
 }

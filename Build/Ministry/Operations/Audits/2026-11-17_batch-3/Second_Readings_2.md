@@ -66,3 +66,7 @@ These do not affect any verdict. Checked against the files:
 - Toledo Q8: "gentis" is on 37255 and "nostrae novellam conversionem" on 37258; 37256-37257 are blank.
 - Chalcedon Q8: the quoted words run 5244-5246, with the sentence going on past "γνωριζόμενον".
 - Chalcedon Q14: the clause opens on 2372-2373 ("that no / man shall say"), and the quoted words are on 2375-2376.
+
+## Applied (2026-11-18)
+
+Every card quotation for Toledo III, Chalcedon and Pachomius carries the verdict in the table above. Chalcedon's two term entries, "from two" and "in two natures", were second-read blind on their own (`Second_Readings_Blind_3.md`): both "same". No quotation in these three pieces changes meaning.
