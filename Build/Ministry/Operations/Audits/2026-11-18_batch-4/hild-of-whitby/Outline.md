@@ -10,6 +10,10 @@ Sheet references (S, M, I, L, D, N) point to `Source_Sheet.md` in this folder, w
 
 - **Shape:** Founder or leader.
 
+- **Essence.** She ruled a house of men and women at Whitby, where the Scriptures were read so closely that five bishops came from it. There she made Caedmon, a man who could not sing, a monk, and he turned the Bible into English song.
+
+- **Also told:** goods shared, no one rich or poor; kings seeking her advice; the synod of 664 in her house, and her side losing.
+
 - **Openings** (each leads straight into the house she ran):
   1. **Chosen.** A man at a feast who leaves the table whenever the harp comes near him, because he cannot sing. That night, Bede says, someone stood by him in his sleep and told him to sing the beginning of created things (M17). In the morning he is brought to the abbess, Hild; learned men judge the gift to be God's grace, and she makes him a monk (M18). The scene is resolved inside the opening, in her act, and turns at once to the kind of house it was. About 50 words.
   2. Bede's count: "Later we saw five bishops come from that same monastery" (Quote 1), then the question what kind of house that was. If this opening is used, the closing goes to Mother (Quote 3) or the York litany, not to Quote 1 again.
@@ -48,6 +52,7 @@ Sheet references (S, M, I, L, D, N) point to `Source_Sheet.md` in this folder, w
 - **Do not say:**
   - "Hild was King Edwin's niece." → "the daughter of King Edwin's nephew" (M1).
   - "Paulinus baptized her in 627" / "she was baptized as a girl of thirteen." → "she took the faith with King Edwin, at the preaching of Paulinus; Bede dates Edwin's baptism to 627." No age, no day (M2).
+  - "'took the faith with him' after naming her father (the nephew)." → name the king: "took the faith with King Edwin"; Bede never says her father, Hereric, took the faith, and he died in exile (M1, M2).
   - "born in 614." → "born about 614", and only if a date is needed: it is worked out from her age at death (S1).
   - Anything about her first thirty-three years beyond birth, kin and faith: no marriage, husband, children or deeds (M3, N2).
   - "Bishop Aidan was called home" (Giles's English). → "Aidan called her home" (M5, D7).

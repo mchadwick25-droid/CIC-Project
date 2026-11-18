@@ -4,6 +4,10 @@ Sheet references (S, E, I, L, D, G, A) point to `Source_Sheet.md` in this folder
 
 - **The heart of their life:** Antony heard one Gospel reading as spoken to him, gave away his inheritance, and went ever further into the Egyptian desert to live by prayer, work with his hands, and fasting (E2, E3, S7, E6–E8). Documented as the *Life*'s account. Others came after him; he directed them "as a father", and in the *Life*'s Greek "the desert became a city of monks" (E8, E9). Documented as the *Life*'s account. The *Life* written soon after his death was sent abroad as "a sufficient pattern" for monks, soon put into Latin, and changed lives far from Egypt: two court officials at Trier, and Augustine in Milan (I1a, I1c, I2). Documented: the *Life*'s own purpose, the Latin version, and Augustine's own account. Gregory of Nazianzus, preaching later in the same century, called it the laws of the monastic life set out as a story (A1; Documented as Gregory's words). A historian writing nearly a century later says his disciples flourished in Egypt, Libya, Palestine, Syria and Arabia (I3b; Widely Accepted as Sozomen's report). The book that tells his story is also the book that carried his way of life east and west.
 
+- **Essence.** He gave up everything for the Egyptian desert, and so many followed him that "the desert became a city of monks". The Life written about him carried his way of life across the Roman world.
+
+- **Also told:** the Gospel reading taken as spoken to him; guiding the monks "as a father"; the Latin translation; Trier and Augustine; disciples in Palestine, Syria and Arabia.
+
 - **Length:** stretch toward 3 minutes, about 440 words. Reason: a major figure (census marks him major, CEN 89063), and the heart is a spread across the Roman world that needs room (I1, I2, I3). The record of his own words is thin (G1), so the life itself stays tight. The first minute (about 150 words) must carry all three parts of the heart: the turn, the followers he guided, and the book that carried him.
 
 - **Setting:** Egypt, its villages and then its desert (S1, S2, E7, E11). Plain words: "a village in Egypt", "the Egyptian desert". Time: the three-hundreds; he lived on into the time of the emperor Constantine and his sons (S4, E16), who wrote to him late in life. Tradition: "the desert monks of Egypt", the men and women later called "the Desert Fathers and Mothers" (S6). No birth year as fact (D5); "the first monk" is not said (D3).
@@ -71,6 +75,7 @@ Sheet references (S, E, I, L, D, G, A) point to `Source_Sheet.md` in this folder
   - Do not give a year or a count of years for Gregory's sermon; the date 380 is an editor's (A1). Say 'later in the same century'.
   - Do not tell the healings as fact in the narrator's voice. Say that people crowded to him for healing, or 'the *Life* says...'; the voice that sent him to the mountain stays out or in the *Life*'s voice (E11, D8).
   - Do not say 'twenty years'; say 'nearly twenty years' (E8).
+  - (review, 2026-11-18) Do not hold the book's reach until after the first minute. By about word 150, say it was soon in Latin, name Trier and Augustine in Milan (one sentence pointing ahead), and give the spread to Palestine, Syria and Arabia with its historian. Tell the full Trier–Augustine chain later. Beats 1–2 stay within about 90 words.
 
 - **Leave out:**
   - "The first monk" or "father of all monks" as fact: the *Life* shows hermits before him, and Jerome backs Paul of Thebes (D3).

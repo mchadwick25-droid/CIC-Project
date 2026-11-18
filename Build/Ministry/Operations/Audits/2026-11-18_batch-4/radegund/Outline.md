@@ -4,6 +4,10 @@ Sheet references (S, L, Q, I, D, 4b, A) point to `Source_Sheet.md` in this folde
 
 - **The heart of their life:** A queen turned nun founded a monastery for women at Poitiers, with the king's backing, and gave it everything the king had given her (her own letter, L11; Documented). She gave it a written Rule, the one Caesarius of Arles wrote for his sister's convent, under which a nun stayed inside its walls for life (her letter and the bishops' letter, L13; Documented). She sent to the emperor in the East for a piece of the wood of the Cross, and the house came to be called Holy Cross (Gregory and Baudonivia, L16; Documented; the name rests on the editors, I3; Widely Accepted). Women came to her from the bishops' own dioceses, about two hundred by her death (the bishops' letter and Gregory, I2, L25; Documented). And she wrote a letter to the bishops to stand guard over the house after she died: protect the Rule, the abbess and the property against anyone, even the city's own bishop. When the house was torn by revolt after her death, the abbess read that letter aloud and sent copies to the bishops (her letter and Gregory, L19, I1; Documented).
 
+- **Essence:** A captive queen who became a nun, she founded a house for women at Poitiers, gave it a written Rule and a relic of the Cross, and wrote the letter that guarded it after she died.
+
+- **Also told:** all the king had given her; the name Holy Cross; the bishop of Poitiers refusing the relic; about two hundred women; the letter read in the revolt.
+
 - **Length:** 2 minutes 30 seconds (about 375 words, Neo). The heart now opens the story and takes the first minute, so the captive princess and the altar at Noyon, which give the founding its stakes, need room after it, and the letter's use after her death carries a third of the story. The record is rich and close to her, so this is room the story needs, not filler. She is not a major figure on the tree, so not 3 minutes.
 
 - **Setting, in words to say aloud:** "In the sixth century, in the kingdom of the Franks, in what is now France." "The church of Frankish Gaul." She came from Thuringia, a kingdom the Franks conquered (S1, S2, S6). Her house was at Poitiers (S4). She died in 587 (S5; the year is the editors' reckoning from Gregory's dating, Widely Accepted). Do not give a birth year or age.
@@ -67,6 +71,9 @@ Sheet references (S, L, Q, I, D, 4b, A) point to `Source_Sheet.md` in this folde
   - Say "consecrated her a deaconess", not "ordained her a deacon" (L8).
   - Say "the house came to be called Holy Cross", not that she named it so (I3).
   - Do not say whether she and Lothar had children, or give her brother a name (Sheet §6).
+
+  - Do not hold back any part of the heart past the first minute (about 150 words). The two hundred, the letter's guard against anyone, even the city's bishop, and the abbess reading it aloud in the revolt are all heart, not only "what came of them". Name the revolt reading in the first minute and tell it in full later. (Review, batch 4, 2026-11-18.)
+  - Do not say "the king" for the Cross's journey or its bringing-in: name King Sigibert (DAL 19605, 19610–19620). "The king" unnamed is heard as Lothar. (Review, batch 4, 2026-11-18.)
 
 - **Leave out:**
   - Childhood stories (wanting to be a martyr, play processions): told by a friend about years he did not see (L2).
