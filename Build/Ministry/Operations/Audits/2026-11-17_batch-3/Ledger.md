@@ -137,4 +137,4 @@ One row per agent pass. Tokens are the subagent's own count as the harness repor
 | (3 cards) | script check | script | — | original fields unchanged and in order except those listed |
 | (3 pieces) | blind second reading | Opus | 103,258 | all 26 rendered blind; Chalcedon Q7's Latin breaks off in the file |
 | (3 pieces) | second-reading comparison | Opus | 121,198 | 19 same, 7 minor, 0 changes meaning |
-| (3 cards) | card check | Opus | (count) | all 3 FIX, mechanical: Toledo a dropped OCR mark; Chalcedon a split quotation, a missing entry, two term entries; Pachomius a missing entry and datesNote 346/348; all claims left in place upheld |
+| (3 cards) | card check | Opus | 167,076 | all 3 FIX, mechanical: Toledo a dropped OCR mark; Chalcedon a split quotation, a missing entry, two term entries; Pachomius a missing entry and datesNote 346/348; all claims left in place upheld |
