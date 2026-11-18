@@ -147,4 +147,4 @@ One row per agent pass. Tokens are the subagent's own count as the harness repor
 | third-council-of-toledo-589 | evaluation fix | Opus, fresh writer | 120,814 | Sunna's exile after the plot (PAUL 12040–12071); credited as the Lives of the Fathers of Mérida; Leovigild's exiles added; 501 words (~3:39 in Daniel's voice); no quotation changed |
 | john-wyclif | evaluation fix | Opus, fresh writer | 137,542 | Hus's burning from Peter of Mladoňovice (Palacký); Sautre's burning in Thorpe's account (one follower; no other held burning tied to Wyclif); Oxford followers' recantation; 445 words; no quotation changed |
 | council-of-chalcedon-451 | evaluation fix | Opus, fresh writer | 134,311 | stake in plain words; names 15 → 10; owners clear; ends in Dioscorus's own time; 586 words (~4:17 in Daniel's voice) against Mark's 560: for Mark |
-| moses-the-black | blind second reading (new quote) | Opus, low effort | (count) | MINOR |
+| moses-the-black | blind second reading (new quote) | Opus, low effort | 78,120 | MINOR |
