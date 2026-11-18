@@ -148,3 +148,4 @@ One row per agent pass. Tokens are the subagent's own count as the harness repor
 | john-wyclif | evaluation fix | Opus, fresh writer | 137,542 | Hus's burning from Peter of Mladoňovice (Palacký); Sautre's burning in Thorpe's account (one follower; no other held burning tied to Wyclif); Oxford followers' recantation; 445 words; no quotation changed |
 | council-of-chalcedon-451 | evaluation fix | Opus, fresh writer | 134,311 | stake in plain words; names 15 → 10; owners clear; ends in Dioscorus's own time; 586 words (~4:17 in Daniel's voice) against Mark's 560: for Mark |
 | moses-the-black | blind second reading (new quote) | Opus, low effort | 78,120 | MINOR |
+| council-of-chalcedon-451 | evaluation-fix check | Opus | 109,453 | PASS on content; 586 words, cuts listed |
