@@ -106,6 +106,29 @@ Sayings naming only "Abba Moses" (not used as his, identity not shown in this ed
 - **The robber stories and the murder** come as report ("they used to say", "he was said to"), LH 333.
 - **Wonders:** the demon's blow at the well and the power over demons are Palladius's telling (LH 337).
 
+## Heart of his life: census check (added 2026-11-18)
+
+Census `moses-the-black`, knownFor: "A house-servant driven out for robbery who became a monk at Scete in Egypt, a priest and a teacher of seventy disciples." Role: "Monk and priest". Each claim against the held texts:
+
+| # | Census claim | What the sources hold | Source | Conf. | Verbatim |
+|---|---|---|---|---|---|
+| H1 | House-servant | Held. | LH 333 | Documented | "was house-servant to a government official" |
+| H2 | Driven out for robbery | Held, but not robbery alone: "immorality and brigandage". | LH 333 | Documented | "His own master drove him out because of his immorality and brigandage." |
+| H3 | A monk at Scete | Held. He gave himself to a monastery (LH 335); Isidore "the one who lived in Scete" guided him (LH 337); he died at Scete (LH 337). Palladius does not say the monastery he first entered was at Scete. | LH 335; 337 | Documented | "gave himself up to a monastery" / "So he died in Scete" |
+| H4 | A priest | Held. | LH 337; SOZ 39522 | Documented | "having become a priest" / "he was ordained presbyter over the monks at Scetis" |
+| H5 | Seventy disciples | Held. | LH 337 | Documented | "and he left seventy disciples" |
+| H6 | A teacher | Not in Palladius's words; held by the sayings, which show a brother coming to "Abba Moses, the Black" for a rule of life. | PAR2 88 | Documented as what the saying says; the event Inferential-Thin | "he went to Abbâ Moses, the Black, and said unto him, \"Father, tell me what I shall do; shall I go to the harvest?\"" |
+| H7 | (Not in census) Counted among the great fathers by the time Palladius wrote | Held. | LH 337 | Documented | "This was the manner of life of Moses the Ethiopian; he too was numbered \|90 among the great ones of the fathers." |
+
+## The barbarian saying (PAR2 1464): decision (added 2026-11-18)
+
+| # | Claim | Source | Conf. | Verbatim |
+|---|---|---|---|---|
+| B1 | A saying tells of barbarians at Scete killing "Abbâ Moses" and seven brothers; he quotes "Those who take the sword shall perish by the sword". It does not name him the Black or the Ethiopian. | PAR2 1464 | Documented as what the saying says; that it is this Moses, Inferential-Thin | "On one occasion when the brethren were sitting with Abbâ Moses, he said unto them, “Behold, this day have the barbarians come to Scete; rise up and flee.”" ... "‘Those who take the sword shall perish by the sword’ ”" |
+| B2 | Only the late Ethiopian Synaxarium ties this death, and the sword word, to Moses the Black. | ESX-M 37160–37163; 37185 | Late legend | "And Abba moses answered and said unto \| him, \" Peradventure I am he, O my father. For it is written. \| He who hath slain with the knife shall die by the knife\" (Mat- \| thew xxvi, 52). And when the Barbarians came" / "came and killed him. And with him were seven brethren who" |
+
+Decision: the saying is not told and not quoted. In the held texts its Moses is made the Ethiopian only by a witness about a thousand years late; the earlier witnesses, Palladius and Sozomen, say only that he died at Scete at seventy-five. Telling it with that limit audible would spend a large share of a two-minute story on a doubtful identity, and its sword line invites a link to the robber's sword that no source draws. The late Ethiopian memory of a violent death keeps one clause in the death beat, credited.
+
 ## Library sweep
 
 - **Card sources** (starting list): LH, SOZ, PAR2, CAS. All opened and read at the lines cited.

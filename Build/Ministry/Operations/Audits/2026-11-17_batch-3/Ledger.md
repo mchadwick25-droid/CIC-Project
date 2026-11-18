@@ -228,3 +228,4 @@ One row per agent pass. Tokens are the subagent's own count as the harness repor
 | narsai | heart test | Opus, medium | 98,671 | FIX: the founding of Nisibis at word 203; joins the rework |
 | moses-the-black | heart test | Opus, medium | 94,562 | FIX: Scete, priest, disciples late; joins the rework |
 | ten reworked | compile blind-reading requests (27 items) | Sonnet | 147,932 | all located |
+| moses-the-black | re-outline (heart of their life) | Opus | 120,357 | heart: robber to father of Scete; Abba Moses saying dropped |
