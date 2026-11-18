@@ -74,6 +74,7 @@ All files are under `cic/texts/`. Line numbers are the file's own. Full evidence
   - "The pope condemned him as a heretic in 1377" → papal letters denounced nineteen conclusions from his teaching. He was declared a heretic only in 1415, after his death.
   - Do not add "Morning Star of the Reformation", a birth year, a birthplace, or any description of his looks or temper for colour.
   - Keep "forty-five articles and 260 more"; do not round to "hundreds of errors".
+  - "Do not tell the stroke at Mass as settled → credit it to Shirley's account, and say that no friendly hand left any record of his life and death (fasciculi 2753-2755); Walsingham's judgment story stays in his voice or is left out." (added from Review.md, 2026-11-18)
 
 - **Leave out:**
   - John Ball and the rising of 1381. Knighton calls Ball his forerunner (knighton 16943-16947), but it is a hostile charge, and Vaughan rejects it. It needs more room than the story has to tell fairly.

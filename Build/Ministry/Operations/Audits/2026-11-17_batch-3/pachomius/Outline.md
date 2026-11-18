@@ -78,6 +78,8 @@ Every reference is to `Source_Sheet.md` (item codes) and through it to file and 
   - "Cassian read Jerome's Latin" → Cassian says only that he drew on the rule of "the monks of Tabenna".
   - "Jerome never met Pachomius" as a stated fact → "Jerome worked from books sent to him, more than fifty years after Pachomius died".
   - "The Great Persecution" → "the persecution" (the Lives' word).
+  - "Palladius's seven thousand placed after Jerome's Latin, or as 'living under it' where 'it' could be the Latin" → "Palladius, visiting Egypt, counts about seven thousand monks there under the rule". (added from Review.md, 2026-11-18)
+  - "The fellowship carried on unbroken after him (by leaving out the split)" → "it split after his death, and Theodore's letters urged the breakaways back". (added from Review.md, 2026-11-18)
 
 - **Leave out:**
   - The wonder stories (the crocodile, demons in many shapes, the vision of hell, the brother who walked on coals): a pile of wonders, and none carries the thread.

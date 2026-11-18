@@ -72,6 +72,7 @@ File paths are under `cic/texts/`. LH = `palladius_lausiac-history_clarke1918.tx
   - "Isidore cured him" as the narrator's claim → Isidore said, "In the name of Jesus Christ your dreams have ceased", and two months later Moses reported no more trouble (LH 337). Keep it as what Isidore said and what Moses reported.
   - Any year for his birth or death → none is held.
   - Do not merge him with the Abba Moses of Cassian's Conferences, a different monk (see the Source_Sheet, under links).
+  - "He swam the Nile at night" → the shepherd foiled him "one night"; the swim itself is not timed (LH 333). (added from Review.md, 2026-11-18)
 
 - **Leave out:**
   - The Ethiopian Synaxarium's conversion and abbacy details, which are late legend.

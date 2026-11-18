@@ -94,6 +94,7 @@ Sources by row number refer to `Source_Sheet.md` in this folder; file and lines 
   - "Arius argued at the council" or invented speeches at Nicaea → the record says his opinions were examined before the emperor and condemned; give no scene.
   - "Presbyter" without help → "a priest" or "a parish priest", ranking below the bishop.
   - "Arius recanted" → he and Euzoius gave a creed in Scripture's words; Socrates calls it pretence; that is Socrates's judgment.
+  - "His allies pressed for (or asked for) his reception" with no refusal or threat → "the bishop refused to admit him; Eusebius's party threatened to bring him to communion the next day against the bishop's wishes (Athanasius's account)." (added from Review.md, 2026-11-18)
 
 - **Leave out:**
   - Epiphanius's portrait and the 700 virgins: hostile caricature; it would take the story's room to place it fairly.

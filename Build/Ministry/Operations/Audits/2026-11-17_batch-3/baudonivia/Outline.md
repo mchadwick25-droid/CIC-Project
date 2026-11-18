@@ -79,6 +79,7 @@ File keys and line numbers are those of `Source_Sheet.md` (SRM2 = Krusch, MGH SR
   - Any year for Hildebert → the OCR "1197" (SRM2 28228) cannot be trusted. Say "in the Middle Ages".
   - "Hildebert praised her" or "preferred her" → he followed the bishop and took some of her miracles.
   - "Constantinople" → not in her text; she writes "the emperor" (SRM2 30250).
+  - "After her death in 587" or any 587 sentence where "her" could be heard as Baudonivia → name Radegund in the sentence that gives 587. (added from Review.md, 2026-11-18)
 
 - **Leave out:**
   - The revolt of Clotild and Basina against the abbess Leubovera (Gregory, Dalton 19405ff.): it belongs to the house's story, not to her book, and drawing it in invites a motive no source gives.

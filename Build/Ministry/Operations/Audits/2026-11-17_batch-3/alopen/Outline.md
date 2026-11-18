@@ -72,6 +72,7 @@ Line references are to files in `cic/texts/`. MAL = `malech_history-of-the-syria
   - "workmen digging a grave" → "workmen digging"; Legge says the accounts differ (LEGGE 3664–3666).
   - "he travelled the Silk Road", "across deserts", "by caravan" → leave out; the stone gives only clouds, winds, hardship and danger.
   - 636 or 630 → 635, the stone's year as Wylie and Legge give it.
+  - "That community outlived him" (or any after-life that is all favour) with no opposition and no end → "Buddhists spoke out against it around 699, and others mocked and slandered it about 712–713; the priests Lohan and Kie-leih held it together. In 845 an edict sent its foreign teachers, Christians and others, more than three thousand, back to ordinary life." (added from Review.md, 2026-11-18)
 
 - **Leave out:**
   - The year dispute (635/636/630), the name etymologies (Rabban, Ruben, Yahballaha, Legge's "a Syriac name") and the title wordings: card material.

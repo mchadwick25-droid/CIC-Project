@@ -79,6 +79,8 @@ Files are in `cic/texts/`; short names and full lines are in `Source_Sheet.md`.
   - "Born in 1380." Say "about 1380".
   - Do not give him a motive for the exile beyond what the Chronicle states: obedience to the pope's interdict, "exiles for justice' sake".
   - "Sorrow for sin" must not become "guilt" or "regret".
+  - "Do not tell the 1429 exile as a free choice alone. Say the canons stopped singing, were insulted and were driven out for keeping the ban, and that the community stayed three years in Frisia." (added from Review.md, 2026-11-18)
+  - "Do not gloss 'canon' as 'a priest' at his 1406 clothing. He was invested as a clerk and was a priest only later (Chronicle 1189–1192, 3417). Say 'a canon, living in community under the Rule of St Augustine'." (added from Review.md, 2026-11-18)
 
 - **Leave out:**
   - The Gersen-of-Vercelli argument and the Carthusian and Hilton claims in detail (Benham 606–661; Founders 1519–1524; Ingram 313–318): the card carries the debate; the audio says only that it is disputed.

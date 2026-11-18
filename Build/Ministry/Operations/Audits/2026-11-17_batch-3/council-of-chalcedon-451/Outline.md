@@ -92,6 +92,9 @@ Every reference points to `Source_Sheet.md` (item number) and through it to the 
 | Dioscorus died on an island / in Thrace | "In exile at Gangra" (E2, Evagrius: in Paphlagonia). |
 | Riot details as fact | "Priscus, who was in the city, says…" (E2). |
 | The division lasts to this day (narrator's claim) | If used, credit it: the Coptic History says Dioscorus's faith "persists in the see of the evangelist Saint Mark to this day" (E2). |
+| Alexandria rose / the city rose (alone) | Priscus, who was in the city, says the crowd burned soldiers alive in the old temple of Serapis, and the emperor's troops abused the women; the Syriac chronicle says believers were killed at the altar (E2). Tell both as plainly as the Definition. (added from Review.md, 2026-11-18) |
+| They kept Dioscorus's name (alone) | The Coptic History says he suffered 'for the orthodox faith' and died with 'the crown of martyrdom' (E2). (added from Review.md, 2026-11-18) |
+| Cyril on one side only | Both sides claimed Cyril: the council's acclamation 'Leo and Cyril taught the same thing' (B10), and the chronicle's 'his faith was like that of Athanasius, and Cyril' (Zachariah 2366–2367). (added from Review.md, 2026-11-18) |
 
 **Leave out**
 - The death of Nestorius on the road, his tongue eaten by worms, and Marcian's sympathy for him (Zachariah III.1): legend from a hostile witness; Evagrius disputes the recall (A8 context).

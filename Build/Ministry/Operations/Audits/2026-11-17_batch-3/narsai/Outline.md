@@ -73,6 +73,7 @@ File and line references point to `Source_Sheet.md` items and, through them, to 
   - "360 homilies survive." Say: Abdisho's 1200s catalogue credits him with 360 poems; forty-seven were printed in 1905.
   - "Barsauma's wife's jealousy caused the quarrel" as fact. If told, credit it to the History, and say Bar Hebraeus tells it another way (D6).
   - Adding a description of his face, voice, family or feelings beyond the sources.
+  - "Leaving out the charge at the Persian court, or the threat of fire. Say: the History tells that students later denounced him to the Persian king as an enemy of Persia." (added from Review.md, 2026-11-18)
 
 - **Leave out:**
   - The healing of the boy, the plague, the angels at his chair (E14; Mari): wonder stories from late or praising witnesses, and the shape warns against them.
