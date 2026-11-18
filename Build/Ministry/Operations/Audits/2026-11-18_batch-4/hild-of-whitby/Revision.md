@@ -14,7 +14,7 @@ Scorer: `467 words, grade 8.1 (names out 7.6), reading ease names out 76.5, 20.3
 1. **BLOCKING, the pronoun "him".** Fixed as the review gives it: "took the faith with King Edwin at the preaching of Paulinus." The brief no longer says or implies that her father took the faith.
 2. **MINOR, kings and princes at 151 and the synod at 166–189.** These are now "also told" parts, and a late one is fine. They stay where they were, at 152–164 and 165–187, inside the house paragraph where they belong. No change.
 3. **MINOR, Peter not tied to Rome.** Fixed: "King Oswy ruled for Rome's side, for Peter, keeper of heaven's keys, and Bede says all present agreed."
-4. **MINOR, the opening resolves by word 81.** The hook is now read as the first three sentences, ending at "the abbess, Hild" (word 51). The fourth sentence resolves the scene in her act and is the first half of the essence, so the scene is not left at her door. "No longer young" stays, as a Do not say safeguard. The opening sentences are unchanged.
+4. **MINOR, the opening resolves by word 81.** The hook is now read as the first three sentences, ending at "the abbess, Hild" (word 55). The fourth sentence resolves the scene in her act and is the first half of the essence, so the scene is not left at her door. "No longer young" stays, as a Do not say safeguard. The opening sentences are unchanged.
 5. **MINOR, the synod paragraph ran one act per sentence.** The ruling and the agreement now share a sentence. Colman's departure and Bede's silence on Hild are joined by contrast ("but"). The review's semicolon version would have made a 31-word sentence, past the limit, so I split it at the agreement instead. I added no "so": the cause stays in the record's own phrase, "his teaching rejected".
 6. **MINOR, the cold bishop gloss.** Took the review's suggestion: "In those days a bishop led the church of a whole region, and the English church was still young." It now opens its own paragraph with the five-bishops quote, after Caedmon's verses, so it no longer sits between "Mother" and the quote.
 
@@ -36,12 +36,12 @@ No sentence is wholly new. These sentences change the old brief's wording:
 
 ## Where the essence lands
 
-- The hook is three sentences and ends at word 51, at Hild.
+- The hook is three sentences and ends at word 55, at Hild.
 - Caedmon made a monk and taught, his English song: complete at word 82.
-- The house of men and women at Whitby: word 96.
+- The house of men and women at Whitby: word 95.
 - The Scriptures and many fit to be priests: word 139.
 - The five bishops, in Bede's voice: the essence is complete at **word 151**.
-- Also told: goods shared (by 124), kings and princes (by 164), the synod and her side losing (by 187). The synod is told fully at 233–318.
+- Also told: goods shared (by 124), kings and princes (by 164), the synod and her side losing (by 187). The synod is told fully at 259–351.
 
 ## Opening and ending
 
