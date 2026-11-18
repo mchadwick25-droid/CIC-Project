@@ -101,3 +101,5 @@ Fault from fresh listeners: the synod of 664 and the five bishops were each told
 **Quotes.** No new quoted span. The only quote is the card's Quote 1, word for word, now used once and in the first minute. The outline's close on Quote 1 under Opening 1 gives way to the ending on Mother, which the brief already had and which the outline allows.
 
 **Checks.** Essence by word 163 (house 92, Scriptures 130, five bishops 148; Caedmon in the hook). Also told: goods shared, kings and princes (195), the synod of 664 in her house and her side losing. Ending on the person unchanged. Scorer: 420 words, grade 7.6 (names out 7.2), reading ease names out 77.3, 19.1 words a sentence, longest sentence 29 words - pass (note: grade 7.6 is under 8: the listener read checks it is not flat).
+
+- Adjustment check fix applied verbatim, 2026-11-18: "he writes" → "Bede writes".

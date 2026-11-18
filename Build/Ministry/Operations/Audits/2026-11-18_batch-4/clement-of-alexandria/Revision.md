@@ -68,3 +68,5 @@ Sentences changed:
 No new quoted span. Every other sentence is the old brief's, word for word. The essence still lands by word 152 and the hook is unchanged; both "also told" parts stay. Alexander's letter stays, now before the ending.
 
 Profiler: 411 words before, 409 after, grade 7.1 (names out 5.9), reading ease 79.9, longest sentence 26 words: pass. Earlier version kept as `clement-of-alexandria.brief.v3.txt`.
+
+- Adjustment check fix applied verbatim, 2026-11-18: "Of him, Clement wrote," → "Here Clement gives him no name:".
