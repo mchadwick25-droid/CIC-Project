@@ -245,6 +245,8 @@ At the close of the chapter (R1 1785; ANF1 16532–16534) he says these things a
 - Irenaeus, Against Heresies I.28.1 (~15 years after; hostile to Tatian). ANF1 33655–33672 (fuller than I3): the Encratites "preached against marriage"; "A certain man named Tatian first introduced the blasphemy … after his martyrdom he separated from the Church … he declared that marriage was nothing else than corruption and fornication. But his denial of Adam's salvation was an opinion due entirely to himself."
 - Census entry `tatian` (`cic-website/data/world-census.json`), told within `syriac-edessa-nisibis`: "A hearer of Justin Martyr who attacked Greek learning in his Address to the Greeks and wove the four Gospels into one, the Diatessaron." (Census, not a source.)
 
+**H6. The Second Apology's address.** Own words. Documented. R2 97 (chapter 1): "Καὶ τὰ χθὲς δὲ καὶ πρώην ἐν τῇ πόλει ὑμῶν γενόμενα ἐπὶ Οὐρβίκου, ὦ Ῥωμαῖοι," ("And what happened yesterday and the day before in your city under Urbicus, O Romans"). It is not addressed to the emperor by name in the held text (see D6).
+
 **H5. Eusebius's name for him.** Later, ~150 years. EUS 21864–21866 (Church History IV.8.3): "Justin, a genuine lover of the true philosophy, was still continuing to busy himself with Greek literature." Used on the card; not needed in the audio.
 
 ---

@@ -159,3 +159,6 @@ One row per agent pass. Tokens are the subagent's own count as the harness repor
 | baudonivia | re-outline (heart of their life) | Opus | 142,395 | heart: what her Life of Radegund tells |
 | thomas-a-kempis | re-outline (heart of their life) | Opus | 138,882 | heart: what the Imitation teaches |
 | third-council-of-toledo-589 | re-outline (heart of their life) | Opus | 166,348 | heart: the Goths' faith given up; and the Son |
+| vardan-mamikonian | re-outline (heart of their life) | Opus | 143,864 | heart: refusal, Avarayr, freedom won in 452 and c.484 |
+| justin-martyr | re-outline (heart of their life) | Opus | 158,526 | heart: the defence, the Word, Sunday, Tatian |
+| council-of-chalcedon-451 | re-outline (heart of their life) | Opus | 165,809 | heart: the Definition and the two families of churches |
