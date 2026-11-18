@@ -29,12 +29,12 @@ Each folder holds `<slug>.original.card.json`, the card as it stood when the bat
 
 | Criterion | Target | Result |
 |---|---|---|
-| Pass first review | 10 of 12 | |
-| Pass the one-hearing test at first review | 12 of 12 | |
-| No quotation changes meaning at second reading | 0 | |
-| Within the outline's length | 10 of 12 | |
-| No opening or ending move in more than 3 of 12 | variety check | |
-| Mark passes all 12 by ear | 12 of 12 | |
+| Pass first review | 10 of 12 | 2 of 12 (missed); after the change order, 6 of 12 passed review 2 at first sitting |
+| Pass the one-hearing test at first review | 12 of 12 | 12 of 12 (met) |
+| No quotation changes meaning at second reading | 0 | 1 of 53 at first (Arius, re-rendered); 0 of 31 new quotations after the rework |
+| Within the outline's length | 10 of 12 | missed; lengths now set per voice |
+| No opening or ending move in more than 3 of 12 | variety check | met after recasts (3 of 12 later-witness endings) |
+| Mark passes all 12 by ear | 12 of 12 | 12 of 12 after the heart-first rework (Mark, 2026-11-18) |
 
 ## Models
 
