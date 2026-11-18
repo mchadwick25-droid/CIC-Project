@@ -2109,7 +2109,7 @@ ROWS: list[dict] = [
                    "life the way Cyprian's and Augustine's own corpora are.",
         body="Named for completeness and for the corpus-map placement question Doc_01 SS8 item 2 "
              "hands to Doc_02 -- left standing rather than re-homed, since re-homing a census entry "
-             "is outside this build thread's own editing authority (Doc_02 SS1, SS9 item 11).",
+             "is outside a world build's own editing authority (Doc_02 SS1, SS9 item 11).",
     ),
     dict(
         row=99, slug="delehaye-passions-des-martyrs-genres-litteraires-standing-reference",
