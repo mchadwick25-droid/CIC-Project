@@ -4626,3 +4626,17 @@ Heard lengths: the people run from 2:07 (Baudonivia) to 3:12 (Arius). Toledo run
 **Correction (2026-11-18).** In crediting Columba's Picts claim to Bede, the essence page said "Bede says it [Iona] turned the northern Picts". Bede says Columba did, as Mark's approved heart had it ("Bede says he turned the northern Picts to the faith"). `Essences.md` is corrected to "he". Separately, the reviser prompt asked for each review's Do not say lines to be added to the outline word for word. Some of those lines carry the old rule that every part of the heart is timed to the first minute. Mark's ruling on hook, essence and ending replaced that rule, so those timing lines are superseded and removed from the outlines.
 
 **Martin's length (Mark, 2026-11-18: "1").** With the cloak restored, Martin of Tours ran 678 words, about 4:30. It is trimmed to about 3:45 (about 560 words). The cloak, the Milan expulsion, Trier and the funeral stay. The first quote is cut to its core, and the tomb, Gregory and Clovis paragraph is cut to one sentence. One targeted check follows.
+
+## 2026-11-18 — Change order: six batch 4 stories adjusted before recording
+
+**Why.** Mark asked for an analysis of whether the twenty-four new stories meet the Church Family Tree's needs ("this is not to see if things are wrong or getting perfect, it is do they successfully meet the needs of church family tree?"). Four fresh listeners read them: a newcomer, a churchgoer, a teacher, and a product reader judging how each story sits on its page. They gave 52 "meets", 43 "mostly" and 1 "misses" of 96 verdicts (`Build/Ministry/Operations/Audits/2026-11-18_cft-needs-read/`). The collection serves the tree. The faults they named are about how a story is built for one hearing: told out of order or told twice, too many names, sibling pieces overlapping, and the subject slipping. Batch 3 is recorded already; batch 4 is not.
+
+**Decided (Mark, 2026-11-18: "hold the audio"; then "1").** The audio is held. Six unrecorded batch 4 stories get only the fault the readers named:
+- Hild: the synod and the five bishops told once; Hild the subject after the hook.
+- Martin: Worms told once.
+- Benedict: Carloman and Charlemagne told once; one line through the life.
+- Nicaea: an opening not shared with Arius's piece, without Jerome's "the world groaned", and with fewer names.
+- Clement: an ending on him.
+- Radegund: her strongest moments earlier, and "Chlothar", as in Baudonivia's recorded piece.
+
+Each keeps its approved essence. One independent check follows, then the census, then the scripts go back to Mark. This is a change order on finished texts, because the faults are one-hearing faults, not polish. The kit changes for batch 5 come after.
