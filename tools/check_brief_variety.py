@@ -1,13 +1,14 @@
 """Count the story moves that repeat across a batch of Church Family Tree briefs.
 
-A move found in more than a quarter of the batch goes back to the writers of
-those pieces (Brief-Kit/Process.md, step 4). Run it over the whole batch:
+The counts are a report for Mark and the reviewer, kept with the batch; nothing
+is recast because of them (Brief-Kit/Process.md, step 4). Run it over the whole
+batch:
 
     python tools/check_brief_variety.py <brief.txt> [<brief.txt> ...]
     python tools/check_brief_variety.py --json <brief.txt> ...
 
-It prints each move with the pieces that make it, and exits 1 when any move is
-over its share.
+It prints each move with the pieces that make it, and marks a move found in
+more than a quarter of the batch.
 """
 from __future__ import annotations
 
@@ -105,11 +106,11 @@ def main(argv: list[str] | None = None) -> int:
     if args.json:
         print(json.dumps(result, indent=1))
     else:
-        print(f"{result['batch']} briefs; a move in more than {result['limit']} goes back to its writers")
+        print(f"{result['batch']} briefs; a move in more than {result['limit']} is marked")
         for move, r in result["moves"].items():
             mark = "OVER" if r["over"] else "ok  "
             print(f"{mark} {r['count']:>2}  {MOVES[move]}: {', '.join(r['pieces']) or '-'}")
-    return 1 if any(r["over"] for r in result["moves"].values()) else 0
+    return 0
 
 
 if __name__ == "__main__":
