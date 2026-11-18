@@ -133,7 +133,7 @@ Checked against the census (`role` "Monk and founder of communal monasticism"; `
 
 **H1. Before him, monks of Egypt lived each on his own.** Later, near-contemporary (Greek Life), and editors. Widely Accepted that the solitary life came first.
 > Greek 81103-81107 (he goes to Palamon to live alone with him): "Mox Pachomius, vehementiore erga Deum ca- ritate motus, qua ratione inter monachos vitam agere posset circumspexit. Posteaquam igitur de Anachoreta quodam, qui f Palaemon vocabatur, fa- maaccepit, mox, ut solitariam cum eo vitam viveret, ad hominis cellam profectus est."
-> Bohairic 5330-5331: "il résolut de se faire moine et d’embrasser la vie anachorétique"
+> Bohairic 5330-5331: "il résolut de se faire moine et d’embrasser la vie anachorétique2" (the 2 is Amélineau's note mark)
 > Ladeuze (editor, 1898) on Palamon's rule, 9500-9501: "Aucune trace de vie commune dans ces pratiques (2). G'est la vie anacho- rétique, mais non cénobitique, qui nous est ici présentée."
 > Schodde (editor, 1885), 138: "But among these there was no external connection; each one selected the place best suited to his wants, and worshipped and served God according to his own way and manner. Before the day of Pachomius, however, we already read of lavpat [laurai], i. e., streets or collection of monk cells." So "alone" means each by his own way, not always out of sight of others: a pupil could live with an old teacher, as Pachomius did with Palamon.
 
@@ -143,21 +143,21 @@ Checked against the census (`role` "Monk and founder of communal monasticism"; `
 > 86894-86896: "Alius quidem ante, cui Aotete nomen, voluit tale mi- nisterium suscipere : verum quia non ex toto corde ei rei studuit, successu conatus ille earnit [caruit]."
 
 **H3. His own reported words: the few apart, against "we" in nine monasteries.** Greek Life 86420-86425 (his answer at Latopolis, E12). Later, near-contemporary. Widely Accepted as the Life's account.
-> "Preterea ubi pauci sunt Monachi, seorsim inveniuntur duo, vel quinque, vel decem ut summum, et hi non absque ingenti labore, invicem sese in Dei timore gubernant : nos autem, qui tanta modo su- mus multitudine, et novem c omnino monasteria complemus"
+> "Preterea ubi paucisunt Monachi, seorsim inveniuntur duo, vel quinque, vel decemut summum, et hi non absque ingenti labore, invicem sese in Dei timore gubernant : nos autem, qui tanta modo su- mus multitudine, et novem c omnino monasteria complemus"
 
 **H4. Hermits and whole communities came under his rule.** Bohairic. Later. Widely Accepted (Bohairic only in these details).
 > 6337-6341: "11 [Il] y avait en un lieu cinq frères vivant en anachorètes, c’étaient des hommes puissants dans l’œuvre de Dieu ... Ayant appris la nouvelle de sa foi salutaire, ils se levèrent; ils allèrent le trouver pour rester près de lui."
 > 8180-8183 (an older community at Schénésît asks to join): "un vieillard ancien nommé apa Ebôneh, père d’une communauté appelée Sclienesit [Schénésît], ayant appris la réputation de notre père Pakhôme, envoya vers lui le prier et lui dire : « Je désire que mon monastère soit sous la règle1 du cé- nobitisme que Dieu t’a donnée"
-> 8176-8178 (the second house, Phbôou, built "selon les règles du premier monastère"): "il bâtit aussi les maisons2. Il (y) établit des surveillants et des seconds, selon les règles du premier monastère". Amélineau's note 2 (editor, 8191): "C’est- à-dire des cellules à trois".
+> 8175-8178 (the second house, Phbôou, built "selon les règles du premier monastère"): "jusqu’à ce qu’il eût bâti le mur d’enceinte du monastère. 11 [Il] bâtit ensuite une petite église1 selon la pensée de l’évêque de Diospolis ; il bâtit aussi les maisons2. Il (y) établit des surveillants et des seconds, selon les règles du premier monastère". Amélineau's note 2 (editor, 8189-8190): "C’est- à-dire des cellules à trois".
 
 **H5. How the shared life was laid out (from outside).** Jerome's preface, about 404, describing the Tabennesiots from the books sent him. Later, about 55 years. Widely Accepted (it agrees with the Bohairic, E9). Two-column OCR: Jerome's text and Vallarsi's notes alternate; the lines below are Jerome's.
-> 4388-4397: "qui habent per singula monasteria patres, et dispensatores, et hebdomadarios, ac ministros, et singularum domorum Prepositos, ila [ita] ut in una domo quadraginta plus minusve fratres habitent, qui obediant Preposito; sintque pro numero fra- trum triginta, vel quadraginta domus in uno mo- nasterio, et ternz [ternae], vel quaterna domus in unam tribum feederentur [foederentur]"
+> 4388-4397: "qui habent persingula monasteria patres, et dispensatores, et hebdomadarios, ac ministros, et singularum domorum Prepositos, ila [ita] ut in una domo quadraginta plus minusve fratres habitent, qui obediant Preposito; sintque pro numero fra- trum triginta, vel quadraginta domus in uno mo- nasterio, et ternz [ternae], vel quaterna domus in unam tribum feederentur [foederentur]"
 > 4399-4403: "Quicumque autem monasterium primus ingre- ditur, primus sedet, primus ambulat * primus psalmum dicit ?, primus in mensam extendit ma- num, prior in Ecclesia communicat ; nec etas [aetas] in- ter eos queritur, sed professio."
-> 4448-4450: "Fratres ejusdem artis in unam domum sub uno preposito congregantur"
-> 4432: "Omnes pariter comedunt."
-> 4466, 4435, 4475-4478 (one head over all, and the Easter gathering): "Omnium monasteriorum princeps unum habetur caput, qui habitat in monasterio diebus Pasche: exceptis his qui in monasterio necessarii sunt, ad illum omnes congregantur, ut quinquaginta millia fere hominum Passionis Dominice simul cele- brent festivitatem." The fifty thousand is Jerome's figure, much above Palladius's seven thousand (see the disagreements list, 4).
+> 4458-4459: "Fratres ejusdem artis in unam domum sub uno preposito congregantur"
+> 4453: "Omnes pariter comedunt."
+> 4466, 4435, 4476-4479 (one head over all, and the Easter gathering; the two-column OCR splits the sentence across these lines): "7.0mnium [7. Omnium] monasteriorum princeps unum habetur caput, qui habitat in monasterio diebus Pasche: exceptis his qui in monasterio necessarii sunt, ad illum omnes congregantur, ut quinquaginta millia fere hominum Passionis Dominice $6 simul cele- brent festivitatem." (The column letter "A" before "caput" at 4435 is omitted.) The fifty thousand is Jerome's figure, much above Palladius's seven thousand (see the disagreements list, 4).
 
-**H6. Pachomius's teaching that the shared life is harder.** Bohairic 13689-13692 (his instruction to the brothers). Later. Widely Accepted as the Life's account.
+**H6. Pachomius's teaching that the shared life is harder.** Bohairic 13655-13658, 13692 (his instruction to the brothers). Later. Widely Accepted as the Life's account.
 > "les souffrances qu’ils endurent dans le cénobitisme sont plus grandes que celles qu’endurent ceux qui se sont faits anachorètes. ... car un cénobite scandalise plus les autres qu’un anachorète."
 
 **H7. The size in his lifetime.** Greek 86424-86425 "novem ... monasteria" (his own count, H3); Bohairic 9599, the common administration of "huit monastères" with Phbôou. Ladeuze (editor), 10233-10234: "la congrégation de Pakhôme comprit, de son vivant, neuf monastères d'hommes et deux couvents de femmes." Nine men's houses Widely Accepted; "two women's houses" is Ladeuze's count (Dominant Modern Reconstruction).

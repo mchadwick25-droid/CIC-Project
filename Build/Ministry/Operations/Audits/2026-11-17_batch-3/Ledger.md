@@ -162,4 +162,6 @@ One row per agent pass. Tokens are the subagent's own count as the harness repor
 | vardan-mamikonian | re-outline (heart of their life) | Opus | 143,864 | heart: refusal, Avarayr, freedom won in 452 and c.484 |
 | justin-martyr | re-outline (heart of their life) | Opus | 158,526 | heart: the defence, the Word, Sunday, Tatian |
 | council-of-chalcedon-451 | re-outline (heart of their life) | Opus | 165,809 | heart: the Definition and the two families of churches |
-| arius | re-outline (heart of their life) | Opus | (count) | heart: the Son not eternal; Nicaea's answer; the churches named for him |
+| arius | re-outline (heart of their life) | Opus | 164,337 | heart: the Son not eternal; Nicaea's answer; the churches named for him |
+| pachomius | re-outline (heart of their life) | Opus | 179,184 | heart: one shared life under one rule |
+| john-wyclif | re-outline (heart of their life) | Opus | 156,176 | heart: God's law in English; the Bible of his circle |
