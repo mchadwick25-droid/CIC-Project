@@ -75,7 +75,7 @@ Sheet references (S, E, I, L, D, G, A) point to `Source_Sheet.md` in this folder
   - Do not give a year or a count of years for Gregory's sermon; the date 380 is an editor's (A1). Say 'later in the same century'.
   - Do not tell the healings as fact in the narrator's voice. Say that people crowded to him for healing, or 'the *Life* says...'; the voice that sent him to the mountain stays out or in the *Life*'s voice (E11, D8).
   - Do not say 'twenty years'; say 'nearly twenty years' (E8).
-  - (review, 2026-11-18) Do not hold the book's reach until after the first minute. By about word 150, say it was soon in Latin, name Trier and Augustine in Milan (one sentence pointing ahead), and give the spread to Palestine, Syria and Arabia with its historian. Tell the full Trier–Augustine chain later. Beats 1–2 stay within about 90 words.
+  - (review, 2026-11-18) Do not hold the book's reach back. Say it was soon in Latin, name Trier and Augustine in Milan (one sentence pointing ahead), and give the spread to Palestine, Syria and Arabia with its historian. Tell the full Trier–Augustine chain later. Beats 1–2 stay within about 90 words.
 
 - **Leave out:**
   - "The first monk" or "father of all monks" as fact: the *Life* shows hermits before him, and Jerome backs Paul of Thebes (D3).

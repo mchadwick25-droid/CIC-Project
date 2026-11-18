@@ -56,3 +56,8 @@ The four faults:
 - **Force softened:** the curse, the condemnation, the exile and the death penalty in Constantine's letter are all kept.
 
 American spelling is used outside quotes.
+
+
+## Outline cleanup, 2026-11-18
+
+none

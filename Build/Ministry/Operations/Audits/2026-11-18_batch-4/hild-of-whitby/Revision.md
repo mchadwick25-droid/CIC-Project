@@ -61,3 +61,13 @@ No sentence is wholly new. These sentences change the old brief's wording:
   - A detail moved onto the wrong event: none. The faith is tied to Edwin, the women to the deathbed, and no date is given for Caedmon.
   - Force softened: none. Her side still loses, Colman's teaching is still "rejected", and Bede's silence on her response is stated plainly.
 - American spelling throughout. The only quote is the outline's Quote 1 rendering, unchanged.
+
+
+## Outline cleanup, 2026-11-18
+
+- Old: Why it stops short of 3: almost everything rests on one witness, Bede, who gives her no inner life to fill.
+  New: Almost everything rests on one witness, Bede, who gives her no inner life to fill. Up to about 3 minutes for a person (about 460 words), about 4 minutes 15 for a council (about 550); craft comes before time (Mark, 2026-11-18).
+- Old: Dropping the kings and princes, or pushing the house, the bishops or the synod past the first minute. → all are in the heart, and the first 150 words carry them (Heart_Test, 2026-11-18).
+  New: Dropping the kings and princes, the house, the bishops or the synod. → all are in the heart (Heart_Test, 2026-11-18).
+
+- Coordinator, 2026-11-18: in the Length line, the first-minute list ("The first minute (about 150 words) tells the heart: Caedmon received and made a ...") is replaced with "The first minute (about 150 words) tells the Essence; the Also told parts come where the story is strongest."

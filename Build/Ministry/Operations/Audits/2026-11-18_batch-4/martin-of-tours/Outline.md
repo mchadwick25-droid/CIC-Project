@@ -71,8 +71,8 @@ All references are to `Source_Sheet.md` in this folder (S = setting, M = life ev
   - Wrong: "he spread the faith by gentle preaching", or a heart that mentions churches built but not temples torn down. Right: he tore down temples and built churches where they stood; sometimes his words moved people to pull down their own (M13).
   - Wrong: "Sulpicius, from Aquitaine". Right: leave his homeland out; it is Roberts's introduction, not on the sheet.
   - *Added from the brief review (batch 4):*
-  - Wrong: in beat 1, Trier named only as the worldly-judge point. Right: both pleas in the first minute: that men judged heretics by bishops should not be killed, and that a church's case was not for a judge of this world (M15, Q2). The deaths after he left and the one-day compromise still come in beat 7.
-  - Wrong: the tomb's honour left to the closing third. Right: one clause in the first minute: his tomb made Tours a place kings and bishops honoured, credited to Gregory of Tours (I1). Gregory's acts (the great church, the feast, Clovis) come later.
+  - Wrong: Trier named only as the worldly-judge point. Right: both pleas: that men judged heretics by bishops should not be killed, and that a church's case was not for a judge of this world (M15, Q2). The deaths after he left and the one-day compromise still come in beat 7.
+  - Wrong: the tomb's honour left out. Right: one clause: his tomb made Tours a place kings and bishops honoured, credited to Gregory of Tours (I1). Gregory's acts (the great church, the feast, Clovis) come later.
   - *Kept from the checked outline:*
   - Wrong: "Christ appeared to him." / "That night Christ came to him in his cloak." Right: "Sulpicius says that the next night Martin saw Christ in a dream, wearing the half-cloak" (M4: Martin was asleep, "a vision").
   - Wrong: "The vision converted him" / "the pagan soldier". Right: he was already a catechumen, since the age of ten. After the vision he was baptised (S6, M5).

@@ -42,3 +42,13 @@ Cut: "She made Agnes, a girl she had raised, its abbess." (finding 3, length).
 - Scorer: 452 words, grade 6.7 (names out 6.0), reading ease names out 80.8, 16.1 words a sentence, longest sentence 30 words, pass (note: grade under 8, for the listening review).
 - Listener read: not flat. The captivity, the altar charge, the bishop's refusal and the guard against the city's own bishop keep their force.
 - Four faults: the refusal stays "Gregory says"; the altar scene stays Fortunatus's; no detail moved between events (the gold and gems, Baudonivia's alone, are not used); nothing softened. American spelling throughout outside quotes.
+
+
+## Outline cleanup, 2026-11-18
+
+- Old: She is not a major figure on the tree, so not 3 minutes.
+  New: She is not a major figure on the tree. Up to about 3 minutes for a person (about 460 words), about 4 minutes 15 for a council (about 550); craft comes before time (Mark, 2026-11-18).
+- Old: Do not hold back any part of the heart past the first minute (about 150 words). The two hundred
+  New: Do not hold back any part of the heart. The two hundred
+- Old: Name the revolt reading in the first minute and tell it in full later.
+  New: Tell the revolt reading in full later.

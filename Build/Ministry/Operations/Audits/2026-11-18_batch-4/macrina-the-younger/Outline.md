@@ -8,7 +8,7 @@
 
 - **The heart of their life:** Macrina, the eldest of the family of Basil of Caesarea and Gregory of Nyssa, turned her family's household into a community given to prayer and work. She led her mother to live as an equal with the slave women of the house, in the same food and the same kind of bed, with prayer and hymns by night and day (sheet 81-85, 235). Over time it became one community with a women's side, which she led, and a men's side led by her youngest brother Peter, whom she had raised; it took in babies abandoned in a famine, and a young widow (sheet 89-97, 153-158, 229-232, 242-247). A visitor called it "the school of virtue" (sheet 229-230). The second half: as she lay dying, she taught her brother Gregory about the soul, death and rising again, and he wrote that teaching down as a dialogue with her as "the Teacher". More than a thousand years later it was still being quoted and argued over, at Ferrara in 1438 (sheet 107-110, 165-177). Confidence: the house and its life, Documented (Gregory's eyewitness account, sheet 81-85, 153-158); that she taught and that Gregory wrote the dialogue, Documented; how much of the dialogue's argument is hers, Contested (sheet 215); Ferrara, Documented (sheet 170-177); "double monastery" and the house's later weight as an early example, Dominant Modern Reconstruction, card only (sheet 156, 182-184).
 
-- **Length:** 2 minutes (about 300 words). Thin in kind: one witness (her brother) for the whole life, and none of her own writing. But that witness is close and detailed, and her afterlife is real. So stay at the target; do not stretch. The heart must be told by about word 150.
+- **Length:** 2 minutes (about 300 words). Thin in kind: one witness (her brother) for the whole life, and none of her own writing. But that witness is close and detailed, and her afterlife is real. Up to about 3 minutes for a person (about 460 words), about 4 minutes 15 for a council (about 550); craft comes before time (Mark, 2026-11-18). The heart must be told by about word 150.
 
 - **Setting:** "In the fourth century, in Pontus, a region on the Black Sea, in what is now Turkey" (sheet 38-43). Do not place her house on a river aloud: the Iris is Gregory's placing for Naucratius, and Clarke's for her (sheet 38-41). Tradition: "the churches of Cappadocia and Pontus", or "the family of Basil of Caesarea and Gregory of Nyssa" (sheet 45). She died in 379, as scholars date it, some nine months after her brother Basil (sheet 43).
 
@@ -74,7 +74,7 @@
   - Not "in 379" as Gregory's own date: "in 379, as scholars date it" (sheet 43). The dialogue's date, 380, belongs to the writing, not to her death (sheet 215).
   - Not "Peter ran the house": the women's side was hers; Peter led the men's side (sheet 154, 242-245).
   - Not "widows" in number: one young widow, Vestiana, is named (sheet 247).
-  - Not a story whose first 150 words never look ahead to the afterlife: the approved heart includes her words still being quoted at Ferrara in 1438, so beat 3's look-ahead clause is required, not optional (Review, 2026-11-18).
+  - Not a story that never looks ahead to the afterlife: the approved heart includes her words still being quoted at Ferrara in 1438, so beat 3's look-ahead clause is required, not optional (Review, 2026-11-18).
   - Not the house without the young widow: she is part of the approved heart, so beat 2 must name her (Review, 2026-11-18).
 
 - **Leave out:**

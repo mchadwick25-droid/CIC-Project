@@ -51,3 +51,11 @@ Kept word for word from the approved brief: the three-sentence opening; the Gosp
 - Length: 469 by the profiler (473 by whitespace), at the ceiling of about 460. Cut for length: the first-words line ("In the beginning was the Word"), the crows simile, Q1's second sentence, the Olympus sentence and the plain-sermons sentence.
 - The four faults: no single witness is told as fact (the Lives, the *Life of Clement*, the Salzburg writer and the Kiev chroniclers are each credited); no editor's view is given to a source; no detail sits on the wrong event (the Rus come only from the Chronicle, never from the disciples); force is kept ("sold as slaves", "chained, stripped and driven out", "partly cheapened", the 879 ban).
 - American spelling outside quotes. "Ploughing" stands inside Q2.
+
+
+## Outline cleanup, 2026-11-18
+
+- Old: Do not stretch to 3.
+  New: Up to about 3 minutes for a person (about 460 words), about 4 minutes 15 for a council (about 550); craft comes before time (Mark, 2026-11-18).
+- Old: Do not reduce the pope's 880 ruling (with the 879 ban and the Latin-Gospel condition), the driving-out from Moravia to Bulgaria, or the Kiev chronicle to a pointer after the first minute. Each part of Mark's approved heart is told, briefly, within about the first 150 words. Beat 1 must carry them, not only point ahead. (Review, 2026-11-18.)
+  New: Do not reduce the pope's 880 ruling (with the 879 ban and the Latin-Gospel condition), the driving-out from Moravia to Bulgaria, or the Kiev chronicle to a pointer. Each part of Mark's approved heart is told, briefly. (Review, 2026-11-18.)

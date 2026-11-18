@@ -44,3 +44,9 @@ Small changes to approved sentences: "At first, Tertullian says" became "At firs
 - Listener read: the voice holds, with cause and time carried in the joins ("Still", "Then", "Two centuries later", "The answers kept coming"); the drop below 8 comes from splitting sentences for clarity, not from flattening the record. No run of one-act sentences.
 - Four faults: no single witness told as fact (the expulsions, the gift, the wasps, the demons and the Polycarp meeting each keep their speaker; the teaching, his Scripture and his churches are Documented by several); no editor's view given to a source (the "sixty years" and the century are in the narrator's voice); no detail moved (the gift stays Marcion's; Valentinus is named only for the expulsions and the curiosity); force kept (demons, scorn, expulsions, "firstborn of Satan").
 - No quote added or changed. American spelling outside quotes. Length 410, under the 460 ceiling.
+
+
+## Outline cleanup, 2026-11-18
+
+- Old: It does not stretch to 3: no word of his own survives, and the facts of his life are few and come only from opponents.
+  New: No word of his own survives, and the facts of his life are few and come only from opponents. Up to about 3 minutes for a person (about 460 words), about 4 minutes 15 for a council (about 550); craft comes before time (Mark, 2026-11-18).

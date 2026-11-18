@@ -36,3 +36,9 @@ All other sentences are the approved brief's, word for word.
 ## Own check
 
 Listener read: grade 6.9 is not flat; sentences carry time and cause, and the vocabulary is adult. Four faults: no single witness told as fact (Bondurand's claim credited to "its editor"; the 1923 use credited to the translators); no editor's view given to her; no detail moved (Aquitaine is where E4 places Bernard in 841); force kept (the baby brought away before baptism, her stay at her lord's command, the war, Bernard's execution, William's killing). American spelling outside quotes ("honor").
+
+
+## Outline cleanup, 2026-11-18
+
+- Old: "the baby's removal, or the little brother, told only after the first minute" → **"name both sons' absence, and her charge to show the book to the little brother, in the opening."**
+  New: "the baby's removal, or the little brother, left out" → **"name both sons' absence, and her charge to show the book to the little brother."**

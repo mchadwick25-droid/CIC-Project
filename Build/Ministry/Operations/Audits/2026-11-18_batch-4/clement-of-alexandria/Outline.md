@@ -8,7 +8,7 @@ Sheet = `Source_Sheet.md` in this folder. Codes (S3, M1, T1, B1 …) are its ent
 
 - **Also told:** "whatever has been well said"; Jerome using his books to defend reading pagan writers.
 
-- **Length:** about 2 minutes 20 seconds (about 350 words at 150 a minute). He is a major figure (census `major`), and the heart has two parts that must both land in the first 150 words: his answer, and the pupil who carried it on. The record of his life is thin: no held source gives his birth, conversion or death (N1). Do not stretch past 2 minutes 20.
+- **Length:** about 2 minutes 20 seconds (about 350 words at 150 a minute). He is a major figure (census `major`), and the heart has two parts that must both land in the first 150 words: his answer, and the pupil who carried it on. The record of his life is thin: no held source gives his birth, conversion or death (N1). Up to about 3 minutes for a person (about 460 words), about 4 minutes 15 for a council (about 550); craft comes before time (Mark, 2026-11-18).
 
 - **Setting, in words to say aloud:** "Around the year 200, in Alexandria, in Egypt" (S3: his own count reaches the death of the emperor Commodus, 194 years after Jesus' birth; Eusebius and Jerome place him under the emperor Severus). Tradition: "the church at Alexandria", "the Christian teachers of Alexandria", a city of libraries and lecture halls (S6). Do not say "Catechetical School" or "Christian-Platonist" aloud (S6b, D1).
 

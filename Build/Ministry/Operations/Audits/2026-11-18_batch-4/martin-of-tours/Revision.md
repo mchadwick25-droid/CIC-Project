@@ -54,3 +54,11 @@ Listener read: all three test lines come clear. The one jump back in time ("Mart
 ## Not done
 
 - Length: 678 words, past the ruling's estimate of 590 to 600. The extra is the full Q1 (about 22 words), the Candes death line (about 20), and a fuller cloak beat than the review's minimum. None of it is padding by my reading; Mark may prefer the short Q1 (back to about 655).
+
+
+## Outline cleanup, 2026-11-18
+
+- Old: Wrong: in beat 1, Trier named only as the worldly-judge point. Right: both pleas in the first minute:
+  New: Wrong: Trier named only as the worldly-judge point. Right: both pleas:
+- Old: Wrong: the tomb's honour left to the closing third. Right: one clause in the first minute: his tomb
+  New: Wrong: the tomb's honour left out. Right: one clause: his tomb

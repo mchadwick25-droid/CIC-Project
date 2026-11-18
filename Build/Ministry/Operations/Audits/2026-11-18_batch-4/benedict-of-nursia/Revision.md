@@ -47,3 +47,8 @@ Subiaco and Monte Cassino (paragraph 2 and the life); the abbot the community ch
 - Length: 479 by `wc`, 476 by the profiler, about 16 past the ceiling of about 460. The death ending adds about 20 words. Every other sentence carries a fact the outline asks to keep, so I did not cut further.
 - The four faults: no single witness told as fact (founding, poisoning, wonders, Totila, the sack and the death all stay in Gregory's or Paul's voice); no editor's view given to a source; no detail moved onto the wrong event (the Aachen purpose clause removed); no force softened (the binding, the poisoning, the destruction at Cassino, Totila's evil and the sack all stay).
 - American spelling outside quotes. "Worshipped" is kept from the approved brief; both spellings are standard in American use.
+
+
+## Outline cleanup, 2026-11-18
+
+none

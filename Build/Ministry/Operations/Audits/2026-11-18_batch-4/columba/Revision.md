@@ -47,3 +47,9 @@ The Essence line in `Essences.md` says "Bede says it turned the northern Picts".
 - **Length:** 464 by whitespace count. This is about the 460 mark, and nothing is filler.
 - **The four faults.** One witness told as fact: none. The Picts claim is Bede's. The gates, the household and the king's honor are Adomnán's. "Error" is Bede's word. Editor's view given to the source: none. "His picture is smaller" is the narrator's comparison, which the outline sanctions. Detail on the wrong event: the page fixed (M2). Force softened: none. Whitby keeps the king's ruling, Colman's going, and Bede's "error".
 - American spelling outside quotes ("honor").
+
+
+## Outline cleanup, 2026-11-18
+
+- Old: Not 3: no word of his own and no witness from his lifetime is held, so nothing more should be built.
+  New: No word of his own and no witness from his lifetime is held. Up to about 3 minutes for a person (about 460 words), about 4 minutes 15 for a council (about 550); craft comes before time (Mark, 2026-11-18).

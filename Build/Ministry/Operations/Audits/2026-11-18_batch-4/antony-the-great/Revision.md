@@ -41,3 +41,9 @@ The one revision under the kit (Process.md, step 5). Previous brief kept as `ant
 - Listener read: not flat. Long sentences still carry chains (the desert filling, the Trier officials, Augustine in the garden), with short ones marking turns.
 - Four faults: one witness as fact (Trier now credited to Augustine; spread east to the historian; healings in the Life's voice); an editor's view given to a source (the "middle of the three-hundreds" dating removed); a detail on the wrong event (Constantine kept to his later life); force softened (the Arian stand kept and glossed). American spelling outside quotes.
 - Q3 unchanged, word for word the outline's rendering.
+
+
+## Outline cleanup, 2026-11-18
+
+- Old: Do not hold the book's reach until after the first minute. By about word 150, say it was soon in Latin,
+  New: Do not hold the book's reach back. Say it was soon in Latin,

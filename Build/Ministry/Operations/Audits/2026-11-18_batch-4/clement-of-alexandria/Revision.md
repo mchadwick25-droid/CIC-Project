@@ -48,3 +48,9 @@ The essence is complete at word 152, "followed Clement's example" (Origen follow
 - Profiler: 410 words, grade 7.3 (names out 6.1), reading ease 79.3, 15.8 words a sentence, longest sentence 26 words: pass. Under grade 8, so I heard it once as a listener: the ideas and images are adult, and it is not flat.
 - Four faults: Origen as pupil stays on Eusebius's and Jerome's word; Pantaenus stays as what Eusebius "thought"; the fearful Christians stay in Clement's account; the "perhaps" is kept. No detail is moved onto the wrong event: the martyrs are not placed in Alexandria, and nothing ties his teaching on persecution to his leaving. Jerome's charge keeps its force. American spelling throughout.
 - Length: 410 words, under the 460 limit for a person. The outline's Length line (about 350 words, 2:20) predates the new standard and was not changed; the extra words are the setting spread across sentences and the Alexander ending.
+
+
+## Outline cleanup, 2026-11-18
+
+- Old: Do not stretch past 2 minutes 20.
+  New: Up to about 3 minutes for a person (about 460 words), about 4 minutes 15 for a council (about 550); craft comes before time (Mark, 2026-11-18).

@@ -39,3 +39,11 @@ Every other sentence is the approved brief's wording, unchanged.
 - Scorer: 370 words, grade 7.7 (names out 6.8), reading ease names out 81.1, 19.5 words a sentence, longest sentence 30 words, pass.
 - Listener read (grade under 8): not flat. The long sentences carry chains (the house's life, the Ferrara exchange), and the short ones mark turns ("Her life had turned on a refusal." "She would not leave her mother."). The move from 1438 back to her youth is carried by the refusal line.
 - Four faults: Gregory's account is credited ("Gregory says", "Almost all we know of her comes from her brother Gregory"). How much of the teaching is hers stays Contested and is said plainly. No detail moved between events: the widow and the babies stay with the house, and 379 stays with her death, not the dialogue. Nothing softened. The Do not say list is kept: "same kind of bed", no "freed her slaves", no "double monastery", no "her book", no "purgatory", Peter leads only the men's side, one widow. American spelling throughout.
+
+
+## Outline cleanup, 2026-11-18
+
+- Old: So stay at the target; do not stretch.
+  New: Up to about 3 minutes for a person (about 460 words), about 4 minutes 15 for a council (about 550); craft comes before time (Mark, 2026-11-18).
+- Old: Not a story whose first 150 words never look ahead to the afterlife: the approved heart
+  New: Not a story that never looks ahead to the afterlife: the approved heart
