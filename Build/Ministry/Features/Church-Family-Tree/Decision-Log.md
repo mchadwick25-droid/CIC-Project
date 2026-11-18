@@ -4563,3 +4563,9 @@ Mark then clarified: "something that by it self is not clear in english like the
 - In all: 14,271 credits against the 15,500 cap. The balance moved from 315,379 to 329,650, exactly that amount.
 
 Heard lengths: the people run from 2:07 (Baudonivia) to 3:12 (Arius). Toledo runs 3:02 and Chalcedon 4:19.
+
+## 2026-11-18 — Baudonivia stays a person on the tree, linked to Radegund
+
+**Why.** Mark asked why Baudonivia, not Radegund, is the person, with Baudonivia as biographer ("i am not suggesting a change in the story, just who its about"). Radegund already has her own entry and story. Baudonivia was chosen for the slot "a woman in her own voice". The heart-first rework pulled her story toward Radegund, because the only record of Baudonivia is her book.
+
+**Decided (Mark, 2026-11-18: "1, keep both and link them").** Both stay as person entries, and their stories are unchanged. The typed connection "wrote her life" goes in with the connections build (Open-Gaps, "Batch 3 after the rework", 2026-11-18). Until then, each card names the other.
