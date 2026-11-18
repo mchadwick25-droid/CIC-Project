@@ -4654,3 +4654,9 @@ Each keeps its approved essence. One independent check follows, then the census,
 6. **One document** ("1", adopting the draft). `Standard.md`, `Shapes.md`, `Outline_Template.md` and `Process.md` become the four parts of `Brief-Kit/Kit.md`; the four files move to `Archive/Superseded-Method/Church-Family-Tree-Brief-Kit-2026-11-18/`. The role prompts point to its parts. Three British spellings in the old text become American.
 
 **Scope (Mark, 2026-11-18: "this is for work going forward, nothing that is complete").** The kit governs batch 5 onward. No finished story is reopened because of it.
+
+## 2026-11-18 — Batch 5: the slate and each story's job (Mark)
+
+**Why.** All 250 people on the tree have a story, but 226 were written before the new kit. The listeners' read named two gaps on the slate: nothing yet tells how the Church of the East came to stand apart, and Protestant figures are few (Open-Gaps 329).
+
+**Decided (Mark, 2026-11-18: "1"; then "i approve in a new thread").** Batch 5 rewrites twelve on the kit: Nestorius, Cyril of Alexandria, Barsauma of Nisibis, Babai the Great and Timothy I of Baghdad; Martin Luther, William Tyndale, John Calvin and John Wesley; Augustine of Hippo, Patrick of Ireland and Athanasius of Alexandria. Each story's job, and the live stories it must not repeat, are as written in `Launch-Prompts/CFT_Batch5_Launch_2026-11-18.md`. The ten older stories already recorded become batch 6. Batch 5 runs in a new session.
