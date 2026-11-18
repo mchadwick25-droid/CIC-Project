@@ -259,3 +259,4 @@ One row per agent pass. Tokens are the subagent's own count as the harness repor
 | alopen | outline: stone image restored as quote 3 (researcher, Mark's ruling) | Opus | — | beat 2; plain sense given |
 | narsai | card 2 | Opus | 121,657 | references replaced; nothing wrong |
 | alopen | stone image placed after the heart (writer) | Opus | 101,783 | 377 words, grade 7.8; decree at word 164, quote at 260 |
+| moses-the-black | card 2 | Opus | 117,472 | 2 sayings added, 2 removed; knownFor partial (fix at census) |

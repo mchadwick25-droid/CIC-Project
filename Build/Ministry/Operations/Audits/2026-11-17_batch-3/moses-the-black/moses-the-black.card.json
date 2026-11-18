@@ -8,7 +8,6 @@
   "datesNote": "Died at Scete aged seventy-five, by Palladius of Helenopolis. No source used here gives a year of his birth or death; Palladius wrote his history, by W. K. Lowther Clarke's note, in 419 or 420",
   "placeNote": "Egypt; Scete",
   "role": "Monk and priest",
-  "briefLength": "about 2 minutes 10 seconds",
   "legacy": {
     "traces": [
       "Palladius of Helenopolis says he left seventy disciples.",
@@ -66,16 +65,16 @@
     ]
   },
   "briefReferences": [
-    "Lausiac History 19, tr. W. K. Lowther Clarke: \"an Ethiopian by race and black\", a house-servant his master drove out; \"said to\" have murdered, and, as \"they used to say\", leader of a robber-band; the flooded Nile swum, sword in his mouth, to kill a shepherd who had foiled him \"one night\".",
-    "Lausiac History 19: \"conscience-stricken as a result of one of his adventures\", he gave himself to a monastery; the four robbers tied and carried to the church; knowing him for the far-famed robber, they confessed and renounced the world because of his conversion.",
-    "Lausiac History 19: his fight with his old habit of sexual incontinence; six years standing all night in his cell; the older monks' water-pots filled in secret; the blow at the well that Palladius gives to the demon; Isidore, the priest of Scete, sends him to Communion, and some two months later he no longer suffered anything.",
-    "Lausiac History 19: he died at Scete seventy-five years old, having become a priest, and left seventy disciples.",
-    "Lausiac History, Clarke's notes: Palladius first came to Alexandria in 388 and wrote in 419-420, the ground for the late 300s.",
-    "The Paradise of the Holy Fathers, vol. II, saying 55, tr. E. A. Wallis Budge: the fathers at Scete treat him with contumely, \"Why doth this Ethiopian come and go in our midst?\", and he holds his peace.",
-    "The Paradise of the Holy Fathers, vol. II, saying 477: the bishop's test, the clergy driving him from the sanctuary, \"Get outside, O Ethiopian\", and his words against himself, \"O thou whose skin is dark and black\".",
-    "The Book of the Saints of the Ethiopian Church, 24 Sane, tr. Budge: the later tradition that barbarians came to Scete and killed him.",
-    "World census, desert monasticism: the desert fathers of Egypt.",
-    "The Paradise of the Holy Fathers, vol. II, chapter XIV, saying 45, tr. E. A. Wallis Budge (anan-isho_paradise-v2-sayings_budge1907.txt, 1464): Abba Moses stays when the barbarians come to Scete, citing \"Those who take the sword shall perish by the sword\", and the brothers who stay with him are killed."
+    "Lausiac History 19, tr. W. K. Lowther Clarke (palladius_lausiac-history_clarke1918.txt, 337): Moses numbered among the great ones of the fathers, a priest at Scete who left seventy disciples.",
+    "Lausiac History, Clarke's notes (palladius_lausiac-history_clarke1918.txt, 197 with note 713, and 657): Palladius first came to Alexandria in 388 and wrote in 419-420, the ground for around the year 400; the letter of Palladius the bishop to Lausus (18).",
+    "Lausiac History 19 (palladius_lausiac-history_clarke1918.txt, 333): a house-servant, an Ethiopian by race and black, driven out by his master for immorality and brigandage; said to go even the length of murder; his wicked acts told to show the virtue of his repentance; leader of a robber-band, as they used to say, with the Nile crossing.",
+    "Lausiac History 19 (palladius_lausiac-history_clarke1918.txt, 335): conscience-stricken by one of his adventures, he gave himself up to a monastery; the four robbers who attacked him in his cell, tied and carried to the church; they confessed, knew him for the far-famed robber, and renounced the world because of his conversion.",
+    "Lausiac History 19 (palladius_lausiac-history_clarke1918.txt, 337): his old habit of sexual incontinence, which as he himself testified almost made him give up; six years standing all night in his cell, unable to master it; Isidore, the priest of Scete, tells him his dreams have ceased and sends him to Communion; some two months later he no longer suffered anything.",
+    "The Paradise of the Holy Fathers, vol. II, saying 55, tr. E. A. Wallis Budge (anan-isho_paradise-v2-sayings_budge1907.txt, 164): the fathers at Scete treat him with contumely; he holds his peace, and afterwards says that although he was afraid he uttered not a word.",
+    "The Paradise of the Holy Fathers, vol. II, saying 477 (anan-isho_paradise-v2-sayings_budge1907.txt, 1028): the bishop, wishing to try him, has the clergy drive him out of the sacrarium, and outside he speaks against himself.",
+    "The Paradise of the Holy Fathers, vol. II, file header (anan-isho_paradise-v2-sayings_budge1907.txt, 7-8): 'Anan-Isho' of Beth 'Abhe, a 7th-century Syriac compiler, with older underlying material, the ground for sayings gathered in the 600s.",
+    "Lausiac History 19 (palladius_lausiac-history_clarke1918.txt, 337): he died at Scete seventy-five years old.",
+    "World census, desert monasticism: the desert fathers of Egypt."
   ],
   "quotationOriginals": [
     {
@@ -97,20 +96,21 @@
       "uncertain": "Rendered from Clarke's English; the Greek is not held. \"Brigandage\" becomes \"robbery\", and \"defer\" becomes \"put off\"."
     },
     {
-      "modern": "Get outside, O Ethiopian.",
-      "printed": "Get outside, O Ethiopian",
+      "modern": "Why does this Ethiopian come and go among us?",
+      "printed": "Why doth this Ethiopian come and go in our midst?",
+      "work": "The Paradise of the Holy Fathers, vol. II, saying 55, tr. E. A. Wallis Budge",
+      "file": "cic/texts/anan-isho_paradise-v2-sayings_budge1907.txt",
+      "lines": "164",
+      "secondReading": "same"
+    },
+    {
+      "modern": "They have treated you rightly, you whose skin is dark and black. You shall not go back in as if you were a man.",
+      "printed": "They have treated thee rightly, O thou whose skin is dark and black; thou shalt not go back as if thou wert a [white] man.",
       "work": "The Paradise of the Holy Fathers, vol. II, saying 477, tr. E. A. Wallis Budge",
       "file": "cic/texts/anan-isho_paradise-v2-sayings_budge1907.txt",
       "lines": "1028",
-      "secondReading": "minor"
-    },
-    {
-      "modern": "Those who take the sword shall perish by the sword.",
-      "printed": "Those who take the sword shall perish by the sword",
-      "work": "The Paradise of the Holy Fathers, vol. II, chapter XIV, saying 45, tr. E. A. Wallis Budge",
-      "file": "cic/texts/anan-isho_paradise-v2-sayings_budge1907.txt",
-      "lines": "1464",
-      "secondReading": "minor"
+      "secondReading": "minor",
+      "uncertain": "Rendered from Budge's English; the Syriac is not held. Budge's \"[white]\" is his own bracketed supply, not a word he read in the Syriac, and is left out. A Latin parallel, Dorotheus of Gaza, Doctrina XIV, reads \"non homo\", not a man (dorotheus-gaza_doctrinae-barsanuphius-climacus-agathias-grc-lat_migne-pg88.txt, 136342-136344). \"Go back\" becomes \"go back in\": he has just been driven out of the sanctuary."
     }
   ]
 }
