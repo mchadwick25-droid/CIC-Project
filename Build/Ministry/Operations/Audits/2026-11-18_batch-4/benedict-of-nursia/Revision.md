@@ -52,3 +52,19 @@ Subiaco and Monte Cassino (paragraph 2 and the life); the abbot the community ch
 ## Outline cleanup, 2026-11-18
 
 none
+
+## Adjustment (change order, 2026-11-18)
+
+Fault from fresh listeners: Carloman and Charlemagne were named twice, once in the essence and again in the paragraph on the Rule's fate, and Benedict's early life came after the Rule's later history, so the order looped. Now the essence names only "Frankish rulers"; Carloman, Charlemagne, 742 and 802 are each named once, in the paragraph that follows it. That paragraph (the Lombard sack, the saved manuscript, 742, 802) now comes straight after the essence, so the Rule's fate is told in one place as the essence's own unfolding. After it come the Rule's contents and then the life in one line, from Rome to his death. The brief before this change is kept as `benedict-of-nursia.brief.v3.txt`.
+
+| Old | New | Outline line |
+|---|---|---|
+| "About two centuries later, Frankish rulers, Carloman and then Charlemagne, ordered the monasteries of their lands to live by it." | "About two centuries later, Frankish rulers ordered the monasteries of their lands to live by it." | Beat 1 ("about two centuries later, Frankish rulers ordered the monasteries of their lands to live by it"); Essence |
+
+Moved, not reworded: the paragraph "Gregory records that in his own lifetime the Lombards sacked Monte Cassino. ... Then he ordered that whatever in the monasteries went against it be put right by it." now stands before the paragraph "Because the Rule calls idleness an enemy of the soul ...", not after it (What came of them, items 1 and 2; Connection). Every other sentence is unchanged, word for word, and in its old order. The hook and the ending on his death are unchanged.
+
+New quoted spans: none.
+
+The essence is complete at word 137 ("...ordered the monasteries of their lands to live by it."), inside the mark of about 150. Also told: Subiaco and Monte Cassino (paragraph 2 and the life); the abbot the community chooses (paragraphs 2 and 4); the vow for life (paragraph 2); Carloman in 742 and Charlemagne in 802 by name (paragraph 3).
+
+Words: 479 before, 475 after by `wc` (profiler 476 before, 472 after). Profiler: 472 words, grade 7.8 (names out 6.7), reading ease names out 77.4, 16.9 words a sentence, longest sentence 26 words: pass. Grade 7.8 is under 8 and is flagged for the listening review.

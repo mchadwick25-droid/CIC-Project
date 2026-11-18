@@ -97,3 +97,16 @@ New quoted spans: none.
 Check: `python -m engine.m1.profile_readability .../martin-of-tours.brief.txt`: 549 words (`wc -w` and a word regex agree), grade 8.4 (names out 7.8), reading ease names out 73.0, 18.9 words a sentence, 0.9 joining words per 100, 3% short sentences, longest sentence 29 words. Pass.
 
 For Mark: the story no longer tells what the refusal cost (cowardice charge, the offer to stand unarmed, prison, the surrender credited to Martin by Sulpicius). Any place for it outside the hook would bring the listener back to Worms, and the hook stays at three sentences. Cutting it also brings the length to 549, inside the 560 ceiling from the 3:45 trim.
+
+### Correction (coordinator, 2026-11-18): the cost put back
+
+The coordinator ruled that the Standard settles this: the record's force is never cut to fix a structural fault, and what the refusal cost him is part of that force. The "For Mark" note above is withdrawn. The cost comes back as two sentences, in their own paragraph straight after the hook, so Worms is still told only once. The hook itself is unchanged.
+
+- New (inserted after the hook paragraph): "When Julian called it cowardice, Martin offered to stand unarmed before the battle line, and was put back in prison. The next day the enemy surrendered before any battle, and Sulpicius credits Martin with that peace."
+  Outline line: beat 4, "What the refusal cost" (M6): "Julian called it cowardice. Martin offered to stand unarmed before the battle line ... He was put back in prison. The next day the enemy sent envoys and surrendered, so there was no battle. Sulpicius credits Martin for that peace." The wording comes from the cut paragraph. The only changes are "At Worms," dropped and "When" added to join the first two clauses. The peace is still credited to Sulpicius.
+
+New quoted spans: none.
+
+Check: `python -m engine.m1.profile_readability .../martin-of-tours.brief.txt`: 585 words (`wc -w` and a word regex agree), grade 8.6 (names out 7.9), reading ease names out 71.9, 18.9 words a sentence, 0.9 joining words per 100, 3% short sentences, longest sentence 29 words. Pass.
+
+Note: the essence now ends at word 162, against the prompt's "about word 150". The new sentences sit before the essence, which is where the coordinator placed them. Length is 585 against 587 before the adjustment, so it has not grown.
