@@ -61,3 +61,43 @@ American spelling is used outside quotes.
 ## Outline cleanup, 2026-11-18
 
 none
+
+## Adjustment (change order, 2026-11-18)
+
+Fault: the opening repeated the Arius piece's quote ("We are persecuted because we said...") and the brief used Jerome's "the whole world groaned" line, which the Arius piece also uses; too many names for one hearing. Old brief kept as `council-of-nicaea-325.brief.v3.txt`.
+
+Sentences changed (old, then new, then the outline line that holds the new wording):
+
+1. Old: "We are persecuted because we said, 'The Son has a beginning, but God has no beginning.'" Arius, a priest of Alexandria, wrote this in a letter before the council.
+   New: "There was a time when he was not." That, the council's own letter said, was what Arius, a priest of Alexandria, taught about the Son.
+   Outline: heart, "The council's letter charged him with saying 'there was a time when he was not'" (D-4); beat 1, "The council's letter puts his teaching harder". The hook now opens on the council's letter, and the phrase returns in the creed's curse two sentences on.
+2. Old: The council's own letter charged him with more: that the Son came from nothing, that "there was a time when he was not", and that he is "a creature".
+   New: It charged him with more: that the Son came from nothing, and that he is "a creature".
+   Outline: beat 1, "the Son came from nothing, 'there was a time when he was not', he is 'a creature'" (D-4).
+3. Old: Eustathius, who like Athanasius opposed Arius, says a written statement was torn up "in the sight of all".
+   New: A third, who also opposed Arius, says a written statement was torn up "in the sight of all".
+   Outline: beat 5 (M7); Who tells it, "Eustathius was there; ... both were Arius's foes".
+4. Old: Melitius, who had ordained clergy of his own in Egypt, kept his title but could ordain no one.
+   New: In Egypt, a leader who had ordained clergy of his own kept his title but could ordain no one.
+   Outline: beat 7, "Melitius, who had ordained clergy of his own, kept 'the bare title of his rank' but could ordain no one" (M12).
+5. Old: They ran from how a bishop is made to mercy for those who had fallen away under the emperor Licinius without being forced.
+   New: They ran from how a bishop is made to mercy for those who had fallen away without being forced.
+   Outline: beat 7, "mercy, after years of penance, for those who had given way under Licinius without being forced" (M14).
+6. Old: Arius was recalled, and of a council in 359 Jerome wrote, "the whole world groaned, and was astonished to find itself Arian."
+   New: Arius was recalled, and the word "of one being" divided those who held it from those who would not.
+   Outline: What came of it, item 2, "Arius was recalled ... It divided those who held the word from those who would not" (I3).
+7. Old: Caecilian, once their bishop, had sat at Nicaea and carried it home.
+   New: One of their own bishops had sat at Nicaea and carried it home.
+   Outline: Carthage connection, "Caecilian, who sat at Nicaea, carried home a written copy" (I4); Links, "Caecilian of Carthage".
+
+Names cut: Eustathius, Melitius, Licinius, Jerome, Caecilian. Kept: Arius, Constantine, Eusebius, Athanasius. Alexander was not in the brief before and is not added (length may not grow).
+
+New quoted spans: none. "There was a time when he was not", "a creature" and "of one being" are on the card word for word. The Jerome quote is no longer in the brief; its card entry is left for the card thread.
+
+Every other sentence is unchanged, word for word.
+
+- **Essence** complete at word 112 ("Later councils set this creed first"); "for decades it divided the church" ends at word 119; Constantine calling the bishops at word 64.
+- **Opens** on the council's charge against Arius; **ends** on the Carthage bishop who sat at Nicaea and carried the copy home.
+- **Length** 556 words before, 535 after (`wc -w`).
+
+Check: `python -m engine.m1.profile_readability .../council-of-nicaea-325.brief.txt`: 530 words, grade 7.3 (names out 6.6), reading ease names out 74.9, 15.1 words a sentence, longest sentence 31 words: pass (note: grade 7.3 is under 8: the listener read checks it is not flat).

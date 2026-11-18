@@ -71,3 +71,33 @@ No sentence is wholly new. These sentences change the old brief's wording:
   New: Dropping the kings and princes, the house, the bishops or the synod. → all are in the heart (Heart_Test, 2026-11-18).
 
 - Coordinator, 2026-11-18: in the Length line, the first-minute list ("The first minute (about 150 words) tells the heart: Caedmon received and made a ...") is replaced with "The first minute (about 150 words) tells the Essence; the Also told parts come where the story is strongest."
+
+## Adjustment (change order, 2026-11-18)
+
+Fault from fresh listeners: the synod of 664 and the five bishops were each told twice, and Caedmon, the hook, took over as the star. Each is now told once, and Hild is the subject of the first sentence after the hook. The brief before this change is kept as `hild-of-whitby.brief.v3.txt`. 467 words before, 421 after (scorer: 420). The hook, the ending and every other sentence are unchanged, word for word.
+
+**Sentences changed**
+
+1. Old: Her house was at Whitby, in Northumbria, a monastery of men and women that she ran on peace and charity.
+   New: Hild ruled a monastery of men and women at Whitby, in Northumbria, and ran it on peace and charity.
+   Outline: the heart, "Hild ruled a monastery of men and women at Whitby, in Northumbria"; "She ran it on peace and charity" (M6, M8, M9, M10).
+
+2. Old: She made her people study the Scriptures, so that many were fit to be priests, and Bede says he later saw five bishops come from that house.
+   New: She made her people study the Scriptures, so that many were fit to be priests.
+   Outline: beat 2, M11 (Bede's "so that"). The five bishops are now told once, by the quote below.
+
+3. Old (paragraph 2, last sentence): In 664 the kings met in her house to settle the date of Easter, and she held with the Irish-trained side, which lost.
+   New: removed here. Its first clause moves, word for word, into the synod paragraph (change 4). Her side and its loss are told there once.
+
+4. Old: At Whitby, Bishop Colman led the Scots' side, and Hild and her people held with it, while the priest Wilfrid argued for Rome.
+   New: In 664 the kings met in her house to settle the date of Easter. Bishop Colman led the Scots' side, and Hild and her people held with it, while the priest Wilfrid argued for Rome.
+   Outline: beat 5, "the kings met in her house to settle the date of Easter"; "The kings, father and son, met at her monastery to decide. Bishop Colman led the Scots' side, and Hild and her people held with it" (M13–M15).
+
+5. Old (its own paragraph): Caedmon's verses, Bede says, turned many minds toward heaven, and none who tried religious poems in English after him could match him.
+   New: removed. Caedmon is now told once, in the hook, which already ends in her act and his English song (Essence; beat 1, M18).
+
+6. Moved, unchanged: "Of her house Bede wrote, "Later we saw five bishops come from that same monastery. All of them were men of rare merit and holiness."" and "In those days a bishop led the church of a whole region, and the English church was still young." now stand, in that order, in a new third paragraph before "Ordinary people, he writes, and sometimes even kings and princes, sought her advice." The five bishops now come at word 148, inside the first minute.
+
+**Quotes.** No new quoted span. The only quote is the card's Quote 1, word for word, now used once and in the first minute. The outline's close on Quote 1 under Opening 1 gives way to the ending on Mother, which the brief already had and which the outline allows.
+
+**Checks.** Essence by word 163 (house 92, Scriptures 130, five bishops 148; Caedmon in the hook). Also told: goods shared, kings and princes (195), the synod of 664 in her house and her side losing. Ending on the person unchanged. Scorer: 420 words, grade 7.6 (names out 7.2), reading ease names out 77.3, 19.1 words a sentence, longest sentence 29 words - pass (note: grade 7.6 is under 8: the listener read checks it is not flat).
