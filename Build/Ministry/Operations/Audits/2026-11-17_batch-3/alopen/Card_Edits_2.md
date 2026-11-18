@@ -26,3 +26,8 @@ None. Checked against the new brief and held sources:
 ## Not found
 
 None.
+
+## After Mark's ruling on the stone image (2026-11-18, coordinator)
+
+- `quotationOriginals`: the clouds-and-winds entry is restored word for word from the census card as it stood before this rework (Wylie in Malech 13688-13689, blind second reading "same", `Second_Readings.md`). The brief quotes it again as Quote 3.
+- `briefReferences`: one line added for it.

@@ -105,7 +105,8 @@
     "James Legge, lecture on the monument (1888) (legge 3662-3710, 3876-3877, 4251-4253, 4346-4350): the stone dug up by workmen in a suburb of Ch'ang-an in 1625, with a remarkable inscription in Chinese and other characters, telling of strangers who taught there under the T'ang emperors; a Chinese convert official sending a copy to the Jesuit fathers, who circulated copies through the empire as proof of the early introduction of Christianity; the monument telling of the Religion's first entrance into China; very slight indications of it in Chinese history after 781; Wu Tsung's edict of 845, sending the teachers of Ta Ts'in and of the Mu-hu-pi, more than three thousand, back to ordinary life.",
     "Henry Yule and Henri Cordier, The Book of Ser Marco Polo, vol. 2 (1903), note on the Christian monument at Si-ngan fu (yule 2908-2916, 2929-2932): Chang-an, the capital; the stone accidentally found by workmen in 1625, with the cross incised at its top; its discovery disclosing the forgotten existence of the Christian churches there.",
     "E. A. Wallis Budge, The Monks of Kublai Khan (1928), Appendix B, after P. Y. Saeki (budge 5174-5177): the emperor sending his minister Fang Hsuan-ling to bring him to the palace.",
-    "World census, the Church of the East on the Silk Road: his tradition."
+    "World census, the Church of the East on the Silk Road: his tradition.",
+    "The Xi'an stele (781), tr. A. Wylie, in Malech 1910 (malech_history-of-the-syrian-nation-and-old-evangelical-apostolic-church-of-the-east_1910.txt, 13688-13689), with Legge 1888 (1012, 1227-1229): the stone's picture of his journey by the clouds and the winds, carrying the sacred books through hardship and danger."
   ],
   "quotationOriginals": [
     {
@@ -114,6 +115,14 @@
       "work": "The Xi'an stele (781), the decree of 638, tr. James Legge, The Nestorian Monument of Hsi-an Fu (1888)",
       "file": "cic/texts/legge_nestorian-monument-of-hsi-an-fu_trubner1888.txt",
       "lines": "1252-1254",
+      "secondReading": "same"
+    },
+    {
+      "modern": "Watching the blue clouds, he carried the true sacred books. Watching the way the winds blew, he faced hardships and dangers.",
+      "printed": "Observing the azure clouds, he bore the true sacred books; beholding the direction of the winds, he braved difficulties and dangers.",
+      "work": "The Xi'an stele (781), tr. A. Wylie, in G. D. Malech, History of the Syrian Nation (1910)",
+      "file": "cic/texts/malech_history-of-the-syrian-nation-and-old-evangelical-apostolic-church-of-the-east_1910.txt",
+      "lines": "13688-13689",
       "secondReading": "same"
     }
   ]
