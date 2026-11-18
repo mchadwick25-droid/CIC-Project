@@ -151,7 +151,7 @@ D7. **The fate of Coroticus.** Patrick's letter hopes he will repent and free th
 - `acta-sanctorum_martii-tomus-2-lat_palme1865.txt` (470 hits): the Bollandist dossier for his feast on 17 March, later Lives (Jocelin and others). Late legend on legend; adds nothing his own words or Muirchu do not already show.
 - `four-masters_annals-of-the-kingdom-of-ireland-v3-1172-1378-gle-eng_odonovan1856.txt` (293 hits): later medieval annals; the hits are churches and successors "of Patrick", not the man.
 - `rees_lives-of-the-cambro-british-saints-lat-eng_1853.txt`: Welsh Lives of Carannog and David that name Patrick as going before them (REES 4948, 5825); legend, and side stories.
-- `adomnan_life-of-saint-columba_huyshe1905.txt`: hits are Huyshe's notes on "the Bell of Saint Patrick" and later history, not Adomnán on Patrick.
+- `adomnan_life-of-saint-columba_huyshe1905.txt`: most hits are Huyshe's notes on "the Bell of Saint Patrick" and later history. But Adomnán's own Second Preface names "a disciple of the holy bishop Patrick, Mochta by name" (2169–2171). That is a held witness from Iona, by Adomnán (c. 625–704, file header line 4), outside Armagh. Nothing in the outline rests on it.
 - `gildas_de-excidio-britanniae-lorica-penitential-lat-eng_williams1899.txt`: no mention of Patrick; noted because a sixth-century British writer is silent on him.
 - `bede_ecclesiastical-history-english-people_giles1903.txt`: names Palladius sent by Celestine (BEDE 1125–1135) and never Patrick; used only for D4.
 - The Lorica ("St. Patrick's Breastplate", PE 3204 onward): an Irish hymn White prints with its manuscripts from the eleventh century on (PE-ed 3207–3213); its ascription to Patrick is tradition. Not used.
