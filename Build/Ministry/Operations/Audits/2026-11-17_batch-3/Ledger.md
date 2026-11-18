@@ -142,4 +142,5 @@ One row per agent pass. Tokens are the subagent's own count as the harness repor
 | chalcedon terms | blind second reading | Opus, low effort | 74,896 | "from two" and "in two natures": same |
 | (batch) | authoring finished | — | — | all twelve briefs and cards through every step, second readings on all 52 quotations (1 changed meaning, re-rendered) |
 | baudonivia, alopen | ending recast and check | Opus (writers resumed; check low effort) | ~107,600 and ~107,400 cumulative; check 85,620 | both PASS; later-witness endings 5 → 3 of 12 |
-| alopen | evaluation fix | Opus, fresh writer | (count) | time order; told as the stone's; ends on his church fading from view after the 845 edict; the 1625 finding left out; 190 words |
+| alopen | evaluation fix | Opus, fresh writer | 104,658 | time order; told as the stone's; ends on his church fading from view after the 845 edict; the 1625 finding left out; 190 words |
+| moses-the-black | evaluation fix | Opus, fresh writer | 105,789 | death from PAR2 saying 45 beside Palladius; Ethiopian tradition dropped; "house-servant"; new quotation (Budge 1464) needs a second reading; 345 words |
