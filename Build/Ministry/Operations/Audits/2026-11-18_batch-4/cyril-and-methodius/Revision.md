@@ -59,3 +59,5 @@ Kept word for word from the approved brief: the three-sentence opening; the Gosp
   New: Up to about 3 minutes for a person (about 460 words), about 4 minutes 15 for a council (about 550); craft comes before time (Mark, 2026-11-18).
 - Old: Do not reduce the pope's 880 ruling (with the 879 ban and the Latin-Gospel condition), the driving-out from Moravia to Bulgaria, or the Kiev chronicle to a pointer after the first minute. Each part of Mark's approved heart is told, briefly, within about the first 150 words. Beat 1 must carry them, not only point ahead. (Review, 2026-11-18.)
   New: Do not reduce the pope's 880 ruling (with the 879 ban and the Latin-Gospel condition), the driving-out from Moravia to Bulgaria, or the Kiev chronicle to a pointer. Each part of Mark's approved heart is told, briefly. (Review, 2026-11-18.)
+
+- Coordinator fix, 2026-11-18 (card check finding): "ploughing" → "plowing" (American spelling, our own rendering), in the brief and the card.

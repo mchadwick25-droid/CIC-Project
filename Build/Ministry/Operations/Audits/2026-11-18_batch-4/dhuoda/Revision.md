@@ -42,3 +42,5 @@ Listener read: grade 6.9 is not flat; sentences carry time and cause, and the vo
 
 - Old: "the baby's removal, or the little brother, told only after the first minute" → **"name both sons' absence, and her charge to show the book to the little brother, in the opening."**
   New: "the baby's removal, or the little brother, left out" → **"name both sons' absence, and her charge to show the book to the little brother."**
+
+- Coordinator fix, 2026-11-18 (card check finding): "have it carved on her grave" → "have it written on her grave"; the outline Do not say entry corrected to match (Latin *transcribere*). Worded by the coordinator, so it goes to an independent check.

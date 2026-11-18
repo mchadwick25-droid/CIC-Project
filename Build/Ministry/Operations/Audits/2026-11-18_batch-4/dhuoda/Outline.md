@@ -43,7 +43,7 @@ Sheet references (S, E, T, I, D, and A for "Added for batch 4") point to `Source
   - "Bernard was beheaded" → **"In 844 the Franks judged Bernard guilty of treason, and on Charles's order he was put to death"** (E19, D4).
   - "William died avenging his father" → **"William seized Ampurias and Barcelona by trickery. In 850 he was himself captured and killed at Barcelona."** No held annal gives a motive (E20).
   - "she died in 843", "she died soon after", "she died before her husband" → **"No record tells when or where she died"** (E18).
-  - "her epitaph is carved on her tomb" or "her grave at Uzès" → **"she asked for it to be carved"**. No record says it was, or where she lies (E17).
+  - "her epitaph is carved on her tomb" or "her grave at Uzès" → **"she asked for it to be written on her grave"** (her Latin is *transcribere*, to write it there, not to carve it). No record says it was, or where she lies (E17).
   - "she borrowed from Jews" alone → **"from Christians and from Jews"**. Give both, and give her reason: to support Bernard in the March and to keep him from parting from her and William (E14).
   - "she finished it in 843" → **"she worked on it for more than a year"**. The year of completion is missing from the manuscript (E11, D1).
   - "chess" → **"a board game"** (T2).

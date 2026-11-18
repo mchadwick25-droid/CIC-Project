@@ -73,7 +73,7 @@ E15. **Prayer for the family dead.** Chapter 72 lists them: "Wil[l]elmus, Chungu
 
 E16. **Godfather Theodoric.** "Nec hoc pi-setereundum est, fili, de illo qui te, ex meis suscipiens brachiis, per lavacrum regenerationis filium adoptavit in Christo. Nomen autem ejus apellatus (3) est, dum vixil, domniis Teodericus (4), nunc vero condam(5)." [Nor must this be passed over, my son: the one who took you from my arms and adopted you as a son in Christ through the washing of rebirth. His name, while he lived, was lord Theodoric; now he is dead.] (DH 10536–10539). Documented.
 
-E17. **Her epitaph, composed by her, which she asks him to have carved.** "ut in loco in quo fuerim sepulta, super ipso tecto sepulchri quod meum(l) operuerit corpus, hos versiculos jubé tran(s)scri- bere" (DH 11966–11968, 11975). The epitaph begins "De terra formatum, hoc in tumulo Duodane (9) corpus jacet humatum : / Rex immense, suscipe illam." (DH 11987–11990) and asks every passer-by: "Omnis œtas et sexus, vadensque et revertens hic (15), rogo, dicite ita : / Agyos (16) magne, ejus dilue vincla (17)." (DH 11999–12002). Its first letters spell DHVODANE, "à Dhuoda" (DH 465–467). Documented as her request. No source says it was carved or where she was buried.
+E17. **Her epitaph, composed by her, which she asks him to have written on her tomb.** (*transcribere*: to write it on the tomb's covering, not to carve it.) "ut in loco in quo fuerim sepulta, super ipso tecto sepulchri quod meum(l) operuerit corpus, hos versiculos jubé tran(s)scri- bere" (DH 11966–11968, 11975). The epitaph begins "De terra formatum, hoc in tumulo Duodane (9) corpus jacet humatum : / Rex immense, suscipe illam." (DH 11987–11990) and asks every passer-by: "Omnis œtas et sexus, vadensque et revertens hic (15), rogo, dicite ita : / Agyos (16) magne, ejus dilue vincla (17)." (DH 11999–12002). Its first letters spell DHVODANE, "à Dhuoda" (DH 465–467). Documented as her request. No source says it was carved or where she was buried.
 
 E18. **Her death.** No held source gives it. Bondurand guesses: "Dhuoda ... dut peu survivre à la rédaction de son ouvrage" (DH 1782–1784); "Dhuoda mourut sans doute avant d'apprendre la mort tragique de son mari et de ses fils" (DH 1053–1055). LATER, conjecture. Inferential-Thin. Do not use as fact.
 
@@ -155,7 +155,7 @@ D8. **Bondurand's French summaries of P-only passages.** Several summaries softe
 
 - Carol Neel's English translation (cited by the census, CEN 42303) is not held.
 - No held source of her own time names Dhuoda outside her book.
-- No held source records her death, burial, or whether the epitaph was carved.
+- No held source records her death, burial, or whether the epitaph was written there.
 - No held source shows the book being read or used between the 9th century and Mabillon (1677), beyond the existence of the copies.
 
 ## Added for batch 4

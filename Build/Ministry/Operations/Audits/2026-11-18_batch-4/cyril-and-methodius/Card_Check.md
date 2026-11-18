@@ -22,18 +22,37 @@ The edit list's "Left alone" section is overruled by rule 3. Kept, because each 
 - "862, for the 860s".
 - "Theophylact's name", for "or more later" (Source_Sheet D2).
 
-| Field | Old text | New text |
-|---|---|---|
-| `briefReferences[0]` | `the letters made after prayer.` | `the letters made.` |
-| `briefReferences[4]` | `Life of Constantine, lines 20379–20445: Rome, the pope comes out to meet them with Clement's relics; his illness; the monk's name Cyril; his death on 14 February, aged 42.` | `Life of Constantine, lines 20379–20445: Rome; his illness; the monk's name Cyril; his death.` |
-| `briefReferences[5]` | `Methodius bishop for Pannonia; held two and a half years in Swabia.` | `Methodius bishop; held two and a half years.` |
-| `briefReferences[7]` | `the earlier ban on Slavonic Mass repeated, with preaching in Slavonic still allowed.` | `the earlier ban on Slavonic Mass repeated.` |
-| `briefReferences[8]` | `Svatopluk: the Slavonic letters found by Constantine, Slavonic Mass allowed,` | `Svatopluk: Slavonic Mass allowed,` |
-| `briefReferences[9]` | `lines 12540–12551; his death on 6 April; the funeral` … `(Latin extract in Ginzel): Wiching set up, the disciples driven out.` | `lines 12540–12551; his death; the funeral` … `(Latin extract in Ginzel): the disciples driven out.` |
-| `briefReferences[10]` | `Clement \"the first bishop of the Bulgarian tongue\"; the plain sermons.` | `Clement \"the first bishop of the Bulgarian tongue\".` |
-| `briefReferences[13]` | `found in Rus and among the Danube Bulgarians; Cross's` | `found in Rus; Cross's` |
+`briefReferences[0]`
+- Old: "Life of Constantine, lines 20217–20233: Moravia asks for a teacher in its own language; the emperor sends the tired philosopher; \"if they have letters for their language\"; \"who can write words on water\"; the letters made after prayer."
+- New: "Life of Constantine, lines 20217–20233: Moravia asks for a teacher in its own language; the emperor sends the tired philosopher; \"if they have letters for their language\"; \"who can write words on water\"; the letters made."
 
-The rest of each entry is unchanged.
+`briefReferences[4]`
+- Old: "Life of Constantine, lines 20379–20445: Rome, the pope comes out to meet them with Clement's relics; his illness; the monk's name Cyril; his death on 14 February, aged 42."
+- New: "Life of Constantine, lines 20379–20445: Rome; his illness; the monk's name Cyril; his death."
+
+`briefReferences[5]`
+- Old: "Life of Methodius, lines 12249–12365: his last words to Methodius, and his plea not to give up his teaching for the mountain; Methodius bishop for Pannonia; held two and a half years in Swabia."
+- New: "Life of Methodius, lines 12249–12365: his last words to Methodius, and his plea not to give up his teaching for the mountain; Methodius bishop; held two and a half years."
+
+`briefReferences[7]`
+- Old: "Pope John VIII, letter of 879 to Methodius: the earlier ban on Slavonic Mass repeated, with preaching in Slavonic still allowed."
+- New: "Pope John VIII, letter of 879 to Methodius: the earlier ban on Slavonic Mass repeated."
+
+`briefReferences[8]`
+- Old: "Pope John VIII, letter of 880 to Svatopluk: the Slavonic letters found by Constantine, Slavonic Mass allowed, the Gospel read first in Latin, and the three chief languages."
+- New: "Pope John VIII, letter of 880 to Svatopluk: Slavonic Mass allowed, the Gospel read first in Latin, and the three chief languages."
+
+`briefReferences[9]`
+- Old: "Life of Methodius, lines 12540–12551; his death on 6 April; the funeral in Latin, Greek and Slavonic, with crowds rich and poor, free and slave; Lützow for 885. Life of Clement (Latin extract in Ginzel): Wiching set up, the disciples driven out."
+- New: "Life of Methodius, lines 12540–12551; his death; the funeral in Latin, Greek and Slavonic, with crowds rich and poor, free and slave; Lützow for 885. Life of Clement (Latin extract in Ginzel): the disciples driven out."
+
+`briefReferences[10]`
+- Old: "Life of Clement, PG 126: the younger priests and deacons sold, the teachers chained, then stripped and driven out; Clement, Naum and Angelarius to Bulgaria; Boris thanks God; Clement \"the first bishop of the Bulgarian tongue\"; the plain sermons."
+- New: "Life of Clement, PG 126: the younger priests and deacons sold, the teachers chained, then stripped and driven out; Clement, Naum and Angelarius to Bulgaria; Boris thanks God; Clement \"the first bishop of the Bulgarian tongue\"."
+
+`briefReferences[13]`
+- Old: "Russian Primary Chronicle, tr. Cross: the writing first made for the Moravians, found in Rus and among the Danube Bulgarians; Cross's introduction for 869 and the dating."
+- New: "Russian Primary Chronicle, tr. Cross: the writing first made for the Moravians, found in Rus; Cross's introduction for 869 and the dating."
 
 ## 4. Census rules
 
