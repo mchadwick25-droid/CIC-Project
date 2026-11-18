@@ -81,3 +81,8 @@ Result: 3 FIX (Toledo, Chalcedon, Pachomius).
   ```
 - **Fault 2, `datesNote`.** It reads "Born about 292, died 348 (George Schodde; Ernest Cushing Richardson's note to Gennadius)", and the brief has "346 or 348". **Ruling: correct it.** The attribution is true: Schodde 136 says "died in 348" and Richardson says "died 348" (npnf203 42254). But a held source contradicts the year itself. Robertson has "died on May 9, 346" (npnf204 5643-5644), which is now a card source. The Source_Sheet rates the year Contested, and the outline rules out "died in 348" as fact. Given alone, one side of a contested date reads as settled, against the finished brief. **Correction, fewest words:** `"Born about 292, died 348 (George Schodde; Ernest Cushing Richardson's note to Gennadius) or 346 (Archibald Robertson)"`. This adds four words and keeps each date with its own authority. List it in Card_Edits under "Clearly wrong", with Robertson npnf204 5643-5644 as the evidence.
 - Left alone, `legacy.traces` (the women's house "across the river") and the verbatim items: upheld as Card_Edits gives them.
+
+## After the evaluation fixes (2026-11-18, coordinator)
+
+- moses-the-black: one `quotationOriginals` entry added for the new quotation, "Those who take the sword shall perish by the sword" (Budge, Paradise II, chapter XIV, saying 45, l.1464, verbatim; blind second reading MINOR, `Second_Readings_2.md`), and one `briefReferences` line for it.
+- council-of-chalcedon-451: the brief no longer quotes "Peter has spoken thus through Leo". The card's own `decided` text still does, so its entry stays. The `briefReferences` line now cites only "Leo and Cyril taught the same thing" (npnf214 l.20002).
