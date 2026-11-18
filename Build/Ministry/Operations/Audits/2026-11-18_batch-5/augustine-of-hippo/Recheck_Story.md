@@ -71,3 +71,6 @@ Scored with all four in place: 827 words, grade 7.4 (6.7 with names out), readin
 The 41 words are the garden sentence: the lead "Then, he writes:" (3 words) plus Q1 (38 words, the outline's rendering word for word). The scorer splits it only after "read".
 
 **Ruling: it stands.** The words past 30 are the quote itself, and its rendering keeps every clause of one Latin sentence (AUGL 13463–13465). It cannot be split without changing a verbatim quote. The review's earlier "(Not a finding)" ruling on this sentence holds. The longest true narrator sentence is 28 words.
+
+## Applied (coordinator, 2026-11-18)
+Each replacement above applied word for word as the rechecker worded it; under the kit no further check is needed.

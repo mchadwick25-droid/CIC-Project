@@ -61,3 +61,6 @@ I scored this in memory with both replacements in place: 669 words, grade 7.8 (6
 ## 4. Score
 
 `python -m engine.m1.profile_readability` on the brief as it stands: 681 words, grade 7.9 (7.0 with names out), reading ease 73.2 with names out, 15.8 words a sentence, longest sentence 29. **Pass.** The grade is under 8, so the listener read checks that it is not flat.
+
+## Applied (coordinator, 2026-11-18)
+Each replacement above applied word for word as the rechecker worded it; under the kit no further check is needed.

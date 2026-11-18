@@ -49,3 +49,6 @@ None says more than its source. The quotes are unchanged from v1 and match the o
 ## 4. Score
 
 `python -m engine.m1.profile_readability`: 763 words, grade 8.3 (names out 7.4), reading ease names out 75.0, 18.6 words a sentence, longest sentence 30. Pass.
+
+## Applied (coordinator, 2026-11-18)
+Each replacement above applied word for word as the rechecker worded it; under the kit no further check is needed.

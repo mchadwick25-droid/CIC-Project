@@ -48,3 +48,6 @@ No quote is new. The existing quotes are unchanged from v1 and were re-read by t
 ## 4. Score
 
 `python -m engine.m1.profile_readability`: 636 words, grade 7.3 (names out 6.8), reading ease (names out) 75.2, 16.3 words a sentence, 18% short sentences, longest sentence 28 words. Pass, with the scorer's note that grade 7.3 is under 8 and goes to the listener read. The drop comes from the review's splits, not from thinner substance.
+
+## Applied (coordinator, 2026-11-18)
+Each replacement above applied word for word as the rechecker worded it; under the kit no further check is needed.
