@@ -232,3 +232,4 @@ One row per agent pass. Tokens are the subagent's own count as the harness repor
 | narsai | re-outline (heart of their life) | Opus | 147,203 | heart: founding Nisibis with Barsauma; verse sermons |
 | ten reworked | blind second readings (27) | Opus | 97,783 | 5 flags |
 | moses-the-black | outline check 2 | Opus | 120,050 | PASS, 4 minor |
+| moses-the-black | outline minors from check 2 (researcher) | Opus | — | 4 applied |
