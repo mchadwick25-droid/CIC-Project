@@ -244,3 +244,4 @@ One row per agent pass. Tokens are the subagent's own count as the harness repor
 | alopen | card 2 | Opus | 122,198 | 1 quote replaced; references replaced; nothing wrong |
 | moses-the-black | revision (writer, from amended outline) | Opus | — | 353 words, grade 5.7 |
 | thomas-a-kempis | card 2 | Opus | 128,176 | 7 quotes; little Gerson carries the old passage verdict; census teaser 'most copied' to fix at census |
+| council-of-chalcedon-451 | card 2 | Sonnet | (count) | quotes trimmed to the new brief; Coptic condemnation of Eutyches not found by card writer (to verify) |

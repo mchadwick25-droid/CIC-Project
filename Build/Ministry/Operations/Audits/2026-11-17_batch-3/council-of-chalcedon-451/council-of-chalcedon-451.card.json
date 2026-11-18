@@ -256,83 +256,6 @@
   },
   "quotationOriginals": [
     {
-      "modern": "I accept 'from two'. 'Two' I do not accept. I am forced to be shameless: my soul is at stake.",
-      "printed": "I receive “the of two;” “the two” I do not receive (τὸ ἐκ δύο δέχομαι· τὸ δύο, οὐ δέχομαι). I am forced to be impudent, but the matter is one which touches my soul.",
-      "work": "Dioscorus of Alexandria, Session I of Chalcedon, as the acts minute it, tr. Henry Percival",
-      "file": "cic/texts/npnf214_seven-ecumenical-councils.xml",
-      "lines": "19254-19260",
-      "uncertain": "The words are minuted by the side that won. The brief's \"shameless\" is the Greek's sense of Percival's \"impudent\", and \"my soul is at stake\" renders \"touches my soul\"; Mansi's Latin has \"Cogor mihi res est impudenter agere: de anima est mihi sermo\" (tomus 6, 65950-65956, with the margin note at 65905), and its Greek column is garbled.",
-      "secondReading": "minor"
-    },
-    {
-      "modern": "not of judges but of robbers",
-      "printed": "that meeting, not of judges but of robbers, at Ephesus",
-      "work": "Leo of Rome, Letter XCV, to Pulcheria, tr. Charles Lett Feltoe",
-      "file": "cic/texts/npnf212_leo-great-gregory-great.xml",
-      "lines": "8639-8641",
-      "uncertain": "Feltoe's English; Leo's Latin is not held. Blind second reading: \"made up of robbers, not judges\" (Second_Readings_Blind_5.md, T1).",
-      "secondReading": "same"
-    },
-    {
-      "modern": "Leo and Cyril taught the same thing",
-      "printed": "Leo and Cyril taught the same thing, anathema to him who does not so believe.",
-      "work": "The bishops' cry after the Tome was read, Session II, tr. Percival",
-      "file": "cic/texts/npnf214_seven-ecumenical-councils.xml",
-      "lines": "20002-20003",
-      "secondReading": "same"
-    },
-    {
-      "modern": "not for the faith",
-      "printed": "Propter fidem non eff",
-      "work": "Anatolius of Constantinople on Dioscorus's sentence, Session V, in the acts, Latin column, Mansi tomus 7",
-      "file": "cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-7-451-492-lat_welter-facsimile1901.txt",
-      "lines": "9807",
-      "uncertain": "Latin column, OCR as printed (long s read as f: \"eff\" for est). The speaker line is \"Anatolius reverendi(fimus archiepifcopus Con-\" (9802) and \"ftantinopolis dixit: *\" (9807). The sentence runs on across 9808-9819, each line shared with the garbled Greek column: \"damnatus Diofcorus , fed quia excommuni-\", \"cationem fecit domino archiepifcopo Leoni,\", \"& tertio vocatus ett, & noh venit, & ideo\", \"damnatus eft.\" (\"fed\" for sed, \"ett\" for est, \"noh\" for non). The brief's \"not for the faith\" renders \"Propter fidem non ... damnatus\". The refusers' chronicle quotes the same saying: \"Not for the faith is Dioscorus deposed\" (Zachariah III.1, tr. Hamilton and Brooks, cic/texts/zachariah-rhetor_chronicle_hamiltonbrooks1899.txt, 2321-2324).",
-      "secondReading": "same"
-    },
-    {
-      "modern": "The most holy Leo or Dioscorus?",
-      "printed": "Which would you follow, the most holy Leo or Dioscorus?",
-      "work": "The imperial judges to the bishops, Session V, tr. Percival",
-      "file": "cic/texts/npnf214_seven-ecumenical-councils.xml",
-      "lines": "20170-20171",
-      "secondReading": "same"
-    },
-    {
-      "modern": "We believe as Leo",
-      "printed": "We believe as Leo.",
-      "work": "The bishops' answer, Session V, tr. Percival",
-      "file": "cic/texts/npnf214_seven-ecumenical-councils.xml",
-      "lines": "20172-20173",
-      "secondReading": "same"
-    },
-    {
-      "modern": "two natures",
-      "printed": "Add then to the definition, according to the judgment of our most holy father Leo, that there are two natures in Christ united unchangeably, inseparably, unconfusedly.",
-      "work": "The imperial judges to the bishops, Session V, tr. Percival",
-      "file": "cic/texts/npnf214_seven-ecumenical-councils.xml",
-      "lines": "20175-20178",
-      "secondReading": "minor"
-    },
-    {
-      "modern": "From two natures",
-      "printed": "Dioscorus acknowledged that he accepted the expression “of two natures,”",
-      "work": "The imperial judges, Session V, tr. Percival",
-      "file": "cic/texts/npnf214_seven-ecumenical-councils.xml",
-      "lines": "20166-20167",
-      "uncertain": "A term, not a saying: the brief's \"From two natures\" is the formula ἐκ δύο (19256), which Percival gives as \"of two natures\". Blind second reading: \"from two natures\" (Second_Readings_Blind_3.md, T1).",
-      "secondReading": "same"
-    },
-    {
-      "modern": "two",
-      "printed": "“the two” I do not receive (τὸ δύο, οὐ δέχομαι)",
-      "work": "Dioscorus of Alexandria, Session I of Chalcedon, as the acts minute it, tr. Henry Percival",
-      "file": "cic/texts/npnf214_seven-ecumenical-councils.xml",
-      "lines": "19254-19260",
-      "uncertain": "A term, not a saying: the formula τὸ δύο that Dioscorus refuses. Blind second reading: \"Two\", with no noun after it in the Greek (Second_Readings_Blind_5.md, T3).",
-      "secondReading": "same"
-    },
-    {
       "modern": "in two natures",
       "printed": "ἐν δύο φύσεσιν",
       "work": "The Definition of Chalcedon, Session V, as Evagrius copies it, Ecclesiastical History II.4, Greek, ed. Bidez and Parmentier",
@@ -357,43 +280,30 @@
       "secondReading": "minor"
     },
     {
-      "modern": "the wives and daughters of the Alexandrians",
-      "printed": "ἔς τε τὰς γαμετὰς καὶ θυγα- τέρας τῶν ᾿Αλεξανδρέων",
-      "work": "Priscus, as Evagrius reports him, Ecclesiastical History II.5, Greek, ed. Bidez and Parmentier",
-      "file": "cic/texts/evagrius-scholasticus_historia-ecclesiastica-grc_bidez-parmentier1898.txt",
-      "lines": "5396-5398",
-      "englishPrinted": "the soldiery towards the wives and daughters of the Alexandrians",
-      "englishFile": "cic/texts/evagrius-scholasticus_ecclesiastical-history_walford1846.txt",
-      "englishLines": "3394-3395",
-      "uncertain": "The Greek phrase is split across lines: \"ἔς τε τὰς γαμετὰς καὶ θυγα-\" at 5396 and \"τέρας τῶν ᾿Αλεξανδρέων\" at 5398, with an OCR-noise line between (5397), left out.",
+      "modern": "From two natures",
+      "printed": "Dioscorus acknowledged that he accepted the expression “of two natures,”",
+      "work": "The imperial judges, Session V, tr. Percival",
+      "file": "cic/texts/npnf214_seven-ecumenical-councils.xml",
+      "lines": "20166-20167",
+      "uncertain": "A term, not a saying: the brief's \"From two natures\" is the formula ἐκ δύο (19256), which Percival gives as \"of two natures\". Blind second reading: \"from two natures\" (Second_Readings_Blind_3.md, T1).",
       "secondReading": "same"
     },
     {
-      "modern": "for the orthodox faith",
-      "printed": "persecution for the orthodox faith at the hands of the prince Marcian",
-      "work": "History of the Patriarchs of Alexandria, life of Dioscorus I, tr. B. Evetts",
-      "file": "cic/texts/severus-al-muqaffa_history-patriarchs-coptic-church-v1_evetts1904.txt",
-      "lines": "34869-34870",
-      "uncertain": "A tenth-century compilation, the Coptic Church's own memory. OCR slips in the file (\"lie\" for He, \"us wife\" for his wife) are outside the quoted words.",
-      "secondReading": "same"
+      "modern": "I accept 'from two'. 'Two' I do not accept. I am forced to be shameless: my soul is at stake.",
+      "printed": "I receive “the of two;” “the two” I do not receive (τὸ ἐκ δύο δέχομαι· τὸ δύο, οὐ δέχομαι). I am forced to be impudent, but the matter is one which touches my soul.",
+      "work": "Dioscorus of Alexandria, Session I of Chalcedon, as the acts minute it, tr. Henry Percival",
+      "file": "cic/texts/npnf214_seven-ecumenical-councils.xml",
+      "lines": "19254-19260",
+      "uncertain": "The words are minuted by the side that won. The brief's \"shameless\" is the Greek's sense of Percival's \"impudent\", and \"my soul is at stake\" renders \"touches my soul\"; Mansi's Latin has \"Cogor mihi res est impudenter agere: de anima est mihi sermo\" (tomus 6, 65950-65956, with the margin note at 65905), and its Greek column is garbled.",
+      "secondReading": "minor"
     },
     {
-      "modern": "the crown of martyrdom",
-      "printed": "the crown of martyrdom in the island ol Gangra",
-      "work": "History of the Patriarchs of Alexandria, life of Dioscorus I, tr. B. Evetts",
-      "file": "cic/texts/severus-al-muqaffa_history-patriarchs-coptic-church-v1_evetts1904.txt",
-      "lines": "35109-35110",
-      "uncertain": "\"ol\" is the OCR's reading of \"of\".",
-      "secondReading": "same"
-    },
-    {
-      "modern": "an opposite infection",
-      "printed": "an opposite infection, I mean by the evil impiety of Nestorius,",
-      "work": "Severus of Antioch, Letter I.1, Select Letters Book VI, tr. E. W. Brooks",
-      "file": "cic/texts/severus-of-antioch_select-letters-book6-part1_brooks1903.txt",
-      "lines": "720-722",
-      "uncertain": "Severus speaks some sixty years after the council. The file's own bracket marks the words he recalls saying to an inquirer.",
-      "secondReading": "same"
+      "modern": "two natures",
+      "printed": "Add then to the definition, according to the judgment of our most holy father Leo, that there are two natures in Christ united unchangeably, inseparably, unconfusedly.",
+      "work": "The imperial judges to the bishops, Session V, tr. Percival",
+      "file": "cic/texts/npnf214_seven-ecumenical-councils.xml",
+      "lines": "20175-20178",
+      "secondReading": "minor"
     },
     {
       "modern": "That council tore into ten thousand pieces the whole robe of Christ, woven in one piece from the top.",
@@ -403,33 +313,24 @@
       "lines": "2181-2183",
       "uncertain": "The brief's rendering also follows Michael the Syrian, who repeats the saying some seven hundred years later: \"déchira en dix mille morceaux la tunique intègre du Christ tissée d'une seule pièce\" (cic/texts/michael-the-syrian_chronique-tome2-livres-viii-xi-fra_chabot1901.txt, 2859-2860). The Syriac itself is not held.",
       "secondReading": "minor"
-    },
-    {
-      "modern": "foreign from our body",
-      "printed": "was different to and foreign from our body.",
-      "work": "Dioscorus's letter from exile, as the chronicle known as Zachariah's preserves it, tr. Hamilton and Brooks",
-      "file": "cic/texts/zachariah-rhetor_chronicle_hamiltonbrooks1899.txt",
-      "lines": "2375-2376",
-      "uncertain": "The letter is held at second hand, in the refusers' chronicle.",
-      "secondReading": "same"
     }
   ],
-  "briefLength": "about 3 minutes 45 seconds",
   "briefReferences": [
-    "Dioscorus at Session I of Chalcedon (npnf214, 19254-19260; Mansi 6, 65950-65956): \"from two\" accepted, \"two\" not; the legates' demand that he not sit as a judge (npnf214, 19159-19167).",
-    "Eutyches and the council of 449: his words, \"of Two Natures before the Union, but after the Union ... of One Nature\", in the Syriac acts of Ephesus (Perry, 23843-23845); Flavian deposed (24117-24138); Leo's \"not of judges but of robbers\" (Letter XCV, npnf212, 8639-8641).",
-    "Marcian and Pulcheria, and the council moved from Nicaea (Leo, Letter XCV, npnf212, 8610-8618; Hefele v3, 15019-15025); Armenia's bishops in prison or exile (Ormanian, 2445-2456).",
-    "The Tome and the bishops' cry, Session II (npnf214, 19996-20007): \"Leo and Cyril taught the same thing\".",
-    "Session III (npnf214, 20018-20020, 20055-20062, 20082-20090; Hefele v3, 16986-17032; Mansi 6, 95088-95091, 99302-99441): the imperial representatives apparently absent; three summonses; Dioscorus's answers, that his guards held him back and that he would come if the commissioners and senate were there; the legates' grounds for the sentence; the date, 13 October.",
-    "Session V (npnf214, 20142-20178; Hefele v3, 18103-18129; Mansi 7, 9802-9819): the draft \"of two natures\"; the legates' threat to leave and hold a council in the West; Anatolius's \"not for the faith\"; \"the most holy Leo or Dioscorus?\" and \"We believe as Leo\"; the order to add \"two natures\".",
-    "The Definition and the ban on any other creed (npnf214, 20278-20312; Evagrius II.4, Greek, 5243-5245).",
-    "Canon 4, monks under their bishops (npnf214, 20828-20836); canon 28, Constantinople's rank next after Rome (22225-22236); Leo's annulment (Letter CV, npnf212, 9257-9261).",
-    "Later emperors set it aside: the circular of Basiliscus (Evagrius III.4, Walford, 5457-5466) and Zeno's Henotikon (III.14, 6027-6030); the Greek and Latin churches count it the fourth council (Ormanian, 2515-2522).",
-    "Alexandria after the council: Priscus on the burning at the temple of Serapis and the troops (Evagrius II.5, Walford, 3380-3395); the Syriac chronicle on the break in communion and the dead at the altar (Zachariah III.2, 2524-2550); the History of the Patriarchs on Dioscorus's suffering and death (35109-35110, 34869-34870).",
-    "The Syriac chronicle's account of the sessions: \"one Nature from two\" (2309-2312); the draft forced through (2327-2335); the hand saying (2341-2346); Dioscorus's faith \"like that of Athanasius, and Cyril\" (2366-2367); the robe (2181-2183); Dioscorus's letter, \"foreign from our body\" (2372-2376).",
-    "Severus of Antioch, Letter I.1 (Select Letters VI, 705-722): the council deserves anathema for healing Eutyches's error with \"an opposite infection\".",
-    "Palestine: monks from the council make Theodosius bishop in Juvenal's place (Evagrius II.5, 3408-3420).",
-    "Armenia: the synod of Dvin in 506, by Ormanian's account, which also names Eutyches among those condemned (Ormanian, 2502-2512).",
-    "The Church of the East: received the council in so far as it condemned Eutyches (Chabot's note, Synodicon orientale, 36950-36951); Wigram on the manuscript at Mosul (14626-14638, 14733-14736)."
+    "The one letter, ek against en: Evagrius, Ecclesiastical History II.5, Walford 3450-3456, Greek (Bidez and Parmentier) 5504-5508.",
+    "More than five hundred bishops: the council's letter to Leo, npnf212 8753 (520); Marcian and Pulcheria calling it: Leo, Letter XCV, npnf212 8610-8618; Chalcedon across from Constantinople: Hefele v3 15136-15141.",
+    "The Definition: npnf214 20278-20298; Evagrius II.4, Greek 5243-5246; Mansi tomus 7 10892-10902. Its own reason, two errors at once: npnf214 20236-20243, 20269-20273.",
+    "In two or of two natures in the Greek of the acts: Hefele as Percival prints him, npnf214 20361-20370.",
+    "The Greek and Latin churches keep it as the fourth council: Ormanian 2515-2522; the Fifth Council, npnf214 23648-23653.",
+    "Eutyches in 448 and Ephesus in 449: Perry, Syriac acts of 449, 23842-23845, 24017-24020, 24117-24138; Leo on the meeting of robbers: Letter XCV, npnf212 8639-8641.",
+    "The Tome, as read at Chalcedon: npnf214 19797-19801; the bishops' cry that Leo and Cyril taught the same thing: npnf214 19996-20007.",
+    "Dioscorus at Session I: npnf214 19254-19260 and 19159-19167; Mansi tomus 6 65950-65956.",
+    "Session III, the summonses, the guards, the officials, the grounds and the date: npnf214 20018-20020, 20082-20090; Hefele v3 16986-17032; Mansi tomus 6 95088-95091, 99302-99441.",
+    "Gangra: Evagrius II.5, Walford 3365-3366; the refusers' chronicle on the hand saying: Zachariah III.1, 2341-2346.",
+    "The draft, the legates' threat, the judges' question and the bishops' answer: npnf214 20142-20178; Hefele v3 18103-18129; Mansi tomus 7 9802-9819.",
+    "The ban on any other creed: npnf214 20278-20312; monks under bishops, canon 4: npnf214 20828-20836; Constantinople's rank, canon 28: npnf214 22225-22236; Leo's annulment: Letter CV, npnf212 9257-9261.",
+    "Alexandria after the council: Priscus in Evagrius II.5, Walford 3380-3395; Zachariah III.2, 2524-2550; History of the Patriarchs 34868-34870, 35103-35110; the Coptic calendar of saints, 7 Tout, 14326-14331, 14436-14437.",
+    "The refusers' faith and reasons: Zachariah III.1, 2309-2312, 2366-2367, 2181-2183; Dioscorus's letter, 2372-2376; Severus of Antioch, Letter I.1, 705-722; Armenia condemning Eutyches: Ormanian 2502-2512.",
+    "Later emperors setting it aside: Evagrius III.4, Walford 5457-5466, and III.14, 6027-6030; Ormanian 2496-2499; Armenia's synods, Ormanian 2502-2512, 2550-2556.",
+    "The churches as one communion in 1912: Ormanian 8950-8967."
   ]
 }
