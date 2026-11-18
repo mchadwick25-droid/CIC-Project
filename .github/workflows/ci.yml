@@ -301,7 +301,9 @@ jobs:
     if: needs.changes.outputs.census == 'true'
     name: Validate world-census.json
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    # The census tests rerun the full quotation check against the held texts
+    # several times; with release 51 that alone runs past ten minutes.
+    timeout-minutes: 25
     steps:
       - uses: actions/checkout@v4
         with:
