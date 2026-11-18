@@ -130,6 +130,7 @@ None of the three is used in another story on the tree (all census `longDescript
 - Not "Babai" for the catholicos of 484: he is "Babowai" (Mark approved, 2026-11-18), a different man, as is the catholicos Babai of 497. Neither is needed here.
 - "Messalians": give the plain gloss, which is Budge's; do not add more about them.
 - Not "Babai lived in a cave" or "never slept on a mat" as fact: late chronicle only.
+- Not the books' keeping, or historians' judgment that they settled the church's teaching, held back to beat 4. Say both in the essence, within the first 150 words; beat 4 then gives Thomas's count (TM 4189–4190), not the judgment again.
 
 **Leave out**
 

@@ -128,6 +128,8 @@ Only Quotes 1–3 are quoted aloud, plus at most two short phrases: 'The Voice o
 - Keep his anger, which is the Letter's force: "fellow-citizens of demons", "ravening wolves" (PE 2859, 2902). Do not make him only mild.
 - Not "Ireland was wholly heathen" as fact. That is his phrasing in one place (D4).
 - Not "the monks and nuns of Ireland began with him". He says chiefs' children became monks and virgins of Christ (E8); do not make him the founder of Irish monasticism.
+- Cutting What came 3 cuts only Muirchu's fox story. One line that the legends came centuries later, from later writers, stays in every version (Also told, I4).
+- Not 'fifth-century' for his childhood. Tie the century to his work in Ireland; his birth year is an editor's reckoning.
 
 **Leave out**
 
