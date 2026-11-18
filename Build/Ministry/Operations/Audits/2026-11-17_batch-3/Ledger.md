@@ -219,3 +219,4 @@ One row per agent pass. Tokens are the subagent's own count as the harness repor
 | third-council-of-toledo-589 | recheck 2 | Opus, medium | 120,628 | FAIL on 1 sentence (Sunna dating); exact correction and minor applied by coordinator, wording as the recheck gave it |
 | john-wyclif | revision (writer, from amended outline) | Opus | 117,561 | 450 words, grade 7.8; three witnesses by word 150 |
 | justin-martyr | revision (writer) | Opus | 123,942 | 457 words, grade 7.2; death by word 154 |
+| thomas-a-kempis | recheck 2 | Opus, medium | (count) | PASS; minor 1 applied by coordinator as worded |
