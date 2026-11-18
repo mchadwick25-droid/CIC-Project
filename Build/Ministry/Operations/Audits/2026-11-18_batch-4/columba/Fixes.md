@@ -8,8 +8,8 @@ Applied to `Outline.md` from `Outline_Check.md` (batch 4, 2026-11-18). Verdict w
 - **M2** (heart): phrase replaced as given, line 5. (Beat 3): "Monks from the Irish houses preached" replaced with "Many Irish monks came and preached", line 17.
 - **M3** (Links): Baithene line replaced as given, line 40.
 - **M5** (heart): the last sentence now ends with "(told at the close, What came 3; not needed in the first minute)", line 5.
-- **M6, battle**: the check's sentence added to beat 1, line 15. Placement: the check says "after 'two years after a great battle in Ireland'", but that phrase sits mid-sentence and the addition is a full sentence, so it goes straight after the sentence that holds the phrase (ending "to make a pilgrimage for Christ"). The sentence in Leave out struck, line 76. Do not say entry added as given, line 74. Source checked: AU 4533–4540.
-- **M7**: both Do not say entries added as given, lines 75–76 of the Do not say list (lines 75 and 76). Sources checked: BEDE 5866–5872, 12801–12803, 8186–8189.
+- **M6, battle**: the check's sentence added to beat 1, line 15. Placement: the check says "after 'two years after a great battle in Ireland'", but that phrase sits mid-sentence and the addition is a full sentence, so it goes straight after the sentence that holds the phrase (ending "to make a pilgrimage for Christ"). The sentence in Leave out struck (Leave out first entry, line 80). Do not say entry added as given, line 74. Source checked: AU 4533–4540.
+- **M7**: both Do not say entries added as given, lines 75 and 76. Sources checked: BEDE 5866–5872, 12801–12803, 8186–8189.
 
 ## Worded by me
 
