@@ -229,4 +229,4 @@ One row per agent pass. Tokens are the subagent's own count as the harness repor
 | moses-the-black | heart test | Opus, medium | 94,562 | FIX: Scete, priest, disciples late; joins the rework |
 | ten reworked | compile blind-reading requests (27 items) | Sonnet | 147,932 | all located |
 | moses-the-black | re-outline (heart of their life) | Opus | 120,357 | heart: robber to father of Scete; Abba Moses saying dropped |
-| narsai | re-outline (heart of their life) | Opus | (count) | heart: founding Nisibis with Barsauma; verse sermons |
+| narsai | re-outline (heart of their life) | Opus | 147,203 | heart: founding Nisibis with Barsauma; verse sermons |
