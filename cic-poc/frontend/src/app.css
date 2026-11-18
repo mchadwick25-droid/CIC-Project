@@ -800,9 +800,8 @@ button {
   flex-direction: column;
 }
 
-/* Desktop: a side panel alongside the transcript, never over it - the
-   named correction from an earlier draft (§9.1 DECIDED: "Level-3 surfaces
-   are panels, not centered modals"). */
+/* Desktop: a side panel alongside the transcript, never over it. Level-3
+   surfaces are panels, not centered modals. */
 .level3-panel {
   top: 0;
   right: 0;

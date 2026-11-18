@@ -1146,6 +1146,66 @@ def test_structured_date_kwarg_does_not_swallow_narrative_string_value(tmp_path)
     assert hits[0].category == "REWRITE"
 
 
+def test_date_in_one_token_string_literal_on_code_line_keeps(tmp_path):
+    # A salt or a date passed to the code under test is a working value.
+    text = (
+        'DRAW_SALT = "cue-draw-2026-10-29"\n'
+        'def test_sets(accepted, salt="seed-tests-2026-10-29"):\n'
+        '    return accepted\n'
+        'split.write_halves([], tmp_path, "2026-10-31", {held: "withdrawn"})\n'
+    )
+    hits = _hits_for(text, tmp_path, "Sandbox/x/goldset/cues.py")
+    assert all(h.category == "KEEP" for h in hits)
+
+
+def test_date_in_string_with_spaces_or_comment_still_rewrites(tmp_path):
+    text = (
+        'NOTE = "decided on 2026-10-29 by the lead"\n'
+        'x = 1  # changed 2026-10-29\n'
+        'y = "cue-draw-2026-10-29"  # changed 2026-10-29\n'
+    )
+    hits = _hits_for(text, tmp_path, "Sandbox/x/goldset/cues.py")
+    assert [h.category for h in hits] == ["REWRITE", "REWRITE", "REWRITE"]
+
+
+def test_builder_thread_in_registry_added_column_keeps(tmp_path):
+    # The template's Added column is "Date and who/what added it".
+    text = (
+        "| # | Source | Verification Note | Added |\n"
+        "|---|---|---|---|\n"
+        "| 1 | Some Work | Checked | 2026-09-25, this build thread |\n"
+        "| 2 | Other Work | Checked | 2026-09-25, this build thread; revised 2026-10-29 |\n"
+        "| 3 | Third Work | Placed by this build thread | 2026-09-25 |\n"
+    )
+    hits = _hits_for(text, tmp_path, "Build/worlds/rcg/Source_Registry.md")
+    by_line = {h.line: h.category for h in hits}
+    assert by_line.get(3, "KEEP") == "KEEP"
+    assert by_line.get(4, "KEEP") == "KEEP"
+    assert by_line[5] == "REWRITE"
+
+
+def test_builder_thread_in_added_column_outside_registry_still_rewrites(tmp_path):
+    text = (
+        "| # | Source | Added |\n"
+        "|---|---|---|\n"
+        "| 1 | Some Work | 2026-09-25, this build thread |\n"
+    )
+    hits = _hits_for(text, tmp_path, "Build/worlds/rcg/Doc_02_Source_Ecology.md")
+    assert {h.line: h.category for h in hits}[3] == "REWRITE"
+
+
+def test_change_orders_register_named_as_a_document_keeps(tmp_path):
+    text = "- No version history inside the document. Version history belongs in the Change Orders Register.\n"
+    hits = _hits_for(text, tmp_path, "Build/reference/Project-Reference/Some_Reference.md")
+    assert hits == [] or hits[0].category == "KEEP"
+
+
+def test_change_order_as_provenance_still_rewrites(tmp_path):
+    text = "The cap was added under the accounts change order.\n"
+    hits = _hits_for(text, tmp_path, "Build/reference/Project-Reference/Some_Reference.md")
+    assert hits[0].category == "REWRITE"
+
+
 def test_doc_tail_heading_three_more_synonyms_protected(tmp_path):
     text = (
         "# Doc_08 -- Forces Document\n"

@@ -2910,3 +2910,8 @@ Status: OPEN. Owner: the project lead, through the coach thread.
 - **Finding.** 7 witt verbatim quotes named no line span in their locus.
 - **Done.** Each now names the span the independent Opus reviewer found in the batch review table (see "Every quote rendering reviewed by Opus against the edition", 2026-11-03), and the `quote-locus` gate checks the text against it. All 7 match.
 - **Owner.** Library record-defects thread. Closed.
+
+## OG-97. Four corpus-map gaps in the Luther volumes, 2026-11-18.
+
+- **Finding.** `cic/corpus-map/` has no entry for four works in the vendored Luther volumes (`witt_Doc_02_Source_Ecology.md` §0 and §16 item 1). Volume I opens with the 1539 Preface to the German Works and an excerpt from the 1545 Preface to the Latin Works (lines 250–432). Volume II ends with "That Doctrines of Men Are to Be Rejected" (1522, heading at line 15816), which the map's locus for the Eight Wittenberg Sermons swallows. Volume III's second work with an unreadable OCR title is "The Magnificat: Translated and Explained" (1520–21, section title at line 6281). Volume III holds three Emser writings, while the map's single entry names only two.
+- **Owner.** The coach thread, which holds the `cic/corpus-map/` surface. Open.

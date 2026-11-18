@@ -77,7 +77,7 @@
 | 2026-09-08 | builder-live-research | WebSearch | Weaver, *Divine Grace and Human Agency* | Row 23 |
 | 2026-09-08 | builder-direct-read | `npnf211`, `npnf105` title pages | Full editorial/translator citations | Row 17 completed |
 | 2026-09-08 | builder-direct-read | `npnf211` XML (Cassian prolegomena, re-read) | *Contra Collatorem*'s title, content, and edition; re-attributed from a mistaken Gennadius citation | Row 32 corrected |
-| 2026-09-13 | source-research routine, build-thread-independently-verified | direct download + grep (archive.org), direct file read | Cassian Institutes Book VI (Petschenig CSEL XVII); Eucherius Formulae/Instructiones (Wotke CSEL XXXI/1) — both leads confirmed by the routine as "one download-and-grep short of vendored," then independently downloaded, grepped/read, and vendored by this build thread rather than taken on the routine's report alone | Rows 45–46 |
+| 2026-09-13 | source-research routine, independently verified | direct download + grep (archive.org), direct file read | Cassian Institutes Book VI (Petschenig CSEL XVII); Eucherius Formulae/Instructiones (Wotke CSEL XXXI/1) — both leads confirmed by the routine as "one download-and-grep short of vendored," then independently downloaded, grepped/read, and vendored rather than taken on the routine's report alone | Rows 45–46 |
 
 **Ten-item relative-recall test and PRESS question:** the independent review's recall against the ten-item list is **4/10** (3/10 before Weaver was rowed). The PRESS question named Gennadius, the Letters 225/226 gap, and Weaver. All three are dispositioned above (rows 30, 31, 23) and closed as discoveries, independent of the misattribution defects found in how those discoveries were used.
 

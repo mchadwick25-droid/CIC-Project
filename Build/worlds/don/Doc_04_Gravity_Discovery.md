@@ -219,4 +219,4 @@ Full pairwise coverage of every candidate that reached classification (the compa
 
 ---
 
-*End Doc_04. Companion: `Gravity_Index.xlsx`. Approved to proceed by this build thread. Classification: 4 Primary, 2 Supporting, 2 Tensional, 2 not advanced. Next: Doc_05 (Ecological Reconstruction).*
+*End Doc_04. Companion: `Gravity_Index.xlsx`. Approved to proceed. Classification: 4 Primary, 2 Supporting, 2 Tensional, 2 not advanced. Next: Doc_05 (Ecological Reconstruction).*
