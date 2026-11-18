@@ -227,4 +227,4 @@ One row per agent pass. Tokens are the subagent's own count as the harness repor
 | pachomius | fix check | Opus, low | 97,562 | PASS |
 | narsai | heart test | Opus, medium | 98,671 | FIX: the founding of Nisibis at word 203; joins the rework |
 | moses-the-black | heart test | Opus, medium | 94,562 | FIX: Scete, priest, disciples late; joins the rework |
-| ten reworked | compile blind-reading requests (27 items) | Sonnet | (count) | all located |
+| ten reworked | compile blind-reading requests (27 items) | Sonnet | 147,932 | all located |
