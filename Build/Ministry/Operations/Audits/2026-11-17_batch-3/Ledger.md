@@ -216,3 +216,4 @@ One row per agent pass. Tokens are the subagent's own count as the harness repor
 | pachomius | revision (writer, from amended outline) | Opus | 117,075 | 461 words, grade 8.2; both blocking addressed |
 | thomas-a-kempis | revision (fresh writer, from amended outline) | Opus | 114,401 | 421 words, grade 7.8; Thomas named at word 87 |
 | justin-martyr | review 2 | Opus | 122,988 | REVISE: death after the first minute; cuts listed to ~450 |
+| third-council-of-toledo-589 | recheck 2 | Opus, medium | 120,628 | FAIL on 1 sentence (Sunna dating); exact correction and minor applied by coordinator, wording as the recheck gave it |
