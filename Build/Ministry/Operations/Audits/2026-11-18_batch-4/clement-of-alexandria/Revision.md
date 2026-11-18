@@ -54,3 +54,17 @@ The essence is complete at word 152, "followed Clement's example" (Origen follow
 
 - Old: Do not stretch past 2 minutes 20.
   New: Up to about 3 minutes for a person (about 460 words), about 4 minutes 15 for a council (about 550); craft comes before time (Mark, 2026-11-18).
+
+## Adjustment (change order, 2026-11-18)
+
+Fault from fresh listeners: the story faded out on Alexander's letter, so the last impression was of someone else. Fix: the paragraph on his search for a teacher moves from before the martyrs paragraph to the end, so the story closes on Clement's own words, "I found rest". The martyrs and Alexander paragraphs move up one place each, word for word. The Pantaenus sentence moves ahead of the quote so the quote is the last thing heard.
+
+Sentences changed:
+
+- Old: "Of the last teacher he found, he wrote, "I tracked him down where he was hidden in Egypt, and I found rest." Eusebius thought this teacher was Pantaenus."
+- New: "Eusebius thought the last teacher Clement found was Pantaenus. Of him, Clement wrote, "I tracked him down where he was hidden in Egypt, and I found rest.""
+- Outline: beat 3, "The last he tracked down 'concealed in Egypt', and there 'I found rest' (M1, Q1) ... Eusebius thought the teacher was Pantaenus; say it as Eusebius's word, after the heart (M2)." The quote is the card's, word for word (Stromata I.1, lines 27489-27492).
+
+No new quoted span. Every other sentence is the old brief's, word for word. The essence still lands by word 152 and the hook is unchanged; both "also told" parts stay. Alexander's letter stays, now before the ending.
+
+Profiler: 411 words before, 409 after, grade 7.1 (names out 5.9), reading ease 79.9, longest sentence 26 words: pass. Earlier version kept as `clement-of-alexandria.brief.v3.txt`.

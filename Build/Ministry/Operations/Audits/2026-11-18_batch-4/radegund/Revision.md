@@ -54,3 +54,22 @@ Cut: "She made Agnes, a girl she had raised, its abbess." (finding 3, length).
   New: Tell the revolt reading in full later.
 
 - Recheck fix applied verbatim, 2026-11-18: "Gregory, a bishop who knew her, says the bishop of Poitiers would not receive it." → "Gregory, a bishop who knew her, says the bishop of Poitiers would not receive the relic."
+
+## Adjustment (change order, 2026-11-18)
+
+Fault: the strongest moments (taken as spoil, her brother killed, the altar at Noyon) came late, after the long letter frame; and the king was "Lothar" where Baudonivia's piece says "Chlothar". The Do not say list does not forbid "Chlothar" (it names Lothar only in the children/brother line), so "Chlothar" is used. File: `radegund.brief.v3.txt`.
+
+- Moved, wording kept except the name: the two paragraphs "She had been born a princess of the Thuringians..." and "Her friend the poet Fortunatus tells what followed..." now come straight after the essence paragraph, before the letter's account of the house. Outline: beats 4 and 5 (S1, S2, L1–L8, Q1). The altar is still told once.
+- Old: "When the Franks destroyed her people's kingdom, she was taken as spoil and married to Lothar, who later had her brother killed."
+  New: "When the Franks destroyed her people's kingdom, she was taken as spoil and married to Chlothar, who later had her brother killed."
+  Outline: beats 4 and 5 (the king, there "Lothar"; same person).
+- Old: "It tells what she had built."
+  New: "Her letter tells what she built."
+  Outline: beat 1, "In it she tells what she had done" (L19). "It" no longer follows the letter, so the letter is named; "had" dropped to keep the length.
+- Old: "With King Lothar's backing, she founded the monastery and gave it everything the king had given her."
+  New: "With King Chlothar's backing, she founded the monastery and gave it everything the king had given her."
+  Outline: beat 2 (L11).
+- No new quoted span. Essence still ends near word 85; hook, every "also told" part and the ending unchanged.
+- Words: 454 before, 454 after (scorer 452 before, 453 after).
+- Scorer: 453 words, grade 6.8 (names out 6.1), reading ease names out 80.4, 16.2 words a sentence, longest sentence 30 words, pass (note: grade under 8, for the listening review).
+- Coordinator, 2026-11-18: the adjustment had been written to brief.v3.txt and the brief left unchanged; the two files were swapped, so brief.txt holds the adjusted text and brief.v3.txt the text before it.

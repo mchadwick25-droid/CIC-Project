@@ -80,3 +80,20 @@ Rejoined sentences: none.
 Check: `python -m engine.m1.profile_readability .../martin-of-tours.brief.txt`: 587 words, grade 8.4 (names out 7.8), reading ease names out 72.1, 18.3 words a sentence, 0.9 joining words per 100, 6% short sentences, longest sentence 29 words. Pass.
 
 Not done: 587 is about 27 words past 560 (about 3:55). No padding is left by my reading. What remains that is not on the keep list is record content: the baptism and tribune sentence (24 words), "Martin had already given away the rest of his clothes, so" (10), and "Old, and knowing his end was near" (7). Cutting any of these is Mark's call.
+
+## Adjustment (change order, 2026-11-18)
+
+Fault (fresh listeners): Worms, his refusal to fight, comes at the start as the hook and again in the middle, so on one hearing the listener meets it twice. Fix: tell it once, in the hook. The prior text is kept as `martin-of-tours.brief.v3.txt`.
+
+Changed (removed, with no replacement):
+
+- Old: "At Worms, Julian called his refusal cowardice. Martin offered to stand unarmed before the battle line, and was put back in prison. The next day the enemy surrendered before any battle, and Sulpicius credits Martin with that peace."
+  New: nothing. The paragraph is gone. The next paragraph's opening, "After the army," now follows the cloak paragraph's last sentence ("...stayed nearly two more years in the army..."). Outline line: beat 1 (M6, Q1), still told whole in the hook. Beat 4 (M6) is no longer told.
+
+Unchanged, word for word: every other sentence, including the hook and its quote "I am Christ's soldier. I am not allowed to fight." and the cloak at Amiens (beat 3). The essence still ends at word 126. The "also told" parts and the ending on his death are untouched.
+
+New quoted spans: none.
+
+Check: `python -m engine.m1.profile_readability .../martin-of-tours.brief.txt`: 549 words (`wc -w` and a word regex agree), grade 8.4 (names out 7.8), reading ease names out 73.0, 18.9 words a sentence, 0.9 joining words per 100, 3% short sentences, longest sentence 29 words. Pass.
+
+For Mark: the story no longer tells what the refusal cost (cowardice charge, the offer to stand unarmed, prison, the surrender credited to Martin by Sulpicius). Any place for it outside the hook would bring the listener back to Worms, and the hook stays at three sentences. Cutting it also brings the length to 549, inside the 560 ceiling from the 3:45 trim.
