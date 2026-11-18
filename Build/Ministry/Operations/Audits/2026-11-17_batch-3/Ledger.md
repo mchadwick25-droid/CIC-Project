@@ -167,3 +167,4 @@ One row per agent pass. Tokens are the subagent's own count as the harness repor
 | john-wyclif | re-outline (heart of their life) | Opus | 156,176 | heart: God's law in English; the Bible of his circle |
 | alopen | outline check 2 | Opus | 134,441 | FIX: 1 blocking (a quote sentence), minors |
 | baudonivia | outline check 2 | Opus | 141,767 | FIX: 1 blocking (Hildebert's reason halved), 5 minor |
+| alopen | outline fixes from check 2 (researcher) | Opus | — | B1 and 5 minor applied |
