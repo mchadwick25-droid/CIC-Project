@@ -124,11 +124,11 @@
   "quotationOriginals": [
     {
       "modern": "We are persecuted because we said: the Son has a beginning, but God has no beginning.",
-      "printed": "Διωκόμεθα δὲ ὅτι εἴπομεν, Ἀρχὴν ἔχει ὁ υἱὸς, ὁ δὲ θεὸς ἄναρχός ἐστι.",
+      "printed": "Διωκόμεϑα δὲ ὅτι εἴπομεν, ᾿Δρχὴν ἔχει ὁ υἱὸς, ὁ δὲ ϑεὸς ἀναρχός ἐστι.",
       "work": "Arius, Letter to Eusebius of Nicomedia, in Epiphanius, Panarion 69.6, ed. Franz Oehler; checked against Theodoret, Church History 1.4, in Nicene and Post-Nicene Fathers, second series, vol. 3 (lines 6045-6046)",
       "file": "cic/texts/epiphanius_panarion-haer-48-69-corpus-haereseologicum-t2-pars-posterior-grc-lat_oehler1860.txt",
       "lines": "45736-45738",
-      "uncertain": "The file is OCR; the Greek is given with mechanical slips corrected (ϑ for θ, ᾿Δρχὴν for Ἀρχὴν, ἀναρχός for ἄναρχός), no word changed. \"We said\" follows the Greek aorist εἴπομεν; the English of Theodoret reads \"we say\"."
+      "uncertain": "The file is OCR, kept as it stands: ᾿Δρχὴν reads Ἀρχὴν, ἀναρχός reads ἄναρχός, and ϑ is the scan's θ; line 45737, inside the span, is scanned apparatus. \"We said\" follows the Greek aorist εἴπομεν; the English of Theodoret reads \"we say\"."
     },
     {
       "modern": "I have walked in their footsteps, sharing their belief. I am the famous one, who has suffered much for the glory of God. Taught by God, I have come to know wisdom and knowledge.",
@@ -140,11 +140,11 @@
     },
     {
       "modern": "We have not been followers of Arius. For how could we, who are bishops, follow a priest?",
-      "printed": "Ἡμεῖς οὔτε ἀκόλουθοι Ἀρείου γεγόναμεν. πῶς γὰρ ἐπίσκοποι ὄντες ἀκολουθήσομεν πρεσβυτέρῳ;",
+      "printed": "Ἡμεῖς οὔτε ἀκόλουθοι ' Apelov γεγόναμεν. πῶς γὰρ ἐπίσκοποι ὄντες ἀκολουθήσομενν πρεσβυτέρῳ ;",
       "work": "The eastern bishops at Antioch, 341, in Socrates, Church History 2.10, ed. Robert Hussey; checked against Athanasius, De Synodis 22, in Nicene and Post-Nicene Fathers, second series, vol. 4 (npnf204, lines 57418-57419)",
       "file": "cic/texts/socrates_historia-ecclesiastica-tomus1-grc-lat_hussey1853.txt",
       "lines": "16658-16659",
-      "uncertain": "The file is OCR; the Greek is given with mechanical slips corrected (' Apelov for Ἀρείου, ἀκολουθήσομενν for ἀκολουθήσομεν), no word changed. \"A priest\" renders πρεσβυτέρῳ, a presbyter."
+      "uncertain": "The file is OCR, kept as it stands: ' Apelov reads Ἀρείου, and ἀκολουθήσομενν reads ἀκολουθήσομεν. \"A priest\" renders πρεσβυτέρῳ, a presbyter."
     },
     {
       "modern": "as atheists",

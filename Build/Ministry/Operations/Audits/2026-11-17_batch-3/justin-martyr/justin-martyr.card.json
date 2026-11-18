@@ -69,6 +69,13 @@
         "date": null,
         "language": "English translation",
         "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml"
+      },
+      {
+        "title": "The Martyrdom of Justin and his companions, Greek, in Acta martyrum selecta (ed. Oscar von Gebhardt)",
+        "author": "Unknown",
+        "date": "1902",
+        "language": "Greek",
+        "file": "cic/texts/acta-martyrum-selecta_gebhardt1902.txt"
       }
     ]
   },
@@ -91,7 +98,7 @@
   "quotationOriginals": [
     {
       "modern": "At once a fire was lit in my soul. A love took hold of me for the prophets, and for those men who are friends of Christ. As I turned his words over in my mind, I found this to be the only philosophy that is sure and useful. That is how, and why, I am a philosopher.",
-      "original": "Ἐμοὶ δὲ παραχρῆμα πῦρ ἐν τῇ ψυχῇ ἀνήφθη, καὶ ἔρως εἶχέ με τῶν προφητῶν καὶ τῶν ἀνδρῶν ἐκείνων, οἵ εἰσι Χριστοῦ φίλοι· διαλογιζόμενός τε πρὸς ἐμαυτὸν τοὺς λόγους αὐτοῦ ταύτην μόνην εὕρισκον φιλοσοφίαν ἀσφαλῆ τε καὶ σύμφορον. Οὕτως δὴ καὶ διὰ ταῦτα φιλόσοφος ἐγώ.",
+      "printed": "Ἐμοὶ δὲ παραχρῆμα πῦρ ἐν τῇ ψυχῇ ἀνήφθη, καὶ ἔρως εἶχέ με τῶν προφητῶν καὶ τῶν ἀνδρῶν ἐκείνων, οἵ εἰσι Χριστοῦ φίλοι· διαλογιζόμενός τε πρὸς ἐμαυτὸν τοὺς λόγους αὐτοῦ ταύτην μόνην εὕρισκον φιλοσοφίαν ἀσφαλῆ τε καὶ σύμφορον. Οὕτως δὴ καὶ διὰ ταῦτα φιλόσοφος ἐγώ.",
       "work": "Dialogue with Trypho 8.1–2, Greek, ed. Georges Archambault",
       "file": "cic/texts/justin-martyr_dialogue-with-trypho-grc_archambault1909.txt",
       "lines": "429-435",
@@ -99,7 +106,7 @@
     },
     {
       "modern": "So you suppose that you will go up into the heavens, to receive some reward?",
-      "original": "Σὺ οὖν ὑπονοεῖς ὅτι ἀναβή on eis τοὺς οὐρανούς, ἀμοιβάς τινας ἀποληψόμενος;",
+      "printed": "Σὺ οὖν ὑπονοεῖς ὅτι ἀναβή on eis τοὺς οὐρανούς, ἀμοιβάς τινας ἀποληψόμενος;",
       "work": "Martyrdom of Justin V.3 (Rusticus), Greek, ed. Oscar von Gebhardt",
       "file": "cic/texts/acta-martyrum-selecta_gebhardt1902.txt",
       "lines": "1410-1411",
@@ -107,7 +114,7 @@
     },
     {
       "modern": "I do not suppose it. I know it, and I am fully sure of it.",
-      "original": "Οὐχ ὑπονοῶ, ἀλλ᾽ ἐπίσταμαι καὶ πεπληροφόρημαι.",
+      "printed": "Οὐχ ὑπονοῶ, ἀλλ᾽ ἐπίσταμαι καὶ πεπληροφόρημαι.",
       "work": "Martyrdom of Justin V.3 (Justin), Greek, ed. Oscar von Gebhardt",
       "file": "cic/texts/acta-martyrum-selecta_gebhardt1902.txt",
       "lines": "1420-1421",

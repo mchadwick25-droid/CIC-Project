@@ -33,3 +33,10 @@ None. Every statement in the original card was checked against the held sources 
 ## Not found
 
 - `legacy.traces[0]`: "The churches later called Arian, which held with him that the Son was not eternal." No held source on the source sheet shows what the later Homoian churches held about the Son's eternity. Left in place.
+
+## After the card check (2026-11-18)
+
+Made by the batch coordinator to `Card_Check.md`'s exact corrections (N8, N10):
+- Q1 `printed` now stands as the file has it, OCR and all (Oehler 45736–45738); the true readings are in `uncertain`. Every word was checked by script to stand in those lines.
+- Q3 `printed` likewise (Hussey 16658–16659), with the true readings in `uncertain`.
+- The not-found claim ("The churches later called Arian, which held with him that the Son was not eternal") stays in place, as the checker ruled, and is registered in Open-Gaps.

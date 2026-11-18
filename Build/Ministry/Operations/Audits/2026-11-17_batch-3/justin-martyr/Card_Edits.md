@@ -27,3 +27,10 @@ None. Every existing statement was checked and holds:
 ## Not found
 
 None.
+
+## After the card check (2026-11-18)
+
+Made by the batch coordinator to `Card_Check.md`'s exact corrections:
+- In all three `quotationOriginals`, the key `original` renamed `printed` (the census check's required key). Nothing else in them changed.
+- New: `sources.about` gains the Gebhardt file the two trial quotations cite: "The Martyrdom of Justin and his companions, Greek, in Acta martyrum selecta (ed. Oscar von Gebhardt)", `cic/texts/acta-martyrum-selecta_gebhardt1902.txt`.
+- The evidence for "the death about 165" also stands at EUS 26223 (McGiffert: "after Justin's death (165 a.d.)").
