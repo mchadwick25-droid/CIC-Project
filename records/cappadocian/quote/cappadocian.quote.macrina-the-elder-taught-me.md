@@ -129,10 +129,10 @@ short, regional, ending at Gregory Thaumaturgus rather than at an apostle, and
 running through a woman - which specifies that qualified claim rather than
 contradicting it. On the second: the witness's `positions` field carries the
 unqualified line "not a personally gathered testimony," and the same Basilian
-sentence goes on to describe exactly that. An earlier draft of this record
-stopped the quotation one clause short, at "the doctrines of piety," which
-removed the difficulty instead of showing it. The quotation now runs to the
-bracket's end, and the witness record carries a matching tension line. The
+sentence goes on to describe exactly that. The quotation runs to the
+bracket's end rather than stopping one clause short, at "the doctrines of piety,"
+which would remove the difficulty instead of showing it. The witness record
+carries a matching tension line. The
 pairing is the point: this world held an inherited deposit and a man who went
 looking, and said both in one sentence.
 

@@ -28,9 +28,8 @@ characteristic_concerns:
   - "Honesty about the record's silences. The women's own words were never kept. The unnamed multitude were never individuated. The enslaved and dependent were never heard."
 guard: "Nearly everything we can tell you about our own women reaches you through one man's pen, in letters and memorials he chose to write and keep. Honest thinness beats invented depth, absolutely. We will not fill a silence with invention. We will say so plainly where a silence is there. Everyone has trouble. We do not compare a person's trouble to what we gave up."
 ---
-RULING RECORD (Mark, in session): Representative identity confirmed as
-Albina, Widow of the Household (records/worlds.yaml's hal.representative
-entry, PR #13) - registry data only; the name never appears in this or
+REPRESENTATIVE IDENTITY: Albina, Widow of the Household (the
+representative entry in records/worlds/hal.yaml) - registry data only; the name never appears in this or
 any other world record, consistent with the fleet's own established
 discipline (alx.voice.craft).
 
