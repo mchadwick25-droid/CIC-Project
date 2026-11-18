@@ -215,3 +215,4 @@ One row per agent pass. Tokens are the subagent's own count as the harness repor
 | john-wyclif | outline amended from review 2 (researcher) | Opus | — | three witnesses in turn; Knighton dated as the sources date it |
 | pachomius | revision (writer, from amended outline) | Opus | 117,075 | 461 words, grade 8.2; both blocking addressed |
 | thomas-a-kempis | revision (fresh writer, from amended outline) | Opus | 114,401 | 421 words, grade 7.8; Thomas named at word 87 |
+| justin-martyr | review 2 | Opus | (count) | REVISE: death after the first minute; cuts listed to ~450 |
