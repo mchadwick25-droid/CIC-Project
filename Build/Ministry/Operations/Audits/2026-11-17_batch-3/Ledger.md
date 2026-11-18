@@ -192,3 +192,5 @@ One row per agent pass. Tokens are the subagent's own count as the harness repor
 | john-wyclif | outline fixes from check 2 (researcher) | Opus | — | blocking and 5 minor applied; Tyndale as the same task done again |
 | baudonivia | review 2 | Opus | 115,962 | PASS, 4 minor |
 | vardan-mamikonian | write (fresh, heart first) | Opus | 105,168 | 437 words, grade 8.2, pass |
+| third-council-of-toledo-589 | review 2 | Opus | 110,861 | REVISE: heart half late; force left out |
+| council-of-chalcedon-451 | write (fresh, heart first) | Opus | (count) | 565 words, grade 9.1, pass |
