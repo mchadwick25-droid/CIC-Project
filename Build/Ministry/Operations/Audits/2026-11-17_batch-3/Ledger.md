@@ -230,3 +230,4 @@ One row per agent pass. Tokens are the subagent's own count as the harness repor
 | ten reworked | compile blind-reading requests (27 items) | Sonnet | 147,932 | all located |
 | moses-the-black | re-outline (heart of their life) | Opus | 120,357 | heart: robber to father of Scete; Abba Moses saying dropped |
 | narsai | re-outline (heart of their life) | Opus | 147,203 | heart: founding Nisibis with Barsauma; verse sermons |
+| ten reworked | blind second readings (27) | Opus | (count) | 5 flags |
