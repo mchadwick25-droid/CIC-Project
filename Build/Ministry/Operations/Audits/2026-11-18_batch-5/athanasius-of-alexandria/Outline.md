@@ -155,6 +155,9 @@ Sheet = `Source_Sheet.md` in this folder; tags (S1, E7, I3, D2 …) are its entr
   - Not 'union' and not 'agreement': proposed terms of intercommunion.
   - Evagrius here is Evagrius of Antioch, not Evagrius Ponticus (census `evagrius-ponticus`).
   - Not one reason for Julian's order of 362 as fact. His own letters give his (he came back without an imperial order; he baptised Greek women of rank; a meddlesome man); Rufinus, a generation later and on his side, blames the emperor's pagan advisers (D10).
+  - Not a hook past about three sentences, or an essence (the creed, his teaching, Arius, the five departures, the *Life* and the list) finished past about word 150. The night's scene is told in three sentences at most, with only the glosses the essence needs.
+  - Not his defense of the creed without its limit: those who accepted all of Nicaea but the one word he met 'as brothers with brothers' (E10). The heart Mark approved carries it.
+  - Not the *Life*'s reach as Latin alone: it went into Latin and Syriac (I1).
 
 - **Leave out:**
   - Marcella hearing of Antony from him and the Alexandrian exiles in Rome, and of Pachomius's monasteries (E6): Mark, 2026-11-18: told in Marcella's story.

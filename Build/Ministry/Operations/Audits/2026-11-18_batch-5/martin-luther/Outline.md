@@ -125,5 +125,7 @@ End on 1 or 2, then close on the person (see Ending).
 - Not "the people could now read the Bible" or "every household had a Bible": not held.
 - Keep "alone" in "the pope or councils alone" (Q2). Keep "friar", not "monk", for the emperor's word.
 - Not "he wrote the tunes" (D5). Not "four of the eight hymns" without "by one editor's count".
+- Do not drop the whole Bible in German by 1534 (M12, Widely Accepted, an editor's date): it is an Also-told item of Mark's re-set job, not optional. Do not let the New Testament of 1522 stand alone as 'the German Bible'.
+- Not past about 150 words before the essence's last clause (the Lutheran churches) is heard.
 
 **Leave out:** the church door (D2); the "devils as many as roof tiles" story (D3); the Fuggers and the money deal (editor); the relics; the Leipzig debate; the 1520 treatises as a list (one idea only, beat 2); the Wartburg disguise; Marburg, Augsburg, the Book of Concord (card); Müntzer (named only by editors here; the rebels are "armed bands"); Melanchthon's letter on the marriage (Greek OCR too garbled to quote; card); Augustine's quotes and the *On the Spirit and the Letter* line (Augustine's story); Coleridge, Heine, Bach (card). **His late writings against the Jews: card only, credited.** Why: the 1543 treatises are not held, so the story cannot tell what they said; his letter of 1 February 1546 is held ("I must endeavour to banish the Jews", CUR 26641–26648), and the card should carry it credited to that letter. Mark's re-set job (2026-11-18) places it on the card, not in the audio.
