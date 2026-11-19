@@ -1,0 +1,11 @@
+# Batch 5 reviewer prompt
+
+Read `Build/Ministry/Features/Church-Family-Tree/Brief-Kit/roles/reviewer.md` and follow it for **{NAME}** in `{FOLDER}/` (slug and census id `{SLUG}`). Add these:
+
+- **The heart.** Mark approved this heart on 2026-11-18, in plain words (`Hearts_Plain.md` in the batch folder, under {NAME}; later outline fixes may have narrowed a wording, and the outline governs). Write your own first, as the role says. Then give the word at which the essence is complete. Past about 150 words is BLOCKING.
+- **Mark's rulings for this batch** are in the Decision-Log entry "Batch 5 hearts: church words explained, and Luther's job re-set" (2026-11-18, `Build/Ministry/Features/Church-Family-Tree/Decision-Log.md`). Read it.
+- **Church words.** Every word in the outline's "Words to explain" list that the story uses must get its plain sense the first time it is heard, worked into the sentence. A missing one the listener needs is BLOCKING. A plain sense that says more than the outline's gloss is a source finding.
+- **Length (Mark, 2026-11-18, ruling 8).** There is no ceiling to cut to: "we do not cut to meet a hard ceiling, that always leaves it not flowing, we want pressure to 3 minutes, but take what it needs". Ask of each part whether the story needs it: for the heart, for what is also told, for the record's force, for a word's plain sense, or for the connection. List every part it does not need, as MINOR cuts, with the words saved. Never list a must-keep item from the outline, the record's force, or a plain sense. State the length the story needs, in minutes, with its reason.
+- **Sentences.** The kit says no sentence past about 30 words. A longer one is MINOR, with a split.
+- **Quotes.** Only the outline's quotes, word for word. Any other quoted words must stand in the outline at the line you cite; otherwise BLOCKING. A quote the writer told in narration instead is fine if the narration says no more than the source.
+- Do not read anything outside this folder except the Brief-Kit, `Hearts_Plain.md`, the Decision-Log entry above, the census and `cic/texts/`. Do not read the batch variety or overlap reports. Write only `{FOLDER}/Review.md`. Use no shared, scratch or temporary file of any kind, and do not commit.

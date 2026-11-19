@@ -1,0 +1,53 @@
+[
+  {
+    "file": "cic/texts/patrick_writings-and-life-with-muirchu-eng_white1920.txt",
+    "lines": "2990",
+    "scan": "sold jny noble",
+    "reads": "sold my noble",
+    "kind": "OCR misread"
+  },
+  {
+    "file": "cic/texts/patrick_writings-and-life-with-muirchu-eng_white1920.txt",
+    "lines": "2991-3008",
+    "scan": "Digitized by Google",
+    "drop": true,
+    "kind": "footnotes, scan stamp, running head and page number",
+    "lines_held": [
+      "^ Ecclus. xxxiv. 23, 24. * Job xx. 15, 16.",
+      "• Hab. ii. 6. ^ Matt. xvi. 26.",
+      "^ Rom. xiii. 9. ^ i John iii. 141 15. * Acts. xx. 22.",
+      "Digitized by Google",
+      "THE LETTER",
+      "57"
+    ]
+  },
+  {
+    "file": "cic/texts/patrick_writings-and-life-with-muirchu-eng_white1920.txt",
+    "lines": "3009",
+    "scan": "blush not to state it",
+    "reads": "— I blush not to state it",
+    "kind": "OCR dropped words at a page turn",
+    "hold": "Needs a person to check the page image: the scan has no \"— I\" at the page turn, and it cannot show whether White's page 56 ends with the dash or page 57 begins with it. If the dash closes page 56, make the reading line 2990, scan \"sold my noble rank\", reads \"sold my noble rank — I\", and fold it into the first reading."
+  },
+  {
+    "file": "cic/texts/stokes_tripartite-life-of-patrick-v2-lat-muirchu-tirechan-confession_1887.txt",
+    "lines": "7372",
+    "scan": "20 secundum",
+    "reads": "secundum",
+    "kind": "line number run into the line"
+  },
+  {
+    "file": "cic/texts/stokes_tripartite-life-of-patrick-v2-lat-muirchu-tirechan-confession_1887.txt",
+    "lines": "7372",
+    "scan": "decoriorie",
+    "reads": "decorione",
+    "kind": "OCR misread"
+  },
+  {
+    "file": "cic/texts/stokes_tripartite-life-of-patrick-v2-lat-muirchu-tirechan-confession_1887.txt",
+    "lines": "7373",
+    "scan": "mcain",
+    "reads": "meam",
+    "kind": "OCR misread"
+  }
+]

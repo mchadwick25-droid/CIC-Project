@@ -1,0 +1,30 @@
+[
+  {
+    "file": "cic/texts/athanasius_opera-omnia-pg25-grc-lat_migne1857.txt",
+    "lines": "97995",
+    "scan": "χαὶ",
+    "reads": "καὶ",
+    "kind": "OCR misread (χ for κ)"
+  },
+  {
+    "file": "cic/texts/athanasius_opera-omnia-pg25-grc-lat_migne1857.txt",
+    "lines": "97995",
+    "scan": "προχινδυνεύειν",
+    "reads": "προκινδυνεύειν",
+    "kind": "OCR misread (χ for κ)"
+  },
+  {
+    "file": "cic/texts/athanasius_opera-omnia-pg25-grc-lat_migne1857.txt",
+    "lines": "97994-97995",
+    "scan": "χα: \nταλεῖψαι",
+    "reads": "καταλεῖψαι",
+    "kind": "OCR misread (χ for κ), with the line-end hyphen read as a colon"
+  },
+  {
+    "file": "cic/texts/athanasius_opera-omnia-pg26-grc-lat_migne1857.txt",
+    "lines": "113085",
+    "scan": "ἐπιδαλλέτω",
+    "reads": "ἐπιβαλλέτω",
+    "kind": "OCR misread (δ for β)"
+  }
+]
