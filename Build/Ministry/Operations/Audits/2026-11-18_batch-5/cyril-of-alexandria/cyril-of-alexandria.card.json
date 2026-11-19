@@ -133,7 +133,7 @@
         "file": "cic/texts/john-ephesus_lives-eastern-saints-po17_brooks1923.txt"
       },
       {
-        "title": "An Exposition of the Orthodox Faith, Book 3, chapters 7 and 11",
+        "title": "An Exposition of the Orthodox Faith, Book 3, chapter 11",
         "author": "John of Damascus",
         "date": null,
         "language": "English translation",
@@ -194,12 +194,12 @@
       "uncertain": "Cyril's short form of one incarnate nature of the Word; in the same letter he says the phrase would be incomplete without incarnate. The Greek of the letter is not held."
     },
     {
-      "modern": "one incarnate nature of God the Word",
-      "printed": "one incarnate nature of God the Word",
-      "work": "John of Damascus, Exposition of the Orthodox Faith III.7, giving the phrase according to the blessed Cyril",
-      "file": "cic/texts/npnf209_hilary-poitiers-john-damascus.xml",
-      "lines": "32751-32752",
-      "uncertain": "John of Damascus gives the phrase as Cyril's. Pusey prints Cyril's letter to Succensus with One Incarnate Nature of the Word, and Hefele prints the letter to Eulogius with one incarnate nature of God; the Greek of the letters to Succensus is not held."
+      "modern": "one incarnate nature of the Word",
+      "printed": "One Incarnate Nature of the Word",
+      "work": "Cyril, second letter to Succensus, as Pusey quotes it in a note to That Christ is One",
+      "file": "cic/texts/cyril-alexandria_five-tomes-against-nestorius-scholia-christ-is-one_pusey1881.txt",
+      "lines": "19834-19835",
+      "uncertain": "The Greek of the letter is not held. John of Damascus has Cyril interpret one nature of God the Word Incarnate, and Hefele's English of the letter to Eulogius has one incarnate nature of God."
     },
     {
       "modern": "no commingling, no confusion",
