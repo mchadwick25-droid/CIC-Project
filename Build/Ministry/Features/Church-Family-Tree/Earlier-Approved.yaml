@@ -1,0 +1,6 @@
+# Stories Mark approved before the brief kit whose text has not reached the census.
+# tools/list_story_status.py reads this list. Remove an entry once its text is live
+# or it is rewritten on the kit.
+- id: polycarp-of-smyrna
+  text: Build/Ministry/Operations/Audits/2026-11-16_polycarp-clean-write/Polycarp_approved.brief.txt
+  approved: "2026-11-16, the clean write (Decision-Log, \"Polycarp of Smyrna approved to proceed\")"
