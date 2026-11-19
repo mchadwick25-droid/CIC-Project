@@ -131,9 +131,11 @@
   },
   {
    "modern": "I myself found more than two hundred such books, held in honor in our churches. I gathered them all and put them away. In their place I brought in the Gospels of the four evangelists.",
-   "work": "Theodoret of Cyrrhus, Compendium of Heretical Fables I.20, Greek as quoted by Prudentius Maran, ed. J. C. T. Otto (1872)",
+   "printed": "Nactus sum etiam ipse libros huiusmodi supra ducentos in honore habitos in ecclesiis nostris, quos Omnes in unum congestos seposui, et pro his quatuor evangelistarum evangelia introduxi.",
+   "work": "Theodoret of Cyrrhus, Compendium of Heretical Fables I.20, in Prudentius Maran's Latin translation of Theodoret's Greek, ed. J. C. T. Otto (1872)",
    "file": "cic/texts/apologists-fragmentary_reliquiae-corpus-apologetarum-vol9-grc-lat_otto1872.txt",
-   "lines": "14984-14987"
+   "lines": "14994-14997",
+   "uncertain": "The modern English follows Theodoret's Greek, which Maran prints on the same page. That Greek is held only in a damaged scan, so Maran's Latin is given as the printed wording."
   },
   {
    "modern": "Now that I know who God is, and what he has made, I stand before you, ready to be questioned on what I teach. I hold to the way of life that follows God, and I will not deny it.",

@@ -160,9 +160,10 @@
   {
    "modern": "And this is the remarkable thing. He did not accept that our Jesus was the Christ. Yet he still bore witness that James was so upright.",
    "printed": "And the wonderful thing is, that, though he did not accept Jesus as Christ, he yet gave testimony that the righteousness of James was so great",
-   "work": "Origen, Commentary on Matthew 10.17, ed. Lommatzsch",
+   "work": "Origen, Commentary on Matthew 10.17, tr. John Patrick, Ante-Nicene Fathers 9; the modern English follows Origen's Greek, ed. Lommatzsch",
    "file": "cic/texts/anf09_gospel-of-peter-diatessaron-origen-commentaries.xml",
-   "lines": "30627-30629"
+   "lines": "30627-30629",
+   "uncertain": "The modern English follows Origen's Greek, which reads \"our Jesus\". The Ante-Nicene English has no \"our\": \"though he did not accept Jesus as Christ\"."
   },
   {
    "modern": "let others judge of my character.",

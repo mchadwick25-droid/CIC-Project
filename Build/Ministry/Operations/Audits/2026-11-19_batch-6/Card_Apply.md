@@ -115,3 +115,20 @@ Applied 2026-11-19 under `Card_Apply_Prompt.md`. Each FIX is applied word for wo
    - Josephus (item 2): no note on the card says that "our Jesus" follows Origen's Greek where ANF has no "our". This one is open.
    - Items 4 and 5 need nothing.
 4. **The Irenaeus check's suggested OCR notes** for the Greek entries are not a FIX. They are moot now that the Greek is left out.
+
+## Leftovers closed
+
+Closed 2026-11-19, items 1 to 3 of "Not applied". Mark's guidance holds: where held sources differ, both are credited. Every cited line was re-read in its file.
+
+1. **Tatian `quotationOriginals[2]`.** The Latin stands cleanly, so the brief is unchanged.
+   - `printed` (none) → "Nactus sum etiam ipse libros huiusmodi supra ducentos in honore habitos in ecclesiis nostris, quos Omnes in unum congestos seposui, et pro his quatuor evangelistarum evangelia introduxi." Evidence: Otto 1872 (`apologists-fragmentary_reliquiae-corpus-apologetarum-vol9-grc-lat_otto1872.txt`) 14994-14997. The only scan feature is the line-end join "du- / centos". "Omnes" keeps the page's capital. The closing „…“ marks are Maran's, left out.
+   - `work` "Theodoret of Cyrrhus, Compendium of Heretical Fables I.20, Greek as quoted by Prudentius Maran, ed. J. C. T. Otto (1872)" → "Theodoret of Cyrrhus, Compendium of Heretical Fables I.20, in Prudentius Maran's Latin translation of Theodoret's Greek, ed. J. C. T. Otto (1872)".
+   - `lines` "14984-14987" → "14994-14997". The file is unchanged, and `sources.about` already cites it ("Greek, with Maran's Latin").
+   - `uncertain` (none) → "The modern English follows Theodoret's Greek, which Maran prints on the same page. That Greek is held only in a damaged scan, so Maran's Latin is given as the printed wording." Evidence: the Greek at 14984-14987 opens "Evgov" for Εὗρον, with no confirming print (ruling, Tatian [2]).
+2. **`work` labels.**
+   - Irenaeus `[0]`: "Irenaeus, Against Heresies I.8.1, Greek as Epiphanius copies it, Panarion 31, ed. Karl Holl" → "Irenaeus, Against Heresies I.8.1, tr. Alexander Roberts and W. H. Rambaut; the modern English follows the Greek as Epiphanius copies it, Panarion 31, ed. Karl Holl". Evidence: `printed` is anf01 30994-30998, which `sources.ownWords[0]` names as tr. Roberts and Rambaut. Holl stays in `sources.ownWords[1]`.
+   - Irenaeus `[1]`: the same change for I.10.2. Evidence: anf01 31419-31425.
+   - Josephus `[6]`: "Origen, Commentary on Matthew 10.17, ed. Lommatzsch" → "Origen, Commentary on Matthew 10.17, tr. John Patrick, Ante-Nicene Fathers 9; the modern English follows Origen's Greek, ed. Lommatzsch". Evidence: `printed` is anf09 30627-30629, inside "Origen's Commentary on the Gospel of Matthew … by John Patrick, D.D." (anf09 29555-29565), which `sources.about[0]` cites. Lommatzsch stays in `sources.about[4]`.
+3. **Josephus "our Jesus".** `quotationOriginals[6].uncertain` (none) → "The modern English follows Origen's Greek, which reads \"our Jesus\". The Ante-Nicene English has no \"our\": \"though he did not accept Jesus as Christ\"." Evidence: Lommatzsch 3731-3732 "τὸν Ἴη- / σοῦν ἡμῶν" (our Jesus); anf09 30628 "though he did not accept Jesus as Christ". The Greek words are not put on the card, because the ruling left that Greek out.
+
+Not checked here: no entry on these three cards carries `secondReading`, which `tools/validate-census.mjs` requires. That holds for every card in this batch and is outside these three items.
