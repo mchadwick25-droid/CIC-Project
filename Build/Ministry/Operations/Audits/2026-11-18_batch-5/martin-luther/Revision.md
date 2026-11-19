@@ -1,0 +1,44 @@
+# Revision: Martin Luther
+
+The one revision under the kit (Part 4, step 5), 2026-11-18. The brief before revision is kept as `martin-luther.brief.v1.txt`. Both Do not say lines in `Review.md` (findings 1 and 2) are added to `Outline.md`, word for word. The 1525 beat is left as written except where findings 3, 4 and 6 reach it.
+
+## Findings and what was done
+
+1. **BLOCKING. The whole Bible of 1534 was missing.** Done. (a) After the 1522 sentence: "He wrote that it must be in the simplest language, so that all could understand it." This is the review's wording, word for word (M11). It names no place, so it does not say the March 1522 letter came from hiding. (b) After the catechism clause, so that the order holds: "With his colleagues he finished the whole Bible in German by 1534, editors say." This is the review's wording, word for word (M12, Widely Accepted). The 1539 ending now lands on a Bible the listener has heard.
+2. **BLOCKING. The essence ended at word 169.** Done. It now ends at word 154 (see below). Cuts made, from the review's list:
+   - "a friar, a man living under religious vows" became "a friar, living under religious vows" (−2).
+   - "to build St Peter's, the pope's new church in Rome" became "for the pope's new church in Rome" (−3). St Peter's is no longer named, so it needs no gloss.
+   - "who taught at the small university in Wittenberg, in eastern Germany" became "who taught at Wittenberg, a university town in eastern Germany" (−1).
+   - The emperor sentence and the "take back his books" sentence became one sentence (the review's merge).
+   - "The famous" before "Here I stand" dropped (outside the essence).
+
+   **One departure from the review's wording.** Taken word for word, the review's two suggestions for the emperor (its new gloss, "who ruled the Holy Roman Empire, the German lands and more", plus the merge) make one sentence of 35 words, past the kit's limit of about 30. Its listed cuts also come to about 12 words, not 15, which leaves the essence near 157. So the merged sentence keeps the old brief's "ruler of" with the review's "the German lands and more": "Condemned by the pope, he would not take back his books before the emperor, ruler of the German lands and more, unless Scripture, the Bible, or clear reason proved him wrong." This sentence is 30 words (the scorer counts 31). The words "Holy Roman Empire" are no longer heard anywhere in the story, so "emperor" still gets its plain sense the first time it is heard (outline gloss: "the Holy Roman Empire, a union of German and central European lands"). The Lutheran clause is kept as written, which the review allows.
+3. **MINOR. Sentences past about 30 words.** All four are split. The first three use the review's wording, word for word. The fourth ("The rulers, and above all the bishops...") is split at "while to the peasants" and rebuilt with finding 4's wording. The second half now reads: "To the peasants he said that whoever takes the sword will perish by the sword." The longest sentence is now the emperor sentence above.
+4. **MINOR. The Admonition, emphasis shifted.** Done, with the review's wording, word for word: "The rulers, and above all the bishops, had only themselves to thank for the rising, he wrote, for they did nothing but rob their people." Re-checked at W4 10396–10403: "no one on earth to thank for this mischievous rebellion, except you princes and lords; and especially you blind bishops..."; "in your temporal government, you do nothing but flay and rob your subjects".
+5. **MINOR. The break of 1520 had no stake.** Done, before "In December 1520 he burned...". **One departure from the review's wording:** "In June 1520 the pope's decree condemned his books, ordered them burned and gave him sixty days to take them back." The review wrote "In June the pope's decree had condemned... and given him...". It now follows the 1517 paragraph, so "In June" alone would sound like June 1517. The year is added, and the verbs are put in the simple past because the beat is now told in order. The December sentence that follows is kept word for word. Nothing says the June decree cut him off from the church (Do not say, M5).
+6. **MINOR. The marriage was light and broke the 1525 argument.** Done. The July letter now follows the friend's letter directly, with the Anabaptist chronicle after it. The marriage has its own short paragraph, using the review's and the outline's opening ("That June, while the war was ending, he had married"). It also keeps the old brief's gloss "a former nun, who had lived under vows in a convent". The added line of his own is the shorter of the review's two K1 options, because it needs no new gloss (the other option needs "cloister" explained). Re-checked at Currie 9817–9818, Luther to Johann von Doltzig, 21 June 1525, who is addressed as "My gracious lord and good friend": "my change of condition seems very strange to myself, being as yet scarcely able to believe it".
+7. **MINOR, optional. "Outlawed" heard before its plain sense.** Not done. The review marks this as optional, and says the listener is not lost: the general word is known, and the legal sense comes with the ban in paragraph 6. Making the change would cost the essence about 6 words and push it back to about 160, past the limit set by finding 2.
+
+## New sentences that are neither the outline's nor the old brief's wording
+
+Every added sentence is the review's wording except those below. Each is built from the outline and the old brief.
+
+- "Condemned by the pope, he would not take back his books before the emperor, ruler of the German lands and more, unless Scripture, the Bible, or clear reason proved him wrong." Outline: the essence ("Condemned by the pope, he would not take back his books before the emperor at Worms in 1521 unless Scripture or clear reason proved him wrong") and Words to explain, "the empire / the emperor".
+- "In June 1520 the pope's decree condemned his books, ordered them burned and gave him sixty days to take them back." Outline: beat 2 ("In June the pope's decree condemned his writings, ordered them burned, and gave him sixty days to take them back", M5).
+- "He wrote to a friend that the change seemed so strange he could hardly believe it himself." Outline: beat 6 ("To another he wrote that the change seemed so strange he could hardly believe it himself", K1).
+
+## Checks
+
+- **Scorer:** `python -m engine.m1.profile_readability`: 715 words, grade 7.7 (names out 7.2), reading ease (names out) 74.8, 17.4 words a sentence, longest sentence 31 words: **pass**. The scorer notes the grade is under 8, so the listening read below checks that the story is not flat. It is not. The record's own words carry each turn (Q1, Q2, Q3, the July letter, the 1539 spring). The lower grade comes from splitting the four long sentences, not from simpler thought.
+- **Heard once as the listener.** The hook leads straight into the essence. The 1520 burning now has a stake. The 1525 argument runs without a break: the call to both sides, the tract, the friend, the July letter, the chronicle. The marriage then stands as its own short step back to June, set up by "That June". The Bible runs from the New Testament (1522) to the whole Bible (1534), so the 1539 ending lands on it. The one repeated date is "In June 1520 ... In December 1520", which is clear when heard.
+- **The four faults.** One witness told as fact: none. The decree's burning, the 1534 date and the hymn count stay credited to editors, Worms to "his friends", and the chronicle to a hostile source. Editor's view given to the source: none. Detail moved onto the wrong event: none. The Admonition's blame now matches W4 10396–10403. The friend's letter (26 May) now comes before the July letter, and the marriage is told as June. Force softened: none. Q3 is uncut, both halves of the July letter stand, and the blame for the rising is restored to the rulers.
+- **Spelling:** American outside quotes ("favored", "baptized").
+- **Do not say:** checked again, including the two new lines. No line is broken.
+
+## The essence
+
+Complete at word **154**, "carry his name." (by whitespace count; it was word 169).
+
+## Length
+
+The scorer counts 715 words, and the whitespace count is 725. At 150 words a minute this is about **4:50**. That is longer than the review's 4:35 estimate and Mark's 4:30. The review's own arithmetic does not reach its 690: 661 words, less about 14 cut, plus about 70 added, comes to about 715. Every cut on the review's list is made. Every word added is one a finding requires: the 1522 reason and the 1534 Bible (finding 1), the June decree (finding 5) and the marriage line (finding 6, the shorter option). Nothing was added beyond those. Under ruling 8 the story takes what it needs, and no force or plain sense was cut to save time. Whether 4:50 is acceptable for Luther, against the "4:30 might be needed", is Mark's call.

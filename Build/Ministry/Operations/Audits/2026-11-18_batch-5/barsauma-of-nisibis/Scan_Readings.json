@@ -1,0 +1,16 @@
+[
+  {
+    "file": "cic/texts/synodicon-orientale_recueil-de-synodes-nestoriens-syr-fra_chabot1902.txt",
+    "lines": "35397",
+    "scan": "Satan 4 suscité",
+    "reads": "Satan a suscité",
+    "kind": "OCR misread"
+  },
+  {
+    "file": "cic/texts/synodicon-orientale_recueil-de-synodes-nestoriens-syr-fra_chabot1902.txt",
+    "lines": "31685",
+    "scan": "Bar CGauma",
+    "reads": "Bar Çauma",
+    "kind": "OCR misread"
+  }
+]
