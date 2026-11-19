@@ -4697,3 +4697,14 @@ Each keeps its approved essence. One independent check follows, then the census,
 5. **The stories approved before the kit.** Origen and Methodius of Olympus, live and recorded at Standard v1 since data release 48, stay as they are until the consistency check, so batch 7 is eleven. Polycarp's approved text (`Audits/2026-11-16_polycarp-clean-write/Polycarp_approved.brief.txt`) goes live with batch 6 word for word, not reopened, with a new card built from its source sheet and checked, and is recorded with the batch.
 
 **Scope.** Per the kit's own rule, these kit changes govern batch 6 on and reopen no finished story.
+
+## 2026-11-19 — Change order: the stories approved before the kit go through review in their era's batch (Mark)
+
+**Why.** Batch 6's item 5 above released Polycarp's approved text word for word and left Origen and Methodius as they were until the consistency check at the end of era 2 (Open-Gaps 332). Mark: "Go ahead and include polycarp and others in the review process". Asked which others, he chose all of them ("All pre-kit stories").
+
+**Decided (Mark, 2026-11-19).** This replaces item 5 of the batch 6 entry above.
+1. Every story approved before the kit goes through the kit's review in the batch for its own era, beside its siblings: the overlap and variety checks, the one-hearing review and the source check, then one revision and one recheck where it fails. Approved wording is kept wherever it passes; a fix touches only what fails.
+2. Polycarp of Smyrna is reviewed in batch 6, with the new card already drafted, and recorded with the batch.
+3. Origen and Methodius of Olympus are reviewed in batch 7, which is thirteen again. They are re-recorded only if a fix changes their text.
+4. The other six (Constantine, Ephrem, Gregory of Nazianzus, Gregory of Nyssa and John Chrysostom in era 2; Gregory of Tours in era 3) are reviewed in their eras' batches.
+5. The end-of-era consistency read (Open-Gaps 332) still follows once eras 1 and 2 are done.

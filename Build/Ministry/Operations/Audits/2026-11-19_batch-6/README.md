@@ -21,7 +21,7 @@ Each folder holds `Source_Sheet.md` and `Outline.md` from the researcher, and `C
 | `bardaisan-of-edessa` | The Syriac teacher at Edessa who argued, in a pupil's dialogue, that people are free and not ruled by the stars; later called a heretic, and answered in song by Ephrem. Teacher. | `tatian`; link `ephrem-the-syrian`. |
 | `hippolytus-of-rome` | The Greek-writing teacher at Rome who attacked bishop Callistus as too lax in his Refutation of All Heresies, and was exiled to Sardinia in 235 with the bishop of Rome; whether he led a rival church is disputed. Teacher. | `valentinus` (the Refutation); link `novatian`. |
 
-`polycarp-of-smyrna` is not rewritten. Its approved text (`Audits/2026-11-16_polycarp-clean-write/Polycarp_approved.brief.txt`, copied word for word into its folder) goes live with this batch, with a new card, checked.
+`polycarp-of-smyrna` is not researched again. Its approved text (`Audits/2026-11-16_polycarp-clean-write/Polycarp_approved.brief.txt`, copied into its folder) joins the batch at review (step 4), under the change order of 2026-11-19, "the stories approved before the kit go through review in their era's batch": approved wording is kept wherever it passes. Its new card is drafted.
 
 ## Quotes barred
 - Every quote in the approved Polycarp story.
