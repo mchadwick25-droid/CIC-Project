@@ -4717,3 +4717,9 @@ Each keeps its approved essence. One independent check follows, then the census,
 1. The twelve hearts are approved as shown, with the three corrected job lines.
 2. Josephus is told with what is held: the old witnesses and the views as McGiffert set them out in 1890, each credited and marked Contested, with no claim of a current verdict. The card notes that modern work is not yet in the Library, and the Library thread adds a modern study of the passage to its wants.
 3. The outline checks begin.
+
+## 2026-11-19 — Batch 6: Irenaeus's length (Mark)
+
+**Why.** After the outline check and recheck, Irenaeus's beats would set to about six minutes of story, against the about 3:20 shown with his approved heart. A cut to about 3:40 would lose about two-fifths (`Build/Ministry/Operations/Audits/2026-11-19_batch-6/irenaeus-of-lyon/Recheck.md`).
+
+**Decided (Mark, 2026-11-19: "Let it take about 4:30 to 5:00").** Irenaeus runs about 4:30 to 5:00, like Augustine in batch 5. The writer tells what the outline holds at that length, never filling to reach it, and the reviewer asks of each part whether the story needs it.
