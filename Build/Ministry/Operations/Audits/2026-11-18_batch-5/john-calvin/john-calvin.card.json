@@ -14,7 +14,7 @@
     },
     {
       "title": "Church Ordinances of Geneva, 1541",
-      "about": "the city's written rules for its church, drafted by Calvin and his colleagues with six councillors; they set four kinds of office, pastors, teachers, elders and deacons, and a weekly meeting of elders and pastors; the councils amended the draft, kept the last word on punishment, and the General Council passed it on 20 November 1541"
+      "about": "the city's written rules for its church, drafted by Calvin and his colleagues with six councilors; they set four kinds of office, pastors, teachers, elders and deacons, and a weekly meeting of elders and pastors; the councils amended the draft, kept the last word on punishment, and the General Council passed it on 20 November 1541"
     },
     {
       "title": "Geneva Catechism",
@@ -32,7 +32,7 @@
     ],
     "remembered": [
       "The church history of 1580 under Beza's name calls the Institutes an incomparable book.",
-      "Richard Hooker, writing against those who wanted Geneva's discipline in England, said about thirty years after Calvin's death that his books were almost the standard for judging doctrine and discipline, and that the French churches and the church of Scotland were cast in the mould Calvin had made."
+      "Richard Hooker, writing against those who wanted Geneva's discipline in England, said about thirty years after Calvin's death that his books were almost the standard for judging doctrine and discipline, and that the French churches and the church of Scotland were cast in the mold Calvin had made."
     ]
   },
   "uncertain": [
@@ -107,6 +107,7 @@
       },
       {
         "title": "Calvini Opera, volume 8: the trial of Servetus",
+        "author": null,
         "date": "1870",
         "language": "French and Latin",
         "file": "cic/texts/calvin_opera-omnia-vol8-lat-fra_baum-cunitz1870.txt"
@@ -127,12 +128,14 @@
       },
       {
         "title": "The Book of the Universal Kirk of Scotland, 1560 to 1602",
+        "author": null,
         "date": "1839",
         "language": "English",
         "file": "cic/texts/kirk-of-scotland_booke-of-the-universall-kirk-1560-1602_peterkin1839.txt"
       },
       {
         "title": "Book of Common Order and Westminster Directory",
+        "author": null,
         "date": "1868",
         "language": "English",
         "file": "cic/texts/kirk-of-scotland_book-of-common-order-and-westminster-directory_sprott-leishman1868.txt"
@@ -169,11 +172,11 @@
   },
   "briefReferences": [
     "Preface to the Commentary on the Psalms (1557), in B. J. Kidd's Latin: Farel holds him at Geneva by a curse; he had meant to stay one night on his way to Strasbourg; written about twenty-one years after the scene.",
-    "Preface to the Commentary on the Psalms; Institutes dedication to Francis I, tr. Henry Beveridge: born in France, he left it to hide in a quiet corner; at Basel believers burned in France were slandered as rebels; he wrote a short handbook to clear their name.",
+    "Preface to the Commentary on the Psalms; Institutes dedication to Francis I, tr. Henry Beveridge: born in France, he left it to hide in a quiet corner; believers burned in France were slandered as rebels; he wrote a short handbook to clear their name.",
     "Council registers of 21 to 23 April 1538: Farel and Calvin banned from preaching, voted out of Geneva by the General Council.",
     "Calvin's letters to Farel, tr. Jules Bonnet: from Strasbourg in 1540 he would rather die a hundred times than return; in 1541 he remembers he is not his own.",
     "Council register of 13 September 1541 and the farewell of 1564: he would take his post only once the city swore to keep a catechism and a discipline.",
-    "Church Ordinances of 1541, draft in Calvini Opera X: four kinds of office; pastors; teachers; deacons for the poor and the sick; twelve elders from the city's councils; the weekly meeting with the pastors; the councils keep the last word on punishment. The General Council passes the text on 20 November 1541.",
+    "Church Ordinances of 1541, draft in Calvini Opera X: four kinds of office; pastors; teachers; deacons for the poor and the sick; twelve elders from the city's councils; the weekly meeting with the pastors; the councils keep the last word on punishment.",
     "Registers of 1543 and 1555, in Kidd: the dispute over who could bar people from communion; the right confirmed in January 1555.",
     "Gruet sentence of 1547, in Kidd: put to death for speaking against God, for acts against the government, and for threatening the pastors.",
     "Institutes III.21.5 (1559), tr. Beveridge: God chooses beforehand who will be saved.",

@@ -73,3 +73,12 @@ Pass.
 The edit list names no claim as not found. Nothing clearly wrong is on the card.
 
 Note, not a fix: `uncertain[9]` opens "Verdicts by B. J. Kidd that Library notes carry as the editor's, not as sources". That speaks of the build's notes rather than the sources. A reader may stumble on it, but it names no audit or review.
+
+## Applied (card fixer)
+
+FIX 1 applied (briefReferences[1]).
+FIX 2 applied (briefReferences[5]). The old text was given with a leading "..."; the replacement was applied to the exact text after it.
+FIX 3 applied ("author": null added after title in sources.about[1], [4], [5]).
+FIX 4 applied (keyWorks[1].about).
+FIX 5 applied (legacy.remembered[1]).
+Not applied: none.

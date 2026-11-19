@@ -62,3 +62,7 @@ The brief's quotations come from English printed wording (Walter's modernized te
 - The `sourcing` conflict is real: it says the Library holds "two volumes of his own writing", and only DT is his. It also implies Foxe's own account is held; it is held only as Walter quotes it. The card says the right thing (one volume; Foxe through Walter, `uncertain[7]`). The `sourcing` field is not the card's to change; it is flagged for whoever owns the census entry.
 - Outline items left off (Packington, the Index, Joye and the rest): rightly left off; none is told in the brief.
 - Nothing clearly wrong was left in.
+
+## Applied (card fixer)
+- FIX 1 (`legacy.traces[2]`, "licence" -> "license"): applied word for word.
+- Not applied: none.

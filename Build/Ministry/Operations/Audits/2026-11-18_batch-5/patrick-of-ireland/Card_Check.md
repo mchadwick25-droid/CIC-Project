@@ -188,3 +188,9 @@ None of the three entries has a `secondReading` yet. That is expected at step 7.
 The edit list names no claim as not found. Nothing clearly wrong is left in, apart from FIX 1.
 
 Note, outside the card: the brief spells "town councillor" inside Quote 3. Quote 3's `modern` must match the brief, so the card keeps "councillor" there until the brief changes. The American form is "councilor".
+
+## Applied (card fixer)
+
+FIX 1 to FIX 13 applied: datesNote (1); briefReferences[1], [2], [3], [4], [7], [8], [9], [10], [12] (2 to 10); quotationOriginals[2].lines (11); quotationOriginals[2] original, originalFile, originalLines added after lines (12); quotationOriginals[2].uncertain (13).
+Scan readings (6) copied to Scan_Readings.json; not added to tools/quote_scan_readings.json. The reading for line 3009 carries a "hold": the checker says a person must check the page image first.
+Not applied: none.

@@ -84,3 +84,11 @@ Pass.
 ## 6. Not found, and left in
 
 The edit list names no claim as not found. One existing claim the card writer did not re-read stands: Chabot's index gives "Timothée I (7 mai 780-9 janv. 825)" (SO 49679), while his note gives 823 (SO 40361). Nothing clearly wrong is on the card.
+
+## Applied (card fixer)
+
+FIX 1 applied (briefReferences[1]).
+FIX 2 applied (briefReferences[5]). The old text was given with a leading "..."; the replacement was applied to the exact text after it, which is unique in the entry.
+FIX 3 applied (briefReferences[6]).
+Scan readings (2) copied to Scan_Readings.json; not added to tools/quote_scan_readings.json.
+Not applied: none.

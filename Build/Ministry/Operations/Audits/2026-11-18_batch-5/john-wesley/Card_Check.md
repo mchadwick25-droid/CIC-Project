@@ -80,3 +80,7 @@ All four quotations come from English printed wording. There is no held non-Engl
 
 ## Applied to the brief (coordinator, 2026-11-19)
 - "George Whitefield, a fellow priest, called him" -> "George Whitefield called him": the card check found "a fellow priest" in no cited line (J2 10699-10700). Words removed only.
+
+## Applied (card fixer)
+- FIX 1, 2, 3, 4, 5, 6: all applied word for word.
+- Not applied: none.

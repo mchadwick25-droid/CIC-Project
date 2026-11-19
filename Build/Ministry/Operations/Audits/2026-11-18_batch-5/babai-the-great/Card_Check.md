@@ -57,3 +57,10 @@ Pass. Q1's printed wording is Labourt's French, the oldest form held (the Syriac
 ## 6. Not found, and left in
 
 The card writer checked one claim and lists no "not found". Ruling: the claim stands. Mari, in Gismondi's Latin, names Mar Aba the archdeacon and "Mar Babaoo Magno" [Babaeo] as governing the church in its seventeen years with no head (MARI 13517-13520). The sheet missed it because of the OCR. Nothing clearly wrong is on the card.
+
+## Applied (card fixer)
+
+FIX 1 applied (briefReferences[8]).
+FIX 2 applied (briefReferences[9]).
+FIX 3 applied (briefReferences[10]).
+Not applied: none.

@@ -84,3 +84,8 @@ The outline renders Q1 and Q3 from the Greek (Outline 83, 85). The card leaves b
 
 ## Applied to the brief (coordinator, 2026-11-18)
 - "a young deacon" -> "a deacon": the card check's note that Socrates I.8 (SZ 2793-2797) says only "a deacon". One word removed; nothing added. The card fixes above wait for the batch applier.
+
+## Applied (card fixer)
+- FIX 1-12 applied word for word. Reference removals (1, 2, 7) were made by the original index numbers, from the highest down, so none shifted another.
+- Not applied: none.
+- The four scan readings in section 5 are copied to `Scan_Readings.json`.

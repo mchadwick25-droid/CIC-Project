@@ -4,7 +4,7 @@
     "Saint Patrick"
   ],
   "knownFor": "Bishop in Ireland, a captive from Roman Britain who went back of his own will to the people who had enslaved him. Almost all that is known of him comes from his own two short Latin writings, the Confession and the Letter to the soldiers of Coroticus.",
-  "datesNote": "Patrick gives no year in either writing. Newport J. D. White, in 1920, gives 389 to 461 as the most recent calculations for his birth and death, and thinks the Confession was written probably not earlier than 454. The Annals of Ulster put his coming to Ireland in 432 and record his death under 457, 461, 491 and 492; the last says he died in the 120th year of his age",
+  "datesNote": "Patrick gives no year in either writing. Newport J. D. White, in 1920, gives 389 to 461 as the most recent calculations for his birth and death, and thinks the Confession was written probably not earlier than 454. The Annals of Ulster put his coming to Ireland in 432, record the repose of Old Patrick under 457, and record his death under 461, 491 and 492; the last says he died in the 120th year of his age",
   "placeNote": "Bannavem Taberniae in Roman Britain, where his father had a small farm, a place no held text locates; Ireland, where he gives no place for his slavery; the Wood of Foclut near the western sea, named in his dream, which White places in County Mayo; Ireland, where he says he is a bishop",
   "role": "Missionary bishop in Ireland; author of the Confession and the Letter",
   "keyWorks": [
@@ -112,18 +112,18 @@
   },
   "briefReferences": [
     "Confession 1, tr. Newport J. D. White: Patrick the sinner, the most unlearned and least of the faithful, held in contempt by very many. This is the opening of the brief.",
-    "Confession 1 and 2, and Letter 10: his father Calpurnius a deacon, the son of Potitus, a priest; his father a member of the town council; captured at about sixteen with many thousands of others, and the havoc made of his father's servants. Letter 2: soldiers who are by right his fellow-citizens in Roman Britain.",
-    "Confession 16 and 17: tending flocks, prayer up to a hundred times a day and nearly as often at night in snow, frost and rain; a voice in his sleep, after six years, that his ship was ready two hundred miles away.",
-    "Confession 23: at home in Britain, the dream of a man from Ireland with many letters, one headed The Voice of the Irish, and the cry of the Irish to him as holy boy, in the Wood of Foclut. White notes that adhuc may mean once more or hither.",
-    "Confession 37 and 46: gifts offered him with tears to stay; his senior churchmen, who talked behind his back and judged him too unlearned, but did not say it out of malice.",
+    "Confession 1 and 2, and Letter 10: his father a member of the town council; captured at about sixteen with many thousands of others. Letter 2: soldiers who are by right his fellow-citizens in Roman Britain.",
+    "Confession 16 and 17: tending flocks, prayer up to a hundred times a day; a voice in his sleep, after six years, that his ship was ready.",
+    "Confession 23: at home in Britain, the dream of a letter headed The Voice of the Irish, and the cry of the Irish to him as holy boy. White notes that adhuc may mean once more or hither.",
+    "Confession 37 and 46: his senior churchmen, who judged him too unlearned, but did not say it out of malice.",
     "Confession 14, 38, 41, 42, 51, 52 and 55: baptism of many thousands; church ministers appointed everywhere; the children of Irish chiefs as monks and women vowed to God, some against their fathers' will; the slave women who suffer most; kings seizing him and binding him in irons until the fourteenth day; the expectation every day of death or slavery.",
     "Confession 26, 27 and 32: the charge his senior churchmen brought against him, a matter from his youth that he had told his dearest friend, who later shamed him in public. He never names it.",
-    "Letter 2, 3, 7, 14 and 16: the soldiers of Coroticus, the new converts killed with the sword the day after baptism, in white, the oil fragrant on their foreheads; others sold; fellow-citizens of demons; no one to eat or drink with them or take their gifts until they show sorrow and free the captives; the comparison with the Roman Gauls who ransom captives from the Franks; the thought that it is a disgrace to them that his people were born in Ireland. Letter 10: born free, a town councillor's son, a slave in Christ to a foreign people.",
-    "Confession 43, 59, 61 and 62: his wish to see Britain and Gaul and his belief that he was bound to stay; his prayer to shed his blood with the strangers and captives; the Gospel the only reason for returning; signed in Ireland as Patrick the sinner, unlearned, my confession before I die.",
-    "White, Introduction: the Book of Armagh, written between 807 and 846 by Ferdomnach, holds an imperfect copy of the Confession; Armagh and the church that claimed Patrick as founder.",
-    "Prosper of Aquitaine, Chronicle: under 431, Palladius sent as first bishop to the Irish who believe in Christ; he never names Patrick.",
+    "Letter 2, 3, 7 and 14: the soldiers of Coroticus, the new converts killed with the sword the day after baptism, in white, the oil fragrant on their foreheads; others sold; fellow-citizens of demons; no one to eat with them or take their gifts until they show sorrow and free the captives. Letter 10: born free, a town councilor's son, a slave in Christ to a foreign people.",
+    "Confession 43, 59, 61 and 62: his wish to see Britain and his belief that he was bound to stay; his prayer to shed his blood with the strangers and captives; the Gospel the only reason for returning; signed in Ireland as Patrick the sinner, unlearned.",
+    "White, Introduction: the Book of Armagh holds an imperfect copy of the Confession; Armagh and the church that claimed Patrick as founder.",
+    "Prosper of Aquitaine, Chronicle: under 431, a bishop sent to the Irish who believe in Christ; he never names Patrick.",
     "Antiphonary of Bangor: a hymn headed the hymn of Saint Patrick, teacher of the Irish, copied about two centuries after his time.",
-    "Muirchu, Life of Patrick, tr. White: the first Life, written more than two centuries later, whose author admits his authorities are uncertain; the legends of later writers.",
+    "Muirchu, Life of Patrick, tr. White: the first Life, written more than two centuries later; the legends of later writers.",
     "World census, Insular / Irish Monastic Christianity: his tradition."
   ],
   "quotationOriginals": [
@@ -153,8 +153,11 @@
       "printed": "I was freeborn according to the flesh ; I am born of a father who was a decurion; but I sold my noble rank — I blush not to state it, nor am I sorry — for the profit of others; in short, I am a slave in Christ to a foreign nation",
       "work": "Patrick, Letter 10, tr. Newport J. D. White",
       "file": "cic/texts/patrick_writings-and-life-with-muirchu-eng_white1920.txt",
-      "lines": "2989-3009",
-      "uncertain": "Stokes inserts traditus, handed over, after in Christo in his Latin; it is left out here as an editor's word."
+      "lines": "2989-3011",
+      "original": "Ingenuus fui secundum carnem, decorione patre nascor: uendidi enim nobilitatem meam (non erubesco neque me penitet) pro utilitate aliorum: denique seruus sum in Christo [traditus] genti extere",
+      "originalFile": "cic/texts/stokes_tripartite-life-of-patrick-v2-lat-muirchu-tirechan-confession_1887.txt",
+      "originalLines": "7370-7375",
+      "uncertain": "Stokes inserts traditus, handed over, in brackets after in Christo; the rendering leaves it out as an editor's word."
     }
   ]
 }

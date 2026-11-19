@@ -93,3 +93,13 @@ Pass. The brief renders from Chabot's French and Abbeloos and Lamy's Latin. Thos
 
 - **"my lord" for Mar**: upheld. I found no held text that glosses Mar this way (searched Connolly, Badger, Labourt and the Synodicon). The gloss is only in the outline. The entry says so honestly. Note for Mark, not a card fix: the brief puts the gloss in quotation marks, as if it were quoted.
 - The spot-checked claims hold. Nothing clearly wrong was left in.
+
+## Applied (card fixer)
+
+FIX 1 applied (briefReferences[1]).
+FIX 2 applied (briefReferences[2]).
+FIX 3 applied (briefReferences[4]).
+FIX 4 applied (briefReferences[5]).
+FIX 5 applied (briefReferences[7]).
+Scan readings (2) copied to Scan_Readings.json; not added to tools/quote_scan_readings.json.
+Not applied: none.

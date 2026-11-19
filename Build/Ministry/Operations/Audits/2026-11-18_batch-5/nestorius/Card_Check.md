@@ -124,3 +124,9 @@ Pass. The sermon is carried in its Greek (Loofs). The Bazaar's Syriac is not hel
 
 ## Applied to the brief (coordinator, 2026-11-19)
 - Rendering spelled "honour" -> "honor" (our own rendering, so American spelling), in the brief and the outline's Q1. The card's modern wording follows the brief.
+
+## Applied (card fixer)
+- FIX 1, 2 (datesNote, uncertain[3], briefReferences[8]), 3, 4, 5, 6 (entry added after "the earth purged of heretics"), 7 (printed corrected): applied word for word.
+- FIX 8: applied to the card as the card's `modern` ("honour" -> "honor"), following the brief as the coordinator changed it.
+- Scan reading from FIX 7 copied to `Scan_Readings.json`.
+- Not applied: none.

@@ -70,3 +70,8 @@ The outline renders both quotations from the held Latin, and the card carries th
 - The Confessions date of 397-400 comes from `cic/corpus-map/WORKS.yaml`, which the card names only as "the Library's works list". That is accurate, so it is not a FIX.
 - The writer's flag points to RET line 9065; the numeral is at 9063 (FIX 1).
 - No conflict with the entry's own fields. `voices` says "thirty-five years" as bishop, which fits the 395-396 reconstruction. The 1642 bull adds to `legacy`'s 1653 condemnation and does not contradict it.
+
+## Applied (card fixer)
+- FIX 2 (`sources.about[4].title`, "Defence" -> "Defense"): applied word for word.
+- FIX 1 is a scan reading only, not a card change: copied to `Scan_Readings.json`.
+- Not applied: none.

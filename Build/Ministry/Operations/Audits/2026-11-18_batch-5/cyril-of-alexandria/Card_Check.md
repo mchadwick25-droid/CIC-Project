@@ -122,3 +122,7 @@ The writer reported none. I agree, and I found nothing else clearly wrong left i
 
 ## Applied (coordinator, 2026-11-18)
 Brief sentence, outline Do not say line 126, FIX 1 and FIX 3 applied word for word as the checker worded them. The six other outline uses of "of God the Word" are left for the outline's next touch, as the check says. The scan entry is added at release.
+
+## Applied (card fixer)
+- FIX 1 and FIX 3 were applied earlier by the coordinator; nothing further applied to the card.
+- The scan reading of ruling 2 is copied to `Scan_Readings.json`.

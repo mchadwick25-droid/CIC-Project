@@ -225,24 +225,18 @@
   },
   "briefReferences": [
     "Festal Index VIII, ed. Archibald Robertson: the council at Tyre in 335, dated by its consuls.",
-    "Socrates, Church History I.27, tr. A. C. Zenos: the churches divided over Arius; the charge of the severed hand, Arsenius and magic.",
-    "Socrates, Church History I.29, tr. Zenos: Arsenius found, led in with his hands under his cloak, and both hands shown. Socrates writes with plain sympathy for Athanasius.",
-    "Sozomen, Church History II.25, tr. Chester D. Hartranft: the rumor that Athanasius had hidden Arsenius; the council's deposition of him.",
+    "Sozomen, Church History II.25, tr. Chester D. Hartranft: the council's deposition of him.",
     "Socrates, Church History I.8, tr. Zenos: Athanasius a deacon at Nicaea, speaking strongly against the Arian party.",
     "Athanasius, Discourse against the Arians I.5, ed. Robertson: extracts from Arius's Thalia, that God was not always a Father and the Son was made out of nothing.",
-    "Athanasius, On the Decrees of the Council of Nicaea, Eusebius's letter, ed. Robertson: the creed of Nicaea, \"begotten not made\".",
+    "Athanasius, On the Decrees of the Council of Nicaea, Eusebius's letter, ed. Robertson: the creed of Nicaea.",
     "Athanasius, Discourse against the Arians II, ed. Robertson: if the Son were a creature, man's becoming man would leave humanity as it was, not joined to God.",
-    "Athanasius, On the Incarnation 54, ed. Robertson: \"For He was made man that we might be made God\".",
-    "Socrates, Church History I.35, tr. Zenos: Constantine sends him to Trier over the grain ships, though some said it was for the unity of the church, since he would not hold communion with Arius.",
+    "Athanasius, On the Incarnation 54, ed. Robertson: He was made man that we might be made God.",
+    "Socrates, Church History I.35, tr. Zenos: Constantine sends him to Trier.",
     "Festal Index, ed. Robertson: the entries for the four later flights; his return to his church a few days after his last withdrawal, which the edition dates to February 366; and his death in 373.",
-    "Gregory of Nazianzus, Oration 21.35, tr. Charles Gordon Browne and James Edward Swallow: the dispute over hypostases and persons; Athanasius found they meant the same, let each keep its words, and bound them together in unity of action.",
-    "Gregory of Nazianzus, Oration 21.33, tr. Browne and Swallow: Athanasius's written confession of the unity of Godhead in Father, Son and Spirit, presented to the emperor, and Gregory's claim that few dared to write it.",
     "Athanasius, Life of Antony, preface, ed. Robertson: his account of the hermit's story.",
-    "Jerome, Letter 127.5, tr. W. H. Fremantle: Marcella of Rome hearing of Antony's life from Athanasius and taking up that life.",
-    "Cyril of Alexandria, Letter to John of Antioch, ed. P. E. Pusey: \"our blessed and all-celebrated Father Athanasius\". The year 433 is the edition's date.",
     "World census, Alexandrian Catechetical / Christian-Platonist Tradition: his tradition.",
-    "Athanasius, Defence of his Flight 24, ed. Robertson: the night in the church, Syrianus's soldiers, the psalm, the people sent home, and the monks and clergy who drew him out past the soldiers. The editor dates the work 357-8.",
-    "Historia Acephala, ed. Robertson: the night attack of 356; his hiding, counted in months; Julian's edict of 362; the order of 365 and his four months at a villa near the New River until he was led back to his church; his death in 373.",
+    "Athanasius, Defence of his Flight 24, ed. Robertson: the night in the church, Syrianus's soldiers, the people sent home, and the monks who drew him out past the soldiers. The editor dates the work 357-8.",
+    "Historia Acephala, ed. Robertson: the night attack of 356; his hiding, counted in months; Julian's edict of 362; his four months at a villa near the New River until he was led back to his church; his death in 373.",
     "Festal Index, ed. Robertson: his succession as bishop in 328; his return in 337; the torture of Eudaemonis, a perpetual virgin, in the search for him; the Easter letter of 366-7 in which he formed a canon of the Holy Scriptures.",
     "Socrates, Church History I.27, tr. Zenos: Athanasius refuses to receive Arius back, and Constantine writes that he will send someone to depose him and drive him into exile.",
     "Letter of the Melitian monks (P. Lond. 1914), ed. H. Idris Bell, Jews and Christians in Egypt: Athanasius's followers come with soldiers and beat the Melitian monks until they are bloody. Bell dates the letter May-June 335, with a query.",
@@ -251,7 +245,7 @@
     "Jerome, Lives of Illustrious Men 125, tr. Ernest Cushing Richardson: Evagrius of Antioch translated the Life of Antony from the Greek into Latin.",
     "Budge, The Paradise I (1907): a Syriac Life of Antony ascribed to Athanasius. The manuscript is a copy of one written probably in the thirteenth or fourteenth century; the edition gives no date for the version itself.",
     "Athanasius, Festal Letter 39 (367), ed. Robertson: the books of the Old Testament, twenty-two, and of the New, twenty-seven; other books appointed for new believers; the apocryphal books called an invention of heretics; the closing rule that nothing be added or taken away.",
-    "Gregory of Nazianzus, Oration 21.37, tr. Browne and Swallow: his death in old age, and the honors at his departure, the object of many tears. The editor dates the oration 379 or 380.",
+    "Gregory of Nazianzus, Oration 21.37, tr. Browne and Swallow: his death, the object of many tears. The editor dates the oration 379 or 380.",
     "Council in Trullo, canon 2 (692, the editor's date), tr. H. R. Percival: the council sets its seal on the canons of Athanasius; the Greek canon collections printed in the same volume carry the epistle taken from his thirty-ninth Festal Letter.",
     "Documents on Christian Unity 1920-4, ed. G. K. A. Bell: terms proposed in 1921 for communion between the Church of England and the Orthodox churches accept the canon of Scripture as Athanasius defined it, with twenty-two Old Testament and twenty-seven New Testament books."
   ],
@@ -261,7 +255,10 @@
       "printed": "Now I considered that it would be unreasonable in me to desert the people during such a disturbance, and not to endanger myself in their behalf",
       "work": "Athanasius, Defence of his Flight 24, ed. Robertson",
       "file": "cic/texts/npnf204_athanasius-select-works-letters.xml",
-      "lines": "37302-37304"
+      "lines": "37302-37304",
+      "original": "Ἐγὼ δὲ ἄλογον ἡγούμενος ἐν τοσαύτῃ συγχύσει καταλεῖψαι τοὺς λαοὺς, καὶ μὴ μᾶλλον προκινδυνεύειν αὐτῶν",
+      "originalFile": "cic/texts/athanasius_opera-omnia-pg25-grc-lat_migne1857.txt",
+      "originalLines": "97994-97996"
     },
     {
       "modern": "of one being",
@@ -282,7 +279,10 @@
       "printed": "Let no man add to these, neither let him take ought from these.",
       "work": "Athanasius, Festal Letter 39 (367), ed. Robertson",
       "file": "cic/texts/npnf204_athanasius-select-works-letters.xml",
-      "lines": "68810-68811"
+      "lines": "68810-68811",
+      "original": "Μηδεὶς τούτοις ἐπιβαλλέτω, μηδὲ τούτων ἀφαιρείσθω τι.",
+      "originalFile": "cic/texts/athanasius_opera-omnia-pg26-grc-lat_migne1857.txt",
+      "originalLines": "113085-113086"
     }
   ]
 }
