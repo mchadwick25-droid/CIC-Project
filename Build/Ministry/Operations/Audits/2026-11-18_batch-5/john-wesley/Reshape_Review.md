@@ -67,3 +67,6 @@ As reshaped: 555 words, about 3:42 at 150 a minute, against the target of about 
 ## Check 6. Readability
 
 `python -m engine.m1.profile_readability .../john-wesley.brief.txt`: 547 words, grade 7.9 (names out 7.2), reading ease names out 71.9, 16.1 words a sentence, longest 29: **pass**. Grade under 8 goes to the listener read. Heard once, it is not flat: the glosses sit inside the sentences and the scenes keep their weight. The restored sentences are v2's and were scored there.
+
+## Applied (coordinator, 2026-11-19)
+The review's replacements applied word for word as worded.

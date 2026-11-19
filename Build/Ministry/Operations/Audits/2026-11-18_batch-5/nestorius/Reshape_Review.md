@@ -77,3 +77,6 @@ with
 Held by the outline's Setting (deposed June 431; the law 435, the editors' date, E11). It adds no claim.
 
 **C. MINOR (record only). `Reshape.md` provenance.** It says Leo's praise was "added" by the review; the outline holds it at Also told (3) and beat 6. The drop is still right. No change to the brief.
+
+## Applied (coordinator, 2026-11-19)
+The review's replacements applied word for word as worded.

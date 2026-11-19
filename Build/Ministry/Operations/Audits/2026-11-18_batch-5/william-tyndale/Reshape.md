@@ -35,7 +35,6 @@ Ends at word 148, "…and in 1536 he was put to death." Hook and essence are unc
 
 ## Sentences that are neither the old brief's nor the outline's wording
 
-- "In 1530 Tyndale printed … they were written in. And he called …" are unchanged; the paragraph break before "In 1530" is gone.
 - "Tyndale later told the king's envoy that, of his books, one on the bishops' dealings with kings had angered the king most." Outline beat 5, M10a(c), and Also told ("angered him most, Tyndale told the king's envoy").
 - "In 1531 that envoy met him outside Antwerp and asked him to come home." Outline Also told ("In 1531 the envoy asked him to come home"), beat 6, M11.
 - "John Foxe later collected the stories of Protestants put to death." Outline Words to explain (martyrologist) and Who tells it (Foxe).
