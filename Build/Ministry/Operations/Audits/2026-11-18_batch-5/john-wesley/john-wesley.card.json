@@ -149,28 +149,32 @@
       "printed": "I felt I did trust in Christ, Christ alone for salvation ; and an assurance was given me that He had taken away my sins, even mine, and saved me from the law of sin and death.",
       "work": "John Wesley, Journal, 24 May 1738, in Curnock's edition, vol. I",
       "file": "cic/texts/wesley-j_journal-v1_curnock1909.txt",
-      "lines": "27071-27074"
+      "lines": "27071-27074",
+      "secondReading": "same"
     },
     {
       "modern": "I believe.",
       "printed": "I believe.",
       "work": "Charles Wesley, Journal, 24 May 1738",
       "file": "cic/texts/wesley-c_journal-v1_jackson1849.txt",
-      "lines": "7723-7724"
+      "lines": "7723-7724",
+      "secondReading": "same"
     },
     {
       "modern": "Bring out the minister.",
       "printed": "Bring out the minister",
       "work": "John Wesley, Journal, 20 October 1743, in Curnock's edition, vol. III",
       "file": "cic/texts/wesley-j_journal-v3_curnock1909.txt",
-      "lines": "5741-5742"
+      "lines": "5741-5742",
+      "secondReading": "same"
     },
     {
       "modern": "The best of all is, God is with us.",
       "printed": "The best of all is, God is with us",
       "work": "Elizabeth Ritchie's account of Wesley's last days, in Curnock's edition of the Journal, vol. VIII",
       "file": "cic/texts/wesley-j_journal-v8_curnock1909.txt",
-      "lines": "9033"
+      "lines": "9033",
+      "secondReading": "same"
     }
   ]
 }

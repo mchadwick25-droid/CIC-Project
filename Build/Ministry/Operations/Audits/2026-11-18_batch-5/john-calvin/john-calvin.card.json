@@ -193,21 +193,24 @@
       "printed": "ubi se vidit rogando nihil proficere, usque ad exsecrationem descendit, ut Deus otio meo malediceret, si me a ferendis subsidiis in tanta necessitate subducerem. Quo terrore perculsus, susceptum iter ita omisi",
       "work": "Calvin, preface to the Commentary on the Psalms (1557), in B. J. Kidd, Documents Illustrative of the Continental Reformation",
       "file": "cic/texts/kidd_documents-illustrative-of-the-continental-reformation-lat-deu-fra-eng_1911.txt",
-      "lines": "29989-29995"
+      "lines": "29989-29995",
+      "secondReading": "same"
     },
     {
       "modern": "Some are ordained beforehand to eternal life, others to eternal damnation,",
       "printed": "some are preordained to eternal life, others to eternal damnation",
       "work": "Calvin, Institutes III.21.5 (1559), tr. Henry Beveridge",
       "file": "cic/texts/calvin_institutes-christian-religion-vol2_beveridge1845.txt",
-      "lines": "24555-24557"
+      "lines": "24555-24557",
+      "secondReading": "same"
     },
     {
       "modern": "I have lived here amid extraordinary battles. In mockery, I was greeted in the evening outside my door with fifty or sixty gunshots. Think how that could shake a poor, timid scholar, as I am and always have been, I confess.",
       "printed": "J'ay vescu icy en combats merveilleux : j'ay esté salué par mocquerie le soir devant ma porte de 50 ou 60 coups d'arquebute. Que pensez-vous que cela pouvoit estonner un pauvre escholier timide comme je suis, et comme je l'ay tousjours esté, je le confesse ?",
       "work": "Calvin's farewell to the ministers of Geneva, 28 April 1564, as taken down by the minister Pinant, in B. J. Kidd, Documents Illustrative of the Continental Reformation",
       "file": "cic/texts/kidd_documents-illustrative-of-the-continental-reformation-lat-deu-fra-eng_1911.txt",
-      "lines": "35741-35745"
+      "lines": "35741-35745",
+      "secondReading": "same"
     }
   ]
 }

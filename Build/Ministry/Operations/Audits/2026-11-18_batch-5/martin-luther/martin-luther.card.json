@@ -214,7 +214,8 @@
       "printed": "Quilibet verus Christianus, sive vivus sive mortuus, habet participationem omnium bonorum Christi et ecclesiae, etiam sine literis veniarum, a Deo sibi datam.",
       "work": "Luther, Ninety-five Theses, Thesis 37, 1517, in Kidd, Documents Illustrative of the Continental Reformation",
       "file": "cic/texts/kidd_documents-illustrative-of-the-continental-reformation-lat-deu-fra-eng_1911.txt",
-      "lines": "2576-2578"
+      "lines": "2576-2578",
+      "secondReading": "same"
     },
     {
       "modern": "Unless I am convinced by the witness of the Scriptures or by clear reason … I cannot and will not take back anything.",
@@ -222,14 +223,16 @@
       "work": "Luther's answer before the emperor and the Diet, 18 April 1521, in Kidd's Latin",
       "file": "cic/texts/kidd_documents-illustrative-of-the-continental-reformation-lat-deu-fra-eng_1911.txt",
       "lines": "5945-5950",
-      "uncertain": "The brief leaves out, without marking it, the words between: the aside that he trusts neither pope nor councils alone, since they have often erred, and the clause that he is bound by the Scriptures he has cited and his conscience is captive to the words of God."
+      "uncertain": "The brief leaves out, without marking it, the words between: the aside that he trusts neither pope nor councils alone, since they have often erred, and the clause that he is bound by the Scriptures he has cited and his conscience is captive to the words of God.",
+      "secondReading": "same"
     },
     {
       "modern": "God help me. Amen.",
       "printed": "Gott helff mir. Amen.",
       "work": "Luther's answer before the emperor and the Diet, 18 April 1521, in Kidd's Latin",
       "file": "cic/texts/kidd_documents-illustrative-of-the-continental-reformation-lat-deu-fra-eng_1911.txt",
-      "lines": "5952"
+      "lines": "5952",
+      "secondReading": "same"
     },
     {
       "modern": "Here I stand, I cannot do otherwise",
@@ -237,28 +240,32 @@
       "work": "the closing words as given in two prints of 1521, in Wrede's note, Deutsche Reichstagsakten, volume 2",
       "file": "cic/texts/deutsche-reichstagsakten_juengere-reihe-bd-2-reichstag-zu-worms-1521-deu-lat-fra_wrede1896.txt",
       "lines": "36651",
-      "uncertain": "The two prints give the clauses the other way round: I cannot otherwise, here I stand. Kidd prints them in the brief's order, Hie stehe ich. Ich kan nicht anders."
+      "uncertain": "The two prints give the clauses the other way round: I cannot otherwise, here I stand. Kidd prints them in the brief's order, Hie stehe ich. Ich kan nicht anders.",
+      "secondReading": "minor"
     },
     {
       "modern": "So let everyone who can strike, kill and stab, in secret or in the open. Remember that nothing can be more poisonous, harmful or devilish than a rebel.",
       "printed": "Therefore let everyone who can, smite, slay, and stab, secretly or openly, remembering that nothing can be more poisonous, hurtful, or devilish than a rebel.",
       "work": "Luther, Against the Robbing and Murdering Hordes of Peasants, May 1525, English of the Philadelphia edition, volume 4",
       "file": "cic/texts/luther_works-v4-selected_various1931.txt",
-      "lines": "11958-11961"
+      "lines": "11958-11961",
+      "secondReading": "same"
     },
     {
       "modern": "furious, raving, senseless tyrants",
       "printed": "the furious, raving, senseless tyrants",
       "work": "Luther, Open Letter on the Hard Book, July 1525, English of the Philadelphia edition, volume 4",
       "file": "cic/texts/luther_works-v4-selected_various1931.txt",
-      "lines": "13558-13559"
+      "lines": "13558-13559",
+      "secondReading": "same"
     },
     {
       "modern": "drink for himself from the fresh spring",
       "printed": "every one may drink for himself from the fresh spring",
       "work": "Luther, preface to the German writings, 1539, English of the Philadelphia edition, volume 1",
       "file": "cic/texts/luther_works-v1-selected_jacobs-spaeth1915.txt",
-      "lines": "285-286"
+      "lines": "285-286",
+      "secondReading": "same"
     }
   ]
 }

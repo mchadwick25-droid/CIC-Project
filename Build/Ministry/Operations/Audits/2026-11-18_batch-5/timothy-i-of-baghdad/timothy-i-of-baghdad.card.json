@@ -156,21 +156,24 @@
       "printed": "sacerdotium nequaquam pecuniis venditur",
       "work": "Mari ibn Sulayman, Lives of the patriarchs, in Henricus Gismondi's Latin, De patriarchis Nestorianorum commentaria",
       "file": "cic/texts/mari-ibn-sulayman_de-patriarchis-nestorianorum-commentaria-pars-prior-ara-lat_gismondi1899.txt",
-      "lines": "13084-13085"
+      "lines": "13084-13085",
+      "secondReading": "same"
     },
     {
       "modern": "Almighty God allowed it, and the king, may God keep him alive, agreed that the churches be rebuilt. Even so, we had to go before him six times on this matter.",
       "printed": "si le Dieu tout puissant a permis, et si le roi — que Dieu conserve sa vie! — a consenti à la reconstruction des églises, nous avons dû néanmoins aller six fois en sa présence pour cette affaire.",
       "work": "Timothy I, letter to Ephrem of Elam, Synodicon Orientale, Appendix IV, in J.-B. Chabot's French",
       "file": "cic/texts/synodicon-orientale_recueil-de-synodes-nestoriens-syr-fra_chabot1902.txt",
-      "lines": "40543-40546"
+      "lines": "40543-40546",
+      "secondReading": "same"
     },
     {
       "modern": "Make bishops of whomever you and the pious Kardagh choose. In place of the third bishop, let the Book of the Gospels be laid on the throne at the right hand. So, by the hand of God, ordain the first bishop.",
       "printed": "Appoint as Bishops whomsoever ye and the pious Kardagh shall choose, and in the place of the third [person who should be present], let the Book of the Gospels be laid on the [episcopal] throne on the right hand; thus by the hand of God perform the ordination of the first Bishop",
       "work": "Timothy I, letter to Yahbalaha, as Thomas of Marga quotes it in the Book of Governors V, tr. E. A. Wallis Budge",
       "file": "cic/texts/thomas-of-marga_book-of-governors-v2-english_budge1893.txt",
-      "lines": "21980-21985"
+      "lines": "21980-21985",
+      "secondReading": "minor"
     }
   ]
 }

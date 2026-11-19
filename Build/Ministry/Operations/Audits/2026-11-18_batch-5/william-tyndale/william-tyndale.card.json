@@ -111,21 +111,24 @@
       "printed": "no place to do it in all England",
       "work": "Tyndale, Preface to the Five Books of Moses, 1530, in Walter's modernized text",
       "file": "cic/texts/tyndale_doctrinal-treatises_walter1848.txt",
-      "lines": "25837-25838"
+      "lines": "25837-25838",
+      "secondReading": "same"
     },
     {
       "modern": "Luther's sect",
       "printed": "Luther's sect",
       "work": "Cuthbert Tonstal, bishop of London, order of 23 October 1526, in Foxe, Acts and Monuments, vol. 4",
       "file": "cic/texts/foxe_acts-and-monuments-v4_cattley-townsend1837.txt",
-      "lines": "51045"
+      "lines": "51045",
+      "secondReading": "same"
     },
     {
       "modern": "untrue translations",
       "printed": "untrue translations",
       "work": "Henry VIII, reply to Luther, 1526, quoted in Walter's Biographical Notice",
       "file": "cic/texts/tyndale_doctrinal-treatises_walter1848.txt",
-      "lines": "1250"
+      "lines": "1250",
+      "secondReading": "same"
     },
     {
       "modern": "Suppose the king, of his grace, grants his people only the bare text of the Scripture … in the translation of anyone he pleases. Then I will at once make a faithful promise never to write again. … I offer my body to suffer whatever pain or torture, yes, whatever death the king wills, if only this is granted.",
@@ -133,14 +136,16 @@
       "work": "Stephen Vaughan to Henry VIII, May 1531, reporting Tyndale's answer, in Walter's Biographical Notice",
       "file": "cic/texts/tyndale_doctrinal-treatises_walter1848.txt",
       "lines": "2091-2101",
-      "uncertain": "The brief leaves out two stretches of the printed wording: that the bare text goes out among the people as it does among the emperor's subjects and other Christian princes, and his promise to leave within two days and kneel before the king."
+      "uncertain": "The brief leaves out two stretches of the printed wording: that the bare text goes out among the people as it does among the emperor's subjects and other Christian princes, and his promise to leave within two days and kneel before the king.",
+      "secondReading": "minor"
     },
     {
       "modern": "Lord, open the king of England's eyes.",
       "printed": "Lord, open the king of England's eyes",
       "work": "John Foxe, quoted in Walter's Biographical Notice",
       "file": "cic/texts/tyndale_doctrinal-treatises_walter1848.txt",
-      "lines": "3332-3333"
+      "lines": "3332-3333",
+      "secondReading": "same"
     }
   ]
 }

@@ -166,7 +166,8 @@
       "printed": "for He came in likeness of fire on the bush in the wilderness, and the fire kept playing on the shrub yet was it not consumed.",
       "work": "Cyril, That Christ is One, tr. P. E. Pusey",
       "file": "cic/texts/cyril-alexandria_five-tomes-against-nestorius-scholia-christ-is-one_pusey1881.txt",
-      "lines": "19878-19881"
+      "lines": "19878-19881",
+      "secondReading": "minor"
     },
     {
       "modern": "An ordinary man was not born first of the holy Virgin, with the Word coming down on him afterwards. Rather, the Word, united from the womb itself, is said to have gone through birth in the flesh.",
@@ -176,14 +177,16 @@
       "lines": "4334-4336",
       "original": "οὐ γὰρ πρῶτον ἄνθρωπος ἐγεννήθη κοινὸς ἐκ τῆς ἁγίας παρθένου, εἶθ᾽ οὕτω καταπεφοίτηκεν ἐπ᾿ αὐτὸν ὁ Λόγος· ἀλλ᾽ ἐξ αὐτῆς μήτρας ἑνωθεὶς, ὑπομεῖναι λέγεται γέννησιν σαρκικὴν",
       "originalFile": "cic/texts/cyril-alexandria_three-epistles-grc-eng_pusey1872.txt",
-      "originalLines": "954-957"
+      "originalLines": "954-957",
+      "secondReading": "same"
     },
     {
       "modern": "the gold of iniquity",
       "printed": "the gold of iniquity",
       "work": "Nestorius, Bazaar of Heracleides, tr. G. R. Driver and Leonard Hodgson",
       "file": "cic/texts/nestorius_bazaar-of-heracleides_driver-hodgson1925.txt",
-      "lines": "15817"
+      "lines": "15817",
+      "secondReading": "same"
     },
     {
       "modern": "one nature",
@@ -191,7 +194,8 @@
       "work": "Cyril, second letter to Succensus, as John of Damascus quotes it, Exposition of the Orthodox Faith III.11",
       "file": "cic/texts/npnf209_hilary-poitiers-john-damascus.xml",
       "lines": "33086-33087",
-      "uncertain": "Cyril's short form of one incarnate nature of the Word; in the same letter he says the phrase would be incomplete without incarnate. The Greek of the letter is not held."
+      "uncertain": "Cyril's short form of one incarnate nature of the Word; in the same letter he says the phrase would be incomplete without incarnate. The Greek of the letter is not held.",
+      "secondReading": "minor"
     },
     {
       "modern": "one incarnate nature of the Word",
@@ -199,14 +203,16 @@
       "work": "Cyril, second letter to Succensus, as Pusey quotes it in a note to That Christ is One",
       "file": "cic/texts/cyril-alexandria_five-tomes-against-nestorius-scholia-christ-is-one_pusey1881.txt",
       "lines": "19834-19835",
-      "uncertain": "The Greek of the letter is not held. John of Damascus has Cyril interpret one nature of God the Word Incarnate, and Hefele's English of the letter to Eulogius has one incarnate nature of God."
+      "uncertain": "The Greek of the letter is not held. John of Damascus has Cyril interpret one nature of God the Word Incarnate, and Hefele's English of the letter to Eulogius has one incarnate nature of God.",
+      "secondReading": "same"
     },
     {
       "modern": "no commingling, no confusion",
       "printed": "no commingling, no confusion",
       "work": "Cyril, second letter to Succensus, as Pusey quotes it in a note to That Christ is One",
       "file": "cic/texts/cyril-alexandria_five-tomes-against-nestorius-scholia-christ-is-one_pusey1881.txt",
-      "lines": "19847"
+      "lines": "19847",
+      "secondReading": "same"
     },
     {
       "modern": "the letter of the holy Cyril to Nestorius. Every word he spoke, one could say, is a law of the church.",
@@ -214,7 +220,8 @@
       "work": "Severus of Antioch, Select Letters VI.i.9, to Stephen, bishop of Tripolis, tr. E. W. Brooks from the Syriac",
       "file": "cic/texts/severus-of-antioch_select-letters-book6-part1_brooks1903.txt",
       "lines": "2106-2108",
-      "uncertain": "The Syriac is not held; the modern wording follows Brooks's English."
+      "uncertain": "The Syriac is not held; the modern wording follows Brooks's English.",
+      "secondReading": "same"
     }
   ]
 }

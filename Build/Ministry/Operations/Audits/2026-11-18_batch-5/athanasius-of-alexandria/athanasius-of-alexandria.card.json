@@ -258,21 +258,24 @@
       "lines": "37302-37304",
       "original": "Ἐγὼ δὲ ἄλογον ἡγούμενος ἐν τοσαύτῃ συγχύσει καταλεῖψαι τοὺς λαοὺς, καὶ μὴ μᾶλλον προκινδυνεύειν αὐτῶν",
       "originalFile": "cic/texts/athanasius_opera-omnia-pg25-grc-lat_migne1857.txt",
-      "originalLines": "97994-97996"
+      "originalLines": "97994-97996",
+      "secondReading": "same"
     },
     {
       "modern": "of one being",
       "printed": "One in essence with the Father",
       "work": "Athanasius, On the Decrees of the Council of Nicaea, Eusebius's letter, ed. Robertson",
       "file": "cic/texts/npnf204_athanasius-select-works-letters.xml",
-      "lines": "19679"
+      "lines": "19679",
+      "secondReading": "same"
     },
     {
       "modern": "as brothers with brothers",
       "printed": "as brothers with brothers",
       "work": "Athanasius, On the Councils of Ariminum and Seleucia (De Synodis) 41, ed. Robertson",
       "file": "cic/texts/npnf204_athanasius-select-works-letters.xml",
-      "lines": "58857"
+      "lines": "58857",
+      "secondReading": "same"
     },
     {
       "modern": "Let no one add to them, or take anything away from them.",
@@ -282,7 +285,8 @@
       "lines": "68810-68811",
       "original": "Μηδεὶς τούτοις ἐπιβαλλέτω, μηδὲ τούτων ἀφαιρείσθω τι.",
       "originalFile": "cic/texts/athanasius_opera-omnia-pg26-grc-lat_migne1857.txt",
-      "originalLines": "113085-113086"
+      "originalLines": "113085-113086",
+      "secondReading": "same"
     }
   ]
 }

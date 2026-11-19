@@ -157,21 +157,24 @@
       "printed": "to entitle the book with the title of this man's name, lest on account of his own name, in that many abhorred it, they should not be willing to read [it] and be converted to the truth",
       "work": "Bazaar of Heracleides, Syriac translator's preface, tr. Driver and Hodgson",
       "file": "cic/texts/nestorius_bazaar-of-heracleides_driver-hodgson1925.txt",
-      "lines": "2284-2287"
+      "lines": "2284-2287",
+      "secondReading": "same"
     },
     {
       "modern": "Mother of God",
       "printed": "Mother of God",
       "work": "Nestorius, Bazaar of Heracleides, tr. Driver and Hodgson",
       "file": "cic/texts/nestorius_bazaar-of-heracleides_driver-hodgson1925.txt",
-      "lines": "6936"
+      "lines": "6936",
+      "secondReading": "same"
     },
     {
       "modern": "the earth purged of heretics",
       "printed": "Give me, my prince, the earth purged of heretics, and I will give you heaven as a recompense.",
       "work": "Socrates, Church History VII.29, English translation (Nicene and Post-Nicene Fathers)",
       "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml",
-      "lines": "20561-20562"
+      "lines": "20561-20562",
+      "secondReading": "same"
     },
     {
       "modern": "Mother of God",
@@ -186,56 +189,64 @@
       "printed": "Mother of man",
       "work": "Nestorius, Bazaar of Heracleides, tr. Driver and Hodgson",
       "file": "cic/texts/nestorius_bazaar-of-heracleides_driver-hodgson1925.txt",
-      "lines": "6937"
+      "lines": "6937",
+      "secondReading": "same"
     },
     {
       "modern": "Mother of Christ",
       "printed": "Mother of Christ",
       "work": "Nestorius, Bazaar of Heracleides, tr. Driver and Hodgson",
       "file": "cic/texts/nestorius_bazaar-of-heracleides_driver-hodgson1925.txt",
-      "lines": "6955"
+      "lines": "6955",
+      "secondReading": "same"
     },
     {
       "modern": "God is not separated from the one who is seen. So I do not separate the honor of the one who is not separated. I separate the natures, but I unite the worship.",
       "printed": "ἀχώριστος τοῦ φαινομένου ϑεός, διὰ τοῦτο τοῦ μὴ χωριζομένου τὴν τιμὴν οὐ χωρίζω. χωρίζω τὰς φύσεις, ἀλλ᾽ ἑνῶ τὴν προσκύνησιν.",
       "work": "Nestorius, sermon at Constantinople, Greek, in Loofs, Nestoriana",
       "file": "cic/texts/nestorius_nestoriana-fragmenta-grc-lat-deu_loofs1905.txt",
-      "lines": "14310-14312"
+      "lines": "14310-14312",
+      "secondReading": "same"
     },
     {
       "modern": "as though it were some terrible phantom",
       "printed": "as though it were some terrible phantom",
       "work": "Socrates, Church History VII.32, English translation (Nicene and Post-Nicene Fathers)",
       "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml",
-      "lines": "20756"
+      "lines": "20756",
+      "secondReading": "same"
     },
     {
       "modern": "a mangled hand and side",
       "printed": "a mangled hand and side",
       "work": "Nestorius, letter to the governor of the Thebaid, in Evagrius, Church History I.7, English translation of 1846",
       "file": "cic/texts/evagrius-scholasticus_ecclesiastical-history_walford1846.txt",
-      "lines": "1659"
+      "lines": "1659",
+      "secondReading": "same"
     },
     {
       "modern": "So let Nestorius be anathema. Only let them say of God what I beg them to say.",
       "printed": "But may Nestorius be anathematized; but may they say what I pray them to say concerning God.",
       "work": "Nestorius, Bazaar of Heracleides, tr. Driver and Hodgson",
       "file": "cic/texts/nestorius_bazaar-of-heracleides_driver-hodgson1925.txt",
-      "lines": "20264-20265"
+      "lines": "20264-20265",
+      "secondReading": "minor"
     },
     {
       "modern": "the persecuted martyr",
       "printed": "Mar Nestorius the persecuted martyr",
       "work": "Ordination rite of the Church of the East, in Badger, The Nestorians and their Rituals II",
       "file": "cic/texts/badger_nestorians-and-their-rituals-v2_1852.txt",
-      "lines": "16360-16361"
+      "lines": "16360-16361",
+      "secondReading": "same"
     },
     {
       "modern": "Nestorius, then, followed them, and not they him.",
       "printed": "Nestorius, then, followed them, and not they him",
       "work": "Abdisho of Nisibis, The Jewel (1298), tr. Badger, in The Nestorians and their Rituals II",
       "file": "cic/texts/badger_nestorians-and-their-rituals-v2_1852.txt",
-      "lines": "19155-19156"
+      "lines": "19155-19156",
+      "secondReading": "same"
     }
   ]
 }

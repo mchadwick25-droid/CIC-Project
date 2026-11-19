@@ -119,19 +119,6 @@
    }
   },
   {
-   "id": "babai-the-great",
-   "quote": "We say: Christ died, the Son died, through the Son all was created and made,",
-   "original": {
-    "file": "cic/texts/labourt_le-christianisme-dans-l-empire-perse-sassanide-fra_1904.txt",
-    "lines": "15853-15854",
-    "language": "French"
-   },
-   "second_reading": {
-    "record": "Build/Ministry/Operations/Audits/2026-11-16_rendering-recheck/comparison.md",
-    "verdict": "same"
-   }
-  },
-  {
    "id": "john-moschus",
    "quote": "Truly, Abba John, let us study no more today,",
    "original": {
@@ -207,32 +194,6 @@
    "second_reading": {
     "record": "Build/Ministry/Operations/Audits/2026-11-16_eight-standard-v1/renderings/eight/comparison.md",
     "verdict": "same"
-   }
-  },
-  {
-   "id": "athanasius-of-alexandria",
-   "quote": "He became human so that we might be made God.",
-   "original": {
-    "file": "cic/texts/npnf204_athanasius-select-works-letters.xml",
-    "lines": "18743-18744",
-    "language": "English"
-   },
-   "second_reading": {
-    "record": "Build/Ministry/Operations/Audits/2026-11-16_eight-standard-v1/renderings/eight/comparison.md",
-    "verdict": "minor"
-   }
-  },
-  {
-   "id": "athanasius-of-alexandria",
-   "quote": "our blessed Father Athanasius, praised by all.",
-   "original": {
-    "file": "cic/texts/cyril-alexandria_three-epistles-grc-eng_pusey1872.txt",
-    "lines": "5393-5394",
-    "language": "English"
-   },
-   "second_reading": {
-    "record": "Build/Ministry/Operations/Audits/2026-11-16_eight-standard-v1/renderings/eight/comparison.md",
-    "verdict": "minor"
    }
   },
   {
@@ -1649,6 +1610,565 @@
    },
    "second_reading": {
     "record": "Build/Ministry/Operations/Audits/2026-11-17_varied-batch/radegund/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "nestorius",
+   "quote": "The writer chose to give the book this man's name. He feared that his own name, which many hated, would stop them from reading it and turning to the truth.",
+   "original": {
+    "file": "cic/texts/nestorius_bazaar-of-heracleides_driver-hodgson1925.txt",
+    "lines": "2284-2287",
+    "language": "English"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-18_batch-5/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "nestorius",
+   "quote": "God is not separated from the one who is seen. So I do not separate the honor of the one who is not separated. I separate the natures, but I unite the worship.",
+   "original": {
+    "file": "cic/texts/nestorius_nestoriana-fragmenta-grc-lat-deu_loofs1905.txt",
+    "lines": "14310-14312",
+    "language": "Greek"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-18_batch-5/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "nestorius",
+   "quote": "So let Nestorius be anathema. Only let them say of God what I beg them to say.",
+   "original": {
+    "file": "cic/texts/nestorius_bazaar-of-heracleides_driver-hodgson1925.txt",
+    "lines": "20264-20265",
+    "language": "English"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-18_batch-5/Second_Readings.md",
+    "verdict": "minor"
+   }
+  },
+  {
+   "id": "cyril-of-alexandria",
+   "quote": "He came like fire upon the bush in the desert. The fire kept playing over the bush, and yet the bush was not burned up.",
+   "original": {
+    "file": "cic/texts/cyril-alexandria_five-tomes-against-nestorius-scholia-christ-is-one_pusey1881.txt",
+    "lines": "19878-19881",
+    "language": "English"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-18_batch-5/Second_Readings.md",
+    "verdict": "minor"
+   }
+  },
+  {
+   "id": "cyril-of-alexandria",
+   "quote": "An ordinary man was not born first of the holy Virgin, with the Word coming down on him afterwards. Rather, the Word, united from the womb itself, is said to have gone through birth in the flesh.",
+   "original": {
+    "file": "cic/texts/cyril-alexandria_three-epistles-grc-eng_pusey1872.txt",
+    "lines": "954-957",
+    "language": "Greek"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-18_batch-5/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "cyril-of-alexandria",
+   "quote": "the letter of the holy Cyril to Nestorius. Every word he spoke, one could say, is a law of the church.",
+   "original": {
+    "file": "cic/texts/severus-of-antioch_select-letters-book6-part1_brooks1903.txt",
+    "lines": "2106-2108",
+    "language": "English"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-18_batch-5/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "barsauma-of-nisibis",
+   "quote": "out of ill will and human passion.",
+   "original": {
+    "file": "cic/texts/synodicon-orientale_recueil-de-synodes-nestoriens-syr-fra_chabot1902.txt",
+    "lines": "20258",
+    "language": "French"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-18_batch-5/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "barsauma-of-nisibis",
+   "quote": "Satan stirred up a quarrel",
+   "original": {
+    "file": "cic/texts/synodicon-orientale_recueil-de-synodes-nestoriens-syr-fra_chabot1902.txt",
+    "lines": "35397-35398",
+    "language": "French"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-18_batch-5/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "barsauma-of-nisibis",
+   "quote": "murmurs, blames, charges and testimonies,",
+   "original": {
+    "file": "cic/texts/synodicon-orientale_recueil-de-synodes-nestoriens-syr-fra_chabot1902.txt",
+    "lines": "35256-35257",
+    "language": "French"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-18_batch-5/Second_Readings.md",
+    "verdict": "minor"
+   }
+  },
+  {
+   "id": "barsauma-of-nisibis",
+   "quote": "Now Nisibis is shaken, troubled and tossed like a stormy sea. If you, Father, do not quickly send a letter of excommunication to calm the city, I will not stay on as bishop of Nisibis. And Nisibis itself will not stay under the great empire of the Persians.",
+   "original": {
+    "file": "cic/texts/synodicon-orientale_recueil-de-synodes-nestoriens-syr-fra_chabot1902.txt",
+    "lines": "35479-35483",
+    "language": "French"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-18_batch-5/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "barsauma-of-nisibis",
+   "quote": "like the doctor who amputates,",
+   "original": {
+    "file": "cic/texts/synodicon-orientale_recueil-de-synodes-nestoriens-syr-fra_chabot1902.txt",
+    "lines": "35509-35510",
+    "language": "French"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-18_batch-5/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "barsauma-of-nisibis",
+   "quote": "but only on this point.",
+   "original": {
+    "file": "cic/texts/synodicon-orientale_recueil-de-synodes-nestoriens-syr-fra_chabot1902.txt",
+    "lines": "20484",
+    "language": "French"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-18_batch-5/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "barsauma-of-nisibis",
+   "quote": "the divine assembly,",
+   "original": {
+    "file": "cic/texts/synodicon-orientale_recueil-de-synodes-nestoriens-syr-fra_chabot1902.txt",
+    "lines": "31682",
+    "language": "French"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-18_batch-5/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "barsauma-of-nisibis",
+   "quote": "my lord,",
+   "original": {
+    "file": "cic/texts/synodicon-orientale_recueil-de-synodes-nestoriens-syr-fra_chabot1902.txt",
+    "lines": "31684",
+    "language": "French"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-18_batch-5/Second_Readings.md",
+    "verdict": "minor"
+   }
+  },
+  {
+   "id": "barsauma-of-nisibis",
+   "quote": "the blessed Mar Barsauma.",
+   "original": {
+    "file": "cic/texts/synodicon-orientale_recueil-de-synodes-nestoriens-syr-fra_chabot1902.txt",
+    "lines": "31684-31685",
+    "language": "French"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-18_batch-5/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "babai-the-great",
+   "quote": "Here too, in the same way, we say that Christ was crucified, that Christ died and rose again. But we do not say that God was crucified and died.",
+   "original": {
+    "file": "cic/texts/labourt_le-christianisme-dans-l-empire-perse-sassanide-fra_1904.txt",
+    "lines": "15887-15890",
+    "language": "French"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-18_batch-5/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "babai-the-great",
+   "quote": "If I had known you were with me, I would have taken on this great work with all care. But now go in peace, and pray for me.",
+   "original": {
+    "file": "cic/texts/thomas-of-marga_book-of-governors-v2-english_budge1893.txt",
+    "lines": "5185-5188",
+    "language": "English"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-18_batch-5/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "timothy-i-of-baghdad",
+   "quote": "The priesthood is by no means sold for money,",
+   "original": {
+    "file": "cic/texts/mari-ibn-sulayman_de-patriarchis-nestorianorum-commentaria-pars-prior-ara-lat_gismondi1899.txt",
+    "lines": "13084-13085",
+    "language": "Latin"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-18_batch-5/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "timothy-i-of-baghdad",
+   "quote": "Almighty God allowed it, and the king, may God keep him alive, agreed that the churches be rebuilt. Even so, we had to go before him six times on this matter.",
+   "original": {
+    "file": "cic/texts/synodicon-orientale_recueil-de-synodes-nestoriens-syr-fra_chabot1902.txt",
+    "lines": "40543-40546",
+    "language": "French"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-18_batch-5/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "timothy-i-of-baghdad",
+   "quote": "Make bishops of whomever you and the pious Kardagh choose. In place of the third bishop, let the Book of the Gospels be laid on the throne at the right hand. So, by the hand of God, ordain the first bishop.",
+   "original": {
+    "file": "cic/texts/thomas-of-marga_book-of-governors-v2-english_budge1893.txt",
+    "lines": "21980-21985",
+    "language": "English"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-18_batch-5/Second_Readings.md",
+    "verdict": "minor"
+   }
+  },
+  {
+   "id": "martin-luther",
+   "quote": "Every true Christian, living or dead, has a share in all the good things of Christ and the church. God gives it to him, even without letters of pardon.",
+   "original": {
+    "file": "cic/texts/kidd_documents-illustrative-of-the-continental-reformation-lat-deu-fra-eng_1911.txt",
+    "lines": "2576-2578",
+    "language": "Latin"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-18_batch-5/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "martin-luther",
+   "quote": "Unless I am convinced by the witness of the Scriptures or by clear reason … I cannot and will not take back anything.",
+   "original": {
+    "file": "cic/texts/kidd_documents-illustrative-of-the-continental-reformation-lat-deu-fra-eng_1911.txt",
+    "lines": "5945-5950",
+    "language": "Latin"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-18_batch-5/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "martin-luther",
+   "quote": "God help me. Amen.",
+   "original": {
+    "file": "cic/texts/kidd_documents-illustrative-of-the-continental-reformation-lat-deu-fra-eng_1911.txt",
+    "lines": "5952",
+    "language": "German"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-18_batch-5/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "martin-luther",
+   "quote": "So let everyone who can strike, kill and stab, in secret or in the open. Remember that nothing can be more poisonous, harmful or devilish than a rebel.",
+   "original": {
+    "file": "cic/texts/luther_works-v4-selected_various1931.txt",
+    "lines": "11958-11961",
+    "language": "English"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-18_batch-5/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "william-tyndale",
+   "quote": "Suppose the king, of his grace, grants his people only the bare text of the Scripture … in the translation of anyone he pleases. Then I will at once make a faithful promise never to write again. … I offer my body to suffer whatever pain or torture, yes, whatever death the king wills, if only this is granted.",
+   "original": {
+    "file": "cic/texts/tyndale_doctrinal-treatises_walter1848.txt",
+    "lines": "2091-2101",
+    "language": "English"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-18_batch-5/Second_Readings.md",
+    "verdict": "minor"
+   }
+  },
+  {
+   "id": "john-calvin",
+   "quote": "When he saw that asking got him nowhere, he went as far as a curse. He called on God to curse my quiet life if I held back from helping in so great a need. Struck by that terror, I gave up the journey I had begun.",
+   "original": {
+    "file": "cic/texts/kidd_documents-illustrative-of-the-continental-reformation-lat-deu-fra-eng_1911.txt",
+    "lines": "29989-29995",
+    "language": "Latin"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-18_batch-5/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "john-calvin",
+   "quote": "Some are ordained beforehand to eternal life, others to eternal damnation,",
+   "original": {
+    "file": "cic/texts/calvin_institutes-christian-religion-vol2_beveridge1845.txt",
+    "lines": "24555-24557",
+    "language": "English"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-18_batch-5/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "john-calvin",
+   "quote": "I have lived here amid extraordinary battles. In mockery, I was greeted in the evening outside my door with fifty or sixty gunshots. Think how that could shake a poor, timid scholar, as I am and always have been, I confess.",
+   "original": {
+    "file": "cic/texts/kidd_documents-illustrative-of-the-continental-reformation-lat-deu-fra-eng_1911.txt",
+    "lines": "35741-35745",
+    "language": "French"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-18_batch-5/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "john-wesley",
+   "quote": "I felt that I did trust in Christ, in Christ alone, for salvation. And I was given an assurance that he had taken away my sins, even mine, and saved me from the law of sin and death.",
+   "original": {
+    "file": "cic/texts/wesley-j_journal-v1_curnock1909.txt",
+    "lines": "27071-27074",
+    "language": "English"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-18_batch-5/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "augustine-of-hippo",
+   "quote": "And look, I hear a voice from the house next door, singing and repeating it again and again, like a boy's or a girl's voice, I do not know which: 'Take it and read, take it and read.'",
+   "original": {
+    "file": "cic/texts/augustine_confessiones-lat_knoll-csel33.txt",
+    "lines": "13463-13465",
+    "language": "Latin"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-18_batch-5/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "augustine-of-hippo",
+   "quote": "In answering this question, I worked hard for the free choice of the human will. But God's grace won. I could only come to see that the apostle spoke the plainest truth: 'Who sets you apart? What do you have that you did not receive?'",
+   "original": {
+    "file": "cic/texts/augustine_retractationes-lat_knoll-csel36.txt",
+    "lines": "9059-9066",
+    "language": "Latin"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-18_batch-5/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "patrick-of-ireland",
+   "quote": "I am Patrick, a sinner. I am utterly unlearned, and the least of all believers. Very many people look down on me.",
+   "original": {
+    "file": "cic/texts/stokes_tripartite-life-of-patrick-v2-lat-muirchu-tirechan-confession_1887.txt",
+    "lines": "5944-5946",
+    "language": "Latin"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-18_batch-5/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "patrick-of-ireland",
+   "quote": "We beg you, holy boy, come and walk among us once more.",
+   "original": {
+    "file": "cic/texts/patrick_libri-sancti-patricii-lat_white1918.txt",
+    "lines": "669-670",
+    "language": "Latin"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-18_batch-5/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "patrick-of-ireland",
+   "quote": "By birth I was a free man, and my father was a town councillor. I sold my noble rank for the good of others, and I am not ashamed or sorry. In short, I am a slave in Christ to a foreign people.",
+   "original": {
+    "file": "cic/texts/stokes_tripartite-life-of-patrick-v2-lat-muirchu-tirechan-confession_1887.txt",
+    "lines": "7370-7375",
+    "language": "Latin"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-18_batch-5/Second_Readings.md",
+    "verdict": "minor"
+   }
+  },
+  {
+   "id": "athanasius-of-alexandria",
+   "quote": "I thought it wrong to leave the people in such an uproar, rather than face the danger for them first.",
+   "original": {
+    "file": "cic/texts/athanasius_opera-omnia-pg25-grc-lat_migne1857.txt",
+    "lines": "97994-97996",
+    "language": "Greek"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-18_batch-5/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "athanasius-of-alexandria",
+   "quote": "of one being",
+   "original": {
+    "file": "cic/texts/npnf204_athanasius-select-works-letters.xml",
+    "lines": "19679",
+    "language": "English"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-18_batch-5/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "athanasius-of-alexandria",
+   "quote": "Let no one add to them, or take anything away from them.",
+   "original": {
+    "file": "cic/texts/athanasius_opera-omnia-pg26-grc-lat_migne1857.txt",
+    "lines": "113085-113086",
+    "language": "Greek"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-18_batch-5/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "barsauma-of-nisibis",
+   "quote": "out of ill will and human passion",
+   "original": {
+    "file": "cic/texts/synodicon-orientale_recueil-de-synodes-nestoriens-syr-fra_chabot1902.txt",
+    "lines": "20258",
+    "language": "French"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-18_batch-5/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "barsauma-of-nisibis",
+   "quote": "murmurs, blames, charges and testimonies",
+   "original": {
+    "file": "cic/texts/synodicon-orientale_recueil-de-synodes-nestoriens-syr-fra_chabot1902.txt",
+    "lines": "35256-35257",
+    "language": "French"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-18_batch-5/Second_Readings.md",
+    "verdict": "minor"
+   }
+  },
+  {
+   "id": "barsauma-of-nisibis",
+   "quote": "tossed like a stormy sea",
+   "original": {
+    "file": "cic/texts/synodicon-orientale_recueil-de-synodes-nestoriens-syr-fra_chabot1902.txt",
+    "lines": "35479-35483",
+    "language": "French"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-18_batch-5/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "barsauma-of-nisibis",
+   "quote": "like the doctor who amputates",
+   "original": {
+    "file": "cic/texts/synodicon-orientale_recueil-de-synodes-nestoriens-syr-fra_chabot1902.txt",
+    "lines": "35509-35510",
+    "language": "French"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-18_batch-5/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "barsauma-of-nisibis",
+   "quote": "but only on this point",
+   "original": {
+    "file": "cic/texts/synodicon-orientale_recueil-de-synodes-nestoriens-syr-fra_chabot1902.txt",
+    "lines": "20484",
+    "language": "French"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-18_batch-5/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "barsauma-of-nisibis",
+   "quote": "the divine assembly",
+   "original": {
+    "file": "cic/texts/synodicon-orientale_recueil-de-synodes-nestoriens-syr-fra_chabot1902.txt",
+    "lines": "31682",
+    "language": "French"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-18_batch-5/Second_Readings.md",
     "verdict": "same"
    }
   }

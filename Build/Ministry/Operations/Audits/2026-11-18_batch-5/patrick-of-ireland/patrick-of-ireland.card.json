@@ -135,7 +135,8 @@
       "lines": "1678-1680",
       "original": "Ego Patricius, peccator rusticissimus et minimus omnium fidelium et contemptibilis sum apud plurimos",
       "originalFile": "cic/texts/stokes_tripartite-life-of-patrick-v2-lat-muirchu-tirechan-confession_1887.txt",
-      "originalLines": "5944-5946"
+      "originalLines": "5944-5946",
+      "secondReading": "same"
     },
     {
       "modern": "We beg you, holy boy, come and walk among us once more.",
@@ -146,7 +147,8 @@
       "original": "Rogamus te, sancte puer, ut uenias et adhuc ambulas inter nos.",
       "originalFile": "cic/texts/patrick_libri-sancti-patricii-lat_white1918.txt",
       "originalLines": "669-670",
-      "uncertain": "Latin puer is boy or youth (White: youth). Adhuc is once more or hither; White chooses once more and says it matters little."
+      "uncertain": "Latin puer is boy or youth (White: youth). Adhuc is once more or hither; White chooses once more and says it matters little.",
+      "secondReading": "same"
     },
     {
       "modern": "By birth I was a free man, and my father was a town councillor. I sold my noble rank for the good of others, and I am not ashamed or sorry. In short, I am a slave in Christ to a foreign people.",
@@ -157,7 +159,8 @@
       "original": "Ingenuus fui secundum carnem, decorione patre nascor: uendidi enim nobilitatem meam (non erubesco neque me penitet) pro utilitate aliorum: denique seruus sum in Christo [traditus] genti extere",
       "originalFile": "cic/texts/stokes_tripartite-life-of-patrick-v2-lat-muirchu-tirechan-confession_1887.txt",
       "originalLines": "7370-7375",
-      "uncertain": "Stokes inserts traditus, handed over, in brackets after in Christo; the rendering leaves it out as an editor's word."
+      "uncertain": "Stokes inserts traditus, handed over, in brackets after in Christo; the rendering leaves it out as an editor's word.",
+      "secondReading": "minor"
     }
   ]
 }

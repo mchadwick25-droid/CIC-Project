@@ -172,14 +172,16 @@
       "work": "Augustine, Confessions VIII.12.29, Latin, ed. Knoll, CSEL 33",
       "file": "cic/texts/augustine_confessiones-lat_knoll-csel33.txt",
       "lines": "13463-13465",
-      "uncertain": "Knoll prints diuina (divine) from one manuscript, S; the apparatus at line 13486 gives uicina (neighboring) for all the others and earlier editors. The rendering follows uicina, as Pilkington's English does."
+      "uncertain": "Knoll prints diuina (divine) from one manuscript, S; the apparatus at line 13486 gives uicina (neighboring) for all the others and earlier editors. The rendering follows uicina, as Pilkington's English does.",
+      "secondReading": "same"
     },
     {
       "modern": "In answering this question, I worked hard for the free choice of the human will. But God's grace won. I could only come to see that the apostle spoke the plainest truth: 'Who sets you apart? What do you have that you did not receive?'",
       "printed": "in cuius quaestionis solutione laboratum est quidem pro libero arbitrio uoluntatis humanae, sed uicit dei gratia, nec nisi ad illud potuit perueniri, ut liquidissima ueritate dixisse intellegatur apostolus: quis enim te discernit? quid autem habes, quod non accepisti?",
       "work": "Augustine, Retractations II.1, Latin, ed. Knoll, CSEL 36",
       "file": "cic/texts/augustine_retractationes-lat_knoll-csel36.txt",
-      "lines": "9059-9066"
+      "lines": "9059-9066",
+      "secondReading": "same"
     }
   ]
 }

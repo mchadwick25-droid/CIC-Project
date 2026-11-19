@@ -166,14 +166,16 @@
       "printed": "Ici aussi, de même, nous disons que le Christ a été crucifié, que le Christ est mort et est ressuscité, mais nous ne disons pas que Dieu a été crucifié et est mort.",
       "work": "Babai, Book of the Union, f. 122 B, in J. Labourt's French from an unpublished manuscript, Le christianisme dans l'empire perse",
       "file": "cic/texts/labourt_le-christianisme-dans-l-empire-perse-sassanide-fra_1904.txt",
-      "lines": "15887-15890"
+      "lines": "15887-15890",
+      "secondReading": "same"
     },
     {
       "modern": "If I had known you were with me, I would have taken on this great work with all care. But now go in peace, and pray for me.",
       "printed": "If I had known that thou wast with me, I would, with all care, have accepted this great work; but now depart in peace, and pray for me;",
       "work": "Thomas of Marga, Book of Governors I.35, tr. E. A. Wallis Budge",
       "file": "cic/texts/thomas-of-marga_book-of-governors-v2-english_budge1893.txt",
-      "lines": "5185-5188"
+      "lines": "5185-5188",
+      "secondReading": "same"
     }
   ]
 }

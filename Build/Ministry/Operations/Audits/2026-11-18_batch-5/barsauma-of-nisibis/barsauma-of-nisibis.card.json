@@ -129,21 +129,24 @@
       "printed": "par mauvaise volonté et par passion humaine",
       "work": "Synodicon orientale, the compiler's note on the synod of Beth Lapat, tr. J.-B. Chabot",
       "file": "cic/texts/synodicon-orientale_recueil-de-synodes-nestoriens-syr-fra_chabot1902.txt",
-      "lines": "20258"
+      "lines": "20258",
+      "secondReading": "same"
     },
     {
       "modern": "Satan stirred up a quarrel",
       "printed": "Satan a suscité une querelle entre moi et Mar Baboui",
       "work": "Synodicon orientale, Barsauma's third letter, tr. Chabot",
       "file": "cic/texts/synodicon-orientale_recueil-de-synodes-nestoriens-syr-fra_chabot1902.txt",
-      "lines": "35397-35398"
+      "lines": "35397-35398",
+      "secondReading": "same"
     },
     {
       "modern": "murmurs, blames, charges and testimonies,",
       "printed": "des murmures, des blâmes, des chefs d'accusation et des témoignages",
       "work": "Synodicon orientale, Barsauma's first letter, tr. Chabot",
       "file": "cic/texts/synodicon-orientale_recueil-de-synodes-nestoriens-syr-fra_chabot1902.txt",
-      "lines": "35256-35257"
+      "lines": "35256-35257",
+      "secondReading": "minor"
     },
     {
       "modern": "concubine,",
@@ -151,35 +154,40 @@
       "work": "Bar Hebraeus, Ecclesiastical Chronicle III, tr. Abbeloos and Lamy",
       "file": "cic/texts/barhebraeus_chronicon-ecclesiasticum-vol3-lat_abbeloos-lamy1877.txt",
       "lines": "3758-3762",
-      "uncertain": "Bar Hebraeus uses the word for the women he says bishops were allowed to keep, and says Barsauma kept such a woman (hujusmodi) in his cell and called her his lawful wife."
+      "uncertain": "Bar Hebraeus uses the word for the women he says bishops were allowed to keep, and says Barsauma kept such a woman (hujusmodi) in his cell and called her his lawful wife.",
+      "secondReading": "same"
     },
     {
       "modern": "Now Nisibis is shaken, troubled and tossed like a stormy sea. If you, Father, do not quickly send a letter of excommunication to calm the city, I will not stay on as bishop of Nisibis. And Nisibis itself will not stay under the great empire of the Persians.",
       "printed": "Maintenant, Nisibe est agitée, troublée et ballottée comme une mer tumultueuse, et si une lettre d'excommunication n'est pas envoyée promptement par Votre Paternité et ne pacifie pas la ville, Je ne resterai point dans l'épiscopat de Nisibe; Nisibe elle-même ne restera pas soumise au grand empire des Perses.",
       "work": "Synodicon orientale, Barsauma's third letter, tr. Chabot",
       "file": "cic/texts/synodicon-orientale_recueil-de-synodes-nestoriens-syr-fra_chabot1902.txt",
-      "lines": "35479-35483"
+      "lines": "35479-35483",
+      "secondReading": "same"
     },
     {
       "modern": "like the doctor who amputates,",
       "printed": "comme le médecin qui ampute un malade",
       "work": "Synodicon orientale, Barsauma's third letter, tr. Chabot",
       "file": "cic/texts/synodicon-orientale_recueil-de-synodes-nestoriens-syr-fra_chabot1902.txt",
-      "lines": "35509-35510"
+      "lines": "35509-35510",
+      "secondReading": "same"
     },
     {
       "modern": "but only on this point.",
       "printed": "mais seulement sur ce point",
       "work": "Synodicon orientale, the synod of 497, tr. Chabot",
       "file": "cic/texts/synodicon-orientale_recueil-de-synodes-nestoriens-syr-fra_chabot1902.txt",
-      "lines": "20484"
+      "lines": "20484",
+      "secondReading": "same"
     },
     {
       "modern": "the divine assembly,",
       "printed": "la divine assemblée",
       "work": "Synodicon orientale, the synod of 605, tr. Chabot",
       "file": "cic/texts/synodicon-orientale_recueil-de-synodes-nestoriens-syr-fra_chabot1902.txt",
-      "lines": "31682"
+      "lines": "31682",
+      "secondReading": "same"
     },
     {
       "modern": "my lord,",
@@ -187,7 +195,8 @@
       "work": "Synodicon orientale, the synod of 605, tr. Chabot",
       "file": "cic/texts/synodicon-orientale_recueil-de-synodes-nestoriens-syr-fra_chabot1902.txt",
       "lines": "31684",
-      "uncertain": "The synod gives only the Syriac title Mar. The brief's gloss, my lord, is not a rendering of any word in these lines, and no held text translates it."
+      "uncertain": "The synod gives only the Syriac title Mar. The brief's gloss, my lord, is not a rendering of any word in these lines, and no held text translates it.",
+      "secondReading": "minor"
     },
     {
       "modern": "the blessed Mar Barsauma.",
@@ -195,7 +204,8 @@
       "work": "Synodicon orientale, the synod of 605, tr. Chabot",
       "file": "cic/texts/synodicon-orientale_recueil-de-synodes-nestoriens-syr-fra_chabot1902.txt",
       "lines": "31684-31685",
-      "uncertain": "The synod writes the name as Bar Çauma; the brief uses the spelling Barsauma."
+      "uncertain": "The synod writes the name as Bar Çauma; the brief uses the spelling Barsauma.",
+      "secondReading": "same"
     }
   ]
 }
