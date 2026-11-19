@@ -4708,3 +4708,12 @@ Each keeps its approved essence. One independent check follows, then the census,
 3. Origen and Methodius of Olympus are reviewed in batch 7, which is thirteen again. They are re-recorded only if a fix changes their text.
 4. The other six (Constantine, Ephrem, Gregory of Nazianzus, Gregory of Nyssa and John Chrysostom in era 2; Gregory of Tours in era 3) are reviewed in their eras' batches.
 5. The end-of-era consistency read (Open-Gaps 332) still follows once eras 1 and 2 are done.
+
+## 2026-11-19 — Batch 6 hearts approved; Josephus told with what is held (Mark)
+
+**Why.** The twelve hearts went to Mark on one page (https://claude.ai/artifact/22bCrnfueurRHPzrhZpPiq; `Build/Ministry/Operations/Audits/2026-11-19_batch-6/Hearts.md`), with three job lines the sources corrected (Hermas was sold, not "a freed slave"; Valentinus "hoped to become a bishop", with no city named; Tatian's Diatessaron was the gospel most Syriac-speaking churches heard read, not "the one gospel"), and one question: the Library holds no scholarship after 1890 on Josephus's passage on Jesus.
+
+**Decided (Mark, 2026-11-19: "Approve as recommend").**
+1. The twelve hearts are approved as shown, with the three corrected job lines.
+2. Josephus is told with what is held: the old witnesses and the views as McGiffert set them out in 1890, each credited and marked Contested, with no claim of a current verdict. The card notes that modern work is not yet in the Library, and the Library thread adds a modern study of the passage to its wants.
+3. The outline checks begin.
