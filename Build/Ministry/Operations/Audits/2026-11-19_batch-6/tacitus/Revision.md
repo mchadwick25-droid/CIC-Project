@@ -37,4 +37,4 @@ Complete at word 88, "Pilate" (paragraph 2, end of the B1 sentence).
 
 ## Length
 
-526 words by the scorer, about 3 minutes 30 at 150 a minute: about 5 seconds past the review's "about 3 minutes 25 (about 510 words with B1–B3)", from the four MINOR splits and the credit in M2.
+526 words by the scorer, about 3 minutes 30 at 150 a minute: close to the review's "about 3 minutes 25 (about 510 words with B1–B3)". The difference is M1 and M2 (four words) and the review's rounding; nothing was added beyond the findings.

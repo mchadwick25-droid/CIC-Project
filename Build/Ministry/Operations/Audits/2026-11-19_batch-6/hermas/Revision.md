@@ -38,7 +38,7 @@ Every changed sentence uses the review's own wording. None is the reviser's own.
 
 ## The essence
 
-Complete at word 160, "others", at the end of "quoted as Scripture by some and shut out by others." The review expected about word 152 after M1; the gloss M2 and M3 bring to first hearing adds the difference. At 150 words a minute that is about 1:04, within the first minute in the listening.
+Complete at word 160, "others", at the end of "quoted as Scripture by some and shut out by others." The review expected about word 152 after M1; the gloss M2 and M3 bring to first hearing adds the difference. At 150 words a minute that is about 1:04, a few seconds past the first minute. The cost is the first-hearing gloss of "the Church", which the kit requires, so nothing was cut to pull it back.
 
 ## Length
 
