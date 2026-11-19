@@ -4740,3 +4740,4 @@ Each keeps its approved essence. One independent check follows, then the census,
 ## 2026-11-19 — Batch 6: the recording approved, with a cap (Mark)
 
 **Decided (Mark, 2026-11-19: "Approve, cap 22,500 (Recommended)").** The thirteen batch 6 stories (the twelve and Polycarp), about 42,000 characters, are recorded on batch 5's printed settings: person voice `onegjDE2z0mQtp1g0HK7`, model `eleven_v4`, `mp3_44100_64`, stability 0.95, similarity 0.68, style 0, speaker boost on, `[pause]` between paragraphs, the seven respellings. Tacitus is recorded first for Mark's ear; the balance is checked before and after; the run stops at 22,500 credits.
+Mark heard the Tacitus sample (3:29, 1,506 credits) and approved the rest: "approved and go live" (2026-11-19).
