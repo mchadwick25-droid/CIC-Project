@@ -88,3 +88,6 @@ The remaining entries are each tied to a sentence of the brief: [2] decree and b
 - **The sheet's line corrections are right.** The banishment sentence is at CUR 26647-26648, and Q3 is at W4 11958-11961.
 - **Spot-checked and right:** Rühel and Jacobs (W4 12296-12304), Aleander (KD 5781-5786), the archbishop of Mainz (KD 6152-6160), Contarini (KD 6148-6150), the Hutterite chronicle (HUT 5345-5349), Charles V (RTA 39105-39125), Spangenberg (HY 556-562), the Formula of Concord (BC 25517-25520), the marriage date (CUR 9752-9753).
 - **Nothing contradicts the entry's existing fields.**
+
+## Applied to the brief (coordinator, 2026-11-19)
+- Fix 4's point for the brief: the Worms quote's silent cut is now marked with an ellipsis: "…or by clear reason … I cannot and will not take back anything." Nothing else changed; the card's quote entry (with Fix 4's note) and its second reading must carry the ellipsis.
