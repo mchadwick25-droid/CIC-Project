@@ -116,6 +116,7 @@ Searched and clear, 2026-11-19: none of the three quotes, and none of the short 
 - Not "a new and mischievous superstition" (Tacitus's live wording is "a most mischievous superstition"). Use Q2's rendering.
 - Not "witchcraft" or "magic" as Suetonius's meaning; that is the 1909 editors' gloss on *malefica* (E4).
 - Keep the force: his contempt ("harmful superstition") and his approval of the punishment (E3, E5). Do not soften.
+- Not the Nero line named without its content in the essence. Say in the first minute that under Nero the Christians were punished (E3).
 - Any word in "Words to explain" used without its plain sense the first time it is heard, "Chrestus", "Chrestianus" and "superstition" among them.
 
 **Leave out**
