@@ -415,6 +415,147 @@
    "scan": "ἐπιδαλλέτω",
    "reads": "ἐπιβαλλέτω",
    "kind": "OCR misread (δ for β)"
+  },
+  {
+   "file": "cic/texts/apologists-fragmentary_reliquiae-sacrae-vol1-lat-grc_routh1846.txt",
+   "lines": "22082",
+   "scan": "sed publieari)",
+   "reads": "sed publicari)",
+   "kind": "OCR misread (e for c)"
+  },
+  {
+   "file": "cic/texts/tertullian_quae-supersunt-t1-apologetica-lat_oehler1853.txt",
+   "lines": "74597",
+   "scan": "moecbomm",
+   "reads": "moechorum",
+   "kind": "OCR misread"
+  },
+  {
+   "file": "cic/texts/liber-pontificalis_texte-introduction-commentaire-t1-lat-fra_duchesne1886.txt",
+   "lines": "109160",
+   "scan": "scismk",
+   "reads": "scisma",
+   "kind": "OCR misread"
+  },
+  {
+   "file": "cic/texts/liber-pontificalis_texte-introduction-commentaire-t1-lat-fra_duchesne1886.txt",
+   "lines": "109160",
+   "scan": "XOvali",
+   "reads": "Novati",
+   "kind": "OCR misread"
+  },
+  {
+   "file": "cic/texts/josephus_works-antiquities-wars-life_whiston1859.txt",
+   "lines": "81406",
+   "scan": "hima",
+   "reads": "him a",
+   "kind": "OCR misread (two words run together)"
+  },
+  {
+   "file": "cic/texts/mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt",
+   "lines": "2777",
+   "scan": "minatus ;  15",
+   "reads": "minatus ;",
+   "kind": "margin line number run into the line"
+  },
+  {
+   "file": "cic/texts/mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt",
+   "lines": "2814",
+   "scan": "Das  altrömische  Taufbekenntnis.",
+   "drop": true,
+   "kind": "running head and page number",
+   "lines_held": [
+    "6  Das  altrömische  Taufbekenntnis.  —  Das  Jüngere  „apostolische\"  Symbol."
+   ]
+  },
+  {
+   "file": "cic/texts/mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt",
+   "lines": "2816",
+   "scan": "argiiantur",
+   "reads": "arguantur",
+   "kind": "OCR misread"
+  },
+  {
+   "file": "cic/texts/tertullian_quae-supersunt-t1-apologetica-lat_oehler1853.txt",
+   "lines": "11728",
+   "scan": "0  sententiam",
+   "reads": "O  sententiam",
+   "kind": "OCR misread"
+  },
+  {
+   "file": "cic/texts/suetonius_lives-of-the-caesars-loeb_rolfe1914.txt",
+   "lines": "28523",
+   "scan": "inflicted a",
+   "reads": "inflicted on",
+   "kind": "OCR misread"
+  },
+  {
+   "file": "cic/texts/tatian_oratio-ad-graecos-grc-lat_otto1851.txt",
+   "lines": "12199",
+   "scan": "τῇ Ρωμαίων μεγαλαυχία καὶ τῇ Adıwalov",
+   "reads": "τῇ Ῥωμαίων μεγαλαυχίᾳ καὶ τῇ Ἀθηναίων",
+   "kind": "OCR misread; the same edition prints the clause cleanly in its note, lines 1686-1688"
+  },
+  {
+   "file": "cic/texts/tatian_oratio-ad-graecos-grc-lat_otto1851.txt",
+   "lines": "12200",
+   "scan": "τῆς δκαϑ᾽ ἡμᾶς",
+   "reads": "τῆς καϑ᾽ ἡμᾶς",
+   "kind": "OCR ran a stray letter into the word; the same edition's note reads καϑ᾽ ἡμᾶς, line 1688"
+  },
+  {
+   "file": "cic/texts/tatian_oratio-ad-graecos-grc-lat_otto1851.txt",
+   "lines": "14239",
+   "scan": "τίς Δ ἡ",
+   "reads": "τίς ἡ",
+   "kind": "OCR set the edition's margin letter into the line"
+  },
+  {
+   "file": "cic/texts/tatian_oratio-ad-graecos-grc-lat_otto1851.txt",
+   "lines": "14241",
+   "scan": "δ τῆς",
+   "reads": "τῆς",
+   "kind": "OCR set the edition's margin letter into the line"
+  },
+  {
+   "file": "cic/texts/tertullian_opera-pars3-lat_kroymann-csel47.txt",
+   "lines": "9633",
+   "scan": "episco-  25",
+   "reads": "episco-",
+   "kind": "line number run into the line"
+  },
+  {
+   "file": "cic/texts/tertullian_opera-pars3-lat_kroymann-csel47.txt",
+   "lines": "9634",
+   "scan": "Yalentinus",
+   "reads": "Valentinus",
+   "kind": "OCR misread"
+  },
+  {
+   "file": "cic/texts/tertullian_opera-pars3-lat_kroymann-csel47.txt",
+   "lines": "9635-9651",
+   "scan": "11]  cf.  I  Tini.  1,  4.",
+   "drop": true,
+   "kind": "footnotes, apparatus, running head and page number",
+   "lines_held": [
+    "11]  cf.  I  Tini.  1,  4.",
+    "1  putant  F  2  ad  aliam  fort.  4  fidem  om.  P  (add.  E  in  mg.  ex",
+    "Hirsaugiensi)  ostendere  F  6  <(recor)>dabitur  se  Eng:  dabitur  te",
+    "FMF  7  aliqua  scripsi:  alia  PMF  8  fidei  PM,  filii  F  9  genimina",
+    "M  {syll.  ni  s.  u.  a  m.  ])  NGR^,  gemina  PFB^       14  neque  PM,  nec  F",
+    "16  utique   astute  scil.  non   omnes  perdocent  (-=  sie  lehren  vollstdndig)",
+    "17  omnia  (ia  ex  es  M)  scimus  MFGR^,  ornnes  sumus  PB^  18  armabimus",
+    "f.cripsi:  armauimus  PMF  20  auspicamus  (s  in  r)  M  22  nouissimus",
+    "F      originem  optime  M      25  sperauerat  R,  separauerat  P  (corr.  R)  MF",
+    "IIII.  Aduersus  Valentinianos  3—4.  •     181"
+   ]
+  },
+  {
+   "file": "cic/texts/tertullian_opera-pars3-lat_kroymann-csel47.txt",
+   "lines": "9652",
+   "scan": "aliura",
+   "reads": "alium",
+   "kind": "OCR misread"
   }
  ]
 }

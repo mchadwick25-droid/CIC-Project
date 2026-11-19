@@ -19,3 +19,7 @@ The sandbox blocks the patristic text hosts outright, regardless of real scarcit
 ## Keep sessions fresh
 
 The research thread runs long and accumulates enormous context; multi-day sessions have run past a billion cached tokens. Split its work into fresh sessions per batch, one era or region at a time. An ever-larger context makes every later turn more expensive, however good the research is.
+
+## Rewrite every note from the text
+
+A searcher's notes on a file are a draft only: its divisions, editorial matter, other voices, line numbers and dates. Before the batch's pull request, a fresh checker who did not do the search rewrites every file header and corpus-map row from the vendored file itself. Nothing comes from outside knowledge, and every line number is opened and confirmed in the file. Era 9's first Library batch (2026-11-15) found searcher notes that carried outside facts and wrong line numbers; this step caught them. Mark made it standing practice on 2026-11-18.

@@ -13,6 +13,24 @@ States: **filled** (vendored and shelved) · **held already** (in the Library un
 **located** (found and rights clear, not vendored) · **none survives** (no own text exists, so no
 search can fill it) · **not found** (searched; where is said) · **queued** (a later batch).
 
+## Tally of vendoring batches, from 2026-11-15
+
+One line per batch that vendored texts. Each batch's own section below holds its rows and cautions; its Open-Gaps entry holds what it left owed.
+
+| date | batch | texts | pull request | Open-Gaps |
+|---|---|---|---|---|
+| 2026-11-15 | Eras 4-5, third fill | 7 | #1686 | 286 |
+| 2026-11-15 | Era 9, batch 1 (the major person rows) | 99 | #1687 | 287 |
+| 2026-11-15 | Era 10, batch 1 | 94 | #1689 | 290 |
+| 2026-11-15 | Era 8, batch 1 (the global files) | 30 | #1690 | 291 |
+| 2026-11-15 | Era 9, batch 2b (Britain, Europe, North America) | 61 | #1693 | 293 |
+| 2026-11-15 | Era 10, batch 2 (Africa, Oceania, the Orthodox and Oriental churches) | 71 | #1695 | 295 |
+| 2026-11-15 | Era 9, batch 2a (Africa, Asia, Oceania, Latin America, the Caribbean, the Eastern churches) | 71 | #1697 | 294 |
+| 2026-11-15 | Era 8, batch 2 (British Isles and Methodists, North America, Catholic Europe) | 37 | #1698 | 298 |
+| 2026-11-16 | Era 9, the located volumes | 27 | #1699 | 299 |
+| 2026-11-16 | Era 10, batch 2b, the periodicals | 45 | #1704 | 300 |
+| | **Total** | **542** | | |
+
 ## Batch 1 — the later-worlds people gate (Open-Gaps 164, 2026-11-10)
 
 Source: `Build/Ministry/Operations/Audits/2026-11-10_later-worlds-people/final_rows.json`. Each held

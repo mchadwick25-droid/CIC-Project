@@ -4685,3 +4685,112 @@ Each keeps its approved essence. One independent check follows, then the census,
 2. **A reader re-assessing their faith** is the sixth persona of the drift read (Mark: "re-assesing faith"). It is a drift check, like the others, not a request for changes.
 3. **Then record and go live** (Mark: "after go ahead and record the rest and go live"). Recording follows the paid-run rules: one item first, settings printed, the balance checked after. Promotion follows `Build/Ministry/Operations/Standing/CiC_Promotion_Runbook.md`.
 4. **Narsai added to Barsauma** (Mark: "yes add narsai to barsaumas story"). The rework review's MINOR 2 is applied word for word, so it needs no further check: "At Nisibis he welcomed the teacher Narsai and asked him to found a school, which counts them both as its founders." Barsauma is re-recorded within the same cap.
+
+## 2026-11-18 — The Who list says who each person was; the Origin river is renamed
+
+**Why.** Mark: clicking a Who figure gave "a menu … with names but not clear understanding who they are". The list showed names and dates only. Its heading, "Who: Origin, era 1", used the builder's name for the trunk river and an era number.
+
+**Decided (Mark, 2026-11-18).**
+- The list stays on the left and the person card on the right, so both are seen together ("seeing them together … makes more sense"; "Keep today's sides").
+- Each row shows the person's role line from their card, under the name ("Tacitus · Roman historian"). The tradition panel's Who list shows it too. The 27 people with no card yet show name and dates only. They fill in when the Who profile rewrite gives them cards; no role line is written for them here.
+- The heading reads "People of …" ("A"), with the era's own one-line description under it ("and a brief description"), then the era title, the count and the dates. A tradition's list reads "People of" its name.
+- The Origin river is renamed "The First Churches" everywhere ("B"). Each river carries the phrase its Who heading uses (`of` in the river list): a region reads "the Greek East", a bridge river "the Greek and Latin river", Across families "many families". The census validator's council river name changes to match; no council names the river yet.
+
+## 2026-11-18 — A click on the empty map closes the card; the brief keeps playing
+
+**Why.** Mark: a card "stays open until the x is clicked … should we also close it if the user clicks on the map to go back to it".
+
+**Decided (Mark, 2026-11-18).**
+- A plain click on empty map closes the card. A drag to move the map never does. A click on a place, person, story, council or connection still opens that card in its place. The Who list stays open.
+- A recorded brief starts by itself and runs two to four minutes, so the first rule ("the card stays open while the brief plays") would have made the click do nothing on most recorded cards. Mark chose instead: the card closes and the brief keeps playing ("Close, keep listening"). A small bar at the bottom shows "Listening:" and the card's name, with Pause or Play, "Open the card", and a close button that stops the brief. Opening the card again brings it back as it was, with the brief still playing. Opening a different card stops the old brief and hides the bar. The × on a card still closes it and stops the brief.
+
+## 2026-11-18 — Two first-visit tours: Getting started and Connections
+
+**Why.** Mark asked for "a click demonstration for those new to the site" to show its features. A research pass on comparable sites (history timelines and maps, data tools, Nielsen Norman Group and Material guidance) found that short tours that people choose are the ones they finish, and that a tour on a map works best when it shows the real move. The research page and the approved plan were reviewed as artifacts in the session.
+
+**Decided (Mark, 2026-11-18).**
+- Offered on the first visit, never forced ("Offered on first visit"). Not offered on a shared link to one tradition.
+- Each step highlights one thing, says it in one or two sentences, then does the real click; the visitor steps with Back, Next and Stop ("Shows each click, you step").
+- Getting started has five steps: the map, a tradition (Scattered Households), who was there (People of the First Churches, then Josephus), the era (the Early Church Era card), and the bar and Key ("ok for an initial intro").
+- A second tour of three steps for connections ("can we add a second one for when they open the connections"): what a line means, how sure the record is, and reading one. It is offered the first time connections are turned on, from the menu or from a card ("First use, either way in").
+- The captions and behaviours in the plan were approved as written ("they look right"): the brief never starts by itself during a tour; Stop, Escape or Done returns the map to the visitor's view; each offer is shown once, remembered in the visitor's browser; both tours can be taken again from "Take a tour" in the Key and in the phone Menu.
+
+## 2026-11-19 — The Family Tree stays a website for now; an app is looked at later
+
+**Why.** Mark asked what turning the Church Family Tree into an app would involve. Three routes were laid out: an installable web app (an app manifest, icons and offline use, on the same site and release process); the same site inside a store app (Apple and Google listings, store review on every release, a Mac to build the iPhone version, and the map's data moved out of the page so content can update without a store release); and a native rebuild (ruled out as rebuilding what already works).
+
+**Decided (Mark, 2026-11-19: "I think we stay web site for now and then look later at this").** No app work now. The question is tracked in Open-Gaps. When it is taken up again, the deciding question is what an app should do that the site does not: be found in the app stores, play briefs offline and with the screen locked, or sit on a home screen. Moving the map's data out of `index.html` into its own file is the first step any app route would need.
+
+## 2026-11-19 — Review checkmarks for rewritten Who profiles, seen only with a review link
+
+**Why.** Mark: "can we temperarily put a small green checkmark next to the updated who files so we can track what has been done and not on the live site".
+
+**Decided (Mark, 2026-11-19: "Live site, with a review link").** Opening the site with `?review` (for example `https://www.churchfamilytree.com/?review`) shows a small green check after the name of each person whose Who profile has been rewritten. It appears in the Who list, a tradition's Who list, the era card's major people and the person card's title. Visitors without the link see nothing. A rewritten profile is one whose card carries `briefReferences`, the field the batch kit adds; on 2026-11-19 that is 40 people, batches 1 to 5. The checks come out when the rewrite is done (Open-Gaps, "Review checkmarks for rewritten Who profiles: remove when the rewrite is done").
+
+## 2026-11-19 — Batch 6: era 1 first, the slate, an outside-witness shape, and the stories approved before the kit (Mark)
+
+**Why.** Mark (2026-11-19): "Launch batch 6 in new thread with updated kit. Let's focus in finishing era one then two." This replaces the plan that batch 6 would be the ten older recordings; those are reached era by era. The slate, each story's job and the kit questions went to Mark on one page (https://claude.ai/artifact/4cgx8VUgM7piGeR4bkYrSy, version 5). Mark also said Polycarp was already done ("We have already done polycarp"), and ruled that the stories approved before the kit are read for consistency once eras 1 and 2 are finished (Open-Gaps 332).
+
+**Decided (Mark, 2026-11-19: "Aprove as recomended").**
+1. **The split of era 1.** Batch 6 (twelve): Pliny the Younger, Tacitus, Suetonius, Josephus; Ignatius of Antioch, Irenaeus of Lyon, Polycrates of Ephesus; Hermas, Valentinus, Tatian, Bardaisan of Edessa, Hippolytus of Rome. Batch 7: Tertullian, Cyprian, Pontius the Deacon, Novatian, the councils of 251, Pamphilus, Eusebius of Caesarea, Dionysius of Alexandria, Peter of Alexandria, Anatolius and Lactantius.
+2. **Each batch 6 story's job, its siblings and the quote allocation**, as on the page and in `Build/Ministry/Operations/Audits/2026-11-19_batch-6/README.md`. Every quote in the approved Polycarp story and the live Marcion and Justin stories is barred from batch 6.
+3. **A sixth shape, "Outside witness"**, added to Part 2 of the kit, for Pliny, Tacitus, Suetonius and Josephus.
+4. **Two batch 5 findings carried into the kit.** Part 3 gains a "Words to explain" field (batch 5's list, made standing), with common words such as bishop, deacon, Scripture, gospel and church named as needing no gloss. Part 1's opening line now says a held-back name reveal is not a stock hinge.
+5. **The stories approved before the kit.** Origen and Methodius of Olympus, live and recorded at Standard v1 since data release 48, stay as they are until the consistency check, so batch 7 is eleven. Polycarp's approved text (`Audits/2026-11-16_polycarp-clean-write/Polycarp_approved.brief.txt`) goes live with batch 6 word for word, not reopened, with a new card built from its source sheet and checked, and is recorded with the batch.
+
+**Scope.** Per the kit's own rule, these kit changes govern batch 6 on and reopen no finished story.
+
+## 2026-11-19 — Change order: the stories approved before the kit go through review in their era's batch (Mark)
+
+**Why.** Batch 6's item 5 above released Polycarp's approved text word for word and left Origen and Methodius as they were until the consistency check at the end of era 2 (Open-Gaps 332). Mark: "Go ahead and include polycarp and others in the review process". Asked which others, he chose all of them ("All pre-kit stories").
+
+**Decided (Mark, 2026-11-19).** This replaces item 5 of the batch 6 entry above.
+1. Every story approved before the kit goes through the kit's review in the batch for its own era, beside its siblings: the overlap and variety checks, the one-hearing review and the source check, then one revision and one recheck where it fails. Approved wording is kept wherever it passes; a fix touches only what fails.
+2. Polycarp of Smyrna is reviewed in batch 6, with the new card already drafted, and recorded with the batch.
+3. Origen and Methodius of Olympus are reviewed in batch 7, which is thirteen again. They are re-recorded only if a fix changes their text.
+4. The other six (Constantine, Ephrem, Gregory of Nazianzus, Gregory of Nyssa and John Chrysostom in era 2; Gregory of Tours in era 3) are reviewed in their eras' batches.
+5. The end-of-era consistency read (Open-Gaps 332) still follows once eras 1 and 2 are done.
+
+## 2026-11-19 — Batch 6 hearts approved; Josephus told with what is held (Mark)
+
+**Why.** The twelve hearts went to Mark on one page (https://claude.ai/artifact/22bCrnfueurRHPzrhZpPiq; `Build/Ministry/Operations/Audits/2026-11-19_batch-6/Hearts.md`), with three job lines the sources corrected (Hermas was sold, not "a freed slave"; Valentinus "hoped to become a bishop", with no city named; Tatian's Diatessaron was the gospel most Syriac-speaking churches heard read, not "the one gospel"), and one question: the Library holds no scholarship after 1890 on Josephus's passage on Jesus.
+
+**Decided (Mark, 2026-11-19: "Approve as recommend").**
+1. The twelve hearts are approved as shown, with the three corrected job lines.
+2. Josephus is told with what is held: the old witnesses and the views as McGiffert set them out in 1890, each credited and marked Contested, with no claim of a current verdict. The card notes that modern work is not yet in the Library, and the Library thread adds a modern study of the passage to its wants.
+3. The outline checks begin.
+
+## 2026-11-19 — Batch 6: Irenaeus's length (Mark)
+
+**Why.** After the outline check and recheck, Irenaeus's beats would set to about six minutes of story, against the about 3:20 shown with his approved heart. A cut to about 3:40 would lose about two-fifths (`Build/Ministry/Operations/Audits/2026-11-19_batch-6/irenaeus-of-lyon/Recheck.md`).
+
+**Decided (Mark, 2026-11-19: "Let it take about 4:30 to 5:00").** Irenaeus runs about 4:30 to 5:00, like Augustine in batch 5. The writer tells what the outline holds at that length, never filling to reach it, and the reviewer asks of each part whether the story needs it.
+
+## 2026-11-19 — Batch 6: Bardaisan's length (Mark)
+
+**Why.** After review and its one revision, Bardaisan of Edessa runs about 4:30, against about 3:00 with his approved heart. The review found nothing the story does not need; its fixes restored Eusebius on his dialogues against Marcion's followers, the songs Ephrem answered, and how his argument passed into later books (`Build/Ministry/Operations/Audits/2026-11-19_batch-6/bardaisan-of-edessa/Review.md`, `Revision.md`).
+
+**Decided (Mark, 2026-11-19: "Let it stand at about 4:30").** The revised story stands at about 4:30.
+
+## 2026-11-19 — Batch 6: where sources disagree (Mark)
+
+**Why.** The card checks found places where a card stated one source's reading where held sources differ (for example, where the Chronicle sets Irenaeus's notice, and whether a scanned original can stand).
+
+**Decided (Mark, 2026-11-19: "ok we want it right, if two sorces say different things recognize that remember we are not pursuint perfection but high scholory acceptance").** Where two held sources say different things, the story or card says so and credits each, rather than choosing one. The bar is high scholarly acceptance, not perfection: a finding that something could be more exact, with nothing wrong or misleading, does not reopen a finished part.
+
+## 2026-11-19 — Batch 6: the recording approved, with a cap (Mark)
+
+**Decided (Mark, 2026-11-19: "Approve, cap 22,500 (Recommended)").** The thirteen batch 6 stories (the twelve and Polycarp), about 42,000 characters, are recorded on batch 5's printed settings: person voice `onegjDE2z0mQtp1g0HK7`, model `eleven_v4`, `mp3_44100_64`, stability 0.95, similarity 0.68, style 0, speaker boost on, `[pause]` between paragraphs, the seven respellings. Tacitus is recorded first for Mark's ear; the balance is checked before and after; the run stops at 22,500 credits.
+Mark heard the Tacitus sample (3:29, 1,506 credits) and approved the rest: "approved and go live" (2026-11-19).
+
+## 2026-11-19 — The kit after batch 6: length counted first, the writer's own checks, damaged scans flagged (Mark)
+
+**Why.** The batch 6 report (https://claude.ai/artifact/FR841atvSavxuXqn7Vhjad) found every draft ran 30 to 60 seconds past its outline, because outlines set the time before counting the quotes, glosses and credited views the kit requires. It also found the held-back name reveal in about half the drafts despite the kit line, seven of thirteen stories ending on a later writer, and quote originals held only in damaged scans found late, at the card step.
+
+**Decided (Mark, 2026-11-19: "make changes without loosing quality, i am more concerned with telling the story well than time, but over 4 minutes i think people start loosing interest unless its very compelling").**
+1. **Time.** Part 1 and Part 3's Length field: telling the story well comes before time; past about four minutes a listener starts to lose interest, so a person's story runs longer only when it is very compelling and its turning points need the room.
+2. **Length counted first.** Part 3's Length field counts the words the story must carry (its quotes, the plain sense of each word to explain and each witness it credits) before it sets the time.
+3. **The writer's own checks.** `roles/writer.md` carries the name-in-the-hook rule (no held-back reveal), the setting a clause at a time, and the ending on the person.
+4. **Damaged scans flagged at research.** `roles/researcher.md`: a quote whose original is held only in a damaged scan is flagged beside the quote, with any held print that confirms the reading; where none does, the card is planned to print the English alone.
+
+**Scope.** Per the kit's own rule, these govern batch 7 on and reopen no finished story.

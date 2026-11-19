@@ -1,0 +1,155 @@
+{
+ "knownFor": "A hearer of Justin Martyr who attacked Greek learning in his Address to the Greeks and wove the four Gospels into one, the Diatessaron.",
+ "datesNote": "Broke with the church about 172, by Eusebius's Chronicle",
+ "placeNote": "Born in the land of the Assyrians; at Rome; later in Mesopotamia",
+ "role": "Apologist and teacher",
+ "keyWorks": [
+  {
+   "title": "Address to the Greeks",
+   "about": "his conversion, his scorn for Greek religion and philosophy, and his claim that Moses is older than Homer"
+  },
+  {
+   "title": "Diatessaron",
+   "about": "one gospel woven from the four, long read in the Syriac-speaking churches"
+  }
+ ],
+ "legacy": {
+  "traces": [
+   "The Diatessaron. It would seem, writes Hope Hogg, who translated it from Arabic, that at an early stage it was \"very widely if not universally read in the Syriac churches.\" Ephrem the Syrian wrote a commentary on it."
+  ],
+  "remembered": [
+   "Irenaeus of Lyon, his opponent, remembers him as the first to deny that Adam was saved.",
+   "Eusebius of Caesarea and Jerome of Strido name him the founder of the Encratites.",
+   "Theodoret of Cyrrhus replaced more than two hundred copies of the Diatessaron in his diocese with the four Gospels."
+  ]
+ },
+ "uncertain": [
+  "Irenaeus says Tatian taught invisible powers like the followers of Valentinus, called marriage corruption, and denied Adam's salvation. Irenaeus writes as his opponent. Hippolytus of Rome repeats the three points, following Irenaeus closely.",
+  "Eusebius and Jerome make him the Encratites' founder. Arthur McGiffert, who translated Eusebius, notes that Irenaeus traces the group he describes to Saturninus and Marcion of Pontus, so Tatian found it already in being. McGiffert adds that the name was also used more widely, for anyone who taught extreme abstinence.",
+  "McGiffert reports that Zahn held the Diatessaron was written in Syriac and Harnack in Greek, and he thought Harnack's reasons very strong. Hope Hogg reports that a growing majority of scholars favored Syriac. Zahn and Harnack both thought it was written before Tatian broke with the church.",
+  "His life is told in two ways. McGiffert reports that Harnack had him at Rome twice, breaking with the church there about 172, and that Zahn had him at Rome once, becoming a heretic in the East. McGiffert thought Harnack's arguments \"seem fully to establish his main positions.\" Hogg says Tatian left Rome for Mesopotamia after Justin's death. McGiffert says the one trustworthy point in Epiphanius is that Tatian went back to Mesopotamia and taught there.",
+  "Eusebius says Tatian made the Diatessaron \"I know not how.\" McGiffert reads this as meaning Eusebius had not seen it. He reports that Lightfoot read it as disapproval."
+ ],
+ "sources": {
+  "ownWords": [
+   {
+    "title": "Address to the Greeks",
+    "language": "English",
+    "file": "cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml"
+   },
+   {
+    "title": "Oratio ad Graecos (Greek and Latin, ed. Otto)",
+    "language": "Greek",
+    "file": "cic/texts/tatian_oratio-ad-graecos-grc-lat_otto1851.txt"
+   },
+   {
+    "title": "The Diatessaron (from the Arabic, tr. Hope W. Hogg)",
+    "language": "English",
+    "file": "cic/texts/anf09_gospel-of-peter-diatessaron-origen-commentaries.xml"
+   }
+  ],
+  "about": [
+   {
+    "title": "Against Heresies, Book 1, chapter 28",
+    "author": "Irenaeus of Lyon",
+    "date": null,
+    "language": "English translation",
+    "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml"
+   },
+   {
+    "title": "Refutation of All Heresies, Book 8",
+    "author": "Hippolytus of Rome",
+    "date": null,
+    "language": "English translation",
+    "file": "cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
+   },
+   {
+    "title": "Church History, Book 4, chapters 28 and 29, with McGiffert's notes",
+    "author": "Eusebius of Caesarea",
+    "date": null,
+    "language": "English translation",
+    "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml"
+   },
+   {
+    "title": "Lives of Illustrious Men, 29",
+    "author": "Jerome of Strido",
+    "date": null,
+    "language": "English translation",
+    "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml"
+   },
+   {
+    "title": "Panarion 46 (Greek, ed. Karl Holl), with Holl's notes",
+    "author": "Epiphanius of Salamis",
+    "date": null,
+    "language": "Greek",
+    "file": "cic/texts/epiphanius_panarion-haer-34-64-gcs-bd2-grc_holl1922.txt"
+   },
+   {
+    "title": "Compendium of Heretical Fables I.20, as quoted in Prudentius Maran's prolegomena (Otto, Corpus Apologetarum 9)",
+    "author": "Theodoret of Cyrrhus",
+    "date": null,
+    "language": "Greek, with Maran's Latin",
+    "file": "cic/texts/apologists-fragmentary_reliquiae-corpus-apologetarum-vol9-grc-lat_otto1872.txt"
+   }
+  ]
+ },
+ "briefReferences": [
+  "Address to the Greeks 1, tr. J. E. Ryland: the arts the Greeks owe to the barbarians, astronomy to the Babylonians, geometry to the Egyptians, alphabetic writing to the Phoenicians.",
+  "Address 42: born in the land of the Assyrians and first taught in Greek learning. Irenaeus, Against Heresies I.28.1: a hearer of Justin. McGiffert's notes on Eusebius, Church History IV.29: the middle of the second century, and Justin's death about 165.",
+  "Address 29: admitted to the mysteries, the Latiarian Jupiter delighting in human blood at Rome, the search alone, and the barbarian writings he trusted for their plain language and their one God. Coxe and Ryland, the editors, take them to be the Hebrew Scriptures.",
+  "Address 19: Crescens, a philosopher at Rome, tried to have both Justin and Tatian put to death.",
+  "Address 2, 19, 32 and 33: the philosophers vain and greedy; the poor taught for free; the women who study philosophy.",
+  "Address 35: the turn, in Ryland's English and Otto's Greek of 1851.",
+  "Address 31 and 36 to 41: Moses older than Homer, shown from Greek, Chaldean and Egyptian writers.",
+  "Irenaeus, Against Heresies I.28.1: after Justin's martyrdom Tatian left the church, puffed up with being a teacher; invisible powers like the followers of Valentinus; marriage corruption, like Marcion; the first to deny that Adam was saved. The name Encratites, the self-controlled.",
+  "Eusebius's Chronicle, as McGiffert quotes it: the break about 172. Eusebius, Church History IV.28-29, and Jerome, Lives of Illustrious Men 29: the founder of the Encratites.",
+  "Epiphanius, Panarion 46.1, Greek of Karl Holl: from Rome to the East, to Mesopotamia; Holl notes that only Epiphanius gives the place.",
+  "Eusebius, Church History IV.29: the Diatessaron. The Arabic Diatessaron, tr. Hope W. Hogg: its name, the Fourfold. Hogg's introduction and McGiffert's notes: Greek or Syriac, and before or after the break, disputed.",
+  "Hogg's introduction: very widely if not universally read in the Syriac churches; Ephrem's commentary, as Isho'dad of Merv reports it.",
+  "Hogg's introduction: Rabbula, bishop of Edessa, orders the separate Gospels read in all the churches.",
+  "Theodoret of Cyrrhus, Compendium of Heretical Fables I.20, Greek as Prudentius Maran quotes it: the charge that it cut out Jesus's descent from David, its use in all innocence as a short book, and the two hundred books put away. Hogg's introduction: the charge partly conflicts with the surviving texts.",
+  "Hogg's introduction: it survives in an Arabic form and in a Latin form, the Codex Fuldensis.",
+  "Address 42: the closing stand, in Ryland's English and Otto's Greek of 1851."
+ ],
+ "quotationOriginals": [
+  {
+   "modern": "So I said goodbye to the boasting of the Romans and the lifeless talk of the Athenians, teachings that do not hang together. I made our barbarian philosophy my own.",
+   "printed": "So, bidding farewell to the arrogance of Romans and the idle talk of Athenians, and all their ill-connected opinions, I embraced our barbaric philosophy.",
+   "work": "Tatian, Address to the Greeks 35, tr. J. E. Ryland",
+   "file": "cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml",
+   "lines": "7258-7260",
+   "original": "χαίρειν εἰπὼν καὶ τῇ Ῥωμαίων μεγαλαυχίᾳ καὶ τῇ Ἀθηναίων ψυχρολογίᾳ, δόγμασιν ἀσυναρτήτοις, τῆς καϑ᾽ ἡμᾶς βαρβάρου φιλοσοφίας ἀντεποιησάμην",
+   "originalFile": "cic/texts/tatian_oratio-ad-graecos-grc-lat_otto1851.txt",
+   "originalLines": "12199-12201",
+   "secondReading": "minor"
+  },
+  {
+   "modern": "the self-controlled",
+   "printed": "Encratites (self-controlled)",
+   "work": "Irenaeus, Against Heresies I.28.1, ANF 1",
+   "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
+   "lines": "33656-33657",
+   "secondReading": "same"
+  },
+  {
+   "modern": "I myself found more than two hundred such books, held in honor in our churches. I gathered them all and put them away. In their place I brought in the Gospels of the four evangelists.",
+   "printed": "Nactus sum etiam ipse libros huiusmodi supra ducentos in honore habitos in ecclesiis nostris, quos Omnes in unum congestos seposui, et pro his quatuor evangelistarum evangelia introduxi.",
+   "work": "Theodoret of Cyrrhus, Compendium of Heretical Fables I.20, in Prudentius Maran's Latin translation of Theodoret's Greek, ed. J. C. T. Otto (1872)",
+   "file": "cic/texts/apologists-fragmentary_reliquiae-corpus-apologetarum-vol9-grc-lat_otto1872.txt",
+   "lines": "14994-14997",
+   "uncertain": "The modern English follows Theodoret's Greek, which Maran prints on the same page. That Greek is held only in a damaged scan, so Maran's Latin is given as the printed wording.",
+   "secondReading": "same"
+  },
+  {
+   "modern": "Now that I know who God is, and what he has made, I stand before you, ready to be questioned on what I teach. I hold to the way of life that follows God, and I will not deny it.",
+   "printed": "Henceforward, knowing who God is and what is His work, I present myself to you prepared for an examination concerning my doctrines, while I adhere immoveably to that mode of life which is according to God.",
+   "work": "Tatian, Address to the Greeks 42, tr. J. E. Ryland",
+   "file": "cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml",
+   "lines": "7464-7471",
+   "original": "Γινώσκων δὲ λοιπὸν τίς ὁ ϑεὸς καὶ τίς ἡ κατ᾽ αὐτὸν ποίησις, ἕτοιμον ἐμαυτὸν ὑμῖν πρὸς τὴν ἀνάκρισιν τῶν δογμάτων παρίστημι, μενούσης μοι τῆς κατὰ ϑεὸν πολιτείας ἀνεξαρνήτου.",
+   "originalFile": "cic/texts/tatian_oratio-ad-graecos-grc-lat_otto1851.txt",
+   "originalLines": "14236-14241",
+   "secondReading": "same"
+  }
+ ]
+}
