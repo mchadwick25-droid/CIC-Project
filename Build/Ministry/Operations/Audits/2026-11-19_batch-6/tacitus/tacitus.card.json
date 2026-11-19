@@ -1,0 +1,141 @@
+{
+ "otherNames": [
+  "Cornelius Tacitus"
+ ],
+ "label": "Outside witness",
+ "knownFor": "A Roman historian whose Annals tell how Nero blamed the Christians for the fire of Rome, and name Christus as executed under Pontius Pilate.",
+ "datesNote": "Wrote after 96, the year his history reached",
+ "role": "Roman historian",
+ "keyWorks": [
+  {
+   "title": "Annals, Book 15, chapter 44",
+   "about": "the fire of Rome, Nero's punishment of the Christians, and Christus under Pilate"
+  },
+  {
+   "title": "Histories",
+   "about": "cited by Tertullian of Carthage for what Tacitus said of the Jews; not held in the Library"
+  }
+ ],
+ "legacy": {
+  "remembered": [
+   "Tertullian of Carthage, defending the Christians, calls him \"most loquacious in falsehood\" for his account of the Jews.",
+   "Sulpicius Severus, born in Aquitania about 363, retold Nero's tortures of the Christians in nearly the same words.",
+   "John Rolfe, who translated Suetonius, says Tacitus found no follower until Ammianus Marcellinus."
+  ]
+ },
+ "uncertain": [
+  "Tacitus does not say where he learned about Christus.",
+  "Gibbon, and later Schiller, held that Nero's victims were the Jews as a whole, and that Tacitus was wrong to call them Christians. Arthur McGiffert, who translated Eusebius of Caesarea in 1890, disagreed, noting that Josephus says nothing of an attack on the Jews under Nero.",
+  "The Library holds one chapter of the Annals. Nothing in it shows what Tacitus says elsewhere.",
+  "The English is the translation standardly identified as Church and Brodribb's of 1876. The file itself names no translator."
+ ],
+ "sources": {
+  "ownWords": [
+   {
+    "title": "Annals, Book 15, chapter 44 (in the translation standardly identified as Church and Brodribb)",
+    "language": "English",
+    "file": "cic/texts/tacitus_annals-15-44_church-brodribb1876.txt"
+   }
+  ],
+  "about": [
+   {
+    "title": "Apology, chapter 16; To the Nations, Book 1, chapter 11",
+    "author": "Tertullian of Carthage",
+    "date": null,
+    "language": "English translation",
+    "file": "cic/texts/anf03_tertullian.xml"
+   },
+   {
+    "title": "Church History, Book 2, chapter 25, with McGiffert's notes",
+    "author": "Eusebius of Caesarea",
+    "date": null,
+    "language": "English translation",
+    "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml"
+   },
+   {
+    "title": "Sacred History, Book 2, chapter 29",
+    "author": "Sulpicius Severus",
+    "date": null,
+    "language": "English translation",
+    "file": "cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml"
+   },
+   {
+    "title": "Roman History, translator's preface (Ammianus's history began in 96, \"where Tacitus and Suetonius end\")",
+    "author": "Charles Duke Yonge",
+    "date": null,
+    "language": "English",
+    "file": "cic/texts/ammianus-marcellinus_roman-history_yonge1862.txt"
+   },
+   {
+    "title": "The Life and Works of Suetonius (introduction)",
+    "author": "John C. Rolfe",
+    "date": null,
+    "language": "English",
+    "file": "cic/texts/suetonius_lives-of-the-caesars-loeb_rolfe1914.txt"
+   },
+   {
+    "title": "Apology, chapter 16, in Latin (ed. Franz Oehler)",
+    "author": "Tertullian of Carthage",
+    "date": null,
+    "language": "Latin",
+    "file": "cic/texts/tertullian_quae-supersunt-t1-apologetica-lat_oehler1853.txt"
+   },
+   {
+    "title": "Geschichte der römischen Litteratur, part 3 (on Nero's persecution, with the Latin of Annals 15.44 in part)",
+    "author": "Martin Schanz, Carl Hosius and Gustav Krüger",
+    "date": "1922",
+    "language": "German",
+    "file": "cic/texts/schanz-hosius-krueger_geschichte-der-roemischen-litteratur-teil3-deu_3e-aufl1922.txt"
+   },
+   {
+    "title": "Histoire ancienne de l'Église, volume 1 (on the fire and Nero's persecution)",
+    "author": "Louis Duchesne",
+    "date": "1907",
+    "language": "French",
+    "file": "cic/texts/duchesne_histoire-ancienne-de-leglise-tome1-fra_3e-ed1907.txt"
+   },
+   {
+    "title": "Is the Bible Divine? A six nights' discussion",
+    "author": "Charles Bradlaugh and Robert Roberts",
+    "date": "1876",
+    "language": "English",
+    "file": "cic/texts/roberts-bradlaugh_is-the-bible-divine-six-nights-discussion_1876.txt"
+   }
+  ]
+ },
+ "briefReferences": [
+  "Annals 15.44, in the translation standardly identified as Church and Brodribb: the prayers and offerings after the fire, the belief that it was set on an order, Nero's blame, Christus under Pilate, the arrests and the verdict, the deaths in Nero's gardens and at the circus, and the closing judgment.",
+  "Eusebius of Caesarea, Church History 2.25, with Arthur McGiffert's notes of 1890: the fire of 64, the persecution Tacitus tells most fully, and Gibbon and Schiller on the victims as the Jews as a whole, which McGiffert rejects.",
+  "Schanz, Hosius and Krüger (1922), with Duchesne (1907) and McGiffert: the verdict read as proving the accused were Christians, not that they set the fire.",
+  "Tertullian, Apology 16, in Oehler's Latin, checked against To the Nations 1.11 and the Ante-Nicene English: Tacitus's account of the Jews and the ass's head in his Histories, and Pompey finding no image in the temple at Jerusalem.",
+  "Sulpicius Severus, Sacred History 2.29, in Alexander Roberts's English: the fire, the blame and the same deaths in the same order, inflicted on the innocent.",
+  "The Roberts and Bradlaugh debate of 1876: Bradlaugh's doubt of the quotation from Tacitus.",
+  "Charles Duke Yonge's preface to Ammianus Marcellinus: Tacitus's history ends at 96. That he wrote about fifty years after the fire is a modern reconstruction; his own text gives no date."
+ ],
+ "quotationOriginals": [
+  {
+   "modern": "Christus, from whom the name came, was put to death in the reign of Tiberius by one of our governors, Pontius Pilatus.",
+   "printed": "Christus, from whom the name had its origin, suffered the extreme penalty during the reign of Tiberius at the hands of one of our procurators, Pontius Pilatus",
+   "work": "Tacitus, Annals 15.44, in the translation standardly identified as Church and Brodribb",
+   "file": "cic/texts/tacitus_annals-15-44_church-brodribb1876.txt",
+   "lines": "68"
+  },
+  {
+   "modern": "that same Cornelius Tacitus, who truly talks more lies than anyone,",
+   "printed": "At enim idem Cornelius Tacitus, sane ille mendaciorum loquacissimus",
+   "work": "Tertullian, Apology 16, ed. Franz Oehler",
+   "file": "cic/texts/tertullian_quae-supersunt-t1-apologetica-lat_oehler1853.txt",
+   "lines": "17915-17916",
+   "englishPrinted": "the said Cornelius Tacitus (the very opposite of tacit in telling lies)",
+   "englishFile": "cic/texts/anf03_tertullian.xml",
+   "englishLines": "2583-2584"
+  },
+  {
+   "modern": "So even for criminals who deserved to be punished harshly, as an example to all, a feeling of pity arose. For it seemed they were being destroyed not for the public good, but to feed one man's cruelty.",
+   "printed": "Hence, even for criminals who deserved extreme and exemplary punishment, there arose a feeling of compassion; for it was not, as it seemed, for the public good, but to glut one man's cruelty, that they were being destroyed.",
+   "work": "Tacitus, Annals 15.44, in the translation standardly identified as Church and Brodribb",
+   "file": "cic/texts/tacitus_annals-15-44_church-brodribb1876.txt",
+   "lines": "68"
+  }
+ ]
+}

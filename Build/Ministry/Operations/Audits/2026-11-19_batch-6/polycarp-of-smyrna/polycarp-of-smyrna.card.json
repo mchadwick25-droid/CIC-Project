@@ -159,14 +159,24 @@
       "originalLines": "950-951"
     },
     {
-      "modern": "to remember those who have already competed, and to train and prepare those still to come.",
-      "printed": "both in memory of those who have already finished their course, and for the exercising and preparation of those yet to walk in their steps.",
+      "modern": "to remember those who have already competed,",
+      "printed": "both in memory of those who have already finished their course,",
       "work": "Church of Smyrna, The Martyrdom of Polycarp 18, Ante-Nicene Fathers vol. 1; Greek ed. Oscar von Gebhardt",
       "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
-      "lines": "4226-4229",
-      "original": "εἴς τὸ τὴν τῶν προηϑληκότων μνήμην καὶ τῶν μελλόντων ἄσκησίν τε καὶ ἑτοιμασίαν.",
+      "lines": "4226-4227",
+      "original": "εἴς τὸ τὴν τῶν προηϑληκότων μνήμην",
       "originalFile": "cic/texts/acta-martyrum-selecta_gebhardt1902.txt",
-      "originalLines": "951-953"
+      "originalLines": "951-952"
+    },
+    {
+      "modern": "and to train and prepare those still to come.",
+      "printed": "and for the exercising and preparation of those yet to walk in their steps.",
+      "work": "Church of Smyrna, The Martyrdom of Polycarp 18, Ante-Nicene Fathers vol. 1; Greek ed. Oscar von Gebhardt",
+      "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
+      "lines": "4228-4229",
+      "original": "καὶ τῶν μελλόντων ἄσκησίν τε καὶ ἑτοιμασίαν.",
+      "originalFile": "cic/texts/acta-martyrum-selecta_gebhardt1902.txt",
+      "originalLines": "952-953"
     },
     {
       "modern": "Even so, they shared communion,",

@@ -71,3 +71,19 @@ No field of the card contradicts `sourcing`, `voices`, `legacy`, `why`, `floorNo
 - `sourcing`, "some scholars argue that its thirteenth chapter was added later": not in the research. The card says only which parts survive in Latin alone.
 
 One more point, outside the card: once the brief becomes the entry's `longDescription`, its eight quotations are renderings, not printed words. The validator's verbatim check will need them listed in `tools/quote_renderings.json`.
+
+## Update after revision
+
+2026-11-19. The card was brought into line with the revised brief (`polycarp-of-smyrna.brief.txt`; changes in `Revision.md` and `Recheck_Story_Fix.md`) and nothing else. Every Library line cited below, and every line cited by the other `quotationOriginals` entries, was re-read in its file.
+
+**quotationOriginals: one entry split into two.** M2 put the gloss "the martyrs before him" between the two halves of the Martyrdom 18 quotation (brief line 13), so the brief now quotes two spans where it quoted one.
+- Old: modern "to remember those who have already competed, and to train and prepare those still to come."; printed "both in memory of those who have already finished their course, and for the exercising and preparation of those yet to walk in their steps."; ANF 4226–4229; original "εἴς τὸ τὴν τῶν προηϑληκότων μνήμην καὶ τῶν μελλόντων ἄσκησίν τε καὶ ἑτοιμασίαν."; GEB 951–953.
+- New, first entry: modern "to remember those who have already competed,"; printed "both in memory of those who have already finished their course," (ANF 4226–4227, note 471 aside); original "εἴς τὸ τὴν τῶν προηϑληκότων μνήμην" (GEB 951–952).
+- New, second entry: modern "and to train and prepare those still to come."; printed "and for the exercising and preparation of those yet to walk in their steps." (ANF 4228–4229); original "καὶ τῶν μελλόντων ἄσκησίν τε καὶ ἑτοιμασίαν." (GEB 952–953).
+- Work, file and originalFile unchanged on both. No `secondReading`.
+
+**quotationOriginals: other modern renderings.** No change. The other seven spans stand in the revised brief exactly as the card has them: lines 1, 5, 7, 9, 11, 13 ("keep the birthday of his martyrdom,") and 17. B2 added words after "Away with the atheists!" but outside the quotation marks. The brief now quotes nine spans, and the card has nine entries, one for each. Entry order is unchanged.
+
+**briefReferences.** No change. The revision removed no fact from the brief: B1 moved the Anicetus passage, M1 and the recheck fix reworded the name and the province without losing either ("Smyrna was a city in the Roman province of Asia, and he was the bishop of its church", brief line 3), and M3 swapped two sentences. Every line still names only what the brief tells.
+
+**Quoted spans, awaiting second reading.** The table above now reads, for row 6: 6a "to remember those who have already competed," ANF 4226–4227, GEB 951–952; 6b "and to train and prepare those still to come." ANF 4228–4229, GEB 952–953. All nine are awaiting second reading. The note on `tools/quote_renderings.json` above now covers nine quotations.
