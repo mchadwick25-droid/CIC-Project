@@ -91,3 +91,13 @@ The remaining entries are each tied to a sentence of the brief: [2] decree and b
 
 ## Applied to the brief (coordinator, 2026-11-19)
 - Fix 4's point for the brief: the Worms quote's silent cut is now marked with an ellipsis: "…or by clear reason … I cannot and will not take back anything." Nothing else changed; the card's quote entry (with Fix 4's note) and its second reading must carry the ellipsis.
+
+## Applied (card fixer)
+- Fix 1: not a card edit. The reading is copied verbatim to `Scan_Readings.json` (lines 2578). The card's "literis" is unchanged.
+- Fix 2: applied (uncertain[11], old sentence replaced word for word).
+- Fix 3: applied (uncertain[1]).
+- Fix 4: applied (`uncertain` added to quotationOriginals[1]). Per the coordinator's note on the brief, that entry's `modern` now reads "Unless I am convinced by the witness of the Scriptures or by clear reason … I cannot and will not take back anything." to match the brief's wording, ellipsis included. Worded by me: that `modern`, which is not a checker FIX.
+- Fix 5: applied (`uncertain` added to quotationOriginals[3]).
+- Fix 6: applied to briefReferences [0], [1], [3] and [5], each as given.
+- Fix 7: applied (datesNote).
+- Not applied: none.
