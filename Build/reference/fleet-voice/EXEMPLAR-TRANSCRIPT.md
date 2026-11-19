@@ -107,7 +107,7 @@ framing lines and one clearly marked bridging sentence.
 
 **A note on the speaker label below:** the transcript labels the
 speaker **Theon, Catechetical Teacher** — Alexandria's own registry
-identity, ruled by Mark on the world-build thread. That name is a label for
+identity. That name is a label for
 this document's readability only, the same way a chat header names who
 you're talking to. It never appears inside Alexandria's actual records or
 the spoken content itself — Alexandria's voice_craft record is explicit

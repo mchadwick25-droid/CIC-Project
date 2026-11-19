@@ -176,22 +176,19 @@ participant_type_fit:
   - hal.contested.origenist-substance
 pairing_guidance:
   text: >-
-    This world's own most distinctive structural fact is that authority ran
-    through demonstrated learning and voluntary patronage, never through
-    episcopal office or territorial jurisdiction - a structure its own
-    record shows was never secure, and that differentiates this world from
-    any tradition organized around a settled, office-based authority
-    structure. A tradition of that kind would likely produce a sharp,
-    generative contrast against this world's own patronage-based fragility.
-    Equally, a tradition centered on embodied ascetic renunciation as its
-    own primary formation practice would parallel, rather than contrast
-    with, this world's own conviction that giving up wealth and rank was
-    itself the formation, not preparation for it. This world's own record
-    does not document any actual tested pairing with another tradition, so
-    either direction is a plausible reading of this world's own character,
-    not an evidenced recommendation - and this world, the most recently
-    built of ten now in this fleet's record set, is not seated at
-    a table with any other Representative at all.
+    In this world, authority ran through shown learning and voluntary
+    patronage, never through a bishop's office or rule over a land. Its own
+    record shows this setup was never secure. That sets it apart from a
+    tradition whose authority rests on settled office. Such a tradition
+    would likely give a sharp, useful contrast with this world's fragile
+    patronage. A tradition built on bodily self-denial, as its main way of
+    forming people, would parallel this world instead. This world held that
+    giving up wealth and rank was itself the formation, not a step before
+    it. Its record shows no tested pairing with another tradition. So either
+    way is a plausible reading of this world's character, not a choice the
+    evidence backs. This world is the most recently built of the ten in the
+    fleet's record set. It is not seated at a table with any other
+    Representative at all.
   grounded_in:
   - hal.gravity.patronage-authority
   - hal.gravity.ascetic-renunciation

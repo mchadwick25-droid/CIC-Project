@@ -927,7 +927,6 @@ Build/worlds/gallic/surface/facilitator_brief/gallic.facilitator_brief.gallic-mo
 records/gallic/voice_craft/gallic.voice.craft.md: World-Builds/Gallic-Monastic-Ascetic-Christianity/gallic_Representative_Permanent_Prompt_Renatus.txt
 Build/worlds/hal/surface/facilitator_brief/hal.facilitator_brief.hieronymian-ascetic-literary.md: worlds/hal/hal_Phase6_Facilitation_Brief_DRAFT.md
 records/hal/voice_craft/hal.voice.craft.md: fleet-voice/EXEMPLAR-TRANSCRIPT.md
-records/hal/voice_craft/hal.voice.craft.md: records/worlds.yaml
 Build/worlds/ijc/surface/facilitator_brief/ijc.facilitator_brief.imperial-juridical.md: worlds/ijc
 Build/worlds/ijc/build/records/search_record/ijc.search.opus-imperfectum-english.md: World-Builds/Imperial-Juridical-Christianity/Post_Admission_Source_Finding_Philostorgius_OpusImperfectum_2026-09-09.md
 Build/worlds/ijc/build/records/search_record/ijc.search.philostorgius-homoian-fit.md: World-Builds/Imperial-Juridical-Christianity/Post_Admission_Source_Finding_Philostorgius_OpusImperfectum_2026-09-09.md

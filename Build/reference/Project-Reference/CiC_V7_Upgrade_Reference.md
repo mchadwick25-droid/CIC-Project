@@ -112,7 +112,7 @@ Every document in the repository was built before or during the V7 transition. T
 - **Role-specific:** Builder, Coach, and Critic role descriptions use generic role language — no voice names, no world-specific examples.
 
 ### For Level 2C Documents
-- **Living documents:** Accurately reflect current project state. Updated as gates open, corrections are resolved, change orders are adopted.
+- **Living documents:** Accurately reflect current project state. Updated as gates open, corrections are resolved, and architectural decisions are adopted.
 - **Clear separation:** Change Orders Register: architectural decisions only. Corrections Tracker: document-level content fixes only. Phase Status: per-world progress only.
 - **Receives from 2A:** Tracks status of items whose architecture is defined in 2A. Never defines architecture itself.
 
