@@ -4736,3 +4736,7 @@ Each keeps its approved essence. One independent check follows, then the census,
 **Why.** The card checks found places where a card stated one source's reading where held sources differ (for example, where the Chronicle sets Irenaeus's notice, and whether a scanned original can stand).
 
 **Decided (Mark, 2026-11-19: "ok we want it right, if two sorces say different things recognize that remember we are not pursuint perfection but high scholory acceptance").** Where two held sources say different things, the story or card says so and credits each, rather than choosing one. The bar is high scholarly acceptance, not perfection: a finding that something could be more exact, with nothing wrong or misleading, does not reopen a finished part.
+
+## 2026-11-19 — Batch 6: the recording approved, with a cap (Mark)
+
+**Decided (Mark, 2026-11-19: "Approve, cap 22,500 (Recommended)").** The thirteen batch 6 stories (the twelve and Polycarp), about 42,000 characters, are recorded on batch 5's printed settings: person voice `onegjDE2z0mQtp1g0HK7`, model `eleven_v4`, `mp3_44100_64`, stability 0.95, similarity 0.68, style 0, speaker boost on, `[pause]` between paragraphs, the seven respellings. Tacitus is recorded first for Mark's ear; the balance is checked before and after; the run stops at 22,500 credits.
