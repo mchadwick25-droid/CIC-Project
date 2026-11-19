@@ -68,3 +68,16 @@ All three changed sentences are v2's sentences with words cut. Each is held at t
 ## 6. Readability
 
 `python -m engine.m1.profile_readability .../barsauma-of-nisibis.brief.txt`: 490 words, grade 8.5 (names out 7.6), reading ease names out 72.6, 18.1 words a sentence, 15% short sentences, longest sentence 30 words: pass.
+
+## Applied (fixer)
+
+All applied word for word to `barsauma-of-nisibis.brief.txt`. None left unapplied.
+
+- **B1:** the three legend sentences ("Writers of the rival Syriac church ... who refused.") added straight after `It accepted Beth Lapat "but only on this point."`, in the 497 paragraph, before 605.
+- **B2:** "And it barred bishops from stopping their clergy marrying and expected new assistant ministers to be married." added as the second sentence of the 486 paragraph.
+- **M1:** "instead" restored: "says instead that he kept a woman and called her his lawful wife."
+- **M2 (optional):** the rebels sentence in the 485 paragraph replaced with the review's wording ("cut the rebels in his own city off from the church's worship and fellowship ...").
+- **M3:** for Mark's eye only; no change made.
+- The monks-in-black sentence (MINOR, accepted) was not restored, as the review gives it as conditional on Mark.
+
+Scorer: 563 words, grade 8.6 (names out 7.8), reading ease names out 71.5, longest sentence 32 words: pass.
