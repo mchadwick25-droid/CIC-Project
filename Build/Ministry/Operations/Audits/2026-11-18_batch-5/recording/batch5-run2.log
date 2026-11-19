@@ -1,0 +1,29 @@
+=== Tree narration  ===
+619 movements total
+8 skipped - no longDescription to narrate
+12 skipped - built world with its own orientation.story, recorded in its Representative's voice
+349 skipped - not a person row (person run)
+0 already narrated and current (use --force to regenerate)
+1 stale - recorded from text that has since changed, re-voiced this run
+10 to generate this run, 33620 characters total
+=== PAID RUN, settings as actually used ===
+approved run     : Batch 5: the twelve (Mark, 2026-11-19, 'record the rest and go live', cap 22,000 credits)   char cap: 34400
+person voice id  : onegjDE2z0mQtp1g0HK7   (kind "person", every item)
+output format    : mp3_44100_64
+model            : eleven_v4
+settings         : {"stability":0.95,"similarity_boost":0.68,"style":0,"use_speaker_boost":true}
+audio tags       : open (none), before the last sentence (none), between paragraphs [pause], 7 respellings
+items            : 10   characters: 33620 text, 34308 sent
+===========================================
+  ok: augustine-of-hippo voice=onegjDE2z0mQtp1g0HK7 model=eleven_v4 format=mp3_44100_64 settings={"stability":0.95,"similarity_boost":0.68,"style":0,"use_speaker_boost":true} chars=4104 sent=4176 cost=2025 request-id=bQOr2M3xAXhv7vE3DA7X
+  ok: athanasius-of-alexandria voice=onegjDE2z0mQtp1g0HK7 model=eleven_v4 format=mp3_44100_64 settings={"stability":0.95,"similarity_boost":0.68,"style":0,"use_speaker_boost":true} chars=3366 sent=3433 cost=1664 request-id=g3GsbbkUkECJEVrXiPWR
+  ok: william-tyndale voice=onegjDE2z0mQtp1g0HK7 model=eleven_v4 format=mp3_44100_64 settings={"stability":0.95,"similarity_boost":0.68,"style":0,"use_speaker_boost":true} chars=3529 sent=3601 cost=1746 request-id=Vbr1rIx5wru1jX3Q10Q9
+  ok: martin-luther voice=onegjDE2z0mQtp1g0HK7 model=eleven_v4 format=mp3_44100_64 settings={"stability":0.95,"similarity_boost":0.68,"style":0,"use_speaker_boost":true} chars=3730 sent=3811 cost=1848 request-id=DGk8L2VlokBYD0a4yOKn
+  ok: john-calvin voice=onegjDE2z0mQtp1g0HK7 model=eleven_v4 format=mp3_44100_64 settings={"stability":0.95,"similarity_boost":0.68,"style":0,"use_speaker_boost":true} chars=3617 sent=3689 cost=1789 request-id=n0sMUgQZfvGQoZddEg7p
+  ok: john-wesley voice=onegjDE2z0mQtp1g0HK7 model=eleven_v4 format=mp3_44100_64 settings={"stability":0.95,"similarity_boost":0.68,"style":0,"use_speaker_boost":true} chars=3445 sent=3544 cost=1718 request-id=yasFyUhhNxHWwNJ9RNQr
+  ok: patrick-of-ireland voice=onegjDE2z0mQtp1g0HK7 model=eleven_v4 format=mp3_44100_64 settings={"stability":0.95,"similarity_boost":0.68,"style":0,"use_speaker_boost":true} chars=2873 sent=2936 cost=1424 request-id=7veohzX8kdIJPIiVcRQr
+  ok: cyril-of-alexandria voice=onegjDE2z0mQtp1g0HK7 model=eleven_v4 format=mp3_44100_64 settings={"stability":0.95,"similarity_boost":0.68,"style":0,"use_speaker_boost":true} chars=3301 sent=3364 cost=1631 request-id=tDoMW6KVt9GpWtPMeanZ
+  ok: babai-the-great voice=onegjDE2z0mQtp1g0HK7 model=eleven_v4 format=mp3_44100_64 settings={"stability":0.95,"similarity_boost":0.68,"style":0,"use_speaker_boost":true} chars=2635 sent=2671 cost=1295 request-id=StTBheKCr7dmqCIkHjmB
+  ok: timothy-i-of-baghdad voice=onegjDE2z0mQtp1g0HK7 model=eleven_v4 format=mp3_44100_64 settings={"stability":0.95,"similarity_boost":0.68,"style":0,"use_speaker_boost":true} chars=3020 sent=3083 cost=1495 request-id=xH4d7co40CIdmbU9RupG
+
+10/10 generated. credits charged (character-cost headers): 16635

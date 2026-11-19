@@ -155,21 +155,12 @@
       "secondReading": "same"
     },
     {
-      "modern": "the divine assembly,",
+      "modern": "the divine assembly.",
       "printed": "la divine assemblée",
       "work": "Synodicon orientale, the synod of 605, tr. Chabot",
       "file": "cic/texts/synodicon-orientale_recueil-de-synodes-nestoriens-syr-fra_chabot1902.txt",
       "lines": "31682",
       "secondReading": "same"
-    },
-    {
-      "modern": "my lord,",
-      "printed": "Mar",
-      "work": "Synodicon orientale, the synod of 605, tr. Chabot",
-      "file": "cic/texts/synodicon-orientale_recueil-de-synodes-nestoriens-syr-fra_chabot1902.txt",
-      "lines": "31684",
-      "uncertain": "The synod gives only the Syriac title Mar. The brief's gloss, my lord, is not a rendering of any word in these lines, and no held text translates it.",
-      "secondReading": "minor"
     },
     {
       "modern": "the blessed Mar Barsauma.",
