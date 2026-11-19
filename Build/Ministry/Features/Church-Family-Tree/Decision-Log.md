@@ -4814,3 +4814,13 @@ Mark heard the Tacitus sample (3:29, 1,506 credits) and approved the rest: "appr
 **Why.** Mark: "the river people should sit right at the curve down, not on the early believer thread, that gets confusing with all of them looking like they are early believers not from other threads." In the era where a river begins, its people figure sat at the first point the river showed, which is where it leaves the First Churches, so Africa's "7" sat on the trunk beside Montanism.
 
 **Done (Mark's direction, 2026-11-19).** In the era where a river begins, its people figure now sits where the river has curved into its own lane and turns down (its start plus the merge window), moving further down only to clear a label. In every other era it is placed as before. Checked in era 1: Africa, Latin West, Syriac East and Non-Nicene each sit on their own river.
+
+## 2026-11-19 — A river branches only from a tradition it is linked to; the rest start on their own
+
+**Why.** Mark asked whether the rivers that leave the First Churches reflect the record or are drawn for effect, and why Non-Nicene leaves "on the third tradition down". Each river's parent follows the sourced rule of 2026-11-10, and the point where it left was its first tradition's start year (Non-Nicene's Gnostic Currents, 120). But a branch landed beside whichever trunk tradition sat at that year, so Non-Nicene looked as if it grew from The Apologists and Africa from Montanism.
+
+**Decided (Mark, 2026-11-19: "only rivers that show connection with traditions should start their otherwise they start just above the first tradition in that river"; then "All 8 start on their own").**
+- A river with a recorded descent link from one tradition (basis `lineage` in `RIVER_ORIGINS`) still branches from its parent river at its start year: Protestant & Evangelical, Syriac and Protestant, Greek and Latin, Africa and Latin, Latin and Protestant, and Across families.
+- A river whose parent is declared without such a link starts on its own, just above its first tradition: Syriac East, Greek East, Africa, Latin West, Non-Nicene, Caucasus, Church and Empire, and Global Revival & Pentecostal.
+- `RIVER_ORIGINS` is unchanged. Each river's card gains "Where it began": for a declared parent, its reason, parent, confidence and sources; for a lineage parent, the two linked traditions, the kind of link and its confidence.
+- A river's people figure in its first era sits where it settles into its own lane (for a river that starts on its own, at its start), lower only to clear a label.

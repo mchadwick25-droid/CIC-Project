@@ -125239,7 +125239,7 @@ const RIVER_ORIGINS = [
 ]
 ;
 const laneParent={};
-RIVER_ORIGINS.forEach(o=>{if(o.parent!=null)laneParent[o.lane]=o.parent;});
+RIVER_ORIGINS.forEach(o=>{if(o.parent!=null&&o.basis==='lineage')laneParent[o.lane]=o.parent;});
 
 
 const STEP=24;
@@ -125250,8 +125250,14 @@ function seededWave(seed){return (y)=>{
 };}
 const laneWave={}; laneKeys.forEach(k=>{laneWave[k]=seededWave(k+1);});
 
-const MERGE_WINDOW=150;
-function mergeRaw(k,y){return k===0?1:Math.max(0,Math.min(1,(y-laneGenesisY[k])/MERGE_WINDOW));}
+const MERGE_WINDOW=150, SPRING_LEAD=24;
+const branches=k=>laneParent[k]!=null;
+function mergeRaw(k,y){
+  if(k===0)return 1;
+  const t=branches(k)?(y-laneGenesisY[k])/MERGE_WINDOW:(y-laneGenesisY[k]+SPRING_LEAD)/SPRING_LEAD;
+  return Math.max(0,Math.min(1,t));
+}
+function laneSettledY(k){return k===0?0:laneGenesisY[k]+(branches(k)?MERGE_WINDOW:0);}
 function smoothstep(t){return t*t*(3-2*t);}
 
 const DRIFT_PULL={'gave rise to':1,'continued as':1,'influenced':1,'in contact with':0.5,'member of':0.5,'argued against':-1,'broke with':-1};
@@ -125267,7 +125273,7 @@ DATA.edges.forEach(e=>{
   if(!a||!b||isAcross(a)||isAcross(b)||a.laneOrder===b.laneOrder)return;
   const pull=DRIFT_PULL[e.type], weight=CONFIDENCE_WEIGHT[e.confidence];
   if(!pull||!weight)return;
-  const settled=k=>k===0?0:laneGenesisY[k]+MERGE_WINDOW;
+  const settled=laneSettledY;
   const y0=Math.max(yearToY(Math.max(a.start,b.start)),settled(a.laneOrder),settled(b.laneOrder));
   const y1=yearToY(Math.min(a.end,b.end));
   if(y1<=y0)return;
@@ -126037,10 +126043,14 @@ function placeWhoMarks(){
       const era=+p.dataset.era, k=+p.dataset.lane, hw=U*1.6, hh=U*.75;
       const spanAt=y=>riverSpanAt(k,y,1)||riverSpanAt(k,y,0), top=eraY0[era]+16+U*1.05, end=eraY0[era]+eraH[era]-U;
       const born=k!==0&&laneGenesisY[k]>=eraY0[era]&&laneGenesisY[k]<eraY0[era]+eraH[era];
-      let y=born?Math.min(end,Math.max(top,laneGenesisY[k]+MERGE_WINDOW)):top; while(y<end&&!spanAt(y))y+=6;
+      let y=born?Math.min(end,Math.max(top,laneSettledY(k))):top; while(y<end&&!spanAt(y))y+=6;
       const mk=y=>{const sp=spanAt(y), x=sp?(sp[0]+sp[1])/2:laneCenterX(k,y);return [x,y,{id:'pill'+p.dataset.who,x0:x-hw,x1:x+hw,y0:y-hh,y1:y+hh}];};
       let best=mk(y);
-      if(born){for(const d of [0,1,2,3,4,5,6,7,8]){const c=mk(y+d*U*.8);if(spanAt(c[1])&&!grid.hits(c[2])){best=c;break;}}}
+      if(born){
+        let found=null;
+        for(let yy=y;yy<end&&!found;yy+=U*.8){const c=mk(yy);if(spanAt(c[1])&&!grid.hits(c[2]))found=c;}
+        best=found||(branches(k)?best:mk(laneGenesisY[k]-SPRING_LEAD-hh));
+      }
       else if(y<=top+1){for(const d of [0,1.5,3,4.5]){const c=mk(y+d*U);if(spanAt(c[1])&&!grid.hits(c[2])){best=c;break;}}}
       else{
         y+=U*.4; best=mk(y);
@@ -127073,12 +127083,26 @@ function openPanelEdge(edg,a,b){
   showPanel(`connection/${edg.id}`);
   syncWorldURL(null);
 }
+function riverOriginHTML(k){
+  const o=RIVER_ORIGINS.find(x=>x.lane===k);
+  if(!o||o.parent==null)return '';
+  const parent=famOf(o.parent).name;
+  if(o.basis==='lineage'){
+    const e=DATA.edges.find(x=>x.id===o.link), a=e&&byId[e.from], b=e&&byId[e.to];
+    if(!a||!b)return '';
+    return `<h3>Where it began</h3><p>It grew out of ${esc(parent)}: <button type="button" class="panel-link" data-id="${esc(a.id)}">${esc(a.shortName||a.name)}</button> ${esc(e.type)} <button type="button" class="panel-link" data-id="${esc(b.id)}">${esc(b.shortName||b.name)}</button>.</p><p class="meta">${esc(e.confidence)}</p>`;
+  }
+  const works=(o.sources||[]).map(x=>x.work).filter(Boolean);
+  return `<h3>Where it began</h3><p>${esc(o.reason)}</p><p class="meta">Grew from ${esc(parent)} · ${esc(o.confidence)}</p>`
+    +(works.length?`<p class="meta">Sources: ${works.map(esc).join('; ')}</p>`:'');
+}
 function openPanelRiver(f,members){
   hideTip();
   const k=members[0].laneOrder;
   let h=`<h2 id="panelTitle">${esc(f.name)}</h2>`;
   if(f.common)h+=`<p class="meta formal">${esc(f.common)}</p>`;
   h+=`<p class="meta">${members.length} ${members.length===1?'tradition':'traditions'} · ${esc(riverSpan(members))}</p>`;
+  h+=riverOriginHTML(k);
   const eraIdx=new Set();
   members.forEach(m=>{const a=eraOfYear(m.start), b=Math.max(a,eraOfYear(m.end-1)); for(let i=a;i<=b;i++)eraIdx.add(i);});
   const eraNums=[...eraIdx].map(i=>eras[i].num);
