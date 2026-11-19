@@ -4800,3 +4800,5 @@ Mark heard the Tacitus sample (3:29, 1,506 credits) and approved the rest: "appr
 **Why.** Their batch 4 story and card are finished (`Build/Ministry/Operations/Audits/2026-11-18_batch-4/cyril-and-methodius/`), but the census had no person entry for them, only the tradition `cyrillo-methodian-slavic-christianity` (Open-Gaps, "Batch 4, the rework of batches 1 and 2: what is open at the end of authoring", 2026-11-18).
 
 **Decided (Mark, 2026-11-19: "Add one entry for both (Recommended)").** One person entry, `cyril-and-methodius`, under their tradition in era 4, carries the finished story and card unchanged. A census pass checks the entry. The story is recorded on batch 6's settings once Mark sets a credit cap.
+
+**Recording and the major mark (Mark, 2026-11-19).** "Approve, cap 1,600 (Recommended)" for the one story, on batch 6's settings, and "Major (Recommended)": Cyril and Methodius carry the major mark.
