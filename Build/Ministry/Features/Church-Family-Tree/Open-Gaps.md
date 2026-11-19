@@ -3913,8 +3913,8 @@ They are not rewritten now. Each is recorded, and a rewrite would mean recording
     - **Batch 4 recording balance.** Closed: the recheck matches the 13,619 credits charged (`Build/Ministry/Operations/Audits/2026-11-18_batch-4/recording/Balance.md`).
 
 331. **Batch 5, twelve stories on the batch 5 kit: what is open at release (2026-11-19).** Source: `Build/Ministry/Operations/Audits/2026-11-18_batch-5/` (README, each folder's Reshape_Review, Card_Check and Recheck files, Second_Readings.md, Release.md); `Build/Ministry/Operations/Audits/2026-11-19_batch-5-read/`; the Decision-Log entry "Batch 5 hearts: church words explained, and Luther's job re-set" (2026-11-18). The twelve are authored, reshaped to the lengths Mark approved, carded, read blind and in the census; only the recording is left.
-    - **Recording.** Done 2026-11-19: all twelve, 19,827 credits under a 22,000 cap (`recording/Balance.md`).
-    - **Barsauma, reworked under Mark's cap ruling (2026-11-19).** The rework review's MINOR 2, adding Narsai in one clause (he is in the approved heart and a tree link), was not applied; it would lengthen the story. For Mark.
+    - **Recording.** Done 2026-11-19: all twelve, 21,554 credits under a 22,000 cap (`recording/Balance.md`).
+    - **Barsauma, reworked under Mark's cap ruling (2026-11-19).** Closed: the rework review's MINOR 2, Narsai in one clause, is applied word for word (Mark: "yes add narsai to barsaumas story") and the story re-recorded.
     - **Patrick's held scan reading.** Source sheet line 3009, "— I": the page image must be checked. The released story no longer quotes those lines, so the census carries none of Patrick's six readings. Owner: the Library thread.
     - **Census fields outside the story and card.** Tyndale's `sourcing` says "two volumes" are held; it should be checked against `cic/texts/`. Owner: a census pass.
     - **Library.** Wesley's Journal volume 1 has a header error. Wants: Mingana's 1928 English of Timothy's debate, Timothy's letter on Aristotle, Luther's German Bible. Owner: the Library thread.
