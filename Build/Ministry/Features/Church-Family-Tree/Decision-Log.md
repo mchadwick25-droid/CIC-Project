@@ -4723,3 +4723,9 @@ Each keeps its approved essence. One independent check follows, then the census,
 **Why.** After the outline check and recheck, Irenaeus's beats would set to about six minutes of story, against the about 3:20 shown with his approved heart. A cut to about 3:40 would lose about two-fifths (`Build/Ministry/Operations/Audits/2026-11-19_batch-6/irenaeus-of-lyon/Recheck.md`).
 
 **Decided (Mark, 2026-11-19: "Let it take about 4:30 to 5:00").** Irenaeus runs about 4:30 to 5:00, like Augustine in batch 5. The writer tells what the outline holds at that length, never filling to reach it, and the reviewer asks of each part whether the story needs it.
+
+## 2026-11-19 — Batch 6: Bardaisan's length (Mark)
+
+**Why.** After review and its one revision, Bardaisan of Edessa runs about 4:30, against about 3:00 with his approved heart. The review found nothing the story does not need; its fixes restored Eusebius on his dialogues against Marcion's followers, the songs Ephrem answered, and how his argument passed into later books (`Build/Ministry/Operations/Audits/2026-11-19_batch-6/bardaisan-of-edessa/Review.md`, `Revision.md`).
+
+**Decided (Mark, 2026-11-19: "Let it stand at about 4:30").** The revised story stands at about 4:30.
