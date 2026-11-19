@@ -233,6 +233,8 @@ jobs:
               - 'tools/tests/test_list_second_readings.py'
               - 'tools/check_tree_overlap.py'
               - 'tools/tests/test_check_tree_overlap.py'
+              - 'tools/list_story_status.py'
+              - 'tools/tests/test_list_story_status.py'
               - '.github/workflows/**'
             tree:
               - 'cic-website/**'
@@ -525,7 +527,7 @@ jobs:
         with:
           python-version: "3.11"
       - run: pip install pytest
-      - run: python -m pytest tools/tests/test_check_standard_lock.py tools/tests/test_check_brief_variety.py tools/tests/test_list_second_readings.py tools/tests/test_check_tree_overlap.py -q
+      - run: python -m pytest tools/tests/test_check_standard_lock.py tools/tests/test_check_brief_variety.py tools/tests/test_list_second_readings.py tools/tests/test_check_tree_overlap.py tools/tests/test_list_story_status.py -q
       - run: python tools/check_standard_lock.py --base "origin/${{ github.base_ref }}"
 
   profile-readability:

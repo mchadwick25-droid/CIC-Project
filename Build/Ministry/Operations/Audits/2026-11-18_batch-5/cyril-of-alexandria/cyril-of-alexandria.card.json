@@ -1,0 +1,225 @@
+{
+  "otherNames": [
+    "Cyril",
+    "Cyrillus"
+  ],
+  "knownFor": "Bishop of Alexandria who opposed Nestorius of Constantinople over calling Mary the Mother of God, and whose letter the Council of Ephesus of 431 judged to agree with the creed of Nicaea.",
+  "datesNote": "Became bishop on the third day after the death of Theophilus, 15 October, in a year Socrates of Constantinople gives by its consuls and the notes to A. C. Zenos's edition give as 412; died in 444, by Blomfield Jackson, who quotes Canon Venables for \"June 9, or 27, 444\"",
+  "placeNote": "Alexandria; Ephesus",
+  "role": "Bishop of Alexandria",
+  "keyWorks": [
+    {
+      "title": "Second Letter to Nestorius",
+      "about": "the letter read at Ephesus in 431, which says the Word united to himself \"flesh animated by a rational soul\" and that the Fathers called the Virgin the Mother of God"
+    },
+    {
+      "title": "Third Letter to Nestorius, with the Twelve Anathematisms",
+      "about": "twelve condemnations, the first of anyone who will not confess that \"the Holy Virgin is the Mother of God\""
+    },
+    {
+      "title": "Five Tomes against Nestorius",
+      "about": "five books answering a book of Nestorius's words, passage by passage, beginning with his attack on the word Mother of God"
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "At Chalcedon in 451 his letter to Nestorius and his letter to John of Antioch were read, and Aëtius, archdeacon of Constantinople, said the first had been \"confirmed by the subscription of all\" at Ephesus.",
+      "His letter to John of Antioch, which begins \"Let the heavens rejoice\", sealed the peace of 433. Blomfield Jackson says both sides accepted a formula which Theodoret of Cyrrhus \"himself had drawn up at Ephesus two years before\".",
+      "Henry Percival, who edited the English volume of the councils, says the Fifth Council condemned Theodoret \"because he wrote against these very Anathemas\"."
+    ],
+    "remembered": [
+      "The bishops at Chalcedon, after the reading of Leo of Rome's letter: \"Everlasting be the memory of Cyril. Leo and Cyril taught the same thing.\"",
+      "Socrates of Constantinople, on the murder of Hypatia: it brought \"not the least opprobrium, not only upon Cyril\", \"but also upon the whole Alexandrian church\".",
+      "Nestorius, his opponent, in the Bazaar of Heracleides, accuses him of winning by \"the gold of iniquity\".",
+      "A letter on his death, \"ascribed to Theodoret\" by the Fifth Council, begins \"At last and with difficulty the villain has gone.\" Its authorship is doubted; see What is uncertain."
+    ]
+  },
+  "uncertain": [
+    "Much of his story comes through Socrates of Constantinople, who blames Cyril for the shame of the murder of the philosopher Hypatia. A. C. Zenos, who edited Socrates in English, says this \"severe censure\" is more easily accounted for by Socrates's closeness to the Novatians, since Cyril was their declared enemy. Socrates does not say Cyril ordered the murder.",
+    "His part in Hypatia's death is weighed differently. The notes to Zenos's edition report that the historians Walch, Gibbon and Milman lean to holding him guilty. They quote William Bright: \"Cyril was no party to this hideous deed, but it was the work of men whose passions he had originally called out.\"",
+    "Nestorius, in his own defense, says Cyril won at Ephesus by bribery. G. R. Driver and Leonard Hodgson, who translated it, say the other evidence is in letters of Acacius of Beroea and of Epiphanius, Cyril's own archdeacon. Those letters are held in Latin in Mansi V.",
+    "Socrates says Cyril's party deposed Nestorius before John of Antioch arrived, and that Nestorius's party then deposed Cyril. Nestorius's own account has the council that met with John depose Cyril and Memnon of Ephesus.",
+    "Whether Ephesus received the Twelve Anathematisms is disputed. Henry Percival says \"the Acts do not recite that this letter of Cyril's was read, nor do they state that the Anathemas were received\", though the extract he prints has a bracket saying the letter was read. He argues that the council's critics cannot consistently deny it adopted them, and reports that Bishop Hefele first thought the letter merely read, then changed his mind. Percival adds that no one disputes that Chalcedon received them twenty years later.",
+    "The letter on his death \"ascribed to Theodoret\" is contested. Blomfield Jackson's note reports that Baronius rejected it and that Garnerius thought its bitterness no argument against Theodoret's authorship. Jackson quotes Canon Bright, who rejects it, and Canon Venables, who would be glad to reject it with Tillemont, Newman and Bright, but says \"A painful suspicion of their genuineness, however, still lingers\", and that Neander leans to accepting it.",
+    "The years 412 and 415 are given by the notes to Zenos's edition from Socrates's consuls. The year 433 for the peace is Blomfield Jackson's. Socrates gives no year for his death."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "Letters to Nestorius and to John of Antioch, and the Twelve Anathematisms (in the acts of Ephesus and Chalcedon)",
+        "language": "English translation",
+        "file": "cic/texts/npnf214_seven-ecumenical-councils.xml"
+      },
+      {
+        "title": "The Three Epistles, edited by P. E. Pusey",
+        "language": "Greek with English translation",
+        "file": "cic/texts/cyril-alexandria_three-epistles-grc-eng_pusey1872.txt"
+      },
+      {
+        "title": "Five Tomes against Nestorius, Scholia, That Christ is One (tr. P. E. Pusey)",
+        "language": "English translation",
+        "file": "cic/texts/cyril-alexandria_five-tomes-against-nestorius-scholia-christ-is-one_pusey1881.txt"
+      }
+    ],
+    "about": [
+      {
+        "title": "Church History, Book 7, chapters 7, 13 to 15, 32 and 34",
+        "author": "Socrates of Constantinople",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml"
+      },
+      {
+        "title": "The Bazaar of Heracleides (tr. G. R. Driver and Leonard Hodgson)",
+        "author": "Nestorius",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/nestorius_bazaar-of-heracleides_driver-hodgson1925.txt"
+      },
+      {
+        "title": "Acts of the Councils of Ephesus and Chalcedon (extracts), with Henry Percival's introductions",
+        "author": null,
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf214_seven-ecumenical-councils.xml"
+      },
+      {
+        "title": "Letter 180, ascribed to Theodoret, with Blomfield Jackson's notes",
+        "author": "Theodoret of Cyrrhus, if his",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml"
+      },
+      {
+        "title": "History of the Councils of the Church, vol. 3 (431 to 451)",
+        "author": "Charles Joseph Hefele",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/hefele_history-of-the-councils-v3-431-451_clark1883.txt"
+      },
+      {
+        "title": "Sacrorum conciliorum nova et amplissima collectio, vol. 5 (431 to 441): the letter of Epiphanius, Cyril's archdeacon, to Maximian, and the letter of Acacius of Beroea",
+        "author": "Giovanni Domenico Mansi",
+        "date": null,
+        "language": "Latin",
+        "file": "cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-5-431-441-lat_welter-facsimile1901.txt"
+      },
+      {
+        "title": "Select Letters, Book 6, part 1 (tr. E. W. Brooks)",
+        "author": "Severus of Antioch",
+        "date": null,
+        "language": "English translation from the Syriac",
+        "file": "cic/texts/severus-of-antioch_select-letters-book6-part1_brooks1903.txt"
+      },
+      {
+        "title": "Chronicle (the Syriac chronicle under his name)",
+        "author": "Zachariah Rhetor",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/zachariah-rhetor_chronicle_hamiltonbrooks1899.txt"
+      },
+      {
+        "title": "Chronicle (tr. R. H. Charles)",
+        "author": "John of Nikiu",
+        "date": null,
+        "language": "English translation from the Ethiopic",
+        "file": "cic/texts/john-nikiu_chronicle_charles1916.txt"
+      },
+      {
+        "title": "Synaxarium of the Coptic church, month of Abib (Basset's French), printed in Patrologia Orientalis 17",
+        "author": null,
+        "date": null,
+        "language": "French translation",
+        "file": "cic/texts/john-ephesus_lives-eastern-saints-po17_brooks1923.txt"
+      },
+      {
+        "title": "An Exposition of the Orthodox Faith, Book 3, chapter 11",
+        "author": "John of Damascus",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf209_hilary-poitiers-john-damascus.xml"
+      }
+    ]
+  },
+  "briefReferences": [
+    "Socrates of Constantinople, Church History VII.7: the army commander's backing for the archdeacon Timothy; Cyril in the bishop's chair on the third day; the Novatian churches shut and their goods seized.",
+    "Socrates VII.13: Cyril threatens the Jewish leaders; some Jews kill Christians in a night ambush; Cyril takes the synagogues, drives the Jews from the city and lets the crowd plunder them.",
+    "Socrates VII.14: the monks who came to fight for Cyril; the monk Ammonius strikes the emperor's governor with a stone and dies under torture; Cyril hails him as a martyr and lets it be forgotten.",
+    "Socrates VII.15: Hypatia killed in Lent, in the fourth year of Cyril's episcopate, by a mob led by a reader named Peter; the shame Socrates says fell on Cyril and the whole church. Zenos's note on the Novatians and Socrates's sharp judgment of Cyril (Introduction); Zenos's note on Walch, Gibbon, Milman and Bright (VII.15).",
+    "John of Nikiu, Chronicle, in the chapter on Hypatia: the killing told from the Coptic side, and the people's praise of Cyril, written in the late seventh century.",
+    "Cyril, second letter to Nestorius, in Pusey's Greek and English and in the NPNF English: the one born of the holy Virgin was not first an ordinary man; one Christ; Mary Mother of God.",
+    "Acts of Ephesus, in the NPNF English: the bishops agree that Cyril's letter to Nestorius states the faith of the Fathers. Socrates VII.34: the council's removal of Nestorius.",
+    "Mansi V, letter of Epiphanius, Cyril's archdeacon and syncellus, to Maximian of Constantinople: gifts sent to Pulcheria and the palace officials, and a debt of 1,500 pounds of gold. Hefele's summary of the letter and his judgment that such gifts were mostly custom.",
+    "Nestorius, Bazaar of Heracleides, tr. Driver and Hodgson: the gold of iniquity, and the translators' note on the letters of Acacius and Epiphanius.",
+    "Cyril, second letter to Succensus, as Pusey quotes it in a note to That Christ is One, and as John of Damascus quotes it (Exposition III.11): one incarnate nature, no mixture and no confusion.",
+    "Cyril, That Christ is One, tr. P. E. Pusey: the burning bush; Pusey's preface on the date (after the condemnation of Nestorius, not later than 441).",
+    "Acts of Chalcedon, in the NPNF English: the Definition receives Cyril's letters to Nestorius and to the Easterns and confesses Christ in two natures.",
+    "Severus of Antioch, Select Letters VI.i.9, to Stephen, bishop of Tripolis, written while bishop (513 to 518), tr. E. W. Brooks from the Syriac.",
+    "Coptic Synaxarium, 3 Abib, in Basset's French: his discourses and letters still in the hands of the faithful, his slight illness and death in peace after thirty-two years. Hefele: died in 444.",
+    "World census, The Church of Alexandria and Miaphysite Egypt: the churches of Egypt, Syria and Armenia that refused Chalcedon, and their use of Cyril's words; entry nestorius for his opponent."
+  ],
+  "quotationOriginals": [
+    {
+      "modern": "He came like fire upon the bush in the desert. The fire kept playing over the bush, and yet the bush was not burned up.",
+      "printed": "for He came in likeness of fire on the bush in the wilderness, and the fire kept playing on the shrub yet was it not consumed.",
+      "work": "Cyril, That Christ is One, tr. P. E. Pusey",
+      "file": "cic/texts/cyril-alexandria_five-tomes-against-nestorius-scholia-christ-is-one_pusey1881.txt",
+      "lines": "19878-19881",
+      "secondReading": "minor"
+    },
+    {
+      "modern": "An ordinary man was not born first of the holy Virgin, with the Word coming down on him afterwards. Rather, the Word, united from the womb itself, is said to have gone through birth in the flesh.",
+      "printed": "For not mere man was first born of the holy Virgin, and then the Word of God came down upon Him, but united from the very womb, He is said to have undergone birth in the Flesh,",
+      "work": "Cyril, second letter to Nestorius, tr. P. E. Pusey",
+      "file": "cic/texts/cyril-alexandria_three-epistles-grc-eng_pusey1872.txt",
+      "lines": "4334-4336",
+      "original": "οὐ γὰρ πρῶτον ἄνθρωπος ἐγεννήθη κοινὸς ἐκ τῆς ἁγίας παρθένου, εἶθ᾽ οὕτω καταπεφοίτηκεν ἐπ᾿ αὐτὸν ὁ Λόγος· ἀλλ᾽ ἐξ αὐτῆς μήτρας ἑνωθεὶς, ὑπομεῖναι λέγεται γέννησιν σαρκικὴν",
+      "originalFile": "cic/texts/cyril-alexandria_three-epistles-grc-eng_pusey1872.txt",
+      "originalLines": "954-957",
+      "secondReading": "same"
+    },
+    {
+      "modern": "the gold of iniquity",
+      "printed": "the gold of iniquity",
+      "work": "Nestorius, Bazaar of Heracleides, tr. G. R. Driver and Leonard Hodgson",
+      "file": "cic/texts/nestorius_bazaar-of-heracleides_driver-hodgson1925.txt",
+      "lines": "15817",
+      "secondReading": "same"
+    },
+    {
+      "modern": "one nature",
+      "printed": "the one nature of the Word",
+      "work": "Cyril, second letter to Succensus, as John of Damascus quotes it, Exposition of the Orthodox Faith III.11",
+      "file": "cic/texts/npnf209_hilary-poitiers-john-damascus.xml",
+      "lines": "33086-33087",
+      "uncertain": "Cyril's short form of one incarnate nature of the Word; in the same letter he says the phrase would be incomplete without incarnate. The Greek of the letter is not held.",
+      "secondReading": "minor"
+    },
+    {
+      "modern": "one incarnate nature of the Word",
+      "printed": "One Incarnate Nature of the Word",
+      "work": "Cyril, second letter to Succensus, as Pusey quotes it in a note to That Christ is One",
+      "file": "cic/texts/cyril-alexandria_five-tomes-against-nestorius-scholia-christ-is-one_pusey1881.txt",
+      "lines": "19834-19835",
+      "uncertain": "The Greek of the letter is not held. John of Damascus has Cyril interpret one nature of God the Word Incarnate, and Hefele's English of the letter to Eulogius has one incarnate nature of God.",
+      "secondReading": "same"
+    },
+    {
+      "modern": "no commingling, no confusion",
+      "printed": "no commingling, no confusion",
+      "work": "Cyril, second letter to Succensus, as Pusey quotes it in a note to That Christ is One",
+      "file": "cic/texts/cyril-alexandria_five-tomes-against-nestorius-scholia-christ-is-one_pusey1881.txt",
+      "lines": "19847",
+      "secondReading": "same"
+    },
+    {
+      "modern": "the letter of the holy Cyril to Nestorius. Every word he spoke, one could say, is a law of the church.",
+      "printed": "the epistle of the holy Cyril (every utterance of whom one would say is a law of the church) to Nestorius",
+      "work": "Severus of Antioch, Select Letters VI.i.9, to Stephen, bishop of Tripolis, tr. E. W. Brooks from the Syriac",
+      "file": "cic/texts/severus-of-antioch_select-letters-book6-part1_brooks1903.txt",
+      "lines": "2106-2108",
+      "uncertain": "The Syriac is not held; the modern wording follows Brooks's English.",
+      "secondReading": "same"
+    }
+  ]
+}

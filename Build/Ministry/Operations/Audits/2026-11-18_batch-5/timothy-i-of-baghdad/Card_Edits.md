@@ -1,0 +1,31 @@
+# Card edits: Timothy I of Baghdad
+
+Card writer, batch 5, 2026-11-18. Base: the census card for `timothy-i-of-baghdad` (identical to `Card.existing.json`, checked by object comparison). Every existing key and value is kept word for word and in order. Result: `timothy-i-of-baghdad.card.json`.
+
+## New
+
+1. **`quotationOriginals`** (old: none). Three entries, one for each quoted span in the brief. All three spans are new to the card, so none has a `secondReading`. All three are **awaiting second reading**.
+   - Q1. Modern: "The priesthood is by no means sold for money," Printed: "sacerdotium nequaquam pecuniis venditur". Work: Mari ibn Sulayman, in Gismondi's Latin (Mari's Arabic is not usable in the OCR). Evidence: `cic/texts/mari-ibn-sulayman_de-patriarchis-nestorianorum-commentaria-pars-prior-ara-lat_gismondi1899.txt` lines 13084-13085, re-read ("sacerdotium" ends line 13084, "nequaquam pecuniis venditur" starts 13085). The file is in `sources.about`.
+   - Q2. Modern: "Almighty God allowed it, and the king, may God keep him alive, agreed that the churches be rebuilt. Even so, we had to go before him six times on this matter." Printed (Chabot's French): "si le Dieu tout puissant a permis, et si le roi — que Dieu conserve sa vie! — a consenti à la reconstruction des églises, nous avons dû néanmoins aller six fois en sa présence pour cette affaire." Work: Timothy I, letter to Ephrem of Elam, Synodicon Orientale, Appendix IV. Evidence: `cic/texts/synodicon-orientale_recueil-de-synodes-nestoriens-syr-fra_chabot1902.txt` lines 40543-40546, re-read. The file is in `sources.ownWords`.
+   - Q3. Modern: "Make bishops of whomever you and the pious Kardagh choose. In place of the third bishop, let the Book of the Gospels be laid on the throne at the right hand. So, by the hand of God, ordain the first bishop." Printed (Budge): "Appoint as Bishops whomsoever ye and the pious Kardagh shall choose, and in the place of the third [person who should be present], let the Book of the Gospels be laid on the [episcopal] throne on the right hand; thus by the hand of God perform the ordination of the first Bishop". Work: Timothy I, letter to Yahbalaha, as Thomas of Marga quotes it, Book of Governors V, tr. Budge. Evidence: `cic/texts/thomas-of-marga_book-of-governors-v2-english_budge1893.txt` lines 21980-21985, re-read. The file is in `sources.ownWords`.
+   - **Two scan faults the validator will stop on.** I did not run `tools/validate-census.mjs` and did not touch `tools/quote_scan_readings.json` (a shared file). My own fold check of each printed wording against its lines passes for Q1, and for Q2 and Q3 only once the two OCR faults are read as the page prints them: Q2, line 40545, scan "avons 1 néanmoins", page "avons dû néanmoins" (the sheet's own reading, Source_Sheet M10); Q3, line 21980, scan "w^homsoever", page "whomsoever". Both need an `OCR misread` entry in `tools/quote_scan_readings.json` (file, lines, scan, reads) before the card passes. The printed wordings above keep the page's words, not the scan's faults.
+2. **`briefReferences`** (old: none). Eleven entries for what the brief draws on, each re-read at these lines. No quotation marks.
+   - Xi'an stele: Legge `legge_nestorian-monument-of-hsi-an-fu_trubner1888.txt` 3444-3451 (stone of 781, "In Syriac" the Father of Fathers Hanan-Yeshu'), note 3466-3478 (news of the death not reached China); Bar Hebraeus editors' note, `barhebraeus_chronicon-ecclesiasticum-vol3-lat_abbeloos-lamy1877.txt` 9519-9548.
+   - Mari: sacks of stones, consecration after eight months, Q1 (13079-13086); Ephrem and thirteen bishops, Timothy and fifteen (13024-13028); killings and imprisonments (13027-13028); Joseph of Merv, Timothy's broken promise, deposing him (13091-13098); his failed accusation before al-Mahdi (13014-13016). Five caliphs, death in the year of al-Ma'mun's entry, ninety-fifth year, burial at Kelilisho, restored and made his home (12983-12990). Assemani, Bibliotheca Orientalis III.2, lines 42357-42364: built Kelilisho at Baghdad and fixed his home there.
+   - Elias of Nisibis: 7 iyyar, Sunday, Greek year 1091; Friday 9 kanun II, Greek 1134 (3716-3722; 823 is the Greek year's Christian date, as the card already says). Chabot's note, Synodicon Orientale 40361: Friday 9 January 823, age 95.
+   - 'Abdisho's list, in Assemani's `...tomus3-pars1...` 29750-29751: the disputation with al-Mahdi. Amr, Gismondi's Latin: al-Hadi summoned him on most days (13026-13027 with 12935-12940).
+   - Synod letter, Synodicon Orientale: the split of about two years (40410-40415); the reason for the definition (40417-40422); the consent rule, canon I (from 40424); the gifts rule, canon II (40462-40471); the six audiences before the king (40540-40548). Date 790 by Chabot's note (40283-40287), 786 and 804 by the editors of Bar Hebraeus (BHN 10412-10413).
+   - Thomas of Marga, Book V: the two sent for from the monastery (21890-21891), the brothers (21850), anointed metropolitans (21956-21959), Timothy's answer and the seven bishops (21975-22005); Gilan and Dailom south of the Caspian (Assemani II 52755-52760).
+   - Thomas, David of Beth Sinaye from Timothy's letters (20156-20161); Budge's note "China" (20186).
+   - Bar Hebraeus, Fars report (9750-9821, permission and the custom at 9814-9820); Mingana, "province of Fars" (1719-1748).
+   - Mingana, letter to the monks of Mar Maron, from his own manuscript (1684-1691, 1703-1704).
+   - World census: tradition `the-church-of-the-east-on-the-silk-road`.
+3. **`briefLength`**: not added. `tools/validate-census.mjs` (`CARD_KEYS`, line 205) does not allow the key, and the card prompt says no `briefLength`. (The brief is 766 words, about 5 minutes 6 seconds, per `Revision.md`.)
+
+## Clearly wrong
+
+None. No statement on the card is contradicted by a held source or by the finished brief.
+
+## Not found
+
+None among the claims the brief touches. Checked and standing: Elias and Chabot's note give Friday 9 January 823 (Chabot 40361; the card's "Chabot's index gives 825" was not re-read); Mari's "ninety-fifth year" (12984-12985), where the brief says "ninety-five", as Chabot does (40361), so no edit. The card's claims about 'Abdisho's second synod, Thomas's "by fraud", and the letters count were not re-read, as the brief does not touch them.
