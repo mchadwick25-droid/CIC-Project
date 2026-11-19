@@ -1,0 +1,163 @@
+{
+ "otherNames": [
+  "Hermas, author of the Shepherd"
+ ],
+ "knownFor": "A Christian of Rome whose book of visions, the Shepherd, was read for centuries and allowed one repentance after baptism.",
+ "datesNote": "Writing between about 100 and 160",
+ "placeNote": "Rome",
+ "role": "Writer of visions",
+ "keyWorks": [
+  {
+   "title": "The Shepherd",
+   "about": "visions, commands and parables calling the church to repent"
+  }
+ ],
+ "legacy": {
+  "traces": [
+   "The Shepherd taught that a Christian who sins after \"that great and holy calling\" may repent once."
+  ],
+  "remembered": [
+   "Irenaeus of Lyon quoted it as Scripture. Clement of Alexandria and Origen used it as inspired.",
+   "Tertullian of Carthage called it \"the only one which favours adulterers.\"",
+   "The Muratorian Canon says it should be read, but not in church to the people. Eusebius of Caesarea placed it among the spurious books. Jerome of Strido found it almost unknown among the Latins."
+  ]
+ },
+ "uncertain": [
+  "What the Shepherd tells of Hermas comes from inside its visions, and no other source confirms it.",
+  "The Muratorian Canon makes him the brother of Pius, bishop of Rome, which puts the book in the middle of the second century. Arthur McGiffert, who translated Eusebius of Caesarea, says most scholars accepted this. Zahn dated it between 97 and 100, to an unknown Hermas living when Clement of Rome did.",
+  "That he was the Hermas whom Paul greets in Romans goes back to Origen. McGiffert calls it \"a mere guess.\"",
+  "Cleveland Coxe, in his notes to the American edition, asks whether the words on one repentance can be genuine, since they sound like the strictness the book opposes. Part of the sentence before them is found in only one manuscript.",
+  "In the text F. Crombie translated, the man who raised Hermas sold him to a woman named Rhoda. The Vatican Latin and the Leipzig Greek copy say instead that he sold a young woman."
+ ],
+ "sources": {
+  "ownWords": [
+   {
+    "title": "The Pastor of Hermas",
+    "file": "cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml",
+    "language": "English"
+   }
+  ],
+  "about": [
+   {
+    "title": "The Muratorian Canon",
+    "author": "Unknown",
+    "date": null,
+    "language": "English translation",
+    "file": "cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
+   },
+   {
+    "title": "On Modesty, chapters 10 and 20",
+    "author": "Tertullian of Carthage",
+    "date": null,
+    "language": "English translation",
+    "file": "cic/texts/anf04_tertullian4-minucius-felix-commodian-origen1-2.xml"
+   },
+   {
+    "title": "Church History, Book 3, chapter 3, with McGiffert's notes",
+    "author": "Eusebius of Caesarea",
+    "date": null,
+    "language": "English translation",
+    "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml"
+   },
+   {
+    "title": "The Muratorian Canon (ed. Martin Joseph Routh, Reliquiae Sacrae I)",
+    "author": "Unknown",
+    "date": "1846",
+    "language": "Latin",
+    "file": "cic/texts/apologists-fragmentary_reliquiae-sacrae-vol1-lat-grc_routh1846.txt"
+   },
+   {
+    "title": "Against Heresies, Book 4, chapter 20",
+    "author": "Irenaeus of Lyon",
+    "date": null,
+    "language": "English translation",
+    "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml"
+   },
+   {
+    "title": "Stromata, Book 2, chapter 13: On First and Second Repentance",
+    "author": "Clement of Alexandria",
+    "date": null,
+    "language": "English translation",
+    "file": "cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml"
+   },
+   {
+    "title": "Festal Letter 39",
+    "author": "Athanasius of Alexandria",
+    "date": "367",
+    "language": "English translation",
+    "file": "cic/texts/npnf204_athanasius-select-works-letters.xml"
+   },
+   {
+    "title": "Lives of Illustrious Men, chapter 10",
+    "author": "Jerome",
+    "date": null,
+    "language": "English translation",
+    "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml"
+   }
+  ]
+ },
+ "briefReferences": [
+  "The Pastor of Hermas, tr. F. Crombie, Vision 1, chapter 1: the man who raised him sold him to Rhoda in Rome; years later he drew her out of the Tiber and thought how happy he would be with such a wife; she appeared from the heavens to accuse him of that desire.",
+  "Vision 2, chapters 2 and 4: the book the old woman gave him, forgiveness for those who repent with all their heart before a day that has been fixed, and the old woman as the Church.",
+  "Vision 3, chapters 2 to 6: the tower built on the water, the stones set aside that can still be built in if their owners repent before it is finished, and the round stones of the rich that must be cut square, turned on Hermas himself.",
+  "Vision 5: the angel of repentance, dressed as a shepherd, who gives the book its name.",
+  "Commandment 4, chapter 3: the teachers who allowed no repentance after baptism, the one repentance the Lord in mercy grants to those already called, and the man who keeps sinning and repenting.",
+  "Similitude 10, chapter 2: he makes known to everyone the great works of God, and hopes that all who love them and have sinned before may repent and receive life again.",
+  "Irenaeus, Against Heresies 4.20.2: the first Commandment quoted with the words \"the Scripture declared\".",
+  "Clement of Alexandria, Stromata 2.13: a second repentance after baptism, in words that follow the Shepherd's.",
+  "Eusebius, Church History 3.3: read publicly in churches.",
+  "The Muratorian Canon, in Routh's Latin and the English of the Ante-Nicene Fathers: written very recently, while his brother Pius was bishop of Rome; to be read, but not made public in church to the people, nor placed among the prophets or the apostles.",
+  "Tertullian, On Modesty 1: the bishop's edict forgiving adultery to those who have done penance. Chapter 20: the apocryphal Shepherd of adulterers.",
+  "Athanasius, Festal Letter 39 (367): the Shepherd among the books the Fathers appointed to be read by those who newly join the church.",
+  "Jerome, Lives of Illustrious Men 10: read publicly in some churches of Greece, almost unknown among the Latins."
+ ],
+ "quotationOriginals": [
+  {
+   "modern": "When you were rich, you were of no use. But now you are useful, and fit for life.",
+   "printed": "When you were rich, you were useless; but now you are useful and fit for life.",
+   "work": "The Pastor of Hermas, Vision 3, chapter 6, tr. F. Crombie",
+   "file": "cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml",
+   "lines": "1298-1299"
+  },
+  {
+   "modern": "Sir, I have heard some teachers say this. There is no other repentance than the one when we went down into the water, and our past sins were forgiven.",
+   "printed": "I heard, sir, some teachers maintain that there is no other repentance than that which takes place, when we descended into the water and received remission of our former sins.",
+   "work": "The Pastor of Hermas, Commandment 4, chapter 3, tr. F. Crombie",
+   "file": "cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml",
+   "lines": "1990-1994"
+  },
+  {
+   "modern": "with difficulty will he live.",
+   "printed": "for with difficulty will he live.",
+   "work": "The Pastor of Hermas, Commandment 4, chapter 3, tr. F. Crombie",
+   "file": "cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml",
+   "lines": "2022",
+   "uncertain": "Crombie notes that the Vatican and Palatine Latin read \"With difficulty will he live to God.\""
+  },
+  {
+   "modern": "the Scripture declared",
+   "printed": "Truly, then, the Scripture declared, which says,",
+   "work": "Irenaeus, Against Heresies 4.20.2, Ante-Nicene Fathers 1",
+   "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
+   "lines": "46864"
+  },
+  {
+   "modern": "So it ought indeed to be read. But it cannot be read out to the people in church.",
+   "printed": "Et ideo legi eum quidem oportet, se publicare ( for. sed publieari) vero in ecclesia populo, neque inter prophetas completum (for. completos) numero, neque inter apostolos, in finem temporum potest.",
+   "work": "The Muratorian Canon, Latin, ed. Martin Joseph Routh, Reliquiae Sacrae I (1846)",
+   "file": "cic/texts/apologists-fragmentary_reliquiae-sacrae-vol1-lat-grc_routh1846.txt",
+   "lines": "22081-22084",
+   "englishPrinted": "And therefore it also ought to be read; but it cannot be made public in the Church to the people, nor placed among the prophets, as their number is complete, nor among the apostles to the end of time.",
+   "englishFile": "cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml",
+   "englishLines": "60180-60185",
+   "uncertain": "The manuscript reads \"se publicare\"; the rendering follows the editors' correction \"sed publicari\", which this scan prints as \"publieari\". The brief quotes the first part of the sentence; the rest says the book cannot be placed among the prophets or the apostles."
+  },
+  {
+   "modern": "the Shepherd of adulterers",
+   "printed": "that apocryphal “Shepherd” of adulterers.",
+   "work": "Tertullian, On Modesty 20, Ante-Nicene Fathers 4",
+   "file": "cic/texts/anf04_tertullian4-minucius-felix-commodian-origen1-2.xml",
+   "lines": "9330-9331"
+  }
+ ]
+}

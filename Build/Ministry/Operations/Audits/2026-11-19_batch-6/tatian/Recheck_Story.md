@@ -48,7 +48,7 @@ with:
 
 > In the churches that spoke Syriac it was widely read aloud as the Gospel, and Ephrem the Syrian wrote a commentary on it.
 
-Both fixes are held by the lines cited above. Neither adds a claim, and both sentences stay under 30 words (28 and 22).
+Both fixes are held by the lines cited above. Neither adds a claim, and both sentences stay under 30 words (28 and 23).
 
 ## 4. Score
 
