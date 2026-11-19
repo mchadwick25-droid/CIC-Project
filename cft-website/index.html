@@ -126452,7 +126452,7 @@ const tourSeen=k=>{try{return localStorage.getItem(TOUR_STORE[k])==='seen';}catc
 const tourMark=k=>{try{localStorage.setItem(TOUR_STORE[k],'seen');}catch(e){}};
 const tourBox=document.getElementById('tourBox'), tourRing=document.getElementById('tourRing');
 const tour={on:null,offer:null,i:0,tok:0,saved:null,ownConn:false,opener:null,ring:null,raf:0,moveRaf:0};
-const TOUR_TRAD='post-apostolic-house-church';
+const tourTrad=()=>DATA.movements.find(m=>m.shortName==='Scattered Households');
 const tourWait=ms=>new Promise(r=>setTimeout(r,ms));
 function tourFree(){
   const narrow=narrowScreen(), boxH=tourBox.hidden?0:tourBox.offsetHeight+24;
@@ -126476,7 +126476,7 @@ function tourMoveTo(x,y,s){
     tour.moveRaf=requestAnimationFrame(f);
   });
 }
-function tourFrameEra(){const m=byId[TOUR_TRAD];return tourMoveTo(m._x+120,m._y+90,Z_READ);}
+function tourFrameEra(){const m=tourTrad();return tourMoveTo(m._x+120,m._y+90,Z_READ);}
 function tourPoint(target){tour.ring=target||null;tourRing.hidden=!target;tourTrack();}
 function tourTrack(){
   if(!tour.on&&!tour.offer){tour.raf=0;return;}
@@ -126535,7 +126535,7 @@ const TOURS={
      enter:async ok=>{tourBase();await tourFrameEra();}},
     {title:'A tradition',text:'Each small house is one tradition. Open it to read its story, or press play to hear it.',
      enter:async ok=>{tourBase();await tourFrameEra();if(!ok())return;
-       const n=gNodes.querySelector(`.node[data-id="${TOUR_TRAD}"]`);tourPoint(n);await tourWait(700);if(!ok())return;tourClick(n);}},
+       const n=gNodes.querySelector(`.node[data-id="${CSS.escape(tourTrad().id)}"]`);tourPoint(n);await tourWait(700);if(!ok())return;tourClick(n);}},
     {title:'Who was there',text:'A figure on a river stands for its people in that era. Open it to see who they were.',
      enter:async ok=>{tourBase();await tourFrameEra();if(!ok())return;
        const pill=gWhoPills.querySelector('.river-pill[data-who="r:0:0"]');tourPoint(pill);await tourWait(700);if(!ok())return;tourClick(pill);
@@ -126593,7 +126593,7 @@ function startTour(kind){
   tour.opener=document.activeElement;
   tour.saved={tx,ty,scale,who:whoScope,conn:connFocus};
   tour.on=kind; tour.ownConn=false;
-  if(kind==='conn'&&effectiveLinkMode()==='off'&&!connFocus){tour.ownConn=true;showConnections(byId[TOUR_TRAD]);}
+  if(kind==='conn'&&effectiveLinkMode()==='off'&&!connFocus){tour.ownConn=true;showConnections(tourTrad());}
   if(!tour.raf)tour.raf=requestAnimationFrame(tourTrack);
   tourGo(0);
 }
