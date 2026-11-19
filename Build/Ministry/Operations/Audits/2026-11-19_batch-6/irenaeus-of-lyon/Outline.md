@@ -151,6 +151,7 @@ Only Quotes 1–3 are quoted aloud. "The twelfth place from the apostles" and "w
 - Not "the Nag Hammadi books proved him wrong" or "right". Say only that they let the Valentinians speak for themselves for the first time (I3).
 - Not that the book he named was found in 1945.
 - Not "the father of theology" or any title of praise in the narrator's voice.
+- Do not leave the Polycarp boyhood or 'bishop of Lyon after the martyrs of 177' until after the first minute. Name both in the essence, before the three answers are told; the persecution is then told in full at beat 2.
 
 **Leave out**
 
