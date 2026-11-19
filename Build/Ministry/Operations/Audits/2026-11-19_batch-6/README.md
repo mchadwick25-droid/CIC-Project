@@ -52,4 +52,4 @@ Each folder holds `Source_Sheet.md` and `Outline.md` from the researcher, and `C
 - The batch 7 launch prompt in `Build/Ministry/Features/Church-Family-Tree/Launch-Prompts/`, carrying the ledger step and Origen and Methodius under review.
 
 ## Status (2026-11-19)
-Steps 0 to 8 are done. The twelve and Polycarp are authored, reviewed, carded, read blind (`Second_Readings.md`), in the census and the tree pages (`Release.md`), and recorded (`recording/`, 20,824 credits). Open points: Open-Gaps 333 and 334.
+Steps 0 to 8 are done. The twelve and Polycarp are authored, reviewed, carded, read blind (`Second_Readings.md`), in the census and the tree pages (`Release.md`), and recorded (`recording/`, 20,824 credits). Open points: Open-Gaps 335 and 336.

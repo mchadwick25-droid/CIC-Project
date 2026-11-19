@@ -327,6 +327,7 @@ svg.strip-on #era-labels{display:none}
 #whoTray .tray-title{flex:1;min-width:0}
 #whoTray h2{font-family:"Alegreya",serif;font-size:1.2rem;line-height:1.2;margin:0}
 #whoTray .tray-sub{font-size:.9rem;color:var(--ink-faded);margin:.15rem 0 0}
+#whoTray .tray-tag{font-family:"Alegreya",serif;font-style:italic;font-size:.98rem;line-height:1.3;margin:.2rem 0 0}
 #whoTray .tray-btn{flex:none;min-width:44px;min-height:44px;background:none;border:0;color:var(--ink-faded);font:inherit;font-size:1.4rem;line-height:1;cursor:pointer;border-radius:4px}
 #whoTray .tray-btn:hover{color:var(--gold-leaf)}
 #whoTray button:focus-visible{outline:2px solid var(--madder);outline-offset:-2px}
@@ -344,8 +345,10 @@ svg.strip-on #era-labels{display:none}
 #whoTray .tray-row:hover{background:var(--tyrian-wash)}
 #whoTray .nm{font-family:"Alegreya",serif;font-size:1.06rem;line-height:1.25}
 #whoTray .tray-row.on-map .nm{font-weight:700}
+#whoTray .nm .rv-done,.rv-done{color:var(--link-grow);font-family:"Alegreya Sans",sans-serif;font-weight:700}
+#whoTray .rl{grid-column:1;font-size:.92rem;line-height:1.3}
 #whoTray .dt{grid-column:1;font-size:.85rem;color:var(--ink-faded);line-height:1.3}
-#whoTray .mk{grid-row:1/span 2;grid-column:2;font:700 .75rem "Alegreya Sans",sans-serif;letter-spacing:.05em;color:var(--gold-leaf);white-space:nowrap}
+#whoTray .mk{grid-row:1/span 3;grid-column:2;font:700 .75rem "Alegreya Sans",sans-serif;letter-spacing:.05em;color:var(--gold-leaf);white-space:nowrap}
 #connChip{position:fixed;z-index:22;left:.6rem;top:calc(var(--map-top,8rem) + var(--strip-h,0px) + .6rem);max-width:calc(100vw - 5rem);background:var(--vellum);border:1px solid var(--gold-leaf);border-radius:8px;box-shadow:var(--shadow);padding:.2rem .5rem .4rem}
 #connChip[hidden]{display:none}
 #connChip .cc-x{display:flex;align-items:center;gap:.6rem;min-height:44px;background:none;border:0;color:var(--gold-leaf);font:700 1rem "Alegreya Sans",sans-serif;cursor:pointer;padding:0 .2rem}
@@ -373,6 +376,33 @@ svg.strip-on #era-labels{display:none}
 #barToast{position:fixed;z-index:60;left:50%;transform:translateX(-50%);bottom:calc(var(--bar-h,0px) + 1rem + env(safe-area-inset-bottom,0px));background:var(--iron-gall);color:var(--parchment);font:700 1rem "Alegreya Sans",sans-serif;padding:.45rem .9rem;border-radius:999px;opacity:0;transition:opacity .2s;pointer-events:none}
 #barToast.on{opacity:1}
 @media (prefers-reduced-motion:reduce){#barToast{transition:none}}
+#listenBar{position:fixed;z-index:30;left:50%;transform:translateX(-50%);bottom:calc(var(--listen-lift,0px) + 1rem + env(safe-area-inset-bottom,0px));display:flex;align-items:center;gap:.3rem;max-width:calc(100vw - 1rem);padding:.25rem .3rem .25rem .4rem;background:var(--vellum);color:var(--iron-gall);border:1px solid var(--gold-leaf);border-radius:999px;box-shadow:0 4px 16px rgba(0,0,0,.35);font:1rem "Alegreya Sans",sans-serif}
+#listenBar[hidden]{display:none}
+#listenBar .lb-text{min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;padding:0 .3rem}
+#listenBar .lb-name{font-family:"Alegreya",serif;font-weight:700}
+#listenBar button{flex:none;min-height:44px;min-width:44px;padding:0 .8rem;border:1px solid var(--rule);border-radius:999px;background:none;color:inherit;font:700 .95rem "Alegreya Sans",sans-serif;cursor:pointer}
+#listenBar button:hover{border-color:var(--gold-leaf);color:var(--gold-leaf)}
+#listenBar button:focus-visible{outline:2px solid var(--madder);outline-offset:2px}
+@media (max-width:640px){#listenBar .lb-wide{display:none}}
+#tourBox{position:fixed;z-index:72;left:50%;transform:translateX(-50%);bottom:calc(var(--tour-lift,0px) + 1rem + env(safe-area-inset-bottom,0px));width:min(27rem,calc(100vw - 1.5rem));box-sizing:border-box;background:var(--vellum);color:var(--iron-gall);border:1px solid var(--gold-leaf);border-radius:12px;box-shadow:0 8px 28px rgba(0,0,0,.45);padding:.85rem 3rem .9rem 1.1rem;font-family:"Alegreya Sans",sans-serif}
+#tourBox[hidden]{display:none}
+#tourBox .tb-count{margin:0;font:700 .78rem "Alegreya Sans",sans-serif;letter-spacing:.09em;text-transform:uppercase;color:var(--gold-leaf)}
+#tourBox.is-offer .tb-count,#tourBox.is-offer #tourText{display:none}
+#tourBox h2{font:700 1.2rem/1.25 "Alegreya",serif;margin:.15rem 0 .3rem;outline:none}
+#tourBox p#tourText{margin:0 0 .7rem;font-size:1.02rem;line-height:1.45}
+#tourBox.is-offer h2{margin:.1rem 0 .7rem}
+#tourBox .tb-btns{display:flex;gap:.5rem;justify-content:flex-end;flex-wrap:wrap}
+#tourBox .tb-btns button[hidden]{display:none}
+#tourBox button{min-height:44px;padding:0 1rem;border:1px solid var(--rule);border-radius:999px;background:none;color:var(--iron-gall);font:700 .98rem "Alegreya Sans",sans-serif;cursor:pointer}
+#tourBox .tb-next{border-color:var(--gold-leaf);background:var(--tyrian-wash);color:var(--gold-leaf)}
+#tourBox button:hover{border-color:var(--gold-leaf)}
+#tourBox button:focus-visible{outline:2px solid var(--madder);outline-offset:2px}
+#tourBox .tb-stop{position:absolute;top:.35rem;right:.35rem;min-width:44px;padding:0;border:0;font-size:1.4rem;line-height:1;color:var(--ink-faded)}
+#tourRing{position:fixed;z-index:71;pointer-events:none;border:2px solid var(--gold-leaf);border-radius:10px;box-shadow:0 0 0 4px rgba(216,178,90,.28);transition:left .25s,top .25s,width .25s,height .25s}
+#tourRing[hidden]{display:none}
+.edge-hit.tour-glow{stroke:var(--gold-leaf)!important;stroke-opacity:.65;stroke-width:calc(9px / var(--zoom-scale,1))!important;display:inline!important}
+@media (prefers-reduced-motion:reduce){#tourRing{transition:none}}
+#listenBar .lb-stop{border:0;font-size:1.4rem;line-height:1;padding:0;color:var(--ink-faded)}
 #zoomHint{transition:opacity .4s}
 #zoomHint.gone{opacity:0;pointer-events:none}
 #zoomHint b{color:var(--iron-gall)}
@@ -498,6 +528,9 @@ svg.strip-on #era-labels{display:none}
   <a href="https://churchinconversation.com/">Church in Conversation</a>
   <a href="support.html">Help us grow</a>
   <button type="button" data-act="feedback">Tell us what you think</button>
+  <p class="tag">Take a tour</p>
+  <button type="button" data-tour="intro">Getting started</button>
+  <button type="button" data-tour="conn">Connections</button>
 </nav>
 <div class="feature-bar switches" id="switchbar" role="toolbar" aria-label="Show or hide parts of the map"></div>
 <div id="mapStatus" class="sr-only" role="status" aria-live="polite"></div>
@@ -516,13 +549,16 @@ svg.strip-on #era-labels{display:none}
 </div>
 <aside id="whoTray" hidden aria-labelledby="trayTitle">
   <div class="tray-head"><button type="button" class="tray-btn tray-grip" aria-expanded="true" aria-label="Make the list smaller">&#9662;</button>
-  <div class="tray-title"><h2 id="trayTitle"></h2><p class="tray-sub"></p></div>
+  <div class="tray-title"><h2 id="trayTitle"></h2><p class="tray-tag" hidden></p><p class="tray-sub"></p></div>
   <button type="button" class="tray-btn tray-close" aria-label="Close the Who list and clear the names from the map">&times;</button></div>
   <div class="tray-sort" role="group" aria-label="Order of the list"><button type="button" data-sort="date" aria-pressed="true">By date</button><button type="button" data-sort="trad" aria-pressed="false">By tradition</button></div>
   <div class="tray-body"></div>
 </aside>
 <div id="connChip" hidden><button type="button" class="cc-x"><span class="cc-t"></span><span aria-hidden="true">&times;</span></button><ul class="cc-key"><li><i style="background:var(--link-grow)"></i>Grew out of, continued as</li><li><i style="background:var(--link-influence)"></i>Influenced</li><li><i style="background:var(--link-conflict)"></i>Argued against, broke with</li><li><i style="background:var(--link-contact)"></i>In contact with, member of</li></ul></div>
 <div id="barToast" aria-hidden="true"></div>
+<div id="tourRing" hidden></div>
+<div id="tourBox" role="dialog" aria-modal="false" aria-labelledby="tourCount tourTitle" aria-describedby="tourText" hidden><p class="tb-count" id="tourCount"></p><h2 id="tourTitle" tabindex="-1"></h2><p id="tourText"></p><div class="tb-btns"><button type="button" class="tb-back">Back</button><button type="button" class="tb-next">Next</button></div><button type="button" class="tb-stop" aria-label="Stop the tour">&times;</button></div>
+<div id="listenBar" role="region" aria-label="Narration" hidden><button type="button" class="lb-play">Pause</button><span class="lb-text"><span class="lb-wide">Listening: </span><span class="lb-name"></span></span><button type="button" class="lb-open" aria-label="Open the card">Open<span class="lb-wide"> the card</span></button><button type="button" class="lb-stop" aria-label="Stop listening">&times;</button></div>
 <div id="zoomHint">Scroll to move &middot; Ctrl + scroll to zoom</div>
 
 <script src="assets/place-line.js"></script>
@@ -124672,21 +124708,21 @@ const DATA = {
 ;
 
 const FAM=[
- {k:0,  name:"Origin", common:"The first churches", col:"#e86155"},
- {k:1,  name:"Syriac East", common:"Church of the East and other Syriac churches", col:"#95455c"},
- {k:1.5,name:"Syriac and Protestant", common:"Mar Thoma and churches of northeast India", col:"#ac9000"},
- {k:2,  name:"Caucasus", common:"Armenian and Georgian", col:"#357339"},
- {k:3,  name:"Greek East", common:"Orthodox", col:"#4255c4"},
- {k:3.4,name:"Church and Empire", common:"The church of the Roman Empire", col:"#de6e29"},
- {k:3.5,name:"Greek and Latin", common:"", col:"#a27adf"},
- {k:4,  name:"Africa", common:"Coptic, Ethiopian and other African churches", col:"#12a5b1"},
- {k:4.5,name:"Africa and Latin", common:"Catholics in Africa", col:"#65a30d"},
- {k:5,  name:"Latin West", common:"Catholic", col:"#8b5500"},
- {k:5.5,name:"Latin and Protestant", common:"", col:"#7d43a7"},
- {k:6,  name:"Protestant & Evangelical", common:"", col:"#2c93ff"},
- {k:7,  name:"Global Revival & Pentecostal", common:"", col:"#e257a4"},
- {k:50, name:"Across families", common:"", col:"#798224"},
- {k:80, name:"Non-Nicene", common:"Outside the Nicene Creed", col:"#6c72bc"}
+ {k:0,  name:"The First Churches", common:"", of:"the First Churches", col:"#e86155"},
+ {k:1,  name:"Syriac East", of:"the Syriac East", common:"Church of the East and other Syriac churches", col:"#95455c"},
+ {k:1.5,name:"Syriac and Protestant", of:"the Syriac and Protestant river", common:"Mar Thoma and churches of northeast India", col:"#ac9000"},
+ {k:2,  name:"Caucasus", of:"the Caucasus", common:"Armenian and Georgian", col:"#357339"},
+ {k:3,  name:"Greek East", of:"the Greek East", common:"Orthodox", col:"#4255c4"},
+ {k:3.4,name:"Church and Empire", of:"the Church and Empire river", common:"The church of the Roman Empire", col:"#de6e29"},
+ {k:3.5,name:"Greek and Latin", of:"the Greek and Latin river", common:"", col:"#a27adf"},
+ {k:4,  name:"Africa", of:"Africa", common:"Coptic, Ethiopian and other African churches", col:"#12a5b1"},
+ {k:4.5,name:"Africa and Latin", of:"the Africa and Latin river", common:"Catholics in Africa", col:"#65a30d"},
+ {k:5,  name:"Latin West", of:"the Latin West", common:"Catholic", col:"#8b5500"},
+ {k:5.5,name:"Latin and Protestant", of:"the Latin and Protestant river", common:"", col:"#7d43a7"},
+ {k:6,  name:"Protestant & Evangelical", of:"the Protestant & Evangelical river", common:"", col:"#2c93ff"},
+ {k:7,  name:"Global Revival & Pentecostal", of:"the Global Revival & Pentecostal river", common:"", col:"#e257a4"},
+ {k:50, name:"Across families", of:"many families", common:"", col:"#798224"},
+ {k:80, name:"Non-Nicene", of:"the Non-Nicene river", common:"Outside the Nicene Creed", col:"#6c72bc"}
 ];
 function famOf(laneOrder){let best=FAM[0],bd=1e9;FAM.forEach(f=>{const d=Math.abs(f.k-laneOrder);if(d<bd){bd=d;best=f;}});return best;}
 const famColor=f=>f.col;
@@ -125447,6 +125483,8 @@ function plainDates(s){
     .replace(/(\d)-(?=[a-z])/g,'$1 to ')
     .replace(/(\d(?:s|st|nd|rd|th)?)-(?=\d)/g,'$1–');
 }
+const REVIEW_MODE=new URLSearchParams(location.search).has('review');
+const reviewMark=e=>REVIEW_MODE&&e&&e.card&&e.card.briefReferences?' <span class="rv-done" title="Profile rewritten" aria-label="Profile rewritten">\u2713</span>':'';
 function personDates(P){return P.entry?plainDates(P.entry.dates):`active about ${personYear(P)}`;}
 function voiceLine(home,row){
   const line=(home.voices||[])[row.voice];
@@ -125538,9 +125576,10 @@ function scopePeople(sc){
 
 let whoScope=null, whoPick=null;
 function whoScopeLabel(scope){
-  if(scope.type==='trad')return scope.m.shortName||scope.m.name;
-  return `${famOf(scope.lane).name}, era ${eras[scope.era].num}`;
+  if(scope.type==='trad'){const t=scope.m.shortName||scope.m.name;return `People of ${t.replace(/^The /,'the ')}`;}
+  return `People of ${famOf(scope.lane).of}`;
 }
+const whoPillTitle=(k,i)=>`${whoScopeLabel({type:'river',lane:k,era:i})} · ${eras[i].title}`;
 function whoScopeKey(scope){return scope?(scope.type==='trad'?`t:${scope.m.id}`:`r:${scope.lane}:${scope.era}`):'';}
 function whoNameRow(P,x,y,col,fu,line,withDates){
   const U=markU();
@@ -125722,7 +125761,7 @@ function syncWhoControls(){
   const chip=document.getElementById('who-chip');
   if(chip){
     chip.hidden=!whoScope;
-    if(whoScope){chip.querySelector('.who-chip-label').textContent=`Who: ${whoScopeLabel(whoScope)}`;chip.setAttribute('aria-label',`Who: ${whoScopeLabel(whoScope)}. Clear the names from the map.`);}
+    if(whoScope){chip.querySelector('.who-chip-label').textContent=whoScopeLabel(whoScope);chip.setAttribute('aria-label',`${whoScopeLabel(whoScope)}. Clear the names from the map.`);}
     fitFeatureBar();
   }
   document.querySelectorAll('[data-who]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.who===key)));
@@ -125735,16 +125774,16 @@ function whoTipParts(scope){
 }
 function whoTipHTML(title,scope){
   const {names,more}=whoTipParts(scope);
-  return `<div class="n">Who: ${esc(title)}</div>`+names.map(n=>`<div class="m">${esc(n)}</div>`).join('')+(more?`<div class="m">+${more} more</div>`:'');
+  return `<div class="n">${esc(title)}</div>`+names.map(n=>`<div class="m">${esc(n)}</div>`).join('')+(more?`<div class="m">+${more} more</div>`:'');
 }
 function whoAriaLabel(title,scope,n){
   const {names,more}=whoTipParts(scope);
-  return `Who: ${title}, ${n} ${n===1?'person':'people'}: ${names.join(', ')}${more?`, and ${more} more`:''}`;
+  return `${title}, ${n} ${n===1?'person':'people'}: ${names.join(', ')}${more?`, and ${more} more`:''}`;
 }
 function renderWhoPills(){
   riverWho.forEach((list,key)=>{
     const [k,i]=key.split(':').map(Number), n=list.length, col=famColor(famOf(k)), scope={type:'river',lane:k,era:i};
-    const label=whoAriaLabel(`${famOf(k).name}, era ${eras[i].num}`,scope,n);
+    const label=whoAriaLabel(whoPillTitle(k,i),scope,n);
     const g=el('g',{class:'who-pill river-pill','data-lane':k,'data-era':i,'data-who':whoScopeKey(scope),tabindex:'0',role:'button','aria-pressed':'false','aria-label':label});
     g.appendChild(el('circle',{class:'who-hit',r:0}));
     g.appendChild(el('rect',{class:'who-cap',stroke:col}));
@@ -125755,7 +125794,7 @@ function renderWhoPills(){
     const go=()=>setWho(scope);
     g.addEventListener('click',ev=>{ev.stopPropagation();go();});
     g.addEventListener('keydown',ev=>{if(ev.key==='Enter'||ev.key===' '){ev.preventDefault();ev.stopPropagation();go();}});
-    g.addEventListener('mouseenter',ev=>showTip(ev,whoTipHTML(`${famOf(k).name}, era ${eras[i].num}`,scope)));
+    g.addEventListener('mouseenter',ev=>showTip(ev,whoTipHTML(whoPillTitle(k,i),scope)));
     g.addEventListener('mousemove',ev=>positionTip(ev));
     g.addEventListener('mouseleave',hideTip);
     gWhoPills.appendChild(g);
@@ -125896,7 +125935,8 @@ function syncTrayGrip(){
 function trayRowHTML(a,withTrad){
   const onMap=whoPick.shown.includes(a), P=a.P;
   const sub=[personDates(P),withTrad&&!a.m.gap&&(a.m.shortName||a.m.name)].filter(Boolean).join(' · ');
-  return `<li><button type="button" class="tray-row${onMap?' on-map':''}" data-key="${esc(P.key)}"><span class="nm">${esc(P.entry?P.entry.name:P.name)}</span><span class="dt">${esc(sub)}</span>${onMap?'<span class="mk">On the map</span>':''}</button></li>`;
+  const role=P.entry&&P.entry.card&&P.entry.card.role;
+  return `<li><button type="button" class="tray-row${onMap?' on-map':''}" data-key="${esc(P.key)}"><span class="nm">${esc(P.entry?P.entry.name:P.name)}${reviewMark(P.entry)}</span>${role?`<span class="rl">${esc(role)}</span>`:''}<span class="dt">${esc(sub)}</span>${onMap?'<span class="mk">On the map</span>':''}</button></li>`;
 }
 function renderTray(){
   document.body.classList.toggle('tray-open',!!whoScope);
@@ -125904,8 +125944,9 @@ function renderTray(){
   applyTransform();
   if(!whoScope)return;
   const n=whoPick.all.length, sc=whoScope, era=sc.type==='river'?eras[sc.era]:null;
-  tray.querySelector('h2').textContent=`Who: ${whoScopeLabel(sc)}`;
-  tray.querySelector('.tray-sub').textContent=`${n} ${n===1?'person':'people'}${era?' · '+plainDates(era.dates):''}`;
+  tray.querySelector('h2').textContent=whoScopeLabel(sc);
+  const tag=tray.querySelector('.tray-tag'); tag.textContent=era?era.tag:''; tag.hidden=!era;
+  tray.querySelector('.tray-sub').textContent=[era&&era.title,`${n} ${n===1?'person':'people'}`,era&&plainDates(era.dates)].filter(Boolean).join(' · ');
   tray.querySelector('.tray-sort').hidden=sc.type==='trad'||whoPick.trads.filter(m=>!m.gap).length<2;
   tray.querySelectorAll('.tray-sort button').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.sort===traySort)));
   let h='';
@@ -125946,7 +125987,7 @@ function peopleHTML(m){
   const list=(peopleOf[m.id]||[]).length?scopePeople({type:'trad',m}).all.map(a=>a.P):[];
   if(!list.length)return !(m.people||[]).length&&m.peopleNote?`<h3 id="people-section">Who</h3><p class="people-note">${esc(m.peopleNote)}</p>`:'';
   return `<h3 id="people-section" tabindex="-1">Who</h3><ul class="people-list">${list.map(P=>
-    `<li><button type="button" class="panel-link" data-person="${esc(P.key)}">${esc(P.entry?P.entry.name:P.name)}</button> · ${esc(personDates(P))}</li>`).join('')}</ul>`;
+    `<li><button type="button" class="panel-link" data-person="${esc(P.key)}">${esc(P.entry?P.entry.name:P.name)}</button>${reviewMark(P.entry)} · ${P.entry&&P.entry.card&&P.entry.card.role?esc(P.entry.card.role)+' · ':''}${esc(personDates(P))}</li>`).join('')}</ul>`;
 }
 function briefLength(seconds){
   if(seconds<90)return 'about a minute';
@@ -125980,7 +126021,7 @@ function openPersonCard(P){
   pinMovement(p?p.id:null);
   const home=p&&p.toldWithin?byId[p.toldWithin]:null;
   const fullName=p?p.name:P.name;
-  let h=`<h2 id="panelTitle">${esc(fullName)}</h2>`;
+  let h=`<h2 id="panelTitle">${esc(fullName)}${reviewMark(p)}</h2>`;
   h+=`<span class="statuspill kindpill">${p?'A person':'A named voice'}</span>`;
   if(card.label)h+=` <span class="statuspill kindpill">${esc(card.label)}</span>`;
   const forms=[...new Set([p&&p.informalName,p&&p.shortName,...(card.otherNames||[]),...P.rows.filter(r=>r.row.name).map(r=>r.row.name)].filter(n=>n&&normName(n)!==normName(fullName)))];
@@ -126493,7 +126534,7 @@ function mainNarration(){
   return [...panelBody.querySelectorAll('audio')].find(a=>!a.closest('details.docstory-item'));
 }
 function startNarration(a){
-  if(!a||!narrAuto())return;
+  if(!a||!narrAuto()||tour.on)return;
   const p=a.play();
   if(p&&p.catch)p.catch(()=>{});
 }
@@ -126901,7 +126942,7 @@ function openEraCard(i){
   if(councils.length)h+=`<h3>Major councils</h3><ul class="person-list">${councils.map(c=>`<li><button type="button" class="panel-link" data-id="${esc(c.id)}">${esc(c.shortName||c.name)}</button>${/\d{3}/.test(c.shortName||c.name)?'':` <span class="meta">${esc(plainDates(c.dates))}</span>`}</li>`).join('')}</ul>`;
   if(born.length)h+=`<h3>Rivers that begin here</h3><p>${born.map(esc).join(' · ')}</p>`;
   if(majors.length){
-    h+=`<h3>Major people</h3><ul class="person-list">${majors.slice(0,12).map(a=>`<li><button type="button" class="panel-link" data-person="${esc(a.P.key)}">${esc(a.P.entry.name)}</button>${a.m.gap?'':` <span class="meta">${esc(a.m.shortName||a.m.name)}</span>`}</li>`).join('')}</ul>`;
+    h+=`<h3>Major people</h3><ul class="person-list">${majors.slice(0,12).map(a=>`<li><button type="button" class="panel-link" data-person="${esc(a.P.key)}">${esc(a.P.entry.name)}</button>${reviewMark(a.P.entry)}${a.m.gap?'':` <span class="meta">${esc(a.m.shortName||a.m.name)}</span>`}</li>`).join('')}</ul>`;
     h+=`<p class="meta">The map has ${people.length} ${people.length===1?'person':'people'} from this era${majors.length<people.length?`, ${majors.length} of them major`:''}.${majors.length>12?' This list shows 12 of the major people.':''}</p>`;
   }
   if(mapStories.length||nTrad){
@@ -126934,6 +126975,7 @@ function connButtonHTML(m){
 }
 let lastFocused=null;
 function showPanel(page){
+  hideListenBar();
   hideTip();
   lastFocused=document.activeElement;
   if(window.PageFeedback)window.PageFeedback.mount(panelBody,page);
@@ -126941,15 +126983,58 @@ function showPanel(page){
   panel.removeAttribute('inert');
   document.getElementById('panelClose').focus();
 }
-function closePanel(){
-  stopNarration();
+function closePanel(keepListening){
+  const playing=keepListening===true&&[...panelBody.querySelectorAll('audio')].find(a=>!a.paused);
+  if(playing){listen.pin=pinnedMovement;listen.world=new URLSearchParams(location.search).get('world');}
+  else stopNarration();
   pinMovement(null);
   panel.classList.remove('open');
   panel.setAttribute('inert','');
   if(lastFocused&&document.contains(lastFocused))lastFocused.focus();
   lastFocused=null;
   syncWorldURL(null);
+  if(playing)showListenBar(playing);
 }
+const listenBar=document.getElementById('listenBar');
+const listen={audio:null,stop:null,pin:null,world:null};
+function placeListenBar(){
+  if(listenBar.hidden)return;
+  const bar=parseFloat(getComputedStyle(document.documentElement).getPropertyValue('--bar-h'))||0;
+  const lift=narrowScreen()?bar+(tray.hidden?0:tray.offsetHeight):0;
+  listenBar.style.setProperty('--listen-lift',lift+'px');
+}
+function syncListenPlay(){
+  const b=listenBar.querySelector('.lb-play'); b.textContent=listen.audio&&!listen.audio.paused?'Pause':'Play';
+}
+function showListenBar(a){
+  hideListenBar();
+  listen.audio=a; listen.stop=new AbortController();
+  const t=document.getElementById('panelTitle');
+  listenBar.querySelector('.lb-name').textContent=t?t.textContent:'';
+  ['play','pause'].forEach(e=>a.addEventListener(e,syncListenPlay,{signal:listen.stop.signal}));
+  a.addEventListener('ended',hideListenBar,{signal:listen.stop.signal});
+  listenBar.hidden=false; syncListenPlay(); placeListenBar();
+}
+function hideListenBar(){
+  if(listen.stop)listen.stop.abort();
+  listen.audio=null; listen.stop=null; listenBar.hidden=true;
+}
+function reopenListenCard(){
+  const pin=listen.pin, world=listen.world;
+  hideListenBar();
+  pinMovement(pin); syncWorldURL(world);
+  panel.classList.add('open'); panel.removeAttribute('inert');
+  document.getElementById('panelClose').focus();
+}
+listenBar.addEventListener('click',ev=>{
+  const a=listen.audio;
+  if(ev.target.closest('.lb-play')&&a){if(a.paused){const p=a.play();if(p&&p.catch)p.catch(()=>{});}else a.pause();}
+  else if(ev.target.closest('.lb-open'))reopenListenCard();
+  else if(ev.target.closest('.lb-stop')){stopNarration();hideListenBar();}
+});
+['pointerdown','wheel','touchstart'].forEach(t=>listenBar.addEventListener(t,ev=>ev.stopPropagation(),{passive:true}));
+new ResizeObserver(placeListenBar).observe(tray);
+window.addEventListener('resize',placeListenBar);
 function syncWorldURL(id){
   const p=new URLSearchParams(location.search);
   if(id)p.set('world',id); else p.delete('world');
@@ -126962,7 +127047,7 @@ function focusWorld(m){
   ty=window.innerHeight/2-m._y*scale;
   applyTransform(); applyDetail();
 }
-document.getElementById('panelClose').addEventListener('click',closePanel);
+document.getElementById('panelClose').addEventListener('click',()=>closePanel());
 panel.addEventListener('keydown',(ev)=>{
   if(!panel.classList.contains('open'))return;
   if(ev.key==='Escape'){ev.preventDefault();closePanel();return;}
@@ -127030,6 +127115,7 @@ function buildLegend(){
   ];
   let key=`<dl class="key-list">${keyRows.map(r=>`<div class="key-row">${r[0]}<div><dt>${r[1]}</dt><dd>${r[2]}</dd></div></div>`).join('')}</dl>`;
   key+=`<p class="note">Zoom in to see more: first the major traditions, then every tradition and story, then places and people.</p><p class="note">Places are given with the country they lie in today.</p>`;
+  key+=`<span class="cap">Take a tour</span><button type="button" class="row tour-row" data-tour="intro"><span class="sw-name">Getting started</span></button><button type="button" class="row tour-row" data-tour="conn"><span class="sw-name">Connections</span></button>`;
   key+=`<div class="foot">&copy; 2026 Faithways Studio, Inc., a Colorado public benefit corporation &middot; <a href="license.html">License</a>. The same team makes <a href="https://churchinconversation.com/">Church in Conversation</a>.<br><a href="about.html">About</a> · <a href="method.html">Method</a> · <a href="data.html">Data and citation</a> · <a href="privacy.html">Privacy</a> · <a href="https://churchinconversation.com/license">License</a> · <a href="terms.html">Terms</a> · <a href="support.html">Help us grow</a></div>`;
   const group=(id,icon,label,body,extra)=>`<div class="chip-group grp-${id}"><button type="button" class="chip has-ico" aria-expanded="false" aria-controls="sw-${id}"${extra||''}>${barIcon(icon)}<span class="sw-name">${label}<span class="dn" aria-hidden="true"> &#9662;</span></span></button><div class="chip-panel" id="sw-${id}" hidden>${body}</div></div>`;
   const layer=(id,label)=>`<button type="button" class="chip has-ico" data-toggle="${id}" aria-pressed="true">${barIcon(id)}<span class="sw-name">${label}</span><span class="sw" aria-hidden="true"></span></button>`;
@@ -127084,7 +127170,8 @@ function buildLegend(){
     else{announce(`${label(b)} ${on?'showing':'hidden'}.`);toast(`${label(b)}: ${on?'on':'off'}`);}
   }));
   wrap.querySelectorAll('.conn-seg [data-mode]').forEach(b=>b.addEventListener('click',ev=>{
-    ev.stopPropagation(); linkMode=b.dataset.mode; save(); applyToggles();
+    ev.stopPropagation(); const was=linkMode; linkMode=b.dataset.mode; save(); applyToggles();
+    if(was==='off'&&linkMode!=='off')tourOfferConn();
     const shown=gEdges.querySelectorAll('.edge-line:not(.is-off)').length;
     announce(linkMode==='off'?'Connections hidden.':`${shown} ${linkMode==='major'?'major ':''}${shown===1?'connection':'connections'} showing.`);
   }));
@@ -127152,6 +127239,7 @@ function showConnections(m){
   connChip.querySelector('.cc-x').setAttribute('aria-label',`Connections: ${name}, ${n}. Clear ${n===1?'it':'them'} from the map.`);
   connChip.hidden=false; announce(`${n} ${cn} of ${name} showing.`);
   connChip.querySelector('.cc-x').focus();
+  tourOfferConn();
 }
 connChip.querySelector('.cc-x').addEventListener('click',clearConnections);
 document.addEventListener('keydown',ev=>{if(ev.key==='Escape'&&!ev.defaultPrevented&&connFocus&&!panel.classList.contains('open'))clearConnections();});
@@ -127399,8 +127487,9 @@ stage.addEventListener('wheel',(ev)=>{
 },{passive:false});
 
 const DRAG_THRESHOLD=4;
-let dragArmedId=null, dragging=false, downX=0, downY=0, lastX=0, lastY=0;
+let dragArmedId=null, dragging=false, justDragged=false, downX=0, downY=0, lastX=0, lastY=0;
 stage.addEventListener('pointerdown',(ev)=>{
+  justDragged=false;
   if(ev.pointerType==='touch')return;
   dragArmedId=ev.pointerId; downX=lastX=ev.clientX; downY=lastY=ev.clientY;
 });
@@ -127414,10 +127503,16 @@ stage.addEventListener('pointermove',(ev)=>{
 });
 function endDrag(ev){
   if(ev.pointerType==='touch')return;
-  dragArmedId=null; dragging=false; stage.classList.remove('grabbing');
+  justDragged=dragging; dragArmedId=null; dragging=false; stage.classList.remove('grabbing');
 }
 stage.addEventListener('pointerup',endDrag);
 stage.addEventListener('pointercancel',endDrag);
+stage.addEventListener('click',(ev)=>{
+  if(justDragged){justDragged=false;return;}
+  if(!panel.classList.contains('open'))return;
+  if(ev.target.closest&&ev.target.closest('[role="button"],[tabindex="0"],a,.edge-hit,.edge-line,.continues'))return;
+  lastFocused=null; closePanel(true);
+});
 
 function announce(msg){
   const box=document.getElementById('mapStatus');
@@ -127670,6 +127765,224 @@ function positionFeatureBar(){
 }
 positionFeatureBar();
 window.addEventListener('resize',()=>{positionFeatureBar();applyTransform();if(whoScope&&!panel.classList.contains('open'))zoomToWho();});
+const TOUR_STORE={intro:'cft-tour-intro',conn:'cft-tour-conn'};
+const tourSeen=k=>{try{return localStorage.getItem(TOUR_STORE[k])==='seen';}catch(e){return false;}};
+const tourMark=k=>{try{localStorage.setItem(TOUR_STORE[k],'seen');}catch(e){}};
+const tourBox=document.getElementById('tourBox'), tourRing=document.getElementById('tourRing');
+const tour={on:null,offer:null,i:0,tok:0,saved:null,ownConn:false,opener:null,ring:null,raf:0,moveRaf:0};
+const tourTrad=()=>DATA.movements.find(m=>m.shortName==='Scattered Households');
+const tourWait=ms=>new Promise(r=>setTimeout(r,ms));
+function tourFree(){
+  const narrow=narrowScreen(), boxH=tourBox.hidden?0:tourBox.offsetHeight+24;
+  const left=!narrow&&!tray.hidden?tray.offsetWidth:0;
+  const right=window.innerWidth-(!narrow&&panel.classList.contains('open')?panel.offsetWidth:0);
+  const top=topInset(), bottom=window.innerHeight-barHeight()-(narrow&&!tray.hidden?tray.offsetHeight:0)-boxH;
+  return {x:left,y:top,w:Math.max(80,right-left),h:Math.max(80,bottom-top)};
+}
+function tourMoveTo(x,y,s){
+  stopGlide(); if(tour.moveRaf)cancelAnimationFrame(tour.moveRaf);
+  const r=tourFree(), to=[r.x+r.w/2-x*s,r.y+r.h/2-y*s,s];
+  if(reduceMotion.matches){[tx,ty,scale]=to;applyTransform();applyDetail();return Promise.resolve();}
+  const from=[tx,ty,scale], t0=performance.now(), D=650;
+  return new Promise(res=>{
+    const f=now=>{
+      const k=Math.min(1,(now-t0)/D), e=k<.5?2*k*k:1-Math.pow(-2*k+2,2)/2;
+      tx=from[0]+(to[0]-from[0])*e; ty=from[1]+(to[1]-from[1])*e; scale=from[2]+(to[2]-from[2])*e;
+      applyTransform();
+      if(k<1)tour.moveRaf=requestAnimationFrame(f); else{tour.moveRaf=0;applyDetail();res();}
+    };
+    tour.moveRaf=requestAnimationFrame(f);
+  });
+}
+function tourFrameEra(){const m=tourTrad();return tourMoveTo(m._x+120,m._y+90,Z_READ);}
+function tourPoint(target){tour.ring=target||null;tourRing.hidden=!target;tourTrack();}
+function tourTrack(){
+  if(!tour.on&&!tour.offer){tour.raf=0;return;}
+  placeTourBox();
+  const t=tour.ring, els=typeof t==='function'?t():t?(Array.isArray(t)?t:[t]):[];
+  const card=panel.classList.contains('open')?panel.getBoundingClientRect():null;
+  const rs=els.filter(e=>e&&e.isConnected).map(e=>[e,e.getBoundingClientRect()]).filter(([e,r])=>(r.width||r.height)&&!(card&&!panel.contains(e)&&r.right>card.left&&r.left<card.right)).map(([e,r])=>r);
+  if(rs.length){
+    const x0=Math.min(...rs.map(r=>r.left)),y0=Math.min(...rs.map(r=>r.top)),x1=Math.max(...rs.map(r=>r.right)),y1=Math.max(...rs.map(r=>r.bottom)),p=6;
+    Object.assign(tourRing.style,{left:x0-p+'px',top:y0-p+'px',width:x1-x0+2*p+'px',height:y1-y0+2*p+'px'});
+    tourRing.hidden=false;
+    tourClearBox(x0-p,y0-p,x1+p,y1+p);
+  } else tourRing.hidden=true;
+  tour.raf=requestAnimationFrame(tourTrack);
+}
+function placeTourBox(){
+  const narrow=narrowScreen();
+  const listening=listenBar.hidden?0:listenBar.offsetHeight+8;
+  const lift=(narrow?barHeight()+(tray.hidden||panel.classList.contains('open')?0:tray.offsetHeight):0)+listening;
+  tourBox.style.setProperty('--tour-lift',lift+'px');
+  if(narrow){tourBox.style.left='';return;}
+  const left=tray.hidden?0:tray.offsetWidth, right=window.innerWidth-(panel.classList.contains('open')?panel.offsetWidth:0);
+  tourBox.style.left=(left+right)/2+'px';
+}
+function tourClearBox(x0,y0,x1,y1){
+  if(narrowScreen())return;
+  const b=tourBox.getBoundingClientRect(), w=b.width, gap=16;
+  if(b.right<x0||b.left>x1||b.bottom<y0||b.top>y1)return;
+  if(x0-gap-w>=8)tourBox.style.left=x0-gap-w/2+'px';
+  else if(x1+gap+w<=window.innerWidth-8)tourBox.style.left=x1+gap+w/2+'px';
+}
+function tourClick(el){if(el)el.dispatchEvent(new MouseEvent('click',{bubbles:true}));}
+function tourCloseMenus(){document.body.click();}
+function tourGlow(els){document.querySelectorAll('.tour-glow').forEach(e=>e.classList.remove('tour-glow'));(els||[]).forEach(e=>e&&e.classList.add('tour-glow'));}
+function tourBase(){
+  if(panel.classList.contains('open')){lastFocused=null;closePanel();}
+  if(whoScope)clearWho();
+  tourCloseMenus(); tourGlow(null); tourPoint(null);
+}
+function tourVisibleHits(){
+  const r=tourFree();
+  return [...gEdges.querySelectorAll(connFocus?'.edge-hit.conn-lit':'.edge-hit:not(.is-off)')].filter(h=>getComputedStyle(h).display!=='none').filter(h=>{
+    const b=h.getBoundingClientRect(); return b.right>r.x&&b.left<r.x+r.w&&b.bottom>r.y&&b.top<r.y+r.h;});
+}
+function tourLines(){
+  const hits=tourVisibleHits();
+  const solid=hits.find(h=>h.dataset.conf==='Documented');
+  const broken=hits.find(h=>h.dataset.conf==='Contested'||h.dataset.conf==='Inferential-Thin')||hits.find(h=>h.dataset.conf&&h.dataset.conf!=='Documented');
+  return {solid,broken,any:hits[0]};
+}
+const linksChip=()=>document.querySelector('.grp-links .chip');
+function tourOpenLinks(){const c=linksChip();if(c&&!narrowScreen()&&document.getElementById(c.getAttribute('aria-controls')).hidden)tourClick(c);}
+const TOURS={
+  intro:[
+    {title:'The map',text:'Each colored river is a family of churches. Read down the map through ten eras, from the first house-churches to about 2010.',
+     enter:async ok=>{tourBase();await tourFrameEra();}},
+    {title:'A tradition',text:'Each small house is one tradition. Open it to read its story, or press play to hear it.',
+     enter:async ok=>{tourBase();await tourFrameEra();if(!ok())return;
+       const n=gNodes.querySelector(`.node[data-id="${CSS.escape(tourTrad().id)}"]`);tourPoint(n);await tourWait(700);if(!ok())return;tourClick(n);}},
+    {title:'Who was there',text:'A figure on a river stands for its people in that era. Open it to see who they were.',
+     enter:async ok=>{tourBase();await tourFrameEra();if(!ok())return;
+       const pill=gWhoPills.querySelector('.river-pill[data-who="r:0:0"]');tourPoint(pill);await tourWait(700);if(!ok())return;tourClick(pill);
+       await tourWait(500);if(!ok())return;
+       const a=whoPick&&whoPick.all.find(a=>(a.P.entry?a.P.entry.name:a.P.name)==='Josephus');
+       const row=a&&tray.querySelector(`.tray-row[data-key="${CSS.escape(a.P.key)}"]`);
+       tourPoint(row);await tourWait(700);if(!ok())return;if(row)row.click();}},
+    {title:'The era',text:'Each band is an era. Its title opens a card about what was happening across the whole church.',
+     enter:async ok=>{tourBase();await tourFrameEra();if(!ok())return;
+       const t=eraStrip.hidden?gLabels.querySelector('.era-label'):document.getElementById('eraStripBtn');tourPoint(t);await tourWait(700);if(!ok())return;
+       if(t&&t.tagName==='BUTTON')t.click();else tourClick(t);}},
+    {title:'Your view',text:'Use this bar to show or hide people, stories and councils. The Key explains every mark on the map.',
+     enter:async ok=>{tourBase();tourPoint(document.querySelector('.feature-bar'));await tourWait(1800);if(!ok())return;
+       tourPoint(document.querySelector('.grp-key .chip'));}}
+  ],
+  conn:[
+    {title:'What a line means',text:'A line joins two traditions where the sources record a link. Its color and the mark at its end show the kind of link.',
+     enter:async ok=>{tourBase();
+       if(narrowScreen()){tourPoint(connChip.hidden?null:connChip);return;}
+       tourOpenLinks();const rows=[...document.querySelectorAll('#sw-links [data-kind]')];
+       if(rows.length)rows[rows.length-1].scrollIntoView({block:'nearest'});tourPoint(()=>rows);}},
+    {title:'How sure the record is',text:'The pattern shows how sure the record is. A solid line is documented. The more broken the line, the thinner the evidence.',
+     enter:async ok=>{tourBase();const L=tourLines();
+       if(!L.solid&&!L.broken){if(!narrowScreen()){tourOpenLinks();const rows=[...document.querySelectorAll('#sw-links div.row')];
+         if(rows.length)rows[rows.length-1].scrollIntoView({block:'nearest'});tourPoint(()=>rows);}return;}
+       tourGlow([L.solid||L.broken]);if(!L.solid||!L.broken)return;
+       await tourWait(1600);if(!ok())return;tourGlow([L.broken]);}},
+    {title:'Read one',text:'Click any line to read what the sources say about it.',
+     enter:async ok=>{tourBase();const L=tourLines(),h=L.solid||L.any;if(!h)return;
+       tourGlow([h]);await tourWait(800);if(!ok())return;tourClick(h);}}
+  ]
+};
+function tourRender(){
+  const steps=TOURS[tour.on], s=steps[tour.i];
+  tourBox.classList.remove('is-offer');
+  document.getElementById('tourCount').textContent=`Step ${tour.i+1} of ${steps.length}`;
+  document.getElementById('tourTitle').textContent=s.title;
+  document.getElementById('tourText').textContent=s.text;
+  const back=tourBox.querySelector('.tb-back'), next=tourBox.querySelector('.tb-next');
+  back.textContent='Back'; back.hidden=tour.i===0;
+  next.textContent=tour.i===steps.length-1?'Done':'Next';
+  tourBox.querySelector('.tb-stop').setAttribute('aria-label','Stop the tour');
+}
+async function tourGo(i){
+  tour.i=i; const tok=++tour.tok, ok=()=>tour.tok===tok&&!!tour.on;
+  tourRender(); tourBox.hidden=false;
+  document.getElementById('tourTitle').focus();
+  await TOURS[tour.on][i].enter(ok);
+  if(ok()&&!tourBox.contains(document.activeElement))document.getElementById('tourTitle').focus();
+}
+function startTour(kind){
+  tourHideOffer(false);
+  if(tour.on)endTour();
+  stopNarration(); hideListenBar();
+  tour.opener=document.activeElement;
+  tour.saved={tx,ty,scale,who:whoScope,conn:connFocus};
+  tour.on=kind; tour.ownConn=false;
+  if(kind==='conn'&&effectiveLinkMode()==='off'&&!connFocus){tour.ownConn=true;showConnections(tourTrad());}
+  if(!tour.raf)tour.raf=requestAnimationFrame(tourTrack);
+  tourGo(0);
+}
+function endTour(){
+  if(!tour.on)return;
+  const sv=tour.saved, kind=tour.on, own=tour.ownConn;
+  tour.on=null; tour.tok++; tourBox.hidden=true; tourRing.hidden=true; tour.ring=null;
+  if(tour.moveRaf){cancelAnimationFrame(tour.moveRaf);tour.moveRaf=0;}
+  if(panel.classList.contains('open')){lastFocused=null;closePanel();}
+  if(whoScope)clearWho();
+  tourCloseMenus(); tourGlow(null);
+  if(kind==='conn'&&own)clearConnections();
+  if(sv){
+    if(sv.who&&!sv.conn)setWho(sv.who,{on:true});
+    if(sv.conn&&!(kind==='conn'&&own)&&connFocus!==sv.conn)showConnections(sv.conn);
+    tx=sv.tx;ty=sv.ty;scale=sv.scale;applyTransform();applyDetail();
+  }
+  const back=tour.opener; tour.opener=null;
+  if(back&&back.isConnected&&!back.closest('[inert],#tourBox,.chip-panel,#siteMenu')&&back!==document.body)back.focus(); else stage.focus({preventScroll:true});
+}
+const TOUR_OFFERS={
+  intro:{text:'New here? Take a one-minute tour of the map.',no:'Explore on my own'},
+  conn:{text:'New to connections? Take a 30-second tour.',no:'No thanks'}
+};
+function tourOffer(kind){
+  if(tour.on||tourSeen(kind))return;
+  const o=TOUR_OFFERS[kind];
+  tour.offer=kind;
+  tourBox.classList.add('is-offer');
+  document.getElementById('tourCount').textContent='';
+  document.getElementById('tourTitle').textContent=o.text;
+  document.getElementById('tourText').textContent='';
+  const back=tourBox.querySelector('.tb-back'), next=tourBox.querySelector('.tb-next');
+  back.hidden=false; back.textContent=o.no; next.textContent='Show me';
+  tourBox.querySelector('.tb-stop').setAttribute('aria-label',o.no);
+  tourBox.hidden=false;
+  if(!tour.raf)tour.raf=requestAnimationFrame(tourTrack);
+}
+function tourHideOffer(answered){
+  if(!tour.offer)return;
+  if(answered)tourMark(tour.offer);
+  tour.offer=null;
+  if(!tour.on)tourBox.hidden=true;
+}
+function tourOfferConn(){if(!tour.on&&!tourSeen('conn'))tourOffer('conn');}
+tourBox.addEventListener('click',ev=>{
+  ev.stopPropagation();
+  const b=ev.target.closest('button'); if(!b)return;
+  if(tour.offer){
+    const kind=tour.offer;
+    if(b.classList.contains('tb-next')){tourHideOffer(true);startTour(kind);}
+    else tourHideOffer(true);
+    return;
+  }
+  if(!tour.on)return;
+  const n=TOURS[tour.on].length;
+  if(b.classList.contains('tb-next')){if(tour.i<n-1)tourGo(tour.i+1);else endTour();}
+  else if(b.classList.contains('tb-back')){if(tour.i>0)tourGo(tour.i-1);}
+  else if(b.classList.contains('tb-stop'))endTour();
+});
+['pointerdown','wheel','touchstart'].forEach(t=>tourBox.addEventListener(t,ev=>ev.stopPropagation(),{passive:true}));
+document.addEventListener('keydown',ev=>{
+  if(ev.key!=='Escape')return;
+  if(tour.on){ev.preventDefault();ev.stopPropagation();endTour();}
+  else if(tour.offer){ev.preventDefault();ev.stopPropagation();tourHideOffer(true);}
+},true);
+document.addEventListener('click',ev=>{
+  const b=ev.target.closest&&ev.target.closest('[data-tour]'); if(!b)return;
+  ev.preventDefault(); ev.stopPropagation(); tourCloseMenus(); startTour(b.dataset.tour);
+},true);
+if(!location.search)setTimeout(()=>{if(!panel.classList.contains('open')&&!whoScope)tourOffer('intro');},1200);
 
 render();
 buildLegend();
