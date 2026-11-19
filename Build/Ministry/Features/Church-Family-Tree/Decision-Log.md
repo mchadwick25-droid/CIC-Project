@@ -4824,3 +4824,9 @@ Mark heard the Tacitus sample (3:29, 1,506 credits) and approved the rest: "appr
 - A river whose parent is declared without such a link starts on its own, just above its first tradition: Syriac East, Greek East, Africa, Latin West, Non-Nicene, Caucasus, Church and Empire, and Global Revival & Pentecostal.
 - `RIVER_ORIGINS` is unchanged. Each river's card gains "Where it began": for a declared parent, its reason, parent, confidence and sources; for a lineage parent, the two linked traditions, the kind of link and its confidence.
 - A river's people figure in its first era sits where it settles into its own lane (for a river that starts on its own, at its start), lower only to clear a label.
+
+## 2026-11-19 — A river that starts on its own rises above its first tradition, with its people figure there
+
+**Why.** Mark: "extend the river up from the first tradition and put the who number for the river above the first tradition, here it looks like it from the tradition not the river". The river began at its first tradition and its people figure sat just below that tradition, so the figure read as the tradition's own.
+
+**Done (Mark's direction, 2026-11-19).** A river that starts on its own (no tradition-level link) now rises 90 map units above its first tradition, at full width, tapering to a point at its head. In its first era its people figure sits on that stretch, just above the first tradition and below the era line. The people figure of a river that branches from a linked tradition is placed as before.
