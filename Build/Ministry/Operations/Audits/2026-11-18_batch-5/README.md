@@ -14,3 +14,6 @@ Each folder holds `Source_Sheet.md` and `Outline.md` from the researcher, and `C
 6. Card.
 7. Second readings (`tools/list_second_readings.py`).
 8. Recording, with Mark's approval and a credit cap first; then release.
+
+## Status (2026-11-19)
+Steps 0 to 7 are done, and the twelve are released into the census and the tree pages (`Release.md`); the reshape to Mark's approved lengths is in each folder's `Reshape.md` and `Reshape_Review.md`. A drift read is in `../2026-11-19_batch-5-read/`. Open points: Open-Gaps, "Batch 5, twelve stories on the batch 5 kit: what is open at release" (2026-11-19). Recording waits on Mark's approval and a credit cap.
